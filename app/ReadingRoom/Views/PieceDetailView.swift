@@ -79,6 +79,7 @@ struct PieceWebView: UIViewRepresentable {
         webView.navigationDelegate = context.coordinator
         webView.scrollView.contentInsetAdjustmentBehavior = .automatic
         webView.isOpaque = false
+        webView.allowsBackForwardNavigationGestures = true
         return webView
     }
 
@@ -102,12 +103,17 @@ struct PieceWebView: UIViewRepresentable {
             decidePolicyFor navigationAction: WKNavigationAction,
             decisionHandler: @escaping (WKNavigationActionPolicy) -> Void
         ) {
-            // Only the initial request (loadedURL) is allowed to load in-place.
-            // Anything the user taps goes to Safari.
+            // Same-host links (chapter ↔ chapter, chapter → index) stay in the
+            // WebView; everything else goes to Safari.
             if navigationAction.navigationType == .linkActivated,
                let target = navigationAction.request.url {
-                UIApplication.shared.open(target)
-                decisionHandler(.cancel)
+                let currentHost = webView.url?.host
+                if let host = target.host, host == currentHost {
+                    decisionHandler(.allow)
+                } else {
+                    UIApplication.shared.open(target)
+                    decisionHandler(.cancel)
+                }
                 return
             }
             decisionHandler(.allow)

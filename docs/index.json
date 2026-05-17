@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-05-17T03:59:59.656Z",
+  "generated_at": "2026-05-17T04:23:24.036Z",
   "pieces": [
+    {
+      "slug": "three-essays-on-color",
+      "title": "Three Essays on Color",
+      "author": "Matthew Litwin",
+      "date": "2026-05-17",
+      "tags": [
+        "folder",
+        "essay"
+      ],
+      "summary": "A small interlinked piece — index plus three short chapters — to exercise the folder structure.",
+      "html_path": "three-essays-on-color/index.html"
+    },
     {
       "slug": "hello",
       "title": "Hello, Reading Room",
