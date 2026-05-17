@@ -1,0 +1,13 @@
+# Reading Room — App Store Connect / Developer Portal metadata.
+# Credentials come from the env (App Store Connect API Key); this file only
+# pins the team and bundle id so lanes don't have to.
+
+app_identifier "org.antoninus.readingroom.app"
+
+# Developer Portal Team ID (10-char). Same Apple team as the other personal apps.
+team_id "352K435X8J"
+
+# App Store Connect Team ID (numeric). Set to avoid interactive selection.
+itc_team_id "210523"
+
+apple_id "matthewlitwin@mac.com"

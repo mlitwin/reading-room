@@ -39,10 +39,15 @@ targets:
         CFBundleDevelopmentRegion: "en"
         CFBundleLocalizations:
           - "en"
+        # App uses HTTPS only via system URLSession — qualifies for the
+        # standard exemption, declared here so TestFlight uploads don't
+        # prompt for export-compliance on every build.
+        ITSAppUsesNonExemptEncryption: false
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: org.antoninus.readingroom.app
       PRODUCT_NAME: ReadingRoom
       CODE_SIGN_STYLE: Automatic
+      DEVELOPMENT_TEAM: 352K435X8J
       DEAD_CODE_STRIPPING: YES
 
 schemes:

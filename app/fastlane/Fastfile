@@ -1,0 +1,205 @@
+require 'fileutils'
+
+default_platform(:ios)
+
+APP_IDENTIFIER = "org.antoninus.readingroom.app"
+APP_NAME       = "Reading Room"
+SCHEME         = "ReadingRoom"
+TEAM_ID        = "352K435X8J"
+
+platform :ios do
+  desc "Regenerate Xcode project from project.yml via XcodeGen"
+  lane :generate do
+    sh("which xcodegen >/dev/null 2>&1 || brew install xcodegen")
+    spec = File.expand_path('../project.yml', __dir__)
+    sh("xcodegen generate --spec #{spec}")
+  end
+
+  # Build the ASC API key object from env. Required by produce / cert / sigh /
+  # pilot. Errors loudly if any of the three env vars is missing.
+  private_lane :asc_api_key do
+    key_id      = (ENV['APP_STORE_CONNECT_API_KEY_ID']   || '').strip
+    issuer_id   = (ENV['APP_STORE_CONNECT_ISSUER_ID']    || '').strip
+    key_content = (ENV['APP_STORE_CONNECT_API_KEY']      || '').strip
+    if key_id.empty? || issuer_id.empty? || key_content.empty?
+      UI.user_error!("Missing ASC API key env. Set APP_STORE_CONNECT_API_KEY_ID, APP_STORE_CONNECT_ISSUER_ID, APP_STORE_CONNECT_API_KEY (tip: invoke via `make fastlane-...` or `make bootstrap*`).")
+    end
+    app_store_connect_api_key(
+      key_id: key_id,
+      issuer_id: issuer_id,
+      key_content: key_content,
+      is_key_content_base64: false,
+    )
+  end
+
+  desc "Create the app identifier on the Developer Portal and a matching ASC record (idempotent)"
+  lane :bootstrap_app_id do
+    api_key = asc_api_key
+    produce(
+      api_key: api_key,
+      app_identifier: APP_IDENTIFIER,
+      app_name: APP_NAME,
+      language: "en-US",
+      sku: APP_IDENTIFIER,
+      team_id: TEAM_ID,
+    )
+  end
+
+  desc "Ensure a Distribution cert and App Store provisioning profile exist (idempotent)"
+  lane :bootstrap_profile do
+    api_key = asc_api_key
+    cert(
+      api_key: api_key,
+      development: false,
+      team_id: TEAM_ID,
+    )
+    sigh(
+      api_key: api_key,
+      app_identifier: APP_IDENTIFIER,
+      team_id: TEAM_ID,
+    )
+  end
+
+  desc "One-time bootstrap: app id + cert + provisioning profile"
+  lane :bootstrap do
+    bootstrap_app_id
+    bootstrap_profile
+  end
+
+  desc "Archive iOS app (Release) -> build/ReadingRoom.ipa"
+  lane :archive do
+    generate
+    proj = File.expand_path('../ReadingRoom.xcodeproj', __dir__)
+    gym(
+      scheme: SCHEME,
+      configuration: "Release",
+      project: proj,
+      clean: true,
+      export_method: "app-store",
+      xcargs: "-allowProvisioningUpdates",
+      output_directory: "build",
+      output_name: "ReadingRoom.ipa",
+    )
+  end
+
+  desc "Build Release and upload to TestFlight"
+  lane :alpha do
+    api_key = asc_api_key
+    generate
+    proj = File.expand_path('../ReadingRoom.xcodeproj', __dir__)
+    ipa_path = gym(
+      scheme: SCHEME,
+      configuration: "Release",
+      project: proj,
+      clean: true,
+      export_method: "app-store",
+      xcargs: "-allowProvisioningUpdates",
+      output_directory: "build",
+      output_name: "ReadingRoom.ipa",
+    )
+
+    release_notes_path = File.expand_path("./ReleaseNotes.md", __dir__)
+    changelog_text =
+      if File.exist?(release_notes_path)
+        raw = File.read(release_notes_path).strip
+        raw.length > 4000 ? raw[0..3996] + "..." : raw
+      else
+        ENV['BETA_CHANGELOG'] || "Alpha build"
+      end
+
+    upload_to_testflight(
+      api_key: api_key,
+      ipa: ipa_path,
+      skip_waiting_for_build_processing: false,
+      changelog: changelog_text,
+    )
+  end
+
+  desc "Write fastlane/ReleaseNotes.md from `git log <last-tag>..HEAD`"
+  lane :generate_release_notes do
+    latest_tag = sh("git tag -l --sort=-version:refname | head -1", log: false).strip
+    git_range = latest_tag.empty? ? "HEAD" : "#{latest_tag}..HEAD"
+    commits = sh("git log #{git_range} --oneline --no-merges", log: false).strip
+
+    notes =
+      if commits.empty?
+        "No changes since last release."
+      else
+        lines = commits.split("\n").map { |l| "• #{l}" }
+        latest_tag.empty? ? lines.join("\n") : "Changes since #{latest_tag}:\n\n#{lines.join("\n")}"
+      end
+
+    path = File.expand_path("./ReleaseNotes.md", __dir__)
+    File.write(path, notes)
+    UI.success("Wrote #{path}")
+    UI.message(notes)
+    path
+  end
+
+  desc "Bump patch version + build number, commit, tag"
+  lane :bump_patch do
+    bump_version(type: "patch")
+  end
+
+  desc "Bump minor version + build number, commit, tag"
+  lane :bump_minor do
+    bump_version(type: "minor")
+  end
+
+  desc "Bump major version + build number, commit, tag"
+  lane :bump_major do
+    bump_version(type: "major")
+  end
+
+  # Rewrites version + build directly in project.yml (the source of truth) and
+  # regenerates the xcodeproj. Avoids agvtool because the xcodeproj is
+  # gitignored and would be overwritten on the next `generate` anyway.
+  private_lane :bump_version do |options|
+    type = options[:type] || "patch"
+    ensure_git_status_clean
+
+    project_yml_path = File.expand_path("../project.yml", __dir__)
+    yml = File.read(project_yml_path)
+
+    cur_version = yml.match(/CFBundleShortVersionString:\s*"([^"]+)"/)&.captures&.first
+    cur_build   = yml.match(/CFBundleVersion:\s*"([^"]+)"/)&.captures&.first
+    UI.user_error!("Couldn't find CFBundleShortVersionString / CFBundleVersion in project.yml") unless cur_version && cur_build
+
+    new_version = bump_semver(cur_version, type)
+    new_build   = (cur_build.to_i + 1).to_s
+
+    yml = yml
+      .gsub(/CFBundleShortVersionString:\s*"[^"]*"/, %(CFBundleShortVersionString: "#{new_version}"))
+      .gsub(/CFBundleVersion:\s*"[^"]*"/,            %(CFBundleVersion: "#{new_build}"))
+    File.write(project_yml_path, yml)
+    UI.success("project.yml: #{cur_version} (#{cur_build}) -> #{new_version} (#{new_build})")
+
+    generate
+
+    tag = "v#{new_version}-#{new_build}"
+    existing_tags = sh("git tag -l", log: false).strip.split("\n")
+    if existing_tags.include?(tag)
+      UI.important("Tag #{tag} already exists; skipping git commit + tag")
+      next({ version: new_version, build: new_build, tag: tag })
+    end
+
+    git_add(path: "project.yml")
+    git_commit(path: "project.yml", message: "Bump version to #{new_version} (#{new_build})")
+    add_git_tag(tag: tag, message: "Release #{new_version} (#{new_build})")
+    UI.success("Tagged #{tag}")
+
+    { version: new_version, build: new_build, tag: tag }
+  end
+
+  def bump_semver(current, type)
+    parts = current.split('.').map(&:to_i)
+    parts << 0 while parts.length < 3
+    major, minor, patch = parts
+    case type
+    when "major" then [major + 1, 0, 0]
+    when "minor" then [major, minor + 1, 0]
+    when "patch" then [major, minor, patch + 1]
+    else UI.user_error!("Unknown bump type: #{type}")
+    end.join('.')
+  end
+end

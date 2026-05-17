@@ -9,3 +9,9 @@ xcuserdata/
 *.xcuserstate
 DerivedData/
 .swiftpm/
+
+# Fastlane
+app/fastlane/report.xml
+app/fastlane/test_output/
+app/vendor/bundle/
+app/.bundle/
