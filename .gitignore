@@ -15,3 +15,11 @@ app/fastlane/report.xml
 app/fastlane/test_output/
 app/vendor/bundle/
 app/.bundle/
+
+# Signing artifacts dropped by `cert` / `sigh` (private key in .p12; the rest
+# is fastlane bookkeeping). Cert + profile live in the keychain / Xcode after
+# bootstrap; the files don't need to be in the repo.
+app/*.cer
+app/*.certSigningRequest
+app/*.p12
+app/*.mobileprovision
