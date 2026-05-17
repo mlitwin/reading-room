@@ -130,10 +130,8 @@ export async function build() {
       date: escapeHtml(date),
       tags: tagsHtml,
       body,
-      mdPath: escapeAttr(`${piece.slug}.md`),
     });
     await fs.writeFile(path.join(DOCS_DIR, `${piece.slug}.html`), rendered);
-    await fs.copyFile(piece.rawPath, path.join(DOCS_DIR, `${piece.slug}.md`));
 
     indexEntries.push({
       slug: piece.slug,
@@ -142,7 +140,6 @@ export async function build() {
       date: date || null,
       tags,
       summary,
-      md_path: `${piece.slug}.md`,
       html_path: `${piece.slug}.html`,
     });
   }

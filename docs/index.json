@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T03:05:34.518Z",
+  "generated_at": "2026-05-17T03:59:59.656Z",
   "pieces": [
     {
       "slug": "hello",
@@ -11,7 +11,6 @@
         "intro"
       ],
       "summary": "A first piece to make sure the build works.",
-      "md_path": "hello.md",
       "html_path": "hello.html"
     },
     {
@@ -24,7 +23,6 @@
         "geometry"
       ],
       "summary": "Math rendering smoke test using one of the oldest theorems we have.",
-      "md_path": "pythagorean-theorem.md",
       "html_path": "pythagorean-theorem.html"
     },
     {
@@ -37,7 +35,6 @@
         "programming"
       ],
       "summary": "A code-block smoke test — the same trivial program in three syntaxes.",
-      "md_path": "fizzbuzz.md",
       "html_path": "fizzbuzz.html"
     },
     {
@@ -50,7 +47,6 @@
         "focus"
       ],
       "summary": "A short essay to stress-test the typography on a longer-form piece.",
-      "md_path": "on-attention.md",
       "html_path": "on-attention.html"
     }
   ]
