@@ -1,65 +1,58 @@
 {
-  "generated_at": "2026-05-17T04:23:24.036Z",
+  "generated_at": "2026-05-17T21:22:31.414Z",
   "pieces": [
     {
-      "slug": "three-essays-on-color",
-      "title": "Three Essays on Color",
+      "slug": "notes-on-sorting",
+      "title": "Notes on Sorting",
       "author": "Matthew Litwin",
       "date": "2026-05-17",
       "tags": [
-        "folder",
-        "essay"
+        "sorting",
+        "algorithms"
       ],
-      "summary": "A small interlinked piece — index plus three short chapters — to exercise the folder structure.",
-      "html_path": "three-essays-on-color/index.html"
-    },
-    {
-      "slug": "hello",
-      "title": "Hello, Reading Room",
-      "author": "Matthew Litwin",
-      "date": "2026-05-16",
-      "tags": [
-        "meta",
-        "intro"
-      ],
-      "summary": "A first piece to make sure the build works.",
-      "html_path": "hello.html"
-    },
-    {
-      "slug": "pythagorean-theorem",
-      "title": "A Note on the Pythagorean Theorem",
-      "author": "Matthew Litwin",
-      "date": "2026-05-14",
-      "tags": [
-        "math",
-        "geometry"
-      ],
-      "summary": "Math rendering smoke test using one of the oldest theorems we have.",
-      "html_path": "pythagorean-theorem.html"
-    },
-    {
-      "slug": "fizzbuzz",
-      "title": "FizzBuzz in Three Languages",
-      "author": "Matthew Litwin",
-      "date": "2026-05-10",
-      "tags": [
-        "code",
-        "programming"
-      ],
-      "summary": "A code-block smoke test — the same trivial program in three syntaxes.",
-      "html_path": "fizzbuzz.html"
-    },
-    {
-      "slug": "on-attention",
-      "title": "On Attention",
-      "author": "Matthew Litwin",
-      "date": "2026-05-08",
-      "tags": [
-        "essay",
-        "focus"
-      ],
-      "summary": "A short essay to stress-test the typography on a longer-form piece.",
-      "html_path": "on-attention.html"
+      "summary": "A short refresher on sorting — the basics, the algorithms, and what they cost you.",
+      "html_path": "notes-on-sorting/index.html",
+      "structure": {
+        "slug": "notes-on-sorting",
+        "title": "Notes on Sorting",
+        "html_path": "notes-on-sorting/index.html",
+        "items": [
+          {
+            "slug": "fundamentals",
+            "title": "Fundamentals",
+            "html_path": "notes-on-sorting/fundamentals/index.html",
+            "items": [
+              {
+                "slug": "complexity",
+                "title": "Complexity",
+                "html_path": "notes-on-sorting/fundamentals/complexity.html"
+              },
+              {
+                "slug": "stability",
+                "title": "Stability",
+                "html_path": "notes-on-sorting/fundamentals/stability.html"
+              }
+            ]
+          },
+          {
+            "slug": "algorithms",
+            "title": "Algorithms",
+            "html_path": "notes-on-sorting/algorithms/index.html",
+            "items": [
+              {
+                "slug": "quicksort",
+                "title": "Quicksort",
+                "html_path": "notes-on-sorting/algorithms/quicksort.html"
+              },
+              {
+                "slug": "mergesort",
+                "title": "Merge sort",
+                "html_path": "notes-on-sorting/algorithms/mergesort.html"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }

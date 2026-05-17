@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Merge sort — Reading Room</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../assets/katex.min.css">
+<link rel="stylesheet" href="../../assets/highlight.css">
+<link rel="stylesheet" href="../../assets/reader.css">
+</head>
+<body>
+<header class="site">
+  <a href="../../index.html" class="home">Reading Room</a>
+</header>
+<article>
+<nav class="breadcrumb"><a href="../../index.html">Library</a><span class="sep">›</span><a href="../index.html">Notes on Sorting</a><span class="sep">›</span><a href="index.html">Algorithms</a><span class="sep">›</span><span class="here">Merge sort</span></nav>
+  <header class="piece">
+    <h1>Merge sort</h1>
+    <div class="meta">
+      <span class="author">Matthew Litwin</span>
+      <time>2026-05-17</time>
+      <span class="tags"></span>
+    </div>
+  </header>
+  <div class="body">
+<p>Split the array in half, sort each half recursively, then merge the two sorted halves into one.</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">mergesort</span>(<span class="hljs-params">a</span>):
+    <span class="hljs-keyword">if</span> <span class="hljs-built_in">len</span>(a) &lt;= <span class="hljs-number">1</span>:
+        <span class="hljs-keyword">return</span> a
+    mid = <span class="hljs-built_in">len</span>(a) // <span class="hljs-number">2</span>
+    left = mergesort(a[:mid])
+    right = mergesort(a[mid:])
+    <span class="hljs-keyword">return</span> merge(left, right)
+
+<span class="hljs-keyword">def</span> <span class="hljs-title function_">merge</span>(<span class="hljs-params">left, right</span>):
+    result = []
+    i = j = <span class="hljs-number">0</span>
+    <span class="hljs-keyword">while</span> i &lt; <span class="hljs-built_in">len</span>(left) <span class="hljs-keyword">and</span> j &lt; <span class="hljs-built_in">len</span>(right):
+        <span class="hljs-keyword">if</span> left[i] &lt;= right[j]:
+            result.append(left[i])
+            i += <span class="hljs-number">1</span>
+        <span class="hljs-keyword">else</span>:
+            result.append(right[j])
+            j += <span class="hljs-number">1</span>
+    result.extend(left[i:])
+    result.extend(right[j:])
+    <span class="hljs-keyword">return</span> result
+</code></pre>
+<p>Guaranteed <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mi>log</mi><mo>⁡</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n \log n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">lo<span style="margin-right:0.0139em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span> — no bad inputs. Stable. The cost: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span> extra memory for the merge buffers.</p>
+<p>Merge sort is the right default when stability matters or when you’re sorting a linked list (no random access, but merging works element-by-element).</p>
+
+  </div>
+<nav class="page-nav"><a class="prev" href="quicksort.html"><span class="dir">←</span> <span class="title">Quicksort</span></a><span class="next placeholder"></span></nav>
+</article>
+</body>
+</html>

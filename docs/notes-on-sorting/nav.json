@@ -1,0 +1,171 @@
+{
+  "pages": [
+    {
+      "slug": "notes-on-sorting",
+      "title": "Notes on Sorting",
+      "html_path": "notes-on-sorting/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        }
+      ],
+      "prev": null,
+      "next": {
+        "title": "Fundamentals",
+        "html_path": "notes-on-sorting/fundamentals/index.html"
+      }
+    },
+    {
+      "slug": "fundamentals",
+      "title": "Fundamentals",
+      "html_path": "notes-on-sorting/fundamentals/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Notes on Sorting",
+          "html_path": "notes-on-sorting/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Notes on Sorting",
+        "html_path": "notes-on-sorting/index.html"
+      },
+      "next": {
+        "title": "Complexity",
+        "html_path": "notes-on-sorting/fundamentals/complexity.html"
+      }
+    },
+    {
+      "slug": "complexity",
+      "title": "Complexity",
+      "html_path": "notes-on-sorting/fundamentals/complexity.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Notes on Sorting",
+          "html_path": "notes-on-sorting/index.html"
+        },
+        {
+          "title": "Fundamentals",
+          "html_path": "notes-on-sorting/fundamentals/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Fundamentals",
+        "html_path": "notes-on-sorting/fundamentals/index.html"
+      },
+      "next": {
+        "title": "Stability",
+        "html_path": "notes-on-sorting/fundamentals/stability.html"
+      }
+    },
+    {
+      "slug": "stability",
+      "title": "Stability",
+      "html_path": "notes-on-sorting/fundamentals/stability.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Notes on Sorting",
+          "html_path": "notes-on-sorting/index.html"
+        },
+        {
+          "title": "Fundamentals",
+          "html_path": "notes-on-sorting/fundamentals/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Complexity",
+        "html_path": "notes-on-sorting/fundamentals/complexity.html"
+      },
+      "next": {
+        "title": "Algorithms",
+        "html_path": "notes-on-sorting/algorithms/index.html"
+      }
+    },
+    {
+      "slug": "algorithms",
+      "title": "Algorithms",
+      "html_path": "notes-on-sorting/algorithms/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Notes on Sorting",
+          "html_path": "notes-on-sorting/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Stability",
+        "html_path": "notes-on-sorting/fundamentals/stability.html"
+      },
+      "next": {
+        "title": "Quicksort",
+        "html_path": "notes-on-sorting/algorithms/quicksort.html"
+      }
+    },
+    {
+      "slug": "quicksort",
+      "title": "Quicksort",
+      "html_path": "notes-on-sorting/algorithms/quicksort.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Notes on Sorting",
+          "html_path": "notes-on-sorting/index.html"
+        },
+        {
+          "title": "Algorithms",
+          "html_path": "notes-on-sorting/algorithms/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Algorithms",
+        "html_path": "notes-on-sorting/algorithms/index.html"
+      },
+      "next": {
+        "title": "Merge sort",
+        "html_path": "notes-on-sorting/algorithms/mergesort.html"
+      }
+    },
+    {
+      "slug": "mergesort",
+      "title": "Merge sort",
+      "html_path": "notes-on-sorting/algorithms/mergesort.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Notes on Sorting",
+          "html_path": "notes-on-sorting/index.html"
+        },
+        {
+          "title": "Algorithms",
+          "html_path": "notes-on-sorting/algorithms/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Quicksort",
+        "html_path": "notes-on-sorting/algorithms/quicksort.html"
+      },
+      "next": null
+    }
+  ]
+}

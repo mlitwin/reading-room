@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quicksort — Reading Room</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../assets/katex.min.css">
+<link rel="stylesheet" href="../../assets/highlight.css">
+<link rel="stylesheet" href="../../assets/reader.css">
+</head>
+<body>
+<header class="site">
+  <a href="../../index.html" class="home">Reading Room</a>
+</header>
+<article>
+<nav class="breadcrumb"><a href="../../index.html">Library</a><span class="sep">›</span><a href="../index.html">Notes on Sorting</a><span class="sep">›</span><a href="index.html">Algorithms</a><span class="sep">›</span><span class="here">Quicksort</span></nav>
+  <header class="piece">
+    <h1>Quicksort</h1>
+    <div class="meta">
+      <span class="author">Matthew Litwin</span>
+      <time>2026-05-17</time>
+      <span class="tags"></span>
+    </div>
+  </header>
+  <div class="body">
+<p>The intuition: pick a pivot, partition the array into “less than pivot” and “greater than pivot,” recurse on each side. Pivot choice is what makes or breaks quicksort.</p>
+<pre><code class="hljs language-python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">quicksort</span>(<span class="hljs-params">a, lo=<span class="hljs-number">0</span>, hi=<span class="hljs-literal">None</span></span>):
+    <span class="hljs-keyword">if</span> hi <span class="hljs-keyword">is</span> <span class="hljs-literal">None</span>:
+        hi = <span class="hljs-built_in">len</span>(a) - <span class="hljs-number">1</span>
+    <span class="hljs-keyword">if</span> lo &gt;= hi:
+        <span class="hljs-keyword">return</span>
+    pivot = a[(lo + hi) // <span class="hljs-number">2</span>]
+    i, j = lo, hi
+    <span class="hljs-keyword">while</span> i &lt;= j:
+        <span class="hljs-keyword">while</span> a[i] &lt; pivot: i += <span class="hljs-number">1</span>
+        <span class="hljs-keyword">while</span> a[j] &gt; pivot: j -= <span class="hljs-number">1</span>
+        <span class="hljs-keyword">if</span> i &lt;= j:
+            a[i], a[j] = a[j], a[i]
+            i += <span class="hljs-number">1</span>
+            j -= <span class="hljs-number">1</span>
+    quicksort(a, lo, j)
+    quicksort(a, i, hi)
+</code></pre>
+<p>Average case <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>n</mi><mi>log</mi><mo>⁡</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n \log n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">lo<span style="margin-right:0.0139em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span>, worst case <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> if pivots are chosen badly (always the smallest or largest element). Common mitigations: randomize the pivot, use median-of-three, or fall back to a different algorithm (introsort).</p>
+<p>Not stable. Sorts in place — only <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(\log n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.0139em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span> recursion-stack memory.</p>
+
+  </div>
+<nav class="page-nav"><a class="prev" href="index.html"><span class="dir">←</span> <span class="title">Algorithms</span></a><a class="next" href="mergesort.html"><span class="title">Merge sort</span> <span class="dir">→</span></a></nav>
+</article>
+</body>
+</html>
