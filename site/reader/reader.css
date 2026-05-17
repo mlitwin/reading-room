@@ -1,0 +1,233 @@
+:root {
+  --bg: #fdfdfb;
+  --fg: #1c1c1a;
+  --muted: #6a6a66;
+  --accent: #2a4a8a;
+  --rule: #e3e1da;
+  --code-bg: #f4f2eb;
+  --tag-bg: #ece9df;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a;
+    --fg: #e6e6e3;
+    --muted: #9a9a96;
+    --accent: #9eb8ff;
+    --rule: #2a2d33;
+    --code-bg: #1d2025;
+    --tag-bg: #262a31;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-serif, Georgia, "New York", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+header.site {
+  border-bottom: 1px solid var(--rule);
+  padding: 1rem 1.5rem;
+}
+
+header.site .home {
+  color: var(--muted);
+  text-decoration: none;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+header.site h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+article {
+  max-width: 38rem;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+}
+
+article > header.piece h1 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+
+article > header.piece .meta {
+  color: var(--muted);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.body h1, .body h2, .body h3, .body h4 {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.25;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.body h2 { font-size: 1.4rem; }
+.body h3 { font-size: 1.15rem; }
+
+.body p { margin: 1rem 0; }
+
+.body a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.body code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.88em;
+  background: var(--code-bg);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+.body pre {
+  background: var(--code-bg);
+  padding: 1rem 1.1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 1.25rem 0;
+}
+
+.body pre code {
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+}
+
+.body blockquote {
+  border-left: 3px solid var(--rule);
+  padding-left: 1rem;
+  margin: 1.25rem 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.body ul, .body ol { padding-left: 1.5rem; }
+.body li { margin: 0.3rem 0; }
+
+.body table {
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+.body th, .body td {
+  border-bottom: 1px solid var(--rule);
+  padding: 0.4rem 0.75rem;
+  text-align: left;
+}
+
+.body th {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+}
+
+.body img { max-width: 100%; height: auto; }
+
+.body hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+
+footer.piece {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85rem;
+}
+
+footer.piece a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+footer.piece a:hover { color: var(--accent); }
+
+/* index page */
+main {
+  max-width: 42rem;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+ul.pieces {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.piece {
+  border-bottom: 1px solid var(--rule);
+  padding: 1.5rem 0;
+}
+
+li.piece:last-child { border-bottom: none; }
+
+li.piece h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.35rem;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+li.piece h2 a {
+  color: var(--fg);
+  text-decoration: none;
+}
+
+li.piece h2 a:hover { color: var(--accent); }
+
+li.piece .meta {
+  color: var(--muted);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.tag {
+  background: var(--tag-bg);
+  color: var(--muted);
+  padding: 0.15em 0.55em;
+  border-radius: 4px;
+  margin-right: 0.3em;
+  font-size: 0.8em;
+}
+
+li.piece p.summary {
+  margin: 0.4rem 0 0;
+  color: var(--fg);
+}
+
+.katex { color: var(--fg); }
+
+.katex-display {
+  margin: 1.25rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}

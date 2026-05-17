@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-05-17T00:21:01.560Z",
+  "pieces": [
+    {
+      "slug": "hello",
+      "title": "Hello, Reading Room",
+      "author": "Matthew Litwin",
+      "date": "2026-05-16",
+      "tags": [
+        "meta",
+        "intro"
+      ],
+      "summary": "A first piece to make sure the build works.",
+      "md_path": "hello.md",
+      "html_path": "hello.html"
+    },
+    {
+      "slug": "pythagorean-theorem",
+      "title": "A Note on the Pythagorean Theorem",
+      "author": "Matthew Litwin",
+      "date": "2026-05-14",
+      "tags": [
+        "math",
+        "geometry"
+      ],
+      "summary": "Math rendering smoke test using one of the oldest theorems we have.",
+      "md_path": "pythagorean-theorem.md",
+      "html_path": "pythagorean-theorem.html"
+    },
+    {
+      "slug": "fizzbuzz",
+      "title": "FizzBuzz in Three Languages",
+      "author": "Matthew Litwin",
+      "date": "2026-05-10",
+      "tags": [
+        "code",
+        "programming"
+      ],
+      "summary": "A code-block smoke test — the same trivial program in three syntaxes.",
+      "md_path": "fizzbuzz.md",
+      "html_path": "fizzbuzz.html"
+    },
+    {
+      "slug": "on-attention",
+      "title": "On Attention",
+      "author": "Matthew Litwin",
+      "date": "2026-05-08",
+      "tags": [
+        "essay",
+        "focus"
+      ],
+      "summary": "A short essay to stress-test the typography on a longer-form piece.",
+      "md_path": "on-attention.md",
+      "html_path": "on-attention.html"
+    }
+  ]
+}
