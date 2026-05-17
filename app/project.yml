@@ -1,0 +1,52 @@
+name: ReadingRoom
+options:
+  bundleIdPrefix: org.antoninus.readingroom
+configs:
+  Debug: debug
+  Release: release
+settings:
+  SWIFT_VERSION: 5.10
+  IPHONEOS_DEPLOYMENT_TARGET: 18.5
+  DEAD_CODE_STRIPPING: YES
+  ALWAYS_SEARCH_USER_PATHS: NO
+
+targets:
+  ReadingRoom:
+    type: application
+    platform: iOS
+    deploymentTarget: "18.5"
+    sources:
+      - path: ReadingRoom
+    info:
+      path: ReadingRoom/Info.plist
+      properties:
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+          NSExceptionDomains:
+            localhost:
+              NSExceptionAllowsInsecureHTTPLoads: true
+              NSIncludesSubdomains: false
+        CFBundleDevelopmentRegion: "en"
+        CFBundleLocalizations:
+          - "en"
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: org.antoninus.readingroom.app
+      PRODUCT_NAME: ReadingRoom
+      CODE_SIGN_STYLE: Automatic
+      DEAD_CODE_STRIPPING: YES
+
+schemes:
+  ReadingRoom:
+    build:
+      targets:
+        ReadingRoom: all

@@ -6,8 +6,6 @@ tags: [math, geometry]
 summary: Math rendering smoke test using one of the oldest theorems we have.
 ---
 
-# A Note on the Pythagorean Theorem
-
 For a right triangle with legs $a$ and $b$ and hypotenuse $c$:
 
 $$

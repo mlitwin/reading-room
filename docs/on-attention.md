@@ -6,8 +6,6 @@ tags: [essay, focus]
 summary: A short essay to stress-test the typography on a longer-form piece.
 ---
 
-# On Attention
-
 The hardest part of any creative or technical work is not the thinking. The thinking is the easy part — it happens whether you want it to or not, on walks, in the shower, half-asleep. The hard part is bringing the thinking into contact with the page, and that requires attention.
 
 Attention has two failure modes I keep running into. The first is distraction: the open browser tab, the buzzing phone, the half-formed idea that pulls focus from the one I'm trying to finish. This is the boring failure mode. We all know it, and there's a small industry of advice — focus apps, time blocks, ambient music — for fending it off. None of it is interesting because the problem itself isn't interesting. It's mostly a matter of discipline and friction.

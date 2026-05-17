@@ -6,8 +6,6 @@ tags: [meta, intro]
 summary: A first piece to make sure the build works.
 ---
 
-# Hello
-
 This is the very first piece in the Reading Room. If you're seeing this rendered, the build pipeline is alive.
 
 The site you're reading turns markdown files in `content/` into:

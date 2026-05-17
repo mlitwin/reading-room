@@ -6,8 +6,6 @@ tags: [code, programming]
 summary: A code-block smoke test — the same trivial program in three syntaxes.
 ---
 
-# FizzBuzz in Three Languages
-
 The point of this piece isn't FizzBuzz, it's to make sure fenced code blocks render cleanly across a few syntaxes.
 
 ## Python
