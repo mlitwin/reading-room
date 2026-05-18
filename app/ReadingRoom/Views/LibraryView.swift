@@ -1,14 +1,29 @@
 import SwiftUI
+import WebKit
 
 struct LibraryView: View {
     @Environment(LibraryStore.self) private var library
     @State private var showSettings = false
+    @State private var isHardRefreshing = false
 
     var body: some View {
         NavigationStack {
             content
                 .navigationTitle("Reading Room")
                 .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Button {
+                            Task { await hardRefresh() }
+                        } label: {
+                            if isHardRefreshing {
+                                ProgressView()
+                            } else {
+                                Image(systemName: "arrow.clockwise")
+                            }
+                        }
+                        .disabled(isHardRefreshing)
+                        .accessibilityLabel("Refresh from source")
+                    }
                     ToolbarItem(placement: .topBarTrailing) {
                         Button { showSettings = true } label: {
                             Image(systemName: "gearshape")
@@ -21,6 +36,20 @@ struct LibraryView: View {
                     if case .idle = library.state { await library.refresh() }
                 }
         }
+    }
+
+    // Pull-to-refresh just re-fetches index.json; the WKWebView keeps any
+    // HTML/CSS it had cached. This button clears that cache too, so the
+    // next time a piece opens it pulls a fresh page from the source.
+    private func hardRefresh() async {
+        isHardRefreshing = true
+        defer { isHardRefreshing = false }
+        URLCache.shared.removeAllCachedResponses()
+        await WKWebsiteDataStore.default().removeData(
+            ofTypes: WKWebsiteDataStore.allWebsiteDataTypes(),
+            modifiedSince: .distantPast
+        )
+        await library.refresh()
     }
 
     @ViewBuilder
