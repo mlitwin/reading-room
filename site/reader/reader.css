@@ -31,6 +31,10 @@ html, body {
   font-size: 18px;
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
+  /* Prevent page-level horizontal scroll when a child (display math,
+     a wide code block) exceeds viewport width. Math and code already
+     have their own overflow-x: auto for internal scrolling. */
+  overflow-x: hidden;
 }
 
 header.site {
@@ -311,10 +315,19 @@ nav.page-nav .placeholder { visibility: hidden; }
 }
 .note-link:hover { color: var(--accent); filter: brightness(1.15); }
 
-/* The popover itself. Centered overlay, modest width, light card on light
-   bg / dark card on dark bg. */
+/* The popover itself. Centered in the viewport via `position: fixed;
+   inset: 0; margin: auto;` — the user-agent default isn't reliably
+   centering in every WKWebView build, so we're explicit about it.
+   Width/height stay at fit-content (clipped by max-* and 100vw/vh).  */
 .note-popover {
-  max-width: 32rem;
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  max-width: min(32rem, calc(100vw - 2rem));
+  max-height: 80vh;
+  overflow-y: auto;
   padding: 1.4rem 1.6rem 1rem;
   border: 1px solid var(--rule);
   border-radius: 10px;
@@ -323,7 +336,6 @@ nav.page-nav .placeholder { visibility: hidden; }
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
   font-size: 0.96rem;
   line-height: 1.55;
-  position: relative;
 }
 .note-popover::backdrop { background: rgba(0, 0, 0, 0.25); }
 
