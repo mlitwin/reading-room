@@ -115,9 +115,12 @@ platform :ios do
       changelog: changelog_text,
       # Assign the build to the Readers internal group so testers in it see
       # the build without a manual "add build" step in App Store Connect.
-      # No distribute_external: true here — that triggers Beta App Review,
-      # which we don't need for internal-only testing.
       groups: ["Readers"],
+      # Skip Beta App Review submission. fastlane's distribute_build will
+      # otherwise post a beta-review submission whenever `groups:` is set,
+      # which fails for our internal-only testing because we haven't filled
+      # in Test Information (Beta App Description etc.) in ASC.
+      submit_beta_review: false,
     )
   end
 
