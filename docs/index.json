@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T21:22:31.414Z",
+  "generated_at": "2026-05-18T01:54:56.570Z",
   "pieces": [
     {
       "slug": "notes-on-sorting",
@@ -48,6 +48,103 @@
                 "slug": "mergesort",
                 "title": "Merge sort",
                 "html_path": "notes-on-sorting/algorithms/mergesort.html"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "shahnameh-study-guide",
+      "title": "A Study Guide to the Shahnameh",
+      "author": "Matthew Litwin",
+      "date": "2026-05-17",
+      "tags": [
+        "shahnameh",
+        "ferdowsi",
+        "iran",
+        "epic"
+      ],
+      "summary": "A reader's introduction to Ferdowsi's Book of Kings — the land it celebrates, the religion that shaped it, the world its author lived in, the cast you'll meet, and how its history looked to its contemporaries.",
+      "html_path": "shahnameh-study-guide/index.html",
+      "structure": {
+        "slug": "shahnameh-study-guide",
+        "title": "A Study Guide to the Shahnameh",
+        "html_path": "shahnameh-study-guide/index.html",
+        "items": [
+          {
+            "slug": "introduction",
+            "title": "Introduction and Overview",
+            "html_path": "shahnameh-study-guide/introduction/index.html",
+            "items": [
+              {
+                "slug": "iran",
+                "title": "Iran, the land and the idea",
+                "html_path": "shahnameh-study-guide/introduction/iran.html"
+              },
+              {
+                "slug": "zoroastrianism",
+                "title": "Zoroastrianism before Islam",
+                "html_path": "shahnameh-study-guide/introduction/zoroastrianism.html"
+              },
+              {
+                "slug": "ferdowsi-and-islam",
+                "title": "Ferdowsi and the Islam of his time",
+                "html_path": "shahnameh-study-guide/introduction/ferdowsi-and-islam.html"
+              }
+            ]
+          },
+          {
+            "slug": "characters",
+            "title": "Cast of Characters",
+            "html_path": "shahnameh-study-guide/characters/index.html",
+            "items": [
+              {
+                "slug": "primordial-kings",
+                "title": "The Pishdadi line",
+                "html_path": "shahnameh-study-guide/characters/primordial-kings.html"
+              },
+              {
+                "slug": "heroes-of-sistan",
+                "title": "The heroes of Sistan",
+                "html_path": "shahnameh-study-guide/characters/heroes-of-sistan.html"
+              },
+              {
+                "slug": "kayanian-shahs",
+                "title": "The Kayanian shahs",
+                "html_path": "shahnameh-study-guide/characters/kayanian-shahs.html"
+              },
+              {
+                "slug": "turan",
+                "title": "The Turanians",
+                "html_path": "shahnameh-study-guide/characters/turan.html"
+              }
+            ]
+          },
+          {
+            "slug": "historicised-view",
+            "title": "How history looked to contemporaries",
+            "html_path": "shahnameh-study-guide/historicised-view/index.html",
+            "items": [
+              {
+                "slug": "mythical-time",
+                "title": "Mythical time",
+                "html_path": "shahnameh-study-guide/historicised-view/mythical-time.html"
+              },
+              {
+                "slug": "eskandar-the-persian",
+                "title": "Eskandar the Persian",
+                "html_path": "shahnameh-study-guide/historicised-view/eskandar-the-persian.html"
+              },
+              {
+                "slug": "missing-achaemenids",
+                "title": "The missing Achaemenids",
+                "html_path": "shahnameh-study-guide/historicised-view/missing-achaemenids.html"
+              },
+              {
+                "slug": "parthian-gap",
+                "title": "The Parthian gap",
+                "html_path": "shahnameh-study-guide/historicised-view/parthian-gap.html"
               }
             ]
           }
