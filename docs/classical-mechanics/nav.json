@@ -1,0 +1,348 @@
+{
+  "pages": [
+    {
+      "slug": "classical-mechanics",
+      "title": "Classical Mechanics — A Mathematical Review",
+      "html_path": "classical-mechanics/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        }
+      ],
+      "prev": null,
+      "next": {
+        "title": "Newtonian mechanics",
+        "html_path": "classical-mechanics/newtonian/index.html"
+      }
+    },
+    {
+      "slug": "newtonian",
+      "title": "Newtonian mechanics",
+      "html_path": "classical-mechanics/newtonian/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Classical Mechanics — A Mathematical Review",
+        "html_path": "classical-mechanics/index.html"
+      },
+      "next": {
+        "title": "Newton's laws",
+        "html_path": "classical-mechanics/newtonian/newtons-laws.html"
+      }
+    },
+    {
+      "slug": "newtons-laws",
+      "title": "Newton's laws",
+      "html_path": "classical-mechanics/newtonian/newtons-laws.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        },
+        {
+          "title": "Newtonian mechanics",
+          "html_path": "classical-mechanics/newtonian/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Newtonian mechanics",
+        "html_path": "classical-mechanics/newtonian/index.html"
+      },
+      "next": {
+        "title": "Conservation laws",
+        "html_path": "classical-mechanics/newtonian/conservation-laws.html"
+      }
+    },
+    {
+      "slug": "conservation-laws",
+      "title": "Conservation laws",
+      "html_path": "classical-mechanics/newtonian/conservation-laws.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        },
+        {
+          "title": "Newtonian mechanics",
+          "html_path": "classical-mechanics/newtonian/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Newton's laws",
+        "html_path": "classical-mechanics/newtonian/newtons-laws.html"
+      },
+      "next": {
+        "title": "Lagrangian mechanics",
+        "html_path": "classical-mechanics/lagrangian/index.html"
+      }
+    },
+    {
+      "slug": "lagrangian",
+      "title": "Lagrangian mechanics",
+      "html_path": "classical-mechanics/lagrangian/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Conservation laws",
+        "html_path": "classical-mechanics/newtonian/conservation-laws.html"
+      },
+      "next": {
+        "title": "Action and the Euler–Lagrange equations",
+        "html_path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html"
+      }
+    },
+    {
+      "slug": "action-and-euler-lagrange",
+      "title": "Action and the Euler–Lagrange equations",
+      "html_path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        },
+        {
+          "title": "Lagrangian mechanics",
+          "html_path": "classical-mechanics/lagrangian/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Lagrangian mechanics",
+        "html_path": "classical-mechanics/lagrangian/index.html"
+      },
+      "next": {
+        "title": "Coordinates and constraints",
+        "html_path": "classical-mechanics/lagrangian/coordinates-and-constraints.html"
+      }
+    },
+    {
+      "slug": "coordinates-and-constraints",
+      "title": "Coordinates and constraints",
+      "html_path": "classical-mechanics/lagrangian/coordinates-and-constraints.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        },
+        {
+          "title": "Lagrangian mechanics",
+          "html_path": "classical-mechanics/lagrangian/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Action and the Euler–Lagrange equations",
+        "html_path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html"
+      },
+      "next": {
+        "title": "Hamiltonian mechanics",
+        "html_path": "classical-mechanics/hamiltonian/index.html"
+      }
+    },
+    {
+      "slug": "hamiltonian",
+      "title": "Hamiltonian mechanics",
+      "html_path": "classical-mechanics/hamiltonian/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Coordinates and constraints",
+        "html_path": "classical-mechanics/lagrangian/coordinates-and-constraints.html"
+      },
+      "next": {
+        "title": "Legendre transform and Hamilton's equations",
+        "html_path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html"
+      }
+    },
+    {
+      "slug": "legendre-and-hamiltons-equations",
+      "title": "Legendre transform and Hamilton's equations",
+      "html_path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        },
+        {
+          "title": "Hamiltonian mechanics",
+          "html_path": "classical-mechanics/hamiltonian/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Hamiltonian mechanics",
+        "html_path": "classical-mechanics/hamiltonian/index.html"
+      },
+      "next": {
+        "title": "Phase space and the Poisson bracket",
+        "html_path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html"
+      }
+    },
+    {
+      "slug": "phase-space-and-poisson",
+      "title": "Phase space and the Poisson bracket",
+      "html_path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        },
+        {
+          "title": "Hamiltonian mechanics",
+          "html_path": "classical-mechanics/hamiltonian/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Legendre transform and Hamilton's equations",
+        "html_path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html"
+      },
+      "next": {
+        "title": "Noether's theorem",
+        "html_path": "classical-mechanics/noether/index.html"
+      }
+    },
+    {
+      "slug": "noether",
+      "title": "Noether's theorem",
+      "html_path": "classical-mechanics/noether/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Phase space and the Poisson bracket",
+        "html_path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html"
+      },
+      "next": {
+        "title": "The theorem",
+        "html_path": "classical-mechanics/noether/noethers-theorem.html"
+      }
+    },
+    {
+      "slug": "noethers-theorem",
+      "title": "The theorem",
+      "html_path": "classical-mechanics/noether/noethers-theorem.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        },
+        {
+          "title": "Noether's theorem",
+          "html_path": "classical-mechanics/noether/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Noether's theorem",
+        "html_path": "classical-mechanics/noether/index.html"
+      },
+      "next": {
+        "title": "Examples",
+        "html_path": "classical-mechanics/noether/examples.html"
+      }
+    },
+    {
+      "slug": "examples",
+      "title": "Examples",
+      "html_path": "classical-mechanics/noether/examples.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        },
+        {
+          "title": "Noether's theorem",
+          "html_path": "classical-mechanics/noether/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The theorem",
+        "html_path": "classical-mechanics/noether/noethers-theorem.html"
+      },
+      "next": {
+        "title": "Notes",
+        "html_path": "classical-mechanics/notes.html"
+      }
+    },
+    {
+      "slug": "notes",
+      "title": "Notes",
+      "html_path": "classical-mechanics/notes.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Classical Mechanics — A Mathematical Review",
+          "html_path": "classical-mechanics/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Examples",
+        "html_path": "classical-mechanics/noether/examples.html"
+      },
+      "next": null
+    }
+  ]
+}

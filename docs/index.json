@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T14:56:50.573Z",
+  "generated_at": "2026-05-18T23:48:33.578Z",
   "pieces": [
     {
       "slug": "calculus-on-manifolds",
@@ -122,6 +122,100 @@
             "slug": "notes",
             "title": "Notes",
             "html_path": "calculus-on-manifolds/notes.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "classical-mechanics",
+      "title": "Classical Mechanics — A Mathematical Review",
+      "author": "Matthew Litwin",
+      "date": "2026-05-18",
+      "tags": [
+        "physics",
+        "classical-mechanics",
+        "lagrangian",
+        "hamiltonian"
+      ],
+      "summary": "A rigorous, succinct review of the three formalisms of classical mechanics — Newtonian, Lagrangian, Hamiltonian — and Noether's theorem on the symmetry origin of conservation laws.",
+      "html_path": "classical-mechanics/index.html",
+      "structure": {
+        "slug": "classical-mechanics",
+        "title": "Classical Mechanics — A Mathematical Review",
+        "html_path": "classical-mechanics/index.html",
+        "items": [
+          {
+            "slug": "newtonian",
+            "title": "Newtonian mechanics",
+            "html_path": "classical-mechanics/newtonian/index.html",
+            "items": [
+              {
+                "slug": "newtons-laws",
+                "title": "Newton's laws",
+                "html_path": "classical-mechanics/newtonian/newtons-laws.html"
+              },
+              {
+                "slug": "conservation-laws",
+                "title": "Conservation laws",
+                "html_path": "classical-mechanics/newtonian/conservation-laws.html"
+              }
+            ]
+          },
+          {
+            "slug": "lagrangian",
+            "title": "Lagrangian mechanics",
+            "html_path": "classical-mechanics/lagrangian/index.html",
+            "items": [
+              {
+                "slug": "action-and-euler-lagrange",
+                "title": "Action and the Euler–Lagrange equations",
+                "html_path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html"
+              },
+              {
+                "slug": "coordinates-and-constraints",
+                "title": "Coordinates and constraints",
+                "html_path": "classical-mechanics/lagrangian/coordinates-and-constraints.html"
+              }
+            ]
+          },
+          {
+            "slug": "hamiltonian",
+            "title": "Hamiltonian mechanics",
+            "html_path": "classical-mechanics/hamiltonian/index.html",
+            "items": [
+              {
+                "slug": "legendre-and-hamiltons-equations",
+                "title": "Legendre transform and Hamilton's equations",
+                "html_path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html"
+              },
+              {
+                "slug": "phase-space-and-poisson",
+                "title": "Phase space and the Poisson bracket",
+                "html_path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html"
+              }
+            ]
+          },
+          {
+            "slug": "noether",
+            "title": "Noether's theorem",
+            "html_path": "classical-mechanics/noether/index.html",
+            "items": [
+              {
+                "slug": "noethers-theorem",
+                "title": "The theorem",
+                "html_path": "classical-mechanics/noether/noethers-theorem.html"
+              },
+              {
+                "slug": "examples",
+                "title": "Examples",
+                "html_path": "classical-mechanics/noether/examples.html"
+              }
+            ]
+          },
+          {
+            "slug": "notes",
+            "title": "Notes",
+            "html_path": "classical-mechanics/notes.html"
           }
         ]
       }
