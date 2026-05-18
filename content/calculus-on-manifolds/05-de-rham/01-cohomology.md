@@ -19,7 +19,7 @@ a graded-commutative $\mathbb{R}$-algebra.
 - A smooth map $F: M \to N$ induces a graded-algebra map $F^*: H^*_{dR}(N) \to H^*_{dR}(M)$.
 - **Homotopy invariance.** If $F \simeq G$ smoothly, then $F^* = G^*$ on cohomology.
 
-**De Rham's theorem.** The de Rham cohomology is naturally isomorphic to the singular cohomology of $M$ with real coefficients:
+**De Rham's theorem.** The de Rham cohomology is naturally isomorphic to the [singular cohomology](note:singular-cohomology) of $M$ with real coefficients:
 $$H^k_{dR}(M) \;\cong\; H^k(M; \mathbb{R}).$$
 
 So a calculation made entirely in terms of smooth differential forms turns out to compute a topological invariant defined without any smooth structure at all. The smooth structure used to define $d$ doesn't survive into the answer.

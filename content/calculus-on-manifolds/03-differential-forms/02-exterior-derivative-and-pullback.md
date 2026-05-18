@@ -27,7 +27,7 @@ Properties:
 - $(F \circ G)^* = G^* \circ F^*$.
 - **Commutes with $d$**: $F^*(d\omega) = d(F^* \omega)$.
 
-This last identity is what makes the construction $(\Omega^*, d)$ functorial — pullback is a chain map of the cochain complex, and so it descends to a map on cohomology.
+This last identity is what makes the construction $(\Omega^*, d)$ functorial — pullback is a chain map of the [cochain complex](note:cochain-complex), and so it descends to a map on cohomology.
 
 **Interior product** $\iota_X: \Omega^k \to \Omega^{k-1}$ — defined on the previous page (Lie derivative). Together $\iota_X$, $d$, $\mathcal{L}_X$ are the basic computational operations on $\Omega^*(M)$, and they satisfy the **Cartan calculus** identities:
 $$\mathcal{L}_X = \iota_X d + d\,\iota_X, \quad \mathcal{L}_{[X,Y]} = [\mathcal{L}_X, \mathcal{L}_Y], \quad [\mathcal{L}_X, \iota_Y] = \iota_{[X,Y]}, \quad \iota_X^2 = 0, \quad d^2 = 0.$$

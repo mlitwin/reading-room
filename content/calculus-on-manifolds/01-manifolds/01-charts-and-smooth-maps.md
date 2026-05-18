@@ -2,7 +2,7 @@
 title: Manifolds, charts, smooth maps
 ---
 
-A **topological manifold** of dimension $n$ is a Hausdorff, second-countable topological space in which every point has an open neighborhood homeomorphic to an open subset of $\mathbb{R}^n$.
+A **topological manifold** of dimension $n$ is a [Hausdorff](note:hausdorff), [second-countable](note:second-countable) topological space in which every point has an open neighborhood homeomorphic to an open subset of $\mathbb{R}^n$.
 
 A **chart** is a pair $(U, \varphi)$ with $U \subseteq M$ open and $\varphi: U \to \varphi(U) \subseteq \mathbb{R}^n$ a homeomorphism. The components $x^i := \varphi^i$ are **local coordinates** on $U$.
 

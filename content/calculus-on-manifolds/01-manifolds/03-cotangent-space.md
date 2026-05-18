@@ -2,7 +2,7 @@
 title: Cotangent space and 1-forms
 ---
 
-The **cotangent space at $p$** is the dual of the tangent space:
+The **cotangent space at $p$** is the [dual](note:dual-space) of the tangent space:
 $$T^*_p M := (T_p M)^*.$$
 
 Elements are linear functionals on $T_p M$; in coordinates the dual basis to $\{\partial_i|_p\}$ is denoted $\{dx^i|_p\}$, characterized by

@@ -294,3 +294,62 @@ nav.page-nav .dir {
 nav.page-nav a:hover .title { color: var(--accent); }
 
 nav.page-nav .placeholder { visibility: hidden; }
+
+/* Inline note link — a button styled like a slightly-different link, with
+   a dotted underline so the reader can tell it's a supplement rather than
+   a navigation link. */
+.note-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: var(--accent);
+  cursor: pointer;
+  border-bottom: 1px dotted currentColor;
+  text-decoration: none;
+}
+.note-link:hover { color: var(--accent); filter: brightness(1.15); }
+
+/* The popover itself. Centered overlay, modest width, light card on light
+   bg / dark card on dark bg. */
+.note-popover {
+  max-width: 32rem;
+  padding: 1.4rem 1.6rem 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--fg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  font-size: 0.96rem;
+  line-height: 1.55;
+  position: relative;
+}
+.note-popover::backdrop { background: rgba(0, 0, 0, 0.25); }
+
+.note-popover .note-title {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.05rem;
+  margin: 0 1.5rem 0.6rem 0;
+  line-height: 1.3;
+}
+.note-popover p:first-of-type { margin-top: 0; }
+.note-popover > :last-child { margin-bottom: 0; }
+
+.note-popover .note-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.6rem;
+  background: transparent;
+  border: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+.note-popover .note-close:hover { color: var(--fg); }
+
+/* Container holding all popovers — hidden from doc flow; popover API
+   floats them above the page. */
+.note-popovers { display: contents; }

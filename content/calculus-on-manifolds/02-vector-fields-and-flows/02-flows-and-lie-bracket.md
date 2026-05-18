@@ -24,7 +24,7 @@ Properties:
 - **Jacobi identity**: $[X, [Y, Z]] + [Y, [Z, X]] + [Z, [X, Y]] = 0$.
 - **Not** $C^\infty(M)$-bilinear: $[X, fY] = f[X, Y] + X(f)\, Y$.
 
-These three identities make $\mathfrak{X}(M)$ an (infinite-dimensional) **Lie algebra** over $\mathbb{R}$.
+These three identities make $\mathfrak{X}(M)$ an (infinite-dimensional) [Lie algebra](note:lie-algebra) over $\mathbb{R}$.
 
 **Geometric meaning.** $[X, Y] = 0$ identically iff the flows of $X$ and $Y$ commute:
 $$\theta^X_t \circ \theta^Y_s = \theta^Y_s \circ \theta^X_t$$

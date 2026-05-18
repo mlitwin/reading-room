@@ -2,7 +2,7 @@
 title: Lie derivative
 ---
 
-The **Lie derivative** $\mathcal{L}_X T$ measures the infinitesimal rate of change of a tensor field $T$ along the flow of $X$. For each tensor type the definition is
+The **Lie derivative** $\mathcal{L}_X T$ measures the infinitesimal rate of change of a [tensor field](note:tensor-field) $T$ along the flow of $X$. For each tensor type the definition is
 $$\mathcal{L}_X T := \frac{d}{dt}\bigg|_{t=0} (\theta_t^* T),$$
 where $\theta_t$ is the flow of $X$ and $\theta_t^*$ is its pullback.
 

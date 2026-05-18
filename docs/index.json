@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T03:52:06.266Z",
+  "generated_at": "2026-05-18T04:53:14.341Z",
   "pieces": [
     {
       "slug": "calculus-on-manifolds",
@@ -117,6 +117,11 @@
                 "html_path": "calculus-on-manifolds/de-rham/poincare-lemma.html"
               }
             ]
+          },
+          {
+            "slug": "notes",
+            "title": "Notes",
+            "html_path": "calculus-on-manifolds/notes.html"
           }
         ]
       }

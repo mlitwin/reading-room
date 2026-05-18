@@ -477,6 +477,29 @@
         "title": "De Rham cohomology",
         "html_path": "calculus-on-manifolds/de-rham/cohomology.html"
       },
+      "next": {
+        "title": "Notes",
+        "html_path": "calculus-on-manifolds/notes.html"
+      }
+    },
+    {
+      "slug": "notes",
+      "title": "Notes",
+      "html_path": "calculus-on-manifolds/notes.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Calculus on Manifolds — A Cheat Sheet",
+          "html_path": "calculus-on-manifolds/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Poincaré lemma",
+        "html_path": "calculus-on-manifolds/de-rham/poincare-lemma.html"
+      },
       "next": null
     }
   ]

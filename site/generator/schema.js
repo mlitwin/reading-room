@@ -15,11 +15,13 @@ export const PieceSchema = z.object({
 
 // Node: anything inside a Book — section index.md or a leaf chapter .md.
 // No `tags` (tags live on the Book, not its sub-pages).
+// `notes: true` marks a leaf as the book's glossary / footnote source.
 export const NodeSchema = z.object({
   title: z.string().min(1, "title is required"),
   author: z.string().optional(),
   date: dateLike,
   summary: z.string().optional(),
+  notes: z.boolean().optional(),
 }).passthrough();
 
 function formatIssues(issues) {

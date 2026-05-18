@@ -33,18 +33,53 @@ const md = new MarkdownIt({
 });
 md.use(katex.default ?? katex);
 
-// Inter-doc links: rewrite `.md` to `.html` and strip numeric prefixes from
-// every path segment (so authors can write `[X](01-foo/02-bar.md)` matching
-// the on-disk path; the rendered href hits the slug-derived URL).
+// Inter-doc links + `note:` references. Iterates inline tokens and rewrites
+// link_open hrefs (and tags note: links via .meta so the renderer rules
+// below can emit popover-button HTML instead of <a>). `note:` references
+// also accumulate into `state.env.referencedNotes` so the generator knows
+// which popover elements to emit on this page.
 md.core.ruler.push('rewrite_md_links', state => {
+  const env = state.env || {};
   for (const token of state.tokens) {
     if (token.type !== 'inline' || !token.children) continue;
-    for (const child of token.children) {
+    const children = token.children;
+    for (let i = 0; i < children.length; i++) {
+      const child = children[i];
       if (child.type !== 'link_open') continue;
       const idx = child.attrIndex('href');
       if (idx < 0) continue;
       const href = child.attrs[idx][1];
       if (!href) continue;
+
+      // note: scheme → mark this link as a note reference.
+      const noteMatch = href.match(/^note:(.+)$/);
+      if (noteMatch) {
+        const key = noteMatch[1];
+        if (env.isNotesPage) {
+          throw new Error(`${env.filePath ?? '<unknown>'}: note:${key} reference inside the notes page is not allowed (avoid nested popovers).`);
+        }
+        if (!env.notesDict || !env.notesDict[key]) {
+          throw new Error(`${env.filePath ?? '<unknown>'}: undefined note "${key}". Add it to the book's notes page.`);
+        }
+        child.meta = Object.assign({}, child.meta, { noteKey: key });
+        // Mark the matching link_close so the renderer emits </button>.
+        let depth = 1;
+        for (let j = i + 1; j < children.length; j++) {
+          if (children[j].type === 'link_open') depth++;
+          else if (children[j].type === 'link_close') {
+            depth--;
+            if (depth === 0) {
+              children[j].meta = Object.assign({}, children[j].meta, { noteKey: key });
+              break;
+            }
+          }
+        }
+        env.referencedNotes ||= new Set();
+        env.referencedNotes.add(key);
+        continue;
+      }
+
+      // Existing inter-doc rewrite: `.md` → `.html`, strip `^\d+-` prefixes.
       if (/^[a-z][a-z0-9+\-.]*:/i.test(href)) continue;
       const rewritten = href
         .replace(/\.md(?=$|[?#])/, '.html')
@@ -53,6 +88,25 @@ md.core.ruler.push('rewrite_md_links', state => {
     }
   }
 });
+
+// Override link_open / link_close renderers so note-marked links emit a
+// <button popovertarget="note-{key}"> ... </button> instead of <a> ... </a>.
+const defaultLinkOpen = md.renderer.rules.link_open
+  || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options));
+const defaultLinkClose = md.renderer.rules.link_close
+  || ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options));
+
+md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+  const t = tokens[idx];
+  if (t.meta?.noteKey) {
+    return `<button class="note-link" type="button" popovertarget="note-${escapeAttr(t.meta.noteKey)}">`;
+  }
+  return defaultLinkOpen(tokens, idx, options, env, self);
+};
+md.renderer.rules.link_close = (tokens, idx, options, env, self) => {
+  if (tokens[idx].meta?.noteKey) return '</button>';
+  return defaultLinkClose(tokens, idx, options, env, self);
+};
 
 function escapeHtml(s) {
   return String(s)
@@ -98,6 +152,48 @@ async function fileExists(p) {
 // Strip ^\d+- prefix from a filename or dirname to derive the slug.
 function deriveSlug(name) {
   return name.replace(/\.md$/, '').replace(/^\d+-/, '');
+}
+
+// Slugify a heading into a stable note key.
+function slugifyHeading(s) {
+  return s.toLowerCase()
+    .normalize('NFKD').replace(/[̀-ͯ]/g, '')   // strip accents
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-');
+}
+
+// Walk the tokens of the notes page; for each H2, accumulate the tokens that
+// follow until the next H2 (or EOF), and render that slice as the note body.
+// Returns `{ key → { title, html } }`. Headings collide → build error.
+function extractNotes(markdown, absPath) {
+  const env = { filePath: absPath, isNotesPage: true, notesDict: {} };
+  const tokens = md.parse(markdown, env);
+  const notes = {};
+
+  let key = null, title = null, slice = [];
+  const flush = () => {
+    if (!key) return;
+    if (notes[key]) {
+      throw new Error(`${absPath}: duplicate note key "${key}" (heading "${title}" collides).`);
+    }
+    notes[key] = { title, html: md.renderer.render(slice, md.options, env) };
+  };
+
+  for (let i = 0; i < tokens.length; i++) {
+    const t = tokens[i];
+    if (t.type === 'heading_open' && t.tag === 'h2') {
+      flush();
+      title = tokens[i + 1].content.trim();
+      key = slugifyHeading(title);
+      slice = [];
+      i += 2;   // skip the inline + heading_close
+    } else if (key) {
+      slice.push(t);
+    }
+  }
+  flush();
+  return notes;
 }
 
 // Ordering: numeric-prefix first by number, then non-prefixed by name.
@@ -312,12 +408,39 @@ function renderPrevNextHtml(node, navPages) {
   return `<nav class="page-nav">${left}${right}</nav>`;
 }
 
-function renderPage(pageTpl, { node, navPages, isStandaloneLeaf }) {
+function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNotesPage }) {
   const title = node.front.title;
   const author = inheritedField(node, 'author') ?? '';
   const date = formatDate(inheritedField(node, 'date'));
   const tags = Array.isArray(node.front.tags) ? node.front.tags : [];
-  const body = md.render(node.content);
+
+  // The render env lets the link-rewriter rule check note keys against the
+  // book's dictionary, reject `note:` references on the notes page itself,
+  // and accumulate referenced keys for popover emission below.
+  const env = {
+    filePath: node.absPath,
+    notesDict: notesDict || {},
+    isNotesPage: !!isNotesPage,
+    referencedNotes: new Set(),
+  };
+  let body = md.render(node.content, env);
+
+  // Emit one <aside popover> per unique note key referenced on this page.
+  // The note's content is inlined here; any number of <button> triggers in
+  // the body point at this single popover via popovertarget.
+  if (env.referencedNotes.size > 0 && notesDict) {
+    const popovers = [...env.referencedNotes].map(key => {
+      const n = notesDict[key];
+      const id = `note-${escapeAttr(key)}`;
+      return `<aside id="${id}" popover class="note-popover">
+  <h3 class="note-title">${escapeHtml(n.title)}</h3>
+  ${n.html}
+  <button class="note-close" type="button" popovertarget="${id}" popovertargetaction="hide" aria-label="Close">×</button>
+</aside>`;
+    }).join('\n');
+    body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
+  }
+
   const here = htmlPathFor(node);
   const assetPrefix = assetPrefixFor(here);
 
@@ -377,7 +500,7 @@ export async function build() {
     const summary = piece.front.summary ?? '';
 
     if (piece.kind === 'leaf') {
-      // Single-doc piece. No nav.json (no internal nav).
+      // Single-doc piece. No nav.json (no internal nav). No notes.
       const html = renderPage(pageTpl, { node: piece, navPages: [], isStandaloneLeaf: true });
       await fs.writeFile(path.join(DOCS_DIR, `${piece.slug}.html`), html);
       indexEntries.push({
@@ -392,11 +515,25 @@ export async function build() {
       const allPages = linearize(piece);
       const nav = navJsonFor(piece);
 
+      // At most one notes leaf per book.
+      const noteLeaves = allPages.filter(n => n.kind === 'leaf' && n.front.notes === true);
+      if (noteLeaves.length > 1) {
+        throw new Error(`${piece.slug}: multiple leaves marked notes: true (only one notes page per book).`);
+      }
+      const notesLeaf = noteLeaves[0] || null;
+      const notesDict = notesLeaf ? extractNotes(notesLeaf.content, notesLeaf.absPath) : null;
+
       for (const node of allPages) {
         const here = htmlPathFor(node);
         const outFile = path.join(DOCS_DIR, ...here.split('/'));
         await fs.mkdir(path.dirname(outFile), { recursive: true });
-        const html = renderPage(pageTpl, { node, navPages: nav.pages, isStandaloneLeaf: false });
+        const html = renderPage(pageTpl, {
+          node,
+          navPages: nav.pages,
+          isStandaloneLeaf: false,
+          notesDict,
+          isNotesPage: node === notesLeaf,
+        });
         await fs.writeFile(outFile, html);
       }
 

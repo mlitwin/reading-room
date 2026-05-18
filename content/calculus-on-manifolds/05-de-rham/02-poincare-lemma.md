@@ -2,7 +2,7 @@
 title: The Poincaré lemma
 ---
 
-**Poincaré lemma.** On any contractible open subset $U$ of a smooth manifold (or, more concretely, on a star-shaped open subset of $\mathbb{R}^n$),
+**Poincaré lemma.** On any contractible open subset $U$ of a smooth manifold (or, more concretely, on a [star-shaped](note:star-shaped) open subset of $\mathbb{R}^n$),
 $$H^k_{dR}(U) = 0 \quad \text{for all } k \geq 1.$$
 
 Equivalently: on a contractible manifold, every closed form of positive degree is exact.
@@ -18,4 +18,4 @@ measures the **global** obstruction to patching local primitives together — pu
 
 **Sheaf-theoretic restatement.** The complex of sheaves
 $$0 \to \underline{\mathbb{R}} \hookrightarrow \Omega^0 \xrightarrow{d} \Omega^1 \xrightarrow{d} \Omega^2 \xrightarrow{d} \cdots$$
-is an acyclic resolution of the constant sheaf $\underline{\mathbb{R}}$ on $M$. The Poincaré lemma is exactly the statement that this resolution is exact. Sheaf cohomology of the global sections then equals singular cohomology with $\mathbb{R}$ coefficients — the abstract way de Rham's theorem falls out.
+is an acyclic resolution of the constant [sheaf](note:sheaf) $\underline{\mathbb{R}}$ on $M$. The Poincaré lemma is exactly the statement that this resolution is exact. Sheaf cohomology of the global sections then equals singular cohomology with $\mathbb{R}$ coefficients — the abstract way de Rham's theorem falls out.
