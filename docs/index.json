@@ -1,6 +1,126 @@
 {
-  "generated_at": "2026-05-18T01:54:56.570Z",
+  "generated_at": "2026-05-18T03:52:06.266Z",
   "pieces": [
+    {
+      "slug": "calculus-on-manifolds",
+      "title": "Calculus on Manifolds — A Cheat Sheet",
+      "author": "Matthew Litwin",
+      "date": "2026-05-18",
+      "tags": [
+        "mathematics",
+        "manifolds",
+        "differential-geometry"
+      ],
+      "summary": "A compact review of smooth manifolds, tangent and cotangent spaces, vector fields, differential forms, integration, and de Rham cohomology — definitions, key formulas, and key theorems, with proofs left to your textbook of choice.",
+      "html_path": "calculus-on-manifolds/index.html",
+      "structure": {
+        "slug": "calculus-on-manifolds",
+        "title": "Calculus on Manifolds — A Cheat Sheet",
+        "html_path": "calculus-on-manifolds/index.html",
+        "items": [
+          {
+            "slug": "manifolds",
+            "title": "Manifolds",
+            "html_path": "calculus-on-manifolds/manifolds/index.html",
+            "items": [
+              {
+                "slug": "charts-and-smooth-maps",
+                "title": "Manifolds, charts, smooth maps",
+                "html_path": "calculus-on-manifolds/manifolds/charts-and-smooth-maps.html"
+              },
+              {
+                "slug": "tangent-space",
+                "title": "Tangent space",
+                "html_path": "calculus-on-manifolds/manifolds/tangent-space.html"
+              },
+              {
+                "slug": "cotangent-space",
+                "title": "Cotangent space and 1-forms",
+                "html_path": "calculus-on-manifolds/manifolds/cotangent-space.html"
+              }
+            ]
+          },
+          {
+            "slug": "vector-fields-and-flows",
+            "title": "Vector fields and flows",
+            "html_path": "calculus-on-manifolds/vector-fields-and-flows/index.html",
+            "items": [
+              {
+                "slug": "vector-fields",
+                "title": "Vector fields",
+                "html_path": "calculus-on-manifolds/vector-fields-and-flows/vector-fields.html"
+              },
+              {
+                "slug": "flows-and-lie-bracket",
+                "title": "Flows and the Lie bracket",
+                "html_path": "calculus-on-manifolds/vector-fields-and-flows/flows-and-lie-bracket.html"
+              },
+              {
+                "slug": "lie-derivative",
+                "title": "Lie derivative",
+                "html_path": "calculus-on-manifolds/vector-fields-and-flows/lie-derivative.html"
+              }
+            ]
+          },
+          {
+            "slug": "differential-forms",
+            "title": "Differential forms",
+            "html_path": "calculus-on-manifolds/differential-forms/index.html",
+            "items": [
+              {
+                "slug": "k-forms-and-wedge",
+                "title": "k-forms and the wedge product",
+                "html_path": "calculus-on-manifolds/differential-forms/k-forms-and-wedge.html"
+              },
+              {
+                "slug": "exterior-derivative-and-pullback",
+                "title": "Exterior derivative and pullback",
+                "html_path": "calculus-on-manifolds/differential-forms/exterior-derivative-and-pullback.html"
+              },
+              {
+                "slug": "closed-and-exact",
+                "title": "Closed and exact forms",
+                "html_path": "calculus-on-manifolds/differential-forms/closed-and-exact.html"
+              }
+            ]
+          },
+          {
+            "slug": "integration",
+            "title": "Integration",
+            "html_path": "calculus-on-manifolds/integration/index.html",
+            "items": [
+              {
+                "slug": "orientation-and-integration",
+                "title": "Orientation and integration",
+                "html_path": "calculus-on-manifolds/integration/orientation-and-integration.html"
+              },
+              {
+                "slug": "stokes-theorem",
+                "title": "Stokes's theorem",
+                "html_path": "calculus-on-manifolds/integration/stokes-theorem.html"
+              }
+            ]
+          },
+          {
+            "slug": "de-rham",
+            "title": "De Rham cohomology",
+            "html_path": "calculus-on-manifolds/de-rham/index.html",
+            "items": [
+              {
+                "slug": "cohomology",
+                "title": "De Rham cohomology",
+                "html_path": "calculus-on-manifolds/de-rham/cohomology.html"
+              },
+              {
+                "slug": "poincare-lemma",
+                "title": "The Poincaré lemma",
+                "html_path": "calculus-on-manifolds/de-rham/poincare-lemma.html"
+              }
+            ]
+          }
+        ]
+      }
+    },
     {
       "slug": "notes-on-sorting",
       "title": "Notes on Sorting",
