@@ -59,7 +59,7 @@ struct NoteSheet: View {
                 Spacer()
             }
         }
-        .presentationDetents([.medium, .large])
+        .presentationDetents([.medium, .large], selection: $detent)
         .presentationDragIndicator(.visible)
     }
 
