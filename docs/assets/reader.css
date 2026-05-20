@@ -122,6 +122,18 @@ article > header.piece .meta {
   font-size: inherit;
 }
 
+@media (max-width: 700px) {
+  /* On narrow viewports, wrap code instead of forcing horizontal scroll.
+     Loses fixed-column alignment but the line breaks at sensible points
+     and the content stays in view. Math keeps its internal scroll —
+     KaTeX HTML doesn't word-wrap. */
+  .body pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+}
+
 .body blockquote {
   border-left: 3px solid var(--rule);
   padding-left: 1rem;

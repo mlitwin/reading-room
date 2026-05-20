@@ -9,11 +9,15 @@ final class BookViewState {
     var isLoading: Bool = true
     var errorMessage: String?
     var nav: BookNav?
+    /// Non-nil while a note popover is open. The presented sheet binds to this.
+    var openNoteKey: String?
 
     var currentEntry: NavEntry? {
         guard let nav, let currentPath else { return nil }
         return nav.pages.first { $0.htmlPath == currentPath }
     }
+
+    var notesDict: [String: NoteData] { nav?.notes ?? [:] }
 
     func navigate(toHtmlPath htmlPath: String, baseURL: URL) {
         let url = baseURL.appendingPathComponent(htmlPath)
@@ -28,6 +32,16 @@ struct PieceDetailView: View {
 
     private var initialURL: URL {
         settings.baseURL.appendingPathComponent(piece.htmlPath)
+    }
+
+    // Base URL for the inner NoteWebView's relative-path resolution. Pointed
+    // at the book's notes page so links inside note content (which the
+    // generator wrote relative to the notes page) resolve correctly.
+    private var notesBaseURL: URL {
+        if let p = state.nav?.notesHtmlPath {
+            return settings.baseURL.appendingPathComponent(p)
+        }
+        return settings.baseURL
     }
 
     var body: some View {
@@ -71,6 +85,37 @@ struct PieceDetailView: View {
         }
         .navigationTitle(piece.title)
         .navigationBarTitleDisplayMode(.inline)
+        // Swipe gesture for book navigation. .simultaneousGesture so we
+        // don't fight WebView scroll / selection / math-block horizontal
+        // scroll. 60-pt threshold + horizontal-dominance check avoids
+        // triggering on incidental drags.
+        .simultaneousGesture(
+            DragGesture(minimumDistance: 40)
+                .onEnded { value in
+                    let dx = value.translation.width
+                    let dy = value.translation.height
+                    guard abs(dx) > 60, abs(dx) > abs(dy) * 1.5 else { return }
+                    let target = dx < 0 ? state.currentEntry?.next : state.currentEntry?.prev
+                    if let target {
+                        state.navigate(toHtmlPath: target.htmlPath, baseURL: settings.baseURL)
+                    }
+                }
+        )
+        .sheet(isPresented: Binding(
+            get: { state.openNoteKey != nil },
+            set: { if !$0 { state.openNoteKey = nil } }
+        )) {
+            if let key = state.openNoteKey {
+                NoteSheet(
+                    notesDict: state.notesDict,
+                    initialKey: key,
+                    baseURL: notesBaseURL,
+                    onContentLink: { url in
+                        state.webView?.load(URLRequest(url: url))
+                    }
+                )
+            }
+        }
         .task {
             guard piece.isBook, state.nav == nil else { return }
             do {
@@ -164,14 +209,34 @@ struct PieceWebView: UIViewRepresentable {
     let baseURL: URL
     let state: BookViewState
 
-    // Hide HTML chrome that the native UI is replacing (site header,
-    // breadcrumb, page-nav). The web reader keeps them visible since it has
-    // no other chrome.
+    // Hide HTML chrome that the native UI is replacing: site header,
+    // breadcrumb, footer prev/next, and the HTML note popovers. (The web
+    // reader keeps everything visible since it has no native chrome.)
     private static let hideChromeJS = """
         (function() {
           var style = document.createElement('style');
-          style.textContent = 'header.site, nav.breadcrumb, nav.page-nav { display: none !important; } article { margin-top: 1rem !important; }';
+          style.textContent = 'header.site, nav.breadcrumb, nav.page-nav, .note-popovers { display: none !important; } article { margin-top: 1rem !important; }';
           document.head.appendChild(style);
+        })();
+        """
+
+    // Intercept .note-link clicks (the buttons that would otherwise open the
+    // HTML popover) and forward the note key to Swift for native sheet
+    // presentation. Capture phase so we beat the browser's built-in popover
+    // toggling.
+    private static let noteBridgeJS = """
+        (function() {
+          document.addEventListener('click', function(e) {
+            var btn = e.target.closest('button.note-link');
+            if (!btn) return;
+            e.preventDefault();
+            e.stopPropagation();
+            var t = btn.getAttribute('popovertarget') || '';
+            var key = t.replace(/^note-/, '');
+            if (key && window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.note) {
+              window.webkit.messageHandlers.note.postMessage({ key: key });
+            }
+          }, true);
         })();
         """
 
@@ -184,6 +249,12 @@ struct PieceWebView: UIViewRepresentable {
             injectionTime: .atDocumentEnd,
             forMainFrameOnly: true
         ))
+        userContent.addUserScript(WKUserScript(
+            source: Self.noteBridgeJS,
+            injectionTime: .atDocumentEnd,
+            forMainFrameOnly: true
+        ))
+        userContent.add(context.coordinator, name: "note")
 
         let config = WKWebViewConfiguration()
         config.userContentController = userContent
@@ -192,7 +263,9 @@ struct PieceWebView: UIViewRepresentable {
         webView.navigationDelegate = context.coordinator
         webView.scrollView.contentInsetAdjustmentBehavior = .automatic
         webView.isOpaque = false
-        webView.allowsBackForwardNavigationGestures = true
+        // Disabled: the book-prev swipe replaces it, and the semantic overlap
+        // (WebView-history-back vs book-prev) is confusing.
+        webView.allowsBackForwardNavigationGestures = false
         state.webView = webView
         return webView
     }
@@ -205,11 +278,19 @@ struct PieceWebView: UIViewRepresentable {
         webView.load(URLRequest(url: initialURL))
     }
 
-    final class Coordinator: NSObject, WKNavigationDelegate {
+    final class Coordinator: NSObject, WKNavigationDelegate, WKScriptMessageHandler {
         let parent: PieceWebView
         var didLoadInitial = false
 
         init(_ parent: PieceWebView) { self.parent = parent }
+
+        func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+            if message.name == "note",
+               let body = message.body as? [String: Any],
+               let key = body["key"] as? String {
+                DispatchQueue.main.async { self.parent.state.openNoteKey = key }
+            }
+        }
 
         func webView(
             _ webView: WKWebView,

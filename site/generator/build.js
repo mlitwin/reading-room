@@ -55,11 +55,14 @@ md.core.ruler.push('rewrite_md_links', state => {
       const noteMatch = href.match(/^note:(.+)$/);
       if (noteMatch) {
         const key = noteMatch[1];
-        if (env.isNotesPage) {
-          throw new Error(`${env.filePath ?? '<unknown>'}: note:${key} reference inside the notes page is not allowed (avoid nested popovers).`);
-        }
-        if (!env.notesDict || !env.notesDict[key]) {
-          throw new Error(`${env.filePath ?? '<unknown>'}: undefined note "${key}". Add it to the book's notes page.`);
+        // During notes-page extraction the dictionary is still being built
+        // (we're parsing the very file that defines the notes), so skip the
+        // existence check. Body-page renders run with the dict populated and
+        // do enforce it. Cross-note references are validated post-extraction.
+        if (!env.deferNoteValidation) {
+          if (!env.notesDict || !env.notesDict[key]) {
+            throw new Error(`${env.filePath ?? '<unknown>'}: undefined note "${key}". Add it to the book's notes page.`);
+          }
         }
         child.meta = Object.assign({}, child.meta, { noteKey: key });
         // Mark the matching link_close so the renderer emits </button>.
@@ -167,17 +170,24 @@ function slugifyHeading(s) {
 // follow until the next H2 (or EOF), and render that slice as the note body.
 // Returns `{ key → { title, html } }`. Headings collide → build error.
 function extractNotes(markdown, absPath) {
-  const env = { filePath: absPath, isNotesPage: true, notesDict: {} };
+  // `deferNoteValidation` tells the link-rewriter to mark note: links but
+  // skip the existence check (the dictionary is what we're building). After
+  // we have all the headings, we do a single cross-reference validation pass.
+  const env = { filePath: absPath, deferNoteValidation: true };
   const tokens = md.parse(markdown, env);
   const notes = {};
 
-  let key = null, title = null, slice = [];
+  let key = null, title = null, slice = [], sliceRefs = new Set();
   const flush = () => {
     if (!key) return;
     if (notes[key]) {
       throw new Error(`${absPath}: duplicate note key "${key}" (heading "${title}" collides).`);
     }
-    notes[key] = { title, html: md.renderer.render(slice, md.options, env) };
+    notes[key] = {
+      title,
+      html: md.renderer.render(slice, md.options, env),
+      refs: [...sliceRefs],
+    };
   };
 
   for (let i = 0; i < tokens.length; i++) {
@@ -187,13 +197,46 @@ function extractNotes(markdown, absPath) {
       title = tokens[i + 1].content.trim();
       key = slugifyHeading(title);
       slice = [];
+      sliceRefs = new Set();
       i += 2;   // skip the inline + heading_close
     } else if (key) {
       slice.push(t);
+      // Collect note refs from this token's inline children.
+      if (t.type === 'inline' && t.children) {
+        for (const c of t.children) {
+          if (c.type === 'link_open' && c.meta?.noteKey) {
+            sliceRefs.add(c.meta.noteKey);
+          }
+        }
+      }
     }
   }
   flush();
+
+  // Cross-reference validation: every key any note references must exist.
+  for (const [k, n] of Object.entries(notes)) {
+    for (const ref of n.refs) {
+      if (!notes[ref]) {
+        throw new Error(`${absPath}: note "${k}" references undefined note "${ref}".`);
+      }
+    }
+  }
   return notes;
+}
+
+// Follow note→note references from a starting set, returning every key
+// reachable. Used to decide which popover elements to emit on a page.
+function transitiveNoteClosure(directRefs, notesDict) {
+  const visited = new Set();
+  const queue = [...directRefs];
+  while (queue.length > 0) {
+    const key = queue.shift();
+    if (visited.has(key)) continue;
+    visited.add(key);
+    const note = notesDict[key];
+    if (note?.refs) for (const ref of note.refs) queue.push(ref);
+  }
+  return visited;
 }
 
 // Ordering: numeric-prefix first by number, then non-prefixed by name.
@@ -425,19 +468,22 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
   };
   let body = md.render(node.content, env);
 
-  // Emit one <aside popover> per unique note key referenced on this page.
-  // The note's content is inlined here; any number of <button> triggers in
-  // the body point at this single popover via popovertarget.
+  // Emit one <aside popover> per note reachable from this page — transitive
+  // closure of direct refs plus any notes those notes link to. Multiple
+  // <button> triggers can share a single popover; reachability matters so
+  // that popover↔popover navigation has the target popover available.
   if (env.referencedNotes.size > 0 && notesDict) {
-    const popovers = [...env.referencedNotes].map(key => {
+    const reachable = transitiveNoteClosure(env.referencedNotes, notesDict);
+    const popovers = [...reachable].map(key => {
       const n = notesDict[key];
+      if (!n) return '';
       const id = `note-${escapeAttr(key)}`;
       return `<aside id="${id}" popover class="note-popover">
   <h3 class="note-title">${escapeHtml(n.title)}</h3>
   ${n.html}
   <button class="note-close" type="button" popovertarget="${id}" popovertargetaction="hide" aria-label="Close">×</button>
 </aside>`;
-    }).join('\n');
+    }).filter(Boolean).join('\n');
     body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
   }
 
@@ -535,6 +581,19 @@ export async function build() {
           isNotesPage: node === notesLeaf,
         });
         await fs.writeFile(outFile, html);
+      }
+
+      // Bake notes into nav.json so iOS (and any other client) gets the
+      // dictionary in one fetch alongside the navigation chrome. Strip the
+      // internal `refs` field — only used by the generator.
+      if (notesDict) {
+        nav.notes = {};
+        for (const [k, n] of Object.entries(notesDict)) {
+          nav.notes[k] = { title: n.title, html: n.html };
+        }
+        if (notesLeaf) {
+          nav.notes_html_path = htmlPathFor(notesLeaf);
+        }
       }
 
       // nav.json at docs/<slug>/nav.json
