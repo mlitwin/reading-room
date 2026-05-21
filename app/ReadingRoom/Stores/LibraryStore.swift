@@ -19,11 +19,15 @@ final class LibraryStore {
         self.settings = settings
     }
 
-    func refresh() async {
+    /// Reload the library from the on-disk mirror at `mirrorRoot`.
+    /// Content comes from the local file system; the network is the
+    /// SiteSync's concern.
+    func refresh(from mirrorRoot: URL) async {
         state = .loading
+        let indexPath = mirrorRoot.appendingPathComponent("index.json")
         do {
-            let client = ContentClient(baseURL: settings.baseURL)
-            let index = try await client.fetchIndex()
+            let data = try Data(contentsOf: indexPath)
+            let index = try JSONDecoder().decode(LibraryIndex.self, from: data)
             pieces = index.pieces
             state = .loaded
         } catch {

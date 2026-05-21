@@ -1,0 +1,635 @@
+{
+  "generated_at": "2026-05-21T00:04:06.997Z",
+  "files": [
+    {
+      "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
+      "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13",
+      "size": 63632
+    },
+    {
+      "path": "assets/fonts/KaTeX_AMS-Regular.woff",
+      "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251",
+      "size": 33516
+    },
+    {
+      "path": "assets/fonts/KaTeX_AMS-Regular.woff2",
+      "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308",
+      "size": 28076
+    },
+    {
+      "path": "assets/fonts/KaTeX_Caligraphic-Bold.ttf",
+      "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268",
+      "size": 12368
+    },
+    {
+      "path": "assets/fonts/KaTeX_Caligraphic-Bold.woff",
+      "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed",
+      "size": 7716
+    },
+    {
+      "path": "assets/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c",
+      "size": 6912
+    },
+    {
+      "path": "assets/fonts/KaTeX_Caligraphic-Regular.ttf",
+      "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7",
+      "size": 12344
+    },
+    {
+      "path": "assets/fonts/KaTeX_Caligraphic-Regular.woff",
+      "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c",
+      "size": 7656
+    },
+    {
+      "path": "assets/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b",
+      "size": 6908
+    },
+    {
+      "path": "assets/fonts/KaTeX_Fraktur-Bold.ttf",
+      "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1",
+      "size": 19584
+    },
+    {
+      "path": "assets/fonts/KaTeX_Fraktur-Bold.woff",
+      "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb",
+      "size": 13296
+    },
+    {
+      "path": "assets/fonts/KaTeX_Fraktur-Bold.woff2",
+      "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f",
+      "size": 11348
+    },
+    {
+      "path": "assets/fonts/KaTeX_Fraktur-Regular.ttf",
+      "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3",
+      "size": 19572
+    },
+    {
+      "path": "assets/fonts/KaTeX_Fraktur-Regular.woff",
+      "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463",
+      "size": 13208
+    },
+    {
+      "path": "assets/fonts/KaTeX_Fraktur-Regular.woff2",
+      "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc",
+      "size": 11316
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Bold.ttf",
+      "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8",
+      "size": 51336
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Bold.woff",
+      "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822",
+      "size": 29912
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Bold.woff2",
+      "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021",
+      "size": 25324
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-BoldItalic.ttf",
+      "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f",
+      "size": 32968
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-BoldItalic.woff",
+      "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c",
+      "size": 19412
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-BoldItalic.woff2",
+      "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b",
+      "size": 16780
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Italic.ttf",
+      "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a",
+      "size": 33580
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Italic.woff",
+      "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf",
+      "size": 19676
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Italic.woff2",
+      "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267",
+      "size": 16988
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Regular.ttf",
+      "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830",
+      "size": 53580
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Regular.woff",
+      "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc",
+      "size": 30772
+    },
+    {
+      "path": "assets/fonts/KaTeX_Main-Regular.woff2",
+      "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866",
+      "size": 26272
+    },
+    {
+      "path": "assets/fonts/KaTeX_Math-BoldItalic.ttf",
+      "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5",
+      "size": 31196
+    },
+    {
+      "path": "assets/fonts/KaTeX_Math-BoldItalic.woff",
+      "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e",
+      "size": 18668
+    },
+    {
+      "path": "assets/fonts/KaTeX_Math-BoldItalic.woff2",
+      "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1",
+      "size": 16400
+    },
+    {
+      "path": "assets/fonts/KaTeX_Math-Italic.ttf",
+      "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a",
+      "size": 31308
+    },
+    {
+      "path": "assets/fonts/KaTeX_Math-Italic.woff",
+      "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571",
+      "size": 18748
+    },
+    {
+      "path": "assets/fonts/KaTeX_Math-Italic.woff2",
+      "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264",
+      "size": 16440
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Bold.ttf",
+      "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0",
+      "size": 24504
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Bold.woff",
+      "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba",
+      "size": 14408
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Bold.woff2",
+      "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62",
+      "size": 12216
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Italic.ttf",
+      "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083",
+      "size": 22364
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Italic.woff",
+      "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2",
+      "size": 14112
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Italic.woff2",
+      "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a",
+      "size": 12028
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Regular.ttf",
+      "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad",
+      "size": 19436
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Regular.woff",
+      "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605",
+      "size": 12316
+    },
+    {
+      "path": "assets/fonts/KaTeX_SansSerif-Regular.woff2",
+      "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342",
+      "size": 10344
+    },
+    {
+      "path": "assets/fonts/KaTeX_Script-Regular.ttf",
+      "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67",
+      "size": 16648
+    },
+    {
+      "path": "assets/fonts/KaTeX_Script-Regular.woff",
+      "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a",
+      "size": 10588
+    },
+    {
+      "path": "assets/fonts/KaTeX_Script-Regular.woff2",
+      "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b",
+      "size": 9644
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size1-Regular.ttf",
+      "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b",
+      "size": 12228
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size1-Regular.woff",
+      "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9",
+      "size": 6496
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size1-Regular.woff2",
+      "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe",
+      "size": 5468
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size2-Regular.ttf",
+      "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b",
+      "size": 11508
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size2-Regular.woff",
+      "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d",
+      "size": 6188
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size2-Regular.woff2",
+      "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd",
+      "size": 5208
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size3-Regular.ttf",
+      "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082",
+      "size": 7588
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size3-Regular.woff",
+      "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949",
+      "size": 4420
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size3-Regular.woff2",
+      "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995",
+      "size": 3624
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size4-Regular.ttf",
+      "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877",
+      "size": 10364
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size4-Regular.woff",
+      "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58",
+      "size": 5980
+    },
+    {
+      "path": "assets/fonts/KaTeX_Size4-Regular.woff2",
+      "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0",
+      "size": 4928
+    },
+    {
+      "path": "assets/fonts/KaTeX_Typewriter-Regular.ttf",
+      "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa",
+      "size": 27556
+    },
+    {
+      "path": "assets/fonts/KaTeX_Typewriter-Regular.woff",
+      "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7",
+      "size": 16028
+    },
+    {
+      "path": "assets/fonts/KaTeX_Typewriter-Regular.woff2",
+      "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b",
+      "size": 13568
+    },
+    {
+      "path": "assets/highlight.css",
+      "sha256": "85a09b2ec4b7fcfba39b08a3043338aa709a3b1093f479ad3783e403b8de94d9",
+      "size": 1226
+    },
+    {
+      "path": "assets/katex.min.css",
+      "sha256": "0289a02cf451a44dd73add683a09644252363871ac11713a647b732cee8b1ee3",
+      "size": 23827
+    },
+    {
+      "path": "assets/notes.js",
+      "sha256": "38a4394b615f9bce743693422a47dcf728001debd355f1147faea7c8de06b0ad",
+      "size": 995
+    },
+    {
+      "path": "assets/reader.css",
+      "sha256": "114b2f399bd2d6db40877963ff0f40d2218e7d8356d26ea5626352a9d1ee79c9",
+      "size": 8212
+    },
+    {
+      "path": "calculus-on-manifolds/de-rham/cohomology.html",
+      "sha256": "bcbc6f5ff96138c88c48769882ec942e9b52f060196bd2b770e92cd64799833b",
+      "size": 88837
+    },
+    {
+      "path": "calculus-on-manifolds/de-rham/index.html",
+      "sha256": "a9b675886cb2e45026c05565a080be5bc46b73df51805e3e88bac0f265b91be5",
+      "size": 1993
+    },
+    {
+      "path": "calculus-on-manifolds/de-rham/poincare-lemma.html",
+      "sha256": "eccffd35e6efa538ec1cbe401faf7aa003e82fe07ee49d32f5d1d7d0142dd8d0",
+      "size": 57377
+    },
+    {
+      "path": "calculus-on-manifolds/differential-forms/closed-and-exact.html",
+      "sha256": "e35f1a1fab81e99876201adc1e9dc090bc80cda842b540cb58a35733a6404ebe",
+      "size": 29401
+    },
+    {
+      "path": "calculus-on-manifolds/differential-forms/exterior-derivative-and-pullback.html",
+      "sha256": "037f8641482277d0d925289626e399c10778629fb551109a87adbc7fc6f8c4af",
+      "size": 97044
+    },
+    {
+      "path": "calculus-on-manifolds/differential-forms/index.html",
+      "sha256": "950e5af8c90fb97a54425d9f9ba9073a7a420afcf3276a9a398f2159c7b6783b",
+      "size": 1620
+    },
+    {
+      "path": "calculus-on-manifolds/differential-forms/k-forms-and-wedge.html",
+      "sha256": "36ba7dfdbc9900c44d4f4f640559279398a6bc6d3401c20fa0ade0a5d383635e",
+      "size": 65582
+    },
+    {
+      "path": "calculus-on-manifolds/index.html",
+      "sha256": "d5269ae9448f2a3182f7a59f7edf9fb17c021d87ba9914cf479b57f5071fd3b6",
+      "size": 14626
+    },
+    {
+      "path": "calculus-on-manifolds/integration/index.html",
+      "sha256": "bb5794e06ed0a787790d9a16362070aa367b57ea2c5f97131b12a8d710b8db82",
+      "size": 3465
+    },
+    {
+      "path": "calculus-on-manifolds/integration/orientation-and-integration.html",
+      "sha256": "466c82a9b74d0d81f79a45fe689f92b6ba1620345d52be290b60aab9116a0f35",
+      "size": 37628
+    },
+    {
+      "path": "calculus-on-manifolds/integration/stokes-theorem.html",
+      "sha256": "8a318c02a43c337626f4762784fdefd15094cd5591d4e7c36d3afc4694fd18c8",
+      "size": 36130
+    },
+    {
+      "path": "calculus-on-manifolds/manifolds/charts-and-smooth-maps.html",
+      "sha256": "fb3a55b4e99496c0c44cf686ca833140e0053e2bd12a12c9189c7b8c1b0cfb07",
+      "size": 32511
+    },
+    {
+      "path": "calculus-on-manifolds/manifolds/cotangent-space.html",
+      "sha256": "b9644e4b01095a3db4e901639df5049df09372d9282d853efd57fc4abd54cd31",
+      "size": 62079
+    },
+    {
+      "path": "calculus-on-manifolds/manifolds/index.html",
+      "sha256": "5e732ee0ce816919dc841b45f0d430d53ab146b054a5b2bae07bd386db6db6e4",
+      "size": 2403
+    },
+    {
+      "path": "calculus-on-manifolds/manifolds/tangent-space.html",
+      "sha256": "30e29a6ee16c365a3b30513a54b0ff9e1acd6a9aad87ababecceca3c8aff257e",
+      "size": 44539
+    },
+    {
+      "path": "calculus-on-manifolds/nav.json",
+      "sha256": "75b1bf8523c32b734a1a9704071603606e08d0ba39d6e6910ce756d2eafbf6b0",
+      "size": 110962
+    },
+    {
+      "path": "calculus-on-manifolds/notes.html",
+      "sha256": "0a2d62af230b960631ea149ed6bb7d1426aee8821b8692a5a3b8deead5f9ba40",
+      "size": 113171
+    },
+    {
+      "path": "calculus-on-manifolds/vector-fields-and-flows/flows-and-lie-bracket.html",
+      "sha256": "1ecbad7d4fa22574812f77987573fe98c4c8e97f7545cf5a992767cc7c0e0c07",
+      "size": 54220
+    },
+    {
+      "path": "calculus-on-manifolds/vector-fields-and-flows/index.html",
+      "sha256": "166d9382c72e61934fa3e0145cf58bf787be36fc41a978954d32a317a4c32166",
+      "size": 1698
+    },
+    {
+      "path": "calculus-on-manifolds/vector-fields-and-flows/lie-derivative.html",
+      "sha256": "1b266a084981b48556bc0e8180b0ea1dcaa30ceef203a2ea4e0004880111d9ce",
+      "size": 50628
+    },
+    {
+      "path": "calculus-on-manifolds/vector-fields-and-flows/vector-fields.html",
+      "sha256": "df9aa8109993d1e143f7ba450e32235b27493a752cd6dc88c49ec8cb14ee6a83",
+      "size": 38832
+    },
+    {
+      "path": "classical-mechanics/hamiltonian/index.html",
+      "sha256": "075723613f17e48680265c2cd0bc20a3969f270213d54fb38adf611297f8d938",
+      "size": 1767
+    },
+    {
+      "path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html",
+      "sha256": "9f3524c85a8dd6753b53a39a39a14581825d60e46b82b7c33a6b6310fc4f4428",
+      "size": 87430
+    },
+    {
+      "path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html",
+      "sha256": "2716fffbeb1486fb65da72503fabdef686d164358313816d7e2f87b6278c803e",
+      "size": 70458
+    },
+    {
+      "path": "classical-mechanics/index.html",
+      "sha256": "a02aee2fd2c96ff5c49215942a3a364d0e84d8980ed635fcc53760df6c4dc888",
+      "size": 12756
+    },
+    {
+      "path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html",
+      "sha256": "39d54ba67846290002022314fc4fb4c79746c58163cdd3587049a4d122efedf8",
+      "size": 78930
+    },
+    {
+      "path": "classical-mechanics/lagrangian/coordinates-and-constraints.html",
+      "sha256": "8922c22aaa083f5ffccc83f687609701f13eeb0a19ebd9cb8e5529ca33d43375",
+      "size": 74713
+    },
+    {
+      "path": "classical-mechanics/lagrangian/index.html",
+      "sha256": "13b93503bc5f8785c0526ff759551adcbaa8e0448659840d3af2d24f2f16fe9f",
+      "size": 3907
+    },
+    {
+      "path": "classical-mechanics/nav.json",
+      "sha256": "0764ff4347d4c32b89151f748517792befea170b468cdc56bdca027072bef9b3",
+      "size": 78108
+    },
+    {
+      "path": "classical-mechanics/newtonian/conservation-laws.html",
+      "sha256": "ff1691376654cc72aa621f79feb460b9d8d15da1e105f6367f7163a2d7359a49",
+      "size": 42198
+    },
+    {
+      "path": "classical-mechanics/newtonian/index.html",
+      "sha256": "94a1d11e4056df79e26939826b2c308797f0d2f1300c77c37e9a471a0526077f",
+      "size": 5129
+    },
+    {
+      "path": "classical-mechanics/newtonian/newtons-laws.html",
+      "sha256": "5caf5b47fd0ed472f5165c52f69d961562900dd7d39e924c511042e1b023dc13",
+      "size": 54993
+    },
+    {
+      "path": "classical-mechanics/noether/examples.html",
+      "sha256": "7053f6ec037b190c2c866543a20130a76de1e2f3bd285120ee606d3423472e0b",
+      "size": 48624
+    },
+    {
+      "path": "classical-mechanics/noether/index.html",
+      "sha256": "859a89085b10139d51c49e8b3c6ce5672c68eeec1533edf03ae5e7b28790610b",
+      "size": 1803
+    },
+    {
+      "path": "classical-mechanics/noether/noethers-theorem.html",
+      "sha256": "c67d6987904075b6f8981c6d5a60278892ef48297c49784cbd1033d5a1f03840",
+      "size": 53534
+    },
+    {
+      "path": "classical-mechanics/notes.html",
+      "sha256": "345c6ce71bfb12ef0af9275712368f31e95aa7fb067bffd415dbaa3da1b14237",
+      "size": 65017
+    },
+    {
+      "path": "index.html",
+      "sha256": "6a3c70a9cf46ce1ea9186d475809905d20a9a694cbf0d61fc45f5f0af214ca86",
+      "size": 2648
+    },
+    {
+      "path": "index.json",
+      "sha256": "c4b6fca332f1fc7d469d4249ca6013eb0cfc07da4f418f0bdbea91e2e4de58fe",
+      "size": 13906
+    },
+    {
+      "path": "notes-on-sorting/algorithms/index.html",
+      "sha256": "34a5821b448bad71e2fa0502c264c87a6f6fa697000e196ac70e4f2c6675a284",
+      "size": 2515
+    },
+    {
+      "path": "notes-on-sorting/algorithms/mergesort.html",
+      "sha256": "52bb2aed9079d4d85361b9406dbe79ee1c927d79d90e4162956e544837b90a6e",
+      "size": 4395
+    },
+    {
+      "path": "notes-on-sorting/algorithms/quicksort.html",
+      "sha256": "1dd7070a94ec442e5120698435a99aacaf8457838a0a5a91b57c3baa366cc76c",
+      "size": 5525
+    },
+    {
+      "path": "notes-on-sorting/fundamentals/complexity.html",
+      "sha256": "42758565e0799221ee2c4a01507b998615f3d91ba829970df46603813fe35c99",
+      "size": 10165
+    },
+    {
+      "path": "notes-on-sorting/fundamentals/index.html",
+      "sha256": "e748ef44145867fc790f1cdead976dce66c249d999fa24993794f4244ee5d143",
+      "size": 1678
+    },
+    {
+      "path": "notes-on-sorting/fundamentals/stability.html",
+      "sha256": "d27747dd62e3451fedcbe61103893bc2d3c7c715fffe9502bd40f937975bc66d",
+      "size": 2987
+    },
+    {
+      "path": "notes-on-sorting/index.html",
+      "sha256": "12c692658174fb30eb6eb83a74c8e01e8c8eede240b760aced99041304b13613",
+      "size": 1630
+    },
+    {
+      "path": "notes-on-sorting/nav.json",
+      "sha256": "95f30f77501a5f809a0df988df7fe20440298747cac76a1f5776726fbce62cb2",
+      "size": 4429
+    },
+    {
+      "path": "shahnameh-study-guide/characters/heroes-of-sistan.html",
+      "sha256": "688bcc8f13fbcf589cf89f525705992d04ca58c3a524bd0e4ce9a71e737dce01",
+      "size": 3702
+    },
+    {
+      "path": "shahnameh-study-guide/characters/index.html",
+      "sha256": "c2880ba125fb78fbef6f384fe2aa229a464163cd24a5c4a3af13eefa97fa4e15",
+      "size": 2516
+    },
+    {
+      "path": "shahnameh-study-guide/characters/kayanian-shahs.html",
+      "sha256": "2c2c2fa68fce6268267a3b62d6cc83da01cfa1536ee431d51c36368f931178cf",
+      "size": 3859
+    },
+    {
+      "path": "shahnameh-study-guide/characters/primordial-kings.html",
+      "sha256": "dce38460c7282f5ad7bde6e1d5d5413350ba427d75e419751aaf91e1ea6095a3",
+      "size": 3774
+    },
+    {
+      "path": "shahnameh-study-guide/characters/turan.html",
+      "sha256": "d69e137e3982eeb296d917d997b823b10918c8b1c06cf0cb3b994c9fbe7dfb50",
+      "size": 3552
+    },
+    {
+      "path": "shahnameh-study-guide/historicised-view/eskandar-the-persian.html",
+      "sha256": "6d1912ac63f4d0fb328c026ce7197135b2b31e2c8dc2d4cd49552290911b0251",
+      "size": 3367
+    },
+    {
+      "path": "shahnameh-study-guide/historicised-view/index.html",
+      "sha256": "c092218040a9eb66227d26ce360e768eff7ab250c3ecdc987c906a15a8b7fd1a",
+      "size": 2894
+    },
+    {
+      "path": "shahnameh-study-guide/historicised-view/missing-achaemenids.html",
+      "sha256": "16a3a1e51a6b0abf178ddead81fe733363e4195ee9c3b346674d5af1e578754b",
+      "size": 3439
+    },
+    {
+      "path": "shahnameh-study-guide/historicised-view/mythical-time.html",
+      "sha256": "de8150f6ca55884309b59ab56ebbbaf8f6ee1b369bbdbc690fe89ae015271696",
+      "size": 3212
+    },
+    {
+      "path": "shahnameh-study-guide/historicised-view/parthian-gap.html",
+      "sha256": "11a3757b5ed131a279ceccf100e92f4486f9a4962e992a6834d5654cad349832",
+      "size": 3536
+    },
+    {
+      "path": "shahnameh-study-guide/index.html",
+      "sha256": "68611e910247cf281b26830dcf9e5e221134132ee1c98d4da8f0457d9e39779b",
+      "size": 2810
+    },
+    {
+      "path": "shahnameh-study-guide/introduction/ferdowsi-and-islam.html",
+      "sha256": "836a987ee5f1867679dd68cdb4f6e1ecd49fea78b6b273edfd0c74eaa34df3e5",
+      "size": 3326
+    },
+    {
+      "path": "shahnameh-study-guide/introduction/index.html",
+      "sha256": "bdf72e9c32ff203be699fcbda9d91f6e4f312bded59b6d6109c953a353ff26f5",
+      "size": 1986
+    },
+    {
+      "path": "shahnameh-study-guide/introduction/iran.html",
+      "sha256": "0fc0f21f7b6465675bc4defc3f6ed9500c066fa663786be6ebf6d611c2209e70",
+      "size": 3105
+    },
+    {
+      "path": "shahnameh-study-guide/introduction/zoroastrianism.html",
+      "sha256": "f711b6da83a4223871e1c415a3adb01cec4b54b317500956377f55cd74acaa87",
+      "size": 3370
+    },
+    {
+      "path": "shahnameh-study-guide/nav.json",
+      "sha256": "499cbc2a478d7df2db8b7371df3af70a604f80d4b3a8fe31d3fcb1c6e851328a",
+      "size": 11691
+    }
+  ]
+}

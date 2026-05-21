@@ -1,5 +1,6 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
@@ -622,8 +623,37 @@ export async function build() {
   const landingHtml = applyTemplate(indexTpl, { list: listHtml, assetPrefix: './' });
   await fs.writeFile(path.join(DOCS_DIR, 'index.html'), landingHtml);
 
+  // Asset manifest — one entry per file under docs/, with sha256 + size.
+  // Consumed by the iOS app's SiteSync to skip unchanged files.
+  await emitAssetManifest();
+
   const pageCount = pieces.reduce((n, p) => n + (p.kind === 'leaf' ? 1 : linearize(p).length), 0);
   console.log(`Built ${pieces.length} piece(s), ${pageCount} page(s) to ${path.relative(ROOT, DOCS_DIR)}`);
+}
+
+async function emitAssetManifest() {
+  const entries = [];
+  async function walk(dir, prefix) {
+    for (const e of await fs.readdir(dir, { withFileTypes: true })) {
+      const abs = path.join(dir, e.name);
+      const rel = prefix ? `${prefix}/${e.name}` : e.name;
+      // Don't list the manifest itself — clients hash-check against it.
+      if (!prefix && e.name === 'assets.json') continue;
+      if (e.isDirectory()) {
+        await walk(abs, rel);
+      } else if (e.isFile()) {
+        const data = await fs.readFile(abs);
+        const sha256 = crypto.createHash('sha256').update(data).digest('hex');
+        entries.push({ path: rel, sha256, size: data.length });
+      }
+    }
+  }
+  await walk(DOCS_DIR, '');
+  entries.sort((a, b) => a.path.localeCompare(b.path));
+  await fs.writeFile(
+    path.join(DOCS_DIR, 'assets.json'),
+    JSON.stringify({ generated_at: new Date().toISOString(), files: entries }, null, 2)
+  );
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

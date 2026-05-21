@@ -3,6 +3,7 @@ import SwiftUI
 struct SettingsView: View {
     @Environment(SettingsStore.self) private var settings
     @Environment(LibraryStore.self) private var library
+    @Environment(SiteSync.self) private var siteSync
     @Environment(\.dismiss) private var dismiss
 
     @State private var baseURLString: String = ""
@@ -41,7 +42,11 @@ struct SettingsView: View {
     private func save() {
         if let url = URL(string: baseURLString) {
             settings.baseURL = url
-            Task { await library.refresh() }
+            siteSync.setBaseURL(url)
+            Task {
+                await siteSync.sync().value
+                await library.refresh(from: siteSync.mirrorRoot)
+            }
         }
         dismiss()
     }

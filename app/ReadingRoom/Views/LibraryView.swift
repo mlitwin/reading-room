@@ -3,8 +3,8 @@ import WebKit
 
 struct LibraryView: View {
     @Environment(LibraryStore.self) private var library
+    @Environment(SiteSync.self) private var siteSync
     @State private var showSettings = false
-    @State private var isHardRefreshing = false
 
     var body: some View {
         NavigationStack {
@@ -15,13 +15,13 @@ struct LibraryView: View {
                         Button {
                             Task { await hardRefresh() }
                         } label: {
-                            if isHardRefreshing {
+                            if siteSync.isSyncing {
                                 ProgressView()
                             } else {
                                 Image(systemName: "arrow.clockwise")
                             }
                         }
-                        .disabled(isHardRefreshing)
+                        .disabled(siteSync.isSyncing)
                         .accessibilityLabel("Refresh from source")
                     }
                     ToolbarItem(placement: .topBarTrailing) {
@@ -30,26 +30,37 @@ struct LibraryView: View {
                         }
                     }
                 }
-                .refreshable { await library.refresh() }
+                .refreshable { await refreshFromNetwork() }
                 .sheet(isPresented: $showSettings) { SettingsView() }
                 .task {
-                    if case .idle = library.state { await library.refresh() }
+                    if case .idle = library.state {
+                        await library.refresh(from: siteSync.mirrorRoot)
+                    }
+                }
+                .onChange(of: siteSync.lastSyncDate) { _, _ in
+                    Task { await library.refresh(from: siteSync.mirrorRoot) }
                 }
         }
     }
 
-    // Pull-to-refresh just re-fetches index.json; the WKWebView keeps any
-    // HTML/CSS it had cached. This button clears that cache too, so the
-    // next time a piece opens it pulls a fresh page from the source.
+    // Pull-to-refresh: trigger a network sync, await it, then re-read the
+    // library from the (now-updated) local mirror.
+    private func refreshFromNetwork() async {
+        let task = siteSync.sync()
+        await task.value
+        await library.refresh(from: siteSync.mirrorRoot)
+    }
+
+    // Hard refresh: clear WKWebView caches AND sync. The WebView reads from
+    // file:// so its data store is mostly noise now, but kept for parity with
+    // the old behavior.
     private func hardRefresh() async {
-        isHardRefreshing = true
-        defer { isHardRefreshing = false }
         URLCache.shared.removeAllCachedResponses()
         await WKWebsiteDataStore.default().removeData(
             ofTypes: WKWebsiteDataStore.allWebsiteDataTypes(),
             modifiedSince: .distantPast
         )
-        await library.refresh()
+        await refreshFromNetwork()
     }
 
     @ViewBuilder
@@ -68,8 +79,10 @@ struct LibraryView: View {
                         .font(.caption)
                         .foregroundStyle(.secondary)
                         .multilineTextAlignment(.center)
-                    Button("Retry") { Task { await library.refresh() } }
-                        .buttonStyle(.borderedProminent)
+                    Button("Retry") {
+                        Task { await refreshFromNetwork() }
+                    }
+                    .buttonStyle(.borderedProminent)
                 }
                 .padding()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)

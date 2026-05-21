@@ -19,19 +19,24 @@ final class BookViewState {
 
     var notesDict: [String: NoteData] { nav?.notes ?? [:] }
 
-    func navigate(toHtmlPath htmlPath: String, baseURL: URL) {
-        let url = baseURL.appendingPathComponent(htmlPath)
+    func navigate(toHtmlPath htmlPath: String, mirrorRoot: URL) {
+        var url = mirrorRoot
+        for component in htmlPath.split(separator: "/") {
+            url = url.appendingPathComponent(String(component))
+        }
         webView?.load(URLRequest(url: url))
     }
 }
 
 struct PieceDetailView: View {
     let piece: Piece
-    @Environment(SettingsStore.self) private var settings
+    @Environment(SiteSync.self) private var siteSync
+    @Environment(\.dismiss) private var dismiss
     @State private var state = BookViewState()
+    @State private var fallbackToast: String?
 
     private var initialURL: URL {
-        settings.baseURL.appendingPathComponent(piece.htmlPath)
+        siteSync.localURL(for: piece.htmlPath)
     }
 
     // Base URL for the inner NoteWebView's relative-path resolution. Pointed
@@ -39,9 +44,9 @@ struct PieceDetailView: View {
     // generator wrote relative to the notes page) resolve correctly.
     private var notesBaseURL: URL {
         if let p = state.nav?.notesHtmlPath {
-            return settings.baseURL.appendingPathComponent(p)
+            return siteSync.localURL(for: p)
         }
-        return settings.baseURL
+        return siteSync.mirrorRoot
     }
 
     var body: some View {
@@ -59,7 +64,7 @@ struct PieceDetailView: View {
             ZStack {
                 PieceWebView(
                     initialURL: initialURL,
-                    baseURL: settings.baseURL,
+                    mirrorRoot: siteSync.mirrorRoot,
                     state: state
                 )
 
@@ -83,6 +88,17 @@ struct PieceDetailView: View {
                 bottomNavBar(entry: entry)
             }
         }
+        .overlay(alignment: .top) {
+            if let msg = fallbackToast {
+                Text(msg)
+                    .font(.caption)
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 8)
+                    .background(.regularMaterial, in: Capsule())
+                    .padding(.top, 8)
+                    .transition(.move(edge: .top).combined(with: .opacity))
+            }
+        }
         .navigationTitle(piece.title)
         .navigationBarTitleDisplayMode(.inline)
         // Swipe gesture for book navigation. .simultaneousGesture so we
@@ -97,7 +113,7 @@ struct PieceDetailView: View {
                     guard abs(dx) > 60, abs(dx) > abs(dy) * 1.5 else { return }
                     let target = dx < 0 ? state.currentEntry?.next : state.currentEntry?.prev
                     if let target {
-                        state.navigate(toHtmlPath: target.htmlPath, baseURL: settings.baseURL)
+                        state.navigate(toHtmlPath: target.htmlPath, mirrorRoot: siteSync.mirrorRoot)
                     }
                 }
         )
@@ -118,13 +134,50 @@ struct PieceDetailView: View {
         }
         .task {
             guard piece.isBook, state.nav == nil else { return }
-            do {
-                let client = ContentClient(baseURL: settings.baseURL)
-                state.nav = try await client.fetchNav(forBookSlug: piece.slug)
-            } catch {
-                // Non-fatal — the WebView still renders the embedded HTML chrome.
+            state.nav = loadNavFromMirror(slug: piece.slug)
+        }
+        .onChange(of: siteSync.lastSyncDate) { _, _ in
+            handleSyncCompleted()
+        }
+    }
+
+    // Called after each successful sync. If the page the user is reading
+    // still exists in the mirror, do nothing. Otherwise, fall back: book
+    // root if it survived; otherwise dismiss to the library.
+    private func handleSyncCompleted() {
+        if piece.isBook {
+            state.nav = loadNavFromMirror(slug: piece.slug)
+        }
+        guard let current = state.currentPath else { return }
+        let currentURL = siteSync.localURL(for: current)
+        if FileManager.default.fileExists(atPath: currentURL.path) { return }
+
+        // The page is gone. Try book root first.
+        if piece.isBook {
+            let rootURL = siteSync.localURL(for: piece.htmlPath)
+            if FileManager.default.fileExists(atPath: rootURL.path) {
+                showToast("Page removed; showing book index.")
+                state.navigate(toHtmlPath: piece.htmlPath, mirrorRoot: siteSync.mirrorRoot)
+                return
             }
         }
+        // Book itself is gone — dismiss to the library.
+        showToast("Page removed.")
+        dismiss()
+    }
+
+    private func showToast(_ message: String) {
+        withAnimation { fallbackToast = message }
+        Task {
+            try? await Task.sleep(nanoseconds: 2_500_000_000)
+            withAnimation { fallbackToast = nil }
+        }
+    }
+
+    private func loadNavFromMirror(slug: String) -> BookNav? {
+        let url = siteSync.localURL(for: "\(slug)/nav.json")
+        guard let data = try? Data(contentsOf: url) else { return nil }
+        return try? JSONDecoder().decode(BookNav.self, from: data)
     }
 
     @ViewBuilder
@@ -138,7 +191,7 @@ struct PieceDetailView: View {
                             .foregroundStyle(.tertiary)
                     }
                     Button {
-                        state.navigate(toHtmlPath: crumb.htmlPath, baseURL: settings.baseURL)
+                        state.navigate(toHtmlPath: crumb.htmlPath, mirrorRoot: siteSync.mirrorRoot)
                     } label: {
                         Text(crumb.title)
                             .font(.caption)
@@ -182,7 +235,7 @@ struct PieceDetailView: View {
     private func navButton(crumb: Crumb?, direction: NavDirection) -> some View {
         if let crumb {
             Button {
-                state.navigate(toHtmlPath: crumb.htmlPath, baseURL: settings.baseURL)
+                state.navigate(toHtmlPath: crumb.htmlPath, mirrorRoot: siteSync.mirrorRoot)
             } label: {
                 HStack(spacing: 4) {
                     if direction == .prev {
@@ -206,7 +259,7 @@ struct PieceDetailView: View {
 
 struct PieceWebView: UIViewRepresentable {
     let initialURL: URL
-    let baseURL: URL
+    let mirrorRoot: URL
     let state: BookViewState
 
     // Hide HTML chrome that the native UI is replacing: site header,
@@ -275,7 +328,9 @@ struct PieceWebView: UIViewRepresentable {
         context.coordinator.didLoadInitial = true
         state.isLoading = true
         state.errorMessage = nil
-        webView.load(URLRequest(url: initialURL))
+        // file:// URLs need explicit read-access to the mirror root so the
+        // page can pull in ../assets/reader.css and siblings.
+        webView.loadFileURL(initialURL, allowingReadAccessTo: mirrorRoot)
     }
 
     final class Coordinator: NSObject, WKNavigationDelegate, WKScriptMessageHandler {
@@ -299,8 +354,10 @@ struct PieceWebView: UIViewRepresentable {
         ) {
             if navigationAction.navigationType == .linkActivated,
                let target = navigationAction.request.url {
-                let currentHost = webView.url?.host
-                if let host = target.host, host == currentHost {
+                // file:// links inside the mirror — allow. Anything else
+                // (http/mailto/...) hand off to the OS.
+                if target.isFileURL,
+                   target.path.hasPrefix(parent.mirrorRoot.path) {
                     decisionHandler(.allow)
                 } else {
                     UIApplication.shared.open(target)
@@ -333,26 +390,19 @@ struct PieceWebView: UIViewRepresentable {
 
         private func updateCurrentPath(webView: WKWebView) {
             guard let url = webView.url else { return }
-            parent.state.currentPath = htmlPath(from: url, base: parent.baseURL)
+            parent.state.currentPath = htmlPath(from: url, mirrorRoot: parent.mirrorRoot)
         }
 
-        // Returns the path portion of `url` relative to `base`'s path. Handles
-        // both root-hosted (http://localhost:5173/) and path-prefixed
-        // (https://antoninus.org/reading-room/) base URLs.
-        private func htmlPath(from url: URL, base: URL) -> String? {
-            guard let baseComps = URLComponents(url: base, resolvingAgainstBaseURL: false),
-                  let urlComps = URLComponents(url: url, resolvingAgainstBaseURL: false),
-                  urlComps.scheme == baseComps.scheme,
-                  urlComps.host == baseComps.host else { return nil }
-            var basePath = baseComps.path
-            if !basePath.hasSuffix("/") { basePath += "/" }
-            var pagePath = urlComps.path
-            if pagePath.hasPrefix(basePath) {
-                pagePath = String(pagePath.dropFirst(basePath.count))
-            } else if pagePath.hasPrefix("/") {
-                pagePath = String(pagePath.dropFirst())
-            }
-            return pagePath
+        // For file:// URLs we ask: does the page's path live under the
+        // mirror root? If so, the relative remainder IS the html path
+        // (e.g. "calculus-on-manifolds/index.html").
+        private func htmlPath(from url: URL, mirrorRoot: URL) -> String? {
+            guard url.isFileURL else { return nil }
+            let pagePath = url.standardizedFileURL.path
+            let rootPath = mirrorRoot.standardizedFileURL.path
+            let prefix = rootPath.hasSuffix("/") ? rootPath : rootPath + "/"
+            guard pagePath.hasPrefix(prefix) else { return nil }
+            return String(pagePath.dropFirst(prefix.count))
         }
     }
 }
