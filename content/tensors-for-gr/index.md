@@ -16,10 +16,11 @@ Notation throughout: Greek indices $\mu, \nu, \rho, \sigma$ range over spacetime
 
 ## Contents
 
-1. [Vectors and covectors](01-vectors-and-covectors/index.md) — why dual vectors deserve equal billing, two views of each.
-2. [Tensors](02-tensors/index.md) — the $(r, s)$ construction, components, and the parallel notations.
-3. [The metric](03-metric/index.md) — what the metric does, raising and lowering, Riemannian vs Lorentzian.
-4. [Connection and curvature](04-connection-and-curvature/index.md) — affine connections, the covariant derivative, Riemann and torsion.
-5. [General relativity](05-general-relativity/index.md) — the Einstein equations, Schwarzschild, Einstein–Cartan.
+1. [Coordinate systems on the sphere](01-coordinate-systems/index.md) — chart, atlas, basis vectors. Two charts on $S^2$ as the running example.
+2. [Vectors and covectors](02-vectors-and-covectors/index.md) — why dual vectors deserve equal billing, two views of each.
+3. [Tensors](03-tensors/index.md) — the $(r, s)$ construction, components, and the parallel notations.
+4. [The metric](04-metric/index.md) — what the metric does, raising and lowering, Riemannian vs Lorentzian.
+5. [Connection and curvature](05-connection-and-curvature/index.md) — affine connections, the covariant derivative, Riemann and torsion.
+6. [General relativity](06-general-relativity/index.md) — the Einstein equations, Schwarzschild, Einstein–Cartan.
 
-A [notes page](06-notes.md) collects supplementary definitions for terms the book uses without expanding.
+A [notes page](notes.md) collects supplementary definitions for terms the book uses without expanding.

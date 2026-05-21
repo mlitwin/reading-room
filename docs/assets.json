@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T20:51:09.111Z",
+  "generated_at": "2026-05-21T23:46:08.192Z",
   "files": [
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -508,8 +508,8 @@
     },
     {
       "path": "index.json",
-      "sha256": "0421e67200cd0c8ad447d43c388c468ada0a1968a0b25b99d0ea70bc27e3c0f1",
-      "size": 19711
+      "sha256": "95cdbf45e4ef5e075b982020c3fa9060aa80ec4d1a4a4f2b90eb4341468c9cbc",
+      "size": 20816
     },
     {
       "path": "notes-on-sorting/algorithms/index.html",
@@ -648,13 +648,68 @@
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/on-the-sphere.html",
-      "sha256": "65b13400f30f488660af37503735aa259ccbaf4d9476ea16dbe72c77fc885247",
-      "size": 149677
+      "sha256": "b38d3bd81a8881feb10b73570149a965cea8872c0bad83a28dcff7640375d1ab",
+      "size": 204424
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/torsion-and-curvature.html",
       "sha256": "52d94a1dbf77164040ab03702997fc5c81b13bae40dfcad738f4a742717ee8df",
       "size": 116642
+    },
+    {
+      "path": "tensors-for-gr/coordinate-systems/changing-charts.html",
+      "sha256": "88db2d92617712577c86f1175cbcbfef59c518cf0d91d1d0ade2d927270f55c9",
+      "size": 151443
+    },
+    {
+      "path": "tensors-for-gr/coordinate-systems/index.html",
+      "sha256": "ad0a0d7036be3084659ec3daa1efa5c6028b58b769247e5bb2493d47af9b201e",
+      "size": 7012
+    },
+    {
+      "path": "tensors-for-gr/coordinate-systems/skew-coordinates.html",
+      "sha256": "07a1cc328a857da7f9d80683c65734361066e3395b73e19bf374d03db1c5408f",
+      "size": 158615
+    },
+    {
+      "path": "tensors-for-gr/coordinate-systems/standard-coordinates.html",
+      "sha256": "19fd53548728f103610a8fac43e5a3427f4de9241d6a8a11bb779cbe36b7dcd3",
+      "size": 76917
+    },
+    {
+      "path": "tensors-for-gr/coordinate-systems/the-sphere-and-two-charts.html",
+      "sha256": "2885d8ce61e4a3f26960cca3cbd5ab3f95636e9850cbe97d33f2eceeec9abf13",
+      "size": 58662
+    },
+    {
+      "path": "tensors-for-gr/figures/chart-change-jacobian.svg",
+      "sha256": "aff500a3fb8c26a17c7d37dddde5be0b15ab382db4e8ad66af60f5b049790f49",
+      "size": 2069
+    },
+    {
+      "path": "tensors-for-gr/figures/dual-basis-skew.svg",
+      "sha256": "3c88e804bc766486d15e72926ba8c599391964b5447fe950b5f871035396cada",
+      "size": 1892
+    },
+    {
+      "path": "tensors-for-gr/figures/sphere-skew.svg",
+      "sha256": "df4b0d0ff0c9a894fbcf051eec2d85a3a0a2bdae9808e6a167c2ed9294fffb75",
+      "size": 41760
+    },
+    {
+      "path": "tensors-for-gr/figures/sphere-standard.svg",
+      "sha256": "a97202a5d05b54873ea79cfc87225bf2b1f9b8213b936213346b858ec8dd073b",
+      "size": 42075
+    },
+    {
+      "path": "tensors-for-gr/figures/tangent-skew.svg",
+      "sha256": "21ad08e343723331833b9991b967d3bc4a8496f6286d159b73fa0bb51caad8ce",
+      "size": 1023
+    },
+    {
+      "path": "tensors-for-gr/figures/tangent-standard.svg",
+      "sha256": "2d878f5af2b1d1fc3b896391862d0ca135e0ec3f2ad8d71238c341d847e50949",
+      "size": 1021
     },
     {
       "path": "tensors-for-gr/general-relativity/einstein-cartan.html",
@@ -678,8 +733,8 @@
     },
     {
       "path": "tensors-for-gr/index.html",
-      "sha256": "ee3f10957ff28b096496218ede8e3b2ef9ffe7f9809020d5ea98745aa69112e3",
-      "size": 56219
+      "sha256": "e0e81f39ff5ba94e05312fa9eb8c849d66037f4220475b86123e2e46166a605d",
+      "size": 57183
     },
     {
       "path": "tensors-for-gr/metric/index.html",
@@ -688,8 +743,8 @@
     },
     {
       "path": "tensors-for-gr/metric/on-the-sphere.html",
-      "sha256": "846f91cfd2464d73a9a65af0f87a376ec4d00877498e3014cc1fce688d3014ef",
-      "size": 108913
+      "sha256": "1c28db58b15e77f59a148c7a42876a2ce51c190c299f56e18139757b9e93dde6",
+      "size": 209835
     },
     {
       "path": "tensors-for-gr/metric/raising-and-lowering.html",
@@ -703,8 +758,8 @@
     },
     {
       "path": "tensors-for-gr/nav.json",
-      "sha256": "7f8c302d68ad95691c79c7ea7da1f30a4f7eccca7b484b8013caa61fdcccaa26",
-      "size": 153575
+      "sha256": "f1a2f4ad43495e39a31600257e4b3a1041817bb29b66cd292641a898ed10757b",
+      "size": 157680
     },
     {
       "path": "tensors-for-gr/notes.html",
@@ -743,8 +798,8 @@
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/index.html",
-      "sha256": "4436fea45e5a177083c8f68c6dbe7413f052f9a6e3435d6743dc70dbc2ca4164",
-      "size": 2574
+      "sha256": "cae4b249fb5da1f56a8d3083324b3a1691b4423944cbf067641567c3f75875da",
+      "size": 2588
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/on-the-sphere.html",

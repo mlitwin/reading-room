@@ -1,0 +1,18 @@
+<svg width="280" height="250" viewBox="0 0 280 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead-black" refX="10" refY="4" markerWidth="12" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon fill="#111111" points="0 0, 10 4, 0 8"/>      
+    </marker>
+  </defs>
+  <title>
+    Tangent basis at the sample point (standard chart)    
+  </title>
+  <line stroke="#111111" stroke-width="3" x1="40" y1="220" x2="200" y2="220" marker-end="url(#arrowhead-black)"/>  
+  <text fill="#111111" x="218" y="220" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    ∂θ    
+  </text>
+  <line stroke="#111111" stroke-width="3" x1="40" y1="220" x2="40.00000000000001" y2="66.88954628284657" marker-end="url(#arrowhead-black)"/>  
+  <text fill="#111111" x="40.00000000000001" y="48.88954628284657" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    ∂φ    
+  </text>
+</svg>

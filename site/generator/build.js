@@ -143,6 +143,27 @@ async function copyDir(src, dst) {
   }
 }
 
+const IMAGE_EXT_RE = /\.(svg|png|jpe?g|webp|gif)$/i;
+
+// Walk `content/` and mirror every image file into `docs/`, stripping the
+// `^\d+-` ordering prefix from each path segment so URLs match the slugified
+// page tree. Markdown files are not handled here.
+async function copyContentImages() {
+  async function walk(absSrc, dstSegs) {
+    for (const entry of await fs.readdir(absSrc, { withFileTypes: true })) {
+      const absChild = path.join(absSrc, entry.name);
+      if (entry.isDirectory()) {
+        await walk(absChild, [...dstSegs, deriveSlug(entry.name)]);
+      } else if (entry.isFile() && IMAGE_EXT_RE.test(entry.name)) {
+        const dstPath = path.join(DOCS_DIR, ...dstSegs, entry.name);
+        await fs.mkdir(path.dirname(dstPath), { recursive: true });
+        await fs.copyFile(absChild, dstPath);
+      }
+    }
+  }
+  await walk(CONTENT_DIR, []);
+}
+
 async function readMarkdownFile(filePath) {
   const raw = await fs.readFile(filePath, 'utf8');
   const { data, content } = matter(raw);
@@ -532,6 +553,8 @@ export async function build() {
   }
   await fs.copyFile(path.join(KATEX_DIR, 'katex.min.css'), path.join(DOCS_DIR, 'assets', 'katex.min.css'));
   await copyDir(path.join(KATEX_DIR, 'fonts'), path.join(DOCS_DIR, 'assets', 'fonts'));
+
+  await copyContentImages();
 
   const pieces = await loadPieces();
   const indexEntries = [];

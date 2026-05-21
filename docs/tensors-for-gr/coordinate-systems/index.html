@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Coordinate systems on the sphere — Reading Room</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../../assets/katex.min.css">
+<link rel="stylesheet" href="../../assets/highlight.css">
+<link rel="stylesheet" href="../../assets/reader.css">
+<script src="../../assets/notes.js" defer></script>
+</head>
+<body>
+<header class="site">
+  <a href="../../index.html" class="home">Reading Room</a>
+</header>
+<article>
+<nav class="breadcrumb"><a href="../../index.html">Library</a><span class="sep">›</span><a href="../index.html">Tensors for General Relativity</a><span class="sep">›</span><span class="here">Coordinate systems on the sphere</span></nav>
+  <header class="piece">
+    <h1>Coordinate systems on the sphere</h1>
+    <div class="meta">
+      <span class="author">Matthew Litwin</span>
+      <time>2026-05-21</time>
+      <span class="tags"></span>
+    </div>
+  </header>
+  <div class="body">
+<p>A coordinate chart is a parametrization of a piece of a manifold by an open set of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="double-struck">R</mi><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">\mathbb{R}^n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6889em;"></span><span class="mord"><span class="mord mathbb">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span>. Calculus is well-defined on <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi mathvariant="double-struck">R</mi><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">\mathbb{R}^n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6889em;"></span><span class="mord"><span class="mord mathbb">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span></span></span></span></span></span></span></span>; pulling that machinery back through a chart gives calculus on the manifold. Most of the technicalities of tensor calculus exist because the chart is a <em>choice</em> — different choices produce different component arrays for the same intrinsic object, and the transformation rules between them are what make a tensor a tensor.</p>
+<p>This section sets up that picture with two concrete charts on the two-sphere <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>S</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">S^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0576em;">S</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> as a running example. The standard lat/long chart and a <em>skew</em> variant in which the longitude lines are rotated by a fixed angle around the <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Z</mi></mrow><annotation encoding="application/x-tex">Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0715em;">Z</span></span></span></span>-axis. The two charts cover the same surface; their basis vectors at a point are different; the angle between those bases is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mi mathvariant="normal">/</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">\pi/2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">π</span><span class="mord">/2</span></span></span></span> in one chart and not <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mi mathvariant="normal">/</mi><mn>2</mn></mrow><annotation encoding="application/x-tex">\pi/2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">π</span><span class="mord">/2</span></span></span></span> in the other. The contrast between them is the easiest setting in which to see what coordinate-dependence actually does.</p>
+<p>Four pages:</p>
+<ol>
+<li><a href="the-sphere-and-two-charts.html">The sphere and two charts</a> — the underlying surface and the two parametrizations side by side.</li>
+<li><a href="standard-coordinates.html">Standard coordinates</a> — the lat/long chart in detail, basis vectors as a function of position.</li>
+<li><a href="skew-coordinates.html">Skew coordinates</a> — the tilted-longitude chart, the same constructions, now with non-orthogonal basis.</li>
+<li><a href="changing-charts.html">Changing charts</a> — the Jacobian as the bridge; what changes and what doesn’t.</li>
+</ol>
+<p>The standard chart returns as the primary working chart from section 2 onward. The skew chart shows up in the “on the sphere” pages of subsequent sections, where the contrast with the standard calculation highlights what’s intrinsic.</p>
+
+  </div>
+<nav class="page-nav"><a class="prev" href="../index.html"><span class="dir">←</span> <span class="title">Tensors for General Relativity</span></a><a class="next" href="the-sphere-and-two-charts.html"><span class="title">The sphere and two charts</span> <span class="dir">→</span></a></nav>
+</article>
+</body>
+</html>

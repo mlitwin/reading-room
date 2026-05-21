@@ -1,0 +1,32 @@
+<svg width="300" height="270" viewBox="0 30 300 270" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead-black" refX="10" refY="4" markerWidth="12" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon fill="#111111" points="0 0, 10 4, 0 8"/>      
+    </marker>
+    <marker id="arrowhead-blue" refX="10" refY="4" markerWidth="12" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon fill="#1d63c4" points="0 0, 10 4, 0 8"/>      
+    </marker>
+    <marker id="arrowhead-yellow" refX="10" refY="4" markerWidth="12" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon fill="#d6a700" points="0 0, 10 4, 0 8"/>      
+    </marker>
+  </defs>
+  <title>
+    Standard and skew coordinate bases at the sample point    
+  </title>
+  <line stroke="#1d63c4" stroke-width="3" x1="80" y1="240" x2="220" y2="240" marker-end="url(#arrowhead-blue)"/>  
+  <text fill="#1d63c4" x="234" y="240" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    ∂θ    
+  </text>
+  <line stroke="#1d63c4" stroke-width="3" x1="80" y1="240" x2="80.00000000000001" y2="106.02835299749074" marker-end="url(#arrowhead-blue)"/>  
+  <text fill="#1d63c4" x="80.00000000000001" y="88.02835299749074" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    ∂φ    
+  </text>
+  <line stroke="#d6a700" stroke-width="3" x1="80" y1="240" x2="220" y2="240" marker-end="url(#arrowhead-yellow)"/>  
+  <text fill="#d6a700" x="252" y="240" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    ∂θ̃    
+  </text>
+  <line stroke="#d6a700" stroke-width="3" x1="80" y1="240" x2="146.98582350125463" y2="123.97715030898564" marker-end="url(#arrowhead-yellow)"/>  
+  <text fill="#d6a700" x="155.98582350125463" y="108.38869304086575" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    ∂φ̃    
+  </text>
+</svg>

@@ -12,6 +12,137 @@
       ],
       "prev": null,
       "next": {
+        "title": "Coordinate systems on the sphere",
+        "html_path": "tensors-for-gr/coordinate-systems/index.html"
+      }
+    },
+    {
+      "slug": "coordinate-systems",
+      "title": "Coordinate systems on the sphere",
+      "html_path": "tensors-for-gr/coordinate-systems/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensors for General Relativity",
+          "html_path": "tensors-for-gr/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Tensors for General Relativity",
+        "html_path": "tensors-for-gr/index.html"
+      },
+      "next": {
+        "title": "The sphere and two charts",
+        "html_path": "tensors-for-gr/coordinate-systems/the-sphere-and-two-charts.html"
+      }
+    },
+    {
+      "slug": "the-sphere-and-two-charts",
+      "title": "The sphere and two charts",
+      "html_path": "tensors-for-gr/coordinate-systems/the-sphere-and-two-charts.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensors for General Relativity",
+          "html_path": "tensors-for-gr/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensors-for-gr/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Coordinate systems on the sphere",
+        "html_path": "tensors-for-gr/coordinate-systems/index.html"
+      },
+      "next": {
+        "title": "Standard coordinates",
+        "html_path": "tensors-for-gr/coordinate-systems/standard-coordinates.html"
+      }
+    },
+    {
+      "slug": "standard-coordinates",
+      "title": "Standard coordinates",
+      "html_path": "tensors-for-gr/coordinate-systems/standard-coordinates.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensors for General Relativity",
+          "html_path": "tensors-for-gr/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensors-for-gr/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The sphere and two charts",
+        "html_path": "tensors-for-gr/coordinate-systems/the-sphere-and-two-charts.html"
+      },
+      "next": {
+        "title": "Skew coordinates",
+        "html_path": "tensors-for-gr/coordinate-systems/skew-coordinates.html"
+      }
+    },
+    {
+      "slug": "skew-coordinates",
+      "title": "Skew coordinates",
+      "html_path": "tensors-for-gr/coordinate-systems/skew-coordinates.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensors for General Relativity",
+          "html_path": "tensors-for-gr/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensors-for-gr/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Standard coordinates",
+        "html_path": "tensors-for-gr/coordinate-systems/standard-coordinates.html"
+      },
+      "next": {
+        "title": "Changing charts",
+        "html_path": "tensors-for-gr/coordinate-systems/changing-charts.html"
+      }
+    },
+    {
+      "slug": "changing-charts",
+      "title": "Changing charts",
+      "html_path": "tensors-for-gr/coordinate-systems/changing-charts.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensors for General Relativity",
+          "html_path": "tensors-for-gr/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensors-for-gr/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Skew coordinates",
+        "html_path": "tensors-for-gr/coordinate-systems/skew-coordinates.html"
+      },
+      "next": {
         "title": "Vectors and covectors",
         "html_path": "tensors-for-gr/vectors-and-covectors/index.html"
       }
@@ -31,8 +162,8 @@
         }
       ],
       "prev": {
-        "title": "Tensors for General Relativity",
-        "html_path": "tensors-for-gr/index.html"
+        "title": "Changing charts",
+        "html_path": "tensors-for-gr/coordinate-systems/changing-charts.html"
       },
       "next": {
         "title": "Tangent vectors",

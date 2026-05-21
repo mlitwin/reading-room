@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T20:51:09.094Z",
+  "generated_at": "2026-05-21T23:46:08.169Z",
   "pieces": [
     {
       "slug": "tensors-for-gr",
@@ -20,6 +20,33 @@
         "title": "Tensors for General Relativity",
         "html_path": "tensors-for-gr/index.html",
         "items": [
+          {
+            "slug": "coordinate-systems",
+            "title": "Coordinate systems on the sphere",
+            "html_path": "tensors-for-gr/coordinate-systems/index.html",
+            "items": [
+              {
+                "slug": "the-sphere-and-two-charts",
+                "title": "The sphere and two charts",
+                "html_path": "tensors-for-gr/coordinate-systems/the-sphere-and-two-charts.html"
+              },
+              {
+                "slug": "standard-coordinates",
+                "title": "Standard coordinates",
+                "html_path": "tensors-for-gr/coordinate-systems/standard-coordinates.html"
+              },
+              {
+                "slug": "skew-coordinates",
+                "title": "Skew coordinates",
+                "html_path": "tensors-for-gr/coordinate-systems/skew-coordinates.html"
+              },
+              {
+                "slug": "changing-charts",
+                "title": "Changing charts",
+                "html_path": "tensors-for-gr/coordinate-systems/changing-charts.html"
+              }
+            ]
+          },
           {
             "slug": "vectors-and-covectors",
             "title": "Vectors and covectors",

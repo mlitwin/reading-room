@@ -39,6 +39,40 @@ Similarly $(\partial_\varphi)^\flat = \sin^2\theta\, d\varphi$. Note this is *no
 
 Going the other way: the vector dual to $d\varphi$ is $(d\varphi)^\sharp = g^{\varphi\nu}\, \partial_\nu = (1/\sin^2\theta)\, \partial_\varphi$. Long basis vector → short dual covector and vice versa.
 
+## In the skew chart
+
+The same round metric, expressed in the [skew chart](../01-coordinate-systems/03-skew-coordinates.md) $(\tilde\theta, \tilde\varphi)$ defined by $\tilde\theta = \theta, \tilde\varphi = \varphi + \alpha\cos\theta$:
+
+Compute each component using $g_{\tilde\mu\tilde\nu} = g(\partial_{\tilde\mu}, \partial_{\tilde\nu})$ and the basis identities $\partial_{\tilde\theta} = \partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi$, $\partial_{\tilde\varphi} = \partial_\varphi$:
+
+$$\begin{aligned}
+g_{\tilde\theta\tilde\theta} &= g(\partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi, \; \partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi) = 1 + \alpha^2 \sin^4 \tilde\theta, \\
+g_{\tilde\theta\tilde\varphi} &= g(\partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi, \; \partial_\varphi) = \alpha \sin^3 \tilde\theta, \\
+g_{\tilde\varphi\tilde\varphi} &= g(\partial_\varphi, \partial_\varphi) = \sin^2 \tilde\theta.
+\end{aligned}$$
+
+Matrix form:
+$$[g_{\tilde\mu\tilde\nu}] = \begin{pmatrix} 1 + \alpha^2 \sin^4\tilde\theta & \alpha\sin^3\tilde\theta \\ \alpha\sin^3\tilde\theta & \sin^2\tilde\theta \end{pmatrix}.$$
+
+**Off-diagonal entry.** Non-zero away from the poles, confirming the basis non-orthogonality of the skew chart. This is the most visible component-level difference from the standard chart.
+
+**Determinant.** $\det g = (1 + \alpha^2 \sin^4\tilde\theta) \sin^2\tilde\theta - \alpha^2 \sin^6\tilde\theta = \sin^2\tilde\theta$. *Same* as the standard chart — the Jacobian of the chart change has determinant $1$, so $\det g$ is unchanged. The volume form $\mathrm{vol}_g = \sin\tilde\theta\, d\tilde\theta \wedge d\tilde\varphi$ is the same intrinsic 2-form, with the same component, in both charts.
+
+**Inverse metric.** $g^{\tilde\mu\tilde\nu}$ via the cofactor formula:
+$$[g^{\tilde\mu\tilde\nu}] = \frac{1}{\sin^2\tilde\theta} \begin{pmatrix} \sin^2\tilde\theta & -\alpha\sin^3\tilde\theta \\ -\alpha\sin^3\tilde\theta & 1 + \alpha^2 \sin^4\tilde\theta \end{pmatrix} = \begin{pmatrix} 1 & -\alpha\sin\tilde\theta \\ -\alpha\sin\tilde\theta & (1 + \alpha^2 \sin^4\tilde\theta)/\sin^2\tilde\theta \end{pmatrix}.$$
+
+Note that the inverse has off-diagonal entries with a *minus* sign — that's the consistent feature of inverses of non-diagonal symmetric matrices.
+
+**Length of the basis vectors.** From the diagonal entries:
+$$|\partial_{\tilde\theta}|^2 = 1 + \alpha^2 \sin^4\tilde\theta, \qquad |\partial_{\tilde\varphi}|^2 = \sin^2 \tilde\theta.$$
+At the sample point and $\alpha = \pi/8$: $|\partial_{\tilde\theta}|^2 \approx 1.143$ (slightly longer than the standard $\partial_\theta$, which has $|\partial_\theta|^2 = 1$), and $|\partial_{\tilde\varphi}|^2 \approx 0.962$ (same as the standard $\partial_\varphi$, since they're the same vector).
+
+The takeaways:
+- The same geometric metric has different component matrices in different charts.
+- Off-diagonal entries are a chart artifact, not a feature of the geometry.
+- Determinant and the volume form are chart-independent (when the chart change is volume-preserving).
+- The Gaussian curvature $K = 1$ (computed in [the connection-and-curvature section](../05-connection-and-curvature/04-on-the-sphere.md)) is the same in both charts because it's an intrinsic invariant.
+
 ## In stereographic coordinates
 
 Pulling back the same Euclidean metric through the stereographic chart gives

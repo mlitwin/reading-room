@@ -1,0 +1,29 @@
+<svg width="320" height="310" viewBox="-10 20 320 310" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead-black" refX="10" refY="4" markerWidth="12" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon fill="#111111" points="0 0, 10 4, 0 8"/>      
+    </marker>
+    <marker id="arrowhead-grey" refX="10" refY="4" markerWidth="12" markerHeight="8" orient="auto" markerUnits="userSpaceOnUse">
+      <polygon fill="#888888" points="0 0, 10 4, 0 8"/>      
+    </marker>
+  </defs>
+  <title>
+    Coordinate basis and dual basis in the skew chart    
+  </title>
+  <line stroke="#111111" stroke-width="3" x1="150" y1="200" x2="280" y2="200" marker-end="url(#arrowhead-black)"/>  
+  <text fill="#111111" x="298" y="200" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    ∂θ̃    
+  </text>
+  <line stroke="#111111" stroke-width="3" x1="150" y1="200" x2="215" y2="87.41669750802298" marker-end="url(#arrowhead-black)"/>  
+  <text fill="#111111" x="224" y="71.82824023990308" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    ∂φ̃    
+  </text>
+  <line stroke="#888888" stroke-width="3" stroke-dasharray="6 4" x1="150" y1="200" x2="280" y2="275.05553499465134" marker-end="url(#arrowhead-grey)"/>  
+  <text fill="#888888" x="295.5884572681199" y="284.05553499465134" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    dθ̃    
+  </text>
+  <line stroke="#888888" stroke-width="3" stroke-dasharray="6 4" x1="150" y1="200" x2="150" y2="49.888930010697294" marker-end="url(#arrowhead-grey)"/>  
+  <text fill="#888888" x="150" y="31.888930010697294" font-size="20" font-family="serif" font-style="italic" text-anchor="middle" dominant-baseline="middle">
+    dφ̃    
+  </text>
+</svg>
