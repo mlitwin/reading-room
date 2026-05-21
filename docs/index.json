@@ -1,6 +1,153 @@
 {
-  "generated_at": "2026-05-21T00:04:06.983Z",
+  "generated_at": "2026-05-21T20:51:09.094Z",
   "pieces": [
+    {
+      "slug": "tensors-for-gr",
+      "title": "Tensors for General Relativity",
+      "author": "Matthew Litwin",
+      "date": "2026-05-21",
+      "tags": [
+        "mathematics",
+        "physics",
+        "tensors",
+        "general-relativity",
+        "differential-geometry"
+      ],
+      "summary": "A comprehensive introduction to tensors for a reader with multivariable calculus and linear algebra who wants to be able to read a general relativity textbook. Embedded and abstract views in parallel; index notation and coordinate-free notation in parallel; the sphere as a running example; the affine connection given its own treatment; GR with and without torsion.",
+      "html_path": "tensors-for-gr/index.html",
+      "structure": {
+        "slug": "tensors-for-gr",
+        "title": "Tensors for General Relativity",
+        "html_path": "tensors-for-gr/index.html",
+        "items": [
+          {
+            "slug": "vectors-and-covectors",
+            "title": "Vectors and covectors",
+            "html_path": "tensors-for-gr/vectors-and-covectors/index.html",
+            "items": [
+              {
+                "slug": "tangent-vectors",
+                "title": "Tangent vectors",
+                "html_path": "tensors-for-gr/vectors-and-covectors/tangent-vectors.html"
+              },
+              {
+                "slug": "dual-vectors",
+                "title": "Dual vectors and 1-forms",
+                "html_path": "tensors-for-gr/vectors-and-covectors/dual-vectors.html"
+              },
+              {
+                "slug": "on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensors-for-gr/vectors-and-covectors/on-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "tensors",
+            "title": "Tensors",
+            "html_path": "tensors-for-gr/tensors/index.html",
+            "items": [
+              {
+                "slug": "multilinear-and-rank",
+                "title": "Multilinear maps and rank",
+                "html_path": "tensors-for-gr/tensors/multilinear-and-rank.html"
+              },
+              {
+                "slug": "coordinate-components",
+                "title": "Coordinate components and the transformation rule",
+                "html_path": "tensors-for-gr/tensors/coordinate-components.html"
+              },
+              {
+                "slug": "co-contra-vs-k-forms",
+                "title": "Two languages, side by side",
+                "html_path": "tensors-for-gr/tensors/co-contra-vs-k-forms.html"
+              },
+              {
+                "slug": "on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensors-for-gr/tensors/on-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "metric",
+            "title": "The metric",
+            "html_path": "tensors-for-gr/metric/index.html",
+            "items": [
+              {
+                "slug": "the-metric-tensor",
+                "title": "The metric tensor",
+                "html_path": "tensors-for-gr/metric/the-metric-tensor.html"
+              },
+              {
+                "slug": "raising-and-lowering",
+                "title": "Raising and lowering, trace, volume form",
+                "html_path": "tensors-for-gr/metric/raising-and-lowering.html"
+              },
+              {
+                "slug": "on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensors-for-gr/metric/on-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "connection-and-curvature",
+            "title": "Connection and curvature",
+            "html_path": "tensors-for-gr/connection-and-curvature/index.html",
+            "items": [
+              {
+                "slug": "affine-connection",
+                "title": "The affine connection",
+                "html_path": "tensors-for-gr/connection-and-curvature/affine-connection.html"
+              },
+              {
+                "slug": "covariant-derivative",
+                "title": "The covariant derivative",
+                "html_path": "tensors-for-gr/connection-and-curvature/covariant-derivative.html"
+              },
+              {
+                "slug": "torsion-and-curvature",
+                "title": "Torsion and curvature",
+                "html_path": "tensors-for-gr/connection-and-curvature/torsion-and-curvature.html"
+              },
+              {
+                "slug": "on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensors-for-gr/connection-and-curvature/on-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "general-relativity",
+            "title": "General relativity",
+            "html_path": "tensors-for-gr/general-relativity/index.html",
+            "items": [
+              {
+                "slug": "einstein-equations",
+                "title": "The Einstein equations",
+                "html_path": "tensors-for-gr/general-relativity/einstein-equations.html"
+              },
+              {
+                "slug": "schwarzschild",
+                "title": "Schwarzschild — the torsion-free worked example",
+                "html_path": "tensors-for-gr/general-relativity/schwarzschild.html"
+              },
+              {
+                "slug": "einstein-cartan",
+                "title": "Einstein–Cartan — gravity with torsion",
+                "html_path": "tensors-for-gr/general-relativity/einstein-cartan.html"
+              }
+            ]
+          },
+          {
+            "slug": "notes",
+            "title": "Notes",
+            "html_path": "tensors-for-gr/notes.html"
+          }
+        ]
+      }
+    },
     {
       "slug": "calculus-on-manifolds",
       "title": "Calculus on Manifolds — A Cheat Sheet",

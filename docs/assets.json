@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T00:04:06.997Z",
+  "generated_at": "2026-05-21T20:51:09.111Z",
   "files": [
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -503,13 +503,13 @@
     },
     {
       "path": "index.html",
-      "sha256": "6a3c70a9cf46ce1ea9186d475809905d20a9a694cbf0d61fc45f5f0af214ca86",
-      "size": 2648
+      "sha256": "761a8890f00849d4c801de789865acb36ca5c91cfa18e5a403a819f3281d87e3",
+      "size": 3476
     },
     {
       "path": "index.json",
-      "sha256": "c4b6fca332f1fc7d469d4249ca6013eb0cfc07da4f418f0bdbea91e2e4de58fe",
-      "size": 13906
+      "sha256": "0421e67200cd0c8ad447d43c388c468ada0a1968a0b25b99d0ea70bc27e3c0f1",
+      "size": 19711
     },
     {
       "path": "notes-on-sorting/algorithms/index.html",
@@ -630,6 +630,131 @@
       "path": "shahnameh-study-guide/nav.json",
       "sha256": "499cbc2a478d7df2db8b7371df3af70a604f80d4b3a8fe31d3fcb1c6e851328a",
       "size": 11691
+    },
+    {
+      "path": "tensors-for-gr/connection-and-curvature/affine-connection.html",
+      "sha256": "041f2f907873e08ce39a3e8f29d8e3d6052d6fb625c98658f2acc247cd020997",
+      "size": 115325
+    },
+    {
+      "path": "tensors-for-gr/connection-and-curvature/covariant-derivative.html",
+      "sha256": "3370f484249fe1b904c28bc2d5d49d92d0eb8b9b391703122529e58fa8fd4a09",
+      "size": 139023
+    },
+    {
+      "path": "tensors-for-gr/connection-and-curvature/index.html",
+      "sha256": "038474cdac139a1e0cc139ee9fc1ed6b1f3296ee5b8a959c802e94cdebe36301",
+      "size": 4457
+    },
+    {
+      "path": "tensors-for-gr/connection-and-curvature/on-the-sphere.html",
+      "sha256": "65b13400f30f488660af37503735aa259ccbaf4d9476ea16dbe72c77fc885247",
+      "size": 149677
+    },
+    {
+      "path": "tensors-for-gr/connection-and-curvature/torsion-and-curvature.html",
+      "sha256": "52d94a1dbf77164040ab03702997fc5c81b13bae40dfcad738f4a742717ee8df",
+      "size": 116642
+    },
+    {
+      "path": "tensors-for-gr/general-relativity/einstein-cartan.html",
+      "sha256": "34462a05f79619272009d4ee080fa54f375afdd70d1767cc06d580b552636ccf",
+      "size": 68906
+    },
+    {
+      "path": "tensors-for-gr/general-relativity/einstein-equations.html",
+      "sha256": "1c9dc26e3496e0c54a9af849d23fa6abfbdf41ea6731c24452ace4a4373daf23",
+      "size": 97954
+    },
+    {
+      "path": "tensors-for-gr/general-relativity/index.html",
+      "sha256": "87b0090a2e0d46bd7648a49f24fdd1e66a3e147c272444025428bd9ae169a754",
+      "size": 4644
+    },
+    {
+      "path": "tensors-for-gr/general-relativity/schwarzschild.html",
+      "sha256": "0735d435dbfd80a1f5737a2d6f7eac100698d3d689a9be0bb24e7d2b418fc3f1",
+      "size": 84483
+    },
+    {
+      "path": "tensors-for-gr/index.html",
+      "sha256": "ee3f10957ff28b096496218ede8e3b2ef9ffe7f9809020d5ea98745aa69112e3",
+      "size": 56219
+    },
+    {
+      "path": "tensors-for-gr/metric/index.html",
+      "sha256": "e340ab8bec2ca8375ff1d9ff135695e206622d070ff4a9b9b5ec8f02b9c7624a",
+      "size": 3213
+    },
+    {
+      "path": "tensors-for-gr/metric/on-the-sphere.html",
+      "sha256": "846f91cfd2464d73a9a65af0f87a376ec4d00877498e3014cc1fce688d3014ef",
+      "size": 108913
+    },
+    {
+      "path": "tensors-for-gr/metric/raising-and-lowering.html",
+      "sha256": "a3a2adfc3ac099d990905b5ea8fdd2ee3c3e48f581328007c125c99f98aefe7a",
+      "size": 139951
+    },
+    {
+      "path": "tensors-for-gr/metric/the-metric-tensor.html",
+      "sha256": "7bf3ec9250d6fbe036ed5ee6af95ce288a22cf60bd835b2540615000a8a9eb73",
+      "size": 73668
+    },
+    {
+      "path": "tensors-for-gr/nav.json",
+      "sha256": "7f8c302d68ad95691c79c7ea7da1f30a4f7eccca7b484b8013caa61fdcccaa26",
+      "size": 153575
+    },
+    {
+      "path": "tensors-for-gr/notes.html",
+      "sha256": "9a5311d438798aa0276fd228b18cdd6e973f6539e7e3397f41c4548be5f4dcba",
+      "size": 129227
+    },
+    {
+      "path": "tensors-for-gr/tensors/co-contra-vs-k-forms.html",
+      "sha256": "d5efae3e1b4b3cf0dd5b6e64f64aa67111ce26bd9bb9dd813ae6fea08dfd86b7",
+      "size": 116797
+    },
+    {
+      "path": "tensors-for-gr/tensors/coordinate-components.html",
+      "sha256": "1f29a49932d664375bd0349057af881a4b4792cb982797a527fcbcb1d75e15ff",
+      "size": 102155
+    },
+    {
+      "path": "tensors-for-gr/tensors/index.html",
+      "sha256": "c0daf6e40dadfb8cc3bc1ef0d571b2836f85cb7debc887488942b7ed950336d6",
+      "size": 7847
+    },
+    {
+      "path": "tensors-for-gr/tensors/multilinear-and-rank.html",
+      "sha256": "8ffe6849eea5557924e0122f6ceb468db7b8720e9915fe37ec522a6fe778c0bf",
+      "size": 140670
+    },
+    {
+      "path": "tensors-for-gr/tensors/on-the-sphere.html",
+      "sha256": "e8ed8dad2d7a4c11ef3badd5ed9891cd239d419e97c463e3e07f9057ddfd097a",
+      "size": 67250
+    },
+    {
+      "path": "tensors-for-gr/vectors-and-covectors/dual-vectors.html",
+      "sha256": "bed97ee4c1a59f0a9a1a4c59a14a018f586ee1d363d30a9de2d83dce9cff37cc",
+      "size": 79822
+    },
+    {
+      "path": "tensors-for-gr/vectors-and-covectors/index.html",
+      "sha256": "4436fea45e5a177083c8f68c6dbe7413f052f9a6e3435d6743dc70dbc2ca4164",
+      "size": 2574
+    },
+    {
+      "path": "tensors-for-gr/vectors-and-covectors/on-the-sphere.html",
+      "sha256": "9d88e9e61da6b1cc4d5ba1666b4e70d288f26b071d3a88aea91f844070b23846",
+      "size": 106823
+    },
+    {
+      "path": "tensors-for-gr/vectors-and-covectors/tangent-vectors.html",
+      "sha256": "d4f35f405378aa2bde515cf5e269282dd01de1da6da695548561648ff8f7eca9",
+      "size": 95763
     }
   ]
 }
