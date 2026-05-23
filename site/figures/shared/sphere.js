@@ -19,15 +19,33 @@ export const SAMPLE_POINT = {
 export const SAMPLE_THETA = SAMPLE_POINT.thetaIndex * Math.PI / SAMPLE_POINT.N;
 export const SAMPLE_PHI = SAMPLE_POINT.phiIndex * Math.PI / SAMPLE_POINT.N;
 
-// Shared perspective: eye on the +Z axis. No back-face clipping — svg-gen's
-// clip emits `clip-path="polygon(...) view-box"` as an SVG attribute, which
-// Safari/WKWebView silently drops, making the grid invisible on iOS. The
-// cost of removing the clip is that back-facing portions of the great
-// circles draw too, producing a wireframe look. Acceptable for our purpose.
+// Shared perspective: eye on the +Z axis, clipping plane slightly in front of
+// the sphere center. svg-gen serializes the clip as an inline
+// `clip-path="polygon(...) view-box"` attribute on each ellipse — Safari and
+// WKWebView silently drop that form, so figures/build.js post-processes the
+// generated SVG, replacing each inline polygon with a `<clipPath>` element in
+// defs and a `clip-path="url(#cp-N)"` reference. The url() form is portable.
 const Z = 2500;
 const eye = { x: 0, y: 0, z: Z };
+const clipCenter = { x: 0, y: 0, z: R * R / Z };
+const clipNorm = Math.sqrt(
+  (eye.x - clipCenter.x) ** 2 +
+  (eye.y - clipCenter.y) ** 2 +
+  (eye.z - clipCenter.z) ** 2
+);
+const clipNormal = {
+  x: (eye.x - clipCenter.x) / clipNorm,
+  y: (eye.y - clipCenter.y) / clipNorm,
+  z: (eye.z - clipCenter.z) / clipNorm,
+};
 export const PERSPECTIVE = {
   eye,
+  clip: {
+    plane: {
+      point: [clipCenter.x, clipCenter.y, clipCenter.z],
+      normal: [clipNormal.x, clipNormal.y, clipNormal.z],
+    },
+  },
 };
 
 // Color palette (hard-coded per the plan; no CSS theming yet).
@@ -148,16 +166,13 @@ function arrowheadMarker(s, id, color) {
 }
 
 // Build a sphere SVG with optional latitude/longitude grids and a sample
-// point marked with its two coordinate-basis directions. n=12 gives a
-// sparse enough grid that the front and back lines don't overload the
-// figure (we don't clip the back face — see PERSPECTIVE).
-export function makeSphere({ skew = 0, showBasis = true, n = 12, title = '' } = {}) {
+// point marked with its two coordinate-basis directions.
+export function makeSphere({ skew = 0, showBasis = true, n = 32, title = '' } = {}) {
   const context = makeContext({ skew });
   const s = context.s;
   const N = n;
   const phi = SAMPLE_PHI;
   const theta = SAMPLE_THETA;
-
   const children = [
     s.defs({}, [
       arrowheadMarker(s, 'arrowhead-yellow', COLORS.longArrow),

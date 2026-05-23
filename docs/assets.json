@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T19:26:21.237Z",
+  "generated_at": "2026-05-23T22:17:56.302Z",
   "files": [
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -508,7 +508,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "c5e05b5481e3e8f97d1c73dd82a8d45f88839c3b20d17caecba72ca8753849f6",
+      "sha256": "ba9924923b39deca5ca83844c8e66a581c7c375cc262db65aaed02eaa7e1d547",
       "size": 20816
     },
     {
@@ -693,13 +693,13 @@
     },
     {
       "path": "tensors-for-gr/figures/sphere-skew.svg",
-      "sha256": "f1b9dc9d7f2b5e667954418b259e2a3211a45b6f52e4939ada52e4d16905f3cc",
-      "size": 9453
+      "sha256": "ded22d9da70553534042b6c102ac39f706a4c4884ea982eac7d35830cdb070d8",
+      "size": 47730
     },
     {
       "path": "tensors-for-gr/figures/sphere-standard.svg",
-      "sha256": "03033116530d12f0c1dd9015d85091b35a9ec6a0352eff14e006f5e58d14ed34",
-      "size": 9566
+      "sha256": "2480884aa0781fbc294a211a2c1f4fda5f2a03abbccb63df85b3cbfa7e2c4c53",
+      "size": 48037
     },
     {
       "path": "tensors-for-gr/figures/tangent-skew.svg",
