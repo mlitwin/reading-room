@@ -17,7 +17,10 @@ const READER_DIR = path.resolve(__dirname, '..', 'reader');
 const KATEX_DIR = path.join(__dirname, 'node_modules', 'katex', 'dist');
 
 const md = new MarkdownIt({
-  html: false,
+  // html: true so the Latin-passage book can drop a raw <div class="latin-passage">
+  // block straight into its markdown — see renderLatinSpans below. The trust
+  // model here is that only the author writes book markdown.
+  html: true,
   linkify: true,
   typographer: true,
   highlight: (str, lang) => {
@@ -261,6 +264,85 @@ function transitiveNoteClosure(directRefs, notesDict) {
   return visited;
 }
 
+// Load a piece's vocabulary cards from `<piece-dir>/vocabulary/*.json`.
+// Returns `{ lemma → cardData }` or null if the directory does not exist.
+// Each card carries `lemma`, `pos`, `head`, `glosses[]`, optional `paradigm`.
+async function loadVocabulary(pieceAbsDir) {
+  const vocabDir = path.join(pieceAbsDir, 'vocabulary');
+  if (!(await fileExists(vocabDir))) return null;
+  const out = {};
+  for (const entry of await fs.readdir(vocabDir, { withFileTypes: true })) {
+    if (!entry.isFile() || !entry.name.endsWith('.json')) continue;
+    const lemma = entry.name.replace(/\.json$/, '');
+    const raw = await fs.readFile(path.join(vocabDir, entry.name), 'utf8');
+    try {
+      out[lemma] = JSON.parse(raw);
+    } catch (err) {
+      throw new Error(`vocabulary/${entry.name}: invalid JSON — ${err.message}`);
+    }
+  }
+  return out;
+}
+
+// Render a vocab card's paradigm into an HTML table. Each cell carries a
+// `data-parse` attribute matching the compact code on the calling span so a
+// CSS/JS pass can light up the cell when its lemma's popover opens.
+function renderParadigm(card) {
+  const p = card.paradigm;
+  if (!p || !p.rows || !p.cols || !p.cells) return '';
+  const header = '<tr><th></th>' + p.cols.map(c => `<th>${escapeHtml(c)}</th>`).join('') + '</tr>';
+  const body = p.rows.map(r => {
+    const cells = p.cols.map(c => {
+      const code = `${r}.${c}`;
+      const form = p.cells[code];
+      if (form == null) return `<td></td>`;
+      return `<td data-parse="${escapeAttr(code)}">${escapeHtml(form)}</td>`;
+    }).join('');
+    return `<tr><th>${escapeHtml(r)}</th>${cells}</tr>`;
+  }).join('');
+  const cls = `card-paradigm ${escapeAttr(p.type || card.pos || '')}`.trim();
+  return `<table class="${cls}">${header}${body}</table>`;
+}
+
+function renderCardPopover(lemma, card) {
+  const id = `card-${escapeAttr(lemma)}`;
+  const head = card.head ? `<p class="card-principal">${escapeHtml(card.head)}</p>` : '';
+  const pos = card.pos ? `<span class="card-pos">${escapeHtml(card.pos)}</span>` : '';
+  const paradigm = renderParadigm(card);
+  const glosses = Array.isArray(card.glosses) && card.glosses.length
+    ? `<ul class="card-glosses">${card.glosses.map(g => `<li>${escapeHtml(g)}</li>`).join('')}</ul>`
+    : '';
+  const notes = card.notes ? `<p class="card-notes">${escapeHtml(card.notes)}</p>` : '';
+  return `<aside id="${id}" popover class="card-popover">
+  <header class="card-head">
+    <h3 class="card-lemma">${escapeHtml(card.lemma || lemma)} ${pos}</h3>
+    ${head}
+  </header>
+  ${paradigm}
+  ${glosses}
+  ${notes}
+  <div class="card-parse" aria-live="polite"></div>
+  <button class="card-close" type="button" popovertarget="${id}" popovertargetaction="hide" aria-label="Close">×</button>
+</aside>`;
+}
+
+// Rewrite every `<span data-lemma="..." data-parse="...">word</span>` inside
+// a `.latin-passage` block into a popover-button targeting the lemma's card.
+// Also accumulates referenced lemma keys into `referenced`.
+const LATIN_SPAN_RE = /<span\s+data-lemma="([^"]+)"(?:\s+data-parse="([^"]*)")?[^>]*>([\s\S]*?)<\/span>/g;
+function renderLatinSpans(html, vocabDict, referenced, filePath) {
+  if (!vocabDict) return html;
+  return html.replace(LATIN_SPAN_RE, (full, lemma, parse, inner) => {
+    if (!vocabDict[lemma]) {
+      throw new Error(`${filePath}: undefined lemma "${lemma}". Add content/<book>/vocabulary/${lemma}.json.`);
+    }
+    referenced.add(lemma);
+    const id = `card-${escapeAttr(lemma)}`;
+    const parseAttr = parse ? ` data-parse="${escapeAttr(parse)}"` : '';
+    return `<button class="latin-token" type="button" popovertarget="${id}"${parseAttr}>${inner}</button>`;
+  });
+}
+
 // Ordering: numeric-prefix first by number, then non-prefixed by name.
 function compareEntries(a, b) {
   const am = a.match(/^(\d+)-/);
@@ -473,7 +555,7 @@ function renderPrevNextHtml(node, navPages) {
   return `<nav class="page-nav">${left}${right}</nav>`;
 }
 
-function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNotesPage }) {
+function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNotesPage, vocabDict }) {
   const title = node.front.title;
   const author = inheritedField(node, 'author') ?? '';
   const date = formatDate(inheritedField(node, 'date'));
@@ -489,6 +571,11 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
     referencedNotes: new Set(),
   };
   let body = md.render(node.content, env);
+
+  // Latin-passage cards: rewrite `<span data-lemma=...>` to popover buttons,
+  // accumulate referenced lemmas, emit one `<aside popover>` per lemma below.
+  const referencedLemmas = new Set();
+  body = renderLatinSpans(body, vocabDict, referencedLemmas, node.absPath);
 
   // Emit one <aside popover> per note reachable from this page — transitive
   // closure of direct refs plus any notes those notes link to. Multiple
@@ -507,6 +594,13 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
 </aside>`;
     }).filter(Boolean).join('\n');
     body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
+  }
+
+  if (referencedLemmas.size > 0 && vocabDict) {
+    const cards = [...referencedLemmas].sort()
+      .map(lemma => renderCardPopover(lemma, vocabDict[lemma]))
+      .join('\n');
+    body += `\n<div class="card-popovers">\n${cards}\n</div>`;
   }
 
   const here = htmlPathFor(node);
@@ -593,6 +687,10 @@ export async function build() {
       const notesLeaf = noteLeaves[0] || null;
       const notesDict = notesLeaf ? extractNotes(notesLeaf.content, notesLeaf.absPath) : null;
 
+      // Per-piece vocabulary: cards keyed by lemma. Drives the Latin-passage
+      // popovers. Optional — books with no vocabulary/ directory get null.
+      const vocabDict = await loadVocabulary(path.dirname(piece.absPath));
+
       for (const node of allPages) {
         const here = htmlPathFor(node);
         const outFile = path.join(DOCS_DIR, ...here.split('/'));
@@ -603,6 +701,7 @@ export async function build() {
           isStandaloneLeaf: false,
           notesDict,
           isNotesPage: node === notesLeaf,
+          vocabDict,
         });
         await fs.writeFile(outFile, html);
       }

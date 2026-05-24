@@ -1,0 +1,18 @@
+{
+  "lemma": "mundus",
+  "pos": "noun",
+  "head": "mundus, -i, m.",
+  "glosses": ["world", "universe", "heavens", "mankind"],
+  "paradigm": {
+    "type": "noun",
+    "rows": ["nom", "gen", "dat", "acc", "abl"],
+    "cols": ["sg", "pl"],
+    "cells": {
+      "nom.sg": "mundus", "nom.pl": "mundi",
+      "gen.sg": "mundi", "gen.pl": "mundorum",
+      "dat.sg": "mundo", "dat.pl": "mundis",
+      "acc.sg": "mundum", "acc.pl": "mundos",
+      "abl.sg": "mundo", "abl.pl": "mundis"
+    }
+  }
+}

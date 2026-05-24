@@ -1,0 +1,18 @@
+{
+  "lemma": "vos",
+  "pos": "pron",
+  "head": "vos (2nd-person plural personal pronoun)",
+  "glosses": ["you (plural)"],
+  "paradigm": {
+    "type": "pron",
+    "rows": ["nom", "gen", "dat", "acc", "abl"],
+    "cols": ["pl"],
+    "cells": {
+      "nom.pl": "vos",
+      "gen.pl": "vestrum / vestri",
+      "dat.pl": "vobis",
+      "acc.pl": "vos",
+      "abl.pl": "vobis"
+    }
+  }
+}

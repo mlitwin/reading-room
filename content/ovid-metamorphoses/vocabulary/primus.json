@@ -1,0 +1,24 @@
+{
+  "lemma": "primus",
+  "pos": "adj",
+  "head": "primus, -a, -um",
+  "glosses": ["first", "foremost", "earliest", "principal"],
+  "notes": "Superlative form (no positive in Latin); compare prior, 'earlier'.",
+  "paradigm": {
+    "type": "adj",
+    "rows": ["nom", "gen", "dat", "acc", "abl"],
+    "cols": ["sg.masc", "sg.fem", "sg.neut", "pl.masc", "pl.fem", "pl.neut"],
+    "cells": {
+      "nom.sg.masc": "primus", "nom.sg.fem": "prima", "nom.sg.neut": "primum",
+      "nom.pl.masc": "primi", "nom.pl.fem": "primae", "nom.pl.neut": "prima",
+      "gen.sg.masc": "primi", "gen.sg.fem": "primae", "gen.sg.neut": "primi",
+      "gen.pl.masc": "primorum", "gen.pl.fem": "primarum", "gen.pl.neut": "primorum",
+      "dat.sg.masc": "primo", "dat.sg.fem": "primae", "dat.sg.neut": "primo",
+      "dat.pl.masc": "primis", "dat.pl.fem": "primis", "dat.pl.neut": "primis",
+      "acc.sg.masc": "primum", "acc.sg.fem": "primam", "acc.sg.neut": "primum",
+      "acc.pl.masc": "primos", "acc.pl.fem": "primas", "acc.pl.neut": "prima",
+      "abl.sg.masc": "primo", "abl.sg.fem": "prima", "abl.sg.neut": "primo",
+      "abl.pl.masc": "primis", "abl.pl.fem": "primis", "abl.pl.neut": "primis"
+    }
+  }
+}

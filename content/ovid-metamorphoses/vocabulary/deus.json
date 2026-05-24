@@ -1,0 +1,20 @@
+{
+  "lemma": "deus",
+  "pos": "noun",
+  "head": "deus, -i, m.",
+  "glosses": ["god", "deity"],
+  "notes": "Irregular plural: nom. di or dii (Ovid uses di); gen. deorum or deum; dat./abl. dis or diis.",
+  "paradigm": {
+    "type": "noun",
+    "rows": ["nom", "gen", "dat", "acc", "abl", "voc"],
+    "cols": ["sg", "pl"],
+    "cells": {
+      "nom.sg": "deus", "nom.pl": "di",
+      "gen.sg": "dei", "gen.pl": "deorum",
+      "dat.sg": "deo", "dat.pl": "dis",
+      "acc.sg": "deum", "acc.pl": "deos",
+      "abl.sg": "deo", "abl.pl": "dis",
+      "voc.sg": "deus", "voc.pl": "di"
+    }
+  }
+}

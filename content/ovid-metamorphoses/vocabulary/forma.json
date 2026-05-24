@@ -1,0 +1,18 @@
+{
+  "lemma": "forma",
+  "pos": "noun",
+  "head": "forma, -ae, f.",
+  "glosses": ["form", "shape", "figure", "beauty", "appearance"],
+  "paradigm": {
+    "type": "noun",
+    "rows": ["nom", "gen", "dat", "acc", "abl"],
+    "cols": ["sg", "pl"],
+    "cells": {
+      "nom.sg": "forma", "nom.pl": "formae",
+      "gen.sg": "formae", "gen.pl": "formarum",
+      "dat.sg": "formae", "dat.pl": "formis",
+      "acc.sg": "formam", "acc.pl": "formas",
+      "abl.sg": "forma", "abl.pl": "formis"
+    }
+  }
+}

@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-05-23T22:25:54.808Z",
+  "generated_at": "2026-05-24T04:34:20.587Z",
   "pieces": [
+    {
+      "slug": "ovid-metamorphoses",
+      "title": "Ovid's Metamorphoses",
+      "author": "Matthew Litwin",
+      "date": "2026-05-23",
+      "tags": [
+        "latin",
+        "ovid",
+        "poetry",
+        "classics"
+      ],
+      "summary": "Ovid's Metamorphoses Book 1 with a per-word study apparatus. Each Latin word is a tap-target; the popover gives the lemma, principal parts (or declension), full paradigm with the active form highlighted, and a short gloss list. A reader with no Latin can work through the text; a reader with some Latin uses the cards as a fast lookup.",
+      "html_path": "ovid-metamorphoses/index.html",
+      "structure": {
+        "slug": "ovid-metamorphoses",
+        "title": "Ovid's Metamorphoses",
+        "html_path": "ovid-metamorphoses/index.html",
+        "items": [
+          {
+            "slug": "proem",
+            "title": "The proem (Met I.1–4)",
+            "html_path": "ovid-metamorphoses/proem.html"
+          }
+        ]
+      }
+    },
     {
       "slug": "tensors-for-gr",
       "title": "Tensors for General Relativity",

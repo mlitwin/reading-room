@@ -1,0 +1,18 @@
+{
+  "lemma": "origo",
+  "pos": "noun",
+  "head": "origo, originis, f.",
+  "glosses": ["origin", "beginning", "source", "lineage"],
+  "paradigm": {
+    "type": "noun",
+    "rows": ["nom", "gen", "dat", "acc", "abl"],
+    "cols": ["sg", "pl"],
+    "cells": {
+      "nom.sg": "origo", "nom.pl": "origines",
+      "gen.sg": "originis", "gen.pl": "originum",
+      "dat.sg": "origini", "dat.pl": "originibus",
+      "acc.sg": "originem", "acc.pl": "origines",
+      "abl.sg": "origine", "abl.pl": "originibus"
+    }
+  }
+}

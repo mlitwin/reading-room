@@ -1,0 +1,24 @@
+{
+  "lemma": "ille",
+  "pos": "pron",
+  "head": "ille, illa, illud",
+  "glosses": ["that", "he, she, it", "the well-known", "the former"],
+  "notes": "Demonstrative pronoun/adjective; can stand alone as a 3rd-person pronoun ('he, she, it, they') where context supplies the referent.",
+  "paradigm": {
+    "type": "pron",
+    "rows": ["nom", "gen", "dat", "acc", "abl"],
+    "cols": ["sg.masc", "sg.fem", "sg.neut", "pl.masc", "pl.fem", "pl.neut"],
+    "cells": {
+      "nom.sg.masc": "ille", "nom.sg.fem": "illa", "nom.sg.neut": "illud",
+      "nom.pl.masc": "illi", "nom.pl.fem": "illae", "nom.pl.neut": "illa",
+      "gen.sg.masc": "illius", "gen.sg.fem": "illius", "gen.sg.neut": "illius",
+      "gen.pl.masc": "illorum", "gen.pl.fem": "illarum", "gen.pl.neut": "illorum",
+      "dat.sg.masc": "illi", "dat.sg.fem": "illi", "dat.sg.neut": "illi",
+      "dat.pl.masc": "illis", "dat.pl.fem": "illis", "dat.pl.neut": "illis",
+      "acc.sg.masc": "illum", "acc.sg.fem": "illam", "acc.sg.neut": "illud",
+      "acc.pl.masc": "illos", "acc.pl.fem": "illas", "acc.pl.neut": "illa",
+      "abl.sg.masc": "illo", "abl.sg.fem": "illa", "abl.sg.neut": "illo",
+      "abl.pl.masc": "illis", "abl.pl.fem": "illis", "abl.pl.neut": "illis"
+    }
+  }
+}

@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-05-23T22:25:54.822Z",
+  "generated_at": "2026-05-24T04:34:20.602Z",
   "files": [
+    {
+      "path": "assets/cards.js",
+      "sha256": "3cb4186b30ef35aa094f6612928ef69220b2c764ea58ad27339b163b3b631be8",
+      "size": 1122
+    },
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
       "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13",
@@ -318,83 +323,83 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "114b2f399bd2d6db40877963ff0f40d2218e7d8356d26ea5626352a9d1ee79c9",
-      "size": 8212
+      "sha256": "8ec6ea8121ebc3871cefa716bab193381d430fa1f6b27f8fb3081a2fb38a8927",
+      "size": 11613
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
-      "sha256": "bcbc6f5ff96138c88c48769882ec942e9b52f060196bd2b770e92cd64799833b",
-      "size": 88837
+      "sha256": "de615a988bd16e72a8eba6908acfceffdcdfb595198838e03eb8d1bfbb6fef63",
+      "size": 88889
     },
     {
       "path": "calculus-on-manifolds/de-rham/index.html",
-      "sha256": "a9b675886cb2e45026c05565a080be5bc46b73df51805e3e88bac0f265b91be5",
-      "size": 1993
+      "sha256": "b9f89d2a2cfa9c51b4c7e1f504cc7bfbc5fb7402fed8ae7aa4ede2a2d385b936",
+      "size": 2045
     },
     {
       "path": "calculus-on-manifolds/de-rham/poincare-lemma.html",
-      "sha256": "eccffd35e6efa538ec1cbe401faf7aa003e82fe07ee49d32f5d1d7d0142dd8d0",
-      "size": 57377
+      "sha256": "c00ea8078351dec4991b85550e2f28b52f7bd890856788c51297202d4bd7cefd",
+      "size": 57429
     },
     {
       "path": "calculus-on-manifolds/differential-forms/closed-and-exact.html",
-      "sha256": "e35f1a1fab81e99876201adc1e9dc090bc80cda842b540cb58a35733a6404ebe",
-      "size": 29401
+      "sha256": "691ca303a44b5d4533f929bd600b483627cc14d98cca01109236b1812645a7ee",
+      "size": 29453
     },
     {
       "path": "calculus-on-manifolds/differential-forms/exterior-derivative-and-pullback.html",
-      "sha256": "037f8641482277d0d925289626e399c10778629fb551109a87adbc7fc6f8c4af",
-      "size": 97044
+      "sha256": "481ac5d0acb1f6e546b45f67bfc354ae275a332edfd81a32184b8117002bb520",
+      "size": 97096
     },
     {
       "path": "calculus-on-manifolds/differential-forms/index.html",
-      "sha256": "950e5af8c90fb97a54425d9f9ba9073a7a420afcf3276a9a398f2159c7b6783b",
-      "size": 1620
+      "sha256": "a9c4f7e8ad18f9ca89188d7589dea732f440383d615bcc88bed4a4df8f54a0dc",
+      "size": 1672
     },
     {
       "path": "calculus-on-manifolds/differential-forms/k-forms-and-wedge.html",
-      "sha256": "36ba7dfdbc9900c44d4f4f640559279398a6bc6d3401c20fa0ade0a5d383635e",
-      "size": 65582
+      "sha256": "0c48b7799f4a1e411c265916b97e11321f7001bd0879185ed450b2cfa8390a9d",
+      "size": 65634
     },
     {
       "path": "calculus-on-manifolds/index.html",
-      "sha256": "d5269ae9448f2a3182f7a59f7edf9fb17c021d87ba9914cf479b57f5071fd3b6",
-      "size": 14626
+      "sha256": "86a32485acaba727f5be155616c28382e190e4f554fddda19263abba867b96e5",
+      "size": 14675
     },
     {
       "path": "calculus-on-manifolds/integration/index.html",
-      "sha256": "bb5794e06ed0a787790d9a16362070aa367b57ea2c5f97131b12a8d710b8db82",
-      "size": 3465
+      "sha256": "0ed60e657784894fda0d0913ca70b436bdd6fc875b94a7e902c91df90a96a6e1",
+      "size": 3517
     },
     {
       "path": "calculus-on-manifolds/integration/orientation-and-integration.html",
-      "sha256": "466c82a9b74d0d81f79a45fe689f92b6ba1620345d52be290b60aab9116a0f35",
-      "size": 37628
+      "sha256": "e683fd6ef4978acc447c3f1b71f3e91f90e346fa0511aeef5f5e00d5b14e52ce",
+      "size": 37680
     },
     {
       "path": "calculus-on-manifolds/integration/stokes-theorem.html",
-      "sha256": "8a318c02a43c337626f4762784fdefd15094cd5591d4e7c36d3afc4694fd18c8",
-      "size": 36130
+      "sha256": "22004b4c260aff65eb1834f8f2c9d9eea8024b4f7b77eae709f63c08a2a2ad6d",
+      "size": 36182
     },
     {
       "path": "calculus-on-manifolds/manifolds/charts-and-smooth-maps.html",
-      "sha256": "fb3a55b4e99496c0c44cf686ca833140e0053e2bd12a12c9189c7b8c1b0cfb07",
-      "size": 32511
+      "sha256": "e4a8bd3e7c321204d39c9891aeb3af59d99ff79de6fc7fbbe5d676e1ebf0d936",
+      "size": 32563
     },
     {
       "path": "calculus-on-manifolds/manifolds/cotangent-space.html",
-      "sha256": "b9644e4b01095a3db4e901639df5049df09372d9282d853efd57fc4abd54cd31",
-      "size": 62079
+      "sha256": "f793b6abec352e5930f9a7a9bf2c3869dc376ccf72e703abe6c6a2f983fd2b6f",
+      "size": 62131
     },
     {
       "path": "calculus-on-manifolds/manifolds/index.html",
-      "sha256": "5e732ee0ce816919dc841b45f0d430d53ab146b054a5b2bae07bd386db6db6e4",
-      "size": 2403
+      "sha256": "7741677384f6eb95d49c4e25124f270bad81bea4eee92795ff9bd82af41ff8e6",
+      "size": 2455
     },
     {
       "path": "calculus-on-manifolds/manifolds/tangent-space.html",
-      "sha256": "30e29a6ee16c365a3b30513a54b0ff9e1acd6a9aad87ababecceca3c8aff257e",
-      "size": 44539
+      "sha256": "b87321c6571bdb51982a1e9b3f7433282f06736757417f0a754514b370b4a30c",
+      "size": 44591
     },
     {
       "path": "calculus-on-manifolds/nav.json",
@@ -403,63 +408,63 @@
     },
     {
       "path": "calculus-on-manifolds/notes.html",
-      "sha256": "0a2d62af230b960631ea149ed6bb7d1426aee8821b8692a5a3b8deead5f9ba40",
-      "size": 113171
+      "sha256": "f699bf9209c7d70ef11876847565bca7da088f172b19c85112215db6218ce0c9",
+      "size": 113220
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/flows-and-lie-bracket.html",
-      "sha256": "1ecbad7d4fa22574812f77987573fe98c4c8e97f7545cf5a992767cc7c0e0c07",
-      "size": 54220
+      "sha256": "1828ffa8afacd5d15027179e8f8a7c229b31c93f638091496a3a28b7988ea6ee",
+      "size": 54272
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/index.html",
-      "sha256": "166d9382c72e61934fa3e0145cf58bf787be36fc41a978954d32a317a4c32166",
-      "size": 1698
+      "sha256": "063479891cacd18df6303aa646cd5f519272622034357fc688a0371b6c0f636e",
+      "size": 1750
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/lie-derivative.html",
-      "sha256": "1b266a084981b48556bc0e8180b0ea1dcaa30ceef203a2ea4e0004880111d9ce",
-      "size": 50628
+      "sha256": "7e597deb9dcec14752f6d880408b6b14ccb5e48a9f1032dbcc7473d5843b95b6",
+      "size": 50680
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/vector-fields.html",
-      "sha256": "df9aa8109993d1e143f7ba450e32235b27493a752cd6dc88c49ec8cb14ee6a83",
-      "size": 38832
+      "sha256": "6d260336c0a4284828d128fbe49986183d0613b260b8873b50f0f5fee832545f",
+      "size": 38884
     },
     {
       "path": "classical-mechanics/hamiltonian/index.html",
-      "sha256": "075723613f17e48680265c2cd0bc20a3969f270213d54fb38adf611297f8d938",
-      "size": 1767
+      "sha256": "34a24dada6db730bb6f6f1a936d20700e4586c9712a438b527cd308029f2ef97",
+      "size": 1819
     },
     {
       "path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html",
-      "sha256": "9f3524c85a8dd6753b53a39a39a14581825d60e46b82b7c33a6b6310fc4f4428",
-      "size": 87430
+      "sha256": "57c40e140011e8c8280766ddb5069d86c06da5a179eb06d6313ad9aaefe6fb6e",
+      "size": 87482
     },
     {
       "path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html",
-      "sha256": "2716fffbeb1486fb65da72503fabdef686d164358313816d7e2f87b6278c803e",
-      "size": 70458
+      "sha256": "816362bbd41a0b21fdc2936222474c3ac824952a003eefbc08986ebbeb380543",
+      "size": 70510
     },
     {
       "path": "classical-mechanics/index.html",
-      "sha256": "a02aee2fd2c96ff5c49215942a3a364d0e84d8980ed635fcc53760df6c4dc888",
-      "size": 12756
+      "sha256": "b41963b470d2bc7d8b80d683b8394fdc5b6efb9bbb03a1e8004e745900a2ad44",
+      "size": 12805
     },
     {
       "path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html",
-      "sha256": "39d54ba67846290002022314fc4fb4c79746c58163cdd3587049a4d122efedf8",
-      "size": 78930
+      "sha256": "8803b52a4045138f4e272c8b70fed29b31e9eb87a85cf50a8c5f7012cb87a798",
+      "size": 78982
     },
     {
       "path": "classical-mechanics/lagrangian/coordinates-and-constraints.html",
-      "sha256": "8922c22aaa083f5ffccc83f687609701f13eeb0a19ebd9cb8e5529ca33d43375",
-      "size": 74713
+      "sha256": "03eb7d45aca33013d0bb77d44caed8dadb2dad5f5ad8ac2942c49486d70f5753",
+      "size": 74765
     },
     {
       "path": "classical-mechanics/lagrangian/index.html",
-      "sha256": "13b93503bc5f8785c0526ff759551adcbaa8e0448659840d3af2d24f2f16fe9f",
-      "size": 3907
+      "sha256": "c4d5b2fd78009afa3b2288cb2ec709732e4ca0920fcae02aad95680041777bc2",
+      "size": 3959
     },
     {
       "path": "classical-mechanics/nav.json",
@@ -468,83 +473,83 @@
     },
     {
       "path": "classical-mechanics/newtonian/conservation-laws.html",
-      "sha256": "ff1691376654cc72aa621f79feb460b9d8d15da1e105f6367f7163a2d7359a49",
-      "size": 42198
+      "sha256": "ed994f0c2f108d9c714812e05543bdb7b7a329e6b39f8e392abd3ae253fe37d2",
+      "size": 42250
     },
     {
       "path": "classical-mechanics/newtonian/index.html",
-      "sha256": "94a1d11e4056df79e26939826b2c308797f0d2f1300c77c37e9a471a0526077f",
-      "size": 5129
+      "sha256": "6d0f8efafa07c0b4aa3775a8ee1ad5487bf9270cf15da9511f35e90559c82e72",
+      "size": 5181
     },
     {
       "path": "classical-mechanics/newtonian/newtons-laws.html",
-      "sha256": "5caf5b47fd0ed472f5165c52f69d961562900dd7d39e924c511042e1b023dc13",
-      "size": 54993
+      "sha256": "ceedde8f044dbe72861577d5821094bfde330d63aecfd2809ac43d2f4406f60e",
+      "size": 55045
     },
     {
       "path": "classical-mechanics/noether/examples.html",
-      "sha256": "7053f6ec037b190c2c866543a20130a76de1e2f3bd285120ee606d3423472e0b",
-      "size": 48624
+      "sha256": "9238754f9994d2f72693812924544ee772807c095385993984631bac081a31ed",
+      "size": 48676
     },
     {
       "path": "classical-mechanics/noether/index.html",
-      "sha256": "859a89085b10139d51c49e8b3c6ce5672c68eeec1533edf03ae5e7b28790610b",
-      "size": 1803
+      "sha256": "1d4288bce33bd59559af613cf145be778568475e5ed35601741d3b66b3ebad59",
+      "size": 1855
     },
     {
       "path": "classical-mechanics/noether/noethers-theorem.html",
-      "sha256": "c67d6987904075b6f8981c6d5a60278892ef48297c49784cbd1033d5a1f03840",
-      "size": 53534
+      "sha256": "a17745634f51628d1d66375d39dbc854ac04bccae710f5231f4a495ff8115863",
+      "size": 53586
     },
     {
       "path": "classical-mechanics/notes.html",
-      "sha256": "345c6ce71bfb12ef0af9275712368f31e95aa7fb067bffd415dbaa3da1b14237",
-      "size": 65017
+      "sha256": "d592eab2214a279b627a6dbc2e90255f6db23547e562a9b0d22b7b4bd7787a9e",
+      "size": 65066
     },
     {
       "path": "index.html",
-      "sha256": "761a8890f00849d4c801de789865acb36ca5c91cfa18e5a403a819f3281d87e3",
-      "size": 3476
+      "sha256": "1c749583776c1905f40684331bf6f50e12b344d654e6e49fa715f5d1ef8525be",
+      "size": 4209
     },
     {
       "path": "index.json",
-      "sha256": "248308391f97326ef5dad9194dfde3a0d2110e4db0ac64082b40453d9a52b775",
-      "size": 20816
+      "sha256": "29da53323c7d4fcc79cb8d8343f5cc460950c5e0d76ccbccf44e43b915fc745b",
+      "size": 21818
     },
     {
       "path": "notes-on-sorting/algorithms/index.html",
-      "sha256": "34a5821b448bad71e2fa0502c264c87a6f6fa697000e196ac70e4f2c6675a284",
-      "size": 2515
+      "sha256": "82367069b5f6c885fff20b3c36eb9b331ceba3824b53d811071056524c9e9111",
+      "size": 2567
     },
     {
       "path": "notes-on-sorting/algorithms/mergesort.html",
-      "sha256": "52bb2aed9079d4d85361b9406dbe79ee1c927d79d90e4162956e544837b90a6e",
-      "size": 4395
+      "sha256": "35b4e68d2408e61b941478754ff01a3ac4ce4ed4ae62c7f90d64905de4277d3c",
+      "size": 4447
     },
     {
       "path": "notes-on-sorting/algorithms/quicksort.html",
-      "sha256": "1dd7070a94ec442e5120698435a99aacaf8457838a0a5a91b57c3baa366cc76c",
-      "size": 5525
+      "sha256": "3ba17f4d3fde5f10e387745fecc60b7c50bab074f017f4c97331cd3298d13c11",
+      "size": 5577
     },
     {
       "path": "notes-on-sorting/fundamentals/complexity.html",
-      "sha256": "42758565e0799221ee2c4a01507b998615f3d91ba829970df46603813fe35c99",
-      "size": 10165
+      "sha256": "19e2e9ffd017605365bc4841be464e18034caa511a268deadbdb90f20f7a1137",
+      "size": 10217
     },
     {
       "path": "notes-on-sorting/fundamentals/index.html",
-      "sha256": "e748ef44145867fc790f1cdead976dce66c249d999fa24993794f4244ee5d143",
-      "size": 1678
+      "sha256": "bcd977ce2413420c89ea2edcfef26738d326e162bd3744a1df92af473663ecce",
+      "size": 1730
     },
     {
       "path": "notes-on-sorting/fundamentals/stability.html",
-      "sha256": "d27747dd62e3451fedcbe61103893bc2d3c7c715fffe9502bd40f937975bc66d",
-      "size": 2987
+      "sha256": "68b6ba3af023d4e6c5dc150946c1d310e3fb33359ae957bc4630e2ca8414eae1",
+      "size": 3039
     },
     {
       "path": "notes-on-sorting/index.html",
-      "sha256": "12c692658174fb30eb6eb83a74c8e01e8c8eede240b760aced99041304b13613",
-      "size": 1630
+      "sha256": "047ee6693d9dbc564f496d408e413bd01b9f4207edf8f02beef978a0257dbb42",
+      "size": 1679
     },
     {
       "path": "notes-on-sorting/nav.json",
@@ -552,79 +557,94 @@
       "size": 4429
     },
     {
+      "path": "ovid-metamorphoses/index.html",
+      "sha256": "1d0fe17cd63fed8adabf85aa766b7731245f1fedfa2ad7df6bbc2fa71cac112f",
+      "size": 2341
+    },
+    {
+      "path": "ovid-metamorphoses/nav.json",
+      "sha256": "519d46df99f80c4134910c35b3504320847d0d0a99db852b7b196d354e5f28f9",
+      "size": 923
+    },
+    {
+      "path": "ovid-metamorphoses/proem.html",
+      "sha256": "08b929ef9ca0c19159b6a9a704e53551020f68d7218ac859ffa18a46c289aa43",
+      "size": 37793
+    },
+    {
       "path": "shahnameh-study-guide/characters/heroes-of-sistan.html",
-      "sha256": "688bcc8f13fbcf589cf89f525705992d04ca58c3a524bd0e4ce9a71e737dce01",
-      "size": 3702
+      "sha256": "35dc20518fa0e2a6671198f2e195d13a6ec2a9b1fc2abdb7a4459e7113c85887",
+      "size": 3754
     },
     {
       "path": "shahnameh-study-guide/characters/index.html",
-      "sha256": "c2880ba125fb78fbef6f384fe2aa229a464163cd24a5c4a3af13eefa97fa4e15",
-      "size": 2516
+      "sha256": "5caff824c7d446a5050b7dbe9560bf6c743a7a2545faa930114e3d14614fb62d",
+      "size": 2568
     },
     {
       "path": "shahnameh-study-guide/characters/kayanian-shahs.html",
-      "sha256": "2c2c2fa68fce6268267a3b62d6cc83da01cfa1536ee431d51c36368f931178cf",
-      "size": 3859
+      "sha256": "3daba96377af0e1bb148cbcf32059e0f6a4b45be95af4ae2867443e127e8b57a",
+      "size": 3911
     },
     {
       "path": "shahnameh-study-guide/characters/primordial-kings.html",
-      "sha256": "dce38460c7282f5ad7bde6e1d5d5413350ba427d75e419751aaf91e1ea6095a3",
-      "size": 3774
+      "sha256": "058b23747d2363f64712490098688c2cf09d281d65c43db1153a5c24617cbc40",
+      "size": 3826
     },
     {
       "path": "shahnameh-study-guide/characters/turan.html",
-      "sha256": "d69e137e3982eeb296d917d997b823b10918c8b1c06cf0cb3b994c9fbe7dfb50",
-      "size": 3552
+      "sha256": "ab306b491b7092e760b7d4f02cc1a106fa3c07956e81cca13f31815beb4d4d00",
+      "size": 3604
     },
     {
       "path": "shahnameh-study-guide/historicised-view/eskandar-the-persian.html",
-      "sha256": "6d1912ac63f4d0fb328c026ce7197135b2b31e2c8dc2d4cd49552290911b0251",
-      "size": 3367
+      "sha256": "31d15a47b23d63a1ca68a392c2f1b2159d279f948c52b89e323f5563a8715561",
+      "size": 3419
     },
     {
       "path": "shahnameh-study-guide/historicised-view/index.html",
-      "sha256": "c092218040a9eb66227d26ce360e768eff7ab250c3ecdc987c906a15a8b7fd1a",
-      "size": 2894
+      "sha256": "3f7c04da42e6733074a8d92612e1adec8ccdf1064facf0c6c126f8494803a8b6",
+      "size": 2946
     },
     {
       "path": "shahnameh-study-guide/historicised-view/missing-achaemenids.html",
-      "sha256": "16a3a1e51a6b0abf178ddead81fe733363e4195ee9c3b346674d5af1e578754b",
-      "size": 3439
+      "sha256": "e91278061c97e611c8523a26c02ecaace4e5c379e7cd874964a8d59c8ebd26d3",
+      "size": 3491
     },
     {
       "path": "shahnameh-study-guide/historicised-view/mythical-time.html",
-      "sha256": "de8150f6ca55884309b59ab56ebbbaf8f6ee1b369bbdbc690fe89ae015271696",
-      "size": 3212
+      "sha256": "9f9455d30ba08a5dce97c44bb4af9a7205a1d5a2ef31e41aa61ac4ad3b6404fb",
+      "size": 3264
     },
     {
       "path": "shahnameh-study-guide/historicised-view/parthian-gap.html",
-      "sha256": "11a3757b5ed131a279ceccf100e92f4486f9a4962e992a6834d5654cad349832",
-      "size": 3536
+      "sha256": "6ac887338b14432741140d3bd990c390fb3b7ac52d6f0ae44a350e033bf7b4b8",
+      "size": 3588
     },
     {
       "path": "shahnameh-study-guide/index.html",
-      "sha256": "68611e910247cf281b26830dcf9e5e221134132ee1c98d4da8f0457d9e39779b",
-      "size": 2810
+      "sha256": "dbdfcfaec4331464a2771781de69e942927d0809142cac6db91dc6a8fead33ee",
+      "size": 2859
     },
     {
       "path": "shahnameh-study-guide/introduction/ferdowsi-and-islam.html",
-      "sha256": "836a987ee5f1867679dd68cdb4f6e1ecd49fea78b6b273edfd0c74eaa34df3e5",
-      "size": 3326
+      "sha256": "60ee876ec2e3359c74708d746b2df8be5db2e7b9066b8865ee817e558266e8e7",
+      "size": 3378
     },
     {
       "path": "shahnameh-study-guide/introduction/index.html",
-      "sha256": "bdf72e9c32ff203be699fcbda9d91f6e4f312bded59b6d6109c953a353ff26f5",
-      "size": 1986
+      "sha256": "75643670d2ce58b96e0c29f76298d5cf684bc895bcedb8ab26258fb716702e38",
+      "size": 2038
     },
     {
       "path": "shahnameh-study-guide/introduction/iran.html",
-      "sha256": "0fc0f21f7b6465675bc4defc3f6ed9500c066fa663786be6ebf6d611c2209e70",
-      "size": 3105
+      "sha256": "328b7865fb9fe4527e2005ec5fe6216fe114dfd6e081a1a88e7d502a558106cf",
+      "size": 3157
     },
     {
       "path": "shahnameh-study-guide/introduction/zoroastrianism.html",
-      "sha256": "f711b6da83a4223871e1c415a3adb01cec4b54b317500956377f55cd74acaa87",
-      "size": 3370
+      "sha256": "b92b8431e275c3a33179fd1bbb03c18409992b6e022311f408bf656fa4e19fa4",
+      "size": 3422
     },
     {
       "path": "shahnameh-study-guide/nav.json",
@@ -633,53 +653,53 @@
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/affine-connection.html",
-      "sha256": "041f2f907873e08ce39a3e8f29d8e3d6052d6fb625c98658f2acc247cd020997",
-      "size": 115325
+      "sha256": "773f953ca8896a1360ab80603b5dbc4ba0a2a1c85d3c4d6aa4d5774261e770e6",
+      "size": 115377
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/covariant-derivative.html",
-      "sha256": "3370f484249fe1b904c28bc2d5d49d92d0eb8b9b391703122529e58fa8fd4a09",
-      "size": 139023
+      "sha256": "213a50c0d5207caf45aa98a2b1b442289e3f0e064db1f3eb37c56ab7eb5e4948",
+      "size": 139075
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/index.html",
-      "sha256": "038474cdac139a1e0cc139ee9fc1ed6b1f3296ee5b8a959c802e94cdebe36301",
-      "size": 4457
+      "sha256": "a227023871dbf401d1b321adf0c00ba0a30f11b5892c1c3e4900fa3dc646ac10",
+      "size": 4509
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/on-the-sphere.html",
-      "sha256": "b38d3bd81a8881feb10b73570149a965cea8872c0bad83a28dcff7640375d1ab",
-      "size": 204424
+      "sha256": "142966ec7b8576b3f99b0fc33b158fcc3fd1f32fc98881a40725293907a44251",
+      "size": 204476
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/torsion-and-curvature.html",
-      "sha256": "52d94a1dbf77164040ab03702997fc5c81b13bae40dfcad738f4a742717ee8df",
-      "size": 116642
+      "sha256": "ab0a290e1644ecab8c2153e33c9e1fda10aad57b0b8ff311df3c1f92dc122bef",
+      "size": 116694
     },
     {
       "path": "tensors-for-gr/coordinate-systems/changing-charts.html",
-      "sha256": "88db2d92617712577c86f1175cbcbfef59c518cf0d91d1d0ade2d927270f55c9",
-      "size": 151443
+      "sha256": "c7e6b6babd70ff7808eb97197e0ce9c3211414f8b870408cb3c078aef40d5cf2",
+      "size": 151495
     },
     {
       "path": "tensors-for-gr/coordinate-systems/index.html",
-      "sha256": "ad0a0d7036be3084659ec3daa1efa5c6028b58b769247e5bb2493d47af9b201e",
-      "size": 7012
+      "sha256": "8b7dd5adf6e7a3a526985580e303d975262bf65c5a8ffb77614796e90e9837d4",
+      "size": 7064
     },
     {
       "path": "tensors-for-gr/coordinate-systems/skew-coordinates.html",
-      "sha256": "07a1cc328a857da7f9d80683c65734361066e3395b73e19bf374d03db1c5408f",
-      "size": 158615
+      "sha256": "4287692c3508338321e672463b6f197227a714537def4fa3b2019b72cab9b003",
+      "size": 158667
     },
     {
       "path": "tensors-for-gr/coordinate-systems/standard-coordinates.html",
-      "sha256": "19fd53548728f103610a8fac43e5a3427f4de9241d6a8a11bb779cbe36b7dcd3",
-      "size": 76917
+      "sha256": "56ac98ba715b7062719dd444fd4f3e9be2a3eaf78b568da683a35e0a1e9c86f2",
+      "size": 76969
     },
     {
       "path": "tensors-for-gr/coordinate-systems/the-sphere-and-two-charts.html",
-      "sha256": "2885d8ce61e4a3f26960cca3cbd5ab3f95636e9850cbe97d33f2eceeec9abf13",
-      "size": 58662
+      "sha256": "106154c5fcb1f02783f7eb15cce05260e6f242472c084d1af3ffcfeee8a5ec9a",
+      "size": 58714
     },
     {
       "path": "tensors-for-gr/figures/chart-change-jacobian.svg",
@@ -713,48 +733,48 @@
     },
     {
       "path": "tensors-for-gr/general-relativity/einstein-cartan.html",
-      "sha256": "34462a05f79619272009d4ee080fa54f375afdd70d1767cc06d580b552636ccf",
-      "size": 68906
+      "sha256": "c9acbc7dde4b7209ae479555e689ad388fe10c6301fdaa6d2964110c8f867c99",
+      "size": 68958
     },
     {
       "path": "tensors-for-gr/general-relativity/einstein-equations.html",
-      "sha256": "1c9dc26e3496e0c54a9af849d23fa6abfbdf41ea6731c24452ace4a4373daf23",
-      "size": 97954
+      "sha256": "bbb1838aca2f7aa6b0da559237fce949115789c392f9a74ddc06479933bb7424",
+      "size": 98006
     },
     {
       "path": "tensors-for-gr/general-relativity/index.html",
-      "sha256": "87b0090a2e0d46bd7648a49f24fdd1e66a3e147c272444025428bd9ae169a754",
-      "size": 4644
+      "sha256": "7ad9acb6c213fc93747ccdc34b60f9928bfcc8623e3db78e11696743b97aeab0",
+      "size": 4696
     },
     {
       "path": "tensors-for-gr/general-relativity/schwarzschild.html",
-      "sha256": "0735d435dbfd80a1f5737a2d6f7eac100698d3d689a9be0bb24e7d2b418fc3f1",
-      "size": 84483
+      "sha256": "b0d5ba9f8dbd7d567ebe626198d5282045f71db26583bdd641165557b1e2d185",
+      "size": 84535
     },
     {
       "path": "tensors-for-gr/index.html",
-      "sha256": "e0e81f39ff5ba94e05312fa9eb8c849d66037f4220475b86123e2e46166a605d",
-      "size": 57183
+      "sha256": "0d5e4b502176fa49d0c67f36cee1c06a883ed8dce9be939d5e82fc0e897c2795",
+      "size": 57232
     },
     {
       "path": "tensors-for-gr/metric/index.html",
-      "sha256": "e340ab8bec2ca8375ff1d9ff135695e206622d070ff4a9b9b5ec8f02b9c7624a",
-      "size": 3213
+      "sha256": "bb10dd309e96c1960c848077f599bb6d100110c8a4e47c1cd251451c4fe4467b",
+      "size": 3265
     },
     {
       "path": "tensors-for-gr/metric/on-the-sphere.html",
-      "sha256": "1c28db58b15e77f59a148c7a42876a2ce51c190c299f56e18139757b9e93dde6",
-      "size": 209835
+      "sha256": "8ba0530b899963950c1df0eac17461ed01ff186095470dad145b342a89bf79b6",
+      "size": 209887
     },
     {
       "path": "tensors-for-gr/metric/raising-and-lowering.html",
-      "sha256": "a3a2adfc3ac099d990905b5ea8fdd2ee3c3e48f581328007c125c99f98aefe7a",
-      "size": 139951
+      "sha256": "cebf89907a13ec8a878b359fb2a8cdedfc1e5c22792dee429ea957e9775c2ac9",
+      "size": 140003
     },
     {
       "path": "tensors-for-gr/metric/the-metric-tensor.html",
-      "sha256": "7bf3ec9250d6fbe036ed5ee6af95ce288a22cf60bd835b2540615000a8a9eb73",
-      "size": 73668
+      "sha256": "5b35a33657ec3e9b4a062bed670c1b0bc95d6d0f8b593ba75e5aada2e048f6fc",
+      "size": 73720
     },
     {
       "path": "tensors-for-gr/nav.json",
@@ -763,53 +783,53 @@
     },
     {
       "path": "tensors-for-gr/notes.html",
-      "sha256": "9a5311d438798aa0276fd228b18cdd6e973f6539e7e3397f41c4548be5f4dcba",
-      "size": 129227
+      "sha256": "1f28a968fb921b8fe2da2cab60ea2ee7603ff06487dac7a7a92e1f19281966a9",
+      "size": 129276
     },
     {
       "path": "tensors-for-gr/tensors/co-contra-vs-k-forms.html",
-      "sha256": "d5efae3e1b4b3cf0dd5b6e64f64aa67111ce26bd9bb9dd813ae6fea08dfd86b7",
-      "size": 116797
+      "sha256": "17cd293fb744a9c587b38fa1e177cb8da24cc4f90b051066f68276adbb16fd2f",
+      "size": 116849
     },
     {
       "path": "tensors-for-gr/tensors/coordinate-components.html",
-      "sha256": "1f29a49932d664375bd0349057af881a4b4792cb982797a527fcbcb1d75e15ff",
-      "size": 102155
+      "sha256": "c0785470304821e8a80d2bfd586715f4acaa0352aded77174728756ed4ac5680",
+      "size": 102207
     },
     {
       "path": "tensors-for-gr/tensors/index.html",
-      "sha256": "c0daf6e40dadfb8cc3bc1ef0d571b2836f85cb7debc887488942b7ed950336d6",
-      "size": 7847
+      "sha256": "e6ee9e9f8dbc943fcebe627ca71732ed064e2e7d445d26bea3679ff65d801ae7",
+      "size": 7899
     },
     {
       "path": "tensors-for-gr/tensors/multilinear-and-rank.html",
-      "sha256": "8ffe6849eea5557924e0122f6ceb468db7b8720e9915fe37ec522a6fe778c0bf",
-      "size": 140670
+      "sha256": "87146212d9ef09f3eba3f69a42710c0e15c3c1fc551a37822eaca21517b05a5b",
+      "size": 140722
     },
     {
       "path": "tensors-for-gr/tensors/on-the-sphere.html",
-      "sha256": "e8ed8dad2d7a4c11ef3badd5ed9891cd239d419e97c463e3e07f9057ddfd097a",
-      "size": 67250
+      "sha256": "6804167deabe7deb7086513071e02a596209bc8c3f9c7552f456f721b3c82c08",
+      "size": 67302
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/dual-vectors.html",
-      "sha256": "bed97ee4c1a59f0a9a1a4c59a14a018f586ee1d363d30a9de2d83dce9cff37cc",
-      "size": 79822
+      "sha256": "9331e14ccf9e964e0bff0af3e852765ee04734ab7bf0d10561dcee156cabc1ca",
+      "size": 79874
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/index.html",
-      "sha256": "cae4b249fb5da1f56a8d3083324b3a1691b4423944cbf067641567c3f75875da",
-      "size": 2588
+      "sha256": "101321640562c150f2fce994ddd77cb1d5b9c9f82e10f7e591fa981a29ee6c2d",
+      "size": 2640
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/on-the-sphere.html",
-      "sha256": "9d88e9e61da6b1cc4d5ba1666b4e70d288f26b071d3a88aea91f844070b23846",
-      "size": 106823
+      "sha256": "ef38fb387168b0bbe59ac5a16ccf802b6d91daf3c7d02314c34a68c25e3bbba4",
+      "size": 106875
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/tangent-vectors.html",
-      "sha256": "d4f35f405378aa2bde515cf5e269282dd01de1da6da695548561648ff8f7eca9",
-      "size": 95763
+      "sha256": "d0145566f5d104196e3f9304ebdd0214984ded75803574124d9a07584a7e6819",
+      "size": 95815
     }
   ]
 }

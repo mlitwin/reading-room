@@ -377,3 +377,140 @@ nav.page-nav .placeholder { visibility: hidden; }
 /* Container holding all popovers — hidden from doc flow; popover API
    floats them above the page. */
 .note-popovers { display: contents; }
+.card-popovers { display: contents; }
+
+/* Latin passages: each Latin word is wrapped in a `<button class="latin-token">`
+   that opens a popover card for its lemma. Buttons look like inline text — no
+   border, no underline — until hover reveals the link affordance. */
+.latin-passage {
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin: 1.2rem 0 1.6rem;
+  padding: 0.6rem 0.9rem;
+  border-left: 3px solid var(--rule);
+}
+.latin-token {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-bottom: 1px dotted transparent;
+}
+.latin-token:hover {
+  color: var(--accent);
+  border-bottom-color: currentColor;
+}
+
+/* Card popovers. Same chrome as note-popover but wider to fit the paradigm
+   table; the table is the visual centerpiece. */
+.card-popover {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  max-width: min(38rem, calc(100vw - 2rem));
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 1.2rem 1.4rem 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--fg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.card-popover::backdrop { background: rgba(0, 0, 0, 0.25); }
+
+.card-popover .card-head {
+  margin: 0 1.8rem 0.6rem 0;
+}
+.card-popover .card-lemma {
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0.15rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+.card-popover .card-pos {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  font-weight: 400;
+}
+.card-popover .card-principal {
+  font-family: ui-serif, Georgia, serif;
+  font-style: italic;
+  margin: 0;
+  color: var(--muted);
+}
+
+.card-popover .card-paradigm {
+  border-collapse: collapse;
+  margin: 0.8rem 0;
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+}
+.card-popover .card-paradigm th,
+.card-popover .card-paradigm td {
+  border: 1px solid var(--rule);
+  padding: 0.25rem 0.7rem;
+  text-align: center;
+  font-weight: 400;
+}
+.card-popover .card-paradigm th {
+  background: rgba(0, 0, 0, 0.03);
+  font-family: ui-sans-serif, sans-serif;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.card-popover .card-paradigm td.active-form {
+  background: var(--accent);
+  color: var(--bg);
+  font-weight: 600;
+}
+
+.card-popover .card-glosses {
+  margin: 0.6rem 0;
+  padding-left: 1.2rem;
+}
+.card-popover .card-glosses li { margin: 0.1rem 0; }
+
+.card-popover .card-notes {
+  margin: 0.6rem 0 0.2rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.card-popover .card-parse {
+  margin-top: 0.6rem;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.82rem;
+  color: var(--muted);
+  min-height: 1em;
+}
+.card-popover .card-parse:empty { display: none; }
+
+.card-popover .card-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.6rem;
+  background: transparent;
+  border: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+.card-popover .card-close:hover { color: var(--fg); }

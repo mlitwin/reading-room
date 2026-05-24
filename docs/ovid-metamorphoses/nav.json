@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "slug": "ovid-metamorphoses",
+      "title": "Ovid's Metamorphoses",
+      "html_path": "ovid-metamorphoses/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        }
+      ],
+      "prev": null,
+      "next": {
+        "title": "The proem (Met I.1–4)",
+        "html_path": "ovid-metamorphoses/proem.html"
+      }
+    },
+    {
+      "slug": "proem",
+      "title": "The proem (Met I.1–4)",
+      "html_path": "ovid-metamorphoses/proem.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Ovid's Metamorphoses",
+        "html_path": "ovid-metamorphoses/index.html"
+      },
+      "next": null
+    }
+  ]
+}
