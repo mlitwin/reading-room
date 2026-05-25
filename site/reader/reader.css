@@ -499,18 +499,52 @@ nav.page-nav .placeholder { visibility: hidden; }
   min-height: 1em;
 }
 .card-popover .card-parse:empty { display: none; }
+.card-popover .card-parse-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.card-popover .card-parse-list li {
+  margin: 0.15rem 0;
+}
 .card-popover .card-parse-human {
   font-style: italic;
 }
 .card-popover .card-parse-code {
   display: inline-block;
-  margin-left: 0.5rem;
+  margin-left: 0.4rem;
   padding: 0.05rem 0.4rem;
   font-family: ui-monospace, SFMono-Regular, monospace;
   font-size: 0.78rem;
   color: var(--muted);
   background: rgba(0, 0, 0, 0.05);
   border-radius: 3px;
+}
+
+.card-popover .card-other-lemmas {
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.card-popover .card-other-lemmas:empty { display: none; }
+.card-popover .card-other-lemmas-label {
+  font-style: italic;
+  margin-right: 0.3rem;
+}
+.card-popover .other-lemma-chip {
+  background: rgba(0, 0, 0, 0.06);
+  border: 0;
+  font: inherit;
+  font-style: italic;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.3rem;
+  border-radius: 3px;
+  color: var(--fg);
+  cursor: pointer;
+}
+.card-popover .other-lemma-chip:hover {
+  background: var(--accent);
+  color: var(--bg);
 }
 
 .card-popover .card-close {

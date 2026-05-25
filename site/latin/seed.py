@@ -18,16 +18,18 @@ Whitaker's lives at ~/Dev/github.com/mlitwin/whitakers_words next to this
 repo (clone of https://github.com/blagae/whitakers_words). Run inside the
 sibling venv: `source .venv/bin/activate && python3 seed.py < text > out.html`.
 
-v0 known limitations — output still needs hand-curation:
-  * data-lemma is the first Whitaker's stem (e.g. `nov`, `anim`), not the
-    canonical headword (`novus`, `animus`). Author renames.
+Each span gets a `data-matches="lemma1:parse1,parse2;lemma2:parse3"` attribute
+listing every (lemma, parse) Whitaker's reports for the surface form. We do
+not disambiguate — the card popover is a study tool that highlights every
+cell the form could fill and surfaces every lemma it could belong to.
+
+v1 known limitations — output still needs hand-curation:
+  * Lemma reconstruction is heuristic (round-trips candidate endings through
+    Whitaker's). Irregular pronouns (`vos`, `di`) and a handful of nouns
+    still come back as raw stems.
   * Enclitics (-que, -ne, -ve) not split off; appear attached (`primaque`).
-  * Participle parse codes emit `Nonepl.perf.pass` instead of `ppp.acc.pl.fem`
-    when Person feature is None — fix in parse_code_for.
-  * Disambiguation is naive (picks first candidate); `dicere` comes back as
-    `2sg.pres.subj.pass` instead of `inf.pres.act`. Prefer common parses.
-  * Whitaker's doesn't always recognise syncopated/poetic forms
-    (e.g. `mutastis` returns "?"). Author writes those by hand.
+  * Whitaker's doesn't recognise some syncopated/poetic forms
+    (e.g. `mutastis`); those emit `?:?` and the author writes them by hand.
 """
 import os
 import re
@@ -69,14 +71,16 @@ def parse_code_for(inflection, word_type):
         number = NUMBER.get(feature(feats, 'Number'), '')
         tense  = TENSE.get(feature(feats, 'Tense'), '')
         voice  = VOICE.get(feature(feats, 'Voice'), '')
-        if mood == 'PPL':
-            # Participle: use ppp/pap/fap depending on tense+voice.
+        case_f = feature(feats, 'Case')
+        # Participle test: Whitaker's may set Mood=PPL or just leave Person None
+        # and provide Case/Number/Gender features.
+        if mood == 'PPL' or (person is None and case_f is not None):
             tag = {
                 ('PERF', 'PASSIVE'): 'ppp',
                 ('PRES', 'ACTIVE'):  'pap',
                 ('FUT',  'ACTIVE'):  'fap',
             }.get((feature(feats, 'Tense'), feature(feats, 'Voice')), 'ppl')
-            case = CASE.get(feature(feats, 'Case'), '')
+            case = CASE.get(case_f, '')
             num  = number
             gen  = GENDER.get(feature(feats, 'Gender'), '')
             return '.'.join(x for x in [tag, case, num, gen] if x)
@@ -96,45 +100,98 @@ def parse_code_for(inflection, word_type):
     # Indeclinables.
     return {'PREP': 'prep', 'CONJ': 'conj', 'ADV': 'adv', 'INTERJ': 'interj'}.get(word_type, '')
 
-def lemma_for(lexeme):
-    """Whitaker's gives a list of stems; reconstruct a canonical headword."""
+def lemma_for(lexeme, parser, _cache={}):
+    """Whitaker's gives a list of stems; reconstruct a canonical headword by
+    appending the conventional dictionary-form ending to the first stem and
+    asking Whitaker's to verify. The first candidate that comes back as the
+    expected dictionary form wins. Falls back to the bare stem."""
     roots = [r for r in lexeme.get('roots', []) if r]
     wt = lexeme.get('wordType', None)
     wt_name = getattr(wt, 'name', str(wt))
     if not roots:
         return ''
+    stem = roots[0]
+    cache_key = (wt_name, tuple(roots))
+    if cache_key in _cache:
+        return _cache[cache_key]
+
+    # Candidate endings ordered by frequency for the part of speech. For each,
+    # the dictionary form's expected features (case=NOM, num=S for nouns; etc.)
+    # are what tells us the candidate is the lemma rather than another inflection.
     if wt_name == 'V':
-        # First-person singular present: first root + standard ending by conj
-        return roots[0] + 'o' if not roots[0].endswith(('o', 'i')) else roots[0]
-    # Nouns/adjs/etc: first root as-is (rough approximation)
-    return roots[0]
+        # 1st-conj -o, 2nd -eo, 3rd -o, 4th -io, irregular sum/eo handled by `''`.
+        candidates = [stem + 'o', stem + 'eo', stem + 'io', stem, stem + 'or']
+        expected = ('1', 'S', 'PRES', 'IND', 'ACTIVE')   # person, num, tense, mood, voice
+    elif wt_name == 'N':
+        candidates = [stem + 'us', stem + 'a', stem + 'um', stem + 'is', stem + 'es',
+                      stem + 'er', stem + 's', stem, stem + 'or']
+        expected = ('NOM', 'S')
+    elif wt_name == 'ADJ':
+        candidates = [stem + 'us', stem + 'is', stem + 'er', stem + 'x', stem]
+        expected = ('NOM', 'S', 'M')   # nom.sg.masc
+    elif wt_name == 'PRON':
+        candidates = [stem, stem + 'e', stem + 'o', stem + 'a']
+        expected = ('NOM', 'S')
+    else:
+        _cache[cache_key] = stem
+        return stem
+
+    for cand in candidates:
+        try:
+            res = parser.parse(cand)
+        except Exception:
+            continue
+        if not res.forms:
+            continue
+        for form in res.forms:
+            for analysis in form.analyses.values():
+                lex2 = analysis.lexeme if hasattr(analysis, 'lexeme') else analysis['lexeme']
+                roots2 = (lex2.get('roots') if isinstance(lex2, dict) else lex2.roots) or []
+                if list(roots2) != list(roots):
+                    continue
+                infls = analysis.inflections if hasattr(analysis, 'inflections') else analysis['inflections']
+                for infl in infls:
+                    feats = infl.features if hasattr(infl, 'features') else infl['features']
+                    fnames = tuple(getattr(feats.get(k), 'name', '') for k in
+                                   ('Person', 'Number', 'Tense', 'Mood', 'Voice')) if wt_name == 'V' else \
+                              tuple(getattr(feats.get(k), 'name', '') for k in ('Case', 'Number', 'Gender'))
+                    # Compare only the prefix we care about (verbs ignore length-3 expected).
+                    if all(e == '' or fnames[i] == e for i, e in enumerate(expected)):
+                        _cache[cache_key] = cand
+                        return cand
+    _cache[cache_key] = stem
+    return stem
 
 def analyse(parser, token):
-    """Return (lemma, parse_code, ambiguous_alternatives) for a token."""
+    """Return all (lemma, parse_code) matches Whitaker's reports for a token,
+    grouped by lemma in source order. The card is a study tool, not an
+    answer key — we don't disambiguate; the popover highlights every cell
+    the surface form could fill, and surfaces every lemma it could belong to.
+    Returns a list-of-dicts: [{lemma, parses: [...]}, ...]."""
     try:
-        result = parser.parse(token)
+        result = parser.parse(token.lower())
     except Exception:
-        return ('?', '?', [])
+        return []
     if not result.forms:
-        return ('?', '?', [])
-    candidates = []
+        return []
+    grouped = {}
+    order = []
     for form in result.forms:
         for analysis in form.analyses.values():
             lexeme = analysis.lexeme if hasattr(analysis, 'lexeme') else analysis['lexeme']
             for infl in (analysis.inflections if hasattr(analysis, 'inflections') else analysis['inflections']):
                 wt = lexeme.get('wordType') if isinstance(lexeme, dict) else lexeme.wordType
                 wt_name = getattr(wt, 'name', str(wt))
-                lemma = lemma_for(lexeme if isinstance(lexeme, dict) else lexeme.__dict__)
+                lemma = lemma_for(lexeme if isinstance(lexeme, dict) else lexeme.__dict__, parser)
                 code = parse_code_for(infl if hasattr(infl, 'features') else type('I', (), infl)(), wt_name)
-                candidates.append((lemma, code))
-    seen = set()
-    uniq = []
-    for c in candidates:
-        if c not in seen:
-            seen.add(c)
-            uniq.append(c)
-    primary = uniq[0]
-    return (primary[0], primary[1], uniq[1:])
+                if not lemma or not code:
+                    continue
+                if lemma not in grouped:
+                    grouped[lemma] = []
+                    order.append(lemma)
+                if code not in grouped[lemma]:
+                    grouped[lemma].append(code)
+    return [{'lemma': l, 'parses': grouped[l]} for l in order]
 
 WORD_RE = re.compile(r"([A-Za-zĀ-ž]+)([^A-Za-zĀ-ž]*)")
 
@@ -144,6 +201,14 @@ def tokenise(text):
         word, trail = m.group(1), m.group(2)
         if word:
             yield (word, trail)
+
+def matches_attr(matches):
+    """Serialise [{lemma, parses}, ...] into `data-matches="lemma:p1,p2;lemma2:p3"`."""
+    if not matches:
+        return 'data-matches="?:?"'
+    return 'data-matches="' + ';'.join(
+        f"{m['lemma']}:{','.join(m['parses'])}" for m in matches
+    ) + '"'
 
 def main():
     parser = Parser()
@@ -156,12 +221,8 @@ def main():
             continue
         parts = []
         for word, trail in tokenise(line):
-            lemma, code, alts = analyse(parser, word)
-            attrs = f'data-lemma="{lemma}" data-parse="{code}"'
-            if alts:
-                alt_str = '|'.join(f"{l}:{c}" for l, c in alts[:3])
-                attrs += f' data-ambiguous="{alt_str}"'
-            parts.append(f'<span {attrs}>{word}</span>{trail}')
+            matches = analyse(parser, word)
+            parts.append(f'<span {matches_attr(matches)}>{word}</span>{trail}')
         joined = ' '.join(parts)
         if i < len(lines) - 1:
             joined += '<br>'

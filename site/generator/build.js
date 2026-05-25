@@ -317,6 +317,7 @@ function renderCardPopover(lemma, card) {
   <header class="card-head">
     <h3 class="card-lemma">${escapeHtml(card.lemma || lemma)} ${pos}</h3>
     ${head}
+    <div class="card-other-lemmas" aria-live="polite"></div>
   </header>
   ${paradigm}
   ${glosses}
@@ -326,20 +327,42 @@ function renderCardPopover(lemma, card) {
 </aside>`;
 }
 
-// Rewrite every `<span data-lemma="..." data-parse="...">word</span>` inside
-// a `.latin-passage` block into a popover-button targeting the lemma's card.
-// Also accumulates referenced lemma keys into `referenced`.
-const LATIN_SPAN_RE = /<span\s+data-lemma="([^"]+)"(?:\s+data-parse="([^"]*)")?[^>]*>([\s\S]*?)<\/span>/g;
+// Rewrite each `<span data-matches="...">word</span>` inside a
+// `.latin-passage` block into a popover-button targeting the primary lemma's
+// card. `data-matches` syntax is `"lemma1:parse1,parse2;lemma2:parse3"` —
+// the primary lemma is the first one listed; remaining lemmas become "also-
+// matches" chips inside the popover. The parse list per lemma is every cell
+// of that lemma's paradigm the surface form could fill, regardless of which
+// reading is "right" in the passage (the card is a study tool, not an
+// answer key). All referenced lemmas accumulate into `referenced` so their
+// card popovers get emitted on this page.
+const LATIN_SPAN_RE = /<span\s+([^>]*?)data-matches="([^"]*)"([^>]*)>([\s\S]*?)<\/span>/g;
+function parseMatches(matchesStr) {
+  // → [{ lemma, parses: [..] }, ...] in source order
+  return matchesStr.split(';').map(chunk => {
+    const i = chunk.indexOf(':');
+    if (i < 0) return { lemma: chunk.trim(), parses: [] };
+    return {
+      lemma: chunk.slice(0, i).trim(),
+      parses: chunk.slice(i + 1).split(',').map(s => s.trim()).filter(Boolean),
+    };
+  }).filter(m => m.lemma);
+}
+
 function renderLatinSpans(html, vocabDict, referenced, filePath) {
   if (!vocabDict) return html;
-  return html.replace(LATIN_SPAN_RE, (full, lemma, parse, inner) => {
-    if (!vocabDict[lemma]) {
-      throw new Error(`${filePath}: undefined lemma "${lemma}". Add content/<book>/vocabulary/${lemma}.json.`);
+  return html.replace(LATIN_SPAN_RE, (full, _pre, matchesStr, _post, inner) => {
+    const matches = parseMatches(matchesStr);
+    if (matches.length === 0) return full;
+    for (const m of matches) {
+      if (!vocabDict[m.lemma]) {
+        throw new Error(`${filePath}: undefined lemma "${m.lemma}". Add content/<book>/vocabulary/${m.lemma}.json.`);
+      }
+      referenced.add(m.lemma);
     }
-    referenced.add(lemma);
-    const id = `card-${escapeAttr(lemma)}`;
-    const parseAttr = parse ? ` data-parse="${escapeAttr(parse)}"` : '';
-    return `<button class="latin-token" type="button" popovertarget="${id}"${parseAttr}>${inner}</button>`;
+    const primary = matches[0];
+    const id = `card-${escapeAttr(primary.lemma)}`;
+    return `<button class="latin-token" type="button" popovertarget="${id}" data-matches="${escapeAttr(matchesStr)}">${inner}</button>`;
   });
 }
 

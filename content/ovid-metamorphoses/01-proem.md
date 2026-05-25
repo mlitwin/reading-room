@@ -5,33 +5,33 @@ title: The proem (Met I.1–4)
 The opening four lines of the *Metamorphoses* — an invocation of the gods to support the project of the poem, framed as one continuous song from the world's origin down to Ovid's own day.
 
 <div class="latin-passage">
-<span data-lemma="in" data-parse="prep">In</span>
-<span data-lemma="novus" data-parse="acc.pl.neut">nova</span>
-<span data-lemma="fero" data-parse="3sg.pres.ind.act">fert</span>
-<span data-lemma="animus" data-parse="nom.sg">animus</span>
-<span data-lemma="muto" data-parse="ppp.acc.pl.fem">mutatas</span>
-<span data-lemma="dico" data-parse="inf.pres.act">dicere</span>
-<span data-lemma="forma" data-parse="acc.pl">formas</span><br>
-<span data-lemma="corpus" data-parse="acc.pl">corpora</span>,
-<span data-lemma="deus" data-parse="nom.pl">di</span>,
-<span data-lemma="coeptum" data-parse="dat.pl">coeptis</span>
-(<span data-lemma="nam" data-parse="conj">nam</span>
-<span data-lemma="vos" data-parse="nom.pl">vos</span>
-<span data-lemma="muto" data-parse="2pl.perf.ind.act">mutastis</span>
-<span data-lemma="et" data-parse="conj">et</span>
-<span data-lemma="ille" data-parse="acc.pl.fem">illas</span>)<br>
-<span data-lemma="aspiro" data-parse="2pl.pres.imp.act">adspirate</span>
-<span data-lemma="meus" data-parse="dat.pl.neut">meis</span>
-<span data-lemma="primus" data-parse="abl.sg.fem">prima</span><span data-lemma="que" data-parse="enclit">que</span>
-<span data-lemma="ab" data-parse="prep">ab</span>
-<span data-lemma="origo" data-parse="abl.sg">origine</span>
-<span data-lemma="mundus" data-parse="gen.sg">mundi</span><br>
-<span data-lemma="ad" data-parse="prep">ad</span>
-<span data-lemma="meus" data-parse="acc.pl.neut">mea</span>
-<span data-lemma="perpetuus" data-parse="acc.sg.neut">perpetuum</span>
-<span data-lemma="deduco" data-parse="2pl.pres.imp.act">deducite</span>
-<span data-lemma="tempus" data-parse="acc.pl">tempora</span>
-<span data-lemma="carmen" data-parse="acc.sg">carmen</span>.
+<span data-matches="in:prep">In</span>
+<span data-matches="novus:nom.sg.fem,abl.sg.fem,nom.pl.neut,acc.pl.neut">nova</span>
+<span data-matches="fero:3sg.pres.ind.act">fert</span>
+<span data-matches="animus:nom.sg">animus</span>
+<span data-matches="muto:ppp.acc.pl.fem">mutatas</span>
+<span data-matches="dico:inf.pres.act">dicere</span>
+<span data-matches="forma:acc.pl">formas</span><br>
+<span data-matches="corpus:nom.pl,acc.pl">corpora</span>,
+<span data-matches="deus:nom.pl">di</span>,
+<span data-matches="coeptum:dat.pl,abl.pl">coeptis</span>
+(<span data-matches="nam:conj">nam</span>
+<span data-matches="vos:nom.pl,acc.pl">vos</span>
+<span data-matches="muto:2pl.perf.ind.act">mutastis</span>
+<span data-matches="et:conj">et</span>
+<span data-matches="ille:acc.pl.fem">illas</span>)<br>
+<span data-matches="aspiro:2pl.pres.imp.act">adspirate</span>
+<span data-matches="meus:dat.pl.masc,dat.pl.fem,dat.pl.neut,abl.pl.masc,abl.pl.fem,abl.pl.neut">meis</span>
+<span data-matches="primus:abl.sg.fem">prima</span><span data-matches="que:enclit">que</span>
+<span data-matches="ab:prep">ab</span>
+<span data-matches="origo:abl.sg">origine</span>
+<span data-matches="mundus:gen.sg,nom.pl">mundi</span><br>
+<span data-matches="ad:prep">ad</span>
+<span data-matches="meus:nom.sg.fem,abl.sg.fem,nom.pl.neut,acc.pl.neut">mea</span>
+<span data-matches="perpetuus:acc.sg.masc,nom.sg.neut,acc.sg.neut">perpetuum</span>
+<span data-matches="deduco:2pl.pres.imp.act">deducite</span>
+<span data-matches="tempus:nom.pl,acc.pl">tempora</span>
+<span data-matches="carmen:nom.sg,acc.sg">carmen</span>.
 </div>
 
 ## Translation

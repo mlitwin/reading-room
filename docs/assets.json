@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-25T01:22:06.413Z",
+  "generated_at": "2026-05-25T04:26:00.883Z",
   "files": [
     {
       "path": "assets/cards.js",
-      "sha256": "467ff99a3d232b01b1f5f8936dc524f789ee7f1b5ec7d680f19d3a01515fb307",
-      "size": 2559
+      "sha256": "1632ee573951c65e7bd30fb238f991dab44c7e90728e0325d276d538399c14a9",
+      "size": 4838
     },
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -323,8 +323,8 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "7556b700b1f3f1573d2b11ae07ccd9c6deb6e8ea05de3db2367ca6fae772e7e7",
-      "size": 11880
+      "sha256": "83906a78d2972e709a1814b3a32fdd364d3c7c79a0db2e16e64105f25de6474c",
+      "size": 12598
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -513,7 +513,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "62c3f02098a9f9ef759b56f9e34a82c59412482e6ce632eb3b2c8f53b93807c2",
+      "sha256": "c2af03b4d34466f70ac5cdd5b7ea6adc202d584812e9faec4f8cd7eeaf109347",
       "size": 21818
     },
     {
@@ -568,8 +568,8 @@
     },
     {
       "path": "ovid-metamorphoses/proem.html",
-      "sha256": "08b929ef9ca0c19159b6a9a704e53551020f68d7218ac859ffa18a46c289aa43",
-      "size": 37793
+      "sha256": "1b65d757c18daac6ddfbcad8656f4cf5148f99676aa3d2ef6531cd083f0f3029",
+      "size": 39783
     },
     {
       "path": "shahnameh-study-guide/characters/heroes-of-sistan.html",
