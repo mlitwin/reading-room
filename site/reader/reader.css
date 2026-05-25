@@ -327,18 +327,20 @@ nav.page-nav .placeholder { visibility: hidden; }
 }
 .note-link:hover { color: var(--accent); filter: brightness(1.15); }
 
-/* The popover itself. Centered in the viewport via `position: fixed;
-   inset: 0; margin: auto;` — the user-agent default isn't reliably
-   centering in every WKWebView build, so we're explicit about it.
-   Width/height stay at fit-content (clipped by max-* and 100vw/vh).  */
+/* The popover itself. Anchored to a fixed top + horizontally centered so
+   that swapping between popovers of different heights only grows / shrinks
+   the bottom — the top doesn't jump around when the user navigates
+   card → note → note. (`inset: 0; margin: auto;` would re-center each
+   popover and visibly shift the top edge between switches.) */
 .note-popover {
   position: fixed;
-  inset: 0;
-  margin: auto;
+  inset: 5vh auto auto 50%;   /* top fixed; bottom/right auto so UA's margin:auto can't recenter */
+  transform: translateX(-50%);
+  margin: 0;
   width: fit-content;
   height: fit-content;
   max-width: min(32rem, calc(100vw - 2rem));
-  max-height: 80vh;
+  max-height: 85vh;
   overflow-y: auto;
   padding: 1.4rem 1.6rem 1rem;
   border: 1px solid var(--rule);
@@ -406,11 +408,13 @@ nav.page-nav .placeholder { visibility: hidden; }
 }
 
 /* Card popovers. Same chrome as note-popover but wider to fit the paradigm
-   table; the table is the visual centerpiece. */
+   table; the table is the visual centerpiece. Same top anchor so swapping
+   to a note popover doesn't shift the position. */
 .card-popover {
   position: fixed;
-  inset: 0;
-  margin: auto;
+  inset: 5vh auto auto 50%;   /* top fixed; bottom/right auto so UA's margin:auto can't recenter */
+  transform: translateX(-50%);
+  margin: 0;
   width: fit-content;
   height: fit-content;
   max-width: min(38rem, calc(100vw - 2rem));
