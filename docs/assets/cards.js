@@ -1,14 +1,17 @@
-// Latin-passage card popovers. The triggering button carries `data-matches`
-// = "lemma1:parse1,parse2;lemma2:parse3" — every morphological reading of
-// the surface form, grouped by lemma. When a popover opens, this script
-// looks up the parses for that lemma, paints every matching paradigm cell
-// with .active-form, lists the parses (expanded into English) in the slot,
-// and renders "also matches: [lemma2]" chips that swap to the next lemma's
-// popover when clicked. The card is a study tool, not an answer key — we
-// show all matches, not just the one Ovid (or whoever) intended.
+// Popover controller. One hidden `<aside id="popover-host" popover>` on the
+// page hosts every card and note popover. Each `<aside hidden
+// id="card-X" class="card-popover-source">` (or note-popover-source) is a
+// container of innerHTML that gets copied into the host on click. Because
+// there is only ever one popover element, navigating from a card to a note
+// to another card never moves the popover — only its contents change.
+//
+// Click routing:
+//   * button[popovertargetaction="hide"]      → hide host
+//   * button.latin-token[popovertarget="card-X"]   → swap host to card, apply data-matches highlight
+//   * button.other-lemma-chip[popovertarget="card-X"] → swap host to card, apply data-matches from chip
+//   * button.note-link[popovertarget="note-X"]   → swap host to note (no state)
+//   * a[href] inside host → close host, let navigation proceed
 (function () {
-  // Compact parse-code primitive → {label, note}. Mirrored in
-  // site/generator/build.js; keep them in sync.
   var PARSE_TOKEN_MAP = {
     nom: { label: 'nominative', note: 'nominative' },
     gen: { label: 'genitive', note: 'genitive' },
@@ -73,25 +76,25 @@
       };
     }).filter(function (m) { return m.lemma; });
   }
-
   function cssEscape(s) {
     return (window.CSS && CSS.escape) ? CSS.escape(s) : s;
   }
 
-  function applyToCard(card, matches) {
-    var thisLemma = card.id.replace(/^card-/, '');
-    var thisMatch = matches.filter(function (m) { return m.lemma === thisLemma; })[0];
+  // Apply data-matches state to a card-popover host: highlight matching
+  // cells, fill the parse slot, render "also matches" chips.
+  function applyCardState(host, lemma, matches) {
+    var thisMatch = matches.filter(function (m) { return m.lemma === lemma; })[0];
     var thisParses = thisMatch ? thisMatch.parses : [];
 
-    card.querySelectorAll('td.active-form').forEach(function (el) {
+    host.querySelectorAll('td.active-form').forEach(function (el) {
       el.classList.remove('active-form');
     });
     thisParses.forEach(function (p) {
-      var cell = card.querySelector('td[data-parse="' + cssEscape(p) + '"]');
+      var cell = host.querySelector('td[data-parse="' + cssEscape(p) + '"]');
       if (cell) cell.classList.add('active-form');
     });
 
-    var slot = card.querySelector('.card-parse');
+    var slot = host.querySelector('.card-parse');
     if (slot) {
       if (thisParses.length > 0) {
         slot.innerHTML = '<ul class="card-parse-list">' + thisParses.map(function (p) {
@@ -103,13 +106,10 @@
       }
     }
 
-    var chipsBox = card.querySelector('.card-other-lemmas');
+    var chipsBox = host.querySelector('.card-other-lemmas');
     if (chipsBox) {
-      var others = matches.filter(function (m) { return m.lemma !== thisLemma; });
+      var others = matches.filter(function (m) { return m.lemma !== lemma; });
       if (others.length > 0) {
-        // Each chip is a popover-trigger that re-enters this handler. We
-        // smuggle the original data-matches through so the destination card
-        // can highlight the right cells.
         var matchesStr = matches.map(function (m) {
           return m.lemma + ':' + m.parses.join(',');
         }).join(';');
@@ -125,19 +125,58 @@
     }
   }
 
-  document.addEventListener('click', function (e) {
-    var btn = e.target.closest('button.latin-token[popovertarget]');
-    if (!btn) return;
-    var card = document.getElementById(btn.getAttribute('popovertarget'));
-    if (!card || !card.classList.contains('card-popover')) return;
-    var matches = parseMatches(btn.getAttribute('data-matches') || '');
-    // Chip-clicks: the chip is inside an already-open popover; the destination
-    // popover toggles open via the browser default. Hide the chip's host so
-    // the new popover swaps in cleanly.
-    var hostingPopover = btn.closest('.card-popover');
-    if (hostingPopover && hostingPopover !== card) {
-      try { hostingPopover.hidePopover(); } catch (_) { /* not open */ }
+  function showInHost(host, source, btn) {
+    var sourceId = source.id;
+    var isCard = source.classList.contains('card-popover-source');
+    host.className = isCard ? 'card-popover' : 'note-popover';
+    host.innerHTML = source.innerHTML;
+    host.dataset.sourceId = sourceId;
+    if (isCard && btn && btn.hasAttribute('data-matches')) {
+      var lemma = sourceId.replace(/^card-/, '');
+      var matches = parseMatches(btn.getAttribute('data-matches'));
+      applyCardState(host, lemma, matches);
     }
-    applyToCard(card, matches);
+    if (!host.matches(':popover-open')) {
+      try { host.showPopover(); } catch (_) { /* already open / not supported */ }
+    }
+  }
+
+  document.addEventListener('click', function (e) {
+    var host = document.getElementById('popover-host');
+    if (!host) return;
+
+    // Regular anchor inside the host: dismiss and let navigation proceed.
+    var anchor = e.target.closest('#popover-host a[href]');
+    if (anchor) {
+      try { host.hidePopover(); } catch (_) {}
+      return;
+    }
+
+    // Any button that asks to hide: hide the host.
+    var hideBtn = e.target.closest('button[popovertargetaction="hide"]');
+    if (hideBtn) {
+      e.preventDefault();
+      try { host.hidePopover(); } catch (_) {}
+      return;
+    }
+
+    // Buttons pointing at a card or note source: route through the host.
+    var btn = e.target.closest('button[popovertarget]');
+    if (!btn) return;
+    var targetId = btn.getAttribute('popovertarget');
+    if (!targetId) return;
+    var source = document.getElementById(targetId);
+    if (!source) return;
+    if (!source.classList.contains('card-popover-source') &&
+        !source.classList.contains('note-popover-source')) {
+      return; // not our flow
+    }
+    e.preventDefault();
+    // Click on a button that already targets the showing source → toggle close.
+    if (host.matches(':popover-open') && host.dataset.sourceId === targetId) {
+      try { host.hidePopover(); } catch (_) {}
+      return;
+    }
+    showInHost(host, source, btn);
   });
 })();

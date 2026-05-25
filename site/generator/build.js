@@ -402,6 +402,11 @@ function renderPosChip(pos) {
   return `<button class="card-pos note-link" type="button" popovertarget="note-${escapeAttr(note)}">${escapeHtml(pos)}</button>`;
 }
 
+// Source elements are NOT popovers — they're hidden HTML containers whose
+// `innerHTML` is copied into a single page-wide `<aside id="popover-host">`
+// (the popover) when a token / chip / note-link is clicked. One DOM node
+// hosts every popover; navigating between cards and notes just swaps the
+// host's contents, so the popover never shifts position. See cards.js.
 function renderCardPopover(lemma, card) {
   const id = `card-${escapeAttr(lemma)}`;
   const head = renderHeadLine(card);
@@ -411,7 +416,7 @@ function renderCardPopover(lemma, card) {
     ? `<ul class="card-glosses">${card.glosses.map(g => `<li>${escapeHtml(g)}</li>`).join('')}</ul>`
     : '';
   const notes = card.notes ? `<p class="card-notes">${escapeHtml(card.notes)}</p>` : '';
-  return `<aside id="${id}" popover class="card-popover">
+  return `<aside hidden id="${id}" class="card-popover-source">
   <header class="card-head">
     <h3 class="card-lemma">${escapeHtml(card.lemma || lemma)} ${pos}</h3>
     ${head}
@@ -421,7 +426,7 @@ function renderCardPopover(lemma, card) {
   ${glosses}
   ${notes}
   <div class="card-parse" aria-live="polite"></div>
-  <button class="card-close" type="button" popovertarget="${id}" popovertargetaction="hide" aria-label="Close">×</button>
+  <button class="card-close" type="button" popovertargetaction="hide" popovertarget="popover-host" aria-label="Close">×</button>
 </aside>`;
 }
 
@@ -744,16 +749,24 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
         throw new Error(`${node.absPath}: undefined note "${key}" referenced from a card popover. Add a ## ${key} section in the notes page.`);
       }
       const noteId = `note-${escapeAttr(key)}`;
-      return `<aside id="${noteId}" popover class="note-popover">
+      return `<aside hidden id="${noteId}" class="note-popover-source">
   <h3 class="note-title">${escapeHtml(n.title)}</h3>
   ${n.html}
-  <button class="note-close" type="button" popovertarget="${noteId}" popovertargetaction="hide" aria-label="Close">×</button>
+  <button class="note-close" type="button" popovertargetaction="hide" popovertarget="popover-host" aria-label="Close">×</button>
 </aside>`;
     }).join('\n');
     body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
   }
   if (cardsHtml) {
     body += `\n<div class="card-popovers">\n${cardsHtml}\n</div>`;
+  }
+  // The single popover host. JS in cards.js copies source `innerHTML` into
+  // here on each click, sets the class to indicate type (.card-popover or
+  // .note-popover), and shows the host. Only present when at least one
+  // source exists on the page.
+  const havePopovers = referencedLemmas.size > 0 || env.referencedNotes.size > 0;
+  if (havePopovers) {
+    body += `\n<aside id="popover-host" popover class=""></aside>`;
   }
 
   const here = htmlPathFor(node);

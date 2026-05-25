@@ -381,6 +381,13 @@ nav.page-nav .placeholder { visibility: hidden; }
 .note-popovers { display: contents; }
 .card-popovers { display: contents; }
 
+/* Card / note source elements: data-only, never displayed. innerHTML is
+   copied into the single #popover-host on each click. */
+.card-popover-source,
+.note-popover-source {
+  display: none !important;
+}
+
 /* Latin passages: each Latin word is wrapped in a `<button class="latin-token">`
    that opens a popover card for its lemma. Buttons look like inline text — no
    border, no underline — until hover reveals the link affordance. */
