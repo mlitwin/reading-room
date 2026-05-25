@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-24T04:34:20.602Z",
+  "generated_at": "2026-05-25T01:22:06.413Z",
   "files": [
     {
       "path": "assets/cards.js",
-      "sha256": "3cb4186b30ef35aa094f6612928ef69220b2c764ea58ad27339b163b3b631be8",
-      "size": 1122
+      "sha256": "467ff99a3d232b01b1f5f8936dc524f789ee7f1b5ec7d680f19d3a01515fb307",
+      "size": 2559
     },
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -323,8 +323,8 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "8ec6ea8121ebc3871cefa716bab193381d430fa1f6b27f8fb3081a2fb38a8927",
-      "size": 11613
+      "sha256": "7556b700b1f3f1573d2b11ae07ccd9c6deb6e8ea05de3db2367ca6fae772e7e7",
+      "size": 11880
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -513,7 +513,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "29da53323c7d4fcc79cb8d8343f5cc460950c5e0d76ccbccf44e43b915fc745b",
+      "sha256": "62c3f02098a9f9ef759b56f9e34a82c59412482e6ce632eb3b2c8f53b93807c2",
       "size": 21818
     },
     {

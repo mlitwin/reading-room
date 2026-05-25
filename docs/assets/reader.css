@@ -494,12 +494,24 @@ nav.page-nav .placeholder { visibility: hidden; }
 
 .card-popover .card-parse {
   margin-top: 0.6rem;
-  font-family: ui-monospace, SFMono-Regular, monospace;
-  font-size: 0.82rem;
-  color: var(--muted);
+  font-size: 0.85rem;
+  color: var(--fg);
   min-height: 1em;
 }
 .card-popover .card-parse:empty { display: none; }
+.card-popover .card-parse-human {
+  font-style: italic;
+}
+.card-popover .card-parse-code {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.05rem 0.4rem;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.78rem;
+  color: var(--muted);
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+}
 
 .card-popover .card-close {
   position: absolute;
