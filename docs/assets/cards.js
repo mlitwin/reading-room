@@ -7,23 +7,58 @@
 // popover when clicked. The card is a study tool, not an answer key — we
 // show all matches, not just the one Ovid (or whoever) intended.
 (function () {
-  var PARSE_WORDS = {
-    '1sg': '1st-person singular', '2sg': '2nd-person singular', '3sg': '3rd-person singular',
-    '1pl': '1st-person plural', '2pl': '2nd-person plural', '3pl': '3rd-person plural',
-    nom: 'nominative', gen: 'genitive', dat: 'dative', acc: 'accusative', abl: 'ablative', voc: 'vocative',
-    sg: 'singular', pl: 'plural',
-    masc: 'masculine', fem: 'feminine', neut: 'neuter',
-    pres: 'present', imperf: 'imperfect', perf: 'perfect', plup: 'pluperfect', fut: 'future',
-    ind: 'indicative', subj: 'subjunctive', imp: 'imperative',
-    act: 'active', pass: 'passive', dep: 'deponent',
-    inf: 'infinitive', ger: 'gerund', sup: 'supine',
-    ppp: 'perfect passive participle', pap: 'present active participle', fap: 'future active participle',
-    prep: 'preposition', conj: 'conjunction', enclit: 'enclitic'
+  // Compact parse-code primitive → {label, note}. Mirrored in
+  // site/generator/build.js; keep them in sync.
+  var PARSE_TOKEN_MAP = {
+    nom: { label: 'nominative', note: 'nominative' },
+    gen: { label: 'genitive', note: 'genitive' },
+    dat: { label: 'dative', note: 'dative' },
+    acc: { label: 'accusative', note: 'accusative' },
+    abl: { label: 'ablative', note: 'ablative' },
+    voc: { label: 'vocative', note: 'vocative' },
+    sg: { label: 'singular', note: 'singular' },
+    pl: { label: 'plural', note: 'plural' },
+    masc: { label: 'masculine', note: 'masculine' },
+    fem: { label: 'feminine', note: 'feminine' },
+    neut: { label: 'neuter', note: 'neuter' },
+    pres: { label: 'present', note: 'present' },
+    imperf: { label: 'imperfect', note: 'imperfect' },
+    perf: { label: 'perfect', note: 'perfect' },
+    plup: { label: 'pluperfect', note: 'pluperfect' },
+    fut: { label: 'future', note: 'future' },
+    ind: { label: 'indicative', note: 'indicative' },
+    subj: { label: 'subjunctive', note: 'subjunctive' },
+    imp: { label: 'imperative', note: 'imperative' },
+    act: { label: 'active', note: 'active' },
+    pass: { label: 'passive', note: 'passive' },
+    inf: { label: 'infinitive', note: 'infinitive' },
+    ppp: { label: 'perfect passive participle', note: 'perfect-passive-participle' },
+    sup: { label: 'supine', note: 'supine' },
+    prep: { label: 'preposition', note: 'preposition' },
+    conj: { label: 'conjunction', note: 'conjunction' },
+    enclit: { label: 'enclitic', note: 'enclitic' }
   };
-  function expandParse(parse) {
+  var PERSON_MAP = {
+    '1': { label: '1st-person', note: '1st-person' },
+    '2': { label: '2nd-person', note: '2nd-person' },
+    '3': { label: '3rd-person', note: '3rd-person' }
+  };
+  function tokenToLinks(tok) {
+    var pn = /^([123])(sg|pl)$/.exec(tok);
+    if (pn) return [PERSON_MAP[pn[1]], PARSE_TOKEN_MAP[pn[2]]];
+    var m = PARSE_TOKEN_MAP[tok];
+    if (m) return [m];
+    return [{ label: tok, note: null }];
+  }
+  function expandParseLinks(parse) {
     if (!parse) return '';
-    return parse.split('.').map(function (tok) {
-      return PARSE_WORDS[tok] || tok;
+    var pieces = [];
+    parse.split('.').forEach(function (tok) { pieces.push.apply(pieces, tokenToLinks(tok)); });
+    return pieces.map(function (p) {
+      if (p.note) {
+        return '<button class="note-link" type="button" popovertarget="note-' + p.note + '">' + p.label + '</button>';
+      }
+      return '<span>' + p.label + '</span>';
     }).join(' ');
   }
 
@@ -60,7 +95,7 @@
     if (slot) {
       if (thisParses.length > 0) {
         slot.innerHTML = '<ul class="card-parse-list">' + thisParses.map(function (p) {
-          return '<li><span class="card-parse-human">' + expandParse(p) +
+          return '<li><span class="card-parse-human">' + expandParseLinks(p) +
                  '</span> <span class="card-parse-code">' + p + '</span></li>';
         }).join('') + '</ul>';
       } else {

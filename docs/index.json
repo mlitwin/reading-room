@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T04:26:00.866Z",
+  "generated_at": "2026-05-25T16:05:52.642Z",
   "pieces": [
     {
       "slug": "ovid-metamorphoses",
@@ -23,6 +23,11 @@
             "slug": "proem",
             "title": "The proem (Met I.1–4)",
             "html_path": "ovid-metamorphoses/proem.html"
+          },
+          {
+            "slug": "notes",
+            "title": "Grammar reference",
+            "html_path": "ovid-metamorphoses/notes.html"
           }
         ]
       }

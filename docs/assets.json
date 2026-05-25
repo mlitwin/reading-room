@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-25T04:26:00.883Z",
+  "generated_at": "2026-05-25T16:05:52.658Z",
   "files": [
     {
       "path": "assets/cards.js",
-      "sha256": "1632ee573951c65e7bd30fb238f991dab44c7e90728e0325d276d538399c14a9",
-      "size": 4838
+      "sha256": "48ffd10e87092f93f3a1b8631e1bfbd2f2896c0b587bc7d6ef1cc33f4055f5cf",
+      "size": 6252
     },
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -318,13 +318,13 @@
     },
     {
       "path": "assets/notes.js",
-      "sha256": "38a4394b615f9bce743693422a47dcf728001debd355f1147faea7c8de06b0ad",
-      "size": 995
+      "sha256": "1c581d1dea9cadc2c2cba07254a230a02a4cf6a1ce5af28f480ec35f0c0a08f3",
+      "size": 1334
     },
     {
       "path": "assets/reader.css",
-      "sha256": "83906a78d2972e709a1814b3a32fdd364d3c7c79a0db2e16e64105f25de6474c",
-      "size": 12598
+      "sha256": "60da0c5c99c219142d04201b0239d7472f3dac8f8e62fa2aa56c33af42db5fad",
+      "size": 13585
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -513,8 +513,8 @@
     },
     {
       "path": "index.json",
-      "sha256": "c2af03b4d34466f70ac5cdd5b7ea6adc202d584812e9faec4f8cd7eeaf109347",
-      "size": 21818
+      "sha256": "534c3baead3fe44eb3175dae9fa3537a939e395d7df14e34a49233c2a6e6e77d",
+      "size": 21971
     },
     {
       "path": "notes-on-sorting/algorithms/index.html",
@@ -563,13 +563,18 @@
     },
     {
       "path": "ovid-metamorphoses/nav.json",
-      "sha256": "519d46df99f80c4134910c35b3504320847d0d0a99db852b7b196d354e5f28f9",
-      "size": 923
+      "sha256": "bb3f689d413d607d24810defbc5329b000c2833ac86a29f626d1e633e7b97062",
+      "size": 17364
+    },
+    {
+      "path": "ovid-metamorphoses/notes.html",
+      "sha256": "690921a25ff938d5e76b990fe12fd8f4dc2fb17b781590114e19f4aefe3ea6cf",
+      "size": 26496
     },
     {
       "path": "ovid-metamorphoses/proem.html",
-      "sha256": "1b65d757c18daac6ddfbcad8656f4cf5148f99676aa3d2ef6531cd083f0f3029",
-      "size": 39783
+      "sha256": "e19adf047bed500461ebe95ecf384c5b94458e3acc9a5fe8c935d9026c6ed2ce",
+      "size": 85773
     },
     {
       "path": "shahnameh-study-guide/characters/heroes-of-sistan.html",

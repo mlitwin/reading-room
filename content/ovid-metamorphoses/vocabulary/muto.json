@@ -2,18 +2,49 @@
   "lemma": "muto",
   "pos": "verb",
   "head": "muto, mutare, mutavi, mutatum",
-  "glosses": ["change", "transform", "alter", "exchange"],
+  "principal_parts": [
+    "muto",
+    "mutare",
+    "mutavi",
+    "mutatum"
+  ],
+  "glosses": [
+    "change",
+    "transform",
+    "alter",
+    "exchange"
+  ],
   "notes": "1st-conj. Perfect-tense forms freely syncopate the -avi- to -a- (mutasti, mutastis, mutarunt for mutavisti, mutavistis, mutaverunt).",
   "paradigm": {
     "type": "verb",
-    "rows": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
-    "cols": ["pres.ind.act", "perf.ind.act", "pres.imp.act"],
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
     "cells": {
-      "1sg.pres.ind.act": "muto", "2sg.pres.ind.act": "mutas", "3sg.pres.ind.act": "mutat",
-      "1pl.pres.ind.act": "mutamus", "2pl.pres.ind.act": "mutatis", "3pl.pres.ind.act": "mutant",
-      "1sg.perf.ind.act": "mutavi", "2sg.perf.ind.act": "mutavisti", "3sg.perf.ind.act": "mutavit",
-      "1pl.perf.ind.act": "mutavimus", "2pl.perf.ind.act": "mutavistis", "3pl.perf.ind.act": "mutaverunt",
-      "2sg.pres.imp.act": "muta", "2pl.pres.imp.act": "mutate"
+      "1sg.pres.ind.act": "muto",
+      "2sg.pres.ind.act": "mutas",
+      "3sg.pres.ind.act": "mutat",
+      "1pl.pres.ind.act": "mutamus",
+      "2pl.pres.ind.act": "mutatis",
+      "3pl.pres.ind.act": "mutant",
+      "1sg.perf.ind.act": "mutavi",
+      "2sg.perf.ind.act": "mutavisti",
+      "3sg.perf.ind.act": "mutavit",
+      "1pl.perf.ind.act": "mutavimus",
+      "2pl.perf.ind.act": "mutavistis",
+      "3pl.perf.ind.act": "mutaverunt",
+      "2sg.pres.imp.act": "muta",
+      "2pl.pres.imp.act": "mutate"
     }
   }
 }

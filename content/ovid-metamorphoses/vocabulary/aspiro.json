@@ -2,18 +2,49 @@
   "lemma": "aspiro",
   "pos": "verb",
   "head": "aspiro (adspiro), aspirare, aspiravi, aspiratum",
-  "glosses": ["breathe on", "inspire", "favour", "assist"],
+  "principal_parts": [
+    "aspiro",
+    "aspirare",
+    "aspiravi",
+    "aspiratum"
+  ],
+  "glosses": [
+    "breathe on",
+    "inspire",
+    "favour",
+    "assist"
+  ],
   "notes": "1st-conj. Often takes the dative of what is breathed upon or favoured. Older spelling adspiro is common in poetry.",
   "paradigm": {
     "type": "verb",
-    "rows": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"],
-    "cols": ["pres.ind.act", "perf.ind.act", "pres.imp.act"],
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
     "cells": {
-      "1sg.pres.ind.act": "aspiro", "2sg.pres.ind.act": "aspiras", "3sg.pres.ind.act": "aspirat",
-      "1pl.pres.ind.act": "aspiramus", "2pl.pres.ind.act": "aspiratis", "3pl.pres.ind.act": "aspirant",
-      "1sg.perf.ind.act": "aspiravi", "2sg.perf.ind.act": "aspiravisti", "3sg.perf.ind.act": "aspiravit",
-      "1pl.perf.ind.act": "aspiravimus", "2pl.perf.ind.act": "aspiravistis", "3pl.perf.ind.act": "aspiraverunt",
-      "2sg.pres.imp.act": "aspira", "2pl.pres.imp.act": "aspirate"
+      "1sg.pres.ind.act": "aspiro",
+      "2sg.pres.ind.act": "aspiras",
+      "3sg.pres.ind.act": "aspirat",
+      "1pl.pres.ind.act": "aspiramus",
+      "2pl.pres.ind.act": "aspiratis",
+      "3pl.pres.ind.act": "aspirant",
+      "1sg.perf.ind.act": "aspiravi",
+      "2sg.perf.ind.act": "aspiravisti",
+      "3sg.perf.ind.act": "aspiravit",
+      "1pl.perf.ind.act": "aspiravimus",
+      "2pl.perf.ind.act": "aspiravistis",
+      "3pl.perf.ind.act": "aspiraverunt",
+      "2sg.pres.imp.act": "aspira",
+      "2pl.pres.imp.act": "aspirate"
     }
   }
 }
