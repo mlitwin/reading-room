@@ -416,9 +416,10 @@ function renderCardPopover(lemma, card) {
     ? `<ul class="card-glosses">${card.glosses.map(g => `<li>${escapeHtml(g)}</li>`).join('')}</ul>`
     : '';
   const notes = card.notes ? `<p class="card-notes">${escapeHtml(card.notes)}</p>` : '';
-  return `<aside hidden id="${id}" class="card-popover-source">
+  const label = card.lemma || lemma;
+  return `<aside hidden id="${id}" class="card-popover-source" data-label="${escapeAttr(label)}">
   <header class="card-head">
-    <h3 class="card-lemma">${escapeHtml(card.lemma || lemma)} ${pos}</h3>
+    <h3 class="card-lemma">${escapeHtml(label)} ${pos}</h3>
     ${head}
     <div class="card-other-lemmas" aria-live="polite"></div>
   </header>
@@ -426,7 +427,6 @@ function renderCardPopover(lemma, card) {
   ${glosses}
   ${notes}
   <div class="card-parse" aria-live="polite"></div>
-  <button class="card-close" type="button" popovertargetaction="hide" popovertarget="popover-host" aria-label="Close">×</button>
 </aside>`;
 }
 
@@ -749,10 +749,9 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
         throw new Error(`${node.absPath}: undefined note "${key}" referenced from a card popover. Add a ## ${key} section in the notes page.`);
       }
       const noteId = `note-${escapeAttr(key)}`;
-      return `<aside hidden id="${noteId}" class="note-popover-source">
+      return `<aside hidden id="${noteId}" class="note-popover-source" data-label="${escapeAttr(n.title)}">
   <h3 class="note-title">${escapeHtml(n.title)}</h3>
   ${n.html}
-  <button class="note-close" type="button" popovertargetaction="hide" popovertarget="popover-host" aria-label="Close">×</button>
 </aside>`;
     }).join('\n');
     body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
@@ -760,13 +759,22 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
   if (cardsHtml) {
     body += `\n<div class="card-popovers">\n${cardsHtml}\n</div>`;
   }
-  // The single popover host. JS in cards.js copies source `innerHTML` into
-  // here on each click, sets the class to indicate type (.card-popover or
-  // .note-popover), and shows the host. Only present when at least one
-  // source exists on the page.
+  // The single popover host. Persistent chrome (back/forward, breadcrumb,
+  // close) wraps a `.popover-body` whose innerHTML gets replaced from the
+  // sources on each click — see cards.js for stack and navigation.
   const havePopovers = referencedLemmas.size > 0 || env.referencedNotes.size > 0;
   if (havePopovers) {
-    body += `\n<aside id="popover-host" popover class=""></aside>`;
+    body += `\n<aside id="popover-host" popover>
+  <div class="popover-chrome">
+    <div class="popover-nav">
+      <button class="popover-prev" type="button" disabled aria-label="Back">‹</button>
+      <button class="popover-next" type="button" disabled aria-label="Forward">›</button>
+      <ol class="popover-breadcrumb" aria-label="History"></ol>
+    </div>
+    <button class="popover-close" type="button" popovertarget="popover-host" popovertargetaction="hide" aria-label="Close">×</button>
+  </div>
+  <div class="popover-body" aria-live="polite"></div>
+</aside>`;
   }
 
   const here = htmlPathFor(node);

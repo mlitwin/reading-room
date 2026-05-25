@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-25T20:55:35.730Z",
+  "generated_at": "2026-05-25T21:04:42.662Z",
   "files": [
     {
       "path": "assets/cards.js",
-      "sha256": "eb6b073ce100c8db07546ee2afd11cda9833cb5db727a15ca43a1c9200a69f7e",
-      "size": 7535
+      "sha256": "ec2e8fd542f57c278634ebd0d854335e1a7aa6c21213b1b6d91c3c8ce4ffbcd6",
+      "size": 10004
     },
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -323,13 +323,13 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "d6db1c2e16ad416280cf3af040788f1af5cea3bd933feac5e45187500c37adb4",
-      "size": 14180
+      "sha256": "a57e7605328ebb2482ff25af12addcb33812f6a60f23e4708b6ed75919346058",
+      "size": 15159
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
-      "sha256": "9c0fb29527bd57cd515b97c33629f9ac1c6a1844e6af25f32e0f4f8a6ba6c38b",
-      "size": 88936
+      "sha256": "c2b151a1abc95b9ccb6aca29600768731b3a72e17585f339c6ac588fa384f4ba",
+      "size": 89138
     },
     {
       "path": "calculus-on-manifolds/de-rham/index.html",
@@ -338,8 +338,8 @@
     },
     {
       "path": "calculus-on-manifolds/de-rham/poincare-lemma.html",
-      "sha256": "9f2d4da29b5f4e3292e191ddac7eb93e0b030a72f8bd59675a0d4376d4771599",
-      "size": 57490
+      "sha256": "230c9b1aaf8dbbb3daa734281fcfa513882e77b76f92a6a75e49e3d2792b13a0",
+      "size": 57781
     },
     {
       "path": "calculus-on-manifolds/differential-forms/closed-and-exact.html",
@@ -348,8 +348,8 @@
     },
     {
       "path": "calculus-on-manifolds/differential-forms/exterior-derivative-and-pullback.html",
-      "sha256": "9860af77652a2ccd873c29582e11b363c82e5b4b7ebf48d4a8280643cde96134",
-      "size": 97145
+      "sha256": "dc9107deaa18ab4427c2081f58fcd8c3fd106a85466567e00a82621e51619d02",
+      "size": 97551
     },
     {
       "path": "calculus-on-manifolds/differential-forms/index.html",
@@ -383,13 +383,13 @@
     },
     {
       "path": "calculus-on-manifolds/manifolds/charts-and-smooth-maps.html",
-      "sha256": "d3acbef82352a3d135c606f64d3d8a158d43a6b7deb015be2412b7c0ddf4f251",
-      "size": 32615
+      "sha256": "9d472ad88be38d859edd1eed9fa518a4a7d1bec3ea63f8002a680333d3941d8b",
+      "size": 32915
     },
     {
       "path": "calculus-on-manifolds/manifolds/cotangent-space.html",
-      "sha256": "26b9d45fe5af044ba1afabf03bd7f4a0bc6a09e9d3e8a1f4c9f130798418a087",
-      "size": 62185
+      "sha256": "e4c36cec37c7ed12fe1b2fc0c20e440c952a3ba2e9e46b60f9093e56ce7701ca",
+      "size": 62586
     },
     {
       "path": "calculus-on-manifolds/manifolds/index.html",
@@ -408,13 +408,13 @@
     },
     {
       "path": "calculus-on-manifolds/notes.html",
-      "sha256": "edd9bfe4eae721235322c9aede820d3d622664c1805e36fa3ba62d39bea9ea29",
-      "size": 113273
+      "sha256": "94e8d47979ba895504b4ae3fefa3f438f7c4be5ad4c2d0a38edb3ace3a89a08d",
+      "size": 113572
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/flows-and-lie-bracket.html",
-      "sha256": "258b12e22c14fe27a2767d8d9ecf9722ae8894d63c7506cb9a81ef5e9b443c1d",
-      "size": 54325
+      "sha256": "2071067a188251ab8e856a283ce38a920f4de64db8e3b3a2d6a7821c9c2f7462",
+      "size": 54727
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/index.html",
@@ -423,8 +423,8 @@
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/lie-derivative.html",
-      "sha256": "9060b467c5970cfd9209290b5d45aa36aaa4569eed305079f69e382b8491492a",
-      "size": 50732
+      "sha256": "6d1a831e07723c99ead5a0c4787e56b6e0d78c0d5d6e58a557a1d3e076cdb481",
+      "size": 51135
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/vector-fields.html",
@@ -438,13 +438,13 @@
     },
     {
       "path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html",
-      "sha256": "2edfde72ee1fd574ea359ab2fe7d199a79683ab200d3fff6d3ade81c48c8bb97",
-      "size": 87528
+      "sha256": "043d94352f8df7a8e9b35eb4b39f533d527efa6ca9ab37a26951a8e7070ac1bc",
+      "size": 87937
     },
     {
       "path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html",
-      "sha256": "f9d2ba86c8fe30d4c9b760e673ec3a8ade7fc2c7c43ea14cbc848357b39a680a",
-      "size": 70559
+      "sha256": "1ea63345dc7ebbfb5a1c989e60b786d39cd777e7b617e5e7280689d5b060de90",
+      "size": 70965
     },
     {
       "path": "classical-mechanics/index.html",
@@ -453,13 +453,13 @@
     },
     {
       "path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html",
-      "sha256": "c943db263ec498f9360cdd6794dc27cff2e88b6c81c2765eedd8aa47ec933b02",
-      "size": 79022
+      "sha256": "be24733cc3dad5220de4bc136a7a735745b3e46e845f87873b36c702a9d4c986",
+      "size": 79437
     },
     {
       "path": "classical-mechanics/lagrangian/coordinates-and-constraints.html",
-      "sha256": "09b95a2a4c0eb26e7712bd6ea274353bdd7d4064a92720f1ec20f3fcfd3e92fb",
-      "size": 74812
+      "sha256": "68e5ace9e960fbfc64cae03c000e55cbf2772cbd66aad85864e9c3f957c593fb",
+      "size": 75220
     },
     {
       "path": "classical-mechanics/lagrangian/index.html",
@@ -483,8 +483,8 @@
     },
     {
       "path": "classical-mechanics/newtonian/newtons-laws.html",
-      "sha256": "ac52137a411f7fdc2a9c500f0674ce70f7097e28350b9e156d4f2166a374568a",
-      "size": 55083
+      "sha256": "13d91f7ec4262356bc6a3abda24aa8458162f17aac51eb5450653084c7ccc6e1",
+      "size": 55397
     },
     {
       "path": "classical-mechanics/noether/examples.html",
@@ -513,7 +513,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "00281fbb508320d436ace96317378c52a5d29b483ca57ec6c02b902e614c4c0e",
+      "sha256": "48e722ccd5f3bba244fae151bf8a8c0ead9bc7bfa96865e9d7b6dff8a35b1c9f",
       "size": 21971
     },
     {
@@ -568,13 +568,13 @@
     },
     {
       "path": "ovid-metamorphoses/notes.html",
-      "sha256": "bd5bf415a94ebe113d12b840a8b856512346fcf28ce0a87533300e35793592d6",
-      "size": 26574
+      "sha256": "7e516f9f8e4dfd5805a148b02883964aa12bd42a5e3858dad08eafae1757aa87",
+      "size": 24891
     },
     {
       "path": "ovid-metamorphoses/proem.html",
-      "sha256": "a6384d3c64c61d82144973f1357097c6cbbcf4a0bed1eb29872f00c970320bdb",
-      "size": 86147
+      "sha256": "4faaeeab5eb37899f698b00dee36159c0fba910abc2346c99ba2724e643e0676",
+      "size": 79842
     },
     {
       "path": "shahnameh-study-guide/characters/heroes-of-sistan.html",
@@ -758,8 +758,8 @@
     },
     {
       "path": "tensors-for-gr/index.html",
-      "sha256": "74d91aa21906266c5b2d3ca86b32093a25935588fecf82a443738588e5044eb3",
-      "size": 57268
+      "sha256": "d8deb02a940bdaed7dada86888b76c13c8e84def28c416b1fba87853a4b33d8e",
+      "size": 57378
     },
     {
       "path": "tensors-for-gr/metric/index.html",
@@ -768,13 +768,13 @@
     },
     {
       "path": "tensors-for-gr/metric/on-the-sphere.html",
-      "sha256": "cf017e15b20ceb4ac5b145eb13af6ec72367c02892f61ec7a023661d3b104cb1",
-      "size": 209937
+      "sha256": "6d31a38ae1cc7a88382e9d525e7f63d1ee94d9f93b2cd98adc515c7c79bcfe04",
+      "size": 210342
     },
     {
       "path": "tensors-for-gr/metric/raising-and-lowering.html",
-      "sha256": "637126abf9167c90868e5b40c0f08afe2b24ed556f9cfb038f60e87ea8178a5e",
-      "size": 140056
+      "sha256": "36b2ff8cba569cdbe884be1dc3ab9b315f3bc229808ee4a34b21764943ddcefc",
+      "size": 140458
     },
     {
       "path": "tensors-for-gr/metric/the-metric-tensor.html",
@@ -808,8 +808,8 @@
     },
     {
       "path": "tensors-for-gr/tensors/multilinear-and-rank.html",
-      "sha256": "23670e605e4a7c3a5c54970af3f4e21b12ee665e2aeec314893cbea307801c4a",
-      "size": 140774
+      "sha256": "3a751f344e89ebccaa7db5d153adb4d12a0647ed9be0e0b2535a0ba1424b8dfb",
+      "size": 141177
     },
     {
       "path": "tensors-for-gr/tensors/on-the-sphere.html",
@@ -818,8 +818,8 @@
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/dual-vectors.html",
-      "sha256": "11950036bcbd58649a875683a4686a93d42bf649fe8def6ac2f56e501f75b02f",
-      "size": 79928
+      "sha256": "0ad7aba5fbfc98ba9fc778a1ccc68fca9f467a53cd6de294b8443622f7f2ef10",
+      "size": 80329
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/index.html",
@@ -833,8 +833,8 @@
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/tangent-vectors.html",
-      "sha256": "d95b02ad5737e230d603f4b073a067587b29da855ba409ee4897831969155678",
-      "size": 95871
+      "sha256": "3ca5bb8219351101c24b4ed01a16b68ed0da2591469ab0f5692b7c10124527f7",
+      "size": 96167
     }
   ]
 }

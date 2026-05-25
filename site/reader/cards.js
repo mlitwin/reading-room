@@ -1,16 +1,17 @@
-// Popover controller. One hidden `<aside id="popover-host" popover>` on the
-// page hosts every card and note popover. Each `<aside hidden
-// id="card-X" class="card-popover-source">` (or note-popover-source) is a
-// container of innerHTML that gets copied into the host on click. Because
-// there is only ever one popover element, navigating from a card to a note
-// to another card never moves the popover — only its contents change.
+// Popover controller. One persistent `<aside id="popover-host" popover>`
+// is the only popover element on the page; everything else (cards, notes)
+// is a hidden `<aside hidden class="*-source">` whose innerHTML is copied
+// into the host's `.popover-body` on demand.
 //
-// Click routing:
-//   * button[popovertargetaction="hide"]      → hide host
-//   * button.latin-token[popovertarget="card-X"]   → swap host to card, apply data-matches highlight
-//   * button.other-lemma-chip[popovertarget="card-X"] → swap host to card, apply data-matches from chip
-//   * button.note-link[popovertarget="note-X"]   → swap host to note (no state)
-//   * a[href] inside host → close host, let navigation proceed
+// The host has persistent chrome:
+//   .popover-chrome
+//     .popover-nav: prev / next + breadcrumb of visited entries
+//     .popover-close
+//   .popover-body: scrollable, swapped on each navigation
+//
+// A per-session stack records every entry the user has visited within the
+// current open-cycle. Light-dismiss (escape, outside click) clears the
+// stack; next open starts fresh.
 (function () {
   var PARSE_TOKEN_MAP = {
     nom: { label: 'nominative', note: 'nominative' },
@@ -64,7 +65,6 @@
       return '<span>' + p.label + '</span>';
     }).join(' ');
   }
-
   function parseMatches(s) {
     if (!s) return [];
     return s.split(';').map(function (chunk) {
@@ -76,25 +76,26 @@
       };
     }).filter(function (m) { return m.lemma; });
   }
-  function cssEscape(s) {
-    return (window.CSS && CSS.escape) ? CSS.escape(s) : s;
-  }
+  function cssEscape(s) { return (window.CSS && CSS.escape) ? CSS.escape(s) : s; }
 
-  // Apply data-matches state to a card-popover host: highlight matching
-  // cells, fill the parse slot, render "also matches" chips.
-  function applyCardState(host, lemma, matches) {
+  // Per-open-cycle navigation stack. Each entry: { sourceId, label, matches }.
+  // matches is a (possibly empty) string in the form the data-matches
+  // attribute carries — preserved so back/forward navigation can re-apply
+  // the same paradigm-cell highlights.
+  var stack = [];
+  var stackPos = -1;
+
+  function applyCardState(scope, lemma, matches) {
     var thisMatch = matches.filter(function (m) { return m.lemma === lemma; })[0];
     var thisParses = thisMatch ? thisMatch.parses : [];
-
-    host.querySelectorAll('td.active-form').forEach(function (el) {
+    scope.querySelectorAll('td.active-form').forEach(function (el) {
       el.classList.remove('active-form');
     });
     thisParses.forEach(function (p) {
-      var cell = host.querySelector('td[data-parse="' + cssEscape(p) + '"]');
+      var cell = scope.querySelector('td[data-parse="' + cssEscape(p) + '"]');
       if (cell) cell.classList.add('active-form');
     });
-
-    var slot = host.querySelector('.card-parse');
+    var slot = scope.querySelector('.card-parse');
     if (slot) {
       if (thisParses.length > 0) {
         slot.innerHTML = '<ul class="card-parse-list">' + thisParses.map(function (p) {
@@ -105,8 +106,7 @@
         slot.innerHTML = '';
       }
     }
-
-    var chipsBox = host.querySelector('.card-other-lemmas');
+    var chipsBox = scope.querySelector('.card-other-lemmas');
     if (chipsBox) {
       var others = matches.filter(function (m) { return m.lemma !== lemma; });
       if (others.length > 0) {
@@ -125,58 +125,133 @@
     }
   }
 
-  function showInHost(host, source, btn) {
-    var sourceId = source.id;
+  function renderHost() {
+    var host = document.getElementById('popover-host');
+    if (!host) return;
+    if (stackPos < 0 || !stack.length) {
+      try { host.hidePopover(); } catch (_) {}
+      return;
+    }
+    var entry = stack[stackPos];
+    var source = document.getElementById(entry.sourceId);
+    if (!source) return;
+    var body = host.querySelector('.popover-body');
     var isCard = source.classList.contains('card-popover-source');
-    host.className = isCard ? 'card-popover' : 'note-popover';
-    host.innerHTML = source.innerHTML;
-    host.dataset.sourceId = sourceId;
-    if (isCard && btn && btn.hasAttribute('data-matches')) {
-      var lemma = sourceId.replace(/^card-/, '');
-      var matches = parseMatches(btn.getAttribute('data-matches'));
-      applyCardState(host, lemma, matches);
+    body.className = 'popover-body ' + (isCard ? 'card-popover' : 'note-popover');
+    body.innerHTML = source.innerHTML;
+    if (isCard && entry.matches) {
+      var lemma = entry.sourceId.replace(/^card-/, '');
+      applyCardState(body, lemma, parseMatches(entry.matches));
     }
+    renderBreadcrumb(host);
+    updateNavButtons(host);
     if (!host.matches(':popover-open')) {
-      try { host.showPopover(); } catch (_) { /* already open / not supported */ }
+      try { host.showPopover(); } catch (_) {}
     }
+  }
+
+  function renderBreadcrumb(host) {
+    var crumbs = host.querySelector('.popover-breadcrumb');
+    if (!crumbs) return;
+    crumbs.innerHTML = stack.map(function (entry, i) {
+      var cls = i === stackPos ? 'popover-crumb current' : 'popover-crumb';
+      return '<li class="' + cls + '"><button type="button" data-stack-pos="' + i + '">' +
+             escapeText(entry.label) + '</button></li>';
+    }).join('');
+  }
+
+  function updateNavButtons(host) {
+    var prev = host.querySelector('.popover-prev');
+    var next = host.querySelector('.popover-next');
+    if (prev) prev.disabled = stackPos <= 0;
+    if (next) next.disabled = stackPos >= stack.length - 1;
+  }
+
+  function escapeText(s) {
+    var div = document.createElement('div');
+    div.textContent = s;
+    return div.innerHTML;
+  }
+
+  function pushAndShow(source, btn) {
+    var matches = btn ? (btn.getAttribute('data-matches') || '') : '';
+    var current = stackPos >= 0 ? stack[stackPos] : null;
+    // Clicking the same source with the same matches at the top of the
+    // stack is a no-op (avoids duplicate breadcrumb entries).
+    if (current && current.sourceId === source.id && current.matches === matches) {
+      // But if the host happens to be hidden, re-show it.
+      var h = document.getElementById('popover-host');
+      if (h && !h.matches(':popover-open')) renderHost();
+      return;
+    }
+    // Truncate forward history when branching from a non-top position.
+    stack = stack.slice(0, stackPos + 1);
+    stack.push({
+      sourceId: source.id,
+      label: source.dataset.label || source.id,
+      matches: matches,
+    });
+    stackPos = stack.length - 1;
+    renderHost();
+  }
+
+  function navigateTo(pos) {
+    if (pos < 0 || pos >= stack.length || pos === stackPos) return;
+    stackPos = pos;
+    renderHost();
   }
 
   document.addEventListener('click', function (e) {
     var host = document.getElementById('popover-host');
     if (!host) return;
 
-    // Regular anchor inside the host: dismiss and let navigation proceed.
+    var crumbBtn = e.target.closest('.popover-breadcrumb button[data-stack-pos]');
+    if (crumbBtn) {
+      e.preventDefault();
+      navigateTo(parseInt(crumbBtn.dataset.stackPos, 10));
+      return;
+    }
+    if (e.target.closest('.popover-prev')) {
+      e.preventDefault();
+      navigateTo(stackPos - 1);
+      return;
+    }
+    if (e.target.closest('.popover-next')) {
+      e.preventDefault();
+      navigateTo(stackPos + 1);
+      return;
+    }
+
+    // Regular anchor inside host: close and let navigation proceed.
     var anchor = e.target.closest('#popover-host a[href]');
     if (anchor) {
       try { host.hidePopover(); } catch (_) {}
       return;
     }
 
-    // Any button that asks to hide: hide the host.
-    var hideBtn = e.target.closest('button[popovertargetaction="hide"]');
-    if (hideBtn) {
-      e.preventDefault();
-      try { host.hidePopover(); } catch (_) {}
-      return;
-    }
-
-    // Buttons pointing at a card or note source: route through the host.
+    // Buttons that point at source elements: route through the host.
     var btn = e.target.closest('button[popovertarget]');
     if (!btn) return;
+    // Don't intercept the close button — its popovertarget=popover-host with
+    // popovertargetaction=hide is handled by the browser default.
+    if (btn.getAttribute('popovertargetaction') === 'hide') return;
     var targetId = btn.getAttribute('popovertarget');
     if (!targetId) return;
     var source = document.getElementById(targetId);
     if (!source) return;
     if (!source.classList.contains('card-popover-source') &&
-        !source.classList.contains('note-popover-source')) {
-      return; // not our flow
-    }
+        !source.classList.contains('note-popover-source')) return;
     e.preventDefault();
-    // Click on a button that already targets the showing source → toggle close.
-    if (host.matches(':popover-open') && host.dataset.sourceId === targetId) {
-      try { host.hidePopover(); } catch (_) {}
-      return;
-    }
-    showInHost(host, source, btn);
+    pushAndShow(source, btn);
   });
+
+  // Reset the stack whenever the host closes (light-dismiss, escape, ×).
+  // Next open starts a fresh chain.
+  document.addEventListener('beforetoggle', function (e) {
+    if (e.target.id !== 'popover-host') return;
+    if (e.newState === 'closed') {
+      stack = [];
+      stackPos = -1;
+    }
+  }, true);
 })();
