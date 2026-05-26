@@ -505,8 +505,17 @@ nav.page-nav .placeholder { visibility: hidden; }
 .popover-body {
   flex: 1;
   overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 1.1rem 1.4rem 1.2rem;
 }
+
+/* Modal scroll lock. When the host popover is open, freeze the page
+   underneath so wheel events on the chrome / past the body's edge don't
+   leak through and scroll the article. `scrollbar-gutter: stable` keeps
+   the scrollbar-width space reserved so the layout doesn't reflow when
+   the page scrollbar disappears. */
+html { scrollbar-gutter: stable; }
+html:has(#popover-host:popover-open) { overflow: hidden; }
 .popover-body > :first-child { margin-top: 0; }
 .popover-body > :last-child { margin-bottom: 0; }
 
@@ -537,25 +546,60 @@ nav.page-nav .placeholder { visibility: hidden; }
   color: var(--muted);
 }
 
+.card-popover .card-paradigms {
+  margin: 0.6rem 0;
+}
+.card-popover .card-paradigms > * + * {
+  margin-top: 0.8rem;
+}
 .card-popover .card-paradigm {
   border-collapse: collapse;
-  margin: 0.8rem 0;
   font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+}
+.card-popover .card-paradigm caption.paradigm-section {
+  caption-side: top;
+  text-align: left;
+  padding: 0 0 0.25rem;
+  font-family: ui-sans-serif, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--fg);
+}
+.card-popover .card-paradigm caption.paradigm-section .note-link {
+  color: inherit;
+  border-bottom: 0;
+  padding: 0;
+}
+.card-popover .card-paradigm caption.paradigm-section .note-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 .card-popover .card-paradigm th,
 .card-popover .card-paradigm td {
   border: 1px solid var(--rule);
-  padding: 0.25rem 0.7rem;
+  padding: 0.25rem 0.5rem;
   text-align: center;
   font-weight: 400;
 }
 .card-popover .card-paradigm th {
   background: rgba(0, 0, 0, 0.03);
   font-family: ui-sans-serif, sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--muted);
+  vertical-align: middle;
+}
+.card-popover .card-paradigm th.row-head {
+  white-space: nowrap;       /* keep "1 sg" together on one line */
+}
+.card-popover .card-paradigm th.col-head .note-link {
+  display: block;            /* stack tense / mood / voice vertically */
+  padding: 0;
+  line-height: 1.15;
 }
 .card-popover .card-paradigm td.active-form {
   background: var(--accent);
@@ -565,9 +609,8 @@ nav.page-nav .placeholder { visibility: hidden; }
 
 .card-popover .card-glosses {
   margin: 0.6rem 0;
-  padding-left: 1.2rem;
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
 }
-.card-popover .card-glosses li { margin: 0.1rem 0; }
 
 .card-popover .card-notes {
   margin: 0.6rem 0 0.2rem;

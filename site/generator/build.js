@@ -351,26 +351,102 @@ function renderLinkedHeader(code) {
   ).join(' ');
 }
 
-// Render a vocab card's paradigm into an HTML table. Each cell carries a
-// `data-parse` attribute matching the compact code on the calling span so a
-// CSS/JS pass can light up the cell when its lemma's popover opens. Row and
-// column headers are expanded into linked English so every grammatical term
-// is clickable.
+// Compact row labels save horizontal space on tables that repeat the same
+// header six times down the left edge. `1sg` renders as two short buttons
+// "1" + "sg" (rather than "1st-person" + "singular"); each still links to
+// its full definition note. The expanded English form remains in the parse
+// slot at the bottom of the card.
+function renderCompactRowHeader(code) {
+  return code.split('.').flatMap(tok => {
+    const pn = /^([123])(sg|pl)$/.exec(tok);
+    if (pn) {
+      const personNote = PERSON_MAP[pn[1]].note;
+      const numNote = PARSE_TOKEN_MAP[pn[2]].note;
+      return [
+        { label: pn[1], note: personNote },
+        { label: pn[2], note: numNote },
+      ];
+    }
+    const m = PARSE_TOKEN_MAP[tok];
+    if (m) return [{ label: tok, note: m.note }];
+    return [{ label: tok, note: null }];
+  }).map(p =>
+    p.note
+      ? `<button class="note-link" type="button" popovertarget="note-${escapeAttr(p.note)}">${escapeHtml(p.label)}</button>`
+      : `<span>${escapeHtml(p.label)}</span>`
+  ).join(' ');
+}
+
+// Split a paradigm's column list into mobile-friendly sub-groups. Wide
+// paradigms (3-col verbs, 6-col adjectives) won't fit a 360px-wide screen
+// even with compact row headers — split into multiple sub-tables along a
+// natural grammatical axis instead, with row headers repeated in each:
+//
+//   verb cols `tense.mood.voice`  → group by mood (index 1)
+//   adj/pron cols `num.gender`    → group by num   (index 0)
+//   noun cols `num`               → no split (only 2 cols)
+//
+// The group key becomes a clickable caption above each sub-table; the
+// remaining tokens of the column code become the column header inside.
+function splitColumnsByGroup(cols, type) {
+  function group(keyIdx) {
+    const out = [];
+    const seen = new Map();
+    for (const c of cols) {
+      const parts = c.split('.');
+      const key = parts[keyIdx];
+      const subCol = parts.filter((_, i) => i !== keyIdx).join('.');
+      if (!seen.has(key)) {
+        const entry = { groupKey: key, subCols: [] };
+        seen.set(key, entry);
+        out.push(entry);
+      }
+      seen.get(key).subCols.push({ orig: c, sub: subCol });
+    }
+    return out;
+  }
+  if (type === 'verb') return group(1);            // by mood
+  if (type === 'adj' || type === 'pron') return group(0);  // by number
+  return [{ groupKey: null, subCols: cols.map(c => ({ orig: c, sub: c })) }];
+}
+
+function renderSubTable(p, sectionGroup, type, soloSection) {
+  // Drop rows with no value in any of this section's cols (e.g. imperative
+  // only fills 2sg/2pl).
+  const rows = p.rows.filter(r =>
+    sectionGroup.subCols.some(sc => p.cells[`${r}.${sc.orig}`] != null)
+  );
+  if (rows.length === 0) return '';
+  const header = '<tr><th></th>' + sectionGroup.subCols.map(sc =>
+    `<th class="col-head">${sc.sub ? renderLinkedHeader(sc.sub) : ''}</th>`
+  ).join('') + '</tr>';
+  const body = rows.map(r => {
+    const cells = sectionGroup.subCols.map(sc => {
+      const form = p.cells[`${r}.${sc.orig}`];
+      if (form == null) return `<td></td>`;
+      return `<td data-parse="${escapeAttr(sc.orig)}">${escapeHtml(form)}</td>`;
+    }).join('');
+    return `<tr><th class="row-head">${renderCompactRowHeader(r)}</th>${cells}</tr>`;
+  }).join('');
+  const caption = sectionGroup.groupKey && !soloSection
+    ? `<caption class="paradigm-section">${renderLinkedHeader(sectionGroup.groupKey)}</caption>`
+    : '';
+  const cls = `card-paradigm ${escapeAttr(type || '')}`.trim();
+  return `<table class="${cls}">${caption}${header}${body}</table>`;
+}
+
+// Render a vocab card's paradigm. Each data cell carries `data-parse` so
+// the cards.js highlight pass can light it up; row headers stay compact
+// (`1 sg`, `nom`) to save horizontal space; column headers expand to
+// linked English and stack vertically via CSS. Wide paradigms are split
+// into sub-tables by `splitColumnsByGroup`.
 function renderParadigm(card) {
   const p = card.paradigm;
   if (!p || !p.rows || !p.cols || !p.cells) return '';
-  const header = '<tr><th></th>' + p.cols.map(c => `<th>${renderLinkedHeader(c)}</th>`).join('') + '</tr>';
-  const body = p.rows.map(r => {
-    const cells = p.cols.map(c => {
-      const code = `${r}.${c}`;
-      const form = p.cells[code];
-      if (form == null) return `<td></td>`;
-      return `<td data-parse="${escapeAttr(code)}">${escapeHtml(form)}</td>`;
-    }).join('');
-    return `<tr><th>${renderLinkedHeader(r)}</th>${cells}</tr>`;
-  }).join('');
-  const cls = `card-paradigm ${escapeAttr(p.type || card.pos || '')}`.trim();
-  return `<table class="${cls}">${header}${body}</table>`;
+  const type = p.type || card.pos || '';
+  const groups = splitColumnsByGroup(p.cols, type);
+  const solo = groups.length === 1;
+  return `<div class="card-paradigms">${groups.map(g => renderSubTable(p, g, type, solo)).join('\n')}</div>`;
 }
 
 // Render the dictionary headword line. For verbs whose vocab JSON carries
@@ -412,8 +488,11 @@ function renderCardPopover(lemma, card) {
   const head = renderHeadLine(card);
   const pos = renderPosChip(card.pos);
   const paradigm = renderParadigm(card);
+  // Glosses run inline separated by semicolons (the lexicographic
+  // convention) — a bulleted list wastes vertical space when there are
+  // only 3-5 short meanings.
   const glosses = Array.isArray(card.glosses) && card.glosses.length
-    ? `<ul class="card-glosses">${card.glosses.map(g => `<li>${escapeHtml(g)}</li>`).join('')}</ul>`
+    ? `<p class="card-glosses">${card.glosses.map(g => escapeHtml(g)).join('; ')}</p>`
     : '';
   const notes = card.notes ? `<p class="card-notes">${escapeHtml(card.notes)}</p>` : '';
   const label = card.lemma || lemma;
