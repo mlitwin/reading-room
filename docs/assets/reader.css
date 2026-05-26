@@ -391,6 +391,11 @@ nav.page-nav .placeholder { visibility: hidden; }
    (back/forward/breadcrumb/close) on top stays put while the scrollable
    `.popover-body` swaps content.
    ---------------------------------------------------------------------- */
+/* Layout/look only apply when the host is actually open. Scoping under
+   `:popover-open` lets the UA's default `display: none` on closed
+   popovers keep working — without this, `display: flex` would make the
+   host visible at all times and `hidePopover()` would appear to do
+   nothing. */
 #popover-host {
   position: fixed;
   inset: 5vh auto auto 50%;
@@ -404,9 +409,11 @@ nav.page-nav .placeholder { visibility: hidden; }
   background: var(--bg);
   color: var(--fg);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+#popover-host:popover-open {
   display: flex;
   flex-direction: column;
-  overflow: hidden;       /* chrome stays put; body scrolls inside */
 }
 #popover-host::backdrop { background: rgba(0, 0, 0, 0.25); }
 
