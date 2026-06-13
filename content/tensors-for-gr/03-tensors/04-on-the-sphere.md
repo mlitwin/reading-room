@@ -2,7 +2,7 @@
 title: On the sphere
 ---
 
-Two tensors on $S^2$ worked out in components: a $(1, 1)$-tensor (an endomorphism of the tangent bundle) and a 2-form (the dimension-$2$ top form). Both prefigure the metric and volume form of [the next section](../03-metric/index.md), but the construction here uses only the chart structure — no metric required.
+Two tensors on $S^2$ worked out in components: a $(1, 1)$-tensor (an endomorphism of the tangent bundle) and a 2-form (the dimension-$2$ top form). Both prefigure the metric and volume form of [the next section](../04-metric/index.md), but the construction here uses only the chart structure — no metric required.
 
 ## A $(1, 1)$-tensor: $90^\circ$ rotation
 
@@ -24,7 +24,7 @@ The 2-form
 $$\omega = \sin\theta\, d\theta \wedge d\varphi$$
 on $S^2$ in the spherical chart eats two tangent vectors and returns a number. Plugged in:
 $$\omega(\partial_\theta, \partial_\varphi) = \sin\theta\, [d\theta(\partial_\theta)\, d\varphi(\partial_\varphi) - d\theta(\partial_\varphi)\, d\varphi(\partial_\theta)] = \sin\theta.$$
-The component array $\omega_{\theta\varphi} = \tfrac{1}{2}\sin\theta$ if we use the $\tfrac{1}{k!}$ convention; or, with the convention that $\omega_{\mu\nu} = \omega(\partial_\mu, \partial_\nu)$ directly, $\omega_{\theta\varphi} = \sin\theta$ and $\omega_{\varphi\theta} = -\sin\theta$.
+The component array is $\omega_{\theta\varphi} = \sin\theta$, $\omega_{\varphi\theta} = -\sin\theta$, $\omega_{\theta\theta} = \omega_{\varphi\varphi} = 0$ — fully antisymmetric, as required of a 2-form.
 
 This form measures the area of an infinitesimal coordinate rectangle: a small patch $[\theta, \theta + d\theta] \times [\varphi, \varphi + d\varphi]$ has area $\sin\theta\, d\theta\, d\varphi$, which integrates over the whole sphere to $4\pi$. The same form will reappear with a metric explanation: $\omega = \sqrt{\det g}\, d\theta \wedge d\varphi$ is the canonical volume form.
 

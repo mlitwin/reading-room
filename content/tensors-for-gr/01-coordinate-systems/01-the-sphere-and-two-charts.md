@@ -30,9 +30,11 @@ The "north pole" $\theta = 0$ aligns with the $+Z$ axis; the equator $\theta = \
 
 ![Standard sphere with the prime meridian and equator highlighted, with tangent basis arrows at the sample point](../figures/sphere-standard.svg)
 
-**Skew chart** $\tilde\Phi$. Take the standard parametrization, rotate it by a fixed angle $\alpha$ around the $Z$-axis applied *after* the longitude rotation:
-$$\tilde\Phi(\tilde\theta, \tilde\varphi) = R_Z(\alpha) \cdot R_Y(\tilde\varphi) \cdot R_X(\tilde\theta) \cdot (R, 0, 0)$$
-where $R_A(\beta)$ is rotation around axis $A$ by angle $\beta$ and the right-hand factor is the prime-meridian-equator intersection. Concretely the longitude circles are tilted from the standard meridians by $\alpha$ around $Z$ (the latitude circles are unchanged in this parametrization — they sit at constant $\theta$). In this book we fix $\alpha = \pi/8 \approx 22.5°$ for visibility.
+**Skew chart** $\tilde\Phi$. Keep the standard polar angle and shear the azimuth by an amount that depends on the polar angle:
+$$\tilde\theta := \theta, \qquad \tilde\varphi := \varphi + \alpha\cos\theta,$$
+giving the embedded parametrization
+$$\tilde\Phi(\tilde\theta, \tilde\varphi) = \Phi\bigl(\tilde\theta,\, \tilde\varphi - \alpha\cos\tilde\theta\bigr).$$
+The shift is largest at the poles and zero at the equator, so the latitude circles are unchanged (they sit at constant $\theta = \tilde\theta$) but the longitude curves spiral by $\alpha$ between equator and pole. In this book we fix $\alpha = \pi/8 \approx 22.5°$ for visibility. Section [03](03-skew-coordinates.md) develops this chart in full.
 
 ![Sphere with the skewed longitude grid; latitudes still horizontal, longitudes tilted by π/8](../figures/sphere-skew.svg)
 

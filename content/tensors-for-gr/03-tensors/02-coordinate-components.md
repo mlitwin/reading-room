@@ -33,7 +33,7 @@ Symmetric and antisymmetric parts are themselves tensors and add to the original
 
 ## The "transforms like a tensor" diagnostic
 
-Not every indexed quantity is a tensor. The Christoffel symbols of the [connection section](../04-connection-and-curvature/02-covariant-derivative.md), for example, are *not* tensors — they pick up an inhomogeneous piece in their transformation law:
+Not every indexed quantity is a tensor. The Christoffel symbols of the [connection section](../05-connection-and-curvature/02-covariant-derivative.md), for example, are *not* tensors — they pick up an inhomogeneous piece in their transformation law:
 $$\Gamma'^{\rho'}{}_{\mu'\nu'} = \frac{\partial x'^{\rho'}}{\partial x^\rho} \frac{\partial x^\mu}{\partial x'^{\mu'}} \frac{\partial x^\nu}{\partial x'^{\nu'}}\, \Gamma^{\rho}{}_{\mu\nu} \;+\; \frac{\partial x'^{\rho'}}{\partial x^\rho} \frac{\partial^2 x^\rho}{\partial x'^{\mu'} \partial x'^{\nu'}}.$$
 The second-derivative term spoils tensoriality. The presence or absence of such a term, in any candidate construction, is the diagnostic: if the array transforms multiplicatively as above, it's a tensor; otherwise it isn't.
 

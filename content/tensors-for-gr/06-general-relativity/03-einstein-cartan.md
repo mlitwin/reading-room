@@ -57,4 +57,4 @@ Three reasons EC appears in this book despite being a small numerical correction
 2. **Coupling to fermions.** The minimal coupling of Dirac fermions to gravity is via the EC connection, not the Levi-Civita connection. This is the geometric origin of why fermions feel torsion and bosons don't.
 3. **Mathematical generality.** The non-torsion-free case is the "generic" affine connection. Treating it as a special case obscures what the metric assumption (Levi-Civita) is doing.
 
-The further story — vielbein/tetrad formulation, spin connection, the action written as a polynomial in differential forms — is the **Cartan formalism**, a separate (longer) topic. Pointers in [the notes page](../06-notes.md).
+The further story — vielbein/tetrad formulation, spin connection, the action written as a polynomial in differential forms — is the **Cartan formalism**, a separate (longer) topic. Pointers in [the notes page](../notes.md).

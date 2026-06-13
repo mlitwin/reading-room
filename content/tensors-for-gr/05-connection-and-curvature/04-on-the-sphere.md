@@ -83,6 +83,6 @@ This is the simplest of the Chern–Gauss–Bonnet theorems, and the cleanest co
 
 A vector parallel-transported around a closed loop on the sphere returns rotated by the loop's enclosed solid angle. For a spherical triangle with interior angles $\alpha, \beta, \gamma$, the rotation angle is the spherical excess
 $$E = \alpha + \beta + \gamma - \pi,$$
-which equals the triangle's area. (Total area of the sphere = $4\pi$ = sum of all possible rotation angles, mod $4\pi$.) This is the integrated Riemann tensor: $\oint = \iint R$, in the most explicit form available in dimension $2$.
+which equals the triangle's area on the unit sphere. This is the integrated Riemann tensor: $\oint = \iint R$, in the most explicit form available in dimension $2$.
 
 The same phenomenon in dimension $4$ — parallel transport around a closed loop returning a vector rotated by an amount measured by the Riemann tensor — is the geometric content of GR's curved-spacetime picture of gravity.

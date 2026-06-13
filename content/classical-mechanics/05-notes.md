@@ -39,6 +39,6 @@ so the conjugate momentum $p_i$ is conserved. This is Noether's theorem in its s
 
 ## Symplectic form
 
-A **symplectic form** on a smooth manifold $M$ is a closed, non-degenerate 2-form $\omega \in \Omega^2(M)$. *Closed* means $d\omega = 0$; *non-degenerate* means the map $X \mapsto \iota_X \omega$ from vector fields to 1-forms is an isomorphism. A symplectic manifold has even dimension.
+A **symplectic form** on a smooth manifold $M$ is a [closed](../calculus-on-manifolds/03-differential-forms/03-closed-and-exact.md), non-degenerate [2-form](../calculus-on-manifolds/03-differential-forms/01-k-forms-and-wedge.md) $\omega \in \Omega^2(M)$. *Closed* means $d\omega = 0$; *non-degenerate* means the map $X \mapsto \iota_X \omega$ from vector fields to 1-forms is an isomorphism. A symplectic manifold has even dimension.
 
 The canonical example is $T^* Q$ with $\omega = dp_i \wedge dq^i$. The symplectic form converts a Hamiltonian function $H$ into a vector field $X_H$ (defined by $\iota_{X_H} \omega = dH$) whose integral curves are solutions of Hamilton's equations. The whole of Hamiltonian mechanics — Poisson brackets, canonical transformations, Liouville's theorem — is best read as symplectic geometry.

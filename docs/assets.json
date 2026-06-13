@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T03:34:03.784Z",
+  "generated_at": "2026-06-13T04:08:59.783Z",
   "files": [
     {
       "path": "assets/cards.js",
@@ -438,13 +438,13 @@
     },
     {
       "path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html",
-      "sha256": "043d94352f8df7a8e9b35eb4b39f533d527efa6ca9ab37a26951a8e7070ac1bc",
-      "size": 87937
+      "sha256": "ac590611e2d3ec804d6dc6dce60957a7610ddf870cc815003c13c5474a1cc419",
+      "size": 88984
     },
     {
       "path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html",
-      "sha256": "1ea63345dc7ebbfb5a1c989e60b786d39cd777e7b617e5e7280689d5b060de90",
-      "size": 70965
+      "sha256": "fd46900f93e65f4c17aaadc0e3920dd418090cd64c2fe735c9be3c42ce40a326",
+      "size": 71828
     },
     {
       "path": "classical-mechanics/index.html",
@@ -453,13 +453,13 @@
     },
     {
       "path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html",
-      "sha256": "be24733cc3dad5220de4bc136a7a735745b3e46e845f87873b36c702a9d4c986",
-      "size": 79437
+      "sha256": "610361d9c8245ae1b6656478b668c055d94fa73fd1de6720d0f77e0833fd412a",
+      "size": 80613
     },
     {
       "path": "classical-mechanics/lagrangian/coordinates-and-constraints.html",
-      "sha256": "68e5ace9e960fbfc64cae03c000e55cbf2772cbd66aad85864e9c3f957c593fb",
-      "size": 75220
+      "sha256": "e34c018c2a0fad45a76707ad1227856e8cddeca677a4552d18246171f8e20cc1",
+      "size": 75414
     },
     {
       "path": "classical-mechanics/lagrangian/index.html",
@@ -468,8 +468,8 @@
     },
     {
       "path": "classical-mechanics/nav.json",
-      "sha256": "0764ff4347d4c32b89151f748517792befea170b468cdc56bdca027072bef9b3",
-      "size": 78108
+      "sha256": "6e43357f241efeaba96ca2cda52223c1afb27b6183ba5b57f277246304f2d4d9",
+      "size": 78273
     },
     {
       "path": "classical-mechanics/newtonian/conservation-laws.html",
@@ -503,8 +503,8 @@
     },
     {
       "path": "classical-mechanics/notes.html",
-      "sha256": "d592eab2214a279b627a6dbc2e90255f6db23547e562a9b0d22b7b4bd7787a9e",
-      "size": 65066
+      "sha256": "de9863d32eb29a66d467c6b2cfc84a5baa8c781abaf25c737fab98efc10d9ec8",
+      "size": 65227
     },
     {
       "path": "index.html",
@@ -513,7 +513,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "921fa4ebd673279909c6d9febe571d96405609d68be5e659515639dd633cd27f",
+      "sha256": "f35516232158bd1abac12fdf6d6dd537e83ab4b5211ed2005f1bbef6836dbdb8",
       "size": 21971
     },
     {
@@ -673,8 +673,8 @@
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/on-the-sphere.html",
-      "sha256": "142966ec7b8576b3f99b0fc33b158fcc3fd1f32fc98881a40725293907a44251",
-      "size": 204476
+      "sha256": "dd2061bc7dab799eb1bb43023c9412d69f0baca9617708664744787397661430",
+      "size": 203504
     },
     {
       "path": "tensors-for-gr/connection-and-curvature/torsion-and-curvature.html",
@@ -703,8 +703,8 @@
     },
     {
       "path": "tensors-for-gr/coordinate-systems/the-sphere-and-two-charts.html",
-      "sha256": "106154c5fcb1f02783f7eb15cce05260e6f242472c084d1af3ffcfeee8a5ec9a",
-      "size": 58714
+      "sha256": "b56d2abe338bf2294ab65bc8592067fd849b1599feed158c23fd53208e5ff137",
+      "size": 57277
     },
     {
       "path": "tensors-for-gr/figures/chart-change-jacobian.svg",
@@ -778,23 +778,23 @@
     },
     {
       "path": "tensors-for-gr/metric/the-metric-tensor.html",
-      "sha256": "5b35a33657ec3e9b4a062bed670c1b0bc95d6d0f8b593ba75e5aada2e048f6fc",
-      "size": 73720
+      "sha256": "0dfb0c172a626443bff1d8d88333f6bf5a32e5e515cbbce09a8d2d09b7f06713",
+      "size": 73749
     },
     {
       "path": "tensors-for-gr/nav.json",
-      "sha256": "f1a2f4ad43495e39a31600257e4b3a1041817bb29b66cd292641a898ed10757b",
-      "size": 157680
+      "sha256": "ae000662038cc38a66380512362e886f8dda81bd7326bfc1b495eb60efd49a0a",
+      "size": 182627
     },
     {
       "path": "tensors-for-gr/notes.html",
-      "sha256": "1f28a968fb921b8fe2da2cab60ea2ee7603ff06487dac7a7a92e1f19281966a9",
-      "size": 129276
+      "sha256": "44d561531b783f5793f9a8455e80430261cbe1d936bb665f262cd51b64de17f9",
+      "size": 152880
     },
     {
       "path": "tensors-for-gr/tensors/co-contra-vs-k-forms.html",
-      "sha256": "17cd293fb744a9c587b38fa1e177cb8da24cc4f90b051066f68276adbb16fd2f",
-      "size": 116849
+      "sha256": "93249b2cf6486a15faa01484ef6cd00e7ad63185107aa185b918b70c5e0b614e",
+      "size": 141362
     },
     {
       "path": "tensors-for-gr/tensors/coordinate-components.html",
@@ -808,13 +808,13 @@
     },
     {
       "path": "tensors-for-gr/tensors/multilinear-and-rank.html",
-      "sha256": "3a751f344e89ebccaa7db5d153adb4d12a0647ed9be0e0b2535a0ba1424b8dfb",
-      "size": 141177
+      "sha256": "ff35b2dcd3168062d9f0b518ab9869fb4cd4e9304ea2ce7fe6ea6d6547c57d41",
+      "size": 139432
     },
     {
       "path": "tensors-for-gr/tensors/on-the-sphere.html",
-      "sha256": "6804167deabe7deb7086513071e02a596209bc8c3f9c7552f456f721b3c82c08",
-      "size": 67302
+      "sha256": "bd3660ac90c520faa66e900693edb622e3fc787404338980a03b9c8f15c2718e",
+      "size": 62475
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/dual-vectors.html",

@@ -29,7 +29,7 @@ A meridian ($\varphi$ constant) from pole to pole has length $\int_0^\pi 1\, d\t
 
 The volume form is
 $$\mathrm{vol}_g = \sqrt{\det g}\; d\theta \wedge d\varphi = \sin\theta\; d\theta \wedge d\varphi,$$
-recovering the same form computed in the [previous section](../02-tensors/04-on-the-sphere.md) — there constructed from antisymmetry alone, here recovered as the metric volume form. Integrating gives $\int_{S^2} \mathrm{vol}_g = \int_0^\pi \int_0^{2\pi} \sin\theta\, d\varphi\, d\theta = 4\pi$, the area of the unit sphere.
+recovering the same form computed in the [previous section](../03-tensors/04-on-the-sphere.md) — there constructed from antisymmetry alone, here recovered as the metric volume form. Integrating gives $\int_{S^2} \mathrm{vol}_g = \int_0^\pi \int_0^{2\pi} \sin\theta\, d\varphi\, d\theta = 4\pi$, the area of the unit sphere.
 
 ## Raising and lowering
 

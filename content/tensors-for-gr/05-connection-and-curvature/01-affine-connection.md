@@ -47,7 +47,7 @@ is $C^\infty(M)$-linear in *both* $X$ and $Y$ (the second-derivative pieces canc
 
 Importantly: the definition of $\nabla$ above does *not* use a metric. There are many connections on the same manifold; the choice is the additional data. A connection compatible with a metric (and torsion-free) is essentially unique (the Levi-Civita connection, derived in the next page), but the definition of an affine connection makes sense even on a manifold with no metric.
 
-In Einstein–Cartan gravity ([end of the book](../05-general-relativity/03-einstein-cartan.md)), torsion is allowed and the connection is no longer determined by the metric.
+In Einstein–Cartan gravity ([end of the book](../06-general-relativity/03-einstein-cartan.md)), torsion is allowed and the connection is no longer determined by the metric.
 
 ## What about covector fields and tensor fields?
 

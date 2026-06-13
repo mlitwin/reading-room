@@ -69,9 +69,23 @@ Two related but distinct objects share the name.
 
 **Levi-Civita tensor.** The honest tensor $\epsilon_{\mu_1 \cdots \mu_n} := \sqrt{|\det g|}\, \varepsilon_{\mu_1 \cdots \mu_n}$. The factor of $\sqrt{|\det g|}$ converts the density into a tensor; this is the canonical volume form $\mathrm{vol}_g$.
 
-**Levi-Civita connection.** The unique torsion-free metric-compatible connection of a pseudo-Riemannian manifold $(M, g)$. The connection assumed throughout standard GR. Christoffel symbols given by the formula in the [covariant-derivative page](04-connection-and-curvature/02-covariant-derivative.md).
+**Levi-Civita connection.** The unique torsion-free metric-compatible connection of a pseudo-Riemannian manifold $(M, g)$. The connection assumed throughout standard GR. Christoffel symbols given by the formula in the [covariant-derivative page](05-connection-and-curvature/02-covariant-derivative.md).
 
 Three different objects, one Italian mathematician. Context picks which is meant.
+
+## Wedge convention
+
+Two conventions for writing a $k$-form in coordinates coexist in the literature; both books in this library use them, in different places.
+
+**Strictly-increasing-index convention** (used in `calculus-on-manifolds`):
+$$\omega = \sum_{i_1 < \cdots < i_k} \omega_{i_1 \cdots i_k}\, dx^{i_1} \wedge \cdots \wedge dx^{i_k},$$
+with no combinatorial prefactor and the basis $dx^{i_1} \wedge \cdots \wedge dx^{i_k}$ taken only with indices in strict increasing order.
+
+**$1/k!$ convention** (used here):
+$$\omega = \frac{1}{k!}\, \omega_{\mu_1 \cdots \mu_k}\, dx^{\mu_1} \wedge \cdots \wedge dx^{\mu_k},$$
+with $\omega_{\mu_1 \cdots \mu_k}$ totally antisymmetric and the sum over all index tuples (not just ordered ones).
+
+The two give the same component array on the ordered tuples: e.g. $\omega_{\theta\varphi} = \sin\theta$ for the sphere's area form in either convention. They differ in whether the basis is reduced to ordered tuples (first form) or whether the components are antisymmetrized and divided by $k!$ (second form). Cross-references between the two books are convention-safe at the level of components on ordered tuples.
 
 ## Killing vector
 

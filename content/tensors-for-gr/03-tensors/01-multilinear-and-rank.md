@@ -39,9 +39,9 @@ The component array $T^{\mu_1 \cdots}{}_{\nu_1 \cdots}$ has $n^{r+s}$ entries.
 
 ## Contraction
 
-Given an $(r, s)$-tensor with $r, s \geq 1$, **contraction** of an upper index with a lower index produces an $(r-1, s-1)$-tensor. In components:
-$$\mathrm{tr}^\mu{}_\mu\, T^{\mu_1 \cdots \mu \cdots \mu_r}{}_{\nu_1 \cdots \mu \cdots \nu_s} = T^{\mu_1 \cdots \lambda \cdots \mu_r}{}_{\nu_1 \cdots \lambda \cdots \nu_s} \cdot \delta^\mu_\lambda = \sum_{\lambda=1}^{n} T^{\cdots \lambda \cdots}{}_{\cdots \lambda \cdots}.$$
-The Einstein summation convention bakes this in: any index appearing once up and once down is summed. The pairing $\omega_\mu v^\mu$ is the contraction of $\omega \otimes v$.
+Given an $(r, s)$-tensor with $r, s \geq 1$, **contraction** of an upper index with a lower index produces an $(r-1, s-1)$-tensor. In components, pick one upper slot and one lower slot, relabel both with a single dummy index $\lambda$, and sum:
+$$T^{\mu_1 \cdots \mu_r}{}_{\nu_1 \cdots \nu_s} \;\longmapsto\; T^{\mu_1 \cdots \lambda \cdots \mu_r}{}_{\nu_1 \cdots \lambda \cdots \nu_s} \;=\; \sum_{\lambda=1}^{n} T^{\cdots \lambda \cdots}{}_{\cdots \lambda \cdots}.$$
+The Einstein summation convention bakes the sum in: any index appearing once up and once down is summed. The pairing $\omega_\mu v^\mu$ is the contraction of $\omega \otimes v$.
 
 ## Tensor fields
 

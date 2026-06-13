@@ -25,7 +25,7 @@ The left-hand side is forced by three requirements:
 
 1. **A symmetric $(0, 2)$-tensor.** Same shape as $T_{\mu\nu}$.
 2. **Built from $g$ and at most its second derivatives.** Lovelock's theorem: in $4$D, the unique tensors meeting requirements 1 and 2 are linear combinations of $R_{\mu\nu}$, $R\, g_{\mu\nu}$, and $g_{\mu\nu}$.
-3. **Divergence-free.** Local conservation of stress–energy $\nabla^\mu T_{\mu\nu} = 0$ requires the same on the left. The [contracted Bianchi identity](../04-connection-and-curvature/03-torsion-and-curvature.md) gives $\nabla^\mu G_{\mu\nu} = 0$ automatically; $\nabla^\mu g_{\mu\nu} = 0$ by metric compatibility. So $G_{\mu\nu} + \Lambda\, g_{\mu\nu}$ has divergence zero for *any* $\Lambda$.
+3. **Divergence-free.** Local conservation of stress–energy $\nabla^\mu T_{\mu\nu} = 0$ requires the same on the left. The [contracted Bianchi identity](../05-connection-and-curvature/03-torsion-and-curvature.md) gives $\nabla^\mu G_{\mu\nu} = 0$ automatically; $\nabla^\mu g_{\mu\nu} = 0$ by metric compatibility. So $G_{\mu\nu} + \Lambda\, g_{\mu\nu}$ has divergence zero for *any* $\Lambda$.
 
 This is essentially the entire derivation, and explains why the Einstein equations are nearly inescapable once you ask for a tensorial second-order classical theory of a metric.
 
