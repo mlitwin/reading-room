@@ -1,26 +1,35 @@
 # site/latin
 
-Tooling for the Ovid Metamorphoses book. Three scripts cover the pipeline from canonical TEI XML to a curated, popover-rich markdown piece.
+Tooling for the Ovid Metamorphoses book. The pipeline runs from canonical TEI XML to curated, popover-rich markdown pieces plus shared lexicon cards.
 
 ## Pipeline
 
-```
-sources/phi0959.phi006.perseus-lat2.xml         ingest_perseus.py
-                                                  ↓
-                                    sources/cards/book-NN-card-NN.json
-                                                  ↓
-                                            seed.py < text
-                                                  ↓
-                              <div class="latin-passage">…</div>
-                                                  ↓
-                                      hand-curate, drop into
-                                  content/ovid-metamorphoses/*.md
+```text
+sources/phi0959.phi006.perseus-lat2.xml            ingest_perseus.py
+                                                     ↓
+                                       sources/cards/book-NN-card-NN.json
+                                                     ↓
+card_text.py --card NN-card-NN | seed.py | trim_primary.py
+                                                     ↓
+                                        .tmp/latin-spans.md
+                                                     ↓
+                     extract_lemmas.py | seed_vocab.py (staging only)
+                                                     ↓
+                                site/latin/staging/lexicon/*.json
+                                                     ↓
+                                    promote_reviewed.py (reviewed=true only)
+                                                     ↓
+                                  content/_latin-lexicon/*.json
 ```
 
 ## Scripts
 
 * **`ingest_perseus.py`** — parse the canonical TEI vendored at `sources/phi0959.phi006.perseus-lat2.xml`; emit one JSON intermediate per Perseus "card" to `sources/cards/book-NN-card-NN.json`. Run once; re-run after editing the canonical text.
-* **`seed.py`** — reads Latin text from stdin, runs each token through Morpheus via `morpheus.sh`, emits a draft `<div class="latin-passage">` block on stdout. Author hand-curates the result.
+* **`seed.py`** — reads Latin text from stdin, runs each token through Morpheus via `morpheus.sh`, emits a draft `<div class="latin-passage">` block on stdout.
+* **`trim_primary.py`** — chooses a primary lemma per token by scoring candidates against known lexicon POS compatibility.
+* **`seed_vocab.py`** — reads lemma names and writes vocabulary skeleton cards to `site/latin/staging/lexicon/`.
+* **`promote_reviewed.py`** — moves only `reviewed: true` staging cards into `content/_latin-lexicon/`.
+* **`audit_latin.py`** — QA gate for unresolved lemmas, card-shape problems, sparse paradigms, and parse/POS mismatches.
 * **`morpheus.sh`** — single entry point for Morpheus invocations. Validates the local build, sets `MORPHLIB`, execs `cruncher -S -L`. All Morpheus calls in the project go through this wrapper.
 
 ## Setup
@@ -30,20 +39,28 @@ See [INSTALL.md](INSTALL.md) for the one-time Morpheus build (perseids-tools for
 ## Use
 
 ```sh
-# One-time ingestion of the canonical text into per-card JSON.
+# One-time TEI ingest
 python3 site/latin/ingest_perseus.py
 
-# Seed a passage. Either pipe raw text:
-echo "In nova fert animus mutatas dicere formas" | python3 site/latin/seed.py
+# Per-card spans
+make latin-spans CARD=01-card-07
 
-# Or feed a Perseus card directly:
-python3 -c "import json; d=json.load(open('site/latin/sources/cards/book-01-card-01.json'));
-print('\n'.join(line['latin'] for line in d['text']))" | python3 site/latin/seed.py
+# Seed skeleton vocab cards into staging
+make latin-vocab SPANS=.tmp/latin-spans.md
+
+# Promote only cards marked "reviewed": true
+make latin-promote
+
+# Full chain (spans + staging seed + reviewed promotion)
+make latin-seed CARD=01-card-07
+
+# Pipeline QA gate
+make latin-audit
 ```
 
 ## Output format
 
-Each surface form becomes one or two `<span data-matches="lemma1:p1,p2;lemma2:p3">word</span>` elements, with multi-lemma ambiguity preserved verbatim. The author reorders to put the primary reading first and trims implausible alternatives during curation. Trailing `-que`/`-ne`/`-ve` enclitics are split into a second adjacent span.
+Each surface form becomes one or two `<span data-matches="lemma1:p1,p2;lemma2:p3">word</span>` elements. `trim_primary.py` selects one primary lemma group per token for first-pass authoring, and trailing `-que`/`-ne`/`-ve` enclitics are split into adjacent spans.
 
 ## Cache
 
@@ -55,6 +72,6 @@ Each surface form becomes one or two `<span data-matches="lemma1:p1,p2;lemma2:p3
 
 ## v1 known limitations
 
-* **Some lemmas need card renames.** Morpheus's canonical lemma differs from the existing card filename in a handful of cases (e.g. Morpheus says `tu` where we filed the plural pronoun under `vos.json`, `ad-spiro` vs our `aspiro.json`). `LEMMA_ALIAS` in `seed.py` rewrites these back. Long-term fix: adopt Morpheus's canonical lemma and rename the cards.
-* **Proper nouns get no analysis.** Morpheus's stem dictionary covers the common-noun vocabulary; many proper names (Pyrrha, Lycaon) come back as `?:?` and are curated by hand.
-* **Cards for new lemmas don't auto-emit yet.** Each new lemma a seed turns up needs a `content/_latin-lexicon/<lemma>.json` written by hand. The vocabulary-card seeder (`seed_vocab.py`) is Phase 3 of the completion plan.
+* **Alias debt remains.** Some Morpheus canonical lemmas still map back to legacy card filenames via `LEMMA_ALIAS`.
+* **Auto-seeded cards require explicit review.** Staged cards are intentionally not promoted until `reviewed: true` is set.
+* **Audit failures are expected during curation.** `latin-audit` is strict by design and will flag sparse paradigms / unresolved entries until cards are cleaned.

@@ -14,7 +14,8 @@ for their lemmas). For each lemma:
 
 The skeleton is intentionally minimal — the author hand-edits glosses
 (trims to 3–5 short ones, reorders by reading-context fit) and reviews
-the paradigm before moving the file into `content/_latin-lexicon/`.
+the paradigm before marking `reviewed: true` and moving the file into
+`content/_latin-lexicon/`.
 
 Data sources (read directly, no Python deps):
 
@@ -587,6 +588,7 @@ def seed_lemma(lemma, entries, by_stem, rules):
         'lemma': lemma,
         'pos': card_pos_label(entry),
         'glosses': entry['senses'][:6],
+        'reviewed': False,
     }
     head_text, principal = head_line(lemma, entry)
     card['head'] = head_text

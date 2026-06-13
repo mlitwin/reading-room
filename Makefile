@@ -1,5 +1,5 @@
 .PHONY: install build serve clean test \
-        latin-spans latin-vocab latin-promote latin-clean-staging latin-seed
+        latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit
 
 install:
 	cd site/generator && npm install
@@ -31,7 +31,7 @@ clean:
 
 latin-spans: .tmp
 	@if [ -z "$(CARD)" ]; then echo "usage: make latin-spans CARD=NN-card-NN" >&2; exit 1; fi
-	@python3 -c "import json; d=json.load(open('site/latin/sources/cards/book-$(CARD).json')); print('\n'.join(l['latin'] for l in d['text']))" \
+	@python3 site/latin/card_text.py --card "$(CARD)" \
 	  | python3 site/latin/seed.py \
 	  | python3 site/latin/trim_primary.py \
 	  > .tmp/latin-spans.md
@@ -40,20 +40,11 @@ latin-spans: .tmp
 latin-vocab:
 	@SPANS=$${SPANS:-.tmp/latin-spans.md}; \
 	if [ ! -f $$SPANS ]; then echo "spans file $$SPANS not found" >&2; exit 1; fi; \
-	python3 -c "import re; t=open('$$SPANS').read(); print('\n'.join(sorted(set(m.group(1).split(':',1)[0] for m in re.finditer(r'data-matches=\"([^\"]+)\"', t) if m.group(1).split(':',1)[0] not in ('', '?')))))" \
+	python3 site/latin/extract_lemmas.py "$$SPANS" \
 	  | python3 site/latin/seed_vocab.py
 
 latin-promote:
-	@mkdir -p content/_latin-lexicon
-	@count=0; \
-	for f in site/latin/staging/lexicon/*.json; do \
-	  [ -f "$$f" ] || continue; \
-	  base=$$(basename $$f); \
-	  if [ ! -f content/_latin-lexicon/$$base ]; then \
-	    mv "$$f" content/_latin-lexicon/$$base; count=$$((count+1)); \
-	  fi; \
-	done; \
-	echo "promoted $$count card(s); $$(ls content/_latin-lexicon | wc -l | tr -d ' ') total"
+	@python3 site/latin/promote_reviewed.py
 
 latin-clean-staging:
 	@rm -f site/latin/staging/lexicon/*.json
@@ -61,3 +52,6 @@ latin-clean-staging:
 latin-seed: latin-spans
 	@$(MAKE) latin-vocab SPANS=.tmp/latin-spans.md
 	@$(MAKE) latin-promote
+
+latin-audit:
+	@python3 site/latin/audit_latin.py
