@@ -108,29 +108,42 @@ def lemma_for(lexeme, parser, _cache={}):
     roots = [r for r in lexeme.get('roots', []) if r]
     wt = lexeme.get('wordType', None)
     wt_name = getattr(wt, 'name', str(wt))
+    form_info = lexeme.get('form') or []   # e.g. ['N', 'T'] for caelum (neuter)
+    gender_code = form_info[0] if form_info else ''
+    # Irregular verbs with no clean stem — Whitaker reports them with empty
+    # roots. `sum` is the most important; many of its forms (est, sunt, erat)
+    # show up here. Hardcode the lemma since stem-round-trip can't recover it.
+    if wt_name == 'V' and not roots:
+        return 'sum'
     if not roots:
         return ''
     stem = roots[0]
-    cache_key = (wt_name, tuple(roots))
+    cache_key = (wt_name, tuple(roots), gender_code)
     if cache_key in _cache:
         return _cache[cache_key]
 
-    # Candidate endings ordered by frequency for the part of speech. For each,
-    # the dictionary form's expected features (case=NOM, num=S for nouns; etc.)
-    # are what tells us the candidate is the lemma rather than another inflection.
+    # Candidate endings ordered by frequency for the part of speech. For
+    # nouns we put the gender-appropriate ending first when Whitaker tells
+    # us the gender, so `cael` → `caelum` (neuter) instead of `caelus`.
     if wt_name == 'V':
-        # 1st-conj -o, 2nd -eo, 3rd -o, 4th -io, irregular sum/eo handled by `''`.
         candidates = [stem + 'o', stem + 'eo', stem + 'io', stem, stem + 'or']
-        expected = ('1', 'S', 'PRES', 'IND', 'ACTIVE')   # person, num, tense, mood, voice
+        expected = ('1', 'S', 'PRES', 'IND', 'ACTIVE')
     elif wt_name == 'N':
-        candidates = [stem + 'us', stem + 'a', stem + 'um', stem + 'is', stem + 'es',
-                      stem + 'er', stem + 's', stem, stem + 'or']
+        common = [stem, stem + 'is', stem + 'es', stem + 's', stem + 'or']
+        if gender_code == 'N':
+            candidates = [stem + 'um', stem + 'us'] + common + [stem + 'a', stem + 'er']
+        elif gender_code == 'F':
+            candidates = [stem + 'a', stem + 'is', stem + 'es'] + common + [stem + 'us', stem + 'um', stem + 'er']
+        else:   # M, C (common), or unknown
+            candidates = [stem + 'us', stem + 'er'] + common + [stem + 'a', stem + 'um']
         expected = ('NOM', 'S')
     elif wt_name == 'ADJ':
         candidates = [stem + 'us', stem + 'is', stem + 'er', stem + 'x', stem]
-        expected = ('NOM', 'S', 'M')   # nom.sg.masc
+        expected = ('NOM', 'S', 'M')
     elif wt_name == 'PRON':
-        candidates = [stem, stem + 'e', stem + 'o', stem + 'a']
+        # Pronoun stems often need a quirky ending. Cover the relative/
+        # interrogative qui (stem 'qu') plus the demonstratives hic/is/ipse.
+        candidates = [stem + 'i', stem + 'is', stem, stem + 'e', stem + 'o', stem + 'a']
         expected = ('NOM', 'S')
     else:
         _cache[cache_key] = stem
@@ -162,12 +175,8 @@ def lemma_for(lexeme, parser, _cache={}):
     _cache[cache_key] = stem
     return stem
 
-def analyse(parser, token):
-    """Return all (lemma, parse_code) matches Whitaker's reports for a token,
-    grouped by lemma in source order. The card is a study tool, not an
-    answer key — we don't disambiguate; the popover highlights every cell
-    the surface form could fill, and surfaces every lemma it could belong to.
-    Returns a list-of-dicts: [{lemma, parses: [...]}, ...]."""
+def analyse_once(parser, token):
+    """Single-shot Whitaker's analysis. Returns [{lemma, parses}, ...]."""
     try:
         result = parser.parse(token.lower())
     except Exception:
@@ -192,6 +201,41 @@ def analyse(parser, token):
                 if code not in grouped[lemma]:
                     grouped[lemma].append(code)
     return [{'lemma': l, 'parses': grouped[l]} for l in order]
+
+# Enclitics in Latin: -que (and), -ne (question marker), -ve (or). Some words
+# end in these letters without carrying the enclitic (e.g. "atque" = at+que
+# is genuinely the conjunction, "neque" too, "quoque", "namque"); a short
+# whitelist of words to NEVER split keeps these intact.
+NEVER_SPLIT_ENCLITIC = {'atque', 'neque', 'quoque', 'namque', 'denique', 'utique',
+                        'undique', 'usque', 'quaque', 'itaque', 'plerumque',
+                        'cuique', 'quique', 'unde', 'inde', 'sive', 'siue'}
+ENCLITICS = ('que', 'ne', 've')
+
+def split_enclitic(token):
+    """If `token` ends in -que/-ne/-ve and the prefix is a valid Latin word
+    (parses non-trivially), return (prefix, enclitic). Otherwise None."""
+    if token.lower() in NEVER_SPLIT_ENCLITIC:
+        return None
+    for enc in ENCLITICS:
+        if len(token) > len(enc) + 2 and token.lower().endswith(enc):
+            return (token[:-len(enc)], enc)
+    return None
+
+def analyse(parser, token):
+    """Analyse a token, splitting trailing enclitics (-que, -ne, -ve) when
+    they make the prefix parseable. Returns a list of (segment, matches)
+    pairs so the caller can emit one span per segment."""
+    direct = analyse_once(parser, token)
+    if direct:
+        return [(token, direct)]
+    split = split_enclitic(token)
+    if split:
+        prefix, enc = split
+        prefixMatches = analyse_once(parser, prefix)
+        if prefixMatches:
+            enc_lemma = {'que': 'que', 'ne': 'ne', 've': 've'}[enc]
+            return [(prefix, prefixMatches), (enc, [{'lemma': enc_lemma, 'parses': ['enclit']}])]
+    return [(token, [])]
 
 WORD_RE = re.compile(r"([A-Za-zĀ-ž]+)([^A-Za-zĀ-ž]*)")
 
@@ -221,8 +265,16 @@ def main():
             continue
         parts = []
         for word, trail in tokenise(line):
-            matches = analyse(parser, word)
-            parts.append(f'<span {matches_attr(matches)}>{word}</span>{trail}')
+            segments = analyse(parser, word)
+            # Each segment becomes its own span; segments emitted adjacent
+            # with no space so an enclitic like -que visually stays attached
+            # to its host word (`primaque` → `prima`+`que` as two adjacent
+            # buttons).
+            spans = ''.join(
+                f'<span {matches_attr(matches)}>{seg}</span>'
+                for seg, matches in segments
+            )
+            parts.append(f'{spans}{trail}')
         joined = ' '.join(parts)
         if i < len(lines) - 1:
             joined += '<br>'
