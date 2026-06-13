@@ -1,0 +1,34 @@
+{
+  "lemma": "Phoebus",
+  "pos": "noun",
+  "glosses": [
+    "Phoebus (Apollo)"
+  ],
+  "head": "Phoebus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "Phoebus",
+      "gen.sg": "Phoebi",
+      "dat.sg": "Phoebo",
+      "acc.sg": "Phoebum",
+      "abl.sg": "Phoebo",
+      "nom.pl": "Phoebi",
+      "gen.pl": "Phoeborum",
+      "dat.pl": "Phoebis",
+      "acc.pl": "Phoebos",
+      "abl.pl": "Phoebis"
+    }
+  }
+}

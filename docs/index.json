@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T16:47:09.196Z",
+  "generated_at": "2026-06-13T17:22:25.193Z",
   "pieces": [
     {
       "slug": "ovid-metamorphoses",
@@ -23,6 +23,11 @@
             "slug": "proem",
             "title": "The proem (Met I.1–4)",
             "html_path": "ovid-metamorphoses/proem.html"
+          },
+          {
+            "slug": "python",
+            "title": "The Python episode (Met I.416–451)",
+            "html_path": "ovid-metamorphoses/python.html"
           },
           {
             "slug": "notes",

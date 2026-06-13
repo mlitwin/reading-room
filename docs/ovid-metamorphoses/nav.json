@@ -35,6 +35,29 @@
         "html_path": "ovid-metamorphoses/index.html"
       },
       "next": {
+        "title": "The Python episode (Met I.416–451)",
+        "html_path": "ovid-metamorphoses/python.html"
+      }
+    },
+    {
+      "slug": "python",
+      "title": "The Python episode (Met I.416–451)",
+      "html_path": "ovid-metamorphoses/python.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The proem (Met I.1–4)",
+        "html_path": "ovid-metamorphoses/proem.html"
+      },
+      "next": {
         "title": "Grammar reference",
         "html_path": "ovid-metamorphoses/notes.html"
       }
@@ -54,8 +77,8 @@
         }
       ],
       "prev": {
-        "title": "The proem (Met I.1–4)",
-        "html_path": "ovid-metamorphoses/proem.html"
+        "title": "The Python episode (Met I.416–451)",
+        "html_path": "ovid-metamorphoses/python.html"
       },
       "next": null
     }

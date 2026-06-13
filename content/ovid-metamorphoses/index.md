@@ -13,3 +13,4 @@ This piece presents Book 1 as a study text. The Latin is the Hugo Magnus 1892 ed
 ## Contents
 
 1. [The proem (Met I.1–4)](01-proem.md) — Ovid's four-line invocation of the gods.
+2. [The Python episode (Met I.416–451)](02-python.md) — post-flood generation, Apollo's serpent-killing, and the founding of the Pythian games.

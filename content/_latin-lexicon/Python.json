@@ -1,0 +1,34 @@
+{
+  "lemma": "Python",
+  "pos": "noun",
+  "glosses": [
+    "Python (the serpent slain by Apollo)"
+  ],
+  "head": "Python, Pythonis, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "Python",
+      "gen.sg": "Pythonis",
+      "dat.sg": "Pythoni",
+      "acc.sg": "Pythona",
+      "abl.sg": "Pythone",
+      "nom.pl": "Pythones",
+      "gen.pl": "Pythonum",
+      "dat.pl": "Pythonibus",
+      "acc.pl": "Pythonas",
+      "abl.pl": "Pythonibus"
+    }
+  }
+}

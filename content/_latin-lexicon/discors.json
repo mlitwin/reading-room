@@ -1,0 +1,34 @@
+{
+  "lemma": "discors",
+  "pos": "adj",
+  "glosses": [
+    "discordant",
+    "at variance",
+    "in conflict"
+  ],
+  "head": "discors, discordis",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "discors",
+      "nom.sg.fem": "discors",
+      "nom.sg.neut": "discors",
+      "acc.sg.neut": "discors"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "lemma": "Nilus",
+  "pos": "noun",
+  "glosses": [
+    "the Nile (river)"
+  ],
+  "head": "Nilus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "Nilus",
+      "gen.sg": "Nili",
+      "dat.sg": "Nilo",
+      "acc.sg": "Nilum",
+      "abl.sg": "Nilo",
+      "nom.pl": "Nili",
+      "gen.pl": "Nilorum",
+      "dat.pl": "Nilis",
+      "acc.pl": "Nilos",
+      "abl.pl": "Nilis"
+    }
+  }
+}
