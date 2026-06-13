@@ -142,7 +142,7 @@ def split_inflection_class(field):
     last comma-separated piece as the paradigm identifier."""
     return field.split(',')[-1].strip()
 
-def parse_nl_block(block):
+def parse_nl_block(block, apply_alias=True):
     """Parse `V mu_tastis,muto#1  perf ind act 2nd pl\t\tcontr\tavperf,are_vb`
     into a dict {pos_raw, surface, lemma, morph[], tags, infl_class}."""
     # Columns are tab-separated, but the morphology column is internally
@@ -165,7 +165,8 @@ def parse_nl_block(block):
     surface = strip_macron(surface_raw)
     # Strip homograph suffix (`muto#1` → `muto`).
     lemma = lemma_raw.split('#', 1)[0]
-    lemma = LEMMA_ALIAS.get(lemma, lemma)
+    if apply_alias:
+        lemma = LEMMA_ALIAS.get(lemma, lemma)
 
     morph = tokens[2:]
     return {
@@ -266,7 +267,7 @@ def morph_to_parse_codes(a):
 
 # -------- token-level orchestration -----------------------------------------
 
-def analyse_token(token, cache):
+def analyse_token(token, cache, apply_alias=True):
     """Return the list of dicts {pos, surface, lemma, morph, tags, infl_class}
     for `token`; consults & populates `cache`. The returned list may be empty."""
     key = token.lower()
@@ -274,7 +275,12 @@ def analyse_token(token, cache):
         # Single-token batch; query_morpheus also handles the multi-token case.
         result = query_morpheus([key])
         cache[key] = result[key]
-    return [parse_nl_block(nl) for nl in cache[key] if parse_nl_block(nl)]
+    out = []
+    for nl in cache[key]:
+        parsed = parse_nl_block(nl, apply_alias=apply_alias)
+        if parsed:
+            out.append(parsed)
+    return out
 
 def group_by_lemma(analyses):
     """Collect parse codes per lemma in source order. Returns

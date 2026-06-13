@@ -1,6 +1,7 @@
 node_modules/
 .DS_Store
 Plans
+.tmp/
 
 # iOS app
 app/build/

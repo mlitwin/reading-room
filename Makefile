@@ -1,5 +1,5 @@
 .PHONY: install build serve clean test \
-        latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit
+        latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit
 
 install:
 	cd site/generator && npm install
@@ -21,6 +21,7 @@ clean:
 # promotion. Each target is invokable on its own; `latin-seed CARD=...`
 # chains them.
 #
+#   make latin-apparatus CARD=01-card-07
 #   make latin-spans CARD=01-card-07
 #   make latin-vocab SPANS=.tmp/latin-spans.md
 #   make latin-promote
@@ -29,11 +30,15 @@ clean:
 .tmp:
 	@mkdir -p .tmp
 
-latin-spans: .tmp
-	@if [ -z "$(CARD)" ]; then echo "usage: make latin-spans CARD=NN-card-NN" >&2; exit 1; fi
+latin-apparatus: .tmp
+	@if [ -z "$(CARD)" ]; then echo "usage: make latin-apparatus CARD=NN-card-NN" >&2; exit 1; fi
 	@python3 site/latin/card_text.py --card "$(CARD)" \
-	  | python3 site/latin/seed.py \
-	  | python3 site/latin/trim_primary.py \
+	  | python3 site/latin/build_apparatus.py --card "$(CARD)" \
+	  > .tmp/latin-apparatus.json
+	@echo "wrote .tmp/latin-apparatus.json"
+
+latin-spans: latin-apparatus
+	@python3 site/latin/apparatus_to_spans.py .tmp/latin-apparatus.json \
 	  > .tmp/latin-spans.md
 	@echo "wrote .tmp/latin-spans.md"
 

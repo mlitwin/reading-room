@@ -9,8 +9,12 @@ sources/phi0959.phi006.perseus-lat2.xml            ingest_perseus.py
                                                      ↓
                                        sources/cards/book-NN-card-NN.json
                                                      ↓
-card_text.py --card NN-card-NN | seed.py | trim_primary.py
+card_text.py --card NN-card-NN | build_apparatus.py
                                                      ↓
+                                      .tmp/latin-apparatus.json
+                                                    ↓
+                                        apparatus_to_spans.py
+                                                    ↓
                                         .tmp/latin-spans.md
                                                      ↓
                      extract_lemmas.py | seed_vocab.py (staging only)
@@ -25,8 +29,10 @@ card_text.py --card NN-card-NN | seed.py | trim_primary.py
 ## Scripts
 
 * **`ingest_perseus.py`** — parse the canonical TEI vendored at `sources/phi0959.phi006.perseus-lat2.xml`; emit one JSON intermediate per Perseus "card" to `sources/cards/book-NN-card-NN.json`. Run once; re-run after editing the canonical text.
-* **`seed.py`** — reads Latin text from stdin, runs each token through Morpheus via `morpheus.sh`, emits a draft `<div class="latin-passage">` block on stdout.
-* **`trim_primary.py`** — chooses a primary lemma per token by scoring candidates against known lexicon POS compatibility.
+* **`build_apparatus.py`** — mechanical stage: tokenises a passage, gathers all Morpheus candidates, and emits an apparatus-criticus JSON with each token classified as unambiguous / ambiguous / unresolved.
+* **`apparatus_to_spans.py`** — heuristic stage: picks one primary candidate from apparatus token candidates and emits `<div class="latin-passage">` spans.
+* **`seed.py`** — low-level Morpheus integration and span helpers used by both stages.
+* **`trim_primary.py`** — candidate scoring helpers used by `apparatus_to_spans.py`.
 * **`seed_vocab.py`** — reads lemma names and writes vocabulary skeleton cards to `site/latin/staging/lexicon/`.
 * **`promote_reviewed.py`** — moves only `reviewed: true` staging cards into `content/_latin-lexicon/`.
 * **`audit_latin.py`** — QA gate for unresolved lemmas, card-shape problems, sparse paradigms, and parse/POS mismatches.
@@ -45,6 +51,9 @@ python3 site/latin/ingest_perseus.py
 # Per-card spans
 make latin-spans CARD=01-card-07
 
+# Per-card apparatus artifact (mechanical evidence layer)
+make latin-apparatus CARD=01-card-07
+
 # Seed skeleton vocab cards into staging
 make latin-vocab SPANS=.tmp/latin-spans.md
 
@@ -60,7 +69,7 @@ make latin-audit
 
 ## Output format
 
-Each surface form becomes one or two `<span data-matches="lemma1:p1,p2;lemma2:p3">word</span>` elements. `trim_primary.py` selects one primary lemma group per token for first-pass authoring, and trailing `-que`/`-ne`/`-ve` enclitics are split into adjacent spans.
+Each surface form in apparatus carries all candidate lemmas/codes, then `apparatus_to_spans.py` selects one primary candidate for span rendering. This separates deterministic parsing/evidence collection from debatable disambiguation policy.
 
 ## Cache
 

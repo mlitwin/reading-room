@@ -61,6 +61,11 @@ class TestParseNLBlock(unittest.TestCase):
         a = seed.parse_nl_block(block)
         self.assertEqual(a['lemma'], 'aspiro')
 
+    def test_parse_without_alias(self):
+        block = 'V ad-spi_ra_te,ad-spiro  pres imp act 2nd pl\t\t\tare_vb'
+        a = seed.parse_nl_block(block, apply_alias=False)
+        self.assertEqual(a['lemma'], 'ad-spiro')
+
 
 class TestMorphToParseCodes(unittest.TestCase):
     def _block(self, raw):
