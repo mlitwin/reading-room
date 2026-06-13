@@ -1,0 +1,40 @@
+{
+  "lemma": "zona",
+  "pos": "noun",
+  "glosses": [
+    "zone",
+    "woman's girdle",
+    "(tunic) belt",
+    "money belt",
+    "climatic region",
+    "celestial zone"
+  ],
+  "reviewed": false,
+  "head": "zona, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "zona",
+      "gen.sg": "zonae",
+      "abl.sg": "zona",
+      "acc.sg": "zonam",
+      "dat.sg": "zonae",
+      "nom.pl": "zonae",
+      "gen.pl": "zonarum",
+      "dat.pl": "zonis",
+      "abl.pl": "zonis",
+      "acc.pl": "zonas"
+    }
+  }
+}

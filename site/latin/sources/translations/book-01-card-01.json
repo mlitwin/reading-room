@@ -1,0 +1,35 @@
+{
+  "book": 1,
+  "card": 1,
+  "title_english": "INVOCATION",
+  "lines": [
+    1,
+    6
+  ],
+  "text": [
+    {
+      "n": 1,
+      "english": "My soul is wrought to sing of forms transformed"
+    },
+    {
+      "n": 2,
+      "english": "to bodies new and strange! Immortal Gods"
+    },
+    {
+      "n": 3,
+      "english": "inspire my heart, for ye have changed yourselves"
+    },
+    {
+      "n": 4,
+      "english": "and all things you have changed! Oh lead my song"
+    },
+    {
+      "n": 5,
+      "english": "in smooth and measured strains, from olden days"
+    },
+    {
+      "n": 6,
+      "english": "when earth began to this completed time!"
+    }
+  ]
+}

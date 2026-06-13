@@ -1,0 +1,36 @@
+{
+  "lemma": "ambiguum",
+  "pos": "noun",
+  "glosses": [
+    "varying/doubtful/uncertain state/condition/expression",
+    "ambiguity"
+  ],
+  "reviewed": false,
+  "head": "ambiguum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ambiguum",
+      "gen.sg": "ambigui",
+      "acc.sg": "ambiguum",
+      "dat.sg": "ambiguo",
+      "abl.sg": "ambiguo",
+      "gen.pl": "ambiguorum",
+      "dat.pl": "ambiguis",
+      "abl.pl": "ambiguis",
+      "nom.pl": "ambigua",
+      "acc.pl": "ambigua"
+    }
+  }
+}

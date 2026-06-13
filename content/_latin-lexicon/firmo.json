@@ -1,0 +1,44 @@
+{
+  "lemma": "firmo",
+  "pos": "verb",
+  "glosses": [
+    "strengthen, harden",
+    "support",
+    "declare",
+    "prove, confirm, establish"
+  ],
+  "reviewed": false,
+  "head": "firmo, firmare, firmavi, firmatum",
+  "principal_parts": [
+    "firmo",
+    "firmare",
+    "firmavi",
+    "firmatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "firmo",
+      "2sg.pres.ind.act": "firmas",
+      "3sg.pres.ind.act": "firmat",
+      "1pl.pres.ind.act": "firmamus",
+      "2pl.pres.ind.act": "firmatis",
+      "3pl.pres.ind.act": "firmant",
+      "2sg.pres.imp.act": "firma",
+      "2pl.pres.imp.act": "firmate"
+    }
+  }
+}

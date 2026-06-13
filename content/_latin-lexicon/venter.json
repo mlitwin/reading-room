@@ -1,0 +1,36 @@
+{
+  "lemma": "venter",
+  "pos": "noun",
+  "glosses": [
+    "stomach, womb",
+    "belly"
+  ],
+  "reviewed": false,
+  "head": "venter, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "ventri",
+      "acc.sg": "ventrem",
+      "nom.pl": "ventris",
+      "gen.pl": "ventrium",
+      "acc.pl": "ventris",
+      "nom.sg": "venter",
+      "gen.sg": "ventris",
+      "dat.sg": "ventri",
+      "dat.pl": "ventribus",
+      "abl.pl": "ventribus"
+    }
+  }
+}

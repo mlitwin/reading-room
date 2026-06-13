@@ -1,0 +1,42 @@
+{
+  "lemma": "in-roro",
+  "pos": "verb",
+  "glosses": [
+    "cause dew, drip",
+    "be moist"
+  ],
+  "reviewed": false,
+  "head": "in-roro, rorare, roravi, roratum",
+  "principal_parts": [
+    "in-roro",
+    "rorare",
+    "roravi",
+    "roratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "roro",
+      "2sg.pres.ind.act": "roras",
+      "3sg.pres.ind.act": "rorat",
+      "1pl.pres.ind.act": "roramus",
+      "2pl.pres.ind.act": "roratis",
+      "3pl.pres.ind.act": "rorant",
+      "2sg.pres.imp.act": "rora",
+      "2pl.pres.imp.act": "rorate"
+    }
+  }
+}

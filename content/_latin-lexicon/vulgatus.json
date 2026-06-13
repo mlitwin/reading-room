@@ -1,0 +1,54 @@
+{
+  "lemma": "vulgatus",
+  "pos": "adj",
+  "glosses": [
+    "common, ordinary",
+    "conventional, well-known"
+  ],
+  "reviewed": false,
+  "head": "vulgatus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "vulgatus",
+      "gen.sg.masc": "vulgati",
+      "dat.sg.masc": "vulgato",
+      "gen.sg.fem": "vulgatae",
+      "dat.sg.fem": "vulgatae",
+      "nom.sg.neut": "vulgatum",
+      "gen.sg.neut": "vulgati",
+      "dat.sg.neut": "vulgato",
+      "acc.sg.neut": "vulgatum",
+      "acc.sg.masc": "vulgatum",
+      "abl.sg.masc": "vulgato",
+      "nom.pl.masc": "vulgati",
+      "gen.pl.masc": "vulgatorum",
+      "acc.pl.masc": "vulgatos",
+      "nom.sg.fem": "vulgata",
+      "acc.sg.fem": "vulgatam",
+      "abl.sg.fem": "vulgata",
+      "nom.pl.fem": "vulgatae",
+      "gen.pl.fem": "vulgatarum",
+      "acc.pl.fem": "vulgatas",
+      "abl.sg.neut": "vulgato",
+      "nom.pl.neut": "vulgata",
+      "gen.pl.neut": "vulgatorum",
+      "acc.pl.neut": "vulgata"
+    }
+  }
+}

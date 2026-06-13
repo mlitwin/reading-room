@@ -1,0 +1,36 @@
+{
+  "lemma": "humana",
+  "pos": "noun",
+  "glosses": [
+    "human affairs (pl.), concerns of men",
+    "events of life"
+  ],
+  "reviewed": false,
+  "head": "humana, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "humanum",
+      "gen.sg": "humani",
+      "acc.sg": "humanum",
+      "dat.sg": "humano",
+      "abl.sg": "humano",
+      "gen.pl": "humanorum",
+      "dat.pl": "humanis",
+      "abl.pl": "humanis",
+      "nom.pl": "humana",
+      "acc.pl": "humana"
+    }
+  }
+}

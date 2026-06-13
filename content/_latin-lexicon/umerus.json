@@ -1,0 +1,35 @@
+{
+  "lemma": "umerus",
+  "pos": "noun",
+  "glosses": [
+    "upper arm, shoulder"
+  ],
+  "reviewed": false,
+  "head": "umerus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "umerus",
+      "gen.sg": "umeri",
+      "dat.sg": "umero",
+      "abl.sg": "umero",
+      "acc.sg": "umerum",
+      "nom.pl": "umeri",
+      "gen.pl": "umerorum",
+      "dat.pl": "umeris",
+      "abl.pl": "umeris",
+      "acc.pl": "umeros"
+    }
+  }
+}

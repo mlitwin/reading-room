@@ -1,0 +1,38 @@
+{
+  "lemma": "solidum",
+  "pos": "noun",
+  "glosses": [
+    "solid figure",
+    "firm/hard material",
+    "firm/solid/unyielding ground",
+    "a whole"
+  ],
+  "reviewed": false,
+  "head": "solidum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "solidum",
+      "gen.sg": "solidi",
+      "acc.sg": "solidum",
+      "dat.sg": "solido",
+      "abl.sg": "solido",
+      "gen.pl": "solidorum",
+      "dat.pl": "solidis",
+      "abl.pl": "solidis",
+      "nom.pl": "solida",
+      "acc.pl": "solida"
+    }
+  }
+}

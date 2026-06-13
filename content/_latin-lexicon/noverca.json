@@ -1,0 +1,35 @@
+{
+  "lemma": "noverca",
+  "pos": "noun",
+  "glosses": [
+    "stepmother"
+  ],
+  "reviewed": false,
+  "head": "noverca, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "noverca",
+      "gen.sg": "novercae",
+      "abl.sg": "noverca",
+      "acc.sg": "novercam",
+      "dat.sg": "novercae",
+      "nom.pl": "novercae",
+      "gen.pl": "novercarum",
+      "dat.pl": "novercis",
+      "abl.pl": "novercis",
+      "acc.pl": "novercas"
+    }
+  }
+}

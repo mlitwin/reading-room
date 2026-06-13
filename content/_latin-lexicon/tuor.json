@@ -1,0 +1,44 @@
+{
+  "lemma": "tuor",
+  "pos": "verb",
+  "glosses": [
+    "see, look at",
+    "protect, watch",
+    "uphold",
+    "(form of tueor)"
+  ],
+  "reviewed": false,
+  "head": "tuor, tuare, -i, -um",
+  "principal_parts": [
+    "tuor",
+    "tuare",
+    "-i",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "tuo",
+      "2sg.pres.ind.act": "tuas",
+      "3sg.pres.ind.act": "tuat",
+      "1pl.pres.ind.act": "tuamus",
+      "2pl.pres.ind.act": "tuatis",
+      "3pl.pres.ind.act": "tuant",
+      "2sg.pres.imp.act": "tua",
+      "2pl.pres.imp.act": "tuate"
+    }
+  }
+}

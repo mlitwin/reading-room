@@ -1,0 +1,44 @@
+{
+  "lemma": "loco",
+  "pos": "verb",
+  "glosses": [
+    "place, put, station",
+    "arrange",
+    "contract (for)",
+    "farm out (taxes) on contract"
+  ],
+  "reviewed": false,
+  "head": "loco, locare, locavi, locatum",
+  "principal_parts": [
+    "loco",
+    "locare",
+    "locavi",
+    "locatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "loco",
+      "2sg.pres.ind.act": "locas",
+      "3sg.pres.ind.act": "locat",
+      "1pl.pres.ind.act": "locamus",
+      "2pl.pres.ind.act": "locatis",
+      "3pl.pres.ind.act": "locant",
+      "2sg.pres.imp.act": "loca",
+      "2pl.pres.imp.act": "locate"
+    }
+  }
+}

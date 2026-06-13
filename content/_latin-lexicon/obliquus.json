@@ -1,0 +1,54 @@
+{
+  "lemma": "obliquus",
+  "pos": "adj",
+  "glosses": [
+    "slanting",
+    "oblique"
+  ],
+  "reviewed": false,
+  "head": "obliquus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "obliquus",
+      "gen.sg.masc": "obliqui",
+      "dat.sg.masc": "obliquo",
+      "gen.sg.fem": "obliquae",
+      "dat.sg.fem": "obliquae",
+      "nom.sg.neut": "obliquum",
+      "gen.sg.neut": "obliqui",
+      "dat.sg.neut": "obliquo",
+      "acc.sg.neut": "obliquum",
+      "acc.sg.masc": "obliquum",
+      "abl.sg.masc": "obliquo",
+      "nom.pl.masc": "obliqui",
+      "gen.pl.masc": "obliquorum",
+      "acc.pl.masc": "obliquos",
+      "nom.sg.fem": "obliqua",
+      "acc.sg.fem": "obliquam",
+      "abl.sg.fem": "obliqua",
+      "nom.pl.fem": "obliquae",
+      "gen.pl.fem": "obliquarum",
+      "acc.pl.fem": "obliquas",
+      "abl.sg.neut": "obliquo",
+      "nom.pl.neut": "obliqua",
+      "gen.pl.neut": "obliquorum",
+      "acc.pl.neut": "obliqua"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "lemma": "haereo",
+  "pos": "verb",
+  "glosses": [
+    "stick, adhere, cling to",
+    "hesitate",
+    "be in difficulties (sticky situation?)"
+  ],
+  "reviewed": false,
+  "head": "haereo, haerere, haesi, haesum",
+  "principal_parts": [
+    "haereo",
+    "haerere",
+    "haesi",
+    "haesum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "haereo",
+      "2sg.pres.ind.act": "haeres",
+      "3sg.pres.ind.act": "haeret",
+      "1pl.pres.ind.act": "haeremus",
+      "2pl.pres.ind.act": "haeretis",
+      "3pl.pres.ind.act": "haerent",
+      "2sg.pres.imp.act": "haere",
+      "2pl.pres.imp.act": "haerete"
+    }
+  }
+}

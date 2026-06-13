@@ -1,0 +1,46 @@
+{
+  "lemma": "emico",
+  "pos": "verb",
+  "glosses": [
+    "leap/dash/bolt/jump/spurt/burst/break/shine out",
+    "spring/dart/shoot forth/up",
+    "appear suddenly/quickly",
+    "make sudden movement up/out",
+    "give a jump",
+    "stand out"
+  ],
+  "reviewed": false,
+  "head": "emico, emicare, emicui, emicatum",
+  "principal_parts": [
+    "emico",
+    "emicare",
+    "emicui",
+    "emicatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "emico",
+      "2sg.pres.ind.act": "emicas",
+      "3sg.pres.ind.act": "emicat",
+      "1pl.pres.ind.act": "emicamus",
+      "2pl.pres.ind.act": "emicatis",
+      "3pl.pres.ind.act": "emicant",
+      "2sg.pres.imp.act": "emica",
+      "2pl.pres.imp.act": "emicate"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "terra",
+  "pos": "noun",
+  "glosses": [
+    "earth, land, ground",
+    "country, region"
+  ],
+  "reviewed": false,
+  "head": "terra, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "terra",
+      "gen.sg": "terrae",
+      "abl.sg": "terra",
+      "acc.sg": "terram",
+      "dat.sg": "terrae",
+      "nom.pl": "terrae",
+      "gen.pl": "terrarum",
+      "dat.pl": "terris",
+      "abl.pl": "terris",
+      "acc.pl": "terras"
+    }
+  }
+}

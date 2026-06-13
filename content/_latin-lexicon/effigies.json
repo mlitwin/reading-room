@@ -1,0 +1,37 @@
+{
+  "lemma": "effigies",
+  "pos": "noun",
+  "glosses": [
+    "copy, image, likeness, portrait",
+    "effigy, statue",
+    "ghost"
+  ],
+  "reviewed": false,
+  "head": "effigies, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "effigies",
+      "gen.sg": "effigiei",
+      "dat.sg": "effigiei",
+      "abl.sg": "effigie",
+      "acc.sg": "effigiem",
+      "nom.pl": "effigies",
+      "gen.pl": "effigierum",
+      "dat.pl": "effigiebus",
+      "abl.pl": "effigiebus",
+      "acc.pl": "effigies"
+    }
+  }
+}

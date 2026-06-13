@@ -1,0 +1,35 @@
+{
+  "lemma": "remus",
+  "pos": "noun",
+  "glosses": [
+    "oar"
+  ],
+  "reviewed": false,
+  "head": "remus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "remus",
+      "gen.sg": "remi",
+      "dat.sg": "remo",
+      "abl.sg": "remo",
+      "acc.sg": "remum",
+      "nom.pl": "remi",
+      "gen.pl": "remorum",
+      "dat.pl": "remis",
+      "abl.pl": "remis",
+      "acc.pl": "remos"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "prior",
+  "pos": "noun",
+  "glosses": [
+    "ancestors (pl.), forefathers, predecessors, people of an earlier time"
+  ],
+  "reviewed": false,
+  "head": "prior, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "priorem",
+      "gen.pl": "priorum",
+      "acc.pl": "prioris",
+      "nom.sg": "prior",
+      "gen.sg": "prioris",
+      "dat.sg": "priori",
+      "abl.sg": "priore",
+      "nom.pl": "priores",
+      "dat.pl": "prioribus",
+      "abl.pl": "prioribus"
+    }
+  }
+}

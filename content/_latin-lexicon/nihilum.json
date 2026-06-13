@@ -1,0 +1,38 @@
+{
+  "lemma": "nihilum",
+  "pos": "noun",
+  "glosses": [
+    "nothing",
+    "nothingness, which does not exist",
+    "something valueless",
+    "no respect"
+  ],
+  "reviewed": false,
+  "head": "nihilum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nihilum",
+      "gen.sg": "nihili",
+      "acc.sg": "nihilum",
+      "dat.sg": "nihilo",
+      "abl.sg": "nihilo",
+      "gen.pl": "nihilorum",
+      "dat.pl": "nihilis",
+      "abl.pl": "nihilis",
+      "nom.pl": "nihila",
+      "acc.pl": "nihila"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lemma": "ars",
+  "pos": "noun",
+  "glosses": [
+    "skill/craft/art",
+    "trick, wile",
+    "science, knowledge",
+    "method, way",
+    "character (pl.)"
+  ],
+  "reviewed": false,
+  "head": "ars, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "arti",
+      "acc.sg": "artem",
+      "nom.pl": "artis",
+      "gen.pl": "artium",
+      "acc.pl": "artis",
+      "nom.sg": "ars",
+      "gen.sg": "artis",
+      "dat.sg": "arti",
+      "dat.pl": "artibus",
+      "abl.pl": "artibus"
+    }
+  }
+}

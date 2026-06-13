@@ -1,0 +1,41 @@
+{
+  "lemma": "rubeo",
+  "pos": "verb",
+  "glosses": [
+    "be red, become red"
+  ],
+  "reviewed": false,
+  "head": "rubeo, rubere, -i, -um",
+  "principal_parts": [
+    "rubeo",
+    "rubere",
+    "-i",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "rubeo",
+      "2sg.pres.ind.act": "rubes",
+      "3sg.pres.ind.act": "rubet",
+      "1pl.pres.ind.act": "rubemus",
+      "2pl.pres.ind.act": "rubetis",
+      "3pl.pres.ind.act": "rubent",
+      "2sg.pres.imp.act": "rube",
+      "2pl.pres.imp.act": "rubete"
+    }
+  }
+}

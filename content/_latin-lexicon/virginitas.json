@@ -1,0 +1,38 @@
+{
+  "lemma": "virginitas",
+  "pos": "noun",
+  "glosses": [
+    "maidenhood",
+    "virginity",
+    "being girl of marriageable age",
+    "being sworn to celibacy"
+  ],
+  "reviewed": false,
+  "head": "virginitas, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "virginitatem",
+      "gen.pl": "virginitatum",
+      "acc.pl": "virginitatis",
+      "nom.sg": "virginitas",
+      "gen.sg": "virginitatis",
+      "dat.sg": "virginitati",
+      "abl.sg": "virginitate",
+      "nom.pl": "virginitates",
+      "dat.pl": "virginitatibus",
+      "abl.pl": "virginitatibus"
+    }
+  }
+}

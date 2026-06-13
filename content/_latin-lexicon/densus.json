@@ -1,0 +1,58 @@
+{
+  "lemma": "densus",
+  "pos": "adj",
+  "glosses": [
+    "thick/dense/solid",
+    "(cloud/shadow)",
+    "crowded/thick_planted/packed/covered (with)",
+    "frequent, recurring",
+    "terse/concise (style)",
+    "harsh/horse/thick (sound/voice)"
+  ],
+  "reviewed": false,
+  "head": "densus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "densus",
+      "gen.sg.masc": "densi",
+      "dat.sg.masc": "denso",
+      "gen.sg.fem": "densae",
+      "dat.sg.fem": "densae",
+      "nom.sg.neut": "densum",
+      "gen.sg.neut": "densi",
+      "dat.sg.neut": "denso",
+      "acc.sg.neut": "densum",
+      "acc.sg.masc": "densum",
+      "abl.sg.masc": "denso",
+      "nom.pl.masc": "densi",
+      "gen.pl.masc": "densorum",
+      "acc.pl.masc": "densos",
+      "nom.sg.fem": "densa",
+      "acc.sg.fem": "densam",
+      "abl.sg.fem": "densa",
+      "nom.pl.fem": "densae",
+      "gen.pl.fem": "densarum",
+      "acc.pl.fem": "densas",
+      "abl.sg.neut": "denso",
+      "nom.pl.neut": "densa",
+      "gen.pl.neut": "densorum",
+      "acc.pl.neut": "densa"
+    }
+  }
+}

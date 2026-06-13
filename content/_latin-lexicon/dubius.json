@@ -1,0 +1,55 @@
+{
+  "lemma": "dubius",
+  "pos": "adj",
+  "glosses": [
+    "doubtful, dubious, uncertain",
+    "variable, dangerous",
+    "critical"
+  ],
+  "reviewed": false,
+  "head": "dubius, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "dubius",
+      "gen.sg.masc": "dubii",
+      "dat.sg.masc": "dubio",
+      "gen.sg.fem": "dubiae",
+      "dat.sg.fem": "dubiae",
+      "nom.sg.neut": "dubium",
+      "gen.sg.neut": "dubii",
+      "dat.sg.neut": "dubio",
+      "acc.sg.neut": "dubium",
+      "acc.sg.masc": "dubium",
+      "abl.sg.masc": "dubio",
+      "nom.pl.masc": "dubii",
+      "gen.pl.masc": "dubiorum",
+      "acc.pl.masc": "dubios",
+      "nom.sg.fem": "dubia",
+      "acc.sg.fem": "dubiam",
+      "abl.sg.fem": "dubia",
+      "nom.pl.fem": "dubiae",
+      "gen.pl.fem": "dubiarum",
+      "acc.pl.fem": "dubias",
+      "abl.sg.neut": "dubio",
+      "nom.pl.neut": "dubia",
+      "gen.pl.neut": "dubiorum",
+      "acc.pl.neut": "dubia"
+    }
+  }
+}

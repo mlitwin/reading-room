@@ -1,0 +1,41 @@
+{
+  "lemma": "advenio",
+  "pos": "verb",
+  "glosses": [
+    "come to, arrive",
+    "arrive at, reach, be brought",
+    "develop, set in, arise"
+  ],
+  "reviewed": false,
+  "head": "advenio, advenere, adveni, adventum",
+  "principal_parts": [
+    "advenio",
+    "advenere",
+    "adveni",
+    "adventum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "advenis",
+      "3sg.pres.ind.act": "advenit",
+      "1pl.pres.ind.act": "advenimus",
+      "2pl.pres.ind.act": "advenitis",
+      "2sg.pres.imp.act": "adveni",
+      "2pl.pres.imp.act": "advenite"
+    }
+  }
+}

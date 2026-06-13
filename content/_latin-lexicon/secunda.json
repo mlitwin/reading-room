@@ -1,0 +1,36 @@
+{
+  "lemma": "secunda",
+  "pos": "noun",
+  "glosses": [
+    "good luck/fortune (pl.), success",
+    "favorable circumstances"
+  ],
+  "reviewed": false,
+  "head": "secunda, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "secundum",
+      "gen.sg": "secundi",
+      "acc.sg": "secundum",
+      "dat.sg": "secundo",
+      "abl.sg": "secundo",
+      "gen.pl": "secundorum",
+      "dat.pl": "secundis",
+      "abl.pl": "secundis",
+      "nom.pl": "secunda",
+      "acc.pl": "secunda"
+    }
+  }
+}

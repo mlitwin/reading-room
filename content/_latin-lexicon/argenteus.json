@@ -1,0 +1,35 @@
+{
+  "lemma": "argenteus",
+  "pos": "noun",
+  "glosses": [
+    "silver coin"
+  ],
+  "reviewed": false,
+  "head": "argenteus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "argenteus",
+      "gen.sg": "argentei",
+      "dat.sg": "argenteo",
+      "abl.sg": "argenteo",
+      "acc.sg": "argenteum",
+      "nom.pl": "argentei",
+      "gen.pl": "argenteorum",
+      "dat.pl": "argenteis",
+      "abl.pl": "argenteis",
+      "acc.pl": "argenteos"
+    }
+  }
+}

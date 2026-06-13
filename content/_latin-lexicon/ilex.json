@@ -1,0 +1,36 @@
+{
+  "lemma": "ilex",
+  "pos": "noun",
+  "glosses": [
+    "holm-oak, great scarlet oak, tree or wood",
+    "its acorn"
+  ],
+  "reviewed": false,
+  "head": "ilex, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "ilicem",
+      "gen.pl": "ilicum",
+      "acc.pl": "ilicis",
+      "nom.sg": "ilex",
+      "gen.sg": "ilicis",
+      "dat.sg": "ilici",
+      "abl.sg": "ilice",
+      "nom.pl": "ilices",
+      "dat.pl": "ilicibus",
+      "abl.pl": "ilicibus"
+    }
+  }
+}

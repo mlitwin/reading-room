@@ -1,0 +1,33 @@
+{
+  "lemma": "dissimilis",
+  "pos": "adj",
+  "glosses": [
+    "unlike, different, dissimilar"
+  ],
+  "reviewed": false,
+  "head": "dissimilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "dissimile",
+      "acc.sg.neut": "dissimile",
+      "nom.pl.neut": "dissimilia",
+      "acc.pl.neut": "dissimilia"
+    }
+  }
+}

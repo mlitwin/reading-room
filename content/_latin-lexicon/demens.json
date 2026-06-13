@@ -1,0 +1,37 @@
+{
+  "lemma": "demens",
+  "pos": "noun",
+  "glosses": [
+    "measured allowance",
+    "ration",
+    "(of slaves)"
+  ],
+  "reviewed": false,
+  "head": "demens, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "demensum",
+      "gen.sg": "demensi",
+      "acc.sg": "demensum",
+      "dat.sg": "demenso",
+      "abl.sg": "demenso",
+      "gen.pl": "demensorum",
+      "dat.pl": "demensis",
+      "abl.pl": "demensis",
+      "nom.pl": "demensa",
+      "acc.pl": "demensa"
+    }
+  }
+}

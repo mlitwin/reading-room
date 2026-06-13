@@ -1,0 +1,37 @@
+{
+  "lemma": "statio",
+  "pos": "noun",
+  "glosses": [
+    "outpost, picket",
+    "station",
+    "watch"
+  ],
+  "reviewed": false,
+  "head": "statio, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "stationem",
+      "gen.pl": "stationum",
+      "acc.pl": "stationis",
+      "nom.sg": "statio",
+      "gen.sg": "stationis",
+      "dat.sg": "stationi",
+      "abl.sg": "statione",
+      "nom.pl": "stationes",
+      "dat.pl": "stationibus",
+      "abl.pl": "stationibus"
+    }
+  }
+}

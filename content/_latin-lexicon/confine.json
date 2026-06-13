@@ -1,0 +1,36 @@
+{
+  "lemma": "confine",
+  "pos": "noun",
+  "glosses": [
+    "boundary, border, border-line",
+    "confine, neighborhood (L+S)"
+  ],
+  "reviewed": false,
+  "head": "confine, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "confini",
+      "acc.sg": "confine",
+      "nom.pl": "confinia",
+      "gen.pl": "confinium",
+      "acc.pl": "confinia",
+      "nom.sg": "confine",
+      "gen.sg": "confinis",
+      "dat.sg": "confini",
+      "dat.pl": "confinibus",
+      "abl.pl": "confinibus"
+    }
+  }
+}

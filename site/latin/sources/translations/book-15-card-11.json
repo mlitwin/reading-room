@@ -1,0 +1,827 @@
+{
+  "book": 15,
+  "card": 11,
+  "title_english": "JULIUS CAESAR, TRANSFORMED TO A STAR",
+  "lines": [
+    1100,
+    1303
+  ],
+  "text": [
+    {
+      "n": 1100,
+      "english": "Apollo's son came to us from abroad,"
+    },
+    {
+      "n": 1101,
+      "english": "but Caesar is a god in his own land."
+    },
+    {
+      "n": 1102,
+      "english": "The first in war and peace, he rose by wars,"
+    },
+    {
+      "n": 1103,
+      "english": "which closed in triumphs, and by civic deeds"
+    },
+    {
+      "n": 1104,
+      "english": "to glory quickly won, and even more"
+    },
+    {
+      "n": 1105,
+      "english": "his offspring's love exalted him as a new,"
+    },
+    {
+      "n": 1106,
+      "english": "a heavenly, sign and brightly flaming star."
+    },
+    {
+      "n": 1107,
+      "english": "Of all the achievements of great Julius Caesar"
+    },
+    {
+      "n": 1108,
+      "english": "not one is more ennobling to his fame"
+    },
+    {
+      "n": 1109,
+      "english": "than being father of his glorious son."
+    },
+    {
+      "n": 1110,
+      "english": "Was it more glorious for him to subdue"
+    },
+    {
+      "n": 1111,
+      "english": "the Britons guarded by their sheltering sea"
+    },
+    {
+      "n": 1112,
+      "english": "or lead his fleet victorious up the stream"
+    },
+    {
+      "n": 1113,
+      "english": "seven mouthed of the papyrus hearing Nile;"
+    },
+    {
+      "n": 1114,
+      "english": "to bring beneath the Roman people s rule"
+    },
+    {
+      "n": 1115,
+      "english": "rebel Numidia, Libyan Juba, and"
+    },
+    {
+      "n": 1116,
+      "english": "strong Pontus, proud of Mithridates' fame;"
+    },
+    {
+      "n": 1117,
+      "english": "to have some triumphs and deserve far more;"
+    },
+    {
+      "n": 1118,
+      "english": "than to be father of so great a man,"
+    },
+    {
+      "n": 1119,
+      "english": "with whom as ruler of the human race,"
+    },
+    {
+      "n": 1120,
+      "english": "O gods, you bless us past all reckoning?"
+    },
+    {
+      "n": 1121,
+      "english": "And, lest that son should come from mortal seed,"
+    },
+    {
+      "n": 1122,
+      "english": "Julius Caesar must change and be a god."
+    },
+    {
+      "n": 1123,
+      "english": "When the golden mother of Aeneas was"
+    },
+    {
+      "n": 1124,
+      "english": "aware of this and saw a grievous end"
+    },
+    {
+      "n": 1125,
+      "english": "plotted against her high priest, saw the armed"
+    },
+    {
+      "n": 1126,
+      "english": "conspiracy preparing for his death,"
+    },
+    {
+      "n": 1127,
+      "english": "with pallid face she met each god and said:"
+    },
+    {
+      "n": 1128,
+      "english": "“Look with what might this plot prepares itself"
+    },
+    {
+      "n": 1129,
+      "english": "against my cause; with how much guile it dooms"
+    },
+    {
+      "n": 1130,
+      "english": "the head which is the last that I have left"
+    },
+    {
+      "n": 1131,
+      "english": "from old-time Iulus, prince and heir of Troy."
+    },
+    {
+      "n": 1132,
+      "english": "Shall I alone be harassed through all time"
+    },
+    {
+      "n": 1133,
+      "english": "by fear well grounded? First the son of Tydeus"
+    },
+    {
+      "n": 1134,
+      "english": "must wound me with his Calydonian spear;"
+    },
+    {
+      "n": 1135,
+      "english": "and then I tremble at the tottering walls"
+    },
+    {
+      "n": 1136,
+      "english": "of ill defended Troy; I watch my son"
+    },
+    {
+      "n": 1137,
+      "english": "driven in long wanderings, tossed upon the sea,"
+    },
+    {
+      "n": 1138,
+      "english": "descending to the realm of silent shades,"
+    },
+    {
+      "n": 1139,
+      "english": "and waging war with Turnus—or, if I should speak"
+    },
+    {
+      "n": 1140,
+      "english": "the truth, with Juno! Why do I recall"
+    },
+    {
+      "n": 1141,
+      "english": "disasters of my race from long ago?"
+    },
+    {
+      "n": 1142,
+      "english": "The present dread forbids my looking back"
+    },
+    {
+      "n": 1143,
+      "english": "at ills now past. See how the wicked swords"
+    },
+    {
+      "n": 1144,
+      "english": "are whetted for the crime! Forbid it now,"
+    },
+    {
+      "n": 1145,
+      "english": "I pray you, and prevent the deed,"
+    },
+    {
+      "n": 1146,
+      "english": "let not the priest's warm blood quench vestal fires!”"
+    },
+    {
+      "n": 1147,
+      "english": "Such words as these, full of her anxious thoughts,"
+    },
+    {
+      "n": 1148,
+      "english": "Venus proclaimed through all the heavens, in vain."
+    },
+    {
+      "n": 1149,
+      "english": "The gods were moved, and, since they could not break"
+    },
+    {
+      "n": 1150,
+      "english": "the ancient sisters' iron decree, they gave"
+    },
+    {
+      "n": 1151,
+      "english": "instead clear portents of approaching woe."
+    },
+    {
+      "n": 1152,
+      "english": "It is declared, resounding arms heard from"
+    },
+    {
+      "n": 1153,
+      "english": "the black clouds and unearthly trumpet blasts"
+    },
+    {
+      "n": 1154,
+      "english": "and clarions heard through all the highest heavens,"
+    },
+    {
+      "n": 1155,
+      "english": "forewarned men of the crime. The sad sun's face"
+    },
+    {
+      "n": 1156,
+      "english": "gave to the frightened world a livid light;"
+    },
+    {
+      "n": 1157,
+      "english": "and in the night-time torches seemed to burn"
+    },
+    {
+      "n": 1158,
+      "english": "amid the stars, and often drops of blood"
+    },
+    {
+      "n": 1159,
+      "english": "fell in rain-showers. Then Lucifer shone blue"
+    },
+    {
+      "n": 1160,
+      "english": "with all his visage stained by darksome rust."
+    },
+    {
+      "n": 1161,
+      "english": "The chariot of the moon was sprinkled with"
+    },
+    {
+      "n": 1162,
+      "english": "red blood. The Stygian owl gave to the world"
+    },
+    {
+      "n": 1163,
+      "english": "ill omens. In a thousand places, tears"
+    },
+    {
+      "n": 1164,
+      "english": "were shed by the ivory statues. Dirges, too,"
+    },
+    {
+      "n": 1165,
+      "english": "are said to have been heard, and threatening words"
+    },
+    {
+      "n": 1166,
+      "english": "by unknown speakers in the sacred groves."
+    },
+    {
+      "n": 1167,
+      "english": "No victim gave an omen of good life:"
+    },
+    {
+      "n": 1168,
+      "english": "the fibers showed great tumults imminent,"
+    },
+    {
+      "n": 1169,
+      "english": "the liver's cut-off edge was found among"
+    },
+    {
+      "n": 1170,
+      "english": "the entrails. In the Forum, it is said,"
+    },
+    {
+      "n": 1171,
+      "english": "and round men's homes and temples of the gods"
+    },
+    {
+      "n": 1172,
+      "english": "dogs howled all through the night, and silent shades"
+    },
+    {
+      "n": 1173,
+      "english": "wandered abroad, and earthquakes shook the city."
+    },
+    {
+      "n": 1174,
+      "english": "But portents of the gods could not avert"
+    },
+    {
+      "n": 1175,
+      "english": "the plots of men and stay approaching fate."
+    },
+    {
+      "n": 1176,
+      "english": "Into a temple naked swords were brought—"
+    },
+    {
+      "n": 1177,
+      "english": "into the Senate House. No other place"
+    },
+    {
+      "n": 1178,
+      "english": "in all our city was considered fit"
+    },
+    {
+      "n": 1179,
+      "english": "for perpetrating such a dreadful crime!"
+    },
+    {
+      "n": 1180,
+      "english": "With both hands Cytherea beat her breast,"
+    },
+    {
+      "n": 1181,
+      "english": "and in a cloud she strove to hide the last"
+    },
+    {
+      "n": 1182,
+      "english": "of great Aeneas' line, as in times past"
+    },
+    {
+      "n": 1183,
+      "english": "she had hid Paris from fierce Menelaus"
+    },
+    {
+      "n": 1184,
+      "english": "Aeneas from the blade of Diomed."
+    },
+    {
+      "n": 1185,
+      "english": "But Jove, her father, cautioned her and said,"
+    },
+    {
+      "n": 1186,
+      "english": "“Do you my daughter, without aid, alone,"
+    },
+    {
+      "n": 1187,
+      "english": "attempt to change the fixed decrees of Fate?"
+    },
+    {
+      "n": 1188,
+      "english": "Unaided you may enter the abode"
+    },
+    {
+      "n": 1189,
+      "english": "of the three sisters and can witness there"
+    },
+    {
+      "n": 1190,
+      "english": "a register of deeds the future brings."
+    },
+    {
+      "n": 1191,
+      "english": "These, wrought of brass and solid iron with"
+    },
+    {
+      "n": 1192,
+      "english": "vast labor, are unchangeable through all"
+    },
+    {
+      "n": 1193,
+      "english": "eternity; and have no weakening fears"
+    },
+    {
+      "n": 1194,
+      "english": "of thunder-shocks from heaven, nor from the rage"
+    },
+    {
+      "n": 1195,
+      "english": "of lightnings they are perfectly secure"
+    },
+    {
+      "n": 1196,
+      "english": "from all destruction. You will surely find"
+    },
+    {
+      "n": 1197,
+      "english": "the destinies of your descendants there,"
+    },
+    {
+      "n": 1198,
+      "english": "engraved in everlasting adamant."
+    },
+    {
+      "n": 1199,
+      "english": "'Tis certain. I myself, have read them there:"
+    },
+    {
+      "n": 1200,
+      "english": "and I, with care have marked them in my mind."
+    },
+    {
+      "n": 1201,
+      "english": "I will repeat them so that you may have"
+    },
+    {
+      "n": 1202,
+      "english": "unerring knowledge of those future days."
+    },
+    {
+      "n": 1203,
+      "english": "“Venus, the man on whose behalf you are"
+    },
+    {
+      "n": 1204,
+      "english": "so anxious, already has completed his"
+    },
+    {
+      "n": 1205,
+      "english": "alloted time. The years are ended which"
+    },
+    {
+      "n": 1206,
+      "english": "he owed to life on earth. You with his son,"
+    },
+    {
+      "n": 1207,
+      "english": "who now as heir to his estate must bear"
+    },
+    {
+      "n": 1208,
+      "english": "the burden of that government, will cause"
+    },
+    {
+      "n": 1209,
+      "english": "him, as a deity, to reach the heavens,"
+    },
+    {
+      "n": 1210,
+      "english": "and to be worshipped in the temples here."
+    },
+    {
+      "n": 1211,
+      "english": "“The valiant son will plan revenge on those"
+    },
+    {
+      "n": 1212,
+      "english": "who killed his father and will have our aid"
+    },
+    {
+      "n": 1213,
+      "english": "in all his battles. The defeated walls"
+    },
+    {
+      "n": 1214,
+      "english": "of scarred Mutina, which he will besiege,"
+    },
+    {
+      "n": 1215,
+      "english": "shall sue for peace. Pharsalia's plain will dread"
+    },
+    {
+      "n": 1216,
+      "english": "his power and Macedonian Philippi"
+    },
+    {
+      "n": 1217,
+      "english": "be drenched with blood a second time, the name"
+    },
+    {
+      "n": 1218,
+      "english": "of one acclaimed as ‘Great’ shall be subdued"
+    },
+    {
+      "n": 1219,
+      "english": "in the Sicilian waves. Then Egypt's queen,"
+    },
+    {
+      "n": 1220,
+      "english": "wife of the Roman general, Antony,"
+    },
+    {
+      "n": 1221,
+      "english": "shall fall, while vainly trusting in his word,"
+    },
+    {
+      "n": 1222,
+      "english": "while vainly threatening that our Capitol"
+    },
+    {
+      "n": 1223,
+      "english": "must be submissive to Canopus' power."
+    },
+    {
+      "n": 1224,
+      "english": "“Why should I mention all the barbarous lands"
+    },
+    {
+      "n": 1225,
+      "english": "and nations east and west by ocean's rim?"
+    },
+    {
+      "n": 1226,
+      "english": "Whatever habitable earth contains"
+    },
+    {
+      "n": 1227,
+      "english": "shall bow to him, the sea shall serve his will!"
+    },
+    {
+      "n": 1228,
+      "english": "“With peace established over all the lands,"
+    },
+    {
+      "n": 1229,
+      "english": "he then will turn his mind to civil rule"
+    },
+    {
+      "n": 1230,
+      "english": "and as a prudent legislator will"
+    },
+    {
+      "n": 1231,
+      "english": "enact wise laws. And he will regulate"
+    },
+    {
+      "n": 1232,
+      "english": "the manners of his people by his own"
+    },
+    {
+      "n": 1233,
+      "english": "example. Looking forward to the days"
+    },
+    {
+      "n": 1234,
+      "english": "of future time and of posterity,"
+    },
+    {
+      "n": 1235,
+      "english": "he will command the offspring born of his"
+    },
+    {
+      "n": 1236,
+      "english": "devoted wife, to assume the imperial name"
+    },
+    {
+      "n": 1237,
+      "english": "and the burden of his cares. Nor till his age"
+    },
+    {
+      "n": 1238,
+      "english": "shall equal Nestor's years will he ascend"
+    },
+    {
+      "n": 1239,
+      "english": "to heavenly dwellings and his kindred stars."
+    },
+    {
+      "n": 1240,
+      "english": "Meanwhile transform the soul, which shall be reft"
+    },
+    {
+      "n": 1241,
+      "english": "from this doomed body, to a starry light,"
+    },
+    {
+      "n": 1242,
+      "english": "that always god-like Julius may look down"
+    },
+    {
+      "n": 1243,
+      "english": "in future from his heavenly residence"
+    },
+    {
+      "n": 1244,
+      "english": "upon our Forum and our Capitol.”"
+    },
+    {
+      "n": 1245,
+      "english": "Jupiter hardly had pronounced these words,"
+    },
+    {
+      "n": 1246,
+      "english": "when kindly Venus, although seen by none,"
+    },
+    {
+      "n": 1247,
+      "english": "stood in the middle of the Senate-house,"
+    },
+    {
+      "n": 1248,
+      "english": "and caught from the dying limbs and trunk"
+    },
+    {
+      "n": 1249,
+      "english": "of her own Caesar his departing soul."
+    },
+    {
+      "n": 1250,
+      "english": "She did not give it time so that it could"
+    },
+    {
+      "n": 1251,
+      "english": "dissolve in air, but bore it quickly up,"
+    },
+    {
+      "n": 1252,
+      "english": "toward all the stars of heaven; and on the way,"
+    },
+    {
+      "n": 1253,
+      "english": "she saw it gleam and blaze and set it free."
+    },
+    {
+      "n": 1254,
+      "english": "Above the moon it mounted into heaven,"
+    },
+    {
+      "n": 1255,
+      "english": "leaving behind a long and fiery trail,"
+    },
+    {
+      "n": 1256,
+      "english": "and as a star it glittered in the sky."
+    },
+    {
+      "n": 1257,
+      "english": "There, wondering at the younger Caesar's deeds,"
+    },
+    {
+      "n": 1258,
+      "english": "Julius confessed they were superior"
+    },
+    {
+      "n": 1259,
+      "english": "to all of his, and he rejoiced because"
+    },
+    {
+      "n": 1260,
+      "english": "his son was greater even than himself."
+    },
+    {
+      "n": 1261,
+      "english": "Although the son forbade men to regard"
+    },
+    {
+      "n": 1262,
+      "english": "his own deeds as the: mightier! Fame, that moves"
+    },
+    {
+      "n": 1263,
+      "english": "free and untrammelled by the laws of men,"
+    },
+    {
+      "n": 1264,
+      "english": "preferred him even against his own desire"
+    },
+    {
+      "n": 1265,
+      "english": "and in that one point disobeyed his will."
+    },
+    {
+      "n": 1266,
+      "english": "And so great Atreus yields to greater fame"
+    },
+    {
+      "n": 1267,
+      "english": "of Agamemnon, Aegeus yields to Theseus,"
+    },
+    {
+      "n": 1268,
+      "english": "and Peleus to Achilles, or, to name"
+    },
+    {
+      "n": 1269,
+      "english": "a parallel befitting these two gods,"
+    },
+    {
+      "n": 1270,
+      "english": "so Saturn yields to Jove. Now Jupiter"
+    },
+    {
+      "n": 1271,
+      "english": "rules in high heavens and is the suzerain"
+    },
+    {
+      "n": 1272,
+      "english": "over the waters and the world of shades,"
+    },
+    {
+      "n": 1273,
+      "english": "and now Augustus rules in all the lands—"
+    },
+    {
+      "n": 1274,
+      "english": "so each is both a father and a god."
+    },
+    {
+      "n": 1275,
+      "english": "Gods who once guarded our Aeneas, when"
+    },
+    {
+      "n": 1276,
+      "english": "both swords and fire gave way, and native gods"
+    },
+    {
+      "n": 1277,
+      "english": "of Italy, and Father Quirinus—"
+    },
+    {
+      "n": 1278,
+      "english": "patron of Rome, and you Gradivus too—"
+    },
+    {
+      "n": 1279,
+      "english": "the sire of Quirinus the invincible,"
+    },
+    {
+      "n": 1280,
+      "english": "and Vesta hallowed among Caesar's gods,"
+    },
+    {
+      "n": 1281,
+      "english": "and Phoebus ever worshipped at his hearth,"
+    },
+    {
+      "n": 1282,
+      "english": "and Jupiter who rules the citadel"
+    },
+    {
+      "n": 1283,
+      "english": "high on Tarpeia's cliff, and other gods—"
+    },
+    {
+      "n": 1284,
+      "english": "all gods to whom a poet rightfully"
+    },
+    {
+      "n": 1285,
+      "english": "and with all piety may make appeal;"
+    },
+    {
+      "n": 1286,
+      "english": "far be that day—postponed beyond our time,"
+    },
+    {
+      "n": 1287,
+      "english": "when great Augustus shall foresake the earth"
+    },
+    {
+      "n": 1288,
+      "english": "which he now governs, and mount up to heaven,"
+    },
+    {
+      "n": 1289,
+      "english": "from that far height to hear his people's prayers!"
+    },
+    {
+      "n": 1290,
+      "english": "And now, I have completed a great work,"
+    },
+    {
+      "n": 1291,
+      "english": "which not Jove's anger, and not fire nor steel,"
+    },
+    {
+      "n": 1292,
+      "english": "nor fast-consuming time can sweep away."
+    },
+    {
+      "n": 1293,
+      "english": "Whenever it will, let the day come, which has"
+    },
+    {
+      "n": 1294,
+      "english": "dominion only over this mortal frame,"
+    },
+    {
+      "n": 1295,
+      "english": "and end for me the uncertain course of life."
+    },
+    {
+      "n": 1296,
+      "english": "Yet in my better part I shall be borne"
+    },
+    {
+      "n": 1297,
+      "english": "immortal, far above the stars on high,"
+    },
+    {
+      "n": 1298,
+      "english": "and mine shall be a name indelible."
+    },
+    {
+      "n": 1299,
+      "english": "Wherever Roman power extends her sway"
+    },
+    {
+      "n": 1300,
+      "english": "over the conquered lands, I shall be read"
+    },
+    {
+      "n": 1301,
+      "english": "by lips of men. If Poets' prophecies"
+    },
+    {
+      "n": 1302,
+      "english": "have any truth, through all the coming years"
+    },
+    {
+      "n": 1303,
+      "english": "of future ages, I shall live in fame."
+    }
+  ]
+}

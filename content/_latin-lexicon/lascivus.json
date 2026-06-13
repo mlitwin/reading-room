@@ -1,0 +1,56 @@
+{
+  "lemma": "lascivus",
+  "pos": "adj",
+  "glosses": [
+    "playful",
+    "lustful, wanton",
+    "impudent, mischievous",
+    "free from restraint"
+  ],
+  "reviewed": false,
+  "head": "lascivus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "lascivus",
+      "gen.sg.masc": "lascivi",
+      "dat.sg.masc": "lascivo",
+      "gen.sg.fem": "lascivae",
+      "dat.sg.fem": "lascivae",
+      "nom.sg.neut": "lascivum",
+      "gen.sg.neut": "lascivi",
+      "dat.sg.neut": "lascivo",
+      "acc.sg.neut": "lascivum",
+      "acc.sg.masc": "lascivum",
+      "abl.sg.masc": "lascivo",
+      "nom.pl.masc": "lascivi",
+      "gen.pl.masc": "lascivorum",
+      "acc.pl.masc": "lascivos",
+      "nom.sg.fem": "lasciva",
+      "acc.sg.fem": "lascivam",
+      "abl.sg.fem": "lasciva",
+      "nom.pl.fem": "lascivae",
+      "gen.pl.fem": "lascivarum",
+      "acc.pl.fem": "lascivas",
+      "abl.sg.neut": "lascivo",
+      "nom.pl.neut": "lasciva",
+      "gen.pl.neut": "lascivorum",
+      "acc.pl.neut": "lasciva"
+    }
+  }
+}

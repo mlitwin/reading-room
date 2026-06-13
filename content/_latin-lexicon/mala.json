@@ -1,0 +1,38 @@
+{
+  "lemma": "mala",
+  "pos": "noun",
+  "glosses": [
+    "apple",
+    "fruit",
+    "lemon",
+    "quince"
+  ],
+  "reviewed": false,
+  "head": "mala, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "malum",
+      "gen.sg": "mali",
+      "acc.sg": "malum",
+      "dat.sg": "malo",
+      "abl.sg": "malo",
+      "gen.pl": "malorum",
+      "dat.pl": "malis",
+      "abl.pl": "malis",
+      "nom.pl": "mala",
+      "acc.pl": "mala"
+    }
+  }
+}

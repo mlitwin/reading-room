@@ -1,0 +1,35 @@
+{
+  "lemma": "palatium",
+  "pos": "noun",
+  "glosses": [
+    "Palatine Hill"
+  ],
+  "reviewed": false,
+  "head": "palatium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "palatium",
+      "gen.sg": "palatii",
+      "acc.sg": "palatium",
+      "dat.sg": "palatio",
+      "abl.sg": "palatio",
+      "gen.pl": "palatiorum",
+      "dat.pl": "palatiis",
+      "abl.pl": "palatiis",
+      "nom.pl": "palatia",
+      "acc.pl": "palatia"
+    }
+  }
+}

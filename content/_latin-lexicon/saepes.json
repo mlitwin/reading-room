@@ -1,0 +1,37 @@
+{
+  "lemma": "saepes",
+  "pos": "noun",
+  "glosses": [
+    "hedge",
+    "fence",
+    "anything planted/erected to form surrounding barrier"
+  ],
+  "reviewed": false,
+  "head": "saepes, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "saepi",
+      "acc.sg": "saepem",
+      "nom.pl": "saepis",
+      "gen.pl": "saepium",
+      "acc.pl": "saepis",
+      "nom.sg": "saepes",
+      "gen.sg": "saepis",
+      "dat.sg": "saepi",
+      "dat.pl": "saepibus",
+      "abl.pl": "saepibus"
+    }
+  }
+}

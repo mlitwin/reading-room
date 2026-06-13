@@ -1,0 +1,35 @@
+{
+  "lemma": "lucius",
+  "pos": "noun",
+  "glosses": [
+    "pike"
+  ],
+  "reviewed": false,
+  "head": "lucius, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lucius",
+      "gen.sg": "lucii",
+      "dat.sg": "lucio",
+      "abl.sg": "lucio",
+      "acc.sg": "lucium",
+      "nom.pl": "lucii",
+      "gen.pl": "luciorum",
+      "dat.pl": "luciis",
+      "abl.pl": "luciis",
+      "acc.pl": "lucios"
+    }
+  }
+}

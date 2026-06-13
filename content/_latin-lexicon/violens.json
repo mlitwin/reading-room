@@ -1,0 +1,32 @@
+{
+  "lemma": "violens",
+  "pos": "adj",
+  "glosses": [
+    "violent"
+  ],
+  "reviewed": false,
+  "head": "violens, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "violens",
+      "nom.pl.neut": "violentia",
+      "acc.pl.neut": "violentia"
+    }
+  }
+}

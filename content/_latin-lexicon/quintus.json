@@ -1,0 +1,36 @@
+{
+  "lemma": "quintus",
+  "pos": "noun",
+  "glosses": [
+    "Quintus (Roman praenomen)",
+    "(abb. Q.)"
+  ],
+  "reviewed": false,
+  "head": "quintus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "quintus",
+      "gen.sg": "quinti",
+      "dat.sg": "quinto",
+      "abl.sg": "quinto",
+      "acc.sg": "quintum",
+      "nom.pl": "quinti",
+      "gen.pl": "quintorum",
+      "dat.pl": "quintis",
+      "abl.pl": "quintis",
+      "acc.pl": "quintos"
+    }
+  }
+}

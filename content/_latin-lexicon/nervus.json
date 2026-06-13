@@ -1,0 +1,40 @@
+{
+  "lemma": "nervus",
+  "pos": "noun",
+  "glosses": [
+    "sinew/muscle/nerve",
+    "hamstring",
+    "tendon (as material)",
+    "stringed instrument (pl.)",
+    "strength",
+    "vigor, nerve, force, power"
+  ],
+  "reviewed": false,
+  "head": "nervus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nervus",
+      "gen.sg": "nervi",
+      "dat.sg": "nervo",
+      "abl.sg": "nervo",
+      "acc.sg": "nervum",
+      "nom.pl": "nervi",
+      "gen.pl": "nervorum",
+      "dat.pl": "nervis",
+      "abl.pl": "nervis",
+      "acc.pl": "nervos"
+    }
+  }
+}

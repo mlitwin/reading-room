@@ -1,0 +1,42 @@
+{
+  "lemma": "soleo",
+  "pos": "verb",
+  "glosses": [
+    "be in the habit of",
+    "become accustomed to"
+  ],
+  "reviewed": false,
+  "head": "soleo, solere, -i, solitum",
+  "principal_parts": [
+    "soleo",
+    "solere",
+    "-i",
+    "solitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "soleo",
+      "2sg.pres.ind.act": "soles",
+      "3sg.pres.ind.act": "solet",
+      "1pl.pres.ind.act": "solemus",
+      "2pl.pres.ind.act": "soletis",
+      "3pl.pres.ind.act": "solent",
+      "2sg.pres.imp.act": "sole",
+      "2pl.pres.imp.act": "solete"
+    }
+  }
+}

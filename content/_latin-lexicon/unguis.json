@@ -1,0 +1,35 @@
+{
+  "lemma": "unguis",
+  "pos": "noun",
+  "glosses": [
+    "nail, claw, talon"
+  ],
+  "reviewed": false,
+  "head": "unguis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "ungui",
+      "acc.sg": "unguem",
+      "nom.pl": "unguis",
+      "gen.pl": "unguium",
+      "acc.pl": "unguis",
+      "nom.sg": "unguis",
+      "gen.sg": "unguis",
+      "dat.sg": "ungui",
+      "dat.pl": "unguibus",
+      "abl.pl": "unguibus"
+    }
+  }
+}

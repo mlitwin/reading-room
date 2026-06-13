@@ -1,0 +1,38 @@
+{
+  "lemma": "ponto",
+  "pos": "noun",
+  "glosses": [
+    "large flat boat, barge",
+    "punt",
+    "pontoon",
+    "ferry boat"
+  ],
+  "reviewed": false,
+  "head": "ponto, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "pontonem",
+      "gen.pl": "pontonum",
+      "acc.pl": "pontonis",
+      "nom.sg": "ponto",
+      "gen.sg": "pontonis",
+      "dat.sg": "pontoni",
+      "abl.sg": "pontone",
+      "nom.pl": "pontones",
+      "dat.pl": "pontonibus",
+      "abl.pl": "pontonibus"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "testis",
+  "pos": "noun",
+  "glosses": [
+    "testicle (usu. pl.)"
+  ],
+  "reviewed": false,
+  "head": "testis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "testi",
+      "acc.sg": "testem",
+      "nom.pl": "testis",
+      "gen.pl": "testium",
+      "acc.pl": "testis",
+      "nom.sg": "testis",
+      "gen.sg": "testis",
+      "dat.sg": "testi",
+      "dat.pl": "testibus",
+      "abl.pl": "testibus"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "missa",
+  "pos": "noun",
+  "glosses": [
+    "Mass (eccl.)"
+  ],
+  "reviewed": false,
+  "head": "missa, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "missa",
+      "gen.sg": "missae",
+      "abl.sg": "missa",
+      "acc.sg": "missam",
+      "dat.sg": "missae",
+      "nom.pl": "missae",
+      "gen.pl": "missarum",
+      "dat.pl": "missis",
+      "abl.pl": "missis",
+      "acc.pl": "missas"
+    }
+  }
+}

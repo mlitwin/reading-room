@@ -1,0 +1,38 @@
+{
+  "lemma": "nebula",
+  "pos": "noun",
+  "glosses": [
+    "mist, fog",
+    "cloud (dust/smoke/confusion/error)",
+    "thin film, veneer",
+    "obscurity"
+  ],
+  "reviewed": false,
+  "head": "nebula, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nebula",
+      "gen.sg": "nebulae",
+      "abl.sg": "nebula",
+      "acc.sg": "nebulam",
+      "dat.sg": "nebulae",
+      "nom.pl": "nebulae",
+      "gen.pl": "nebularum",
+      "dat.pl": "nebulis",
+      "abl.pl": "nebulis",
+      "acc.pl": "nebulas"
+    }
+  }
+}

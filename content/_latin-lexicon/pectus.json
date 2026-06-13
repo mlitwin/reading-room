@@ -1,0 +1,36 @@
+{
+  "lemma": "pectus",
+  "pos": "noun",
+  "glosses": [
+    "breast, heart",
+    "feeling, soul, mind"
+  ],
+  "reviewed": false,
+  "head": "pectus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "pectore",
+      "acc.sg": "pectus",
+      "nom.pl": "pectora",
+      "gen.pl": "pectorum",
+      "acc.pl": "pectora",
+      "nom.sg": "pectus",
+      "gen.sg": "pectoris",
+      "dat.sg": "pectori",
+      "dat.pl": "pectoribus",
+      "abl.pl": "pectoribus"
+    }
+  }
+}

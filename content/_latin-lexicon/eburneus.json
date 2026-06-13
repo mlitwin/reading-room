@@ -1,0 +1,55 @@
+{
+  "lemma": "eburneus",
+  "pos": "adj",
+  "glosses": [
+    "ivory, of ivory",
+    "white as ivory, ivory-colored",
+    "[dens ~ => elephant tusk]"
+  ],
+  "reviewed": false,
+  "head": "eburneus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "eburneus",
+      "gen.sg.masc": "eburnei",
+      "dat.sg.masc": "eburneo",
+      "gen.sg.fem": "eburneae",
+      "dat.sg.fem": "eburneae",
+      "nom.sg.neut": "eburneum",
+      "gen.sg.neut": "eburnei",
+      "dat.sg.neut": "eburneo",
+      "acc.sg.neut": "eburneum",
+      "acc.sg.masc": "eburneum",
+      "abl.sg.masc": "eburneo",
+      "nom.pl.masc": "eburnei",
+      "gen.pl.masc": "eburneorum",
+      "acc.pl.masc": "eburneos",
+      "nom.sg.fem": "eburnea",
+      "acc.sg.fem": "eburneam",
+      "abl.sg.fem": "eburnea",
+      "nom.pl.fem": "eburneae",
+      "gen.pl.fem": "eburnearum",
+      "acc.pl.fem": "eburneas",
+      "abl.sg.neut": "eburneo",
+      "nom.pl.neut": "eburnea",
+      "gen.pl.neut": "eburneorum",
+      "acc.pl.neut": "eburnea"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lemma": "tyrannus",
+  "pos": "noun",
+  "glosses": [
+    "tyrant",
+    "despot",
+    "monarch, absolute ruler",
+    "king, prince"
+  ],
+  "reviewed": false,
+  "head": "tyrannus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "tyrannus",
+      "gen.sg": "tyranni",
+      "dat.sg": "tyranno",
+      "abl.sg": "tyranno",
+      "acc.sg": "tyrannum",
+      "nom.pl": "tyranni",
+      "gen.pl": "tyrannorum",
+      "dat.pl": "tyrannis",
+      "abl.pl": "tyrannis",
+      "acc.pl": "tyrannos"
+    }
+  }
+}

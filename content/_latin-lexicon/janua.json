@@ -1,0 +1,35 @@
+{
+  "lemma": "janua",
+  "pos": "noun",
+  "glosses": [
+    "door, entrance"
+  ],
+  "reviewed": false,
+  "head": "janua, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "janua",
+      "gen.sg": "januae",
+      "abl.sg": "janua",
+      "acc.sg": "januam",
+      "dat.sg": "januae",
+      "nom.pl": "januae",
+      "gen.pl": "januarum",
+      "dat.pl": "januis",
+      "abl.pl": "januis",
+      "acc.pl": "januas"
+    }
+  }
+}

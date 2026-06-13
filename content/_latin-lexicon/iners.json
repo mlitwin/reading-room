@@ -1,0 +1,33 @@
+{
+  "lemma": "iners",
+  "pos": "adj",
+  "glosses": [
+    "helpless, weak, inactive, inert, sluggish, stagnant",
+    "unskillful, incompetent"
+  ],
+  "reviewed": false,
+  "head": "iners, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "iners",
+      "nom.pl.neut": "inertia",
+      "acc.pl.neut": "inertia"
+    }
+  }
+}

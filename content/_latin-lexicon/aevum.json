@@ -1,0 +1,37 @@
+{
+  "lemma": "aevum",
+  "pos": "noun",
+  "glosses": [
+    "time, time of life, age, old age, generation",
+    "passage/lapse of time",
+    "all time"
+  ],
+  "reviewed": false,
+  "head": "aevum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aevum",
+      "gen.sg": "aevi",
+      "acc.sg": "aevum",
+      "dat.sg": "aevo",
+      "abl.sg": "aevo",
+      "gen.pl": "aevorum",
+      "dat.pl": "aevis",
+      "abl.pl": "aevis",
+      "nom.pl": "aeva",
+      "acc.pl": "aeva"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "lemma": "revoco",
+  "pos": "verb",
+  "glosses": [
+    "call back, recall",
+    "revive",
+    "regain"
+  ],
+  "reviewed": false,
+  "head": "revoco, revocare, revocavi, revocatum",
+  "principal_parts": [
+    "revoco",
+    "revocare",
+    "revocavi",
+    "revocatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "revoco",
+      "2sg.pres.ind.act": "revocas",
+      "3sg.pres.ind.act": "revocat",
+      "1pl.pres.ind.act": "revocamus",
+      "2pl.pres.ind.act": "revocatis",
+      "3pl.pres.ind.act": "revocant",
+      "2sg.pres.imp.act": "revoca",
+      "2pl.pres.imp.act": "revocate"
+    }
+  }
+}

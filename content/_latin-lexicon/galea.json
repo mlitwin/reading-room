@@ -1,0 +1,35 @@
+{
+  "lemma": "galea",
+  "pos": "noun",
+  "glosses": [
+    "helmet"
+  ],
+  "reviewed": false,
+  "head": "galea, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "galea",
+      "gen.sg": "galeae",
+      "abl.sg": "galea",
+      "acc.sg": "galeam",
+      "dat.sg": "galeae",
+      "nom.pl": "galeae",
+      "gen.pl": "galearum",
+      "dat.pl": "galeis",
+      "abl.pl": "galeis",
+      "acc.pl": "galeas"
+    }
+  }
+}

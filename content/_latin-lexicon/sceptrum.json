@@ -1,0 +1,35 @@
+{
+  "lemma": "sceptrum",
+  "pos": "noun",
+  "glosses": [
+    "scepter"
+  ],
+  "reviewed": false,
+  "head": "sceptrum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sceptrum",
+      "gen.sg": "sceptri",
+      "acc.sg": "sceptrum",
+      "dat.sg": "sceptro",
+      "abl.sg": "sceptro",
+      "gen.pl": "sceptrorum",
+      "dat.pl": "sceptris",
+      "abl.pl": "sceptris",
+      "nom.pl": "sceptra",
+      "acc.pl": "sceptra"
+    }
+  }
+}

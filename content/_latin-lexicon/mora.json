@@ -1,0 +1,36 @@
+{
+  "lemma": "mora",
+  "pos": "noun",
+  "glosses": [
+    "mulberry",
+    "fruit of the black mulberry"
+  ],
+  "reviewed": false,
+  "head": "mora, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "morum",
+      "gen.sg": "mori",
+      "acc.sg": "morum",
+      "dat.sg": "moro",
+      "abl.sg": "moro",
+      "gen.pl": "mororum",
+      "dat.pl": "moris",
+      "abl.pl": "moris",
+      "nom.pl": "mora",
+      "acc.pl": "mora"
+    }
+  }
+}

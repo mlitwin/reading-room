@@ -1,0 +1,42 @@
+{
+  "lemma": "inflo",
+  "pos": "verb",
+  "glosses": [
+    "blow into/upon",
+    "puff out"
+  ],
+  "reviewed": false,
+  "head": "inflo, inflare, inflavi, inflatum",
+  "principal_parts": [
+    "inflo",
+    "inflare",
+    "inflavi",
+    "inflatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "inflo",
+      "2sg.pres.ind.act": "inflas",
+      "3sg.pres.ind.act": "inflat",
+      "1pl.pres.ind.act": "inflamus",
+      "2pl.pres.ind.act": "inflatis",
+      "3pl.pres.ind.act": "inflant",
+      "2sg.pres.imp.act": "infla",
+      "2pl.pres.imp.act": "inflate"
+    }
+  }
+}

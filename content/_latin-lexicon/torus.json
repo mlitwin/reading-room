@@ -1,0 +1,37 @@
+{
+  "lemma": "torus",
+  "pos": "noun",
+  "glosses": [
+    "swelling, protuberance",
+    "mussel, brawn",
+    "bed, couch, stuffed bolster, cushion"
+  ],
+  "reviewed": false,
+  "head": "torus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "torus",
+      "gen.sg": "tori",
+      "dat.sg": "toro",
+      "abl.sg": "toro",
+      "acc.sg": "torum",
+      "nom.pl": "tori",
+      "gen.pl": "tororum",
+      "dat.pl": "toris",
+      "abl.pl": "toris",
+      "acc.pl": "toros"
+    }
+  }
+}

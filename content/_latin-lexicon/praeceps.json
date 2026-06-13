@@ -1,0 +1,36 @@
+{
+  "lemma": "praeceps",
+  "pos": "noun",
+  "glosses": [
+    "edge of abyss",
+    "great danger"
+  ],
+  "reviewed": false,
+  "head": "praeceps, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "praecipite",
+      "acc.sg": "praeceps",
+      "nom.pl": "praecipita",
+      "gen.pl": "praecipitum",
+      "acc.pl": "praecipita",
+      "nom.sg": "praeceps",
+      "gen.sg": "praecipitis",
+      "dat.sg": "praecipiti",
+      "dat.pl": "praecipitibus",
+      "abl.pl": "praecipitibus"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "lemma": "indigestus",
+  "pos": "adj",
+  "glosses": [
+    "disordered, confused, chaotic",
+    "jumbled"
+  ],
+  "reviewed": false,
+  "head": "indigestus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "indigestus",
+      "gen.sg.masc": "indigesti",
+      "dat.sg.masc": "indigesto",
+      "gen.sg.fem": "indigestae",
+      "dat.sg.fem": "indigestae",
+      "nom.sg.neut": "indigestum",
+      "gen.sg.neut": "indigesti",
+      "dat.sg.neut": "indigesto",
+      "acc.sg.neut": "indigestum",
+      "acc.sg.masc": "indigestum",
+      "abl.sg.masc": "indigesto",
+      "nom.pl.masc": "indigesti",
+      "gen.pl.masc": "indigestorum",
+      "acc.pl.masc": "indigestos",
+      "nom.sg.fem": "indigesta",
+      "acc.sg.fem": "indigestam",
+      "abl.sg.fem": "indigesta",
+      "nom.pl.fem": "indigestae",
+      "gen.pl.fem": "indigestarum",
+      "acc.pl.fem": "indigestas",
+      "abl.sg.neut": "indigesto",
+      "nom.pl.neut": "indigesta",
+      "gen.pl.neut": "indigestorum",
+      "acc.pl.neut": "indigesta"
+    }
+  }
+}

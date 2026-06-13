@@ -1,0 +1,33 @@
+{
+  "lemma": "pluvialis",
+  "pos": "adj",
+  "glosses": [
+    "rain bringing, rainy"
+  ],
+  "reviewed": false,
+  "head": "pluvialis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "pluviale",
+      "acc.sg.neut": "pluviale",
+      "nom.pl.neut": "pluvialia",
+      "acc.pl.neut": "pluvialia"
+    }
+  }
+}

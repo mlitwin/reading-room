@@ -1,0 +1,38 @@
+{
+  "lemma": "documentum",
+  "pos": "noun",
+  "glosses": [
+    "lesson, instruction",
+    "warning, example",
+    "document",
+    "proof"
+  ],
+  "reviewed": false,
+  "head": "documentum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "documentum",
+      "gen.sg": "documenti",
+      "acc.sg": "documentum",
+      "dat.sg": "documento",
+      "abl.sg": "documento",
+      "gen.pl": "documentorum",
+      "dat.pl": "documentis",
+      "abl.pl": "documentis",
+      "nom.pl": "documenta",
+      "acc.pl": "documenta"
+    }
+  }
+}

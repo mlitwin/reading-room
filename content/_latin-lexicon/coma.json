@@ -1,0 +1,38 @@
+{
+  "lemma": "coma",
+  "pos": "noun",
+  "glosses": [
+    "hair, hair of head, mane of animal",
+    "wool, fleece",
+    "foliage, leaves",
+    "rays"
+  ],
+  "reviewed": false,
+  "head": "coma, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "coma",
+      "gen.sg": "comae",
+      "abl.sg": "coma",
+      "acc.sg": "comam",
+      "dat.sg": "comae",
+      "nom.pl": "comae",
+      "gen.pl": "comarum",
+      "dat.pl": "comis",
+      "abl.pl": "comis",
+      "acc.pl": "comas"
+    }
+  }
+}

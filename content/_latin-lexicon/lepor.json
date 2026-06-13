@@ -1,0 +1,35 @@
+{
+  "lemma": "lepor",
+  "pos": "noun",
+  "glosses": [
+    "charm, pleasantness"
+  ],
+  "reviewed": false,
+  "head": "lepor, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "leporem",
+      "gen.pl": "leporum",
+      "acc.pl": "leporis",
+      "nom.sg": "lepor",
+      "gen.sg": "leporis",
+      "dat.sg": "lepori",
+      "abl.sg": "lepore",
+      "nom.pl": "lepores",
+      "dat.pl": "leporibus",
+      "abl.pl": "leporibus"
+    }
+  }
+}

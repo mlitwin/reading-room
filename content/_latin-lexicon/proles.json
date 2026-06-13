@@ -1,0 +1,38 @@
+{
+  "lemma": "proles",
+  "pos": "noun",
+  "glosses": [
+    "offspring, descendant",
+    "that springs by birth/descent",
+    "generation",
+    "race, breed"
+  ],
+  "reviewed": false,
+  "head": "proles, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "proli",
+      "acc.sg": "prolem",
+      "nom.pl": "prolis",
+      "gen.pl": "prolium",
+      "acc.pl": "prolis",
+      "nom.sg": "proles",
+      "gen.sg": "prolis",
+      "dat.sg": "proli",
+      "dat.pl": "prolibus",
+      "abl.pl": "prolibus"
+    }
+  }
+}

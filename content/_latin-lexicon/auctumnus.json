@@ -1,0 +1,36 @@
+{
+  "lemma": "auctumnus",
+  "pos": "noun",
+  "glosses": [
+    "autumn",
+    "autumn fruits, harvest"
+  ],
+  "reviewed": false,
+  "head": "auctumnus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "auctumnus",
+      "gen.sg": "auctumni",
+      "dat.sg": "auctumno",
+      "abl.sg": "auctumno",
+      "acc.sg": "auctumnum",
+      "nom.pl": "auctumni",
+      "gen.pl": "auctumnorum",
+      "dat.pl": "auctumnis",
+      "abl.pl": "auctumnis",
+      "acc.pl": "auctumnos"
+    }
+  }
+}

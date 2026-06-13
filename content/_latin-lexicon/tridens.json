@@ -1,0 +1,35 @@
+{
+  "lemma": "tridens",
+  "pos": "noun",
+  "glosses": [
+    "trident"
+  ],
+  "reviewed": false,
+  "head": "tridens, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "tridenti",
+      "acc.sg": "tridentem",
+      "nom.pl": "tridentis",
+      "gen.pl": "tridentium",
+      "acc.pl": "tridentis",
+      "nom.sg": "tridens",
+      "gen.sg": "tridentis",
+      "dat.sg": "tridenti",
+      "dat.pl": "tridentibus",
+      "abl.pl": "tridentibus"
+    }
+  }
+}

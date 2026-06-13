@@ -1,0 +1,55 @@
+{
+  "lemma": "immensus",
+  "pos": "adj",
+  "glosses": [
+    "immeasurable, immense/vast/boundless/unending",
+    "infinitely great",
+    "innumerable"
+  ],
+  "reviewed": false,
+  "head": "immensus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "immensus",
+      "gen.sg.masc": "immensi",
+      "dat.sg.masc": "immenso",
+      "gen.sg.fem": "immensae",
+      "dat.sg.fem": "immensae",
+      "nom.sg.neut": "immensum",
+      "gen.sg.neut": "immensi",
+      "dat.sg.neut": "immenso",
+      "acc.sg.neut": "immensum",
+      "acc.sg.masc": "immensum",
+      "abl.sg.masc": "immenso",
+      "nom.pl.masc": "immensi",
+      "gen.pl.masc": "immensorum",
+      "acc.pl.masc": "immensos",
+      "nom.sg.fem": "immensa",
+      "acc.sg.fem": "immensam",
+      "abl.sg.fem": "immensa",
+      "nom.pl.fem": "immensae",
+      "gen.pl.fem": "immensarum",
+      "acc.pl.fem": "immensas",
+      "abl.sg.neut": "immenso",
+      "nom.pl.neut": "immensa",
+      "gen.pl.neut": "immensorum",
+      "acc.pl.neut": "immensa"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "leo",
+  "pos": "noun",
+  "glosses": [
+    "Leo (name of several Popes)",
+    "priests (pl.) of Persian god Mithras"
+  ],
+  "reviewed": false,
+  "head": "leo, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "leonem",
+      "gen.pl": "leonum",
+      "acc.pl": "leonis",
+      "nom.sg": "leo",
+      "gen.sg": "leonis",
+      "dat.sg": "leoni",
+      "abl.sg": "leone",
+      "nom.pl": "leones",
+      "dat.pl": "leonibus",
+      "abl.pl": "leonibus"
+    }
+  }
+}

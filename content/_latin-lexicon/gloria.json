@@ -1,0 +1,38 @@
+{
+  "lemma": "gloria",
+  "pos": "noun",
+  "glosses": [
+    "glory, fame",
+    "ambition",
+    "renown",
+    "vainglory, boasting"
+  ],
+  "reviewed": false,
+  "head": "gloria, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "gloria",
+      "gen.sg": "gloriae",
+      "abl.sg": "gloria",
+      "acc.sg": "gloriam",
+      "dat.sg": "gloriae",
+      "nom.pl": "gloriae",
+      "gen.pl": "gloriarum",
+      "dat.pl": "gloriis",
+      "abl.pl": "gloriis",
+      "acc.pl": "glorias"
+    }
+  }
+}

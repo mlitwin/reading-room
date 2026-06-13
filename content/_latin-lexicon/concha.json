@@ -1,0 +1,39 @@
+{
+  "lemma": "concha",
+  "pos": "noun",
+  "glosses": [
+    "mollusk/murex/oyster/scallop",
+    "pearl/mollusk-shell",
+    "Triton horn",
+    "female genitalia",
+    "holy-water font"
+  ],
+  "reviewed": false,
+  "head": "concha, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "concha",
+      "gen.sg": "conchae",
+      "abl.sg": "concha",
+      "acc.sg": "concham",
+      "dat.sg": "conchae",
+      "nom.pl": "conchae",
+      "gen.pl": "concharum",
+      "dat.pl": "conchis",
+      "abl.pl": "conchis",
+      "acc.pl": "conchas"
+    }
+  }
+}

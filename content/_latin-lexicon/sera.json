@@ -1,0 +1,35 @@
+{
+  "lemma": "sera",
+  "pos": "noun",
+  "glosses": [
+    "late hour"
+  ],
+  "reviewed": false,
+  "head": "sera, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "serum",
+      "gen.sg": "seri",
+      "acc.sg": "serum",
+      "dat.sg": "sero",
+      "abl.sg": "sero",
+      "gen.pl": "serorum",
+      "dat.pl": "seris",
+      "abl.pl": "seris",
+      "nom.pl": "sera",
+      "acc.pl": "sera"
+    }
+  }
+}

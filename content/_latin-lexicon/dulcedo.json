@@ -1,0 +1,36 @@
+{
+  "lemma": "dulcedo",
+  "pos": "noun",
+  "glosses": [
+    "sweetness, agreeableness",
+    "charm"
+  ],
+  "reviewed": false,
+  "head": "dulcedo, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "dulcedinem",
+      "gen.pl": "dulcedinum",
+      "acc.pl": "dulcedinis",
+      "nom.sg": "dulcedo",
+      "gen.sg": "dulcedinis",
+      "dat.sg": "dulcedini",
+      "abl.sg": "dulcedine",
+      "nom.pl": "dulcedines",
+      "dat.pl": "dulcedinibus",
+      "abl.pl": "dulcedinibus"
+    }
+  }
+}

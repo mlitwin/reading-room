@@ -1,0 +1,44 @@
+{
+  "lemma": "in-cubo",
+  "pos": "verb",
+  "glosses": [
+    "lie (down/asleep)",
+    "recline, incline",
+    "lie/be in bed, rest/sleep",
+    "be sick/dead"
+  ],
+  "reviewed": false,
+  "head": "in-cubo, cubare, cubui, cubitum",
+  "principal_parts": [
+    "in-cubo",
+    "cubare",
+    "cubui",
+    "cubitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "cubo",
+      "2sg.pres.ind.act": "cubas",
+      "3sg.pres.ind.act": "cubat",
+      "1pl.pres.ind.act": "cubamus",
+      "2pl.pres.ind.act": "cubatis",
+      "3pl.pres.ind.act": "cubant",
+      "2sg.pres.imp.act": "cuba",
+      "2pl.pres.imp.act": "cubate"
+    }
+  }
+}

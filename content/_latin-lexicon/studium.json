@@ -1,0 +1,36 @@
+{
+  "lemma": "studium",
+  "pos": "noun",
+  "glosses": [
+    "eagerness, enthusiasm, zeal, spirit",
+    "devotion, pursuit, study"
+  ],
+  "reviewed": false,
+  "head": "studium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "studium",
+      "gen.sg": "studii",
+      "acc.sg": "studium",
+      "dat.sg": "studio",
+      "abl.sg": "studio",
+      "gen.pl": "studiorum",
+      "dat.pl": "studiis",
+      "abl.pl": "studiis",
+      "nom.pl": "studia",
+      "acc.pl": "studia"
+    }
+  }
+}

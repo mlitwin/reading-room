@@ -1,0 +1,39 @@
+{
+  "lemma": "malo",
+  "pos": "verb",
+  "glosses": [
+    "prefer",
+    "incline toward, wish rather"
+  ],
+  "reviewed": false,
+  "head": "malo, malre, malui, -um",
+  "principal_parts": [
+    "malo",
+    "malre",
+    "malui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "malo",
+      "1pl.pres.ind.act": "malumus",
+      "3pl.pres.ind.act": "malunt",
+      "2sg.pres.imp.act": "mali",
+      "2pl.pres.imp.act": "malite"
+    }
+  }
+}

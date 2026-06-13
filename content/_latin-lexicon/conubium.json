@@ -1,0 +1,40 @@
+{
+  "lemma": "conubium",
+  "pos": "noun",
+  "glosses": [
+    "marriage/wedlock",
+    "right to marry",
+    "act/ceremony of marriage (usu. pl.)",
+    "intermarriage between two groups of people/instance of it",
+    "right to intermarry",
+    "married partner/spouse, husband/wife"
+  ],
+  "reviewed": false,
+  "head": "conubium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "conubium",
+      "gen.sg": "conubii",
+      "acc.sg": "conubium",
+      "dat.sg": "conubio",
+      "abl.sg": "conubio",
+      "gen.pl": "conubiorum",
+      "dat.pl": "conubiis",
+      "abl.pl": "conubiis",
+      "nom.pl": "conubia",
+      "acc.pl": "conubia"
+    }
+  }
+}

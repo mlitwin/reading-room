@@ -1,0 +1,41 @@
+{
+  "lemma": "ostendo",
+  "pos": "verb",
+  "glosses": [
+    "show",
+    "reveal",
+    "make clear, point out, display, exhibit"
+  ],
+  "reviewed": false,
+  "head": "ostendo, ostendere, ostendi, ostensum",
+  "principal_parts": [
+    "ostendo",
+    "ostendere",
+    "ostendi",
+    "ostensum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "ostendis",
+      "3sg.pres.ind.act": "ostendit",
+      "1pl.pres.ind.act": "ostendimus",
+      "2pl.pres.ind.act": "ostenditis",
+      "2sg.pres.imp.act": "ostende",
+      "2pl.pres.imp.act": "ostendite"
+    }
+  }
+}

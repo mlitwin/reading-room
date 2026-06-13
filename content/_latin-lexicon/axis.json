@@ -1,0 +1,39 @@
+{
+  "lemma": "axis",
+  "pos": "noun",
+  "glosses": [
+    "axle, axis, pole",
+    "chariot",
+    "the sky, heaven",
+    "north pole",
+    "region, clime"
+  ],
+  "reviewed": false,
+  "head": "axis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "axi",
+      "acc.sg": "axem",
+      "nom.pl": "axis",
+      "gen.pl": "axium",
+      "acc.pl": "axis",
+      "nom.sg": "axis",
+      "gen.sg": "axis",
+      "dat.sg": "axi",
+      "dat.pl": "axibus",
+      "abl.pl": "axibus"
+    }
+  }
+}

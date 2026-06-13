@@ -1,0 +1,35 @@
+{
+  "lemma": "oculus",
+  "pos": "noun",
+  "glosses": [
+    "eye"
+  ],
+  "reviewed": false,
+  "head": "oculus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "oculus",
+      "gen.sg": "oculi",
+      "dat.sg": "oculo",
+      "abl.sg": "oculo",
+      "acc.sg": "oculum",
+      "nom.pl": "oculi",
+      "gen.pl": "oculorum",
+      "dat.pl": "oculis",
+      "abl.pl": "oculis",
+      "acc.pl": "oculos"
+    }
+  }
+}

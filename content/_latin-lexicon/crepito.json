@@ -1,0 +1,43 @@
+{
+  "lemma": "crepito",
+  "pos": "verb",
+  "glosses": [
+    "rattle/clatter",
+    "rustle/crackle",
+    "produce rapid succession of sharp/shrill noises"
+  ],
+  "reviewed": false,
+  "head": "crepito, crepitare, crepitavi, crepitatum",
+  "principal_parts": [
+    "crepito",
+    "crepitare",
+    "crepitavi",
+    "crepitatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "crepito",
+      "2sg.pres.ind.act": "crepitas",
+      "3sg.pres.ind.act": "crepitat",
+      "1pl.pres.ind.act": "crepitamus",
+      "2pl.pres.ind.act": "crepitatis",
+      "3pl.pres.ind.act": "crepitant",
+      "2sg.pres.imp.act": "crepita",
+      "2pl.pres.imp.act": "crepitate"
+    }
+  }
+}

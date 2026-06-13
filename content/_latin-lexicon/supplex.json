@@ -1,0 +1,35 @@
+{
+  "lemma": "supplex",
+  "pos": "noun",
+  "glosses": [
+    "suppliant"
+  ],
+  "reviewed": false,
+  "head": "supplex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "supplicem",
+      "gen.pl": "supplicum",
+      "acc.pl": "supplicis",
+      "nom.sg": "supplex",
+      "gen.sg": "supplicis",
+      "dat.sg": "supplici",
+      "abl.sg": "supplice",
+      "nom.pl": "supplices",
+      "dat.pl": "supplicibus",
+      "abl.pl": "supplicibus"
+    }
+  }
+}

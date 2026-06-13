@@ -1,0 +1,35 @@
+{
+  "lemma": "gravida",
+  "pos": "noun",
+  "glosses": [
+    "pregnant woman"
+  ],
+  "reviewed": false,
+  "head": "gravida, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "gravida",
+      "gen.sg": "gravidae",
+      "abl.sg": "gravida",
+      "acc.sg": "gravidam",
+      "dat.sg": "gravidae",
+      "nom.pl": "gravidae",
+      "gen.pl": "gravidarum",
+      "dat.pl": "gravidis",
+      "abl.pl": "gravidis",
+      "acc.pl": "gravidas"
+    }
+  }
+}

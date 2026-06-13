@@ -1,0 +1,35 @@
+{
+  "lemma": "saxum",
+  "pos": "noun",
+  "glosses": [
+    "stone"
+  ],
+  "reviewed": false,
+  "head": "saxum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "saxum",
+      "gen.sg": "saxi",
+      "acc.sg": "saxum",
+      "dat.sg": "saxo",
+      "abl.sg": "saxo",
+      "gen.pl": "saxorum",
+      "dat.pl": "saxis",
+      "abl.pl": "saxis",
+      "nom.pl": "saxa",
+      "acc.pl": "saxa"
+    }
+  }
+}

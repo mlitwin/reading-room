@@ -1,0 +1,38 @@
+{
+  "lemma": "mensor",
+  "pos": "noun",
+  "glosses": [
+    "mind",
+    "reason, intellect, judgment",
+    "plan, intention, frame of mind",
+    "courage"
+  ],
+  "reviewed": false,
+  "head": "mensor, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "menti",
+      "acc.sg": "mentem",
+      "nom.pl": "mentis",
+      "gen.pl": "mentium",
+      "acc.pl": "mentis",
+      "nom.sg": "mens",
+      "gen.sg": "mentis",
+      "dat.sg": "menti",
+      "dat.pl": "mentibus",
+      "abl.pl": "mentibus"
+    }
+  }
+}

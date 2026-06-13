@@ -1,0 +1,35 @@
+{
+  "lemma": "nimbus",
+  "pos": "noun",
+  "glosses": [
+    "rainstorm, cloud"
+  ],
+  "reviewed": false,
+  "head": "nimbus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nimbus",
+      "gen.sg": "nimbi",
+      "dat.sg": "nimbo",
+      "abl.sg": "nimbo",
+      "acc.sg": "nimbum",
+      "nom.pl": "nimbi",
+      "gen.pl": "nimborum",
+      "dat.pl": "nimbis",
+      "abl.pl": "nimbis",
+      "acc.pl": "nimbos"
+    }
+  }
+}

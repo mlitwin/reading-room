@@ -1,0 +1,56 @@
+{
+  "lemma": "stellatus",
+  "pos": "adj",
+  "glosses": [
+    "starry",
+    "set with stars",
+    "sparkling, glittering",
+    "shaped like a star or \"X\""
+  ],
+  "reviewed": false,
+  "head": "stellatus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "stellatus",
+      "gen.sg.masc": "stellati",
+      "dat.sg.masc": "stellato",
+      "gen.sg.fem": "stellatae",
+      "dat.sg.fem": "stellatae",
+      "nom.sg.neut": "stellatum",
+      "gen.sg.neut": "stellati",
+      "dat.sg.neut": "stellato",
+      "acc.sg.neut": "stellatum",
+      "acc.sg.masc": "stellatum",
+      "abl.sg.masc": "stellato",
+      "nom.pl.masc": "stellati",
+      "gen.pl.masc": "stellatorum",
+      "acc.pl.masc": "stellatos",
+      "nom.sg.fem": "stellata",
+      "acc.sg.fem": "stellatam",
+      "abl.sg.fem": "stellata",
+      "nom.pl.fem": "stellatae",
+      "gen.pl.fem": "stellatarum",
+      "acc.pl.fem": "stellatas",
+      "abl.sg.neut": "stellato",
+      "nom.pl.neut": "stellata",
+      "gen.pl.neut": "stellatorum",
+      "acc.pl.neut": "stellata"
+    }
+  }
+}

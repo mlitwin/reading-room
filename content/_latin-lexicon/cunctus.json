@@ -1,0 +1,36 @@
+{
+  "lemma": "cunctus",
+  "pos": "noun",
+  "glosses": [
+    "all (pl.) (M)",
+    "all with a stated/implied exception"
+  ],
+  "reviewed": false,
+  "head": "cunctus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cunctus",
+      "gen.sg": "cuncti",
+      "dat.sg": "cuncto",
+      "abl.sg": "cuncto",
+      "acc.sg": "cunctum",
+      "nom.pl": "cuncti",
+      "gen.pl": "cunctorum",
+      "dat.pl": "cunctis",
+      "abl.pl": "cunctis",
+      "acc.pl": "cunctos"
+    }
+  }
+}

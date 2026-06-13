@@ -1,0 +1,36 @@
+{
+  "lemma": "juvenca",
+  "pos": "noun",
+  "glosses": [
+    "young cow, heifer",
+    "girl"
+  ],
+  "reviewed": false,
+  "head": "juvenca, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "juvenca",
+      "gen.sg": "juvencae",
+      "abl.sg": "juvenca",
+      "acc.sg": "juvencam",
+      "dat.sg": "juvencae",
+      "nom.pl": "juvencae",
+      "gen.pl": "juvencarum",
+      "dat.pl": "juvencis",
+      "abl.pl": "juvencis",
+      "acc.pl": "juvencas"
+    }
+  }
+}

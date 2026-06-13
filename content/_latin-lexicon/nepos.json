@@ -1,0 +1,38 @@
+{
+  "lemma": "nepos",
+  "pos": "noun",
+  "glosses": [
+    "grandson/daughter",
+    "descendant",
+    "spendthrift, prodigal, playboy",
+    "secondary shoot"
+  ],
+  "reviewed": false,
+  "head": "nepos, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "nepotem",
+      "gen.pl": "nepotum",
+      "acc.pl": "nepotis",
+      "nom.sg": "nepos",
+      "gen.sg": "nepotis",
+      "dat.sg": "nepoti",
+      "abl.sg": "nepote",
+      "nom.pl": "nepotes",
+      "dat.pl": "nepotibus",
+      "abl.pl": "nepotibus"
+    }
+  }
+}

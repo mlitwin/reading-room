@@ -1,0 +1,39 @@
+{
+  "lemma": "summum",
+  "pos": "noun",
+  "glosses": [
+    "top",
+    "summit, end, last",
+    "highest place",
+    "top surface",
+    "(voice) highest, loudest"
+  ],
+  "reviewed": false,
+  "head": "summum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "summum",
+      "gen.sg": "summi",
+      "acc.sg": "summum",
+      "dat.sg": "summo",
+      "abl.sg": "summo",
+      "gen.pl": "summorum",
+      "dat.pl": "summis",
+      "abl.pl": "summis",
+      "nom.pl": "summa",
+      "acc.pl": "summa"
+    }
+  }
+}

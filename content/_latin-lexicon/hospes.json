@@ -1,0 +1,38 @@
+{
+  "lemma": "hospes",
+  "pos": "noun",
+  "glosses": [
+    "host",
+    "guest, visitor, stranger",
+    "soldier in billets",
+    "one who billets soldiers"
+  ],
+  "reviewed": false,
+  "head": "hospes, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "hospitem",
+      "gen.pl": "hospitum",
+      "acc.pl": "hospitis",
+      "nom.sg": "hospes",
+      "gen.sg": "hospitis",
+      "dat.sg": "hospiti",
+      "abl.sg": "hospite",
+      "nom.pl": "hospites",
+      "dat.pl": "hospitibus",
+      "abl.pl": "hospitibus"
+    }
+  }
+}

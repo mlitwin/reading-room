@@ -1,0 +1,36 @@
+{
+  "lemma": "blanditia",
+  "pos": "noun",
+  "glosses": [
+    "flattery, caress, compliment",
+    "charm (pl.), flatteries, enticement, courtship"
+  ],
+  "reviewed": false,
+  "head": "blanditia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "blanditia",
+      "gen.sg": "blanditiae",
+      "abl.sg": "blanditia",
+      "acc.sg": "blanditiam",
+      "dat.sg": "blanditiae",
+      "nom.pl": "blanditiae",
+      "gen.pl": "blanditiarum",
+      "dat.pl": "blanditiis",
+      "abl.pl": "blanditiis",
+      "acc.pl": "blanditias"
+    }
+  }
+}

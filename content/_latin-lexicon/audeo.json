@@ -1,0 +1,42 @@
+{
+  "lemma": "audeo",
+  "pos": "verb",
+  "glosses": [
+    "intend, be prepared",
+    "dare/have courage (to go/do), act boldly, venture, risk"
+  ],
+  "reviewed": false,
+  "head": "audeo, audere, ausi, ausum",
+  "principal_parts": [
+    "audeo",
+    "audere",
+    "ausi",
+    "ausum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "audeo",
+      "2sg.pres.ind.act": "audes",
+      "3sg.pres.ind.act": "audet",
+      "1pl.pres.ind.act": "audemus",
+      "2pl.pres.ind.act": "audetis",
+      "3pl.pres.ind.act": "audent",
+      "2sg.pres.imp.act": "aude",
+      "2pl.pres.imp.act": "audete"
+    }
+  }
+}

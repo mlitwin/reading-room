@@ -1,0 +1,43 @@
+{
+  "lemma": "pugno",
+  "pos": "verb",
+  "glosses": [
+    "fight",
+    "dispute",
+    "[pugnatum est => the battle raged]"
+  ],
+  "reviewed": false,
+  "head": "pugno, pugnare, pugnavi, pugnatum",
+  "principal_parts": [
+    "pugno",
+    "pugnare",
+    "pugnavi",
+    "pugnatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "pugno",
+      "2sg.pres.ind.act": "pugnas",
+      "3sg.pres.ind.act": "pugnat",
+      "1pl.pres.ind.act": "pugnamus",
+      "2pl.pres.ind.act": "pugnatis",
+      "3pl.pres.ind.act": "pugnant",
+      "2sg.pres.imp.act": "pugna",
+      "2pl.pres.imp.act": "pugnate"
+    }
+  }
+}

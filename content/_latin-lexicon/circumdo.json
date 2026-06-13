@@ -1,0 +1,45 @@
+{
+  "lemma": "circumdo",
+  "pos": "verb",
+  "glosses": [
+    "surround",
+    "envelop, post/put/place/build around",
+    "enclose",
+    "beset",
+    "pass around"
+  ],
+  "reviewed": false,
+  "head": "circumdo, circumdare, circumdedi, circumdatum",
+  "principal_parts": [
+    "circumdo",
+    "circumdare",
+    "circumdedi",
+    "circumdatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "circumdo",
+      "2sg.pres.ind.act": "circumdas",
+      "3sg.pres.ind.act": "circumdat",
+      "1pl.pres.ind.act": "circumdamus",
+      "2pl.pres.ind.act": "circumdatis",
+      "3pl.pres.ind.act": "circumdant",
+      "2sg.pres.imp.act": "circumda",
+      "2pl.pres.imp.act": "circumdate"
+    }
+  }
+}

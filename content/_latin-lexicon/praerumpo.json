@@ -1,0 +1,39 @@
+{
+  "lemma": "praerumpo",
+  "pos": "verb",
+  "glosses": [
+    "break off"
+  ],
+  "reviewed": false,
+  "head": "praerumpo, praerumpere, praerupi, praeruptum",
+  "principal_parts": [
+    "praerumpo",
+    "praerumpere",
+    "praerupi",
+    "praeruptum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "praerumpis",
+      "3sg.pres.ind.act": "praerumpit",
+      "1pl.pres.ind.act": "praerumpimus",
+      "2pl.pres.ind.act": "praerumpitis",
+      "2sg.pres.imp.act": "praerumpe",
+      "2pl.pres.imp.act": "praerumpite"
+    }
+  }
+}

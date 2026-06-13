@@ -1,0 +1,40 @@
+{
+  "lemma": "evinco",
+  "pos": "verb",
+  "glosses": [
+    "overcome, conquer, subdue, overwhelm, defeat utterly",
+    "prevail, bring to pass"
+  ],
+  "reviewed": false,
+  "head": "evinco, evincere, evici, evictum",
+  "principal_parts": [
+    "evinco",
+    "evincere",
+    "evici",
+    "evictum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "evincis",
+      "3sg.pres.ind.act": "evincit",
+      "1pl.pres.ind.act": "evincimus",
+      "2pl.pres.ind.act": "evincitis",
+      "2sg.pres.imp.act": "evince",
+      "2pl.pres.imp.act": "evincite"
+    }
+  }
+}

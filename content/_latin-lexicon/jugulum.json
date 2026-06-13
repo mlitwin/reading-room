@@ -1,0 +1,36 @@
+{
+  "lemma": "jugulum",
+  "pos": "noun",
+  "glosses": [
+    "throat, neck",
+    "collarbone"
+  ],
+  "reviewed": false,
+  "head": "jugulum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "jugulum",
+      "gen.sg": "juguli",
+      "acc.sg": "jugulum",
+      "dat.sg": "jugulo",
+      "abl.sg": "jugulo",
+      "gen.pl": "jugulorum",
+      "dat.pl": "jugulis",
+      "abl.pl": "jugulis",
+      "nom.pl": "jugula",
+      "acc.pl": "jugula"
+    }
+  }
+}

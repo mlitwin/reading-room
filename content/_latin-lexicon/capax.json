@@ -1,0 +1,34 @@
+{
+  "lemma": "capax",
+  "pos": "adj",
+  "glosses": [
+    "large, spacious, roomy, big",
+    "capable, fit, competent",
+    "has right to inherit"
+  ],
+  "reviewed": false,
+  "head": "capax, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "capax",
+      "nom.pl.neut": "capacia",
+      "acc.pl.neut": "capacia"
+    }
+  }
+}

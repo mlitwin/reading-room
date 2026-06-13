@@ -1,0 +1,39 @@
+{
+  "lemma": "letum",
+  "pos": "noun",
+  "glosses": [
+    "death",
+    "(usu. violent)",
+    "Death (personified)",
+    "manner of dying",
+    "P:destruction"
+  ],
+  "reviewed": false,
+  "head": "letum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "letum",
+      "gen.sg": "leti",
+      "acc.sg": "letum",
+      "dat.sg": "leto",
+      "abl.sg": "leto",
+      "gen.pl": "letorum",
+      "dat.pl": "letis",
+      "abl.pl": "letis",
+      "nom.pl": "leta",
+      "acc.pl": "leta"
+    }
+  }
+}

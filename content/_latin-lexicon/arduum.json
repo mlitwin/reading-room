@@ -1,0 +1,37 @@
+{
+  "lemma": "arduum",
+  "pos": "noun",
+  "glosses": [
+    "steep/high place, heights, elevation",
+    "arduous/difficult/hard task",
+    "challenge"
+  ],
+  "reviewed": false,
+  "head": "arduum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "arduum",
+      "gen.sg": "ardui",
+      "acc.sg": "arduum",
+      "dat.sg": "arduo",
+      "abl.sg": "arduo",
+      "gen.pl": "arduorum",
+      "dat.pl": "arduis",
+      "abl.pl": "arduis",
+      "nom.pl": "ardua",
+      "acc.pl": "ardua"
+    }
+  }
+}

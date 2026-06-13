@@ -1,0 +1,38 @@
+{
+  "lemma": "tegimen",
+  "pos": "noun",
+  "glosses": [
+    "covering/cover/protection",
+    "clothing",
+    "body armor",
+    "skin/shell/husk (animal/fruit)"
+  ],
+  "reviewed": false,
+  "head": "tegimen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "tegimine",
+      "acc.sg": "tegimen",
+      "nom.pl": "tegimina",
+      "gen.pl": "tegiminum",
+      "acc.pl": "tegimina",
+      "nom.sg": "tegimen",
+      "gen.sg": "tegiminis",
+      "dat.sg": "tegimini",
+      "dat.pl": "tegiminibus",
+      "abl.pl": "tegiminibus"
+    }
+  }
+}

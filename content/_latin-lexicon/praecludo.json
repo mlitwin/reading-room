@@ -1,0 +1,39 @@
+{
+  "lemma": "praecludo",
+  "pos": "verb",
+  "glosses": [
+    "close, block"
+  ],
+  "reviewed": false,
+  "head": "praecludo, praecludere, praeclusi, praeclusum",
+  "principal_parts": [
+    "praecludo",
+    "praecludere",
+    "praeclusi",
+    "praeclusum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "praecludis",
+      "3sg.pres.ind.act": "praecludit",
+      "1pl.pres.ind.act": "praecludimus",
+      "2pl.pres.ind.act": "praecluditis",
+      "2sg.pres.imp.act": "praeclude",
+      "2pl.pres.imp.act": "praecludite"
+    }
+  }
+}

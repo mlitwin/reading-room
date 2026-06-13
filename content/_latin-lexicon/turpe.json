@@ -1,0 +1,37 @@
+{
+  "lemma": "turpe",
+  "pos": "noun",
+  "glosses": [
+    "disgrace",
+    "shame, reproach",
+    "base/shameful thing"
+  ],
+  "reviewed": false,
+  "head": "turpe, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "turpi",
+      "acc.sg": "turpe",
+      "nom.pl": "turpia",
+      "gen.pl": "turpium",
+      "acc.pl": "turpia",
+      "nom.sg": "turpe",
+      "gen.sg": "turpis",
+      "dat.sg": "turpi",
+      "dat.pl": "turpibus",
+      "abl.pl": "turpibus"
+    }
+  }
+}

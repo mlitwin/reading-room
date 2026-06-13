@@ -1,0 +1,35 @@
+{
+  "lemma": "vis",
+  "pos": "noun",
+  "glosses": [
+    "strength (sg. only), force, power, might, violence"
+  ],
+  "reviewed": false,
+  "head": "vis, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "vi",
+      "acc.sg": "vem",
+      "nom.pl": "vis",
+      "gen.pl": "vium",
+      "acc.pl": "vis",
+      "nom.sg": "vis",
+      "gen.sg": "vis",
+      "dat.sg": "vi",
+      "dat.pl": "vibus",
+      "abl.pl": "vibus"
+    }
+  }
+}

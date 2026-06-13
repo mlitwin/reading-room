@@ -1,0 +1,39 @@
+{
+  "lemma": "sperno",
+  "pos": "verb",
+  "glosses": [
+    "scorn, despise, spurn"
+  ],
+  "reviewed": false,
+  "head": "sperno, spernere, sprevi, spretum",
+  "principal_parts": [
+    "sperno",
+    "spernere",
+    "sprevi",
+    "spretum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "spernis",
+      "3sg.pres.ind.act": "spernit",
+      "1pl.pres.ind.act": "spernimus",
+      "2pl.pres.ind.act": "spernitis",
+      "2sg.pres.imp.act": "sperne",
+      "2pl.pres.imp.act": "spernite"
+    }
+  }
+}

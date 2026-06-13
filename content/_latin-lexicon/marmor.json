@@ -1,0 +1,36 @@
+{
+  "lemma": "marmor",
+  "pos": "noun",
+  "glosses": [
+    "marble, block of marble, marble monument/statue",
+    "surface of the sea"
+  ],
+  "reviewed": false,
+  "head": "marmor, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "marmore",
+      "acc.sg": "marmor",
+      "nom.pl": "marmora",
+      "gen.pl": "marmorum",
+      "acc.pl": "marmora",
+      "nom.sg": "marmor",
+      "gen.sg": "marmoris",
+      "dat.sg": "marmori",
+      "dat.pl": "marmoribus",
+      "abl.pl": "marmoribus"
+    }
+  }
+}

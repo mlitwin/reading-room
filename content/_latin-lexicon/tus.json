@@ -1,0 +1,35 @@
+{
+  "lemma": "tus",
+  "pos": "noun",
+  "glosses": [
+    "frankincense"
+  ],
+  "reviewed": false,
+  "head": "tus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "ture",
+      "acc.sg": "tus",
+      "nom.pl": "tura",
+      "gen.pl": "turum",
+      "acc.pl": "tura",
+      "nom.sg": "tus",
+      "gen.sg": "turis",
+      "dat.sg": "turi",
+      "dat.pl": "turibus",
+      "abl.pl": "turibus"
+    }
+  }
+}

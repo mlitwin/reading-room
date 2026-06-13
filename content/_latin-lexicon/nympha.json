@@ -1,0 +1,39 @@
+{
+  "lemma": "nympha",
+  "pos": "noun",
+  "glosses": [
+    "nymph",
+    "(semi-divine female nature/water spirit)",
+    "water",
+    "bride",
+    "young maiden"
+  ],
+  "reviewed": false,
+  "head": "nympha, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nympha",
+      "gen.sg": "nymphae",
+      "abl.sg": "nympha",
+      "acc.sg": "nympham",
+      "dat.sg": "nymphae",
+      "nom.pl": "nymphae",
+      "gen.pl": "nympharum",
+      "dat.pl": "nymphis",
+      "abl.pl": "nymphis",
+      "acc.pl": "nymphas"
+    }
+  }
+}

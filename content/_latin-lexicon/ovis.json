@@ -1,0 +1,35 @@
+{
+  "lemma": "ovis",
+  "pos": "noun",
+  "glosses": [
+    "sheep"
+  ],
+  "reviewed": false,
+  "head": "ovis, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "ovi",
+      "acc.sg": "ovem",
+      "nom.pl": "ovis",
+      "gen.pl": "ovium",
+      "acc.pl": "ovis",
+      "nom.sg": "ovis",
+      "gen.sg": "ovis",
+      "dat.sg": "ovi",
+      "dat.pl": "ovibus",
+      "abl.pl": "ovibus"
+    }
+  }
+}

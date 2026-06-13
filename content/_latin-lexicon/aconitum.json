@@ -1,0 +1,36 @@
+{
+  "lemma": "aconitum",
+  "pos": "noun",
+  "glosses": [
+    "wolfbane, aconite (gnus Aconitum) (poisonous plant)",
+    "aconite as a poison"
+  ],
+  "reviewed": false,
+  "head": "aconitum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aconitum",
+      "gen.sg": "aconiti",
+      "acc.sg": "aconitum",
+      "dat.sg": "aconito",
+      "abl.sg": "aconito",
+      "gen.pl": "aconitorum",
+      "dat.pl": "aconitis",
+      "abl.pl": "aconitis",
+      "nom.pl": "aconita",
+      "acc.pl": "aconita"
+    }
+  }
+}

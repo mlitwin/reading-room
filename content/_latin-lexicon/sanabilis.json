@@ -1,0 +1,33 @@
+{
+  "lemma": "sanabilis",
+  "pos": "adj",
+  "glosses": [
+    "curable"
+  ],
+  "reviewed": false,
+  "head": "sanabilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "sanabile",
+      "acc.sg.neut": "sanabile",
+      "nom.pl.neut": "sanabilia",
+      "acc.pl.neut": "sanabilia"
+    }
+  }
+}

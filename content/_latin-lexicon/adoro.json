@@ -1,0 +1,42 @@
+{
+  "lemma": "adoro",
+  "pos": "verb",
+  "glosses": [
+    "honor, adore, worship, pay homage, reverence",
+    "beg, plead with, appeal to"
+  ],
+  "reviewed": false,
+  "head": "adoro, adorare, adoravi, adoratum",
+  "principal_parts": [
+    "adoro",
+    "adorare",
+    "adoravi",
+    "adoratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "adoro",
+      "2sg.pres.ind.act": "adoras",
+      "3sg.pres.ind.act": "adorat",
+      "1pl.pres.ind.act": "adoramus",
+      "2pl.pres.ind.act": "adoratis",
+      "3pl.pres.ind.act": "adorant",
+      "2sg.pres.imp.act": "adora",
+      "2pl.pres.imp.act": "adorate"
+    }
+  }
+}

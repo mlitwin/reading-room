@@ -1,0 +1,53 @@
+{
+  "lemma": "siccus",
+  "pos": "adj",
+  "glosses": [
+    "dry"
+  ],
+  "reviewed": false,
+  "head": "siccus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "siccus",
+      "gen.sg.masc": "sicci",
+      "dat.sg.masc": "sicco",
+      "gen.sg.fem": "siccae",
+      "dat.sg.fem": "siccae",
+      "nom.sg.neut": "siccum",
+      "gen.sg.neut": "sicci",
+      "dat.sg.neut": "sicco",
+      "acc.sg.neut": "siccum",
+      "acc.sg.masc": "siccum",
+      "abl.sg.masc": "sicco",
+      "nom.pl.masc": "sicci",
+      "gen.pl.masc": "siccorum",
+      "acc.pl.masc": "siccos",
+      "nom.sg.fem": "sicca",
+      "acc.sg.fem": "siccam",
+      "abl.sg.fem": "sicca",
+      "nom.pl.fem": "siccae",
+      "gen.pl.fem": "siccarum",
+      "acc.pl.fem": "siccas",
+      "abl.sg.neut": "sicco",
+      "nom.pl.neut": "sicca",
+      "gen.pl.neut": "siccorum",
+      "acc.pl.neut": "sicca"
+    }
+  }
+}

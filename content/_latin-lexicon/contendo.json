@@ -1,0 +1,44 @@
+{
+  "lemma": "contendo",
+  "pos": "verb",
+  "glosses": [
+    "stretch, draw tight, make taut",
+    "draw/bend (bow/catapult)",
+    "tune",
+    "stretch out",
+    "compete/contend (fight/law), dispute",
+    "compare/match/contrast"
+  ],
+  "reviewed": false,
+  "head": "contendo, contendere, contendi, contentum",
+  "principal_parts": [
+    "contendo",
+    "contendere",
+    "contendi",
+    "contentum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "contendis",
+      "3sg.pres.ind.act": "contendit",
+      "1pl.pres.ind.act": "contendimus",
+      "2pl.pres.ind.act": "contenditis",
+      "2sg.pres.imp.act": "contende",
+      "2pl.pres.imp.act": "contendite"
+    }
+  }
+}

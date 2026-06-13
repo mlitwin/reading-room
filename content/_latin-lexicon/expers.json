@@ -1,0 +1,35 @@
+{
+  "lemma": "expers",
+  "pos": "adj",
+  "glosses": [
+    "free from (w/GEN)",
+    "without",
+    "lacking experience",
+    "immune from"
+  ],
+  "reviewed": false,
+  "head": "expers, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "expers",
+      "nom.pl.neut": "expertia",
+      "acc.pl.neut": "expertia"
+    }
+  }
+}

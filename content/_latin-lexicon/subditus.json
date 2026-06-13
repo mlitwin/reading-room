@@ -1,0 +1,54 @@
+{
+  "lemma": "subditus",
+  "pos": "adj",
+  "glosses": [
+    "subordinate",
+    "submissive"
+  ],
+  "reviewed": false,
+  "head": "subditus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "subditus",
+      "gen.sg.masc": "subditi",
+      "dat.sg.masc": "subdito",
+      "gen.sg.fem": "subditae",
+      "dat.sg.fem": "subditae",
+      "nom.sg.neut": "subditum",
+      "gen.sg.neut": "subditi",
+      "dat.sg.neut": "subdito",
+      "acc.sg.neut": "subditum",
+      "acc.sg.masc": "subditum",
+      "abl.sg.masc": "subdito",
+      "nom.pl.masc": "subditi",
+      "gen.pl.masc": "subditorum",
+      "acc.pl.masc": "subditos",
+      "nom.sg.fem": "subdita",
+      "acc.sg.fem": "subditam",
+      "abl.sg.fem": "subdita",
+      "nom.pl.fem": "subditae",
+      "gen.pl.fem": "subditarum",
+      "acc.pl.fem": "subditas",
+      "abl.sg.neut": "subdito",
+      "nom.pl.neut": "subdita",
+      "gen.pl.neut": "subditorum",
+      "acc.pl.neut": "subdita"
+    }
+  }
+}

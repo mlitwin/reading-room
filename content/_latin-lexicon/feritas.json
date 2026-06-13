@@ -1,0 +1,37 @@
+{
+  "lemma": "feritas",
+  "pos": "noun",
+  "glosses": [
+    "wildness, barbaric/savage/uncultivated state",
+    "savagery, ferocity",
+    "brutality"
+  ],
+  "reviewed": false,
+  "head": "feritas, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "feritatem",
+      "gen.pl": "feritatum",
+      "acc.pl": "feritatis",
+      "nom.sg": "feritas",
+      "gen.sg": "feritatis",
+      "dat.sg": "feritati",
+      "abl.sg": "feritate",
+      "nom.pl": "feritates",
+      "dat.pl": "feritatibus",
+      "abl.pl": "feritatibus"
+    }
+  }
+}

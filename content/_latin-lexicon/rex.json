@@ -1,0 +1,35 @@
+{
+  "lemma": "rex",
+  "pos": "noun",
+  "glosses": [
+    "king"
+  ],
+  "reviewed": false,
+  "head": "rex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "regem",
+      "gen.pl": "regum",
+      "acc.pl": "regis",
+      "nom.sg": "rex",
+      "gen.sg": "regis",
+      "dat.sg": "regi",
+      "abl.sg": "rege",
+      "nom.pl": "reges",
+      "dat.pl": "regibus",
+      "abl.pl": "regibus"
+    }
+  }
+}

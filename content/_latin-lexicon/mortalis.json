@@ -1,0 +1,34 @@
+{
+  "lemma": "mortalis",
+  "pos": "adj",
+  "glosses": [
+    "mortal, transient",
+    "human, of human origin"
+  ],
+  "reviewed": false,
+  "head": "mortalis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "mortale",
+      "acc.sg.neut": "mortale",
+      "nom.pl.neut": "mortalia",
+      "acc.pl.neut": "mortalia"
+    }
+  }
+}

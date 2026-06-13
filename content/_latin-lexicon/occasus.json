@@ -1,0 +1,37 @@
+{
+  "lemma": "occasus",
+  "pos": "noun",
+  "glosses": [
+    "setting",
+    "[solis occasus => sunset",
+    "west]"
+  ],
+  "reviewed": false,
+  "head": "occasus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "occasus",
+      "gen.sg": "occasus",
+      "dat.sg": "occasui",
+      "acc.sg": "occasum",
+      "nom.pl": "occasus",
+      "acc.pl": "occasus",
+      "abl.sg": "occasu",
+      "gen.pl": "occasuum",
+      "dat.pl": "occasibus",
+      "abl.pl": "occasibus"
+    }
+  }
+}

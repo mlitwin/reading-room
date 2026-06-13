@@ -1,0 +1,36 @@
+{
+  "lemma": "celer",
+  "pos": "noun",
+  "glosses": [
+    "knights (pl.) (old name/precursor of equestrian order)",
+    "Roman kings' bodyguard"
+  ],
+  "reviewed": false,
+  "head": "celer, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "celerem",
+      "gen.pl": "celerum",
+      "acc.pl": "celeris",
+      "nom.sg": "celer",
+      "gen.sg": "celeris",
+      "dat.sg": "celeri",
+      "abl.sg": "celere",
+      "nom.pl": "celeres",
+      "dat.pl": "celeribus",
+      "abl.pl": "celeribus"
+    }
+  }
+}

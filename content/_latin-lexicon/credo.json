@@ -1,0 +1,44 @@
+{
+  "lemma": "credo",
+  "pos": "verb",
+  "glosses": [
+    "trust, entrust",
+    "commit/consign",
+    "believe, trust in, rely on, confide",
+    "suppose",
+    "lend (money) to, make loans/give credit",
+    "believe/think/accept as true/be sure"
+  ],
+  "reviewed": false,
+  "head": "credo, credere, credidi, creditum",
+  "principal_parts": [
+    "credo",
+    "credere",
+    "credidi",
+    "creditum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "credis",
+      "3sg.pres.ind.act": "credit",
+      "1pl.pres.ind.act": "credimus",
+      "2pl.pres.ind.act": "creditis",
+      "2sg.pres.imp.act": "crede",
+      "2pl.pres.imp.act": "credite"
+    }
+  }
+}

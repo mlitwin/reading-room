@@ -1,0 +1,36 @@
+{
+  "lemma": "eurus",
+  "pos": "noun",
+  "glosses": [
+    "east (or south east) wind",
+    "the east"
+  ],
+  "reviewed": false,
+  "head": "eurus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "eurus",
+      "gen.sg": "euri",
+      "dat.sg": "euro",
+      "abl.sg": "euro",
+      "acc.sg": "eurum",
+      "nom.pl": "euri",
+      "gen.pl": "eurorum",
+      "dat.pl": "euris",
+      "abl.pl": "euris",
+      "acc.pl": "euros"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "aurea",
+  "pos": "noun",
+  "glosses": [
+    "bridle of a horse"
+  ],
+  "reviewed": false,
+  "head": "aurea, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aurea",
+      "gen.sg": "aureae",
+      "abl.sg": "aurea",
+      "acc.sg": "auream",
+      "dat.sg": "aureae",
+      "nom.pl": "aureae",
+      "gen.pl": "aurearum",
+      "dat.pl": "aureis",
+      "abl.pl": "aureis",
+      "acc.pl": "aureas"
+    }
+  }
+}

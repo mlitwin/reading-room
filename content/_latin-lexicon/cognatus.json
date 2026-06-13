@@ -1,0 +1,36 @@
+{
+  "lemma": "cognatus",
+  "pos": "noun",
+  "glosses": [
+    "relation (male), kinsman",
+    "[~i regis => contingent of Persian king's bodyguard]"
+  ],
+  "reviewed": false,
+  "head": "cognatus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cognatus",
+      "gen.sg": "cognati",
+      "dat.sg": "cognato",
+      "abl.sg": "cognato",
+      "acc.sg": "cognatum",
+      "nom.pl": "cognati",
+      "gen.pl": "cognatorum",
+      "dat.pl": "cognatis",
+      "abl.pl": "cognatis",
+      "acc.pl": "cognatos"
+    }
+  }
+}

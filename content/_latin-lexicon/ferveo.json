@@ -1,0 +1,46 @@
+{
+  "lemma": "ferveo",
+  "pos": "verb",
+  "glosses": [
+    "be (very) hot",
+    "boil/burn",
+    "seethe/surge",
+    "swarm",
+    "be turbulent/run strongly",
+    "froth"
+  ],
+  "reviewed": false,
+  "head": "ferveo, fervere, ferbui, -um",
+  "principal_parts": [
+    "ferveo",
+    "fervere",
+    "ferbui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "ferveo",
+      "2sg.pres.ind.act": "ferves",
+      "3sg.pres.ind.act": "fervet",
+      "1pl.pres.ind.act": "fervemus",
+      "2pl.pres.ind.act": "fervetis",
+      "3pl.pres.ind.act": "fervent",
+      "2sg.pres.imp.act": "ferve",
+      "2pl.pres.imp.act": "fervete"
+    }
+  }
+}

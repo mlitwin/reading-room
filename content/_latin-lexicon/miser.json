@@ -1,0 +1,35 @@
+{
+  "lemma": "miser",
+  "pos": "noun",
+  "glosses": [
+    "wretched people (pl.)"
+  ],
+  "reviewed": false,
+  "head": "miser, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "miser",
+      "gen.sg": "miseri",
+      "dat.sg": "misero",
+      "abl.sg": "misero",
+      "acc.sg": "miserum",
+      "nom.pl": "miseri",
+      "gen.pl": "miserorum",
+      "dat.pl": "miseris",
+      "abl.pl": "miseris",
+      "acc.pl": "miseros"
+    }
+  }
+}

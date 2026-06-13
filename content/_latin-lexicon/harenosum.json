@@ -1,0 +1,35 @@
+{
+  "lemma": "harenosum",
+  "pos": "noun",
+  "glosses": [
+    "sandy place"
+  ],
+  "reviewed": false,
+  "head": "harenosum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "harenosum",
+      "gen.sg": "harenosi",
+      "acc.sg": "harenosum",
+      "dat.sg": "harenoso",
+      "abl.sg": "harenoso",
+      "gen.pl": "harenosorum",
+      "dat.pl": "harenosis",
+      "abl.pl": "harenosis",
+      "nom.pl": "harenosa",
+      "acc.pl": "harenosa"
+    }
+  }
+}

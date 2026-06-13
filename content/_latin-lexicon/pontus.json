@@ -1,0 +1,35 @@
+{
+  "lemma": "pontus",
+  "pos": "noun",
+  "glosses": [
+    "sea"
+  ],
+  "reviewed": false,
+  "head": "pontus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pontus",
+      "gen.sg": "ponti",
+      "dat.sg": "ponto",
+      "abl.sg": "ponto",
+      "acc.sg": "pontum",
+      "nom.pl": "ponti",
+      "gen.pl": "pontorum",
+      "dat.pl": "pontis",
+      "abl.pl": "pontis",
+      "acc.pl": "pontos"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "pecus",
+  "pos": "noun",
+  "glosses": [
+    "cattle, herd, flock"
+  ],
+  "reviewed": false,
+  "head": "pecus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "pecore",
+      "acc.sg": "pecus",
+      "nom.pl": "pecora",
+      "gen.pl": "pecorum",
+      "acc.pl": "pecora",
+      "nom.sg": "pecus",
+      "gen.sg": "pecoris",
+      "dat.sg": "pecori",
+      "dat.pl": "pecoribus",
+      "abl.pl": "pecoribus"
+    }
+  }
+}

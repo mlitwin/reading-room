@@ -1,0 +1,55 @@
+{
+  "lemma": "horridus",
+  "pos": "adj",
+  "glosses": [
+    "wild, frightful, rough, bristly, standing on end, unkempt",
+    "grim",
+    "horrible"
+  ],
+  "reviewed": false,
+  "head": "horridus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "horridus",
+      "gen.sg.masc": "horridi",
+      "dat.sg.masc": "horrido",
+      "gen.sg.fem": "horridae",
+      "dat.sg.fem": "horridae",
+      "nom.sg.neut": "horridum",
+      "gen.sg.neut": "horridi",
+      "dat.sg.neut": "horrido",
+      "acc.sg.neut": "horridum",
+      "acc.sg.masc": "horridum",
+      "abl.sg.masc": "horrido",
+      "nom.pl.masc": "horridi",
+      "gen.pl.masc": "horridorum",
+      "acc.pl.masc": "horridos",
+      "nom.sg.fem": "horrida",
+      "acc.sg.fem": "horridam",
+      "abl.sg.fem": "horrida",
+      "nom.pl.fem": "horridae",
+      "gen.pl.fem": "horridarum",
+      "acc.pl.fem": "horridas",
+      "abl.sg.neut": "horrido",
+      "nom.pl.neut": "horrida",
+      "gen.pl.neut": "horridorum",
+      "acc.pl.neut": "horrida"
+    }
+  }
+}

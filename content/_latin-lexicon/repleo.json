@@ -1,0 +1,42 @@
+{
+  "lemma": "repleo",
+  "pos": "verb",
+  "glosses": [
+    "fill again",
+    "complete, fill"
+  ],
+  "reviewed": false,
+  "head": "repleo, replere, replevi, repletum",
+  "principal_parts": [
+    "repleo",
+    "replere",
+    "replevi",
+    "repletum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "repleo",
+      "2sg.pres.ind.act": "reples",
+      "3sg.pres.ind.act": "replet",
+      "1pl.pres.ind.act": "replemus",
+      "2pl.pres.ind.act": "repletis",
+      "3pl.pres.ind.act": "replent",
+      "2sg.pres.imp.act": "reple",
+      "2pl.pres.imp.act": "replete"
+    }
+  }
+}

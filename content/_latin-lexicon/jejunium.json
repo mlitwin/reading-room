@@ -1,0 +1,39 @@
+{
+  "lemma": "jejunium",
+  "pos": "noun",
+  "glosses": [
+    "fasting/fast (day)",
+    "Lent",
+    "hunger",
+    "leanness",
+    "[caput jejunius => Ash Wednesday]"
+  ],
+  "reviewed": false,
+  "head": "jejunium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "jejunium",
+      "gen.sg": "jejunii",
+      "acc.sg": "jejunium",
+      "dat.sg": "jejunio",
+      "abl.sg": "jejunio",
+      "gen.pl": "jejuniorum",
+      "dat.pl": "jejuniis",
+      "abl.pl": "jejuniis",
+      "nom.pl": "jejunia",
+      "acc.pl": "jejunia"
+    }
+  }
+}

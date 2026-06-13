@@ -1,0 +1,39 @@
+{
+  "lemma": "ungula",
+  "pos": "noun",
+  "glosses": [
+    "hoof",
+    "bird claw/talon",
+    "(torture)",
+    "toe nail",
+    "pig's foot/trotter (food/medicine)"
+  ],
+  "reviewed": false,
+  "head": "ungula, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ungula",
+      "gen.sg": "ungulae",
+      "abl.sg": "ungula",
+      "acc.sg": "ungulam",
+      "dat.sg": "ungulae",
+      "nom.pl": "ungulae",
+      "gen.pl": "ungularum",
+      "dat.pl": "ungulis",
+      "abl.pl": "ungulis",
+      "acc.pl": "ungulas"
+    }
+  }
+}

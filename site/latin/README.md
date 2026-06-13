@@ -21,7 +21,7 @@ card_text.py --card NN-card-NN | build_apparatus.py
                                                      ↓
                                 site/latin/staging/lexicon/*.json
                                                      ↓
-                                    promote_reviewed.py (reviewed=true only)
+                                      promote_staging.py
                                                      ↓
                                   content/_latin-lexicon/*.json
 ```
@@ -29,12 +29,14 @@ card_text.py --card NN-card-NN | build_apparatus.py
 ## Scripts
 
 * **`ingest_perseus.py`** — parse the canonical TEI vendored at `sources/phi0959.phi006.perseus-lat2.xml`; emit one JSON intermediate per Perseus "card" to `sources/cards/book-NN-card-NN.json`. Run once; re-run after editing the canonical text.
+* **`ingest_translation.py`** — parse the canonical Perseus eng3 translation XML and emit per-card translation JSON to `sources/translations/book-NN-card-NN.json`.
 * **`build_apparatus.py`** — mechanical stage: tokenises a passage, gathers all Morpheus candidates, and emits an apparatus-criticus JSON with each token classified as unambiguous / ambiguous / unresolved.
 * **`apparatus_to_spans.py`** — heuristic stage: picks one primary candidate from apparatus token candidates and emits `<div class="latin-passage">` spans.
 * **`seed.py`** — low-level Morpheus integration and span helpers used by both stages.
 * **`trim_primary.py`** — candidate scoring helpers used by `apparatus_to_spans.py`.
 * **`seed_vocab.py`** — reads lemma names and writes vocabulary skeleton cards to `site/latin/staging/lexicon/`.
-* **`promote_reviewed.py`** — moves only `reviewed: true` staging cards into `content/_latin-lexicon/`.
+* **`promote_staging.py`** — moves staged cards into `content/_latin-lexicon/` when they do not already exist there.
+* **`scribe_book1_mechanical.py`** — generates first-pass Book 1 piece markdown files from card boundaries, spans, and ingested public-domain translation text.
 * **`audit_latin.py`** — QA gate for unresolved lemmas, card-shape problems, sparse paradigms, and parse/POS mismatches.
 * **`morpheus.sh`** — single entry point for Morpheus invocations. Validates the local build, sets `MORPHLIB`, execs `cruncher -S -L`. All Morpheus calls in the project go through this wrapper.
 
@@ -48,6 +50,9 @@ See [INSTALL.md](INSTALL.md) for the one-time Morpheus build (perseids-tools for
 # One-time TEI ingest
 python3 site/latin/ingest_perseus.py
 
+# One-time translation ingest (Perseus eng3)
+make latin-translate-ingest
+
 # Per-card spans
 make latin-spans CARD=01-card-07
 
@@ -57,11 +62,14 @@ make latin-apparatus CARD=01-card-07
 # Seed skeleton vocab cards into staging
 make latin-vocab SPANS=.tmp/latin-spans.md
 
-# Promote only cards marked "reviewed": true
+# Promote staged cards into shared lexicon
 make latin-promote
 
-# Full chain (spans + staging seed + reviewed promotion)
+# Full chain (spans + staging seed + promotion)
 make latin-seed CARD=01-card-07
+
+# Auto-scribe first-pass Book 1 pages
+make latin-scribe-book1
 
 # Pipeline QA gate
 make latin-audit
@@ -82,5 +90,5 @@ Each surface form in apparatus carries all candidate lemmas/codes, then `apparat
 ## v1 known limitations
 
 * **Alias debt remains.** Some Morpheus canonical lemmas still map back to legacy card filenames via `LEMMA_ALIAS`.
-* **Auto-seeded cards require explicit review.** Staged cards are intentionally not promoted until `reviewed: true` is set.
+* **Auto-seeded cards may need post-promotion cleanup.** Review is done against the full built UI and audit feedback.
 * **Audit failures are expected during curation.** `latin-audit` is strict by design and will flag sparse paradigms / unresolved entries until cards are cleaned.

@@ -1,0 +1,37 @@
+{
+  "lemma": "furtum",
+  "pos": "noun",
+  "glosses": [
+    "theft",
+    "trick, deception",
+    "stolen article"
+  ],
+  "reviewed": false,
+  "head": "furtum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "furtum",
+      "gen.sg": "furti",
+      "acc.sg": "furtum",
+      "dat.sg": "furto",
+      "abl.sg": "furto",
+      "gen.pl": "furtorum",
+      "dat.pl": "furtis",
+      "abl.pl": "furtis",
+      "nom.pl": "furta",
+      "acc.pl": "furta"
+    }
+  }
+}

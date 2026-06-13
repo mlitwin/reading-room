@@ -1,0 +1,36 @@
+{
+  "lemma": "grandis",
+  "pos": "adj",
+  "glosses": [
+    "full-grown, grown up",
+    "large, great, grand, tall, lofty",
+    "powerful",
+    "aged, old"
+  ],
+  "reviewed": false,
+  "head": "grandis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "grande",
+      "acc.sg.neut": "grande",
+      "nom.pl.neut": "grandia",
+      "acc.pl.neut": "grandia"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "lemma": "resolvo",
+  "pos": "verb",
+  "glosses": [
+    "loosen, release, disperse, melt",
+    "relax",
+    "pay",
+    "enervate, pay back",
+    "break up"
+  ],
+  "reviewed": false,
+  "head": "resolvo, resolvere, resolvi, resolutum",
+  "principal_parts": [
+    "resolvo",
+    "resolvere",
+    "resolvi",
+    "resolutum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "resolvis",
+      "3sg.pres.ind.act": "resolvit",
+      "1pl.pres.ind.act": "resolvimus",
+      "2pl.pres.ind.act": "resolvitis",
+      "2sg.pres.imp.act": "resolve",
+      "2pl.pres.imp.act": "resolvite"
+    }
+  }
+}

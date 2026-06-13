@@ -1,0 +1,54 @@
+{
+  "lemma": "satus",
+  "pos": "adj",
+  "glosses": [
+    "sprung (from)",
+    "native"
+  ],
+  "reviewed": false,
+  "head": "satus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "satus",
+      "gen.sg.masc": "sati",
+      "dat.sg.masc": "sato",
+      "gen.sg.fem": "satae",
+      "dat.sg.fem": "satae",
+      "nom.sg.neut": "satum",
+      "gen.sg.neut": "sati",
+      "dat.sg.neut": "sato",
+      "acc.sg.neut": "satum",
+      "acc.sg.masc": "satum",
+      "abl.sg.masc": "sato",
+      "nom.pl.masc": "sati",
+      "gen.pl.masc": "satorum",
+      "acc.pl.masc": "satos",
+      "nom.sg.fem": "sata",
+      "acc.sg.fem": "satam",
+      "abl.sg.fem": "sata",
+      "nom.pl.fem": "satae",
+      "gen.pl.fem": "satarum",
+      "acc.pl.fem": "satas",
+      "abl.sg.neut": "sato",
+      "nom.pl.neut": "sata",
+      "gen.pl.neut": "satorum",
+      "acc.pl.neut": "sata"
+    }
+  }
+}

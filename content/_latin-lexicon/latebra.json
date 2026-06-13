@@ -1,0 +1,36 @@
+{
+  "lemma": "latebra",
+  "pos": "noun",
+  "glosses": [
+    "hiding place, retreat, lair",
+    "subterfuge"
+  ],
+  "reviewed": false,
+  "head": "latebra, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "latebra",
+      "gen.sg": "latebrae",
+      "abl.sg": "latebra",
+      "acc.sg": "latebram",
+      "dat.sg": "latebrae",
+      "nom.pl": "latebrae",
+      "gen.pl": "latebrarum",
+      "dat.pl": "latebris",
+      "abl.pl": "latebris",
+      "acc.pl": "latebras"
+    }
+  }
+}

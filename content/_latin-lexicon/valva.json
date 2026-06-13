@@ -1,0 +1,35 @@
+{
+  "lemma": "valva",
+  "pos": "noun",
+  "glosses": [
+    "double or folding door (usu. pl.), one leaf of the doors"
+  ],
+  "reviewed": false,
+  "head": "valva, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "valva",
+      "gen.sg": "valvae",
+      "abl.sg": "valva",
+      "acc.sg": "valvam",
+      "dat.sg": "valvae",
+      "nom.pl": "valvae",
+      "gen.pl": "valvarum",
+      "dat.pl": "valvis",
+      "abl.pl": "valvis",
+      "acc.pl": "valvas"
+    }
+  }
+}

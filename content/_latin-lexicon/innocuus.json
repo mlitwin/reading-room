@@ -1,0 +1,54 @@
+{
+  "lemma": "innocuus",
+  "pos": "adj",
+  "glosses": [
+    "innocent",
+    "harmless"
+  ],
+  "reviewed": false,
+  "head": "innocuus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "innocuus",
+      "gen.sg.masc": "innocui",
+      "dat.sg.masc": "innocuo",
+      "gen.sg.fem": "innocuae",
+      "dat.sg.fem": "innocuae",
+      "nom.sg.neut": "innocuum",
+      "gen.sg.neut": "innocui",
+      "dat.sg.neut": "innocuo",
+      "acc.sg.neut": "innocuum",
+      "acc.sg.masc": "innocuum",
+      "abl.sg.masc": "innocuo",
+      "nom.pl.masc": "innocui",
+      "gen.pl.masc": "innocuorum",
+      "acc.pl.masc": "innocuos",
+      "nom.sg.fem": "innocua",
+      "acc.sg.fem": "innocuam",
+      "abl.sg.fem": "innocua",
+      "nom.pl.fem": "innocuae",
+      "gen.pl.fem": "innocuarum",
+      "acc.pl.fem": "innocuas",
+      "abl.sg.neut": "innocuo",
+      "nom.pl.neut": "innocua",
+      "gen.pl.neut": "innocuorum",
+      "acc.pl.neut": "innocua"
+    }
+  }
+}

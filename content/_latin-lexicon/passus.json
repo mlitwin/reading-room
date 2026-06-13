@@ -1,0 +1,37 @@
+{
+  "lemma": "passus",
+  "pos": "noun",
+  "glosses": [
+    "step, pace",
+    "[mille passus -> mile",
+    "duo milia passuum => two miles]"
+  ],
+  "reviewed": false,
+  "head": "passus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "passus",
+      "gen.sg": "passus",
+      "dat.sg": "passui",
+      "acc.sg": "passum",
+      "nom.pl": "passus",
+      "acc.pl": "passus",
+      "abl.sg": "passu",
+      "gen.pl": "passuum",
+      "dat.pl": "passibus",
+      "abl.pl": "passibus"
+    }
+  }
+}

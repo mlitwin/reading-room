@@ -1,0 +1,57 @@
+{
+  "lemma": "rarus",
+  "pos": "adj",
+  "glosses": [
+    "thin, scattered",
+    "few, infrequent",
+    "rare",
+    "in small groups",
+    "loose knit"
+  ],
+  "reviewed": false,
+  "head": "rarus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "rarus",
+      "gen.sg.masc": "rari",
+      "dat.sg.masc": "raro",
+      "gen.sg.fem": "rarae",
+      "dat.sg.fem": "rarae",
+      "nom.sg.neut": "rarum",
+      "gen.sg.neut": "rari",
+      "dat.sg.neut": "raro",
+      "acc.sg.neut": "rarum",
+      "acc.sg.masc": "rarum",
+      "abl.sg.masc": "raro",
+      "nom.pl.masc": "rari",
+      "gen.pl.masc": "rarorum",
+      "acc.pl.masc": "raros",
+      "nom.sg.fem": "rara",
+      "acc.sg.fem": "raram",
+      "abl.sg.fem": "rara",
+      "nom.pl.fem": "rarae",
+      "gen.pl.fem": "rararum",
+      "acc.pl.fem": "raras",
+      "abl.sg.neut": "raro",
+      "nom.pl.neut": "rara",
+      "gen.pl.neut": "rarorum",
+      "acc.pl.neut": "rara"
+    }
+  }
+}

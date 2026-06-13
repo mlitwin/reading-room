@@ -1,0 +1,37 @@
+{
+  "lemma": "verbum",
+  "pos": "noun",
+  "glosses": [
+    "word",
+    "proverb",
+    "[verba dare alicui => cheat/deceive someone]"
+  ],
+  "reviewed": false,
+  "head": "verbum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "verbum",
+      "gen.sg": "verbi",
+      "acc.sg": "verbum",
+      "dat.sg": "verbo",
+      "abl.sg": "verbo",
+      "gen.pl": "verborum",
+      "dat.pl": "verbis",
+      "abl.pl": "verbis",
+      "nom.pl": "verba",
+      "acc.pl": "verba"
+    }
+  }
+}

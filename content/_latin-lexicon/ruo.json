@@ -1,0 +1,43 @@
+{
+  "lemma": "ruo",
+  "pos": "verb",
+  "glosses": [
+    "destroy, ruin, overthrow",
+    "rush on, run",
+    "fall",
+    "charge (in + ACC)",
+    "be ruined"
+  ],
+  "reviewed": false,
+  "head": "ruo, ruere, rui, rutum",
+  "principal_parts": [
+    "ruo",
+    "ruere",
+    "rui",
+    "rutum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "ruis",
+      "3sg.pres.ind.act": "ruit",
+      "1pl.pres.ind.act": "ruimus",
+      "2pl.pres.ind.act": "ruitis",
+      "2sg.pres.imp.act": "rue",
+      "2pl.pres.imp.act": "ruite"
+    }
+  }
+}

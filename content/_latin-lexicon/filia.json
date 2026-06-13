@@ -1,0 +1,35 @@
+{
+  "lemma": "filia",
+  "pos": "noun",
+  "glosses": [
+    "daughter"
+  ],
+  "reviewed": false,
+  "head": "filia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "filia",
+      "gen.sg": "filiae",
+      "abl.sg": "filia",
+      "acc.sg": "filiam",
+      "dat.sg": "filiae",
+      "nom.pl": "filiae",
+      "gen.pl": "filiarum",
+      "dat.pl": "filiis",
+      "abl.pl": "filiis",
+      "acc.pl": "filias"
+    }
+  }
+}

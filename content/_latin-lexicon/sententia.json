@@ -1,0 +1,37 @@
+{
+  "lemma": "sententia",
+  "pos": "noun",
+  "glosses": [
+    "opinion, feeling, way of thinking",
+    "thought, meaning, sentence/period",
+    "purpose"
+  ],
+  "reviewed": false,
+  "head": "sententia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sententia",
+      "gen.sg": "sententiae",
+      "abl.sg": "sententia",
+      "acc.sg": "sententiam",
+      "dat.sg": "sententiae",
+      "nom.pl": "sententiae",
+      "gen.pl": "sententiarum",
+      "dat.pl": "sententiis",
+      "abl.pl": "sententiis",
+      "acc.pl": "sententias"
+    }
+  }
+}

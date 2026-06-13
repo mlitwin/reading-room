@@ -1,0 +1,54 @@
+{
+  "lemma": "pronus",
+  "pos": "adj",
+  "glosses": [
+    "leaning forward",
+    "prone"
+  ],
+  "reviewed": false,
+  "head": "pronus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "pronus",
+      "gen.sg.masc": "proni",
+      "dat.sg.masc": "prono",
+      "gen.sg.fem": "pronae",
+      "dat.sg.fem": "pronae",
+      "nom.sg.neut": "pronum",
+      "gen.sg.neut": "proni",
+      "dat.sg.neut": "prono",
+      "acc.sg.neut": "pronum",
+      "acc.sg.masc": "pronum",
+      "abl.sg.masc": "prono",
+      "nom.pl.masc": "proni",
+      "gen.pl.masc": "pronorum",
+      "acc.pl.masc": "pronos",
+      "nom.sg.fem": "prona",
+      "acc.sg.fem": "pronam",
+      "abl.sg.fem": "prona",
+      "nom.pl.fem": "pronae",
+      "gen.pl.fem": "pronarum",
+      "acc.pl.fem": "pronas",
+      "abl.sg.neut": "prono",
+      "nom.pl.neut": "prona",
+      "gen.pl.neut": "pronorum",
+      "acc.pl.neut": "prona"
+    }
+  }
+}

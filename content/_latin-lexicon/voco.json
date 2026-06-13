@@ -1,0 +1,43 @@
+{
+  "lemma": "voco",
+  "pos": "verb",
+  "glosses": [
+    "call, summon",
+    "name",
+    "call upon"
+  ],
+  "reviewed": false,
+  "head": "voco, vocare, vocavi, vocatum",
+  "principal_parts": [
+    "voco",
+    "vocare",
+    "vocavi",
+    "vocatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "voco",
+      "2sg.pres.ind.act": "vocas",
+      "3sg.pres.ind.act": "vocat",
+      "1pl.pres.ind.act": "vocamus",
+      "2pl.pres.ind.act": "vocatis",
+      "3pl.pres.ind.act": "vocant",
+      "2sg.pres.imp.act": "voca",
+      "2pl.pres.imp.act": "vocate"
+    }
+  }
+}

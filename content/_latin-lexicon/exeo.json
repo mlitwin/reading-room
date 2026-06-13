@@ -1,0 +1,46 @@
+{
+  "lemma": "exeo",
+  "pos": "verb",
+  "glosses": [
+    "come/go/sail/march/move out/forth/away, leave",
+    "pass (away), expire/perish/die",
+    "discharge (fluid)",
+    "rise (river)",
+    "become visible",
+    "issue/emerge/escape"
+  ],
+  "reviewed": false,
+  "head": "exeo, exire, exivi, exitum",
+  "principal_parts": [
+    "exeo",
+    "exire",
+    "exivi",
+    "exitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "exeo",
+      "2sg.pres.ind.act": "exis",
+      "3sg.pres.ind.act": "exit",
+      "1pl.pres.ind.act": "eximus",
+      "2pl.pres.ind.act": "exitis",
+      "3pl.pres.ind.act": "exeunt",
+      "2sg.pres.imp.act": "exi",
+      "2pl.pres.imp.act": "exite"
+    }
+  }
+}

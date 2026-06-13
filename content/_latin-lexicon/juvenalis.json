@@ -1,0 +1,33 @@
+{
+  "lemma": "juvenalis",
+  "pos": "adj",
+  "glosses": [
+    "youthful, young"
+  ],
+  "reviewed": false,
+  "head": "juvenalis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "juvenale",
+      "acc.sg.neut": "juvenale",
+      "nom.pl.neut": "juvenalia",
+      "acc.pl.neut": "juvenalia"
+    }
+  }
+}

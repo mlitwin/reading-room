@@ -1,0 +1,37 @@
+{
+  "lemma": "flamma",
+  "pos": "noun",
+  "glosses": [
+    "flame, blaze",
+    "ardor, fire of love",
+    "object of love"
+  ],
+  "reviewed": false,
+  "head": "flamma, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "flamma",
+      "gen.sg": "flammae",
+      "abl.sg": "flamma",
+      "acc.sg": "flammam",
+      "dat.sg": "flammae",
+      "nom.pl": "flammae",
+      "gen.pl": "flammarum",
+      "dat.pl": "flammis",
+      "abl.pl": "flammis",
+      "acc.pl": "flammas"
+    }
+  }
+}

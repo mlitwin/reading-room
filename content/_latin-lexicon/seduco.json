@@ -1,0 +1,40 @@
+{
+  "lemma": "seduco",
+  "pos": "verb",
+  "glosses": [
+    "lead away, lead apart",
+    "lead astray, seduce"
+  ],
+  "reviewed": false,
+  "head": "seduco, seducere, seduxi, seductum",
+  "principal_parts": [
+    "seduco",
+    "seducere",
+    "seduxi",
+    "seductum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "seducis",
+      "3sg.pres.ind.act": "seducit",
+      "1pl.pres.ind.act": "seducimus",
+      "2pl.pres.ind.act": "seducitis",
+      "2sg.pres.imp.act": "seduce",
+      "2pl.pres.imp.act": "seducite"
+    }
+  }
+}

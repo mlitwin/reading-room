@@ -1,0 +1,42 @@
+{
+  "lemma": "egeo",
+  "pos": "verb",
+  "glosses": [
+    "need (w/GEN/ABL), lack, want",
+    "require, be without"
+  ],
+  "reviewed": false,
+  "head": "egeo, egere, egui, -um",
+  "principal_parts": [
+    "egeo",
+    "egere",
+    "egui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "egeo",
+      "2sg.pres.ind.act": "eges",
+      "3sg.pres.ind.act": "eget",
+      "1pl.pres.ind.act": "egemus",
+      "2pl.pres.ind.act": "egetis",
+      "3pl.pres.ind.act": "egent",
+      "2sg.pres.imp.act": "ege",
+      "2pl.pres.imp.act": "egete"
+    }
+  }
+}

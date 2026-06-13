@@ -1,0 +1,40 @@
+{
+  "lemma": "an",
+  "pos": "noun",
+  "glosses": [
+    "ring, circle, link, circular form",
+    "anus",
+    "fundement",
+    "piles, hemorrhoids (L+S)",
+    "year (astronomical/civil)",
+    "age, time of life"
+  ],
+  "reviewed": false,
+  "head": "an, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "anus",
+      "gen.sg": "ani",
+      "dat.sg": "ano",
+      "abl.sg": "ano",
+      "acc.sg": "anum",
+      "nom.pl": "ani",
+      "gen.pl": "anorum",
+      "dat.pl": "anis",
+      "abl.pl": "anis",
+      "acc.pl": "anos"
+    }
+  }
+}

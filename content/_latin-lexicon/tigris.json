@@ -1,0 +1,35 @@
+{
+  "lemma": "tigris",
+  "pos": "noun",
+  "glosses": [
+    "tiger"
+  ],
+  "reviewed": false,
+  "head": "tigris, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "tigri",
+      "acc.sg": "tigrem",
+      "nom.pl": "tigris",
+      "gen.pl": "tigrium",
+      "acc.pl": "tigris",
+      "nom.sg": "tigris",
+      "gen.sg": "tigris",
+      "dat.sg": "tigri",
+      "dat.pl": "tigribus",
+      "abl.pl": "tigribus"
+    }
+  }
+}

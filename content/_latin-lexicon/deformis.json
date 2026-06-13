@@ -1,0 +1,37 @@
+{
+  "lemma": "deformis",
+  "pos": "adj",
+  "glosses": [
+    "deformed/illformed/misshapen/disfigured",
+    "shameful/degrading/base",
+    "ugly/loathsome",
+    "inappropriate/unseemly/offending good taste",
+    "shapeless/lacking definite shape"
+  ],
+  "reviewed": false,
+  "head": "deformis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "deforme",
+      "acc.sg.neut": "deforme",
+      "nom.pl.neut": "deformia",
+      "acc.pl.neut": "deformia"
+    }
+  }
+}

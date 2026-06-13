@@ -1,0 +1,39 @@
+{
+  "lemma": "reminisco",
+  "pos": "verb",
+  "glosses": [
+    "call to mind, recollect"
+  ],
+  "reviewed": false,
+  "head": "reminisco, reminiscere, -i, -um",
+  "principal_parts": [
+    "reminisco",
+    "reminiscere",
+    "-i",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "reminiscis",
+      "3sg.pres.ind.act": "reminiscit",
+      "1pl.pres.ind.act": "reminiscimus",
+      "2pl.pres.ind.act": "reminiscitis",
+      "2sg.pres.imp.act": "reminisce",
+      "2pl.pres.imp.act": "reminiscite"
+    }
+  }
+}

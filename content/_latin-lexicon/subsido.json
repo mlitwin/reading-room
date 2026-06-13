@@ -1,0 +1,40 @@
+{
+  "lemma": "subsido",
+  "pos": "verb",
+  "glosses": [
+    "settle, sink, subside",
+    "neglect (Latham)"
+  ],
+  "reviewed": false,
+  "head": "subsido, subsidere, subsedi, subsessum",
+  "principal_parts": [
+    "subsido",
+    "subsidere",
+    "subsedi",
+    "subsessum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "subsidis",
+      "3sg.pres.ind.act": "subsidit",
+      "1pl.pres.ind.act": "subsidimus",
+      "2pl.pres.ind.act": "subsiditis",
+      "2sg.pres.imp.act": "subside",
+      "2pl.pres.imp.act": "subsidite"
+    }
+  }
+}

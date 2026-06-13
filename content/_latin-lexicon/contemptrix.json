@@ -1,0 +1,37 @@
+{
+  "lemma": "contemptrix",
+  "pos": "noun",
+  "glosses": [
+    "despiser",
+    "she who looks down on/scorns",
+    "who disregards/pays no heed (to life)"
+  ],
+  "reviewed": false,
+  "head": "contemptrix, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "contemptricem",
+      "gen.pl": "contemptricum",
+      "acc.pl": "contemptricis",
+      "nom.sg": "contemptrix",
+      "gen.sg": "contemptricis",
+      "dat.sg": "contemptrici",
+      "abl.sg": "contemptrice",
+      "nom.pl": "contemptrices",
+      "dat.pl": "contemptricibus",
+      "abl.pl": "contemptricibus"
+    }
+  }
+}

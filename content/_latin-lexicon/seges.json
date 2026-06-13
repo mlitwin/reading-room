@@ -1,0 +1,36 @@
+{
+  "lemma": "seges",
+  "pos": "noun",
+  "glosses": [
+    "grain field",
+    "crop"
+  ],
+  "reviewed": false,
+  "head": "seges, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "segetem",
+      "gen.pl": "segetum",
+      "acc.pl": "segetis",
+      "nom.sg": "seges",
+      "gen.sg": "segetis",
+      "dat.sg": "segeti",
+      "abl.sg": "segete",
+      "nom.pl": "segetes",
+      "dat.pl": "segetibus",
+      "abl.pl": "segetibus"
+    }
+  }
+}

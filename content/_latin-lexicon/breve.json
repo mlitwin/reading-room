@@ -1,0 +1,35 @@
+{
+  "lemma": "breve",
+  "pos": "noun",
+  "glosses": [
+    "Papal letter, Brief"
+  ],
+  "reviewed": false,
+  "head": "breve, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "brevi",
+      "acc.sg": "breve",
+      "nom.pl": "brevia",
+      "gen.pl": "brevium",
+      "acc.pl": "brevia",
+      "nom.sg": "breve",
+      "gen.sg": "brevis",
+      "dat.sg": "brevi",
+      "dat.pl": "brevibus",
+      "abl.pl": "brevibus"
+    }
+  }
+}

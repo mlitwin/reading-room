@@ -1,0 +1,44 @@
+{
+  "lemma": "fatigo",
+  "pos": "verb",
+  "glosses": [
+    "weary, tire, fatigue",
+    "harass",
+    "importune",
+    "overcome"
+  ],
+  "reviewed": false,
+  "head": "fatigo, fatigare, fatigavi, fatigatum",
+  "principal_parts": [
+    "fatigo",
+    "fatigare",
+    "fatigavi",
+    "fatigatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "fatigo",
+      "2sg.pres.ind.act": "fatigas",
+      "3sg.pres.ind.act": "fatigat",
+      "1pl.pres.ind.act": "fatigamus",
+      "2pl.pres.ind.act": "fatigatis",
+      "3pl.pres.ind.act": "fatigant",
+      "2sg.pres.imp.act": "fatiga",
+      "2pl.pres.imp.act": "fatigate"
+    }
+  }
+}

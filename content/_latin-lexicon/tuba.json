@@ -1,0 +1,37 @@
+{
+  "lemma": "tuba",
+  "pos": "noun",
+  "glosses": [
+    "trumpet (straight tube)",
+    "(military signals/religious rites)",
+    "hydraulic ram pipe"
+  ],
+  "reviewed": false,
+  "head": "tuba, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "tuba",
+      "gen.sg": "tubae",
+      "abl.sg": "tuba",
+      "acc.sg": "tubam",
+      "dat.sg": "tubae",
+      "nom.pl": "tubae",
+      "gen.pl": "tubarum",
+      "dat.pl": "tubis",
+      "abl.pl": "tubis",
+      "acc.pl": "tubas"
+    }
+  }
+}

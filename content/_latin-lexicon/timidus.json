@@ -1,0 +1,57 @@
+{
+  "lemma": "timidus",
+  "pos": "adj",
+  "glosses": [
+    "timid",
+    "cowardly",
+    "fearful, apprehensive",
+    "without courage",
+    "afraid to"
+  ],
+  "reviewed": false,
+  "head": "timidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "timidus",
+      "gen.sg.masc": "timidi",
+      "dat.sg.masc": "timido",
+      "gen.sg.fem": "timidae",
+      "dat.sg.fem": "timidae",
+      "nom.sg.neut": "timidum",
+      "gen.sg.neut": "timidi",
+      "dat.sg.neut": "timido",
+      "acc.sg.neut": "timidum",
+      "acc.sg.masc": "timidum",
+      "abl.sg.masc": "timido",
+      "nom.pl.masc": "timidi",
+      "gen.pl.masc": "timidorum",
+      "acc.pl.masc": "timidos",
+      "nom.sg.fem": "timida",
+      "acc.sg.fem": "timidam",
+      "abl.sg.fem": "timida",
+      "nom.pl.fem": "timidae",
+      "gen.pl.fem": "timidarum",
+      "acc.pl.fem": "timidas",
+      "abl.sg.neut": "timido",
+      "nom.pl.neut": "timida",
+      "gen.pl.neut": "timidorum",
+      "acc.pl.neut": "timida"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "lemma": "patulus",
+  "pos": "adj",
+  "glosses": [
+    "wide open, gaping",
+    "wide-spreading"
+  ],
+  "reviewed": false,
+  "head": "patulus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "patulus",
+      "gen.sg.masc": "patuli",
+      "dat.sg.masc": "patulo",
+      "gen.sg.fem": "patulae",
+      "dat.sg.fem": "patulae",
+      "nom.sg.neut": "patulum",
+      "gen.sg.neut": "patuli",
+      "dat.sg.neut": "patulo",
+      "acc.sg.neut": "patulum",
+      "acc.sg.masc": "patulum",
+      "abl.sg.masc": "patulo",
+      "nom.pl.masc": "patuli",
+      "gen.pl.masc": "patulorum",
+      "acc.pl.masc": "patulos",
+      "nom.sg.fem": "patula",
+      "acc.sg.fem": "patulam",
+      "abl.sg.fem": "patula",
+      "nom.pl.fem": "patulae",
+      "gen.pl.fem": "patularum",
+      "acc.pl.fem": "patulas",
+      "abl.sg.neut": "patulo",
+      "nom.pl.neut": "patula",
+      "gen.pl.neut": "patulorum",
+      "acc.pl.neut": "patula"
+    }
+  }
+}

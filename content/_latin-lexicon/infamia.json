@@ -1,0 +1,36 @@
+{
+  "lemma": "infamia",
+  "pos": "noun",
+  "glosses": [
+    "disgrace, dishonor",
+    "infamy"
+  ],
+  "reviewed": false,
+  "head": "infamia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "infamia",
+      "gen.sg": "infamiae",
+      "abl.sg": "infamia",
+      "acc.sg": "infamiam",
+      "dat.sg": "infamiae",
+      "nom.pl": "infamiae",
+      "gen.pl": "infamiarum",
+      "dat.pl": "infamiis",
+      "abl.pl": "infamiis",
+      "acc.pl": "infamias"
+    }
+  }
+}

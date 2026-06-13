@@ -1,0 +1,36 @@
+{
+  "lemma": "pascua",
+  "pos": "noun",
+  "glosses": [
+    "pasture, pasture-land",
+    "piece of grazing land"
+  ],
+  "reviewed": false,
+  "head": "pascua, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pascuum",
+      "gen.sg": "pascui",
+      "acc.sg": "pascuum",
+      "dat.sg": "pascuo",
+      "abl.sg": "pascuo",
+      "gen.pl": "pascuorum",
+      "dat.pl": "pascuis",
+      "abl.pl": "pascuis",
+      "nom.pl": "pascua",
+      "acc.pl": "pascua"
+    }
+  }
+}

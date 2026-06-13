@@ -1,0 +1,38 @@
+{
+  "lemma": "periculum",
+  "pos": "noun",
+  "glosses": [
+    "danger, peril",
+    "trial, attempt",
+    "risk",
+    "responsibility for damage, liability"
+  ],
+  "reviewed": false,
+  "head": "periculum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "periculum",
+      "gen.sg": "periculi",
+      "acc.sg": "periculum",
+      "dat.sg": "periculo",
+      "abl.sg": "periculo",
+      "gen.pl": "periculorum",
+      "dat.pl": "periculis",
+      "abl.pl": "periculis",
+      "nom.pl": "pericula",
+      "acc.pl": "pericula"
+    }
+  }
+}

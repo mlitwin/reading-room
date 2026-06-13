@@ -1,0 +1,37 @@
+{
+  "lemma": "metus",
+  "pos": "noun",
+  "glosses": [
+    "fear, anxiety",
+    "dread, awe",
+    "object of awe/dread"
+  ],
+  "reviewed": false,
+  "head": "metus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "metus",
+      "gen.sg": "metus",
+      "dat.sg": "metui",
+      "acc.sg": "metum",
+      "nom.pl": "metus",
+      "acc.pl": "metus",
+      "abl.sg": "metu",
+      "gen.pl": "metuum",
+      "dat.pl": "metibus",
+      "abl.pl": "metibus"
+    }
+  }
+}

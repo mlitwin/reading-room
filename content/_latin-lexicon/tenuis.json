@@ -1,0 +1,37 @@
+{
+  "lemma": "tenuis",
+  "pos": "adj",
+  "glosses": [
+    "thin, fine",
+    "delicate",
+    "slight, slender",
+    "little, unimportant",
+    "weak, feeble"
+  ],
+  "reviewed": false,
+  "head": "tenuis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "tenue",
+      "acc.sg.neut": "tenue",
+      "nom.pl.neut": "tenuia",
+      "acc.pl.neut": "tenuia"
+    }
+  }
+}

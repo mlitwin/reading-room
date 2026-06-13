@@ -1,0 +1,35 @@
+{
+  "lemma": "inferus",
+  "pos": "noun",
+  "glosses": [
+    "those below (pl.), the dead"
+  ],
+  "reviewed": false,
+  "head": "inferus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "inferus",
+      "gen.sg": "inferi",
+      "dat.sg": "infero",
+      "abl.sg": "infero",
+      "acc.sg": "inferum",
+      "nom.pl": "inferi",
+      "gen.pl": "inferorum",
+      "dat.pl": "inferis",
+      "abl.pl": "inferis",
+      "acc.pl": "inferos"
+    }
+  }
+}

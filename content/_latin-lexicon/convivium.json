@@ -1,0 +1,38 @@
+{
+  "lemma": "convivium",
+  "pos": "noun",
+  "glosses": [
+    "banquet/feast/dinner party",
+    "guests/people at party",
+    "dining-club",
+    "living together"
+  ],
+  "reviewed": false,
+  "head": "convivium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "convivium",
+      "gen.sg": "convivii",
+      "acc.sg": "convivium",
+      "dat.sg": "convivio",
+      "abl.sg": "convivio",
+      "gen.pl": "conviviorum",
+      "dat.pl": "conviviis",
+      "abl.pl": "conviviis",
+      "nom.pl": "convivia",
+      "acc.pl": "convivia"
+    }
+  }
+}

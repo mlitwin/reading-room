@@ -1,0 +1,33 @@
+{
+  "lemma": "innabilis",
+  "pos": "adj",
+  "glosses": [
+    "that cannot be swum"
+  ],
+  "reviewed": false,
+  "head": "innabilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "innabile",
+      "acc.sg.neut": "innabile",
+      "nom.pl.neut": "innabilia",
+      "acc.pl.neut": "innabilia"
+    }
+  }
+}

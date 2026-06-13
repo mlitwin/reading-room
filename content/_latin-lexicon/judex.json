@@ -1,0 +1,36 @@
+{
+  "lemma": "judex",
+  "pos": "noun",
+  "glosses": [
+    "judge",
+    "juror"
+  ],
+  "reviewed": false,
+  "head": "judex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "judicem",
+      "gen.pl": "judicum",
+      "acc.pl": "judicis",
+      "nom.sg": "judex",
+      "gen.sg": "judicis",
+      "dat.sg": "judici",
+      "abl.sg": "judice",
+      "nom.pl": "judices",
+      "dat.pl": "judicibus",
+      "abl.pl": "judicibus"
+    }
+  }
+}

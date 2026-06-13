@@ -1,0 +1,54 @@
+{
+  "lemma": "patrius",
+  "pos": "adj",
+  "glosses": [
+    "father's, paternal",
+    "ancestral"
+  ],
+  "reviewed": false,
+  "head": "patrius, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "patrius",
+      "gen.sg.masc": "patrii",
+      "dat.sg.masc": "patrio",
+      "gen.sg.fem": "patriae",
+      "dat.sg.fem": "patriae",
+      "nom.sg.neut": "patrium",
+      "gen.sg.neut": "patrii",
+      "dat.sg.neut": "patrio",
+      "acc.sg.neut": "patrium",
+      "acc.sg.masc": "patrium",
+      "abl.sg.masc": "patrio",
+      "nom.pl.masc": "patrii",
+      "gen.pl.masc": "patriorum",
+      "acc.pl.masc": "patrios",
+      "nom.sg.fem": "patria",
+      "acc.sg.fem": "patriam",
+      "abl.sg.fem": "patria",
+      "nom.pl.fem": "patriae",
+      "gen.pl.fem": "patriarum",
+      "acc.pl.fem": "patrias",
+      "abl.sg.neut": "patrio",
+      "nom.pl.neut": "patria",
+      "gen.pl.neut": "patriorum",
+      "acc.pl.neut": "patria"
+    }
+  }
+}

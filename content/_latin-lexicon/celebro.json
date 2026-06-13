@@ -1,0 +1,45 @@
+{
+  "lemma": "celebro",
+  "pos": "verb",
+  "glosses": [
+    "celebrate/perform",
+    "frequent",
+    "honor/glorify",
+    "publicize/advertise",
+    "discuss/bandy"
+  ],
+  "reviewed": false,
+  "head": "celebro, celebrare, celebravi, celebratum",
+  "principal_parts": [
+    "celebro",
+    "celebrare",
+    "celebravi",
+    "celebratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "celebro",
+      "2sg.pres.ind.act": "celebras",
+      "3sg.pres.ind.act": "celebrat",
+      "1pl.pres.ind.act": "celebramus",
+      "2pl.pres.ind.act": "celebratis",
+      "3pl.pres.ind.act": "celebrant",
+      "2sg.pres.imp.act": "celebra",
+      "2pl.pres.imp.act": "celebrate"
+    }
+  }
+}

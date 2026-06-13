@@ -1,0 +1,53 @@
+{
+  "lemma": "nitidus",
+  "pos": "adj",
+  "glosses": [
+    "shining, bright"
+  ],
+  "reviewed": false,
+  "head": "nitidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "nitidus",
+      "gen.sg.masc": "nitidi",
+      "dat.sg.masc": "nitido",
+      "gen.sg.fem": "nitidae",
+      "dat.sg.fem": "nitidae",
+      "nom.sg.neut": "nitidum",
+      "gen.sg.neut": "nitidi",
+      "dat.sg.neut": "nitido",
+      "acc.sg.neut": "nitidum",
+      "acc.sg.masc": "nitidum",
+      "abl.sg.masc": "nitido",
+      "nom.pl.masc": "nitidi",
+      "gen.pl.masc": "nitidorum",
+      "acc.pl.masc": "nitidos",
+      "nom.sg.fem": "nitida",
+      "acc.sg.fem": "nitidam",
+      "abl.sg.fem": "nitida",
+      "nom.pl.fem": "nitidae",
+      "gen.pl.fem": "nitidarum",
+      "acc.pl.fem": "nitidas",
+      "abl.sg.neut": "nitido",
+      "nom.pl.neut": "nitida",
+      "gen.pl.neut": "nitidorum",
+      "acc.pl.neut": "nitida"
+    }
+  }
+}

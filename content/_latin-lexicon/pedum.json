@@ -1,0 +1,35 @@
+{
+  "lemma": "pedum",
+  "pos": "noun",
+  "glosses": [
+    "shepherd's crook"
+  ],
+  "reviewed": false,
+  "head": "pedum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pedum",
+      "gen.sg": "pedi",
+      "acc.sg": "pedum",
+      "dat.sg": "pedo",
+      "abl.sg": "pedo",
+      "gen.pl": "pedorum",
+      "dat.pl": "pedis",
+      "abl.pl": "pedis",
+      "nom.pl": "peda",
+      "acc.pl": "peda"
+    }
+  }
+}

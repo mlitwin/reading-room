@@ -1,0 +1,36 @@
+{
+  "lemma": "pater",
+  "pos": "noun",
+  "glosses": [
+    "bowl",
+    "saucer"
+  ],
+  "reviewed": false,
+  "head": "pater, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "patera",
+      "gen.sg": "paterae",
+      "abl.sg": "patera",
+      "acc.sg": "pateram",
+      "dat.sg": "paterae",
+      "nom.pl": "paterae",
+      "gen.pl": "paterarum",
+      "dat.pl": "pateris",
+      "abl.pl": "pateris",
+      "acc.pl": "pateras"
+    }
+  }
+}

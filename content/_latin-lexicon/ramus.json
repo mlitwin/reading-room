@@ -1,0 +1,35 @@
+{
+  "lemma": "ramus",
+  "pos": "noun",
+  "glosses": [
+    "branch, bough"
+  ],
+  "reviewed": false,
+  "head": "ramus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ramus",
+      "gen.sg": "rami",
+      "dat.sg": "ramo",
+      "abl.sg": "ramo",
+      "acc.sg": "ramum",
+      "nom.pl": "rami",
+      "gen.pl": "ramorum",
+      "dat.pl": "ramis",
+      "abl.pl": "ramis",
+      "acc.pl": "ramos"
+    }
+  }
+}

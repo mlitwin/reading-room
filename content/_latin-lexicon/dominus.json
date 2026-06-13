@@ -1,0 +1,37 @@
+{
+  "lemma": "dominus",
+  "pos": "noun",
+  "glosses": [
+    "owner, lord, master",
+    "the Lord",
+    "title for ecclesiastics/gentlemen"
+  ],
+  "reviewed": false,
+  "head": "dominus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "dominus",
+      "gen.sg": "domini",
+      "dat.sg": "domino",
+      "abl.sg": "domino",
+      "acc.sg": "dominum",
+      "nom.pl": "domini",
+      "gen.pl": "dominorum",
+      "dat.pl": "dominis",
+      "abl.pl": "dominis",
+      "acc.pl": "dominos"
+    }
+  }
+}

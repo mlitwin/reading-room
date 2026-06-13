@@ -1,0 +1,53 @@
+{
+  "lemma": "violentus",
+  "pos": "adj",
+  "glosses": [
+    "violent, vehement, impetuous, boisterous"
+  ],
+  "reviewed": false,
+  "head": "violentus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "violentus",
+      "gen.sg.masc": "violenti",
+      "dat.sg.masc": "violento",
+      "gen.sg.fem": "violentae",
+      "dat.sg.fem": "violentae",
+      "nom.sg.neut": "violentum",
+      "gen.sg.neut": "violenti",
+      "dat.sg.neut": "violento",
+      "acc.sg.neut": "violentum",
+      "acc.sg.masc": "violentum",
+      "abl.sg.masc": "violento",
+      "nom.pl.masc": "violenti",
+      "gen.pl.masc": "violentorum",
+      "acc.pl.masc": "violentos",
+      "nom.sg.fem": "violenta",
+      "acc.sg.fem": "violentam",
+      "abl.sg.fem": "violenta",
+      "nom.pl.fem": "violentae",
+      "gen.pl.fem": "violentarum",
+      "acc.pl.fem": "violentas",
+      "abl.sg.neut": "violento",
+      "nom.pl.neut": "violenta",
+      "gen.pl.neut": "violentorum",
+      "acc.pl.neut": "violenta"
+    }
+  }
+}

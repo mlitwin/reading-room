@@ -1,0 +1,53 @@
+{
+  "lemma": "pavidus",
+  "pos": "adj",
+  "glosses": [
+    "fearful, terrified, panicstruck"
+  ],
+  "reviewed": false,
+  "head": "pavidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "pavidus",
+      "gen.sg.masc": "pavidi",
+      "dat.sg.masc": "pavido",
+      "gen.sg.fem": "pavidae",
+      "dat.sg.fem": "pavidae",
+      "nom.sg.neut": "pavidum",
+      "gen.sg.neut": "pavidi",
+      "dat.sg.neut": "pavido",
+      "acc.sg.neut": "pavidum",
+      "acc.sg.masc": "pavidum",
+      "abl.sg.masc": "pavido",
+      "nom.pl.masc": "pavidi",
+      "gen.pl.masc": "pavidorum",
+      "acc.pl.masc": "pavidos",
+      "nom.sg.fem": "pavida",
+      "acc.sg.fem": "pavidam",
+      "abl.sg.fem": "pavida",
+      "nom.pl.fem": "pavidae",
+      "gen.pl.fem": "pavidarum",
+      "acc.pl.fem": "pavidas",
+      "abl.sg.neut": "pavido",
+      "nom.pl.neut": "pavida",
+      "gen.pl.neut": "pavidorum",
+      "acc.pl.neut": "pavida"
+    }
+  }
+}

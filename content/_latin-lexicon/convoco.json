@@ -1,0 +1,45 @@
+{
+  "lemma": "convoco",
+  "pos": "verb",
+  "glosses": [
+    "call/bring together",
+    "assemble",
+    "convoke/convene",
+    "summon/muster",
+    "collect (thing)"
+  ],
+  "reviewed": false,
+  "head": "convoco, convocare, convocavi, convocatum",
+  "principal_parts": [
+    "convoco",
+    "convocare",
+    "convocavi",
+    "convocatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "convoco",
+      "2sg.pres.ind.act": "convocas",
+      "3sg.pres.ind.act": "convocat",
+      "1pl.pres.ind.act": "convocamus",
+      "2pl.pres.ind.act": "convocatis",
+      "3pl.pres.ind.act": "convocant",
+      "2sg.pres.imp.act": "convoca",
+      "2pl.pres.imp.act": "convocate"
+    }
+  }
+}

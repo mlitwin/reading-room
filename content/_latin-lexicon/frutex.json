@@ -1,0 +1,37 @@
+{
+  "lemma": "frutex",
+  "pos": "noun",
+  "glosses": [
+    "shrub, bush",
+    "shoot, stem, stalk, growth",
+    "\"blockhead\""
+  ],
+  "reviewed": false,
+  "head": "frutex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "fruticem",
+      "gen.pl": "fruticum",
+      "acc.pl": "fruticis",
+      "nom.sg": "frutex",
+      "gen.sg": "fruticis",
+      "dat.sg": "frutici",
+      "abl.sg": "frutice",
+      "nom.pl": "frutices",
+      "dat.pl": "fruticibus",
+      "abl.pl": "fruticibus"
+    }
+  }
+}

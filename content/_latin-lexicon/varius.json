@@ -1,0 +1,57 @@
+{
+  "lemma": "varius",
+  "pos": "adj",
+  "glosses": [
+    "different",
+    "various, diverse",
+    "changing",
+    "colored",
+    "party colored, variegated"
+  ],
+  "reviewed": false,
+  "head": "varius, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "varius",
+      "gen.sg.masc": "varii",
+      "dat.sg.masc": "vario",
+      "gen.sg.fem": "variae",
+      "dat.sg.fem": "variae",
+      "nom.sg.neut": "varium",
+      "gen.sg.neut": "varii",
+      "dat.sg.neut": "vario",
+      "acc.sg.neut": "varium",
+      "acc.sg.masc": "varium",
+      "abl.sg.masc": "vario",
+      "nom.pl.masc": "varii",
+      "gen.pl.masc": "variorum",
+      "acc.pl.masc": "varios",
+      "nom.sg.fem": "varia",
+      "acc.sg.fem": "variam",
+      "abl.sg.fem": "varia",
+      "nom.pl.fem": "variae",
+      "gen.pl.fem": "variarum",
+      "acc.pl.fem": "varias",
+      "abl.sg.neut": "vario",
+      "nom.pl.neut": "varia",
+      "gen.pl.neut": "variorum",
+      "acc.pl.neut": "varia"
+    }
+  }
+}

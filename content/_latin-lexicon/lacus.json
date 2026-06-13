@@ -1,0 +1,40 @@
+{
+  "lemma": "lacus",
+  "pos": "noun",
+  "glosses": [
+    "basin/tank/tub",
+    "lake/pond",
+    "reservoir/cistern/basin, trough",
+    "lime-hole",
+    "bin",
+    "pit"
+  ],
+  "reviewed": false,
+  "head": "lacus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lacus",
+      "gen.sg": "laci",
+      "dat.sg": "laco",
+      "abl.sg": "laco",
+      "acc.sg": "lacum",
+      "nom.pl": "laci",
+      "gen.pl": "lacorum",
+      "dat.pl": "lacis",
+      "abl.pl": "lacis",
+      "acc.pl": "lacos"
+    }
+  }
+}

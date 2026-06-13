@@ -1,0 +1,57 @@
+{
+  "lemma": "antiqui",
+  "pos": "adj",
+  "glosses": [
+    "old/ancient/aged",
+    "time-honored",
+    "simple/classic",
+    "venerable",
+    "archaic/outdated"
+  ],
+  "reviewed": false,
+  "head": "antiqui, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "antiquus",
+      "gen.sg.masc": "antiqui",
+      "dat.sg.masc": "antiquo",
+      "gen.sg.fem": "antiquae",
+      "dat.sg.fem": "antiquae",
+      "nom.sg.neut": "antiquum",
+      "gen.sg.neut": "antiqui",
+      "dat.sg.neut": "antiquo",
+      "acc.sg.neut": "antiquum",
+      "acc.sg.masc": "antiquum",
+      "abl.sg.masc": "antiquo",
+      "nom.pl.masc": "antiqui",
+      "gen.pl.masc": "antiquorum",
+      "acc.pl.masc": "antiquos",
+      "nom.sg.fem": "antiqua",
+      "acc.sg.fem": "antiquam",
+      "abl.sg.fem": "antiqua",
+      "nom.pl.fem": "antiquae",
+      "gen.pl.fem": "antiquarum",
+      "acc.pl.fem": "antiquas",
+      "abl.sg.neut": "antiquo",
+      "nom.pl.neut": "antiqua",
+      "gen.pl.neut": "antiquorum",
+      "acc.pl.neut": "antiqua"
+    }
+  }
+}

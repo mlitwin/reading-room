@@ -1,0 +1,53 @@
+{
+  "lemma": "spumosus",
+  "pos": "adj",
+  "glosses": [
+    "foaming, frothy"
+  ],
+  "reviewed": false,
+  "head": "spumosus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "spumosus",
+      "gen.sg.masc": "spumosi",
+      "dat.sg.masc": "spumoso",
+      "gen.sg.fem": "spumosae",
+      "dat.sg.fem": "spumosae",
+      "nom.sg.neut": "spumosum",
+      "gen.sg.neut": "spumosi",
+      "dat.sg.neut": "spumoso",
+      "acc.sg.neut": "spumosum",
+      "acc.sg.masc": "spumosum",
+      "abl.sg.masc": "spumoso",
+      "nom.pl.masc": "spumosi",
+      "gen.pl.masc": "spumosorum",
+      "acc.pl.masc": "spumosos",
+      "nom.sg.fem": "spumosa",
+      "acc.sg.fem": "spumosam",
+      "abl.sg.fem": "spumosa",
+      "nom.pl.fem": "spumosae",
+      "gen.pl.fem": "spumosarum",
+      "acc.pl.fem": "spumosas",
+      "abl.sg.neut": "spumoso",
+      "nom.pl.neut": "spumosa",
+      "gen.pl.neut": "spumosorum",
+      "acc.pl.neut": "spumosa"
+    }
+  }
+}

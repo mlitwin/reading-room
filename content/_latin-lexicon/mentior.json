@@ -1,0 +1,43 @@
+{
+  "lemma": "mentior",
+  "pos": "verb",
+  "glosses": [
+    "lie, deceive, invent",
+    "imitate",
+    "feign",
+    "pretend",
+    "speak falsely about"
+  ],
+  "reviewed": false,
+  "head": "mentior, mentere, -i, mentitum",
+  "principal_parts": [
+    "mentior",
+    "mentere",
+    "-i",
+    "mentitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "mentis",
+      "3sg.pres.ind.act": "mentit",
+      "1pl.pres.ind.act": "mentimus",
+      "2pl.pres.ind.act": "mentitis",
+      "2sg.pres.imp.act": "menti",
+      "2pl.pres.imp.act": "mentite"
+    }
+  }
+}

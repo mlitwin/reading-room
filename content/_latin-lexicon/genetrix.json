@@ -1,0 +1,35 @@
+{
+  "lemma": "genetrix",
+  "pos": "noun",
+  "glosses": [
+    "mother, ancestress"
+  ],
+  "reviewed": false,
+  "head": "genetrix, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "genetricem",
+      "gen.pl": "genetricum",
+      "acc.pl": "genetricis",
+      "nom.sg": "genetrix",
+      "gen.sg": "genetricis",
+      "dat.sg": "genetrici",
+      "abl.sg": "genetrice",
+      "nom.pl": "genetrices",
+      "dat.pl": "genetricibus",
+      "abl.pl": "genetricibus"
+    }
+  }
+}

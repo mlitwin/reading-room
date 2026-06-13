@@ -1,0 +1,39 @@
+{
+  "lemma": "spes",
+  "pos": "noun",
+  "glosses": [
+    "hope/anticipation/expectation",
+    "prospect/hope/promise",
+    "(inheriting/succeeding)",
+    "object/embodiment of hope",
+    "[optio ad ~ => junior hoping to make centurion]"
+  ],
+  "reviewed": false,
+  "head": "spes, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "spes",
+      "gen.sg": "spei",
+      "dat.sg": "spei",
+      "abl.sg": "spe",
+      "acc.sg": "spem",
+      "nom.pl": "spes",
+      "gen.pl": "sperum",
+      "dat.pl": "spebus",
+      "abl.pl": "spebus",
+      "acc.pl": "spes"
+    }
+  }
+}

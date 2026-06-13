@@ -1,0 +1,40 @@
+{
+  "lemma": "commune",
+  "pos": "noun",
+  "glosses": [
+    "joint/common/public property/rights",
+    "public",
+    "public places/interests (pl.)",
+    "common feature, characteristic, general rule/terms",
+    "general",
+    "common lot/remedy"
+  ],
+  "reviewed": false,
+  "head": "commune, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "communi",
+      "acc.sg": "commune",
+      "nom.pl": "communia",
+      "gen.pl": "communium",
+      "acc.pl": "communia",
+      "nom.sg": "commune",
+      "gen.sg": "communis",
+      "dat.sg": "communi",
+      "dat.pl": "communibus",
+      "abl.pl": "communibus"
+    }
+  }
+}

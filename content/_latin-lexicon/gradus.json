@@ -1,0 +1,36 @@
+{
+  "lemma": "gradus",
+  "pos": "noun",
+  "glosses": [
+    "step",
+    "position"
+  ],
+  "reviewed": false,
+  "head": "gradus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "gradus",
+      "gen.sg": "gradus",
+      "dat.sg": "gradui",
+      "acc.sg": "gradum",
+      "nom.pl": "gradus",
+      "acc.pl": "gradus",
+      "abl.sg": "gradu",
+      "gen.pl": "graduum",
+      "dat.pl": "gradibus",
+      "abl.pl": "gradibus"
+    }
+  }
+}

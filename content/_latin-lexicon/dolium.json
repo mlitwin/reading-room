@@ -1,0 +1,37 @@
+{
+  "lemma": "dolium",
+  "pos": "noun",
+  "glosses": [
+    "large earthenware vessel (~60 gal. wine/grain)",
+    "hogshead (Cas)",
+    "tun/cask"
+  ],
+  "reviewed": false,
+  "head": "dolium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "dolium",
+      "gen.sg": "dolii",
+      "acc.sg": "dolium",
+      "dat.sg": "dolio",
+      "abl.sg": "dolio",
+      "gen.pl": "doliorum",
+      "dat.pl": "doliis",
+      "abl.pl": "doliis",
+      "nom.pl": "dolia",
+      "acc.pl": "dolia"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lemma": "spero",
+  "pos": "verb",
+  "glosses": [
+    "hope for",
+    "trust",
+    "look forward to",
+    "hope"
+  ],
+  "reviewed": false,
+  "head": "spero, sperare, speravi, speratum",
+  "principal_parts": [
+    "spero",
+    "sperare",
+    "speravi",
+    "speratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "spero",
+      "2sg.pres.ind.act": "speras",
+      "3sg.pres.ind.act": "sperat",
+      "1pl.pres.ind.act": "speramus",
+      "2pl.pres.ind.act": "speratis",
+      "3pl.pres.ind.act": "sperant",
+      "2sg.pres.imp.act": "spera",
+      "2pl.pres.imp.act": "sperate"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "rastrum",
+  "pos": "noun",
+  "glosses": [
+    "drag-hoe"
+  ],
+  "reviewed": false,
+  "head": "rastrum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "rastrum",
+      "gen.sg": "rastri",
+      "acc.sg": "rastrum",
+      "dat.sg": "rastro",
+      "abl.sg": "rastro",
+      "gen.pl": "rastrorum",
+      "dat.pl": "rastris",
+      "abl.pl": "rastris",
+      "nom.pl": "rastra",
+      "acc.pl": "rastra"
+    }
+  }
+}

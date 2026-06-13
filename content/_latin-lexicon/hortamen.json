@@ -1,0 +1,35 @@
+{
+  "lemma": "hortamen",
+  "pos": "noun",
+  "glosses": [
+    "encouragement"
+  ],
+  "reviewed": false,
+  "head": "hortamen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "hortamine",
+      "acc.sg": "hortamen",
+      "nom.pl": "hortamina",
+      "gen.pl": "hortaminum",
+      "acc.pl": "hortamina",
+      "nom.sg": "hortamen",
+      "gen.sg": "hortaminis",
+      "dat.sg": "hortamini",
+      "dat.pl": "hortaminibus",
+      "abl.pl": "hortaminibus"
+    }
+  }
+}

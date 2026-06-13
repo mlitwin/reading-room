@@ -1,0 +1,56 @@
+{
+  "lemma": "ferus",
+  "pos": "adj",
+  "glosses": [
+    "wild, savage",
+    "uncivilized",
+    "untamed",
+    "fierce"
+  ],
+  "reviewed": false,
+  "head": "ferus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "ferus",
+      "gen.sg.masc": "feri",
+      "dat.sg.masc": "fero",
+      "gen.sg.fem": "ferae",
+      "dat.sg.fem": "ferae",
+      "nom.sg.neut": "ferum",
+      "gen.sg.neut": "feri",
+      "dat.sg.neut": "fero",
+      "acc.sg.neut": "ferum",
+      "acc.sg.masc": "ferum",
+      "abl.sg.masc": "fero",
+      "nom.pl.masc": "feri",
+      "gen.pl.masc": "ferorum",
+      "acc.pl.masc": "feros",
+      "nom.sg.fem": "fera",
+      "acc.sg.fem": "feram",
+      "abl.sg.fem": "fera",
+      "nom.pl.fem": "ferae",
+      "gen.pl.fem": "ferarum",
+      "acc.pl.fem": "feras",
+      "abl.sg.neut": "fero",
+      "nom.pl.neut": "fera",
+      "gen.pl.neut": "ferorum",
+      "acc.pl.neut": "fera"
+    }
+  }
+}

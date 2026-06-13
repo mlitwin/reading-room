@@ -1,0 +1,35 @@
+{
+  "lemma": "inanis",
+  "pos": "adj",
+  "glosses": [
+    "void, empty, hollow",
+    "vain",
+    "inane, foolish"
+  ],
+  "reviewed": false,
+  "head": "inanis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "inane",
+      "acc.sg.neut": "inane",
+      "nom.pl.neut": "inania",
+      "acc.pl.neut": "inania"
+    }
+  }
+}

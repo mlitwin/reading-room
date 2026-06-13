@@ -1,0 +1,43 @@
+{
+  "lemma": "colligo",
+  "pos": "verb",
+  "glosses": [
+    "bind/tie/pack together/up, connect, unite/unify",
+    "fetter/bind",
+    "immobilize, stop"
+  ],
+  "reviewed": false,
+  "head": "colligo, colligare, colligavi, colligatum",
+  "principal_parts": [
+    "colligo",
+    "colligare",
+    "colligavi",
+    "colligatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "colligo",
+      "2sg.pres.ind.act": "colligas",
+      "3sg.pres.ind.act": "colligat",
+      "1pl.pres.ind.act": "colligamus",
+      "2pl.pres.ind.act": "colligatis",
+      "3pl.pres.ind.act": "colligant",
+      "2sg.pres.imp.act": "colliga",
+      "2pl.pres.imp.act": "colligate"
+    }
+  }
+}

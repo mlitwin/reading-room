@@ -1,0 +1,53 @@
+{
+  "lemma": "defrenatus",
+  "pos": "adj",
+  "glosses": [
+    "unbridled, unrestrained"
+  ],
+  "reviewed": false,
+  "head": "defrenatus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "defrenatus",
+      "gen.sg.masc": "defrenati",
+      "dat.sg.masc": "defrenato",
+      "gen.sg.fem": "defrenatae",
+      "dat.sg.fem": "defrenatae",
+      "nom.sg.neut": "defrenatum",
+      "gen.sg.neut": "defrenati",
+      "dat.sg.neut": "defrenato",
+      "acc.sg.neut": "defrenatum",
+      "acc.sg.masc": "defrenatum",
+      "abl.sg.masc": "defrenato",
+      "nom.pl.masc": "defrenati",
+      "gen.pl.masc": "defrenatorum",
+      "acc.pl.masc": "defrenatos",
+      "nom.sg.fem": "defrenata",
+      "acc.sg.fem": "defrenatam",
+      "abl.sg.fem": "defrenata",
+      "nom.pl.fem": "defrenatae",
+      "gen.pl.fem": "defrenatarum",
+      "acc.pl.fem": "defrenatas",
+      "abl.sg.neut": "defrenato",
+      "nom.pl.neut": "defrenata",
+      "gen.pl.neut": "defrenatorum",
+      "acc.pl.neut": "defrenata"
+    }
+  }
+}

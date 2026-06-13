@@ -1,0 +1,53 @@
+{
+  "lemma": "piger",
+  "pos": "adj",
+  "glosses": [
+    "lazy, slow, dull"
+  ],
+  "reviewed": false,
+  "head": "piger, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "piger",
+      "gen.sg.masc": "pigri",
+      "dat.sg.masc": "pigro",
+      "gen.sg.fem": "pigrae",
+      "dat.sg.fem": "pigrae",
+      "nom.sg.neut": "pigrum",
+      "gen.sg.neut": "pigri",
+      "dat.sg.neut": "pigro",
+      "acc.sg.neut": "pigrum",
+      "acc.sg.masc": "pigrum",
+      "abl.sg.masc": "pigro",
+      "nom.pl.masc": "pigri",
+      "gen.pl.masc": "pigrorum",
+      "acc.pl.masc": "pigros",
+      "nom.sg.fem": "pigra",
+      "acc.sg.fem": "pigram",
+      "abl.sg.fem": "pigra",
+      "nom.pl.fem": "pigrae",
+      "gen.pl.fem": "pigrarum",
+      "acc.pl.fem": "pigras",
+      "abl.sg.neut": "pigro",
+      "nom.pl.neut": "pigra",
+      "gen.pl.neut": "pigrorum",
+      "acc.pl.neut": "pigra"
+    }
+  }
+}

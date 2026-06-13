@@ -1,0 +1,36 @@
+{
+  "lemma": "medius",
+  "pos": "noun",
+  "glosses": [
+    "mediator",
+    "one who stands in the middle, one who comes between"
+  ],
+  "reviewed": false,
+  "head": "medius, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "medius",
+      "gen.sg": "medii",
+      "dat.sg": "medio",
+      "abl.sg": "medio",
+      "acc.sg": "medium",
+      "nom.pl": "medii",
+      "gen.pl": "mediorum",
+      "dat.pl": "mediis",
+      "abl.pl": "mediis",
+      "acc.pl": "medios"
+    }
+  }
+}

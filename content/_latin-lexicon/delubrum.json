@@ -1,0 +1,37 @@
+{
+  "lemma": "delubrum",
+  "pos": "noun",
+  "glosses": [
+    "shrine",
+    "temple",
+    "sanctuary (L+S)"
+  ],
+  "reviewed": false,
+  "head": "delubrum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "delubrum",
+      "gen.sg": "delubri",
+      "acc.sg": "delubrum",
+      "dat.sg": "delubro",
+      "abl.sg": "delubro",
+      "gen.pl": "delubrorum",
+      "dat.pl": "delubris",
+      "abl.pl": "delubris",
+      "nom.pl": "delubra",
+      "acc.pl": "delubra"
+    }
+  }
+}

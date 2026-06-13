@@ -1,0 +1,38 @@
+{
+  "lemma": "fors",
+  "pos": "noun",
+  "glosses": [
+    "door, gate",
+    "(the two leaves of) a folding door (pl.)",
+    "double door",
+    "entrance"
+  ],
+  "reviewed": false,
+  "head": "fors, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "fori",
+      "acc.sg": "forem",
+      "nom.pl": "foris",
+      "gen.pl": "forium",
+      "acc.pl": "foris",
+      "nom.sg": "foris",
+      "gen.sg": "foris",
+      "dat.sg": "fori",
+      "dat.pl": "foribus",
+      "abl.pl": "foribus"
+    }
+  }
+}

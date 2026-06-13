@@ -1,0 +1,53 @@
+{
+  "lemma": "gelidus",
+  "pos": "adj",
+  "glosses": [
+    "ice cold, icy"
+  ],
+  "reviewed": false,
+  "head": "gelidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "gelidus",
+      "gen.sg.masc": "gelidi",
+      "dat.sg.masc": "gelido",
+      "gen.sg.fem": "gelidae",
+      "dat.sg.fem": "gelidae",
+      "nom.sg.neut": "gelidum",
+      "gen.sg.neut": "gelidi",
+      "dat.sg.neut": "gelido",
+      "acc.sg.neut": "gelidum",
+      "acc.sg.masc": "gelidum",
+      "abl.sg.masc": "gelido",
+      "nom.pl.masc": "gelidi",
+      "gen.pl.masc": "gelidorum",
+      "acc.pl.masc": "gelidos",
+      "nom.sg.fem": "gelida",
+      "acc.sg.fem": "gelidam",
+      "abl.sg.fem": "gelida",
+      "nom.pl.fem": "gelidae",
+      "gen.pl.fem": "gelidarum",
+      "acc.pl.fem": "gelidas",
+      "abl.sg.neut": "gelido",
+      "nom.pl.neut": "gelida",
+      "gen.pl.neut": "gelidorum",
+      "acc.pl.neut": "gelida"
+    }
+  }
+}

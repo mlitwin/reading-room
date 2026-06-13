@@ -1,0 +1,55 @@
+{
+  "lemma": "lacteus",
+  "pos": "adj",
+  "glosses": [
+    "milky",
+    "milk-white",
+    "[~ orbis or circulus => Milky Way]"
+  ],
+  "reviewed": false,
+  "head": "lacteus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "lacteus",
+      "gen.sg.masc": "lactei",
+      "dat.sg.masc": "lacteo",
+      "gen.sg.fem": "lacteae",
+      "dat.sg.fem": "lacteae",
+      "nom.sg.neut": "lacteum",
+      "gen.sg.neut": "lactei",
+      "dat.sg.neut": "lacteo",
+      "acc.sg.neut": "lacteum",
+      "acc.sg.masc": "lacteum",
+      "abl.sg.masc": "lacteo",
+      "nom.pl.masc": "lactei",
+      "gen.pl.masc": "lacteorum",
+      "acc.pl.masc": "lacteos",
+      "nom.sg.fem": "lactea",
+      "acc.sg.fem": "lacteam",
+      "abl.sg.fem": "lactea",
+      "nom.pl.fem": "lacteae",
+      "gen.pl.fem": "lactearum",
+      "acc.pl.fem": "lacteas",
+      "abl.sg.neut": "lacteo",
+      "nom.pl.neut": "lactea",
+      "gen.pl.neut": "lacteorum",
+      "acc.pl.neut": "lactea"
+    }
+  }
+}

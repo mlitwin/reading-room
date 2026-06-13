@@ -1,0 +1,39 @@
+{
+  "lemma": "locum",
+  "pos": "noun",
+  "glosses": [
+    "seat, rank, position",
+    "soldier's post",
+    "quarters",
+    "category",
+    "book passage, topic"
+  ],
+  "reviewed": false,
+  "head": "locum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "locum",
+      "gen.sg": "loci",
+      "acc.sg": "locum",
+      "dat.sg": "loco",
+      "abl.sg": "loco",
+      "gen.pl": "locorum",
+      "dat.pl": "locis",
+      "abl.pl": "locis",
+      "nom.pl": "loca",
+      "acc.pl": "loca"
+    }
+  }
+}

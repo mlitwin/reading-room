@@ -1,0 +1,39 @@
+{
+  "lemma": "dissaepio",
+  "pos": "verb",
+  "glosses": [
+    "separate, divide"
+  ],
+  "reviewed": false,
+  "head": "dissaepio, dissaepere, dissaepsi, dissaeptum",
+  "principal_parts": [
+    "dissaepio",
+    "dissaepere",
+    "dissaepsi",
+    "dissaeptum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "dissaepis",
+      "3sg.pres.ind.act": "dissaepit",
+      "1pl.pres.ind.act": "dissaepimus",
+      "2pl.pres.ind.act": "dissaepitis",
+      "2sg.pres.imp.act": "dissaepe",
+      "2pl.pres.imp.act": "dissaepite"
+    }
+  }
+}

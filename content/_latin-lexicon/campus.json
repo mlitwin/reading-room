@@ -1,0 +1,40 @@
+{
+  "lemma": "campus",
+  "pos": "noun",
+  "glosses": [
+    "plain",
+    "level field/surface",
+    "open space for battle/games",
+    "sea",
+    "scope",
+    "campus"
+  ],
+  "reviewed": false,
+  "head": "campus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "campus",
+      "gen.sg": "campi",
+      "dat.sg": "campo",
+      "abl.sg": "campo",
+      "acc.sg": "campum",
+      "nom.pl": "campi",
+      "gen.pl": "camporum",
+      "dat.pl": "campis",
+      "abl.pl": "campis",
+      "acc.pl": "campos"
+    }
+  }
+}

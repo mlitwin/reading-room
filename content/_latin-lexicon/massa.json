@@ -1,0 +1,36 @@
+{
+  "lemma": "massa",
+  "pos": "noun",
+  "glosses": [
+    "mace",
+    "club"
+  ],
+  "reviewed": false,
+  "head": "massa, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "massa",
+      "gen.sg": "massae",
+      "abl.sg": "massa",
+      "acc.sg": "massam",
+      "dat.sg": "massae",
+      "nom.pl": "massae",
+      "gen.pl": "massarum",
+      "dat.pl": "massis",
+      "abl.pl": "massis",
+      "acc.pl": "massas"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "lemma": "ago",
+  "pos": "verb",
+  "glosses": [
+    "drive/urge/conduct/act",
+    "spend (time w/cum)",
+    "thank (w/gratias)",
+    "deliver (speech)"
+  ],
+  "reviewed": false,
+  "head": "ago, agere, egi, actum",
+  "principal_parts": [
+    "ago",
+    "agere",
+    "egi",
+    "actum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "agis",
+      "3sg.pres.ind.act": "agit",
+      "1pl.pres.ind.act": "agimus",
+      "2pl.pres.ind.act": "agitis",
+      "2sg.pres.imp.act": "age",
+      "2pl.pres.imp.act": "agite"
+    }
+  }
+}

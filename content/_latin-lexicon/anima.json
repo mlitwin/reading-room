@@ -1,0 +1,39 @@
+{
+  "lemma": "anima",
+  "pos": "noun",
+  "glosses": [
+    "soul, spirit, vital principle",
+    "life",
+    "breathing",
+    "wind, breeze",
+    "air (element)"
+  ],
+  "reviewed": false,
+  "head": "anima, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "anima",
+      "gen.sg": "animae",
+      "abl.sg": "anima",
+      "acc.sg": "animam",
+      "dat.sg": "animae",
+      "nom.pl": "animae",
+      "gen.pl": "animarum",
+      "dat.pl": "animis",
+      "abl.pl": "animis",
+      "acc.pl": "animas"
+    }
+  }
+}

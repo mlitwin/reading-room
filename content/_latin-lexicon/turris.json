@@ -1,0 +1,37 @@
+{
+  "lemma": "turris",
+  "pos": "noun",
+  "glosses": [
+    "tower",
+    "high building, palace, citadel",
+    "dove tower, dove cot"
+  ],
+  "reviewed": false,
+  "head": "turris, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "turri",
+      "acc.sg": "turrem",
+      "nom.pl": "turris",
+      "gen.pl": "turrium",
+      "acc.pl": "turris",
+      "nom.sg": "turris",
+      "gen.sg": "turris",
+      "dat.sg": "turri",
+      "dat.pl": "turribus",
+      "abl.pl": "turribus"
+    }
+  }
+}

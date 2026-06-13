@@ -1,0 +1,40 @@
+{
+  "lemma": "cruor",
+  "pos": "noun",
+  "glosses": [
+    "blood",
+    "(fresh/clotted from wound)",
+    "(spilt in battle)",
+    "vegetable/other juice",
+    "gore",
+    "murder/bloodshed/slaughter"
+  ],
+  "reviewed": false,
+  "head": "cruor, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "cruorem",
+      "gen.pl": "cruorum",
+      "acc.pl": "cruoris",
+      "nom.sg": "cruor",
+      "gen.sg": "cruoris",
+      "dat.sg": "cruori",
+      "abl.sg": "cruore",
+      "nom.pl": "cruores",
+      "dat.pl": "cruoribus",
+      "abl.pl": "cruoribus"
+    }
+  }
+}

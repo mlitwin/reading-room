@@ -1,0 +1,36 @@
+{
+  "lemma": "sanguis",
+  "pos": "noun",
+  "glosses": [
+    "blood",
+    "family"
+  ],
+  "reviewed": false,
+  "head": "sanguis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "sanguinem",
+      "gen.pl": "sanguinum",
+      "acc.pl": "sanguinis",
+      "nom.sg": "sanguis",
+      "gen.sg": "sanguinis",
+      "dat.sg": "sanguini",
+      "abl.sg": "sanguine",
+      "nom.pl": "sanguines",
+      "dat.pl": "sanguinibus",
+      "abl.pl": "sanguinibus"
+    }
+  }
+}

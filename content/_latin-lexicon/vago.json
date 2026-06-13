@@ -1,0 +1,41 @@
+{
+  "lemma": "vago",
+  "pos": "verb",
+  "glosses": [
+    "wander, roam"
+  ],
+  "reviewed": false,
+  "head": "vago, vagare, -i, vagatum",
+  "principal_parts": [
+    "vago",
+    "vagare",
+    "-i",
+    "vagatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "vago",
+      "2sg.pres.ind.act": "vagas",
+      "3sg.pres.ind.act": "vagat",
+      "1pl.pres.ind.act": "vagamus",
+      "2pl.pres.ind.act": "vagatis",
+      "3pl.pres.ind.act": "vagant",
+      "2sg.pres.imp.act": "vaga",
+      "2pl.pres.imp.act": "vagate"
+    }
+  }
+}

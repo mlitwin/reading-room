@@ -1,0 +1,40 @@
+{
+  "lemma": "custos",
+  "pos": "noun",
+  "glosses": [
+    "guard",
+    "sentry/watch",
+    "guardian/protector/keeper",
+    "doorkeeper/watchman/janitor",
+    "jailer, warden",
+    "poll watcher"
+  ],
+  "reviewed": false,
+  "head": "custos, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "custodem",
+      "gen.pl": "custodum",
+      "acc.pl": "custodis",
+      "nom.sg": "custos",
+      "gen.sg": "custodis",
+      "dat.sg": "custodi",
+      "abl.sg": "custode",
+      "nom.pl": "custodes",
+      "dat.pl": "custodibus",
+      "abl.pl": "custodibus"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "lemma": "adduco",
+  "pos": "verb",
+  "glosses": [
+    "lead up/to/away",
+    "bring up/to",
+    "persuade, induce",
+    "lead, bring",
+    "contract, tighten"
+  ],
+  "reviewed": false,
+  "head": "adduco, adducere, adduxi, adductum",
+  "principal_parts": [
+    "adduco",
+    "adducere",
+    "adduxi",
+    "adductum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "adducis",
+      "3sg.pres.ind.act": "adducit",
+      "1pl.pres.ind.act": "adducimus",
+      "2pl.pres.ind.act": "adducitis",
+      "2sg.pres.imp.act": "adduce",
+      "2pl.pres.imp.act": "adducite"
+    }
+  }
+}

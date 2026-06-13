@@ -1,0 +1,56 @@
+{
+  "lemma": "fecundus",
+  "pos": "adj",
+  "glosses": [
+    "fertile, fruitful",
+    "productive (of offspring), prolific",
+    "abundant",
+    "imaginative"
+  ],
+  "reviewed": false,
+  "head": "fecundus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "fecundus",
+      "gen.sg.masc": "fecundi",
+      "dat.sg.masc": "fecundo",
+      "gen.sg.fem": "fecundae",
+      "dat.sg.fem": "fecundae",
+      "nom.sg.neut": "fecundum",
+      "gen.sg.neut": "fecundi",
+      "dat.sg.neut": "fecundo",
+      "acc.sg.neut": "fecundum",
+      "acc.sg.masc": "fecundum",
+      "abl.sg.masc": "fecundo",
+      "nom.pl.masc": "fecundi",
+      "gen.pl.masc": "fecundorum",
+      "acc.pl.masc": "fecundos",
+      "nom.sg.fem": "fecunda",
+      "acc.sg.fem": "fecundam",
+      "abl.sg.fem": "fecunda",
+      "nom.pl.fem": "fecundae",
+      "gen.pl.fem": "fecundarum",
+      "acc.pl.fem": "fecundas",
+      "abl.sg.neut": "fecundo",
+      "nom.pl.neut": "fecunda",
+      "gen.pl.neut": "fecundorum",
+      "acc.pl.neut": "fecunda"
+    }
+  }
+}

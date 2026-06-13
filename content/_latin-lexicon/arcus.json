@@ -1,0 +1,37 @@
+{
+  "lemma": "arcus",
+  "pos": "noun",
+  "glosses": [
+    "bow, arc, coil, arch",
+    "rainbow",
+    "anything arched or curved"
+  ],
+  "reviewed": false,
+  "head": "arcus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "arcus",
+      "gen.sg": "arcus",
+      "dat.sg": "arcui",
+      "acc.sg": "arcum",
+      "nom.pl": "arcus",
+      "acc.pl": "arcus",
+      "abl.sg": "arcu",
+      "gen.pl": "arcuum",
+      "dat.pl": "arcibus",
+      "abl.pl": "arcibus"
+    }
+  }
+}

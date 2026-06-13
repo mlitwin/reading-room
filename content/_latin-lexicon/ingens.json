@@ -1,0 +1,35 @@
+{
+  "lemma": "ingens",
+  "pos": "adj",
+  "glosses": [
+    "not natural, immoderate",
+    "huge, vast, enormous",
+    "mighty",
+    "remarkable, momentous"
+  ],
+  "reviewed": false,
+  "head": "ingens, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "ingens",
+      "nom.pl.neut": "ingentia",
+      "acc.pl.neut": "ingentia"
+    }
+  }
+}

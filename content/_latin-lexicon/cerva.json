@@ -1,0 +1,36 @@
+{
+  "lemma": "cerva",
+  "pos": "noun",
+  "glosses": [
+    "doe, hind",
+    "deer"
+  ],
+  "reviewed": false,
+  "head": "cerva, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cerva",
+      "gen.sg": "cervae",
+      "abl.sg": "cerva",
+      "acc.sg": "cervam",
+      "dat.sg": "cervae",
+      "nom.pl": "cervae",
+      "gen.pl": "cervarum",
+      "dat.pl": "cervis",
+      "abl.pl": "cervis",
+      "acc.pl": "cervas"
+    }
+  }
+}

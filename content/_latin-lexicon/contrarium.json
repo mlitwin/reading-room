@@ -1,0 +1,40 @@
+{
+  "lemma": "contrarium",
+  "pos": "noun",
+  "glosses": [
+    "opposite (quantity), reverse/contrary (fact/argument)",
+    "argument from contraries",
+    "opposite direction",
+    "antithesis",
+    "contrast",
+    "[ex ~ => on the contrary/other hand]"
+  ],
+  "reviewed": false,
+  "head": "contrarium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "contrarium",
+      "gen.sg": "contrarii",
+      "acc.sg": "contrarium",
+      "dat.sg": "contrario",
+      "abl.sg": "contrario",
+      "gen.pl": "contrariorum",
+      "dat.pl": "contrariis",
+      "abl.pl": "contrariis",
+      "nom.pl": "contraria",
+      "acc.pl": "contraria"
+    }
+  }
+}

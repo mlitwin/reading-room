@@ -1,0 +1,42 @@
+{
+  "lemma": "proximo",
+  "pos": "verb",
+  "glosses": [
+    "come/draw near, approach",
+    "be near"
+  ],
+  "reviewed": false,
+  "head": "proximo, proximare, proximavi, proximatum",
+  "principal_parts": [
+    "proximo",
+    "proximare",
+    "proximavi",
+    "proximatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "proximo",
+      "2sg.pres.ind.act": "proximas",
+      "3sg.pres.ind.act": "proximat",
+      "1pl.pres.ind.act": "proximamus",
+      "2pl.pres.ind.act": "proximatis",
+      "3pl.pres.ind.act": "proximant",
+      "2sg.pres.imp.act": "proxima",
+      "2pl.pres.imp.act": "proximate"
+    }
+  }
+}

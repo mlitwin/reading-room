@@ -1,0 +1,36 @@
+{
+  "lemma": "femina",
+  "pos": "noun",
+  "glosses": [
+    "woman",
+    "female"
+  ],
+  "reviewed": false,
+  "head": "femina, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "femina",
+      "gen.sg": "feminae",
+      "abl.sg": "femina",
+      "acc.sg": "feminam",
+      "dat.sg": "feminae",
+      "nom.pl": "feminae",
+      "gen.pl": "feminarum",
+      "dat.pl": "feminis",
+      "abl.pl": "feminis",
+      "acc.pl": "feminas"
+    }
+  }
+}

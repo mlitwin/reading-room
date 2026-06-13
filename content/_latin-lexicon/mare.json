@@ -1,0 +1,36 @@
+{
+  "lemma": "mare",
+  "pos": "noun",
+  "glosses": [
+    "sea",
+    "sea water"
+  ],
+  "reviewed": false,
+  "head": "mare, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "mari",
+      "acc.sg": "mare",
+      "nom.pl": "maria",
+      "gen.pl": "marium",
+      "acc.pl": "maria",
+      "nom.sg": "mare",
+      "gen.sg": "maris",
+      "dat.sg": "mari",
+      "dat.pl": "maribus",
+      "abl.pl": "maribus"
+    }
+  }
+}

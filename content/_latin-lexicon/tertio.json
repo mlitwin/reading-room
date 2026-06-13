@@ -1,0 +1,41 @@
+{
+  "lemma": "tertio",
+  "pos": "verb",
+  "glosses": [
+    "repeat three times"
+  ],
+  "reviewed": false,
+  "head": "tertio, tertiare, -i, tertiatum",
+  "principal_parts": [
+    "tertio",
+    "tertiare",
+    "-i",
+    "tertiatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "tertio",
+      "2sg.pres.ind.act": "tertias",
+      "3sg.pres.ind.act": "tertiat",
+      "1pl.pres.ind.act": "tertiamus",
+      "2pl.pres.ind.act": "tertiatis",
+      "3pl.pres.ind.act": "tertiant",
+      "2sg.pres.imp.act": "tertia",
+      "2pl.pres.imp.act": "tertiate"
+    }
+  }
+}

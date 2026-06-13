@@ -1,0 +1,37 @@
+{
+  "lemma": "damnum",
+  "pos": "noun",
+  "glosses": [
+    "financial/property/physical loss/damage/injury",
+    "forfeiture/fine",
+    "lost possession"
+  ],
+  "reviewed": false,
+  "head": "damnum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "damnum",
+      "gen.sg": "damni",
+      "acc.sg": "damnum",
+      "dat.sg": "damno",
+      "abl.sg": "damno",
+      "gen.pl": "damnorum",
+      "dat.pl": "damnis",
+      "abl.pl": "damnis",
+      "nom.pl": "damna",
+      "acc.pl": "damna"
+    }
+  }
+}

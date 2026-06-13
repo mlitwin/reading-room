@@ -1,0 +1,36 @@
+{
+  "lemma": "vultus",
+  "pos": "noun",
+  "glosses": [
+    "face, expression",
+    "looks"
+  ],
+  "reviewed": false,
+  "head": "vultus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vultus",
+      "gen.sg": "vultus",
+      "dat.sg": "vultui",
+      "acc.sg": "vultum",
+      "nom.pl": "vultus",
+      "acc.pl": "vultus",
+      "abl.sg": "vultu",
+      "gen.pl": "vultuum",
+      "dat.pl": "vultibus",
+      "abl.pl": "vultibus"
+    }
+  }
+}

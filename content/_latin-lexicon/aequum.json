@@ -1,0 +1,37 @@
+{
+  "lemma": "aequum",
+  "pos": "noun",
+  "glosses": [
+    "level ground",
+    "equal footing/terms",
+    "what is right/fair/equitable, equity"
+  ],
+  "reviewed": false,
+  "head": "aequum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aequum",
+      "gen.sg": "aequi",
+      "acc.sg": "aequum",
+      "dat.sg": "aequo",
+      "abl.sg": "aequo",
+      "gen.pl": "aequorum",
+      "dat.pl": "aequis",
+      "abl.pl": "aequis",
+      "nom.pl": "aequa",
+      "acc.pl": "aequa"
+    }
+  }
+}

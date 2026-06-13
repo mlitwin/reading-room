@@ -1,0 +1,53 @@
+{
+  "lemma": "securus",
+  "pos": "adj",
+  "glosses": [
+    "secure, safe, untroubled, free from care"
+  ],
+  "reviewed": false,
+  "head": "securus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "securus",
+      "gen.sg.masc": "securi",
+      "dat.sg.masc": "securo",
+      "gen.sg.fem": "securae",
+      "dat.sg.fem": "securae",
+      "nom.sg.neut": "securum",
+      "gen.sg.neut": "securi",
+      "dat.sg.neut": "securo",
+      "acc.sg.neut": "securum",
+      "acc.sg.masc": "securum",
+      "abl.sg.masc": "securo",
+      "nom.pl.masc": "securi",
+      "gen.pl.masc": "securorum",
+      "acc.pl.masc": "securos",
+      "nom.sg.fem": "secura",
+      "acc.sg.fem": "securam",
+      "abl.sg.fem": "secura",
+      "nom.pl.fem": "securae",
+      "gen.pl.fem": "securarum",
+      "acc.pl.fem": "securas",
+      "abl.sg.neut": "securo",
+      "nom.pl.neut": "secura",
+      "gen.pl.neut": "securorum",
+      "acc.pl.neut": "secura"
+    }
+  }
+}

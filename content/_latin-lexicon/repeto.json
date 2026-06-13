@@ -1,0 +1,44 @@
+{
+  "lemma": "repeto",
+  "pos": "verb",
+  "glosses": [
+    "return to",
+    "get back",
+    "demand back/again",
+    "repeat",
+    "recall",
+    "claim"
+  ],
+  "reviewed": false,
+  "head": "repeto, repetere, repetivi, repetitum",
+  "principal_parts": [
+    "repeto",
+    "repetere",
+    "repetivi",
+    "repetitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "repetis",
+      "3sg.pres.ind.act": "repetit",
+      "1pl.pres.ind.act": "repetimus",
+      "2pl.pres.ind.act": "repetitis",
+      "2sg.pres.imp.act": "repete",
+      "2pl.pres.imp.act": "repetite"
+    }
+  }
+}

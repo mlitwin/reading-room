@@ -1,0 +1,55 @@
+{
+  "lemma": "arboreus",
+  "pos": "adj",
+  "glosses": [
+    "tree-, of tree(s)",
+    "resembling a tree, branching",
+    "wooden"
+  ],
+  "reviewed": false,
+  "head": "arboreus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "arboreus",
+      "gen.sg.masc": "arborei",
+      "dat.sg.masc": "arboreo",
+      "gen.sg.fem": "arboreae",
+      "dat.sg.fem": "arboreae",
+      "nom.sg.neut": "arboreum",
+      "gen.sg.neut": "arborei",
+      "dat.sg.neut": "arboreo",
+      "acc.sg.neut": "arboreum",
+      "acc.sg.masc": "arboreum",
+      "abl.sg.masc": "arboreo",
+      "nom.pl.masc": "arborei",
+      "gen.pl.masc": "arboreorum",
+      "acc.pl.masc": "arboreos",
+      "nom.sg.fem": "arborea",
+      "acc.sg.fem": "arboream",
+      "abl.sg.fem": "arborea",
+      "nom.pl.fem": "arboreae",
+      "gen.pl.fem": "arborearum",
+      "acc.pl.fem": "arboreas",
+      "abl.sg.neut": "arboreo",
+      "nom.pl.neut": "arborea",
+      "gen.pl.neut": "arboreorum",
+      "acc.pl.neut": "arborea"
+    }
+  }
+}

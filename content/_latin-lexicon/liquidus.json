@@ -1,0 +1,56 @@
+{
+  "lemma": "liquidus",
+  "pos": "adj",
+  "glosses": [
+    "clear, limpid, pure, unmixed",
+    "liquid",
+    "flowing, without interruption",
+    "smooth"
+  ],
+  "reviewed": false,
+  "head": "liquidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "liquidus",
+      "gen.sg.masc": "liquidi",
+      "dat.sg.masc": "liquido",
+      "gen.sg.fem": "liquidae",
+      "dat.sg.fem": "liquidae",
+      "nom.sg.neut": "liquidum",
+      "gen.sg.neut": "liquidi",
+      "dat.sg.neut": "liquido",
+      "acc.sg.neut": "liquidum",
+      "acc.sg.masc": "liquidum",
+      "abl.sg.masc": "liquido",
+      "nom.pl.masc": "liquidi",
+      "gen.pl.masc": "liquidorum",
+      "acc.pl.masc": "liquidos",
+      "nom.sg.fem": "liquida",
+      "acc.sg.fem": "liquidam",
+      "abl.sg.fem": "liquida",
+      "nom.pl.fem": "liquidae",
+      "gen.pl.fem": "liquidarum",
+      "acc.pl.fem": "liquidas",
+      "abl.sg.neut": "liquido",
+      "nom.pl.neut": "liquida",
+      "gen.pl.neut": "liquidorum",
+      "acc.pl.neut": "liquida"
+    }
+  }
+}

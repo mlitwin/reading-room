@@ -1,0 +1,42 @@
+{
+  "lemma": "timeo",
+  "pos": "verb",
+  "glosses": [
+    "fear, dread, be afraid (ne + SUB = lest",
+    "ut or ne non + SUB = that ... not)"
+  ],
+  "reviewed": false,
+  "head": "timeo, timere, timui, -um",
+  "principal_parts": [
+    "timeo",
+    "timere",
+    "timui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "timeo",
+      "2sg.pres.ind.act": "times",
+      "3sg.pres.ind.act": "timet",
+      "1pl.pres.ind.act": "timemus",
+      "2pl.pres.ind.act": "timetis",
+      "3pl.pres.ind.act": "timent",
+      "2sg.pres.imp.act": "time",
+      "2pl.pres.imp.act": "timete"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "lemma": "reparo",
+  "pos": "verb",
+  "glosses": [
+    "prepare again",
+    "renew, revive"
+  ],
+  "reviewed": false,
+  "head": "reparo, reparare, reparavi, reparatum",
+  "principal_parts": [
+    "reparo",
+    "reparare",
+    "reparavi",
+    "reparatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "reparo",
+      "2sg.pres.ind.act": "reparas",
+      "3sg.pres.ind.act": "reparat",
+      "1pl.pres.ind.act": "reparamus",
+      "2pl.pres.ind.act": "reparatis",
+      "3pl.pres.ind.act": "reparant",
+      "2sg.pres.imp.act": "repara",
+      "2pl.pres.imp.act": "reparate"
+    }
+  }
+}

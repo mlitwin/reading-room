@@ -1,0 +1,36 @@
+{
+  "lemma": "nectar",
+  "pos": "noun",
+  "glosses": [
+    "nectar, the drink of the gods",
+    "anything sweet, pleasant or delicious"
+  ],
+  "reviewed": false,
+  "head": "nectar, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "nectari",
+      "acc.sg": "nectar",
+      "nom.pl": "nectaria",
+      "gen.pl": "nectarium",
+      "acc.pl": "nectaria",
+      "nom.sg": "nectar",
+      "gen.sg": "nectaris",
+      "dat.sg": "nectari",
+      "dat.pl": "nectaribus",
+      "abl.pl": "nectaribus"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "omnis",
+  "pos": "adj",
+  "glosses": [
+    "each, every, every one (of a number)",
+    "all (pl.)",
+    "all/the whole of"
+  ],
+  "reviewed": false,
+  "head": "omnis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "omne",
+      "acc.sg.neut": "omne",
+      "nom.pl.neut": "omnia",
+      "acc.pl.neut": "omnia"
+    }
+  }
+}

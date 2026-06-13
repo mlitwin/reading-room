@@ -1,0 +1,35 @@
+{
+  "lemma": "directum",
+  "pos": "noun",
+  "glosses": [
+    "straight line"
+  ],
+  "reviewed": false,
+  "head": "directum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "directum",
+      "gen.sg": "directi",
+      "acc.sg": "directum",
+      "dat.sg": "directo",
+      "abl.sg": "directo",
+      "gen.pl": "directorum",
+      "dat.pl": "directis",
+      "abl.pl": "directis",
+      "nom.pl": "directa",
+      "acc.pl": "directa"
+    }
+  }
+}

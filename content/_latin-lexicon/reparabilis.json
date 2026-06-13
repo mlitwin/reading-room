@@ -1,0 +1,33 @@
+{
+  "lemma": "reparabilis",
+  "pos": "adj",
+  "glosses": [
+    "capable of being recovered or restored"
+  ],
+  "reviewed": false,
+  "head": "reparabilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "reparabile",
+      "acc.sg.neut": "reparabile",
+      "nom.pl.neut": "reparabilia",
+      "acc.pl.neut": "reparabilia"
+    }
+  }
+}

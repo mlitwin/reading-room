@@ -1,0 +1,37 @@
+{
+  "lemma": "armentum",
+  "pos": "noun",
+  "glosses": [
+    "herd (of cattle)",
+    "a head of cattle, individual bull/horse",
+    "cattle/horses (pl.)"
+  ],
+  "reviewed": false,
+  "head": "armentum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "armentum",
+      "gen.sg": "armenti",
+      "acc.sg": "armentum",
+      "dat.sg": "armento",
+      "abl.sg": "armento",
+      "gen.pl": "armentorum",
+      "dat.pl": "armentis",
+      "abl.pl": "armentis",
+      "nom.pl": "armenta",
+      "acc.pl": "armenta"
+    }
+  }
+}

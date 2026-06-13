@@ -1,0 +1,35 @@
+{
+  "lemma": "rus",
+  "pos": "noun",
+  "glosses": [
+    "country, farm"
+  ],
+  "reviewed": false,
+  "head": "rus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "rure",
+      "acc.sg": "rus",
+      "nom.pl": "rura",
+      "gen.pl": "rurum",
+      "acc.pl": "rura",
+      "nom.sg": "rus",
+      "gen.sg": "ruris",
+      "dat.sg": "ruri",
+      "dat.pl": "ruribus",
+      "abl.pl": "ruribus"
+    }
+  }
+}

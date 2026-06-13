@@ -1,0 +1,38 @@
+{
+  "lemma": "murmur",
+  "pos": "noun",
+  "glosses": [
+    "murmur/mutter",
+    "whisper/rustle, hum/buzz",
+    "low noise",
+    "roar/growl/grunt/rumble"
+  ],
+  "reviewed": false,
+  "head": "murmur, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "murmurem",
+      "gen.pl": "murmurum",
+      "acc.pl": "murmuris",
+      "nom.sg": "murmur",
+      "gen.sg": "murmuris",
+      "dat.sg": "murmuri",
+      "abl.sg": "murmure",
+      "nom.pl": "murmures",
+      "dat.pl": "murmuribus",
+      "abl.pl": "murmuribus"
+    }
+  }
+}

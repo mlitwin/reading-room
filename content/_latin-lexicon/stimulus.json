@@ -1,0 +1,37 @@
+{
+  "lemma": "stimulus",
+  "pos": "noun",
+  "glosses": [
+    "spur/goad",
+    "trap/spike in earth",
+    "prick/sting/cause of torment/torture instrument"
+  ],
+  "reviewed": false,
+  "head": "stimulus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "stimulus",
+      "gen.sg": "stimuli",
+      "dat.sg": "stimulo",
+      "abl.sg": "stimulo",
+      "acc.sg": "stimulum",
+      "nom.pl": "stimuli",
+      "gen.pl": "stimulorum",
+      "dat.pl": "stimulis",
+      "abl.pl": "stimulis",
+      "acc.pl": "stimulos"
+    }
+  }
+}

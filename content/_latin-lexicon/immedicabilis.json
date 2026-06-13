@@ -1,0 +1,33 @@
+{
+  "lemma": "immedicabilis",
+  "pos": "adj",
+  "glosses": [
+    "incurable"
+  ],
+  "reviewed": false,
+  "head": "immedicabilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "immedicabile",
+      "acc.sg.neut": "immedicabile",
+      "nom.pl.neut": "immedicabilia",
+      "acc.pl.neut": "immedicabilia"
+    }
+  }
+}

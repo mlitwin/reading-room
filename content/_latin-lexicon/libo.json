@@ -1,0 +1,44 @@
+{
+  "lemma": "libo",
+  "pos": "verb",
+  "glosses": [
+    "nibble, sip",
+    "pour in offering/a libation",
+    "impair",
+    "graze, touch, skim (over)"
+  ],
+  "reviewed": false,
+  "head": "libo, libare, libavi, libatum",
+  "principal_parts": [
+    "libo",
+    "libare",
+    "libavi",
+    "libatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "libo",
+      "2sg.pres.ind.act": "libas",
+      "3sg.pres.ind.act": "libat",
+      "1pl.pres.ind.act": "libamus",
+      "2pl.pres.ind.act": "libatis",
+      "3pl.pres.ind.act": "libant",
+      "2sg.pres.imp.act": "liba",
+      "2pl.pres.imp.act": "libate"
+    }
+  }
+}

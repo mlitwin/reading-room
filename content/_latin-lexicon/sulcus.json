@@ -1,0 +1,38 @@
+{
+  "lemma": "sulcus",
+  "pos": "noun",
+  "glosses": [
+    "furrow",
+    "rut",
+    "trail of a meteor, track, wake",
+    "female external genitalia (rude)"
+  ],
+  "reviewed": false,
+  "head": "sulcus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sulcus",
+      "gen.sg": "sulci",
+      "dat.sg": "sulco",
+      "abl.sg": "sulco",
+      "acc.sg": "sulcum",
+      "nom.pl": "sulci",
+      "gen.pl": "sulcorum",
+      "dat.pl": "sulcis",
+      "abl.pl": "sulcis",
+      "acc.pl": "sulcos"
+    }
+  }
+}

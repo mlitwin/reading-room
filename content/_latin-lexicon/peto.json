@@ -1,0 +1,43 @@
+{
+  "lemma": "peto",
+  "pos": "verb",
+  "glosses": [
+    "attack",
+    "aim at",
+    "desire",
+    "beg, entreat, ask (for)",
+    "reach towards, make for"
+  ],
+  "reviewed": false,
+  "head": "peto, petere, petivi, petitum",
+  "principal_parts": [
+    "peto",
+    "petere",
+    "petivi",
+    "petitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "petis",
+      "3sg.pres.ind.act": "petit",
+      "1pl.pres.ind.act": "petimus",
+      "2pl.pres.ind.act": "petitis",
+      "2sg.pres.imp.act": "pete",
+      "2pl.pres.imp.act": "petite"
+    }
+  }
+}

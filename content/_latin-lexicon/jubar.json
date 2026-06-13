@@ -1,0 +1,37 @@
+{
+  "lemma": "jubar",
+  "pos": "noun",
+  "glosses": [
+    "radiance of the heavenly bodies, brightness",
+    "first light of day",
+    "light source"
+  ],
+  "reviewed": false,
+  "head": "jubar, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "jubari",
+      "acc.sg": "jubar",
+      "nom.pl": "jubaria",
+      "gen.pl": "jubarium",
+      "acc.pl": "jubaria",
+      "nom.sg": "jubar",
+      "gen.sg": "jubaris",
+      "dat.sg": "jubari",
+      "dat.pl": "jubaribus",
+      "abl.pl": "jubaribus"
+    }
+  }
+}

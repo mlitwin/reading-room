@@ -1,0 +1,36 @@
+{
+  "lemma": "ritus",
+  "pos": "noun",
+  "glosses": [
+    "rite",
+    "ceremony"
+  ],
+  "reviewed": false,
+  "head": "ritus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ritus",
+      "gen.sg": "ritus",
+      "dat.sg": "ritui",
+      "acc.sg": "ritum",
+      "nom.pl": "ritus",
+      "acc.pl": "ritus",
+      "abl.sg": "ritu",
+      "gen.pl": "rituum",
+      "dat.pl": "ritibus",
+      "abl.pl": "ritibus"
+    }
+  }
+}

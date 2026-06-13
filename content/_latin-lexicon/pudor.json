@@ -1,0 +1,38 @@
+{
+  "lemma": "pudor",
+  "pos": "noun",
+  "glosses": [
+    "decency, shame",
+    "sense of honor",
+    "modesty",
+    "bashfulness"
+  ],
+  "reviewed": false,
+  "head": "pudor, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "pudorem",
+      "gen.pl": "pudorum",
+      "acc.pl": "pudoris",
+      "nom.sg": "pudor",
+      "gen.sg": "pudoris",
+      "dat.sg": "pudori",
+      "abl.sg": "pudore",
+      "nom.pl": "pudores",
+      "dat.pl": "pudoribus",
+      "abl.pl": "pudoribus"
+    }
+  }
+}

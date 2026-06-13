@@ -1,0 +1,38 @@
+{
+  "lemma": "cortex",
+  "pos": "noun",
+  "glosses": [
+    "bark",
+    "cork",
+    "skin, rind, husk, hull",
+    "outer covering, shell, carapace, chrysalis"
+  ],
+  "reviewed": false,
+  "head": "cortex, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "corticem",
+      "gen.pl": "corticum",
+      "acc.pl": "corticis",
+      "nom.sg": "cortex",
+      "gen.sg": "corticis",
+      "dat.sg": "cortici",
+      "abl.sg": "cortice",
+      "nom.pl": "cortices",
+      "dat.pl": "corticibus",
+      "abl.pl": "corticibus"
+    }
+  }
+}

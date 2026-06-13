@@ -1,0 +1,36 @@
+{
+  "lemma": "vita",
+  "pos": "noun",
+  "glosses": [
+    "life, career, livelihood",
+    "mode of life"
+  ],
+  "reviewed": false,
+  "head": "vita, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vita",
+      "gen.sg": "vitae",
+      "abl.sg": "vita",
+      "acc.sg": "vitam",
+      "dat.sg": "vitae",
+      "nom.pl": "vitae",
+      "gen.pl": "vitarum",
+      "dat.pl": "vitis",
+      "abl.pl": "vitis",
+      "acc.pl": "vitas"
+    }
+  }
+}

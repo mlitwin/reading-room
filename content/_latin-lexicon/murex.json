@@ -1,0 +1,37 @@
+{
+  "lemma": "murex",
+  "pos": "noun",
+  "glosses": [
+    "purple fish, shellfish which gave Tyrian dye",
+    "purple dye",
+    "purple cloth"
+  ],
+  "reviewed": false,
+  "head": "murex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "muricem",
+      "gen.pl": "muricum",
+      "acc.pl": "muricis",
+      "nom.sg": "murex",
+      "gen.sg": "muricis",
+      "dat.sg": "murici",
+      "abl.sg": "murice",
+      "nom.pl": "murices",
+      "dat.pl": "muricibus",
+      "abl.pl": "muricibus"
+    }
+  }
+}

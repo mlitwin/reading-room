@@ -1,0 +1,38 @@
+{
+  "lemma": "aquilo",
+  "pos": "noun",
+  "glosses": [
+    "north wind",
+    "NNE/NE wind (for Rome)",
+    "north",
+    "Boreas (personified)"
+  ],
+  "reviewed": false,
+  "head": "aquilo, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "aquilonem",
+      "gen.pl": "aquilonum",
+      "acc.pl": "aquilonis",
+      "nom.sg": "aquilo",
+      "gen.sg": "aquilonis",
+      "dat.sg": "aquiloni",
+      "abl.sg": "aquilone",
+      "nom.pl": "aquilones",
+      "dat.pl": "aquilonibus",
+      "abl.pl": "aquilonibus"
+    }
+  }
+}

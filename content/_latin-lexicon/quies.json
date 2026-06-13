@@ -1,0 +1,36 @@
+{
+  "lemma": "quies",
+  "pos": "noun",
+  "glosses": [
+    "quiet, calm, rest, peace",
+    "sleep"
+  ],
+  "reviewed": false,
+  "head": "quies, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "quietem",
+      "gen.pl": "quietum",
+      "acc.pl": "quietis",
+      "nom.sg": "quies",
+      "gen.sg": "quietis",
+      "dat.sg": "quieti",
+      "abl.sg": "quiete",
+      "nom.pl": "quietes",
+      "dat.pl": "quietibus",
+      "abl.pl": "quietibus"
+    }
+  }
+}

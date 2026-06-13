@@ -1,0 +1,38 @@
+{
+  "lemma": "levitas",
+  "pos": "noun",
+  "glosses": [
+    "levity",
+    "lightness, mildness",
+    "fickleness",
+    "shallowness"
+  ],
+  "reviewed": false,
+  "head": "levitas, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "levitatem",
+      "gen.pl": "levitatum",
+      "acc.pl": "levitatis",
+      "nom.sg": "levitas",
+      "gen.sg": "levitatis",
+      "dat.sg": "levitati",
+      "abl.sg": "levitate",
+      "nom.pl": "levitates",
+      "dat.pl": "levitatibus",
+      "abl.pl": "levitatibus"
+    }
+  }
+}

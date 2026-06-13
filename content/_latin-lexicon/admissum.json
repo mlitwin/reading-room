@@ -1,0 +1,35 @@
+{
+  "lemma": "admissum",
+  "pos": "noun",
+  "glosses": [
+    "crime, offense"
+  ],
+  "reviewed": false,
+  "head": "admissum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "admissum",
+      "gen.sg": "admissi",
+      "acc.sg": "admissum",
+      "dat.sg": "admisso",
+      "abl.sg": "admisso",
+      "gen.pl": "admissorum",
+      "dat.pl": "admissis",
+      "abl.pl": "admissis",
+      "nom.pl": "admissa",
+      "acc.pl": "admissa"
+    }
+  }
+}

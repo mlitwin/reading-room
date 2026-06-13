@@ -1,0 +1,39 @@
+{
+  "lemma": "hostio",
+  "pos": "verb",
+  "glosses": [
+    "requite, recompense"
+  ],
+  "reviewed": false,
+  "head": "hostio, hostere, -i, -um",
+  "principal_parts": [
+    "hostio",
+    "hostere",
+    "-i",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "hostis",
+      "3sg.pres.ind.act": "hostit",
+      "1pl.pres.ind.act": "hostimus",
+      "2pl.pres.ind.act": "hostitis",
+      "2sg.pres.imp.act": "hosti",
+      "2pl.pres.imp.act": "hostite"
+    }
+  }
+}

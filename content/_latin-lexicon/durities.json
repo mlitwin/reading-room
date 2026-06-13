@@ -1,0 +1,37 @@
+{
+  "lemma": "durities",
+  "pos": "noun",
+  "glosses": [
+    "hardness, insensibility",
+    "hardship, oppressiveness",
+    "strictness, rigor"
+  ],
+  "reviewed": false,
+  "head": "durities, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "durities",
+      "gen.sg": "duritiei",
+      "dat.sg": "duritiei",
+      "abl.sg": "duritie",
+      "acc.sg": "duritiem",
+      "nom.pl": "durities",
+      "gen.pl": "duritierum",
+      "dat.pl": "duritiebus",
+      "abl.pl": "duritiebus",
+      "acc.pl": "durities"
+    }
+  }
+}

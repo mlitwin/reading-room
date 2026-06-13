@@ -1,0 +1,38 @@
+{
+  "lemma": "amnis",
+  "pos": "noun",
+  "glosses": [
+    "river (real/personified), stream",
+    "current",
+    "(running) water",
+    "the river Ocean"
+  ],
+  "reviewed": false,
+  "head": "amnis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "amni",
+      "acc.sg": "amnem",
+      "nom.pl": "amnis",
+      "gen.pl": "amnium",
+      "acc.pl": "amnis",
+      "nom.sg": "amnis",
+      "gen.sg": "amnis",
+      "dat.sg": "amni",
+      "dat.pl": "amnibus",
+      "abl.pl": "amnibus"
+    }
+  }
+}

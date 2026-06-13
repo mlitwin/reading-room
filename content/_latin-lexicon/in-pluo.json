@@ -1,0 +1,42 @@
+{
+  "lemma": "in-pluo",
+  "pos": "verb",
+  "glosses": [
+    "rain",
+    "fall like rain",
+    "rain down",
+    "drip with rain"
+  ],
+  "reviewed": false,
+  "head": "in-pluo, pluere, plui, -um",
+  "principal_parts": [
+    "in-pluo",
+    "pluere",
+    "plui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "pluis",
+      "3sg.pres.ind.act": "pluit",
+      "1pl.pres.ind.act": "pluimus",
+      "2pl.pres.ind.act": "pluitis",
+      "2sg.pres.imp.act": "plue",
+      "2pl.pres.imp.act": "pluite"
+    }
+  }
+}

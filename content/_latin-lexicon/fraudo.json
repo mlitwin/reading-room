@@ -1,0 +1,46 @@
+{
+  "lemma": "fraudo",
+  "pos": "verb",
+  "glosses": [
+    "cheat/defraud/swindle",
+    "deprive deceitfully",
+    "baffle, make ineffectual",
+    "dishonor",
+    "embezzle, take (money) dishonestly, steal",
+    "violate"
+  ],
+  "reviewed": false,
+  "head": "fraudo, fraudare, fraudavi, fraudatum",
+  "principal_parts": [
+    "fraudo",
+    "fraudare",
+    "fraudavi",
+    "fraudatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "fraudo",
+      "2sg.pres.ind.act": "fraudas",
+      "3sg.pres.ind.act": "fraudat",
+      "1pl.pres.ind.act": "fraudamus",
+      "2pl.pres.ind.act": "fraudatis",
+      "3pl.pres.ind.act": "fraudant",
+      "2sg.pres.imp.act": "frauda",
+      "2pl.pres.imp.act": "fraudate"
+    }
+  }
+}

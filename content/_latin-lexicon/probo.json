@@ -1,0 +1,46 @@
+{
+  "lemma": "probo",
+  "pos": "verb",
+  "glosses": [
+    "approve (of), esteem/commend/recommend/certify",
+    "give assent/approval/sanction",
+    "let",
+    "show to be real/true",
+    "examine/test/try/prove/demonstrate",
+    "get accepted"
+  ],
+  "reviewed": false,
+  "head": "probo, probare, probavi, probatum",
+  "principal_parts": [
+    "probo",
+    "probare",
+    "probavi",
+    "probatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "probo",
+      "2sg.pres.ind.act": "probas",
+      "3sg.pres.ind.act": "probat",
+      "1pl.pres.ind.act": "probamus",
+      "2pl.pres.ind.act": "probatis",
+      "3pl.pres.ind.act": "probant",
+      "2sg.pres.imp.act": "proba",
+      "2pl.pres.imp.act": "probate"
+    }
+  }
+}

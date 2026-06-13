@@ -1,0 +1,35 @@
+{
+  "lemma": "viator",
+  "pos": "noun",
+  "glosses": [
+    "traveler"
+  ],
+  "reviewed": false,
+  "head": "viator, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "viatorem",
+      "gen.pl": "viatorum",
+      "acc.pl": "viatoris",
+      "nom.sg": "viator",
+      "gen.sg": "viatoris",
+      "dat.sg": "viatori",
+      "abl.sg": "viatore",
+      "nom.pl": "viatores",
+      "dat.pl": "viatoribus",
+      "abl.pl": "viatoribus"
+    }
+  }
+}

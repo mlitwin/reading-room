@@ -1,0 +1,37 @@
+{
+  "lemma": "villa",
+  "pos": "noun",
+  "glosses": [
+    "farm/country home/estate",
+    "large country residence/seat, villa",
+    "village (L+S)"
+  ],
+  "reviewed": false,
+  "head": "villa, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "villa",
+      "gen.sg": "villae",
+      "abl.sg": "villa",
+      "acc.sg": "villam",
+      "dat.sg": "villae",
+      "nom.pl": "villae",
+      "gen.pl": "villarum",
+      "dat.pl": "villis",
+      "abl.pl": "villis",
+      "acc.pl": "villas"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "lemma": "amarus",
+  "pos": "adj",
+  "glosses": [
+    "bitter, brackish, pungent",
+    "harsh, shrill",
+    "sad, calamitous",
+    "ill-natured, caustic"
+  ],
+  "reviewed": false,
+  "head": "amarus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "amarus",
+      "gen.sg.masc": "amari",
+      "dat.sg.masc": "amaro",
+      "gen.sg.fem": "amarae",
+      "dat.sg.fem": "amarae",
+      "nom.sg.neut": "amarum",
+      "gen.sg.neut": "amari",
+      "dat.sg.neut": "amaro",
+      "acc.sg.neut": "amarum",
+      "acc.sg.masc": "amarum",
+      "abl.sg.masc": "amaro",
+      "nom.pl.masc": "amari",
+      "gen.pl.masc": "amarorum",
+      "acc.pl.masc": "amaros",
+      "nom.sg.fem": "amara",
+      "acc.sg.fem": "amaram",
+      "abl.sg.fem": "amara",
+      "nom.pl.fem": "amarae",
+      "gen.pl.fem": "amararum",
+      "acc.pl.fem": "amaras",
+      "abl.sg.neut": "amaro",
+      "nom.pl.neut": "amara",
+      "gen.pl.neut": "amarorum",
+      "acc.pl.neut": "amara"
+    }
+  }
+}

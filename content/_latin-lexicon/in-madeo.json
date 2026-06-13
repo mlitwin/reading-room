@@ -1,0 +1,41 @@
+{
+  "lemma": "in-madeo",
+  "pos": "verb",
+  "glosses": [
+    "be wet (w/tears/perspiration), be dripping/sodden"
+  ],
+  "reviewed": false,
+  "head": "in-madeo, madere, madui, -um",
+  "principal_parts": [
+    "in-madeo",
+    "madere",
+    "madui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "madeo",
+      "2sg.pres.ind.act": "mades",
+      "3sg.pres.ind.act": "madet",
+      "1pl.pres.ind.act": "mademus",
+      "2pl.pres.ind.act": "madetis",
+      "3pl.pres.ind.act": "madent",
+      "2sg.pres.imp.act": "made",
+      "2pl.pres.imp.act": "madete"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "lemma": "paternus",
+  "pos": "adj",
+  "glosses": [
+    "father's, paternal",
+    "ancestral"
+  ],
+  "reviewed": false,
+  "head": "paternus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "paternus",
+      "gen.sg.masc": "paterni",
+      "dat.sg.masc": "paterno",
+      "gen.sg.fem": "paternae",
+      "dat.sg.fem": "paternae",
+      "nom.sg.neut": "paternum",
+      "gen.sg.neut": "paterni",
+      "dat.sg.neut": "paterno",
+      "acc.sg.neut": "paternum",
+      "acc.sg.masc": "paternum",
+      "abl.sg.masc": "paterno",
+      "nom.pl.masc": "paterni",
+      "gen.pl.masc": "paternorum",
+      "acc.pl.masc": "paternos",
+      "nom.sg.fem": "paterna",
+      "acc.sg.fem": "paternam",
+      "abl.sg.fem": "paterna",
+      "nom.pl.fem": "paternae",
+      "gen.pl.fem": "paternarum",
+      "acc.pl.fem": "paternas",
+      "abl.sg.neut": "paterno",
+      "nom.pl.neut": "paterna",
+      "gen.pl.neut": "paternorum",
+      "acc.pl.neut": "paterna"
+    }
+  }
+}

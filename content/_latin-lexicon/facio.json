@@ -1,0 +1,44 @@
+{
+  "lemma": "facio",
+  "pos": "verb",
+  "glosses": [
+    "make/build/construct/create/cause/do",
+    "have built/made",
+    "fashion",
+    "work (metal)",
+    "act/take action/be active",
+    "(bowels)"
+  ],
+  "reviewed": false,
+  "head": "facio, facere, feci, factum",
+  "principal_parts": [
+    "facio",
+    "facere",
+    "feci",
+    "factum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "facis",
+      "3sg.pres.ind.act": "facit",
+      "1pl.pres.ind.act": "facimus",
+      "2pl.pres.ind.act": "facitis",
+      "2sg.pres.imp.act": "face",
+      "2pl.pres.imp.act": "facite"
+    }
+  }
+}

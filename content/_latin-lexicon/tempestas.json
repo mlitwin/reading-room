@@ -1,0 +1,36 @@
+{
+  "lemma": "tempestas",
+  "pos": "noun",
+  "glosses": [
+    "season, time, weather",
+    "storm"
+  ],
+  "reviewed": false,
+  "head": "tempestas, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "tempestatem",
+      "gen.pl": "tempestatum",
+      "acc.pl": "tempestatis",
+      "nom.sg": "tempestas",
+      "gen.sg": "tempestatis",
+      "dat.sg": "tempestati",
+      "abl.sg": "tempestate",
+      "nom.pl": "tempestates",
+      "dat.pl": "tempestatibus",
+      "abl.pl": "tempestatibus"
+    }
+  }
+}

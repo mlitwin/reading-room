@@ -1,0 +1,54 @@
+{
+  "lemma": "sanguineus",
+  "pos": "adj",
+  "glosses": [
+    "bloody, bloodstained",
+    "blood-red"
+  ],
+  "reviewed": false,
+  "head": "sanguineus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "sanguineus",
+      "gen.sg.masc": "sanguinei",
+      "dat.sg.masc": "sanguineo",
+      "gen.sg.fem": "sanguineae",
+      "dat.sg.fem": "sanguineae",
+      "nom.sg.neut": "sanguineum",
+      "gen.sg.neut": "sanguinei",
+      "dat.sg.neut": "sanguineo",
+      "acc.sg.neut": "sanguineum",
+      "acc.sg.masc": "sanguineum",
+      "abl.sg.masc": "sanguineo",
+      "nom.pl.masc": "sanguinei",
+      "gen.pl.masc": "sanguineorum",
+      "acc.pl.masc": "sanguineos",
+      "nom.sg.fem": "sanguinea",
+      "acc.sg.fem": "sanguineam",
+      "abl.sg.fem": "sanguinea",
+      "nom.pl.fem": "sanguineae",
+      "gen.pl.fem": "sanguinearum",
+      "acc.pl.fem": "sanguineas",
+      "abl.sg.neut": "sanguineo",
+      "nom.pl.neut": "sanguinea",
+      "gen.pl.neut": "sanguineorum",
+      "acc.pl.neut": "sanguinea"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lemma": "contraho",
+  "pos": "verb",
+  "glosses": [
+    "enter into/upon relationship/agreement/business/marriage/loan/battle, deal with",
+    "bring/draw together/in, assemble, collect/gather",
+    "unite in friendship/alliance",
+    "sadden/depress/diminish/contract/tighten",
+    "cause/provoke (disease/war)",
+    "commit"
+  ],
+  "reviewed": false,
+  "head": "contraho, contrahere, contraxi, contractum",
+  "principal_parts": [
+    "contraho",
+    "contrahere",
+    "contraxi",
+    "contractum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "contrahis",
+      "3sg.pres.ind.act": "contrahit",
+      "1pl.pres.ind.act": "contrahimus",
+      "2pl.pres.ind.act": "contrahitis",
+      "2sg.pres.imp.act": "contrahe",
+      "2pl.pres.imp.act": "contrahite"
+    }
+  }
+}

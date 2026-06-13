@@ -1,0 +1,43 @@
+{
+  "lemma": "intro",
+  "pos": "verb",
+  "glosses": [
+    "enter",
+    "go into, penetrate",
+    "reach"
+  ],
+  "reviewed": false,
+  "head": "intro, intrare, intravi, intratum",
+  "principal_parts": [
+    "intro",
+    "intrare",
+    "intravi",
+    "intratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "intro",
+      "2sg.pres.ind.act": "intras",
+      "3sg.pres.ind.act": "intrat",
+      "1pl.pres.ind.act": "intramus",
+      "2pl.pres.ind.act": "intratis",
+      "3pl.pres.ind.act": "intrant",
+      "2sg.pres.imp.act": "intra",
+      "2pl.pres.imp.act": "intrate"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "glans",
+  "pos": "noun",
+  "glosses": [
+    "mast/acorn/beechnut/chestnut",
+    "missile/bullet thrown/discharged from sling"
+  ],
+  "reviewed": false,
+  "head": "glans, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "glandi",
+      "acc.sg": "glandem",
+      "nom.pl": "glandis",
+      "gen.pl": "glandium",
+      "acc.pl": "glandis",
+      "nom.sg": "glans",
+      "gen.sg": "glandis",
+      "dat.sg": "glandi",
+      "dat.pl": "glandibus",
+      "abl.pl": "glandibus"
+    }
+  }
+}

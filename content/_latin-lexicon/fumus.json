@@ -1,0 +1,35 @@
+{
+  "lemma": "fumus",
+  "pos": "noun",
+  "glosses": [
+    "smoke, steam, vapor, fume"
+  ],
+  "reviewed": false,
+  "head": "fumus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fumus",
+      "gen.sg": "fumi",
+      "dat.sg": "fumo",
+      "abl.sg": "fumo",
+      "acc.sg": "fumum",
+      "nom.pl": "fumi",
+      "gen.pl": "fumorum",
+      "dat.pl": "fumis",
+      "abl.pl": "fumis",
+      "acc.pl": "fumos"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "lemma": "femineus",
+  "pos": "adj",
+  "glosses": [
+    "woman's",
+    "female, feminine",
+    "proper to/typical of a woman",
+    "effeminate, cowardly"
+  ],
+  "reviewed": false,
+  "head": "femineus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "femineus",
+      "gen.sg.masc": "feminei",
+      "dat.sg.masc": "femineo",
+      "gen.sg.fem": "femineae",
+      "dat.sg.fem": "femineae",
+      "nom.sg.neut": "femineum",
+      "gen.sg.neut": "feminei",
+      "dat.sg.neut": "femineo",
+      "acc.sg.neut": "femineum",
+      "acc.sg.masc": "femineum",
+      "abl.sg.masc": "femineo",
+      "nom.pl.masc": "feminei",
+      "gen.pl.masc": "femineorum",
+      "acc.pl.masc": "femineos",
+      "nom.sg.fem": "feminea",
+      "acc.sg.fem": "femineam",
+      "abl.sg.fem": "feminea",
+      "nom.pl.fem": "femineae",
+      "gen.pl.fem": "feminearum",
+      "acc.pl.fem": "femineas",
+      "abl.sg.neut": "femineo",
+      "nom.pl.neut": "feminea",
+      "gen.pl.neut": "femineorum",
+      "acc.pl.neut": "feminea"
+    }
+  }
+}

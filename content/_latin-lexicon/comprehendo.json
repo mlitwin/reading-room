@@ -1,0 +1,44 @@
+{
+  "lemma": "comprehendo",
+  "pos": "verb",
+  "glosses": [
+    "catch/seize/grasp firmly",
+    "arrest",
+    "take hold/root/fire, ignite",
+    "conceive (baby)",
+    "embrace",
+    "include/cover/deal with (in speech/law)"
+  ],
+  "reviewed": false,
+  "head": "comprehendo, comprehendere, comprehendi, comprehensum",
+  "principal_parts": [
+    "comprehendo",
+    "comprehendere",
+    "comprehendi",
+    "comprehensum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "comprehendis",
+      "3sg.pres.ind.act": "comprehendit",
+      "1pl.pres.ind.act": "comprehendimus",
+      "2pl.pres.ind.act": "comprehenditis",
+      "2sg.pres.imp.act": "comprehende",
+      "2pl.pres.imp.act": "comprehendite"
+    }
+  }
+}

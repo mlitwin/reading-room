@@ -1,0 +1,36 @@
+{
+  "lemma": "rupes",
+  "pos": "noun",
+  "glosses": [
+    "cliff",
+    "rock"
+  ],
+  "reviewed": false,
+  "head": "rupes, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "rupi",
+      "acc.sg": "rupem",
+      "nom.pl": "rupis",
+      "gen.pl": "rupium",
+      "acc.pl": "rupis",
+      "nom.sg": "rupes",
+      "gen.sg": "rupis",
+      "dat.sg": "rupi",
+      "dat.pl": "rupibus",
+      "abl.pl": "rupibus"
+    }
+  }
+}

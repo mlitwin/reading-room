@@ -1,0 +1,39 @@
+{
+  "lemma": "fides",
+  "pos": "noun",
+  "glosses": [
+    "faith, loyalty",
+    "honesty",
+    "credit",
+    "confidence, trust, belief",
+    "good faith"
+  ],
+  "reviewed": false,
+  "head": "fides, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fides",
+      "gen.sg": "fidei",
+      "dat.sg": "fidei",
+      "abl.sg": "fide",
+      "acc.sg": "fidem",
+      "nom.pl": "fides",
+      "gen.pl": "fiderum",
+      "dat.pl": "fidebus",
+      "abl.pl": "fidebus",
+      "acc.pl": "fides"
+    }
+  }
+}

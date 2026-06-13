@@ -1,0 +1,35 @@
+{
+  "lemma": "pons",
+  "pos": "noun",
+  "glosses": [
+    "bridge"
+  ],
+  "reviewed": false,
+  "head": "pons, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "ponti",
+      "acc.sg": "pontem",
+      "nom.pl": "pontis",
+      "gen.pl": "pontium",
+      "acc.pl": "pontis",
+      "nom.sg": "pons",
+      "gen.sg": "pontis",
+      "dat.sg": "ponti",
+      "dat.pl": "pontibus",
+      "abl.pl": "pontibus"
+    }
+  }
+}

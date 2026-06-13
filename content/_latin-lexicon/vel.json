@@ -1,0 +1,37 @@
+{
+  "lemma": "vel",
+  "pos": "noun",
+  "glosses": [
+    "sail, covering",
+    "curtain",
+    "[vela vento dare => sail away]"
+  ],
+  "reviewed": false,
+  "head": "vel, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "velum",
+      "gen.sg": "veli",
+      "acc.sg": "velum",
+      "dat.sg": "velo",
+      "abl.sg": "velo",
+      "gen.pl": "velorum",
+      "dat.pl": "velis",
+      "abl.pl": "velis",
+      "nom.pl": "vela",
+      "acc.pl": "vela"
+    }
+  }
+}

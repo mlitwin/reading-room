@@ -1,0 +1,45 @@
+{
+  "lemma": "afflo",
+  "pos": "verb",
+  "glosses": [
+    "blow/breathe (on/towards)",
+    "inspire, infuse",
+    "waft",
+    "graze",
+    "breathe poison on"
+  ],
+  "reviewed": false,
+  "head": "afflo, afflare, afflavi, afflatum",
+  "principal_parts": [
+    "afflo",
+    "afflare",
+    "afflavi",
+    "afflatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "afflo",
+      "2sg.pres.ind.act": "afflas",
+      "3sg.pres.ind.act": "afflat",
+      "1pl.pres.ind.act": "afflamus",
+      "2pl.pres.ind.act": "afflatis",
+      "3pl.pres.ind.act": "afflant",
+      "2sg.pres.imp.act": "affla",
+      "2pl.pres.imp.act": "afflate"
+    }
+  }
+}

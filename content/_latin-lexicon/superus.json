@@ -1,0 +1,36 @@
+{
+  "lemma": "superus",
+  "pos": "noun",
+  "glosses": [
+    "gods (pl.) on high, celestial deities",
+    "those above"
+  ],
+  "reviewed": false,
+  "head": "superus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "superus",
+      "gen.sg": "superi",
+      "dat.sg": "supero",
+      "abl.sg": "supero",
+      "acc.sg": "superum",
+      "nom.pl": "superi",
+      "gen.pl": "superorum",
+      "dat.pl": "superis",
+      "abl.pl": "superis",
+      "acc.pl": "superos"
+    }
+  }
+}

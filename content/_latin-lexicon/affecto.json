@@ -1,0 +1,43 @@
+{
+  "lemma": "affecto",
+  "pos": "verb",
+  "glosses": [
+    "aim at, desire, aspire, try, lay claim to",
+    "try to control",
+    "feign, pretend"
+  ],
+  "reviewed": false,
+  "head": "affecto, affectare, affectavi, affectatum",
+  "principal_parts": [
+    "affecto",
+    "affectare",
+    "affectavi",
+    "affectatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "affecto",
+      "2sg.pres.ind.act": "affectas",
+      "3sg.pres.ind.act": "affectat",
+      "1pl.pres.ind.act": "affectamus",
+      "2pl.pres.ind.act": "affectatis",
+      "3pl.pres.ind.act": "affectant",
+      "2sg.pres.imp.act": "affecta",
+      "2pl.pres.imp.act": "affectate"
+    }
+  }
+}

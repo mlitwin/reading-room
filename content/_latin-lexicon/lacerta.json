@@ -1,0 +1,36 @@
+{
+  "lemma": "lacerta",
+  "pos": "noun",
+  "glosses": [
+    "lizard",
+    "Spanish mackerel"
+  ],
+  "reviewed": false,
+  "head": "lacerta, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lacerta",
+      "gen.sg": "lacertae",
+      "abl.sg": "lacerta",
+      "acc.sg": "lacertam",
+      "dat.sg": "lacertae",
+      "nom.pl": "lacertae",
+      "gen.pl": "lacertarum",
+      "dat.pl": "lacertis",
+      "abl.pl": "lacertis",
+      "acc.pl": "lacertas"
+    }
+  }
+}

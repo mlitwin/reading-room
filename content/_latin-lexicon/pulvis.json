@@ -1,0 +1,36 @@
+{
+  "lemma": "pulvis",
+  "pos": "noun",
+  "glosses": [
+    "dust, powder",
+    "sand"
+  ],
+  "reviewed": false,
+  "head": "pulvis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "pulverem",
+      "gen.pl": "pulverum",
+      "acc.pl": "pulveris",
+      "nom.sg": "pulvis",
+      "gen.sg": "pulveris",
+      "dat.sg": "pulveri",
+      "abl.sg": "pulvere",
+      "nom.pl": "pulveres",
+      "dat.pl": "pulveribus",
+      "abl.pl": "pulveribus"
+    }
+  }
+}

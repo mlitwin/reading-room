@@ -1,0 +1,55 @@
+{
+  "lemma": "cujus",
+  "pos": "adj",
+  "glosses": [
+    "of whom?, whose?",
+    "(interrogative)",
+    "of/to whom, whose (relative)"
+  ],
+  "reviewed": false,
+  "head": "cujus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "cujus",
+      "gen.sg.masc": "cuji",
+      "dat.sg.masc": "cujo",
+      "gen.sg.fem": "cujae",
+      "dat.sg.fem": "cujae",
+      "nom.sg.neut": "cujum",
+      "gen.sg.neut": "cuji",
+      "dat.sg.neut": "cujo",
+      "acc.sg.neut": "cujum",
+      "acc.sg.masc": "cujum",
+      "abl.sg.masc": "cujo",
+      "nom.pl.masc": "cuji",
+      "gen.pl.masc": "cujorum",
+      "acc.pl.masc": "cujos",
+      "nom.sg.fem": "cuja",
+      "acc.sg.fem": "cujam",
+      "abl.sg.fem": "cuja",
+      "nom.pl.fem": "cujae",
+      "gen.pl.fem": "cujarum",
+      "acc.pl.fem": "cujas",
+      "abl.sg.neut": "cujo",
+      "nom.pl.neut": "cuja",
+      "gen.pl.neut": "cujorum",
+      "acc.pl.neut": "cuja"
+    }
+  }
+}

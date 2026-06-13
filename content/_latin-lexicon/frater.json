@@ -1,0 +1,36 @@
+{
+  "lemma": "frater",
+  "pos": "noun",
+  "glosses": [
+    "brother",
+    "cousin"
+  ],
+  "reviewed": false,
+  "head": "frater, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "fratrem",
+      "gen.pl": "fratrum",
+      "acc.pl": "fratris",
+      "nom.sg": "frater",
+      "gen.sg": "fratris",
+      "dat.sg": "fratri",
+      "abl.sg": "fratre",
+      "nom.pl": "fratres",
+      "dat.pl": "fratribus",
+      "abl.pl": "fratribus"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "torpor",
+  "pos": "noun",
+  "glosses": [
+    "numbness, torpor, paralysis"
+  ],
+  "reviewed": false,
+  "head": "torpor, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "torporem",
+      "gen.pl": "torporum",
+      "acc.pl": "torporis",
+      "nom.sg": "torpor",
+      "gen.sg": "torporis",
+      "dat.sg": "torpori",
+      "abl.sg": "torpore",
+      "nom.pl": "torpores",
+      "dat.pl": "torporibus",
+      "abl.pl": "torporibus"
+    }
+  }
+}

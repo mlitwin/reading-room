@@ -1,0 +1,37 @@
+{
+  "lemma": "vena",
+  "pos": "noun",
+  "glosses": [
+    "sale, purchase",
+    "(only sg. ACC/DAT w/dare)",
+    "[venum dare => put up for sale]"
+  ],
+  "reviewed": false,
+  "head": "vena, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "venum",
+      "gen.sg": "veni",
+      "acc.sg": "venum",
+      "dat.sg": "veno",
+      "abl.sg": "veno",
+      "gen.pl": "venorum",
+      "dat.pl": "venis",
+      "abl.pl": "venis",
+      "nom.pl": "vena",
+      "acc.pl": "vena"
+    }
+  }
+}

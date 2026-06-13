@@ -1,0 +1,58 @@
+{
+  "lemma": "curvus",
+  "pos": "adj",
+  "glosses": [
+    "curved/bent/arched",
+    "crooked",
+    "morally wrong",
+    "stooped/bowed",
+    "winding",
+    "w/many bends"
+  ],
+  "reviewed": false,
+  "head": "curvus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "curvus",
+      "gen.sg.masc": "curvi",
+      "dat.sg.masc": "curvo",
+      "gen.sg.fem": "curvae",
+      "dat.sg.fem": "curvae",
+      "nom.sg.neut": "curvum",
+      "gen.sg.neut": "curvi",
+      "dat.sg.neut": "curvo",
+      "acc.sg.neut": "curvum",
+      "acc.sg.masc": "curvum",
+      "abl.sg.masc": "curvo",
+      "nom.pl.masc": "curvi",
+      "gen.pl.masc": "curvorum",
+      "acc.pl.masc": "curvos",
+      "nom.sg.fem": "curva",
+      "acc.sg.fem": "curvam",
+      "abl.sg.fem": "curva",
+      "nom.pl.fem": "curvae",
+      "gen.pl.fem": "curvarum",
+      "acc.pl.fem": "curvas",
+      "abl.sg.neut": "curvo",
+      "nom.pl.neut": "curva",
+      "gen.pl.neut": "curvorum",
+      "acc.pl.neut": "curva"
+    }
+  }
+}

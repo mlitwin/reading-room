@@ -1,0 +1,36 @@
+{
+  "lemma": "paelex",
+  "pos": "noun",
+  "glosses": [
+    "mistress (installed as rival/in addition to wife), concubine",
+    "male prostitute"
+  ],
+  "reviewed": false,
+  "head": "paelex, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "paelicem",
+      "gen.pl": "paelicum",
+      "acc.pl": "paelicis",
+      "nom.sg": "paelex",
+      "gen.sg": "paelicis",
+      "dat.sg": "paelici",
+      "abl.sg": "paelice",
+      "nom.pl": "paelices",
+      "dat.pl": "paelicibus",
+      "abl.pl": "paelicibus"
+    }
+  }
+}

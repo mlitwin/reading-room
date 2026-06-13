@@ -1,0 +1,55 @@
+{
+  "lemma": "circumfluus",
+  "pos": "adj",
+  "glosses": [
+    "flowing/flowed around",
+    "encircled/surrounded/skirted by (water)",
+    "immersed"
+  ],
+  "reviewed": false,
+  "head": "circumfluus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "circumfluus",
+      "gen.sg.masc": "circumflui",
+      "dat.sg.masc": "circumfluo",
+      "gen.sg.fem": "circumfluae",
+      "dat.sg.fem": "circumfluae",
+      "nom.sg.neut": "circumfluum",
+      "gen.sg.neut": "circumflui",
+      "dat.sg.neut": "circumfluo",
+      "acc.sg.neut": "circumfluum",
+      "acc.sg.masc": "circumfluum",
+      "abl.sg.masc": "circumfluo",
+      "nom.pl.masc": "circumflui",
+      "gen.pl.masc": "circumfluorum",
+      "acc.pl.masc": "circumfluos",
+      "nom.sg.fem": "circumflua",
+      "acc.sg.fem": "circumfluam",
+      "abl.sg.fem": "circumflua",
+      "nom.pl.fem": "circumfluae",
+      "gen.pl.fem": "circumfluarum",
+      "acc.pl.fem": "circumfluas",
+      "abl.sg.neut": "circumfluo",
+      "nom.pl.neut": "circumflua",
+      "gen.pl.neut": "circumfluorum",
+      "acc.pl.neut": "circumflua"
+    }
+  }
+}

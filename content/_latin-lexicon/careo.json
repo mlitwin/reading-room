@@ -1,0 +1,43 @@
+{
+  "lemma": "careo",
+  "pos": "verb",
+  "glosses": [
+    "be without/absent from/devoid of/free from",
+    "miss",
+    "abstain from, lack, lose"
+  ],
+  "reviewed": false,
+  "head": "careo, carere, carui, caritum",
+  "principal_parts": [
+    "careo",
+    "carere",
+    "carui",
+    "caritum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "careo",
+      "2sg.pres.ind.act": "cares",
+      "3sg.pres.ind.act": "caret",
+      "1pl.pres.ind.act": "caremus",
+      "2pl.pres.ind.act": "caretis",
+      "3pl.pres.ind.act": "carent",
+      "2sg.pres.imp.act": "care",
+      "2pl.pres.imp.act": "carete"
+    }
+  }
+}

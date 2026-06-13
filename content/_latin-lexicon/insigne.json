@@ -1,0 +1,36 @@
+{
+  "lemma": "insigne",
+  "pos": "noun",
+  "glosses": [
+    "mark, emblem, badge",
+    "ensign, honor, badge of honor"
+  ],
+  "reviewed": false,
+  "head": "insigne, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "insigni",
+      "acc.sg": "insigne",
+      "nom.pl": "insignia",
+      "gen.pl": "insignium",
+      "acc.pl": "insignia",
+      "nom.sg": "insigne",
+      "gen.sg": "insignis",
+      "dat.sg": "insigni",
+      "dat.pl": "insignibus",
+      "abl.pl": "insignibus"
+    }
+  }
+}

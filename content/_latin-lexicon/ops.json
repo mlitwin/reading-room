@@ -1,0 +1,38 @@
+{
+  "lemma": "ops",
+  "pos": "noun",
+  "glosses": [
+    "power, might",
+    "help",
+    "influence",
+    "resources/wealth (pl.)"
+  ],
+  "reviewed": false,
+  "head": "ops, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "opem",
+      "gen.pl": "opum",
+      "acc.pl": "opis",
+      "nom.sg": "ops",
+      "gen.sg": "opis",
+      "dat.sg": "opi",
+      "abl.sg": "ope",
+      "nom.pl": "opes",
+      "dat.pl": "opibus",
+      "abl.pl": "opibus"
+    }
+  }
+}

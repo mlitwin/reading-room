@@ -1,0 +1,35 @@
+{
+  "lemma": "silentium",
+  "pos": "noun",
+  "glosses": [
+    "silence"
+  ],
+  "reviewed": false,
+  "head": "silentium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "silentium",
+      "gen.sg": "silentii",
+      "acc.sg": "silentium",
+      "dat.sg": "silentio",
+      "abl.sg": "silentio",
+      "gen.pl": "silentiorum",
+      "dat.pl": "silentiis",
+      "abl.pl": "silentiis",
+      "nom.pl": "silentia",
+      "acc.pl": "silentia"
+    }
+  }
+}

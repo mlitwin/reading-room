@@ -1,0 +1,35 @@
+{
+  "lemma": "aureus",
+  "pos": "noun",
+  "glosses": [
+    "gold coin (equivalent to 25 silver denarii at Rome) (120 grains/0.25 oz.)"
+  ],
+  "reviewed": false,
+  "head": "aureus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aureus",
+      "gen.sg": "aurei",
+      "dat.sg": "aureo",
+      "abl.sg": "aureo",
+      "acc.sg": "aureum",
+      "nom.pl": "aurei",
+      "gen.pl": "aureorum",
+      "dat.pl": "aureis",
+      "abl.pl": "aureis",
+      "acc.pl": "aureos"
+    }
+  }
+}

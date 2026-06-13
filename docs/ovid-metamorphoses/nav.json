@@ -58,6 +58,259 @@
         "html_path": "ovid-metamorphoses/proem.html"
       },
       "next": {
+        "title": "Book 1 card 02 (Met I.5–88)",
+        "html_path": "ovid-metamorphoses/book1-card-02.html"
+      }
+    },
+    {
+      "slug": "book1-card-02",
+      "title": "Book 1 card 02 (Met I.5–88)",
+      "html_path": "ovid-metamorphoses/book1-card-02.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Python episode (Met I.416–451)",
+        "html_path": "ovid-metamorphoses/python.html"
+      },
+      "next": {
+        "title": "Giants (Met I.89–162)",
+        "html_path": "ovid-metamorphoses/book1-card-03.html"
+      }
+    },
+    {
+      "slug": "book1-card-03",
+      "title": "Giants (Met I.89–162)",
+      "html_path": "ovid-metamorphoses/book1-card-03.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book 1 card 02 (Met I.5–88)",
+        "html_path": "ovid-metamorphoses/book1-card-02.html"
+      },
+      "next": {
+        "title": "The deluge (Met I.163–252)",
+        "html_path": "ovid-metamorphoses/book1-card-04.html"
+      }
+    },
+    {
+      "slug": "book1-card-04",
+      "title": "The deluge (Met I.163–252)",
+      "html_path": "ovid-metamorphoses/book1-card-04.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Giants (Met I.89–162)",
+        "html_path": "ovid-metamorphoses/book1-card-03.html"
+      },
+      "next": {
+        "title": "Book 1 card 05 (Met I.253–347)",
+        "html_path": "ovid-metamorphoses/book1-card-05.html"
+      }
+    },
+    {
+      "slug": "book1-card-05",
+      "title": "Book 1 card 05 (Met I.253–347)",
+      "html_path": "ovid-metamorphoses/book1-card-05.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The deluge (Met I.163–252)",
+        "html_path": "ovid-metamorphoses/book1-card-04.html"
+      },
+      "next": {
+        "title": "Book 1 card 06 (Met I.348–415)",
+        "html_path": "ovid-metamorphoses/book1-card-06.html"
+      }
+    },
+    {
+      "slug": "book1-card-06",
+      "title": "Book 1 card 06 (Met I.348–415)",
+      "html_path": "ovid-metamorphoses/book1-card-06.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book 1 card 05 (Met I.253–347)",
+        "html_path": "ovid-metamorphoses/book1-card-05.html"
+      },
+      "next": {
+        "title": "Book 1 card 08 (Met I.452–524)",
+        "html_path": "ovid-metamorphoses/book1-card-08.html"
+      }
+    },
+    {
+      "slug": "book1-card-08",
+      "title": "Book 1 card 08 (Met I.452–524)",
+      "html_path": "ovid-metamorphoses/book1-card-08.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book 1 card 06 (Met I.348–415)",
+        "html_path": "ovid-metamorphoses/book1-card-06.html"
+      },
+      "next": {
+        "title": "Book 1 card 09 (Met I.525–567)",
+        "html_path": "ovid-metamorphoses/book1-card-09.html"
+      }
+    },
+    {
+      "slug": "book1-card-09",
+      "title": "Book 1 card 09 (Met I.525–567)",
+      "html_path": "ovid-metamorphoses/book1-card-09.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book 1 card 08 (Met I.452–524)",
+        "html_path": "ovid-metamorphoses/book1-card-08.html"
+      },
+      "next": {
+        "title": "Book 1 card 10 (Met I.568–650)",
+        "html_path": "ovid-metamorphoses/book1-card-10.html"
+      }
+    },
+    {
+      "slug": "book1-card-10",
+      "title": "Book 1 card 10 (Met I.568–650)",
+      "html_path": "ovid-metamorphoses/book1-card-10.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book 1 card 09 (Met I.525–567)",
+        "html_path": "ovid-metamorphoses/book1-card-09.html"
+      },
+      "next": {
+        "title": "Book 1 card 11 (Met I.651–712)",
+        "html_path": "ovid-metamorphoses/book1-card-11.html"
+      }
+    },
+    {
+      "slug": "book1-card-11",
+      "title": "Book 1 card 11 (Met I.651–712)",
+      "html_path": "ovid-metamorphoses/book1-card-11.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book 1 card 10 (Met I.568–650)",
+        "html_path": "ovid-metamorphoses/book1-card-10.html"
+      },
+      "next": {
+        "title": "Book 1 card 12 (Met I.713–746)",
+        "html_path": "ovid-metamorphoses/book1-card-12.html"
+      }
+    },
+    {
+      "slug": "book1-card-12",
+      "title": "Book 1 card 12 (Met I.713–746)",
+      "html_path": "ovid-metamorphoses/book1-card-12.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book 1 card 11 (Met I.651–712)",
+        "html_path": "ovid-metamorphoses/book1-card-11.html"
+      },
+      "next": {
+        "title": "Book 1 card 13 (Met I.747–779)",
+        "html_path": "ovid-metamorphoses/book1-card-13.html"
+      }
+    },
+    {
+      "slug": "book1-card-13",
+      "title": "Book 1 card 13 (Met I.747–779)",
+      "html_path": "ovid-metamorphoses/book1-card-13.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Ovid's Metamorphoses",
+          "html_path": "ovid-metamorphoses/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book 1 card 12 (Met I.713–746)",
+        "html_path": "ovid-metamorphoses/book1-card-12.html"
+      },
+      "next": {
         "title": "Grammar reference",
         "html_path": "ovid-metamorphoses/notes.html"
       }
@@ -77,8 +330,8 @@
         }
       ],
       "prev": {
-        "title": "The Python episode (Met I.416–451)",
-        "html_path": "ovid-metamorphoses/python.html"
+        "title": "Book 1 card 13 (Met I.747–779)",
+        "html_path": "ovid-metamorphoses/book1-card-13.html"
       },
       "next": null
     }

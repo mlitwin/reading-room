@@ -1,0 +1,32 @@
+{
+  "lemma": "sollers",
+  "pos": "adj",
+  "glosses": [
+    "clever, dexterous, adroit, expert, skilled, ingenious, accomplished"
+  ],
+  "reviewed": false,
+  "head": "sollers, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "sollers",
+      "nom.pl.neut": "sollertia",
+      "acc.pl.neut": "sollertia"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "lemma": "noster",
+  "pos": "adj",
+  "glosses": [
+    "our"
+  ],
+  "reviewed": false,
+  "head": "noster, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "noster",
+      "gen.sg.masc": "nostri",
+      "dat.sg.masc": "nostro",
+      "gen.sg.fem": "nostrae",
+      "dat.sg.fem": "nostrae",
+      "nom.sg.neut": "nostrum",
+      "gen.sg.neut": "nostri",
+      "dat.sg.neut": "nostro",
+      "acc.sg.neut": "nostrum",
+      "acc.sg.masc": "nostrum",
+      "abl.sg.masc": "nostro",
+      "nom.pl.masc": "nostri",
+      "gen.pl.masc": "nostrorum",
+      "acc.pl.masc": "nostros",
+      "nom.sg.fem": "nostra",
+      "acc.sg.fem": "nostram",
+      "abl.sg.fem": "nostra",
+      "nom.pl.fem": "nostrae",
+      "gen.pl.fem": "nostrarum",
+      "acc.pl.fem": "nostras",
+      "abl.sg.neut": "nostro",
+      "nom.pl.neut": "nostra",
+      "gen.pl.neut": "nostrorum",
+      "acc.pl.neut": "nostra"
+    }
+  }
+}

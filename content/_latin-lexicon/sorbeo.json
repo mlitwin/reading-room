@@ -1,0 +1,41 @@
+{
+  "lemma": "sorbeo",
+  "pos": "verb",
+  "glosses": [
+    "drink, absorb"
+  ],
+  "reviewed": false,
+  "head": "sorbeo, sorbere, sorbui, sorbitum",
+  "principal_parts": [
+    "sorbeo",
+    "sorbere",
+    "sorbui",
+    "sorbitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "sorbeo",
+      "2sg.pres.ind.act": "sorbes",
+      "3sg.pres.ind.act": "sorbet",
+      "1pl.pres.ind.act": "sorbemus",
+      "2pl.pres.ind.act": "sorbetis",
+      "3pl.pres.ind.act": "sorbent",
+      "2sg.pres.imp.act": "sorbe",
+      "2pl.pres.imp.act": "sorbete"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "rostrum",
+  "pos": "noun",
+  "glosses": [
+    "beak, curved bow (of a ship)",
+    "speaker's platform (in Rome's Forum) (pl.)"
+  ],
+  "reviewed": false,
+  "head": "rostrum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "rostrum",
+      "gen.sg": "rostri",
+      "acc.sg": "rostrum",
+      "dat.sg": "rostro",
+      "abl.sg": "rostro",
+      "gen.pl": "rostrorum",
+      "dat.pl": "rostris",
+      "abl.pl": "rostris",
+      "nom.pl": "rostra",
+      "acc.pl": "rostra"
+    }
+  }
+}

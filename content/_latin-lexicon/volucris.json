@@ -1,0 +1,39 @@
+{
+  "lemma": "volucris",
+  "pos": "adj",
+  "glosses": [
+    "winged",
+    "able to fly",
+    "flying",
+    "in rapid motion, fleet/swift",
+    "transient, fleeting"
+  ],
+  "reviewed": false,
+  "head": "volucris, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "volucer",
+      "nom.sg.fem": "volucris",
+      "nom.sg.neut": "volucre",
+      "acc.sg.neut": "volucre",
+      "nom.pl.neut": "volucria",
+      "acc.pl.neut": "volucria"
+    }
+  }
+}

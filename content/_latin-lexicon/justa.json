@@ -1,0 +1,37 @@
+{
+  "lemma": "justa",
+  "pos": "noun",
+  "glosses": [
+    "justice",
+    "what is fair/equitable/right/due/proper",
+    "funeral rites/offerings"
+  ],
+  "reviewed": false,
+  "head": "justa, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "justum",
+      "gen.sg": "justi",
+      "acc.sg": "justum",
+      "dat.sg": "justo",
+      "abl.sg": "justo",
+      "gen.pl": "justorum",
+      "dat.pl": "justis",
+      "abl.pl": "justis",
+      "nom.pl": "justa",
+      "acc.pl": "justa"
+    }
+  }
+}

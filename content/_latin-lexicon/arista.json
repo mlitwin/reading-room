@@ -1,0 +1,38 @@
+{
+  "lemma": "arista",
+  "pos": "noun",
+  "glosses": [
+    "awn, beard of an ear of grain",
+    "ear of grain",
+    "grain crop",
+    "harvest"
+  ],
+  "reviewed": false,
+  "head": "arista, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "arista",
+      "gen.sg": "aristae",
+      "abl.sg": "arista",
+      "acc.sg": "aristam",
+      "dat.sg": "aristae",
+      "nom.pl": "aristae",
+      "gen.pl": "aristarum",
+      "dat.pl": "aristis",
+      "abl.pl": "aristis",
+      "acc.pl": "aristas"
+    }
+  }
+}

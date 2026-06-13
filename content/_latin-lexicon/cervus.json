@@ -1,0 +1,37 @@
+{
+  "lemma": "cervus",
+  "pos": "noun",
+  "glosses": [
+    "stag/deer",
+    "forked branches",
+    "chevaux-de-frise (spiked barricade against cavalry)"
+  ],
+  "reviewed": false,
+  "head": "cervus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cervus",
+      "gen.sg": "cervi",
+      "dat.sg": "cervo",
+      "abl.sg": "cervo",
+      "acc.sg": "cervum",
+      "nom.pl": "cervi",
+      "gen.pl": "cervorum",
+      "dat.pl": "cervis",
+      "abl.pl": "cervis",
+      "acc.pl": "cervos"
+    }
+  }
+}

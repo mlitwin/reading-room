@@ -1,0 +1,39 @@
+{
+  "lemma": "arva",
+  "pos": "noun",
+  "glosses": [
+    "arable land/field, soil, region",
+    "country",
+    "dry land",
+    "stretch of plain",
+    "female external genitalia (rude)"
+  ],
+  "reviewed": false,
+  "head": "arva, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "arvum",
+      "gen.sg": "arvi",
+      "acc.sg": "arvum",
+      "dat.sg": "arvo",
+      "abl.sg": "arvo",
+      "gen.pl": "arvorum",
+      "dat.pl": "arvis",
+      "abl.pl": "arvis",
+      "nom.pl": "arva",
+      "acc.pl": "arva"
+    }
+  }
+}

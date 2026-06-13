@@ -1,0 +1,36 @@
+{
+  "lemma": "jugerum",
+  "pos": "noun",
+  "glosses": [
+    "jugerum (area 5/8 acre/length 240 Roman feet)",
+    "acres/fields/broad expanse (pl.)"
+  ],
+  "reviewed": false,
+  "head": "jugerum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "jugerum",
+      "gen.sg": "jugeri",
+      "acc.sg": "jugerum",
+      "dat.sg": "jugero",
+      "abl.sg": "jugero",
+      "gen.pl": "jugerorum",
+      "dat.pl": "jugeris",
+      "abl.pl": "jugeris",
+      "nom.pl": "jugera",
+      "acc.pl": "jugera"
+    }
+  }
+}

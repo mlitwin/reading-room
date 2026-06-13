@@ -1,0 +1,36 @@
+{
+  "lemma": "creditum",
+  "pos": "noun",
+  "glosses": [
+    "loan, debt, what is lent",
+    "[in ~ accipere => to receive a loan]"
+  ],
+  "reviewed": false,
+  "head": "creditum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "creditum",
+      "gen.sg": "crediti",
+      "acc.sg": "creditum",
+      "dat.sg": "credito",
+      "abl.sg": "credito",
+      "gen.pl": "creditorum",
+      "dat.pl": "creditis",
+      "abl.pl": "creditis",
+      "nom.pl": "credita",
+      "acc.pl": "credita"
+    }
+  }
+}

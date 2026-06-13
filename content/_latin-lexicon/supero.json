@@ -1,0 +1,44 @@
+{
+  "lemma": "supero",
+  "pos": "verb",
+  "glosses": [
+    "overcome, conquer",
+    "survive",
+    "outdo",
+    "surpass, be above, have the upper hand"
+  ],
+  "reviewed": false,
+  "head": "supero, superare, superavi, superatum",
+  "principal_parts": [
+    "supero",
+    "superare",
+    "superavi",
+    "superatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "supero",
+      "2sg.pres.ind.act": "superas",
+      "3sg.pres.ind.act": "superat",
+      "1pl.pres.ind.act": "superamus",
+      "2pl.pres.ind.act": "superatis",
+      "3pl.pres.ind.act": "superant",
+      "2sg.pres.imp.act": "supera",
+      "2pl.pres.imp.act": "superate"
+    }
+  }
+}

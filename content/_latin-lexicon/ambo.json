@@ -1,0 +1,35 @@
+{
+  "lemma": "ambo",
+  "pos": "noun",
+  "glosses": [
+    "pulpit"
+  ],
+  "reviewed": false,
+  "head": "ambo, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "ambonem",
+      "gen.pl": "ambonum",
+      "acc.pl": "ambonis",
+      "nom.sg": "ambon",
+      "gen.sg": "ambonis",
+      "dat.sg": "amboni",
+      "abl.sg": "ambone",
+      "nom.pl": "ambones",
+      "dat.pl": "ambonibus",
+      "abl.pl": "ambonibus"
+    }
+  }
+}

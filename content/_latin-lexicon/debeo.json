@@ -1,0 +1,43 @@
+{
+  "lemma": "debeo",
+  "pos": "verb",
+  "glosses": [
+    "owe",
+    "be indebted/responsible for/obliged/bound/destined",
+    "ought, must, should"
+  ],
+  "reviewed": false,
+  "head": "debeo, debere, debui, debitum",
+  "principal_parts": [
+    "debeo",
+    "debere",
+    "debui",
+    "debitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "debeo",
+      "2sg.pres.ind.act": "debes",
+      "3sg.pres.ind.act": "debet",
+      "1pl.pres.ind.act": "debemus",
+      "2pl.pres.ind.act": "debetis",
+      "3pl.pres.ind.act": "debent",
+      "2sg.pres.imp.act": "debe",
+      "2pl.pres.imp.act": "debete"
+    }
+  }
+}

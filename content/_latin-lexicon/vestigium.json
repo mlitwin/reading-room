@@ -1,0 +1,37 @@
+{
+  "lemma": "vestigium",
+  "pos": "noun",
+  "glosses": [
+    "step, track",
+    "trace",
+    "footstep"
+  ],
+  "reviewed": false,
+  "head": "vestigium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vestigium",
+      "gen.sg": "vestigii",
+      "acc.sg": "vestigium",
+      "dat.sg": "vestigio",
+      "abl.sg": "vestigio",
+      "gen.pl": "vestigiorum",
+      "dat.pl": "vestigiis",
+      "abl.pl": "vestigiis",
+      "nom.pl": "vestigia",
+      "acc.pl": "vestigia"
+    }
+  }
+}

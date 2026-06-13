@@ -1,0 +1,35 @@
+{
+  "lemma": "suspirium",
+  "pos": "noun",
+  "glosses": [
+    "deep breath, sigh"
+  ],
+  "reviewed": false,
+  "head": "suspirium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "suspirium",
+      "gen.sg": "suspirii",
+      "acc.sg": "suspirium",
+      "dat.sg": "suspirio",
+      "abl.sg": "suspirio",
+      "gen.pl": "suspiriorum",
+      "dat.pl": "suspiriis",
+      "abl.pl": "suspiriis",
+      "nom.pl": "suspiria",
+      "acc.pl": "suspiria"
+    }
+  }
+}

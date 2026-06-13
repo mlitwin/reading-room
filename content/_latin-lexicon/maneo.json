@@ -1,0 +1,44 @@
+{
+  "lemma": "maneo",
+  "pos": "verb",
+  "glosses": [
+    "remain, stay, abide",
+    "wait for",
+    "continue, endure, last",
+    "spend the night (sexual)"
+  ],
+  "reviewed": false,
+  "head": "maneo, manere, mansi, mansum",
+  "principal_parts": [
+    "maneo",
+    "manere",
+    "mansi",
+    "mansum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "maneo",
+      "2sg.pres.ind.act": "manes",
+      "3sg.pres.ind.act": "manet",
+      "1pl.pres.ind.act": "manemus",
+      "2pl.pres.ind.act": "manetis",
+      "3pl.pres.ind.act": "manent",
+      "2sg.pres.imp.act": "mane",
+      "2pl.pres.imp.act": "manete"
+    }
+  }
+}

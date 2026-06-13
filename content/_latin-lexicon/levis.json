@@ -1,0 +1,38 @@
+{
+  "lemma": "levis",
+  "pos": "adj",
+  "glosses": [
+    "light, thin, trivial, trifling, slight",
+    "gentle",
+    "fickle, capricious",
+    "nimble",
+    "smooth",
+    "slippery, polished, plain"
+  ],
+  "reviewed": false,
+  "head": "levis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "leve",
+      "acc.sg.neut": "leve",
+      "nom.pl.neut": "levia",
+      "acc.pl.neut": "levia"
+    }
+  }
+}

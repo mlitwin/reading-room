@@ -1,0 +1,33 @@
+{
+  "lemma": "terribilis",
+  "pos": "adj",
+  "glosses": [
+    "frightful, terrible"
+  ],
+  "reviewed": false,
+  "head": "terribilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "terribile",
+      "acc.sg.neut": "terribile",
+      "nom.pl.neut": "terribilia",
+      "acc.pl.neut": "terribilia"
+    }
+  }
+}

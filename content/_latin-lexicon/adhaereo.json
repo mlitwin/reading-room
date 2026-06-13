@@ -1,0 +1,43 @@
+{
+  "lemma": "adhaereo",
+  "pos": "verb",
+  "glosses": [
+    "adhere, stick, cling/cleave to",
+    "hang on",
+    "be attached/concerned/involved"
+  ],
+  "reviewed": false,
+  "head": "adhaereo, adhaerere, adhaesi, adhaesum",
+  "principal_parts": [
+    "adhaereo",
+    "adhaerere",
+    "adhaesi",
+    "adhaesum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "adhaereo",
+      "2sg.pres.ind.act": "adhaeres",
+      "3sg.pres.ind.act": "adhaeret",
+      "1pl.pres.ind.act": "adhaeremus",
+      "2pl.pres.ind.act": "adhaeretis",
+      "3pl.pres.ind.act": "adhaerent",
+      "2sg.pres.imp.act": "adhaere",
+      "2pl.pres.imp.act": "adhaerete"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "fulgur",
+  "pos": "noun",
+  "glosses": [
+    "lightning, flashing, brightness",
+    "[pubica ~ => things blasted by lightning]"
+  ],
+  "reviewed": false,
+  "head": "fulgur, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "fulgure",
+      "acc.sg": "fulgur",
+      "nom.pl": "fulgura",
+      "gen.pl": "fulgurum",
+      "acc.pl": "fulgura",
+      "nom.sg": "fulgur",
+      "gen.sg": "fulguris",
+      "dat.sg": "fulguri",
+      "dat.pl": "fulguribus",
+      "abl.pl": "fulguribus"
+    }
+  }
+}

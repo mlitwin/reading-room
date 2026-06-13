@@ -1,0 +1,37 @@
+{
+  "lemma": "promptus",
+  "pos": "noun",
+  "glosses": [
+    "readiness",
+    "ease",
+    "exposing to view"
+  ],
+  "reviewed": false,
+  "head": "promptus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "promptus",
+      "gen.sg": "promptus",
+      "dat.sg": "promptui",
+      "acc.sg": "promptum",
+      "nom.pl": "promptus",
+      "acc.pl": "promptus",
+      "abl.sg": "promptu",
+      "gen.pl": "promptuum",
+      "dat.pl": "promptibus",
+      "abl.pl": "promptibus"
+    }
+  }
+}

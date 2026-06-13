@@ -1,0 +1,55 @@
+{
+  "lemma": "avidus",
+  "pos": "adj",
+  "glosses": [
+    "greedy, eager, ardent, desirous of",
+    "avaricious, insatiable",
+    "lustful, passionate"
+  ],
+  "reviewed": false,
+  "head": "avidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "avidus",
+      "gen.sg.masc": "avidi",
+      "dat.sg.masc": "avido",
+      "gen.sg.fem": "avidae",
+      "dat.sg.fem": "avidae",
+      "nom.sg.neut": "avidum",
+      "gen.sg.neut": "avidi",
+      "dat.sg.neut": "avido",
+      "acc.sg.neut": "avidum",
+      "acc.sg.masc": "avidum",
+      "abl.sg.masc": "avido",
+      "nom.pl.masc": "avidi",
+      "gen.pl.masc": "avidorum",
+      "acc.pl.masc": "avidos",
+      "nom.sg.fem": "avida",
+      "acc.sg.fem": "avidam",
+      "abl.sg.fem": "avida",
+      "nom.pl.fem": "avidae",
+      "gen.pl.fem": "avidarum",
+      "acc.pl.fem": "avidas",
+      "abl.sg.neut": "avido",
+      "nom.pl.neut": "avida",
+      "gen.pl.neut": "avidorum",
+      "acc.pl.neut": "avida"
+    }
+  }
+}

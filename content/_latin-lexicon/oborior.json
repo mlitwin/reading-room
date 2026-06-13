@@ -1,0 +1,41 @@
+{
+  "lemma": "oborior",
+  "pos": "verb",
+  "glosses": [
+    "arise, occur (thoughts)",
+    "appear, spring/rise up before",
+    "well up (tears)"
+  ],
+  "reviewed": false,
+  "head": "oborior, oborere, -i, obortum",
+  "principal_parts": [
+    "oborior",
+    "oborere",
+    "-i",
+    "obortum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "oboris",
+      "3sg.pres.ind.act": "oborit",
+      "1pl.pres.ind.act": "oborimus",
+      "2pl.pres.ind.act": "oboritis",
+      "2sg.pres.imp.act": "obori",
+      "2pl.pres.imp.act": "oborite"
+    }
+  }
+}

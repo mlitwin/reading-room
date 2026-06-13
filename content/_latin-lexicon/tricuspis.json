@@ -1,0 +1,32 @@
+{
+  "lemma": "tricuspis",
+  "pos": "adj",
+  "glosses": [
+    "having three prongs"
+  ],
+  "reviewed": false,
+  "head": "tricuspis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "tricuspis",
+      "nom.pl.neut": "tricuspidia",
+      "acc.pl.neut": "tricuspidia"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lemma": "tractus",
+  "pos": "noun",
+  "glosses": [
+    "dragging or pulling along",
+    "drawing out",
+    "extent",
+    "tract, region",
+    "lengthening"
+  ],
+  "reviewed": false,
+  "head": "tractus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "tractus",
+      "gen.sg": "tractus",
+      "dat.sg": "tractui",
+      "acc.sg": "tractum",
+      "nom.pl": "tractus",
+      "acc.pl": "tractus",
+      "abl.sg": "tractu",
+      "gen.pl": "tractuum",
+      "dat.pl": "tractibus",
+      "abl.pl": "tractibus"
+    }
+  }
+}

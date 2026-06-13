@@ -1,0 +1,37 @@
+{
+  "lemma": "medulla",
+  "pos": "noun",
+  "glosses": [
+    "marrow, kernel",
+    "innermost part",
+    "quintessence"
+  ],
+  "reviewed": false,
+  "head": "medulla, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "medulla",
+      "gen.sg": "medullae",
+      "abl.sg": "medulla",
+      "acc.sg": "medullam",
+      "dat.sg": "medullae",
+      "nom.pl": "medullae",
+      "gen.pl": "medullarum",
+      "dat.pl": "medullis",
+      "abl.pl": "medullis",
+      "acc.pl": "medullas"
+    }
+  }
+}

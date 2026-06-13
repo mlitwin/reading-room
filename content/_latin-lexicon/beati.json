@@ -1,0 +1,54 @@
+{
+  "lemma": "beati",
+  "pos": "adj",
+  "glosses": [
+    "happy, fortunate, bringing happiness",
+    "rich, wealthy, copious, sumptuous"
+  ],
+  "reviewed": false,
+  "head": "beati, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "beatus",
+      "gen.sg.masc": "beati",
+      "dat.sg.masc": "beato",
+      "gen.sg.fem": "beatae",
+      "dat.sg.fem": "beatae",
+      "nom.sg.neut": "beatum",
+      "gen.sg.neut": "beati",
+      "dat.sg.neut": "beato",
+      "acc.sg.neut": "beatum",
+      "acc.sg.masc": "beatum",
+      "abl.sg.masc": "beato",
+      "nom.pl.masc": "beati",
+      "gen.pl.masc": "beatorum",
+      "acc.pl.masc": "beatos",
+      "nom.sg.fem": "beata",
+      "acc.sg.fem": "beatam",
+      "abl.sg.fem": "beata",
+      "nom.pl.fem": "beatae",
+      "gen.pl.fem": "beatarum",
+      "acc.pl.fem": "beatas",
+      "abl.sg.neut": "beato",
+      "nom.pl.neut": "beata",
+      "gen.pl.neut": "beatorum",
+      "acc.pl.neut": "beata"
+    }
+  }
+}

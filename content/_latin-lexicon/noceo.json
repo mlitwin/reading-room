@@ -1,0 +1,42 @@
+{
+  "lemma": "noceo",
+  "pos": "verb",
+  "glosses": [
+    "harm, hurt",
+    "injure (with DAT)"
+  ],
+  "reviewed": false,
+  "head": "noceo, nocere, nocui, nocitum",
+  "principal_parts": [
+    "noceo",
+    "nocere",
+    "nocui",
+    "nocitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "noceo",
+      "2sg.pres.ind.act": "noces",
+      "3sg.pres.ind.act": "nocet",
+      "1pl.pres.ind.act": "nocemus",
+      "2pl.pres.ind.act": "nocetis",
+      "3pl.pres.ind.act": "nocent",
+      "2sg.pres.imp.act": "noce",
+      "2pl.pres.imp.act": "nocete"
+    }
+  }
+}

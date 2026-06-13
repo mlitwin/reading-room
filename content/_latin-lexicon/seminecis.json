@@ -1,0 +1,32 @@
+{
+  "lemma": "seminecis",
+  "pos": "adj",
+  "glosses": [
+    "half-dead"
+  ],
+  "reviewed": false,
+  "head": "seminecis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "seminex",
+      "nom.pl.neut": "seminecia",
+      "acc.pl.neut": "seminecia"
+    }
+  }
+}

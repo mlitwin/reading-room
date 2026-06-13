@@ -1,0 +1,35 @@
+{
+  "lemma": "stipes",
+  "pos": "noun",
+  "glosses": [
+    "post, stake"
+  ],
+  "reviewed": false,
+  "head": "stipes, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "stipitem",
+      "gen.pl": "stipitum",
+      "acc.pl": "stipitis",
+      "nom.sg": "stipes",
+      "gen.sg": "stipitis",
+      "dat.sg": "stipiti",
+      "abl.sg": "stipite",
+      "nom.pl": "stipites",
+      "dat.pl": "stipitibus",
+      "abl.pl": "stipitibus"
+    }
+  }
+}

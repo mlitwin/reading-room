@@ -1,0 +1,40 @@
+{
+  "lemma": "ira",
+  "pos": "noun",
+  "glosses": [
+    "anger",
+    "ire, wrath",
+    "resentment",
+    "indignation",
+    "rage/fury/violence",
+    "bad blood"
+  ],
+  "reviewed": false,
+  "head": "ira, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ira",
+      "gen.sg": "irae",
+      "abl.sg": "ira",
+      "acc.sg": "iram",
+      "dat.sg": "irae",
+      "nom.pl": "irae",
+      "gen.pl": "irarum",
+      "dat.pl": "iris",
+      "abl.pl": "iris",
+      "acc.pl": "iras"
+    }
+  }
+}

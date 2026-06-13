@@ -1,0 +1,39 @@
+{
+  "lemma": "lumen",
+  "pos": "noun",
+  "glosses": [
+    "light",
+    "lamp, torch",
+    "eye (of a person)",
+    "life",
+    "day, daylight"
+  ],
+  "reviewed": false,
+  "head": "lumen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "lumine",
+      "acc.sg": "lumen",
+      "nom.pl": "lumina",
+      "gen.pl": "luminum",
+      "acc.pl": "lumina",
+      "nom.sg": "lumen",
+      "gen.sg": "luminis",
+      "dat.sg": "lumini",
+      "dat.pl": "luminibus",
+      "abl.pl": "luminibus"
+    }
+  }
+}

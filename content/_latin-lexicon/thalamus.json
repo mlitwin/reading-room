@@ -1,0 +1,36 @@
+{
+  "lemma": "thalamus",
+  "pos": "noun",
+  "glosses": [
+    "bedroom",
+    "marriage"
+  ],
+  "reviewed": false,
+  "head": "thalamus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "thalamus",
+      "gen.sg": "thalami",
+      "dat.sg": "thalamo",
+      "abl.sg": "thalamo",
+      "acc.sg": "thalamum",
+      "nom.pl": "thalami",
+      "gen.pl": "thalamorum",
+      "dat.pl": "thalamis",
+      "abl.pl": "thalamis",
+      "acc.pl": "thalamos"
+    }
+  }
+}

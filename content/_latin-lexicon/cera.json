@@ -1,0 +1,38 @@
+{
+  "lemma": "cera",
+  "pos": "noun",
+  "glosses": [
+    "wax, beeswax",
+    "honeycomb",
+    "wax-covered writing tablet, letter",
+    "wax image/seal"
+  ],
+  "reviewed": false,
+  "head": "cera, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cera",
+      "gen.sg": "cerae",
+      "abl.sg": "cera",
+      "acc.sg": "ceram",
+      "dat.sg": "cerae",
+      "nom.pl": "cerae",
+      "gen.pl": "cerarum",
+      "dat.pl": "ceris",
+      "abl.pl": "ceris",
+      "acc.pl": "ceras"
+    }
+  }
+}

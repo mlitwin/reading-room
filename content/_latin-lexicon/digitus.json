@@ -1,0 +1,39 @@
+{
+  "lemma": "digitus",
+  "pos": "noun",
+  "glosses": [
+    "finger",
+    "toe",
+    "finger's breadth, inch",
+    "(1/16 of a pes)",
+    "twig"
+  ],
+  "reviewed": false,
+  "head": "digitus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "digitus",
+      "gen.sg": "digiti",
+      "dat.sg": "digito",
+      "abl.sg": "digito",
+      "acc.sg": "digitum",
+      "nom.pl": "digiti",
+      "gen.pl": "digitorum",
+      "dat.pl": "digitis",
+      "abl.pl": "digitis",
+      "acc.pl": "digitos"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "lemma": "maternus",
+  "pos": "adj",
+  "glosses": [
+    "maternal, motherly, of a mother"
+  ],
+  "reviewed": false,
+  "head": "maternus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "maternus",
+      "gen.sg.masc": "materni",
+      "dat.sg.masc": "materno",
+      "gen.sg.fem": "maternae",
+      "dat.sg.fem": "maternae",
+      "nom.sg.neut": "maternum",
+      "gen.sg.neut": "materni",
+      "dat.sg.neut": "materno",
+      "acc.sg.neut": "maternum",
+      "acc.sg.masc": "maternum",
+      "abl.sg.masc": "materno",
+      "nom.pl.masc": "materni",
+      "gen.pl.masc": "maternorum",
+      "acc.pl.masc": "maternos",
+      "nom.sg.fem": "materna",
+      "acc.sg.fem": "maternam",
+      "abl.sg.fem": "materna",
+      "nom.pl.fem": "maternae",
+      "gen.pl.fem": "maternarum",
+      "acc.pl.fem": "maternas",
+      "abl.sg.neut": "materno",
+      "nom.pl.neut": "materna",
+      "gen.pl.neut": "maternorum",
+      "acc.pl.neut": "materna"
+    }
+  }
+}

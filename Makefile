@@ -1,5 +1,6 @@
 .PHONY: install build serve clean test \
-        latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit
+        latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
+        latin-translate-ingest latin-scribe-book1
 
 install:
 	cd site/generator && npm install
@@ -49,7 +50,7 @@ latin-vocab:
 	  | python3 site/latin/seed_vocab.py
 
 latin-promote:
-	@python3 site/latin/promote_reviewed.py
+	@python3 site/latin/promote_staging.py
 
 latin-clean-staging:
 	@rm -f site/latin/staging/lexicon/*.json
@@ -60,3 +61,9 @@ latin-seed: latin-spans
 
 latin-audit:
 	@python3 site/latin/audit_latin.py
+
+latin-translate-ingest:
+	@python3 site/latin/ingest_translation.py
+
+latin-scribe-book1:
+	@python3 site/latin/scribe_book1_mechanical.py

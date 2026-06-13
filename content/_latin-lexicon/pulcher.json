@@ -1,0 +1,56 @@
+{
+  "lemma": "pulcher",
+  "pos": "adj",
+  "glosses": [
+    "pretty",
+    "beautiful",
+    "handsome",
+    "noble, illustrious"
+  ],
+  "reviewed": false,
+  "head": "pulcher, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "pulcher",
+      "gen.sg.masc": "pulchri",
+      "dat.sg.masc": "pulchro",
+      "gen.sg.fem": "pulchrae",
+      "dat.sg.fem": "pulchrae",
+      "nom.sg.neut": "pulchrum",
+      "gen.sg.neut": "pulchri",
+      "dat.sg.neut": "pulchro",
+      "acc.sg.neut": "pulchrum",
+      "acc.sg.masc": "pulchrum",
+      "abl.sg.masc": "pulchro",
+      "nom.pl.masc": "pulchri",
+      "gen.pl.masc": "pulchrorum",
+      "acc.pl.masc": "pulchros",
+      "nom.sg.fem": "pulchra",
+      "acc.sg.fem": "pulchram",
+      "abl.sg.fem": "pulchra",
+      "nom.pl.fem": "pulchrae",
+      "gen.pl.fem": "pulchrarum",
+      "acc.pl.fem": "pulchras",
+      "abl.sg.neut": "pulchro",
+      "nom.pl.neut": "pulchra",
+      "gen.pl.neut": "pulchrorum",
+      "acc.pl.neut": "pulchra"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "lemma": "niveus",
+  "pos": "adj",
+  "glosses": [
+    "snowy, covered with snow",
+    "white"
+  ],
+  "reviewed": false,
+  "head": "niveus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "niveus",
+      "gen.sg.masc": "nivei",
+      "dat.sg.masc": "niveo",
+      "gen.sg.fem": "niveae",
+      "dat.sg.fem": "niveae",
+      "nom.sg.neut": "niveum",
+      "gen.sg.neut": "nivei",
+      "dat.sg.neut": "niveo",
+      "acc.sg.neut": "niveum",
+      "acc.sg.masc": "niveum",
+      "abl.sg.masc": "niveo",
+      "nom.pl.masc": "nivei",
+      "gen.pl.masc": "niveorum",
+      "acc.pl.masc": "niveos",
+      "nom.sg.fem": "nivea",
+      "acc.sg.fem": "niveam",
+      "abl.sg.fem": "nivea",
+      "nom.pl.fem": "niveae",
+      "gen.pl.fem": "nivearum",
+      "acc.pl.fem": "niveas",
+      "abl.sg.neut": "niveo",
+      "nom.pl.neut": "nivea",
+      "gen.pl.neut": "niveorum",
+      "acc.pl.neut": "nivea"
+    }
+  }
+}

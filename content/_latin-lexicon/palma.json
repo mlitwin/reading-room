@@ -1,0 +1,39 @@
+{
+  "lemma": "palma",
+  "pos": "noun",
+  "glosses": [
+    "palm/width of the hand",
+    "hand",
+    "palm tree/branch",
+    "date",
+    "palm award/first place"
+  ],
+  "reviewed": false,
+  "head": "palma, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "palma",
+      "gen.sg": "palmae",
+      "abl.sg": "palma",
+      "acc.sg": "palmam",
+      "dat.sg": "palmae",
+      "nom.pl": "palmae",
+      "gen.pl": "palmarum",
+      "dat.pl": "palmis",
+      "abl.pl": "palmis",
+      "acc.pl": "palmas"
+    }
+  }
+}

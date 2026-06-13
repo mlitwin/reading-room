@@ -1,0 +1,55 @@
+{
+  "lemma": "parvus",
+  "pos": "adj",
+  "glosses": [
+    "small, little, cheap",
+    "unimportant",
+    "(SUPER) smallest, least"
+  ],
+  "reviewed": false,
+  "head": "parvus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "parvus",
+      "gen.sg.masc": "parvi",
+      "dat.sg.masc": "parvo",
+      "gen.sg.fem": "parvae",
+      "dat.sg.fem": "parvae",
+      "nom.sg.neut": "parvum",
+      "gen.sg.neut": "parvi",
+      "dat.sg.neut": "parvo",
+      "acc.sg.neut": "parvum",
+      "acc.sg.masc": "parvum",
+      "abl.sg.masc": "parvo",
+      "nom.pl.masc": "parvi",
+      "gen.pl.masc": "parvorum",
+      "acc.pl.masc": "parvos",
+      "nom.sg.fem": "parva",
+      "acc.sg.fem": "parvam",
+      "abl.sg.fem": "parva",
+      "nom.pl.fem": "parvae",
+      "gen.pl.fem": "parvarum",
+      "acc.pl.fem": "parvas",
+      "abl.sg.neut": "parvo",
+      "nom.pl.neut": "parva",
+      "gen.pl.neut": "parvorum",
+      "acc.pl.neut": "parva"
+    }
+  }
+}

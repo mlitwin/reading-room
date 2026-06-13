@@ -1,0 +1,54 @@
+{
+  "lemma": "inornatus",
+  "pos": "adj",
+  "glosses": [
+    "unadorned",
+    "uncelebrated"
+  ],
+  "reviewed": false,
+  "head": "inornatus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "inornatus",
+      "gen.sg.masc": "inornati",
+      "dat.sg.masc": "inornato",
+      "gen.sg.fem": "inornatae",
+      "dat.sg.fem": "inornatae",
+      "nom.sg.neut": "inornatum",
+      "gen.sg.neut": "inornati",
+      "dat.sg.neut": "inornato",
+      "acc.sg.neut": "inornatum",
+      "acc.sg.masc": "inornatum",
+      "abl.sg.masc": "inornato",
+      "nom.pl.masc": "inornati",
+      "gen.pl.masc": "inornatorum",
+      "acc.pl.masc": "inornatos",
+      "nom.sg.fem": "inornata",
+      "acc.sg.fem": "inornatam",
+      "abl.sg.fem": "inornata",
+      "nom.pl.fem": "inornatae",
+      "gen.pl.fem": "inornatarum",
+      "acc.pl.fem": "inornatas",
+      "abl.sg.neut": "inornato",
+      "nom.pl.neut": "inornata",
+      "gen.pl.neut": "inornatorum",
+      "acc.pl.neut": "inornata"
+    }
+  }
+}

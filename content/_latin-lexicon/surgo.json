@@ -1,0 +1,40 @@
+{
+  "lemma": "surgo",
+  "pos": "verb",
+  "glosses": [
+    "rise, lift",
+    "grow"
+  ],
+  "reviewed": false,
+  "head": "surgo, surgere, surrexi, surrectum",
+  "principal_parts": [
+    "surgo",
+    "surgere",
+    "surrexi",
+    "surrectum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "surgis",
+      "3sg.pres.ind.act": "surgit",
+      "1pl.pres.ind.act": "surgimus",
+      "2pl.pres.ind.act": "surgitis",
+      "2sg.pres.imp.act": "surge",
+      "2pl.pres.imp.act": "surgite"
+    }
+  }
+}

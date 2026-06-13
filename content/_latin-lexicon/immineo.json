@@ -1,0 +1,43 @@
+{
+  "lemma": "immineo",
+  "pos": "verb",
+  "glosses": [
+    "threaten, be a threat (to)",
+    "overhang, be imminent",
+    "with DAT"
+  ],
+  "reviewed": false,
+  "head": "immineo, imminere, -i, -um",
+  "principal_parts": [
+    "immineo",
+    "imminere",
+    "-i",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "immineo",
+      "2sg.pres.ind.act": "immines",
+      "3sg.pres.ind.act": "imminet",
+      "1pl.pres.ind.act": "imminemus",
+      "2pl.pres.ind.act": "imminetis",
+      "3pl.pres.ind.act": "imminent",
+      "2sg.pres.imp.act": "immine",
+      "2pl.pres.imp.act": "imminete"
+    }
+  }
+}

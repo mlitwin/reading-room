@@ -1,0 +1,40 @@
+{
+  "lemma": "ratio",
+  "pos": "noun",
+  "glosses": [
+    "account, reckoning, invoice",
+    "plan",
+    "prudence",
+    "method",
+    "reasoning",
+    "rule"
+  ],
+  "reviewed": false,
+  "head": "ratio, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "rationem",
+      "gen.pl": "rationum",
+      "acc.pl": "rationis",
+      "nom.sg": "ratio",
+      "gen.sg": "rationis",
+      "dat.sg": "rationi",
+      "abl.sg": "ratione",
+      "nom.pl": "rationes",
+      "dat.pl": "rationibus",
+      "abl.pl": "rationibus"
+    }
+  }
+}

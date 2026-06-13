@@ -1,0 +1,36 @@
+{
+  "lemma": "gemitus",
+  "pos": "noun",
+  "glosses": [
+    "groan, sigh",
+    "roaring"
+  ],
+  "reviewed": false,
+  "head": "gemitus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "gemitus",
+      "gen.sg": "gemitus",
+      "dat.sg": "gemitui",
+      "acc.sg": "gemitum",
+      "nom.pl": "gemitus",
+      "acc.pl": "gemitus",
+      "abl.sg": "gemitu",
+      "gen.pl": "gemituum",
+      "dat.pl": "gemitibus",
+      "abl.pl": "gemitibus"
+    }
+  }
+}

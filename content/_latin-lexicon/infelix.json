@@ -1,0 +1,34 @@
+{
+  "lemma": "infelix",
+  "pos": "adj",
+  "glosses": [
+    "unfortunate, unhappy, wretched",
+    "unlucky, inauspicious",
+    "unproductive (plant)"
+  ],
+  "reviewed": false,
+  "head": "infelix, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "infelix",
+      "nom.pl.neut": "infelicia",
+      "acc.pl.neut": "infelicia"
+    }
+  }
+}

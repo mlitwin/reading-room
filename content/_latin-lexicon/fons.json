@@ -1,0 +1,39 @@
+{
+  "lemma": "fons",
+  "pos": "noun",
+  "glosses": [
+    "spring, fountain, well",
+    "source/fount",
+    "principal cause",
+    "font",
+    "baptistry"
+  ],
+  "reviewed": false,
+  "head": "fons, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "fonti",
+      "acc.sg": "fontem",
+      "nom.pl": "fontis",
+      "gen.pl": "fontium",
+      "acc.pl": "fontis",
+      "nom.sg": "fons",
+      "gen.sg": "fontis",
+      "dat.sg": "fonti",
+      "dat.pl": "fontibus",
+      "abl.pl": "fontibus"
+    }
+  }
+}

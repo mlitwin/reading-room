@@ -1,0 +1,56 @@
+{
+  "lemma": "languidus",
+  "pos": "adj",
+  "glosses": [
+    "faint, weak",
+    "dull, sluggish, languid",
+    "spiritless, listless, inactive",
+    "powerless"
+  ],
+  "reviewed": false,
+  "head": "languidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "languidus",
+      "gen.sg.masc": "languidi",
+      "dat.sg.masc": "languido",
+      "gen.sg.fem": "languidae",
+      "dat.sg.fem": "languidae",
+      "nom.sg.neut": "languidum",
+      "gen.sg.neut": "languidi",
+      "dat.sg.neut": "languido",
+      "acc.sg.neut": "languidum",
+      "acc.sg.masc": "languidum",
+      "abl.sg.masc": "languido",
+      "nom.pl.masc": "languidi",
+      "gen.pl.masc": "languidorum",
+      "acc.pl.masc": "languidos",
+      "nom.sg.fem": "languida",
+      "acc.sg.fem": "languidam",
+      "abl.sg.fem": "languida",
+      "nom.pl.fem": "languidae",
+      "gen.pl.fem": "languidarum",
+      "acc.pl.fem": "languidas",
+      "abl.sg.neut": "languido",
+      "nom.pl.neut": "languida",
+      "gen.pl.neut": "languidorum",
+      "acc.pl.neut": "languida"
+    }
+  }
+}

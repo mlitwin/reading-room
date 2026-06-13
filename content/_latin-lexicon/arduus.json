@@ -1,0 +1,56 @@
+{
+  "lemma": "arduus",
+  "pos": "adj",
+  "glosses": [
+    "steep, high, lofty, towering, tall",
+    "erect, rearing",
+    "uphill",
+    "arduous, difficult"
+  ],
+  "reviewed": false,
+  "head": "arduus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "arduus",
+      "gen.sg.masc": "ardui",
+      "dat.sg.masc": "arduo",
+      "gen.sg.fem": "arduae",
+      "dat.sg.fem": "arduae",
+      "nom.sg.neut": "arduum",
+      "gen.sg.neut": "ardui",
+      "dat.sg.neut": "arduo",
+      "acc.sg.neut": "arduum",
+      "acc.sg.masc": "arduum",
+      "abl.sg.masc": "arduo",
+      "nom.pl.masc": "ardui",
+      "gen.pl.masc": "arduorum",
+      "acc.pl.masc": "arduos",
+      "nom.sg.fem": "ardua",
+      "acc.sg.fem": "arduam",
+      "abl.sg.fem": "ardua",
+      "nom.pl.fem": "arduae",
+      "gen.pl.fem": "arduarum",
+      "acc.pl.fem": "arduas",
+      "abl.sg.neut": "arduo",
+      "nom.pl.neut": "ardua",
+      "gen.pl.neut": "arduorum",
+      "acc.pl.neut": "ardua"
+    }
+  }
+}

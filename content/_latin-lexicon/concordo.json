@@ -1,0 +1,44 @@
+{
+  "lemma": "concordo",
+  "pos": "verb",
+  "glosses": [
+    "harmonize",
+    "be in harmony/agreement/on good terms/friendly",
+    "agree",
+    "go by pattern"
+  ],
+  "reviewed": false,
+  "head": "concordo, concordare, concordavi, concordatum",
+  "principal_parts": [
+    "concordo",
+    "concordare",
+    "concordavi",
+    "concordatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "concordo",
+      "2sg.pres.ind.act": "concordas",
+      "3sg.pres.ind.act": "concordat",
+      "1pl.pres.ind.act": "concordamus",
+      "2pl.pres.ind.act": "concordatis",
+      "3pl.pres.ind.act": "concordant",
+      "2sg.pres.imp.act": "concorda",
+      "2pl.pres.imp.act": "concordate"
+    }
+  }
+}

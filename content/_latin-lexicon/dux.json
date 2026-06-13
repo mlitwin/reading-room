@@ -1,0 +1,37 @@
+{
+  "lemma": "dux",
+  "pos": "noun",
+  "glosses": [
+    "leader, guide",
+    "commander, general",
+    "Duke (medieval, Bee)"
+  ],
+  "reviewed": false,
+  "head": "dux, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "ducem",
+      "gen.pl": "ducum",
+      "acc.pl": "ducis",
+      "nom.sg": "dux",
+      "gen.sg": "ducis",
+      "dat.sg": "duci",
+      "abl.sg": "duce",
+      "nom.pl": "duces",
+      "dat.pl": "ducibus",
+      "abl.pl": "ducibus"
+    }
+  }
+}

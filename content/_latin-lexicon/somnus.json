@@ -1,0 +1,35 @@
+{
+  "lemma": "somnus",
+  "pos": "noun",
+  "glosses": [
+    "sleep"
+  ],
+  "reviewed": false,
+  "head": "somnus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "somnus",
+      "gen.sg": "somni",
+      "dat.sg": "somno",
+      "abl.sg": "somno",
+      "acc.sg": "somnum",
+      "nom.pl": "somni",
+      "gen.pl": "somnorum",
+      "dat.pl": "somnis",
+      "abl.pl": "somnis",
+      "acc.pl": "somnos"
+    }
+  }
+}

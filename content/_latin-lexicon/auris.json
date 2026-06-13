@@ -1,0 +1,38 @@
+{
+  "lemma": "auris",
+  "pos": "noun",
+  "glosses": [
+    "ear",
+    "hearing",
+    "a discriminating sense of hearing, \"ear\" (for)",
+    "pin on plow"
+  ],
+  "reviewed": false,
+  "head": "auris, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "auri",
+      "acc.sg": "aurem",
+      "nom.pl": "auris",
+      "gen.pl": "aurium",
+      "acc.pl": "auris",
+      "nom.sg": "auris",
+      "gen.sg": "auris",
+      "dat.sg": "auri",
+      "dat.pl": "auribus",
+      "abl.pl": "auribus"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "sermo",
+  "pos": "noun",
+  "glosses": [
+    "conversation, discussion",
+    "rumor",
+    "diction",
+    "speech",
+    "talk",
+    "the word"
+  ],
+  "reviewed": false,
+  "head": "sermo, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "sermonem",
+      "gen.pl": "sermonum",
+      "acc.pl": "sermonis",
+      "nom.sg": "sermo",
+      "gen.sg": "sermonis",
+      "dat.sg": "sermoni",
+      "abl.sg": "sermone",
+      "nom.pl": "sermones",
+      "dat.pl": "sermonibus",
+      "abl.pl": "sermonibus"
+    }
+  }
+}

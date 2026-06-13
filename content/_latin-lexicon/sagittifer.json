@@ -1,0 +1,53 @@
+{
+  "lemma": "sagittifer",
+  "pos": "adj",
+  "glosses": [
+    "carrying arrows"
+  ],
+  "reviewed": false,
+  "head": "sagittifer, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "sagittifer",
+      "gen.sg.masc": "sagittiferi",
+      "dat.sg.masc": "sagittifero",
+      "gen.sg.fem": "sagittiferae",
+      "dat.sg.fem": "sagittiferae",
+      "nom.sg.neut": "sagittiferum",
+      "gen.sg.neut": "sagittiferi",
+      "dat.sg.neut": "sagittifero",
+      "acc.sg.neut": "sagittiferum",
+      "acc.sg.masc": "sagittiferum",
+      "abl.sg.masc": "sagittifero",
+      "nom.pl.masc": "sagittiferi",
+      "gen.pl.masc": "sagittiferorum",
+      "acc.pl.masc": "sagittiferos",
+      "nom.sg.fem": "sagittifera",
+      "acc.sg.fem": "sagittiferam",
+      "abl.sg.fem": "sagittifera",
+      "nom.pl.fem": "sagittiferae",
+      "gen.pl.fem": "sagittiferarum",
+      "acc.pl.fem": "sagittiferas",
+      "abl.sg.neut": "sagittifero",
+      "nom.pl.neut": "sagittifera",
+      "gen.pl.neut": "sagittiferorum",
+      "acc.pl.neut": "sagittifera"
+    }
+  }
+}

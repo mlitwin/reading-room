@@ -1,0 +1,36 @@
+{
+  "lemma": "simila",
+  "pos": "noun",
+  "glosses": [
+    "normal flour produced from triticum",
+    "finest wheat flour (L+S)"
+  ],
+  "reviewed": false,
+  "head": "simila, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "simila",
+      "gen.sg": "similae",
+      "abl.sg": "simila",
+      "acc.sg": "similam",
+      "dat.sg": "similae",
+      "nom.pl": "similae",
+      "gen.pl": "similarum",
+      "dat.pl": "similis",
+      "abl.pl": "similis",
+      "acc.pl": "similas"
+    }
+  }
+}

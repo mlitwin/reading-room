@@ -1,0 +1,35 @@
+{
+  "lemma": "rabies",
+  "pos": "noun",
+  "glosses": [
+    "madness"
+  ],
+  "reviewed": false,
+  "head": "rabies, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "rabies",
+      "gen.sg": "rabiei",
+      "dat.sg": "rabiei",
+      "abl.sg": "rabie",
+      "acc.sg": "rabiem",
+      "nom.pl": "rabies",
+      "gen.pl": "rabierum",
+      "dat.pl": "rabiebus",
+      "abl.pl": "rabiebus",
+      "acc.pl": "rabies"
+    }
+  }
+}

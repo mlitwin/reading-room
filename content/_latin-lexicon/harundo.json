@@ -1,0 +1,37 @@
+{
+  "lemma": "harundo",
+  "pos": "noun",
+  "glosses": [
+    "reed, cane, fishing rod, limed twigs for catching birds",
+    "arrow shaft",
+    "pipe"
+  ],
+  "reviewed": false,
+  "head": "harundo, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "harundinem",
+      "gen.pl": "harundinum",
+      "acc.pl": "harundinis",
+      "nom.sg": "harundo",
+      "gen.sg": "harundinis",
+      "dat.sg": "harundini",
+      "abl.sg": "harundine",
+      "nom.pl": "harundines",
+      "dat.pl": "harundinibus",
+      "abl.pl": "harundinibus"
+    }
+  }
+}

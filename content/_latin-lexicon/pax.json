@@ -1,0 +1,36 @@
+{
+  "lemma": "pax",
+  "pos": "noun",
+  "glosses": [
+    "peace",
+    "harmony"
+  ],
+  "reviewed": false,
+  "head": "pax, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "pacem",
+      "gen.pl": "pacum",
+      "acc.pl": "pacis",
+      "nom.sg": "pax",
+      "gen.sg": "pacis",
+      "dat.sg": "paci",
+      "abl.sg": "pace",
+      "nom.pl": "paces",
+      "dat.pl": "pacibus",
+      "abl.pl": "pacibus"
+    }
+  }
+}

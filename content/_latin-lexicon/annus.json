@@ -1,0 +1,38 @@
+{
+  "lemma": "annus",
+  "pos": "noun",
+  "glosses": [
+    "year (astronomical/civil)",
+    "age, time of life",
+    "year's produce",
+    "circuit, course"
+  ],
+  "reviewed": false,
+  "head": "annus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "annus",
+      "gen.sg": "anni",
+      "dat.sg": "anno",
+      "abl.sg": "anno",
+      "acc.sg": "annum",
+      "nom.pl": "anni",
+      "gen.pl": "annorum",
+      "dat.pl": "annis",
+      "abl.pl": "annis",
+      "acc.pl": "annos"
+    }
+  }
+}

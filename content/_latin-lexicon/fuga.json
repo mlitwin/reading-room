@@ -1,0 +1,38 @@
+{
+  "lemma": "fuga",
+  "pos": "noun",
+  "glosses": [
+    "flight, fleeing, escape",
+    "avoidance",
+    "exile",
+    "fugue (music)"
+  ],
+  "reviewed": false,
+  "head": "fuga, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fuga",
+      "gen.sg": "fugae",
+      "abl.sg": "fuga",
+      "acc.sg": "fugam",
+      "dat.sg": "fugae",
+      "nom.pl": "fugae",
+      "gen.pl": "fugarum",
+      "dat.pl": "fugis",
+      "abl.pl": "fugis",
+      "acc.pl": "fugas"
+    }
+  }
+}

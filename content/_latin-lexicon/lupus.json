@@ -1,0 +1,36 @@
+{
+  "lemma": "lupus",
+  "pos": "noun",
+  "glosses": [
+    "wolf",
+    "grappling iron"
+  ],
+  "reviewed": false,
+  "head": "lupus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lupus",
+      "gen.sg": "lupi",
+      "dat.sg": "lupo",
+      "abl.sg": "lupo",
+      "acc.sg": "lupum",
+      "nom.pl": "lupi",
+      "gen.pl": "luporum",
+      "dat.pl": "lupis",
+      "abl.pl": "lupis",
+      "acc.pl": "lupos"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "prex",
+  "pos": "noun",
+  "glosses": [
+    "prayer, request"
+  ],
+  "reviewed": false,
+  "head": "prex, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "precem",
+      "gen.pl": "precum",
+      "acc.pl": "precis",
+      "nom.sg": "prex",
+      "gen.sg": "precis",
+      "dat.sg": "preci",
+      "abl.sg": "prece",
+      "nom.pl": "preces",
+      "dat.pl": "precibus",
+      "abl.pl": "precibus"
+    }
+  }
+}

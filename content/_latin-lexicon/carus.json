@@ -1,0 +1,36 @@
+{
+  "lemma": "carus",
+  "pos": "noun",
+  "glosses": [
+    "Carus",
+    "(Emperor Marcus Aurelius Numerius Carus 282-283)"
+  ],
+  "reviewed": false,
+  "head": "carus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "carus",
+      "gen.sg": "cari",
+      "dat.sg": "caro",
+      "abl.sg": "caro",
+      "acc.sg": "carum",
+      "nom.pl": "cari",
+      "gen.pl": "carorum",
+      "dat.pl": "caris",
+      "abl.pl": "caris",
+      "acc.pl": "caros"
+    }
+  }
+}

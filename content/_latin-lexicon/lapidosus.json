@@ -1,0 +1,54 @@
+{
+  "lemma": "lapidosus",
+  "pos": "adj",
+  "glosses": [
+    "stony, full of stones",
+    "gritty"
+  ],
+  "reviewed": false,
+  "head": "lapidosus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "lapidosus",
+      "gen.sg.masc": "lapidosi",
+      "dat.sg.masc": "lapidoso",
+      "gen.sg.fem": "lapidosae",
+      "dat.sg.fem": "lapidosae",
+      "nom.sg.neut": "lapidosum",
+      "gen.sg.neut": "lapidosi",
+      "dat.sg.neut": "lapidoso",
+      "acc.sg.neut": "lapidosum",
+      "acc.sg.masc": "lapidosum",
+      "abl.sg.masc": "lapidoso",
+      "nom.pl.masc": "lapidosi",
+      "gen.pl.masc": "lapidosorum",
+      "acc.pl.masc": "lapidosos",
+      "nom.sg.fem": "lapidosa",
+      "acc.sg.fem": "lapidosam",
+      "abl.sg.fem": "lapidosa",
+      "nom.pl.fem": "lapidosae",
+      "gen.pl.fem": "lapidosarum",
+      "acc.pl.fem": "lapidosas",
+      "abl.sg.neut": "lapidoso",
+      "nom.pl.neut": "lapidosa",
+      "gen.pl.neut": "lapidosorum",
+      "acc.pl.neut": "lapidosa"
+    }
+  }
+}

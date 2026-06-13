@@ -1,0 +1,42 @@
+{
+  "lemma": "convicior",
+  "pos": "verb",
+  "glosses": [
+    "scold/jeer/revile/insult, utter abuse against",
+    "reproach, taunt, rail at (L+S)"
+  ],
+  "reviewed": false,
+  "head": "convicior, conviciare, -i, conviciatum",
+  "principal_parts": [
+    "convicior",
+    "conviciare",
+    "-i",
+    "conviciatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "convicio",
+      "2sg.pres.ind.act": "convicias",
+      "3sg.pres.ind.act": "conviciat",
+      "1pl.pres.ind.act": "conviciamus",
+      "2pl.pres.ind.act": "conviciatis",
+      "3pl.pres.ind.act": "conviciant",
+      "2sg.pres.imp.act": "convicia",
+      "2pl.pres.imp.act": "conviciate"
+    }
+  }
+}

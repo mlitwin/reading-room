@@ -1,0 +1,37 @@
+{
+  "lemma": "aether",
+  "pos": "noun",
+  "glosses": [
+    "upper air",
+    "ether",
+    "heaven, sky",
+    "sky (as a god)",
+    "space surrounding a deity"
+  ],
+  "reviewed": false,
+  "head": "aether, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "gen.sg": "aetheris",
+      "acc.sg": "aethera",
+      "nom.sg": "aether",
+      "dat.sg": "aetheri",
+      "abl.sg": "aethere",
+      "nom.pl": "aetheres",
+      "dat.pl": "aetheribus",
+      "abl.pl": "aetheribus"
+    }
+  }
+}

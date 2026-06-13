@@ -1,0 +1,33 @@
+{
+  "lemma": "notabilis",
+  "pos": "adj",
+  "glosses": [
+    "remarkable, notable"
+  ],
+  "reviewed": false,
+  "head": "notabilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "notabile",
+      "acc.sg.neut": "notabile",
+      "nom.pl.neut": "notabilia",
+      "acc.pl.neut": "notabilia"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "lemma": "como",
+  "pos": "verb",
+  "glosses": [
+    "be furnished/covered with hair",
+    "clothe/deck with hair/something hair-like"
+  ],
+  "reviewed": false,
+  "head": "como, comare, -i, -um",
+  "principal_parts": [
+    "como",
+    "comare",
+    "-i",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "como",
+      "2sg.pres.ind.act": "comas",
+      "3sg.pres.ind.act": "comat",
+      "1pl.pres.ind.act": "comamus",
+      "2pl.pres.ind.act": "comatis",
+      "3pl.pres.ind.act": "comant",
+      "2sg.pres.imp.act": "coma",
+      "2pl.pres.imp.act": "comate"
+    }
+  }
+}

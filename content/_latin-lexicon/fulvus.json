@@ -1,0 +1,54 @@
+{
+  "lemma": "fulvus",
+  "pos": "adj",
+  "glosses": [
+    "tawny, reddish yellow",
+    "yellow"
+  ],
+  "reviewed": false,
+  "head": "fulvus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "fulvus",
+      "gen.sg.masc": "fulvi",
+      "dat.sg.masc": "fulvo",
+      "gen.sg.fem": "fulvae",
+      "dat.sg.fem": "fulvae",
+      "nom.sg.neut": "fulvum",
+      "gen.sg.neut": "fulvi",
+      "dat.sg.neut": "fulvo",
+      "acc.sg.neut": "fulvum",
+      "acc.sg.masc": "fulvum",
+      "abl.sg.masc": "fulvo",
+      "nom.pl.masc": "fulvi",
+      "gen.pl.masc": "fulvorum",
+      "acc.pl.masc": "fulvos",
+      "nom.sg.fem": "fulva",
+      "acc.sg.fem": "fulvam",
+      "abl.sg.fem": "fulva",
+      "nom.pl.fem": "fulvae",
+      "gen.pl.fem": "fulvarum",
+      "acc.pl.fem": "fulvas",
+      "abl.sg.neut": "fulvo",
+      "nom.pl.neut": "fulva",
+      "gen.pl.neut": "fulvorum",
+      "acc.pl.neut": "fulva"
+    }
+  }
+}

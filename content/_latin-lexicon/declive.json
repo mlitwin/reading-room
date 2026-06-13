@@ -1,0 +1,37 @@
+{
+  "lemma": "declive",
+  "pos": "noun",
+  "glosses": [
+    "slope, declivity",
+    "surface sloping downwards",
+    "[per decline => downwards]"
+  ],
+  "reviewed": false,
+  "head": "declive, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "declivi",
+      "acc.sg": "declive",
+      "nom.pl": "declivia",
+      "gen.pl": "declivium",
+      "acc.pl": "declivia",
+      "nom.sg": "declive",
+      "gen.sg": "declivis",
+      "dat.sg": "declivi",
+      "dat.pl": "declivibus",
+      "abl.pl": "declivibus"
+    }
+  }
+}

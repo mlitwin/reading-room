@@ -1,0 +1,41 @@
+{
+  "lemma": "mitto",
+  "pos": "verb",
+  "glosses": [
+    "send, throw, hurl, cast",
+    "let out, release, dismiss",
+    "disregard"
+  ],
+  "reviewed": false,
+  "head": "mitto, mittere, misi, missum",
+  "principal_parts": [
+    "mitto",
+    "mittere",
+    "misi",
+    "missum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "mittis",
+      "3sg.pres.ind.act": "mittit",
+      "1pl.pres.ind.act": "mittimus",
+      "2pl.pres.ind.act": "mittitis",
+      "2sg.pres.imp.act": "mitte",
+      "2pl.pres.imp.act": "mittite"
+    }
+  }
+}

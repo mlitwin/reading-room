@@ -1,0 +1,53 @@
+{
+  "lemma": "luridus",
+  "pos": "adj",
+  "glosses": [
+    "sallow, wan, ghastly"
+  ],
+  "reviewed": false,
+  "head": "luridus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "luridus",
+      "gen.sg.masc": "luridi",
+      "dat.sg.masc": "lurido",
+      "gen.sg.fem": "luridae",
+      "dat.sg.fem": "luridae",
+      "nom.sg.neut": "luridum",
+      "gen.sg.neut": "luridi",
+      "dat.sg.neut": "lurido",
+      "acc.sg.neut": "luridum",
+      "acc.sg.masc": "luridum",
+      "abl.sg.masc": "lurido",
+      "nom.pl.masc": "luridi",
+      "gen.pl.masc": "luridorum",
+      "acc.pl.masc": "luridos",
+      "nom.sg.fem": "lurida",
+      "acc.sg.fem": "luridam",
+      "abl.sg.fem": "lurida",
+      "nom.pl.fem": "luridae",
+      "gen.pl.fem": "luridarum",
+      "acc.pl.fem": "luridas",
+      "abl.sg.neut": "lurido",
+      "nom.pl.neut": "lurida",
+      "gen.pl.neut": "luridorum",
+      "acc.pl.neut": "lurida"
+    }
+  }
+}

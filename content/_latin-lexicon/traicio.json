@@ -1,0 +1,41 @@
+{
+  "lemma": "traicio",
+  "pos": "verb",
+  "glosses": [
+    "transfer",
+    "transport",
+    "pierce, transfix"
+  ],
+  "reviewed": false,
+  "head": "traicio, traicere, trajeci, trajectum",
+  "principal_parts": [
+    "traicio",
+    "traicere",
+    "trajeci",
+    "trajectum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "traicis",
+      "3sg.pres.ind.act": "traicit",
+      "1pl.pres.ind.act": "traicimus",
+      "2pl.pres.ind.act": "traicitis",
+      "2sg.pres.imp.act": "traice",
+      "2pl.pres.imp.act": "traicite"
+    }
+  }
+}

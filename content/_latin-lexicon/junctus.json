@@ -1,0 +1,54 @@
+{
+  "lemma": "junctus",
+  "pos": "adj",
+  "glosses": [
+    "connected in space, adjoining, contiguous",
+    "closely related/associated"
+  ],
+  "reviewed": false,
+  "head": "junctus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "junctus",
+      "gen.sg.masc": "juncti",
+      "dat.sg.masc": "juncto",
+      "gen.sg.fem": "junctae",
+      "dat.sg.fem": "junctae",
+      "nom.sg.neut": "junctum",
+      "gen.sg.neut": "juncti",
+      "dat.sg.neut": "juncto",
+      "acc.sg.neut": "junctum",
+      "acc.sg.masc": "junctum",
+      "abl.sg.masc": "juncto",
+      "nom.pl.masc": "juncti",
+      "gen.pl.masc": "junctorum",
+      "acc.pl.masc": "junctos",
+      "nom.sg.fem": "juncta",
+      "acc.sg.fem": "junctam",
+      "abl.sg.fem": "juncta",
+      "nom.pl.fem": "junctae",
+      "gen.pl.fem": "junctarum",
+      "acc.pl.fem": "junctas",
+      "abl.sg.neut": "juncto",
+      "nom.pl.neut": "juncta",
+      "gen.pl.neut": "junctorum",
+      "acc.pl.neut": "juncta"
+    }
+  }
+}

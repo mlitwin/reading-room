@@ -1,0 +1,38 @@
+{
+  "lemma": "domus",
+  "pos": "noun",
+  "glosses": [
+    "house, building",
+    "home, household",
+    "(N 4 1, older N 2 1)",
+    "[domu => at home]"
+  ],
+  "reviewed": false,
+  "head": "domus, -us, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "domus",
+      "gen.sg": "domus",
+      "dat.sg": "domui",
+      "acc.sg": "domum",
+      "nom.pl": "domus",
+      "acc.pl": "domus",
+      "abl.sg": "domu",
+      "gen.pl": "domuum",
+      "dat.pl": "domibus",
+      "abl.pl": "domibus"
+    }
+  }
+}

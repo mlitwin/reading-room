@@ -1,0 +1,37 @@
+{
+  "lemma": "fletus",
+  "pos": "noun",
+  "glosses": [
+    "weeping, crying, tears",
+    "wailing",
+    "lamenting"
+  ],
+  "reviewed": false,
+  "head": "fletus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fletus",
+      "gen.sg": "fletus",
+      "dat.sg": "fletui",
+      "acc.sg": "fletum",
+      "nom.pl": "fletus",
+      "acc.pl": "fletus",
+      "abl.sg": "fletu",
+      "gen.pl": "fletuum",
+      "dat.pl": "fletibus",
+      "abl.pl": "fletibus"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "lemma": "rigor",
+  "pos": "verb",
+  "glosses": [
+    "moisten, wet, water, irrigate"
+  ],
+  "reviewed": false,
+  "head": "rigor, rigare, rigavi, rigatum",
+  "principal_parts": [
+    "rigor",
+    "rigare",
+    "rigavi",
+    "rigatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "rigo",
+      "2sg.pres.ind.act": "rigas",
+      "3sg.pres.ind.act": "rigat",
+      "1pl.pres.ind.act": "rigamus",
+      "2pl.pres.ind.act": "rigatis",
+      "3pl.pres.ind.act": "rigant",
+      "2sg.pres.imp.act": "riga",
+      "2pl.pres.imp.act": "rigate"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "caeruleum",
+  "pos": "noun",
+  "glosses": [
+    "blue color (dark)",
+    "steel color",
+    "sky/sea (pl.)",
+    "deep blue sea",
+    "blue sky",
+    "azurite"
+  ],
+  "reviewed": false,
+  "head": "caeruleum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "caeruleum",
+      "gen.sg": "caerulei",
+      "acc.sg": "caeruleum",
+      "dat.sg": "caeruleo",
+      "abl.sg": "caeruleo",
+      "gen.pl": "caeruleorum",
+      "dat.pl": "caeruleis",
+      "abl.pl": "caeruleis",
+      "nom.pl": "caerulea",
+      "acc.pl": "caerulea"
+    }
+  }
+}

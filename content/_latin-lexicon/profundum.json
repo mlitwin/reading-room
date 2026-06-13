@@ -1,0 +1,36 @@
+{
+  "lemma": "profundum",
+  "pos": "noun",
+  "glosses": [
+    "depths, abyss, chasm",
+    "boundless expanse"
+  ],
+  "reviewed": false,
+  "head": "profundum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "profundum",
+      "gen.sg": "profundi",
+      "acc.sg": "profundum",
+      "dat.sg": "profundo",
+      "abl.sg": "profundo",
+      "gen.pl": "profundorum",
+      "dat.pl": "profundis",
+      "abl.pl": "profundis",
+      "nom.pl": "profunda",
+      "acc.pl": "profunda"
+    }
+  }
+}

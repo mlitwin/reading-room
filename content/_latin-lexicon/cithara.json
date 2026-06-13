@@ -1,0 +1,36 @@
+{
+  "lemma": "cithara",
+  "pos": "noun",
+  "glosses": [
+    "cithara, lyre",
+    "lute, guitar (L+S)"
+  ],
+  "reviewed": false,
+  "head": "cithara, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cithara",
+      "gen.sg": "citharae",
+      "abl.sg": "cithara",
+      "acc.sg": "citharam",
+      "dat.sg": "citharae",
+      "nom.pl": "citharae",
+      "gen.pl": "cithararum",
+      "dat.pl": "citharis",
+      "abl.pl": "citharis",
+      "acc.pl": "citharas"
+    }
+  }
+}

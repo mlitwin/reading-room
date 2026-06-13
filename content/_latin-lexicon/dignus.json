@@ -1,0 +1,55 @@
+{
+  "lemma": "dignus",
+  "pos": "adj",
+  "glosses": [
+    "appropriate/suitable",
+    "worthy, deserving, meriting",
+    "worth (w/ABL/GEN)"
+  ],
+  "reviewed": false,
+  "head": "dignus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "dignus",
+      "gen.sg.masc": "digni",
+      "dat.sg.masc": "digno",
+      "gen.sg.fem": "dignae",
+      "dat.sg.fem": "dignae",
+      "nom.sg.neut": "dignum",
+      "gen.sg.neut": "digni",
+      "dat.sg.neut": "digno",
+      "acc.sg.neut": "dignum",
+      "acc.sg.masc": "dignum",
+      "abl.sg.masc": "digno",
+      "nom.pl.masc": "digni",
+      "gen.pl.masc": "dignorum",
+      "acc.pl.masc": "dignos",
+      "nom.sg.fem": "digna",
+      "acc.sg.fem": "dignam",
+      "abl.sg.fem": "digna",
+      "nom.pl.fem": "dignae",
+      "gen.pl.fem": "dignarum",
+      "acc.pl.fem": "dignas",
+      "abl.sg.neut": "digno",
+      "nom.pl.neut": "digna",
+      "gen.pl.neut": "dignorum",
+      "acc.pl.neut": "digna"
+    }
+  }
+}

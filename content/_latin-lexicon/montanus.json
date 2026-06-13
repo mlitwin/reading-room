@@ -1,0 +1,53 @@
+{
+  "lemma": "montanus",
+  "pos": "adj",
+  "glosses": [
+    "mountainous"
+  ],
+  "reviewed": false,
+  "head": "montanus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "montanus",
+      "gen.sg.masc": "montani",
+      "dat.sg.masc": "montano",
+      "gen.sg.fem": "montanae",
+      "dat.sg.fem": "montanae",
+      "nom.sg.neut": "montanum",
+      "gen.sg.neut": "montani",
+      "dat.sg.neut": "montano",
+      "acc.sg.neut": "montanum",
+      "acc.sg.masc": "montanum",
+      "abl.sg.masc": "montano",
+      "nom.pl.masc": "montani",
+      "gen.pl.masc": "montanorum",
+      "acc.pl.masc": "montanos",
+      "nom.sg.fem": "montana",
+      "acc.sg.fem": "montanam",
+      "abl.sg.fem": "montana",
+      "nom.pl.fem": "montanae",
+      "gen.pl.fem": "montanarum",
+      "acc.pl.fem": "montanas",
+      "abl.sg.neut": "montano",
+      "nom.pl.neut": "montana",
+      "gen.pl.neut": "montanorum",
+      "acc.pl.neut": "montana"
+    }
+  }
+}

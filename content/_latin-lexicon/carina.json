@@ -1,0 +1,38 @@
+{
+  "lemma": "carina",
+  "pos": "noun",
+  "glosses": [
+    "keel, bottom of ship, hull",
+    "boat, ship, vessel",
+    "voyage",
+    "half walnut shell"
+  ],
+  "reviewed": false,
+  "head": "carina, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "carina",
+      "gen.sg": "carinae",
+      "abl.sg": "carina",
+      "acc.sg": "carinam",
+      "dat.sg": "carinae",
+      "nom.pl": "carinae",
+      "gen.pl": "carinarum",
+      "dat.pl": "carinis",
+      "abl.pl": "carinis",
+      "acc.pl": "carinas"
+    }
+  }
+}

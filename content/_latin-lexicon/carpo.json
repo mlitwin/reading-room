@@ -1,0 +1,44 @@
+{
+  "lemma": "carpo",
+  "pos": "verb",
+  "glosses": [
+    "seize/pick/pluck/gather/browse/tear off",
+    "graze/crop",
+    "tease/pull out/card (wool)",
+    "separate/divide, tear down",
+    "carve",
+    "despoil/fleece"
+  ],
+  "reviewed": false,
+  "head": "carpo, carpere, carpsi, carptum",
+  "principal_parts": [
+    "carpo",
+    "carpere",
+    "carpsi",
+    "carptum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "carpis",
+      "3sg.pres.ind.act": "carpit",
+      "1pl.pres.ind.act": "carpimus",
+      "2pl.pres.ind.act": "carpitis",
+      "2sg.pres.imp.act": "carpe",
+      "2pl.pres.imp.act": "carpite"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "sterilis",
+  "pos": "adj",
+  "glosses": [
+    "barren, sterile",
+    "fruitless",
+    "unprofitable, futile"
+  ],
+  "reviewed": false,
+  "head": "sterilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "sterile",
+      "acc.sg.neut": "sterile",
+      "nom.pl.neut": "sterilia",
+      "acc.pl.neut": "sterilia"
+    }
+  }
+}

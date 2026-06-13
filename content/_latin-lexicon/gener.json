@@ -1,0 +1,35 @@
+{
+  "lemma": "gener",
+  "pos": "noun",
+  "glosses": [
+    "son-in-law"
+  ],
+  "reviewed": false,
+  "head": "gener, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "gener",
+      "gen.sg": "generi",
+      "dat.sg": "genero",
+      "abl.sg": "genero",
+      "acc.sg": "generum",
+      "nom.pl": "generi",
+      "gen.pl": "generorum",
+      "dat.pl": "generis",
+      "abl.pl": "generis",
+      "acc.pl": "generos"
+    }
+  }
+}

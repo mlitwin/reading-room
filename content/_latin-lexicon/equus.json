@@ -1,0 +1,36 @@
+{
+  "lemma": "equus",
+  "pos": "noun",
+  "glosses": [
+    "horse",
+    "steed"
+  ],
+  "reviewed": false,
+  "head": "equus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "equus",
+      "gen.sg": "equi",
+      "dat.sg": "equo",
+      "abl.sg": "equo",
+      "acc.sg": "equum",
+      "nom.pl": "equi",
+      "gen.pl": "equorum",
+      "dat.pl": "equis",
+      "abl.pl": "equis",
+      "acc.pl": "equos"
+    }
+  }
+}

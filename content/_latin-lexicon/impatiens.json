@@ -1,0 +1,34 @@
+{
+  "lemma": "impatiens",
+  "pos": "adj",
+  "glosses": [
+    "impatient/intolerant (of)",
+    "not moved to action by feeling",
+    "unbearable"
+  ],
+  "reviewed": false,
+  "head": "impatiens, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "impatiens",
+      "nom.pl.neut": "impatientia",
+      "acc.pl.neut": "impatientia"
+    }
+  }
+}

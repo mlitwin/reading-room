@@ -1,0 +1,46 @@
+{
+  "lemma": "sono",
+  "pos": "verb",
+  "glosses": [
+    "make a noise/sound",
+    "speak/utter, emit sound",
+    "be spoken of (as)",
+    "express/denote",
+    "echo/resound",
+    "be heard, sound"
+  ],
+  "reviewed": false,
+  "head": "sono, sonare, sonavi, sonatum",
+  "principal_parts": [
+    "sono",
+    "sonare",
+    "sonavi",
+    "sonatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "sono",
+      "2sg.pres.ind.act": "sonas",
+      "3sg.pres.ind.act": "sonat",
+      "1pl.pres.ind.act": "sonamus",
+      "2pl.pres.ind.act": "sonatis",
+      "3pl.pres.ind.act": "sonant",
+      "2sg.pres.imp.act": "sona",
+      "2pl.pres.imp.act": "sonate"
+    }
+  }
+}

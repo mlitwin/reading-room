@@ -1,0 +1,38 @@
+{
+  "lemma": "orbis",
+  "pos": "noun",
+  "glosses": [
+    "circle",
+    "territory/region",
+    "sphere",
+    "[orbis terrarum => world/(circle of lands)]"
+  ],
+  "reviewed": false,
+  "head": "orbis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "orbi",
+      "acc.sg": "orbem",
+      "nom.pl": "orbis",
+      "gen.pl": "orbium",
+      "acc.pl": "orbis",
+      "nom.sg": "orbis",
+      "gen.sg": "orbis",
+      "dat.sg": "orbi",
+      "dat.pl": "orbibus",
+      "abl.pl": "orbibus"
+    }
+  }
+}

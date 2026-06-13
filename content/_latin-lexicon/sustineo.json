@@ -1,0 +1,46 @@
+{
+  "lemma": "sustineo",
+  "pos": "verb",
+  "glosses": [
+    "support",
+    "check",
+    "put off",
+    "put up with",
+    "sustain",
+    "hold back"
+  ],
+  "reviewed": false,
+  "head": "sustineo, sustinere, sustinui, sustentum",
+  "principal_parts": [
+    "sustineo",
+    "sustinere",
+    "sustinui",
+    "sustentum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "sustineo",
+      "2sg.pres.ind.act": "sustines",
+      "3sg.pres.ind.act": "sustinet",
+      "1pl.pres.ind.act": "sustinemus",
+      "2pl.pres.ind.act": "sustinetis",
+      "3pl.pres.ind.act": "sustinent",
+      "2sg.pres.imp.act": "sustine",
+      "2pl.pres.imp.act": "sustinete"
+    }
+  }
+}

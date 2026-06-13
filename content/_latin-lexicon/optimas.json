@@ -1,0 +1,37 @@
+{
+  "lemma": "optimas",
+  "pos": "noun",
+  "glosses": [
+    "aristocrat, patrician",
+    "wellborn",
+    "nobles/patricians/\"Good men\" adherent/partisan"
+  ],
+  "reviewed": false,
+  "head": "optimas, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "optimatem",
+      "gen.pl": "optimatum",
+      "acc.pl": "optimatis",
+      "nom.sg": "optimas",
+      "gen.sg": "optimatis",
+      "dat.sg": "optimati",
+      "abl.sg": "optimate",
+      "nom.pl": "optimates",
+      "dat.pl": "optimatibus",
+      "abl.pl": "optimatibus"
+    }
+  }
+}

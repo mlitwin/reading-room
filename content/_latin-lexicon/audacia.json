@@ -1,0 +1,36 @@
+{
+  "lemma": "audacia",
+  "pos": "noun",
+  "glosses": [
+    "boldness, daring, courage, confidence",
+    "recklessness, effrontery, audacity"
+  ],
+  "reviewed": false,
+  "head": "audacia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "audacia",
+      "gen.sg": "audaciae",
+      "abl.sg": "audacia",
+      "acc.sg": "audaciam",
+      "dat.sg": "audaciae",
+      "nom.pl": "audaciae",
+      "gen.pl": "audaciarum",
+      "dat.pl": "audaciis",
+      "abl.pl": "audaciis",
+      "acc.pl": "audacias"
+    }
+  }
+}

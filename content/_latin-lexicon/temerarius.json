@@ -1,0 +1,54 @@
+{
+  "lemma": "temerarius",
+  "pos": "adj",
+  "glosses": [
+    "casual, rash, accidental",
+    "reckless"
+  ],
+  "reviewed": false,
+  "head": "temerarius, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "temerarius",
+      "gen.sg.masc": "temerarii",
+      "dat.sg.masc": "temerario",
+      "gen.sg.fem": "temerariae",
+      "dat.sg.fem": "temerariae",
+      "nom.sg.neut": "temerarium",
+      "gen.sg.neut": "temerarii",
+      "dat.sg.neut": "temerario",
+      "acc.sg.neut": "temerarium",
+      "acc.sg.masc": "temerarium",
+      "abl.sg.masc": "temerario",
+      "nom.pl.masc": "temerarii",
+      "gen.pl.masc": "temerariorum",
+      "acc.pl.masc": "temerarios",
+      "nom.sg.fem": "temeraria",
+      "acc.sg.fem": "temerariam",
+      "abl.sg.fem": "temeraria",
+      "nom.pl.fem": "temerariae",
+      "gen.pl.fem": "temerariarum",
+      "acc.pl.fem": "temerarias",
+      "abl.sg.neut": "temerario",
+      "nom.pl.neut": "temeraria",
+      "gen.pl.neut": "temerariorum",
+      "acc.pl.neut": "temeraria"
+    }
+  }
+}

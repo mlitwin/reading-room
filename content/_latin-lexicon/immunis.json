@@ -1,0 +1,34 @@
+{
+  "lemma": "immunis",
+  "pos": "adj",
+  "glosses": [
+    "free from taxes/tribute, exempt",
+    "immune"
+  ],
+  "reviewed": false,
+  "head": "immunis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "immune",
+      "acc.sg.neut": "immune",
+      "nom.pl.neut": "immunia",
+      "acc.pl.neut": "immunia"
+    }
+  }
+}

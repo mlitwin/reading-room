@@ -1,0 +1,42 @@
+{
+  "lemma": "ligo",
+  "pos": "verb",
+  "glosses": [
+    "bind, tie, fasten",
+    "unite"
+  ],
+  "reviewed": false,
+  "head": "ligo, ligare, ligavi, ligatum",
+  "principal_parts": [
+    "ligo",
+    "ligare",
+    "ligavi",
+    "ligatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "ligo",
+      "2sg.pres.ind.act": "ligas",
+      "3sg.pres.ind.act": "ligat",
+      "1pl.pres.ind.act": "ligamus",
+      "2pl.pres.ind.act": "ligatis",
+      "3pl.pres.ind.act": "ligant",
+      "2sg.pres.imp.act": "liga",
+      "2pl.pres.imp.act": "ligate"
+    }
+  }
+}

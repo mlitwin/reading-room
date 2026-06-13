@@ -1,0 +1,38 @@
+{
+  "lemma": "impetus",
+  "pos": "noun",
+  "glosses": [
+    "attack, assault, charge",
+    "attempt",
+    "impetus, vigor",
+    "violent mental urge, fury"
+  ],
+  "reviewed": false,
+  "head": "impetus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "impetus",
+      "gen.sg": "impetus",
+      "dat.sg": "impetui",
+      "acc.sg": "impetum",
+      "nom.pl": "impetus",
+      "acc.pl": "impetus",
+      "abl.sg": "impetu",
+      "gen.pl": "impetuum",
+      "dat.pl": "impetibus",
+      "abl.pl": "impetibus"
+    }
+  }
+}

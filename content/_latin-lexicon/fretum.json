@@ -1,0 +1,36 @@
+{
+  "lemma": "fretum",
+  "pos": "noun",
+  "glosses": [
+    "sea",
+    "narrow sea, straits"
+  ],
+  "reviewed": false,
+  "head": "fretum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fretum",
+      "gen.sg": "freti",
+      "acc.sg": "fretum",
+      "dat.sg": "freto",
+      "abl.sg": "freto",
+      "gen.pl": "fretorum",
+      "dat.pl": "fretis",
+      "abl.pl": "fretis",
+      "nom.pl": "freta",
+      "acc.pl": "freta"
+    }
+  }
+}

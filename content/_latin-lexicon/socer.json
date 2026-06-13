@@ -1,0 +1,35 @@
+{
+  "lemma": "socer",
+  "pos": "noun",
+  "glosses": [
+    "father in law"
+  ],
+  "reviewed": false,
+  "head": "socer, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "socer",
+      "gen.sg": "soceri",
+      "dat.sg": "socero",
+      "abl.sg": "socero",
+      "acc.sg": "socerum",
+      "nom.pl": "soceri",
+      "gen.pl": "socerorum",
+      "dat.pl": "soceris",
+      "abl.pl": "soceris",
+      "acc.pl": "soceros"
+    }
+  }
+}

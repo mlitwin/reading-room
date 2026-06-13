@@ -1,0 +1,37 @@
+{
+  "lemma": "natura",
+  "pos": "noun",
+  "glosses": [
+    "nature",
+    "birth",
+    "character"
+  ],
+  "reviewed": false,
+  "head": "natura, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "natura",
+      "gen.sg": "naturae",
+      "abl.sg": "natura",
+      "acc.sg": "naturam",
+      "dat.sg": "naturae",
+      "nom.pl": "naturae",
+      "gen.pl": "naturarum",
+      "dat.pl": "naturis",
+      "abl.pl": "naturis",
+      "acc.pl": "naturas"
+    }
+  }
+}

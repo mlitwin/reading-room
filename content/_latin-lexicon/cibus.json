@@ -1,0 +1,39 @@
+{
+  "lemma": "cibus",
+  "pos": "noun",
+  "glosses": [
+    "food",
+    "fare, rations",
+    "nutriment, sustenance, fuel",
+    "eating, a meal",
+    "bait"
+  ],
+  "reviewed": false,
+  "head": "cibus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cibus",
+      "gen.sg": "cibi",
+      "dat.sg": "cibo",
+      "abl.sg": "cibo",
+      "acc.sg": "cibum",
+      "nom.pl": "cibi",
+      "gen.pl": "ciborum",
+      "dat.pl": "cibis",
+      "abl.pl": "cibis",
+      "acc.pl": "cibos"
+    }
+  }
+}

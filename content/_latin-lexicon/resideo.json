@@ -1,0 +1,46 @@
+{
+  "lemma": "resideo",
+  "pos": "verb",
+  "glosses": [
+    "sit down/on/in",
+    "settle",
+    "be perched",
+    "remain seated/idle/fixed/in place",
+    "squat",
+    "abate/subside"
+  ],
+  "reviewed": false,
+  "head": "resideo, residere, resedi, resessum",
+  "principal_parts": [
+    "resideo",
+    "residere",
+    "resedi",
+    "resessum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "resideo",
+      "2sg.pres.ind.act": "resides",
+      "3sg.pres.ind.act": "residet",
+      "1pl.pres.ind.act": "residemus",
+      "2pl.pres.ind.act": "residetis",
+      "3pl.pres.ind.act": "resident",
+      "2sg.pres.imp.act": "reside",
+      "2pl.pres.imp.act": "residete"
+    }
+  }
+}

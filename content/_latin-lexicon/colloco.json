@@ -1,0 +1,46 @@
+{
+  "lemma": "colloco",
+  "pos": "verb",
+  "glosses": [
+    "place/put/set in order/proper position, arrange",
+    "station, post, position",
+    "apply",
+    "put together, assemble",
+    "settle/establish in a place/marriage",
+    "billet"
+  ],
+  "reviewed": false,
+  "head": "colloco, collocare, collocavi, collocatum",
+  "principal_parts": [
+    "colloco",
+    "collocare",
+    "collocavi",
+    "collocatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "colloco",
+      "2sg.pres.ind.act": "collocas",
+      "3sg.pres.ind.act": "collocat",
+      "1pl.pres.ind.act": "collocamus",
+      "2pl.pres.ind.act": "collocatis",
+      "3pl.pres.ind.act": "collocant",
+      "2sg.pres.imp.act": "colloca",
+      "2pl.pres.imp.act": "collocate"
+    }
+  }
+}

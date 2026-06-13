@@ -1,0 +1,55 @@
+{
+  "lemma": "intactus",
+  "pos": "adj",
+  "glosses": [
+    "untouched, intact",
+    "untried",
+    "virgin"
+  ],
+  "reviewed": false,
+  "head": "intactus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "intactus",
+      "gen.sg.masc": "intacti",
+      "dat.sg.masc": "intacto",
+      "gen.sg.fem": "intactae",
+      "dat.sg.fem": "intactae",
+      "nom.sg.neut": "intactum",
+      "gen.sg.neut": "intacti",
+      "dat.sg.neut": "intacto",
+      "acc.sg.neut": "intactum",
+      "acc.sg.masc": "intactum",
+      "abl.sg.masc": "intacto",
+      "nom.pl.masc": "intacti",
+      "gen.pl.masc": "intactorum",
+      "acc.pl.masc": "intactos",
+      "nom.sg.fem": "intacta",
+      "acc.sg.fem": "intactam",
+      "abl.sg.fem": "intacta",
+      "nom.pl.fem": "intactae",
+      "gen.pl.fem": "intactarum",
+      "acc.pl.fem": "intactas",
+      "abl.sg.neut": "intacto",
+      "nom.pl.neut": "intacta",
+      "gen.pl.neut": "intactorum",
+      "acc.pl.neut": "intacta"
+    }
+  }
+}

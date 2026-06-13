@@ -1,0 +1,35 @@
+{
+  "lemma": "muscus",
+  "pos": "noun",
+  "glosses": [
+    "moss"
+  ],
+  "reviewed": false,
+  "head": "muscus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "muscus",
+      "gen.sg": "musci",
+      "dat.sg": "musco",
+      "abl.sg": "musco",
+      "acc.sg": "muscum",
+      "nom.pl": "musci",
+      "gen.pl": "muscorum",
+      "dat.pl": "muscis",
+      "abl.pl": "muscis",
+      "acc.pl": "muscos"
+    }
+  }
+}

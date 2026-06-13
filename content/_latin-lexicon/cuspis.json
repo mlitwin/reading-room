@@ -1,0 +1,39 @@
+{
+  "lemma": "cuspis",
+  "pos": "noun",
+  "glosses": [
+    "point/tip (spear), pointed end",
+    "spit/stake",
+    "blade",
+    "javelin/spear/lance",
+    "sting"
+  ],
+  "reviewed": false,
+  "head": "cuspis, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "cuspidem",
+      "gen.pl": "cuspidum",
+      "acc.pl": "cuspidis",
+      "nom.sg": "cuspis",
+      "gen.sg": "cuspidis",
+      "dat.sg": "cuspidi",
+      "abl.sg": "cuspide",
+      "nom.pl": "cuspides",
+      "dat.pl": "cuspidibus",
+      "abl.pl": "cuspidibus"
+    }
+  }
+}

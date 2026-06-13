@@ -1,0 +1,35 @@
+{
+  "lemma": "sonus",
+  "pos": "noun",
+  "glosses": [
+    "noise, sound"
+  ],
+  "reviewed": false,
+  "head": "sonus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sonus",
+      "gen.sg": "soni",
+      "dat.sg": "sono",
+      "abl.sg": "sono",
+      "acc.sg": "sonum",
+      "nom.pl": "soni",
+      "gen.pl": "sonorum",
+      "dat.pl": "sonis",
+      "abl.pl": "sonis",
+      "acc.pl": "sonos"
+    }
+  }
+}

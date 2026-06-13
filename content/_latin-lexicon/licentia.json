@@ -1,0 +1,37 @@
+{
+  "lemma": "licentia",
+  "pos": "noun",
+  "glosses": [
+    "freedom, liberty",
+    "license, disorderliness",
+    "outspokenness"
+  ],
+  "reviewed": false,
+  "head": "licentia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "licentia",
+      "gen.sg": "licentiae",
+      "abl.sg": "licentia",
+      "acc.sg": "licentiam",
+      "dat.sg": "licentiae",
+      "nom.pl": "licentiae",
+      "gen.pl": "licentiarum",
+      "dat.pl": "licentiis",
+      "abl.pl": "licentiis",
+      "acc.pl": "licentias"
+    }
+  }
+}

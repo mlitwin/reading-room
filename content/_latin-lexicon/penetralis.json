@@ -1,0 +1,33 @@
+{
+  "lemma": "penetralis",
+  "pos": "adj",
+  "glosses": [
+    "inner, innermost"
+  ],
+  "reviewed": false,
+  "head": "penetralis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "penetrale",
+      "acc.sg.neut": "penetrale",
+      "nom.pl.neut": "penetralia",
+      "acc.pl.neut": "penetralia"
+    }
+  }
+}

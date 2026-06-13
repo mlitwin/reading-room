@@ -1,0 +1,35 @@
+{
+  "lemma": "senex",
+  "pos": "noun",
+  "glosses": [
+    "old man"
+  ],
+  "reviewed": false,
+  "head": "senex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "senem",
+      "gen.pl": "senum",
+      "acc.pl": "senis",
+      "nom.sg": "senex",
+      "gen.sg": "senis",
+      "dat.sg": "seni",
+      "abl.sg": "sene",
+      "nom.pl": "senes",
+      "dat.pl": "senibus",
+      "abl.pl": "senibus"
+    }
+  }
+}

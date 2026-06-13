@@ -1,0 +1,39 @@
+{
+  "lemma": "capillus",
+  "pos": "noun",
+  "glosses": [
+    "hair",
+    "hair of head",
+    "single hair",
+    "hair/fur/wool of animals",
+    "hair-like fiber"
+  ],
+  "reviewed": false,
+  "head": "capillus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "capillus",
+      "gen.sg": "capilli",
+      "dat.sg": "capillo",
+      "abl.sg": "capillo",
+      "acc.sg": "capillum",
+      "nom.pl": "capilli",
+      "gen.pl": "capillorum",
+      "dat.pl": "capillis",
+      "abl.pl": "capillis",
+      "acc.pl": "capillos"
+    }
+  }
+}

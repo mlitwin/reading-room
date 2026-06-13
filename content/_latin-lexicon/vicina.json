@@ -1,0 +1,35 @@
+{
+  "lemma": "vicina",
+  "pos": "noun",
+  "glosses": [
+    "neighborhood, neighboring place, vicinity (of )"
+  ],
+  "reviewed": false,
+  "head": "vicina, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vicinum",
+      "gen.sg": "vicini",
+      "acc.sg": "vicinum",
+      "dat.sg": "vicino",
+      "abl.sg": "vicino",
+      "gen.pl": "vicinorum",
+      "dat.pl": "vicinis",
+      "abl.pl": "vicinis",
+      "nom.pl": "vicina",
+      "acc.pl": "vicina"
+    }
+  }
+}

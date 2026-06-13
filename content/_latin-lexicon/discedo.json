@@ -1,0 +1,42 @@
+{
+  "lemma": "discedo",
+  "pos": "verb",
+  "glosses": [
+    "go/march off, depart, withdraw",
+    "scatter, dissipate",
+    "abandon",
+    "lay down (arms)"
+  ],
+  "reviewed": false,
+  "head": "discedo, discedere, discessi, discessum",
+  "principal_parts": [
+    "discedo",
+    "discedere",
+    "discessi",
+    "discessum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "discedis",
+      "3sg.pres.ind.act": "discedit",
+      "1pl.pres.ind.act": "discedimus",
+      "2pl.pres.ind.act": "disceditis",
+      "2sg.pres.imp.act": "discede",
+      "2pl.pres.imp.act": "discedite"
+    }
+  }
+}

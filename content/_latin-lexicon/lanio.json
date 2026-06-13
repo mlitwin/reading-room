@@ -1,0 +1,41 @@
+{
+  "lemma": "lanio",
+  "pos": "verb",
+  "glosses": [
+    "tear, mangle, mutilate, pull to pieces"
+  ],
+  "reviewed": false,
+  "head": "lanio, laniare, laniavi, laniatum",
+  "principal_parts": [
+    "lanio",
+    "laniare",
+    "laniavi",
+    "laniatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "lanio",
+      "2sg.pres.ind.act": "lanias",
+      "3sg.pres.ind.act": "laniat",
+      "1pl.pres.ind.act": "laniamus",
+      "2pl.pres.ind.act": "laniatis",
+      "3pl.pres.ind.act": "laniant",
+      "2sg.pres.imp.act": "lania",
+      "2pl.pres.imp.act": "laniate"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "lemma": "succedo",
+  "pos": "verb",
+  "glosses": [
+    "climb",
+    "advance",
+    "follow",
+    "succeed in"
+  ],
+  "reviewed": false,
+  "head": "succedo, succedere, successi, successum",
+  "principal_parts": [
+    "succedo",
+    "succedere",
+    "successi",
+    "successum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "succedis",
+      "3sg.pres.ind.act": "succedit",
+      "1pl.pres.ind.act": "succedimus",
+      "2pl.pres.ind.act": "succeditis",
+      "2sg.pres.imp.act": "succede",
+      "2pl.pres.imp.act": "succedite"
+    }
+  }
+}

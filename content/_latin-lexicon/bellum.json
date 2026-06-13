@@ -1,0 +1,38 @@
+{
+  "lemma": "bellum",
+  "pos": "noun",
+  "glosses": [
+    "war, warfare",
+    "battle, combat, fight",
+    "(at/in) (the) war(s)",
+    "military force, arms"
+  ],
+  "reviewed": false,
+  "head": "bellum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "bellum",
+      "gen.sg": "belli",
+      "acc.sg": "bellum",
+      "dat.sg": "bello",
+      "abl.sg": "bello",
+      "gen.pl": "bellorum",
+      "dat.pl": "bellis",
+      "abl.pl": "bellis",
+      "nom.pl": "bella",
+      "acc.pl": "bella"
+    }
+  }
+}

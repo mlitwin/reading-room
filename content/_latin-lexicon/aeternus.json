@@ -1,0 +1,55 @@
+{
+  "lemma": "aeternus",
+  "pos": "adj",
+  "glosses": [
+    "eternal/everlasting/imperishable",
+    "perpetual, w/out start/end",
+    "[in ~=>forever]"
+  ],
+  "reviewed": false,
+  "head": "aeternus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "aeternus",
+      "gen.sg.masc": "aeterni",
+      "dat.sg.masc": "aeterno",
+      "gen.sg.fem": "aeternae",
+      "dat.sg.fem": "aeternae",
+      "nom.sg.neut": "aeternum",
+      "gen.sg.neut": "aeterni",
+      "dat.sg.neut": "aeterno",
+      "acc.sg.neut": "aeternum",
+      "acc.sg.masc": "aeternum",
+      "abl.sg.masc": "aeterno",
+      "nom.pl.masc": "aeterni",
+      "gen.pl.masc": "aeternorum",
+      "acc.pl.masc": "aeternos",
+      "nom.sg.fem": "aeterna",
+      "acc.sg.fem": "aeternam",
+      "abl.sg.fem": "aeterna",
+      "nom.pl.fem": "aeternae",
+      "gen.pl.fem": "aeternarum",
+      "acc.pl.fem": "aeternas",
+      "abl.sg.neut": "aeterno",
+      "nom.pl.neut": "aeterna",
+      "gen.pl.neut": "aeternorum",
+      "acc.pl.neut": "aeterna"
+    }
+  }
+}

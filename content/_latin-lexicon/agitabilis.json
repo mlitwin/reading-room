@@ -1,0 +1,33 @@
+{
+  "lemma": "agitabilis",
+  "pos": "adj",
+  "glosses": [
+    "easily moved, mobile"
+  ],
+  "reviewed": false,
+  "head": "agitabilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "agitabile",
+      "acc.sg.neut": "agitabile",
+      "nom.pl.neut": "agitabilia",
+      "acc.pl.neut": "agitabilia"
+    }
+  }
+}

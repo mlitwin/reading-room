@@ -1,0 +1,44 @@
+{
+  "lemma": "mico",
+  "pos": "verb",
+  "glosses": [
+    "vibrate, quiver, twinkle",
+    "tremble, throb",
+    "beat (pulse)",
+    "dart, flash, glitter"
+  ],
+  "reviewed": false,
+  "head": "mico, micare, micui, -um",
+  "principal_parts": [
+    "mico",
+    "micare",
+    "micui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "mico",
+      "2sg.pres.ind.act": "micas",
+      "3sg.pres.ind.act": "micat",
+      "1pl.pres.ind.act": "micamus",
+      "2pl.pres.ind.act": "micatis",
+      "3pl.pres.ind.act": "micant",
+      "2sg.pres.imp.act": "mica",
+      "2pl.pres.imp.act": "micate"
+    }
+  }
+}

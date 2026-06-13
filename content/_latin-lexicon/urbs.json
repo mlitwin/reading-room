@@ -1,0 +1,36 @@
+{
+  "lemma": "urbs",
+  "pos": "noun",
+  "glosses": [
+    "city",
+    "City of Rome"
+  ],
+  "reviewed": false,
+  "head": "urbs, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "urbi",
+      "acc.sg": "urbem",
+      "nom.pl": "urbis",
+      "gen.pl": "urbium",
+      "acc.pl": "urbis",
+      "nom.sg": "urbs",
+      "gen.sg": "urbis",
+      "dat.sg": "urbi",
+      "dat.pl": "urbibus",
+      "abl.pl": "urbibus"
+    }
+  }
+}

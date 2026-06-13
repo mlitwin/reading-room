@@ -1,0 +1,37 @@
+{
+  "lemma": "littera",
+  "pos": "noun",
+  "glosses": [
+    "letter (alphabet)",
+    "(pl.) letter, epistle",
+    "literature, books, records, account"
+  ],
+  "reviewed": false,
+  "head": "littera, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "littera",
+      "gen.sg": "litterae",
+      "abl.sg": "littera",
+      "acc.sg": "litteram",
+      "dat.sg": "litterae",
+      "nom.pl": "litterae",
+      "gen.pl": "litterarum",
+      "dat.pl": "litteris",
+      "abl.pl": "litteris",
+      "acc.pl": "litteras"
+    }
+  }
+}

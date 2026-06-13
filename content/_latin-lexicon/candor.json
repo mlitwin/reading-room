@@ -1,0 +1,40 @@
+{
+  "lemma": "candor",
+  "pos": "noun",
+  "glosses": [
+    "whiteness",
+    "snow",
+    "radiance, bright light",
+    "heat, glow",
+    "beauty",
+    "purity"
+  ],
+  "reviewed": false,
+  "head": "candor, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "candorem",
+      "gen.pl": "candorum",
+      "acc.pl": "candoris",
+      "nom.sg": "candor",
+      "gen.sg": "candoris",
+      "dat.sg": "candori",
+      "abl.sg": "candore",
+      "nom.pl": "candores",
+      "dat.pl": "candoribus",
+      "abl.pl": "candoribus"
+    }
+  }
+}

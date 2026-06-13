@@ -1,0 +1,46 @@
+{
+  "lemma": "consto",
+  "pos": "verb",
+  "glosses": [
+    "agree/correspond/fit, be correct",
+    "be dependent/based upon",
+    "exist/continue/last",
+    "be certain/decided/consistent/sure/fixed/established/well-known/apparent/plain",
+    "stand firm/still/erect/together",
+    "remain motionless/constant"
+  ],
+  "reviewed": false,
+  "head": "consto, constare, constiti, constatum",
+  "principal_parts": [
+    "consto",
+    "constare",
+    "constiti",
+    "constatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "consto",
+      "2sg.pres.ind.act": "constas",
+      "3sg.pres.ind.act": "constat",
+      "1pl.pres.ind.act": "constamus",
+      "2pl.pres.ind.act": "constatis",
+      "3pl.pres.ind.act": "constant",
+      "2sg.pres.imp.act": "consta",
+      "2pl.pres.imp.act": "constate"
+    }
+  }
+}

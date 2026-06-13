@@ -1,0 +1,43 @@
+{
+  "lemma": "pudeo",
+  "pos": "verb",
+  "glosses": [
+    "be ashamed",
+    "make ashamed",
+    "[me pudet => I am ashamed]"
+  ],
+  "reviewed": false,
+  "head": "pudeo, pudere, pudui, puditum",
+  "principal_parts": [
+    "pudeo",
+    "pudere",
+    "pudui",
+    "puditum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "pudeo",
+      "2sg.pres.ind.act": "pudes",
+      "3sg.pres.ind.act": "pudet",
+      "1pl.pres.ind.act": "pudemus",
+      "2pl.pres.ind.act": "pudetis",
+      "3pl.pres.ind.act": "pudent",
+      "2sg.pres.imp.act": "pude",
+      "2pl.pres.imp.act": "pudete"
+    }
+  }
+}

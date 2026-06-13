@@ -1,0 +1,38 @@
+{
+  "lemma": "supera",
+  "pos": "noun",
+  "glosses": [
+    "heaven (pl.)",
+    "heavenly bodies",
+    "heavenly things",
+    "higher places"
+  ],
+  "reviewed": false,
+  "head": "supera, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "superum",
+      "gen.sg": "superi",
+      "acc.sg": "superum",
+      "dat.sg": "supero",
+      "abl.sg": "supero",
+      "gen.pl": "superorum",
+      "dat.pl": "superis",
+      "abl.pl": "superis",
+      "nom.pl": "supera",
+      "acc.pl": "supera"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "soror",
+  "pos": "noun",
+  "glosses": [
+    "sister",
+    "(applied also to half sister, sister-in-law, and mistress!)"
+  ],
+  "reviewed": false,
+  "head": "soror, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "sororem",
+      "gen.pl": "sororum",
+      "acc.pl": "sororis",
+      "nom.sg": "soror",
+      "gen.sg": "sororis",
+      "dat.sg": "sorori",
+      "abl.sg": "sorore",
+      "nom.pl": "sorores",
+      "dat.pl": "sororibus",
+      "abl.pl": "sororibus"
+    }
+  }
+}

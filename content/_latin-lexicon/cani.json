@@ -1,0 +1,35 @@
+{
+  "lemma": "cani",
+  "pos": "noun",
+  "glosses": [
+    "kind of wild nettle"
+  ],
+  "reviewed": false,
+  "head": "cani, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cania",
+      "gen.sg": "caniae",
+      "abl.sg": "cania",
+      "acc.sg": "caniam",
+      "dat.sg": "caniae",
+      "nom.pl": "caniae",
+      "gen.pl": "caniarum",
+      "dat.pl": "caniis",
+      "abl.pl": "caniis",
+      "acc.pl": "canias"
+    }
+  }
+}

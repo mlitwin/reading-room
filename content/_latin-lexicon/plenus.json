@@ -1,0 +1,54 @@
+{
+  "lemma": "plenus",
+  "pos": "adj",
+  "glosses": [
+    "full, plump",
+    "satisfied"
+  ],
+  "reviewed": false,
+  "head": "plenus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "plenus",
+      "gen.sg.masc": "pleni",
+      "dat.sg.masc": "pleno",
+      "gen.sg.fem": "plenae",
+      "dat.sg.fem": "plenae",
+      "nom.sg.neut": "plenum",
+      "gen.sg.neut": "pleni",
+      "dat.sg.neut": "pleno",
+      "acc.sg.neut": "plenum",
+      "acc.sg.masc": "plenum",
+      "abl.sg.masc": "pleno",
+      "nom.pl.masc": "pleni",
+      "gen.pl.masc": "plenorum",
+      "acc.pl.masc": "plenos",
+      "nom.sg.fem": "plena",
+      "acc.sg.fem": "plenam",
+      "abl.sg.fem": "plena",
+      "nom.pl.fem": "plenae",
+      "gen.pl.fem": "plenarum",
+      "acc.pl.fem": "plenas",
+      "abl.sg.neut": "pleno",
+      "nom.pl.neut": "plena",
+      "gen.pl.neut": "plenorum",
+      "acc.pl.neut": "plena"
+    }
+  }
+}

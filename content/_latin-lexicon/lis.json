@@ -1,0 +1,36 @@
+{
+  "lemma": "lis",
+  "pos": "noun",
+  "glosses": [
+    "lawsuit",
+    "quarrel"
+  ],
+  "reviewed": false,
+  "head": "lis, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "liti",
+      "acc.sg": "litem",
+      "nom.pl": "litis",
+      "gen.pl": "litium",
+      "acc.pl": "litis",
+      "nom.sg": "lis",
+      "gen.sg": "litis",
+      "dat.sg": "liti",
+      "dat.pl": "litibus",
+      "abl.pl": "litibus"
+    }
+  }
+}

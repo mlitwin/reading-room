@@ -1,0 +1,36 @@
+{
+  "lemma": "mel",
+  "pos": "noun",
+  "glosses": [
+    "song, tune, air, strain, lay, melody",
+    "hymn"
+  ],
+  "reviewed": false,
+  "head": "mel, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "melus",
+      "gen.sg": "meli",
+      "dat.sg": "melo",
+      "abl.sg": "melo",
+      "acc.sg": "melum",
+      "nom.pl": "meli",
+      "gen.pl": "melorum",
+      "dat.pl": "melis",
+      "abl.pl": "melis",
+      "acc.pl": "melos"
+    }
+  }
+}

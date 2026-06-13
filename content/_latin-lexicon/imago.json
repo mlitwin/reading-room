@@ -1,0 +1,39 @@
+{
+  "lemma": "imago",
+  "pos": "noun",
+  "glosses": [
+    "likeness, image, appearance",
+    "statue",
+    "idea",
+    "echo",
+    "ghost, phantom"
+  ],
+  "reviewed": false,
+  "head": "imago, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "imaginem",
+      "gen.pl": "imaginum",
+      "acc.pl": "imaginis",
+      "nom.sg": "imago",
+      "gen.sg": "imaginis",
+      "dat.sg": "imagini",
+      "abl.sg": "imagine",
+      "nom.pl": "imagines",
+      "dat.pl": "imaginibus",
+      "abl.pl": "imaginibus"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "semideus",
+  "pos": "noun",
+  "glosses": [
+    "demigod"
+  ],
+  "reviewed": false,
+  "head": "semideus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "semideus",
+      "gen.sg": "semidei",
+      "dat.sg": "semideo",
+      "abl.sg": "semideo",
+      "acc.sg": "semideum",
+      "nom.pl": "semidei",
+      "gen.pl": "semideorum",
+      "dat.pl": "semideis",
+      "abl.pl": "semideis",
+      "acc.pl": "semideos"
+    }
+  }
+}

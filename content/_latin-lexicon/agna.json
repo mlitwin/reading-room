@@ -1,0 +1,36 @@
+{
+  "lemma": "agna",
+  "pos": "noun",
+  "glosses": [
+    "ear of grain",
+    "straw/blade (L+S)"
+  ],
+  "reviewed": false,
+  "head": "agna, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "agna",
+      "gen.sg": "agnae",
+      "abl.sg": "agna",
+      "acc.sg": "agnam",
+      "dat.sg": "agnae",
+      "nom.pl": "agnae",
+      "gen.pl": "agnarum",
+      "dat.pl": "agnis",
+      "abl.pl": "agnis",
+      "acc.pl": "agnas"
+    }
+  }
+}

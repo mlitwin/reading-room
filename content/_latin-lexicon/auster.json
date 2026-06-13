@@ -1,0 +1,37 @@
+{
+  "lemma": "auster",
+  "pos": "noun",
+  "glosses": [
+    "south",
+    "south wind",
+    "southern parts (pl.)"
+  ],
+  "reviewed": false,
+  "head": "auster, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "auster",
+      "gen.sg": "austri",
+      "dat.sg": "austro",
+      "abl.sg": "austro",
+      "acc.sg": "austrum",
+      "nom.pl": "austri",
+      "gen.pl": "austrorum",
+      "dat.pl": "austris",
+      "abl.pl": "austris",
+      "acc.pl": "austros"
+    }
+  }
+}

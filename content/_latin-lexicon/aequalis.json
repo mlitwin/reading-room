@@ -1,0 +1,35 @@
+{
+  "lemma": "aequalis",
+  "pos": "adj",
+  "glosses": [
+    "equal, similar",
+    "uniform, level, flat",
+    "of the same age/generation/duration"
+  ],
+  "reviewed": false,
+  "head": "aequalis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "aequale",
+      "acc.sg.neut": "aequale",
+      "nom.pl.neut": "aequalia",
+      "acc.pl.neut": "aequalia"
+    }
+  }
+}

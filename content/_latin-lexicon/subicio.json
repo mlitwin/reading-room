@@ -1,0 +1,41 @@
+{
+  "lemma": "subicio",
+  "pos": "verb",
+  "glosses": [
+    "throw under, place under",
+    "make subject",
+    "expose"
+  ],
+  "reviewed": false,
+  "head": "subicio, subicere, subjeci, subjectum",
+  "principal_parts": [
+    "subicio",
+    "subicere",
+    "subjeci",
+    "subjectum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "subicis",
+      "3sg.pres.ind.act": "subicit",
+      "1pl.pres.ind.act": "subicimus",
+      "2pl.pres.ind.act": "subicitis",
+      "2sg.pres.imp.act": "subice",
+      "2pl.pres.imp.act": "subicite"
+    }
+  }
+}

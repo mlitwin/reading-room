@@ -1,0 +1,38 @@
+{
+  "lemma": "regnum",
+  "pos": "noun",
+  "glosses": [
+    "royal power",
+    "power",
+    "control",
+    "kingdom"
+  ],
+  "reviewed": false,
+  "head": "regnum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "regnum",
+      "gen.sg": "regni",
+      "acc.sg": "regnum",
+      "dat.sg": "regno",
+      "abl.sg": "regno",
+      "gen.pl": "regnorum",
+      "dat.pl": "regnis",
+      "abl.pl": "regnis",
+      "nom.pl": "regna",
+      "acc.pl": "regna"
+    }
+  }
+}

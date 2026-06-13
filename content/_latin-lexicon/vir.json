@@ -1,0 +1,36 @@
+{
+  "lemma": "vir",
+  "pos": "noun",
+  "glosses": [
+    "venom (sg.), poisonous secretion of snakes/creatures/plants",
+    "acrid element"
+  ],
+  "reviewed": false,
+  "head": "vir, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "virus",
+      "gen.sg": "viri",
+      "acc.sg": "virus",
+      "nom.pl": "vire",
+      "acc.pl": "vire",
+      "dat.sg": "viro",
+      "abl.sg": "viro",
+      "gen.pl": "virorum",
+      "dat.pl": "viris",
+      "abl.pl": "viris"
+    }
+  }
+}

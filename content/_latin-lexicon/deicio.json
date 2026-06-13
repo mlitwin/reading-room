@@ -1,0 +1,44 @@
+{
+  "lemma": "deicio",
+  "pos": "verb",
+  "glosses": [
+    "throw/pour/jump/send/put/push/force/knock/bring down",
+    "cause to fall/drop",
+    "hang",
+    "overthrow, bring down, depose",
+    "kill, destroy",
+    "shoot/strike down"
+  ],
+  "reviewed": false,
+  "head": "deicio, deicere, dejeci, dejectum",
+  "principal_parts": [
+    "deicio",
+    "deicere",
+    "dejeci",
+    "dejectum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "deicis",
+      "3sg.pres.ind.act": "deicit",
+      "1pl.pres.ind.act": "deicimus",
+      "2pl.pres.ind.act": "deicitis",
+      "2sg.pres.imp.act": "deice",
+      "2pl.pres.imp.act": "deicite"
+    }
+  }
+}

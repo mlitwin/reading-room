@@ -1,0 +1,54 @@
+{
+  "lemma": "pretiosus",
+  "pos": "adj",
+  "glosses": [
+    "expensive, costly, of great value, precious",
+    "rich in"
+  ],
+  "reviewed": false,
+  "head": "pretiosus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "pretiosus",
+      "gen.sg.masc": "pretiosi",
+      "dat.sg.masc": "pretioso",
+      "gen.sg.fem": "pretiosae",
+      "dat.sg.fem": "pretiosae",
+      "nom.sg.neut": "pretiosum",
+      "gen.sg.neut": "pretiosi",
+      "dat.sg.neut": "pretioso",
+      "acc.sg.neut": "pretiosum",
+      "acc.sg.masc": "pretiosum",
+      "abl.sg.masc": "pretioso",
+      "nom.pl.masc": "pretiosi",
+      "gen.pl.masc": "pretiosorum",
+      "acc.pl.masc": "pretiosos",
+      "nom.sg.fem": "pretiosa",
+      "acc.sg.fem": "pretiosam",
+      "abl.sg.fem": "pretiosa",
+      "nom.pl.fem": "pretiosae",
+      "gen.pl.fem": "pretiosarum",
+      "acc.pl.fem": "pretiosas",
+      "abl.sg.neut": "pretioso",
+      "nom.pl.neut": "pretiosa",
+      "gen.pl.neut": "pretiosorum",
+      "acc.pl.neut": "pretiosa"
+    }
+  }
+}

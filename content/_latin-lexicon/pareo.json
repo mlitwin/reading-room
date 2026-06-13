@@ -1,0 +1,46 @@
+{
+  "lemma": "pareo",
+  "pos": "verb",
+  "glosses": [
+    "obey, be subject/obedient to",
+    "submit/yield/comply",
+    "pay attention",
+    "attend to",
+    "appear, be visible, be seen",
+    "be clear/evident (legal)"
+  ],
+  "reviewed": false,
+  "head": "pareo, parere, parui, paritum",
+  "principal_parts": [
+    "pareo",
+    "parere",
+    "parui",
+    "paritum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "pareo",
+      "2sg.pres.ind.act": "pares",
+      "3sg.pres.ind.act": "paret",
+      "1pl.pres.ind.act": "paremus",
+      "2pl.pres.ind.act": "paretis",
+      "3pl.pres.ind.act": "parent",
+      "2sg.pres.imp.act": "pare",
+      "2pl.pres.imp.act": "parete"
+    }
+  }
+}

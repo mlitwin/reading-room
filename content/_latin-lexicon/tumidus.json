@@ -1,0 +1,55 @@
+{
+  "lemma": "tumidus",
+  "pos": "adj",
+  "glosses": [
+    "swollen, swelling, distended",
+    "puffed up with pride or self",
+    "confidence"
+  ],
+  "reviewed": false,
+  "head": "tumidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "tumidus",
+      "gen.sg.masc": "tumidi",
+      "dat.sg.masc": "tumido",
+      "gen.sg.fem": "tumidae",
+      "dat.sg.fem": "tumidae",
+      "nom.sg.neut": "tumidum",
+      "gen.sg.neut": "tumidi",
+      "dat.sg.neut": "tumido",
+      "acc.sg.neut": "tumidum",
+      "acc.sg.masc": "tumidum",
+      "abl.sg.masc": "tumido",
+      "nom.pl.masc": "tumidi",
+      "gen.pl.masc": "tumidorum",
+      "acc.pl.masc": "tumidos",
+      "nom.sg.fem": "tumida",
+      "acc.sg.fem": "tumidam",
+      "abl.sg.fem": "tumida",
+      "nom.pl.fem": "tumidae",
+      "gen.pl.fem": "tumidarum",
+      "acc.pl.fem": "tumidas",
+      "abl.sg.neut": "tumido",
+      "nom.pl.neut": "tumida",
+      "gen.pl.neut": "tumidorum",
+      "acc.pl.neut": "tumida"
+    }
+  }
+}

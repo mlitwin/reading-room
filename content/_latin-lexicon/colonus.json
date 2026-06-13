@@ -1,0 +1,38 @@
+{
+  "lemma": "colonus",
+  "pos": "noun",
+  "glosses": [
+    "farmer, cultivator, tiller",
+    "tenant-farmer",
+    "settler, colonist",
+    "inhabitant"
+  ],
+  "reviewed": false,
+  "head": "colonus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "colonus",
+      "gen.sg": "coloni",
+      "dat.sg": "colono",
+      "abl.sg": "colono",
+      "acc.sg": "colonum",
+      "nom.pl": "coloni",
+      "gen.pl": "colonorum",
+      "dat.pl": "colonis",
+      "abl.pl": "colonis",
+      "acc.pl": "colonos"
+    }
+  }
+}

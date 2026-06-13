@@ -1,0 +1,36 @@
+{
+  "lemma": "suspectus",
+  "pos": "noun",
+  "glosses": [
+    "esteem",
+    "admiration, looking up to"
+  ],
+  "reviewed": false,
+  "head": "suspectus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "suspectus",
+      "gen.sg": "suspectus",
+      "dat.sg": "suspectui",
+      "acc.sg": "suspectum",
+      "nom.pl": "suspectus",
+      "acc.pl": "suspectus",
+      "abl.sg": "suspectu",
+      "gen.pl": "suspectuum",
+      "dat.pl": "suspectibus",
+      "abl.pl": "suspectibus"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lemma": "consors",
+  "pos": "noun",
+  "glosses": [
+    "sharer",
+    "partner/associate/collogue/fellow",
+    "consort/wife",
+    "brother/sister",
+    "co-heir"
+  ],
+  "reviewed": false,
+  "head": "consors, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "consorti",
+      "acc.sg": "consortem",
+      "nom.pl": "consortis",
+      "gen.pl": "consortium",
+      "acc.pl": "consortis",
+      "nom.sg": "consors",
+      "gen.sg": "consortis",
+      "dat.sg": "consorti",
+      "dat.pl": "consortibus",
+      "abl.pl": "consortibus"
+    }
+  }
+}

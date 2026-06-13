@@ -1,0 +1,36 @@
+{
+  "lemma": "satyrus",
+  "pos": "noun",
+  "glosses": [
+    "satyr",
+    "satyric play"
+  ],
+  "reviewed": false,
+  "head": "satyrus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "satyrus",
+      "gen.sg": "satyri",
+      "dat.sg": "satyro",
+      "abl.sg": "satyro",
+      "acc.sg": "satyrum",
+      "nom.pl": "satyri",
+      "gen.pl": "satyrorum",
+      "dat.pl": "satyris",
+      "abl.pl": "satyris",
+      "acc.pl": "satyros"
+    }
+  }
+}

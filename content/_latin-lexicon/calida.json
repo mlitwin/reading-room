@@ -1,0 +1,37 @@
+{
+  "lemma": "calida",
+  "pos": "noun",
+  "glosses": [
+    "drink of wine and hot water (w/spices)",
+    "(usu. Roman winter drink)",
+    "heat"
+  ],
+  "reviewed": false,
+  "head": "calida, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "calidum",
+      "gen.sg": "calidi",
+      "acc.sg": "calidum",
+      "dat.sg": "calido",
+      "abl.sg": "calido",
+      "gen.pl": "calidorum",
+      "dat.pl": "calidis",
+      "abl.pl": "calidis",
+      "nom.pl": "calida",
+      "acc.pl": "calida"
+    }
+  }
+}

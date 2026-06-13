@@ -1,0 +1,36 @@
+{
+  "lemma": "uter",
+  "pos": "noun",
+  "glosses": [
+    "womb",
+    "belly, abdomen"
+  ],
+  "reviewed": false,
+  "head": "uter, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "uterus",
+      "gen.sg": "uteri",
+      "dat.sg": "utero",
+      "abl.sg": "utero",
+      "acc.sg": "uterum",
+      "nom.pl": "uteri",
+      "gen.pl": "uterorum",
+      "dat.pl": "uteris",
+      "abl.pl": "uteris",
+      "acc.pl": "uteros"
+    }
+  }
+}

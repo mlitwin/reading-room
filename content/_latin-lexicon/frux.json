@@ -1,0 +1,36 @@
+{
+  "lemma": "frux",
+  "pos": "noun",
+  "glosses": [
+    "crops (pl.), fruits, produce, legumes",
+    "honest men"
+  ],
+  "reviewed": false,
+  "head": "frux, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "frugem",
+      "gen.pl": "frugum",
+      "acc.pl": "frugis",
+      "nom.sg": "frux",
+      "gen.sg": "frugis",
+      "dat.sg": "frugi",
+      "abl.sg": "fruge",
+      "nom.pl": "fruges",
+      "dat.pl": "frugibus",
+      "abl.pl": "frugibus"
+    }
+  }
+}

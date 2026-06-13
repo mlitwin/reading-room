@@ -1,0 +1,57 @@
+{
+  "lemma": "indignus",
+  "pos": "adj",
+  "glosses": [
+    "unworthy, undeserving, undeserved",
+    "unbecoming",
+    "shameful",
+    "intolerable",
+    "cruel"
+  ],
+  "reviewed": false,
+  "head": "indignus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "indignus",
+      "gen.sg.masc": "indigni",
+      "dat.sg.masc": "indigno",
+      "gen.sg.fem": "indignae",
+      "dat.sg.fem": "indignae",
+      "nom.sg.neut": "indignum",
+      "gen.sg.neut": "indigni",
+      "dat.sg.neut": "indigno",
+      "acc.sg.neut": "indignum",
+      "acc.sg.masc": "indignum",
+      "abl.sg.masc": "indigno",
+      "nom.pl.masc": "indigni",
+      "gen.pl.masc": "indignorum",
+      "acc.pl.masc": "indignos",
+      "nom.sg.fem": "indigna",
+      "acc.sg.fem": "indignam",
+      "abl.sg.fem": "indigna",
+      "nom.pl.fem": "indignae",
+      "gen.pl.fem": "indignarum",
+      "acc.pl.fem": "indignas",
+      "abl.sg.neut": "indigno",
+      "nom.pl.neut": "indigna",
+      "gen.pl.neut": "indignorum",
+      "acc.pl.neut": "indigna"
+    }
+  }
+}

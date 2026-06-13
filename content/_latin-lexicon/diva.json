@@ -1,0 +1,36 @@
+{
+  "lemma": "diva",
+  "pos": "noun",
+  "glosses": [
+    "sky, open air",
+    "[sub divo => in the open air]"
+  ],
+  "reviewed": false,
+  "head": "diva, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "divum",
+      "gen.sg": "divi",
+      "acc.sg": "divum",
+      "dat.sg": "divo",
+      "abl.sg": "divo",
+      "gen.pl": "divorum",
+      "dat.pl": "divis",
+      "abl.pl": "divis",
+      "nom.pl": "diva",
+      "acc.pl": "diva"
+    }
+  }
+}

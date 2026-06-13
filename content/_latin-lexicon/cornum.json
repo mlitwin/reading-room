@@ -1,0 +1,36 @@
+{
+  "lemma": "cornum",
+  "pos": "noun",
+  "glosses": [
+    "cornel berry/cherry, fruit of cornelian cherry tree",
+    "javelin/spear (of cornel)"
+  ],
+  "reviewed": false,
+  "head": "cornum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cornum",
+      "gen.sg": "corni",
+      "acc.sg": "cornum",
+      "dat.sg": "corno",
+      "abl.sg": "corno",
+      "gen.pl": "cornorum",
+      "dat.pl": "cornis",
+      "abl.pl": "cornis",
+      "nom.pl": "corna",
+      "acc.pl": "corna"
+    }
+  }
+}

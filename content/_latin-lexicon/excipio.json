@@ -1,0 +1,43 @@
+{
+  "lemma": "excipio",
+  "pos": "verb",
+  "glosses": [
+    "take out",
+    "remove",
+    "follow",
+    "receive",
+    "ward off, relieve"
+  ],
+  "reviewed": false,
+  "head": "excipio, excipere, excepi, exceptum",
+  "principal_parts": [
+    "excipio",
+    "excipere",
+    "excepi",
+    "exceptum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "excipis",
+      "3sg.pres.ind.act": "excipit",
+      "1pl.pres.ind.act": "excipimus",
+      "2pl.pres.ind.act": "excipitis",
+      "2sg.pres.imp.act": "excipe",
+      "2pl.pres.imp.act": "excipite"
+    }
+  }
+}

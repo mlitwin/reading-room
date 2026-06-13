@@ -1,0 +1,35 @@
+{
+  "lemma": "gracilis",
+  "pos": "adj",
+  "glosses": [
+    "slender, thin, slim, slight",
+    "fine, narrow",
+    "modest, unambitious, simple, plain"
+  ],
+  "reviewed": false,
+  "head": "gracilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "gracile",
+      "acc.sg.neut": "gracile",
+      "nom.pl.neut": "gracilia",
+      "acc.pl.neut": "gracilia"
+    }
+  }
+}

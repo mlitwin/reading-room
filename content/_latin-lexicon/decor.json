@@ -1,0 +1,43 @@
+{
+  "lemma": "decor",
+  "pos": "verb",
+  "glosses": [
+    "adorn/grace, embellish/add beauty to",
+    "glorify, honor/add honor to",
+    "do credit to"
+  ],
+  "reviewed": false,
+  "head": "decor, decorare, decoravi, decoratum",
+  "principal_parts": [
+    "decor",
+    "decorare",
+    "decoravi",
+    "decoratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "decoro",
+      "2sg.pres.ind.act": "decoras",
+      "3sg.pres.ind.act": "decorat",
+      "1pl.pres.ind.act": "decoramus",
+      "2pl.pres.ind.act": "decoratis",
+      "3pl.pres.ind.act": "decorant",
+      "2sg.pres.imp.act": "decora",
+      "2pl.pres.imp.act": "decorate"
+    }
+  }
+}

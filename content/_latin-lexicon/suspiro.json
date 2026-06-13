@@ -1,0 +1,42 @@
+{
+  "lemma": "suspiro",
+  "pos": "verb",
+  "glosses": [
+    "sigh",
+    "utter with a sigh"
+  ],
+  "reviewed": false,
+  "head": "suspiro, suspirare, suspiravi, suspiratum",
+  "principal_parts": [
+    "suspiro",
+    "suspirare",
+    "suspiravi",
+    "suspiratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "suspiro",
+      "2sg.pres.ind.act": "suspiras",
+      "3sg.pres.ind.act": "suspirat",
+      "1pl.pres.ind.act": "suspiramus",
+      "2pl.pres.ind.act": "suspiratis",
+      "3pl.pres.ind.act": "suspirant",
+      "2sg.pres.imp.act": "suspira",
+      "2pl.pres.imp.act": "suspirate"
+    }
+  }
+}

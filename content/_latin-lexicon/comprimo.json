@@ -1,0 +1,44 @@
+{
+  "lemma": "comprimo",
+  "pos": "verb",
+  "glosses": [
+    "press/squeeze together, fold, crush",
+    "hem/shut/keep/hold in",
+    "copulate (male)",
+    "suppress/control/stifle/frustrate/subdue/cow, put down",
+    "hold breath",
+    "silence"
+  ],
+  "reviewed": false,
+  "head": "comprimo, comprimere, compressi, compressum",
+  "principal_parts": [
+    "comprimo",
+    "comprimere",
+    "compressi",
+    "compressum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "comprimis",
+      "3sg.pres.ind.act": "comprimit",
+      "1pl.pres.ind.act": "comprimimus",
+      "2pl.pres.ind.act": "comprimitis",
+      "2sg.pres.imp.act": "comprime",
+      "2pl.pres.imp.act": "comprimite"
+    }
+  }
+}

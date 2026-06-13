@@ -1,0 +1,53 @@
+{
+  "lemma": "superbus",
+  "pos": "adj",
+  "glosses": [
+    "arrogant, overbearing, haughty, proud"
+  ],
+  "reviewed": false,
+  "head": "superbus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "superbus",
+      "gen.sg.masc": "superbi",
+      "dat.sg.masc": "superbo",
+      "gen.sg.fem": "superbae",
+      "dat.sg.fem": "superbae",
+      "nom.sg.neut": "superbum",
+      "gen.sg.neut": "superbi",
+      "dat.sg.neut": "superbo",
+      "acc.sg.neut": "superbum",
+      "acc.sg.masc": "superbum",
+      "abl.sg.masc": "superbo",
+      "nom.pl.masc": "superbi",
+      "gen.pl.masc": "superborum",
+      "acc.pl.masc": "superbos",
+      "nom.sg.fem": "superba",
+      "acc.sg.fem": "superbam",
+      "abl.sg.fem": "superba",
+      "nom.pl.fem": "superbae",
+      "gen.pl.fem": "superbarum",
+      "acc.pl.fem": "superbas",
+      "abl.sg.neut": "superbo",
+      "nom.pl.neut": "superba",
+      "gen.pl.neut": "superborum",
+      "acc.pl.neut": "superba"
+    }
+  }
+}

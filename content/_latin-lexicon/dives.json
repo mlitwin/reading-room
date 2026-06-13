@@ -1,0 +1,35 @@
+{
+  "lemma": "dives",
+  "pos": "noun",
+  "glosses": [
+    "rich man"
+  ],
+  "reviewed": false,
+  "head": "dives, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "divitem",
+      "gen.pl": "divitum",
+      "acc.pl": "divitis",
+      "nom.sg": "dives",
+      "gen.sg": "divitis",
+      "dat.sg": "diviti",
+      "abl.sg": "divite",
+      "nom.pl": "divites",
+      "dat.pl": "divitibus",
+      "abl.pl": "divitibus"
+    }
+  }
+}

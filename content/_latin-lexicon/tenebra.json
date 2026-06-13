@@ -1,0 +1,40 @@
+{
+  "lemma": "tenebra",
+  "pos": "noun",
+  "glosses": [
+    "darkness (pl.), obscurity",
+    "night",
+    "dark corner",
+    "ignorance",
+    "concealment",
+    "gloom"
+  ],
+  "reviewed": false,
+  "head": "tenebra, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "tenebra",
+      "gen.sg": "tenebrae",
+      "abl.sg": "tenebra",
+      "acc.sg": "tenebram",
+      "dat.sg": "tenebrae",
+      "nom.pl": "tenebrae",
+      "gen.pl": "tenebrarum",
+      "dat.pl": "tenebris",
+      "abl.pl": "tenebris",
+      "acc.pl": "tenebras"
+    }
+  }
+}

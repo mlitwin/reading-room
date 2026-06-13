@@ -1,0 +1,56 @@
+{
+  "lemma": "clarus",
+  "pos": "adj",
+  "glosses": [
+    "clear, bright, gleaming",
+    "loud, distinct",
+    "evident, plain",
+    "illustrious, famous"
+  ],
+  "reviewed": false,
+  "head": "clarus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "clarus",
+      "gen.sg.masc": "clari",
+      "dat.sg.masc": "claro",
+      "gen.sg.fem": "clarae",
+      "dat.sg.fem": "clarae",
+      "nom.sg.neut": "clarum",
+      "gen.sg.neut": "clari",
+      "dat.sg.neut": "claro",
+      "acc.sg.neut": "clarum",
+      "acc.sg.masc": "clarum",
+      "abl.sg.masc": "claro",
+      "nom.pl.masc": "clari",
+      "gen.pl.masc": "clarorum",
+      "acc.pl.masc": "claros",
+      "nom.sg.fem": "clara",
+      "acc.sg.fem": "claram",
+      "abl.sg.fem": "clara",
+      "nom.pl.fem": "clarae",
+      "gen.pl.fem": "clararum",
+      "acc.pl.fem": "claras",
+      "abl.sg.neut": "claro",
+      "nom.pl.neut": "clara",
+      "gen.pl.neut": "clarorum",
+      "acc.pl.neut": "clara"
+    }
+  }
+}

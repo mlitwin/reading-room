@@ -1,0 +1,39 @@
+{
+  "lemma": "ossum",
+  "pos": "noun",
+  "glosses": [
+    "bone",
+    "(implement, gnawed, dead)",
+    "kernel (nut)",
+    "heartwood (tree)",
+    "stone (fruit)"
+  ],
+  "reviewed": false,
+  "head": "ossum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ossum",
+      "gen.sg": "ossi",
+      "acc.sg": "ossum",
+      "dat.sg": "osso",
+      "abl.sg": "osso",
+      "gen.pl": "ossorum",
+      "dat.pl": "ossis",
+      "abl.pl": "ossis",
+      "nom.pl": "ossa",
+      "acc.pl": "ossa"
+    }
+  }
+}

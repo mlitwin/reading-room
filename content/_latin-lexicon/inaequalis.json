@@ -1,0 +1,37 @@
+{
+  "lemma": "inaequalis",
+  "pos": "adj",
+  "glosses": [
+    "uneven",
+    "unequal",
+    "not smooth/level (surface)",
+    "irregular (shape)",
+    "patchy/variable"
+  ],
+  "reviewed": false,
+  "head": "inaequalis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "inaequale",
+      "acc.sg.neut": "inaequale",
+      "nom.pl.neut": "inaequalia",
+      "acc.pl.neut": "inaequalia"
+    }
+  }
+}

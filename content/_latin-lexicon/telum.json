@@ -1,0 +1,37 @@
+{
+  "lemma": "telum",
+  "pos": "noun",
+  "glosses": [
+    "dart, spear",
+    "weapon, javelin",
+    "bullet (gun)"
+  ],
+  "reviewed": false,
+  "head": "telum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "telum",
+      "gen.sg": "teli",
+      "acc.sg": "telum",
+      "dat.sg": "telo",
+      "abl.sg": "telo",
+      "gen.pl": "telorum",
+      "dat.pl": "telis",
+      "abl.pl": "telis",
+      "nom.pl": "tela",
+      "acc.pl": "tela"
+    }
+  }
+}

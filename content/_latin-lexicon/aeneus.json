@@ -1,0 +1,55 @@
+{
+  "lemma": "aeneus",
+  "pos": "adj",
+  "glosses": [
+    "copper, of copper (alloy)",
+    "bronze, made of bronze, bronze-colored",
+    "brazen"
+  ],
+  "reviewed": false,
+  "head": "aeneus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "aeneus",
+      "gen.sg.masc": "aenei",
+      "dat.sg.masc": "aeneo",
+      "gen.sg.fem": "aeneae",
+      "dat.sg.fem": "aeneae",
+      "nom.sg.neut": "aeneum",
+      "gen.sg.neut": "aenei",
+      "dat.sg.neut": "aeneo",
+      "acc.sg.neut": "aeneum",
+      "acc.sg.masc": "aeneum",
+      "abl.sg.masc": "aeneo",
+      "nom.pl.masc": "aenei",
+      "gen.pl.masc": "aeneorum",
+      "acc.pl.masc": "aeneos",
+      "nom.sg.fem": "aenea",
+      "acc.sg.fem": "aeneam",
+      "abl.sg.fem": "aenea",
+      "nom.pl.fem": "aeneae",
+      "gen.pl.fem": "aenearum",
+      "acc.pl.fem": "aeneas",
+      "abl.sg.neut": "aeneo",
+      "nom.pl.neut": "aenea",
+      "gen.pl.neut": "aeneorum",
+      "acc.pl.neut": "aenea"
+    }
+  }
+}

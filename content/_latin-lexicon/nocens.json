@@ -1,0 +1,34 @@
+{
+  "lemma": "nocens",
+  "pos": "adj",
+  "glosses": [
+    "harmful",
+    "guilty",
+    "criminal"
+  ],
+  "reviewed": false,
+  "head": "nocens, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "nocens",
+      "nom.pl.neut": "nocentia",
+      "acc.pl.neut": "nocentia"
+    }
+  }
+}

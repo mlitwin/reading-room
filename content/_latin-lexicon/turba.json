@@ -1,0 +1,36 @@
+{
+  "lemma": "turba",
+  "pos": "noun",
+  "glosses": [
+    "commotion, uproar, turmoil, tumult, disturbance",
+    "crowd, mob, multitude"
+  ],
+  "reviewed": false,
+  "head": "turba, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "turba",
+      "gen.sg": "turbae",
+      "abl.sg": "turba",
+      "acc.sg": "turbam",
+      "dat.sg": "turbae",
+      "nom.pl": "turbae",
+      "gen.pl": "turbarum",
+      "dat.pl": "turbis",
+      "abl.pl": "turbis",
+      "acc.pl": "turbas"
+    }
+  }
+}

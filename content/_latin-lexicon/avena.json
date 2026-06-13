@@ -1,0 +1,37 @@
+{
+  "lemma": "avena",
+  "pos": "noun",
+  "glosses": [
+    "reed, straw",
+    "shepherd's pipe, pan pipe",
+    "oats, wild oats, other allied grasses"
+  ],
+  "reviewed": false,
+  "head": "avena, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "avena",
+      "gen.sg": "avenae",
+      "abl.sg": "avena",
+      "acc.sg": "avenam",
+      "dat.sg": "avenae",
+      "nom.pl": "avenae",
+      "gen.pl": "avenarum",
+      "dat.pl": "avenis",
+      "abl.pl": "avenis",
+      "acc.pl": "avenas"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lemma": "conjunx",
+  "pos": "noun",
+  "glosses": [
+    "spouse/mate/consort",
+    "husband/wife/bride/fiancee/intended",
+    "concubine",
+    "yokemate"
+  ],
+  "reviewed": false,
+  "head": "conjunx, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "conjugem",
+      "gen.pl": "conjugum",
+      "acc.pl": "conjugis",
+      "nom.sg": "conjunx",
+      "gen.sg": "conjugis",
+      "dat.sg": "conjugi",
+      "abl.sg": "conjuge",
+      "nom.pl": "conjuges",
+      "dat.pl": "conjugibus",
+      "abl.pl": "conjugibus"
+    }
+  }
+}

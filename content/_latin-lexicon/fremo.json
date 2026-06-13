@@ -1,0 +1,42 @@
+{
+  "lemma": "fremo",
+  "pos": "verb",
+  "glosses": [
+    "roar",
+    "growl",
+    "rage",
+    "murmur, clamor for"
+  ],
+  "reviewed": false,
+  "head": "fremo, fremere, fremui, fremitum",
+  "principal_parts": [
+    "fremo",
+    "fremere",
+    "fremui",
+    "fremitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "fremis",
+      "3sg.pres.ind.act": "fremit",
+      "1pl.pres.ind.act": "fremimus",
+      "2pl.pres.ind.act": "fremitis",
+      "2sg.pres.imp.act": "freme",
+      "2pl.pres.imp.act": "fremite"
+    }
+  }
+}

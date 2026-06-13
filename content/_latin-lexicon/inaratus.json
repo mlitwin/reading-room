@@ -1,0 +1,53 @@
+{
+  "lemma": "inaratus",
+  "pos": "adj",
+  "glosses": [
+    "unplowed, untilled"
+  ],
+  "reviewed": false,
+  "head": "inaratus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "inaratus",
+      "gen.sg.masc": "inarati",
+      "dat.sg.masc": "inarato",
+      "gen.sg.fem": "inaratae",
+      "dat.sg.fem": "inaratae",
+      "nom.sg.neut": "inaratum",
+      "gen.sg.neut": "inarati",
+      "dat.sg.neut": "inarato",
+      "acc.sg.neut": "inaratum",
+      "acc.sg.masc": "inaratum",
+      "abl.sg.masc": "inarato",
+      "nom.pl.masc": "inarati",
+      "gen.pl.masc": "inaratorum",
+      "acc.pl.masc": "inaratos",
+      "nom.sg.fem": "inarata",
+      "acc.sg.fem": "inaratam",
+      "abl.sg.fem": "inarata",
+      "nom.pl.fem": "inaratae",
+      "gen.pl.fem": "inaratarum",
+      "acc.pl.fem": "inaratas",
+      "abl.sg.neut": "inarato",
+      "nom.pl.neut": "inarata",
+      "gen.pl.neut": "inaratorum",
+      "acc.pl.neut": "inarata"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "lemma": "verecundus",
+  "pos": "adj",
+  "glosses": [
+    "modest"
+  ],
+  "reviewed": false,
+  "head": "verecundus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "verecundus",
+      "gen.sg.masc": "verecundi",
+      "dat.sg.masc": "verecundo",
+      "gen.sg.fem": "verecundae",
+      "dat.sg.fem": "verecundae",
+      "nom.sg.neut": "verecundum",
+      "gen.sg.neut": "verecundi",
+      "dat.sg.neut": "verecundo",
+      "acc.sg.neut": "verecundum",
+      "acc.sg.masc": "verecundum",
+      "abl.sg.masc": "verecundo",
+      "nom.pl.masc": "verecundi",
+      "gen.pl.masc": "verecundorum",
+      "acc.pl.masc": "verecundos",
+      "nom.sg.fem": "verecunda",
+      "acc.sg.fem": "verecundam",
+      "abl.sg.fem": "verecunda",
+      "nom.pl.fem": "verecundae",
+      "gen.pl.fem": "verecundarum",
+      "acc.pl.fem": "verecundas",
+      "abl.sg.neut": "verecundo",
+      "nom.pl.neut": "verecunda",
+      "gen.pl.neut": "verecundorum",
+      "acc.pl.neut": "verecunda"
+    }
+  }
+}

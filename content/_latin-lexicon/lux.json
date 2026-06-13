@@ -1,0 +1,39 @@
+{
+  "lemma": "lux",
+  "pos": "noun",
+  "glosses": [
+    "light, daylight, light of day",
+    "life",
+    "world",
+    "day",
+    "[prima luce => at daybreak]"
+  ],
+  "reviewed": false,
+  "head": "lux, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "lucem",
+      "gen.pl": "lucum",
+      "acc.pl": "lucis",
+      "nom.sg": "lux",
+      "gen.sg": "lucis",
+      "dat.sg": "luci",
+      "abl.sg": "luce",
+      "nom.pl": "luces",
+      "dat.pl": "lucibus",
+      "abl.pl": "lucibus"
+    }
+  }
+}

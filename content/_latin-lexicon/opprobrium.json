@@ -1,0 +1,37 @@
+{
+  "lemma": "opprobrium",
+  "pos": "noun",
+  "glosses": [
+    "reproach, taunt",
+    "disgrace, shame, scandal",
+    "source of reproach/shame"
+  ],
+  "reviewed": false,
+  "head": "opprobrium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "opprobrium",
+      "gen.sg": "opprobrii",
+      "acc.sg": "opprobrium",
+      "dat.sg": "opprobrio",
+      "abl.sg": "opprobrio",
+      "gen.pl": "opprobriorum",
+      "dat.pl": "opprobriis",
+      "abl.pl": "opprobriis",
+      "nom.pl": "opprobria",
+      "acc.pl": "opprobria"
+    }
+  }
+}

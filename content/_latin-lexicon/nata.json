@@ -1,0 +1,36 @@
+{
+  "lemma": "nata",
+  "pos": "noun",
+  "glosses": [
+    "daughter",
+    "child"
+  ],
+  "reviewed": false,
+  "head": "nata, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nata",
+      "gen.sg": "natae",
+      "abl.sg": "nata",
+      "acc.sg": "natam",
+      "dat.sg": "natae",
+      "nom.pl": "natae",
+      "gen.pl": "natarum",
+      "dat.pl": "natis",
+      "abl.pl": "natis",
+      "acc.pl": "natas"
+    }
+  }
+}

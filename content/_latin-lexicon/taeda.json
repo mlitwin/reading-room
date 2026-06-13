@@ -1,0 +1,35 @@
+{
+  "lemma": "taeda",
+  "pos": "noun",
+  "glosses": [
+    "pine torch"
+  ],
+  "reviewed": false,
+  "head": "taeda, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "taeda",
+      "gen.sg": "taedae",
+      "abl.sg": "taeda",
+      "acc.sg": "taedam",
+      "dat.sg": "taedae",
+      "nom.pl": "taedae",
+      "gen.pl": "taedarum",
+      "dat.pl": "taedis",
+      "abl.pl": "taedis",
+      "acc.pl": "taedas"
+    }
+  }
+}

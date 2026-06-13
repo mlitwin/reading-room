@@ -1,0 +1,38 @@
+{
+  "lemma": "stipula",
+  "pos": "noun",
+  "glosses": [
+    "stalk",
+    "stubble",
+    "straw",
+    "reed played on as a pipe"
+  ],
+  "reviewed": false,
+  "head": "stipula, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "stipula",
+      "gen.sg": "stipulae",
+      "abl.sg": "stipula",
+      "acc.sg": "stipulam",
+      "dat.sg": "stipulae",
+      "nom.pl": "stipulae",
+      "gen.pl": "stipularum",
+      "dat.pl": "stipulis",
+      "abl.pl": "stipulis",
+      "acc.pl": "stipulas"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "lemma": "rapidus",
+  "pos": "adj",
+  "glosses": [
+    "rapid, swift"
+  ],
+  "reviewed": false,
+  "head": "rapidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "rapidus",
+      "gen.sg.masc": "rapidi",
+      "dat.sg.masc": "rapido",
+      "gen.sg.fem": "rapidae",
+      "dat.sg.fem": "rapidae",
+      "nom.sg.neut": "rapidum",
+      "gen.sg.neut": "rapidi",
+      "dat.sg.neut": "rapido",
+      "acc.sg.neut": "rapidum",
+      "acc.sg.masc": "rapidum",
+      "abl.sg.masc": "rapido",
+      "nom.pl.masc": "rapidi",
+      "gen.pl.masc": "rapidorum",
+      "acc.pl.masc": "rapidos",
+      "nom.sg.fem": "rapida",
+      "acc.sg.fem": "rapidam",
+      "abl.sg.fem": "rapida",
+      "nom.pl.fem": "rapidae",
+      "gen.pl.fem": "rapidarum",
+      "acc.pl.fem": "rapidas",
+      "abl.sg.neut": "rapido",
+      "nom.pl.neut": "rapida",
+      "gen.pl.neut": "rapidorum",
+      "acc.pl.neut": "rapida"
+    }
+  }
+}

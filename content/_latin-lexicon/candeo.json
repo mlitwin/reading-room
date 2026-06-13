@@ -1,0 +1,43 @@
+{
+  "lemma": "candeo",
+  "pos": "verb",
+  "glosses": [
+    "be of brilliant whiteness, shine, gleam (white)",
+    "become/be hot",
+    "glow, sparkle"
+  ],
+  "reviewed": false,
+  "head": "candeo, candere, candui, -um",
+  "principal_parts": [
+    "candeo",
+    "candere",
+    "candui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "candeo",
+      "2sg.pres.ind.act": "candes",
+      "3sg.pres.ind.act": "candet",
+      "1pl.pres.ind.act": "candemus",
+      "2pl.pres.ind.act": "candetis",
+      "3pl.pres.ind.act": "candent",
+      "2sg.pres.imp.act": "cande",
+      "2pl.pres.imp.act": "candete"
+    }
+  }
+}

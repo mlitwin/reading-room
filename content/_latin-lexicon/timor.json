@@ -1,0 +1,36 @@
+{
+  "lemma": "timor",
+  "pos": "noun",
+  "glosses": [
+    "fear",
+    "dread"
+  ],
+  "reviewed": false,
+  "head": "timor, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "timorem",
+      "gen.pl": "timorum",
+      "acc.pl": "timoris",
+      "nom.sg": "timor",
+      "gen.sg": "timoris",
+      "dat.sg": "timori",
+      "abl.sg": "timore",
+      "nom.pl": "timores",
+      "dat.pl": "timoribus",
+      "abl.pl": "timoribus"
+    }
+  }
+}

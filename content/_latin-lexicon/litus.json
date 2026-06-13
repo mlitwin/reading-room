@@ -1,0 +1,37 @@
+{
+  "lemma": "litus",
+  "pos": "noun",
+  "glosses": [
+    "shore, seashore, coast, strand",
+    "river bank",
+    "beach, landing place"
+  ],
+  "reviewed": false,
+  "head": "litus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "litore",
+      "acc.sg": "litus",
+      "nom.pl": "litora",
+      "gen.pl": "litorum",
+      "acc.pl": "litora",
+      "nom.sg": "litus",
+      "gen.sg": "litoris",
+      "dat.sg": "litori",
+      "dat.pl": "litoribus",
+      "abl.pl": "litoribus"
+    }
+  }
+}

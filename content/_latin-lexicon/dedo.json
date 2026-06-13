@@ -1,0 +1,41 @@
+{
+  "lemma": "dedo",
+  "pos": "verb",
+  "glosses": [
+    "give up/in, surrender",
+    "abandon/consign/devote (to)",
+    "yield, hand/deliver over"
+  ],
+  "reviewed": false,
+  "head": "dedo, dedere, dedidi, deditum",
+  "principal_parts": [
+    "dedo",
+    "dedere",
+    "dedidi",
+    "deditum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "dedis",
+      "3sg.pres.ind.act": "dedit",
+      "1pl.pres.ind.act": "dedimus",
+      "2pl.pres.ind.act": "deditis",
+      "2sg.pres.imp.act": "dede",
+      "2pl.pres.imp.act": "dedite"
+    }
+  }
+}

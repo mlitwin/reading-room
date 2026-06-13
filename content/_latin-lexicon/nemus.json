@@ -1,0 +1,35 @@
+{
+  "lemma": "nemus",
+  "pos": "noun",
+  "glosses": [
+    "wood, forest"
+  ],
+  "reviewed": false,
+  "head": "nemus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "nemore",
+      "acc.sg": "nemus",
+      "nom.pl": "nemora",
+      "gen.pl": "nemorum",
+      "acc.pl": "nemora",
+      "nom.sg": "nemus",
+      "gen.sg": "nemoris",
+      "dat.sg": "nemori",
+      "dat.pl": "nemoribus",
+      "abl.pl": "nemoribus"
+    }
+  }
+}

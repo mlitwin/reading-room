@@ -1,0 +1,36 @@
+{
+  "lemma": "nox",
+  "pos": "noun",
+  "glosses": [
+    "night [prima nocte => early in the night",
+    "multa nocte => late at night]"
+  ],
+  "reviewed": false,
+  "head": "nox, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "nocti",
+      "acc.sg": "noctem",
+      "nom.pl": "noctis",
+      "gen.pl": "noctium",
+      "acc.pl": "noctis",
+      "nom.sg": "nox",
+      "gen.sg": "noctis",
+      "dat.sg": "nocti",
+      "dat.pl": "noctibus",
+      "abl.pl": "noctibus"
+    }
+  }
+}

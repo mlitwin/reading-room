@@ -1,0 +1,58 @@
+{
+  "lemma": "celsus",
+  "pos": "adj",
+  "glosses": [
+    "high, lofty, tall",
+    "haughty",
+    "arrogant/proud",
+    "prominent, elevated",
+    "erect",
+    "noble"
+  ],
+  "reviewed": false,
+  "head": "celsus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "celsus",
+      "gen.sg.masc": "celsi",
+      "dat.sg.masc": "celso",
+      "gen.sg.fem": "celsae",
+      "dat.sg.fem": "celsae",
+      "nom.sg.neut": "celsum",
+      "gen.sg.neut": "celsi",
+      "dat.sg.neut": "celso",
+      "acc.sg.neut": "celsum",
+      "acc.sg.masc": "celsum",
+      "abl.sg.masc": "celso",
+      "nom.pl.masc": "celsi",
+      "gen.pl.masc": "celsorum",
+      "acc.pl.masc": "celsos",
+      "nom.sg.fem": "celsa",
+      "acc.sg.fem": "celsam",
+      "abl.sg.fem": "celsa",
+      "nom.pl.fem": "celsae",
+      "gen.pl.fem": "celsarum",
+      "acc.pl.fem": "celsas",
+      "abl.sg.neut": "celso",
+      "nom.pl.neut": "celsa",
+      "gen.pl.neut": "celsorum",
+      "acc.pl.neut": "celsa"
+    }
+  }
+}

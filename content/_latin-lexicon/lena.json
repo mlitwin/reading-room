@@ -1,0 +1,36 @@
+{
+  "lemma": "lena",
+  "pos": "noun",
+  "glosses": [
+    "procuress",
+    "brothel-keeper"
+  ],
+  "reviewed": false,
+  "head": "lena, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lena",
+      "gen.sg": "lenae",
+      "abl.sg": "lena",
+      "acc.sg": "lenam",
+      "dat.sg": "lenae",
+      "nom.pl": "lenae",
+      "gen.pl": "lenarum",
+      "dat.pl": "lenis",
+      "abl.pl": "lenis",
+      "acc.pl": "lenas"
+    }
+  }
+}

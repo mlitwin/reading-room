@@ -1,0 +1,35 @@
+{
+  "lemma": "valles",
+  "pos": "noun",
+  "glosses": [
+    "valley, vale, hollow"
+  ],
+  "reviewed": false,
+  "head": "valles, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "valli",
+      "acc.sg": "vallem",
+      "nom.pl": "vallis",
+      "gen.pl": "vallium",
+      "acc.pl": "vallis",
+      "nom.sg": "valles",
+      "gen.sg": "vallis",
+      "dat.sg": "valli",
+      "dat.pl": "vallibus",
+      "abl.pl": "vallibus"
+    }
+  }
+}

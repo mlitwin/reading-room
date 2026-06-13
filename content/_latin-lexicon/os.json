@@ -1,0 +1,37 @@
+{
+  "lemma": "os",
+  "pos": "noun",
+  "glosses": [
+    "mouth, speech, expression",
+    "face",
+    "pronunciation"
+  ],
+  "reviewed": false,
+  "head": "os, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "ore",
+      "acc.sg": "os",
+      "nom.pl": "ora",
+      "gen.pl": "orum",
+      "acc.pl": "ora",
+      "nom.sg": "os",
+      "gen.sg": "oris",
+      "dat.sg": "ori",
+      "dat.pl": "oribus",
+      "abl.pl": "oribus"
+    }
+  }
+}

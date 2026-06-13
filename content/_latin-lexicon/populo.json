@@ -1,0 +1,43 @@
+{
+  "lemma": "populo",
+  "pos": "verb",
+  "glosses": [
+    "ravage, devastate, lay waste",
+    "plunder",
+    "despoil, strip"
+  ],
+  "reviewed": false,
+  "head": "populo, populare, populavi, populatum",
+  "principal_parts": [
+    "populo",
+    "populare",
+    "populavi",
+    "populatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "populo",
+      "2sg.pres.ind.act": "populas",
+      "3sg.pres.ind.act": "populat",
+      "1pl.pres.ind.act": "populamus",
+      "2pl.pres.ind.act": "populatis",
+      "3pl.pres.ind.act": "populant",
+      "2sg.pres.imp.act": "popula",
+      "2pl.pres.imp.act": "populate"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lemma": "consisto",
+  "pos": "verb",
+  "glosses": [
+    "stop/stand/halt/cease",
+    "pause, linger",
+    "stop spreading/flowing",
+    "take a position",
+    "stand together/fast",
+    "consist of/be reckoned in"
+  ],
+  "reviewed": false,
+  "head": "consisto, consistere, constiti, constitum",
+  "principal_parts": [
+    "consisto",
+    "consistere",
+    "constiti",
+    "constitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "consistis",
+      "3sg.pres.ind.act": "consistit",
+      "1pl.pres.ind.act": "consistimus",
+      "2pl.pres.ind.act": "consistitis",
+      "2sg.pres.imp.act": "consiste",
+      "2pl.pres.imp.act": "consistite"
+    }
+  }
+}

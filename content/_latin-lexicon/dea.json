@@ -1,0 +1,35 @@
+{
+  "lemma": "dea",
+  "pos": "noun",
+  "glosses": [
+    "goddess"
+  ],
+  "reviewed": false,
+  "head": "dea, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "dea",
+      "gen.sg": "deae",
+      "abl.sg": "dea",
+      "acc.sg": "deam",
+      "dat.sg": "deae",
+      "nom.pl": "deae",
+      "gen.pl": "dearum",
+      "dat.pl": "deis",
+      "abl.pl": "deis",
+      "acc.pl": "deas"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lemma": "antrum",
+  "pos": "noun",
+  "glosses": [
+    "cave",
+    "cavern",
+    "hollow place with overarching foliage",
+    "cavity, hollow",
+    "tomb"
+  ],
+  "reviewed": false,
+  "head": "antrum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "antrum",
+      "gen.sg": "antri",
+      "acc.sg": "antrum",
+      "dat.sg": "antro",
+      "abl.sg": "antro",
+      "gen.pl": "antrorum",
+      "dat.pl": "antris",
+      "abl.pl": "antris",
+      "nom.pl": "antra",
+      "acc.pl": "antra"
+    }
+  }
+}

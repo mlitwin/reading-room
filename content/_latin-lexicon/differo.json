@@ -1,0 +1,44 @@
+{
+  "lemma": "differo",
+  "pos": "verb",
+  "glosses": [
+    "postpone/delay/differ",
+    "put off, keep waiting",
+    "give respite to",
+    "differ, disagree",
+    "spread abroad",
+    "scatter/disperse"
+  ],
+  "reviewed": false,
+  "head": "differo, differere, distuli, dilatum",
+  "principal_parts": [
+    "differo",
+    "differere",
+    "distuli",
+    "dilatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "differs",
+      "3sg.pres.ind.act": "differt",
+      "1pl.pres.ind.act": "differimus",
+      "2pl.pres.ind.act": "differtis",
+      "2sg.pres.imp.act": "differ",
+      "2pl.pres.imp.act": "differte"
+    }
+  }
+}

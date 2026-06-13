@@ -1,0 +1,35 @@
+{
+  "lemma": "daphne",
+  "pos": "noun",
+  "glosses": [
+    "precious stone (unidentified)"
+  ],
+  "reviewed": false,
+  "head": "daphne, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "daphnea",
+      "gen.sg": "daphneae",
+      "acc.sg": "daphnean",
+      "abl.sg": "daphnea",
+      "dat.sg": "daphneae",
+      "nom.pl": "daphneae",
+      "gen.pl": "daphnearum",
+      "dat.pl": "daphneis",
+      "abl.pl": "daphneis",
+      "acc.pl": "daphneas"
+    }
+  }
+}

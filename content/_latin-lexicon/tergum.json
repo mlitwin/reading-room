@@ -1,0 +1,38 @@
+{
+  "lemma": "tergum",
+  "pos": "noun",
+  "glosses": [
+    "back, rear",
+    "reverse/far side",
+    "outer covering/surface",
+    "[terga vertere => flee]"
+  ],
+  "reviewed": false,
+  "head": "tergum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "tergum",
+      "gen.sg": "tergi",
+      "acc.sg": "tergum",
+      "dat.sg": "tergo",
+      "abl.sg": "tergo",
+      "gen.pl": "tergorum",
+      "dat.pl": "tergis",
+      "abl.pl": "tergis",
+      "nom.pl": "terga",
+      "acc.pl": "terga"
+    }
+  }
+}

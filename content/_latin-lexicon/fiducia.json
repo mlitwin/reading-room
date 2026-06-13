@@ -1,0 +1,37 @@
+{
+  "lemma": "fiducia",
+  "pos": "noun",
+  "glosses": [
+    "trust, confidence",
+    "faith, reliance",
+    "courage"
+  ],
+  "reviewed": false,
+  "head": "fiducia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fiducia",
+      "gen.sg": "fiduciae",
+      "abl.sg": "fiducia",
+      "acc.sg": "fiduciam",
+      "dat.sg": "fiduciae",
+      "nom.pl": "fiduciae",
+      "gen.pl": "fiduciarum",
+      "dat.pl": "fiduciis",
+      "abl.pl": "fiduciis",
+      "acc.pl": "fiducias"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "lemma": "horrifer",
+  "pos": "adj",
+  "glosses": [
+    "awful, horrible, dreadful",
+    "frightening, chilling, exciting terror"
+  ],
+  "reviewed": false,
+  "head": "horrifer, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "horrifer",
+      "gen.sg.masc": "horriferi",
+      "dat.sg.masc": "horrifero",
+      "gen.sg.fem": "horriferae",
+      "dat.sg.fem": "horriferae",
+      "nom.sg.neut": "horriferum",
+      "gen.sg.neut": "horriferi",
+      "dat.sg.neut": "horrifero",
+      "acc.sg.neut": "horriferum",
+      "acc.sg.masc": "horriferum",
+      "abl.sg.masc": "horrifero",
+      "nom.pl.masc": "horriferi",
+      "gen.pl.masc": "horriferorum",
+      "acc.pl.masc": "horriferos",
+      "nom.sg.fem": "horrifera",
+      "acc.sg.fem": "horriferam",
+      "abl.sg.fem": "horrifera",
+      "nom.pl.fem": "horriferae",
+      "gen.pl.fem": "horriferarum",
+      "acc.pl.fem": "horriferas",
+      "abl.sg.neut": "horrifero",
+      "nom.pl.neut": "horrifera",
+      "gen.pl.neut": "horriferorum",
+      "acc.pl.neut": "horrifera"
+    }
+  }
+}

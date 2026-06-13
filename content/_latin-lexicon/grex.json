@@ -1,0 +1,39 @@
+{
+  "lemma": "grex",
+  "pos": "noun",
+  "glosses": [
+    "flock, herd",
+    "crowd",
+    "company, crew",
+    "people/animals assembled",
+    "set/faction/class"
+  ],
+  "reviewed": false,
+  "head": "grex, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "gregem",
+      "gen.pl": "gregum",
+      "acc.pl": "gregis",
+      "nom.sg": "grex",
+      "gen.sg": "gregis",
+      "dat.sg": "gregi",
+      "abl.sg": "grege",
+      "nom.pl": "greges",
+      "dat.pl": "gregibus",
+      "abl.pl": "gregibus"
+    }
+  }
+}

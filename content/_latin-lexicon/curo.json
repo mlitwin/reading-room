@@ -1,0 +1,46 @@
+{
+  "lemma": "curo",
+  "pos": "verb",
+  "glosses": [
+    "arrange/see/attend to",
+    "take care of",
+    "provide for",
+    "worry/care about",
+    "heal/cure",
+    "undertake"
+  ],
+  "reviewed": false,
+  "head": "curo, curare, curavi, curatum",
+  "principal_parts": [
+    "curo",
+    "curare",
+    "curavi",
+    "curatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "curo",
+      "2sg.pres.ind.act": "curas",
+      "3sg.pres.ind.act": "curat",
+      "1pl.pres.ind.act": "curamus",
+      "2pl.pres.ind.act": "curatis",
+      "3pl.pres.ind.act": "curant",
+      "2sg.pres.imp.act": "cura",
+      "2pl.pres.imp.act": "curate"
+    }
+  }
+}

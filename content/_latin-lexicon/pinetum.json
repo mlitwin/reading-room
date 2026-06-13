@@ -1,0 +1,35 @@
+{
+  "lemma": "pinetum",
+  "pos": "noun",
+  "glosses": [
+    "pine-wood"
+  ],
+  "reviewed": false,
+  "head": "pinetum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pinetum",
+      "gen.sg": "pineti",
+      "acc.sg": "pinetum",
+      "dat.sg": "pineto",
+      "abl.sg": "pineto",
+      "gen.pl": "pinetorum",
+      "dat.pl": "pinetis",
+      "abl.pl": "pinetis",
+      "nom.pl": "pineta",
+      "acc.pl": "pineta"
+    }
+  }
+}

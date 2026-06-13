@@ -1,0 +1,53 @@
+{
+  "lemma": "terrificus",
+  "pos": "adj",
+  "glosses": [
+    "terrifying, awe inspiring"
+  ],
+  "reviewed": false,
+  "head": "terrificus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "terrificus",
+      "gen.sg.masc": "terrifici",
+      "dat.sg.masc": "terrifico",
+      "gen.sg.fem": "terrificae",
+      "dat.sg.fem": "terrificae",
+      "nom.sg.neut": "terrificum",
+      "gen.sg.neut": "terrifici",
+      "dat.sg.neut": "terrifico",
+      "acc.sg.neut": "terrificum",
+      "acc.sg.masc": "terrificum",
+      "abl.sg.masc": "terrifico",
+      "nom.pl.masc": "terrifici",
+      "gen.pl.masc": "terrificorum",
+      "acc.pl.masc": "terrificos",
+      "nom.sg.fem": "terrifica",
+      "acc.sg.fem": "terrificam",
+      "abl.sg.fem": "terrifica",
+      "nom.pl.fem": "terrificae",
+      "gen.pl.fem": "terrificarum",
+      "acc.pl.fem": "terrificas",
+      "abl.sg.neut": "terrifico",
+      "nom.pl.neut": "terrifica",
+      "gen.pl.neut": "terrificorum",
+      "acc.pl.neut": "terrifica"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "fera",
+  "pos": "noun",
+  "glosses": [
+    "wild beast/animal"
+  ],
+  "reviewed": false,
+  "head": "fera, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fera",
+      "gen.sg": "ferae",
+      "abl.sg": "fera",
+      "acc.sg": "feram",
+      "dat.sg": "ferae",
+      "nom.pl": "ferae",
+      "gen.pl": "ferarum",
+      "dat.pl": "feris",
+      "abl.pl": "feris",
+      "acc.pl": "feras"
+    }
+  }
+}

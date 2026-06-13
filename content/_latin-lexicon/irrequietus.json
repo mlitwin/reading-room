@@ -1,0 +1,55 @@
+{
+  "lemma": "irrequietus",
+  "pos": "adj",
+  "glosses": [
+    "unquiet",
+    "restless",
+    "disquieting"
+  ],
+  "reviewed": false,
+  "head": "irrequietus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "irrequietus",
+      "gen.sg.masc": "irrequieti",
+      "dat.sg.masc": "irrequieto",
+      "gen.sg.fem": "irrequietae",
+      "dat.sg.fem": "irrequietae",
+      "nom.sg.neut": "irrequietum",
+      "gen.sg.neut": "irrequieti",
+      "dat.sg.neut": "irrequieto",
+      "acc.sg.neut": "irrequietum",
+      "acc.sg.masc": "irrequietum",
+      "abl.sg.masc": "irrequieto",
+      "nom.pl.masc": "irrequieti",
+      "gen.pl.masc": "irrequietorum",
+      "acc.pl.masc": "irrequietos",
+      "nom.sg.fem": "irrequieta",
+      "acc.sg.fem": "irrequietam",
+      "abl.sg.fem": "irrequieta",
+      "nom.pl.fem": "irrequietae",
+      "gen.pl.fem": "irrequietarum",
+      "acc.pl.fem": "irrequietas",
+      "abl.sg.neut": "irrequieto",
+      "nom.pl.neut": "irrequieta",
+      "gen.pl.neut": "irrequietorum",
+      "acc.pl.neut": "irrequieta"
+    }
+  }
+}

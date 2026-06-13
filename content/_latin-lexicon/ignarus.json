@@ -1,0 +1,56 @@
+{
+  "lemma": "ignarus",
+  "pos": "adj",
+  "glosses": [
+    "ignorant",
+    "unaware, having no experience of",
+    "senseless",
+    "strange"
+  ],
+  "reviewed": false,
+  "head": "ignarus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "ignarus",
+      "gen.sg.masc": "ignari",
+      "dat.sg.masc": "ignaro",
+      "gen.sg.fem": "ignarae",
+      "dat.sg.fem": "ignarae",
+      "nom.sg.neut": "ignarum",
+      "gen.sg.neut": "ignari",
+      "dat.sg.neut": "ignaro",
+      "acc.sg.neut": "ignarum",
+      "acc.sg.masc": "ignarum",
+      "abl.sg.masc": "ignaro",
+      "nom.pl.masc": "ignari",
+      "gen.pl.masc": "ignarorum",
+      "acc.pl.masc": "ignaros",
+      "nom.sg.fem": "ignara",
+      "acc.sg.fem": "ignaram",
+      "abl.sg.fem": "ignara",
+      "nom.pl.fem": "ignarae",
+      "gen.pl.fem": "ignararum",
+      "acc.pl.fem": "ignaras",
+      "abl.sg.neut": "ignaro",
+      "nom.pl.neut": "ignara",
+      "gen.pl.neut": "ignarorum",
+      "acc.pl.neut": "ignara"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "lemma": "oraculum",
+  "pos": "noun",
+  "glosses": [
+    "oracle (place/agency/mouthpiece)",
+    "prophecy",
+    "oracular saying/precept/maxim"
+  ],
+  "reviewed": false,
+  "head": "oraculum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "oraculum",
+      "gen.sg": "oraculi",
+      "acc.sg": "oraculum",
+      "dat.sg": "oraculo",
+      "abl.sg": "oraculo",
+      "gen.pl": "oraculorum",
+      "dat.pl": "oraculis",
+      "abl.pl": "oraculis",
+      "nom.pl": "oracula",
+      "acc.pl": "oracula"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "lemma": "terrenus",
+  "pos": "adj",
+  "glosses": [
+    "of earth, earthly",
+    "earthy",
+    "terrestrial"
+  ],
+  "reviewed": false,
+  "head": "terrenus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "terrenus",
+      "gen.sg.masc": "terreni",
+      "dat.sg.masc": "terreno",
+      "gen.sg.fem": "terrenae",
+      "dat.sg.fem": "terrenae",
+      "nom.sg.neut": "terrenum",
+      "gen.sg.neut": "terreni",
+      "dat.sg.neut": "terreno",
+      "acc.sg.neut": "terrenum",
+      "acc.sg.masc": "terrenum",
+      "abl.sg.masc": "terreno",
+      "nom.pl.masc": "terreni",
+      "gen.pl.masc": "terrenorum",
+      "acc.pl.masc": "terrenos",
+      "nom.sg.fem": "terrena",
+      "acc.sg.fem": "terrenam",
+      "abl.sg.fem": "terrena",
+      "nom.pl.fem": "terrenae",
+      "gen.pl.fem": "terrenarum",
+      "acc.pl.fem": "terrenas",
+      "abl.sg.neut": "terreno",
+      "nom.pl.neut": "terrena",
+      "gen.pl.neut": "terrenorum",
+      "acc.pl.neut": "terrena"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lemma": "cacumen",
+  "pos": "noun",
+  "glosses": [
+    "top, peak, summit",
+    "shoot, blade of grass, tip of tree/branch",
+    "zenith",
+    "limit"
+  ],
+  "reviewed": false,
+  "head": "cacumen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "cacumine",
+      "acc.sg": "cacumen",
+      "nom.pl": "cacumina",
+      "gen.pl": "cacuminum",
+      "acc.pl": "cacumina",
+      "nom.sg": "cacumen",
+      "gen.sg": "cacuminis",
+      "dat.sg": "cacumini",
+      "dat.pl": "cacuminibus",
+      "abl.pl": "cacuminibus"
+    }
+  }
+}

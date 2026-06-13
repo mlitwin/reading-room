@@ -1,0 +1,38 @@
+{
+  "lemma": "suboles",
+  "pos": "noun",
+  "glosses": [
+    "shoot, sucker",
+    "race",
+    "offspring",
+    "progeny"
+  ],
+  "reviewed": false,
+  "head": "suboles, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "suboli",
+      "acc.sg": "subolem",
+      "nom.pl": "subolis",
+      "gen.pl": "subolium",
+      "acc.pl": "subolis",
+      "nom.sg": "suboles",
+      "gen.sg": "subolis",
+      "dat.sg": "suboli",
+      "dat.pl": "subolibus",
+      "abl.pl": "subolibus"
+    }
+  }
+}

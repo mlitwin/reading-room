@@ -1,0 +1,55 @@
+{
+  "lemma": "flavus",
+  "pos": "adj",
+  "glosses": [
+    "yellow, golden, gold colored",
+    "flaxen, blond",
+    "golden-haired (Latham)"
+  ],
+  "reviewed": false,
+  "head": "flavus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "flavus",
+      "gen.sg.masc": "flavi",
+      "dat.sg.masc": "flavo",
+      "gen.sg.fem": "flavae",
+      "dat.sg.fem": "flavae",
+      "nom.sg.neut": "flavum",
+      "gen.sg.neut": "flavi",
+      "dat.sg.neut": "flavo",
+      "acc.sg.neut": "flavum",
+      "acc.sg.masc": "flavum",
+      "abl.sg.masc": "flavo",
+      "nom.pl.masc": "flavi",
+      "gen.pl.masc": "flavorum",
+      "acc.pl.masc": "flavos",
+      "nom.sg.fem": "flava",
+      "acc.sg.fem": "flavam",
+      "abl.sg.fem": "flava",
+      "nom.pl.fem": "flavae",
+      "gen.pl.fem": "flavarum",
+      "acc.pl.fem": "flavas",
+      "abl.sg.neut": "flavo",
+      "nom.pl.neut": "flava",
+      "gen.pl.neut": "flavorum",
+      "acc.pl.neut": "flava"
+    }
+  }
+}

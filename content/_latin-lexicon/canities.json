@@ -1,0 +1,37 @@
+{
+  "lemma": "canities",
+  "pos": "noun",
+  "glosses": [
+    "white/gray coloring/deposit",
+    "gray/white hair, grayness of hair",
+    "old age"
+  ],
+  "reviewed": false,
+  "head": "canities, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "canities",
+      "gen.sg": "canitiei",
+      "dat.sg": "canitiei",
+      "abl.sg": "canitie",
+      "acc.sg": "canitiem",
+      "nom.pl": "canities",
+      "gen.pl": "canitierum",
+      "dat.pl": "canitiebus",
+      "abl.pl": "canitiebus",
+      "acc.pl": "canities"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "cura",
+  "pos": "noun",
+  "glosses": [
+    "concern, worry, anxiety, trouble",
+    "attention, care, pains, zeal",
+    "cure, treatment",
+    "office/task/responsibility/post",
+    "administration, supervision",
+    "command (army)"
+  ],
+  "reviewed": false,
+  "head": "cura, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cura",
+      "gen.sg": "curae",
+      "abl.sg": "cura",
+      "acc.sg": "curam",
+      "dat.sg": "curae",
+      "nom.pl": "curae",
+      "gen.pl": "curarum",
+      "dat.pl": "curis",
+      "abl.pl": "curis",
+      "acc.pl": "curas"
+    }
+  }
+}

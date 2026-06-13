@@ -1,0 +1,35 @@
+{
+  "lemma": "adjutus",
+  "pos": "noun",
+  "glosses": [
+    "help, aid"
+  ],
+  "reviewed": false,
+  "head": "adjutus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "adjutus",
+      "gen.sg": "adjutus",
+      "dat.sg": "adjutui",
+      "acc.sg": "adjutum",
+      "nom.pl": "adjutus",
+      "acc.pl": "adjutus",
+      "abl.sg": "adjutu",
+      "gen.pl": "adjutuum",
+      "dat.pl": "adjutibus",
+      "abl.pl": "adjutibus"
+    }
+  }
+}

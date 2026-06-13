@@ -1,0 +1,37 @@
+{
+  "lemma": "requies",
+  "pos": "noun",
+  "glosses": [
+    "rest (from labor), respite",
+    "intermission, pause, break",
+    "amusement, hobby"
+  ],
+  "reviewed": false,
+  "head": "requies, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "requies",
+      "gen.sg": "requiei",
+      "dat.sg": "requiei",
+      "abl.sg": "requie",
+      "acc.sg": "requiem",
+      "nom.pl": "requies",
+      "gen.pl": "requierum",
+      "dat.pl": "requiebus",
+      "abl.pl": "requiebus",
+      "acc.pl": "requies"
+    }
+  }
+}

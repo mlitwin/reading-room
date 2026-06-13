@@ -1,0 +1,40 @@
+{
+  "lemma": "vincio",
+  "pos": "verb",
+  "glosses": [
+    "bind, fetter",
+    "restrain"
+  ],
+  "reviewed": false,
+  "head": "vincio, vincere, vinxi, vinctum",
+  "principal_parts": [
+    "vincio",
+    "vincere",
+    "vinxi",
+    "vinctum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "vincis",
+      "3sg.pres.ind.act": "vincit",
+      "1pl.pres.ind.act": "vincimus",
+      "2pl.pres.ind.act": "vincitis",
+      "2sg.pres.imp.act": "vinci",
+      "2pl.pres.imp.act": "vincite"
+    }
+  }
+}

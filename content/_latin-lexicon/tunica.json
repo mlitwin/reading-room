@@ -1,0 +1,35 @@
+{
+  "lemma": "tunica",
+  "pos": "noun",
+  "glosses": [
+    "undergarment, shirt,tunic"
+  ],
+  "reviewed": false,
+  "head": "tunica, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "tunica",
+      "gen.sg": "tunicae",
+      "abl.sg": "tunica",
+      "acc.sg": "tunicam",
+      "dat.sg": "tunicae",
+      "nom.pl": "tunicae",
+      "gen.pl": "tunicarum",
+      "dat.pl": "tunicis",
+      "abl.pl": "tunicis",
+      "acc.pl": "tunicas"
+    }
+  }
+}

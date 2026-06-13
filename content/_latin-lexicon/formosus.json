@@ -1,0 +1,54 @@
+{
+  "lemma": "formosus",
+  "pos": "adj",
+  "glosses": [
+    "beautiful, finely formed, handsome, fair",
+    "having fine appearance/form"
+  ],
+  "reviewed": false,
+  "head": "formosus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "formosus",
+      "gen.sg.masc": "formosi",
+      "dat.sg.masc": "formoso",
+      "gen.sg.fem": "formosae",
+      "dat.sg.fem": "formosae",
+      "nom.sg.neut": "formosum",
+      "gen.sg.neut": "formosi",
+      "dat.sg.neut": "formoso",
+      "acc.sg.neut": "formosum",
+      "acc.sg.masc": "formosum",
+      "abl.sg.masc": "formoso",
+      "nom.pl.masc": "formosi",
+      "gen.pl.masc": "formosorum",
+      "acc.pl.masc": "formosos",
+      "nom.sg.fem": "formosa",
+      "acc.sg.fem": "formosam",
+      "abl.sg.fem": "formosa",
+      "nom.pl.fem": "formosae",
+      "gen.pl.fem": "formosarum",
+      "acc.pl.fem": "formosas",
+      "abl.sg.neut": "formoso",
+      "nom.pl.neut": "formosa",
+      "gen.pl.neut": "formosorum",
+      "acc.pl.neut": "formosa"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "dura",
+  "pos": "noun",
+  "glosses": [
+    "hardships (pl.)"
+  ],
+  "reviewed": false,
+  "head": "dura, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "durum",
+      "gen.sg": "duri",
+      "acc.sg": "durum",
+      "dat.sg": "duro",
+      "abl.sg": "duro",
+      "gen.pl": "durorum",
+      "dat.pl": "duris",
+      "abl.pl": "duris",
+      "nom.pl": "dura",
+      "acc.pl": "dura"
+    }
+  }
+}

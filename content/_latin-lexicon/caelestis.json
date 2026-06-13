@@ -1,0 +1,36 @@
+{
+  "lemma": "caelestis",
+  "pos": "adj",
+  "glosses": [
+    "heavenly, of heavens/sky, from heaven/sky",
+    "celestial",
+    "divine",
+    "of the_Gods"
+  ],
+  "reviewed": false,
+  "head": "caelestis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "caeleste",
+      "acc.sg.neut": "caeleste",
+      "nom.pl.neut": "caelestia",
+      "acc.pl.neut": "caelestia"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "lemma": "impiger",
+  "pos": "adj",
+  "glosses": [
+    "active, energetic"
+  ],
+  "reviewed": false,
+  "head": "impiger, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "impiger",
+      "gen.sg.masc": "impigri",
+      "dat.sg.masc": "impigro",
+      "gen.sg.fem": "impigrae",
+      "dat.sg.fem": "impigrae",
+      "nom.sg.neut": "impigrum",
+      "gen.sg.neut": "impigri",
+      "dat.sg.neut": "impigro",
+      "acc.sg.neut": "impigrum",
+      "acc.sg.masc": "impigrum",
+      "abl.sg.masc": "impigro",
+      "nom.pl.masc": "impigri",
+      "gen.pl.masc": "impigrorum",
+      "acc.pl.masc": "impigros",
+      "nom.sg.fem": "impigra",
+      "acc.sg.fem": "impigram",
+      "abl.sg.fem": "impigra",
+      "nom.pl.fem": "impigrae",
+      "gen.pl.fem": "impigrarum",
+      "acc.pl.fem": "impigras",
+      "abl.sg.neut": "impigro",
+      "nom.pl.neut": "impigra",
+      "gen.pl.neut": "impigrorum",
+      "acc.pl.neut": "impigra"
+    }
+  }
+}

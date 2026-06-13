@@ -1,0 +1,40 @@
+{
+  "lemma": "signum",
+  "pos": "noun",
+  "glosses": [
+    "battle standard",
+    "indication",
+    "seal",
+    "sign, proof",
+    "signal",
+    "image, statue"
+  ],
+  "reviewed": false,
+  "head": "signum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "signum",
+      "gen.sg": "signi",
+      "acc.sg": "signum",
+      "dat.sg": "signo",
+      "abl.sg": "signo",
+      "gen.pl": "signorum",
+      "dat.pl": "signis",
+      "abl.pl": "signis",
+      "nom.pl": "signa",
+      "acc.pl": "signa"
+    }
+  }
+}

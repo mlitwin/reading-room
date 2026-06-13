@@ -1,0 +1,56 @@
+{
+  "lemma": "humani",
+  "pos": "adj",
+  "glosses": [
+    "human",
+    "kind",
+    "humane, civilized, refined",
+    "[~ hostiae => human sacrifice]"
+  ],
+  "reviewed": false,
+  "head": "humani, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "humanus",
+      "gen.sg.masc": "humani",
+      "dat.sg.masc": "humano",
+      "gen.sg.fem": "humanae",
+      "dat.sg.fem": "humanae",
+      "nom.sg.neut": "humanum",
+      "gen.sg.neut": "humani",
+      "dat.sg.neut": "humano",
+      "acc.sg.neut": "humanum",
+      "acc.sg.masc": "humanum",
+      "abl.sg.masc": "humano",
+      "nom.pl.masc": "humani",
+      "gen.pl.masc": "humanorum",
+      "acc.pl.masc": "humanos",
+      "nom.sg.fem": "humana",
+      "acc.sg.fem": "humanam",
+      "abl.sg.fem": "humana",
+      "nom.pl.fem": "humanae",
+      "gen.pl.fem": "humanarum",
+      "acc.pl.fem": "humanas",
+      "abl.sg.neut": "humano",
+      "nom.pl.neut": "humana",
+      "gen.pl.neut": "humanorum",
+      "acc.pl.neut": "humana"
+    }
+  }
+}

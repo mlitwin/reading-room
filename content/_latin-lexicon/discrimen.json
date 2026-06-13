@@ -1,0 +1,36 @@
+{
+  "lemma": "discrimen",
+  "pos": "noun",
+  "glosses": [
+    "crisis, separating line, division",
+    "distinction, difference"
+  ],
+  "reviewed": false,
+  "head": "discrimen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "discrimine",
+      "acc.sg": "discrimen",
+      "nom.pl": "discrimina",
+      "gen.pl": "discriminum",
+      "acc.pl": "discrimina",
+      "nom.sg": "discrimen",
+      "gen.sg": "discriminis",
+      "dat.sg": "discrimini",
+      "dat.pl": "discriminibus",
+      "abl.pl": "discriminibus"
+    }
+  }
+}

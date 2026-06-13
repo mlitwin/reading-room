@@ -1,0 +1,54 @@
+{
+  "lemma": "sinister",
+  "pos": "adj",
+  "glosses": [
+    "left, improper,adverse",
+    "inauspicious"
+  ],
+  "reviewed": false,
+  "head": "sinister, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "sinister",
+      "gen.sg.masc": "sinistri",
+      "dat.sg.masc": "sinistro",
+      "gen.sg.fem": "sinistrae",
+      "dat.sg.fem": "sinistrae",
+      "nom.sg.neut": "sinistrum",
+      "gen.sg.neut": "sinistri",
+      "dat.sg.neut": "sinistro",
+      "acc.sg.neut": "sinistrum",
+      "acc.sg.masc": "sinistrum",
+      "abl.sg.masc": "sinistro",
+      "nom.pl.masc": "sinistri",
+      "gen.pl.masc": "sinistrorum",
+      "acc.pl.masc": "sinistros",
+      "nom.sg.fem": "sinistra",
+      "acc.sg.fem": "sinistram",
+      "abl.sg.fem": "sinistra",
+      "nom.pl.fem": "sinistrae",
+      "gen.pl.fem": "sinistrarum",
+      "acc.pl.fem": "sinistras",
+      "abl.sg.neut": "sinistro",
+      "nom.pl.neut": "sinistra",
+      "gen.pl.neut": "sinistrorum",
+      "acc.pl.neut": "sinistra"
+    }
+  }
+}

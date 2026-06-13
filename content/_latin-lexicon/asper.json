@@ -1,0 +1,58 @@
+{
+  "lemma": "asper",
+  "pos": "adj",
+  "glosses": [
+    "rough/uneven, coarse/harsh",
+    "sharp/pointed",
+    "rude",
+    "savage",
+    "pungent",
+    "keen"
+  ],
+  "reviewed": false,
+  "head": "asper, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "asper",
+      "gen.sg.masc": "aspri",
+      "dat.sg.masc": "aspro",
+      "gen.sg.fem": "asprae",
+      "dat.sg.fem": "asprae",
+      "nom.sg.neut": "asprum",
+      "gen.sg.neut": "aspri",
+      "dat.sg.neut": "aspro",
+      "acc.sg.neut": "asprum",
+      "acc.sg.masc": "asprum",
+      "abl.sg.masc": "aspro",
+      "nom.pl.masc": "aspri",
+      "gen.pl.masc": "asprorum",
+      "acc.pl.masc": "aspros",
+      "nom.sg.fem": "aspra",
+      "acc.sg.fem": "aspram",
+      "abl.sg.fem": "aspra",
+      "nom.pl.fem": "asprae",
+      "gen.pl.fem": "asprarum",
+      "acc.pl.fem": "aspras",
+      "abl.sg.neut": "aspro",
+      "nom.pl.neut": "aspra",
+      "gen.pl.neut": "asprorum",
+      "acc.pl.neut": "aspra"
+    }
+  }
+}

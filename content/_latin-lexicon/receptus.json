@@ -1,0 +1,35 @@
+{
+  "lemma": "receptus",
+  "pos": "noun",
+  "glosses": [
+    "retreat"
+  ],
+  "reviewed": false,
+  "head": "receptus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "receptus",
+      "gen.sg": "receptus",
+      "dat.sg": "receptui",
+      "acc.sg": "receptum",
+      "nom.pl": "receptus",
+      "acc.pl": "receptus",
+      "abl.sg": "receptu",
+      "gen.pl": "receptuum",
+      "dat.pl": "receptibus",
+      "abl.pl": "receptibus"
+    }
+  }
+}

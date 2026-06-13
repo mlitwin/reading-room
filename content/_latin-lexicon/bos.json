@@ -1,0 +1,40 @@
+{
+  "lemma": "bos",
+  "pos": "noun",
+  "glosses": [
+    "ox",
+    "bull",
+    "cow",
+    "ox-ray",
+    "cattle (pl.)",
+    "(ox-like animals)"
+  ],
+  "reviewed": false,
+  "head": "bos, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "bovem",
+      "gen.pl": "bovum",
+      "acc.pl": "bovis",
+      "nom.sg": "bos",
+      "gen.sg": "bovis",
+      "dat.sg": "bovi",
+      "abl.sg": "bove",
+      "nom.pl": "boves",
+      "dat.pl": "bovibus",
+      "abl.pl": "bovibus"
+    }
+  }
+}

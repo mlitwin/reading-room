@@ -1,0 +1,37 @@
+{
+  "lemma": "vestis",
+  "pos": "noun",
+  "glosses": [
+    "garment, clothing, blanket",
+    "clothes",
+    "robe"
+  ],
+  "reviewed": false,
+  "head": "vestis, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "vesti",
+      "acc.sg": "vestem",
+      "nom.pl": "vestis",
+      "gen.pl": "vestium",
+      "acc.pl": "vestis",
+      "nom.sg": "vestis",
+      "gen.sg": "vestis",
+      "dat.sg": "vesti",
+      "dat.pl": "vestibus",
+      "abl.pl": "vestibus"
+    }
+  }
+}

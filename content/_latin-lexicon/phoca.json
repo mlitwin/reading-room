@@ -1,0 +1,36 @@
+{
+  "lemma": "phoca",
+  "pos": "noun",
+  "glosses": [
+    "seal",
+    "(marine mammal)"
+  ],
+  "reviewed": false,
+  "head": "phoca, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "phoca",
+      "gen.sg": "phocae",
+      "abl.sg": "phoca",
+      "acc.sg": "phocam",
+      "dat.sg": "phocae",
+      "nom.pl": "phocae",
+      "gen.pl": "phocarum",
+      "dat.pl": "phocis",
+      "abl.pl": "phocis",
+      "acc.pl": "phocas"
+    }
+  }
+}

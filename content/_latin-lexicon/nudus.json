@@ -1,0 +1,54 @@
+{
+  "lemma": "nudus",
+  "pos": "adj",
+  "glosses": [
+    "nude",
+    "bare, stripped"
+  ],
+  "reviewed": false,
+  "head": "nudus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "nudus",
+      "gen.sg.masc": "nudi",
+      "dat.sg.masc": "nudo",
+      "gen.sg.fem": "nudae",
+      "dat.sg.fem": "nudae",
+      "nom.sg.neut": "nudum",
+      "gen.sg.neut": "nudi",
+      "dat.sg.neut": "nudo",
+      "acc.sg.neut": "nudum",
+      "acc.sg.masc": "nudum",
+      "abl.sg.masc": "nudo",
+      "nom.pl.masc": "nudi",
+      "gen.pl.masc": "nudorum",
+      "acc.pl.masc": "nudos",
+      "nom.sg.fem": "nuda",
+      "acc.sg.fem": "nudam",
+      "abl.sg.fem": "nuda",
+      "nom.pl.fem": "nudae",
+      "gen.pl.fem": "nudarum",
+      "acc.pl.fem": "nudas",
+      "abl.sg.neut": "nudo",
+      "nom.pl.neut": "nuda",
+      "gen.pl.neut": "nudorum",
+      "acc.pl.neut": "nuda"
+    }
+  }
+}

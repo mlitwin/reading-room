@@ -1,0 +1,41 @@
+{
+  "lemma": "tango",
+  "pos": "verb",
+  "glosses": [
+    "touch, strike",
+    "border on, influence",
+    "mention"
+  ],
+  "reviewed": false,
+  "head": "tango, tangere, tetigi, tactum",
+  "principal_parts": [
+    "tango",
+    "tangere",
+    "tetigi",
+    "tactum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "tangis",
+      "3sg.pres.ind.act": "tangit",
+      "1pl.pres.ind.act": "tangimus",
+      "2pl.pres.ind.act": "tangitis",
+      "2sg.pres.imp.act": "tange",
+      "2pl.pres.imp.act": "tangite"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "caput",
+  "pos": "noun",
+  "glosses": [
+    "head",
+    "person",
+    "life",
+    "leader",
+    "top",
+    "source/mouth (river)"
+  ],
+  "reviewed": false,
+  "head": "caput, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "capite",
+      "acc.sg": "caput",
+      "nom.pl": "capita",
+      "gen.pl": "capitum",
+      "acc.pl": "capita",
+      "nom.sg": "caput",
+      "gen.sg": "capitis",
+      "dat.sg": "capiti",
+      "dat.pl": "capitibus",
+      "abl.pl": "capitibus"
+    }
+  }
+}

@@ -1,0 +1,559 @@
+{
+  "book": 10,
+  "card": 1,
+  "title_english": "ORPHEUS AND EURYDICE",
+  "lines": [
+    1,
+    137
+  ],
+  "text": [
+    {
+      "n": 1,
+      "english": "Veiled in a saffron mantle, through the air"
+    },
+    {
+      "n": 2,
+      "english": "unmeasured, after the strange wedding, Hymen"
+    },
+    {
+      "n": 3,
+      "english": "departed swiftly for Ciconian land;"
+    },
+    {
+      "n": 4,
+      "english": "regardless and not listening to the voice"
+    },
+    {
+      "n": 5,
+      "english": "of tuneful Orpheus. Truly Hymen there"
+    },
+    {
+      "n": 6,
+      "english": "was present during the festivities"
+    },
+    {
+      "n": 7,
+      "english": "of Orpheus and Eurydice, but gave"
+    },
+    {
+      "n": 8,
+      "english": "no happy omen, neither hallowed words"
+    },
+    {
+      "n": 9,
+      "english": "nor joyful glances; and the torch he held"
+    },
+    {
+      "n": 10,
+      "english": "would only sputter, fill the eyes with smoke,"
+    },
+    {
+      "n": 11,
+      "english": "and cause no blaze while waving. The result"
+    },
+    {
+      "n": 12,
+      "english": "of that sad wedding, proved more terrible"
+    },
+    {
+      "n": 13,
+      "english": "than such foreboding fates."
+    },
+    {
+      "n": 14,
+      "english": "While through the grass"
+    },
+    {
+      "n": 15,
+      "english": "delighted Naiads wandered with the bride,"
+    },
+    {
+      "n": 16,
+      "english": "a serpent struck its venomed tooth in her"
+    },
+    {
+      "n": 17,
+      "english": "soft ankle— and she died.—After the bard"
+    },
+    {
+      "n": 18,
+      "english": "of Rhodope had mourned, and filled the highs"
+    },
+    {
+      "n": 19,
+      "english": "of heaven with the moans of his lament,"
+    },
+    {
+      "n": 20,
+      "english": "determined also the dark underworld"
+    },
+    {
+      "n": 21,
+      "english": "should recognize the misery of death,"
+    },
+    {
+      "n": 22,
+      "english": "he dared descend by the Taenarian gate"
+    },
+    {
+      "n": 23,
+      "english": "down to the gloomy Styx. And there passed through"
+    },
+    {
+      "n": 24,
+      "english": "pale-glimmering phantoms, and the ghosts"
+    },
+    {
+      "n": 25,
+      "english": "escaped from sepulchres, until he found"
+    },
+    {
+      "n": 26,
+      "english": "Persephone and Pluto, master-king"
+    },
+    {
+      "n": 27,
+      "english": "of shadow realms below: and then began"
+    },
+    {
+      "n": 28,
+      "english": "to strike his tuneful lyre, to which he sang:—"
+    },
+    {
+      "n": 29,
+      "english": "“O deities of this dark world beneath"
+    },
+    {
+      "n": 30,
+      "english": "the earth! this shadowy underworld, to which"
+    },
+    {
+      "n": 31,
+      "english": "all mortals must descend! If it can be"
+    },
+    {
+      "n": 32,
+      "english": "called lawful, and if you will suffer speech"
+    },
+    {
+      "n": 33,
+      "english": "of strict truth (all the winding ways"
+    },
+    {
+      "n": 34,
+      "english": "of Falsity forbidden) I come not"
+    },
+    {
+      "n": 35,
+      "english": "down here because of curiosity"
+    },
+    {
+      "n": 36,
+      "english": "to see the glooms of Tartarus and have"
+    },
+    {
+      "n": 37,
+      "english": "no thought to bind or strangle the three necks"
+    },
+    {
+      "n": 38,
+      "english": "of the Medusan Monster, vile with snakes."
+    },
+    {
+      "n": 39,
+      "english": "But I have come, because my darling wife"
+    },
+    {
+      "n": 40,
+      "english": "stepped on a viper that sent through her veins"
+    },
+    {
+      "n": 41,
+      "english": "death-poison, cutting off her coming years."
+    },
+    {
+      "n": 42,
+      "english": "“If able, I would bear it, I do not"
+    },
+    {
+      "n": 43,
+      "english": "deny my effort—but the god of Love"
+    },
+    {
+      "n": 44,
+      "english": "has conquered me—a god so kindly known"
+    },
+    {
+      "n": 45,
+      "english": "in all the upper world. We are not sure"
+    },
+    {
+      "n": 46,
+      "english": "he can be known so well in this deep world,"
+    },
+    {
+      "n": 47,
+      "english": "but have good reason to conjecture he"
+    },
+    {
+      "n": 48,
+      "english": "is not unknown here, and if old report"
+    },
+    {
+      "n": 49,
+      "english": "almost forgotten, that you stole your wife"
+    },
+    {
+      "n": 50,
+      "english": "is not a fiction, Love united you"
+    },
+    {
+      "n": 51,
+      "english": "the same as others. By this Place of Fear"
+    },
+    {
+      "n": 52,
+      "english": "this huge void and these vast and silent realms,"
+    },
+    {
+      "n": 53,
+      "english": "renew the life-thread of Eurydice."
+    },
+    {
+      "n": 54,
+      "english": "“All things are due to you, and though on earth"
+    },
+    {
+      "n": 55,
+      "english": "it happens we may tarry a short while,"
+    },
+    {
+      "n": 56,
+      "english": "slowly or swiftly we must go to one"
+    },
+    {
+      "n": 57,
+      "english": "abode; and it will be our final home."
+    },
+    {
+      "n": 58,
+      "english": "Long and tenaciously you will possess"
+    },
+    {
+      "n": 59,
+      "english": "unquestioned mastery of the human race."
+    },
+    {
+      "n": 60,
+      "english": "She also shall be yours to rule, when full"
+    },
+    {
+      "n": 61,
+      "english": "of age she shall have lived the days of her"
+    },
+    {
+      "n": 62,
+      "english": "allotted years. So I ask of you"
+    },
+    {
+      "n": 63,
+      "english": "possession of her few days as a boon."
+    },
+    {
+      "n": 64,
+      "english": "But if the fates deny to me this prayer"
+    },
+    {
+      "n": 65,
+      "english": "for my true wife, my constant mind must hold"
+    },
+    {
+      "n": 66,
+      "english": "me always so that I can not return—"
+    },
+    {
+      "n": 67,
+      "english": "and you may triumph in the death of two!”"
+    },
+    {
+      "n": 68,
+      "english": "While he sang all his heart said to the sound"
+    },
+    {
+      "n": 69,
+      "english": "of his sweet lyre, the bloodless ghosts themselves"
+    },
+    {
+      "n": 70,
+      "english": "were weeping, and the anxious Tantalus"
+    },
+    {
+      "n": 71,
+      "english": "stopped clutching at return-flow of the wave,"
+    },
+    {
+      "n": 72,
+      "english": "Ixion's twisting wheel stood wonder-bound;"
+    },
+    {
+      "n": 73,
+      "english": "and Tityus' liver for a while escaped"
+    },
+    {
+      "n": 74,
+      "english": "the vultures, and the listening Belides"
+    },
+    {
+      "n": 75,
+      "english": "forgot their sieve-like bowls and even you,"
+    },
+    {
+      "n": 76,
+      "english": "O Sisyphus! sat idly on your rock!"
+    },
+    {
+      "n": 77,
+      "english": "Then Fame declared that conquered by the song"
+    },
+    {
+      "n": 78,
+      "english": "of Orpheus, for the first and only time"
+    },
+    {
+      "n": 79,
+      "english": "the hard cheeks of the fierce Eumenides"
+    },
+    {
+      "n": 80,
+      "english": "were wet with tears: nor could the royal queen,"
+    },
+    {
+      "n": 81,
+      "english": "nor he who rules the lower world deny"
+    },
+    {
+      "n": 82,
+      "english": "the prayer of Orpheus; so they called to them"
+    },
+    {
+      "n": 83,
+      "english": "Eurydice, who still was held among"
+    },
+    {
+      "n": 84,
+      "english": "the new-arriving shades, and she obeyed"
+    },
+    {
+      "n": 85,
+      "english": "the call by walking to them with slow steps,"
+    },
+    {
+      "n": 86,
+      "english": "yet halting from her wound. So Orpheus then"
+    },
+    {
+      "n": 87,
+      "english": "received his wife; and Pluto told him he"
+    },
+    {
+      "n": 88,
+      "english": "might now ascend from these Avernian vales"
+    },
+    {
+      "n": 89,
+      "english": "up to the light, with his Eurydice;"
+    },
+    {
+      "n": 90,
+      "english": "but, if he turned his eyes to look at her,"
+    },
+    {
+      "n": 91,
+      "english": "the gift of her delivery would be lost."
+    },
+    {
+      "n": 92,
+      "english": "They picked their way in silence up a steep"
+    },
+    {
+      "n": 93,
+      "english": "and gloomy path of darkness. There remained"
+    },
+    {
+      "n": 94,
+      "english": "but little more to climb till they would touch"
+    },
+    {
+      "n": 95,
+      "english": "earth's surface, when in fear he might again"
+    },
+    {
+      "n": 96,
+      "english": "lose her, and anxious for another look"
+    },
+    {
+      "n": 97,
+      "english": "at her, he turned his eyes so he could gaze"
+    },
+    {
+      "n": 98,
+      "english": "upon her. Instantly she slipped away."
+    },
+    {
+      "n": 99,
+      "english": "He stretched out to her his despairing arms,"
+    },
+    {
+      "n": 100,
+      "english": "eager to rescue her, or feel her form,"
+    },
+    {
+      "n": 101,
+      "english": "but could hold nothing save the yielding air."
+    },
+    {
+      "n": 102,
+      "english": "Dying the second time, she could not say"
+    },
+    {
+      "n": 103,
+      "english": "a word of censure of her husband's fault;"
+    },
+    {
+      "n": 104,
+      "english": "what had she to complain of — his great love?"
+    },
+    {
+      "n": 105,
+      "english": "Her last word spoken was, “Farewell!” which he"
+    },
+    {
+      "n": 106,
+      "english": "could barely hear, and with no further sound"
+    },
+    {
+      "n": 107,
+      "english": "she fell from him again to Hades.—Struck"
+    },
+    {
+      "n": 108,
+      "english": "quite senseless by this double death of his"
+    },
+    {
+      "n": 109,
+      "english": "dear wife, he was as fixed from motion as"
+    },
+    {
+      "n": 110,
+      "english": "the frightened one who saw the triple necks"
+    },
+    {
+      "n": 111,
+      "english": "of Cerberus, that dog whose middle neck"
+    },
+    {
+      "n": 112,
+      "english": "was chained. The sight filled him with terror he"
+    },
+    {
+      "n": 113,
+      "english": "had no escape from, until petrified"
+    },
+    {
+      "n": 114,
+      "english": "to stone; or like Olenos, changed to stone,"
+    },
+    {
+      "n": 115,
+      "english": "because he fastened on himself the guilt"
+    },
+    {
+      "n": 116,
+      "english": "of his wife. O unfortunate Lethaea!"
+    },
+    {
+      "n": 117,
+      "english": "Too boastful of your beauty, you and he,"
+    },
+    {
+      "n": 118,
+      "english": "united once in love, are now two stones"
+    },
+    {
+      "n": 119,
+      "english": "upon the mountain Ida, moist with springs."
+    },
+    {
+      "n": 120,
+      "english": "Orpheus implored in vain the ferryman"
+    },
+    {
+      "n": 121,
+      "english": "to help him cross the River Styx again,"
+    },
+    {
+      "n": 122,
+      "english": "but was denied the very hope of death."
+    },
+    {
+      "n": 123,
+      "english": "Seven days he sat upon Death's river bank,"
+    },
+    {
+      "n": 124,
+      "english": "in squalid misery and without all food—"
+    },
+    {
+      "n": 125,
+      "english": "nourished by grief, anxiety, and tears—"
+    },
+    {
+      "n": 126,
+      "english": "complaining that the Gods of Erebus"
+    },
+    {
+      "n": 127,
+      "english": "were pitiless, at last he wandered back,"
+    },
+    {
+      "n": 128,
+      "english": "until he came to lofty Rhodope"
+    },
+    {
+      "n": 129,
+      "english": "and Haemus, beaten by the strong north wind."
+    },
+    {
+      "n": 130,
+      "english": "Three times the Sun completed his full course"
+    },
+    {
+      "n": 131,
+      "english": "to watery Pisces, and in all that time,"
+    },
+    {
+      "n": 132,
+      "english": "shunning all women, Orpheus still believed"
+    },
+    {
+      "n": 133,
+      "english": "his love-pledge was forever. So he kept"
+    },
+    {
+      "n": 134,
+      "english": "away from women, though so many grieved,"
+    },
+    {
+      "n": 135,
+      "english": "because he took no notice of their love."
+    },
+    {
+      "n": 136,
+      "english": "The only friendship he enjoyed was given"
+    },
+    {
+      "n": 137,
+      "english": "to the young men of Thrace."
+    }
+  ]
+}

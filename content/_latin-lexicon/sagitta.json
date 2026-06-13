@@ -1,0 +1,35 @@
+{
+  "lemma": "sagitta",
+  "pos": "noun",
+  "glosses": [
+    "arrow"
+  ],
+  "reviewed": false,
+  "head": "sagitta, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sagitta",
+      "gen.sg": "sagittae",
+      "abl.sg": "sagitta",
+      "acc.sg": "sagittam",
+      "dat.sg": "sagittae",
+      "nom.pl": "sagittae",
+      "gen.pl": "sagittarum",
+      "dat.pl": "sagittis",
+      "abl.pl": "sagittis",
+      "acc.pl": "sagittas"
+    }
+  }
+}

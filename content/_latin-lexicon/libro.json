@@ -1,0 +1,42 @@
+{
+  "lemma": "libro",
+  "pos": "verb",
+  "glosses": [
+    "balance,swing",
+    "hurl"
+  ],
+  "reviewed": false,
+  "head": "libro, librare, libravi, libratum",
+  "principal_parts": [
+    "libro",
+    "librare",
+    "libravi",
+    "libratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "libro",
+      "2sg.pres.ind.act": "libras",
+      "3sg.pres.ind.act": "librat",
+      "1pl.pres.ind.act": "libramus",
+      "2pl.pres.ind.act": "libratis",
+      "3pl.pres.ind.act": "librant",
+      "2sg.pres.imp.act": "libra",
+      "2pl.pres.imp.act": "librate"
+    }
+  }
+}

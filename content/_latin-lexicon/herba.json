@@ -1,0 +1,35 @@
+{
+  "lemma": "herba",
+  "pos": "noun",
+  "glosses": [
+    "herb, grass"
+  ],
+  "reviewed": false,
+  "head": "herba, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "herba",
+      "gen.sg": "herbae",
+      "abl.sg": "herba",
+      "acc.sg": "herbam",
+      "dat.sg": "herbae",
+      "nom.pl": "herbae",
+      "gen.pl": "herbarum",
+      "dat.pl": "herbis",
+      "abl.pl": "herbis",
+      "acc.pl": "herbas"
+    }
+  }
+}

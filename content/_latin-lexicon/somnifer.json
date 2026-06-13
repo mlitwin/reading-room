@@ -1,0 +1,53 @@
+{
+  "lemma": "somnifer",
+  "pos": "adj",
+  "glosses": [
+    "inducing sleep"
+  ],
+  "reviewed": false,
+  "head": "somnifer, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "somnifer",
+      "gen.sg.masc": "somniferi",
+      "dat.sg.masc": "somnifero",
+      "gen.sg.fem": "somniferae",
+      "dat.sg.fem": "somniferae",
+      "nom.sg.neut": "somniferum",
+      "gen.sg.neut": "somniferi",
+      "dat.sg.neut": "somnifero",
+      "acc.sg.neut": "somniferum",
+      "acc.sg.masc": "somniferum",
+      "abl.sg.masc": "somnifero",
+      "nom.pl.masc": "somniferi",
+      "gen.pl.masc": "somniferorum",
+      "acc.pl.masc": "somniferos",
+      "nom.sg.fem": "somnifera",
+      "acc.sg.fem": "somniferam",
+      "abl.sg.fem": "somnifera",
+      "nom.pl.fem": "somniferae",
+      "gen.pl.fem": "somniferarum",
+      "acc.pl.fem": "somniferas",
+      "abl.sg.neut": "somnifero",
+      "nom.pl.neut": "somnifera",
+      "gen.pl.neut": "somniferorum",
+      "acc.pl.neut": "somnifera"
+    }
+  }
+}

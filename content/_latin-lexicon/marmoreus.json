@@ -1,0 +1,55 @@
+{
+  "lemma": "marmoreus",
+  "pos": "adj",
+  "glosses": [
+    "marble",
+    "of marble",
+    "marble-like"
+  ],
+  "reviewed": false,
+  "head": "marmoreus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "marmoreus",
+      "gen.sg.masc": "marmorei",
+      "dat.sg.masc": "marmoreo",
+      "gen.sg.fem": "marmoreae",
+      "dat.sg.fem": "marmoreae",
+      "nom.sg.neut": "marmoreum",
+      "gen.sg.neut": "marmorei",
+      "dat.sg.neut": "marmoreo",
+      "acc.sg.neut": "marmoreum",
+      "acc.sg.masc": "marmoreum",
+      "abl.sg.masc": "marmoreo",
+      "nom.pl.masc": "marmorei",
+      "gen.pl.masc": "marmoreorum",
+      "acc.pl.masc": "marmoreos",
+      "nom.sg.fem": "marmorea",
+      "acc.sg.fem": "marmoream",
+      "abl.sg.fem": "marmorea",
+      "nom.pl.fem": "marmoreae",
+      "gen.pl.fem": "marmorearum",
+      "acc.pl.fem": "marmoreas",
+      "abl.sg.neut": "marmoreo",
+      "nom.pl.neut": "marmorea",
+      "gen.pl.neut": "marmoreorum",
+      "acc.pl.neut": "marmorea"
+    }
+  }
+}

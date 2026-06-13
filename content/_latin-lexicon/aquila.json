@@ -1,0 +1,37 @@
+{
+  "lemma": "aquila",
+  "pos": "noun",
+  "glosses": [
+    "silver eagle on pole, standard of a legion",
+    "legion",
+    "post of standard-bearer"
+  ],
+  "reviewed": false,
+  "head": "aquila, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aquila",
+      "gen.sg": "aquilae",
+      "abl.sg": "aquila",
+      "acc.sg": "aquilam",
+      "dat.sg": "aquilae",
+      "nom.pl": "aquilae",
+      "gen.pl": "aquilarum",
+      "dat.pl": "aquilis",
+      "abl.pl": "aquilis",
+      "acc.pl": "aquilas"
+    }
+  }
+}

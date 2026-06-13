@@ -1,0 +1,35 @@
+{
+  "lemma": "vindex",
+  "pos": "noun",
+  "glosses": [
+    "defender, protector"
+  ],
+  "reviewed": false,
+  "head": "vindex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "vindicem",
+      "gen.pl": "vindicum",
+      "acc.pl": "vindicis",
+      "nom.sg": "vindex",
+      "gen.sg": "vindicis",
+      "dat.sg": "vindici",
+      "abl.sg": "vindice",
+      "nom.pl": "vindices",
+      "dat.pl": "vindicibus",
+      "abl.pl": "vindicibus"
+    }
+  }
+}

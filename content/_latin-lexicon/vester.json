@@ -1,0 +1,53 @@
+{
+  "lemma": "vester",
+  "pos": "adj",
+  "glosses": [
+    "your (pl.), of/belonging to/associated with you"
+  ],
+  "reviewed": false,
+  "head": "vester, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "vester",
+      "gen.sg.masc": "vestri",
+      "dat.sg.masc": "vestro",
+      "gen.sg.fem": "vestrae",
+      "dat.sg.fem": "vestrae",
+      "nom.sg.neut": "vestrum",
+      "gen.sg.neut": "vestri",
+      "dat.sg.neut": "vestro",
+      "acc.sg.neut": "vestrum",
+      "acc.sg.masc": "vestrum",
+      "abl.sg.masc": "vestro",
+      "nom.pl.masc": "vestri",
+      "gen.pl.masc": "vestrorum",
+      "acc.pl.masc": "vestros",
+      "nom.sg.fem": "vestra",
+      "acc.sg.fem": "vestram",
+      "abl.sg.fem": "vestra",
+      "nom.pl.fem": "vestrae",
+      "gen.pl.fem": "vestrarum",
+      "acc.pl.fem": "vestras",
+      "abl.sg.neut": "vestro",
+      "nom.pl.neut": "vestra",
+      "gen.pl.neut": "vestrorum",
+      "acc.pl.neut": "vestra"
+    }
+  }
+}

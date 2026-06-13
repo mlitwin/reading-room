@@ -1,0 +1,43 @@
+{
+  "lemma": "horreo",
+  "pos": "verb",
+  "glosses": [
+    "dread, shrink from, shudder at",
+    "stand on end, bristle",
+    "have rough appearance"
+  ],
+  "reviewed": false,
+  "head": "horreo, horrere, horrui, -um",
+  "principal_parts": [
+    "horreo",
+    "horrere",
+    "horrui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "horreo",
+      "2sg.pres.ind.act": "horres",
+      "3sg.pres.ind.act": "horret",
+      "1pl.pres.ind.act": "horremus",
+      "2pl.pres.ind.act": "horretis",
+      "3pl.pres.ind.act": "horrent",
+      "2sg.pres.imp.act": "horre",
+      "2pl.pres.imp.act": "horrete"
+    }
+  }
+}

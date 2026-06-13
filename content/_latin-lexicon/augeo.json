@@ -1,0 +1,45 @@
+{
+  "lemma": "augeo",
+  "pos": "verb",
+  "glosses": [
+    "increase, enlarge, augment",
+    "spread",
+    "honor, promote, raise",
+    "exalt",
+    "make a lot of"
+  ],
+  "reviewed": false,
+  "head": "augeo, augere, auxi, auctum",
+  "principal_parts": [
+    "augeo",
+    "augere",
+    "auxi",
+    "auctum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "augeo",
+      "2sg.pres.ind.act": "auges",
+      "3sg.pres.ind.act": "auget",
+      "1pl.pres.ind.act": "augemus",
+      "2pl.pres.ind.act": "augetis",
+      "3pl.pres.ind.act": "augent",
+      "2sg.pres.imp.act": "auge",
+      "2pl.pres.imp.act": "augete"
+    }
+  }
+}

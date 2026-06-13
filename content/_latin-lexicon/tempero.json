@@ -1,0 +1,44 @@
+{
+  "lemma": "tempero",
+  "pos": "verb",
+  "glosses": [
+    "combine, blend, temper",
+    "make mild",
+    "refrain from",
+    "control oneself"
+  ],
+  "reviewed": false,
+  "head": "tempero, temperare, temperavi, temperatum",
+  "principal_parts": [
+    "tempero",
+    "temperare",
+    "temperavi",
+    "temperatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "tempero",
+      "2sg.pres.ind.act": "temperas",
+      "3sg.pres.ind.act": "temperat",
+      "1pl.pres.ind.act": "temperamus",
+      "2pl.pres.ind.act": "temperatis",
+      "3pl.pres.ind.act": "temperant",
+      "2sg.pres.imp.act": "tempera",
+      "2pl.pres.imp.act": "temperate"
+    }
+  }
+}

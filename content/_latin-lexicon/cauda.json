@@ -1,0 +1,38 @@
+{
+  "lemma": "cauda",
+  "pos": "noun",
+  "glosses": [
+    "tail (animal)",
+    "extreme part/tail of anything",
+    "penis",
+    "train/edge/trail (garment)"
+  ],
+  "reviewed": false,
+  "head": "cauda, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cauda",
+      "gen.sg": "caudae",
+      "abl.sg": "cauda",
+      "acc.sg": "caudam",
+      "dat.sg": "caudae",
+      "nom.pl": "caudae",
+      "gen.pl": "caudarum",
+      "dat.pl": "caudis",
+      "abl.pl": "caudis",
+      "acc.pl": "caudas"
+    }
+  }
+}

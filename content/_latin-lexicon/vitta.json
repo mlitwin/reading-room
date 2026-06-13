@@ -1,0 +1,36 @@
+{
+  "lemma": "vitta",
+  "pos": "noun",
+  "glosses": [
+    "band, ribbon",
+    "fillet"
+  ],
+  "reviewed": false,
+  "head": "vitta, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vitta",
+      "gen.sg": "vittae",
+      "abl.sg": "vitta",
+      "acc.sg": "vittam",
+      "dat.sg": "vittae",
+      "nom.pl": "vittae",
+      "gen.pl": "vittarum",
+      "dat.pl": "vittis",
+      "abl.pl": "vittis",
+      "acc.pl": "vittas"
+    }
+  }
+}

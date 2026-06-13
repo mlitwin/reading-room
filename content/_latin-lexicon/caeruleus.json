@@ -1,0 +1,35 @@
+{
+  "lemma": "caeruleus",
+  "pos": "noun",
+  "glosses": [
+    "epithet for river/sea deities"
+  ],
+  "reviewed": false,
+  "head": "caeruleus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "caeruleus",
+      "gen.sg": "caerulei",
+      "dat.sg": "caeruleo",
+      "abl.sg": "caeruleo",
+      "acc.sg": "caeruleum",
+      "nom.pl": "caerulei",
+      "gen.pl": "caeruleorum",
+      "dat.pl": "caeruleis",
+      "abl.pl": "caeruleis",
+      "acc.pl": "caeruleos"
+    }
+  }
+}

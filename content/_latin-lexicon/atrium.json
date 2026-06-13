@@ -1,0 +1,37 @@
+{
+  "lemma": "atrium",
+  "pos": "noun",
+  "glosses": [
+    "atrium, reception hall in a Roman house",
+    "auction room",
+    "palace (pl.), house"
+  ],
+  "reviewed": false,
+  "head": "atrium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "atrium",
+      "gen.sg": "atrii",
+      "acc.sg": "atrium",
+      "dat.sg": "atrio",
+      "abl.sg": "atrio",
+      "gen.pl": "atriorum",
+      "dat.pl": "atriis",
+      "abl.pl": "atriis",
+      "nom.pl": "atria",
+      "acc.pl": "atria"
+    }
+  }
+}

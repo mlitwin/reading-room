@@ -1,0 +1,35 @@
+{
+  "lemma": "ferox",
+  "pos": "adj",
+  "glosses": [
+    "wild, bold",
+    "warlike",
+    "cruel",
+    "defiant, arrogant"
+  ],
+  "reviewed": false,
+  "head": "ferox, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "ferox",
+      "nom.pl.neut": "ferocia",
+      "acc.pl.neut": "ferocia"
+    }
+  }
+}

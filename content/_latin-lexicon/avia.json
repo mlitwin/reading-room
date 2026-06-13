@@ -1,0 +1,36 @@
+{
+  "lemma": "avia",
+  "pos": "noun",
+  "glosses": [
+    "pathless region (pl.), wild waste, wilderness, desert",
+    "lonely/solitary places"
+  ],
+  "reviewed": false,
+  "head": "avia, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "avium",
+      "gen.sg": "avii",
+      "acc.sg": "avium",
+      "dat.sg": "avio",
+      "abl.sg": "avio",
+      "gen.pl": "aviorum",
+      "dat.pl": "aviis",
+      "abl.pl": "aviis",
+      "nom.pl": "avia",
+      "acc.pl": "avia"
+    }
+  }
+}

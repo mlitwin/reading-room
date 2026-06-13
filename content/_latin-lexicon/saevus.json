@@ -1,0 +1,57 @@
+{
+  "lemma": "saevus",
+  "pos": "adj",
+  "glosses": [
+    "savage",
+    "fierce/ferocious",
+    "violent/wild/raging",
+    "cruel, harsh, severe",
+    "vehement"
+  ],
+  "reviewed": false,
+  "head": "saevus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "saevus",
+      "gen.sg.masc": "saevi",
+      "dat.sg.masc": "saevo",
+      "gen.sg.fem": "saevae",
+      "dat.sg.fem": "saevae",
+      "nom.sg.neut": "saevum",
+      "gen.sg.neut": "saevi",
+      "dat.sg.neut": "saevo",
+      "acc.sg.neut": "saevum",
+      "acc.sg.masc": "saevum",
+      "abl.sg.masc": "saevo",
+      "nom.pl.masc": "saevi",
+      "gen.pl.masc": "saevorum",
+      "acc.pl.masc": "saevos",
+      "nom.sg.fem": "saeva",
+      "acc.sg.fem": "saevam",
+      "abl.sg.fem": "saeva",
+      "nom.pl.fem": "saevae",
+      "gen.pl.fem": "saevarum",
+      "acc.pl.fem": "saevas",
+      "abl.sg.neut": "saevo",
+      "nom.pl.neut": "saeva",
+      "gen.pl.neut": "saevorum",
+      "acc.pl.neut": "saeva"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "lemma": "dispar",
+  "pos": "adj",
+  "glosses": [
+    "unequal, disparate, unlike"
+  ],
+  "reviewed": false,
+  "head": "dispar, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "dispar",
+      "nom.pl.neut": "disparia",
+      "acc.pl.neut": "disparia"
+    }
+  }
+}

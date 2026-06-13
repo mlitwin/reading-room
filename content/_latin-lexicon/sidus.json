@@ -1,0 +1,37 @@
+{
+  "lemma": "sidus",
+  "pos": "noun",
+  "glosses": [
+    "star",
+    "constellation",
+    "tempest (Vulgate 4 Ezra 15:39)"
+  ],
+  "reviewed": false,
+  "head": "sidus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "sidere",
+      "acc.sg": "sidus",
+      "nom.pl": "sidera",
+      "gen.pl": "siderum",
+      "acc.pl": "sidera",
+      "nom.sg": "sidus",
+      "gen.sg": "sideris",
+      "dat.sg": "sideri",
+      "dat.pl": "sideribus",
+      "abl.pl": "sideribus"
+    }
+  }
+}

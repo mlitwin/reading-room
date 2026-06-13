@@ -1,0 +1,53 @@
+{
+  "lemma": "exosus",
+  "pos": "adj",
+  "glosses": [
+    "hating"
+  ],
+  "reviewed": false,
+  "head": "exosus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "exosus",
+      "gen.sg.masc": "exosi",
+      "dat.sg.masc": "exoso",
+      "gen.sg.fem": "exosae",
+      "dat.sg.fem": "exosae",
+      "nom.sg.neut": "exosum",
+      "gen.sg.neut": "exosi",
+      "dat.sg.neut": "exoso",
+      "acc.sg.neut": "exosum",
+      "acc.sg.masc": "exosum",
+      "abl.sg.masc": "exoso",
+      "nom.pl.masc": "exosi",
+      "gen.pl.masc": "exosorum",
+      "acc.pl.masc": "exosos",
+      "nom.sg.fem": "exosa",
+      "acc.sg.fem": "exosam",
+      "abl.sg.fem": "exosa",
+      "nom.pl.fem": "exosae",
+      "gen.pl.fem": "exosarum",
+      "acc.pl.fem": "exosas",
+      "abl.sg.neut": "exoso",
+      "nom.pl.neut": "exosa",
+      "gen.pl.neut": "exosorum",
+      "acc.pl.neut": "exosa"
+    }
+  }
+}

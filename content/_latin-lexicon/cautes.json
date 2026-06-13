@@ -1,0 +1,37 @@
+{
+  "lemma": "cautes",
+  "pos": "noun",
+  "glosses": [
+    "rough pointed/detached rock, loose stone",
+    "rocks (pl.), cliff, crag",
+    "reef"
+  ],
+  "reviewed": false,
+  "head": "cautes, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "cauti",
+      "acc.sg": "cautem",
+      "nom.pl": "cautis",
+      "gen.pl": "cautium",
+      "acc.pl": "cautis",
+      "nom.sg": "cautes",
+      "gen.sg": "cautis",
+      "dat.sg": "cauti",
+      "dat.pl": "cautibus",
+      "abl.pl": "cautibus"
+    }
+  }
+}

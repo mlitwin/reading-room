@@ -1,0 +1,32 @@
+{
+  "lemma": "ferax",
+  "pos": "adj",
+  "glosses": [
+    "fruitful, fertile. prolific"
+  ],
+  "reviewed": false,
+  "head": "ferax, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "ferax",
+      "nom.pl.neut": "feracia",
+      "acc.pl.neut": "feracia"
+    }
+  }
+}

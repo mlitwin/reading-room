@@ -1,0 +1,44 @@
+{
+  "lemma": "dilabor",
+  "pos": "verb",
+  "glosses": [
+    "run/flow/slip away, spread (liquids)",
+    "dissolve/melt away, disperse (clouds)",
+    "fall apart/to pieces",
+    "disintegrate",
+    "break down (body), collapse/decay/perish",
+    "flee/escape"
+  ],
+  "reviewed": false,
+  "head": "dilabor, dilabere, -i, dilapsum",
+  "principal_parts": [
+    "dilabor",
+    "dilabere",
+    "-i",
+    "dilapsum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "dilabis",
+      "3sg.pres.ind.act": "dilabit",
+      "1pl.pres.ind.act": "dilabimus",
+      "2pl.pres.ind.act": "dilabitis",
+      "2sg.pres.imp.act": "dilabe",
+      "2pl.pres.imp.act": "dilabite"
+    }
+  }
+}

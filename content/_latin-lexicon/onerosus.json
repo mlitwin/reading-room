@@ -1,0 +1,55 @@
+{
+  "lemma": "onerosus",
+  "pos": "adj",
+  "glosses": [
+    "oppressive",
+    "burdensome",
+    "onerous"
+  ],
+  "reviewed": false,
+  "head": "onerosus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "onerosus",
+      "gen.sg.masc": "onerosi",
+      "dat.sg.masc": "oneroso",
+      "gen.sg.fem": "onerosae",
+      "dat.sg.fem": "onerosae",
+      "nom.sg.neut": "onerosum",
+      "gen.sg.neut": "onerosi",
+      "dat.sg.neut": "oneroso",
+      "acc.sg.neut": "onerosum",
+      "acc.sg.masc": "onerosum",
+      "abl.sg.masc": "oneroso",
+      "nom.pl.masc": "onerosi",
+      "gen.pl.masc": "onerosorum",
+      "acc.pl.masc": "onerosos",
+      "nom.sg.fem": "onerosa",
+      "acc.sg.fem": "onerosam",
+      "abl.sg.fem": "onerosa",
+      "nom.pl.fem": "onerosae",
+      "gen.pl.fem": "onerosarum",
+      "acc.pl.fem": "onerosas",
+      "abl.sg.neut": "oneroso",
+      "nom.pl.neut": "onerosa",
+      "gen.pl.neut": "onerosorum",
+      "acc.pl.neut": "onerosa"
+    }
+  }
+}

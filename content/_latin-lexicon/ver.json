@@ -1,0 +1,36 @@
+{
+  "lemma": "ver",
+  "pos": "noun",
+  "glosses": [
+    "Verus",
+    "(Emperor Lucius Verus 161-169)"
+  ],
+  "reviewed": false,
+  "head": "ver, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "verus",
+      "gen.sg": "veri",
+      "dat.sg": "vero",
+      "abl.sg": "vero",
+      "acc.sg": "verum",
+      "nom.pl": "veri",
+      "gen.pl": "verorum",
+      "dat.pl": "veris",
+      "abl.pl": "veris",
+      "acc.pl": "veros"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "vox",
+  "pos": "noun",
+  "glosses": [
+    "voice, tone, expression"
+  ],
+  "reviewed": false,
+  "head": "vox, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "vocem",
+      "gen.pl": "vocum",
+      "acc.pl": "vocis",
+      "nom.sg": "vox",
+      "gen.sg": "vocis",
+      "dat.sg": "voci",
+      "abl.sg": "voce",
+      "nom.pl": "voces",
+      "dat.pl": "vocibus",
+      "abl.pl": "vocibus"
+    }
+  }
+}

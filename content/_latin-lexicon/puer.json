@@ -1,0 +1,36 @@
+{
+  "lemma": "puer",
+  "pos": "noun",
+  "glosses": [
+    "girl",
+    "lass"
+  ],
+  "reviewed": false,
+  "head": "puer, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "puera",
+      "gen.sg": "puerae",
+      "abl.sg": "puera",
+      "acc.sg": "pueram",
+      "dat.sg": "puerae",
+      "nom.pl": "puerae",
+      "gen.pl": "puerarum",
+      "dat.pl": "pueris",
+      "abl.pl": "pueris",
+      "acc.pl": "pueras"
+    }
+  }
+}

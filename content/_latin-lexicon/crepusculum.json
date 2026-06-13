@@ -1,0 +1,36 @@
+{
+  "lemma": "crepusculum",
+  "pos": "noun",
+  "glosses": [
+    "twilight, dusk",
+    "darkness (L+S)"
+  ],
+  "reviewed": false,
+  "head": "crepusculum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "crepusculum",
+      "gen.sg": "crepusculi",
+      "acc.sg": "crepusculum",
+      "dat.sg": "crepusculo",
+      "abl.sg": "crepusculo",
+      "gen.pl": "crepusculorum",
+      "dat.pl": "crepusculis",
+      "abl.pl": "crepusculis",
+      "nom.pl": "crepuscula",
+      "acc.pl": "crepuscula"
+    }
+  }
+}

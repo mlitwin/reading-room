@@ -1,0 +1,54 @@
+{
+  "lemma": "lucidus",
+  "pos": "adj",
+  "glosses": [
+    "bright, shining",
+    "clear"
+  ],
+  "reviewed": false,
+  "head": "lucidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "lucidus",
+      "gen.sg.masc": "lucidi",
+      "dat.sg.masc": "lucido",
+      "gen.sg.fem": "lucidae",
+      "dat.sg.fem": "lucidae",
+      "nom.sg.neut": "lucidum",
+      "gen.sg.neut": "lucidi",
+      "dat.sg.neut": "lucido",
+      "acc.sg.neut": "lucidum",
+      "acc.sg.masc": "lucidum",
+      "abl.sg.masc": "lucido",
+      "nom.pl.masc": "lucidi",
+      "gen.pl.masc": "lucidorum",
+      "acc.pl.masc": "lucidos",
+      "nom.sg.fem": "lucida",
+      "acc.sg.fem": "lucidam",
+      "abl.sg.fem": "lucida",
+      "nom.pl.fem": "lucidae",
+      "gen.pl.fem": "lucidarum",
+      "acc.pl.fem": "lucidas",
+      "abl.sg.neut": "lucido",
+      "nom.pl.neut": "lucida",
+      "gen.pl.neut": "lucidorum",
+      "acc.pl.neut": "lucida"
+    }
+  }
+}

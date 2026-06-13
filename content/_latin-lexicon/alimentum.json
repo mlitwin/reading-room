@@ -1,0 +1,38 @@
+{
+  "lemma": "alimentum",
+  "pos": "noun",
+  "glosses": [
+    "food/nourishment, provisions",
+    "sustenance, maintenance, livelihood",
+    "alms",
+    "fuel"
+  ],
+  "reviewed": false,
+  "head": "alimentum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "alimentum",
+      "gen.sg": "alimenti",
+      "acc.sg": "alimentum",
+      "dat.sg": "alimento",
+      "abl.sg": "alimento",
+      "gen.pl": "alimentorum",
+      "dat.pl": "alimentis",
+      "abl.pl": "alimentis",
+      "nom.pl": "alimenta",
+      "acc.pl": "alimenta"
+    }
+  }
+}

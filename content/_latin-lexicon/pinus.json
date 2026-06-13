@@ -1,0 +1,37 @@
+{
+  "lemma": "pinus",
+  "pos": "noun",
+  "glosses": [
+    "pine/fir tree/wood/foliage",
+    "ship/mast/oar",
+    "pinewood torch"
+  ],
+  "reviewed": false,
+  "head": "pinus, -us, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pinus",
+      "gen.sg": "pinus",
+      "dat.sg": "pinui",
+      "acc.sg": "pinum",
+      "nom.pl": "pinus",
+      "acc.pl": "pinus",
+      "abl.sg": "pinu",
+      "gen.pl": "pinuum",
+      "dat.pl": "pinibus",
+      "abl.pl": "pinibus"
+    }
+  }
+}

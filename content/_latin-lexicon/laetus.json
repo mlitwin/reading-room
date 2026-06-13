@@ -1,0 +1,58 @@
+{
+  "lemma": "laetus",
+  "pos": "adj",
+  "glosses": [
+    "happy/cheerful/joyful/glad",
+    "favorable/propitious",
+    "prosperous/successful",
+    "luxuriant/lush/rich/sleek",
+    "fertile (land)",
+    "teeming/abounding"
+  ],
+  "reviewed": false,
+  "head": "laetus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "laetus",
+      "gen.sg.masc": "laeti",
+      "dat.sg.masc": "laeto",
+      "gen.sg.fem": "laetae",
+      "dat.sg.fem": "laetae",
+      "nom.sg.neut": "laetum",
+      "gen.sg.neut": "laeti",
+      "dat.sg.neut": "laeto",
+      "acc.sg.neut": "laetum",
+      "acc.sg.masc": "laetum",
+      "abl.sg.masc": "laeto",
+      "nom.pl.masc": "laeti",
+      "gen.pl.masc": "laetorum",
+      "acc.pl.masc": "laetos",
+      "nom.sg.fem": "laeta",
+      "acc.sg.fem": "laetam",
+      "abl.sg.fem": "laeta",
+      "nom.pl.fem": "laetae",
+      "gen.pl.fem": "laetarum",
+      "acc.pl.fem": "laetas",
+      "abl.sg.neut": "laeto",
+      "nom.pl.neut": "laeta",
+      "gen.pl.neut": "laetorum",
+      "acc.pl.neut": "laeta"
+    }
+  }
+}

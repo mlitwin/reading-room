@@ -1,0 +1,36 @@
+{
+  "lemma": "plumbum",
+  "pos": "noun",
+  "glosses": [
+    "lead",
+    "[plumbum album => tin]"
+  ],
+  "reviewed": false,
+  "head": "plumbum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "plumbum",
+      "gen.sg": "plumbi",
+      "acc.sg": "plumbum",
+      "dat.sg": "plumbo",
+      "abl.sg": "plumbo",
+      "gen.pl": "plumborum",
+      "dat.pl": "plumbis",
+      "abl.pl": "plumbis",
+      "nom.pl": "plumba",
+      "acc.pl": "plumba"
+    }
+  }
+}

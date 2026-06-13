@@ -1,0 +1,35 @@
+{
+  "lemma": "ingenium",
+  "pos": "noun",
+  "glosses": [
+    "trick, clever device"
+  ],
+  "reviewed": false,
+  "head": "ingenium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ingenium",
+      "gen.sg": "ingenii",
+      "acc.sg": "ingenium",
+      "dat.sg": "ingenio",
+      "abl.sg": "ingenio",
+      "gen.pl": "ingeniorum",
+      "dat.pl": "ingeniis",
+      "abl.pl": "ingeniis",
+      "nom.pl": "ingenia",
+      "acc.pl": "ingenia"
+    }
+  }
+}

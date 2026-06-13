@@ -1,0 +1,35 @@
+{
+  "lemma": "ara",
+  "pos": "noun",
+  "glosses": [
+    "plants of genus arum"
+  ],
+  "reviewed": false,
+  "head": "ara, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "arum",
+      "gen.sg": "ari",
+      "acc.sg": "arum",
+      "dat.sg": "aro",
+      "abl.sg": "aro",
+      "gen.pl": "arorum",
+      "dat.pl": "aris",
+      "abl.pl": "aris",
+      "nom.pl": "ara",
+      "acc.pl": "ara"
+    }
+  }
+}

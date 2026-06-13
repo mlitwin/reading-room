@@ -1,0 +1,36 @@
+{
+  "lemma": "cupido",
+  "pos": "noun",
+  "glosses": [
+    "Cupid, son of Venus",
+    "personification of carnal desire"
+  ],
+  "reviewed": false,
+  "head": "cupido, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "cupidinem",
+      "gen.pl": "cupidinum",
+      "acc.pl": "cupidinis",
+      "nom.sg": "cupido",
+      "gen.sg": "cupidinis",
+      "dat.sg": "cupidini",
+      "abl.sg": "cupidine",
+      "nom.pl": "cupidines",
+      "dat.pl": "cupidinibus",
+      "abl.pl": "cupidinibus"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lemma": "nosco",
+  "pos": "verb",
+  "glosses": [
+    "get to know",
+    "learn, find out",
+    "become cognizant of/acquainted/familiar with",
+    "examine, study, inspect",
+    "try (case)",
+    "recognize, accept as valid/true"
+  ],
+  "reviewed": false,
+  "head": "nosco, noscere, novi, notum",
+  "principal_parts": [
+    "nosco",
+    "noscere",
+    "novi",
+    "notum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "noscis",
+      "3sg.pres.ind.act": "noscit",
+      "1pl.pres.ind.act": "noscimus",
+      "2pl.pres.ind.act": "noscitis",
+      "2sg.pres.imp.act": "nosce",
+      "2pl.pres.imp.act": "noscite"
+    }
+  }
+}

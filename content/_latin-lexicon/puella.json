@@ -1,0 +1,39 @@
+{
+  "lemma": "puella",
+  "pos": "noun",
+  "glosses": [
+    "girl, (female) child/daughter",
+    "maiden",
+    "young woman/wife",
+    "sweetheart",
+    "slavegirl"
+  ],
+  "reviewed": false,
+  "head": "puella, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "puella",
+      "gen.sg": "puellae",
+      "abl.sg": "puella",
+      "acc.sg": "puellam",
+      "dat.sg": "puellae",
+      "nom.pl": "puellae",
+      "gen.pl": "puellarum",
+      "dat.pl": "puellis",
+      "abl.pl": "puellis",
+      "acc.pl": "puellas"
+    }
+  }
+}

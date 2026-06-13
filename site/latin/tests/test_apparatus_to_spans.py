@@ -11,7 +11,7 @@ import apparatus_to_spans  # noqa: E402
 
 class TestChooseCandidate(unittest.TestCase):
     def test_unresolved_fallback(self):
-        self.assertEqual(apparatus_to_spans.choose_candidate([], {}), '?:?')
+        self.assertEqual(apparatus_to_spans.choose_candidate([], {}), 'unknown:unk')
 
     def test_single_candidate_kept(self):
         cands = [{'lemma': 'deus', 'codes': ['nom.pl.masc']}]

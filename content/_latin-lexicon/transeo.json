@@ -1,0 +1,41 @@
+{
+  "lemma": "transeo",
+  "pos": "verb",
+  "glosses": [
+    "go over, cross"
+  ],
+  "reviewed": false,
+  "head": "transeo, transire, transivi, transitum",
+  "principal_parts": [
+    "transeo",
+    "transire",
+    "transivi",
+    "transitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "transeo",
+      "2sg.pres.ind.act": "transis",
+      "3sg.pres.ind.act": "transit",
+      "1pl.pres.ind.act": "transimus",
+      "2pl.pres.ind.act": "transitis",
+      "3pl.pres.ind.act": "transeunt",
+      "2sg.pres.imp.act": "transi",
+      "2pl.pres.imp.act": "transite"
+    }
+  }
+}

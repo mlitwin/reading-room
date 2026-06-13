@@ -1,0 +1,36 @@
+{
+  "lemma": "virgo",
+  "pos": "noun",
+  "glosses": [
+    "maiden, young woman, girl of marriageable age",
+    "virgin, woman sexually intact"
+  ],
+  "reviewed": false,
+  "head": "virgo, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "virginem",
+      "gen.pl": "virginum",
+      "acc.pl": "virginis",
+      "nom.sg": "virgo",
+      "gen.sg": "virginis",
+      "dat.sg": "virgini",
+      "abl.sg": "virgine",
+      "nom.pl": "virgines",
+      "dat.pl": "virginibus",
+      "abl.pl": "virginibus"
+    }
+  }
+}

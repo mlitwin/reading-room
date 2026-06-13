@@ -1,0 +1,35 @@
+{
+  "lemma": "discordia",
+  "pos": "noun",
+  "glosses": [
+    "disagreement, discord"
+  ],
+  "reviewed": false,
+  "head": "discordia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "discordia",
+      "gen.sg": "discordiae",
+      "abl.sg": "discordia",
+      "acc.sg": "discordiam",
+      "dat.sg": "discordiae",
+      "nom.pl": "discordiae",
+      "gen.pl": "discordiarum",
+      "dat.pl": "discordiis",
+      "abl.pl": "discordiis",
+      "acc.pl": "discordias"
+    }
+  }
+}

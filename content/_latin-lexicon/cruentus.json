@@ -1,0 +1,58 @@
+{
+  "lemma": "cruentus",
+  "pos": "adj",
+  "glosses": [
+    "bloody/bleeding/discharging blood",
+    "gory",
+    "blood red",
+    "polluted w/blood-guilt",
+    "bloodthirsty, insatiably cruel, savage",
+    "accompanied by/involving bloodshed"
+  ],
+  "reviewed": false,
+  "head": "cruentus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "cruentus",
+      "gen.sg.masc": "cruenti",
+      "dat.sg.masc": "cruento",
+      "gen.sg.fem": "cruentae",
+      "dat.sg.fem": "cruentae",
+      "nom.sg.neut": "cruentum",
+      "gen.sg.neut": "cruenti",
+      "dat.sg.neut": "cruento",
+      "acc.sg.neut": "cruentum",
+      "acc.sg.masc": "cruentum",
+      "abl.sg.masc": "cruento",
+      "nom.pl.masc": "cruenti",
+      "gen.pl.masc": "cruentorum",
+      "acc.pl.masc": "cruentos",
+      "nom.sg.fem": "cruenta",
+      "acc.sg.fem": "cruentam",
+      "abl.sg.fem": "cruenta",
+      "nom.pl.fem": "cruentae",
+      "gen.pl.fem": "cruentarum",
+      "acc.pl.fem": "cruentas",
+      "abl.sg.neut": "cruento",
+      "nom.pl.neut": "cruenta",
+      "gen.pl.neut": "cruentorum",
+      "acc.pl.neut": "cruenta"
+    }
+  }
+}

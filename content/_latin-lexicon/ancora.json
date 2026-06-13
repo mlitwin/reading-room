@@ -1,0 +1,37 @@
+{
+  "lemma": "ancora",
+  "pos": "noun",
+  "glosses": [
+    "anchor",
+    "grappling iron/hook",
+    "[in/ad ~is => at anchor]"
+  ],
+  "reviewed": false,
+  "head": "ancora, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ancora",
+      "gen.sg": "ancorae",
+      "abl.sg": "ancora",
+      "acc.sg": "ancoram",
+      "dat.sg": "ancorae",
+      "nom.pl": "ancorae",
+      "gen.pl": "ancorarum",
+      "dat.pl": "ancoris",
+      "abl.pl": "ancoris",
+      "acc.pl": "ancoras"
+    }
+  }
+}

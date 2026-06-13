@@ -1,0 +1,38 @@
+{
+  "lemma": "margo",
+  "pos": "noun",
+  "glosses": [
+    "margin, edge, flange, rim, border",
+    "threshold",
+    "bank, retaining wall",
+    "gunwale"
+  ],
+  "reviewed": false,
+  "head": "margo, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "marginem",
+      "gen.pl": "marginum",
+      "acc.pl": "marginis",
+      "nom.sg": "margo",
+      "gen.sg": "marginis",
+      "dat.sg": "margini",
+      "abl.sg": "margine",
+      "nom.pl": "margines",
+      "dat.pl": "marginibus",
+      "abl.pl": "marginibus"
+    }
+  }
+}

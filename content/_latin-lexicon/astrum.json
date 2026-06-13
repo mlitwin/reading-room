@@ -1,0 +1,37 @@
+{
+  "lemma": "astrum",
+  "pos": "noun",
+  "glosses": [
+    "star, heavenly body, planet/sun/moon",
+    "the stars, constellation",
+    "sky, heaven"
+  ],
+  "reviewed": false,
+  "head": "astrum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "astrum",
+      "gen.sg": "astri",
+      "acc.sg": "astrum",
+      "dat.sg": "astro",
+      "abl.sg": "astro",
+      "gen.pl": "astrorum",
+      "dat.pl": "astris",
+      "abl.pl": "astris",
+      "nom.pl": "astra",
+      "acc.pl": "astra"
+    }
+  }
+}

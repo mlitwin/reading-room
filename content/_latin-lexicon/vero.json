@@ -1,0 +1,37 @@
+{
+  "lemma": "vero",
+  "pos": "noun",
+  "glosses": [
+    "spring",
+    "spring-time of life, youth",
+    "[ver sacrum => sacrifice of spring-born]"
+  ],
+  "reviewed": false,
+  "head": "vero, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "vere",
+      "acc.sg": "ver",
+      "nom.pl": "vera",
+      "gen.pl": "verum",
+      "acc.pl": "vera",
+      "nom.sg": "ver",
+      "gen.sg": "veris",
+      "dat.sg": "veri",
+      "dat.pl": "veribus",
+      "abl.pl": "veribus"
+    }
+  }
+}

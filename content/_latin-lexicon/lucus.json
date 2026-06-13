@@ -1,0 +1,36 @@
+{
+  "lemma": "lucus",
+  "pos": "noun",
+  "glosses": [
+    "grove",
+    "sacred grove"
+  ],
+  "reviewed": false,
+  "head": "lucus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lucus",
+      "gen.sg": "luci",
+      "dat.sg": "luco",
+      "abl.sg": "luco",
+      "acc.sg": "lucum",
+      "nom.pl": "luci",
+      "gen.pl": "lucorum",
+      "dat.pl": "lucis",
+      "abl.pl": "lucis",
+      "acc.pl": "lucos"
+    }
+  }
+}

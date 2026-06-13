@@ -1,0 +1,37 @@
+{
+  "lemma": "plebs",
+  "pos": "noun",
+  "glosses": [
+    "common people, general citizens, commons/plebeians",
+    "lower class/ranks",
+    "mob/mass"
+  ],
+  "reviewed": false,
+  "head": "plebs, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "gen.sg": "plebos",
+      "acc.sg": "plebem",
+      "gen.pl": "plebum",
+      "acc.pl": "plebis",
+      "nom.sg": "plebes",
+      "dat.sg": "plebi",
+      "abl.sg": "plebe",
+      "nom.pl": "plebes",
+      "dat.pl": "plebibus",
+      "abl.pl": "plebibus"
+    }
+  }
+}

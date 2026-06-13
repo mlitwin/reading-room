@@ -1,0 +1,37 @@
+{
+  "lemma": "noxa",
+  "pos": "noun",
+  "glosses": [
+    "hurt, injury",
+    "crime",
+    "punishment, harm"
+  ],
+  "reviewed": false,
+  "head": "noxa, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "noxa",
+      "gen.sg": "noxae",
+      "abl.sg": "noxa",
+      "acc.sg": "noxam",
+      "dat.sg": "noxae",
+      "nom.pl": "noxae",
+      "gen.pl": "noxarum",
+      "dat.pl": "noxis",
+      "abl.pl": "noxis",
+      "acc.pl": "noxas"
+    }
+  }
+}

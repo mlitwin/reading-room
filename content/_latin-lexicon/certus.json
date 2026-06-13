@@ -1,0 +1,57 @@
+{
+  "lemma": "certus",
+  "pos": "adj",
+  "glosses": [
+    "fixed, settled, firm",
+    "certain",
+    "trusty/reliable",
+    "sure",
+    "resolved, determined"
+  ],
+  "reviewed": false,
+  "head": "certus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "certus",
+      "gen.sg.masc": "certi",
+      "dat.sg.masc": "certo",
+      "gen.sg.fem": "certae",
+      "dat.sg.fem": "certae",
+      "nom.sg.neut": "certum",
+      "gen.sg.neut": "certi",
+      "dat.sg.neut": "certo",
+      "acc.sg.neut": "certum",
+      "acc.sg.masc": "certum",
+      "abl.sg.masc": "certo",
+      "nom.pl.masc": "certi",
+      "gen.pl.masc": "certorum",
+      "acc.pl.masc": "certos",
+      "nom.sg.fem": "certa",
+      "acc.sg.fem": "certam",
+      "abl.sg.fem": "certa",
+      "nom.pl.fem": "certae",
+      "gen.pl.fem": "certarum",
+      "acc.pl.fem": "certas",
+      "abl.sg.neut": "certo",
+      "nom.pl.neut": "certa",
+      "gen.pl.neut": "certorum",
+      "acc.pl.neut": "certa"
+    }
+  }
+}

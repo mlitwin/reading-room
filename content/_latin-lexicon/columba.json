@@ -1,0 +1,38 @@
+{
+  "lemma": "columba",
+  "pos": "noun",
+  "glosses": [
+    "pigeon",
+    "dove",
+    "(term of endearment)",
+    "(bird of Venus/symbol of love/gentleness)"
+  ],
+  "reviewed": false,
+  "head": "columba, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "columba",
+      "gen.sg": "columbae",
+      "abl.sg": "columba",
+      "acc.sg": "columbam",
+      "dat.sg": "columbae",
+      "nom.pl": "columbae",
+      "gen.pl": "columbarum",
+      "dat.pl": "columbis",
+      "abl.pl": "columbis",
+      "acc.pl": "columbas"
+    }
+  }
+}

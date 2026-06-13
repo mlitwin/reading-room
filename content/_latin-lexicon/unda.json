@@ -1,0 +1,35 @@
+{
+  "lemma": "unda",
+  "pos": "noun",
+  "glosses": [
+    "wave"
+  ],
+  "reviewed": false,
+  "head": "unda, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "unda",
+      "gen.sg": "undae",
+      "abl.sg": "unda",
+      "acc.sg": "undam",
+      "dat.sg": "undae",
+      "nom.pl": "undae",
+      "gen.pl": "undarum",
+      "dat.pl": "undis",
+      "abl.pl": "undis",
+      "acc.pl": "undas"
+    }
+  }
+}

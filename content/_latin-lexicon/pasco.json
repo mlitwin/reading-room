@@ -1,0 +1,40 @@
+{
+  "lemma": "pasco",
+  "pos": "verb",
+  "glosses": [
+    "feed, feed on",
+    "graze"
+  ],
+  "reviewed": false,
+  "head": "pasco, pascere, pavi, pastum",
+  "principal_parts": [
+    "pasco",
+    "pascere",
+    "pavi",
+    "pastum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "pascis",
+      "3sg.pres.ind.act": "pascit",
+      "1pl.pres.ind.act": "pascimus",
+      "2pl.pres.ind.act": "pascitis",
+      "2sg.pres.imp.act": "pasce",
+      "2pl.pres.imp.act": "pascite"
+    }
+  }
+}

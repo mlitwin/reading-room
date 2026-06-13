@@ -1,0 +1,38 @@
+{
+  "lemma": "vertex",
+  "pos": "noun",
+  "glosses": [
+    "whirlpool, eddy, vortex",
+    "crown of the head",
+    "peak, top, summit",
+    "the pole"
+  ],
+  "reviewed": false,
+  "head": "vertex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "verticem",
+      "gen.pl": "verticum",
+      "acc.pl": "verticis",
+      "nom.sg": "vertex",
+      "gen.sg": "verticis",
+      "dat.sg": "vertici",
+      "abl.sg": "vertice",
+      "nom.pl": "vertices",
+      "dat.pl": "verticibus",
+      "abl.pl": "verticibus"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "vacca",
+  "pos": "noun",
+  "glosses": [
+    "cow"
+  ],
+  "reviewed": false,
+  "head": "vacca, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vacca",
+      "gen.sg": "vaccae",
+      "abl.sg": "vacca",
+      "acc.sg": "vaccam",
+      "dat.sg": "vaccae",
+      "nom.pl": "vaccae",
+      "gen.pl": "vaccarum",
+      "dat.pl": "vaccis",
+      "abl.pl": "vaccis",
+      "acc.pl": "vaccas"
+    }
+  }
+}

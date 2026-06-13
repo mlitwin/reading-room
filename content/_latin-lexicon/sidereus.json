@@ -1,0 +1,56 @@
+{
+  "lemma": "sidereus",
+  "pos": "adj",
+  "glosses": [
+    "starry",
+    "relating to stars",
+    "heavenly",
+    "star-like"
+  ],
+  "reviewed": false,
+  "head": "sidereus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "sidereus",
+      "gen.sg.masc": "siderei",
+      "dat.sg.masc": "sidereo",
+      "gen.sg.fem": "sidereae",
+      "dat.sg.fem": "sidereae",
+      "nom.sg.neut": "sidereum",
+      "gen.sg.neut": "siderei",
+      "dat.sg.neut": "sidereo",
+      "acc.sg.neut": "sidereum",
+      "acc.sg.masc": "sidereum",
+      "abl.sg.masc": "sidereo",
+      "nom.pl.masc": "siderei",
+      "gen.pl.masc": "sidereorum",
+      "acc.pl.masc": "sidereos",
+      "nom.sg.fem": "siderea",
+      "acc.sg.fem": "sideream",
+      "abl.sg.fem": "siderea",
+      "nom.pl.fem": "sidereae",
+      "gen.pl.fem": "siderearum",
+      "acc.pl.fem": "sidereas",
+      "abl.sg.neut": "sidereo",
+      "nom.pl.neut": "siderea",
+      "gen.pl.neut": "sidereorum",
+      "acc.pl.neut": "siderea"
+    }
+  }
+}

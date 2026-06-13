@@ -1,0 +1,35 @@
+{
+  "lemma": "pluvia",
+  "pos": "noun",
+  "glosses": [
+    "rain, shower"
+  ],
+  "reviewed": false,
+  "head": "pluvia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pluvia",
+      "gen.sg": "pluviae",
+      "abl.sg": "pluvia",
+      "acc.sg": "pluviam",
+      "dat.sg": "pluviae",
+      "nom.pl": "pluviae",
+      "gen.pl": "pluviarum",
+      "dat.pl": "pluviis",
+      "abl.pl": "pluviis",
+      "acc.pl": "pluvias"
+    }
+  }
+}

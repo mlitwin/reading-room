@@ -1,0 +1,33 @@
+{
+  "lemma": "habitabilis",
+  "pos": "adj",
+  "glosses": [
+    "habitable"
+  ],
+  "reviewed": false,
+  "head": "habitabilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "habitabile",
+      "acc.sg.neut": "habitabile",
+      "nom.pl.neut": "habitabilia",
+      "acc.pl.neut": "habitabilia"
+    }
+  }
+}

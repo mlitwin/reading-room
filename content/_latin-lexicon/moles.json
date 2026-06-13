@@ -1,0 +1,40 @@
+{
+  "lemma": "moles",
+  "pos": "noun",
+  "glosses": [
+    "large mass",
+    "rock/boulder",
+    "heap/lump/pile, bulk",
+    "monster",
+    "mole/jetty/dam/dike",
+    "large structure/building"
+  ],
+  "reviewed": false,
+  "head": "moles, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "moli",
+      "acc.sg": "molem",
+      "nom.pl": "molis",
+      "gen.pl": "molium",
+      "acc.pl": "molis",
+      "nom.sg": "moles",
+      "gen.sg": "molis",
+      "dat.sg": "moli",
+      "dat.pl": "molibus",
+      "abl.pl": "molibus"
+    }
+  }
+}

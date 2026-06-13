@@ -1,0 +1,35 @@
+{
+  "lemma": "suus",
+  "pos": "noun",
+  "glosses": [
+    "his men (pl.), his friends"
+  ],
+  "reviewed": false,
+  "head": "suus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "suus",
+      "gen.sg": "sui",
+      "dat.sg": "suo",
+      "abl.sg": "suo",
+      "acc.sg": "suum",
+      "nom.pl": "sui",
+      "gen.pl": "suorum",
+      "dat.pl": "suis",
+      "abl.pl": "suis",
+      "acc.pl": "suos"
+    }
+  }
+}

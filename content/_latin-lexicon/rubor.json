@@ -1,0 +1,37 @@
+{
+  "lemma": "rubor",
+  "pos": "noun",
+  "glosses": [
+    "redness, blush",
+    "modesty, capacity to blush",
+    "shame, disgrace, what causes blush"
+  ],
+  "reviewed": false,
+  "head": "rubor, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "ruborem",
+      "gen.pl": "ruborum",
+      "acc.pl": "ruboris",
+      "nom.sg": "rubor",
+      "gen.sg": "ruboris",
+      "dat.sg": "rubori",
+      "abl.sg": "rubore",
+      "nom.pl": "rubores",
+      "dat.pl": "ruboribus",
+      "abl.pl": "ruboribus"
+    }
+  }
+}

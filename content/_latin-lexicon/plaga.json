@@ -1,0 +1,40 @@
+{
+  "lemma": "plaga",
+  "pos": "noun",
+  "glosses": [
+    "stroke/blow/stripe/cut/thrust",
+    "wound/gash/scar, injury",
+    "misfortune",
+    "E:plague",
+    "tract/region/quarter/zone/area",
+    "open expanse of country/sea/sky"
+  ],
+  "reviewed": false,
+  "head": "plaga, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "plaga",
+      "gen.sg": "plagae",
+      "abl.sg": "plaga",
+      "acc.sg": "plagam",
+      "dat.sg": "plagae",
+      "nom.pl": "plagae",
+      "gen.pl": "plagarum",
+      "dat.pl": "plagis",
+      "abl.pl": "plagis",
+      "acc.pl": "plagas"
+    }
+  }
+}

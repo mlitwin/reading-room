@@ -1,0 +1,37 @@
+{
+  "lemma": "patria",
+  "pos": "noun",
+  "glosses": [
+    "native land",
+    "home, native city",
+    "one's country"
+  ],
+  "reviewed": false,
+  "head": "patria, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "patria",
+      "gen.sg": "patriae",
+      "abl.sg": "patria",
+      "acc.sg": "patriam",
+      "dat.sg": "patriae",
+      "nom.pl": "patriae",
+      "gen.pl": "patriarum",
+      "dat.pl": "patriis",
+      "abl.pl": "patriis",
+      "acc.pl": "patrias"
+    }
+  }
+}

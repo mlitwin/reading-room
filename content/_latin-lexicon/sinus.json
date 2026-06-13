@@ -1,0 +1,35 @@
+{
+  "lemma": "sinus",
+  "pos": "noun",
+  "glosses": [
+    "bowl for serving wine, etc"
+  ],
+  "reviewed": false,
+  "head": "sinus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sinus",
+      "gen.sg": "sini",
+      "dat.sg": "sino",
+      "abl.sg": "sino",
+      "acc.sg": "sinum",
+      "nom.pl": "sini",
+      "gen.pl": "sinorum",
+      "dat.pl": "sinis",
+      "abl.pl": "sinis",
+      "acc.pl": "sinos"
+    }
+  }
+}

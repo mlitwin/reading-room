@@ -1,0 +1,35 @@
+{
+  "lemma": "fragor",
+  "pos": "noun",
+  "glosses": [
+    "noise, crash"
+  ],
+  "reviewed": false,
+  "head": "fragor, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "fragorem",
+      "gen.pl": "fragorum",
+      "acc.pl": "fragoris",
+      "nom.sg": "fragor",
+      "gen.sg": "fragoris",
+      "dat.sg": "fragori",
+      "abl.sg": "fragore",
+      "nom.pl": "fragores",
+      "dat.pl": "fragoribus",
+      "abl.pl": "fragoribus"
+    }
+  }
+}

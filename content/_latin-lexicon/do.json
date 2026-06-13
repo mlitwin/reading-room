@@ -1,0 +1,46 @@
+{
+  "lemma": "do",
+  "pos": "verb",
+  "glosses": [
+    "give",
+    "dedicate",
+    "sell",
+    "pay",
+    "grant/bestow/impart/offer/lend",
+    "devote"
+  ],
+  "reviewed": false,
+  "head": "do, dare, dedi, datum",
+  "principal_parts": [
+    "do",
+    "dare",
+    "dedi",
+    "datum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "do",
+      "2sg.pres.ind.act": "das",
+      "3sg.pres.ind.act": "dat",
+      "1pl.pres.ind.act": "damus",
+      "2pl.pres.ind.act": "datis",
+      "3pl.pres.ind.act": "dant",
+      "2sg.pres.imp.act": "da",
+      "2pl.pres.imp.act": "date"
+    }
+  }
+}

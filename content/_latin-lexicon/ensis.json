@@ -1,0 +1,35 @@
+{
+  "lemma": "ensis",
+  "pos": "noun",
+  "glosses": [
+    "sword"
+  ],
+  "reviewed": false,
+  "head": "ensis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "ensi",
+      "acc.sg": "ensem",
+      "nom.pl": "ensis",
+      "gen.pl": "ensium",
+      "acc.pl": "ensis",
+      "nom.sg": "ensis",
+      "gen.sg": "ensis",
+      "dat.sg": "ensi",
+      "dat.pl": "ensibus",
+      "abl.pl": "ensibus"
+    }
+  }
+}

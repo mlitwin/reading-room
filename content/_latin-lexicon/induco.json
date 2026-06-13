@@ -1,0 +1,41 @@
+{
+  "lemma": "induco",
+  "pos": "verb",
+  "glosses": [
+    "lead in, bring in (performers)",
+    "induce, influence",
+    "introduce"
+  ],
+  "reviewed": false,
+  "head": "induco, inducere, induxi, inductum",
+  "principal_parts": [
+    "induco",
+    "inducere",
+    "induxi",
+    "inductum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "inducis",
+      "3sg.pres.ind.act": "inducit",
+      "1pl.pres.ind.act": "inducimus",
+      "2pl.pres.ind.act": "inducitis",
+      "2sg.pres.imp.act": "induce",
+      "2pl.pres.imp.act": "inducite"
+    }
+  }
+}

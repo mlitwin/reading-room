@@ -1,0 +1,38 @@
+{
+  "lemma": "regio",
+  "pos": "noun",
+  "glosses": [
+    "area, region",
+    "neighborhood",
+    "district, country",
+    "direction"
+  ],
+  "reviewed": false,
+  "head": "regio, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "regionem",
+      "gen.pl": "regionum",
+      "acc.pl": "regionis",
+      "nom.sg": "regio",
+      "gen.sg": "regionis",
+      "dat.sg": "regioni",
+      "abl.sg": "regione",
+      "nom.pl": "regiones",
+      "dat.pl": "regionibus",
+      "abl.pl": "regionibus"
+    }
+  }
+}

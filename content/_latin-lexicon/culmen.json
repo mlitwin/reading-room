@@ -1,0 +1,38 @@
+{
+  "lemma": "culmen",
+  "pos": "noun",
+  "glosses": [
+    "height/peak/top/summit/zenith",
+    "roof, gable, ridge-pole",
+    "head, chief",
+    "\"keystone\""
+  ],
+  "reviewed": false,
+  "head": "culmen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "culmine",
+      "acc.sg": "culmen",
+      "nom.pl": "culmina",
+      "gen.pl": "culminum",
+      "acc.pl": "culmina",
+      "nom.sg": "culmen",
+      "gen.sg": "culminis",
+      "dat.sg": "culmini",
+      "dat.pl": "culminibus",
+      "abl.pl": "culminibus"
+    }
+  }
+}

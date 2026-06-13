@@ -1,0 +1,35 @@
+{
+  "lemma": "caecus",
+  "pos": "noun",
+  "glosses": [
+    "blind person"
+  ],
+  "reviewed": false,
+  "head": "caecus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "caecus",
+      "gen.sg": "caeci",
+      "dat.sg": "caeco",
+      "abl.sg": "caeco",
+      "acc.sg": "caecum",
+      "nom.pl": "caeci",
+      "gen.pl": "caecorum",
+      "dat.pl": "caecis",
+      "abl.pl": "caecis",
+      "acc.pl": "caecos"
+    }
+  }
+}

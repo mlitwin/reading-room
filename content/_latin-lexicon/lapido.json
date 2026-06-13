@@ -1,0 +1,43 @@
+{
+  "lemma": "lapido",
+  "pos": "verb",
+  "glosses": [
+    "throw stones at",
+    "stone",
+    "[lapidat => it rains stones]"
+  ],
+  "reviewed": false,
+  "head": "lapido, lapidare, lapidavi, lapidatum",
+  "principal_parts": [
+    "lapido",
+    "lapidare",
+    "lapidavi",
+    "lapidatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "lapido",
+      "2sg.pres.ind.act": "lapidas",
+      "3sg.pres.ind.act": "lapidat",
+      "1pl.pres.ind.act": "lapidamus",
+      "2pl.pres.ind.act": "lapidatis",
+      "3pl.pres.ind.act": "lapidant",
+      "2sg.pres.imp.act": "lapida",
+      "2pl.pres.imp.act": "lapidate"
+    }
+  }
+}

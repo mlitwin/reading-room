@@ -1,0 +1,44 @@
+{
+  "lemma": "clamo",
+  "pos": "verb",
+  "glosses": [
+    "proclaim, declare",
+    "cry/shout out",
+    "shout/call name of",
+    "accompany with shouts"
+  ],
+  "reviewed": false,
+  "head": "clamo, clamare, clamavi, clamatum",
+  "principal_parts": [
+    "clamo",
+    "clamare",
+    "clamavi",
+    "clamatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "clamo",
+      "2sg.pres.ind.act": "clamas",
+      "3sg.pres.ind.act": "clamat",
+      "1pl.pres.ind.act": "clamamus",
+      "2pl.pres.ind.act": "clamatis",
+      "3pl.pres.ind.act": "clamant",
+      "2sg.pres.imp.act": "clama",
+      "2pl.pres.imp.act": "clamate"
+    }
+  }
+}

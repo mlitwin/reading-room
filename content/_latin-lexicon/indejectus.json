@@ -1,0 +1,53 @@
+{
+  "lemma": "indejectus",
+  "pos": "adj",
+  "glosses": [
+    "not thrown down"
+  ],
+  "reviewed": false,
+  "head": "indejectus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "indejectus",
+      "gen.sg.masc": "indejecti",
+      "dat.sg.masc": "indejecto",
+      "gen.sg.fem": "indejectae",
+      "dat.sg.fem": "indejectae",
+      "nom.sg.neut": "indejectum",
+      "gen.sg.neut": "indejecti",
+      "dat.sg.neut": "indejecto",
+      "acc.sg.neut": "indejectum",
+      "acc.sg.masc": "indejectum",
+      "abl.sg.masc": "indejecto",
+      "nom.pl.masc": "indejecti",
+      "gen.pl.masc": "indejectorum",
+      "acc.pl.masc": "indejectos",
+      "nom.sg.fem": "indejecta",
+      "acc.sg.fem": "indejectam",
+      "abl.sg.fem": "indejecta",
+      "nom.pl.fem": "indejectae",
+      "gen.pl.fem": "indejectarum",
+      "acc.pl.fem": "indejectas",
+      "abl.sg.neut": "indejecto",
+      "nom.pl.neut": "indejecta",
+      "gen.pl.neut": "indejectorum",
+      "acc.pl.neut": "indejecta"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "lemma": "arbuteus",
+  "pos": "adj",
+  "glosses": [
+    "of the evergreen strawberry tree (arbutus)",
+    "of arbustus wood"
+  ],
+  "reviewed": false,
+  "head": "arbuteus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "arbuteus",
+      "gen.sg.masc": "arbutei",
+      "dat.sg.masc": "arbuteo",
+      "gen.sg.fem": "arbuteae",
+      "dat.sg.fem": "arbuteae",
+      "nom.sg.neut": "arbuteum",
+      "gen.sg.neut": "arbutei",
+      "dat.sg.neut": "arbuteo",
+      "acc.sg.neut": "arbuteum",
+      "acc.sg.masc": "arbuteum",
+      "abl.sg.masc": "arbuteo",
+      "nom.pl.masc": "arbutei",
+      "gen.pl.masc": "arbuteorum",
+      "acc.pl.masc": "arbuteos",
+      "nom.sg.fem": "arbutea",
+      "acc.sg.fem": "arbuteam",
+      "abl.sg.fem": "arbutea",
+      "nom.pl.fem": "arbuteae",
+      "gen.pl.fem": "arbutearum",
+      "acc.pl.fem": "arbuteas",
+      "abl.sg.neut": "arbuteo",
+      "nom.pl.neut": "arbutea",
+      "gen.pl.neut": "arbuteorum",
+      "acc.pl.neut": "arbutea"
+    }
+  }
+}

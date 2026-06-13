@@ -1,0 +1,35 @@
+{
+  "lemma": "mitis",
+  "pos": "adj",
+  "glosses": [
+    "mild, meek, gentle, placid, soothing",
+    "clement",
+    "ripe, sweet and juicy"
+  ],
+  "reviewed": false,
+  "head": "mitis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "mite",
+      "acc.sg.neut": "mite",
+      "nom.pl.neut": "mitia",
+      "acc.pl.neut": "mitia"
+    }
+  }
+}

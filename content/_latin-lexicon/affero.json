@@ -1,0 +1,41 @@
+{
+  "lemma": "affero",
+  "pos": "verb",
+  "glosses": [
+    "bring to (word/food), carry, convey",
+    "report, allege, announce",
+    "produce, cause"
+  ],
+  "reviewed": false,
+  "head": "affero, afferere, attuli, allatum",
+  "principal_parts": [
+    "affero",
+    "afferere",
+    "attuli",
+    "allatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "affers",
+      "3sg.pres.ind.act": "affert",
+      "1pl.pres.ind.act": "afferimus",
+      "2pl.pres.ind.act": "affertis",
+      "2sg.pres.imp.act": "affer",
+      "2pl.pres.imp.act": "afferte"
+    }
+  }
+}

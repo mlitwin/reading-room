@@ -1,0 +1,35 @@
+{
+  "lemma": "sonitus",
+  "pos": "noun",
+  "glosses": [
+    "noise, loud sound"
+  ],
+  "reviewed": false,
+  "head": "sonitus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sonitus",
+      "gen.sg": "sonitus",
+      "dat.sg": "sonitui",
+      "acc.sg": "sonitum",
+      "nom.pl": "sonitus",
+      "acc.pl": "sonitus",
+      "abl.sg": "sonitu",
+      "gen.pl": "sonituum",
+      "dat.pl": "sonitibus",
+      "abl.pl": "sonitibus"
+    }
+  }
+}

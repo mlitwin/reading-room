@@ -1,0 +1,40 @@
+{
+  "lemma": "saeta",
+  "pos": "noun",
+  "glosses": [
+    "hair",
+    "(coarse/stiff)",
+    "bristle",
+    "brush",
+    "morbid internal growth",
+    "fishing-leader"
+  ],
+  "reviewed": false,
+  "head": "saeta, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "saeta",
+      "gen.sg": "saetae",
+      "abl.sg": "saeta",
+      "acc.sg": "saetam",
+      "dat.sg": "saetae",
+      "nom.pl": "saetae",
+      "gen.pl": "saetarum",
+      "dat.pl": "saetis",
+      "abl.pl": "saetis",
+      "acc.pl": "saetas"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lemma": "collis",
+  "pos": "noun",
+  "glosses": [
+    "hill, hillock, eminence, hill-top",
+    "mound",
+    "high ground",
+    "mountains (pl.) (poetic)"
+  ],
+  "reviewed": false,
+  "head": "collis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "colli",
+      "acc.sg": "collem",
+      "nom.pl": "collis",
+      "gen.pl": "collium",
+      "acc.pl": "collis",
+      "nom.sg": "collis",
+      "gen.sg": "collis",
+      "dat.sg": "colli",
+      "dat.pl": "collibus",
+      "abl.pl": "collibus"
+    }
+  }
+}

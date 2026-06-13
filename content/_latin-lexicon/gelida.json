@@ -1,0 +1,35 @@
+{
+  "lemma": "gelida",
+  "pos": "noun",
+  "glosses": [
+    "ice cold water"
+  ],
+  "reviewed": false,
+  "head": "gelida, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "gelida",
+      "gen.sg": "gelidae",
+      "abl.sg": "gelida",
+      "acc.sg": "gelidam",
+      "dat.sg": "gelidae",
+      "nom.pl": "gelidae",
+      "gen.pl": "gelidarum",
+      "dat.pl": "gelidis",
+      "abl.pl": "gelidis",
+      "acc.pl": "gelidas"
+    }
+  }
+}

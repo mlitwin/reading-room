@@ -1,0 +1,36 @@
+{
+  "lemma": "assensus",
+  "pos": "noun",
+  "glosses": [
+    "assent, agreement, belief",
+    "approval, approbation, applause"
+  ],
+  "reviewed": false,
+  "head": "assensus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "assensus",
+      "gen.sg": "assensus",
+      "dat.sg": "assensui",
+      "acc.sg": "assensum",
+      "nom.pl": "assensus",
+      "acc.pl": "assensus",
+      "abl.sg": "assensu",
+      "gen.pl": "assensuum",
+      "dat.pl": "assensibus",
+      "abl.pl": "assensibus"
+    }
+  }
+}

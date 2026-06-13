@@ -1,0 +1,37 @@
+{
+  "lemma": "artus",
+  "pos": "noun",
+  "glosses": [
+    "arm/leg/limb, joint, part of the body",
+    "frame (pl.), body",
+    "sexual members/organs"
+  ],
+  "reviewed": false,
+  "head": "artus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "artus",
+      "gen.sg": "artus",
+      "dat.sg": "artui",
+      "acc.sg": "artum",
+      "nom.pl": "artus",
+      "acc.pl": "artus",
+      "abl.sg": "artu",
+      "gen.pl": "artuum",
+      "dat.pl": "artibus",
+      "abl.pl": "artibus"
+    }
+  }
+}

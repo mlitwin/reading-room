@@ -1,0 +1,53 @@
+{
+  "lemma": "moderatus",
+  "pos": "adj",
+  "glosses": [
+    "controlled, restrained, moderate, temperate, sober"
+  ],
+  "reviewed": false,
+  "head": "moderatus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "moderatus",
+      "gen.sg.masc": "moderati",
+      "dat.sg.masc": "moderato",
+      "gen.sg.fem": "moderatae",
+      "dat.sg.fem": "moderatae",
+      "nom.sg.neut": "moderatum",
+      "gen.sg.neut": "moderati",
+      "dat.sg.neut": "moderato",
+      "acc.sg.neut": "moderatum",
+      "acc.sg.masc": "moderatum",
+      "abl.sg.masc": "moderato",
+      "nom.pl.masc": "moderati",
+      "gen.pl.masc": "moderatorum",
+      "acc.pl.masc": "moderatos",
+      "nom.sg.fem": "moderata",
+      "acc.sg.fem": "moderatam",
+      "abl.sg.fem": "moderata",
+      "nom.pl.fem": "moderatae",
+      "gen.pl.fem": "moderatarum",
+      "acc.pl.fem": "moderatas",
+      "abl.sg.neut": "moderato",
+      "nom.pl.neut": "moderata",
+      "gen.pl.neut": "moderatorum",
+      "acc.pl.neut": "moderata"
+    }
+  }
+}

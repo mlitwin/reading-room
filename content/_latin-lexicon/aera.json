@@ -1,0 +1,38 @@
+{
+  "lemma": "aera",
+  "pos": "noun",
+  "glosses": [
+    "darnel (grass/weed, grows among wheat, subject to ergot, thereby dangerous)",
+    "parameter from which a calculation is made",
+    "item of account",
+    "era/epoch"
+  ],
+  "reviewed": false,
+  "head": "aera, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aera",
+      "gen.sg": "aerae",
+      "abl.sg": "aera",
+      "acc.sg": "aeram",
+      "dat.sg": "aerae",
+      "nom.pl": "aerae",
+      "gen.pl": "aerarum",
+      "dat.pl": "aeris",
+      "abl.pl": "aeris",
+      "acc.pl": "aeras"
+    }
+  }
+}

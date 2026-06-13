@@ -1,0 +1,41 @@
+{
+  "lemma": "moto",
+  "pos": "verb",
+  "glosses": [
+    "set in motion, shake, stir, etc"
+  ],
+  "reviewed": false,
+  "head": "moto, motare, motavi, motatum",
+  "principal_parts": [
+    "moto",
+    "motare",
+    "motavi",
+    "motatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "moto",
+      "2sg.pres.ind.act": "motas",
+      "3sg.pres.ind.act": "motat",
+      "1pl.pres.ind.act": "motamus",
+      "2pl.pres.ind.act": "motatis",
+      "3pl.pres.ind.act": "motant",
+      "2sg.pres.imp.act": "mota",
+      "2pl.pres.imp.act": "motate"
+    }
+  }
+}

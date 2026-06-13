@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T17:43:28.700Z",
+  "generated_at": "2026-06-13T18:08:36.464Z",
   "pieces": [
     {
       "slug": "ovid-metamorphoses",
@@ -28,6 +28,61 @@
             "slug": "python",
             "title": "The Python episode (Met I.416–451)",
             "html_path": "ovid-metamorphoses/python.html"
+          },
+          {
+            "slug": "book1-card-02",
+            "title": "Book 1 card 02 (Met I.5–88)",
+            "html_path": "ovid-metamorphoses/book1-card-02.html"
+          },
+          {
+            "slug": "book1-card-03",
+            "title": "Giants (Met I.89–162)",
+            "html_path": "ovid-metamorphoses/book1-card-03.html"
+          },
+          {
+            "slug": "book1-card-04",
+            "title": "The deluge (Met I.163–252)",
+            "html_path": "ovid-metamorphoses/book1-card-04.html"
+          },
+          {
+            "slug": "book1-card-05",
+            "title": "Book 1 card 05 (Met I.253–347)",
+            "html_path": "ovid-metamorphoses/book1-card-05.html"
+          },
+          {
+            "slug": "book1-card-06",
+            "title": "Book 1 card 06 (Met I.348–415)",
+            "html_path": "ovid-metamorphoses/book1-card-06.html"
+          },
+          {
+            "slug": "book1-card-08",
+            "title": "Book 1 card 08 (Met I.452–524)",
+            "html_path": "ovid-metamorphoses/book1-card-08.html"
+          },
+          {
+            "slug": "book1-card-09",
+            "title": "Book 1 card 09 (Met I.525–567)",
+            "html_path": "ovid-metamorphoses/book1-card-09.html"
+          },
+          {
+            "slug": "book1-card-10",
+            "title": "Book 1 card 10 (Met I.568–650)",
+            "html_path": "ovid-metamorphoses/book1-card-10.html"
+          },
+          {
+            "slug": "book1-card-11",
+            "title": "Book 1 card 11 (Met I.651–712)",
+            "html_path": "ovid-metamorphoses/book1-card-11.html"
+          },
+          {
+            "slug": "book1-card-12",
+            "title": "Book 1 card 12 (Met I.713–746)",
+            "html_path": "ovid-metamorphoses/book1-card-12.html"
+          },
+          {
+            "slug": "book1-card-13",
+            "title": "Book 1 card 13 (Met I.747–779)",
+            "html_path": "ovid-metamorphoses/book1-card-13.html"
           },
           {
             "slug": "notes",

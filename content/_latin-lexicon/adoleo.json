@@ -1,0 +1,43 @@
+{
+  "lemma": "adoleo",
+  "pos": "verb",
+  "glosses": [
+    "worship, make/burn sacrifice/offerings",
+    "cremate",
+    "destroy/treat by fire/heat"
+  ],
+  "reviewed": false,
+  "head": "adoleo, adolere, adolui, adolultum",
+  "principal_parts": [
+    "adoleo",
+    "adolere",
+    "adolui",
+    "adolultum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "adoleo",
+      "2sg.pres.ind.act": "adoles",
+      "3sg.pres.ind.act": "adolet",
+      "1pl.pres.ind.act": "adolemus",
+      "2pl.pres.ind.act": "adoletis",
+      "3pl.pres.ind.act": "adolent",
+      "2sg.pres.imp.act": "adole",
+      "2pl.pres.imp.act": "adolete"
+    }
+  }
+}

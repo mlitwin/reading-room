@@ -1,0 +1,36 @@
+{
+  "lemma": "luctus",
+  "pos": "noun",
+  "glosses": [
+    "grief, sorrow, lamentation, mourning",
+    "cause of grief"
+  ],
+  "reviewed": false,
+  "head": "luctus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "luctus",
+      "gen.sg": "luctus",
+      "dat.sg": "luctui",
+      "acc.sg": "luctum",
+      "nom.pl": "luctus",
+      "acc.pl": "luctus",
+      "abl.sg": "luctu",
+      "gen.pl": "luctuum",
+      "dat.pl": "luctibus",
+      "abl.pl": "luctibus"
+    }
+  }
+}

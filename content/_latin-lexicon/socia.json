@@ -1,0 +1,36 @@
+{
+  "lemma": "socia",
+  "pos": "noun",
+  "glosses": [
+    "associate/partner (female)",
+    "companion/partner (in marriage)"
+  ],
+  "reviewed": false,
+  "head": "socia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "socia",
+      "gen.sg": "sociae",
+      "abl.sg": "socia",
+      "acc.sg": "sociam",
+      "dat.sg": "sociae",
+      "nom.pl": "sociae",
+      "gen.pl": "sociarum",
+      "dat.pl": "sociis",
+      "abl.pl": "sociis",
+      "acc.pl": "socias"
+    }
+  }
+}

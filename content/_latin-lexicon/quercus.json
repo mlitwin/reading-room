@@ -1,0 +1,38 @@
+{
+  "lemma": "quercus",
+  "pos": "noun",
+  "glosses": [
+    "oak, oak-tree",
+    "oak wood/timber/object",
+    "oak leaf garland (honor)",
+    "sea-oak"
+  ],
+  "reviewed": false,
+  "head": "quercus, -us, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "quercus",
+      "gen.sg": "quercus",
+      "dat.sg": "quercui",
+      "acc.sg": "quercum",
+      "nom.pl": "quercus",
+      "acc.pl": "quercus",
+      "abl.sg": "quercu",
+      "gen.pl": "quercuum",
+      "dat.pl": "quercibus",
+      "abl.pl": "quercibus"
+    }
+  }
+}

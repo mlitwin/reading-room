@@ -1,0 +1,41 @@
+{
+  "lemma": "dissocio",
+  "pos": "verb",
+  "glosses": [
+    "be/set at variance with, split into factions, separate, part"
+  ],
+  "reviewed": false,
+  "head": "dissocio, dissociare, dissociavi, dissociatum",
+  "principal_parts": [
+    "dissocio",
+    "dissociare",
+    "dissociavi",
+    "dissociatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "dissocio",
+      "2sg.pres.ind.act": "dissocias",
+      "3sg.pres.ind.act": "dissociat",
+      "1pl.pres.ind.act": "dissociamus",
+      "2pl.pres.ind.act": "dissociatis",
+      "3pl.pres.ind.act": "dissociant",
+      "2sg.pres.imp.act": "dissocia",
+      "2pl.pres.imp.act": "dissociate"
+    }
+  }
+}

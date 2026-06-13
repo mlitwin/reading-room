@@ -1,0 +1,42 @@
+{
+  "lemma": "juvo",
+  "pos": "verb",
+  "glosses": [
+    "help, assist, aid, support, serve, further",
+    "please, delight, gratify"
+  ],
+  "reviewed": false,
+  "head": "juvo, juvare, juvi, jutum",
+  "principal_parts": [
+    "juvo",
+    "juvare",
+    "juvi",
+    "jutum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "juvo",
+      "2sg.pres.ind.act": "juvas",
+      "3sg.pres.ind.act": "juvat",
+      "1pl.pres.ind.act": "juvamus",
+      "2pl.pres.ind.act": "juvatis",
+      "3pl.pres.ind.act": "juvant",
+      "2sg.pres.imp.act": "juva",
+      "2pl.pres.imp.act": "juvate"
+    }
+  }
+}

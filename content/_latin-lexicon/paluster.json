@@ -1,0 +1,36 @@
+{
+  "lemma": "paluster",
+  "pos": "adj",
+  "glosses": [
+    "marshy",
+    "of marshes"
+  ],
+  "reviewed": false,
+  "head": "paluster, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "paluster",
+      "nom.sg.fem": "palustris",
+      "nom.sg.neut": "palustre",
+      "acc.sg.neut": "palustre",
+      "nom.pl.neut": "palustria",
+      "acc.pl.neut": "palustria"
+    }
+  }
+}

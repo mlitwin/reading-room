@@ -10,7 +10,7 @@ import trim_primary
 
 def choose_candidate(candidates, lexicon_pos):
     if not candidates:
-        return '?:?'
+        return 'unknown:unk'
     if len(candidates) == 1:
         c = candidates[0]
         lemma = seed.LEMMA_ALIAS.get(c['lemma'], c['lemma'])

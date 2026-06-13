@@ -1,0 +1,40 @@
+{
+  "lemma": "nubes",
+  "pos": "noun",
+  "glosses": [
+    "cloud/mist/haze/dust/smoke",
+    "sky/air",
+    "billowy formation (hair)",
+    "swarm/multitude",
+    "frown, gloomy expression",
+    "gloom/anxiety"
+  ],
+  "reviewed": false,
+  "head": "nubes, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "nubi",
+      "acc.sg": "nubem",
+      "nom.pl": "nubis",
+      "gen.pl": "nubium",
+      "acc.pl": "nubis",
+      "nom.sg": "nubes",
+      "gen.sg": "nubis",
+      "dat.sg": "nubi",
+      "dat.pl": "nubibus",
+      "abl.pl": "nubibus"
+    }
+  }
+}

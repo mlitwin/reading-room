@@ -1,0 +1,38 @@
+{
+  "lemma": "fatum",
+  "pos": "noun",
+  "glosses": [
+    "utterance, oracle",
+    "fate, destiny",
+    "natural term of life",
+    "doom, death, calamity"
+  ],
+  "reviewed": false,
+  "head": "fatum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fatum",
+      "gen.sg": "fati",
+      "acc.sg": "fatum",
+      "dat.sg": "fato",
+      "abl.sg": "fato",
+      "gen.pl": "fatorum",
+      "dat.pl": "fatis",
+      "abl.pl": "fatis",
+      "nom.pl": "fata",
+      "acc.pl": "fata"
+    }
+  }
+}

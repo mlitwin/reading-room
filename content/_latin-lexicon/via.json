@@ -1,0 +1,36 @@
+{
+  "lemma": "via",
+  "pos": "noun",
+  "glosses": [
+    "way, road, street",
+    "journey"
+  ],
+  "reviewed": false,
+  "head": "via, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "via",
+      "gen.sg": "viae",
+      "abl.sg": "via",
+      "acc.sg": "viam",
+      "dat.sg": "viae",
+      "nom.pl": "viae",
+      "gen.pl": "viarum",
+      "dat.pl": "viis",
+      "abl.pl": "viis",
+      "acc.pl": "vias"
+    }
+  }
+}

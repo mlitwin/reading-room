@@ -1,0 +1,53 @@
+{
+  "lemma": "fatidicus",
+  "pos": "adj",
+  "glosses": [
+    "prophetic"
+  ],
+  "reviewed": false,
+  "head": "fatidicus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "fatidicus",
+      "gen.sg.masc": "fatidici",
+      "dat.sg.masc": "fatidico",
+      "gen.sg.fem": "fatidicae",
+      "dat.sg.fem": "fatidicae",
+      "nom.sg.neut": "fatidicum",
+      "gen.sg.neut": "fatidici",
+      "dat.sg.neut": "fatidico",
+      "acc.sg.neut": "fatidicum",
+      "acc.sg.masc": "fatidicum",
+      "abl.sg.masc": "fatidico",
+      "nom.pl.masc": "fatidici",
+      "gen.pl.masc": "fatidicorum",
+      "acc.pl.masc": "fatidicos",
+      "nom.sg.fem": "fatidica",
+      "acc.sg.fem": "fatidicam",
+      "abl.sg.fem": "fatidica",
+      "nom.pl.fem": "fatidicae",
+      "gen.pl.fem": "fatidicarum",
+      "acc.pl.fem": "fatidicas",
+      "abl.sg.neut": "fatidico",
+      "nom.pl.neut": "fatidica",
+      "gen.pl.neut": "fatidicorum",
+      "acc.pl.neut": "fatidica"
+    }
+  }
+}

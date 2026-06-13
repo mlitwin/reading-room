@@ -1,0 +1,39 @@
+{
+  "lemma": "munus",
+  "pos": "noun",
+  "glosses": [
+    "service",
+    "duty, office, function",
+    "gift",
+    "tribute, offering",
+    "bribes (pl.)"
+  ],
+  "reviewed": false,
+  "head": "munus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "munere",
+      "acc.sg": "munus",
+      "nom.pl": "munera",
+      "gen.pl": "munerum",
+      "acc.pl": "munera",
+      "nom.sg": "munus",
+      "gen.sg": "muneris",
+      "dat.sg": "muneri",
+      "dat.pl": "muneribus",
+      "abl.pl": "muneribus"
+    }
+  }
+}

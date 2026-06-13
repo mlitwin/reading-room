@@ -1,0 +1,54 @@
+{
+  "lemma": "igneus",
+  "pos": "adj",
+  "glosses": [
+    "fiery, hot",
+    "ardent"
+  ],
+  "reviewed": false,
+  "head": "igneus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "igneus",
+      "gen.sg.masc": "ignei",
+      "dat.sg.masc": "igneo",
+      "gen.sg.fem": "igneae",
+      "dat.sg.fem": "igneae",
+      "nom.sg.neut": "igneum",
+      "gen.sg.neut": "ignei",
+      "dat.sg.neut": "igneo",
+      "acc.sg.neut": "igneum",
+      "acc.sg.masc": "igneum",
+      "abl.sg.masc": "igneo",
+      "nom.pl.masc": "ignei",
+      "gen.pl.masc": "igneorum",
+      "acc.pl.masc": "igneos",
+      "nom.sg.fem": "ignea",
+      "acc.sg.fem": "igneam",
+      "abl.sg.fem": "ignea",
+      "nom.pl.fem": "igneae",
+      "gen.pl.fem": "ignearum",
+      "acc.pl.fem": "igneas",
+      "abl.sg.neut": "igneo",
+      "nom.pl.neut": "ignea",
+      "gen.pl.neut": "igneorum",
+      "acc.pl.neut": "ignea"
+    }
+  }
+}

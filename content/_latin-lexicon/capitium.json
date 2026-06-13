@@ -1,0 +1,39 @@
+{
+  "lemma": "capitium",
+  "pos": "noun",
+  "glosses": [
+    "kind of tunic worn by women",
+    "covering for head",
+    "opening in tunic for head",
+    "undervest",
+    "priest's vestment"
+  ],
+  "reviewed": false,
+  "head": "capitium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "capitium",
+      "gen.sg": "capitii",
+      "acc.sg": "capitium",
+      "dat.sg": "capitio",
+      "abl.sg": "capitio",
+      "gen.pl": "capitiorum",
+      "dat.pl": "capitiis",
+      "abl.pl": "capitiis",
+      "nom.pl": "capitia",
+      "acc.pl": "capitia"
+    }
+  }
+}

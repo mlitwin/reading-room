@@ -1,0 +1,35 @@
+{
+  "lemma": "ripa",
+  "pos": "noun",
+  "glosses": [
+    "bank"
+  ],
+  "reviewed": false,
+  "head": "ripa, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ripa",
+      "gen.sg": "ripae",
+      "abl.sg": "ripa",
+      "acc.sg": "ripam",
+      "dat.sg": "ripae",
+      "nom.pl": "ripae",
+      "gen.pl": "riparum",
+      "dat.pl": "ripis",
+      "abl.pl": "ripis",
+      "acc.pl": "ripas"
+    }
+  }
+}

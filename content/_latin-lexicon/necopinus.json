@@ -1,0 +1,54 @@
+{
+  "lemma": "necopinus",
+  "pos": "adj",
+  "glosses": [
+    "unexpected",
+    "not expecting"
+  ],
+  "reviewed": false,
+  "head": "necopinus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "necopinus",
+      "gen.sg.masc": "necopini",
+      "dat.sg.masc": "necopino",
+      "gen.sg.fem": "necopinae",
+      "dat.sg.fem": "necopinae",
+      "nom.sg.neut": "necopinum",
+      "gen.sg.neut": "necopini",
+      "dat.sg.neut": "necopino",
+      "acc.sg.neut": "necopinum",
+      "acc.sg.masc": "necopinum",
+      "abl.sg.masc": "necopino",
+      "nom.pl.masc": "necopini",
+      "gen.pl.masc": "necopinorum",
+      "acc.pl.masc": "necopinos",
+      "nom.sg.fem": "necopina",
+      "acc.sg.fem": "necopinam",
+      "abl.sg.fem": "necopina",
+      "nom.pl.fem": "necopinae",
+      "gen.pl.fem": "necopinarum",
+      "acc.pl.fem": "necopinas",
+      "abl.sg.neut": "necopino",
+      "nom.pl.neut": "necopina",
+      "gen.pl.neut": "necopinorum",
+      "acc.pl.neut": "necopina"
+    }
+  }
+}

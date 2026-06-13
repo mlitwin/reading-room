@@ -1,0 +1,38 @@
+{
+  "lemma": "venia",
+  "pos": "noun",
+  "glosses": [
+    "favor, kindness",
+    "pardon",
+    "permission",
+    "indulgence"
+  ],
+  "reviewed": false,
+  "head": "venia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "venia",
+      "gen.sg": "veniae",
+      "abl.sg": "venia",
+      "acc.sg": "veniam",
+      "dat.sg": "veniae",
+      "nom.pl": "veniae",
+      "gen.pl": "veniarum",
+      "dat.pl": "veniis",
+      "abl.pl": "veniis",
+      "acc.pl": "venias"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "lemma": "seco",
+  "pos": "verb",
+  "glosses": [
+    "cut, sever",
+    "decide",
+    "divide in two/halve/split",
+    "slice/chop/cut up/carve",
+    "detach"
+  ],
+  "reviewed": false,
+  "head": "seco, secare, secavi, secatum",
+  "principal_parts": [
+    "seco",
+    "secare",
+    "secavi",
+    "secatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "seco",
+      "2sg.pres.ind.act": "secas",
+      "3sg.pres.ind.act": "secat",
+      "1pl.pres.ind.act": "secamus",
+      "2pl.pres.ind.act": "secatis",
+      "3pl.pres.ind.act": "secant",
+      "2sg.pres.imp.act": "seca",
+      "2pl.pres.imp.act": "secate"
+    }
+  }
+}

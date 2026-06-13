@@ -1,0 +1,37 @@
+{
+  "lemma": "radix",
+  "pos": "noun",
+  "glosses": [
+    "root",
+    "base",
+    "square-root (math)"
+  ],
+  "reviewed": false,
+  "head": "radix, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "radicem",
+      "gen.pl": "radicum",
+      "acc.pl": "radicis",
+      "nom.sg": "radix",
+      "gen.sg": "radicis",
+      "dat.sg": "radici",
+      "abl.sg": "radice",
+      "nom.pl": "radices",
+      "dat.pl": "radicibus",
+      "abl.pl": "radicibus"
+    }
+  }
+}

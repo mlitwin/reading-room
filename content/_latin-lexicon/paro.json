@@ -1,0 +1,46 @@
+{
+  "lemma": "paro",
+  "pos": "verb",
+  "glosses": [
+    "prepare",
+    "furnish/supply/provide",
+    "produce",
+    "obtain/get",
+    "buy",
+    "raise"
+  ],
+  "reviewed": false,
+  "head": "paro, parare, paravi, paratum",
+  "principal_parts": [
+    "paro",
+    "parare",
+    "paravi",
+    "paratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "paro",
+      "2sg.pres.ind.act": "paras",
+      "3sg.pres.ind.act": "parat",
+      "1pl.pres.ind.act": "paramus",
+      "2pl.pres.ind.act": "paratis",
+      "3pl.pres.ind.act": "parant",
+      "2sg.pres.imp.act": "para",
+      "2pl.pres.imp.act": "parate"
+    }
+  }
+}

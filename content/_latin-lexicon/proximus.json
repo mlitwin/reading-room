@@ -1,0 +1,36 @@
+{
+  "lemma": "proximus",
+  "pos": "noun",
+  "glosses": [
+    "neighbor",
+    "nearest one"
+  ],
+  "reviewed": false,
+  "head": "proximus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "proximus",
+      "gen.sg": "proximi",
+      "dat.sg": "proximo",
+      "abl.sg": "proximo",
+      "acc.sg": "proximum",
+      "nom.pl": "proximi",
+      "gen.pl": "proximorum",
+      "dat.pl": "proximis",
+      "abl.pl": "proximis",
+      "acc.pl": "proximos"
+    }
+  }
+}

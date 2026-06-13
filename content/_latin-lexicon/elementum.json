@@ -1,0 +1,39 @@
+{
+  "lemma": "elementum",
+  "pos": "noun",
+  "glosses": [
+    "elements (pl.)",
+    "rudiments, beginnings",
+    "kinds of matter (earth/air/fire/water)",
+    "element, origin",
+    "first principle"
+  ],
+  "reviewed": false,
+  "head": "elementum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "elementum",
+      "gen.sg": "elementi",
+      "acc.sg": "elementum",
+      "dat.sg": "elemento",
+      "abl.sg": "elemento",
+      "gen.pl": "elementorum",
+      "dat.pl": "elementis",
+      "abl.pl": "elementis",
+      "nom.pl": "elementa",
+      "acc.pl": "elementa"
+    }
+  }
+}

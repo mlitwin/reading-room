@@ -1,0 +1,40 @@
+{
+  "lemma": "calamus",
+  "pos": "noun",
+  "glosses": [
+    "reed, cane",
+    "reed pen",
+    "reed/pan pipe",
+    "arrow",
+    "fishing pole",
+    "stalk"
+  ],
+  "reviewed": false,
+  "head": "calamus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "calamus",
+      "gen.sg": "calami",
+      "dat.sg": "calamo",
+      "abl.sg": "calamo",
+      "acc.sg": "calamum",
+      "nom.pl": "calami",
+      "gen.pl": "calamorum",
+      "dat.pl": "calamis",
+      "abl.pl": "calamis",
+      "acc.pl": "calamos"
+    }
+  }
+}

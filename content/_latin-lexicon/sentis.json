@@ -1,0 +1,35 @@
+{
+  "lemma": "sentis",
+  "pos": "noun",
+  "glosses": [
+    "thorn, briar"
+  ],
+  "reviewed": false,
+  "head": "sentis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "senti",
+      "acc.sg": "sentem",
+      "nom.pl": "sentis",
+      "gen.pl": "sentium",
+      "acc.pl": "sentis",
+      "nom.sg": "sentis",
+      "gen.sg": "sentis",
+      "dat.sg": "senti",
+      "dat.pl": "sentibus",
+      "abl.pl": "sentibus"
+    }
+  }
+}

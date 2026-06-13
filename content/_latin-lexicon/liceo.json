@@ -1,0 +1,42 @@
+{
+  "lemma": "liceo",
+  "pos": "verb",
+  "glosses": [
+    "it is permitted, one may",
+    "it is all right, lawful, allowed, permitted"
+  ],
+  "reviewed": false,
+  "head": "liceo, licere, licui, licitum",
+  "principal_parts": [
+    "liceo",
+    "licere",
+    "licui",
+    "licitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "liceo",
+      "2sg.pres.ind.act": "lices",
+      "3sg.pres.ind.act": "licet",
+      "1pl.pres.ind.act": "licemus",
+      "2pl.pres.ind.act": "licetis",
+      "3pl.pres.ind.act": "licent",
+      "2sg.pres.imp.act": "lice",
+      "2pl.pres.imp.act": "licete"
+    }
+  }
+}

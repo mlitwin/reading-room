@@ -1,0 +1,40 @@
+{
+  "lemma": "lacrima",
+  "pos": "noun",
+  "glosses": [
+    "tear",
+    "exuded gum/sap",
+    "bit of lead",
+    "quicksilver from ore",
+    "weeping (pl.)",
+    "dirge"
+  ],
+  "reviewed": false,
+  "head": "lacrima, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lacrima",
+      "gen.sg": "lacrimae",
+      "abl.sg": "lacrima",
+      "acc.sg": "lacrimam",
+      "dat.sg": "lacrimae",
+      "nom.pl": "lacrimae",
+      "gen.pl": "lacrimarum",
+      "dat.pl": "lacrimis",
+      "abl.pl": "lacrimis",
+      "acc.pl": "lacrimas"
+    }
+  }
+}

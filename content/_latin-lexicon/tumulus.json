@@ -1,0 +1,36 @@
+{
+  "lemma": "tumulus",
+  "pos": "noun",
+  "glosses": [
+    "mound, hillock",
+    "mound, tomb"
+  ],
+  "reviewed": false,
+  "head": "tumulus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "tumulus",
+      "gen.sg": "tumuli",
+      "dat.sg": "tumulo",
+      "abl.sg": "tumulo",
+      "acc.sg": "tumulum",
+      "nom.pl": "tumuli",
+      "gen.pl": "tumulorum",
+      "dat.pl": "tumulis",
+      "abl.pl": "tumulis",
+      "acc.pl": "tumulos"
+    }
+  }
+}

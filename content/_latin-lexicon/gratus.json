@@ -1,0 +1,55 @@
+{
+  "lemma": "gratus",
+  "pos": "adj",
+  "glosses": [
+    "pleasing, acceptable, agreeable, welcome",
+    "dear, beloved",
+    "grateful, thankful"
+  ],
+  "reviewed": false,
+  "head": "gratus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "gratus",
+      "gen.sg.masc": "grati",
+      "dat.sg.masc": "grato",
+      "gen.sg.fem": "gratae",
+      "dat.sg.fem": "gratae",
+      "nom.sg.neut": "gratum",
+      "gen.sg.neut": "grati",
+      "dat.sg.neut": "grato",
+      "acc.sg.neut": "gratum",
+      "acc.sg.masc": "gratum",
+      "abl.sg.masc": "grato",
+      "nom.pl.masc": "grati",
+      "gen.pl.masc": "gratorum",
+      "acc.pl.masc": "gratos",
+      "nom.sg.fem": "grata",
+      "acc.sg.fem": "gratam",
+      "abl.sg.fem": "grata",
+      "nom.pl.fem": "gratae",
+      "gen.pl.fem": "gratarum",
+      "acc.pl.fem": "gratas",
+      "abl.sg.neut": "grato",
+      "nom.pl.neut": "grata",
+      "gen.pl.neut": "gratorum",
+      "acc.pl.neut": "grata"
+    }
+  }
+}

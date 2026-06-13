@@ -1,0 +1,35 @@
+{
+  "lemma": "vinetum",
+  "pos": "noun",
+  "glosses": [
+    "vineyard"
+  ],
+  "reviewed": false,
+  "head": "vinetum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vinetum",
+      "gen.sg": "vineti",
+      "acc.sg": "vinetum",
+      "dat.sg": "vineto",
+      "abl.sg": "vineto",
+      "gen.pl": "vinetorum",
+      "dat.pl": "vinetis",
+      "abl.pl": "vinetis",
+      "nom.pl": "vineta",
+      "acc.pl": "vineta"
+    }
+  }
+}

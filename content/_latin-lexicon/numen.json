@@ -1,0 +1,36 @@
+{
+  "lemma": "numen",
+  "pos": "noun",
+  "glosses": [
+    "divine will, divinity",
+    "god"
+  ],
+  "reviewed": false,
+  "head": "numen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "numine",
+      "acc.sg": "numen",
+      "nom.pl": "numina",
+      "gen.pl": "numinum",
+      "acc.pl": "numina",
+      "nom.sg": "numen",
+      "gen.sg": "numinis",
+      "dat.sg": "numini",
+      "dat.pl": "numinibus",
+      "abl.pl": "numinibus"
+    }
+  }
+}

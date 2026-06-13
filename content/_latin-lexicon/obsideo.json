@@ -1,0 +1,42 @@
+{
+  "lemma": "obsideo",
+  "pos": "verb",
+  "glosses": [
+    "blockade, besiege, invest, beset",
+    "take possession of"
+  ],
+  "reviewed": false,
+  "head": "obsideo, obsidere, obsedi, obsessum",
+  "principal_parts": [
+    "obsideo",
+    "obsidere",
+    "obsedi",
+    "obsessum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "obsideo",
+      "2sg.pres.ind.act": "obsides",
+      "3sg.pres.ind.act": "obsidet",
+      "1pl.pres.ind.act": "obsidemus",
+      "2pl.pres.ind.act": "obsidetis",
+      "3pl.pres.ind.act": "obsident",
+      "2sg.pres.imp.act": "obside",
+      "2pl.pres.imp.act": "obsidete"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "picea",
+  "pos": "noun",
+  "glosses": [
+    "spruce"
+  ],
+  "reviewed": false,
+  "head": "picea, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "picea",
+      "gen.sg": "piceae",
+      "abl.sg": "picea",
+      "acc.sg": "piceam",
+      "dat.sg": "piceae",
+      "nom.pl": "piceae",
+      "gen.pl": "picearum",
+      "dat.pl": "piceis",
+      "abl.pl": "piceis",
+      "acc.pl": "piceas"
+    }
+  }
+}

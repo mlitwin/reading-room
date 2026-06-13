@@ -1,0 +1,36 @@
+{
+  "lemma": "paean",
+  "pos": "noun",
+  "glosses": [
+    "hymn (usually of victory, to Apollo/other gods)",
+    "Paean (Greek Apollo as healer)"
+  ],
+  "reviewed": false,
+  "head": "paean, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "paeanem",
+      "gen.pl": "paeanum",
+      "acc.pl": "paeanis",
+      "nom.sg": "paean",
+      "gen.sg": "paeanis",
+      "dat.sg": "paeani",
+      "abl.sg": "paeane",
+      "nom.pl": "paeanes",
+      "dat.pl": "paeanibus",
+      "abl.pl": "paeanibus"
+    }
+  }
+}

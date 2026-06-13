@@ -1,0 +1,35 @@
+{
+  "lemma": "postis",
+  "pos": "noun",
+  "glosses": [
+    "doorpost"
+  ],
+  "reviewed": false,
+  "head": "postis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "posti",
+      "acc.sg": "postem",
+      "nom.pl": "postis",
+      "gen.pl": "postium",
+      "acc.pl": "postis",
+      "nom.sg": "postis",
+      "gen.sg": "postis",
+      "dat.sg": "posti",
+      "dat.pl": "postibus",
+      "abl.pl": "postibus"
+    }
+  }
+}

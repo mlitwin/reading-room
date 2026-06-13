@@ -1,0 +1,36 @@
+{
+  "lemma": "rictus",
+  "pos": "noun",
+  "glosses": [
+    "jaws",
+    "open mouth"
+  ],
+  "reviewed": false,
+  "head": "rictus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "rictus",
+      "gen.sg": "rictus",
+      "dat.sg": "rictui",
+      "acc.sg": "rictum",
+      "nom.pl": "rictus",
+      "acc.pl": "rictus",
+      "abl.sg": "rictu",
+      "gen.pl": "rictuum",
+      "dat.pl": "rictibus",
+      "abl.pl": "rictibus"
+    }
+  }
+}

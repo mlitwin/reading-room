@@ -1,0 +1,38 @@
+{
+  "lemma": "fluctus",
+  "pos": "noun",
+  "glosses": [
+    "wave",
+    "disorder",
+    "flood, flow, tide, billow, surge",
+    "turbulence, commotion"
+  ],
+  "reviewed": false,
+  "head": "fluctus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fluctus",
+      "gen.sg": "fluctus",
+      "dat.sg": "fluctui",
+      "acc.sg": "fluctum",
+      "nom.pl": "fluctus",
+      "acc.pl": "fluctus",
+      "abl.sg": "fluctu",
+      "gen.pl": "fluctuum",
+      "dat.pl": "fluctibus",
+      "abl.pl": "fluctibus"
+    }
+  }
+}

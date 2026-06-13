@@ -1,0 +1,37 @@
+{
+  "lemma": "aurora",
+  "pos": "noun",
+  "glosses": [
+    "dawn, daybreak, sunrise",
+    "goddess of the dawn",
+    "Orient/East, peoples of the East"
+  ],
+  "reviewed": false,
+  "head": "aurora, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aurora",
+      "gen.sg": "aurorae",
+      "abl.sg": "aurora",
+      "acc.sg": "auroram",
+      "dat.sg": "aurorae",
+      "nom.pl": "aurorae",
+      "gen.pl": "aurorarum",
+      "dat.pl": "auroris",
+      "abl.pl": "auroris",
+      "acc.pl": "auroras"
+    }
+  }
+}

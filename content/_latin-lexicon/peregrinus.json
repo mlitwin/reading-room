@@ -1,0 +1,35 @@
+{
+  "lemma": "peregrinus",
+  "pos": "noun",
+  "glosses": [
+    "pilgrim"
+  ],
+  "reviewed": false,
+  "head": "peregrinus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "peregrinus",
+      "gen.sg": "peregrini",
+      "dat.sg": "peregrino",
+      "abl.sg": "peregrino",
+      "acc.sg": "peregrinum",
+      "nom.pl": "peregrini",
+      "gen.pl": "peregrinorum",
+      "dat.pl": "peregrinis",
+      "abl.pl": "peregrinis",
+      "acc.pl": "peregrinos"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lemma": "habena",
+  "pos": "noun",
+  "glosses": [
+    "thong, strap",
+    "whip",
+    "halter",
+    "reins (pl.)",
+    "direction, management, government"
+  ],
+  "reviewed": false,
+  "head": "habena, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "habena",
+      "gen.sg": "habenae",
+      "abl.sg": "habena",
+      "acc.sg": "habenam",
+      "dat.sg": "habenae",
+      "nom.pl": "habenae",
+      "gen.pl": "habenarum",
+      "dat.pl": "habenis",
+      "abl.pl": "habenis",
+      "acc.pl": "habenas"
+    }
+  }
+}

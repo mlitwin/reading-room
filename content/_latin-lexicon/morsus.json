@@ -1,0 +1,38 @@
+{
+  "lemma": "morsus",
+  "pos": "noun",
+  "glosses": [
+    "bite, sting",
+    "anguish, pain",
+    "jaws",
+    "teeth"
+  ],
+  "reviewed": false,
+  "head": "morsus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "morsus",
+      "gen.sg": "morsus",
+      "dat.sg": "morsui",
+      "acc.sg": "morsum",
+      "nom.pl": "morsus",
+      "acc.pl": "morsus",
+      "abl.sg": "morsu",
+      "gen.pl": "morsuum",
+      "dat.pl": "morsibus",
+      "abl.pl": "morsibus"
+    }
+  }
+}

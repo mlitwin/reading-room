@@ -1,0 +1,36 @@
+{
+  "lemma": "homo",
+  "pos": "noun",
+  "glosses": [
+    "man, human being, person, fellow",
+    "[novus homo => nouveau riche]"
+  ],
+  "reviewed": false,
+  "head": "homo, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "hominem",
+      "gen.pl": "hominum",
+      "acc.pl": "hominis",
+      "nom.sg": "homo",
+      "gen.sg": "hominis",
+      "dat.sg": "homini",
+      "abl.sg": "homine",
+      "nom.pl": "homines",
+      "dat.pl": "hominibus",
+      "abl.pl": "hominibus"
+    }
+  }
+}

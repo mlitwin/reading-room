@@ -1,0 +1,39 @@
+{
+  "lemma": "virga",
+  "pos": "noun",
+  "glosses": [
+    "twig, sprout, stalk",
+    "switch, rod",
+    "staff, wand",
+    "stripe/streak",
+    "scepter (Plater)"
+  ],
+  "reviewed": false,
+  "head": "virga, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "virga",
+      "gen.sg": "virgae",
+      "abl.sg": "virga",
+      "acc.sg": "virgam",
+      "dat.sg": "virgae",
+      "nom.pl": "virgae",
+      "gen.pl": "virgarum",
+      "dat.pl": "virgis",
+      "abl.pl": "virgis",
+      "acc.pl": "virgas"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lemma": "pietas",
+  "pos": "noun",
+  "glosses": [
+    "responsibility, sense of duty",
+    "loyalty",
+    "tenderness, goodness",
+    "pity",
+    "piety (Bee)"
+  ],
+  "reviewed": false,
+  "head": "pietas, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "pietatem",
+      "gen.pl": "pietatum",
+      "acc.pl": "pietatis",
+      "nom.sg": "pietas",
+      "gen.sg": "pietatis",
+      "dat.sg": "pietati",
+      "abl.sg": "pietate",
+      "nom.pl": "pietates",
+      "dat.pl": "pietatibus",
+      "abl.pl": "pietatibus"
+    }
+  }
+}

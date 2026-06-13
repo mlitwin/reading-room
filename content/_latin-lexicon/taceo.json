@@ -1,0 +1,43 @@
+{
+  "lemma": "taceo",
+  "pos": "verb",
+  "glosses": [
+    "be silent",
+    "pass over in silence",
+    "leave unmentioned, be silent about something"
+  ],
+  "reviewed": false,
+  "head": "taceo, tacere, tacui, tacitum",
+  "principal_parts": [
+    "taceo",
+    "tacere",
+    "tacui",
+    "tacitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "taceo",
+      "2sg.pres.ind.act": "taces",
+      "3sg.pres.ind.act": "tacet",
+      "1pl.pres.ind.act": "tacemus",
+      "2pl.pres.ind.act": "tacetis",
+      "3pl.pres.ind.act": "tacent",
+      "2sg.pres.imp.act": "tace",
+      "2pl.pres.imp.act": "tacete"
+    }
+  }
+}

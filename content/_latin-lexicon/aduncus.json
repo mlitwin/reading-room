@@ -1,0 +1,53 @@
+{
+  "lemma": "aduncus",
+  "pos": "adj",
+  "glosses": [
+    "bent, curved, hooked, crooked"
+  ],
+  "reviewed": false,
+  "head": "aduncus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "aduncus",
+      "gen.sg.masc": "adunci",
+      "dat.sg.masc": "adunco",
+      "gen.sg.fem": "aduncae",
+      "dat.sg.fem": "aduncae",
+      "nom.sg.neut": "aduncum",
+      "gen.sg.neut": "adunci",
+      "dat.sg.neut": "adunco",
+      "acc.sg.neut": "aduncum",
+      "acc.sg.masc": "aduncum",
+      "abl.sg.masc": "adunco",
+      "nom.pl.masc": "adunci",
+      "gen.pl.masc": "aduncorum",
+      "acc.pl.masc": "aduncos",
+      "nom.sg.fem": "adunca",
+      "acc.sg.fem": "aduncam",
+      "abl.sg.fem": "adunca",
+      "nom.pl.fem": "aduncae",
+      "gen.pl.fem": "aduncarum",
+      "acc.pl.fem": "aduncas",
+      "abl.sg.neut": "adunco",
+      "nom.pl.neut": "adunca",
+      "gen.pl.neut": "aduncorum",
+      "acc.pl.neut": "adunca"
+    }
+  }
+}

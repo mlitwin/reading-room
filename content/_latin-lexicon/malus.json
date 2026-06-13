@@ -1,0 +1,38 @@
+{
+  "lemma": "malus",
+  "pos": "noun",
+  "glosses": [
+    "mast",
+    "beam",
+    "tall pole, upright pole",
+    "standard, prop, staff"
+  ],
+  "reviewed": false,
+  "head": "malus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "malus",
+      "gen.sg": "mali",
+      "dat.sg": "malo",
+      "abl.sg": "malo",
+      "acc.sg": "malum",
+      "nom.pl": "mali",
+      "gen.pl": "malorum",
+      "dat.pl": "malis",
+      "abl.pl": "malis",
+      "acc.pl": "malos"
+    }
+  }
+}

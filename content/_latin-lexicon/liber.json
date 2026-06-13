@@ -1,0 +1,36 @@
+{
+  "lemma": "liber",
+  "pos": "noun",
+  "glosses": [
+    "children (pl.)",
+    "(sg. VOC) child"
+  ],
+  "reviewed": false,
+  "head": "liber, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "liber",
+      "gen.sg": "liberi",
+      "dat.sg": "libero",
+      "abl.sg": "libero",
+      "acc.sg": "liberum",
+      "nom.pl": "liberi",
+      "gen.pl": "liberorum",
+      "dat.pl": "liberis",
+      "abl.pl": "liberis",
+      "acc.pl": "liberos"
+    }
+  }
+}

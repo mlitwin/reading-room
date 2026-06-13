@@ -1,0 +1,35 @@
+{
+  "lemma": "captiva",
+  "pos": "noun",
+  "glosses": [
+    "prisoner (female), captive"
+  ],
+  "reviewed": false,
+  "head": "captiva, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "captiva",
+      "gen.sg": "captivae",
+      "abl.sg": "captiva",
+      "acc.sg": "captivam",
+      "dat.sg": "captivae",
+      "nom.pl": "captivae",
+      "gen.pl": "captivarum",
+      "dat.pl": "captivis",
+      "abl.pl": "captivis",
+      "acc.pl": "captivas"
+    }
+  }
+}

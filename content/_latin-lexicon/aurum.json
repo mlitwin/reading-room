@@ -1,0 +1,35 @@
+{
+  "lemma": "aurum",
+  "pos": "noun",
+  "glosses": [
+    "gold (metal/color), gold money, riches"
+  ],
+  "reviewed": false,
+  "head": "aurum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aurum",
+      "gen.sg": "auri",
+      "acc.sg": "aurum",
+      "dat.sg": "auro",
+      "abl.sg": "auro",
+      "gen.pl": "aurorum",
+      "dat.pl": "auris",
+      "abl.pl": "auris",
+      "nom.pl": "aura",
+      "acc.pl": "aura"
+    }
+  }
+}

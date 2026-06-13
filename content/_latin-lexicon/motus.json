@@ -1,0 +1,38 @@
+{
+  "lemma": "motus",
+  "pos": "noun",
+  "glosses": [
+    "movement, motion",
+    "riot, commotion, disturbance",
+    "gesture",
+    "emotion"
+  ],
+  "reviewed": false,
+  "head": "motus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "motus",
+      "gen.sg": "motus",
+      "dat.sg": "motui",
+      "acc.sg": "motum",
+      "nom.pl": "motus",
+      "acc.pl": "motus",
+      "abl.sg": "motu",
+      "gen.pl": "motuum",
+      "dat.pl": "motibus",
+      "abl.pl": "motibus"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "lemma": "bracchium",
+  "pos": "noun",
+  "glosses": [
+    "arm",
+    "lower arm, forearm",
+    "claw",
+    "branch, shoot",
+    "earthwork connecting forts"
+  ],
+  "reviewed": false,
+  "head": "bracchium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "bracchium",
+      "gen.sg": "bracchii",
+      "acc.sg": "bracchium",
+      "dat.sg": "bracchio",
+      "abl.sg": "bracchio",
+      "gen.pl": "bracchiorum",
+      "dat.pl": "bracchiis",
+      "abl.pl": "bracchiis",
+      "nom.pl": "bracchia",
+      "acc.pl": "bracchia"
+    }
+  }
+}

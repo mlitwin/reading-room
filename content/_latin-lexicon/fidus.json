@@ -1,0 +1,54 @@
+{
+  "lemma": "fidus",
+  "pos": "adj",
+  "glosses": [
+    "faithful, loyal",
+    "trusting, confident"
+  ],
+  "reviewed": false,
+  "head": "fidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "fidus",
+      "gen.sg.masc": "fidi",
+      "dat.sg.masc": "fido",
+      "gen.sg.fem": "fidae",
+      "dat.sg.fem": "fidae",
+      "nom.sg.neut": "fidum",
+      "gen.sg.neut": "fidi",
+      "dat.sg.neut": "fido",
+      "acc.sg.neut": "fidum",
+      "acc.sg.masc": "fidum",
+      "abl.sg.masc": "fido",
+      "nom.pl.masc": "fidi",
+      "gen.pl.masc": "fidorum",
+      "acc.pl.masc": "fidos",
+      "nom.sg.fem": "fida",
+      "acc.sg.fem": "fidam",
+      "abl.sg.fem": "fida",
+      "nom.pl.fem": "fidae",
+      "gen.pl.fem": "fidarum",
+      "acc.pl.fem": "fidas",
+      "abl.sg.neut": "fido",
+      "nom.pl.neut": "fida",
+      "gen.pl.neut": "fidorum",
+      "acc.pl.neut": "fida"
+    }
+  }
+}

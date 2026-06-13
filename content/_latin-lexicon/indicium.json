@@ -1,0 +1,37 @@
+{
+  "lemma": "indicium",
+  "pos": "noun",
+  "glosses": [
+    "evidence (before a court)",
+    "information, proof",
+    "indication"
+  ],
+  "reviewed": false,
+  "head": "indicium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "indicium",
+      "gen.sg": "indicii",
+      "acc.sg": "indicium",
+      "dat.sg": "indicio",
+      "abl.sg": "indicio",
+      "gen.pl": "indiciorum",
+      "dat.pl": "indiciis",
+      "abl.pl": "indiciis",
+      "nom.pl": "indicia",
+      "acc.pl": "indicia"
+    }
+  }
+}

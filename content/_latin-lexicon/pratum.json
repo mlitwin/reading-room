@@ -1,0 +1,37 @@
+{
+  "lemma": "pratum",
+  "pos": "noun",
+  "glosses": [
+    "meadow, meadowland",
+    "meadow grass/crop",
+    "broad expanse/field/plain (land/sea)"
+  ],
+  "reviewed": false,
+  "head": "pratum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pratum",
+      "gen.sg": "prati",
+      "acc.sg": "pratum",
+      "dat.sg": "prato",
+      "abl.sg": "prato",
+      "gen.pl": "pratorum",
+      "dat.pl": "pratis",
+      "abl.pl": "pratis",
+      "nom.pl": "prata",
+      "acc.pl": "prata"
+    }
+  }
+}

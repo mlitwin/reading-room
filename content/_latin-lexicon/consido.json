@@ -1,0 +1,44 @@
+{
+  "lemma": "consido",
+  "pos": "verb",
+  "glosses": [
+    "sit down/be seated",
+    "hold sessions, sit (judge), try",
+    "alight",
+    "subside/sink (in)",
+    "encamp/bivouac",
+    "take up a position"
+  ],
+  "reviewed": false,
+  "head": "consido, considere, consedi, consessum",
+  "principal_parts": [
+    "consido",
+    "considere",
+    "consedi",
+    "consessum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "considis",
+      "3sg.pres.ind.act": "considit",
+      "1pl.pres.ind.act": "considimus",
+      "2pl.pres.ind.act": "considitis",
+      "2sg.pres.imp.act": "conside",
+      "2pl.pres.imp.act": "considite"
+    }
+  }
+}

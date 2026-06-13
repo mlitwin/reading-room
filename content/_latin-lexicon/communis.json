@@ -1,0 +1,38 @@
+{
+  "lemma": "communis",
+  "pos": "adj",
+  "glosses": [
+    "common/joint/public",
+    "general/universal",
+    "[Doctor Communis => St.Thomas Aquinas]:",
+    "ordinary",
+    "sociable, courteous obliging",
+    "related, having something in common"
+  ],
+  "reviewed": false,
+  "head": "communis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "commune",
+      "acc.sg.neut": "commune",
+      "nom.pl.neut": "communia",
+      "acc.pl.neut": "communia"
+    }
+  }
+}

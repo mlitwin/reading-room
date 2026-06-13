@@ -1,0 +1,53 @@
+{
+  "lemma": "miserandus",
+  "pos": "adj",
+  "glosses": [
+    "pitiable, unfortunate"
+  ],
+  "reviewed": false,
+  "head": "miserandus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "miserandus",
+      "gen.sg.masc": "miserandi",
+      "dat.sg.masc": "miserando",
+      "gen.sg.fem": "miserandae",
+      "dat.sg.fem": "miserandae",
+      "nom.sg.neut": "miserandum",
+      "gen.sg.neut": "miserandi",
+      "dat.sg.neut": "miserando",
+      "acc.sg.neut": "miserandum",
+      "acc.sg.masc": "miserandum",
+      "abl.sg.masc": "miserando",
+      "nom.pl.masc": "miserandi",
+      "gen.pl.masc": "miserandorum",
+      "acc.pl.masc": "miserandos",
+      "nom.sg.fem": "miseranda",
+      "acc.sg.fem": "miserandam",
+      "abl.sg.fem": "miseranda",
+      "nom.pl.fem": "miserandae",
+      "gen.pl.fem": "miserandarum",
+      "acc.pl.fem": "miserandas",
+      "abl.sg.neut": "miserando",
+      "nom.pl.neut": "miseranda",
+      "gen.pl.neut": "miserandorum",
+      "acc.pl.neut": "miseranda"
+    }
+  }
+}

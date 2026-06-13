@@ -1,0 +1,39 @@
+{
+  "lemma": "locus",
+  "pos": "noun",
+  "glosses": [
+    "seat, rank, position",
+    "soldier's post",
+    "quarters",
+    "category",
+    "book passage, topic"
+  ],
+  "reviewed": false,
+  "head": "locus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "locus",
+      "gen.sg": "loci",
+      "dat.sg": "loco",
+      "abl.sg": "loco",
+      "acc.sg": "locum",
+      "nom.pl": "loci",
+      "gen.pl": "locorum",
+      "dat.pl": "locis",
+      "abl.pl": "locis",
+      "acc.pl": "locos"
+    }
+  }
+}

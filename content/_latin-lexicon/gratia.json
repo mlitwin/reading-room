@@ -1,0 +1,40 @@
+{
+  "lemma": "gratia",
+  "pos": "noun",
+  "glosses": [
+    "popularity/esteem/credit (w/bona)",
+    "partiality/favoritism",
+    "unpopularity (w/mala)",
+    "favor/goodwill/kindness/friendship",
+    "influence",
+    "gratitude"
+  ],
+  "reviewed": false,
+  "head": "gratia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "gratia",
+      "gen.sg": "gratiae",
+      "abl.sg": "gratia",
+      "acc.sg": "gratiam",
+      "dat.sg": "gratiae",
+      "nom.pl": "gratiae",
+      "gen.pl": "gratiarum",
+      "dat.pl": "gratiis",
+      "abl.pl": "gratiis",
+      "acc.pl": "gratias"
+    }
+  }
+}

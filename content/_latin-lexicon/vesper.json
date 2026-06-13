@@ -1,0 +1,35 @@
+{
+  "lemma": "vesper",
+  "pos": "noun",
+  "glosses": [
+    "evening, even-tide"
+  ],
+  "reviewed": false,
+  "head": "vesper, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vespera",
+      "gen.sg": "vesperae",
+      "abl.sg": "vespera",
+      "acc.sg": "vesperam",
+      "dat.sg": "vesperae",
+      "nom.pl": "vesperae",
+      "gen.pl": "vesperarum",
+      "dat.pl": "vesperis",
+      "abl.pl": "vesperis",
+      "acc.pl": "vesperas"
+    }
+  }
+}

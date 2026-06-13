@@ -1,0 +1,36 @@
+{
+  "lemma": "sors",
+  "pos": "noun",
+  "glosses": [
+    "lot, fate",
+    "oracular response"
+  ],
+  "reviewed": false,
+  "head": "sors, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "sorti",
+      "acc.sg": "sortem",
+      "nom.pl": "sortis",
+      "gen.pl": "sortium",
+      "acc.pl": "sortis",
+      "nom.sg": "sors",
+      "gen.sg": "sortis",
+      "dat.sg": "sorti",
+      "dat.pl": "sortibus",
+      "abl.pl": "sortibus"
+    }
+  }
+}

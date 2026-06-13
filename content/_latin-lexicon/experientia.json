@@ -1,0 +1,36 @@
+{
+  "lemma": "experientia",
+  "pos": "noun",
+  "glosses": [
+    "trial, experiment",
+    "experience"
+  ],
+  "reviewed": false,
+  "head": "experientia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "experientia",
+      "gen.sg": "experientiae",
+      "abl.sg": "experientia",
+      "acc.sg": "experientiam",
+      "dat.sg": "experientiae",
+      "nom.pl": "experientiae",
+      "gen.pl": "experientiarum",
+      "dat.pl": "experientiis",
+      "abl.pl": "experientiis",
+      "acc.pl": "experientias"
+    }
+  }
+}

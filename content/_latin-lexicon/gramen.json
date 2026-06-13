@@ -1,0 +1,37 @@
+{
+  "lemma": "gramen",
+  "pos": "noun",
+  "glosses": [
+    "grass, turf",
+    "herb",
+    "plant"
+  ],
+  "reviewed": false,
+  "head": "gramen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "gramine",
+      "acc.sg": "gramen",
+      "nom.pl": "gramina",
+      "gen.pl": "graminum",
+      "acc.pl": "gramina",
+      "nom.sg": "gramen",
+      "gen.sg": "graminis",
+      "dat.sg": "gramini",
+      "dat.pl": "graminibus",
+      "abl.pl": "graminibus"
+    }
+  }
+}

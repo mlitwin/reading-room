@@ -1,0 +1,57 @@
+{
+  "lemma": "dexter",
+  "pos": "adj",
+  "glosses": [
+    "right, on/to the right hand/side",
+    "skillful/dexterous/handy",
+    "favorable/fortunate/pretentious",
+    "opportune (L+S)",
+    "proper/fitting/suitable"
+  ],
+  "reviewed": false,
+  "head": "dexter, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "dexter",
+      "gen.sg.masc": "dextri",
+      "dat.sg.masc": "dextro",
+      "gen.sg.fem": "dextrae",
+      "dat.sg.fem": "dextrae",
+      "nom.sg.neut": "dextrum",
+      "gen.sg.neut": "dextri",
+      "dat.sg.neut": "dextro",
+      "acc.sg.neut": "dextrum",
+      "acc.sg.masc": "dextrum",
+      "abl.sg.masc": "dextro",
+      "nom.pl.masc": "dextri",
+      "gen.pl.masc": "dextrorum",
+      "acc.pl.masc": "dextros",
+      "nom.sg.fem": "dextra",
+      "acc.sg.fem": "dextram",
+      "abl.sg.fem": "dextra",
+      "nom.pl.fem": "dextrae",
+      "gen.pl.fem": "dextrarum",
+      "acc.pl.fem": "dextras",
+      "abl.sg.neut": "dextro",
+      "nom.pl.neut": "dextra",
+      "gen.pl.neut": "dextrorum",
+      "acc.pl.neut": "dextra"
+    }
+  }
+}

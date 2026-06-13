@@ -1,0 +1,55 @@
+{
+  "lemma": "dirus",
+  "pos": "adj",
+  "glosses": [
+    "awful/dire/dreadful (omen)",
+    "ominous/frightful/terrible/horrible",
+    "skillful (L+S)"
+  ],
+  "reviewed": false,
+  "head": "dirus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "dirus",
+      "gen.sg.masc": "diri",
+      "dat.sg.masc": "diro",
+      "gen.sg.fem": "dirae",
+      "dat.sg.fem": "dirae",
+      "nom.sg.neut": "dirum",
+      "gen.sg.neut": "diri",
+      "dat.sg.neut": "diro",
+      "acc.sg.neut": "dirum",
+      "acc.sg.masc": "dirum",
+      "abl.sg.masc": "diro",
+      "nom.pl.masc": "diri",
+      "gen.pl.masc": "dirorum",
+      "acc.pl.masc": "diros",
+      "nom.sg.fem": "dira",
+      "acc.sg.fem": "diram",
+      "abl.sg.fem": "dira",
+      "nom.pl.fem": "dirae",
+      "gen.pl.fem": "dirarum",
+      "acc.pl.fem": "diras",
+      "abl.sg.neut": "diro",
+      "nom.pl.neut": "dira",
+      "gen.pl.neut": "dirorum",
+      "acc.pl.neut": "dira"
+    }
+  }
+}

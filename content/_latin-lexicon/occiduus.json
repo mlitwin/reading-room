@@ -1,0 +1,54 @@
+{
+  "lemma": "occiduus",
+  "pos": "adj",
+  "glosses": [
+    "setting",
+    "westerly"
+  ],
+  "reviewed": false,
+  "head": "occiduus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "occiduus",
+      "gen.sg.masc": "occidui",
+      "dat.sg.masc": "occiduo",
+      "gen.sg.fem": "occiduae",
+      "dat.sg.fem": "occiduae",
+      "nom.sg.neut": "occiduum",
+      "gen.sg.neut": "occidui",
+      "dat.sg.neut": "occiduo",
+      "acc.sg.neut": "occiduum",
+      "acc.sg.masc": "occiduum",
+      "abl.sg.masc": "occiduo",
+      "nom.pl.masc": "occidui",
+      "gen.pl.masc": "occiduorum",
+      "acc.pl.masc": "occiduos",
+      "nom.sg.fem": "occidua",
+      "acc.sg.fem": "occiduam",
+      "abl.sg.fem": "occidua",
+      "nom.pl.fem": "occiduae",
+      "gen.pl.fem": "occiduarum",
+      "acc.pl.fem": "occiduas",
+      "abl.sg.neut": "occiduo",
+      "nom.pl.neut": "occidua",
+      "gen.pl.neut": "occiduorum",
+      "acc.pl.neut": "occidua"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "lemma": "opifer",
+  "pos": "adj",
+  "glosses": [
+    "bringing help"
+  ],
+  "reviewed": false,
+  "head": "opifer, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "opifer",
+      "gen.sg.masc": "opiferi",
+      "dat.sg.masc": "opifero",
+      "gen.sg.fem": "opiferae",
+      "dat.sg.fem": "opiferae",
+      "nom.sg.neut": "opiferum",
+      "gen.sg.neut": "opiferi",
+      "dat.sg.neut": "opifero",
+      "acc.sg.neut": "opiferum",
+      "acc.sg.masc": "opiferum",
+      "abl.sg.masc": "opifero",
+      "nom.pl.masc": "opiferi",
+      "gen.pl.masc": "opiferorum",
+      "acc.pl.masc": "opiferos",
+      "nom.sg.fem": "opifera",
+      "acc.sg.fem": "opiferam",
+      "abl.sg.fem": "opifera",
+      "nom.pl.fem": "opiferae",
+      "gen.pl.fem": "opiferarum",
+      "acc.pl.fem": "opiferas",
+      "abl.sg.neut": "opifero",
+      "nom.pl.neut": "opifera",
+      "gen.pl.neut": "opiferorum",
+      "acc.pl.neut": "opifera"
+    }
+  }
+}

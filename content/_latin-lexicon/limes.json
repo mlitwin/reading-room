@@ -1,0 +1,37 @@
+{
+  "lemma": "limes",
+  "pos": "noun",
+  "glosses": [
+    "path, track",
+    "limit",
+    "strip of uncultivated ground marking boundary"
+  ],
+  "reviewed": false,
+  "head": "limes, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "limitem",
+      "gen.pl": "limitum",
+      "acc.pl": "limitis",
+      "nom.sg": "limes",
+      "gen.sg": "limitis",
+      "dat.sg": "limiti",
+      "abl.sg": "limite",
+      "nom.pl": "limites",
+      "dat.pl": "limitibus",
+      "abl.pl": "limitibus"
+    }
+  }
+}

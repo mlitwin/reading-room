@@ -1,0 +1,39 @@
+{
+  "lemma": "crus",
+  "pos": "noun",
+  "glosses": [
+    "leg",
+    "shank",
+    "shin",
+    "main stem of shrub, stock",
+    "upright support of a bridge"
+  ],
+  "reviewed": false,
+  "head": "crus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "crure",
+      "acc.sg": "crus",
+      "nom.pl": "crura",
+      "gen.pl": "crurum",
+      "acc.pl": "crura",
+      "nom.sg": "crus",
+      "gen.sg": "cruris",
+      "dat.sg": "cruri",
+      "dat.pl": "cruribus",
+      "abl.pl": "cruribus"
+    }
+  }
+}

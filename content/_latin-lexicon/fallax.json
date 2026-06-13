@@ -1,0 +1,35 @@
+{
+  "lemma": "fallax",
+  "pos": "adj",
+  "glosses": [
+    "deceitful, treacherous",
+    "misleading, deceptive",
+    "false, fallacious",
+    "spurious"
+  ],
+  "reviewed": false,
+  "head": "fallax, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "fallax",
+      "nom.pl.neut": "fallacia",
+      "acc.pl.neut": "fallacia"
+    }
+  }
+}

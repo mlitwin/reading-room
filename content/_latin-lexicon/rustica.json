@@ -1,0 +1,35 @@
+{
+  "lemma": "rustica",
+  "pos": "noun",
+  "glosses": [
+    "countrywoman, bumpkin"
+  ],
+  "reviewed": false,
+  "head": "rustica, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "rustica",
+      "gen.sg": "rusticae",
+      "abl.sg": "rustica",
+      "acc.sg": "rusticam",
+      "dat.sg": "rusticae",
+      "nom.pl": "rusticae",
+      "gen.pl": "rusticarum",
+      "dat.pl": "rusticis",
+      "abl.pl": "rusticis",
+      "acc.pl": "rusticas"
+    }
+  }
+}

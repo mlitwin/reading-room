@@ -1,0 +1,55 @@
+{
+  "lemma": "corneus",
+  "pos": "adj",
+  "glosses": [
+    "made of/belonging to cornel-tree/wood",
+    "(of genus Cornus)",
+    "(for arrow/javelin)"
+  ],
+  "reviewed": false,
+  "head": "corneus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "corneus",
+      "gen.sg.masc": "cornei",
+      "dat.sg.masc": "corneo",
+      "gen.sg.fem": "corneae",
+      "dat.sg.fem": "corneae",
+      "nom.sg.neut": "corneum",
+      "gen.sg.neut": "cornei",
+      "dat.sg.neut": "corneo",
+      "acc.sg.neut": "corneum",
+      "acc.sg.masc": "corneum",
+      "abl.sg.masc": "corneo",
+      "nom.pl.masc": "cornei",
+      "gen.pl.masc": "corneorum",
+      "acc.pl.masc": "corneos",
+      "nom.sg.fem": "cornea",
+      "acc.sg.fem": "corneam",
+      "abl.sg.fem": "cornea",
+      "nom.pl.fem": "corneae",
+      "gen.pl.fem": "cornearum",
+      "acc.pl.fem": "corneas",
+      "abl.sg.neut": "corneo",
+      "nom.pl.neut": "cornea",
+      "gen.pl.neut": "corneorum",
+      "acc.pl.neut": "cornea"
+    }
+  }
+}

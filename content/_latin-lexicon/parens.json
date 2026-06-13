@@ -1,0 +1,35 @@
+{
+  "lemma": "parens",
+  "pos": "noun",
+  "glosses": [
+    "parent, father, mother"
+  ],
+  "reviewed": false,
+  "head": "parens, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "parenti",
+      "acc.sg": "parentem",
+      "nom.pl": "parentis",
+      "gen.pl": "parentium",
+      "acc.pl": "parentis",
+      "nom.sg": "parens",
+      "gen.sg": "parentis",
+      "dat.sg": "parenti",
+      "dat.pl": "parentibus",
+      "abl.pl": "parentibus"
+    }
+  }
+}

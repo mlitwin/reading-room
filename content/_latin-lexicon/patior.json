@@ -1,0 +1,42 @@
+{
+  "lemma": "patior",
+  "pos": "verb",
+  "glosses": [
+    "suffer",
+    "allow",
+    "undergo, endure",
+    "permit"
+  ],
+  "reviewed": false,
+  "head": "patior, patere, -i, passum",
+  "principal_parts": [
+    "patior",
+    "patere",
+    "-i",
+    "passum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "patis",
+      "3sg.pres.ind.act": "patit",
+      "1pl.pres.ind.act": "patimus",
+      "2pl.pres.ind.act": "patitis",
+      "2sg.pres.imp.act": "pate",
+      "2pl.pres.imp.act": "patite"
+    }
+  }
+}

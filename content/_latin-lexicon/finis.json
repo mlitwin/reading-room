@@ -1,0 +1,36 @@
+{
+  "lemma": "finis",
+  "pos": "noun",
+  "glosses": [
+    "boundary, end, limit, goal",
+    "(pl.) country, territory, land"
+  ],
+  "reviewed": false,
+  "head": "finis, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "fini",
+      "acc.sg": "finem",
+      "nom.pl": "finis",
+      "gen.pl": "finium",
+      "acc.pl": "finis",
+      "nom.sg": "finis",
+      "gen.sg": "finis",
+      "dat.sg": "fini",
+      "dat.pl": "finibus",
+      "abl.pl": "finibus"
+    }
+  }
+}

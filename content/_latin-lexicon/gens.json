@@ -1,0 +1,37 @@
+{
+  "lemma": "gens",
+  "pos": "noun",
+  "glosses": [
+    "tribe, clan",
+    "nation, people",
+    "Gentiles"
+  ],
+  "reviewed": false,
+  "head": "gens, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "genti",
+      "acc.sg": "gentem",
+      "nom.pl": "gentis",
+      "gen.pl": "gentium",
+      "acc.pl": "gentis",
+      "nom.sg": "gens",
+      "gen.sg": "gentis",
+      "dat.sg": "genti",
+      "dat.pl": "gentibus",
+      "abl.pl": "gentibus"
+    }
+  }
+}

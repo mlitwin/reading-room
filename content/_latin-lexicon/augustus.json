@@ -1,0 +1,37 @@
+{
+  "lemma": "augustus",
+  "pos": "noun",
+  "glosses": [
+    "Augustus",
+    "(title of Octavius Caesar, Emperor, 27 BC-14 AD)",
+    "of all emperors"
+  ],
+  "reviewed": false,
+  "head": "augustus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "augustus",
+      "gen.sg": "augusti",
+      "dat.sg": "augusto",
+      "abl.sg": "augusto",
+      "acc.sg": "augustum",
+      "nom.pl": "augusti",
+      "gen.pl": "augustorum",
+      "dat.pl": "augustis",
+      "abl.pl": "augustis",
+      "acc.pl": "augustos"
+    }
+  }
+}

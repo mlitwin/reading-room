@@ -1,0 +1,41 @@
+{
+  "lemma": "queror",
+  "pos": "verb",
+  "glosses": [
+    "complain",
+    "protest, grumble, gripe",
+    "make formal complaint in court of law"
+  ],
+  "reviewed": false,
+  "head": "queror, querere, -i, questum",
+  "principal_parts": [
+    "queror",
+    "querere",
+    "-i",
+    "questum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "queris",
+      "3sg.pres.ind.act": "querit",
+      "1pl.pres.ind.act": "querimus",
+      "2pl.pres.ind.act": "queritis",
+      "2sg.pres.imp.act": "quere",
+      "2pl.pres.imp.act": "querite"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lemma": "nobilis",
+  "pos": "adj",
+  "glosses": [
+    "noble, well born",
+    "aristocratic",
+    "outstanding (in rank/deed)",
+    "important/prominent",
+    "famous, celebrated",
+    "well/generally known"
+  ],
+  "reviewed": false,
+  "head": "nobilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "nobile",
+      "acc.sg.neut": "nobile",
+      "nom.pl.neut": "nobilia",
+      "acc.pl.neut": "nobilia"
+    }
+  }
+}

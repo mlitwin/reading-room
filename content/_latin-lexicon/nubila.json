@@ -1,0 +1,35 @@
+{
+  "lemma": "nubila",
+  "pos": "noun",
+  "glosses": [
+    "clouds (pl.), rain clouds"
+  ],
+  "reviewed": false,
+  "head": "nubila, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nubilum",
+      "gen.sg": "nubili",
+      "acc.sg": "nubilum",
+      "dat.sg": "nubilo",
+      "abl.sg": "nubilo",
+      "gen.pl": "nubilorum",
+      "dat.pl": "nubilis",
+      "abl.pl": "nubilis",
+      "nom.pl": "nubila",
+      "acc.pl": "nubila"
+    }
+  }
+}

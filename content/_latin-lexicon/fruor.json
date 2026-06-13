@@ -1,0 +1,41 @@
+{
+  "lemma": "fruor",
+  "pos": "verb",
+  "glosses": [
+    "enjoy, profit by, delight in (w/ABL)"
+  ],
+  "reviewed": false,
+  "head": "fruor, fruare, -i, fruitum",
+  "principal_parts": [
+    "fruor",
+    "fruare",
+    "-i",
+    "fruitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "fruo",
+      "2sg.pres.ind.act": "fruas",
+      "3sg.pres.ind.act": "fruat",
+      "1pl.pres.ind.act": "fruamus",
+      "2pl.pres.ind.act": "fruatis",
+      "3pl.pres.ind.act": "fruant",
+      "2sg.pres.imp.act": "frua",
+      "2pl.pres.imp.act": "fruate"
+    }
+  }
+}

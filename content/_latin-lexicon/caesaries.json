@@ -1,0 +1,38 @@
+{
+  "lemma": "caesaries",
+  "pos": "noun",
+  "glosses": [
+    "hair",
+    "long/flowing/luxuriant hair",
+    "dark/beautiful hair",
+    "plume (of a helmet)"
+  ],
+  "reviewed": false,
+  "head": "caesaries, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "caesaries",
+      "gen.sg": "caesariei",
+      "dat.sg": "caesariei",
+      "abl.sg": "caesarie",
+      "acc.sg": "caesariem",
+      "nom.pl": "caesaries",
+      "gen.pl": "caesarierum",
+      "dat.pl": "caesariebus",
+      "abl.pl": "caesariebus",
+      "acc.pl": "caesaries"
+    }
+  }
+}

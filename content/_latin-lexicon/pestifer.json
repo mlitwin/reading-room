@@ -1,0 +1,54 @@
+{
+  "lemma": "pestifer",
+  "pos": "adj",
+  "glosses": [
+    "pestilential",
+    "destructive"
+  ],
+  "reviewed": false,
+  "head": "pestifer, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "pestifer",
+      "gen.sg.masc": "pestiferi",
+      "dat.sg.masc": "pestifero",
+      "gen.sg.fem": "pestiferae",
+      "dat.sg.fem": "pestiferae",
+      "nom.sg.neut": "pestiferum",
+      "gen.sg.neut": "pestiferi",
+      "dat.sg.neut": "pestifero",
+      "acc.sg.neut": "pestiferum",
+      "acc.sg.masc": "pestiferum",
+      "abl.sg.masc": "pestifero",
+      "nom.pl.masc": "pestiferi",
+      "gen.pl.masc": "pestiferorum",
+      "acc.pl.masc": "pestiferos",
+      "nom.sg.fem": "pestifera",
+      "acc.sg.fem": "pestiferam",
+      "abl.sg.fem": "pestifera",
+      "nom.pl.fem": "pestiferae",
+      "gen.pl.fem": "pestiferarum",
+      "acc.pl.fem": "pestiferas",
+      "abl.sg.neut": "pestifero",
+      "nom.pl.neut": "pestifera",
+      "gen.pl.neut": "pestiferorum",
+      "acc.pl.neut": "pestifera"
+    }
+  }
+}

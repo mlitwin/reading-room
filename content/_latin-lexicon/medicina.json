@@ -1,0 +1,38 @@
+{
+  "lemma": "medicina",
+  "pos": "noun",
+  "glosses": [
+    "art/practice of medicine, medicine",
+    "clinic",
+    "treatment, dosing",
+    "remedy, cure"
+  ],
+  "reviewed": false,
+  "head": "medicina, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "medicina",
+      "gen.sg": "medicinae",
+      "abl.sg": "medicina",
+      "acc.sg": "medicinam",
+      "dat.sg": "medicinae",
+      "nom.pl": "medicinae",
+      "gen.pl": "medicinarum",
+      "dat.pl": "medicinis",
+      "abl.pl": "medicinis",
+      "acc.pl": "medicinas"
+    }
+  }
+}

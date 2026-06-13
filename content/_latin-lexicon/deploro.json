@@ -1,0 +1,44 @@
+{
+  "lemma": "deploro",
+  "pos": "verb",
+  "glosses": [
+    "weep/lament/mourn for/cry over",
+    "deplore, complain of",
+    "lose",
+    "despair/give up on"
+  ],
+  "reviewed": false,
+  "head": "deploro, deplorare, deploravi, deploratum",
+  "principal_parts": [
+    "deploro",
+    "deplorare",
+    "deploravi",
+    "deploratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "deploro",
+      "2sg.pres.ind.act": "deploras",
+      "3sg.pres.ind.act": "deplorat",
+      "1pl.pres.ind.act": "deploramus",
+      "2pl.pres.ind.act": "deploratis",
+      "3pl.pres.ind.act": "deplorant",
+      "2sg.pres.imp.act": "deplora",
+      "2pl.pres.imp.act": "deplorate"
+    }
+  }
+}

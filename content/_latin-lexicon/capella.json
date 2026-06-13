@@ -1,0 +1,38 @@
+{
+  "lemma": "capella",
+  "pos": "noun",
+  "glosses": [
+    "chapel",
+    "choir",
+    "[a capella => unaccompanied (song)",
+    "~ magister => choirmaster]"
+  ],
+  "reviewed": false,
+  "head": "capella, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "capella",
+      "gen.sg": "capellae",
+      "abl.sg": "capella",
+      "acc.sg": "capellam",
+      "dat.sg": "capellae",
+      "nom.pl": "capellae",
+      "gen.pl": "capellarum",
+      "dat.pl": "capellis",
+      "abl.pl": "capellis",
+      "acc.pl": "capellas"
+    }
+  }
+}

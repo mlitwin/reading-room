@@ -1,0 +1,40 @@
+{
+  "lemma": "remugio",
+  "pos": "verb",
+  "glosses": [
+    "bellow back, moo in reply",
+    "resound"
+  ],
+  "reviewed": false,
+  "head": "remugio, remugere, -i, -um",
+  "principal_parts": [
+    "remugio",
+    "remugere",
+    "-i",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "remugis",
+      "3sg.pres.ind.act": "remugit",
+      "1pl.pres.ind.act": "remugimus",
+      "2pl.pres.ind.act": "remugitis",
+      "2sg.pres.imp.act": "remugi",
+      "2pl.pres.imp.act": "remugite"
+    }
+  }
+}

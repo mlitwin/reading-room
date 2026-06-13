@@ -1,0 +1,35 @@
+{
+  "lemma": "piscis",
+  "pos": "noun",
+  "glosses": [
+    "fish"
+  ],
+  "reviewed": false,
+  "head": "piscis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "pisci",
+      "acc.sg": "piscem",
+      "nom.pl": "piscis",
+      "gen.pl": "piscium",
+      "acc.pl": "piscis",
+      "nom.sg": "piscis",
+      "gen.sg": "piscis",
+      "dat.sg": "pisci",
+      "dat.pl": "piscibus",
+      "abl.pl": "piscibus"
+    }
+  }
+}

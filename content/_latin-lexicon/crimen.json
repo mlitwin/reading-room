@@ -1,0 +1,40 @@
+{
+  "lemma": "crimen",
+  "pos": "noun",
+  "glosses": [
+    "indictment/charge/accusation",
+    "blame/reproach/slander",
+    "verdict/judgment (L+S)",
+    "sin/guilt",
+    "crime/offense/fault",
+    "cause of a crime, criminal (L+S)"
+  ],
+  "reviewed": false,
+  "head": "crimen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "crimine",
+      "acc.sg": "crimen",
+      "nom.pl": "crimina",
+      "gen.pl": "criminum",
+      "acc.pl": "crimina",
+      "nom.sg": "crimen",
+      "gen.sg": "criminis",
+      "dat.sg": "crimini",
+      "dat.pl": "criminibus",
+      "abl.pl": "criminibus"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "oppidum",
+  "pos": "noun",
+  "glosses": [
+    "town"
+  ],
+  "reviewed": false,
+  "head": "oppidum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "oppidum",
+      "gen.sg": "oppidi",
+      "acc.sg": "oppidum",
+      "dat.sg": "oppido",
+      "abl.sg": "oppido",
+      "gen.pl": "oppidorum",
+      "dat.pl": "oppidis",
+      "abl.pl": "oppidis",
+      "nom.pl": "oppida",
+      "acc.pl": "oppida"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "lemma": "irritus",
+  "pos": "adj",
+  "glosses": [
+    "ineffective, useless",
+    "invalid, void, of no effect",
+    "in vain"
+  ],
+  "reviewed": false,
+  "head": "irritus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "irritus",
+      "gen.sg.masc": "irriti",
+      "dat.sg.masc": "irrito",
+      "gen.sg.fem": "irritae",
+      "dat.sg.fem": "irritae",
+      "nom.sg.neut": "irritum",
+      "gen.sg.neut": "irriti",
+      "dat.sg.neut": "irrito",
+      "acc.sg.neut": "irritum",
+      "acc.sg.masc": "irritum",
+      "abl.sg.masc": "irrito",
+      "nom.pl.masc": "irriti",
+      "gen.pl.masc": "irritorum",
+      "acc.pl.masc": "irritos",
+      "nom.sg.fem": "irrita",
+      "acc.sg.fem": "irritam",
+      "abl.sg.fem": "irrita",
+      "nom.pl.fem": "irritae",
+      "gen.pl.fem": "irritarum",
+      "acc.pl.fem": "irritas",
+      "abl.sg.neut": "irrito",
+      "nom.pl.neut": "irrita",
+      "gen.pl.neut": "irritorum",
+      "acc.pl.neut": "irrita"
+    }
+  }
+}

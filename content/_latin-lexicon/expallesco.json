@@ -1,0 +1,40 @@
+{
+  "lemma": "expallesco",
+  "pos": "verb",
+  "glosses": [
+    "turn pale, turn very pale",
+    "go white as a ghost"
+  ],
+  "reviewed": false,
+  "head": "expallesco, expallescere, expallui, -um",
+  "principal_parts": [
+    "expallesco",
+    "expallescere",
+    "expallui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "expallescis",
+      "3sg.pres.ind.act": "expallescit",
+      "1pl.pres.ind.act": "expallescimus",
+      "2pl.pres.ind.act": "expallescitis",
+      "2sg.pres.imp.act": "expallesce",
+      "2pl.pres.imp.act": "expallescite"
+    }
+  }
+}

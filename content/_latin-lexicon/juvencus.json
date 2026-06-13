@@ -1,0 +1,36 @@
+{
+  "lemma": "juvencus",
+  "pos": "noun",
+  "glosses": [
+    "young bull",
+    "young man"
+  ],
+  "reviewed": false,
+  "head": "juvencus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "juvencus",
+      "gen.sg": "juvenci",
+      "dat.sg": "juvenco",
+      "abl.sg": "juvenco",
+      "acc.sg": "juvencum",
+      "nom.pl": "juvenci",
+      "gen.pl": "juvencorum",
+      "dat.pl": "juvencis",
+      "abl.pl": "juvencis",
+      "acc.pl": "juvencos"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "lignum",
+  "pos": "noun",
+  "glosses": [
+    "wood",
+    "firewood",
+    "trunk/stump/tree",
+    "timber",
+    "beam/post",
+    "wood (material)"
+  ],
+  "reviewed": false,
+  "head": "lignum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lignum",
+      "gen.sg": "ligni",
+      "acc.sg": "lignum",
+      "dat.sg": "ligno",
+      "abl.sg": "ligno",
+      "gen.pl": "lignorum",
+      "dat.pl": "lignis",
+      "abl.pl": "lignis",
+      "nom.pl": "ligna",
+      "acc.pl": "ligna"
+    }
+  }
+}

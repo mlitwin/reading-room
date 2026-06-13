@@ -1,0 +1,35 @@
+{
+  "lemma": "villus",
+  "pos": "noun",
+  "glosses": [
+    "shaggy hair, tuft of hair"
+  ],
+  "reviewed": false,
+  "head": "villus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "villus",
+      "gen.sg": "villi",
+      "dat.sg": "villo",
+      "abl.sg": "villo",
+      "acc.sg": "villum",
+      "nom.pl": "villi",
+      "gen.pl": "villorum",
+      "dat.pl": "villis",
+      "abl.pl": "villis",
+      "acc.pl": "villos"
+    }
+  }
+}

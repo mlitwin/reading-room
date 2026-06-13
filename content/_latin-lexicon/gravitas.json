@@ -1,0 +1,40 @@
+{
+  "lemma": "gravitas",
+  "pos": "noun",
+  "glosses": [
+    "weight",
+    "dignity",
+    "gravity",
+    "importances, oppressiveness",
+    "pregnancy",
+    "sickness"
+  ],
+  "reviewed": false,
+  "head": "gravitas, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "gravitatem",
+      "gen.pl": "gravitatum",
+      "acc.pl": "gravitatis",
+      "nom.sg": "gravitas",
+      "gen.sg": "gravitatis",
+      "dat.sg": "gravitati",
+      "abl.sg": "gravitate",
+      "nom.pl": "gravitates",
+      "dat.pl": "gravitatibus",
+      "abl.pl": "gravitatibus"
+    }
+  }
+}

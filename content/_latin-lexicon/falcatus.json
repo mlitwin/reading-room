@@ -1,0 +1,54 @@
+{
+  "lemma": "falcatus",
+  "pos": "adj",
+  "glosses": [
+    "armed with scythes",
+    "sickle-shaped, curved, hooked"
+  ],
+  "reviewed": false,
+  "head": "falcatus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "falcatus",
+      "gen.sg.masc": "falcati",
+      "dat.sg.masc": "falcato",
+      "gen.sg.fem": "falcatae",
+      "dat.sg.fem": "falcatae",
+      "nom.sg.neut": "falcatum",
+      "gen.sg.neut": "falcati",
+      "dat.sg.neut": "falcato",
+      "acc.sg.neut": "falcatum",
+      "acc.sg.masc": "falcatum",
+      "abl.sg.masc": "falcato",
+      "nom.pl.masc": "falcati",
+      "gen.pl.masc": "falcatorum",
+      "acc.pl.masc": "falcatos",
+      "nom.sg.fem": "falcata",
+      "acc.sg.fem": "falcatam",
+      "abl.sg.fem": "falcata",
+      "nom.pl.fem": "falcatae",
+      "gen.pl.fem": "falcatarum",
+      "acc.pl.fem": "falcatas",
+      "abl.sg.neut": "falcato",
+      "nom.pl.neut": "falcata",
+      "gen.pl.neut": "falcatorum",
+      "acc.pl.neut": "falcata"
+    }
+  }
+}

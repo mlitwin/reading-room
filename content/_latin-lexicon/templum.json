@@ -1,0 +1,37 @@
+{
+  "lemma": "templum",
+  "pos": "noun",
+  "glosses": [
+    "temple, church",
+    "shrine",
+    "holy place"
+  ],
+  "reviewed": false,
+  "head": "templum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "templum",
+      "gen.sg": "templi",
+      "acc.sg": "templum",
+      "dat.sg": "templo",
+      "abl.sg": "templo",
+      "gen.pl": "templorum",
+      "dat.pl": "templis",
+      "abl.pl": "templis",
+      "nom.pl": "templa",
+      "acc.pl": "templa"
+    }
+  }
+}

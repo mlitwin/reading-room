@@ -1,0 +1,36 @@
+{
+  "lemma": "nuntia",
+  "pos": "noun",
+  "glosses": [
+    "female messenger",
+    "she who brings tidings (L+S)"
+  ],
+  "reviewed": false,
+  "head": "nuntia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nuntia",
+      "gen.sg": "nuntiae",
+      "abl.sg": "nuntia",
+      "acc.sg": "nuntiam",
+      "dat.sg": "nuntiae",
+      "nom.pl": "nuntiae",
+      "gen.pl": "nuntiarum",
+      "dat.pl": "nuntiis",
+      "abl.pl": "nuntiis",
+      "acc.pl": "nuntias"
+    }
+  }
+}

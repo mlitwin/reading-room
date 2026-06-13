@@ -1,0 +1,36 @@
+{
+  "lemma": "dies",
+  "pos": "noun",
+  "glosses": [
+    "quarter tone",
+    "first audible note of instrument (L+S)"
+  ],
+  "reviewed": false,
+  "head": "dies, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "diesi",
+      "acc.sg": "diesem",
+      "nom.pl": "diesis",
+      "gen.pl": "diesium",
+      "acc.pl": "diesis",
+      "nom.sg": "diesis",
+      "gen.sg": "diesis",
+      "dat.sg": "diesi",
+      "dat.pl": "diesibus",
+      "abl.pl": "diesibus"
+    }
+  }
+}

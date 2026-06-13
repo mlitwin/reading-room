@@ -1,0 +1,39 @@
+{
+  "lemma": "caedes",
+  "pos": "noun",
+  "glosses": [
+    "murder/slaughter/massacre",
+    "assassination",
+    "feuding",
+    "slain/victims",
+    "blood/gore"
+  ],
+  "reviewed": false,
+  "head": "caedes, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "caedi",
+      "acc.sg": "caedem",
+      "nom.pl": "caedis",
+      "gen.pl": "caedium",
+      "acc.pl": "caedis",
+      "nom.sg": "caedes",
+      "gen.sg": "caedis",
+      "dat.sg": "caedi",
+      "dat.pl": "caedibus",
+      "abl.pl": "caedibus"
+    }
+  }
+}

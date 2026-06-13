@@ -1,0 +1,42 @@
+{
+  "lemma": "parco",
+  "pos": "verb",
+  "glosses": [
+    "forbear, refrain from",
+    "spare",
+    "show consideration",
+    "be economical/thrifty with"
+  ],
+  "reviewed": false,
+  "head": "parco, parcere, parcui, parsum",
+  "principal_parts": [
+    "parco",
+    "parcere",
+    "parcui",
+    "parsum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "parcis",
+      "3sg.pres.ind.act": "parcit",
+      "1pl.pres.ind.act": "parcimus",
+      "2pl.pres.ind.act": "parcitis",
+      "2sg.pres.imp.act": "parce",
+      "2pl.pres.imp.act": "parcite"
+    }
+  }
+}

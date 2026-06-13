@@ -1,0 +1,37 @@
+{
+  "lemma": "fulmen",
+  "pos": "noun",
+  "glosses": [
+    "lightning, flash",
+    "thunderbolt",
+    "crushing blow"
+  ],
+  "reviewed": false,
+  "head": "fulmen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "fulmine",
+      "acc.sg": "fulmen",
+      "nom.pl": "fulmina",
+      "gen.pl": "fulminum",
+      "acc.pl": "fulmina",
+      "nom.sg": "fulmen",
+      "gen.sg": "fulminis",
+      "dat.sg": "fulmini",
+      "dat.pl": "fulminibus",
+      "abl.pl": "fulminibus"
+    }
+  }
+}

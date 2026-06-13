@@ -1,0 +1,38 @@
+{
+  "lemma": "opus",
+  "pos": "noun",
+  "glosses": [
+    "need",
+    "work",
+    "fortifications (pl.), works",
+    "[opus est => is useful, beneficial]"
+  ],
+  "reviewed": false,
+  "head": "opus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "opere",
+      "acc.sg": "opus",
+      "nom.pl": "opera",
+      "gen.pl": "operum",
+      "acc.pl": "opera",
+      "nom.sg": "opus",
+      "gen.sg": "operis",
+      "dat.sg": "operi",
+      "dat.pl": "operibus",
+      "abl.pl": "operibus"
+    }
+  }
+}

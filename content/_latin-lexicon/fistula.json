@@ -1,0 +1,37 @@
+{
+  "lemma": "fistula",
+  "pos": "noun",
+  "glosses": [
+    "shepherd's pipe",
+    "tube",
+    "waterpipe"
+  ],
+  "reviewed": false,
+  "head": "fistula, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fistula",
+      "gen.sg": "fistulae",
+      "abl.sg": "fistula",
+      "acc.sg": "fistulam",
+      "dat.sg": "fistulae",
+      "nom.pl": "fistulae",
+      "gen.pl": "fistularum",
+      "dat.pl": "fistulis",
+      "abl.pl": "fistulis",
+      "acc.pl": "fistulas"
+    }
+  }
+}

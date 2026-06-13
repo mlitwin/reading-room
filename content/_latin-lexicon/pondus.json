@@ -1,0 +1,35 @@
+{
+  "lemma": "pondus",
+  "pos": "noun",
+  "glosses": [
+    "weight, burden, impediment"
+  ],
+  "reviewed": false,
+  "head": "pondus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "pondere",
+      "acc.sg": "pondus",
+      "nom.pl": "pondera",
+      "gen.pl": "ponderum",
+      "acc.pl": "pondera",
+      "nom.sg": "pondus",
+      "gen.sg": "ponderis",
+      "dat.sg": "ponderi",
+      "dat.pl": "ponderibus",
+      "abl.pl": "ponderibus"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lemma": "gurges",
+  "pos": "noun",
+  "glosses": [
+    "whirlpool",
+    "raging abyss",
+    "gulf, the sea",
+    "\"flood\", \"stream\""
+  ],
+  "reviewed": false,
+  "head": "gurges, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "gurgitem",
+      "gen.pl": "gurgitum",
+      "acc.pl": "gurgitis",
+      "nom.sg": "gurges",
+      "gen.sg": "gurgitis",
+      "dat.sg": "gurgiti",
+      "abl.sg": "gurgite",
+      "nom.pl": "gurgites",
+      "dat.pl": "gurgitibus",
+      "abl.pl": "gurgitibus"
+    }
+  }
+}

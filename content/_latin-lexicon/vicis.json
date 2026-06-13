@@ -1,0 +1,37 @@
+{
+  "lemma": "vicis",
+  "pos": "noun",
+  "glosses": [
+    "turn, change, succession",
+    "exchange, interchange, repayment",
+    "plight, lot"
+  ],
+  "reviewed": false,
+  "head": "vicis, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "vici",
+      "acc.sg": "vicem",
+      "nom.pl": "vicis",
+      "gen.pl": "vicium",
+      "acc.pl": "vicis",
+      "nom.sg": "vicis",
+      "gen.sg": "vicis",
+      "dat.sg": "vici",
+      "dat.pl": "vicibus",
+      "abl.pl": "vicibus"
+    }
+  }
+}

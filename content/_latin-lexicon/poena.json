@@ -1,0 +1,37 @@
+{
+  "lemma": "poena",
+  "pos": "noun",
+  "glosses": [
+    "penalty, punishment",
+    "revenge/retribution",
+    "[poena dare => to pay the penalty]"
+  ],
+  "reviewed": false,
+  "head": "poena, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "poena",
+      "gen.sg": "poenae",
+      "abl.sg": "poena",
+      "acc.sg": "poenam",
+      "dat.sg": "poenae",
+      "nom.pl": "poenae",
+      "gen.pl": "poenarum",
+      "dat.pl": "poenis",
+      "abl.pl": "poenis",
+      "acc.pl": "poenas"
+    }
+  }
+}

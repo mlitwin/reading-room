@@ -1,0 +1,33 @@
+{
+  "lemma": "patruelis",
+  "pos": "adj",
+  "glosses": [
+    "of a cousin"
+  ],
+  "reviewed": false,
+  "head": "patruelis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "patruele",
+      "acc.sg.neut": "patruele",
+      "nom.pl.neut": "patruelia",
+      "acc.pl.neut": "patruelia"
+    }
+  }
+}

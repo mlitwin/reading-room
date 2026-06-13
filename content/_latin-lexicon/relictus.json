@@ -1,0 +1,54 @@
+{
+  "lemma": "relictus",
+  "pos": "adj",
+  "glosses": [
+    "forsaken, abandoned, derelict",
+    "left untouched"
+  ],
+  "reviewed": false,
+  "head": "relictus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "relictus",
+      "gen.sg.masc": "relicti",
+      "dat.sg.masc": "relicto",
+      "gen.sg.fem": "relictae",
+      "dat.sg.fem": "relictae",
+      "nom.sg.neut": "relictum",
+      "gen.sg.neut": "relicti",
+      "dat.sg.neut": "relicto",
+      "acc.sg.neut": "relictum",
+      "acc.sg.masc": "relictum",
+      "abl.sg.masc": "relicto",
+      "nom.pl.masc": "relicti",
+      "gen.pl.masc": "relictorum",
+      "acc.pl.masc": "relictos",
+      "nom.sg.fem": "relicta",
+      "acc.sg.fem": "relictam",
+      "abl.sg.fem": "relicta",
+      "nom.pl.fem": "relictae",
+      "gen.pl.fem": "relictarum",
+      "acc.pl.fem": "relictas",
+      "abl.sg.neut": "relicto",
+      "nom.pl.neut": "relicta",
+      "gen.pl.neut": "relictorum",
+      "acc.pl.neut": "relicta"
+    }
+  }
+}

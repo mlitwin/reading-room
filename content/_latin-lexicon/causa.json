@@ -1,0 +1,40 @@
+{
+  "lemma": "causa",
+  "pos": "noun",
+  "glosses": [
+    "cause/reason/motive",
+    "origin, source, derivation",
+    "responsibility/blame",
+    "symptom",
+    "occasion, subject",
+    "plea, position"
+  ],
+  "reviewed": false,
+  "head": "causa, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "causa",
+      "gen.sg": "causae",
+      "abl.sg": "causa",
+      "acc.sg": "causam",
+      "dat.sg": "causae",
+      "nom.pl": "causae",
+      "gen.pl": "causarum",
+      "dat.pl": "causis",
+      "abl.pl": "causis",
+      "acc.pl": "causas"
+    }
+  }
+}

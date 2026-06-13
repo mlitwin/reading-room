@@ -1,0 +1,40 @@
+{
+  "lemma": "nescio",
+  "pos": "verb",
+  "glosses": [
+    "not know (how)",
+    "be ignorant/unfamiliar/unaware/unacquainted/unable/unwilling"
+  ],
+  "reviewed": false,
+  "head": "nescio, nescere, nescivi, nescitum",
+  "principal_parts": [
+    "nescio",
+    "nescere",
+    "nescivi",
+    "nescitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "nescis",
+      "3sg.pres.ind.act": "nescit",
+      "1pl.pres.ind.act": "nescimus",
+      "2pl.pres.ind.act": "nescitis",
+      "2sg.pres.imp.act": "nesci",
+      "2pl.pres.imp.act": "nescite"
+    }
+  }
+}

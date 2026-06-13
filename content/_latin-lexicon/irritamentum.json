@@ -1,0 +1,35 @@
+{
+  "lemma": "irritamentum",
+  "pos": "noun",
+  "glosses": [
+    "incentive, stimulus"
+  ],
+  "reviewed": false,
+  "head": "irritamentum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "irritamentum",
+      "gen.sg": "irritamenti",
+      "acc.sg": "irritamentum",
+      "dat.sg": "irritamento",
+      "abl.sg": "irritamento",
+      "gen.pl": "irritamentorum",
+      "dat.pl": "irritamentis",
+      "abl.pl": "irritamentis",
+      "nom.pl": "irritamenta",
+      "acc.pl": "irritamenta"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lemma": "opifex",
+  "pos": "noun",
+  "glosses": [
+    "workman"
+  ],
+  "reviewed": false,
+  "head": "opifex, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "opificem",
+      "gen.pl": "opificum",
+      "acc.pl": "opificis",
+      "nom.sg": "opifex",
+      "gen.sg": "opificis",
+      "dat.sg": "opifici",
+      "abl.sg": "opifice",
+      "nom.pl": "opifices",
+      "dat.pl": "opificibus",
+      "abl.pl": "opificibus"
+    }
+  }
+}

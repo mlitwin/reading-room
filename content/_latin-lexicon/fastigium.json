@@ -1,0 +1,38 @@
+{
+  "lemma": "fastigium",
+  "pos": "noun",
+  "glosses": [
+    "peak, summit, top",
+    "slope, declivity, descent",
+    "gable, roof",
+    "sharp point, tip"
+  ],
+  "reviewed": false,
+  "head": "fastigium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fastigium",
+      "gen.sg": "fastigii",
+      "acc.sg": "fastigium",
+      "dat.sg": "fastigio",
+      "abl.sg": "fastigio",
+      "gen.pl": "fastigiorum",
+      "dat.pl": "fastigiis",
+      "abl.pl": "fastigiis",
+      "nom.pl": "fastigia",
+      "acc.pl": "fastigia"
+    }
+  }
+}

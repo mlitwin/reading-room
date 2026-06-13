@@ -1,0 +1,35 @@
+{
+  "lemma": "fraga",
+  "pos": "noun",
+  "glosses": [
+    "wild strawberries (pl.)"
+  ],
+  "reviewed": false,
+  "head": "fraga, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fragum",
+      "gen.sg": "fragi",
+      "acc.sg": "fragum",
+      "dat.sg": "frago",
+      "abl.sg": "frago",
+      "gen.pl": "fragorum",
+      "dat.pl": "fragis",
+      "abl.pl": "fragis",
+      "nom.pl": "fraga",
+      "acc.pl": "fraga"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "lemma": "similis",
+  "pos": "adj",
+  "glosses": [
+    "like, similar, resembling"
+  ],
+  "reviewed": false,
+  "head": "similis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "simile",
+      "acc.sg.neut": "simile",
+      "nom.pl.neut": "similia",
+      "acc.pl.neut": "similia"
+    }
+  }
+}

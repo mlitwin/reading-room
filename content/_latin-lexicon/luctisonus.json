@@ -1,0 +1,53 @@
+{
+  "lemma": "luctisonus",
+  "pos": "adj",
+  "glosses": [
+    "sad-sounding"
+  ],
+  "reviewed": false,
+  "head": "luctisonus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "luctisonus",
+      "gen.sg.masc": "luctisoni",
+      "dat.sg.masc": "luctisono",
+      "gen.sg.fem": "luctisonae",
+      "dat.sg.fem": "luctisonae",
+      "nom.sg.neut": "luctisonum",
+      "gen.sg.neut": "luctisoni",
+      "dat.sg.neut": "luctisono",
+      "acc.sg.neut": "luctisonum",
+      "acc.sg.masc": "luctisonum",
+      "abl.sg.masc": "luctisono",
+      "nom.pl.masc": "luctisoni",
+      "gen.pl.masc": "luctisonorum",
+      "acc.pl.masc": "luctisonos",
+      "nom.sg.fem": "luctisona",
+      "acc.sg.fem": "luctisonam",
+      "abl.sg.fem": "luctisona",
+      "nom.pl.fem": "luctisonae",
+      "gen.pl.fem": "luctisonarum",
+      "acc.pl.fem": "luctisonas",
+      "abl.sg.neut": "luctisono",
+      "nom.pl.neut": "luctisona",
+      "gen.pl.neut": "luctisonorum",
+      "acc.pl.neut": "luctisona"
+    }
+  }
+}

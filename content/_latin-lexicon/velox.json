@@ -1,0 +1,32 @@
+{
+  "lemma": "velox",
+  "pos": "adj",
+  "glosses": [
+    "swift, quick, fleet, rapid, speedy"
+  ],
+  "reviewed": false,
+  "head": "velox, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "velox",
+      "nom.pl.neut": "velocia",
+      "acc.pl.neut": "velocia"
+    }
+  }
+}

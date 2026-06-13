@@ -1,0 +1,39 @@
+{
+  "lemma": "conjugium",
+  "pos": "noun",
+  "glosses": [
+    "marriage/wedlock",
+    "husband/wife",
+    "couple",
+    "mating (animal), pair",
+    "close connection"
+  ],
+  "reviewed": false,
+  "head": "conjugium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "conjugium",
+      "gen.sg": "conjugii",
+      "acc.sg": "conjugium",
+      "dat.sg": "conjugio",
+      "abl.sg": "conjugio",
+      "gen.pl": "conjugiorum",
+      "dat.pl": "conjugiis",
+      "abl.pl": "conjugiis",
+      "nom.pl": "conjugia",
+      "acc.pl": "conjugia"
+    }
+  }
+}

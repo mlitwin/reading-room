@@ -1,0 +1,43 @@
+{
+  "lemma": "aversor",
+  "pos": "verb",
+  "glosses": [
+    "turn oneself away in disgust/horror, recoil",
+    "avoid, shun",
+    "refuse, reject"
+  ],
+  "reviewed": false,
+  "head": "aversor, aversare, -i, aversatum",
+  "principal_parts": [
+    "aversor",
+    "aversare",
+    "-i",
+    "aversatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "averso",
+      "2sg.pres.ind.act": "aversas",
+      "3sg.pres.ind.act": "aversat",
+      "1pl.pres.ind.act": "aversamus",
+      "2pl.pres.ind.act": "aversatis",
+      "3pl.pres.ind.act": "aversant",
+      "2sg.pres.imp.act": "aversa",
+      "2pl.pres.imp.act": "aversate"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lemma": "iter",
+  "pos": "noun",
+  "glosses": [
+    "journey",
+    "road",
+    "passage, path",
+    "march [route magnum => forced march]"
+  ],
+  "reviewed": false,
+  "head": "iter, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "itinere",
+      "acc.sg": "iter",
+      "nom.pl": "itinera",
+      "gen.pl": "itinerum",
+      "acc.pl": "itinera",
+      "nom.sg": "iter",
+      "gen.sg": "itineris",
+      "dat.sg": "itineri",
+      "dat.pl": "itineribus",
+      "abl.pl": "itineribus"
+    }
+  }
+}

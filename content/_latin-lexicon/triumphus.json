@@ -1,0 +1,35 @@
+{
+  "lemma": "triumphus",
+  "pos": "noun",
+  "glosses": [
+    "triumph, victory parade"
+  ],
+  "reviewed": false,
+  "head": "triumphus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "triumphus",
+      "gen.sg": "triumphi",
+      "dat.sg": "triumpho",
+      "abl.sg": "triumpho",
+      "acc.sg": "triumphum",
+      "nom.pl": "triumphi",
+      "gen.pl": "triumphorum",
+      "dat.pl": "triumphis",
+      "abl.pl": "triumphis",
+      "acc.pl": "triumphos"
+    }
+  }
+}

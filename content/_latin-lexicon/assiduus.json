@@ -1,0 +1,36 @@
+{
+  "lemma": "assiduus",
+  "pos": "noun",
+  "glosses": [
+    "tribute/tax payer, rich person",
+    "first-rate person/writer?"
+  ],
+  "reviewed": false,
+  "head": "assiduus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "assiduus",
+      "gen.sg": "assidui",
+      "dat.sg": "assiduo",
+      "abl.sg": "assiduo",
+      "acc.sg": "assiduum",
+      "nom.pl": "assidui",
+      "gen.pl": "assiduorum",
+      "dat.pl": "assiduis",
+      "abl.pl": "assiduis",
+      "acc.pl": "assiduos"
+    }
+  }
+}

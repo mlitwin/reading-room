@@ -1,0 +1,53 @@
+{
+  "lemma": "placidus",
+  "pos": "adj",
+  "glosses": [
+    "gentle, calm, mild, peaceful, placid"
+  ],
+  "reviewed": false,
+  "head": "placidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "placidus",
+      "gen.sg.masc": "placidi",
+      "dat.sg.masc": "placido",
+      "gen.sg.fem": "placidae",
+      "dat.sg.fem": "placidae",
+      "nom.sg.neut": "placidum",
+      "gen.sg.neut": "placidi",
+      "dat.sg.neut": "placido",
+      "acc.sg.neut": "placidum",
+      "acc.sg.masc": "placidum",
+      "abl.sg.masc": "placido",
+      "nom.pl.masc": "placidi",
+      "gen.pl.masc": "placidorum",
+      "acc.pl.masc": "placidos",
+      "nom.sg.fem": "placida",
+      "acc.sg.fem": "placidam",
+      "abl.sg.fem": "placida",
+      "nom.pl.fem": "placidae",
+      "gen.pl.fem": "placidarum",
+      "acc.pl.fem": "placidas",
+      "abl.sg.neut": "placido",
+      "nom.pl.neut": "placida",
+      "gen.pl.neut": "placidorum",
+      "acc.pl.neut": "placida"
+    }
+  }
+}

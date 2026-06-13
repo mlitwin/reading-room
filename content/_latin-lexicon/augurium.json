@@ -1,0 +1,38 @@
+{
+  "lemma": "augurium",
+  "pos": "noun",
+  "glosses": [
+    "augury (act/profession)",
+    "divination, prediction",
+    "omen, portent/sign",
+    "foreboding"
+  ],
+  "reviewed": false,
+  "head": "augurium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "augurium",
+      "gen.sg": "augurii",
+      "acc.sg": "augurium",
+      "dat.sg": "augurio",
+      "abl.sg": "augurio",
+      "gen.pl": "auguriorum",
+      "dat.pl": "auguriis",
+      "abl.pl": "auguriis",
+      "nom.pl": "auguria",
+      "acc.pl": "auguria"
+    }
+  }
+}

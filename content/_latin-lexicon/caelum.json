@@ -1,0 +1,37 @@
+{
+  "lemma": "caelum",
+  "pos": "noun",
+  "glosses": [
+    "chisel",
+    "engraving tool",
+    "burin"
+  ],
+  "reviewed": false,
+  "head": "caelum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "caelum",
+      "gen.sg": "caeli",
+      "acc.sg": "caelum",
+      "dat.sg": "caelo",
+      "abl.sg": "caelo",
+      "gen.pl": "caelorum",
+      "dat.pl": "caelis",
+      "abl.pl": "caelis",
+      "nom.pl": "caela",
+      "acc.pl": "caela"
+    }
+  }
+}

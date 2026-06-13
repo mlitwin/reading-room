@@ -1,0 +1,35 @@
+{
+  "lemma": "silva",
+  "pos": "noun",
+  "glosses": [
+    "wood, forest (sylvan)"
+  ],
+  "reviewed": false,
+  "head": "silva, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "silva",
+      "gen.sg": "silvae",
+      "abl.sg": "silva",
+      "acc.sg": "silvam",
+      "dat.sg": "silvae",
+      "nom.pl": "silvae",
+      "gen.pl": "silvarum",
+      "dat.pl": "silvis",
+      "abl.pl": "silvis",
+      "acc.pl": "silvas"
+    }
+  }
+}

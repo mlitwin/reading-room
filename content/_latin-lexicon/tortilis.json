@@ -1,0 +1,33 @@
+{
+  "lemma": "tortilis",
+  "pos": "adj",
+  "glosses": [
+    "twisted, coiled"
+  ],
+  "reviewed": false,
+  "head": "tortilis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "tortile",
+      "acc.sg.neut": "tortile",
+      "nom.pl.neut": "tortilia",
+      "acc.pl.neut": "tortilia"
+    }
+  }
+}

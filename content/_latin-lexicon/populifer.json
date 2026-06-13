@@ -1,0 +1,53 @@
+{
+  "lemma": "populifer",
+  "pos": "adj",
+  "glosses": [
+    "producing poplars"
+  ],
+  "reviewed": false,
+  "head": "populifer, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "populifer",
+      "gen.sg.masc": "populiferi",
+      "dat.sg.masc": "populifero",
+      "gen.sg.fem": "populiferae",
+      "dat.sg.fem": "populiferae",
+      "nom.sg.neut": "populiferum",
+      "gen.sg.neut": "populiferi",
+      "dat.sg.neut": "populifero",
+      "acc.sg.neut": "populiferum",
+      "acc.sg.masc": "populiferum",
+      "abl.sg.masc": "populifero",
+      "nom.pl.masc": "populiferi",
+      "gen.pl.masc": "populiferorum",
+      "acc.pl.masc": "populiferos",
+      "nom.sg.fem": "populifera",
+      "acc.sg.fem": "populiferam",
+      "abl.sg.fem": "populifera",
+      "nom.pl.fem": "populiferae",
+      "gen.pl.fem": "populiferarum",
+      "acc.pl.fem": "populiferas",
+      "abl.sg.neut": "populifero",
+      "nom.pl.neut": "populifera",
+      "gen.pl.neut": "populiferorum",
+      "acc.pl.neut": "populifera"
+    }
+  }
+}

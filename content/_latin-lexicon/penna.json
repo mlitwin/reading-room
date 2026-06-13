@@ -1,0 +1,35 @@
+{
+  "lemma": "penna",
+  "pos": "noun",
+  "glosses": [
+    "feather, wing"
+  ],
+  "reviewed": false,
+  "head": "penna, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "penna",
+      "gen.sg": "pennae",
+      "abl.sg": "penna",
+      "acc.sg": "pennam",
+      "dat.sg": "pennae",
+      "nom.pl": "pennae",
+      "gen.pl": "pennarum",
+      "dat.pl": "pennis",
+      "abl.pl": "pennis",
+      "acc.pl": "pennas"
+    }
+  }
+}

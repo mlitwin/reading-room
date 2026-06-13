@@ -1,0 +1,42 @@
+{
+  "lemma": "glomero",
+  "pos": "verb",
+  "glosses": [
+    "collect, amass, assemble",
+    "form into a ball"
+  ],
+  "reviewed": false,
+  "head": "glomero, glomerare, glomeravi, glomeratum",
+  "principal_parts": [
+    "glomero",
+    "glomerare",
+    "glomeravi",
+    "glomeratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "glomero",
+      "2sg.pres.ind.act": "glomeras",
+      "3sg.pres.ind.act": "glomerat",
+      "1pl.pres.ind.act": "glomeramus",
+      "2pl.pres.ind.act": "glomeratis",
+      "3pl.pres.ind.act": "glomerant",
+      "2sg.pres.imp.act": "glomera",
+      "2pl.pres.imp.act": "glomerate"
+    }
+  }
+}

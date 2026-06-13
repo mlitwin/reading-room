@@ -1,0 +1,39 @@
+{
+  "lemma": "miles",
+  "pos": "noun",
+  "glosses": [
+    "soldier",
+    "foot soldier",
+    "soldiery",
+    "knight (Latham)",
+    "knight's fee/service"
+  ],
+  "reviewed": false,
+  "head": "miles, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "militem",
+      "gen.pl": "militum",
+      "acc.pl": "militis",
+      "nom.sg": "miles",
+      "gen.sg": "militis",
+      "dat.sg": "militi",
+      "abl.sg": "milite",
+      "nom.pl": "milites",
+      "dat.pl": "militibus",
+      "abl.pl": "militibus"
+    }
+  }
+}

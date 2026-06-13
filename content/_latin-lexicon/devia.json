@@ -1,0 +1,35 @@
+{
+  "lemma": "devia",
+  "pos": "noun",
+  "glosses": [
+    "remote/secluded/lonely/unfrequented/out-of-way parts/places (pl.)"
+  ],
+  "reviewed": false,
+  "head": "devia, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "devium",
+      "gen.sg": "devii",
+      "acc.sg": "devium",
+      "dat.sg": "devio",
+      "abl.sg": "devio",
+      "gen.pl": "deviorum",
+      "dat.pl": "deviis",
+      "abl.pl": "deviis",
+      "nom.pl": "devia",
+      "acc.pl": "devia"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "lemma": "collum",
+  "pos": "noun",
+  "glosses": [
+    "neck",
+    "throat",
+    "head and neck",
+    "severed head",
+    "upper stem (flower)",
+    "mountain ridge"
+  ],
+  "reviewed": false,
+  "head": "collum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "collum",
+      "gen.sg": "colli",
+      "acc.sg": "collum",
+      "dat.sg": "collo",
+      "abl.sg": "collo",
+      "gen.pl": "collorum",
+      "dat.pl": "collis",
+      "abl.pl": "collis",
+      "nom.pl": "colla",
+      "acc.pl": "colla"
+    }
+  }
+}

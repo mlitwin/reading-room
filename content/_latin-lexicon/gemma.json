@@ -1,0 +1,40 @@
+{
+  "lemma": "gemma",
+  "pos": "noun",
+  "glosses": [
+    "bud",
+    "jewel, gem, precious stone",
+    "amber",
+    "cup (material)",
+    "seal, signet",
+    "game piece"
+  ],
+  "reviewed": false,
+  "head": "gemma, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "gemma",
+      "gen.sg": "gemmae",
+      "abl.sg": "gemma",
+      "acc.sg": "gemmam",
+      "dat.sg": "gemmae",
+      "nom.pl": "gemmae",
+      "gen.pl": "gemmarum",
+      "dat.pl": "gemmis",
+      "abl.pl": "gemmis",
+      "acc.pl": "gemmas"
+    }
+  }
+}

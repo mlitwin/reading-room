@@ -1,0 +1,45 @@
+{
+  "lemma": "animo",
+  "pos": "verb",
+  "glosses": [
+    "animate, give/bring life",
+    "revive, refresh",
+    "rouse, animate",
+    "inspire",
+    "blow"
+  ],
+  "reviewed": false,
+  "head": "animo, animare, animavi, animatum",
+  "principal_parts": [
+    "animo",
+    "animare",
+    "animavi",
+    "animatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "animo",
+      "2sg.pres.ind.act": "animas",
+      "3sg.pres.ind.act": "animat",
+      "1pl.pres.ind.act": "animamus",
+      "2pl.pres.ind.act": "animatis",
+      "3pl.pres.ind.act": "animant",
+      "2sg.pres.imp.act": "anima",
+      "2pl.pres.imp.act": "animate"
+    }
+  }
+}

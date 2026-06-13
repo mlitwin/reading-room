@@ -1,0 +1,54 @@
+{
+  "lemma": "impius",
+  "pos": "adj",
+  "glosses": [
+    "wicked, impious, irreverent",
+    "showing no regard for divinely imposed moral duty"
+  ],
+  "reviewed": false,
+  "head": "impius, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "impius",
+      "gen.sg.masc": "impii",
+      "dat.sg.masc": "impio",
+      "gen.sg.fem": "impiae",
+      "dat.sg.fem": "impiae",
+      "nom.sg.neut": "impium",
+      "gen.sg.neut": "impii",
+      "dat.sg.neut": "impio",
+      "acc.sg.neut": "impium",
+      "acc.sg.masc": "impium",
+      "abl.sg.masc": "impio",
+      "nom.pl.masc": "impii",
+      "gen.pl.masc": "impiorum",
+      "acc.pl.masc": "impios",
+      "nom.sg.fem": "impia",
+      "acc.sg.fem": "impiam",
+      "abl.sg.fem": "impia",
+      "nom.pl.fem": "impiae",
+      "gen.pl.fem": "impiarum",
+      "acc.pl.fem": "impias",
+      "abl.sg.neut": "impio",
+      "nom.pl.neut": "impia",
+      "gen.pl.neut": "impiorum",
+      "acc.pl.neut": "impia"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "aper",
+  "pos": "noun",
+  "glosses": [
+    "boar, wild boar (as animal, food, or used as a Legion standard/symbol)",
+    "a fish"
+  ],
+  "reviewed": false,
+  "head": "aper, -i, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aper",
+      "gen.sg": "apri",
+      "dat.sg": "apro",
+      "abl.sg": "apro",
+      "acc.sg": "aprum",
+      "nom.pl": "apri",
+      "gen.pl": "aprorum",
+      "dat.pl": "apris",
+      "abl.pl": "apris",
+      "acc.pl": "apros"
+    }
+  }
+}

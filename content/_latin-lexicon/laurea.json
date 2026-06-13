@@ -1,0 +1,38 @@
+{
+  "lemma": "laurea",
+  "pos": "noun",
+  "glosses": [
+    "laurel/bay tree",
+    "laurel crown/wreath/branch",
+    "triumph, victory",
+    "honor (poets)"
+  ],
+  "reviewed": false,
+  "head": "laurea, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "laurea",
+      "gen.sg": "laureae",
+      "abl.sg": "laurea",
+      "acc.sg": "lauream",
+      "dat.sg": "laureae",
+      "nom.pl": "laureae",
+      "gen.pl": "laurearum",
+      "dat.pl": "laureis",
+      "abl.pl": "laureis",
+      "acc.pl": "laureas"
+    }
+  }
+}

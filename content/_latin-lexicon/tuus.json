@@ -1,0 +1,53 @@
+{
+  "lemma": "tuus",
+  "pos": "adj",
+  "glosses": [
+    "your (sing.)"
+  ],
+  "reviewed": false,
+  "head": "tuus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "tuus",
+      "gen.sg.masc": "tui",
+      "dat.sg.masc": "tuo",
+      "gen.sg.fem": "tuae",
+      "dat.sg.fem": "tuae",
+      "nom.sg.neut": "tuum",
+      "gen.sg.neut": "tui",
+      "dat.sg.neut": "tuo",
+      "acc.sg.neut": "tuum",
+      "acc.sg.masc": "tuum",
+      "abl.sg.masc": "tuo",
+      "nom.pl.masc": "tui",
+      "gen.pl.masc": "tuorum",
+      "acc.pl.masc": "tuos",
+      "nom.sg.fem": "tua",
+      "acc.sg.fem": "tuam",
+      "abl.sg.fem": "tua",
+      "nom.pl.fem": "tuae",
+      "gen.pl.fem": "tuarum",
+      "acc.pl.fem": "tuas",
+      "abl.sg.neut": "tuo",
+      "nom.pl.neut": "tua",
+      "gen.pl.neut": "tuorum",
+      "acc.pl.neut": "tua"
+    }
+  }
+}

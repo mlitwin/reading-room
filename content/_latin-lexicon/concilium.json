@@ -1,0 +1,40 @@
+{
+  "lemma": "concilium",
+  "pos": "noun",
+  "glosses": [
+    "public gathering/meeting",
+    "popular assembly, council",
+    "hearing",
+    "debate/discussion",
+    "association, society, company",
+    "union/connection (of objects)"
+  ],
+  "reviewed": false,
+  "head": "concilium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "concilium",
+      "gen.sg": "concilii",
+      "acc.sg": "concilium",
+      "dat.sg": "concilio",
+      "abl.sg": "concilio",
+      "gen.pl": "conciliorum",
+      "dat.pl": "conciliis",
+      "abl.pl": "conciliis",
+      "nom.pl": "concilia",
+      "acc.pl": "concilia"
+    }
+  }
+}

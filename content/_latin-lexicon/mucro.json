@@ -1,0 +1,35 @@
+{
+  "lemma": "mucro",
+  "pos": "noun",
+  "glosses": [
+    "sword, sword point, sharp point"
+  ],
+  "reviewed": false,
+  "head": "mucro, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "mucronem",
+      "gen.pl": "mucronum",
+      "acc.pl": "mucronis",
+      "nom.sg": "mucro",
+      "gen.sg": "mucronis",
+      "dat.sg": "mucroni",
+      "abl.sg": "mucrone",
+      "nom.pl": "mucrones",
+      "dat.pl": "mucronibus",
+      "abl.pl": "mucronibus"
+    }
+  }
+}

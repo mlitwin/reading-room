@@ -1,0 +1,37 @@
+{
+  "lemma": "facinus",
+  "pos": "noun",
+  "glosses": [
+    "deed",
+    "crime",
+    "outrage"
+  ],
+  "reviewed": false,
+  "head": "facinus, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "facinore",
+      "acc.sg": "facinus",
+      "nom.pl": "facinora",
+      "gen.pl": "facinorum",
+      "acc.pl": "facinora",
+      "nom.sg": "facinus",
+      "gen.sg": "facinoris",
+      "dat.sg": "facinori",
+      "dat.pl": "facinoribus",
+      "abl.pl": "facinoribus"
+    }
+  }
+}

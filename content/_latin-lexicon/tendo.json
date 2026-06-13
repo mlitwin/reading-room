@@ -1,0 +1,44 @@
+{
+  "lemma": "tendo",
+  "pos": "verb",
+  "glosses": [
+    "stretch/spread/extend",
+    "distend",
+    "aim/direct weapon/glance/steps/course",
+    "strive",
+    "pitch tent, encamp",
+    "pull tight"
+  ],
+  "reviewed": false,
+  "head": "tendo, tendere, tetendi, tensum",
+  "principal_parts": [
+    "tendo",
+    "tendere",
+    "tetendi",
+    "tensum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "tendis",
+      "3sg.pres.ind.act": "tendit",
+      "1pl.pres.ind.act": "tendimus",
+      "2pl.pres.ind.act": "tenditis",
+      "2sg.pres.imp.act": "tende",
+      "2pl.pres.imp.act": "tendite"
+    }
+  }
+}

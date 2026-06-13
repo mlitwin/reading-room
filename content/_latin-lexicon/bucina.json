@@ -1,0 +1,36 @@
+{
+  "lemma": "bucina",
+  "pos": "noun",
+  "glosses": [
+    "blast on trumpet, trumpet call",
+    "kind of shellfish (used for purple dye)"
+  ],
+  "reviewed": false,
+  "head": "bucina, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "bucinum",
+      "gen.sg": "bucini",
+      "acc.sg": "bucinum",
+      "dat.sg": "bucino",
+      "abl.sg": "bucino",
+      "gen.pl": "bucinorum",
+      "dat.pl": "bucinis",
+      "abl.pl": "bucinis",
+      "nom.pl": "bucina",
+      "acc.pl": "bucina"
+    }
+  }
+}

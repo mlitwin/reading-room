@@ -1,0 +1,35 @@
+{
+  "lemma": "obsidium",
+  "pos": "noun",
+  "glosses": [
+    "siege, blockade"
+  ],
+  "reviewed": false,
+  "head": "obsidium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "obsidium",
+      "gen.sg": "obsidii",
+      "acc.sg": "obsidium",
+      "dat.sg": "obsidio",
+      "abl.sg": "obsidio",
+      "gen.pl": "obsidiorum",
+      "dat.pl": "obsidiis",
+      "abl.pl": "obsidiis",
+      "nom.pl": "obsidia",
+      "acc.pl": "obsidia"
+    }
+  }
+}
