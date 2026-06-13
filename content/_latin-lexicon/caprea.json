@@ -1,0 +1,35 @@
+{
+  "lemma": "caprea",
+  "pos": "noun",
+  "glosses": [
+    "roe deer",
+    "wild she-goat (L+S)"
+  ],
+  "head": "caprea, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "caprea",
+      "gen.sg": "capreae",
+      "abl.sg": "caprea",
+      "acc.sg": "capream",
+      "dat.sg": "capreae",
+      "nom.pl": "capreae",
+      "gen.pl": "caprearum",
+      "dat.pl": "capreis",
+      "abl.pl": "capreis",
+      "acc.pl": "capreas"
+    }
+  }
+}

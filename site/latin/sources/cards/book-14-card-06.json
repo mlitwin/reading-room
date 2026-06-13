@@ -1,0 +1,492 @@
+{
+  "book": 14,
+  "card": 6,
+  "lines": [
+    320,
+    440
+  ],
+  "title_latin": "Picus et Canens.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 320,
+      "latin": "Picus in Ausoniis, proles Saturnia terris"
+    },
+    {
+      "n": 321,
+      "latin": "rex fuit, utilium bello studiosus equorum;"
+    },
+    {
+      "n": 322,
+      "latin": "forma viro, quam cernis, erat: licet ipse decorem"
+    },
+    {
+      "n": 323,
+      "latin": "adspicias fictaque probes ab imagine veram."
+    },
+    {
+      "n": 324,
+      "latin": "Par animus formae; nec adhuc spectasse per annos"
+    },
+    {
+      "n": 325,
+      "latin": "quinquennem poterat Graia quater Elide pugnam."
+    },
+    {
+      "n": 326,
+      "latin": "Ille suos dryadas Latiis in montibus ortas"
+    },
+    {
+      "n": 327,
+      "latin": "verterat in vultus, illum fontana petebant"
+    },
+    {
+      "n": 328,
+      "latin": "numina, naiades, quas Albula, quasque Numici,"
+    },
+    {
+      "n": 329,
+      "latin": "quas Anienis aquae cursuque brevissimus Almo"
+    },
+    {
+      "n": 330,
+      "latin": "Narve tulit praeceps et opacae Farfarus umbrae,"
+    },
+    {
+      "n": 331,
+      "latin": "quaeque colunt Scythicae stagnum nemorale Dianae"
+    },
+    {
+      "n": 332,
+      "latin": "finitimosque lacus; spretis tamen omnibus unam"
+    },
+    {
+      "n": 333,
+      "latin": "ille colit nymphen, quam quondam in colle Palati"
+    },
+    {
+      "n": 334,
+      "latin": "dicitur Ionio peperisse Venilia Iano."
+    },
+    {
+      "n": 335,
+      "latin": "Haec ubi nubilibus primum maturuit annis,"
+    },
+    {
+      "n": 336,
+      "latin": "praeposito cunctis Laurenti tradita Pico est,"
+    },
+    {
+      "n": 337,
+      "latin": "rara quidem facie, sed rarior arte canendi,"
+    },
+    {
+      "n": 338,
+      "latin": "unde Canens dicta est: silvas et saxa movere"
+    },
+    {
+      "n": 339,
+      "latin": "et mulcere feras et flumina longa morari"
+    },
+    {
+      "n": 340,
+      "latin": "ore suo volucresque vagas retinere solebat."
+    },
+    {
+      "n": 341,
+      "latin": "Quae dum feminea modulatur carmina voce,"
+    },
+    {
+      "n": 342,
+      "latin": "exierat tecto Laurentes Picus in agros,"
+    },
+    {
+      "n": 343,
+      "latin": "indigenas fixurus apros, tergumque premebat"
+    },
+    {
+      "n": 344,
+      "latin": "acris equi, laevaque hastilia bina ferebat,"
+    },
+    {
+      "n": 345,
+      "latin": "poeniceam fulvo chlamydem contractus ab auro."
+    },
+    {
+      "n": 346,
+      "latin": "Venerat in silvas et filia Solis easdem,"
+    },
+    {
+      "n": 347,
+      "latin": "utque novas legeret fecundis collibus herbas,"
+    },
+    {
+      "n": 348,
+      "latin": "nomine dicta suo Circaea reliquerat arva."
+    },
+    {
+      "n": 349,
+      "latin": "Quae simul ac iuvenem, virgultis abdita, vidit,"
+    },
+    {
+      "n": 350,
+      "latin": "obstipuit: cecidere manu, quas legerat, herbae,"
+    },
+    {
+      "n": 351,
+      "latin": "flammaque per totas visa est errare medullas."
+    },
+    {
+      "n": 352,
+      "latin": "Ut primum valido mentem conlegit ab aestu,"
+    },
+    {
+      "n": 353,
+      "latin": "quid cuperet, fassura fuit: ne posset adire,"
+    },
+    {
+      "n": 354,
+      "latin": "cursus equi fecit circumfususque satelles."
+    },
+    {
+      "n": 355,
+      "latin": "“Non” ait “effugies, vento rapiare licebit,"
+    },
+    {
+      "n": 356,
+      "latin": "si modo me novi, si non evanuit omnis"
+    },
+    {
+      "n": 357,
+      "latin": "herbarum virtus et non mea carmina fallunt.”"
+    },
+    {
+      "n": 358,
+      "latin": "Dixit et effigiem, nullo cum corpore, falsi"
+    },
+    {
+      "n": 359,
+      "latin": "finxit apri praeterque oculos transcurrere regis"
+    },
+    {
+      "n": 360,
+      "latin": "iussit et in densum trabibus nemus ire videri,"
+    },
+    {
+      "n": 361,
+      "latin": "plurima qua silva est et equo loca pervia non sunt."
+    },
+    {
+      "n": 362,
+      "latin": "Haud mora: continuo praedae petit inscius umbram"
+    },
+    {
+      "n": 363,
+      "latin": "Picus equique celer spumantia terga relinquit"
+    },
+    {
+      "n": 364,
+      "latin": "spemque sequens vanam silva pedes errat in alta."
+    },
+    {
+      "n": 365,
+      "latin": "Concipit illa preces et verba precantia dicit"
+    },
+    {
+      "n": 366,
+      "latin": "ignotosque deos ignoto carmine adorat,"
+    },
+    {
+      "n": 367,
+      "latin": "quo solet et niveae vultum confundere Lunae"
+    },
+    {
+      "n": 368,
+      "latin": "et patrio capiti bibulas subtexere nubes."
+    },
+    {
+      "n": 369,
+      "latin": "Tum quoque cantato densetur carmine caelum,"
+    },
+    {
+      "n": 370,
+      "latin": "et nebulas exhalat humus, caecisque vagantur"
+    },
+    {
+      "n": 371,
+      "latin": "limitibus comites, et abest custodia regis."
+    },
+    {
+      "n": 372,
+      "latin": "Nacta locum tempusque “per, o, tua lumina” dixit,"
+    },
+    {
+      "n": 373,
+      "latin": "“quae mea ceperunt, perque hanc, pulcherrime, formam,"
+    },
+    {
+      "n": 374,
+      "latin": "quae facit, ut supplex tibi sim dea, consule nostris"
+    },
+    {
+      "n": 375,
+      "latin": "ignibus et socerum, qui pervidet omnia, Solem"
+    },
+    {
+      "n": 376,
+      "latin": "accipe, nec durus Titanida despice Circen!”"
+    },
+    {
+      "n": 377,
+      "latin": "Dixerat. Ille ferox ipsamque precesque relinquit"
+    },
+    {
+      "n": 378,
+      "latin": "et “quaecumque es” ait, “non sum tuus: altera captum"
+    },
+    {
+      "n": 379,
+      "latin": "me tenet et teneat per longum, comprecor, aevum!"
+    },
+    {
+      "n": 380,
+      "latin": "Nec venere externa socialia foedera laedam,"
+    },
+    {
+      "n": 381,
+      "latin": "dum mihi Ianigenam servabunt fata Canentem!”"
+    },
+    {
+      "n": 382,
+      "latin": "Saepe retemptatis precibus Titania frustra"
+    },
+    {
+      "n": 383,
+      "latin": "“non impune feres, neque” ait “reddere Canenti,"
+    },
+    {
+      "n": 384,
+      "latin": "laesaque quid faciat, quid amans, quid femina disces.”"
+    },
+    {
+      "n": 386,
+      "latin": "Tum bis ad occasum, bis se convertit ad ortus,"
+    },
+    {
+      "n": 387,
+      "latin": "ter iuvenem baculo tetigit, tria carmina dixit."
+    },
+    {
+      "n": 388,
+      "latin": "Ille fugit, sed se solito velocius ipse"
+    },
+    {
+      "n": 389,
+      "latin": "currere miratur: pennas in corpore vidit,"
+    },
+    {
+      "n": 390,
+      "latin": "seque novam subito Latiis accedere silvis"
+    },
+    {
+      "n": 391,
+      "latin": "indignatus avem duro fera robora rostro"
+    },
+    {
+      "n": 392,
+      "latin": "figit et iratus longis dat vulnera ramis."
+    },
+    {
+      "n": 393,
+      "latin": "Purpureum chlamydis pennae traxere colorem,"
+    },
+    {
+      "n": 394,
+      "latin": "fibula quod fuerat vestemque momorderat aurum,"
+    },
+    {
+      "n": 395,
+      "latin": "pluma fit, et fulvo cervix praecingitur auro,"
+    },
+    {
+      "n": 396,
+      "latin": "nec quicquam antiquum Pico nisi nomina restat."
+    },
+    {
+      "n": 397,
+      "latin": "Interea comites, clamato saepe per agros"
+    },
+    {
+      "n": 398,
+      "latin": "nequiquam Pico nullaque in parte reperto,"
+    },
+    {
+      "n": 399,
+      "latin": "inveniunt Circen (nam iam tenuaverat auras"
+    },
+    {
+      "n": 400,
+      "latin": "passaque erat nebulas ventis ac sole recludi)"
+    },
+    {
+      "n": 401,
+      "latin": "criminibusque premunt veris regemque reposcunt"
+    },
+    {
+      "n": 402,
+      "latin": "vimque ferunt saevisque parant incessere telis."
+    },
+    {
+      "n": 403,
+      "latin": "Illa nocens spargit virus sucosque veneni"
+    },
+    {
+      "n": 404,
+      "latin": "et Noctem noctisque deos Ereboque chaoque"
+    },
+    {
+      "n": 405,
+      "latin": "convocat et longis Hecaten ululatibus orat:"
+    },
+    {
+      "n": 406,
+      "latin": "exsiluere loco (dictu mirabile) silvae,"
+    },
+    {
+      "n": 407,
+      "latin": "ingemuitque solum, vicinaque palluit arbor,"
+    },
+    {
+      "n": 408,
+      "latin": "sparsaque sanguineis maduerunt pabula guttis,"
+    },
+    {
+      "n": 409,
+      "latin": "et lapides visi mugitus edere raucos,"
+    },
+    {
+      "n": 410,
+      "latin": "et latrare canes et humus serpentibus atris"
+    },
+    {
+      "n": 411,
+      "latin": "squalere et tenues animae volitare videntur."
+    },
+    {
+      "n": 412,
+      "latin": "Attonitum monstris vulgus pavet: illa paventis"
+    },
+    {
+      "n": 413,
+      "latin": "ora venenata tetigit mirantia virga,"
+    },
+    {
+      "n": 414,
+      "latin": "cuius ab attactu variarum monstra ferarum"
+    },
+    {
+      "n": 415,
+      "latin": "in iuvenes veniunt: nulli sua mansit imago."
+    },
+    {
+      "n": 416,
+      "latin": "Sparserat occiduus Tartessia litora Phoebus,"
+    },
+    {
+      "n": 417,
+      "latin": "et frustra coniunx oculis animoque Canentis"
+    },
+    {
+      "n": 418,
+      "latin": "exspectatus erat: famuli populusque per omnes"
+    },
+    {
+      "n": 419,
+      "latin": "discurrunt silvas atque obvia lumina portant;"
+    },
+    {
+      "n": 420,
+      "latin": "nec satis est nymphae flere et lacerare capillos"
+    },
+    {
+      "n": 421,
+      "latin": "et dare plangorem (facit et tamen omnia) seque"
+    },
+    {
+      "n": 422,
+      "latin": "proripit ac Latios errat vesana per agros."
+    },
+    {
+      "n": 423,
+      "latin": "Sex illam noctes, tetidem redeuntia solis"
+    },
+    {
+      "n": 424,
+      "latin": "lumina viderunt inopem somnique cibique"
+    },
+    {
+      "n": 425,
+      "latin": "per iuga, per valles, qua fors ducebat, euntem."
+    },
+    {
+      "n": 426,
+      "latin": "Ultimus adspexit Thybris luctuque viaque"
+    },
+    {
+      "n": 427,
+      "latin": "fessam et iam longa ponentem corpora ripa."
+    },
+    {
+      "n": 428,
+      "latin": "Illic cum lacrimis ipso modulata dolore"
+    },
+    {
+      "n": 429,
+      "latin": "verba sono tenui maerens fundebat, ut olim"
+    },
+    {
+      "n": 430,
+      "latin": "carmina iam moriens canit exequialia cygnus."
+    },
+    {
+      "n": 431,
+      "latin": "Luctibus extremis teneras liquefacta medullas"
+    },
+    {
+      "n": 432,
+      "latin": "tabuit inque leves paulatim evanuit auras;"
+    },
+    {
+      "n": 433,
+      "latin": "fama tamen signata loco est, quem rite Canentem"
+    },
+    {
+      "n": 434,
+      "latin": "nomine de nymphae veteres dixere Camenae.”"
+    },
+    {
+      "n": 435,
+      "latin": "Talia multa mihi longum narrata per annum"
+    },
+    {
+      "n": 436,
+      "latin": "visaque sunt. Resides et desuetudine tardi"
+    },
+    {
+      "n": 437,
+      "latin": "rursus inire fretum, rursus dare vela iubemur."
+    },
+    {
+      "n": 438,
+      "latin": "Ancipitesque vias et iter Titania vastum"
+    },
+    {
+      "n": 439,
+      "latin": "dixerat et saevi restare pericula ponti."
+    },
+    {
+      "n": 440,
+      "latin": "Pertimui, fateor, nactusque hoc litus adhaesi.”"
+    }
+  ]
+}

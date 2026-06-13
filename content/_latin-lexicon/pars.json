@@ -1,0 +1,36 @@
+{
+  "lemma": "pars",
+  "pos": "noun",
+  "glosses": [
+    "pair, set of two",
+    "conjugal pair",
+    "pair of associates/adversaries/contestants"
+  ],
+  "head": "pars, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "pare",
+      "acc.sg": "par",
+      "nom.pl": "para",
+      "gen.pl": "parum",
+      "acc.pl": "para",
+      "nom.sg": "par",
+      "gen.sg": "paris",
+      "dat.sg": "pari",
+      "dat.pl": "paribus",
+      "abl.pl": "paribus"
+    }
+  }
+}

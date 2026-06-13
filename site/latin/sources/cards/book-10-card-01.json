@@ -1,0 +1,352 @@
+{
+  "book": 10,
+  "card": 1,
+  "lines": [
+    1,
+    85
+  ],
+  "title_latin": "Orpheus et Eurydice.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 1,
+      "latin": "Inde per inmensum croceo velatus amictu"
+    },
+    {
+      "n": 2,
+      "latin": "aethera digreditur Ciconumque Hymenaeus ad oras"
+    },
+    {
+      "n": 3,
+      "latin": "tendit et Orphea nequiquam voce vocatur."
+    },
+    {
+      "n": 4,
+      "latin": "Adfuit ille quidem, sed nec sollemnia verba"
+    },
+    {
+      "n": 5,
+      "latin": "nec laetos vultus nec felix attulit omen."
+    },
+    {
+      "n": 6,
+      "latin": "Fax quoque, quam tenuit, lacrimoso stridula fumo"
+    },
+    {
+      "n": 7,
+      "latin": "usque fuit nullosque invenit motibus ignes."
+    },
+    {
+      "n": 8,
+      "latin": "Exitus auspicio gravior: nam nupta per herbas"
+    },
+    {
+      "n": 9,
+      "latin": "dum nova naiadum turba comitata vagatur,"
+    },
+    {
+      "n": 10,
+      "latin": "occidit in talum serpentis dente recepto."
+    },
+    {
+      "n": 11,
+      "latin": "Quam satis ad superas postquam Rhodopeius auras"
+    },
+    {
+      "n": 12,
+      "latin": "deflevit vates, ne non temptaret et umbras,"
+    },
+    {
+      "n": 13,
+      "latin": "ad Styga Taenaria est ausus descendere porta;"
+    },
+    {
+      "n": 14,
+      "latin": "perque leves populos simulacraque functa sepulcro"
+    },
+    {
+      "n": 15,
+      "latin": "Persephonen adiit inamoenaque regna tenentem"
+    },
+    {
+      "n": 16,
+      "latin": "umbrarum dominum. Pulsisque ad carmina nervis"
+    },
+    {
+      "n": 17,
+      "latin": "sic ait: “O positi sub terra numina mundi,"
+    },
+    {
+      "n": 18,
+      "latin": "in quem reccidimus, quidquid mortale creamur,"
+    },
+    {
+      "n": 19,
+      "latin": "si licet et falsi positis ambagibus oris"
+    },
+    {
+      "n": 20,
+      "latin": "vera loqui sinitis, non huc, ut opaca viderem"
+    },
+    {
+      "n": 21,
+      "latin": "Tartara, descendi, nec uti villosa colubris"
+    },
+    {
+      "n": 22,
+      "latin": "terna Medusaei vincirem guttura monstri:"
+    },
+    {
+      "n": 23,
+      "latin": "causa viae est coniunx, in quam calcata venenum"
+    },
+    {
+      "n": 24,
+      "latin": "vipera diffudit crescentesque abstulit annos."
+    },
+    {
+      "n": 25,
+      "latin": "Posse pati volui nec me temptasse negabo:"
+    },
+    {
+      "n": 26,
+      "latin": "vicit Amor. Supera deus hic bene notus in ora est,"
+    },
+    {
+      "n": 27,
+      "latin": "an sit et hic, dubito. Sed et hic tamen auguror esse;"
+    },
+    {
+      "n": 28,
+      "latin": "famaque si veteris non est mentita rapinae,"
+    },
+    {
+      "n": 29,
+      "latin": "vos quoque iunxit Amor. Per ego haec loca plena timoris,"
+    },
+    {
+      "n": 30,
+      "latin": "per chaos hoc ingens vastique silentia regni,"
+    },
+    {
+      "n": 31,
+      "latin": "Eurydices, oro, properata retexite fata."
+    },
+    {
+      "n": 32,
+      "latin": "Omnia debemur vobis, paulumque morati"
+    },
+    {
+      "n": 33,
+      "latin": "serius aut citius sedem properamus ad unam."
+    },
+    {
+      "n": 34,
+      "latin": "Tendimus huc omnes, haec est domus ultima, vosque"
+    },
+    {
+      "n": 35,
+      "latin": "humani generis longissima regna tenetis."
+    },
+    {
+      "n": 36,
+      "latin": "Haec quoque, cum iustos matura peregerit annos,"
+    },
+    {
+      "n": 37,
+      "latin": "iuris erit vestri: pro munere poscimus usum."
+    },
+    {
+      "n": 38,
+      "latin": "Quod si fata negant veniam pro coniuge, certum est"
+    },
+    {
+      "n": 39,
+      "latin": "nolle redire mihi: leto gaudete duorum.”"
+    },
+    {
+      "n": 40,
+      "latin": "Talia dicentem nervosque ad verba moventem"
+    },
+    {
+      "n": 41,
+      "latin": "exsangues flebant animae: nec Tantalus undam"
+    },
+    {
+      "n": 42,
+      "latin": "captavit refugam, stupuitque Ixionis orbis,"
+    },
+    {
+      "n": 43,
+      "latin": "nec carpsere iecur volucres, urnisque vacarunt"
+    },
+    {
+      "n": 44,
+      "latin": "Belides, inque tuo sedisti, Sisyphe, saxo."
+    },
+    {
+      "n": 45,
+      "latin": "Tunc primum lacrimis victarum carmine fama est"
+    },
+    {
+      "n": 46,
+      "latin": "Eumenidum maduisse genas. Nec regia coniunx"
+    },
+    {
+      "n": 47,
+      "latin": "sustinet oranti nec qui regit ima negare,"
+    },
+    {
+      "n": 48,
+      "latin": "Eurydicenque vocant. Umbras erat illa recentes"
+    },
+    {
+      "n": 49,
+      "latin": "inter et incessit passu de vulnere tardo."
+    },
+    {
+      "n": 50,
+      "latin": "Hanc simul et legem Rhodopeius accipit Orpheus,"
+    },
+    {
+      "n": 51,
+      "latin": "ne flectat retro sua lumina, donec Avernas"
+    },
+    {
+      "n": 52,
+      "latin": "exierit valles: aut inrita dona futura."
+    },
+    {
+      "n": 53,
+      "latin": "Carpitur acclivis per muta silentia trames,"
+    },
+    {
+      "n": 54,
+      "latin": "arduus, obscurus, caligine densus opaca."
+    },
+    {
+      "n": 55,
+      "latin": "Nec procul afuerunt telluris margine summae:"
+    },
+    {
+      "n": 56,
+      "latin": "hic, ne deficeret, metuens avidusque videndi"
+    },
+    {
+      "n": 57,
+      "latin": "flexit amans oculos; et protinus illa relapsa est,"
+    },
+    {
+      "n": 58,
+      "latin": "bracchiaque intendens prendique et prendere certans"
+    },
+    {
+      "n": 59,
+      "latin": "nil nisi cedentes infelix arripit auras."
+    },
+    {
+      "n": 60,
+      "latin": "Iamque iterum moriens non est de coniuge quicquam"
+    },
+    {
+      "n": 61,
+      "latin": "questa suo: quid enim nisi se quereretur amatam?"
+    },
+    {
+      "n": 62,
+      "latin": "Supremumque “vale,” quod iam vix auribus ille"
+    },
+    {
+      "n": 63,
+      "latin": "acciperet, dixit revolutaque rursus eodem est."
+    },
+    {
+      "n": 64,
+      "latin": "Non aliter stupuit gemina nece coniugis Orpheus,"
+    },
+    {
+      "n": 65,
+      "latin": "quam tria qui timidus, medio portante catenas,"
+    },
+    {
+      "n": 66,
+      "latin": "colla canis vidit, quem non pavor ante reliquit,"
+    },
+    {
+      "n": 67,
+      "latin": "quam natura prior, saxo per corpus oborto;"
+    },
+    {
+      "n": 68,
+      "latin": "quique in se crimen traxit voluitque videri"
+    },
+    {
+      "n": 69,
+      "latin": "Olenos esse nocens, tuque, o confisa figurae,"
+    },
+    {
+      "n": 70,
+      "latin": "infelix Lethaea, tuae, iunctissima quondam"
+    },
+    {
+      "n": 71,
+      "latin": "pectora, nunc lapides, quos umida sustinet Ide."
+    },
+    {
+      "n": 72,
+      "latin": "Orantem frustraque iterum transire volentem"
+    },
+    {
+      "n": 73,
+      "latin": "portitor arcuerat. Septem tamen ille diebus"
+    },
+    {
+      "n": 74,
+      "latin": "squalidus in ripa Cereris sine munere sedit:"
+    },
+    {
+      "n": 75,
+      "latin": "cura dolorque animi lacrimaeque alimenta fuere."
+    },
+    {
+      "n": 76,
+      "latin": "Esse deos Erebi crudeles questus, in altam"
+    },
+    {
+      "n": 77,
+      "latin": "se recipit Rhodopen pulsumque aquilonibus Haemum."
+    },
+    {
+      "n": 78,
+      "latin": "Tertius aequoreis inclusum piscibus annum"
+    },
+    {
+      "n": 79,
+      "latin": "finierat Titan, omnemque refugerat Orpheus"
+    },
+    {
+      "n": 80,
+      "latin": "femineam venerem, seu quod male cesserat illi,"
+    },
+    {
+      "n": 81,
+      "latin": "sive fidem dederat. Multas tamen ardor habebat"
+    },
+    {
+      "n": 82,
+      "latin": "iungere se vati, multae doluere repulsae."
+    },
+    {
+      "n": 83,
+      "latin": "Ille etiam Thracum populis fuit auctor amorem"
+    },
+    {
+      "n": 84,
+      "latin": "in teneros transferre mares citraque iuventam"
+    },
+    {
+      "n": 85,
+      "latin": "aetatis breve ver et primos carpere flores."
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "book": 2,
+  "card": 2,
+  "lines": [
+    103,
+    192
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 103,
+      "latin": "Finierat monitus: dictis tamen ille repugnat"
+    },
+    {
+      "n": 104,
+      "latin": "propositumque premit flagratque cupidine currus."
+    },
+    {
+      "n": 105,
+      "latin": "Ergo qua licuit genitor cunctatus ad altos"
+    },
+    {
+      "n": 106,
+      "latin": "deducit iuvenem, Vulcania munera, currus."
+    },
+    {
+      "n": 107,
+      "latin": "Aureus axis erat, temo aureus, aurea summae"
+    },
+    {
+      "n": 108,
+      "latin": "curvatura rotae, radiorum argenteus ordo;"
+    },
+    {
+      "n": 109,
+      "latin": "per iuga chrysolithi positaeque ex ordine gemmae"
+    },
+    {
+      "n": 110,
+      "latin": "clara repercusso reddebant lumina Phoebo."
+    },
+    {
+      "n": 111,
+      "latin": "Dumque ea magnanimus Phaethon miratur opusque"
+    },
+    {
+      "n": 112,
+      "latin": "perspicit, ecce vigil nitido patefecit ab ortu"
+    },
+    {
+      "n": 113,
+      "latin": "purpureas Aurora fores et plena rosarum"
+    },
+    {
+      "n": 114,
+      "latin": "atria. Diffugiunt stellae, quarum agmina cogit"
+    },
+    {
+      "n": 115,
+      "latin": "Lucifer et caeli statione novissimus exit."
+    },
+    {
+      "n": 116,
+      "latin": "Quem petere ut terras mundumque rubescere vidit"
+    },
+    {
+      "n": 117,
+      "latin": "cornuaque extremae velut evanescere lunae,"
+    },
+    {
+      "n": 118,
+      "latin": "iungere equos Titan velocibus imperat Horis."
+    },
+    {
+      "n": 119,
+      "latin": "Iussa deae celeres peragunt, ignemque vomentes,"
+    },
+    {
+      "n": 120,
+      "latin": "ambrosiae suco saturos, praesepibus altis"
+    },
+    {
+      "n": 121,
+      "latin": "quadrupedes ducunt adduntque sonantia frena."
+    },
+    {
+      "n": 122,
+      "latin": "Tum pater ora sui sacro medicamine nati"
+    },
+    {
+      "n": 123,
+      "latin": "contigit et rapidae fecit patientia flammae"
+    },
+    {
+      "n": 124,
+      "latin": "imposuitque comae radios, praesagaque luctus"
+    },
+    {
+      "n": 125,
+      "latin": "pectore sollicito repetens suspiria dixit:"
+    },
+    {
+      "n": 126,
+      "latin": "“Si potes his saltem monitis parere parentis,"
+    },
+    {
+      "n": 127,
+      "latin": "parce, puer, stimulis et fortius utere loris:"
+    },
+    {
+      "n": 128,
+      "latin": "sponte sua properant; labor est inhibere volentes."
+    },
+    {
+      "n": 129,
+      "latin": "Nec tibi directos placeat via quinque per arcus:"
+    },
+    {
+      "n": 130,
+      "latin": "sectus in obliquum est lato curvamine limes,"
+    },
+    {
+      "n": 131,
+      "latin": "zonarumque trium contentus fine polumque"
+    },
+    {
+      "n": 132,
+      "latin": "effugit australem iunctamque aquilonibus arcton."
+    },
+    {
+      "n": 133,
+      "latin": "Hac sit iter: manifesta rotae vestigia cernes."
+    },
+    {
+      "n": 134,
+      "latin": "Utque ferant aequos et caelum et terra calores,"
+    },
+    {
+      "n": 135,
+      "latin": "nec preme nec summum molire per aethera currum."
+    },
+    {
+      "n": 136,
+      "latin": "Altius egressus caelestia tecta cremabis,"
+    },
+    {
+      "n": 137,
+      "latin": "inferius terras: medio tutissimus ibis."
+    },
+    {
+      "n": 138,
+      "latin": "Neu te dexterior tortum declinet ad anguem,"
+    },
+    {
+      "n": 139,
+      "latin": "neve sinisterior pressam rota ducat ad aram:"
+    },
+    {
+      "n": 140,
+      "latin": "inter utrumque tene. Fortunae cetera mando,"
+    },
+    {
+      "n": 141,
+      "latin": "quae iuvet et melius quam tu tibi, consulat opto."
+    },
+    {
+      "n": 142,
+      "latin": "Dum loquor, Hesperio positas in litore metas"
+    },
+    {
+      "n": 143,
+      "latin": "umida nox tetigit. Non est mora libera nobis:"
+    },
+    {
+      "n": 144,
+      "latin": "poscimur: effulget tenebris aurora fugatis."
+    },
+    {
+      "n": 145,
+      "latin": "Corripe lora manu, vel, si mutabile pectus"
+    },
+    {
+      "n": 146,
+      "latin": "est tibi, consiliis, non curribus utere nostris,"
+    },
+    {
+      "n": 147,
+      "latin": "dum potes et solidis etiamnunc sedibus adstas"
+    },
+    {
+      "n": 148,
+      "latin": "dumque male optatos nondum premis inscius axes."
+    },
+    {
+      "n": 149,
+      "latin": "Quae tutus spectes, sine me dare lumina terris!”"
+    },
+    {
+      "n": 150,
+      "latin": "Occupat ille levem iuvenali corpore currum,"
+    },
+    {
+      "n": 151,
+      "latin": "statque super manibusque datas contingere habenas"
+    },
+    {
+      "n": 152,
+      "latin": "gaudet et invito grates agit inde parenti."
+    },
+    {
+      "n": 153,
+      "latin": "Interea volucres Pyrois et Eous et Aethon,"
+    },
+    {
+      "n": 154,
+      "latin": "Solis equi, quartusque Phlegon, hinnitibus auras"
+    },
+    {
+      "n": 155,
+      "latin": "flammiferis implent pedibusque repagula pulsant."
+    },
+    {
+      "n": 156,
+      "latin": "Quae postquam Tethys, fatorum ignara nepotis"
+    },
+    {
+      "n": 157,
+      "latin": "reppulit, et facta est inmensi copia caeli,"
+    },
+    {
+      "n": 158,
+      "latin": "corripuere viam pedibusque per aera motis"
+    },
+    {
+      "n": 159,
+      "latin": "obstantes scindunt nebulas pennisque levati"
+    },
+    {
+      "n": 160,
+      "latin": "praetereunt ortos isdem de partibus Euros."
+    },
+    {
+      "n": 161,
+      "latin": "Sed leve pondus erat, nec quod cognoscere possent"
+    },
+    {
+      "n": 162,
+      "latin": "Solis equi, solitaque iugum gravitate carebat;"
+    },
+    {
+      "n": 163,
+      "latin": "utque labant curvae iusto sine pondere naves"
+    },
+    {
+      "n": 164,
+      "latin": "perque mare instabiles nimia levitate feruntur,"
+    },
+    {
+      "n": 165,
+      "latin": "sic onere adsueto vacuus dat in aera saltus"
+    },
+    {
+      "n": 166,
+      "latin": "succutiturque alte similisque est currus inani."
+    },
+    {
+      "n": 167,
+      "latin": "Quod simulac sensere, ruunt tritumque relinquunt"
+    },
+    {
+      "n": 168,
+      "latin": "quadriiugi spatium, nec quo prius ordine currunt."
+    },
+    {
+      "n": 169,
+      "latin": "Ipse pavet nec qua commissas flectat habenas,"
+    },
+    {
+      "n": 170,
+      "latin": "nec scit, qua sit iter; nec, si sciat, imperet illis."
+    },
+    {
+      "n": 171,
+      "latin": "Tum primum radiis gelidi caluere triones"
+    },
+    {
+      "n": 172,
+      "latin": "et vetito frustra temptarunt aequore tingi,"
+    },
+    {
+      "n": 173,
+      "latin": "quaeque polo posita est glaciali proxima serpens,"
+    },
+    {
+      "n": 174,
+      "latin": "frigore pigra prius nec formidabilis ulli,"
+    },
+    {
+      "n": 175,
+      "latin": "incaluit sumpsitque novas fervoribus iras."
+    },
+    {
+      "n": 176,
+      "latin": "Te quoque turbatum memorant fugisse, Boote,"
+    },
+    {
+      "n": 177,
+      "latin": "quamvis tardus eras et te tua plaustra tenebant."
+    },
+    {
+      "n": 178,
+      "latin": "Ut vero summo despexit ab aethere terras"
+    },
+    {
+      "n": 179,
+      "latin": "infelix Phaethon penitus penitusque iacentes,"
+    },
+    {
+      "n": 180,
+      "latin": "palluit et subito genua intremuere timore,"
+    },
+    {
+      "n": 181,
+      "latin": "suntque oculis tenebrae per tantum lumen obortae."
+    },
+    {
+      "n": 182,
+      "latin": "Et iam mallet equos numquam tetigisse paternos,"
+    },
+    {
+      "n": 183,
+      "latin": "iam cognosse genus piget et valuisse rogando,"
+    },
+    {
+      "n": 184,
+      "latin": "iam Meropis dici cupiens ita fertur, ut acta"
+    },
+    {
+      "n": 185,
+      "latin": "praecipiti pinus borea, cui victa remisit"
+    },
+    {
+      "n": 186,
+      "latin": "frena suus rector, quam dis votisque reliquit."
+    },
+    {
+      "n": 187,
+      "latin": "Quid faciat? multum caeli post terga relictum,"
+    },
+    {
+      "n": 188,
+      "latin": "ante oculos plus est! animo metitur utrumque,"
+    },
+    {
+      "n": 189,
+      "latin": "et modo quos illi fatum contingere non est,"
+    },
+    {
+      "n": 190,
+      "latin": "prospicit occasus, interdum respicit ortus:"
+    },
+    {
+      "n": 191,
+      "latin": "quidque agat ignarus stupet et nec frena remittit"
+    },
+    {
+      "n": 192,
+      "latin": "nec retinere valet nec nomina novit equorum."
+    }
+  ]
+}

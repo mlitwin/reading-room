@@ -1,0 +1,36 @@
+{
+  "lemma": "mater",
+  "pos": "noun",
+  "glosses": [
+    "mother, foster mother",
+    "lady, matron",
+    "origin, source, motherland, mother city"
+  ],
+  "head": "mater, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "matrem",
+      "gen.pl": "matrum",
+      "acc.pl": "matris",
+      "nom.sg": "mater",
+      "gen.sg": "matris",
+      "dat.sg": "matri",
+      "abl.sg": "matre",
+      "nom.pl": "matres",
+      "dat.pl": "matribus",
+      "abl.pl": "matribus"
+    }
+  }
+}

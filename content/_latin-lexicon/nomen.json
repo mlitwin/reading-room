@@ -1,0 +1,38 @@
+{
+  "lemma": "nomen",
+  "pos": "noun",
+  "glosses": [
+    "name, family name",
+    "noun",
+    "account, entry in debt ledger",
+    "sake",
+    "title, heading"
+  ],
+  "head": "nomen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "nomine",
+      "acc.sg": "nomen",
+      "nom.pl": "nomina",
+      "gen.pl": "nominum",
+      "acc.pl": "nomina",
+      "nom.sg": "nomen",
+      "gen.sg": "nominis",
+      "dat.sg": "nomini",
+      "dat.pl": "nominibus",
+      "abl.pl": "nominibus"
+    }
+  }
+}

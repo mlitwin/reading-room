@@ -1,0 +1,42 @@
+{
+  "lemma": "reddo",
+  "pos": "verb",
+  "glosses": [
+    "return",
+    "restore",
+    "deliver",
+    "hand over, pay back, render, give back",
+    "translate"
+  ],
+  "head": "reddo, reddere, reddidi, redditum",
+  "principal_parts": [
+    "reddo",
+    "reddere",
+    "reddidi",
+    "redditum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "reddis",
+      "3sg.pres.ind.act": "reddit",
+      "1pl.pres.ind.act": "reddimus",
+      "2pl.pres.ind.act": "redditis",
+      "2sg.pres.imp.act": "redde",
+      "2pl.pres.imp.act": "reddite"
+    }
+  }
+}

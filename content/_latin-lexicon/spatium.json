@@ -1,0 +1,39 @@
+{
+  "lemma": "spatium",
+  "pos": "noun",
+  "glosses": [
+    "space",
+    "area/expanse, room (for)",
+    "intervening space, gap/interval",
+    "length/width",
+    "race course, lap, circuit",
+    "closed way/walk, turn"
+  ],
+  "head": "spatium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "spatium",
+      "gen.sg": "spatii",
+      "acc.sg": "spatium",
+      "dat.sg": "spatio",
+      "abl.sg": "spatio",
+      "gen.pl": "spatiorum",
+      "dat.pl": "spatiis",
+      "abl.pl": "spatiis",
+      "nom.pl": "spatia",
+      "acc.pl": "spatia"
+    }
+  }
+}

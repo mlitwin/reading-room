@@ -1,0 +1,460 @@
+{
+  "book": 4,
+  "card": 2,
+  "lines": [
+    55,
+    166
+  ],
+  "title_latin": "Pyramus et Thisbe.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 55,
+      "latin": "“Pyramus et Thisbe, iuvenum pulcherrimus alter,"
+    },
+    {
+      "n": 56,
+      "latin": "altera, quas oriens habuit, praelata puellis,"
+    },
+    {
+      "n": 57,
+      "latin": "contiguas tenuere domos, ubi dicitur altam"
+    },
+    {
+      "n": 58,
+      "latin": "coctilibus muris cinxisse Semiramis urbem."
+    },
+    {
+      "n": 59,
+      "latin": "Notitiam primosque gradus vicinia fecit:"
+    },
+    {
+      "n": 60,
+      "latin": "tempore crevit amor. Taedae quoque iure coissent:"
+    },
+    {
+      "n": 61,
+      "latin": "sed vetuere patres. Quod non potuere vetare,"
+    },
+    {
+      "n": 62,
+      "latin": "ex aequo captis ardebant mentibus ambo."
+    },
+    {
+      "n": 63,
+      "latin": "Conscius omnis abest: nutu signisque loquuntur,"
+    },
+    {
+      "n": 64,
+      "latin": "quoque magis tegitur, tectus magis aestuat ignis."
+    },
+    {
+      "n": 65,
+      "latin": "Fissus erat tenui rima, quam duxerat olim,"
+    },
+    {
+      "n": 66,
+      "latin": "cum fieret paries domui communis utrique."
+    },
+    {
+      "n": 67,
+      "latin": "Id vitium nulli per saecula longa notatum"
+    },
+    {
+      "n": 68,
+      "latin": "(quid non sentit amor?) primi vidistis amantes,"
+    },
+    {
+      "n": 69,
+      "latin": "et vocis fecistis iter; tutaeque per illud"
+    },
+    {
+      "n": 70,
+      "latin": "murmure blanditiae minimo transire solebant."
+    },
+    {
+      "n": 71,
+      "latin": "Saepe, ubi constiterant hinc Thisbe, Pyramus illinc,"
+    },
+    {
+      "n": 72,
+      "latin": "inque vices fuerat captatus anhelitus oris,"
+    },
+    {
+      "n": 73,
+      "latin": "“invide” dicebant “paries, quid amantibus obstas?"
+    },
+    {
+      "n": 74,
+      "latin": "quantum erat, ut sineres toto nos corpore iungi,"
+    },
+    {
+      "n": 75,
+      "latin": "aut hoc si nimium est, vel ad oscula danda pateres?"
+    },
+    {
+      "n": 76,
+      "latin": "Nec sumus ingrati: tibi nos debere fatemur,"
+    },
+    {
+      "n": 77,
+      "latin": "quod datus est verbis ad amicas transitus aures.”"
+    },
+    {
+      "n": 78,
+      "latin": "Talia diversa nequiquam sede locuti"
+    },
+    {
+      "n": 79,
+      "latin": "sub noctem dixere ”vale” partique dedere"
+    },
+    {
+      "n": 80,
+      "latin": "oscula quisque suae non pervenientia contra."
+    },
+    {
+      "n": 81,
+      "latin": "Postera nocturnos aurora removerat ignes,"
+    },
+    {
+      "n": 82,
+      "latin": "solque pruinosas radiis siccaverat herbas:"
+    },
+    {
+      "n": 83,
+      "latin": "ad solitum coiere locum. Tum murmure parvo"
+    },
+    {
+      "n": 84,
+      "latin": "multa prius questi, statuunt, ut nocte silenti"
+    },
+    {
+      "n": 85,
+      "latin": "fallere custodes foribusque excedere temptent,"
+    },
+    {
+      "n": 86,
+      "latin": "cumque domo exierint, urbis quoque tecta relinquant;"
+    },
+    {
+      "n": 87,
+      "latin": "neve sit errandum lato spatiantibus arvo,"
+    },
+    {
+      "n": 88,
+      "latin": "conveniant ad busta Nini lateantque sub umbra"
+    },
+    {
+      "n": 89,
+      "latin": "arboris. Arbor ibi, niveis uberrima pomis"
+    },
+    {
+      "n": 90,
+      "latin": "ardua morus, erat, gelido contermina fonti."
+    },
+    {
+      "n": 91,
+      "latin": "Pacta placent. Et lux, tarde discedere visa,"
+    },
+    {
+      "n": 92,
+      "latin": "praecipitatur aquis, et aquis nox exit ab isdem."
+    },
+    {
+      "n": 93,
+      "latin": "Callida per tenebras versato cardine Thisbe"
+    },
+    {
+      "n": 94,
+      "latin": "egreditur fallitque suos, adopertaque vultum"
+    },
+    {
+      "n": 95,
+      "latin": "pervenit ad tumulum, dictaque sub arbore sedit."
+    },
+    {
+      "n": 96,
+      "latin": "Audacem faciebat amor. Venit ecce recenti"
+    },
+    {
+      "n": 97,
+      "latin": "caede leaena boum spumantes oblita rictus,"
+    },
+    {
+      "n": 98,
+      "latin": "depositura sitim vicini fontis in unda."
+    },
+    {
+      "n": 99,
+      "latin": "Quam procul ad lunae radios Babylonia Thisbe"
+    },
+    {
+      "n": 100,
+      "latin": "vidit et obscurum timido pede fugit in antrum,"
+    },
+    {
+      "n": 101,
+      "latin": "dumque fugit, tergo velamina lapsa reliquit."
+    },
+    {
+      "n": 102,
+      "latin": "Ut lea saeva sitim multa conpescuit unda,"
+    },
+    {
+      "n": 103,
+      "latin": "dum redit in silvas, inventos forte sine ipsa"
+    },
+    {
+      "n": 104,
+      "latin": "ore cruentato tenues laniavit amictus."
+    },
+    {
+      "n": 105,
+      "latin": "Serius egressus vestigia vidit in alto"
+    },
+    {
+      "n": 106,
+      "latin": "pulvere certa ferae totoque expalluit ore"
+    },
+    {
+      "n": 107,
+      "latin": "Pyramus: ut vero vestem quoque sanguine tinctam"
+    },
+    {
+      "n": 108,
+      "latin": "repperit, “una duos” inquit “nox perdet amantes."
+    },
+    {
+      "n": 109,
+      "latin": "E quibus illa fuit longa dignissima vita,"
+    },
+    {
+      "n": 110,
+      "latin": "nostra nocens anima est: ego te, miseranda, peremi,"
+    },
+    {
+      "n": 111,
+      "latin": "in loca plena metus qui iussi nocte venires,"
+    },
+    {
+      "n": 112,
+      "latin": "nec prior huc veni. Nostrum divellite corpus,"
+    },
+    {
+      "n": 113,
+      "latin": "et scelerata fero consumite viscera morsu,"
+    },
+    {
+      "n": 114,
+      "latin": "o quicumque sub hac habitatis rupe, leones."
+    },
+    {
+      "n": 115,
+      "latin": "Sed timidi est optare necem.” Velamina Thisbes"
+    },
+    {
+      "n": 116,
+      "latin": "tollit et ad pactae secum fert arboris umbram;"
+    },
+    {
+      "n": 117,
+      "latin": "utque dedit notae lacrimas, dedit oscula vesti,"
+    },
+    {
+      "n": 118,
+      "latin": "“accipe nunc” inquit “nostri quoque sanguinis haustus!”"
+    },
+    {
+      "n": 119,
+      "latin": "quoque erat accinctus, demisit in ilia ferrum,"
+    },
+    {
+      "n": 120,
+      "latin": "nec mora, ferventi moriens e vulnere traxit."
+    },
+    {
+      "n": 121,
+      "latin": "Ut iacuit resupinus humo: cruor emicat alte,"
+    },
+    {
+      "n": 122,
+      "latin": "non aliter quam cum vitiato fistula plumbo"
+    },
+    {
+      "n": 123,
+      "latin": "scinditur et tenui stridente foramine longas"
+    },
+    {
+      "n": 124,
+      "latin": "eiaculatur aquas atque ictibus aera rumpit."
+    },
+    {
+      "n": 125,
+      "latin": "Arborei fetus adspergine caedis in atram"
+    },
+    {
+      "n": 126,
+      "latin": "vertuntur faciem, madefactaque sanguine radix"
+    },
+    {
+      "n": 127,
+      "latin": "purpureo tingit pendentia mora colore."
+    },
+    {
+      "n": 128,
+      "latin": "Ecce metu nondum posito, ne fallat amantem,"
+    },
+    {
+      "n": 129,
+      "latin": "illa redit iuvenemque oculis animoque requirit,"
+    },
+    {
+      "n": 130,
+      "latin": "quantaque vitarit narrare pericula gestit."
+    },
+    {
+      "n": 131,
+      "latin": "Utque locum et visa cognoscit in arbore formam,"
+    },
+    {
+      "n": 132,
+      "latin": "sic facit incertam pomi color: haeret, an haec sit."
+    },
+    {
+      "n": 133,
+      "latin": "Dum dubitat, tremebunda videt pulsare cruentum"
+    },
+    {
+      "n": 134,
+      "latin": "membra solum, retroque pedem tulit, oraque buxo"
+    },
+    {
+      "n": 135,
+      "latin": "pallidiora gerens exhorruit aequoris instar,"
+    },
+    {
+      "n": 136,
+      "latin": "quod tremit, exigua cum summum stringitur aura."
+    },
+    {
+      "n": 137,
+      "latin": "Sed postquam remorata suos cognovit amores,"
+    },
+    {
+      "n": 138,
+      "latin": "percutit indignos claro plangore lacertos,"
+    },
+    {
+      "n": 139,
+      "latin": "et laniata comas amplexaque corpus amatum"
+    },
+    {
+      "n": 140,
+      "latin": "vulnera supplevit lacrimis fletumque cruori"
+    },
+    {
+      "n": 141,
+      "latin": "miscuit et gelidis in vultibus oscula figens"
+    },
+    {
+      "n": 142,
+      "latin": "“Pyrame” clamavit “quis te mihi casus ademit?"
+    },
+    {
+      "n": 143,
+      "latin": "Pyrame, responde: tua te carissima Thisbe"
+    },
+    {
+      "n": 144,
+      "latin": "nominat: exaudi vultusque attolle iacentes!”"
+    },
+    {
+      "n": 145,
+      "latin": "Ad nomen Thisbes oculos iam morte gravatos"
+    },
+    {
+      "n": 146,
+      "latin": "Pyramus erexit, visaque recondidit illa."
+    },
+    {
+      "n": 147,
+      "latin": "Quae postquam vestemque suam cognovit et ense"
+    },
+    {
+      "n": 148,
+      "latin": "vidit ebur vacuum, “tua te manus” inquit “amorque"
+    },
+    {
+      "n": 149,
+      "latin": "perdidit, infelix. Est et mihi fortis in unum"
+    },
+    {
+      "n": 150,
+      "latin": "hoc manus, est et amor: dabit hic in vulnera vires."
+    },
+    {
+      "n": 151,
+      "latin": "Persequar exstinctum letique miserrima dicar"
+    },
+    {
+      "n": 152,
+      "latin": "causa comesque tui; quique a me morte revelli"
+    },
+    {
+      "n": 153,
+      "latin": "heu sola poteras, poteris nec morte revelli."
+    },
+    {
+      "n": 154,
+      "latin": "Hoc tamen amborum verbis estote rogati,"
+    },
+    {
+      "n": 155,
+      "latin": "o multum miseri meus illiusque parentes,"
+    },
+    {
+      "n": 156,
+      "latin": "ut quos certus amor, quos hora novissima iunxit,"
+    },
+    {
+      "n": 157,
+      "latin": "conponi tumulo non invideatis eodem."
+    },
+    {
+      "n": 158,
+      "latin": "At tu quae ramis arbor miserabile corpus"
+    },
+    {
+      "n": 159,
+      "latin": "nunc tegis unius, mox es tectura duorum,"
+    },
+    {
+      "n": 160,
+      "latin": "signa tene caedis pullosque et luctibus aptos"
+    },
+    {
+      "n": 161,
+      "latin": "semper habe fetus, gemini monimenta cruoris.”"
+    },
+    {
+      "n": 162,
+      "latin": "Dixit, et aptato pectus mucrone sub imum"
+    },
+    {
+      "n": 163,
+      "latin": "incubuit ferro, quod adhuc a caede tepebat."
+    },
+    {
+      "n": 164,
+      "latin": "Vota tamen tetigere deos, tetigere parentes:"
+    },
+    {
+      "n": 165,
+      "latin": "nam color in pomo est, ubi permaturuit, ater,"
+    },
+    {
+      "n": 166,
+      "latin": "quodque rogis superest, una requiescit in urna.”"
+    }
+  ]
+}

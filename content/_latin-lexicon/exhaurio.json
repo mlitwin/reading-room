@@ -1,0 +1,42 @@
+{
+  "lemma": "exhaurio",
+  "pos": "verb",
+  "glosses": [
+    "draw out",
+    "drain, drink up, empty",
+    "exhaust, impoverish",
+    "remove",
+    "end"
+  ],
+  "head": "exhaurio, exhaurere, exhausi, exhaustum",
+  "principal_parts": [
+    "exhaurio",
+    "exhaurere",
+    "exhausi",
+    "exhaustum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "exhauris",
+      "3sg.pres.ind.act": "exhaurit",
+      "1pl.pres.ind.act": "exhaurimus",
+      "2pl.pres.ind.act": "exhauritis",
+      "2sg.pres.imp.act": "exhauri",
+      "2pl.pres.imp.act": "exhaurite"
+    }
+  }
+}

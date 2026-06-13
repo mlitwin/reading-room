@@ -1,263 +1,376 @@
 #!/usr/bin/env python3
 """
-seed.py — seed a Latin passage's `<div class="latin-passage">` block.
+seed.py — seed a Latin passage's `<div class="latin-passage">` block using
+Morpheus (perseids-tools fork, sibling repo at ~/Dev/github.com/mlitwin/morpheus).
 
-Reads Latin text from stdin (one or more lines), runs Whitaker's Words on
-each token, and writes a draft markdown block to stdout. Each token becomes
-a `<span data-lemma="..." data-parse="...">word</span>`, with a `data-ambiguous`
-attribute when multiple analyses survive. Line breaks in the input become
-`<br>` between tokens.
+Reads Latin text from stdin, runs Morpheus on each token, emits a draft
+markdown block to stdout. Each surface form becomes
+    <span data-matches="lemma1:p1,p2;lemma2:p3">word</span>
+preserving every (lemma, parse) Morpheus reports. The author hand-curates
+the order to put the primary reading first.
 
-Usage:
-    python3 seed.py < passage.txt > passage-spans.md
+All Morpheus invocations go through the project-blessed wrapper at
+`site/latin/morpheus.sh`. The wrapper sets MORPHLIB, validates the build,
+and execs the local `cruncher -S -L` binary.
 
-The author then opens the output, fixes any miscalled parses, drops it into
-the passage markdown, and (later) runs `seed-vocab.py` for the new lemmas.
+Surface forms are cached in `sources/morpheus-cache.json` so repeated runs
+across pieces don't re-query Morpheus for shared lemmas.
 
-Whitaker's lives at ~/Dev/github.com/mlitwin/whitakers_words next to this
-repo (clone of https://github.com/blagae/whitakers_words). Run inside the
-sibling venv: `source .venv/bin/activate && python3 seed.py < text > out.html`.
-
-Each span gets a `data-matches="lemma1:parse1,parse2;lemma2:parse3"` attribute
-listing every (lemma, parse) Whitaker's reports for the surface form. We do
-not disambiguate — the card popover is a study tool that highlights every
-cell the form could fill and surfaces every lemma it could belong to.
-
-v1 known limitations — output still needs hand-curation:
-  * Lemma reconstruction is heuristic (round-trips candidate endings through
-    Whitaker's). Irregular pronouns (`vos`, `di`) and a handful of nouns
-    still come back as raw stems.
-  * Enclitics (-que, -ne, -ve) not split off; appear attached (`primaque`).
-  * Whitaker's doesn't recognise some syncopated/poetic forms
-    (e.g. `mutastis`); those emit `?:?` and the author writes them by hand.
+Output format notes:
+  * Morpheus auto-strips trailing -que/-ne/-ve enclitics from a surface
+    form before analysing it. When the surface in Morpheus's output is
+    shorter than the input token by exactly such a clitic suffix, we
+    emit two adjacent spans (prefix + clitic) so the popovers fire
+    separately, matching the existing card model.
+  * Morpheus tags syncopated 1st-conj perfects (`mutastis` for *mutavistis*)
+    with `contr` and alternative perfect-active forms (`dixere`) with
+    `poetic`; both parse cleanly without preprocessing.
+  * A few of Morpheus's preferred lemma names differ from the cards we
+    already shipped under content/_latin-lexicon/. LEMMA_ALIAS maps
+    Morpheus's canonical lemma back to the existing card filename when
+    that's the right choice for the existing book; remove an entry to
+    promote Morpheus's lemma as the canonical one (then rename the card).
 """
+import json
 import os
 import re
+import subprocess
 import sys
+from pathlib import Path
 
-WHITAKERS_DIR = os.path.expanduser('~/Dev/github.com/mlitwin/whitakers_words')
-sys.path.insert(0, WHITAKERS_DIR)
+REPO_ROOT = Path(__file__).resolve().parents[2]
+WRAPPER   = REPO_ROOT / 'site' / 'latin' / 'morpheus.sh'
+CACHE_PATH = Path(__file__).resolve().parent / 'sources' / 'morpheus-cache.json'
 
-from whitakers_words.parser import Parser  # noqa: E402
+# Morpheus's canonical lemma → the card filename we want to point at. When
+# Morpheus reports e.g. `tu` (the dictionary headword of the 2nd-person
+# personal pronoun, whose plural is `vos`) but we have a `vos.json` card,
+# we rewrite the lemma to `vos` so the existing card stays in use.
+LEMMA_ALIAS = {
+    'tu':       'vos',      # 2pl personal pronoun
+    'coepio':   'coeptum',  # the proem files coepio's PPP under the noun
+    'ad-spiro': 'aspiro',   # Morpheus splits the preverb; existing card is aspiro
+}
 
-# Feature-enum → compact-code piece. Tense/mood/voice abbreviations match
-# the conventions in content/ovid-metamorphoses/vocabulary/*.json paradigms.
-TENSE = {'PRES': 'pres', 'IMPF': 'imperf', 'PERF': 'perf', 'PLUP': 'plup',
-         'FUT':  'fut',  'FUTP': 'futperf'}
-MOOD  = {'IND': 'ind', 'SUB': 'subj', 'IMP': 'imp', 'INF': 'inf', 'PPL': 'ppl'}
-VOICE = {'ACTIVE': 'act', 'PASSIVE': 'pass'}
-CASE  = {'NOM': 'nom', 'GEN': 'gen', 'DAT': 'dat', 'ACC': 'acc',
-         'ABL': 'abl', 'VOC': 'voc', 'LOC': 'loc'}
-NUMBER = {'S': 'sg', 'P': 'pl'}
-GENDER = {'M': 'masc', 'F': 'fem', 'N': 'neut', 'C': 'comm', 'X': ''}
+# Morpheus morphology vocabulary → our compact dotted parse codes.
+PERSON_MAP = {'1st': '1', '2nd': '2', '3rd': '3'}
+NUMBER_MAP = {'sg': 'sg', 'pl': 'pl', 'dual': 'dual'}
+TENSE_MAP  = {'pres': 'pres', 'imperf': 'imperf', 'fut': 'fut',
+              'perf': 'perf', 'plup': 'plup', 'futperf': 'futperf'}
+MOOD_MAP   = {'ind': 'ind', 'subj': 'subj', 'opt': 'opt', 'imp': 'imp',
+              'inf': 'inf', 'part': 'ppl', 'gerundive': 'gerundive',
+              'gerund': 'gerund'}
+VOICE_MAP  = {'act': 'act', 'pass': 'pass', 'mid': 'mid', 'mp': 'mp'}
+CASE_MAP   = {'nom': 'nom', 'gen': 'gen', 'dat': 'dat', 'acc': 'acc',
+              'abl': 'abl', 'voc': 'voc', 'loc': 'loc'}
+GENDER_MAP = {'masc': 'masc', 'fem': 'fem', 'neut': 'neut'}
 
-def enum_value(v):
-    """Pull the .value string from an enum, or return the str repr."""
-    return getattr(v, 'value', None) or getattr(v, 'name', str(v))
+# Tense+voice combo on a participle → tag used in our parse codes.
+PARTICIPLE_TAG = {
+    ('pres', 'act'):  'pap',
+    ('perf', 'pass'): 'ppp',
+    ('fut',  'act'):  'fap',
+    ('fut',  'pass'): 'fpp',
+}
 
-def feature(feats, key):
-    """Look up `feats[key]`, return the enum's underlying name (for our maps)."""
-    v = feats.get(key)
-    if v is None: return None
-    return getattr(v, 'name', None) or str(v)
+# Inflection-class column → indeclinable POS tag, used when Morpheus tags
+# a function word as `N` (its catchall for unanalysable forms).
+INDECL_POS = {'prep': 'prep', 'conj': 'conj', 'adverb': 'adv',
+              'interj': 'interj', 'numeral': 'num'}
 
-def parse_code_for(inflection, word_type):
-    """Translate one Whitaker's inflection into a compact dotted parse code."""
-    feats = inflection.features
-    mood = feature(feats, 'Mood')
-    if word_type == 'V':
-        # Verb: person.number.tense.mood.voice
-        person = feature(feats, 'Person')   # 1 / 2 / 3
-        number = NUMBER.get(feature(feats, 'Number'), '')
-        tense  = TENSE.get(feature(feats, 'Tense'), '')
-        voice  = VOICE.get(feature(feats, 'Voice'), '')
-        case_f = feature(feats, 'Case')
-        # Participle test: Whitaker's may set Mood=PPL or just leave Person None
-        # and provide Case/Number/Gender features.
-        if mood == 'PPL' or (person is None and case_f is not None):
-            tag = {
-                ('PERF', 'PASSIVE'): 'ppp',
-                ('PRES', 'ACTIVE'):  'pap',
-                ('FUT',  'ACTIVE'):  'fap',
-            }.get((feature(feats, 'Tense'), feature(feats, 'Voice')), 'ppl')
-            case = CASE.get(case_f, '')
-            num  = number
-            gen  = GENDER.get(feature(feats, 'Gender'), '')
-            return '.'.join(x for x in [tag, case, num, gen] if x)
-        if mood == 'INF':
-            return '.'.join(x for x in ['inf', tense, voice] if x)
-        m = MOOD.get(mood, '')
-        return '.'.join(x for x in [f"{person}{number}", tense, m, voice] if x)
-    if word_type in ('N', 'PRON', 'NUM'):  # Noun / pronoun / numeral
-        case = CASE.get(feature(feats, 'Case'), '')
-        num  = NUMBER.get(feature(feats, 'Number'), '')
-        return '.'.join(x for x in [case, num] if x)
-    if word_type == 'ADJ':
-        case = CASE.get(feature(feats, 'Case'), '')
-        num  = NUMBER.get(feature(feats, 'Number'), '')
-        gen  = GENDER.get(feature(feats, 'Gender'), '')
-        return '.'.join(x for x in [case, num, gen] if x)
-    # Indeclinables.
-    return {'PREP': 'prep', 'CONJ': 'conj', 'ADV': 'adv', 'INTERJ': 'interj'}.get(word_type, '')
+# -------- cache --------------------------------------------------------------
 
-def lemma_for(lexeme, parser, _cache={}):
-    """Whitaker's gives a list of stems; reconstruct a canonical headword by
-    appending the conventional dictionary-form ending to the first stem and
-    asking Whitaker's to verify. The first candidate that comes back as the
-    expected dictionary form wins. Falls back to the bare stem."""
-    roots = [r for r in lexeme.get('roots', []) if r]
-    wt = lexeme.get('wordType', None)
-    wt_name = getattr(wt, 'name', str(wt))
-    form_info = lexeme.get('form') or []   # e.g. ['N', 'T'] for caelum (neuter)
-    gender_code = form_info[0] if form_info else ''
-    # Irregular verbs with no clean stem — Whitaker reports them with empty
-    # roots. `sum` is the most important; many of its forms (est, sunt, erat)
-    # show up here. Hardcode the lemma since stem-round-trip can't recover it.
-    if wt_name == 'V' and not roots:
-        return 'sum'
-    if not roots:
-        return ''
-    stem = roots[0]
-    cache_key = (wt_name, tuple(roots), gender_code)
-    if cache_key in _cache:
-        return _cache[cache_key]
+def load_cache():
+    if CACHE_PATH.exists():
+        return json.loads(CACHE_PATH.read_text(encoding='utf-8'))
+    return {}
 
-    # Candidate endings ordered by frequency for the part of speech. For
-    # nouns we put the gender-appropriate ending first when Whitaker tells
-    # us the gender, so `cael` → `caelum` (neuter) instead of `caelus`.
-    if wt_name == 'V':
-        candidates = [stem + 'o', stem + 'eo', stem + 'io', stem, stem + 'or']
-        expected = ('1', 'S', 'PRES', 'IND', 'ACTIVE')
-    elif wt_name == 'N':
-        common = [stem, stem + 'is', stem + 'es', stem + 's', stem + 'or']
-        if gender_code == 'N':
-            candidates = [stem + 'um', stem + 'us'] + common + [stem + 'a', stem + 'er']
-        elif gender_code == 'F':
-            candidates = [stem + 'a', stem + 'is', stem + 'es'] + common + [stem + 'us', stem + 'um', stem + 'er']
-        else:   # M, C (common), or unknown
-            candidates = [stem + 'us', stem + 'er'] + common + [stem + 'a', stem + 'um']
-        expected = ('NOM', 'S')
-    elif wt_name == 'ADJ':
-        candidates = [stem + 'us', stem + 'is', stem + 'er', stem + 'x', stem]
-        expected = ('NOM', 'S', 'M')
-    elif wt_name == 'PRON':
-        # Pronoun stems often need a quirky ending. Cover the relative/
-        # interrogative qui (stem 'qu') plus the demonstratives hic/is/ipse.
-        candidates = [stem + 'i', stem + 'is', stem, stem + 'e', stem + 'o', stem + 'a']
-        expected = ('NOM', 'S')
+def save_cache(cache):
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CACHE_PATH.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True) + '\n',
+        encoding='utf-8',
+    )
+
+# -------- Morpheus invocation ------------------------------------------------
+
+NL_RE = re.compile(r'<NL>(.*?)</NL>', re.DOTALL)
+
+def query_morpheus(tokens):
+    """Send a batch of unique tokens through morpheus.sh; return
+    {token: [raw_nl_block, ...]} with empty list for unrecognised words."""
+    if not tokens:
+        return {}
+    proc = subprocess.run(
+        [str(WRAPPER)],
+        input='\n'.join(tokens) + '\n',
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    out = {t: [] for t in tokens}
+    expected = set(tokens)
+    current = None
+    for line in proc.stdout.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        # Drop cruncher's `:longtime` instrumentation lines.
+        if stripped.startswith(':'):
+            continue
+        # An input echo line — sets the current token for any <NL> blocks
+        # that follow.
+        if stripped in expected and '<NL>' not in line:
+            current = stripped
+            continue
+        # Else, one or more <NL>...</NL> analysis blocks for the current echo.
+        for m in NL_RE.finditer(line):
+            if current is not None:
+                out[current].append(m.group(1).strip())
+    return out
+
+# -------- per-analysis parsing ----------------------------------------------
+
+def strip_macron(s):
+    """Morpheus marks vowel length with underscores: `mu_tastis`. Strip them
+    to recover the surface form for comparison with the input token."""
+    return s.replace('_', '')
+
+def split_inflection_class(field):
+    """The inflection-class column can be `avperf,are_vb` (a stem class
+    combined with a paradigm), `us_a_um`, `pron2`, `prep`, etc. Return the
+    last comma-separated piece as the paradigm identifier."""
+    return field.split(',')[-1].strip()
+
+def parse_nl_block(block):
+    """Parse `V mu_tastis,muto#1  perf ind act 2nd pl\t\tcontr\tavperf,are_vb`
+    into a dict {pos_raw, surface, lemma, morph[], tags, infl_class}."""
+    # Columns are tab-separated, but the morphology column is internally
+    # space-separated. Split on tabs first to peel off tags / infl_class.
+    columns = block.split('\t')
+    head = columns[0].strip()
+    dialect = columns[1].strip() if len(columns) > 1 else ''
+    tags = columns[2].strip() if len(columns) > 2 else ''
+    infl_class = columns[3].strip() if len(columns) > 3 else ''
+
+    tokens = head.split()
+    pos_raw = tokens[0] if tokens else ''
+    if len(tokens) < 2:
+        return None
+    surface_lemma = tokens[1]
+    if ',' in surface_lemma:
+        surface_raw, lemma_raw = surface_lemma.split(',', 1)
     else:
-        _cache[cache_key] = stem
-        return stem
+        surface_raw = lemma_raw = surface_lemma
+    surface = strip_macron(surface_raw)
+    # Strip homograph suffix (`muto#1` → `muto`).
+    lemma = lemma_raw.split('#', 1)[0]
+    lemma = LEMMA_ALIAS.get(lemma, lemma)
 
-    for cand in candidates:
-        try:
-            res = parser.parse(cand)
-        except Exception:
-            continue
-        if not res.forms:
-            continue
-        for form in res.forms:
-            for analysis in form.analyses.values():
-                lex2 = analysis.lexeme if hasattr(analysis, 'lexeme') else analysis['lexeme']
-                roots2 = (lex2.get('roots') if isinstance(lex2, dict) else lex2.roots) or []
-                if list(roots2) != list(roots):
-                    continue
-                infls = analysis.inflections if hasattr(analysis, 'inflections') else analysis['inflections']
-                for infl in infls:
-                    feats = infl.features if hasattr(infl, 'features') else infl['features']
-                    fnames = tuple(getattr(feats.get(k), 'name', '') for k in
-                                   ('Person', 'Number', 'Tense', 'Mood', 'Voice')) if wt_name == 'V' else \
-                              tuple(getattr(feats.get(k), 'name', '') for k in ('Case', 'Number', 'Gender'))
-                    # Compare only the prefix we care about (verbs ignore length-3 expected).
-                    if all(e == '' or fnames[i] == e for i, e in enumerate(expected)):
-                        _cache[cache_key] = cand
-                        return cand
-    _cache[cache_key] = stem
-    return stem
+    morph = tokens[2:]
+    return {
+        'pos_raw': pos_raw,
+        'surface': surface,
+        'lemma': lemma,
+        'morph': morph,
+        'tags': tags,
+        'infl_class': split_inflection_class(infl_class),
+        'dialect': dialect,
+    }
 
-def analyse_once(parser, token):
-    """Single-shot Whitaker's analysis. Returns [{lemma, parses}, ...]."""
-    try:
-        result = parser.parse(token.lower())
-    except Exception:
-        return []
-    if not result.forms:
-        return []
-    grouped = {}
+def fan_out(values):
+    """Slash-separated alternative → list. `nom/voc` → ['nom', 'voc']."""
+    return [v for v in values.split('/') if v]
+
+def morph_to_parse_codes(a):
+    """Translate one analysis's morphology vector into a list of dotted
+    parse codes. Multiple cases/genders/numbers fan out into separate
+    codes. Indeclinables (prep/conj/adv/interj) return a single tag."""
+    pos = a['pos_raw']
+    infl = a['infl_class']
+    morph = a['morph']
+
+    # Indeclinables: Morpheus tags them N (catchall); the real POS is in
+    # the inflection-class column.
+    if pos == 'N' and infl in INDECL_POS:
+        return [INDECL_POS[infl]]
+
+    # Feature extraction.
+    person = number = tense = mood = voice = None
+    cases, genders, numbers = [], [], []
+    for tok in morph:
+        for piece in fan_out(tok):
+            if piece in PERSON_MAP: person = PERSON_MAP[piece]
+            elif piece in NUMBER_MAP:
+                n = NUMBER_MAP[piece]
+                if n not in numbers: numbers.append(n)
+            elif piece in TENSE_MAP:  tense = TENSE_MAP[piece]
+            elif piece in MOOD_MAP:   mood = MOOD_MAP[piece]
+            elif piece in VOICE_MAP:  voice = VOICE_MAP[piece]
+            elif piece in CASE_MAP:
+                c = CASE_MAP[piece]
+                if c not in cases: cases.append(c)
+            elif piece in GENDER_MAP:
+                g = GENDER_MAP[piece]
+                if g not in genders: genders.append(g)
+
+    codes = []
+
+    # Participles (Morpheus often reports them as `P ... perf part pass ...`
+    # or with mood=part inside a V-tagged analysis).
+    if pos == 'P' or mood == 'ppl' or 'part' in morph:
+        tag = PARTICIPLE_TAG.get((tense, voice), 'ppl')
+        for case in cases or ['']:
+            for num in numbers or ['']:
+                for gen in genders or ['']:
+                    parts = [tag, case, num, gen]
+                    code = '.'.join(p for p in parts if p)
+                    if code and code not in codes:
+                        codes.append(code)
+        return codes
+
+    # Infinitives.
+    if mood == 'inf':
+        parts = ['inf', tense, voice]
+        code = '.'.join(p for p in parts if p)
+        return [code] if code else []
+
+    # Finite verbs: person+number.tense.mood.voice
+    if pos == 'V' and person:
+        for num in numbers or ['']:
+            pn = person + num
+            parts = [pn, tense, mood, voice]
+            code = '.'.join(p for p in parts if p)
+            if code and code not in codes:
+                codes.append(code)
+        return codes
+
+    # Nominals (nouns, adjectives, pronouns): case + num [+ gender].
+    if cases:
+        for case in cases:
+            for num in numbers or ['']:
+                if genders:
+                    for gen in genders:
+                        parts = [case, num, gen]
+                        code = '.'.join(p for p in parts if p)
+                        if code and code not in codes:
+                            codes.append(code)
+                else:
+                    parts = [case, num]
+                    code = '.'.join(p for p in parts if p)
+                    if code and code not in codes:
+                        codes.append(code)
+        return codes
+
+    return []
+
+# -------- token-level orchestration -----------------------------------------
+
+def analyse_token(token, cache):
+    """Return the list of dicts {pos, surface, lemma, morph, tags, infl_class}
+    for `token`; consults & populates `cache`. The returned list may be empty."""
+    key = token.lower()
+    if key not in cache:
+        # Single-token batch; query_morpheus also handles the multi-token case.
+        result = query_morpheus([key])
+        cache[key] = result[key]
+    return [parse_nl_block(nl) for nl in cache[key] if parse_nl_block(nl)]
+
+def group_by_lemma(analyses):
+    """Collect parse codes per lemma in source order. Returns
+    [(lemma, [code, ...]), ...]."""
+    groups = {}
     order = []
-    for form in result.forms:
-        for analysis in form.analyses.values():
-            lexeme = analysis.lexeme if hasattr(analysis, 'lexeme') else analysis['lexeme']
-            for infl in (analysis.inflections if hasattr(analysis, 'inflections') else analysis['inflections']):
-                wt = lexeme.get('wordType') if isinstance(lexeme, dict) else lexeme.wordType
-                wt_name = getattr(wt, 'name', str(wt))
-                lemma = lemma_for(lexeme if isinstance(lexeme, dict) else lexeme.__dict__, parser)
-                code = parse_code_for(infl if hasattr(infl, 'features') else type('I', (), infl)(), wt_name)
-                if not lemma or not code:
-                    continue
-                if lemma not in grouped:
-                    grouped[lemma] = []
-                    order.append(lemma)
-                if code not in grouped[lemma]:
-                    grouped[lemma].append(code)
-    return [{'lemma': l, 'parses': grouped[l]} for l in order]
+    for a in analyses:
+        codes = morph_to_parse_codes(a)
+        if not codes:
+            continue
+        if a['lemma'] not in groups:
+            groups[a['lemma']] = []
+            order.append(a['lemma'])
+        for c in codes:
+            if c not in groups[a['lemma']]:
+                groups[a['lemma']].append(c)
+    return [(l, groups[l]) for l in order]
 
-# Enclitics in Latin: -que (and), -ne (question marker), -ve (or). Some words
-# end in these letters without carrying the enclitic (e.g. "atque" = at+que
-# is genuinely the conjunction, "neque" too, "quoque", "namque"); a short
-# whitelist of words to NEVER split keeps these intact.
-NEVER_SPLIT_ENCLITIC = {'atque', 'neque', 'quoque', 'namque', 'denique', 'utique',
-                        'undique', 'usque', 'quaque', 'itaque', 'plerumque',
-                        'cuique', 'quique', 'unde', 'inde', 'sive', 'siue'}
 ENCLITICS = ('que', 'ne', 've')
 
-def split_enclitic(token):
-    """If `token` ends in -que/-ne/-ve and the prefix is a valid Latin word
-    (parses non-trivially), return (prefix, enclitic). Otherwise None."""
-    if token.lower() in NEVER_SPLIT_ENCLITIC:
-        return None
+def detect_enclitic(token, analyses):
+    """If Morpheus auto-stripped a trailing -que/-ne/-ve, split the token.
+    Returns (prefix_token, enclitic) or (None, None)."""
+    if not analyses:
+        return None, None
+    low = token.lower()
     for enc in ENCLITICS:
-        if len(token) > len(enc) + 2 and token.lower().endswith(enc):
-            return (token[:-len(enc)], enc)
-    return None
+        if low.endswith(enc) and len(low) > len(enc):
+            stem = low[:-len(enc)]
+            # Morpheus's analyses all match the stem → it was treated as enclitic.
+            if all(a['surface'].lower() == stem for a in analyses):
+                return token[:-len(enc)], enc
+    return None, None
 
-def analyse(parser, token):
-    """Analyse a token, splitting trailing enclitics (-que, -ne, -ve) when
-    they make the prefix parseable. Returns a list of (segment, matches)
-    pairs so the caller can emit one span per segment."""
-    direct = analyse_once(parser, token)
-    if direct:
-        return [(token, direct)]
-    split = split_enclitic(token)
-    if split:
-        prefix, enc = split
-        prefixMatches = analyse_once(parser, prefix)
-        if prefixMatches:
-            enc_lemma = {'que': 'que', 'ne': 'ne', 've': 've'}[enc]
-            return [(prefix, prefixMatches), (enc, [{'lemma': enc_lemma, 'parses': ['enclit']}])]
-    return [(token, [])]
+# -------- output rendering --------------------------------------------------
+
+def matches_attr(groups):
+    if not groups:
+        return 'data-matches="?:?"'
+    parts = [f'{lemma}:{",".join(codes)}' for lemma, codes in groups]
+    return 'data-matches="' + ';'.join(parts) + '"'
 
 WORD_RE = re.compile(r"([A-Za-zĀ-ž]+)([^A-Za-zĀ-ž]*)")
 
 def tokenise(text):
-    """Yield (word, trailing_punctuation) pairs in source order."""
     for m in WORD_RE.finditer(text):
         word, trail = m.group(1), m.group(2)
         if word:
             yield (word, trail)
 
-def matches_attr(matches):
-    """Serialise [{lemma, parses}, ...] into `data-matches="lemma:p1,p2;lemma2:p3"`."""
-    if not matches:
-        return 'data-matches="?:?"'
-    return 'data-matches="' + ';'.join(
-        f"{m['lemma']}:{','.join(m['parses'])}" for m in matches
-    ) + '"'
+def render_token(token, cache):
+    """Return the span HTML for `token`. Handles enclitic-splitting by
+    emitting two adjacent spans."""
+    analyses = analyse_token(token, cache)
+    prefix_tok, enc = detect_enclitic(token, analyses)
+    if prefix_tok is not None:
+        # Re-analyse the prefix on its own (so multi-lemma alternatives that
+        # only exist without the clitic-stripping show up).
+        prefix_analyses = analyse_token(prefix_tok, cache)
+        prefix_groups = group_by_lemma(prefix_analyses)
+        enc_groups = [(enc, ['enclit'])]
+        return (
+            f'<span {matches_attr(prefix_groups)}>{prefix_tok}</span>'
+            f'<span {matches_attr(enc_groups)}>{enc}</span>'
+        )
+    groups = group_by_lemma(analyses)
+    return f'<span {matches_attr(groups)}>{token}</span>'
+
+# -------- main --------------------------------------------------------------
 
 def main():
-    parser = Parser()
+    if not WRAPPER.exists():
+        sys.exit(f'seed.py: wrapper not found at {WRAPPER}. See site/latin/INSTALL.md.')
+    cache = load_cache()
     src = sys.stdin.read()
     lines = src.splitlines()
+
+    # Pre-warm the cache in a single batched Morpheus invocation. Collect
+    # every distinct surface form across the whole passage, plus the
+    # enclitic prefixes we'll need to re-analyse for any -que/-ne/-ve word.
+    all_tokens = []
+    seen = set()
+    for line in lines:
+        for word, _ in tokenise(line):
+            for candidate in {word.lower()} | {word.lower()[:-len(enc)]
+                                              for enc in ENCLITICS
+                                              if word.lower().endswith(enc)
+                                              and len(word) > len(enc)}:
+                if candidate and candidate not in cache and candidate not in seen:
+                    seen.add(candidate)
+                    all_tokens.append(candidate)
+    if all_tokens:
+        new_results = query_morpheus(all_tokens)
+        cache.update(new_results)
+        save_cache(cache)
+
     out_lines = []
     for i, line in enumerate(lines):
         line = line.strip()
@@ -265,16 +378,7 @@ def main():
             continue
         parts = []
         for word, trail in tokenise(line):
-            segments = analyse(parser, word)
-            # Each segment becomes its own span; segments emitted adjacent
-            # with no space so an enclitic like -que visually stays attached
-            # to its host word (`primaque` → `prima`+`que` as two adjacent
-            # buttons).
-            spans = ''.join(
-                f'<span {matches_attr(matches)}>{seg}</span>'
-                for seg, matches in segments
-            )
-            parts.append(f'{spans}{trail}')
+            parts.append(render_token(word, cache) + trail)
         joined = ' '.join(parts)
         if i < len(lines) - 1:
             joined += '<br>'

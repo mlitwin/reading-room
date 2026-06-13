@@ -1,0 +1,33 @@
+{
+  "lemma": "rudis",
+  "pos": "adj",
+  "glosses": [
+    "undeveloped, rough, wild",
+    "coarse"
+  ],
+  "head": "rudis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "rude",
+      "acc.sg.neut": "rude",
+      "nom.pl.neut": "rudia",
+      "acc.pl.neut": "rudia"
+    }
+  }
+}

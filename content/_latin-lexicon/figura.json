@@ -1,0 +1,37 @@
+{
+  "lemma": "figura",
+  "pos": "noun",
+  "glosses": [
+    "shape, form, figure, image",
+    "beauty",
+    "style",
+    "figure of speech"
+  ],
+  "head": "figura, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "figura",
+      "gen.sg": "figurae",
+      "abl.sg": "figura",
+      "acc.sg": "figuram",
+      "dat.sg": "figurae",
+      "nom.pl": "figurae",
+      "gen.pl": "figurarum",
+      "dat.pl": "figuris",
+      "abl.pl": "figuris",
+      "acc.pl": "figuras"
+    }
+  }
+}

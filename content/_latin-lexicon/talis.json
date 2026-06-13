@@ -1,0 +1,35 @@
+{
+  "lemma": "talis",
+  "pos": "adj",
+  "glosses": [
+    "such",
+    "so great",
+    "so excellent",
+    "of such kind"
+  ],
+  "head": "talis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "tale",
+      "acc.sg.neut": "tale",
+      "nom.pl.neut": "talia",
+      "acc.pl.neut": "talia"
+    }
+  }
+}

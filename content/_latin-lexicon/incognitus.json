@@ -1,0 +1,54 @@
+{
+  "lemma": "incognitus",
+  "pos": "adj",
+  "glosses": [
+    "unknown",
+    "not known",
+    "untried, untested"
+  ],
+  "head": "incognitus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "incognitus",
+      "gen.sg.masc": "incogniti",
+      "dat.sg.masc": "incognito",
+      "gen.sg.fem": "incognitae",
+      "dat.sg.fem": "incognitae",
+      "nom.sg.neut": "incognitum",
+      "gen.sg.neut": "incogniti",
+      "dat.sg.neut": "incognito",
+      "acc.sg.neut": "incognitum",
+      "acc.sg.masc": "incognitum",
+      "abl.sg.masc": "incognito",
+      "nom.pl.masc": "incogniti",
+      "gen.pl.masc": "incognitorum",
+      "acc.pl.masc": "incognitos",
+      "nom.sg.fem": "incognita",
+      "acc.sg.fem": "incognitam",
+      "abl.sg.fem": "incognita",
+      "nom.pl.fem": "incognitae",
+      "gen.pl.fem": "incognitarum",
+      "acc.pl.fem": "incognitas",
+      "abl.sg.neut": "incognito",
+      "nom.pl.neut": "incognita",
+      "gen.pl.neut": "incognitorum",
+      "acc.pl.neut": "incognita"
+    }
+  }
+}

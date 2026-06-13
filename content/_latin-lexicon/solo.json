@@ -1,0 +1,41 @@
+{
+  "lemma": "solo",
+  "pos": "verb",
+  "glosses": [
+    "solace, console, comfort",
+    "soothe, ease, lighten, relieve, assuage, mitigate"
+  ],
+  "head": "solo, solare, -i, solatum",
+  "principal_parts": [
+    "solo",
+    "solare",
+    "-i",
+    "solatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "solo",
+      "2sg.pres.ind.act": "solas",
+      "3sg.pres.ind.act": "solat",
+      "1pl.pres.ind.act": "solamus",
+      "2pl.pres.ind.act": "solatis",
+      "3pl.pres.ind.act": "solant",
+      "2sg.pres.imp.act": "sola",
+      "2pl.pres.imp.act": "solate"
+    }
+  }
+}

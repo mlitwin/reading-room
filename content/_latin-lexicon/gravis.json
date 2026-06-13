@@ -1,0 +1,37 @@
+{
+  "lemma": "gravis",
+  "pos": "adj",
+  "glosses": [
+    "heavy",
+    "painful",
+    "important",
+    "serious",
+    "pregnant",
+    "grave, oppressive, burdensome"
+  ],
+  "head": "gravis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "grave",
+      "acc.sg.neut": "grave",
+      "nom.pl.neut": "gravia",
+      "acc.pl.neut": "gravia"
+    }
+  }
+}

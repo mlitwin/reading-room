@@ -1,0 +1,436 @@
+{
+  "book": 13,
+  "card": 3,
+  "lines": [
+    205,
+    312
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 205,
+      "latin": "Longa referre mora est, quae consilioque manuque"
+    },
+    {
+      "n": 206,
+      "latin": "utiliter feci spatiosi tempore belli."
+    },
+    {
+      "n": 207,
+      "latin": "Post acies primas urbis se moenibus hostes"
+    },
+    {
+      "n": 208,
+      "latin": "continuere diu, nec aperti copia Martis"
+    },
+    {
+      "n": 209,
+      "latin": "ulla fuit: decimo demum pugnavimus anno."
+    },
+    {
+      "n": 210,
+      "latin": "Quid facis interea, qui nil nisi proelia, nosti?"
+    },
+    {
+      "n": 211,
+      "latin": "Quis tuus usus erat? Nam si mea facta requiris,"
+    },
+    {
+      "n": 212,
+      "latin": "hostibus insidior, fossas munimine cingo,"
+    },
+    {
+      "n": 213,
+      "latin": "consolor socios, ut longi taedia belli"
+    },
+    {
+      "n": 214,
+      "latin": "mente ferant placida, doceo, quo simus alendi"
+    },
+    {
+      "n": 215,
+      "latin": "armandique modo, mittor, quo postulat usus."
+    },
+    {
+      "n": 216,
+      "latin": "Ecce Iovis monitu, deceptus imagine somni,"
+    },
+    {
+      "n": 217,
+      "latin": "rex iubet incepti curam dimittere belli."
+    },
+    {
+      "n": 218,
+      "latin": "Ille potest auctore suam defendere vocem:"
+    },
+    {
+      "n": 219,
+      "latin": "non sinat hoc Aiax delendaque Pergama poscat,"
+    },
+    {
+      "n": 220,
+      "latin": "quodque potest, pugnet! Cur non remoratur ituros?"
+    },
+    {
+      "n": 221,
+      "latin": "Cur non arma capit? det, quod vaga turba sequatur!"
+    },
+    {
+      "n": 222,
+      "latin": "Non erat hoc nimium numquam nisi magna loquenti."
+    },
+    {
+      "n": 223,
+      "latin": "Quid quod et ipse fugit? Vidi, puduitque videre,"
+    },
+    {
+      "n": 224,
+      "latin": "cum tu terga dares inhonestaque vela parares."
+    },
+    {
+      "n": 225,
+      "latin": "Nec mora, “quid facitis? quae vos dementia” dixi"
+    },
+    {
+      "n": 226,
+      "latin": "“concitat, o socii? captam dimittite Troiam!"
+    },
+    {
+      "n": 227,
+      "latin": "Quidve domum fertis decimo, nisi dedecus, anno?”"
+    },
+    {
+      "n": 228,
+      "latin": "Talibus atque aliis, in quae dolor ipse disertum"
+    },
+    {
+      "n": 229,
+      "latin": "fecerat, aversos profuga de classe reduxi."
+    },
+    {
+      "n": 231,
+      "latin": "nec Telamoniades etiam nunc hiscere quicquam"
+    },
+    {
+      "n": 232,
+      "latin": "audet, at ausus erat reges incessere dictis"
+    },
+    {
+      "n": 233,
+      "latin": "Thersites etiam, per me haud impune protervus!"
+    },
+    {
+      "n": 234,
+      "latin": "Erigor et trepidos cives exhortor in hostem"
+    },
+    {
+      "n": 235,
+      "latin": "amissamque mea virtutem voce reposco."
+    },
+    {
+      "n": 236,
+      "latin": "Tempore ab hoc, quodcumque potest fecisse videri"
+    },
+    {
+      "n": 237,
+      "latin": "fortiter iste, meum est, qui dantem terga retraxi."
+    },
+    {
+      "n": 238,
+      "latin": "Denique de Danais quis te laudatve petitve?"
+    },
+    {
+      "n": 239,
+      "latin": "At sua Tydides mecum communicat acta,"
+    },
+    {
+      "n": 240,
+      "latin": "me probat et socio semper confidit Ulixe."
+    },
+    {
+      "n": 241,
+      "latin": "Est aliquid, de tot Graiorum milibus unum"
+    },
+    {
+      "n": 242,
+      "latin": "a Diomede legi (nec me sors ire iubebat !),"
+    },
+    {
+      "n": 243,
+      "latin": "si tamen et spreto noctisque hostisque periclo"
+    },
+    {
+      "n": 244,
+      "latin": "ausum eadem, quae nos, Phrygia de gente Dolona"
+    },
+    {
+      "n": 245,
+      "latin": "interimo, non ante tamen, quam cuncta coegi"
+    },
+    {
+      "n": 246,
+      "latin": "prodere, et edidici, quid perfida Troia pararet."
+    },
+    {
+      "n": 247,
+      "latin": "Omnia cognoram, nec, quod specularer, habebam,"
+    },
+    {
+      "n": 248,
+      "latin": "et iam promissa poteram cum laude reverti."
+    },
+    {
+      "n": 249,
+      "latin": "Haud contentus eo petii tentoria Rhesi"
+    },
+    {
+      "n": 250,
+      "latin": "inque suis ipsum castris comitesque peremi"
+    },
+    {
+      "n": 251,
+      "latin": "atque ita captivo victor votisque potitus"
+    },
+    {
+      "n": 252,
+      "latin": "ingredior curru laetos imitante triumphos;"
+    },
+    {
+      "n": 253,
+      "latin": "cuius equos pretium pro nocte poposcerat hostis,"
+    },
+    {
+      "n": 254,
+      "latin": "arma negate mihi, fueritque benignior Aiax!"
+    },
+    {
+      "n": 255,
+      "latin": "Quid Lycii referam Sarpedonis agmina ferro"
+    },
+    {
+      "n": 256,
+      "latin": "devastata meo? Cum multo sanguine fudi"
+    },
+    {
+      "n": 257,
+      "latin": "Coeranon Iphitiden et Alastoraque Chromiumque"
+    },
+    {
+      "n": 258,
+      "latin": "Alcandrumque Haliumque Noemonaque Prytanimque,"
+    },
+    {
+      "n": 259,
+      "latin": "exitioque dedi cum Chersidamante Thoona"
+    },
+    {
+      "n": 260,
+      "latin": "et Charopem fatisque inmitibus Ennomon actum"
+    },
+    {
+      "n": 261,
+      "latin": "quique minus celebres nostra sub moenibus urbis"
+    },
+    {
+      "n": 262,
+      "latin": "procubuere manu. Sunt et mihi vulnera, cives,"
+    },
+    {
+      "n": 263,
+      "latin": "ipso pulchra loco; nec vanis credite verbis:"
+    },
+    {
+      "n": 264,
+      "latin": "adspicite en!” vestemque manu deduxit et “haec sunt"
+    },
+    {
+      "n": 265,
+      "latin": "pectora semper” ait “vestris exercita rebus."
+    },
+    {
+      "n": 266,
+      "latin": "At nil impendit per tot Telamonius annos"
+    },
+    {
+      "n": 267,
+      "latin": "sanguinis in socios et habet sine vulnere corpus!"
+    },
+    {
+      "n": 268,
+      "latin": "Quid tamen hoc refert, si se pro classe Pelasga"
+    },
+    {
+      "n": 269,
+      "latin": "arma tulisse refert contra Troasque Iovemque?"
+    },
+    {
+      "n": 270,
+      "latin": "Confiteorque, tulit (neque enim benefacta maligne"
+    },
+    {
+      "n": 271,
+      "latin": "detractare meum est), sed ne communia solus"
+    },
+    {
+      "n": 272,
+      "latin": "occupet atque aliquem vobis quoque reddat honorem,"
+    },
+    {
+      "n": 273,
+      "latin": "reppulit Actorides sub imagine tutus Achillis"
+    },
+    {
+      "n": 274,
+      "latin": "Troas ab arsuris cum defensore carinis."
+    },
+    {
+      "n": 275,
+      "latin": "Ausum etiam Hectoreis solum concurrere telis"
+    },
+    {
+      "n": 276,
+      "latin": "se putat, oblitus regisque ducumque meique,"
+    },
+    {
+      "n": 277,
+      "latin": "nonus in officio et praelatus munere sortis."
+    },
+    {
+      "n": 278,
+      "latin": "Sed tamen eventus vestrae, fortissime, pugnae"
+    },
+    {
+      "n": 279,
+      "latin": "quis fuit? Hector abit violatus vulnere nullo!"
+    },
+    {
+      "n": 280,
+      "latin": "Me miserum, quanto cogor meminisse dolore"
+    },
+    {
+      "n": 281,
+      "latin": "temporis illius, quo Graium murus, Achilles"
+    },
+    {
+      "n": 282,
+      "latin": "procubuit! Nec me lacrimae luctusque timorque"
+    },
+    {
+      "n": 283,
+      "latin": "tardarunt, quin corpus humo sublime referrem."
+    },
+    {
+      "n": 284,
+      "latin": "His umeris, his, inquam, umeris ego corpus Achillis."
+    },
+    {
+      "n": 285,
+      "latin": "et simul arma tuli, quae nunc quoque ferre laboro!"
+    },
+    {
+      "n": 286,
+      "latin": "Sunt mihi, quae valeant in talia pondera, vires,"
+    },
+    {
+      "n": 287,
+      "latin": "est animus certe vestros sensurus honores."
+    },
+    {
+      "n": 288,
+      "latin": "Scilicet idcirco pro nato caerula mater"
+    },
+    {
+      "n": 289,
+      "latin": "ambitiosa suo fuit, ut caelestia dona,"
+    },
+    {
+      "n": 290,
+      "latin": "artis opus tantae, rudis et sine pectore miles"
+    },
+    {
+      "n": 291,
+      "latin": "indueret? neque enim clipei caelamina novit,"
+    },
+    {
+      "n": 292,
+      "latin": "Oceanum et terras cumque alto sidera caelo"
+    },
+    {
+      "n": 293,
+      "latin": "Pleiadasque hyadasque inmunemque aequoris arcton"
+    },
+    {
+      "n": 294,
+      "latin": "diversasque urbes nitidumque Orionis ensem:"
+    },
+    {
+      "n": 296,
+      "latin": "Quid quod me duri fugientem munera belli"
+    },
+    {
+      "n": 297,
+      "latin": "arguit incepto serum accessisse labori,"
+    },
+    {
+      "n": 298,
+      "latin": "nec se magnanimo maledicere sentit Achilli?"
+    },
+    {
+      "n": 299,
+      "latin": "Si simulasse vocas crimen, simulavimus ambo;"
+    },
+    {
+      "n": 300,
+      "latin": "si mora pro culpa est, ego sum maturior illo."
+    },
+    {
+      "n": 301,
+      "latin": "Me pia detinuit coniunx, pia mater Achillem,"
+    },
+    {
+      "n": 302,
+      "latin": "primaque sunt illis data tempora, cetera vobis."
+    },
+    {
+      "n": 303,
+      "latin": "Haud timeo, si iam nequeam defendere, crimen"
+    },
+    {
+      "n": 304,
+      "latin": "cum tanto commune viro: deprensus Ulixis"
+    },
+    {
+      "n": 305,
+      "latin": "ingenio tamen ille, at non Aiacis Ulixes!"
+    },
+    {
+      "n": 306,
+      "latin": "Neve in me stolidae convicia fundere linguae"
+    },
+    {
+      "n": 307,
+      "latin": "admiremur eum, vobis quoque digna pudore"
+    },
+    {
+      "n": 308,
+      "latin": "obicit. An falso Palameden crimine turpe est"
+    },
+    {
+      "n": 309,
+      "latin": "accusasse mihi, vobis damnasse decorum?"
+    },
+    {
+      "n": 310,
+      "latin": "Sed neque Naupliades facinus defendere tantum"
+    },
+    {
+      "n": 311,
+      "latin": "tamque patens valuit, nec vos audistis in illo"
+    },
+    {
+      "n": 312,
+      "latin": "crimina: vidistis, pretioque obiecta patebant."
+    }
+  ]
+}

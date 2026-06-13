@@ -1,0 +1,420 @@
+{
+  "book": 4,
+  "card": 4,
+  "lines": [
+    271,
+    372
+  ],
+  "title_latin": "Salmacis.",
+  "title_english": "HERMAPHRODITUS",
+  "text": [
+    {
+      "n": 271,
+      "latin": "Dixerat, et factum mirabile ceperat aures."
+    },
+    {
+      "n": 272,
+      "latin": "Pars fieri potuisse negant, pars omnia veros"
+    },
+    {
+      "n": 273,
+      "latin": "posse deos memorant: sed non et Bacchus in illis."
+    },
+    {
+      "n": 274,
+      "latin": "Poscitur Alcithoe, postquam siluere sorores."
+    },
+    {
+      "n": 275,
+      "latin": "Quae radio stantis percurrens stamina telae"
+    },
+    {
+      "n": 276,
+      "latin": "“vulgatos taceo” dixit “pastoris amores"
+    },
+    {
+      "n": 277,
+      "latin": "Daphnidis Idaei, quem nymphe paelicis ira"
+    },
+    {
+      "n": 278,
+      "latin": "contulit in saxum (tantus dolor urit amantes)."
+    },
+    {
+      "n": 279,
+      "latin": "Nec loquor, ut quondam naturae iure novato"
+    },
+    {
+      "n": 280,
+      "latin": "ambiguus fuerit modo vir, modo femina Sithon."
+    },
+    {
+      "n": 281,
+      "latin": "Te quoque, nunc adamas, quondam fidissime parvo,"
+    },
+    {
+      "n": 282,
+      "latin": "Celmi, Iovi, largoque satos Curetas ab imbri"
+    },
+    {
+      "n": 283,
+      "latin": "et Crocon in parvos versum cum Smilace flores"
+    },
+    {
+      "n": 284,
+      "latin": "praetereo, dulcique animos novitate tenebo."
+    },
+    {
+      "n": 285,
+      "latin": "Unde sit infamis, quare male fortibus undis"
+    },
+    {
+      "n": 286,
+      "latin": "Salmacis enervet tactosque remolliat artus,"
+    },
+    {
+      "n": 287,
+      "latin": "discite. Causa latet, vis est notissima fontis."
+    },
+    {
+      "n": 288,
+      "latin": "Mercurio puerum diva Cythereide natum"
+    },
+    {
+      "n": 289,
+      "latin": "naides Idaeis enutrivere sub antris;"
+    },
+    {
+      "n": 290,
+      "latin": "cuius erat facies, in qua materque paterque"
+    },
+    {
+      "n": 291,
+      "latin": "cognosci possent; nomen quoque traxit ab illis."
+    },
+    {
+      "n": 292,
+      "latin": "Is tria cum primum fecit quinquennia, montes"
+    },
+    {
+      "n": 293,
+      "latin": "deseruit patrios, Idaque altrice relicta"
+    },
+    {
+      "n": 294,
+      "latin": "ignotis errare locis, ignota videre"
+    },
+    {
+      "n": 295,
+      "latin": "flumina gaudebat, studio minuente laborem."
+    },
+    {
+      "n": 296,
+      "latin": "Ille etiam Lycias urbes Lyciaeque propinquos"
+    },
+    {
+      "n": 297,
+      "latin": "Caras adit. Videt hic stagnum lucentis ad imum"
+    },
+    {
+      "n": 298,
+      "latin": "usque solum lymphae. Non illic canna palustris"
+    },
+    {
+      "n": 299,
+      "latin": "nec steriles ulvae nec acuta cuspide iunci:"
+    },
+    {
+      "n": 300,
+      "latin": "perspicuus liquor est; stagni tamen ultima vivo"
+    },
+    {
+      "n": 301,
+      "latin": "caespite cinguntur semperque virentibus herbis."
+    },
+    {
+      "n": 302,
+      "latin": "Nympha colit, sed nec venatibus apta, nec arcus"
+    },
+    {
+      "n": 303,
+      "latin": "flectere quae soleat nec quae contendere cursu,"
+    },
+    {
+      "n": 304,
+      "latin": "solaque naiadum celeri non nota Dianae."
+    },
+    {
+      "n": 305,
+      "latin": "Saepe suas illi fama est dixisse sorores:"
+    },
+    {
+      "n": 306,
+      "latin": "“Salmaci, vel iaculum vel pictas sume pharetras,"
+    },
+    {
+      "n": 307,
+      "latin": "et tua cum duris venatibus otia misce.”"
+    },
+    {
+      "n": 308,
+      "latin": "Nec iaculum sumit nec pictas illa pharetras,"
+    },
+    {
+      "n": 309,
+      "latin": "nec sua cum duris venatibus otia miscet,"
+    },
+    {
+      "n": 310,
+      "latin": "sed modo fonte suo formosos perluit artus,"
+    },
+    {
+      "n": 311,
+      "latin": "saepe Cytoriaco deducit pectine crines"
+    },
+    {
+      "n": 312,
+      "latin": "et, quid se deceat, spectatas consulit undas;"
+    },
+    {
+      "n": 313,
+      "latin": "nunc perlucenti circumdata corpus amictu"
+    },
+    {
+      "n": 314,
+      "latin": "mollibus aut foliis aut mollibus incubat herbis;"
+    },
+    {
+      "n": 315,
+      "latin": "saepe legit flores. Et tunc quoque forte legebat,"
+    },
+    {
+      "n": 316,
+      "latin": "cum puerum vidit visumque optavit habere."
+    },
+    {
+      "n": 317,
+      "latin": "Nec tamen ante adiit, etsi properabat adire,"
+    },
+    {
+      "n": 318,
+      "latin": "quam se conposuit, quam circumspexit amictus,"
+    },
+    {
+      "n": 319,
+      "latin": "et finxit vultum et meruit formosa videri."
+    },
+    {
+      "n": 320,
+      "latin": "Tum sic orsa loqui: “Puer o dignissime credi"
+    },
+    {
+      "n": 321,
+      "latin": "esse deus, seu tu deus es, potes esse Cupido,"
+    },
+    {
+      "n": 322,
+      "latin": "sive es mortalis, qui te genuere, beati,"
+    },
+    {
+      "n": 323,
+      "latin": "et frater felix, et fortunata profecto,"
+    },
+    {
+      "n": 324,
+      "latin": "siqua tibi soror est, et quae dedit ubera nutrix:"
+    },
+    {
+      "n": 325,
+      "latin": "sed longe cunctis longeque beatior illa,"
+    },
+    {
+      "n": 326,
+      "latin": "siqua tibi sponsa est, siquam dignabere taeda."
+    },
+    {
+      "n": 327,
+      "latin": "Haec tibi sive aliqua est, mea sit furtiva voluptas,"
+    },
+    {
+      "n": 328,
+      "latin": "seu nulla est, ego sim, thalamumque ineamus eundem.”"
+    },
+    {
+      "n": 329,
+      "latin": "Nais ab his tacuit. Pueri rubor ora notavit"
+    },
+    {
+      "n": 330,
+      "latin": "(nescit enim, quid amor), sed et erubuisse decebat."
+    },
+    {
+      "n": 331,
+      "latin": "Hic color aprica pendentibus arbore pomis"
+    },
+    {
+      "n": 332,
+      "latin": "aut ebori tincto est, aut sub candore rubenti,"
+    },
+    {
+      "n": 333,
+      "latin": "cum frustra resonant aera auxiliaria, lunae."
+    },
+    {
+      "n": 334,
+      "latin": "Poscenti nymphae sine fine sororia saltem"
+    },
+    {
+      "n": 335,
+      "latin": "oscula iamque manus ad eburnea colla ferenti"
+    },
+    {
+      "n": 336,
+      "latin": "“desinis? aut fugio, tecumque” ait “ista relinquo.”"
+    },
+    {
+      "n": 337,
+      "latin": "Salmacis extimuit “loca” que “haec tibi libera trado,"
+    },
+    {
+      "n": 338,
+      "latin": "hospes” ait, simulatque gradu discedere verso,"
+    },
+    {
+      "n": 339,
+      "latin": "tunc quoque respiciens, fruticumque recondita silva"
+    },
+    {
+      "n": 340,
+      "latin": "delituit, flexuque genu submisit. At ille,"
+    },
+    {
+      "n": 341,
+      "latin": "scilicet ut vacuis et inobservatus in herbis,"
+    },
+    {
+      "n": 342,
+      "latin": "huc it et hinc illuc, et in adludentibus undis"
+    },
+    {
+      "n": 343,
+      "latin": "summa pedum taloque tenus vestigia tingit;"
+    },
+    {
+      "n": 344,
+      "latin": "nec mora, temperie blandarum captus aquarum"
+    },
+    {
+      "n": 345,
+      "latin": "mollia de tenero velamina corpore ponit."
+    },
+    {
+      "n": 346,
+      "latin": "Tum vero placuit, nudaeque cupidine formae"
+    },
+    {
+      "n": 347,
+      "latin": "Salmacis exarsit: flagrant quoque lumina nymphae,"
+    },
+    {
+      "n": 348,
+      "latin": "non aliter quam cum puro nitidissimus orbe"
+    },
+    {
+      "n": 349,
+      "latin": "opposita speculi referitur imagine Phoebus."
+    },
+    {
+      "n": 350,
+      "latin": "Vixque moram patitur, vix iam sua gaudia differt,"
+    },
+    {
+      "n": 351,
+      "latin": "iam cupit amplecti, iam se male continet amens."
+    },
+    {
+      "n": 352,
+      "latin": "Ille cavis velox adplauso corpore palmis"
+    },
+    {
+      "n": 353,
+      "latin": "desilit in latices, alternaque bracchia ducens"
+    },
+    {
+      "n": 354,
+      "latin": "in liquidis translucet aquis, ut eburnea siquis"
+    },
+    {
+      "n": 355,
+      "latin": "signa tegat claro vel candida lilia vitro."
+    },
+    {
+      "n": 356,
+      "latin": "“Vicimus et meus est!” exclamat nais et omni"
+    },
+    {
+      "n": 357,
+      "latin": "veste procul iacta mediis inmittitur undis,"
+    },
+    {
+      "n": 358,
+      "latin": "pugnantemque tenet luctantiaque oscula carpit,"
+    },
+    {
+      "n": 359,
+      "latin": "subiectatque manus invitaque pectora tangit,"
+    },
+    {
+      "n": 360,
+      "latin": "et nunc hac iuveni, nunc circumfunditur illac;"
+    },
+    {
+      "n": 361,
+      "latin": "denique nitentem contra elabique volentem"
+    },
+    {
+      "n": 362,
+      "latin": "inplicat, ut serpens, quam regia sustinet ales"
+    },
+    {
+      "n": 363,
+      "latin": "sublimemque rapit: pendens caput illa pedesque"
+    },
+    {
+      "n": 364,
+      "latin": "adligat et cauda spatiantes inplicat alas:"
+    },
+    {
+      "n": 365,
+      "latin": "utve solent hederae longos intexere truncos,"
+    },
+    {
+      "n": 366,
+      "latin": "utque sub aequoribus deprensum polypus hostem"
+    },
+    {
+      "n": 367,
+      "latin": "continet, ex omni dimissis parte flagellis."
+    },
+    {
+      "n": 368,
+      "latin": "Perstat Atlantiades, sperataque gaudia nymphae"
+    },
+    {
+      "n": 369,
+      "latin": "denegat. Illa premit, commissaque corpore toto"
+    },
+    {
+      "n": 370,
+      "latin": "sicut inhaerebat, “pugnes licet, inprobe” dixit,"
+    },
+    {
+      "n": 371,
+      "latin": "“non tamen effugies. Ita di iubeatis! et istum"
+    },
+    {
+      "n": 372,
+      "latin": "nulla dies a me nec me diducat ab isto.”"
+    }
+  ]
+}

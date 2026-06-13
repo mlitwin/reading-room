@@ -1,0 +1,39 @@
+{
+  "lemma": "populus",
+  "pos": "noun",
+  "glosses": [
+    "people, nation, State",
+    "public/populace/multitude/crowd",
+    "a following",
+    "members of a society/sex",
+    "region/district (L+S)",
+    "army (Bee)"
+  ],
+  "head": "populus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "populus",
+      "gen.sg": "populi",
+      "dat.sg": "populo",
+      "abl.sg": "populo",
+      "acc.sg": "populum",
+      "nom.pl": "populi",
+      "gen.pl": "populorum",
+      "dat.pl": "populis",
+      "abl.pl": "populis",
+      "acc.pl": "populos"
+    }
+  }
+}

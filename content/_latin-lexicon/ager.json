@@ -1,0 +1,38 @@
+{
+  "lemma": "ager",
+  "pos": "noun",
+  "glosses": [
+    "field, ground",
+    "farm, land, estate, park",
+    "territory, country",
+    "terrain",
+    "soil"
+  ],
+  "head": "ager, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ager",
+      "gen.sg": "agri",
+      "dat.sg": "agro",
+      "abl.sg": "agro",
+      "acc.sg": "agrum",
+      "nom.pl": "agri",
+      "gen.pl": "agrorum",
+      "dat.pl": "agris",
+      "abl.pl": "agris",
+      "acc.pl": "agros"
+    }
+  }
+}

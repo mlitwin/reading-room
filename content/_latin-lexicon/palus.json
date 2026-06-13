@@ -1,0 +1,38 @@
+{
+  "lemma": "palus",
+  "pos": "noun",
+  "glosses": [
+    "stake/pile/pole/unsplit wood",
+    "peg/pin",
+    "execution stake",
+    "wood sword",
+    "fence (pl.)"
+  ],
+  "head": "palus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "palus",
+      "gen.sg": "pali",
+      "dat.sg": "palo",
+      "abl.sg": "palo",
+      "acc.sg": "palum",
+      "nom.pl": "pali",
+      "gen.pl": "palorum",
+      "dat.pl": "palis",
+      "abl.pl": "palis",
+      "acc.pl": "palos"
+    }
+  }
+}

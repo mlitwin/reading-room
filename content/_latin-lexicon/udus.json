@@ -1,0 +1,52 @@
+{
+  "lemma": "udus",
+  "pos": "adj",
+  "glosses": [
+    "wet"
+  ],
+  "head": "udus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "udus",
+      "gen.sg.masc": "udi",
+      "dat.sg.masc": "udo",
+      "gen.sg.fem": "udae",
+      "dat.sg.fem": "udae",
+      "nom.sg.neut": "udum",
+      "gen.sg.neut": "udi",
+      "dat.sg.neut": "udo",
+      "acc.sg.neut": "udum",
+      "acc.sg.masc": "udum",
+      "abl.sg.masc": "udo",
+      "nom.pl.masc": "udi",
+      "gen.pl.masc": "udorum",
+      "acc.pl.masc": "udos",
+      "nom.sg.fem": "uda",
+      "acc.sg.fem": "udam",
+      "abl.sg.fem": "uda",
+      "nom.pl.fem": "udae",
+      "gen.pl.fem": "udarum",
+      "acc.pl.fem": "udas",
+      "abl.sg.neut": "udo",
+      "nom.pl.neut": "uda",
+      "gen.pl.neut": "udorum",
+      "acc.pl.neut": "uda"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "lemma": "crinis",
+  "pos": "noun",
+  "glosses": [
+    "hair",
+    "lock of hair, tress, plait",
+    "plume (helmet)",
+    "tail of a comet"
+  ],
+  "head": "crinis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "crini",
+      "acc.sg": "crinem",
+      "nom.pl": "crinis",
+      "gen.pl": "crinium",
+      "acc.pl": "crinis",
+      "nom.sg": "crinis",
+      "gen.sg": "crinis",
+      "dat.sg": "crini",
+      "dat.pl": "crinibus",
+      "abl.pl": "crinibus"
+    }
+  }
+}

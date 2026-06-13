@@ -1,0 +1,42 @@
+{
+  "lemma": "pario",
+  "pos": "verb",
+  "glosses": [
+    "acquire (accounts)",
+    "settle a debt",
+    "settle up"
+  ],
+  "head": "pario, pariare, pariavi, pariatum",
+  "principal_parts": [
+    "pario",
+    "pariare",
+    "pariavi",
+    "pariatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "pario",
+      "2sg.pres.ind.act": "parias",
+      "3sg.pres.ind.act": "pariat",
+      "1pl.pres.ind.act": "pariamus",
+      "2pl.pres.ind.act": "pariatis",
+      "3pl.pres.ind.act": "pariant",
+      "2sg.pres.imp.act": "paria",
+      "2pl.pres.imp.act": "pariate"
+    }
+  }
+}

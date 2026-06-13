@@ -1,0 +1,428 @@
+{
+  "book": 12,
+  "card": 4,
+  "lines": [
+    210,
+    315
+  ],
+  "title_latin": "Centaurorum et Lapitharum pugna.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 210,
+      "latin": "Duxerat Hippodamen audaci Ixione natus,"
+    },
+    {
+      "n": 211,
+      "latin": "nubigenasque feros positis ex ordine mensis"
+    },
+    {
+      "n": 212,
+      "latin": "arboribus tecto discumbere iusserat antro."
+    },
+    {
+      "n": 213,
+      "latin": "Haemonii proceres aderant, aderamus et ipsi,"
+    },
+    {
+      "n": 214,
+      "latin": "festaque confusa resonabat regia turba."
+    },
+    {
+      "n": 215,
+      "latin": "Ecce canunt Hymenaeon, et ignibus atria fumant,"
+    },
+    {
+      "n": 216,
+      "latin": "cinctaque adest virgo matrum nuruumque caterva;"
+    },
+    {
+      "n": 217,
+      "latin": "praesignis facie. Felicem diximus illa"
+    },
+    {
+      "n": 218,
+      "latin": "coniuge Pirithoum: quod paene fefellimus omen."
+    },
+    {
+      "n": 219,
+      "latin": "Nam tibi, saevorum saevissime Centaurorum,"
+    },
+    {
+      "n": 220,
+      "latin": "Euryte, quam vino pectus, tam virgine visa"
+    },
+    {
+      "n": 221,
+      "latin": "ardet, et ebrietas geminata libidine regnat."
+    },
+    {
+      "n": 222,
+      "latin": "Protinus eversae turbant convivia mensae,"
+    },
+    {
+      "n": 223,
+      "latin": "raptaturque comis per vim nova nupta prehensis."
+    },
+    {
+      "n": 224,
+      "latin": "Eurytus Hippodamen, alii, quam quisque probabant,"
+    },
+    {
+      "n": 225,
+      "latin": "aut poterant, rapiunt, captaeque erat urbis imago."
+    },
+    {
+      "n": 226,
+      "latin": "Femineo clamore sonat domus: ocius omnes"
+    },
+    {
+      "n": 227,
+      "latin": "surgimus, et primus “quae te vecordia,” Theseus"
+    },
+    {
+      "n": 228,
+      "latin": "“Euryte, pulsat” ait, “qui me vivente lacessas"
+    },
+    {
+      "n": 229,
+      "latin": "Pirithoum violesque duos ignarus in uno?”"
+    },
+    {
+      "n": 232,
+      "latin": "Ille nihil contra (neque enim defendere verbis"
+    },
+    {
+      "n": 233,
+      "latin": "talia facta potest), sed vindicis ora protervis"
+    },
+    {
+      "n": 234,
+      "latin": "insequitur manibus generosaque pectora pulsat."
+    },
+    {
+      "n": 235,
+      "latin": "Forte fuit iuxta signis exstantibus asper"
+    },
+    {
+      "n": 236,
+      "latin": "antiquus crater; quem vastum vastior ipso"
+    },
+    {
+      "n": 237,
+      "latin": "sustulit Aegides adversaque misit in ora."
+    },
+    {
+      "n": 238,
+      "latin": "Sanguinis ille globos pariter cerebrumque merumque"
+    },
+    {
+      "n": 239,
+      "latin": "vulnere et ore vomens madida resupinus harena"
+    },
+    {
+      "n": 240,
+      "latin": "calcitrat. Ardescunt germani caede bimembres"
+    },
+    {
+      "n": 241,
+      "latin": "certatimque omnes uno ore “arma, arma” loquuntur."
+    },
+    {
+      "n": 242,
+      "latin": "Vina dabant animos, et prima pocula pugna"
+    },
+    {
+      "n": 243,
+      "latin": "missa volant fragilesque cadi curvique lebetes,"
+    },
+    {
+      "n": 244,
+      "latin": "res epulis quondam, tum bello et caedibus aptae."
+    },
+    {
+      "n": 245,
+      "latin": "Primus Ophionides Amycus penetralia donis"
+    },
+    {
+      "n": 246,
+      "latin": "haud timuit spoliare suis et primus ab aede"
+    },
+    {
+      "n": 247,
+      "latin": "lampadibus densum rapuit funale coruscis,"
+    },
+    {
+      "n": 248,
+      "latin": "elatumque alte, veluti qui candida tauri"
+    },
+    {
+      "n": 249,
+      "latin": "rumpere sacrifica molitur colla securi,"
+    },
+    {
+      "n": 250,
+      "latin": "inlisit fronti Lapithae Celadontis et ossa"
+    },
+    {
+      "n": 251,
+      "latin": "non cognoscendo confusa relinquit in ore."
+    },
+    {
+      "n": 252,
+      "latin": "Exsiluere oculi, disiectisque ossibus oris"
+    },
+    {
+      "n": 253,
+      "latin": "acta retro naris medioque est fixa palato."
+    },
+    {
+      "n": 254,
+      "latin": "Hunc pede convulso mensae Pellaeus acernae"
+    },
+    {
+      "n": 255,
+      "latin": "stravit humi Pelates deiecto in pectora mento,"
+    },
+    {
+      "n": 256,
+      "latin": "cumque atro mixtos sputantem sanguine dentes"
+    },
+    {
+      "n": 257,
+      "latin": "vulnere Tartareas geminato mittit ad umbras."
+    },
+    {
+      "n": 258,
+      "latin": "Proximus ut steterat, spectans altaria vultu"
+    },
+    {
+      "n": 259,
+      "latin": "fumida terribili “cur non” ait “utimur istis?”"
+    },
+    {
+      "n": 260,
+      "latin": "cumque suis Gryneus inmanem sustulit aram"
+    },
+    {
+      "n": 261,
+      "latin": "ignibus et medium Lapitharum iecit in agmen"
+    },
+    {
+      "n": 262,
+      "latin": "depressitque duos, Brotean et Orion: Orio"
+    },
+    {
+      "n": 263,
+      "latin": "mater erat Mycale, quam deduxisse canendo"
+    },
+    {
+      "n": 264,
+      "latin": "saepe reluctantis constabat cornua lunae."
+    },
+    {
+      "n": 265,
+      "latin": "“Non inpune feres, teli modo copia detur!”"
+    },
+    {
+      "n": 266,
+      "latin": "dixerat Exadius telique habet instar, in alta"
+    },
+    {
+      "n": 267,
+      "latin": "quae fuerant pinu votivi cornua cervi."
+    },
+    {
+      "n": 268,
+      "latin": "Figitur hinc duplici Gryneus in lumina ramo"
+    },
+    {
+      "n": 269,
+      "latin": "eruiturque oculos, quorum pars cornibus haeret,"
+    },
+    {
+      "n": 270,
+      "latin": "pars fluit in barbam concretaque sanguine pendet."
+    },
+    {
+      "n": 271,
+      "latin": "Ecce rapit mediis flagrantem Rhoetus ab aris"
+    },
+    {
+      "n": 272,
+      "latin": "pruniceum torrem dextraque a parte Charaxi"
+    },
+    {
+      "n": 273,
+      "latin": "tempora perstringit fulvo protecta capillo."
+    },
+    {
+      "n": 274,
+      "latin": "Correpti rapida, veluti seges arida, flamma"
+    },
+    {
+      "n": 275,
+      "latin": "arserunt crines, et vulnere sanguis inustus"
+    },
+    {
+      "n": 276,
+      "latin": "terribilem stridore sonum dedit, ut dare ferrum"
+    },
+    {
+      "n": 277,
+      "latin": "igne rubens plerumque solet, quod forcipe curva"
+    },
+    {
+      "n": 278,
+      "latin": "cum faber eduxit, lacubus demittit: at illud"
+    },
+    {
+      "n": 279,
+      "latin": "stridet et in tepida submersum sibilat unda."
+    },
+    {
+      "n": 280,
+      "latin": "Saucius hirsutis avidum de crinibus ignem"
+    },
+    {
+      "n": 281,
+      "latin": "excutit inque umeros limen tellure revulsum"
+    },
+    {
+      "n": 282,
+      "latin": "tollit, onus plaustri, quod ne permittat in hostem,"
+    },
+    {
+      "n": 283,
+      "latin": "ipsa facit gravitas: socium quoque saxea moles"
+    },
+    {
+      "n": 284,
+      "latin": "oppressit spatio stantem propiore Cometen."
+    },
+    {
+      "n": 285,
+      "latin": "Gaudia nec retinet Rhoetus: “Sic, conprecor,” inquit"
+    },
+    {
+      "n": 286,
+      "latin": "“cetera sit fortis castrorum turba tuorum!”"
+    },
+    {
+      "n": 287,
+      "latin": "semicremoque novat repetitum stipite vulnus,"
+    },
+    {
+      "n": 288,
+      "latin": "terque quaterque gravi iuncturas verticis ictu"
+    },
+    {
+      "n": 289,
+      "latin": "rupit, et in liquido sederunt ossa cerebro."
+    },
+    {
+      "n": 290,
+      "latin": "Victor ad Euagrum Corythumque Dryantaque transit;"
+    },
+    {
+      "n": 291,
+      "latin": "e quibus ut prima tectus lanugine malas"
+    },
+    {
+      "n": 292,
+      "latin": "procubuit Corythus, “puero quae gloria fuso"
+    },
+    {
+      "n": 293,
+      "latin": "parta tibi est?” Euagrus ait, nec dicere Rhoetus"
+    },
+    {
+      "n": 294,
+      "latin": "plura sinit rutilasque ferox in aperta loquentis"
+    },
+    {
+      "n": 295,
+      "latin": "condidit ora viri perque os in pectora flammas."
+    },
+    {
+      "n": 296,
+      "latin": "Te quoque, saeve Drya, circum caput igne rotato"
+    },
+    {
+      "n": 297,
+      "latin": "insequitur; sed non in te quoque constitit idem"
+    },
+    {
+      "n": 298,
+      "latin": "exitus: adsiduae successu caedis ovantem,"
+    },
+    {
+      "n": 299,
+      "latin": "qua iuncta est umero cervix, sude figis obusta."
+    },
+    {
+      "n": 300,
+      "latin": "Ingemuit duroque sudem vix osse revellit"
+    },
+    {
+      "n": 301,
+      "latin": "Rhoetus et ipse suo madefactus sanguine fugit."
+    },
+    {
+      "n": 302,
+      "latin": "Fugit et Orneus Lycabasque et saucius armo"
+    },
+    {
+      "n": 303,
+      "latin": "dexteriore Medon et cum Pisenore Thaumas,"
+    },
+    {
+      "n": 304,
+      "latin": "quique pedum nuper certamine vicerat omnes"
+    },
+    {
+      "n": 305,
+      "latin": "Mermeros (accepto tum vulnere tardius ibat!),"
+    },
+    {
+      "n": 306,
+      "latin": "et Pholus et Melaneus et Abas praedator aprorum,"
+    },
+    {
+      "n": 307,
+      "latin": "quique suis frustra bellum dissuaserat augur,"
+    },
+    {
+      "n": 308,
+      "latin": "Astylos: ille etiam metuenti vulnera Nesso"
+    },
+    {
+      "n": 309,
+      "latin": "“ne fuge! ad Herculeos” inquit “servaberis arcus.”"
+    },
+    {
+      "n": 310,
+      "latin": "At non Eurynomus Lycidasque et Areos et Imbreus"
+    },
+    {
+      "n": 311,
+      "latin": "effugere necem: quos omnes dextra Dryantis"
+    },
+    {
+      "n": 312,
+      "latin": "perculit adversos. Adversum tu quoque, quamvis"
+    },
+    {
+      "n": 313,
+      "latin": "terga fugae dederas, vulnus, Crenaee, tulisti;"
+    },
+    {
+      "n": 314,
+      "latin": "nam grave respiciens inter duo lumina ferrum,"
+    },
+    {
+      "n": 315,
+      "latin": "qua naris fronti committitur, accipis, imae."
+    }
+  ]
+}

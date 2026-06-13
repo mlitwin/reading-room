@@ -1,0 +1,340 @@
+{
+  "book": 11,
+  "card": 1,
+  "lines": [
+    1,
+    84
+  ],
+  "title_latin": "Orphei mors.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 1,
+      "latin": "Carmine dum tali silvas animosque ferarum"
+    },
+    {
+      "n": 2,
+      "latin": "Threicius vates et saxa sequentia ducit,"
+    },
+    {
+      "n": 3,
+      "latin": "ecce nurus Ciconum, tectae lymphata ferinis"
+    },
+    {
+      "n": 4,
+      "latin": "pectora velleribus, tumuli de vertice cernunt"
+    },
+    {
+      "n": 5,
+      "latin": "Orphea percussis sociantem carmina nervis."
+    },
+    {
+      "n": 6,
+      "latin": "E quibus una, leves iactato crine per auras,"
+    },
+    {
+      "n": 7,
+      "latin": "“en,” ait “en hic est nostri contemptor!” et hastam"
+    },
+    {
+      "n": 8,
+      "latin": "vatis Apollinei vocalia misit in ora,"
+    },
+    {
+      "n": 9,
+      "latin": "quae foliis praesuta notam sine vulnere fecit;"
+    },
+    {
+      "n": 10,
+      "latin": "alterius telum lapis est, qui missus in ipso"
+    },
+    {
+      "n": 11,
+      "latin": "aere concentu victus vocisque lyraeque est"
+    },
+    {
+      "n": 12,
+      "latin": "ac veluti supplex pro tam furialibus ausis"
+    },
+    {
+      "n": 13,
+      "latin": "ante pedes iacuit. Sed enim temeraria crescunt"
+    },
+    {
+      "n": 14,
+      "latin": "bella modusque abiit, insanaque regnat Erinys."
+    },
+    {
+      "n": 15,
+      "latin": "Cunctaque tela forent cantu mollita, sed ingens"
+    },
+    {
+      "n": 16,
+      "latin": "clamor et infracto Berecyntia tibia cornu"
+    },
+    {
+      "n": 17,
+      "latin": "tympanaque et plausus et Bacchei ululatus"
+    },
+    {
+      "n": 18,
+      "latin": "obstrepuere sono citharae: tum denique saxa"
+    },
+    {
+      "n": 19,
+      "latin": "non exauditi rubuerunt sanguine vatis."
+    },
+    {
+      "n": 20,
+      "latin": "Ac primum attonitas etiamnum voce canentis"
+    },
+    {
+      "n": 21,
+      "latin": "innumeras volucres anguesque agmenque ferarum"
+    },
+    {
+      "n": 22,
+      "latin": "Maenades, Orphei titulum, rapuere, theatri."
+    },
+    {
+      "n": 23,
+      "latin": "Inde cruentatis vertuntur in Orphea dextris"
+    },
+    {
+      "n": 24,
+      "latin": "et coeunt ut aves, si quando luce vagantem"
+    },
+    {
+      "n": 25,
+      "latin": "noctis avem cernunt. Structoque utrimque theatro"
+    },
+    {
+      "n": 26,
+      "latin": "ceu matutina cervus periturus harena"
+    },
+    {
+      "n": 27,
+      "latin": "praeda canum est, vatemque petunt et fronde virentes"
+    },
+    {
+      "n": 28,
+      "latin": "coniciunt thyrsos non haec in munera factos."
+    },
+    {
+      "n": 29,
+      "latin": "Hae glaebas, illae direptos arbore ramos,"
+    },
+    {
+      "n": 30,
+      "latin": "pars torquent silices. Neu desint tela furori,"
+    },
+    {
+      "n": 31,
+      "latin": "forte boves presso subigebant vomere terram,"
+    },
+    {
+      "n": 32,
+      "latin": "nec procul hinc multo fructum sudore parantes"
+    },
+    {
+      "n": 33,
+      "latin": "dura lacertosi fodiebant arva coloni."
+    },
+    {
+      "n": 34,
+      "latin": "Agmine qui viso fugiunt operisque relinquunt"
+    },
+    {
+      "n": 35,
+      "latin": "arma sui, vacuosque iacent dispersa per agros"
+    },
+    {
+      "n": 36,
+      "latin": "sarculaque rastrique graves longique ligones."
+    },
+    {
+      "n": 37,
+      "latin": "Quae postquam rapuere ferae cornuque minaci"
+    },
+    {
+      "n": 38,
+      "latin": "divulsere boves, ad vatis fata recurrunt"
+    },
+    {
+      "n": 39,
+      "latin": "Tendentemque manus et in illo tempore primum"
+    },
+    {
+      "n": 40,
+      "latin": "inrita dicentem nec quicquam voce moventem"
+    },
+    {
+      "n": 41,
+      "latin": "sacrilegae perimunt. Perque os, pro Iuppiter! illud"
+    },
+    {
+      "n": 42,
+      "latin": "auditum saxis intellectumque ferarum"
+    },
+    {
+      "n": 43,
+      "latin": "sensibus in ventos anima exhalata recessit."
+    },
+    {
+      "n": 44,
+      "latin": "Te maestae volucres, Orpheu, te turba ferarum,"
+    },
+    {
+      "n": 45,
+      "latin": "te rigidi silices, tua carmina saepe secutae"
+    },
+    {
+      "n": 46,
+      "latin": "fleverunt silvae, positis te frondibus arbor"
+    },
+    {
+      "n": 47,
+      "latin": "tonsa comas luxit. Lacrimis quoque flumina dicunt"
+    },
+    {
+      "n": 48,
+      "latin": "increvisse suis, obstrusaque carbasa pullo"
+    },
+    {
+      "n": 49,
+      "latin": "naides et dryades passosque habuere capillos."
+    },
+    {
+      "n": 50,
+      "latin": "Membra iacent diversa locis. Caput, Hebre, lyramque"
+    },
+    {
+      "n": 51,
+      "latin": "excipis, et (mirum!) medio dum labitur amne,"
+    },
+    {
+      "n": 52,
+      "latin": "flebile nescio quid queritur lyra, flebile lingua"
+    },
+    {
+      "n": 53,
+      "latin": "murmurat exanimis, respondent flebile ripae."
+    },
+    {
+      "n": 54,
+      "latin": "Iamque mare invectae flumen populare relinquunt"
+    },
+    {
+      "n": 55,
+      "latin": "et Methymnaeae potiuntur litore Lesbi."
+    },
+    {
+      "n": 56,
+      "latin": "Hic ferus expositum peregrinis anguis harenis"
+    },
+    {
+      "n": 57,
+      "latin": "os petit et sparsos stillanti rore capillos."
+    },
+    {
+      "n": 58,
+      "latin": "Tandem Phoebus adest morsusque inferre parantem"
+    },
+    {
+      "n": 59,
+      "latin": "arcet et in lapidem rictus serpentis apertos"
+    },
+    {
+      "n": 60,
+      "latin": "congelat et patulos, ut erant, indurat hiatus."
+    },
+    {
+      "n": 61,
+      "latin": "Umbra subit terras et quae loca viderat ante,"
+    },
+    {
+      "n": 62,
+      "latin": "cuncta recognoscit quaerensque per arva piorum"
+    },
+    {
+      "n": 63,
+      "latin": "invenit Eurydicen cupidisque amplectitur ulnis."
+    },
+    {
+      "n": 64,
+      "latin": "Hic modo coniunctis spatiantur passibus ambo,"
+    },
+    {
+      "n": 65,
+      "latin": "nunc praecedentem sequitur, nunc praevius anteit"
+    },
+    {
+      "n": 66,
+      "latin": "Eurydicenque suam iam tutus respicit Orpheus."
+    },
+    {
+      "n": 67,
+      "latin": "Non impune tamen scelus hoc sinit esse Lyaeus,"
+    },
+    {
+      "n": 68,
+      "latin": "amissoque dolens sacrorum vate suorum"
+    },
+    {
+      "n": 69,
+      "latin": "protinus in silvis matres Edonidas omnes,"
+    },
+    {
+      "n": 70,
+      "latin": "quae videre nefas, torta radice ligavit."
+    },
+    {
+      "n": 73,
+      "latin": "utque suum laqueis, quos callidus abdidit auceps,"
+    },
+    {
+      "n": 74,
+      "latin": "crus ubi commisit volucris sensitque teneri,"
+    },
+    {
+      "n": 75,
+      "latin": "plangitur ac trepidans adstringit vincula motu:"
+    },
+    {
+      "n": 76,
+      "latin": "sic, ut quaeque solo defixa cohaeserat harum,"
+    },
+    {
+      "n": 77,
+      "latin": "exsternata fugam frustra temptabat; at illam"
+    },
+    {
+      "n": 78,
+      "latin": "lenta tenet radix exsultantemque coercet,"
+    },
+    {
+      "n": 79,
+      "latin": "dumque ubi sint digiti, dum pes ubi, quaerit, et ungues,"
+    },
+    {
+      "n": 80,
+      "latin": "adspicit in teretes lignum succedere suras,"
+    },
+    {
+      "n": 81,
+      "latin": "et conata femur maerenti plangere dextra,"
+    },
+    {
+      "n": 82,
+      "latin": "robora percussit: pectus quoque robora fiunt,"
+    },
+    {
+      "n": 83,
+      "latin": "robora sunt umeri, porrectaque bracchia veros"
+    },
+    {
+      "n": 84,
+      "latin": "esse putes ramos, et non fallere putando."
+    }
+  ]
+}

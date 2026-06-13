@@ -1,0 +1,44 @@
+{
+  "lemma": "calo",
+  "pos": "verb",
+  "glosses": [
+    "announce, proclaim",
+    "summon, convoke, call forth/together",
+    "let down, allow to hang free",
+    "loosen",
+    "slacken"
+  ],
+  "head": "calo, calare, calavi, calatum",
+  "principal_parts": [
+    "calo",
+    "calare",
+    "calavi",
+    "calatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "calo",
+      "2sg.pres.ind.act": "calas",
+      "3sg.pres.ind.act": "calat",
+      "1pl.pres.ind.act": "calamus",
+      "2pl.pres.ind.act": "calatis",
+      "3pl.pres.ind.act": "calant",
+      "2sg.pres.imp.act": "cala",
+      "2pl.pres.imp.act": "calate"
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "book": 13,
+  "card": 6,
+  "lines": [
+    494,
+    575
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 494,
+      "latin": "“Nata, tuae (quid enim superest?) dolor ultime matris,"
+    },
+    {
+      "n": 495,
+      "latin": "nata, iaces, videoque tuum, mea vulnera, pectus,"
+    },
+    {
+      "n": 496,
+      "latin": "et ne perdiderim quemquam sine caede meorum,"
+    },
+    {
+      "n": 497,
+      "latin": "tu quoque vulnus habes! At te, quia femina, rebar"
+    },
+    {
+      "n": 498,
+      "latin": "a ferro tutam: cecidisti et femina ferro,"
+    },
+    {
+      "n": 499,
+      "latin": "totque tuos idem fratres, te perdidit idem,"
+    },
+    {
+      "n": 500,
+      "latin": "exitium Troiae nostrique orbator, Achilles."
+    },
+    {
+      "n": 501,
+      "latin": "At postquam cecidit Paridis Phoebique sagittis,"
+    },
+    {
+      "n": 502,
+      "latin": "“nunc certe,” dixi, “non est metuendus Achilles!rsquo;"
+    },
+    {
+      "n": 503,
+      "latin": "Nunc quoque mi metuendus erat: cinis ipse sepulti"
+    },
+    {
+      "n": 504,
+      "latin": "in genus hoc saevit, tumulo quoque sensimus hostem."
+    },
+    {
+      "n": 505,
+      "latin": "Aeacidae fecunda fui! Iacet Ilion ingens,"
+    },
+    {
+      "n": 506,
+      "latin": "eventuque gravi finita est publica clades, —"
+    },
+    {
+      "n": 507,
+      "latin": "sed finita tamen; soli mihi Pergama restant,"
+    },
+    {
+      "n": 508,
+      "latin": "in cursuque meus dolor est: modo maxima rerum,"
+    },
+    {
+      "n": 509,
+      "latin": "tot generis natisque potens nuribusque viroque,"
+    },
+    {
+      "n": 510,
+      "latin": "nunc trahor exul, inops, tumulis avulsa meorum,"
+    },
+    {
+      "n": 511,
+      "latin": "Penelopae munus; quae me data pensa trahentem"
+    },
+    {
+      "n": 512,
+      "latin": "matribus ostendens Ithacis “haec Hectoris illa est"
+    },
+    {
+      "n": 513,
+      "latin": "clara parens, haec est” dicet “Priameia coniunx!”"
+    },
+    {
+      "n": 514,
+      "latin": "Postque tot amissos tu nunc, quae sola levabas"
+    },
+    {
+      "n": 515,
+      "latin": "maternos luctus, hostilia busta piasti!"
+    },
+    {
+      "n": 516,
+      "latin": "Inferias hosti peperi! Quo ferrea resto?"
+    },
+    {
+      "n": 517,
+      "latin": "Quidve moror? Quo me servas, annosa senectus?"
+    },
+    {
+      "n": 518,
+      "latin": "Quo, di crudeles, nisi uti nova funera cernam,"
+    },
+    {
+      "n": 519,
+      "latin": "vivacem differtis anum? Quis posse putaret"
+    },
+    {
+      "n": 520,
+      "latin": "felicem Priamum post diruta Pergama dici?"
+    },
+    {
+      "n": 521,
+      "latin": "Felix morte sua est, nec te, mea nata, peremptam"
+    },
+    {
+      "n": 522,
+      "latin": "adspicit et vitam pariter regnumque reliquit."
+    },
+    {
+      "n": 523,
+      "latin": "At, puto, funeribus dotabere, regia virgo,"
+    },
+    {
+      "n": 524,
+      "latin": "condeturque tuum monumentis corpus avitis."
+    },
+    {
+      "n": 525,
+      "latin": "Non haec est fortuna domus: tibi munera matris"
+    },
+    {
+      "n": 526,
+      "latin": "contingent fletus peregrinaeque haustus harenae!"
+    },
+    {
+      "n": 527,
+      "latin": "Omnia perdidimus: superest, cur vivere tempus"
+    },
+    {
+      "n": 528,
+      "latin": "in breve sustineam, proles gratissima matri,"
+    },
+    {
+      "n": 529,
+      "latin": "nunc solus, quondam minimus de stirpe virili,"
+    },
+    {
+      "n": 530,
+      "latin": "has datus Ismario regi Polydorus in oras."
+    },
+    {
+      "n": 531,
+      "latin": "Quid moror interea crudelia vulnera lymphis"
+    },
+    {
+      "n": 532,
+      "latin": "abluere et sparsos inmiti sanguine vultus?”"
+    },
+    {
+      "n": 533,
+      "latin": "Dixit et ad litus passu processit anili,"
+    },
+    {
+      "n": 534,
+      "latin": "albentes lacerata comas. “Date, Troades, urnam”"
+    },
+    {
+      "n": 535,
+      "latin": "dixerat infelix, liquidas hauriret ut undas:"
+    },
+    {
+      "n": 536,
+      "latin": "adspicit eiectum Polydori in litore corpus"
+    },
+    {
+      "n": 537,
+      "latin": "factaque Threiciis ingentia vulnera telis!"
+    },
+    {
+      "n": 538,
+      "latin": "Troades exclamant: obmutuit illa dolore,"
+    },
+    {
+      "n": 539,
+      "latin": "et pariter vocem lacrimasque introrsus obortas"
+    },
+    {
+      "n": 540,
+      "latin": "devorat ipse dolor, duroque simillima saxo"
+    },
+    {
+      "n": 541,
+      "latin": "torpet et adversa figit modo lumina terra,"
+    },
+    {
+      "n": 542,
+      "latin": "interdum torvos sustollit ad aethera vultus,"
+    },
+    {
+      "n": 543,
+      "latin": "nunc positi spectat vultum, nunc vulnera nati"
+    },
+    {
+      "n": 544,
+      "latin": "vulnera praecipue, seque armat et instruit iram.”"
+    },
+    {
+      "n": 545,
+      "latin": "Qua simul exarsit, tamquam regina maneret,"
+    },
+    {
+      "n": 546,
+      "latin": "ulcisci statuit poenaeque in imagine tota est,"
+    },
+    {
+      "n": 547,
+      "latin": "utque furit catulo lactente orbata leaena"
+    },
+    {
+      "n": 548,
+      "latin": "signaque nacta pedum sequitur, quem non videt, hostem,"
+    },
+    {
+      "n": 549,
+      "latin": "sic Hecube, postquam cum luctu miscuit iram,"
+    },
+    {
+      "n": 550,
+      "latin": "non oblita animorum, annorum oblita suorum,"
+    },
+    {
+      "n": 551,
+      "latin": "vadit ad artificem dirae, Polymestora, caedis"
+    },
+    {
+      "n": 552,
+      "latin": "conloquiumque petit: nam se monstrare relictum"
+    },
+    {
+      "n": 553,
+      "latin": "velle latens illi, quod nato redderet, aurum."
+    },
+    {
+      "n": 554,
+      "latin": "Credidit Odrysius praedaeque adsuetus amore"
+    },
+    {
+      "n": 555,
+      "latin": "in secreta venit. Tum blando callidus ore"
+    },
+    {
+      "n": 556,
+      "latin": "“tolle moras, Hecube,” dixit, “da munera nato!"
+    },
+    {
+      "n": 557,
+      "latin": "Omne fore illius quod das, quod et ante dedisti,"
+    },
+    {
+      "n": 558,
+      "latin": "per superos iuro.” Spectat truculenta loquentem"
+    },
+    {
+      "n": 559,
+      "latin": "falsaque iurantem tumidaque exaestuat ira"
+    },
+    {
+      "n": 560,
+      "latin": "atque ita correpto captivarum agmina matrum"
+    },
+    {
+      "n": 561,
+      "latin": "invocat et digitos in perfida lumina condit"
+    },
+    {
+      "n": 562,
+      "latin": "expellitque genis oculos (facit ira nocentem)"
+    },
+    {
+      "n": 563,
+      "latin": "immergitque manus, foedataque sanguine sonti"
+    },
+    {
+      "n": 564,
+      "latin": "non lumen (neque enim superest), loca luminis haurit."
+    },
+    {
+      "n": 565,
+      "latin": "Clade sui Thracum gens inritata tyranni"
+    },
+    {
+      "n": 566,
+      "latin": "Troada telorum lapidumque incessere iactu"
+    },
+    {
+      "n": 567,
+      "latin": "coepit. At haec missum rauco cum murmure saxum"
+    },
+    {
+      "n": 568,
+      "latin": "morsibus insequitur, rictuque in verba parato"
+    },
+    {
+      "n": 569,
+      "latin": "latravit, conata loqui: locus exstat et ex re"
+    },
+    {
+      "n": 570,
+      "latin": "nomen habet, veterumque diu memor illa malorum"
+    },
+    {
+      "n": 571,
+      "latin": "tum quoque Sithonios ululavit maesta per agros."
+    },
+    {
+      "n": 572,
+      "latin": "illius Troasque suos hostesque Pelasgos,"
+    },
+    {
+      "n": 573,
+      "latin": "illius fortuna deos quoque moverat omnes,"
+    },
+    {
+      "n": 574,
+      "latin": "sic omnes, ut et ipsa Iovis coniunxque sororque"
+    },
+    {
+      "n": 575,
+      "latin": "eventus Hecubam meruisse negaverit illos."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "lemma": "concipio",
+  "pos": "verb",
+  "glosses": [
+    "take in/up, receive, catch",
+    "derive/draw (from)",
+    "contain/hold",
+    "grasp",
+    "adopt",
+    "wed"
+  ],
+  "head": "concipio, concipere, concepi, conceptum",
+  "principal_parts": [
+    "concipio",
+    "concipere",
+    "concepi",
+    "conceptum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "concipis",
+      "3sg.pres.ind.act": "concipit",
+      "1pl.pres.ind.act": "concipimus",
+      "2pl.pres.ind.act": "concipitis",
+      "2sg.pres.imp.act": "concipe",
+      "2pl.pres.imp.act": "concipite"
+    }
+  }
+}

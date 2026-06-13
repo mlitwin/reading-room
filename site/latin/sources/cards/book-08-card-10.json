@@ -1,0 +1,296 @@
+{
+  "book": 8,
+  "card": 10,
+  "lines": [
+    725,
+    795
+  ],
+  "title_latin": "Erysichthon. Fames.",
+  "title_english": "ERYSICHTHON AND MESTRA",
+  "text": [
+    {
+      "n": 725,
+      "latin": "Desierat cunctosque et res et moverat auctor,"
+    },
+    {
+      "n": 726,
+      "latin": "Thesea praecipue. Quem facta audire volentem"
+    },
+    {
+      "n": 727,
+      "latin": "mira deum, innixus cubito Calydonius amnis"
+    },
+    {
+      "n": 728,
+      "latin": "talibus adloquitur: “Sunt, o fortissime, quorum"
+    },
+    {
+      "n": 729,
+      "latin": "forma semel mota est et in hoc renovamine mansit,"
+    },
+    {
+      "n": 730,
+      "latin": "sunt, quibus in plures ius est transire figuras,"
+    },
+    {
+      "n": 731,
+      "latin": "ut tibi, complexi terram maris incola, Proteu."
+    },
+    {
+      "n": 732,
+      "latin": "Nam modo te iuvenem, modo te videre leonem;"
+    },
+    {
+      "n": 733,
+      "latin": "nunc violentus aper, nunc, quem tetigisse timerent,"
+    },
+    {
+      "n": 734,
+      "latin": "anguis eras, modo te faciebant cornua taurum."
+    },
+    {
+      "n": 735,
+      "latin": "Saepe lapis poteras, arbor quoque saepe videri;"
+    },
+    {
+      "n": 736,
+      "latin": "interdum, faciem liquidarum imitatus aquarum,"
+    },
+    {
+      "n": 737,
+      "latin": "flumen eras, interdum undis contrarius ignis."
+    },
+    {
+      "n": 738,
+      "latin": "Nec minus Autolyci coniunx, Erysichthone nata,"
+    },
+    {
+      "n": 739,
+      "latin": "iuris habet. Pater huius erat, qui numina divum"
+    },
+    {
+      "n": 740,
+      "latin": "sperneret et nullos aris adoleret odores."
+    },
+    {
+      "n": 741,
+      "latin": "Ille etiam Cereale nemus violasse securi"
+    },
+    {
+      "n": 742,
+      "latin": "dicitur et lucos ferro temerasse vetustos."
+    },
+    {
+      "n": 743,
+      "latin": "Stabat in his ingens annoso robore quercus,"
+    },
+    {
+      "n": 744,
+      "latin": "una nemus; vittae mediam memoresque tabellae"
+    },
+    {
+      "n": 745,
+      "latin": "sertaque cingebant, voti argumenta potentis."
+    },
+    {
+      "n": 746,
+      "latin": "Saepe sub hac dryades festas duxere choreas,"
+    },
+    {
+      "n": 747,
+      "latin": "saepe etiam manibus nexis ex ordine trunci"
+    },
+    {
+      "n": 748,
+      "latin": "circuiere modum, mensuraque roboris ulnas"
+    },
+    {
+      "n": 749,
+      "latin": "quinque ter implebat. Nec non et cetera tantum"
+    },
+    {
+      "n": 750,
+      "latin": "silva sub hac, silva quantum fuit herba sub omni."
+    },
+    {
+      "n": 751,
+      "latin": "Non tamen idcirco ferrum Triopeius illa"
+    },
+    {
+      "n": 752,
+      "latin": "abstinuit famulosque iubet succidere sacrum"
+    },
+    {
+      "n": 753,
+      "latin": "robur; et ut iussos cunctari vidit, ab uno"
+    },
+    {
+      "n": 754,
+      "latin": "edidit haec rapta sceleratus verba securi:"
+    },
+    {
+      "n": 755,
+      "latin": "“Non dilecta deae solum, sed et ipsa licebit"
+    },
+    {
+      "n": 756,
+      "latin": "sit dea, iam tanget frondente cacumine terram.”"
+    },
+    {
+      "n": 757,
+      "latin": "Dixit, et obliquos dum telum librat in ictus,"
+    },
+    {
+      "n": 758,
+      "latin": "contremuit gemitumque dedit Deoia quercus:"
+    },
+    {
+      "n": 759,
+      "latin": "et pariter frondes, pariter pallescere glandes"
+    },
+    {
+      "n": 760,
+      "latin": "coepere ac longi pallorem ducere rami."
+    },
+    {
+      "n": 761,
+      "latin": "Cuius ut in trunco fecit manus impia vulnus,"
+    },
+    {
+      "n": 762,
+      "latin": "haud aliter fluxit discusso cortice sanguis,"
+    },
+    {
+      "n": 763,
+      "latin": "quam solet, ante aras ingens ubi victima taurus"
+    },
+    {
+      "n": 764,
+      "latin": "concidit, abrupta cruor e cervice profundi."
+    },
+    {
+      "n": 765,
+      "latin": "Obstipuere omnes, aliquisque ex omnibus audet"
+    },
+    {
+      "n": 766,
+      "latin": "deterrere nefas saevamque inhibere bipennem."
+    },
+    {
+      "n": 767,
+      "latin": "Adspicit hunc “mentis” que “piae cape praemia!” dixit"
+    },
+    {
+      "n": 768,
+      "latin": "Thessalus, inque virum convertit ab arbore ferrum"
+    },
+    {
+      "n": 769,
+      "latin": "detruncatque caput repetitaque robora caedit,"
+    },
+    {
+      "n": 770,
+      "latin": "redditus et medio sonus est de robore talis:"
+    },
+    {
+      "n": 771,
+      "latin": "“Nympha sub hoc ego sum Cereri gratissima ligno,"
+    },
+    {
+      "n": 772,
+      "latin": "quae tibi factorum poenas instare tuorum"
+    },
+    {
+      "n": 773,
+      "latin": "vaticinor moriens, nostri solacia leti.”"
+    },
+    {
+      "n": 774,
+      "latin": "Persequitur scelus ille suum, labefactaque tandem"
+    },
+    {
+      "n": 775,
+      "latin": "ictibus innumeris adductaque funibus arbor"
+    },
+    {
+      "n": 776,
+      "latin": "corruit et multam prostravit pondere silvam."
+    },
+    {
+      "n": 777,
+      "latin": "Attonitae dryades damno nemorumque suoque,"
+    },
+    {
+      "n": 778,
+      "latin": "omnes germanae, Cererem cum vestibus atris"
+    },
+    {
+      "n": 779,
+      "latin": "maerentes adeunt poenamque Erysichthonis orant."
+    },
+    {
+      "n": 780,
+      "latin": "Adnuit his capitisque sui pulcherrima motu"
+    },
+    {
+      "n": 781,
+      "latin": "concussit gravidis oneratos messibus agros."
+    },
+    {
+      "n": 782,
+      "latin": "Moliturque genus poenae miserabile, si non"
+    },
+    {
+      "n": 783,
+      "latin": "ille suis esset nulli miserabilis actis,"
+    },
+    {
+      "n": 784,
+      "latin": "pestifera lacerare Fame. Quae quatenus ipsi"
+    },
+    {
+      "n": 785,
+      "latin": "non adeunda deae est (neque enim Cereremque Famemque"
+    },
+    {
+      "n": 786,
+      "latin": "fata coire sinunt), montani numinis unam"
+    },
+    {
+      "n": 787,
+      "latin": "talibus agrestem compellat oreada dictis:"
+    },
+    {
+      "n": 788,
+      "latin": "“Est locus extremis Scythiae glacialis in oris,"
+    },
+    {
+      "n": 789,
+      "latin": "triste solum, sterilis, sine fruge, sine arbore tellus;"
+    },
+    {
+      "n": 790,
+      "latin": "Frigus iners illic habitant Pallorque Tremorque"
+    },
+    {
+      "n": 791,
+      "latin": "et ieiuna Fames. Ea se in praecordia condat"
+    },
+    {
+      "n": 792,
+      "latin": "sacrilegi scelerata iube; nec copia rerum"
+    },
+    {
+      "n": 793,
+      "latin": "vincat eam, superetque meas certamine vires."
+    },
+    {
+      "n": 794,
+      "latin": "Neve viae spatium te terreat, accipe currus,"
+    },
+    {
+      "n": 795,
+      "latin": "accipe quos frenis alte moderere dracones.”"
+    }
+  ]
+}

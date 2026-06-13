@@ -1,0 +1,36 @@
+{
+  "lemma": "per",
+  "pos": "noun",
+  "glosses": [
+    "satchel",
+    "bag slung over shoulder (for day's provisions)",
+    "(affected by Cynics)"
+  ],
+  "head": "per, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pera",
+      "gen.sg": "perae",
+      "abl.sg": "pera",
+      "acc.sg": "peram",
+      "dat.sg": "perae",
+      "nom.pl": "perae",
+      "gen.pl": "perarum",
+      "dat.pl": "peris",
+      "abl.pl": "peris",
+      "acc.pl": "peras"
+    }
+  }
+}

@@ -8,7 +8,7 @@ summary: Ovid's Metamorphoses Book 1 with a per-word study apparatus. Each Latin
 
 Publius Ovidius Naso wrote the *Metamorphoses* sometime around 8 CE — fifteen books of hexameter that take Greek and Roman myth from the creation of the cosmos down to the apotheosis of Julius Caesar, threading together the stories by the device named in the title: bodies are constantly being transformed into something else. It is the most-quoted, most-imitated, most-adapted single work of Latin literature.
 
-This piece presents Book 1 as a study text. The Latin is the unmodernised text from the [Latin Library](https://www.thelatinlibrary.com/ovid/ovid.met1.shtml), public domain. The English translation is editorial — natural prose that tries to be readable rather than slavish. The grammatical work happens in the popovers: tap any Latin word to get its lemma, principal parts (or declension), a paradigm with the form-in-context highlighted, and a short list of glosses.
+This piece presents Book 1 as a study text. The Latin is the Hugo Magnus 1892 edition as vendored from the [Perseus Digital Library](https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0959/phi006/phi0959.phi006.perseus-lat2.xml) (CC BY-SA 3.0 US, with attribution to the Perseus Project at Tufts University). The English translation is editorial — natural prose that tries to be readable rather than slavish. The grammatical work happens in the popovers: tap any Latin word to get its lemma, principal parts (or declension), a paradigm with the form-in-context highlighted, and a short list of glosses.
 
 ## Contents
 

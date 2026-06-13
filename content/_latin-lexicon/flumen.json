@@ -1,0 +1,38 @@
+{
+  "lemma": "flumen",
+  "pos": "noun",
+  "glosses": [
+    "river, stream",
+    "any flowing fluid",
+    "flood",
+    "onrush",
+    "[adverso ~ => against current]"
+  ],
+  "head": "flumen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "flumine",
+      "acc.sg": "flumen",
+      "nom.pl": "flumina",
+      "gen.pl": "fluminum",
+      "acc.pl": "flumina",
+      "nom.sg": "flumen",
+      "gen.sg": "fluminis",
+      "dat.sg": "flumini",
+      "dat.pl": "fluminibus",
+      "abl.pl": "fluminibus"
+    }
+  }
+}

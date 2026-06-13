@@ -1,0 +1,436 @@
+{
+  "book": 7,
+  "card": 11,
+  "lines": [
+    759,
+    865
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 759,
+      "latin": "Carmina Laiades non intellecta priorum"
+    },
+    {
+      "n": 760,
+      "latin": "solverat ingeniis, et praecipitata iacebat"
+    },
+    {
+      "n": 761,
+      "latin": "inmemor ambagum vates obscura suarum."
+    },
+    {
+      "n": 763,
+      "latin": "Protinus Aoniis inmittitur altera Thebis"
+    },
+    {
+      "n": 764,
+      "latin": "pestis, et exitio multi pecorumque suoque"
+    },
+    {
+      "n": 765,
+      "latin": "rurigenae pavere feram. Vicina iuventus"
+    },
+    {
+      "n": 766,
+      "latin": "venimus et latos indagine cinximus agros."
+    },
+    {
+      "n": 767,
+      "latin": "Illa levi velox superabat retia saltu"
+    },
+    {
+      "n": 768,
+      "latin": "summaque transibat positarum lina plagarum."
+    },
+    {
+      "n": 769,
+      "latin": "Copula detrahitur canibus: quos illa sequentes"
+    },
+    {
+      "n": 770,
+      "latin": "effugit et celeri non segnior alite ludit."
+    },
+    {
+      "n": 771,
+      "latin": "Poscor et ipse meum consensu Laelapa magno"
+    },
+    {
+      "n": 772,
+      "latin": "(muneris hoc nomen). Iamdudum vincula pugnat"
+    },
+    {
+      "n": 773,
+      "latin": "exuere ipse sibi colloque morantia tendit."
+    },
+    {
+      "n": 774,
+      "latin": "Vix bene missus erat, nec iam poteramus, ubi esset,"
+    },
+    {
+      "n": 775,
+      "latin": "scire. Pedum calidus vestigia pulvis habebat,"
+    },
+    {
+      "n": 776,
+      "latin": "ipse oculis ereptus erat. Non ocior illo"
+    },
+    {
+      "n": 777,
+      "latin": "hasta nec exutae contorto verbere glandes,"
+    },
+    {
+      "n": 778,
+      "latin": "nec Gortyniaco calamus levis exit ab arcu."
+    },
+    {
+      "n": 779,
+      "latin": "Collis apex medii subiectis inminet arvis:"
+    },
+    {
+      "n": 780,
+      "latin": "tollor eo capioque novi spectacula cursus,"
+    },
+    {
+      "n": 781,
+      "latin": "quo modo deprendi, modo se subducere ab ipso"
+    },
+    {
+      "n": 782,
+      "latin": "vulnere visa fera est. Nec limite callida recto"
+    },
+    {
+      "n": 783,
+      "latin": "in spatiumque fugit, sed decipit ora sequentis"
+    },
+    {
+      "n": 784,
+      "latin": "et redit in gyrum, ne sit suus impetus hosti."
+    },
+    {
+      "n": 785,
+      "latin": "Inminet hic sequiturque parem similisque tenenti"
+    },
+    {
+      "n": 786,
+      "latin": "non tenet et vanos exercet in aera morsus."
+    },
+    {
+      "n": 787,
+      "latin": "Ad iaculi vertebar opem. Quod dextera librat"
+    },
+    {
+      "n": 788,
+      "latin": "dum mea, dum digitos amentis addere tempto,"
+    },
+    {
+      "n": 789,
+      "latin": "lumina deflexi. Revocataque rursus eodem"
+    },
+    {
+      "n": 790,
+      "latin": "rettuleram: in medio (mirum) duo marmora campo"
+    },
+    {
+      "n": 791,
+      "latin": "adspicio: fugere hoc, illud captare putares."
+    },
+    {
+      "n": 792,
+      "latin": "Scilicet invictos ambo certamine cursus"
+    },
+    {
+      "n": 793,
+      "latin": "esse deus voluit, siquis deus adfuit illis.”"
+    },
+    {
+      "n": 794,
+      "latin": "Hactenus, et tacuit. “Iaculo quod crimen in ipso est?”"
+    },
+    {
+      "n": 795,
+      "latin": "Phocus ait. Iaculi sic crimina reddidit ille:"
+    },
+    {
+      "n": 796,
+      "latin": "“Gaudia principium nostri sunt, Phoce, doloris:"
+    },
+    {
+      "n": 797,
+      "latin": "illa prius referam. Iuvat o meminisse beati"
+    },
+    {
+      "n": 798,
+      "latin": "temporis, Aeacida, quo primos rite per annos"
+    },
+    {
+      "n": 799,
+      "latin": "coniuge eram felix, felix erat illa marito."
+    },
+    {
+      "n": 800,
+      "latin": "Mutua cura duos et amor socialis habebat;"
+    },
+    {
+      "n": 801,
+      "latin": "nec Iovis illa meo thalamos praeferret amori,"
+    },
+    {
+      "n": 802,
+      "latin": "nec, me quae caperet, non si Venus ipsa veniret,"
+    },
+    {
+      "n": 803,
+      "latin": "ulla erat: aequales urebant pectora flammae."
+    },
+    {
+      "n": 804,
+      "latin": "Sole fere radiis feriente cacumina primis"
+    },
+    {
+      "n": 805,
+      "latin": "venatum in silvas iuvenaliter ire solebam."
+    },
+    {
+      "n": 806,
+      "latin": "Nec mecum famuli nec equi nec naribus acres"
+    },
+    {
+      "n": 807,
+      "latin": "ire canes, nec lina sequi nodosa solebant:"
+    },
+    {
+      "n": 808,
+      "latin": "tutus eram iaculo. Sed cum satiata ferinae"
+    },
+    {
+      "n": 809,
+      "latin": "dextera caedis erat, repetebam frigus et umbras"
+    },
+    {
+      "n": 810,
+      "latin": "et quae de gelidis exibat vallibus aura."
+    },
+    {
+      "n": 811,
+      "latin": "Aura petebatur medio mihi lenis in aestu,"
+    },
+    {
+      "n": 812,
+      "latin": "auram exspectabam, requies erat illa labori."
+    },
+    {
+      "n": 813,
+      "latin": "“Aura” (recordor enim) “venias” cantare solebam,"
+    },
+    {
+      "n": 814,
+      "latin": "“meque iuves intresque sinus, gratissima, nostros,"
+    },
+    {
+      "n": 815,
+      "latin": "utque facis, relevare velis, quibus urimur, aestus.”"
+    },
+    {
+      "n": 816,
+      "latin": "Forsitan addiderim (sic me mea fata trahebant)"
+    },
+    {
+      "n": 817,
+      "latin": "blanditias plures et “tu mihi magna voluptas,”"
+    },
+    {
+      "n": 818,
+      "latin": "dicere sim solitus, “tu me reficisque fovesque,"
+    },
+    {
+      "n": 819,
+      "latin": "tu facis, ut silvas, ut amem loca sola; meoque"
+    },
+    {
+      "n": 820,
+      "latin": "spiritus iste tuus semper captatur ab ore.”"
+    },
+    {
+      "n": 821,
+      "latin": "Vocibus ambiguis deceptam praebuit aurem"
+    },
+    {
+      "n": 822,
+      "latin": "nescio quis, nomenque aurae tam saepe vocatum"
+    },
+    {
+      "n": 823,
+      "latin": "esse putat nymphae: nympham mihi credit amari."
+    },
+    {
+      "n": 824,
+      "latin": "Criminis extemplo ficti temerarius index"
+    },
+    {
+      "n": 825,
+      "latin": "Procrin adit linguaque refert audita susurra."
+    },
+    {
+      "n": 826,
+      "latin": "Credula res amor est: subito conlapsa dolore,"
+    },
+    {
+      "n": 827,
+      "latin": "ut mihi narratur, cecidit; longoque refecta"
+    },
+    {
+      "n": 828,
+      "latin": "tempore se miseram, se fati dixit iniqui,"
+    },
+    {
+      "n": 829,
+      "latin": "deque fide questa est; et crimine concita vano"
+    },
+    {
+      "n": 830,
+      "latin": "quod nihil est, metuit, metuit sine corpore nomen"
+    },
+    {
+      "n": 831,
+      "latin": "et dolet infelix veluti de paelice vera."
+    },
+    {
+      "n": 832,
+      "latin": "Saepe tamen dubitat speratque miserrima falli"
+    },
+    {
+      "n": 833,
+      "latin": "indicioque fidem negat et, nisi viderit ipsa,"
+    },
+    {
+      "n": 834,
+      "latin": "damnatura sui non est delicta mariti."
+    },
+    {
+      "n": 835,
+      "latin": "Postera depulerant Aurorae lumina noctem:"
+    },
+    {
+      "n": 836,
+      "latin": "egredior silvamque peto, victorque per herbas"
+    },
+    {
+      "n": 837,
+      "latin": "“Aura veni” dixi, “nostroque medere labori.”"
+    },
+    {
+      "n": 838,
+      "latin": "Et subito gemitus inter mea verba videbar"
+    },
+    {
+      "n": 839,
+      "latin": "nescio quos audisse: “veni” tamen “optima!” dicens"
+    },
+    {
+      "n": 840,
+      "latin": "fronde levem rursus strepitum faciente caduca"
+    },
+    {
+      "n": 841,
+      "latin": "sum ratus esse feram telumque volatile misi."
+    },
+    {
+      "n": 842,
+      "latin": "Procris erat; medioque tenens in pectore vulnus"
+    },
+    {
+      "n": 843,
+      "latin": "“ei mihi” conclamat. Vox est ubi cognita fidae"
+    },
+    {
+      "n": 844,
+      "latin": "coniugis, ad vocem praeceps amensque cucurri."
+    },
+    {
+      "n": 845,
+      "latin": "Semianimem et sparsas foedantem sanguine vestes"
+    },
+    {
+      "n": 846,
+      "latin": "et sua (me miserum!) de vulnere dona trahentem"
+    },
+    {
+      "n": 847,
+      "latin": "invenio, corpusque meo mihi carius ulnis"
+    },
+    {
+      "n": 848,
+      "latin": "mollibus attollo scissaque a pectore veste"
+    },
+    {
+      "n": 849,
+      "latin": "vulnera saeva ligo conorque inhibere cruorem,"
+    },
+    {
+      "n": 850,
+      "latin": "neu me morte sua sceleratum deserat, oro."
+    },
+    {
+      "n": 851,
+      "latin": "Viribus illa carens et iam moribunda coegit"
+    },
+    {
+      "n": 852,
+      "latin": "haec se pauca loqui: “Per nostri foedera lecti"
+    },
+    {
+      "n": 853,
+      "latin": "perque deos supplex oro superosque meosque,"
+    },
+    {
+      "n": 854,
+      "latin": "per siquid merui de te bene perque manentem"
+    },
+    {
+      "n": 855,
+      "latin": "nunc quoque, cum pereo, causam mihi mortis, amorem,"
+    },
+    {
+      "n": 856,
+      "latin": "ne thalamis Auram patiare innubere nostris.”"
+    },
+    {
+      "n": 857,
+      "latin": "Dixit, et errorem tum denique nominis esse"
+    },
+    {
+      "n": 858,
+      "latin": "et sensi et docui. Sed quid docuisse iuvabat?"
+    },
+    {
+      "n": 859,
+      "latin": "Labitur, et parvae fugiunt cum sanguine vires."
+    },
+    {
+      "n": 860,
+      "latin": "Dumque aliquid spectare potest, me spectat et in me"
+    },
+    {
+      "n": 861,
+      "latin": "infelicem animam nostroque exhalat in ore;"
+    },
+    {
+      "n": 862,
+      "latin": "sed vultu meliore mori secura videtur.”"
+    },
+    {
+      "n": 863,
+      "latin": "Flentibus haec lacrimans heros memorabat: et ecce"
+    },
+    {
+      "n": 864,
+      "latin": "Aeacus ingreditur duplici cum prole novoque"
+    },
+    {
+      "n": 865,
+      "latin": "milite, quem Cephalus cum fortibus accipit armis."
+    }
+  ]
+}

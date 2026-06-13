@@ -1,0 +1,384 @@
+{
+  "book": 15,
+  "card": 2,
+  "lines": [
+    60,
+    152
+  ],
+  "title_latin": "Pythagoras.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 60,
+      "latin": "Vir fuit hic, ortu Samius, sed fugerat una"
+    },
+    {
+      "n": 61,
+      "latin": "et Samon et dominos odioque tyrannidis exsul"
+    },
+    {
+      "n": 62,
+      "latin": "sponte erat, isque, licet caeli regione remotos,"
+    },
+    {
+      "n": 63,
+      "latin": "mente deos adiit et quae natura negabat"
+    },
+    {
+      "n": 64,
+      "latin": "visibus humanis, oculis ea pectoris hausit,"
+    },
+    {
+      "n": 65,
+      "latin": "cumque animo et vigili perspexerat omnia cura,"
+    },
+    {
+      "n": 66,
+      "latin": "in medium discenda dabat coetusque silentum"
+    },
+    {
+      "n": 67,
+      "latin": "dictaque mirantum magni primordia mundi"
+    },
+    {
+      "n": 68,
+      "latin": "et rerum causas et, quid natura, docebat,"
+    },
+    {
+      "n": 69,
+      "latin": "quid deus, unde nives, quae fulminis esset origo,"
+    },
+    {
+      "n": 70,
+      "latin": "Iuppiter an venti discussa nube tonarent,"
+    },
+    {
+      "n": 71,
+      "latin": "quid quateret terras, qua sidera lege mearent —"
+    },
+    {
+      "n": 72,
+      "latin": "et quodcumque latet; primusque animalia mensis"
+    },
+    {
+      "n": 73,
+      "latin": "arguit imponi, primus quoque talibus ora"
+    },
+    {
+      "n": 74,
+      "latin": "docta quidem solvit, sed non et credita, verbis:"
+    },
+    {
+      "n": 75,
+      "latin": "“Parcite, mortales, dapibus temerare nefandis"
+    },
+    {
+      "n": 76,
+      "latin": "corpora! Sunt fruges, sunt deducentia ramos"
+    },
+    {
+      "n": 77,
+      "latin": "pondere poma suo tumidaeque in vitibus uvae,"
+    },
+    {
+      "n": 78,
+      "latin": "sunt herbae dulces, sunt quae mitescere flamma"
+    },
+    {
+      "n": 79,
+      "latin": "mollirique queant; nec vobis lacteus umor"
+    },
+    {
+      "n": 80,
+      "latin": "eripitur, nec mella thymi redolentia flore:"
+    },
+    {
+      "n": 81,
+      "latin": "prodiga divitias alimentaque mitia tellus"
+    },
+    {
+      "n": 82,
+      "latin": "suggerit atque epulas sine caede et sanguine praebet."
+    },
+    {
+      "n": 83,
+      "latin": "Carne ferae sedant ieiunia, nec tamen omnes:"
+    },
+    {
+      "n": 84,
+      "latin": "quippe equus et pecudes armentaque gramine vivunt."
+    },
+    {
+      "n": 85,
+      "latin": "At quibus ingenium est inmansuetumque ferumque,"
+    },
+    {
+      "n": 86,
+      "latin": "Armeniae tigres iracundique leones"
+    },
+    {
+      "n": 87,
+      "latin": "cumque lupis ursi, dapibus cum sanguine gaudent."
+    },
+    {
+      "n": 88,
+      "latin": "Heu quantum scelus est in viscera viscera condi"
+    },
+    {
+      "n": 89,
+      "latin": "congestoque avidum pinguescere corpore corpus"
+    },
+    {
+      "n": 90,
+      "latin": "alteriusque animantem animantis vivere leto!"
+    },
+    {
+      "n": 91,
+      "latin": "Scilicet in tantis opibus, quas optima matrum"
+    },
+    {
+      "n": 92,
+      "latin": "terra parit, nil te nisi tristia mandere saevo"
+    },
+    {
+      "n": 93,
+      "latin": "vulnera dente iuvat ritusque referre Cyclopum,"
+    },
+    {
+      "n": 94,
+      "latin": "nec, nisi perdideris alium, placare voracis"
+    },
+    {
+      "n": 95,
+      "latin": "et male morati poteris ieiunia ventris?"
+    },
+    {
+      "n": 96,
+      "latin": "At vetus illa aetas, cui fecimus aurea nomen,"
+    },
+    {
+      "n": 97,
+      "latin": "fetibus arboreis et, quas humus educat, herbis"
+    },
+    {
+      "n": 98,
+      "latin": "fortunata fuit nec polluit ora cruore."
+    },
+    {
+      "n": 99,
+      "latin": "Tunc et aves tutae movere per aera pennas,"
+    },
+    {
+      "n": 100,
+      "latin": "et lepus impavidus mediis erravit in arvis,"
+    },
+    {
+      "n": 101,
+      "latin": "nec sua credulitas piscem suspenderat hamo:"
+    },
+    {
+      "n": 102,
+      "latin": "cuncta sine insidiis nullamque timentia fraudem"
+    },
+    {
+      "n": 103,
+      "latin": "plenaque pacis erant. Postquam non utilis auctor"
+    },
+    {
+      "n": 104,
+      "latin": "victibus invidit, quisquis fuit ille, deorum"
+    },
+    {
+      "n": 105,
+      "latin": "corporeasque dapes avidam demersit in alvum,"
+    },
+    {
+      "n": 106,
+      "latin": "fecit iter sceleri, primoque e caede ferarum"
+    },
+    {
+      "n": 107,
+      "latin": "incaluisse potest maculatum sanguine ferrum"
+    },
+    {
+      "n": 108,
+      "latin": "(idque satis fuerat), nostrumque petentia letum"
+    },
+    {
+      "n": 109,
+      "latin": "corpora missa neci salva pietate fatemur:"
+    },
+    {
+      "n": 110,
+      "latin": "sed quam danda neci, tam non epulanda fuerunt."
+    },
+    {
+      "n": 111,
+      "latin": "Longius inde nefas abiit, et prima putatur"
+    },
+    {
+      "n": 112,
+      "latin": "hostia sus meruisse mori, quia semina pando"
+    },
+    {
+      "n": 113,
+      "latin": "eruerit rostro spemque interceperit anni."
+    },
+    {
+      "n": 114,
+      "latin": "Vite caper morsa Bacchi mactatus ad aras"
+    },
+    {
+      "n": 115,
+      "latin": "dicitur ultoris; nocuit sua culpa duobus!"
+    },
+    {
+      "n": 116,
+      "latin": "Quid meruistis oves, placidum pecus, inque tuendos"
+    },
+    {
+      "n": 117,
+      "latin": "natum homines, pleno quae fertis in ubere nectar,"
+    },
+    {
+      "n": 118,
+      "latin": "mollia quae nobis vestras velamina lanas"
+    },
+    {
+      "n": 119,
+      "latin": "praebetis vitaque magis quam morte iuvatis?"
+    },
+    {
+      "n": 120,
+      "latin": "Quid meruere boves, animal sine fraude dolisque,"
+    },
+    {
+      "n": 121,
+      "latin": "innocuum, simplex, natum tolerare labores?"
+    },
+    {
+      "n": 122,
+      "latin": "Inmemor est demum nec frugum munere dignus,"
+    },
+    {
+      "n": 123,
+      "latin": "qui potuit curvi dempto modo pondere aratri"
+    },
+    {
+      "n": 124,
+      "latin": "ruricolam mactare suum, qui trita labore"
+    },
+    {
+      "n": 125,
+      "latin": "illa, quibus totiens durum renovaverat arvum,"
+    },
+    {
+      "n": 126,
+      "latin": "tot dederat messes, percussit colla securi."
+    },
+    {
+      "n": 127,
+      "latin": "Nec satis est, quod tale nefas committitur: ipsos"
+    },
+    {
+      "n": 128,
+      "latin": "inscripsere deos sceleri, numenque supernum"
+    },
+    {
+      "n": 129,
+      "latin": "caede laboriferi credunt gaudere iuvenci."
+    },
+    {
+      "n": 130,
+      "latin": "Victima labe carens et praestantissima forma"
+    },
+    {
+      "n": 131,
+      "latin": "(nam placuisse nocet) vittis insignis et auro"
+    },
+    {
+      "n": 132,
+      "latin": "sistitur ante aras auditque ignara precantem"
+    },
+    {
+      "n": 133,
+      "latin": "imponique suae videt inter cornua fronti,"
+    },
+    {
+      "n": 134,
+      "latin": "quas coluit, fruges percussaque sanguine cultros"
+    },
+    {
+      "n": 135,
+      "latin": "inficit in liquida praevisos forsitan unda."
+    },
+    {
+      "n": 136,
+      "latin": "Protinus ereptas viventi pectore fibras"
+    },
+    {
+      "n": 137,
+      "latin": "inspiciunt mentesque deum scrutantur in illis:"
+    },
+    {
+      "n": 138,
+      "latin": "unde (fames homini vetitorum tanta ciborum!)"
+    },
+    {
+      "n": 139,
+      "latin": "audetis vesci, genus o mortale? Quod, oro,"
+    },
+    {
+      "n": 140,
+      "latin": "ne facite, et monitis animos advertite nostris!"
+    },
+    {
+      "n": 141,
+      "latin": "Cumque boum dabitis caesorum membra palato,"
+    },
+    {
+      "n": 142,
+      "latin": "mandere vos vestros scite et sentite colonos."
+    },
+    {
+      "n": 143,
+      "latin": "Et quoniam deus ora movet, sequar ora moventem"
+    },
+    {
+      "n": 144,
+      "latin": "rite deum Delphosque meos ipsumque recludam"
+    },
+    {
+      "n": 145,
+      "latin": "aethera et augustae reserabo oracula mentis."
+    },
+    {
+      "n": 146,
+      "latin": "Magna nec ingeniis investigata priorum"
+    },
+    {
+      "n": 147,
+      "latin": "quaeque diu latuere, canam; iuvat ire per alta"
+    },
+    {
+      "n": 148,
+      "latin": "astra, iuvat terris et inerti sede relicta"
+    },
+    {
+      "n": 149,
+      "latin": "nube vehi validique umeris insistere Atlantis"
+    },
+    {
+      "n": 150,
+      "latin": "palantesque homines passim ac rationis egentes"
+    },
+    {
+      "n": 151,
+      "latin": "despectare procul trepidosque obitumque timentes"
+    },
+    {
+      "n": 152,
+      "latin": "sic exhortari seriemque evolvere fati:"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "vetustas",
+  "pos": "noun",
+  "glosses": [
+    "old age",
+    "antiquity",
+    "long duration"
+  ],
+  "head": "vetustas, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "vetustatem",
+      "gen.pl": "vetustatum",
+      "acc.pl": "vetustatis",
+      "nom.sg": "vetustas",
+      "gen.sg": "vetustatis",
+      "dat.sg": "vetustati",
+      "abl.sg": "vetustate",
+      "nom.pl": "vetustates",
+      "dat.pl": "vetustatibus",
+      "abl.pl": "vetustatibus"
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "book": 1,
+  "card": 3,
+  "lines": [
+    89,
+    162
+  ],
+  "title_latin": "Quattuor aetates. Gigantes.",
+  "title_english": "Giants",
+  "text": [
+    {
+      "n": 89,
+      "latin": "Aurea prima sata est aetas, quae vindice nullo,"
+    },
+    {
+      "n": 90,
+      "latin": "sponte sua, sine lege fidem rectumque colebat."
+    },
+    {
+      "n": 91,
+      "latin": "Poena metusque aberant, nec verba minantia fixo"
+    },
+    {
+      "n": 92,
+      "latin": "aere legebantur, nec supplex turba timebat"
+    },
+    {
+      "n": 93,
+      "latin": "iudicis ora sui, sed erant sine vindice tuti."
+    },
+    {
+      "n": 94,
+      "latin": "Nondum caesa suis, peregrinum ut viseret orbem,"
+    },
+    {
+      "n": 95,
+      "latin": "montibus in liquidas pinus descenderat undas,"
+    },
+    {
+      "n": 96,
+      "latin": "nullaque mortales praeter sua litora norant."
+    },
+    {
+      "n": 97,
+      "latin": "Nondum praecipites cingebant oppida fossae;"
+    },
+    {
+      "n": 98,
+      "latin": "non tuba directi, non aeris cornua flexi,"
+    },
+    {
+      "n": 99,
+      "latin": "non galeae, non ensis erat: sine militis usu"
+    },
+    {
+      "n": 100,
+      "latin": "mollia securae peragebant otia gentes."
+    },
+    {
+      "n": 101,
+      "latin": "ipsa quoque inmunis rastroque intacta nec ullis"
+    },
+    {
+      "n": 102,
+      "latin": "saucia vomeribus per se dabat omnia tellus;"
+    },
+    {
+      "n": 103,
+      "latin": "contentique cibis nullo cogente creatis"
+    },
+    {
+      "n": 104,
+      "latin": "arbuteos fetus montanaque fraga legebant"
+    },
+    {
+      "n": 105,
+      "latin": "cornaque et in duris haerentia mora rubetis"
+    },
+    {
+      "n": 106,
+      "latin": "et quae deciderant patula Iovis arbore glandes."
+    },
+    {
+      "n": 107,
+      "latin": "Ver erat aeternum, placidique tepentibus auris"
+    },
+    {
+      "n": 108,
+      "latin": "mulcebant zephyri natos sine semine flores."
+    },
+    {
+      "n": 109,
+      "latin": "Mox etiam fruges tellus inarata ferebat,"
+    },
+    {
+      "n": 110,
+      "latin": "nec renovatus ager gravidis canebat aristis;"
+    },
+    {
+      "n": 111,
+      "latin": "flumina iam lactis, iam flumina nectaris ibant,"
+    },
+    {
+      "n": 112,
+      "latin": "flavaque de viridi stillabant ilice mella."
+    },
+    {
+      "n": 113,
+      "latin": "Postquam, Saturno tenebrosa in Tartara misso,"
+    },
+    {
+      "n": 114,
+      "latin": "sub Iove mundus erat, subiit argentea proles,"
+    },
+    {
+      "n": 115,
+      "latin": "auro deterior, fulvo pretiosior aere."
+    },
+    {
+      "n": 116,
+      "latin": "Iuppiter antiqui contraxit tempora veris"
+    },
+    {
+      "n": 117,
+      "latin": "perque hiemes aestusque et inaequalis autumnos"
+    },
+    {
+      "n": 118,
+      "latin": "et breve ver spatiis exegit quattuor annum."
+    },
+    {
+      "n": 119,
+      "latin": "Tum primum siccis aer fervoribus ustus"
+    },
+    {
+      "n": 120,
+      "latin": "canduit, et ventis glacies adstricta pependit."
+    },
+    {
+      "n": 121,
+      "latin": "Tum primum subiere domus (domus antra fuerunt"
+    },
+    {
+      "n": 122,
+      "latin": "et densi frutices et vinctae cortice virgae)."
+    },
+    {
+      "n": 123,
+      "latin": "Semina tum primum longis Cerealia sulcis"
+    },
+    {
+      "n": 124,
+      "latin": "obruta sunt, pressique iugo gemuere iuvenci."
+    },
+    {
+      "n": 125,
+      "latin": "Tertia post illam successit aenea proles,"
+    },
+    {
+      "n": 126,
+      "latin": "saevior ingeniis et ad horrida promptior arma,"
+    },
+    {
+      "n": 127,
+      "latin": "non scelerata tamen. De duro est ultima ferro."
+    },
+    {
+      "n": 128,
+      "latin": "Protinus inrupit venae peioris in aevum"
+    },
+    {
+      "n": 129,
+      "latin": "omne nefas: fugere pudor verumque fidesque;"
+    },
+    {
+      "n": 130,
+      "latin": "In quorum subiere locum fraudesque dolique"
+    },
+    {
+      "n": 131,
+      "latin": "insidiaeque et vis et amor sceleratus habendi."
+    },
+    {
+      "n": 132,
+      "latin": "Vela dabat ventis (nec adhuc bene noverat illos)"
+    },
+    {
+      "n": 133,
+      "latin": "navita; quaeque diu steterant in montibus altis,"
+    },
+    {
+      "n": 134,
+      "latin": "fluctibus ignotis insultavere carinae,"
+    },
+    {
+      "n": 135,
+      "latin": "communemque prius ceu lumina solis et auras"
+    },
+    {
+      "n": 136,
+      "latin": "cautus humum longo signavit limite mensor."
+    },
+    {
+      "n": 137,
+      "latin": "Nec tantum segetes alimentaque debita dives"
+    },
+    {
+      "n": 138,
+      "latin": "poscebatur humus, sed itum est in viscera terrae:"
+    },
+    {
+      "n": 139,
+      "latin": "quasque recondiderat Stygiisque admoverat umbris,"
+    },
+    {
+      "n": 140,
+      "latin": "effodiuntur opes, inritamenta malorum."
+    },
+    {
+      "n": 141,
+      "latin": "Iamque nocens ferrum ferroque nocentius aurum"
+    },
+    {
+      "n": 142,
+      "latin": "prodierat: prodit bellum, quod pugnat utroque,"
+    },
+    {
+      "n": 143,
+      "latin": "sanguineaque manu crepitantia concutit arma."
+    },
+    {
+      "n": 144,
+      "latin": "Vivitur ex rapto: non hospes ab hospite tutus,"
+    },
+    {
+      "n": 145,
+      "latin": "non socer a genero; fratrum quoque gratia rara est."
+    },
+    {
+      "n": 146,
+      "latin": "Inminet exitio vir coniugis, illa mariti;"
+    },
+    {
+      "n": 147,
+      "latin": "lurida terribiles miscent aconita novercae;"
+    },
+    {
+      "n": 148,
+      "latin": "filius ante diem patrios inquirit in annos."
+    },
+    {
+      "n": 149,
+      "latin": "Victa iacet pietas, et virgo caede madentis,"
+    },
+    {
+      "n": 150,
+      "latin": "ultima caelestum terras Astraea reliquit."
+    },
+    {
+      "n": 151,
+      "latin": "Neve foret terris securior arduus aether,"
+    },
+    {
+      "n": 152,
+      "latin": "adfectasse ferunt regnum caeleste Gigantas"
+    },
+    {
+      "n": 153,
+      "latin": "altaque congestos struxisse ad sidera montes."
+    },
+    {
+      "n": 154,
+      "latin": "Tum pater omnipotens misso perfregit Olympum"
+    },
+    {
+      "n": 155,
+      "latin": "fulmine et excussit subiectae Pelion Ossae."
+    },
+    {
+      "n": 156,
+      "latin": "Obruta mole sua cum corpora dira iacerent,"
+    },
+    {
+      "n": 157,
+      "latin": "perfusam multo natorum sanguine Terram"
+    },
+    {
+      "n": 158,
+      "latin": "inmaduisse ferunt calidumque animasse cruorem,"
+    },
+    {
+      "n": 159,
+      "latin": "et, ne nulla suae stirpis monimenta manerent,"
+    },
+    {
+      "n": 160,
+      "latin": "in faciem vertisse hominum. Sed et illa propago"
+    },
+    {
+      "n": 161,
+      "latin": "contemptrix superum saevaeque avidissima caedis"
+    },
+    {
+      "n": 162,
+      "latin": "et violenta fuit: scires e sanguine natos."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "lemma": "serpens",
+  "pos": "noun",
+  "glosses": [
+    "serpent, snake"
+  ],
+  "head": "serpens, -is, c.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "serpenti",
+      "acc.sg": "serpentem",
+      "nom.pl": "serpentis",
+      "gen.pl": "serpentium",
+      "acc.pl": "serpentis",
+      "nom.sg": "serpens",
+      "gen.sg": "serpentis",
+      "dat.sg": "serpenti",
+      "dat.pl": "serpentibus",
+      "abl.pl": "serpentibus"
+    }
+  }
+}

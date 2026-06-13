@@ -1,0 +1,37 @@
+{
+  "lemma": "aestus",
+  "pos": "noun",
+  "glosses": [
+    "agitation, passion, seething",
+    "raging, boiling",
+    "heat/fire",
+    "sea tide/spray/swell"
+  ],
+  "head": "aestus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aestus",
+      "gen.sg": "aestus",
+      "dat.sg": "aestui",
+      "acc.sg": "aestum",
+      "nom.pl": "aestus",
+      "acc.pl": "aestus",
+      "abl.sg": "aestu",
+      "gen.pl": "aestuum",
+      "dat.pl": "aestibus",
+      "abl.pl": "aestibus"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "lemma": "rota",
+  "pos": "noun",
+  "glosses": [
+    "wheel (rotate)"
+  ],
+  "head": "rota, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "rota",
+      "gen.sg": "rotae",
+      "abl.sg": "rota",
+      "acc.sg": "rotam",
+      "dat.sg": "rotae",
+      "nom.pl": "rotae",
+      "gen.pl": "rotarum",
+      "dat.pl": "rotis",
+      "abl.pl": "rotis",
+      "acc.pl": "rotas"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "lemma": "tantus",
+  "pos": "adj",
+  "glosses": [
+    "of such size",
+    "so great, so much",
+    "[tantus ... quantus => as much ... as]"
+  ],
+  "head": "tantus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "tantus",
+      "gen.sg.masc": "tanti",
+      "dat.sg.masc": "tanto",
+      "gen.sg.fem": "tantae",
+      "dat.sg.fem": "tantae",
+      "nom.sg.neut": "tantum",
+      "gen.sg.neut": "tanti",
+      "dat.sg.neut": "tanto",
+      "acc.sg.neut": "tantum",
+      "acc.sg.masc": "tantum",
+      "abl.sg.masc": "tanto",
+      "nom.pl.masc": "tanti",
+      "gen.pl.masc": "tantorum",
+      "acc.pl.masc": "tantos",
+      "nom.sg.fem": "tanta",
+      "acc.sg.fem": "tantam",
+      "abl.sg.fem": "tanta",
+      "nom.pl.fem": "tantae",
+      "gen.pl.fem": "tantarum",
+      "acc.pl.fem": "tantas",
+      "abl.sg.neut": "tanto",
+      "nom.pl.neut": "tanta",
+      "gen.pl.neut": "tantorum",
+      "acc.pl.neut": "tanta"
+    }
+  }
+}

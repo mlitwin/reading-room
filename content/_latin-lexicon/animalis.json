@@ -1,0 +1,34 @@
+{
+  "lemma": "animalis",
+  "pos": "adj",
+  "glosses": [
+    "made of air",
+    "animal, of living creatures, living, live, animate",
+    "vital"
+  ],
+  "head": "animalis, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "animale",
+      "acc.sg.neut": "animale",
+      "nom.pl.neut": "animalia",
+      "acc.pl.neut": "animalia"
+    }
+  }
+}

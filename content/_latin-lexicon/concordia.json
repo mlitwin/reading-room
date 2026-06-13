@@ -1,0 +1,36 @@
+{
+  "lemma": "concordia",
+  "pos": "noun",
+  "glosses": [
+    "concurrence/mutual agreement/harmony/peace",
+    "rapport/amity/concord/union",
+    "friend"
+  ],
+  "head": "concordia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "concordia",
+      "gen.sg": "concordiae",
+      "abl.sg": "concordia",
+      "acc.sg": "concordiam",
+      "dat.sg": "concordiae",
+      "nom.pl": "concordiae",
+      "gen.pl": "concordiarum",
+      "dat.pl": "concordiis",
+      "abl.pl": "concordiis",
+      "acc.pl": "concordias"
+    }
+  }
+}

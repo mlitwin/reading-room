@@ -1,0 +1,55 @@
+{
+  "lemma": "sum",
+  "pos": "adj",
+  "glosses": [
+    "highest, the top of",
+    "greatest",
+    "last",
+    "the end of"
+  ],
+  "head": "sum, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "sumus",
+      "gen.sg.neut": "sumoris",
+      "acc.sg.neut": "sumus",
+      "nom.pl.neut": "sumora",
+      "acc.pl.neut": "sumora",
+      "nom.sg.masc": "summus",
+      "gen.sg.masc": "summi",
+      "dat.sg.masc": "summo",
+      "acc.sg.masc": "summum",
+      "abl.sg.masc": "summo",
+      "nom.pl.masc": "summi",
+      "gen.pl.masc": "summorum",
+      "acc.pl.masc": "summos",
+      "nom.sg.fem": "summa",
+      "gen.sg.fem": "summae",
+      "dat.sg.fem": "summae",
+      "acc.sg.fem": "summam",
+      "abl.sg.fem": "summa",
+      "nom.pl.fem": "summae",
+      "gen.pl.fem": "summarum",
+      "acc.pl.fem": "summas",
+      "dat.sg.neut": "summo",
+      "abl.sg.neut": "summo",
+      "gen.pl.neut": "summorum"
+    }
+  }
+}

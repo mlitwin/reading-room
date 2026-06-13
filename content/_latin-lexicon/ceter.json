@@ -1,0 +1,53 @@
+{
+  "lemma": "ceter",
+  "pos": "adj",
+  "glosses": [
+    "the_other",
+    "the_others (pl.). the_remaining/rest, all the_rest"
+  ],
+  "head": "ceter, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "ceterus",
+      "gen.sg.masc": "ceteri",
+      "dat.sg.masc": "cetero",
+      "gen.sg.fem": "ceterae",
+      "dat.sg.fem": "ceterae",
+      "nom.sg.neut": "ceterum",
+      "gen.sg.neut": "ceteri",
+      "dat.sg.neut": "cetero",
+      "acc.sg.neut": "ceterum",
+      "acc.sg.masc": "ceterum",
+      "abl.sg.masc": "cetero",
+      "nom.pl.masc": "ceteri",
+      "gen.pl.masc": "ceterorum",
+      "acc.pl.masc": "ceteros",
+      "nom.sg.fem": "cetera",
+      "acc.sg.fem": "ceteram",
+      "abl.sg.fem": "cetera",
+      "nom.pl.fem": "ceterae",
+      "gen.pl.fem": "ceterarum",
+      "acc.pl.fem": "ceteras",
+      "abl.sg.neut": "cetero",
+      "nom.pl.neut": "cetera",
+      "gen.pl.neut": "ceterorum",
+      "acc.pl.neut": "cetera"
+    }
+  }
+}

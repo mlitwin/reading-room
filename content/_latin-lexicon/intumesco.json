@@ -1,0 +1,39 @@
+{
+  "lemma": "intumesco",
+  "pos": "verb",
+  "glosses": [
+    "swell up, become swollen",
+    "rise"
+  ],
+  "head": "intumesco, intumescere, intumui, -um",
+  "principal_parts": [
+    "intumesco",
+    "intumescere",
+    "intumui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "intumescis",
+      "3sg.pres.ind.act": "intumescit",
+      "1pl.pres.ind.act": "intumescimus",
+      "2pl.pres.ind.act": "intumescitis",
+      "2sg.pres.imp.act": "intumesce",
+      "2pl.pres.imp.act": "intumescite"
+    }
+  }
+}

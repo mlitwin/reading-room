@@ -1,0 +1,348 @@
+{
+  "book": 13,
+  "card": 4,
+  "lines": [
+    313,
+    398
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 313,
+      "latin": "Nec Poeantiaden quod habet Vulcania Lemnos,"
+    },
+    {
+      "n": 314,
+      "latin": "esse reus merui: factum defendite vestrum,"
+    },
+    {
+      "n": 315,
+      "latin": "consensistis enim. Nec me suasisse negabo,"
+    },
+    {
+      "n": 316,
+      "latin": "ut se subtraheret bellique viaeque labori"
+    },
+    {
+      "n": 317,
+      "latin": "temptaretque feros requie finire dolores."
+    },
+    {
+      "n": 318,
+      "latin": "Paruit et vivit! Non haec sententia tantum"
+    },
+    {
+      "n": 319,
+      "latin": "fida, sed et felix, cum sit satis esse fidelem."
+    },
+    {
+      "n": 320,
+      "latin": "Quem quoniam vates delenda ad Pergama poscunt,"
+    },
+    {
+      "n": 321,
+      "latin": "ne mandate mihi: melius Telamonius ibit"
+    },
+    {
+      "n": 322,
+      "latin": "eloquioque virum morbis iraque furentem"
+    },
+    {
+      "n": 323,
+      "latin": "molliet aut aliqua producet callidus arte."
+    },
+    {
+      "n": 324,
+      "latin": "Ante retro Simois fluet et sine frondibus Ide"
+    },
+    {
+      "n": 325,
+      "latin": "stabit et auxilium promittet Achaia Troiae,"
+    },
+    {
+      "n": 326,
+      "latin": "quam, cessante meo pro vestris pectore rebus,"
+    },
+    {
+      "n": 327,
+      "latin": "Aiacis stolidi Danais sollertia prosit!"
+    },
+    {
+      "n": 328,
+      "latin": "Sis licet infestus sociis regique mihique,"
+    },
+    {
+      "n": 329,
+      "latin": "dure Philoctete, licet exsecrere meumque"
+    },
+    {
+      "n": 330,
+      "latin": "devoveas sine fine caput cupiasque dolenti"
+    },
+    {
+      "n": 331,
+      "latin": "me tibi forte dari nostrumque haurire cruorem,"
+    },
+    {
+      "n": 333,
+      "latin": "te tamen adgrediar mecumque reducere nitar,"
+    },
+    {
+      "n": 334,
+      "latin": "tamque tuis potiar (faveat Fortuna!) sagittis,"
+    },
+    {
+      "n": 335,
+      "latin": "quam sum Dardanio, quem cepi, vate potitus,"
+    },
+    {
+      "n": 336,
+      "latin": "quam responsa deum Troianaque fata retexi,"
+    },
+    {
+      "n": 337,
+      "latin": "quam rapui Phrygiae signum penetrale Minervae"
+    },
+    {
+      "n": 338,
+      "latin": "hostibus e mediis. Et se mihi comparat Aiax?"
+    },
+    {
+      "n": 339,
+      "latin": "Nempe capi Troiam prohibebant fata sine illo:"
+    },
+    {
+      "n": 340,
+      "latin": "fortis ubi est Aiax? Ubi sunt ingentia magni"
+    },
+    {
+      "n": 341,
+      "latin": "verba viri? Cur hic metuis? cur audet Ulixes"
+    },
+    {
+      "n": 342,
+      "latin": "ire per excubias et se committere nocti"
+    },
+    {
+      "n": 343,
+      "latin": "perque feros enses non tantum moenia Troum,"
+    },
+    {
+      "n": 344,
+      "latin": "verum etiam summas arces intrare suaque"
+    },
+    {
+      "n": 345,
+      "latin": "eripere aede deam raptamque adferre per hostes?"
+    },
+    {
+      "n": 346,
+      "latin": "Quae nisi fecissem, frustra Telamone creatus"
+    },
+    {
+      "n": 347,
+      "latin": "gestasset laeva taurorum tergora septem."
+    },
+    {
+      "n": 348,
+      "latin": "Illa nocte mihi Troiae victoria parta est,"
+    },
+    {
+      "n": 349,
+      "latin": "Pergama tunc vici, cum vinci posse coegi!"
+    },
+    {
+      "n": 350,
+      "latin": "Desine Tydiden vultuque et murmure nobis"
+    },
+    {
+      "n": 351,
+      "latin": "ostentare meum: pars est sua laudis in illo."
+    },
+    {
+      "n": 352,
+      "latin": "Nec tu, cum socia clipeum pro classe tenebas,"
+    },
+    {
+      "n": 353,
+      "latin": "solus eras: tibi turba comes, mihi contigit unus."
+    },
+    {
+      "n": 354,
+      "latin": "Qui nisi pugnacem sciret sapiente minorem"
+    },
+    {
+      "n": 355,
+      "latin": "esse nec indomitae deberi praemia dextrae,"
+    },
+    {
+      "n": 356,
+      "latin": "ipse quoque haec peteret, peteret moderatior Aiax"
+    },
+    {
+      "n": 357,
+      "latin": "Eurypylusque ferox claroque Andraemone natus,"
+    },
+    {
+      "n": 358,
+      "latin": "nec minus Idomeneus patriaque creatus eadem"
+    },
+    {
+      "n": 359,
+      "latin": "Meriones, peteret maioris frater Atridae:"
+    },
+    {
+      "n": 360,
+      "latin": "quippe manu fortes nec sunt tibi Marte secundi,"
+    },
+    {
+      "n": 361,
+      "latin": "consiliis cessere meis. Tibi dextera bello"
+    },
+    {
+      "n": 362,
+      "latin": "utilis: ingenium est, quod eget moderamine nostro;"
+    },
+    {
+      "n": 363,
+      "latin": "tu vires sine mente geris, mihi cura futuri;"
+    },
+    {
+      "n": 364,
+      "latin": "tu pugnare potes, pugnandi tempora mecum"
+    },
+    {
+      "n": 365,
+      "latin": "eligit Atrides; tu tantum corpore prodes,"
+    },
+    {
+      "n": 366,
+      "latin": "nos animo; quantoque ratem qui temperat, anteit"
+    },
+    {
+      "n": 367,
+      "latin": "remigis officium, quanto dux milite maior,"
+    },
+    {
+      "n": 368,
+      "latin": "tantum ego te supero; nec non in corpore nostro"
+    },
+    {
+      "n": 369,
+      "latin": "pectora sunt potiora manu: vigor omnis in illis."
+    },
+    {
+      "n": 370,
+      "latin": "At vos, o proceres, vigili date praemia vestro,"
+    },
+    {
+      "n": 371,
+      "latin": "proque tot annorum cura, quibus anxius egi,"
+    },
+    {
+      "n": 372,
+      "latin": "hunc titulum meritis pensandum reddite nostris."
+    },
+    {
+      "n": 373,
+      "latin": "Iam labor in fine est: obstantia fata removi"
+    },
+    {
+      "n": 374,
+      "latin": "altaque posse capi faciendo Pergama cepi."
+    },
+    {
+      "n": 375,
+      "latin": "Per spes nunc socias casuraque moenia Troum"
+    },
+    {
+      "n": 376,
+      "latin": "perque deos oro, quos hosti nuper ademi,"
+    },
+    {
+      "n": 377,
+      "latin": "per siquid superest, quod sit sapienter agendum,"
+    },
+    {
+      "n": 378,
+      "latin": "siquid adhuc audax ex praecipitique petendum est,"
+    },
+    {
+      "n": 380,
+      "latin": "este mei memores! Aut si mihi non datis arma,"
+    },
+    {
+      "n": 381,
+      "latin": "huic date!” — et ostendit signum fatale Minervae."
+    },
+    {
+      "n": 382,
+      "latin": "Mota manus procerum est, et quid facundia posset,"
+    },
+    {
+      "n": 383,
+      "latin": "re patuit, fortisque viri tulit arma disertus."
+    },
+    {
+      "n": 384,
+      "latin": "Hectora qui solus, qui ferrum ignesque Iovemque"
+    },
+    {
+      "n": 385,
+      "latin": "sustinuit totiens, unam non sustinet iram,"
+    },
+    {
+      "n": 386,
+      "latin": "invictumque virum vicit dolor: arripit ensem"
+    },
+    {
+      "n": 387,
+      "latin": "et “meus hic certe est! an et hunc sibi poscit Ulixes?"
+    },
+    {
+      "n": 388,
+      "latin": "Hoc” ait “utendum est in me mihi, quique cruore"
+    },
+    {
+      "n": 389,
+      "latin": "saepe Phrygum maduit, domini nunc caede madebit,"
+    },
+    {
+      "n": 390,
+      "latin": "ne quisquam Aiacem possit superare nisi Aiax.”"
+    },
+    {
+      "n": 391,
+      "latin": "Dixit et in pectus tum demum vulnera passum,"
+    },
+    {
+      "n": 392,
+      "latin": "qua patuit ferro, letalem condidit ensem."
+    },
+    {
+      "n": 393,
+      "latin": "Nec valuere manus infixum educere telum:"
+    },
+    {
+      "n": 394,
+      "latin": "expulit ipse cruor, rubefactaque sanguine tellus"
+    },
+    {
+      "n": 395,
+      "latin": "purpureum viridi genuit de caespite florem,"
+    },
+    {
+      "n": 396,
+      "latin": "qui prius Oebalio fuerat de vulnere natus;"
+    },
+    {
+      "n": 397,
+      "latin": "littera communis mediis pueroque viroque"
+    },
+    {
+      "n": 398,
+      "latin": "incripta est foliis, haec nominis, illa querellae."
+    }
+  ]
+}

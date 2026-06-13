@@ -1,0 +1,39 @@
+{
+  "lemma": "fetus",
+  "pos": "noun",
+  "glosses": [
+    "offspring/young (animals)",
+    "children (of a parent)",
+    "brood/litter",
+    "fetus/fetus, young while still in the womb",
+    "embryo (Cal)",
+    "birth/bringing forth young"
+  ],
+  "head": "fetus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fetus",
+      "gen.sg": "fetus",
+      "dat.sg": "fetui",
+      "acc.sg": "fetum",
+      "nom.pl": "fetus",
+      "acc.pl": "fetus",
+      "abl.sg": "fetu",
+      "gen.pl": "fetuum",
+      "dat.pl": "fetibus",
+      "abl.pl": "fetibus"
+    }
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "book": 15,
+  "card": 11,
+  "lines": [
+    745,
+    879
+  ],
+  "title_latin": "Divus Iulius.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 745,
+      "latin": "Hic tamen accessit delubris advena nostris:"
+    },
+    {
+      "n": 746,
+      "latin": "Caesar in urbe sua deus est; quem Marte togaque"
+    },
+    {
+      "n": 747,
+      "latin": "praecipuum non bella magis finita triumphis"
+    },
+    {
+      "n": 748,
+      "latin": "resque domi gestae properataque gloria rerum"
+    },
+    {
+      "n": 749,
+      "latin": "in sidus vertere novum stellamque comantem,"
+    },
+    {
+      "n": 750,
+      "latin": "quam sua progenies; neque enim de Caesaris actis"
+    },
+    {
+      "n": 751,
+      "latin": "ullum maius opus, quam quod pater exstitit huius:"
+    },
+    {
+      "n": 752,
+      "latin": "scilicet aequoreos plus est domuisse Britannos"
+    },
+    {
+      "n": 753,
+      "latin": "perque papyriferi septemflua flumina Nili"
+    },
+    {
+      "n": 754,
+      "latin": "victrices egisse rates Numidasque rebelles"
+    },
+    {
+      "n": 755,
+      "latin": "Cinyphiumque Iubam Mithridateisque tumentem"
+    },
+    {
+      "n": 756,
+      "latin": "nominibus Pontum populo adiecisse Quirini"
+    },
+    {
+      "n": 757,
+      "latin": "et multos meruisse, aliquos egisse triumphos,"
+    },
+    {
+      "n": 758,
+      "latin": "quam tantum genuisse virum? Quo praeside rerum"
+    },
+    {
+      "n": 759,
+      "latin": "humano generi, superi, favistis abunde!"
+    },
+    {
+      "n": 760,
+      "latin": "Ne foret hic igitur mortali semine cretus,"
+    },
+    {
+      "n": 761,
+      "latin": "ille deus faciendus erat. Quod ut aurea vidit"
+    },
+    {
+      "n": 762,
+      "latin": "Aeneae genetrix, vidit quoque triste parari"
+    },
+    {
+      "n": 763,
+      "latin": "pontifici letum et coniurata arma moveri,"
+    },
+    {
+      "n": 764,
+      "latin": "palluit et cunctis, ut cuique erat obvia, divis"
+    },
+    {
+      "n": 765,
+      "latin": "“adspice” dicebat, “quanta mihi mole parentur"
+    },
+    {
+      "n": 766,
+      "latin": "insidiae quantaque caput cum fraude petatur,"
+    },
+    {
+      "n": 767,
+      "latin": "quod de Dardanio solum mihi restat Iulo."
+    },
+    {
+      "n": 768,
+      "latin": "Solane semper ero iustis exercita curis,"
+    },
+    {
+      "n": 769,
+      "latin": "quam modo Tydidae Calydonia vulneret hasta,"
+    },
+    {
+      "n": 770,
+      "latin": "nunc male defensae confundant moenia Troiae,"
+    },
+    {
+      "n": 771,
+      "latin": "quae videam natum longis erroribus actum"
+    },
+    {
+      "n": 772,
+      "latin": "iactarique freto sedesque intrare silentum"
+    },
+    {
+      "n": 773,
+      "latin": "bellaque cum Turno gerere, aut, si vera fatemur,"
+    },
+    {
+      "n": 774,
+      "latin": "cum Iunone magis? Quid nunc antiqua recordor"
+    },
+    {
+      "n": 775,
+      "latin": "damna mei generis? Timor hic meminisse priorum"
+    },
+    {
+      "n": 776,
+      "latin": "non sinit: en acui sceleratos cernitis enses?"
+    },
+    {
+      "n": 777,
+      "latin": "Quos prohibete, precor, facinusque repellite, neve"
+    },
+    {
+      "n": 778,
+      "latin": "caede sacerdotis flammas exstinguite Vestae!”"
+    },
+    {
+      "n": 779,
+      "latin": "Talia nequiquam toto Venus anxia caelo"
+    },
+    {
+      "n": 780,
+      "latin": "verba iacit superosque movet, qui rumpere quamquam"
+    },
+    {
+      "n": 781,
+      "latin": "ferrea non possunt veterum decreta sororum,"
+    },
+    {
+      "n": 782,
+      "latin": "signa tamen luctus dant haud incerta futuri."
+    },
+    {
+      "n": 783,
+      "latin": "Arma ferunt inter nigras crepitantia nubes"
+    },
+    {
+      "n": 784,
+      "latin": "terribilesque tubas auditaque cornua caelo"
+    },
+    {
+      "n": 785,
+      "latin": "praemonuisse nefas; solis quoque tristis imago"
+    },
+    {
+      "n": 786,
+      "latin": "lurida sollicitis praebebat lumina terris."
+    },
+    {
+      "n": 787,
+      "latin": "Saepe faces visae mediis ardere sub astris,"
+    },
+    {
+      "n": 788,
+      "latin": "saepe inter nimbos guttae cecidere cruentae."
+    },
+    {
+      "n": 789,
+      "latin": "Caerulus et vultum ferrugine Lucifer atra"
+    },
+    {
+      "n": 790,
+      "latin": "sparsus erat, sparsi Lunares sanguine currus."
+    },
+    {
+      "n": 791,
+      "latin": "Tristia mille locis Stygius dedit omina bubo,"
+    },
+    {
+      "n": 792,
+      "latin": "mille locis lacrimavit ebur, cantusque feruntur"
+    },
+    {
+      "n": 793,
+      "latin": "auditi sanctis et verba minantia lucis."
+    },
+    {
+      "n": 794,
+      "latin": "Victima nulla litat magnosque instare tumultus"
+    },
+    {
+      "n": 795,
+      "latin": "fibra monet, caesumque caput reperitur in extis."
+    },
+    {
+      "n": 796,
+      "latin": "Inque foro circumque domos et templa deorum"
+    },
+    {
+      "n": 797,
+      "latin": "nocturnos ululasse canes umbrasque silentum"
+    },
+    {
+      "n": 798,
+      "latin": "erravisse ferunt motamque tremoribus urbem."
+    },
+    {
+      "n": 799,
+      "latin": "Non tamen insidias venturaque vincere fata"
+    },
+    {
+      "n": 800,
+      "latin": "praemonitus potuere deum, strictique feruntur"
+    },
+    {
+      "n": 801,
+      "latin": "in templum gladii; neque enim locus ullus in urbe"
+    },
+    {
+      "n": 802,
+      "latin": "ad facinus diramque placet nisi curia, caedem."
+    },
+    {
+      "n": 803,
+      "latin": "Tum vero Cytherea manu percussit utraque"
+    },
+    {
+      "n": 804,
+      "latin": "pectus et Aeneaden molitur condere nube,"
+    },
+    {
+      "n": 805,
+      "latin": "qua prius infesto Paris est ereptus Atridae"
+    },
+    {
+      "n": 806,
+      "latin": "et Diomedeos Aeneas fugerat enses."
+    },
+    {
+      "n": 807,
+      "latin": "Talibus hanc genitor: “Sola insuperabile fatum,"
+    },
+    {
+      "n": 808,
+      "latin": "nata, movere paras? Intres licet ipsa sororum"
+    },
+    {
+      "n": 809,
+      "latin": "tecta trium: cernes illic molimine vasto"
+    },
+    {
+      "n": 810,
+      "latin": "ex aere et solido rerum tabularia ferro,"
+    },
+    {
+      "n": 811,
+      "latin": "quae neque concussum caeli neque fulminis iram"
+    },
+    {
+      "n": 812,
+      "latin": "nec metuunt ullas tuta atque aeterna ruinas."
+    },
+    {
+      "n": 813,
+      "latin": "Invenies illic incisa adamante perenni"
+    },
+    {
+      "n": 814,
+      "latin": "fata tui generis: legi ipse animoque notavi"
+    },
+    {
+      "n": 815,
+      "latin": "et referam, ne sis etiamnum ignara futuri."
+    },
+    {
+      "n": 816,
+      "latin": "Hic sua complevit, pro quo, Cytherea, laboras,"
+    },
+    {
+      "n": 817,
+      "latin": "tempora, perfectis, quos terrae debuit, annis."
+    },
+    {
+      "n": 818,
+      "latin": "Ut deus accedat caelo templisque colatur,"
+    },
+    {
+      "n": 819,
+      "latin": "tu facies natusque suus, qui nominis heres"
+    },
+    {
+      "n": 820,
+      "latin": "impositum feret unus onus caesique parentis"
+    },
+    {
+      "n": 821,
+      "latin": "nos in bella suos fortissimus ultor habebit."
+    },
+    {
+      "n": 822,
+      "latin": "Illius auspiciis obsessae moenia pacem"
+    },
+    {
+      "n": 823,
+      "latin": "victa petent Mutinae, Pharsalia sentiet illum."
+    },
+    {
+      "n": 824,
+      "latin": "Emathiique iterum madefient caede Philippi,"
+    },
+    {
+      "n": 825,
+      "latin": "et magnum Siculis nomen superabitur undis,"
+    },
+    {
+      "n": 826,
+      "latin": "Romanique ducis coniunx Aegyptia taedae"
+    },
+    {
+      "n": 827,
+      "latin": "non bene fisa cadet, frustraque erit illa minata,"
+    },
+    {
+      "n": 828,
+      "latin": "servitura suo Capitolia nostra Canopo."
+    },
+    {
+      "n": 829,
+      "latin": "Quid tibi barbariem, gentesque ab utroque iacentes"
+    },
+    {
+      "n": 830,
+      "latin": "oceano numerem? Quodcumque habitabile tellus"
+    },
+    {
+      "n": 831,
+      "latin": "sustinet, huius erit: pontus quoque serviet illi!"
+    },
+    {
+      "n": 832,
+      "latin": "Pace data terris animum ad civilia vertet"
+    },
+    {
+      "n": 833,
+      "latin": "iura suum legesque feret iustissimus auctor"
+    },
+    {
+      "n": 834,
+      "latin": "exemploque suo mores reget inque futuri"
+    },
+    {
+      "n": 835,
+      "latin": "temporis aetatem venturorumque nepotum"
+    },
+    {
+      "n": 836,
+      "latin": "prospiciens prolem sancta de coniuge natam"
+    },
+    {
+      "n": 837,
+      "latin": "ferre simul nomenque suum curasque iubebit,"
+    },
+    {
+      "n": 838,
+      "latin": "nec nisi cum senior Pylios aequaverit annos,"
+    },
+    {
+      "n": 839,
+      "latin": "aetherias sedes cognataque sidera tanget."
+    },
+    {
+      "n": 840,
+      "latin": "Hanc animam interea caeso de corpore raptam"
+    },
+    {
+      "n": 841,
+      "latin": "fac iubar, ut semper Capitolia nostra forumque"
+    },
+    {
+      "n": 842,
+      "latin": "divus ab excelsa prospectet Iulius aede.”"
+    },
+    {
+      "n": 843,
+      "latin": "Vix ea fatus erat, media cum sede senatus"
+    },
+    {
+      "n": 844,
+      "latin": "constitit alma Venus, nulli cernenda, suique"
+    },
+    {
+      "n": 845,
+      "latin": "Caesaris eripuit membris neque in aera solvi"
+    },
+    {
+      "n": 846,
+      "latin": "passa recentem animam caelestibus intulit astris."
+    },
+    {
+      "n": 847,
+      "latin": "Dumque tulit, lumen capere atque ignescere sensit"
+    },
+    {
+      "n": 848,
+      "latin": "emisitque sinu: luna volat altius illa,"
+    },
+    {
+      "n": 849,
+      "latin": "flammiferumque trahens spatioso limite crinem"
+    },
+    {
+      "n": 850,
+      "latin": "stella micat natique videns bene facta fatetur"
+    },
+    {
+      "n": 851,
+      "latin": "esse suis maiora et vinci gaudet ab illo."
+    },
+    {
+      "n": 852,
+      "latin": "Hic sua praeferri quamquam vetat acta paternis,"
+    },
+    {
+      "n": 853,
+      "latin": "libera fama tamen nullisque obnoxia iussis"
+    },
+    {
+      "n": 854,
+      "latin": "invitum praefert unaque in parte repugnat:"
+    },
+    {
+      "n": 855,
+      "latin": "sic magni cedit titulis Agamemnonis Atreus,"
+    },
+    {
+      "n": 856,
+      "latin": "Aegea sic Theseus, sic Pelea vicit Achilles;"
+    },
+    {
+      "n": 857,
+      "latin": "denique, ut exemplis ipsos aequantibus utar,"
+    },
+    {
+      "n": 858,
+      "latin": "sic et Saturnus minor est Iove: Iuppiter arces"
+    },
+    {
+      "n": 859,
+      "latin": "temperat aetherias et mundi regna triformis,"
+    },
+    {
+      "n": 860,
+      "latin": "terra sub Augusto est; pater est et rector uterque."
+    },
+    {
+      "n": 861,
+      "latin": "Di, precor, Aeneae comites, quibus ensis et ignis"
+    },
+    {
+      "n": 862,
+      "latin": "cesserunt, dique Indigetes genitorque Quirine"
+    },
+    {
+      "n": 863,
+      "latin": "urbis et invicti genitor Gradive Quirini,"
+    },
+    {
+      "n": 864,
+      "latin": "Vestaque Caesareos inter sacrata penates,"
+    },
+    {
+      "n": 865,
+      "latin": "et cum Caesarea tu, Phoebe domestice, Vesta,"
+    },
+    {
+      "n": 866,
+      "latin": "quique tenes altus Tarpeias Iuppiter arces,"
+    },
+    {
+      "n": 867,
+      "latin": "quosque alios vati fas appellare piumque est:"
+    },
+    {
+      "n": 868,
+      "latin": "tarda sit illa dies et nostro serior aevo,"
+    },
+    {
+      "n": 869,
+      "latin": "qua caput Augustum, quem temperat, orbe relicto"
+    },
+    {
+      "n": 870,
+      "latin": "accedat caelo faveatque precantibus absens!"
+    },
+    {
+      "n": 871,
+      "latin": "Iamque opus exegi, quod nec Iovis ira nec ignis"
+    },
+    {
+      "n": 872,
+      "latin": "nec poterit ferrum nec edax abolere vetustas."
+    },
+    {
+      "n": 873,
+      "latin": "Cum volet, illa dies, quae nil nisi corporis huius"
+    },
+    {
+      "n": 874,
+      "latin": "ius habet, incerti spatium mihi finiat aevi:"
+    },
+    {
+      "n": 875,
+      "latin": "parte tamen meliore mei super alta perennis"
+    },
+    {
+      "n": 876,
+      "latin": "astra ferar, nomenque erit indelebile nostrum,"
+    },
+    {
+      "n": 877,
+      "latin": "quaque patet domitis Romana potentia terris,"
+    },
+    {
+      "n": 878,
+      "latin": "ore legar populi, perque omnia saecula fama,"
+    },
+    {
+      "n": 879,
+      "latin": "siquid habent veri vatum praesagia, vivam."
+    }
+  ]
+}

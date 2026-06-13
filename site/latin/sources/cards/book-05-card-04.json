@@ -1,0 +1,376 @@
+{
+  "book": 5,
+  "card": 4,
+  "lines": [
+    250,
+    340
+  ],
+  "title_latin": "Hippocrene. Pierides.",
+  "title_english": "THE NINE MUSES AND THE NINE MAGPIES",
+  "text": [
+    {
+      "n": 250,
+      "latin": "Hactenus aurigenae comitem Tritonia fratri"
+    },
+    {
+      "n": 251,
+      "latin": "se dedit: inde cava circumdata nube Seriphon"
+    },
+    {
+      "n": 252,
+      "latin": "deserit, a dextra Cythno Gyaroque relictis,"
+    },
+    {
+      "n": 253,
+      "latin": "quaque super pontum via visa brevissima, Thebas"
+    },
+    {
+      "n": 254,
+      "latin": "virgineumque Helicona petit. Quo monte potita"
+    },
+    {
+      "n": 255,
+      "latin": "constitit et doctas sic est adfata sorores:"
+    },
+    {
+      "n": 256,
+      "latin": "“Fama novi fontis nostras pervenit ad aures,"
+    },
+    {
+      "n": 257,
+      "latin": "dura Medusaei quem praepetis ungula rupit."
+    },
+    {
+      "n": 258,
+      "latin": "Is mihi causa viae. Volui mirabile factum"
+    },
+    {
+      "n": 259,
+      "latin": "cernere: vidi ipsum materno sanguine nasci.”"
+    },
+    {
+      "n": 260,
+      "latin": "Excipit Uranie: “Quaecumque est causa videndi"
+    },
+    {
+      "n": 261,
+      "latin": "has tibi, diva, domos, animo gratissima nostro es."
+    },
+    {
+      "n": 262,
+      "latin": "Vera tamen fama est, et Pegasus huius origo"
+    },
+    {
+      "n": 263,
+      "latin": "fontis”, et ad latices deduxit Pallada sacros."
+    },
+    {
+      "n": 264,
+      "latin": "Quae mirata diu factas pedis ictibus undas,"
+    },
+    {
+      "n": 265,
+      "latin": "silvarum lucos circumspicit antiquarum"
+    },
+    {
+      "n": 266,
+      "latin": "antraque et innumeris distinctas floribus herbas"
+    },
+    {
+      "n": 267,
+      "latin": "felicesque vocat pariter studioque locoque"
+    },
+    {
+      "n": 268,
+      "latin": "Mnemonidas. Quam sic adfata est una sororum:"
+    },
+    {
+      "n": 269,
+      "latin": "“O, nisi te virtus opera ad maiora tulisset,"
+    },
+    {
+      "n": 270,
+      "latin": "in partem ventura chori Tritonia nostri,"
+    },
+    {
+      "n": 271,
+      "latin": "vera refers meritoque probas artesque locumque,"
+    },
+    {
+      "n": 272,
+      "latin": "et gratam sortem, tutae modo simus, habemus."
+    },
+    {
+      "n": 273,
+      "latin": "Sed (vetitum est adeo sceleri nihil) omnia terrent"
+    },
+    {
+      "n": 274,
+      "latin": "virgineas mentes, dirusque ante ora Pyreneus"
+    },
+    {
+      "n": 275,
+      "latin": "vertitur, et nondum tota me mente recepi."
+    },
+    {
+      "n": 276,
+      "latin": "Daulida Threicio Phoceaque milite rura"
+    },
+    {
+      "n": 277,
+      "latin": "ceperat ille ferox iniustaque regna tenebat."
+    },
+    {
+      "n": 278,
+      "latin": "Templa petebamus Parnasia: vidit euntes,"
+    },
+    {
+      "n": 279,
+      "latin": "nostraque fallaci veneratus numina vultu"
+    },
+    {
+      "n": 280,
+      "latin": "“Mnemonides” (cognorat enim), “consistite” dixit,"
+    },
+    {
+      "n": 281,
+      "latin": "“nec dubitate, precor, tecto grave sidus et imbrem”"
+    },
+    {
+      "n": 282,
+      "latin": "(imber erat) “vitare meo: subiere minores"
+    },
+    {
+      "n": 283,
+      "latin": "saepe casas superi.” Dictis et tempore motae"
+    },
+    {
+      "n": 284,
+      "latin": "adnuimusque viro primasque intravimus aedes."
+    },
+    {
+      "n": 285,
+      "latin": "Desierant imbres, victoque aquilonibus austro"
+    },
+    {
+      "n": 286,
+      "latin": "fusca repurgato fugiebant nubila caelo."
+    },
+    {
+      "n": 287,
+      "latin": "Impetus ire fuit: claudit sua tecta Pyreneus"
+    },
+    {
+      "n": 288,
+      "latin": "vimque parat. Quam nos sumptis effugimus alis."
+    },
+    {
+      "n": 289,
+      "latin": "Ipse secuturo similis stetit arduus arce"
+    },
+    {
+      "n": 290,
+      "latin": "“qua” que “via est vobis, erit et mihi” dixit “eadem”,"
+    },
+    {
+      "n": 291,
+      "latin": "seque iacit vecors e summae culmine turris"
+    },
+    {
+      "n": 292,
+      "latin": "et cadit in vultus, discussisque ossibus oris"
+    },
+    {
+      "n": 293,
+      "latin": "tundit humum moriens scelerato sanguine tinctam.”"
+    },
+    {
+      "n": 294,
+      "latin": "Musa loquebatur: pennae sonuere per auras,"
+    },
+    {
+      "n": 295,
+      "latin": "voxque salutantum ramis veniebat ab altis."
+    },
+    {
+      "n": 296,
+      "latin": "Suspicit et linguae quaerit tam certa loquentes"
+    },
+    {
+      "n": 297,
+      "latin": "unde sonent hominemque putat Iove nata locutum:"
+    },
+    {
+      "n": 298,
+      "latin": "Ales erat, numeroque novem, sua fata querentes,"
+    },
+    {
+      "n": 299,
+      "latin": "institerant ramis imitantes omnia picae."
+    },
+    {
+      "n": 300,
+      "latin": "Miranti sic orsa deae dea: “Nuper et istae"
+    },
+    {
+      "n": 301,
+      "latin": "auxerunt volucrum victae certamine turbam."
+    },
+    {
+      "n": 302,
+      "latin": "Pieros has genuit Pellaeis dives in arvis,"
+    },
+    {
+      "n": 303,
+      "latin": "Paeonis Euippe mater fuit. Illa potentem"
+    },
+    {
+      "n": 304,
+      "latin": "Lucinam noviens, noviens paritura, vocavit."
+    },
+    {
+      "n": 305,
+      "latin": "Intumuit numero stolidarum turba sororum,"
+    },
+    {
+      "n": 306,
+      "latin": "perque tot Haemonias et per tot Achaidas urbes"
+    },
+    {
+      "n": 307,
+      "latin": "huc venit et tali committit proelia voce:"
+    },
+    {
+      "n": 308,
+      "latin": "“Desinite indoctum vana dulcedine vulgus"
+    },
+    {
+      "n": 309,
+      "latin": "fallere: nobiscum, siqua est fiducia vobis,"
+    },
+    {
+      "n": 310,
+      "latin": "Thespiades certate deae. Nec voce nec arte"
+    },
+    {
+      "n": 311,
+      "latin": "vincemur, totidemque sumus. Vel cedite victae"
+    },
+    {
+      "n": 312,
+      "latin": "fonte Medusaeo et Hyantea Aganippe,"
+    },
+    {
+      "n": 313,
+      "latin": "vel nos Emathiis ad Paeonas usque nivosos"
+    },
+    {
+      "n": 314,
+      "latin": "cedamus campis. Dirimant certamina nymphae.”"
+    },
+    {
+      "n": 315,
+      "latin": "Turpe quidem contendere erat, sed cedere visum"
+    },
+    {
+      "n": 316,
+      "latin": "turpius. Electae iurant per flumina nymphae"
+    },
+    {
+      "n": 317,
+      "latin": "factaque de vivo pressere sedilia saxo."
+    },
+    {
+      "n": 318,
+      "latin": "Tum sine sorte prior quae se certare professa est,"
+    },
+    {
+      "n": 319,
+      "latin": "bella canit superum, falsoque in honore Gigantas"
+    },
+    {
+      "n": 320,
+      "latin": "ponit et extenuat magnorum facta deorum;"
+    },
+    {
+      "n": 321,
+      "latin": "emissumque ima de sede Typhoea terrae"
+    },
+    {
+      "n": 322,
+      "latin": "caelitibus fecisse metum cunctosque dedisse"
+    },
+    {
+      "n": 323,
+      "latin": "terga fugae, donec fessos Aegyptia tellus"
+    },
+    {
+      "n": 324,
+      "latin": "ceperit et septem discretus in ostia Nilus."
+    },
+    {
+      "n": 325,
+      "latin": "Huc quoque terrigenam venisse Typhoea narrat"
+    },
+    {
+      "n": 326,
+      "latin": "et se mentitis superos celasse figuris;"
+    },
+    {
+      "n": 327,
+      "latin": "“duxque gregis” dixit “fit Iuppiter; unde recurvis"
+    },
+    {
+      "n": 328,
+      "latin": "nunc quoque formatus Libys est cum cornibus Ammon."
+    },
+    {
+      "n": 329,
+      "latin": "Delius in corvo, proles Semeleia capro,"
+    },
+    {
+      "n": 330,
+      "latin": "fele soror Phoebi, nivea Saturnia vacca,"
+    },
+    {
+      "n": 331,
+      "latin": "pisce Venus latuit, Cyllenius ibidis alis.”"
+    },
+    {
+      "n": 332,
+      "latin": "Hactenus ad citharam vocalia moverat ora:"
+    },
+    {
+      "n": 333,
+      "latin": "poscimur Aonides. Sed forsitan otia non sint,"
+    },
+    {
+      "n": 334,
+      "latin": "nec nostris praebere vacet tibi cantibus aures.”"
+    },
+    {
+      "n": 335,
+      "latin": "“Ne dubita, vestrumque mihi refer ordine carmen”"
+    },
+    {
+      "n": 336,
+      "latin": "Pallas ait nemorisque levi consedit in umbra."
+    },
+    {
+      "n": 337,
+      "latin": "Musa refert: “Dedimus summam certaminis uni."
+    },
+    {
+      "n": 338,
+      "latin": "Surgit et inmissos hedera conlecta capillos"
+    },
+    {
+      "n": 339,
+      "latin": "Calliope querulas praetemptat pollice chordas,"
+    },
+    {
+      "n": 340,
+      "latin": "atque haec percussis subiungit carmina nervis:"
+    }
+  ]
+}

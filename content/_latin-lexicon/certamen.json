@@ -1,0 +1,37 @@
+{
+  "lemma": "certamen",
+  "pos": "noun",
+  "glosses": [
+    "contest, competition",
+    "battle, combat, struggle",
+    "rivalry",
+    "(matter in) dispute"
+  ],
+  "head": "certamen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "certamine",
+      "acc.sg": "certamen",
+      "nom.pl": "certamina",
+      "gen.pl": "certaminum",
+      "acc.pl": "certamina",
+      "nom.sg": "certamen",
+      "gen.sg": "certaminis",
+      "dat.sg": "certamini",
+      "dat.pl": "certaminibus",
+      "abl.pl": "certaminibus"
+    }
+  }
+}

@@ -12,7 +12,7 @@ The opening four lines of the *Metamorphoses* — an invocation of the gods to s
 <span data-matches="muto:ppp.acc.pl.fem">mutatas</span>
 <span data-matches="dico:inf.pres.act">dicere</span>
 <span data-matches="forma:acc.pl">formas</span><br>
-<span data-matches="corpus:nom.pl,acc.pl">corpora</span>,
+<span data-matches="corpus:nom.pl,acc.pl">corpora</span>;
 <span data-matches="deus:nom.pl">di</span>,
 <span data-matches="coeptum:dat.pl,abl.pl">coeptis</span>
 (<span data-matches="nam:conj">nam</span>

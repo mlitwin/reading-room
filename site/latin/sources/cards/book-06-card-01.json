@@ -1,0 +1,356 @@
+{
+  "book": 6,
+  "card": 1,
+  "lines": [
+    1,
+    86
+  ],
+  "title_latin": "Pallas et Arachne.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 1,
+      "latin": "Praebuerat dictis Tritonia talibus aures"
+    },
+    {
+      "n": 2,
+      "latin": "carminaque Aonidum iustamque probaverat iram."
+    },
+    {
+      "n": 3,
+      "latin": "Tum secum “laudare parum est; laudemur et ipsae"
+    },
+    {
+      "n": 4,
+      "latin": "numina nec sperni sine poena nostra sinamus”"
+    },
+    {
+      "n": 5,
+      "latin": "Maeoniaeque animum fatis intendit Arachnes,"
+    },
+    {
+      "n": 6,
+      "latin": "quam sibi lanificae non cedere laudibus artis"
+    },
+    {
+      "n": 7,
+      "latin": "audierat. Non illa loco neque origine gentis"
+    },
+    {
+      "n": 8,
+      "latin": "clara, sed arte fuit. Pater huic Colophonius Idmon"
+    },
+    {
+      "n": 9,
+      "latin": "Phocaico bibulas tingebat murice lanas."
+    },
+    {
+      "n": 10,
+      "latin": "Occiderat mater; sed et haec de plebe suoque"
+    },
+    {
+      "n": 11,
+      "latin": "aequa viro fuerat. Lydas tamen illa per urbes"
+    },
+    {
+      "n": 12,
+      "latin": "quaesierat studio nomen memorabile, quamvis"
+    },
+    {
+      "n": 13,
+      "latin": "orta domo parva parvis habitabat Hypaepis."
+    },
+    {
+      "n": 14,
+      "latin": "Huius ut adspicerent opus admirabile, saepe"
+    },
+    {
+      "n": 15,
+      "latin": "deseruere sui nymphae vineta Timoli,"
+    },
+    {
+      "n": 16,
+      "latin": "deseruere suas nymphae Pactolides undas."
+    },
+    {
+      "n": 17,
+      "latin": "Nec factas solum vestes spectare iuvabat;"
+    },
+    {
+      "n": 18,
+      "latin": "tum quoque, cum fierent: tantus decor adfuit arti."
+    },
+    {
+      "n": 19,
+      "latin": "Sive rudem primos lanam glomerabat in orbes,"
+    },
+    {
+      "n": 20,
+      "latin": "seu digitis subigebat opus repetitaque longo"
+    },
+    {
+      "n": 21,
+      "latin": "vellera mollibat nebulas aequantia tractu,"
+    },
+    {
+      "n": 22,
+      "latin": "sive levi teretem versabat pollice fusum,"
+    },
+    {
+      "n": 23,
+      "latin": "seu pingebat acu, scires a Pallade doctam."
+    },
+    {
+      "n": 24,
+      "latin": "Quod tamen ipsa negat, tantaque offensa magistra"
+    },
+    {
+      "n": 25,
+      "latin": "“certet” ait “mecum: nihil est, quod victa recusem.”"
+    },
+    {
+      "n": 26,
+      "latin": "Pallas anum simulat falsosque in tempora canos"
+    },
+    {
+      "n": 27,
+      "latin": "addit et infirmos, baculo quos sustinet, artus."
+    },
+    {
+      "n": 28,
+      "latin": "Tum sic orsa loqui: “Non omnia grandior aetas,"
+    },
+    {
+      "n": 29,
+      "latin": "quae fugiamus, habet: seris venit usus ab annis."
+    },
+    {
+      "n": 30,
+      "latin": "Consilium ne sperne meum. Tibi fama petatur"
+    },
+    {
+      "n": 31,
+      "latin": "inter mortales faciendae maxima lanae:"
+    },
+    {
+      "n": 32,
+      "latin": "cede deae veniamque tuis, temeraria, dictis"
+    },
+    {
+      "n": 33,
+      "latin": "supplice voce roga: veniam dabit illa roganti.”"
+    },
+    {
+      "n": 34,
+      "latin": "Adspicit hanc torvis inceptaque fila relinquit,"
+    },
+    {
+      "n": 35,
+      "latin": "vixque manum retinens confessaque vultibus iram"
+    },
+    {
+      "n": 36,
+      "latin": "talibus obscuram resecuta est Pallada dictis:"
+    },
+    {
+      "n": 37,
+      "latin": "“Mentis inops longaque venis confecta senecta."
+    },
+    {
+      "n": 38,
+      "latin": "Et nimium vixisse diu nocet. Audiat istas,"
+    },
+    {
+      "n": 39,
+      "latin": "siqua tibi nurus est, siqua est tibi filia, voces."
+    },
+    {
+      "n": 40,
+      "latin": "Consilii satis est in me mihi. Neve monendo"
+    },
+    {
+      "n": 41,
+      "latin": "profecisse putes, eadem est sententia nobis."
+    },
+    {
+      "n": 42,
+      "latin": "Cur non ipsa venit? cur haec certamina vitat?”"
+    },
+    {
+      "n": 43,
+      "latin": "Tum dea “venit” ait, formamque removit anilem"
+    },
+    {
+      "n": 44,
+      "latin": "Palladaque exhibuit. Venerantur numina nymphae"
+    },
+    {
+      "n": 45,
+      "latin": "Mygdonidesque nurus: sola est non territa virgo."
+    },
+    {
+      "n": 46,
+      "latin": "Sed tamen erubuit, subitusque invita notavit"
+    },
+    {
+      "n": 47,
+      "latin": "ora rubor rursusque evanuit, ut solet aer"
+    },
+    {
+      "n": 48,
+      "latin": "purpureus fieri, cum primum aurora movetur,"
+    },
+    {
+      "n": 49,
+      "latin": "et breve post tempus candescere solis ab ortu."
+    },
+    {
+      "n": 50,
+      "latin": "Perstat in incepto stolidaeque cupidine palmae"
+    },
+    {
+      "n": 51,
+      "latin": "in sua fata ruit: neque enim Iove nata recusat,"
+    },
+    {
+      "n": 52,
+      "latin": "nec monet ulterius, nec iam certamina differt."
+    },
+    {
+      "n": 53,
+      "latin": "Haud mora, constituunt diversis partibus ambae"
+    },
+    {
+      "n": 54,
+      "latin": "et gracili geminas intendunt stamine telas"
+    },
+    {
+      "n": 55,
+      "latin": "(tela iugo iuncta est, stamen secernit harundo);"
+    },
+    {
+      "n": 56,
+      "latin": "inseritur medium radiis subtemen acutis,"
+    },
+    {
+      "n": 57,
+      "latin": "quod digiti expediunt, atque inter stamina ductum"
+    },
+    {
+      "n": 58,
+      "latin": "percusso paviunt insecti pectine dentes."
+    },
+    {
+      "n": 59,
+      "latin": "Utraque festinant cinctaeque ad pectora vestes"
+    },
+    {
+      "n": 60,
+      "latin": "bracchia docta movent, studio fallente laborem."
+    },
+    {
+      "n": 61,
+      "latin": "Illic et Tyrium quae purpura sensit aenum"
+    },
+    {
+      "n": 62,
+      "latin": "texitur et tenues parvi discriminis umbrae,"
+    },
+    {
+      "n": 63,
+      "latin": "qualis ab imbre solet percussis solibus arcus"
+    },
+    {
+      "n": 64,
+      "latin": "inficere ingenti longum curvamine caelum:"
+    },
+    {
+      "n": 65,
+      "latin": "in quo diversi niteant cum mille colores,"
+    },
+    {
+      "n": 66,
+      "latin": "transitus ipse tamen spectantia lumina fallit;"
+    },
+    {
+      "n": 67,
+      "latin": "usque adeo quod tangit idem est, tamen ultima distant."
+    },
+    {
+      "n": 68,
+      "latin": "Illic et lentum filis inmittitur aurum"
+    },
+    {
+      "n": 69,
+      "latin": "et vetus in tela deducitur argumentum."
+    },
+    {
+      "n": 70,
+      "latin": "Cecropia Pallas scopulum Mavortis in arce"
+    },
+    {
+      "n": 71,
+      "latin": "pingit et antiquam de terrae nomine litem."
+    },
+    {
+      "n": 72,
+      "latin": "Bis sex caelestes medio Iove sedibus altis"
+    },
+    {
+      "n": 73,
+      "latin": "augusta gravitate sedent. Sua quemque deorum"
+    },
+    {
+      "n": 74,
+      "latin": "inscribit facies: Iovis est regalis imago."
+    },
+    {
+      "n": 75,
+      "latin": "Stare deum pelagi longoque ferire tridente"
+    },
+    {
+      "n": 76,
+      "latin": "aspera saxa facit, medioque e vulnere saxi"
+    },
+    {
+      "n": 77,
+      "latin": "exsiluisse fretum, quo pignore vindicet urbem;"
+    },
+    {
+      "n": 78,
+      "latin": "at sibi dat clipeum, dat acutae cuspidis hastam,"
+    },
+    {
+      "n": 79,
+      "latin": "dat galeam capiti, defenditur aegide pectus,"
+    },
+    {
+      "n": 80,
+      "latin": "percussamque sua simulat de cuspide terram"
+    },
+    {
+      "n": 81,
+      "latin": "edere cum bacis fetum canentis olivae"
+    },
+    {
+      "n": 82,
+      "latin": "mirarique deos: operis Victoria finis."
+    },
+    {
+      "n": 83,
+      "latin": "Ut tamen exemplis intellegat aemula laudis,"
+    },
+    {
+      "n": 84,
+      "latin": "quod pretium speret pro tam furialibus ausis,"
+    },
+    {
+      "n": 85,
+      "latin": "quattuor in partes certamina quattuor addit,"
+    },
+    {
+      "n": 86,
+      "latin": "clara colore suo, brevibus distincta sigillis."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "lemma": "septemfluus",
+  "pos": "adj",
+  "glosses": [
+    "that flows in seven streams (\"seven-flowing mouth of the Nile\")"
+  ],
+  "head": "septemfluus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "septemfluus",
+      "gen.sg.masc": "septemflui",
+      "dat.sg.masc": "septemfluo",
+      "gen.sg.fem": "septemfluae",
+      "dat.sg.fem": "septemfluae",
+      "nom.sg.neut": "septemfluum",
+      "gen.sg.neut": "septemflui",
+      "dat.sg.neut": "septemfluo",
+      "acc.sg.neut": "septemfluum",
+      "acc.sg.masc": "septemfluum",
+      "abl.sg.masc": "septemfluo",
+      "nom.pl.masc": "septemflui",
+      "gen.pl.masc": "septemfluorum",
+      "acc.pl.masc": "septemfluos",
+      "nom.sg.fem": "septemflua",
+      "acc.sg.fem": "septemfluam",
+      "abl.sg.fem": "septemflua",
+      "nom.pl.fem": "septemfluae",
+      "gen.pl.fem": "septemfluarum",
+      "acc.pl.fem": "septemfluas",
+      "abl.sg.neut": "septemfluo",
+      "nom.pl.neut": "septemflua",
+      "gen.pl.neut": "septemfluorum",
+      "acc.pl.neut": "septemflua"
+    }
+  }
+}

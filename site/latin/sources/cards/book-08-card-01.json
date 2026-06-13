@@ -1,0 +1,332 @@
+{
+  "book": 8,
+  "card": 1,
+  "lines": [
+    1,
+    80
+  ],
+  "title_latin": "Nisus et Scylla.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 1,
+      "latin": "Iam nitidum retegente diem noctisque fugante"
+    },
+    {
+      "n": 2,
+      "latin": "tempora Lucifero cadit eurus, et umida surgunt"
+    },
+    {
+      "n": 3,
+      "latin": "nubila: dant placidi cursum redeuntibus austri"
+    },
+    {
+      "n": 4,
+      "latin": "Aeacidis Cephaloque, quibus feliciter acti"
+    },
+    {
+      "n": 5,
+      "latin": "ante exspectatum portus tenuere petitos."
+    },
+    {
+      "n": 6,
+      "latin": "Interea Minos Lelegeia litora vastat"
+    },
+    {
+      "n": 7,
+      "latin": "praetemptatque sui vires Mavortis in urbe"
+    },
+    {
+      "n": 8,
+      "latin": "Alcathoi, quam Nisus habet, cui splendidus ostro"
+    },
+    {
+      "n": 9,
+      "latin": "inter honoratos medioque in vertice canos"
+    },
+    {
+      "n": 10,
+      "latin": "crinis inhaerebat, magni fiducia regni."
+    },
+    {
+      "n": 11,
+      "latin": "Sexta resurgebant orientis cornua lunae,"
+    },
+    {
+      "n": 12,
+      "latin": "et pendebat adhuc belli fortuna: diuque"
+    },
+    {
+      "n": 13,
+      "latin": "inter utrumque volat dubiis Victoria pennis."
+    },
+    {
+      "n": 14,
+      "latin": "Regia turris erat vocalibus addita muris,"
+    },
+    {
+      "n": 15,
+      "latin": "in quibus auratam proles Letoia fertur"
+    },
+    {
+      "n": 16,
+      "latin": "deposuisse lyram: saxo sonus eius inhaesit."
+    },
+    {
+      "n": 17,
+      "latin": "Saepe illuc solita est ascendere filia Nisi"
+    },
+    {
+      "n": 18,
+      "latin": "et petere exiguo resonantia saxa lapillo,"
+    },
+    {
+      "n": 19,
+      "latin": "tum cum pax esset: bello quoque saepe solebat"
+    },
+    {
+      "n": 20,
+      "latin": "spectare ex illa rigidi certamina Martis."
+    },
+    {
+      "n": 21,
+      "latin": "Iamque mora belli procerum quoque nomina norat"
+    },
+    {
+      "n": 22,
+      "latin": "armaque equosque habitusque Cydonaeasque pharetras."
+    },
+    {
+      "n": 23,
+      "latin": "Noverat ante alios faciem ducis Europaei,"
+    },
+    {
+      "n": 24,
+      "latin": "plus etiam, quam nosse sat est. Hac iudice Minos,"
+    },
+    {
+      "n": 25,
+      "latin": "seu caput abdiderat cristata casside pennis,"
+    },
+    {
+      "n": 26,
+      "latin": "in galea formosus erat; seu sumpserat aere"
+    },
+    {
+      "n": 27,
+      "latin": "fulgentem clipeum, clipeum sumpsisse decebat."
+    },
+    {
+      "n": 28,
+      "latin": "Torserat adductis hastilia lenta lacertis:"
+    },
+    {
+      "n": 29,
+      "latin": "laudabat virgo iunctam cum viribus artem."
+    },
+    {
+      "n": 30,
+      "latin": "Imposito calamo patulos sinuaverat arcus:"
+    },
+    {
+      "n": 31,
+      "latin": "sic Phoebum sumptis iurabat stare sagittis."
+    },
+    {
+      "n": 32,
+      "latin": "Cum vero faciem dempto nudaverat aere"
+    },
+    {
+      "n": 33,
+      "latin": "purpureusque albi stratis insignia pictis"
+    },
+    {
+      "n": 34,
+      "latin": "terga premebat equi spumantiaque ora regebat,"
+    },
+    {
+      "n": 35,
+      "latin": "vix sua, vix sanae virgo Niseia compos"
+    },
+    {
+      "n": 36,
+      "latin": "mentis erat. Felix iaculum, quod tangeret ille,"
+    },
+    {
+      "n": 37,
+      "latin": "quaeque manu premeret, felicia frena vocabat."
+    },
+    {
+      "n": 38,
+      "latin": "Impetus est illi, liceat modo, ferre per agmen"
+    },
+    {
+      "n": 39,
+      "latin": "virgineos hostile gradus, est impetus illi"
+    },
+    {
+      "n": 40,
+      "latin": "turribus e summis in Gnosia mittere corpus"
+    },
+    {
+      "n": 41,
+      "latin": "castra, vel aeratas hosti recludere portas,"
+    },
+    {
+      "n": 42,
+      "latin": "vel siquid Minos aliud velit. Utque sedebat"
+    },
+    {
+      "n": 43,
+      "latin": "candida Dictaei spectans tentoria regis,"
+    },
+    {
+      "n": 44,
+      "latin": "“laeter,” ait “doleamne geri lacrimabile bellum,"
+    },
+    {
+      "n": 45,
+      "latin": "in dubio est. Doleo, quod Minos hostis amanti est:"
+    },
+    {
+      "n": 46,
+      "latin": "sed nisi bella forent, numquam mihi cognitus esset."
+    },
+    {
+      "n": 47,
+      "latin": "Me tamen accepta poterat deponere bellum"
+    },
+    {
+      "n": 48,
+      "latin": "obside, me comitem, me pacis pignus haberet."
+    },
+    {
+      "n": 49,
+      "latin": "Si quae te peperit, talis, pulcherrime rerum,"
+    },
+    {
+      "n": 50,
+      "latin": "qualis es ipsa fuit, merito deus arsit in illa."
+    },
+    {
+      "n": 51,
+      "latin": "O ego ter felix, si pennis lapsa per auras"
+    },
+    {
+      "n": 52,
+      "latin": "Gnosiaci possem castris insistere regis"
+    },
+    {
+      "n": 53,
+      "latin": "fassaque me flammasque meas, qua dote, rogarem,"
+    },
+    {
+      "n": 54,
+      "latin": "vellet emi! tantum patrias ne posceret arces."
+    },
+    {
+      "n": 55,
+      "latin": "Nam pereant potius sperata cubilia, quam sim"
+    },
+    {
+      "n": 56,
+      "latin": "proditione potens! — Quamvis saepe utile vinci"
+    },
+    {
+      "n": 57,
+      "latin": "victoris placidi fecit clementia multis:"
+    },
+    {
+      "n": 58,
+      "latin": "iusta gerit certe pro nato bella perempto"
+    },
+    {
+      "n": 59,
+      "latin": "et causaque valet causamque tenentibus armis,"
+    },
+    {
+      "n": 60,
+      "latin": "et, puto, vincemur. Quis enim manet exitus urbem,"
+    },
+    {
+      "n": 61,
+      "latin": "cum suus haec illi reserabit moenia Mavors"
+    },
+    {
+      "n": 62,
+      "latin": "et non noster amor? Melius sine caede moraque"
+    },
+    {
+      "n": 63,
+      "latin": "impensaque sui poterit superare cruoris."
+    },
+    {
+      "n": 64,
+      "latin": "Non metuam certe, ne quis tua pectora, Minos,"
+    },
+    {
+      "n": 65,
+      "latin": "vulneret imprudens. Quis enim tam durus, ut in te"
+    },
+    {
+      "n": 66,
+      "latin": "dirigere inmitem non inscius audeat hastam?"
+    },
+    {
+      "n": 67,
+      "latin": "Coepta placent, et stat sententia tradere mecum"
+    },
+    {
+      "n": 68,
+      "latin": "dotalem patriam finemque imponere bello."
+    },
+    {
+      "n": 69,
+      "latin": "Verum velle parum est! Aditus custodia servat"
+    },
+    {
+      "n": 70,
+      "latin": "claustraque portarum genitor tenet: hunc ego solum"
+    },
+    {
+      "n": 71,
+      "latin": "infelix timeo, solus mea vota moratur."
+    },
+    {
+      "n": 72,
+      "latin": "Di facerent, sine patre forem! — Sibi quisque profecto"
+    },
+    {
+      "n": 73,
+      "latin": "est deus: ignavis precibus Fortuna repugnat."
+    },
+    {
+      "n": 74,
+      "latin": "Altera iamdudum succensa cupidine tanto"
+    },
+    {
+      "n": 75,
+      "latin": "perdere gauderet quodcumque obstaret amori."
+    },
+    {
+      "n": 76,
+      "latin": "Et cur ulla foret me fortior? Ire per ignes"
+    },
+    {
+      "n": 77,
+      "latin": "et gladios ausim. Nec in hoc tamen ignibus ullis"
+    },
+    {
+      "n": 78,
+      "latin": "aut gladiis opus est: opus est mihi crine paterno."
+    },
+    {
+      "n": 79,
+      "latin": "Illa mihi est auro pretiosior, illa beatam"
+    },
+    {
+      "n": 80,
+      "latin": "purpura me votique mei factura potentem.”"
+    }
+  ]
+}

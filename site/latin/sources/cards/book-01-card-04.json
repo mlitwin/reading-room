@@ -1,0 +1,372 @@
+{
+  "book": 1,
+  "card": 4,
+  "lines": [
+    163,
+    252
+  ],
+  "title_latin": "Lycaon.",
+  "title_english": "The Deluge",
+  "text": [
+    {
+      "n": 163,
+      "latin": "Quae pater ut summa vidit Saturnius arce,"
+    },
+    {
+      "n": 164,
+      "latin": "ingemit et, facto nondum vulgata recenti,"
+    },
+    {
+      "n": 165,
+      "latin": "foeda Lycaoniae referens convivia mensae,"
+    },
+    {
+      "n": 166,
+      "latin": "ingentes animo et dignas Iove concipit iras,"
+    },
+    {
+      "n": 167,
+      "latin": "conciliumque vocat: tenuit mora nulla vocatos."
+    },
+    {
+      "n": 168,
+      "latin": "Est via sublimis, caelo manifesta sereno:"
+    },
+    {
+      "n": 169,
+      "latin": "lactea nomen habet, candore notabilis ipso."
+    },
+    {
+      "n": 170,
+      "latin": "Hac iter est superis ad magni tecta Tonantis"
+    },
+    {
+      "n": 171,
+      "latin": "regalemque domum. Dextra laevaque deorum"
+    },
+    {
+      "n": 172,
+      "latin": "atria nobilium valvis celebrantur apertis"
+    },
+    {
+      "n": 173,
+      "latin": "(plebs habitat diversa locis): hac parte potentes"
+    },
+    {
+      "n": 174,
+      "latin": "caelicolae clarique suos posuere penates."
+    },
+    {
+      "n": 175,
+      "latin": "Hic locus est, quem, si verbis audacia detur,"
+    },
+    {
+      "n": 176,
+      "latin": "haud timeam magni dixisse Palatia caeli."
+    },
+    {
+      "n": 177,
+      "latin": "Ergo ubi marmoreo superi sedere recessu,"
+    },
+    {
+      "n": 178,
+      "latin": "celsior ipse loco sceptroque innixus eburno"
+    },
+    {
+      "n": 179,
+      "latin": "terrificam capitis concussit terque quaterque"
+    },
+    {
+      "n": 180,
+      "latin": "caesariem, cum qua terram, mare, sidera movit."
+    },
+    {
+      "n": 181,
+      "latin": "Talibus inde modis ora indignantia solvit:"
+    },
+    {
+      "n": 182,
+      "latin": "“Non ego pro mundi regno magis anxius illa"
+    },
+    {
+      "n": 183,
+      "latin": "tempestate fui, qua centum quisque parabat"
+    },
+    {
+      "n": 184,
+      "latin": "inicere anguipedum captivo bracchia caelo."
+    },
+    {
+      "n": 185,
+      "latin": "Nam quamquam ferus hostis erat, tamen illud ab uno"
+    },
+    {
+      "n": 186,
+      "latin": "corpore et ex una pendebat origine bellum."
+    },
+    {
+      "n": 187,
+      "latin": "Nunc mihi, qua totum Nereus circumsonat orbem,"
+    },
+    {
+      "n": 188,
+      "latin": "perdendum est mortale genus: per flumina iuro"
+    },
+    {
+      "n": 189,
+      "latin": "infera, sub terras Stygio labentia luco!"
+    },
+    {
+      "n": 190,
+      "latin": "cuncta prius temptata: sed inmedicabile corpus"
+    },
+    {
+      "n": 191,
+      "latin": "ense recidendum est, ne pars sincera trahatur."
+    },
+    {
+      "n": 192,
+      "latin": "Sunt mihi semidei, sunt rustica numina, nymphae"
+    },
+    {
+      "n": 193,
+      "latin": "faunique satyrique et monticolae silvani:"
+    },
+    {
+      "n": 194,
+      "latin": "quos quoniam caeli nondum dignamur honore,"
+    },
+    {
+      "n": 195,
+      "latin": "quas dedimus certe terras habitare sinamus."
+    },
+    {
+      "n": 196,
+      "latin": "An satis, o superi, tutos fore creditis illos,"
+    },
+    {
+      "n": 197,
+      "latin": "cum mihi, qui fulmen, qui vos habeoque regoque,"
+    },
+    {
+      "n": 198,
+      "latin": "struxerit insidias notus feritate Lycaon?”"
+    },
+    {
+      "n": 199,
+      "latin": "Confremuere omnes studiisque ardentibus ausum"
+    },
+    {
+      "n": 200,
+      "latin": "talia deposcunt. Sic, cum manus inpia saevit"
+    },
+    {
+      "n": 201,
+      "latin": "sanguine Caesareo Romanum exstinguere nomen,"
+    },
+    {
+      "n": 202,
+      "latin": "attonitum tanto subitae terrore ruinae"
+    },
+    {
+      "n": 203,
+      "latin": "humanum genus est totusque perhorruit orbis:"
+    },
+    {
+      "n": 204,
+      "latin": "nec tibi grata minus pietas, Auguste, tuorum est,"
+    },
+    {
+      "n": 205,
+      "latin": "quam fuit illa Iovi. Qui postquam voce manuque"
+    },
+    {
+      "n": 206,
+      "latin": "murmura conpressit, tenuere silentia cuncti."
+    },
+    {
+      "n": 207,
+      "latin": "Substitit ut clamor pressus gravitate regentis,"
+    },
+    {
+      "n": 208,
+      "latin": "Iuppiter hoc iterum sermone silentia rupit:"
+    },
+    {
+      "n": 209,
+      "latin": "“Ille quidem poenas, curam hanc dimittite, solvit."
+    },
+    {
+      "n": 210,
+      "latin": "Quod tamen admissum, quae sit vindicta, docebo."
+    },
+    {
+      "n": 211,
+      "latin": "Contigerat nostras infamia temporis aures;"
+    },
+    {
+      "n": 212,
+      "latin": "quam cupiens falsam summo delabor Olympo"
+    },
+    {
+      "n": 213,
+      "latin": "et deus humana lustro sub imagine terras."
+    },
+    {
+      "n": 214,
+      "latin": "Longa mora est, quantum noxae sit ubique repertum,"
+    },
+    {
+      "n": 215,
+      "latin": "enumerare: minor fuit ipsa infamia vero."
+    },
+    {
+      "n": 216,
+      "latin": "Maenala transieram latebris horrenda ferarum"
+    },
+    {
+      "n": 217,
+      "latin": "et cum Cyllene gelidi pineta Lycaei:"
+    },
+    {
+      "n": 218,
+      "latin": "Arcadis hinc sedes et inhospita tecta tyranni"
+    },
+    {
+      "n": 219,
+      "latin": "ingredior, traherent cum sera crepuscula noctem."
+    },
+    {
+      "n": 220,
+      "latin": "Signa dedi venisse deum, vulgusque precari"
+    },
+    {
+      "n": 221,
+      "latin": "coeperat: inridet primo pia vota Lycaon,"
+    },
+    {
+      "n": 222,
+      "latin": "mox ait ”experiar deus hic, discrimine aperto,"
+    },
+    {
+      "n": 223,
+      "latin": "an sit mortalis. Nec erit dubitabile verum.”"
+    },
+    {
+      "n": 224,
+      "latin": "Nocte gravem somno necopina perdere morte"
+    },
+    {
+      "n": 225,
+      "latin": "me parat: haec illi placet experientia veri."
+    },
+    {
+      "n": 226,
+      "latin": "Nec contentus eo est: missi de gente Molossa"
+    },
+    {
+      "n": 227,
+      "latin": "obsidis unius iugulum mucrone resolvit,"
+    },
+    {
+      "n": 228,
+      "latin": "atque ita semineces partim ferventibus artus"
+    },
+    {
+      "n": 229,
+      "latin": "mollit aquis, partim subiecto torruit igni."
+    },
+    {
+      "n": 230,
+      "latin": "Quod simul inposuit mensis, ego vindice flamma"
+    },
+    {
+      "n": 231,
+      "latin": "in domino dignos everti tecta penates."
+    },
+    {
+      "n": 232,
+      "latin": "Territus ipse fugit, nactusque silentia ruris"
+    },
+    {
+      "n": 233,
+      "latin": "exululat frustraque loqui conatur: ab ipso"
+    },
+    {
+      "n": 234,
+      "latin": "conligit os rabiem, solitaeque cupidine caedis"
+    },
+    {
+      "n": 235,
+      "latin": "vertitur in pecudes et nunc quoque sanguine gaudet."
+    },
+    {
+      "n": 236,
+      "latin": "In villos abeunt vestes, in crura lacerti:"
+    },
+    {
+      "n": 237,
+      "latin": "fit lupus et veteris servat vestigia formae."
+    },
+    {
+      "n": 238,
+      "latin": "Canities eadem est, eadem violentia vultus,"
+    },
+    {
+      "n": 239,
+      "latin": "idem oculi lucent, eadem feritatis imago est."
+    },
+    {
+      "n": 240,
+      "latin": "Occidit una domus. Sed non domus una perire"
+    },
+    {
+      "n": 241,
+      "latin": "digna fuit: qua terra patet, fera regnat Erinys."
+    },
+    {
+      "n": 242,
+      "latin": "In facinus iurasse putes. Dent ocius omnes"
+    },
+    {
+      "n": 243,
+      "latin": "quas meruere pati (sic stat sententia) poenas.”"
+    },
+    {
+      "n": 244,
+      "latin": "Dicta Iovis pars voce probant stimulosque frementi"
+    },
+    {
+      "n": 245,
+      "latin": "adiciunt, alii partes adsensibus inplent."
+    },
+    {
+      "n": 246,
+      "latin": "Est tamen humani generis iactura dolori"
+    },
+    {
+      "n": 247,
+      "latin": "omnibus, et, quae sit terrae mortalibus orbae"
+    },
+    {
+      "n": 248,
+      "latin": "forma futura, rogant, quis sit laturus in aras"
+    },
+    {
+      "n": 249,
+      "latin": "tura, ferisne paret populandas tradere terras."
+    },
+    {
+      "n": 250,
+      "latin": "Talia quaerentes (sibi enim fore cetera curae)"
+    },
+    {
+      "n": 251,
+      "latin": "rex superum trepidare vetat subolemque priori"
+    },
+    {
+      "n": 252,
+      "latin": "dissimilem populo promittit origine mira."
+    }
+  ]
+}

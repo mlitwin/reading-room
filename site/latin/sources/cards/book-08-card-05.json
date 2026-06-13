@@ -1,0 +1,424 @@
+{
+  "book": 8,
+  "card": 5,
+  "lines": [
+    260,
+    364
+  ],
+  "title_latin": "Aper Calydonius. Meleager.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 260,
+      "latin": "Iamque fatigatum tellus Aetnaea tenebat"
+    },
+    {
+      "n": 261,
+      "latin": "Daedalon, et sumptis pro supplice Cocalus armis"
+    },
+    {
+      "n": 262,
+      "latin": "mitis habebatur, iam lamentabile Athenae"
+    },
+    {
+      "n": 263,
+      "latin": "pendere desierant Thesea laude tributum."
+    },
+    {
+      "n": 264,
+      "latin": "Templa coronantur, bellatricemque Minervam"
+    },
+    {
+      "n": 265,
+      "latin": "cum Iove disque vocant aliis, quos sanguine voto"
+    },
+    {
+      "n": 266,
+      "latin": "muneribusque datis et acerris turis honorant."
+    },
+    {
+      "n": 267,
+      "latin": "Sparserat Argolicas nomen vaga fama per urbes"
+    },
+    {
+      "n": 268,
+      "latin": "Theseos, et populi, quos dives Achaia cepit,"
+    },
+    {
+      "n": 269,
+      "latin": "huius opem magnis imploravere periclis."
+    },
+    {
+      "n": 270,
+      "latin": "Huius opem Calydon, quamvis Meleagron haberet,"
+    },
+    {
+      "n": 271,
+      "latin": "sollicita supplex petiit prece. Causa petendi"
+    },
+    {
+      "n": 272,
+      "latin": "sus erat, infestae famulus vindexque Dianae."
+    },
+    {
+      "n": 273,
+      "latin": "Oenea namque ferunt pleni successibus anni"
+    },
+    {
+      "n": 274,
+      "latin": "primitias frugum Cereri, sua vina Lyaeo,"
+    },
+    {
+      "n": 275,
+      "latin": "Palladios flavae latices libasse Minervae."
+    },
+    {
+      "n": 276,
+      "latin": "Coeptus ab agricolis superos pervenit ad omnes"
+    },
+    {
+      "n": 277,
+      "latin": "ambitiosus honor; solas sine ture relictas"
+    },
+    {
+      "n": 278,
+      "latin": "praeteritae cessasse ferunt Latoidos aras."
+    },
+    {
+      "n": 279,
+      "latin": "Tangit et ira deos. “At non impune feremus,"
+    },
+    {
+      "n": 280,
+      "latin": "quaeque inhonoratae, non et dicemur inultae”"
+    },
+    {
+      "n": 281,
+      "latin": "inquit, et Oeneos ultorem spreta per agros"
+    },
+    {
+      "n": 282,
+      "latin": "misit aprum, quanto maiores herbida tauros"
+    },
+    {
+      "n": 283,
+      "latin": "non habet Epiros, sed habent Sicula arva minores."
+    },
+    {
+      "n": 284,
+      "latin": "Sanguine et igne micant oculi, riget horrida cervix,"
+    },
+    {
+      "n": 287,
+      "latin": "fervida cum rauco latos stridore per armos"
+    },
+    {
+      "n": 288,
+      "latin": "spuma fluit, dentes aequantur dentibus Indis,"
+    },
+    {
+      "n": 289,
+      "latin": "fulmen ab ore venit, frondes adflatibus ardent."
+    },
+    {
+      "n": 290,
+      "latin": "Is modo crescentes segetes proculcat in herba,"
+    },
+    {
+      "n": 291,
+      "latin": "nunc matura metit fleturi vota coloni"
+    },
+    {
+      "n": 292,
+      "latin": "et Cererem in spicis intercipit. Area frustra"
+    },
+    {
+      "n": 293,
+      "latin": "et frustra exspectant promissas horrea messes."
+    },
+    {
+      "n": 294,
+      "latin": "Sternuntur gravidi longo cum palmite fetus"
+    },
+    {
+      "n": 295,
+      "latin": "bacaque cum ramis semper frondentis olivae."
+    },
+    {
+      "n": 296,
+      "latin": "Saevit et in pecudes: non has pastorve canisve,"
+    },
+    {
+      "n": 297,
+      "latin": "non armenta truces possunt defendere tauri."
+    },
+    {
+      "n": 298,
+      "latin": "Diffugiunt populi nec se nisi moenibus urbis"
+    },
+    {
+      "n": 299,
+      "latin": "esse putant tutos, donec Meleagros et una"
+    },
+    {
+      "n": 300,
+      "latin": "lecta manus iuvenum coiere cupidine laudis:"
+    },
+    {
+      "n": 301,
+      "latin": "Tyndaridae gemini, spectatus caestibus alter,"
+    },
+    {
+      "n": 302,
+      "latin": "alter equo, primaeque ratis molitor Iason,"
+    },
+    {
+      "n": 303,
+      "latin": "et cum Pirithoo, felix concordia, Theseus;"
+    },
+    {
+      "n": 304,
+      "latin": "et duo Thestiadae prolesque Aphareia, Lynceus"
+    },
+    {
+      "n": 305,
+      "latin": "et velox Idas, et iam non femina Caeneus"
+    },
+    {
+      "n": 306,
+      "latin": "Leucippusque ferox iaculoque insignis Acastus"
+    },
+    {
+      "n": 307,
+      "latin": "Hippothousque Dryasque et cretus Amyntore Phoenix,"
+    },
+    {
+      "n": 308,
+      "latin": "Actoridaeque pares et missus ab Elide Phyleus."
+    },
+    {
+      "n": 309,
+      "latin": "Nec Telamon aberat magnique creator Achillis"
+    },
+    {
+      "n": 310,
+      "latin": "cumque Pheretiade et Hyanteo Iolao"
+    },
+    {
+      "n": 311,
+      "latin": "impiger Eurytion, et cursu invictus Echion,"
+    },
+    {
+      "n": 312,
+      "latin": "Naryciusque Lelex Panopeusque Hyleusque feroxque"
+    },
+    {
+      "n": 313,
+      "latin": "Hippasus et primis etiamnum Nestor in annis,"
+    },
+    {
+      "n": 314,
+      "latin": "et quos Hippocoon antiquis misit Amyclis,"
+    },
+    {
+      "n": 315,
+      "latin": "Penelopaeque socer cum Parrhasio Ancaeo,"
+    },
+    {
+      "n": 316,
+      "latin": "Ampycidesque sagax et adhuc a coniuge tutus"
+    },
+    {
+      "n": 317,
+      "latin": "Oeclides, nemorisque decus Tegeaea Lycaei."
+    },
+    {
+      "n": 318,
+      "latin": "Rasilis huic summam mordebat fibula vestem,"
+    },
+    {
+      "n": 319,
+      "latin": "crinis erat simplex, nodum conlectus in unum."
+    },
+    {
+      "n": 320,
+      "latin": "Ex umero pendens resonabat eburnea laevo"
+    },
+    {
+      "n": 321,
+      "latin": "telorum custos, arcum quoque laeva tenebat."
+    },
+    {
+      "n": 322,
+      "latin": "Talis erat cultu; facies, quam dicere vere"
+    },
+    {
+      "n": 323,
+      "latin": "virgineam in puero, puerilem in virgine possis."
+    },
+    {
+      "n": 324,
+      "latin": "Hanc pariter vidit, pariter Calydonius heros"
+    },
+    {
+      "n": 325,
+      "latin": "optavit renuente deo flammasque latentes"
+    },
+    {
+      "n": 326,
+      "latin": "hausit et “o felix, siquem dignabitur” inquit"
+    },
+    {
+      "n": 327,
+      "latin": "“ista virum.” Nec plura sinit tempusque pudorque"
+    },
+    {
+      "n": 328,
+      "latin": "dicere: maius opus magni certaminis urget."
+    },
+    {
+      "n": 329,
+      "latin": "Silva frequens trabibus, quam nulla ceciderat aetas,"
+    },
+    {
+      "n": 330,
+      "latin": "incipit a plano devexaque prospicit arva."
+    },
+    {
+      "n": 331,
+      "latin": "Quo postquam venere viri, pars retia tendunt,"
+    },
+    {
+      "n": 332,
+      "latin": "vincula pars adimunt canibus, pars pressa sequuntur"
+    },
+    {
+      "n": 333,
+      "latin": "signa pedum cupiuntque suum reperire periclum."
+    },
+    {
+      "n": 334,
+      "latin": "Concava vallis erat, quo se demittere rivi"
+    },
+    {
+      "n": 335,
+      "latin": "adsuerant pluvialis aquae: tenet ima lacunae"
+    },
+    {
+      "n": 336,
+      "latin": "lenta salix ulvaeque leves iuncique palustres"
+    },
+    {
+      "n": 337,
+      "latin": "viminaque et longa parvae sub harundine cannae."
+    },
+    {
+      "n": 338,
+      "latin": "Hinc aper excitus medios violentus in hostes"
+    },
+    {
+      "n": 339,
+      "latin": "fertur, ut excussis elisi nubibus ignes."
+    },
+    {
+      "n": 340,
+      "latin": "Sternitur incursu nemus et propulsa fragorem"
+    },
+    {
+      "n": 341,
+      "latin": "silva dat. Exclamant iuvenes praetentaque forti"
+    },
+    {
+      "n": 342,
+      "latin": "tela tenent dextra lato vibrantia ferro."
+    },
+    {
+      "n": 343,
+      "latin": "Ille ruit spargitque canes, ut quisque furenti"
+    },
+    {
+      "n": 344,
+      "latin": "obstat, et obliquo latrantes dissipat ictu."
+    },
+    {
+      "n": 345,
+      "latin": "Cuspis Echionio primum contorta lacerto"
+    },
+    {
+      "n": 346,
+      "latin": "vana fuit truncoque dedit leve vulnus acerno."
+    },
+    {
+      "n": 347,
+      "latin": "Proxima, si nimiis mittentis viribus usa"
+    },
+    {
+      "n": 348,
+      "latin": "non foret, in tergo visa est haesura petito:"
+    },
+    {
+      "n": 349,
+      "latin": "longius it. Auctor teli Pagasaeus Iason."
+    },
+    {
+      "n": 350,
+      "latin": "“Phoebe,” ait Ampycides “si te coluique coloque,"
+    },
+    {
+      "n": 351,
+      "latin": "da mihi quod petitur certo contingere telo!”"
+    },
+    {
+      "n": 352,
+      "latin": "Qua potuit, precibus deus adnuit: ictus ab illo est,"
+    },
+    {
+      "n": 353,
+      "latin": "sed sine vulnere, aper; ferrum Diana volanti"
+    },
+    {
+      "n": 354,
+      "latin": "abstulerat iaculo: lignum sine acumine venit."
+    },
+    {
+      "n": 355,
+      "latin": "Ira feri mota est, nec fulmine lenius arsit:"
+    },
+    {
+      "n": 356,
+      "latin": "emicat ex oculis, spirat quoque pectore flamma."
+    },
+    {
+      "n": 357,
+      "latin": "Utque volat moles adducto concita nervo,"
+    },
+    {
+      "n": 358,
+      "latin": "cum petit aut muros aut plenas milite turres,"
+    },
+    {
+      "n": 359,
+      "latin": "in iuvenes certo sic impete vulnificus sus"
+    },
+    {
+      "n": 360,
+      "latin": "fertur et Hippalmon Pelagonaque, dextra tuentes"
+    },
+    {
+      "n": 361,
+      "latin": "cornua, prosternit; socii rapuere iacentes."
+    },
+    {
+      "n": 362,
+      "latin": "At non letiferos effugit Enaesimus ictus,"
+    },
+    {
+      "n": 363,
+      "latin": "Hippocoonte satus: trepidantem et terga parantem"
+    },
+    {
+      "n": 364,
+      "latin": "vertere succiso liquerunt poplite nervi."
+    }
+  ]
+}

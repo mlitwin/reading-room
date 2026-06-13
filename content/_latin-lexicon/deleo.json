@@ -1,0 +1,45 @@
+{
+  "lemma": "deleo",
+  "pos": "verb",
+  "glosses": [
+    "erase, wipe/scratch/remove (letters/marks), wipe/blot out, expunge, delete",
+    "annihilate/exterminate, kill every member of a group",
+    "put end to, end/abolish",
+    "destroy completely, demolish/obliterate/crush",
+    "ruin",
+    "overthrow"
+  ],
+  "head": "deleo, delere, delevi, deletum",
+  "principal_parts": [
+    "deleo",
+    "delere",
+    "delevi",
+    "deletum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "deleo",
+      "2sg.pres.ind.act": "deles",
+      "3sg.pres.ind.act": "delet",
+      "1pl.pres.ind.act": "delemus",
+      "2pl.pres.ind.act": "deletis",
+      "3pl.pres.ind.act": "delent",
+      "2sg.pres.imp.act": "dele",
+      "2pl.pres.imp.act": "delete"
+    }
+  }
+}

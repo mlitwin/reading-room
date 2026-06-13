@@ -1,0 +1,412 @@
+{
+  "book": 2,
+  "card": 4,
+  "lines": [
+    301,
+    400
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 301,
+      "latin": "Dixerat haec Tellus: neque enim tolerare vaporem"
+    },
+    {
+      "n": 302,
+      "latin": "ulterius potuit nec dicere plura: suumque"
+    },
+    {
+      "n": 303,
+      "latin": "rettulit os in se propioraque manibus antra."
+    },
+    {
+      "n": 304,
+      "latin": "At pater omnipotens, superos testatus et ipsum,"
+    },
+    {
+      "n": 305,
+      "latin": "qui dederat currus, nisi opem ferat, omnia fato"
+    },
+    {
+      "n": 306,
+      "latin": "interitura gravi, summam petit arduus arcem,"
+    },
+    {
+      "n": 307,
+      "latin": "unde solet nubes latis inducere terris,"
+    },
+    {
+      "n": 308,
+      "latin": "unde movet tonitrus vibrataque fulmina iactat."
+    },
+    {
+      "n": 309,
+      "latin": "Sed neque quas posset terris inducere nubes"
+    },
+    {
+      "n": 310,
+      "latin": "tunc habuit, nec quos caelo demitteret imbres."
+    },
+    {
+      "n": 311,
+      "latin": "Intonat et dextra libratum fulmen ab aure"
+    },
+    {
+      "n": 312,
+      "latin": "misit in aurigam pariterque animaque rotisque"
+    },
+    {
+      "n": 313,
+      "latin": "expulit et saevis compescuit ignibus ignes."
+    },
+    {
+      "n": 314,
+      "latin": "Consternantur equi et saltu in contraria facto"
+    },
+    {
+      "n": 315,
+      "latin": "colla iugo eripiunt abruptaque lora relinquunt."
+    },
+    {
+      "n": 316,
+      "latin": "Illic frena iacent, illic temone revulsus"
+    },
+    {
+      "n": 317,
+      "latin": "axis, in hac radii fractarum parte rotarum,"
+    },
+    {
+      "n": 318,
+      "latin": "sparsaque sunt late laceri vestigia currus."
+    },
+    {
+      "n": 319,
+      "latin": "At Phaethon rutilos flamma populante capillos,"
+    },
+    {
+      "n": 320,
+      "latin": "volvitur in praeceps longoque per aera tractu"
+    },
+    {
+      "n": 321,
+      "latin": "fertur, ut interdum de caelo stella sereno"
+    },
+    {
+      "n": 322,
+      "latin": "etsi non cecidit, potuit cecidisse videri."
+    },
+    {
+      "n": 323,
+      "latin": "Quem procul a patria diverso maximus orbe"
+    },
+    {
+      "n": 324,
+      "latin": "excipit Eridanus fumantiaque abluit ora."
+    },
+    {
+      "n": 325,
+      "latin": "Naïdes Hesperiae trifida fumantia flamma"
+    },
+    {
+      "n": 326,
+      "latin": "corpora dant tumulo, signant quoque carmine saxum:"
+    },
+    {
+      "n": 327,
+      "latin": "HIC SITUS EST PHAETHON, CURRUS AURIGA PATERNI:"
+    },
+    {
+      "n": 328,
+      "latin": "QUEM SI NON TENUIT, MAGNIS TAMEN EXCIDIT AUSIS."
+    },
+    {
+      "n": 329,
+      "latin": "Nam pater obductos, luctu miserabilis aegro"
+    },
+    {
+      "n": 330,
+      "latin": "condiderat vultus: et, si modo credimus, unum"
+    },
+    {
+      "n": 331,
+      "latin": "isse diem sine sole ferunt: incendia lumen"
+    },
+    {
+      "n": 332,
+      "latin": "praebebant aliquisque malo fuit usus in illo."
+    },
+    {
+      "n": 333,
+      "latin": "At Clymene postquam dixit quaecumque fuerunt"
+    },
+    {
+      "n": 334,
+      "latin": "in tantis dicenda malis, lugubris et amens"
+    },
+    {
+      "n": 335,
+      "latin": "et laniata sinus totum percensuit orbem,"
+    },
+    {
+      "n": 336,
+      "latin": "exanimesque artus primo, mox ossa requirens"
+    },
+    {
+      "n": 337,
+      "latin": "repperit (ossa tamen peregrina condita ripa!),"
+    },
+    {
+      "n": 338,
+      "latin": "incubuitque loco nomenque in marmore lectum"
+    },
+    {
+      "n": 339,
+      "latin": "perfudit lacrimis et aperto pectore fovit."
+    },
+    {
+      "n": 340,
+      "latin": "Nec minus Heliades lugent et inania morti"
+    },
+    {
+      "n": 341,
+      "latin": "munera dant lacrimas, et caesae pectora palmis"
+    },
+    {
+      "n": 342,
+      "latin": "non auditurum miseras Phaethonta querellas"
+    },
+    {
+      "n": 343,
+      "latin": "nocte dieque vocant adsternunturque sepulcro."
+    },
+    {
+      "n": 344,
+      "latin": "Luna quater iunctis implerat cornibus orbem:"
+    },
+    {
+      "n": 345,
+      "latin": "illae more suo (nam morem fecerat usus)"
+    },
+    {
+      "n": 346,
+      "latin": "plangorem dederant. E quis Phaethusa, sororum"
+    },
+    {
+      "n": 347,
+      "latin": "maxima, cum vellet terra procumbere, questa est"
+    },
+    {
+      "n": 348,
+      "latin": "deriguisse pedes. Ad quam conata venire"
+    },
+    {
+      "n": 349,
+      "latin": "candida Lampetie subita radice retenta est."
+    },
+    {
+      "n": 350,
+      "latin": "Tertia cum crinem manibus laniare pararet,"
+    },
+    {
+      "n": 351,
+      "latin": "avellit frondes; haec stipite crura teneri,"
+    },
+    {
+      "n": 352,
+      "latin": "illa dolet fieri longos sua bracchia ramos."
+    },
+    {
+      "n": 353,
+      "latin": "Dumque ea mirantur, complectitur inguina cortex,"
+    },
+    {
+      "n": 354,
+      "latin": "perque gradus uterum pectusque umerosque manusque"
+    },
+    {
+      "n": 355,
+      "latin": "ambit et exstabant tantum ora vocantia matrem."
+    },
+    {
+      "n": 356,
+      "latin": "Quid faciat mater, nisi, quo trahat impetus illam,"
+    },
+    {
+      "n": 357,
+      "latin": "huc eat atque illuc, et, dum licet, oscula iungat?"
+    },
+    {
+      "n": 358,
+      "latin": "Non satis est; truncis avellere corpora temptat,"
+    },
+    {
+      "n": 359,
+      "latin": "et teneros manibus ramos abrumpit; at inde"
+    },
+    {
+      "n": 360,
+      "latin": "sanguineae manant, tamquam de vulnere, guttae."
+    },
+    {
+      "n": 361,
+      "latin": "“Parce, precor, mater”, quaecumque est saucia, clamat,"
+    },
+    {
+      "n": 362,
+      "latin": "“parce, precor: nostrum laceratur in arbore corpus."
+    },
+    {
+      "n": 363,
+      "latin": "iamque vale” —cortex in verba novissima venit."
+    },
+    {
+      "n": 364,
+      "latin": "Inde fluunt lacrimae, stillataque sole rigescunt"
+    },
+    {
+      "n": 365,
+      "latin": "de ramis electra novis, quae lucidus amnis"
+    },
+    {
+      "n": 366,
+      "latin": "excipit et nuribus mittit gestanda Latinis."
+    },
+    {
+      "n": 367,
+      "latin": "Adfuit huic monstro proles Stheneleia Cycnus,"
+    },
+    {
+      "n": 368,
+      "latin": "qui tibi materno quamvis a sanguine iunctus,"
+    },
+    {
+      "n": 369,
+      "latin": "mente tamen, Phaethon, propior fuit. Ille relicto"
+    },
+    {
+      "n": 370,
+      "latin": "(nam Ligurum populos et magnas rexerat urbes)"
+    },
+    {
+      "n": 371,
+      "latin": "imperio ripas virides amnemque querellis"
+    },
+    {
+      "n": 372,
+      "latin": "Eridanum implerat silvamque sororibus auctam,"
+    },
+    {
+      "n": 373,
+      "latin": "cum vox est tenuata viro, canaeque capillos"
+    },
+    {
+      "n": 374,
+      "latin": "dissimulant plumae, collumque a pectore longe"
+    },
+    {
+      "n": 375,
+      "latin": "porrigitur, digitosque ligat iunctura rubentes,"
+    },
+    {
+      "n": 376,
+      "latin": "penna latus velat, tenet os sine acumine rostrum."
+    },
+    {
+      "n": 377,
+      "latin": "Fit nova Cycnus avis, nec se caeloque Iovique"
+    },
+    {
+      "n": 378,
+      "latin": "credit, ut iniuste missi memor ignis ab illo:"
+    },
+    {
+      "n": 379,
+      "latin": "stagna petit patulosque lacus, ignemque perosus"
+    },
+    {
+      "n": 380,
+      "latin": "quae colat elegit contraria flumina flammis."
+    },
+    {
+      "n": 381,
+      "latin": "Squalidus interea genitor Phaethontis et expers"
+    },
+    {
+      "n": 382,
+      "latin": "ipse sui decoris, qualis, cum deficit orbem,"
+    },
+    {
+      "n": 383,
+      "latin": "esse solet, lucemque odit seque ipse diemque,"
+    },
+    {
+      "n": 384,
+      "latin": "datque animum in luctus; et luctibus adicit iram"
+    },
+    {
+      "n": 385,
+      "latin": "officiumque negat mundo. “Satis” inquit “ab aevi"
+    },
+    {
+      "n": 386,
+      "latin": "sors mea principiis fuit inrequieta, pigetque"
+    },
+    {
+      "n": 387,
+      "latin": "actorum sine fine mihi, sine honore, laborum."
+    },
+    {
+      "n": 388,
+      "latin": "Quilibet alter agat portantes lumina currus!"
+    },
+    {
+      "n": 389,
+      "latin": "Si nemo est omnesque dei non posse fatentur,"
+    },
+    {
+      "n": 390,
+      "latin": "ipse agat ut saltem, dum nostras temptat habenas,"
+    },
+    {
+      "n": 391,
+      "latin": "orbatura patres aliquando fulmina ponat."
+    },
+    {
+      "n": 392,
+      "latin": "Tum sciet, ignipedum vires expertus equorum,"
+    },
+    {
+      "n": 393,
+      "latin": "non meruisse necem, qui non bene rexerit illos.”"
+    },
+    {
+      "n": 394,
+      "latin": "Talia dicentem circumstant omnia Solem"
+    },
+    {
+      "n": 395,
+      "latin": "numina, neve velit tenebras inducere rebus,"
+    },
+    {
+      "n": 396,
+      "latin": "supplice voce rogant: missos quoque Iuppiter ignes"
+    },
+    {
+      "n": 397,
+      "latin": "excusat precibusque minas regaliter addit."
+    },
+    {
+      "n": 398,
+      "latin": "Conligit amentes et adhuc terrore paventes"
+    },
+    {
+      "n": 399,
+      "latin": "Phoebus equos stimuloque dolens et verbere saevit:"
+    },
+    {
+      "n": 400,
+      "latin": "saevit enim, natumque obiectat et imputat illis."
+    }
+  ]
+}

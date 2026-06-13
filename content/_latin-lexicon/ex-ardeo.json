@@ -1,0 +1,45 @@
+{
+  "lemma": "ex-ardeo",
+  "pos": "verb",
+  "glosses": [
+    "be on fire",
+    "burn, blaze",
+    "flash",
+    "glow, sparkle",
+    "rage",
+    "be in a turmoil/love"
+  ],
+  "head": "ex-ardeo, ardere, arsi, arsum",
+  "principal_parts": [
+    "ex-ardeo",
+    "ardere",
+    "arsi",
+    "arsum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "ardeo",
+      "2sg.pres.ind.act": "ardes",
+      "3sg.pres.ind.act": "ardet",
+      "1pl.pres.ind.act": "ardemus",
+      "2pl.pres.ind.act": "ardetis",
+      "3pl.pres.ind.act": "ardent",
+      "2sg.pres.imp.act": "arde",
+      "2pl.pres.imp.act": "ardete"
+    }
+  }
+}

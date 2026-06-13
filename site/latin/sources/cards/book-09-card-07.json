@@ -1,0 +1,460 @@
+{
+  "book": 9,
+  "card": 7,
+  "lines": [
+    518,
+    629
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 518,
+      "latin": "In latus erigitur cubitoque innixa sinistro"
+    },
+    {
+      "n": 519,
+      "latin": "“viderit: insanos” inquit “fateamur amores."
+    },
+    {
+      "n": 520,
+      "latin": "Ei mihi! quo labor? quem mens mea concipit ignem?”"
+    },
+    {
+      "n": 521,
+      "latin": "et meditata manu componit verba trementi:"
+    },
+    {
+      "n": 522,
+      "latin": "dextra tenet ferrum, vacuam tenet altera ceram."
+    },
+    {
+      "n": 523,
+      "latin": "Incipit et dubitat, scribit damnatque tabellas"
+    },
+    {
+      "n": 524,
+      "latin": "et notat et delet, mutat culpatque probatque,"
+    },
+    {
+      "n": 525,
+      "latin": "inque vicem sumptas ponit positasque resumit."
+    },
+    {
+      "n": 526,
+      "latin": "Quid velit ignorat; quidquid factura videtur,"
+    },
+    {
+      "n": 527,
+      "latin": "displicet. In vultu est audacia mixta pudori."
+    },
+    {
+      "n": 528,
+      "latin": "Scripta “soror” fuerat, visum est delere sororem"
+    },
+    {
+      "n": 529,
+      "latin": "verbaque correctis incidere talia ceris:"
+    },
+    {
+      "n": 530,
+      "latin": "“Quam, nisi tu dederis, non est habitura salutem,"
+    },
+    {
+      "n": 531,
+      "latin": "hanc tibi mittit amans: pudet, a! pudet edere nomen."
+    },
+    {
+      "n": 532,
+      "latin": "Et si, quid cupiam, quaeris, sine nomine vellem"
+    },
+    {
+      "n": 533,
+      "latin": "posset agi mea causa meo, nec cognita Byblis"
+    },
+    {
+      "n": 534,
+      "latin": "ante forem, quam spes votorum certa fuisset."
+    },
+    {
+      "n": 535,
+      "latin": "Esse quidem laesi poterat tibi pectoris index"
+    },
+    {
+      "n": 536,
+      "latin": "et color et macies et vultus et umida saepe"
+    },
+    {
+      "n": 537,
+      "latin": "lumina nec causa suspiria mota patenti"
+    },
+    {
+      "n": 538,
+      "latin": "et crebri amplexus, et quae, si forte notasti,"
+    },
+    {
+      "n": 539,
+      "latin": "oscula sentiri non esse sororia possent:"
+    },
+    {
+      "n": 540,
+      "latin": "ipsa tamen, quamvis animo grave vulnus habebam,"
+    },
+    {
+      "n": 541,
+      "latin": "quamvis intus erat furor igneus, omnia feci"
+    },
+    {
+      "n": 542,
+      "latin": "(sunt mihi di testes), ut tandem sanior essem,"
+    },
+    {
+      "n": 543,
+      "latin": "pugnavique diu violenta Cupidinis arma"
+    },
+    {
+      "n": 544,
+      "latin": "effugere infelix et plus, quam ferre puellam"
+    },
+    {
+      "n": 545,
+      "latin": "posse putes, ego dura tuli. Superata fateri"
+    },
+    {
+      "n": 546,
+      "latin": "cogor opemque tuam timidis exposcere votis."
+    },
+    {
+      "n": 547,
+      "latin": "Tu servare potes, tu perdere solus amantem:"
+    },
+    {
+      "n": 548,
+      "latin": "elige, utrum facias! Non hoc inimica precatur,"
+    },
+    {
+      "n": 549,
+      "latin": "sed quae, cum tibi sit iunctissima, iunctior esse"
+    },
+    {
+      "n": 550,
+      "latin": "expetit et vinclo tecum propiore ligari."
+    },
+    {
+      "n": 551,
+      "latin": "Iura senes norint et, quid liceatque nefasque"
+    },
+    {
+      "n": 552,
+      "latin": "fasque sit, inquirant legumque examina servent:"
+    },
+    {
+      "n": 553,
+      "latin": "conveniens Venus est annis temeraria nostris!"
+    },
+    {
+      "n": 554,
+      "latin": "Quid liceat, nescimus adhuc et cuncta licere"
+    },
+    {
+      "n": 555,
+      "latin": "credimus et sequimur magnorum exempla deorum."
+    },
+    {
+      "n": 556,
+      "latin": "Nec nos aut durus pater aut reverentia famae"
+    },
+    {
+      "n": 557,
+      "latin": "aut timor impediet (tantum sit causa timendi!)."
+    },
+    {
+      "n": 558,
+      "latin": "Dulcia fraterno sub nomine furta tegemus:"
+    },
+    {
+      "n": 559,
+      "latin": "est mihi libertas tecum secreta loquendi,"
+    },
+    {
+      "n": 560,
+      "latin": "et damus amplexus et iungimus oscula coram,"
+    },
+    {
+      "n": 561,
+      "latin": "quantum est, quod desit? Miserere fatentis amores"
+    },
+    {
+      "n": 562,
+      "latin": "et non fassurae, nisi cogeret ultimus ardor,"
+    },
+    {
+      "n": 563,
+      "latin": "neve merere meo subscribi causa sepulcro!”"
+    },
+    {
+      "n": 564,
+      "latin": "Talia nequiquam perarantem plena reliquit"
+    },
+    {
+      "n": 565,
+      "latin": "cera manum, summusque in margine versus adhaesit."
+    },
+    {
+      "n": 566,
+      "latin": "Protinus inpressa signat sua crimina gemma,"
+    },
+    {
+      "n": 567,
+      "latin": "quam tinxit lacrimis (linguam defecerat umor),"
+    },
+    {
+      "n": 568,
+      "latin": "deque suis unum famulis pudibunda vocavit"
+    },
+    {
+      "n": 569,
+      "latin": "et pavidum blandita “fer has, fidissime, nostro”—"
+    },
+    {
+      "n": 570,
+      "latin": "dixit, et adiecit longo post tempore “fratri.”"
+    },
+    {
+      "n": 571,
+      "latin": "Cum daret, elapsae manibus cecidere tabellae."
+    },
+    {
+      "n": 572,
+      "latin": "Omine turbata est: misit tamen. Apta minister"
+    },
+    {
+      "n": 573,
+      "latin": "tempora nactus adit traditque latentia verba."
+    },
+    {
+      "n": 574,
+      "latin": "Attonitus subita iuvenis Maeandrius ira"
+    },
+    {
+      "n": 575,
+      "latin": "proicit acceptas lecta sibi parte tabellas"
+    },
+    {
+      "n": 576,
+      "latin": "vixque manus retinens trepidantis ab ore ministri"
+    },
+    {
+      "n": 577,
+      "latin": "“dum licet, o vetitae scelerate libidinis auctor,"
+    },
+    {
+      "n": 578,
+      "latin": "effuge!” ait: “qui, si nostrum tua fata pudorem"
+    },
+    {
+      "n": 579,
+      "latin": "non traherent secum, poenas mihi morte dedisses.”"
+    },
+    {
+      "n": 580,
+      "latin": "Ille fugit pavidus dominaeque ferocia Cauni"
+    },
+    {
+      "n": 581,
+      "latin": "dicta refert. Palles audita, Bybli, repulsa,"
+    },
+    {
+      "n": 582,
+      "latin": "et pavet obsessum glaciali frigore corpus."
+    },
+    {
+      "n": 583,
+      "latin": "Mens tamen ut rediit, pariter rediere furores,"
+    },
+    {
+      "n": 584,
+      "latin": "linguaque vix tales icto dedit aere voces:"
+    },
+    {
+      "n": 585,
+      "latin": "“Et merito! quid enim temeraria vulneris huius"
+    },
+    {
+      "n": 586,
+      "latin": "indicium feci? Quid, quae celanda fuerunt,"
+    },
+    {
+      "n": 587,
+      "latin": "tam cito commisi properatis verba tabellis?"
+    },
+    {
+      "n": 588,
+      "latin": "Ante erat ambiguis animi sententia dictis"
+    },
+    {
+      "n": 589,
+      "latin": "praetemptanda mihi. Ne non sequeretur euntem,"
+    },
+    {
+      "n": 590,
+      "latin": "parte aliqua veli, qualis foret aura, notare"
+    },
+    {
+      "n": 591,
+      "latin": "debueram tutoque mari decurrere, quae nunc"
+    },
+    {
+      "n": 592,
+      "latin": "non exploratis inplevi lintea ventis."
+    },
+    {
+      "n": 593,
+      "latin": "Auferor in scopulos igitur subversaque toto"
+    },
+    {
+      "n": 594,
+      "latin": "obruor oceano, neque habent mea vela recursus."
+    },
+    {
+      "n": 595,
+      "latin": "Quid quod et ominibus certis prohibebar amori"
+    },
+    {
+      "n": 596,
+      "latin": "indulgere meo, tum cum mihi ferre iubenti"
+    },
+    {
+      "n": 597,
+      "latin": "excidit et fecit spes nostras cera caducas?"
+    },
+    {
+      "n": 598,
+      "latin": "Nonne vel illa dies fuerat vel tota voluntas,"
+    },
+    {
+      "n": 599,
+      "latin": "sed potius mutanda dies? Deus ipse monebat"
+    },
+    {
+      "n": 600,
+      "latin": "signaque certa dabat, si non male sana fuissem."
+    },
+    {
+      "n": 601,
+      "latin": "Et tamen ipsa loqui, nec me committere cerae"
+    },
+    {
+      "n": 602,
+      "latin": "debueram praesensque meos aperire furores"
+    },
+    {
+      "n": 603,
+      "latin": "(vidisset lacrimas, vultum vidisset amantis!),"
+    },
+    {
+      "n": 604,
+      "latin": "plura loqui poteram, quam quae cepere tabellae."
+    },
+    {
+      "n": 605,
+      "latin": "Invito potui circumdare bracchia collo"
+    },
+    {
+      "n": 606,
+      "latin": "et, si reicerer, potui moritura videri"
+    },
+    {
+      "n": 607,
+      "latin": "amplectique pedes adfusaque poscere vitam."
+    },
+    {
+      "n": 608,
+      "latin": "Omnia fecissem, quorum si singula duram"
+    },
+    {
+      "n": 609,
+      "latin": "flectere non poterant, potuissent omnia, mentem."
+    },
+    {
+      "n": 610,
+      "latin": "Forsitan et missi sit quaedam culpa ministri:"
+    },
+    {
+      "n": 611,
+      "latin": "non adiit apte nec legit idonea, credo,"
+    },
+    {
+      "n": 612,
+      "latin": "tempora nec petiit horamque animumque vacantem."
+    },
+    {
+      "n": 613,
+      "latin": "Haec nocuere mihi. Neque enim est de tigride natus"
+    },
+    {
+      "n": 614,
+      "latin": "nec rigidas silices solidumve in pectore ferrum"
+    },
+    {
+      "n": 615,
+      "latin": "aut adamanta gerit nec lac bibit ille leaenae."
+    },
+    {
+      "n": 616,
+      "latin": "Vincetur! Repetendus erit, nec taedia coepti"
+    },
+    {
+      "n": 617,
+      "latin": "ulla mei capiam, dum spiritus iste manebit."
+    },
+    {
+      "n": 618,
+      "latin": "Nam primum, si facta mihi revocare liceret,"
+    },
+    {
+      "n": 619,
+      "latin": "non coepisse fuit: coepta expugnare secundum est."
+    },
+    {
+      "n": 620,
+      "latin": "Quippe nec ille potest, ut iam mea vota relinquam,"
+    },
+    {
+      "n": 621,
+      "latin": "non tamen ausorum semper memor esse meorum,"
+    },
+    {
+      "n": 622,
+      "latin": "et, quia desierim, leviter voluisse videbor"
+    },
+    {
+      "n": 623,
+      "latin": "aut etiam temptasse illum insidiisque petisse;"
+    },
+    {
+      "n": 624,
+      "latin": "vel certe non hoc, qui plurimus urget et urit"
+    },
+    {
+      "n": 625,
+      "latin": "pectora nostra, deo, sed victa libidine credar."
+    },
+    {
+      "n": 626,
+      "latin": "Denique iam nequeo nil commisisse nefandum."
+    },
+    {
+      "n": 627,
+      "latin": "Et scripsi et petii: temerata est nostra voluntas;"
+    },
+    {
+      "n": 628,
+      "latin": "ut nihil adiciam, non possum innoxia dici."
+    },
+    {
+      "n": 629,
+      "latin": "Quod superest, multum est in vota, in crimina parvum.”"
+    }
+  ]
+}

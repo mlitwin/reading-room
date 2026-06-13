@@ -1,0 +1,39 @@
+{
+  "lemma": "nolo",
+  "pos": "verb",
+  "glosses": [
+    "be unwilling",
+    "wish not to",
+    "refuse to"
+  ],
+  "head": "nolo, nolre, nolui, -um",
+  "principal_parts": [
+    "nolo",
+    "nolre",
+    "nolui",
+    "-um"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "nolo",
+      "1pl.pres.ind.act": "nolumus",
+      "3pl.pres.ind.act": "nolunt",
+      "2sg.pres.imp.act": "noli",
+      "2pl.pres.imp.act": "nolite"
+    }
+  }
+}

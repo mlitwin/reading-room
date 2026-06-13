@@ -1,0 +1,40 @@
+{
+  "lemma": "vivo",
+  "pos": "verb",
+  "glosses": [
+    "be alive, live",
+    "survive",
+    "reside"
+  ],
+  "head": "vivo, vivere, vixi, victum",
+  "principal_parts": [
+    "vivo",
+    "vivere",
+    "vixi",
+    "victum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "vivis",
+      "3sg.pres.ind.act": "vivit",
+      "1pl.pres.ind.act": "vivimus",
+      "2pl.pres.ind.act": "vivitis",
+      "2sg.pres.imp.act": "vive",
+      "2pl.pres.imp.act": "vivite"
+    }
+  }
+}

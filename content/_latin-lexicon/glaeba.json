@@ -1,0 +1,37 @@
+{
+  "lemma": "glaeba",
+  "pos": "noun",
+  "glosses": [
+    "clod/lump of earth/turf",
+    "land, soil",
+    "hard soil",
+    "piece, lump, mass"
+  ],
+  "head": "glaeba, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "glaeba",
+      "gen.sg": "glaebae",
+      "abl.sg": "glaeba",
+      "acc.sg": "glaebam",
+      "dat.sg": "glaebae",
+      "nom.pl": "glaebae",
+      "gen.pl": "glaebarum",
+      "dat.pl": "glaebis",
+      "abl.pl": "glaebis",
+      "acc.pl": "glaebas"
+    }
+  }
+}

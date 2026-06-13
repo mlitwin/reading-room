@@ -1,0 +1,39 @@
+{
+  "lemma": "numerus",
+  "pos": "noun",
+  "glosses": [
+    "number/sum/total/rank",
+    "(superior) numerical strength/plurality",
+    "category",
+    "tally",
+    "rhythm/cadence/frequency",
+    "meter/metrical foot/line"
+  ],
+  "head": "numerus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "numerus",
+      "gen.sg": "numeri",
+      "dat.sg": "numero",
+      "abl.sg": "numero",
+      "acc.sg": "numerum",
+      "nom.pl": "numeri",
+      "gen.pl": "numerorum",
+      "dat.pl": "numeris",
+      "abl.pl": "numeris",
+      "acc.pl": "numeros"
+    }
+  }
+}

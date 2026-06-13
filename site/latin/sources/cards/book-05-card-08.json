@@ -1,0 +1,440 @@
+{
+  "book": 5,
+  "card": 8,
+  "lines": [
+    572,
+    678
+  ],
+  "title_latin": "Arethusa.",
+  "title_english": "CALLIOPE SINGS OF TRIPTOLEMUS AND LYNCUS",
+  "text": [
+    {
+      "n": 572,
+      "latin": "Exigit alma Ceres, nata secura recepta,"
+    },
+    {
+      "n": 573,
+      "latin": "quae tibi causa fugae, cur sis, Arethusa, sacer fons."
+    },
+    {
+      "n": 574,
+      "latin": "Conticuere undae: quarum dea sustulit alto"
+    },
+    {
+      "n": 575,
+      "latin": "fonte caput viridesque manu siccata capillos"
+    },
+    {
+      "n": 576,
+      "latin": "fluminis Elei veteres narravit amores."
+    },
+    {
+      "n": 577,
+      "latin": "“Pars ego nympharum quae sunt in Achaide” dixit,"
+    },
+    {
+      "n": 578,
+      "latin": "“una fui, nec me studiosius altera saltus"
+    },
+    {
+      "n": 579,
+      "latin": "legit nec posuit studiosius altera casses."
+    },
+    {
+      "n": 580,
+      "latin": "Sed quamvis formae numquam mihi fama petita est,"
+    },
+    {
+      "n": 581,
+      "latin": "quamvis fortis eram, formosae nomen habebam."
+    },
+    {
+      "n": 582,
+      "latin": "Nec mea me facies nimium laudata iuvabat,"
+    },
+    {
+      "n": 583,
+      "latin": "quaque aliae gaudere solent, ego rustica dote"
+    },
+    {
+      "n": 584,
+      "latin": "corporis erubui, crimenque placere putavi."
+    },
+    {
+      "n": 585,
+      "latin": "Lassa revertebar (memini) Stymphalide silva:"
+    },
+    {
+      "n": 586,
+      "latin": "aestus erat, magnumque labor geminaverat aestum."
+    },
+    {
+      "n": 587,
+      "latin": "Invenio sine vertice aquas, sine murmure euntes,"
+    },
+    {
+      "n": 588,
+      "latin": "perspicuas ad humum, per quas numerabilis alte"
+    },
+    {
+      "n": 589,
+      "latin": "calculus omnis erat, quas tu vix ire putares."
+    },
+    {
+      "n": 590,
+      "latin": "Cana salicta dabant nutritaque populus unda"
+    },
+    {
+      "n": 591,
+      "latin": "sponte sua natas ripis declivibus umbras."
+    },
+    {
+      "n": 592,
+      "latin": "Accessi primumque pedis vestigia tinxi,"
+    },
+    {
+      "n": 593,
+      "latin": "poplite deinde tenus: neque eo contenta, recingor"
+    },
+    {
+      "n": 594,
+      "latin": "molliaque impono salici velamina curvae"
+    },
+    {
+      "n": 595,
+      "latin": "nudaque mergor aquis. Quas dum ferioque trahoque"
+    },
+    {
+      "n": 596,
+      "latin": "mille modis labens excussaque bracchia iacto,"
+    },
+    {
+      "n": 597,
+      "latin": "nescio quod medio sensi sub gurgite murmur"
+    },
+    {
+      "n": 598,
+      "latin": "territaque insisto propioris margine ripae."
+    },
+    {
+      "n": 599,
+      "latin": "“Quo properas, Arethusa?” suis Alpheus ab undis,"
+    },
+    {
+      "n": 600,
+      "latin": "“quo properas?” iterum rauco mihi dixerat ore."
+    },
+    {
+      "n": 601,
+      "latin": "Sicut eram, fugio sine vestibus: altera vestes"
+    },
+    {
+      "n": 602,
+      "latin": "ripa meas habuit. Tanto magis instat et ardet,"
+    },
+    {
+      "n": 603,
+      "latin": "et quia nuda fui, sum visa paratior illi."
+    },
+    {
+      "n": 604,
+      "latin": "Sic ego currebam, sic me ferus ille premebat,"
+    },
+    {
+      "n": 605,
+      "latin": "ut fugere accipitrem penna trepidante columbae,"
+    },
+    {
+      "n": 606,
+      "latin": "ut solet accipiter trepidas urgere columbas."
+    },
+    {
+      "n": 607,
+      "latin": "Usque sub Orchomenon Psophidaque Cyllenenque"
+    },
+    {
+      "n": 608,
+      "latin": "Maenaliosque sinus gelidumque Erymanthon et Elin"
+    },
+    {
+      "n": 609,
+      "latin": "currere sustinui; nec me velocior ille."
+    },
+    {
+      "n": 610,
+      "latin": "Sed tolerare diu cursus ego, viribus impar,"
+    },
+    {
+      "n": 611,
+      "latin": "non poteram: longi patiens erat ille laboris."
+    },
+    {
+      "n": 612,
+      "latin": "Per tamen et campos, per opertos arbore montes,"
+    },
+    {
+      "n": 613,
+      "latin": "saxa quoque et rupes et qua via nulla, cucurri."
+    },
+    {
+      "n": 614,
+      "latin": "Sol erat a tergo: vidi praecedere longam"
+    },
+    {
+      "n": 615,
+      "latin": "ante pedes umbram, nisi si timor illa videbat;"
+    },
+    {
+      "n": 616,
+      "latin": "sed certe sonitusque pedum terrebat et ingens"
+    },
+    {
+      "n": 617,
+      "latin": "crinales vittas adflabat anhelitus oris."
+    },
+    {
+      "n": 618,
+      "latin": "Fessa labore fugae “fer opem, deprendimur” inquam,"
+    },
+    {
+      "n": 619,
+      "latin": "“armigerae, Diana, tuae, cui saepe dedisti"
+    },
+    {
+      "n": 620,
+      "latin": "ferre tuos arcus inclusaque tela pharetra.”"
+    },
+    {
+      "n": 621,
+      "latin": "Mota dea est spissisque ferens e nubibus unam"
+    },
+    {
+      "n": 622,
+      "latin": "me super iniecit. Lustrat caligine tectam"
+    },
+    {
+      "n": 623,
+      "latin": "amnis et ignarus circum cava nubila quaerit."
+    },
+    {
+      "n": 624,
+      "latin": "Bisque locum, quo me dea texerat inscius ambit"
+    },
+    {
+      "n": 625,
+      "latin": "et bis “io Arethusa io Arethusa!” vocavit."
+    },
+    {
+      "n": 626,
+      "latin": "Quid mihi tunc animi miserae fuit? anne quod agnae est,"
+    },
+    {
+      "n": 627,
+      "latin": "siqua lupos audit circum stabula alta frementes,"
+    },
+    {
+      "n": 628,
+      "latin": "aut lepori, qui vepre latens hostilia cernit"
+    },
+    {
+      "n": 629,
+      "latin": "ora canum nullosque audet dare corpore motus?"
+    },
+    {
+      "n": 630,
+      "latin": "Non tamen abscedit: neque enim vestigia cernit"
+    },
+    {
+      "n": 631,
+      "latin": "longius ulla pedum: servat nubemque locumque."
+    },
+    {
+      "n": 632,
+      "latin": "Occupat obsessos sudor mihi frigidus artus,"
+    },
+    {
+      "n": 633,
+      "latin": "caeruleaeque cadunt toto de corpore guttae,"
+    },
+    {
+      "n": 634,
+      "latin": "quaque pedem movi, manat lacus, eque capillis"
+    },
+    {
+      "n": 635,
+      "latin": "ros cadit, et citius, quam nunc tibi facta renarro,"
+    },
+    {
+      "n": 636,
+      "latin": "in latices mutor. Sed enim cognoscit amatas"
+    },
+    {
+      "n": 637,
+      "latin": "amnis aquas, positoque viri, quod sumpserat, ore"
+    },
+    {
+      "n": 638,
+      "latin": "vertitur in proprias, ut se mihi misceat, undas."
+    },
+    {
+      "n": 639,
+      "latin": "Delia rupit humum; caecisque ego mersa cavernis"
+    },
+    {
+      "n": 640,
+      "latin": "advehor Ortygiam, quae me cognomine divae"
+    },
+    {
+      "n": 641,
+      "latin": "grata meae superas eduxit prima sub auras.”"
+    },
+    {
+      "n": 642,
+      "latin": "Hac Arethusa tenus. Geminos dea fertilis angues"
+    },
+    {
+      "n": 643,
+      "latin": "curribus admovit frenisque coercuit ora"
+    },
+    {
+      "n": 644,
+      "latin": "et medium caeli terraeque per aera vecta est"
+    },
+    {
+      "n": 645,
+      "latin": "atque levem currum Tritonida misit in urbem"
+    },
+    {
+      "n": 646,
+      "latin": "Triptolemo; partimque rudi data semina iussit"
+    },
+    {
+      "n": 647,
+      "latin": "spargere humo, partim post tempora longa recultae."
+    },
+    {
+      "n": 648,
+      "latin": "Iam super Europen sublimis et Asida terram"
+    },
+    {
+      "n": 649,
+      "latin": "vectus erat iuvenis; Scythicas advertitur oras."
+    },
+    {
+      "n": 650,
+      "latin": "Rex ibi Lyncus erat: regis subit ille penates."
+    },
+    {
+      "n": 651,
+      "latin": "Qua veniat, causamque viae nomenque rogatus"
+    },
+    {
+      "n": 652,
+      "latin": "et patriam, “patria est clarae mihi” dixit “Athenae,"
+    },
+    {
+      "n": 653,
+      "latin": "Triptolemus nomen. Veni nec puppe per undas,"
+    },
+    {
+      "n": 654,
+      "latin": "nec pede per terras: patuit mihi pervius aether."
+    },
+    {
+      "n": 655,
+      "latin": "Dona fero Cereris latos quae sparsa per agros"
+    },
+    {
+      "n": 656,
+      "latin": "frugiferas messes alimentaque mitia reddant.”"
+    },
+    {
+      "n": 657,
+      "latin": "Barbarus invidit; tantique ut muneris auctor"
+    },
+    {
+      "n": 658,
+      "latin": "ipse sit, hospitio recipit somnoque gravatum"
+    },
+    {
+      "n": 659,
+      "latin": "adgreditur ferro. Conantem figere pectus"
+    },
+    {
+      "n": 660,
+      "latin": "lynca Ceres fecit rursusque per aera iussit"
+    },
+    {
+      "n": 661,
+      "latin": "Mopsopium iuvenem sacros agitare iugales.”"
+    },
+    {
+      "n": 662,
+      "latin": "Finierat doctos e nobis maxima cantus."
+    },
+    {
+      "n": 663,
+      "latin": "At nymphae vicisse deas Helicona colentes"
+    },
+    {
+      "n": 664,
+      "latin": "concordi dixere sono. Convicia victae"
+    },
+    {
+      "n": 665,
+      "latin": "cum iacerent, “quoniam” dixit “certamine vobis"
+    },
+    {
+      "n": 666,
+      "latin": "supplicium meruisse parum est maledictaque culpae"
+    },
+    {
+      "n": 667,
+      "latin": "additis et non est patientia libera nobis,"
+    },
+    {
+      "n": 668,
+      "latin": "ibimus in poenas et, qua vocat ira, sequemur.”"
+    },
+    {
+      "n": 669,
+      "latin": "Rident Emathides spernuntque minantia verba:"
+    },
+    {
+      "n": 670,
+      "latin": "conataeque loqui et magno clamore protervas"
+    },
+    {
+      "n": 671,
+      "latin": "intentare manus, pennas exire per ungues"
+    },
+    {
+      "n": 672,
+      "latin": "adspexere suos, operiri bracchia plumis;"
+    },
+    {
+      "n": 673,
+      "latin": "alteraque alterius rigido concrescere rostro"
+    },
+    {
+      "n": 674,
+      "latin": "ora videt volucresque novas accedere silvis."
+    },
+    {
+      "n": 675,
+      "latin": "Dumque volunt plangi, per bracchia mota levatae"
+    },
+    {
+      "n": 676,
+      "latin": "aere pendebant, nemorum convicia, picae."
+    },
+    {
+      "n": 677,
+      "latin": "Nunc quoque in alitibus facundia prisca remansit"
+    },
+    {
+      "n": 678,
+      "latin": "raucaque garrulitas studiumque inmane loquendi.”"
+    }
+  ]
+}

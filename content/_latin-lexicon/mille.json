@@ -1,0 +1,37 @@
+{
+  "lemma": "mille",
+  "pos": "noun",
+  "glosses": [
+    "thousand",
+    "thousands (men/things)",
+    "miles",
+    "[~ passuum => thousand paces = 1 mile]"
+  ],
+  "head": "mille, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "mili",
+      "acc.sg": "mille",
+      "nom.pl": "milia",
+      "gen.pl": "milium",
+      "acc.pl": "milia",
+      "nom.sg": "mille",
+      "gen.sg": "milis",
+      "dat.sg": "mili",
+      "dat.pl": "milibus",
+      "abl.pl": "milibus"
+    }
+  }
+}

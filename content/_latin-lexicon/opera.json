@@ -1,0 +1,37 @@
+{
+  "lemma": "opera",
+  "pos": "noun",
+  "glosses": [
+    "work, care",
+    "aid",
+    "service, effort/trouble",
+    "[dare operam => pay attention to]"
+  ],
+  "head": "opera, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "opera",
+      "gen.sg": "operae",
+      "abl.sg": "opera",
+      "acc.sg": "operam",
+      "dat.sg": "operae",
+      "nom.pl": "operae",
+      "gen.pl": "operarum",
+      "dat.pl": "operis",
+      "abl.pl": "operis",
+      "acc.pl": "operas"
+    }
+  }
+}

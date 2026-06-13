@@ -1,0 +1,37 @@
+{
+  "lemma": "arma",
+  "pos": "noun",
+  "glosses": [
+    "arms (pl.), weapons, armor, shield",
+    "close fighting weapons",
+    "equipment",
+    "force"
+  ],
+  "head": "arma, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "armum",
+      "gen.sg": "armi",
+      "acc.sg": "armum",
+      "dat.sg": "armo",
+      "abl.sg": "armo",
+      "gen.pl": "armorum",
+      "dat.pl": "armis",
+      "abl.pl": "armis",
+      "nom.pl": "arma",
+      "acc.pl": "arma"
+    }
+  }
+}

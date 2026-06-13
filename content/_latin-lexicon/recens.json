@@ -1,0 +1,32 @@
+{
+  "lemma": "recens",
+  "pos": "adj",
+  "glosses": [
+    "fresh, recent",
+    "rested"
+  ],
+  "head": "recens, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "recens",
+      "nom.pl.neut": "recentia",
+      "acc.pl.neut": "recentia"
+    }
+  }
+}

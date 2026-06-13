@@ -1,0 +1,57 @@
+{
+  "lemma": "longus",
+  "pos": "adj",
+  "glosses": [
+    "long",
+    "tall",
+    "tedious, taking long time",
+    "boundless",
+    "far",
+    "of specific length/time"
+  ],
+  "head": "longus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "longus",
+      "gen.sg.masc": "longi",
+      "dat.sg.masc": "longo",
+      "gen.sg.fem": "longae",
+      "dat.sg.fem": "longae",
+      "nom.sg.neut": "longum",
+      "gen.sg.neut": "longi",
+      "dat.sg.neut": "longo",
+      "acc.sg.neut": "longum",
+      "acc.sg.masc": "longum",
+      "abl.sg.masc": "longo",
+      "nom.pl.masc": "longi",
+      "gen.pl.masc": "longorum",
+      "acc.pl.masc": "longos",
+      "nom.sg.fem": "longa",
+      "acc.sg.fem": "longam",
+      "abl.sg.fem": "longa",
+      "nom.pl.fem": "longae",
+      "gen.pl.fem": "longarum",
+      "acc.pl.fem": "longas",
+      "abl.sg.neut": "longo",
+      "nom.pl.neut": "longa",
+      "gen.pl.neut": "longorum",
+      "acc.pl.neut": "longa"
+    }
+  }
+}

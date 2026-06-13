@@ -1,0 +1,33 @@
+{
+  "lemma": "vivax",
+  "pos": "adj",
+  "glosses": [
+    "long-lived, tenacious of life",
+    "lively, vigorous, energetic",
+    "high-spirited"
+  ],
+  "head": "vivax, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "vivax",
+      "nom.pl.neut": "vivacia",
+      "acc.pl.neut": "vivacia"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "lemma": "invenio",
+  "pos": "verb",
+  "glosses": [
+    "come upon",
+    "discover, find",
+    "invent, contrive",
+    "reach, manage to get"
+  ],
+  "head": "invenio, invenere, inveni, inventum",
+  "principal_parts": [
+    "invenio",
+    "invenere",
+    "inveni",
+    "inventum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "invenis",
+      "3sg.pres.ind.act": "invenit",
+      "1pl.pres.ind.act": "invenimus",
+      "2pl.pres.ind.act": "invenitis",
+      "2sg.pres.imp.act": "inveni",
+      "2pl.pres.imp.act": "invenite"
+    }
+  }
+}

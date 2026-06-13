@@ -1,0 +1,51 @@
+{
+  "lemma": "alter",
+  "pos": "adj",
+  "glosses": [
+    "one (of two)",
+    "second/another",
+    "former/latter",
+    "[unus et ~=> one or two/other]",
+    "second/further/next/other/latter/some person/thing (PRONominal ADJ)",
+    "either"
+  ],
+  "head": "alter, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "alter",
+      "nom.sg.neut": "alterum",
+      "acc.sg.neut": "alterum",
+      "acc.sg.masc": "alterum",
+      "abl.sg.masc": "altero",
+      "nom.pl.masc": "alteri",
+      "gen.pl.masc": "alterorum",
+      "acc.pl.masc": "alteros",
+      "nom.sg.fem": "altera",
+      "acc.sg.fem": "alteram",
+      "abl.sg.fem": "altera",
+      "nom.pl.fem": "alterae",
+      "gen.pl.fem": "alterarum",
+      "acc.pl.fem": "alteras",
+      "abl.sg.neut": "altero",
+      "nom.pl.neut": "altera",
+      "gen.pl.neut": "alterorum",
+      "acc.pl.neut": "altera"
+    }
+  }
+}

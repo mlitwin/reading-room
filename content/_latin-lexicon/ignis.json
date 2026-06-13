@@ -1,0 +1,35 @@
+{
+  "lemma": "ignis",
+  "pos": "noun",
+  "glosses": [
+    "fire, brightness",
+    "passion, glow of passion"
+  ],
+  "head": "ignis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "igni",
+      "acc.sg": "ignem",
+      "nom.pl": "ignis",
+      "gen.pl": "ignium",
+      "acc.pl": "ignis",
+      "nom.sg": "ignis",
+      "gen.sg": "ignis",
+      "dat.sg": "igni",
+      "dat.pl": "ignibus",
+      "abl.pl": "ignibus"
+    }
+  }
+}

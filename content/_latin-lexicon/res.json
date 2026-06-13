@@ -1,0 +1,39 @@
+{
+  "lemma": "res",
+  "pos": "noun",
+  "glosses": [
+    "thing",
+    "event/affair/business",
+    "fact",
+    "cause",
+    "property",
+    "[~ familiaris => property]"
+  ],
+  "head": "res, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "res",
+      "gen.sg": "rei",
+      "dat.sg": "rei",
+      "abl.sg": "re",
+      "acc.sg": "rem",
+      "nom.pl": "res",
+      "gen.pl": "rerum",
+      "dat.pl": "rebus",
+      "abl.pl": "rebus",
+      "acc.pl": "res"
+    }
+  }
+}

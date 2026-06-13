@@ -1,0 +1,35 @@
+{
+  "lemma": "ludus",
+  "pos": "noun",
+  "glosses": [
+    "game, play, sport, pastime, entertainment, fun",
+    "school, elementary school"
+  ],
+  "head": "ludus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ludus",
+      "gen.sg": "ludi",
+      "dat.sg": "ludo",
+      "abl.sg": "ludo",
+      "acc.sg": "ludum",
+      "nom.pl": "ludi",
+      "gen.pl": "ludorum",
+      "dat.pl": "ludis",
+      "abl.pl": "ludis",
+      "acc.pl": "ludos"
+    }
+  }
+}

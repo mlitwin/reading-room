@@ -1,0 +1,388 @@
+{
+  "book": 3,
+  "card": 6,
+  "lines": [
+    339,
+    436
+  ],
+  "title_latin": "Narcissus. Echo.",
+  "title_english": "NARCISSUS",
+  "text": [
+    {
+      "n": 339,
+      "latin": "Ille per Aonias fama celeberrimus urbes"
+    },
+    {
+      "n": 340,
+      "latin": "inreprehensa dabat populo responsa petenti."
+    },
+    {
+      "n": 341,
+      "latin": "Prima fide vocisque ratae temptamina sumpsit"
+    },
+    {
+      "n": 342,
+      "latin": "caerula Liriope. Quam quondam flumine curvo"
+    },
+    {
+      "n": 343,
+      "latin": "implicuit clausaeque suis Cephisus in undis"
+    },
+    {
+      "n": 344,
+      "latin": "vim tulit. Enixa est utero pulcherrima pleno"
+    },
+    {
+      "n": 345,
+      "latin": "infantem, nymphis iam tunc qui posset amari,"
+    },
+    {
+      "n": 346,
+      "latin": "Narcissumque vocat. De quo consultus, an esset"
+    },
+    {
+      "n": 347,
+      "latin": "tempora maturae visurus longa senectae,"
+    },
+    {
+      "n": 348,
+      "latin": "fatidicus vates “si se non noverit” inquit."
+    },
+    {
+      "n": 349,
+      "latin": "Vana diu visa est vox auguris: exitus illam"
+    },
+    {
+      "n": 350,
+      "latin": "resque probat letique genus novitasque furoris."
+    },
+    {
+      "n": 351,
+      "latin": "Namque ter ad quinos unum Cephisius annum"
+    },
+    {
+      "n": 352,
+      "latin": "addiderat poteratque puer iuvenisque videri:"
+    },
+    {
+      "n": 353,
+      "latin": "multi illum iuvenes, multae cupiere puellae."
+    },
+    {
+      "n": 354,
+      "latin": "Sed fuit in tenera tam dura superbia forma:"
+    },
+    {
+      "n": 355,
+      "latin": "nulli illum iuvenes, nullae tetigere puellae."
+    },
+    {
+      "n": 356,
+      "latin": "Adspicit hunc trepidos agitantem in retia cervos"
+    },
+    {
+      "n": 357,
+      "latin": "vocalis nymphe, quae nec reticere loquenti,"
+    },
+    {
+      "n": 358,
+      "latin": "nec prior ipsa loqui didicit, resonabilis Echo."
+    },
+    {
+      "n": 359,
+      "latin": "Corpus adhuc Echo, non vox erat; et tamen usum"
+    },
+    {
+      "n": 360,
+      "latin": "garrula non alium, quam nunc habet, oris habebat,"
+    },
+    {
+      "n": 361,
+      "latin": "reddere de multis ut verba novissima posset."
+    },
+    {
+      "n": 362,
+      "latin": "Fecerat hoc Iuno, quia, cum deprendere posset"
+    },
+    {
+      "n": 363,
+      "latin": "cum Iove saepe suo nymphas in monte iacentes,"
+    },
+    {
+      "n": 364,
+      "latin": "illa deam longo prudens sermone tenebat,"
+    },
+    {
+      "n": 365,
+      "latin": "dum fugerent nymphae. Postquam Saturnia sensit"
+    },
+    {
+      "n": 366,
+      "latin": "“huius” ait “linguae, qua sum delusa, potestas"
+    },
+    {
+      "n": 367,
+      "latin": "parva tibi dabitur vocisque brevissimus usus”:"
+    },
+    {
+      "n": 368,
+      "latin": "reque minas firmat. Tamen haec in fine loquendi"
+    },
+    {
+      "n": 369,
+      "latin": "ingeminat voces auditaque verba reportat."
+    },
+    {
+      "n": 370,
+      "latin": "Ergo ubi Narcissum per devia rura vagantem"
+    },
+    {
+      "n": 371,
+      "latin": "vidit et incaluit, sequitur vestigia furtim,"
+    },
+    {
+      "n": 372,
+      "latin": "quoque magis sequitur, flamma propiore calescit,"
+    },
+    {
+      "n": 373,
+      "latin": "non aliter, quam cum summis circumlita taedis"
+    },
+    {
+      "n": 374,
+      "latin": "admotas rapiunt vivacia sulphura flammas."
+    },
+    {
+      "n": 375,
+      "latin": "O quotiens voluit blandis accedere dictis"
+    },
+    {
+      "n": 376,
+      "latin": "et molles adhibere preces: natura repugnat"
+    },
+    {
+      "n": 377,
+      "latin": "nec sinit incipiat. Sed, quod sinit, illa parata est"
+    },
+    {
+      "n": 378,
+      "latin": "exspectare sonos, ad quos sua verba remittat."
+    },
+    {
+      "n": 379,
+      "latin": "Forte puer comitum seductus ab agmine fido,"
+    },
+    {
+      "n": 380,
+      "latin": "dixerat “ecquis adest?” et “adest!” responderat Echo."
+    },
+    {
+      "n": 381,
+      "latin": "Hic stupet, utque aciem partes dimittit in omnes,"
+    },
+    {
+      "n": 382,
+      "latin": "voce “veni!” magna clamat: vocat illa vocantem."
+    },
+    {
+      "n": 383,
+      "latin": "Respicit et rursus nullo veniente “quid” inquit"
+    },
+    {
+      "n": 384,
+      "latin": "“me fugis?” et totidem, quot dixit, verba recepit."
+    },
+    {
+      "n": 385,
+      "latin": "Perstat et, alternae deceptus imagine vocis,"
+    },
+    {
+      "n": 386,
+      "latin": "“huc coeamus!” ait: nullique libentius umquam"
+    },
+    {
+      "n": 387,
+      "latin": "responsura sono “coeamus” rettulit Echo,"
+    },
+    {
+      "n": 388,
+      "latin": "et verbis favet ipsa suis egressaque silva"
+    },
+    {
+      "n": 389,
+      "latin": "ibat, ut iniceret sperato bracchia collo."
+    },
+    {
+      "n": 390,
+      "latin": "Ille fugit fugiensque “manus complexibus aufer:"
+    },
+    {
+      "n": 391,
+      "latin": "ante” ait “emoriar, quam sit tibi copia nostri.”"
+    },
+    {
+      "n": 392,
+      "latin": "Rettulit illa nihil nisi “sit tibi copia nostri.”"
+    },
+    {
+      "n": 393,
+      "latin": "Spreta latet silvis pudibundaque frondibus ora"
+    },
+    {
+      "n": 394,
+      "latin": "protegit et solis ex illo vivit in antris."
+    },
+    {
+      "n": 395,
+      "latin": "Sed tamen haeret amor crescitque dolore repulsae."
+    },
+    {
+      "n": 396,
+      "latin": "Extenuant vigiles corpus miserabile curae,"
+    },
+    {
+      "n": 397,
+      "latin": "adducitque cutem macies et in aera sucus"
+    },
+    {
+      "n": 398,
+      "latin": "corporis omnis abit. Vox tantum atque ossa supersunt:"
+    },
+    {
+      "n": 399,
+      "latin": "vox manet; ossa ferunt lapidis traxisse figuram."
+    },
+    {
+      "n": 402,
+      "latin": "Sic hanc, sic alias undis aut montibus ortas"
+    },
+    {
+      "n": 403,
+      "latin": "luserat hic nymphas, sic coetus ante viriles."
+    },
+    {
+      "n": 404,
+      "latin": "Inde manus aliquis despectus ad aethera tollens"
+    },
+    {
+      "n": 405,
+      "latin": "“sic amet ipse licet sic non potiatur amato!”"
+    },
+    {
+      "n": 406,
+      "latin": "dixerat. Adsensit precibus Rhamnusia iustis."
+    },
+    {
+      "n": 407,
+      "latin": "Fons erat inlimis, nitidis argenteus undis,"
+    },
+    {
+      "n": 408,
+      "latin": "quem neque pastores neque pastae monte capellae"
+    },
+    {
+      "n": 409,
+      "latin": "contigerant aliudve pecus, quem nulla volucris"
+    },
+    {
+      "n": 410,
+      "latin": "nec fera turbarat nec lapsus ab arbore ramus."
+    },
+    {
+      "n": 411,
+      "latin": "Gramen erat circa, quod proximus umor alebat,"
+    },
+    {
+      "n": 412,
+      "latin": "silvaque sole locum passura tepescere nullo."
+    },
+    {
+      "n": 413,
+      "latin": "Hic puer, et studio venandi lassus et aestu,"
+    },
+    {
+      "n": 414,
+      "latin": "procubuit faciemque loci fontemque secutus."
+    },
+    {
+      "n": 416,
+      "latin": "Dumque bibit, visae correptus imagine formae"
+    },
+    {
+      "n": 418,
+      "latin": "adstupet ipse sibi, vultuque inmotus eodem"
+    },
+    {
+      "n": 419,
+      "latin": "haeret, ut e Pario formatum marmore signum."
+    },
+    {
+      "n": 420,
+      "latin": "Spectat humi positus geminum, sua lumina, sidus"
+    },
+    {
+      "n": 421,
+      "latin": "et dignos Baccho, dignos et Apolline crines"
+    },
+    {
+      "n": 422,
+      "latin": "impubesque genas et eburnea colla decusque"
+    },
+    {
+      "n": 423,
+      "latin": "oris et in niveo mixtum candore ruborem,"
+    },
+    {
+      "n": 424,
+      "latin": "cunctaque miratur, quibus est mirabilis ipse."
+    },
+    {
+      "n": 425,
+      "latin": "Se cupit imprudens et qui probat, ipse probatur,"
+    },
+    {
+      "n": 426,
+      "latin": "dumque petit, petitur, pariterque accendit et ardet."
+    },
+    {
+      "n": 427,
+      "latin": "Inrita fallaci quotiens dedit oscula fonti!"
+    },
+    {
+      "n": 428,
+      "latin": "In mediis quotiens visum captantia collum"
+    },
+    {
+      "n": 429,
+      "latin": "bracchia mersit aquis, nec se deprendit in illis!"
+    },
+    {
+      "n": 430,
+      "latin": "Quid videat, nescit: sed quod videt, uritur illo,"
+    },
+    {
+      "n": 431,
+      "latin": "atque oculos idem, qui decipit, incitat error."
+    },
+    {
+      "n": 432,
+      "latin": "Credule, quid frusta simulacra fugacia captas?"
+    },
+    {
+      "n": 433,
+      "latin": "quod petis, est nusquam; quod amas, avertere, perdes."
+    },
+    {
+      "n": 434,
+      "latin": "Ista repercussae, quam cernis, imaginis umbra est:"
+    },
+    {
+      "n": 435,
+      "latin": "nil habet ista sui; tecum venitque manetque,"
+    },
+    {
+      "n": 436,
+      "latin": "tecum discedet, si tu discedere possis."
+    }
+  ]
+}

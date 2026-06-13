@@ -1,0 +1,55 @@
+{
+  "lemma": "aetherius",
+  "pos": "adj",
+  "glosses": [
+    "ethereal, heavenly, divine, celestial",
+    "of the upper atmosphere",
+    "aloft",
+    "lofty"
+  ],
+  "head": "aetherius, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "aetherius",
+      "gen.sg.masc": "aetherii",
+      "dat.sg.masc": "aetherio",
+      "gen.sg.fem": "aetheriae",
+      "dat.sg.fem": "aetheriae",
+      "nom.sg.neut": "aetherium",
+      "gen.sg.neut": "aetherii",
+      "dat.sg.neut": "aetherio",
+      "acc.sg.neut": "aetherium",
+      "acc.sg.masc": "aetherium",
+      "abl.sg.masc": "aetherio",
+      "nom.pl.masc": "aetherii",
+      "gen.pl.masc": "aetheriorum",
+      "acc.pl.masc": "aetherios",
+      "nom.sg.fem": "aetheria",
+      "acc.sg.fem": "aetheriam",
+      "abl.sg.fem": "aetheria",
+      "nom.pl.fem": "aetheriae",
+      "gen.pl.fem": "aetheriarum",
+      "acc.pl.fem": "aetherias",
+      "abl.sg.neut": "aetherio",
+      "nom.pl.neut": "aetheria",
+      "gen.pl.neut": "aetheriorum",
+      "acc.pl.neut": "aetheria"
+    }
+  }
+}

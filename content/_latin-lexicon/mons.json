@@ -1,0 +1,36 @@
+{
+  "lemma": "mons",
+  "pos": "noun",
+  "glosses": [
+    "mountain",
+    "huge rock",
+    "towering heap"
+  ],
+  "head": "mons, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "monti",
+      "acc.sg": "montem",
+      "nom.pl": "montis",
+      "gen.pl": "montium",
+      "acc.pl": "montis",
+      "nom.sg": "mons",
+      "gen.sg": "montis",
+      "dat.sg": "monti",
+      "dat.pl": "montibus",
+      "abl.pl": "montibus"
+    }
+  }
+}

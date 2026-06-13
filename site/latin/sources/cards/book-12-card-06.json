@@ -1,0 +1,420 @@
+{
+  "book": 12,
+  "card": 6,
+  "lines": [
+    429,
+    535
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 429,
+      "latin": "Ante oculos stat et ille meos, qui sena leonum"
+    },
+    {
+      "n": 430,
+      "latin": "vinxerat inter se conexis vellera nodis,"
+    },
+    {
+      "n": 431,
+      "latin": "Phaeocomes, hominemque simul protectus equumque."
+    },
+    {
+      "n": 432,
+      "latin": "Codice qui misso, quem vix iuga bina moverent,"
+    },
+    {
+      "n": 433,
+      "latin": "Tectaphon Oleniden a summo vertice fregit."
+    },
+    {
+      "n": 439,
+      "latin": "Ast ego, dum parat hic armis nudare iacentem,"
+    },
+    {
+      "n": 440,
+      "latin": "(scit tuus hoc genitor) gladium spoliantis in ima"
+    },
+    {
+      "n": 441,
+      "latin": "ilia demisi. Chthonius quoque Teleboasque"
+    },
+    {
+      "n": 442,
+      "latin": "ense iacent nostro: ramum prior ille bifurcum"
+    },
+    {
+      "n": 443,
+      "latin": "gesserat, hic iaculum; iaculo mihi vulnera fecit:"
+    },
+    {
+      "n": 444,
+      "latin": "signa vides! adparet adhuc vetus inde cicatrix."
+    },
+    {
+      "n": 445,
+      "latin": "Tunc ego debueram capienda ad Pergama mitti,"
+    },
+    {
+      "n": 446,
+      "latin": "tum poteram magni, si non superare, morari"
+    },
+    {
+      "n": 447,
+      "latin": "Hectoris arma meis! Illo sed tempore nullus,"
+    },
+    {
+      "n": 448,
+      "latin": "aut puer Hector erat, nunc me mea deficit aetas."
+    },
+    {
+      "n": 449,
+      "latin": "Quid tibi victorem gemini Periphanta Pyraethi,"
+    },
+    {
+      "n": 450,
+      "latin": "Ampyca quid referam, qui quadrupedantis Echecli"
+    },
+    {
+      "n": 451,
+      "latin": "fixit in adverso cornum sine cuspide vultu?"
+    },
+    {
+      "n": 452,
+      "latin": "Vecte Pelethronium Macareus in pectus adacto"
+    },
+    {
+      "n": 453,
+      "latin": "stravit Erigdupum, memini et venabula condi"
+    },
+    {
+      "n": 454,
+      "latin": "inguine Nesseis manibus coniecta Cymeli."
+    },
+    {
+      "n": 455,
+      "latin": "Nec tu credideris tantum cecinisse futura"
+    },
+    {
+      "n": 456,
+      "latin": "Ampyciden Mopsum: Mopso iaculante biformis"
+    },
+    {
+      "n": 457,
+      "latin": "accubuit frustraque loqui temptavit Hodites"
+    },
+    {
+      "n": 458,
+      "latin": "ad mentum lingua mentoque ad guttura fixo."
+    },
+    {
+      "n": 459,
+      "latin": "Quinque neci Caeneus dederat, Styphelumque Bromumque"
+    },
+    {
+      "n": 460,
+      "latin": "Antimachumque Elymumque securiferumque Pyraechmen:"
+    },
+    {
+      "n": 461,
+      "latin": "vulnera non memini, numerum nomenque notavi."
+    },
+    {
+      "n": 462,
+      "latin": "Provolat Emathii spoliis armatus Alesi,"
+    },
+    {
+      "n": 463,
+      "latin": "quem dederat leto, membris et corpore Latreus"
+    },
+    {
+      "n": 464,
+      "latin": "maximus: huic aetas inter iuvenemque senemque,"
+    },
+    {
+      "n": 465,
+      "latin": "vis iuvenalis erat, variabant tempora cani."
+    },
+    {
+      "n": 466,
+      "latin": "Qui clipeo gladioque Macedoniaque sarisa"
+    },
+    {
+      "n": 467,
+      "latin": "conspicuus faciemque obversus in agmen utrumque"
+    },
+    {
+      "n": 468,
+      "latin": "armaque concussit certumque equitavit in orbem"
+    },
+    {
+      "n": 469,
+      "latin": "verbaque tot fudit vacuas animosus in auras:"
+    },
+    {
+      "n": 470,
+      "latin": "“Et te, Caeni, feram? Nam tu mihi femina semper,"
+    },
+    {
+      "n": 471,
+      "latin": "tu mihi Caenis eris. Nec te natalis origo"
+    },
+    {
+      "n": 472,
+      "latin": "commonuit, mentemque subit, quo praemia facto"
+    },
+    {
+      "n": 473,
+      "latin": "quaque viri falsam speciem mercede parasti?"
+    },
+    {
+      "n": 474,
+      "latin": "Quid sis nata, vide, vel quid sis passa, columque,"
+    },
+    {
+      "n": 475,
+      "latin": "i, cape cum calathis et stamina pollice torque:"
+    },
+    {
+      "n": 476,
+      "latin": "bella relinque viris.” Iactanti talia Caeneus"
+    },
+    {
+      "n": 477,
+      "latin": "extentum cursu missa latus eruit hasta,"
+    },
+    {
+      "n": 478,
+      "latin": "qua vir equo commissus erat. Furit ille dolore"
+    },
+    {
+      "n": 479,
+      "latin": "nudaque Phyllei iuvenis ferit ora sarisa."
+    },
+    {
+      "n": 480,
+      "latin": "Non secus haec resilit, quam tecti a culmine grando,"
+    },
+    {
+      "n": 481,
+      "latin": "aut siquis parvo feriat cava tympana saxo."
+    },
+    {
+      "n": 482,
+      "latin": "Comminus adgreditur laterique recondere duro"
+    },
+    {
+      "n": 483,
+      "latin": "luctatur gladium: gladio loca pervia non sunt."
+    },
+    {
+      "n": 484,
+      "latin": "“Haud tamen effugies! medio iugulaberis ense,"
+    },
+    {
+      "n": 485,
+      "latin": "quandoquidem mucro est hebes” inquit et in latus ensem"
+    },
+    {
+      "n": 486,
+      "latin": "obliquat longaque amplectitur ilia dextra."
+    },
+    {
+      "n": 487,
+      "latin": "Plaga facit gemitus in corpore marmoris icti,"
+    },
+    {
+      "n": 488,
+      "latin": "fractaque dissiluit percusso lammina callo."
+    },
+    {
+      "n": 489,
+      "latin": "Ut satis inlaesos miranti praebuit artus,"
+    },
+    {
+      "n": 490,
+      "latin": "“nunc age,” ait Caeneus, “nostro tua corpora ferro"
+    },
+    {
+      "n": 491,
+      "latin": "temptemus!” capuloque tenus demisit in armos"
+    },
+    {
+      "n": 492,
+      "latin": "ensem fatiferum caecumque in viscera movit"
+    },
+    {
+      "n": 493,
+      "latin": "versavitque manu vulnusque in vulnere fecit."
+    },
+    {
+      "n": 494,
+      "latin": "Ecce ruunt vasto rabidi clamore bimembres"
+    },
+    {
+      "n": 495,
+      "latin": "telaque in hunc omnes unum mittuntque feruntque."
+    },
+    {
+      "n": 496,
+      "latin": "Tela retusa cadunt: manet inperfossus ab omni"
+    },
+    {
+      "n": 497,
+      "latin": "inque cruentatus Caeneus Elateius ictu."
+    },
+    {
+      "n": 498,
+      "latin": "Fecerat attonitos nova res. “Heu dedecus ingens!”"
+    },
+    {
+      "n": 499,
+      "latin": "Monychus exclamat, “populus superamur ab uno"
+    },
+    {
+      "n": 500,
+      "latin": "vixque viro: quamquam ille vir est, nos segnibus actis"
+    },
+    {
+      "n": 501,
+      "latin": "quod fuit ille, sumus! Quid membra inmania prosunt?"
+    },
+    {
+      "n": 502,
+      "latin": "Quid geminae vires et quod fortissima rerum"
+    },
+    {
+      "n": 503,
+      "latin": "in nobis duplex natura animalia iunxit?"
+    },
+    {
+      "n": 504,
+      "latin": "Nec nos matre dea, nec nos Ixione natos"
+    },
+    {
+      "n": 505,
+      "latin": "esse reor, qui tantus erat, Iunonis ut altae"
+    },
+    {
+      "n": 506,
+      "latin": "spem caperet: nos semimari superamur ab hoste!"
+    },
+    {
+      "n": 507,
+      "latin": "Saxa trabesque super totosque involvite montes"
+    },
+    {
+      "n": 508,
+      "latin": "vivacemque animam missis elidite silvis!"
+    },
+    {
+      "n": 509,
+      "latin": "silva premat fauces, et erit pro vulnere pondus.”"
+    },
+    {
+      "n": 510,
+      "latin": "Dixit et insanis deiectam viribus austri"
+    },
+    {
+      "n": 511,
+      "latin": "forte trabem nactus validum coniecit in hostem"
+    },
+    {
+      "n": 512,
+      "latin": "exemplumque fuit, parvoque in tempore nudus"
+    },
+    {
+      "n": 513,
+      "latin": "arboris Othrys erat, nec habebat Pelion umbras."
+    },
+    {
+      "n": 514,
+      "latin": "Obrutus inmani tumulo sub pondere Caeneus"
+    },
+    {
+      "n": 515,
+      "latin": "aestuat arboreo congestaque robora duris"
+    },
+    {
+      "n": 516,
+      "latin": "fert umeris. Sed enim postquam super ora caputque"
+    },
+    {
+      "n": 517,
+      "latin": "crevit onus neque habet, quas ducat, spiritus auras,"
+    },
+    {
+      "n": 518,
+      "latin": "deficit interdum, modo se super aera frustra"
+    },
+    {
+      "n": 519,
+      "latin": "tollere conatur iactasque evolvere silvas,"
+    },
+    {
+      "n": 520,
+      "latin": "interdumque movet, veluti, quam cernimus, ecce,"
+    },
+    {
+      "n": 521,
+      "latin": "ardua si terrae quatiatur motibus Ide."
+    },
+    {
+      "n": 522,
+      "latin": "Exitus in dubio est: alii sub inania corpus"
+    },
+    {
+      "n": 523,
+      "latin": "Tartara detrusum silvarum mole ferebant;"
+    },
+    {
+      "n": 524,
+      "latin": "abnuit Ampycides medioque ex aggere fulvis"
+    },
+    {
+      "n": 525,
+      "latin": "vidit avem pennis liquidas exire sub auras,"
+    },
+    {
+      "n": 526,
+      "latin": "quae mihi tum primum, tunc est conspecta supremum."
+    },
+    {
+      "n": 527,
+      "latin": "Hanc ubi lustrantem leni sua castra volatu"
+    },
+    {
+      "n": 528,
+      "latin": "Mopsus et ingenti circum clangore sonantem"
+    },
+    {
+      "n": 529,
+      "latin": "adspexit pariterque animis oculisque secutus"
+    },
+    {
+      "n": 530,
+      "latin": "“o salve” dixit, “Lapithaeae gloria gentis,"
+    },
+    {
+      "n": 531,
+      "latin": "maxime vir quondam, sed nunc avis unica, Caeneu!”"
+    },
+    {
+      "n": 532,
+      "latin": "Credita res auctore suo est: dolor addidit iram,"
+    },
+    {
+      "n": 533,
+      "latin": "oppressumque aegre tulimus tot ab hostibus unum;"
+    },
+    {
+      "n": 534,
+      "latin": "nec prius abstitimus ferro exercere dolorem,"
+    },
+    {
+      "n": 535,
+      "latin": "quam data pars leto, partem fuga noxque removit.”"
+    }
+  ]
+}

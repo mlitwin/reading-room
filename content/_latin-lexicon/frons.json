@@ -1,0 +1,34 @@
+{
+  "lemma": "frons",
+  "pos": "noun",
+  "glosses": [
+    "foliage, leaves, leafy branch, green bough, frond"
+  ],
+  "head": "frons, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "frondi",
+      "acc.sg": "frondem",
+      "nom.pl": "frondis",
+      "gen.pl": "frondium",
+      "acc.pl": "frondis",
+      "nom.sg": "frons",
+      "gen.sg": "frondis",
+      "dat.sg": "frondi",
+      "dat.pl": "frondibus",
+      "abl.pl": "frondibus"
+    }
+  }
+}

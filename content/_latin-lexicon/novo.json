@@ -1,0 +1,41 @@
+{
+  "lemma": "novo",
+  "pos": "verb",
+  "glosses": [
+    "make new, renovate",
+    "renew, refresh, change"
+  ],
+  "head": "novo, novare, novavi, novatum",
+  "principal_parts": [
+    "novo",
+    "novare",
+    "novavi",
+    "novatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "novo",
+      "2sg.pres.ind.act": "novas",
+      "3sg.pres.ind.act": "novat",
+      "1pl.pres.ind.act": "novamus",
+      "2pl.pres.ind.act": "novatis",
+      "3pl.pres.ind.act": "novant",
+      "2sg.pres.imp.act": "nova",
+      "2pl.pres.imp.act": "novate"
+    }
+  }
+}

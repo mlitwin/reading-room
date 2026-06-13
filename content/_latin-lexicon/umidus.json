@@ -1,0 +1,52 @@
+{
+  "lemma": "umidus",
+  "pos": "adj",
+  "glosses": [
+    "damp, moist, dank, wet, humid"
+  ],
+  "head": "umidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "umidus",
+      "gen.sg.masc": "umidi",
+      "dat.sg.masc": "umido",
+      "gen.sg.fem": "umidae",
+      "dat.sg.fem": "umidae",
+      "nom.sg.neut": "umidum",
+      "gen.sg.neut": "umidi",
+      "dat.sg.neut": "umido",
+      "acc.sg.neut": "umidum",
+      "acc.sg.masc": "umidum",
+      "abl.sg.masc": "umido",
+      "nom.pl.masc": "umidi",
+      "gen.pl.masc": "umidorum",
+      "acc.pl.masc": "umidos",
+      "nom.sg.fem": "umida",
+      "acc.sg.fem": "umidam",
+      "abl.sg.fem": "umida",
+      "nom.pl.fem": "umidae",
+      "gen.pl.fem": "umidarum",
+      "acc.pl.fem": "umidas",
+      "abl.sg.neut": "umido",
+      "nom.pl.neut": "umida",
+      "gen.pl.neut": "umidorum",
+      "acc.pl.neut": "umida"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "lemma": "niger",
+  "pos": "adj",
+  "glosses": [
+    "black, dark",
+    "unlucky"
+  ],
+  "head": "niger, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "niger",
+      "gen.sg.masc": "nigri",
+      "dat.sg.masc": "nigro",
+      "gen.sg.fem": "nigrae",
+      "dat.sg.fem": "nigrae",
+      "nom.sg.neut": "nigrum",
+      "gen.sg.neut": "nigri",
+      "dat.sg.neut": "nigro",
+      "acc.sg.neut": "nigrum",
+      "acc.sg.masc": "nigrum",
+      "abl.sg.masc": "nigro",
+      "nom.pl.masc": "nigri",
+      "gen.pl.masc": "nigrorum",
+      "acc.pl.masc": "nigros",
+      "nom.sg.fem": "nigra",
+      "acc.sg.fem": "nigram",
+      "abl.sg.fem": "nigra",
+      "nom.pl.fem": "nigrae",
+      "gen.pl.fem": "nigrarum",
+      "acc.pl.fem": "nigras",
+      "abl.sg.neut": "nigro",
+      "nom.pl.neut": "nigra",
+      "gen.pl.neut": "nigrorum",
+      "acc.pl.neut": "nigra"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "lemma": "lutulentus",
+  "pos": "adj",
+  "glosses": [
+    "muddy",
+    "turbid",
+    "dirty",
+    "morally polluted"
+  ],
+  "head": "lutulentus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "lutulentus",
+      "gen.sg.masc": "lutulenti",
+      "dat.sg.masc": "lutulento",
+      "gen.sg.fem": "lutulentae",
+      "dat.sg.fem": "lutulentae",
+      "nom.sg.neut": "lutulentum",
+      "gen.sg.neut": "lutulenti",
+      "dat.sg.neut": "lutulento",
+      "acc.sg.neut": "lutulentum",
+      "acc.sg.masc": "lutulentum",
+      "abl.sg.masc": "lutulento",
+      "nom.pl.masc": "lutulenti",
+      "gen.pl.masc": "lutulentorum",
+      "acc.pl.masc": "lutulentos",
+      "nom.sg.fem": "lutulenta",
+      "acc.sg.fem": "lutulentam",
+      "abl.sg.fem": "lutulenta",
+      "nom.pl.fem": "lutulentae",
+      "gen.pl.fem": "lutulentarum",
+      "acc.pl.fem": "lutulentas",
+      "abl.sg.neut": "lutulento",
+      "nom.pl.neut": "lutulenta",
+      "gen.pl.neut": "lutulentorum",
+      "acc.pl.neut": "lutulenta"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "lemma": "damma",
+  "pos": "noun",
+  "glosses": [
+    "fallow/red-deer",
+    "small member of deer family",
+    "gazelle/antelope",
+    "doe"
+  ],
+  "head": "damma, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "damma",
+      "gen.sg": "dammae",
+      "abl.sg": "damma",
+      "acc.sg": "dammam",
+      "dat.sg": "dammae",
+      "nom.pl": "dammae",
+      "gen.pl": "dammarum",
+      "dat.pl": "dammis",
+      "abl.pl": "dammis",
+      "acc.pl": "dammas"
+    }
+  }
+}

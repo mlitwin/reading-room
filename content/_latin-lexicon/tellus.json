@@ -1,0 +1,36 @@
+{
+  "lemma": "tellus",
+  "pos": "noun",
+  "glosses": [
+    "earth, ground",
+    "the earth",
+    "land, country"
+  ],
+  "head": "tellus, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "tellurem",
+      "gen.pl": "tellurum",
+      "acc.pl": "telluris",
+      "nom.sg": "tellus",
+      "gen.sg": "telluris",
+      "dat.sg": "telluri",
+      "abl.sg": "tellure",
+      "nom.pl": "tellures",
+      "dat.pl": "telluribus",
+      "abl.pl": "telluribus"
+    }
+  }
+}

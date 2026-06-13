@@ -1,0 +1,40 @@
+{
+  "lemma": "gigno",
+  "pos": "verb",
+  "glosses": [
+    "give birth to, bring forth, bear",
+    "beget",
+    "be born (PASSIVE)"
+  ],
+  "head": "gigno, gignere, genui, genitum",
+  "principal_parts": [
+    "gigno",
+    "gignere",
+    "genui",
+    "genitum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "gignis",
+      "3sg.pres.ind.act": "gignit",
+      "1pl.pres.ind.act": "gignimus",
+      "2pl.pres.ind.act": "gignitis",
+      "2sg.pres.imp.act": "gigne",
+      "2pl.pres.imp.act": "gignite"
+    }
+  }
+}

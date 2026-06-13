@@ -1,0 +1,41 @@
+{
+  "lemma": "antiquo",
+  "pos": "verb",
+  "glosses": [
+    "reject (bill)",
+    "vote for the rejection"
+  ],
+  "head": "antiquo, antiquare, antiquavi, antiquatum",
+  "principal_parts": [
+    "antiquo",
+    "antiquare",
+    "antiquavi",
+    "antiquatum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "antiquo",
+      "2sg.pres.ind.act": "antiquas",
+      "3sg.pres.ind.act": "antiquat",
+      "1pl.pres.ind.act": "antiquamus",
+      "2pl.pres.ind.act": "antiquatis",
+      "3pl.pres.ind.act": "antiquant",
+      "2sg.pres.imp.act": "antiqua",
+      "2pl.pres.imp.act": "antiquate"
+    }
+  }
+}

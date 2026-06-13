@@ -1,0 +1,348 @@
+{
+  "book": 1,
+  "card": 2,
+  "lines": [
+    5,
+    88
+  ],
+  "title_latin": "Mundi origo.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 5,
+      "latin": "Ante mare et terras et quod tegit omnia caelum"
+    },
+    {
+      "n": 6,
+      "latin": "unus erat toto naturae vultus in orbe,"
+    },
+    {
+      "n": 7,
+      "latin": "quem dixere chaos: rudis indigestaque moles"
+    },
+    {
+      "n": 8,
+      "latin": "nec quicquam nisi pondus iners congestaque eodem"
+    },
+    {
+      "n": 9,
+      "latin": "non bene iunctarum discordia semina rerum."
+    },
+    {
+      "n": 10,
+      "latin": "nullus adhuc mundo praebebat lumina Titan,"
+    },
+    {
+      "n": 11,
+      "latin": "nec nova crescendo reparabat cornua Phoebe,"
+    },
+    {
+      "n": 12,
+      "latin": "nec circumfuso pendebat in aere tellus"
+    },
+    {
+      "n": 13,
+      "latin": "ponderibus librata suis, nec bracchia longo"
+    },
+    {
+      "n": 14,
+      "latin": "margine terrarum porrexerat Amphitrite;"
+    },
+    {
+      "n": 15,
+      "latin": "utque aer, tellus illic et pontus et aether."
+    },
+    {
+      "n": 16,
+      "latin": "Sic erat instabilis tellus, innabilis unda,"
+    },
+    {
+      "n": 17,
+      "latin": "lucis egens aer: nulli sua forma manebat,"
+    },
+    {
+      "n": 18,
+      "latin": "obstabatque aliis aliud, quia corpore in uno"
+    },
+    {
+      "n": 19,
+      "latin": "frigida pugnabant calidis, umentia siccis,"
+    },
+    {
+      "n": 20,
+      "latin": "mollia cum duris, sine pondere habentia pondus."
+    },
+    {
+      "n": 21,
+      "latin": "Hanc deus et melior litem natura diremit."
+    },
+    {
+      "n": 22,
+      "latin": "Nam caelo terras et terris abscidit undas,"
+    },
+    {
+      "n": 23,
+      "latin": "et liquidum spisso secrevit ab aere caelum."
+    },
+    {
+      "n": 24,
+      "latin": "Quae postquam evolvit caecoque exemit acervo,"
+    },
+    {
+      "n": 25,
+      "latin": "dissociata locis concordi pace ligavit."
+    },
+    {
+      "n": 26,
+      "latin": "Ignea convexi vis et sine pondere caeli"
+    },
+    {
+      "n": 27,
+      "latin": "emicuit summaque locum sibi fecit in arce:"
+    },
+    {
+      "n": 28,
+      "latin": "proximus est aer illi levitate locoque:"
+    },
+    {
+      "n": 29,
+      "latin": "densior his tellus, elementaque grandia traxit"
+    },
+    {
+      "n": 30,
+      "latin": "et pressa est gravitate sua: circumfluus umor"
+    },
+    {
+      "n": 31,
+      "latin": "ultima possedit solidumque coercuit orbem."
+    },
+    {
+      "n": 32,
+      "latin": "Sic ubi dispositam quisquis fuit ille deorum"
+    },
+    {
+      "n": 33,
+      "latin": "congeriem secuit sectamque in membra redegit,"
+    },
+    {
+      "n": 34,
+      "latin": "principio terram, ne non aequalis ab omni"
+    },
+    {
+      "n": 35,
+      "latin": "parte foret, magni speciem glomeravit in orbis."
+    },
+    {
+      "n": 36,
+      "latin": "Tum freta diffudit rapidisque tumescere ventis"
+    },
+    {
+      "n": 37,
+      "latin": "iussit et ambitae circumdare litora terrae."
+    },
+    {
+      "n": 38,
+      "latin": "Addidit et fontes et stagna inmensa lacusque"
+    },
+    {
+      "n": 39,
+      "latin": "fluminaque obliquis cinxit declivia ripis,"
+    },
+    {
+      "n": 40,
+      "latin": "quae, diversa locis, partim sorbentur ab ipsa,"
+    },
+    {
+      "n": 41,
+      "latin": "in mare perveniunt partim campoque recepta"
+    },
+    {
+      "n": 42,
+      "latin": "liberioris aquae pro ripis litora pulsant."
+    },
+    {
+      "n": 43,
+      "latin": "Iussit et extendi campos, subsidere valles,"
+    },
+    {
+      "n": 44,
+      "latin": "fronde tegi silvas, lapidosos surgere montes."
+    },
+    {
+      "n": 45,
+      "latin": "Utque duae dextra caelum totidemque sinistra"
+    },
+    {
+      "n": 46,
+      "latin": "parte secant zonae, quinta est ardentior illis,"
+    },
+    {
+      "n": 47,
+      "latin": "sic onus inclusum numero distinxit eodem"
+    },
+    {
+      "n": 48,
+      "latin": "cura dei, totidemque plagae tellure premuntur."
+    },
+    {
+      "n": 49,
+      "latin": "Quarum quae media est, non est habitabilis aestu:"
+    },
+    {
+      "n": 50,
+      "latin": "nix tegit alta duas: totidem inter utrumque locavit"
+    },
+    {
+      "n": 51,
+      "latin": "temperiemque dedit mixta cum frigore flamma."
+    },
+    {
+      "n": 52,
+      "latin": "Inminet his aer. Qui quanto est pondere terrae,"
+    },
+    {
+      "n": 53,
+      "latin": "pondere aquae levior tanto est onerosior igni."
+    },
+    {
+      "n": 54,
+      "latin": "Illic et nebulas, illic consistere nubes"
+    },
+    {
+      "n": 55,
+      "latin": "iussit et humanas motura tonitrua mentes"
+    },
+    {
+      "n": 56,
+      "latin": "et cum fulminibus facientes fulgura ventos."
+    },
+    {
+      "n": 57,
+      "latin": "His quoque non passim mundi fabricator habendum"
+    },
+    {
+      "n": 58,
+      "latin": "aera permisit: vix nunc obsistitur illis,"
+    },
+    {
+      "n": 59,
+      "latin": "cum sua quisque regant diverso flamina tractu,"
+    },
+    {
+      "n": 60,
+      "latin": "quin lanient mundum: tanta est discordia fratrum."
+    },
+    {
+      "n": 61,
+      "latin": "Eurus ad Auroram Nabataeaque regna recessit"
+    },
+    {
+      "n": 62,
+      "latin": "Persidaque et radiis iuga subdita matutinis;"
+    },
+    {
+      "n": 63,
+      "latin": "vesper et occiduo quae litora sole tepescunt,"
+    },
+    {
+      "n": 64,
+      "latin": "proxima sunt Zephyro: Scythiam septemque triones"
+    },
+    {
+      "n": 65,
+      "latin": "horrifer invasit Boreas: contraria tellus"
+    },
+    {
+      "n": 66,
+      "latin": "nubibus adsiduis pluviaque madescit ab Austro."
+    },
+    {
+      "n": 67,
+      "latin": "Haec super inposuit liquidum et gravitate carentem"
+    },
+    {
+      "n": 68,
+      "latin": "aethera nec quicquam terrenae faecis habentem."
+    },
+    {
+      "n": 69,
+      "latin": "Vix ita limitibus dissaepserat omnia certis,"
+    },
+    {
+      "n": 70,
+      "latin": "cum, quae pressa diu massa latuere sub illa,"
+    },
+    {
+      "n": 71,
+      "latin": "sidera coeperunt toto effervescere caelo."
+    },
+    {
+      "n": 72,
+      "latin": "Neu regio foret ulla suis animalibus orba,"
+    },
+    {
+      "n": 73,
+      "latin": "astra tenent caeleste solum formaeque deorum,"
+    },
+    {
+      "n": 74,
+      "latin": "cesserunt nitidis habitandae piscibus undae,"
+    },
+    {
+      "n": 75,
+      "latin": "terra feras cepit, volucres agitabilis aer."
+    },
+    {
+      "n": 76,
+      "latin": "Sanctius his animal mentisque capacius altae"
+    },
+    {
+      "n": 77,
+      "latin": "deerat adhuc et quod dominari in cetera posset."
+    },
+    {
+      "n": 78,
+      "latin": "Natus homo est, sive hunc divino semine fecit"
+    },
+    {
+      "n": 79,
+      "latin": "ille opifex rerum, mundi melioris origo,"
+    },
+    {
+      "n": 80,
+      "latin": "sive recens tellus seductaque nuper ab alto"
+    },
+    {
+      "n": 81,
+      "latin": "aethere cognati retinebat semina caeli;"
+    },
+    {
+      "n": 82,
+      "latin": "quam satus Iapeto mixtam pluvialibus undis"
+    },
+    {
+      "n": 83,
+      "latin": "finxit in effigiem moderantum cuncta deorum."
+    },
+    {
+      "n": 84,
+      "latin": "Pronaque cum spectent animalia cetera terram,"
+    },
+    {
+      "n": 85,
+      "latin": "os homini sublime dedit, caelumque videre"
+    },
+    {
+      "n": 86,
+      "latin": "iussit et erectos ad sidera tollere vultus."
+    },
+    {
+      "n": 87,
+      "latin": "Sic, modo quae fuerat rudis et sine imagine, tellus"
+    },
+    {
+      "n": 88,
+      "latin": "induit ignotas hominum conversa figuras."
+    }
+  ]
+}

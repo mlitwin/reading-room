@@ -1,0 +1,52 @@
+{
+  "lemma": "aesculeus",
+  "pos": "adj",
+  "glosses": [
+    "of a variety of oak tree/wood, perhaps durmast or Hungarian or Italian oak"
+  ],
+  "head": "aesculeus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "aesculeus",
+      "gen.sg.masc": "aesculei",
+      "dat.sg.masc": "aesculeo",
+      "gen.sg.fem": "aesculeae",
+      "dat.sg.fem": "aesculeae",
+      "nom.sg.neut": "aesculeum",
+      "gen.sg.neut": "aesculei",
+      "dat.sg.neut": "aesculeo",
+      "acc.sg.neut": "aesculeum",
+      "acc.sg.masc": "aesculeum",
+      "abl.sg.masc": "aesculeo",
+      "nom.pl.masc": "aesculei",
+      "gen.pl.masc": "aesculeorum",
+      "acc.pl.masc": "aesculeos",
+      "nom.sg.fem": "aesculea",
+      "acc.sg.fem": "aesculeam",
+      "abl.sg.fem": "aesculea",
+      "nom.pl.fem": "aesculeae",
+      "gen.pl.fem": "aesculearum",
+      "acc.pl.fem": "aesculeas",
+      "abl.sg.neut": "aesculeo",
+      "nom.pl.neut": "aesculea",
+      "gen.pl.neut": "aesculeorum",
+      "acc.pl.neut": "aesculea"
+    }
+  }
+}

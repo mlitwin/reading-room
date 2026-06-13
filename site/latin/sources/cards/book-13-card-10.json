@@ -1,0 +1,596 @@
+{
+  "book": 13,
+  "card": 10,
+  "lines": [
+    750,
+    897
+  ],
+  "title_latin": "Acis et Galatea. Polyphemus.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 750,
+      "latin": "“Acis erat Fauno nymphaque Symaethide cretus,"
+    },
+    {
+      "n": 751,
+      "latin": "magna quidem patrisque sui matrisque voluptas,"
+    },
+    {
+      "n": 752,
+      "latin": "nostra tamen maior: nam me sibi iunxerat uni."
+    },
+    {
+      "n": 753,
+      "latin": "Pulcher et octonis iterum natalibus actis"
+    },
+    {
+      "n": 754,
+      "latin": "signarat teneras dubia lanugine malas."
+    },
+    {
+      "n": 755,
+      "latin": "Hunc ego, me Cyclops nulla cum fine petebat."
+    },
+    {
+      "n": 756,
+      "latin": "En si quaesieris, odium Cyclopis, amorne"
+    },
+    {
+      "n": 757,
+      "latin": "Acidis in nobis fuerit praesentior, edam:"
+    },
+    {
+      "n": 758,
+      "latin": "par utrumque fuit. Pro quanta potentia regni"
+    },
+    {
+      "n": 759,
+      "latin": "est, Venus alma, tui! Nempe ille inmitis et ipsis"
+    },
+    {
+      "n": 760,
+      "latin": "horrendus silvis et visus ab hospite nullo"
+    },
+    {
+      "n": 761,
+      "latin": "impune et magni cum dis contemptor Olympi,"
+    },
+    {
+      "n": 762,
+      "latin": "quid sit amor, sensit validaque cupidine captus"
+    },
+    {
+      "n": 763,
+      "latin": "uritur, oblitus pecorum antrorumque suorum."
+    },
+    {
+      "n": 764,
+      "latin": "Iamque tibi formae, iamque est tibi cura placendi,"
+    },
+    {
+      "n": 765,
+      "latin": "iam rigidos pectis rastris, Polypheme, capillos,"
+    },
+    {
+      "n": 766,
+      "latin": "iam libet hirsutam tibi falce recidere barbam"
+    },
+    {
+      "n": 767,
+      "latin": "et spectare feros in aqua et componere vultus."
+    },
+    {
+      "n": 768,
+      "latin": "Caedis amor feritasque sitisque inmensa cruoris"
+    },
+    {
+      "n": 769,
+      "latin": "cessant, et tutae veniunt abeuntque carinae."
+    },
+    {
+      "n": 770,
+      "latin": "Telemus interea Siculam delatus ad Aetnen,"
+    },
+    {
+      "n": 771,
+      "latin": "Telemus Eurymides, quem nulla fefellerat ales,"
+    },
+    {
+      "n": 772,
+      "latin": "terribilem Polyphemon adit “lumen” que, “quod unum"
+    },
+    {
+      "n": 773,
+      "latin": "fronte geris media, rapiet tibi” dixit “Ulixes!”"
+    },
+    {
+      "n": 774,
+      "latin": "Risit et “o vatum stolidissime, falleris,” inquit,"
+    },
+    {
+      "n": 775,
+      "latin": "“altera iam rapuit!” Sic frustra vera monentem"
+    },
+    {
+      "n": 776,
+      "latin": "spernit et aut gradiens ingenti litora passu"
+    },
+    {
+      "n": 777,
+      "latin": "degravat aut fessus sub opaca revertitur antra."
+    },
+    {
+      "n": 778,
+      "latin": "Prominet in pontum cuneatus acumine longo"
+    },
+    {
+      "n": 779,
+      "latin": "collis utrumque latus circumfluit aequoris unda;"
+    },
+    {
+      "n": 780,
+      "latin": "huc ferus ascendit Cyclops mediusque resedit,"
+    },
+    {
+      "n": 781,
+      "latin": "lanigerae pecudes nullo ducente secutae."
+    },
+    {
+      "n": 782,
+      "latin": "Cui postquam pinus, baculi quae praebuit usum,"
+    },
+    {
+      "n": 783,
+      "latin": "ante pedes posita est, antemnis apta ferendis,"
+    },
+    {
+      "n": 784,
+      "latin": "sumptaque harundinibus compacta est fistula centum,"
+    },
+    {
+      "n": 785,
+      "latin": "senserunt toti pastoria sibila montes,"
+    },
+    {
+      "n": 786,
+      "latin": "senserunt undae; latitans ego rupe meique"
+    },
+    {
+      "n": 787,
+      "latin": "Acidis in gremio residens procul auribus hausi"
+    },
+    {
+      "n": 788,
+      "latin": "talia dicta meis auditaque verba notavi:"
+    },
+    {
+      "n": 789,
+      "latin": "“Candidior folio nivei, Galatea, ligustri,"
+    },
+    {
+      "n": 790,
+      "latin": "floridior pratis, longa procerior alno,"
+    },
+    {
+      "n": 791,
+      "latin": "splendidior vitro, tenero lascivior haedo,"
+    },
+    {
+      "n": 792,
+      "latin": "levior adsiduo detritis aequore conchis,"
+    },
+    {
+      "n": 793,
+      "latin": "solibus hibernis, aestiva gratior umbra,"
+    },
+    {
+      "n": 794,
+      "latin": "nobilior pomis, platano conspectior alta,"
+    },
+    {
+      "n": 795,
+      "latin": "lucidior glacie, matura dulcior uva,"
+    },
+    {
+      "n": 796,
+      "latin": "mollior et cygni plumis et lacte coacto"
+    },
+    {
+      "n": 798,
+      "latin": "saevior indomitis eadem Galatea iuvencis,"
+    },
+    {
+      "n": 799,
+      "latin": "durior annosa quercu, fallacior undis,"
+    },
+    {
+      "n": 800,
+      "latin": "lentior et salicis virgis et vitibus albis,"
+    },
+    {
+      "n": 801,
+      "latin": "his inmobilior scopulis, violentior amne,"
+    },
+    {
+      "n": 802,
+      "latin": "laudato pavone superbior, acrior igni,"
+    },
+    {
+      "n": 803,
+      "latin": "asperior tribulis, feta truculentior ursa,"
+    },
+    {
+      "n": 804,
+      "latin": "surdior aequoribus, calcato inmitior hydro,"
+    },
+    {
+      "n": 805,
+      "latin": "et, quod praecipue vellem tibi demere possem."
+    },
+    {
+      "n": 806,
+      "latin": "Non tantum cervo claris latratibus acto,"
+    },
+    {
+      "n": 807,
+      "latin": "verum etiam ventis volucrique fugacior aura!"
+    },
+    {
+      "n": 808,
+      "latin": "At bene si noris, pigeat fugisse morasque"
+    },
+    {
+      "n": 809,
+      "latin": "ipsa tuas damnes et me retinere labores."
+    },
+    {
+      "n": 810,
+      "latin": "Sunt mihi, pars montis, vivo pendentia saxo"
+    },
+    {
+      "n": 811,
+      "latin": "antra, quibus nec sol medio sentitur in aestu"
+    },
+    {
+      "n": 812,
+      "latin": "nec sentitur hiems; sunt poma gravantia ramos,"
+    },
+    {
+      "n": 813,
+      "latin": "sunt auro similes longis in vitibus uvae,"
+    },
+    {
+      "n": 814,
+      "latin": "sunt et purpureae: tibi et has servamus et illas."
+    },
+    {
+      "n": 815,
+      "latin": "Ipsa tuis manibus silvestri nata sub umbra"
+    },
+    {
+      "n": 816,
+      "latin": "mollia fraga leges, ipsa autumnalia corna"
+    },
+    {
+      "n": 817,
+      "latin": "prunaque, non solum nigro liventia suco,"
+    },
+    {
+      "n": 818,
+      "latin": "verum etiam generosa novasque imitantia ceras."
+    },
+    {
+      "n": 819,
+      "latin": "Nec tibi castaneae me coniuge, nec tibi deerunt"
+    },
+    {
+      "n": 820,
+      "latin": "arbutei fetus: omnis tibi serviet arbor."
+    },
+    {
+      "n": 821,
+      "latin": "Hoc pecus omne meum est, multae quoque vallibus errant,"
+    },
+    {
+      "n": 822,
+      "latin": "multas silva tegit, multae stabulantur in antris."
+    },
+    {
+      "n": 823,
+      "latin": "Nec, si forte roges, possim tibi dicere, quot sint:"
+    },
+    {
+      "n": 824,
+      "latin": "pauperis est numerare pecus! De laudibus harum"
+    },
+    {
+      "n": 825,
+      "latin": "nil mihi credideris: praesens potes ipse videre,"
+    },
+    {
+      "n": 826,
+      "latin": "ut vix circueant distentum cruribus uber."
+    },
+    {
+      "n": 827,
+      "latin": "Sunt, fetura minor, tepidis in ovilibus agni,"
+    },
+    {
+      "n": 828,
+      "latin": "sunt quoque, par aetas, aliis in ovilibus haedi."
+    },
+    {
+      "n": 829,
+      "latin": "Lac mihi semper adest niveum: pars inde bibenda"
+    },
+    {
+      "n": 830,
+      "latin": "servatur, partem liquefacta coagula durant."
+    },
+    {
+      "n": 831,
+      "latin": "Nec tibi deliciae faciles vulgataque tantum"
+    },
+    {
+      "n": 832,
+      "latin": "munera contingent, dammae leporesque caperque"
+    },
+    {
+      "n": 833,
+      "latin": "parve columbarum demptusve cacumine nidus:"
+    },
+    {
+      "n": 834,
+      "latin": "inveni geminos, qui tecum ludere possint,"
+    },
+    {
+      "n": 835,
+      "latin": "inter se similes, vix ut dignoscere possis,"
+    },
+    {
+      "n": 836,
+      "latin": "villosae catulos in summis montibus ursae,"
+    },
+    {
+      "n": 837,
+      "latin": "inveni et dixi “dominae servabimus istos!”"
+    },
+    {
+      "n": 838,
+      "latin": "Iam modo caeruleo nitidum caput exsere ponto,"
+    },
+    {
+      "n": 839,
+      "latin": "iam, Galatea, veni, nec munera despice nostra."
+    },
+    {
+      "n": 840,
+      "latin": "Certe ego me novi liquidaeque in imagine vidi"
+    },
+    {
+      "n": 841,
+      "latin": "nuper aquae, placuitque mihi mea forma videnti."
+    },
+    {
+      "n": 842,
+      "latin": "Adspice, sim quantus! Non est hoc corpore maior"
+    },
+    {
+      "n": 843,
+      "latin": "Iuppiter in caelo: nam vos narrare soletis,"
+    },
+    {
+      "n": 844,
+      "latin": "nescio quem regnare Iovem. Coma plurima torvos"
+    },
+    {
+      "n": 845,
+      "latin": "prominet in vultus umerosque, ut lucus, obumbrat."
+    },
+    {
+      "n": 846,
+      "latin": "Nec mea quod rigidis horrent densissima saetis"
+    },
+    {
+      "n": 847,
+      "latin": "corpora, turpe puta turpis sine frondibus arbor,"
+    },
+    {
+      "n": 848,
+      "latin": "turpis equus, nisi colla iubae flaventia velent;"
+    },
+    {
+      "n": 850,
+      "latin": "barba viros hirtaeque decent in corpore saetae."
+    },
+    {
+      "n": 851,
+      "latin": "Unum est in media lumen mihi fronte, sed instar"
+    },
+    {
+      "n": 852,
+      "latin": "ingentis clipei. Quid? non haec omnia magnus"
+    },
+    {
+      "n": 853,
+      "latin": "Sol videt e caelo? Soli tamen unicus orbis!"
+    },
+    {
+      "n": 854,
+      "latin": "Adde, quod in vestro genitor meus aequore regnat:"
+    },
+    {
+      "n": 855,
+      "latin": "hunc tibi do socerum; tantum miserere precesque"
+    },
+    {
+      "n": 856,
+      "latin": "supplicis exaudi! tibi enim succumbimus uni."
+    },
+    {
+      "n": 857,
+      "latin": "Quique Iovem et caelum sperno et penetrabile fulmen,"
+    },
+    {
+      "n": 858,
+      "latin": "Nerei, te veneror: tua fulmine saevior ira est. —"
+    },
+    {
+      "n": 859,
+      "latin": "Atque ego contemptus essem patientior huius,"
+    },
+    {
+      "n": 860,
+      "latin": "si fugeres omnes; sed cur Cyclope repulso"
+    },
+    {
+      "n": 861,
+      "latin": "Acin amas praefersque meis complexibus Acin?"
+    },
+    {
+      "n": 862,
+      "latin": "Ille tamen placeatque sibi placeatque licebit,"
+    },
+    {
+      "n": 863,
+      "latin": "quod nollem, Galatea, tibi; modo copia detur,"
+    },
+    {
+      "n": 864,
+      "latin": "sentiet esse mihi tanto pro corpore vires!"
+    },
+    {
+      "n": 865,
+      "latin": "Viscera viva traham divisaque membra per agros"
+    },
+    {
+      "n": 866,
+      "latin": "perque tuas spargam (sic se tibi misceat!) undas."
+    },
+    {
+      "n": 867,
+      "latin": "Uror enim, laesusque exaestuat acrior ignis,"
+    },
+    {
+      "n": 868,
+      "latin": "cumque suis videor translatam viribus Aetnam"
+    },
+    {
+      "n": 869,
+      "latin": "pectore ferre meo: nec tu, Galatea, moveris.”"
+    },
+    {
+      "n": 870,
+      "latin": "Talia nequiquam questus (nam cuncta videbam)"
+    },
+    {
+      "n": 871,
+      "latin": "surgit et ut taurus vacca furibundus adempta,"
+    },
+    {
+      "n": 872,
+      "latin": "stare nequit silvaque et notis saltibus errat:"
+    },
+    {
+      "n": 873,
+      "latin": "cum ferus ignaros nec quicquam tale timentes"
+    },
+    {
+      "n": 874,
+      "latin": "me videt atque Acin “video” que exclamat “et ista"
+    },
+    {
+      "n": 875,
+      "latin": "ultima sit, faciam, veneris concordia vestrae!”"
+    },
+    {
+      "n": 876,
+      "latin": "Tantaque vox, quantam Cyclops iratus habere"
+    },
+    {
+      "n": 877,
+      "latin": "debuit, illa fuit: clamore perhorruit Aetne."
+    },
+    {
+      "n": 878,
+      "latin": "Ast ego vicino pavefacta sub aequore mergor,"
+    },
+    {
+      "n": 879,
+      "latin": "terga fugae dederat conversa Symaethius heros"
+    },
+    {
+      "n": 880,
+      "latin": "et “fer opem, Galatea, precor, mihi! ferte, parentes”"
+    },
+    {
+      "n": 881,
+      "latin": "dixerat “et vestris periturum admittite regnis!”"
+    },
+    {
+      "n": 882,
+      "latin": "Insequitur Cyclops partemque e monte revulsam"
+    },
+    {
+      "n": 883,
+      "latin": "mittit, et extremus quamvis pervenit ad illum,"
+    },
+    {
+      "n": 884,
+      "latin": "angulus is molis totum tamen obruit Acin."
+    },
+    {
+      "n": 885,
+      "latin": "At nos, quod fieri solum per fata licebat,"
+    },
+    {
+      "n": 886,
+      "latin": "fecimus, ut vires adsumeret Acis avitas."
+    },
+    {
+      "n": 887,
+      "latin": "Puniceus de mole cruor manabat, et intra"
+    },
+    {
+      "n": 888,
+      "latin": "temporis exiguum rubor evanescere coepit"
+    },
+    {
+      "n": 889,
+      "latin": "fitque color primo turbati fluminis imbre"
+    },
+    {
+      "n": 890,
+      "latin": "purgaturque mora; tum moles tacta dehiscit,"
+    },
+    {
+      "n": 891,
+      "latin": "vivaque per rimas proceraque surgit harundo,"
+    },
+    {
+      "n": 892,
+      "latin": "osque cavum saxi sonat exsultantibus undis:"
+    },
+    {
+      "n": 893,
+      "latin": "miraque res, subito media tenus exstitit alvo"
+    },
+    {
+      "n": 894,
+      "latin": "incinctus iuvenis flexis nova cornua cannis,"
+    },
+    {
+      "n": 895,
+      "latin": "qui, nisi quod maior, quod toto caerulus ore,"
+    },
+    {
+      "n": 896,
+      "latin": "Acis erat. Sed sic quoque erat tamen Acis, in amnem"
+    },
+    {
+      "n": 897,
+      "latin": "versus, et antiquum tenuerunt flumina nomen.”"
+    }
+  ]
+}

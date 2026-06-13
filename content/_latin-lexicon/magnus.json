@@ -1,0 +1,57 @@
+{
+  "lemma": "magnus",
+  "pos": "adj",
+  "glosses": [
+    "large/great/big/vast/huge",
+    "much",
+    "powerful",
+    "tall/long/broad",
+    "extensive/spacious",
+    "great (achievement)"
+  ],
+  "head": "magnus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "magnus",
+      "gen.sg.masc": "magni",
+      "dat.sg.masc": "magno",
+      "gen.sg.fem": "magnae",
+      "dat.sg.fem": "magnae",
+      "nom.sg.neut": "magnum",
+      "gen.sg.neut": "magni",
+      "dat.sg.neut": "magno",
+      "acc.sg.neut": "magnum",
+      "acc.sg.masc": "magnum",
+      "abl.sg.masc": "magno",
+      "nom.pl.masc": "magni",
+      "gen.pl.masc": "magnorum",
+      "acc.pl.masc": "magnos",
+      "nom.sg.fem": "magna",
+      "acc.sg.fem": "magnam",
+      "abl.sg.fem": "magna",
+      "nom.pl.fem": "magnae",
+      "gen.pl.fem": "magnarum",
+      "acc.pl.fem": "magnas",
+      "abl.sg.neut": "magno",
+      "nom.pl.neut": "magna",
+      "gen.pl.neut": "magnorum",
+      "acc.pl.neut": "magna"
+    }
+  }
+}

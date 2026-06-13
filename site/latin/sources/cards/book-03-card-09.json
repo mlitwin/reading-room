@@ -1,0 +1,452 @@
+{
+  "book": 3,
+  "card": 9,
+  "lines": [
+    582,
+    691
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 582,
+      "latin": "Ille metu vacuus “nomen mihi” dixit “Acoetes,"
+    },
+    {
+      "n": 583,
+      "latin": "patria Maeonia est, humili de plebe parentes."
+    },
+    {
+      "n": 584,
+      "latin": "Non mihi quae duri colerent pater arva iuvenci,"
+    },
+    {
+      "n": 585,
+      "latin": "lanigerosve greges, non ulla armenta reliquit;"
+    },
+    {
+      "n": 586,
+      "latin": "pauper et ipse fuit, linoque solebat et hamis"
+    },
+    {
+      "n": 587,
+      "latin": "decipere et calamo salientes ducere pisces."
+    },
+    {
+      "n": 588,
+      "latin": "Ars illi sua census erat. Cum traderet artem,"
+    },
+    {
+      "n": 589,
+      "latin": "“accipe quas habeo, studii successor et heres,”"
+    },
+    {
+      "n": 590,
+      "latin": "dixit “opes.” Moriensque mihi nil ille reliquit"
+    },
+    {
+      "n": 591,
+      "latin": "praeter aquas: unum hoc possum appellare paternum."
+    },
+    {
+      "n": 592,
+      "latin": "Mox ego, ne scopulis haererem semper in isdem,"
+    },
+    {
+      "n": 593,
+      "latin": "addidici regimen dextra moderante carinae"
+    },
+    {
+      "n": 594,
+      "latin": "flectere et Oleniae sidus pluviale capellae"
+    },
+    {
+      "n": 595,
+      "latin": "Taygetenque hyadasque oculis arctonque notavi"
+    },
+    {
+      "n": 596,
+      "latin": "ventorumque domos et portus puppibus aptos."
+    },
+    {
+      "n": 597,
+      "latin": "Forte petens Delum Chiae telluris ad oras"
+    },
+    {
+      "n": 598,
+      "latin": "applicor et dextris adducor litora remis,"
+    },
+    {
+      "n": 599,
+      "latin": "doque leves saltus udaeque inmittor harenae."
+    },
+    {
+      "n": 600,
+      "latin": "Nox ubi consumpta est (aurora rubescere prima"
+    },
+    {
+      "n": 601,
+      "latin": "coeperat), exsurgo, laticesque inferre recentes"
+    },
+    {
+      "n": 602,
+      "latin": "admoneo monstroque viam, quae ducat ad undas."
+    },
+    {
+      "n": 603,
+      "latin": "Ipse, quid aura mihi tumulo promittat ab alto"
+    },
+    {
+      "n": 604,
+      "latin": "prospicio comitesque voco repetoque carinam."
+    },
+    {
+      "n": 605,
+      "latin": "“Adsumus en!” inquit sociorum primus Opheltes,"
+    },
+    {
+      "n": 606,
+      "latin": "utque putat, praedam deserto nactus in agro,"
+    },
+    {
+      "n": 607,
+      "latin": "virginea puerum ducit per litora forma."
+    },
+    {
+      "n": 608,
+      "latin": "Ille mero somnoque gravis titubare videtur"
+    },
+    {
+      "n": 609,
+      "latin": "vixque sequi. Specto cultum faciemque gradumque:"
+    },
+    {
+      "n": 610,
+      "latin": "nil ibi quod credi posset mortale videbam."
+    },
+    {
+      "n": 611,
+      "latin": "Et sensi et dixi sociis: “Quod numen in isto"
+    },
+    {
+      "n": 612,
+      "latin": "corpore sit, dubito; sed corpore numen in isto est."
+    },
+    {
+      "n": 613,
+      "latin": "Quisquis es, o faveas nostrisque laboribus adsis."
+    },
+    {
+      "n": 614,
+      "latin": "His quoque des veniam.” — “Pro nobis mitte precari”"
+    },
+    {
+      "n": 615,
+      "latin": "Dictys ait, quo non alius conscendere summas"
+    },
+    {
+      "n": 616,
+      "latin": "ocior antemnas prensoque rudente relabi."
+    },
+    {
+      "n": 617,
+      "latin": "Hoc Libys, hoc flavus, prorae tutela, Melanthus,"
+    },
+    {
+      "n": 618,
+      "latin": "hoc probat Alcimedon, et qui requiemque modumque"
+    },
+    {
+      "n": 619,
+      "latin": "voce dabat remis, animorum hortator Epopeus,"
+    },
+    {
+      "n": 620,
+      "latin": "hoc omnes alii: praedae tam caeca cupido est."
+    },
+    {
+      "n": 621,
+      "latin": "“Non tamen hanc sacro violari pondere pinum"
+    },
+    {
+      "n": 622,
+      "latin": "perpetiar” dixi: “pars hic mihi maxima iuris”;"
+    },
+    {
+      "n": 623,
+      "latin": "inque aditu obsisto. Furit audacissimus omni"
+    },
+    {
+      "n": 624,
+      "latin": "de numero Lycabas, qui Tusca pulsus ab urbe"
+    },
+    {
+      "n": 625,
+      "latin": "exsilium dira poenam pro caede luebat."
+    },
+    {
+      "n": 626,
+      "latin": "Is mihi, dum resto, iuvenali guttura pugno"
+    },
+    {
+      "n": 627,
+      "latin": "rupit et excussum misisset in aequora, si non"
+    },
+    {
+      "n": 628,
+      "latin": "haesissem, quamvis amens, in fune retentus."
+    },
+    {
+      "n": 629,
+      "latin": "Impia turba probat factum. Tum denique Bacchus"
+    },
+    {
+      "n": 630,
+      "latin": "(Bacchus enim fuerat), veluti clamore solutus"
+    },
+    {
+      "n": 631,
+      "latin": "sit sopor aque mero redeant in pectora sensus,"
+    },
+    {
+      "n": 632,
+      "latin": "“quid facitis? quis clamor?” ait “qua, dicite, nautae,"
+    },
+    {
+      "n": 633,
+      "latin": "huc ope perveni? quo me deferre paratis?”"
+    },
+    {
+      "n": 634,
+      "latin": "“Pone metum”, Proreus “et quos contingere portus"
+    },
+    {
+      "n": 635,
+      "latin": "ede velis” dixit: “terra sistere petita.” —"
+    },
+    {
+      "n": 636,
+      "latin": "“Naxon” ait Liber “cursus advertite vestros."
+    },
+    {
+      "n": 637,
+      "latin": "Illa mihi domus est, vobis erit hospita tellus.”"
+    },
+    {
+      "n": 638,
+      "latin": "Per mare fallaces perque omnia numina iurant"
+    },
+    {
+      "n": 639,
+      "latin": "sic fore, meque iubent pictae dare vela carinae."
+    },
+    {
+      "n": 640,
+      "latin": "Dextera Naxos erat. Dextra mihi lintea danti"
+    },
+    {
+      "n": 641,
+      "latin": "“quid facis, o demens? quis te furor—?” inquit Opheltes."
+    },
+    {
+      "n": 642,
+      "latin": "Pro se quisque timet: “laevam pete” maxima nutu"
+    },
+    {
+      "n": 643,
+      "latin": "pars mihi significat, pars quid velit aure susurrat."
+    },
+    {
+      "n": 644,
+      "latin": "Obstipui “capiat” que “aliquis moderamina” dixi"
+    },
+    {
+      "n": 645,
+      "latin": "meque ministerio scelerisque artisque removi."
+    },
+    {
+      "n": 646,
+      "latin": "Increpor a cunctis, totumque inmurmurat agmen."
+    },
+    {
+      "n": 647,
+      "latin": "E quibus Aethalion “te scilicet omnis in uno"
+    },
+    {
+      "n": 648,
+      "latin": "nostra salus posita est” ait, et subit ipse meumque"
+    },
+    {
+      "n": 649,
+      "latin": "explet opus, Naxoque petit diversa relicta."
+    },
+    {
+      "n": 650,
+      "latin": "Tum deus inludens, tamquam modo denique fraudem"
+    },
+    {
+      "n": 651,
+      "latin": "senserit, e puppi pontum prospectat adunca"
+    },
+    {
+      "n": 652,
+      "latin": "et flenti similis “non haec mihi litora, nautae,"
+    },
+    {
+      "n": 653,
+      "latin": "promisistis” ait, “non haec mihi terra rogata est."
+    },
+    {
+      "n": 654,
+      "latin": "Quo merui poenam facto? quae gloria vestra est,"
+    },
+    {
+      "n": 655,
+      "latin": "si puerum iuvenes, si multi fallitis unum?”"
+    },
+    {
+      "n": 656,
+      "latin": "Iamdudum flebam: lacrimas manus impia nostras"
+    },
+    {
+      "n": 657,
+      "latin": "ridet et impellit properantibus aequora remis."
+    },
+    {
+      "n": 658,
+      "latin": "Per tibi nunc ipsum (nec enim praesentior illo"
+    },
+    {
+      "n": 659,
+      "latin": "est deus) adiuro, tam me tibi vera referre,"
+    },
+    {
+      "n": 660,
+      "latin": "quam veri maiora fide: stetit aequore puppis"
+    },
+    {
+      "n": 661,
+      "latin": "haud aliter quam si siccum navale teneret."
+    },
+    {
+      "n": 662,
+      "latin": "Illi admirantes remorum in verbere perstant"
+    },
+    {
+      "n": 663,
+      "latin": "velaque deducunt geminaque ope currere temptant."
+    },
+    {
+      "n": 664,
+      "latin": "Impediunt hederae remos nexuque recurvo"
+    },
+    {
+      "n": 665,
+      "latin": "serpunt et gravidis distinguunt vela corymbis."
+    },
+    {
+      "n": 666,
+      "latin": "Ipse racemiferis frontem circumdatus uvis"
+    },
+    {
+      "n": 667,
+      "latin": "pampineis agitat velatam frondibus hastam."
+    },
+    {
+      "n": 668,
+      "latin": "Quem circa tigres simulacraque inania lyncum"
+    },
+    {
+      "n": 669,
+      "latin": "pictarumque iacent fera corpora pantherarum."
+    },
+    {
+      "n": 670,
+      "latin": "Exsiluere viri, sive hoc insania fecit,"
+    },
+    {
+      "n": 671,
+      "latin": "sive timor, primusque Medon nigrescere coepit"
+    },
+    {
+      "n": 672,
+      "latin": "corpore et expresso spinae curvamine flecti."
+    },
+    {
+      "n": 673,
+      "latin": "Incipit huic Lycabas: “In quae miracula” dixit"
+    },
+    {
+      "n": 674,
+      "latin": "“verteris?” et lati rictus et panda loquenti"
+    },
+    {
+      "n": 675,
+      "latin": "naris erat, squamamque cutis durata trahebat."
+    },
+    {
+      "n": 676,
+      "latin": "At Libys obstantes dum vult obvertere remos,"
+    },
+    {
+      "n": 677,
+      "latin": "in spatium resilire manus breve vidit et illas"
+    },
+    {
+      "n": 678,
+      "latin": "iam non esse manus, iam pinnas posse vocari."
+    },
+    {
+      "n": 679,
+      "latin": "Alter, ad intortos cupiens dare bracchia funes,"
+    },
+    {
+      "n": 680,
+      "latin": "bracchia non habuit, truncoque repandus in undas"
+    },
+    {
+      "n": 681,
+      "latin": "corpore desiluit: falcata novissima cauda est,"
+    },
+    {
+      "n": 682,
+      "latin": "qualia dimidiae sinuantur cornua lunae."
+    },
+    {
+      "n": 683,
+      "latin": "Undique dant saltus multaque adspergine rorant"
+    },
+    {
+      "n": 684,
+      "latin": "emerguntque iterum redeuntque sub aequora rursus"
+    },
+    {
+      "n": 685,
+      "latin": "inque chori ludunt speciem lascivaque iactant"
+    },
+    {
+      "n": 686,
+      "latin": "corpora et acceptum patulis mare naribus efflant."
+    },
+    {
+      "n": 687,
+      "latin": "De modo viginti (tot enim ratis illa ferebat)"
+    },
+    {
+      "n": 688,
+      "latin": "restabam solus. Pavidum gelidumque trementi"
+    },
+    {
+      "n": 689,
+      "latin": "corpore vixque meum firmat deus “excute” dicens"
+    },
+    {
+      "n": 690,
+      "latin": "“corde metum Diamque tene.” Delatus in illam"
+    },
+    {
+      "n": 691,
+      "latin": "accessi sacris Baccheaque sacra frequento.”"
+    }
+  ]
+}

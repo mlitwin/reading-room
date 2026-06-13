@@ -1,0 +1,37 @@
+{
+  "lemma": "facies",
+  "pos": "noun",
+  "glosses": [
+    "shape, face, look",
+    "presence, appearance",
+    "beauty",
+    "achievement"
+  ],
+  "head": "facies, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "facies",
+      "gen.sg": "faciei",
+      "dat.sg": "faciei",
+      "abl.sg": "facie",
+      "acc.sg": "faciem",
+      "nom.pl": "facies",
+      "gen.pl": "facierum",
+      "dat.pl": "faciebus",
+      "abl.pl": "faciebus",
+      "acc.pl": "facies"
+    }
+  }
+}

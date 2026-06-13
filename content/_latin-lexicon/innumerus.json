@@ -1,0 +1,54 @@
+{
+  "lemma": "innumerus",
+  "pos": "adj",
+  "glosses": [
+    "innumerable, countless, numberless",
+    "without number",
+    "immense"
+  ],
+  "head": "innumerus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "innumerus",
+      "gen.sg.masc": "innumeri",
+      "dat.sg.masc": "innumero",
+      "gen.sg.fem": "innumerae",
+      "dat.sg.fem": "innumerae",
+      "nom.sg.neut": "innumerum",
+      "gen.sg.neut": "innumeri",
+      "dat.sg.neut": "innumero",
+      "acc.sg.neut": "innumerum",
+      "acc.sg.masc": "innumerum",
+      "abl.sg.masc": "innumero",
+      "nom.pl.masc": "innumeri",
+      "gen.pl.masc": "innumerorum",
+      "acc.pl.masc": "innumeros",
+      "nom.sg.fem": "innumera",
+      "acc.sg.fem": "innumeram",
+      "abl.sg.fem": "innumera",
+      "nom.pl.fem": "innumerae",
+      "gen.pl.fem": "innumerarum",
+      "acc.pl.fem": "innumeras",
+      "abl.sg.neut": "innumero",
+      "nom.pl.neut": "innumera",
+      "gen.pl.neut": "innumerorum",
+      "acc.pl.neut": "innumera"
+    }
+  }
+}

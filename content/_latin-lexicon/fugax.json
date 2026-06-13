@@ -1,0 +1,33 @@
+{
+  "lemma": "fugax",
+  "pos": "adj",
+  "glosses": [
+    "flying swiftly",
+    "swift",
+    "avoiding, transitory"
+  ],
+  "head": "fugax, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "fugax",
+      "nom.pl.neut": "fugacia",
+      "acc.pl.neut": "fugacia"
+    }
+  }
+}

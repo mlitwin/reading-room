@@ -154,6 +154,7 @@ const IMAGE_EXT_RE = /\.(svg|png|jpe?g|webp|gif)$/i;
 async function copyContentImages() {
   async function walk(absSrc, dstSegs) {
     for (const entry of await fs.readdir(absSrc, { withFileTypes: true })) {
+      if (entry.name.startsWith('_')) continue;
       const absChild = path.join(absSrc, entry.name);
       if (entry.isDirectory()) {
         await walk(absChild, [...dstSegs, deriveSlug(entry.name)]);
@@ -264,13 +265,42 @@ function transitiveNoteClosure(directRefs, notesDict) {
   return visited;
 }
 
-// Load a piece's vocabulary cards from `<piece-dir>/vocabulary/*.json`.
-// Returns `{ lemma → cardData }` or null if the directory does not exist.
-// Each card carries `lemma`, `pos`, `head`, `glosses[]`, optional `paradigm`.
-async function loadVocabulary(pieceAbsDir) {
-  const vocabDir = path.join(pieceAbsDir, 'vocabulary');
-  if (!(await fileExists(vocabDir))) return null;
+// Library-wide Latin lexicon. Lives at `content/_latin-lexicon/<lemma>.json`
+// (the leading underscore keeps it out of the book-listing pass). Loaded once
+// per build; per-book `vocabulary/` directories overlay on top for the rare
+// Ovid-specific gloss-set or similar.
+let _sharedLexicon = null;
+async function loadSharedLexicon() {
+  if (_sharedLexicon !== null) return _sharedLexicon;
+  const dir = path.join(CONTENT_DIR, '_latin-lexicon');
   const out = {};
+  if (!(await fileExists(dir))) {
+    _sharedLexicon = out;
+    return out;
+  }
+  for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
+    if (!entry.isFile() || !entry.name.endsWith('.json')) continue;
+    const lemma = entry.name.replace(/\.json$/, '');
+    const raw = await fs.readFile(path.join(dir, entry.name), 'utf8');
+    try {
+      out[lemma] = JSON.parse(raw);
+    } catch (err) {
+      throw new Error(`_latin-lexicon/${entry.name}: invalid JSON — ${err.message}`);
+    }
+  }
+  _sharedLexicon = out;
+  return out;
+}
+
+// Per-piece vocabulary lookup. Returns `{ lemma → cardData }` with the shared
+// lexicon as the base and any per-book `vocabulary/*.json` overlaid on top
+// (so an Ovid-specific card wins over the shared one). Returns the shared
+// lexicon directly when no per-book overrides exist.
+async function loadVocabulary(pieceAbsDir) {
+  const shared = await loadSharedLexicon();
+  const vocabDir = path.join(pieceAbsDir, 'vocabulary');
+  if (!(await fileExists(vocabDir))) return shared;
+  const out = { ...shared };
   for (const entry of await fs.readdir(vocabDir, { withFileTypes: true })) {
     if (!entry.isFile() || !entry.name.endsWith('.json')) continue;
     const lemma = entry.name.replace(/\.json$/, '');
@@ -538,7 +568,7 @@ function renderLatinSpans(html, vocabDict, referenced, filePath) {
     if (matches.length === 0) return full;
     for (const m of matches) {
       if (!vocabDict[m.lemma]) {
-        throw new Error(`${filePath}: undefined lemma "${m.lemma}". Add content/<book>/vocabulary/${m.lemma}.json.`);
+        throw new Error(`${filePath}: undefined lemma "${m.lemma}". Add content/_latin-lexicon/${m.lemma}.json (shared) or content/<book>/vocabulary/${m.lemma}.json (override).`);
       }
       referenced.add(m.lemma);
     }
@@ -575,7 +605,8 @@ function assetPrefixFor(htmlPath) {
 async function loadPieces() {
   const out = [];
   const entries = await fs.readdir(CONTENT_DIR, { withFileTypes: true });
-  const names = entries.map(e => e.name).sort(compareEntries);
+  // `_`-prefixed entries are shared resources (e.g. `_latin-lexicon/`), not books.
+  const names = entries.map(e => e.name).filter(n => !n.startsWith('_')).sort(compareEntries);
   for (const name of names) {
     const entry = entries.find(e => e.name === name);
     const abs = path.join(CONTENT_DIR, name);

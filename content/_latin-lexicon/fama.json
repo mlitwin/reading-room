@@ -1,0 +1,38 @@
+{
+  "lemma": "fama",
+  "pos": "noun",
+  "glosses": [
+    "rumor",
+    "reputation",
+    "tradition",
+    "fame, public opinion, ill repute",
+    "report, news"
+  ],
+  "head": "fama, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fama",
+      "gen.sg": "famae",
+      "abl.sg": "fama",
+      "acc.sg": "famam",
+      "dat.sg": "famae",
+      "nom.pl": "famae",
+      "gen.pl": "famarum",
+      "dat.pl": "famis",
+      "abl.pl": "famis",
+      "acc.pl": "famas"
+    }
+  }
+}

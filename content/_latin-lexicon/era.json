@@ -1,0 +1,37 @@
+{
+  "lemma": "era",
+  "pos": "noun",
+  "glosses": [
+    "mistress",
+    "lady of the house",
+    "woman in relation to her servants",
+    "Lady"
+  ],
+  "head": "era, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "era",
+      "gen.sg": "erae",
+      "abl.sg": "era",
+      "acc.sg": "eram",
+      "dat.sg": "erae",
+      "nom.pl": "erae",
+      "gen.pl": "erarum",
+      "dat.pl": "eris",
+      "abl.pl": "eris",
+      "acc.pl": "eras"
+    }
+  }
+}

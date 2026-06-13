@@ -1,0 +1,34 @@
+{
+  "lemma": "Arcitenens",
+  "pos": "noun",
+  "glosses": [
+    "Apollo (who carries a bow), (constellation) Sagittarius, the Archer"
+  ],
+  "head": "Arcitenens, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "arcitenenti",
+      "acc.sg": "arcitenentem",
+      "nom.pl": "arcitenentis",
+      "gen.pl": "arcitenentium",
+      "acc.pl": "arcitenentis",
+      "nom.sg": "arcitenens",
+      "gen.sg": "arcitenentis",
+      "dat.sg": "arcitenenti",
+      "dat.pl": "arcitenentibus",
+      "abl.pl": "arcitenentibus"
+    }
+  }
+}

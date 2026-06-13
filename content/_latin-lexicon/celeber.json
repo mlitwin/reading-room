@@ -1,0 +1,39 @@
+{
+  "lemma": "celeber",
+  "pos": "adj",
+  "glosses": [
+    "famous, celebrated, renowned",
+    "honored, distinguished",
+    "famed",
+    "notorious",
+    "oft repeated, frequent",
+    "busy, crowded, much used/frequented, populous"
+  ],
+  "head": "celeber, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "celeber",
+      "nom.sg.fem": "celebris",
+      "nom.sg.neut": "celebre",
+      "acc.sg.neut": "celebre",
+      "nom.pl.neut": "celebria",
+      "acc.pl.neut": "celebria"
+    }
+  }
+}

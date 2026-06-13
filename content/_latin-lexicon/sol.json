@@ -1,0 +1,35 @@
+{
+  "lemma": "sol",
+  "pos": "noun",
+  "glosses": [
+    "bottom, ground, floor",
+    "soil, land"
+  ],
+  "head": "sol, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "solum",
+      "gen.sg": "soli",
+      "acc.sg": "solum",
+      "dat.sg": "solo",
+      "abl.sg": "solo",
+      "gen.pl": "solorum",
+      "dat.pl": "solis",
+      "abl.pl": "solis",
+      "nom.pl": "sola",
+      "acc.pl": "sola"
+    }
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "book": 7,
+  "card": 1,
+  "lines": [
+    1,
+    158
+  ],
+  "title_latin": "Iason et Medea.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 1,
+      "latin": "Iamque fretum Minyae Pagasaea puppe secabant,"
+    },
+    {
+      "n": 2,
+      "latin": "perpetuaque trahens inopem sub nocte senectam"
+    },
+    {
+      "n": 3,
+      "latin": "Phineus visus erat, iuvenesque Aquilone creati"
+    },
+    {
+      "n": 4,
+      "latin": "virgineas volucres miseri senis ore fugarant,"
+    },
+    {
+      "n": 5,
+      "latin": "multaque perpessi claro sub Iasone tandem"
+    },
+    {
+      "n": 6,
+      "latin": "contigerant rapidas limosi Phasidos undas."
+    },
+    {
+      "n": 7,
+      "latin": "Dumque adeunt regem Phrixeaque vellera poscunt"
+    },
+    {
+      "n": 8,
+      "latin": "lexque datur Minyis magnorum horrenda laborum,"
+    },
+    {
+      "n": 9,
+      "latin": "concipit interea validos Aeetias ignes"
+    },
+    {
+      "n": 10,
+      "latin": "et luctata diu, postquam ratione furorem"
+    },
+    {
+      "n": 11,
+      "latin": "vincere non poterat, “frustra Medea, repugnas:"
+    },
+    {
+      "n": 12,
+      "latin": "nescio quis deus obstat” ait; “mirumque, nisi hoc est,"
+    },
+    {
+      "n": 13,
+      "latin": "aut aliquid certe simile huic, quod amare vocatur."
+    },
+    {
+      "n": 14,
+      "latin": "Nam cur iussa patris nimium mihi dura videntur?"
+    },
+    {
+      "n": 15,
+      "latin": "Sunt quoque dura nimis. Cur, quem modo denique vidi,"
+    },
+    {
+      "n": 16,
+      "latin": "ne pereat, timeo? quae tanti causa timoris?"
+    },
+    {
+      "n": 17,
+      "latin": "Excute virgineo conceptas pectore flammas,"
+    },
+    {
+      "n": 18,
+      "latin": "si potes, infelix! — Si possem, sanior essem."
+    },
+    {
+      "n": 19,
+      "latin": "Sed trahit invitam nova vis, aliudque cupido,"
+    },
+    {
+      "n": 20,
+      "latin": "mens aliud suadet. Video meliora proboque,"
+    },
+    {
+      "n": 21,
+      "latin": "deteriora sequor. Quid in hospite, regia virgo,"
+    },
+    {
+      "n": 22,
+      "latin": "ureris et thalamos alieni concipis orbis?"
+    },
+    {
+      "n": 23,
+      "latin": "Haec quoque terra potest, quod ames, dare. Vivat an ille"
+    },
+    {
+      "n": 24,
+      "latin": "occidat, in dis est. Vivat tamen! idque precari"
+    },
+    {
+      "n": 25,
+      "latin": "vel sine amore licet: quid enim commisit Iason?"
+    },
+    {
+      "n": 26,
+      "latin": "Quem, nisi crudelem, non tangat Iasonis aetas"
+    },
+    {
+      "n": 27,
+      "latin": "et genus et virtus? Quem non, ut cetera desint,"
+    },
+    {
+      "n": 28,
+      "latin": "ore movere potest? Certe mea pectora movit."
+    },
+    {
+      "n": 29,
+      "latin": "At nisi opem tulero, taurorum adflabitur ore"
+    },
+    {
+      "n": 30,
+      "latin": "concurretque suae segeti, tellure creatis"
+    },
+    {
+      "n": 31,
+      "latin": "hostibus, aut avido dabitur fera praeda draconi."
+    },
+    {
+      "n": 32,
+      "latin": "Hoc ego si patiar, tum me de tigride natam,"
+    },
+    {
+      "n": 33,
+      "latin": "tum ferrum et scopulos gestare in corde fatebor."
+    },
+    {
+      "n": 34,
+      "latin": "Cur non et specto pereuntem oculosque videndo"
+    },
+    {
+      "n": 35,
+      "latin": "conscelero? Cur non tauros exhortor in illum"
+    },
+    {
+      "n": 36,
+      "latin": "terrigenasque feros insopitumque draconem?"
+    },
+    {
+      "n": 37,
+      "latin": "Di meliora velint. Quamquam non ista precanda,"
+    },
+    {
+      "n": 38,
+      "latin": "sed facienda mihi. — Prodamne ego regna parentis,"
+    },
+    {
+      "n": 39,
+      "latin": "atque ope nescio quis servabitur advena nostra,"
+    },
+    {
+      "n": 40,
+      "latin": "ut per me sospes sine me det lintea ventis"
+    },
+    {
+      "n": 41,
+      "latin": "virque sit alterius, poenae Medea relinquar?"
+    },
+    {
+      "n": 42,
+      "latin": "Si facere hoc aliamve potest praeponere nobis,"
+    },
+    {
+      "n": 43,
+      "latin": "occidat ingratus. Sed non is vultus in illo,"
+    },
+    {
+      "n": 44,
+      "latin": "non ea nobilitas animo est, ea gratia formae,"
+    },
+    {
+      "n": 45,
+      "latin": "ut timeam fraudem meritique oblivia nostri."
+    },
+    {
+      "n": 46,
+      "latin": "Et dabit ante fidem, cogamque in foedera testes"
+    },
+    {
+      "n": 47,
+      "latin": "esse deos. Quid tuta times? accingere et omnem"
+    },
+    {
+      "n": 48,
+      "latin": "pelle moram: tibi se semper debebit Iason,"
+    },
+    {
+      "n": 49,
+      "latin": "te face sollemni iunget sibi, perque Pelasgas"
+    },
+    {
+      "n": 50,
+      "latin": "servatrix urbes matrum celebrabere turba."
+    },
+    {
+      "n": 51,
+      "latin": "Ergo ego germanam fratremque patremque deosque"
+    },
+    {
+      "n": 52,
+      "latin": "et natale solum, ventis ablata, relinquam?"
+    },
+    {
+      "n": 53,
+      "latin": "Nempe pater saevus, nempe est mea barbara tellus,"
+    },
+    {
+      "n": 54,
+      "latin": "frater adhuc infans: stant mecum vota sororis,"
+    },
+    {
+      "n": 55,
+      "latin": "maximus intra me deus est. Non magna relinquam,"
+    },
+    {
+      "n": 56,
+      "latin": "magna sequar: titulum servatae pubis Achivae"
+    },
+    {
+      "n": 57,
+      "latin": "notitiamque loci melioris et oppida, quorum"
+    },
+    {
+      "n": 58,
+      "latin": "hic quoque fama viget, cultusque artesque locorum;"
+    },
+    {
+      "n": 59,
+      "latin": "quemque ego cum rebus, quas totus possidet orbis,"
+    },
+    {
+      "n": 60,
+      "latin": "Aesoniden mutasse velim; quo coniuge felix"
+    },
+    {
+      "n": 61,
+      "latin": "et dis cara ferar et vertice sidera tangam."
+    },
+    {
+      "n": 62,
+      "latin": "Quid, quod nescio qui mediis concurrere in undis"
+    },
+    {
+      "n": 63,
+      "latin": "dicuntur montes, ratibusque inimica Charybdis"
+    },
+    {
+      "n": 64,
+      "latin": "nunc sorbere fretum, nunc reddere, cinctaque saevis"
+    },
+    {
+      "n": 65,
+      "latin": "Scylla rapax canibus Siculo latrare profundo?"
+    },
+    {
+      "n": 66,
+      "latin": "Nempe tenens, quod amo, gremioque in Iasonis haerens"
+    },
+    {
+      "n": 67,
+      "latin": "per freta longa ferar: nihil illum amplexa verebor"
+    },
+    {
+      "n": 68,
+      "latin": "aut, siquid metuam, metuam de coniuge solo. —"
+    },
+    {
+      "n": 69,
+      "latin": "Coniugiumne vocas speciosaque nomina culpae"
+    },
+    {
+      "n": 70,
+      "latin": "imponis, Medea, tuae? Quin adspice, quantum"
+    },
+    {
+      "n": 71,
+      "latin": "adgrediare nefas, et, dum licet, effuge crimen.”"
+    },
+    {
+      "n": 72,
+      "latin": "Dixit, et ante oculos rectum pietasque pudorque"
+    },
+    {
+      "n": 73,
+      "latin": "constiterant, et victa dabat iam terga Cupido."
+    },
+    {
+      "n": 74,
+      "latin": "Ibat ad antiquas Hecates Perseidos aras,"
+    },
+    {
+      "n": 75,
+      "latin": "quas nemus umbrosum secretaque silva tegebat."
+    },
+    {
+      "n": 76,
+      "latin": "Et iam fortis erat pulsusque resederat ardor,"
+    },
+    {
+      "n": 77,
+      "latin": "cum videt Aesoniden exstinctaque flamma reluxit."
+    },
+    {
+      "n": 78,
+      "latin": "Erubuere genae, totoque recanduit ore,"
+    },
+    {
+      "n": 79,
+      "latin": "utque solet ventis alimenta adsumere quaeque"
+    },
+    {
+      "n": 80,
+      "latin": "parva sub inducta latuit scintilla favilla"
+    },
+    {
+      "n": 81,
+      "latin": "crescere et in veteres agitata resurgere vires,"
+    },
+    {
+      "n": 82,
+      "latin": "sic iam lentus amor, iam quem languere putares,"
+    },
+    {
+      "n": 83,
+      "latin": "ut vidit iuvenem, specie praesentis inarsit."
+    },
+    {
+      "n": 84,
+      "latin": "Et casu solito formosior Aesone natus"
+    },
+    {
+      "n": 85,
+      "latin": "illa luce fuit: posses ignoscere amanti."
+    },
+    {
+      "n": 86,
+      "latin": "Spectat et in vultu veluti tum denique viso"
+    },
+    {
+      "n": 87,
+      "latin": "lumina fixa tenet nec se mortalia demens"
+    },
+    {
+      "n": 88,
+      "latin": "ora videre putat, nec se declinat ab illo."
+    },
+    {
+      "n": 89,
+      "latin": "Ut vero coepitque loqui dextramque prehendit"
+    },
+    {
+      "n": 90,
+      "latin": "hospes et auxilium submissa voce rogavit"
+    },
+    {
+      "n": 91,
+      "latin": "promisitque torum, lacrimis ait illa profusis:"
+    },
+    {
+      "n": 92,
+      "latin": "“Quid faciam, video (non ignorantia veri"
+    },
+    {
+      "n": 93,
+      "latin": "decipiet, sed amor): servabere munere nostro;"
+    },
+    {
+      "n": 94,
+      "latin": "servatus promissa dato.” Per sacra triformis"
+    },
+    {
+      "n": 95,
+      "latin": "ille deae, lucoque foret quod numen in illo,"
+    },
+    {
+      "n": 96,
+      "latin": "perque patrem soceri cernentem cuncta futuri"
+    },
+    {
+      "n": 97,
+      "latin": "eventusque suos et tanta pericula iurat."
+    },
+    {
+      "n": 98,
+      "latin": "Creditus accepit cantatas protinus herbas"
+    },
+    {
+      "n": 99,
+      "latin": "edidicitque usum, laetusque in tecta recessit."
+    },
+    {
+      "n": 100,
+      "latin": "Postera depulerat stellas aurora micantes:"
+    },
+    {
+      "n": 101,
+      "latin": "conveniunt populi sacrum Mavortis in arvum"
+    },
+    {
+      "n": 102,
+      "latin": "consistuntque iugis. Medio rex ipse resedit"
+    },
+    {
+      "n": 103,
+      "latin": "agmine purpureus sceptroque insignis eburno."
+    },
+    {
+      "n": 104,
+      "latin": "Ecce adamanteis Vulcanum naribus efflant"
+    },
+    {
+      "n": 105,
+      "latin": "aeripedes tauri, tactaeque vaporibus herbae"
+    },
+    {
+      "n": 106,
+      "latin": "ardent; utque solent pleni resonare camini,"
+    },
+    {
+      "n": 107,
+      "latin": "aut ubi terrena silices fornace soluti"
+    },
+    {
+      "n": 108,
+      "latin": "concipiunt ignem liquidarum adspergine aquarum,"
+    },
+    {
+      "n": 109,
+      "latin": "pectora sic intus clausas volventia flammas"
+    },
+    {
+      "n": 110,
+      "latin": "gutturaque usta sonant. Tamen illis Aesone natus"
+    },
+    {
+      "n": 111,
+      "latin": "obvius it. Vertere truces venientis ad ora"
+    },
+    {
+      "n": 112,
+      "latin": "terribiles vultus praefixaque cornua ferro,"
+    },
+    {
+      "n": 113,
+      "latin": "pulvereumque solum pede pulsavere bisulco"
+    },
+    {
+      "n": 114,
+      "latin": "fumificisque locum mugitibus impleverunt."
+    },
+    {
+      "n": 115,
+      "latin": "Deriguere metu Minyae: subit ille, nec ignes"
+    },
+    {
+      "n": 116,
+      "latin": "sentit anhelatos (tantum medicamina possunt),"
+    },
+    {
+      "n": 117,
+      "latin": "pendulaque audaci mulcet palearia dextra,"
+    },
+    {
+      "n": 118,
+      "latin": "suppositosque iugo pondus grave cogit aratri"
+    },
+    {
+      "n": 119,
+      "latin": "ducere et insuetum ferro proscindere campum."
+    },
+    {
+      "n": 120,
+      "latin": "Mirantur Colchi, Minyae clamoribus augent"
+    },
+    {
+      "n": 121,
+      "latin": "adiciuntque animos. Galea tum sumit aena"
+    },
+    {
+      "n": 122,
+      "latin": "vipereos dentes et aratos spargit in agros."
+    },
+    {
+      "n": 123,
+      "latin": "Semina mollit humus valido praetincta veneno,"
+    },
+    {
+      "n": 124,
+      "latin": "et crescunt fiuntque sati nova corpora dentes."
+    },
+    {
+      "n": 125,
+      "latin": "Utque hominis speciem materna sumit in alvo"
+    },
+    {
+      "n": 126,
+      "latin": "perque suos intus numeros componitur infans,"
+    },
+    {
+      "n": 127,
+      "latin": "nec nisi maturus communes exit in auras,"
+    },
+    {
+      "n": 128,
+      "latin": "sic ubi visceribus gravidae telluris imago"
+    },
+    {
+      "n": 129,
+      "latin": "effecta est hominis, feto consurgit in arvo,"
+    },
+    {
+      "n": 130,
+      "latin": "quodque magis mirum est, simul edita concutit arma."
+    },
+    {
+      "n": 131,
+      "latin": "Quos ubi viderunt praeacutae cuspidis hastas"
+    },
+    {
+      "n": 132,
+      "latin": "in caput Haemonii iuvenis torquere parantes,"
+    },
+    {
+      "n": 133,
+      "latin": "demisere metu vultumque animumque Pelasgi."
+    },
+    {
+      "n": 134,
+      "latin": "Ipsa quoque extimuit, quae tutum fecerat illum;"
+    },
+    {
+      "n": 135,
+      "latin": "utque peti vidit iuvenem tot ab hostibus unum,"
+    },
+    {
+      "n": 136,
+      "latin": "palluit et subito sine sanguine frigida sedit;"
+    },
+    {
+      "n": 137,
+      "latin": "neve parum valeant a se data gramina, carmen"
+    },
+    {
+      "n": 138,
+      "latin": "auxiliare canit secretasque advocat artes."
+    },
+    {
+      "n": 139,
+      "latin": "Ille gravem medios silicem iaculatus in hostes"
+    },
+    {
+      "n": 140,
+      "latin": "a se depulsum Martem convertit in ipsos."
+    },
+    {
+      "n": 141,
+      "latin": "Terrigenae pereunt per mutua vulnera fratres"
+    },
+    {
+      "n": 142,
+      "latin": "civilique cadunt acie. Gratantur Achivi"
+    },
+    {
+      "n": 143,
+      "latin": "victoremque tenent avidisque amplexibus haerent."
+    },
+    {
+      "n": 144,
+      "latin": "Tu quoque victorem complecti, barbara, velles:"
+    },
+    {
+      "n": 146,
+      "latin": "sed te, ne faceres, tenuit reverentia famae."
+    },
+    {
+      "n": 147,
+      "latin": "Quod licet, adfectu tacito laetaris agisque"
+    },
+    {
+      "n": 148,
+      "latin": "carminibus grates et dis auctoribus horum."
+    },
+    {
+      "n": 149,
+      "latin": "Pervigilem superest herbis sopire draconem,"
+    },
+    {
+      "n": 150,
+      "latin": "qui crista linguisque tribus praesignis et uncis"
+    },
+    {
+      "n": 151,
+      "latin": "dentibus horrendus custos erat arboris aureae."
+    },
+    {
+      "n": 152,
+      "latin": "Hunc postquam sparsit Lethaei gramine suci"
+    },
+    {
+      "n": 153,
+      "latin": "verbaque ter dixit placidos facientia somnos,"
+    },
+    {
+      "n": 154,
+      "latin": "quae mare turbatum, quae concita flumina sistunt,"
+    },
+    {
+      "n": 155,
+      "latin": "somnus in ignotos oculos sibi venit, et auro"
+    },
+    {
+      "n": 156,
+      "latin": "heros Aesonius potitur spolioque superbus"
+    },
+    {
+      "n": 157,
+      "latin": "muneris auctorem secum, spolia altera, portans"
+    },
+    {
+      "n": 158,
+      "latin": "victor Iolciacos tetigit cum coniuge portus."
+    }
+  ]
+}

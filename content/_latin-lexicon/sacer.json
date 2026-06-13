@@ -1,0 +1,53 @@
+{
+  "lemma": "sacer",
+  "pos": "adj",
+  "glosses": [
+    "sacred, holy, consecrated",
+    "accursed, horrible, detestable"
+  ],
+  "head": "sacer, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "sacer",
+      "gen.sg.masc": "sacri",
+      "dat.sg.masc": "sacro",
+      "gen.sg.fem": "sacrae",
+      "dat.sg.fem": "sacrae",
+      "nom.sg.neut": "sacrum",
+      "gen.sg.neut": "sacri",
+      "dat.sg.neut": "sacro",
+      "acc.sg.neut": "sacrum",
+      "acc.sg.masc": "sacrum",
+      "abl.sg.masc": "sacro",
+      "nom.pl.masc": "sacri",
+      "gen.pl.masc": "sacrorum",
+      "acc.pl.masc": "sacros",
+      "nom.sg.fem": "sacra",
+      "acc.sg.fem": "sacram",
+      "abl.sg.fem": "sacra",
+      "nom.pl.fem": "sacrae",
+      "gen.pl.fem": "sacrarum",
+      "acc.pl.fem": "sacras",
+      "abl.sg.neut": "sacro",
+      "nom.pl.neut": "sacra",
+      "gen.pl.neut": "sacrorum",
+      "acc.pl.neut": "sacra"
+    }
+  }
+}

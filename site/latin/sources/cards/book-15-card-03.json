@@ -1,0 +1,408 @@
+{
+  "book": 15,
+  "card": 3,
+  "lines": [
+    153,
+    251
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 153,
+      "latin": "O genus attonitum gelidae formidine mortis,"
+    },
+    {
+      "n": 154,
+      "latin": "quid Styga, quid manes et nomina vana timetis,"
+    },
+    {
+      "n": 155,
+      "latin": "materiem vatum, falsique pericula mundi?"
+    },
+    {
+      "n": 156,
+      "latin": "Corpora, sive rogus flamma, seu tabe vetustas"
+    },
+    {
+      "n": 157,
+      "latin": "abstulerit, mala posse pati non ulla putetis!"
+    },
+    {
+      "n": 158,
+      "latin": "Morte carent animae, semperque priore relicta"
+    },
+    {
+      "n": 159,
+      "latin": "sede novis domibus vivunt habitantque receptae."
+    },
+    {
+      "n": 160,
+      "latin": "Ipse ego (nam memini) Troiani tempore belli"
+    },
+    {
+      "n": 161,
+      "latin": "Panthoides Euphorbus eram, cui pectore quondam"
+    },
+    {
+      "n": 162,
+      "latin": "haesit in adverso gravis hasta minoris Atridae:"
+    },
+    {
+      "n": 163,
+      "latin": "cognovi clipeum, laevae gestamina nostrae,"
+    },
+    {
+      "n": 164,
+      "latin": "nuper Abanteis templo Iunonis in Argis."
+    },
+    {
+      "n": 165,
+      "latin": "Omnia mutantur, nihil interit: errat et illinc"
+    },
+    {
+      "n": 166,
+      "latin": "huc venit, hinc illuc, et quoslibet occupat artus"
+    },
+    {
+      "n": 167,
+      "latin": "spiritus eque feris humana in corpora transit"
+    },
+    {
+      "n": 168,
+      "latin": "inque feras noster nec tempore deperit ullo;"
+    },
+    {
+      "n": 169,
+      "latin": "utque novis facilis signatur cera figuris"
+    },
+    {
+      "n": 170,
+      "latin": "nec manet ut fuerat nec formas servat easdem,"
+    },
+    {
+      "n": 171,
+      "latin": "sed tamen ipsa eadem est: animam sic semper eandem"
+    },
+    {
+      "n": 172,
+      "latin": "esse, sed in varias doceo migrare figuras."
+    },
+    {
+      "n": 173,
+      "latin": "Ergo, ne pietas sit victa cupidine ventris,"
+    },
+    {
+      "n": 174,
+      "latin": "parcite, vaticinor, cognatas caede nefanda"
+    },
+    {
+      "n": 175,
+      "latin": "exturbare animas, nec sanguine sanguis alatur!"
+    },
+    {
+      "n": 176,
+      "latin": "Et quoniam magno feror aequore plenaque ventis"
+    },
+    {
+      "n": 177,
+      "latin": "vela dedi: nihil est toto, quod perstet, in orbe."
+    },
+    {
+      "n": 178,
+      "latin": "Cuncta fluunt, omnisque vagans formatur imago;"
+    },
+    {
+      "n": 179,
+      "latin": "ipsa quoque adsiduo labuntur tempora motu,"
+    },
+    {
+      "n": 180,
+      "latin": "non secus ac flumen, neque enim consistere flumen"
+    },
+    {
+      "n": 181,
+      "latin": "nec levis hora potest, sed ut unda impellitur unda"
+    },
+    {
+      "n": 182,
+      "latin": "urgeturque eadem veniente urgetque priorem,"
+    },
+    {
+      "n": 183,
+      "latin": "tempora sic fugiunt pariter pariterque sequuntur"
+    },
+    {
+      "n": 184,
+      "latin": "et nova sunt semper; nam quod fuit ante, relictum est,"
+    },
+    {
+      "n": 185,
+      "latin": "fitque quod haud fuerat, momentaque cuncta novantur."
+    },
+    {
+      "n": 186,
+      "latin": "Cernis et emensas in lucem tendere noctes,"
+    },
+    {
+      "n": 187,
+      "latin": "et iubar hoc nitidum nigrae succedere nocti."
+    },
+    {
+      "n": 188,
+      "latin": "Nec color est idem caelo, cum lassa quiete"
+    },
+    {
+      "n": 189,
+      "latin": "cuncta iacent media, cumque albo Lucifer exit"
+    },
+    {
+      "n": 190,
+      "latin": "clarus equo rursusque alius, cum praevia lucis"
+    },
+    {
+      "n": 191,
+      "latin": "tradendum Phoebo Pallantias inficit orbem."
+    },
+    {
+      "n": 192,
+      "latin": "Ipse dei clipeus, terra cum tollitur ima,"
+    },
+    {
+      "n": 193,
+      "latin": "mane rubet, terraque, rubet cum conditur ima,"
+    },
+    {
+      "n": 194,
+      "latin": "candidus in summo est, melior natura quod illic"
+    },
+    {
+      "n": 195,
+      "latin": "aetheris est terraeque procul contagia fugit."
+    },
+    {
+      "n": 196,
+      "latin": "Nec par aut eadem nocturnae forma Dianae"
+    },
+    {
+      "n": 197,
+      "latin": "esse potest umquam, semperque hodierna sequente,"
+    },
+    {
+      "n": 198,
+      "latin": "si crescit, minor est, maior, si contrahit orbem."
+    },
+    {
+      "n": 199,
+      "latin": "Quid? non in species succedere quattuor annum"
+    },
+    {
+      "n": 200,
+      "latin": "adspicis, aetatis peragentem imitamina nostrae?"
+    },
+    {
+      "n": 201,
+      "latin": "Nam tener ac lactens puerique simillimus aevo"
+    },
+    {
+      "n": 202,
+      "latin": "vere novo est: tunc herba nitens et roboris expers"
+    },
+    {
+      "n": 203,
+      "latin": "turget et insolida est et spe delectat agrestes."
+    },
+    {
+      "n": 204,
+      "latin": "Omnia tunc florent, florumque coloribus almus"
+    },
+    {
+      "n": 205,
+      "latin": "ludit ager, neque adhuc virtus in frondibus ulla est."
+    },
+    {
+      "n": 206,
+      "latin": "Transit in aestatem post ver robustior annus"
+    },
+    {
+      "n": 207,
+      "latin": "fitque valens iuvenis: neque enim robustior aetas"
+    },
+    {
+      "n": 208,
+      "latin": "ulla nec uberior, nec quae magis ardeat, ulla est."
+    },
+    {
+      "n": 209,
+      "latin": "Excipit autumnus, posito fervore iuventae"
+    },
+    {
+      "n": 210,
+      "latin": "maturus mitisque, inter iuvenemque senemque"
+    },
+    {
+      "n": 211,
+      "latin": "temperie medius, sparsus quoque tempora canis."
+    },
+    {
+      "n": 212,
+      "latin": "Inde senilis hiems tremulo venit horrida passu,"
+    },
+    {
+      "n": 213,
+      "latin": "aut spoliata suos, aut quos habet, alba capillos."
+    },
+    {
+      "n": 214,
+      "latin": "Nostra quoque ipsorum semper requieque sine ulla"
+    },
+    {
+      "n": 215,
+      "latin": "corpora vertuntur, nec, quod fuimusve sumusve,"
+    },
+    {
+      "n": 216,
+      "latin": "cras erimus; fuit illa dies, qua semina tantum"
+    },
+    {
+      "n": 217,
+      "latin": "spesque hominum primae matrisque habitavimus alvo."
+    },
+    {
+      "n": 218,
+      "latin": "Artifices natura manus admovit et angi"
+    },
+    {
+      "n": 219,
+      "latin": "corpora visceribus distentae condita matris"
+    },
+    {
+      "n": 220,
+      "latin": "noluit eque domo vacuas emisit in auras."
+    },
+    {
+      "n": 221,
+      "latin": "Editus in lucem iacuit sine viribus infans;"
+    },
+    {
+      "n": 222,
+      "latin": "mox quadrupes rituque tulit sua membra ferarum,"
+    },
+    {
+      "n": 223,
+      "latin": "paulatimque tremens et nondum poplite firmo"
+    },
+    {
+      "n": 224,
+      "latin": "constitit adiutis aliquo conamine nervis."
+    },
+    {
+      "n": 225,
+      "latin": "Inde valens veloxque fuit spatiumque iuventae"
+    },
+    {
+      "n": 226,
+      "latin": "transit et emeritis medii quoque temporis annis"
+    },
+    {
+      "n": 227,
+      "latin": "labitur occiduae per iter declive senectae."
+    },
+    {
+      "n": 228,
+      "latin": "Subruit haec aevi demoliturque prioris"
+    },
+    {
+      "n": 229,
+      "latin": "robora, fletque Milon senior, cum spectat inanes"
+    },
+    {
+      "n": 230,
+      "latin": "(illos, qui fuerant solidorum mole tororum"
+    },
+    {
+      "n": 231,
+      "latin": "Herculeis similes!) fluidos pendere lacertos;"
+    },
+    {
+      "n": 232,
+      "latin": "Flet quoque, ut in speculo rugas adspexit aniles,"
+    },
+    {
+      "n": 233,
+      "latin": "Tyndaris et secum, cur sit bis rapta, requirit."
+    },
+    {
+      "n": 234,
+      "latin": "Tempus edax rerum, tuque, invidiosa vetustas,"
+    },
+    {
+      "n": 235,
+      "latin": "omnia destruitis, vitiataque dentibus aevi"
+    },
+    {
+      "n": 236,
+      "latin": "paulatim lenta consumitis omnia morte."
+    },
+    {
+      "n": 237,
+      "latin": "Haec quoque non perstant, quae nos elementa vocamus,"
+    },
+    {
+      "n": 238,
+      "latin": "quasque vices peragant, (animos adhibete!) docebo."
+    },
+    {
+      "n": 239,
+      "latin": "Quattuor aeternus genitalia corpora mundus"
+    },
+    {
+      "n": 240,
+      "latin": "continet; ex illis duo sunt onerosa suoque"
+    },
+    {
+      "n": 241,
+      "latin": "pondere in inferius, tellus atque unda, feruntur,"
+    },
+    {
+      "n": 242,
+      "latin": "et totidem gravitate carent nulloque premente"
+    },
+    {
+      "n": 243,
+      "latin": "alta petunt, aer atque aere purior ignis."
+    },
+    {
+      "n": 244,
+      "latin": "Quae quamquam spatio distant, tamen omnia fiunt"
+    },
+    {
+      "n": 245,
+      "latin": "ex ipsis et in ipsa cadunt, resolutaque tellus"
+    },
+    {
+      "n": 246,
+      "latin": "in liquidas rarescit aquas, tenuatus in auras"
+    },
+    {
+      "n": 247,
+      "latin": "aeraque umor abit, dempto quoque pondere rursus"
+    },
+    {
+      "n": 248,
+      "latin": "in superos aer tenuissimus emicat ignes."
+    },
+    {
+      "n": 249,
+      "latin": "Inde retro redeunt, idemque retexitur ordo;"
+    },
+    {
+      "n": 250,
+      "latin": "ignis enim densum spissatus in aera transit,"
+    },
+    {
+      "n": 251,
+      "latin": "hic in aquas, tellus glomerata cogitur unda."
+    }
+  ]
+}

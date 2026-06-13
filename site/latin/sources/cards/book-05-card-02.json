@@ -1,0 +1,424 @@
+{
+  "book": 5,
+  "card": 2,
+  "lines": [
+    74,
+    176
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 74,
+      "latin": "Ecce Syenites, genitus Metione, Phorbas"
+    },
+    {
+      "n": 75,
+      "latin": "et Libys Amphimedon, avidi committere pugnam,"
+    },
+    {
+      "n": 76,
+      "latin": "sanguine, quo late tellus madefacta tepebat,"
+    },
+    {
+      "n": 77,
+      "latin": "conciderant lapsi: surgentibus obstitit ensis,"
+    },
+    {
+      "n": 78,
+      "latin": "alterius costis, iugulo Phorbantis adactus."
+    },
+    {
+      "n": 79,
+      "latin": "At non Actoriden Erytum, cui lata bipennis"
+    },
+    {
+      "n": 80,
+      "latin": "telum erat, hamato Perseus petit ense, sed altis"
+    },
+    {
+      "n": 81,
+      "latin": "exstantem signis multaeque in pondere massae"
+    },
+    {
+      "n": 82,
+      "latin": "ingentem manibus tollit cratera duabus"
+    },
+    {
+      "n": 83,
+      "latin": "infligitque viro; rutilum vomit ille cruorem"
+    },
+    {
+      "n": 84,
+      "latin": "et resupinus humum moribundo vertice pulsat."
+    },
+    {
+      "n": 85,
+      "latin": "Inde Semiramio Polydegmona sanguine cretum"
+    },
+    {
+      "n": 86,
+      "latin": "Caucasiumque Abarin Sperchionidenque Lycetum"
+    },
+    {
+      "n": 87,
+      "latin": "intonsumque comas Helicen Phlegyanque Clytumque"
+    },
+    {
+      "n": 88,
+      "latin": "sternit et exstructos morientum calcat acervos."
+    },
+    {
+      "n": 89,
+      "latin": "Nec Phineus ausus concurrere comminus hosti,"
+    },
+    {
+      "n": 90,
+      "latin": "intorquet iaculum: quod detulit error in Idan,"
+    },
+    {
+      "n": 91,
+      "latin": "expertem frustra belli et neutra arma secutum."
+    },
+    {
+      "n": 92,
+      "latin": "Ille tuens oculis inmitem Phinea torvis"
+    },
+    {
+      "n": 93,
+      "latin": "“quandoquidem in partes” ait “abstrahor, accipe, Phineu,"
+    },
+    {
+      "n": 94,
+      "latin": "quem fecisti hostem pensaque hoc vulnere vulnus”;"
+    },
+    {
+      "n": 95,
+      "latin": "iamque remissurus tractum de vulnere telum"
+    },
+    {
+      "n": 96,
+      "latin": "sanguine defectos cecidit conlapsus in artus."
+    },
+    {
+      "n": 97,
+      "latin": "Hic quoque Cephenum post regem primus Hodites"
+    },
+    {
+      "n": 98,
+      "latin": "ense iacet Clymeni; Prothoenora percutit Hypseus,"
+    },
+    {
+      "n": 99,
+      "latin": "Hypsea Lyncides. Fuit et grandaevus in illis"
+    },
+    {
+      "n": 100,
+      "latin": "Emathion, aequi cultor timidusque deorum;"
+    },
+    {
+      "n": 101,
+      "latin": "qui, quoniam prohibent anni bellare, loquendo"
+    },
+    {
+      "n": 102,
+      "latin": "pugnat et incessit scelerataque devovet arma."
+    },
+    {
+      "n": 103,
+      "latin": "Huic Chromis amplexo tremulis altaria palmis"
+    },
+    {
+      "n": 104,
+      "latin": "decutit ense caput; quod protinus incidit arae"
+    },
+    {
+      "n": 105,
+      "latin": "atque ibi semianimi verba exsecrantia lingua"
+    },
+    {
+      "n": 106,
+      "latin": "edidit, et medios animam exspiravit in ignes."
+    },
+    {
+      "n": 107,
+      "latin": "Hinc gemini fratres Broteasque et caestibus Ammon"
+    },
+    {
+      "n": 108,
+      "latin": "invicti, vinci si possent caestibus enses,"
+    },
+    {
+      "n": 109,
+      "latin": "Phinea cecidere manu, Cererisque sacerdos"
+    },
+    {
+      "n": 110,
+      "latin": "Ampycus, albenti velatus tempora vitta."
+    },
+    {
+      "n": 111,
+      "latin": "Tu quoque, Lampetide, non hos adhibendus ad usus,"
+    },
+    {
+      "n": 112,
+      "latin": "sed qui, pacis opus, citharam cum voce moveres,"
+    },
+    {
+      "n": 113,
+      "latin": "iussus eras celebrare dapes festumque canendo."
+    },
+    {
+      "n": 114,
+      "latin": "Quem procul adstantem plectrumque imbelle tenentem"
+    },
+    {
+      "n": 115,
+      "latin": "Pettalus inridens “Stygiis cane cetera” dixit"
+    },
+    {
+      "n": 116,
+      "latin": "“manibus” et laevo mucronem tempore fixit."
+    },
+    {
+      "n": 117,
+      "latin": "Concidit et digitis morientibus ille retemptat"
+    },
+    {
+      "n": 118,
+      "latin": "fila lyrae, casuque fuit miserabile carmen."
+    },
+    {
+      "n": 119,
+      "latin": "Nec sinit hunc impune ferox cecidisse Lycormas"
+    },
+    {
+      "n": 120,
+      "latin": "raptaque de dextro robusta repagula posti"
+    },
+    {
+      "n": 121,
+      "latin": "ossibus inlisit mediae cervicis: at ille"
+    },
+    {
+      "n": 122,
+      "latin": "procubuit terrae mactati more iuvenci."
+    },
+    {
+      "n": 123,
+      "latin": "Demere temptabat laevi quoque robora postis"
+    },
+    {
+      "n": 124,
+      "latin": "Cinyphius Pelates: temptanti dextera fixa est"
+    },
+    {
+      "n": 125,
+      "latin": "cuspide Marmaridae Corythi lignoque cohaesit."
+    },
+    {
+      "n": 126,
+      "latin": "Haerenti latus hausit Abas: nec corruit ille,"
+    },
+    {
+      "n": 127,
+      "latin": "sed retinente manum moriens e poste pependit."
+    },
+    {
+      "n": 128,
+      "latin": "Sternitur et Menaleus, Perseia castra secutus,"
+    },
+    {
+      "n": 129,
+      "latin": "et Nasamoniaci Dorylas ditissimus agri,"
+    },
+    {
+      "n": 130,
+      "latin": "dives agri Dorylas, quo non possederat alter"
+    },
+    {
+      "n": 131,
+      "latin": "latius aut totidem tollebat turis acervos."
+    },
+    {
+      "n": 132,
+      "latin": "Huius in obliquo missum stetit inguine ferrum:"
+    },
+    {
+      "n": 133,
+      "latin": "letifer ille locus. Quem postquam vulneris auctor"
+    },
+    {
+      "n": 134,
+      "latin": "singultantem animam et versantem lumina vidit"
+    },
+    {
+      "n": 135,
+      "latin": "Bactrius Halcyoneus “hoc, quod premis” inquit, “habeto"
+    },
+    {
+      "n": 136,
+      "latin": "de tot agris terrae” corpusque exsangue reliquit."
+    },
+    {
+      "n": 137,
+      "latin": "Torquet in hunc hastam calido de vulnere raptam"
+    },
+    {
+      "n": 138,
+      "latin": "ultor Abantiades; media quae nare recepta"
+    },
+    {
+      "n": 139,
+      "latin": "cervice exacta est in partesque eminet ambas."
+    },
+    {
+      "n": 140,
+      "latin": "Dumque manum Fortuna iuvat, Clytiumque Claninque,"
+    },
+    {
+      "n": 141,
+      "latin": "matre satos una, diverso vulnere fudit:"
+    },
+    {
+      "n": 142,
+      "latin": "nam Clytii per utrumque gravis librata lacerto"
+    },
+    {
+      "n": 143,
+      "latin": "fraxinus acta femur, iaculum Clanis ore momordit."
+    },
+    {
+      "n": 144,
+      "latin": "Occidit et Celadon Mendesius, occidit Astreus,"
+    },
+    {
+      "n": 145,
+      "latin": "matre Palaestina, dubio genitore creatus,"
+    },
+    {
+      "n": 146,
+      "latin": "Aethionque sagax quondam ventura videre"
+    },
+    {
+      "n": 147,
+      "latin": "(tunc ave deceptus falsa), regisque Thoactes"
+    },
+    {
+      "n": 148,
+      "latin": "armiger et caeso genitore infamis Agyrtes."
+    },
+    {
+      "n": 149,
+      "latin": "Plus tamen exhausto superest: namque omnibus unum"
+    },
+    {
+      "n": 150,
+      "latin": "opprimere est animus, coniurata undique pugnant"
+    },
+    {
+      "n": 151,
+      "latin": "agmina pro causa meritum impugnante fidemque:"
+    },
+    {
+      "n": 152,
+      "latin": "hac pro parte socer frustra pius et nova coniunx"
+    },
+    {
+      "n": 153,
+      "latin": "cum genetrice favent ululatuque atria complent."
+    },
+    {
+      "n": 154,
+      "latin": "Sed sonus armorum superat gemitusque cadentum,"
+    },
+    {
+      "n": 155,
+      "latin": "pollutosque semel multo Bellona penates"
+    },
+    {
+      "n": 156,
+      "latin": "sanguine perfundit renovataque proelia miscet."
+    },
+    {
+      "n": 157,
+      "latin": "Circueunt unum Phineus et mille secuti"
+    },
+    {
+      "n": 158,
+      "latin": "Phinea: tela volant hiberna grandine plura"
+    },
+    {
+      "n": 159,
+      "latin": "praeter utrumque latus praeterque et lumen et aures."
+    },
+    {
+      "n": 160,
+      "latin": "Applicat hic umeros ad magnae saxa columnae,"
+    },
+    {
+      "n": 161,
+      "latin": "tutaque terga gerens adversaque in agmina versus"
+    },
+    {
+      "n": 162,
+      "latin": "sustinet instantes. Instabat parte sinistra"
+    },
+    {
+      "n": 163,
+      "latin": "Chaonius Molpeus, dextra Nabataeus Echemmon."
+    },
+    {
+      "n": 164,
+      "latin": "Tigris ut auditis diversa valle duorum"
+    },
+    {
+      "n": 165,
+      "latin": "exstimulata fame mugitibus armentorum"
+    },
+    {
+      "n": 166,
+      "latin": "nescit, utro potius ruat, et ruere ardet utroque,"
+    },
+    {
+      "n": 167,
+      "latin": "sic dubius Perseus, dextra laevane feratur,"
+    },
+    {
+      "n": 168,
+      "latin": "Molpea traiecti submovit vulnere cruris,"
+    },
+    {
+      "n": 169,
+      "latin": "contentusque fuga est: neque enim dat tempus Echemmon,"
+    },
+    {
+      "n": 170,
+      "latin": "sed furit et, cupiens saltu dare vulnera collo,"
+    },
+    {
+      "n": 171,
+      "latin": "non circumspectis exactum viribus ensem"
+    },
+    {
+      "n": 172,
+      "latin": "fregit, et extrema percussae parte columnae"
+    },
+    {
+      "n": 173,
+      "latin": "lammina dissiluit dominique in gutture fixa est."
+    },
+    {
+      "n": 174,
+      "latin": "Non tamen ad letum causas satis illa valentes"
+    },
+    {
+      "n": 175,
+      "latin": "plaga dedit: trepidum Perseus et inermia frustra"
+    },
+    {
+      "n": 176,
+      "latin": "bracchia tendentem Cyllenide confodit harpe."
+    }
+  ]
+}

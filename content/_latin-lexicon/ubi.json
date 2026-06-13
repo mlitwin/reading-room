@@ -1,0 +1,34 @@
+{
+  "lemma": "ubi",
+  "pos": "noun",
+  "glosses": [
+    "Ubii, German tribe, west of Rhine near Coblenz"
+  ],
+  "head": "ubi, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ubius",
+      "gen.sg": "ubii",
+      "dat.sg": "ubio",
+      "abl.sg": "ubio",
+      "acc.sg": "ubium",
+      "nom.pl": "ubii",
+      "gen.pl": "ubiorum",
+      "dat.pl": "ubiis",
+      "abl.pl": "ubiis",
+      "acc.pl": "ubios"
+    }
+  }
+}

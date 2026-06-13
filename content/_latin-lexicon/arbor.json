@@ -1,0 +1,39 @@
+{
+  "lemma": "arbor",
+  "pos": "noun",
+  "glosses": [
+    "tree",
+    "tree trunk",
+    "mast",
+    "oar",
+    "ship",
+    "gallows"
+  ],
+  "head": "arbor, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "arborem",
+      "gen.pl": "arborum",
+      "acc.pl": "arboris",
+      "nom.sg": "arbor",
+      "gen.sg": "arboris",
+      "dat.sg": "arbori",
+      "abl.sg": "arbore",
+      "nom.pl": "arbores",
+      "dat.pl": "arboribus",
+      "abl.pl": "arboribus"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "laurus",
+  "pos": "noun",
+  "glosses": [
+    "laurel/bay tree/foliage/sprig/branch (medicine/magic)",
+    "triumph/victory",
+    "honor"
+  ],
+  "head": "laurus, -us, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "laurus",
+      "gen.sg": "laurus",
+      "dat.sg": "laurui",
+      "acc.sg": "laurum",
+      "nom.pl": "laurus",
+      "acc.pl": "laurus",
+      "abl.sg": "lauru",
+      "gen.pl": "lauruum",
+      "dat.pl": "lauribus",
+      "abl.pl": "lauribus"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "lemma": "temperies",
+  "pos": "noun",
+  "glosses": [
+    "proper mixture, temper"
+  ],
+  "head": "temperies, -ei, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "temperies",
+      "gen.sg": "temperiei",
+      "dat.sg": "temperiei",
+      "abl.sg": "temperie",
+      "acc.sg": "temperiem",
+      "nom.pl": "temperies",
+      "gen.pl": "temperierum",
+      "dat.pl": "temperiebus",
+      "abl.pl": "temperiebus",
+      "acc.pl": "temperies"
+    }
+  }
+}

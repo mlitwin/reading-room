@@ -1,0 +1,408 @@
+{
+  "book": 7,
+  "card": 7,
+  "lines": [
+    453,
+    551
+  ],
+  "title_latin": "Aeacus. Pestilentia. Myrmidones.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 453,
+      "latin": "Nec tamen (usque adeo nulla est sincera voluptas,"
+    },
+    {
+      "n": 454,
+      "latin": "sollicitumque aliquid laetis intervenit) Aegeus"
+    },
+    {
+      "n": 455,
+      "latin": "gaudia percepit nato secura recepto."
+    },
+    {
+      "n": 456,
+      "latin": "Bella parat Minos. Qui quamquam milite, quamquam"
+    },
+    {
+      "n": 457,
+      "latin": "classe valet, patria tamen est firmissimus ira"
+    },
+    {
+      "n": 458,
+      "latin": "Androgeique necem iustis ulciscitur armis."
+    },
+    {
+      "n": 459,
+      "latin": "Ante tamen bello vires adquirit amicas,"
+    },
+    {
+      "n": 460,
+      "latin": "quaque potens habitus, volucri freta classe pererrat."
+    },
+    {
+      "n": 461,
+      "latin": "Hinc Anaphen sibi iungit et Astypaleia regna,"
+    },
+    {
+      "n": 462,
+      "latin": "promissis Anaphen, regna Astypaleia bello;"
+    },
+    {
+      "n": 463,
+      "latin": "hinc humilem Myconum cretosaque rura Cimoli"
+    },
+    {
+      "n": 464,
+      "latin": "florentemque thymo Cythnum parvamque Seriphon"
+    },
+    {
+      "n": 465,
+      "latin": "marmoreamque Paron, quaque impia prodidit Arnen"
+    },
+    {
+      "n": 466,
+      "latin": "Sithonis (accepto, quod avara poposcerat, auro"
+    },
+    {
+      "n": 467,
+      "latin": "mutata est in avem, quae nunc quoque diligit aurum,"
+    },
+    {
+      "n": 468,
+      "latin": "nigra pedes, nigris velata monedula pennis)."
+    },
+    {
+      "n": 469,
+      "latin": "At non Oliaros Didymaeque et Tenos et Andros"
+    },
+    {
+      "n": 470,
+      "latin": "et Gyaros nitidaeque ferax Peparethos olivae"
+    },
+    {
+      "n": 471,
+      "latin": "Gnosiacas iuvere rates. Latere inde sinistro"
+    },
+    {
+      "n": 472,
+      "latin": "Oenopiam Minos petit, Aeacideia regna:"
+    },
+    {
+      "n": 473,
+      "latin": "Oenopiam veteres appellavere, sed ipse"
+    },
+    {
+      "n": 474,
+      "latin": "Aeacus Aeginam genetricis nomine dixit."
+    },
+    {
+      "n": 475,
+      "latin": "Turba ruit tantaeque virum cognoscere famae"
+    },
+    {
+      "n": 476,
+      "latin": "expetit. Occurrunt illi Telamonque, minorque"
+    },
+    {
+      "n": 477,
+      "latin": "quam Telamon Peleus, et proles tertia Phocus."
+    },
+    {
+      "n": 478,
+      "latin": "Ipse quoque egreditur tardus gravitate senili"
+    },
+    {
+      "n": 479,
+      "latin": "Aeacus, et quae sit veniendi causa requirit."
+    },
+    {
+      "n": 480,
+      "latin": "Admonitus patrii luctus suspirat et illi"
+    },
+    {
+      "n": 481,
+      "latin": "dicta refert rector populorum talia centum:"
+    },
+    {
+      "n": 482,
+      "latin": "“Arma iuves oro pro gnato sumpta piaeque"
+    },
+    {
+      "n": 483,
+      "latin": "pars sis militiae; tumulo solacia posco.”"
+    },
+    {
+      "n": 484,
+      "latin": "Huic Asopiades “petis inrita” dixit “et urbi"
+    },
+    {
+      "n": 485,
+      "latin": "non facienda meae: neque enim coniunctior ulla"
+    },
+    {
+      "n": 486,
+      "latin": "Cecropidis hac est tellus: ea foedera nobis.”"
+    },
+    {
+      "n": 487,
+      "latin": "Tristis abit “stabunt” que “tibi tua foedera magno”"
+    },
+    {
+      "n": 488,
+      "latin": "dixit et utilius bellum putat esse minari"
+    },
+    {
+      "n": 489,
+      "latin": "quam gerere atque suas ibi praeconsumere vires."
+    },
+    {
+      "n": 490,
+      "latin": "Classis ab Oenopiis etiamnum Lyctia muris"
+    },
+    {
+      "n": 491,
+      "latin": "spectari poterat, cum pleno concita velo"
+    },
+    {
+      "n": 492,
+      "latin": "Attica puppis adest in portusque intrat amicos,"
+    },
+    {
+      "n": 493,
+      "latin": "quae Cephalum patriaeque simul mandata ferebat."
+    },
+    {
+      "n": 494,
+      "latin": "Aeacidae longo iuvenes post tempore visum"
+    },
+    {
+      "n": 495,
+      "latin": "agnovere tamen Cephalum dextrasque dedere"
+    },
+    {
+      "n": 496,
+      "latin": "inque patris duxere domum. Spectabilis heros"
+    },
+    {
+      "n": 497,
+      "latin": "et veteris retinens etiamnum pignera formae"
+    },
+    {
+      "n": 498,
+      "latin": "ingreditur ramumque tenens popularis olivae"
+    },
+    {
+      "n": 499,
+      "latin": "a dextra laevaque duos aetate minores"
+    },
+    {
+      "n": 500,
+      "latin": "maior habet, Clyton et Buten, Pallante creatos."
+    },
+    {
+      "n": 501,
+      "latin": "Postquam congressus primi sua verba tulerunt,"
+    },
+    {
+      "n": 502,
+      "latin": "Cecropidae Cephalus peragit mandata rogatque"
+    },
+    {
+      "n": 503,
+      "latin": "auxilium foedusque refert et iura parentum"
+    },
+    {
+      "n": 504,
+      "latin": "imperiumque peti totius Achaidos addit."
+    },
+    {
+      "n": 505,
+      "latin": "Sic ubi mandatam iuvit facundia causam,"
+    },
+    {
+      "n": 506,
+      "latin": "Aeacus, in capulo sceptri nitente sinistra,"
+    },
+    {
+      "n": 507,
+      "latin": "“ne petite auxilium, sed sumite”, dixit “Athenae;"
+    },
+    {
+      "n": 508,
+      "latin": "nec dubie vires, quas haec habet insula, vestras"
+    },
+    {
+      "n": 509,
+      "latin": "ducite; et omnia habet (rerum status iste mearum)."
+    },
+    {
+      "n": 510,
+      "latin": "Robora non desunt, superat mihi miles et hosti:"
+    },
+    {
+      "n": 511,
+      "latin": "gratia dis, felix et inexcusabile tempus.”"
+    },
+    {
+      "n": 512,
+      "latin": "“Immo ita sit,” Cephalus, ”crescat tua civibus opto"
+    },
+    {
+      "n": 513,
+      "latin": "urbs!” ait. “Adveniens equidem modo gaudia cepi,"
+    },
+    {
+      "n": 514,
+      "latin": "cum tam pulchra mihi, tam par aetate iuventus"
+    },
+    {
+      "n": 515,
+      "latin": "obvia processit. Multos tamen inde requiro,"
+    },
+    {
+      "n": 516,
+      "latin": "quos quondam vidi vestra prius urbe receptus.”"
+    },
+    {
+      "n": 517,
+      "latin": "Aeacus ingemuit tristique ita voce locutus:"
+    },
+    {
+      "n": 518,
+      "latin": "”Flebile principium melior fortuna secuta est."
+    },
+    {
+      "n": 519,
+      "latin": "Hanc utinam possem vobis memorare sine illo!"
+    },
+    {
+      "n": 520,
+      "latin": "Ordine nunc repetam. Neu longa ambage morer vos:"
+    },
+    {
+      "n": 521,
+      "latin": "ossa cinisque iacent, memori quos mente requiris."
+    },
+    {
+      "n": 522,
+      "latin": "Et quota pars illi rerum periere mearum!"
+    },
+    {
+      "n": 523,
+      "latin": "Dira lues ira populis Iunonis iniquae"
+    },
+    {
+      "n": 524,
+      "latin": "incidit exosae dictas a paelice terras."
+    },
+    {
+      "n": 525,
+      "latin": "Dum visum mortale malum tantaeque latebat"
+    },
+    {
+      "n": 526,
+      "latin": "causa nocens cladis, pugnatum est arte medendi:"
+    },
+    {
+      "n": 527,
+      "latin": "exitium superabat opem, quae victa iacebat."
+    },
+    {
+      "n": 528,
+      "latin": "Principio caelum spissa caligine terras"
+    },
+    {
+      "n": 529,
+      "latin": "pressit et ignavos inclusit nubibus aestus;"
+    },
+    {
+      "n": 530,
+      "latin": "dumque quater iunctis explevit cornibus orbem"
+    },
+    {
+      "n": 531,
+      "latin": "luna, quater plenum tenuata retexuit orbem,"
+    },
+    {
+      "n": 532,
+      "latin": "letiferis calidi spirarunt aestibus austri."
+    },
+    {
+      "n": 533,
+      "latin": "Constat et in fontes vitium venisse lacusque,"
+    },
+    {
+      "n": 534,
+      "latin": "miliaque incultos serpentum multa per agros"
+    },
+    {
+      "n": 535,
+      "latin": "errasse atque suis fluvios temerasse venenis."
+    },
+    {
+      "n": 536,
+      "latin": "Strage canum primo volucrumque oviumque boumque,"
+    },
+    {
+      "n": 537,
+      "latin": "inque feris subiti deprensa potentia morbi."
+    },
+    {
+      "n": 538,
+      "latin": "Concidere infelix validos miratur arator"
+    },
+    {
+      "n": 539,
+      "latin": "inter opus tauros medioque recumbere sulco;"
+    },
+    {
+      "n": 540,
+      "latin": "lanigeris gregibus balatus dantibus aegros"
+    },
+    {
+      "n": 541,
+      "latin": "sponte sua lanaeque cadunt et corpora tabent."
+    },
+    {
+      "n": 542,
+      "latin": "Acer equus quondam magnaeque in pulvere famae"
+    },
+    {
+      "n": 543,
+      "latin": "degenerat palmas veterumque oblitus honorum"
+    },
+    {
+      "n": 544,
+      "latin": "ad praesepe gemit leto moriturus inerti."
+    },
+    {
+      "n": 545,
+      "latin": "Non aper irasci meminit, non fidere cursu"
+    },
+    {
+      "n": 546,
+      "latin": "cerva, nec armentis incurrere fortibus ursi."
+    },
+    {
+      "n": 547,
+      "latin": "Omnia languor habet; silvisque agrisque viisque"
+    },
+    {
+      "n": 548,
+      "latin": "corpora foeda iacent, vitiantur odoribus aurae."
+    },
+    {
+      "n": 549,
+      "latin": "Mira loquar: non illa canes avidaeque volucres,"
+    },
+    {
+      "n": 550,
+      "latin": "non cani tetigere lupi; dilapsa liquescunt"
+    },
+    {
+      "n": 551,
+      "latin": "adflatuque nocent et agunt contagia late."
+    }
+  ]
+}

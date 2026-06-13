@@ -1,0 +1,56 @@
+{
+  "lemma": "madidus",
+  "pos": "adj",
+  "glosses": [
+    "wet, moist",
+    "dripping, juicy",
+    "sodden, drenched",
+    "drunk, tipsy",
+    "steeped in"
+  ],
+  "head": "madidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "madidus",
+      "gen.sg.masc": "madidi",
+      "dat.sg.masc": "madido",
+      "gen.sg.fem": "madidae",
+      "dat.sg.fem": "madidae",
+      "nom.sg.neut": "madidum",
+      "gen.sg.neut": "madidi",
+      "dat.sg.neut": "madido",
+      "acc.sg.neut": "madidum",
+      "acc.sg.masc": "madidum",
+      "abl.sg.masc": "madido",
+      "nom.pl.masc": "madidi",
+      "gen.pl.masc": "madidorum",
+      "acc.pl.masc": "madidos",
+      "nom.sg.fem": "madida",
+      "acc.sg.fem": "madidam",
+      "abl.sg.fem": "madida",
+      "nom.pl.fem": "madidae",
+      "gen.pl.fem": "madidarum",
+      "acc.pl.fem": "madidas",
+      "abl.sg.neut": "madido",
+      "nom.pl.neut": "madida",
+      "gen.pl.neut": "madidorum",
+      "acc.pl.neut": "madida"
+    }
+  }
+}

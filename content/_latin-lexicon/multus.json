@@ -1,0 +1,37 @@
+{
+  "lemma": "multus",
+  "pos": "noun",
+  "glosses": [
+    "many men/people (pl.)",
+    "the common/ordinary people",
+    "the many",
+    "common herd"
+  ],
+  "head": "multus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "-us",
+      "gen.sg": "multi",
+      "dat.sg": "multo",
+      "abl.sg": "multo",
+      "acc.sg": "multum",
+      "nom.pl": "multi",
+      "gen.pl": "multorum",
+      "dat.pl": "multis",
+      "abl.pl": "multis",
+      "acc.pl": "multos"
+    }
+  }
+}

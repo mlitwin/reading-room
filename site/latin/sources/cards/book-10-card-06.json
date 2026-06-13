@@ -1,0 +1,892 @@
+{
+  "book": 10,
+  "card": 6,
+  "lines": [
+    298,
+    518
+  ],
+  "title_latin": "Myrrha.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 298,
+      "latin": "Editus hac ille est, qui, si sine prole fuisset,"
+    },
+    {
+      "n": 299,
+      "latin": "inter felices Cinyras potuisset haberi."
+    },
+    {
+      "n": 300,
+      "latin": "Dira canam: procul hinc natae, procul este parentes!"
+    },
+    {
+      "n": 301,
+      "latin": "Aut, mea si vestras mulcebunt carmina mentes,"
+    },
+    {
+      "n": 302,
+      "latin": "desit in hac mihi parte fides, nec credite factum,"
+    },
+    {
+      "n": 303,
+      "latin": "vel, si credetis, facti quoque credite poenam."
+    },
+    {
+      "n": 304,
+      "latin": "Si tamen admissum sinit hoc natura videri,"
+    },
+    {
+      "n": 306,
+      "latin": "gratulor huic terrae, quod abest regionibus illis,"
+    },
+    {
+      "n": 307,
+      "latin": "quae tantum genuere nefas. Sit dives amomo"
+    },
+    {
+      "n": 308,
+      "latin": "cinnamaque costumque suum sudataque ligno"
+    },
+    {
+      "n": 309,
+      "latin": "tura ferat floresque alios Panchaia tellus,"
+    },
+    {
+      "n": 310,
+      "latin": "dum ferat et murram: tanti nova non fuit arbor."
+    },
+    {
+      "n": 311,
+      "latin": "Ipse negat nocuisse tibi sua tela Cupido,"
+    },
+    {
+      "n": 312,
+      "latin": "Myrrha, facesque suas a crimine vindicat isto."
+    },
+    {
+      "n": 313,
+      "latin": "Stipite te Stygio tumidisque adflavit echidnis"
+    },
+    {
+      "n": 314,
+      "latin": "e tribus una soror. Scelus est odisse parentem:"
+    },
+    {
+      "n": 315,
+      "latin": "hic amor est odio maius scelus. Undique lecti"
+    },
+    {
+      "n": 316,
+      "latin": "te cupiunt proceres, totoque oriente iuventus"
+    },
+    {
+      "n": 317,
+      "latin": "ad thalami certamen adest. Ex omnibus unum"
+    },
+    {
+      "n": 318,
+      "latin": "elige, Myrrha, virum: dum ne sit in omnibus unus."
+    },
+    {
+      "n": 319,
+      "latin": "Illa quidem sentit foedoque repugnat amori"
+    },
+    {
+      "n": 320,
+      "latin": "et secum “quo mente feror? quid molior?” inquit:"
+    },
+    {
+      "n": 321,
+      "latin": "“di, precor, et pietas sacrataque iura parentum,"
+    },
+    {
+      "n": 322,
+      "latin": "hoc prohibete nefas scelerique resistite nostro, —"
+    },
+    {
+      "n": 323,
+      "latin": "si tamen hoc scelus est. Sed enim damnare negatur"
+    },
+    {
+      "n": 324,
+      "latin": "hanc venerem pietas, coeuntque animalia nullo"
+    },
+    {
+      "n": 325,
+      "latin": "cetera delicto. Nec habetur turpe iuvencae"
+    },
+    {
+      "n": 326,
+      "latin": "ferre patrem tergo, fit equo sua filia coniunx,"
+    },
+    {
+      "n": 327,
+      "latin": "quasque creavit init pecudes caper, ipsaque, cuius"
+    },
+    {
+      "n": 328,
+      "latin": "semine concepta est, ex illo concipit ales."
+    },
+    {
+      "n": 329,
+      "latin": "Felices, quibus ista licent! Humana malignas"
+    },
+    {
+      "n": 330,
+      "latin": "cura dedit leges, et quod natura remittit,"
+    },
+    {
+      "n": 331,
+      "latin": "invida iura negant. Gentes tamen esse feruntur,"
+    },
+    {
+      "n": 332,
+      "latin": "in quibus et nato genetrix et nata parenti"
+    },
+    {
+      "n": 333,
+      "latin": "iungitur, ut pietas geminato crescat amore."
+    },
+    {
+      "n": 334,
+      "latin": "Me miseram, quod non nasci mihi contigit illic,"
+    },
+    {
+      "n": 335,
+      "latin": "fortunaque loci laedor! — Quid in ista revolvor?"
+    },
+    {
+      "n": 336,
+      "latin": "Spes interdictae discedite! Dignus amari"
+    },
+    {
+      "n": 337,
+      "latin": "ille, sed ut pater, est. — Ergo si filia magni"
+    },
+    {
+      "n": 338,
+      "latin": "non essem Cinyrae, Cinyrae concumbere possem;"
+    },
+    {
+      "n": 339,
+      "latin": "nunc quia iam meus est, non est meus, ipsaque damno"
+    },
+    {
+      "n": 340,
+      "latin": "est mihi proximitas: aliena potentior essem."
+    },
+    {
+      "n": 341,
+      "latin": "Ire libet procul hinc patriaeque relinquere fines,"
+    },
+    {
+      "n": 342,
+      "latin": "dum scelus effugiam. Retinet malus ardor amantem,"
+    },
+    {
+      "n": 343,
+      "latin": "ut praesens spectem Cinyram tangamque loquarque"
+    },
+    {
+      "n": 344,
+      "latin": "osculaque admoveam, si nil conceditur ultra."
+    },
+    {
+      "n": 345,
+      "latin": "Ultra autem spectare aliquid potes, impia virgo?"
+    },
+    {
+      "n": 346,
+      "latin": "Et quot confundas et iura et nomina, sentis!"
+    },
+    {
+      "n": 347,
+      "latin": "Tune eris et matris paelex et adultera patris?"
+    },
+    {
+      "n": 348,
+      "latin": "Tune soror nati genetrixque vocabere fratris?"
+    },
+    {
+      "n": 349,
+      "latin": "Nec metues atro crinitas angue sorores,"
+    },
+    {
+      "n": 350,
+      "latin": "quas facibus saevis oculos atque ora petentes"
+    },
+    {
+      "n": 351,
+      "latin": "noxia corda vident? At tu, dum corpore non es"
+    },
+    {
+      "n": 352,
+      "latin": "passa nefas, animo ne concipe, neve potentis"
+    },
+    {
+      "n": 353,
+      "latin": "concubitu vetito naturae pollue foedus."
+    },
+    {
+      "n": 354,
+      "latin": "Velle puta: res ipsa vetat. Pius ille memorque est"
+    },
+    {
+      "n": 355,
+      "latin": "moris — et o vellem similis furor esset in illo!”"
+    },
+    {
+      "n": 356,
+      "latin": "Dixerat, at Cinyras, quem copia digna procorum,"
+    },
+    {
+      "n": 357,
+      "latin": "quid faciat, dubitare facit, scitatur ab ipsa"
+    },
+    {
+      "n": 358,
+      "latin": "nominibus dictis, cuius velit esse mariti."
+    },
+    {
+      "n": 359,
+      "latin": "Illa silet primo, patriisque in vultibus haerens"
+    },
+    {
+      "n": 360,
+      "latin": "aestuat et tepido suffundit lumina rore."
+    },
+    {
+      "n": 361,
+      "latin": "Virginei Cinyras haec credens esse timoris,"
+    },
+    {
+      "n": 362,
+      "latin": "flere vetat siccatque genas atque oscula iungit."
+    },
+    {
+      "n": 363,
+      "latin": "Myrrha datis nimium gaudet: consultaque, qualem"
+    },
+    {
+      "n": 364,
+      "latin": "optet habere virum, “similem tibi” dixit. At ille"
+    },
+    {
+      "n": 365,
+      "latin": "non intellectam vocem conlaudat et “esto"
+    },
+    {
+      "n": 366,
+      "latin": "tam pia semper” ait. Pietatis nomine dicto"
+    },
+    {
+      "n": 367,
+      "latin": "demisit vultus sceleris sibi conscia virgo."
+    },
+    {
+      "n": 368,
+      "latin": "Noctis erat medium, curasque et corpora somnus"
+    },
+    {
+      "n": 369,
+      "latin": "solverat. At virgo Cinyreia pervigil igni"
+    },
+    {
+      "n": 370,
+      "latin": "carpitur indomito furiosaque vota retractat."
+    },
+    {
+      "n": 371,
+      "latin": "Et modo desperat, modo vult temptare, pudetque"
+    },
+    {
+      "n": 372,
+      "latin": "et cupit, et, quid agat, non invenit. Utque securi"
+    },
+    {
+      "n": 373,
+      "latin": "saucia trabs ingens, ubi plaga novissima restat,"
+    },
+    {
+      "n": 374,
+      "latin": "quo cadat, in dubio est omnique a parte timetur:"
+    },
+    {
+      "n": 375,
+      "latin": "sic animus vario labefactus vulnere nutat"
+    },
+    {
+      "n": 376,
+      "latin": "huc levis atque illuc momentaque sumit utroque."
+    },
+    {
+      "n": 377,
+      "latin": "Nec modus aut requies, nisi mors, reperitur amoris."
+    },
+    {
+      "n": 378,
+      "latin": "Mors placet. Erigitur laqueoque innectere fauces"
+    },
+    {
+      "n": 379,
+      "latin": "destinat et zona summo de poste revincta"
+    },
+    {
+      "n": 380,
+      "latin": "“care vale Cinyra causamque intellege mortis!”"
+    },
+    {
+      "n": 381,
+      "latin": "dixit et aptabat pallenti vincula collo."
+    },
+    {
+      "n": 382,
+      "latin": "Murmura verborum fidas nutricis ad aures"
+    },
+    {
+      "n": 383,
+      "latin": "pervenisse ferunt limen servantis alumnae."
+    },
+    {
+      "n": 384,
+      "latin": "Surgit anus reseratque fores, mortisque paratae"
+    },
+    {
+      "n": 385,
+      "latin": "instrumenta videns spatio conclamat eodem"
+    },
+    {
+      "n": 386,
+      "latin": "seque ferit scinditque sinus ereptaque collo"
+    },
+    {
+      "n": 387,
+      "latin": "vincula dilaniat. Tum denique flere vacavit,"
+    },
+    {
+      "n": 388,
+      "latin": "tum dare complexus laqueique requirere causam."
+    },
+    {
+      "n": 389,
+      "latin": "Muta silet virgo terramque inmota tuetur"
+    },
+    {
+      "n": 390,
+      "latin": "et deprensa dolet tardae conamina mortis."
+    },
+    {
+      "n": 391,
+      "latin": "Instat anus canosque suos et inania nudans"
+    },
+    {
+      "n": 392,
+      "latin": "ubera per cunas alimentaque prima precatur,"
+    },
+    {
+      "n": 393,
+      "latin": "ut sibi committat, quidquid dolet. Illa rogantem"
+    },
+    {
+      "n": 394,
+      "latin": "aversata gemit. Certa est exquirere nutrix"
+    },
+    {
+      "n": 395,
+      "latin": "nec solam spondere fidem: “dic” inquit “opemque"
+    },
+    {
+      "n": 396,
+      "latin": "me sine ferre tibi; non est mea pigra senectus."
+    },
+    {
+      "n": 397,
+      "latin": "Seu furor est, habeo, quae carmine sanet et herbis,"
+    },
+    {
+      "n": 398,
+      "latin": "sive aliquis nocuit, magico lustrabere ritu,"
+    },
+    {
+      "n": 399,
+      "latin": "ira deum sive est, sacris placabilis ira."
+    },
+    {
+      "n": 400,
+      "latin": "Quid rear ulterius ? Certe fortuna domusque"
+    },
+    {
+      "n": 401,
+      "latin": "sospes et in cursu est, vivit genetrixque paterque.”"
+    },
+    {
+      "n": 402,
+      "latin": "Myrrha, patre audito, suspiria duxit ab imo"
+    },
+    {
+      "n": 403,
+      "latin": "pectore. Nec nutrix etiamnum concipit ullum"
+    },
+    {
+      "n": 404,
+      "latin": "mente nefas, aliquemque tamen praesentit amorem;"
+    },
+    {
+      "n": 405,
+      "latin": "propositique tenax, quodcumque est, orat, ut ipsi"
+    },
+    {
+      "n": 406,
+      "latin": "indicet, et gremio lacrimantem tollit anili"
+    },
+    {
+      "n": 407,
+      "latin": "atque ita complectens infirmis membra lacertis"
+    },
+    {
+      "n": 408,
+      "latin": "“sensimus,” inquit “amas! sed et hic mea (pone timorem)"
+    },
+    {
+      "n": 409,
+      "latin": "sedulitas erit apta tibi, nec sentiet umquam"
+    },
+    {
+      "n": 410,
+      "latin": "hoc pater.” Exsiluit gremio furibunda torumque"
+    },
+    {
+      "n": 411,
+      "latin": "ore premens “discede, precor, miseroque pudori"
+    },
+    {
+      "n": 412,
+      "latin": "parce!” ait. Instanti “discede, aut desine” dixit"
+    },
+    {
+      "n": 413,
+      "latin": "“quaerere, quid doleam: scelus est, quod scire laboras.”"
+    },
+    {
+      "n": 414,
+      "latin": "Horret anus tremulasque manus annisque metuque"
+    },
+    {
+      "n": 415,
+      "latin": "tendit et ante pedes supplex procumbit alumnae"
+    },
+    {
+      "n": 416,
+      "latin": "et modo blanditur, modo, si non conscia fiat,"
+    },
+    {
+      "n": 417,
+      "latin": "terret; et indicium laquei coeptaeque minatur"
+    },
+    {
+      "n": 418,
+      "latin": "mortis et officium commisso spondet amori."
+    },
+    {
+      "n": 419,
+      "latin": "Extulit illa caput lacrimisque implevit obortis"
+    },
+    {
+      "n": 420,
+      "latin": "pectora nutricis; conataque saepe fateri"
+    },
+    {
+      "n": 421,
+      "latin": "saepe tenet vocem, pudibundaque vestibus ora"
+    },
+    {
+      "n": 422,
+      "latin": "texit et “o” dixit “felicem coniuge matrem!”"
+    },
+    {
+      "n": 423,
+      "latin": "Hactenus, et gemuit. Gelidus nutricis in artus"
+    },
+    {
+      "n": 424,
+      "latin": "ossaque (sensit enim) penetrat tremor, albaque toto"
+    },
+    {
+      "n": 425,
+      "latin": "vertice canities rigidis stetit hirta capillis."
+    },
+    {
+      "n": 426,
+      "latin": "Multaque, ut excuteret diros, si posset, amores,"
+    },
+    {
+      "n": 427,
+      "latin": "addidit: at virgo scit se non falsa moneri,"
+    },
+    {
+      "n": 428,
+      "latin": "certa mori tamen est, si non potiatur amore."
+    },
+    {
+      "n": 429,
+      "latin": "“Vive,” ait haec “potiere tuo” — et, non ausa “parente”"
+    },
+    {
+      "n": 430,
+      "latin": "dicere, conticuit promissaque numine firmat."
+    },
+    {
+      "n": 431,
+      "latin": "Festa piae Cereris celebrabant annua matres"
+    },
+    {
+      "n": 432,
+      "latin": "illa, quibus nivea velatae corpora veste"
+    },
+    {
+      "n": 433,
+      "latin": "primitias frugum dant spicea serta suarum"
+    },
+    {
+      "n": 434,
+      "latin": "perque novem noctes venerem tactusque viriles"
+    },
+    {
+      "n": 435,
+      "latin": "in vetitis numerant. Turba Cenchreis in illa"
+    },
+    {
+      "n": 436,
+      "latin": "regis adest coniunx, arcanaque sacra frequentat."
+    },
+    {
+      "n": 437,
+      "latin": "Ergo legitima vacuus dum coniuge lectus,"
+    },
+    {
+      "n": 438,
+      "latin": "nacta gravem vino Cinyram male sedula nutrix,"
+    },
+    {
+      "n": 439,
+      "latin": "nomine mentito veros exponit amores"
+    },
+    {
+      "n": 440,
+      "latin": "et faciem laudat. Quaesitis virginis annis"
+    },
+    {
+      "n": 441,
+      "latin": "“par” ait “est Myrrhae.” Quam postquam adducere iussa est"
+    },
+    {
+      "n": 442,
+      "latin": "utque domum rediit, “gaude mea” dixit “alumna:"
+    },
+    {
+      "n": 443,
+      "latin": "vicimus.” Infelix non toto pectore sentit"
+    },
+    {
+      "n": 444,
+      "latin": "laetitiam virgo, praesagaque pectora maerent;"
+    },
+    {
+      "n": 445,
+      "latin": "sed tamen et gaudet: tanta est discordia mentis."
+    },
+    {
+      "n": 446,
+      "latin": "Tempus erat, quo cuncta silent, interque triones"
+    },
+    {
+      "n": 447,
+      "latin": "flexerat obliquo plaustrum temone Bootes:"
+    },
+    {
+      "n": 448,
+      "latin": "ad facinus venit illa suum. Fugit aurea caelo"
+    },
+    {
+      "n": 449,
+      "latin": "luna, tegunt nigrae latitantia sidera nubes:"
+    },
+    {
+      "n": 450,
+      "latin": "nox caret igne suo. Primus tegis, Icare, vultus"
+    },
+    {
+      "n": 451,
+      "latin": "Erigoneque pio sacrata parentis amore."
+    },
+    {
+      "n": 452,
+      "latin": "Ter pedis offensi signo est revocata, ter omen"
+    },
+    {
+      "n": 453,
+      "latin": "funereus bubo letali carmine fecit:"
+    },
+    {
+      "n": 454,
+      "latin": "it tamen, et tenebrae minuunt noxque atra pudorem;"
+    },
+    {
+      "n": 455,
+      "latin": "nutricisque manum laeva tenet, altera motu"
+    },
+    {
+      "n": 456,
+      "latin": "caecum iter explorat. Thalami iam limina tangit,"
+    },
+    {
+      "n": 457,
+      "latin": "iamque fores aperit, iam ducitur intus: at illi"
+    },
+    {
+      "n": 458,
+      "latin": "poplite succiduo genua intremuere, fugitque"
+    },
+    {
+      "n": 459,
+      "latin": "et color et sanguis, animusque relinquit euntem."
+    },
+    {
+      "n": 460,
+      "latin": "Quoque suo propior sceleri est, magis horret, et ausi"
+    },
+    {
+      "n": 461,
+      "latin": "paenitet, et vellet non cognita posse reverti."
+    },
+    {
+      "n": 462,
+      "latin": "Cunctantem longaeva manu deducit et alto"
+    },
+    {
+      "n": 463,
+      "latin": "admotam lecto cum traderet “accipe,” dixit"
+    },
+    {
+      "n": 464,
+      "latin": "“ista tua est, Cinyra” devotaque corpora iunxit."
+    },
+    {
+      "n": 465,
+      "latin": "Accipit obsceno genitor sua viscera lecto"
+    },
+    {
+      "n": 466,
+      "latin": "virgineosque metus levat hortaturque timentem."
+    },
+    {
+      "n": 467,
+      "latin": "Forsitan aetatis quoque nomine “filia” dixit,"
+    },
+    {
+      "n": 468,
+      "latin": "dixit et illa “pater,” sceleri ne nomina desint."
+    },
+    {
+      "n": 469,
+      "latin": "Plena patris thalamis excedit et impia diro"
+    },
+    {
+      "n": 470,
+      "latin": "semina fert utero conceptaque crimina portat."
+    },
+    {
+      "n": 471,
+      "latin": "Postera nox facinus geminat. Nec finis in illa est:"
+    },
+    {
+      "n": 472,
+      "latin": "cum tandem Cinyras, avidus cognoscere amantem"
+    },
+    {
+      "n": 473,
+      "latin": "post tot concubitus, inlato lumine vidit"
+    },
+    {
+      "n": 474,
+      "latin": "et scelus et natam, verbisque dolore retentis"
+    },
+    {
+      "n": 475,
+      "latin": "pendenti nitidum vagina deripit ensem."
+    },
+    {
+      "n": 476,
+      "latin": "Myrrha fugit, tenebrisque et caecae munere noctis"
+    },
+    {
+      "n": 477,
+      "latin": "intercepta neci est: latosque vagata per agros"
+    },
+    {
+      "n": 478,
+      "latin": "palmiferos Arabas Panchaeaque rura reliquit;"
+    },
+    {
+      "n": 479,
+      "latin": "perque novem erravit redeuntis cornua lunae,"
+    },
+    {
+      "n": 480,
+      "latin": "cum tandem terra requievit fessa Sabaea;"
+    },
+    {
+      "n": 481,
+      "latin": "vixque uteri portabat onus. Tum nescia voti"
+    },
+    {
+      "n": 482,
+      "latin": "atque inter mortisque metus et taedia vitae"
+    },
+    {
+      "n": 483,
+      "latin": "est tales complexa preces: “O siqua patetis"
+    },
+    {
+      "n": 484,
+      "latin": "numina confessis, merui nec triste recuso"
+    },
+    {
+      "n": 485,
+      "latin": "supplicium. Sed ne violem vivosque superstes"
+    },
+    {
+      "n": 486,
+      "latin": "mortuaque exstinctos, ambobus pellite regnis"
+    },
+    {
+      "n": 487,
+      "latin": "mutataeque mihi vitamque necemque negate.”"
+    },
+    {
+      "n": 488,
+      "latin": "Numen confessis aliquod patet: ultima certe"
+    },
+    {
+      "n": 489,
+      "latin": "vota suos habuere deos. Nam crura loquentis"
+    },
+    {
+      "n": 490,
+      "latin": "terra supervenit, ruptosque obliqua per ungues"
+    },
+    {
+      "n": 491,
+      "latin": "porrigitur radix, longi firmamina trunci;"
+    },
+    {
+      "n": 492,
+      "latin": "ossaque robur agunt, mediaque manente medulla"
+    },
+    {
+      "n": 493,
+      "latin": "sanguis it in sucos, in magnos bracchia ramos,"
+    },
+    {
+      "n": 494,
+      "latin": "in parvos digiti, duratur cortice pellis."
+    },
+    {
+      "n": 495,
+      "latin": "Iamque gravem crescens uterum perstrinxerat arbor"
+    },
+    {
+      "n": 496,
+      "latin": "pectoraque obruerat collumque operire parabat,"
+    },
+    {
+      "n": 497,
+      "latin": "non tulit illa moram venientique obvia ligno"
+    },
+    {
+      "n": 498,
+      "latin": "subsedit mersitque suos in cortice vultus."
+    },
+    {
+      "n": 499,
+      "latin": "Quae quamquam amisit veteres cum corpore sensus,"
+    },
+    {
+      "n": 500,
+      "latin": "flet tamen, et tepidae manant ex arbore guttae."
+    },
+    {
+      "n": 501,
+      "latin": "Est honor et lacrimis, stillataque robore murra"
+    },
+    {
+      "n": 502,
+      "latin": "nomen erile tenet nulloque tacebitur aevo."
+    },
+    {
+      "n": 503,
+      "latin": "At male conceptus sub robore creverat infans"
+    },
+    {
+      "n": 504,
+      "latin": "quaerebatque viam, qua se genetrice relicta"
+    },
+    {
+      "n": 505,
+      "latin": "exsereret: media gravidus tumet arbore venter."
+    },
+    {
+      "n": 506,
+      "latin": "Tendit onus matrem: neque habent sua verba dolores,"
+    },
+    {
+      "n": 507,
+      "latin": "nec Lucina potest parientis voce vocari."
+    },
+    {
+      "n": 508,
+      "latin": "Nitenti tamen est similis curvataque crebros"
+    },
+    {
+      "n": 509,
+      "latin": "dat gemitus arbor lacrimisque cadentibus umet."
+    },
+    {
+      "n": 510,
+      "latin": "Constitit ad ramos mitis Lucina dolentes"
+    },
+    {
+      "n": 511,
+      "latin": "admovitque manus et verba puerpera dixit."
+    },
+    {
+      "n": 512,
+      "latin": "Arbor agit rimas et fissa cortice vivum"
+    },
+    {
+      "n": 513,
+      "latin": "reddit onus, vagitque puer; quem mollibus herbis"
+    },
+    {
+      "n": 514,
+      "latin": "naides impositum lacrimis unxere parentis."
+    },
+    {
+      "n": 515,
+      "latin": "Laudaret faciem Livor quoque. Qualia namque"
+    },
+    {
+      "n": 516,
+      "latin": "corpora nudorum tabula pinguntur Amorum,"
+    },
+    {
+      "n": 517,
+      "latin": "talis erat: sed, ne faciat discrimina cultus,"
+    },
+    {
+      "n": 518,
+      "latin": "aut huic adde leves, aut illi deme pharetras."
+    }
+  ]
+}

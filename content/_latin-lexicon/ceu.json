@@ -1,0 +1,34 @@
+{
+  "lemma": "ceu",
+  "pos": "noun",
+  "glosses": [
+    "small breed of cow"
+  ],
+  "head": "ceu, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ceua",
+      "gen.sg": "ceuae",
+      "abl.sg": "ceua",
+      "acc.sg": "ceuam",
+      "dat.sg": "ceuae",
+      "nom.pl": "ceuae",
+      "gen.pl": "ceuarum",
+      "dat.pl": "ceuis",
+      "abl.pl": "ceuis",
+      "acc.pl": "ceuas"
+    }
+  }
+}

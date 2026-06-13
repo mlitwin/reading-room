@@ -1,0 +1,36 @@
+{
+  "lemma": "usus",
+  "pos": "noun",
+  "glosses": [
+    "use, enjoyment",
+    "experience, skill, advantage",
+    "custom"
+  ],
+  "head": "usus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "usus",
+      "gen.sg": "usus",
+      "dat.sg": "usui",
+      "acc.sg": "usum",
+      "nom.pl": "usus",
+      "acc.pl": "usus",
+      "abl.sg": "usu",
+      "gen.pl": "usuum",
+      "dat.pl": "usibus",
+      "abl.pl": "usibus"
+    }
+  }
+}

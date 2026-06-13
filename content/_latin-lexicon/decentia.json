@@ -1,0 +1,35 @@
+{
+  "lemma": "decentia",
+  "pos": "noun",
+  "glosses": [
+    "propriety, decency",
+    "comeliness, becomingness"
+  ],
+  "head": "decentia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "decentia",
+      "gen.sg": "decentiae",
+      "abl.sg": "decentia",
+      "acc.sg": "decentiam",
+      "dat.sg": "decentiae",
+      "nom.pl": "decentiae",
+      "gen.pl": "decentiarum",
+      "dat.pl": "decentiis",
+      "abl.pl": "decentiis",
+      "acc.pl": "decentias"
+    }
+  }
+}

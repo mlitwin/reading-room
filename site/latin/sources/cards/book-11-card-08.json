@@ -1,0 +1,740 @@
+{
+  "book": 11,
+  "card": 8,
+  "lines": [
+    410,
+    591
+  ],
+  "title_latin": "Ceyx et Alcyone. Somnus.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 410,
+      "latin": "Interea fratrisque sui fratremque secutis"
+    },
+    {
+      "n": 411,
+      "latin": "anxia prodigiis turbatus pectora Ceyx,"
+    },
+    {
+      "n": 412,
+      "latin": "consulat ut sacras, hominum oblectamina, sortes,"
+    },
+    {
+      "n": 413,
+      "latin": "ad Clarium parat ire deum; nam templa profanus"
+    },
+    {
+      "n": 414,
+      "latin": "invia cum Phlegyis faciebat Delphica Phorbas."
+    },
+    {
+      "n": 415,
+      "latin": "Consilii tamen ante sui, fidissima, certam"
+    },
+    {
+      "n": 416,
+      "latin": "te facit, Alcyone; cui protinus intima frigus"
+    },
+    {
+      "n": 417,
+      "latin": "ossa receperunt, buxoque simillimus ora"
+    },
+    {
+      "n": 418,
+      "latin": "pallor obit, lacrimisque genae maduere profusis."
+    },
+    {
+      "n": 419,
+      "latin": "Ter conata loqui ter fletibus ora rigavit,"
+    },
+    {
+      "n": 420,
+      "latin": "singultuque pias interrumpente querellas"
+    },
+    {
+      "n": 421,
+      "latin": "“quae mea culpa tuam,” dixit “carissime, mentem"
+    },
+    {
+      "n": 422,
+      "latin": "vertit? Ubi est quae cura mei prior esse solebat?"
+    },
+    {
+      "n": 423,
+      "latin": "Iam potes Alcyone securus abesse relicta?"
+    },
+    {
+      "n": 424,
+      "latin": "Iam via longa placet? Iam sum tibi carior absens?"
+    },
+    {
+      "n": 425,
+      "latin": "At, puto, per terras iter est, tantumque dolebo,"
+    },
+    {
+      "n": 426,
+      "latin": "non etiam metuam, curaeque timore carebunt."
+    },
+    {
+      "n": 427,
+      "latin": "Aequora me terrent et ponti tristis imago:"
+    },
+    {
+      "n": 428,
+      "latin": "et laceras nuper tabulas in litore vidi,"
+    },
+    {
+      "n": 429,
+      "latin": "et saepe in tumulis sine corpore nomina legi."
+    },
+    {
+      "n": 430,
+      "latin": "Neve tuum fallax animum fiducia tangat,"
+    },
+    {
+      "n": 431,
+      "latin": "quod socer Hippotades tibi sit, qui carcere fortes"
+    },
+    {
+      "n": 432,
+      "latin": "contineat ventos et, cum velit, aequora placet!"
+    },
+    {
+      "n": 433,
+      "latin": "Cum semel emissi tenuerunt aequora venti,"
+    },
+    {
+      "n": 434,
+      "latin": "nil illis vetitum est, incommendataque tellus"
+    },
+    {
+      "n": 435,
+      "latin": "omnis et omne fretum est. Caeli quoque nubila vexant"
+    },
+    {
+      "n": 436,
+      "latin": "excutiuntque feri rutilos concursibus ignes."
+    },
+    {
+      "n": 437,
+      "latin": "Quo magis hos novi (nam novi et saepe paterna"
+    },
+    {
+      "n": 438,
+      "latin": "parva domo vidi), magis hos reor esse timendos."
+    },
+    {
+      "n": 439,
+      "latin": "Quod tua si flecti precibus sententia nullis,"
+    },
+    {
+      "n": 440,
+      "latin": "care, potest, coniunx, nimiumque es certus eundi,"
+    },
+    {
+      "n": 441,
+      "latin": "me quoque tolle simul. Certe iactabimur una,"
+    },
+    {
+      "n": 442,
+      "latin": "nec nisi quae patiar, metuam: pariterque feremus,"
+    },
+    {
+      "n": 443,
+      "latin": "quidquid erit, pariter super aequora lata feremur.”"
+    },
+    {
+      "n": 444,
+      "latin": "Talibus Aeolidis dictis lacrimisque movetur"
+    },
+    {
+      "n": 445,
+      "latin": "sidereus coniunx: neque enim minor ignis in ipso est."
+    },
+    {
+      "n": 446,
+      "latin": "Sed neque propositos pelagi dimittere cursus,"
+    },
+    {
+      "n": 447,
+      "latin": "nec vult Alcyonen in partem adhibere pericli,"
+    },
+    {
+      "n": 448,
+      "latin": "multaque respondit timidum solantia pectus."
+    },
+    {
+      "n": 449,
+      "latin": "Non tamen idcirco causam probat; addidit illis"
+    },
+    {
+      "n": 450,
+      "latin": "hoc quoque lenimen, quo solo flexit amantem:"
+    },
+    {
+      "n": 451,
+      "latin": "“Longa quidem est nobis omnis mora: sed tibi iuro"
+    },
+    {
+      "n": 452,
+      "latin": "per patrios ignes, si me modo fata remittant,"
+    },
+    {
+      "n": 453,
+      "latin": "ante reversurum, quam luna bis impleat orbem.”"
+    },
+    {
+      "n": 454,
+      "latin": "His ubi promissis spes est admota recursus,"
+    },
+    {
+      "n": 455,
+      "latin": "protinus eductam navalibus aequore tingi"
+    },
+    {
+      "n": 456,
+      "latin": "armarique suis pinum iubet armamentis."
+    },
+    {
+      "n": 457,
+      "latin": "Qua rursus visa, veluti praesaga futuri,"
+    },
+    {
+      "n": 458,
+      "latin": "horruit Alcyone lacrimasque emisit obortas"
+    },
+    {
+      "n": 459,
+      "latin": "amplexusque dedit, tristique miserrima tandem"
+    },
+    {
+      "n": 460,
+      "latin": "ore “vale” dixit conlapsaque corpore toto est."
+    },
+    {
+      "n": 461,
+      "latin": "Ast iuvenes, quaerente moras Ceyce, reducunt"
+    },
+    {
+      "n": 462,
+      "latin": "ordinibus geminis ad fortia pectora remos"
+    },
+    {
+      "n": 463,
+      "latin": "aequalique ictu scindunt freta. Sustulit illa"
+    },
+    {
+      "n": 464,
+      "latin": "umentes oculos, stantemque in puppe relicta"
+    },
+    {
+      "n": 465,
+      "latin": "concussaque manu dantem sibi signa maritum"
+    },
+    {
+      "n": 466,
+      "latin": "prima videt redditque notas; ubi terra recessit"
+    },
+    {
+      "n": 467,
+      "latin": "longius atque oculi nequeunt cognoscere vultus,"
+    },
+    {
+      "n": 468,
+      "latin": "dum licet, insequitur fugientem lumine pinum."
+    },
+    {
+      "n": 469,
+      "latin": "Haec quoque ut haud poterat, spatio submota, videri,"
+    },
+    {
+      "n": 470,
+      "latin": "vela tamen spectat summo fluitantia malo;"
+    },
+    {
+      "n": 471,
+      "latin": "ut nec vela videt, vacuum petit anxia lectum"
+    },
+    {
+      "n": 472,
+      "latin": "seque toro ponit; renovat lectusque locusque"
+    },
+    {
+      "n": 473,
+      "latin": "Alcyonae lacrimas et, quae pars, admonet, absit."
+    },
+    {
+      "n": 474,
+      "latin": "Portibus exierant, et moverat aura rudentes:"
+    },
+    {
+      "n": 475,
+      "latin": "obvertit lateri pendentes navita remos"
+    },
+    {
+      "n": 476,
+      "latin": "cornuaque in summa locat arbore totaque malo"
+    },
+    {
+      "n": 477,
+      "latin": "carbasa deducit venientesque accipit auras."
+    },
+    {
+      "n": 478,
+      "latin": "Aut minus, aut certe medium non amplius aequor"
+    },
+    {
+      "n": 479,
+      "latin": "puppe secabatur, longeque erat utraque tellus,"
+    },
+    {
+      "n": 480,
+      "latin": "cum mare sub noctem tumidis albescere coepit"
+    },
+    {
+      "n": 481,
+      "latin": "fluctibus et praeceps spirare valentius eurus."
+    },
+    {
+      "n": 482,
+      "latin": "“Ardua iamdudum demittite cornua” rector"
+    },
+    {
+      "n": 483,
+      "latin": "clamat “et antemnis totum subnectite velum.”"
+    },
+    {
+      "n": 484,
+      "latin": "Hic iubet: impediunt adversae iussa procellae,"
+    },
+    {
+      "n": 485,
+      "latin": "nec sinit audiri vocem fragor aequoris ullam."
+    },
+    {
+      "n": 486,
+      "latin": "Sponte tamen properant alii subducere remos,"
+    },
+    {
+      "n": 487,
+      "latin": "pars munire latus, pars ventis vela negare."
+    },
+    {
+      "n": 488,
+      "latin": "Egerit hic fluctus aequorque refundit in aequor,"
+    },
+    {
+      "n": 489,
+      "latin": "hic rapit antemnas. Quae dum sine lege geruntur,"
+    },
+    {
+      "n": 490,
+      "latin": "aspera crescit hiems, omnique e parte feroces"
+    },
+    {
+      "n": 491,
+      "latin": "bella gerunt venti fretaque indignantia miscent."
+    },
+    {
+      "n": 492,
+      "latin": "Ipse pavet nec se, qui sit status, ipse fatetur"
+    },
+    {
+      "n": 493,
+      "latin": "scire ratis rector, nec, quid iubeatve velitve:"
+    },
+    {
+      "n": 494,
+      "latin": "tanta mali moles tantoque potentior arte est."
+    },
+    {
+      "n": 495,
+      "latin": "Quippe sonant clamore viri, stridore rudentes,"
+    },
+    {
+      "n": 496,
+      "latin": "undarum incursu gravis unda, tonitribus aether."
+    },
+    {
+      "n": 497,
+      "latin": "Fluctibus erigitur caelumque aequare videtur"
+    },
+    {
+      "n": 498,
+      "latin": "pontus et inductas adspergine tangere nubes;"
+    },
+    {
+      "n": 499,
+      "latin": "et modo, cum fulvas ex imo vertit harenas,"
+    },
+    {
+      "n": 500,
+      "latin": "concolor est illis, Stygia modo nigrior unda,"
+    },
+    {
+      "n": 501,
+      "latin": "sternitur interdum spumisque sonantibus albet."
+    },
+    {
+      "n": 502,
+      "latin": "Ipsa quoque his agitur vicibus Trachinia puppis,"
+    },
+    {
+      "n": 503,
+      "latin": "et nunc sublimis veluti de vertice montis"
+    },
+    {
+      "n": 504,
+      "latin": "despicere in valles imumque Acheronta videtur,"
+    },
+    {
+      "n": 505,
+      "latin": "nunc, ubi demissam curvum circumstetit aequor,"
+    },
+    {
+      "n": 506,
+      "latin": "suspicere inferno summum de gurgite caelum."
+    },
+    {
+      "n": 507,
+      "latin": "Saepe dat ingentem fluctu latus icta fragorem"
+    },
+    {
+      "n": 508,
+      "latin": "nec levius pulsata sonat, quam ferreus olim"
+    },
+    {
+      "n": 509,
+      "latin": "cum laceras aries ballistave concutit arces."
+    },
+    {
+      "n": 510,
+      "latin": "Utque solent sumptis incursu viribus ire"
+    },
+    {
+      "n": 511,
+      "latin": "pectore in arma feri protentaque tela leones,"
+    },
+    {
+      "n": 512,
+      "latin": "sic ubi se ventis admiserat unda coortis,"
+    },
+    {
+      "n": 513,
+      "latin": "ibat in arma ratis multoque erat altior illis."
+    },
+    {
+      "n": 514,
+      "latin": "Iamque labant cunei, spoliataque tegmine cerae"
+    },
+    {
+      "n": 515,
+      "latin": "rima patet praebetque viam letalibus undis."
+    },
+    {
+      "n": 516,
+      "latin": "Ecce cadunt largi resolutis nubibus imbres,"
+    },
+    {
+      "n": 517,
+      "latin": "inque fretum credas totum descendere caelum,"
+    },
+    {
+      "n": 518,
+      "latin": "inque plagas caeli tumefactum adscendere pontum."
+    },
+    {
+      "n": 519,
+      "latin": "Vela madent nimbis, et cum caelestibus undis"
+    },
+    {
+      "n": 520,
+      "latin": "aequoreae miscentur aquae; caret ignibus aether,"
+    },
+    {
+      "n": 521,
+      "latin": "caecaque nox premitur tenebris hiemisque suisque."
+    },
+    {
+      "n": 522,
+      "latin": "Discutiunt tamen has praebentque micantia lumen"
+    },
+    {
+      "n": 523,
+      "latin": "fulmina: fulmineis ardescunt ignibus ignes."
+    },
+    {
+      "n": 524,
+      "latin": "Dat quoque iam saltus intra cava texta carinae"
+    },
+    {
+      "n": 525,
+      "latin": "fluctus; et ut miles, numero praestantior omni,"
+    },
+    {
+      "n": 526,
+      "latin": "cum saepe adsiluit defensae moenibus urbis,"
+    },
+    {
+      "n": 527,
+      "latin": "spe potitur tandem laudisque accensus amore"
+    },
+    {
+      "n": 528,
+      "latin": "inter mille viros murum tamen occupat unus,"
+    },
+    {
+      "n": 529,
+      "latin": "sic, ubi pulsarunt noviens latera ardua fluctus,"
+    },
+    {
+      "n": 530,
+      "latin": "vastius insurgens decimae ruit impetus undae;"
+    },
+    {
+      "n": 531,
+      "latin": "nec prius absistit fessam oppugnare carinam,"
+    },
+    {
+      "n": 532,
+      "latin": "quam velut in captae descendat moenia navis."
+    },
+    {
+      "n": 533,
+      "latin": "Pars igitur temptabat adhuc invadere pinum,"
+    },
+    {
+      "n": 534,
+      "latin": "pars maris intus erat. Trepidant haud segnius omnes,"
+    },
+    {
+      "n": 535,
+      "latin": "quam solet urbs, aliis murum fodientibus extra"
+    },
+    {
+      "n": 536,
+      "latin": "atque aliis murum, trepidare, tenentibus intus."
+    },
+    {
+      "n": 537,
+      "latin": "Deficit ars animique cadunt, totidemque videntur,"
+    },
+    {
+      "n": 538,
+      "latin": "quot veniunt fluctus, ruere atque inrumpere mortes."
+    },
+    {
+      "n": 539,
+      "latin": "Non tenet hic lacrimas, stupet hic, vocat ille beatos,"
+    },
+    {
+      "n": 540,
+      "latin": "funera quos maneant: hic votis numen adorat"
+    },
+    {
+      "n": 541,
+      "latin": "bracchiaque ad caelum, quod non videt, inrita tollens"
+    },
+    {
+      "n": 542,
+      "latin": "poscit opem, subeunt illi fraterque parensque,"
+    },
+    {
+      "n": 543,
+      "latin": "huic cum pignoribus domus et quodcumque relictum est."
+    },
+    {
+      "n": 544,
+      "latin": "Alcyone Ceyca movet, Ceycis in ore"
+    },
+    {
+      "n": 545,
+      "latin": "nulla nisi Alcyone est; et cum desideret unam,"
+    },
+    {
+      "n": 546,
+      "latin": "gaudet abesse tamen. Patriae quoque vellet ad oras"
+    },
+    {
+      "n": 547,
+      "latin": "respicere inque domum supremos vertere vultus,"
+    },
+    {
+      "n": 548,
+      "latin": "verum ubi sit, nescit; tanta vertigine pontus"
+    },
+    {
+      "n": 549,
+      "latin": "fervet, et inducta piceis e nubibus umbra"
+    },
+    {
+      "n": 550,
+      "latin": "omne latet caelum, duplicataque noctis imago est."
+    },
+    {
+      "n": 551,
+      "latin": "Frangitur incursu nimbosi turbinis arbor,"
+    },
+    {
+      "n": 552,
+      "latin": "frangitur et regimen, spoliisque animosa superstes"
+    },
+    {
+      "n": 553,
+      "latin": "unda, velut victrix, sinuataque despicit undas,"
+    },
+    {
+      "n": 554,
+      "latin": "nec levius, quam siquis Athon Pindumve revulsos"
+    },
+    {
+      "n": 555,
+      "latin": "sede sua totos in apertum everterit aequor,"
+    },
+    {
+      "n": 556,
+      "latin": "praecipitata cadit pariterque et pondere et ictu"
+    },
+    {
+      "n": 557,
+      "latin": "mergit in ima ratem; cum qua pars magna virorum,"
+    },
+    {
+      "n": 558,
+      "latin": "gurgite pressa gravi neque in aera reddita, fato"
+    },
+    {
+      "n": 559,
+      "latin": "functa suo est: alii partes et membra carinae"
+    },
+    {
+      "n": 560,
+      "latin": "trunca tenent: tenet ipse manu, qua sceptra solebat,"
+    },
+    {
+      "n": 561,
+      "latin": "fragmina navigii Ceyx socerumque patremque"
+    },
+    {
+      "n": 562,
+      "latin": "invocat heu! frustra. Sed plurima nantis in ore"
+    },
+    {
+      "n": 563,
+      "latin": "Alcyone coniunx: illam meminitque refertque,"
+    },
+    {
+      "n": 564,
+      "latin": "illius ante oculos ut agant sua corpora fluctus,"
+    },
+    {
+      "n": 565,
+      "latin": "optat et exanimis manibus tumuletur amicis."
+    },
+    {
+      "n": 566,
+      "latin": "Dum natat, absentem, quotiens sinit hiscere fluctus,"
+    },
+    {
+      "n": 567,
+      "latin": "nominat Alcyonen ipsisque inmurmurat undis."
+    },
+    {
+      "n": 568,
+      "latin": "Ecce super medios fluctus niger arcus aquarum"
+    },
+    {
+      "n": 569,
+      "latin": "frangitur et rupta mersum caput obruit unda."
+    },
+    {
+      "n": 570,
+      "latin": "Lucifer obscurus nec quem cognoscere posses"
+    },
+    {
+      "n": 571,
+      "latin": "illa luce fuit, quoniamque excedere caelo"
+    },
+    {
+      "n": 572,
+      "latin": "non licuit, densis texit sua nubibus ora."
+    },
+    {
+      "n": 573,
+      "latin": "Aeolis interea tantorum ignara malorum"
+    },
+    {
+      "n": 574,
+      "latin": "dinumerat noctes, et iam, quas induat ille"
+    },
+    {
+      "n": 575,
+      "latin": "festinat vestes, iam quas, ubi venerit ille,"
+    },
+    {
+      "n": 576,
+      "latin": "ipsa gerat, reditusque sibi promittit inanes."
+    },
+    {
+      "n": 577,
+      "latin": "Omnibus illa quidem superis pia tura ferebat,"
+    },
+    {
+      "n": 578,
+      "latin": "ante tamen cunctos Iunonis templa colebat"
+    },
+    {
+      "n": 579,
+      "latin": "proque viro, qui nullus erat, veniebat ad aras"
+    },
+    {
+      "n": 580,
+      "latin": "utque foret sospes coniunx suus utque rediret,"
+    },
+    {
+      "n": 581,
+      "latin": "optabat, nullamque sibi praeferret; at illi"
+    },
+    {
+      "n": 582,
+      "latin": "hoc de tot votis poterat contingere solum."
+    },
+    {
+      "n": 583,
+      "latin": "At dea non ultra pro functo morte rogari"
+    },
+    {
+      "n": 584,
+      "latin": "sustinet; utque manus funestas arceat aris,"
+    },
+    {
+      "n": 585,
+      "latin": "“Iri, meae” dixit “fidissima nuntia vocis,"
+    },
+    {
+      "n": 586,
+      "latin": "vise soporiferam Somni velociter aulam"
+    },
+    {
+      "n": 587,
+      "latin": "exstinctique iube Ceycis imagine mittat"
+    },
+    {
+      "n": 588,
+      "latin": "somnia ad Alcyonen veros narrantia casus.”"
+    },
+    {
+      "n": 589,
+      "latin": "Dixerat: induitur velamina mille colorum"
+    },
+    {
+      "n": 590,
+      "latin": "Iris, et arcuato caelum curvamine signans"
+    },
+    {
+      "n": 591,
+      "latin": "tecta petit iussi sub nube latentia regis."
+    }
+  ]
+}

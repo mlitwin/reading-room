@@ -1,0 +1,34 @@
+{
+  "lemma": "terror",
+  "pos": "noun",
+  "glosses": [
+    "terror, panic, alarm, fear"
+  ],
+  "head": "terror, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "terrorem",
+      "gen.pl": "terrorum",
+      "acc.pl": "terroris",
+      "nom.sg": "terror",
+      "gen.sg": "terroris",
+      "dat.sg": "terrori",
+      "abl.sg": "terrore",
+      "nom.pl": "terrores",
+      "dat.pl": "terroribus",
+      "abl.pl": "terroribus"
+    }
+  }
+}

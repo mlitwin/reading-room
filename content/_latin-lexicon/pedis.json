@@ -1,0 +1,35 @@
+{
+  "lemma": "pedis",
+  "pos": "noun",
+  "glosses": [
+    "foot",
+    "[pedem referre => to retreat]"
+  ],
+  "head": "pedis, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "pedem",
+      "gen.pl": "pedum",
+      "acc.pl": "pedis",
+      "nom.sg": "pes",
+      "gen.sg": "pedis",
+      "dat.sg": "pedi",
+      "abl.sg": "pede",
+      "nom.pl": "pedes",
+      "dat.pl": "pedibus",
+      "abl.pl": "pedibus"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lemma": "omnes",
+  "pos": "noun",
+  "glosses": [
+    "all things (pl.)",
+    "everything",
+    "a/the whole, entity, unit"
+  ],
+  "head": "omnes, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "omni",
+      "acc.sg": "omne",
+      "nom.pl": "omnia",
+      "gen.pl": "omnium",
+      "acc.pl": "omnia",
+      "nom.sg": "omne",
+      "gen.sg": "omnis",
+      "dat.sg": "omni",
+      "dat.pl": "omnibus",
+      "abl.pl": "omnibus"
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "book": 12,
+  "card": 2,
+  "lines": [
+    64,
+    145
+  ],
+  "title_latin": "Achilles et Cygnus.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 64,
+      "latin": "Fecerat haec notum Graias cum milite forti"
+    },
+    {
+      "n": 65,
+      "latin": "adventare rates, neque inexspectatus in armis"
+    },
+    {
+      "n": 66,
+      "latin": "hostis adest: prohibent aditus litusque tuentur"
+    },
+    {
+      "n": 67,
+      "latin": "Troes, et Hectorea primus fataliter hasta,"
+    },
+    {
+      "n": 68,
+      "latin": "Protesilae, cadis, commissaque proelia magno"
+    },
+    {
+      "n": 69,
+      "latin": "stant Danais, fortisque animae nece cognitus Hector."
+    },
+    {
+      "n": 70,
+      "latin": "Nec Phryges exiguo, quid Achaica dextera possit"
+    },
+    {
+      "n": 71,
+      "latin": "sanguine senserunt. Et iam Sigea rubebant"
+    },
+    {
+      "n": 72,
+      "latin": "litora, iam leto proles Neptunia Cygnus"
+    },
+    {
+      "n": 73,
+      "latin": "mille viros dederat, iam curru instabat Achilles"
+    },
+    {
+      "n": 74,
+      "latin": "totaque Peliacae sternebat cuspidis ictu"
+    },
+    {
+      "n": 75,
+      "latin": "agmina, perque acies aut Cygnum aut Hectora quaerens"
+    },
+    {
+      "n": 76,
+      "latin": "congreditur Cygno (decimum dilatus in annum"
+    },
+    {
+      "n": 77,
+      "latin": "Hector erat): tum colla iugo canentia pressos"
+    },
+    {
+      "n": 78,
+      "latin": "exhortatus equos currum direxit in hostem"
+    },
+    {
+      "n": 79,
+      "latin": "concutiensque suis vibrantia tela lacertis"
+    },
+    {
+      "n": 80,
+      "latin": "“quisquis es, o iuvenis” dixit “solamen habeto"
+    },
+    {
+      "n": 81,
+      "latin": "mortis, ab Haemonio quod sis iugulatus Achille.”"
+    },
+    {
+      "n": 82,
+      "latin": "Hactenus Aeacides; vocem gravis hasta secuta est."
+    },
+    {
+      "n": 83,
+      "latin": "Sed quamquam certa nullus fuit error in hasta,"
+    },
+    {
+      "n": 84,
+      "latin": "nil tamen emissi profecit acumine ferri"
+    },
+    {
+      "n": 85,
+      "latin": "utque hebeti pectus tantummodo contudit ictu."
+    },
+    {
+      "n": 86,
+      "latin": "“Nate dea, nam te fama praenovimus,” inquit"
+    },
+    {
+      "n": 87,
+      "latin": "ille “quid a nobis vulnus miraris abesse?”"
+    },
+    {
+      "n": 88,
+      "latin": "(mirabatur enim) “non haec, quam cernis, equinis"
+    },
+    {
+      "n": 89,
+      "latin": "fulva iubis cassis neque onus cava parma sinistrae"
+    },
+    {
+      "n": 90,
+      "latin": "auxilio mihi sunt: decor est quaesitus ab istis."
+    },
+    {
+      "n": 91,
+      "latin": "Mars quoque ob hoc capere arma solet! Removebitur omne"
+    },
+    {
+      "n": 92,
+      "latin": "tegminis officium, tamen indestrictus abibo."
+    },
+    {
+      "n": 93,
+      "latin": "Est aliquid non esse satum Nereide, sed qui"
+    },
+    {
+      "n": 94,
+      "latin": "Nereaque et natas et totum temperat aequor.”"
+    },
+    {
+      "n": 95,
+      "latin": "Dixit et haesurum clipei curvamine telum"
+    },
+    {
+      "n": 96,
+      "latin": "misit in Aeaciden, quod et aes et proxima rupit"
+    },
+    {
+      "n": 97,
+      "latin": "terga novena boum, decimo tamen orbe moratum est."
+    },
+    {
+      "n": 98,
+      "latin": "Excutit hoc heros rursusque trementia forti"
+    },
+    {
+      "n": 99,
+      "latin": "tela manu torsit: rursus sine vulnere corpus"
+    },
+    {
+      "n": 100,
+      "latin": "sincerumque fuit! Nec tertia cuspis apertum"
+    },
+    {
+      "n": 101,
+      "latin": "et se praebentem valuit destringere Cygnum."
+    },
+    {
+      "n": 102,
+      "latin": "Haud secus exarsit, quam circo taurus aperto,"
+    },
+    {
+      "n": 103,
+      "latin": "cum sua terribili petit inritamina cornu,"
+    },
+    {
+      "n": 104,
+      "latin": "poeniceas vestes, elusaque vulnera sentit."
+    },
+    {
+      "n": 105,
+      "latin": "Num tamen exciderit ferrum, considerat hastae:"
+    },
+    {
+      "n": 106,
+      "latin": "haerebat ligno. “Manus est mea debilis ergo,"
+    },
+    {
+      "n": 107,
+      "latin": "quasque” ait “ante habuit vires, effudit in uno?"
+    },
+    {
+      "n": 108,
+      "latin": "Nam certe valuit, vel cum Lyrnesia primus"
+    },
+    {
+      "n": 109,
+      "latin": "moenia deieci, vel cum Tenedonque suoque"
+    },
+    {
+      "n": 110,
+      "latin": "Eetioneas inplevi sanguine Thebas,"
+    },
+    {
+      "n": 111,
+      "latin": "vel cum purpureus populari caede Caicus"
+    },
+    {
+      "n": 112,
+      "latin": "fluxit opusque meae bis sensit Telephus hastae."
+    },
+    {
+      "n": 113,
+      "latin": "Hic quoque tot caesis, quorum per litus acervos"
+    },
+    {
+      "n": 114,
+      "latin": "et feci et video, valuit mea dextra valetque.”"
+    },
+    {
+      "n": 115,
+      "latin": "Dixit et, ante actis veluti male crederet, hastam"
+    },
+    {
+      "n": 116,
+      "latin": "misit in adversum Lycia de plebe Menoeten"
+    },
+    {
+      "n": 117,
+      "latin": "loricamque simul subiectaque pectora rupit."
+    },
+    {
+      "n": 118,
+      "latin": "Quo plangente gravem moribundo pectore terram"
+    },
+    {
+      "n": 119,
+      "latin": "extrahit illud idem calido de vulnere telum"
+    },
+    {
+      "n": 120,
+      "latin": "atque ait: “Haec manus est, haec, qua modo vicimus, hasta:"
+    },
+    {
+      "n": 121,
+      "latin": "utar in hoc isdem; sit in hoc, precor, exitus idem!”"
+    },
+    {
+      "n": 122,
+      "latin": "Sic fatus Cygnum repetit, nec fraxinus errat"
+    },
+    {
+      "n": 123,
+      "latin": "inque umero sonuit non evitata sinistro,"
+    },
+    {
+      "n": 124,
+      "latin": "inde velut muro solidaque a caute repulsa est;"
+    },
+    {
+      "n": 125,
+      "latin": "qua tamen ictus erat, signatum sanguine Cygnum"
+    },
+    {
+      "n": 126,
+      "latin": "viderat et frustra fuerat gavisus Achilles:"
+    },
+    {
+      "n": 127,
+      "latin": "vulnus erat nullum, sanguis fuit ille Menoetae!"
+    },
+    {
+      "n": 128,
+      "latin": "Tum vero praeceps curru fremebundus ab alto"
+    },
+    {
+      "n": 129,
+      "latin": "desilit et nitido securum comminus hostem"
+    },
+    {
+      "n": 130,
+      "latin": "ense petens parmam gladio galeamque cavari"
+    },
+    {
+      "n": 131,
+      "latin": "cernit et in duro laedi quoque corpore ferrum!"
+    },
+    {
+      "n": 132,
+      "latin": "Haud tulit ulterius, clipeoque adversa reducto"
+    },
+    {
+      "n": 133,
+      "latin": "ter quater ora viri, capulo cava tempora pulsat"
+    },
+    {
+      "n": 134,
+      "latin": "cedentique sequens instat turbatque ruitque"
+    },
+    {
+      "n": 135,
+      "latin": "attonitoque negat requiem: pavor occupat illum,"
+    },
+    {
+      "n": 136,
+      "latin": "ante oculosque natant tenebrae, retroque ferenti"
+    },
+    {
+      "n": 137,
+      "latin": "aversos passus medio lapis obstitit arvo."
+    },
+    {
+      "n": 138,
+      "latin": "Quem super inpulsum resupino corpore Cygnum"
+    },
+    {
+      "n": 139,
+      "latin": "vi multa vertit terraeque adflixit Achilles."
+    },
+    {
+      "n": 140,
+      "latin": "Tum clipeo genibusque premens praecordia duris"
+    },
+    {
+      "n": 141,
+      "latin": "vincla trahit galeae: quae presso subdita mento"
+    },
+    {
+      "n": 142,
+      "latin": "elidunt fauces et respiramen utrumque"
+    },
+    {
+      "n": 143,
+      "latin": "eripiunt animae. Victum spoliare parabat:"
+    },
+    {
+      "n": 144,
+      "latin": "arma relicta videt; corpus deus aequoris albam"
+    },
+    {
+      "n": 145,
+      "latin": "contulit in volucrem, cuius modo nomen habebat."
+    }
+  ]
+}

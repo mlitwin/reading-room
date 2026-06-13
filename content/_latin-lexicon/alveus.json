@@ -1,0 +1,39 @@
+{
+  "lemma": "alveus",
+  "pos": "noun",
+  "glosses": [
+    "cavity, hollow",
+    "tub",
+    "trough, bowl, tray",
+    "gameboard",
+    "beehive",
+    "canoe"
+  ],
+  "head": "alveus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "alveus",
+      "gen.sg": "alvei",
+      "dat.sg": "alveo",
+      "abl.sg": "alveo",
+      "acc.sg": "alveum",
+      "nom.pl": "alvei",
+      "gen.pl": "alveorum",
+      "dat.pl": "alveis",
+      "abl.pl": "alveis",
+      "acc.pl": "alveos"
+    }
+  }
+}

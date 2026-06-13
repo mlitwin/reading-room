@@ -1,0 +1,284 @@
+{
+  "book": 5,
+  "card": 5,
+  "lines": [
+    341,
+    408
+  ],
+  "title_latin": "Ceres et Proserpina.",
+  "title_english": null,
+  "text": [
+    {
+      "n": 341,
+      "latin": "“Prima Ceres unco glaebam dimovit aratro,"
+    },
+    {
+      "n": 342,
+      "latin": "prima dedit fruges alimentaque mitia terris,"
+    },
+    {
+      "n": 343,
+      "latin": "prima dedit leges: Cereris sunt omnia munus."
+    },
+    {
+      "n": 344,
+      "latin": "Illa canenda mihi est. Utinam modo dicere possem"
+    },
+    {
+      "n": 345,
+      "latin": "carmina digna dea: certe dea carmine digna est."
+    },
+    {
+      "n": 346,
+      "latin": "Vasta giganteis ingesta est insula membris"
+    },
+    {
+      "n": 347,
+      "latin": "Trinacris et magnis subiectum molibus urget"
+    },
+    {
+      "n": 348,
+      "latin": "aetherias ausum sperare Typhoea sedes."
+    },
+    {
+      "n": 349,
+      "latin": "Nititur ille quidem pugnatque resurgere saepe,"
+    },
+    {
+      "n": 350,
+      "latin": "dextra sed Ausonio manus est subiecta Peloro,"
+    },
+    {
+      "n": 351,
+      "latin": "laeva, Pachyne, tibi, Lilybaeo crura premuntur,"
+    },
+    {
+      "n": 352,
+      "latin": "degravat Aetna caput: sub qua resupinus harenas"
+    },
+    {
+      "n": 353,
+      "latin": "eiectat flammamque ferox vomit ore Typhoeus."
+    },
+    {
+      "n": 354,
+      "latin": "Saepe remoliri luctatur pondera terrae"
+    },
+    {
+      "n": 355,
+      "latin": "oppidaque et magnos devolvere corpore montes."
+    },
+    {
+      "n": 356,
+      "latin": "Inde tremit tellus, et rex pavet ipse silentum,"
+    },
+    {
+      "n": 357,
+      "latin": "ne pateat latoque solum retegatur hiatu"
+    },
+    {
+      "n": 358,
+      "latin": "inmissusque dies trepidantes terreat umbras."
+    },
+    {
+      "n": 359,
+      "latin": "Hanc metuens cladem tenebrosa sede tyrannus"
+    },
+    {
+      "n": 360,
+      "latin": "exierat, curruque atrorum vectus equorum"
+    },
+    {
+      "n": 361,
+      "latin": "ambibat Siculae cautus fundamina terrae."
+    },
+    {
+      "n": 362,
+      "latin": "Postquam exploratum satis est loca nulla labare,"
+    },
+    {
+      "n": 363,
+      "latin": "depositoque metu, videt hunc Erycina vagantem"
+    },
+    {
+      "n": 364,
+      "latin": "monte suo residens, natumque amplexa volucrem"
+    },
+    {
+      "n": 365,
+      "latin": "“arma manusque meae, mea, nate, potentia”, dixit,"
+    },
+    {
+      "n": 366,
+      "latin": "“illa, quibus superas omnes, cape tela, Cupido,"
+    },
+    {
+      "n": 367,
+      "latin": "inque dei pectus celeres molire sagittas,"
+    },
+    {
+      "n": 368,
+      "latin": "cui triplicis cessit fortuna novissima regni."
+    },
+    {
+      "n": 369,
+      "latin": "Tu superos ipsumque Iovem tu numina ponti"
+    },
+    {
+      "n": 370,
+      "latin": "victa domas ipsumque, regit qui numina ponti."
+    },
+    {
+      "n": 371,
+      "latin": "Tartara quid cessant? cur non matrisque tuumque"
+    },
+    {
+      "n": 372,
+      "latin": "imperium profers? agitur pars tertia mundi."
+    },
+    {
+      "n": 373,
+      "latin": "Et tamen in caelo, quae iam patientia nostra est,"
+    },
+    {
+      "n": 374,
+      "latin": "spernimur, ac mecum vires minuuntur Amoris."
+    },
+    {
+      "n": 375,
+      "latin": "Pallada nonne vides iaculatricemque Dianam"
+    },
+    {
+      "n": 376,
+      "latin": "abscessisse mihi? Cereris quoque filia virgo,"
+    },
+    {
+      "n": 377,
+      "latin": "si patiemur, erit: nam spes adfectat easdem."
+    },
+    {
+      "n": 378,
+      "latin": "At tu, pro socio, siqua est ea gratia, regno"
+    },
+    {
+      "n": 379,
+      "latin": "iunge deam patruo.” Dixit Venus. Ille pharetram"
+    },
+    {
+      "n": 380,
+      "latin": "solvit et arbitrio matris de mille sagittis"
+    },
+    {
+      "n": 381,
+      "latin": "unam seposuit, sed qua nec acutior ulla"
+    },
+    {
+      "n": 382,
+      "latin": "nec minus incerta est nec quae magis audiat arcus,"
+    },
+    {
+      "n": 383,
+      "latin": "oppositoque genu curvavit flexile cornum"
+    },
+    {
+      "n": 384,
+      "latin": "inque cor hamata percussit harundine Ditem."
+    },
+    {
+      "n": 385,
+      "latin": "Haud procul Hennaeis lacus est a moenibus altae,"
+    },
+    {
+      "n": 386,
+      "latin": "nomine Pergus, aquae. Non illo plura Caystros"
+    },
+    {
+      "n": 387,
+      "latin": "carmina cycnorum labentibus audit in undis."
+    },
+    {
+      "n": 388,
+      "latin": "Silva coronat aquas cingens latus omne, suisque"
+    },
+    {
+      "n": 389,
+      "latin": "frondibus ut velo Phoebeos submovet ictus."
+    },
+    {
+      "n": 390,
+      "latin": "Frigora dant rami, tyrios humus umida flores:"
+    },
+    {
+      "n": 391,
+      "latin": "perpetuum ver est. Quo dum Proserpina luco"
+    },
+    {
+      "n": 392,
+      "latin": "ludit et aut violas aut candida lilia carpit,"
+    },
+    {
+      "n": 393,
+      "latin": "dumque puellari studio calathosque sinumque"
+    },
+    {
+      "n": 394,
+      "latin": "implet et aequales certat superare legendo,"
+    },
+    {
+      "n": 395,
+      "latin": "paene simul visa est dilectaque raptaque Diti:"
+    },
+    {
+      "n": 396,
+      "latin": "usque adeo est properatus amor. Dea territa maesto"
+    },
+    {
+      "n": 397,
+      "latin": "et matrem et comites, sed matrem saepius, ore"
+    },
+    {
+      "n": 398,
+      "latin": "clamat; et, ut summa vestem laniarat ab ora,"
+    },
+    {
+      "n": 399,
+      "latin": "conlecti flores tunicis cecidere remissis."
+    },
+    {
+      "n": 400,
+      "latin": "Tantaque simplicitas puerilibus adfuit annis,"
+    },
+    {
+      "n": 401,
+      "latin": "haec quoque virgineum movit iactura dolorem."
+    },
+    {
+      "n": 402,
+      "latin": "Raptor agit currus et nomine quemque vocando"
+    },
+    {
+      "n": 403,
+      "latin": "exhortatur equos, quorum per colla iubasque"
+    },
+    {
+      "n": 404,
+      "latin": "excutit obscura tinctas ferrugine habenas,"
+    },
+    {
+      "n": 405,
+      "latin": "perque lacus altos et olentia sulphure fertur"
+    },
+    {
+      "n": 406,
+      "latin": "stagna Palicorum, rupta fervenu terra,"
+    },
+    {
+      "n": 407,
+      "latin": "et qua Bacchiadae, bimari gens orta Corintho,"
+    },
+    {
+      "n": 408,
+      "latin": "inter inaequales posuerunt moenia portus."
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "book": 13,
+  "card": 2,
+  "lines": [
+    98,
+    204
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 98,
+      "latin": "Conferat his Ithacus Rhesum imbellemque Dolona"
+    },
+    {
+      "n": 99,
+      "latin": "Priamidenque Helenum rapta cum Pallade captum:"
+    },
+    {
+      "n": 100,
+      "latin": "luce nihil gestum est, nihil est Diomede remoto."
+    },
+    {
+      "n": 101,
+      "latin": "Si semel ista datis meritis tam vilibus arma,"
+    },
+    {
+      "n": 102,
+      "latin": "dividite, et pars sit maior Diomedis in illis!"
+    },
+    {
+      "n": 103,
+      "latin": "Quo tamen haec Ithaco, qui clam, qui semper inermis"
+    },
+    {
+      "n": 104,
+      "latin": "rem gerit et furtis incautum decipit hostem?"
+    },
+    {
+      "n": 105,
+      "latin": "Ipse nitor galeae claro radiantis ab auro"
+    },
+    {
+      "n": 106,
+      "latin": "insidias prodet manifestabitque latentem."
+    },
+    {
+      "n": 107,
+      "latin": "Sed neque Dulichius sub Achillis casside vertex"
+    },
+    {
+      "n": 108,
+      "latin": "pondera tanta feret, nec non onerosa gravisque"
+    },
+    {
+      "n": 109,
+      "latin": "Pelias hasta potest imbellibus esse lacertis,"
+    },
+    {
+      "n": 110,
+      "latin": "nec clipeus vasti concretus imagine mundi"
+    },
+    {
+      "n": 111,
+      "latin": "conveniet timidae nataeque ad furta sinistrae:"
+    },
+    {
+      "n": 112,
+      "latin": "debilitaturum quid te petis, Improbe, munus?"
+    },
+    {
+      "n": 113,
+      "latin": "Quod tibi si populi donaverit error Achivi,"
+    },
+    {
+      "n": 114,
+      "latin": "cur spolieris, erit, non cur metuaris ab hoste,"
+    },
+    {
+      "n": 115,
+      "latin": "et fuga, qua sola cunctos, timidissime, vincis,"
+    },
+    {
+      "n": 116,
+      "latin": "tarda futura tibi est gestamina tanta trahenti."
+    },
+    {
+      "n": 117,
+      "latin": "Adde quod iste tuus, tam raro proelia passus,"
+    },
+    {
+      "n": 118,
+      "latin": "integer est clipeus: nostro, qui tela ferendo"
+    },
+    {
+      "n": 119,
+      "latin": "mille patet plagis, novus est successor habendus."
+    },
+    {
+      "n": 120,
+      "latin": "Denique (quid verbis opus est?) spectemur agendo!"
+    },
+    {
+      "n": 121,
+      "latin": "Arma viri fortis medios mittantur in hostes:"
+    },
+    {
+      "n": 122,
+      "latin": "inde iubete peti et referentem ornate relatis?”"
+    },
+    {
+      "n": 123,
+      "latin": "Finierat Telamone satus vulgique secutum"
+    },
+    {
+      "n": 124,
+      "latin": "ultima murmur erat, donec Laertius heros"
+    },
+    {
+      "n": 125,
+      "latin": "adstitit atque oculos paulum tellure moratos"
+    },
+    {
+      "n": 126,
+      "latin": "sustulit ad proceres exspectatoque resolvit"
+    },
+    {
+      "n": 127,
+      "latin": "ora sono; neque abest facundis gratia dictis."
+    },
+    {
+      "n": 128,
+      "latin": "“Si mea cum vestris valuissent vota, Pelasgi,"
+    },
+    {
+      "n": 129,
+      "latin": "non foret ambiguus tanti certaminis heres,"
+    },
+    {
+      "n": 130,
+      "latin": "tuque tuis armis, nos te poteremur, Achille."
+    },
+    {
+      "n": 131,
+      "latin": "Quem quoniam non aequa mihi vobisque negarunt"
+    },
+    {
+      "n": 132,
+      "latin": "fata” (manuque simul veluti lacrimantia tersit"
+    },
+    {
+      "n": 133,
+      "latin": "lumina), “quis magno melius succedit Achilli,"
+    },
+    {
+      "n": 134,
+      "latin": "quam per quem magnus Danais successit Achilles?"
+    },
+    {
+      "n": 135,
+      "latin": "Huic modo ne prosit, quod, uti est, hebes esse videtur,"
+    },
+    {
+      "n": 136,
+      "latin": "neve mihi noceat, quod vobis semper, Achivi,"
+    },
+    {
+      "n": 137,
+      "latin": "profuit ingenium, meaque haec facundia, siqua est,"
+    },
+    {
+      "n": 138,
+      "latin": "quae nunc pro domino, pro vobis saepe locuta est,"
+    },
+    {
+      "n": 139,
+      "latin": "invidia careat, bona nec sua quisque recuset."
+    },
+    {
+      "n": 140,
+      "latin": "Nam genus et proavos et quae non fecimus ipsi,"
+    },
+    {
+      "n": 141,
+      "latin": "vix ea nostra voco; sed enim quia rettulit Aiax"
+    },
+    {
+      "n": 142,
+      "latin": "esse Iovis pronepos, nostri quoque sanguinis auctor"
+    },
+    {
+      "n": 143,
+      "latin": "Iuppiter est, totidemque gradus distamus ab illo."
+    },
+    {
+      "n": 144,
+      "latin": "Nam mihi Laertes pater est, Arcesius illi,"
+    },
+    {
+      "n": 145,
+      "latin": "Iuppiter huic, neque in his quisquam damnatus et exsul."
+    },
+    {
+      "n": 146,
+      "latin": "Est quoque per matrem Cyllenius addita nobis"
+    },
+    {
+      "n": 147,
+      "latin": "altera nobilitas: deus est in utroque parente."
+    },
+    {
+      "n": 148,
+      "latin": "Sed neque materno quod sum generosior ortu,"
+    },
+    {
+      "n": 149,
+      "latin": "nec mihi quod pater est fraterni sanguinis insons,"
+    },
+    {
+      "n": 150,
+      "latin": "proposita arma peto: meritis expendite causam,"
+    },
+    {
+      "n": 151,
+      "latin": "dummodo, quod fratres Telamon Peleusque fuerunt,"
+    },
+    {
+      "n": 152,
+      "latin": "Aiacis meritum non sit nec sanguinis ordo,"
+    },
+    {
+      "n": 153,
+      "latin": "sed virtutis honor spoliis quaeratur in istis!"
+    },
+    {
+      "n": 154,
+      "latin": "Aut si proximitas primusque requiritur heres,"
+    },
+    {
+      "n": 155,
+      "latin": "est genitor Peleus, est Pyrrhus filius illi."
+    },
+    {
+      "n": 156,
+      "latin": "Quis locus Aiaci? Phthiam haec Scyrumve ferantur!"
+    },
+    {
+      "n": 157,
+      "latin": "Nec minus est isto Teucer patruelis Achilli:"
+    },
+    {
+      "n": 158,
+      "latin": "num petit ille tamen? num si petat, auferat illa?"
+    },
+    {
+      "n": 159,
+      "latin": "Ergo operum quoniam nudum certamen habetur:"
+    },
+    {
+      "n": 160,
+      "latin": "plura quidem feci, quam quae comprendere dictis"
+    },
+    {
+      "n": 161,
+      "latin": "in promptu mihi sit; rerum tamen ordine ducar."
+    },
+    {
+      "n": 162,
+      "latin": "Praescia venturi genetrix Nereia leti"
+    },
+    {
+      "n": 163,
+      "latin": "dissimulat cultu natum, et deceperat omnes,"
+    },
+    {
+      "n": 164,
+      "latin": "in quibus Aiacem, sumptae fallacia vestis."
+    },
+    {
+      "n": 165,
+      "latin": "Arma ego femineis animum motura virilem"
+    },
+    {
+      "n": 166,
+      "latin": "mercibus inserui, neque adhuc proiecerat heros"
+    },
+    {
+      "n": 167,
+      "latin": "virgineos habitus, cum parmam hastamque tenenti"
+    },
+    {
+      "n": 168,
+      "latin": "“nate dea,” dixi “tibi se peritura reservant"
+    },
+    {
+      "n": 169,
+      "latin": "Pergama! quid dubitas ingentem evertere Troiam?”"
+    },
+    {
+      "n": 170,
+      "latin": "iniecique manum fortemque ad fortia misi."
+    },
+    {
+      "n": 171,
+      "latin": "Ergo opera illius mea sunt: ego Telephon hasta"
+    },
+    {
+      "n": 172,
+      "latin": "pugnantem domui, victum orantemque refeci;"
+    },
+    {
+      "n": 173,
+      "latin": "quod Thebae cecidere, meum est, me credite Lesbon,"
+    },
+    {
+      "n": 174,
+      "latin": "me Tenedon Chrysenque et Cillan, Apollinis urbes,"
+    },
+    {
+      "n": 175,
+      "latin": "et Scyrum cepisse, mea concussa putate"
+    },
+    {
+      "n": 176,
+      "latin": "procubuisse solo Lyrnesia moenia dextra,"
+    },
+    {
+      "n": 177,
+      "latin": "utque alias taceam, qui saevum perdere posset"
+    },
+    {
+      "n": 178,
+      "latin": "Hectora, nempe dedi: per me iacet inclitus Hector."
+    },
+    {
+      "n": 179,
+      "latin": "Illis haec armis, quibus est inventus Achilles,"
+    },
+    {
+      "n": 180,
+      "latin": "arma peto: vivo dederam, post fata reposco. —"
+    },
+    {
+      "n": 181,
+      "latin": "Ut dolor unius Danaos pervenit ad omnes"
+    },
+    {
+      "n": 182,
+      "latin": "Aulidaque Euboicam complerunt mille carinae,"
+    },
+    {
+      "n": 183,
+      "latin": "exspectata diu, nulla aut contraria classi"
+    },
+    {
+      "n": 184,
+      "latin": "flamina erant, duraeque iubent Agamemnona sortes"
+    },
+    {
+      "n": 185,
+      "latin": "inmeritam saevae natam mactare Dianae."
+    },
+    {
+      "n": 186,
+      "latin": "Denegat hoc genitor divisque irascitur ipsis"
+    },
+    {
+      "n": 187,
+      "latin": "atque in rege tamen pater est. Ego mite parentis"
+    },
+    {
+      "n": 188,
+      "latin": "ingenium verbis ad publica commoda verti."
+    },
+    {
+      "n": 189,
+      "latin": "Nunc equidem (fateor, fassoque ignoscat Atrides!)"
+    },
+    {
+      "n": 190,
+      "latin": "difficilem tenui sub iniquo iudice causam."
+    },
+    {
+      "n": 191,
+      "latin": "Hunc tamen utilitas populi fraterque datique"
+    },
+    {
+      "n": 192,
+      "latin": "summa movet sceptri, laudem ut cum sanguine penset."
+    },
+    {
+      "n": 193,
+      "latin": "Mittor et ad matrem, quae non hortanda, sed astu"
+    },
+    {
+      "n": 194,
+      "latin": "decipienda fuit: quo si Telamonius isset,"
+    },
+    {
+      "n": 195,
+      "latin": "orba suis essent etiamnum lintea ventis."
+    },
+    {
+      "n": 196,
+      "latin": "Mittor et Iliacas audax orator ad arces,"
+    },
+    {
+      "n": 197,
+      "latin": "visaque et intrata est altae mihi curia Troiae"
+    },
+    {
+      "n": 198,
+      "latin": "(plenaque adhuc erat illa viris), interritus egi,"
+    },
+    {
+      "n": 199,
+      "latin": "quam mihi mandarat communis Graecia causam,"
+    },
+    {
+      "n": 200,
+      "latin": "accusoque Parim praedamque Helenamque reposco"
+    },
+    {
+      "n": 201,
+      "latin": "et moveo Priamum Priamoque Antenora iunctum."
+    },
+    {
+      "n": 202,
+      "latin": "At Paris et fratres et qui rapuere sub illo,"
+    },
+    {
+      "n": 203,
+      "latin": "ni tenuere manus (scis hoc, Menelae) nefandas,"
+    },
+    {
+      "n": 204,
+      "latin": "primaque lux nostri tecum fuit illa pericli."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "lemma": "novi",
+  "pos": "adj",
+  "glosses": [
+    "new, fresh, young",
+    "unusual, extraordinary",
+    "(novae res, f. pl. = revolution)"
+  ],
+  "head": "novi, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "novus",
+      "gen.sg.masc": "novi",
+      "dat.sg.masc": "novo",
+      "gen.sg.fem": "novae",
+      "dat.sg.fem": "novae",
+      "nom.sg.neut": "novum",
+      "gen.sg.neut": "novi",
+      "dat.sg.neut": "novo",
+      "acc.sg.neut": "novum",
+      "acc.sg.masc": "novum",
+      "abl.sg.masc": "novo",
+      "nom.pl.masc": "novi",
+      "gen.pl.masc": "novorum",
+      "acc.pl.masc": "novos",
+      "nom.sg.fem": "nova",
+      "acc.sg.fem": "novam",
+      "abl.sg.fem": "nova",
+      "nom.pl.fem": "novae",
+      "gen.pl.fem": "novarum",
+      "acc.pl.fem": "novas",
+      "abl.sg.neut": "novo",
+      "nom.pl.neut": "nova",
+      "gen.pl.neut": "novorum",
+      "acc.pl.neut": "nova"
+    }
+  }
+}

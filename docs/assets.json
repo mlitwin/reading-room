@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T04:08:59.783Z",
+  "generated_at": "2026-06-13T16:47:09.219Z",
   "files": [
     {
       "path": "assets/cards.js",
@@ -513,7 +513,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "f35516232158bd1abac12fdf6d6dd537e83ab4b5211ed2005f1bbef6836dbdb8",
+      "sha256": "95de45838dc1fb95b2a7718819537e2271fafb3bfce2760186c468bab74fb9f0",
       "size": 21971
     },
     {
@@ -558,8 +558,8 @@
     },
     {
       "path": "ovid-metamorphoses/index.html",
-      "sha256": "1d0fe17cd63fed8adabf85aa766b7731245f1fedfa2ad7df6bbc2fa71cac112f",
-      "size": 2341
+      "sha256": "0e931e239f14ed8a06abd32b4daec8cb590560614f684f3adce7d7a3e1b59c98",
+      "size": 2493
     },
     {
       "path": "ovid-metamorphoses/nav.json",
@@ -573,7 +573,7 @@
     },
     {
       "path": "ovid-metamorphoses/proem.html",
-      "sha256": "c9d478fa3dfe3c1a4f45f837f113b7e994a5e4b8a1c0b34d7139771b6cf18913",
+      "sha256": "cb634673f420b2c5ddf59eb25c2cfb64c85144bdc904c75b387d68e4aa73f39e",
       "size": 84490
     },
     {

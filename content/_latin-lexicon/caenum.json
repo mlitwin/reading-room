@@ -1,0 +1,35 @@
+{
+  "lemma": "caenum",
+  "pos": "noun",
+  "glosses": [
+    "mud, mire, filth, slime, dirt, uncleanness",
+    "(of persons) scum/filth"
+  ],
+  "head": "caenum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "caenum",
+      "gen.sg": "caeni",
+      "acc.sg": "caenum",
+      "dat.sg": "caeno",
+      "abl.sg": "caeno",
+      "gen.pl": "caenorum",
+      "dat.pl": "caenis",
+      "abl.pl": "caenis",
+      "nom.pl": "caena",
+      "acc.pl": "caena"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "lemma": "limus",
+  "pos": "noun",
+  "glosses": [
+    "apron crossed with purple, worn by attendants at sacrifice/by magistrates"
+  ],
+  "head": "limus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "limus",
+      "gen.sg": "limi",
+      "dat.sg": "limo",
+      "abl.sg": "limo",
+      "acc.sg": "limum",
+      "nom.pl": "limi",
+      "gen.pl": "limorum",
+      "dat.pl": "limis",
+      "abl.pl": "limis",
+      "acc.pl": "limos"
+    }
+  }
+}

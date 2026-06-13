@@ -1,0 +1,39 @@
+{
+  "lemma": "aqua",
+  "pos": "noun",
+  "glosses": [
+    "water",
+    "sea, lake",
+    "river, stream",
+    "rain, rainfall (pl.), rainwater",
+    "spa",
+    "urine"
+  ],
+  "head": "aqua, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aqua",
+      "gen.sg": "aquae",
+      "abl.sg": "aqua",
+      "acc.sg": "aquam",
+      "dat.sg": "aquae",
+      "nom.pl": "aquae",
+      "gen.pl": "aquarum",
+      "dat.pl": "aquis",
+      "abl.pl": "aquis",
+      "acc.pl": "aquas"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "lemma": "moror",
+  "pos": "verb",
+  "glosses": [
+    "delay",
+    "stay, stay behind",
+    "devote attention to"
+  ],
+  "head": "moror, morare, -i, moratum",
+  "principal_parts": [
+    "moror",
+    "morare",
+    "-i",
+    "moratum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "moro",
+      "2sg.pres.ind.act": "moras",
+      "3sg.pres.ind.act": "morat",
+      "1pl.pres.ind.act": "moramus",
+      "2pl.pres.ind.act": "moratis",
+      "3pl.pres.ind.act": "morant",
+      "2sg.pres.imp.act": "mora",
+      "2pl.pres.imp.act": "morate"
+    }
+  }
+}

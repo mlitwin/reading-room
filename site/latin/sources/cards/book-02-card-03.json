@@ -1,0 +1,444 @@
+{
+  "book": 2,
+  "card": 3,
+  "lines": [
+    193,
+    300
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 193,
+      "latin": "Sparsa quoque in vario passim miracula caelo"
+    },
+    {
+      "n": 194,
+      "latin": "vastarumque videt trepidus simulacra ferarum."
+    },
+    {
+      "n": 195,
+      "latin": "Est locus, in geminos ubi bracchia concavat arcus"
+    },
+    {
+      "n": 196,
+      "latin": "scorpius et cauda flexisque utrimque lacertis"
+    },
+    {
+      "n": 197,
+      "latin": "porrigit in spatium signorum membra duorum."
+    },
+    {
+      "n": 198,
+      "latin": "Hunc puer ut nigri madidum sudore veneni"
+    },
+    {
+      "n": 199,
+      "latin": "vulnera curvata minitantem cuspide vidit,"
+    },
+    {
+      "n": 200,
+      "latin": "mentis inops gelida formidine lora remisit."
+    },
+    {
+      "n": 201,
+      "latin": "Quae postquam summum tetigere iacentia tergum,"
+    },
+    {
+      "n": 202,
+      "latin": "exspatiantur equi, nulloque inhibente per auras"
+    },
+    {
+      "n": 203,
+      "latin": "ignotae regionis eunt, quaque impetus egit,"
+    },
+    {
+      "n": 204,
+      "latin": "hac sine lege ruunt altoque sub aethere fixis"
+    },
+    {
+      "n": 205,
+      "latin": "incursant stellis rapiuntque per avia currum."
+    },
+    {
+      "n": 206,
+      "latin": "Et modo summa petunt, modo per declive viasque"
+    },
+    {
+      "n": 207,
+      "latin": "praecipites spatio terrae propiore feruntur."
+    },
+    {
+      "n": 208,
+      "latin": "Inferiusque suis fraternos currere Luna"
+    },
+    {
+      "n": 209,
+      "latin": "admiratur equos, ambustaque nubila fumant;"
+    },
+    {
+      "n": 210,
+      "latin": "corripitur flammis ut quaeque altissima, tellus"
+    },
+    {
+      "n": 211,
+      "latin": "fissaque agit rimas et sucis aret ademptis."
+    },
+    {
+      "n": 212,
+      "latin": "Pabula canescunt, cum frondibus uritur arbor,"
+    },
+    {
+      "n": 213,
+      "latin": "materiamque suo praebet seges arida damno."
+    },
+    {
+      "n": 214,
+      "latin": "Parva queror: magnae pereunt cum moenibus urbes,"
+    },
+    {
+      "n": 215,
+      "latin": "cumque suis totas populis incendia gentes"
+    },
+    {
+      "n": 216,
+      "latin": "in cinerem vertunt. Silvae cum montibus ardent,"
+    },
+    {
+      "n": 217,
+      "latin": "ardet Athos Taurusque Cilix et Tmolus et Oete"
+    },
+    {
+      "n": 218,
+      "latin": "et tum sicca, prius creberrima fontibus, Ide,"
+    },
+    {
+      "n": 219,
+      "latin": "virgineusque Helicon et nondum Oeagrius Haemus;"
+    },
+    {
+      "n": 220,
+      "latin": "ardet in inmensum geminatis ignibus Aetna"
+    },
+    {
+      "n": 221,
+      "latin": "Parnasusque biceps et Eryx et Cynthus et Othrys,"
+    },
+    {
+      "n": 222,
+      "latin": "et tandem nivibus Rhodope caritura, Mimasque"
+    },
+    {
+      "n": 223,
+      "latin": "Dindymaque et Mycale natusque ad sacra Cithaeron."
+    },
+    {
+      "n": 224,
+      "latin": "Nec prosunt Scythiae sua frigora: Caucasus ardet"
+    },
+    {
+      "n": 225,
+      "latin": "Ossaque cum Pindo maiorque ambobus Olympus"
+    },
+    {
+      "n": 226,
+      "latin": "aeriaeque Alpes et nubifer Appenninus."
+    },
+    {
+      "n": 227,
+      "latin": "Tum vero Phaethon cunctis e partibus orbem"
+    },
+    {
+      "n": 228,
+      "latin": "adspicit accensum nec tantos sustinet aestus,"
+    },
+    {
+      "n": 229,
+      "latin": "ferventesque auras velut e fornace profunda"
+    },
+    {
+      "n": 230,
+      "latin": "ore trahit currusque suos candescere sentit;"
+    },
+    {
+      "n": 231,
+      "latin": "et neque iam cineres eiectatamque favillam"
+    },
+    {
+      "n": 232,
+      "latin": "ferre potest calidoque involvitur undique fumo,"
+    },
+    {
+      "n": 233,
+      "latin": "quoque eat, aut ubi sit, picea caligine tectus"
+    },
+    {
+      "n": 234,
+      "latin": "nescit et arbitrio volucrum raptatur equorum."
+    },
+    {
+      "n": 235,
+      "latin": "Sanguine tum credunt in corpora summa vocato"
+    },
+    {
+      "n": 236,
+      "latin": "Aethiopum populos nigrum traxisse colorem."
+    },
+    {
+      "n": 237,
+      "latin": "Tum facta est Libye raptis umoribus aestu"
+    },
+    {
+      "n": 238,
+      "latin": "arida, tum nymphae passis fontesque lacusque"
+    },
+    {
+      "n": 239,
+      "latin": "deflevere comis: quaerit Boeotia Dircen,"
+    },
+    {
+      "n": 240,
+      "latin": "Argos Amymonen, Ephyre Pirenidas undas."
+    },
+    {
+      "n": 241,
+      "latin": "Nec sortita loco distantes flumina ripas"
+    },
+    {
+      "n": 242,
+      "latin": "tuta manent: mediis Tanais fumavit in undis"
+    },
+    {
+      "n": 243,
+      "latin": "Peneusque senex Teuthranteusque Caicus"
+    },
+    {
+      "n": 244,
+      "latin": "et celer Ismenos cum Phegiaco Erymantho"
+    },
+    {
+      "n": 245,
+      "latin": "arsurusque iterum Xanthus flavusque Lycormas,"
+    },
+    {
+      "n": 246,
+      "latin": "quique recurvatis ludit Maeandrus in undis."
+    },
+    {
+      "n": 247,
+      "latin": "Mygdoniusque Melas et Taenarius Eurotas."
+    },
+    {
+      "n": 248,
+      "latin": "Arsit et Euphrates Babylonius, arsit Orontes"
+    },
+    {
+      "n": 249,
+      "latin": "Thermodonque citus Gangesque et Phasis et Hister."
+    },
+    {
+      "n": 250,
+      "latin": "Aestuat Alpheus, ripae Spercheides ardent,"
+    },
+    {
+      "n": 251,
+      "latin": "quodque suo Tagus amne vehit, fluit ignibus aurum,"
+    },
+    {
+      "n": 252,
+      "latin": "et quae Maeonias celebrabant carmine ripas"
+    },
+    {
+      "n": 253,
+      "latin": "flumineae volucres, medio caluere Caystro."
+    },
+    {
+      "n": 254,
+      "latin": "Nilus in extremum fugit perterritus orbem"
+    },
+    {
+      "n": 255,
+      "latin": "occuluitque caput, quod adhuc latet: ostia septem"
+    },
+    {
+      "n": 256,
+      "latin": "pulverulenta vacant, septem sine flumine valles."
+    },
+    {
+      "n": 257,
+      "latin": "Fors eadem Ismarios Hebrum cum Strymone siccat"
+    },
+    {
+      "n": 258,
+      "latin": "Hesperiosque amnes Rhenum Rhodanumque Padumque,"
+    },
+    {
+      "n": 259,
+      "latin": "cuique fuit rerum promissa potentia, Thybrin."
+    },
+    {
+      "n": 260,
+      "latin": "Dissilit omne solum, penetratque in Tartara rimis"
+    },
+    {
+      "n": 261,
+      "latin": "lumen et infernum terret cum coniuge regem."
+    },
+    {
+      "n": 262,
+      "latin": "Et mare contrahitur, siccaeque est campus harenae"
+    },
+    {
+      "n": 263,
+      "latin": "quod modo pontus erat: quosque altum texerat aequor,"
+    },
+    {
+      "n": 264,
+      "latin": "exsistunt montes et sparsas Cycladas augent."
+    },
+    {
+      "n": 265,
+      "latin": "Ima petunt pisces, nec se super aequora curvi"
+    },
+    {
+      "n": 266,
+      "latin": "tollere consuetas audent delphines in auras;"
+    },
+    {
+      "n": 267,
+      "latin": "corpora phocarum summo resupina profundo"
+    },
+    {
+      "n": 268,
+      "latin": "exanimata natant. Ipsum quoque Nerea fama est"
+    },
+    {
+      "n": 269,
+      "latin": "Doridaque et natas tepidis latuisse sub antris."
+    },
+    {
+      "n": 270,
+      "latin": "Ter Neptunus aquis cum torvo bracchia vultu"
+    },
+    {
+      "n": 271,
+      "latin": "exserere ausus erat, ter non tulit aeris ignes."
+    },
+    {
+      "n": 272,
+      "latin": "Alma tamen Tellus, ut erat circumdata ponto,"
+    },
+    {
+      "n": 273,
+      "latin": "inter aquas pelagi contractosque undique fontes,"
+    },
+    {
+      "n": 274,
+      "latin": "qui se condiderant in opacae viscera matris,"
+    },
+    {
+      "n": 275,
+      "latin": "sustulit oppressos collo tenus arida vultus"
+    },
+    {
+      "n": 276,
+      "latin": "opposuitque manum fronti magnoque tremore"
+    },
+    {
+      "n": 277,
+      "latin": "omnia concutiens paulum subsedit et infra"
+    },
+    {
+      "n": 278,
+      "latin": "quam solet esse fuit, siccaque ita voce locuta est:"
+    },
+    {
+      "n": 279,
+      "latin": "“Si placet hoc, meruique, quid o tua fulmina cessant,"
+    },
+    {
+      "n": 280,
+      "latin": "summe deum? liceat periturae viribus ignis"
+    },
+    {
+      "n": 281,
+      "latin": "igne perire tuo clademque auctore levare."
+    },
+    {
+      "n": 282,
+      "latin": "Vix equidem fauces haec ipsa in verba resolvo”"
+    },
+    {
+      "n": 283,
+      "latin": "(presserat ora vapor): “tostos en adspice crines"
+    },
+    {
+      "n": 284,
+      "latin": "inque oculis tantum, tantum super ora favillae."
+    },
+    {
+      "n": 285,
+      "latin": "Hosne mihi fructus, hunc fertilitatis honorem"
+    },
+    {
+      "n": 286,
+      "latin": "officiique refers, quod adunci vulnera aratri"
+    },
+    {
+      "n": 287,
+      "latin": "rastrorumque fero totoque exerceor anno,"
+    },
+    {
+      "n": 288,
+      "latin": "quod pecori frondes, alimentaque mitia, fruges,"
+    },
+    {
+      "n": 289,
+      "latin": "humano generi, vobis quoque tura ministro?"
+    },
+    {
+      "n": 290,
+      "latin": "Sed tamen exitium fac me meruisse: quid undae,"
+    },
+    {
+      "n": 291,
+      "latin": "quid meruit frater? cur illi tradita sorte"
+    },
+    {
+      "n": 292,
+      "latin": "aequora decrescunt et ab aethere longius absunt?"
+    },
+    {
+      "n": 293,
+      "latin": "Quodsi nec fratris nec te mea gratia tangit,"
+    },
+    {
+      "n": 294,
+      "latin": "at caeli miserere tui. Circumspice utrumque,"
+    },
+    {
+      "n": 295,
+      "latin": "fumat uterque polus. Quos si vitiaverit ignis,"
+    },
+    {
+      "n": 296,
+      "latin": "atria vestra ruent. Atlas en ipse laborat"
+    },
+    {
+      "n": 297,
+      "latin": "vixque suis umeris candentem sustinet axem."
+    },
+    {
+      "n": 298,
+      "latin": "Si freta, si terrae pereunt, si regia caeli,"
+    },
+    {
+      "n": 299,
+      "latin": "in chaos antiquum confundimur. Eripe flammis,"
+    },
+    {
+      "n": 300,
+      "latin": "siquid adhuc superest, et rerum consule summae.”"
+    }
+  ]
+}

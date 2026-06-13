@@ -1,0 +1,38 @@
+{
+  "lemma": "manus",
+  "pos": "noun",
+  "glosses": [
+    "hand, fist",
+    "team",
+    "gang, band of soldiers",
+    "handwriting",
+    "(elephant's) trunk"
+  ],
+  "head": "manus, -us, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "manus",
+      "gen.sg": "manus",
+      "dat.sg": "manui",
+      "acc.sg": "manum",
+      "nom.pl": "manus",
+      "acc.pl": "manus",
+      "abl.sg": "manu",
+      "gen.pl": "manuum",
+      "dat.pl": "manibus",
+      "abl.pl": "manibus"
+    }
+  }
+}

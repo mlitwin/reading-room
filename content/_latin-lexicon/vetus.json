@@ -1,0 +1,34 @@
+{
+  "lemma": "vetus",
+  "pos": "noun",
+  "glosses": [
+    "ancients (pl.), men of old, forefathers"
+  ],
+  "head": "vetus, -is, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "veterem",
+      "gen.pl": "veterum",
+      "acc.pl": "veteris",
+      "nom.sg": "vetus",
+      "gen.sg": "veteris",
+      "dat.sg": "veteri",
+      "abl.sg": "vetere",
+      "nom.pl": "veteres",
+      "dat.pl": "veteribus",
+      "abl.pl": "veteribus"
+    }
+  }
+}

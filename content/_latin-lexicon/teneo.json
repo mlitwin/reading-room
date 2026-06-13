@@ -1,0 +1,45 @@
+{
+  "lemma": "teneo",
+  "pos": "verb",
+  "glosses": [
+    "hold, keep",
+    "comprehend",
+    "possess",
+    "master",
+    "preserve",
+    "[tenere memoria => remember]"
+  ],
+  "head": "teneo, tenere, tenui, tentum",
+  "principal_parts": [
+    "teneo",
+    "tenere",
+    "tenui",
+    "tentum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "pres.imp.act"
+    ],
+    "cells": {
+      "1sg.pres.ind.act": "teneo",
+      "2sg.pres.ind.act": "tenes",
+      "3sg.pres.ind.act": "tenet",
+      "1pl.pres.ind.act": "tenemus",
+      "2pl.pres.ind.act": "tenetis",
+      "3pl.pres.ind.act": "tenent",
+      "2sg.pres.imp.act": "tene",
+      "2pl.pres.imp.act": "tenete"
+    }
+  }
+}

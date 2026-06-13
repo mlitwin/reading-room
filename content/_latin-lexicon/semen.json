@@ -1,0 +1,34 @@
+{
+  "lemma": "semen",
+  "pos": "noun",
+  "glosses": [
+    "seed"
+  ],
+  "head": "semen, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "semine",
+      "acc.sg": "semen",
+      "nom.pl": "semina",
+      "gen.pl": "seminum",
+      "acc.pl": "semina",
+      "nom.sg": "semen",
+      "gen.sg": "seminis",
+      "dat.sg": "semini",
+      "dat.pl": "seminibus",
+      "abl.pl": "seminibus"
+    }
+  }
+}

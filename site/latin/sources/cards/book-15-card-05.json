@@ -1,0 +1,452 @@
+{
+  "book": 15,
+  "card": 5,
+  "lines": [
+    335,
+    449
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 335,
+      "latin": "Sic alias aliasque lacus et flumina vires"
+    },
+    {
+      "n": 336,
+      "latin": "concipiunt, tempusque fuit, quo navit in undis,"
+    },
+    {
+      "n": 337,
+      "latin": "nunc sedet Ortygie. Timuit concursibus Argo"
+    },
+    {
+      "n": 338,
+      "latin": "undarum sparsas Symplegadas elisarum,"
+    },
+    {
+      "n": 339,
+      "latin": "quae nunc inmotae perstant ventisque resistunt."
+    },
+    {
+      "n": 340,
+      "latin": "Nec, quae sulphureis ardet fornacibus, Aetne"
+    },
+    {
+      "n": 341,
+      "latin": "ignea semper erit, neque enim fuit ignea semper."
+    },
+    {
+      "n": 342,
+      "latin": "Nam sive est animal tellus et vivit habetque"
+    },
+    {
+      "n": 343,
+      "latin": "spiramenta locis flammam exhalantia multis,"
+    },
+    {
+      "n": 344,
+      "latin": "spirandi mutare vias, quotiensque movetur,"
+    },
+    {
+      "n": 345,
+      "latin": "has finire potest, illas aperire cavernas;"
+    },
+    {
+      "n": 346,
+      "latin": "sive leves imis venti cohibentur in antris"
+    },
+    {
+      "n": 347,
+      "latin": "saxaque cum saxis et habentem semina flammae"
+    },
+    {
+      "n": 348,
+      "latin": "materiam iactant, ea concipit ictibus ignem,"
+    },
+    {
+      "n": 349,
+      "latin": "antra relinquentur sedatis frigida ventis;"
+    },
+    {
+      "n": 350,
+      "latin": "sive bitumineae rapiunt incendia vires"
+    },
+    {
+      "n": 351,
+      "latin": "luteave exiguis ardescunt sulphura fumis:"
+    },
+    {
+      "n": 352,
+      "latin": "nempe ubi terra cibos alimentaque pinguia flammae"
+    },
+    {
+      "n": 353,
+      "latin": "non dabit absumptis per longum viribus aevum"
+    },
+    {
+      "n": 354,
+      "latin": "naturaeque suum nutrimen deerit edaci,"
+    },
+    {
+      "n": 355,
+      "latin": "non feret illa famem desertaque deseret ignis."
+    },
+    {
+      "n": 356,
+      "latin": "Esse viros fama est in Hyperborea Pallene,"
+    },
+    {
+      "n": 357,
+      "latin": "qui soleant levibus velari corpora plumis,"
+    },
+    {
+      "n": 358,
+      "latin": "olim Tritoniacam noviens subiere paludem."
+    },
+    {
+      "n": 359,
+      "latin": "Haud equidem credo: sparsae quoque membra venenis"
+    },
+    {
+      "n": 360,
+      "latin": "exercere artes Scythides memorantur easdem."
+    },
+    {
+      "n": 361,
+      "latin": "Siqua fides rebus tamen est addenda probatis,"
+    },
+    {
+      "n": 362,
+      "latin": "nonne vides, quaecumque mora fluidoque calore"
+    },
+    {
+      "n": 363,
+      "latin": "corpora tabescunt, in parva animalia verti?"
+    },
+    {
+      "n": 364,
+      "latin": "I quoque, delectos mactatos obrue tauros"
+    },
+    {
+      "n": 365,
+      "latin": "(cognita res usu) de putri viscere passim"
+    },
+    {
+      "n": 366,
+      "latin": "florilegae nascuntur apes, quae more parentum"
+    },
+    {
+      "n": 367,
+      "latin": "rura colunt operique favent in spemque laborant;"
+    },
+    {
+      "n": 368,
+      "latin": "pressus humo bellator equus crabronis origo est;"
+    },
+    {
+      "n": 369,
+      "latin": "concava litoreo si demas bracchia cancro,"
+    },
+    {
+      "n": 370,
+      "latin": "cetera supponas terrae, de parte sepulta"
+    },
+    {
+      "n": 371,
+      "latin": "scorpius exibit caudaque minabitur unca;"
+    },
+    {
+      "n": 372,
+      "latin": "quaeque solent canis frondes intexere filis"
+    },
+    {
+      "n": 373,
+      "latin": "agrestes tineae (res observata colonis)"
+    },
+    {
+      "n": 374,
+      "latin": "ferali mutant cum papilione figuram."
+    },
+    {
+      "n": 375,
+      "latin": "Semina limus habet virides generantia ranas,"
+    },
+    {
+      "n": 376,
+      "latin": "et generat truncas pedibus, mox apta natando"
+    },
+    {
+      "n": 377,
+      "latin": "cura dat, utque eadem sint longis saltibus apta,"
+    },
+    {
+      "n": 378,
+      "latin": "posterior superat partes mensura priores."
+    },
+    {
+      "n": 379,
+      "latin": "Nec catulus, partu quem reddidit ursa recenti,"
+    },
+    {
+      "n": 380,
+      "latin": "sed male viva caro est: lambendo mater in artus"
+    },
+    {
+      "n": 381,
+      "latin": "fingit et in formam, quantam capit ipsa, reducit."
+    },
+    {
+      "n": 382,
+      "latin": "Nonne vides, quos cera tegit sexangula, fetus"
+    },
+    {
+      "n": 383,
+      "latin": "melliferarum apium sine membris corpora nasci"
+    },
+    {
+      "n": 384,
+      "latin": "et serosque pedes serasque adsumere pennas?"
+    },
+    {
+      "n": 385,
+      "latin": "Iunonis volucrem, quae cauda sidera portat,"
+    },
+    {
+      "n": 386,
+      "latin": "armigerumque Iovis Cythereiadasque columbas"
+    },
+    {
+      "n": 387,
+      "latin": "et genus omne avium mediis e partibus ovi,"
+    },
+    {
+      "n": 388,
+      "latin": "ni sciret fieri, quis nasci posse putaret?"
+    },
+    {
+      "n": 389,
+      "latin": "Sunt qui, cum clauso putrefacta est spina sepulcro,"
+    },
+    {
+      "n": 390,
+      "latin": "mutari credant humanas angue medullas."
+    },
+    {
+      "n": 391,
+      "latin": "Haec tamen ex aliis generis primordia ducunt:"
+    },
+    {
+      "n": 392,
+      "latin": "una est, quae reparet seque ipsa reseminet, ales."
+    },
+    {
+      "n": 393,
+      "latin": "Assyrii phoenica vocant; non fruge neque herbis,"
+    },
+    {
+      "n": 394,
+      "latin": "sed turis lacrimis et suco vivit amomi."
+    },
+    {
+      "n": 395,
+      "latin": "Haec ubi quinque suae complevit saecula vitae,"
+    },
+    {
+      "n": 396,
+      "latin": "ilicis in ramis tremulaeque cacumine palmae"
+    },
+    {
+      "n": 397,
+      "latin": "unguibus et puro nidum sibi construit ore."
+    },
+    {
+      "n": 398,
+      "latin": "Quo simul ac casias et nardi lenis aristas"
+    },
+    {
+      "n": 399,
+      "latin": "quassaque cum fulva substravit cinnama murra,"
+    },
+    {
+      "n": 400,
+      "latin": "se super imponit finitque in odoribus aevum."
+    },
+    {
+      "n": 401,
+      "latin": "Inde ferunt, totidem qui vivere debeat annos,"
+    },
+    {
+      "n": 402,
+      "latin": "corpore de patrio parvum phoenica renasci."
+    },
+    {
+      "n": 403,
+      "latin": "Cum dedit huic aetas vires, onerique ferendo est,"
+    },
+    {
+      "n": 404,
+      "latin": "ponderibus nidi ramos levat arboris altae"
+    },
+    {
+      "n": 405,
+      "latin": "fertque pius cunasque suas patriumque sepulcrum,"
+    },
+    {
+      "n": 406,
+      "latin": "perque leves auras Hyperionis urbe potitus"
+    },
+    {
+      "n": 407,
+      "latin": "ante fores sacras Hyperionis aede reponit."
+    },
+    {
+      "n": 408,
+      "latin": "Si tamen est aliquid mirae novitatis in istis,"
+    },
+    {
+      "n": 409,
+      "latin": "alternare vices et quae modo femina tergo"
+    },
+    {
+      "n": 410,
+      "latin": "passa marem est, nunc esse marem miremur hyaenam;"
+    },
+    {
+      "n": 411,
+      "latin": "id quoque, quod ventis animal nutritur et aura,"
+    },
+    {
+      "n": 412,
+      "latin": "protinus adsimulat, tetigit quoscumque colores."
+    },
+    {
+      "n": 413,
+      "latin": "Victa racemifero lyncas dedit India Baccho:"
+    },
+    {
+      "n": 414,
+      "latin": "e quibus, ut memorant, quidquid vesica remisit,"
+    },
+    {
+      "n": 415,
+      "latin": "vertitur in lapides et congelat aere tacto."
+    },
+    {
+      "n": 416,
+      "latin": "Sic et curalium quo primum contigit auras"
+    },
+    {
+      "n": 417,
+      "latin": "tempore, durescit: mollis fuit herba sub undis."
+    },
+    {
+      "n": 418,
+      "latin": "Desinet ante dies et in alto Phoebus anhelos"
+    },
+    {
+      "n": 419,
+      "latin": "aequore tinget equos, quam consequar omnia verbis"
+    },
+    {
+      "n": 420,
+      "latin": "in species translata novas: sic tempora verti"
+    },
+    {
+      "n": 421,
+      "latin": "cernimus atque illas adsumere robora gentes,"
+    },
+    {
+      "n": 422,
+      "latin": "concidere has. Sic magna fuit censuque virisque"
+    },
+    {
+      "n": 423,
+      "latin": "perque decem potuit tantum dare sanguinis annos,"
+    },
+    {
+      "n": 424,
+      "latin": "nunc humilis veteres tantummodo Troia ruinas"
+    },
+    {
+      "n": 425,
+      "latin": "et pro divitiis tumulos ostendit avorum."
+    },
+    {
+      "n": 431,
+      "latin": "Nunc quoque Dardaniam fama est consurgere Romam,"
+    },
+    {
+      "n": 432,
+      "latin": "Appenninigenae quae proxima Thybridis undis"
+    },
+    {
+      "n": 433,
+      "latin": "mole sub ingenti rerum fundamina ponit:"
+    },
+    {
+      "n": 434,
+      "latin": "haec igitur formam crescendo mutat et olim"
+    },
+    {
+      "n": 435,
+      "latin": "immensi caput orbis erit. Sic dicere vates"
+    },
+    {
+      "n": 436,
+      "latin": "faticinasque ferunt sortes quantumque recordor,"
+    },
+    {
+      "n": 437,
+      "latin": "dixerat Aeneae, cum res Troiana labaret,"
+    },
+    {
+      "n": 438,
+      "latin": "Priamides Helenus flenti dubioque salutis:"
+    },
+    {
+      "n": 439,
+      "latin": "“Nate dea, si nota satis praesagia nostrae"
+    },
+    {
+      "n": 440,
+      "latin": "mentis habes, non tota cadet te sospite Troia!"
+    },
+    {
+      "n": 441,
+      "latin": "Flamma tibi ferrumque dabunt iter: ibis et una"
+    },
+    {
+      "n": 442,
+      "latin": "Pergama rapta feres, donec Troiaeque tibique"
+    },
+    {
+      "n": 443,
+      "latin": "externum patrio contingat amicius arvum."
+    },
+    {
+      "n": 444,
+      "latin": "Urbem etiam cerno Phrygios debere nepotes,"
+    },
+    {
+      "n": 445,
+      "latin": "quanta nec est nec erit nec visa prioribus annis."
+    },
+    {
+      "n": 446,
+      "latin": "Hanc alii proceres per saecula longa potentem,"
+    },
+    {
+      "n": 447,
+      "latin": "sed dominam rerum de sanguine natus Iuli"
+    },
+    {
+      "n": 448,
+      "latin": "efficiet; quo cum tellus erit usa, fruentur"
+    },
+    {
+      "n": 449,
+      "latin": "aetheriae sedes, caelumque erit exitus illi.”"
+    }
+  ]
+}

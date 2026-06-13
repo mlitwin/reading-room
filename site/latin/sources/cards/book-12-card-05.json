@@ -1,0 +1,464 @@
+{
+  "book": 12,
+  "card": 5,
+  "lines": [
+    316,
+    428
+  ],
+  "title_latin": null,
+  "title_english": null,
+  "text": [
+    {
+      "n": 316,
+      "latin": "In tanto fremitu cunctis sine fine iacebat"
+    },
+    {
+      "n": 317,
+      "latin": "sopitus venis et inexperrectus Aphidas"
+    },
+    {
+      "n": 318,
+      "latin": "languentique manu carchesia mixta tenebat,"
+    },
+    {
+      "n": 319,
+      "latin": "fusus in Ossaeae villosis pellibus ursae."
+    },
+    {
+      "n": 320,
+      "latin": "Quem procul ut vidit frustra nulla arma moventem,"
+    },
+    {
+      "n": 321,
+      "latin": "inserit amento digitos “miscenda” que dixit"
+    },
+    {
+      "n": 322,
+      "latin": "“cum Styge vina bibes!” Phorbas; nec plura moratus"
+    },
+    {
+      "n": 323,
+      "latin": "in iuvenem torsit iaculum, ferrataque collo"
+    },
+    {
+      "n": 324,
+      "latin": "fraxinus, ut casu iacuit resupinus, adacta est."
+    },
+    {
+      "n": 325,
+      "latin": "Mors caruit sensu, plenoque e gutture fluxit"
+    },
+    {
+      "n": 326,
+      "latin": "inque toros inque ipsa niger carchesia sanguis."
+    },
+    {
+      "n": 327,
+      "latin": "Vidi ego Petraeum conantem tollere terra"
+    },
+    {
+      "n": 328,
+      "latin": "glandiferam quercum; quam dum conplexibus ambit"
+    },
+    {
+      "n": 329,
+      "latin": "et quatit huc illuc labefactaque robora iactat,"
+    },
+    {
+      "n": 330,
+      "latin": "lancea Pirithoi costis inmissa Petraei"
+    },
+    {
+      "n": 331,
+      "latin": "pectora cum duro luctantia robore fixit."
+    },
+    {
+      "n": 332,
+      "latin": "Pirithoi cecidisse Lycum virtute ferebant,"
+    },
+    {
+      "n": 333,
+      "latin": "Pirithoi virtute Chromin. Sed uterque minorem"
+    },
+    {
+      "n": 334,
+      "latin": "victori titulum quam Dictys Helopsque dederunt:"
+    },
+    {
+      "n": 335,
+      "latin": "fixus Helops iaculo, quod pervia tempora fecit"
+    },
+    {
+      "n": 336,
+      "latin": "et missum a dextra laevam penetravit ad aurem;"
+    },
+    {
+      "n": 337,
+      "latin": "Dictys, ab ancipiti delapsus acumine montis,"
+    },
+    {
+      "n": 338,
+      "latin": "dum fugit instantem trepidans Ixione natum,"
+    },
+    {
+      "n": 339,
+      "latin": "decidit in praeceps et pondere corporis ornum"
+    },
+    {
+      "n": 340,
+      "latin": "ingentem fregit suaque induit ilia fractae."
+    },
+    {
+      "n": 341,
+      "latin": "Victor adest Aphareus saxumque e monte revulsum"
+    },
+    {
+      "n": 342,
+      "latin": "mittere conatur: mittentem stipite querno"
+    },
+    {
+      "n": 343,
+      "latin": "occupat Aegides cubitique ingentia frangit"
+    },
+    {
+      "n": 344,
+      "latin": "ossa; nec ulterius dare corpus inutile leto"
+    },
+    {
+      "n": 345,
+      "latin": "aut vacat aut curat tergoque Bienoris alti"
+    },
+    {
+      "n": 346,
+      "latin": "insilit haud solito quemquam portare nisi ipsum,"
+    },
+    {
+      "n": 347,
+      "latin": "opposuitque genu costis prensamque sinistra"
+    },
+    {
+      "n": 348,
+      "latin": "caesariem retinens vultum minitantiaque ora"
+    },
+    {
+      "n": 349,
+      "latin": "robore nodoso praeduraque tempora fregit:"
+    },
+    {
+      "n": 350,
+      "latin": "robore Nedymnum iaculatoremque Lycopen"
+    },
+    {
+      "n": 351,
+      "latin": "sternit et inmissa protectum pectora barba"
+    },
+    {
+      "n": 352,
+      "latin": "Hippason et summis exstantem Riphea silvis"
+    },
+    {
+      "n": 353,
+      "latin": "Thereaque, Haemoniis qui prensos montibus ursos"
+    },
+    {
+      "n": 354,
+      "latin": "ferre domum vivos indignantesque solebat."
+    },
+    {
+      "n": 355,
+      "latin": "Haud tulit utentem pugnae successibus ultra"
+    },
+    {
+      "n": 356,
+      "latin": "Thesea Demoleon: solido divellere dumo"
+    },
+    {
+      "n": 357,
+      "latin": "annosam pinum magno molimine temptat;"
+    },
+    {
+      "n": 358,
+      "latin": "quod quia non potuit, praefractam misit in hostem."
+    },
+    {
+      "n": 359,
+      "latin": "Sed procul a telo Theseus veniente recessit"
+    },
+    {
+      "n": 360,
+      "latin": "Pallados admonitu: credi sic ipse volebat."
+    },
+    {
+      "n": 361,
+      "latin": "Non tamen arbor iners cecidit; nam Crantoris alti"
+    },
+    {
+      "n": 362,
+      "latin": "abscidit iugulo pectusque umerumque sinistrum."
+    },
+    {
+      "n": 363,
+      "latin": "Armiger ille tui fuerat genitoris, Achille,"
+    },
+    {
+      "n": 364,
+      "latin": "quem Dolopum rector, bello superatus, Amyntor"
+    },
+    {
+      "n": 365,
+      "latin": "Aeacidae dederat pacis pignusque fidemque."
+    },
+    {
+      "n": 366,
+      "latin": "Hunc procul ut foedo disiectum vulnere Peleus"
+    },
+    {
+      "n": 367,
+      "latin": "vidit, “at inferias, iuvenum gratissime Crantor,"
+    },
+    {
+      "n": 368,
+      "latin": "accipe” ait, validoque in Demoleonta lacerto"
+    },
+    {
+      "n": 369,
+      "latin": "fraxineam misit, mentis quoque viribus, hastam."
+    },
+    {
+      "n": 370,
+      "latin": "Quae laterum cratem praerupit et ossibus haerens"
+    },
+    {
+      "n": 371,
+      "latin": "intremuit. Trahit ille manu sine cuspide lignum"
+    },
+    {
+      "n": 372,
+      "latin": "(id quoque vix sequitur), cuspis pulmone retenta est."
+    },
+    {
+      "n": 373,
+      "latin": "Ipse dolor vires animo dabat: aeger in hostem"
+    },
+    {
+      "n": 374,
+      "latin": "erigitur pedibusque virum proculcat equinis."
+    },
+    {
+      "n": 375,
+      "latin": "Excipit ille ictus galea clipeoque sonanti"
+    },
+    {
+      "n": 376,
+      "latin": "defensatque umeros praetentaque sustinet arma"
+    },
+    {
+      "n": 377,
+      "latin": "perque armos uno duo pectora perforat ictu."
+    },
+    {
+      "n": 378,
+      "latin": "Ante tamen leto dederat Phlegraeon et Hylen"
+    },
+    {
+      "n": 379,
+      "latin": "eminus, Iphinoum conlato Marte Claninque;"
+    },
+    {
+      "n": 380,
+      "latin": "additur his Dorylas, qui tempora tecta gerebat"
+    },
+    {
+      "n": 381,
+      "latin": "pelle lupi saevique vicem praestantia teli"
+    },
+    {
+      "n": 382,
+      "latin": "cornua vara boum multo rubefacta cruore."
+    },
+    {
+      "n": 383,
+      "latin": "Huic ego (nam vires animus dabat) “adspice,” dixi,"
+    },
+    {
+      "n": 384,
+      "latin": "“quantum concedant nostro tua cornua ferro!”"
+    },
+    {
+      "n": 385,
+      "latin": "et iaculum torsi; quod cum vitare nequiret,"
+    },
+    {
+      "n": 386,
+      "latin": "opposuit dextram passurae vulnera fronti:"
+    },
+    {
+      "n": 387,
+      "latin": "adfixa est cum fronte manus. Fit clamor, at illum"
+    },
+    {
+      "n": 388,
+      "latin": "haerentem Peleus et acerbo vulnere victum"
+    },
+    {
+      "n": 389,
+      "latin": "(stabat enim propior) mediam ferit ense sub alvum."
+    },
+    {
+      "n": 390,
+      "latin": "Prosiluit terraque ferox sua viscera traxit"
+    },
+    {
+      "n": 391,
+      "latin": "tractaque calcavit calcataque rupit et illis"
+    },
+    {
+      "n": 392,
+      "latin": "crura quoque inpediit et inani concidit alvo."
+    },
+    {
+      "n": 393,
+      "latin": "Nec te pugnantem tua, Cyllare, forma redemit,"
+    },
+    {
+      "n": 394,
+      "latin": "si modo naturae formam concedimus illi:"
+    },
+    {
+      "n": 395,
+      "latin": "barba erat incipiens, barbae color aureus, aurea"
+    },
+    {
+      "n": 396,
+      "latin": "ex umeris medios coma dependebat in armos."
+    },
+    {
+      "n": 397,
+      "latin": "Gratus in ore vigor; cervix umerique manusque"
+    },
+    {
+      "n": 398,
+      "latin": "pectoraque artificum laudatis proxima signis,"
+    },
+    {
+      "n": 399,
+      "latin": "et quacumque vir est; nec equi mendosa sub illo"
+    },
+    {
+      "n": 400,
+      "latin": "deteriorque viro facies: da colla caputque,"
+    },
+    {
+      "n": 401,
+      "latin": "Castore dignus erit; sic tergum sessile, sic sunt"
+    },
+    {
+      "n": 402,
+      "latin": "pectora celsa toris. Totus pice nigrior atra;"
+    },
+    {
+      "n": 403,
+      "latin": "candida cauda tamen, color est quoque cruribus albus."
+    },
+    {
+      "n": 404,
+      "latin": "Multae illum petiere sua de gente, sed una"
+    },
+    {
+      "n": 405,
+      "latin": "abstulit Hylonome, qua nulla decentior inter"
+    },
+    {
+      "n": 406,
+      "latin": "semiferos altis habitavit femina silvis."
+    },
+    {
+      "n": 407,
+      "latin": "Haec et blanditiis et amando et amare fatendo"
+    },
+    {
+      "n": 408,
+      "latin": "Cyllaron una tenet; cultus quoque, quantus in illis"
+    },
+    {
+      "n": 409,
+      "latin": "esse potest membris, ut sit coma pectine levis,"
+    },
+    {
+      "n": 410,
+      "latin": "ut modo rore maris, modo se violave rosave"
+    },
+    {
+      "n": 411,
+      "latin": "inplicet, interdum candentia lilia gestet,"
+    },
+    {
+      "n": 412,
+      "latin": "bisque die lapsis Pagasaeae vertice silvae"
+    },
+    {
+      "n": 413,
+      "latin": "fontibus ora lavet, bis flumine corpora tingat,"
+    },
+    {
+      "n": 414,
+      "latin": "nec nisi quae deceant electarumque ferarum"
+    },
+    {
+      "n": 415,
+      "latin": "aut umero aut lateri praetendat vellera laevo."
+    },
+    {
+      "n": 416,
+      "latin": "Par amor est illis: errant in montibus una,"
+    },
+    {
+      "n": 417,
+      "latin": "antra simul subeunt; et tum Lapitheia tecta"
+    },
+    {
+      "n": 418,
+      "latin": "intrarant pariter, pariter fera bella gerebant."
+    },
+    {
+      "n": 419,
+      "latin": "Auctor in incerto est: iaculum de parte sinistra"
+    },
+    {
+      "n": 420,
+      "latin": "venit et inferius qua collo pectora subsunt,"
+    },
+    {
+      "n": 421,
+      "latin": "Cyllare, te fixit; parvo cor vulnere laesum"
+    },
+    {
+      "n": 422,
+      "latin": "corpore cum toto post tela educta refrixit."
+    },
+    {
+      "n": 423,
+      "latin": "Protinus Hylonome morientes excipit artus"
+    },
+    {
+      "n": 424,
+      "latin": "inpositaque manu vulnus fovet oraque ad ora"
+    },
+    {
+      "n": 425,
+      "latin": "admovet atque animae fugienti obsistere temptat."
+    },
+    {
+      "n": 426,
+      "latin": "Ut videt exstinctum, dictis, quae clamor ad aures"
+    },
+    {
+      "n": 427,
+      "latin": "arcuit ire meas, telo, quod inhaeserat illi,"
+    },
+    {
+      "n": 428,
+      "latin": "incubuit moriensque suum conplexa maritum est."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "lemma": "imperfectus",
+  "pos": "adj",
+  "glosses": [
+    "unfinished, incomplete",
+    "imperfect",
+    "not complete in every respect",
+    "undigested"
+  ],
+  "head": "imperfectus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "imperfectus",
+      "gen.sg.masc": "imperfecti",
+      "dat.sg.masc": "imperfecto",
+      "gen.sg.fem": "imperfectae",
+      "dat.sg.fem": "imperfectae",
+      "nom.sg.neut": "imperfectum",
+      "gen.sg.neut": "imperfecti",
+      "dat.sg.neut": "imperfecto",
+      "acc.sg.neut": "imperfectum",
+      "acc.sg.masc": "imperfectum",
+      "abl.sg.masc": "imperfecto",
+      "nom.pl.masc": "imperfecti",
+      "gen.pl.masc": "imperfectorum",
+      "acc.pl.masc": "imperfectos",
+      "nom.sg.fem": "imperfecta",
+      "acc.sg.fem": "imperfectam",
+      "abl.sg.fem": "imperfecta",
+      "nom.pl.fem": "imperfectae",
+      "gen.pl.fem": "imperfectarum",
+      "acc.pl.fem": "imperfectas",
+      "abl.sg.neut": "imperfecto",
+      "nom.pl.neut": "imperfecta",
+      "gen.pl.neut": "imperfectorum",
+      "acc.pl.neut": "imperfecta"
+    }
+  }
+}
