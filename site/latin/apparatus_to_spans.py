@@ -8,13 +8,37 @@ import seed
 import trim_primary
 
 
+def infer_pos_from_codes(codes, lexicon_pos, lemma):
+    if any(c == 'prep' for c in codes):
+        return 'prep'
+    if any(c == 'conj' for c in codes):
+        return 'conj'
+    if any(c == 'adv' for c in codes):
+        return 'adv'
+    if any(c == 'interj' for c in codes):
+        return 'interj'
+    if any(c == 'num' for c in codes):
+        return 'num'
+    if any(c.startswith(('1sg.', '2sg.', '3sg.', '1pl.', '2pl.', '3pl.', 'inf.')) for c in codes):
+        return 'verb'
+    if any(c.startswith(('ppp.', 'pap.', 'fap.', 'fpp.')) for c in codes):
+        return 'verb'
+    if any(c.startswith(('nom.', 'gen.', 'dat.', 'acc.', 'abl.', 'voc.', 'loc.')) for c in codes):
+        return lexicon_pos.get(lemma, 'unknown')
+    return lexicon_pos.get(lemma, 'unknown')
+
+
 def choose_candidate(candidates, lexicon_pos):
     if not candidates:
-        return 'unknown:unk'
+        return {'matches': 'unknown:unk', 'pos': 'unknown'}
     if len(candidates) == 1:
         c = candidates[0]
         lemma = seed.LEMMA_ALIAS.get(c['lemma'], c['lemma'])
-        return f'{lemma}:{",".join(c["codes"])}'
+        codes = c["codes"]
+        return {
+            'matches': f'{lemma}:{",".join(codes)}',
+            'pos': infer_pos_from_codes(codes, lexicon_pos, lemma),
+        }
 
     best = None
     best_score = None
@@ -25,7 +49,7 @@ def choose_candidate(candidates, lexicon_pos):
             best_score = score
             best = (idx, lemma, c.get('codes', []))
     _, lemma, codes = best
-    return f'{lemma}:{",".join(codes)}'
+    return {'matches': f'{lemma}:{",".join(codes)}', 'pos': infer_pos_from_codes(codes, lexicon_pos, lemma)}
 
 
 def main():
@@ -42,8 +66,8 @@ def main():
         for token in line.get('tokens', []):
             surface = token['surface']
             trail = token.get('trail', '')
-            matches = choose_candidate(token.get('candidates', []), lexicon_pos)
-            parts.append(f'<span data-matches="{matches}">{surface}</span>{trail}')
+            chosen = choose_candidate(token.get('candidates', []), lexicon_pos)
+            parts.append(f'<span data-matches="{chosen["matches"]}" data-pos="{chosen["pos"]}">{surface}</span>{trail}')
         out_lines.append(' '.join(parts))
 
     print('<div class="latin-passage">')

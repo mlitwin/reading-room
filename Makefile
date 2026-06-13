@@ -1,6 +1,6 @@
 .PHONY: install build serve clean test \
         latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
-        latin-translate-ingest latin-scribe-book1
+        latin-translate-ingest latin-scribe-book1 latin-stanza-editorial latin-normalize-surface
 
 install:
 	cd site/generator && npm install
@@ -67,3 +67,11 @@ latin-translate-ingest:
 
 latin-scribe-book1:
 	@python3 site/latin/scribe_book1_mechanical.py
+
+latin-stanza-editorial:
+	@STANZA_PYTHON=$${STANZA_PYTHON:-python3}; \
+	if [ -z "$(CARD)" ]; then echo "usage: make latin-stanza-editorial CARD=NN [STANZA_PYTHON=/path/to/python]" >&2; exit 1; fi; \
+	$$STANZA_PYTHON site/latin/stanza_editorial.py --card "$(CARD)"
+
+latin-normalize-surface:
+	@python3 site/latin/normalize_piece_surface.py

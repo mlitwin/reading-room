@@ -33,8 +33,8 @@ def spans_for_card(card_key, latin_lines):
     for line in data['lines']:
         parts = []
         for token in line['tokens']:
-            matches = apparatus_to_spans.choose_candidate(token.get('candidates', []), lexicon_pos)
-            parts.append(f'<span data-matches="{matches}">{token["surface"]}</span>{token.get("trail", "")}')
+            chosen = apparatus_to_spans.choose_candidate(token.get('candidates', []), lexicon_pos)
+            parts.append(f'<span data-matches="{chosen["matches"]}" data-pos="{chosen["pos"]}">{token["surface"]}</span>{token.get("trail", "")}')
         out_lines.append(' '.join(parts))
     return "<div class=\"latin-passage\">\n" + "<br>\n".join(out_lines) + "\n</div>"
 
@@ -73,8 +73,6 @@ def main():
         fname = f'{next_num:02d}-book1-card-{card_no:02d}.md'
         next_num += 1
         out_path = OUT_DIR / fname
-        if out_path.exists():
-            continue
 
         spans = spans_for_card(card_key, [line['latin'] for line in lat_card['text']])
         trans = translation_for_card(eng_card)

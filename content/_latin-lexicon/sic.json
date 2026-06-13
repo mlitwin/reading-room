@@ -1,34 +1,10 @@
 {
   "lemma": "sic",
-  "pos": "noun",
+  "pos": "adv",
+  "head": "sic",
   "glosses": [
-    "dagger"
-  ],
-  "head": "sic, -ae, f.",
-  "paradigm": {
-    "type": "noun",
-    "rows": [
-      "nom",
-      "gen",
-      "dat",
-      "acc",
-      "abl"
-    ],
-    "cols": [
-      "sg",
-      "pl"
-    ],
-    "cells": {
-      "nom.sg": "sica",
-      "gen.sg": "sicae",
-      "abl.sg": "sica",
-      "acc.sg": "sicam",
-      "dat.sg": "sicae",
-      "nom.pl": "sicae",
-      "gen.pl": "sicarum",
-      "dat.pl": "sicis",
-      "abl.pl": "sicis",
-      "acc.pl": "sicas"
-    }
-  }
+    "thus",
+    "so",
+    "in this way"
+  ]
 }

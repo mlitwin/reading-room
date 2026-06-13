@@ -4,19 +4,21 @@ import argparse
 import re
 from pathlib import Path
 
-LATIN_SPAN_RE = re.compile(r'data-matches="([^"]+)"')
+LATIN_SPAN_RE = re.compile(r'data-matches="([^"]+)"(?:\s+data-pos="([^"]+)")?')
 
 
 def iter_lemmas(text):
     seen = set()
     for m in LATIN_SPAN_RE.finditer(text):
+        pos = m.group(2) or ''
         for chunk in m.group(1).split(';'):
             lemma = chunk.split(':', 1)[0].strip()
             if not lemma or lemma == '?':
                 continue
-            if lemma not in seen:
-                seen.add(lemma)
-                yield lemma
+            key = (lemma, pos)
+            if key not in seen:
+                seen.add(key)
+                yield lemma, pos
 
 
 def main():
@@ -25,8 +27,11 @@ def main():
     args = ap.parse_args()
 
     text = Path(args.spans_file).read_text(encoding='utf-8')
-    for lemma in sorted(iter_lemmas(text)):
-        print(lemma)
+    for lemma, pos in sorted(iter_lemmas(text)):
+        if pos:
+            print(f'{lemma}\t{pos}')
+        else:
+            print(lemma)
 
 
 if __name__ == '__main__':

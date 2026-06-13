@@ -34,6 +34,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 LEXICON_DIR = REPO_ROOT / 'content' / '_latin-lexicon'
 STAGING_DIR = REPO_ROOT / 'site' / 'latin' / 'staging' / 'lexicon'
+CORRECTIONS_PATH = REPO_ROOT / 'site' / 'latin' / 'lexicon_corrections.json'
 
 WHITAKERS_DATA = Path.home() / 'Dev' / 'github.com' / 'mlitwin' / 'whitakers_words' / 'whitakers_words' / 'data'
 DICTLINE_PATH = WHITAKERS_DATA / 'DICTLINE.GEN'
@@ -144,6 +145,17 @@ VERB_LIKELY_POS_ORDER = ['V', 'N', 'ADJ', 'PRON', 'NUM', 'ADV', 'CONJ', 'PREP', 
 
 POS_TO_CARD = {'N': 'noun', 'ADJ': 'adj', 'V': 'verb', 'PREP': 'prep',
                'CONJ': 'conj', 'ADV': 'adv', 'INTERJ': 'interj', 'PRON': 'pron'}
+POS_HINTS = {
+    'noun': 'N',
+    'adj': 'ADJ',
+    'verb': 'V',
+    'prep': 'PREP',
+    'conj': 'CONJ',
+    'adv': 'ADV',
+    'interj': 'INTERJ',
+    'pron': 'PRON',
+    'num': 'NUM',
+}
 
 GENDER_MAP = {'M': 'm', 'F': 'f', 'N': 'n', 'C': 'c'}
 
@@ -277,6 +289,14 @@ def _form_matches(entry_form, form_filter):
     return score
 
 
+def normalize_pos_hint(morpheus_pos):
+    if not morpheus_pos:
+        return None
+    if morpheus_pos in POS_TO_CARD:
+        return morpheus_pos
+    return POS_HINTS.get(morpheus_pos.lower(), morpheus_pos.upper())
+
+
 def lookup_entry(lemma, morpheus_pos, infl_class, by_stem, entries):
     """Find the best DICTLINE entry for a Morpheus lemma. Returns the entry
     dict, or None if nothing matched."""
@@ -292,12 +312,15 @@ def lookup_entry(lemma, morpheus_pos, infl_class, by_stem, entries):
         if base and base != lemma:
             return lookup_entry(base, morpheus_pos, infl_class, by_stem, entries)
     forced = INFL_CLASS_MAP.get(infl_class)
+    pos_hint = normalize_pos_hint(morpheus_pos)
     if forced:
         pos_options = [forced[0]]
     elif infl_class == 'prep':   pos_options = ['PREP']
     elif infl_class == 'conj':   pos_options = ['CONJ']
     elif infl_class == 'adverb': pos_options = ['ADV']
     elif infl_class == 'interj': pos_options = ['INTERJ']
+    elif pos_hint:
+        pos_options = [pos_hint] + [p for p in DEFAULT_POS_ORDER if p != pos_hint]
     elif re.search(r'(eo|io|or|o)$', lemma):
         pos_options = VERB_LIKELY_POS_ORDER
     else:
@@ -548,7 +571,7 @@ def generate_verb_paradigm(entry, lemma, rules):
 
 # ---------- main ----------------------------------------------------------
 
-LATIN_SPAN_RE = re.compile(r'data-matches="([^"]+)"')
+LATIN_SPAN_RE = re.compile(r'data-matches="([^"]+)"(?:\s+data-pos="([^"]+)")?')
 
 def lemmas_from_piece(path):
     """Extract every lemma referenced in a piece's <span data-matches="..."> tags."""
@@ -556,11 +579,13 @@ def lemmas_from_piece(path):
     out = []
     seen = set()
     for m in LATIN_SPAN_RE.finditer(text):
+        pos = m.group(2) or ''
         for chunk in m.group(1).split(';'):
             lemma = chunk.split(':', 1)[0].strip()
-            if lemma and lemma != '?' and lemma not in seen:
-                seen.add(lemma)
-                out.append(lemma)
+            key = (lemma, pos)
+            if lemma and lemma != '?' and key not in seen:
+                seen.add(key)
+                out.append((lemma, pos))
     return out
 
 
@@ -572,14 +597,35 @@ def already_exists(lemma):
     return None
 
 
-def seed_lemma(lemma, entries, by_stem, rules):
+def load_corrections():
+    if not CORRECTIONS_PATH.exists():
+        return {}
+    with open(CORRECTIONS_PATH, encoding='utf-8') as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise ValueError(f'{CORRECTIONS_PATH} must contain a JSON object')
+    return data
+
+
+def seed_lemma(lemma, morpheus_pos, entries, by_stem, rules, corrections):
     """Look up `lemma` in DICTLINE and emit a skeleton card.
     Returns (status, message)."""
     where = already_exists(lemma)
     if where:
         return 'skip', f'already in {where}'
 
-    entry = lookup_entry(lemma, morpheus_pos='N', infl_class='', by_stem=by_stem, entries=entries)
+    override = corrections.get(lemma)
+    if override:
+        card = dict(override)
+        card.setdefault('lemma', lemma)
+        STAGING_DIR.mkdir(parents=True, exist_ok=True)
+        (STAGING_DIR / f'{lemma}.json').write_text(
+            json.dumps(card, ensure_ascii=False, indent=2) + '\n',
+            encoding='utf-8',
+        )
+        return 'wrote', 'override'
+
+    entry = lookup_entry(lemma, morpheus_pos=morpheus_pos, infl_class='', by_stem=by_stem, entries=entries)
     if not entry:
         return 'miss', 'no DICTLINE match'
 
@@ -619,10 +665,18 @@ def main():
     if not DICTLINE_PATH.exists() or not INFLECTS_PATH.exists():
         sys.exit(f'seed_vocab.py: Whitaker data not found at {WHITAKERS_DATA}')
 
+    corrections = load_corrections()
+
     if args.from_piece:
         lemmas = lemmas_from_piece(args.from_piece)
     else:
-        lemmas = [line.strip() for line in sys.stdin if line.strip()]
+        lemmas = []
+        for line in sys.stdin:
+            line = line.strip()
+            if not line:
+                continue
+            lemma, _, pos = line.partition('\t')
+            lemmas.append((lemma, pos))
 
     if args.limit:
         lemmas = lemmas[:args.limit]
@@ -636,8 +690,8 @@ def main():
 
     counts = {'wrote': 0, 'skip': 0, 'miss': 0}
     misses = []
-    for lemma in lemmas:
-        status, msg = seed_lemma(lemma, entries, by_stem, rules)
+    for lemma, pos in lemmas:
+        status, msg = seed_lemma(lemma, pos, entries, by_stem, rules, corrections)
         counts[status] += 1
         if status == 'miss':
             misses.append(lemma)

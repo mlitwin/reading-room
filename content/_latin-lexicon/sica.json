@@ -1,0 +1,34 @@
+{
+  "lemma": "sica",
+  "pos": "noun",
+  "glosses": [
+    "dagger"
+  ],
+  "head": "sica, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sica",
+      "gen.sg": "sicae",
+      "dat.sg": "sicae",
+      "acc.sg": "sicam",
+      "abl.sg": "sica",
+      "nom.pl": "sicae",
+      "gen.pl": "sicarum",
+      "dat.pl": "sicis",
+      "acc.pl": "sicas",
+      "abl.pl": "sicis"
+    }
+  }
+}

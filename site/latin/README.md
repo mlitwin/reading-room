@@ -36,8 +36,10 @@ card_text.py --card NN-card-NN | build_apparatus.py
 * **`trim_primary.py`** — candidate scoring helpers used by `apparatus_to_spans.py`.
 * **`seed_vocab.py`** — reads lemma names and writes vocabulary skeleton cards to `site/latin/staging/lexicon/`.
 * **`promote_staging.py`** — moves staged cards into `content/_latin-lexicon/` when they do not already exist there.
+* **`lexicon_corrections.json`** — explicit JSON overrides for cases where the mechanical stem lookup picks the wrong lemma/POS.
 * **`scribe_book1_mechanical.py`** — generates first-pass Book 1 piece markdown files from card boundaries, spans, and ingested public-domain translation text.
 * **`audit_latin.py`** — QA gate for unresolved lemmas, card-shape problems, sparse paradigms, and parse/POS mismatches.
+* **`stanza_editorial.py`** — editorial pass helper that compares stanza-la output against current span annotations and lists correction candidates.
 * **`morpheus.sh`** — single entry point for Morpheus invocations. Validates the local build, sets `MORPHLIB`, execs `cruncher -S -L`. All Morpheus calls in the project go through this wrapper.
 
 ## Setup
@@ -73,6 +75,9 @@ make latin-scribe-book1
 
 # Pipeline QA gate
 make latin-audit
+
+# Stanza editorial candidate pass (set STANZA_PYTHON to the venv interpreter)
+make latin-stanza-editorial CARD=07 STANZA_PYTHON=/path/to/stanza-venv/bin/python
 ```
 
 ## Output format

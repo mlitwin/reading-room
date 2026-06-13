@@ -18,6 +18,17 @@ WHITAKERS_PRESENT = (
 )
 
 
+class TestCorrections(unittest.TestCase):
+    def test_corrections_file_is_empty(self):
+        self.assertEqual(seed_vocab.load_corrections(), {})
+
+    def test_lookup_uses_pos_hint_for_sic(self):
+        entries, by_stem = seed_vocab.load_dictline()
+        entry = seed_vocab.lookup_entry('sic', 'adv', '', by_stem, entries)
+        self.assertIsNotNone(entry)
+        self.assertEqual(entry['pos'], 'ADV')
+
+
 @unittest.skipUnless(WHITAKERS_PRESENT, 'Whitaker data files not found')
 class TestDictlineParser(unittest.TestCase):
     @classmethod
