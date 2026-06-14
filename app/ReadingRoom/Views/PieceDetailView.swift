@@ -297,6 +297,19 @@ struct PieceWebView: UIViewRepresentable {
 
     func makeUIView(context: Context) -> WKWebView {
         let userContent = WKUserContentController()
+
+        // fetch() is blocked for file:// URLs in WKWebView. Inject the lexicon
+        // as a JS global so cards.js can skip the fetch entirely on iOS.
+        let lexiconURL = mirrorRoot.appendingPathComponent("assets/lexicon.json")
+        if let lexiconData = try? Data(contentsOf: lexiconURL),
+           let lexiconJSON = String(data: lexiconData, encoding: .utf8) {
+            userContent.addUserScript(WKUserScript(
+                source: "window.__readingRoomLexicon = \(lexiconJSON);",
+                injectionTime: .atDocumentStart,
+                forMainFrameOnly: true
+            ))
+        }
+
         userContent.addUserScript(WKUserScript(
             source: Self.hideChromeJS,
             injectionTime: .atDocumentEnd,

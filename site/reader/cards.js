@@ -194,6 +194,12 @@
 
   function loadLexicon() {
     if (lexiconCache) return Promise.resolve(lexiconCache);
+    // iOS WKWebView injects window.__readingRoomLexicon at document-start to
+    // avoid fetch() against file:// URLs (blocked by WebKit security policy).
+    if (window.__readingRoomLexicon) {
+      lexiconCache = window.__readingRoomLexicon;
+      return Promise.resolve(lexiconCache);
+    }
     if (lexiconLoading) return lexiconLoading;
     var meta = document.querySelector('meta[name="asset-prefix"]');
     var prefix = meta ? meta.content : './';
