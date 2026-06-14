@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T06:35:52.506Z",
+  "generated_at": "2026-06-14T14:42:29.215Z",
   "files": [
     {
       "path": "assets/cards.js",
-      "sha256": "d1d6b444aca83c1e5243cfa7810aba6e996d00b429326c99c3e356136a82fafa",
-      "size": 16545
+      "sha256": "1cb0831b213fbf28f24ebd0366c351f3aa928260c96405d498e31b8f26beb00e",
+      "size": 16841
     },
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -518,7 +518,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "657e7831d5e37c550212a3f042d9c0e03e7a39f13056fd4f3bc07c781e8d6811",
+      "sha256": "fdc4cf55f8adbddbe928b49a1d7e10dfcf34eb51c2130e739474cbb1334b1aaf",
       "size": 26585
     },
     {
@@ -703,8 +703,8 @@
     },
     {
       "path": "ovid-metamorphoses/index.html",
-      "sha256": "d489801fc401aa94eee32611afdd28f0fff0966096c40540e416d03a1fdb569d",
-      "size": 4111
+      "sha256": "1151fc317f1ec400de5714c12883cf1cd077d931c9d2c00e58da61b555dbc26d",
+      "size": 4836
     },
     {
       "path": "ovid-metamorphoses/nav.json",
