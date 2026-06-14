@@ -1,9 +1,12 @@
 {
-  "id": "quisquis_adv",
+  "id": "quisquis_pron",
   "lemma": "quisquis",
-  "pos": "adv",
-  "head": "quisquis",
+  "pos": "pron",
+  "head": "quisquis, quidquid",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "whoever, whatever",
+    "everyone who",
+    "any... whatever"
+  ],
+  "reviewed": false
 }

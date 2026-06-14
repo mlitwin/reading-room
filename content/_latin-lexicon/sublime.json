@@ -1,11 +1,12 @@
 {
-  "id": "sublime_adv",
+  "id": "sublime_adj",
   "lemma": "sublime",
-  "pos": "adv",
+  "pos": "adj",
+  "head": "sublimis, -e",
   "glosses": [
-    "high into the air, on high, up aloft",
-    "in a lofty position"
+    "high, lofty, elevated",
+    "sublime",
+    "airborne"
   ],
-  "reviewed": false,
-  "head": "sublime"
+  "reviewed": false
 }

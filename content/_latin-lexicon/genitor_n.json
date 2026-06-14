@@ -1,0 +1,37 @@
+{
+  "id": "genitor_n",
+  "lemma": "genitor",
+  "pos": "noun",
+  "head": "genitor, genitoris, m.",
+  "glosses": [
+    "father, parent",
+    "creator, begetter",
+    "progenitor"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "genitor",
+      "nom.pl": "genitores",
+      "gen.sg": "genitoris",
+      "gen.pl": "genitorum",
+      "dat.sg": "genitori",
+      "dat.pl": "genitoribus",
+      "acc.sg": "genitorem",
+      "acc.pl": "genitores",
+      "abl.sg": "genitore",
+      "abl.pl": "genitoribus"
+    }
+  }
+}

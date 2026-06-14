@@ -1,9 +1,12 @@
 {
-  "id": "tueor_adv",
+  "id": "tueor_v",
   "lemma": "tueor",
-  "pos": "adv",
-  "head": "tueor",
+  "pos": "verb",
+  "head": "tueor, tueri, tuitus sum",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "watch, look at",
+    "protect, guard",
+    "maintain, keep"
+  ],
+  "reviewed": false
 }

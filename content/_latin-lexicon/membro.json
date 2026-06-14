@@ -1,9 +1,11 @@
 {
-  "id": "membro_adv",
+  "id": "membro_v",
   "lemma": "membro",
-  "pos": "adv",
-  "head": "membro",
+  "pos": "verb",
+  "head": "membro, membrare",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "divide into members/limbs",
+    "articulate, distinguish"
+  ],
+  "reviewed": false
 }

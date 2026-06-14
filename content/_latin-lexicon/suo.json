@@ -1,11 +1,7 @@
 {
-  "id": "suo_pron",
+  "id": "suo_v",
   "lemma": "suo",
-  "pos": "pron",
-  "glosses": [
-    "sew together/up, stitch"
-  ],
-  "reviewed": false,
+  "pos": "verb",
   "head": "suo, suere, sui, sutum",
   "principal_parts": [
     "suo",
@@ -13,28 +9,9 @@
     "sui",
     "sutum"
   ],
-  "paradigm": {
-    "type": "verb",
-    "rows": [
-      "1sg",
-      "2sg",
-      "3sg",
-      "1pl",
-      "2pl",
-      "3pl"
-    ],
-    "cols": [
-      "pres.ind.act",
-      "perf.ind.act",
-      "pres.imp.act"
-    ],
-    "cells": {
-      "2sg.pres.ind.act": "suis",
-      "3sg.pres.ind.act": "suit",
-      "1pl.pres.ind.act": "suimus",
-      "2pl.pres.ind.act": "suitis",
-      "2sg.pres.imp.act": "sue",
-      "2pl.pres.imp.act": "suite"
-    }
-  }
+  "glosses": [
+    "sew, stitch",
+    "sew together, join by sewing"
+  ],
+  "reviewed": false
 }

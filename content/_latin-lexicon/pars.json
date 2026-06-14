@@ -2,12 +2,13 @@
   "id": "pars_n",
   "lemma": "pars",
   "pos": "noun",
+  "head": "pars, partis, f.",
   "glosses": [
-    "pair, set of two",
-    "conjugal pair",
-    "pair of associates/adversaries/contestants"
+    "part, portion, piece",
+    "side, direction",
+    "role, share",
+    "faction, party"
   ],
-  "head": "pars, -is, n.",
   "paradigm": {
     "type": "noun",
     "rows": [
@@ -22,16 +23,16 @@
       "pl"
     ],
     "cells": {
-      "abl.sg": "pare",
-      "acc.sg": "par",
-      "nom.pl": "para",
-      "gen.pl": "parum",
-      "acc.pl": "para",
-      "nom.sg": "par",
-      "gen.sg": "paris",
-      "dat.sg": "pari",
-      "dat.pl": "paribus",
-      "abl.pl": "paribus"
+      "nom.sg": "pars",
+      "nom.pl": "partes",
+      "gen.sg": "partis",
+      "gen.pl": "partum",
+      "dat.sg": "parti",
+      "dat.pl": "partibus",
+      "acc.sg": "partem",
+      "acc.pl": "partes",
+      "abl.sg": "parte",
+      "abl.pl": "partibus"
     }
   }
 }

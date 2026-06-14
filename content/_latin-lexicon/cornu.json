@@ -1,9 +1,13 @@
 {
-  "id": "cornu_adv",
+  "id": "cornu_n",
   "lemma": "cornu",
-  "pos": "adv",
-  "head": "cornu",
+  "pos": "noun",
+  "head": "cornu, -us, n. (4th decl.)",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "horn",
+    "wing (of an army)",
+    "bow (weapon)",
+    "funnel, tip"
+  ],
+  "reviewed": false
 }

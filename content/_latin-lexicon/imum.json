@@ -1,9 +1,11 @@
 {
-  "id": "imum_adv",
+  "id": "imum_adj",
   "lemma": "imum",
-  "pos": "adv",
-  "head": "imum",
+  "pos": "adj",
+  "head": "imus, -a, -um",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "lowest, deepest, bottom of",
+    "innermost, last"
+  ],
+  "reviewed": false
 }

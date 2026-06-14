@@ -1,9 +1,12 @@
 {
-  "id": "radius_adv",
+  "id": "radius_n",
   "lemma": "radius",
-  "pos": "adv",
-  "head": "radius",
+  "pos": "noun",
+  "head": "radius, -i, m.",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "rod, staff, spoke (of wheel)",
+    "ray (of light)",
+    "radius"
+  ],
+  "reviewed": false
 }

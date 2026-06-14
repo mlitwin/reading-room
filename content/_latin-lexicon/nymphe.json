@@ -1,9 +1,11 @@
 {
-  "id": "nymphe_adv",
+  "id": "nymphe_n",
   "lemma": "nymphe",
-  "pos": "adv",
-  "head": "nymphe",
+  "pos": "noun",
+  "head": "nymphe, nymphae, f.",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "nymph, water-nymph",
+    "nature spirit, goddess of woods/waters"
+  ],
+  "reviewed": false
 }

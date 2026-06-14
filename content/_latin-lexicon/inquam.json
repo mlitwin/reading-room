@@ -1,9 +1,11 @@
 {
-  "id": "inquam_adv",
+  "id": "inquam_v",
   "lemma": "inquam",
-  "pos": "adv",
-  "head": "inquam",
+  "pos": "verb",
+  "head": "inquam (defective)",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "say, speak (used in direct speech)",
+    "\"says he\", \"said she\""
+  ],
+  "reviewed": false
 }

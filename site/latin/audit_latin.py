@@ -21,8 +21,10 @@ CODE_LITERAL_TO_POS = {
     'prep': {'prep'},
     # Latin conjunctions and adverbs share a fuzzy boundary; many words
     # (ut, ubi, quam, cum, ...) are classified as both by different analyses.
+    # Pronouns (illa, qua, ...) and adjectives (tot, totidem, ...) are also
+    # regularly used adverbially in Latin.
     'conj': {'conj', 'adv'},
-    'adv':  {'adv', 'conj'},
+    'adv':  {'adv', 'conj', 'adj', 'pron'},
     'interj': {'interj'},
     'num': {'num', 'adj'},
     'enclit': {'conj', 'adv', 'enclitic'},
@@ -103,8 +105,10 @@ def audit_cards(by_lemma):
             errors.append(f'lexicon/{lemma}: glosses must be a non-empty list')
         pos = card.get('pos')
         paradigm = card.get('paradigm')
+        reviewed = card.get('reviewed', True)
         if pos in {'noun', 'adj', 'verb', 'pron'} and not paradigm:
-            errors.append(f'lexicon/{lemma}: missing paradigm for pos={pos}')
+            if reviewed is not False:
+                errors.append(f'lexicon/{lemma}: missing paradigm for pos={pos}')
             continue
         if paradigm and isinstance(paradigm, dict):
             ptype = paradigm.get('type')

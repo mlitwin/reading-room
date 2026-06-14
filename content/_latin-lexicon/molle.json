@@ -1,9 +1,12 @@
 {
-  "id": "molle_adv",
+  "id": "molle_adj",
   "lemma": "molle",
-  "pos": "adv",
-  "head": "molle",
+  "pos": "adj",
+  "head": "mollis, -e",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "soft, pliant, tender",
+    "gentle, mild",
+    "weak, effeminate"
+  ],
+  "reviewed": false
 }

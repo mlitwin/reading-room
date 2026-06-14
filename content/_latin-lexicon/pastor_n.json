@@ -1,0 +1,36 @@
+{
+  "id": "pastor_n",
+  "lemma": "pastor",
+  "pos": "noun",
+  "head": "pastor, pastoris, m.",
+  "glosses": [
+    "shepherd, herdsman",
+    "pastor"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pastor",
+      "nom.pl": "pastores",
+      "gen.sg": "pastoris",
+      "gen.pl": "pastorum",
+      "dat.sg": "pastori",
+      "dat.pl": "pastoribus",
+      "acc.sg": "pastorem",
+      "acc.pl": "pastores",
+      "abl.sg": "pastore",
+      "abl.pl": "pastoribus"
+    }
+  }
+}

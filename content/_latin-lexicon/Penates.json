@@ -1,9 +1,11 @@
 {
-  "id": "Penates_adv",
+  "id": "Penates_n",
   "lemma": "Penates",
-  "pos": "adv",
-  "head": "Penates",
+  "pos": "noun",
+  "head": "Penates, -ium, m. pl.",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "Penates (household/state gods)",
+    "home, dwelling"
+  ],
+  "reviewed": false
 }

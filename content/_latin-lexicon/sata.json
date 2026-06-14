@@ -1,9 +1,12 @@
 {
-  "id": "sata_adv",
+  "id": "sata_adj",
   "lemma": "sata",
-  "pos": "adv",
-  "head": "sata",
+  "pos": "adj",
+  "head": "satus, -a, -um",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "sown, planted",
+    "begotten, born of",
+    "grown, cultivated"
+  ],
+  "reviewed": false
 }

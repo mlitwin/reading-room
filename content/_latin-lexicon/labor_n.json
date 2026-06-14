@@ -1,0 +1,38 @@
+{
+  "id": "labor_n",
+  "lemma": "labor",
+  "pos": "noun",
+  "head": "labor, laboris, m.",
+  "glosses": [
+    "work, toil, effort",
+    "hardship, distress",
+    "task, labor",
+    "suffering, fatigue"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "labor",
+      "nom.pl": "labores",
+      "gen.sg": "laboris",
+      "gen.pl": "laborum",
+      "dat.sg": "labori",
+      "dat.pl": "laboribus",
+      "acc.sg": "laborem",
+      "acc.pl": "labores",
+      "abl.sg": "labore",
+      "abl.pl": "laboribus"
+    }
+  }
+}

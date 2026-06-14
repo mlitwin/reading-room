@@ -1,9 +1,11 @@
 {
-  "id": "humus_adv",
+  "id": "humus_n",
   "lemma": "humus",
-  "pos": "adv",
-  "head": "humus",
+  "pos": "noun",
+  "head": "humus, -i, f.",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "ground, soil, earth",
+    "low ground"
+  ],
+  "reviewed": false
 }

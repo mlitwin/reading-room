@@ -1,9 +1,60 @@
 {
-  "id": "totus_adv",
+  "id": "totus_adj",
   "lemma": "totus",
-  "pos": "adv",
-  "head": "totus",
+  "pos": "adj",
+  "head": "totus, tota, totum",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "whole, entire, all",
+    "complete, total"
+  ],
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "totus",
+      "nom.sg.fem": "tota",
+      "nom.sg.neut": "totum",
+      "gen.sg.masc": "totius",
+      "gen.sg.fem": "totius",
+      "gen.sg.neut": "totius",
+      "dat.sg.masc": "toti",
+      "dat.sg.fem": "toti",
+      "dat.sg.neut": "toti",
+      "acc.sg.masc": "totum",
+      "acc.sg.fem": "totam",
+      "acc.sg.neut": "totum",
+      "abl.sg.masc": "toto",
+      "abl.sg.fem": "tota",
+      "abl.sg.neut": "toto",
+      "nom.pl.masc": "toti",
+      "nom.pl.fem": "totae",
+      "nom.pl.neut": "tota",
+      "gen.pl.masc": "totorum",
+      "gen.pl.fem": "totarum",
+      "gen.pl.neut": "totorum",
+      "dat.pl.masc": "totis",
+      "dat.pl.fem": "totis",
+      "dat.pl.neut": "totis",
+      "acc.pl.masc": "totos",
+      "acc.pl.fem": "totas",
+      "acc.pl.neut": "tota",
+      "abl.pl.masc": "totis",
+      "abl.pl.fem": "totis",
+      "abl.pl.neut": "totis"
+    }
+  }
 }

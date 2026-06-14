@@ -1,9 +1,61 @@
 {
-  "id": "solus_adv",
+  "id": "solus_adj",
   "lemma": "solus",
-  "pos": "adv",
-  "head": "solus",
+  "pos": "adj",
+  "head": "solus, sola, solum",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "alone, only, sole",
+    "single, isolated",
+    "lonely, solitary"
+  ],
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "solus",
+      "nom.sg.fem": "sola",
+      "nom.sg.neut": "solum",
+      "gen.sg.masc": "solius",
+      "gen.sg.fem": "solius",
+      "gen.sg.neut": "solius",
+      "dat.sg.masc": "soli",
+      "dat.sg.fem": "soli",
+      "dat.sg.neut": "soli",
+      "acc.sg.masc": "solum",
+      "acc.sg.fem": "solam",
+      "acc.sg.neut": "solum",
+      "abl.sg.masc": "solo",
+      "abl.sg.fem": "sola",
+      "abl.sg.neut": "solo",
+      "nom.pl.masc": "soli",
+      "nom.pl.fem": "solae",
+      "nom.pl.neut": "sola",
+      "gen.pl.masc": "solorum",
+      "gen.pl.fem": "solarum",
+      "gen.pl.neut": "solorum",
+      "dat.pl.masc": "solis",
+      "dat.pl.fem": "solis",
+      "dat.pl.neut": "solis",
+      "acc.pl.masc": "solos",
+      "acc.pl.fem": "solas",
+      "acc.pl.neut": "sola",
+      "abl.pl.masc": "solis",
+      "abl.pl.fem": "solis",
+      "abl.pl.neut": "solis"
+    }
+  }
 }

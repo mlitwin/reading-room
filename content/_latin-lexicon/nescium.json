@@ -1,9 +1,11 @@
 {
-  "id": "nescium_adv",
+  "id": "nescium_adj",
   "lemma": "nescium",
-  "pos": "adv",
-  "head": "nescium",
+  "pos": "adj",
+  "head": "nescius, -a, -um",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "not knowing, ignorant",
+    "unknowing, unaware"
+  ],
+  "reviewed": false
 }

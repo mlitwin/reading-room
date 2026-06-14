@@ -1,9 +1,12 @@
 {
-  "id": "viride_adv",
+  "id": "viride_adj",
   "lemma": "viride",
-  "pos": "adv",
-  "head": "viride",
+  "pos": "adj",
+  "head": "viridis, -e",
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "green, verdant",
+    "fresh, vigorous",
+    "youthful"
+  ],
+  "reviewed": false
 }

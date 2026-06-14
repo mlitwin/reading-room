@@ -1,9 +1,18 @@
 {
-  "id": "supersum_adv",
+  "id": "supersum_v",
   "lemma": "supersum",
-  "pos": "adv",
-  "head": "supersum",
+  "pos": "verb",
+  "head": "supersum, superesse, superfui",
+  "principal_parts": [
+    "supersum",
+    "superesse",
+    "superfui",
+    "—"
+  ],
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "survive, be left over",
+    "remain, be in excess",
+    "be present (+ dat.)"
+  ],
+  "reviewed": false
 }

@@ -1,9 +1,17 @@
 {
-  "id": "prosum_adv",
+  "id": "prosum_v",
   "lemma": "prosum",
-  "pos": "adv",
-  "head": "prosum",
+  "pos": "verb",
+  "head": "prosum, prodesse, profui",
+  "principal_parts": [
+    "prosum",
+    "prodesse",
+    "profui",
+    "—"
+  ],
   "glosses": [
-    "placeholder pending lexicon curation"
-  ]
+    "be useful, benefit, profit (+ dat.)",
+    "do good, help"
+  ],
+  "reviewed": false
 }

@@ -1,0 +1,36 @@
+{
+  "id": "aequor_n",
+  "lemma": "aequor",
+  "pos": "noun",
+  "head": "aequor, aequoris, n.",
+  "glosses": [
+    "sea, ocean",
+    "level plain, flat surface"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "aequor",
+      "nom.pl": "aequora",
+      "gen.sg": "aequoris",
+      "gen.pl": "aequorum",
+      "dat.sg": "aequori",
+      "dat.pl": "aequoribus",
+      "acc.sg": "aequor",
+      "acc.pl": "aequora",
+      "abl.sg": "aequore",
+      "abl.pl": "aequoribus"
+    }
+  }
+}
