@@ -188,14 +188,36 @@
       '<div class="card-parse" aria-live="polite"></div>';
   }
 
-  // ── lexicon fetch
+  // ── lexicon loading
   var lexiconCache = null;
   var lexiconLoading = null;
 
+  // WKWebView blocks fetch() against file:// URLs (security policy). When the
+  // page is served from file://, load lexicon.js via a <script> tag instead —
+  // WebKit's native resource loader respects the allowingReadAccessTo grant.
+  // On https:// (web), fetch() lexicon.json as normal.
+  // Belt-and-suspenders: if the iOS app has been rebuilt with the Swift
+  // injection, window.__readingRoomLexicon is already set and we skip both.
+  function loadLexiconViaScript(prefix) {
+    return new Promise(function (resolve, reject) {
+      var s = document.createElement('script');
+      s.src = prefix + 'assets/lexicon.js';
+      s.onload = function () {
+        if (window.__readingRoomLexicon) {
+          lexiconCache = window.__readingRoomLexicon;
+          lexiconLoading = null;
+          resolve(lexiconCache);
+        } else {
+          reject(new Error('lexicon.js loaded but __readingRoomLexicon not set'));
+        }
+      };
+      s.onerror = function () { reject(new Error('lexicon.js failed to load')); };
+      document.head.appendChild(s);
+    });
+  }
+
   function loadLexicon() {
     if (lexiconCache) return Promise.resolve(lexiconCache);
-    // iOS WKWebView injects window.__readingRoomLexicon at document-start to
-    // avoid fetch() against file:// URLs (blocked by WebKit security policy).
     if (window.__readingRoomLexicon) {
       lexiconCache = window.__readingRoomLexicon;
       return Promise.resolve(lexiconCache);
@@ -203,9 +225,13 @@
     if (lexiconLoading) return lexiconLoading;
     var meta = document.querySelector('meta[name="asset-prefix"]');
     var prefix = meta ? meta.content : './';
-    lexiconLoading = fetch(prefix + 'assets/lexicon.json')
-      .then(function (r) { return r.json(); })
-      .then(function (data) { lexiconCache = data; lexiconLoading = null; return data; });
+    if (window.location.protocol === 'file:') {
+      lexiconLoading = loadLexiconViaScript(prefix);
+    } else {
+      lexiconLoading = fetch(prefix + 'assets/lexicon.json')
+        .then(function (r) { return r.json(); })
+        .then(function (data) { lexiconCache = data; lexiconLoading = null; return data; });
+    }
     return lexiconLoading;
   }
 

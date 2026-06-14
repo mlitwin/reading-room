@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T14:42:29.215Z",
+  "generated_at": "2026-06-14T19:59:37.277Z",
   "files": [
     {
       "path": "assets/cards.js",
-      "sha256": "1cb0831b213fbf28f24ebd0366c351f3aa928260c96405d498e31b8f26beb00e",
-      "size": 16841
+      "sha256": "1fafde5683507f238fd75488e6b8dc35a9188a84df8147793f8f74a72327d02c",
+      "size": 17887
     },
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -317,6 +317,11 @@
       "size": 23827
     },
     {
+      "path": "assets/lexicon.js",
+      "sha256": "08308149981b8912aae5262997aa87a764a51d5bc9ce75a6aef937bd48b3b3a0",
+      "size": 803289
+    },
+    {
       "path": "assets/lexicon.json",
       "sha256": "f58f6820a822289cc0ed1cad2577a5baaed4c99b513a140b132ce4f13cb525d0",
       "size": 803260
@@ -518,7 +523,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "fdc4cf55f8adbddbe928b49a1d7e10dfcf34eb51c2130e739474cbb1334b1aaf",
+      "sha256": "2bc067ce722a004c7d1ad0873c2ea4d63ec183b9948fd23f8ece602f6bab61af",
       "size": 26585
     },
     {

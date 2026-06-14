@@ -670,8 +670,14 @@ function renderLibraryListHtml(entries) {
 
 async function buildLexiconJson() {
   const lexicon = await loadSharedLexicon();
-  const out = path.join(DOCS_DIR, 'assets', 'lexicon.json');
-  await fs.writeFile(out, JSON.stringify(lexicon) + '\n');
+  const json = JSON.stringify(lexicon);
+  // lexicon.json — consumed by fetch() on the web
+  await fs.writeFile(path.join(DOCS_DIR, 'assets', 'lexicon.json'), json + '\n');
+  // lexicon.js — consumed by WKWebView via <script src> (fetch blocked on file://)
+  await fs.writeFile(
+    path.join(DOCS_DIR, 'assets', 'lexicon.js'),
+    'window.__readingRoomLexicon=' + json + ';\n'
+  );
 }
 
 export async function build() {
