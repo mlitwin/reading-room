@@ -1,38 +1,11 @@
 {
-  "id": "mille_n",
+  "id": "mille_num",
   "lemma": "mille",
-  "pos": "noun",
+  "pos": "num",
+  "head": "mille (indecl.) / milia, milium, n. pl.",
   "glosses": [
     "thousand",
-    "thousands (men/things)",
-    "miles",
-    "[~ passuum => thousand paces = 1 mile]"
+    "a thousand"
   ],
-  "head": "mille, -is, n.",
-  "paradigm": {
-    "type": "noun",
-    "rows": [
-      "nom",
-      "gen",
-      "dat",
-      "acc",
-      "abl"
-    ],
-    "cols": [
-      "sg",
-      "pl"
-    ],
-    "cells": {
-      "abl.sg": "mili",
-      "acc.sg": "mille",
-      "nom.pl": "milia",
-      "gen.pl": "milium",
-      "acc.pl": "milia",
-      "nom.sg": "mille",
-      "gen.sg": "milis",
-      "dat.sg": "mili",
-      "dat.pl": "milibus",
-      "abl.pl": "milibus"
-    }
-  }
+  "reviewed": false
 }

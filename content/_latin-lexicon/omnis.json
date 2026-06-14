@@ -2,13 +2,12 @@
   "id": "omnis_adj",
   "lemma": "omnis",
   "pos": "adj",
+  "head": "omnis, omne",
   "glosses": [
-    "each, every, every one (of a number)",
-    "all (pl.)",
-    "all/the whole of"
+    "all, every, each",
+    "whole, entire",
+    "every kind of"
   ],
-  "reviewed": false,
-  "head": "omnis, -a, -um",
   "paradigm": {
     "type": "adj",
     "rows": [
@@ -27,10 +26,36 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "omnis",
+      "nom.sg.fem": "omnis",
       "nom.sg.neut": "omne",
+      "gen.sg.masc": "omnis",
+      "gen.sg.fem": "omnis",
+      "gen.sg.neut": "omnis",
+      "dat.sg.masc": "omni",
+      "dat.sg.fem": "omni",
+      "dat.sg.neut": "omni",
+      "acc.sg.masc": "omnem",
+      "acc.sg.fem": "omnem",
       "acc.sg.neut": "omne",
+      "abl.sg.masc": "omni",
+      "abl.sg.fem": "omni",
+      "abl.sg.neut": "omni",
+      "nom.pl.masc": "omnes",
+      "nom.pl.fem": "omnes",
       "nom.pl.neut": "omnia",
-      "acc.pl.neut": "omnia"
+      "gen.pl.masc": "omnium",
+      "gen.pl.fem": "omnium",
+      "gen.pl.neut": "omnium",
+      "dat.pl.masc": "omnibus",
+      "dat.pl.fem": "omnibus",
+      "dat.pl.neut": "omnibus",
+      "acc.pl.masc": "omnes",
+      "acc.pl.fem": "omnes",
+      "acc.pl.neut": "omnia",
+      "abl.pl.masc": "omnibus",
+      "abl.pl.fem": "omnibus",
+      "abl.pl.neut": "omnibus"
     }
   }
 }

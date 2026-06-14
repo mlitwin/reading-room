@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T22:12:03.979Z",
+  "generated_at": "2026-06-14T22:28:16.379Z",
   "files": [
     {
       "path": "assets/cards.js",
@@ -318,13 +318,13 @@
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "1157058937cba92043396d0253336de7fd4533c8dc5c5ce17d655501469ce9b8",
-      "size": 834897
+      "sha256": "11a2ef13f461c128989a3b822e9598641c8632fa4a866bb654dbffb51530d7ee",
+      "size": 836599
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "93552f285a77539b51720c6f701009fefa93ffe8945b4fbbbc39998f0d915315",
-      "size": 834868
+      "sha256": "65110a76034c7e7ed49f24b004b97df57460cd99c6306b6ae6aaeec59a2daa02",
+      "size": 836570
     },
     {
       "path": "assets/notes.js",
@@ -523,7 +523,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "ae507ca9a03fbd382b6b51657190fb87420651b74b2f0a5731de93353af53514",
+      "sha256": "c52717b94b0e2e44ad832e3a977723f6ef1c0194436e020f4af724adf9a08278",
       "size": 26585
     },
     {
@@ -623,8 +623,8 @@
     },
     {
       "path": "ovid-metamorphoses/book1-12.html",
-      "sha256": "404e1a9662bb5df62e74839c9c44bd9a8442486147e5d9e4758934f0845aa546",
-      "size": 51356
+      "sha256": "5e9e292102f30d215368e00a61671fb0904af792ab8b6c84b572682342f725e9",
+      "size": 51376
     },
     {
       "path": "ovid-metamorphoses/book1-13.html",
@@ -638,13 +638,13 @@
     },
     {
       "path": "ovid-metamorphoses/book1-15.html",
-      "sha256": "51197444a150432561a403880bc8331aed2a0c5adc7615304abfe741a4f698e8",
-      "size": 49527
+      "sha256": "cf79e7626e9731433659989b52bf81590730def6dbf7ab0fc9c80928b6606ed3",
+      "size": 49533
     },
     {
       "path": "ovid-metamorphoses/book1-16.html",
-      "sha256": "f5a16cee4ae43ae44d863ef2cf1bcfc0397a1ae7d18ae4fc0bf0451ed36132e1",
-      "size": 58756
+      "sha256": "e9f013bbbfe4107b691673b23e85e8e3221c9bdb175d493a207402795c5de937",
+      "size": 58762
     },
     {
       "path": "ovid-metamorphoses/book1-17.html",

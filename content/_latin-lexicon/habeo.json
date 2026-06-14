@@ -2,18 +2,17 @@
   "id": "habeo_v",
   "lemma": "habeo",
   "pos": "verb",
-  "glosses": [
-    "have, hold, consider, think, reason",
-    "manage, keep",
-    "spend/pass (time)"
-  ],
-  "reviewed": false,
-  "head": "habeo, habere, habui, habitum",
+  "head": "habeō, habēre, habuī, habitum",
   "principal_parts": [
-    "habeo",
-    "habere",
-    "habui",
+    "habeō",
+    "habēre",
+    "habuī",
     "habitum"
+  ],
+  "glosses": [
+    "have, hold, possess",
+    "consider, regard",
+    "keep, maintain"
   ],
   "paradigm": {
     "type": "verb",
@@ -27,18 +26,49 @@
     ],
     "cols": [
       "pres.ind.act",
+      "imperf.ind.act",
+      "fut.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "pres.subj.act",
+      "imperf.subj.act"
     ],
     "cells": {
-      "1sg.pres.ind.act": "habeo",
-      "2sg.pres.ind.act": "habes",
+      "1sg.pres.ind.act": "habeō",
+      "2sg.pres.ind.act": "habēs",
       "3sg.pres.ind.act": "habet",
-      "1pl.pres.ind.act": "habemus",
-      "2pl.pres.ind.act": "habetis",
+      "1pl.pres.ind.act": "habēmus",
+      "2pl.pres.ind.act": "habētis",
       "3pl.pres.ind.act": "habent",
-      "2sg.pres.imp.act": "habe",
-      "2pl.pres.imp.act": "habete"
+      "1sg.imperf.ind.act": "habēbam",
+      "2sg.imperf.ind.act": "habēbās",
+      "3sg.imperf.ind.act": "habēbat",
+      "1pl.imperf.ind.act": "habēbāmus",
+      "2pl.imperf.ind.act": "habēbātis",
+      "3pl.imperf.ind.act": "habēbant",
+      "1sg.fut.ind.act": "habēbo",
+      "2sg.fut.ind.act": "habēbis",
+      "3sg.fut.ind.act": "habēbit",
+      "1pl.fut.ind.act": "habēbimus",
+      "2pl.fut.ind.act": "habēbitis",
+      "3pl.fut.ind.act": "habēbunt",
+      "1sg.perf.ind.act": "habuī",
+      "2sg.perf.ind.act": "habuistī",
+      "3sg.perf.ind.act": "habuit",
+      "1pl.perf.ind.act": "habuimus",
+      "2pl.perf.ind.act": "habuistis",
+      "3pl.perf.ind.act": "habuērunt",
+      "1sg.pres.subj.act": "habeam",
+      "2sg.pres.subj.act": "habeās",
+      "3sg.pres.subj.act": "habeat",
+      "1pl.pres.subj.act": "habeāmus",
+      "2pl.pres.subj.act": "habeātis",
+      "3pl.pres.subj.act": "habeant",
+      "1sg.imperf.subj.act": "habērem",
+      "2sg.imperf.subj.act": "habērēs",
+      "3sg.imperf.subj.act": "habēret",
+      "1pl.imperf.subj.act": "habērēmus",
+      "2pl.imperf.subj.act": "habērētis",
+      "3pl.imperf.subj.act": "habērent"
     }
   }
 }

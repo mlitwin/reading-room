@@ -24,7 +24,7 @@ CODE_LITERAL_TO_POS = {
     # Pronouns (illa, qua, ...) and adjectives (tot, totidem, ...) are also
     # regularly used adverbially in Latin.
     'conj': {'conj', 'adv'},
-    'adv':  {'adv', 'conj', 'adj', 'pron'},
+    'adv':  {'adv', 'conj', 'adj', 'pron', 'noun'},  # nouns used adverbially (e.g. ablative)
     'interj': {'interj'},
     'num': {'num', 'adj'},
     'enclit': {'conj', 'adv', 'enclitic'},

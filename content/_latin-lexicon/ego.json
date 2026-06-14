@@ -2,42 +2,36 @@
   "id": "ego_pron",
   "lemma": "ego",
   "pos": "pron",
+  "head": "ego / tū",
   "glosses": [
-    "drive/urge/conduct/act",
-    "spend (time w/cum)",
-    "thank (w/gratias)",
-    "deliver (speech)"
+    "I, me (1st person)",
+    "you (2nd person, tū)"
   ],
-  "reviewed": false,
-  "head": "ego, agere, egi, actum",
-  "principal_parts": [
-    "ego",
-    "agere",
-    "egi",
-    "actum"
-  ],
+  "notes": "Paradigm shows 1st-person (ego/nos) singular and plural forms. 2nd-person (tu/vos) forms are equivalent in structure.",
   "paradigm": {
-    "type": "verb",
+    "type": "pron",
     "rows": [
-      "1sg",
-      "2sg",
-      "3sg",
-      "1pl",
-      "2pl",
-      "3pl"
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
     ],
     "cols": [
-      "pres.ind.act",
-      "perf.ind.act",
-      "pres.imp.act"
+      "sg",
+      "pl"
     ],
     "cells": {
-      "2sg.pres.ind.act": "agis",
-      "3sg.pres.ind.act": "agit",
-      "1pl.pres.ind.act": "agimus",
-      "2pl.pres.ind.act": "agitis",
-      "2sg.pres.imp.act": "age",
-      "2pl.pres.imp.act": "agite"
+      "nom.sg": "ego",
+      "nom.pl": "nōs",
+      "gen.sg": "meī",
+      "gen.pl": "nostrum",
+      "dat.sg": "mihi",
+      "dat.pl": "nōbis",
+      "acc.sg": "mē",
+      "acc.pl": "nōs",
+      "abl.sg": "mē",
+      "abl.pl": "nōbis"
     }
   }
 }

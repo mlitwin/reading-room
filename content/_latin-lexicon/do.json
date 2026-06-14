@@ -2,21 +2,17 @@
   "id": "do_v",
   "lemma": "do",
   "pos": "verb",
-  "glosses": [
-    "give",
-    "dedicate",
-    "sell",
-    "pay",
-    "grant/bestow/impart/offer/lend",
-    "devote"
-  ],
-  "reviewed": false,
-  "head": "do, dare, dedi, datum",
+  "head": "dō, dare, dedī, datum",
   "principal_parts": [
-    "do",
+    "dō",
     "dare",
-    "dedi",
+    "dedī",
     "datum"
+  ],
+  "glosses": [
+    "give, offer, grant",
+    "put, place",
+    "cause, produce"
   ],
   "paradigm": {
     "type": "verb",
@@ -30,18 +26,49 @@
     ],
     "cols": [
       "pres.ind.act",
+      "imperf.ind.act",
+      "fut.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "pres.subj.act",
+      "imperf.subj.act"
     ],
     "cells": {
-      "1sg.pres.ind.act": "do",
-      "2sg.pres.ind.act": "das",
+      "1sg.pres.ind.act": "dō",
+      "2sg.pres.ind.act": "dās",
       "3sg.pres.ind.act": "dat",
       "1pl.pres.ind.act": "damus",
       "2pl.pres.ind.act": "datis",
       "3pl.pres.ind.act": "dant",
-      "2sg.pres.imp.act": "da",
-      "2pl.pres.imp.act": "date"
+      "1sg.imperf.ind.act": "dabam",
+      "2sg.imperf.ind.act": "dabas",
+      "3sg.imperf.ind.act": "dabat",
+      "1pl.imperf.ind.act": "dabamus",
+      "2pl.imperf.ind.act": "dabatis",
+      "3pl.imperf.ind.act": "dabant",
+      "1sg.fut.ind.act": "dabo",
+      "2sg.fut.ind.act": "dabis",
+      "3sg.fut.ind.act": "dabit",
+      "1pl.fut.ind.act": "dabimus",
+      "2pl.fut.ind.act": "dabitis",
+      "3pl.fut.ind.act": "dabunt",
+      "1sg.perf.ind.act": "dedī",
+      "2sg.perf.ind.act": "dedistī",
+      "3sg.perf.ind.act": "dedit",
+      "1pl.perf.ind.act": "dedimus",
+      "2pl.perf.ind.act": "dedistis",
+      "3pl.perf.ind.act": "dedērunt",
+      "1sg.pres.subj.act": "dem",
+      "2sg.pres.subj.act": "dēs",
+      "3sg.pres.subj.act": "det",
+      "1pl.pres.subj.act": "dēmus",
+      "2pl.pres.subj.act": "dētis",
+      "3pl.pres.subj.act": "dent",
+      "1sg.imperf.subj.act": "darem",
+      "2sg.imperf.subj.act": "darēs",
+      "3sg.imperf.subj.act": "daret",
+      "1pl.imperf.subj.act": "darēmus",
+      "2pl.imperf.subj.act": "darētis",
+      "3pl.imperf.subj.act": "darent"
     }
   }
 }
