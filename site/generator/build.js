@@ -314,234 +314,12 @@ async function loadVocabulary(pieceAbsDir) {
   return out;
 }
 
-// Compact parse-code primitive → English label + notes-page key. Mirrored in
-// site/reader/cards.js — keep them in sync (if they drift, drop the duplicate
-// into a shared module). Person+number combos (`1sg`, `2sg`, ...) and
-// number+gender combos (`sg.masc`) are handled by tokenToLinks below.
-const PARSE_TOKEN_MAP = {
-  nom: { label: 'nominative', note: 'nominative' },
-  gen: { label: 'genitive', note: 'genitive' },
-  dat: { label: 'dative', note: 'dative' },
-  acc: { label: 'accusative', note: 'accusative' },
-  abl: { label: 'ablative', note: 'ablative' },
-  voc: { label: 'vocative', note: 'vocative' },
-  sg: { label: 'singular', note: 'singular' },
-  pl: { label: 'plural', note: 'plural' },
-  masc: { label: 'masculine', note: 'masculine' },
-  fem: { label: 'feminine', note: 'feminine' },
-  neut: { label: 'neuter', note: 'neuter' },
-  pres: { label: 'present', note: 'present' },
-  imperf: { label: 'imperfect', note: 'imperfect' },
-  perf: { label: 'perfect', note: 'perfect' },
-  plup: { label: 'pluperfect', note: 'pluperfect' },
-  fut: { label: 'future', note: 'future' },
-  ind: { label: 'indicative', note: 'indicative' },
-  subj: { label: 'subjunctive', note: 'subjunctive' },
-  imp: { label: 'imperative', note: 'imperative' },
-  act: { label: 'active', note: 'active' },
-  pass: { label: 'passive', note: 'passive' },
-  inf: { label: 'infinitive', note: 'infinitive' },
-  ppp: { label: 'perfect passive participle', note: 'perfect-passive-participle' },
-  sup: { label: 'supine', note: 'supine' },
-  prep: { label: 'preposition', note: 'preposition' },
-  conj: { label: 'conjunction', note: 'conjunction' },
-  enclit: { label: 'enclitic', note: 'enclitic' },
-};
-const PERSON_MAP = {
-  '1': { label: '1st-person', note: '1st-person' },
-  '2': { label: '2nd-person', note: '2nd-person' },
-  '3': { label: '3rd-person', note: '3rd-person' },
-};
-const POS_NOTE = {
-  noun: 'noun', verb: 'verb', adj: 'adjective', pron: 'pronoun',
-  prep: 'preposition', conj: 'conjunction', enclitic: 'enclitic',
-};
-
-function tokenToLinks(tok) {
-  // Person+number combo (`1sg`, `3pl`, ...) → two links.
-  const pn = /^([123])(sg|pl)$/.exec(tok);
-  if (pn) {
-    return [PERSON_MAP[pn[1]], PARSE_TOKEN_MAP[pn[2]]];
-  }
-  const m = PARSE_TOKEN_MAP[tok];
-  if (m) return [m];
-  return [{ label: tok, note: null }];
-}
-
-function expandToLinks(code) {
-  // Split dotted code → token list → flat list of {label, note}.
-  return code.split('.').flatMap(tokenToLinks);
-}
-
-function renderLinkedHeader(code) {
-  return expandToLinks(code).map(p =>
-    p.note
-      ? `<button class="note-link" type="button" popovertarget="note-${escapeAttr(p.note)}">${escapeHtml(p.label)}</button>`
-      : `<span>${escapeHtml(p.label)}</span>`
-  ).join(' ');
-}
-
-// Compact row labels save horizontal space on tables that repeat the same
-// header six times down the left edge. `1sg` renders as two short buttons
-// "1" + "sg" (rather than "1st-person" + "singular"); each still links to
-// its full definition note. The expanded English form remains in the parse
-// slot at the bottom of the card.
-function renderCompactRowHeader(code) {
-  return code.split('.').flatMap(tok => {
-    const pn = /^([123])(sg|pl)$/.exec(tok);
-    if (pn) {
-      const personNote = PERSON_MAP[pn[1]].note;
-      const numNote = PARSE_TOKEN_MAP[pn[2]].note;
-      return [
-        { label: pn[1], note: personNote },
-        { label: pn[2], note: numNote },
-      ];
-    }
-    const m = PARSE_TOKEN_MAP[tok];
-    if (m) return [{ label: tok, note: m.note }];
-    return [{ label: tok, note: null }];
-  }).map(p =>
-    p.note
-      ? `<button class="note-link" type="button" popovertarget="note-${escapeAttr(p.note)}">${escapeHtml(p.label)}</button>`
-      : `<span>${escapeHtml(p.label)}</span>`
-  ).join(' ');
-}
-
-// Split a paradigm's column list into mobile-friendly sub-groups. Wide
-// paradigms (3-col verbs, 6-col adjectives) won't fit a 360px-wide screen
-// even with compact row headers — split into multiple sub-tables along a
-// natural grammatical axis instead, with row headers repeated in each:
-//
-//   verb cols `tense.mood.voice`  → group by mood (index 1)
-//   adj/pron cols `num.gender`    → group by num   (index 0)
-//   noun cols `num`               → no split (only 2 cols)
-//
-// The group key becomes a clickable caption above each sub-table; the
-// remaining tokens of the column code become the column header inside.
-function splitColumnsByGroup(cols, type) {
-  function group(keyIdx) {
-    const out = [];
-    const seen = new Map();
-    for (const c of cols) {
-      const parts = c.split('.');
-      const key = parts[keyIdx];
-      const subCol = parts.filter((_, i) => i !== keyIdx).join('.');
-      if (!seen.has(key)) {
-        const entry = { groupKey: key, subCols: [] };
-        seen.set(key, entry);
-        out.push(entry);
-      }
-      seen.get(key).subCols.push({ orig: c, sub: subCol });
-    }
-    return out;
-  }
-  if (type === 'verb') return group(1);            // by mood
-  if (type === 'adj' || type === 'pron') return group(0);  // by number
-  return [{ groupKey: null, subCols: cols.map(c => ({ orig: c, sub: c })) }];
-}
-
-function renderSubTable(p, sectionGroup, type, soloSection) {
-  // Drop rows with no value in any of this section's cols (e.g. imperative
-  // only fills 2sg/2pl).
-  const rows = p.rows.filter(r =>
-    sectionGroup.subCols.some(sc => p.cells[`${r}.${sc.orig}`] != null)
-  );
-  if (rows.length === 0) return '';
-  const header = '<tr><th></th>' + sectionGroup.subCols.map(sc =>
-    `<th class="col-head">${sc.sub ? renderLinkedHeader(sc.sub) : ''}</th>`
-  ).join('') + '</tr>';
-  const body = rows.map(r => {
-    const cells = sectionGroup.subCols.map(sc => {
-      const form = p.cells[`${r}.${sc.orig}`];
-      if (form == null) return `<td></td>`;
-      return `<td data-parse="${escapeAttr(sc.orig)}">${escapeHtml(form)}</td>`;
-    }).join('');
-    return `<tr><th class="row-head">${renderCompactRowHeader(r)}</th>${cells}</tr>`;
-  }).join('');
-  const caption = sectionGroup.groupKey && !soloSection
-    ? `<caption class="paradigm-section">${renderLinkedHeader(sectionGroup.groupKey)}</caption>`
-    : '';
-  const cls = `card-paradigm ${escapeAttr(type || '')}`.trim();
-  return `<table class="${cls}">${caption}${header}${body}</table>`;
-}
-
-// Render a vocab card's paradigm. Each data cell carries `data-parse` so
-// the cards.js highlight pass can light it up; row headers stay compact
-// (`1 sg`, `nom`) to save horizontal space; column headers expand to
-// linked English and stack vertically via CSS. Wide paradigms are split
-// into sub-tables by `splitColumnsByGroup`.
-function renderParadigm(card) {
-  const p = card.paradigm;
-  if (!p || !p.rows || !p.cols || !p.cells) return '';
-  const type = p.type || card.pos || '';
-  const groups = splitColumnsByGroup(p.cols, type);
-  const solo = groups.length === 1;
-  return `<div class="card-paradigms">${groups.map(g => renderSubTable(p, g, type, solo)).join('\n')}</div>`;
-}
-
-// Render the dictionary headword line. For verbs whose vocab JSON carries
-// a `principal_parts` array we replace the static `head` string with linked
-// positional slots (first→1sg pres ind act, second→pres act inf, third→1sg
-// perf ind act, fourth→supine). For nouns/adjs/etc. we still emit the
-// `head` string verbatim — wiring up structured noun/adj heads is later
-// work.
-const PRINCIPAL_PART_NOTES = [
-  'first-principal-part',
-  'second-principal-part',
-  'third-principal-part',
-  'fourth-principal-part',
-];
-function renderHeadLine(card) {
-  if (card.pos === 'verb' && Array.isArray(card.principal_parts) && card.principal_parts.length === 4) {
-    const slots = card.principal_parts.map((p, i) =>
-      `<button class="note-link" type="button" popovertarget="note-${escapeAttr(PRINCIPAL_PART_NOTES[i])}">${escapeHtml(p)}</button>`
-    );
-    return `<p class="card-principal">${slots.join(', ')}</p>`;
-  }
-  return card.head ? `<p class="card-principal">${escapeHtml(card.head)}</p>` : '';
-}
-
-function renderPosChip(pos) {
-  if (!pos) return '';
-  const note = POS_NOTE[pos];
-  if (!note) return `<span class="card-pos">${escapeHtml(pos)}</span>`;
-  return `<button class="card-pos note-link" type="button" popovertarget="note-${escapeAttr(note)}">${escapeHtml(pos)}</button>`;
-}
-
-// Source elements are NOT popovers — they're hidden HTML containers whose
-// `innerHTML` is copied into a single page-wide `<aside id="popover-host">`
-// (the popover) when a token / chip / note-link is clicked. One DOM node
-// hosts every popover; navigating between cards and notes just swaps the
-// host's contents, so the popover never shifts position. See cards.js.
-function renderCardPopover(lemma, card) {
-  const id = `card-${escapeAttr(lemma)}`;
-  const head = renderHeadLine(card);
-  const pos = renderPosChip(card.pos);
-  const paradigm = renderParadigm(card);
-  // Glosses run inline separated by semicolons (the lexicographic
-  // convention) — a bulleted list wastes vertical space when there are
-  // only 3-5 short meanings.
-  const glosses = Array.isArray(card.glosses) && card.glosses.length
-    ? `<p class="card-glosses">${card.glosses.map(g => escapeHtml(g)).join('; ')}</p>`
-    : '';
-  const notes = card.notes ? `<p class="card-notes">${escapeHtml(card.notes)}</p>` : '';
-  const label = card.lemma || lemma;
-  return `<aside hidden id="${id}" class="card-popover-source" data-label="${escapeAttr(label)}">
-  <header class="card-head">
-    <h3 class="card-lemma">${escapeHtml(label)} ${pos}</h3>
-    ${head}
-    <div class="card-other-lemmas" aria-live="polite"></div>
-  </header>
-  ${paradigm}
-  ${glosses}
-  ${notes}
-  <div class="card-parse" aria-live="polite"></div>
-</aside>`;
-}
+// Card HTML is rendered at runtime by cards.js from assets/lexicon.json.
+// All parse-token maps and card-rendering functions live in cards.js.
 
 // Rewrite each `<span data-matches="...">word</span>` inside a
-// `.latin-passage` block into a popover-button targeting the primary lemma's
-// card. `data-matches` syntax is `"lemma1:parse1,parse2;lemma2:parse3"` —
+// `.latin-passage` block into a popover-button for the primary lemma.
+// `data-matches` syntax is `"lemma1:parse1,parse2;lemma2:parse3"` —
 // the primary lemma is the first one listed; remaining lemmas become "also-
 // matches" chips inside the popover. The parse list per lemma is every cell
 // of that lemma's paradigm the surface form could fill, regardless of which
@@ -573,10 +351,9 @@ function renderLatinSpans(html, vocabDict, referenced, filePath) {
       referenced.add(m.lemma);
     }
     const primary = matches[0];
-    const id = `card-${escapeAttr(primary.lemma)}`;
     const stanzaRaw = (_pre + _post).match(/data-stanza="([^"]*)"/);
     const stanzaAttr = stanzaRaw ? ` data-stanza="${escapeAttr(stanzaRaw[1])}"` : '';
-    return `<button class="latin-token" type="button" popovertarget="${id}" data-matches="${escapeAttr(matchesStr)}"${stanzaAttr}>${inner}</button>`;
+    return `<button class="latin-token" type="button" data-lemma="${escapeAttr(primary.lemma)}" data-matches="${escapeAttr(matchesStr)}"${stanzaAttr}>${inner}</button>`;
   });
 }
 
@@ -815,61 +592,28 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
   const referencedLemmas = new Set();
   body = renderLatinSpans(body, vocabDict, referencedLemmas, node.absPath);
 
-  // Emit one <aside popover> per note reachable from this page — transitive
-  // closure of direct refs plus any notes those notes link to. Multiple
-  // <button> triggers can share a single popover; reachability matters so
-  // that popover↔popover navigation has the target popover available.
+  // When the page has Latin spans, cards.js will render card HTML at runtime
+  // from assets/lexicon.json. Those cards reference grammar notes via
+  // popovertarget="note-{key}" buttons. Pre-include the full notesDict so
+  // every grammar term is available in the DOM when a card is rendered.
+  if (referencedLemmas.size > 0 && notesDict) {
+    for (const key of Object.keys(notesDict)) env.referencedNotes.add(key);
+  }
+
+  // Emit hidden note-source asides for all reachable notes (body-text refs
+  // plus the grammar notes added above).
   if (env.referencedNotes.size > 0 && notesDict) {
     const reachable = transitiveNoteClosure(env.referencedNotes, notesDict);
     const popovers = [...reachable].map(key => {
       const n = notesDict[key];
       if (!n) return '';
-      const id = `note-${escapeAttr(key)}`;
-      return `<aside id="${id}" popover class="note-popover">
-  <h3 class="note-title">${escapeHtml(n.title)}</h3>
-  ${n.html}
-  <button class="note-close" type="button" popovertarget="${id}" popovertargetaction="hide" aria-label="Close">×</button>
-</aside>`;
-    }).filter(Boolean).join('\n');
-    body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
-  }
-
-  // Build card-popover HTML now so we can scan it for note: references and
-  // merge them into env.referencedNotes before the note-popover emission
-  // step above. Cards link to grammar definitions (cases, persons, supine,
-  // principal-part slots, etc.) via popovertarget="note-..." buttons —
-  // those references need to round-trip through the same transitive-closure
-  // logic that the body-text note: links use.
-  let cardsHtml = '';
-  if (referencedLemmas.size > 0 && vocabDict) {
-    cardsHtml = [...referencedLemmas].sort()
-      .map(lemma => renderCardPopover(lemma, vocabDict[lemma]))
-      .join('\n');
-    for (const match of cardsHtml.matchAll(/popovertarget="note-([^"]+)"/g)) {
-      env.referencedNotes.add(match[1]);
-    }
-  }
-  // (Re-run note-popover emission with the augmented referencedNotes set —
-  // it was already run above and would have missed card-derived refs.)
-  if (env.referencedNotes.size > 0 && notesDict) {
-    const reachable = transitiveNoteClosure(env.referencedNotes, notesDict);
-    // Replace any earlier note-popovers block; the new closure is a superset.
-    body = body.replace(/\n<div class="note-popovers">[\s\S]*?<\/div>\s*$/, '');
-    const popovers = [...reachable].map(key => {
-      const n = notesDict[key];
-      if (!n) {
-        throw new Error(`${node.absPath}: undefined note "${key}" referenced from a card popover. Add a ## ${key} section in the notes page.`);
-      }
       const noteId = `note-${escapeAttr(key)}`;
       return `<aside hidden id="${noteId}" class="note-popover-source" data-label="${escapeAttr(n.title)}">
   <h3 class="note-title">${escapeHtml(n.title)}</h3>
   ${n.html}
 </aside>`;
-    }).join('\n');
-    body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
-  }
-  if (cardsHtml) {
-    body += `\n<div class="card-popovers">\n${cardsHtml}\n</div>`;
+    }).filter(Boolean).join('\n');
+    if (popovers) body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
   }
   // The single popover host. Persistent chrome (back/forward, breadcrumb,
   // close) wraps a `.popover-body` whose innerHTML gets replaced from the
@@ -924,6 +668,12 @@ function renderLibraryListHtml(entries) {
   }).join('\n');
 }
 
+async function buildLexiconJson() {
+  const lexicon = await loadSharedLexicon();
+  const out = path.join(DOCS_DIR, 'assets', 'lexicon.json');
+  await fs.writeFile(out, JSON.stringify(lexicon) + '\n');
+}
+
 export async function build() {
   await fs.rm(DOCS_DIR, { recursive: true, force: true });
   await fs.mkdir(path.join(DOCS_DIR, 'assets'), { recursive: true });
@@ -931,6 +681,7 @@ export async function build() {
   for (const file of await fs.readdir(READER_DIR)) {
     await fs.copyFile(path.join(READER_DIR, file), path.join(DOCS_DIR, 'assets', file));
   }
+  await buildLexiconJson();
   await fs.copyFile(path.join(KATEX_DIR, 'katex.min.css'), path.join(DOCS_DIR, 'assets', 'katex.min.css'));
   await copyDir(path.join(KATEX_DIR, 'fonts'), path.join(DOCS_DIR, 'assets', 'fonts'));
 
