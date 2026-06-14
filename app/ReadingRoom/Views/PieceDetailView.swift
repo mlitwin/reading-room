@@ -282,6 +282,9 @@ struct PieceWebView: UIViewRepresentable {
           document.addEventListener('click', function(e) {
             var btn = e.target.closest('button.note-link');
             if (!btn) return;
+            // Let cards.js handle note links inside the vocab card popover —
+            // only escalate to the native sheet for links in the main text.
+            if (btn.closest('#popover-host')) return;
             e.preventDefault();
             e.stopPropagation();
             var t = btn.getAttribute('popovertarget') || '';

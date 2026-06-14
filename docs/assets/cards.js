@@ -169,7 +169,50 @@
     return '<button class="card-pos note-link" type="button" popovertarget="note-' + escAttr(note) + '">' + escHtml(pos) + '</button>';
   }
 
-  // Returns the innerHTML of a card popover (everything inside <aside>).
+  // ── tab bar (multi-lemma)
+  function chooseInitialTab(available, stanzaLemma, activeLemma) {
+    // Restore the tab the user last selected for this stack entry.
+    if (activeLemma) {
+      for (var i = 0; i < available.length; i++) {
+        if (available[i].lemma === activeLemma) return available[i].lemma;
+      }
+    }
+    // Default to stanza-preferred, then first candidate.
+    if (stanzaLemma) {
+      for (var i = 0; i < available.length; i++) {
+        if (available[i].lemma === stanzaLemma) return available[i].lemma;
+      }
+    }
+    return available[0].lemma;
+  }
+
+  function renderTabBar(available, activeLemma, stanzaLemma) {
+    if (available.length <= 1) return '';
+    return '<div class="card-tab-bar">' +
+      available.map(function (m) {
+        var isActive = m.lemma === activeLemma;
+        var isStanza = stanzaLemma && m.lemma === stanzaLemma;
+        var displayName = (lexiconCache && lexiconCache[m.lemma] && lexiconCache[m.lemma].lemma) || m.lemma;
+        var cls = 'card-tab' + (isActive ? ' active' : '') + (isStanza ? ' stanza-pref' : '');
+        var mark = isStanza ? ' <span class="card-tab-check">✓</span>' : '';
+        return '<button class="' + cls + '" type="button" data-tab-lemma="' + escAttr(m.lemma) + '">' +
+               escHtml(displayName) + mark + '</button>';
+      }).join('') +
+      '</div>';
+  }
+
+  function renderCardBody(body, entry, lex) {
+    var allMatches = parseMatches(entry.matches);
+    var available = allMatches.filter(function (m) { return lex[m.lemma]; });
+    if (!available.length) return;
+    var stanza = entry.stanzaLemma || '';
+    var activeLemma = chooseInitialTab(available, stanza, entry.activeLemma || '');
+    body.innerHTML = renderTabBar(available, activeLemma, stanza) +
+      '<div class="card-content">' + renderCardInnerHtml(activeLemma, lex[activeLemma]) + '</div>';
+    applyCardState(body.querySelector('.card-content'), activeLemma, available, stanza);
+  }
+
+  // Returns the innerHTML of the content area for one lemma.
   function renderCardInnerHtml(lemma, card) {
     var label = card.lemma || lemma;
     var head = renderHeadLine(card);
@@ -182,10 +225,10 @@
     return '<header class="card-head">' +
       '<h3 class="card-lemma">' + escHtml(label) + ' ' + pos + '</h3>' +
       head +
-      '<div class="card-other-lemmas" aria-live="polite"></div>' +
       '</header>' +
-      paradigm + glosses + notes +
-      '<div class="card-parse" aria-live="polite"></div>';
+      glosses +
+      '<div class="card-parse" aria-live="polite"></div>' +
+      paradigm + notes;
   }
 
   // ── lexicon loading
@@ -287,25 +330,6 @@
           }).join('') + '</ul>'
         : '';
     }
-    var chipsBox = scope.querySelector('.card-other-lemmas');
-    if (chipsBox) {
-      var others = matches.filter(function (m) { return m.lemma !== lemma; });
-      if (others.length > 0) {
-        var matchesStr = matches.map(function (m) {
-          return m.lemma + ':' + m.parses.join(',');
-        }).join(';');
-        chipsBox.innerHTML = '<span class="card-other-lemmas-label">readings: </span>' +
-          others.map(function (m) {
-            var isStanzaPref = stanzaLemma && m.lemma === stanzaLemma;
-            var cls = 'latin-token other-lemma-chip' + (isStanzaPref ? ' stanza-preferred' : '');
-            var label = m.lemma + (isStanzaPref ? ' ✓' : '');
-            return '<button class="' + cls + '" type="button" data-lemma="' + escAttr(m.lemma) +
-                   '" data-matches="' + escAttr(matchesStr) + '">' + escHtml(label) + '</button>';
-          }).join('');
-      } else {
-        chipsBox.innerHTML = '';
-      }
-    }
     var heading = scope.querySelector('.card-lemma');
     if (heading) {
       heading.classList.toggle('stanza-confirmed', !!(stanzaLemma && stanzaLemma === lemma));
@@ -328,16 +352,13 @@
 
     if (entry.type === 'card') {
       body.className = 'popover-body card-popover';
-      if (lexiconCache && lexiconCache[entry.lemma]) {
-        body.innerHTML = renderCardInnerHtml(entry.lemma, lexiconCache[entry.lemma]);
-        applyCardState(body, entry.lemma, parseMatches(entry.matches), entry.stanzaLemma || '');
+      if (lexiconCache) {
+        renderCardBody(body, entry, lexiconCache);
       } else {
         body.innerHTML = '<p class="card-loading">Loading…</p>';
         loadLexicon().then(function (lex) {
-          var card = lex[entry.lemma];
-          if (card && stackPos >= 0 && stack[stackPos] === entry) {
-            body.innerHTML = renderCardInnerHtml(entry.lemma, card);
-            applyCardState(body, entry.lemma, parseMatches(entry.matches), entry.stanzaLemma || '');
+          if (stackPos >= 0 && stack[stackPos] === entry) {
+            renderCardBody(body, entry, lex);
           }
         });
       }
@@ -411,6 +432,26 @@
 
     var anchor = e.target.closest('#popover-host a[href]');
     if (anchor) { try { host.hidePopover(); } catch (_) {} return; }
+
+    // Tab switch within a multi-lemma card (does not push a new stack entry)
+    var tabBtn = e.target.closest('.card-tab-bar button[data-tab-lemma]');
+    if (tabBtn) {
+      e.preventDefault();
+      var newLemma = tabBtn.getAttribute('data-tab-lemma');
+      var curEntry = stackPos >= 0 ? stack[stackPos] : null;
+      if (!curEntry || curEntry.type !== 'card' || !lexiconCache || !lexiconCache[newLemma]) return;
+      curEntry.activeLemma = newLemma;   // persist for back/forward navigation
+      host.querySelectorAll('.card-tab').forEach(function (t) {
+        t.classList.toggle('active', t.getAttribute('data-tab-lemma') === newLemma);
+      });
+      var content = host.querySelector('.card-content');
+      if (content) {
+        content.innerHTML = renderCardInnerHtml(newLemma, lexiconCache[newLemma]);
+        var avail = parseMatches(curEntry.matches).filter(function (m) { return lexiconCache[m.lemma]; });
+        applyCardState(content, newLemma, avail, curEntry.stanzaLemma || '');
+      }
+      return;
+    }
 
     // Buttons with data-lemma → card
     var btn = e.target.closest('button[data-lemma]');

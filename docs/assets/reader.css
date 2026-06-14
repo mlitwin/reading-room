@@ -506,6 +506,61 @@ nav.page-nav .placeholder { visibility: hidden; }
   flex: 1;
   overflow-y: auto;
   overscroll-behavior: contain;
+  padding: 0;          /* tab bar + content each carry their own padding */
+}
+
+/* Tab bar — one button per candidate lemma. Sticky so it stays visible
+   when the reader scrolls down into the paradigm table. */
+.card-tab-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.2rem;
+  padding: 0.45rem 1rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.card-tab {
+  flex-shrink: 0;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;   /* sits on top of the border-bottom of tab-bar */
+  padding: 0.3rem 0.7rem 0.4rem;
+  font: inherit;
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--muted);
+  cursor: pointer;
+  border-radius: 3px 3px 0 0;
+  white-space: nowrap;
+}
+.card-tab:hover { color: var(--fg); }
+.card-tab.active {
+  color: var(--fg);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+.card-tab.stanza-pref { color: var(--accent); }
+.card-tab.stanza-pref.active { color: var(--fg); }
+.card-tab-check {
+  font-style: normal;
+  font-size: 0.7rem;
+  color: color-mix(in srgb, var(--accent) 70%, transparent);
+  vertical-align: super;
+  margin-left: 0.15rem;
+}
+.card-tab.active .card-tab-check {
+  color: color-mix(in srgb, var(--accent) 60%, transparent);
+}
+
+/* Content area below the tab bar (or the full body when only one lemma). */
+.card-content {
   padding: 1.1rem 1.4rem 1.2rem;
 }
 
@@ -516,8 +571,8 @@ nav.page-nav .placeholder { visibility: hidden; }
    the page scrollbar disappears. */
 html { scrollbar-gutter: stable; }
 html:has(#popover-host:popover-open) { overflow: hidden; }
-.popover-body > :first-child { margin-top: 0; }
-.popover-body > :last-child { margin-bottom: 0; }
+.card-content > :first-child { margin-top: 0; }
+.card-content > :last-child { margin-bottom: 0; }
 
 .card-popover .card-head {
   margin: 0 0 0.6rem 0;
