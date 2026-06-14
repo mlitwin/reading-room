@@ -1,5 +1,7 @@
 Changes since v0.1.3-4:
 
+• d66e2de index
+• f9b0ebf Update release notes for alpha
 • 949057c Fix iOS lexicon loading: inject JSON via WKUserScript instead of fetch
 • 428dc5a Update book index: 28 Loeb cards, Miller translation credit
 • a2d74ac Phase 7: write passage notes for all 28 Book I Loeb cards
