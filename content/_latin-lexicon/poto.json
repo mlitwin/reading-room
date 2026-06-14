@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "pota",
       "2pl.pres.imp.act": "potate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: potus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "potus",
+      "ppp.nom.sg.fem": "pota",
+      "ppp.nom.sg.neut": "potum",
+      "ppp.gen.sg.masc": "poti",
+      "ppp.gen.sg.fem": "potae",
+      "ppp.gen.sg.neut": "poti",
+      "ppp.dat.sg.masc": "poto",
+      "ppp.dat.sg.fem": "potae",
+      "ppp.dat.sg.neut": "poto",
+      "ppp.acc.sg.masc": "potum",
+      "ppp.acc.sg.fem": "potam",
+      "ppp.acc.sg.neut": "potum",
+      "ppp.abl.sg.masc": "poto",
+      "ppp.abl.sg.fem": "pota",
+      "ppp.abl.sg.neut": "poto",
+      "ppp.voc.sg.masc": "pote",
+      "ppp.voc.sg.fem": "pota",
+      "ppp.voc.sg.neut": "potum",
+      "ppp.nom.pl.masc": "poti",
+      "ppp.nom.pl.fem": "potae",
+      "ppp.nom.pl.neut": "pota",
+      "ppp.gen.pl.masc": "potorum",
+      "ppp.gen.pl.fem": "potarum",
+      "ppp.gen.pl.neut": "potorum",
+      "ppp.dat.pl.masc": "potis",
+      "ppp.dat.pl.fem": "potis",
+      "ppp.dat.pl.neut": "potis",
+      "ppp.acc.pl.masc": "potos",
+      "ppp.acc.pl.fem": "potas",
+      "ppp.acc.pl.neut": "pota",
+      "ppp.abl.pl.masc": "potis",
+      "ppp.abl.pl.fem": "potis",
+      "ppp.abl.pl.neut": "potis",
+      "ppp.voc.pl.masc": "poti",
+      "ppp.voc.pl.fem": "potae",
+      "ppp.voc.pl.neut": "pota"
+    }
   }
 }

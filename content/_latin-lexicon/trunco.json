@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "trunca",
       "2pl.pres.imp.act": "truncate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: truncatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "truncatus",
+      "ppp.nom.sg.fem": "truncata",
+      "ppp.nom.sg.neut": "truncatum",
+      "ppp.gen.sg.masc": "truncati",
+      "ppp.gen.sg.fem": "truncatae",
+      "ppp.gen.sg.neut": "truncati",
+      "ppp.dat.sg.masc": "truncato",
+      "ppp.dat.sg.fem": "truncatae",
+      "ppp.dat.sg.neut": "truncato",
+      "ppp.acc.sg.masc": "truncatum",
+      "ppp.acc.sg.fem": "truncatam",
+      "ppp.acc.sg.neut": "truncatum",
+      "ppp.abl.sg.masc": "truncato",
+      "ppp.abl.sg.fem": "truncata",
+      "ppp.abl.sg.neut": "truncato",
+      "ppp.voc.sg.masc": "truncate",
+      "ppp.voc.sg.fem": "truncata",
+      "ppp.voc.sg.neut": "truncatum",
+      "ppp.nom.pl.masc": "truncati",
+      "ppp.nom.pl.fem": "truncatae",
+      "ppp.nom.pl.neut": "truncata",
+      "ppp.gen.pl.masc": "truncatorum",
+      "ppp.gen.pl.fem": "truncatarum",
+      "ppp.gen.pl.neut": "truncatorum",
+      "ppp.dat.pl.masc": "truncatis",
+      "ppp.dat.pl.fem": "truncatis",
+      "ppp.dat.pl.neut": "truncatis",
+      "ppp.acc.pl.masc": "truncatos",
+      "ppp.acc.pl.fem": "truncatas",
+      "ppp.acc.pl.neut": "truncata",
+      "ppp.abl.pl.masc": "truncatis",
+      "ppp.abl.pl.fem": "truncatis",
+      "ppp.abl.pl.neut": "truncatis",
+      "ppp.voc.pl.masc": "truncati",
+      "ppp.voc.pl.fem": "truncatae",
+      "ppp.voc.pl.neut": "truncata"
+    }
   }
 }

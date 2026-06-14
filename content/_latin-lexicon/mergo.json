@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "merge",
       "2pl.pres.imp.act": "mergite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mersus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mersus",
+      "ppp.nom.sg.fem": "mersa",
+      "ppp.nom.sg.neut": "mersum",
+      "ppp.gen.sg.masc": "mersi",
+      "ppp.gen.sg.fem": "mersae",
+      "ppp.gen.sg.neut": "mersi",
+      "ppp.dat.sg.masc": "merso",
+      "ppp.dat.sg.fem": "mersae",
+      "ppp.dat.sg.neut": "merso",
+      "ppp.acc.sg.masc": "mersum",
+      "ppp.acc.sg.fem": "mersam",
+      "ppp.acc.sg.neut": "mersum",
+      "ppp.abl.sg.masc": "merso",
+      "ppp.abl.sg.fem": "mersa",
+      "ppp.abl.sg.neut": "merso",
+      "ppp.voc.sg.masc": "merse",
+      "ppp.voc.sg.fem": "mersa",
+      "ppp.voc.sg.neut": "mersum",
+      "ppp.nom.pl.masc": "mersi",
+      "ppp.nom.pl.fem": "mersae",
+      "ppp.nom.pl.neut": "mersa",
+      "ppp.gen.pl.masc": "mersorum",
+      "ppp.gen.pl.fem": "mersarum",
+      "ppp.gen.pl.neut": "mersorum",
+      "ppp.dat.pl.masc": "mersis",
+      "ppp.dat.pl.fem": "mersis",
+      "ppp.dat.pl.neut": "mersis",
+      "ppp.acc.pl.masc": "mersos",
+      "ppp.acc.pl.fem": "mersas",
+      "ppp.acc.pl.neut": "mersa",
+      "ppp.abl.pl.masc": "mersis",
+      "ppp.abl.pl.fem": "mersis",
+      "ppp.abl.pl.neut": "mersis",
+      "ppp.voc.pl.masc": "mersi",
+      "ppp.voc.pl.fem": "mersae",
+      "ppp.voc.pl.neut": "mersa"
+    }
   }
 }

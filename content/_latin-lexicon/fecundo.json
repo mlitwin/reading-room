@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "fecunda",
       "2pl.pres.imp.act": "fecundate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fecundatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fecundatus",
+      "ppp.nom.sg.fem": "fecundata",
+      "ppp.nom.sg.neut": "fecundatum",
+      "ppp.gen.sg.masc": "fecundati",
+      "ppp.gen.sg.fem": "fecundatae",
+      "ppp.gen.sg.neut": "fecundati",
+      "ppp.dat.sg.masc": "fecundato",
+      "ppp.dat.sg.fem": "fecundatae",
+      "ppp.dat.sg.neut": "fecundato",
+      "ppp.acc.sg.masc": "fecundatum",
+      "ppp.acc.sg.fem": "fecundatam",
+      "ppp.acc.sg.neut": "fecundatum",
+      "ppp.abl.sg.masc": "fecundato",
+      "ppp.abl.sg.fem": "fecundata",
+      "ppp.abl.sg.neut": "fecundato",
+      "ppp.voc.sg.masc": "fecundate",
+      "ppp.voc.sg.fem": "fecundata",
+      "ppp.voc.sg.neut": "fecundatum",
+      "ppp.nom.pl.masc": "fecundati",
+      "ppp.nom.pl.fem": "fecundatae",
+      "ppp.nom.pl.neut": "fecundata",
+      "ppp.gen.pl.masc": "fecundatorum",
+      "ppp.gen.pl.fem": "fecundatarum",
+      "ppp.gen.pl.neut": "fecundatorum",
+      "ppp.dat.pl.masc": "fecundatis",
+      "ppp.dat.pl.fem": "fecundatis",
+      "ppp.dat.pl.neut": "fecundatis",
+      "ppp.acc.pl.masc": "fecundatos",
+      "ppp.acc.pl.fem": "fecundatas",
+      "ppp.acc.pl.neut": "fecundata",
+      "ppp.abl.pl.masc": "fecundatis",
+      "ppp.abl.pl.fem": "fecundatis",
+      "ppp.abl.pl.neut": "fecundatis",
+      "ppp.voc.pl.masc": "fecundati",
+      "ppp.voc.pl.fem": "fecundatae",
+      "ppp.voc.pl.neut": "fecundata"
+    }
   }
 }

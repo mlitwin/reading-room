@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "reple",
       "2pl.pres.imp.act": "replete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: repletus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "repletus",
+      "ppp.nom.sg.fem": "repleta",
+      "ppp.nom.sg.neut": "repletum",
+      "ppp.gen.sg.masc": "repleti",
+      "ppp.gen.sg.fem": "repletae",
+      "ppp.gen.sg.neut": "repleti",
+      "ppp.dat.sg.masc": "repleto",
+      "ppp.dat.sg.fem": "repletae",
+      "ppp.dat.sg.neut": "repleto",
+      "ppp.acc.sg.masc": "repletum",
+      "ppp.acc.sg.fem": "repletam",
+      "ppp.acc.sg.neut": "repletum",
+      "ppp.abl.sg.masc": "repleto",
+      "ppp.abl.sg.fem": "repleta",
+      "ppp.abl.sg.neut": "repleto",
+      "ppp.voc.sg.masc": "replete",
+      "ppp.voc.sg.fem": "repleta",
+      "ppp.voc.sg.neut": "repletum",
+      "ppp.nom.pl.masc": "repleti",
+      "ppp.nom.pl.fem": "repletae",
+      "ppp.nom.pl.neut": "repleta",
+      "ppp.gen.pl.masc": "repletorum",
+      "ppp.gen.pl.fem": "repletarum",
+      "ppp.gen.pl.neut": "repletorum",
+      "ppp.dat.pl.masc": "repletis",
+      "ppp.dat.pl.fem": "repletis",
+      "ppp.dat.pl.neut": "repletis",
+      "ppp.acc.pl.masc": "repletos",
+      "ppp.acc.pl.fem": "repletas",
+      "ppp.acc.pl.neut": "repleta",
+      "ppp.abl.pl.masc": "repletis",
+      "ppp.abl.pl.fem": "repletis",
+      "ppp.abl.pl.neut": "repletis",
+      "ppp.voc.pl.masc": "repleti",
+      "ppp.voc.pl.fem": "repletae",
+      "ppp.voc.pl.neut": "repleta"
+    }
   }
 }

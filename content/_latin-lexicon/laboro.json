@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "labora",
       "2pl.pres.imp.act": "laborate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: laboratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "laboratus",
+      "ppp.nom.sg.fem": "laborata",
+      "ppp.nom.sg.neut": "laboratum",
+      "ppp.gen.sg.masc": "laborati",
+      "ppp.gen.sg.fem": "laboratae",
+      "ppp.gen.sg.neut": "laborati",
+      "ppp.dat.sg.masc": "laborato",
+      "ppp.dat.sg.fem": "laboratae",
+      "ppp.dat.sg.neut": "laborato",
+      "ppp.acc.sg.masc": "laboratum",
+      "ppp.acc.sg.fem": "laboratam",
+      "ppp.acc.sg.neut": "laboratum",
+      "ppp.abl.sg.masc": "laborato",
+      "ppp.abl.sg.fem": "laborata",
+      "ppp.abl.sg.neut": "laborato",
+      "ppp.voc.sg.masc": "laborate",
+      "ppp.voc.sg.fem": "laborata",
+      "ppp.voc.sg.neut": "laboratum",
+      "ppp.nom.pl.masc": "laborati",
+      "ppp.nom.pl.fem": "laboratae",
+      "ppp.nom.pl.neut": "laborata",
+      "ppp.gen.pl.masc": "laboratorum",
+      "ppp.gen.pl.fem": "laboratarum",
+      "ppp.gen.pl.neut": "laboratorum",
+      "ppp.dat.pl.masc": "laboratis",
+      "ppp.dat.pl.fem": "laboratis",
+      "ppp.dat.pl.neut": "laboratis",
+      "ppp.acc.pl.masc": "laboratos",
+      "ppp.acc.pl.fem": "laboratas",
+      "ppp.acc.pl.neut": "laborata",
+      "ppp.abl.pl.masc": "laboratis",
+      "ppp.abl.pl.fem": "laboratis",
+      "ppp.abl.pl.neut": "laboratis",
+      "ppp.voc.pl.masc": "laborati",
+      "ppp.voc.pl.fem": "laboratae",
+      "ppp.voc.pl.neut": "laborata"
+    }
   }
 }

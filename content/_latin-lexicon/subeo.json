@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "subi",
       "2pl.pres.imp.act": "subite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: subitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "subitus",
+      "ppp.nom.sg.fem": "subita",
+      "ppp.nom.sg.neut": "subitum",
+      "ppp.gen.sg.masc": "subiti",
+      "ppp.gen.sg.fem": "subitae",
+      "ppp.gen.sg.neut": "subiti",
+      "ppp.dat.sg.masc": "subito",
+      "ppp.dat.sg.fem": "subitae",
+      "ppp.dat.sg.neut": "subito",
+      "ppp.acc.sg.masc": "subitum",
+      "ppp.acc.sg.fem": "subitam",
+      "ppp.acc.sg.neut": "subitum",
+      "ppp.abl.sg.masc": "subito",
+      "ppp.abl.sg.fem": "subita",
+      "ppp.abl.sg.neut": "subito",
+      "ppp.voc.sg.masc": "subite",
+      "ppp.voc.sg.fem": "subita",
+      "ppp.voc.sg.neut": "subitum",
+      "ppp.nom.pl.masc": "subiti",
+      "ppp.nom.pl.fem": "subitae",
+      "ppp.nom.pl.neut": "subita",
+      "ppp.gen.pl.masc": "subitorum",
+      "ppp.gen.pl.fem": "subitarum",
+      "ppp.gen.pl.neut": "subitorum",
+      "ppp.dat.pl.masc": "subitis",
+      "ppp.dat.pl.fem": "subitis",
+      "ppp.dat.pl.neut": "subitis",
+      "ppp.acc.pl.masc": "subitos",
+      "ppp.acc.pl.fem": "subitas",
+      "ppp.acc.pl.neut": "subita",
+      "ppp.abl.pl.masc": "subitis",
+      "ppp.abl.pl.fem": "subitis",
+      "ppp.abl.pl.neut": "subitis",
+      "ppp.voc.pl.masc": "subiti",
+      "ppp.voc.pl.fem": "subitae",
+      "ppp.voc.pl.neut": "subita"
+    }
   }
 }

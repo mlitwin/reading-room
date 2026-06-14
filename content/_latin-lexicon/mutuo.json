@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "mutua",
       "2pl.pres.imp.act": "mutuate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mutuatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mutuatus",
+      "ppp.nom.sg.fem": "mutuata",
+      "ppp.nom.sg.neut": "mutuatum",
+      "ppp.gen.sg.masc": "mutuati",
+      "ppp.gen.sg.fem": "mutuatae",
+      "ppp.gen.sg.neut": "mutuati",
+      "ppp.dat.sg.masc": "mutuato",
+      "ppp.dat.sg.fem": "mutuatae",
+      "ppp.dat.sg.neut": "mutuato",
+      "ppp.acc.sg.masc": "mutuatum",
+      "ppp.acc.sg.fem": "mutuatam",
+      "ppp.acc.sg.neut": "mutuatum",
+      "ppp.abl.sg.masc": "mutuato",
+      "ppp.abl.sg.fem": "mutuata",
+      "ppp.abl.sg.neut": "mutuato",
+      "ppp.voc.sg.masc": "mutuate",
+      "ppp.voc.sg.fem": "mutuata",
+      "ppp.voc.sg.neut": "mutuatum",
+      "ppp.nom.pl.masc": "mutuati",
+      "ppp.nom.pl.fem": "mutuatae",
+      "ppp.nom.pl.neut": "mutuata",
+      "ppp.gen.pl.masc": "mutuatorum",
+      "ppp.gen.pl.fem": "mutuatarum",
+      "ppp.gen.pl.neut": "mutuatorum",
+      "ppp.dat.pl.masc": "mutuatis",
+      "ppp.dat.pl.fem": "mutuatis",
+      "ppp.dat.pl.neut": "mutuatis",
+      "ppp.acc.pl.masc": "mutuatos",
+      "ppp.acc.pl.fem": "mutuatas",
+      "ppp.acc.pl.neut": "mutuata",
+      "ppp.abl.pl.masc": "mutuatis",
+      "ppp.abl.pl.fem": "mutuatis",
+      "ppp.abl.pl.neut": "mutuatis",
+      "ppp.voc.pl.masc": "mutuati",
+      "ppp.voc.pl.fem": "mutuatae",
+      "ppp.voc.pl.neut": "mutuata"
+    }
   }
 }

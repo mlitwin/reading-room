@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "caliga",
       "2pl.pres.imp.act": "caligate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: caligatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "caligatus",
+      "ppp.nom.sg.fem": "caligata",
+      "ppp.nom.sg.neut": "caligatum",
+      "ppp.gen.sg.masc": "caligati",
+      "ppp.gen.sg.fem": "caligatae",
+      "ppp.gen.sg.neut": "caligati",
+      "ppp.dat.sg.masc": "caligato",
+      "ppp.dat.sg.fem": "caligatae",
+      "ppp.dat.sg.neut": "caligato",
+      "ppp.acc.sg.masc": "caligatum",
+      "ppp.acc.sg.fem": "caligatam",
+      "ppp.acc.sg.neut": "caligatum",
+      "ppp.abl.sg.masc": "caligato",
+      "ppp.abl.sg.fem": "caligata",
+      "ppp.abl.sg.neut": "caligato",
+      "ppp.voc.sg.masc": "caligate",
+      "ppp.voc.sg.fem": "caligata",
+      "ppp.voc.sg.neut": "caligatum",
+      "ppp.nom.pl.masc": "caligati",
+      "ppp.nom.pl.fem": "caligatae",
+      "ppp.nom.pl.neut": "caligata",
+      "ppp.gen.pl.masc": "caligatorum",
+      "ppp.gen.pl.fem": "caligatarum",
+      "ppp.gen.pl.neut": "caligatorum",
+      "ppp.dat.pl.masc": "caligatis",
+      "ppp.dat.pl.fem": "caligatis",
+      "ppp.dat.pl.neut": "caligatis",
+      "ppp.acc.pl.masc": "caligatos",
+      "ppp.acc.pl.fem": "caligatas",
+      "ppp.acc.pl.neut": "caligata",
+      "ppp.abl.pl.masc": "caligatis",
+      "ppp.abl.pl.fem": "caligatis",
+      "ppp.abl.pl.neut": "caligatis",
+      "ppp.voc.pl.masc": "caligati",
+      "ppp.voc.pl.fem": "caligatae",
+      "ppp.voc.pl.neut": "caligata"
+    }
   }
 }

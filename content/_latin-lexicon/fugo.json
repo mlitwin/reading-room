@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "fuga",
       "2pl.pres.imp.act": "fugate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fugatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fugatus",
+      "ppp.nom.sg.fem": "fugata",
+      "ppp.nom.sg.neut": "fugatum",
+      "ppp.gen.sg.masc": "fugati",
+      "ppp.gen.sg.fem": "fugatae",
+      "ppp.gen.sg.neut": "fugati",
+      "ppp.dat.sg.masc": "fugato",
+      "ppp.dat.sg.fem": "fugatae",
+      "ppp.dat.sg.neut": "fugato",
+      "ppp.acc.sg.masc": "fugatum",
+      "ppp.acc.sg.fem": "fugatam",
+      "ppp.acc.sg.neut": "fugatum",
+      "ppp.abl.sg.masc": "fugato",
+      "ppp.abl.sg.fem": "fugata",
+      "ppp.abl.sg.neut": "fugato",
+      "ppp.voc.sg.masc": "fugate",
+      "ppp.voc.sg.fem": "fugata",
+      "ppp.voc.sg.neut": "fugatum",
+      "ppp.nom.pl.masc": "fugati",
+      "ppp.nom.pl.fem": "fugatae",
+      "ppp.nom.pl.neut": "fugata",
+      "ppp.gen.pl.masc": "fugatorum",
+      "ppp.gen.pl.fem": "fugatarum",
+      "ppp.gen.pl.neut": "fugatorum",
+      "ppp.dat.pl.masc": "fugatis",
+      "ppp.dat.pl.fem": "fugatis",
+      "ppp.dat.pl.neut": "fugatis",
+      "ppp.acc.pl.masc": "fugatos",
+      "ppp.acc.pl.fem": "fugatas",
+      "ppp.acc.pl.neut": "fugata",
+      "ppp.abl.pl.masc": "fugatis",
+      "ppp.abl.pl.fem": "fugatis",
+      "ppp.abl.pl.neut": "fugatis",
+      "ppp.voc.pl.masc": "fugati",
+      "ppp.voc.pl.fem": "fugatae",
+      "ppp.voc.pl.neut": "fugata"
+    }
   }
 }

@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "auge",
       "2pl.pres.imp.act": "augete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: auctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "auctus",
+      "ppp.nom.sg.fem": "aucta",
+      "ppp.nom.sg.neut": "auctum",
+      "ppp.gen.sg.masc": "aucti",
+      "ppp.gen.sg.fem": "auctae",
+      "ppp.gen.sg.neut": "aucti",
+      "ppp.dat.sg.masc": "aucto",
+      "ppp.dat.sg.fem": "auctae",
+      "ppp.dat.sg.neut": "aucto",
+      "ppp.acc.sg.masc": "auctum",
+      "ppp.acc.sg.fem": "auctam",
+      "ppp.acc.sg.neut": "auctum",
+      "ppp.abl.sg.masc": "aucto",
+      "ppp.abl.sg.fem": "aucta",
+      "ppp.abl.sg.neut": "aucto",
+      "ppp.voc.sg.masc": "aucte",
+      "ppp.voc.sg.fem": "aucta",
+      "ppp.voc.sg.neut": "auctum",
+      "ppp.nom.pl.masc": "aucti",
+      "ppp.nom.pl.fem": "auctae",
+      "ppp.nom.pl.neut": "aucta",
+      "ppp.gen.pl.masc": "auctorum",
+      "ppp.gen.pl.fem": "auctarum",
+      "ppp.gen.pl.neut": "auctorum",
+      "ppp.dat.pl.masc": "auctis",
+      "ppp.dat.pl.fem": "auctis",
+      "ppp.dat.pl.neut": "auctis",
+      "ppp.acc.pl.masc": "auctos",
+      "ppp.acc.pl.fem": "auctas",
+      "ppp.acc.pl.neut": "aucta",
+      "ppp.abl.pl.masc": "auctis",
+      "ppp.abl.pl.fem": "auctis",
+      "ppp.abl.pl.neut": "auctis",
+      "ppp.voc.pl.masc": "aucti",
+      "ppp.voc.pl.fem": "auctae",
+      "ppp.voc.pl.neut": "aucta"
+    }
   }
 }

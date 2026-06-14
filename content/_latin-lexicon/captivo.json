@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "captiva",
       "2pl.pres.imp.act": "captivate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: captivatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "captivatus",
+      "ppp.nom.sg.fem": "captivata",
+      "ppp.nom.sg.neut": "captivatum",
+      "ppp.gen.sg.masc": "captivati",
+      "ppp.gen.sg.fem": "captivatae",
+      "ppp.gen.sg.neut": "captivati",
+      "ppp.dat.sg.masc": "captivato",
+      "ppp.dat.sg.fem": "captivatae",
+      "ppp.dat.sg.neut": "captivato",
+      "ppp.acc.sg.masc": "captivatum",
+      "ppp.acc.sg.fem": "captivatam",
+      "ppp.acc.sg.neut": "captivatum",
+      "ppp.abl.sg.masc": "captivato",
+      "ppp.abl.sg.fem": "captivata",
+      "ppp.abl.sg.neut": "captivato",
+      "ppp.voc.sg.masc": "captivate",
+      "ppp.voc.sg.fem": "captivata",
+      "ppp.voc.sg.neut": "captivatum",
+      "ppp.nom.pl.masc": "captivati",
+      "ppp.nom.pl.fem": "captivatae",
+      "ppp.nom.pl.neut": "captivata",
+      "ppp.gen.pl.masc": "captivatorum",
+      "ppp.gen.pl.fem": "captivatarum",
+      "ppp.gen.pl.neut": "captivatorum",
+      "ppp.dat.pl.masc": "captivatis",
+      "ppp.dat.pl.fem": "captivatis",
+      "ppp.dat.pl.neut": "captivatis",
+      "ppp.acc.pl.masc": "captivatos",
+      "ppp.acc.pl.fem": "captivatas",
+      "ppp.acc.pl.neut": "captivata",
+      "ppp.abl.pl.masc": "captivatis",
+      "ppp.abl.pl.fem": "captivatis",
+      "ppp.abl.pl.neut": "captivatis",
+      "ppp.voc.pl.masc": "captivati",
+      "ppp.voc.pl.fem": "captivatae",
+      "ppp.voc.pl.neut": "captivata"
+    }
   }
 }

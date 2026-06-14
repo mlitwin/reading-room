@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "loque",
       "2pl.pres.imp.act": "loquite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: locutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "locutus",
+      "ppp.nom.sg.fem": "locuta",
+      "ppp.nom.sg.neut": "locutum",
+      "ppp.gen.sg.masc": "locuti",
+      "ppp.gen.sg.fem": "locutae",
+      "ppp.gen.sg.neut": "locuti",
+      "ppp.dat.sg.masc": "locuto",
+      "ppp.dat.sg.fem": "locutae",
+      "ppp.dat.sg.neut": "locuto",
+      "ppp.acc.sg.masc": "locutum",
+      "ppp.acc.sg.fem": "locutam",
+      "ppp.acc.sg.neut": "locutum",
+      "ppp.abl.sg.masc": "locuto",
+      "ppp.abl.sg.fem": "locuta",
+      "ppp.abl.sg.neut": "locuto",
+      "ppp.voc.sg.masc": "locute",
+      "ppp.voc.sg.fem": "locuta",
+      "ppp.voc.sg.neut": "locutum",
+      "ppp.nom.pl.masc": "locuti",
+      "ppp.nom.pl.fem": "locutae",
+      "ppp.nom.pl.neut": "locuta",
+      "ppp.gen.pl.masc": "locutorum",
+      "ppp.gen.pl.fem": "locutarum",
+      "ppp.gen.pl.neut": "locutorum",
+      "ppp.dat.pl.masc": "locutis",
+      "ppp.dat.pl.fem": "locutis",
+      "ppp.dat.pl.neut": "locutis",
+      "ppp.acc.pl.masc": "locutos",
+      "ppp.acc.pl.fem": "locutas",
+      "ppp.acc.pl.neut": "locuta",
+      "ppp.abl.pl.masc": "locutis",
+      "ppp.abl.pl.fem": "locutis",
+      "ppp.abl.pl.neut": "locutis",
+      "ppp.voc.pl.masc": "locuti",
+      "ppp.voc.pl.fem": "locutae",
+      "ppp.voc.pl.neut": "locuta"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "descende",
       "2pl.pres.imp.act": "descendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: descensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "descensus",
+      "ppp.nom.sg.fem": "descensa",
+      "ppp.nom.sg.neut": "descensum",
+      "ppp.gen.sg.masc": "descensi",
+      "ppp.gen.sg.fem": "descensae",
+      "ppp.gen.sg.neut": "descensi",
+      "ppp.dat.sg.masc": "descenso",
+      "ppp.dat.sg.fem": "descensae",
+      "ppp.dat.sg.neut": "descenso",
+      "ppp.acc.sg.masc": "descensum",
+      "ppp.acc.sg.fem": "descensam",
+      "ppp.acc.sg.neut": "descensum",
+      "ppp.abl.sg.masc": "descenso",
+      "ppp.abl.sg.fem": "descensa",
+      "ppp.abl.sg.neut": "descenso",
+      "ppp.voc.sg.masc": "descense",
+      "ppp.voc.sg.fem": "descensa",
+      "ppp.voc.sg.neut": "descensum",
+      "ppp.nom.pl.masc": "descensi",
+      "ppp.nom.pl.fem": "descensae",
+      "ppp.nom.pl.neut": "descensa",
+      "ppp.gen.pl.masc": "descensorum",
+      "ppp.gen.pl.fem": "descensarum",
+      "ppp.gen.pl.neut": "descensorum",
+      "ppp.dat.pl.masc": "descensis",
+      "ppp.dat.pl.fem": "descensis",
+      "ppp.dat.pl.neut": "descensis",
+      "ppp.acc.pl.masc": "descensos",
+      "ppp.acc.pl.fem": "descensas",
+      "ppp.acc.pl.neut": "descensa",
+      "ppp.abl.pl.masc": "descensis",
+      "ppp.abl.pl.fem": "descensis",
+      "ppp.abl.pl.neut": "descensis",
+      "ppp.voc.pl.masc": "descensi",
+      "ppp.voc.pl.fem": "descensae",
+      "ppp.voc.pl.neut": "descensa"
+    }
   }
 }

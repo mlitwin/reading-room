@@ -13,5 +13,63 @@
     "unite, join, combine",
     "make one, unify"
   ],
-  "reviewed": false
+  "reviewed": false,
+  "ppp_paradigm": {
+    "label": "PPP: unitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "unitus",
+      "ppp.nom.sg.fem": "unita",
+      "ppp.nom.sg.neut": "unitum",
+      "ppp.gen.sg.masc": "uniti",
+      "ppp.gen.sg.fem": "unitae",
+      "ppp.gen.sg.neut": "uniti",
+      "ppp.dat.sg.masc": "unito",
+      "ppp.dat.sg.fem": "unitae",
+      "ppp.dat.sg.neut": "unito",
+      "ppp.acc.sg.masc": "unitum",
+      "ppp.acc.sg.fem": "unitam",
+      "ppp.acc.sg.neut": "unitum",
+      "ppp.abl.sg.masc": "unito",
+      "ppp.abl.sg.fem": "unita",
+      "ppp.abl.sg.neut": "unito",
+      "ppp.voc.sg.masc": "unite",
+      "ppp.voc.sg.fem": "unita",
+      "ppp.voc.sg.neut": "unitum",
+      "ppp.nom.pl.masc": "uniti",
+      "ppp.nom.pl.fem": "unitae",
+      "ppp.nom.pl.neut": "unita",
+      "ppp.gen.pl.masc": "unitorum",
+      "ppp.gen.pl.fem": "unitarum",
+      "ppp.gen.pl.neut": "unitorum",
+      "ppp.dat.pl.masc": "unitis",
+      "ppp.dat.pl.fem": "unitis",
+      "ppp.dat.pl.neut": "unitis",
+      "ppp.acc.pl.masc": "unitos",
+      "ppp.acc.pl.fem": "unitas",
+      "ppp.acc.pl.neut": "unita",
+      "ppp.abl.pl.masc": "unitis",
+      "ppp.abl.pl.fem": "unitis",
+      "ppp.abl.pl.neut": "unitis",
+      "ppp.voc.pl.masc": "uniti",
+      "ppp.voc.pl.fem": "unitae",
+      "ppp.voc.pl.neut": "unita"
+    }
+  }
 }

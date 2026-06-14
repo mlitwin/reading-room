@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "dimitte",
       "2pl.pres.imp.act": "dimittite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dimissus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dimissus",
+      "ppp.nom.sg.fem": "dimissa",
+      "ppp.nom.sg.neut": "dimissum",
+      "ppp.gen.sg.masc": "dimissi",
+      "ppp.gen.sg.fem": "dimissae",
+      "ppp.gen.sg.neut": "dimissi",
+      "ppp.dat.sg.masc": "dimisso",
+      "ppp.dat.sg.fem": "dimissae",
+      "ppp.dat.sg.neut": "dimisso",
+      "ppp.acc.sg.masc": "dimissum",
+      "ppp.acc.sg.fem": "dimissam",
+      "ppp.acc.sg.neut": "dimissum",
+      "ppp.abl.sg.masc": "dimisso",
+      "ppp.abl.sg.fem": "dimissa",
+      "ppp.abl.sg.neut": "dimisso",
+      "ppp.voc.sg.masc": "dimisse",
+      "ppp.voc.sg.fem": "dimissa",
+      "ppp.voc.sg.neut": "dimissum",
+      "ppp.nom.pl.masc": "dimissi",
+      "ppp.nom.pl.fem": "dimissae",
+      "ppp.nom.pl.neut": "dimissa",
+      "ppp.gen.pl.masc": "dimissorum",
+      "ppp.gen.pl.fem": "dimissarum",
+      "ppp.gen.pl.neut": "dimissorum",
+      "ppp.dat.pl.masc": "dimissis",
+      "ppp.dat.pl.fem": "dimissis",
+      "ppp.dat.pl.neut": "dimissis",
+      "ppp.acc.pl.masc": "dimissos",
+      "ppp.acc.pl.fem": "dimissas",
+      "ppp.acc.pl.neut": "dimissa",
+      "ppp.abl.pl.masc": "dimissis",
+      "ppp.abl.pl.fem": "dimissis",
+      "ppp.abl.pl.neut": "dimissis",
+      "ppp.voc.pl.masc": "dimissi",
+      "ppp.voc.pl.fem": "dimissae",
+      "ppp.voc.pl.neut": "dimissa"
+    }
   }
 }

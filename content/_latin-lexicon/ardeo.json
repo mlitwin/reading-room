@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "arde",
       "2pl.pres.imp.act": "ardete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: arsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "arsus",
+      "ppp.nom.sg.fem": "arsa",
+      "ppp.nom.sg.neut": "arsum",
+      "ppp.gen.sg.masc": "arsi",
+      "ppp.gen.sg.fem": "arsae",
+      "ppp.gen.sg.neut": "arsi",
+      "ppp.dat.sg.masc": "arso",
+      "ppp.dat.sg.fem": "arsae",
+      "ppp.dat.sg.neut": "arso",
+      "ppp.acc.sg.masc": "arsum",
+      "ppp.acc.sg.fem": "arsam",
+      "ppp.acc.sg.neut": "arsum",
+      "ppp.abl.sg.masc": "arso",
+      "ppp.abl.sg.fem": "arsa",
+      "ppp.abl.sg.neut": "arso",
+      "ppp.voc.sg.masc": "arse",
+      "ppp.voc.sg.fem": "arsa",
+      "ppp.voc.sg.neut": "arsum",
+      "ppp.nom.pl.masc": "arsi",
+      "ppp.nom.pl.fem": "arsae",
+      "ppp.nom.pl.neut": "arsa",
+      "ppp.gen.pl.masc": "arsorum",
+      "ppp.gen.pl.fem": "arsarum",
+      "ppp.gen.pl.neut": "arsorum",
+      "ppp.dat.pl.masc": "arsis",
+      "ppp.dat.pl.fem": "arsis",
+      "ppp.dat.pl.neut": "arsis",
+      "ppp.acc.pl.masc": "arsos",
+      "ppp.acc.pl.fem": "arsas",
+      "ppp.acc.pl.neut": "arsa",
+      "ppp.abl.pl.masc": "arsis",
+      "ppp.abl.pl.fem": "arsis",
+      "ppp.abl.pl.neut": "arsis",
+      "ppp.voc.pl.masc": "arsi",
+      "ppp.voc.pl.fem": "arsae",
+      "ppp.voc.pl.neut": "arsa"
+    }
   }
 }

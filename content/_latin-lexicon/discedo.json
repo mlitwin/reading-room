@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "discede",
       "2pl.pres.imp.act": "discedite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: discessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "discessus",
+      "ppp.nom.sg.fem": "discessa",
+      "ppp.nom.sg.neut": "discessum",
+      "ppp.gen.sg.masc": "discessi",
+      "ppp.gen.sg.fem": "discessae",
+      "ppp.gen.sg.neut": "discessi",
+      "ppp.dat.sg.masc": "discesso",
+      "ppp.dat.sg.fem": "discessae",
+      "ppp.dat.sg.neut": "discesso",
+      "ppp.acc.sg.masc": "discessum",
+      "ppp.acc.sg.fem": "discessam",
+      "ppp.acc.sg.neut": "discessum",
+      "ppp.abl.sg.masc": "discesso",
+      "ppp.abl.sg.fem": "discessa",
+      "ppp.abl.sg.neut": "discesso",
+      "ppp.voc.sg.masc": "discesse",
+      "ppp.voc.sg.fem": "discessa",
+      "ppp.voc.sg.neut": "discessum",
+      "ppp.nom.pl.masc": "discessi",
+      "ppp.nom.pl.fem": "discessae",
+      "ppp.nom.pl.neut": "discessa",
+      "ppp.gen.pl.masc": "discessorum",
+      "ppp.gen.pl.fem": "discessarum",
+      "ppp.gen.pl.neut": "discessorum",
+      "ppp.dat.pl.masc": "discessis",
+      "ppp.dat.pl.fem": "discessis",
+      "ppp.dat.pl.neut": "discessis",
+      "ppp.acc.pl.masc": "discessos",
+      "ppp.acc.pl.fem": "discessas",
+      "ppp.acc.pl.neut": "discessa",
+      "ppp.abl.pl.masc": "discessis",
+      "ppp.abl.pl.fem": "discessis",
+      "ppp.abl.pl.neut": "discessis",
+      "ppp.voc.pl.masc": "discessi",
+      "ppp.voc.pl.fem": "discessae",
+      "ppp.voc.pl.neut": "discessa"
+    }
   }
 }

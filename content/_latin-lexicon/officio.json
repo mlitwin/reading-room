@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "office",
       "2pl.pres.imp.act": "officite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: offectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "offectus",
+      "ppp.nom.sg.fem": "offecta",
+      "ppp.nom.sg.neut": "offectum",
+      "ppp.gen.sg.masc": "offecti",
+      "ppp.gen.sg.fem": "offectae",
+      "ppp.gen.sg.neut": "offecti",
+      "ppp.dat.sg.masc": "offecto",
+      "ppp.dat.sg.fem": "offectae",
+      "ppp.dat.sg.neut": "offecto",
+      "ppp.acc.sg.masc": "offectum",
+      "ppp.acc.sg.fem": "offectam",
+      "ppp.acc.sg.neut": "offectum",
+      "ppp.abl.sg.masc": "offecto",
+      "ppp.abl.sg.fem": "offecta",
+      "ppp.abl.sg.neut": "offecto",
+      "ppp.voc.sg.masc": "offecte",
+      "ppp.voc.sg.fem": "offecta",
+      "ppp.voc.sg.neut": "offectum",
+      "ppp.nom.pl.masc": "offecti",
+      "ppp.nom.pl.fem": "offectae",
+      "ppp.nom.pl.neut": "offecta",
+      "ppp.gen.pl.masc": "offectorum",
+      "ppp.gen.pl.fem": "offectarum",
+      "ppp.gen.pl.neut": "offectorum",
+      "ppp.dat.pl.masc": "offectis",
+      "ppp.dat.pl.fem": "offectis",
+      "ppp.dat.pl.neut": "offectis",
+      "ppp.acc.pl.masc": "offectos",
+      "ppp.acc.pl.fem": "offectas",
+      "ppp.acc.pl.neut": "offecta",
+      "ppp.abl.pl.masc": "offectis",
+      "ppp.abl.pl.fem": "offectis",
+      "ppp.abl.pl.neut": "offectis",
+      "ppp.voc.pl.masc": "offecti",
+      "ppp.voc.pl.fem": "offectae",
+      "ppp.voc.pl.neut": "offecta"
+    }
   }
 }

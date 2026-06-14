@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "convoca",
       "2pl.pres.imp.act": "convocate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: convocatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "convocatus",
+      "ppp.nom.sg.fem": "convocata",
+      "ppp.nom.sg.neut": "convocatum",
+      "ppp.gen.sg.masc": "convocati",
+      "ppp.gen.sg.fem": "convocatae",
+      "ppp.gen.sg.neut": "convocati",
+      "ppp.dat.sg.masc": "convocato",
+      "ppp.dat.sg.fem": "convocatae",
+      "ppp.dat.sg.neut": "convocato",
+      "ppp.acc.sg.masc": "convocatum",
+      "ppp.acc.sg.fem": "convocatam",
+      "ppp.acc.sg.neut": "convocatum",
+      "ppp.abl.sg.masc": "convocato",
+      "ppp.abl.sg.fem": "convocata",
+      "ppp.abl.sg.neut": "convocato",
+      "ppp.voc.sg.masc": "convocate",
+      "ppp.voc.sg.fem": "convocata",
+      "ppp.voc.sg.neut": "convocatum",
+      "ppp.nom.pl.masc": "convocati",
+      "ppp.nom.pl.fem": "convocatae",
+      "ppp.nom.pl.neut": "convocata",
+      "ppp.gen.pl.masc": "convocatorum",
+      "ppp.gen.pl.fem": "convocatarum",
+      "ppp.gen.pl.neut": "convocatorum",
+      "ppp.dat.pl.masc": "convocatis",
+      "ppp.dat.pl.fem": "convocatis",
+      "ppp.dat.pl.neut": "convocatis",
+      "ppp.acc.pl.masc": "convocatos",
+      "ppp.acc.pl.fem": "convocatas",
+      "ppp.acc.pl.neut": "convocata",
+      "ppp.abl.pl.masc": "convocatis",
+      "ppp.abl.pl.fem": "convocatis",
+      "ppp.abl.pl.neut": "convocatis",
+      "ppp.voc.pl.masc": "convocati",
+      "ppp.voc.pl.fem": "convocatae",
+      "ppp.voc.pl.neut": "convocata"
+    }
   }
 }

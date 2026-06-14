@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "invade",
       "2pl.pres.imp.act": "invadite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: invasus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "invasus",
+      "ppp.nom.sg.fem": "invasa",
+      "ppp.nom.sg.neut": "invasum",
+      "ppp.gen.sg.masc": "invasi",
+      "ppp.gen.sg.fem": "invasae",
+      "ppp.gen.sg.neut": "invasi",
+      "ppp.dat.sg.masc": "invaso",
+      "ppp.dat.sg.fem": "invasae",
+      "ppp.dat.sg.neut": "invaso",
+      "ppp.acc.sg.masc": "invasum",
+      "ppp.acc.sg.fem": "invasam",
+      "ppp.acc.sg.neut": "invasum",
+      "ppp.abl.sg.masc": "invaso",
+      "ppp.abl.sg.fem": "invasa",
+      "ppp.abl.sg.neut": "invaso",
+      "ppp.voc.sg.masc": "invase",
+      "ppp.voc.sg.fem": "invasa",
+      "ppp.voc.sg.neut": "invasum",
+      "ppp.nom.pl.masc": "invasi",
+      "ppp.nom.pl.fem": "invasae",
+      "ppp.nom.pl.neut": "invasa",
+      "ppp.gen.pl.masc": "invasorum",
+      "ppp.gen.pl.fem": "invasarum",
+      "ppp.gen.pl.neut": "invasorum",
+      "ppp.dat.pl.masc": "invasis",
+      "ppp.dat.pl.fem": "invasis",
+      "ppp.dat.pl.neut": "invasis",
+      "ppp.acc.pl.masc": "invasos",
+      "ppp.acc.pl.fem": "invasas",
+      "ppp.acc.pl.neut": "invasa",
+      "ppp.abl.pl.masc": "invasis",
+      "ppp.abl.pl.fem": "invasis",
+      "ppp.abl.pl.neut": "invasis",
+      "ppp.voc.pl.masc": "invasi",
+      "ppp.voc.pl.fem": "invasae",
+      "ppp.voc.pl.neut": "invasa"
+    }
   }
 }

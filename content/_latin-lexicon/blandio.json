@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "blandi",
       "2pl.pres.imp.act": "blandite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: blanditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "blanditus",
+      "ppp.nom.sg.fem": "blandita",
+      "ppp.nom.sg.neut": "blanditum",
+      "ppp.gen.sg.masc": "blanditi",
+      "ppp.gen.sg.fem": "blanditae",
+      "ppp.gen.sg.neut": "blanditi",
+      "ppp.dat.sg.masc": "blandito",
+      "ppp.dat.sg.fem": "blanditae",
+      "ppp.dat.sg.neut": "blandito",
+      "ppp.acc.sg.masc": "blanditum",
+      "ppp.acc.sg.fem": "blanditam",
+      "ppp.acc.sg.neut": "blanditum",
+      "ppp.abl.sg.masc": "blandito",
+      "ppp.abl.sg.fem": "blandita",
+      "ppp.abl.sg.neut": "blandito",
+      "ppp.voc.sg.masc": "blandite",
+      "ppp.voc.sg.fem": "blandita",
+      "ppp.voc.sg.neut": "blanditum",
+      "ppp.nom.pl.masc": "blanditi",
+      "ppp.nom.pl.fem": "blanditae",
+      "ppp.nom.pl.neut": "blandita",
+      "ppp.gen.pl.masc": "blanditorum",
+      "ppp.gen.pl.fem": "blanditarum",
+      "ppp.gen.pl.neut": "blanditorum",
+      "ppp.dat.pl.masc": "blanditis",
+      "ppp.dat.pl.fem": "blanditis",
+      "ppp.dat.pl.neut": "blanditis",
+      "ppp.acc.pl.masc": "blanditos",
+      "ppp.acc.pl.fem": "blanditas",
+      "ppp.acc.pl.neut": "blandita",
+      "ppp.abl.pl.masc": "blanditis",
+      "ppp.abl.pl.fem": "blanditis",
+      "ppp.abl.pl.neut": "blanditis",
+      "ppp.voc.pl.masc": "blanditi",
+      "ppp.voc.pl.fem": "blanditae",
+      "ppp.voc.pl.neut": "blandita"
+    }
   }
 }

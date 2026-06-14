@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "pia",
       "2pl.pres.imp.act": "piate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: piatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "piatus",
+      "ppp.nom.sg.fem": "piata",
+      "ppp.nom.sg.neut": "piatum",
+      "ppp.gen.sg.masc": "piati",
+      "ppp.gen.sg.fem": "piatae",
+      "ppp.gen.sg.neut": "piati",
+      "ppp.dat.sg.masc": "piato",
+      "ppp.dat.sg.fem": "piatae",
+      "ppp.dat.sg.neut": "piato",
+      "ppp.acc.sg.masc": "piatum",
+      "ppp.acc.sg.fem": "piatam",
+      "ppp.acc.sg.neut": "piatum",
+      "ppp.abl.sg.masc": "piato",
+      "ppp.abl.sg.fem": "piata",
+      "ppp.abl.sg.neut": "piato",
+      "ppp.voc.sg.masc": "piate",
+      "ppp.voc.sg.fem": "piata",
+      "ppp.voc.sg.neut": "piatum",
+      "ppp.nom.pl.masc": "piati",
+      "ppp.nom.pl.fem": "piatae",
+      "ppp.nom.pl.neut": "piata",
+      "ppp.gen.pl.masc": "piatorum",
+      "ppp.gen.pl.fem": "piatarum",
+      "ppp.gen.pl.neut": "piatorum",
+      "ppp.dat.pl.masc": "piatis",
+      "ppp.dat.pl.fem": "piatis",
+      "ppp.dat.pl.neut": "piatis",
+      "ppp.acc.pl.masc": "piatos",
+      "ppp.acc.pl.fem": "piatas",
+      "ppp.acc.pl.neut": "piata",
+      "ppp.abl.pl.masc": "piatis",
+      "ppp.abl.pl.fem": "piatis",
+      "ppp.abl.pl.neut": "piatis",
+      "ppp.voc.pl.masc": "piati",
+      "ppp.voc.pl.fem": "piatae",
+      "ppp.voc.pl.neut": "piata"
+    }
   }
 }

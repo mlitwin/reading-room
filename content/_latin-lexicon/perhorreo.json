@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "perhorre",
       "2pl.pres.imp.act": "perhorrete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: perhorritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "perhorritus",
+      "ppp.nom.sg.fem": "perhorrita",
+      "ppp.nom.sg.neut": "perhorritum",
+      "ppp.gen.sg.masc": "perhorriti",
+      "ppp.gen.sg.fem": "perhorritae",
+      "ppp.gen.sg.neut": "perhorriti",
+      "ppp.dat.sg.masc": "perhorrito",
+      "ppp.dat.sg.fem": "perhorritae",
+      "ppp.dat.sg.neut": "perhorrito",
+      "ppp.acc.sg.masc": "perhorritum",
+      "ppp.acc.sg.fem": "perhorritam",
+      "ppp.acc.sg.neut": "perhorritum",
+      "ppp.abl.sg.masc": "perhorrito",
+      "ppp.abl.sg.fem": "perhorrita",
+      "ppp.abl.sg.neut": "perhorrito",
+      "ppp.voc.sg.masc": "perhorrite",
+      "ppp.voc.sg.fem": "perhorrita",
+      "ppp.voc.sg.neut": "perhorritum",
+      "ppp.nom.pl.masc": "perhorriti",
+      "ppp.nom.pl.fem": "perhorritae",
+      "ppp.nom.pl.neut": "perhorrita",
+      "ppp.gen.pl.masc": "perhorritorum",
+      "ppp.gen.pl.fem": "perhorritarum",
+      "ppp.gen.pl.neut": "perhorritorum",
+      "ppp.dat.pl.masc": "perhorritis",
+      "ppp.dat.pl.fem": "perhorritis",
+      "ppp.dat.pl.neut": "perhorritis",
+      "ppp.acc.pl.masc": "perhorritos",
+      "ppp.acc.pl.fem": "perhorritas",
+      "ppp.acc.pl.neut": "perhorrita",
+      "ppp.abl.pl.masc": "perhorritis",
+      "ppp.abl.pl.fem": "perhorritis",
+      "ppp.abl.pl.neut": "perhorritis",
+      "ppp.voc.pl.masc": "perhorriti",
+      "ppp.voc.pl.fem": "perhorritae",
+      "ppp.voc.pl.neut": "perhorrita"
+    }
   }
 }

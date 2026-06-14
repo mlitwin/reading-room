@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "specta",
       "2pl.pres.imp.act": "spectate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: spectatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "spectatus",
+      "ppp.nom.sg.fem": "spectata",
+      "ppp.nom.sg.neut": "spectatum",
+      "ppp.gen.sg.masc": "spectati",
+      "ppp.gen.sg.fem": "spectatae",
+      "ppp.gen.sg.neut": "spectati",
+      "ppp.dat.sg.masc": "spectato",
+      "ppp.dat.sg.fem": "spectatae",
+      "ppp.dat.sg.neut": "spectato",
+      "ppp.acc.sg.masc": "spectatum",
+      "ppp.acc.sg.fem": "spectatam",
+      "ppp.acc.sg.neut": "spectatum",
+      "ppp.abl.sg.masc": "spectato",
+      "ppp.abl.sg.fem": "spectata",
+      "ppp.abl.sg.neut": "spectato",
+      "ppp.voc.sg.masc": "spectate",
+      "ppp.voc.sg.fem": "spectata",
+      "ppp.voc.sg.neut": "spectatum",
+      "ppp.nom.pl.masc": "spectati",
+      "ppp.nom.pl.fem": "spectatae",
+      "ppp.nom.pl.neut": "spectata",
+      "ppp.gen.pl.masc": "spectatorum",
+      "ppp.gen.pl.fem": "spectatarum",
+      "ppp.gen.pl.neut": "spectatorum",
+      "ppp.dat.pl.masc": "spectatis",
+      "ppp.dat.pl.fem": "spectatis",
+      "ppp.dat.pl.neut": "spectatis",
+      "ppp.acc.pl.masc": "spectatos",
+      "ppp.acc.pl.fem": "spectatas",
+      "ppp.acc.pl.neut": "spectata",
+      "ppp.abl.pl.masc": "spectatis",
+      "ppp.abl.pl.fem": "spectatis",
+      "ppp.abl.pl.neut": "spectatis",
+      "ppp.voc.pl.masc": "spectati",
+      "ppp.voc.pl.fem": "spectatae",
+      "ppp.voc.pl.neut": "spectata"
+    }
   }
 }

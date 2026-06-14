@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "consiste",
       "2pl.pres.imp.act": "consistite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: constitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "constitus",
+      "ppp.nom.sg.fem": "constita",
+      "ppp.nom.sg.neut": "constitum",
+      "ppp.gen.sg.masc": "constiti",
+      "ppp.gen.sg.fem": "constitae",
+      "ppp.gen.sg.neut": "constiti",
+      "ppp.dat.sg.masc": "constito",
+      "ppp.dat.sg.fem": "constitae",
+      "ppp.dat.sg.neut": "constito",
+      "ppp.acc.sg.masc": "constitum",
+      "ppp.acc.sg.fem": "constitam",
+      "ppp.acc.sg.neut": "constitum",
+      "ppp.abl.sg.masc": "constito",
+      "ppp.abl.sg.fem": "constita",
+      "ppp.abl.sg.neut": "constito",
+      "ppp.voc.sg.masc": "constite",
+      "ppp.voc.sg.fem": "constita",
+      "ppp.voc.sg.neut": "constitum",
+      "ppp.nom.pl.masc": "constiti",
+      "ppp.nom.pl.fem": "constitae",
+      "ppp.nom.pl.neut": "constita",
+      "ppp.gen.pl.masc": "constitorum",
+      "ppp.gen.pl.fem": "constitarum",
+      "ppp.gen.pl.neut": "constitorum",
+      "ppp.dat.pl.masc": "constitis",
+      "ppp.dat.pl.fem": "constitis",
+      "ppp.dat.pl.neut": "constitis",
+      "ppp.acc.pl.masc": "constitos",
+      "ppp.acc.pl.fem": "constitas",
+      "ppp.acc.pl.neut": "constita",
+      "ppp.abl.pl.masc": "constitis",
+      "ppp.abl.pl.fem": "constitis",
+      "ppp.abl.pl.neut": "constitis",
+      "ppp.voc.pl.masc": "constiti",
+      "ppp.voc.pl.fem": "constitae",
+      "ppp.voc.pl.neut": "constita"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "renova",
       "2pl.pres.imp.act": "renovate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: renovatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "renovatus",
+      "ppp.nom.sg.fem": "renovata",
+      "ppp.nom.sg.neut": "renovatum",
+      "ppp.gen.sg.masc": "renovati",
+      "ppp.gen.sg.fem": "renovatae",
+      "ppp.gen.sg.neut": "renovati",
+      "ppp.dat.sg.masc": "renovato",
+      "ppp.dat.sg.fem": "renovatae",
+      "ppp.dat.sg.neut": "renovato",
+      "ppp.acc.sg.masc": "renovatum",
+      "ppp.acc.sg.fem": "renovatam",
+      "ppp.acc.sg.neut": "renovatum",
+      "ppp.abl.sg.masc": "renovato",
+      "ppp.abl.sg.fem": "renovata",
+      "ppp.abl.sg.neut": "renovato",
+      "ppp.voc.sg.masc": "renovate",
+      "ppp.voc.sg.fem": "renovata",
+      "ppp.voc.sg.neut": "renovatum",
+      "ppp.nom.pl.masc": "renovati",
+      "ppp.nom.pl.fem": "renovatae",
+      "ppp.nom.pl.neut": "renovata",
+      "ppp.gen.pl.masc": "renovatorum",
+      "ppp.gen.pl.fem": "renovatarum",
+      "ppp.gen.pl.neut": "renovatorum",
+      "ppp.dat.pl.masc": "renovatis",
+      "ppp.dat.pl.fem": "renovatis",
+      "ppp.dat.pl.neut": "renovatis",
+      "ppp.acc.pl.masc": "renovatos",
+      "ppp.acc.pl.fem": "renovatas",
+      "ppp.acc.pl.neut": "renovata",
+      "ppp.abl.pl.masc": "renovatis",
+      "ppp.abl.pl.fem": "renovatis",
+      "ppp.abl.pl.neut": "renovatis",
+      "ppp.voc.pl.masc": "renovati",
+      "ppp.voc.pl.fem": "renovatae",
+      "ppp.voc.pl.neut": "renovata"
+    }
   }
 }

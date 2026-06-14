@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "coge",
       "2pl.pres.imp.act": "cogite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: coactus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "coactus",
+      "ppp.nom.sg.fem": "coacta",
+      "ppp.nom.sg.neut": "coactum",
+      "ppp.gen.sg.masc": "coacti",
+      "ppp.gen.sg.fem": "coactae",
+      "ppp.gen.sg.neut": "coacti",
+      "ppp.dat.sg.masc": "coacto",
+      "ppp.dat.sg.fem": "coactae",
+      "ppp.dat.sg.neut": "coacto",
+      "ppp.acc.sg.masc": "coactum",
+      "ppp.acc.sg.fem": "coactam",
+      "ppp.acc.sg.neut": "coactum",
+      "ppp.abl.sg.masc": "coacto",
+      "ppp.abl.sg.fem": "coacta",
+      "ppp.abl.sg.neut": "coacto",
+      "ppp.voc.sg.masc": "coacte",
+      "ppp.voc.sg.fem": "coacta",
+      "ppp.voc.sg.neut": "coactum",
+      "ppp.nom.pl.masc": "coacti",
+      "ppp.nom.pl.fem": "coactae",
+      "ppp.nom.pl.neut": "coacta",
+      "ppp.gen.pl.masc": "coactorum",
+      "ppp.gen.pl.fem": "coactarum",
+      "ppp.gen.pl.neut": "coactorum",
+      "ppp.dat.pl.masc": "coactis",
+      "ppp.dat.pl.fem": "coactis",
+      "ppp.dat.pl.neut": "coactis",
+      "ppp.acc.pl.masc": "coactos",
+      "ppp.acc.pl.fem": "coactas",
+      "ppp.acc.pl.neut": "coacta",
+      "ppp.abl.pl.masc": "coactis",
+      "ppp.abl.pl.fem": "coactis",
+      "ppp.abl.pl.neut": "coactis",
+      "ppp.voc.pl.masc": "coacti",
+      "ppp.voc.pl.fem": "coactae",
+      "ppp.voc.pl.neut": "coacta"
+    }
   }
 }

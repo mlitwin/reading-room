@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "inhaere",
       "2pl.pres.imp.act": "inhaerete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: inhaesus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "inhaesus",
+      "ppp.nom.sg.fem": "inhaesa",
+      "ppp.nom.sg.neut": "inhaesum",
+      "ppp.gen.sg.masc": "inhaesi",
+      "ppp.gen.sg.fem": "inhaesae",
+      "ppp.gen.sg.neut": "inhaesi",
+      "ppp.dat.sg.masc": "inhaeso",
+      "ppp.dat.sg.fem": "inhaesae",
+      "ppp.dat.sg.neut": "inhaeso",
+      "ppp.acc.sg.masc": "inhaesum",
+      "ppp.acc.sg.fem": "inhaesam",
+      "ppp.acc.sg.neut": "inhaesum",
+      "ppp.abl.sg.masc": "inhaeso",
+      "ppp.abl.sg.fem": "inhaesa",
+      "ppp.abl.sg.neut": "inhaeso",
+      "ppp.voc.sg.masc": "inhaese",
+      "ppp.voc.sg.fem": "inhaesa",
+      "ppp.voc.sg.neut": "inhaesum",
+      "ppp.nom.pl.masc": "inhaesi",
+      "ppp.nom.pl.fem": "inhaesae",
+      "ppp.nom.pl.neut": "inhaesa",
+      "ppp.gen.pl.masc": "inhaesorum",
+      "ppp.gen.pl.fem": "inhaesarum",
+      "ppp.gen.pl.neut": "inhaesorum",
+      "ppp.dat.pl.masc": "inhaesis",
+      "ppp.dat.pl.fem": "inhaesis",
+      "ppp.dat.pl.neut": "inhaesis",
+      "ppp.acc.pl.masc": "inhaesos",
+      "ppp.acc.pl.fem": "inhaesas",
+      "ppp.acc.pl.neut": "inhaesa",
+      "ppp.abl.pl.masc": "inhaesis",
+      "ppp.abl.pl.fem": "inhaesis",
+      "ppp.abl.pl.neut": "inhaesis",
+      "ppp.voc.pl.masc": "inhaesi",
+      "ppp.voc.pl.fem": "inhaesae",
+      "ppp.voc.pl.neut": "inhaesa"
+    }
   }
 }

@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "sperne",
       "2pl.pres.imp.act": "spernite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: spretus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "spretus",
+      "ppp.nom.sg.fem": "spreta",
+      "ppp.nom.sg.neut": "spretum",
+      "ppp.gen.sg.masc": "spreti",
+      "ppp.gen.sg.fem": "spretae",
+      "ppp.gen.sg.neut": "spreti",
+      "ppp.dat.sg.masc": "spreto",
+      "ppp.dat.sg.fem": "spretae",
+      "ppp.dat.sg.neut": "spreto",
+      "ppp.acc.sg.masc": "spretum",
+      "ppp.acc.sg.fem": "spretam",
+      "ppp.acc.sg.neut": "spretum",
+      "ppp.abl.sg.masc": "spreto",
+      "ppp.abl.sg.fem": "spreta",
+      "ppp.abl.sg.neut": "spreto",
+      "ppp.voc.sg.masc": "sprete",
+      "ppp.voc.sg.fem": "spreta",
+      "ppp.voc.sg.neut": "spretum",
+      "ppp.nom.pl.masc": "spreti",
+      "ppp.nom.pl.fem": "spretae",
+      "ppp.nom.pl.neut": "spreta",
+      "ppp.gen.pl.masc": "spretorum",
+      "ppp.gen.pl.fem": "spretarum",
+      "ppp.gen.pl.neut": "spretorum",
+      "ppp.dat.pl.masc": "spretis",
+      "ppp.dat.pl.fem": "spretis",
+      "ppp.dat.pl.neut": "spretis",
+      "ppp.acc.pl.masc": "spretos",
+      "ppp.acc.pl.fem": "spretas",
+      "ppp.acc.pl.neut": "spreta",
+      "ppp.abl.pl.masc": "spretis",
+      "ppp.abl.pl.fem": "spretis",
+      "ppp.abl.pl.neut": "spretis",
+      "ppp.voc.pl.masc": "spreti",
+      "ppp.voc.pl.fem": "spretae",
+      "ppp.voc.pl.neut": "spreta"
+    }
   }
 }

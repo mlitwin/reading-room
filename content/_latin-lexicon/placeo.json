@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "place",
       "2pl.pres.imp.act": "placete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: placitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "placitus",
+      "ppp.nom.sg.fem": "placita",
+      "ppp.nom.sg.neut": "placitum",
+      "ppp.gen.sg.masc": "placiti",
+      "ppp.gen.sg.fem": "placitae",
+      "ppp.gen.sg.neut": "placiti",
+      "ppp.dat.sg.masc": "placito",
+      "ppp.dat.sg.fem": "placitae",
+      "ppp.dat.sg.neut": "placito",
+      "ppp.acc.sg.masc": "placitum",
+      "ppp.acc.sg.fem": "placitam",
+      "ppp.acc.sg.neut": "placitum",
+      "ppp.abl.sg.masc": "placito",
+      "ppp.abl.sg.fem": "placita",
+      "ppp.abl.sg.neut": "placito",
+      "ppp.voc.sg.masc": "placite",
+      "ppp.voc.sg.fem": "placita",
+      "ppp.voc.sg.neut": "placitum",
+      "ppp.nom.pl.masc": "placiti",
+      "ppp.nom.pl.fem": "placitae",
+      "ppp.nom.pl.neut": "placita",
+      "ppp.gen.pl.masc": "placitorum",
+      "ppp.gen.pl.fem": "placitarum",
+      "ppp.gen.pl.neut": "placitorum",
+      "ppp.dat.pl.masc": "placitis",
+      "ppp.dat.pl.fem": "placitis",
+      "ppp.dat.pl.neut": "placitis",
+      "ppp.acc.pl.masc": "placitos",
+      "ppp.acc.pl.fem": "placitas",
+      "ppp.acc.pl.neut": "placita",
+      "ppp.abl.pl.masc": "placitis",
+      "ppp.abl.pl.fem": "placitis",
+      "ppp.abl.pl.neut": "placitis",
+      "ppp.voc.pl.masc": "placiti",
+      "ppp.voc.pl.fem": "placitae",
+      "ppp.voc.pl.neut": "placita"
+    }
   }
 }

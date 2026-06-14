@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "annue",
       "2pl.pres.imp.act": "annuite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: annutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "annutus",
+      "ppp.nom.sg.fem": "annuta",
+      "ppp.nom.sg.neut": "annutum",
+      "ppp.gen.sg.masc": "annuti",
+      "ppp.gen.sg.fem": "annutae",
+      "ppp.gen.sg.neut": "annuti",
+      "ppp.dat.sg.masc": "annuto",
+      "ppp.dat.sg.fem": "annutae",
+      "ppp.dat.sg.neut": "annuto",
+      "ppp.acc.sg.masc": "annutum",
+      "ppp.acc.sg.fem": "annutam",
+      "ppp.acc.sg.neut": "annutum",
+      "ppp.abl.sg.masc": "annuto",
+      "ppp.abl.sg.fem": "annuta",
+      "ppp.abl.sg.neut": "annuto",
+      "ppp.voc.sg.masc": "annute",
+      "ppp.voc.sg.fem": "annuta",
+      "ppp.voc.sg.neut": "annutum",
+      "ppp.nom.pl.masc": "annuti",
+      "ppp.nom.pl.fem": "annutae",
+      "ppp.nom.pl.neut": "annuta",
+      "ppp.gen.pl.masc": "annutorum",
+      "ppp.gen.pl.fem": "annutarum",
+      "ppp.gen.pl.neut": "annutorum",
+      "ppp.dat.pl.masc": "annutis",
+      "ppp.dat.pl.fem": "annutis",
+      "ppp.dat.pl.neut": "annutis",
+      "ppp.acc.pl.masc": "annutos",
+      "ppp.acc.pl.fem": "annutas",
+      "ppp.acc.pl.neut": "annuta",
+      "ppp.abl.pl.masc": "annutis",
+      "ppp.abl.pl.fem": "annutis",
+      "ppp.abl.pl.neut": "annutis",
+      "ppp.voc.pl.masc": "annuti",
+      "ppp.voc.pl.fem": "annutae",
+      "ppp.voc.pl.neut": "annuta"
+    }
   }
 }

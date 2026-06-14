@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "praebe",
       "2pl.pres.imp.act": "praebete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: praebitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "praebitus",
+      "ppp.nom.sg.fem": "praebita",
+      "ppp.nom.sg.neut": "praebitum",
+      "ppp.gen.sg.masc": "praebiti",
+      "ppp.gen.sg.fem": "praebitae",
+      "ppp.gen.sg.neut": "praebiti",
+      "ppp.dat.sg.masc": "praebito",
+      "ppp.dat.sg.fem": "praebitae",
+      "ppp.dat.sg.neut": "praebito",
+      "ppp.acc.sg.masc": "praebitum",
+      "ppp.acc.sg.fem": "praebitam",
+      "ppp.acc.sg.neut": "praebitum",
+      "ppp.abl.sg.masc": "praebito",
+      "ppp.abl.sg.fem": "praebita",
+      "ppp.abl.sg.neut": "praebito",
+      "ppp.voc.sg.masc": "praebite",
+      "ppp.voc.sg.fem": "praebita",
+      "ppp.voc.sg.neut": "praebitum",
+      "ppp.nom.pl.masc": "praebiti",
+      "ppp.nom.pl.fem": "praebitae",
+      "ppp.nom.pl.neut": "praebita",
+      "ppp.gen.pl.masc": "praebitorum",
+      "ppp.gen.pl.fem": "praebitarum",
+      "ppp.gen.pl.neut": "praebitorum",
+      "ppp.dat.pl.masc": "praebitis",
+      "ppp.dat.pl.fem": "praebitis",
+      "ppp.dat.pl.neut": "praebitis",
+      "ppp.acc.pl.masc": "praebitos",
+      "ppp.acc.pl.fem": "praebitas",
+      "ppp.acc.pl.neut": "praebita",
+      "ppp.abl.pl.masc": "praebitis",
+      "ppp.abl.pl.fem": "praebitis",
+      "ppp.abl.pl.neut": "praebitis",
+      "ppp.voc.pl.masc": "praebiti",
+      "ppp.voc.pl.fem": "praebitae",
+      "ppp.voc.pl.neut": "praebita"
+    }
   }
 }

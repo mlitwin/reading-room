@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "grega",
       "2pl.pres.imp.act": "gregate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: gregatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "gregatus",
+      "ppp.nom.sg.fem": "gregata",
+      "ppp.nom.sg.neut": "gregatum",
+      "ppp.gen.sg.masc": "gregati",
+      "ppp.gen.sg.fem": "gregatae",
+      "ppp.gen.sg.neut": "gregati",
+      "ppp.dat.sg.masc": "gregato",
+      "ppp.dat.sg.fem": "gregatae",
+      "ppp.dat.sg.neut": "gregato",
+      "ppp.acc.sg.masc": "gregatum",
+      "ppp.acc.sg.fem": "gregatam",
+      "ppp.acc.sg.neut": "gregatum",
+      "ppp.abl.sg.masc": "gregato",
+      "ppp.abl.sg.fem": "gregata",
+      "ppp.abl.sg.neut": "gregato",
+      "ppp.voc.sg.masc": "gregate",
+      "ppp.voc.sg.fem": "gregata",
+      "ppp.voc.sg.neut": "gregatum",
+      "ppp.nom.pl.masc": "gregati",
+      "ppp.nom.pl.fem": "gregatae",
+      "ppp.nom.pl.neut": "gregata",
+      "ppp.gen.pl.masc": "gregatorum",
+      "ppp.gen.pl.fem": "gregatarum",
+      "ppp.gen.pl.neut": "gregatorum",
+      "ppp.dat.pl.masc": "gregatis",
+      "ppp.dat.pl.fem": "gregatis",
+      "ppp.dat.pl.neut": "gregatis",
+      "ppp.acc.pl.masc": "gregatos",
+      "ppp.acc.pl.fem": "gregatas",
+      "ppp.acc.pl.neut": "gregata",
+      "ppp.abl.pl.masc": "gregatis",
+      "ppp.abl.pl.fem": "gregatis",
+      "ppp.abl.pl.neut": "gregatis",
+      "ppp.voc.pl.masc": "gregati",
+      "ppp.voc.pl.fem": "gregatae",
+      "ppp.voc.pl.neut": "gregata"
+    }
   }
 }

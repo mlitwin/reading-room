@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "medica",
       "2pl.pres.imp.act": "medicate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: medicatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "medicatus",
+      "ppp.nom.sg.fem": "medicata",
+      "ppp.nom.sg.neut": "medicatum",
+      "ppp.gen.sg.masc": "medicati",
+      "ppp.gen.sg.fem": "medicatae",
+      "ppp.gen.sg.neut": "medicati",
+      "ppp.dat.sg.masc": "medicato",
+      "ppp.dat.sg.fem": "medicatae",
+      "ppp.dat.sg.neut": "medicato",
+      "ppp.acc.sg.masc": "medicatum",
+      "ppp.acc.sg.fem": "medicatam",
+      "ppp.acc.sg.neut": "medicatum",
+      "ppp.abl.sg.masc": "medicato",
+      "ppp.abl.sg.fem": "medicata",
+      "ppp.abl.sg.neut": "medicato",
+      "ppp.voc.sg.masc": "medicate",
+      "ppp.voc.sg.fem": "medicata",
+      "ppp.voc.sg.neut": "medicatum",
+      "ppp.nom.pl.masc": "medicati",
+      "ppp.nom.pl.fem": "medicatae",
+      "ppp.nom.pl.neut": "medicata",
+      "ppp.gen.pl.masc": "medicatorum",
+      "ppp.gen.pl.fem": "medicatarum",
+      "ppp.gen.pl.neut": "medicatorum",
+      "ppp.dat.pl.masc": "medicatis",
+      "ppp.dat.pl.fem": "medicatis",
+      "ppp.dat.pl.neut": "medicatis",
+      "ppp.acc.pl.masc": "medicatos",
+      "ppp.acc.pl.fem": "medicatas",
+      "ppp.acc.pl.neut": "medicata",
+      "ppp.abl.pl.masc": "medicatis",
+      "ppp.abl.pl.fem": "medicatis",
+      "ppp.abl.pl.neut": "medicatis",
+      "ppp.voc.pl.masc": "medicati",
+      "ppp.voc.pl.fem": "medicatae",
+      "ppp.voc.pl.neut": "medicata"
+    }
   }
 }

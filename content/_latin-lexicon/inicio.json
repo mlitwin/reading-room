@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "inice",
       "2pl.pres.imp.act": "inicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: injectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "injectus",
+      "ppp.nom.sg.fem": "injecta",
+      "ppp.nom.sg.neut": "injectum",
+      "ppp.gen.sg.masc": "injecti",
+      "ppp.gen.sg.fem": "injectae",
+      "ppp.gen.sg.neut": "injecti",
+      "ppp.dat.sg.masc": "injecto",
+      "ppp.dat.sg.fem": "injectae",
+      "ppp.dat.sg.neut": "injecto",
+      "ppp.acc.sg.masc": "injectum",
+      "ppp.acc.sg.fem": "injectam",
+      "ppp.acc.sg.neut": "injectum",
+      "ppp.abl.sg.masc": "injecto",
+      "ppp.abl.sg.fem": "injecta",
+      "ppp.abl.sg.neut": "injecto",
+      "ppp.voc.sg.masc": "injecte",
+      "ppp.voc.sg.fem": "injecta",
+      "ppp.voc.sg.neut": "injectum",
+      "ppp.nom.pl.masc": "injecti",
+      "ppp.nom.pl.fem": "injectae",
+      "ppp.nom.pl.neut": "injecta",
+      "ppp.gen.pl.masc": "injectorum",
+      "ppp.gen.pl.fem": "injectarum",
+      "ppp.gen.pl.neut": "injectorum",
+      "ppp.dat.pl.masc": "injectis",
+      "ppp.dat.pl.fem": "injectis",
+      "ppp.dat.pl.neut": "injectis",
+      "ppp.acc.pl.masc": "injectos",
+      "ppp.acc.pl.fem": "injectas",
+      "ppp.acc.pl.neut": "injecta",
+      "ppp.abl.pl.masc": "injectis",
+      "ppp.abl.pl.fem": "injectis",
+      "ppp.abl.pl.neut": "injectis",
+      "ppp.voc.pl.masc": "injecti",
+      "ppp.voc.pl.fem": "injectae",
+      "ppp.voc.pl.neut": "injecta"
+    }
   }
 }

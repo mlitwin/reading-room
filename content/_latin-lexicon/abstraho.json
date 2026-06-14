@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "abstrahe",
       "2pl.pres.imp.act": "abstrahite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: abstractus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "abstractus",
+      "ppp.nom.sg.fem": "abstracta",
+      "ppp.nom.sg.neut": "abstractum",
+      "ppp.gen.sg.masc": "abstracti",
+      "ppp.gen.sg.fem": "abstractae",
+      "ppp.gen.sg.neut": "abstracti",
+      "ppp.dat.sg.masc": "abstracto",
+      "ppp.dat.sg.fem": "abstractae",
+      "ppp.dat.sg.neut": "abstracto",
+      "ppp.acc.sg.masc": "abstractum",
+      "ppp.acc.sg.fem": "abstractam",
+      "ppp.acc.sg.neut": "abstractum",
+      "ppp.abl.sg.masc": "abstracto",
+      "ppp.abl.sg.fem": "abstracta",
+      "ppp.abl.sg.neut": "abstracto",
+      "ppp.voc.sg.masc": "abstracte",
+      "ppp.voc.sg.fem": "abstracta",
+      "ppp.voc.sg.neut": "abstractum",
+      "ppp.nom.pl.masc": "abstracti",
+      "ppp.nom.pl.fem": "abstractae",
+      "ppp.nom.pl.neut": "abstracta",
+      "ppp.gen.pl.masc": "abstractorum",
+      "ppp.gen.pl.fem": "abstractarum",
+      "ppp.gen.pl.neut": "abstractorum",
+      "ppp.dat.pl.masc": "abstractis",
+      "ppp.dat.pl.fem": "abstractis",
+      "ppp.dat.pl.neut": "abstractis",
+      "ppp.acc.pl.masc": "abstractos",
+      "ppp.acc.pl.fem": "abstractas",
+      "ppp.acc.pl.neut": "abstracta",
+      "ppp.abl.pl.masc": "abstractis",
+      "ppp.abl.pl.fem": "abstractis",
+      "ppp.abl.pl.neut": "abstractis",
+      "ppp.voc.pl.masc": "abstracti",
+      "ppp.voc.pl.fem": "abstractae",
+      "ppp.voc.pl.neut": "abstracta"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "mitte",
       "2pl.pres.imp.act": "mittite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: missus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "missus",
+      "ppp.nom.sg.fem": "missa",
+      "ppp.nom.sg.neut": "missum",
+      "ppp.gen.sg.masc": "missi",
+      "ppp.gen.sg.fem": "missae",
+      "ppp.gen.sg.neut": "missi",
+      "ppp.dat.sg.masc": "misso",
+      "ppp.dat.sg.fem": "missae",
+      "ppp.dat.sg.neut": "misso",
+      "ppp.acc.sg.masc": "missum",
+      "ppp.acc.sg.fem": "missam",
+      "ppp.acc.sg.neut": "missum",
+      "ppp.abl.sg.masc": "misso",
+      "ppp.abl.sg.fem": "missa",
+      "ppp.abl.sg.neut": "misso",
+      "ppp.voc.sg.masc": "misse",
+      "ppp.voc.sg.fem": "missa",
+      "ppp.voc.sg.neut": "missum",
+      "ppp.nom.pl.masc": "missi",
+      "ppp.nom.pl.fem": "missae",
+      "ppp.nom.pl.neut": "missa",
+      "ppp.gen.pl.masc": "missorum",
+      "ppp.gen.pl.fem": "missarum",
+      "ppp.gen.pl.neut": "missorum",
+      "ppp.dat.pl.masc": "missis",
+      "ppp.dat.pl.fem": "missis",
+      "ppp.dat.pl.neut": "missis",
+      "ppp.acc.pl.masc": "missos",
+      "ppp.acc.pl.fem": "missas",
+      "ppp.acc.pl.neut": "missa",
+      "ppp.abl.pl.masc": "missis",
+      "ppp.abl.pl.fem": "missis",
+      "ppp.abl.pl.neut": "missis",
+      "ppp.voc.pl.masc": "missi",
+      "ppp.voc.pl.fem": "missae",
+      "ppp.voc.pl.neut": "missa"
+    }
   }
 }

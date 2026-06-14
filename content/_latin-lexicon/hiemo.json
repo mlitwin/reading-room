@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "hiema",
       "2pl.pres.imp.act": "hiemate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: hiematus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "hiematus",
+      "ppp.nom.sg.fem": "hiemata",
+      "ppp.nom.sg.neut": "hiematum",
+      "ppp.gen.sg.masc": "hiemati",
+      "ppp.gen.sg.fem": "hiematae",
+      "ppp.gen.sg.neut": "hiemati",
+      "ppp.dat.sg.masc": "hiemato",
+      "ppp.dat.sg.fem": "hiematae",
+      "ppp.dat.sg.neut": "hiemato",
+      "ppp.acc.sg.masc": "hiematum",
+      "ppp.acc.sg.fem": "hiematam",
+      "ppp.acc.sg.neut": "hiematum",
+      "ppp.abl.sg.masc": "hiemato",
+      "ppp.abl.sg.fem": "hiemata",
+      "ppp.abl.sg.neut": "hiemato",
+      "ppp.voc.sg.masc": "hiemate",
+      "ppp.voc.sg.fem": "hiemata",
+      "ppp.voc.sg.neut": "hiematum",
+      "ppp.nom.pl.masc": "hiemati",
+      "ppp.nom.pl.fem": "hiematae",
+      "ppp.nom.pl.neut": "hiemata",
+      "ppp.gen.pl.masc": "hiematorum",
+      "ppp.gen.pl.fem": "hiematarum",
+      "ppp.gen.pl.neut": "hiematorum",
+      "ppp.dat.pl.masc": "hiematis",
+      "ppp.dat.pl.fem": "hiematis",
+      "ppp.dat.pl.neut": "hiematis",
+      "ppp.acc.pl.masc": "hiematos",
+      "ppp.acc.pl.fem": "hiematas",
+      "ppp.acc.pl.neut": "hiemata",
+      "ppp.abl.pl.masc": "hiematis",
+      "ppp.abl.pl.fem": "hiematis",
+      "ppp.abl.pl.neut": "hiematis",
+      "ppp.voc.pl.masc": "hiemati",
+      "ppp.voc.pl.fem": "hiematae",
+      "ppp.voc.pl.neut": "hiemata"
+    }
   }
 }

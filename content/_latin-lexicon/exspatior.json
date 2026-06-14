@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "exspatia",
       "2pl.pres.imp.act": "exspatiate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exspatiatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exspatiatus",
+      "ppp.nom.sg.fem": "exspatiata",
+      "ppp.nom.sg.neut": "exspatiatum",
+      "ppp.gen.sg.masc": "exspatiati",
+      "ppp.gen.sg.fem": "exspatiatae",
+      "ppp.gen.sg.neut": "exspatiati",
+      "ppp.dat.sg.masc": "exspatiato",
+      "ppp.dat.sg.fem": "exspatiatae",
+      "ppp.dat.sg.neut": "exspatiato",
+      "ppp.acc.sg.masc": "exspatiatum",
+      "ppp.acc.sg.fem": "exspatiatam",
+      "ppp.acc.sg.neut": "exspatiatum",
+      "ppp.abl.sg.masc": "exspatiato",
+      "ppp.abl.sg.fem": "exspatiata",
+      "ppp.abl.sg.neut": "exspatiato",
+      "ppp.voc.sg.masc": "exspatiate",
+      "ppp.voc.sg.fem": "exspatiata",
+      "ppp.voc.sg.neut": "exspatiatum",
+      "ppp.nom.pl.masc": "exspatiati",
+      "ppp.nom.pl.fem": "exspatiatae",
+      "ppp.nom.pl.neut": "exspatiata",
+      "ppp.gen.pl.masc": "exspatiatorum",
+      "ppp.gen.pl.fem": "exspatiatarum",
+      "ppp.gen.pl.neut": "exspatiatorum",
+      "ppp.dat.pl.masc": "exspatiatis",
+      "ppp.dat.pl.fem": "exspatiatis",
+      "ppp.dat.pl.neut": "exspatiatis",
+      "ppp.acc.pl.masc": "exspatiatos",
+      "ppp.acc.pl.fem": "exspatiatas",
+      "ppp.acc.pl.neut": "exspatiata",
+      "ppp.abl.pl.masc": "exspatiatis",
+      "ppp.abl.pl.fem": "exspatiatis",
+      "ppp.abl.pl.neut": "exspatiatis",
+      "ppp.voc.pl.masc": "exspatiati",
+      "ppp.voc.pl.fem": "exspatiatae",
+      "ppp.voc.pl.neut": "exspatiata"
+    }
   }
 }

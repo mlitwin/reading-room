@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "obrue",
       "2pl.pres.imp.act": "obruite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: obrutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "obrutus",
+      "ppp.nom.sg.fem": "obruta",
+      "ppp.nom.sg.neut": "obrutum",
+      "ppp.gen.sg.masc": "obruti",
+      "ppp.gen.sg.fem": "obrutae",
+      "ppp.gen.sg.neut": "obruti",
+      "ppp.dat.sg.masc": "obruto",
+      "ppp.dat.sg.fem": "obrutae",
+      "ppp.dat.sg.neut": "obruto",
+      "ppp.acc.sg.masc": "obrutum",
+      "ppp.acc.sg.fem": "obrutam",
+      "ppp.acc.sg.neut": "obrutum",
+      "ppp.abl.sg.masc": "obruto",
+      "ppp.abl.sg.fem": "obruta",
+      "ppp.abl.sg.neut": "obruto",
+      "ppp.voc.sg.masc": "obrute",
+      "ppp.voc.sg.fem": "obruta",
+      "ppp.voc.sg.neut": "obrutum",
+      "ppp.nom.pl.masc": "obruti",
+      "ppp.nom.pl.fem": "obrutae",
+      "ppp.nom.pl.neut": "obruta",
+      "ppp.gen.pl.masc": "obrutorum",
+      "ppp.gen.pl.fem": "obrutarum",
+      "ppp.gen.pl.neut": "obrutorum",
+      "ppp.dat.pl.masc": "obrutis",
+      "ppp.dat.pl.fem": "obrutis",
+      "ppp.dat.pl.neut": "obrutis",
+      "ppp.acc.pl.masc": "obrutos",
+      "ppp.acc.pl.fem": "obrutas",
+      "ppp.acc.pl.neut": "obruta",
+      "ppp.abl.pl.masc": "obrutis",
+      "ppp.abl.pl.fem": "obrutis",
+      "ppp.abl.pl.neut": "obrutis",
+      "ppp.voc.pl.masc": "obruti",
+      "ppp.voc.pl.fem": "obrutae",
+      "ppp.voc.pl.neut": "obruta"
+    }
   }
 }

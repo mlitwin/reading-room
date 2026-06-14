@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "succumbe",
       "2pl.pres.imp.act": "succumbite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: succubitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "succubitus",
+      "ppp.nom.sg.fem": "succubita",
+      "ppp.nom.sg.neut": "succubitum",
+      "ppp.gen.sg.masc": "succubiti",
+      "ppp.gen.sg.fem": "succubitae",
+      "ppp.gen.sg.neut": "succubiti",
+      "ppp.dat.sg.masc": "succubito",
+      "ppp.dat.sg.fem": "succubitae",
+      "ppp.dat.sg.neut": "succubito",
+      "ppp.acc.sg.masc": "succubitum",
+      "ppp.acc.sg.fem": "succubitam",
+      "ppp.acc.sg.neut": "succubitum",
+      "ppp.abl.sg.masc": "succubito",
+      "ppp.abl.sg.fem": "succubita",
+      "ppp.abl.sg.neut": "succubito",
+      "ppp.voc.sg.masc": "succubite",
+      "ppp.voc.sg.fem": "succubita",
+      "ppp.voc.sg.neut": "succubitum",
+      "ppp.nom.pl.masc": "succubiti",
+      "ppp.nom.pl.fem": "succubitae",
+      "ppp.nom.pl.neut": "succubita",
+      "ppp.gen.pl.masc": "succubitorum",
+      "ppp.gen.pl.fem": "succubitarum",
+      "ppp.gen.pl.neut": "succubitorum",
+      "ppp.dat.pl.masc": "succubitis",
+      "ppp.dat.pl.fem": "succubitis",
+      "ppp.dat.pl.neut": "succubitis",
+      "ppp.acc.pl.masc": "succubitos",
+      "ppp.acc.pl.fem": "succubitas",
+      "ppp.acc.pl.neut": "succubita",
+      "ppp.abl.pl.masc": "succubitis",
+      "ppp.abl.pl.fem": "succubitis",
+      "ppp.abl.pl.neut": "succubitis",
+      "ppp.voc.pl.masc": "succubiti",
+      "ppp.voc.pl.fem": "succubitae",
+      "ppp.voc.pl.neut": "succubita"
+    }
   }
 }

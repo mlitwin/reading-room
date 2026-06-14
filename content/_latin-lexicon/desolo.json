@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "desola",
       "2pl.pres.imp.act": "desolate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: desolatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "desolatus",
+      "ppp.nom.sg.fem": "desolata",
+      "ppp.nom.sg.neut": "desolatum",
+      "ppp.gen.sg.masc": "desolati",
+      "ppp.gen.sg.fem": "desolatae",
+      "ppp.gen.sg.neut": "desolati",
+      "ppp.dat.sg.masc": "desolato",
+      "ppp.dat.sg.fem": "desolatae",
+      "ppp.dat.sg.neut": "desolato",
+      "ppp.acc.sg.masc": "desolatum",
+      "ppp.acc.sg.fem": "desolatam",
+      "ppp.acc.sg.neut": "desolatum",
+      "ppp.abl.sg.masc": "desolato",
+      "ppp.abl.sg.fem": "desolata",
+      "ppp.abl.sg.neut": "desolato",
+      "ppp.voc.sg.masc": "desolate",
+      "ppp.voc.sg.fem": "desolata",
+      "ppp.voc.sg.neut": "desolatum",
+      "ppp.nom.pl.masc": "desolati",
+      "ppp.nom.pl.fem": "desolatae",
+      "ppp.nom.pl.neut": "desolata",
+      "ppp.gen.pl.masc": "desolatorum",
+      "ppp.gen.pl.fem": "desolatarum",
+      "ppp.gen.pl.neut": "desolatorum",
+      "ppp.dat.pl.masc": "desolatis",
+      "ppp.dat.pl.fem": "desolatis",
+      "ppp.dat.pl.neut": "desolatis",
+      "ppp.acc.pl.masc": "desolatos",
+      "ppp.acc.pl.fem": "desolatas",
+      "ppp.acc.pl.neut": "desolata",
+      "ppp.abl.pl.masc": "desolatis",
+      "ppp.abl.pl.fem": "desolatis",
+      "ppp.abl.pl.neut": "desolatis",
+      "ppp.voc.pl.masc": "desolati",
+      "ppp.voc.pl.fem": "desolatae",
+      "ppp.voc.pl.neut": "desolata"
+    }
   }
 }

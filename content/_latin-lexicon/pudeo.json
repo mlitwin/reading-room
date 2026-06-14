@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "pude",
       "2pl.pres.imp.act": "pudete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: puditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "puditus",
+      "ppp.nom.sg.fem": "pudita",
+      "ppp.nom.sg.neut": "puditum",
+      "ppp.gen.sg.masc": "puditi",
+      "ppp.gen.sg.fem": "puditae",
+      "ppp.gen.sg.neut": "puditi",
+      "ppp.dat.sg.masc": "pudito",
+      "ppp.dat.sg.fem": "puditae",
+      "ppp.dat.sg.neut": "pudito",
+      "ppp.acc.sg.masc": "puditum",
+      "ppp.acc.sg.fem": "puditam",
+      "ppp.acc.sg.neut": "puditum",
+      "ppp.abl.sg.masc": "pudito",
+      "ppp.abl.sg.fem": "pudita",
+      "ppp.abl.sg.neut": "pudito",
+      "ppp.voc.sg.masc": "pudite",
+      "ppp.voc.sg.fem": "pudita",
+      "ppp.voc.sg.neut": "puditum",
+      "ppp.nom.pl.masc": "puditi",
+      "ppp.nom.pl.fem": "puditae",
+      "ppp.nom.pl.neut": "pudita",
+      "ppp.gen.pl.masc": "puditorum",
+      "ppp.gen.pl.fem": "puditarum",
+      "ppp.gen.pl.neut": "puditorum",
+      "ppp.dat.pl.masc": "puditis",
+      "ppp.dat.pl.fem": "puditis",
+      "ppp.dat.pl.neut": "puditis",
+      "ppp.acc.pl.masc": "puditos",
+      "ppp.acc.pl.fem": "puditas",
+      "ppp.acc.pl.neut": "pudita",
+      "ppp.abl.pl.masc": "puditis",
+      "ppp.abl.pl.fem": "puditis",
+      "ppp.abl.pl.neut": "puditis",
+      "ppp.voc.pl.masc": "puditi",
+      "ppp.voc.pl.fem": "puditae",
+      "ppp.voc.pl.neut": "pudita"
+    }
   }
 }

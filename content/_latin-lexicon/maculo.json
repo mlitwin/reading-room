@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "macula",
       "2pl.pres.imp.act": "maculate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: maculatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "maculatus",
+      "ppp.nom.sg.fem": "maculata",
+      "ppp.nom.sg.neut": "maculatum",
+      "ppp.gen.sg.masc": "maculati",
+      "ppp.gen.sg.fem": "maculatae",
+      "ppp.gen.sg.neut": "maculati",
+      "ppp.dat.sg.masc": "maculato",
+      "ppp.dat.sg.fem": "maculatae",
+      "ppp.dat.sg.neut": "maculato",
+      "ppp.acc.sg.masc": "maculatum",
+      "ppp.acc.sg.fem": "maculatam",
+      "ppp.acc.sg.neut": "maculatum",
+      "ppp.abl.sg.masc": "maculato",
+      "ppp.abl.sg.fem": "maculata",
+      "ppp.abl.sg.neut": "maculato",
+      "ppp.voc.sg.masc": "maculate",
+      "ppp.voc.sg.fem": "maculata",
+      "ppp.voc.sg.neut": "maculatum",
+      "ppp.nom.pl.masc": "maculati",
+      "ppp.nom.pl.fem": "maculatae",
+      "ppp.nom.pl.neut": "maculata",
+      "ppp.gen.pl.masc": "maculatorum",
+      "ppp.gen.pl.fem": "maculatarum",
+      "ppp.gen.pl.neut": "maculatorum",
+      "ppp.dat.pl.masc": "maculatis",
+      "ppp.dat.pl.fem": "maculatis",
+      "ppp.dat.pl.neut": "maculatis",
+      "ppp.acc.pl.masc": "maculatos",
+      "ppp.acc.pl.fem": "maculatas",
+      "ppp.acc.pl.neut": "maculata",
+      "ppp.abl.pl.masc": "maculatis",
+      "ppp.abl.pl.fem": "maculatis",
+      "ppp.abl.pl.neut": "maculatis",
+      "ppp.voc.pl.masc": "maculati",
+      "ppp.voc.pl.fem": "maculatae",
+      "ppp.voc.pl.neut": "maculata"
+    }
   }
 }

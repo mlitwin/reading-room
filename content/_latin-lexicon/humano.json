@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "humana",
       "2pl.pres.imp.act": "humanate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: humanatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "humanatus",
+      "ppp.nom.sg.fem": "humanata",
+      "ppp.nom.sg.neut": "humanatum",
+      "ppp.gen.sg.masc": "humanati",
+      "ppp.gen.sg.fem": "humanatae",
+      "ppp.gen.sg.neut": "humanati",
+      "ppp.dat.sg.masc": "humanato",
+      "ppp.dat.sg.fem": "humanatae",
+      "ppp.dat.sg.neut": "humanato",
+      "ppp.acc.sg.masc": "humanatum",
+      "ppp.acc.sg.fem": "humanatam",
+      "ppp.acc.sg.neut": "humanatum",
+      "ppp.abl.sg.masc": "humanato",
+      "ppp.abl.sg.fem": "humanata",
+      "ppp.abl.sg.neut": "humanato",
+      "ppp.voc.sg.masc": "humanate",
+      "ppp.voc.sg.fem": "humanata",
+      "ppp.voc.sg.neut": "humanatum",
+      "ppp.nom.pl.masc": "humanati",
+      "ppp.nom.pl.fem": "humanatae",
+      "ppp.nom.pl.neut": "humanata",
+      "ppp.gen.pl.masc": "humanatorum",
+      "ppp.gen.pl.fem": "humanatarum",
+      "ppp.gen.pl.neut": "humanatorum",
+      "ppp.dat.pl.masc": "humanatis",
+      "ppp.dat.pl.fem": "humanatis",
+      "ppp.dat.pl.neut": "humanatis",
+      "ppp.acc.pl.masc": "humanatos",
+      "ppp.acc.pl.fem": "humanatas",
+      "ppp.acc.pl.neut": "humanata",
+      "ppp.abl.pl.masc": "humanatis",
+      "ppp.abl.pl.fem": "humanatis",
+      "ppp.abl.pl.neut": "humanatis",
+      "ppp.voc.pl.masc": "humanati",
+      "ppp.voc.pl.fem": "humanatae",
+      "ppp.voc.pl.neut": "humanata"
+    }
   }
 }

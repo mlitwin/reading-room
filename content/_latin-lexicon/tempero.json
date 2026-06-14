@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "tempera",
       "2pl.pres.imp.act": "temperate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: temperatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "temperatus",
+      "ppp.nom.sg.fem": "temperata",
+      "ppp.nom.sg.neut": "temperatum",
+      "ppp.gen.sg.masc": "temperati",
+      "ppp.gen.sg.fem": "temperatae",
+      "ppp.gen.sg.neut": "temperati",
+      "ppp.dat.sg.masc": "temperato",
+      "ppp.dat.sg.fem": "temperatae",
+      "ppp.dat.sg.neut": "temperato",
+      "ppp.acc.sg.masc": "temperatum",
+      "ppp.acc.sg.fem": "temperatam",
+      "ppp.acc.sg.neut": "temperatum",
+      "ppp.abl.sg.masc": "temperato",
+      "ppp.abl.sg.fem": "temperata",
+      "ppp.abl.sg.neut": "temperato",
+      "ppp.voc.sg.masc": "temperate",
+      "ppp.voc.sg.fem": "temperata",
+      "ppp.voc.sg.neut": "temperatum",
+      "ppp.nom.pl.masc": "temperati",
+      "ppp.nom.pl.fem": "temperatae",
+      "ppp.nom.pl.neut": "temperata",
+      "ppp.gen.pl.masc": "temperatorum",
+      "ppp.gen.pl.fem": "temperatarum",
+      "ppp.gen.pl.neut": "temperatorum",
+      "ppp.dat.pl.masc": "temperatis",
+      "ppp.dat.pl.fem": "temperatis",
+      "ppp.dat.pl.neut": "temperatis",
+      "ppp.acc.pl.masc": "temperatos",
+      "ppp.acc.pl.fem": "temperatas",
+      "ppp.acc.pl.neut": "temperata",
+      "ppp.abl.pl.masc": "temperatis",
+      "ppp.abl.pl.fem": "temperatis",
+      "ppp.abl.pl.neut": "temperatis",
+      "ppp.voc.pl.masc": "temperati",
+      "ppp.voc.pl.fem": "temperatae",
+      "ppp.voc.pl.neut": "temperata"
+    }
   }
 }

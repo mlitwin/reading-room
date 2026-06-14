@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "adora",
       "2pl.pres.imp.act": "adorate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: adoratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "adoratus",
+      "ppp.nom.sg.fem": "adorata",
+      "ppp.nom.sg.neut": "adoratum",
+      "ppp.gen.sg.masc": "adorati",
+      "ppp.gen.sg.fem": "adoratae",
+      "ppp.gen.sg.neut": "adorati",
+      "ppp.dat.sg.masc": "adorato",
+      "ppp.dat.sg.fem": "adoratae",
+      "ppp.dat.sg.neut": "adorato",
+      "ppp.acc.sg.masc": "adoratum",
+      "ppp.acc.sg.fem": "adoratam",
+      "ppp.acc.sg.neut": "adoratum",
+      "ppp.abl.sg.masc": "adorato",
+      "ppp.abl.sg.fem": "adorata",
+      "ppp.abl.sg.neut": "adorato",
+      "ppp.voc.sg.masc": "adorate",
+      "ppp.voc.sg.fem": "adorata",
+      "ppp.voc.sg.neut": "adoratum",
+      "ppp.nom.pl.masc": "adorati",
+      "ppp.nom.pl.fem": "adoratae",
+      "ppp.nom.pl.neut": "adorata",
+      "ppp.gen.pl.masc": "adoratorum",
+      "ppp.gen.pl.fem": "adoratarum",
+      "ppp.gen.pl.neut": "adoratorum",
+      "ppp.dat.pl.masc": "adoratis",
+      "ppp.dat.pl.fem": "adoratis",
+      "ppp.dat.pl.neut": "adoratis",
+      "ppp.acc.pl.masc": "adoratos",
+      "ppp.acc.pl.fem": "adoratas",
+      "ppp.acc.pl.neut": "adorata",
+      "ppp.abl.pl.masc": "adoratis",
+      "ppp.abl.pl.fem": "adoratis",
+      "ppp.abl.pl.neut": "adoratis",
+      "ppp.voc.pl.masc": "adorati",
+      "ppp.voc.pl.fem": "adoratae",
+      "ppp.voc.pl.neut": "adorata"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "conside",
       "2pl.pres.imp.act": "considite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: consessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "consessus",
+      "ppp.nom.sg.fem": "consessa",
+      "ppp.nom.sg.neut": "consessum",
+      "ppp.gen.sg.masc": "consessi",
+      "ppp.gen.sg.fem": "consessae",
+      "ppp.gen.sg.neut": "consessi",
+      "ppp.dat.sg.masc": "consesso",
+      "ppp.dat.sg.fem": "consessae",
+      "ppp.dat.sg.neut": "consesso",
+      "ppp.acc.sg.masc": "consessum",
+      "ppp.acc.sg.fem": "consessam",
+      "ppp.acc.sg.neut": "consessum",
+      "ppp.abl.sg.masc": "consesso",
+      "ppp.abl.sg.fem": "consessa",
+      "ppp.abl.sg.neut": "consesso",
+      "ppp.voc.sg.masc": "consesse",
+      "ppp.voc.sg.fem": "consessa",
+      "ppp.voc.sg.neut": "consessum",
+      "ppp.nom.pl.masc": "consessi",
+      "ppp.nom.pl.fem": "consessae",
+      "ppp.nom.pl.neut": "consessa",
+      "ppp.gen.pl.masc": "consessorum",
+      "ppp.gen.pl.fem": "consessarum",
+      "ppp.gen.pl.neut": "consessorum",
+      "ppp.dat.pl.masc": "consessis",
+      "ppp.dat.pl.fem": "consessis",
+      "ppp.dat.pl.neut": "consessis",
+      "ppp.acc.pl.masc": "consessos",
+      "ppp.acc.pl.fem": "consessas",
+      "ppp.acc.pl.neut": "consessa",
+      "ppp.abl.pl.masc": "consessis",
+      "ppp.abl.pl.fem": "consessis",
+      "ppp.abl.pl.neut": "consessis",
+      "ppp.voc.pl.masc": "consessi",
+      "ppp.voc.pl.fem": "consessae",
+      "ppp.voc.pl.neut": "consessa"
+    }
   }
 }

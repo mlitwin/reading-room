@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "funda",
       "2pl.pres.imp.act": "fundate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fundatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fundatus",
+      "ppp.nom.sg.fem": "fundata",
+      "ppp.nom.sg.neut": "fundatum",
+      "ppp.gen.sg.masc": "fundati",
+      "ppp.gen.sg.fem": "fundatae",
+      "ppp.gen.sg.neut": "fundati",
+      "ppp.dat.sg.masc": "fundato",
+      "ppp.dat.sg.fem": "fundatae",
+      "ppp.dat.sg.neut": "fundato",
+      "ppp.acc.sg.masc": "fundatum",
+      "ppp.acc.sg.fem": "fundatam",
+      "ppp.acc.sg.neut": "fundatum",
+      "ppp.abl.sg.masc": "fundato",
+      "ppp.abl.sg.fem": "fundata",
+      "ppp.abl.sg.neut": "fundato",
+      "ppp.voc.sg.masc": "fundate",
+      "ppp.voc.sg.fem": "fundata",
+      "ppp.voc.sg.neut": "fundatum",
+      "ppp.nom.pl.masc": "fundati",
+      "ppp.nom.pl.fem": "fundatae",
+      "ppp.nom.pl.neut": "fundata",
+      "ppp.gen.pl.masc": "fundatorum",
+      "ppp.gen.pl.fem": "fundatarum",
+      "ppp.gen.pl.neut": "fundatorum",
+      "ppp.dat.pl.masc": "fundatis",
+      "ppp.dat.pl.fem": "fundatis",
+      "ppp.dat.pl.neut": "fundatis",
+      "ppp.acc.pl.masc": "fundatos",
+      "ppp.acc.pl.fem": "fundatas",
+      "ppp.acc.pl.neut": "fundata",
+      "ppp.abl.pl.masc": "fundatis",
+      "ppp.abl.pl.fem": "fundatis",
+      "ppp.abl.pl.neut": "fundatis",
+      "ppp.voc.pl.masc": "fundati",
+      "ppp.voc.pl.fem": "fundatae",
+      "ppp.voc.pl.neut": "fundata"
+    }
   }
 }

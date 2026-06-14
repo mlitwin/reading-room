@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "rumpe",
       "2pl.pres.imp.act": "rumpite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ruptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ruptus",
+      "ppp.nom.sg.fem": "rupta",
+      "ppp.nom.sg.neut": "ruptum",
+      "ppp.gen.sg.masc": "rupti",
+      "ppp.gen.sg.fem": "ruptae",
+      "ppp.gen.sg.neut": "rupti",
+      "ppp.dat.sg.masc": "rupto",
+      "ppp.dat.sg.fem": "ruptae",
+      "ppp.dat.sg.neut": "rupto",
+      "ppp.acc.sg.masc": "ruptum",
+      "ppp.acc.sg.fem": "ruptam",
+      "ppp.acc.sg.neut": "ruptum",
+      "ppp.abl.sg.masc": "rupto",
+      "ppp.abl.sg.fem": "rupta",
+      "ppp.abl.sg.neut": "rupto",
+      "ppp.voc.sg.masc": "rupte",
+      "ppp.voc.sg.fem": "rupta",
+      "ppp.voc.sg.neut": "ruptum",
+      "ppp.nom.pl.masc": "rupti",
+      "ppp.nom.pl.fem": "ruptae",
+      "ppp.nom.pl.neut": "rupta",
+      "ppp.gen.pl.masc": "ruptorum",
+      "ppp.gen.pl.fem": "ruptarum",
+      "ppp.gen.pl.neut": "ruptorum",
+      "ppp.dat.pl.masc": "ruptis",
+      "ppp.dat.pl.fem": "ruptis",
+      "ppp.dat.pl.neut": "ruptis",
+      "ppp.acc.pl.masc": "ruptos",
+      "ppp.acc.pl.fem": "ruptas",
+      "ppp.acc.pl.neut": "rupta",
+      "ppp.abl.pl.masc": "ruptis",
+      "ppp.abl.pl.fem": "ruptis",
+      "ppp.abl.pl.neut": "ruptis",
+      "ppp.voc.pl.masc": "rupti",
+      "ppp.voc.pl.fem": "ruptae",
+      "ppp.voc.pl.neut": "rupta"
+    }
   }
 }

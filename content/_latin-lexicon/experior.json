@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "experi",
       "2pl.pres.imp.act": "experite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: expertus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "expertus",
+      "ppp.nom.sg.fem": "experta",
+      "ppp.nom.sg.neut": "expertum",
+      "ppp.gen.sg.masc": "experti",
+      "ppp.gen.sg.fem": "expertae",
+      "ppp.gen.sg.neut": "experti",
+      "ppp.dat.sg.masc": "experto",
+      "ppp.dat.sg.fem": "expertae",
+      "ppp.dat.sg.neut": "experto",
+      "ppp.acc.sg.masc": "expertum",
+      "ppp.acc.sg.fem": "expertam",
+      "ppp.acc.sg.neut": "expertum",
+      "ppp.abl.sg.masc": "experto",
+      "ppp.abl.sg.fem": "experta",
+      "ppp.abl.sg.neut": "experto",
+      "ppp.voc.sg.masc": "experte",
+      "ppp.voc.sg.fem": "experta",
+      "ppp.voc.sg.neut": "expertum",
+      "ppp.nom.pl.masc": "experti",
+      "ppp.nom.pl.fem": "expertae",
+      "ppp.nom.pl.neut": "experta",
+      "ppp.gen.pl.masc": "expertorum",
+      "ppp.gen.pl.fem": "expertarum",
+      "ppp.gen.pl.neut": "expertorum",
+      "ppp.dat.pl.masc": "expertis",
+      "ppp.dat.pl.fem": "expertis",
+      "ppp.dat.pl.neut": "expertis",
+      "ppp.acc.pl.masc": "expertos",
+      "ppp.acc.pl.fem": "expertas",
+      "ppp.acc.pl.neut": "experta",
+      "ppp.abl.pl.masc": "expertis",
+      "ppp.abl.pl.fem": "expertis",
+      "ppp.abl.pl.neut": "expertis",
+      "ppp.voc.pl.masc": "experti",
+      "ppp.voc.pl.fem": "expertae",
+      "ppp.voc.pl.neut": "experta"
+    }
   }
 }

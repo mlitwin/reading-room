@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "vulnera",
       "2pl.pres.imp.act": "vulnerate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vulneratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vulneratus",
+      "ppp.nom.sg.fem": "vulnerata",
+      "ppp.nom.sg.neut": "vulneratum",
+      "ppp.gen.sg.masc": "vulnerati",
+      "ppp.gen.sg.fem": "vulneratae",
+      "ppp.gen.sg.neut": "vulnerati",
+      "ppp.dat.sg.masc": "vulnerato",
+      "ppp.dat.sg.fem": "vulneratae",
+      "ppp.dat.sg.neut": "vulnerato",
+      "ppp.acc.sg.masc": "vulneratum",
+      "ppp.acc.sg.fem": "vulneratam",
+      "ppp.acc.sg.neut": "vulneratum",
+      "ppp.abl.sg.masc": "vulnerato",
+      "ppp.abl.sg.fem": "vulnerata",
+      "ppp.abl.sg.neut": "vulnerato",
+      "ppp.voc.sg.masc": "vulnerate",
+      "ppp.voc.sg.fem": "vulnerata",
+      "ppp.voc.sg.neut": "vulneratum",
+      "ppp.nom.pl.masc": "vulnerati",
+      "ppp.nom.pl.fem": "vulneratae",
+      "ppp.nom.pl.neut": "vulnerata",
+      "ppp.gen.pl.masc": "vulneratorum",
+      "ppp.gen.pl.fem": "vulneratarum",
+      "ppp.gen.pl.neut": "vulneratorum",
+      "ppp.dat.pl.masc": "vulneratis",
+      "ppp.dat.pl.fem": "vulneratis",
+      "ppp.dat.pl.neut": "vulneratis",
+      "ppp.acc.pl.masc": "vulneratos",
+      "ppp.acc.pl.fem": "vulneratas",
+      "ppp.acc.pl.neut": "vulnerata",
+      "ppp.abl.pl.masc": "vulneratis",
+      "ppp.abl.pl.fem": "vulneratis",
+      "ppp.abl.pl.neut": "vulneratis",
+      "ppp.voc.pl.masc": "vulnerati",
+      "ppp.voc.pl.fem": "vulneratae",
+      "ppp.voc.pl.neut": "vulnerata"
+    }
   }
 }

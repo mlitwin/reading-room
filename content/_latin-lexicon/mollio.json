@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "molli",
       "2pl.pres.imp.act": "mollite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mollitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mollitus",
+      "ppp.nom.sg.fem": "mollita",
+      "ppp.nom.sg.neut": "mollitum",
+      "ppp.gen.sg.masc": "molliti",
+      "ppp.gen.sg.fem": "mollitae",
+      "ppp.gen.sg.neut": "molliti",
+      "ppp.dat.sg.masc": "mollito",
+      "ppp.dat.sg.fem": "mollitae",
+      "ppp.dat.sg.neut": "mollito",
+      "ppp.acc.sg.masc": "mollitum",
+      "ppp.acc.sg.fem": "mollitam",
+      "ppp.acc.sg.neut": "mollitum",
+      "ppp.abl.sg.masc": "mollito",
+      "ppp.abl.sg.fem": "mollita",
+      "ppp.abl.sg.neut": "mollito",
+      "ppp.voc.sg.masc": "mollite",
+      "ppp.voc.sg.fem": "mollita",
+      "ppp.voc.sg.neut": "mollitum",
+      "ppp.nom.pl.masc": "molliti",
+      "ppp.nom.pl.fem": "mollitae",
+      "ppp.nom.pl.neut": "mollita",
+      "ppp.gen.pl.masc": "mollitorum",
+      "ppp.gen.pl.fem": "mollitarum",
+      "ppp.gen.pl.neut": "mollitorum",
+      "ppp.dat.pl.masc": "mollitis",
+      "ppp.dat.pl.fem": "mollitis",
+      "ppp.dat.pl.neut": "mollitis",
+      "ppp.acc.pl.masc": "mollitos",
+      "ppp.acc.pl.fem": "mollitas",
+      "ppp.acc.pl.neut": "mollita",
+      "ppp.abl.pl.masc": "mollitis",
+      "ppp.abl.pl.fem": "mollitis",
+      "ppp.abl.pl.neut": "mollitis",
+      "ppp.voc.pl.masc": "molliti",
+      "ppp.voc.pl.fem": "mollitae",
+      "ppp.voc.pl.neut": "mollita"
+    }
   }
 }

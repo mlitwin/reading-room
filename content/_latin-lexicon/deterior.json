@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "deteriora",
       "2pl.pres.imp.act": "deteriorate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: deterioratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "deterioratus",
+      "ppp.nom.sg.fem": "deteriorata",
+      "ppp.nom.sg.neut": "deterioratum",
+      "ppp.gen.sg.masc": "deteriorati",
+      "ppp.gen.sg.fem": "deterioratae",
+      "ppp.gen.sg.neut": "deteriorati",
+      "ppp.dat.sg.masc": "deteriorato",
+      "ppp.dat.sg.fem": "deterioratae",
+      "ppp.dat.sg.neut": "deteriorato",
+      "ppp.acc.sg.masc": "deterioratum",
+      "ppp.acc.sg.fem": "deterioratam",
+      "ppp.acc.sg.neut": "deterioratum",
+      "ppp.abl.sg.masc": "deteriorato",
+      "ppp.abl.sg.fem": "deteriorata",
+      "ppp.abl.sg.neut": "deteriorato",
+      "ppp.voc.sg.masc": "deteriorate",
+      "ppp.voc.sg.fem": "deteriorata",
+      "ppp.voc.sg.neut": "deterioratum",
+      "ppp.nom.pl.masc": "deteriorati",
+      "ppp.nom.pl.fem": "deterioratae",
+      "ppp.nom.pl.neut": "deteriorata",
+      "ppp.gen.pl.masc": "deterioratorum",
+      "ppp.gen.pl.fem": "deterioratarum",
+      "ppp.gen.pl.neut": "deterioratorum",
+      "ppp.dat.pl.masc": "deterioratis",
+      "ppp.dat.pl.fem": "deterioratis",
+      "ppp.dat.pl.neut": "deterioratis",
+      "ppp.acc.pl.masc": "deterioratos",
+      "ppp.acc.pl.fem": "deterioratas",
+      "ppp.acc.pl.neut": "deteriorata",
+      "ppp.abl.pl.masc": "deterioratis",
+      "ppp.abl.pl.fem": "deterioratis",
+      "ppp.abl.pl.neut": "deterioratis",
+      "ppp.voc.pl.masc": "deteriorati",
+      "ppp.voc.pl.fem": "deterioratae",
+      "ppp.voc.pl.neut": "deteriorata"
+    }
   }
 }

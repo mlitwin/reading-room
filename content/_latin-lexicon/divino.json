@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "divina",
       "2pl.pres.imp.act": "divinate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: divinatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "divinatus",
+      "ppp.nom.sg.fem": "divinata",
+      "ppp.nom.sg.neut": "divinatum",
+      "ppp.gen.sg.masc": "divinati",
+      "ppp.gen.sg.fem": "divinatae",
+      "ppp.gen.sg.neut": "divinati",
+      "ppp.dat.sg.masc": "divinato",
+      "ppp.dat.sg.fem": "divinatae",
+      "ppp.dat.sg.neut": "divinato",
+      "ppp.acc.sg.masc": "divinatum",
+      "ppp.acc.sg.fem": "divinatam",
+      "ppp.acc.sg.neut": "divinatum",
+      "ppp.abl.sg.masc": "divinato",
+      "ppp.abl.sg.fem": "divinata",
+      "ppp.abl.sg.neut": "divinato",
+      "ppp.voc.sg.masc": "divinate",
+      "ppp.voc.sg.fem": "divinata",
+      "ppp.voc.sg.neut": "divinatum",
+      "ppp.nom.pl.masc": "divinati",
+      "ppp.nom.pl.fem": "divinatae",
+      "ppp.nom.pl.neut": "divinata",
+      "ppp.gen.pl.masc": "divinatorum",
+      "ppp.gen.pl.fem": "divinatarum",
+      "ppp.gen.pl.neut": "divinatorum",
+      "ppp.dat.pl.masc": "divinatis",
+      "ppp.dat.pl.fem": "divinatis",
+      "ppp.dat.pl.neut": "divinatis",
+      "ppp.acc.pl.masc": "divinatos",
+      "ppp.acc.pl.fem": "divinatas",
+      "ppp.acc.pl.neut": "divinata",
+      "ppp.abl.pl.masc": "divinatis",
+      "ppp.abl.pl.fem": "divinatis",
+      "ppp.abl.pl.neut": "divinatis",
+      "ppp.voc.pl.masc": "divinati",
+      "ppp.voc.pl.fem": "divinatae",
+      "ppp.voc.pl.neut": "divinata"
+    }
   }
 }

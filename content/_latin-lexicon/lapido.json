@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "lapida",
       "2pl.pres.imp.act": "lapidate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: lapidatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "lapidatus",
+      "ppp.nom.sg.fem": "lapidata",
+      "ppp.nom.sg.neut": "lapidatum",
+      "ppp.gen.sg.masc": "lapidati",
+      "ppp.gen.sg.fem": "lapidatae",
+      "ppp.gen.sg.neut": "lapidati",
+      "ppp.dat.sg.masc": "lapidato",
+      "ppp.dat.sg.fem": "lapidatae",
+      "ppp.dat.sg.neut": "lapidato",
+      "ppp.acc.sg.masc": "lapidatum",
+      "ppp.acc.sg.fem": "lapidatam",
+      "ppp.acc.sg.neut": "lapidatum",
+      "ppp.abl.sg.masc": "lapidato",
+      "ppp.abl.sg.fem": "lapidata",
+      "ppp.abl.sg.neut": "lapidato",
+      "ppp.voc.sg.masc": "lapidate",
+      "ppp.voc.sg.fem": "lapidata",
+      "ppp.voc.sg.neut": "lapidatum",
+      "ppp.nom.pl.masc": "lapidati",
+      "ppp.nom.pl.fem": "lapidatae",
+      "ppp.nom.pl.neut": "lapidata",
+      "ppp.gen.pl.masc": "lapidatorum",
+      "ppp.gen.pl.fem": "lapidatarum",
+      "ppp.gen.pl.neut": "lapidatorum",
+      "ppp.dat.pl.masc": "lapidatis",
+      "ppp.dat.pl.fem": "lapidatis",
+      "ppp.dat.pl.neut": "lapidatis",
+      "ppp.acc.pl.masc": "lapidatos",
+      "ppp.acc.pl.fem": "lapidatas",
+      "ppp.acc.pl.neut": "lapidata",
+      "ppp.abl.pl.masc": "lapidatis",
+      "ppp.abl.pl.fem": "lapidatis",
+      "ppp.abl.pl.neut": "lapidatis",
+      "ppp.voc.pl.masc": "lapidati",
+      "ppp.voc.pl.fem": "lapidatae",
+      "ppp.voc.pl.neut": "lapidata"
+    }
   }
 }

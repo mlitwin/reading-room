@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "finge",
       "2pl.pres.imp.act": "fingite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fictus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fictus",
+      "ppp.nom.sg.fem": "ficta",
+      "ppp.nom.sg.neut": "fictum",
+      "ppp.gen.sg.masc": "ficti",
+      "ppp.gen.sg.fem": "fictae",
+      "ppp.gen.sg.neut": "ficti",
+      "ppp.dat.sg.masc": "ficto",
+      "ppp.dat.sg.fem": "fictae",
+      "ppp.dat.sg.neut": "ficto",
+      "ppp.acc.sg.masc": "fictum",
+      "ppp.acc.sg.fem": "fictam",
+      "ppp.acc.sg.neut": "fictum",
+      "ppp.abl.sg.masc": "ficto",
+      "ppp.abl.sg.fem": "ficta",
+      "ppp.abl.sg.neut": "ficto",
+      "ppp.voc.sg.masc": "ficte",
+      "ppp.voc.sg.fem": "ficta",
+      "ppp.voc.sg.neut": "fictum",
+      "ppp.nom.pl.masc": "ficti",
+      "ppp.nom.pl.fem": "fictae",
+      "ppp.nom.pl.neut": "ficta",
+      "ppp.gen.pl.masc": "fictorum",
+      "ppp.gen.pl.fem": "fictarum",
+      "ppp.gen.pl.neut": "fictorum",
+      "ppp.dat.pl.masc": "fictis",
+      "ppp.dat.pl.fem": "fictis",
+      "ppp.dat.pl.neut": "fictis",
+      "ppp.acc.pl.masc": "fictos",
+      "ppp.acc.pl.fem": "fictas",
+      "ppp.acc.pl.neut": "ficta",
+      "ppp.abl.pl.masc": "fictis",
+      "ppp.abl.pl.fem": "fictis",
+      "ppp.abl.pl.neut": "fictis",
+      "ppp.voc.pl.masc": "ficti",
+      "ppp.voc.pl.fem": "fictae",
+      "ppp.voc.pl.neut": "ficta"
+    }
   }
 }

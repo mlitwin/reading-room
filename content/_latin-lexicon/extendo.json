@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "extende",
       "2pl.pres.imp.act": "extendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: extensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "extensus",
+      "ppp.nom.sg.fem": "extensa",
+      "ppp.nom.sg.neut": "extensum",
+      "ppp.gen.sg.masc": "extensi",
+      "ppp.gen.sg.fem": "extensae",
+      "ppp.gen.sg.neut": "extensi",
+      "ppp.dat.sg.masc": "extenso",
+      "ppp.dat.sg.fem": "extensae",
+      "ppp.dat.sg.neut": "extenso",
+      "ppp.acc.sg.masc": "extensum",
+      "ppp.acc.sg.fem": "extensam",
+      "ppp.acc.sg.neut": "extensum",
+      "ppp.abl.sg.masc": "extenso",
+      "ppp.abl.sg.fem": "extensa",
+      "ppp.abl.sg.neut": "extenso",
+      "ppp.voc.sg.masc": "extense",
+      "ppp.voc.sg.fem": "extensa",
+      "ppp.voc.sg.neut": "extensum",
+      "ppp.nom.pl.masc": "extensi",
+      "ppp.nom.pl.fem": "extensae",
+      "ppp.nom.pl.neut": "extensa",
+      "ppp.gen.pl.masc": "extensorum",
+      "ppp.gen.pl.fem": "extensarum",
+      "ppp.gen.pl.neut": "extensorum",
+      "ppp.dat.pl.masc": "extensis",
+      "ppp.dat.pl.fem": "extensis",
+      "ppp.dat.pl.neut": "extensis",
+      "ppp.acc.pl.masc": "extensos",
+      "ppp.acc.pl.fem": "extensas",
+      "ppp.acc.pl.neut": "extensa",
+      "ppp.abl.pl.masc": "extensis",
+      "ppp.abl.pl.fem": "extensis",
+      "ppp.abl.pl.neut": "extensis",
+      "ppp.voc.pl.masc": "extensi",
+      "ppp.voc.pl.fem": "extensae",
+      "ppp.voc.pl.neut": "extensa"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "haere",
       "2pl.pres.imp.act": "haerete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: haesus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "haesus",
+      "ppp.nom.sg.fem": "haesa",
+      "ppp.nom.sg.neut": "haesum",
+      "ppp.gen.sg.masc": "haesi",
+      "ppp.gen.sg.fem": "haesae",
+      "ppp.gen.sg.neut": "haesi",
+      "ppp.dat.sg.masc": "haeso",
+      "ppp.dat.sg.fem": "haesae",
+      "ppp.dat.sg.neut": "haeso",
+      "ppp.acc.sg.masc": "haesum",
+      "ppp.acc.sg.fem": "haesam",
+      "ppp.acc.sg.neut": "haesum",
+      "ppp.abl.sg.masc": "haeso",
+      "ppp.abl.sg.fem": "haesa",
+      "ppp.abl.sg.neut": "haeso",
+      "ppp.voc.sg.masc": "haese",
+      "ppp.voc.sg.fem": "haesa",
+      "ppp.voc.sg.neut": "haesum",
+      "ppp.nom.pl.masc": "haesi",
+      "ppp.nom.pl.fem": "haesae",
+      "ppp.nom.pl.neut": "haesa",
+      "ppp.gen.pl.masc": "haesorum",
+      "ppp.gen.pl.fem": "haesarum",
+      "ppp.gen.pl.neut": "haesorum",
+      "ppp.dat.pl.masc": "haesis",
+      "ppp.dat.pl.fem": "haesis",
+      "ppp.dat.pl.neut": "haesis",
+      "ppp.acc.pl.masc": "haesos",
+      "ppp.acc.pl.fem": "haesas",
+      "ppp.acc.pl.neut": "haesa",
+      "ppp.abl.pl.masc": "haesis",
+      "ppp.abl.pl.fem": "haesis",
+      "ppp.abl.pl.neut": "haesis",
+      "ppp.voc.pl.masc": "haesi",
+      "ppp.voc.pl.fem": "haesae",
+      "ppp.voc.pl.neut": "haesa"
+    }
   }
 }

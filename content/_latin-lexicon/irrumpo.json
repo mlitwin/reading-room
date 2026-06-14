@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "irrumpe",
       "2pl.pres.imp.act": "irrumpite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: irruptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "irruptus",
+      "ppp.nom.sg.fem": "irrupta",
+      "ppp.nom.sg.neut": "irruptum",
+      "ppp.gen.sg.masc": "irrupti",
+      "ppp.gen.sg.fem": "irruptae",
+      "ppp.gen.sg.neut": "irrupti",
+      "ppp.dat.sg.masc": "irrupto",
+      "ppp.dat.sg.fem": "irruptae",
+      "ppp.dat.sg.neut": "irrupto",
+      "ppp.acc.sg.masc": "irruptum",
+      "ppp.acc.sg.fem": "irruptam",
+      "ppp.acc.sg.neut": "irruptum",
+      "ppp.abl.sg.masc": "irrupto",
+      "ppp.abl.sg.fem": "irrupta",
+      "ppp.abl.sg.neut": "irrupto",
+      "ppp.voc.sg.masc": "irrupte",
+      "ppp.voc.sg.fem": "irrupta",
+      "ppp.voc.sg.neut": "irruptum",
+      "ppp.nom.pl.masc": "irrupti",
+      "ppp.nom.pl.fem": "irruptae",
+      "ppp.nom.pl.neut": "irrupta",
+      "ppp.gen.pl.masc": "irruptorum",
+      "ppp.gen.pl.fem": "irruptarum",
+      "ppp.gen.pl.neut": "irruptorum",
+      "ppp.dat.pl.masc": "irruptis",
+      "ppp.dat.pl.fem": "irruptis",
+      "ppp.dat.pl.neut": "irruptis",
+      "ppp.acc.pl.masc": "irruptos",
+      "ppp.acc.pl.fem": "irruptas",
+      "ppp.acc.pl.neut": "irrupta",
+      "ppp.abl.pl.masc": "irruptis",
+      "ppp.abl.pl.fem": "irruptis",
+      "ppp.abl.pl.neut": "irruptis",
+      "ppp.voc.pl.masc": "irrupti",
+      "ppp.voc.pl.fem": "irruptae",
+      "ppp.voc.pl.neut": "irrupta"
+    }
   }
 }

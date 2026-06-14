@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "separa",
       "2pl.pres.imp.act": "separate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: separatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "separatus",
+      "ppp.nom.sg.fem": "separata",
+      "ppp.nom.sg.neut": "separatum",
+      "ppp.gen.sg.masc": "separati",
+      "ppp.gen.sg.fem": "separatae",
+      "ppp.gen.sg.neut": "separati",
+      "ppp.dat.sg.masc": "separato",
+      "ppp.dat.sg.fem": "separatae",
+      "ppp.dat.sg.neut": "separato",
+      "ppp.acc.sg.masc": "separatum",
+      "ppp.acc.sg.fem": "separatam",
+      "ppp.acc.sg.neut": "separatum",
+      "ppp.abl.sg.masc": "separato",
+      "ppp.abl.sg.fem": "separata",
+      "ppp.abl.sg.neut": "separato",
+      "ppp.voc.sg.masc": "separate",
+      "ppp.voc.sg.fem": "separata",
+      "ppp.voc.sg.neut": "separatum",
+      "ppp.nom.pl.masc": "separati",
+      "ppp.nom.pl.fem": "separatae",
+      "ppp.nom.pl.neut": "separata",
+      "ppp.gen.pl.masc": "separatorum",
+      "ppp.gen.pl.fem": "separatarum",
+      "ppp.gen.pl.neut": "separatorum",
+      "ppp.dat.pl.masc": "separatis",
+      "ppp.dat.pl.fem": "separatis",
+      "ppp.dat.pl.neut": "separatis",
+      "ppp.acc.pl.masc": "separatos",
+      "ppp.acc.pl.fem": "separatas",
+      "ppp.acc.pl.neut": "separata",
+      "ppp.abl.pl.masc": "separatis",
+      "ppp.abl.pl.fem": "separatis",
+      "ppp.abl.pl.neut": "separatis",
+      "ppp.voc.pl.masc": "separati",
+      "ppp.voc.pl.fem": "separatae",
+      "ppp.voc.pl.neut": "separata"
+    }
   }
 }

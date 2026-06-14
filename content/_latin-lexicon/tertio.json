@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "tertia",
       "2pl.pres.imp.act": "tertiate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tertiatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tertiatus",
+      "ppp.nom.sg.fem": "tertiata",
+      "ppp.nom.sg.neut": "tertiatum",
+      "ppp.gen.sg.masc": "tertiati",
+      "ppp.gen.sg.fem": "tertiatae",
+      "ppp.gen.sg.neut": "tertiati",
+      "ppp.dat.sg.masc": "tertiato",
+      "ppp.dat.sg.fem": "tertiatae",
+      "ppp.dat.sg.neut": "tertiato",
+      "ppp.acc.sg.masc": "tertiatum",
+      "ppp.acc.sg.fem": "tertiatam",
+      "ppp.acc.sg.neut": "tertiatum",
+      "ppp.abl.sg.masc": "tertiato",
+      "ppp.abl.sg.fem": "tertiata",
+      "ppp.abl.sg.neut": "tertiato",
+      "ppp.voc.sg.masc": "tertiate",
+      "ppp.voc.sg.fem": "tertiata",
+      "ppp.voc.sg.neut": "tertiatum",
+      "ppp.nom.pl.masc": "tertiati",
+      "ppp.nom.pl.fem": "tertiatae",
+      "ppp.nom.pl.neut": "tertiata",
+      "ppp.gen.pl.masc": "tertiatorum",
+      "ppp.gen.pl.fem": "tertiatarum",
+      "ppp.gen.pl.neut": "tertiatorum",
+      "ppp.dat.pl.masc": "tertiatis",
+      "ppp.dat.pl.fem": "tertiatis",
+      "ppp.dat.pl.neut": "tertiatis",
+      "ppp.acc.pl.masc": "tertiatos",
+      "ppp.acc.pl.fem": "tertiatas",
+      "ppp.acc.pl.neut": "tertiata",
+      "ppp.abl.pl.masc": "tertiatis",
+      "ppp.abl.pl.fem": "tertiatis",
+      "ppp.abl.pl.neut": "tertiatis",
+      "ppp.voc.pl.masc": "tertiati",
+      "ppp.voc.pl.fem": "tertiatae",
+      "ppp.voc.pl.neut": "tertiata"
+    }
   }
 }

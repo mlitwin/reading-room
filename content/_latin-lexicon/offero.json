@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "offera",
       "2pl.pres.imp.act": "offerate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: offeratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "offeratus",
+      "ppp.nom.sg.fem": "offerata",
+      "ppp.nom.sg.neut": "offeratum",
+      "ppp.gen.sg.masc": "offerati",
+      "ppp.gen.sg.fem": "offeratae",
+      "ppp.gen.sg.neut": "offerati",
+      "ppp.dat.sg.masc": "offerato",
+      "ppp.dat.sg.fem": "offeratae",
+      "ppp.dat.sg.neut": "offerato",
+      "ppp.acc.sg.masc": "offeratum",
+      "ppp.acc.sg.fem": "offeratam",
+      "ppp.acc.sg.neut": "offeratum",
+      "ppp.abl.sg.masc": "offerato",
+      "ppp.abl.sg.fem": "offerata",
+      "ppp.abl.sg.neut": "offerato",
+      "ppp.voc.sg.masc": "offerate",
+      "ppp.voc.sg.fem": "offerata",
+      "ppp.voc.sg.neut": "offeratum",
+      "ppp.nom.pl.masc": "offerati",
+      "ppp.nom.pl.fem": "offeratae",
+      "ppp.nom.pl.neut": "offerata",
+      "ppp.gen.pl.masc": "offeratorum",
+      "ppp.gen.pl.fem": "offeratarum",
+      "ppp.gen.pl.neut": "offeratorum",
+      "ppp.dat.pl.masc": "offeratis",
+      "ppp.dat.pl.fem": "offeratis",
+      "ppp.dat.pl.neut": "offeratis",
+      "ppp.acc.pl.masc": "offeratos",
+      "ppp.acc.pl.fem": "offeratas",
+      "ppp.acc.pl.neut": "offerata",
+      "ppp.abl.pl.masc": "offeratis",
+      "ppp.abl.pl.fem": "offeratis",
+      "ppp.abl.pl.neut": "offeratis",
+      "ppp.voc.pl.masc": "offerati",
+      "ppp.voc.pl.fem": "offeratae",
+      "ppp.voc.pl.neut": "offerata"
+    }
   }
 }

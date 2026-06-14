@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "proxima",
       "2pl.pres.imp.act": "proximate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: proximatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "proximatus",
+      "ppp.nom.sg.fem": "proximata",
+      "ppp.nom.sg.neut": "proximatum",
+      "ppp.gen.sg.masc": "proximati",
+      "ppp.gen.sg.fem": "proximatae",
+      "ppp.gen.sg.neut": "proximati",
+      "ppp.dat.sg.masc": "proximato",
+      "ppp.dat.sg.fem": "proximatae",
+      "ppp.dat.sg.neut": "proximato",
+      "ppp.acc.sg.masc": "proximatum",
+      "ppp.acc.sg.fem": "proximatam",
+      "ppp.acc.sg.neut": "proximatum",
+      "ppp.abl.sg.masc": "proximato",
+      "ppp.abl.sg.fem": "proximata",
+      "ppp.abl.sg.neut": "proximato",
+      "ppp.voc.sg.masc": "proximate",
+      "ppp.voc.sg.fem": "proximata",
+      "ppp.voc.sg.neut": "proximatum",
+      "ppp.nom.pl.masc": "proximati",
+      "ppp.nom.pl.fem": "proximatae",
+      "ppp.nom.pl.neut": "proximata",
+      "ppp.gen.pl.masc": "proximatorum",
+      "ppp.gen.pl.fem": "proximatarum",
+      "ppp.gen.pl.neut": "proximatorum",
+      "ppp.dat.pl.masc": "proximatis",
+      "ppp.dat.pl.fem": "proximatis",
+      "ppp.dat.pl.neut": "proximatis",
+      "ppp.acc.pl.masc": "proximatos",
+      "ppp.acc.pl.fem": "proximatas",
+      "ppp.acc.pl.neut": "proximata",
+      "ppp.abl.pl.masc": "proximatis",
+      "ppp.abl.pl.fem": "proximatis",
+      "ppp.abl.pl.neut": "proximatis",
+      "ppp.voc.pl.masc": "proximati",
+      "ppp.voc.pl.fem": "proximatae",
+      "ppp.voc.pl.neut": "proximata"
+    }
   }
 }

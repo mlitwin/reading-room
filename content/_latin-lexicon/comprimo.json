@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "comprime",
       "2pl.pres.imp.act": "comprimite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: compressus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "compressus",
+      "ppp.nom.sg.fem": "compressa",
+      "ppp.nom.sg.neut": "compressum",
+      "ppp.gen.sg.masc": "compressi",
+      "ppp.gen.sg.fem": "compressae",
+      "ppp.gen.sg.neut": "compressi",
+      "ppp.dat.sg.masc": "compresso",
+      "ppp.dat.sg.fem": "compressae",
+      "ppp.dat.sg.neut": "compresso",
+      "ppp.acc.sg.masc": "compressum",
+      "ppp.acc.sg.fem": "compressam",
+      "ppp.acc.sg.neut": "compressum",
+      "ppp.abl.sg.masc": "compresso",
+      "ppp.abl.sg.fem": "compressa",
+      "ppp.abl.sg.neut": "compresso",
+      "ppp.voc.sg.masc": "compresse",
+      "ppp.voc.sg.fem": "compressa",
+      "ppp.voc.sg.neut": "compressum",
+      "ppp.nom.pl.masc": "compressi",
+      "ppp.nom.pl.fem": "compressae",
+      "ppp.nom.pl.neut": "compressa",
+      "ppp.gen.pl.masc": "compressorum",
+      "ppp.gen.pl.fem": "compressarum",
+      "ppp.gen.pl.neut": "compressorum",
+      "ppp.dat.pl.masc": "compressis",
+      "ppp.dat.pl.fem": "compressis",
+      "ppp.dat.pl.neut": "compressis",
+      "ppp.acc.pl.masc": "compressos",
+      "ppp.acc.pl.fem": "compressas",
+      "ppp.acc.pl.neut": "compressa",
+      "ppp.abl.pl.masc": "compressis",
+      "ppp.abl.pl.fem": "compressis",
+      "ppp.abl.pl.neut": "compressis",
+      "ppp.voc.pl.masc": "compressi",
+      "ppp.voc.pl.fem": "compressae",
+      "ppp.voc.pl.neut": "compressa"
+    }
   }
 }

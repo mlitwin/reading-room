@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "deice",
       "2pl.pres.imp.act": "deicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dejectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dejectus",
+      "ppp.nom.sg.fem": "dejecta",
+      "ppp.nom.sg.neut": "dejectum",
+      "ppp.gen.sg.masc": "dejecti",
+      "ppp.gen.sg.fem": "dejectae",
+      "ppp.gen.sg.neut": "dejecti",
+      "ppp.dat.sg.masc": "dejecto",
+      "ppp.dat.sg.fem": "dejectae",
+      "ppp.dat.sg.neut": "dejecto",
+      "ppp.acc.sg.masc": "dejectum",
+      "ppp.acc.sg.fem": "dejectam",
+      "ppp.acc.sg.neut": "dejectum",
+      "ppp.abl.sg.masc": "dejecto",
+      "ppp.abl.sg.fem": "dejecta",
+      "ppp.abl.sg.neut": "dejecto",
+      "ppp.voc.sg.masc": "dejecte",
+      "ppp.voc.sg.fem": "dejecta",
+      "ppp.voc.sg.neut": "dejectum",
+      "ppp.nom.pl.masc": "dejecti",
+      "ppp.nom.pl.fem": "dejectae",
+      "ppp.nom.pl.neut": "dejecta",
+      "ppp.gen.pl.masc": "dejectorum",
+      "ppp.gen.pl.fem": "dejectarum",
+      "ppp.gen.pl.neut": "dejectorum",
+      "ppp.dat.pl.masc": "dejectis",
+      "ppp.dat.pl.fem": "dejectis",
+      "ppp.dat.pl.neut": "dejectis",
+      "ppp.acc.pl.masc": "dejectos",
+      "ppp.acc.pl.fem": "dejectas",
+      "ppp.acc.pl.neut": "dejecta",
+      "ppp.abl.pl.masc": "dejectis",
+      "ppp.abl.pl.fem": "dejectis",
+      "ppp.abl.pl.neut": "dejectis",
+      "ppp.voc.pl.masc": "dejecti",
+      "ppp.voc.pl.fem": "dejectae",
+      "ppp.voc.pl.neut": "dejecta"
+    }
   }
 }

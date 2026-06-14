@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "perveni",
       "2pl.pres.imp.act": "pervenite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: perventus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "perventus",
+      "ppp.nom.sg.fem": "perventa",
+      "ppp.nom.sg.neut": "perventum",
+      "ppp.gen.sg.masc": "perventi",
+      "ppp.gen.sg.fem": "perventae",
+      "ppp.gen.sg.neut": "perventi",
+      "ppp.dat.sg.masc": "pervento",
+      "ppp.dat.sg.fem": "perventae",
+      "ppp.dat.sg.neut": "pervento",
+      "ppp.acc.sg.masc": "perventum",
+      "ppp.acc.sg.fem": "perventam",
+      "ppp.acc.sg.neut": "perventum",
+      "ppp.abl.sg.masc": "pervento",
+      "ppp.abl.sg.fem": "perventa",
+      "ppp.abl.sg.neut": "pervento",
+      "ppp.voc.sg.masc": "pervente",
+      "ppp.voc.sg.fem": "perventa",
+      "ppp.voc.sg.neut": "perventum",
+      "ppp.nom.pl.masc": "perventi",
+      "ppp.nom.pl.fem": "perventae",
+      "ppp.nom.pl.neut": "perventa",
+      "ppp.gen.pl.masc": "perventorum",
+      "ppp.gen.pl.fem": "perventarum",
+      "ppp.gen.pl.neut": "perventorum",
+      "ppp.dat.pl.masc": "perventis",
+      "ppp.dat.pl.fem": "perventis",
+      "ppp.dat.pl.neut": "perventis",
+      "ppp.acc.pl.masc": "perventos",
+      "ppp.acc.pl.fem": "perventas",
+      "ppp.acc.pl.neut": "perventa",
+      "ppp.abl.pl.masc": "perventis",
+      "ppp.abl.pl.fem": "perventis",
+      "ppp.abl.pl.neut": "perventis",
+      "ppp.voc.pl.masc": "perventi",
+      "ppp.voc.pl.fem": "perventae",
+      "ppp.voc.pl.neut": "perventa"
+    }
   }
 }

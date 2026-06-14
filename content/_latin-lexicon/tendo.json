@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "tende",
       "2pl.pres.imp.act": "tendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tensus",
+      "ppp.nom.sg.fem": "tensa",
+      "ppp.nom.sg.neut": "tensum",
+      "ppp.gen.sg.masc": "tensi",
+      "ppp.gen.sg.fem": "tensae",
+      "ppp.gen.sg.neut": "tensi",
+      "ppp.dat.sg.masc": "tenso",
+      "ppp.dat.sg.fem": "tensae",
+      "ppp.dat.sg.neut": "tenso",
+      "ppp.acc.sg.masc": "tensum",
+      "ppp.acc.sg.fem": "tensam",
+      "ppp.acc.sg.neut": "tensum",
+      "ppp.abl.sg.masc": "tenso",
+      "ppp.abl.sg.fem": "tensa",
+      "ppp.abl.sg.neut": "tenso",
+      "ppp.voc.sg.masc": "tense",
+      "ppp.voc.sg.fem": "tensa",
+      "ppp.voc.sg.neut": "tensum",
+      "ppp.nom.pl.masc": "tensi",
+      "ppp.nom.pl.fem": "tensae",
+      "ppp.nom.pl.neut": "tensa",
+      "ppp.gen.pl.masc": "tensorum",
+      "ppp.gen.pl.fem": "tensarum",
+      "ppp.gen.pl.neut": "tensorum",
+      "ppp.dat.pl.masc": "tensis",
+      "ppp.dat.pl.fem": "tensis",
+      "ppp.dat.pl.neut": "tensis",
+      "ppp.acc.pl.masc": "tensos",
+      "ppp.acc.pl.fem": "tensas",
+      "ppp.acc.pl.neut": "tensa",
+      "ppp.abl.pl.masc": "tensis",
+      "ppp.abl.pl.fem": "tensis",
+      "ppp.abl.pl.neut": "tensis",
+      "ppp.voc.pl.masc": "tensi",
+      "ppp.voc.pl.fem": "tensae",
+      "ppp.voc.pl.neut": "tensa"
+    }
   }
 }

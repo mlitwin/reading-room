@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "vela",
       "2pl.pres.imp.act": "velate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: velatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "velatus",
+      "ppp.nom.sg.fem": "velata",
+      "ppp.nom.sg.neut": "velatum",
+      "ppp.gen.sg.masc": "velati",
+      "ppp.gen.sg.fem": "velatae",
+      "ppp.gen.sg.neut": "velati",
+      "ppp.dat.sg.masc": "velato",
+      "ppp.dat.sg.fem": "velatae",
+      "ppp.dat.sg.neut": "velato",
+      "ppp.acc.sg.masc": "velatum",
+      "ppp.acc.sg.fem": "velatam",
+      "ppp.acc.sg.neut": "velatum",
+      "ppp.abl.sg.masc": "velato",
+      "ppp.abl.sg.fem": "velata",
+      "ppp.abl.sg.neut": "velato",
+      "ppp.voc.sg.masc": "velate",
+      "ppp.voc.sg.fem": "velata",
+      "ppp.voc.sg.neut": "velatum",
+      "ppp.nom.pl.masc": "velati",
+      "ppp.nom.pl.fem": "velatae",
+      "ppp.nom.pl.neut": "velata",
+      "ppp.gen.pl.masc": "velatorum",
+      "ppp.gen.pl.fem": "velatarum",
+      "ppp.gen.pl.neut": "velatorum",
+      "ppp.dat.pl.masc": "velatis",
+      "ppp.dat.pl.fem": "velatis",
+      "ppp.dat.pl.neut": "velatis",
+      "ppp.acc.pl.masc": "velatos",
+      "ppp.acc.pl.fem": "velatas",
+      "ppp.acc.pl.neut": "velata",
+      "ppp.abl.pl.masc": "velatis",
+      "ppp.abl.pl.fem": "velatis",
+      "ppp.abl.pl.neut": "velatis",
+      "ppp.voc.pl.masc": "velati",
+      "ppp.voc.pl.fem": "velatae",
+      "ppp.voc.pl.neut": "velata"
+    }
   }
 }

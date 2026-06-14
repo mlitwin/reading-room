@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "diffunde",
       "2pl.pres.imp.act": "diffundite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: diffusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "diffusus",
+      "ppp.nom.sg.fem": "diffusa",
+      "ppp.nom.sg.neut": "diffusum",
+      "ppp.gen.sg.masc": "diffusi",
+      "ppp.gen.sg.fem": "diffusae",
+      "ppp.gen.sg.neut": "diffusi",
+      "ppp.dat.sg.masc": "diffuso",
+      "ppp.dat.sg.fem": "diffusae",
+      "ppp.dat.sg.neut": "diffuso",
+      "ppp.acc.sg.masc": "diffusum",
+      "ppp.acc.sg.fem": "diffusam",
+      "ppp.acc.sg.neut": "diffusum",
+      "ppp.abl.sg.masc": "diffuso",
+      "ppp.abl.sg.fem": "diffusa",
+      "ppp.abl.sg.neut": "diffuso",
+      "ppp.voc.sg.masc": "diffuse",
+      "ppp.voc.sg.fem": "diffusa",
+      "ppp.voc.sg.neut": "diffusum",
+      "ppp.nom.pl.masc": "diffusi",
+      "ppp.nom.pl.fem": "diffusae",
+      "ppp.nom.pl.neut": "diffusa",
+      "ppp.gen.pl.masc": "diffusorum",
+      "ppp.gen.pl.fem": "diffusarum",
+      "ppp.gen.pl.neut": "diffusorum",
+      "ppp.dat.pl.masc": "diffusis",
+      "ppp.dat.pl.fem": "diffusis",
+      "ppp.dat.pl.neut": "diffusis",
+      "ppp.acc.pl.masc": "diffusos",
+      "ppp.acc.pl.fem": "diffusas",
+      "ppp.acc.pl.neut": "diffusa",
+      "ppp.abl.pl.masc": "diffusis",
+      "ppp.abl.pl.fem": "diffusis",
+      "ppp.abl.pl.neut": "diffusis",
+      "ppp.voc.pl.masc": "diffusi",
+      "ppp.voc.pl.fem": "diffusae",
+      "ppp.voc.pl.neut": "diffusa"
+    }
   }
 }

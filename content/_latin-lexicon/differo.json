@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "differ",
       "2pl.pres.imp.act": "differte"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dilatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dilatus",
+      "ppp.nom.sg.fem": "dilata",
+      "ppp.nom.sg.neut": "dilatum",
+      "ppp.gen.sg.masc": "dilati",
+      "ppp.gen.sg.fem": "dilatae",
+      "ppp.gen.sg.neut": "dilati",
+      "ppp.dat.sg.masc": "dilato",
+      "ppp.dat.sg.fem": "dilatae",
+      "ppp.dat.sg.neut": "dilato",
+      "ppp.acc.sg.masc": "dilatum",
+      "ppp.acc.sg.fem": "dilatam",
+      "ppp.acc.sg.neut": "dilatum",
+      "ppp.abl.sg.masc": "dilato",
+      "ppp.abl.sg.fem": "dilata",
+      "ppp.abl.sg.neut": "dilato",
+      "ppp.voc.sg.masc": "dilate",
+      "ppp.voc.sg.fem": "dilata",
+      "ppp.voc.sg.neut": "dilatum",
+      "ppp.nom.pl.masc": "dilati",
+      "ppp.nom.pl.fem": "dilatae",
+      "ppp.nom.pl.neut": "dilata",
+      "ppp.gen.pl.masc": "dilatorum",
+      "ppp.gen.pl.fem": "dilatarum",
+      "ppp.gen.pl.neut": "dilatorum",
+      "ppp.dat.pl.masc": "dilatis",
+      "ppp.dat.pl.fem": "dilatis",
+      "ppp.dat.pl.neut": "dilatis",
+      "ppp.acc.pl.masc": "dilatos",
+      "ppp.acc.pl.fem": "dilatas",
+      "ppp.acc.pl.neut": "dilata",
+      "ppp.abl.pl.masc": "dilatis",
+      "ppp.abl.pl.fem": "dilatis",
+      "ppp.abl.pl.neut": "dilatis",
+      "ppp.voc.pl.masc": "dilati",
+      "ppp.voc.pl.fem": "dilatae",
+      "ppp.voc.pl.neut": "dilata"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "nuda",
       "2pl.pres.imp.act": "nudate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: nudatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "nudatus",
+      "ppp.nom.sg.fem": "nudata",
+      "ppp.nom.sg.neut": "nudatum",
+      "ppp.gen.sg.masc": "nudati",
+      "ppp.gen.sg.fem": "nudatae",
+      "ppp.gen.sg.neut": "nudati",
+      "ppp.dat.sg.masc": "nudato",
+      "ppp.dat.sg.fem": "nudatae",
+      "ppp.dat.sg.neut": "nudato",
+      "ppp.acc.sg.masc": "nudatum",
+      "ppp.acc.sg.fem": "nudatam",
+      "ppp.acc.sg.neut": "nudatum",
+      "ppp.abl.sg.masc": "nudato",
+      "ppp.abl.sg.fem": "nudata",
+      "ppp.abl.sg.neut": "nudato",
+      "ppp.voc.sg.masc": "nudate",
+      "ppp.voc.sg.fem": "nudata",
+      "ppp.voc.sg.neut": "nudatum",
+      "ppp.nom.pl.masc": "nudati",
+      "ppp.nom.pl.fem": "nudatae",
+      "ppp.nom.pl.neut": "nudata",
+      "ppp.gen.pl.masc": "nudatorum",
+      "ppp.gen.pl.fem": "nudatarum",
+      "ppp.gen.pl.neut": "nudatorum",
+      "ppp.dat.pl.masc": "nudatis",
+      "ppp.dat.pl.fem": "nudatis",
+      "ppp.dat.pl.neut": "nudatis",
+      "ppp.acc.pl.masc": "nudatos",
+      "ppp.acc.pl.fem": "nudatas",
+      "ppp.acc.pl.neut": "nudata",
+      "ppp.abl.pl.masc": "nudatis",
+      "ppp.abl.pl.fem": "nudatis",
+      "ppp.abl.pl.neut": "nudatis",
+      "ppp.voc.pl.masc": "nudati",
+      "ppp.voc.pl.fem": "nudatae",
+      "ppp.voc.pl.neut": "nudata"
+    }
   }
 }

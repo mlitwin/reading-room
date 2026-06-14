@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "insulta",
       "2pl.pres.imp.act": "insultate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: insultatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "insultatus",
+      "ppp.nom.sg.fem": "insultata",
+      "ppp.nom.sg.neut": "insultatum",
+      "ppp.gen.sg.masc": "insultati",
+      "ppp.gen.sg.fem": "insultatae",
+      "ppp.gen.sg.neut": "insultati",
+      "ppp.dat.sg.masc": "insultato",
+      "ppp.dat.sg.fem": "insultatae",
+      "ppp.dat.sg.neut": "insultato",
+      "ppp.acc.sg.masc": "insultatum",
+      "ppp.acc.sg.fem": "insultatam",
+      "ppp.acc.sg.neut": "insultatum",
+      "ppp.abl.sg.masc": "insultato",
+      "ppp.abl.sg.fem": "insultata",
+      "ppp.abl.sg.neut": "insultato",
+      "ppp.voc.sg.masc": "insultate",
+      "ppp.voc.sg.fem": "insultata",
+      "ppp.voc.sg.neut": "insultatum",
+      "ppp.nom.pl.masc": "insultati",
+      "ppp.nom.pl.fem": "insultatae",
+      "ppp.nom.pl.neut": "insultata",
+      "ppp.gen.pl.masc": "insultatorum",
+      "ppp.gen.pl.fem": "insultatarum",
+      "ppp.gen.pl.neut": "insultatorum",
+      "ppp.dat.pl.masc": "insultatis",
+      "ppp.dat.pl.fem": "insultatis",
+      "ppp.dat.pl.neut": "insultatis",
+      "ppp.acc.pl.masc": "insultatos",
+      "ppp.acc.pl.fem": "insultatas",
+      "ppp.acc.pl.neut": "insultata",
+      "ppp.abl.pl.masc": "insultatis",
+      "ppp.abl.pl.fem": "insultatis",
+      "ppp.abl.pl.neut": "insultatis",
+      "ppp.voc.pl.masc": "insultati",
+      "ppp.voc.pl.fem": "insultatae",
+      "ppp.voc.pl.neut": "insultata"
+    }
   }
 }

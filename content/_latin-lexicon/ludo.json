@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "lude",
       "2pl.pres.imp.act": "ludite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: lusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "lusus",
+      "ppp.nom.sg.fem": "lusa",
+      "ppp.nom.sg.neut": "lusum",
+      "ppp.gen.sg.masc": "lusi",
+      "ppp.gen.sg.fem": "lusae",
+      "ppp.gen.sg.neut": "lusi",
+      "ppp.dat.sg.masc": "luso",
+      "ppp.dat.sg.fem": "lusae",
+      "ppp.dat.sg.neut": "luso",
+      "ppp.acc.sg.masc": "lusum",
+      "ppp.acc.sg.fem": "lusam",
+      "ppp.acc.sg.neut": "lusum",
+      "ppp.abl.sg.masc": "luso",
+      "ppp.abl.sg.fem": "lusa",
+      "ppp.abl.sg.neut": "luso",
+      "ppp.voc.sg.masc": "luse",
+      "ppp.voc.sg.fem": "lusa",
+      "ppp.voc.sg.neut": "lusum",
+      "ppp.nom.pl.masc": "lusi",
+      "ppp.nom.pl.fem": "lusae",
+      "ppp.nom.pl.neut": "lusa",
+      "ppp.gen.pl.masc": "lusorum",
+      "ppp.gen.pl.fem": "lusarum",
+      "ppp.gen.pl.neut": "lusorum",
+      "ppp.dat.pl.masc": "lusis",
+      "ppp.dat.pl.fem": "lusis",
+      "ppp.dat.pl.neut": "lusis",
+      "ppp.acc.pl.masc": "lusos",
+      "ppp.acc.pl.fem": "lusas",
+      "ppp.acc.pl.neut": "lusa",
+      "ppp.abl.pl.masc": "lusis",
+      "ppp.abl.pl.fem": "lusis",
+      "ppp.abl.pl.neut": "lusis",
+      "ppp.voc.pl.masc": "lusi",
+      "ppp.voc.pl.fem": "lusae",
+      "ppp.voc.pl.neut": "lusa"
+    }
   }
 }

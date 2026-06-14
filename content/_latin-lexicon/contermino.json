@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "contermina",
       "2pl.pres.imp.act": "conterminate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conterminatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conterminatus",
+      "ppp.nom.sg.fem": "conterminata",
+      "ppp.nom.sg.neut": "conterminatum",
+      "ppp.gen.sg.masc": "conterminati",
+      "ppp.gen.sg.fem": "conterminatae",
+      "ppp.gen.sg.neut": "conterminati",
+      "ppp.dat.sg.masc": "conterminato",
+      "ppp.dat.sg.fem": "conterminatae",
+      "ppp.dat.sg.neut": "conterminato",
+      "ppp.acc.sg.masc": "conterminatum",
+      "ppp.acc.sg.fem": "conterminatam",
+      "ppp.acc.sg.neut": "conterminatum",
+      "ppp.abl.sg.masc": "conterminato",
+      "ppp.abl.sg.fem": "conterminata",
+      "ppp.abl.sg.neut": "conterminato",
+      "ppp.voc.sg.masc": "conterminate",
+      "ppp.voc.sg.fem": "conterminata",
+      "ppp.voc.sg.neut": "conterminatum",
+      "ppp.nom.pl.masc": "conterminati",
+      "ppp.nom.pl.fem": "conterminatae",
+      "ppp.nom.pl.neut": "conterminata",
+      "ppp.gen.pl.masc": "conterminatorum",
+      "ppp.gen.pl.fem": "conterminatarum",
+      "ppp.gen.pl.neut": "conterminatorum",
+      "ppp.dat.pl.masc": "conterminatis",
+      "ppp.dat.pl.fem": "conterminatis",
+      "ppp.dat.pl.neut": "conterminatis",
+      "ppp.acc.pl.masc": "conterminatos",
+      "ppp.acc.pl.fem": "conterminatas",
+      "ppp.acc.pl.neut": "conterminata",
+      "ppp.abl.pl.masc": "conterminatis",
+      "ppp.abl.pl.fem": "conterminatis",
+      "ppp.abl.pl.neut": "conterminatis",
+      "ppp.voc.pl.masc": "conterminati",
+      "ppp.voc.pl.fem": "conterminatae",
+      "ppp.voc.pl.neut": "conterminata"
+    }
   }
 }

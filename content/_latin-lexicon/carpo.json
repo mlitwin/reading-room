@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "carpe",
       "2pl.pres.imp.act": "carpite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: carptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "carptus",
+      "ppp.nom.sg.fem": "carpta",
+      "ppp.nom.sg.neut": "carptum",
+      "ppp.gen.sg.masc": "carpti",
+      "ppp.gen.sg.fem": "carptae",
+      "ppp.gen.sg.neut": "carpti",
+      "ppp.dat.sg.masc": "carpto",
+      "ppp.dat.sg.fem": "carptae",
+      "ppp.dat.sg.neut": "carpto",
+      "ppp.acc.sg.masc": "carptum",
+      "ppp.acc.sg.fem": "carptam",
+      "ppp.acc.sg.neut": "carptum",
+      "ppp.abl.sg.masc": "carpto",
+      "ppp.abl.sg.fem": "carpta",
+      "ppp.abl.sg.neut": "carpto",
+      "ppp.voc.sg.masc": "carpte",
+      "ppp.voc.sg.fem": "carpta",
+      "ppp.voc.sg.neut": "carptum",
+      "ppp.nom.pl.masc": "carpti",
+      "ppp.nom.pl.fem": "carptae",
+      "ppp.nom.pl.neut": "carpta",
+      "ppp.gen.pl.masc": "carptorum",
+      "ppp.gen.pl.fem": "carptarum",
+      "ppp.gen.pl.neut": "carptorum",
+      "ppp.dat.pl.masc": "carptis",
+      "ppp.dat.pl.fem": "carptis",
+      "ppp.dat.pl.neut": "carptis",
+      "ppp.acc.pl.masc": "carptos",
+      "ppp.acc.pl.fem": "carptas",
+      "ppp.acc.pl.neut": "carpta",
+      "ppp.abl.pl.masc": "carptis",
+      "ppp.abl.pl.fem": "carptis",
+      "ppp.abl.pl.neut": "carptis",
+      "ppp.voc.pl.masc": "carpti",
+      "ppp.voc.pl.fem": "carptae",
+      "ppp.voc.pl.neut": "carpta"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "saucia",
       "2pl.pres.imp.act": "sauciate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sauciatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sauciatus",
+      "ppp.nom.sg.fem": "sauciata",
+      "ppp.nom.sg.neut": "sauciatum",
+      "ppp.gen.sg.masc": "sauciati",
+      "ppp.gen.sg.fem": "sauciatae",
+      "ppp.gen.sg.neut": "sauciati",
+      "ppp.dat.sg.masc": "sauciato",
+      "ppp.dat.sg.fem": "sauciatae",
+      "ppp.dat.sg.neut": "sauciato",
+      "ppp.acc.sg.masc": "sauciatum",
+      "ppp.acc.sg.fem": "sauciatam",
+      "ppp.acc.sg.neut": "sauciatum",
+      "ppp.abl.sg.masc": "sauciato",
+      "ppp.abl.sg.fem": "sauciata",
+      "ppp.abl.sg.neut": "sauciato",
+      "ppp.voc.sg.masc": "sauciate",
+      "ppp.voc.sg.fem": "sauciata",
+      "ppp.voc.sg.neut": "sauciatum",
+      "ppp.nom.pl.masc": "sauciati",
+      "ppp.nom.pl.fem": "sauciatae",
+      "ppp.nom.pl.neut": "sauciata",
+      "ppp.gen.pl.masc": "sauciatorum",
+      "ppp.gen.pl.fem": "sauciatarum",
+      "ppp.gen.pl.neut": "sauciatorum",
+      "ppp.dat.pl.masc": "sauciatis",
+      "ppp.dat.pl.fem": "sauciatis",
+      "ppp.dat.pl.neut": "sauciatis",
+      "ppp.acc.pl.masc": "sauciatos",
+      "ppp.acc.pl.fem": "sauciatas",
+      "ppp.acc.pl.neut": "sauciata",
+      "ppp.abl.pl.masc": "sauciatis",
+      "ppp.abl.pl.fem": "sauciatis",
+      "ppp.abl.pl.neut": "sauciatis",
+      "ppp.voc.pl.masc": "sauciati",
+      "ppp.voc.pl.fem": "sauciatae",
+      "ppp.voc.pl.neut": "sauciata"
+    }
   }
 }

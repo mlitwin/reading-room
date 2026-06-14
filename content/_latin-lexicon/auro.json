@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "aura",
       "2pl.pres.imp.act": "aurate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: auratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "auratus",
+      "ppp.nom.sg.fem": "aurata",
+      "ppp.nom.sg.neut": "auratum",
+      "ppp.gen.sg.masc": "aurati",
+      "ppp.gen.sg.fem": "auratae",
+      "ppp.gen.sg.neut": "aurati",
+      "ppp.dat.sg.masc": "aurato",
+      "ppp.dat.sg.fem": "auratae",
+      "ppp.dat.sg.neut": "aurato",
+      "ppp.acc.sg.masc": "auratum",
+      "ppp.acc.sg.fem": "auratam",
+      "ppp.acc.sg.neut": "auratum",
+      "ppp.abl.sg.masc": "aurato",
+      "ppp.abl.sg.fem": "aurata",
+      "ppp.abl.sg.neut": "aurato",
+      "ppp.voc.sg.masc": "aurate",
+      "ppp.voc.sg.fem": "aurata",
+      "ppp.voc.sg.neut": "auratum",
+      "ppp.nom.pl.masc": "aurati",
+      "ppp.nom.pl.fem": "auratae",
+      "ppp.nom.pl.neut": "aurata",
+      "ppp.gen.pl.masc": "auratorum",
+      "ppp.gen.pl.fem": "auratarum",
+      "ppp.gen.pl.neut": "auratorum",
+      "ppp.dat.pl.masc": "auratis",
+      "ppp.dat.pl.fem": "auratis",
+      "ppp.dat.pl.neut": "auratis",
+      "ppp.acc.pl.masc": "auratos",
+      "ppp.acc.pl.fem": "auratas",
+      "ppp.acc.pl.neut": "aurata",
+      "ppp.abl.pl.masc": "auratis",
+      "ppp.abl.pl.fem": "auratis",
+      "ppp.abl.pl.neut": "auratis",
+      "ppp.voc.pl.masc": "aurati",
+      "ppp.voc.pl.fem": "auratae",
+      "ppp.voc.pl.neut": "aurata"
+    }
   }
 }

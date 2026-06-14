@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "liqua",
       "2pl.pres.imp.act": "liquate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: liquatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "liquatus",
+      "ppp.nom.sg.fem": "liquata",
+      "ppp.nom.sg.neut": "liquatum",
+      "ppp.gen.sg.masc": "liquati",
+      "ppp.gen.sg.fem": "liquatae",
+      "ppp.gen.sg.neut": "liquati",
+      "ppp.dat.sg.masc": "liquato",
+      "ppp.dat.sg.fem": "liquatae",
+      "ppp.dat.sg.neut": "liquato",
+      "ppp.acc.sg.masc": "liquatum",
+      "ppp.acc.sg.fem": "liquatam",
+      "ppp.acc.sg.neut": "liquatum",
+      "ppp.abl.sg.masc": "liquato",
+      "ppp.abl.sg.fem": "liquata",
+      "ppp.abl.sg.neut": "liquato",
+      "ppp.voc.sg.masc": "liquate",
+      "ppp.voc.sg.fem": "liquata",
+      "ppp.voc.sg.neut": "liquatum",
+      "ppp.nom.pl.masc": "liquati",
+      "ppp.nom.pl.fem": "liquatae",
+      "ppp.nom.pl.neut": "liquata",
+      "ppp.gen.pl.masc": "liquatorum",
+      "ppp.gen.pl.fem": "liquatarum",
+      "ppp.gen.pl.neut": "liquatorum",
+      "ppp.dat.pl.masc": "liquatis",
+      "ppp.dat.pl.fem": "liquatis",
+      "ppp.dat.pl.neut": "liquatis",
+      "ppp.acc.pl.masc": "liquatos",
+      "ppp.acc.pl.fem": "liquatas",
+      "ppp.acc.pl.neut": "liquata",
+      "ppp.abl.pl.masc": "liquatis",
+      "ppp.abl.pl.fem": "liquatis",
+      "ppp.abl.pl.neut": "liquatis",
+      "ppp.voc.pl.masc": "liquati",
+      "ppp.voc.pl.fem": "liquatae",
+      "ppp.voc.pl.neut": "liquata"
+    }
   }
 }

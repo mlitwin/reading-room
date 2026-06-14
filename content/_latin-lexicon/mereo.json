@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "mere",
       "2pl.pres.imp.act": "merete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: meritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "meritus",
+      "ppp.nom.sg.fem": "merita",
+      "ppp.nom.sg.neut": "meritum",
+      "ppp.gen.sg.masc": "meriti",
+      "ppp.gen.sg.fem": "meritae",
+      "ppp.gen.sg.neut": "meriti",
+      "ppp.dat.sg.masc": "merito",
+      "ppp.dat.sg.fem": "meritae",
+      "ppp.dat.sg.neut": "merito",
+      "ppp.acc.sg.masc": "meritum",
+      "ppp.acc.sg.fem": "meritam",
+      "ppp.acc.sg.neut": "meritum",
+      "ppp.abl.sg.masc": "merito",
+      "ppp.abl.sg.fem": "merita",
+      "ppp.abl.sg.neut": "merito",
+      "ppp.voc.sg.masc": "merite",
+      "ppp.voc.sg.fem": "merita",
+      "ppp.voc.sg.neut": "meritum",
+      "ppp.nom.pl.masc": "meriti",
+      "ppp.nom.pl.fem": "meritae",
+      "ppp.nom.pl.neut": "merita",
+      "ppp.gen.pl.masc": "meritorum",
+      "ppp.gen.pl.fem": "meritarum",
+      "ppp.gen.pl.neut": "meritorum",
+      "ppp.dat.pl.masc": "meritis",
+      "ppp.dat.pl.fem": "meritis",
+      "ppp.dat.pl.neut": "meritis",
+      "ppp.acc.pl.masc": "meritos",
+      "ppp.acc.pl.fem": "meritas",
+      "ppp.acc.pl.neut": "merita",
+      "ppp.abl.pl.masc": "meritis",
+      "ppp.abl.pl.fem": "meritis",
+      "ppp.abl.pl.neut": "meritis",
+      "ppp.voc.pl.masc": "meriti",
+      "ppp.voc.pl.fem": "meritae",
+      "ppp.voc.pl.neut": "merita"
+    }
   }
 }

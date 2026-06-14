@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "occule",
       "2pl.pres.imp.act": "occulite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: occultus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "occultus",
+      "ppp.nom.sg.fem": "occulta",
+      "ppp.nom.sg.neut": "occultum",
+      "ppp.gen.sg.masc": "occulti",
+      "ppp.gen.sg.fem": "occultae",
+      "ppp.gen.sg.neut": "occulti",
+      "ppp.dat.sg.masc": "occulto",
+      "ppp.dat.sg.fem": "occultae",
+      "ppp.dat.sg.neut": "occulto",
+      "ppp.acc.sg.masc": "occultum",
+      "ppp.acc.sg.fem": "occultam",
+      "ppp.acc.sg.neut": "occultum",
+      "ppp.abl.sg.masc": "occulto",
+      "ppp.abl.sg.fem": "occulta",
+      "ppp.abl.sg.neut": "occulto",
+      "ppp.voc.sg.masc": "occulte",
+      "ppp.voc.sg.fem": "occulta",
+      "ppp.voc.sg.neut": "occultum",
+      "ppp.nom.pl.masc": "occulti",
+      "ppp.nom.pl.fem": "occultae",
+      "ppp.nom.pl.neut": "occulta",
+      "ppp.gen.pl.masc": "occultorum",
+      "ppp.gen.pl.fem": "occultarum",
+      "ppp.gen.pl.neut": "occultorum",
+      "ppp.dat.pl.masc": "occultis",
+      "ppp.dat.pl.fem": "occultis",
+      "ppp.dat.pl.neut": "occultis",
+      "ppp.acc.pl.masc": "occultos",
+      "ppp.acc.pl.fem": "occultas",
+      "ppp.acc.pl.neut": "occulta",
+      "ppp.abl.pl.masc": "occultis",
+      "ppp.abl.pl.fem": "occultis",
+      "ppp.abl.pl.neut": "occultis",
+      "ppp.voc.pl.masc": "occulti",
+      "ppp.voc.pl.fem": "occultae",
+      "ppp.voc.pl.neut": "occulta"
+    }
   }
 }

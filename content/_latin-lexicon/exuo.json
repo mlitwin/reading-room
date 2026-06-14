@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "exue",
       "2pl.pres.imp.act": "exuite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exutus",
+      "ppp.nom.sg.fem": "exuta",
+      "ppp.nom.sg.neut": "exutum",
+      "ppp.gen.sg.masc": "exuti",
+      "ppp.gen.sg.fem": "exutae",
+      "ppp.gen.sg.neut": "exuti",
+      "ppp.dat.sg.masc": "exuto",
+      "ppp.dat.sg.fem": "exutae",
+      "ppp.dat.sg.neut": "exuto",
+      "ppp.acc.sg.masc": "exutum",
+      "ppp.acc.sg.fem": "exutam",
+      "ppp.acc.sg.neut": "exutum",
+      "ppp.abl.sg.masc": "exuto",
+      "ppp.abl.sg.fem": "exuta",
+      "ppp.abl.sg.neut": "exuto",
+      "ppp.voc.sg.masc": "exute",
+      "ppp.voc.sg.fem": "exuta",
+      "ppp.voc.sg.neut": "exutum",
+      "ppp.nom.pl.masc": "exuti",
+      "ppp.nom.pl.fem": "exutae",
+      "ppp.nom.pl.neut": "exuta",
+      "ppp.gen.pl.masc": "exutorum",
+      "ppp.gen.pl.fem": "exutarum",
+      "ppp.gen.pl.neut": "exutorum",
+      "ppp.dat.pl.masc": "exutis",
+      "ppp.dat.pl.fem": "exutis",
+      "ppp.dat.pl.neut": "exutis",
+      "ppp.acc.pl.masc": "exutos",
+      "ppp.acc.pl.fem": "exutas",
+      "ppp.acc.pl.neut": "exuta",
+      "ppp.abl.pl.masc": "exutis",
+      "ppp.abl.pl.fem": "exutis",
+      "ppp.abl.pl.neut": "exutis",
+      "ppp.voc.pl.masc": "exuti",
+      "ppp.voc.pl.fem": "exutae",
+      "ppp.voc.pl.neut": "exuta"
+    }
   }
 }

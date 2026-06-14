@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "liga",
       "2pl.pres.imp.act": "ligate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ligatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ligatus",
+      "ppp.nom.sg.fem": "ligata",
+      "ppp.nom.sg.neut": "ligatum",
+      "ppp.gen.sg.masc": "ligati",
+      "ppp.gen.sg.fem": "ligatae",
+      "ppp.gen.sg.neut": "ligati",
+      "ppp.dat.sg.masc": "ligato",
+      "ppp.dat.sg.fem": "ligatae",
+      "ppp.dat.sg.neut": "ligato",
+      "ppp.acc.sg.masc": "ligatum",
+      "ppp.acc.sg.fem": "ligatam",
+      "ppp.acc.sg.neut": "ligatum",
+      "ppp.abl.sg.masc": "ligato",
+      "ppp.abl.sg.fem": "ligata",
+      "ppp.abl.sg.neut": "ligato",
+      "ppp.voc.sg.masc": "ligate",
+      "ppp.voc.sg.fem": "ligata",
+      "ppp.voc.sg.neut": "ligatum",
+      "ppp.nom.pl.masc": "ligati",
+      "ppp.nom.pl.fem": "ligatae",
+      "ppp.nom.pl.neut": "ligata",
+      "ppp.gen.pl.masc": "ligatorum",
+      "ppp.gen.pl.fem": "ligatarum",
+      "ppp.gen.pl.neut": "ligatorum",
+      "ppp.dat.pl.masc": "ligatis",
+      "ppp.dat.pl.fem": "ligatis",
+      "ppp.dat.pl.neut": "ligatis",
+      "ppp.acc.pl.masc": "ligatos",
+      "ppp.acc.pl.fem": "ligatas",
+      "ppp.acc.pl.neut": "ligata",
+      "ppp.abl.pl.masc": "ligatis",
+      "ppp.abl.pl.fem": "ligatis",
+      "ppp.abl.pl.neut": "ligatis",
+      "ppp.voc.pl.masc": "ligati",
+      "ppp.voc.pl.fem": "ligatae",
+      "ppp.voc.pl.neut": "ligata"
+    }
   }
 }

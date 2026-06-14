@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "decora",
       "2pl.pres.imp.act": "decorate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: decoratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "decoratus",
+      "ppp.nom.sg.fem": "decorata",
+      "ppp.nom.sg.neut": "decoratum",
+      "ppp.gen.sg.masc": "decorati",
+      "ppp.gen.sg.fem": "decoratae",
+      "ppp.gen.sg.neut": "decorati",
+      "ppp.dat.sg.masc": "decorato",
+      "ppp.dat.sg.fem": "decoratae",
+      "ppp.dat.sg.neut": "decorato",
+      "ppp.acc.sg.masc": "decoratum",
+      "ppp.acc.sg.fem": "decoratam",
+      "ppp.acc.sg.neut": "decoratum",
+      "ppp.abl.sg.masc": "decorato",
+      "ppp.abl.sg.fem": "decorata",
+      "ppp.abl.sg.neut": "decorato",
+      "ppp.voc.sg.masc": "decorate",
+      "ppp.voc.sg.fem": "decorata",
+      "ppp.voc.sg.neut": "decoratum",
+      "ppp.nom.pl.masc": "decorati",
+      "ppp.nom.pl.fem": "decoratae",
+      "ppp.nom.pl.neut": "decorata",
+      "ppp.gen.pl.masc": "decoratorum",
+      "ppp.gen.pl.fem": "decoratarum",
+      "ppp.gen.pl.neut": "decoratorum",
+      "ppp.dat.pl.masc": "decoratis",
+      "ppp.dat.pl.fem": "decoratis",
+      "ppp.dat.pl.neut": "decoratis",
+      "ppp.acc.pl.masc": "decoratos",
+      "ppp.acc.pl.fem": "decoratas",
+      "ppp.acc.pl.neut": "decorata",
+      "ppp.abl.pl.masc": "decoratis",
+      "ppp.abl.pl.fem": "decoratis",
+      "ppp.abl.pl.neut": "decoratis",
+      "ppp.voc.pl.masc": "decorati",
+      "ppp.voc.pl.fem": "decoratae",
+      "ppp.voc.pl.neut": "decorata"
+    }
   }
 }

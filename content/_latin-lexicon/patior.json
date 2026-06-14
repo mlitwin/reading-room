@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "pate",
       "2pl.pres.imp.act": "patite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: passus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "passus",
+      "ppp.nom.sg.fem": "passa",
+      "ppp.nom.sg.neut": "passum",
+      "ppp.gen.sg.masc": "passi",
+      "ppp.gen.sg.fem": "passae",
+      "ppp.gen.sg.neut": "passi",
+      "ppp.dat.sg.masc": "passo",
+      "ppp.dat.sg.fem": "passae",
+      "ppp.dat.sg.neut": "passo",
+      "ppp.acc.sg.masc": "passum",
+      "ppp.acc.sg.fem": "passam",
+      "ppp.acc.sg.neut": "passum",
+      "ppp.abl.sg.masc": "passo",
+      "ppp.abl.sg.fem": "passa",
+      "ppp.abl.sg.neut": "passo",
+      "ppp.voc.sg.masc": "passe",
+      "ppp.voc.sg.fem": "passa",
+      "ppp.voc.sg.neut": "passum",
+      "ppp.nom.pl.masc": "passi",
+      "ppp.nom.pl.fem": "passae",
+      "ppp.nom.pl.neut": "passa",
+      "ppp.gen.pl.masc": "passorum",
+      "ppp.gen.pl.fem": "passarum",
+      "ppp.gen.pl.neut": "passorum",
+      "ppp.dat.pl.masc": "passis",
+      "ppp.dat.pl.fem": "passis",
+      "ppp.dat.pl.neut": "passis",
+      "ppp.acc.pl.masc": "passos",
+      "ppp.acc.pl.fem": "passas",
+      "ppp.acc.pl.neut": "passa",
+      "ppp.abl.pl.masc": "passis",
+      "ppp.abl.pl.fem": "passis",
+      "ppp.abl.pl.neut": "passis",
+      "ppp.voc.pl.masc": "passi",
+      "ppp.voc.pl.fem": "passae",
+      "ppp.voc.pl.neut": "passa"
+    }
   }
 }

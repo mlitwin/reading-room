@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "relinque",
       "2pl.pres.imp.act": "relinquite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: relictus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "relictus",
+      "ppp.nom.sg.fem": "relicta",
+      "ppp.nom.sg.neut": "relictum",
+      "ppp.gen.sg.masc": "relicti",
+      "ppp.gen.sg.fem": "relictae",
+      "ppp.gen.sg.neut": "relicti",
+      "ppp.dat.sg.masc": "relicto",
+      "ppp.dat.sg.fem": "relictae",
+      "ppp.dat.sg.neut": "relicto",
+      "ppp.acc.sg.masc": "relictum",
+      "ppp.acc.sg.fem": "relictam",
+      "ppp.acc.sg.neut": "relictum",
+      "ppp.abl.sg.masc": "relicto",
+      "ppp.abl.sg.fem": "relicta",
+      "ppp.abl.sg.neut": "relicto",
+      "ppp.voc.sg.masc": "relicte",
+      "ppp.voc.sg.fem": "relicta",
+      "ppp.voc.sg.neut": "relictum",
+      "ppp.nom.pl.masc": "relicti",
+      "ppp.nom.pl.fem": "relictae",
+      "ppp.nom.pl.neut": "relicta",
+      "ppp.gen.pl.masc": "relictorum",
+      "ppp.gen.pl.fem": "relictarum",
+      "ppp.gen.pl.neut": "relictorum",
+      "ppp.dat.pl.masc": "relictis",
+      "ppp.dat.pl.fem": "relictis",
+      "ppp.dat.pl.neut": "relictis",
+      "ppp.acc.pl.masc": "relictos",
+      "ppp.acc.pl.fem": "relictas",
+      "ppp.acc.pl.neut": "relicta",
+      "ppp.abl.pl.masc": "relictis",
+      "ppp.abl.pl.fem": "relictis",
+      "ppp.abl.pl.neut": "relictis",
+      "ppp.voc.pl.masc": "relicti",
+      "ppp.voc.pl.fem": "relictae",
+      "ppp.voc.pl.neut": "relicta"
+    }
   }
 }

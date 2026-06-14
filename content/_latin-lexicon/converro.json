@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "converre",
       "2pl.pres.imp.act": "converrite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conversus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conversus",
+      "ppp.nom.sg.fem": "conversa",
+      "ppp.nom.sg.neut": "conversum",
+      "ppp.gen.sg.masc": "conversi",
+      "ppp.gen.sg.fem": "conversae",
+      "ppp.gen.sg.neut": "conversi",
+      "ppp.dat.sg.masc": "converso",
+      "ppp.dat.sg.fem": "conversae",
+      "ppp.dat.sg.neut": "converso",
+      "ppp.acc.sg.masc": "conversum",
+      "ppp.acc.sg.fem": "conversam",
+      "ppp.acc.sg.neut": "conversum",
+      "ppp.abl.sg.masc": "converso",
+      "ppp.abl.sg.fem": "conversa",
+      "ppp.abl.sg.neut": "converso",
+      "ppp.voc.sg.masc": "converse",
+      "ppp.voc.sg.fem": "conversa",
+      "ppp.voc.sg.neut": "conversum",
+      "ppp.nom.pl.masc": "conversi",
+      "ppp.nom.pl.fem": "conversae",
+      "ppp.nom.pl.neut": "conversa",
+      "ppp.gen.pl.masc": "conversorum",
+      "ppp.gen.pl.fem": "conversarum",
+      "ppp.gen.pl.neut": "conversorum",
+      "ppp.dat.pl.masc": "conversis",
+      "ppp.dat.pl.fem": "conversis",
+      "ppp.dat.pl.neut": "conversis",
+      "ppp.acc.pl.masc": "conversos",
+      "ppp.acc.pl.fem": "conversas",
+      "ppp.acc.pl.neut": "conversa",
+      "ppp.abl.pl.masc": "conversis",
+      "ppp.abl.pl.fem": "conversis",
+      "ppp.abl.pl.neut": "conversis",
+      "ppp.voc.pl.masc": "conversi",
+      "ppp.voc.pl.fem": "conversae",
+      "ppp.voc.pl.neut": "conversa"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "aemula",
       "2pl.pres.imp.act": "aemulate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: aemulatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "aemulatus",
+      "ppp.nom.sg.fem": "aemulata",
+      "ppp.nom.sg.neut": "aemulatum",
+      "ppp.gen.sg.masc": "aemulati",
+      "ppp.gen.sg.fem": "aemulatae",
+      "ppp.gen.sg.neut": "aemulati",
+      "ppp.dat.sg.masc": "aemulato",
+      "ppp.dat.sg.fem": "aemulatae",
+      "ppp.dat.sg.neut": "aemulato",
+      "ppp.acc.sg.masc": "aemulatum",
+      "ppp.acc.sg.fem": "aemulatam",
+      "ppp.acc.sg.neut": "aemulatum",
+      "ppp.abl.sg.masc": "aemulato",
+      "ppp.abl.sg.fem": "aemulata",
+      "ppp.abl.sg.neut": "aemulato",
+      "ppp.voc.sg.masc": "aemulate",
+      "ppp.voc.sg.fem": "aemulata",
+      "ppp.voc.sg.neut": "aemulatum",
+      "ppp.nom.pl.masc": "aemulati",
+      "ppp.nom.pl.fem": "aemulatae",
+      "ppp.nom.pl.neut": "aemulata",
+      "ppp.gen.pl.masc": "aemulatorum",
+      "ppp.gen.pl.fem": "aemulatarum",
+      "ppp.gen.pl.neut": "aemulatorum",
+      "ppp.dat.pl.masc": "aemulatis",
+      "ppp.dat.pl.fem": "aemulatis",
+      "ppp.dat.pl.neut": "aemulatis",
+      "ppp.acc.pl.masc": "aemulatos",
+      "ppp.acc.pl.fem": "aemulatas",
+      "ppp.acc.pl.neut": "aemulata",
+      "ppp.abl.pl.masc": "aemulatis",
+      "ppp.abl.pl.fem": "aemulatis",
+      "ppp.abl.pl.neut": "aemulatis",
+      "ppp.voc.pl.masc": "aemulati",
+      "ppp.voc.pl.fem": "aemulatae",
+      "ppp.voc.pl.neut": "aemulata"
+    }
   }
 }

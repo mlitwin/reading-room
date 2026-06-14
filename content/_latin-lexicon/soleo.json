@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "sole",
       "2pl.pres.imp.act": "solete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: solitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "solitus",
+      "ppp.nom.sg.fem": "solita",
+      "ppp.nom.sg.neut": "solitum",
+      "ppp.gen.sg.masc": "soliti",
+      "ppp.gen.sg.fem": "solitae",
+      "ppp.gen.sg.neut": "soliti",
+      "ppp.dat.sg.masc": "solito",
+      "ppp.dat.sg.fem": "solitae",
+      "ppp.dat.sg.neut": "solito",
+      "ppp.acc.sg.masc": "solitum",
+      "ppp.acc.sg.fem": "solitam",
+      "ppp.acc.sg.neut": "solitum",
+      "ppp.abl.sg.masc": "solito",
+      "ppp.abl.sg.fem": "solita",
+      "ppp.abl.sg.neut": "solito",
+      "ppp.voc.sg.masc": "solite",
+      "ppp.voc.sg.fem": "solita",
+      "ppp.voc.sg.neut": "solitum",
+      "ppp.nom.pl.masc": "soliti",
+      "ppp.nom.pl.fem": "solitae",
+      "ppp.nom.pl.neut": "solita",
+      "ppp.gen.pl.masc": "solitorum",
+      "ppp.gen.pl.fem": "solitarum",
+      "ppp.gen.pl.neut": "solitorum",
+      "ppp.dat.pl.masc": "solitis",
+      "ppp.dat.pl.fem": "solitis",
+      "ppp.dat.pl.neut": "solitis",
+      "ppp.acc.pl.masc": "solitos",
+      "ppp.acc.pl.fem": "solitas",
+      "ppp.acc.pl.neut": "solita",
+      "ppp.abl.pl.masc": "solitis",
+      "ppp.abl.pl.fem": "solitis",
+      "ppp.abl.pl.neut": "solitis",
+      "ppp.voc.pl.masc": "soliti",
+      "ppp.voc.pl.fem": "solitae",
+      "ppp.voc.pl.neut": "solita"
+    }
   }
 }

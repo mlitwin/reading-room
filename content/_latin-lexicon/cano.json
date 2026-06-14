@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "cane",
       "2pl.pres.imp.act": "canite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: canitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "canitus",
+      "ppp.nom.sg.fem": "canita",
+      "ppp.nom.sg.neut": "canitum",
+      "ppp.gen.sg.masc": "caniti",
+      "ppp.gen.sg.fem": "canitae",
+      "ppp.gen.sg.neut": "caniti",
+      "ppp.dat.sg.masc": "canito",
+      "ppp.dat.sg.fem": "canitae",
+      "ppp.dat.sg.neut": "canito",
+      "ppp.acc.sg.masc": "canitum",
+      "ppp.acc.sg.fem": "canitam",
+      "ppp.acc.sg.neut": "canitum",
+      "ppp.abl.sg.masc": "canito",
+      "ppp.abl.sg.fem": "canita",
+      "ppp.abl.sg.neut": "canito",
+      "ppp.voc.sg.masc": "canite",
+      "ppp.voc.sg.fem": "canita",
+      "ppp.voc.sg.neut": "canitum",
+      "ppp.nom.pl.masc": "caniti",
+      "ppp.nom.pl.fem": "canitae",
+      "ppp.nom.pl.neut": "canita",
+      "ppp.gen.pl.masc": "canitorum",
+      "ppp.gen.pl.fem": "canitarum",
+      "ppp.gen.pl.neut": "canitorum",
+      "ppp.dat.pl.masc": "canitis",
+      "ppp.dat.pl.fem": "canitis",
+      "ppp.dat.pl.neut": "canitis",
+      "ppp.acc.pl.masc": "canitos",
+      "ppp.acc.pl.fem": "canitas",
+      "ppp.acc.pl.neut": "canita",
+      "ppp.abl.pl.masc": "canitis",
+      "ppp.abl.pl.fem": "canitis",
+      "ppp.abl.pl.neut": "canitis",
+      "ppp.voc.pl.masc": "caniti",
+      "ppp.voc.pl.fem": "canitae",
+      "ppp.voc.pl.neut": "canita"
+    }
   }
 }

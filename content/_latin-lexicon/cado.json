@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "cade",
       "2pl.pres.imp.act": "cadite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: casus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "casus",
+      "ppp.nom.sg.fem": "casa",
+      "ppp.nom.sg.neut": "casum",
+      "ppp.gen.sg.masc": "casi",
+      "ppp.gen.sg.fem": "casae",
+      "ppp.gen.sg.neut": "casi",
+      "ppp.dat.sg.masc": "caso",
+      "ppp.dat.sg.fem": "casae",
+      "ppp.dat.sg.neut": "caso",
+      "ppp.acc.sg.masc": "casum",
+      "ppp.acc.sg.fem": "casam",
+      "ppp.acc.sg.neut": "casum",
+      "ppp.abl.sg.masc": "caso",
+      "ppp.abl.sg.fem": "casa",
+      "ppp.abl.sg.neut": "caso",
+      "ppp.voc.sg.masc": "case",
+      "ppp.voc.sg.fem": "casa",
+      "ppp.voc.sg.neut": "casum",
+      "ppp.nom.pl.masc": "casi",
+      "ppp.nom.pl.fem": "casae",
+      "ppp.nom.pl.neut": "casa",
+      "ppp.gen.pl.masc": "casorum",
+      "ppp.gen.pl.fem": "casarum",
+      "ppp.gen.pl.neut": "casorum",
+      "ppp.dat.pl.masc": "casis",
+      "ppp.dat.pl.fem": "casis",
+      "ppp.dat.pl.neut": "casis",
+      "ppp.acc.pl.masc": "casos",
+      "ppp.acc.pl.fem": "casas",
+      "ppp.acc.pl.neut": "casa",
+      "ppp.abl.pl.masc": "casis",
+      "ppp.abl.pl.fem": "casis",
+      "ppp.abl.pl.neut": "casis",
+      "ppp.voc.pl.masc": "casi",
+      "ppp.voc.pl.fem": "casae",
+      "ppp.voc.pl.neut": "casa"
+    }
   }
 }

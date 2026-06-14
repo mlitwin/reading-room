@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "erra",
       "2pl.pres.imp.act": "errate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: erratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "erratus",
+      "ppp.nom.sg.fem": "errata",
+      "ppp.nom.sg.neut": "erratum",
+      "ppp.gen.sg.masc": "errati",
+      "ppp.gen.sg.fem": "erratae",
+      "ppp.gen.sg.neut": "errati",
+      "ppp.dat.sg.masc": "errato",
+      "ppp.dat.sg.fem": "erratae",
+      "ppp.dat.sg.neut": "errato",
+      "ppp.acc.sg.masc": "erratum",
+      "ppp.acc.sg.fem": "erratam",
+      "ppp.acc.sg.neut": "erratum",
+      "ppp.abl.sg.masc": "errato",
+      "ppp.abl.sg.fem": "errata",
+      "ppp.abl.sg.neut": "errato",
+      "ppp.voc.sg.masc": "errate",
+      "ppp.voc.sg.fem": "errata",
+      "ppp.voc.sg.neut": "erratum",
+      "ppp.nom.pl.masc": "errati",
+      "ppp.nom.pl.fem": "erratae",
+      "ppp.nom.pl.neut": "errata",
+      "ppp.gen.pl.masc": "erratorum",
+      "ppp.gen.pl.fem": "erratarum",
+      "ppp.gen.pl.neut": "erratorum",
+      "ppp.dat.pl.masc": "erratis",
+      "ppp.dat.pl.fem": "erratis",
+      "ppp.dat.pl.neut": "erratis",
+      "ppp.acc.pl.masc": "erratos",
+      "ppp.acc.pl.fem": "erratas",
+      "ppp.acc.pl.neut": "errata",
+      "ppp.abl.pl.masc": "erratis",
+      "ppp.abl.pl.fem": "erratis",
+      "ppp.abl.pl.neut": "erratis",
+      "ppp.voc.pl.masc": "errati",
+      "ppp.voc.pl.fem": "erratae",
+      "ppp.voc.pl.neut": "errata"
+    }
   }
 }

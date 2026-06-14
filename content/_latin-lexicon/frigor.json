@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "frige",
       "2pl.pres.imp.act": "frigite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: frictus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "frictus",
+      "ppp.nom.sg.fem": "fricta",
+      "ppp.nom.sg.neut": "frictum",
+      "ppp.gen.sg.masc": "fricti",
+      "ppp.gen.sg.fem": "frictae",
+      "ppp.gen.sg.neut": "fricti",
+      "ppp.dat.sg.masc": "fricto",
+      "ppp.dat.sg.fem": "frictae",
+      "ppp.dat.sg.neut": "fricto",
+      "ppp.acc.sg.masc": "frictum",
+      "ppp.acc.sg.fem": "frictam",
+      "ppp.acc.sg.neut": "frictum",
+      "ppp.abl.sg.masc": "fricto",
+      "ppp.abl.sg.fem": "fricta",
+      "ppp.abl.sg.neut": "fricto",
+      "ppp.voc.sg.masc": "fricte",
+      "ppp.voc.sg.fem": "fricta",
+      "ppp.voc.sg.neut": "frictum",
+      "ppp.nom.pl.masc": "fricti",
+      "ppp.nom.pl.fem": "frictae",
+      "ppp.nom.pl.neut": "fricta",
+      "ppp.gen.pl.masc": "frictorum",
+      "ppp.gen.pl.fem": "frictarum",
+      "ppp.gen.pl.neut": "frictorum",
+      "ppp.dat.pl.masc": "frictis",
+      "ppp.dat.pl.fem": "frictis",
+      "ppp.dat.pl.neut": "frictis",
+      "ppp.acc.pl.masc": "frictos",
+      "ppp.acc.pl.fem": "frictas",
+      "ppp.acc.pl.neut": "fricta",
+      "ppp.abl.pl.masc": "frictis",
+      "ppp.abl.pl.fem": "frictis",
+      "ppp.abl.pl.neut": "frictis",
+      "ppp.voc.pl.masc": "fricti",
+      "ppp.voc.pl.fem": "frictae",
+      "ppp.voc.pl.neut": "fricta"
+    }
   }
 }

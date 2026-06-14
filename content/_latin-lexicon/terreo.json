@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "terre",
       "2pl.pres.imp.act": "terrete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: territus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "territus",
+      "ppp.nom.sg.fem": "territa",
+      "ppp.nom.sg.neut": "territum",
+      "ppp.gen.sg.masc": "territi",
+      "ppp.gen.sg.fem": "territae",
+      "ppp.gen.sg.neut": "territi",
+      "ppp.dat.sg.masc": "territo",
+      "ppp.dat.sg.fem": "territae",
+      "ppp.dat.sg.neut": "territo",
+      "ppp.acc.sg.masc": "territum",
+      "ppp.acc.sg.fem": "territam",
+      "ppp.acc.sg.neut": "territum",
+      "ppp.abl.sg.masc": "territo",
+      "ppp.abl.sg.fem": "territa",
+      "ppp.abl.sg.neut": "territo",
+      "ppp.voc.sg.masc": "territe",
+      "ppp.voc.sg.fem": "territa",
+      "ppp.voc.sg.neut": "territum",
+      "ppp.nom.pl.masc": "territi",
+      "ppp.nom.pl.fem": "territae",
+      "ppp.nom.pl.neut": "territa",
+      "ppp.gen.pl.masc": "territorum",
+      "ppp.gen.pl.fem": "territarum",
+      "ppp.gen.pl.neut": "territorum",
+      "ppp.dat.pl.masc": "territis",
+      "ppp.dat.pl.fem": "territis",
+      "ppp.dat.pl.neut": "territis",
+      "ppp.acc.pl.masc": "territos",
+      "ppp.acc.pl.fem": "territas",
+      "ppp.acc.pl.neut": "territa",
+      "ppp.abl.pl.masc": "territis",
+      "ppp.abl.pl.fem": "territis",
+      "ppp.abl.pl.neut": "territis",
+      "ppp.voc.pl.masc": "territi",
+      "ppp.voc.pl.fem": "territae",
+      "ppp.voc.pl.neut": "territa"
+    }
   }
 }

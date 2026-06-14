@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "velle",
       "2pl.pres.imp.act": "vellite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vulsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vulsus",
+      "ppp.nom.sg.fem": "vulsa",
+      "ppp.nom.sg.neut": "vulsum",
+      "ppp.gen.sg.masc": "vulsi",
+      "ppp.gen.sg.fem": "vulsae",
+      "ppp.gen.sg.neut": "vulsi",
+      "ppp.dat.sg.masc": "vulso",
+      "ppp.dat.sg.fem": "vulsae",
+      "ppp.dat.sg.neut": "vulso",
+      "ppp.acc.sg.masc": "vulsum",
+      "ppp.acc.sg.fem": "vulsam",
+      "ppp.acc.sg.neut": "vulsum",
+      "ppp.abl.sg.masc": "vulso",
+      "ppp.abl.sg.fem": "vulsa",
+      "ppp.abl.sg.neut": "vulso",
+      "ppp.voc.sg.masc": "vulse",
+      "ppp.voc.sg.fem": "vulsa",
+      "ppp.voc.sg.neut": "vulsum",
+      "ppp.nom.pl.masc": "vulsi",
+      "ppp.nom.pl.fem": "vulsae",
+      "ppp.nom.pl.neut": "vulsa",
+      "ppp.gen.pl.masc": "vulsorum",
+      "ppp.gen.pl.fem": "vulsarum",
+      "ppp.gen.pl.neut": "vulsorum",
+      "ppp.dat.pl.masc": "vulsis",
+      "ppp.dat.pl.fem": "vulsis",
+      "ppp.dat.pl.neut": "vulsis",
+      "ppp.acc.pl.masc": "vulsos",
+      "ppp.acc.pl.fem": "vulsas",
+      "ppp.acc.pl.neut": "vulsa",
+      "ppp.abl.pl.masc": "vulsis",
+      "ppp.abl.pl.fem": "vulsis",
+      "ppp.abl.pl.neut": "vulsis",
+      "ppp.voc.pl.masc": "vulsi",
+      "ppp.voc.pl.fem": "vulsae",
+      "ppp.voc.pl.neut": "vulsa"
+    }
   }
 }

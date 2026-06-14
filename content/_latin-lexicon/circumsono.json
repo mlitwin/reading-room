@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "circumsona",
       "2pl.pres.imp.act": "circumsonate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: circumsonatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "circumsonatus",
+      "ppp.nom.sg.fem": "circumsonata",
+      "ppp.nom.sg.neut": "circumsonatum",
+      "ppp.gen.sg.masc": "circumsonati",
+      "ppp.gen.sg.fem": "circumsonatae",
+      "ppp.gen.sg.neut": "circumsonati",
+      "ppp.dat.sg.masc": "circumsonato",
+      "ppp.dat.sg.fem": "circumsonatae",
+      "ppp.dat.sg.neut": "circumsonato",
+      "ppp.acc.sg.masc": "circumsonatum",
+      "ppp.acc.sg.fem": "circumsonatam",
+      "ppp.acc.sg.neut": "circumsonatum",
+      "ppp.abl.sg.masc": "circumsonato",
+      "ppp.abl.sg.fem": "circumsonata",
+      "ppp.abl.sg.neut": "circumsonato",
+      "ppp.voc.sg.masc": "circumsonate",
+      "ppp.voc.sg.fem": "circumsonata",
+      "ppp.voc.sg.neut": "circumsonatum",
+      "ppp.nom.pl.masc": "circumsonati",
+      "ppp.nom.pl.fem": "circumsonatae",
+      "ppp.nom.pl.neut": "circumsonata",
+      "ppp.gen.pl.masc": "circumsonatorum",
+      "ppp.gen.pl.fem": "circumsonatarum",
+      "ppp.gen.pl.neut": "circumsonatorum",
+      "ppp.dat.pl.masc": "circumsonatis",
+      "ppp.dat.pl.fem": "circumsonatis",
+      "ppp.dat.pl.neut": "circumsonatis",
+      "ppp.acc.pl.masc": "circumsonatos",
+      "ppp.acc.pl.fem": "circumsonatas",
+      "ppp.acc.pl.neut": "circumsonata",
+      "ppp.abl.pl.masc": "circumsonatis",
+      "ppp.abl.pl.fem": "circumsonatis",
+      "ppp.abl.pl.neut": "circumsonatis",
+      "ppp.voc.pl.masc": "circumsonati",
+      "ppp.voc.pl.fem": "circumsonatae",
+      "ppp.voc.pl.neut": "circumsonata"
+    }
   }
 }

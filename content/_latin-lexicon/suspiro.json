@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "suspira",
       "2pl.pres.imp.act": "suspirate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: suspiratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "suspiratus",
+      "ppp.nom.sg.fem": "suspirata",
+      "ppp.nom.sg.neut": "suspiratum",
+      "ppp.gen.sg.masc": "suspirati",
+      "ppp.gen.sg.fem": "suspiratae",
+      "ppp.gen.sg.neut": "suspirati",
+      "ppp.dat.sg.masc": "suspirato",
+      "ppp.dat.sg.fem": "suspiratae",
+      "ppp.dat.sg.neut": "suspirato",
+      "ppp.acc.sg.masc": "suspiratum",
+      "ppp.acc.sg.fem": "suspiratam",
+      "ppp.acc.sg.neut": "suspiratum",
+      "ppp.abl.sg.masc": "suspirato",
+      "ppp.abl.sg.fem": "suspirata",
+      "ppp.abl.sg.neut": "suspirato",
+      "ppp.voc.sg.masc": "suspirate",
+      "ppp.voc.sg.fem": "suspirata",
+      "ppp.voc.sg.neut": "suspiratum",
+      "ppp.nom.pl.masc": "suspirati",
+      "ppp.nom.pl.fem": "suspiratae",
+      "ppp.nom.pl.neut": "suspirata",
+      "ppp.gen.pl.masc": "suspiratorum",
+      "ppp.gen.pl.fem": "suspiratarum",
+      "ppp.gen.pl.neut": "suspiratorum",
+      "ppp.dat.pl.masc": "suspiratis",
+      "ppp.dat.pl.fem": "suspiratis",
+      "ppp.dat.pl.neut": "suspiratis",
+      "ppp.acc.pl.masc": "suspiratos",
+      "ppp.acc.pl.fem": "suspiratas",
+      "ppp.acc.pl.neut": "suspirata",
+      "ppp.abl.pl.masc": "suspiratis",
+      "ppp.abl.pl.fem": "suspiratis",
+      "ppp.abl.pl.neut": "suspiratis",
+      "ppp.voc.pl.masc": "suspirati",
+      "ppp.voc.pl.fem": "suspiratae",
+      "ppp.voc.pl.neut": "suspirata"
+    }
   }
 }

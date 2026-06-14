@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "emica",
       "2pl.pres.imp.act": "emicate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: emicatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "emicatus",
+      "ppp.nom.sg.fem": "emicata",
+      "ppp.nom.sg.neut": "emicatum",
+      "ppp.gen.sg.masc": "emicati",
+      "ppp.gen.sg.fem": "emicatae",
+      "ppp.gen.sg.neut": "emicati",
+      "ppp.dat.sg.masc": "emicato",
+      "ppp.dat.sg.fem": "emicatae",
+      "ppp.dat.sg.neut": "emicato",
+      "ppp.acc.sg.masc": "emicatum",
+      "ppp.acc.sg.fem": "emicatam",
+      "ppp.acc.sg.neut": "emicatum",
+      "ppp.abl.sg.masc": "emicato",
+      "ppp.abl.sg.fem": "emicata",
+      "ppp.abl.sg.neut": "emicato",
+      "ppp.voc.sg.masc": "emicate",
+      "ppp.voc.sg.fem": "emicata",
+      "ppp.voc.sg.neut": "emicatum",
+      "ppp.nom.pl.masc": "emicati",
+      "ppp.nom.pl.fem": "emicatae",
+      "ppp.nom.pl.neut": "emicata",
+      "ppp.gen.pl.masc": "emicatorum",
+      "ppp.gen.pl.fem": "emicatarum",
+      "ppp.gen.pl.neut": "emicatorum",
+      "ppp.dat.pl.masc": "emicatis",
+      "ppp.dat.pl.fem": "emicatis",
+      "ppp.dat.pl.neut": "emicatis",
+      "ppp.acc.pl.masc": "emicatos",
+      "ppp.acc.pl.fem": "emicatas",
+      "ppp.acc.pl.neut": "emicata",
+      "ppp.abl.pl.masc": "emicatis",
+      "ppp.abl.pl.fem": "emicatis",
+      "ppp.abl.pl.neut": "emicatis",
+      "ppp.voc.pl.masc": "emicati",
+      "ppp.voc.pl.fem": "emicatae",
+      "ppp.voc.pl.neut": "emicata"
+    }
   }
 }

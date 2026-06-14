@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "repete",
       "2pl.pres.imp.act": "repetite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: repetitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "repetitus",
+      "ppp.nom.sg.fem": "repetita",
+      "ppp.nom.sg.neut": "repetitum",
+      "ppp.gen.sg.masc": "repetiti",
+      "ppp.gen.sg.fem": "repetitae",
+      "ppp.gen.sg.neut": "repetiti",
+      "ppp.dat.sg.masc": "repetito",
+      "ppp.dat.sg.fem": "repetitae",
+      "ppp.dat.sg.neut": "repetito",
+      "ppp.acc.sg.masc": "repetitum",
+      "ppp.acc.sg.fem": "repetitam",
+      "ppp.acc.sg.neut": "repetitum",
+      "ppp.abl.sg.masc": "repetito",
+      "ppp.abl.sg.fem": "repetita",
+      "ppp.abl.sg.neut": "repetito",
+      "ppp.voc.sg.masc": "repetite",
+      "ppp.voc.sg.fem": "repetita",
+      "ppp.voc.sg.neut": "repetitum",
+      "ppp.nom.pl.masc": "repetiti",
+      "ppp.nom.pl.fem": "repetitae",
+      "ppp.nom.pl.neut": "repetita",
+      "ppp.gen.pl.masc": "repetitorum",
+      "ppp.gen.pl.fem": "repetitarum",
+      "ppp.gen.pl.neut": "repetitorum",
+      "ppp.dat.pl.masc": "repetitis",
+      "ppp.dat.pl.fem": "repetitis",
+      "ppp.dat.pl.neut": "repetitis",
+      "ppp.acc.pl.masc": "repetitos",
+      "ppp.acc.pl.fem": "repetitas",
+      "ppp.acc.pl.neut": "repetita",
+      "ppp.abl.pl.masc": "repetitis",
+      "ppp.abl.pl.fem": "repetitis",
+      "ppp.abl.pl.neut": "repetitis",
+      "ppp.voc.pl.masc": "repetiti",
+      "ppp.voc.pl.fem": "repetitae",
+      "ppp.voc.pl.neut": "repetita"
+    }
   }
 }

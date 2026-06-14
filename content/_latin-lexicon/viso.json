@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "vise",
       "2pl.pres.imp.act": "visite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: visus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "visus",
+      "ppp.nom.sg.fem": "visa",
+      "ppp.nom.sg.neut": "visum",
+      "ppp.gen.sg.masc": "visi",
+      "ppp.gen.sg.fem": "visae",
+      "ppp.gen.sg.neut": "visi",
+      "ppp.dat.sg.masc": "viso",
+      "ppp.dat.sg.fem": "visae",
+      "ppp.dat.sg.neut": "viso",
+      "ppp.acc.sg.masc": "visum",
+      "ppp.acc.sg.fem": "visam",
+      "ppp.acc.sg.neut": "visum",
+      "ppp.abl.sg.masc": "viso",
+      "ppp.abl.sg.fem": "visa",
+      "ppp.abl.sg.neut": "viso",
+      "ppp.voc.sg.masc": "vise",
+      "ppp.voc.sg.fem": "visa",
+      "ppp.voc.sg.neut": "visum",
+      "ppp.nom.pl.masc": "visi",
+      "ppp.nom.pl.fem": "visae",
+      "ppp.nom.pl.neut": "visa",
+      "ppp.gen.pl.masc": "visorum",
+      "ppp.gen.pl.fem": "visarum",
+      "ppp.gen.pl.neut": "visorum",
+      "ppp.dat.pl.masc": "visis",
+      "ppp.dat.pl.fem": "visis",
+      "ppp.dat.pl.neut": "visis",
+      "ppp.acc.pl.masc": "visos",
+      "ppp.acc.pl.fem": "visas",
+      "ppp.acc.pl.neut": "visa",
+      "ppp.abl.pl.masc": "visis",
+      "ppp.abl.pl.fem": "visis",
+      "ppp.abl.pl.neut": "visis",
+      "ppp.voc.pl.masc": "visi",
+      "ppp.voc.pl.fem": "visae",
+      "ppp.voc.pl.neut": "visa"
+    }
   }
 }

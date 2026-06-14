@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "qui",
       "2pl.pres.imp.act": "quite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: quitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "quitus",
+      "ppp.nom.sg.fem": "quita",
+      "ppp.nom.sg.neut": "quitum",
+      "ppp.gen.sg.masc": "quiti",
+      "ppp.gen.sg.fem": "quitae",
+      "ppp.gen.sg.neut": "quiti",
+      "ppp.dat.sg.masc": "quito",
+      "ppp.dat.sg.fem": "quitae",
+      "ppp.dat.sg.neut": "quito",
+      "ppp.acc.sg.masc": "quitum",
+      "ppp.acc.sg.fem": "quitam",
+      "ppp.acc.sg.neut": "quitum",
+      "ppp.abl.sg.masc": "quito",
+      "ppp.abl.sg.fem": "quita",
+      "ppp.abl.sg.neut": "quito",
+      "ppp.voc.sg.masc": "quite",
+      "ppp.voc.sg.fem": "quita",
+      "ppp.voc.sg.neut": "quitum",
+      "ppp.nom.pl.masc": "quiti",
+      "ppp.nom.pl.fem": "quitae",
+      "ppp.nom.pl.neut": "quita",
+      "ppp.gen.pl.masc": "quitorum",
+      "ppp.gen.pl.fem": "quitarum",
+      "ppp.gen.pl.neut": "quitorum",
+      "ppp.dat.pl.masc": "quitis",
+      "ppp.dat.pl.fem": "quitis",
+      "ppp.dat.pl.neut": "quitis",
+      "ppp.acc.pl.masc": "quitos",
+      "ppp.acc.pl.fem": "quitas",
+      "ppp.acc.pl.neut": "quita",
+      "ppp.abl.pl.masc": "quitis",
+      "ppp.abl.pl.fem": "quitis",
+      "ppp.abl.pl.neut": "quitis",
+      "ppp.voc.pl.masc": "quiti",
+      "ppp.voc.pl.fem": "quitae",
+      "ppp.voc.pl.neut": "quita"
+    }
   }
 }

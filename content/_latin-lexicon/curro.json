@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "curre",
       "2pl.pres.imp.act": "currite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cursus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cursus",
+      "ppp.nom.sg.fem": "cursa",
+      "ppp.nom.sg.neut": "cursum",
+      "ppp.gen.sg.masc": "cursi",
+      "ppp.gen.sg.fem": "cursae",
+      "ppp.gen.sg.neut": "cursi",
+      "ppp.dat.sg.masc": "curso",
+      "ppp.dat.sg.fem": "cursae",
+      "ppp.dat.sg.neut": "curso",
+      "ppp.acc.sg.masc": "cursum",
+      "ppp.acc.sg.fem": "cursam",
+      "ppp.acc.sg.neut": "cursum",
+      "ppp.abl.sg.masc": "curso",
+      "ppp.abl.sg.fem": "cursa",
+      "ppp.abl.sg.neut": "curso",
+      "ppp.voc.sg.masc": "curse",
+      "ppp.voc.sg.fem": "cursa",
+      "ppp.voc.sg.neut": "cursum",
+      "ppp.nom.pl.masc": "cursi",
+      "ppp.nom.pl.fem": "cursae",
+      "ppp.nom.pl.neut": "cursa",
+      "ppp.gen.pl.masc": "cursorum",
+      "ppp.gen.pl.fem": "cursarum",
+      "ppp.gen.pl.neut": "cursorum",
+      "ppp.dat.pl.masc": "cursis",
+      "ppp.dat.pl.fem": "cursis",
+      "ppp.dat.pl.neut": "cursis",
+      "ppp.acc.pl.masc": "cursos",
+      "ppp.acc.pl.fem": "cursas",
+      "ppp.acc.pl.neut": "cursa",
+      "ppp.abl.pl.masc": "cursis",
+      "ppp.abl.pl.fem": "cursis",
+      "ppp.abl.pl.neut": "cursis",
+      "ppp.voc.pl.masc": "cursi",
+      "ppp.voc.pl.fem": "cursae",
+      "ppp.voc.pl.neut": "cursa"
+    }
   }
 }

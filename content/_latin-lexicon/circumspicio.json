@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "circumspice",
       "2pl.pres.imp.act": "circumspicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: circumspectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "circumspectus",
+      "ppp.nom.sg.fem": "circumspecta",
+      "ppp.nom.sg.neut": "circumspectum",
+      "ppp.gen.sg.masc": "circumspecti",
+      "ppp.gen.sg.fem": "circumspectae",
+      "ppp.gen.sg.neut": "circumspecti",
+      "ppp.dat.sg.masc": "circumspecto",
+      "ppp.dat.sg.fem": "circumspectae",
+      "ppp.dat.sg.neut": "circumspecto",
+      "ppp.acc.sg.masc": "circumspectum",
+      "ppp.acc.sg.fem": "circumspectam",
+      "ppp.acc.sg.neut": "circumspectum",
+      "ppp.abl.sg.masc": "circumspecto",
+      "ppp.abl.sg.fem": "circumspecta",
+      "ppp.abl.sg.neut": "circumspecto",
+      "ppp.voc.sg.masc": "circumspecte",
+      "ppp.voc.sg.fem": "circumspecta",
+      "ppp.voc.sg.neut": "circumspectum",
+      "ppp.nom.pl.masc": "circumspecti",
+      "ppp.nom.pl.fem": "circumspectae",
+      "ppp.nom.pl.neut": "circumspecta",
+      "ppp.gen.pl.masc": "circumspectorum",
+      "ppp.gen.pl.fem": "circumspectarum",
+      "ppp.gen.pl.neut": "circumspectorum",
+      "ppp.dat.pl.masc": "circumspectis",
+      "ppp.dat.pl.fem": "circumspectis",
+      "ppp.dat.pl.neut": "circumspectis",
+      "ppp.acc.pl.masc": "circumspectos",
+      "ppp.acc.pl.fem": "circumspectas",
+      "ppp.acc.pl.neut": "circumspecta",
+      "ppp.abl.pl.masc": "circumspectis",
+      "ppp.abl.pl.fem": "circumspectis",
+      "ppp.abl.pl.neut": "circumspectis",
+      "ppp.voc.pl.masc": "circumspecti",
+      "ppp.voc.pl.fem": "circumspectae",
+      "ppp.voc.pl.neut": "circumspecta"
+    }
   }
 }

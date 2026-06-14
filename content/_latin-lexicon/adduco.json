@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "adduce",
       "2pl.pres.imp.act": "adducite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: adductus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "adductus",
+      "ppp.nom.sg.fem": "adducta",
+      "ppp.nom.sg.neut": "adductum",
+      "ppp.gen.sg.masc": "adducti",
+      "ppp.gen.sg.fem": "adductae",
+      "ppp.gen.sg.neut": "adducti",
+      "ppp.dat.sg.masc": "adducto",
+      "ppp.dat.sg.fem": "adductae",
+      "ppp.dat.sg.neut": "adducto",
+      "ppp.acc.sg.masc": "adductum",
+      "ppp.acc.sg.fem": "adductam",
+      "ppp.acc.sg.neut": "adductum",
+      "ppp.abl.sg.masc": "adducto",
+      "ppp.abl.sg.fem": "adducta",
+      "ppp.abl.sg.neut": "adducto",
+      "ppp.voc.sg.masc": "adducte",
+      "ppp.voc.sg.fem": "adducta",
+      "ppp.voc.sg.neut": "adductum",
+      "ppp.nom.pl.masc": "adducti",
+      "ppp.nom.pl.fem": "adductae",
+      "ppp.nom.pl.neut": "adducta",
+      "ppp.gen.pl.masc": "adductorum",
+      "ppp.gen.pl.fem": "adductarum",
+      "ppp.gen.pl.neut": "adductorum",
+      "ppp.dat.pl.masc": "adductis",
+      "ppp.dat.pl.fem": "adductis",
+      "ppp.dat.pl.neut": "adductis",
+      "ppp.acc.pl.masc": "adductos",
+      "ppp.acc.pl.fem": "adductas",
+      "ppp.acc.pl.neut": "adducta",
+      "ppp.abl.pl.masc": "adductis",
+      "ppp.abl.pl.fem": "adductis",
+      "ppp.abl.pl.neut": "adductis",
+      "ppp.voc.pl.masc": "adducti",
+      "ppp.voc.pl.fem": "adductae",
+      "ppp.voc.pl.neut": "adducta"
+    }
   }
 }

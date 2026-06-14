@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "reconde",
       "2pl.pres.imp.act": "recondite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: reconditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "reconditus",
+      "ppp.nom.sg.fem": "recondita",
+      "ppp.nom.sg.neut": "reconditum",
+      "ppp.gen.sg.masc": "reconditi",
+      "ppp.gen.sg.fem": "reconditae",
+      "ppp.gen.sg.neut": "reconditi",
+      "ppp.dat.sg.masc": "recondito",
+      "ppp.dat.sg.fem": "reconditae",
+      "ppp.dat.sg.neut": "recondito",
+      "ppp.acc.sg.masc": "reconditum",
+      "ppp.acc.sg.fem": "reconditam",
+      "ppp.acc.sg.neut": "reconditum",
+      "ppp.abl.sg.masc": "recondito",
+      "ppp.abl.sg.fem": "recondita",
+      "ppp.abl.sg.neut": "recondito",
+      "ppp.voc.sg.masc": "recondite",
+      "ppp.voc.sg.fem": "recondita",
+      "ppp.voc.sg.neut": "reconditum",
+      "ppp.nom.pl.masc": "reconditi",
+      "ppp.nom.pl.fem": "reconditae",
+      "ppp.nom.pl.neut": "recondita",
+      "ppp.gen.pl.masc": "reconditorum",
+      "ppp.gen.pl.fem": "reconditarum",
+      "ppp.gen.pl.neut": "reconditorum",
+      "ppp.dat.pl.masc": "reconditis",
+      "ppp.dat.pl.fem": "reconditis",
+      "ppp.dat.pl.neut": "reconditis",
+      "ppp.acc.pl.masc": "reconditos",
+      "ppp.acc.pl.fem": "reconditas",
+      "ppp.acc.pl.neut": "recondita",
+      "ppp.abl.pl.masc": "reconditis",
+      "ppp.abl.pl.fem": "reconditis",
+      "ppp.abl.pl.neut": "reconditis",
+      "ppp.voc.pl.masc": "reconditi",
+      "ppp.voc.pl.fem": "reconditae",
+      "ppp.voc.pl.neut": "recondita"
+    }
   }
 }

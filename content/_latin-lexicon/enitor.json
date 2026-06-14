@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "enite",
       "2pl.pres.imp.act": "enitite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: enisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "enisus",
+      "ppp.nom.sg.fem": "enisa",
+      "ppp.nom.sg.neut": "enisum",
+      "ppp.gen.sg.masc": "enisi",
+      "ppp.gen.sg.fem": "enisae",
+      "ppp.gen.sg.neut": "enisi",
+      "ppp.dat.sg.masc": "eniso",
+      "ppp.dat.sg.fem": "enisae",
+      "ppp.dat.sg.neut": "eniso",
+      "ppp.acc.sg.masc": "enisum",
+      "ppp.acc.sg.fem": "enisam",
+      "ppp.acc.sg.neut": "enisum",
+      "ppp.abl.sg.masc": "eniso",
+      "ppp.abl.sg.fem": "enisa",
+      "ppp.abl.sg.neut": "eniso",
+      "ppp.voc.sg.masc": "enise",
+      "ppp.voc.sg.fem": "enisa",
+      "ppp.voc.sg.neut": "enisum",
+      "ppp.nom.pl.masc": "enisi",
+      "ppp.nom.pl.fem": "enisae",
+      "ppp.nom.pl.neut": "enisa",
+      "ppp.gen.pl.masc": "enisorum",
+      "ppp.gen.pl.fem": "enisarum",
+      "ppp.gen.pl.neut": "enisorum",
+      "ppp.dat.pl.masc": "enisis",
+      "ppp.dat.pl.fem": "enisis",
+      "ppp.dat.pl.neut": "enisis",
+      "ppp.acc.pl.masc": "enisos",
+      "ppp.acc.pl.fem": "enisas",
+      "ppp.acc.pl.neut": "enisa",
+      "ppp.abl.pl.masc": "enisis",
+      "ppp.abl.pl.fem": "enisis",
+      "ppp.abl.pl.neut": "enisis",
+      "ppp.voc.pl.masc": "enisi",
+      "ppp.voc.pl.fem": "enisae",
+      "ppp.voc.pl.neut": "enisa"
+    }
   }
 }

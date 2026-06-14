@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "exige",
       "2pl.pres.imp.act": "exigite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exactus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exactus",
+      "ppp.nom.sg.fem": "exacta",
+      "ppp.nom.sg.neut": "exactum",
+      "ppp.gen.sg.masc": "exacti",
+      "ppp.gen.sg.fem": "exactae",
+      "ppp.gen.sg.neut": "exacti",
+      "ppp.dat.sg.masc": "exacto",
+      "ppp.dat.sg.fem": "exactae",
+      "ppp.dat.sg.neut": "exacto",
+      "ppp.acc.sg.masc": "exactum",
+      "ppp.acc.sg.fem": "exactam",
+      "ppp.acc.sg.neut": "exactum",
+      "ppp.abl.sg.masc": "exacto",
+      "ppp.abl.sg.fem": "exacta",
+      "ppp.abl.sg.neut": "exacto",
+      "ppp.voc.sg.masc": "exacte",
+      "ppp.voc.sg.fem": "exacta",
+      "ppp.voc.sg.neut": "exactum",
+      "ppp.nom.pl.masc": "exacti",
+      "ppp.nom.pl.fem": "exactae",
+      "ppp.nom.pl.neut": "exacta",
+      "ppp.gen.pl.masc": "exactorum",
+      "ppp.gen.pl.fem": "exactarum",
+      "ppp.gen.pl.neut": "exactorum",
+      "ppp.dat.pl.masc": "exactis",
+      "ppp.dat.pl.fem": "exactis",
+      "ppp.dat.pl.neut": "exactis",
+      "ppp.acc.pl.masc": "exactos",
+      "ppp.acc.pl.fem": "exactas",
+      "ppp.acc.pl.neut": "exacta",
+      "ppp.abl.pl.masc": "exactis",
+      "ppp.abl.pl.fem": "exactis",
+      "ppp.abl.pl.neut": "exactis",
+      "ppp.voc.pl.masc": "exacti",
+      "ppp.voc.pl.fem": "exactae",
+      "ppp.voc.pl.neut": "exacta"
+    }
   }
 }

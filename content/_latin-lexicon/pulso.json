@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "pulsa",
       "2pl.pres.imp.act": "pulsate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: pulsatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "pulsatus",
+      "ppp.nom.sg.fem": "pulsata",
+      "ppp.nom.sg.neut": "pulsatum",
+      "ppp.gen.sg.masc": "pulsati",
+      "ppp.gen.sg.fem": "pulsatae",
+      "ppp.gen.sg.neut": "pulsati",
+      "ppp.dat.sg.masc": "pulsato",
+      "ppp.dat.sg.fem": "pulsatae",
+      "ppp.dat.sg.neut": "pulsato",
+      "ppp.acc.sg.masc": "pulsatum",
+      "ppp.acc.sg.fem": "pulsatam",
+      "ppp.acc.sg.neut": "pulsatum",
+      "ppp.abl.sg.masc": "pulsato",
+      "ppp.abl.sg.fem": "pulsata",
+      "ppp.abl.sg.neut": "pulsato",
+      "ppp.voc.sg.masc": "pulsate",
+      "ppp.voc.sg.fem": "pulsata",
+      "ppp.voc.sg.neut": "pulsatum",
+      "ppp.nom.pl.masc": "pulsati",
+      "ppp.nom.pl.fem": "pulsatae",
+      "ppp.nom.pl.neut": "pulsata",
+      "ppp.gen.pl.masc": "pulsatorum",
+      "ppp.gen.pl.fem": "pulsatarum",
+      "ppp.gen.pl.neut": "pulsatorum",
+      "ppp.dat.pl.masc": "pulsatis",
+      "ppp.dat.pl.fem": "pulsatis",
+      "ppp.dat.pl.neut": "pulsatis",
+      "ppp.acc.pl.masc": "pulsatos",
+      "ppp.acc.pl.fem": "pulsatas",
+      "ppp.acc.pl.neut": "pulsata",
+      "ppp.abl.pl.masc": "pulsatis",
+      "ppp.abl.pl.fem": "pulsatis",
+      "ppp.abl.pl.neut": "pulsatis",
+      "ppp.voc.pl.masc": "pulsati",
+      "ppp.voc.pl.fem": "pulsatae",
+      "ppp.voc.pl.neut": "pulsata"
+    }
   }
 }

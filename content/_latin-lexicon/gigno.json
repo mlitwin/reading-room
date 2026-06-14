@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "gigne",
       "2pl.pres.imp.act": "gignite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: genitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "genitus",
+      "ppp.nom.sg.fem": "genita",
+      "ppp.nom.sg.neut": "genitum",
+      "ppp.gen.sg.masc": "geniti",
+      "ppp.gen.sg.fem": "genitae",
+      "ppp.gen.sg.neut": "geniti",
+      "ppp.dat.sg.masc": "genito",
+      "ppp.dat.sg.fem": "genitae",
+      "ppp.dat.sg.neut": "genito",
+      "ppp.acc.sg.masc": "genitum",
+      "ppp.acc.sg.fem": "genitam",
+      "ppp.acc.sg.neut": "genitum",
+      "ppp.abl.sg.masc": "genito",
+      "ppp.abl.sg.fem": "genita",
+      "ppp.abl.sg.neut": "genito",
+      "ppp.voc.sg.masc": "genite",
+      "ppp.voc.sg.fem": "genita",
+      "ppp.voc.sg.neut": "genitum",
+      "ppp.nom.pl.masc": "geniti",
+      "ppp.nom.pl.fem": "genitae",
+      "ppp.nom.pl.neut": "genita",
+      "ppp.gen.pl.masc": "genitorum",
+      "ppp.gen.pl.fem": "genitarum",
+      "ppp.gen.pl.neut": "genitorum",
+      "ppp.dat.pl.masc": "genitis",
+      "ppp.dat.pl.fem": "genitis",
+      "ppp.dat.pl.neut": "genitis",
+      "ppp.acc.pl.masc": "genitos",
+      "ppp.acc.pl.fem": "genitas",
+      "ppp.acc.pl.neut": "genita",
+      "ppp.abl.pl.masc": "genitis",
+      "ppp.abl.pl.fem": "genitis",
+      "ppp.abl.pl.neut": "genitis",
+      "ppp.voc.pl.masc": "geniti",
+      "ppp.voc.pl.fem": "genitae",
+      "ppp.voc.pl.neut": "genita"
+    }
   }
 }

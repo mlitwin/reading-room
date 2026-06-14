@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "inseque",
       "2pl.pres.imp.act": "insequite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: insecutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "insecutus",
+      "ppp.nom.sg.fem": "insecuta",
+      "ppp.nom.sg.neut": "insecutum",
+      "ppp.gen.sg.masc": "insecuti",
+      "ppp.gen.sg.fem": "insecutae",
+      "ppp.gen.sg.neut": "insecuti",
+      "ppp.dat.sg.masc": "insecuto",
+      "ppp.dat.sg.fem": "insecutae",
+      "ppp.dat.sg.neut": "insecuto",
+      "ppp.acc.sg.masc": "insecutum",
+      "ppp.acc.sg.fem": "insecutam",
+      "ppp.acc.sg.neut": "insecutum",
+      "ppp.abl.sg.masc": "insecuto",
+      "ppp.abl.sg.fem": "insecuta",
+      "ppp.abl.sg.neut": "insecuto",
+      "ppp.voc.sg.masc": "insecute",
+      "ppp.voc.sg.fem": "insecuta",
+      "ppp.voc.sg.neut": "insecutum",
+      "ppp.nom.pl.masc": "insecuti",
+      "ppp.nom.pl.fem": "insecutae",
+      "ppp.nom.pl.neut": "insecuta",
+      "ppp.gen.pl.masc": "insecutorum",
+      "ppp.gen.pl.fem": "insecutarum",
+      "ppp.gen.pl.neut": "insecutorum",
+      "ppp.dat.pl.masc": "insecutis",
+      "ppp.dat.pl.fem": "insecutis",
+      "ppp.dat.pl.neut": "insecutis",
+      "ppp.acc.pl.masc": "insecutos",
+      "ppp.acc.pl.fem": "insecutas",
+      "ppp.acc.pl.neut": "insecuta",
+      "ppp.abl.pl.masc": "insecutis",
+      "ppp.abl.pl.fem": "insecutis",
+      "ppp.abl.pl.neut": "insecutis",
+      "ppp.voc.pl.masc": "insecuti",
+      "ppp.voc.pl.fem": "insecutae",
+      "ppp.voc.pl.neut": "insecuta"
+    }
   }
 }

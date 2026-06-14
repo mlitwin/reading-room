@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "dele",
       "2pl.pres.imp.act": "delete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: deletus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "deletus",
+      "ppp.nom.sg.fem": "deleta",
+      "ppp.nom.sg.neut": "deletum",
+      "ppp.gen.sg.masc": "deleti",
+      "ppp.gen.sg.fem": "deletae",
+      "ppp.gen.sg.neut": "deleti",
+      "ppp.dat.sg.masc": "deleto",
+      "ppp.dat.sg.fem": "deletae",
+      "ppp.dat.sg.neut": "deleto",
+      "ppp.acc.sg.masc": "deletum",
+      "ppp.acc.sg.fem": "deletam",
+      "ppp.acc.sg.neut": "deletum",
+      "ppp.abl.sg.masc": "deleto",
+      "ppp.abl.sg.fem": "deleta",
+      "ppp.abl.sg.neut": "deleto",
+      "ppp.voc.sg.masc": "delete",
+      "ppp.voc.sg.fem": "deleta",
+      "ppp.voc.sg.neut": "deletum",
+      "ppp.nom.pl.masc": "deleti",
+      "ppp.nom.pl.fem": "deletae",
+      "ppp.nom.pl.neut": "deleta",
+      "ppp.gen.pl.masc": "deletorum",
+      "ppp.gen.pl.fem": "deletarum",
+      "ppp.gen.pl.neut": "deletorum",
+      "ppp.dat.pl.masc": "deletis",
+      "ppp.dat.pl.fem": "deletis",
+      "ppp.dat.pl.neut": "deletis",
+      "ppp.acc.pl.masc": "deletos",
+      "ppp.acc.pl.fem": "deletas",
+      "ppp.acc.pl.neut": "deleta",
+      "ppp.abl.pl.masc": "deletis",
+      "ppp.abl.pl.fem": "deletis",
+      "ppp.abl.pl.neut": "deletis",
+      "ppp.voc.pl.masc": "deleti",
+      "ppp.voc.pl.fem": "deletae",
+      "ppp.voc.pl.neut": "deleta"
+    }
   }
 }

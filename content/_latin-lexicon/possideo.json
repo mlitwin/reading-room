@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "posside",
       "2pl.pres.imp.act": "possidete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: possessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "possessus",
+      "ppp.nom.sg.fem": "possessa",
+      "ppp.nom.sg.neut": "possessum",
+      "ppp.gen.sg.masc": "possessi",
+      "ppp.gen.sg.fem": "possessae",
+      "ppp.gen.sg.neut": "possessi",
+      "ppp.dat.sg.masc": "possesso",
+      "ppp.dat.sg.fem": "possessae",
+      "ppp.dat.sg.neut": "possesso",
+      "ppp.acc.sg.masc": "possessum",
+      "ppp.acc.sg.fem": "possessam",
+      "ppp.acc.sg.neut": "possessum",
+      "ppp.abl.sg.masc": "possesso",
+      "ppp.abl.sg.fem": "possessa",
+      "ppp.abl.sg.neut": "possesso",
+      "ppp.voc.sg.masc": "possesse",
+      "ppp.voc.sg.fem": "possessa",
+      "ppp.voc.sg.neut": "possessum",
+      "ppp.nom.pl.masc": "possessi",
+      "ppp.nom.pl.fem": "possessae",
+      "ppp.nom.pl.neut": "possessa",
+      "ppp.gen.pl.masc": "possessorum",
+      "ppp.gen.pl.fem": "possessarum",
+      "ppp.gen.pl.neut": "possessorum",
+      "ppp.dat.pl.masc": "possessis",
+      "ppp.dat.pl.fem": "possessis",
+      "ppp.dat.pl.neut": "possessis",
+      "ppp.acc.pl.masc": "possessos",
+      "ppp.acc.pl.fem": "possessas",
+      "ppp.acc.pl.neut": "possessa",
+      "ppp.abl.pl.masc": "possessis",
+      "ppp.abl.pl.fem": "possessis",
+      "ppp.abl.pl.neut": "possessis",
+      "ppp.voc.pl.masc": "possessi",
+      "ppp.voc.pl.fem": "possessae",
+      "ppp.voc.pl.neut": "possessa"
+    }
   }
 }

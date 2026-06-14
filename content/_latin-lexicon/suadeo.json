@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "suade",
       "2pl.pres.imp.act": "suadete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: suasus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "suasus",
+      "ppp.nom.sg.fem": "suasa",
+      "ppp.nom.sg.neut": "suasum",
+      "ppp.gen.sg.masc": "suasi",
+      "ppp.gen.sg.fem": "suasae",
+      "ppp.gen.sg.neut": "suasi",
+      "ppp.dat.sg.masc": "suaso",
+      "ppp.dat.sg.fem": "suasae",
+      "ppp.dat.sg.neut": "suaso",
+      "ppp.acc.sg.masc": "suasum",
+      "ppp.acc.sg.fem": "suasam",
+      "ppp.acc.sg.neut": "suasum",
+      "ppp.abl.sg.masc": "suaso",
+      "ppp.abl.sg.fem": "suasa",
+      "ppp.abl.sg.neut": "suaso",
+      "ppp.voc.sg.masc": "suase",
+      "ppp.voc.sg.fem": "suasa",
+      "ppp.voc.sg.neut": "suasum",
+      "ppp.nom.pl.masc": "suasi",
+      "ppp.nom.pl.fem": "suasae",
+      "ppp.nom.pl.neut": "suasa",
+      "ppp.gen.pl.masc": "suasorum",
+      "ppp.gen.pl.fem": "suasarum",
+      "ppp.gen.pl.neut": "suasorum",
+      "ppp.dat.pl.masc": "suasis",
+      "ppp.dat.pl.fem": "suasis",
+      "ppp.dat.pl.neut": "suasis",
+      "ppp.acc.pl.masc": "suasos",
+      "ppp.acc.pl.fem": "suasas",
+      "ppp.acc.pl.neut": "suasa",
+      "ppp.abl.pl.masc": "suasis",
+      "ppp.abl.pl.fem": "suasis",
+      "ppp.abl.pl.neut": "suasis",
+      "ppp.voc.pl.masc": "suasi",
+      "ppp.voc.pl.fem": "suasae",
+      "ppp.voc.pl.neut": "suasa"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "venena",
       "2pl.pres.imp.act": "venenate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: venenatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "venenatus",
+      "ppp.nom.sg.fem": "venenata",
+      "ppp.nom.sg.neut": "venenatum",
+      "ppp.gen.sg.masc": "venenati",
+      "ppp.gen.sg.fem": "venenatae",
+      "ppp.gen.sg.neut": "venenati",
+      "ppp.dat.sg.masc": "venenato",
+      "ppp.dat.sg.fem": "venenatae",
+      "ppp.dat.sg.neut": "venenato",
+      "ppp.acc.sg.masc": "venenatum",
+      "ppp.acc.sg.fem": "venenatam",
+      "ppp.acc.sg.neut": "venenatum",
+      "ppp.abl.sg.masc": "venenato",
+      "ppp.abl.sg.fem": "venenata",
+      "ppp.abl.sg.neut": "venenato",
+      "ppp.voc.sg.masc": "venenate",
+      "ppp.voc.sg.fem": "venenata",
+      "ppp.voc.sg.neut": "venenatum",
+      "ppp.nom.pl.masc": "venenati",
+      "ppp.nom.pl.fem": "venenatae",
+      "ppp.nom.pl.neut": "venenata",
+      "ppp.gen.pl.masc": "venenatorum",
+      "ppp.gen.pl.fem": "venenatarum",
+      "ppp.gen.pl.neut": "venenatorum",
+      "ppp.dat.pl.masc": "venenatis",
+      "ppp.dat.pl.fem": "venenatis",
+      "ppp.dat.pl.neut": "venenatis",
+      "ppp.acc.pl.masc": "venenatos",
+      "ppp.acc.pl.fem": "venenatas",
+      "ppp.acc.pl.neut": "venenata",
+      "ppp.abl.pl.masc": "venenatis",
+      "ppp.abl.pl.fem": "venenatis",
+      "ppp.abl.pl.neut": "venenatis",
+      "ppp.voc.pl.masc": "venenati",
+      "ppp.voc.pl.fem": "venenatae",
+      "ppp.voc.pl.neut": "venenata"
+    }
   }
 }

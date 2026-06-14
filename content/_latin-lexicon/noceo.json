@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "noce",
       "2pl.pres.imp.act": "nocete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: nocitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "nocitus",
+      "ppp.nom.sg.fem": "nocita",
+      "ppp.nom.sg.neut": "nocitum",
+      "ppp.gen.sg.masc": "nociti",
+      "ppp.gen.sg.fem": "nocitae",
+      "ppp.gen.sg.neut": "nociti",
+      "ppp.dat.sg.masc": "nocito",
+      "ppp.dat.sg.fem": "nocitae",
+      "ppp.dat.sg.neut": "nocito",
+      "ppp.acc.sg.masc": "nocitum",
+      "ppp.acc.sg.fem": "nocitam",
+      "ppp.acc.sg.neut": "nocitum",
+      "ppp.abl.sg.masc": "nocito",
+      "ppp.abl.sg.fem": "nocita",
+      "ppp.abl.sg.neut": "nocito",
+      "ppp.voc.sg.masc": "nocite",
+      "ppp.voc.sg.fem": "nocita",
+      "ppp.voc.sg.neut": "nocitum",
+      "ppp.nom.pl.masc": "nociti",
+      "ppp.nom.pl.fem": "nocitae",
+      "ppp.nom.pl.neut": "nocita",
+      "ppp.gen.pl.masc": "nocitorum",
+      "ppp.gen.pl.fem": "nocitarum",
+      "ppp.gen.pl.neut": "nocitorum",
+      "ppp.dat.pl.masc": "nocitis",
+      "ppp.dat.pl.fem": "nocitis",
+      "ppp.dat.pl.neut": "nocitis",
+      "ppp.acc.pl.masc": "nocitos",
+      "ppp.acc.pl.fem": "nocitas",
+      "ppp.acc.pl.neut": "nocita",
+      "ppp.abl.pl.masc": "nocitis",
+      "ppp.abl.pl.fem": "nocitis",
+      "ppp.abl.pl.neut": "nocitis",
+      "ppp.voc.pl.masc": "nociti",
+      "ppp.voc.pl.fem": "nocitae",
+      "ppp.voc.pl.neut": "nocita"
+    }
   }
 }

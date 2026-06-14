@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "quaere",
       "2pl.pres.imp.act": "quaerite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: quaesitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "quaesitus",
+      "ppp.nom.sg.fem": "quaesita",
+      "ppp.nom.sg.neut": "quaesitum",
+      "ppp.gen.sg.masc": "quaesiti",
+      "ppp.gen.sg.fem": "quaesitae",
+      "ppp.gen.sg.neut": "quaesiti",
+      "ppp.dat.sg.masc": "quaesito",
+      "ppp.dat.sg.fem": "quaesitae",
+      "ppp.dat.sg.neut": "quaesito",
+      "ppp.acc.sg.masc": "quaesitum",
+      "ppp.acc.sg.fem": "quaesitam",
+      "ppp.acc.sg.neut": "quaesitum",
+      "ppp.abl.sg.masc": "quaesito",
+      "ppp.abl.sg.fem": "quaesita",
+      "ppp.abl.sg.neut": "quaesito",
+      "ppp.voc.sg.masc": "quaesite",
+      "ppp.voc.sg.fem": "quaesita",
+      "ppp.voc.sg.neut": "quaesitum",
+      "ppp.nom.pl.masc": "quaesiti",
+      "ppp.nom.pl.fem": "quaesitae",
+      "ppp.nom.pl.neut": "quaesita",
+      "ppp.gen.pl.masc": "quaesitorum",
+      "ppp.gen.pl.fem": "quaesitarum",
+      "ppp.gen.pl.neut": "quaesitorum",
+      "ppp.dat.pl.masc": "quaesitis",
+      "ppp.dat.pl.fem": "quaesitis",
+      "ppp.dat.pl.neut": "quaesitis",
+      "ppp.acc.pl.masc": "quaesitos",
+      "ppp.acc.pl.fem": "quaesitas",
+      "ppp.acc.pl.neut": "quaesita",
+      "ppp.abl.pl.masc": "quaesitis",
+      "ppp.abl.pl.fem": "quaesitis",
+      "ppp.abl.pl.neut": "quaesitis",
+      "ppp.voc.pl.masc": "quaesiti",
+      "ppp.voc.pl.fem": "quaesitae",
+      "ppp.voc.pl.neut": "quaesita"
+    }
   }
 }

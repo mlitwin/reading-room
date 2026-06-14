@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "dilabe",
       "2pl.pres.imp.act": "dilabite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dilapsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dilapsus",
+      "ppp.nom.sg.fem": "dilapsa",
+      "ppp.nom.sg.neut": "dilapsum",
+      "ppp.gen.sg.masc": "dilapsi",
+      "ppp.gen.sg.fem": "dilapsae",
+      "ppp.gen.sg.neut": "dilapsi",
+      "ppp.dat.sg.masc": "dilapso",
+      "ppp.dat.sg.fem": "dilapsae",
+      "ppp.dat.sg.neut": "dilapso",
+      "ppp.acc.sg.masc": "dilapsum",
+      "ppp.acc.sg.fem": "dilapsam",
+      "ppp.acc.sg.neut": "dilapsum",
+      "ppp.abl.sg.masc": "dilapso",
+      "ppp.abl.sg.fem": "dilapsa",
+      "ppp.abl.sg.neut": "dilapso",
+      "ppp.voc.sg.masc": "dilapse",
+      "ppp.voc.sg.fem": "dilapsa",
+      "ppp.voc.sg.neut": "dilapsum",
+      "ppp.nom.pl.masc": "dilapsi",
+      "ppp.nom.pl.fem": "dilapsae",
+      "ppp.nom.pl.neut": "dilapsa",
+      "ppp.gen.pl.masc": "dilapsorum",
+      "ppp.gen.pl.fem": "dilapsarum",
+      "ppp.gen.pl.neut": "dilapsorum",
+      "ppp.dat.pl.masc": "dilapsis",
+      "ppp.dat.pl.fem": "dilapsis",
+      "ppp.dat.pl.neut": "dilapsis",
+      "ppp.acc.pl.masc": "dilapsos",
+      "ppp.acc.pl.fem": "dilapsas",
+      "ppp.acc.pl.neut": "dilapsa",
+      "ppp.abl.pl.masc": "dilapsis",
+      "ppp.abl.pl.fem": "dilapsis",
+      "ppp.abl.pl.neut": "dilapsis",
+      "ppp.voc.pl.masc": "dilapsi",
+      "ppp.voc.pl.fem": "dilapsae",
+      "ppp.voc.pl.neut": "dilapsa"
+    }
   }
 }

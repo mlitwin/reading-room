@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "exclama",
       "2pl.pres.imp.act": "exclamate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exclamatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exclamatus",
+      "ppp.nom.sg.fem": "exclamata",
+      "ppp.nom.sg.neut": "exclamatum",
+      "ppp.gen.sg.masc": "exclamati",
+      "ppp.gen.sg.fem": "exclamatae",
+      "ppp.gen.sg.neut": "exclamati",
+      "ppp.dat.sg.masc": "exclamato",
+      "ppp.dat.sg.fem": "exclamatae",
+      "ppp.dat.sg.neut": "exclamato",
+      "ppp.acc.sg.masc": "exclamatum",
+      "ppp.acc.sg.fem": "exclamatam",
+      "ppp.acc.sg.neut": "exclamatum",
+      "ppp.abl.sg.masc": "exclamato",
+      "ppp.abl.sg.fem": "exclamata",
+      "ppp.abl.sg.neut": "exclamato",
+      "ppp.voc.sg.masc": "exclamate",
+      "ppp.voc.sg.fem": "exclamata",
+      "ppp.voc.sg.neut": "exclamatum",
+      "ppp.nom.pl.masc": "exclamati",
+      "ppp.nom.pl.fem": "exclamatae",
+      "ppp.nom.pl.neut": "exclamata",
+      "ppp.gen.pl.masc": "exclamatorum",
+      "ppp.gen.pl.fem": "exclamatarum",
+      "ppp.gen.pl.neut": "exclamatorum",
+      "ppp.dat.pl.masc": "exclamatis",
+      "ppp.dat.pl.fem": "exclamatis",
+      "ppp.dat.pl.neut": "exclamatis",
+      "ppp.acc.pl.masc": "exclamatos",
+      "ppp.acc.pl.fem": "exclamatas",
+      "ppp.acc.pl.neut": "exclamata",
+      "ppp.abl.pl.masc": "exclamatis",
+      "ppp.abl.pl.fem": "exclamatis",
+      "ppp.abl.pl.neut": "exclamatis",
+      "ppp.voc.pl.masc": "exclamati",
+      "ppp.voc.pl.fem": "exclamatae",
+      "ppp.voc.pl.neut": "exclamata"
+    }
   }
 }

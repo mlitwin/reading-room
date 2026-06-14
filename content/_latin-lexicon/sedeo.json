@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "sede",
       "2pl.pres.imp.act": "sedete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sessus",
+      "ppp.nom.sg.fem": "sessa",
+      "ppp.nom.sg.neut": "sessum",
+      "ppp.gen.sg.masc": "sessi",
+      "ppp.gen.sg.fem": "sessae",
+      "ppp.gen.sg.neut": "sessi",
+      "ppp.dat.sg.masc": "sesso",
+      "ppp.dat.sg.fem": "sessae",
+      "ppp.dat.sg.neut": "sesso",
+      "ppp.acc.sg.masc": "sessum",
+      "ppp.acc.sg.fem": "sessam",
+      "ppp.acc.sg.neut": "sessum",
+      "ppp.abl.sg.masc": "sesso",
+      "ppp.abl.sg.fem": "sessa",
+      "ppp.abl.sg.neut": "sesso",
+      "ppp.voc.sg.masc": "sesse",
+      "ppp.voc.sg.fem": "sessa",
+      "ppp.voc.sg.neut": "sessum",
+      "ppp.nom.pl.masc": "sessi",
+      "ppp.nom.pl.fem": "sessae",
+      "ppp.nom.pl.neut": "sessa",
+      "ppp.gen.pl.masc": "sessorum",
+      "ppp.gen.pl.fem": "sessarum",
+      "ppp.gen.pl.neut": "sessorum",
+      "ppp.dat.pl.masc": "sessis",
+      "ppp.dat.pl.fem": "sessis",
+      "ppp.dat.pl.neut": "sessis",
+      "ppp.acc.pl.masc": "sessos",
+      "ppp.acc.pl.fem": "sessas",
+      "ppp.acc.pl.neut": "sessa",
+      "ppp.abl.pl.masc": "sessis",
+      "ppp.abl.pl.fem": "sessis",
+      "ppp.abl.pl.neut": "sessis",
+      "ppp.voc.pl.masc": "sessi",
+      "ppp.voc.pl.fem": "sessae",
+      "ppp.voc.pl.neut": "sessa"
+    }
   }
 }

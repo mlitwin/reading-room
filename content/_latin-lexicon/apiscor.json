@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "apisce",
       "2pl.pres.imp.act": "apiscite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: aptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "aptus",
+      "ppp.nom.sg.fem": "apta",
+      "ppp.nom.sg.neut": "aptum",
+      "ppp.gen.sg.masc": "apti",
+      "ppp.gen.sg.fem": "aptae",
+      "ppp.gen.sg.neut": "apti",
+      "ppp.dat.sg.masc": "apto",
+      "ppp.dat.sg.fem": "aptae",
+      "ppp.dat.sg.neut": "apto",
+      "ppp.acc.sg.masc": "aptum",
+      "ppp.acc.sg.fem": "aptam",
+      "ppp.acc.sg.neut": "aptum",
+      "ppp.abl.sg.masc": "apto",
+      "ppp.abl.sg.fem": "apta",
+      "ppp.abl.sg.neut": "apto",
+      "ppp.voc.sg.masc": "apte",
+      "ppp.voc.sg.fem": "apta",
+      "ppp.voc.sg.neut": "aptum",
+      "ppp.nom.pl.masc": "apti",
+      "ppp.nom.pl.fem": "aptae",
+      "ppp.nom.pl.neut": "apta",
+      "ppp.gen.pl.masc": "aptorum",
+      "ppp.gen.pl.fem": "aptarum",
+      "ppp.gen.pl.neut": "aptorum",
+      "ppp.dat.pl.masc": "aptis",
+      "ppp.dat.pl.fem": "aptis",
+      "ppp.dat.pl.neut": "aptis",
+      "ppp.acc.pl.masc": "aptos",
+      "ppp.acc.pl.fem": "aptas",
+      "ppp.acc.pl.neut": "apta",
+      "ppp.abl.pl.masc": "aptis",
+      "ppp.abl.pl.fem": "aptis",
+      "ppp.abl.pl.neut": "aptis",
+      "ppp.voc.pl.masc": "apti",
+      "ppp.voc.pl.fem": "aptae",
+      "ppp.voc.pl.neut": "apta"
+    }
   }
 }

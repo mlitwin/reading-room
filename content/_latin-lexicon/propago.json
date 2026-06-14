@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "propaga",
       "2pl.pres.imp.act": "propagate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: propagatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "propagatus",
+      "ppp.nom.sg.fem": "propagata",
+      "ppp.nom.sg.neut": "propagatum",
+      "ppp.gen.sg.masc": "propagati",
+      "ppp.gen.sg.fem": "propagatae",
+      "ppp.gen.sg.neut": "propagati",
+      "ppp.dat.sg.masc": "propagato",
+      "ppp.dat.sg.fem": "propagatae",
+      "ppp.dat.sg.neut": "propagato",
+      "ppp.acc.sg.masc": "propagatum",
+      "ppp.acc.sg.fem": "propagatam",
+      "ppp.acc.sg.neut": "propagatum",
+      "ppp.abl.sg.masc": "propagato",
+      "ppp.abl.sg.fem": "propagata",
+      "ppp.abl.sg.neut": "propagato",
+      "ppp.voc.sg.masc": "propagate",
+      "ppp.voc.sg.fem": "propagata",
+      "ppp.voc.sg.neut": "propagatum",
+      "ppp.nom.pl.masc": "propagati",
+      "ppp.nom.pl.fem": "propagatae",
+      "ppp.nom.pl.neut": "propagata",
+      "ppp.gen.pl.masc": "propagatorum",
+      "ppp.gen.pl.fem": "propagatarum",
+      "ppp.gen.pl.neut": "propagatorum",
+      "ppp.dat.pl.masc": "propagatis",
+      "ppp.dat.pl.fem": "propagatis",
+      "ppp.dat.pl.neut": "propagatis",
+      "ppp.acc.pl.masc": "propagatos",
+      "ppp.acc.pl.fem": "propagatas",
+      "ppp.acc.pl.neut": "propagata",
+      "ppp.abl.pl.masc": "propagatis",
+      "ppp.abl.pl.fem": "propagatis",
+      "ppp.abl.pl.neut": "propagatis",
+      "ppp.voc.pl.masc": "propagati",
+      "ppp.voc.pl.fem": "propagatae",
+      "ppp.voc.pl.neut": "propagata"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "prodi",
       "2pl.pres.imp.act": "prodite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: proditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "proditus",
+      "ppp.nom.sg.fem": "prodita",
+      "ppp.nom.sg.neut": "proditum",
+      "ppp.gen.sg.masc": "proditi",
+      "ppp.gen.sg.fem": "proditae",
+      "ppp.gen.sg.neut": "proditi",
+      "ppp.dat.sg.masc": "prodito",
+      "ppp.dat.sg.fem": "proditae",
+      "ppp.dat.sg.neut": "prodito",
+      "ppp.acc.sg.masc": "proditum",
+      "ppp.acc.sg.fem": "proditam",
+      "ppp.acc.sg.neut": "proditum",
+      "ppp.abl.sg.masc": "prodito",
+      "ppp.abl.sg.fem": "prodita",
+      "ppp.abl.sg.neut": "prodito",
+      "ppp.voc.sg.masc": "prodite",
+      "ppp.voc.sg.fem": "prodita",
+      "ppp.voc.sg.neut": "proditum",
+      "ppp.nom.pl.masc": "proditi",
+      "ppp.nom.pl.fem": "proditae",
+      "ppp.nom.pl.neut": "prodita",
+      "ppp.gen.pl.masc": "proditorum",
+      "ppp.gen.pl.fem": "proditarum",
+      "ppp.gen.pl.neut": "proditorum",
+      "ppp.dat.pl.masc": "proditis",
+      "ppp.dat.pl.fem": "proditis",
+      "ppp.dat.pl.neut": "proditis",
+      "ppp.acc.pl.masc": "proditos",
+      "ppp.acc.pl.fem": "proditas",
+      "ppp.acc.pl.neut": "prodita",
+      "ppp.abl.pl.masc": "proditis",
+      "ppp.abl.pl.fem": "proditis",
+      "ppp.abl.pl.neut": "proditis",
+      "ppp.voc.pl.masc": "proditi",
+      "ppp.voc.pl.fem": "proditae",
+      "ppp.voc.pl.neut": "prodita"
+    }
   }
 }

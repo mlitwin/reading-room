@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "conde",
       "2pl.pres.imp.act": "condite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conditus",
+      "ppp.nom.sg.fem": "condita",
+      "ppp.nom.sg.neut": "conditum",
+      "ppp.gen.sg.masc": "conditi",
+      "ppp.gen.sg.fem": "conditae",
+      "ppp.gen.sg.neut": "conditi",
+      "ppp.dat.sg.masc": "condito",
+      "ppp.dat.sg.fem": "conditae",
+      "ppp.dat.sg.neut": "condito",
+      "ppp.acc.sg.masc": "conditum",
+      "ppp.acc.sg.fem": "conditam",
+      "ppp.acc.sg.neut": "conditum",
+      "ppp.abl.sg.masc": "condito",
+      "ppp.abl.sg.fem": "condita",
+      "ppp.abl.sg.neut": "condito",
+      "ppp.voc.sg.masc": "condite",
+      "ppp.voc.sg.fem": "condita",
+      "ppp.voc.sg.neut": "conditum",
+      "ppp.nom.pl.masc": "conditi",
+      "ppp.nom.pl.fem": "conditae",
+      "ppp.nom.pl.neut": "condita",
+      "ppp.gen.pl.masc": "conditorum",
+      "ppp.gen.pl.fem": "conditarum",
+      "ppp.gen.pl.neut": "conditorum",
+      "ppp.dat.pl.masc": "conditis",
+      "ppp.dat.pl.fem": "conditis",
+      "ppp.dat.pl.neut": "conditis",
+      "ppp.acc.pl.masc": "conditos",
+      "ppp.acc.pl.fem": "conditas",
+      "ppp.acc.pl.neut": "condita",
+      "ppp.abl.pl.masc": "conditis",
+      "ppp.abl.pl.fem": "conditis",
+      "ppp.abl.pl.neut": "conditis",
+      "ppp.voc.pl.masc": "conditi",
+      "ppp.voc.pl.fem": "conditae",
+      "ppp.voc.pl.neut": "condita"
+    }
   }
 }

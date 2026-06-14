@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "elide",
       "2pl.pres.imp.act": "elidite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: elisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "elisus",
+      "ppp.nom.sg.fem": "elisa",
+      "ppp.nom.sg.neut": "elisum",
+      "ppp.gen.sg.masc": "elisi",
+      "ppp.gen.sg.fem": "elisae",
+      "ppp.gen.sg.neut": "elisi",
+      "ppp.dat.sg.masc": "eliso",
+      "ppp.dat.sg.fem": "elisae",
+      "ppp.dat.sg.neut": "eliso",
+      "ppp.acc.sg.masc": "elisum",
+      "ppp.acc.sg.fem": "elisam",
+      "ppp.acc.sg.neut": "elisum",
+      "ppp.abl.sg.masc": "eliso",
+      "ppp.abl.sg.fem": "elisa",
+      "ppp.abl.sg.neut": "eliso",
+      "ppp.voc.sg.masc": "elise",
+      "ppp.voc.sg.fem": "elisa",
+      "ppp.voc.sg.neut": "elisum",
+      "ppp.nom.pl.masc": "elisi",
+      "ppp.nom.pl.fem": "elisae",
+      "ppp.nom.pl.neut": "elisa",
+      "ppp.gen.pl.masc": "elisorum",
+      "ppp.gen.pl.fem": "elisarum",
+      "ppp.gen.pl.neut": "elisorum",
+      "ppp.dat.pl.masc": "elisis",
+      "ppp.dat.pl.fem": "elisis",
+      "ppp.dat.pl.neut": "elisis",
+      "ppp.acc.pl.masc": "elisos",
+      "ppp.acc.pl.fem": "elisas",
+      "ppp.acc.pl.neut": "elisa",
+      "ppp.abl.pl.masc": "elisis",
+      "ppp.abl.pl.fem": "elisis",
+      "ppp.abl.pl.neut": "elisis",
+      "ppp.voc.pl.masc": "elisi",
+      "ppp.voc.pl.fem": "elisae",
+      "ppp.voc.pl.neut": "elisa"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "cupe",
       "2pl.pres.imp.act": "cupite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cupitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cupitus",
+      "ppp.nom.sg.fem": "cupita",
+      "ppp.nom.sg.neut": "cupitum",
+      "ppp.gen.sg.masc": "cupiti",
+      "ppp.gen.sg.fem": "cupitae",
+      "ppp.gen.sg.neut": "cupiti",
+      "ppp.dat.sg.masc": "cupito",
+      "ppp.dat.sg.fem": "cupitae",
+      "ppp.dat.sg.neut": "cupito",
+      "ppp.acc.sg.masc": "cupitum",
+      "ppp.acc.sg.fem": "cupitam",
+      "ppp.acc.sg.neut": "cupitum",
+      "ppp.abl.sg.masc": "cupito",
+      "ppp.abl.sg.fem": "cupita",
+      "ppp.abl.sg.neut": "cupito",
+      "ppp.voc.sg.masc": "cupite",
+      "ppp.voc.sg.fem": "cupita",
+      "ppp.voc.sg.neut": "cupitum",
+      "ppp.nom.pl.masc": "cupiti",
+      "ppp.nom.pl.fem": "cupitae",
+      "ppp.nom.pl.neut": "cupita",
+      "ppp.gen.pl.masc": "cupitorum",
+      "ppp.gen.pl.fem": "cupitarum",
+      "ppp.gen.pl.neut": "cupitorum",
+      "ppp.dat.pl.masc": "cupitis",
+      "ppp.dat.pl.fem": "cupitis",
+      "ppp.dat.pl.neut": "cupitis",
+      "ppp.acc.pl.masc": "cupitos",
+      "ppp.acc.pl.fem": "cupitas",
+      "ppp.acc.pl.neut": "cupita",
+      "ppp.abl.pl.masc": "cupitis",
+      "ppp.abl.pl.fem": "cupitis",
+      "ppp.abl.pl.neut": "cupitis",
+      "ppp.voc.pl.masc": "cupiti",
+      "ppp.voc.pl.fem": "cupitae",
+      "ppp.voc.pl.neut": "cupita"
+    }
   }
 }

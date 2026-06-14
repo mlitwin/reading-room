@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "tere",
       "2pl.pres.imp.act": "terite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tritus",
+      "ppp.nom.sg.fem": "trita",
+      "ppp.nom.sg.neut": "tritum",
+      "ppp.gen.sg.masc": "triti",
+      "ppp.gen.sg.fem": "tritae",
+      "ppp.gen.sg.neut": "triti",
+      "ppp.dat.sg.masc": "trito",
+      "ppp.dat.sg.fem": "tritae",
+      "ppp.dat.sg.neut": "trito",
+      "ppp.acc.sg.masc": "tritum",
+      "ppp.acc.sg.fem": "tritam",
+      "ppp.acc.sg.neut": "tritum",
+      "ppp.abl.sg.masc": "trito",
+      "ppp.abl.sg.fem": "trita",
+      "ppp.abl.sg.neut": "trito",
+      "ppp.voc.sg.masc": "trite",
+      "ppp.voc.sg.fem": "trita",
+      "ppp.voc.sg.neut": "tritum",
+      "ppp.nom.pl.masc": "triti",
+      "ppp.nom.pl.fem": "tritae",
+      "ppp.nom.pl.neut": "trita",
+      "ppp.gen.pl.masc": "tritorum",
+      "ppp.gen.pl.fem": "tritarum",
+      "ppp.gen.pl.neut": "tritorum",
+      "ppp.dat.pl.masc": "tritis",
+      "ppp.dat.pl.fem": "tritis",
+      "ppp.dat.pl.neut": "tritis",
+      "ppp.acc.pl.masc": "tritos",
+      "ppp.acc.pl.fem": "tritas",
+      "ppp.acc.pl.neut": "trita",
+      "ppp.abl.pl.masc": "tritis",
+      "ppp.abl.pl.fem": "tritis",
+      "ppp.abl.pl.neut": "tritis",
+      "ppp.voc.pl.masc": "triti",
+      "ppp.voc.pl.fem": "tritae",
+      "ppp.voc.pl.neut": "trita"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "sta",
       "2pl.pres.imp.act": "state"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: status -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "status",
+      "ppp.nom.sg.fem": "stata",
+      "ppp.nom.sg.neut": "statum",
+      "ppp.gen.sg.masc": "stati",
+      "ppp.gen.sg.fem": "statae",
+      "ppp.gen.sg.neut": "stati",
+      "ppp.dat.sg.masc": "stato",
+      "ppp.dat.sg.fem": "statae",
+      "ppp.dat.sg.neut": "stato",
+      "ppp.acc.sg.masc": "statum",
+      "ppp.acc.sg.fem": "statam",
+      "ppp.acc.sg.neut": "statum",
+      "ppp.abl.sg.masc": "stato",
+      "ppp.abl.sg.fem": "stata",
+      "ppp.abl.sg.neut": "stato",
+      "ppp.voc.sg.masc": "state",
+      "ppp.voc.sg.fem": "stata",
+      "ppp.voc.sg.neut": "statum",
+      "ppp.nom.pl.masc": "stati",
+      "ppp.nom.pl.fem": "statae",
+      "ppp.nom.pl.neut": "stata",
+      "ppp.gen.pl.masc": "statorum",
+      "ppp.gen.pl.fem": "statarum",
+      "ppp.gen.pl.neut": "statorum",
+      "ppp.dat.pl.masc": "statis",
+      "ppp.dat.pl.fem": "statis",
+      "ppp.dat.pl.neut": "statis",
+      "ppp.acc.pl.masc": "statos",
+      "ppp.acc.pl.fem": "statas",
+      "ppp.acc.pl.neut": "stata",
+      "ppp.abl.pl.masc": "statis",
+      "ppp.abl.pl.fem": "statis",
+      "ppp.abl.pl.neut": "statis",
+      "ppp.voc.pl.masc": "stati",
+      "ppp.voc.pl.fem": "statae",
+      "ppp.voc.pl.neut": "stata"
+    }
   }
 }

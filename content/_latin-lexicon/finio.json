@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "fini",
       "2pl.pres.imp.act": "finite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: finitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "finitus",
+      "ppp.nom.sg.fem": "finita",
+      "ppp.nom.sg.neut": "finitum",
+      "ppp.gen.sg.masc": "finiti",
+      "ppp.gen.sg.fem": "finitae",
+      "ppp.gen.sg.neut": "finiti",
+      "ppp.dat.sg.masc": "finito",
+      "ppp.dat.sg.fem": "finitae",
+      "ppp.dat.sg.neut": "finito",
+      "ppp.acc.sg.masc": "finitum",
+      "ppp.acc.sg.fem": "finitam",
+      "ppp.acc.sg.neut": "finitum",
+      "ppp.abl.sg.masc": "finito",
+      "ppp.abl.sg.fem": "finita",
+      "ppp.abl.sg.neut": "finito",
+      "ppp.voc.sg.masc": "finite",
+      "ppp.voc.sg.fem": "finita",
+      "ppp.voc.sg.neut": "finitum",
+      "ppp.nom.pl.masc": "finiti",
+      "ppp.nom.pl.fem": "finitae",
+      "ppp.nom.pl.neut": "finita",
+      "ppp.gen.pl.masc": "finitorum",
+      "ppp.gen.pl.fem": "finitarum",
+      "ppp.gen.pl.neut": "finitorum",
+      "ppp.dat.pl.masc": "finitis",
+      "ppp.dat.pl.fem": "finitis",
+      "ppp.dat.pl.neut": "finitis",
+      "ppp.acc.pl.masc": "finitos",
+      "ppp.acc.pl.fem": "finitas",
+      "ppp.acc.pl.neut": "finita",
+      "ppp.abl.pl.masc": "finitis",
+      "ppp.abl.pl.fem": "finitis",
+      "ppp.abl.pl.neut": "finitis",
+      "ppp.voc.pl.masc": "finiti",
+      "ppp.voc.pl.fem": "finitae",
+      "ppp.voc.pl.neut": "finita"
+    }
   }
 }

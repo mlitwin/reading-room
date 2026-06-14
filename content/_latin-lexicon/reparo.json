@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "repara",
       "2pl.pres.imp.act": "reparate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: reparatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "reparatus",
+      "ppp.nom.sg.fem": "reparata",
+      "ppp.nom.sg.neut": "reparatum",
+      "ppp.gen.sg.masc": "reparati",
+      "ppp.gen.sg.fem": "reparatae",
+      "ppp.gen.sg.neut": "reparati",
+      "ppp.dat.sg.masc": "reparato",
+      "ppp.dat.sg.fem": "reparatae",
+      "ppp.dat.sg.neut": "reparato",
+      "ppp.acc.sg.masc": "reparatum",
+      "ppp.acc.sg.fem": "reparatam",
+      "ppp.acc.sg.neut": "reparatum",
+      "ppp.abl.sg.masc": "reparato",
+      "ppp.abl.sg.fem": "reparata",
+      "ppp.abl.sg.neut": "reparato",
+      "ppp.voc.sg.masc": "reparate",
+      "ppp.voc.sg.fem": "reparata",
+      "ppp.voc.sg.neut": "reparatum",
+      "ppp.nom.pl.masc": "reparati",
+      "ppp.nom.pl.fem": "reparatae",
+      "ppp.nom.pl.neut": "reparata",
+      "ppp.gen.pl.masc": "reparatorum",
+      "ppp.gen.pl.fem": "reparatarum",
+      "ppp.gen.pl.neut": "reparatorum",
+      "ppp.dat.pl.masc": "reparatis",
+      "ppp.dat.pl.fem": "reparatis",
+      "ppp.dat.pl.neut": "reparatis",
+      "ppp.acc.pl.masc": "reparatos",
+      "ppp.acc.pl.fem": "reparatas",
+      "ppp.acc.pl.neut": "reparata",
+      "ppp.abl.pl.masc": "reparatis",
+      "ppp.abl.pl.fem": "reparatis",
+      "ppp.abl.pl.neut": "reparatis",
+      "ppp.voc.pl.masc": "reparati",
+      "ppp.voc.pl.fem": "reparatae",
+      "ppp.voc.pl.neut": "reparata"
+    }
   }
 }

@@ -114,13 +114,16 @@
       return out;
     }
     if (type === 'verb') return group(1);
-    if (type === 'adj' || type === 'pron') return group(0);
+    if (type === 'adj' || type === 'pron' || type === 'ppp') return group(0);
     return [{ groupKey: null, subCols: cols.map(function (c) { return { orig: c, sub: c }; }) }];
   }
 
   function renderSubTable(p, sectionGroup, type, soloSection) {
+    // PPP cells are stored with a 'ppp.' prefix on the row so their keys match
+    // parse codes directly (e.g. ppp.acc.pl.fem).
+    var rowPrefix = type === 'ppp' ? 'ppp.' : '';
     var rows = p.rows.filter(function (r) {
-      return sectionGroup.subCols.some(function (sc) { return p.cells[r + '.' + sc.orig] != null; });
+      return sectionGroup.subCols.some(function (sc) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; });
     });
     if (!rows.length) return '';
     var header = '<tr><th></th>' + sectionGroup.subCols.map(function (sc) {
@@ -128,9 +131,10 @@
     }).join('') + '</tr>';
     var body = rows.map(function (r) {
       var cells = sectionGroup.subCols.map(function (sc) {
-        var form = p.cells[r + '.' + sc.orig];
+        var key = rowPrefix + r + '.' + sc.orig;
+        var form = p.cells[key];
         if (form == null) return '<td></td>';
-        return '<td data-parse="' + escAttr(r + '.' + sc.orig) + '">' + escHtml(form) + '</td>';
+        return '<td data-parse="' + escAttr(key) + '">' + escHtml(form) + '</td>';
       }).join('');
       return '<tr><th class="row-head">' + renderCompactRowHeader(r) + '</th>' + cells + '</tr>';
     }).join('');
@@ -142,14 +146,25 @@
   }
 
   function renderParadigm(card) {
+    var out = '';
     var p = card.paradigm;
-    if (!p || !p.rows || !p.cols || !p.cells) return '';
-    var type = p.type || card.pos || '';
-    var groups = splitColumnsByGroup(p.cols, type);
-    var solo = groups.length === 1;
-    return '<div class="card-paradigms">' + groups.map(function (g) {
-      return renderSubTable(p, g, type, solo);
-    }).join('\n') + '</div>';
+    if (p && p.rows && p.cols && p.cells) {
+      var type = p.type || card.pos || '';
+      var groups = splitColumnsByGroup(p.cols, type);
+      var solo = groups.length === 1;
+      out += '<div class="card-paradigms">' + groups.map(function (g) {
+        return renderSubTable(p, g, type, solo);
+      }).join('\n') + '</div>';
+    }
+    var ppp = card.ppp_paradigm;
+    if (ppp && ppp.rows && ppp.cols && ppp.cells) {
+      var label = ppp.label ? '<p class="card-ppp-label">' + escHtml(ppp.label) + '</p>' : '';
+      var groups2 = splitColumnsByGroup(ppp.cols, 'ppp');
+      out += '<div class="card-paradigms card-ppp-paradigms">' + label +
+        groups2.map(function (g) { return renderSubTable(ppp, g, 'ppp', false); }).join('\n') +
+        '</div>';
+    }
+    return out;
   }
 
   function renderHeadLine(card) {
@@ -209,7 +224,7 @@
     var activeLemma = chooseInitialTab(available, stanza, entry.activeLemma || '');
     body.innerHTML = renderTabBar(available, activeLemma, stanza) +
       '<div class="card-content">' + renderCardInnerHtml(activeLemma, lex[activeLemma]) + '</div>';
-    applyCardState(body.querySelector('.card-content'), activeLemma, available, stanza);
+    applyCardState(body.querySelector('.card-content'), activeLemma, available, stanza, entry.surface || '');
   }
 
   // Returns the innerHTML of the content area for one lemma.
@@ -294,7 +309,8 @@
   function cssEscape(s) { return (window.CSS && CSS.escape) ? CSS.escape(s) : s; }
 
   // ── card-state application (highlight paradigm cells + render chips + stanza)
-  function applyCardState(scope, lemma, matches, stanzaLemma) {
+  // surface: the actual Latin token text (e.g. "mutatas"), shown in the parse slot.
+  function applyCardState(scope, lemma, matches, stanzaLemma, surface) {
     var thisMatch = matches.filter(function (m) { return m.lemma === lemma; })[0];
     var thisParses = thisMatch ? thisMatch.parses : [];
     scope.querySelectorAll('td.active-form').forEach(function (el) {
@@ -323,12 +339,18 @@
     });
     var slot = scope.querySelector('.card-parse');
     if (slot) {
-      slot.innerHTML = thisParses.length > 0
-        ? '<ul class="card-parse-list">' + thisParses.map(function (p) {
+      if (thisParses.length > 0) {
+        var surfaceHtml = surface
+          ? '<span class="card-parse-surface">' + escHtml(surface) + '</span>'
+          : '';
+        slot.innerHTML = surfaceHtml +
+          '<ul class="card-parse-list">' + thisParses.map(function (p) {
             return '<li><span class="card-parse-human">' + expandParseLinks(p) +
                    '</span> <span class="card-parse-code">' + escHtml(p) + '</span></li>';
-          }).join('') + '</ul>'
-        : '';
+          }).join('') + '</ul>';
+      } else {
+        slot.innerHTML = '';
+      }
     }
     var heading = scope.querySelector('.card-lemma');
     if (heading) {
@@ -448,7 +470,7 @@
       if (content) {
         content.innerHTML = renderCardInnerHtml(newLemma, lexiconCache[newLemma]);
         var avail = parseMatches(curEntry.matches).filter(function (m) { return lexiconCache[m.lemma]; });
-        applyCardState(content, newLemma, avail, curEntry.stanzaLemma || '');
+        applyCardState(content, newLemma, avail, curEntry.stanzaLemma || '', curEntry.surface || '');
       }
       return;
     }
@@ -462,7 +484,10 @@
       var stanzaLemma = btn.getAttribute('data-stanza') || '';
       var cardData = lexiconCache && lexiconCache[lemma];
       var label = cardData ? (cardData.lemma || lemma) : lemma;
-      pushEntry({ type: 'card', lemma: lemma, label: label, matches: matches, stanzaLemma: stanzaLemma });
+      // Capture the surface form (the Latin token text) so the parse slot
+      // can show which exact form was tapped alongside its grammatical analysis.
+      var surface = btn.classList.contains('latin-token') ? (btn.textContent || '').trim() : '';
+      pushEntry({ type: 'card', lemma: lemma, label: label, matches: matches, stanzaLemma: stanzaLemma, surface: surface });
       return;
     }
 

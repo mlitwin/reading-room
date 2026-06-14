@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "irride",
       "2pl.pres.imp.act": "irridete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: irrisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "irrisus",
+      "ppp.nom.sg.fem": "irrisa",
+      "ppp.nom.sg.neut": "irrisum",
+      "ppp.gen.sg.masc": "irrisi",
+      "ppp.gen.sg.fem": "irrisae",
+      "ppp.gen.sg.neut": "irrisi",
+      "ppp.dat.sg.masc": "irriso",
+      "ppp.dat.sg.fem": "irrisae",
+      "ppp.dat.sg.neut": "irriso",
+      "ppp.acc.sg.masc": "irrisum",
+      "ppp.acc.sg.fem": "irrisam",
+      "ppp.acc.sg.neut": "irrisum",
+      "ppp.abl.sg.masc": "irriso",
+      "ppp.abl.sg.fem": "irrisa",
+      "ppp.abl.sg.neut": "irriso",
+      "ppp.voc.sg.masc": "irrise",
+      "ppp.voc.sg.fem": "irrisa",
+      "ppp.voc.sg.neut": "irrisum",
+      "ppp.nom.pl.masc": "irrisi",
+      "ppp.nom.pl.fem": "irrisae",
+      "ppp.nom.pl.neut": "irrisa",
+      "ppp.gen.pl.masc": "irrisorum",
+      "ppp.gen.pl.fem": "irrisarum",
+      "ppp.gen.pl.neut": "irrisorum",
+      "ppp.dat.pl.masc": "irrisis",
+      "ppp.dat.pl.fem": "irrisis",
+      "ppp.dat.pl.neut": "irrisis",
+      "ppp.acc.pl.masc": "irrisos",
+      "ppp.acc.pl.fem": "irrisas",
+      "ppp.acc.pl.neut": "irrisa",
+      "ppp.abl.pl.masc": "irrisis",
+      "ppp.abl.pl.fem": "irrisis",
+      "ppp.abl.pl.neut": "irrisis",
+      "ppp.voc.pl.masc": "irrisi",
+      "ppp.voc.pl.fem": "irrisae",
+      "ppp.voc.pl.neut": "irrisa"
+    }
   }
 }

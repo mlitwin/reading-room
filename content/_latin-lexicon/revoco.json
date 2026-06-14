@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "revoca",
       "2pl.pres.imp.act": "revocate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: revocatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "revocatus",
+      "ppp.nom.sg.fem": "revocata",
+      "ppp.nom.sg.neut": "revocatum",
+      "ppp.gen.sg.masc": "revocati",
+      "ppp.gen.sg.fem": "revocatae",
+      "ppp.gen.sg.neut": "revocati",
+      "ppp.dat.sg.masc": "revocato",
+      "ppp.dat.sg.fem": "revocatae",
+      "ppp.dat.sg.neut": "revocato",
+      "ppp.acc.sg.masc": "revocatum",
+      "ppp.acc.sg.fem": "revocatam",
+      "ppp.acc.sg.neut": "revocatum",
+      "ppp.abl.sg.masc": "revocato",
+      "ppp.abl.sg.fem": "revocata",
+      "ppp.abl.sg.neut": "revocato",
+      "ppp.voc.sg.masc": "revocate",
+      "ppp.voc.sg.fem": "revocata",
+      "ppp.voc.sg.neut": "revocatum",
+      "ppp.nom.pl.masc": "revocati",
+      "ppp.nom.pl.fem": "revocatae",
+      "ppp.nom.pl.neut": "revocata",
+      "ppp.gen.pl.masc": "revocatorum",
+      "ppp.gen.pl.fem": "revocatarum",
+      "ppp.gen.pl.neut": "revocatorum",
+      "ppp.dat.pl.masc": "revocatis",
+      "ppp.dat.pl.fem": "revocatis",
+      "ppp.dat.pl.neut": "revocatis",
+      "ppp.acc.pl.masc": "revocatos",
+      "ppp.acc.pl.fem": "revocatas",
+      "ppp.acc.pl.neut": "revocata",
+      "ppp.abl.pl.masc": "revocatis",
+      "ppp.abl.pl.fem": "revocatis",
+      "ppp.abl.pl.neut": "revocatis",
+      "ppp.voc.pl.masc": "revocati",
+      "ppp.voc.pl.fem": "revocatae",
+      "ppp.voc.pl.neut": "revocata"
+    }
   }
 }

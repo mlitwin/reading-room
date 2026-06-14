@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "enumera",
       "2pl.pres.imp.act": "enumerate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: enumeratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "enumeratus",
+      "ppp.nom.sg.fem": "enumerata",
+      "ppp.nom.sg.neut": "enumeratum",
+      "ppp.gen.sg.masc": "enumerati",
+      "ppp.gen.sg.fem": "enumeratae",
+      "ppp.gen.sg.neut": "enumerati",
+      "ppp.dat.sg.masc": "enumerato",
+      "ppp.dat.sg.fem": "enumeratae",
+      "ppp.dat.sg.neut": "enumerato",
+      "ppp.acc.sg.masc": "enumeratum",
+      "ppp.acc.sg.fem": "enumeratam",
+      "ppp.acc.sg.neut": "enumeratum",
+      "ppp.abl.sg.masc": "enumerato",
+      "ppp.abl.sg.fem": "enumerata",
+      "ppp.abl.sg.neut": "enumerato",
+      "ppp.voc.sg.masc": "enumerate",
+      "ppp.voc.sg.fem": "enumerata",
+      "ppp.voc.sg.neut": "enumeratum",
+      "ppp.nom.pl.masc": "enumerati",
+      "ppp.nom.pl.fem": "enumeratae",
+      "ppp.nom.pl.neut": "enumerata",
+      "ppp.gen.pl.masc": "enumeratorum",
+      "ppp.gen.pl.fem": "enumeratarum",
+      "ppp.gen.pl.neut": "enumeratorum",
+      "ppp.dat.pl.masc": "enumeratis",
+      "ppp.dat.pl.fem": "enumeratis",
+      "ppp.dat.pl.neut": "enumeratis",
+      "ppp.acc.pl.masc": "enumeratos",
+      "ppp.acc.pl.fem": "enumeratas",
+      "ppp.acc.pl.neut": "enumerata",
+      "ppp.abl.pl.masc": "enumeratis",
+      "ppp.abl.pl.fem": "enumeratis",
+      "ppp.abl.pl.neut": "enumeratis",
+      "ppp.voc.pl.masc": "enumerati",
+      "ppp.voc.pl.fem": "enumeratae",
+      "ppp.voc.pl.neut": "enumerata"
+    }
   }
 }

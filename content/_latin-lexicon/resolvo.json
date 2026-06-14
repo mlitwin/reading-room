@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "resolve",
       "2pl.pres.imp.act": "resolvite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: resolutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "resolutus",
+      "ppp.nom.sg.fem": "resoluta",
+      "ppp.nom.sg.neut": "resolutum",
+      "ppp.gen.sg.masc": "resoluti",
+      "ppp.gen.sg.fem": "resolutae",
+      "ppp.gen.sg.neut": "resoluti",
+      "ppp.dat.sg.masc": "resoluto",
+      "ppp.dat.sg.fem": "resolutae",
+      "ppp.dat.sg.neut": "resoluto",
+      "ppp.acc.sg.masc": "resolutum",
+      "ppp.acc.sg.fem": "resolutam",
+      "ppp.acc.sg.neut": "resolutum",
+      "ppp.abl.sg.masc": "resoluto",
+      "ppp.abl.sg.fem": "resoluta",
+      "ppp.abl.sg.neut": "resoluto",
+      "ppp.voc.sg.masc": "resolute",
+      "ppp.voc.sg.fem": "resoluta",
+      "ppp.voc.sg.neut": "resolutum",
+      "ppp.nom.pl.masc": "resoluti",
+      "ppp.nom.pl.fem": "resolutae",
+      "ppp.nom.pl.neut": "resoluta",
+      "ppp.gen.pl.masc": "resolutorum",
+      "ppp.gen.pl.fem": "resolutarum",
+      "ppp.gen.pl.neut": "resolutorum",
+      "ppp.dat.pl.masc": "resolutis",
+      "ppp.dat.pl.fem": "resolutis",
+      "ppp.dat.pl.neut": "resolutis",
+      "ppp.acc.pl.masc": "resolutos",
+      "ppp.acc.pl.fem": "resolutas",
+      "ppp.acc.pl.neut": "resoluta",
+      "ppp.abl.pl.masc": "resolutis",
+      "ppp.abl.pl.fem": "resolutis",
+      "ppp.abl.pl.neut": "resolutis",
+      "ppp.voc.pl.masc": "resoluti",
+      "ppp.voc.pl.fem": "resolutae",
+      "ppp.voc.pl.neut": "resoluta"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "roga",
       "2pl.pres.imp.act": "rogate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: rogatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "rogatus",
+      "ppp.nom.sg.fem": "rogata",
+      "ppp.nom.sg.neut": "rogatum",
+      "ppp.gen.sg.masc": "rogati",
+      "ppp.gen.sg.fem": "rogatae",
+      "ppp.gen.sg.neut": "rogati",
+      "ppp.dat.sg.masc": "rogato",
+      "ppp.dat.sg.fem": "rogatae",
+      "ppp.dat.sg.neut": "rogato",
+      "ppp.acc.sg.masc": "rogatum",
+      "ppp.acc.sg.fem": "rogatam",
+      "ppp.acc.sg.neut": "rogatum",
+      "ppp.abl.sg.masc": "rogato",
+      "ppp.abl.sg.fem": "rogata",
+      "ppp.abl.sg.neut": "rogato",
+      "ppp.voc.sg.masc": "rogate",
+      "ppp.voc.sg.fem": "rogata",
+      "ppp.voc.sg.neut": "rogatum",
+      "ppp.nom.pl.masc": "rogati",
+      "ppp.nom.pl.fem": "rogatae",
+      "ppp.nom.pl.neut": "rogata",
+      "ppp.gen.pl.masc": "rogatorum",
+      "ppp.gen.pl.fem": "rogatarum",
+      "ppp.gen.pl.neut": "rogatorum",
+      "ppp.dat.pl.masc": "rogatis",
+      "ppp.dat.pl.fem": "rogatis",
+      "ppp.dat.pl.neut": "rogatis",
+      "ppp.acc.pl.masc": "rogatos",
+      "ppp.acc.pl.fem": "rogatas",
+      "ppp.acc.pl.neut": "rogata",
+      "ppp.abl.pl.masc": "rogatis",
+      "ppp.abl.pl.fem": "rogatis",
+      "ppp.abl.pl.neut": "rogatis",
+      "ppp.voc.pl.masc": "rogati",
+      "ppp.voc.pl.fem": "rogatae",
+      "ppp.voc.pl.neut": "rogata"
+    }
   }
 }

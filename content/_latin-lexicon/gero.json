@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "gere",
       "2pl.pres.imp.act": "gerite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: gestus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "gestus",
+      "ppp.nom.sg.fem": "gesta",
+      "ppp.nom.sg.neut": "gestum",
+      "ppp.gen.sg.masc": "gesti",
+      "ppp.gen.sg.fem": "gestae",
+      "ppp.gen.sg.neut": "gesti",
+      "ppp.dat.sg.masc": "gesto",
+      "ppp.dat.sg.fem": "gestae",
+      "ppp.dat.sg.neut": "gesto",
+      "ppp.acc.sg.masc": "gestum",
+      "ppp.acc.sg.fem": "gestam",
+      "ppp.acc.sg.neut": "gestum",
+      "ppp.abl.sg.masc": "gesto",
+      "ppp.abl.sg.fem": "gesta",
+      "ppp.abl.sg.neut": "gesto",
+      "ppp.voc.sg.masc": "geste",
+      "ppp.voc.sg.fem": "gesta",
+      "ppp.voc.sg.neut": "gestum",
+      "ppp.nom.pl.masc": "gesti",
+      "ppp.nom.pl.fem": "gestae",
+      "ppp.nom.pl.neut": "gesta",
+      "ppp.gen.pl.masc": "gestorum",
+      "ppp.gen.pl.fem": "gestarum",
+      "ppp.gen.pl.neut": "gestorum",
+      "ppp.dat.pl.masc": "gestis",
+      "ppp.dat.pl.fem": "gestis",
+      "ppp.dat.pl.neut": "gestis",
+      "ppp.acc.pl.masc": "gestos",
+      "ppp.acc.pl.fem": "gestas",
+      "ppp.acc.pl.neut": "gesta",
+      "ppp.abl.pl.masc": "gestis",
+      "ppp.abl.pl.fem": "gestis",
+      "ppp.abl.pl.neut": "gestis",
+      "ppp.voc.pl.masc": "gesti",
+      "ppp.voc.pl.fem": "gestae",
+      "ppp.voc.pl.neut": "gesta"
+    }
   }
 }

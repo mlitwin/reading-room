@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "repone",
       "2pl.pres.imp.act": "reponite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: repositus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "repositus",
+      "ppp.nom.sg.fem": "reposita",
+      "ppp.nom.sg.neut": "repositum",
+      "ppp.gen.sg.masc": "repositi",
+      "ppp.gen.sg.fem": "repositae",
+      "ppp.gen.sg.neut": "repositi",
+      "ppp.dat.sg.masc": "reposito",
+      "ppp.dat.sg.fem": "repositae",
+      "ppp.dat.sg.neut": "reposito",
+      "ppp.acc.sg.masc": "repositum",
+      "ppp.acc.sg.fem": "repositam",
+      "ppp.acc.sg.neut": "repositum",
+      "ppp.abl.sg.masc": "reposito",
+      "ppp.abl.sg.fem": "reposita",
+      "ppp.abl.sg.neut": "reposito",
+      "ppp.voc.sg.masc": "reposite",
+      "ppp.voc.sg.fem": "reposita",
+      "ppp.voc.sg.neut": "repositum",
+      "ppp.nom.pl.masc": "repositi",
+      "ppp.nom.pl.fem": "repositae",
+      "ppp.nom.pl.neut": "reposita",
+      "ppp.gen.pl.masc": "repositorum",
+      "ppp.gen.pl.fem": "repositarum",
+      "ppp.gen.pl.neut": "repositorum",
+      "ppp.dat.pl.masc": "repositis",
+      "ppp.dat.pl.fem": "repositis",
+      "ppp.dat.pl.neut": "repositis",
+      "ppp.acc.pl.masc": "repositos",
+      "ppp.acc.pl.fem": "repositas",
+      "ppp.acc.pl.neut": "reposita",
+      "ppp.abl.pl.masc": "repositis",
+      "ppp.abl.pl.fem": "repositis",
+      "ppp.abl.pl.neut": "repositis",
+      "ppp.voc.pl.masc": "repositi",
+      "ppp.voc.pl.fem": "repositae",
+      "ppp.voc.pl.neut": "reposita"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "diluvia",
       "2pl.pres.imp.act": "diluviate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: diluviatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "diluviatus",
+      "ppp.nom.sg.fem": "diluviata",
+      "ppp.nom.sg.neut": "diluviatum",
+      "ppp.gen.sg.masc": "diluviati",
+      "ppp.gen.sg.fem": "diluviatae",
+      "ppp.gen.sg.neut": "diluviati",
+      "ppp.dat.sg.masc": "diluviato",
+      "ppp.dat.sg.fem": "diluviatae",
+      "ppp.dat.sg.neut": "diluviato",
+      "ppp.acc.sg.masc": "diluviatum",
+      "ppp.acc.sg.fem": "diluviatam",
+      "ppp.acc.sg.neut": "diluviatum",
+      "ppp.abl.sg.masc": "diluviato",
+      "ppp.abl.sg.fem": "diluviata",
+      "ppp.abl.sg.neut": "diluviato",
+      "ppp.voc.sg.masc": "diluviate",
+      "ppp.voc.sg.fem": "diluviata",
+      "ppp.voc.sg.neut": "diluviatum",
+      "ppp.nom.pl.masc": "diluviati",
+      "ppp.nom.pl.fem": "diluviatae",
+      "ppp.nom.pl.neut": "diluviata",
+      "ppp.gen.pl.masc": "diluviatorum",
+      "ppp.gen.pl.fem": "diluviatarum",
+      "ppp.gen.pl.neut": "diluviatorum",
+      "ppp.dat.pl.masc": "diluviatis",
+      "ppp.dat.pl.fem": "diluviatis",
+      "ppp.dat.pl.neut": "diluviatis",
+      "ppp.acc.pl.masc": "diluviatos",
+      "ppp.acc.pl.fem": "diluviatas",
+      "ppp.acc.pl.neut": "diluviata",
+      "ppp.abl.pl.masc": "diluviatis",
+      "ppp.abl.pl.fem": "diluviatis",
+      "ppp.abl.pl.neut": "diluviatis",
+      "ppp.voc.pl.masc": "diluviati",
+      "ppp.voc.pl.fem": "diluviatae",
+      "ppp.voc.pl.neut": "diluviata"
+    }
   }
 }

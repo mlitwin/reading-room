@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "ingeme",
       "2pl.pres.imp.act": "ingemite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ingemitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ingemitus",
+      "ppp.nom.sg.fem": "ingemita",
+      "ppp.nom.sg.neut": "ingemitum",
+      "ppp.gen.sg.masc": "ingemiti",
+      "ppp.gen.sg.fem": "ingemitae",
+      "ppp.gen.sg.neut": "ingemiti",
+      "ppp.dat.sg.masc": "ingemito",
+      "ppp.dat.sg.fem": "ingemitae",
+      "ppp.dat.sg.neut": "ingemito",
+      "ppp.acc.sg.masc": "ingemitum",
+      "ppp.acc.sg.fem": "ingemitam",
+      "ppp.acc.sg.neut": "ingemitum",
+      "ppp.abl.sg.masc": "ingemito",
+      "ppp.abl.sg.fem": "ingemita",
+      "ppp.abl.sg.neut": "ingemito",
+      "ppp.voc.sg.masc": "ingemite",
+      "ppp.voc.sg.fem": "ingemita",
+      "ppp.voc.sg.neut": "ingemitum",
+      "ppp.nom.pl.masc": "ingemiti",
+      "ppp.nom.pl.fem": "ingemitae",
+      "ppp.nom.pl.neut": "ingemita",
+      "ppp.gen.pl.masc": "ingemitorum",
+      "ppp.gen.pl.fem": "ingemitarum",
+      "ppp.gen.pl.neut": "ingemitorum",
+      "ppp.dat.pl.masc": "ingemitis",
+      "ppp.dat.pl.fem": "ingemitis",
+      "ppp.dat.pl.neut": "ingemitis",
+      "ppp.acc.pl.masc": "ingemitos",
+      "ppp.acc.pl.fem": "ingemitas",
+      "ppp.acc.pl.neut": "ingemita",
+      "ppp.abl.pl.masc": "ingemitis",
+      "ppp.abl.pl.fem": "ingemitis",
+      "ppp.abl.pl.neut": "ingemitis",
+      "ppp.voc.pl.masc": "ingemiti",
+      "ppp.voc.pl.fem": "ingemitae",
+      "ppp.voc.pl.neut": "ingemita"
+    }
   }
 }

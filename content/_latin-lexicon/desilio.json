@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "desili",
       "2pl.pres.imp.act": "desilite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: desultus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "desultus",
+      "ppp.nom.sg.fem": "desulta",
+      "ppp.nom.sg.neut": "desultum",
+      "ppp.gen.sg.masc": "desulti",
+      "ppp.gen.sg.fem": "desultae",
+      "ppp.gen.sg.neut": "desulti",
+      "ppp.dat.sg.masc": "desulto",
+      "ppp.dat.sg.fem": "desultae",
+      "ppp.dat.sg.neut": "desulto",
+      "ppp.acc.sg.masc": "desultum",
+      "ppp.acc.sg.fem": "desultam",
+      "ppp.acc.sg.neut": "desultum",
+      "ppp.abl.sg.masc": "desulto",
+      "ppp.abl.sg.fem": "desulta",
+      "ppp.abl.sg.neut": "desulto",
+      "ppp.voc.sg.masc": "desulte",
+      "ppp.voc.sg.fem": "desulta",
+      "ppp.voc.sg.neut": "desultum",
+      "ppp.nom.pl.masc": "desulti",
+      "ppp.nom.pl.fem": "desultae",
+      "ppp.nom.pl.neut": "desulta",
+      "ppp.gen.pl.masc": "desultorum",
+      "ppp.gen.pl.fem": "desultarum",
+      "ppp.gen.pl.neut": "desultorum",
+      "ppp.dat.pl.masc": "desultis",
+      "ppp.dat.pl.fem": "desultis",
+      "ppp.dat.pl.neut": "desultis",
+      "ppp.acc.pl.masc": "desultos",
+      "ppp.acc.pl.fem": "desultas",
+      "ppp.acc.pl.neut": "desulta",
+      "ppp.abl.pl.masc": "desultis",
+      "ppp.abl.pl.fem": "desultis",
+      "ppp.abl.pl.neut": "desultis",
+      "ppp.voc.pl.masc": "desulti",
+      "ppp.voc.pl.fem": "desultae",
+      "ppp.voc.pl.neut": "desulta"
+    }
   }
 }

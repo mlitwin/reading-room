@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "regna",
       "2pl.pres.imp.act": "regnate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: regnatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "regnatus",
+      "ppp.nom.sg.fem": "regnata",
+      "ppp.nom.sg.neut": "regnatum",
+      "ppp.gen.sg.masc": "regnati",
+      "ppp.gen.sg.fem": "regnatae",
+      "ppp.gen.sg.neut": "regnati",
+      "ppp.dat.sg.masc": "regnato",
+      "ppp.dat.sg.fem": "regnatae",
+      "ppp.dat.sg.neut": "regnato",
+      "ppp.acc.sg.masc": "regnatum",
+      "ppp.acc.sg.fem": "regnatam",
+      "ppp.acc.sg.neut": "regnatum",
+      "ppp.abl.sg.masc": "regnato",
+      "ppp.abl.sg.fem": "regnata",
+      "ppp.abl.sg.neut": "regnato",
+      "ppp.voc.sg.masc": "regnate",
+      "ppp.voc.sg.fem": "regnata",
+      "ppp.voc.sg.neut": "regnatum",
+      "ppp.nom.pl.masc": "regnati",
+      "ppp.nom.pl.fem": "regnatae",
+      "ppp.nom.pl.neut": "regnata",
+      "ppp.gen.pl.masc": "regnatorum",
+      "ppp.gen.pl.fem": "regnatarum",
+      "ppp.gen.pl.neut": "regnatorum",
+      "ppp.dat.pl.masc": "regnatis",
+      "ppp.dat.pl.fem": "regnatis",
+      "ppp.dat.pl.neut": "regnatis",
+      "ppp.acc.pl.masc": "regnatos",
+      "ppp.acc.pl.fem": "regnatas",
+      "ppp.acc.pl.neut": "regnata",
+      "ppp.abl.pl.masc": "regnatis",
+      "ppp.abl.pl.fem": "regnatis",
+      "ppp.abl.pl.neut": "regnatis",
+      "ppp.voc.pl.masc": "regnati",
+      "ppp.voc.pl.fem": "regnatae",
+      "ppp.voc.pl.neut": "regnata"
+    }
   }
 }

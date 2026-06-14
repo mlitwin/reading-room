@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "ignosce",
       "2pl.pres.imp.act": "ignoscite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ignotus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ignotus",
+      "ppp.nom.sg.fem": "ignota",
+      "ppp.nom.sg.neut": "ignotum",
+      "ppp.gen.sg.masc": "ignoti",
+      "ppp.gen.sg.fem": "ignotae",
+      "ppp.gen.sg.neut": "ignoti",
+      "ppp.dat.sg.masc": "ignoto",
+      "ppp.dat.sg.fem": "ignotae",
+      "ppp.dat.sg.neut": "ignoto",
+      "ppp.acc.sg.masc": "ignotum",
+      "ppp.acc.sg.fem": "ignotam",
+      "ppp.acc.sg.neut": "ignotum",
+      "ppp.abl.sg.masc": "ignoto",
+      "ppp.abl.sg.fem": "ignota",
+      "ppp.abl.sg.neut": "ignoto",
+      "ppp.voc.sg.masc": "ignote",
+      "ppp.voc.sg.fem": "ignota",
+      "ppp.voc.sg.neut": "ignotum",
+      "ppp.nom.pl.masc": "ignoti",
+      "ppp.nom.pl.fem": "ignotae",
+      "ppp.nom.pl.neut": "ignota",
+      "ppp.gen.pl.masc": "ignotorum",
+      "ppp.gen.pl.fem": "ignotarum",
+      "ppp.gen.pl.neut": "ignotorum",
+      "ppp.dat.pl.masc": "ignotis",
+      "ppp.dat.pl.fem": "ignotis",
+      "ppp.dat.pl.neut": "ignotis",
+      "ppp.acc.pl.masc": "ignotos",
+      "ppp.acc.pl.fem": "ignotas",
+      "ppp.acc.pl.neut": "ignota",
+      "ppp.abl.pl.masc": "ignotis",
+      "ppp.abl.pl.fem": "ignotis",
+      "ppp.abl.pl.neut": "ignotis",
+      "ppp.voc.pl.masc": "ignoti",
+      "ppp.voc.pl.fem": "ignotae",
+      "ppp.voc.pl.neut": "ignota"
+    }
   }
 }

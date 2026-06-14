@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "detine",
       "2pl.pres.imp.act": "detinete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: detentus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "detentus",
+      "ppp.nom.sg.fem": "detenta",
+      "ppp.nom.sg.neut": "detentum",
+      "ppp.gen.sg.masc": "detenti",
+      "ppp.gen.sg.fem": "detentae",
+      "ppp.gen.sg.neut": "detenti",
+      "ppp.dat.sg.masc": "detento",
+      "ppp.dat.sg.fem": "detentae",
+      "ppp.dat.sg.neut": "detento",
+      "ppp.acc.sg.masc": "detentum",
+      "ppp.acc.sg.fem": "detentam",
+      "ppp.acc.sg.neut": "detentum",
+      "ppp.abl.sg.masc": "detento",
+      "ppp.abl.sg.fem": "detenta",
+      "ppp.abl.sg.neut": "detento",
+      "ppp.voc.sg.masc": "detente",
+      "ppp.voc.sg.fem": "detenta",
+      "ppp.voc.sg.neut": "detentum",
+      "ppp.nom.pl.masc": "detenti",
+      "ppp.nom.pl.fem": "detentae",
+      "ppp.nom.pl.neut": "detenta",
+      "ppp.gen.pl.masc": "detentorum",
+      "ppp.gen.pl.fem": "detentarum",
+      "ppp.gen.pl.neut": "detentorum",
+      "ppp.dat.pl.masc": "detentis",
+      "ppp.dat.pl.fem": "detentis",
+      "ppp.dat.pl.neut": "detentis",
+      "ppp.acc.pl.masc": "detentos",
+      "ppp.acc.pl.fem": "detentas",
+      "ppp.acc.pl.neut": "detenta",
+      "ppp.abl.pl.masc": "detentis",
+      "ppp.abl.pl.fem": "detentis",
+      "ppp.abl.pl.neut": "detentis",
+      "ppp.voc.pl.masc": "detenti",
+      "ppp.voc.pl.fem": "detentae",
+      "ppp.voc.pl.neut": "detenta"
+    }
   }
 }

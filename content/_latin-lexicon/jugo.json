@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "juga",
       "2pl.pres.imp.act": "jugate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: jugatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "jugatus",
+      "ppp.nom.sg.fem": "jugata",
+      "ppp.nom.sg.neut": "jugatum",
+      "ppp.gen.sg.masc": "jugati",
+      "ppp.gen.sg.fem": "jugatae",
+      "ppp.gen.sg.neut": "jugati",
+      "ppp.dat.sg.masc": "jugato",
+      "ppp.dat.sg.fem": "jugatae",
+      "ppp.dat.sg.neut": "jugato",
+      "ppp.acc.sg.masc": "jugatum",
+      "ppp.acc.sg.fem": "jugatam",
+      "ppp.acc.sg.neut": "jugatum",
+      "ppp.abl.sg.masc": "jugato",
+      "ppp.abl.sg.fem": "jugata",
+      "ppp.abl.sg.neut": "jugato",
+      "ppp.voc.sg.masc": "jugate",
+      "ppp.voc.sg.fem": "jugata",
+      "ppp.voc.sg.neut": "jugatum",
+      "ppp.nom.pl.masc": "jugati",
+      "ppp.nom.pl.fem": "jugatae",
+      "ppp.nom.pl.neut": "jugata",
+      "ppp.gen.pl.masc": "jugatorum",
+      "ppp.gen.pl.fem": "jugatarum",
+      "ppp.gen.pl.neut": "jugatorum",
+      "ppp.dat.pl.masc": "jugatis",
+      "ppp.dat.pl.fem": "jugatis",
+      "ppp.dat.pl.neut": "jugatis",
+      "ppp.acc.pl.masc": "jugatos",
+      "ppp.acc.pl.fem": "jugatas",
+      "ppp.acc.pl.neut": "jugata",
+      "ppp.abl.pl.masc": "jugatis",
+      "ppp.abl.pl.fem": "jugatis",
+      "ppp.abl.pl.neut": "jugatis",
+      "ppp.voc.pl.masc": "jugati",
+      "ppp.voc.pl.fem": "jugatae",
+      "ppp.voc.pl.neut": "jugata"
+    }
   }
 }

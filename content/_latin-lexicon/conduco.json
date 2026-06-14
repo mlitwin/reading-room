@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "conduce",
       "2pl.pres.imp.act": "conducite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conductus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conductus",
+      "ppp.nom.sg.fem": "conducta",
+      "ppp.nom.sg.neut": "conductum",
+      "ppp.gen.sg.masc": "conducti",
+      "ppp.gen.sg.fem": "conductae",
+      "ppp.gen.sg.neut": "conducti",
+      "ppp.dat.sg.masc": "conducto",
+      "ppp.dat.sg.fem": "conductae",
+      "ppp.dat.sg.neut": "conducto",
+      "ppp.acc.sg.masc": "conductum",
+      "ppp.acc.sg.fem": "conductam",
+      "ppp.acc.sg.neut": "conductum",
+      "ppp.abl.sg.masc": "conducto",
+      "ppp.abl.sg.fem": "conducta",
+      "ppp.abl.sg.neut": "conducto",
+      "ppp.voc.sg.masc": "conducte",
+      "ppp.voc.sg.fem": "conducta",
+      "ppp.voc.sg.neut": "conductum",
+      "ppp.nom.pl.masc": "conducti",
+      "ppp.nom.pl.fem": "conductae",
+      "ppp.nom.pl.neut": "conducta",
+      "ppp.gen.pl.masc": "conductorum",
+      "ppp.gen.pl.fem": "conductarum",
+      "ppp.gen.pl.neut": "conductorum",
+      "ppp.dat.pl.masc": "conductis",
+      "ppp.dat.pl.fem": "conductis",
+      "ppp.dat.pl.neut": "conductis",
+      "ppp.acc.pl.masc": "conductos",
+      "ppp.acc.pl.fem": "conductas",
+      "ppp.acc.pl.neut": "conducta",
+      "ppp.abl.pl.masc": "conductis",
+      "ppp.abl.pl.fem": "conductis",
+      "ppp.abl.pl.neut": "conductis",
+      "ppp.voc.pl.masc": "conducti",
+      "ppp.voc.pl.fem": "conductae",
+      "ppp.voc.pl.neut": "conducta"
+    }
   }
 }

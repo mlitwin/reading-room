@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "naviga",
       "2pl.pres.imp.act": "navigate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: navigatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "navigatus",
+      "ppp.nom.sg.fem": "navigata",
+      "ppp.nom.sg.neut": "navigatum",
+      "ppp.gen.sg.masc": "navigati",
+      "ppp.gen.sg.fem": "navigatae",
+      "ppp.gen.sg.neut": "navigati",
+      "ppp.dat.sg.masc": "navigato",
+      "ppp.dat.sg.fem": "navigatae",
+      "ppp.dat.sg.neut": "navigato",
+      "ppp.acc.sg.masc": "navigatum",
+      "ppp.acc.sg.fem": "navigatam",
+      "ppp.acc.sg.neut": "navigatum",
+      "ppp.abl.sg.masc": "navigato",
+      "ppp.abl.sg.fem": "navigata",
+      "ppp.abl.sg.neut": "navigato",
+      "ppp.voc.sg.masc": "navigate",
+      "ppp.voc.sg.fem": "navigata",
+      "ppp.voc.sg.neut": "navigatum",
+      "ppp.nom.pl.masc": "navigati",
+      "ppp.nom.pl.fem": "navigatae",
+      "ppp.nom.pl.neut": "navigata",
+      "ppp.gen.pl.masc": "navigatorum",
+      "ppp.gen.pl.fem": "navigatarum",
+      "ppp.gen.pl.neut": "navigatorum",
+      "ppp.dat.pl.masc": "navigatis",
+      "ppp.dat.pl.fem": "navigatis",
+      "ppp.dat.pl.neut": "navigatis",
+      "ppp.acc.pl.masc": "navigatos",
+      "ppp.acc.pl.fem": "navigatas",
+      "ppp.acc.pl.neut": "navigata",
+      "ppp.abl.pl.masc": "navigatis",
+      "ppp.abl.pl.fem": "navigatis",
+      "ppp.abl.pl.neut": "navigatis",
+      "ppp.voc.pl.masc": "navigati",
+      "ppp.voc.pl.fem": "navigatae",
+      "ppp.voc.pl.neut": "navigata"
+    }
   }
 }

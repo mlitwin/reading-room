@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "perage",
       "2pl.pres.imp.act": "peragite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: peractus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "peractus",
+      "ppp.nom.sg.fem": "peracta",
+      "ppp.nom.sg.neut": "peractum",
+      "ppp.gen.sg.masc": "peracti",
+      "ppp.gen.sg.fem": "peractae",
+      "ppp.gen.sg.neut": "peracti",
+      "ppp.dat.sg.masc": "peracto",
+      "ppp.dat.sg.fem": "peractae",
+      "ppp.dat.sg.neut": "peracto",
+      "ppp.acc.sg.masc": "peractum",
+      "ppp.acc.sg.fem": "peractam",
+      "ppp.acc.sg.neut": "peractum",
+      "ppp.abl.sg.masc": "peracto",
+      "ppp.abl.sg.fem": "peracta",
+      "ppp.abl.sg.neut": "peracto",
+      "ppp.voc.sg.masc": "peracte",
+      "ppp.voc.sg.fem": "peracta",
+      "ppp.voc.sg.neut": "peractum",
+      "ppp.nom.pl.masc": "peracti",
+      "ppp.nom.pl.fem": "peractae",
+      "ppp.nom.pl.neut": "peracta",
+      "ppp.gen.pl.masc": "peractorum",
+      "ppp.gen.pl.fem": "peractarum",
+      "ppp.gen.pl.neut": "peractorum",
+      "ppp.dat.pl.masc": "peractis",
+      "ppp.dat.pl.fem": "peractis",
+      "ppp.dat.pl.neut": "peractis",
+      "ppp.acc.pl.masc": "peractos",
+      "ppp.acc.pl.fem": "peractas",
+      "ppp.acc.pl.neut": "peracta",
+      "ppp.abl.pl.masc": "peractis",
+      "ppp.abl.pl.fem": "peractis",
+      "ppp.abl.pl.neut": "peractis",
+      "ppp.voc.pl.masc": "peracti",
+      "ppp.voc.pl.fem": "peractae",
+      "ppp.voc.pl.neut": "peracta"
+    }
   }
 }

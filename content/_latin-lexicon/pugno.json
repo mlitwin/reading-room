@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "pugna",
       "2pl.pres.imp.act": "pugnate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: pugnatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "pugnatus",
+      "ppp.nom.sg.fem": "pugnata",
+      "ppp.nom.sg.neut": "pugnatum",
+      "ppp.gen.sg.masc": "pugnati",
+      "ppp.gen.sg.fem": "pugnatae",
+      "ppp.gen.sg.neut": "pugnati",
+      "ppp.dat.sg.masc": "pugnato",
+      "ppp.dat.sg.fem": "pugnatae",
+      "ppp.dat.sg.neut": "pugnato",
+      "ppp.acc.sg.masc": "pugnatum",
+      "ppp.acc.sg.fem": "pugnatam",
+      "ppp.acc.sg.neut": "pugnatum",
+      "ppp.abl.sg.masc": "pugnato",
+      "ppp.abl.sg.fem": "pugnata",
+      "ppp.abl.sg.neut": "pugnato",
+      "ppp.voc.sg.masc": "pugnate",
+      "ppp.voc.sg.fem": "pugnata",
+      "ppp.voc.sg.neut": "pugnatum",
+      "ppp.nom.pl.masc": "pugnati",
+      "ppp.nom.pl.fem": "pugnatae",
+      "ppp.nom.pl.neut": "pugnata",
+      "ppp.gen.pl.masc": "pugnatorum",
+      "ppp.gen.pl.fem": "pugnatarum",
+      "ppp.gen.pl.neut": "pugnatorum",
+      "ppp.dat.pl.masc": "pugnatis",
+      "ppp.dat.pl.fem": "pugnatis",
+      "ppp.dat.pl.neut": "pugnatis",
+      "ppp.acc.pl.masc": "pugnatos",
+      "ppp.acc.pl.fem": "pugnatas",
+      "ppp.acc.pl.neut": "pugnata",
+      "ppp.abl.pl.masc": "pugnatis",
+      "ppp.abl.pl.fem": "pugnatis",
+      "ppp.abl.pl.neut": "pugnatis",
+      "ppp.voc.pl.masc": "pugnati",
+      "ppp.voc.pl.fem": "pugnatae",
+      "ppp.voc.pl.neut": "pugnata"
+    }
   }
 }

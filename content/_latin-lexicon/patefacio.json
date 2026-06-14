@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "pateface",
       "2pl.pres.imp.act": "patefacite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: patefactus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "patefactus",
+      "ppp.nom.sg.fem": "patefacta",
+      "ppp.nom.sg.neut": "patefactum",
+      "ppp.gen.sg.masc": "patefacti",
+      "ppp.gen.sg.fem": "patefactae",
+      "ppp.gen.sg.neut": "patefacti",
+      "ppp.dat.sg.masc": "patefacto",
+      "ppp.dat.sg.fem": "patefactae",
+      "ppp.dat.sg.neut": "patefacto",
+      "ppp.acc.sg.masc": "patefactum",
+      "ppp.acc.sg.fem": "patefactam",
+      "ppp.acc.sg.neut": "patefactum",
+      "ppp.abl.sg.masc": "patefacto",
+      "ppp.abl.sg.fem": "patefacta",
+      "ppp.abl.sg.neut": "patefacto",
+      "ppp.voc.sg.masc": "patefacte",
+      "ppp.voc.sg.fem": "patefacta",
+      "ppp.voc.sg.neut": "patefactum",
+      "ppp.nom.pl.masc": "patefacti",
+      "ppp.nom.pl.fem": "patefactae",
+      "ppp.nom.pl.neut": "patefacta",
+      "ppp.gen.pl.masc": "patefactorum",
+      "ppp.gen.pl.fem": "patefactarum",
+      "ppp.gen.pl.neut": "patefactorum",
+      "ppp.dat.pl.masc": "patefactis",
+      "ppp.dat.pl.fem": "patefactis",
+      "ppp.dat.pl.neut": "patefactis",
+      "ppp.acc.pl.masc": "patefactos",
+      "ppp.acc.pl.fem": "patefactas",
+      "ppp.acc.pl.neut": "patefacta",
+      "ppp.abl.pl.masc": "patefactis",
+      "ppp.abl.pl.fem": "patefactis",
+      "ppp.abl.pl.neut": "patefactis",
+      "ppp.voc.pl.masc": "patefacti",
+      "ppp.voc.pl.fem": "patefactae",
+      "ppp.voc.pl.neut": "patefacta"
+    }
   }
 }

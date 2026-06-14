@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "ambi",
       "2pl.pres.imp.act": "ambite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ambitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ambitus",
+      "ppp.nom.sg.fem": "ambita",
+      "ppp.nom.sg.neut": "ambitum",
+      "ppp.gen.sg.masc": "ambiti",
+      "ppp.gen.sg.fem": "ambitae",
+      "ppp.gen.sg.neut": "ambiti",
+      "ppp.dat.sg.masc": "ambito",
+      "ppp.dat.sg.fem": "ambitae",
+      "ppp.dat.sg.neut": "ambito",
+      "ppp.acc.sg.masc": "ambitum",
+      "ppp.acc.sg.fem": "ambitam",
+      "ppp.acc.sg.neut": "ambitum",
+      "ppp.abl.sg.masc": "ambito",
+      "ppp.abl.sg.fem": "ambita",
+      "ppp.abl.sg.neut": "ambito",
+      "ppp.voc.sg.masc": "ambite",
+      "ppp.voc.sg.fem": "ambita",
+      "ppp.voc.sg.neut": "ambitum",
+      "ppp.nom.pl.masc": "ambiti",
+      "ppp.nom.pl.fem": "ambitae",
+      "ppp.nom.pl.neut": "ambita",
+      "ppp.gen.pl.masc": "ambitorum",
+      "ppp.gen.pl.fem": "ambitarum",
+      "ppp.gen.pl.neut": "ambitorum",
+      "ppp.dat.pl.masc": "ambitis",
+      "ppp.dat.pl.fem": "ambitis",
+      "ppp.dat.pl.neut": "ambitis",
+      "ppp.acc.pl.masc": "ambitos",
+      "ppp.acc.pl.fem": "ambitas",
+      "ppp.acc.pl.neut": "ambita",
+      "ppp.abl.pl.masc": "ambitis",
+      "ppp.abl.pl.fem": "ambitis",
+      "ppp.abl.pl.neut": "ambitis",
+      "ppp.voc.pl.masc": "ambiti",
+      "ppp.voc.pl.fem": "ambitae",
+      "ppp.voc.pl.neut": "ambita"
+    }
   }
 }

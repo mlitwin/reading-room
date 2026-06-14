@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "spera",
       "2pl.pres.imp.act": "sperate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: speratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "speratus",
+      "ppp.nom.sg.fem": "sperata",
+      "ppp.nom.sg.neut": "speratum",
+      "ppp.gen.sg.masc": "sperati",
+      "ppp.gen.sg.fem": "speratae",
+      "ppp.gen.sg.neut": "sperati",
+      "ppp.dat.sg.masc": "sperato",
+      "ppp.dat.sg.fem": "speratae",
+      "ppp.dat.sg.neut": "sperato",
+      "ppp.acc.sg.masc": "speratum",
+      "ppp.acc.sg.fem": "speratam",
+      "ppp.acc.sg.neut": "speratum",
+      "ppp.abl.sg.masc": "sperato",
+      "ppp.abl.sg.fem": "sperata",
+      "ppp.abl.sg.neut": "sperato",
+      "ppp.voc.sg.masc": "sperate",
+      "ppp.voc.sg.fem": "sperata",
+      "ppp.voc.sg.neut": "speratum",
+      "ppp.nom.pl.masc": "sperati",
+      "ppp.nom.pl.fem": "speratae",
+      "ppp.nom.pl.neut": "sperata",
+      "ppp.gen.pl.masc": "speratorum",
+      "ppp.gen.pl.fem": "speratarum",
+      "ppp.gen.pl.neut": "speratorum",
+      "ppp.dat.pl.masc": "speratis",
+      "ppp.dat.pl.fem": "speratis",
+      "ppp.dat.pl.neut": "speratis",
+      "ppp.acc.pl.masc": "speratos",
+      "ppp.acc.pl.fem": "speratas",
+      "ppp.acc.pl.neut": "sperata",
+      "ppp.abl.pl.masc": "speratis",
+      "ppp.abl.pl.fem": "speratis",
+      "ppp.abl.pl.neut": "speratis",
+      "ppp.voc.pl.masc": "sperati",
+      "ppp.voc.pl.fem": "speratae",
+      "ppp.voc.pl.neut": "sperata"
+    }
   }
 }

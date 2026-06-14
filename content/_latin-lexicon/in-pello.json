@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "pelle",
       "2pl.pres.imp.act": "pellite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: pulsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "pulsus",
+      "ppp.nom.sg.fem": "pulsa",
+      "ppp.nom.sg.neut": "pulsum",
+      "ppp.gen.sg.masc": "pulsi",
+      "ppp.gen.sg.fem": "pulsae",
+      "ppp.gen.sg.neut": "pulsi",
+      "ppp.dat.sg.masc": "pulso",
+      "ppp.dat.sg.fem": "pulsae",
+      "ppp.dat.sg.neut": "pulso",
+      "ppp.acc.sg.masc": "pulsum",
+      "ppp.acc.sg.fem": "pulsam",
+      "ppp.acc.sg.neut": "pulsum",
+      "ppp.abl.sg.masc": "pulso",
+      "ppp.abl.sg.fem": "pulsa",
+      "ppp.abl.sg.neut": "pulso",
+      "ppp.voc.sg.masc": "pulse",
+      "ppp.voc.sg.fem": "pulsa",
+      "ppp.voc.sg.neut": "pulsum",
+      "ppp.nom.pl.masc": "pulsi",
+      "ppp.nom.pl.fem": "pulsae",
+      "ppp.nom.pl.neut": "pulsa",
+      "ppp.gen.pl.masc": "pulsorum",
+      "ppp.gen.pl.fem": "pulsarum",
+      "ppp.gen.pl.neut": "pulsorum",
+      "ppp.dat.pl.masc": "pulsis",
+      "ppp.dat.pl.fem": "pulsis",
+      "ppp.dat.pl.neut": "pulsis",
+      "ppp.acc.pl.masc": "pulsos",
+      "ppp.acc.pl.fem": "pulsas",
+      "ppp.acc.pl.neut": "pulsa",
+      "ppp.abl.pl.masc": "pulsis",
+      "ppp.abl.pl.fem": "pulsis",
+      "ppp.abl.pl.neut": "pulsis",
+      "ppp.voc.pl.masc": "pulsi",
+      "ppp.voc.pl.fem": "pulsae",
+      "ppp.voc.pl.neut": "pulsa"
+    }
   }
 }

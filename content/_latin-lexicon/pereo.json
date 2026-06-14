@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "peri",
       "2pl.pres.imp.act": "perite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: peritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "peritus",
+      "ppp.nom.sg.fem": "perita",
+      "ppp.nom.sg.neut": "peritum",
+      "ppp.gen.sg.masc": "periti",
+      "ppp.gen.sg.fem": "peritae",
+      "ppp.gen.sg.neut": "periti",
+      "ppp.dat.sg.masc": "perito",
+      "ppp.dat.sg.fem": "peritae",
+      "ppp.dat.sg.neut": "perito",
+      "ppp.acc.sg.masc": "peritum",
+      "ppp.acc.sg.fem": "peritam",
+      "ppp.acc.sg.neut": "peritum",
+      "ppp.abl.sg.masc": "perito",
+      "ppp.abl.sg.fem": "perita",
+      "ppp.abl.sg.neut": "perito",
+      "ppp.voc.sg.masc": "perite",
+      "ppp.voc.sg.fem": "perita",
+      "ppp.voc.sg.neut": "peritum",
+      "ppp.nom.pl.masc": "periti",
+      "ppp.nom.pl.fem": "peritae",
+      "ppp.nom.pl.neut": "perita",
+      "ppp.gen.pl.masc": "peritorum",
+      "ppp.gen.pl.fem": "peritarum",
+      "ppp.gen.pl.neut": "peritorum",
+      "ppp.dat.pl.masc": "peritis",
+      "ppp.dat.pl.fem": "peritis",
+      "ppp.dat.pl.neut": "peritis",
+      "ppp.acc.pl.masc": "peritos",
+      "ppp.acc.pl.fem": "peritas",
+      "ppp.acc.pl.neut": "perita",
+      "ppp.abl.pl.masc": "peritis",
+      "ppp.abl.pl.fem": "peritis",
+      "ppp.abl.pl.neut": "peritis",
+      "ppp.voc.pl.masc": "periti",
+      "ppp.voc.pl.fem": "peritae",
+      "ppp.voc.pl.neut": "perita"
+    }
   }
 }

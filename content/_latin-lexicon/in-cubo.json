@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "cuba",
       "2pl.pres.imp.act": "cubate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cubitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cubitus",
+      "ppp.nom.sg.fem": "cubita",
+      "ppp.nom.sg.neut": "cubitum",
+      "ppp.gen.sg.masc": "cubiti",
+      "ppp.gen.sg.fem": "cubitae",
+      "ppp.gen.sg.neut": "cubiti",
+      "ppp.dat.sg.masc": "cubito",
+      "ppp.dat.sg.fem": "cubitae",
+      "ppp.dat.sg.neut": "cubito",
+      "ppp.acc.sg.masc": "cubitum",
+      "ppp.acc.sg.fem": "cubitam",
+      "ppp.acc.sg.neut": "cubitum",
+      "ppp.abl.sg.masc": "cubito",
+      "ppp.abl.sg.fem": "cubita",
+      "ppp.abl.sg.neut": "cubito",
+      "ppp.voc.sg.masc": "cubite",
+      "ppp.voc.sg.fem": "cubita",
+      "ppp.voc.sg.neut": "cubitum",
+      "ppp.nom.pl.masc": "cubiti",
+      "ppp.nom.pl.fem": "cubitae",
+      "ppp.nom.pl.neut": "cubita",
+      "ppp.gen.pl.masc": "cubitorum",
+      "ppp.gen.pl.fem": "cubitarum",
+      "ppp.gen.pl.neut": "cubitorum",
+      "ppp.dat.pl.masc": "cubitis",
+      "ppp.dat.pl.fem": "cubitis",
+      "ppp.dat.pl.neut": "cubitis",
+      "ppp.acc.pl.masc": "cubitos",
+      "ppp.acc.pl.fem": "cubitas",
+      "ppp.acc.pl.neut": "cubita",
+      "ppp.abl.pl.masc": "cubitis",
+      "ppp.abl.pl.fem": "cubitis",
+      "ppp.abl.pl.neut": "cubitis",
+      "ppp.voc.pl.masc": "cubiti",
+      "ppp.voc.pl.fem": "cubitae",
+      "ppp.voc.pl.neut": "cubita"
+    }
   }
 }

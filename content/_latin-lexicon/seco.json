@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "seca",
       "2pl.pres.imp.act": "secate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: secatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "secatus",
+      "ppp.nom.sg.fem": "secata",
+      "ppp.nom.sg.neut": "secatum",
+      "ppp.gen.sg.masc": "secati",
+      "ppp.gen.sg.fem": "secatae",
+      "ppp.gen.sg.neut": "secati",
+      "ppp.dat.sg.masc": "secato",
+      "ppp.dat.sg.fem": "secatae",
+      "ppp.dat.sg.neut": "secato",
+      "ppp.acc.sg.masc": "secatum",
+      "ppp.acc.sg.fem": "secatam",
+      "ppp.acc.sg.neut": "secatum",
+      "ppp.abl.sg.masc": "secato",
+      "ppp.abl.sg.fem": "secata",
+      "ppp.abl.sg.neut": "secato",
+      "ppp.voc.sg.masc": "secate",
+      "ppp.voc.sg.fem": "secata",
+      "ppp.voc.sg.neut": "secatum",
+      "ppp.nom.pl.masc": "secati",
+      "ppp.nom.pl.fem": "secatae",
+      "ppp.nom.pl.neut": "secata",
+      "ppp.gen.pl.masc": "secatorum",
+      "ppp.gen.pl.fem": "secatarum",
+      "ppp.gen.pl.neut": "secatorum",
+      "ppp.dat.pl.masc": "secatis",
+      "ppp.dat.pl.fem": "secatis",
+      "ppp.dat.pl.neut": "secatis",
+      "ppp.acc.pl.masc": "secatos",
+      "ppp.acc.pl.fem": "secatas",
+      "ppp.acc.pl.neut": "secata",
+      "ppp.abl.pl.masc": "secatis",
+      "ppp.abl.pl.fem": "secatis",
+      "ppp.abl.pl.neut": "secatis",
+      "ppp.voc.pl.masc": "secati",
+      "ppp.voc.pl.fem": "secatae",
+      "ppp.voc.pl.neut": "secata"
+    }
   }
 }

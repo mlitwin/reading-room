@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "foeda",
       "2pl.pres.imp.act": "foedate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: foedatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "foedatus",
+      "ppp.nom.sg.fem": "foedata",
+      "ppp.nom.sg.neut": "foedatum",
+      "ppp.gen.sg.masc": "foedati",
+      "ppp.gen.sg.fem": "foedatae",
+      "ppp.gen.sg.neut": "foedati",
+      "ppp.dat.sg.masc": "foedato",
+      "ppp.dat.sg.fem": "foedatae",
+      "ppp.dat.sg.neut": "foedato",
+      "ppp.acc.sg.masc": "foedatum",
+      "ppp.acc.sg.fem": "foedatam",
+      "ppp.acc.sg.neut": "foedatum",
+      "ppp.abl.sg.masc": "foedato",
+      "ppp.abl.sg.fem": "foedata",
+      "ppp.abl.sg.neut": "foedato",
+      "ppp.voc.sg.masc": "foedate",
+      "ppp.voc.sg.fem": "foedata",
+      "ppp.voc.sg.neut": "foedatum",
+      "ppp.nom.pl.masc": "foedati",
+      "ppp.nom.pl.fem": "foedatae",
+      "ppp.nom.pl.neut": "foedata",
+      "ppp.gen.pl.masc": "foedatorum",
+      "ppp.gen.pl.fem": "foedatarum",
+      "ppp.gen.pl.neut": "foedatorum",
+      "ppp.dat.pl.masc": "foedatis",
+      "ppp.dat.pl.fem": "foedatis",
+      "ppp.dat.pl.neut": "foedatis",
+      "ppp.acc.pl.masc": "foedatos",
+      "ppp.acc.pl.fem": "foedatas",
+      "ppp.acc.pl.neut": "foedata",
+      "ppp.abl.pl.masc": "foedatis",
+      "ppp.abl.pl.fem": "foedatis",
+      "ppp.abl.pl.neut": "foedatis",
+      "ppp.voc.pl.masc": "foedati",
+      "ppp.voc.pl.fem": "foedatae",
+      "ppp.voc.pl.neut": "foedata"
+    }
   }
 }

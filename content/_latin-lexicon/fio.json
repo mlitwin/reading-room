@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "fi",
       "2pl.pres.imp.act": "fite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: factus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "factus",
+      "ppp.nom.sg.fem": "facta",
+      "ppp.nom.sg.neut": "factum",
+      "ppp.gen.sg.masc": "facti",
+      "ppp.gen.sg.fem": "factae",
+      "ppp.gen.sg.neut": "facti",
+      "ppp.dat.sg.masc": "facto",
+      "ppp.dat.sg.fem": "factae",
+      "ppp.dat.sg.neut": "facto",
+      "ppp.acc.sg.masc": "factum",
+      "ppp.acc.sg.fem": "factam",
+      "ppp.acc.sg.neut": "factum",
+      "ppp.abl.sg.masc": "facto",
+      "ppp.abl.sg.fem": "facta",
+      "ppp.abl.sg.neut": "facto",
+      "ppp.voc.sg.masc": "facte",
+      "ppp.voc.sg.fem": "facta",
+      "ppp.voc.sg.neut": "factum",
+      "ppp.nom.pl.masc": "facti",
+      "ppp.nom.pl.fem": "factae",
+      "ppp.nom.pl.neut": "facta",
+      "ppp.gen.pl.masc": "factorum",
+      "ppp.gen.pl.fem": "factarum",
+      "ppp.gen.pl.neut": "factorum",
+      "ppp.dat.pl.masc": "factis",
+      "ppp.dat.pl.fem": "factis",
+      "ppp.dat.pl.neut": "factis",
+      "ppp.acc.pl.masc": "factos",
+      "ppp.acc.pl.fem": "factas",
+      "ppp.acc.pl.neut": "facta",
+      "ppp.abl.pl.masc": "factis",
+      "ppp.abl.pl.fem": "factis",
+      "ppp.abl.pl.neut": "factis",
+      "ppp.voc.pl.masc": "facti",
+      "ppp.voc.pl.fem": "factae",
+      "ppp.voc.pl.neut": "facta"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "exime",
       "2pl.pres.imp.act": "eximite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exemptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exemptus",
+      "ppp.nom.sg.fem": "exempta",
+      "ppp.nom.sg.neut": "exemptum",
+      "ppp.gen.sg.masc": "exempti",
+      "ppp.gen.sg.fem": "exemptae",
+      "ppp.gen.sg.neut": "exempti",
+      "ppp.dat.sg.masc": "exempto",
+      "ppp.dat.sg.fem": "exemptae",
+      "ppp.dat.sg.neut": "exempto",
+      "ppp.acc.sg.masc": "exemptum",
+      "ppp.acc.sg.fem": "exemptam",
+      "ppp.acc.sg.neut": "exemptum",
+      "ppp.abl.sg.masc": "exempto",
+      "ppp.abl.sg.fem": "exempta",
+      "ppp.abl.sg.neut": "exempto",
+      "ppp.voc.sg.masc": "exempte",
+      "ppp.voc.sg.fem": "exempta",
+      "ppp.voc.sg.neut": "exemptum",
+      "ppp.nom.pl.masc": "exempti",
+      "ppp.nom.pl.fem": "exemptae",
+      "ppp.nom.pl.neut": "exempta",
+      "ppp.gen.pl.masc": "exemptorum",
+      "ppp.gen.pl.fem": "exemptarum",
+      "ppp.gen.pl.neut": "exemptorum",
+      "ppp.dat.pl.masc": "exemptis",
+      "ppp.dat.pl.fem": "exemptis",
+      "ppp.dat.pl.neut": "exemptis",
+      "ppp.acc.pl.masc": "exemptos",
+      "ppp.acc.pl.fem": "exemptas",
+      "ppp.acc.pl.neut": "exempta",
+      "ppp.abl.pl.masc": "exemptis",
+      "ppp.abl.pl.fem": "exemptis",
+      "ppp.abl.pl.neut": "exemptis",
+      "ppp.voc.pl.masc": "exempti",
+      "ppp.voc.pl.fem": "exemptae",
+      "ppp.voc.pl.neut": "exempta"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "adole",
       "2pl.pres.imp.act": "adolete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: adolultus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "adolultus",
+      "ppp.nom.sg.fem": "adolulta",
+      "ppp.nom.sg.neut": "adolultum",
+      "ppp.gen.sg.masc": "adolulti",
+      "ppp.gen.sg.fem": "adolultae",
+      "ppp.gen.sg.neut": "adolulti",
+      "ppp.dat.sg.masc": "adolulto",
+      "ppp.dat.sg.fem": "adolultae",
+      "ppp.dat.sg.neut": "adolulto",
+      "ppp.acc.sg.masc": "adolultum",
+      "ppp.acc.sg.fem": "adolultam",
+      "ppp.acc.sg.neut": "adolultum",
+      "ppp.abl.sg.masc": "adolulto",
+      "ppp.abl.sg.fem": "adolulta",
+      "ppp.abl.sg.neut": "adolulto",
+      "ppp.voc.sg.masc": "adolulte",
+      "ppp.voc.sg.fem": "adolulta",
+      "ppp.voc.sg.neut": "adolultum",
+      "ppp.nom.pl.masc": "adolulti",
+      "ppp.nom.pl.fem": "adolultae",
+      "ppp.nom.pl.neut": "adolulta",
+      "ppp.gen.pl.masc": "adolultorum",
+      "ppp.gen.pl.fem": "adolultarum",
+      "ppp.gen.pl.neut": "adolultorum",
+      "ppp.dat.pl.masc": "adolultis",
+      "ppp.dat.pl.fem": "adolultis",
+      "ppp.dat.pl.neut": "adolultis",
+      "ppp.acc.pl.masc": "adolultos",
+      "ppp.acc.pl.fem": "adolultas",
+      "ppp.acc.pl.neut": "adolulta",
+      "ppp.abl.pl.masc": "adolultis",
+      "ppp.abl.pl.fem": "adolultis",
+      "ppp.abl.pl.neut": "adolultis",
+      "ppp.voc.pl.masc": "adolulti",
+      "ppp.voc.pl.fem": "adolultae",
+      "ppp.voc.pl.neut": "adolulta"
+    }
   }
 }

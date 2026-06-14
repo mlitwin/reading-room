@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "ute",
       "2pl.pres.imp.act": "utite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: usus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "usus",
+      "ppp.nom.sg.fem": "usa",
+      "ppp.nom.sg.neut": "usum",
+      "ppp.gen.sg.masc": "usi",
+      "ppp.gen.sg.fem": "usae",
+      "ppp.gen.sg.neut": "usi",
+      "ppp.dat.sg.masc": "uso",
+      "ppp.dat.sg.fem": "usae",
+      "ppp.dat.sg.neut": "uso",
+      "ppp.acc.sg.masc": "usum",
+      "ppp.acc.sg.fem": "usam",
+      "ppp.acc.sg.neut": "usum",
+      "ppp.abl.sg.masc": "uso",
+      "ppp.abl.sg.fem": "usa",
+      "ppp.abl.sg.neut": "uso",
+      "ppp.voc.sg.masc": "use",
+      "ppp.voc.sg.fem": "usa",
+      "ppp.voc.sg.neut": "usum",
+      "ppp.nom.pl.masc": "usi",
+      "ppp.nom.pl.fem": "usae",
+      "ppp.nom.pl.neut": "usa",
+      "ppp.gen.pl.masc": "usorum",
+      "ppp.gen.pl.fem": "usarum",
+      "ppp.gen.pl.neut": "usorum",
+      "ppp.dat.pl.masc": "usis",
+      "ppp.dat.pl.fem": "usis",
+      "ppp.dat.pl.neut": "usis",
+      "ppp.acc.pl.masc": "usos",
+      "ppp.acc.pl.fem": "usas",
+      "ppp.acc.pl.neut": "usa",
+      "ppp.abl.pl.masc": "usis",
+      "ppp.abl.pl.fem": "usis",
+      "ppp.abl.pl.neut": "usis",
+      "ppp.voc.pl.masc": "usi",
+      "ppp.voc.pl.fem": "usae",
+      "ppp.voc.pl.neut": "usa"
+    }
   }
 }

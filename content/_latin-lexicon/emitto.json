@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "emitte",
       "2pl.pres.imp.act": "emittite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: emissus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "emissus",
+      "ppp.nom.sg.fem": "emissa",
+      "ppp.nom.sg.neut": "emissum",
+      "ppp.gen.sg.masc": "emissi",
+      "ppp.gen.sg.fem": "emissae",
+      "ppp.gen.sg.neut": "emissi",
+      "ppp.dat.sg.masc": "emisso",
+      "ppp.dat.sg.fem": "emissae",
+      "ppp.dat.sg.neut": "emisso",
+      "ppp.acc.sg.masc": "emissum",
+      "ppp.acc.sg.fem": "emissam",
+      "ppp.acc.sg.neut": "emissum",
+      "ppp.abl.sg.masc": "emisso",
+      "ppp.abl.sg.fem": "emissa",
+      "ppp.abl.sg.neut": "emisso",
+      "ppp.voc.sg.masc": "emisse",
+      "ppp.voc.sg.fem": "emissa",
+      "ppp.voc.sg.neut": "emissum",
+      "ppp.nom.pl.masc": "emissi",
+      "ppp.nom.pl.fem": "emissae",
+      "ppp.nom.pl.neut": "emissa",
+      "ppp.gen.pl.masc": "emissorum",
+      "ppp.gen.pl.fem": "emissarum",
+      "ppp.gen.pl.neut": "emissorum",
+      "ppp.dat.pl.masc": "emissis",
+      "ppp.dat.pl.fem": "emissis",
+      "ppp.dat.pl.neut": "emissis",
+      "ppp.acc.pl.masc": "emissos",
+      "ppp.acc.pl.fem": "emissas",
+      "ppp.acc.pl.neut": "emissa",
+      "ppp.abl.pl.masc": "emissis",
+      "ppp.abl.pl.fem": "emissis",
+      "ppp.abl.pl.neut": "emissis",
+      "ppp.voc.pl.masc": "emissi",
+      "ppp.voc.pl.fem": "emissae",
+      "ppp.voc.pl.neut": "emissa"
+    }
   }
 }

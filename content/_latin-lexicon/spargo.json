@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "sparge",
       "2pl.pres.imp.act": "spargite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sparsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sparsus",
+      "ppp.nom.sg.fem": "sparsa",
+      "ppp.nom.sg.neut": "sparsum",
+      "ppp.gen.sg.masc": "sparsi",
+      "ppp.gen.sg.fem": "sparsae",
+      "ppp.gen.sg.neut": "sparsi",
+      "ppp.dat.sg.masc": "sparso",
+      "ppp.dat.sg.fem": "sparsae",
+      "ppp.dat.sg.neut": "sparso",
+      "ppp.acc.sg.masc": "sparsum",
+      "ppp.acc.sg.fem": "sparsam",
+      "ppp.acc.sg.neut": "sparsum",
+      "ppp.abl.sg.masc": "sparso",
+      "ppp.abl.sg.fem": "sparsa",
+      "ppp.abl.sg.neut": "sparso",
+      "ppp.voc.sg.masc": "sparse",
+      "ppp.voc.sg.fem": "sparsa",
+      "ppp.voc.sg.neut": "sparsum",
+      "ppp.nom.pl.masc": "sparsi",
+      "ppp.nom.pl.fem": "sparsae",
+      "ppp.nom.pl.neut": "sparsa",
+      "ppp.gen.pl.masc": "sparsorum",
+      "ppp.gen.pl.fem": "sparsarum",
+      "ppp.gen.pl.neut": "sparsorum",
+      "ppp.dat.pl.masc": "sparsis",
+      "ppp.dat.pl.fem": "sparsis",
+      "ppp.dat.pl.neut": "sparsis",
+      "ppp.acc.pl.masc": "sparsos",
+      "ppp.acc.pl.fem": "sparsas",
+      "ppp.acc.pl.neut": "sparsa",
+      "ppp.abl.pl.masc": "sparsis",
+      "ppp.abl.pl.fem": "sparsis",
+      "ppp.abl.pl.neut": "sparsis",
+      "ppp.voc.pl.masc": "sparsi",
+      "ppp.voc.pl.fem": "sparsae",
+      "ppp.voc.pl.neut": "sparsa"
+    }
   }
 }

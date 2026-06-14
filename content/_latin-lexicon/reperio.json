@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "reperi",
       "2pl.pres.imp.act": "reperite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: repertus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "repertus",
+      "ppp.nom.sg.fem": "reperta",
+      "ppp.nom.sg.neut": "repertum",
+      "ppp.gen.sg.masc": "reperti",
+      "ppp.gen.sg.fem": "repertae",
+      "ppp.gen.sg.neut": "reperti",
+      "ppp.dat.sg.masc": "reperto",
+      "ppp.dat.sg.fem": "repertae",
+      "ppp.dat.sg.neut": "reperto",
+      "ppp.acc.sg.masc": "repertum",
+      "ppp.acc.sg.fem": "repertam",
+      "ppp.acc.sg.neut": "repertum",
+      "ppp.abl.sg.masc": "reperto",
+      "ppp.abl.sg.fem": "reperta",
+      "ppp.abl.sg.neut": "reperto",
+      "ppp.voc.sg.masc": "reperte",
+      "ppp.voc.sg.fem": "reperta",
+      "ppp.voc.sg.neut": "repertum",
+      "ppp.nom.pl.masc": "reperti",
+      "ppp.nom.pl.fem": "repertae",
+      "ppp.nom.pl.neut": "reperta",
+      "ppp.gen.pl.masc": "repertorum",
+      "ppp.gen.pl.fem": "repertarum",
+      "ppp.gen.pl.neut": "repertorum",
+      "ppp.dat.pl.masc": "repertis",
+      "ppp.dat.pl.fem": "repertis",
+      "ppp.dat.pl.neut": "repertis",
+      "ppp.acc.pl.masc": "repertos",
+      "ppp.acc.pl.fem": "repertas",
+      "ppp.acc.pl.neut": "reperta",
+      "ppp.abl.pl.masc": "repertis",
+      "ppp.abl.pl.fem": "repertis",
+      "ppp.abl.pl.neut": "repertis",
+      "ppp.voc.pl.masc": "reperti",
+      "ppp.voc.pl.fem": "repertae",
+      "ppp.voc.pl.neut": "reperta"
+    }
   }
 }

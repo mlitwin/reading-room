@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "puta",
       "2pl.pres.imp.act": "putate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: putatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "putatus",
+      "ppp.nom.sg.fem": "putata",
+      "ppp.nom.sg.neut": "putatum",
+      "ppp.gen.sg.masc": "putati",
+      "ppp.gen.sg.fem": "putatae",
+      "ppp.gen.sg.neut": "putati",
+      "ppp.dat.sg.masc": "putato",
+      "ppp.dat.sg.fem": "putatae",
+      "ppp.dat.sg.neut": "putato",
+      "ppp.acc.sg.masc": "putatum",
+      "ppp.acc.sg.fem": "putatam",
+      "ppp.acc.sg.neut": "putatum",
+      "ppp.abl.sg.masc": "putato",
+      "ppp.abl.sg.fem": "putata",
+      "ppp.abl.sg.neut": "putato",
+      "ppp.voc.sg.masc": "putate",
+      "ppp.voc.sg.fem": "putata",
+      "ppp.voc.sg.neut": "putatum",
+      "ppp.nom.pl.masc": "putati",
+      "ppp.nom.pl.fem": "putatae",
+      "ppp.nom.pl.neut": "putata",
+      "ppp.gen.pl.masc": "putatorum",
+      "ppp.gen.pl.fem": "putatarum",
+      "ppp.gen.pl.neut": "putatorum",
+      "ppp.dat.pl.masc": "putatis",
+      "ppp.dat.pl.fem": "putatis",
+      "ppp.dat.pl.neut": "putatis",
+      "ppp.acc.pl.masc": "putatos",
+      "ppp.acc.pl.fem": "putatas",
+      "ppp.acc.pl.neut": "putata",
+      "ppp.abl.pl.masc": "putatis",
+      "ppp.abl.pl.fem": "putatis",
+      "ppp.abl.pl.neut": "putatis",
+      "ppp.voc.pl.masc": "putati",
+      "ppp.voc.pl.fem": "putatae",
+      "ppp.voc.pl.neut": "putata"
+    }
   }
 }

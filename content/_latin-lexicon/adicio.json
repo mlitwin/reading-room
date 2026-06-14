@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "adice",
       "2pl.pres.imp.act": "adicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: adjectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "adjectus",
+      "ppp.nom.sg.fem": "adjecta",
+      "ppp.nom.sg.neut": "adjectum",
+      "ppp.gen.sg.masc": "adjecti",
+      "ppp.gen.sg.fem": "adjectae",
+      "ppp.gen.sg.neut": "adjecti",
+      "ppp.dat.sg.masc": "adjecto",
+      "ppp.dat.sg.fem": "adjectae",
+      "ppp.dat.sg.neut": "adjecto",
+      "ppp.acc.sg.masc": "adjectum",
+      "ppp.acc.sg.fem": "adjectam",
+      "ppp.acc.sg.neut": "adjectum",
+      "ppp.abl.sg.masc": "adjecto",
+      "ppp.abl.sg.fem": "adjecta",
+      "ppp.abl.sg.neut": "adjecto",
+      "ppp.voc.sg.masc": "adjecte",
+      "ppp.voc.sg.fem": "adjecta",
+      "ppp.voc.sg.neut": "adjectum",
+      "ppp.nom.pl.masc": "adjecti",
+      "ppp.nom.pl.fem": "adjectae",
+      "ppp.nom.pl.neut": "adjecta",
+      "ppp.gen.pl.masc": "adjectorum",
+      "ppp.gen.pl.fem": "adjectarum",
+      "ppp.gen.pl.neut": "adjectorum",
+      "ppp.dat.pl.masc": "adjectis",
+      "ppp.dat.pl.fem": "adjectis",
+      "ppp.dat.pl.neut": "adjectis",
+      "ppp.acc.pl.masc": "adjectos",
+      "ppp.acc.pl.fem": "adjectas",
+      "ppp.acc.pl.neut": "adjecta",
+      "ppp.abl.pl.masc": "adjectis",
+      "ppp.abl.pl.fem": "adjectis",
+      "ppp.abl.pl.neut": "adjectis",
+      "ppp.voc.pl.masc": "adjecti",
+      "ppp.voc.pl.fem": "adjectae",
+      "ppp.voc.pl.neut": "adjecta"
+    }
   }
 }

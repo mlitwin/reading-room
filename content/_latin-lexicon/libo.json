@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "liba",
       "2pl.pres.imp.act": "libate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: libatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "libatus",
+      "ppp.nom.sg.fem": "libata",
+      "ppp.nom.sg.neut": "libatum",
+      "ppp.gen.sg.masc": "libati",
+      "ppp.gen.sg.fem": "libatae",
+      "ppp.gen.sg.neut": "libati",
+      "ppp.dat.sg.masc": "libato",
+      "ppp.dat.sg.fem": "libatae",
+      "ppp.dat.sg.neut": "libato",
+      "ppp.acc.sg.masc": "libatum",
+      "ppp.acc.sg.fem": "libatam",
+      "ppp.acc.sg.neut": "libatum",
+      "ppp.abl.sg.masc": "libato",
+      "ppp.abl.sg.fem": "libata",
+      "ppp.abl.sg.neut": "libato",
+      "ppp.voc.sg.masc": "libate",
+      "ppp.voc.sg.fem": "libata",
+      "ppp.voc.sg.neut": "libatum",
+      "ppp.nom.pl.masc": "libati",
+      "ppp.nom.pl.fem": "libatae",
+      "ppp.nom.pl.neut": "libata",
+      "ppp.gen.pl.masc": "libatorum",
+      "ppp.gen.pl.fem": "libatarum",
+      "ppp.gen.pl.neut": "libatorum",
+      "ppp.dat.pl.masc": "libatis",
+      "ppp.dat.pl.fem": "libatis",
+      "ppp.dat.pl.neut": "libatis",
+      "ppp.acc.pl.masc": "libatos",
+      "ppp.acc.pl.fem": "libatas",
+      "ppp.acc.pl.neut": "libata",
+      "ppp.abl.pl.masc": "libatis",
+      "ppp.abl.pl.fem": "libatis",
+      "ppp.abl.pl.neut": "libatis",
+      "ppp.voc.pl.masc": "libati",
+      "ppp.voc.pl.fem": "libatae",
+      "ppp.voc.pl.neut": "libata"
+    }
   }
 }

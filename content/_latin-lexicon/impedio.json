@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "impedi",
       "2pl.pres.imp.act": "impedite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: impeditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "impeditus",
+      "ppp.nom.sg.fem": "impedita",
+      "ppp.nom.sg.neut": "impeditum",
+      "ppp.gen.sg.masc": "impediti",
+      "ppp.gen.sg.fem": "impeditae",
+      "ppp.gen.sg.neut": "impediti",
+      "ppp.dat.sg.masc": "impedito",
+      "ppp.dat.sg.fem": "impeditae",
+      "ppp.dat.sg.neut": "impedito",
+      "ppp.acc.sg.masc": "impeditum",
+      "ppp.acc.sg.fem": "impeditam",
+      "ppp.acc.sg.neut": "impeditum",
+      "ppp.abl.sg.masc": "impedito",
+      "ppp.abl.sg.fem": "impedita",
+      "ppp.abl.sg.neut": "impedito",
+      "ppp.voc.sg.masc": "impedite",
+      "ppp.voc.sg.fem": "impedita",
+      "ppp.voc.sg.neut": "impeditum",
+      "ppp.nom.pl.masc": "impediti",
+      "ppp.nom.pl.fem": "impeditae",
+      "ppp.nom.pl.neut": "impedita",
+      "ppp.gen.pl.masc": "impeditorum",
+      "ppp.gen.pl.fem": "impeditarum",
+      "ppp.gen.pl.neut": "impeditorum",
+      "ppp.dat.pl.masc": "impeditis",
+      "ppp.dat.pl.fem": "impeditis",
+      "ppp.dat.pl.neut": "impeditis",
+      "ppp.acc.pl.masc": "impeditos",
+      "ppp.acc.pl.fem": "impeditas",
+      "ppp.acc.pl.neut": "impedita",
+      "ppp.abl.pl.masc": "impeditis",
+      "ppp.abl.pl.fem": "impeditis",
+      "ppp.abl.pl.neut": "impeditis",
+      "ppp.voc.pl.masc": "impediti",
+      "ppp.voc.pl.fem": "impeditae",
+      "ppp.voc.pl.neut": "impedita"
+    }
   }
 }

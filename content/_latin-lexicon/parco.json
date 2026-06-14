@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "parce",
       "2pl.pres.imp.act": "parcite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: parsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "parsus",
+      "ppp.nom.sg.fem": "parsa",
+      "ppp.nom.sg.neut": "parsum",
+      "ppp.gen.sg.masc": "parsi",
+      "ppp.gen.sg.fem": "parsae",
+      "ppp.gen.sg.neut": "parsi",
+      "ppp.dat.sg.masc": "parso",
+      "ppp.dat.sg.fem": "parsae",
+      "ppp.dat.sg.neut": "parso",
+      "ppp.acc.sg.masc": "parsum",
+      "ppp.acc.sg.fem": "parsam",
+      "ppp.acc.sg.neut": "parsum",
+      "ppp.abl.sg.masc": "parso",
+      "ppp.abl.sg.fem": "parsa",
+      "ppp.abl.sg.neut": "parso",
+      "ppp.voc.sg.masc": "parse",
+      "ppp.voc.sg.fem": "parsa",
+      "ppp.voc.sg.neut": "parsum",
+      "ppp.nom.pl.masc": "parsi",
+      "ppp.nom.pl.fem": "parsae",
+      "ppp.nom.pl.neut": "parsa",
+      "ppp.gen.pl.masc": "parsorum",
+      "ppp.gen.pl.fem": "parsarum",
+      "ppp.gen.pl.neut": "parsorum",
+      "ppp.dat.pl.masc": "parsis",
+      "ppp.dat.pl.fem": "parsis",
+      "ppp.dat.pl.neut": "parsis",
+      "ppp.acc.pl.masc": "parsos",
+      "ppp.acc.pl.fem": "parsas",
+      "ppp.acc.pl.neut": "parsa",
+      "ppp.abl.pl.masc": "parsis",
+      "ppp.abl.pl.fem": "parsis",
+      "ppp.abl.pl.neut": "parsis",
+      "ppp.voc.pl.masc": "parsi",
+      "ppp.voc.pl.fem": "parsae",
+      "ppp.voc.pl.neut": "parsa"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "prehende",
       "2pl.pres.imp.act": "prehendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: prehensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "prehensus",
+      "ppp.nom.sg.fem": "prehensa",
+      "ppp.nom.sg.neut": "prehensum",
+      "ppp.gen.sg.masc": "prehensi",
+      "ppp.gen.sg.fem": "prehensae",
+      "ppp.gen.sg.neut": "prehensi",
+      "ppp.dat.sg.masc": "prehenso",
+      "ppp.dat.sg.fem": "prehensae",
+      "ppp.dat.sg.neut": "prehenso",
+      "ppp.acc.sg.masc": "prehensum",
+      "ppp.acc.sg.fem": "prehensam",
+      "ppp.acc.sg.neut": "prehensum",
+      "ppp.abl.sg.masc": "prehenso",
+      "ppp.abl.sg.fem": "prehensa",
+      "ppp.abl.sg.neut": "prehenso",
+      "ppp.voc.sg.masc": "prehense",
+      "ppp.voc.sg.fem": "prehensa",
+      "ppp.voc.sg.neut": "prehensum",
+      "ppp.nom.pl.masc": "prehensi",
+      "ppp.nom.pl.fem": "prehensae",
+      "ppp.nom.pl.neut": "prehensa",
+      "ppp.gen.pl.masc": "prehensorum",
+      "ppp.gen.pl.fem": "prehensarum",
+      "ppp.gen.pl.neut": "prehensorum",
+      "ppp.dat.pl.masc": "prehensis",
+      "ppp.dat.pl.fem": "prehensis",
+      "ppp.dat.pl.neut": "prehensis",
+      "ppp.acc.pl.masc": "prehensos",
+      "ppp.acc.pl.fem": "prehensas",
+      "ppp.acc.pl.neut": "prehensa",
+      "ppp.abl.pl.masc": "prehensis",
+      "ppp.abl.pl.fem": "prehensis",
+      "ppp.abl.pl.neut": "prehensis",
+      "ppp.voc.pl.masc": "prehensi",
+      "ppp.voc.pl.fem": "prehensae",
+      "ppp.voc.pl.neut": "prehensa"
+    }
   }
 }

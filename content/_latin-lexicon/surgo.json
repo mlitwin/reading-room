@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "surge",
       "2pl.pres.imp.act": "surgite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: surrectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "surrectus",
+      "ppp.nom.sg.fem": "surrecta",
+      "ppp.nom.sg.neut": "surrectum",
+      "ppp.gen.sg.masc": "surrecti",
+      "ppp.gen.sg.fem": "surrectae",
+      "ppp.gen.sg.neut": "surrecti",
+      "ppp.dat.sg.masc": "surrecto",
+      "ppp.dat.sg.fem": "surrectae",
+      "ppp.dat.sg.neut": "surrecto",
+      "ppp.acc.sg.masc": "surrectum",
+      "ppp.acc.sg.fem": "surrectam",
+      "ppp.acc.sg.neut": "surrectum",
+      "ppp.abl.sg.masc": "surrecto",
+      "ppp.abl.sg.fem": "surrecta",
+      "ppp.abl.sg.neut": "surrecto",
+      "ppp.voc.sg.masc": "surrecte",
+      "ppp.voc.sg.fem": "surrecta",
+      "ppp.voc.sg.neut": "surrectum",
+      "ppp.nom.pl.masc": "surrecti",
+      "ppp.nom.pl.fem": "surrectae",
+      "ppp.nom.pl.neut": "surrecta",
+      "ppp.gen.pl.masc": "surrectorum",
+      "ppp.gen.pl.fem": "surrectarum",
+      "ppp.gen.pl.neut": "surrectorum",
+      "ppp.dat.pl.masc": "surrectis",
+      "ppp.dat.pl.fem": "surrectis",
+      "ppp.dat.pl.neut": "surrectis",
+      "ppp.acc.pl.masc": "surrectos",
+      "ppp.acc.pl.fem": "surrectas",
+      "ppp.acc.pl.neut": "surrecta",
+      "ppp.abl.pl.masc": "surrectis",
+      "ppp.abl.pl.fem": "surrectis",
+      "ppp.abl.pl.neut": "surrectis",
+      "ppp.voc.pl.masc": "surrecti",
+      "ppp.voc.pl.fem": "surrectae",
+      "ppp.voc.pl.neut": "surrecta"
+    }
   }
 }

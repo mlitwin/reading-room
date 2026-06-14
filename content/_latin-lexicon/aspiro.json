@@ -47,5 +47,63 @@
       "2sg.pres.imp.act": "aspira",
       "2pl.pres.imp.act": "aspirate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: aspiratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "aspiratus",
+      "ppp.nom.sg.fem": "aspirata",
+      "ppp.nom.sg.neut": "aspiratum",
+      "ppp.gen.sg.masc": "aspirati",
+      "ppp.gen.sg.fem": "aspiratae",
+      "ppp.gen.sg.neut": "aspirati",
+      "ppp.dat.sg.masc": "aspirato",
+      "ppp.dat.sg.fem": "aspiratae",
+      "ppp.dat.sg.neut": "aspirato",
+      "ppp.acc.sg.masc": "aspiratum",
+      "ppp.acc.sg.fem": "aspiratam",
+      "ppp.acc.sg.neut": "aspiratum",
+      "ppp.abl.sg.masc": "aspirato",
+      "ppp.abl.sg.fem": "aspirata",
+      "ppp.abl.sg.neut": "aspirato",
+      "ppp.voc.sg.masc": "aspirate",
+      "ppp.voc.sg.fem": "aspirata",
+      "ppp.voc.sg.neut": "aspiratum",
+      "ppp.nom.pl.masc": "aspirati",
+      "ppp.nom.pl.fem": "aspiratae",
+      "ppp.nom.pl.neut": "aspirata",
+      "ppp.gen.pl.masc": "aspiratorum",
+      "ppp.gen.pl.fem": "aspiratarum",
+      "ppp.gen.pl.neut": "aspiratorum",
+      "ppp.dat.pl.masc": "aspiratis",
+      "ppp.dat.pl.fem": "aspiratis",
+      "ppp.dat.pl.neut": "aspiratis",
+      "ppp.acc.pl.masc": "aspiratos",
+      "ppp.acc.pl.fem": "aspiratas",
+      "ppp.acc.pl.neut": "aspirata",
+      "ppp.abl.pl.masc": "aspiratis",
+      "ppp.abl.pl.fem": "aspiratis",
+      "ppp.abl.pl.neut": "aspiratis",
+      "ppp.voc.pl.masc": "aspirati",
+      "ppp.voc.pl.fem": "aspiratae",
+      "ppp.voc.pl.neut": "aspirata"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "lauda",
       "2pl.pres.imp.act": "laudate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: laudatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "laudatus",
+      "ppp.nom.sg.fem": "laudata",
+      "ppp.nom.sg.neut": "laudatum",
+      "ppp.gen.sg.masc": "laudati",
+      "ppp.gen.sg.fem": "laudatae",
+      "ppp.gen.sg.neut": "laudati",
+      "ppp.dat.sg.masc": "laudato",
+      "ppp.dat.sg.fem": "laudatae",
+      "ppp.dat.sg.neut": "laudato",
+      "ppp.acc.sg.masc": "laudatum",
+      "ppp.acc.sg.fem": "laudatam",
+      "ppp.acc.sg.neut": "laudatum",
+      "ppp.abl.sg.masc": "laudato",
+      "ppp.abl.sg.fem": "laudata",
+      "ppp.abl.sg.neut": "laudato",
+      "ppp.voc.sg.masc": "laudate",
+      "ppp.voc.sg.fem": "laudata",
+      "ppp.voc.sg.neut": "laudatum",
+      "ppp.nom.pl.masc": "laudati",
+      "ppp.nom.pl.fem": "laudatae",
+      "ppp.nom.pl.neut": "laudata",
+      "ppp.gen.pl.masc": "laudatorum",
+      "ppp.gen.pl.fem": "laudatarum",
+      "ppp.gen.pl.neut": "laudatorum",
+      "ppp.dat.pl.masc": "laudatis",
+      "ppp.dat.pl.fem": "laudatis",
+      "ppp.dat.pl.neut": "laudatis",
+      "ppp.acc.pl.masc": "laudatos",
+      "ppp.acc.pl.fem": "laudatas",
+      "ppp.acc.pl.neut": "laudata",
+      "ppp.abl.pl.masc": "laudatis",
+      "ppp.abl.pl.fem": "laudatis",
+      "ppp.abl.pl.neut": "laudatis",
+      "ppp.voc.pl.masc": "laudati",
+      "ppp.voc.pl.fem": "laudatae",
+      "ppp.voc.pl.neut": "laudata"
+    }
   }
 }

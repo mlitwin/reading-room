@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "concipe",
       "2pl.pres.imp.act": "concipite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conceptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conceptus",
+      "ppp.nom.sg.fem": "concepta",
+      "ppp.nom.sg.neut": "conceptum",
+      "ppp.gen.sg.masc": "concepti",
+      "ppp.gen.sg.fem": "conceptae",
+      "ppp.gen.sg.neut": "concepti",
+      "ppp.dat.sg.masc": "concepto",
+      "ppp.dat.sg.fem": "conceptae",
+      "ppp.dat.sg.neut": "concepto",
+      "ppp.acc.sg.masc": "conceptum",
+      "ppp.acc.sg.fem": "conceptam",
+      "ppp.acc.sg.neut": "conceptum",
+      "ppp.abl.sg.masc": "concepto",
+      "ppp.abl.sg.fem": "concepta",
+      "ppp.abl.sg.neut": "concepto",
+      "ppp.voc.sg.masc": "concepte",
+      "ppp.voc.sg.fem": "concepta",
+      "ppp.voc.sg.neut": "conceptum",
+      "ppp.nom.pl.masc": "concepti",
+      "ppp.nom.pl.fem": "conceptae",
+      "ppp.nom.pl.neut": "concepta",
+      "ppp.gen.pl.masc": "conceptorum",
+      "ppp.gen.pl.fem": "conceptarum",
+      "ppp.gen.pl.neut": "conceptorum",
+      "ppp.dat.pl.masc": "conceptis",
+      "ppp.dat.pl.fem": "conceptis",
+      "ppp.dat.pl.neut": "conceptis",
+      "ppp.acc.pl.masc": "conceptos",
+      "ppp.acc.pl.fem": "conceptas",
+      "ppp.acc.pl.neut": "concepta",
+      "ppp.abl.pl.masc": "conceptis",
+      "ppp.abl.pl.fem": "conceptis",
+      "ppp.abl.pl.neut": "conceptis",
+      "ppp.voc.pl.masc": "concepti",
+      "ppp.voc.pl.fem": "conceptae",
+      "ppp.voc.pl.neut": "concepta"
+    }
   }
 }

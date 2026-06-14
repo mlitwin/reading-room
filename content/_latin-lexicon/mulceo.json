@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "mulce",
       "2pl.pres.imp.act": "mulcete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mulsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mulsus",
+      "ppp.nom.sg.fem": "mulsa",
+      "ppp.nom.sg.neut": "mulsum",
+      "ppp.gen.sg.masc": "mulsi",
+      "ppp.gen.sg.fem": "mulsae",
+      "ppp.gen.sg.neut": "mulsi",
+      "ppp.dat.sg.masc": "mulso",
+      "ppp.dat.sg.fem": "mulsae",
+      "ppp.dat.sg.neut": "mulso",
+      "ppp.acc.sg.masc": "mulsum",
+      "ppp.acc.sg.fem": "mulsam",
+      "ppp.acc.sg.neut": "mulsum",
+      "ppp.abl.sg.masc": "mulso",
+      "ppp.abl.sg.fem": "mulsa",
+      "ppp.abl.sg.neut": "mulso",
+      "ppp.voc.sg.masc": "mulse",
+      "ppp.voc.sg.fem": "mulsa",
+      "ppp.voc.sg.neut": "mulsum",
+      "ppp.nom.pl.masc": "mulsi",
+      "ppp.nom.pl.fem": "mulsae",
+      "ppp.nom.pl.neut": "mulsa",
+      "ppp.gen.pl.masc": "mulsorum",
+      "ppp.gen.pl.fem": "mulsarum",
+      "ppp.gen.pl.neut": "mulsorum",
+      "ppp.dat.pl.masc": "mulsis",
+      "ppp.dat.pl.fem": "mulsis",
+      "ppp.dat.pl.neut": "mulsis",
+      "ppp.acc.pl.masc": "mulsos",
+      "ppp.acc.pl.fem": "mulsas",
+      "ppp.acc.pl.neut": "mulsa",
+      "ppp.abl.pl.masc": "mulsis",
+      "ppp.abl.pl.fem": "mulsis",
+      "ppp.abl.pl.neut": "mulsis",
+      "ppp.voc.pl.masc": "mulsi",
+      "ppp.voc.pl.fem": "mulsae",
+      "ppp.voc.pl.neut": "mulsa"
+    }
   }
 }

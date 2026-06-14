@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "eripe",
       "2pl.pres.imp.act": "eripite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ereptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ereptus",
+      "ppp.nom.sg.fem": "erepta",
+      "ppp.nom.sg.neut": "ereptum",
+      "ppp.gen.sg.masc": "erepti",
+      "ppp.gen.sg.fem": "ereptae",
+      "ppp.gen.sg.neut": "erepti",
+      "ppp.dat.sg.masc": "erepto",
+      "ppp.dat.sg.fem": "ereptae",
+      "ppp.dat.sg.neut": "erepto",
+      "ppp.acc.sg.masc": "ereptum",
+      "ppp.acc.sg.fem": "ereptam",
+      "ppp.acc.sg.neut": "ereptum",
+      "ppp.abl.sg.masc": "erepto",
+      "ppp.abl.sg.fem": "erepta",
+      "ppp.abl.sg.neut": "erepto",
+      "ppp.voc.sg.masc": "erepte",
+      "ppp.voc.sg.fem": "erepta",
+      "ppp.voc.sg.neut": "ereptum",
+      "ppp.nom.pl.masc": "erepti",
+      "ppp.nom.pl.fem": "ereptae",
+      "ppp.nom.pl.neut": "erepta",
+      "ppp.gen.pl.masc": "ereptorum",
+      "ppp.gen.pl.fem": "ereptarum",
+      "ppp.gen.pl.neut": "ereptorum",
+      "ppp.dat.pl.masc": "ereptis",
+      "ppp.dat.pl.fem": "ereptis",
+      "ppp.dat.pl.neut": "ereptis",
+      "ppp.acc.pl.masc": "ereptos",
+      "ppp.acc.pl.fem": "ereptas",
+      "ppp.acc.pl.neut": "erepta",
+      "ppp.abl.pl.masc": "ereptis",
+      "ppp.abl.pl.fem": "ereptis",
+      "ppp.abl.pl.neut": "ereptis",
+      "ppp.voc.pl.masc": "erepti",
+      "ppp.voc.pl.fem": "ereptae",
+      "ppp.voc.pl.neut": "erepta"
+    }
   }
 }

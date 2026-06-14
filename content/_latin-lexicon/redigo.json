@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "redige",
       "2pl.pres.imp.act": "redigite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: redactus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "redactus",
+      "ppp.nom.sg.fem": "redacta",
+      "ppp.nom.sg.neut": "redactum",
+      "ppp.gen.sg.masc": "redacti",
+      "ppp.gen.sg.fem": "redactae",
+      "ppp.gen.sg.neut": "redacti",
+      "ppp.dat.sg.masc": "redacto",
+      "ppp.dat.sg.fem": "redactae",
+      "ppp.dat.sg.neut": "redacto",
+      "ppp.acc.sg.masc": "redactum",
+      "ppp.acc.sg.fem": "redactam",
+      "ppp.acc.sg.neut": "redactum",
+      "ppp.abl.sg.masc": "redacto",
+      "ppp.abl.sg.fem": "redacta",
+      "ppp.abl.sg.neut": "redacto",
+      "ppp.voc.sg.masc": "redacte",
+      "ppp.voc.sg.fem": "redacta",
+      "ppp.voc.sg.neut": "redactum",
+      "ppp.nom.pl.masc": "redacti",
+      "ppp.nom.pl.fem": "redactae",
+      "ppp.nom.pl.neut": "redacta",
+      "ppp.gen.pl.masc": "redactorum",
+      "ppp.gen.pl.fem": "redactarum",
+      "ppp.gen.pl.neut": "redactorum",
+      "ppp.dat.pl.masc": "redactis",
+      "ppp.dat.pl.fem": "redactis",
+      "ppp.dat.pl.neut": "redactis",
+      "ppp.acc.pl.masc": "redactos",
+      "ppp.acc.pl.fem": "redactas",
+      "ppp.acc.pl.neut": "redacta",
+      "ppp.abl.pl.masc": "redactis",
+      "ppp.abl.pl.fem": "redactis",
+      "ppp.abl.pl.neut": "redactis",
+      "ppp.voc.pl.masc": "redacti",
+      "ppp.voc.pl.fem": "redactae",
+      "ppp.voc.pl.neut": "redacta"
+    }
   }
 }

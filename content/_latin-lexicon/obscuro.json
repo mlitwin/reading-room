@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "obscura",
       "2pl.pres.imp.act": "obscurate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: obscuratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "obscuratus",
+      "ppp.nom.sg.fem": "obscurata",
+      "ppp.nom.sg.neut": "obscuratum",
+      "ppp.gen.sg.masc": "obscurati",
+      "ppp.gen.sg.fem": "obscuratae",
+      "ppp.gen.sg.neut": "obscurati",
+      "ppp.dat.sg.masc": "obscurato",
+      "ppp.dat.sg.fem": "obscuratae",
+      "ppp.dat.sg.neut": "obscurato",
+      "ppp.acc.sg.masc": "obscuratum",
+      "ppp.acc.sg.fem": "obscuratam",
+      "ppp.acc.sg.neut": "obscuratum",
+      "ppp.abl.sg.masc": "obscurato",
+      "ppp.abl.sg.fem": "obscurata",
+      "ppp.abl.sg.neut": "obscurato",
+      "ppp.voc.sg.masc": "obscurate",
+      "ppp.voc.sg.fem": "obscurata",
+      "ppp.voc.sg.neut": "obscuratum",
+      "ppp.nom.pl.masc": "obscurati",
+      "ppp.nom.pl.fem": "obscuratae",
+      "ppp.nom.pl.neut": "obscurata",
+      "ppp.gen.pl.masc": "obscuratorum",
+      "ppp.gen.pl.fem": "obscuratarum",
+      "ppp.gen.pl.neut": "obscuratorum",
+      "ppp.dat.pl.masc": "obscuratis",
+      "ppp.dat.pl.fem": "obscuratis",
+      "ppp.dat.pl.neut": "obscuratis",
+      "ppp.acc.pl.masc": "obscuratos",
+      "ppp.acc.pl.fem": "obscuratas",
+      "ppp.acc.pl.neut": "obscurata",
+      "ppp.abl.pl.masc": "obscuratis",
+      "ppp.abl.pl.fem": "obscuratis",
+      "ppp.abl.pl.neut": "obscuratis",
+      "ppp.voc.pl.masc": "obscurati",
+      "ppp.voc.pl.fem": "obscuratae",
+      "ppp.voc.pl.neut": "obscurata"
+    }
   }
 }

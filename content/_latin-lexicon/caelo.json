@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "caela",
       "2pl.pres.imp.act": "caelate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: caelatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "caelatus",
+      "ppp.nom.sg.fem": "caelata",
+      "ppp.nom.sg.neut": "caelatum",
+      "ppp.gen.sg.masc": "caelati",
+      "ppp.gen.sg.fem": "caelatae",
+      "ppp.gen.sg.neut": "caelati",
+      "ppp.dat.sg.masc": "caelato",
+      "ppp.dat.sg.fem": "caelatae",
+      "ppp.dat.sg.neut": "caelato",
+      "ppp.acc.sg.masc": "caelatum",
+      "ppp.acc.sg.fem": "caelatam",
+      "ppp.acc.sg.neut": "caelatum",
+      "ppp.abl.sg.masc": "caelato",
+      "ppp.abl.sg.fem": "caelata",
+      "ppp.abl.sg.neut": "caelato",
+      "ppp.voc.sg.masc": "caelate",
+      "ppp.voc.sg.fem": "caelata",
+      "ppp.voc.sg.neut": "caelatum",
+      "ppp.nom.pl.masc": "caelati",
+      "ppp.nom.pl.fem": "caelatae",
+      "ppp.nom.pl.neut": "caelata",
+      "ppp.gen.pl.masc": "caelatorum",
+      "ppp.gen.pl.fem": "caelatarum",
+      "ppp.gen.pl.neut": "caelatorum",
+      "ppp.dat.pl.masc": "caelatis",
+      "ppp.dat.pl.fem": "caelatis",
+      "ppp.dat.pl.neut": "caelatis",
+      "ppp.acc.pl.masc": "caelatos",
+      "ppp.acc.pl.fem": "caelatas",
+      "ppp.acc.pl.neut": "caelata",
+      "ppp.abl.pl.masc": "caelatis",
+      "ppp.abl.pl.fem": "caelatis",
+      "ppp.abl.pl.neut": "caelatis",
+      "ppp.voc.pl.masc": "caelati",
+      "ppp.voc.pl.fem": "caelatae",
+      "ppp.voc.pl.neut": "caelata"
+    }
   }
 }

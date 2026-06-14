@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "rora",
       "2pl.pres.imp.act": "rorate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: roratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "roratus",
+      "ppp.nom.sg.fem": "rorata",
+      "ppp.nom.sg.neut": "roratum",
+      "ppp.gen.sg.masc": "rorati",
+      "ppp.gen.sg.fem": "roratae",
+      "ppp.gen.sg.neut": "rorati",
+      "ppp.dat.sg.masc": "rorato",
+      "ppp.dat.sg.fem": "roratae",
+      "ppp.dat.sg.neut": "rorato",
+      "ppp.acc.sg.masc": "roratum",
+      "ppp.acc.sg.fem": "roratam",
+      "ppp.acc.sg.neut": "roratum",
+      "ppp.abl.sg.masc": "rorato",
+      "ppp.abl.sg.fem": "rorata",
+      "ppp.abl.sg.neut": "rorato",
+      "ppp.voc.sg.masc": "rorate",
+      "ppp.voc.sg.fem": "rorata",
+      "ppp.voc.sg.neut": "roratum",
+      "ppp.nom.pl.masc": "rorati",
+      "ppp.nom.pl.fem": "roratae",
+      "ppp.nom.pl.neut": "rorata",
+      "ppp.gen.pl.masc": "roratorum",
+      "ppp.gen.pl.fem": "roratarum",
+      "ppp.gen.pl.neut": "roratorum",
+      "ppp.dat.pl.masc": "roratis",
+      "ppp.dat.pl.fem": "roratis",
+      "ppp.dat.pl.neut": "roratis",
+      "ppp.acc.pl.masc": "roratos",
+      "ppp.acc.pl.fem": "roratas",
+      "ppp.acc.pl.neut": "rorata",
+      "ppp.abl.pl.masc": "roratis",
+      "ppp.abl.pl.fem": "roratis",
+      "ppp.abl.pl.neut": "roratis",
+      "ppp.voc.pl.masc": "rorati",
+      "ppp.voc.pl.fem": "roratae",
+      "ppp.voc.pl.neut": "rorata"
+    }
   }
 }

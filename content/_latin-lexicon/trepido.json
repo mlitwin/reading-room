@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "trepida",
       "2pl.pres.imp.act": "trepidate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: trepidatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "trepidatus",
+      "ppp.nom.sg.fem": "trepidata",
+      "ppp.nom.sg.neut": "trepidatum",
+      "ppp.gen.sg.masc": "trepidati",
+      "ppp.gen.sg.fem": "trepidatae",
+      "ppp.gen.sg.neut": "trepidati",
+      "ppp.dat.sg.masc": "trepidato",
+      "ppp.dat.sg.fem": "trepidatae",
+      "ppp.dat.sg.neut": "trepidato",
+      "ppp.acc.sg.masc": "trepidatum",
+      "ppp.acc.sg.fem": "trepidatam",
+      "ppp.acc.sg.neut": "trepidatum",
+      "ppp.abl.sg.masc": "trepidato",
+      "ppp.abl.sg.fem": "trepidata",
+      "ppp.abl.sg.neut": "trepidato",
+      "ppp.voc.sg.masc": "trepidate",
+      "ppp.voc.sg.fem": "trepidata",
+      "ppp.voc.sg.neut": "trepidatum",
+      "ppp.nom.pl.masc": "trepidati",
+      "ppp.nom.pl.fem": "trepidatae",
+      "ppp.nom.pl.neut": "trepidata",
+      "ppp.gen.pl.masc": "trepidatorum",
+      "ppp.gen.pl.fem": "trepidatarum",
+      "ppp.gen.pl.neut": "trepidatorum",
+      "ppp.dat.pl.masc": "trepidatis",
+      "ppp.dat.pl.fem": "trepidatis",
+      "ppp.dat.pl.neut": "trepidatis",
+      "ppp.acc.pl.masc": "trepidatos",
+      "ppp.acc.pl.fem": "trepidatas",
+      "ppp.acc.pl.neut": "trepidata",
+      "ppp.abl.pl.masc": "trepidatis",
+      "ppp.abl.pl.fem": "trepidatis",
+      "ppp.abl.pl.neut": "trepidatis",
+      "ppp.voc.pl.masc": "trepidati",
+      "ppp.voc.pl.fem": "trepidatae",
+      "ppp.voc.pl.neut": "trepidata"
+    }
   }
 }

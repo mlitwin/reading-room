@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "ore",
       "2pl.pres.imp.act": "orite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: oritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "oritus",
+      "ppp.nom.sg.fem": "orita",
+      "ppp.nom.sg.neut": "oritum",
+      "ppp.gen.sg.masc": "oriti",
+      "ppp.gen.sg.fem": "oritae",
+      "ppp.gen.sg.neut": "oriti",
+      "ppp.dat.sg.masc": "orito",
+      "ppp.dat.sg.fem": "oritae",
+      "ppp.dat.sg.neut": "orito",
+      "ppp.acc.sg.masc": "oritum",
+      "ppp.acc.sg.fem": "oritam",
+      "ppp.acc.sg.neut": "oritum",
+      "ppp.abl.sg.masc": "orito",
+      "ppp.abl.sg.fem": "orita",
+      "ppp.abl.sg.neut": "orito",
+      "ppp.voc.sg.masc": "orite",
+      "ppp.voc.sg.fem": "orita",
+      "ppp.voc.sg.neut": "oritum",
+      "ppp.nom.pl.masc": "oriti",
+      "ppp.nom.pl.fem": "oritae",
+      "ppp.nom.pl.neut": "orita",
+      "ppp.gen.pl.masc": "oritorum",
+      "ppp.gen.pl.fem": "oritarum",
+      "ppp.gen.pl.neut": "oritorum",
+      "ppp.dat.pl.masc": "oritis",
+      "ppp.dat.pl.fem": "oritis",
+      "ppp.dat.pl.neut": "oritis",
+      "ppp.acc.pl.masc": "oritos",
+      "ppp.acc.pl.fem": "oritas",
+      "ppp.acc.pl.neut": "orita",
+      "ppp.abl.pl.masc": "oritis",
+      "ppp.abl.pl.fem": "oritis",
+      "ppp.abl.pl.neut": "oritis",
+      "ppp.voc.pl.masc": "oriti",
+      "ppp.voc.pl.fem": "oritae",
+      "ppp.voc.pl.neut": "orita"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "inquire",
       "2pl.pres.imp.act": "inquirite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: inquisitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "inquisitus",
+      "ppp.nom.sg.fem": "inquisita",
+      "ppp.nom.sg.neut": "inquisitum",
+      "ppp.gen.sg.masc": "inquisiti",
+      "ppp.gen.sg.fem": "inquisitae",
+      "ppp.gen.sg.neut": "inquisiti",
+      "ppp.dat.sg.masc": "inquisito",
+      "ppp.dat.sg.fem": "inquisitae",
+      "ppp.dat.sg.neut": "inquisito",
+      "ppp.acc.sg.masc": "inquisitum",
+      "ppp.acc.sg.fem": "inquisitam",
+      "ppp.acc.sg.neut": "inquisitum",
+      "ppp.abl.sg.masc": "inquisito",
+      "ppp.abl.sg.fem": "inquisita",
+      "ppp.abl.sg.neut": "inquisito",
+      "ppp.voc.sg.masc": "inquisite",
+      "ppp.voc.sg.fem": "inquisita",
+      "ppp.voc.sg.neut": "inquisitum",
+      "ppp.nom.pl.masc": "inquisiti",
+      "ppp.nom.pl.fem": "inquisitae",
+      "ppp.nom.pl.neut": "inquisita",
+      "ppp.gen.pl.masc": "inquisitorum",
+      "ppp.gen.pl.fem": "inquisitarum",
+      "ppp.gen.pl.neut": "inquisitorum",
+      "ppp.dat.pl.masc": "inquisitis",
+      "ppp.dat.pl.fem": "inquisitis",
+      "ppp.dat.pl.neut": "inquisitis",
+      "ppp.acc.pl.masc": "inquisitos",
+      "ppp.acc.pl.fem": "inquisitas",
+      "ppp.acc.pl.neut": "inquisita",
+      "ppp.abl.pl.masc": "inquisitis",
+      "ppp.abl.pl.fem": "inquisitis",
+      "ppp.abl.pl.neut": "inquisitis",
+      "ppp.voc.pl.masc": "inquisiti",
+      "ppp.voc.pl.fem": "inquisitae",
+      "ppp.voc.pl.neut": "inquisita"
+    }
   }
 }

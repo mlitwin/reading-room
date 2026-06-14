@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "eda",
       "2pl.pres.imp.act": "edate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: editus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "editus",
+      "ppp.nom.sg.fem": "edita",
+      "ppp.nom.sg.neut": "editum",
+      "ppp.gen.sg.masc": "editi",
+      "ppp.gen.sg.fem": "editae",
+      "ppp.gen.sg.neut": "editi",
+      "ppp.dat.sg.masc": "edito",
+      "ppp.dat.sg.fem": "editae",
+      "ppp.dat.sg.neut": "edito",
+      "ppp.acc.sg.masc": "editum",
+      "ppp.acc.sg.fem": "editam",
+      "ppp.acc.sg.neut": "editum",
+      "ppp.abl.sg.masc": "edito",
+      "ppp.abl.sg.fem": "edita",
+      "ppp.abl.sg.neut": "edito",
+      "ppp.voc.sg.masc": "edite",
+      "ppp.voc.sg.fem": "edita",
+      "ppp.voc.sg.neut": "editum",
+      "ppp.nom.pl.masc": "editi",
+      "ppp.nom.pl.fem": "editae",
+      "ppp.nom.pl.neut": "edita",
+      "ppp.gen.pl.masc": "editorum",
+      "ppp.gen.pl.fem": "editarum",
+      "ppp.gen.pl.neut": "editorum",
+      "ppp.dat.pl.masc": "editis",
+      "ppp.dat.pl.fem": "editis",
+      "ppp.dat.pl.neut": "editis",
+      "ppp.acc.pl.masc": "editos",
+      "ppp.acc.pl.fem": "editas",
+      "ppp.acc.pl.neut": "edita",
+      "ppp.abl.pl.masc": "editis",
+      "ppp.abl.pl.fem": "editis",
+      "ppp.abl.pl.neut": "editis",
+      "ppp.voc.pl.masc": "editi",
+      "ppp.voc.pl.fem": "editae",
+      "ppp.voc.pl.neut": "edita"
+    }
   }
 }

@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "obseque",
       "2pl.pres.imp.act": "obsequite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: obsecutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "obsecutus",
+      "ppp.nom.sg.fem": "obsecuta",
+      "ppp.nom.sg.neut": "obsecutum",
+      "ppp.gen.sg.masc": "obsecuti",
+      "ppp.gen.sg.fem": "obsecutae",
+      "ppp.gen.sg.neut": "obsecuti",
+      "ppp.dat.sg.masc": "obsecuto",
+      "ppp.dat.sg.fem": "obsecutae",
+      "ppp.dat.sg.neut": "obsecuto",
+      "ppp.acc.sg.masc": "obsecutum",
+      "ppp.acc.sg.fem": "obsecutam",
+      "ppp.acc.sg.neut": "obsecutum",
+      "ppp.abl.sg.masc": "obsecuto",
+      "ppp.abl.sg.fem": "obsecuta",
+      "ppp.abl.sg.neut": "obsecuto",
+      "ppp.voc.sg.masc": "obsecute",
+      "ppp.voc.sg.fem": "obsecuta",
+      "ppp.voc.sg.neut": "obsecutum",
+      "ppp.nom.pl.masc": "obsecuti",
+      "ppp.nom.pl.fem": "obsecutae",
+      "ppp.nom.pl.neut": "obsecuta",
+      "ppp.gen.pl.masc": "obsecutorum",
+      "ppp.gen.pl.fem": "obsecutarum",
+      "ppp.gen.pl.neut": "obsecutorum",
+      "ppp.dat.pl.masc": "obsecutis",
+      "ppp.dat.pl.fem": "obsecutis",
+      "ppp.dat.pl.neut": "obsecutis",
+      "ppp.acc.pl.masc": "obsecutos",
+      "ppp.acc.pl.fem": "obsecutas",
+      "ppp.acc.pl.neut": "obsecuta",
+      "ppp.abl.pl.masc": "obsecutis",
+      "ppp.abl.pl.fem": "obsecutis",
+      "ppp.abl.pl.neut": "obsecutis",
+      "ppp.voc.pl.masc": "obsecuti",
+      "ppp.voc.pl.fem": "obsecutae",
+      "ppp.voc.pl.neut": "obsecuta"
+    }
   }
 }

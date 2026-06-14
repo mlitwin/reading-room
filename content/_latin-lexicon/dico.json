@@ -47,5 +47,63 @@
       "2sg.pres.imp.act": "dic",
       "2pl.pres.imp.act": "dicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dictus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dictus",
+      "ppp.nom.sg.fem": "dicta",
+      "ppp.nom.sg.neut": "dictum",
+      "ppp.gen.sg.masc": "dicti",
+      "ppp.gen.sg.fem": "dictae",
+      "ppp.gen.sg.neut": "dicti",
+      "ppp.dat.sg.masc": "dicto",
+      "ppp.dat.sg.fem": "dictae",
+      "ppp.dat.sg.neut": "dicto",
+      "ppp.acc.sg.masc": "dictum",
+      "ppp.acc.sg.fem": "dictam",
+      "ppp.acc.sg.neut": "dictum",
+      "ppp.abl.sg.masc": "dicto",
+      "ppp.abl.sg.fem": "dicta",
+      "ppp.abl.sg.neut": "dicto",
+      "ppp.voc.sg.masc": "dicte",
+      "ppp.voc.sg.fem": "dicta",
+      "ppp.voc.sg.neut": "dictum",
+      "ppp.nom.pl.masc": "dicti",
+      "ppp.nom.pl.fem": "dictae",
+      "ppp.nom.pl.neut": "dicta",
+      "ppp.gen.pl.masc": "dictorum",
+      "ppp.gen.pl.fem": "dictarum",
+      "ppp.gen.pl.neut": "dictorum",
+      "ppp.dat.pl.masc": "dictis",
+      "ppp.dat.pl.fem": "dictis",
+      "ppp.dat.pl.neut": "dictis",
+      "ppp.acc.pl.masc": "dictos",
+      "ppp.acc.pl.fem": "dictas",
+      "ppp.acc.pl.neut": "dicta",
+      "ppp.abl.pl.masc": "dictis",
+      "ppp.abl.pl.fem": "dictis",
+      "ppp.abl.pl.neut": "dictis",
+      "ppp.voc.pl.masc": "dicti",
+      "ppp.voc.pl.fem": "dictae",
+      "ppp.voc.pl.neut": "dicta"
+    }
   }
 }

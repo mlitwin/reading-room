@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "grata",
       "2pl.pres.imp.act": "gratate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: gratatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "gratatus",
+      "ppp.nom.sg.fem": "gratata",
+      "ppp.nom.sg.neut": "gratatum",
+      "ppp.gen.sg.masc": "gratati",
+      "ppp.gen.sg.fem": "gratatae",
+      "ppp.gen.sg.neut": "gratati",
+      "ppp.dat.sg.masc": "gratato",
+      "ppp.dat.sg.fem": "gratatae",
+      "ppp.dat.sg.neut": "gratato",
+      "ppp.acc.sg.masc": "gratatum",
+      "ppp.acc.sg.fem": "gratatam",
+      "ppp.acc.sg.neut": "gratatum",
+      "ppp.abl.sg.masc": "gratato",
+      "ppp.abl.sg.fem": "gratata",
+      "ppp.abl.sg.neut": "gratato",
+      "ppp.voc.sg.masc": "gratate",
+      "ppp.voc.sg.fem": "gratata",
+      "ppp.voc.sg.neut": "gratatum",
+      "ppp.nom.pl.masc": "gratati",
+      "ppp.nom.pl.fem": "gratatae",
+      "ppp.nom.pl.neut": "gratata",
+      "ppp.gen.pl.masc": "gratatorum",
+      "ppp.gen.pl.fem": "gratatarum",
+      "ppp.gen.pl.neut": "gratatorum",
+      "ppp.dat.pl.masc": "gratatis",
+      "ppp.dat.pl.fem": "gratatis",
+      "ppp.dat.pl.neut": "gratatis",
+      "ppp.acc.pl.masc": "gratatos",
+      "ppp.acc.pl.fem": "gratatas",
+      "ppp.acc.pl.neut": "gratata",
+      "ppp.abl.pl.masc": "gratatis",
+      "ppp.abl.pl.fem": "gratatis",
+      "ppp.abl.pl.neut": "gratatis",
+      "ppp.voc.pl.masc": "gratati",
+      "ppp.voc.pl.fem": "gratatae",
+      "ppp.voc.pl.neut": "gratata"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "nutri",
       "2pl.pres.imp.act": "nutrite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: nutritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "nutritus",
+      "ppp.nom.sg.fem": "nutrita",
+      "ppp.nom.sg.neut": "nutritum",
+      "ppp.gen.sg.masc": "nutriti",
+      "ppp.gen.sg.fem": "nutritae",
+      "ppp.gen.sg.neut": "nutriti",
+      "ppp.dat.sg.masc": "nutrito",
+      "ppp.dat.sg.fem": "nutritae",
+      "ppp.dat.sg.neut": "nutrito",
+      "ppp.acc.sg.masc": "nutritum",
+      "ppp.acc.sg.fem": "nutritam",
+      "ppp.acc.sg.neut": "nutritum",
+      "ppp.abl.sg.masc": "nutrito",
+      "ppp.abl.sg.fem": "nutrita",
+      "ppp.abl.sg.neut": "nutrito",
+      "ppp.voc.sg.masc": "nutrite",
+      "ppp.voc.sg.fem": "nutrita",
+      "ppp.voc.sg.neut": "nutritum",
+      "ppp.nom.pl.masc": "nutriti",
+      "ppp.nom.pl.fem": "nutritae",
+      "ppp.nom.pl.neut": "nutrita",
+      "ppp.gen.pl.masc": "nutritorum",
+      "ppp.gen.pl.fem": "nutritarum",
+      "ppp.gen.pl.neut": "nutritorum",
+      "ppp.dat.pl.masc": "nutritis",
+      "ppp.dat.pl.fem": "nutritis",
+      "ppp.dat.pl.neut": "nutritis",
+      "ppp.acc.pl.masc": "nutritos",
+      "ppp.acc.pl.fem": "nutritas",
+      "ppp.acc.pl.neut": "nutrita",
+      "ppp.abl.pl.masc": "nutritis",
+      "ppp.abl.pl.fem": "nutritis",
+      "ppp.abl.pl.neut": "nutritis",
+      "ppp.voc.pl.masc": "nutriti",
+      "ppp.voc.pl.fem": "nutritae",
+      "ppp.voc.pl.neut": "nutrita"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "mota",
       "2pl.pres.imp.act": "motate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: motatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "motatus",
+      "ppp.nom.sg.fem": "motata",
+      "ppp.nom.sg.neut": "motatum",
+      "ppp.gen.sg.masc": "motati",
+      "ppp.gen.sg.fem": "motatae",
+      "ppp.gen.sg.neut": "motati",
+      "ppp.dat.sg.masc": "motato",
+      "ppp.dat.sg.fem": "motatae",
+      "ppp.dat.sg.neut": "motato",
+      "ppp.acc.sg.masc": "motatum",
+      "ppp.acc.sg.fem": "motatam",
+      "ppp.acc.sg.neut": "motatum",
+      "ppp.abl.sg.masc": "motato",
+      "ppp.abl.sg.fem": "motata",
+      "ppp.abl.sg.neut": "motato",
+      "ppp.voc.sg.masc": "motate",
+      "ppp.voc.sg.fem": "motata",
+      "ppp.voc.sg.neut": "motatum",
+      "ppp.nom.pl.masc": "motati",
+      "ppp.nom.pl.fem": "motatae",
+      "ppp.nom.pl.neut": "motata",
+      "ppp.gen.pl.masc": "motatorum",
+      "ppp.gen.pl.fem": "motatarum",
+      "ppp.gen.pl.neut": "motatorum",
+      "ppp.dat.pl.masc": "motatis",
+      "ppp.dat.pl.fem": "motatis",
+      "ppp.dat.pl.neut": "motatis",
+      "ppp.acc.pl.masc": "motatos",
+      "ppp.acc.pl.fem": "motatas",
+      "ppp.acc.pl.neut": "motata",
+      "ppp.abl.pl.masc": "motatis",
+      "ppp.abl.pl.fem": "motatis",
+      "ppp.abl.pl.neut": "motatis",
+      "ppp.voc.pl.masc": "motati",
+      "ppp.voc.pl.fem": "motatae",
+      "ppp.voc.pl.neut": "motata"
+    }
   }
 }

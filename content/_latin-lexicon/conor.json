@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "cona",
       "2pl.pres.imp.act": "conate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conatus",
+      "ppp.nom.sg.fem": "conata",
+      "ppp.nom.sg.neut": "conatum",
+      "ppp.gen.sg.masc": "conati",
+      "ppp.gen.sg.fem": "conatae",
+      "ppp.gen.sg.neut": "conati",
+      "ppp.dat.sg.masc": "conato",
+      "ppp.dat.sg.fem": "conatae",
+      "ppp.dat.sg.neut": "conato",
+      "ppp.acc.sg.masc": "conatum",
+      "ppp.acc.sg.fem": "conatam",
+      "ppp.acc.sg.neut": "conatum",
+      "ppp.abl.sg.masc": "conato",
+      "ppp.abl.sg.fem": "conata",
+      "ppp.abl.sg.neut": "conato",
+      "ppp.voc.sg.masc": "conate",
+      "ppp.voc.sg.fem": "conata",
+      "ppp.voc.sg.neut": "conatum",
+      "ppp.nom.pl.masc": "conati",
+      "ppp.nom.pl.fem": "conatae",
+      "ppp.nom.pl.neut": "conata",
+      "ppp.gen.pl.masc": "conatorum",
+      "ppp.gen.pl.fem": "conatarum",
+      "ppp.gen.pl.neut": "conatorum",
+      "ppp.dat.pl.masc": "conatis",
+      "ppp.dat.pl.fem": "conatis",
+      "ppp.dat.pl.neut": "conatis",
+      "ppp.acc.pl.masc": "conatos",
+      "ppp.acc.pl.fem": "conatas",
+      "ppp.acc.pl.neut": "conata",
+      "ppp.abl.pl.masc": "conatis",
+      "ppp.abl.pl.fem": "conatis",
+      "ppp.abl.pl.neut": "conatis",
+      "ppp.voc.pl.masc": "conati",
+      "ppp.voc.pl.fem": "conatae",
+      "ppp.voc.pl.neut": "conata"
+    }
   }
 }

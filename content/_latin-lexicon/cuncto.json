@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "cuncta",
       "2pl.pres.imp.act": "cunctate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cunctatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cunctatus",
+      "ppp.nom.sg.fem": "cunctata",
+      "ppp.nom.sg.neut": "cunctatum",
+      "ppp.gen.sg.masc": "cunctati",
+      "ppp.gen.sg.fem": "cunctatae",
+      "ppp.gen.sg.neut": "cunctati",
+      "ppp.dat.sg.masc": "cunctato",
+      "ppp.dat.sg.fem": "cunctatae",
+      "ppp.dat.sg.neut": "cunctato",
+      "ppp.acc.sg.masc": "cunctatum",
+      "ppp.acc.sg.fem": "cunctatam",
+      "ppp.acc.sg.neut": "cunctatum",
+      "ppp.abl.sg.masc": "cunctato",
+      "ppp.abl.sg.fem": "cunctata",
+      "ppp.abl.sg.neut": "cunctato",
+      "ppp.voc.sg.masc": "cunctate",
+      "ppp.voc.sg.fem": "cunctata",
+      "ppp.voc.sg.neut": "cunctatum",
+      "ppp.nom.pl.masc": "cunctati",
+      "ppp.nom.pl.fem": "cunctatae",
+      "ppp.nom.pl.neut": "cunctata",
+      "ppp.gen.pl.masc": "cunctatorum",
+      "ppp.gen.pl.fem": "cunctatarum",
+      "ppp.gen.pl.neut": "cunctatorum",
+      "ppp.dat.pl.masc": "cunctatis",
+      "ppp.dat.pl.fem": "cunctatis",
+      "ppp.dat.pl.neut": "cunctatis",
+      "ppp.acc.pl.masc": "cunctatos",
+      "ppp.acc.pl.fem": "cunctatas",
+      "ppp.acc.pl.neut": "cunctata",
+      "ppp.abl.pl.masc": "cunctatis",
+      "ppp.abl.pl.fem": "cunctatis",
+      "ppp.abl.pl.neut": "cunctatis",
+      "ppp.voc.pl.masc": "cunctati",
+      "ppp.voc.pl.fem": "cunctatae",
+      "ppp.voc.pl.neut": "cunctata"
+    }
   }
 }

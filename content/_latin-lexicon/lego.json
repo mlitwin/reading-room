@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "lega",
       "2pl.pres.imp.act": "legate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: legatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "legatus",
+      "ppp.nom.sg.fem": "legata",
+      "ppp.nom.sg.neut": "legatum",
+      "ppp.gen.sg.masc": "legati",
+      "ppp.gen.sg.fem": "legatae",
+      "ppp.gen.sg.neut": "legati",
+      "ppp.dat.sg.masc": "legato",
+      "ppp.dat.sg.fem": "legatae",
+      "ppp.dat.sg.neut": "legato",
+      "ppp.acc.sg.masc": "legatum",
+      "ppp.acc.sg.fem": "legatam",
+      "ppp.acc.sg.neut": "legatum",
+      "ppp.abl.sg.masc": "legato",
+      "ppp.abl.sg.fem": "legata",
+      "ppp.abl.sg.neut": "legato",
+      "ppp.voc.sg.masc": "legate",
+      "ppp.voc.sg.fem": "legata",
+      "ppp.voc.sg.neut": "legatum",
+      "ppp.nom.pl.masc": "legati",
+      "ppp.nom.pl.fem": "legatae",
+      "ppp.nom.pl.neut": "legata",
+      "ppp.gen.pl.masc": "legatorum",
+      "ppp.gen.pl.fem": "legatarum",
+      "ppp.gen.pl.neut": "legatorum",
+      "ppp.dat.pl.masc": "legatis",
+      "ppp.dat.pl.fem": "legatis",
+      "ppp.dat.pl.neut": "legatis",
+      "ppp.acc.pl.masc": "legatos",
+      "ppp.acc.pl.fem": "legatas",
+      "ppp.acc.pl.neut": "legata",
+      "ppp.abl.pl.masc": "legatis",
+      "ppp.abl.pl.fem": "legatis",
+      "ppp.abl.pl.neut": "legatis",
+      "ppp.voc.pl.masc": "legati",
+      "ppp.voc.pl.fem": "legatae",
+      "ppp.voc.pl.neut": "legata"
+    }
   }
 }

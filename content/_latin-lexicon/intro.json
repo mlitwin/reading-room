@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "intra",
       "2pl.pres.imp.act": "intrate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: intratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "intratus",
+      "ppp.nom.sg.fem": "intrata",
+      "ppp.nom.sg.neut": "intratum",
+      "ppp.gen.sg.masc": "intrati",
+      "ppp.gen.sg.fem": "intratae",
+      "ppp.gen.sg.neut": "intrati",
+      "ppp.dat.sg.masc": "intrato",
+      "ppp.dat.sg.fem": "intratae",
+      "ppp.dat.sg.neut": "intrato",
+      "ppp.acc.sg.masc": "intratum",
+      "ppp.acc.sg.fem": "intratam",
+      "ppp.acc.sg.neut": "intratum",
+      "ppp.abl.sg.masc": "intrato",
+      "ppp.abl.sg.fem": "intrata",
+      "ppp.abl.sg.neut": "intrato",
+      "ppp.voc.sg.masc": "intrate",
+      "ppp.voc.sg.fem": "intrata",
+      "ppp.voc.sg.neut": "intratum",
+      "ppp.nom.pl.masc": "intrati",
+      "ppp.nom.pl.fem": "intratae",
+      "ppp.nom.pl.neut": "intrata",
+      "ppp.gen.pl.masc": "intratorum",
+      "ppp.gen.pl.fem": "intratarum",
+      "ppp.gen.pl.neut": "intratorum",
+      "ppp.dat.pl.masc": "intratis",
+      "ppp.dat.pl.fem": "intratis",
+      "ppp.dat.pl.neut": "intratis",
+      "ppp.acc.pl.masc": "intratos",
+      "ppp.acc.pl.fem": "intratas",
+      "ppp.acc.pl.neut": "intrata",
+      "ppp.abl.pl.masc": "intratis",
+      "ppp.abl.pl.fem": "intratis",
+      "ppp.abl.pl.neut": "intratis",
+      "ppp.voc.pl.masc": "intrati",
+      "ppp.voc.pl.fem": "intratae",
+      "ppp.voc.pl.neut": "intrata"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "congere",
       "2pl.pres.imp.act": "congerite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: congestus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "congestus",
+      "ppp.nom.sg.fem": "congesta",
+      "ppp.nom.sg.neut": "congestum",
+      "ppp.gen.sg.masc": "congesti",
+      "ppp.gen.sg.fem": "congestae",
+      "ppp.gen.sg.neut": "congesti",
+      "ppp.dat.sg.masc": "congesto",
+      "ppp.dat.sg.fem": "congestae",
+      "ppp.dat.sg.neut": "congesto",
+      "ppp.acc.sg.masc": "congestum",
+      "ppp.acc.sg.fem": "congestam",
+      "ppp.acc.sg.neut": "congestum",
+      "ppp.abl.sg.masc": "congesto",
+      "ppp.abl.sg.fem": "congesta",
+      "ppp.abl.sg.neut": "congesto",
+      "ppp.voc.sg.masc": "congeste",
+      "ppp.voc.sg.fem": "congesta",
+      "ppp.voc.sg.neut": "congestum",
+      "ppp.nom.pl.masc": "congesti",
+      "ppp.nom.pl.fem": "congestae",
+      "ppp.nom.pl.neut": "congesta",
+      "ppp.gen.pl.masc": "congestorum",
+      "ppp.gen.pl.fem": "congestarum",
+      "ppp.gen.pl.neut": "congestorum",
+      "ppp.dat.pl.masc": "congestis",
+      "ppp.dat.pl.fem": "congestis",
+      "ppp.dat.pl.neut": "congestis",
+      "ppp.acc.pl.masc": "congestos",
+      "ppp.acc.pl.fem": "congestas",
+      "ppp.acc.pl.neut": "congesta",
+      "ppp.abl.pl.masc": "congestis",
+      "ppp.abl.pl.fem": "congestis",
+      "ppp.abl.pl.neut": "congestis",
+      "ppp.voc.pl.masc": "congesti",
+      "ppp.voc.pl.fem": "congestae",
+      "ppp.voc.pl.neut": "congesta"
+    }
   }
 }

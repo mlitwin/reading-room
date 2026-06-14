@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "vince",
       "2pl.pres.imp.act": "vincite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: victus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "victus",
+      "ppp.nom.sg.fem": "victa",
+      "ppp.nom.sg.neut": "victum",
+      "ppp.gen.sg.masc": "victi",
+      "ppp.gen.sg.fem": "victae",
+      "ppp.gen.sg.neut": "victi",
+      "ppp.dat.sg.masc": "victo",
+      "ppp.dat.sg.fem": "victae",
+      "ppp.dat.sg.neut": "victo",
+      "ppp.acc.sg.masc": "victum",
+      "ppp.acc.sg.fem": "victam",
+      "ppp.acc.sg.neut": "victum",
+      "ppp.abl.sg.masc": "victo",
+      "ppp.abl.sg.fem": "victa",
+      "ppp.abl.sg.neut": "victo",
+      "ppp.voc.sg.masc": "victe",
+      "ppp.voc.sg.fem": "victa",
+      "ppp.voc.sg.neut": "victum",
+      "ppp.nom.pl.masc": "victi",
+      "ppp.nom.pl.fem": "victae",
+      "ppp.nom.pl.neut": "victa",
+      "ppp.gen.pl.masc": "victorum",
+      "ppp.gen.pl.fem": "victarum",
+      "ppp.gen.pl.neut": "victorum",
+      "ppp.dat.pl.masc": "victis",
+      "ppp.dat.pl.fem": "victis",
+      "ppp.dat.pl.neut": "victis",
+      "ppp.acc.pl.masc": "victos",
+      "ppp.acc.pl.fem": "victas",
+      "ppp.acc.pl.neut": "victa",
+      "ppp.abl.pl.masc": "victis",
+      "ppp.abl.pl.fem": "victis",
+      "ppp.abl.pl.neut": "victis",
+      "ppp.voc.pl.masc": "victi",
+      "ppp.voc.pl.fem": "victae",
+      "ppp.voc.pl.neut": "victa"
+    }
   }
 }

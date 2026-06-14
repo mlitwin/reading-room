@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "strue",
       "2pl.pres.imp.act": "struite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: structus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "structus",
+      "ppp.nom.sg.fem": "structa",
+      "ppp.nom.sg.neut": "structum",
+      "ppp.gen.sg.masc": "structi",
+      "ppp.gen.sg.fem": "structae",
+      "ppp.gen.sg.neut": "structi",
+      "ppp.dat.sg.masc": "structo",
+      "ppp.dat.sg.fem": "structae",
+      "ppp.dat.sg.neut": "structo",
+      "ppp.acc.sg.masc": "structum",
+      "ppp.acc.sg.fem": "structam",
+      "ppp.acc.sg.neut": "structum",
+      "ppp.abl.sg.masc": "structo",
+      "ppp.abl.sg.fem": "structa",
+      "ppp.abl.sg.neut": "structo",
+      "ppp.voc.sg.masc": "structe",
+      "ppp.voc.sg.fem": "structa",
+      "ppp.voc.sg.neut": "structum",
+      "ppp.nom.pl.masc": "structi",
+      "ppp.nom.pl.fem": "structae",
+      "ppp.nom.pl.neut": "structa",
+      "ppp.gen.pl.masc": "structorum",
+      "ppp.gen.pl.fem": "structarum",
+      "ppp.gen.pl.neut": "structorum",
+      "ppp.dat.pl.masc": "structis",
+      "ppp.dat.pl.fem": "structis",
+      "ppp.dat.pl.neut": "structis",
+      "ppp.acc.pl.masc": "structos",
+      "ppp.acc.pl.fem": "structas",
+      "ppp.acc.pl.neut": "structa",
+      "ppp.abl.pl.masc": "structis",
+      "ppp.abl.pl.fem": "structis",
+      "ppp.abl.pl.neut": "structis",
+      "ppp.voc.pl.masc": "structi",
+      "ppp.voc.pl.fem": "structae",
+      "ppp.voc.pl.neut": "structa"
+    }
   }
 }

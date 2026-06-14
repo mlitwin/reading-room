@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "decresce",
       "2pl.pres.imp.act": "decrescite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: decretus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "decretus",
+      "ppp.nom.sg.fem": "decreta",
+      "ppp.nom.sg.neut": "decretum",
+      "ppp.gen.sg.masc": "decreti",
+      "ppp.gen.sg.fem": "decretae",
+      "ppp.gen.sg.neut": "decreti",
+      "ppp.dat.sg.masc": "decreto",
+      "ppp.dat.sg.fem": "decretae",
+      "ppp.dat.sg.neut": "decreto",
+      "ppp.acc.sg.masc": "decretum",
+      "ppp.acc.sg.fem": "decretam",
+      "ppp.acc.sg.neut": "decretum",
+      "ppp.abl.sg.masc": "decreto",
+      "ppp.abl.sg.fem": "decreta",
+      "ppp.abl.sg.neut": "decreto",
+      "ppp.voc.sg.masc": "decrete",
+      "ppp.voc.sg.fem": "decreta",
+      "ppp.voc.sg.neut": "decretum",
+      "ppp.nom.pl.masc": "decreti",
+      "ppp.nom.pl.fem": "decretae",
+      "ppp.nom.pl.neut": "decreta",
+      "ppp.gen.pl.masc": "decretorum",
+      "ppp.gen.pl.fem": "decretarum",
+      "ppp.gen.pl.neut": "decretorum",
+      "ppp.dat.pl.masc": "decretis",
+      "ppp.dat.pl.fem": "decretis",
+      "ppp.dat.pl.neut": "decretis",
+      "ppp.acc.pl.masc": "decretos",
+      "ppp.acc.pl.fem": "decretas",
+      "ppp.acc.pl.neut": "decreta",
+      "ppp.abl.pl.masc": "decretis",
+      "ppp.abl.pl.fem": "decretis",
+      "ppp.abl.pl.neut": "decretis",
+      "ppp.voc.pl.masc": "decreti",
+      "ppp.voc.pl.fem": "decretae",
+      "ppp.voc.pl.neut": "decreta"
+    }
   }
 }

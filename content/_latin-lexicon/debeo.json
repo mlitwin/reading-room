@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "debe",
       "2pl.pres.imp.act": "debete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: debitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "debitus",
+      "ppp.nom.sg.fem": "debita",
+      "ppp.nom.sg.neut": "debitum",
+      "ppp.gen.sg.masc": "debiti",
+      "ppp.gen.sg.fem": "debitae",
+      "ppp.gen.sg.neut": "debiti",
+      "ppp.dat.sg.masc": "debito",
+      "ppp.dat.sg.fem": "debitae",
+      "ppp.dat.sg.neut": "debito",
+      "ppp.acc.sg.masc": "debitum",
+      "ppp.acc.sg.fem": "debitam",
+      "ppp.acc.sg.neut": "debitum",
+      "ppp.abl.sg.masc": "debito",
+      "ppp.abl.sg.fem": "debita",
+      "ppp.abl.sg.neut": "debito",
+      "ppp.voc.sg.masc": "debite",
+      "ppp.voc.sg.fem": "debita",
+      "ppp.voc.sg.neut": "debitum",
+      "ppp.nom.pl.masc": "debiti",
+      "ppp.nom.pl.fem": "debitae",
+      "ppp.nom.pl.neut": "debita",
+      "ppp.gen.pl.masc": "debitorum",
+      "ppp.gen.pl.fem": "debitarum",
+      "ppp.gen.pl.neut": "debitorum",
+      "ppp.dat.pl.masc": "debitis",
+      "ppp.dat.pl.fem": "debitis",
+      "ppp.dat.pl.neut": "debitis",
+      "ppp.acc.pl.masc": "debitos",
+      "ppp.acc.pl.fem": "debitas",
+      "ppp.acc.pl.neut": "debita",
+      "ppp.abl.pl.masc": "debitis",
+      "ppp.abl.pl.fem": "debitis",
+      "ppp.abl.pl.neut": "debitis",
+      "ppp.voc.pl.masc": "debiti",
+      "ppp.voc.pl.fem": "debitae",
+      "ppp.voc.pl.neut": "debita"
+    }
   }
 }

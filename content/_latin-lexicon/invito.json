@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "invita",
       "2pl.pres.imp.act": "invitate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: invitatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "invitatus",
+      "ppp.nom.sg.fem": "invitata",
+      "ppp.nom.sg.neut": "invitatum",
+      "ppp.gen.sg.masc": "invitati",
+      "ppp.gen.sg.fem": "invitatae",
+      "ppp.gen.sg.neut": "invitati",
+      "ppp.dat.sg.masc": "invitato",
+      "ppp.dat.sg.fem": "invitatae",
+      "ppp.dat.sg.neut": "invitato",
+      "ppp.acc.sg.masc": "invitatum",
+      "ppp.acc.sg.fem": "invitatam",
+      "ppp.acc.sg.neut": "invitatum",
+      "ppp.abl.sg.masc": "invitato",
+      "ppp.abl.sg.fem": "invitata",
+      "ppp.abl.sg.neut": "invitato",
+      "ppp.voc.sg.masc": "invitate",
+      "ppp.voc.sg.fem": "invitata",
+      "ppp.voc.sg.neut": "invitatum",
+      "ppp.nom.pl.masc": "invitati",
+      "ppp.nom.pl.fem": "invitatae",
+      "ppp.nom.pl.neut": "invitata",
+      "ppp.gen.pl.masc": "invitatorum",
+      "ppp.gen.pl.fem": "invitatarum",
+      "ppp.gen.pl.neut": "invitatorum",
+      "ppp.dat.pl.masc": "invitatis",
+      "ppp.dat.pl.fem": "invitatis",
+      "ppp.dat.pl.neut": "invitatis",
+      "ppp.acc.pl.masc": "invitatos",
+      "ppp.acc.pl.fem": "invitatas",
+      "ppp.acc.pl.neut": "invitata",
+      "ppp.abl.pl.masc": "invitatis",
+      "ppp.abl.pl.fem": "invitatis",
+      "ppp.abl.pl.neut": "invitatis",
+      "ppp.voc.pl.masc": "invitati",
+      "ppp.voc.pl.fem": "invitatae",
+      "ppp.voc.pl.neut": "invitata"
+    }
   }
 }

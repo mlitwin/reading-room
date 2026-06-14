@@ -526,6 +526,76 @@ def generate_adj_paradigm(entry, lemma, rules):
     }
 
 
+PPP_ROWS = ['nom', 'gen', 'dat', 'acc', 'abl', 'voc']
+PPP_COLS = ['sg.masc', 'sg.fem', 'sg.neut', 'pl.masc', 'pl.fem', 'pl.neut']
+
+# Standard 1st/2nd decl PPP endings keyed by (case, sg/pl, gender).
+# Vocative sg masc ends in -e; all other vocatives = nominative.
+_PPP_ENDINGS = {
+    ('nom','sg','masc'):'us', ('nom','sg','fem'):'a',   ('nom','sg','neut'):'um',
+    ('gen','sg','masc'):'i',  ('gen','sg','fem'):'ae',  ('gen','sg','neut'):'i',
+    ('dat','sg','masc'):'o',  ('dat','sg','fem'):'ae',  ('dat','sg','neut'):'o',
+    ('acc','sg','masc'):'um', ('acc','sg','fem'):'am',  ('acc','sg','neut'):'um',
+    ('abl','sg','masc'):'o',  ('abl','sg','fem'):'a',   ('abl','sg','neut'):'o',
+    ('voc','sg','masc'):'e',  ('voc','sg','fem'):'a',   ('voc','sg','neut'):'um',
+    ('nom','pl','masc'):'i',  ('nom','pl','fem'):'ae',  ('nom','pl','neut'):'a',
+    ('gen','pl','masc'):'orum',('gen','pl','fem'):'arum',('gen','pl','neut'):'orum',
+    ('dat','pl','masc'):'is', ('dat','pl','fem'):'is',  ('dat','pl','neut'):'is',
+    ('acc','pl','masc'):'os', ('acc','pl','fem'):'as',  ('acc','pl','neut'):'a',
+    ('abl','pl','masc'):'is', ('abl','pl','fem'):'is',  ('abl','pl','neut'):'is',
+    ('voc','pl','masc'):'i',  ('voc','pl','fem'):'ae',  ('voc','pl','neut'):'a',
+}
+
+
+def ppp_stem_from_parts(principal_parts):
+    """Extract the PPP stem from the 4th principal part.
+
+    The 4th part is the supine/PPP base (e.g. 'mutatum' → stem 'mutat').
+    Returns None if the entry has no usable 4th part.
+    """
+    if not principal_parts or len(principal_parts) < 4:
+        return None
+    pp4 = principal_parts[3].strip()
+    # Skip placeholder or irregular entries that don't have a true PPP.
+    if not pp4 or pp4 in ('—', '-', '—', 'X'):
+        return None
+    # Strip macrons for comparison (futūrum → futurum).
+    pp4_plain = (pp4
+                 .replace('ā','a').replace('ē','e').replace('ī','i')
+                 .replace('ō','o').replace('ū','u').replace('Ā','A')
+                 .lower())
+    if not pp4_plain.endswith('um'):
+        return None
+    stem_plain = pp4_plain[:-2]
+    # Reject future active participle stems (e.g. futūrum → futur).
+    # These end in 'ur' and are not PPPs.
+    if stem_plain.endswith('ur'):
+        return None
+    # The stem is just the form with '-um' stripped.  Keep the original
+    # (possibly macron-bearing) characters up to the stem boundary.
+    return pp4[:-2]
+
+
+def generate_ppp_paradigm(principal_parts):
+    """Return a ppp_paradigm dict for a verb's 4th principal part, or None."""
+    stem = ppp_stem_from_parts(principal_parts)
+    if not stem:
+        return None
+    cells = {
+        f'ppp.{case}.{num}.{gen}': stem + ending
+        for (case, num, gen), ending in _PPP_ENDINGS.items()
+    }
+    nom_m = cells.get('ppp.nom.sg.masc', stem + 'us')
+    label = f'PPP: {nom_m} -a -um'
+    return {
+        'label': label,
+        'type': 'ppp',
+        'rows': PPP_ROWS,
+        'cols': PPP_COLS,
+        'cells': cells,
+    }
+
+
 def generate_verb_paradigm(entry, lemma, rules):
     """Generate just the present/perfect indicative active and present
     imperative active rows — the columns the existing cards use."""
@@ -647,6 +717,10 @@ def seed_lemma(lemma, morpheus_pos, entries, by_stem, rules, corrections):
         paradigm = generate_verb_paradigm(entry, lemma, rules)
     if paradigm:
         card['paradigm'] = paradigm
+    if entry['pos'] == 'V' and principal:
+        ppp = generate_ppp_paradigm(principal)
+        if ppp:
+            card['ppp_paradigm'] = ppp
 
     STAGING_DIR.mkdir(parents=True, exist_ok=True)
     (STAGING_DIR / f'{lemma}.json').write_text(

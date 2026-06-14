@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "coerce",
       "2pl.pres.imp.act": "coercete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: coercitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "coercitus",
+      "ppp.nom.sg.fem": "coercita",
+      "ppp.nom.sg.neut": "coercitum",
+      "ppp.gen.sg.masc": "coerciti",
+      "ppp.gen.sg.fem": "coercitae",
+      "ppp.gen.sg.neut": "coerciti",
+      "ppp.dat.sg.masc": "coercito",
+      "ppp.dat.sg.fem": "coercitae",
+      "ppp.dat.sg.neut": "coercito",
+      "ppp.acc.sg.masc": "coercitum",
+      "ppp.acc.sg.fem": "coercitam",
+      "ppp.acc.sg.neut": "coercitum",
+      "ppp.abl.sg.masc": "coercito",
+      "ppp.abl.sg.fem": "coercita",
+      "ppp.abl.sg.neut": "coercito",
+      "ppp.voc.sg.masc": "coercite",
+      "ppp.voc.sg.fem": "coercita",
+      "ppp.voc.sg.neut": "coercitum",
+      "ppp.nom.pl.masc": "coerciti",
+      "ppp.nom.pl.fem": "coercitae",
+      "ppp.nom.pl.neut": "coercita",
+      "ppp.gen.pl.masc": "coercitorum",
+      "ppp.gen.pl.fem": "coercitarum",
+      "ppp.gen.pl.neut": "coercitorum",
+      "ppp.dat.pl.masc": "coercitis",
+      "ppp.dat.pl.fem": "coercitis",
+      "ppp.dat.pl.neut": "coercitis",
+      "ppp.acc.pl.masc": "coercitos",
+      "ppp.acc.pl.fem": "coercitas",
+      "ppp.acc.pl.neut": "coercita",
+      "ppp.abl.pl.masc": "coercitis",
+      "ppp.abl.pl.fem": "coercitis",
+      "ppp.abl.pl.neut": "coercitis",
+      "ppp.voc.pl.masc": "coerciti",
+      "ppp.voc.pl.fem": "coercitae",
+      "ppp.voc.pl.neut": "coercita"
+    }
   }
 }

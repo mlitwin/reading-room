@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "reside",
       "2pl.pres.imp.act": "residete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: resessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "resessus",
+      "ppp.nom.sg.fem": "resessa",
+      "ppp.nom.sg.neut": "resessum",
+      "ppp.gen.sg.masc": "resessi",
+      "ppp.gen.sg.fem": "resessae",
+      "ppp.gen.sg.neut": "resessi",
+      "ppp.dat.sg.masc": "resesso",
+      "ppp.dat.sg.fem": "resessae",
+      "ppp.dat.sg.neut": "resesso",
+      "ppp.acc.sg.masc": "resessum",
+      "ppp.acc.sg.fem": "resessam",
+      "ppp.acc.sg.neut": "resessum",
+      "ppp.abl.sg.masc": "resesso",
+      "ppp.abl.sg.fem": "resessa",
+      "ppp.abl.sg.neut": "resesso",
+      "ppp.voc.sg.masc": "resesse",
+      "ppp.voc.sg.fem": "resessa",
+      "ppp.voc.sg.neut": "resessum",
+      "ppp.nom.pl.masc": "resessi",
+      "ppp.nom.pl.fem": "resessae",
+      "ppp.nom.pl.neut": "resessa",
+      "ppp.gen.pl.masc": "resessorum",
+      "ppp.gen.pl.fem": "resessarum",
+      "ppp.gen.pl.neut": "resessorum",
+      "ppp.dat.pl.masc": "resessis",
+      "ppp.dat.pl.fem": "resessis",
+      "ppp.dat.pl.neut": "resessis",
+      "ppp.acc.pl.masc": "resessos",
+      "ppp.acc.pl.fem": "resessas",
+      "ppp.acc.pl.neut": "resessa",
+      "ppp.abl.pl.masc": "resessis",
+      "ppp.abl.pl.fem": "resessis",
+      "ppp.abl.pl.neut": "resessis",
+      "ppp.voc.pl.masc": "resessi",
+      "ppp.voc.pl.fem": "resessae",
+      "ppp.voc.pl.neut": "resessa"
+    }
   }
 }

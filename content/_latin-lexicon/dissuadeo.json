@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "dissuade",
       "2pl.pres.imp.act": "dissuadete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dissuasus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dissuasus",
+      "ppp.nom.sg.fem": "dissuasa",
+      "ppp.nom.sg.neut": "dissuasum",
+      "ppp.gen.sg.masc": "dissuasi",
+      "ppp.gen.sg.fem": "dissuasae",
+      "ppp.gen.sg.neut": "dissuasi",
+      "ppp.dat.sg.masc": "dissuaso",
+      "ppp.dat.sg.fem": "dissuasae",
+      "ppp.dat.sg.neut": "dissuaso",
+      "ppp.acc.sg.masc": "dissuasum",
+      "ppp.acc.sg.fem": "dissuasam",
+      "ppp.acc.sg.neut": "dissuasum",
+      "ppp.abl.sg.masc": "dissuaso",
+      "ppp.abl.sg.fem": "dissuasa",
+      "ppp.abl.sg.neut": "dissuaso",
+      "ppp.voc.sg.masc": "dissuase",
+      "ppp.voc.sg.fem": "dissuasa",
+      "ppp.voc.sg.neut": "dissuasum",
+      "ppp.nom.pl.masc": "dissuasi",
+      "ppp.nom.pl.fem": "dissuasae",
+      "ppp.nom.pl.neut": "dissuasa",
+      "ppp.gen.pl.masc": "dissuasorum",
+      "ppp.gen.pl.fem": "dissuasarum",
+      "ppp.gen.pl.neut": "dissuasorum",
+      "ppp.dat.pl.masc": "dissuasis",
+      "ppp.dat.pl.fem": "dissuasis",
+      "ppp.dat.pl.neut": "dissuasis",
+      "ppp.acc.pl.masc": "dissuasos",
+      "ppp.acc.pl.fem": "dissuasas",
+      "ppp.acc.pl.neut": "dissuasa",
+      "ppp.abl.pl.masc": "dissuasis",
+      "ppp.abl.pl.fem": "dissuasis",
+      "ppp.abl.pl.neut": "dissuasis",
+      "ppp.voc.pl.masc": "dissuasi",
+      "ppp.voc.pl.fem": "dissuasae",
+      "ppp.voc.pl.neut": "dissuasa"
+    }
   }
 }

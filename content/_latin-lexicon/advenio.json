@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "adveni",
       "2pl.pres.imp.act": "advenite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: adventus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "adventus",
+      "ppp.nom.sg.fem": "adventa",
+      "ppp.nom.sg.neut": "adventum",
+      "ppp.gen.sg.masc": "adventi",
+      "ppp.gen.sg.fem": "adventae",
+      "ppp.gen.sg.neut": "adventi",
+      "ppp.dat.sg.masc": "advento",
+      "ppp.dat.sg.fem": "adventae",
+      "ppp.dat.sg.neut": "advento",
+      "ppp.acc.sg.masc": "adventum",
+      "ppp.acc.sg.fem": "adventam",
+      "ppp.acc.sg.neut": "adventum",
+      "ppp.abl.sg.masc": "advento",
+      "ppp.abl.sg.fem": "adventa",
+      "ppp.abl.sg.neut": "advento",
+      "ppp.voc.sg.masc": "advente",
+      "ppp.voc.sg.fem": "adventa",
+      "ppp.voc.sg.neut": "adventum",
+      "ppp.nom.pl.masc": "adventi",
+      "ppp.nom.pl.fem": "adventae",
+      "ppp.nom.pl.neut": "adventa",
+      "ppp.gen.pl.masc": "adventorum",
+      "ppp.gen.pl.fem": "adventarum",
+      "ppp.gen.pl.neut": "adventorum",
+      "ppp.dat.pl.masc": "adventis",
+      "ppp.dat.pl.fem": "adventis",
+      "ppp.dat.pl.neut": "adventis",
+      "ppp.acc.pl.masc": "adventos",
+      "ppp.acc.pl.fem": "adventas",
+      "ppp.acc.pl.neut": "adventa",
+      "ppp.abl.pl.masc": "adventis",
+      "ppp.abl.pl.fem": "adventis",
+      "ppp.abl.pl.neut": "adventis",
+      "ppp.voc.pl.masc": "adventi",
+      "ppp.voc.pl.fem": "adventae",
+      "ppp.voc.pl.neut": "adventa"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "obsiste",
       "2pl.pres.imp.act": "obsistite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: obstitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "obstitus",
+      "ppp.nom.sg.fem": "obstita",
+      "ppp.nom.sg.neut": "obstitum",
+      "ppp.gen.sg.masc": "obstiti",
+      "ppp.gen.sg.fem": "obstitae",
+      "ppp.gen.sg.neut": "obstiti",
+      "ppp.dat.sg.masc": "obstito",
+      "ppp.dat.sg.fem": "obstitae",
+      "ppp.dat.sg.neut": "obstito",
+      "ppp.acc.sg.masc": "obstitum",
+      "ppp.acc.sg.fem": "obstitam",
+      "ppp.acc.sg.neut": "obstitum",
+      "ppp.abl.sg.masc": "obstito",
+      "ppp.abl.sg.fem": "obstita",
+      "ppp.abl.sg.neut": "obstito",
+      "ppp.voc.sg.masc": "obstite",
+      "ppp.voc.sg.fem": "obstita",
+      "ppp.voc.sg.neut": "obstitum",
+      "ppp.nom.pl.masc": "obstiti",
+      "ppp.nom.pl.fem": "obstitae",
+      "ppp.nom.pl.neut": "obstita",
+      "ppp.gen.pl.masc": "obstitorum",
+      "ppp.gen.pl.fem": "obstitarum",
+      "ppp.gen.pl.neut": "obstitorum",
+      "ppp.dat.pl.masc": "obstitis",
+      "ppp.dat.pl.fem": "obstitis",
+      "ppp.dat.pl.neut": "obstitis",
+      "ppp.acc.pl.masc": "obstitos",
+      "ppp.acc.pl.fem": "obstitas",
+      "ppp.acc.pl.neut": "obstita",
+      "ppp.abl.pl.masc": "obstitis",
+      "ppp.abl.pl.fem": "obstitis",
+      "ppp.abl.pl.neut": "obstitis",
+      "ppp.voc.pl.masc": "obstiti",
+      "ppp.voc.pl.fem": "obstitae",
+      "ppp.voc.pl.neut": "obstita"
+    }
   }
 }

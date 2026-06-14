@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "ure",
       "2pl.pres.imp.act": "urite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ustus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ustus",
+      "ppp.nom.sg.fem": "usta",
+      "ppp.nom.sg.neut": "ustum",
+      "ppp.gen.sg.masc": "usti",
+      "ppp.gen.sg.fem": "ustae",
+      "ppp.gen.sg.neut": "usti",
+      "ppp.dat.sg.masc": "usto",
+      "ppp.dat.sg.fem": "ustae",
+      "ppp.dat.sg.neut": "usto",
+      "ppp.acc.sg.masc": "ustum",
+      "ppp.acc.sg.fem": "ustam",
+      "ppp.acc.sg.neut": "ustum",
+      "ppp.abl.sg.masc": "usto",
+      "ppp.abl.sg.fem": "usta",
+      "ppp.abl.sg.neut": "usto",
+      "ppp.voc.sg.masc": "uste",
+      "ppp.voc.sg.fem": "usta",
+      "ppp.voc.sg.neut": "ustum",
+      "ppp.nom.pl.masc": "usti",
+      "ppp.nom.pl.fem": "ustae",
+      "ppp.nom.pl.neut": "usta",
+      "ppp.gen.pl.masc": "ustorum",
+      "ppp.gen.pl.fem": "ustarum",
+      "ppp.gen.pl.neut": "ustorum",
+      "ppp.dat.pl.masc": "ustis",
+      "ppp.dat.pl.fem": "ustis",
+      "ppp.dat.pl.neut": "ustis",
+      "ppp.acc.pl.masc": "ustos",
+      "ppp.acc.pl.fem": "ustas",
+      "ppp.acc.pl.neut": "usta",
+      "ppp.abl.pl.masc": "ustis",
+      "ppp.abl.pl.fem": "ustis",
+      "ppp.abl.pl.neut": "ustis",
+      "ppp.voc.pl.masc": "usti",
+      "ppp.voc.pl.fem": "ustae",
+      "ppp.voc.pl.neut": "usta"
+    }
   }
 }

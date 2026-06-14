@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "reprime",
       "2pl.pres.imp.act": "reprimite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: repressus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "repressus",
+      "ppp.nom.sg.fem": "repressa",
+      "ppp.nom.sg.neut": "repressum",
+      "ppp.gen.sg.masc": "repressi",
+      "ppp.gen.sg.fem": "repressae",
+      "ppp.gen.sg.neut": "repressi",
+      "ppp.dat.sg.masc": "represso",
+      "ppp.dat.sg.fem": "repressae",
+      "ppp.dat.sg.neut": "represso",
+      "ppp.acc.sg.masc": "repressum",
+      "ppp.acc.sg.fem": "repressam",
+      "ppp.acc.sg.neut": "repressum",
+      "ppp.abl.sg.masc": "represso",
+      "ppp.abl.sg.fem": "repressa",
+      "ppp.abl.sg.neut": "represso",
+      "ppp.voc.sg.masc": "represse",
+      "ppp.voc.sg.fem": "repressa",
+      "ppp.voc.sg.neut": "repressum",
+      "ppp.nom.pl.masc": "repressi",
+      "ppp.nom.pl.fem": "repressae",
+      "ppp.nom.pl.neut": "repressa",
+      "ppp.gen.pl.masc": "repressorum",
+      "ppp.gen.pl.fem": "repressarum",
+      "ppp.gen.pl.neut": "repressorum",
+      "ppp.dat.pl.masc": "repressis",
+      "ppp.dat.pl.fem": "repressis",
+      "ppp.dat.pl.neut": "repressis",
+      "ppp.acc.pl.masc": "repressos",
+      "ppp.acc.pl.fem": "repressas",
+      "ppp.acc.pl.neut": "repressa",
+      "ppp.abl.pl.masc": "repressis",
+      "ppp.abl.pl.fem": "repressis",
+      "ppp.abl.pl.neut": "repressis",
+      "ppp.voc.pl.masc": "repressi",
+      "ppp.voc.pl.fem": "repressae",
+      "ppp.voc.pl.neut": "repressa"
+    }
   }
 }

@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "innube",
       "2pl.pres.imp.act": "innubite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: innuptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "innuptus",
+      "ppp.nom.sg.fem": "innupta",
+      "ppp.nom.sg.neut": "innuptum",
+      "ppp.gen.sg.masc": "innupti",
+      "ppp.gen.sg.fem": "innuptae",
+      "ppp.gen.sg.neut": "innupti",
+      "ppp.dat.sg.masc": "innupto",
+      "ppp.dat.sg.fem": "innuptae",
+      "ppp.dat.sg.neut": "innupto",
+      "ppp.acc.sg.masc": "innuptum",
+      "ppp.acc.sg.fem": "innuptam",
+      "ppp.acc.sg.neut": "innuptum",
+      "ppp.abl.sg.masc": "innupto",
+      "ppp.abl.sg.fem": "innupta",
+      "ppp.abl.sg.neut": "innupto",
+      "ppp.voc.sg.masc": "innupte",
+      "ppp.voc.sg.fem": "innupta",
+      "ppp.voc.sg.neut": "innuptum",
+      "ppp.nom.pl.masc": "innupti",
+      "ppp.nom.pl.fem": "innuptae",
+      "ppp.nom.pl.neut": "innupta",
+      "ppp.gen.pl.masc": "innuptorum",
+      "ppp.gen.pl.fem": "innuptarum",
+      "ppp.gen.pl.neut": "innuptorum",
+      "ppp.dat.pl.masc": "innuptis",
+      "ppp.dat.pl.fem": "innuptis",
+      "ppp.dat.pl.neut": "innuptis",
+      "ppp.acc.pl.masc": "innuptos",
+      "ppp.acc.pl.fem": "innuptas",
+      "ppp.acc.pl.neut": "innupta",
+      "ppp.abl.pl.masc": "innuptis",
+      "ppp.abl.pl.fem": "innuptis",
+      "ppp.abl.pl.neut": "innuptis",
+      "ppp.voc.pl.masc": "innupti",
+      "ppp.voc.pl.fem": "innuptae",
+      "ppp.voc.pl.neut": "innupta"
+    }
   }
 }

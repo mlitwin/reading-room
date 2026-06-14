@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "remove",
       "2pl.pres.imp.act": "removete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: remotus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "remotus",
+      "ppp.nom.sg.fem": "remota",
+      "ppp.nom.sg.neut": "remotum",
+      "ppp.gen.sg.masc": "remoti",
+      "ppp.gen.sg.fem": "remotae",
+      "ppp.gen.sg.neut": "remoti",
+      "ppp.dat.sg.masc": "remoto",
+      "ppp.dat.sg.fem": "remotae",
+      "ppp.dat.sg.neut": "remoto",
+      "ppp.acc.sg.masc": "remotum",
+      "ppp.acc.sg.fem": "remotam",
+      "ppp.acc.sg.neut": "remotum",
+      "ppp.abl.sg.masc": "remoto",
+      "ppp.abl.sg.fem": "remota",
+      "ppp.abl.sg.neut": "remoto",
+      "ppp.voc.sg.masc": "remote",
+      "ppp.voc.sg.fem": "remota",
+      "ppp.voc.sg.neut": "remotum",
+      "ppp.nom.pl.masc": "remoti",
+      "ppp.nom.pl.fem": "remotae",
+      "ppp.nom.pl.neut": "remota",
+      "ppp.gen.pl.masc": "remotorum",
+      "ppp.gen.pl.fem": "remotarum",
+      "ppp.gen.pl.neut": "remotorum",
+      "ppp.dat.pl.masc": "remotis",
+      "ppp.dat.pl.fem": "remotis",
+      "ppp.dat.pl.neut": "remotis",
+      "ppp.acc.pl.masc": "remotos",
+      "ppp.acc.pl.fem": "remotas",
+      "ppp.acc.pl.neut": "remota",
+      "ppp.abl.pl.masc": "remotis",
+      "ppp.abl.pl.fem": "remotis",
+      "ppp.abl.pl.neut": "remotis",
+      "ppp.voc.pl.masc": "remoti",
+      "ppp.voc.pl.fem": "remotae",
+      "ppp.voc.pl.neut": "remota"
+    }
   }
 }

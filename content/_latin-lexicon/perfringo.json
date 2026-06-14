@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "perfringe",
       "2pl.pres.imp.act": "perfringite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: perfractus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "perfractus",
+      "ppp.nom.sg.fem": "perfracta",
+      "ppp.nom.sg.neut": "perfractum",
+      "ppp.gen.sg.masc": "perfracti",
+      "ppp.gen.sg.fem": "perfractae",
+      "ppp.gen.sg.neut": "perfracti",
+      "ppp.dat.sg.masc": "perfracto",
+      "ppp.dat.sg.fem": "perfractae",
+      "ppp.dat.sg.neut": "perfracto",
+      "ppp.acc.sg.masc": "perfractum",
+      "ppp.acc.sg.fem": "perfractam",
+      "ppp.acc.sg.neut": "perfractum",
+      "ppp.abl.sg.masc": "perfracto",
+      "ppp.abl.sg.fem": "perfracta",
+      "ppp.abl.sg.neut": "perfracto",
+      "ppp.voc.sg.masc": "perfracte",
+      "ppp.voc.sg.fem": "perfracta",
+      "ppp.voc.sg.neut": "perfractum",
+      "ppp.nom.pl.masc": "perfracti",
+      "ppp.nom.pl.fem": "perfractae",
+      "ppp.nom.pl.neut": "perfracta",
+      "ppp.gen.pl.masc": "perfractorum",
+      "ppp.gen.pl.fem": "perfractarum",
+      "ppp.gen.pl.neut": "perfractorum",
+      "ppp.dat.pl.masc": "perfractis",
+      "ppp.dat.pl.fem": "perfractis",
+      "ppp.dat.pl.neut": "perfractis",
+      "ppp.acc.pl.masc": "perfractos",
+      "ppp.acc.pl.fem": "perfractas",
+      "ppp.acc.pl.neut": "perfracta",
+      "ppp.abl.pl.masc": "perfractis",
+      "ppp.abl.pl.fem": "perfractis",
+      "ppp.abl.pl.neut": "perfractis",
+      "ppp.voc.pl.masc": "perfracti",
+      "ppp.voc.pl.fem": "perfractae",
+      "ppp.voc.pl.neut": "perfracta"
+    }
   }
 }

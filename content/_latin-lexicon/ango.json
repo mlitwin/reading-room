@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "ange",
       "2pl.pres.imp.act": "angite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: anctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "anctus",
+      "ppp.nom.sg.fem": "ancta",
+      "ppp.nom.sg.neut": "anctum",
+      "ppp.gen.sg.masc": "ancti",
+      "ppp.gen.sg.fem": "anctae",
+      "ppp.gen.sg.neut": "ancti",
+      "ppp.dat.sg.masc": "ancto",
+      "ppp.dat.sg.fem": "anctae",
+      "ppp.dat.sg.neut": "ancto",
+      "ppp.acc.sg.masc": "anctum",
+      "ppp.acc.sg.fem": "anctam",
+      "ppp.acc.sg.neut": "anctum",
+      "ppp.abl.sg.masc": "ancto",
+      "ppp.abl.sg.fem": "ancta",
+      "ppp.abl.sg.neut": "ancto",
+      "ppp.voc.sg.masc": "ancte",
+      "ppp.voc.sg.fem": "ancta",
+      "ppp.voc.sg.neut": "anctum",
+      "ppp.nom.pl.masc": "ancti",
+      "ppp.nom.pl.fem": "anctae",
+      "ppp.nom.pl.neut": "ancta",
+      "ppp.gen.pl.masc": "anctorum",
+      "ppp.gen.pl.fem": "anctarum",
+      "ppp.gen.pl.neut": "anctorum",
+      "ppp.dat.pl.masc": "anctis",
+      "ppp.dat.pl.fem": "anctis",
+      "ppp.dat.pl.neut": "anctis",
+      "ppp.acc.pl.masc": "anctos",
+      "ppp.acc.pl.fem": "anctas",
+      "ppp.acc.pl.neut": "ancta",
+      "ppp.abl.pl.masc": "anctis",
+      "ppp.abl.pl.fem": "anctis",
+      "ppp.abl.pl.neut": "anctis",
+      "ppp.voc.pl.masc": "ancti",
+      "ppp.voc.pl.fem": "anctae",
+      "ppp.voc.pl.neut": "ancta"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "mora",
       "2pl.pres.imp.act": "morate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: moratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "moratus",
+      "ppp.nom.sg.fem": "morata",
+      "ppp.nom.sg.neut": "moratum",
+      "ppp.gen.sg.masc": "morati",
+      "ppp.gen.sg.fem": "moratae",
+      "ppp.gen.sg.neut": "morati",
+      "ppp.dat.sg.masc": "morato",
+      "ppp.dat.sg.fem": "moratae",
+      "ppp.dat.sg.neut": "morato",
+      "ppp.acc.sg.masc": "moratum",
+      "ppp.acc.sg.fem": "moratam",
+      "ppp.acc.sg.neut": "moratum",
+      "ppp.abl.sg.masc": "morato",
+      "ppp.abl.sg.fem": "morata",
+      "ppp.abl.sg.neut": "morato",
+      "ppp.voc.sg.masc": "morate",
+      "ppp.voc.sg.fem": "morata",
+      "ppp.voc.sg.neut": "moratum",
+      "ppp.nom.pl.masc": "morati",
+      "ppp.nom.pl.fem": "moratae",
+      "ppp.nom.pl.neut": "morata",
+      "ppp.gen.pl.masc": "moratorum",
+      "ppp.gen.pl.fem": "moratarum",
+      "ppp.gen.pl.neut": "moratorum",
+      "ppp.dat.pl.masc": "moratis",
+      "ppp.dat.pl.fem": "moratis",
+      "ppp.dat.pl.neut": "moratis",
+      "ppp.acc.pl.masc": "moratos",
+      "ppp.acc.pl.fem": "moratas",
+      "ppp.acc.pl.neut": "morata",
+      "ppp.abl.pl.masc": "moratis",
+      "ppp.abl.pl.fem": "moratis",
+      "ppp.abl.pl.neut": "moratis",
+      "ppp.voc.pl.masc": "morati",
+      "ppp.voc.pl.fem": "moratae",
+      "ppp.voc.pl.neut": "morata"
+    }
   }
 }

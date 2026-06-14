@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "tace",
       "2pl.pres.imp.act": "tacete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tacitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tacitus",
+      "ppp.nom.sg.fem": "tacita",
+      "ppp.nom.sg.neut": "tacitum",
+      "ppp.gen.sg.masc": "taciti",
+      "ppp.gen.sg.fem": "tacitae",
+      "ppp.gen.sg.neut": "taciti",
+      "ppp.dat.sg.masc": "tacito",
+      "ppp.dat.sg.fem": "tacitae",
+      "ppp.dat.sg.neut": "tacito",
+      "ppp.acc.sg.masc": "tacitum",
+      "ppp.acc.sg.fem": "tacitam",
+      "ppp.acc.sg.neut": "tacitum",
+      "ppp.abl.sg.masc": "tacito",
+      "ppp.abl.sg.fem": "tacita",
+      "ppp.abl.sg.neut": "tacito",
+      "ppp.voc.sg.masc": "tacite",
+      "ppp.voc.sg.fem": "tacita",
+      "ppp.voc.sg.neut": "tacitum",
+      "ppp.nom.pl.masc": "taciti",
+      "ppp.nom.pl.fem": "tacitae",
+      "ppp.nom.pl.neut": "tacita",
+      "ppp.gen.pl.masc": "tacitorum",
+      "ppp.gen.pl.fem": "tacitarum",
+      "ppp.gen.pl.neut": "tacitorum",
+      "ppp.dat.pl.masc": "tacitis",
+      "ppp.dat.pl.fem": "tacitis",
+      "ppp.dat.pl.neut": "tacitis",
+      "ppp.acc.pl.masc": "tacitos",
+      "ppp.acc.pl.fem": "tacitas",
+      "ppp.acc.pl.neut": "tacita",
+      "ppp.abl.pl.masc": "tacitis",
+      "ppp.abl.pl.fem": "tacitis",
+      "ppp.abl.pl.neut": "tacitis",
+      "ppp.voc.pl.masc": "taciti",
+      "ppp.voc.pl.fem": "tacitae",
+      "ppp.voc.pl.neut": "tacita"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "sanci",
       "2pl.pres.imp.act": "sancite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sanctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sanctus",
+      "ppp.nom.sg.fem": "sancta",
+      "ppp.nom.sg.neut": "sanctum",
+      "ppp.gen.sg.masc": "sancti",
+      "ppp.gen.sg.fem": "sanctae",
+      "ppp.gen.sg.neut": "sancti",
+      "ppp.dat.sg.masc": "sancto",
+      "ppp.dat.sg.fem": "sanctae",
+      "ppp.dat.sg.neut": "sancto",
+      "ppp.acc.sg.masc": "sanctum",
+      "ppp.acc.sg.fem": "sanctam",
+      "ppp.acc.sg.neut": "sanctum",
+      "ppp.abl.sg.masc": "sancto",
+      "ppp.abl.sg.fem": "sancta",
+      "ppp.abl.sg.neut": "sancto",
+      "ppp.voc.sg.masc": "sancte",
+      "ppp.voc.sg.fem": "sancta",
+      "ppp.voc.sg.neut": "sanctum",
+      "ppp.nom.pl.masc": "sancti",
+      "ppp.nom.pl.fem": "sanctae",
+      "ppp.nom.pl.neut": "sancta",
+      "ppp.gen.pl.masc": "sanctorum",
+      "ppp.gen.pl.fem": "sanctarum",
+      "ppp.gen.pl.neut": "sanctorum",
+      "ppp.dat.pl.masc": "sanctis",
+      "ppp.dat.pl.fem": "sanctis",
+      "ppp.dat.pl.neut": "sanctis",
+      "ppp.acc.pl.masc": "sanctos",
+      "ppp.acc.pl.fem": "sanctas",
+      "ppp.acc.pl.neut": "sancta",
+      "ppp.abl.pl.masc": "sanctis",
+      "ppp.abl.pl.fem": "sanctis",
+      "ppp.abl.pl.neut": "sanctis",
+      "ppp.voc.pl.masc": "sancti",
+      "ppp.voc.pl.fem": "sanctae",
+      "ppp.voc.pl.neut": "sancta"
+    }
   }
 }

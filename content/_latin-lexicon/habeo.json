@@ -70,5 +70,63 @@
       "2pl.imperf.subj.act": "habērētis",
       "3pl.imperf.subj.act": "habērent"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: habitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "habitus",
+      "ppp.nom.sg.fem": "habita",
+      "ppp.nom.sg.neut": "habitum",
+      "ppp.gen.sg.masc": "habiti",
+      "ppp.gen.sg.fem": "habitae",
+      "ppp.gen.sg.neut": "habiti",
+      "ppp.dat.sg.masc": "habito",
+      "ppp.dat.sg.fem": "habitae",
+      "ppp.dat.sg.neut": "habito",
+      "ppp.acc.sg.masc": "habitum",
+      "ppp.acc.sg.fem": "habitam",
+      "ppp.acc.sg.neut": "habitum",
+      "ppp.abl.sg.masc": "habito",
+      "ppp.abl.sg.fem": "habita",
+      "ppp.abl.sg.neut": "habito",
+      "ppp.voc.sg.masc": "habite",
+      "ppp.voc.sg.fem": "habita",
+      "ppp.voc.sg.neut": "habitum",
+      "ppp.nom.pl.masc": "habiti",
+      "ppp.nom.pl.fem": "habitae",
+      "ppp.nom.pl.neut": "habita",
+      "ppp.gen.pl.masc": "habitorum",
+      "ppp.gen.pl.fem": "habitarum",
+      "ppp.gen.pl.neut": "habitorum",
+      "ppp.dat.pl.masc": "habitis",
+      "ppp.dat.pl.fem": "habitis",
+      "ppp.dat.pl.neut": "habitis",
+      "ppp.acc.pl.masc": "habitos",
+      "ppp.acc.pl.fem": "habitas",
+      "ppp.acc.pl.neut": "habita",
+      "ppp.abl.pl.masc": "habitis",
+      "ppp.abl.pl.fem": "habitis",
+      "ppp.abl.pl.neut": "habitis",
+      "ppp.voc.pl.masc": "habiti",
+      "ppp.voc.pl.fem": "habitae",
+      "ppp.voc.pl.neut": "habita"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "diffide",
       "2pl.pres.imp.act": "diffidite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: diffisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "diffisus",
+      "ppp.nom.sg.fem": "diffisa",
+      "ppp.nom.sg.neut": "diffisum",
+      "ppp.gen.sg.masc": "diffisi",
+      "ppp.gen.sg.fem": "diffisae",
+      "ppp.gen.sg.neut": "diffisi",
+      "ppp.dat.sg.masc": "diffiso",
+      "ppp.dat.sg.fem": "diffisae",
+      "ppp.dat.sg.neut": "diffiso",
+      "ppp.acc.sg.masc": "diffisum",
+      "ppp.acc.sg.fem": "diffisam",
+      "ppp.acc.sg.neut": "diffisum",
+      "ppp.abl.sg.masc": "diffiso",
+      "ppp.abl.sg.fem": "diffisa",
+      "ppp.abl.sg.neut": "diffiso",
+      "ppp.voc.sg.masc": "diffise",
+      "ppp.voc.sg.fem": "diffisa",
+      "ppp.voc.sg.neut": "diffisum",
+      "ppp.nom.pl.masc": "diffisi",
+      "ppp.nom.pl.fem": "diffisae",
+      "ppp.nom.pl.neut": "diffisa",
+      "ppp.gen.pl.masc": "diffisorum",
+      "ppp.gen.pl.fem": "diffisarum",
+      "ppp.gen.pl.neut": "diffisorum",
+      "ppp.dat.pl.masc": "diffisis",
+      "ppp.dat.pl.fem": "diffisis",
+      "ppp.dat.pl.neut": "diffisis",
+      "ppp.acc.pl.masc": "diffisos",
+      "ppp.acc.pl.fem": "diffisas",
+      "ppp.acc.pl.neut": "diffisa",
+      "ppp.abl.pl.masc": "diffisis",
+      "ppp.abl.pl.fem": "diffisis",
+      "ppp.abl.pl.neut": "diffisis",
+      "ppp.voc.pl.masc": "diffisi",
+      "ppp.voc.pl.fem": "diffisae",
+      "ppp.voc.pl.neut": "diffisa"
+    }
   }
 }

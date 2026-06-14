@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "jube",
       "2pl.pres.imp.act": "jubete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: jussus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "jussus",
+      "ppp.nom.sg.fem": "jussa",
+      "ppp.nom.sg.neut": "jussum",
+      "ppp.gen.sg.masc": "jussi",
+      "ppp.gen.sg.fem": "jussae",
+      "ppp.gen.sg.neut": "jussi",
+      "ppp.dat.sg.masc": "jusso",
+      "ppp.dat.sg.fem": "jussae",
+      "ppp.dat.sg.neut": "jusso",
+      "ppp.acc.sg.masc": "jussum",
+      "ppp.acc.sg.fem": "jussam",
+      "ppp.acc.sg.neut": "jussum",
+      "ppp.abl.sg.masc": "jusso",
+      "ppp.abl.sg.fem": "jussa",
+      "ppp.abl.sg.neut": "jusso",
+      "ppp.voc.sg.masc": "jusse",
+      "ppp.voc.sg.fem": "jussa",
+      "ppp.voc.sg.neut": "jussum",
+      "ppp.nom.pl.masc": "jussi",
+      "ppp.nom.pl.fem": "jussae",
+      "ppp.nom.pl.neut": "jussa",
+      "ppp.gen.pl.masc": "jussorum",
+      "ppp.gen.pl.fem": "jussarum",
+      "ppp.gen.pl.neut": "jussorum",
+      "ppp.dat.pl.masc": "jussis",
+      "ppp.dat.pl.fem": "jussis",
+      "ppp.dat.pl.neut": "jussis",
+      "ppp.acc.pl.masc": "jussos",
+      "ppp.acc.pl.fem": "jussas",
+      "ppp.acc.pl.neut": "jussa",
+      "ppp.abl.pl.masc": "jussis",
+      "ppp.abl.pl.fem": "jussis",
+      "ppp.abl.pl.neut": "jussis",
+      "ppp.voc.pl.masc": "jussi",
+      "ppp.voc.pl.fem": "jussae",
+      "ppp.voc.pl.neut": "jussa"
+    }
   }
 }

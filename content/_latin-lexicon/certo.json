@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "certa",
       "2pl.pres.imp.act": "certate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: certatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "certatus",
+      "ppp.nom.sg.fem": "certata",
+      "ppp.nom.sg.neut": "certatum",
+      "ppp.gen.sg.masc": "certati",
+      "ppp.gen.sg.fem": "certatae",
+      "ppp.gen.sg.neut": "certati",
+      "ppp.dat.sg.masc": "certato",
+      "ppp.dat.sg.fem": "certatae",
+      "ppp.dat.sg.neut": "certato",
+      "ppp.acc.sg.masc": "certatum",
+      "ppp.acc.sg.fem": "certatam",
+      "ppp.acc.sg.neut": "certatum",
+      "ppp.abl.sg.masc": "certato",
+      "ppp.abl.sg.fem": "certata",
+      "ppp.abl.sg.neut": "certato",
+      "ppp.voc.sg.masc": "certate",
+      "ppp.voc.sg.fem": "certata",
+      "ppp.voc.sg.neut": "certatum",
+      "ppp.nom.pl.masc": "certati",
+      "ppp.nom.pl.fem": "certatae",
+      "ppp.nom.pl.neut": "certata",
+      "ppp.gen.pl.masc": "certatorum",
+      "ppp.gen.pl.fem": "certatarum",
+      "ppp.gen.pl.neut": "certatorum",
+      "ppp.dat.pl.masc": "certatis",
+      "ppp.dat.pl.fem": "certatis",
+      "ppp.dat.pl.neut": "certatis",
+      "ppp.acc.pl.masc": "certatos",
+      "ppp.acc.pl.fem": "certatas",
+      "ppp.acc.pl.neut": "certata",
+      "ppp.abl.pl.masc": "certatis",
+      "ppp.abl.pl.fem": "certatis",
+      "ppp.abl.pl.neut": "certatis",
+      "ppp.voc.pl.masc": "certati",
+      "ppp.voc.pl.fem": "certatae",
+      "ppp.voc.pl.neut": "certata"
+    }
   }
 }

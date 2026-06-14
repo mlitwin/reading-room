@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "sopi",
       "2pl.pres.imp.act": "sopite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sopitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sopitus",
+      "ppp.nom.sg.fem": "sopita",
+      "ppp.nom.sg.neut": "sopitum",
+      "ppp.gen.sg.masc": "sopiti",
+      "ppp.gen.sg.fem": "sopitae",
+      "ppp.gen.sg.neut": "sopiti",
+      "ppp.dat.sg.masc": "sopito",
+      "ppp.dat.sg.fem": "sopitae",
+      "ppp.dat.sg.neut": "sopito",
+      "ppp.acc.sg.masc": "sopitum",
+      "ppp.acc.sg.fem": "sopitam",
+      "ppp.acc.sg.neut": "sopitum",
+      "ppp.abl.sg.masc": "sopito",
+      "ppp.abl.sg.fem": "sopita",
+      "ppp.abl.sg.neut": "sopito",
+      "ppp.voc.sg.masc": "sopite",
+      "ppp.voc.sg.fem": "sopita",
+      "ppp.voc.sg.neut": "sopitum",
+      "ppp.nom.pl.masc": "sopiti",
+      "ppp.nom.pl.fem": "sopitae",
+      "ppp.nom.pl.neut": "sopita",
+      "ppp.gen.pl.masc": "sopitorum",
+      "ppp.gen.pl.fem": "sopitarum",
+      "ppp.gen.pl.neut": "sopitorum",
+      "ppp.dat.pl.masc": "sopitis",
+      "ppp.dat.pl.fem": "sopitis",
+      "ppp.dat.pl.neut": "sopitis",
+      "ppp.acc.pl.masc": "sopitos",
+      "ppp.acc.pl.fem": "sopitas",
+      "ppp.acc.pl.neut": "sopita",
+      "ppp.abl.pl.masc": "sopitis",
+      "ppp.abl.pl.fem": "sopitis",
+      "ppp.abl.pl.neut": "sopitis",
+      "ppp.voc.pl.masc": "sopiti",
+      "ppp.voc.pl.fem": "sopitae",
+      "ppp.voc.pl.neut": "sopita"
+    }
   }
 }

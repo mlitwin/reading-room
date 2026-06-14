@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "exterre",
       "2pl.pres.imp.act": "exterrete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exterritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exterritus",
+      "ppp.nom.sg.fem": "exterrita",
+      "ppp.nom.sg.neut": "exterritum",
+      "ppp.gen.sg.masc": "exterriti",
+      "ppp.gen.sg.fem": "exterritae",
+      "ppp.gen.sg.neut": "exterriti",
+      "ppp.dat.sg.masc": "exterrito",
+      "ppp.dat.sg.fem": "exterritae",
+      "ppp.dat.sg.neut": "exterrito",
+      "ppp.acc.sg.masc": "exterritum",
+      "ppp.acc.sg.fem": "exterritam",
+      "ppp.acc.sg.neut": "exterritum",
+      "ppp.abl.sg.masc": "exterrito",
+      "ppp.abl.sg.fem": "exterrita",
+      "ppp.abl.sg.neut": "exterrito",
+      "ppp.voc.sg.masc": "exterrite",
+      "ppp.voc.sg.fem": "exterrita",
+      "ppp.voc.sg.neut": "exterritum",
+      "ppp.nom.pl.masc": "exterriti",
+      "ppp.nom.pl.fem": "exterritae",
+      "ppp.nom.pl.neut": "exterrita",
+      "ppp.gen.pl.masc": "exterritorum",
+      "ppp.gen.pl.fem": "exterritarum",
+      "ppp.gen.pl.neut": "exterritorum",
+      "ppp.dat.pl.masc": "exterritis",
+      "ppp.dat.pl.fem": "exterritis",
+      "ppp.dat.pl.neut": "exterritis",
+      "ppp.acc.pl.masc": "exterritos",
+      "ppp.acc.pl.fem": "exterritas",
+      "ppp.acc.pl.neut": "exterrita",
+      "ppp.abl.pl.masc": "exterritis",
+      "ppp.abl.pl.fem": "exterritis",
+      "ppp.abl.pl.neut": "exterritis",
+      "ppp.voc.pl.masc": "exterriti",
+      "ppp.voc.pl.fem": "exterritae",
+      "ppp.voc.pl.neut": "exterrita"
+    }
   }
 }

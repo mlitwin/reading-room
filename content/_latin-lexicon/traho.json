@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "trahe",
       "2pl.pres.imp.act": "trahite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tractus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tractus",
+      "ppp.nom.sg.fem": "tracta",
+      "ppp.nom.sg.neut": "tractum",
+      "ppp.gen.sg.masc": "tracti",
+      "ppp.gen.sg.fem": "tractae",
+      "ppp.gen.sg.neut": "tracti",
+      "ppp.dat.sg.masc": "tracto",
+      "ppp.dat.sg.fem": "tractae",
+      "ppp.dat.sg.neut": "tracto",
+      "ppp.acc.sg.masc": "tractum",
+      "ppp.acc.sg.fem": "tractam",
+      "ppp.acc.sg.neut": "tractum",
+      "ppp.abl.sg.masc": "tracto",
+      "ppp.abl.sg.fem": "tracta",
+      "ppp.abl.sg.neut": "tracto",
+      "ppp.voc.sg.masc": "tracte",
+      "ppp.voc.sg.fem": "tracta",
+      "ppp.voc.sg.neut": "tractum",
+      "ppp.nom.pl.masc": "tracti",
+      "ppp.nom.pl.fem": "tractae",
+      "ppp.nom.pl.neut": "tracta",
+      "ppp.gen.pl.masc": "tractorum",
+      "ppp.gen.pl.fem": "tractarum",
+      "ppp.gen.pl.neut": "tractorum",
+      "ppp.dat.pl.masc": "tractis",
+      "ppp.dat.pl.fem": "tractis",
+      "ppp.dat.pl.neut": "tractis",
+      "ppp.acc.pl.masc": "tractos",
+      "ppp.acc.pl.fem": "tractas",
+      "ppp.acc.pl.neut": "tracta",
+      "ppp.abl.pl.masc": "tractis",
+      "ppp.abl.pl.fem": "tractis",
+      "ppp.abl.pl.neut": "tractis",
+      "ppp.voc.pl.masc": "tracti",
+      "ppp.voc.pl.fem": "tractae",
+      "ppp.voc.pl.neut": "tracta"
+    }
   }
 }

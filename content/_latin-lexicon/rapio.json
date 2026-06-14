@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "rape",
       "2pl.pres.imp.act": "rapite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: raptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "raptus",
+      "ppp.nom.sg.fem": "rapta",
+      "ppp.nom.sg.neut": "raptum",
+      "ppp.gen.sg.masc": "rapti",
+      "ppp.gen.sg.fem": "raptae",
+      "ppp.gen.sg.neut": "rapti",
+      "ppp.dat.sg.masc": "rapto",
+      "ppp.dat.sg.fem": "raptae",
+      "ppp.dat.sg.neut": "rapto",
+      "ppp.acc.sg.masc": "raptum",
+      "ppp.acc.sg.fem": "raptam",
+      "ppp.acc.sg.neut": "raptum",
+      "ppp.abl.sg.masc": "rapto",
+      "ppp.abl.sg.fem": "rapta",
+      "ppp.abl.sg.neut": "rapto",
+      "ppp.voc.sg.masc": "rapte",
+      "ppp.voc.sg.fem": "rapta",
+      "ppp.voc.sg.neut": "raptum",
+      "ppp.nom.pl.masc": "rapti",
+      "ppp.nom.pl.fem": "raptae",
+      "ppp.nom.pl.neut": "rapta",
+      "ppp.gen.pl.masc": "raptorum",
+      "ppp.gen.pl.fem": "raptarum",
+      "ppp.gen.pl.neut": "raptorum",
+      "ppp.dat.pl.masc": "raptis",
+      "ppp.dat.pl.fem": "raptis",
+      "ppp.dat.pl.neut": "raptis",
+      "ppp.acc.pl.masc": "raptos",
+      "ppp.acc.pl.fem": "raptas",
+      "ppp.acc.pl.neut": "rapta",
+      "ppp.abl.pl.masc": "raptis",
+      "ppp.abl.pl.fem": "raptis",
+      "ppp.abl.pl.neut": "raptis",
+      "ppp.voc.pl.masc": "rapti",
+      "ppp.voc.pl.fem": "raptae",
+      "ppp.voc.pl.neut": "rapta"
+    }
   }
 }

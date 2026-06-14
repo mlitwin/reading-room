@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "cave",
       "2pl.pres.imp.act": "cavete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cautus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cautus",
+      "ppp.nom.sg.fem": "cauta",
+      "ppp.nom.sg.neut": "cautum",
+      "ppp.gen.sg.masc": "cauti",
+      "ppp.gen.sg.fem": "cautae",
+      "ppp.gen.sg.neut": "cauti",
+      "ppp.dat.sg.masc": "cauto",
+      "ppp.dat.sg.fem": "cautae",
+      "ppp.dat.sg.neut": "cauto",
+      "ppp.acc.sg.masc": "cautum",
+      "ppp.acc.sg.fem": "cautam",
+      "ppp.acc.sg.neut": "cautum",
+      "ppp.abl.sg.masc": "cauto",
+      "ppp.abl.sg.fem": "cauta",
+      "ppp.abl.sg.neut": "cauto",
+      "ppp.voc.sg.masc": "caute",
+      "ppp.voc.sg.fem": "cauta",
+      "ppp.voc.sg.neut": "cautum",
+      "ppp.nom.pl.masc": "cauti",
+      "ppp.nom.pl.fem": "cautae",
+      "ppp.nom.pl.neut": "cauta",
+      "ppp.gen.pl.masc": "cautorum",
+      "ppp.gen.pl.fem": "cautarum",
+      "ppp.gen.pl.neut": "cautorum",
+      "ppp.dat.pl.masc": "cautis",
+      "ppp.dat.pl.fem": "cautis",
+      "ppp.dat.pl.neut": "cautis",
+      "ppp.acc.pl.masc": "cautos",
+      "ppp.acc.pl.fem": "cautas",
+      "ppp.acc.pl.neut": "cauta",
+      "ppp.abl.pl.masc": "cautis",
+      "ppp.abl.pl.fem": "cautis",
+      "ppp.abl.pl.neut": "cautis",
+      "ppp.voc.pl.masc": "cauti",
+      "ppp.voc.pl.fem": "cautae",
+      "ppp.voc.pl.neut": "cauta"
+    }
   }
 }

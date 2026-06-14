@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "ama",
       "2pl.pres.imp.act": "amate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: amatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "amatus",
+      "ppp.nom.sg.fem": "amata",
+      "ppp.nom.sg.neut": "amatum",
+      "ppp.gen.sg.masc": "amati",
+      "ppp.gen.sg.fem": "amatae",
+      "ppp.gen.sg.neut": "amati",
+      "ppp.dat.sg.masc": "amato",
+      "ppp.dat.sg.fem": "amatae",
+      "ppp.dat.sg.neut": "amato",
+      "ppp.acc.sg.masc": "amatum",
+      "ppp.acc.sg.fem": "amatam",
+      "ppp.acc.sg.neut": "amatum",
+      "ppp.abl.sg.masc": "amato",
+      "ppp.abl.sg.fem": "amata",
+      "ppp.abl.sg.neut": "amato",
+      "ppp.voc.sg.masc": "amate",
+      "ppp.voc.sg.fem": "amata",
+      "ppp.voc.sg.neut": "amatum",
+      "ppp.nom.pl.masc": "amati",
+      "ppp.nom.pl.fem": "amatae",
+      "ppp.nom.pl.neut": "amata",
+      "ppp.gen.pl.masc": "amatorum",
+      "ppp.gen.pl.fem": "amatarum",
+      "ppp.gen.pl.neut": "amatorum",
+      "ppp.dat.pl.masc": "amatis",
+      "ppp.dat.pl.fem": "amatis",
+      "ppp.dat.pl.neut": "amatis",
+      "ppp.acc.pl.masc": "amatos",
+      "ppp.acc.pl.fem": "amatas",
+      "ppp.acc.pl.neut": "amata",
+      "ppp.abl.pl.masc": "amatis",
+      "ppp.abl.pl.fem": "amatis",
+      "ppp.abl.pl.neut": "amatis",
+      "ppp.voc.pl.masc": "amati",
+      "ppp.voc.pl.fem": "amatae",
+      "ppp.voc.pl.neut": "amata"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "digna",
       "2pl.pres.imp.act": "dignate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dignatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dignatus",
+      "ppp.nom.sg.fem": "dignata",
+      "ppp.nom.sg.neut": "dignatum",
+      "ppp.gen.sg.masc": "dignati",
+      "ppp.gen.sg.fem": "dignatae",
+      "ppp.gen.sg.neut": "dignati",
+      "ppp.dat.sg.masc": "dignato",
+      "ppp.dat.sg.fem": "dignatae",
+      "ppp.dat.sg.neut": "dignato",
+      "ppp.acc.sg.masc": "dignatum",
+      "ppp.acc.sg.fem": "dignatam",
+      "ppp.acc.sg.neut": "dignatum",
+      "ppp.abl.sg.masc": "dignato",
+      "ppp.abl.sg.fem": "dignata",
+      "ppp.abl.sg.neut": "dignato",
+      "ppp.voc.sg.masc": "dignate",
+      "ppp.voc.sg.fem": "dignata",
+      "ppp.voc.sg.neut": "dignatum",
+      "ppp.nom.pl.masc": "dignati",
+      "ppp.nom.pl.fem": "dignatae",
+      "ppp.nom.pl.neut": "dignata",
+      "ppp.gen.pl.masc": "dignatorum",
+      "ppp.gen.pl.fem": "dignatarum",
+      "ppp.gen.pl.neut": "dignatorum",
+      "ppp.dat.pl.masc": "dignatis",
+      "ppp.dat.pl.fem": "dignatis",
+      "ppp.dat.pl.neut": "dignatis",
+      "ppp.acc.pl.masc": "dignatos",
+      "ppp.acc.pl.fem": "dignatas",
+      "ppp.acc.pl.neut": "dignata",
+      "ppp.abl.pl.masc": "dignatis",
+      "ppp.abl.pl.fem": "dignatis",
+      "ppp.abl.pl.neut": "dignatis",
+      "ppp.voc.pl.masc": "dignati",
+      "ppp.voc.pl.fem": "dignatae",
+      "ppp.voc.pl.neut": "dignata"
+    }
   }
 }

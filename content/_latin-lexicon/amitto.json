@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "amitte",
       "2pl.pres.imp.act": "amittite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: amissus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "amissus",
+      "ppp.nom.sg.fem": "amissa",
+      "ppp.nom.sg.neut": "amissum",
+      "ppp.gen.sg.masc": "amissi",
+      "ppp.gen.sg.fem": "amissae",
+      "ppp.gen.sg.neut": "amissi",
+      "ppp.dat.sg.masc": "amisso",
+      "ppp.dat.sg.fem": "amissae",
+      "ppp.dat.sg.neut": "amisso",
+      "ppp.acc.sg.masc": "amissum",
+      "ppp.acc.sg.fem": "amissam",
+      "ppp.acc.sg.neut": "amissum",
+      "ppp.abl.sg.masc": "amisso",
+      "ppp.abl.sg.fem": "amissa",
+      "ppp.abl.sg.neut": "amisso",
+      "ppp.voc.sg.masc": "amisse",
+      "ppp.voc.sg.fem": "amissa",
+      "ppp.voc.sg.neut": "amissum",
+      "ppp.nom.pl.masc": "amissi",
+      "ppp.nom.pl.fem": "amissae",
+      "ppp.nom.pl.neut": "amissa",
+      "ppp.gen.pl.masc": "amissorum",
+      "ppp.gen.pl.fem": "amissarum",
+      "ppp.gen.pl.neut": "amissorum",
+      "ppp.dat.pl.masc": "amissis",
+      "ppp.dat.pl.fem": "amissis",
+      "ppp.dat.pl.neut": "amissis",
+      "ppp.acc.pl.masc": "amissos",
+      "ppp.acc.pl.fem": "amissas",
+      "ppp.acc.pl.neut": "amissa",
+      "ppp.abl.pl.masc": "amissis",
+      "ppp.abl.pl.fem": "amissis",
+      "ppp.abl.pl.neut": "amissis",
+      "ppp.voc.pl.masc": "amissi",
+      "ppp.voc.pl.fem": "amissae",
+      "ppp.voc.pl.neut": "amissa"
+    }
   }
 }

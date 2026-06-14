@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "tene",
       "2pl.pres.imp.act": "tenete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tentus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tentus",
+      "ppp.nom.sg.fem": "tenta",
+      "ppp.nom.sg.neut": "tentum",
+      "ppp.gen.sg.masc": "tenti",
+      "ppp.gen.sg.fem": "tentae",
+      "ppp.gen.sg.neut": "tenti",
+      "ppp.dat.sg.masc": "tento",
+      "ppp.dat.sg.fem": "tentae",
+      "ppp.dat.sg.neut": "tento",
+      "ppp.acc.sg.masc": "tentum",
+      "ppp.acc.sg.fem": "tentam",
+      "ppp.acc.sg.neut": "tentum",
+      "ppp.abl.sg.masc": "tento",
+      "ppp.abl.sg.fem": "tenta",
+      "ppp.abl.sg.neut": "tento",
+      "ppp.voc.sg.masc": "tente",
+      "ppp.voc.sg.fem": "tenta",
+      "ppp.voc.sg.neut": "tentum",
+      "ppp.nom.pl.masc": "tenti",
+      "ppp.nom.pl.fem": "tentae",
+      "ppp.nom.pl.neut": "tenta",
+      "ppp.gen.pl.masc": "tentorum",
+      "ppp.gen.pl.fem": "tentarum",
+      "ppp.gen.pl.neut": "tentorum",
+      "ppp.dat.pl.masc": "tentis",
+      "ppp.dat.pl.fem": "tentis",
+      "ppp.dat.pl.neut": "tentis",
+      "ppp.acc.pl.masc": "tentos",
+      "ppp.acc.pl.fem": "tentas",
+      "ppp.acc.pl.neut": "tenta",
+      "ppp.abl.pl.masc": "tentis",
+      "ppp.abl.pl.fem": "tentis",
+      "ppp.abl.pl.neut": "tentis",
+      "ppp.voc.pl.masc": "tenti",
+      "ppp.voc.pl.fem": "tentae",
+      "ppp.voc.pl.neut": "tenta"
+    }
   }
 }

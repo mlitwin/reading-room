@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "deprehende",
       "2pl.pres.imp.act": "deprehendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: deprehensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "deprehensus",
+      "ppp.nom.sg.fem": "deprehensa",
+      "ppp.nom.sg.neut": "deprehensum",
+      "ppp.gen.sg.masc": "deprehensi",
+      "ppp.gen.sg.fem": "deprehensae",
+      "ppp.gen.sg.neut": "deprehensi",
+      "ppp.dat.sg.masc": "deprehenso",
+      "ppp.dat.sg.fem": "deprehensae",
+      "ppp.dat.sg.neut": "deprehenso",
+      "ppp.acc.sg.masc": "deprehensum",
+      "ppp.acc.sg.fem": "deprehensam",
+      "ppp.acc.sg.neut": "deprehensum",
+      "ppp.abl.sg.masc": "deprehenso",
+      "ppp.abl.sg.fem": "deprehensa",
+      "ppp.abl.sg.neut": "deprehenso",
+      "ppp.voc.sg.masc": "deprehense",
+      "ppp.voc.sg.fem": "deprehensa",
+      "ppp.voc.sg.neut": "deprehensum",
+      "ppp.nom.pl.masc": "deprehensi",
+      "ppp.nom.pl.fem": "deprehensae",
+      "ppp.nom.pl.neut": "deprehensa",
+      "ppp.gen.pl.masc": "deprehensorum",
+      "ppp.gen.pl.fem": "deprehensarum",
+      "ppp.gen.pl.neut": "deprehensorum",
+      "ppp.dat.pl.masc": "deprehensis",
+      "ppp.dat.pl.fem": "deprehensis",
+      "ppp.dat.pl.neut": "deprehensis",
+      "ppp.acc.pl.masc": "deprehensos",
+      "ppp.acc.pl.fem": "deprehensas",
+      "ppp.acc.pl.neut": "deprehensa",
+      "ppp.abl.pl.masc": "deprehensis",
+      "ppp.abl.pl.fem": "deprehensis",
+      "ppp.abl.pl.neut": "deprehensis",
+      "ppp.voc.pl.masc": "deprehensi",
+      "ppp.voc.pl.fem": "deprehensae",
+      "ppp.voc.pl.neut": "deprehensa"
+    }
   }
 }

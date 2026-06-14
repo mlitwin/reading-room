@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "ingrede",
       "2pl.pres.imp.act": "ingredite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ingressus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ingressus",
+      "ppp.nom.sg.fem": "ingressa",
+      "ppp.nom.sg.neut": "ingressum",
+      "ppp.gen.sg.masc": "ingressi",
+      "ppp.gen.sg.fem": "ingressae",
+      "ppp.gen.sg.neut": "ingressi",
+      "ppp.dat.sg.masc": "ingresso",
+      "ppp.dat.sg.fem": "ingressae",
+      "ppp.dat.sg.neut": "ingresso",
+      "ppp.acc.sg.masc": "ingressum",
+      "ppp.acc.sg.fem": "ingressam",
+      "ppp.acc.sg.neut": "ingressum",
+      "ppp.abl.sg.masc": "ingresso",
+      "ppp.abl.sg.fem": "ingressa",
+      "ppp.abl.sg.neut": "ingresso",
+      "ppp.voc.sg.masc": "ingresse",
+      "ppp.voc.sg.fem": "ingressa",
+      "ppp.voc.sg.neut": "ingressum",
+      "ppp.nom.pl.masc": "ingressi",
+      "ppp.nom.pl.fem": "ingressae",
+      "ppp.nom.pl.neut": "ingressa",
+      "ppp.gen.pl.masc": "ingressorum",
+      "ppp.gen.pl.fem": "ingressarum",
+      "ppp.gen.pl.neut": "ingressorum",
+      "ppp.dat.pl.masc": "ingressis",
+      "ppp.dat.pl.fem": "ingressis",
+      "ppp.dat.pl.neut": "ingressis",
+      "ppp.acc.pl.masc": "ingressos",
+      "ppp.acc.pl.fem": "ingressas",
+      "ppp.acc.pl.neut": "ingressa",
+      "ppp.abl.pl.masc": "ingressis",
+      "ppp.abl.pl.fem": "ingressis",
+      "ppp.abl.pl.neut": "ingressis",
+      "ppp.voc.pl.masc": "ingressi",
+      "ppp.voc.pl.fem": "ingressae",
+      "ppp.voc.pl.neut": "ingressa"
+    }
   }
 }

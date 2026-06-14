@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "circumda",
       "2pl.pres.imp.act": "circumdate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: circumdatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "circumdatus",
+      "ppp.nom.sg.fem": "circumdata",
+      "ppp.nom.sg.neut": "circumdatum",
+      "ppp.gen.sg.masc": "circumdati",
+      "ppp.gen.sg.fem": "circumdatae",
+      "ppp.gen.sg.neut": "circumdati",
+      "ppp.dat.sg.masc": "circumdato",
+      "ppp.dat.sg.fem": "circumdatae",
+      "ppp.dat.sg.neut": "circumdato",
+      "ppp.acc.sg.masc": "circumdatum",
+      "ppp.acc.sg.fem": "circumdatam",
+      "ppp.acc.sg.neut": "circumdatum",
+      "ppp.abl.sg.masc": "circumdato",
+      "ppp.abl.sg.fem": "circumdata",
+      "ppp.abl.sg.neut": "circumdato",
+      "ppp.voc.sg.masc": "circumdate",
+      "ppp.voc.sg.fem": "circumdata",
+      "ppp.voc.sg.neut": "circumdatum",
+      "ppp.nom.pl.masc": "circumdati",
+      "ppp.nom.pl.fem": "circumdatae",
+      "ppp.nom.pl.neut": "circumdata",
+      "ppp.gen.pl.masc": "circumdatorum",
+      "ppp.gen.pl.fem": "circumdatarum",
+      "ppp.gen.pl.neut": "circumdatorum",
+      "ppp.dat.pl.masc": "circumdatis",
+      "ppp.dat.pl.fem": "circumdatis",
+      "ppp.dat.pl.neut": "circumdatis",
+      "ppp.acc.pl.masc": "circumdatos",
+      "ppp.acc.pl.fem": "circumdatas",
+      "ppp.acc.pl.neut": "circumdata",
+      "ppp.abl.pl.masc": "circumdatis",
+      "ppp.abl.pl.fem": "circumdatis",
+      "ppp.abl.pl.neut": "circumdatis",
+      "ppp.voc.pl.masc": "circumdati",
+      "ppp.voc.pl.fem": "circumdatae",
+      "ppp.voc.pl.neut": "circumdata"
+    }
   }
 }

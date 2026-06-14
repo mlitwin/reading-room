@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "affer",
       "2pl.pres.imp.act": "afferte"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: allatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "allatus",
+      "ppp.nom.sg.fem": "allata",
+      "ppp.nom.sg.neut": "allatum",
+      "ppp.gen.sg.masc": "allati",
+      "ppp.gen.sg.fem": "allatae",
+      "ppp.gen.sg.neut": "allati",
+      "ppp.dat.sg.masc": "allato",
+      "ppp.dat.sg.fem": "allatae",
+      "ppp.dat.sg.neut": "allato",
+      "ppp.acc.sg.masc": "allatum",
+      "ppp.acc.sg.fem": "allatam",
+      "ppp.acc.sg.neut": "allatum",
+      "ppp.abl.sg.masc": "allato",
+      "ppp.abl.sg.fem": "allata",
+      "ppp.abl.sg.neut": "allato",
+      "ppp.voc.sg.masc": "allate",
+      "ppp.voc.sg.fem": "allata",
+      "ppp.voc.sg.neut": "allatum",
+      "ppp.nom.pl.masc": "allati",
+      "ppp.nom.pl.fem": "allatae",
+      "ppp.nom.pl.neut": "allata",
+      "ppp.gen.pl.masc": "allatorum",
+      "ppp.gen.pl.fem": "allatarum",
+      "ppp.gen.pl.neut": "allatorum",
+      "ppp.dat.pl.masc": "allatis",
+      "ppp.dat.pl.fem": "allatis",
+      "ppp.dat.pl.neut": "allatis",
+      "ppp.acc.pl.masc": "allatos",
+      "ppp.acc.pl.fem": "allatas",
+      "ppp.acc.pl.neut": "allata",
+      "ppp.abl.pl.masc": "allatis",
+      "ppp.abl.pl.fem": "allatis",
+      "ppp.abl.pl.neut": "allatis",
+      "ppp.voc.pl.masc": "allati",
+      "ppp.voc.pl.fem": "allatae",
+      "ppp.voc.pl.neut": "allata"
+    }
   }
 }

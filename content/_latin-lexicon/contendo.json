@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "contende",
       "2pl.pres.imp.act": "contendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: contentus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "contentus",
+      "ppp.nom.sg.fem": "contenta",
+      "ppp.nom.sg.neut": "contentum",
+      "ppp.gen.sg.masc": "contenti",
+      "ppp.gen.sg.fem": "contentae",
+      "ppp.gen.sg.neut": "contenti",
+      "ppp.dat.sg.masc": "contento",
+      "ppp.dat.sg.fem": "contentae",
+      "ppp.dat.sg.neut": "contento",
+      "ppp.acc.sg.masc": "contentum",
+      "ppp.acc.sg.fem": "contentam",
+      "ppp.acc.sg.neut": "contentum",
+      "ppp.abl.sg.masc": "contento",
+      "ppp.abl.sg.fem": "contenta",
+      "ppp.abl.sg.neut": "contento",
+      "ppp.voc.sg.masc": "contente",
+      "ppp.voc.sg.fem": "contenta",
+      "ppp.voc.sg.neut": "contentum",
+      "ppp.nom.pl.masc": "contenti",
+      "ppp.nom.pl.fem": "contentae",
+      "ppp.nom.pl.neut": "contenta",
+      "ppp.gen.pl.masc": "contentorum",
+      "ppp.gen.pl.fem": "contentarum",
+      "ppp.gen.pl.neut": "contentorum",
+      "ppp.dat.pl.masc": "contentis",
+      "ppp.dat.pl.fem": "contentis",
+      "ppp.dat.pl.neut": "contentis",
+      "ppp.acc.pl.masc": "contentos",
+      "ppp.acc.pl.fem": "contentas",
+      "ppp.acc.pl.neut": "contenta",
+      "ppp.abl.pl.masc": "contentis",
+      "ppp.abl.pl.fem": "contentis",
+      "ppp.abl.pl.neut": "contentis",
+      "ppp.voc.pl.masc": "contenti",
+      "ppp.voc.pl.fem": "contentae",
+      "ppp.voc.pl.neut": "contenta"
+    }
   }
 }

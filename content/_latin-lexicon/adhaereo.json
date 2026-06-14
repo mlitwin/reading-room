@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "adhaere",
       "2pl.pres.imp.act": "adhaerete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: adhaesus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "adhaesus",
+      "ppp.nom.sg.fem": "adhaesa",
+      "ppp.nom.sg.neut": "adhaesum",
+      "ppp.gen.sg.masc": "adhaesi",
+      "ppp.gen.sg.fem": "adhaesae",
+      "ppp.gen.sg.neut": "adhaesi",
+      "ppp.dat.sg.masc": "adhaeso",
+      "ppp.dat.sg.fem": "adhaesae",
+      "ppp.dat.sg.neut": "adhaeso",
+      "ppp.acc.sg.masc": "adhaesum",
+      "ppp.acc.sg.fem": "adhaesam",
+      "ppp.acc.sg.neut": "adhaesum",
+      "ppp.abl.sg.masc": "adhaeso",
+      "ppp.abl.sg.fem": "adhaesa",
+      "ppp.abl.sg.neut": "adhaeso",
+      "ppp.voc.sg.masc": "adhaese",
+      "ppp.voc.sg.fem": "adhaesa",
+      "ppp.voc.sg.neut": "adhaesum",
+      "ppp.nom.pl.masc": "adhaesi",
+      "ppp.nom.pl.fem": "adhaesae",
+      "ppp.nom.pl.neut": "adhaesa",
+      "ppp.gen.pl.masc": "adhaesorum",
+      "ppp.gen.pl.fem": "adhaesarum",
+      "ppp.gen.pl.neut": "adhaesorum",
+      "ppp.dat.pl.masc": "adhaesis",
+      "ppp.dat.pl.fem": "adhaesis",
+      "ppp.dat.pl.neut": "adhaesis",
+      "ppp.acc.pl.masc": "adhaesos",
+      "ppp.acc.pl.fem": "adhaesas",
+      "ppp.acc.pl.neut": "adhaesa",
+      "ppp.abl.pl.masc": "adhaesis",
+      "ppp.abl.pl.fem": "adhaesis",
+      "ppp.abl.pl.neut": "adhaesis",
+      "ppp.voc.pl.masc": "adhaesi",
+      "ppp.voc.pl.fem": "adhaesae",
+      "ppp.voc.pl.neut": "adhaesa"
+    }
   }
 }

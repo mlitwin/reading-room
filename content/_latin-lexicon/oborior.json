@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "obori",
       "2pl.pres.imp.act": "oborite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: obortus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "obortus",
+      "ppp.nom.sg.fem": "oborta",
+      "ppp.nom.sg.neut": "obortum",
+      "ppp.gen.sg.masc": "oborti",
+      "ppp.gen.sg.fem": "obortae",
+      "ppp.gen.sg.neut": "oborti",
+      "ppp.dat.sg.masc": "oborto",
+      "ppp.dat.sg.fem": "obortae",
+      "ppp.dat.sg.neut": "oborto",
+      "ppp.acc.sg.masc": "obortum",
+      "ppp.acc.sg.fem": "obortam",
+      "ppp.acc.sg.neut": "obortum",
+      "ppp.abl.sg.masc": "oborto",
+      "ppp.abl.sg.fem": "oborta",
+      "ppp.abl.sg.neut": "oborto",
+      "ppp.voc.sg.masc": "oborte",
+      "ppp.voc.sg.fem": "oborta",
+      "ppp.voc.sg.neut": "obortum",
+      "ppp.nom.pl.masc": "oborti",
+      "ppp.nom.pl.fem": "obortae",
+      "ppp.nom.pl.neut": "oborta",
+      "ppp.gen.pl.masc": "obortorum",
+      "ppp.gen.pl.fem": "obortarum",
+      "ppp.gen.pl.neut": "obortorum",
+      "ppp.dat.pl.masc": "obortis",
+      "ppp.dat.pl.fem": "obortis",
+      "ppp.dat.pl.neut": "obortis",
+      "ppp.acc.pl.masc": "obortos",
+      "ppp.acc.pl.fem": "obortas",
+      "ppp.acc.pl.neut": "oborta",
+      "ppp.abl.pl.masc": "obortis",
+      "ppp.abl.pl.fem": "obortis",
+      "ppp.abl.pl.neut": "obortis",
+      "ppp.voc.pl.masc": "oborti",
+      "ppp.voc.pl.fem": "obortae",
+      "ppp.voc.pl.neut": "oborta"
+    }
   }
 }

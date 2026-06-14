@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "tege",
       "2pl.pres.imp.act": "tegite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tectus",
+      "ppp.nom.sg.fem": "tecta",
+      "ppp.nom.sg.neut": "tectum",
+      "ppp.gen.sg.masc": "tecti",
+      "ppp.gen.sg.fem": "tectae",
+      "ppp.gen.sg.neut": "tecti",
+      "ppp.dat.sg.masc": "tecto",
+      "ppp.dat.sg.fem": "tectae",
+      "ppp.dat.sg.neut": "tecto",
+      "ppp.acc.sg.masc": "tectum",
+      "ppp.acc.sg.fem": "tectam",
+      "ppp.acc.sg.neut": "tectum",
+      "ppp.abl.sg.masc": "tecto",
+      "ppp.abl.sg.fem": "tecta",
+      "ppp.abl.sg.neut": "tecto",
+      "ppp.voc.sg.masc": "tecte",
+      "ppp.voc.sg.fem": "tecta",
+      "ppp.voc.sg.neut": "tectum",
+      "ppp.nom.pl.masc": "tecti",
+      "ppp.nom.pl.fem": "tectae",
+      "ppp.nom.pl.neut": "tecta",
+      "ppp.gen.pl.masc": "tectorum",
+      "ppp.gen.pl.fem": "tectarum",
+      "ppp.gen.pl.neut": "tectorum",
+      "ppp.dat.pl.masc": "tectis",
+      "ppp.dat.pl.fem": "tectis",
+      "ppp.dat.pl.neut": "tectis",
+      "ppp.acc.pl.masc": "tectos",
+      "ppp.acc.pl.fem": "tectas",
+      "ppp.acc.pl.neut": "tecta",
+      "ppp.abl.pl.masc": "tectis",
+      "ppp.abl.pl.fem": "tectis",
+      "ppp.abl.pl.neut": "tectis",
+      "ppp.voc.pl.masc": "tecti",
+      "ppp.voc.pl.fem": "tectae",
+      "ppp.voc.pl.neut": "tecta"
+    }
   }
 }

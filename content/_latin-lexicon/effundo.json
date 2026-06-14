@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "effunde",
       "2pl.pres.imp.act": "effundite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: effusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "effusus",
+      "ppp.nom.sg.fem": "effusa",
+      "ppp.nom.sg.neut": "effusum",
+      "ppp.gen.sg.masc": "effusi",
+      "ppp.gen.sg.fem": "effusae",
+      "ppp.gen.sg.neut": "effusi",
+      "ppp.dat.sg.masc": "effuso",
+      "ppp.dat.sg.fem": "effusae",
+      "ppp.dat.sg.neut": "effuso",
+      "ppp.acc.sg.masc": "effusum",
+      "ppp.acc.sg.fem": "effusam",
+      "ppp.acc.sg.neut": "effusum",
+      "ppp.abl.sg.masc": "effuso",
+      "ppp.abl.sg.fem": "effusa",
+      "ppp.abl.sg.neut": "effuso",
+      "ppp.voc.sg.masc": "effuse",
+      "ppp.voc.sg.fem": "effusa",
+      "ppp.voc.sg.neut": "effusum",
+      "ppp.nom.pl.masc": "effusi",
+      "ppp.nom.pl.fem": "effusae",
+      "ppp.nom.pl.neut": "effusa",
+      "ppp.gen.pl.masc": "effusorum",
+      "ppp.gen.pl.fem": "effusarum",
+      "ppp.gen.pl.neut": "effusorum",
+      "ppp.dat.pl.masc": "effusis",
+      "ppp.dat.pl.fem": "effusis",
+      "ppp.dat.pl.neut": "effusis",
+      "ppp.acc.pl.masc": "effusos",
+      "ppp.acc.pl.fem": "effusas",
+      "ppp.acc.pl.neut": "effusa",
+      "ppp.abl.pl.masc": "effusis",
+      "ppp.abl.pl.fem": "effusis",
+      "ppp.abl.pl.neut": "effusis",
+      "ppp.voc.pl.masc": "effusi",
+      "ppp.voc.pl.fem": "effusae",
+      "ppp.voc.pl.neut": "effusa"
+    }
   }
 }

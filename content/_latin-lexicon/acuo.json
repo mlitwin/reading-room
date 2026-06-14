@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "acue",
       "2pl.pres.imp.act": "acuite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: acutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "acutus",
+      "ppp.nom.sg.fem": "acuta",
+      "ppp.nom.sg.neut": "acutum",
+      "ppp.gen.sg.masc": "acuti",
+      "ppp.gen.sg.fem": "acutae",
+      "ppp.gen.sg.neut": "acuti",
+      "ppp.dat.sg.masc": "acuto",
+      "ppp.dat.sg.fem": "acutae",
+      "ppp.dat.sg.neut": "acuto",
+      "ppp.acc.sg.masc": "acutum",
+      "ppp.acc.sg.fem": "acutam",
+      "ppp.acc.sg.neut": "acutum",
+      "ppp.abl.sg.masc": "acuto",
+      "ppp.abl.sg.fem": "acuta",
+      "ppp.abl.sg.neut": "acuto",
+      "ppp.voc.sg.masc": "acute",
+      "ppp.voc.sg.fem": "acuta",
+      "ppp.voc.sg.neut": "acutum",
+      "ppp.nom.pl.masc": "acuti",
+      "ppp.nom.pl.fem": "acutae",
+      "ppp.nom.pl.neut": "acuta",
+      "ppp.gen.pl.masc": "acutorum",
+      "ppp.gen.pl.fem": "acutarum",
+      "ppp.gen.pl.neut": "acutorum",
+      "ppp.dat.pl.masc": "acutis",
+      "ppp.dat.pl.fem": "acutis",
+      "ppp.dat.pl.neut": "acutis",
+      "ppp.acc.pl.masc": "acutos",
+      "ppp.acc.pl.fem": "acutas",
+      "ppp.acc.pl.neut": "acuta",
+      "ppp.abl.pl.masc": "acutis",
+      "ppp.abl.pl.fem": "acutis",
+      "ppp.abl.pl.neut": "acutis",
+      "ppp.voc.pl.masc": "acuti",
+      "ppp.voc.pl.fem": "acutae",
+      "ppp.voc.pl.neut": "acuta"
+    }
   }
 }

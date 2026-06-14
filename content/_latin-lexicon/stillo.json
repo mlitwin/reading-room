@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "stilla",
       "2pl.pres.imp.act": "stillate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: stillatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "stillatus",
+      "ppp.nom.sg.fem": "stillata",
+      "ppp.nom.sg.neut": "stillatum",
+      "ppp.gen.sg.masc": "stillati",
+      "ppp.gen.sg.fem": "stillatae",
+      "ppp.gen.sg.neut": "stillati",
+      "ppp.dat.sg.masc": "stillato",
+      "ppp.dat.sg.fem": "stillatae",
+      "ppp.dat.sg.neut": "stillato",
+      "ppp.acc.sg.masc": "stillatum",
+      "ppp.acc.sg.fem": "stillatam",
+      "ppp.acc.sg.neut": "stillatum",
+      "ppp.abl.sg.masc": "stillato",
+      "ppp.abl.sg.fem": "stillata",
+      "ppp.abl.sg.neut": "stillato",
+      "ppp.voc.sg.masc": "stillate",
+      "ppp.voc.sg.fem": "stillata",
+      "ppp.voc.sg.neut": "stillatum",
+      "ppp.nom.pl.masc": "stillati",
+      "ppp.nom.pl.fem": "stillatae",
+      "ppp.nom.pl.neut": "stillata",
+      "ppp.gen.pl.masc": "stillatorum",
+      "ppp.gen.pl.fem": "stillatarum",
+      "ppp.gen.pl.neut": "stillatorum",
+      "ppp.dat.pl.masc": "stillatis",
+      "ppp.dat.pl.fem": "stillatis",
+      "ppp.dat.pl.neut": "stillatis",
+      "ppp.acc.pl.masc": "stillatos",
+      "ppp.acc.pl.fem": "stillatas",
+      "ppp.acc.pl.neut": "stillata",
+      "ppp.abl.pl.masc": "stillatis",
+      "ppp.abl.pl.fem": "stillatis",
+      "ppp.abl.pl.neut": "stillatis",
+      "ppp.voc.pl.masc": "stillati",
+      "ppp.voc.pl.fem": "stillatae",
+      "ppp.voc.pl.neut": "stillata"
+    }
   }
 }

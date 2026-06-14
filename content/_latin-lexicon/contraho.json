@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "contrahe",
       "2pl.pres.imp.act": "contrahite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: contractus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "contractus",
+      "ppp.nom.sg.fem": "contracta",
+      "ppp.nom.sg.neut": "contractum",
+      "ppp.gen.sg.masc": "contracti",
+      "ppp.gen.sg.fem": "contractae",
+      "ppp.gen.sg.neut": "contracti",
+      "ppp.dat.sg.masc": "contracto",
+      "ppp.dat.sg.fem": "contractae",
+      "ppp.dat.sg.neut": "contracto",
+      "ppp.acc.sg.masc": "contractum",
+      "ppp.acc.sg.fem": "contractam",
+      "ppp.acc.sg.neut": "contractum",
+      "ppp.abl.sg.masc": "contracto",
+      "ppp.abl.sg.fem": "contracta",
+      "ppp.abl.sg.neut": "contracto",
+      "ppp.voc.sg.masc": "contracte",
+      "ppp.voc.sg.fem": "contracta",
+      "ppp.voc.sg.neut": "contractum",
+      "ppp.nom.pl.masc": "contracti",
+      "ppp.nom.pl.fem": "contractae",
+      "ppp.nom.pl.neut": "contracta",
+      "ppp.gen.pl.masc": "contractorum",
+      "ppp.gen.pl.fem": "contractarum",
+      "ppp.gen.pl.neut": "contractorum",
+      "ppp.dat.pl.masc": "contractis",
+      "ppp.dat.pl.fem": "contractis",
+      "ppp.dat.pl.neut": "contractis",
+      "ppp.acc.pl.masc": "contractos",
+      "ppp.acc.pl.fem": "contractas",
+      "ppp.acc.pl.neut": "contracta",
+      "ppp.abl.pl.masc": "contractis",
+      "ppp.abl.pl.fem": "contractis",
+      "ppp.abl.pl.neut": "contractis",
+      "ppp.voc.pl.masc": "contracti",
+      "ppp.voc.pl.fem": "contractae",
+      "ppp.voc.pl.neut": "contracta"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "falle",
       "2pl.pres.imp.act": "fallite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: falsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "falsus",
+      "ppp.nom.sg.fem": "falsa",
+      "ppp.nom.sg.neut": "falsum",
+      "ppp.gen.sg.masc": "falsi",
+      "ppp.gen.sg.fem": "falsae",
+      "ppp.gen.sg.neut": "falsi",
+      "ppp.dat.sg.masc": "falso",
+      "ppp.dat.sg.fem": "falsae",
+      "ppp.dat.sg.neut": "falso",
+      "ppp.acc.sg.masc": "falsum",
+      "ppp.acc.sg.fem": "falsam",
+      "ppp.acc.sg.neut": "falsum",
+      "ppp.abl.sg.masc": "falso",
+      "ppp.abl.sg.fem": "falsa",
+      "ppp.abl.sg.neut": "falso",
+      "ppp.voc.sg.masc": "false",
+      "ppp.voc.sg.fem": "falsa",
+      "ppp.voc.sg.neut": "falsum",
+      "ppp.nom.pl.masc": "falsi",
+      "ppp.nom.pl.fem": "falsae",
+      "ppp.nom.pl.neut": "falsa",
+      "ppp.gen.pl.masc": "falsorum",
+      "ppp.gen.pl.fem": "falsarum",
+      "ppp.gen.pl.neut": "falsorum",
+      "ppp.dat.pl.masc": "falsis",
+      "ppp.dat.pl.fem": "falsis",
+      "ppp.dat.pl.neut": "falsis",
+      "ppp.acc.pl.masc": "falsos",
+      "ppp.acc.pl.fem": "falsas",
+      "ppp.acc.pl.neut": "falsa",
+      "ppp.abl.pl.masc": "falsis",
+      "ppp.abl.pl.fem": "falsis",
+      "ppp.abl.pl.neut": "falsis",
+      "ppp.voc.pl.masc": "falsi",
+      "ppp.voc.pl.fem": "falsae",
+      "ppp.voc.pl.neut": "falsa"
+    }
   }
 }

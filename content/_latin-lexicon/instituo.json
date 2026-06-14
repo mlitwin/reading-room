@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "institue",
       "2pl.pres.imp.act": "instituite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: institutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "institutus",
+      "ppp.nom.sg.fem": "instituta",
+      "ppp.nom.sg.neut": "institutum",
+      "ppp.gen.sg.masc": "instituti",
+      "ppp.gen.sg.fem": "institutae",
+      "ppp.gen.sg.neut": "instituti",
+      "ppp.dat.sg.masc": "instituto",
+      "ppp.dat.sg.fem": "institutae",
+      "ppp.dat.sg.neut": "instituto",
+      "ppp.acc.sg.masc": "institutum",
+      "ppp.acc.sg.fem": "institutam",
+      "ppp.acc.sg.neut": "institutum",
+      "ppp.abl.sg.masc": "instituto",
+      "ppp.abl.sg.fem": "instituta",
+      "ppp.abl.sg.neut": "instituto",
+      "ppp.voc.sg.masc": "institute",
+      "ppp.voc.sg.fem": "instituta",
+      "ppp.voc.sg.neut": "institutum",
+      "ppp.nom.pl.masc": "instituti",
+      "ppp.nom.pl.fem": "institutae",
+      "ppp.nom.pl.neut": "instituta",
+      "ppp.gen.pl.masc": "institutorum",
+      "ppp.gen.pl.fem": "institutarum",
+      "ppp.gen.pl.neut": "institutorum",
+      "ppp.dat.pl.masc": "institutis",
+      "ppp.dat.pl.fem": "institutis",
+      "ppp.dat.pl.neut": "institutis",
+      "ppp.acc.pl.masc": "institutos",
+      "ppp.acc.pl.fem": "institutas",
+      "ppp.acc.pl.neut": "instituta",
+      "ppp.abl.pl.masc": "institutis",
+      "ppp.abl.pl.fem": "institutis",
+      "ppp.abl.pl.neut": "institutis",
+      "ppp.voc.pl.masc": "instituti",
+      "ppp.voc.pl.fem": "institutae",
+      "ppp.voc.pl.neut": "instituta"
+    }
   }
 }

@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "praesenti",
       "2pl.pres.imp.act": "praesentite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: praesensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "praesensus",
+      "ppp.nom.sg.fem": "praesensa",
+      "ppp.nom.sg.neut": "praesensum",
+      "ppp.gen.sg.masc": "praesensi",
+      "ppp.gen.sg.fem": "praesensae",
+      "ppp.gen.sg.neut": "praesensi",
+      "ppp.dat.sg.masc": "praesenso",
+      "ppp.dat.sg.fem": "praesensae",
+      "ppp.dat.sg.neut": "praesenso",
+      "ppp.acc.sg.masc": "praesensum",
+      "ppp.acc.sg.fem": "praesensam",
+      "ppp.acc.sg.neut": "praesensum",
+      "ppp.abl.sg.masc": "praesenso",
+      "ppp.abl.sg.fem": "praesensa",
+      "ppp.abl.sg.neut": "praesenso",
+      "ppp.voc.sg.masc": "praesense",
+      "ppp.voc.sg.fem": "praesensa",
+      "ppp.voc.sg.neut": "praesensum",
+      "ppp.nom.pl.masc": "praesensi",
+      "ppp.nom.pl.fem": "praesensae",
+      "ppp.nom.pl.neut": "praesensa",
+      "ppp.gen.pl.masc": "praesensorum",
+      "ppp.gen.pl.fem": "praesensarum",
+      "ppp.gen.pl.neut": "praesensorum",
+      "ppp.dat.pl.masc": "praesensis",
+      "ppp.dat.pl.fem": "praesensis",
+      "ppp.dat.pl.neut": "praesensis",
+      "ppp.acc.pl.masc": "praesensos",
+      "ppp.acc.pl.fem": "praesensas",
+      "ppp.acc.pl.neut": "praesensa",
+      "ppp.abl.pl.masc": "praesensis",
+      "ppp.abl.pl.fem": "praesensis",
+      "ppp.abl.pl.neut": "praesensis",
+      "ppp.voc.pl.masc": "praesensi",
+      "ppp.voc.pl.fem": "praesensae",
+      "ppp.voc.pl.neut": "praesensa"
+    }
   }
 }

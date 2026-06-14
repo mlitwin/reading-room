@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "preme",
       "2pl.pres.imp.act": "premite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: pressus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "pressus",
+      "ppp.nom.sg.fem": "pressa",
+      "ppp.nom.sg.neut": "pressum",
+      "ppp.gen.sg.masc": "pressi",
+      "ppp.gen.sg.fem": "pressae",
+      "ppp.gen.sg.neut": "pressi",
+      "ppp.dat.sg.masc": "presso",
+      "ppp.dat.sg.fem": "pressae",
+      "ppp.dat.sg.neut": "presso",
+      "ppp.acc.sg.masc": "pressum",
+      "ppp.acc.sg.fem": "pressam",
+      "ppp.acc.sg.neut": "pressum",
+      "ppp.abl.sg.masc": "presso",
+      "ppp.abl.sg.fem": "pressa",
+      "ppp.abl.sg.neut": "presso",
+      "ppp.voc.sg.masc": "presse",
+      "ppp.voc.sg.fem": "pressa",
+      "ppp.voc.sg.neut": "pressum",
+      "ppp.nom.pl.masc": "pressi",
+      "ppp.nom.pl.fem": "pressae",
+      "ppp.nom.pl.neut": "pressa",
+      "ppp.gen.pl.masc": "pressorum",
+      "ppp.gen.pl.fem": "pressarum",
+      "ppp.gen.pl.neut": "pressorum",
+      "ppp.dat.pl.masc": "pressis",
+      "ppp.dat.pl.fem": "pressis",
+      "ppp.dat.pl.neut": "pressis",
+      "ppp.acc.pl.masc": "pressos",
+      "ppp.acc.pl.fem": "pressas",
+      "ppp.acc.pl.neut": "pressa",
+      "ppp.abl.pl.masc": "pressis",
+      "ppp.abl.pl.fem": "pressis",
+      "ppp.abl.pl.neut": "pressis",
+      "ppp.voc.pl.masc": "pressi",
+      "ppp.voc.pl.fem": "pressae",
+      "ppp.voc.pl.neut": "pressa"
+    }
   }
 }

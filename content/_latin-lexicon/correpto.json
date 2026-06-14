@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "correpta",
       "2pl.pres.imp.act": "correptate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: correptatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "correptatus",
+      "ppp.nom.sg.fem": "correptata",
+      "ppp.nom.sg.neut": "correptatum",
+      "ppp.gen.sg.masc": "correptati",
+      "ppp.gen.sg.fem": "correptatae",
+      "ppp.gen.sg.neut": "correptati",
+      "ppp.dat.sg.masc": "correptato",
+      "ppp.dat.sg.fem": "correptatae",
+      "ppp.dat.sg.neut": "correptato",
+      "ppp.acc.sg.masc": "correptatum",
+      "ppp.acc.sg.fem": "correptatam",
+      "ppp.acc.sg.neut": "correptatum",
+      "ppp.abl.sg.masc": "correptato",
+      "ppp.abl.sg.fem": "correptata",
+      "ppp.abl.sg.neut": "correptato",
+      "ppp.voc.sg.masc": "correptate",
+      "ppp.voc.sg.fem": "correptata",
+      "ppp.voc.sg.neut": "correptatum",
+      "ppp.nom.pl.masc": "correptati",
+      "ppp.nom.pl.fem": "correptatae",
+      "ppp.nom.pl.neut": "correptata",
+      "ppp.gen.pl.masc": "correptatorum",
+      "ppp.gen.pl.fem": "correptatarum",
+      "ppp.gen.pl.neut": "correptatorum",
+      "ppp.dat.pl.masc": "correptatis",
+      "ppp.dat.pl.fem": "correptatis",
+      "ppp.dat.pl.neut": "correptatis",
+      "ppp.acc.pl.masc": "correptatos",
+      "ppp.acc.pl.fem": "correptatas",
+      "ppp.acc.pl.neut": "correptata",
+      "ppp.abl.pl.masc": "correptatis",
+      "ppp.abl.pl.fem": "correptatis",
+      "ppp.abl.pl.neut": "correptatis",
+      "ppp.voc.pl.masc": "correptati",
+      "ppp.voc.pl.fem": "correptatae",
+      "ppp.voc.pl.neut": "correptata"
+    }
   }
 }

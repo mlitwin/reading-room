@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "acerva",
       "2pl.pres.imp.act": "acervate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: acervatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "acervatus",
+      "ppp.nom.sg.fem": "acervata",
+      "ppp.nom.sg.neut": "acervatum",
+      "ppp.gen.sg.masc": "acervati",
+      "ppp.gen.sg.fem": "acervatae",
+      "ppp.gen.sg.neut": "acervati",
+      "ppp.dat.sg.masc": "acervato",
+      "ppp.dat.sg.fem": "acervatae",
+      "ppp.dat.sg.neut": "acervato",
+      "ppp.acc.sg.masc": "acervatum",
+      "ppp.acc.sg.fem": "acervatam",
+      "ppp.acc.sg.neut": "acervatum",
+      "ppp.abl.sg.masc": "acervato",
+      "ppp.abl.sg.fem": "acervata",
+      "ppp.abl.sg.neut": "acervato",
+      "ppp.voc.sg.masc": "acervate",
+      "ppp.voc.sg.fem": "acervata",
+      "ppp.voc.sg.neut": "acervatum",
+      "ppp.nom.pl.masc": "acervati",
+      "ppp.nom.pl.fem": "acervatae",
+      "ppp.nom.pl.neut": "acervata",
+      "ppp.gen.pl.masc": "acervatorum",
+      "ppp.gen.pl.fem": "acervatarum",
+      "ppp.gen.pl.neut": "acervatorum",
+      "ppp.dat.pl.masc": "acervatis",
+      "ppp.dat.pl.fem": "acervatis",
+      "ppp.dat.pl.neut": "acervatis",
+      "ppp.acc.pl.masc": "acervatos",
+      "ppp.acc.pl.fem": "acervatas",
+      "ppp.acc.pl.neut": "acervata",
+      "ppp.abl.pl.masc": "acervatis",
+      "ppp.abl.pl.fem": "acervatis",
+      "ppp.abl.pl.neut": "acervatis",
+      "ppp.voc.pl.masc": "acervati",
+      "ppp.voc.pl.fem": "acervatae",
+      "ppp.voc.pl.neut": "acervata"
+    }
   }
 }

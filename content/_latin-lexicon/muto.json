@@ -47,5 +47,63 @@
       "2sg.pres.imp.act": "muta",
       "2pl.pres.imp.act": "mutate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mutatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mutatus",
+      "ppp.nom.sg.fem": "mutata",
+      "ppp.nom.sg.neut": "mutatum",
+      "ppp.gen.sg.masc": "mutati",
+      "ppp.gen.sg.fem": "mutatae",
+      "ppp.gen.sg.neut": "mutati",
+      "ppp.dat.sg.masc": "mutato",
+      "ppp.dat.sg.fem": "mutatae",
+      "ppp.dat.sg.neut": "mutato",
+      "ppp.acc.sg.masc": "mutatum",
+      "ppp.acc.sg.fem": "mutatam",
+      "ppp.acc.sg.neut": "mutatum",
+      "ppp.abl.sg.masc": "mutato",
+      "ppp.abl.sg.fem": "mutata",
+      "ppp.abl.sg.neut": "mutato",
+      "ppp.voc.sg.masc": "mutate",
+      "ppp.voc.sg.fem": "mutata",
+      "ppp.voc.sg.neut": "mutatum",
+      "ppp.nom.pl.masc": "mutati",
+      "ppp.nom.pl.fem": "mutatae",
+      "ppp.nom.pl.neut": "mutata",
+      "ppp.gen.pl.masc": "mutatorum",
+      "ppp.gen.pl.fem": "mutatarum",
+      "ppp.gen.pl.neut": "mutatorum",
+      "ppp.dat.pl.masc": "mutatis",
+      "ppp.dat.pl.fem": "mutatis",
+      "ppp.dat.pl.neut": "mutatis",
+      "ppp.acc.pl.masc": "mutatos",
+      "ppp.acc.pl.fem": "mutatas",
+      "ppp.acc.pl.neut": "mutata",
+      "ppp.abl.pl.masc": "mutatis",
+      "ppp.abl.pl.fem": "mutatis",
+      "ppp.abl.pl.neut": "mutatis",
+      "ppp.voc.pl.masc": "mutati",
+      "ppp.voc.pl.fem": "mutatae",
+      "ppp.voc.pl.neut": "mutata"
+    }
   }
 }

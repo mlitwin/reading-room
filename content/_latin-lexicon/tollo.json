@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "tolle",
       "2pl.pres.imp.act": "tollite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sublatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sublatus",
+      "ppp.nom.sg.fem": "sublata",
+      "ppp.nom.sg.neut": "sublatum",
+      "ppp.gen.sg.masc": "sublati",
+      "ppp.gen.sg.fem": "sublatae",
+      "ppp.gen.sg.neut": "sublati",
+      "ppp.dat.sg.masc": "sublato",
+      "ppp.dat.sg.fem": "sublatae",
+      "ppp.dat.sg.neut": "sublato",
+      "ppp.acc.sg.masc": "sublatum",
+      "ppp.acc.sg.fem": "sublatam",
+      "ppp.acc.sg.neut": "sublatum",
+      "ppp.abl.sg.masc": "sublato",
+      "ppp.abl.sg.fem": "sublata",
+      "ppp.abl.sg.neut": "sublato",
+      "ppp.voc.sg.masc": "sublate",
+      "ppp.voc.sg.fem": "sublata",
+      "ppp.voc.sg.neut": "sublatum",
+      "ppp.nom.pl.masc": "sublati",
+      "ppp.nom.pl.fem": "sublatae",
+      "ppp.nom.pl.neut": "sublata",
+      "ppp.gen.pl.masc": "sublatorum",
+      "ppp.gen.pl.fem": "sublatarum",
+      "ppp.gen.pl.neut": "sublatorum",
+      "ppp.dat.pl.masc": "sublatis",
+      "ppp.dat.pl.fem": "sublatis",
+      "ppp.dat.pl.neut": "sublatis",
+      "ppp.acc.pl.masc": "sublatos",
+      "ppp.acc.pl.fem": "sublatas",
+      "ppp.acc.pl.neut": "sublata",
+      "ppp.abl.pl.masc": "sublatis",
+      "ppp.abl.pl.fem": "sublatis",
+      "ppp.abl.pl.neut": "sublatis",
+      "ppp.voc.pl.masc": "sublati",
+      "ppp.voc.pl.fem": "sublatae",
+      "ppp.voc.pl.neut": "sublata"
+    }
   }
 }

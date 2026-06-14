@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "nova",
       "2pl.pres.imp.act": "novate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: novatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "novatus",
+      "ppp.nom.sg.fem": "novata",
+      "ppp.nom.sg.neut": "novatum",
+      "ppp.gen.sg.masc": "novati",
+      "ppp.gen.sg.fem": "novatae",
+      "ppp.gen.sg.neut": "novati",
+      "ppp.dat.sg.masc": "novato",
+      "ppp.dat.sg.fem": "novatae",
+      "ppp.dat.sg.neut": "novato",
+      "ppp.acc.sg.masc": "novatum",
+      "ppp.acc.sg.fem": "novatam",
+      "ppp.acc.sg.neut": "novatum",
+      "ppp.abl.sg.masc": "novato",
+      "ppp.abl.sg.fem": "novata",
+      "ppp.abl.sg.neut": "novato",
+      "ppp.voc.sg.masc": "novate",
+      "ppp.voc.sg.fem": "novata",
+      "ppp.voc.sg.neut": "novatum",
+      "ppp.nom.pl.masc": "novati",
+      "ppp.nom.pl.fem": "novatae",
+      "ppp.nom.pl.neut": "novata",
+      "ppp.gen.pl.masc": "novatorum",
+      "ppp.gen.pl.fem": "novatarum",
+      "ppp.gen.pl.neut": "novatorum",
+      "ppp.dat.pl.masc": "novatis",
+      "ppp.dat.pl.fem": "novatis",
+      "ppp.dat.pl.neut": "novatis",
+      "ppp.acc.pl.masc": "novatos",
+      "ppp.acc.pl.fem": "novatas",
+      "ppp.acc.pl.neut": "novata",
+      "ppp.abl.pl.masc": "novatis",
+      "ppp.abl.pl.fem": "novatis",
+      "ppp.abl.pl.neut": "novatis",
+      "ppp.voc.pl.masc": "novati",
+      "ppp.voc.pl.fem": "novatae",
+      "ppp.voc.pl.neut": "novata"
+    }
   }
 }

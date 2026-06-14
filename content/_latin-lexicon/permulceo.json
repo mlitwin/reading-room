@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "permulce",
       "2pl.pres.imp.act": "permulcete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: permulsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "permulsus",
+      "ppp.nom.sg.fem": "permulsa",
+      "ppp.nom.sg.neut": "permulsum",
+      "ppp.gen.sg.masc": "permulsi",
+      "ppp.gen.sg.fem": "permulsae",
+      "ppp.gen.sg.neut": "permulsi",
+      "ppp.dat.sg.masc": "permulso",
+      "ppp.dat.sg.fem": "permulsae",
+      "ppp.dat.sg.neut": "permulso",
+      "ppp.acc.sg.masc": "permulsum",
+      "ppp.acc.sg.fem": "permulsam",
+      "ppp.acc.sg.neut": "permulsum",
+      "ppp.abl.sg.masc": "permulso",
+      "ppp.abl.sg.fem": "permulsa",
+      "ppp.abl.sg.neut": "permulso",
+      "ppp.voc.sg.masc": "permulse",
+      "ppp.voc.sg.fem": "permulsa",
+      "ppp.voc.sg.neut": "permulsum",
+      "ppp.nom.pl.masc": "permulsi",
+      "ppp.nom.pl.fem": "permulsae",
+      "ppp.nom.pl.neut": "permulsa",
+      "ppp.gen.pl.masc": "permulsorum",
+      "ppp.gen.pl.fem": "permulsarum",
+      "ppp.gen.pl.neut": "permulsorum",
+      "ppp.dat.pl.masc": "permulsis",
+      "ppp.dat.pl.fem": "permulsis",
+      "ppp.dat.pl.neut": "permulsis",
+      "ppp.acc.pl.masc": "permulsos",
+      "ppp.acc.pl.fem": "permulsas",
+      "ppp.acc.pl.neut": "permulsa",
+      "ppp.abl.pl.masc": "permulsis",
+      "ppp.abl.pl.fem": "permulsis",
+      "ppp.abl.pl.neut": "permulsis",
+      "ppp.voc.pl.masc": "permulsi",
+      "ppp.voc.pl.fem": "permulsae",
+      "ppp.voc.pl.neut": "permulsa"
+    }
   }
 }

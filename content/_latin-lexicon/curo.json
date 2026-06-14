@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "cura",
       "2pl.pres.imp.act": "curate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: curatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "curatus",
+      "ppp.nom.sg.fem": "curata",
+      "ppp.nom.sg.neut": "curatum",
+      "ppp.gen.sg.masc": "curati",
+      "ppp.gen.sg.fem": "curatae",
+      "ppp.gen.sg.neut": "curati",
+      "ppp.dat.sg.masc": "curato",
+      "ppp.dat.sg.fem": "curatae",
+      "ppp.dat.sg.neut": "curato",
+      "ppp.acc.sg.masc": "curatum",
+      "ppp.acc.sg.fem": "curatam",
+      "ppp.acc.sg.neut": "curatum",
+      "ppp.abl.sg.masc": "curato",
+      "ppp.abl.sg.fem": "curata",
+      "ppp.abl.sg.neut": "curato",
+      "ppp.voc.sg.masc": "curate",
+      "ppp.voc.sg.fem": "curata",
+      "ppp.voc.sg.neut": "curatum",
+      "ppp.nom.pl.masc": "curati",
+      "ppp.nom.pl.fem": "curatae",
+      "ppp.nom.pl.neut": "curata",
+      "ppp.gen.pl.masc": "curatorum",
+      "ppp.gen.pl.fem": "curatarum",
+      "ppp.gen.pl.neut": "curatorum",
+      "ppp.dat.pl.masc": "curatis",
+      "ppp.dat.pl.fem": "curatis",
+      "ppp.dat.pl.neut": "curatis",
+      "ppp.acc.pl.masc": "curatos",
+      "ppp.acc.pl.fem": "curatas",
+      "ppp.acc.pl.neut": "curata",
+      "ppp.abl.pl.masc": "curatis",
+      "ppp.abl.pl.fem": "curatis",
+      "ppp.abl.pl.neut": "curatis",
+      "ppp.voc.pl.masc": "curati",
+      "ppp.voc.pl.fem": "curatae",
+      "ppp.voc.pl.neut": "curata"
+    }
   }
 }

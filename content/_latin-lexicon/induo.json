@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "indue",
       "2pl.pres.imp.act": "induite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: indutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "indutus",
+      "ppp.nom.sg.fem": "induta",
+      "ppp.nom.sg.neut": "indutum",
+      "ppp.gen.sg.masc": "induti",
+      "ppp.gen.sg.fem": "indutae",
+      "ppp.gen.sg.neut": "induti",
+      "ppp.dat.sg.masc": "induto",
+      "ppp.dat.sg.fem": "indutae",
+      "ppp.dat.sg.neut": "induto",
+      "ppp.acc.sg.masc": "indutum",
+      "ppp.acc.sg.fem": "indutam",
+      "ppp.acc.sg.neut": "indutum",
+      "ppp.abl.sg.masc": "induto",
+      "ppp.abl.sg.fem": "induta",
+      "ppp.abl.sg.neut": "induto",
+      "ppp.voc.sg.masc": "indute",
+      "ppp.voc.sg.fem": "induta",
+      "ppp.voc.sg.neut": "indutum",
+      "ppp.nom.pl.masc": "induti",
+      "ppp.nom.pl.fem": "indutae",
+      "ppp.nom.pl.neut": "induta",
+      "ppp.gen.pl.masc": "indutorum",
+      "ppp.gen.pl.fem": "indutarum",
+      "ppp.gen.pl.neut": "indutorum",
+      "ppp.dat.pl.masc": "indutis",
+      "ppp.dat.pl.fem": "indutis",
+      "ppp.dat.pl.neut": "indutis",
+      "ppp.acc.pl.masc": "indutos",
+      "ppp.acc.pl.fem": "indutas",
+      "ppp.acc.pl.neut": "induta",
+      "ppp.abl.pl.masc": "indutis",
+      "ppp.abl.pl.fem": "indutis",
+      "ppp.abl.pl.neut": "indutis",
+      "ppp.voc.pl.masc": "induti",
+      "ppp.voc.pl.fem": "indutae",
+      "ppp.voc.pl.neut": "induta"
+    }
   }
 }

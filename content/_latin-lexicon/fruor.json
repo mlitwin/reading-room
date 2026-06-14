@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "frua",
       "2pl.pres.imp.act": "fruate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fruitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fruitus",
+      "ppp.nom.sg.fem": "fruita",
+      "ppp.nom.sg.neut": "fruitum",
+      "ppp.gen.sg.masc": "fruiti",
+      "ppp.gen.sg.fem": "fruitae",
+      "ppp.gen.sg.neut": "fruiti",
+      "ppp.dat.sg.masc": "fruito",
+      "ppp.dat.sg.fem": "fruitae",
+      "ppp.dat.sg.neut": "fruito",
+      "ppp.acc.sg.masc": "fruitum",
+      "ppp.acc.sg.fem": "fruitam",
+      "ppp.acc.sg.neut": "fruitum",
+      "ppp.abl.sg.masc": "fruito",
+      "ppp.abl.sg.fem": "fruita",
+      "ppp.abl.sg.neut": "fruito",
+      "ppp.voc.sg.masc": "fruite",
+      "ppp.voc.sg.fem": "fruita",
+      "ppp.voc.sg.neut": "fruitum",
+      "ppp.nom.pl.masc": "fruiti",
+      "ppp.nom.pl.fem": "fruitae",
+      "ppp.nom.pl.neut": "fruita",
+      "ppp.gen.pl.masc": "fruitorum",
+      "ppp.gen.pl.fem": "fruitarum",
+      "ppp.gen.pl.neut": "fruitorum",
+      "ppp.dat.pl.masc": "fruitis",
+      "ppp.dat.pl.fem": "fruitis",
+      "ppp.dat.pl.neut": "fruitis",
+      "ppp.acc.pl.masc": "fruitos",
+      "ppp.acc.pl.fem": "fruitas",
+      "ppp.acc.pl.neut": "fruita",
+      "ppp.abl.pl.masc": "fruitis",
+      "ppp.abl.pl.fem": "fruitis",
+      "ppp.abl.pl.neut": "fruitis",
+      "ppp.voc.pl.masc": "fruiti",
+      "ppp.voc.pl.fem": "fruitae",
+      "ppp.voc.pl.neut": "fruita"
+    }
   }
 }

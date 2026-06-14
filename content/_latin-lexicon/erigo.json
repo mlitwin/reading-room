@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "erige",
       "2pl.pres.imp.act": "erigite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: erectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "erectus",
+      "ppp.nom.sg.fem": "erecta",
+      "ppp.nom.sg.neut": "erectum",
+      "ppp.gen.sg.masc": "erecti",
+      "ppp.gen.sg.fem": "erectae",
+      "ppp.gen.sg.neut": "erecti",
+      "ppp.dat.sg.masc": "erecto",
+      "ppp.dat.sg.fem": "erectae",
+      "ppp.dat.sg.neut": "erecto",
+      "ppp.acc.sg.masc": "erectum",
+      "ppp.acc.sg.fem": "erectam",
+      "ppp.acc.sg.neut": "erectum",
+      "ppp.abl.sg.masc": "erecto",
+      "ppp.abl.sg.fem": "erecta",
+      "ppp.abl.sg.neut": "erecto",
+      "ppp.voc.sg.masc": "erecte",
+      "ppp.voc.sg.fem": "erecta",
+      "ppp.voc.sg.neut": "erectum",
+      "ppp.nom.pl.masc": "erecti",
+      "ppp.nom.pl.fem": "erectae",
+      "ppp.nom.pl.neut": "erecta",
+      "ppp.gen.pl.masc": "erectorum",
+      "ppp.gen.pl.fem": "erectarum",
+      "ppp.gen.pl.neut": "erectorum",
+      "ppp.dat.pl.masc": "erectis",
+      "ppp.dat.pl.fem": "erectis",
+      "ppp.dat.pl.neut": "erectis",
+      "ppp.acc.pl.masc": "erectos",
+      "ppp.acc.pl.fem": "erectas",
+      "ppp.acc.pl.neut": "erecta",
+      "ppp.abl.pl.masc": "erectis",
+      "ppp.abl.pl.fem": "erectis",
+      "ppp.abl.pl.neut": "erectis",
+      "ppp.voc.pl.masc": "erecti",
+      "ppp.voc.pl.fem": "erectae",
+      "ppp.voc.pl.neut": "erecta"
+    }
   }
 }

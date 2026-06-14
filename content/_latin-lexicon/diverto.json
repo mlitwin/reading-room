@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "diverte",
       "2pl.pres.imp.act": "divertite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: diversus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "diversus",
+      "ppp.nom.sg.fem": "diversa",
+      "ppp.nom.sg.neut": "diversum",
+      "ppp.gen.sg.masc": "diversi",
+      "ppp.gen.sg.fem": "diversae",
+      "ppp.gen.sg.neut": "diversi",
+      "ppp.dat.sg.masc": "diverso",
+      "ppp.dat.sg.fem": "diversae",
+      "ppp.dat.sg.neut": "diverso",
+      "ppp.acc.sg.masc": "diversum",
+      "ppp.acc.sg.fem": "diversam",
+      "ppp.acc.sg.neut": "diversum",
+      "ppp.abl.sg.masc": "diverso",
+      "ppp.abl.sg.fem": "diversa",
+      "ppp.abl.sg.neut": "diverso",
+      "ppp.voc.sg.masc": "diverse",
+      "ppp.voc.sg.fem": "diversa",
+      "ppp.voc.sg.neut": "diversum",
+      "ppp.nom.pl.masc": "diversi",
+      "ppp.nom.pl.fem": "diversae",
+      "ppp.nom.pl.neut": "diversa",
+      "ppp.gen.pl.masc": "diversorum",
+      "ppp.gen.pl.fem": "diversarum",
+      "ppp.gen.pl.neut": "diversorum",
+      "ppp.dat.pl.masc": "diversis",
+      "ppp.dat.pl.fem": "diversis",
+      "ppp.dat.pl.neut": "diversis",
+      "ppp.acc.pl.masc": "diversos",
+      "ppp.acc.pl.fem": "diversas",
+      "ppp.acc.pl.neut": "diversa",
+      "ppp.abl.pl.masc": "diversis",
+      "ppp.abl.pl.fem": "diversis",
+      "ppp.abl.pl.neut": "diversis",
+      "ppp.voc.pl.masc": "diversi",
+      "ppp.voc.pl.fem": "diversae",
+      "ppp.voc.pl.neut": "diversa"
+    }
   }
 }

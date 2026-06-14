@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "ostende",
       "2pl.pres.imp.act": "ostendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ostensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ostensus",
+      "ppp.nom.sg.fem": "ostensa",
+      "ppp.nom.sg.neut": "ostensum",
+      "ppp.gen.sg.masc": "ostensi",
+      "ppp.gen.sg.fem": "ostensae",
+      "ppp.gen.sg.neut": "ostensi",
+      "ppp.dat.sg.masc": "ostenso",
+      "ppp.dat.sg.fem": "ostensae",
+      "ppp.dat.sg.neut": "ostenso",
+      "ppp.acc.sg.masc": "ostensum",
+      "ppp.acc.sg.fem": "ostensam",
+      "ppp.acc.sg.neut": "ostensum",
+      "ppp.abl.sg.masc": "ostenso",
+      "ppp.abl.sg.fem": "ostensa",
+      "ppp.abl.sg.neut": "ostenso",
+      "ppp.voc.sg.masc": "ostense",
+      "ppp.voc.sg.fem": "ostensa",
+      "ppp.voc.sg.neut": "ostensum",
+      "ppp.nom.pl.masc": "ostensi",
+      "ppp.nom.pl.fem": "ostensae",
+      "ppp.nom.pl.neut": "ostensa",
+      "ppp.gen.pl.masc": "ostensorum",
+      "ppp.gen.pl.fem": "ostensarum",
+      "ppp.gen.pl.neut": "ostensorum",
+      "ppp.dat.pl.masc": "ostensis",
+      "ppp.dat.pl.fem": "ostensis",
+      "ppp.dat.pl.neut": "ostensis",
+      "ppp.acc.pl.masc": "ostensos",
+      "ppp.acc.pl.fem": "ostensas",
+      "ppp.acc.pl.neut": "ostensa",
+      "ppp.abl.pl.masc": "ostensis",
+      "ppp.abl.pl.fem": "ostensis",
+      "ppp.abl.pl.neut": "ostensis",
+      "ppp.voc.pl.masc": "ostensi",
+      "ppp.voc.pl.fem": "ostensae",
+      "ppp.voc.pl.neut": "ostensa"
+    }
   }
 }

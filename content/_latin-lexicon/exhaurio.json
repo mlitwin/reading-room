@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "exhauri",
       "2pl.pres.imp.act": "exhaurite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exhaustus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exhaustus",
+      "ppp.nom.sg.fem": "exhausta",
+      "ppp.nom.sg.neut": "exhaustum",
+      "ppp.gen.sg.masc": "exhausti",
+      "ppp.gen.sg.fem": "exhaustae",
+      "ppp.gen.sg.neut": "exhausti",
+      "ppp.dat.sg.masc": "exhausto",
+      "ppp.dat.sg.fem": "exhaustae",
+      "ppp.dat.sg.neut": "exhausto",
+      "ppp.acc.sg.masc": "exhaustum",
+      "ppp.acc.sg.fem": "exhaustam",
+      "ppp.acc.sg.neut": "exhaustum",
+      "ppp.abl.sg.masc": "exhausto",
+      "ppp.abl.sg.fem": "exhausta",
+      "ppp.abl.sg.neut": "exhausto",
+      "ppp.voc.sg.masc": "exhauste",
+      "ppp.voc.sg.fem": "exhausta",
+      "ppp.voc.sg.neut": "exhaustum",
+      "ppp.nom.pl.masc": "exhausti",
+      "ppp.nom.pl.fem": "exhaustae",
+      "ppp.nom.pl.neut": "exhausta",
+      "ppp.gen.pl.masc": "exhaustorum",
+      "ppp.gen.pl.fem": "exhaustarum",
+      "ppp.gen.pl.neut": "exhaustorum",
+      "ppp.dat.pl.masc": "exhaustis",
+      "ppp.dat.pl.fem": "exhaustis",
+      "ppp.dat.pl.neut": "exhaustis",
+      "ppp.acc.pl.masc": "exhaustos",
+      "ppp.acc.pl.fem": "exhaustas",
+      "ppp.acc.pl.neut": "exhausta",
+      "ppp.abl.pl.masc": "exhaustis",
+      "ppp.abl.pl.fem": "exhaustis",
+      "ppp.abl.pl.neut": "exhaustis",
+      "ppp.voc.pl.masc": "exhausti",
+      "ppp.voc.pl.fem": "exhaustae",
+      "ppp.voc.pl.neut": "exhausta"
+    }
   }
 }

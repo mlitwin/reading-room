@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "ale",
       "2pl.pres.imp.act": "alite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: alitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "alitus",
+      "ppp.nom.sg.fem": "alita",
+      "ppp.nom.sg.neut": "alitum",
+      "ppp.gen.sg.masc": "aliti",
+      "ppp.gen.sg.fem": "alitae",
+      "ppp.gen.sg.neut": "aliti",
+      "ppp.dat.sg.masc": "alito",
+      "ppp.dat.sg.fem": "alitae",
+      "ppp.dat.sg.neut": "alito",
+      "ppp.acc.sg.masc": "alitum",
+      "ppp.acc.sg.fem": "alitam",
+      "ppp.acc.sg.neut": "alitum",
+      "ppp.abl.sg.masc": "alito",
+      "ppp.abl.sg.fem": "alita",
+      "ppp.abl.sg.neut": "alito",
+      "ppp.voc.sg.masc": "alite",
+      "ppp.voc.sg.fem": "alita",
+      "ppp.voc.sg.neut": "alitum",
+      "ppp.nom.pl.masc": "aliti",
+      "ppp.nom.pl.fem": "alitae",
+      "ppp.nom.pl.neut": "alita",
+      "ppp.gen.pl.masc": "alitorum",
+      "ppp.gen.pl.fem": "alitarum",
+      "ppp.gen.pl.neut": "alitorum",
+      "ppp.dat.pl.masc": "alitis",
+      "ppp.dat.pl.fem": "alitis",
+      "ppp.dat.pl.neut": "alitis",
+      "ppp.acc.pl.masc": "alitos",
+      "ppp.acc.pl.fem": "alitas",
+      "ppp.acc.pl.neut": "alita",
+      "ppp.abl.pl.masc": "alitis",
+      "ppp.abl.pl.fem": "alitis",
+      "ppp.abl.pl.neut": "alitis",
+      "ppp.voc.pl.masc": "aliti",
+      "ppp.voc.pl.fem": "alitae",
+      "ppp.voc.pl.neut": "alita"
+    }
   }
 }

@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "ignora",
       "2pl.pres.imp.act": "ignorate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ignoratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ignoratus",
+      "ppp.nom.sg.fem": "ignorata",
+      "ppp.nom.sg.neut": "ignoratum",
+      "ppp.gen.sg.masc": "ignorati",
+      "ppp.gen.sg.fem": "ignoratae",
+      "ppp.gen.sg.neut": "ignorati",
+      "ppp.dat.sg.masc": "ignorato",
+      "ppp.dat.sg.fem": "ignoratae",
+      "ppp.dat.sg.neut": "ignorato",
+      "ppp.acc.sg.masc": "ignoratum",
+      "ppp.acc.sg.fem": "ignoratam",
+      "ppp.acc.sg.neut": "ignoratum",
+      "ppp.abl.sg.masc": "ignorato",
+      "ppp.abl.sg.fem": "ignorata",
+      "ppp.abl.sg.neut": "ignorato",
+      "ppp.voc.sg.masc": "ignorate",
+      "ppp.voc.sg.fem": "ignorata",
+      "ppp.voc.sg.neut": "ignoratum",
+      "ppp.nom.pl.masc": "ignorati",
+      "ppp.nom.pl.fem": "ignoratae",
+      "ppp.nom.pl.neut": "ignorata",
+      "ppp.gen.pl.masc": "ignoratorum",
+      "ppp.gen.pl.fem": "ignoratarum",
+      "ppp.gen.pl.neut": "ignoratorum",
+      "ppp.dat.pl.masc": "ignoratis",
+      "ppp.dat.pl.fem": "ignoratis",
+      "ppp.dat.pl.neut": "ignoratis",
+      "ppp.acc.pl.masc": "ignoratos",
+      "ppp.acc.pl.fem": "ignoratas",
+      "ppp.acc.pl.neut": "ignorata",
+      "ppp.abl.pl.masc": "ignoratis",
+      "ppp.abl.pl.fem": "ignoratis",
+      "ppp.abl.pl.neut": "ignoratis",
+      "ppp.voc.pl.masc": "ignorati",
+      "ppp.voc.pl.fem": "ignoratae",
+      "ppp.voc.pl.neut": "ignorata"
+    }
   }
 }

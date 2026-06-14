@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "recusa",
       "2pl.pres.imp.act": "recusate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: recusatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "recusatus",
+      "ppp.nom.sg.fem": "recusata",
+      "ppp.nom.sg.neut": "recusatum",
+      "ppp.gen.sg.masc": "recusati",
+      "ppp.gen.sg.fem": "recusatae",
+      "ppp.gen.sg.neut": "recusati",
+      "ppp.dat.sg.masc": "recusato",
+      "ppp.dat.sg.fem": "recusatae",
+      "ppp.dat.sg.neut": "recusato",
+      "ppp.acc.sg.masc": "recusatum",
+      "ppp.acc.sg.fem": "recusatam",
+      "ppp.acc.sg.neut": "recusatum",
+      "ppp.abl.sg.masc": "recusato",
+      "ppp.abl.sg.fem": "recusata",
+      "ppp.abl.sg.neut": "recusato",
+      "ppp.voc.sg.masc": "recusate",
+      "ppp.voc.sg.fem": "recusata",
+      "ppp.voc.sg.neut": "recusatum",
+      "ppp.nom.pl.masc": "recusati",
+      "ppp.nom.pl.fem": "recusatae",
+      "ppp.nom.pl.neut": "recusata",
+      "ppp.gen.pl.masc": "recusatorum",
+      "ppp.gen.pl.fem": "recusatarum",
+      "ppp.gen.pl.neut": "recusatorum",
+      "ppp.dat.pl.masc": "recusatis",
+      "ppp.dat.pl.fem": "recusatis",
+      "ppp.dat.pl.neut": "recusatis",
+      "ppp.acc.pl.masc": "recusatos",
+      "ppp.acc.pl.fem": "recusatas",
+      "ppp.acc.pl.neut": "recusata",
+      "ppp.abl.pl.masc": "recusatis",
+      "ppp.abl.pl.fem": "recusatis",
+      "ppp.abl.pl.neut": "recusatis",
+      "ppp.voc.pl.masc": "recusati",
+      "ppp.voc.pl.fem": "recusatae",
+      "ppp.voc.pl.neut": "recusata"
+    }
   }
 }

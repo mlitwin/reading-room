@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "continge",
       "2pl.pres.imp.act": "contingite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: contactus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "contactus",
+      "ppp.nom.sg.fem": "contacta",
+      "ppp.nom.sg.neut": "contactum",
+      "ppp.gen.sg.masc": "contacti",
+      "ppp.gen.sg.fem": "contactae",
+      "ppp.gen.sg.neut": "contacti",
+      "ppp.dat.sg.masc": "contacto",
+      "ppp.dat.sg.fem": "contactae",
+      "ppp.dat.sg.neut": "contacto",
+      "ppp.acc.sg.masc": "contactum",
+      "ppp.acc.sg.fem": "contactam",
+      "ppp.acc.sg.neut": "contactum",
+      "ppp.abl.sg.masc": "contacto",
+      "ppp.abl.sg.fem": "contacta",
+      "ppp.abl.sg.neut": "contacto",
+      "ppp.voc.sg.masc": "contacte",
+      "ppp.voc.sg.fem": "contacta",
+      "ppp.voc.sg.neut": "contactum",
+      "ppp.nom.pl.masc": "contacti",
+      "ppp.nom.pl.fem": "contactae",
+      "ppp.nom.pl.neut": "contacta",
+      "ppp.gen.pl.masc": "contactorum",
+      "ppp.gen.pl.fem": "contactarum",
+      "ppp.gen.pl.neut": "contactorum",
+      "ppp.dat.pl.masc": "contactis",
+      "ppp.dat.pl.fem": "contactis",
+      "ppp.dat.pl.neut": "contactis",
+      "ppp.acc.pl.masc": "contactos",
+      "ppp.acc.pl.fem": "contactas",
+      "ppp.acc.pl.neut": "contacta",
+      "ppp.abl.pl.masc": "contactis",
+      "ppp.abl.pl.fem": "contactis",
+      "ppp.abl.pl.neut": "contactis",
+      "ppp.voc.pl.masc": "contacti",
+      "ppp.voc.pl.fem": "contactae",
+      "ppp.voc.pl.neut": "contacta"
+    }
   }
 }

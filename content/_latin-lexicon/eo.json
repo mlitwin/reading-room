@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "ea",
       "2pl.pres.imp.act": "eate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: etus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "etus",
+      "ppp.nom.sg.fem": "eta",
+      "ppp.nom.sg.neut": "etum",
+      "ppp.gen.sg.masc": "eti",
+      "ppp.gen.sg.fem": "etae",
+      "ppp.gen.sg.neut": "eti",
+      "ppp.dat.sg.masc": "eto",
+      "ppp.dat.sg.fem": "etae",
+      "ppp.dat.sg.neut": "eto",
+      "ppp.acc.sg.masc": "etum",
+      "ppp.acc.sg.fem": "etam",
+      "ppp.acc.sg.neut": "etum",
+      "ppp.abl.sg.masc": "eto",
+      "ppp.abl.sg.fem": "eta",
+      "ppp.abl.sg.neut": "eto",
+      "ppp.voc.sg.masc": "ete",
+      "ppp.voc.sg.fem": "eta",
+      "ppp.voc.sg.neut": "etum",
+      "ppp.nom.pl.masc": "eti",
+      "ppp.nom.pl.fem": "etae",
+      "ppp.nom.pl.neut": "eta",
+      "ppp.gen.pl.masc": "etorum",
+      "ppp.gen.pl.fem": "etarum",
+      "ppp.gen.pl.neut": "etorum",
+      "ppp.dat.pl.masc": "etis",
+      "ppp.dat.pl.fem": "etis",
+      "ppp.dat.pl.neut": "etis",
+      "ppp.acc.pl.masc": "etos",
+      "ppp.acc.pl.fem": "etas",
+      "ppp.acc.pl.neut": "eta",
+      "ppp.abl.pl.masc": "etis",
+      "ppp.abl.pl.fem": "etis",
+      "ppp.abl.pl.neut": "etis",
+      "ppp.voc.pl.masc": "eti",
+      "ppp.voc.pl.fem": "etae",
+      "ppp.voc.pl.neut": "eta"
+    }
   }
 }

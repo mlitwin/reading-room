@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "adsume",
       "2pl.pres.imp.act": "adsumite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: adsumptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "adsumptus",
+      "ppp.nom.sg.fem": "adsumpta",
+      "ppp.nom.sg.neut": "adsumptum",
+      "ppp.gen.sg.masc": "adsumpti",
+      "ppp.gen.sg.fem": "adsumptae",
+      "ppp.gen.sg.neut": "adsumpti",
+      "ppp.dat.sg.masc": "adsumpto",
+      "ppp.dat.sg.fem": "adsumptae",
+      "ppp.dat.sg.neut": "adsumpto",
+      "ppp.acc.sg.masc": "adsumptum",
+      "ppp.acc.sg.fem": "adsumptam",
+      "ppp.acc.sg.neut": "adsumptum",
+      "ppp.abl.sg.masc": "adsumpto",
+      "ppp.abl.sg.fem": "adsumpta",
+      "ppp.abl.sg.neut": "adsumpto",
+      "ppp.voc.sg.masc": "adsumpte",
+      "ppp.voc.sg.fem": "adsumpta",
+      "ppp.voc.sg.neut": "adsumptum",
+      "ppp.nom.pl.masc": "adsumpti",
+      "ppp.nom.pl.fem": "adsumptae",
+      "ppp.nom.pl.neut": "adsumpta",
+      "ppp.gen.pl.masc": "adsumptorum",
+      "ppp.gen.pl.fem": "adsumptarum",
+      "ppp.gen.pl.neut": "adsumptorum",
+      "ppp.dat.pl.masc": "adsumptis",
+      "ppp.dat.pl.fem": "adsumptis",
+      "ppp.dat.pl.neut": "adsumptis",
+      "ppp.acc.pl.masc": "adsumptos",
+      "ppp.acc.pl.fem": "adsumptas",
+      "ppp.acc.pl.neut": "adsumpta",
+      "ppp.abl.pl.masc": "adsumptis",
+      "ppp.abl.pl.fem": "adsumptis",
+      "ppp.abl.pl.neut": "adsumptis",
+      "ppp.voc.pl.masc": "adsumpti",
+      "ppp.voc.pl.fem": "adsumptae",
+      "ppp.voc.pl.neut": "adsumpta"
+    }
   }
 }

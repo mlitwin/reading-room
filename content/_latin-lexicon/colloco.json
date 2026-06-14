@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "colloca",
       "2pl.pres.imp.act": "collocate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: collocatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "collocatus",
+      "ppp.nom.sg.fem": "collocata",
+      "ppp.nom.sg.neut": "collocatum",
+      "ppp.gen.sg.masc": "collocati",
+      "ppp.gen.sg.fem": "collocatae",
+      "ppp.gen.sg.neut": "collocati",
+      "ppp.dat.sg.masc": "collocato",
+      "ppp.dat.sg.fem": "collocatae",
+      "ppp.dat.sg.neut": "collocato",
+      "ppp.acc.sg.masc": "collocatum",
+      "ppp.acc.sg.fem": "collocatam",
+      "ppp.acc.sg.neut": "collocatum",
+      "ppp.abl.sg.masc": "collocato",
+      "ppp.abl.sg.fem": "collocata",
+      "ppp.abl.sg.neut": "collocato",
+      "ppp.voc.sg.masc": "collocate",
+      "ppp.voc.sg.fem": "collocata",
+      "ppp.voc.sg.neut": "collocatum",
+      "ppp.nom.pl.masc": "collocati",
+      "ppp.nom.pl.fem": "collocatae",
+      "ppp.nom.pl.neut": "collocata",
+      "ppp.gen.pl.masc": "collocatorum",
+      "ppp.gen.pl.fem": "collocatarum",
+      "ppp.gen.pl.neut": "collocatorum",
+      "ppp.dat.pl.masc": "collocatis",
+      "ppp.dat.pl.fem": "collocatis",
+      "ppp.dat.pl.neut": "collocatis",
+      "ppp.acc.pl.masc": "collocatos",
+      "ppp.acc.pl.fem": "collocatas",
+      "ppp.acc.pl.neut": "collocata",
+      "ppp.abl.pl.masc": "collocatis",
+      "ppp.abl.pl.fem": "collocatis",
+      "ppp.abl.pl.neut": "collocatis",
+      "ppp.voc.pl.masc": "collocati",
+      "ppp.voc.pl.fem": "collocatae",
+      "ppp.voc.pl.neut": "collocata"
+    }
   }
 }

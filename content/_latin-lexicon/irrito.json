@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "irrita",
       "2pl.pres.imp.act": "irritate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: irritatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "irritatus",
+      "ppp.nom.sg.fem": "irritata",
+      "ppp.nom.sg.neut": "irritatum",
+      "ppp.gen.sg.masc": "irritati",
+      "ppp.gen.sg.fem": "irritatae",
+      "ppp.gen.sg.neut": "irritati",
+      "ppp.dat.sg.masc": "irritato",
+      "ppp.dat.sg.fem": "irritatae",
+      "ppp.dat.sg.neut": "irritato",
+      "ppp.acc.sg.masc": "irritatum",
+      "ppp.acc.sg.fem": "irritatam",
+      "ppp.acc.sg.neut": "irritatum",
+      "ppp.abl.sg.masc": "irritato",
+      "ppp.abl.sg.fem": "irritata",
+      "ppp.abl.sg.neut": "irritato",
+      "ppp.voc.sg.masc": "irritate",
+      "ppp.voc.sg.fem": "irritata",
+      "ppp.voc.sg.neut": "irritatum",
+      "ppp.nom.pl.masc": "irritati",
+      "ppp.nom.pl.fem": "irritatae",
+      "ppp.nom.pl.neut": "irritata",
+      "ppp.gen.pl.masc": "irritatorum",
+      "ppp.gen.pl.fem": "irritatarum",
+      "ppp.gen.pl.neut": "irritatorum",
+      "ppp.dat.pl.masc": "irritatis",
+      "ppp.dat.pl.fem": "irritatis",
+      "ppp.dat.pl.neut": "irritatis",
+      "ppp.acc.pl.masc": "irritatos",
+      "ppp.acc.pl.fem": "irritatas",
+      "ppp.acc.pl.neut": "irritata",
+      "ppp.abl.pl.masc": "irritatis",
+      "ppp.abl.pl.fem": "irritatis",
+      "ppp.abl.pl.neut": "irritatis",
+      "ppp.voc.pl.masc": "irritati",
+      "ppp.voc.pl.fem": "irritatae",
+      "ppp.voc.pl.neut": "irritata"
+    }
   }
 }

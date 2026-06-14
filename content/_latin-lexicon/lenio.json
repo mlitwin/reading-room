@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "leni",
       "2pl.pres.imp.act": "lenite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: lenitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "lenitus",
+      "ppp.nom.sg.fem": "lenita",
+      "ppp.nom.sg.neut": "lenitum",
+      "ppp.gen.sg.masc": "leniti",
+      "ppp.gen.sg.fem": "lenitae",
+      "ppp.gen.sg.neut": "leniti",
+      "ppp.dat.sg.masc": "lenito",
+      "ppp.dat.sg.fem": "lenitae",
+      "ppp.dat.sg.neut": "lenito",
+      "ppp.acc.sg.masc": "lenitum",
+      "ppp.acc.sg.fem": "lenitam",
+      "ppp.acc.sg.neut": "lenitum",
+      "ppp.abl.sg.masc": "lenito",
+      "ppp.abl.sg.fem": "lenita",
+      "ppp.abl.sg.neut": "lenito",
+      "ppp.voc.sg.masc": "lenite",
+      "ppp.voc.sg.fem": "lenita",
+      "ppp.voc.sg.neut": "lenitum",
+      "ppp.nom.pl.masc": "leniti",
+      "ppp.nom.pl.fem": "lenitae",
+      "ppp.nom.pl.neut": "lenita",
+      "ppp.gen.pl.masc": "lenitorum",
+      "ppp.gen.pl.fem": "lenitarum",
+      "ppp.gen.pl.neut": "lenitorum",
+      "ppp.dat.pl.masc": "lenitis",
+      "ppp.dat.pl.fem": "lenitis",
+      "ppp.dat.pl.neut": "lenitis",
+      "ppp.acc.pl.masc": "lenitos",
+      "ppp.acc.pl.fem": "lenitas",
+      "ppp.acc.pl.neut": "lenita",
+      "ppp.abl.pl.masc": "lenitis",
+      "ppp.abl.pl.fem": "lenitis",
+      "ppp.abl.pl.neut": "lenitis",
+      "ppp.voc.pl.masc": "leniti",
+      "ppp.voc.pl.fem": "lenitae",
+      "ppp.voc.pl.neut": "lenita"
+    }
   }
 }

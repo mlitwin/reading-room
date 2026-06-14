@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "fige",
       "2pl.pres.imp.act": "figite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fixus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fixus",
+      "ppp.nom.sg.fem": "fixa",
+      "ppp.nom.sg.neut": "fixum",
+      "ppp.gen.sg.masc": "fixi",
+      "ppp.gen.sg.fem": "fixae",
+      "ppp.gen.sg.neut": "fixi",
+      "ppp.dat.sg.masc": "fixo",
+      "ppp.dat.sg.fem": "fixae",
+      "ppp.dat.sg.neut": "fixo",
+      "ppp.acc.sg.masc": "fixum",
+      "ppp.acc.sg.fem": "fixam",
+      "ppp.acc.sg.neut": "fixum",
+      "ppp.abl.sg.masc": "fixo",
+      "ppp.abl.sg.fem": "fixa",
+      "ppp.abl.sg.neut": "fixo",
+      "ppp.voc.sg.masc": "fixe",
+      "ppp.voc.sg.fem": "fixa",
+      "ppp.voc.sg.neut": "fixum",
+      "ppp.nom.pl.masc": "fixi",
+      "ppp.nom.pl.fem": "fixae",
+      "ppp.nom.pl.neut": "fixa",
+      "ppp.gen.pl.masc": "fixorum",
+      "ppp.gen.pl.fem": "fixarum",
+      "ppp.gen.pl.neut": "fixorum",
+      "ppp.dat.pl.masc": "fixis",
+      "ppp.dat.pl.fem": "fixis",
+      "ppp.dat.pl.neut": "fixis",
+      "ppp.acc.pl.masc": "fixos",
+      "ppp.acc.pl.fem": "fixas",
+      "ppp.acc.pl.neut": "fixa",
+      "ppp.abl.pl.masc": "fixis",
+      "ppp.abl.pl.fem": "fixis",
+      "ppp.abl.pl.neut": "fixis",
+      "ppp.voc.pl.masc": "fixi",
+      "ppp.voc.pl.fem": "fixae",
+      "ppp.voc.pl.neut": "fixa"
+    }
   }
 }

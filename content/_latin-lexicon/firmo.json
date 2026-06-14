@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "firma",
       "2pl.pres.imp.act": "firmate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: firmatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "firmatus",
+      "ppp.nom.sg.fem": "firmata",
+      "ppp.nom.sg.neut": "firmatum",
+      "ppp.gen.sg.masc": "firmati",
+      "ppp.gen.sg.fem": "firmatae",
+      "ppp.gen.sg.neut": "firmati",
+      "ppp.dat.sg.masc": "firmato",
+      "ppp.dat.sg.fem": "firmatae",
+      "ppp.dat.sg.neut": "firmato",
+      "ppp.acc.sg.masc": "firmatum",
+      "ppp.acc.sg.fem": "firmatam",
+      "ppp.acc.sg.neut": "firmatum",
+      "ppp.abl.sg.masc": "firmato",
+      "ppp.abl.sg.fem": "firmata",
+      "ppp.abl.sg.neut": "firmato",
+      "ppp.voc.sg.masc": "firmate",
+      "ppp.voc.sg.fem": "firmata",
+      "ppp.voc.sg.neut": "firmatum",
+      "ppp.nom.pl.masc": "firmati",
+      "ppp.nom.pl.fem": "firmatae",
+      "ppp.nom.pl.neut": "firmata",
+      "ppp.gen.pl.masc": "firmatorum",
+      "ppp.gen.pl.fem": "firmatarum",
+      "ppp.gen.pl.neut": "firmatorum",
+      "ppp.dat.pl.masc": "firmatis",
+      "ppp.dat.pl.fem": "firmatis",
+      "ppp.dat.pl.neut": "firmatis",
+      "ppp.acc.pl.masc": "firmatos",
+      "ppp.acc.pl.fem": "firmatas",
+      "ppp.acc.pl.neut": "firmata",
+      "ppp.abl.pl.masc": "firmatis",
+      "ppp.abl.pl.fem": "firmatis",
+      "ppp.abl.pl.neut": "firmatis",
+      "ppp.voc.pl.masc": "firmati",
+      "ppp.voc.pl.fem": "firmatae",
+      "ppp.voc.pl.neut": "firmata"
+    }
   }
 }

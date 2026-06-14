@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "pone",
       "2pl.pres.imp.act": "ponite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: postus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "postus",
+      "ppp.nom.sg.fem": "posta",
+      "ppp.nom.sg.neut": "postum",
+      "ppp.gen.sg.masc": "posti",
+      "ppp.gen.sg.fem": "postae",
+      "ppp.gen.sg.neut": "posti",
+      "ppp.dat.sg.masc": "posto",
+      "ppp.dat.sg.fem": "postae",
+      "ppp.dat.sg.neut": "posto",
+      "ppp.acc.sg.masc": "postum",
+      "ppp.acc.sg.fem": "postam",
+      "ppp.acc.sg.neut": "postum",
+      "ppp.abl.sg.masc": "posto",
+      "ppp.abl.sg.fem": "posta",
+      "ppp.abl.sg.neut": "posto",
+      "ppp.voc.sg.masc": "poste",
+      "ppp.voc.sg.fem": "posta",
+      "ppp.voc.sg.neut": "postum",
+      "ppp.nom.pl.masc": "posti",
+      "ppp.nom.pl.fem": "postae",
+      "ppp.nom.pl.neut": "posta",
+      "ppp.gen.pl.masc": "postorum",
+      "ppp.gen.pl.fem": "postarum",
+      "ppp.gen.pl.neut": "postorum",
+      "ppp.dat.pl.masc": "postis",
+      "ppp.dat.pl.fem": "postis",
+      "ppp.dat.pl.neut": "postis",
+      "ppp.acc.pl.masc": "postos",
+      "ppp.acc.pl.fem": "postas",
+      "ppp.acc.pl.neut": "posta",
+      "ppp.abl.pl.masc": "postis",
+      "ppp.abl.pl.fem": "postis",
+      "ppp.abl.pl.neut": "postis",
+      "ppp.voc.pl.masc": "posti",
+      "ppp.voc.pl.fem": "postae",
+      "ppp.voc.pl.neut": "posta"
+    }
   }
 }

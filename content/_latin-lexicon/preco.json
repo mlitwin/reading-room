@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "preca",
       "2pl.pres.imp.act": "precate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: precatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "precatus",
+      "ppp.nom.sg.fem": "precata",
+      "ppp.nom.sg.neut": "precatum",
+      "ppp.gen.sg.masc": "precati",
+      "ppp.gen.sg.fem": "precatae",
+      "ppp.gen.sg.neut": "precati",
+      "ppp.dat.sg.masc": "precato",
+      "ppp.dat.sg.fem": "precatae",
+      "ppp.dat.sg.neut": "precato",
+      "ppp.acc.sg.masc": "precatum",
+      "ppp.acc.sg.fem": "precatam",
+      "ppp.acc.sg.neut": "precatum",
+      "ppp.abl.sg.masc": "precato",
+      "ppp.abl.sg.fem": "precata",
+      "ppp.abl.sg.neut": "precato",
+      "ppp.voc.sg.masc": "precate",
+      "ppp.voc.sg.fem": "precata",
+      "ppp.voc.sg.neut": "precatum",
+      "ppp.nom.pl.masc": "precati",
+      "ppp.nom.pl.fem": "precatae",
+      "ppp.nom.pl.neut": "precata",
+      "ppp.gen.pl.masc": "precatorum",
+      "ppp.gen.pl.fem": "precatarum",
+      "ppp.gen.pl.neut": "precatorum",
+      "ppp.dat.pl.masc": "precatis",
+      "ppp.dat.pl.fem": "precatis",
+      "ppp.dat.pl.neut": "precatis",
+      "ppp.acc.pl.masc": "precatos",
+      "ppp.acc.pl.fem": "precatas",
+      "ppp.acc.pl.neut": "precata",
+      "ppp.abl.pl.masc": "precatis",
+      "ppp.abl.pl.fem": "precatis",
+      "ppp.abl.pl.neut": "precatis",
+      "ppp.voc.pl.masc": "precati",
+      "ppp.voc.pl.fem": "precatae",
+      "ppp.voc.pl.neut": "precata"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "perdoma",
       "2pl.pres.imp.act": "perdomate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: perdomitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "perdomitus",
+      "ppp.nom.sg.fem": "perdomita",
+      "ppp.nom.sg.neut": "perdomitum",
+      "ppp.gen.sg.masc": "perdomiti",
+      "ppp.gen.sg.fem": "perdomitae",
+      "ppp.gen.sg.neut": "perdomiti",
+      "ppp.dat.sg.masc": "perdomito",
+      "ppp.dat.sg.fem": "perdomitae",
+      "ppp.dat.sg.neut": "perdomito",
+      "ppp.acc.sg.masc": "perdomitum",
+      "ppp.acc.sg.fem": "perdomitam",
+      "ppp.acc.sg.neut": "perdomitum",
+      "ppp.abl.sg.masc": "perdomito",
+      "ppp.abl.sg.fem": "perdomita",
+      "ppp.abl.sg.neut": "perdomito",
+      "ppp.voc.sg.masc": "perdomite",
+      "ppp.voc.sg.fem": "perdomita",
+      "ppp.voc.sg.neut": "perdomitum",
+      "ppp.nom.pl.masc": "perdomiti",
+      "ppp.nom.pl.fem": "perdomitae",
+      "ppp.nom.pl.neut": "perdomita",
+      "ppp.gen.pl.masc": "perdomitorum",
+      "ppp.gen.pl.fem": "perdomitarum",
+      "ppp.gen.pl.neut": "perdomitorum",
+      "ppp.dat.pl.masc": "perdomitis",
+      "ppp.dat.pl.fem": "perdomitis",
+      "ppp.dat.pl.neut": "perdomitis",
+      "ppp.acc.pl.masc": "perdomitos",
+      "ppp.acc.pl.fem": "perdomitas",
+      "ppp.acc.pl.neut": "perdomita",
+      "ppp.abl.pl.masc": "perdomitis",
+      "ppp.abl.pl.fem": "perdomitis",
+      "ppp.abl.pl.neut": "perdomitis",
+      "ppp.voc.pl.masc": "perdomiti",
+      "ppp.voc.pl.fem": "perdomitae",
+      "ppp.voc.pl.neut": "perdomita"
+    }
   }
 }

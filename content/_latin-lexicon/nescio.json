@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "nesci",
       "2pl.pres.imp.act": "nescite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: nescitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "nescitus",
+      "ppp.nom.sg.fem": "nescita",
+      "ppp.nom.sg.neut": "nescitum",
+      "ppp.gen.sg.masc": "nesciti",
+      "ppp.gen.sg.fem": "nescitae",
+      "ppp.gen.sg.neut": "nesciti",
+      "ppp.dat.sg.masc": "nescito",
+      "ppp.dat.sg.fem": "nescitae",
+      "ppp.dat.sg.neut": "nescito",
+      "ppp.acc.sg.masc": "nescitum",
+      "ppp.acc.sg.fem": "nescitam",
+      "ppp.acc.sg.neut": "nescitum",
+      "ppp.abl.sg.masc": "nescito",
+      "ppp.abl.sg.fem": "nescita",
+      "ppp.abl.sg.neut": "nescito",
+      "ppp.voc.sg.masc": "nescite",
+      "ppp.voc.sg.fem": "nescita",
+      "ppp.voc.sg.neut": "nescitum",
+      "ppp.nom.pl.masc": "nesciti",
+      "ppp.nom.pl.fem": "nescitae",
+      "ppp.nom.pl.neut": "nescita",
+      "ppp.gen.pl.masc": "nescitorum",
+      "ppp.gen.pl.fem": "nescitarum",
+      "ppp.gen.pl.neut": "nescitorum",
+      "ppp.dat.pl.masc": "nescitis",
+      "ppp.dat.pl.fem": "nescitis",
+      "ppp.dat.pl.neut": "nescitis",
+      "ppp.acc.pl.masc": "nescitos",
+      "ppp.acc.pl.fem": "nescitas",
+      "ppp.acc.pl.neut": "nescita",
+      "ppp.abl.pl.masc": "nescitis",
+      "ppp.abl.pl.fem": "nescitis",
+      "ppp.abl.pl.neut": "nescitis",
+      "ppp.voc.pl.masc": "nesciti",
+      "ppp.voc.pl.fem": "nescitae",
+      "ppp.voc.pl.neut": "nescita"
+    }
   }
 }

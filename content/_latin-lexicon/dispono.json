@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "dispone",
       "2pl.pres.imp.act": "disponite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dispositus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dispositus",
+      "ppp.nom.sg.fem": "disposita",
+      "ppp.nom.sg.neut": "dispositum",
+      "ppp.gen.sg.masc": "dispositi",
+      "ppp.gen.sg.fem": "dispositae",
+      "ppp.gen.sg.neut": "dispositi",
+      "ppp.dat.sg.masc": "disposito",
+      "ppp.dat.sg.fem": "dispositae",
+      "ppp.dat.sg.neut": "disposito",
+      "ppp.acc.sg.masc": "dispositum",
+      "ppp.acc.sg.fem": "dispositam",
+      "ppp.acc.sg.neut": "dispositum",
+      "ppp.abl.sg.masc": "disposito",
+      "ppp.abl.sg.fem": "disposita",
+      "ppp.abl.sg.neut": "disposito",
+      "ppp.voc.sg.masc": "disposite",
+      "ppp.voc.sg.fem": "disposita",
+      "ppp.voc.sg.neut": "dispositum",
+      "ppp.nom.pl.masc": "dispositi",
+      "ppp.nom.pl.fem": "dispositae",
+      "ppp.nom.pl.neut": "disposita",
+      "ppp.gen.pl.masc": "dispositorum",
+      "ppp.gen.pl.fem": "dispositarum",
+      "ppp.gen.pl.neut": "dispositorum",
+      "ppp.dat.pl.masc": "dispositis",
+      "ppp.dat.pl.fem": "dispositis",
+      "ppp.dat.pl.neut": "dispositis",
+      "ppp.acc.pl.masc": "dispositos",
+      "ppp.acc.pl.fem": "dispositas",
+      "ppp.acc.pl.neut": "disposita",
+      "ppp.abl.pl.masc": "dispositis",
+      "ppp.abl.pl.fem": "dispositis",
+      "ppp.abl.pl.neut": "dispositis",
+      "ppp.voc.pl.masc": "dispositi",
+      "ppp.voc.pl.fem": "dispositae",
+      "ppp.voc.pl.neut": "disposita"
+    }
   }
 }

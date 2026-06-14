@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "agita",
       "2pl.pres.imp.act": "agitate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: agitatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "agitatus",
+      "ppp.nom.sg.fem": "agitata",
+      "ppp.nom.sg.neut": "agitatum",
+      "ppp.gen.sg.masc": "agitati",
+      "ppp.gen.sg.fem": "agitatae",
+      "ppp.gen.sg.neut": "agitati",
+      "ppp.dat.sg.masc": "agitato",
+      "ppp.dat.sg.fem": "agitatae",
+      "ppp.dat.sg.neut": "agitato",
+      "ppp.acc.sg.masc": "agitatum",
+      "ppp.acc.sg.fem": "agitatam",
+      "ppp.acc.sg.neut": "agitatum",
+      "ppp.abl.sg.masc": "agitato",
+      "ppp.abl.sg.fem": "agitata",
+      "ppp.abl.sg.neut": "agitato",
+      "ppp.voc.sg.masc": "agitate",
+      "ppp.voc.sg.fem": "agitata",
+      "ppp.voc.sg.neut": "agitatum",
+      "ppp.nom.pl.masc": "agitati",
+      "ppp.nom.pl.fem": "agitatae",
+      "ppp.nom.pl.neut": "agitata",
+      "ppp.gen.pl.masc": "agitatorum",
+      "ppp.gen.pl.fem": "agitatarum",
+      "ppp.gen.pl.neut": "agitatorum",
+      "ppp.dat.pl.masc": "agitatis",
+      "ppp.dat.pl.fem": "agitatis",
+      "ppp.dat.pl.neut": "agitatis",
+      "ppp.acc.pl.masc": "agitatos",
+      "ppp.acc.pl.fem": "agitatas",
+      "ppp.acc.pl.neut": "agitata",
+      "ppp.abl.pl.masc": "agitatis",
+      "ppp.abl.pl.fem": "agitatis",
+      "ppp.abl.pl.neut": "agitatis",
+      "ppp.voc.pl.masc": "agitati",
+      "ppp.voc.pl.fem": "agitatae",
+      "ppp.voc.pl.neut": "agitata"
+    }
   }
 }

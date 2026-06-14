@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "abi",
       "2pl.pres.imp.act": "abite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: abitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "abitus",
+      "ppp.nom.sg.fem": "abita",
+      "ppp.nom.sg.neut": "abitum",
+      "ppp.gen.sg.masc": "abiti",
+      "ppp.gen.sg.fem": "abitae",
+      "ppp.gen.sg.neut": "abiti",
+      "ppp.dat.sg.masc": "abito",
+      "ppp.dat.sg.fem": "abitae",
+      "ppp.dat.sg.neut": "abito",
+      "ppp.acc.sg.masc": "abitum",
+      "ppp.acc.sg.fem": "abitam",
+      "ppp.acc.sg.neut": "abitum",
+      "ppp.abl.sg.masc": "abito",
+      "ppp.abl.sg.fem": "abita",
+      "ppp.abl.sg.neut": "abito",
+      "ppp.voc.sg.masc": "abite",
+      "ppp.voc.sg.fem": "abita",
+      "ppp.voc.sg.neut": "abitum",
+      "ppp.nom.pl.masc": "abiti",
+      "ppp.nom.pl.fem": "abitae",
+      "ppp.nom.pl.neut": "abita",
+      "ppp.gen.pl.masc": "abitorum",
+      "ppp.gen.pl.fem": "abitarum",
+      "ppp.gen.pl.neut": "abitorum",
+      "ppp.dat.pl.masc": "abitis",
+      "ppp.dat.pl.fem": "abitis",
+      "ppp.dat.pl.neut": "abitis",
+      "ppp.acc.pl.masc": "abitos",
+      "ppp.acc.pl.fem": "abitas",
+      "ppp.acc.pl.neut": "abita",
+      "ppp.abl.pl.masc": "abitis",
+      "ppp.abl.pl.fem": "abitis",
+      "ppp.abl.pl.neut": "abitis",
+      "ppp.voc.pl.masc": "abiti",
+      "ppp.voc.pl.fem": "abitae",
+      "ppp.voc.pl.neut": "abita"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "voca",
       "2pl.pres.imp.act": "vocate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vocatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vocatus",
+      "ppp.nom.sg.fem": "vocata",
+      "ppp.nom.sg.neut": "vocatum",
+      "ppp.gen.sg.masc": "vocati",
+      "ppp.gen.sg.fem": "vocatae",
+      "ppp.gen.sg.neut": "vocati",
+      "ppp.dat.sg.masc": "vocato",
+      "ppp.dat.sg.fem": "vocatae",
+      "ppp.dat.sg.neut": "vocato",
+      "ppp.acc.sg.masc": "vocatum",
+      "ppp.acc.sg.fem": "vocatam",
+      "ppp.acc.sg.neut": "vocatum",
+      "ppp.abl.sg.masc": "vocato",
+      "ppp.abl.sg.fem": "vocata",
+      "ppp.abl.sg.neut": "vocato",
+      "ppp.voc.sg.masc": "vocate",
+      "ppp.voc.sg.fem": "vocata",
+      "ppp.voc.sg.neut": "vocatum",
+      "ppp.nom.pl.masc": "vocati",
+      "ppp.nom.pl.fem": "vocatae",
+      "ppp.nom.pl.neut": "vocata",
+      "ppp.gen.pl.masc": "vocatorum",
+      "ppp.gen.pl.fem": "vocatarum",
+      "ppp.gen.pl.neut": "vocatorum",
+      "ppp.dat.pl.masc": "vocatis",
+      "ppp.dat.pl.fem": "vocatis",
+      "ppp.dat.pl.neut": "vocatis",
+      "ppp.acc.pl.masc": "vocatos",
+      "ppp.acc.pl.fem": "vocatas",
+      "ppp.acc.pl.neut": "vocata",
+      "ppp.abl.pl.masc": "vocatis",
+      "ppp.abl.pl.fem": "vocatis",
+      "ppp.abl.pl.neut": "vocatis",
+      "ppp.voc.pl.masc": "vocati",
+      "ppp.voc.pl.fem": "vocatae",
+      "ppp.voc.pl.neut": "vocata"
+    }
   }
 }

@@ -156,7 +156,9 @@ _NON_CELL_CODES = frozenset({
     'inf', 'interj', 'gerund', 'gerundive', 'supine',
 })
 # Participial prefixes — forms often absent from the basic paradigm table.
-_PARTICIPLE_PREFIX = ('ppp.', 'pap.', 'fap.', 'fpp.')
+# ppp. is no longer excluded: verb entries now carry ppp_paradigm tables
+# whose cell keys are ppp.{case}.{num}.{gen} and match these codes directly.
+_PARTICIPLE_PREFIX = ('pap.', 'fap.', 'fpp.')
 
 
 def _gender_strip(code):
@@ -191,7 +193,9 @@ def audit_cell_matches(by_lemma):
                 card = by_lemma.get(lemma)
                 if not card:
                     continue
-                cells = (card.get('paradigm') or {}).get('cells', {})
+                cells = {}
+                cells.update((card.get('paradigm') or {}).get('cells', {}))
+                cells.update((card.get('ppp_paradigm') or {}).get('cells', {}))
                 if not cells:
                     continue
                 for code in codes:

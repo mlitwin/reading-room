@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "tange",
       "2pl.pres.imp.act": "tangite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tactus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tactus",
+      "ppp.nom.sg.fem": "tacta",
+      "ppp.nom.sg.neut": "tactum",
+      "ppp.gen.sg.masc": "tacti",
+      "ppp.gen.sg.fem": "tactae",
+      "ppp.gen.sg.neut": "tacti",
+      "ppp.dat.sg.masc": "tacto",
+      "ppp.dat.sg.fem": "tactae",
+      "ppp.dat.sg.neut": "tacto",
+      "ppp.acc.sg.masc": "tactum",
+      "ppp.acc.sg.fem": "tactam",
+      "ppp.acc.sg.neut": "tactum",
+      "ppp.abl.sg.masc": "tacto",
+      "ppp.abl.sg.fem": "tacta",
+      "ppp.abl.sg.neut": "tacto",
+      "ppp.voc.sg.masc": "tacte",
+      "ppp.voc.sg.fem": "tacta",
+      "ppp.voc.sg.neut": "tactum",
+      "ppp.nom.pl.masc": "tacti",
+      "ppp.nom.pl.fem": "tactae",
+      "ppp.nom.pl.neut": "tacta",
+      "ppp.gen.pl.masc": "tactorum",
+      "ppp.gen.pl.fem": "tactarum",
+      "ppp.gen.pl.neut": "tactorum",
+      "ppp.dat.pl.masc": "tactis",
+      "ppp.dat.pl.fem": "tactis",
+      "ppp.dat.pl.neut": "tactis",
+      "ppp.acc.pl.masc": "tactos",
+      "ppp.acc.pl.fem": "tactas",
+      "ppp.acc.pl.neut": "tacta",
+      "ppp.abl.pl.masc": "tactis",
+      "ppp.abl.pl.fem": "tactis",
+      "ppp.abl.pl.neut": "tactis",
+      "ppp.voc.pl.masc": "tacti",
+      "ppp.voc.pl.fem": "tactae",
+      "ppp.voc.pl.neut": "tacta"
+    }
   }
 }

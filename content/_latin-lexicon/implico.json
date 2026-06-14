@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "implica",
       "2pl.pres.imp.act": "implicate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: implicatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "implicatus",
+      "ppp.nom.sg.fem": "implicata",
+      "ppp.nom.sg.neut": "implicatum",
+      "ppp.gen.sg.masc": "implicati",
+      "ppp.gen.sg.fem": "implicatae",
+      "ppp.gen.sg.neut": "implicati",
+      "ppp.dat.sg.masc": "implicato",
+      "ppp.dat.sg.fem": "implicatae",
+      "ppp.dat.sg.neut": "implicato",
+      "ppp.acc.sg.masc": "implicatum",
+      "ppp.acc.sg.fem": "implicatam",
+      "ppp.acc.sg.neut": "implicatum",
+      "ppp.abl.sg.masc": "implicato",
+      "ppp.abl.sg.fem": "implicata",
+      "ppp.abl.sg.neut": "implicato",
+      "ppp.voc.sg.masc": "implicate",
+      "ppp.voc.sg.fem": "implicata",
+      "ppp.voc.sg.neut": "implicatum",
+      "ppp.nom.pl.masc": "implicati",
+      "ppp.nom.pl.fem": "implicatae",
+      "ppp.nom.pl.neut": "implicata",
+      "ppp.gen.pl.masc": "implicatorum",
+      "ppp.gen.pl.fem": "implicatarum",
+      "ppp.gen.pl.neut": "implicatorum",
+      "ppp.dat.pl.masc": "implicatis",
+      "ppp.dat.pl.fem": "implicatis",
+      "ppp.dat.pl.neut": "implicatis",
+      "ppp.acc.pl.masc": "implicatos",
+      "ppp.acc.pl.fem": "implicatas",
+      "ppp.acc.pl.neut": "implicata",
+      "ppp.abl.pl.masc": "implicatis",
+      "ppp.abl.pl.fem": "implicatis",
+      "ppp.abl.pl.neut": "implicatis",
+      "ppp.voc.pl.masc": "implicati",
+      "ppp.voc.pl.fem": "implicatae",
+      "ppp.voc.pl.neut": "implicata"
+    }
   }
 }

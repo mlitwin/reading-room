@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "aufer",
       "2pl.pres.imp.act": "auferte"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ablatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ablatus",
+      "ppp.nom.sg.fem": "ablata",
+      "ppp.nom.sg.neut": "ablatum",
+      "ppp.gen.sg.masc": "ablati",
+      "ppp.gen.sg.fem": "ablatae",
+      "ppp.gen.sg.neut": "ablati",
+      "ppp.dat.sg.masc": "ablato",
+      "ppp.dat.sg.fem": "ablatae",
+      "ppp.dat.sg.neut": "ablato",
+      "ppp.acc.sg.masc": "ablatum",
+      "ppp.acc.sg.fem": "ablatam",
+      "ppp.acc.sg.neut": "ablatum",
+      "ppp.abl.sg.masc": "ablato",
+      "ppp.abl.sg.fem": "ablata",
+      "ppp.abl.sg.neut": "ablato",
+      "ppp.voc.sg.masc": "ablate",
+      "ppp.voc.sg.fem": "ablata",
+      "ppp.voc.sg.neut": "ablatum",
+      "ppp.nom.pl.masc": "ablati",
+      "ppp.nom.pl.fem": "ablatae",
+      "ppp.nom.pl.neut": "ablata",
+      "ppp.gen.pl.masc": "ablatorum",
+      "ppp.gen.pl.fem": "ablatarum",
+      "ppp.gen.pl.neut": "ablatorum",
+      "ppp.dat.pl.masc": "ablatis",
+      "ppp.dat.pl.fem": "ablatis",
+      "ppp.dat.pl.neut": "ablatis",
+      "ppp.acc.pl.masc": "ablatos",
+      "ppp.acc.pl.fem": "ablatas",
+      "ppp.acc.pl.neut": "ablata",
+      "ppp.abl.pl.masc": "ablatis",
+      "ppp.abl.pl.fem": "ablatis",
+      "ppp.abl.pl.neut": "ablatis",
+      "ppp.voc.pl.masc": "ablati",
+      "ppp.voc.pl.fem": "ablatae",
+      "ppp.voc.pl.neut": "ablata"
+    }
   }
 }

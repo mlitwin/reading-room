@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "retine",
       "2pl.pres.imp.act": "retinete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: retentus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "retentus",
+      "ppp.nom.sg.fem": "retenta",
+      "ppp.nom.sg.neut": "retentum",
+      "ppp.gen.sg.masc": "retenti",
+      "ppp.gen.sg.fem": "retentae",
+      "ppp.gen.sg.neut": "retenti",
+      "ppp.dat.sg.masc": "retento",
+      "ppp.dat.sg.fem": "retentae",
+      "ppp.dat.sg.neut": "retento",
+      "ppp.acc.sg.masc": "retentum",
+      "ppp.acc.sg.fem": "retentam",
+      "ppp.acc.sg.neut": "retentum",
+      "ppp.abl.sg.masc": "retento",
+      "ppp.abl.sg.fem": "retenta",
+      "ppp.abl.sg.neut": "retento",
+      "ppp.voc.sg.masc": "retente",
+      "ppp.voc.sg.fem": "retenta",
+      "ppp.voc.sg.neut": "retentum",
+      "ppp.nom.pl.masc": "retenti",
+      "ppp.nom.pl.fem": "retentae",
+      "ppp.nom.pl.neut": "retenta",
+      "ppp.gen.pl.masc": "retentorum",
+      "ppp.gen.pl.fem": "retentarum",
+      "ppp.gen.pl.neut": "retentorum",
+      "ppp.dat.pl.masc": "retentis",
+      "ppp.dat.pl.fem": "retentis",
+      "ppp.dat.pl.neut": "retentis",
+      "ppp.acc.pl.masc": "retentos",
+      "ppp.acc.pl.fem": "retentas",
+      "ppp.acc.pl.neut": "retenta",
+      "ppp.abl.pl.masc": "retentis",
+      "ppp.abl.pl.fem": "retentis",
+      "ppp.abl.pl.neut": "retentis",
+      "ppp.voc.pl.masc": "retenti",
+      "ppp.voc.pl.fem": "retentae",
+      "ppp.voc.pl.neut": "retenta"
+    }
   }
 }

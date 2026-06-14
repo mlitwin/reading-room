@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "oscula",
       "2pl.pres.imp.act": "osculate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: osculatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "osculatus",
+      "ppp.nom.sg.fem": "osculata",
+      "ppp.nom.sg.neut": "osculatum",
+      "ppp.gen.sg.masc": "osculati",
+      "ppp.gen.sg.fem": "osculatae",
+      "ppp.gen.sg.neut": "osculati",
+      "ppp.dat.sg.masc": "osculato",
+      "ppp.dat.sg.fem": "osculatae",
+      "ppp.dat.sg.neut": "osculato",
+      "ppp.acc.sg.masc": "osculatum",
+      "ppp.acc.sg.fem": "osculatam",
+      "ppp.acc.sg.neut": "osculatum",
+      "ppp.abl.sg.masc": "osculato",
+      "ppp.abl.sg.fem": "osculata",
+      "ppp.abl.sg.neut": "osculato",
+      "ppp.voc.sg.masc": "osculate",
+      "ppp.voc.sg.fem": "osculata",
+      "ppp.voc.sg.neut": "osculatum",
+      "ppp.nom.pl.masc": "osculati",
+      "ppp.nom.pl.fem": "osculatae",
+      "ppp.nom.pl.neut": "osculata",
+      "ppp.gen.pl.masc": "osculatorum",
+      "ppp.gen.pl.fem": "osculatarum",
+      "ppp.gen.pl.neut": "osculatorum",
+      "ppp.dat.pl.masc": "osculatis",
+      "ppp.dat.pl.fem": "osculatis",
+      "ppp.dat.pl.neut": "osculatis",
+      "ppp.acc.pl.masc": "osculatos",
+      "ppp.acc.pl.fem": "osculatas",
+      "ppp.acc.pl.neut": "osculata",
+      "ppp.abl.pl.masc": "osculatis",
+      "ppp.abl.pl.fem": "osculatis",
+      "ppp.abl.pl.neut": "osculatis",
+      "ppp.voc.pl.masc": "osculati",
+      "ppp.voc.pl.fem": "osculatae",
+      "ppp.voc.pl.neut": "osculata"
+    }
   }
 }

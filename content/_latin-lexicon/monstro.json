@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "monstra",
       "2pl.pres.imp.act": "monstrate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: monstratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "monstratus",
+      "ppp.nom.sg.fem": "monstrata",
+      "ppp.nom.sg.neut": "monstratum",
+      "ppp.gen.sg.masc": "monstrati",
+      "ppp.gen.sg.fem": "monstratae",
+      "ppp.gen.sg.neut": "monstrati",
+      "ppp.dat.sg.masc": "monstrato",
+      "ppp.dat.sg.fem": "monstratae",
+      "ppp.dat.sg.neut": "monstrato",
+      "ppp.acc.sg.masc": "monstratum",
+      "ppp.acc.sg.fem": "monstratam",
+      "ppp.acc.sg.neut": "monstratum",
+      "ppp.abl.sg.masc": "monstrato",
+      "ppp.abl.sg.fem": "monstrata",
+      "ppp.abl.sg.neut": "monstrato",
+      "ppp.voc.sg.masc": "monstrate",
+      "ppp.voc.sg.fem": "monstrata",
+      "ppp.voc.sg.neut": "monstratum",
+      "ppp.nom.pl.masc": "monstrati",
+      "ppp.nom.pl.fem": "monstratae",
+      "ppp.nom.pl.neut": "monstrata",
+      "ppp.gen.pl.masc": "monstratorum",
+      "ppp.gen.pl.fem": "monstratarum",
+      "ppp.gen.pl.neut": "monstratorum",
+      "ppp.dat.pl.masc": "monstratis",
+      "ppp.dat.pl.fem": "monstratis",
+      "ppp.dat.pl.neut": "monstratis",
+      "ppp.acc.pl.masc": "monstratos",
+      "ppp.acc.pl.fem": "monstratas",
+      "ppp.acc.pl.neut": "monstrata",
+      "ppp.abl.pl.masc": "monstratis",
+      "ppp.abl.pl.fem": "monstratis",
+      "ppp.abl.pl.neut": "monstratis",
+      "ppp.voc.pl.masc": "monstrati",
+      "ppp.voc.pl.fem": "monstratae",
+      "ppp.voc.pl.neut": "monstrata"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "gaude",
       "2pl.pres.imp.act": "gaudete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: gavisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "gavisus",
+      "ppp.nom.sg.fem": "gavisa",
+      "ppp.nom.sg.neut": "gavisum",
+      "ppp.gen.sg.masc": "gavisi",
+      "ppp.gen.sg.fem": "gavisae",
+      "ppp.gen.sg.neut": "gavisi",
+      "ppp.dat.sg.masc": "gaviso",
+      "ppp.dat.sg.fem": "gavisae",
+      "ppp.dat.sg.neut": "gaviso",
+      "ppp.acc.sg.masc": "gavisum",
+      "ppp.acc.sg.fem": "gavisam",
+      "ppp.acc.sg.neut": "gavisum",
+      "ppp.abl.sg.masc": "gaviso",
+      "ppp.abl.sg.fem": "gavisa",
+      "ppp.abl.sg.neut": "gaviso",
+      "ppp.voc.sg.masc": "gavise",
+      "ppp.voc.sg.fem": "gavisa",
+      "ppp.voc.sg.neut": "gavisum",
+      "ppp.nom.pl.masc": "gavisi",
+      "ppp.nom.pl.fem": "gavisae",
+      "ppp.nom.pl.neut": "gavisa",
+      "ppp.gen.pl.masc": "gavisorum",
+      "ppp.gen.pl.fem": "gavisarum",
+      "ppp.gen.pl.neut": "gavisorum",
+      "ppp.dat.pl.masc": "gavisis",
+      "ppp.dat.pl.fem": "gavisis",
+      "ppp.dat.pl.neut": "gavisis",
+      "ppp.acc.pl.masc": "gavisos",
+      "ppp.acc.pl.fem": "gavisas",
+      "ppp.acc.pl.neut": "gavisa",
+      "ppp.abl.pl.masc": "gavisis",
+      "ppp.abl.pl.fem": "gavisis",
+      "ppp.abl.pl.neut": "gavisis",
+      "ppp.voc.pl.masc": "gavisi",
+      "ppp.voc.pl.fem": "gavisae",
+      "ppp.voc.pl.neut": "gavisa"
+    }
   }
 }

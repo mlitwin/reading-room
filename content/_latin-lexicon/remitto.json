@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "remitte",
       "2pl.pres.imp.act": "remittite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: remissus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "remissus",
+      "ppp.nom.sg.fem": "remissa",
+      "ppp.nom.sg.neut": "remissum",
+      "ppp.gen.sg.masc": "remissi",
+      "ppp.gen.sg.fem": "remissae",
+      "ppp.gen.sg.neut": "remissi",
+      "ppp.dat.sg.masc": "remisso",
+      "ppp.dat.sg.fem": "remissae",
+      "ppp.dat.sg.neut": "remisso",
+      "ppp.acc.sg.masc": "remissum",
+      "ppp.acc.sg.fem": "remissam",
+      "ppp.acc.sg.neut": "remissum",
+      "ppp.abl.sg.masc": "remisso",
+      "ppp.abl.sg.fem": "remissa",
+      "ppp.abl.sg.neut": "remisso",
+      "ppp.voc.sg.masc": "remisse",
+      "ppp.voc.sg.fem": "remissa",
+      "ppp.voc.sg.neut": "remissum",
+      "ppp.nom.pl.masc": "remissi",
+      "ppp.nom.pl.fem": "remissae",
+      "ppp.nom.pl.neut": "remissa",
+      "ppp.gen.pl.masc": "remissorum",
+      "ppp.gen.pl.fem": "remissarum",
+      "ppp.gen.pl.neut": "remissorum",
+      "ppp.dat.pl.masc": "remissis",
+      "ppp.dat.pl.fem": "remissis",
+      "ppp.dat.pl.neut": "remissis",
+      "ppp.acc.pl.masc": "remissos",
+      "ppp.acc.pl.fem": "remissas",
+      "ppp.acc.pl.neut": "remissa",
+      "ppp.abl.pl.masc": "remissis",
+      "ppp.abl.pl.fem": "remissis",
+      "ppp.abl.pl.neut": "remissis",
+      "ppp.voc.pl.masc": "remissi",
+      "ppp.voc.pl.fem": "remissae",
+      "ppp.voc.pl.neut": "remissa"
+    }
   }
 }

@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "pasce",
       "2pl.pres.imp.act": "pascite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: pastus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "pastus",
+      "ppp.nom.sg.fem": "pasta",
+      "ppp.nom.sg.neut": "pastum",
+      "ppp.gen.sg.masc": "pasti",
+      "ppp.gen.sg.fem": "pastae",
+      "ppp.gen.sg.neut": "pasti",
+      "ppp.dat.sg.masc": "pasto",
+      "ppp.dat.sg.fem": "pastae",
+      "ppp.dat.sg.neut": "pasto",
+      "ppp.acc.sg.masc": "pastum",
+      "ppp.acc.sg.fem": "pastam",
+      "ppp.acc.sg.neut": "pastum",
+      "ppp.abl.sg.masc": "pasto",
+      "ppp.abl.sg.fem": "pasta",
+      "ppp.abl.sg.neut": "pasto",
+      "ppp.voc.sg.masc": "paste",
+      "ppp.voc.sg.fem": "pasta",
+      "ppp.voc.sg.neut": "pastum",
+      "ppp.nom.pl.masc": "pasti",
+      "ppp.nom.pl.fem": "pastae",
+      "ppp.nom.pl.neut": "pasta",
+      "ppp.gen.pl.masc": "pastorum",
+      "ppp.gen.pl.fem": "pastarum",
+      "ppp.gen.pl.neut": "pastorum",
+      "ppp.dat.pl.masc": "pastis",
+      "ppp.dat.pl.fem": "pastis",
+      "ppp.dat.pl.neut": "pastis",
+      "ppp.acc.pl.masc": "pastos",
+      "ppp.acc.pl.fem": "pastas",
+      "ppp.acc.pl.neut": "pasta",
+      "ppp.abl.pl.masc": "pastis",
+      "ppp.abl.pl.fem": "pastis",
+      "ppp.abl.pl.neut": "pastis",
+      "ppp.voc.pl.masc": "pasti",
+      "ppp.voc.pl.fem": "pastae",
+      "ppp.voc.pl.neut": "pasta"
+    }
   }
 }

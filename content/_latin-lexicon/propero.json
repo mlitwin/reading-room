@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "propera",
       "2pl.pres.imp.act": "properate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: properatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "properatus",
+      "ppp.nom.sg.fem": "properata",
+      "ppp.nom.sg.neut": "properatum",
+      "ppp.gen.sg.masc": "properati",
+      "ppp.gen.sg.fem": "properatae",
+      "ppp.gen.sg.neut": "properati",
+      "ppp.dat.sg.masc": "properato",
+      "ppp.dat.sg.fem": "properatae",
+      "ppp.dat.sg.neut": "properato",
+      "ppp.acc.sg.masc": "properatum",
+      "ppp.acc.sg.fem": "properatam",
+      "ppp.acc.sg.neut": "properatum",
+      "ppp.abl.sg.masc": "properato",
+      "ppp.abl.sg.fem": "properata",
+      "ppp.abl.sg.neut": "properato",
+      "ppp.voc.sg.masc": "properate",
+      "ppp.voc.sg.fem": "properata",
+      "ppp.voc.sg.neut": "properatum",
+      "ppp.nom.pl.masc": "properati",
+      "ppp.nom.pl.fem": "properatae",
+      "ppp.nom.pl.neut": "properata",
+      "ppp.gen.pl.masc": "properatorum",
+      "ppp.gen.pl.fem": "properatarum",
+      "ppp.gen.pl.neut": "properatorum",
+      "ppp.dat.pl.masc": "properatis",
+      "ppp.dat.pl.fem": "properatis",
+      "ppp.dat.pl.neut": "properatis",
+      "ppp.acc.pl.masc": "properatos",
+      "ppp.acc.pl.fem": "properatas",
+      "ppp.acc.pl.neut": "properata",
+      "ppp.abl.pl.masc": "properatis",
+      "ppp.abl.pl.fem": "properatis",
+      "ppp.abl.pl.neut": "properatis",
+      "ppp.voc.pl.masc": "properati",
+      "ppp.voc.pl.fem": "properatae",
+      "ppp.voc.pl.neut": "properata"
+    }
   }
 }

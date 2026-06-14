@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "desume",
       "2pl.pres.imp.act": "desumite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: desumptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "desumptus",
+      "ppp.nom.sg.fem": "desumpta",
+      "ppp.nom.sg.neut": "desumptum",
+      "ppp.gen.sg.masc": "desumpti",
+      "ppp.gen.sg.fem": "desumptae",
+      "ppp.gen.sg.neut": "desumpti",
+      "ppp.dat.sg.masc": "desumpto",
+      "ppp.dat.sg.fem": "desumptae",
+      "ppp.dat.sg.neut": "desumpto",
+      "ppp.acc.sg.masc": "desumptum",
+      "ppp.acc.sg.fem": "desumptam",
+      "ppp.acc.sg.neut": "desumptum",
+      "ppp.abl.sg.masc": "desumpto",
+      "ppp.abl.sg.fem": "desumpta",
+      "ppp.abl.sg.neut": "desumpto",
+      "ppp.voc.sg.masc": "desumpte",
+      "ppp.voc.sg.fem": "desumpta",
+      "ppp.voc.sg.neut": "desumptum",
+      "ppp.nom.pl.masc": "desumpti",
+      "ppp.nom.pl.fem": "desumptae",
+      "ppp.nom.pl.neut": "desumpta",
+      "ppp.gen.pl.masc": "desumptorum",
+      "ppp.gen.pl.fem": "desumptarum",
+      "ppp.gen.pl.neut": "desumptorum",
+      "ppp.dat.pl.masc": "desumptis",
+      "ppp.dat.pl.fem": "desumptis",
+      "ppp.dat.pl.neut": "desumptis",
+      "ppp.acc.pl.masc": "desumptos",
+      "ppp.acc.pl.fem": "desumptas",
+      "ppp.acc.pl.neut": "desumpta",
+      "ppp.abl.pl.masc": "desumptis",
+      "ppp.abl.pl.fem": "desumptis",
+      "ppp.abl.pl.neut": "desumptis",
+      "ppp.voc.pl.masc": "desumpti",
+      "ppp.voc.pl.fem": "desumptae",
+      "ppp.voc.pl.neut": "desumpta"
+    }
   }
 }

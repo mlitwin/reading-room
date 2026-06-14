@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "canta",
       "2pl.pres.imp.act": "cantate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cantatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cantatus",
+      "ppp.nom.sg.fem": "cantata",
+      "ppp.nom.sg.neut": "cantatum",
+      "ppp.gen.sg.masc": "cantati",
+      "ppp.gen.sg.fem": "cantatae",
+      "ppp.gen.sg.neut": "cantati",
+      "ppp.dat.sg.masc": "cantato",
+      "ppp.dat.sg.fem": "cantatae",
+      "ppp.dat.sg.neut": "cantato",
+      "ppp.acc.sg.masc": "cantatum",
+      "ppp.acc.sg.fem": "cantatam",
+      "ppp.acc.sg.neut": "cantatum",
+      "ppp.abl.sg.masc": "cantato",
+      "ppp.abl.sg.fem": "cantata",
+      "ppp.abl.sg.neut": "cantato",
+      "ppp.voc.sg.masc": "cantate",
+      "ppp.voc.sg.fem": "cantata",
+      "ppp.voc.sg.neut": "cantatum",
+      "ppp.nom.pl.masc": "cantati",
+      "ppp.nom.pl.fem": "cantatae",
+      "ppp.nom.pl.neut": "cantata",
+      "ppp.gen.pl.masc": "cantatorum",
+      "ppp.gen.pl.fem": "cantatarum",
+      "ppp.gen.pl.neut": "cantatorum",
+      "ppp.dat.pl.masc": "cantatis",
+      "ppp.dat.pl.fem": "cantatis",
+      "ppp.dat.pl.neut": "cantatis",
+      "ppp.acc.pl.masc": "cantatos",
+      "ppp.acc.pl.fem": "cantatas",
+      "ppp.acc.pl.neut": "cantata",
+      "ppp.abl.pl.masc": "cantatis",
+      "ppp.abl.pl.fem": "cantatis",
+      "ppp.abl.pl.neut": "cantatis",
+      "ppp.voc.pl.masc": "cantati",
+      "ppp.voc.pl.fem": "cantatae",
+      "ppp.voc.pl.neut": "cantata"
+    }
   }
 }

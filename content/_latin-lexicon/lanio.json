@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "lania",
       "2pl.pres.imp.act": "laniate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: laniatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "laniatus",
+      "ppp.nom.sg.fem": "laniata",
+      "ppp.nom.sg.neut": "laniatum",
+      "ppp.gen.sg.masc": "laniati",
+      "ppp.gen.sg.fem": "laniatae",
+      "ppp.gen.sg.neut": "laniati",
+      "ppp.dat.sg.masc": "laniato",
+      "ppp.dat.sg.fem": "laniatae",
+      "ppp.dat.sg.neut": "laniato",
+      "ppp.acc.sg.masc": "laniatum",
+      "ppp.acc.sg.fem": "laniatam",
+      "ppp.acc.sg.neut": "laniatum",
+      "ppp.abl.sg.masc": "laniato",
+      "ppp.abl.sg.fem": "laniata",
+      "ppp.abl.sg.neut": "laniato",
+      "ppp.voc.sg.masc": "laniate",
+      "ppp.voc.sg.fem": "laniata",
+      "ppp.voc.sg.neut": "laniatum",
+      "ppp.nom.pl.masc": "laniati",
+      "ppp.nom.pl.fem": "laniatae",
+      "ppp.nom.pl.neut": "laniata",
+      "ppp.gen.pl.masc": "laniatorum",
+      "ppp.gen.pl.fem": "laniatarum",
+      "ppp.gen.pl.neut": "laniatorum",
+      "ppp.dat.pl.masc": "laniatis",
+      "ppp.dat.pl.fem": "laniatis",
+      "ppp.dat.pl.neut": "laniatis",
+      "ppp.acc.pl.masc": "laniatos",
+      "ppp.acc.pl.fem": "laniatas",
+      "ppp.acc.pl.neut": "laniata",
+      "ppp.abl.pl.masc": "laniatis",
+      "ppp.abl.pl.fem": "laniatis",
+      "ppp.abl.pl.neut": "laniatis",
+      "ppp.voc.pl.masc": "laniati",
+      "ppp.voc.pl.fem": "laniatae",
+      "ppp.voc.pl.neut": "laniata"
+    }
   }
 }

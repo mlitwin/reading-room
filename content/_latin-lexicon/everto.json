@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "everte",
       "2pl.pres.imp.act": "evertite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: eversus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "eversus",
+      "ppp.nom.sg.fem": "eversa",
+      "ppp.nom.sg.neut": "eversum",
+      "ppp.gen.sg.masc": "eversi",
+      "ppp.gen.sg.fem": "eversae",
+      "ppp.gen.sg.neut": "eversi",
+      "ppp.dat.sg.masc": "everso",
+      "ppp.dat.sg.fem": "eversae",
+      "ppp.dat.sg.neut": "everso",
+      "ppp.acc.sg.masc": "eversum",
+      "ppp.acc.sg.fem": "eversam",
+      "ppp.acc.sg.neut": "eversum",
+      "ppp.abl.sg.masc": "everso",
+      "ppp.abl.sg.fem": "eversa",
+      "ppp.abl.sg.neut": "everso",
+      "ppp.voc.sg.masc": "everse",
+      "ppp.voc.sg.fem": "eversa",
+      "ppp.voc.sg.neut": "eversum",
+      "ppp.nom.pl.masc": "eversi",
+      "ppp.nom.pl.fem": "eversae",
+      "ppp.nom.pl.neut": "eversa",
+      "ppp.gen.pl.masc": "eversorum",
+      "ppp.gen.pl.fem": "eversarum",
+      "ppp.gen.pl.neut": "eversorum",
+      "ppp.dat.pl.masc": "eversis",
+      "ppp.dat.pl.fem": "eversis",
+      "ppp.dat.pl.neut": "eversis",
+      "ppp.acc.pl.masc": "eversos",
+      "ppp.acc.pl.fem": "eversas",
+      "ppp.acc.pl.neut": "eversa",
+      "ppp.abl.pl.masc": "eversis",
+      "ppp.abl.pl.fem": "eversis",
+      "ppp.abl.pl.neut": "eversis",
+      "ppp.voc.pl.masc": "eversi",
+      "ppp.voc.pl.fem": "eversae",
+      "ppp.voc.pl.neut": "eversa"
+    }
   }
 }

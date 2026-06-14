@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "seque",
       "2pl.pres.imp.act": "sequite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: secutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "secutus",
+      "ppp.nom.sg.fem": "secuta",
+      "ppp.nom.sg.neut": "secutum",
+      "ppp.gen.sg.masc": "secuti",
+      "ppp.gen.sg.fem": "secutae",
+      "ppp.gen.sg.neut": "secuti",
+      "ppp.dat.sg.masc": "secuto",
+      "ppp.dat.sg.fem": "secutae",
+      "ppp.dat.sg.neut": "secuto",
+      "ppp.acc.sg.masc": "secutum",
+      "ppp.acc.sg.fem": "secutam",
+      "ppp.acc.sg.neut": "secutum",
+      "ppp.abl.sg.masc": "secuto",
+      "ppp.abl.sg.fem": "secuta",
+      "ppp.abl.sg.neut": "secuto",
+      "ppp.voc.sg.masc": "secute",
+      "ppp.voc.sg.fem": "secuta",
+      "ppp.voc.sg.neut": "secutum",
+      "ppp.nom.pl.masc": "secuti",
+      "ppp.nom.pl.fem": "secutae",
+      "ppp.nom.pl.neut": "secuta",
+      "ppp.gen.pl.masc": "secutorum",
+      "ppp.gen.pl.fem": "secutarum",
+      "ppp.gen.pl.neut": "secutorum",
+      "ppp.dat.pl.masc": "secutis",
+      "ppp.dat.pl.fem": "secutis",
+      "ppp.dat.pl.neut": "secutis",
+      "ppp.acc.pl.masc": "secutos",
+      "ppp.acc.pl.fem": "secutas",
+      "ppp.acc.pl.neut": "secuta",
+      "ppp.abl.pl.masc": "secutis",
+      "ppp.abl.pl.fem": "secutis",
+      "ppp.abl.pl.neut": "secutis",
+      "ppp.voc.pl.masc": "secuti",
+      "ppp.voc.pl.fem": "secutae",
+      "ppp.voc.pl.neut": "secuta"
+    }
   }
 }

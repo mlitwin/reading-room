@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "assere",
       "2pl.pres.imp.act": "asserite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: assertus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "assertus",
+      "ppp.nom.sg.fem": "asserta",
+      "ppp.nom.sg.neut": "assertum",
+      "ppp.gen.sg.masc": "asserti",
+      "ppp.gen.sg.fem": "assertae",
+      "ppp.gen.sg.neut": "asserti",
+      "ppp.dat.sg.masc": "asserto",
+      "ppp.dat.sg.fem": "assertae",
+      "ppp.dat.sg.neut": "asserto",
+      "ppp.acc.sg.masc": "assertum",
+      "ppp.acc.sg.fem": "assertam",
+      "ppp.acc.sg.neut": "assertum",
+      "ppp.abl.sg.masc": "asserto",
+      "ppp.abl.sg.fem": "asserta",
+      "ppp.abl.sg.neut": "asserto",
+      "ppp.voc.sg.masc": "asserte",
+      "ppp.voc.sg.fem": "asserta",
+      "ppp.voc.sg.neut": "assertum",
+      "ppp.nom.pl.masc": "asserti",
+      "ppp.nom.pl.fem": "assertae",
+      "ppp.nom.pl.neut": "asserta",
+      "ppp.gen.pl.masc": "assertorum",
+      "ppp.gen.pl.fem": "assertarum",
+      "ppp.gen.pl.neut": "assertorum",
+      "ppp.dat.pl.masc": "assertis",
+      "ppp.dat.pl.fem": "assertis",
+      "ppp.dat.pl.neut": "assertis",
+      "ppp.acc.pl.masc": "assertos",
+      "ppp.acc.pl.fem": "assertas",
+      "ppp.acc.pl.neut": "asserta",
+      "ppp.abl.pl.masc": "assertis",
+      "ppp.abl.pl.fem": "assertis",
+      "ppp.abl.pl.neut": "assertis",
+      "ppp.voc.pl.masc": "asserti",
+      "ppp.voc.pl.fem": "assertae",
+      "ppp.voc.pl.neut": "asserta"
+    }
   }
 }

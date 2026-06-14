@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "senti",
       "2pl.pres.imp.act": "sentite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sensus",
+      "ppp.nom.sg.fem": "sensa",
+      "ppp.nom.sg.neut": "sensum",
+      "ppp.gen.sg.masc": "sensi",
+      "ppp.gen.sg.fem": "sensae",
+      "ppp.gen.sg.neut": "sensi",
+      "ppp.dat.sg.masc": "senso",
+      "ppp.dat.sg.fem": "sensae",
+      "ppp.dat.sg.neut": "senso",
+      "ppp.acc.sg.masc": "sensum",
+      "ppp.acc.sg.fem": "sensam",
+      "ppp.acc.sg.neut": "sensum",
+      "ppp.abl.sg.masc": "senso",
+      "ppp.abl.sg.fem": "sensa",
+      "ppp.abl.sg.neut": "senso",
+      "ppp.voc.sg.masc": "sense",
+      "ppp.voc.sg.fem": "sensa",
+      "ppp.voc.sg.neut": "sensum",
+      "ppp.nom.pl.masc": "sensi",
+      "ppp.nom.pl.fem": "sensae",
+      "ppp.nom.pl.neut": "sensa",
+      "ppp.gen.pl.masc": "sensorum",
+      "ppp.gen.pl.fem": "sensarum",
+      "ppp.gen.pl.neut": "sensorum",
+      "ppp.dat.pl.masc": "sensis",
+      "ppp.dat.pl.fem": "sensis",
+      "ppp.dat.pl.neut": "sensis",
+      "ppp.acc.pl.masc": "sensos",
+      "ppp.acc.pl.fem": "sensas",
+      "ppp.acc.pl.neut": "sensa",
+      "ppp.abl.pl.masc": "sensis",
+      "ppp.abl.pl.fem": "sensis",
+      "ppp.abl.pl.neut": "sensis",
+      "ppp.voc.pl.masc": "sensi",
+      "ppp.voc.pl.fem": "sensae",
+      "ppp.voc.pl.neut": "sensa"
+    }
   }
 }

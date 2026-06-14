@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "domina",
       "2pl.pres.imp.act": "dominate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dominatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dominatus",
+      "ppp.nom.sg.fem": "dominata",
+      "ppp.nom.sg.neut": "dominatum",
+      "ppp.gen.sg.masc": "dominati",
+      "ppp.gen.sg.fem": "dominatae",
+      "ppp.gen.sg.neut": "dominati",
+      "ppp.dat.sg.masc": "dominato",
+      "ppp.dat.sg.fem": "dominatae",
+      "ppp.dat.sg.neut": "dominato",
+      "ppp.acc.sg.masc": "dominatum",
+      "ppp.acc.sg.fem": "dominatam",
+      "ppp.acc.sg.neut": "dominatum",
+      "ppp.abl.sg.masc": "dominato",
+      "ppp.abl.sg.fem": "dominata",
+      "ppp.abl.sg.neut": "dominato",
+      "ppp.voc.sg.masc": "dominate",
+      "ppp.voc.sg.fem": "dominata",
+      "ppp.voc.sg.neut": "dominatum",
+      "ppp.nom.pl.masc": "dominati",
+      "ppp.nom.pl.fem": "dominatae",
+      "ppp.nom.pl.neut": "dominata",
+      "ppp.gen.pl.masc": "dominatorum",
+      "ppp.gen.pl.fem": "dominatarum",
+      "ppp.gen.pl.neut": "dominatorum",
+      "ppp.dat.pl.masc": "dominatis",
+      "ppp.dat.pl.fem": "dominatis",
+      "ppp.dat.pl.neut": "dominatis",
+      "ppp.acc.pl.masc": "dominatos",
+      "ppp.acc.pl.fem": "dominatas",
+      "ppp.acc.pl.neut": "dominata",
+      "ppp.abl.pl.masc": "dominatis",
+      "ppp.abl.pl.fem": "dominatis",
+      "ppp.abl.pl.neut": "dominatis",
+      "ppp.voc.pl.masc": "dominati",
+      "ppp.voc.pl.fem": "dominatae",
+      "ppp.voc.pl.neut": "dominata"
+    }
   }
 }

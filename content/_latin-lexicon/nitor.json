@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "nite",
       "2pl.pres.imp.act": "nitite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: nisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "nisus",
+      "ppp.nom.sg.fem": "nisa",
+      "ppp.nom.sg.neut": "nisum",
+      "ppp.gen.sg.masc": "nisi",
+      "ppp.gen.sg.fem": "nisae",
+      "ppp.gen.sg.neut": "nisi",
+      "ppp.dat.sg.masc": "niso",
+      "ppp.dat.sg.fem": "nisae",
+      "ppp.dat.sg.neut": "niso",
+      "ppp.acc.sg.masc": "nisum",
+      "ppp.acc.sg.fem": "nisam",
+      "ppp.acc.sg.neut": "nisum",
+      "ppp.abl.sg.masc": "niso",
+      "ppp.abl.sg.fem": "nisa",
+      "ppp.abl.sg.neut": "niso",
+      "ppp.voc.sg.masc": "nise",
+      "ppp.voc.sg.fem": "nisa",
+      "ppp.voc.sg.neut": "nisum",
+      "ppp.nom.pl.masc": "nisi",
+      "ppp.nom.pl.fem": "nisae",
+      "ppp.nom.pl.neut": "nisa",
+      "ppp.gen.pl.masc": "nisorum",
+      "ppp.gen.pl.fem": "nisarum",
+      "ppp.gen.pl.neut": "nisorum",
+      "ppp.dat.pl.masc": "nisis",
+      "ppp.dat.pl.fem": "nisis",
+      "ppp.dat.pl.neut": "nisis",
+      "ppp.acc.pl.masc": "nisos",
+      "ppp.acc.pl.fem": "nisas",
+      "ppp.acc.pl.neut": "nisa",
+      "ppp.abl.pl.masc": "nisis",
+      "ppp.abl.pl.fem": "nisis",
+      "ppp.abl.pl.neut": "nisis",
+      "ppp.voc.pl.masc": "nisi",
+      "ppp.voc.pl.fem": "nisae",
+      "ppp.voc.pl.neut": "nisa"
+    }
   }
 }

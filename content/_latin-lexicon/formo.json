@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "forma",
       "2pl.pres.imp.act": "formate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: formatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "formatus",
+      "ppp.nom.sg.fem": "formata",
+      "ppp.nom.sg.neut": "formatum",
+      "ppp.gen.sg.masc": "formati",
+      "ppp.gen.sg.fem": "formatae",
+      "ppp.gen.sg.neut": "formati",
+      "ppp.dat.sg.masc": "formato",
+      "ppp.dat.sg.fem": "formatae",
+      "ppp.dat.sg.neut": "formato",
+      "ppp.acc.sg.masc": "formatum",
+      "ppp.acc.sg.fem": "formatam",
+      "ppp.acc.sg.neut": "formatum",
+      "ppp.abl.sg.masc": "formato",
+      "ppp.abl.sg.fem": "formata",
+      "ppp.abl.sg.neut": "formato",
+      "ppp.voc.sg.masc": "formate",
+      "ppp.voc.sg.fem": "formata",
+      "ppp.voc.sg.neut": "formatum",
+      "ppp.nom.pl.masc": "formati",
+      "ppp.nom.pl.fem": "formatae",
+      "ppp.nom.pl.neut": "formata",
+      "ppp.gen.pl.masc": "formatorum",
+      "ppp.gen.pl.fem": "formatarum",
+      "ppp.gen.pl.neut": "formatorum",
+      "ppp.dat.pl.masc": "formatis",
+      "ppp.dat.pl.fem": "formatis",
+      "ppp.dat.pl.neut": "formatis",
+      "ppp.acc.pl.masc": "formatos",
+      "ppp.acc.pl.fem": "formatas",
+      "ppp.acc.pl.neut": "formata",
+      "ppp.abl.pl.masc": "formatis",
+      "ppp.abl.pl.fem": "formatis",
+      "ppp.abl.pl.neut": "formatis",
+      "ppp.voc.pl.masc": "formati",
+      "ppp.voc.pl.fem": "formatae",
+      "ppp.voc.pl.neut": "formata"
+    }
   }
 }

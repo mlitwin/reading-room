@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "indigna",
       "2pl.pres.imp.act": "indignate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: indignatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "indignatus",
+      "ppp.nom.sg.fem": "indignata",
+      "ppp.nom.sg.neut": "indignatum",
+      "ppp.gen.sg.masc": "indignati",
+      "ppp.gen.sg.fem": "indignatae",
+      "ppp.gen.sg.neut": "indignati",
+      "ppp.dat.sg.masc": "indignato",
+      "ppp.dat.sg.fem": "indignatae",
+      "ppp.dat.sg.neut": "indignato",
+      "ppp.acc.sg.masc": "indignatum",
+      "ppp.acc.sg.fem": "indignatam",
+      "ppp.acc.sg.neut": "indignatum",
+      "ppp.abl.sg.masc": "indignato",
+      "ppp.abl.sg.fem": "indignata",
+      "ppp.abl.sg.neut": "indignato",
+      "ppp.voc.sg.masc": "indignate",
+      "ppp.voc.sg.fem": "indignata",
+      "ppp.voc.sg.neut": "indignatum",
+      "ppp.nom.pl.masc": "indignati",
+      "ppp.nom.pl.fem": "indignatae",
+      "ppp.nom.pl.neut": "indignata",
+      "ppp.gen.pl.masc": "indignatorum",
+      "ppp.gen.pl.fem": "indignatarum",
+      "ppp.gen.pl.neut": "indignatorum",
+      "ppp.dat.pl.masc": "indignatis",
+      "ppp.dat.pl.fem": "indignatis",
+      "ppp.dat.pl.neut": "indignatis",
+      "ppp.acc.pl.masc": "indignatos",
+      "ppp.acc.pl.fem": "indignatas",
+      "ppp.acc.pl.neut": "indignata",
+      "ppp.abl.pl.masc": "indignatis",
+      "ppp.abl.pl.fem": "indignatis",
+      "ppp.abl.pl.neut": "indignatis",
+      "ppp.voc.pl.masc": "indignati",
+      "ppp.voc.pl.fem": "indignatae",
+      "ppp.voc.pl.neut": "indignata"
+    }
   }
 }

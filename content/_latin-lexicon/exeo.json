@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "exi",
       "2pl.pres.imp.act": "exite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exitus",
+      "ppp.nom.sg.fem": "exita",
+      "ppp.nom.sg.neut": "exitum",
+      "ppp.gen.sg.masc": "exiti",
+      "ppp.gen.sg.fem": "exitae",
+      "ppp.gen.sg.neut": "exiti",
+      "ppp.dat.sg.masc": "exito",
+      "ppp.dat.sg.fem": "exitae",
+      "ppp.dat.sg.neut": "exito",
+      "ppp.acc.sg.masc": "exitum",
+      "ppp.acc.sg.fem": "exitam",
+      "ppp.acc.sg.neut": "exitum",
+      "ppp.abl.sg.masc": "exito",
+      "ppp.abl.sg.fem": "exita",
+      "ppp.abl.sg.neut": "exito",
+      "ppp.voc.sg.masc": "exite",
+      "ppp.voc.sg.fem": "exita",
+      "ppp.voc.sg.neut": "exitum",
+      "ppp.nom.pl.masc": "exiti",
+      "ppp.nom.pl.fem": "exitae",
+      "ppp.nom.pl.neut": "exita",
+      "ppp.gen.pl.masc": "exitorum",
+      "ppp.gen.pl.fem": "exitarum",
+      "ppp.gen.pl.neut": "exitorum",
+      "ppp.dat.pl.masc": "exitis",
+      "ppp.dat.pl.fem": "exitis",
+      "ppp.dat.pl.neut": "exitis",
+      "ppp.acc.pl.masc": "exitos",
+      "ppp.acc.pl.fem": "exitas",
+      "ppp.acc.pl.neut": "exita",
+      "ppp.abl.pl.masc": "exitis",
+      "ppp.abl.pl.fem": "exitis",
+      "ppp.abl.pl.neut": "exitis",
+      "ppp.voc.pl.masc": "exiti",
+      "ppp.voc.pl.fem": "exitae",
+      "ppp.voc.pl.neut": "exita"
+    }
   }
 }

@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "proba",
       "2pl.pres.imp.act": "probate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: probatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "probatus",
+      "ppp.nom.sg.fem": "probata",
+      "ppp.nom.sg.neut": "probatum",
+      "ppp.gen.sg.masc": "probati",
+      "ppp.gen.sg.fem": "probatae",
+      "ppp.gen.sg.neut": "probati",
+      "ppp.dat.sg.masc": "probato",
+      "ppp.dat.sg.fem": "probatae",
+      "ppp.dat.sg.neut": "probato",
+      "ppp.acc.sg.masc": "probatum",
+      "ppp.acc.sg.fem": "probatam",
+      "ppp.acc.sg.neut": "probatum",
+      "ppp.abl.sg.masc": "probato",
+      "ppp.abl.sg.fem": "probata",
+      "ppp.abl.sg.neut": "probato",
+      "ppp.voc.sg.masc": "probate",
+      "ppp.voc.sg.fem": "probata",
+      "ppp.voc.sg.neut": "probatum",
+      "ppp.nom.pl.masc": "probati",
+      "ppp.nom.pl.fem": "probatae",
+      "ppp.nom.pl.neut": "probata",
+      "ppp.gen.pl.masc": "probatorum",
+      "ppp.gen.pl.fem": "probatarum",
+      "ppp.gen.pl.neut": "probatorum",
+      "ppp.dat.pl.masc": "probatis",
+      "ppp.dat.pl.fem": "probatis",
+      "ppp.dat.pl.neut": "probatis",
+      "ppp.acc.pl.masc": "probatos",
+      "ppp.acc.pl.fem": "probatas",
+      "ppp.acc.pl.neut": "probata",
+      "ppp.abl.pl.masc": "probatis",
+      "ppp.abl.pl.fem": "probatis",
+      "ppp.abl.pl.neut": "probatis",
+      "ppp.voc.pl.masc": "probati",
+      "ppp.voc.pl.fem": "probatae",
+      "ppp.voc.pl.neut": "probata"
+    }
   }
 }

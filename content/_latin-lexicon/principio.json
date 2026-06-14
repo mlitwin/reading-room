@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "principia",
       "2pl.pres.imp.act": "principiate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: principiatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "principiatus",
+      "ppp.nom.sg.fem": "principiata",
+      "ppp.nom.sg.neut": "principiatum",
+      "ppp.gen.sg.masc": "principiati",
+      "ppp.gen.sg.fem": "principiatae",
+      "ppp.gen.sg.neut": "principiati",
+      "ppp.dat.sg.masc": "principiato",
+      "ppp.dat.sg.fem": "principiatae",
+      "ppp.dat.sg.neut": "principiato",
+      "ppp.acc.sg.masc": "principiatum",
+      "ppp.acc.sg.fem": "principiatam",
+      "ppp.acc.sg.neut": "principiatum",
+      "ppp.abl.sg.masc": "principiato",
+      "ppp.abl.sg.fem": "principiata",
+      "ppp.abl.sg.neut": "principiato",
+      "ppp.voc.sg.masc": "principiate",
+      "ppp.voc.sg.fem": "principiata",
+      "ppp.voc.sg.neut": "principiatum",
+      "ppp.nom.pl.masc": "principiati",
+      "ppp.nom.pl.fem": "principiatae",
+      "ppp.nom.pl.neut": "principiata",
+      "ppp.gen.pl.masc": "principiatorum",
+      "ppp.gen.pl.fem": "principiatarum",
+      "ppp.gen.pl.neut": "principiatorum",
+      "ppp.dat.pl.masc": "principiatis",
+      "ppp.dat.pl.fem": "principiatis",
+      "ppp.dat.pl.neut": "principiatis",
+      "ppp.acc.pl.masc": "principiatos",
+      "ppp.acc.pl.fem": "principiatas",
+      "ppp.acc.pl.neut": "principiata",
+      "ppp.abl.pl.masc": "principiatis",
+      "ppp.abl.pl.fem": "principiatis",
+      "ppp.abl.pl.neut": "principiatis",
+      "ppp.voc.pl.masc": "principiati",
+      "ppp.voc.pl.fem": "principiatae",
+      "ppp.voc.pl.neut": "principiata"
+    }
   }
 }

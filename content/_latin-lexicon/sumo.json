@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "sume",
       "2pl.pres.imp.act": "sumite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sumptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sumptus",
+      "ppp.nom.sg.fem": "sumpta",
+      "ppp.nom.sg.neut": "sumptum",
+      "ppp.gen.sg.masc": "sumpti",
+      "ppp.gen.sg.fem": "sumptae",
+      "ppp.gen.sg.neut": "sumpti",
+      "ppp.dat.sg.masc": "sumpto",
+      "ppp.dat.sg.fem": "sumptae",
+      "ppp.dat.sg.neut": "sumpto",
+      "ppp.acc.sg.masc": "sumptum",
+      "ppp.acc.sg.fem": "sumptam",
+      "ppp.acc.sg.neut": "sumptum",
+      "ppp.abl.sg.masc": "sumpto",
+      "ppp.abl.sg.fem": "sumpta",
+      "ppp.abl.sg.neut": "sumpto",
+      "ppp.voc.sg.masc": "sumpte",
+      "ppp.voc.sg.fem": "sumpta",
+      "ppp.voc.sg.neut": "sumptum",
+      "ppp.nom.pl.masc": "sumpti",
+      "ppp.nom.pl.fem": "sumptae",
+      "ppp.nom.pl.neut": "sumpta",
+      "ppp.gen.pl.masc": "sumptorum",
+      "ppp.gen.pl.fem": "sumptarum",
+      "ppp.gen.pl.neut": "sumptorum",
+      "ppp.dat.pl.masc": "sumptis",
+      "ppp.dat.pl.fem": "sumptis",
+      "ppp.dat.pl.neut": "sumptis",
+      "ppp.acc.pl.masc": "sumptos",
+      "ppp.acc.pl.fem": "sumptas",
+      "ppp.acc.pl.neut": "sumpta",
+      "ppp.abl.pl.masc": "sumptis",
+      "ppp.abl.pl.fem": "sumptis",
+      "ppp.abl.pl.neut": "sumptis",
+      "ppp.voc.pl.masc": "sumpti",
+      "ppp.voc.pl.fem": "sumptae",
+      "ppp.voc.pl.neut": "sumpta"
+    }
   }
 }

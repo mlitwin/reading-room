@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "pare",
       "2pl.pres.imp.act": "parete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: paritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "paritus",
+      "ppp.nom.sg.fem": "parita",
+      "ppp.nom.sg.neut": "paritum",
+      "ppp.gen.sg.masc": "pariti",
+      "ppp.gen.sg.fem": "paritae",
+      "ppp.gen.sg.neut": "pariti",
+      "ppp.dat.sg.masc": "parito",
+      "ppp.dat.sg.fem": "paritae",
+      "ppp.dat.sg.neut": "parito",
+      "ppp.acc.sg.masc": "paritum",
+      "ppp.acc.sg.fem": "paritam",
+      "ppp.acc.sg.neut": "paritum",
+      "ppp.abl.sg.masc": "parito",
+      "ppp.abl.sg.fem": "parita",
+      "ppp.abl.sg.neut": "parito",
+      "ppp.voc.sg.masc": "parite",
+      "ppp.voc.sg.fem": "parita",
+      "ppp.voc.sg.neut": "paritum",
+      "ppp.nom.pl.masc": "pariti",
+      "ppp.nom.pl.fem": "paritae",
+      "ppp.nom.pl.neut": "parita",
+      "ppp.gen.pl.masc": "paritorum",
+      "ppp.gen.pl.fem": "paritarum",
+      "ppp.gen.pl.neut": "paritorum",
+      "ppp.dat.pl.masc": "paritis",
+      "ppp.dat.pl.fem": "paritis",
+      "ppp.dat.pl.neut": "paritis",
+      "ppp.acc.pl.masc": "paritos",
+      "ppp.acc.pl.fem": "paritas",
+      "ppp.acc.pl.neut": "parita",
+      "ppp.abl.pl.masc": "paritis",
+      "ppp.abl.pl.fem": "paritis",
+      "ppp.abl.pl.neut": "paritis",
+      "ppp.voc.pl.masc": "pariti",
+      "ppp.voc.pl.fem": "paritae",
+      "ppp.voc.pl.neut": "parita"
+    }
   }
 }

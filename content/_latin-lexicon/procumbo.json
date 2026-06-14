@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "procumbe",
       "2pl.pres.imp.act": "procumbite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: procubitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "procubitus",
+      "ppp.nom.sg.fem": "procubita",
+      "ppp.nom.sg.neut": "procubitum",
+      "ppp.gen.sg.masc": "procubiti",
+      "ppp.gen.sg.fem": "procubitae",
+      "ppp.gen.sg.neut": "procubiti",
+      "ppp.dat.sg.masc": "procubito",
+      "ppp.dat.sg.fem": "procubitae",
+      "ppp.dat.sg.neut": "procubito",
+      "ppp.acc.sg.masc": "procubitum",
+      "ppp.acc.sg.fem": "procubitam",
+      "ppp.acc.sg.neut": "procubitum",
+      "ppp.abl.sg.masc": "procubito",
+      "ppp.abl.sg.fem": "procubita",
+      "ppp.abl.sg.neut": "procubito",
+      "ppp.voc.sg.masc": "procubite",
+      "ppp.voc.sg.fem": "procubita",
+      "ppp.voc.sg.neut": "procubitum",
+      "ppp.nom.pl.masc": "procubiti",
+      "ppp.nom.pl.fem": "procubitae",
+      "ppp.nom.pl.neut": "procubita",
+      "ppp.gen.pl.masc": "procubitorum",
+      "ppp.gen.pl.fem": "procubitarum",
+      "ppp.gen.pl.neut": "procubitorum",
+      "ppp.dat.pl.masc": "procubitis",
+      "ppp.dat.pl.fem": "procubitis",
+      "ppp.dat.pl.neut": "procubitis",
+      "ppp.acc.pl.masc": "procubitos",
+      "ppp.acc.pl.fem": "procubitas",
+      "ppp.acc.pl.neut": "procubita",
+      "ppp.abl.pl.masc": "procubitis",
+      "ppp.abl.pl.fem": "procubitis",
+      "ppp.abl.pl.neut": "procubitis",
+      "ppp.voc.pl.masc": "procubiti",
+      "ppp.voc.pl.fem": "procubitae",
+      "ppp.voc.pl.neut": "procubita"
+    }
   }
 }

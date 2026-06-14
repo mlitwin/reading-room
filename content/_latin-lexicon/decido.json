@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "decide",
       "2pl.pres.imp.act": "decidite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: decisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "decisus",
+      "ppp.nom.sg.fem": "decisa",
+      "ppp.nom.sg.neut": "decisum",
+      "ppp.gen.sg.masc": "decisi",
+      "ppp.gen.sg.fem": "decisae",
+      "ppp.gen.sg.neut": "decisi",
+      "ppp.dat.sg.masc": "deciso",
+      "ppp.dat.sg.fem": "decisae",
+      "ppp.dat.sg.neut": "deciso",
+      "ppp.acc.sg.masc": "decisum",
+      "ppp.acc.sg.fem": "decisam",
+      "ppp.acc.sg.neut": "decisum",
+      "ppp.abl.sg.masc": "deciso",
+      "ppp.abl.sg.fem": "decisa",
+      "ppp.abl.sg.neut": "deciso",
+      "ppp.voc.sg.masc": "decise",
+      "ppp.voc.sg.fem": "decisa",
+      "ppp.voc.sg.neut": "decisum",
+      "ppp.nom.pl.masc": "decisi",
+      "ppp.nom.pl.fem": "decisae",
+      "ppp.nom.pl.neut": "decisa",
+      "ppp.gen.pl.masc": "decisorum",
+      "ppp.gen.pl.fem": "decisarum",
+      "ppp.gen.pl.neut": "decisorum",
+      "ppp.dat.pl.masc": "decisis",
+      "ppp.dat.pl.fem": "decisis",
+      "ppp.dat.pl.neut": "decisis",
+      "ppp.acc.pl.masc": "decisos",
+      "ppp.acc.pl.fem": "decisas",
+      "ppp.acc.pl.neut": "decisa",
+      "ppp.abl.pl.masc": "decisis",
+      "ppp.abl.pl.fem": "decisis",
+      "ppp.abl.pl.neut": "decisis",
+      "ppp.voc.pl.masc": "decisi",
+      "ppp.voc.pl.fem": "decisae",
+      "ppp.voc.pl.neut": "decisa"
+    }
   }
 }

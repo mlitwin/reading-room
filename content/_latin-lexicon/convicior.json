@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "convicia",
       "2pl.pres.imp.act": "conviciate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conviciatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conviciatus",
+      "ppp.nom.sg.fem": "conviciata",
+      "ppp.nom.sg.neut": "conviciatum",
+      "ppp.gen.sg.masc": "conviciati",
+      "ppp.gen.sg.fem": "conviciatae",
+      "ppp.gen.sg.neut": "conviciati",
+      "ppp.dat.sg.masc": "conviciato",
+      "ppp.dat.sg.fem": "conviciatae",
+      "ppp.dat.sg.neut": "conviciato",
+      "ppp.acc.sg.masc": "conviciatum",
+      "ppp.acc.sg.fem": "conviciatam",
+      "ppp.acc.sg.neut": "conviciatum",
+      "ppp.abl.sg.masc": "conviciato",
+      "ppp.abl.sg.fem": "conviciata",
+      "ppp.abl.sg.neut": "conviciato",
+      "ppp.voc.sg.masc": "conviciate",
+      "ppp.voc.sg.fem": "conviciata",
+      "ppp.voc.sg.neut": "conviciatum",
+      "ppp.nom.pl.masc": "conviciati",
+      "ppp.nom.pl.fem": "conviciatae",
+      "ppp.nom.pl.neut": "conviciata",
+      "ppp.gen.pl.masc": "conviciatorum",
+      "ppp.gen.pl.fem": "conviciatarum",
+      "ppp.gen.pl.neut": "conviciatorum",
+      "ppp.dat.pl.masc": "conviciatis",
+      "ppp.dat.pl.fem": "conviciatis",
+      "ppp.dat.pl.neut": "conviciatis",
+      "ppp.acc.pl.masc": "conviciatos",
+      "ppp.acc.pl.fem": "conviciatas",
+      "ppp.acc.pl.neut": "conviciata",
+      "ppp.abl.pl.masc": "conviciatis",
+      "ppp.abl.pl.fem": "conviciatis",
+      "ppp.abl.pl.neut": "conviciatis",
+      "ppp.voc.pl.masc": "conviciati",
+      "ppp.voc.pl.fem": "conviciatae",
+      "ppp.voc.pl.neut": "conviciata"
+    }
   }
 }

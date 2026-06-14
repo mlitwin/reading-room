@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "observa",
       "2pl.pres.imp.act": "observate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: observatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "observatus",
+      "ppp.nom.sg.fem": "observata",
+      "ppp.nom.sg.neut": "observatum",
+      "ppp.gen.sg.masc": "observati",
+      "ppp.gen.sg.fem": "observatae",
+      "ppp.gen.sg.neut": "observati",
+      "ppp.dat.sg.masc": "observato",
+      "ppp.dat.sg.fem": "observatae",
+      "ppp.dat.sg.neut": "observato",
+      "ppp.acc.sg.masc": "observatum",
+      "ppp.acc.sg.fem": "observatam",
+      "ppp.acc.sg.neut": "observatum",
+      "ppp.abl.sg.masc": "observato",
+      "ppp.abl.sg.fem": "observata",
+      "ppp.abl.sg.neut": "observato",
+      "ppp.voc.sg.masc": "observate",
+      "ppp.voc.sg.fem": "observata",
+      "ppp.voc.sg.neut": "observatum",
+      "ppp.nom.pl.masc": "observati",
+      "ppp.nom.pl.fem": "observatae",
+      "ppp.nom.pl.neut": "observata",
+      "ppp.gen.pl.masc": "observatorum",
+      "ppp.gen.pl.fem": "observatarum",
+      "ppp.gen.pl.neut": "observatorum",
+      "ppp.dat.pl.masc": "observatis",
+      "ppp.dat.pl.fem": "observatis",
+      "ppp.dat.pl.neut": "observatis",
+      "ppp.acc.pl.masc": "observatos",
+      "ppp.acc.pl.fem": "observatas",
+      "ppp.acc.pl.neut": "observata",
+      "ppp.abl.pl.masc": "observatis",
+      "ppp.abl.pl.fem": "observatis",
+      "ppp.abl.pl.neut": "observatis",
+      "ppp.voc.pl.masc": "observati",
+      "ppp.voc.pl.fem": "observatae",
+      "ppp.voc.pl.neut": "observata"
+    }
   }
 }

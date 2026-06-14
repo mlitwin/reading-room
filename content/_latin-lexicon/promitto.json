@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "promitte",
       "2pl.pres.imp.act": "promittite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: promissus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "promissus",
+      "ppp.nom.sg.fem": "promissa",
+      "ppp.nom.sg.neut": "promissum",
+      "ppp.gen.sg.masc": "promissi",
+      "ppp.gen.sg.fem": "promissae",
+      "ppp.gen.sg.neut": "promissi",
+      "ppp.dat.sg.masc": "promisso",
+      "ppp.dat.sg.fem": "promissae",
+      "ppp.dat.sg.neut": "promisso",
+      "ppp.acc.sg.masc": "promissum",
+      "ppp.acc.sg.fem": "promissam",
+      "ppp.acc.sg.neut": "promissum",
+      "ppp.abl.sg.masc": "promisso",
+      "ppp.abl.sg.fem": "promissa",
+      "ppp.abl.sg.neut": "promisso",
+      "ppp.voc.sg.masc": "promisse",
+      "ppp.voc.sg.fem": "promissa",
+      "ppp.voc.sg.neut": "promissum",
+      "ppp.nom.pl.masc": "promissi",
+      "ppp.nom.pl.fem": "promissae",
+      "ppp.nom.pl.neut": "promissa",
+      "ppp.gen.pl.masc": "promissorum",
+      "ppp.gen.pl.fem": "promissarum",
+      "ppp.gen.pl.neut": "promissorum",
+      "ppp.dat.pl.masc": "promissis",
+      "ppp.dat.pl.fem": "promissis",
+      "ppp.dat.pl.neut": "promissis",
+      "ppp.acc.pl.masc": "promissos",
+      "ppp.acc.pl.fem": "promissas",
+      "ppp.acc.pl.neut": "promissa",
+      "ppp.abl.pl.masc": "promissis",
+      "ppp.abl.pl.fem": "promissis",
+      "ppp.abl.pl.neut": "promissis",
+      "ppp.voc.pl.masc": "promissi",
+      "ppp.voc.pl.fem": "promissae",
+      "ppp.voc.pl.neut": "promissa"
+    }
   }
 }

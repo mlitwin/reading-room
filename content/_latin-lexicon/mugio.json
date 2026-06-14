@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "mugi",
       "2pl.pres.imp.act": "mugite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mugitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mugitus",
+      "ppp.nom.sg.fem": "mugita",
+      "ppp.nom.sg.neut": "mugitum",
+      "ppp.gen.sg.masc": "mugiti",
+      "ppp.gen.sg.fem": "mugitae",
+      "ppp.gen.sg.neut": "mugiti",
+      "ppp.dat.sg.masc": "mugito",
+      "ppp.dat.sg.fem": "mugitae",
+      "ppp.dat.sg.neut": "mugito",
+      "ppp.acc.sg.masc": "mugitum",
+      "ppp.acc.sg.fem": "mugitam",
+      "ppp.acc.sg.neut": "mugitum",
+      "ppp.abl.sg.masc": "mugito",
+      "ppp.abl.sg.fem": "mugita",
+      "ppp.abl.sg.neut": "mugito",
+      "ppp.voc.sg.masc": "mugite",
+      "ppp.voc.sg.fem": "mugita",
+      "ppp.voc.sg.neut": "mugitum",
+      "ppp.nom.pl.masc": "mugiti",
+      "ppp.nom.pl.fem": "mugitae",
+      "ppp.nom.pl.neut": "mugita",
+      "ppp.gen.pl.masc": "mugitorum",
+      "ppp.gen.pl.fem": "mugitarum",
+      "ppp.gen.pl.neut": "mugitorum",
+      "ppp.dat.pl.masc": "mugitis",
+      "ppp.dat.pl.fem": "mugitis",
+      "ppp.dat.pl.neut": "mugitis",
+      "ppp.acc.pl.masc": "mugitos",
+      "ppp.acc.pl.fem": "mugitas",
+      "ppp.acc.pl.neut": "mugita",
+      "ppp.abl.pl.masc": "mugitis",
+      "ppp.abl.pl.fem": "mugitis",
+      "ppp.abl.pl.neut": "mugitis",
+      "ppp.voc.pl.masc": "mugiti",
+      "ppp.voc.pl.fem": "mugitae",
+      "ppp.voc.pl.neut": "mugita"
+    }
   }
 }

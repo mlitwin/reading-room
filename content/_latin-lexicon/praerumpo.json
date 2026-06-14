@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "praerumpe",
       "2pl.pres.imp.act": "praerumpite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: praeruptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "praeruptus",
+      "ppp.nom.sg.fem": "praerupta",
+      "ppp.nom.sg.neut": "praeruptum",
+      "ppp.gen.sg.masc": "praerupti",
+      "ppp.gen.sg.fem": "praeruptae",
+      "ppp.gen.sg.neut": "praerupti",
+      "ppp.dat.sg.masc": "praerupto",
+      "ppp.dat.sg.fem": "praeruptae",
+      "ppp.dat.sg.neut": "praerupto",
+      "ppp.acc.sg.masc": "praeruptum",
+      "ppp.acc.sg.fem": "praeruptam",
+      "ppp.acc.sg.neut": "praeruptum",
+      "ppp.abl.sg.masc": "praerupto",
+      "ppp.abl.sg.fem": "praerupta",
+      "ppp.abl.sg.neut": "praerupto",
+      "ppp.voc.sg.masc": "praerupte",
+      "ppp.voc.sg.fem": "praerupta",
+      "ppp.voc.sg.neut": "praeruptum",
+      "ppp.nom.pl.masc": "praerupti",
+      "ppp.nom.pl.fem": "praeruptae",
+      "ppp.nom.pl.neut": "praerupta",
+      "ppp.gen.pl.masc": "praeruptorum",
+      "ppp.gen.pl.fem": "praeruptarum",
+      "ppp.gen.pl.neut": "praeruptorum",
+      "ppp.dat.pl.masc": "praeruptis",
+      "ppp.dat.pl.fem": "praeruptis",
+      "ppp.dat.pl.neut": "praeruptis",
+      "ppp.acc.pl.masc": "praeruptos",
+      "ppp.acc.pl.fem": "praeruptas",
+      "ppp.acc.pl.neut": "praerupta",
+      "ppp.abl.pl.masc": "praeruptis",
+      "ppp.abl.pl.fem": "praeruptis",
+      "ppp.abl.pl.neut": "praeruptis",
+      "ppp.voc.pl.masc": "praerupti",
+      "ppp.voc.pl.fem": "praeruptae",
+      "ppp.voc.pl.neut": "praerupta"
+    }
   }
 }

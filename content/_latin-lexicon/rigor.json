@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "riga",
       "2pl.pres.imp.act": "rigate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: rigatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "rigatus",
+      "ppp.nom.sg.fem": "rigata",
+      "ppp.nom.sg.neut": "rigatum",
+      "ppp.gen.sg.masc": "rigati",
+      "ppp.gen.sg.fem": "rigatae",
+      "ppp.gen.sg.neut": "rigati",
+      "ppp.dat.sg.masc": "rigato",
+      "ppp.dat.sg.fem": "rigatae",
+      "ppp.dat.sg.neut": "rigato",
+      "ppp.acc.sg.masc": "rigatum",
+      "ppp.acc.sg.fem": "rigatam",
+      "ppp.acc.sg.neut": "rigatum",
+      "ppp.abl.sg.masc": "rigato",
+      "ppp.abl.sg.fem": "rigata",
+      "ppp.abl.sg.neut": "rigato",
+      "ppp.voc.sg.masc": "rigate",
+      "ppp.voc.sg.fem": "rigata",
+      "ppp.voc.sg.neut": "rigatum",
+      "ppp.nom.pl.masc": "rigati",
+      "ppp.nom.pl.fem": "rigatae",
+      "ppp.nom.pl.neut": "rigata",
+      "ppp.gen.pl.masc": "rigatorum",
+      "ppp.gen.pl.fem": "rigatarum",
+      "ppp.gen.pl.neut": "rigatorum",
+      "ppp.dat.pl.masc": "rigatis",
+      "ppp.dat.pl.fem": "rigatis",
+      "ppp.dat.pl.neut": "rigatis",
+      "ppp.acc.pl.masc": "rigatos",
+      "ppp.acc.pl.fem": "rigatas",
+      "ppp.acc.pl.neut": "rigata",
+      "ppp.abl.pl.masc": "rigatis",
+      "ppp.abl.pl.fem": "rigatis",
+      "ppp.abl.pl.neut": "rigatis",
+      "ppp.voc.pl.masc": "rigati",
+      "ppp.voc.pl.fem": "rigatae",
+      "ppp.voc.pl.neut": "rigata"
+    }
   }
 }

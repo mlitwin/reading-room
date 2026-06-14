@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "torre",
       "2pl.pres.imp.act": "torrete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tostus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tostus",
+      "ppp.nom.sg.fem": "tosta",
+      "ppp.nom.sg.neut": "tostum",
+      "ppp.gen.sg.masc": "tosti",
+      "ppp.gen.sg.fem": "tostae",
+      "ppp.gen.sg.neut": "tosti",
+      "ppp.dat.sg.masc": "tosto",
+      "ppp.dat.sg.fem": "tostae",
+      "ppp.dat.sg.neut": "tosto",
+      "ppp.acc.sg.masc": "tostum",
+      "ppp.acc.sg.fem": "tostam",
+      "ppp.acc.sg.neut": "tostum",
+      "ppp.abl.sg.masc": "tosto",
+      "ppp.abl.sg.fem": "tosta",
+      "ppp.abl.sg.neut": "tosto",
+      "ppp.voc.sg.masc": "toste",
+      "ppp.voc.sg.fem": "tosta",
+      "ppp.voc.sg.neut": "tostum",
+      "ppp.nom.pl.masc": "tosti",
+      "ppp.nom.pl.fem": "tostae",
+      "ppp.nom.pl.neut": "tosta",
+      "ppp.gen.pl.masc": "tostorum",
+      "ppp.gen.pl.fem": "tostarum",
+      "ppp.gen.pl.neut": "tostorum",
+      "ppp.dat.pl.masc": "tostis",
+      "ppp.dat.pl.fem": "tostis",
+      "ppp.dat.pl.neut": "tostis",
+      "ppp.acc.pl.masc": "tostos",
+      "ppp.acc.pl.fem": "tostas",
+      "ppp.acc.pl.neut": "tosta",
+      "ppp.abl.pl.masc": "tostis",
+      "ppp.abl.pl.fem": "tostis",
+      "ppp.abl.pl.neut": "tostis",
+      "ppp.voc.pl.masc": "tosti",
+      "ppp.voc.pl.fem": "tostae",
+      "ppp.voc.pl.neut": "tosta"
+    }
   }
 }

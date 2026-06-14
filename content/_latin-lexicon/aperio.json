@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "aperi",
       "2pl.pres.imp.act": "aperite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: apertus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "apertus",
+      "ppp.nom.sg.fem": "aperta",
+      "ppp.nom.sg.neut": "apertum",
+      "ppp.gen.sg.masc": "aperti",
+      "ppp.gen.sg.fem": "apertae",
+      "ppp.gen.sg.neut": "aperti",
+      "ppp.dat.sg.masc": "aperto",
+      "ppp.dat.sg.fem": "apertae",
+      "ppp.dat.sg.neut": "aperto",
+      "ppp.acc.sg.masc": "apertum",
+      "ppp.acc.sg.fem": "apertam",
+      "ppp.acc.sg.neut": "apertum",
+      "ppp.abl.sg.masc": "aperto",
+      "ppp.abl.sg.fem": "aperta",
+      "ppp.abl.sg.neut": "aperto",
+      "ppp.voc.sg.masc": "aperte",
+      "ppp.voc.sg.fem": "aperta",
+      "ppp.voc.sg.neut": "apertum",
+      "ppp.nom.pl.masc": "aperti",
+      "ppp.nom.pl.fem": "apertae",
+      "ppp.nom.pl.neut": "aperta",
+      "ppp.gen.pl.masc": "apertorum",
+      "ppp.gen.pl.fem": "apertarum",
+      "ppp.gen.pl.neut": "apertorum",
+      "ppp.dat.pl.masc": "apertis",
+      "ppp.dat.pl.fem": "apertis",
+      "ppp.dat.pl.neut": "apertis",
+      "ppp.acc.pl.masc": "apertos",
+      "ppp.acc.pl.fem": "apertas",
+      "ppp.acc.pl.neut": "aperta",
+      "ppp.abl.pl.masc": "apertis",
+      "ppp.abl.pl.fem": "apertis",
+      "ppp.abl.pl.neut": "apertis",
+      "ppp.voc.pl.masc": "aperti",
+      "ppp.voc.pl.fem": "apertae",
+      "ppp.voc.pl.neut": "aperta"
+    }
   }
 }

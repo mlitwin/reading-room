@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "cape",
       "2pl.pres.imp.act": "capite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: captus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "captus",
+      "ppp.nom.sg.fem": "capta",
+      "ppp.nom.sg.neut": "captum",
+      "ppp.gen.sg.masc": "capti",
+      "ppp.gen.sg.fem": "captae",
+      "ppp.gen.sg.neut": "capti",
+      "ppp.dat.sg.masc": "capto",
+      "ppp.dat.sg.fem": "captae",
+      "ppp.dat.sg.neut": "capto",
+      "ppp.acc.sg.masc": "captum",
+      "ppp.acc.sg.fem": "captam",
+      "ppp.acc.sg.neut": "captum",
+      "ppp.abl.sg.masc": "capto",
+      "ppp.abl.sg.fem": "capta",
+      "ppp.abl.sg.neut": "capto",
+      "ppp.voc.sg.masc": "capte",
+      "ppp.voc.sg.fem": "capta",
+      "ppp.voc.sg.neut": "captum",
+      "ppp.nom.pl.masc": "capti",
+      "ppp.nom.pl.fem": "captae",
+      "ppp.nom.pl.neut": "capta",
+      "ppp.gen.pl.masc": "captorum",
+      "ppp.gen.pl.fem": "captarum",
+      "ppp.gen.pl.neut": "captorum",
+      "ppp.dat.pl.masc": "captis",
+      "ppp.dat.pl.fem": "captis",
+      "ppp.dat.pl.neut": "captis",
+      "ppp.acc.pl.masc": "captos",
+      "ppp.acc.pl.fem": "captas",
+      "ppp.acc.pl.neut": "capta",
+      "ppp.abl.pl.masc": "captis",
+      "ppp.abl.pl.fem": "captis",
+      "ppp.abl.pl.neut": "captis",
+      "ppp.voc.pl.masc": "capti",
+      "ppp.voc.pl.fem": "captae",
+      "ppp.voc.pl.neut": "capta"
+    }
   }
 }

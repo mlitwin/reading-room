@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "succede",
       "2pl.pres.imp.act": "succedite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: successus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "successus",
+      "ppp.nom.sg.fem": "successa",
+      "ppp.nom.sg.neut": "successum",
+      "ppp.gen.sg.masc": "successi",
+      "ppp.gen.sg.fem": "successae",
+      "ppp.gen.sg.neut": "successi",
+      "ppp.dat.sg.masc": "successo",
+      "ppp.dat.sg.fem": "successae",
+      "ppp.dat.sg.neut": "successo",
+      "ppp.acc.sg.masc": "successum",
+      "ppp.acc.sg.fem": "successam",
+      "ppp.acc.sg.neut": "successum",
+      "ppp.abl.sg.masc": "successo",
+      "ppp.abl.sg.fem": "successa",
+      "ppp.abl.sg.neut": "successo",
+      "ppp.voc.sg.masc": "successe",
+      "ppp.voc.sg.fem": "successa",
+      "ppp.voc.sg.neut": "successum",
+      "ppp.nom.pl.masc": "successi",
+      "ppp.nom.pl.fem": "successae",
+      "ppp.nom.pl.neut": "successa",
+      "ppp.gen.pl.masc": "successorum",
+      "ppp.gen.pl.fem": "successarum",
+      "ppp.gen.pl.neut": "successorum",
+      "ppp.dat.pl.masc": "successis",
+      "ppp.dat.pl.fem": "successis",
+      "ppp.dat.pl.neut": "successis",
+      "ppp.acc.pl.masc": "successos",
+      "ppp.acc.pl.fem": "successas",
+      "ppp.acc.pl.neut": "successa",
+      "ppp.abl.pl.masc": "successis",
+      "ppp.abl.pl.fem": "successis",
+      "ppp.abl.pl.neut": "successis",
+      "ppp.voc.pl.masc": "successi",
+      "ppp.voc.pl.fem": "successae",
+      "ppp.voc.pl.neut": "successa"
+    }
   }
 }

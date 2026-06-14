@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "repugna",
       "2pl.pres.imp.act": "repugnate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: repugnatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "repugnatus",
+      "ppp.nom.sg.fem": "repugnata",
+      "ppp.nom.sg.neut": "repugnatum",
+      "ppp.gen.sg.masc": "repugnati",
+      "ppp.gen.sg.fem": "repugnatae",
+      "ppp.gen.sg.neut": "repugnati",
+      "ppp.dat.sg.masc": "repugnato",
+      "ppp.dat.sg.fem": "repugnatae",
+      "ppp.dat.sg.neut": "repugnato",
+      "ppp.acc.sg.masc": "repugnatum",
+      "ppp.acc.sg.fem": "repugnatam",
+      "ppp.acc.sg.neut": "repugnatum",
+      "ppp.abl.sg.masc": "repugnato",
+      "ppp.abl.sg.fem": "repugnata",
+      "ppp.abl.sg.neut": "repugnato",
+      "ppp.voc.sg.masc": "repugnate",
+      "ppp.voc.sg.fem": "repugnata",
+      "ppp.voc.sg.neut": "repugnatum",
+      "ppp.nom.pl.masc": "repugnati",
+      "ppp.nom.pl.fem": "repugnatae",
+      "ppp.nom.pl.neut": "repugnata",
+      "ppp.gen.pl.masc": "repugnatorum",
+      "ppp.gen.pl.fem": "repugnatarum",
+      "ppp.gen.pl.neut": "repugnatorum",
+      "ppp.dat.pl.masc": "repugnatis",
+      "ppp.dat.pl.fem": "repugnatis",
+      "ppp.dat.pl.neut": "repugnatis",
+      "ppp.acc.pl.masc": "repugnatos",
+      "ppp.acc.pl.fem": "repugnatas",
+      "ppp.acc.pl.neut": "repugnata",
+      "ppp.abl.pl.masc": "repugnatis",
+      "ppp.abl.pl.fem": "repugnatis",
+      "ppp.abl.pl.neut": "repugnatis",
+      "ppp.voc.pl.masc": "repugnati",
+      "ppp.voc.pl.fem": "repugnatae",
+      "ppp.voc.pl.neut": "repugnata"
+    }
   }
 }

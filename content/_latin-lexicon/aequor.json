@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "aequa",
       "2pl.pres.imp.act": "aequate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: aequatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "aequatus",
+      "ppp.nom.sg.fem": "aequata",
+      "ppp.nom.sg.neut": "aequatum",
+      "ppp.gen.sg.masc": "aequati",
+      "ppp.gen.sg.fem": "aequatae",
+      "ppp.gen.sg.neut": "aequati",
+      "ppp.dat.sg.masc": "aequato",
+      "ppp.dat.sg.fem": "aequatae",
+      "ppp.dat.sg.neut": "aequato",
+      "ppp.acc.sg.masc": "aequatum",
+      "ppp.acc.sg.fem": "aequatam",
+      "ppp.acc.sg.neut": "aequatum",
+      "ppp.abl.sg.masc": "aequato",
+      "ppp.abl.sg.fem": "aequata",
+      "ppp.abl.sg.neut": "aequato",
+      "ppp.voc.sg.masc": "aequate",
+      "ppp.voc.sg.fem": "aequata",
+      "ppp.voc.sg.neut": "aequatum",
+      "ppp.nom.pl.masc": "aequati",
+      "ppp.nom.pl.fem": "aequatae",
+      "ppp.nom.pl.neut": "aequata",
+      "ppp.gen.pl.masc": "aequatorum",
+      "ppp.gen.pl.fem": "aequatarum",
+      "ppp.gen.pl.neut": "aequatorum",
+      "ppp.dat.pl.masc": "aequatis",
+      "ppp.dat.pl.fem": "aequatis",
+      "ppp.dat.pl.neut": "aequatis",
+      "ppp.acc.pl.masc": "aequatos",
+      "ppp.acc.pl.fem": "aequatas",
+      "ppp.acc.pl.neut": "aequata",
+      "ppp.abl.pl.masc": "aequatis",
+      "ppp.abl.pl.fem": "aequatis",
+      "ppp.abl.pl.neut": "aequatis",
+      "ppp.voc.pl.masc": "aequati",
+      "ppp.voc.pl.fem": "aequatae",
+      "ppp.voc.pl.neut": "aequata"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "tona",
       "2pl.pres.imp.act": "tonate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tonitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tonitus",
+      "ppp.nom.sg.fem": "tonita",
+      "ppp.nom.sg.neut": "tonitum",
+      "ppp.gen.sg.masc": "toniti",
+      "ppp.gen.sg.fem": "tonitae",
+      "ppp.gen.sg.neut": "toniti",
+      "ppp.dat.sg.masc": "tonito",
+      "ppp.dat.sg.fem": "tonitae",
+      "ppp.dat.sg.neut": "tonito",
+      "ppp.acc.sg.masc": "tonitum",
+      "ppp.acc.sg.fem": "tonitam",
+      "ppp.acc.sg.neut": "tonitum",
+      "ppp.abl.sg.masc": "tonito",
+      "ppp.abl.sg.fem": "tonita",
+      "ppp.abl.sg.neut": "tonito",
+      "ppp.voc.sg.masc": "tonite",
+      "ppp.voc.sg.fem": "tonita",
+      "ppp.voc.sg.neut": "tonitum",
+      "ppp.nom.pl.masc": "toniti",
+      "ppp.nom.pl.fem": "tonitae",
+      "ppp.nom.pl.neut": "tonita",
+      "ppp.gen.pl.masc": "tonitorum",
+      "ppp.gen.pl.fem": "tonitarum",
+      "ppp.gen.pl.neut": "tonitorum",
+      "ppp.dat.pl.masc": "tonitis",
+      "ppp.dat.pl.fem": "tonitis",
+      "ppp.dat.pl.neut": "tonitis",
+      "ppp.acc.pl.masc": "tonitos",
+      "ppp.acc.pl.fem": "tonitas",
+      "ppp.acc.pl.neut": "tonita",
+      "ppp.abl.pl.masc": "tonitis",
+      "ppp.abl.pl.fem": "tonitis",
+      "ppp.abl.pl.neut": "tonitis",
+      "ppp.voc.pl.masc": "toniti",
+      "ppp.voc.pl.fem": "tonitae",
+      "ppp.voc.pl.neut": "tonita"
+    }
   }
 }

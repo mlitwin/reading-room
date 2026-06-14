@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "nega",
       "2pl.pres.imp.act": "negate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: negatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "negatus",
+      "ppp.nom.sg.fem": "negata",
+      "ppp.nom.sg.neut": "negatum",
+      "ppp.gen.sg.masc": "negati",
+      "ppp.gen.sg.fem": "negatae",
+      "ppp.gen.sg.neut": "negati",
+      "ppp.dat.sg.masc": "negato",
+      "ppp.dat.sg.fem": "negatae",
+      "ppp.dat.sg.neut": "negato",
+      "ppp.acc.sg.masc": "negatum",
+      "ppp.acc.sg.fem": "negatam",
+      "ppp.acc.sg.neut": "negatum",
+      "ppp.abl.sg.masc": "negato",
+      "ppp.abl.sg.fem": "negata",
+      "ppp.abl.sg.neut": "negato",
+      "ppp.voc.sg.masc": "negate",
+      "ppp.voc.sg.fem": "negata",
+      "ppp.voc.sg.neut": "negatum",
+      "ppp.nom.pl.masc": "negati",
+      "ppp.nom.pl.fem": "negatae",
+      "ppp.nom.pl.neut": "negata",
+      "ppp.gen.pl.masc": "negatorum",
+      "ppp.gen.pl.fem": "negatarum",
+      "ppp.gen.pl.neut": "negatorum",
+      "ppp.dat.pl.masc": "negatis",
+      "ppp.dat.pl.fem": "negatis",
+      "ppp.dat.pl.neut": "negatis",
+      "ppp.acc.pl.masc": "negatos",
+      "ppp.acc.pl.fem": "negatas",
+      "ppp.acc.pl.neut": "negata",
+      "ppp.abl.pl.masc": "negatis",
+      "ppp.abl.pl.fem": "negatis",
+      "ppp.abl.pl.neut": "negatis",
+      "ppp.voc.pl.masc": "negati",
+      "ppp.voc.pl.fem": "negatae",
+      "ppp.voc.pl.neut": "negata"
+    }
   }
 }

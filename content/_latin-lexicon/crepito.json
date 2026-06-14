@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "crepita",
       "2pl.pres.imp.act": "crepitate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: crepitatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "crepitatus",
+      "ppp.nom.sg.fem": "crepitata",
+      "ppp.nom.sg.neut": "crepitatum",
+      "ppp.gen.sg.masc": "crepitati",
+      "ppp.gen.sg.fem": "crepitatae",
+      "ppp.gen.sg.neut": "crepitati",
+      "ppp.dat.sg.masc": "crepitato",
+      "ppp.dat.sg.fem": "crepitatae",
+      "ppp.dat.sg.neut": "crepitato",
+      "ppp.acc.sg.masc": "crepitatum",
+      "ppp.acc.sg.fem": "crepitatam",
+      "ppp.acc.sg.neut": "crepitatum",
+      "ppp.abl.sg.masc": "crepitato",
+      "ppp.abl.sg.fem": "crepitata",
+      "ppp.abl.sg.neut": "crepitato",
+      "ppp.voc.sg.masc": "crepitate",
+      "ppp.voc.sg.fem": "crepitata",
+      "ppp.voc.sg.neut": "crepitatum",
+      "ppp.nom.pl.masc": "crepitati",
+      "ppp.nom.pl.fem": "crepitatae",
+      "ppp.nom.pl.neut": "crepitata",
+      "ppp.gen.pl.masc": "crepitatorum",
+      "ppp.gen.pl.fem": "crepitatarum",
+      "ppp.gen.pl.neut": "crepitatorum",
+      "ppp.dat.pl.masc": "crepitatis",
+      "ppp.dat.pl.fem": "crepitatis",
+      "ppp.dat.pl.neut": "crepitatis",
+      "ppp.acc.pl.masc": "crepitatos",
+      "ppp.acc.pl.fem": "crepitatas",
+      "ppp.acc.pl.neut": "crepitata",
+      "ppp.abl.pl.masc": "crepitatis",
+      "ppp.abl.pl.fem": "crepitatis",
+      "ppp.abl.pl.neut": "crepitatis",
+      "ppp.voc.pl.masc": "crepitati",
+      "ppp.voc.pl.fem": "crepitatae",
+      "ppp.voc.pl.neut": "crepitata"
+    }
   }
 }

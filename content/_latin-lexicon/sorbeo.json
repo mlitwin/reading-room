@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "sorbe",
       "2pl.pres.imp.act": "sorbete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sorbitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sorbitus",
+      "ppp.nom.sg.fem": "sorbita",
+      "ppp.nom.sg.neut": "sorbitum",
+      "ppp.gen.sg.masc": "sorbiti",
+      "ppp.gen.sg.fem": "sorbitae",
+      "ppp.gen.sg.neut": "sorbiti",
+      "ppp.dat.sg.masc": "sorbito",
+      "ppp.dat.sg.fem": "sorbitae",
+      "ppp.dat.sg.neut": "sorbito",
+      "ppp.acc.sg.masc": "sorbitum",
+      "ppp.acc.sg.fem": "sorbitam",
+      "ppp.acc.sg.neut": "sorbitum",
+      "ppp.abl.sg.masc": "sorbito",
+      "ppp.abl.sg.fem": "sorbita",
+      "ppp.abl.sg.neut": "sorbito",
+      "ppp.voc.sg.masc": "sorbite",
+      "ppp.voc.sg.fem": "sorbita",
+      "ppp.voc.sg.neut": "sorbitum",
+      "ppp.nom.pl.masc": "sorbiti",
+      "ppp.nom.pl.fem": "sorbitae",
+      "ppp.nom.pl.neut": "sorbita",
+      "ppp.gen.pl.masc": "sorbitorum",
+      "ppp.gen.pl.fem": "sorbitarum",
+      "ppp.gen.pl.neut": "sorbitorum",
+      "ppp.dat.pl.masc": "sorbitis",
+      "ppp.dat.pl.fem": "sorbitis",
+      "ppp.dat.pl.neut": "sorbitis",
+      "ppp.acc.pl.masc": "sorbitos",
+      "ppp.acc.pl.fem": "sorbitas",
+      "ppp.acc.pl.neut": "sorbita",
+      "ppp.abl.pl.masc": "sorbitis",
+      "ppp.abl.pl.fem": "sorbitis",
+      "ppp.abl.pl.neut": "sorbitis",
+      "ppp.voc.pl.masc": "sorbiti",
+      "ppp.voc.pl.fem": "sorbitae",
+      "ppp.voc.pl.neut": "sorbita"
+    }
   }
 }

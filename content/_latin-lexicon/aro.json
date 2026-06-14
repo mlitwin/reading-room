@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "ara",
       "2pl.pres.imp.act": "arate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: aratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "aratus",
+      "ppp.nom.sg.fem": "arata",
+      "ppp.nom.sg.neut": "aratum",
+      "ppp.gen.sg.masc": "arati",
+      "ppp.gen.sg.fem": "aratae",
+      "ppp.gen.sg.neut": "arati",
+      "ppp.dat.sg.masc": "arato",
+      "ppp.dat.sg.fem": "aratae",
+      "ppp.dat.sg.neut": "arato",
+      "ppp.acc.sg.masc": "aratum",
+      "ppp.acc.sg.fem": "aratam",
+      "ppp.acc.sg.neut": "aratum",
+      "ppp.abl.sg.masc": "arato",
+      "ppp.abl.sg.fem": "arata",
+      "ppp.abl.sg.neut": "arato",
+      "ppp.voc.sg.masc": "arate",
+      "ppp.voc.sg.fem": "arata",
+      "ppp.voc.sg.neut": "aratum",
+      "ppp.nom.pl.masc": "arati",
+      "ppp.nom.pl.fem": "aratae",
+      "ppp.nom.pl.neut": "arata",
+      "ppp.gen.pl.masc": "aratorum",
+      "ppp.gen.pl.fem": "aratarum",
+      "ppp.gen.pl.neut": "aratorum",
+      "ppp.dat.pl.masc": "aratis",
+      "ppp.dat.pl.fem": "aratis",
+      "ppp.dat.pl.neut": "aratis",
+      "ppp.acc.pl.masc": "aratos",
+      "ppp.acc.pl.fem": "aratas",
+      "ppp.acc.pl.neut": "arata",
+      "ppp.abl.pl.masc": "aratis",
+      "ppp.abl.pl.fem": "aratis",
+      "ppp.abl.pl.neut": "aratis",
+      "ppp.voc.pl.masc": "arati",
+      "ppp.voc.pl.fem": "aratae",
+      "ppp.voc.pl.neut": "arata"
+    }
   }
 }

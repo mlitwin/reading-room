@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "jace",
       "2pl.pres.imp.act": "jacite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: jactus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "jactus",
+      "ppp.nom.sg.fem": "jacta",
+      "ppp.nom.sg.neut": "jactum",
+      "ppp.gen.sg.masc": "jacti",
+      "ppp.gen.sg.fem": "jactae",
+      "ppp.gen.sg.neut": "jacti",
+      "ppp.dat.sg.masc": "jacto",
+      "ppp.dat.sg.fem": "jactae",
+      "ppp.dat.sg.neut": "jacto",
+      "ppp.acc.sg.masc": "jactum",
+      "ppp.acc.sg.fem": "jactam",
+      "ppp.acc.sg.neut": "jactum",
+      "ppp.abl.sg.masc": "jacto",
+      "ppp.abl.sg.fem": "jacta",
+      "ppp.abl.sg.neut": "jacto",
+      "ppp.voc.sg.masc": "jacte",
+      "ppp.voc.sg.fem": "jacta",
+      "ppp.voc.sg.neut": "jactum",
+      "ppp.nom.pl.masc": "jacti",
+      "ppp.nom.pl.fem": "jactae",
+      "ppp.nom.pl.neut": "jacta",
+      "ppp.gen.pl.masc": "jactorum",
+      "ppp.gen.pl.fem": "jactarum",
+      "ppp.gen.pl.neut": "jactorum",
+      "ppp.dat.pl.masc": "jactis",
+      "ppp.dat.pl.fem": "jactis",
+      "ppp.dat.pl.neut": "jactis",
+      "ppp.acc.pl.masc": "jactos",
+      "ppp.acc.pl.fem": "jactas",
+      "ppp.acc.pl.neut": "jacta",
+      "ppp.abl.pl.masc": "jactis",
+      "ppp.abl.pl.fem": "jactis",
+      "ppp.abl.pl.neut": "jactis",
+      "ppp.voc.pl.masc": "jacti",
+      "ppp.voc.pl.fem": "jactae",
+      "ppp.voc.pl.neut": "jacta"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "nequi",
       "2pl.pres.imp.act": "nequite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: nequitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "nequitus",
+      "ppp.nom.sg.fem": "nequita",
+      "ppp.nom.sg.neut": "nequitum",
+      "ppp.gen.sg.masc": "nequiti",
+      "ppp.gen.sg.fem": "nequitae",
+      "ppp.gen.sg.neut": "nequiti",
+      "ppp.dat.sg.masc": "nequito",
+      "ppp.dat.sg.fem": "nequitae",
+      "ppp.dat.sg.neut": "nequito",
+      "ppp.acc.sg.masc": "nequitum",
+      "ppp.acc.sg.fem": "nequitam",
+      "ppp.acc.sg.neut": "nequitum",
+      "ppp.abl.sg.masc": "nequito",
+      "ppp.abl.sg.fem": "nequita",
+      "ppp.abl.sg.neut": "nequito",
+      "ppp.voc.sg.masc": "nequite",
+      "ppp.voc.sg.fem": "nequita",
+      "ppp.voc.sg.neut": "nequitum",
+      "ppp.nom.pl.masc": "nequiti",
+      "ppp.nom.pl.fem": "nequitae",
+      "ppp.nom.pl.neut": "nequita",
+      "ppp.gen.pl.masc": "nequitorum",
+      "ppp.gen.pl.fem": "nequitarum",
+      "ppp.gen.pl.neut": "nequitorum",
+      "ppp.dat.pl.masc": "nequitis",
+      "ppp.dat.pl.fem": "nequitis",
+      "ppp.dat.pl.neut": "nequitis",
+      "ppp.acc.pl.masc": "nequitos",
+      "ppp.acc.pl.fem": "nequitas",
+      "ppp.acc.pl.neut": "nequita",
+      "ppp.abl.pl.masc": "nequitis",
+      "ppp.abl.pl.fem": "nequitis",
+      "ppp.abl.pl.neut": "nequitis",
+      "ppp.voc.pl.masc": "nequiti",
+      "ppp.voc.pl.fem": "nequitae",
+      "ppp.voc.pl.neut": "nequita"
+    }
   }
 }

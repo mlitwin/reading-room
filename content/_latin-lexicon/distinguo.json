@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "distingue",
       "2pl.pres.imp.act": "distinguite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: distinctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "distinctus",
+      "ppp.nom.sg.fem": "distincta",
+      "ppp.nom.sg.neut": "distinctum",
+      "ppp.gen.sg.masc": "distincti",
+      "ppp.gen.sg.fem": "distinctae",
+      "ppp.gen.sg.neut": "distincti",
+      "ppp.dat.sg.masc": "distincto",
+      "ppp.dat.sg.fem": "distinctae",
+      "ppp.dat.sg.neut": "distincto",
+      "ppp.acc.sg.masc": "distinctum",
+      "ppp.acc.sg.fem": "distinctam",
+      "ppp.acc.sg.neut": "distinctum",
+      "ppp.abl.sg.masc": "distincto",
+      "ppp.abl.sg.fem": "distincta",
+      "ppp.abl.sg.neut": "distincto",
+      "ppp.voc.sg.masc": "distincte",
+      "ppp.voc.sg.fem": "distincta",
+      "ppp.voc.sg.neut": "distinctum",
+      "ppp.nom.pl.masc": "distincti",
+      "ppp.nom.pl.fem": "distinctae",
+      "ppp.nom.pl.neut": "distincta",
+      "ppp.gen.pl.masc": "distinctorum",
+      "ppp.gen.pl.fem": "distinctarum",
+      "ppp.gen.pl.neut": "distinctorum",
+      "ppp.dat.pl.masc": "distinctis",
+      "ppp.dat.pl.fem": "distinctis",
+      "ppp.dat.pl.neut": "distinctis",
+      "ppp.acc.pl.masc": "distinctos",
+      "ppp.acc.pl.fem": "distinctas",
+      "ppp.acc.pl.neut": "distincta",
+      "ppp.abl.pl.masc": "distinctis",
+      "ppp.abl.pl.fem": "distinctis",
+      "ppp.abl.pl.neut": "distinctis",
+      "ppp.voc.pl.masc": "distincti",
+      "ppp.voc.pl.fem": "distinctae",
+      "ppp.voc.pl.neut": "distincta"
+    }
   }
 }

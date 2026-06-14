@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "serena",
       "2pl.pres.imp.act": "serenate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: serenatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "serenatus",
+      "ppp.nom.sg.fem": "serenata",
+      "ppp.nom.sg.neut": "serenatum",
+      "ppp.gen.sg.masc": "serenati",
+      "ppp.gen.sg.fem": "serenatae",
+      "ppp.gen.sg.neut": "serenati",
+      "ppp.dat.sg.masc": "serenato",
+      "ppp.dat.sg.fem": "serenatae",
+      "ppp.dat.sg.neut": "serenato",
+      "ppp.acc.sg.masc": "serenatum",
+      "ppp.acc.sg.fem": "serenatam",
+      "ppp.acc.sg.neut": "serenatum",
+      "ppp.abl.sg.masc": "serenato",
+      "ppp.abl.sg.fem": "serenata",
+      "ppp.abl.sg.neut": "serenato",
+      "ppp.voc.sg.masc": "serenate",
+      "ppp.voc.sg.fem": "serenata",
+      "ppp.voc.sg.neut": "serenatum",
+      "ppp.nom.pl.masc": "serenati",
+      "ppp.nom.pl.fem": "serenatae",
+      "ppp.nom.pl.neut": "serenata",
+      "ppp.gen.pl.masc": "serenatorum",
+      "ppp.gen.pl.fem": "serenatarum",
+      "ppp.gen.pl.neut": "serenatorum",
+      "ppp.dat.pl.masc": "serenatis",
+      "ppp.dat.pl.fem": "serenatis",
+      "ppp.dat.pl.neut": "serenatis",
+      "ppp.acc.pl.masc": "serenatos",
+      "ppp.acc.pl.fem": "serenatas",
+      "ppp.acc.pl.neut": "serenata",
+      "ppp.abl.pl.masc": "serenatis",
+      "ppp.abl.pl.fem": "serenatis",
+      "ppp.abl.pl.neut": "serenatis",
+      "ppp.voc.pl.masc": "serenati",
+      "ppp.voc.pl.fem": "serenatae",
+      "ppp.voc.pl.neut": "serenata"
+    }
   }
 }

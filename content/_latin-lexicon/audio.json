@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "audi",
       "2pl.pres.imp.act": "audite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: auditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "auditus",
+      "ppp.nom.sg.fem": "audita",
+      "ppp.nom.sg.neut": "auditum",
+      "ppp.gen.sg.masc": "auditi",
+      "ppp.gen.sg.fem": "auditae",
+      "ppp.gen.sg.neut": "auditi",
+      "ppp.dat.sg.masc": "audito",
+      "ppp.dat.sg.fem": "auditae",
+      "ppp.dat.sg.neut": "audito",
+      "ppp.acc.sg.masc": "auditum",
+      "ppp.acc.sg.fem": "auditam",
+      "ppp.acc.sg.neut": "auditum",
+      "ppp.abl.sg.masc": "audito",
+      "ppp.abl.sg.fem": "audita",
+      "ppp.abl.sg.neut": "audito",
+      "ppp.voc.sg.masc": "audite",
+      "ppp.voc.sg.fem": "audita",
+      "ppp.voc.sg.neut": "auditum",
+      "ppp.nom.pl.masc": "auditi",
+      "ppp.nom.pl.fem": "auditae",
+      "ppp.nom.pl.neut": "audita",
+      "ppp.gen.pl.masc": "auditorum",
+      "ppp.gen.pl.fem": "auditarum",
+      "ppp.gen.pl.neut": "auditorum",
+      "ppp.dat.pl.masc": "auditis",
+      "ppp.dat.pl.fem": "auditis",
+      "ppp.dat.pl.neut": "auditis",
+      "ppp.acc.pl.masc": "auditos",
+      "ppp.acc.pl.fem": "auditas",
+      "ppp.acc.pl.neut": "audita",
+      "ppp.abl.pl.masc": "auditis",
+      "ppp.abl.pl.fem": "auditis",
+      "ppp.abl.pl.neut": "auditis",
+      "ppp.voc.pl.masc": "auditi",
+      "ppp.voc.pl.fem": "auditae",
+      "ppp.voc.pl.neut": "audita"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "caede",
       "2pl.pres.imp.act": "caedite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: caesus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "caesus",
+      "ppp.nom.sg.fem": "caesa",
+      "ppp.nom.sg.neut": "caesum",
+      "ppp.gen.sg.masc": "caesi",
+      "ppp.gen.sg.fem": "caesae",
+      "ppp.gen.sg.neut": "caesi",
+      "ppp.dat.sg.masc": "caeso",
+      "ppp.dat.sg.fem": "caesae",
+      "ppp.dat.sg.neut": "caeso",
+      "ppp.acc.sg.masc": "caesum",
+      "ppp.acc.sg.fem": "caesam",
+      "ppp.acc.sg.neut": "caesum",
+      "ppp.abl.sg.masc": "caeso",
+      "ppp.abl.sg.fem": "caesa",
+      "ppp.abl.sg.neut": "caeso",
+      "ppp.voc.sg.masc": "caese",
+      "ppp.voc.sg.fem": "caesa",
+      "ppp.voc.sg.neut": "caesum",
+      "ppp.nom.pl.masc": "caesi",
+      "ppp.nom.pl.fem": "caesae",
+      "ppp.nom.pl.neut": "caesa",
+      "ppp.gen.pl.masc": "caesorum",
+      "ppp.gen.pl.fem": "caesarum",
+      "ppp.gen.pl.neut": "caesorum",
+      "ppp.dat.pl.masc": "caesis",
+      "ppp.dat.pl.fem": "caesis",
+      "ppp.dat.pl.neut": "caesis",
+      "ppp.acc.pl.masc": "caesos",
+      "ppp.acc.pl.fem": "caesas",
+      "ppp.acc.pl.neut": "caesa",
+      "ppp.abl.pl.masc": "caesis",
+      "ppp.abl.pl.fem": "caesis",
+      "ppp.abl.pl.neut": "caesis",
+      "ppp.voc.pl.masc": "caesi",
+      "ppp.voc.pl.fem": "caesae",
+      "ppp.voc.pl.neut": "caesa"
+    }
   }
 }

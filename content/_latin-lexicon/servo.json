@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "serva",
       "2pl.pres.imp.act": "servate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: servatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "servatus",
+      "ppp.nom.sg.fem": "servata",
+      "ppp.nom.sg.neut": "servatum",
+      "ppp.gen.sg.masc": "servati",
+      "ppp.gen.sg.fem": "servatae",
+      "ppp.gen.sg.neut": "servati",
+      "ppp.dat.sg.masc": "servato",
+      "ppp.dat.sg.fem": "servatae",
+      "ppp.dat.sg.neut": "servato",
+      "ppp.acc.sg.masc": "servatum",
+      "ppp.acc.sg.fem": "servatam",
+      "ppp.acc.sg.neut": "servatum",
+      "ppp.abl.sg.masc": "servato",
+      "ppp.abl.sg.fem": "servata",
+      "ppp.abl.sg.neut": "servato",
+      "ppp.voc.sg.masc": "servate",
+      "ppp.voc.sg.fem": "servata",
+      "ppp.voc.sg.neut": "servatum",
+      "ppp.nom.pl.masc": "servati",
+      "ppp.nom.pl.fem": "servatae",
+      "ppp.nom.pl.neut": "servata",
+      "ppp.gen.pl.masc": "servatorum",
+      "ppp.gen.pl.fem": "servatarum",
+      "ppp.gen.pl.neut": "servatorum",
+      "ppp.dat.pl.masc": "servatis",
+      "ppp.dat.pl.fem": "servatis",
+      "ppp.dat.pl.neut": "servatis",
+      "ppp.acc.pl.masc": "servatos",
+      "ppp.acc.pl.fem": "servatas",
+      "ppp.acc.pl.neut": "servata",
+      "ppp.abl.pl.masc": "servatis",
+      "ppp.abl.pl.fem": "servatis",
+      "ppp.abl.pl.neut": "servatis",
+      "ppp.voc.pl.masc": "servati",
+      "ppp.voc.pl.fem": "servatae",
+      "ppp.voc.pl.neut": "servata"
+    }
   }
 }

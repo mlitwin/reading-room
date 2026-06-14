@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "move",
       "2pl.pres.imp.act": "movete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: motus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "motus",
+      "ppp.nom.sg.fem": "mota",
+      "ppp.nom.sg.neut": "motum",
+      "ppp.gen.sg.masc": "moti",
+      "ppp.gen.sg.fem": "motae",
+      "ppp.gen.sg.neut": "moti",
+      "ppp.dat.sg.masc": "moto",
+      "ppp.dat.sg.fem": "motae",
+      "ppp.dat.sg.neut": "moto",
+      "ppp.acc.sg.masc": "motum",
+      "ppp.acc.sg.fem": "motam",
+      "ppp.acc.sg.neut": "motum",
+      "ppp.abl.sg.masc": "moto",
+      "ppp.abl.sg.fem": "mota",
+      "ppp.abl.sg.neut": "moto",
+      "ppp.voc.sg.masc": "mote",
+      "ppp.voc.sg.fem": "mota",
+      "ppp.voc.sg.neut": "motum",
+      "ppp.nom.pl.masc": "moti",
+      "ppp.nom.pl.fem": "motae",
+      "ppp.nom.pl.neut": "mota",
+      "ppp.gen.pl.masc": "motorum",
+      "ppp.gen.pl.fem": "motarum",
+      "ppp.gen.pl.neut": "motorum",
+      "ppp.dat.pl.masc": "motis",
+      "ppp.dat.pl.fem": "motis",
+      "ppp.dat.pl.neut": "motis",
+      "ppp.acc.pl.masc": "motos",
+      "ppp.acc.pl.fem": "motas",
+      "ppp.acc.pl.neut": "mota",
+      "ppp.abl.pl.masc": "motis",
+      "ppp.abl.pl.fem": "motis",
+      "ppp.abl.pl.neut": "motis",
+      "ppp.voc.pl.masc": "moti",
+      "ppp.voc.pl.fem": "motae",
+      "ppp.voc.pl.neut": "mota"
+    }
   }
 }

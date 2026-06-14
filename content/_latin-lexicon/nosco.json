@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "nosce",
       "2pl.pres.imp.act": "noscite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: notus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "notus",
+      "ppp.nom.sg.fem": "nota",
+      "ppp.nom.sg.neut": "notum",
+      "ppp.gen.sg.masc": "noti",
+      "ppp.gen.sg.fem": "notae",
+      "ppp.gen.sg.neut": "noti",
+      "ppp.dat.sg.masc": "noto",
+      "ppp.dat.sg.fem": "notae",
+      "ppp.dat.sg.neut": "noto",
+      "ppp.acc.sg.masc": "notum",
+      "ppp.acc.sg.fem": "notam",
+      "ppp.acc.sg.neut": "notum",
+      "ppp.abl.sg.masc": "noto",
+      "ppp.abl.sg.fem": "nota",
+      "ppp.abl.sg.neut": "noto",
+      "ppp.voc.sg.masc": "note",
+      "ppp.voc.sg.fem": "nota",
+      "ppp.voc.sg.neut": "notum",
+      "ppp.nom.pl.masc": "noti",
+      "ppp.nom.pl.fem": "notae",
+      "ppp.nom.pl.neut": "nota",
+      "ppp.gen.pl.masc": "notorum",
+      "ppp.gen.pl.fem": "notarum",
+      "ppp.gen.pl.neut": "notorum",
+      "ppp.dat.pl.masc": "notis",
+      "ppp.dat.pl.fem": "notis",
+      "ppp.dat.pl.neut": "notis",
+      "ppp.acc.pl.masc": "notos",
+      "ppp.acc.pl.fem": "notas",
+      "ppp.acc.pl.neut": "nota",
+      "ppp.abl.pl.masc": "notis",
+      "ppp.abl.pl.fem": "notis",
+      "ppp.abl.pl.neut": "notis",
+      "ppp.voc.pl.masc": "noti",
+      "ppp.voc.pl.fem": "notae",
+      "ppp.voc.pl.neut": "nota"
+    }
   }
 }

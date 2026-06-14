@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "terge",
       "2pl.pres.imp.act": "tergete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tersus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tersus",
+      "ppp.nom.sg.fem": "tersa",
+      "ppp.nom.sg.neut": "tersum",
+      "ppp.gen.sg.masc": "tersi",
+      "ppp.gen.sg.fem": "tersae",
+      "ppp.gen.sg.neut": "tersi",
+      "ppp.dat.sg.masc": "terso",
+      "ppp.dat.sg.fem": "tersae",
+      "ppp.dat.sg.neut": "terso",
+      "ppp.acc.sg.masc": "tersum",
+      "ppp.acc.sg.fem": "tersam",
+      "ppp.acc.sg.neut": "tersum",
+      "ppp.abl.sg.masc": "terso",
+      "ppp.abl.sg.fem": "tersa",
+      "ppp.abl.sg.neut": "terso",
+      "ppp.voc.sg.masc": "terse",
+      "ppp.voc.sg.fem": "tersa",
+      "ppp.voc.sg.neut": "tersum",
+      "ppp.nom.pl.masc": "tersi",
+      "ppp.nom.pl.fem": "tersae",
+      "ppp.nom.pl.neut": "tersa",
+      "ppp.gen.pl.masc": "tersorum",
+      "ppp.gen.pl.fem": "tersarum",
+      "ppp.gen.pl.neut": "tersorum",
+      "ppp.dat.pl.masc": "tersis",
+      "ppp.dat.pl.fem": "tersis",
+      "ppp.dat.pl.neut": "tersis",
+      "ppp.acc.pl.masc": "tersos",
+      "ppp.acc.pl.fem": "tersas",
+      "ppp.acc.pl.neut": "tersa",
+      "ppp.abl.pl.masc": "tersis",
+      "ppp.abl.pl.fem": "tersis",
+      "ppp.abl.pl.neut": "tersis",
+      "ppp.voc.pl.masc": "tersi",
+      "ppp.voc.pl.fem": "tersae",
+      "ppp.voc.pl.neut": "tersa"
+    }
   }
 }

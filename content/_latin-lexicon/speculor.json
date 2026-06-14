@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "specula",
       "2pl.pres.imp.act": "speculate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: speculatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "speculatus",
+      "ppp.nom.sg.fem": "speculata",
+      "ppp.nom.sg.neut": "speculatum",
+      "ppp.gen.sg.masc": "speculati",
+      "ppp.gen.sg.fem": "speculatae",
+      "ppp.gen.sg.neut": "speculati",
+      "ppp.dat.sg.masc": "speculato",
+      "ppp.dat.sg.fem": "speculatae",
+      "ppp.dat.sg.neut": "speculato",
+      "ppp.acc.sg.masc": "speculatum",
+      "ppp.acc.sg.fem": "speculatam",
+      "ppp.acc.sg.neut": "speculatum",
+      "ppp.abl.sg.masc": "speculato",
+      "ppp.abl.sg.fem": "speculata",
+      "ppp.abl.sg.neut": "speculato",
+      "ppp.voc.sg.masc": "speculate",
+      "ppp.voc.sg.fem": "speculata",
+      "ppp.voc.sg.neut": "speculatum",
+      "ppp.nom.pl.masc": "speculati",
+      "ppp.nom.pl.fem": "speculatae",
+      "ppp.nom.pl.neut": "speculata",
+      "ppp.gen.pl.masc": "speculatorum",
+      "ppp.gen.pl.fem": "speculatarum",
+      "ppp.gen.pl.neut": "speculatorum",
+      "ppp.dat.pl.masc": "speculatis",
+      "ppp.dat.pl.fem": "speculatis",
+      "ppp.dat.pl.neut": "speculatis",
+      "ppp.acc.pl.masc": "speculatos",
+      "ppp.acc.pl.fem": "speculatas",
+      "ppp.acc.pl.neut": "speculata",
+      "ppp.abl.pl.masc": "speculatis",
+      "ppp.abl.pl.fem": "speculatis",
+      "ppp.abl.pl.neut": "speculatis",
+      "ppp.voc.pl.masc": "speculati",
+      "ppp.voc.pl.fem": "speculatae",
+      "ppp.voc.pl.neut": "speculata"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "relaxa",
       "2pl.pres.imp.act": "relaxate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: relaxatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "relaxatus",
+      "ppp.nom.sg.fem": "relaxata",
+      "ppp.nom.sg.neut": "relaxatum",
+      "ppp.gen.sg.masc": "relaxati",
+      "ppp.gen.sg.fem": "relaxatae",
+      "ppp.gen.sg.neut": "relaxati",
+      "ppp.dat.sg.masc": "relaxato",
+      "ppp.dat.sg.fem": "relaxatae",
+      "ppp.dat.sg.neut": "relaxato",
+      "ppp.acc.sg.masc": "relaxatum",
+      "ppp.acc.sg.fem": "relaxatam",
+      "ppp.acc.sg.neut": "relaxatum",
+      "ppp.abl.sg.masc": "relaxato",
+      "ppp.abl.sg.fem": "relaxata",
+      "ppp.abl.sg.neut": "relaxato",
+      "ppp.voc.sg.masc": "relaxate",
+      "ppp.voc.sg.fem": "relaxata",
+      "ppp.voc.sg.neut": "relaxatum",
+      "ppp.nom.pl.masc": "relaxati",
+      "ppp.nom.pl.fem": "relaxatae",
+      "ppp.nom.pl.neut": "relaxata",
+      "ppp.gen.pl.masc": "relaxatorum",
+      "ppp.gen.pl.fem": "relaxatarum",
+      "ppp.gen.pl.neut": "relaxatorum",
+      "ppp.dat.pl.masc": "relaxatis",
+      "ppp.dat.pl.fem": "relaxatis",
+      "ppp.dat.pl.neut": "relaxatis",
+      "ppp.acc.pl.masc": "relaxatos",
+      "ppp.acc.pl.fem": "relaxatas",
+      "ppp.acc.pl.neut": "relaxata",
+      "ppp.abl.pl.masc": "relaxatis",
+      "ppp.abl.pl.fem": "relaxatis",
+      "ppp.abl.pl.neut": "relaxatis",
+      "ppp.voc.pl.masc": "relaxati",
+      "ppp.voc.pl.fem": "relaxatae",
+      "ppp.voc.pl.neut": "relaxata"
+    }
   }
 }

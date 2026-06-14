@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "stella",
       "2pl.pres.imp.act": "stellate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: stellatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "stellatus",
+      "ppp.nom.sg.fem": "stellata",
+      "ppp.nom.sg.neut": "stellatum",
+      "ppp.gen.sg.masc": "stellati",
+      "ppp.gen.sg.fem": "stellatae",
+      "ppp.gen.sg.neut": "stellati",
+      "ppp.dat.sg.masc": "stellato",
+      "ppp.dat.sg.fem": "stellatae",
+      "ppp.dat.sg.neut": "stellato",
+      "ppp.acc.sg.masc": "stellatum",
+      "ppp.acc.sg.fem": "stellatam",
+      "ppp.acc.sg.neut": "stellatum",
+      "ppp.abl.sg.masc": "stellato",
+      "ppp.abl.sg.fem": "stellata",
+      "ppp.abl.sg.neut": "stellato",
+      "ppp.voc.sg.masc": "stellate",
+      "ppp.voc.sg.fem": "stellata",
+      "ppp.voc.sg.neut": "stellatum",
+      "ppp.nom.pl.masc": "stellati",
+      "ppp.nom.pl.fem": "stellatae",
+      "ppp.nom.pl.neut": "stellata",
+      "ppp.gen.pl.masc": "stellatorum",
+      "ppp.gen.pl.fem": "stellatarum",
+      "ppp.gen.pl.neut": "stellatorum",
+      "ppp.dat.pl.masc": "stellatis",
+      "ppp.dat.pl.fem": "stellatis",
+      "ppp.dat.pl.neut": "stellatis",
+      "ppp.acc.pl.masc": "stellatos",
+      "ppp.acc.pl.fem": "stellatas",
+      "ppp.acc.pl.neut": "stellata",
+      "ppp.abl.pl.masc": "stellatis",
+      "ppp.abl.pl.fem": "stellatis",
+      "ppp.abl.pl.neut": "stellatis",
+      "ppp.voc.pl.masc": "stellati",
+      "ppp.voc.pl.fem": "stellatae",
+      "ppp.voc.pl.neut": "stellata"
+    }
   }
 }

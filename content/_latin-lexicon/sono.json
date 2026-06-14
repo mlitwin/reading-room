@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "sona",
       "2pl.pres.imp.act": "sonate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sonatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sonatus",
+      "ppp.nom.sg.fem": "sonata",
+      "ppp.nom.sg.neut": "sonatum",
+      "ppp.gen.sg.masc": "sonati",
+      "ppp.gen.sg.fem": "sonatae",
+      "ppp.gen.sg.neut": "sonati",
+      "ppp.dat.sg.masc": "sonato",
+      "ppp.dat.sg.fem": "sonatae",
+      "ppp.dat.sg.neut": "sonato",
+      "ppp.acc.sg.masc": "sonatum",
+      "ppp.acc.sg.fem": "sonatam",
+      "ppp.acc.sg.neut": "sonatum",
+      "ppp.abl.sg.masc": "sonato",
+      "ppp.abl.sg.fem": "sonata",
+      "ppp.abl.sg.neut": "sonato",
+      "ppp.voc.sg.masc": "sonate",
+      "ppp.voc.sg.fem": "sonata",
+      "ppp.voc.sg.neut": "sonatum",
+      "ppp.nom.pl.masc": "sonati",
+      "ppp.nom.pl.fem": "sonatae",
+      "ppp.nom.pl.neut": "sonata",
+      "ppp.gen.pl.masc": "sonatorum",
+      "ppp.gen.pl.fem": "sonatarum",
+      "ppp.gen.pl.neut": "sonatorum",
+      "ppp.dat.pl.masc": "sonatis",
+      "ppp.dat.pl.fem": "sonatis",
+      "ppp.dat.pl.neut": "sonatis",
+      "ppp.acc.pl.masc": "sonatos",
+      "ppp.acc.pl.fem": "sonatas",
+      "ppp.acc.pl.neut": "sonata",
+      "ppp.abl.pl.masc": "sonatis",
+      "ppp.abl.pl.fem": "sonatis",
+      "ppp.abl.pl.neut": "sonatis",
+      "ppp.voc.pl.masc": "sonati",
+      "ppp.voc.pl.fem": "sonatae",
+      "ppp.voc.pl.neut": "sonata"
+    }
   }
 }

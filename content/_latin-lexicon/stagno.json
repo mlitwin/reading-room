@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "stagna",
       "2pl.pres.imp.act": "stagnate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: stagnatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "stagnatus",
+      "ppp.nom.sg.fem": "stagnata",
+      "ppp.nom.sg.neut": "stagnatum",
+      "ppp.gen.sg.masc": "stagnati",
+      "ppp.gen.sg.fem": "stagnatae",
+      "ppp.gen.sg.neut": "stagnati",
+      "ppp.dat.sg.masc": "stagnato",
+      "ppp.dat.sg.fem": "stagnatae",
+      "ppp.dat.sg.neut": "stagnato",
+      "ppp.acc.sg.masc": "stagnatum",
+      "ppp.acc.sg.fem": "stagnatam",
+      "ppp.acc.sg.neut": "stagnatum",
+      "ppp.abl.sg.masc": "stagnato",
+      "ppp.abl.sg.fem": "stagnata",
+      "ppp.abl.sg.neut": "stagnato",
+      "ppp.voc.sg.masc": "stagnate",
+      "ppp.voc.sg.fem": "stagnata",
+      "ppp.voc.sg.neut": "stagnatum",
+      "ppp.nom.pl.masc": "stagnati",
+      "ppp.nom.pl.fem": "stagnatae",
+      "ppp.nom.pl.neut": "stagnata",
+      "ppp.gen.pl.masc": "stagnatorum",
+      "ppp.gen.pl.fem": "stagnatarum",
+      "ppp.gen.pl.neut": "stagnatorum",
+      "ppp.dat.pl.masc": "stagnatis",
+      "ppp.dat.pl.fem": "stagnatis",
+      "ppp.dat.pl.neut": "stagnatis",
+      "ppp.acc.pl.masc": "stagnatos",
+      "ppp.acc.pl.fem": "stagnatas",
+      "ppp.acc.pl.neut": "stagnata",
+      "ppp.abl.pl.masc": "stagnatis",
+      "ppp.abl.pl.fem": "stagnatis",
+      "ppp.abl.pl.neut": "stagnatis",
+      "ppp.voc.pl.masc": "stagnati",
+      "ppp.voc.pl.fem": "stagnatae",
+      "ppp.voc.pl.neut": "stagnata"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "vada",
       "2pl.pres.imp.act": "vadate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vadatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vadatus",
+      "ppp.nom.sg.fem": "vadata",
+      "ppp.nom.sg.neut": "vadatum",
+      "ppp.gen.sg.masc": "vadati",
+      "ppp.gen.sg.fem": "vadatae",
+      "ppp.gen.sg.neut": "vadati",
+      "ppp.dat.sg.masc": "vadato",
+      "ppp.dat.sg.fem": "vadatae",
+      "ppp.dat.sg.neut": "vadato",
+      "ppp.acc.sg.masc": "vadatum",
+      "ppp.acc.sg.fem": "vadatam",
+      "ppp.acc.sg.neut": "vadatum",
+      "ppp.abl.sg.masc": "vadato",
+      "ppp.abl.sg.fem": "vadata",
+      "ppp.abl.sg.neut": "vadato",
+      "ppp.voc.sg.masc": "vadate",
+      "ppp.voc.sg.fem": "vadata",
+      "ppp.voc.sg.neut": "vadatum",
+      "ppp.nom.pl.masc": "vadati",
+      "ppp.nom.pl.fem": "vadatae",
+      "ppp.nom.pl.neut": "vadata",
+      "ppp.gen.pl.masc": "vadatorum",
+      "ppp.gen.pl.fem": "vadatarum",
+      "ppp.gen.pl.neut": "vadatorum",
+      "ppp.dat.pl.masc": "vadatis",
+      "ppp.dat.pl.fem": "vadatis",
+      "ppp.dat.pl.neut": "vadatis",
+      "ppp.acc.pl.masc": "vadatos",
+      "ppp.acc.pl.fem": "vadatas",
+      "ppp.acc.pl.neut": "vadata",
+      "ppp.abl.pl.masc": "vadatis",
+      "ppp.abl.pl.fem": "vadatis",
+      "ppp.abl.pl.neut": "vadatis",
+      "ppp.voc.pl.masc": "vadati",
+      "ppp.voc.pl.fem": "vadatae",
+      "ppp.voc.pl.neut": "vadata"
+    }
   }
 }

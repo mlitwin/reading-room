@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "deplora",
       "2pl.pres.imp.act": "deplorate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: deploratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "deploratus",
+      "ppp.nom.sg.fem": "deplorata",
+      "ppp.nom.sg.neut": "deploratum",
+      "ppp.gen.sg.masc": "deplorati",
+      "ppp.gen.sg.fem": "deploratae",
+      "ppp.gen.sg.neut": "deplorati",
+      "ppp.dat.sg.masc": "deplorato",
+      "ppp.dat.sg.fem": "deploratae",
+      "ppp.dat.sg.neut": "deplorato",
+      "ppp.acc.sg.masc": "deploratum",
+      "ppp.acc.sg.fem": "deploratam",
+      "ppp.acc.sg.neut": "deploratum",
+      "ppp.abl.sg.masc": "deplorato",
+      "ppp.abl.sg.fem": "deplorata",
+      "ppp.abl.sg.neut": "deplorato",
+      "ppp.voc.sg.masc": "deplorate",
+      "ppp.voc.sg.fem": "deplorata",
+      "ppp.voc.sg.neut": "deploratum",
+      "ppp.nom.pl.masc": "deplorati",
+      "ppp.nom.pl.fem": "deploratae",
+      "ppp.nom.pl.neut": "deplorata",
+      "ppp.gen.pl.masc": "deploratorum",
+      "ppp.gen.pl.fem": "deploratarum",
+      "ppp.gen.pl.neut": "deploratorum",
+      "ppp.dat.pl.masc": "deploratis",
+      "ppp.dat.pl.fem": "deploratis",
+      "ppp.dat.pl.neut": "deploratis",
+      "ppp.acc.pl.masc": "deploratos",
+      "ppp.acc.pl.fem": "deploratas",
+      "ppp.acc.pl.neut": "deplorata",
+      "ppp.abl.pl.masc": "deploratis",
+      "ppp.abl.pl.fem": "deploratis",
+      "ppp.abl.pl.neut": "deploratis",
+      "ppp.voc.pl.masc": "deplorati",
+      "ppp.voc.pl.fem": "deploratae",
+      "ppp.voc.pl.neut": "deplorata"
+    }
   }
 }

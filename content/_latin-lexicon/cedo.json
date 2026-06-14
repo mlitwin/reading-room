@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "cede",
       "2pl.pres.imp.act": "cedite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cessus",
+      "ppp.nom.sg.fem": "cessa",
+      "ppp.nom.sg.neut": "cessum",
+      "ppp.gen.sg.masc": "cessi",
+      "ppp.gen.sg.fem": "cessae",
+      "ppp.gen.sg.neut": "cessi",
+      "ppp.dat.sg.masc": "cesso",
+      "ppp.dat.sg.fem": "cessae",
+      "ppp.dat.sg.neut": "cesso",
+      "ppp.acc.sg.masc": "cessum",
+      "ppp.acc.sg.fem": "cessam",
+      "ppp.acc.sg.neut": "cessum",
+      "ppp.abl.sg.masc": "cesso",
+      "ppp.abl.sg.fem": "cessa",
+      "ppp.abl.sg.neut": "cesso",
+      "ppp.voc.sg.masc": "cesse",
+      "ppp.voc.sg.fem": "cessa",
+      "ppp.voc.sg.neut": "cessum",
+      "ppp.nom.pl.masc": "cessi",
+      "ppp.nom.pl.fem": "cessae",
+      "ppp.nom.pl.neut": "cessa",
+      "ppp.gen.pl.masc": "cessorum",
+      "ppp.gen.pl.fem": "cessarum",
+      "ppp.gen.pl.neut": "cessorum",
+      "ppp.dat.pl.masc": "cessis",
+      "ppp.dat.pl.fem": "cessis",
+      "ppp.dat.pl.neut": "cessis",
+      "ppp.acc.pl.masc": "cessos",
+      "ppp.acc.pl.fem": "cessas",
+      "ppp.acc.pl.neut": "cessa",
+      "ppp.abl.pl.masc": "cessis",
+      "ppp.abl.pl.fem": "cessis",
+      "ppp.abl.pl.neut": "cessis",
+      "ppp.voc.pl.masc": "cessi",
+      "ppp.voc.pl.fem": "cessae",
+      "ppp.voc.pl.neut": "cessa"
+    }
   }
 }

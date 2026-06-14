@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "supprime",
       "2pl.pres.imp.act": "supprimite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: suppressus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "suppressus",
+      "ppp.nom.sg.fem": "suppressa",
+      "ppp.nom.sg.neut": "suppressum",
+      "ppp.gen.sg.masc": "suppressi",
+      "ppp.gen.sg.fem": "suppressae",
+      "ppp.gen.sg.neut": "suppressi",
+      "ppp.dat.sg.masc": "suppresso",
+      "ppp.dat.sg.fem": "suppressae",
+      "ppp.dat.sg.neut": "suppresso",
+      "ppp.acc.sg.masc": "suppressum",
+      "ppp.acc.sg.fem": "suppressam",
+      "ppp.acc.sg.neut": "suppressum",
+      "ppp.abl.sg.masc": "suppresso",
+      "ppp.abl.sg.fem": "suppressa",
+      "ppp.abl.sg.neut": "suppresso",
+      "ppp.voc.sg.masc": "suppresse",
+      "ppp.voc.sg.fem": "suppressa",
+      "ppp.voc.sg.neut": "suppressum",
+      "ppp.nom.pl.masc": "suppressi",
+      "ppp.nom.pl.fem": "suppressae",
+      "ppp.nom.pl.neut": "suppressa",
+      "ppp.gen.pl.masc": "suppressorum",
+      "ppp.gen.pl.fem": "suppressarum",
+      "ppp.gen.pl.neut": "suppressorum",
+      "ppp.dat.pl.masc": "suppressis",
+      "ppp.dat.pl.fem": "suppressis",
+      "ppp.dat.pl.neut": "suppressis",
+      "ppp.acc.pl.masc": "suppressos",
+      "ppp.acc.pl.fem": "suppressas",
+      "ppp.acc.pl.neut": "suppressa",
+      "ppp.abl.pl.masc": "suppressis",
+      "ppp.abl.pl.fem": "suppressis",
+      "ppp.abl.pl.neut": "suppressis",
+      "ppp.voc.pl.masc": "suppressi",
+      "ppp.voc.pl.fem": "suppressae",
+      "ppp.voc.pl.neut": "suppressa"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "menti",
       "2pl.pres.imp.act": "mentite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mentitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mentitus",
+      "ppp.nom.sg.fem": "mentita",
+      "ppp.nom.sg.neut": "mentitum",
+      "ppp.gen.sg.masc": "mentiti",
+      "ppp.gen.sg.fem": "mentitae",
+      "ppp.gen.sg.neut": "mentiti",
+      "ppp.dat.sg.masc": "mentito",
+      "ppp.dat.sg.fem": "mentitae",
+      "ppp.dat.sg.neut": "mentito",
+      "ppp.acc.sg.masc": "mentitum",
+      "ppp.acc.sg.fem": "mentitam",
+      "ppp.acc.sg.neut": "mentitum",
+      "ppp.abl.sg.masc": "mentito",
+      "ppp.abl.sg.fem": "mentita",
+      "ppp.abl.sg.neut": "mentito",
+      "ppp.voc.sg.masc": "mentite",
+      "ppp.voc.sg.fem": "mentita",
+      "ppp.voc.sg.neut": "mentitum",
+      "ppp.nom.pl.masc": "mentiti",
+      "ppp.nom.pl.fem": "mentitae",
+      "ppp.nom.pl.neut": "mentita",
+      "ppp.gen.pl.masc": "mentitorum",
+      "ppp.gen.pl.fem": "mentitarum",
+      "ppp.gen.pl.neut": "mentitorum",
+      "ppp.dat.pl.masc": "mentitis",
+      "ppp.dat.pl.fem": "mentitis",
+      "ppp.dat.pl.neut": "mentitis",
+      "ppp.acc.pl.masc": "mentitos",
+      "ppp.acc.pl.fem": "mentitas",
+      "ppp.acc.pl.neut": "mentita",
+      "ppp.abl.pl.masc": "mentitis",
+      "ppp.abl.pl.fem": "mentitis",
+      "ppp.abl.pl.neut": "mentitis",
+      "ppp.voc.pl.masc": "mentiti",
+      "ppp.voc.pl.fem": "mentitae",
+      "ppp.voc.pl.neut": "mentita"
+    }
   }
 }

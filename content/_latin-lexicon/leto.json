@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "leta",
       "2pl.pres.imp.act": "letate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: letatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "letatus",
+      "ppp.nom.sg.fem": "letata",
+      "ppp.nom.sg.neut": "letatum",
+      "ppp.gen.sg.masc": "letati",
+      "ppp.gen.sg.fem": "letatae",
+      "ppp.gen.sg.neut": "letati",
+      "ppp.dat.sg.masc": "letato",
+      "ppp.dat.sg.fem": "letatae",
+      "ppp.dat.sg.neut": "letato",
+      "ppp.acc.sg.masc": "letatum",
+      "ppp.acc.sg.fem": "letatam",
+      "ppp.acc.sg.neut": "letatum",
+      "ppp.abl.sg.masc": "letato",
+      "ppp.abl.sg.fem": "letata",
+      "ppp.abl.sg.neut": "letato",
+      "ppp.voc.sg.masc": "letate",
+      "ppp.voc.sg.fem": "letata",
+      "ppp.voc.sg.neut": "letatum",
+      "ppp.nom.pl.masc": "letati",
+      "ppp.nom.pl.fem": "letatae",
+      "ppp.nom.pl.neut": "letata",
+      "ppp.gen.pl.masc": "letatorum",
+      "ppp.gen.pl.fem": "letatarum",
+      "ppp.gen.pl.neut": "letatorum",
+      "ppp.dat.pl.masc": "letatis",
+      "ppp.dat.pl.fem": "letatis",
+      "ppp.dat.pl.neut": "letatis",
+      "ppp.acc.pl.masc": "letatos",
+      "ppp.acc.pl.fem": "letatas",
+      "ppp.acc.pl.neut": "letata",
+      "ppp.abl.pl.masc": "letatis",
+      "ppp.abl.pl.fem": "letatis",
+      "ppp.abl.pl.neut": "letatis",
+      "ppp.voc.pl.masc": "letati",
+      "ppp.voc.pl.fem": "letatae",
+      "ppp.voc.pl.neut": "letata"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "fabrica",
       "2pl.pres.imp.act": "fabricate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fabricatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fabricatus",
+      "ppp.nom.sg.fem": "fabricata",
+      "ppp.nom.sg.neut": "fabricatum",
+      "ppp.gen.sg.masc": "fabricati",
+      "ppp.gen.sg.fem": "fabricatae",
+      "ppp.gen.sg.neut": "fabricati",
+      "ppp.dat.sg.masc": "fabricato",
+      "ppp.dat.sg.fem": "fabricatae",
+      "ppp.dat.sg.neut": "fabricato",
+      "ppp.acc.sg.masc": "fabricatum",
+      "ppp.acc.sg.fem": "fabricatam",
+      "ppp.acc.sg.neut": "fabricatum",
+      "ppp.abl.sg.masc": "fabricato",
+      "ppp.abl.sg.fem": "fabricata",
+      "ppp.abl.sg.neut": "fabricato",
+      "ppp.voc.sg.masc": "fabricate",
+      "ppp.voc.sg.fem": "fabricata",
+      "ppp.voc.sg.neut": "fabricatum",
+      "ppp.nom.pl.masc": "fabricati",
+      "ppp.nom.pl.fem": "fabricatae",
+      "ppp.nom.pl.neut": "fabricata",
+      "ppp.gen.pl.masc": "fabricatorum",
+      "ppp.gen.pl.fem": "fabricatarum",
+      "ppp.gen.pl.neut": "fabricatorum",
+      "ppp.dat.pl.masc": "fabricatis",
+      "ppp.dat.pl.fem": "fabricatis",
+      "ppp.dat.pl.neut": "fabricatis",
+      "ppp.acc.pl.masc": "fabricatos",
+      "ppp.acc.pl.fem": "fabricatas",
+      "ppp.acc.pl.neut": "fabricata",
+      "ppp.abl.pl.masc": "fabricatis",
+      "ppp.abl.pl.fem": "fabricatis",
+      "ppp.abl.pl.neut": "fabricatis",
+      "ppp.voc.pl.masc": "fabricati",
+      "ppp.voc.pl.fem": "fabricatae",
+      "ppp.voc.pl.neut": "fabricata"
+    }
   }
 }

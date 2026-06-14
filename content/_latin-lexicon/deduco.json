@@ -47,5 +47,63 @@
       "2sg.pres.imp.act": "deduc",
       "2pl.pres.imp.act": "deducite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: deductus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "deductus",
+      "ppp.nom.sg.fem": "deducta",
+      "ppp.nom.sg.neut": "deductum",
+      "ppp.gen.sg.masc": "deducti",
+      "ppp.gen.sg.fem": "deductae",
+      "ppp.gen.sg.neut": "deducti",
+      "ppp.dat.sg.masc": "deducto",
+      "ppp.dat.sg.fem": "deductae",
+      "ppp.dat.sg.neut": "deducto",
+      "ppp.acc.sg.masc": "deductum",
+      "ppp.acc.sg.fem": "deductam",
+      "ppp.acc.sg.neut": "deductum",
+      "ppp.abl.sg.masc": "deducto",
+      "ppp.abl.sg.fem": "deducta",
+      "ppp.abl.sg.neut": "deducto",
+      "ppp.voc.sg.masc": "deducte",
+      "ppp.voc.sg.fem": "deducta",
+      "ppp.voc.sg.neut": "deductum",
+      "ppp.nom.pl.masc": "deducti",
+      "ppp.nom.pl.fem": "deductae",
+      "ppp.nom.pl.neut": "deducta",
+      "ppp.gen.pl.masc": "deductorum",
+      "ppp.gen.pl.fem": "deductarum",
+      "ppp.gen.pl.neut": "deductorum",
+      "ppp.dat.pl.masc": "deductis",
+      "ppp.dat.pl.fem": "deductis",
+      "ppp.dat.pl.neut": "deductis",
+      "ppp.acc.pl.masc": "deductos",
+      "ppp.acc.pl.fem": "deductas",
+      "ppp.acc.pl.neut": "deducta",
+      "ppp.abl.pl.masc": "deductis",
+      "ppp.abl.pl.fem": "deductis",
+      "ppp.abl.pl.neut": "deductis",
+      "ppp.voc.pl.masc": "deducti",
+      "ppp.voc.pl.fem": "deductae",
+      "ppp.voc.pl.neut": "deducta"
+    }
   }
 }

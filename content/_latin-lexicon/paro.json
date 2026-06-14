@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "para",
       "2pl.pres.imp.act": "parate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: paratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "paratus",
+      "ppp.nom.sg.fem": "parata",
+      "ppp.nom.sg.neut": "paratum",
+      "ppp.gen.sg.masc": "parati",
+      "ppp.gen.sg.fem": "paratae",
+      "ppp.gen.sg.neut": "parati",
+      "ppp.dat.sg.masc": "parato",
+      "ppp.dat.sg.fem": "paratae",
+      "ppp.dat.sg.neut": "parato",
+      "ppp.acc.sg.masc": "paratum",
+      "ppp.acc.sg.fem": "paratam",
+      "ppp.acc.sg.neut": "paratum",
+      "ppp.abl.sg.masc": "parato",
+      "ppp.abl.sg.fem": "parata",
+      "ppp.abl.sg.neut": "parato",
+      "ppp.voc.sg.masc": "parate",
+      "ppp.voc.sg.fem": "parata",
+      "ppp.voc.sg.neut": "paratum",
+      "ppp.nom.pl.masc": "parati",
+      "ppp.nom.pl.fem": "paratae",
+      "ppp.nom.pl.neut": "parata",
+      "ppp.gen.pl.masc": "paratorum",
+      "ppp.gen.pl.fem": "paratarum",
+      "ppp.gen.pl.neut": "paratorum",
+      "ppp.dat.pl.masc": "paratis",
+      "ppp.dat.pl.fem": "paratis",
+      "ppp.dat.pl.neut": "paratis",
+      "ppp.acc.pl.masc": "paratos",
+      "ppp.acc.pl.fem": "paratas",
+      "ppp.acc.pl.neut": "parata",
+      "ppp.abl.pl.masc": "paratis",
+      "ppp.abl.pl.fem": "paratis",
+      "ppp.abl.pl.neut": "paratis",
+      "ppp.voc.pl.masc": "parati",
+      "ppp.voc.pl.fem": "paratae",
+      "ppp.voc.pl.neut": "parata"
+    }
   }
 }

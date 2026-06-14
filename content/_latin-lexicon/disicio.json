@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "disice",
       "2pl.pres.imp.act": "disicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: disjectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "disjectus",
+      "ppp.nom.sg.fem": "disjecta",
+      "ppp.nom.sg.neut": "disjectum",
+      "ppp.gen.sg.masc": "disjecti",
+      "ppp.gen.sg.fem": "disjectae",
+      "ppp.gen.sg.neut": "disjecti",
+      "ppp.dat.sg.masc": "disjecto",
+      "ppp.dat.sg.fem": "disjectae",
+      "ppp.dat.sg.neut": "disjecto",
+      "ppp.acc.sg.masc": "disjectum",
+      "ppp.acc.sg.fem": "disjectam",
+      "ppp.acc.sg.neut": "disjectum",
+      "ppp.abl.sg.masc": "disjecto",
+      "ppp.abl.sg.fem": "disjecta",
+      "ppp.abl.sg.neut": "disjecto",
+      "ppp.voc.sg.masc": "disjecte",
+      "ppp.voc.sg.fem": "disjecta",
+      "ppp.voc.sg.neut": "disjectum",
+      "ppp.nom.pl.masc": "disjecti",
+      "ppp.nom.pl.fem": "disjectae",
+      "ppp.nom.pl.neut": "disjecta",
+      "ppp.gen.pl.masc": "disjectorum",
+      "ppp.gen.pl.fem": "disjectarum",
+      "ppp.gen.pl.neut": "disjectorum",
+      "ppp.dat.pl.masc": "disjectis",
+      "ppp.dat.pl.fem": "disjectis",
+      "ppp.dat.pl.neut": "disjectis",
+      "ppp.acc.pl.masc": "disjectos",
+      "ppp.acc.pl.fem": "disjectas",
+      "ppp.acc.pl.neut": "disjecta",
+      "ppp.abl.pl.masc": "disjectis",
+      "ppp.abl.pl.fem": "disjectis",
+      "ppp.abl.pl.neut": "disjectis",
+      "ppp.voc.pl.masc": "disjecti",
+      "ppp.voc.pl.fem": "disjectae",
+      "ppp.voc.pl.neut": "disjecta"
+    }
   }
 }

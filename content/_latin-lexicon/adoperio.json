@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "adoperi",
       "2pl.pres.imp.act": "adoperite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: adopertus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "adopertus",
+      "ppp.nom.sg.fem": "adoperta",
+      "ppp.nom.sg.neut": "adopertum",
+      "ppp.gen.sg.masc": "adoperti",
+      "ppp.gen.sg.fem": "adopertae",
+      "ppp.gen.sg.neut": "adoperti",
+      "ppp.dat.sg.masc": "adoperto",
+      "ppp.dat.sg.fem": "adopertae",
+      "ppp.dat.sg.neut": "adoperto",
+      "ppp.acc.sg.masc": "adopertum",
+      "ppp.acc.sg.fem": "adopertam",
+      "ppp.acc.sg.neut": "adopertum",
+      "ppp.abl.sg.masc": "adoperto",
+      "ppp.abl.sg.fem": "adoperta",
+      "ppp.abl.sg.neut": "adoperto",
+      "ppp.voc.sg.masc": "adoperte",
+      "ppp.voc.sg.fem": "adoperta",
+      "ppp.voc.sg.neut": "adopertum",
+      "ppp.nom.pl.masc": "adoperti",
+      "ppp.nom.pl.fem": "adopertae",
+      "ppp.nom.pl.neut": "adoperta",
+      "ppp.gen.pl.masc": "adopertorum",
+      "ppp.gen.pl.fem": "adopertarum",
+      "ppp.gen.pl.neut": "adopertorum",
+      "ppp.dat.pl.masc": "adopertis",
+      "ppp.dat.pl.fem": "adopertis",
+      "ppp.dat.pl.neut": "adopertis",
+      "ppp.acc.pl.masc": "adopertos",
+      "ppp.acc.pl.fem": "adopertas",
+      "ppp.acc.pl.neut": "adoperta",
+      "ppp.abl.pl.masc": "adopertis",
+      "ppp.abl.pl.fem": "adopertis",
+      "ppp.abl.pl.neut": "adopertis",
+      "ppp.voc.pl.masc": "adoperti",
+      "ppp.voc.pl.fem": "adopertae",
+      "ppp.voc.pl.neut": "adoperta"
+    }
   }
 }

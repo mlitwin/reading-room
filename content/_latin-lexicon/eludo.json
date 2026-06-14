@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "elude",
       "2pl.pres.imp.act": "eludite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: elusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "elusus",
+      "ppp.nom.sg.fem": "elusa",
+      "ppp.nom.sg.neut": "elusum",
+      "ppp.gen.sg.masc": "elusi",
+      "ppp.gen.sg.fem": "elusae",
+      "ppp.gen.sg.neut": "elusi",
+      "ppp.dat.sg.masc": "eluso",
+      "ppp.dat.sg.fem": "elusae",
+      "ppp.dat.sg.neut": "eluso",
+      "ppp.acc.sg.masc": "elusum",
+      "ppp.acc.sg.fem": "elusam",
+      "ppp.acc.sg.neut": "elusum",
+      "ppp.abl.sg.masc": "eluso",
+      "ppp.abl.sg.fem": "elusa",
+      "ppp.abl.sg.neut": "eluso",
+      "ppp.voc.sg.masc": "eluse",
+      "ppp.voc.sg.fem": "elusa",
+      "ppp.voc.sg.neut": "elusum",
+      "ppp.nom.pl.masc": "elusi",
+      "ppp.nom.pl.fem": "elusae",
+      "ppp.nom.pl.neut": "elusa",
+      "ppp.gen.pl.masc": "elusorum",
+      "ppp.gen.pl.fem": "elusarum",
+      "ppp.gen.pl.neut": "elusorum",
+      "ppp.dat.pl.masc": "elusis",
+      "ppp.dat.pl.fem": "elusis",
+      "ppp.dat.pl.neut": "elusis",
+      "ppp.acc.pl.masc": "elusos",
+      "ppp.acc.pl.fem": "elusas",
+      "ppp.acc.pl.neut": "elusa",
+      "ppp.abl.pl.masc": "elusis",
+      "ppp.abl.pl.fem": "elusis",
+      "ppp.abl.pl.neut": "elusis",
+      "ppp.voc.pl.masc": "elusi",
+      "ppp.voc.pl.fem": "elusae",
+      "ppp.voc.pl.neut": "elusa"
+    }
   }
 }

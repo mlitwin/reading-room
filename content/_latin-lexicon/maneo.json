@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "mane",
       "2pl.pres.imp.act": "manete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mansus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mansus",
+      "ppp.nom.sg.fem": "mansa",
+      "ppp.nom.sg.neut": "mansum",
+      "ppp.gen.sg.masc": "mansi",
+      "ppp.gen.sg.fem": "mansae",
+      "ppp.gen.sg.neut": "mansi",
+      "ppp.dat.sg.masc": "manso",
+      "ppp.dat.sg.fem": "mansae",
+      "ppp.dat.sg.neut": "manso",
+      "ppp.acc.sg.masc": "mansum",
+      "ppp.acc.sg.fem": "mansam",
+      "ppp.acc.sg.neut": "mansum",
+      "ppp.abl.sg.masc": "manso",
+      "ppp.abl.sg.fem": "mansa",
+      "ppp.abl.sg.neut": "manso",
+      "ppp.voc.sg.masc": "manse",
+      "ppp.voc.sg.fem": "mansa",
+      "ppp.voc.sg.neut": "mansum",
+      "ppp.nom.pl.masc": "mansi",
+      "ppp.nom.pl.fem": "mansae",
+      "ppp.nom.pl.neut": "mansa",
+      "ppp.gen.pl.masc": "mansorum",
+      "ppp.gen.pl.fem": "mansarum",
+      "ppp.gen.pl.neut": "mansorum",
+      "ppp.dat.pl.masc": "mansis",
+      "ppp.dat.pl.fem": "mansis",
+      "ppp.dat.pl.neut": "mansis",
+      "ppp.acc.pl.masc": "mansos",
+      "ppp.acc.pl.fem": "mansas",
+      "ppp.acc.pl.neut": "mansa",
+      "ppp.abl.pl.masc": "mansis",
+      "ppp.abl.pl.fem": "mansis",
+      "ppp.abl.pl.neut": "mansis",
+      "ppp.voc.pl.masc": "mansi",
+      "ppp.voc.pl.fem": "mansae",
+      "ppp.voc.pl.neut": "mansa"
+    }
   }
 }

@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "secerne",
       "2pl.pres.imp.act": "secernite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: secretus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "secretus",
+      "ppp.nom.sg.fem": "secreta",
+      "ppp.nom.sg.neut": "secretum",
+      "ppp.gen.sg.masc": "secreti",
+      "ppp.gen.sg.fem": "secretae",
+      "ppp.gen.sg.neut": "secreti",
+      "ppp.dat.sg.masc": "secreto",
+      "ppp.dat.sg.fem": "secretae",
+      "ppp.dat.sg.neut": "secreto",
+      "ppp.acc.sg.masc": "secretum",
+      "ppp.acc.sg.fem": "secretam",
+      "ppp.acc.sg.neut": "secretum",
+      "ppp.abl.sg.masc": "secreto",
+      "ppp.abl.sg.fem": "secreta",
+      "ppp.abl.sg.neut": "secreto",
+      "ppp.voc.sg.masc": "secrete",
+      "ppp.voc.sg.fem": "secreta",
+      "ppp.voc.sg.neut": "secretum",
+      "ppp.nom.pl.masc": "secreti",
+      "ppp.nom.pl.fem": "secretae",
+      "ppp.nom.pl.neut": "secreta",
+      "ppp.gen.pl.masc": "secretorum",
+      "ppp.gen.pl.fem": "secretarum",
+      "ppp.gen.pl.neut": "secretorum",
+      "ppp.dat.pl.masc": "secretis",
+      "ppp.dat.pl.fem": "secretis",
+      "ppp.dat.pl.neut": "secretis",
+      "ppp.acc.pl.masc": "secretos",
+      "ppp.acc.pl.fem": "secretas",
+      "ppp.acc.pl.neut": "secreta",
+      "ppp.abl.pl.masc": "secretis",
+      "ppp.abl.pl.fem": "secretis",
+      "ppp.abl.pl.neut": "secretis",
+      "ppp.voc.pl.masc": "secreti",
+      "ppp.voc.pl.fem": "secretae",
+      "ppp.voc.pl.neut": "secreta"
+    }
   }
 }

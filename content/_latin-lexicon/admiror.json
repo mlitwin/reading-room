@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "admira",
       "2pl.pres.imp.act": "admirate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: admiratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "admiratus",
+      "ppp.nom.sg.fem": "admirata",
+      "ppp.nom.sg.neut": "admiratum",
+      "ppp.gen.sg.masc": "admirati",
+      "ppp.gen.sg.fem": "admiratae",
+      "ppp.gen.sg.neut": "admirati",
+      "ppp.dat.sg.masc": "admirato",
+      "ppp.dat.sg.fem": "admiratae",
+      "ppp.dat.sg.neut": "admirato",
+      "ppp.acc.sg.masc": "admiratum",
+      "ppp.acc.sg.fem": "admiratam",
+      "ppp.acc.sg.neut": "admiratum",
+      "ppp.abl.sg.masc": "admirato",
+      "ppp.abl.sg.fem": "admirata",
+      "ppp.abl.sg.neut": "admirato",
+      "ppp.voc.sg.masc": "admirate",
+      "ppp.voc.sg.fem": "admirata",
+      "ppp.voc.sg.neut": "admiratum",
+      "ppp.nom.pl.masc": "admirati",
+      "ppp.nom.pl.fem": "admiratae",
+      "ppp.nom.pl.neut": "admirata",
+      "ppp.gen.pl.masc": "admiratorum",
+      "ppp.gen.pl.fem": "admiratarum",
+      "ppp.gen.pl.neut": "admiratorum",
+      "ppp.dat.pl.masc": "admiratis",
+      "ppp.dat.pl.fem": "admiratis",
+      "ppp.dat.pl.neut": "admiratis",
+      "ppp.acc.pl.masc": "admiratos",
+      "ppp.acc.pl.fem": "admiratas",
+      "ppp.acc.pl.neut": "admirata",
+      "ppp.abl.pl.masc": "admiratis",
+      "ppp.abl.pl.fem": "admiratis",
+      "ppp.abl.pl.neut": "admiratis",
+      "ppp.voc.pl.masc": "admirati",
+      "ppp.voc.pl.fem": "admiratae",
+      "ppp.voc.pl.neut": "admirata"
+    }
   }
 }

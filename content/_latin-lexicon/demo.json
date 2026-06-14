@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "deme",
       "2pl.pres.imp.act": "demite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: demptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "demptus",
+      "ppp.nom.sg.fem": "dempta",
+      "ppp.nom.sg.neut": "demptum",
+      "ppp.gen.sg.masc": "dempti",
+      "ppp.gen.sg.fem": "demptae",
+      "ppp.gen.sg.neut": "dempti",
+      "ppp.dat.sg.masc": "dempto",
+      "ppp.dat.sg.fem": "demptae",
+      "ppp.dat.sg.neut": "dempto",
+      "ppp.acc.sg.masc": "demptum",
+      "ppp.acc.sg.fem": "demptam",
+      "ppp.acc.sg.neut": "demptum",
+      "ppp.abl.sg.masc": "dempto",
+      "ppp.abl.sg.fem": "dempta",
+      "ppp.abl.sg.neut": "dempto",
+      "ppp.voc.sg.masc": "dempte",
+      "ppp.voc.sg.fem": "dempta",
+      "ppp.voc.sg.neut": "demptum",
+      "ppp.nom.pl.masc": "dempti",
+      "ppp.nom.pl.fem": "demptae",
+      "ppp.nom.pl.neut": "dempta",
+      "ppp.gen.pl.masc": "demptorum",
+      "ppp.gen.pl.fem": "demptarum",
+      "ppp.gen.pl.neut": "demptorum",
+      "ppp.dat.pl.masc": "demptis",
+      "ppp.dat.pl.fem": "demptis",
+      "ppp.dat.pl.neut": "demptis",
+      "ppp.acc.pl.masc": "demptos",
+      "ppp.acc.pl.fem": "demptas",
+      "ppp.acc.pl.neut": "dempta",
+      "ppp.abl.pl.masc": "demptis",
+      "ppp.abl.pl.fem": "demptis",
+      "ppp.abl.pl.neut": "demptis",
+      "ppp.voc.pl.masc": "dempti",
+      "ppp.voc.pl.fem": "demptae",
+      "ppp.voc.pl.neut": "dempta"
+    }
   }
 }

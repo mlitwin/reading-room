@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "care",
       "2pl.pres.imp.act": "carete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: caritus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "caritus",
+      "ppp.nom.sg.fem": "carita",
+      "ppp.nom.sg.neut": "caritum",
+      "ppp.gen.sg.masc": "cariti",
+      "ppp.gen.sg.fem": "caritae",
+      "ppp.gen.sg.neut": "cariti",
+      "ppp.dat.sg.masc": "carito",
+      "ppp.dat.sg.fem": "caritae",
+      "ppp.dat.sg.neut": "carito",
+      "ppp.acc.sg.masc": "caritum",
+      "ppp.acc.sg.fem": "caritam",
+      "ppp.acc.sg.neut": "caritum",
+      "ppp.abl.sg.masc": "carito",
+      "ppp.abl.sg.fem": "carita",
+      "ppp.abl.sg.neut": "carito",
+      "ppp.voc.sg.masc": "carite",
+      "ppp.voc.sg.fem": "carita",
+      "ppp.voc.sg.neut": "caritum",
+      "ppp.nom.pl.masc": "cariti",
+      "ppp.nom.pl.fem": "caritae",
+      "ppp.nom.pl.neut": "carita",
+      "ppp.gen.pl.masc": "caritorum",
+      "ppp.gen.pl.fem": "caritarum",
+      "ppp.gen.pl.neut": "caritorum",
+      "ppp.dat.pl.masc": "caritis",
+      "ppp.dat.pl.fem": "caritis",
+      "ppp.dat.pl.neut": "caritis",
+      "ppp.acc.pl.masc": "caritos",
+      "ppp.acc.pl.fem": "caritas",
+      "ppp.acc.pl.neut": "carita",
+      "ppp.abl.pl.masc": "caritis",
+      "ppp.abl.pl.fem": "caritis",
+      "ppp.abl.pl.neut": "caritis",
+      "ppp.voc.pl.masc": "cariti",
+      "ppp.voc.pl.fem": "caritae",
+      "ppp.voc.pl.neut": "carita"
+    }
   }
 }

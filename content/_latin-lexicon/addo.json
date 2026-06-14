@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "adde",
       "2pl.pres.imp.act": "addite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: additus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "additus",
+      "ppp.nom.sg.fem": "addita",
+      "ppp.nom.sg.neut": "additum",
+      "ppp.gen.sg.masc": "additi",
+      "ppp.gen.sg.fem": "additae",
+      "ppp.gen.sg.neut": "additi",
+      "ppp.dat.sg.masc": "addito",
+      "ppp.dat.sg.fem": "additae",
+      "ppp.dat.sg.neut": "addito",
+      "ppp.acc.sg.masc": "additum",
+      "ppp.acc.sg.fem": "additam",
+      "ppp.acc.sg.neut": "additum",
+      "ppp.abl.sg.masc": "addito",
+      "ppp.abl.sg.fem": "addita",
+      "ppp.abl.sg.neut": "addito",
+      "ppp.voc.sg.masc": "addite",
+      "ppp.voc.sg.fem": "addita",
+      "ppp.voc.sg.neut": "additum",
+      "ppp.nom.pl.masc": "additi",
+      "ppp.nom.pl.fem": "additae",
+      "ppp.nom.pl.neut": "addita",
+      "ppp.gen.pl.masc": "additorum",
+      "ppp.gen.pl.fem": "additarum",
+      "ppp.gen.pl.neut": "additorum",
+      "ppp.dat.pl.masc": "additis",
+      "ppp.dat.pl.fem": "additis",
+      "ppp.dat.pl.neut": "additis",
+      "ppp.acc.pl.masc": "additos",
+      "ppp.acc.pl.fem": "additas",
+      "ppp.acc.pl.neut": "addita",
+      "ppp.abl.pl.masc": "additis",
+      "ppp.abl.pl.fem": "additis",
+      "ppp.abl.pl.neut": "additis",
+      "ppp.voc.pl.masc": "additi",
+      "ppp.voc.pl.fem": "additae",
+      "ppp.voc.pl.neut": "addita"
+    }
   }
 }

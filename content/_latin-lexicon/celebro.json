@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "celebra",
       "2pl.pres.imp.act": "celebrate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: celebratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "celebratus",
+      "ppp.nom.sg.fem": "celebrata",
+      "ppp.nom.sg.neut": "celebratum",
+      "ppp.gen.sg.masc": "celebrati",
+      "ppp.gen.sg.fem": "celebratae",
+      "ppp.gen.sg.neut": "celebrati",
+      "ppp.dat.sg.masc": "celebrato",
+      "ppp.dat.sg.fem": "celebratae",
+      "ppp.dat.sg.neut": "celebrato",
+      "ppp.acc.sg.masc": "celebratum",
+      "ppp.acc.sg.fem": "celebratam",
+      "ppp.acc.sg.neut": "celebratum",
+      "ppp.abl.sg.masc": "celebrato",
+      "ppp.abl.sg.fem": "celebrata",
+      "ppp.abl.sg.neut": "celebrato",
+      "ppp.voc.sg.masc": "celebrate",
+      "ppp.voc.sg.fem": "celebrata",
+      "ppp.voc.sg.neut": "celebratum",
+      "ppp.nom.pl.masc": "celebrati",
+      "ppp.nom.pl.fem": "celebratae",
+      "ppp.nom.pl.neut": "celebrata",
+      "ppp.gen.pl.masc": "celebratorum",
+      "ppp.gen.pl.fem": "celebratarum",
+      "ppp.gen.pl.neut": "celebratorum",
+      "ppp.dat.pl.masc": "celebratis",
+      "ppp.dat.pl.fem": "celebratis",
+      "ppp.dat.pl.neut": "celebratis",
+      "ppp.acc.pl.masc": "celebratos",
+      "ppp.acc.pl.fem": "celebratas",
+      "ppp.acc.pl.neut": "celebrata",
+      "ppp.abl.pl.masc": "celebratis",
+      "ppp.abl.pl.fem": "celebratis",
+      "ppp.abl.pl.neut": "celebratis",
+      "ppp.voc.pl.masc": "celebrati",
+      "ppp.voc.pl.fem": "celebratae",
+      "ppp.voc.pl.neut": "celebrata"
+    }
   }
 }

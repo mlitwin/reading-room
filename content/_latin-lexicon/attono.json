@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "attona",
       "2pl.pres.imp.act": "attonate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: attonitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "attonitus",
+      "ppp.nom.sg.fem": "attonita",
+      "ppp.nom.sg.neut": "attonitum",
+      "ppp.gen.sg.masc": "attoniti",
+      "ppp.gen.sg.fem": "attonitae",
+      "ppp.gen.sg.neut": "attoniti",
+      "ppp.dat.sg.masc": "attonito",
+      "ppp.dat.sg.fem": "attonitae",
+      "ppp.dat.sg.neut": "attonito",
+      "ppp.acc.sg.masc": "attonitum",
+      "ppp.acc.sg.fem": "attonitam",
+      "ppp.acc.sg.neut": "attonitum",
+      "ppp.abl.sg.masc": "attonito",
+      "ppp.abl.sg.fem": "attonita",
+      "ppp.abl.sg.neut": "attonito",
+      "ppp.voc.sg.masc": "attonite",
+      "ppp.voc.sg.fem": "attonita",
+      "ppp.voc.sg.neut": "attonitum",
+      "ppp.nom.pl.masc": "attoniti",
+      "ppp.nom.pl.fem": "attonitae",
+      "ppp.nom.pl.neut": "attonita",
+      "ppp.gen.pl.masc": "attonitorum",
+      "ppp.gen.pl.fem": "attonitarum",
+      "ppp.gen.pl.neut": "attonitorum",
+      "ppp.dat.pl.masc": "attonitis",
+      "ppp.dat.pl.fem": "attonitis",
+      "ppp.dat.pl.neut": "attonitis",
+      "ppp.acc.pl.masc": "attonitos",
+      "ppp.acc.pl.fem": "attonitas",
+      "ppp.acc.pl.neut": "attonita",
+      "ppp.abl.pl.masc": "attonitis",
+      "ppp.abl.pl.fem": "attonitis",
+      "ppp.abl.pl.neut": "attonitis",
+      "ppp.voc.pl.masc": "attoniti",
+      "ppp.voc.pl.fem": "attonitae",
+      "ppp.voc.pl.neut": "attonita"
+    }
   }
 }

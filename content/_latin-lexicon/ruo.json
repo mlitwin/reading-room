@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "rue",
       "2pl.pres.imp.act": "ruite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: rutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "rutus",
+      "ppp.nom.sg.fem": "ruta",
+      "ppp.nom.sg.neut": "rutum",
+      "ppp.gen.sg.masc": "ruti",
+      "ppp.gen.sg.fem": "rutae",
+      "ppp.gen.sg.neut": "ruti",
+      "ppp.dat.sg.masc": "ruto",
+      "ppp.dat.sg.fem": "rutae",
+      "ppp.dat.sg.neut": "ruto",
+      "ppp.acc.sg.masc": "rutum",
+      "ppp.acc.sg.fem": "rutam",
+      "ppp.acc.sg.neut": "rutum",
+      "ppp.abl.sg.masc": "ruto",
+      "ppp.abl.sg.fem": "ruta",
+      "ppp.abl.sg.neut": "ruto",
+      "ppp.voc.sg.masc": "rute",
+      "ppp.voc.sg.fem": "ruta",
+      "ppp.voc.sg.neut": "rutum",
+      "ppp.nom.pl.masc": "ruti",
+      "ppp.nom.pl.fem": "rutae",
+      "ppp.nom.pl.neut": "ruta",
+      "ppp.gen.pl.masc": "rutorum",
+      "ppp.gen.pl.fem": "rutarum",
+      "ppp.gen.pl.neut": "rutorum",
+      "ppp.dat.pl.masc": "rutis",
+      "ppp.dat.pl.fem": "rutis",
+      "ppp.dat.pl.neut": "rutis",
+      "ppp.acc.pl.masc": "rutos",
+      "ppp.acc.pl.fem": "rutas",
+      "ppp.acc.pl.neut": "ruta",
+      "ppp.abl.pl.masc": "rutis",
+      "ppp.abl.pl.fem": "rutis",
+      "ppp.abl.pl.neut": "rutis",
+      "ppp.voc.pl.masc": "ruti",
+      "ppp.voc.pl.fem": "rutae",
+      "ppp.voc.pl.neut": "ruta"
+    }
   }
 }

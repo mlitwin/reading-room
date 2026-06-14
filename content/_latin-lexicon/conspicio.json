@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "conspice",
       "2pl.pres.imp.act": "conspicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conspectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conspectus",
+      "ppp.nom.sg.fem": "conspecta",
+      "ppp.nom.sg.neut": "conspectum",
+      "ppp.gen.sg.masc": "conspecti",
+      "ppp.gen.sg.fem": "conspectae",
+      "ppp.gen.sg.neut": "conspecti",
+      "ppp.dat.sg.masc": "conspecto",
+      "ppp.dat.sg.fem": "conspectae",
+      "ppp.dat.sg.neut": "conspecto",
+      "ppp.acc.sg.masc": "conspectum",
+      "ppp.acc.sg.fem": "conspectam",
+      "ppp.acc.sg.neut": "conspectum",
+      "ppp.abl.sg.masc": "conspecto",
+      "ppp.abl.sg.fem": "conspecta",
+      "ppp.abl.sg.neut": "conspecto",
+      "ppp.voc.sg.masc": "conspecte",
+      "ppp.voc.sg.fem": "conspecta",
+      "ppp.voc.sg.neut": "conspectum",
+      "ppp.nom.pl.masc": "conspecti",
+      "ppp.nom.pl.fem": "conspectae",
+      "ppp.nom.pl.neut": "conspecta",
+      "ppp.gen.pl.masc": "conspectorum",
+      "ppp.gen.pl.fem": "conspectarum",
+      "ppp.gen.pl.neut": "conspectorum",
+      "ppp.dat.pl.masc": "conspectis",
+      "ppp.dat.pl.fem": "conspectis",
+      "ppp.dat.pl.neut": "conspectis",
+      "ppp.acc.pl.masc": "conspectos",
+      "ppp.acc.pl.fem": "conspectas",
+      "ppp.acc.pl.neut": "conspecta",
+      "ppp.abl.pl.masc": "conspectis",
+      "ppp.abl.pl.fem": "conspectis",
+      "ppp.abl.pl.neut": "conspectis",
+      "ppp.voc.pl.masc": "conspecti",
+      "ppp.voc.pl.fem": "conspectae",
+      "ppp.voc.pl.neut": "conspecta"
+    }
   }
 }

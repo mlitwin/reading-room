@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "affla",
       "2pl.pres.imp.act": "afflate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: afflatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "afflatus",
+      "ppp.nom.sg.fem": "afflata",
+      "ppp.nom.sg.neut": "afflatum",
+      "ppp.gen.sg.masc": "afflati",
+      "ppp.gen.sg.fem": "afflatae",
+      "ppp.gen.sg.neut": "afflati",
+      "ppp.dat.sg.masc": "afflato",
+      "ppp.dat.sg.fem": "afflatae",
+      "ppp.dat.sg.neut": "afflato",
+      "ppp.acc.sg.masc": "afflatum",
+      "ppp.acc.sg.fem": "afflatam",
+      "ppp.acc.sg.neut": "afflatum",
+      "ppp.abl.sg.masc": "afflato",
+      "ppp.abl.sg.fem": "afflata",
+      "ppp.abl.sg.neut": "afflato",
+      "ppp.voc.sg.masc": "afflate",
+      "ppp.voc.sg.fem": "afflata",
+      "ppp.voc.sg.neut": "afflatum",
+      "ppp.nom.pl.masc": "afflati",
+      "ppp.nom.pl.fem": "afflatae",
+      "ppp.nom.pl.neut": "afflata",
+      "ppp.gen.pl.masc": "afflatorum",
+      "ppp.gen.pl.fem": "afflatarum",
+      "ppp.gen.pl.neut": "afflatorum",
+      "ppp.dat.pl.masc": "afflatis",
+      "ppp.dat.pl.fem": "afflatis",
+      "ppp.dat.pl.neut": "afflatis",
+      "ppp.acc.pl.masc": "afflatos",
+      "ppp.acc.pl.fem": "afflatas",
+      "ppp.acc.pl.neut": "afflata",
+      "ppp.abl.pl.masc": "afflatis",
+      "ppp.abl.pl.fem": "afflatis",
+      "ppp.abl.pl.neut": "afflatis",
+      "ppp.voc.pl.masc": "afflati",
+      "ppp.voc.pl.fem": "afflatae",
+      "ppp.voc.pl.neut": "afflata"
+    }
   }
 }

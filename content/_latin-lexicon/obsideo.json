@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "obside",
       "2pl.pres.imp.act": "obsidete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: obsessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "obsessus",
+      "ppp.nom.sg.fem": "obsessa",
+      "ppp.nom.sg.neut": "obsessum",
+      "ppp.gen.sg.masc": "obsessi",
+      "ppp.gen.sg.fem": "obsessae",
+      "ppp.gen.sg.neut": "obsessi",
+      "ppp.dat.sg.masc": "obsesso",
+      "ppp.dat.sg.fem": "obsessae",
+      "ppp.dat.sg.neut": "obsesso",
+      "ppp.acc.sg.masc": "obsessum",
+      "ppp.acc.sg.fem": "obsessam",
+      "ppp.acc.sg.neut": "obsessum",
+      "ppp.abl.sg.masc": "obsesso",
+      "ppp.abl.sg.fem": "obsessa",
+      "ppp.abl.sg.neut": "obsesso",
+      "ppp.voc.sg.masc": "obsesse",
+      "ppp.voc.sg.fem": "obsessa",
+      "ppp.voc.sg.neut": "obsessum",
+      "ppp.nom.pl.masc": "obsessi",
+      "ppp.nom.pl.fem": "obsessae",
+      "ppp.nom.pl.neut": "obsessa",
+      "ppp.gen.pl.masc": "obsessorum",
+      "ppp.gen.pl.fem": "obsessarum",
+      "ppp.gen.pl.neut": "obsessorum",
+      "ppp.dat.pl.masc": "obsessis",
+      "ppp.dat.pl.fem": "obsessis",
+      "ppp.dat.pl.neut": "obsessis",
+      "ppp.acc.pl.masc": "obsessos",
+      "ppp.acc.pl.fem": "obsessas",
+      "ppp.acc.pl.neut": "obsessa",
+      "ppp.abl.pl.masc": "obsessis",
+      "ppp.abl.pl.fem": "obsessis",
+      "ppp.abl.pl.neut": "obsessis",
+      "ppp.voc.pl.masc": "obsessi",
+      "ppp.voc.pl.fem": "obsessae",
+      "ppp.voc.pl.neut": "obsessa"
+    }
   }
 }

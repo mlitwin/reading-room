@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "nasce",
       "2pl.pres.imp.act": "nascite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: natus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "natus",
+      "ppp.nom.sg.fem": "nata",
+      "ppp.nom.sg.neut": "natum",
+      "ppp.gen.sg.masc": "nati",
+      "ppp.gen.sg.fem": "natae",
+      "ppp.gen.sg.neut": "nati",
+      "ppp.dat.sg.masc": "nato",
+      "ppp.dat.sg.fem": "natae",
+      "ppp.dat.sg.neut": "nato",
+      "ppp.acc.sg.masc": "natum",
+      "ppp.acc.sg.fem": "natam",
+      "ppp.acc.sg.neut": "natum",
+      "ppp.abl.sg.masc": "nato",
+      "ppp.abl.sg.fem": "nata",
+      "ppp.abl.sg.neut": "nato",
+      "ppp.voc.sg.masc": "nate",
+      "ppp.voc.sg.fem": "nata",
+      "ppp.voc.sg.neut": "natum",
+      "ppp.nom.pl.masc": "nati",
+      "ppp.nom.pl.fem": "natae",
+      "ppp.nom.pl.neut": "nata",
+      "ppp.gen.pl.masc": "natorum",
+      "ppp.gen.pl.fem": "natarum",
+      "ppp.gen.pl.neut": "natorum",
+      "ppp.dat.pl.masc": "natis",
+      "ppp.dat.pl.fem": "natis",
+      "ppp.dat.pl.neut": "natis",
+      "ppp.acc.pl.masc": "natos",
+      "ppp.acc.pl.fem": "natas",
+      "ppp.acc.pl.neut": "nata",
+      "ppp.abl.pl.masc": "natis",
+      "ppp.abl.pl.fem": "natis",
+      "ppp.abl.pl.neut": "natis",
+      "ppp.voc.pl.masc": "nati",
+      "ppp.voc.pl.fem": "natae",
+      "ppp.voc.pl.neut": "nata"
+    }
   }
 }

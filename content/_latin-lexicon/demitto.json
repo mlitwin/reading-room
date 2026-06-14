@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "demitte",
       "2pl.pres.imp.act": "demittite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: demissus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "demissus",
+      "ppp.nom.sg.fem": "demissa",
+      "ppp.nom.sg.neut": "demissum",
+      "ppp.gen.sg.masc": "demissi",
+      "ppp.gen.sg.fem": "demissae",
+      "ppp.gen.sg.neut": "demissi",
+      "ppp.dat.sg.masc": "demisso",
+      "ppp.dat.sg.fem": "demissae",
+      "ppp.dat.sg.neut": "demisso",
+      "ppp.acc.sg.masc": "demissum",
+      "ppp.acc.sg.fem": "demissam",
+      "ppp.acc.sg.neut": "demissum",
+      "ppp.abl.sg.masc": "demisso",
+      "ppp.abl.sg.fem": "demissa",
+      "ppp.abl.sg.neut": "demisso",
+      "ppp.voc.sg.masc": "demisse",
+      "ppp.voc.sg.fem": "demissa",
+      "ppp.voc.sg.neut": "demissum",
+      "ppp.nom.pl.masc": "demissi",
+      "ppp.nom.pl.fem": "demissae",
+      "ppp.nom.pl.neut": "demissa",
+      "ppp.gen.pl.masc": "demissorum",
+      "ppp.gen.pl.fem": "demissarum",
+      "ppp.gen.pl.neut": "demissorum",
+      "ppp.dat.pl.masc": "demissis",
+      "ppp.dat.pl.fem": "demissis",
+      "ppp.dat.pl.neut": "demissis",
+      "ppp.acc.pl.masc": "demissos",
+      "ppp.acc.pl.fem": "demissas",
+      "ppp.acc.pl.neut": "demissa",
+      "ppp.abl.pl.masc": "demissis",
+      "ppp.abl.pl.fem": "demissis",
+      "ppp.abl.pl.neut": "demissis",
+      "ppp.voc.pl.masc": "demissi",
+      "ppp.voc.pl.fem": "demissae",
+      "ppp.voc.pl.neut": "demissa"
+    }
   }
 }

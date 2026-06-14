@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "ingemina",
       "2pl.pres.imp.act": "ingeminate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ingeminatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ingeminatus",
+      "ppp.nom.sg.fem": "ingeminata",
+      "ppp.nom.sg.neut": "ingeminatum",
+      "ppp.gen.sg.masc": "ingeminati",
+      "ppp.gen.sg.fem": "ingeminatae",
+      "ppp.gen.sg.neut": "ingeminati",
+      "ppp.dat.sg.masc": "ingeminato",
+      "ppp.dat.sg.fem": "ingeminatae",
+      "ppp.dat.sg.neut": "ingeminato",
+      "ppp.acc.sg.masc": "ingeminatum",
+      "ppp.acc.sg.fem": "ingeminatam",
+      "ppp.acc.sg.neut": "ingeminatum",
+      "ppp.abl.sg.masc": "ingeminato",
+      "ppp.abl.sg.fem": "ingeminata",
+      "ppp.abl.sg.neut": "ingeminato",
+      "ppp.voc.sg.masc": "ingeminate",
+      "ppp.voc.sg.fem": "ingeminata",
+      "ppp.voc.sg.neut": "ingeminatum",
+      "ppp.nom.pl.masc": "ingeminati",
+      "ppp.nom.pl.fem": "ingeminatae",
+      "ppp.nom.pl.neut": "ingeminata",
+      "ppp.gen.pl.masc": "ingeminatorum",
+      "ppp.gen.pl.fem": "ingeminatarum",
+      "ppp.gen.pl.neut": "ingeminatorum",
+      "ppp.dat.pl.masc": "ingeminatis",
+      "ppp.dat.pl.fem": "ingeminatis",
+      "ppp.dat.pl.neut": "ingeminatis",
+      "ppp.acc.pl.masc": "ingeminatos",
+      "ppp.acc.pl.fem": "ingeminatas",
+      "ppp.acc.pl.neut": "ingeminata",
+      "ppp.abl.pl.masc": "ingeminatis",
+      "ppp.abl.pl.fem": "ingeminatis",
+      "ppp.abl.pl.neut": "ingeminatis",
+      "ppp.voc.pl.masc": "ingeminati",
+      "ppp.voc.pl.fem": "ingeminatae",
+      "ppp.voc.pl.neut": "ingeminata"
+    }
   }
 }

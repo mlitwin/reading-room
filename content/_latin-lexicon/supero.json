@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "supera",
       "2pl.pres.imp.act": "superate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: superatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "superatus",
+      "ppp.nom.sg.fem": "superata",
+      "ppp.nom.sg.neut": "superatum",
+      "ppp.gen.sg.masc": "superati",
+      "ppp.gen.sg.fem": "superatae",
+      "ppp.gen.sg.neut": "superati",
+      "ppp.dat.sg.masc": "superato",
+      "ppp.dat.sg.fem": "superatae",
+      "ppp.dat.sg.neut": "superato",
+      "ppp.acc.sg.masc": "superatum",
+      "ppp.acc.sg.fem": "superatam",
+      "ppp.acc.sg.neut": "superatum",
+      "ppp.abl.sg.masc": "superato",
+      "ppp.abl.sg.fem": "superata",
+      "ppp.abl.sg.neut": "superato",
+      "ppp.voc.sg.masc": "superate",
+      "ppp.voc.sg.fem": "superata",
+      "ppp.voc.sg.neut": "superatum",
+      "ppp.nom.pl.masc": "superati",
+      "ppp.nom.pl.fem": "superatae",
+      "ppp.nom.pl.neut": "superata",
+      "ppp.gen.pl.masc": "superatorum",
+      "ppp.gen.pl.fem": "superatarum",
+      "ppp.gen.pl.neut": "superatorum",
+      "ppp.dat.pl.masc": "superatis",
+      "ppp.dat.pl.fem": "superatis",
+      "ppp.dat.pl.neut": "superatis",
+      "ppp.acc.pl.masc": "superatos",
+      "ppp.acc.pl.fem": "superatas",
+      "ppp.acc.pl.neut": "superata",
+      "ppp.abl.pl.masc": "superatis",
+      "ppp.abl.pl.fem": "superatis",
+      "ppp.abl.pl.neut": "superatis",
+      "ppp.voc.pl.masc": "superati",
+      "ppp.voc.pl.fem": "superatae",
+      "ppp.voc.pl.neut": "superata"
+    }
   }
 }

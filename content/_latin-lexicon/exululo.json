@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "exulula",
       "2pl.pres.imp.act": "exululate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exululatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exululatus",
+      "ppp.nom.sg.fem": "exululata",
+      "ppp.nom.sg.neut": "exululatum",
+      "ppp.gen.sg.masc": "exululati",
+      "ppp.gen.sg.fem": "exululatae",
+      "ppp.gen.sg.neut": "exululati",
+      "ppp.dat.sg.masc": "exululato",
+      "ppp.dat.sg.fem": "exululatae",
+      "ppp.dat.sg.neut": "exululato",
+      "ppp.acc.sg.masc": "exululatum",
+      "ppp.acc.sg.fem": "exululatam",
+      "ppp.acc.sg.neut": "exululatum",
+      "ppp.abl.sg.masc": "exululato",
+      "ppp.abl.sg.fem": "exululata",
+      "ppp.abl.sg.neut": "exululato",
+      "ppp.voc.sg.masc": "exululate",
+      "ppp.voc.sg.fem": "exululata",
+      "ppp.voc.sg.neut": "exululatum",
+      "ppp.nom.pl.masc": "exululati",
+      "ppp.nom.pl.fem": "exululatae",
+      "ppp.nom.pl.neut": "exululata",
+      "ppp.gen.pl.masc": "exululatorum",
+      "ppp.gen.pl.fem": "exululatarum",
+      "ppp.gen.pl.neut": "exululatorum",
+      "ppp.dat.pl.masc": "exululatis",
+      "ppp.dat.pl.fem": "exululatis",
+      "ppp.dat.pl.neut": "exululatis",
+      "ppp.acc.pl.masc": "exululatos",
+      "ppp.acc.pl.fem": "exululatas",
+      "ppp.acc.pl.neut": "exululata",
+      "ppp.abl.pl.masc": "exululatis",
+      "ppp.abl.pl.fem": "exululatis",
+      "ppp.abl.pl.neut": "exululatis",
+      "ppp.voc.pl.masc": "exululati",
+      "ppp.voc.pl.fem": "exululatae",
+      "ppp.voc.pl.neut": "exululata"
+    }
   }
 }

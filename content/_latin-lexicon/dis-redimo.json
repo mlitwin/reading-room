@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "redime",
       "2pl.pres.imp.act": "redimite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: redemptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "redemptus",
+      "ppp.nom.sg.fem": "redempta",
+      "ppp.nom.sg.neut": "redemptum",
+      "ppp.gen.sg.masc": "redempti",
+      "ppp.gen.sg.fem": "redemptae",
+      "ppp.gen.sg.neut": "redempti",
+      "ppp.dat.sg.masc": "redempto",
+      "ppp.dat.sg.fem": "redemptae",
+      "ppp.dat.sg.neut": "redempto",
+      "ppp.acc.sg.masc": "redemptum",
+      "ppp.acc.sg.fem": "redemptam",
+      "ppp.acc.sg.neut": "redemptum",
+      "ppp.abl.sg.masc": "redempto",
+      "ppp.abl.sg.fem": "redempta",
+      "ppp.abl.sg.neut": "redempto",
+      "ppp.voc.sg.masc": "redempte",
+      "ppp.voc.sg.fem": "redempta",
+      "ppp.voc.sg.neut": "redemptum",
+      "ppp.nom.pl.masc": "redempti",
+      "ppp.nom.pl.fem": "redemptae",
+      "ppp.nom.pl.neut": "redempta",
+      "ppp.gen.pl.masc": "redemptorum",
+      "ppp.gen.pl.fem": "redemptarum",
+      "ppp.gen.pl.neut": "redemptorum",
+      "ppp.dat.pl.masc": "redemptis",
+      "ppp.dat.pl.fem": "redemptis",
+      "ppp.dat.pl.neut": "redemptis",
+      "ppp.acc.pl.masc": "redemptos",
+      "ppp.acc.pl.fem": "redemptas",
+      "ppp.acc.pl.neut": "redempta",
+      "ppp.abl.pl.masc": "redemptis",
+      "ppp.abl.pl.fem": "redemptis",
+      "ppp.abl.pl.neut": "redemptis",
+      "ppp.voc.pl.masc": "redempti",
+      "ppp.voc.pl.fem": "redemptae",
+      "ppp.voc.pl.neut": "redempta"
+    }
   }
 }

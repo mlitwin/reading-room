@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "jura",
       "2pl.pres.imp.act": "jurate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: juratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "juratus",
+      "ppp.nom.sg.fem": "jurata",
+      "ppp.nom.sg.neut": "juratum",
+      "ppp.gen.sg.masc": "jurati",
+      "ppp.gen.sg.fem": "juratae",
+      "ppp.gen.sg.neut": "jurati",
+      "ppp.dat.sg.masc": "jurato",
+      "ppp.dat.sg.fem": "juratae",
+      "ppp.dat.sg.neut": "jurato",
+      "ppp.acc.sg.masc": "juratum",
+      "ppp.acc.sg.fem": "juratam",
+      "ppp.acc.sg.neut": "juratum",
+      "ppp.abl.sg.masc": "jurato",
+      "ppp.abl.sg.fem": "jurata",
+      "ppp.abl.sg.neut": "jurato",
+      "ppp.voc.sg.masc": "jurate",
+      "ppp.voc.sg.fem": "jurata",
+      "ppp.voc.sg.neut": "juratum",
+      "ppp.nom.pl.masc": "jurati",
+      "ppp.nom.pl.fem": "juratae",
+      "ppp.nom.pl.neut": "jurata",
+      "ppp.gen.pl.masc": "juratorum",
+      "ppp.gen.pl.fem": "juratarum",
+      "ppp.gen.pl.neut": "juratorum",
+      "ppp.dat.pl.masc": "juratis",
+      "ppp.dat.pl.fem": "juratis",
+      "ppp.dat.pl.neut": "juratis",
+      "ppp.acc.pl.masc": "juratos",
+      "ppp.acc.pl.fem": "juratas",
+      "ppp.acc.pl.neut": "jurata",
+      "ppp.abl.pl.masc": "juratis",
+      "ppp.abl.pl.fem": "juratis",
+      "ppp.abl.pl.neut": "juratis",
+      "ppp.voc.pl.masc": "jurati",
+      "ppp.voc.pl.fem": "juratae",
+      "ppp.voc.pl.neut": "jurata"
+    }
   }
 }

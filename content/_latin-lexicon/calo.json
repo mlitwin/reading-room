@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "cala",
       "2pl.pres.imp.act": "calate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: calatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "calatus",
+      "ppp.nom.sg.fem": "calata",
+      "ppp.nom.sg.neut": "calatum",
+      "ppp.gen.sg.masc": "calati",
+      "ppp.gen.sg.fem": "calatae",
+      "ppp.gen.sg.neut": "calati",
+      "ppp.dat.sg.masc": "calato",
+      "ppp.dat.sg.fem": "calatae",
+      "ppp.dat.sg.neut": "calato",
+      "ppp.acc.sg.masc": "calatum",
+      "ppp.acc.sg.fem": "calatam",
+      "ppp.acc.sg.neut": "calatum",
+      "ppp.abl.sg.masc": "calato",
+      "ppp.abl.sg.fem": "calata",
+      "ppp.abl.sg.neut": "calato",
+      "ppp.voc.sg.masc": "calate",
+      "ppp.voc.sg.fem": "calata",
+      "ppp.voc.sg.neut": "calatum",
+      "ppp.nom.pl.masc": "calati",
+      "ppp.nom.pl.fem": "calatae",
+      "ppp.nom.pl.neut": "calata",
+      "ppp.gen.pl.masc": "calatorum",
+      "ppp.gen.pl.fem": "calatarum",
+      "ppp.gen.pl.neut": "calatorum",
+      "ppp.dat.pl.masc": "calatis",
+      "ppp.dat.pl.fem": "calatis",
+      "ppp.dat.pl.neut": "calatis",
+      "ppp.acc.pl.masc": "calatos",
+      "ppp.acc.pl.fem": "calatas",
+      "ppp.acc.pl.neut": "calata",
+      "ppp.abl.pl.masc": "calatis",
+      "ppp.abl.pl.fem": "calatis",
+      "ppp.abl.pl.neut": "calatis",
+      "ppp.voc.pl.masc": "calati",
+      "ppp.voc.pl.fem": "calatae",
+      "ppp.voc.pl.neut": "calata"
+    }
   }
 }

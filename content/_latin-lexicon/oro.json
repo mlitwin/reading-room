@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "ora",
       "2pl.pres.imp.act": "orate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: oratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "oratus",
+      "ppp.nom.sg.fem": "orata",
+      "ppp.nom.sg.neut": "oratum",
+      "ppp.gen.sg.masc": "orati",
+      "ppp.gen.sg.fem": "oratae",
+      "ppp.gen.sg.neut": "orati",
+      "ppp.dat.sg.masc": "orato",
+      "ppp.dat.sg.fem": "oratae",
+      "ppp.dat.sg.neut": "orato",
+      "ppp.acc.sg.masc": "oratum",
+      "ppp.acc.sg.fem": "oratam",
+      "ppp.acc.sg.neut": "oratum",
+      "ppp.abl.sg.masc": "orato",
+      "ppp.abl.sg.fem": "orata",
+      "ppp.abl.sg.neut": "orato",
+      "ppp.voc.sg.masc": "orate",
+      "ppp.voc.sg.fem": "orata",
+      "ppp.voc.sg.neut": "oratum",
+      "ppp.nom.pl.masc": "orati",
+      "ppp.nom.pl.fem": "oratae",
+      "ppp.nom.pl.neut": "orata",
+      "ppp.gen.pl.masc": "oratorum",
+      "ppp.gen.pl.fem": "oratarum",
+      "ppp.gen.pl.neut": "oratorum",
+      "ppp.dat.pl.masc": "oratis",
+      "ppp.dat.pl.fem": "oratis",
+      "ppp.dat.pl.neut": "oratis",
+      "ppp.acc.pl.masc": "oratos",
+      "ppp.acc.pl.fem": "oratas",
+      "ppp.acc.pl.neut": "orata",
+      "ppp.abl.pl.masc": "oratis",
+      "ppp.abl.pl.fem": "oratis",
+      "ppp.abl.pl.neut": "oratis",
+      "ppp.voc.pl.masc": "orati",
+      "ppp.voc.pl.fem": "oratae",
+      "ppp.voc.pl.neut": "orata"
+    }
   }
 }

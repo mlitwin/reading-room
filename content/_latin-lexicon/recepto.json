@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "recepta",
       "2pl.pres.imp.act": "receptate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: receptatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "receptatus",
+      "ppp.nom.sg.fem": "receptata",
+      "ppp.nom.sg.neut": "receptatum",
+      "ppp.gen.sg.masc": "receptati",
+      "ppp.gen.sg.fem": "receptatae",
+      "ppp.gen.sg.neut": "receptati",
+      "ppp.dat.sg.masc": "receptato",
+      "ppp.dat.sg.fem": "receptatae",
+      "ppp.dat.sg.neut": "receptato",
+      "ppp.acc.sg.masc": "receptatum",
+      "ppp.acc.sg.fem": "receptatam",
+      "ppp.acc.sg.neut": "receptatum",
+      "ppp.abl.sg.masc": "receptato",
+      "ppp.abl.sg.fem": "receptata",
+      "ppp.abl.sg.neut": "receptato",
+      "ppp.voc.sg.masc": "receptate",
+      "ppp.voc.sg.fem": "receptata",
+      "ppp.voc.sg.neut": "receptatum",
+      "ppp.nom.pl.masc": "receptati",
+      "ppp.nom.pl.fem": "receptatae",
+      "ppp.nom.pl.neut": "receptata",
+      "ppp.gen.pl.masc": "receptatorum",
+      "ppp.gen.pl.fem": "receptatarum",
+      "ppp.gen.pl.neut": "receptatorum",
+      "ppp.dat.pl.masc": "receptatis",
+      "ppp.dat.pl.fem": "receptatis",
+      "ppp.dat.pl.neut": "receptatis",
+      "ppp.acc.pl.masc": "receptatos",
+      "ppp.acc.pl.fem": "receptatas",
+      "ppp.acc.pl.neut": "receptata",
+      "ppp.abl.pl.masc": "receptatis",
+      "ppp.abl.pl.fem": "receptatis",
+      "ppp.abl.pl.neut": "receptatis",
+      "ppp.voc.pl.masc": "receptati",
+      "ppp.voc.pl.fem": "receptatae",
+      "ppp.voc.pl.neut": "receptata"
+    }
   }
 }

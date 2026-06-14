@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "seduce",
       "2pl.pres.imp.act": "seducite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: seductus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "seductus",
+      "ppp.nom.sg.fem": "seducta",
+      "ppp.nom.sg.neut": "seductum",
+      "ppp.gen.sg.masc": "seducti",
+      "ppp.gen.sg.fem": "seductae",
+      "ppp.gen.sg.neut": "seducti",
+      "ppp.dat.sg.masc": "seducto",
+      "ppp.dat.sg.fem": "seductae",
+      "ppp.dat.sg.neut": "seducto",
+      "ppp.acc.sg.masc": "seductum",
+      "ppp.acc.sg.fem": "seductam",
+      "ppp.acc.sg.neut": "seductum",
+      "ppp.abl.sg.masc": "seducto",
+      "ppp.abl.sg.fem": "seducta",
+      "ppp.abl.sg.neut": "seducto",
+      "ppp.voc.sg.masc": "seducte",
+      "ppp.voc.sg.fem": "seducta",
+      "ppp.voc.sg.neut": "seductum",
+      "ppp.nom.pl.masc": "seducti",
+      "ppp.nom.pl.fem": "seductae",
+      "ppp.nom.pl.neut": "seducta",
+      "ppp.gen.pl.masc": "seductorum",
+      "ppp.gen.pl.fem": "seductarum",
+      "ppp.gen.pl.neut": "seductorum",
+      "ppp.dat.pl.masc": "seductis",
+      "ppp.dat.pl.fem": "seductis",
+      "ppp.dat.pl.neut": "seductis",
+      "ppp.acc.pl.masc": "seductos",
+      "ppp.acc.pl.fem": "seductas",
+      "ppp.acc.pl.neut": "seducta",
+      "ppp.abl.pl.masc": "seductis",
+      "ppp.abl.pl.fem": "seductis",
+      "ppp.abl.pl.neut": "seductis",
+      "ppp.voc.pl.masc": "seducti",
+      "ppp.voc.pl.fem": "seductae",
+      "ppp.voc.pl.neut": "seducta"
+    }
   }
 }

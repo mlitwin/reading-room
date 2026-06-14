@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "lassa",
       "2pl.pres.imp.act": "lassate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: lassatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "lassatus",
+      "ppp.nom.sg.fem": "lassata",
+      "ppp.nom.sg.neut": "lassatum",
+      "ppp.gen.sg.masc": "lassati",
+      "ppp.gen.sg.fem": "lassatae",
+      "ppp.gen.sg.neut": "lassati",
+      "ppp.dat.sg.masc": "lassato",
+      "ppp.dat.sg.fem": "lassatae",
+      "ppp.dat.sg.neut": "lassato",
+      "ppp.acc.sg.masc": "lassatum",
+      "ppp.acc.sg.fem": "lassatam",
+      "ppp.acc.sg.neut": "lassatum",
+      "ppp.abl.sg.masc": "lassato",
+      "ppp.abl.sg.fem": "lassata",
+      "ppp.abl.sg.neut": "lassato",
+      "ppp.voc.sg.masc": "lassate",
+      "ppp.voc.sg.fem": "lassata",
+      "ppp.voc.sg.neut": "lassatum",
+      "ppp.nom.pl.masc": "lassati",
+      "ppp.nom.pl.fem": "lassatae",
+      "ppp.nom.pl.neut": "lassata",
+      "ppp.gen.pl.masc": "lassatorum",
+      "ppp.gen.pl.fem": "lassatarum",
+      "ppp.gen.pl.neut": "lassatorum",
+      "ppp.dat.pl.masc": "lassatis",
+      "ppp.dat.pl.fem": "lassatis",
+      "ppp.dat.pl.neut": "lassatis",
+      "ppp.acc.pl.masc": "lassatos",
+      "ppp.acc.pl.fem": "lassatas",
+      "ppp.acc.pl.neut": "lassata",
+      "ppp.abl.pl.masc": "lassatis",
+      "ppp.abl.pl.fem": "lassatis",
+      "ppp.abl.pl.neut": "lassatis",
+      "ppp.voc.pl.masc": "lassati",
+      "ppp.voc.pl.fem": "lassatae",
+      "ppp.voc.pl.neut": "lassata"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "lice",
       "2pl.pres.imp.act": "licete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: licitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "licitus",
+      "ppp.nom.sg.fem": "licita",
+      "ppp.nom.sg.neut": "licitum",
+      "ppp.gen.sg.masc": "liciti",
+      "ppp.gen.sg.fem": "licitae",
+      "ppp.gen.sg.neut": "liciti",
+      "ppp.dat.sg.masc": "licito",
+      "ppp.dat.sg.fem": "licitae",
+      "ppp.dat.sg.neut": "licito",
+      "ppp.acc.sg.masc": "licitum",
+      "ppp.acc.sg.fem": "licitam",
+      "ppp.acc.sg.neut": "licitum",
+      "ppp.abl.sg.masc": "licito",
+      "ppp.abl.sg.fem": "licita",
+      "ppp.abl.sg.neut": "licito",
+      "ppp.voc.sg.masc": "licite",
+      "ppp.voc.sg.fem": "licita",
+      "ppp.voc.sg.neut": "licitum",
+      "ppp.nom.pl.masc": "liciti",
+      "ppp.nom.pl.fem": "licitae",
+      "ppp.nom.pl.neut": "licita",
+      "ppp.gen.pl.masc": "licitorum",
+      "ppp.gen.pl.fem": "licitarum",
+      "ppp.gen.pl.neut": "licitorum",
+      "ppp.dat.pl.masc": "licitis",
+      "ppp.dat.pl.fem": "licitis",
+      "ppp.dat.pl.neut": "licitis",
+      "ppp.acc.pl.masc": "licitos",
+      "ppp.acc.pl.fem": "licitas",
+      "ppp.acc.pl.neut": "licita",
+      "ppp.abl.pl.masc": "licitis",
+      "ppp.abl.pl.fem": "licitis",
+      "ppp.abl.pl.neut": "licitis",
+      "ppp.voc.pl.masc": "liciti",
+      "ppp.voc.pl.fem": "licitae",
+      "ppp.voc.pl.neut": "licita"
+    }
   }
 }

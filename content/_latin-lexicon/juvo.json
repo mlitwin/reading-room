@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "juva",
       "2pl.pres.imp.act": "juvate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: jutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "jutus",
+      "ppp.nom.sg.fem": "juta",
+      "ppp.nom.sg.neut": "jutum",
+      "ppp.gen.sg.masc": "juti",
+      "ppp.gen.sg.fem": "jutae",
+      "ppp.gen.sg.neut": "juti",
+      "ppp.dat.sg.masc": "juto",
+      "ppp.dat.sg.fem": "jutae",
+      "ppp.dat.sg.neut": "juto",
+      "ppp.acc.sg.masc": "jutum",
+      "ppp.acc.sg.fem": "jutam",
+      "ppp.acc.sg.neut": "jutum",
+      "ppp.abl.sg.masc": "juto",
+      "ppp.abl.sg.fem": "juta",
+      "ppp.abl.sg.neut": "juto",
+      "ppp.voc.sg.masc": "jute",
+      "ppp.voc.sg.fem": "juta",
+      "ppp.voc.sg.neut": "jutum",
+      "ppp.nom.pl.masc": "juti",
+      "ppp.nom.pl.fem": "jutae",
+      "ppp.nom.pl.neut": "juta",
+      "ppp.gen.pl.masc": "jutorum",
+      "ppp.gen.pl.fem": "jutarum",
+      "ppp.gen.pl.neut": "jutorum",
+      "ppp.dat.pl.masc": "jutis",
+      "ppp.dat.pl.fem": "jutis",
+      "ppp.dat.pl.neut": "jutis",
+      "ppp.acc.pl.masc": "jutos",
+      "ppp.acc.pl.fem": "jutas",
+      "ppp.acc.pl.neut": "juta",
+      "ppp.abl.pl.masc": "jutis",
+      "ppp.abl.pl.fem": "jutis",
+      "ppp.abl.pl.neut": "jutis",
+      "ppp.voc.pl.masc": "juti",
+      "ppp.voc.pl.fem": "jutae",
+      "ppp.voc.pl.neut": "juta"
+    }
   }
 }

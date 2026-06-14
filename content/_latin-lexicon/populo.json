@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "popula",
       "2pl.pres.imp.act": "populate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: populatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "populatus",
+      "ppp.nom.sg.fem": "populata",
+      "ppp.nom.sg.neut": "populatum",
+      "ppp.gen.sg.masc": "populati",
+      "ppp.gen.sg.fem": "populatae",
+      "ppp.gen.sg.neut": "populati",
+      "ppp.dat.sg.masc": "populato",
+      "ppp.dat.sg.fem": "populatae",
+      "ppp.dat.sg.neut": "populato",
+      "ppp.acc.sg.masc": "populatum",
+      "ppp.acc.sg.fem": "populatam",
+      "ppp.acc.sg.neut": "populatum",
+      "ppp.abl.sg.masc": "populato",
+      "ppp.abl.sg.fem": "populata",
+      "ppp.abl.sg.neut": "populato",
+      "ppp.voc.sg.masc": "populate",
+      "ppp.voc.sg.fem": "populata",
+      "ppp.voc.sg.neut": "populatum",
+      "ppp.nom.pl.masc": "populati",
+      "ppp.nom.pl.fem": "populatae",
+      "ppp.nom.pl.neut": "populata",
+      "ppp.gen.pl.masc": "populatorum",
+      "ppp.gen.pl.fem": "populatarum",
+      "ppp.gen.pl.neut": "populatorum",
+      "ppp.dat.pl.masc": "populatis",
+      "ppp.dat.pl.fem": "populatis",
+      "ppp.dat.pl.neut": "populatis",
+      "ppp.acc.pl.masc": "populatos",
+      "ppp.acc.pl.fem": "populatas",
+      "ppp.acc.pl.neut": "populata",
+      "ppp.abl.pl.masc": "populatis",
+      "ppp.abl.pl.fem": "populatis",
+      "ppp.abl.pl.neut": "populatis",
+      "ppp.voc.pl.masc": "populati",
+      "ppp.voc.pl.fem": "populatae",
+      "ppp.voc.pl.neut": "populata"
+    }
   }
 }

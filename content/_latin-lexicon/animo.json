@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "anima",
       "2pl.pres.imp.act": "animate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: animatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "animatus",
+      "ppp.nom.sg.fem": "animata",
+      "ppp.nom.sg.neut": "animatum",
+      "ppp.gen.sg.masc": "animati",
+      "ppp.gen.sg.fem": "animatae",
+      "ppp.gen.sg.neut": "animati",
+      "ppp.dat.sg.masc": "animato",
+      "ppp.dat.sg.fem": "animatae",
+      "ppp.dat.sg.neut": "animato",
+      "ppp.acc.sg.masc": "animatum",
+      "ppp.acc.sg.fem": "animatam",
+      "ppp.acc.sg.neut": "animatum",
+      "ppp.abl.sg.masc": "animato",
+      "ppp.abl.sg.fem": "animata",
+      "ppp.abl.sg.neut": "animato",
+      "ppp.voc.sg.masc": "animate",
+      "ppp.voc.sg.fem": "animata",
+      "ppp.voc.sg.neut": "animatum",
+      "ppp.nom.pl.masc": "animati",
+      "ppp.nom.pl.fem": "animatae",
+      "ppp.nom.pl.neut": "animata",
+      "ppp.gen.pl.masc": "animatorum",
+      "ppp.gen.pl.fem": "animatarum",
+      "ppp.gen.pl.neut": "animatorum",
+      "ppp.dat.pl.masc": "animatis",
+      "ppp.dat.pl.fem": "animatis",
+      "ppp.dat.pl.neut": "animatis",
+      "ppp.acc.pl.masc": "animatos",
+      "ppp.acc.pl.fem": "animatas",
+      "ppp.acc.pl.neut": "animata",
+      "ppp.abl.pl.masc": "animatis",
+      "ppp.abl.pl.fem": "animatis",
+      "ppp.abl.pl.neut": "animatis",
+      "ppp.voc.pl.masc": "animati",
+      "ppp.voc.pl.fem": "animatae",
+      "ppp.voc.pl.neut": "animata"
+    }
   }
 }

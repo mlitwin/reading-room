@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "cinge",
       "2pl.pres.imp.act": "cingite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cinctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cinctus",
+      "ppp.nom.sg.fem": "cincta",
+      "ppp.nom.sg.neut": "cinctum",
+      "ppp.gen.sg.masc": "cincti",
+      "ppp.gen.sg.fem": "cinctae",
+      "ppp.gen.sg.neut": "cincti",
+      "ppp.dat.sg.masc": "cincto",
+      "ppp.dat.sg.fem": "cinctae",
+      "ppp.dat.sg.neut": "cincto",
+      "ppp.acc.sg.masc": "cinctum",
+      "ppp.acc.sg.fem": "cinctam",
+      "ppp.acc.sg.neut": "cinctum",
+      "ppp.abl.sg.masc": "cincto",
+      "ppp.abl.sg.fem": "cincta",
+      "ppp.abl.sg.neut": "cincto",
+      "ppp.voc.sg.masc": "cincte",
+      "ppp.voc.sg.fem": "cincta",
+      "ppp.voc.sg.neut": "cinctum",
+      "ppp.nom.pl.masc": "cincti",
+      "ppp.nom.pl.fem": "cinctae",
+      "ppp.nom.pl.neut": "cincta",
+      "ppp.gen.pl.masc": "cinctorum",
+      "ppp.gen.pl.fem": "cinctarum",
+      "ppp.gen.pl.neut": "cinctorum",
+      "ppp.dat.pl.masc": "cinctis",
+      "ppp.dat.pl.fem": "cinctis",
+      "ppp.dat.pl.neut": "cinctis",
+      "ppp.acc.pl.masc": "cinctos",
+      "ppp.acc.pl.fem": "cinctas",
+      "ppp.acc.pl.neut": "cincta",
+      "ppp.abl.pl.masc": "cinctis",
+      "ppp.abl.pl.fem": "cinctis",
+      "ppp.abl.pl.neut": "cinctis",
+      "ppp.voc.pl.masc": "cincti",
+      "ppp.voc.pl.fem": "cinctae",
+      "ppp.voc.pl.neut": "cincta"
+    }
   }
 }

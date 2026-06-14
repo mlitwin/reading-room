@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "dona",
       "2pl.pres.imp.act": "donate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: donatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "donatus",
+      "ppp.nom.sg.fem": "donata",
+      "ppp.nom.sg.neut": "donatum",
+      "ppp.gen.sg.masc": "donati",
+      "ppp.gen.sg.fem": "donatae",
+      "ppp.gen.sg.neut": "donati",
+      "ppp.dat.sg.masc": "donato",
+      "ppp.dat.sg.fem": "donatae",
+      "ppp.dat.sg.neut": "donato",
+      "ppp.acc.sg.masc": "donatum",
+      "ppp.acc.sg.fem": "donatam",
+      "ppp.acc.sg.neut": "donatum",
+      "ppp.abl.sg.masc": "donato",
+      "ppp.abl.sg.fem": "donata",
+      "ppp.abl.sg.neut": "donato",
+      "ppp.voc.sg.masc": "donate",
+      "ppp.voc.sg.fem": "donata",
+      "ppp.voc.sg.neut": "donatum",
+      "ppp.nom.pl.masc": "donati",
+      "ppp.nom.pl.fem": "donatae",
+      "ppp.nom.pl.neut": "donata",
+      "ppp.gen.pl.masc": "donatorum",
+      "ppp.gen.pl.fem": "donatarum",
+      "ppp.gen.pl.neut": "donatorum",
+      "ppp.dat.pl.masc": "donatis",
+      "ppp.dat.pl.fem": "donatis",
+      "ppp.dat.pl.neut": "donatis",
+      "ppp.acc.pl.masc": "donatos",
+      "ppp.acc.pl.fem": "donatas",
+      "ppp.acc.pl.neut": "donata",
+      "ppp.abl.pl.masc": "donatis",
+      "ppp.abl.pl.fem": "donatis",
+      "ppp.abl.pl.neut": "donatis",
+      "ppp.voc.pl.masc": "donati",
+      "ppp.voc.pl.fem": "donatae",
+      "ppp.voc.pl.neut": "donata"
+    }
   }
 }

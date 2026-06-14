@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "vigila",
       "2pl.pres.imp.act": "vigilate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vigilatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vigilatus",
+      "ppp.nom.sg.fem": "vigilata",
+      "ppp.nom.sg.neut": "vigilatum",
+      "ppp.gen.sg.masc": "vigilati",
+      "ppp.gen.sg.fem": "vigilatae",
+      "ppp.gen.sg.neut": "vigilati",
+      "ppp.dat.sg.masc": "vigilato",
+      "ppp.dat.sg.fem": "vigilatae",
+      "ppp.dat.sg.neut": "vigilato",
+      "ppp.acc.sg.masc": "vigilatum",
+      "ppp.acc.sg.fem": "vigilatam",
+      "ppp.acc.sg.neut": "vigilatum",
+      "ppp.abl.sg.masc": "vigilato",
+      "ppp.abl.sg.fem": "vigilata",
+      "ppp.abl.sg.neut": "vigilato",
+      "ppp.voc.sg.masc": "vigilate",
+      "ppp.voc.sg.fem": "vigilata",
+      "ppp.voc.sg.neut": "vigilatum",
+      "ppp.nom.pl.masc": "vigilati",
+      "ppp.nom.pl.fem": "vigilatae",
+      "ppp.nom.pl.neut": "vigilata",
+      "ppp.gen.pl.masc": "vigilatorum",
+      "ppp.gen.pl.fem": "vigilatarum",
+      "ppp.gen.pl.neut": "vigilatorum",
+      "ppp.dat.pl.masc": "vigilatis",
+      "ppp.dat.pl.fem": "vigilatis",
+      "ppp.dat.pl.neut": "vigilatis",
+      "ppp.acc.pl.masc": "vigilatos",
+      "ppp.acc.pl.fem": "vigilatas",
+      "ppp.acc.pl.neut": "vigilata",
+      "ppp.abl.pl.masc": "vigilatis",
+      "ppp.abl.pl.fem": "vigilatis",
+      "ppp.abl.pl.neut": "vigilatis",
+      "ppp.voc.pl.masc": "vigilati",
+      "ppp.voc.pl.fem": "vigilatae",
+      "ppp.voc.pl.neut": "vigilata"
+    }
   }
 }

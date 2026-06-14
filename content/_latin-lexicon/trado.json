@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "trade",
       "2pl.pres.imp.act": "tradite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: traditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "traditus",
+      "ppp.nom.sg.fem": "tradita",
+      "ppp.nom.sg.neut": "traditum",
+      "ppp.gen.sg.masc": "traditi",
+      "ppp.gen.sg.fem": "traditae",
+      "ppp.gen.sg.neut": "traditi",
+      "ppp.dat.sg.masc": "tradito",
+      "ppp.dat.sg.fem": "traditae",
+      "ppp.dat.sg.neut": "tradito",
+      "ppp.acc.sg.masc": "traditum",
+      "ppp.acc.sg.fem": "traditam",
+      "ppp.acc.sg.neut": "traditum",
+      "ppp.abl.sg.masc": "tradito",
+      "ppp.abl.sg.fem": "tradita",
+      "ppp.abl.sg.neut": "tradito",
+      "ppp.voc.sg.masc": "tradite",
+      "ppp.voc.sg.fem": "tradita",
+      "ppp.voc.sg.neut": "traditum",
+      "ppp.nom.pl.masc": "traditi",
+      "ppp.nom.pl.fem": "traditae",
+      "ppp.nom.pl.neut": "tradita",
+      "ppp.gen.pl.masc": "traditorum",
+      "ppp.gen.pl.fem": "traditarum",
+      "ppp.gen.pl.neut": "traditorum",
+      "ppp.dat.pl.masc": "traditis",
+      "ppp.dat.pl.fem": "traditis",
+      "ppp.dat.pl.neut": "traditis",
+      "ppp.acc.pl.masc": "traditos",
+      "ppp.acc.pl.fem": "traditas",
+      "ppp.acc.pl.neut": "tradita",
+      "ppp.abl.pl.masc": "traditis",
+      "ppp.abl.pl.fem": "traditis",
+      "ppp.abl.pl.neut": "traditis",
+      "ppp.voc.pl.masc": "traditi",
+      "ppp.voc.pl.fem": "traditae",
+      "ppp.voc.pl.neut": "tradita"
+    }
   }
 }

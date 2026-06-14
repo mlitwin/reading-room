@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "averte",
       "2pl.pres.imp.act": "avertite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: aversus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "aversus",
+      "ppp.nom.sg.fem": "aversa",
+      "ppp.nom.sg.neut": "aversum",
+      "ppp.gen.sg.masc": "aversi",
+      "ppp.gen.sg.fem": "aversae",
+      "ppp.gen.sg.neut": "aversi",
+      "ppp.dat.sg.masc": "averso",
+      "ppp.dat.sg.fem": "aversae",
+      "ppp.dat.sg.neut": "averso",
+      "ppp.acc.sg.masc": "aversum",
+      "ppp.acc.sg.fem": "aversam",
+      "ppp.acc.sg.neut": "aversum",
+      "ppp.abl.sg.masc": "averso",
+      "ppp.abl.sg.fem": "aversa",
+      "ppp.abl.sg.neut": "averso",
+      "ppp.voc.sg.masc": "averse",
+      "ppp.voc.sg.fem": "aversa",
+      "ppp.voc.sg.neut": "aversum",
+      "ppp.nom.pl.masc": "aversi",
+      "ppp.nom.pl.fem": "aversae",
+      "ppp.nom.pl.neut": "aversa",
+      "ppp.gen.pl.masc": "aversorum",
+      "ppp.gen.pl.fem": "aversarum",
+      "ppp.gen.pl.neut": "aversorum",
+      "ppp.dat.pl.masc": "aversis",
+      "ppp.dat.pl.fem": "aversis",
+      "ppp.dat.pl.neut": "aversis",
+      "ppp.acc.pl.masc": "aversos",
+      "ppp.acc.pl.fem": "aversas",
+      "ppp.acc.pl.neut": "aversa",
+      "ppp.abl.pl.masc": "aversis",
+      "ppp.abl.pl.fem": "aversis",
+      "ppp.abl.pl.neut": "aversis",
+      "ppp.voc.pl.masc": "aversi",
+      "ppp.voc.pl.fem": "aversae",
+      "ppp.voc.pl.neut": "aversa"
+    }
   }
 }

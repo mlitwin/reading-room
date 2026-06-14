@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "crede",
       "2pl.pres.imp.act": "credite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: creditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "creditus",
+      "ppp.nom.sg.fem": "credita",
+      "ppp.nom.sg.neut": "creditum",
+      "ppp.gen.sg.masc": "crediti",
+      "ppp.gen.sg.fem": "creditae",
+      "ppp.gen.sg.neut": "crediti",
+      "ppp.dat.sg.masc": "credito",
+      "ppp.dat.sg.fem": "creditae",
+      "ppp.dat.sg.neut": "credito",
+      "ppp.acc.sg.masc": "creditum",
+      "ppp.acc.sg.fem": "creditam",
+      "ppp.acc.sg.neut": "creditum",
+      "ppp.abl.sg.masc": "credito",
+      "ppp.abl.sg.fem": "credita",
+      "ppp.abl.sg.neut": "credito",
+      "ppp.voc.sg.masc": "credite",
+      "ppp.voc.sg.fem": "credita",
+      "ppp.voc.sg.neut": "creditum",
+      "ppp.nom.pl.masc": "crediti",
+      "ppp.nom.pl.fem": "creditae",
+      "ppp.nom.pl.neut": "credita",
+      "ppp.gen.pl.masc": "creditorum",
+      "ppp.gen.pl.fem": "creditarum",
+      "ppp.gen.pl.neut": "creditorum",
+      "ppp.dat.pl.masc": "creditis",
+      "ppp.dat.pl.fem": "creditis",
+      "ppp.dat.pl.neut": "creditis",
+      "ppp.acc.pl.masc": "creditos",
+      "ppp.acc.pl.fem": "creditas",
+      "ppp.acc.pl.neut": "credita",
+      "ppp.abl.pl.masc": "creditis",
+      "ppp.abl.pl.fem": "creditis",
+      "ppp.abl.pl.neut": "creditis",
+      "ppp.voc.pl.masc": "crediti",
+      "ppp.voc.pl.fem": "creditae",
+      "ppp.voc.pl.neut": "credita"
+    }
   }
 }

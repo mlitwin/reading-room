@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "praeclude",
       "2pl.pres.imp.act": "praecludite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: praeclusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "praeclusus",
+      "ppp.nom.sg.fem": "praeclusa",
+      "ppp.nom.sg.neut": "praeclusum",
+      "ppp.gen.sg.masc": "praeclusi",
+      "ppp.gen.sg.fem": "praeclusae",
+      "ppp.gen.sg.neut": "praeclusi",
+      "ppp.dat.sg.masc": "praecluso",
+      "ppp.dat.sg.fem": "praeclusae",
+      "ppp.dat.sg.neut": "praecluso",
+      "ppp.acc.sg.masc": "praeclusum",
+      "ppp.acc.sg.fem": "praeclusam",
+      "ppp.acc.sg.neut": "praeclusum",
+      "ppp.abl.sg.masc": "praecluso",
+      "ppp.abl.sg.fem": "praeclusa",
+      "ppp.abl.sg.neut": "praecluso",
+      "ppp.voc.sg.masc": "praecluse",
+      "ppp.voc.sg.fem": "praeclusa",
+      "ppp.voc.sg.neut": "praeclusum",
+      "ppp.nom.pl.masc": "praeclusi",
+      "ppp.nom.pl.fem": "praeclusae",
+      "ppp.nom.pl.neut": "praeclusa",
+      "ppp.gen.pl.masc": "praeclusorum",
+      "ppp.gen.pl.fem": "praeclusarum",
+      "ppp.gen.pl.neut": "praeclusorum",
+      "ppp.dat.pl.masc": "praeclusis",
+      "ppp.dat.pl.fem": "praeclusis",
+      "ppp.dat.pl.neut": "praeclusis",
+      "ppp.acc.pl.masc": "praeclusos",
+      "ppp.acc.pl.fem": "praeclusas",
+      "ppp.acc.pl.neut": "praeclusa",
+      "ppp.abl.pl.masc": "praeclusis",
+      "ppp.abl.pl.fem": "praeclusis",
+      "ppp.abl.pl.neut": "praeclusis",
+      "ppp.voc.pl.masc": "praeclusi",
+      "ppp.voc.pl.fem": "praeclusae",
+      "ppp.voc.pl.neut": "praeclusa"
+    }
   }
 }

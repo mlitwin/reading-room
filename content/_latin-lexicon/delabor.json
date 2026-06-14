@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "delabe",
       "2pl.pres.imp.act": "delabite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: delapsus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "delapsus",
+      "ppp.nom.sg.fem": "delapsa",
+      "ppp.nom.sg.neut": "delapsum",
+      "ppp.gen.sg.masc": "delapsi",
+      "ppp.gen.sg.fem": "delapsae",
+      "ppp.gen.sg.neut": "delapsi",
+      "ppp.dat.sg.masc": "delapso",
+      "ppp.dat.sg.fem": "delapsae",
+      "ppp.dat.sg.neut": "delapso",
+      "ppp.acc.sg.masc": "delapsum",
+      "ppp.acc.sg.fem": "delapsam",
+      "ppp.acc.sg.neut": "delapsum",
+      "ppp.abl.sg.masc": "delapso",
+      "ppp.abl.sg.fem": "delapsa",
+      "ppp.abl.sg.neut": "delapso",
+      "ppp.voc.sg.masc": "delapse",
+      "ppp.voc.sg.fem": "delapsa",
+      "ppp.voc.sg.neut": "delapsum",
+      "ppp.nom.pl.masc": "delapsi",
+      "ppp.nom.pl.fem": "delapsae",
+      "ppp.nom.pl.neut": "delapsa",
+      "ppp.gen.pl.masc": "delapsorum",
+      "ppp.gen.pl.fem": "delapsarum",
+      "ppp.gen.pl.neut": "delapsorum",
+      "ppp.dat.pl.masc": "delapsis",
+      "ppp.dat.pl.fem": "delapsis",
+      "ppp.dat.pl.neut": "delapsis",
+      "ppp.acc.pl.masc": "delapsos",
+      "ppp.acc.pl.fem": "delapsas",
+      "ppp.acc.pl.neut": "delapsa",
+      "ppp.abl.pl.masc": "delapsis",
+      "ppp.abl.pl.fem": "delapsis",
+      "ppp.abl.pl.neut": "delapsis",
+      "ppp.voc.pl.masc": "delapsi",
+      "ppp.voc.pl.fem": "delapsae",
+      "ppp.voc.pl.neut": "delapsa"
+    }
   }
 }

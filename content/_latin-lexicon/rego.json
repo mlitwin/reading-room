@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "rege",
       "2pl.pres.imp.act": "regite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: rectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "rectus",
+      "ppp.nom.sg.fem": "recta",
+      "ppp.nom.sg.neut": "rectum",
+      "ppp.gen.sg.masc": "recti",
+      "ppp.gen.sg.fem": "rectae",
+      "ppp.gen.sg.neut": "recti",
+      "ppp.dat.sg.masc": "recto",
+      "ppp.dat.sg.fem": "rectae",
+      "ppp.dat.sg.neut": "recto",
+      "ppp.acc.sg.masc": "rectum",
+      "ppp.acc.sg.fem": "rectam",
+      "ppp.acc.sg.neut": "rectum",
+      "ppp.abl.sg.masc": "recto",
+      "ppp.abl.sg.fem": "recta",
+      "ppp.abl.sg.neut": "recto",
+      "ppp.voc.sg.masc": "recte",
+      "ppp.voc.sg.fem": "recta",
+      "ppp.voc.sg.neut": "rectum",
+      "ppp.nom.pl.masc": "recti",
+      "ppp.nom.pl.fem": "rectae",
+      "ppp.nom.pl.neut": "recta",
+      "ppp.gen.pl.masc": "rectorum",
+      "ppp.gen.pl.fem": "rectarum",
+      "ppp.gen.pl.neut": "rectorum",
+      "ppp.dat.pl.masc": "rectis",
+      "ppp.dat.pl.fem": "rectis",
+      "ppp.dat.pl.neut": "rectis",
+      "ppp.acc.pl.masc": "rectos",
+      "ppp.acc.pl.fem": "rectas",
+      "ppp.acc.pl.neut": "recta",
+      "ppp.abl.pl.masc": "rectis",
+      "ppp.abl.pl.fem": "rectis",
+      "ppp.abl.pl.neut": "rectis",
+      "ppp.voc.pl.masc": "recti",
+      "ppp.voc.pl.fem": "rectae",
+      "ppp.voc.pl.neut": "recta"
+    }
   }
 }

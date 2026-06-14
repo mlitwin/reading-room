@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "mira",
       "2pl.pres.imp.act": "mirate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: miratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "miratus",
+      "ppp.nom.sg.fem": "mirata",
+      "ppp.nom.sg.neut": "miratum",
+      "ppp.gen.sg.masc": "mirati",
+      "ppp.gen.sg.fem": "miratae",
+      "ppp.gen.sg.neut": "mirati",
+      "ppp.dat.sg.masc": "mirato",
+      "ppp.dat.sg.fem": "miratae",
+      "ppp.dat.sg.neut": "mirato",
+      "ppp.acc.sg.masc": "miratum",
+      "ppp.acc.sg.fem": "miratam",
+      "ppp.acc.sg.neut": "miratum",
+      "ppp.abl.sg.masc": "mirato",
+      "ppp.abl.sg.fem": "mirata",
+      "ppp.abl.sg.neut": "mirato",
+      "ppp.voc.sg.masc": "mirate",
+      "ppp.voc.sg.fem": "mirata",
+      "ppp.voc.sg.neut": "miratum",
+      "ppp.nom.pl.masc": "mirati",
+      "ppp.nom.pl.fem": "miratae",
+      "ppp.nom.pl.neut": "mirata",
+      "ppp.gen.pl.masc": "miratorum",
+      "ppp.gen.pl.fem": "miratarum",
+      "ppp.gen.pl.neut": "miratorum",
+      "ppp.dat.pl.masc": "miratis",
+      "ppp.dat.pl.fem": "miratis",
+      "ppp.dat.pl.neut": "miratis",
+      "ppp.acc.pl.masc": "miratos",
+      "ppp.acc.pl.fem": "miratas",
+      "ppp.acc.pl.neut": "mirata",
+      "ppp.abl.pl.masc": "miratis",
+      "ppp.abl.pl.fem": "miratis",
+      "ppp.abl.pl.neut": "miratis",
+      "ppp.voc.pl.masc": "mirati",
+      "ppp.voc.pl.fem": "miratae",
+      "ppp.voc.pl.neut": "mirata"
+    }
   }
 }

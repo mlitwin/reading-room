@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "vaga",
       "2pl.pres.imp.act": "vagate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vagatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vagatus",
+      "ppp.nom.sg.fem": "vagata",
+      "ppp.nom.sg.neut": "vagatum",
+      "ppp.gen.sg.masc": "vagati",
+      "ppp.gen.sg.fem": "vagatae",
+      "ppp.gen.sg.neut": "vagati",
+      "ppp.dat.sg.masc": "vagato",
+      "ppp.dat.sg.fem": "vagatae",
+      "ppp.dat.sg.neut": "vagato",
+      "ppp.acc.sg.masc": "vagatum",
+      "ppp.acc.sg.fem": "vagatam",
+      "ppp.acc.sg.neut": "vagatum",
+      "ppp.abl.sg.masc": "vagato",
+      "ppp.abl.sg.fem": "vagata",
+      "ppp.abl.sg.neut": "vagato",
+      "ppp.voc.sg.masc": "vagate",
+      "ppp.voc.sg.fem": "vagata",
+      "ppp.voc.sg.neut": "vagatum",
+      "ppp.nom.pl.masc": "vagati",
+      "ppp.nom.pl.fem": "vagatae",
+      "ppp.nom.pl.neut": "vagata",
+      "ppp.gen.pl.masc": "vagatorum",
+      "ppp.gen.pl.fem": "vagatarum",
+      "ppp.gen.pl.neut": "vagatorum",
+      "ppp.dat.pl.masc": "vagatis",
+      "ppp.dat.pl.fem": "vagatis",
+      "ppp.dat.pl.neut": "vagatis",
+      "ppp.acc.pl.masc": "vagatos",
+      "ppp.acc.pl.fem": "vagatas",
+      "ppp.acc.pl.neut": "vagata",
+      "ppp.abl.pl.masc": "vagatis",
+      "ppp.abl.pl.fem": "vagatis",
+      "ppp.abl.pl.neut": "vagatis",
+      "ppp.voc.pl.masc": "vagati",
+      "ppp.voc.pl.fem": "vagatae",
+      "ppp.voc.pl.neut": "vagata"
+    }
   }
 }

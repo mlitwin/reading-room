@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "dissocia",
       "2pl.pres.imp.act": "dissociate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dissociatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dissociatus",
+      "ppp.nom.sg.fem": "dissociata",
+      "ppp.nom.sg.neut": "dissociatum",
+      "ppp.gen.sg.masc": "dissociati",
+      "ppp.gen.sg.fem": "dissociatae",
+      "ppp.gen.sg.neut": "dissociati",
+      "ppp.dat.sg.masc": "dissociato",
+      "ppp.dat.sg.fem": "dissociatae",
+      "ppp.dat.sg.neut": "dissociato",
+      "ppp.acc.sg.masc": "dissociatum",
+      "ppp.acc.sg.fem": "dissociatam",
+      "ppp.acc.sg.neut": "dissociatum",
+      "ppp.abl.sg.masc": "dissociato",
+      "ppp.abl.sg.fem": "dissociata",
+      "ppp.abl.sg.neut": "dissociato",
+      "ppp.voc.sg.masc": "dissociate",
+      "ppp.voc.sg.fem": "dissociata",
+      "ppp.voc.sg.neut": "dissociatum",
+      "ppp.nom.pl.masc": "dissociati",
+      "ppp.nom.pl.fem": "dissociatae",
+      "ppp.nom.pl.neut": "dissociata",
+      "ppp.gen.pl.masc": "dissociatorum",
+      "ppp.gen.pl.fem": "dissociatarum",
+      "ppp.gen.pl.neut": "dissociatorum",
+      "ppp.dat.pl.masc": "dissociatis",
+      "ppp.dat.pl.fem": "dissociatis",
+      "ppp.dat.pl.neut": "dissociatis",
+      "ppp.acc.pl.masc": "dissociatos",
+      "ppp.acc.pl.fem": "dissociatas",
+      "ppp.acc.pl.neut": "dissociata",
+      "ppp.abl.pl.masc": "dissociatis",
+      "ppp.abl.pl.fem": "dissociatis",
+      "ppp.abl.pl.neut": "dissociatis",
+      "ppp.voc.pl.masc": "dissociati",
+      "ppp.voc.pl.fem": "dissociatae",
+      "ppp.voc.pl.neut": "dissociata"
+    }
   }
 }

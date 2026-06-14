@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "cresce",
       "2pl.pres.imp.act": "crescite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cretus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cretus",
+      "ppp.nom.sg.fem": "creta",
+      "ppp.nom.sg.neut": "cretum",
+      "ppp.gen.sg.masc": "creti",
+      "ppp.gen.sg.fem": "cretae",
+      "ppp.gen.sg.neut": "creti",
+      "ppp.dat.sg.masc": "creto",
+      "ppp.dat.sg.fem": "cretae",
+      "ppp.dat.sg.neut": "creto",
+      "ppp.acc.sg.masc": "cretum",
+      "ppp.acc.sg.fem": "cretam",
+      "ppp.acc.sg.neut": "cretum",
+      "ppp.abl.sg.masc": "creto",
+      "ppp.abl.sg.fem": "creta",
+      "ppp.abl.sg.neut": "creto",
+      "ppp.voc.sg.masc": "crete",
+      "ppp.voc.sg.fem": "creta",
+      "ppp.voc.sg.neut": "cretum",
+      "ppp.nom.pl.masc": "creti",
+      "ppp.nom.pl.fem": "cretae",
+      "ppp.nom.pl.neut": "creta",
+      "ppp.gen.pl.masc": "cretorum",
+      "ppp.gen.pl.fem": "cretarum",
+      "ppp.gen.pl.neut": "cretorum",
+      "ppp.dat.pl.masc": "cretis",
+      "ppp.dat.pl.fem": "cretis",
+      "ppp.dat.pl.neut": "cretis",
+      "ppp.acc.pl.masc": "cretos",
+      "ppp.acc.pl.fem": "cretas",
+      "ppp.acc.pl.neut": "creta",
+      "ppp.abl.pl.masc": "cretis",
+      "ppp.abl.pl.fem": "cretis",
+      "ppp.abl.pl.neut": "cretis",
+      "ppp.voc.pl.masc": "creti",
+      "ppp.voc.pl.fem": "cretae",
+      "ppp.voc.pl.neut": "creta"
+    }
   }
 }

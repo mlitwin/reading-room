@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "flue",
       "2pl.pres.imp.act": "fluite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fluxus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fluxus",
+      "ppp.nom.sg.fem": "fluxa",
+      "ppp.nom.sg.neut": "fluxum",
+      "ppp.gen.sg.masc": "fluxi",
+      "ppp.gen.sg.fem": "fluxae",
+      "ppp.gen.sg.neut": "fluxi",
+      "ppp.dat.sg.masc": "fluxo",
+      "ppp.dat.sg.fem": "fluxae",
+      "ppp.dat.sg.neut": "fluxo",
+      "ppp.acc.sg.masc": "fluxum",
+      "ppp.acc.sg.fem": "fluxam",
+      "ppp.acc.sg.neut": "fluxum",
+      "ppp.abl.sg.masc": "fluxo",
+      "ppp.abl.sg.fem": "fluxa",
+      "ppp.abl.sg.neut": "fluxo",
+      "ppp.voc.sg.masc": "fluxe",
+      "ppp.voc.sg.fem": "fluxa",
+      "ppp.voc.sg.neut": "fluxum",
+      "ppp.nom.pl.masc": "fluxi",
+      "ppp.nom.pl.fem": "fluxae",
+      "ppp.nom.pl.neut": "fluxa",
+      "ppp.gen.pl.masc": "fluxorum",
+      "ppp.gen.pl.fem": "fluxarum",
+      "ppp.gen.pl.neut": "fluxorum",
+      "ppp.dat.pl.masc": "fluxis",
+      "ppp.dat.pl.fem": "fluxis",
+      "ppp.dat.pl.neut": "fluxis",
+      "ppp.acc.pl.masc": "fluxos",
+      "ppp.acc.pl.fem": "fluxas",
+      "ppp.acc.pl.neut": "fluxa",
+      "ppp.abl.pl.masc": "fluxis",
+      "ppp.abl.pl.fem": "fluxis",
+      "ppp.abl.pl.neut": "fluxis",
+      "ppp.voc.pl.masc": "fluxi",
+      "ppp.voc.pl.fem": "fluxae",
+      "ppp.voc.pl.neut": "fluxa"
+    }
   }
 }

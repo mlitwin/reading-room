@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "age",
       "2pl.pres.imp.act": "agite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: actus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "actus",
+      "ppp.nom.sg.fem": "acta",
+      "ppp.nom.sg.neut": "actum",
+      "ppp.gen.sg.masc": "acti",
+      "ppp.gen.sg.fem": "actae",
+      "ppp.gen.sg.neut": "acti",
+      "ppp.dat.sg.masc": "acto",
+      "ppp.dat.sg.fem": "actae",
+      "ppp.dat.sg.neut": "acto",
+      "ppp.acc.sg.masc": "actum",
+      "ppp.acc.sg.fem": "actam",
+      "ppp.acc.sg.neut": "actum",
+      "ppp.abl.sg.masc": "acto",
+      "ppp.abl.sg.fem": "acta",
+      "ppp.abl.sg.neut": "acto",
+      "ppp.voc.sg.masc": "acte",
+      "ppp.voc.sg.fem": "acta",
+      "ppp.voc.sg.neut": "actum",
+      "ppp.nom.pl.masc": "acti",
+      "ppp.nom.pl.fem": "actae",
+      "ppp.nom.pl.neut": "acta",
+      "ppp.gen.pl.masc": "actorum",
+      "ppp.gen.pl.fem": "actarum",
+      "ppp.gen.pl.neut": "actorum",
+      "ppp.dat.pl.masc": "actis",
+      "ppp.dat.pl.fem": "actis",
+      "ppp.dat.pl.neut": "actis",
+      "ppp.acc.pl.masc": "actos",
+      "ppp.acc.pl.fem": "actas",
+      "ppp.acc.pl.neut": "acta",
+      "ppp.abl.pl.masc": "actis",
+      "ppp.abl.pl.fem": "actis",
+      "ppp.abl.pl.neut": "actis",
+      "ppp.voc.pl.masc": "acti",
+      "ppp.voc.pl.fem": "actae",
+      "ppp.voc.pl.neut": "acta"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "signa",
       "2pl.pres.imp.act": "signate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: signatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "signatus",
+      "ppp.nom.sg.fem": "signata",
+      "ppp.nom.sg.neut": "signatum",
+      "ppp.gen.sg.masc": "signati",
+      "ppp.gen.sg.fem": "signatae",
+      "ppp.gen.sg.neut": "signati",
+      "ppp.dat.sg.masc": "signato",
+      "ppp.dat.sg.fem": "signatae",
+      "ppp.dat.sg.neut": "signato",
+      "ppp.acc.sg.masc": "signatum",
+      "ppp.acc.sg.fem": "signatam",
+      "ppp.acc.sg.neut": "signatum",
+      "ppp.abl.sg.masc": "signato",
+      "ppp.abl.sg.fem": "signata",
+      "ppp.abl.sg.neut": "signato",
+      "ppp.voc.sg.masc": "signate",
+      "ppp.voc.sg.fem": "signata",
+      "ppp.voc.sg.neut": "signatum",
+      "ppp.nom.pl.masc": "signati",
+      "ppp.nom.pl.fem": "signatae",
+      "ppp.nom.pl.neut": "signata",
+      "ppp.gen.pl.masc": "signatorum",
+      "ppp.gen.pl.fem": "signatarum",
+      "ppp.gen.pl.neut": "signatorum",
+      "ppp.dat.pl.masc": "signatis",
+      "ppp.dat.pl.fem": "signatis",
+      "ppp.dat.pl.neut": "signatis",
+      "ppp.acc.pl.masc": "signatos",
+      "ppp.acc.pl.fem": "signatas",
+      "ppp.acc.pl.neut": "signata",
+      "ppp.abl.pl.masc": "signatis",
+      "ppp.abl.pl.fem": "signatis",
+      "ppp.abl.pl.neut": "signatis",
+      "ppp.voc.pl.masc": "signati",
+      "ppp.voc.pl.fem": "signatae",
+      "ppp.voc.pl.neut": "signata"
+    }
   }
 }

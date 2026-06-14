@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "vinci",
       "2pl.pres.imp.act": "vincite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vinctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vinctus",
+      "ppp.nom.sg.fem": "vincta",
+      "ppp.nom.sg.neut": "vinctum",
+      "ppp.gen.sg.masc": "vincti",
+      "ppp.gen.sg.fem": "vinctae",
+      "ppp.gen.sg.neut": "vincti",
+      "ppp.dat.sg.masc": "vincto",
+      "ppp.dat.sg.fem": "vinctae",
+      "ppp.dat.sg.neut": "vincto",
+      "ppp.acc.sg.masc": "vinctum",
+      "ppp.acc.sg.fem": "vinctam",
+      "ppp.acc.sg.neut": "vinctum",
+      "ppp.abl.sg.masc": "vincto",
+      "ppp.abl.sg.fem": "vincta",
+      "ppp.abl.sg.neut": "vincto",
+      "ppp.voc.sg.masc": "vincte",
+      "ppp.voc.sg.fem": "vincta",
+      "ppp.voc.sg.neut": "vinctum",
+      "ppp.nom.pl.masc": "vincti",
+      "ppp.nom.pl.fem": "vinctae",
+      "ppp.nom.pl.neut": "vincta",
+      "ppp.gen.pl.masc": "vinctorum",
+      "ppp.gen.pl.fem": "vinctarum",
+      "ppp.gen.pl.neut": "vinctorum",
+      "ppp.dat.pl.masc": "vinctis",
+      "ppp.dat.pl.fem": "vinctis",
+      "ppp.dat.pl.neut": "vinctis",
+      "ppp.acc.pl.masc": "vinctos",
+      "ppp.acc.pl.fem": "vinctas",
+      "ppp.acc.pl.neut": "vincta",
+      "ppp.abl.pl.masc": "vinctis",
+      "ppp.abl.pl.fem": "vinctis",
+      "ppp.abl.pl.neut": "vinctis",
+      "ppp.voc.pl.masc": "vincti",
+      "ppp.voc.pl.fem": "vinctae",
+      "ppp.voc.pl.neut": "vincta"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "duce",
       "2pl.pres.imp.act": "ducite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ductus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ductus",
+      "ppp.nom.sg.fem": "ducta",
+      "ppp.nom.sg.neut": "ductum",
+      "ppp.gen.sg.masc": "ducti",
+      "ppp.gen.sg.fem": "ductae",
+      "ppp.gen.sg.neut": "ducti",
+      "ppp.dat.sg.masc": "ducto",
+      "ppp.dat.sg.fem": "ductae",
+      "ppp.dat.sg.neut": "ducto",
+      "ppp.acc.sg.masc": "ductum",
+      "ppp.acc.sg.fem": "ductam",
+      "ppp.acc.sg.neut": "ductum",
+      "ppp.abl.sg.masc": "ducto",
+      "ppp.abl.sg.fem": "ducta",
+      "ppp.abl.sg.neut": "ducto",
+      "ppp.voc.sg.masc": "ducte",
+      "ppp.voc.sg.fem": "ducta",
+      "ppp.voc.sg.neut": "ductum",
+      "ppp.nom.pl.masc": "ducti",
+      "ppp.nom.pl.fem": "ductae",
+      "ppp.nom.pl.neut": "ducta",
+      "ppp.gen.pl.masc": "ductorum",
+      "ppp.gen.pl.fem": "ductarum",
+      "ppp.gen.pl.neut": "ductorum",
+      "ppp.dat.pl.masc": "ductis",
+      "ppp.dat.pl.fem": "ductis",
+      "ppp.dat.pl.neut": "ductis",
+      "ppp.acc.pl.masc": "ductos",
+      "ppp.acc.pl.fem": "ductas",
+      "ppp.acc.pl.neut": "ducta",
+      "ppp.abl.pl.masc": "ductis",
+      "ppp.abl.pl.fem": "ductis",
+      "ppp.abl.pl.neut": "ductis",
+      "ppp.voc.pl.masc": "ducti",
+      "ppp.voc.pl.fem": "ductae",
+      "ppp.voc.pl.neut": "ducta"
+    }
   }
 }

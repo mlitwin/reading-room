@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "concorda",
       "2pl.pres.imp.act": "concordate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: concordatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "concordatus",
+      "ppp.nom.sg.fem": "concordata",
+      "ppp.nom.sg.neut": "concordatum",
+      "ppp.gen.sg.masc": "concordati",
+      "ppp.gen.sg.fem": "concordatae",
+      "ppp.gen.sg.neut": "concordati",
+      "ppp.dat.sg.masc": "concordato",
+      "ppp.dat.sg.fem": "concordatae",
+      "ppp.dat.sg.neut": "concordato",
+      "ppp.acc.sg.masc": "concordatum",
+      "ppp.acc.sg.fem": "concordatam",
+      "ppp.acc.sg.neut": "concordatum",
+      "ppp.abl.sg.masc": "concordato",
+      "ppp.abl.sg.fem": "concordata",
+      "ppp.abl.sg.neut": "concordato",
+      "ppp.voc.sg.masc": "concordate",
+      "ppp.voc.sg.fem": "concordata",
+      "ppp.voc.sg.neut": "concordatum",
+      "ppp.nom.pl.masc": "concordati",
+      "ppp.nom.pl.fem": "concordatae",
+      "ppp.nom.pl.neut": "concordata",
+      "ppp.gen.pl.masc": "concordatorum",
+      "ppp.gen.pl.fem": "concordatarum",
+      "ppp.gen.pl.neut": "concordatorum",
+      "ppp.dat.pl.masc": "concordatis",
+      "ppp.dat.pl.fem": "concordatis",
+      "ppp.dat.pl.neut": "concordatis",
+      "ppp.acc.pl.masc": "concordatos",
+      "ppp.acc.pl.fem": "concordatas",
+      "ppp.acc.pl.neut": "concordata",
+      "ppp.abl.pl.masc": "concordatis",
+      "ppp.abl.pl.fem": "concordatis",
+      "ppp.abl.pl.neut": "concordatis",
+      "ppp.voc.pl.masc": "concordati",
+      "ppp.voc.pl.fem": "concordatae",
+      "ppp.voc.pl.neut": "concordata"
+    }
   }
 }

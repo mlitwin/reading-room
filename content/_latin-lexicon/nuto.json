@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "nuta",
       "2pl.pres.imp.act": "nutate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: nutatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "nutatus",
+      "ppp.nom.sg.fem": "nutata",
+      "ppp.nom.sg.neut": "nutatum",
+      "ppp.gen.sg.masc": "nutati",
+      "ppp.gen.sg.fem": "nutatae",
+      "ppp.gen.sg.neut": "nutati",
+      "ppp.dat.sg.masc": "nutato",
+      "ppp.dat.sg.fem": "nutatae",
+      "ppp.dat.sg.neut": "nutato",
+      "ppp.acc.sg.masc": "nutatum",
+      "ppp.acc.sg.fem": "nutatam",
+      "ppp.acc.sg.neut": "nutatum",
+      "ppp.abl.sg.masc": "nutato",
+      "ppp.abl.sg.fem": "nutata",
+      "ppp.abl.sg.neut": "nutato",
+      "ppp.voc.sg.masc": "nutate",
+      "ppp.voc.sg.fem": "nutata",
+      "ppp.voc.sg.neut": "nutatum",
+      "ppp.nom.pl.masc": "nutati",
+      "ppp.nom.pl.fem": "nutatae",
+      "ppp.nom.pl.neut": "nutata",
+      "ppp.gen.pl.masc": "nutatorum",
+      "ppp.gen.pl.fem": "nutatarum",
+      "ppp.gen.pl.neut": "nutatorum",
+      "ppp.dat.pl.masc": "nutatis",
+      "ppp.dat.pl.fem": "nutatis",
+      "ppp.dat.pl.neut": "nutatis",
+      "ppp.acc.pl.masc": "nutatos",
+      "ppp.acc.pl.fem": "nutatas",
+      "ppp.acc.pl.neut": "nutata",
+      "ppp.abl.pl.masc": "nutatis",
+      "ppp.abl.pl.fem": "nutatis",
+      "ppp.abl.pl.neut": "nutatis",
+      "ppp.voc.pl.masc": "nutati",
+      "ppp.voc.pl.fem": "nutatae",
+      "ppp.voc.pl.neut": "nutata"
+    }
   }
 }

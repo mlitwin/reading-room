@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "volve",
       "2pl.pres.imp.act": "volvite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: volutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "volutus",
+      "ppp.nom.sg.fem": "voluta",
+      "ppp.nom.sg.neut": "volutum",
+      "ppp.gen.sg.masc": "voluti",
+      "ppp.gen.sg.fem": "volutae",
+      "ppp.gen.sg.neut": "voluti",
+      "ppp.dat.sg.masc": "voluto",
+      "ppp.dat.sg.fem": "volutae",
+      "ppp.dat.sg.neut": "voluto",
+      "ppp.acc.sg.masc": "volutum",
+      "ppp.acc.sg.fem": "volutam",
+      "ppp.acc.sg.neut": "volutum",
+      "ppp.abl.sg.masc": "voluto",
+      "ppp.abl.sg.fem": "voluta",
+      "ppp.abl.sg.neut": "voluto",
+      "ppp.voc.sg.masc": "volute",
+      "ppp.voc.sg.fem": "voluta",
+      "ppp.voc.sg.neut": "volutum",
+      "ppp.nom.pl.masc": "voluti",
+      "ppp.nom.pl.fem": "volutae",
+      "ppp.nom.pl.neut": "voluta",
+      "ppp.gen.pl.masc": "volutorum",
+      "ppp.gen.pl.fem": "volutarum",
+      "ppp.gen.pl.neut": "volutorum",
+      "ppp.dat.pl.masc": "volutis",
+      "ppp.dat.pl.fem": "volutis",
+      "ppp.dat.pl.neut": "volutis",
+      "ppp.acc.pl.masc": "volutos",
+      "ppp.acc.pl.fem": "volutas",
+      "ppp.acc.pl.neut": "voluta",
+      "ppp.abl.pl.masc": "volutis",
+      "ppp.abl.pl.fem": "volutis",
+      "ppp.abl.pl.neut": "volutis",
+      "ppp.voc.pl.masc": "voluti",
+      "ppp.voc.pl.fem": "volutae",
+      "ppp.voc.pl.neut": "voluta"
+    }
   }
 }

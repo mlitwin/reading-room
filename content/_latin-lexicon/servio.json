@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "servi",
       "2pl.pres.imp.act": "servite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: servitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "servitus",
+      "ppp.nom.sg.fem": "servita",
+      "ppp.nom.sg.neut": "servitum",
+      "ppp.gen.sg.masc": "serviti",
+      "ppp.gen.sg.fem": "servitae",
+      "ppp.gen.sg.neut": "serviti",
+      "ppp.dat.sg.masc": "servito",
+      "ppp.dat.sg.fem": "servitae",
+      "ppp.dat.sg.neut": "servito",
+      "ppp.acc.sg.masc": "servitum",
+      "ppp.acc.sg.fem": "servitam",
+      "ppp.acc.sg.neut": "servitum",
+      "ppp.abl.sg.masc": "servito",
+      "ppp.abl.sg.fem": "servita",
+      "ppp.abl.sg.neut": "servito",
+      "ppp.voc.sg.masc": "servite",
+      "ppp.voc.sg.fem": "servita",
+      "ppp.voc.sg.neut": "servitum",
+      "ppp.nom.pl.masc": "serviti",
+      "ppp.nom.pl.fem": "servitae",
+      "ppp.nom.pl.neut": "servita",
+      "ppp.gen.pl.masc": "servitorum",
+      "ppp.gen.pl.fem": "servitarum",
+      "ppp.gen.pl.neut": "servitorum",
+      "ppp.dat.pl.masc": "servitis",
+      "ppp.dat.pl.fem": "servitis",
+      "ppp.dat.pl.neut": "servitis",
+      "ppp.acc.pl.masc": "servitos",
+      "ppp.acc.pl.fem": "servitas",
+      "ppp.acc.pl.neut": "servita",
+      "ppp.abl.pl.masc": "servitis",
+      "ppp.abl.pl.fem": "servitis",
+      "ppp.abl.pl.neut": "servitis",
+      "ppp.voc.pl.masc": "serviti",
+      "ppp.voc.pl.fem": "servitae",
+      "ppp.voc.pl.neut": "servita"
+    }
   }
 }

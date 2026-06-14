@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "subice",
       "2pl.pres.imp.act": "subicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: subjectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "subjectus",
+      "ppp.nom.sg.fem": "subjecta",
+      "ppp.nom.sg.neut": "subjectum",
+      "ppp.gen.sg.masc": "subjecti",
+      "ppp.gen.sg.fem": "subjectae",
+      "ppp.gen.sg.neut": "subjecti",
+      "ppp.dat.sg.masc": "subjecto",
+      "ppp.dat.sg.fem": "subjectae",
+      "ppp.dat.sg.neut": "subjecto",
+      "ppp.acc.sg.masc": "subjectum",
+      "ppp.acc.sg.fem": "subjectam",
+      "ppp.acc.sg.neut": "subjectum",
+      "ppp.abl.sg.masc": "subjecto",
+      "ppp.abl.sg.fem": "subjecta",
+      "ppp.abl.sg.neut": "subjecto",
+      "ppp.voc.sg.masc": "subjecte",
+      "ppp.voc.sg.fem": "subjecta",
+      "ppp.voc.sg.neut": "subjectum",
+      "ppp.nom.pl.masc": "subjecti",
+      "ppp.nom.pl.fem": "subjectae",
+      "ppp.nom.pl.neut": "subjecta",
+      "ppp.gen.pl.masc": "subjectorum",
+      "ppp.gen.pl.fem": "subjectarum",
+      "ppp.gen.pl.neut": "subjectorum",
+      "ppp.dat.pl.masc": "subjectis",
+      "ppp.dat.pl.fem": "subjectis",
+      "ppp.dat.pl.neut": "subjectis",
+      "ppp.acc.pl.masc": "subjectos",
+      "ppp.acc.pl.fem": "subjectas",
+      "ppp.acc.pl.neut": "subjecta",
+      "ppp.abl.pl.masc": "subjectis",
+      "ppp.abl.pl.fem": "subjectis",
+      "ppp.abl.pl.neut": "subjectis",
+      "ppp.voc.pl.masc": "subjecti",
+      "ppp.voc.pl.fem": "subjectae",
+      "ppp.voc.pl.neut": "subjecta"
+    }
   }
 }

@@ -13,5 +13,63 @@
     "sew, stitch",
     "sew together, join by sewing"
   ],
-  "reviewed": false
+  "reviewed": false,
+  "ppp_paradigm": {
+    "label": "PPP: sutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sutus",
+      "ppp.nom.sg.fem": "suta",
+      "ppp.nom.sg.neut": "sutum",
+      "ppp.gen.sg.masc": "suti",
+      "ppp.gen.sg.fem": "sutae",
+      "ppp.gen.sg.neut": "suti",
+      "ppp.dat.sg.masc": "suto",
+      "ppp.dat.sg.fem": "sutae",
+      "ppp.dat.sg.neut": "suto",
+      "ppp.acc.sg.masc": "sutum",
+      "ppp.acc.sg.fem": "sutam",
+      "ppp.acc.sg.neut": "sutum",
+      "ppp.abl.sg.masc": "suto",
+      "ppp.abl.sg.fem": "suta",
+      "ppp.abl.sg.neut": "suto",
+      "ppp.voc.sg.masc": "sute",
+      "ppp.voc.sg.fem": "suta",
+      "ppp.voc.sg.neut": "sutum",
+      "ppp.nom.pl.masc": "suti",
+      "ppp.nom.pl.fem": "sutae",
+      "ppp.nom.pl.neut": "suta",
+      "ppp.gen.pl.masc": "sutorum",
+      "ppp.gen.pl.fem": "sutarum",
+      "ppp.gen.pl.neut": "sutorum",
+      "ppp.dat.pl.masc": "sutis",
+      "ppp.dat.pl.fem": "sutis",
+      "ppp.dat.pl.neut": "sutis",
+      "ppp.acc.pl.masc": "sutos",
+      "ppp.acc.pl.fem": "sutas",
+      "ppp.acc.pl.neut": "suta",
+      "ppp.abl.pl.masc": "sutis",
+      "ppp.abl.pl.fem": "sutis",
+      "ppp.abl.pl.neut": "sutis",
+      "ppp.voc.pl.masc": "suti",
+      "ppp.voc.pl.fem": "sutae",
+      "ppp.voc.pl.neut": "suta"
+    }
+  }
 }

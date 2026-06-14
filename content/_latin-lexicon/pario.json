@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "paria",
       "2pl.pres.imp.act": "pariate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: pariatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "pariatus",
+      "ppp.nom.sg.fem": "pariata",
+      "ppp.nom.sg.neut": "pariatum",
+      "ppp.gen.sg.masc": "pariati",
+      "ppp.gen.sg.fem": "pariatae",
+      "ppp.gen.sg.neut": "pariati",
+      "ppp.dat.sg.masc": "pariato",
+      "ppp.dat.sg.fem": "pariatae",
+      "ppp.dat.sg.neut": "pariato",
+      "ppp.acc.sg.masc": "pariatum",
+      "ppp.acc.sg.fem": "pariatam",
+      "ppp.acc.sg.neut": "pariatum",
+      "ppp.abl.sg.masc": "pariato",
+      "ppp.abl.sg.fem": "pariata",
+      "ppp.abl.sg.neut": "pariato",
+      "ppp.voc.sg.masc": "pariate",
+      "ppp.voc.sg.fem": "pariata",
+      "ppp.voc.sg.neut": "pariatum",
+      "ppp.nom.pl.masc": "pariati",
+      "ppp.nom.pl.fem": "pariatae",
+      "ppp.nom.pl.neut": "pariata",
+      "ppp.gen.pl.masc": "pariatorum",
+      "ppp.gen.pl.fem": "pariatarum",
+      "ppp.gen.pl.neut": "pariatorum",
+      "ppp.dat.pl.masc": "pariatis",
+      "ppp.dat.pl.fem": "pariatis",
+      "ppp.dat.pl.neut": "pariatis",
+      "ppp.acc.pl.masc": "pariatos",
+      "ppp.acc.pl.fem": "pariatas",
+      "ppp.acc.pl.neut": "pariata",
+      "ppp.abl.pl.masc": "pariatis",
+      "ppp.abl.pl.fem": "pariatis",
+      "ppp.abl.pl.neut": "pariatis",
+      "ppp.voc.pl.masc": "pariati",
+      "ppp.voc.pl.fem": "pariatae",
+      "ppp.voc.pl.neut": "pariata"
+    }
   }
 }

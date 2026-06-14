@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "substitue",
       "2pl.pres.imp.act": "substituite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: substitutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "substitutus",
+      "ppp.nom.sg.fem": "substituta",
+      "ppp.nom.sg.neut": "substitutum",
+      "ppp.gen.sg.masc": "substituti",
+      "ppp.gen.sg.fem": "substitutae",
+      "ppp.gen.sg.neut": "substituti",
+      "ppp.dat.sg.masc": "substituto",
+      "ppp.dat.sg.fem": "substitutae",
+      "ppp.dat.sg.neut": "substituto",
+      "ppp.acc.sg.masc": "substitutum",
+      "ppp.acc.sg.fem": "substitutam",
+      "ppp.acc.sg.neut": "substitutum",
+      "ppp.abl.sg.masc": "substituto",
+      "ppp.abl.sg.fem": "substituta",
+      "ppp.abl.sg.neut": "substituto",
+      "ppp.voc.sg.masc": "substitute",
+      "ppp.voc.sg.fem": "substituta",
+      "ppp.voc.sg.neut": "substitutum",
+      "ppp.nom.pl.masc": "substituti",
+      "ppp.nom.pl.fem": "substitutae",
+      "ppp.nom.pl.neut": "substituta",
+      "ppp.gen.pl.masc": "substitutorum",
+      "ppp.gen.pl.fem": "substitutarum",
+      "ppp.gen.pl.neut": "substitutorum",
+      "ppp.dat.pl.masc": "substitutis",
+      "ppp.dat.pl.fem": "substitutis",
+      "ppp.dat.pl.neut": "substitutis",
+      "ppp.acc.pl.masc": "substitutos",
+      "ppp.acc.pl.fem": "substitutas",
+      "ppp.acc.pl.neut": "substituta",
+      "ppp.abl.pl.masc": "substitutis",
+      "ppp.abl.pl.fem": "substitutis",
+      "ppp.abl.pl.neut": "substitutis",
+      "ppp.voc.pl.masc": "substituti",
+      "ppp.voc.pl.fem": "substitutae",
+      "ppp.voc.pl.neut": "substituta"
+    }
   }
 }

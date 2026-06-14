@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "mone",
       "2pl.pres.imp.act": "monete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: monitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "monitus",
+      "ppp.nom.sg.fem": "monita",
+      "ppp.nom.sg.neut": "monitum",
+      "ppp.gen.sg.masc": "moniti",
+      "ppp.gen.sg.fem": "monitae",
+      "ppp.gen.sg.neut": "moniti",
+      "ppp.dat.sg.masc": "monito",
+      "ppp.dat.sg.fem": "monitae",
+      "ppp.dat.sg.neut": "monito",
+      "ppp.acc.sg.masc": "monitum",
+      "ppp.acc.sg.fem": "monitam",
+      "ppp.acc.sg.neut": "monitum",
+      "ppp.abl.sg.masc": "monito",
+      "ppp.abl.sg.fem": "monita",
+      "ppp.abl.sg.neut": "monito",
+      "ppp.voc.sg.masc": "monite",
+      "ppp.voc.sg.fem": "monita",
+      "ppp.voc.sg.neut": "monitum",
+      "ppp.nom.pl.masc": "moniti",
+      "ppp.nom.pl.fem": "monitae",
+      "ppp.nom.pl.neut": "monita",
+      "ppp.gen.pl.masc": "monitorum",
+      "ppp.gen.pl.fem": "monitarum",
+      "ppp.gen.pl.neut": "monitorum",
+      "ppp.dat.pl.masc": "monitis",
+      "ppp.dat.pl.fem": "monitis",
+      "ppp.dat.pl.neut": "monitis",
+      "ppp.acc.pl.masc": "monitos",
+      "ppp.acc.pl.fem": "monitas",
+      "ppp.acc.pl.neut": "monita",
+      "ppp.abl.pl.masc": "monitis",
+      "ppp.abl.pl.fem": "monitis",
+      "ppp.abl.pl.neut": "monitis",
+      "ppp.voc.pl.masc": "moniti",
+      "ppp.voc.pl.fem": "monitae",
+      "ppp.voc.pl.neut": "monita"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "lustra",
       "2pl.pres.imp.act": "lustrate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: lustratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "lustratus",
+      "ppp.nom.sg.fem": "lustrata",
+      "ppp.nom.sg.neut": "lustratum",
+      "ppp.gen.sg.masc": "lustrati",
+      "ppp.gen.sg.fem": "lustratae",
+      "ppp.gen.sg.neut": "lustrati",
+      "ppp.dat.sg.masc": "lustrato",
+      "ppp.dat.sg.fem": "lustratae",
+      "ppp.dat.sg.neut": "lustrato",
+      "ppp.acc.sg.masc": "lustratum",
+      "ppp.acc.sg.fem": "lustratam",
+      "ppp.acc.sg.neut": "lustratum",
+      "ppp.abl.sg.masc": "lustrato",
+      "ppp.abl.sg.fem": "lustrata",
+      "ppp.abl.sg.neut": "lustrato",
+      "ppp.voc.sg.masc": "lustrate",
+      "ppp.voc.sg.fem": "lustrata",
+      "ppp.voc.sg.neut": "lustratum",
+      "ppp.nom.pl.masc": "lustrati",
+      "ppp.nom.pl.fem": "lustratae",
+      "ppp.nom.pl.neut": "lustrata",
+      "ppp.gen.pl.masc": "lustratorum",
+      "ppp.gen.pl.fem": "lustratarum",
+      "ppp.gen.pl.neut": "lustratorum",
+      "ppp.dat.pl.masc": "lustratis",
+      "ppp.dat.pl.fem": "lustratis",
+      "ppp.dat.pl.neut": "lustratis",
+      "ppp.acc.pl.masc": "lustratos",
+      "ppp.acc.pl.fem": "lustratas",
+      "ppp.acc.pl.neut": "lustrata",
+      "ppp.abl.pl.masc": "lustratis",
+      "ppp.abl.pl.fem": "lustratis",
+      "ppp.abl.pl.neut": "lustratis",
+      "ppp.voc.pl.masc": "lustrati",
+      "ppp.voc.pl.fem": "lustratae",
+      "ppp.voc.pl.neut": "lustrata"
+    }
   }
 }

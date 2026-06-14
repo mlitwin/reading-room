@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "madesce",
       "2pl.pres.imp.act": "madescite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: -us -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "-us",
+      "ppp.nom.sg.fem": "-a",
+      "ppp.nom.sg.neut": "-um",
+      "ppp.gen.sg.masc": "-i",
+      "ppp.gen.sg.fem": "-ae",
+      "ppp.gen.sg.neut": "-i",
+      "ppp.dat.sg.masc": "-o",
+      "ppp.dat.sg.fem": "-ae",
+      "ppp.dat.sg.neut": "-o",
+      "ppp.acc.sg.masc": "-um",
+      "ppp.acc.sg.fem": "-am",
+      "ppp.acc.sg.neut": "-um",
+      "ppp.abl.sg.masc": "-o",
+      "ppp.abl.sg.fem": "-a",
+      "ppp.abl.sg.neut": "-o",
+      "ppp.voc.sg.masc": "-e",
+      "ppp.voc.sg.fem": "-a",
+      "ppp.voc.sg.neut": "-um",
+      "ppp.nom.pl.masc": "-i",
+      "ppp.nom.pl.fem": "-ae",
+      "ppp.nom.pl.neut": "-a",
+      "ppp.gen.pl.masc": "-orum",
+      "ppp.gen.pl.fem": "-arum",
+      "ppp.gen.pl.neut": "-orum",
+      "ppp.dat.pl.masc": "-is",
+      "ppp.dat.pl.fem": "-is",
+      "ppp.dat.pl.neut": "-is",
+      "ppp.acc.pl.masc": "-os",
+      "ppp.acc.pl.fem": "-as",
+      "ppp.acc.pl.neut": "-a",
+      "ppp.abl.pl.masc": "-is",
+      "ppp.abl.pl.fem": "-is",
+      "ppp.abl.pl.neut": "-is",
+      "ppp.voc.pl.masc": "-i",
+      "ppp.voc.pl.fem": "-ae",
+      "ppp.voc.pl.neut": "-a"
+    }
   }
 }

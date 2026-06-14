@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "dissaepe",
       "2pl.pres.imp.act": "dissaepite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dissaeptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dissaeptus",
+      "ppp.nom.sg.fem": "dissaepta",
+      "ppp.nom.sg.neut": "dissaeptum",
+      "ppp.gen.sg.masc": "dissaepti",
+      "ppp.gen.sg.fem": "dissaeptae",
+      "ppp.gen.sg.neut": "dissaepti",
+      "ppp.dat.sg.masc": "dissaepto",
+      "ppp.dat.sg.fem": "dissaeptae",
+      "ppp.dat.sg.neut": "dissaepto",
+      "ppp.acc.sg.masc": "dissaeptum",
+      "ppp.acc.sg.fem": "dissaeptam",
+      "ppp.acc.sg.neut": "dissaeptum",
+      "ppp.abl.sg.masc": "dissaepto",
+      "ppp.abl.sg.fem": "dissaepta",
+      "ppp.abl.sg.neut": "dissaepto",
+      "ppp.voc.sg.masc": "dissaepte",
+      "ppp.voc.sg.fem": "dissaepta",
+      "ppp.voc.sg.neut": "dissaeptum",
+      "ppp.nom.pl.masc": "dissaepti",
+      "ppp.nom.pl.fem": "dissaeptae",
+      "ppp.nom.pl.neut": "dissaepta",
+      "ppp.gen.pl.masc": "dissaeptorum",
+      "ppp.gen.pl.fem": "dissaeptarum",
+      "ppp.gen.pl.neut": "dissaeptorum",
+      "ppp.dat.pl.masc": "dissaeptis",
+      "ppp.dat.pl.fem": "dissaeptis",
+      "ppp.dat.pl.neut": "dissaeptis",
+      "ppp.acc.pl.masc": "dissaeptos",
+      "ppp.acc.pl.fem": "dissaeptas",
+      "ppp.acc.pl.neut": "dissaepta",
+      "ppp.abl.pl.masc": "dissaeptis",
+      "ppp.abl.pl.fem": "dissaeptis",
+      "ppp.abl.pl.neut": "dissaeptis",
+      "ppp.voc.pl.masc": "dissaepti",
+      "ppp.voc.pl.fem": "dissaeptae",
+      "ppp.voc.pl.neut": "dissaepta"
+    }
   }
 }

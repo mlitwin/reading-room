@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "dede",
       "2pl.pres.imp.act": "dedite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: deditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "deditus",
+      "ppp.nom.sg.fem": "dedita",
+      "ppp.nom.sg.neut": "deditum",
+      "ppp.gen.sg.masc": "dediti",
+      "ppp.gen.sg.fem": "deditae",
+      "ppp.gen.sg.neut": "dediti",
+      "ppp.dat.sg.masc": "dedito",
+      "ppp.dat.sg.fem": "deditae",
+      "ppp.dat.sg.neut": "dedito",
+      "ppp.acc.sg.masc": "deditum",
+      "ppp.acc.sg.fem": "deditam",
+      "ppp.acc.sg.neut": "deditum",
+      "ppp.abl.sg.masc": "dedito",
+      "ppp.abl.sg.fem": "dedita",
+      "ppp.abl.sg.neut": "dedito",
+      "ppp.voc.sg.masc": "dedite",
+      "ppp.voc.sg.fem": "dedita",
+      "ppp.voc.sg.neut": "deditum",
+      "ppp.nom.pl.masc": "dediti",
+      "ppp.nom.pl.fem": "deditae",
+      "ppp.nom.pl.neut": "dedita",
+      "ppp.gen.pl.masc": "deditorum",
+      "ppp.gen.pl.fem": "deditarum",
+      "ppp.gen.pl.neut": "deditorum",
+      "ppp.dat.pl.masc": "deditis",
+      "ppp.dat.pl.fem": "deditis",
+      "ppp.dat.pl.neut": "deditis",
+      "ppp.acc.pl.masc": "deditos",
+      "ppp.acc.pl.fem": "deditas",
+      "ppp.acc.pl.neut": "dedita",
+      "ppp.abl.pl.masc": "deditis",
+      "ppp.abl.pl.fem": "deditis",
+      "ppp.abl.pl.neut": "deditis",
+      "ppp.voc.pl.masc": "dediti",
+      "ppp.voc.pl.fem": "deditae",
+      "ppp.voc.pl.neut": "dedita"
+    }
   }
 }

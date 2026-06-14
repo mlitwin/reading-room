@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "occupa",
       "2pl.pres.imp.act": "occupate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: occupatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "occupatus",
+      "ppp.nom.sg.fem": "occupata",
+      "ppp.nom.sg.neut": "occupatum",
+      "ppp.gen.sg.masc": "occupati",
+      "ppp.gen.sg.fem": "occupatae",
+      "ppp.gen.sg.neut": "occupati",
+      "ppp.dat.sg.masc": "occupato",
+      "ppp.dat.sg.fem": "occupatae",
+      "ppp.dat.sg.neut": "occupato",
+      "ppp.acc.sg.masc": "occupatum",
+      "ppp.acc.sg.fem": "occupatam",
+      "ppp.acc.sg.neut": "occupatum",
+      "ppp.abl.sg.masc": "occupato",
+      "ppp.abl.sg.fem": "occupata",
+      "ppp.abl.sg.neut": "occupato",
+      "ppp.voc.sg.masc": "occupate",
+      "ppp.voc.sg.fem": "occupata",
+      "ppp.voc.sg.neut": "occupatum",
+      "ppp.nom.pl.masc": "occupati",
+      "ppp.nom.pl.fem": "occupatae",
+      "ppp.nom.pl.neut": "occupata",
+      "ppp.gen.pl.masc": "occupatorum",
+      "ppp.gen.pl.fem": "occupatarum",
+      "ppp.gen.pl.neut": "occupatorum",
+      "ppp.dat.pl.masc": "occupatis",
+      "ppp.dat.pl.fem": "occupatis",
+      "ppp.dat.pl.neut": "occupatis",
+      "ppp.acc.pl.masc": "occupatos",
+      "ppp.acc.pl.fem": "occupatas",
+      "ppp.acc.pl.neut": "occupata",
+      "ppp.abl.pl.masc": "occupatis",
+      "ppp.abl.pl.fem": "occupatis",
+      "ppp.abl.pl.neut": "occupatis",
+      "ppp.voc.pl.masc": "occupati",
+      "ppp.voc.pl.fem": "occupatae",
+      "ppp.voc.pl.neut": "occupata"
+    }
   }
 }

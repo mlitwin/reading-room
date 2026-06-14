@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "despice",
       "2pl.pres.imp.act": "despicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: despectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "despectus",
+      "ppp.nom.sg.fem": "despecta",
+      "ppp.nom.sg.neut": "despectum",
+      "ppp.gen.sg.masc": "despecti",
+      "ppp.gen.sg.fem": "despectae",
+      "ppp.gen.sg.neut": "despecti",
+      "ppp.dat.sg.masc": "despecto",
+      "ppp.dat.sg.fem": "despectae",
+      "ppp.dat.sg.neut": "despecto",
+      "ppp.acc.sg.masc": "despectum",
+      "ppp.acc.sg.fem": "despectam",
+      "ppp.acc.sg.neut": "despectum",
+      "ppp.abl.sg.masc": "despecto",
+      "ppp.abl.sg.fem": "despecta",
+      "ppp.abl.sg.neut": "despecto",
+      "ppp.voc.sg.masc": "despecte",
+      "ppp.voc.sg.fem": "despecta",
+      "ppp.voc.sg.neut": "despectum",
+      "ppp.nom.pl.masc": "despecti",
+      "ppp.nom.pl.fem": "despectae",
+      "ppp.nom.pl.neut": "despecta",
+      "ppp.gen.pl.masc": "despectorum",
+      "ppp.gen.pl.fem": "despectarum",
+      "ppp.gen.pl.neut": "despectorum",
+      "ppp.dat.pl.masc": "despectis",
+      "ppp.dat.pl.fem": "despectis",
+      "ppp.dat.pl.neut": "despectis",
+      "ppp.acc.pl.masc": "despectos",
+      "ppp.acc.pl.fem": "despectas",
+      "ppp.acc.pl.neut": "despecta",
+      "ppp.abl.pl.masc": "despectis",
+      "ppp.abl.pl.fem": "despectis",
+      "ppp.abl.pl.neut": "despectis",
+      "ppp.voc.pl.masc": "despecti",
+      "ppp.voc.pl.fem": "despectae",
+      "ppp.voc.pl.neut": "despecta"
+    }
   }
 }

@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "evince",
       "2pl.pres.imp.act": "evincite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: evictus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "evictus",
+      "ppp.nom.sg.fem": "evicta",
+      "ppp.nom.sg.neut": "evictum",
+      "ppp.gen.sg.masc": "evicti",
+      "ppp.gen.sg.fem": "evictae",
+      "ppp.gen.sg.neut": "evicti",
+      "ppp.dat.sg.masc": "evicto",
+      "ppp.dat.sg.fem": "evictae",
+      "ppp.dat.sg.neut": "evicto",
+      "ppp.acc.sg.masc": "evictum",
+      "ppp.acc.sg.fem": "evictam",
+      "ppp.acc.sg.neut": "evictum",
+      "ppp.abl.sg.masc": "evicto",
+      "ppp.abl.sg.fem": "evicta",
+      "ppp.abl.sg.neut": "evicto",
+      "ppp.voc.sg.masc": "evicte",
+      "ppp.voc.sg.fem": "evicta",
+      "ppp.voc.sg.neut": "evictum",
+      "ppp.nom.pl.masc": "evicti",
+      "ppp.nom.pl.fem": "evictae",
+      "ppp.nom.pl.neut": "evicta",
+      "ppp.gen.pl.masc": "evictorum",
+      "ppp.gen.pl.fem": "evictarum",
+      "ppp.gen.pl.neut": "evictorum",
+      "ppp.dat.pl.masc": "evictis",
+      "ppp.dat.pl.fem": "evictis",
+      "ppp.dat.pl.neut": "evictis",
+      "ppp.acc.pl.masc": "evictos",
+      "ppp.acc.pl.fem": "evictas",
+      "ppp.acc.pl.neut": "evicta",
+      "ppp.abl.pl.masc": "evictis",
+      "ppp.abl.pl.fem": "evictis",
+      "ppp.abl.pl.neut": "evictis",
+      "ppp.voc.pl.masc": "evicti",
+      "ppp.voc.pl.fem": "evictae",
+      "ppp.voc.pl.neut": "evicta"
+    }
   }
 }

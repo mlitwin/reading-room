@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "doce",
       "2pl.pres.imp.act": "docete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: doctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "doctus",
+      "ppp.nom.sg.fem": "docta",
+      "ppp.nom.sg.neut": "doctum",
+      "ppp.gen.sg.masc": "docti",
+      "ppp.gen.sg.fem": "doctae",
+      "ppp.gen.sg.neut": "docti",
+      "ppp.dat.sg.masc": "docto",
+      "ppp.dat.sg.fem": "doctae",
+      "ppp.dat.sg.neut": "docto",
+      "ppp.acc.sg.masc": "doctum",
+      "ppp.acc.sg.fem": "doctam",
+      "ppp.acc.sg.neut": "doctum",
+      "ppp.abl.sg.masc": "docto",
+      "ppp.abl.sg.fem": "docta",
+      "ppp.abl.sg.neut": "docto",
+      "ppp.voc.sg.masc": "docte",
+      "ppp.voc.sg.fem": "docta",
+      "ppp.voc.sg.neut": "doctum",
+      "ppp.nom.pl.masc": "docti",
+      "ppp.nom.pl.fem": "doctae",
+      "ppp.nom.pl.neut": "docta",
+      "ppp.gen.pl.masc": "doctorum",
+      "ppp.gen.pl.fem": "doctarum",
+      "ppp.gen.pl.neut": "doctorum",
+      "ppp.dat.pl.masc": "doctis",
+      "ppp.dat.pl.fem": "doctis",
+      "ppp.dat.pl.neut": "doctis",
+      "ppp.acc.pl.masc": "doctos",
+      "ppp.acc.pl.fem": "doctas",
+      "ppp.acc.pl.neut": "docta",
+      "ppp.abl.pl.masc": "doctis",
+      "ppp.abl.pl.fem": "doctis",
+      "ppp.abl.pl.neut": "doctis",
+      "ppp.voc.pl.masc": "docti",
+      "ppp.voc.pl.fem": "doctae",
+      "ppp.voc.pl.neut": "docta"
+    }
   }
 }

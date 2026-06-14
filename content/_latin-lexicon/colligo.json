@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "colliga",
       "2pl.pres.imp.act": "colligate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: colligatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "colligatus",
+      "ppp.nom.sg.fem": "colligata",
+      "ppp.nom.sg.neut": "colligatum",
+      "ppp.gen.sg.masc": "colligati",
+      "ppp.gen.sg.fem": "colligatae",
+      "ppp.gen.sg.neut": "colligati",
+      "ppp.dat.sg.masc": "colligato",
+      "ppp.dat.sg.fem": "colligatae",
+      "ppp.dat.sg.neut": "colligato",
+      "ppp.acc.sg.masc": "colligatum",
+      "ppp.acc.sg.fem": "colligatam",
+      "ppp.acc.sg.neut": "colligatum",
+      "ppp.abl.sg.masc": "colligato",
+      "ppp.abl.sg.fem": "colligata",
+      "ppp.abl.sg.neut": "colligato",
+      "ppp.voc.sg.masc": "colligate",
+      "ppp.voc.sg.fem": "colligata",
+      "ppp.voc.sg.neut": "colligatum",
+      "ppp.nom.pl.masc": "colligati",
+      "ppp.nom.pl.fem": "colligatae",
+      "ppp.nom.pl.neut": "colligata",
+      "ppp.gen.pl.masc": "colligatorum",
+      "ppp.gen.pl.fem": "colligatarum",
+      "ppp.gen.pl.neut": "colligatorum",
+      "ppp.dat.pl.masc": "colligatis",
+      "ppp.dat.pl.fem": "colligatis",
+      "ppp.dat.pl.neut": "colligatis",
+      "ppp.acc.pl.masc": "colligatos",
+      "ppp.acc.pl.fem": "colligatas",
+      "ppp.acc.pl.neut": "colligata",
+      "ppp.abl.pl.masc": "colligatis",
+      "ppp.abl.pl.fem": "colligatis",
+      "ppp.abl.pl.neut": "colligatis",
+      "ppp.voc.pl.masc": "colligati",
+      "ppp.voc.pl.fem": "colligatae",
+      "ppp.voc.pl.neut": "colligata"
+    }
   }
 }

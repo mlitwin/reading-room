@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "exstingue",
       "2pl.pres.imp.act": "exstinguite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exstinctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exstinctus",
+      "ppp.nom.sg.fem": "exstincta",
+      "ppp.nom.sg.neut": "exstinctum",
+      "ppp.gen.sg.masc": "exstincti",
+      "ppp.gen.sg.fem": "exstinctae",
+      "ppp.gen.sg.neut": "exstincti",
+      "ppp.dat.sg.masc": "exstincto",
+      "ppp.dat.sg.fem": "exstinctae",
+      "ppp.dat.sg.neut": "exstincto",
+      "ppp.acc.sg.masc": "exstinctum",
+      "ppp.acc.sg.fem": "exstinctam",
+      "ppp.acc.sg.neut": "exstinctum",
+      "ppp.abl.sg.masc": "exstincto",
+      "ppp.abl.sg.fem": "exstincta",
+      "ppp.abl.sg.neut": "exstincto",
+      "ppp.voc.sg.masc": "exstincte",
+      "ppp.voc.sg.fem": "exstincta",
+      "ppp.voc.sg.neut": "exstinctum",
+      "ppp.nom.pl.masc": "exstincti",
+      "ppp.nom.pl.fem": "exstinctae",
+      "ppp.nom.pl.neut": "exstincta",
+      "ppp.gen.pl.masc": "exstinctorum",
+      "ppp.gen.pl.fem": "exstinctarum",
+      "ppp.gen.pl.neut": "exstinctorum",
+      "ppp.dat.pl.masc": "exstinctis",
+      "ppp.dat.pl.fem": "exstinctis",
+      "ppp.dat.pl.neut": "exstinctis",
+      "ppp.acc.pl.masc": "exstinctos",
+      "ppp.acc.pl.fem": "exstinctas",
+      "ppp.acc.pl.neut": "exstincta",
+      "ppp.abl.pl.masc": "exstinctis",
+      "ppp.abl.pl.fem": "exstinctis",
+      "ppp.abl.pl.neut": "exstinctis",
+      "ppp.voc.pl.masc": "exstincti",
+      "ppp.voc.pl.fem": "exstinctae",
+      "ppp.voc.pl.neut": "exstincta"
+    }
   }
 }

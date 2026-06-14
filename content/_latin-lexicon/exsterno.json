@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "exsterna",
       "2pl.pres.imp.act": "exsternate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exsternatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exsternatus",
+      "ppp.nom.sg.fem": "exsternata",
+      "ppp.nom.sg.neut": "exsternatum",
+      "ppp.gen.sg.masc": "exsternati",
+      "ppp.gen.sg.fem": "exsternatae",
+      "ppp.gen.sg.neut": "exsternati",
+      "ppp.dat.sg.masc": "exsternato",
+      "ppp.dat.sg.fem": "exsternatae",
+      "ppp.dat.sg.neut": "exsternato",
+      "ppp.acc.sg.masc": "exsternatum",
+      "ppp.acc.sg.fem": "exsternatam",
+      "ppp.acc.sg.neut": "exsternatum",
+      "ppp.abl.sg.masc": "exsternato",
+      "ppp.abl.sg.fem": "exsternata",
+      "ppp.abl.sg.neut": "exsternato",
+      "ppp.voc.sg.masc": "exsternate",
+      "ppp.voc.sg.fem": "exsternata",
+      "ppp.voc.sg.neut": "exsternatum",
+      "ppp.nom.pl.masc": "exsternati",
+      "ppp.nom.pl.fem": "exsternatae",
+      "ppp.nom.pl.neut": "exsternata",
+      "ppp.gen.pl.masc": "exsternatorum",
+      "ppp.gen.pl.fem": "exsternatarum",
+      "ppp.gen.pl.neut": "exsternatorum",
+      "ppp.dat.pl.masc": "exsternatis",
+      "ppp.dat.pl.fem": "exsternatis",
+      "ppp.dat.pl.neut": "exsternatis",
+      "ppp.acc.pl.masc": "exsternatos",
+      "ppp.acc.pl.fem": "exsternatas",
+      "ppp.acc.pl.neut": "exsternata",
+      "ppp.abl.pl.masc": "exsternatis",
+      "ppp.abl.pl.fem": "exsternatis",
+      "ppp.abl.pl.neut": "exsternatis",
+      "ppp.voc.pl.masc": "exsternati",
+      "ppp.voc.pl.fem": "exsternatae",
+      "ppp.voc.pl.neut": "exsternata"
+    }
   }
 }

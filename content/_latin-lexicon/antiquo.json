@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "antiqua",
       "2pl.pres.imp.act": "antiquate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: antiquatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "antiquatus",
+      "ppp.nom.sg.fem": "antiquata",
+      "ppp.nom.sg.neut": "antiquatum",
+      "ppp.gen.sg.masc": "antiquati",
+      "ppp.gen.sg.fem": "antiquatae",
+      "ppp.gen.sg.neut": "antiquati",
+      "ppp.dat.sg.masc": "antiquato",
+      "ppp.dat.sg.fem": "antiquatae",
+      "ppp.dat.sg.neut": "antiquato",
+      "ppp.acc.sg.masc": "antiquatum",
+      "ppp.acc.sg.fem": "antiquatam",
+      "ppp.acc.sg.neut": "antiquatum",
+      "ppp.abl.sg.masc": "antiquato",
+      "ppp.abl.sg.fem": "antiquata",
+      "ppp.abl.sg.neut": "antiquato",
+      "ppp.voc.sg.masc": "antiquate",
+      "ppp.voc.sg.fem": "antiquata",
+      "ppp.voc.sg.neut": "antiquatum",
+      "ppp.nom.pl.masc": "antiquati",
+      "ppp.nom.pl.fem": "antiquatae",
+      "ppp.nom.pl.neut": "antiquata",
+      "ppp.gen.pl.masc": "antiquatorum",
+      "ppp.gen.pl.fem": "antiquatarum",
+      "ppp.gen.pl.neut": "antiquatorum",
+      "ppp.dat.pl.masc": "antiquatis",
+      "ppp.dat.pl.fem": "antiquatis",
+      "ppp.dat.pl.neut": "antiquatis",
+      "ppp.acc.pl.masc": "antiquatos",
+      "ppp.acc.pl.fem": "antiquatas",
+      "ppp.acc.pl.neut": "antiquata",
+      "ppp.abl.pl.masc": "antiquatis",
+      "ppp.abl.pl.fem": "antiquatis",
+      "ppp.abl.pl.neut": "antiquatis",
+      "ppp.voc.pl.masc": "antiquati",
+      "ppp.voc.pl.fem": "antiquatae",
+      "ppp.voc.pl.neut": "antiquata"
+    }
   }
 }

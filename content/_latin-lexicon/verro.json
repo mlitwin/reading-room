@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "verre",
       "2pl.pres.imp.act": "verrite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: versus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "versus",
+      "ppp.nom.sg.fem": "versa",
+      "ppp.nom.sg.neut": "versum",
+      "ppp.gen.sg.masc": "versi",
+      "ppp.gen.sg.fem": "versae",
+      "ppp.gen.sg.neut": "versi",
+      "ppp.dat.sg.masc": "verso",
+      "ppp.dat.sg.fem": "versae",
+      "ppp.dat.sg.neut": "verso",
+      "ppp.acc.sg.masc": "versum",
+      "ppp.acc.sg.fem": "versam",
+      "ppp.acc.sg.neut": "versum",
+      "ppp.abl.sg.masc": "verso",
+      "ppp.abl.sg.fem": "versa",
+      "ppp.abl.sg.neut": "verso",
+      "ppp.voc.sg.masc": "verse",
+      "ppp.voc.sg.fem": "versa",
+      "ppp.voc.sg.neut": "versum",
+      "ppp.nom.pl.masc": "versi",
+      "ppp.nom.pl.fem": "versae",
+      "ppp.nom.pl.neut": "versa",
+      "ppp.gen.pl.masc": "versorum",
+      "ppp.gen.pl.fem": "versarum",
+      "ppp.gen.pl.neut": "versorum",
+      "ppp.dat.pl.masc": "versis",
+      "ppp.dat.pl.fem": "versis",
+      "ppp.dat.pl.neut": "versis",
+      "ppp.acc.pl.masc": "versos",
+      "ppp.acc.pl.fem": "versas",
+      "ppp.acc.pl.neut": "versa",
+      "ppp.abl.pl.masc": "versis",
+      "ppp.abl.pl.fem": "versis",
+      "ppp.abl.pl.neut": "versis",
+      "ppp.voc.pl.masc": "versi",
+      "ppp.voc.pl.fem": "versae",
+      "ppp.voc.pl.neut": "versa"
+    }
   }
 }

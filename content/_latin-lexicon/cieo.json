@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "cie",
       "2pl.pres.imp.act": "ciete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: citus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "citus",
+      "ppp.nom.sg.fem": "cita",
+      "ppp.nom.sg.neut": "citum",
+      "ppp.gen.sg.masc": "citi",
+      "ppp.gen.sg.fem": "citae",
+      "ppp.gen.sg.neut": "citi",
+      "ppp.dat.sg.masc": "cito",
+      "ppp.dat.sg.fem": "citae",
+      "ppp.dat.sg.neut": "cito",
+      "ppp.acc.sg.masc": "citum",
+      "ppp.acc.sg.fem": "citam",
+      "ppp.acc.sg.neut": "citum",
+      "ppp.abl.sg.masc": "cito",
+      "ppp.abl.sg.fem": "cita",
+      "ppp.abl.sg.neut": "cito",
+      "ppp.voc.sg.masc": "cite",
+      "ppp.voc.sg.fem": "cita",
+      "ppp.voc.sg.neut": "citum",
+      "ppp.nom.pl.masc": "citi",
+      "ppp.nom.pl.fem": "citae",
+      "ppp.nom.pl.neut": "cita",
+      "ppp.gen.pl.masc": "citorum",
+      "ppp.gen.pl.fem": "citarum",
+      "ppp.gen.pl.neut": "citorum",
+      "ppp.dat.pl.masc": "citis",
+      "ppp.dat.pl.fem": "citis",
+      "ppp.dat.pl.neut": "citis",
+      "ppp.acc.pl.masc": "citos",
+      "ppp.acc.pl.fem": "citas",
+      "ppp.acc.pl.neut": "cita",
+      "ppp.abl.pl.masc": "citis",
+      "ppp.abl.pl.fem": "citis",
+      "ppp.abl.pl.neut": "citis",
+      "ppp.voc.pl.masc": "citi",
+      "ppp.voc.pl.fem": "citae",
+      "ppp.voc.pl.neut": "cita"
+    }
   }
 }

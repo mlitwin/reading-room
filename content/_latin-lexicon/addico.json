@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "addice",
       "2pl.pres.imp.act": "addicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: addictus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "addictus",
+      "ppp.nom.sg.fem": "addicta",
+      "ppp.nom.sg.neut": "addictum",
+      "ppp.gen.sg.masc": "addicti",
+      "ppp.gen.sg.fem": "addictae",
+      "ppp.gen.sg.neut": "addicti",
+      "ppp.dat.sg.masc": "addicto",
+      "ppp.dat.sg.fem": "addictae",
+      "ppp.dat.sg.neut": "addicto",
+      "ppp.acc.sg.masc": "addictum",
+      "ppp.acc.sg.fem": "addictam",
+      "ppp.acc.sg.neut": "addictum",
+      "ppp.abl.sg.masc": "addicto",
+      "ppp.abl.sg.fem": "addicta",
+      "ppp.abl.sg.neut": "addicto",
+      "ppp.voc.sg.masc": "addicte",
+      "ppp.voc.sg.fem": "addicta",
+      "ppp.voc.sg.neut": "addictum",
+      "ppp.nom.pl.masc": "addicti",
+      "ppp.nom.pl.fem": "addictae",
+      "ppp.nom.pl.neut": "addicta",
+      "ppp.gen.pl.masc": "addictorum",
+      "ppp.gen.pl.fem": "addictarum",
+      "ppp.gen.pl.neut": "addictorum",
+      "ppp.dat.pl.masc": "addictis",
+      "ppp.dat.pl.fem": "addictis",
+      "ppp.dat.pl.neut": "addictis",
+      "ppp.acc.pl.masc": "addictos",
+      "ppp.acc.pl.fem": "addictas",
+      "ppp.acc.pl.neut": "addicta",
+      "ppp.abl.pl.masc": "addictis",
+      "ppp.abl.pl.fem": "addictis",
+      "ppp.abl.pl.neut": "addictis",
+      "ppp.voc.pl.masc": "addicti",
+      "ppp.voc.pl.fem": "addictae",
+      "ppp.voc.pl.neut": "addicta"
+    }
   }
 }

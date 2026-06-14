@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "exempla",
       "2pl.pres.imp.act": "exemplate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: exemplatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "exemplatus",
+      "ppp.nom.sg.fem": "exemplata",
+      "ppp.nom.sg.neut": "exemplatum",
+      "ppp.gen.sg.masc": "exemplati",
+      "ppp.gen.sg.fem": "exemplatae",
+      "ppp.gen.sg.neut": "exemplati",
+      "ppp.dat.sg.masc": "exemplato",
+      "ppp.dat.sg.fem": "exemplatae",
+      "ppp.dat.sg.neut": "exemplato",
+      "ppp.acc.sg.masc": "exemplatum",
+      "ppp.acc.sg.fem": "exemplatam",
+      "ppp.acc.sg.neut": "exemplatum",
+      "ppp.abl.sg.masc": "exemplato",
+      "ppp.abl.sg.fem": "exemplata",
+      "ppp.abl.sg.neut": "exemplato",
+      "ppp.voc.sg.masc": "exemplate",
+      "ppp.voc.sg.fem": "exemplata",
+      "ppp.voc.sg.neut": "exemplatum",
+      "ppp.nom.pl.masc": "exemplati",
+      "ppp.nom.pl.fem": "exemplatae",
+      "ppp.nom.pl.neut": "exemplata",
+      "ppp.gen.pl.masc": "exemplatorum",
+      "ppp.gen.pl.fem": "exemplatarum",
+      "ppp.gen.pl.neut": "exemplatorum",
+      "ppp.dat.pl.masc": "exemplatis",
+      "ppp.dat.pl.fem": "exemplatis",
+      "ppp.dat.pl.neut": "exemplatis",
+      "ppp.acc.pl.masc": "exemplatos",
+      "ppp.acc.pl.fem": "exemplatas",
+      "ppp.acc.pl.neut": "exemplata",
+      "ppp.abl.pl.masc": "exemplatis",
+      "ppp.abl.pl.fem": "exemplatis",
+      "ppp.abl.pl.neut": "exemplatis",
+      "ppp.voc.pl.masc": "exemplati",
+      "ppp.voc.pl.fem": "exemplatae",
+      "ppp.voc.pl.neut": "exemplata"
+    }
   }
 }

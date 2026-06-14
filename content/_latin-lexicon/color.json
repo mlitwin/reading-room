@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "cola",
       "2pl.pres.imp.act": "colate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: colatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "colatus",
+      "ppp.nom.sg.fem": "colata",
+      "ppp.nom.sg.neut": "colatum",
+      "ppp.gen.sg.masc": "colati",
+      "ppp.gen.sg.fem": "colatae",
+      "ppp.gen.sg.neut": "colati",
+      "ppp.dat.sg.masc": "colato",
+      "ppp.dat.sg.fem": "colatae",
+      "ppp.dat.sg.neut": "colato",
+      "ppp.acc.sg.masc": "colatum",
+      "ppp.acc.sg.fem": "colatam",
+      "ppp.acc.sg.neut": "colatum",
+      "ppp.abl.sg.masc": "colato",
+      "ppp.abl.sg.fem": "colata",
+      "ppp.abl.sg.neut": "colato",
+      "ppp.voc.sg.masc": "colate",
+      "ppp.voc.sg.fem": "colata",
+      "ppp.voc.sg.neut": "colatum",
+      "ppp.nom.pl.masc": "colati",
+      "ppp.nom.pl.fem": "colatae",
+      "ppp.nom.pl.neut": "colata",
+      "ppp.gen.pl.masc": "colatorum",
+      "ppp.gen.pl.fem": "colatarum",
+      "ppp.gen.pl.neut": "colatorum",
+      "ppp.dat.pl.masc": "colatis",
+      "ppp.dat.pl.fem": "colatis",
+      "ppp.dat.pl.neut": "colatis",
+      "ppp.acc.pl.masc": "colatos",
+      "ppp.acc.pl.fem": "colatas",
+      "ppp.acc.pl.neut": "colata",
+      "ppp.abl.pl.masc": "colatis",
+      "ppp.abl.pl.fem": "colatis",
+      "ppp.abl.pl.neut": "colatis",
+      "ppp.voc.pl.masc": "colati",
+      "ppp.voc.pl.fem": "colatae",
+      "ppp.voc.pl.neut": "colata"
+    }
   }
 }

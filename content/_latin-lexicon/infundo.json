@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "infunde",
       "2pl.pres.imp.act": "infundite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: infusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "infusus",
+      "ppp.nom.sg.fem": "infusa",
+      "ppp.nom.sg.neut": "infusum",
+      "ppp.gen.sg.masc": "infusi",
+      "ppp.gen.sg.fem": "infusae",
+      "ppp.gen.sg.neut": "infusi",
+      "ppp.dat.sg.masc": "infuso",
+      "ppp.dat.sg.fem": "infusae",
+      "ppp.dat.sg.neut": "infuso",
+      "ppp.acc.sg.masc": "infusum",
+      "ppp.acc.sg.fem": "infusam",
+      "ppp.acc.sg.neut": "infusum",
+      "ppp.abl.sg.masc": "infuso",
+      "ppp.abl.sg.fem": "infusa",
+      "ppp.abl.sg.neut": "infuso",
+      "ppp.voc.sg.masc": "infuse",
+      "ppp.voc.sg.fem": "infusa",
+      "ppp.voc.sg.neut": "infusum",
+      "ppp.nom.pl.masc": "infusi",
+      "ppp.nom.pl.fem": "infusae",
+      "ppp.nom.pl.neut": "infusa",
+      "ppp.gen.pl.masc": "infusorum",
+      "ppp.gen.pl.fem": "infusarum",
+      "ppp.gen.pl.neut": "infusorum",
+      "ppp.dat.pl.masc": "infusis",
+      "ppp.dat.pl.fem": "infusis",
+      "ppp.dat.pl.neut": "infusis",
+      "ppp.acc.pl.masc": "infusos",
+      "ppp.acc.pl.fem": "infusas",
+      "ppp.acc.pl.neut": "infusa",
+      "ppp.abl.pl.masc": "infusis",
+      "ppp.abl.pl.fem": "infusis",
+      "ppp.abl.pl.neut": "infusis",
+      "ppp.voc.pl.masc": "infusi",
+      "ppp.voc.pl.fem": "infusae",
+      "ppp.voc.pl.neut": "infusa"
+    }
   }
 }

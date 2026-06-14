@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "inveni",
       "2pl.pres.imp.act": "invenite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: inventus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "inventus",
+      "ppp.nom.sg.fem": "inventa",
+      "ppp.nom.sg.neut": "inventum",
+      "ppp.gen.sg.masc": "inventi",
+      "ppp.gen.sg.fem": "inventae",
+      "ppp.gen.sg.neut": "inventi",
+      "ppp.dat.sg.masc": "invento",
+      "ppp.dat.sg.fem": "inventae",
+      "ppp.dat.sg.neut": "invento",
+      "ppp.acc.sg.masc": "inventum",
+      "ppp.acc.sg.fem": "inventam",
+      "ppp.acc.sg.neut": "inventum",
+      "ppp.abl.sg.masc": "invento",
+      "ppp.abl.sg.fem": "inventa",
+      "ppp.abl.sg.neut": "invento",
+      "ppp.voc.sg.masc": "invente",
+      "ppp.voc.sg.fem": "inventa",
+      "ppp.voc.sg.neut": "inventum",
+      "ppp.nom.pl.masc": "inventi",
+      "ppp.nom.pl.fem": "inventae",
+      "ppp.nom.pl.neut": "inventa",
+      "ppp.gen.pl.masc": "inventorum",
+      "ppp.gen.pl.fem": "inventarum",
+      "ppp.gen.pl.neut": "inventorum",
+      "ppp.dat.pl.masc": "inventis",
+      "ppp.dat.pl.fem": "inventis",
+      "ppp.dat.pl.neut": "inventis",
+      "ppp.acc.pl.masc": "inventos",
+      "ppp.acc.pl.fem": "inventas",
+      "ppp.acc.pl.neut": "inventa",
+      "ppp.abl.pl.masc": "inventis",
+      "ppp.abl.pl.fem": "inventis",
+      "ppp.abl.pl.neut": "inventis",
+      "ppp.voc.pl.masc": "inventi",
+      "ppp.voc.pl.fem": "inventae",
+      "ppp.voc.pl.neut": "inventa"
+    }
   }
 }

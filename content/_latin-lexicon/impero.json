@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "impera",
       "2pl.pres.imp.act": "imperate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: imperatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "imperatus",
+      "ppp.nom.sg.fem": "imperata",
+      "ppp.nom.sg.neut": "imperatum",
+      "ppp.gen.sg.masc": "imperati",
+      "ppp.gen.sg.fem": "imperatae",
+      "ppp.gen.sg.neut": "imperati",
+      "ppp.dat.sg.masc": "imperato",
+      "ppp.dat.sg.fem": "imperatae",
+      "ppp.dat.sg.neut": "imperato",
+      "ppp.acc.sg.masc": "imperatum",
+      "ppp.acc.sg.fem": "imperatam",
+      "ppp.acc.sg.neut": "imperatum",
+      "ppp.abl.sg.masc": "imperato",
+      "ppp.abl.sg.fem": "imperata",
+      "ppp.abl.sg.neut": "imperato",
+      "ppp.voc.sg.masc": "imperate",
+      "ppp.voc.sg.fem": "imperata",
+      "ppp.voc.sg.neut": "imperatum",
+      "ppp.nom.pl.masc": "imperati",
+      "ppp.nom.pl.fem": "imperatae",
+      "ppp.nom.pl.neut": "imperata",
+      "ppp.gen.pl.masc": "imperatorum",
+      "ppp.gen.pl.fem": "imperatarum",
+      "ppp.gen.pl.neut": "imperatorum",
+      "ppp.dat.pl.masc": "imperatis",
+      "ppp.dat.pl.fem": "imperatis",
+      "ppp.dat.pl.neut": "imperatis",
+      "ppp.acc.pl.masc": "imperatos",
+      "ppp.acc.pl.fem": "imperatas",
+      "ppp.acc.pl.neut": "imperata",
+      "ppp.abl.pl.masc": "imperatis",
+      "ppp.abl.pl.fem": "imperatis",
+      "ppp.abl.pl.neut": "imperatis",
+      "ppp.voc.pl.masc": "imperati",
+      "ppp.voc.pl.fem": "imperatae",
+      "ppp.voc.pl.neut": "imperata"
+    }
   }
 }

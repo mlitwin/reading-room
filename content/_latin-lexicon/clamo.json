@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "clama",
       "2pl.pres.imp.act": "clamate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: clamatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "clamatus",
+      "ppp.nom.sg.fem": "clamata",
+      "ppp.nom.sg.neut": "clamatum",
+      "ppp.gen.sg.masc": "clamati",
+      "ppp.gen.sg.fem": "clamatae",
+      "ppp.gen.sg.neut": "clamati",
+      "ppp.dat.sg.masc": "clamato",
+      "ppp.dat.sg.fem": "clamatae",
+      "ppp.dat.sg.neut": "clamato",
+      "ppp.acc.sg.masc": "clamatum",
+      "ppp.acc.sg.fem": "clamatam",
+      "ppp.acc.sg.neut": "clamatum",
+      "ppp.abl.sg.masc": "clamato",
+      "ppp.abl.sg.fem": "clamata",
+      "ppp.abl.sg.neut": "clamato",
+      "ppp.voc.sg.masc": "clamate",
+      "ppp.voc.sg.fem": "clamata",
+      "ppp.voc.sg.neut": "clamatum",
+      "ppp.nom.pl.masc": "clamati",
+      "ppp.nom.pl.fem": "clamatae",
+      "ppp.nom.pl.neut": "clamata",
+      "ppp.gen.pl.masc": "clamatorum",
+      "ppp.gen.pl.fem": "clamatarum",
+      "ppp.gen.pl.neut": "clamatorum",
+      "ppp.dat.pl.masc": "clamatis",
+      "ppp.dat.pl.fem": "clamatis",
+      "ppp.dat.pl.neut": "clamatis",
+      "ppp.acc.pl.masc": "clamatos",
+      "ppp.acc.pl.fem": "clamatas",
+      "ppp.acc.pl.neut": "clamata",
+      "ppp.abl.pl.masc": "clamatis",
+      "ppp.abl.pl.fem": "clamatis",
+      "ppp.abl.pl.neut": "clamatis",
+      "ppp.voc.pl.masc": "clamati",
+      "ppp.voc.pl.fem": "clamatae",
+      "ppp.voc.pl.neut": "clamata"
+    }
   }
 }

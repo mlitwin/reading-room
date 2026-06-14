@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "prome",
       "2pl.pres.imp.act": "promite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: promptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "promptus",
+      "ppp.nom.sg.fem": "prompta",
+      "ppp.nom.sg.neut": "promptum",
+      "ppp.gen.sg.masc": "prompti",
+      "ppp.gen.sg.fem": "promptae",
+      "ppp.gen.sg.neut": "prompti",
+      "ppp.dat.sg.masc": "prompto",
+      "ppp.dat.sg.fem": "promptae",
+      "ppp.dat.sg.neut": "prompto",
+      "ppp.acc.sg.masc": "promptum",
+      "ppp.acc.sg.fem": "promptam",
+      "ppp.acc.sg.neut": "promptum",
+      "ppp.abl.sg.masc": "prompto",
+      "ppp.abl.sg.fem": "prompta",
+      "ppp.abl.sg.neut": "prompto",
+      "ppp.voc.sg.masc": "prompte",
+      "ppp.voc.sg.fem": "prompta",
+      "ppp.voc.sg.neut": "promptum",
+      "ppp.nom.pl.masc": "prompti",
+      "ppp.nom.pl.fem": "promptae",
+      "ppp.nom.pl.neut": "prompta",
+      "ppp.gen.pl.masc": "promptorum",
+      "ppp.gen.pl.fem": "promptarum",
+      "ppp.gen.pl.neut": "promptorum",
+      "ppp.dat.pl.masc": "promptis",
+      "ppp.dat.pl.fem": "promptis",
+      "ppp.dat.pl.neut": "promptis",
+      "ppp.acc.pl.masc": "promptos",
+      "ppp.acc.pl.fem": "promptas",
+      "ppp.acc.pl.neut": "prompta",
+      "ppp.abl.pl.masc": "promptis",
+      "ppp.abl.pl.fem": "promptis",
+      "ppp.abl.pl.neut": "promptis",
+      "ppp.voc.pl.masc": "prompti",
+      "ppp.voc.pl.fem": "promptae",
+      "ppp.voc.pl.neut": "prompta"
+    }
   }
 }

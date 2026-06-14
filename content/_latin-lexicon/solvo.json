@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "solve",
       "2pl.pres.imp.act": "solvite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: solutus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "solutus",
+      "ppp.nom.sg.fem": "soluta",
+      "ppp.nom.sg.neut": "solutum",
+      "ppp.gen.sg.masc": "soluti",
+      "ppp.gen.sg.fem": "solutae",
+      "ppp.gen.sg.neut": "soluti",
+      "ppp.dat.sg.masc": "soluto",
+      "ppp.dat.sg.fem": "solutae",
+      "ppp.dat.sg.neut": "soluto",
+      "ppp.acc.sg.masc": "solutum",
+      "ppp.acc.sg.fem": "solutam",
+      "ppp.acc.sg.neut": "solutum",
+      "ppp.abl.sg.masc": "soluto",
+      "ppp.abl.sg.fem": "soluta",
+      "ppp.abl.sg.neut": "soluto",
+      "ppp.voc.sg.masc": "solute",
+      "ppp.voc.sg.fem": "soluta",
+      "ppp.voc.sg.neut": "solutum",
+      "ppp.nom.pl.masc": "soluti",
+      "ppp.nom.pl.fem": "solutae",
+      "ppp.nom.pl.neut": "soluta",
+      "ppp.gen.pl.masc": "solutorum",
+      "ppp.gen.pl.fem": "solutarum",
+      "ppp.gen.pl.neut": "solutorum",
+      "ppp.dat.pl.masc": "solutis",
+      "ppp.dat.pl.fem": "solutis",
+      "ppp.dat.pl.neut": "solutis",
+      "ppp.acc.pl.masc": "solutos",
+      "ppp.acc.pl.fem": "solutas",
+      "ppp.acc.pl.neut": "soluta",
+      "ppp.abl.pl.masc": "solutis",
+      "ppp.abl.pl.fem": "solutis",
+      "ppp.abl.pl.neut": "solutis",
+      "ppp.voc.pl.masc": "soluti",
+      "ppp.voc.pl.fem": "solutae",
+      "ppp.voc.pl.neut": "soluta"
+    }
   }
 }

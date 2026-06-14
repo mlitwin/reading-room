@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "concute",
       "2pl.pres.imp.act": "concutite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: concussus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "concussus",
+      "ppp.nom.sg.fem": "concussa",
+      "ppp.nom.sg.neut": "concussum",
+      "ppp.gen.sg.masc": "concussi",
+      "ppp.gen.sg.fem": "concussae",
+      "ppp.gen.sg.neut": "concussi",
+      "ppp.dat.sg.masc": "concusso",
+      "ppp.dat.sg.fem": "concussae",
+      "ppp.dat.sg.neut": "concusso",
+      "ppp.acc.sg.masc": "concussum",
+      "ppp.acc.sg.fem": "concussam",
+      "ppp.acc.sg.neut": "concussum",
+      "ppp.abl.sg.masc": "concusso",
+      "ppp.abl.sg.fem": "concussa",
+      "ppp.abl.sg.neut": "concusso",
+      "ppp.voc.sg.masc": "concusse",
+      "ppp.voc.sg.fem": "concussa",
+      "ppp.voc.sg.neut": "concussum",
+      "ppp.nom.pl.masc": "concussi",
+      "ppp.nom.pl.fem": "concussae",
+      "ppp.nom.pl.neut": "concussa",
+      "ppp.gen.pl.masc": "concussorum",
+      "ppp.gen.pl.fem": "concussarum",
+      "ppp.gen.pl.neut": "concussorum",
+      "ppp.dat.pl.masc": "concussis",
+      "ppp.dat.pl.fem": "concussis",
+      "ppp.dat.pl.neut": "concussis",
+      "ppp.acc.pl.masc": "concussos",
+      "ppp.acc.pl.fem": "concussas",
+      "ppp.acc.pl.neut": "concussa",
+      "ppp.abl.pl.masc": "concussis",
+      "ppp.abl.pl.fem": "concussis",
+      "ppp.abl.pl.neut": "concussis",
+      "ppp.voc.pl.masc": "concussi",
+      "ppp.voc.pl.fem": "concussae",
+      "ppp.voc.pl.neut": "concussa"
+    }
   }
 }

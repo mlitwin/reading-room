@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "permitte",
       "2pl.pres.imp.act": "permittite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: permissus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "permissus",
+      "ppp.nom.sg.fem": "permissa",
+      "ppp.nom.sg.neut": "permissum",
+      "ppp.gen.sg.masc": "permissi",
+      "ppp.gen.sg.fem": "permissae",
+      "ppp.gen.sg.neut": "permissi",
+      "ppp.dat.sg.masc": "permisso",
+      "ppp.dat.sg.fem": "permissae",
+      "ppp.dat.sg.neut": "permisso",
+      "ppp.acc.sg.masc": "permissum",
+      "ppp.acc.sg.fem": "permissam",
+      "ppp.acc.sg.neut": "permissum",
+      "ppp.abl.sg.masc": "permisso",
+      "ppp.abl.sg.fem": "permissa",
+      "ppp.abl.sg.neut": "permisso",
+      "ppp.voc.sg.masc": "permisse",
+      "ppp.voc.sg.fem": "permissa",
+      "ppp.voc.sg.neut": "permissum",
+      "ppp.nom.pl.masc": "permissi",
+      "ppp.nom.pl.fem": "permissae",
+      "ppp.nom.pl.neut": "permissa",
+      "ppp.gen.pl.masc": "permissorum",
+      "ppp.gen.pl.fem": "permissarum",
+      "ppp.gen.pl.neut": "permissorum",
+      "ppp.dat.pl.masc": "permissis",
+      "ppp.dat.pl.fem": "permissis",
+      "ppp.dat.pl.neut": "permissis",
+      "ppp.acc.pl.masc": "permissos",
+      "ppp.acc.pl.fem": "permissas",
+      "ppp.acc.pl.neut": "permissa",
+      "ppp.abl.pl.masc": "permissis",
+      "ppp.abl.pl.fem": "permissis",
+      "ppp.abl.pl.neut": "permissis",
+      "ppp.voc.pl.masc": "permissi",
+      "ppp.voc.pl.fem": "permissae",
+      "ppp.voc.pl.neut": "permissa"
+    }
   }
 }

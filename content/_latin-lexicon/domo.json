@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "doma",
       "2pl.pres.imp.act": "domate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: domitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "domitus",
+      "ppp.nom.sg.fem": "domita",
+      "ppp.nom.sg.neut": "domitum",
+      "ppp.gen.sg.masc": "domiti",
+      "ppp.gen.sg.fem": "domitae",
+      "ppp.gen.sg.neut": "domiti",
+      "ppp.dat.sg.masc": "domito",
+      "ppp.dat.sg.fem": "domitae",
+      "ppp.dat.sg.neut": "domito",
+      "ppp.acc.sg.masc": "domitum",
+      "ppp.acc.sg.fem": "domitam",
+      "ppp.acc.sg.neut": "domitum",
+      "ppp.abl.sg.masc": "domito",
+      "ppp.abl.sg.fem": "domita",
+      "ppp.abl.sg.neut": "domito",
+      "ppp.voc.sg.masc": "domite",
+      "ppp.voc.sg.fem": "domita",
+      "ppp.voc.sg.neut": "domitum",
+      "ppp.nom.pl.masc": "domiti",
+      "ppp.nom.pl.fem": "domitae",
+      "ppp.nom.pl.neut": "domita",
+      "ppp.gen.pl.masc": "domitorum",
+      "ppp.gen.pl.fem": "domitarum",
+      "ppp.gen.pl.neut": "domitorum",
+      "ppp.dat.pl.masc": "domitis",
+      "ppp.dat.pl.fem": "domitis",
+      "ppp.dat.pl.neut": "domitis",
+      "ppp.acc.pl.masc": "domitos",
+      "ppp.acc.pl.fem": "domitas",
+      "ppp.acc.pl.neut": "domita",
+      "ppp.abl.pl.masc": "domitis",
+      "ppp.abl.pl.fem": "domitis",
+      "ppp.abl.pl.neut": "domitis",
+      "ppp.voc.pl.masc": "domiti",
+      "ppp.voc.pl.fem": "domitae",
+      "ppp.voc.pl.neut": "domita"
+    }
   }
 }

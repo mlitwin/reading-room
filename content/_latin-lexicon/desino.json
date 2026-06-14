@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "desina",
       "2pl.pres.imp.act": "desinate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: desatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "desatus",
+      "ppp.nom.sg.fem": "desata",
+      "ppp.nom.sg.neut": "desatum",
+      "ppp.gen.sg.masc": "desati",
+      "ppp.gen.sg.fem": "desatae",
+      "ppp.gen.sg.neut": "desati",
+      "ppp.dat.sg.masc": "desato",
+      "ppp.dat.sg.fem": "desatae",
+      "ppp.dat.sg.neut": "desato",
+      "ppp.acc.sg.masc": "desatum",
+      "ppp.acc.sg.fem": "desatam",
+      "ppp.acc.sg.neut": "desatum",
+      "ppp.abl.sg.masc": "desato",
+      "ppp.abl.sg.fem": "desata",
+      "ppp.abl.sg.neut": "desato",
+      "ppp.voc.sg.masc": "desate",
+      "ppp.voc.sg.fem": "desata",
+      "ppp.voc.sg.neut": "desatum",
+      "ppp.nom.pl.masc": "desati",
+      "ppp.nom.pl.fem": "desatae",
+      "ppp.nom.pl.neut": "desata",
+      "ppp.gen.pl.masc": "desatorum",
+      "ppp.gen.pl.fem": "desatarum",
+      "ppp.gen.pl.neut": "desatorum",
+      "ppp.dat.pl.masc": "desatis",
+      "ppp.dat.pl.fem": "desatis",
+      "ppp.dat.pl.neut": "desatis",
+      "ppp.acc.pl.masc": "desatos",
+      "ppp.acc.pl.fem": "desatas",
+      "ppp.acc.pl.neut": "desata",
+      "ppp.abl.pl.masc": "desatis",
+      "ppp.abl.pl.fem": "desatis",
+      "ppp.abl.pl.neut": "desatis",
+      "ppp.voc.pl.masc": "desati",
+      "ppp.voc.pl.fem": "desatae",
+      "ppp.voc.pl.neut": "desata"
+    }
   }
 }

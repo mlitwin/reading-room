@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "tenta",
       "2pl.pres.imp.act": "tentate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: tentatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "tentatus",
+      "ppp.nom.sg.fem": "tentata",
+      "ppp.nom.sg.neut": "tentatum",
+      "ppp.gen.sg.masc": "tentati",
+      "ppp.gen.sg.fem": "tentatae",
+      "ppp.gen.sg.neut": "tentati",
+      "ppp.dat.sg.masc": "tentato",
+      "ppp.dat.sg.fem": "tentatae",
+      "ppp.dat.sg.neut": "tentato",
+      "ppp.acc.sg.masc": "tentatum",
+      "ppp.acc.sg.fem": "tentatam",
+      "ppp.acc.sg.neut": "tentatum",
+      "ppp.abl.sg.masc": "tentato",
+      "ppp.abl.sg.fem": "tentata",
+      "ppp.abl.sg.neut": "tentato",
+      "ppp.voc.sg.masc": "tentate",
+      "ppp.voc.sg.fem": "tentata",
+      "ppp.voc.sg.neut": "tentatum",
+      "ppp.nom.pl.masc": "tentati",
+      "ppp.nom.pl.fem": "tentatae",
+      "ppp.nom.pl.neut": "tentata",
+      "ppp.gen.pl.masc": "tentatorum",
+      "ppp.gen.pl.fem": "tentatarum",
+      "ppp.gen.pl.neut": "tentatorum",
+      "ppp.dat.pl.masc": "tentatis",
+      "ppp.dat.pl.fem": "tentatis",
+      "ppp.dat.pl.neut": "tentatis",
+      "ppp.acc.pl.masc": "tentatos",
+      "ppp.acc.pl.fem": "tentatas",
+      "ppp.acc.pl.neut": "tentata",
+      "ppp.abl.pl.masc": "tentatis",
+      "ppp.abl.pl.fem": "tentatis",
+      "ppp.abl.pl.neut": "tentatis",
+      "ppp.voc.pl.masc": "tentati",
+      "ppp.voc.pl.fem": "tentatae",
+      "ppp.voc.pl.neut": "tentata"
+    }
   }
 }

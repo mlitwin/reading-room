@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "stringe",
       "2pl.pres.imp.act": "stringite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: strictus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "strictus",
+      "ppp.nom.sg.fem": "stricta",
+      "ppp.nom.sg.neut": "strictum",
+      "ppp.gen.sg.masc": "stricti",
+      "ppp.gen.sg.fem": "strictae",
+      "ppp.gen.sg.neut": "stricti",
+      "ppp.dat.sg.masc": "stricto",
+      "ppp.dat.sg.fem": "strictae",
+      "ppp.dat.sg.neut": "stricto",
+      "ppp.acc.sg.masc": "strictum",
+      "ppp.acc.sg.fem": "strictam",
+      "ppp.acc.sg.neut": "strictum",
+      "ppp.abl.sg.masc": "stricto",
+      "ppp.abl.sg.fem": "stricta",
+      "ppp.abl.sg.neut": "stricto",
+      "ppp.voc.sg.masc": "stricte",
+      "ppp.voc.sg.fem": "stricta",
+      "ppp.voc.sg.neut": "strictum",
+      "ppp.nom.pl.masc": "stricti",
+      "ppp.nom.pl.fem": "strictae",
+      "ppp.nom.pl.neut": "stricta",
+      "ppp.gen.pl.masc": "strictorum",
+      "ppp.gen.pl.fem": "strictarum",
+      "ppp.gen.pl.neut": "strictorum",
+      "ppp.dat.pl.masc": "strictis",
+      "ppp.dat.pl.fem": "strictis",
+      "ppp.dat.pl.neut": "strictis",
+      "ppp.acc.pl.masc": "strictos",
+      "ppp.acc.pl.fem": "strictas",
+      "ppp.acc.pl.neut": "stricta",
+      "ppp.abl.pl.masc": "strictis",
+      "ppp.abl.pl.fem": "strictis",
+      "ppp.abl.pl.neut": "strictis",
+      "ppp.voc.pl.masc": "stricti",
+      "ppp.voc.pl.fem": "strictae",
+      "ppp.voc.pl.neut": "stricta"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "effice",
       "2pl.pres.imp.act": "efficite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: effectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "effectus",
+      "ppp.nom.sg.fem": "effecta",
+      "ppp.nom.sg.neut": "effectum",
+      "ppp.gen.sg.masc": "effecti",
+      "ppp.gen.sg.fem": "effectae",
+      "ppp.gen.sg.neut": "effecti",
+      "ppp.dat.sg.masc": "effecto",
+      "ppp.dat.sg.fem": "effectae",
+      "ppp.dat.sg.neut": "effecto",
+      "ppp.acc.sg.masc": "effectum",
+      "ppp.acc.sg.fem": "effectam",
+      "ppp.acc.sg.neut": "effectum",
+      "ppp.abl.sg.masc": "effecto",
+      "ppp.abl.sg.fem": "effecta",
+      "ppp.abl.sg.neut": "effecto",
+      "ppp.voc.sg.masc": "effecte",
+      "ppp.voc.sg.fem": "effecta",
+      "ppp.voc.sg.neut": "effectum",
+      "ppp.nom.pl.masc": "effecti",
+      "ppp.nom.pl.fem": "effectae",
+      "ppp.nom.pl.neut": "effecta",
+      "ppp.gen.pl.masc": "effectorum",
+      "ppp.gen.pl.fem": "effectarum",
+      "ppp.gen.pl.neut": "effectorum",
+      "ppp.dat.pl.masc": "effectis",
+      "ppp.dat.pl.fem": "effectis",
+      "ppp.dat.pl.neut": "effectis",
+      "ppp.acc.pl.masc": "effectos",
+      "ppp.acc.pl.fem": "effectas",
+      "ppp.acc.pl.neut": "effecta",
+      "ppp.abl.pl.masc": "effectis",
+      "ppp.abl.pl.fem": "effectis",
+      "ppp.abl.pl.neut": "effectis",
+      "ppp.voc.pl.masc": "effecti",
+      "ppp.voc.pl.fem": "effectae",
+      "ppp.voc.pl.neut": "effecta"
+    }
   }
 }

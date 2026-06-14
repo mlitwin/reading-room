@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "mina",
       "2pl.pres.imp.act": "minate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: minatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "minatus",
+      "ppp.nom.sg.fem": "minata",
+      "ppp.nom.sg.neut": "minatum",
+      "ppp.gen.sg.masc": "minati",
+      "ppp.gen.sg.fem": "minatae",
+      "ppp.gen.sg.neut": "minati",
+      "ppp.dat.sg.masc": "minato",
+      "ppp.dat.sg.fem": "minatae",
+      "ppp.dat.sg.neut": "minato",
+      "ppp.acc.sg.masc": "minatum",
+      "ppp.acc.sg.fem": "minatam",
+      "ppp.acc.sg.neut": "minatum",
+      "ppp.abl.sg.masc": "minato",
+      "ppp.abl.sg.fem": "minata",
+      "ppp.abl.sg.neut": "minato",
+      "ppp.voc.sg.masc": "minate",
+      "ppp.voc.sg.fem": "minata",
+      "ppp.voc.sg.neut": "minatum",
+      "ppp.nom.pl.masc": "minati",
+      "ppp.nom.pl.fem": "minatae",
+      "ppp.nom.pl.neut": "minata",
+      "ppp.gen.pl.masc": "minatorum",
+      "ppp.gen.pl.fem": "minatarum",
+      "ppp.gen.pl.neut": "minatorum",
+      "ppp.dat.pl.masc": "minatis",
+      "ppp.dat.pl.fem": "minatis",
+      "ppp.dat.pl.neut": "minatis",
+      "ppp.acc.pl.masc": "minatos",
+      "ppp.acc.pl.fem": "minatas",
+      "ppp.acc.pl.neut": "minata",
+      "ppp.abl.pl.masc": "minatis",
+      "ppp.abl.pl.fem": "minatis",
+      "ppp.abl.pl.neut": "minatis",
+      "ppp.voc.pl.masc": "minati",
+      "ppp.voc.pl.fem": "minatae",
+      "ppp.voc.pl.neut": "minata"
+    }
   }
 }

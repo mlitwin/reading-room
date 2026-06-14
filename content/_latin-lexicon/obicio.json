@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "obice",
       "2pl.pres.imp.act": "obicite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: objectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "objectus",
+      "ppp.nom.sg.fem": "objecta",
+      "ppp.nom.sg.neut": "objectum",
+      "ppp.gen.sg.masc": "objecti",
+      "ppp.gen.sg.fem": "objectae",
+      "ppp.gen.sg.neut": "objecti",
+      "ppp.dat.sg.masc": "objecto",
+      "ppp.dat.sg.fem": "objectae",
+      "ppp.dat.sg.neut": "objecto",
+      "ppp.acc.sg.masc": "objectum",
+      "ppp.acc.sg.fem": "objectam",
+      "ppp.acc.sg.neut": "objectum",
+      "ppp.abl.sg.masc": "objecto",
+      "ppp.abl.sg.fem": "objecta",
+      "ppp.abl.sg.neut": "objecto",
+      "ppp.voc.sg.masc": "objecte",
+      "ppp.voc.sg.fem": "objecta",
+      "ppp.voc.sg.neut": "objectum",
+      "ppp.nom.pl.masc": "objecti",
+      "ppp.nom.pl.fem": "objectae",
+      "ppp.nom.pl.neut": "objecta",
+      "ppp.gen.pl.masc": "objectorum",
+      "ppp.gen.pl.fem": "objectarum",
+      "ppp.gen.pl.neut": "objectorum",
+      "ppp.dat.pl.masc": "objectis",
+      "ppp.dat.pl.fem": "objectis",
+      "ppp.dat.pl.neut": "objectis",
+      "ppp.acc.pl.masc": "objectos",
+      "ppp.acc.pl.fem": "objectas",
+      "ppp.acc.pl.neut": "objecta",
+      "ppp.abl.pl.masc": "objectis",
+      "ppp.abl.pl.fem": "objectis",
+      "ppp.abl.pl.neut": "objectis",
+      "ppp.voc.pl.masc": "objecti",
+      "ppp.voc.pl.fem": "objectae",
+      "ppp.voc.pl.neut": "objecta"
+    }
   }
 }

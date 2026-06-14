@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "affecta",
       "2pl.pres.imp.act": "affectate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: affectatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "affectatus",
+      "ppp.nom.sg.fem": "affectata",
+      "ppp.nom.sg.neut": "affectatum",
+      "ppp.gen.sg.masc": "affectati",
+      "ppp.gen.sg.fem": "affectatae",
+      "ppp.gen.sg.neut": "affectati",
+      "ppp.dat.sg.masc": "affectato",
+      "ppp.dat.sg.fem": "affectatae",
+      "ppp.dat.sg.neut": "affectato",
+      "ppp.acc.sg.masc": "affectatum",
+      "ppp.acc.sg.fem": "affectatam",
+      "ppp.acc.sg.neut": "affectatum",
+      "ppp.abl.sg.masc": "affectato",
+      "ppp.abl.sg.fem": "affectata",
+      "ppp.abl.sg.neut": "affectato",
+      "ppp.voc.sg.masc": "affectate",
+      "ppp.voc.sg.fem": "affectata",
+      "ppp.voc.sg.neut": "affectatum",
+      "ppp.nom.pl.masc": "affectati",
+      "ppp.nom.pl.fem": "affectatae",
+      "ppp.nom.pl.neut": "affectata",
+      "ppp.gen.pl.masc": "affectatorum",
+      "ppp.gen.pl.fem": "affectatarum",
+      "ppp.gen.pl.neut": "affectatorum",
+      "ppp.dat.pl.masc": "affectatis",
+      "ppp.dat.pl.fem": "affectatis",
+      "ppp.dat.pl.neut": "affectatis",
+      "ppp.acc.pl.masc": "affectatos",
+      "ppp.acc.pl.fem": "affectatas",
+      "ppp.acc.pl.neut": "affectata",
+      "ppp.abl.pl.masc": "affectatis",
+      "ppp.abl.pl.fem": "affectatis",
+      "ppp.abl.pl.neut": "affectatis",
+      "ppp.voc.pl.masc": "affectati",
+      "ppp.voc.pl.fem": "affectatae",
+      "ppp.voc.pl.neut": "affectata"
+    }
   }
 }

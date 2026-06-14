@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "misce",
       "2pl.pres.imp.act": "miscete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mixtus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mixtus",
+      "ppp.nom.sg.fem": "mixta",
+      "ppp.nom.sg.neut": "mixtum",
+      "ppp.gen.sg.masc": "mixti",
+      "ppp.gen.sg.fem": "mixtae",
+      "ppp.gen.sg.neut": "mixti",
+      "ppp.dat.sg.masc": "mixto",
+      "ppp.dat.sg.fem": "mixtae",
+      "ppp.dat.sg.neut": "mixto",
+      "ppp.acc.sg.masc": "mixtum",
+      "ppp.acc.sg.fem": "mixtam",
+      "ppp.acc.sg.neut": "mixtum",
+      "ppp.abl.sg.masc": "mixto",
+      "ppp.abl.sg.fem": "mixta",
+      "ppp.abl.sg.neut": "mixto",
+      "ppp.voc.sg.masc": "mixte",
+      "ppp.voc.sg.fem": "mixta",
+      "ppp.voc.sg.neut": "mixtum",
+      "ppp.nom.pl.masc": "mixti",
+      "ppp.nom.pl.fem": "mixtae",
+      "ppp.nom.pl.neut": "mixta",
+      "ppp.gen.pl.masc": "mixtorum",
+      "ppp.gen.pl.fem": "mixtarum",
+      "ppp.gen.pl.neut": "mixtorum",
+      "ppp.dat.pl.masc": "mixtis",
+      "ppp.dat.pl.fem": "mixtis",
+      "ppp.dat.pl.neut": "mixtis",
+      "ppp.acc.pl.masc": "mixtos",
+      "ppp.acc.pl.fem": "mixtas",
+      "ppp.acc.pl.neut": "mixta",
+      "ppp.abl.pl.masc": "mixtis",
+      "ppp.abl.pl.fem": "mixtis",
+      "ppp.abl.pl.neut": "mixtis",
+      "ppp.voc.pl.masc": "mixti",
+      "ppp.voc.pl.fem": "mixtae",
+      "ppp.voc.pl.neut": "mixta"
+    }
   }
 }

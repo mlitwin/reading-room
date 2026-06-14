@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "desere",
       "2pl.pres.imp.act": "deserite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: desertus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "desertus",
+      "ppp.nom.sg.fem": "deserta",
+      "ppp.nom.sg.neut": "desertum",
+      "ppp.gen.sg.masc": "deserti",
+      "ppp.gen.sg.fem": "desertae",
+      "ppp.gen.sg.neut": "deserti",
+      "ppp.dat.sg.masc": "deserto",
+      "ppp.dat.sg.fem": "desertae",
+      "ppp.dat.sg.neut": "deserto",
+      "ppp.acc.sg.masc": "desertum",
+      "ppp.acc.sg.fem": "desertam",
+      "ppp.acc.sg.neut": "desertum",
+      "ppp.abl.sg.masc": "deserto",
+      "ppp.abl.sg.fem": "deserta",
+      "ppp.abl.sg.neut": "deserto",
+      "ppp.voc.sg.masc": "deserte",
+      "ppp.voc.sg.fem": "deserta",
+      "ppp.voc.sg.neut": "desertum",
+      "ppp.nom.pl.masc": "deserti",
+      "ppp.nom.pl.fem": "desertae",
+      "ppp.nom.pl.neut": "deserta",
+      "ppp.gen.pl.masc": "desertorum",
+      "ppp.gen.pl.fem": "desertarum",
+      "ppp.gen.pl.neut": "desertorum",
+      "ppp.dat.pl.masc": "desertis",
+      "ppp.dat.pl.fem": "desertis",
+      "ppp.dat.pl.neut": "desertis",
+      "ppp.acc.pl.masc": "desertos",
+      "ppp.acc.pl.fem": "desertas",
+      "ppp.acc.pl.neut": "deserta",
+      "ppp.abl.pl.masc": "desertis",
+      "ppp.abl.pl.fem": "desertis",
+      "ppp.abl.pl.neut": "desertis",
+      "ppp.voc.pl.masc": "deserti",
+      "ppp.voc.pl.fem": "desertae",
+      "ppp.voc.pl.neut": "deserta"
+    }
   }
 }

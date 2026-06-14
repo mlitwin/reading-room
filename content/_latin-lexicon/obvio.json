@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "obvia",
       "2pl.pres.imp.act": "obviate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: obviatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "obviatus",
+      "ppp.nom.sg.fem": "obviata",
+      "ppp.nom.sg.neut": "obviatum",
+      "ppp.gen.sg.masc": "obviati",
+      "ppp.gen.sg.fem": "obviatae",
+      "ppp.gen.sg.neut": "obviati",
+      "ppp.dat.sg.masc": "obviato",
+      "ppp.dat.sg.fem": "obviatae",
+      "ppp.dat.sg.neut": "obviato",
+      "ppp.acc.sg.masc": "obviatum",
+      "ppp.acc.sg.fem": "obviatam",
+      "ppp.acc.sg.neut": "obviatum",
+      "ppp.abl.sg.masc": "obviato",
+      "ppp.abl.sg.fem": "obviata",
+      "ppp.abl.sg.neut": "obviato",
+      "ppp.voc.sg.masc": "obviate",
+      "ppp.voc.sg.fem": "obviata",
+      "ppp.voc.sg.neut": "obviatum",
+      "ppp.nom.pl.masc": "obviati",
+      "ppp.nom.pl.fem": "obviatae",
+      "ppp.nom.pl.neut": "obviata",
+      "ppp.gen.pl.masc": "obviatorum",
+      "ppp.gen.pl.fem": "obviatarum",
+      "ppp.gen.pl.neut": "obviatorum",
+      "ppp.dat.pl.masc": "obviatis",
+      "ppp.dat.pl.fem": "obviatis",
+      "ppp.dat.pl.neut": "obviatis",
+      "ppp.acc.pl.masc": "obviatos",
+      "ppp.acc.pl.fem": "obviatas",
+      "ppp.acc.pl.neut": "obviata",
+      "ppp.abl.pl.masc": "obviatis",
+      "ppp.abl.pl.fem": "obviatis",
+      "ppp.abl.pl.neut": "obviatis",
+      "ppp.voc.pl.masc": "obviati",
+      "ppp.voc.pl.fem": "obviatae",
+      "ppp.voc.pl.neut": "obviata"
+    }
   }
 }

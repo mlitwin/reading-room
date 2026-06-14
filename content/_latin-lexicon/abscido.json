@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "abscide",
       "2pl.pres.imp.act": "abscidite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: abscisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "abscisus",
+      "ppp.nom.sg.fem": "abscisa",
+      "ppp.nom.sg.neut": "abscisum",
+      "ppp.gen.sg.masc": "abscisi",
+      "ppp.gen.sg.fem": "abscisae",
+      "ppp.gen.sg.neut": "abscisi",
+      "ppp.dat.sg.masc": "absciso",
+      "ppp.dat.sg.fem": "abscisae",
+      "ppp.dat.sg.neut": "absciso",
+      "ppp.acc.sg.masc": "abscisum",
+      "ppp.acc.sg.fem": "abscisam",
+      "ppp.acc.sg.neut": "abscisum",
+      "ppp.abl.sg.masc": "absciso",
+      "ppp.abl.sg.fem": "abscisa",
+      "ppp.abl.sg.neut": "absciso",
+      "ppp.voc.sg.masc": "abscise",
+      "ppp.voc.sg.fem": "abscisa",
+      "ppp.voc.sg.neut": "abscisum",
+      "ppp.nom.pl.masc": "abscisi",
+      "ppp.nom.pl.fem": "abscisae",
+      "ppp.nom.pl.neut": "abscisa",
+      "ppp.gen.pl.masc": "abscisorum",
+      "ppp.gen.pl.fem": "abscisarum",
+      "ppp.gen.pl.neut": "abscisorum",
+      "ppp.dat.pl.masc": "abscisis",
+      "ppp.dat.pl.fem": "abscisis",
+      "ppp.dat.pl.neut": "abscisis",
+      "ppp.acc.pl.masc": "abscisos",
+      "ppp.acc.pl.fem": "abscisas",
+      "ppp.acc.pl.neut": "abscisa",
+      "ppp.abl.pl.masc": "abscisis",
+      "ppp.abl.pl.fem": "abscisis",
+      "ppp.abl.pl.neut": "abscisis",
+      "ppp.voc.pl.masc": "abscisi",
+      "ppp.voc.pl.fem": "abscisae",
+      "ppp.voc.pl.neut": "abscisa"
+    }
   }
 }

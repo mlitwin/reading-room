@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "robora",
       "2pl.pres.imp.act": "roborate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: roboratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "roboratus",
+      "ppp.nom.sg.fem": "roborata",
+      "ppp.nom.sg.neut": "roboratum",
+      "ppp.gen.sg.masc": "roborati",
+      "ppp.gen.sg.fem": "roboratae",
+      "ppp.gen.sg.neut": "roborati",
+      "ppp.dat.sg.masc": "roborato",
+      "ppp.dat.sg.fem": "roboratae",
+      "ppp.dat.sg.neut": "roborato",
+      "ppp.acc.sg.masc": "roboratum",
+      "ppp.acc.sg.fem": "roboratam",
+      "ppp.acc.sg.neut": "roboratum",
+      "ppp.abl.sg.masc": "roborato",
+      "ppp.abl.sg.fem": "roborata",
+      "ppp.abl.sg.neut": "roborato",
+      "ppp.voc.sg.masc": "roborate",
+      "ppp.voc.sg.fem": "roborata",
+      "ppp.voc.sg.neut": "roboratum",
+      "ppp.nom.pl.masc": "roborati",
+      "ppp.nom.pl.fem": "roboratae",
+      "ppp.nom.pl.neut": "roborata",
+      "ppp.gen.pl.masc": "roboratorum",
+      "ppp.gen.pl.fem": "roboratarum",
+      "ppp.gen.pl.neut": "roboratorum",
+      "ppp.dat.pl.masc": "roboratis",
+      "ppp.dat.pl.fem": "roboratis",
+      "ppp.dat.pl.neut": "roboratis",
+      "ppp.acc.pl.masc": "roboratos",
+      "ppp.acc.pl.fem": "roboratas",
+      "ppp.acc.pl.neut": "roborata",
+      "ppp.abl.pl.masc": "roboratis",
+      "ppp.abl.pl.fem": "roboratis",
+      "ppp.abl.pl.neut": "roboratis",
+      "ppp.voc.pl.masc": "roborati",
+      "ppp.voc.pl.fem": "roboratae",
+      "ppp.voc.pl.neut": "roborata"
+    }
   }
 }

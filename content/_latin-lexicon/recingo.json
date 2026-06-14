@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "recinge",
       "2pl.pres.imp.act": "recingite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: recinctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "recinctus",
+      "ppp.nom.sg.fem": "recincta",
+      "ppp.nom.sg.neut": "recinctum",
+      "ppp.gen.sg.masc": "recincti",
+      "ppp.gen.sg.fem": "recinctae",
+      "ppp.gen.sg.neut": "recincti",
+      "ppp.dat.sg.masc": "recincto",
+      "ppp.dat.sg.fem": "recinctae",
+      "ppp.dat.sg.neut": "recincto",
+      "ppp.acc.sg.masc": "recinctum",
+      "ppp.acc.sg.fem": "recinctam",
+      "ppp.acc.sg.neut": "recinctum",
+      "ppp.abl.sg.masc": "recincto",
+      "ppp.abl.sg.fem": "recincta",
+      "ppp.abl.sg.neut": "recincto",
+      "ppp.voc.sg.masc": "recincte",
+      "ppp.voc.sg.fem": "recincta",
+      "ppp.voc.sg.neut": "recinctum",
+      "ppp.nom.pl.masc": "recincti",
+      "ppp.nom.pl.fem": "recinctae",
+      "ppp.nom.pl.neut": "recincta",
+      "ppp.gen.pl.masc": "recinctorum",
+      "ppp.gen.pl.fem": "recinctarum",
+      "ppp.gen.pl.neut": "recinctorum",
+      "ppp.dat.pl.masc": "recinctis",
+      "ppp.dat.pl.fem": "recinctis",
+      "ppp.dat.pl.neut": "recinctis",
+      "ppp.acc.pl.masc": "recinctos",
+      "ppp.acc.pl.fem": "recinctas",
+      "ppp.acc.pl.neut": "recincta",
+      "ppp.abl.pl.masc": "recinctis",
+      "ppp.abl.pl.fem": "recinctis",
+      "ppp.abl.pl.neut": "recinctis",
+      "ppp.voc.pl.masc": "recincti",
+      "ppp.voc.pl.fem": "recinctae",
+      "ppp.voc.pl.neut": "recincta"
+    }
   }
 }

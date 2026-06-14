@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "contemne",
       "2pl.pres.imp.act": "contemnite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: contemptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "contemptus",
+      "ppp.nom.sg.fem": "contempta",
+      "ppp.nom.sg.neut": "contemptum",
+      "ppp.gen.sg.masc": "contempti",
+      "ppp.gen.sg.fem": "contemptae",
+      "ppp.gen.sg.neut": "contempti",
+      "ppp.dat.sg.masc": "contempto",
+      "ppp.dat.sg.fem": "contemptae",
+      "ppp.dat.sg.neut": "contempto",
+      "ppp.acc.sg.masc": "contemptum",
+      "ppp.acc.sg.fem": "contemptam",
+      "ppp.acc.sg.neut": "contemptum",
+      "ppp.abl.sg.masc": "contempto",
+      "ppp.abl.sg.fem": "contempta",
+      "ppp.abl.sg.neut": "contempto",
+      "ppp.voc.sg.masc": "contempte",
+      "ppp.voc.sg.fem": "contempta",
+      "ppp.voc.sg.neut": "contemptum",
+      "ppp.nom.pl.masc": "contempti",
+      "ppp.nom.pl.fem": "contemptae",
+      "ppp.nom.pl.neut": "contempta",
+      "ppp.gen.pl.masc": "contemptorum",
+      "ppp.gen.pl.fem": "contemptarum",
+      "ppp.gen.pl.neut": "contemptorum",
+      "ppp.dat.pl.masc": "contemptis",
+      "ppp.dat.pl.fem": "contemptis",
+      "ppp.dat.pl.neut": "contemptis",
+      "ppp.acc.pl.masc": "contemptos",
+      "ppp.acc.pl.fem": "contemptas",
+      "ppp.acc.pl.neut": "contempta",
+      "ppp.abl.pl.masc": "contemptis",
+      "ppp.abl.pl.fem": "contemptis",
+      "ppp.abl.pl.neut": "contemptis",
+      "ppp.voc.pl.masc": "contempti",
+      "ppp.voc.pl.fem": "contemptae",
+      "ppp.voc.pl.neut": "contempta"
+    }
   }
 }

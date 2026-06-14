@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "remane",
       "2pl.pres.imp.act": "remanete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: remansus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "remansus",
+      "ppp.nom.sg.fem": "remansa",
+      "ppp.nom.sg.neut": "remansum",
+      "ppp.gen.sg.masc": "remansi",
+      "ppp.gen.sg.fem": "remansae",
+      "ppp.gen.sg.neut": "remansi",
+      "ppp.dat.sg.masc": "remanso",
+      "ppp.dat.sg.fem": "remansae",
+      "ppp.dat.sg.neut": "remanso",
+      "ppp.acc.sg.masc": "remansum",
+      "ppp.acc.sg.fem": "remansam",
+      "ppp.acc.sg.neut": "remansum",
+      "ppp.abl.sg.masc": "remanso",
+      "ppp.abl.sg.fem": "remansa",
+      "ppp.abl.sg.neut": "remanso",
+      "ppp.voc.sg.masc": "remanse",
+      "ppp.voc.sg.fem": "remansa",
+      "ppp.voc.sg.neut": "remansum",
+      "ppp.nom.pl.masc": "remansi",
+      "ppp.nom.pl.fem": "remansae",
+      "ppp.nom.pl.neut": "remansa",
+      "ppp.gen.pl.masc": "remansorum",
+      "ppp.gen.pl.fem": "remansarum",
+      "ppp.gen.pl.neut": "remansorum",
+      "ppp.dat.pl.masc": "remansis",
+      "ppp.dat.pl.fem": "remansis",
+      "ppp.dat.pl.neut": "remansis",
+      "ppp.acc.pl.masc": "remansos",
+      "ppp.acc.pl.fem": "remansas",
+      "ppp.acc.pl.neut": "remansa",
+      "ppp.abl.pl.masc": "remansis",
+      "ppp.abl.pl.fem": "remansis",
+      "ppp.abl.pl.neut": "remansis",
+      "ppp.voc.pl.masc": "remansi",
+      "ppp.voc.pl.fem": "remansae",
+      "ppp.voc.pl.neut": "remansa"
+    }
   }
 }

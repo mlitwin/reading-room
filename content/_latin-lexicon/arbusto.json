@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "arbusta",
       "2pl.pres.imp.act": "arbustate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: arbustatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "arbustatus",
+      "ppp.nom.sg.fem": "arbustata",
+      "ppp.nom.sg.neut": "arbustatum",
+      "ppp.gen.sg.masc": "arbustati",
+      "ppp.gen.sg.fem": "arbustatae",
+      "ppp.gen.sg.neut": "arbustati",
+      "ppp.dat.sg.masc": "arbustato",
+      "ppp.dat.sg.fem": "arbustatae",
+      "ppp.dat.sg.neut": "arbustato",
+      "ppp.acc.sg.masc": "arbustatum",
+      "ppp.acc.sg.fem": "arbustatam",
+      "ppp.acc.sg.neut": "arbustatum",
+      "ppp.abl.sg.masc": "arbustato",
+      "ppp.abl.sg.fem": "arbustata",
+      "ppp.abl.sg.neut": "arbustato",
+      "ppp.voc.sg.masc": "arbustate",
+      "ppp.voc.sg.fem": "arbustata",
+      "ppp.voc.sg.neut": "arbustatum",
+      "ppp.nom.pl.masc": "arbustati",
+      "ppp.nom.pl.fem": "arbustatae",
+      "ppp.nom.pl.neut": "arbustata",
+      "ppp.gen.pl.masc": "arbustatorum",
+      "ppp.gen.pl.fem": "arbustatarum",
+      "ppp.gen.pl.neut": "arbustatorum",
+      "ppp.dat.pl.masc": "arbustatis",
+      "ppp.dat.pl.fem": "arbustatis",
+      "ppp.dat.pl.neut": "arbustatis",
+      "ppp.acc.pl.masc": "arbustatos",
+      "ppp.acc.pl.fem": "arbustatas",
+      "ppp.acc.pl.neut": "arbustata",
+      "ppp.abl.pl.masc": "arbustatis",
+      "ppp.abl.pl.fem": "arbustatis",
+      "ppp.abl.pl.neut": "arbustatis",
+      "ppp.voc.pl.masc": "arbustati",
+      "ppp.voc.pl.fem": "arbustatae",
+      "ppp.voc.pl.neut": "arbustata"
+    }
   }
 }

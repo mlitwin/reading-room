@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "anxia",
       "2pl.pres.imp.act": "anxiate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: anxiatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "anxiatus",
+      "ppp.nom.sg.fem": "anxiata",
+      "ppp.nom.sg.neut": "anxiatum",
+      "ppp.gen.sg.masc": "anxiati",
+      "ppp.gen.sg.fem": "anxiatae",
+      "ppp.gen.sg.neut": "anxiati",
+      "ppp.dat.sg.masc": "anxiato",
+      "ppp.dat.sg.fem": "anxiatae",
+      "ppp.dat.sg.neut": "anxiato",
+      "ppp.acc.sg.masc": "anxiatum",
+      "ppp.acc.sg.fem": "anxiatam",
+      "ppp.acc.sg.neut": "anxiatum",
+      "ppp.abl.sg.masc": "anxiato",
+      "ppp.abl.sg.fem": "anxiata",
+      "ppp.abl.sg.neut": "anxiato",
+      "ppp.voc.sg.masc": "anxiate",
+      "ppp.voc.sg.fem": "anxiata",
+      "ppp.voc.sg.neut": "anxiatum",
+      "ppp.nom.pl.masc": "anxiati",
+      "ppp.nom.pl.fem": "anxiatae",
+      "ppp.nom.pl.neut": "anxiata",
+      "ppp.gen.pl.masc": "anxiatorum",
+      "ppp.gen.pl.fem": "anxiatarum",
+      "ppp.gen.pl.neut": "anxiatorum",
+      "ppp.dat.pl.masc": "anxiatis",
+      "ppp.dat.pl.fem": "anxiatis",
+      "ppp.dat.pl.neut": "anxiatis",
+      "ppp.acc.pl.masc": "anxiatos",
+      "ppp.acc.pl.fem": "anxiatas",
+      "ppp.acc.pl.neut": "anxiata",
+      "ppp.abl.pl.masc": "anxiatis",
+      "ppp.abl.pl.fem": "anxiatis",
+      "ppp.abl.pl.neut": "anxiatis",
+      "ppp.voc.pl.masc": "anxiati",
+      "ppp.voc.pl.fem": "anxiatae",
+      "ppp.voc.pl.neut": "anxiata"
+    }
   }
 }

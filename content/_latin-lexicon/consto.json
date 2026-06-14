@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "consta",
       "2pl.pres.imp.act": "constate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: constatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "constatus",
+      "ppp.nom.sg.fem": "constata",
+      "ppp.nom.sg.neut": "constatum",
+      "ppp.gen.sg.masc": "constati",
+      "ppp.gen.sg.fem": "constatae",
+      "ppp.gen.sg.neut": "constati",
+      "ppp.dat.sg.masc": "constato",
+      "ppp.dat.sg.fem": "constatae",
+      "ppp.dat.sg.neut": "constato",
+      "ppp.acc.sg.masc": "constatum",
+      "ppp.acc.sg.fem": "constatam",
+      "ppp.acc.sg.neut": "constatum",
+      "ppp.abl.sg.masc": "constato",
+      "ppp.abl.sg.fem": "constata",
+      "ppp.abl.sg.neut": "constato",
+      "ppp.voc.sg.masc": "constate",
+      "ppp.voc.sg.fem": "constata",
+      "ppp.voc.sg.neut": "constatum",
+      "ppp.nom.pl.masc": "constati",
+      "ppp.nom.pl.fem": "constatae",
+      "ppp.nom.pl.neut": "constata",
+      "ppp.gen.pl.masc": "constatorum",
+      "ppp.gen.pl.fem": "constatarum",
+      "ppp.gen.pl.neut": "constatorum",
+      "ppp.dat.pl.masc": "constatis",
+      "ppp.dat.pl.fem": "constatis",
+      "ppp.dat.pl.neut": "constatis",
+      "ppp.acc.pl.masc": "constatos",
+      "ppp.acc.pl.fem": "constatas",
+      "ppp.acc.pl.neut": "constata",
+      "ppp.abl.pl.masc": "constatis",
+      "ppp.abl.pl.fem": "constatis",
+      "ppp.abl.pl.neut": "constatis",
+      "ppp.voc.pl.masc": "constati",
+      "ppp.voc.pl.fem": "constatae",
+      "ppp.voc.pl.neut": "constata"
+    }
   }
 }

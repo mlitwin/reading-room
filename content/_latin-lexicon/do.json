@@ -70,5 +70,63 @@
       "2pl.imperf.subj.act": "darētis",
       "3pl.imperf.subj.act": "darent"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: datus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "datus",
+      "ppp.nom.sg.fem": "data",
+      "ppp.nom.sg.neut": "datum",
+      "ppp.gen.sg.masc": "dati",
+      "ppp.gen.sg.fem": "datae",
+      "ppp.gen.sg.neut": "dati",
+      "ppp.dat.sg.masc": "dato",
+      "ppp.dat.sg.fem": "datae",
+      "ppp.dat.sg.neut": "dato",
+      "ppp.acc.sg.masc": "datum",
+      "ppp.acc.sg.fem": "datam",
+      "ppp.acc.sg.neut": "datum",
+      "ppp.abl.sg.masc": "dato",
+      "ppp.abl.sg.fem": "data",
+      "ppp.abl.sg.neut": "dato",
+      "ppp.voc.sg.masc": "date",
+      "ppp.voc.sg.fem": "data",
+      "ppp.voc.sg.neut": "datum",
+      "ppp.nom.pl.masc": "dati",
+      "ppp.nom.pl.fem": "datae",
+      "ppp.nom.pl.neut": "data",
+      "ppp.gen.pl.masc": "datorum",
+      "ppp.gen.pl.fem": "datarum",
+      "ppp.gen.pl.neut": "datorum",
+      "ppp.dat.pl.masc": "datis",
+      "ppp.dat.pl.fem": "datis",
+      "ppp.dat.pl.neut": "datis",
+      "ppp.acc.pl.masc": "datos",
+      "ppp.acc.pl.fem": "datas",
+      "ppp.acc.pl.neut": "data",
+      "ppp.abl.pl.masc": "datis",
+      "ppp.abl.pl.fem": "datis",
+      "ppp.abl.pl.neut": "datis",
+      "ppp.voc.pl.masc": "dati",
+      "ppp.voc.pl.fem": "datae",
+      "ppp.voc.pl.neut": "data"
+    }
   }
 }

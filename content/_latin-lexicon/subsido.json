@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "subside",
       "2pl.pres.imp.act": "subsidite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: subsessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "subsessus",
+      "ppp.nom.sg.fem": "subsessa",
+      "ppp.nom.sg.neut": "subsessum",
+      "ppp.gen.sg.masc": "subsessi",
+      "ppp.gen.sg.fem": "subsessae",
+      "ppp.gen.sg.neut": "subsessi",
+      "ppp.dat.sg.masc": "subsesso",
+      "ppp.dat.sg.fem": "subsessae",
+      "ppp.dat.sg.neut": "subsesso",
+      "ppp.acc.sg.masc": "subsessum",
+      "ppp.acc.sg.fem": "subsessam",
+      "ppp.acc.sg.neut": "subsessum",
+      "ppp.abl.sg.masc": "subsesso",
+      "ppp.abl.sg.fem": "subsessa",
+      "ppp.abl.sg.neut": "subsesso",
+      "ppp.voc.sg.masc": "subsesse",
+      "ppp.voc.sg.fem": "subsessa",
+      "ppp.voc.sg.neut": "subsessum",
+      "ppp.nom.pl.masc": "subsessi",
+      "ppp.nom.pl.fem": "subsessae",
+      "ppp.nom.pl.neut": "subsessa",
+      "ppp.gen.pl.masc": "subsessorum",
+      "ppp.gen.pl.fem": "subsessarum",
+      "ppp.gen.pl.neut": "subsessorum",
+      "ppp.dat.pl.masc": "subsessis",
+      "ppp.dat.pl.fem": "subsessis",
+      "ppp.dat.pl.neut": "subsessis",
+      "ppp.acc.pl.masc": "subsessos",
+      "ppp.acc.pl.fem": "subsessas",
+      "ppp.acc.pl.neut": "subsessa",
+      "ppp.abl.pl.masc": "subsessis",
+      "ppp.abl.pl.fem": "subsessis",
+      "ppp.abl.pl.neut": "subsessis",
+      "ppp.voc.pl.masc": "subsessi",
+      "ppp.voc.pl.fem": "subsessae",
+      "ppp.voc.pl.neut": "subsessa"
+    }
   }
 }

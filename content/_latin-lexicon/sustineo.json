@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "sustine",
       "2pl.pres.imp.act": "sustinete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sustentus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sustentus",
+      "ppp.nom.sg.fem": "sustenta",
+      "ppp.nom.sg.neut": "sustentum",
+      "ppp.gen.sg.masc": "sustenti",
+      "ppp.gen.sg.fem": "sustentae",
+      "ppp.gen.sg.neut": "sustenti",
+      "ppp.dat.sg.masc": "sustento",
+      "ppp.dat.sg.fem": "sustentae",
+      "ppp.dat.sg.neut": "sustento",
+      "ppp.acc.sg.masc": "sustentum",
+      "ppp.acc.sg.fem": "sustentam",
+      "ppp.acc.sg.neut": "sustentum",
+      "ppp.abl.sg.masc": "sustento",
+      "ppp.abl.sg.fem": "sustenta",
+      "ppp.abl.sg.neut": "sustento",
+      "ppp.voc.sg.masc": "sustente",
+      "ppp.voc.sg.fem": "sustenta",
+      "ppp.voc.sg.neut": "sustentum",
+      "ppp.nom.pl.masc": "sustenti",
+      "ppp.nom.pl.fem": "sustentae",
+      "ppp.nom.pl.neut": "sustenta",
+      "ppp.gen.pl.masc": "sustentorum",
+      "ppp.gen.pl.fem": "sustentarum",
+      "ppp.gen.pl.neut": "sustentorum",
+      "ppp.dat.pl.masc": "sustentis",
+      "ppp.dat.pl.fem": "sustentis",
+      "ppp.dat.pl.neut": "sustentis",
+      "ppp.acc.pl.masc": "sustentos",
+      "ppp.acc.pl.fem": "sustentas",
+      "ppp.acc.pl.neut": "sustenta",
+      "ppp.abl.pl.masc": "sustentis",
+      "ppp.abl.pl.fem": "sustentis",
+      "ppp.abl.pl.neut": "sustentis",
+      "ppp.voc.pl.masc": "sustenti",
+      "ppp.voc.pl.fem": "sustentae",
+      "ppp.voc.pl.neut": "sustenta"
+    }
   }
 }

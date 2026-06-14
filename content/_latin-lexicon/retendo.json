@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "retende",
       "2pl.pres.imp.act": "retendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: retensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "retensus",
+      "ppp.nom.sg.fem": "retensa",
+      "ppp.nom.sg.neut": "retensum",
+      "ppp.gen.sg.masc": "retensi",
+      "ppp.gen.sg.fem": "retensae",
+      "ppp.gen.sg.neut": "retensi",
+      "ppp.dat.sg.masc": "retenso",
+      "ppp.dat.sg.fem": "retensae",
+      "ppp.dat.sg.neut": "retenso",
+      "ppp.acc.sg.masc": "retensum",
+      "ppp.acc.sg.fem": "retensam",
+      "ppp.acc.sg.neut": "retensum",
+      "ppp.abl.sg.masc": "retenso",
+      "ppp.abl.sg.fem": "retensa",
+      "ppp.abl.sg.neut": "retenso",
+      "ppp.voc.sg.masc": "retense",
+      "ppp.voc.sg.fem": "retensa",
+      "ppp.voc.sg.neut": "retensum",
+      "ppp.nom.pl.masc": "retensi",
+      "ppp.nom.pl.fem": "retensae",
+      "ppp.nom.pl.neut": "retensa",
+      "ppp.gen.pl.masc": "retensorum",
+      "ppp.gen.pl.fem": "retensarum",
+      "ppp.gen.pl.neut": "retensorum",
+      "ppp.dat.pl.masc": "retensis",
+      "ppp.dat.pl.fem": "retensis",
+      "ppp.dat.pl.neut": "retensis",
+      "ppp.acc.pl.masc": "retensos",
+      "ppp.acc.pl.fem": "retensas",
+      "ppp.acc.pl.neut": "retensa",
+      "ppp.abl.pl.masc": "retensis",
+      "ppp.abl.pl.fem": "retensis",
+      "ppp.abl.pl.neut": "retensis",
+      "ppp.voc.pl.masc": "retensi",
+      "ppp.voc.pl.fem": "retensae",
+      "ppp.voc.pl.neut": "retensa"
+    }
   }
 }

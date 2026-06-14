@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "veni",
       "2pl.pres.imp.act": "venite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ventus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ventus",
+      "ppp.nom.sg.fem": "venta",
+      "ppp.nom.sg.neut": "ventum",
+      "ppp.gen.sg.masc": "venti",
+      "ppp.gen.sg.fem": "ventae",
+      "ppp.gen.sg.neut": "venti",
+      "ppp.dat.sg.masc": "vento",
+      "ppp.dat.sg.fem": "ventae",
+      "ppp.dat.sg.neut": "vento",
+      "ppp.acc.sg.masc": "ventum",
+      "ppp.acc.sg.fem": "ventam",
+      "ppp.acc.sg.neut": "ventum",
+      "ppp.abl.sg.masc": "vento",
+      "ppp.abl.sg.fem": "venta",
+      "ppp.abl.sg.neut": "vento",
+      "ppp.voc.sg.masc": "vente",
+      "ppp.voc.sg.fem": "venta",
+      "ppp.voc.sg.neut": "ventum",
+      "ppp.nom.pl.masc": "venti",
+      "ppp.nom.pl.fem": "ventae",
+      "ppp.nom.pl.neut": "venta",
+      "ppp.gen.pl.masc": "ventorum",
+      "ppp.gen.pl.fem": "ventarum",
+      "ppp.gen.pl.neut": "ventorum",
+      "ppp.dat.pl.masc": "ventis",
+      "ppp.dat.pl.fem": "ventis",
+      "ppp.dat.pl.neut": "ventis",
+      "ppp.acc.pl.masc": "ventos",
+      "ppp.acc.pl.fem": "ventas",
+      "ppp.acc.pl.neut": "venta",
+      "ppp.abl.pl.masc": "ventis",
+      "ppp.abl.pl.fem": "ventis",
+      "ppp.abl.pl.neut": "ventis",
+      "ppp.voc.pl.masc": "venti",
+      "ppp.voc.pl.fem": "ventae",
+      "ppp.voc.pl.neut": "venta"
+    }
   }
 }

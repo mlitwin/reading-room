@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "perde",
       "2pl.pres.imp.act": "perdite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: perditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "perditus",
+      "ppp.nom.sg.fem": "perdita",
+      "ppp.nom.sg.neut": "perditum",
+      "ppp.gen.sg.masc": "perditi",
+      "ppp.gen.sg.fem": "perditae",
+      "ppp.gen.sg.neut": "perditi",
+      "ppp.dat.sg.masc": "perdito",
+      "ppp.dat.sg.fem": "perditae",
+      "ppp.dat.sg.neut": "perdito",
+      "ppp.acc.sg.masc": "perditum",
+      "ppp.acc.sg.fem": "perditam",
+      "ppp.acc.sg.neut": "perditum",
+      "ppp.abl.sg.masc": "perdito",
+      "ppp.abl.sg.fem": "perdita",
+      "ppp.abl.sg.neut": "perdito",
+      "ppp.voc.sg.masc": "perdite",
+      "ppp.voc.sg.fem": "perdita",
+      "ppp.voc.sg.neut": "perditum",
+      "ppp.nom.pl.masc": "perditi",
+      "ppp.nom.pl.fem": "perditae",
+      "ppp.nom.pl.neut": "perdita",
+      "ppp.gen.pl.masc": "perditorum",
+      "ppp.gen.pl.fem": "perditarum",
+      "ppp.gen.pl.neut": "perditorum",
+      "ppp.dat.pl.masc": "perditis",
+      "ppp.dat.pl.fem": "perditis",
+      "ppp.dat.pl.neut": "perditis",
+      "ppp.acc.pl.masc": "perditos",
+      "ppp.acc.pl.fem": "perditas",
+      "ppp.acc.pl.neut": "perdita",
+      "ppp.abl.pl.masc": "perditis",
+      "ppp.abl.pl.fem": "perditis",
+      "ppp.abl.pl.neut": "perditis",
+      "ppp.voc.pl.masc": "perditi",
+      "ppp.voc.pl.fem": "perditae",
+      "ppp.voc.pl.neut": "perdita"
+    }
   }
 }

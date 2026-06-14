@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "flecte",
       "2pl.pres.imp.act": "flectite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: flexus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "flexus",
+      "ppp.nom.sg.fem": "flexa",
+      "ppp.nom.sg.neut": "flexum",
+      "ppp.gen.sg.masc": "flexi",
+      "ppp.gen.sg.fem": "flexae",
+      "ppp.gen.sg.neut": "flexi",
+      "ppp.dat.sg.masc": "flexo",
+      "ppp.dat.sg.fem": "flexae",
+      "ppp.dat.sg.neut": "flexo",
+      "ppp.acc.sg.masc": "flexum",
+      "ppp.acc.sg.fem": "flexam",
+      "ppp.acc.sg.neut": "flexum",
+      "ppp.abl.sg.masc": "flexo",
+      "ppp.abl.sg.fem": "flexa",
+      "ppp.abl.sg.neut": "flexo",
+      "ppp.voc.sg.masc": "flexe",
+      "ppp.voc.sg.fem": "flexa",
+      "ppp.voc.sg.neut": "flexum",
+      "ppp.nom.pl.masc": "flexi",
+      "ppp.nom.pl.fem": "flexae",
+      "ppp.nom.pl.neut": "flexa",
+      "ppp.gen.pl.masc": "flexorum",
+      "ppp.gen.pl.fem": "flexarum",
+      "ppp.gen.pl.neut": "flexorum",
+      "ppp.dat.pl.masc": "flexis",
+      "ppp.dat.pl.fem": "flexis",
+      "ppp.dat.pl.neut": "flexis",
+      "ppp.acc.pl.masc": "flexos",
+      "ppp.acc.pl.fem": "flexas",
+      "ppp.acc.pl.neut": "flexa",
+      "ppp.abl.pl.masc": "flexis",
+      "ppp.abl.pl.fem": "flexis",
+      "ppp.abl.pl.neut": "flexis",
+      "ppp.voc.pl.masc": "flexi",
+      "ppp.voc.pl.fem": "flexae",
+      "ppp.voc.pl.neut": "flexa"
+    }
   }
 }

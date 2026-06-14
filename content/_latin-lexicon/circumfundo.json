@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "circumfunde",
       "2pl.pres.imp.act": "circumfundite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: circumfusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "circumfusus",
+      "ppp.nom.sg.fem": "circumfusa",
+      "ppp.nom.sg.neut": "circumfusum",
+      "ppp.gen.sg.masc": "circumfusi",
+      "ppp.gen.sg.fem": "circumfusae",
+      "ppp.gen.sg.neut": "circumfusi",
+      "ppp.dat.sg.masc": "circumfuso",
+      "ppp.dat.sg.fem": "circumfusae",
+      "ppp.dat.sg.neut": "circumfuso",
+      "ppp.acc.sg.masc": "circumfusum",
+      "ppp.acc.sg.fem": "circumfusam",
+      "ppp.acc.sg.neut": "circumfusum",
+      "ppp.abl.sg.masc": "circumfuso",
+      "ppp.abl.sg.fem": "circumfusa",
+      "ppp.abl.sg.neut": "circumfuso",
+      "ppp.voc.sg.masc": "circumfuse",
+      "ppp.voc.sg.fem": "circumfusa",
+      "ppp.voc.sg.neut": "circumfusum",
+      "ppp.nom.pl.masc": "circumfusi",
+      "ppp.nom.pl.fem": "circumfusae",
+      "ppp.nom.pl.neut": "circumfusa",
+      "ppp.gen.pl.masc": "circumfusorum",
+      "ppp.gen.pl.fem": "circumfusarum",
+      "ppp.gen.pl.neut": "circumfusorum",
+      "ppp.dat.pl.masc": "circumfusis",
+      "ppp.dat.pl.fem": "circumfusis",
+      "ppp.dat.pl.neut": "circumfusis",
+      "ppp.acc.pl.masc": "circumfusos",
+      "ppp.acc.pl.fem": "circumfusas",
+      "ppp.acc.pl.neut": "circumfusa",
+      "ppp.abl.pl.masc": "circumfusis",
+      "ppp.abl.pl.fem": "circumfusis",
+      "ppp.abl.pl.neut": "circumfusis",
+      "ppp.voc.pl.masc": "circumfusi",
+      "ppp.voc.pl.fem": "circumfusae",
+      "ppp.voc.pl.neut": "circumfusa"
+    }
   }
 }

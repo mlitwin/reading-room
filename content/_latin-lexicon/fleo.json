@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "fle",
       "2pl.pres.imp.act": "flete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fletus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fletus",
+      "ppp.nom.sg.fem": "fleta",
+      "ppp.nom.sg.neut": "fletum",
+      "ppp.gen.sg.masc": "fleti",
+      "ppp.gen.sg.fem": "fletae",
+      "ppp.gen.sg.neut": "fleti",
+      "ppp.dat.sg.masc": "fleto",
+      "ppp.dat.sg.fem": "fletae",
+      "ppp.dat.sg.neut": "fleto",
+      "ppp.acc.sg.masc": "fletum",
+      "ppp.acc.sg.fem": "fletam",
+      "ppp.acc.sg.neut": "fletum",
+      "ppp.abl.sg.masc": "fleto",
+      "ppp.abl.sg.fem": "fleta",
+      "ppp.abl.sg.neut": "fleto",
+      "ppp.voc.sg.masc": "flete",
+      "ppp.voc.sg.fem": "fleta",
+      "ppp.voc.sg.neut": "fletum",
+      "ppp.nom.pl.masc": "fleti",
+      "ppp.nom.pl.fem": "fletae",
+      "ppp.nom.pl.neut": "fleta",
+      "ppp.gen.pl.masc": "fletorum",
+      "ppp.gen.pl.fem": "fletarum",
+      "ppp.gen.pl.neut": "fletorum",
+      "ppp.dat.pl.masc": "fletis",
+      "ppp.dat.pl.fem": "fletis",
+      "ppp.dat.pl.neut": "fletis",
+      "ppp.acc.pl.masc": "fletos",
+      "ppp.acc.pl.fem": "fletas",
+      "ppp.acc.pl.neut": "fleta",
+      "ppp.abl.pl.masc": "fletis",
+      "ppp.abl.pl.fem": "fletis",
+      "ppp.abl.pl.neut": "fletis",
+      "ppp.voc.pl.masc": "fleti",
+      "ppp.voc.pl.fem": "fletae",
+      "ppp.voc.pl.neut": "fleta"
+    }
   }
 }

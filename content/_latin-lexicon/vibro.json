@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "vibra",
       "2pl.pres.imp.act": "vibrate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vibratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vibratus",
+      "ppp.nom.sg.fem": "vibrata",
+      "ppp.nom.sg.neut": "vibratum",
+      "ppp.gen.sg.masc": "vibrati",
+      "ppp.gen.sg.fem": "vibratae",
+      "ppp.gen.sg.neut": "vibrati",
+      "ppp.dat.sg.masc": "vibrato",
+      "ppp.dat.sg.fem": "vibratae",
+      "ppp.dat.sg.neut": "vibrato",
+      "ppp.acc.sg.masc": "vibratum",
+      "ppp.acc.sg.fem": "vibratam",
+      "ppp.acc.sg.neut": "vibratum",
+      "ppp.abl.sg.masc": "vibrato",
+      "ppp.abl.sg.fem": "vibrata",
+      "ppp.abl.sg.neut": "vibrato",
+      "ppp.voc.sg.masc": "vibrate",
+      "ppp.voc.sg.fem": "vibrata",
+      "ppp.voc.sg.neut": "vibratum",
+      "ppp.nom.pl.masc": "vibrati",
+      "ppp.nom.pl.fem": "vibratae",
+      "ppp.nom.pl.neut": "vibrata",
+      "ppp.gen.pl.masc": "vibratorum",
+      "ppp.gen.pl.fem": "vibratarum",
+      "ppp.gen.pl.neut": "vibratorum",
+      "ppp.dat.pl.masc": "vibratis",
+      "ppp.dat.pl.fem": "vibratis",
+      "ppp.dat.pl.neut": "vibratis",
+      "ppp.acc.pl.masc": "vibratos",
+      "ppp.acc.pl.fem": "vibratas",
+      "ppp.acc.pl.neut": "vibrata",
+      "ppp.abl.pl.masc": "vibratis",
+      "ppp.abl.pl.fem": "vibratis",
+      "ppp.abl.pl.neut": "vibratis",
+      "ppp.voc.pl.masc": "vibrati",
+      "ppp.voc.pl.fem": "vibratae",
+      "ppp.voc.pl.neut": "vibrata"
+    }
   }
 }

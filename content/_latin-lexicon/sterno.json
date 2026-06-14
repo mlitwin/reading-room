@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "sterne",
       "2pl.pres.imp.act": "sternite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: stratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "stratus",
+      "ppp.nom.sg.fem": "strata",
+      "ppp.nom.sg.neut": "stratum",
+      "ppp.gen.sg.masc": "strati",
+      "ppp.gen.sg.fem": "stratae",
+      "ppp.gen.sg.neut": "strati",
+      "ppp.dat.sg.masc": "strato",
+      "ppp.dat.sg.fem": "stratae",
+      "ppp.dat.sg.neut": "strato",
+      "ppp.acc.sg.masc": "stratum",
+      "ppp.acc.sg.fem": "stratam",
+      "ppp.acc.sg.neut": "stratum",
+      "ppp.abl.sg.masc": "strato",
+      "ppp.abl.sg.fem": "strata",
+      "ppp.abl.sg.neut": "strato",
+      "ppp.voc.sg.masc": "strate",
+      "ppp.voc.sg.fem": "strata",
+      "ppp.voc.sg.neut": "stratum",
+      "ppp.nom.pl.masc": "strati",
+      "ppp.nom.pl.fem": "stratae",
+      "ppp.nom.pl.neut": "strata",
+      "ppp.gen.pl.masc": "stratorum",
+      "ppp.gen.pl.fem": "stratarum",
+      "ppp.gen.pl.neut": "stratorum",
+      "ppp.dat.pl.masc": "stratis",
+      "ppp.dat.pl.fem": "stratis",
+      "ppp.dat.pl.neut": "stratis",
+      "ppp.acc.pl.masc": "stratos",
+      "ppp.acc.pl.fem": "stratas",
+      "ppp.acc.pl.neut": "strata",
+      "ppp.abl.pl.masc": "stratis",
+      "ppp.abl.pl.fem": "stratis",
+      "ppp.abl.pl.neut": "stratis",
+      "ppp.voc.pl.masc": "strati",
+      "ppp.voc.pl.fem": "stratae",
+      "ppp.voc.pl.neut": "strata"
+    }
   }
 }

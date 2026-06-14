@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "infla",
       "2pl.pres.imp.act": "inflate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: inflatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "inflatus",
+      "ppp.nom.sg.fem": "inflata",
+      "ppp.nom.sg.neut": "inflatum",
+      "ppp.gen.sg.masc": "inflati",
+      "ppp.gen.sg.fem": "inflatae",
+      "ppp.gen.sg.neut": "inflati",
+      "ppp.dat.sg.masc": "inflato",
+      "ppp.dat.sg.fem": "inflatae",
+      "ppp.dat.sg.neut": "inflato",
+      "ppp.acc.sg.masc": "inflatum",
+      "ppp.acc.sg.fem": "inflatam",
+      "ppp.acc.sg.neut": "inflatum",
+      "ppp.abl.sg.masc": "inflato",
+      "ppp.abl.sg.fem": "inflata",
+      "ppp.abl.sg.neut": "inflato",
+      "ppp.voc.sg.masc": "inflate",
+      "ppp.voc.sg.fem": "inflata",
+      "ppp.voc.sg.neut": "inflatum",
+      "ppp.nom.pl.masc": "inflati",
+      "ppp.nom.pl.fem": "inflatae",
+      "ppp.nom.pl.neut": "inflata",
+      "ppp.gen.pl.masc": "inflatorum",
+      "ppp.gen.pl.fem": "inflatarum",
+      "ppp.gen.pl.neut": "inflatorum",
+      "ppp.dat.pl.masc": "inflatis",
+      "ppp.dat.pl.fem": "inflatis",
+      "ppp.dat.pl.neut": "inflatis",
+      "ppp.acc.pl.masc": "inflatos",
+      "ppp.acc.pl.fem": "inflatas",
+      "ppp.acc.pl.neut": "inflata",
+      "ppp.abl.pl.masc": "inflatis",
+      "ppp.abl.pl.fem": "inflatis",
+      "ppp.abl.pl.neut": "inflatis",
+      "ppp.voc.pl.masc": "inflati",
+      "ppp.voc.pl.fem": "inflatae",
+      "ppp.voc.pl.neut": "inflata"
+    }
   }
 }

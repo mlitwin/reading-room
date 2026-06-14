@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "fode",
       "2pl.pres.imp.act": "fodite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fossus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fossus",
+      "ppp.nom.sg.fem": "fossa",
+      "ppp.nom.sg.neut": "fossum",
+      "ppp.gen.sg.masc": "fossi",
+      "ppp.gen.sg.fem": "fossae",
+      "ppp.gen.sg.neut": "fossi",
+      "ppp.dat.sg.masc": "fosso",
+      "ppp.dat.sg.fem": "fossae",
+      "ppp.dat.sg.neut": "fosso",
+      "ppp.acc.sg.masc": "fossum",
+      "ppp.acc.sg.fem": "fossam",
+      "ppp.acc.sg.neut": "fossum",
+      "ppp.abl.sg.masc": "fosso",
+      "ppp.abl.sg.fem": "fossa",
+      "ppp.abl.sg.neut": "fosso",
+      "ppp.voc.sg.masc": "fosse",
+      "ppp.voc.sg.fem": "fossa",
+      "ppp.voc.sg.neut": "fossum",
+      "ppp.nom.pl.masc": "fossi",
+      "ppp.nom.pl.fem": "fossae",
+      "ppp.nom.pl.neut": "fossa",
+      "ppp.gen.pl.masc": "fossorum",
+      "ppp.gen.pl.fem": "fossarum",
+      "ppp.gen.pl.neut": "fossorum",
+      "ppp.dat.pl.masc": "fossis",
+      "ppp.dat.pl.fem": "fossis",
+      "ppp.dat.pl.neut": "fossis",
+      "ppp.acc.pl.masc": "fossos",
+      "ppp.acc.pl.fem": "fossas",
+      "ppp.acc.pl.neut": "fossa",
+      "ppp.abl.pl.masc": "fossis",
+      "ppp.abl.pl.fem": "fossis",
+      "ppp.abl.pl.neut": "fossis",
+      "ppp.voc.pl.masc": "fossi",
+      "ppp.voc.pl.fem": "fossae",
+      "ppp.voc.pl.neut": "fossa"
+    }
   }
 }

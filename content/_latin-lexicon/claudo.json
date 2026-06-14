@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "claude",
       "2pl.pres.imp.act": "claudite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: clausus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "clausus",
+      "ppp.nom.sg.fem": "clausa",
+      "ppp.nom.sg.neut": "clausum",
+      "ppp.gen.sg.masc": "clausi",
+      "ppp.gen.sg.fem": "clausae",
+      "ppp.gen.sg.neut": "clausi",
+      "ppp.dat.sg.masc": "clauso",
+      "ppp.dat.sg.fem": "clausae",
+      "ppp.dat.sg.neut": "clauso",
+      "ppp.acc.sg.masc": "clausum",
+      "ppp.acc.sg.fem": "clausam",
+      "ppp.acc.sg.neut": "clausum",
+      "ppp.abl.sg.masc": "clauso",
+      "ppp.abl.sg.fem": "clausa",
+      "ppp.abl.sg.neut": "clauso",
+      "ppp.voc.sg.masc": "clause",
+      "ppp.voc.sg.fem": "clausa",
+      "ppp.voc.sg.neut": "clausum",
+      "ppp.nom.pl.masc": "clausi",
+      "ppp.nom.pl.fem": "clausae",
+      "ppp.nom.pl.neut": "clausa",
+      "ppp.gen.pl.masc": "clausorum",
+      "ppp.gen.pl.fem": "clausarum",
+      "ppp.gen.pl.neut": "clausorum",
+      "ppp.dat.pl.masc": "clausis",
+      "ppp.dat.pl.fem": "clausis",
+      "ppp.dat.pl.neut": "clausis",
+      "ppp.acc.pl.masc": "clausos",
+      "ppp.acc.pl.fem": "clausas",
+      "ppp.acc.pl.neut": "clausa",
+      "ppp.abl.pl.masc": "clausis",
+      "ppp.abl.pl.fem": "clausis",
+      "ppp.abl.pl.neut": "clausis",
+      "ppp.voc.pl.masc": "clausi",
+      "ppp.voc.pl.fem": "clausae",
+      "ppp.voc.pl.neut": "clausa"
+    }
   }
 }

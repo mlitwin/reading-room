@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "fatiga",
       "2pl.pres.imp.act": "fatigate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fatigatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fatigatus",
+      "ppp.nom.sg.fem": "fatigata",
+      "ppp.nom.sg.neut": "fatigatum",
+      "ppp.gen.sg.masc": "fatigati",
+      "ppp.gen.sg.fem": "fatigatae",
+      "ppp.gen.sg.neut": "fatigati",
+      "ppp.dat.sg.masc": "fatigato",
+      "ppp.dat.sg.fem": "fatigatae",
+      "ppp.dat.sg.neut": "fatigato",
+      "ppp.acc.sg.masc": "fatigatum",
+      "ppp.acc.sg.fem": "fatigatam",
+      "ppp.acc.sg.neut": "fatigatum",
+      "ppp.abl.sg.masc": "fatigato",
+      "ppp.abl.sg.fem": "fatigata",
+      "ppp.abl.sg.neut": "fatigato",
+      "ppp.voc.sg.masc": "fatigate",
+      "ppp.voc.sg.fem": "fatigata",
+      "ppp.voc.sg.neut": "fatigatum",
+      "ppp.nom.pl.masc": "fatigati",
+      "ppp.nom.pl.fem": "fatigatae",
+      "ppp.nom.pl.neut": "fatigata",
+      "ppp.gen.pl.masc": "fatigatorum",
+      "ppp.gen.pl.fem": "fatigatarum",
+      "ppp.gen.pl.neut": "fatigatorum",
+      "ppp.dat.pl.masc": "fatigatis",
+      "ppp.dat.pl.fem": "fatigatis",
+      "ppp.dat.pl.neut": "fatigatis",
+      "ppp.acc.pl.masc": "fatigatos",
+      "ppp.acc.pl.fem": "fatigatas",
+      "ppp.acc.pl.neut": "fatigata",
+      "ppp.abl.pl.masc": "fatigatis",
+      "ppp.abl.pl.fem": "fatigatis",
+      "ppp.abl.pl.neut": "fatigatis",
+      "ppp.voc.pl.masc": "fatigati",
+      "ppp.voc.pl.fem": "fatigatae",
+      "ppp.voc.pl.neut": "fatigata"
+    }
   }
 }

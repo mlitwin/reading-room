@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "scita",
       "2pl.pres.imp.act": "scitate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: scitatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "scitatus",
+      "ppp.nom.sg.fem": "scitata",
+      "ppp.nom.sg.neut": "scitatum",
+      "ppp.gen.sg.masc": "scitati",
+      "ppp.gen.sg.fem": "scitatae",
+      "ppp.gen.sg.neut": "scitati",
+      "ppp.dat.sg.masc": "scitato",
+      "ppp.dat.sg.fem": "scitatae",
+      "ppp.dat.sg.neut": "scitato",
+      "ppp.acc.sg.masc": "scitatum",
+      "ppp.acc.sg.fem": "scitatam",
+      "ppp.acc.sg.neut": "scitatum",
+      "ppp.abl.sg.masc": "scitato",
+      "ppp.abl.sg.fem": "scitata",
+      "ppp.abl.sg.neut": "scitato",
+      "ppp.voc.sg.masc": "scitate",
+      "ppp.voc.sg.fem": "scitata",
+      "ppp.voc.sg.neut": "scitatum",
+      "ppp.nom.pl.masc": "scitati",
+      "ppp.nom.pl.fem": "scitatae",
+      "ppp.nom.pl.neut": "scitata",
+      "ppp.gen.pl.masc": "scitatorum",
+      "ppp.gen.pl.fem": "scitatarum",
+      "ppp.gen.pl.neut": "scitatorum",
+      "ppp.dat.pl.masc": "scitatis",
+      "ppp.dat.pl.fem": "scitatis",
+      "ppp.dat.pl.neut": "scitatis",
+      "ppp.acc.pl.masc": "scitatos",
+      "ppp.acc.pl.fem": "scitatas",
+      "ppp.acc.pl.neut": "scitata",
+      "ppp.abl.pl.masc": "scitatis",
+      "ppp.abl.pl.fem": "scitatis",
+      "ppp.abl.pl.neut": "scitatis",
+      "ppp.voc.pl.masc": "scitati",
+      "ppp.voc.pl.fem": "scitatae",
+      "ppp.voc.pl.neut": "scitata"
+    }
   }
 }

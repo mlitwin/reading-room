@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "veta",
       "2pl.pres.imp.act": "vetate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vetatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vetatus",
+      "ppp.nom.sg.fem": "vetata",
+      "ppp.nom.sg.neut": "vetatum",
+      "ppp.gen.sg.masc": "vetati",
+      "ppp.gen.sg.fem": "vetatae",
+      "ppp.gen.sg.neut": "vetati",
+      "ppp.dat.sg.masc": "vetato",
+      "ppp.dat.sg.fem": "vetatae",
+      "ppp.dat.sg.neut": "vetato",
+      "ppp.acc.sg.masc": "vetatum",
+      "ppp.acc.sg.fem": "vetatam",
+      "ppp.acc.sg.neut": "vetatum",
+      "ppp.abl.sg.masc": "vetato",
+      "ppp.abl.sg.fem": "vetata",
+      "ppp.abl.sg.neut": "vetato",
+      "ppp.voc.sg.masc": "vetate",
+      "ppp.voc.sg.fem": "vetata",
+      "ppp.voc.sg.neut": "vetatum",
+      "ppp.nom.pl.masc": "vetati",
+      "ppp.nom.pl.fem": "vetatae",
+      "ppp.nom.pl.neut": "vetata",
+      "ppp.gen.pl.masc": "vetatorum",
+      "ppp.gen.pl.fem": "vetatarum",
+      "ppp.gen.pl.neut": "vetatorum",
+      "ppp.dat.pl.masc": "vetatis",
+      "ppp.dat.pl.fem": "vetatis",
+      "ppp.dat.pl.neut": "vetatis",
+      "ppp.acc.pl.masc": "vetatos",
+      "ppp.acc.pl.fem": "vetatas",
+      "ppp.acc.pl.neut": "vetata",
+      "ppp.abl.pl.masc": "vetatis",
+      "ppp.abl.pl.fem": "vetatis",
+      "ppp.abl.pl.neut": "vetatis",
+      "ppp.voc.pl.masc": "vetati",
+      "ppp.voc.pl.fem": "vetatae",
+      "ppp.voc.pl.neut": "vetata"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "saevi",
       "2pl.pres.imp.act": "saevite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: saevitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "saevitus",
+      "ppp.nom.sg.fem": "saevita",
+      "ppp.nom.sg.neut": "saevitum",
+      "ppp.gen.sg.masc": "saeviti",
+      "ppp.gen.sg.fem": "saevitae",
+      "ppp.gen.sg.neut": "saeviti",
+      "ppp.dat.sg.masc": "saevito",
+      "ppp.dat.sg.fem": "saevitae",
+      "ppp.dat.sg.neut": "saevito",
+      "ppp.acc.sg.masc": "saevitum",
+      "ppp.acc.sg.fem": "saevitam",
+      "ppp.acc.sg.neut": "saevitum",
+      "ppp.abl.sg.masc": "saevito",
+      "ppp.abl.sg.fem": "saevita",
+      "ppp.abl.sg.neut": "saevito",
+      "ppp.voc.sg.masc": "saevite",
+      "ppp.voc.sg.fem": "saevita",
+      "ppp.voc.sg.neut": "saevitum",
+      "ppp.nom.pl.masc": "saeviti",
+      "ppp.nom.pl.fem": "saevitae",
+      "ppp.nom.pl.neut": "saevita",
+      "ppp.gen.pl.masc": "saevitorum",
+      "ppp.gen.pl.fem": "saevitarum",
+      "ppp.gen.pl.neut": "saevitorum",
+      "ppp.dat.pl.masc": "saevitis",
+      "ppp.dat.pl.fem": "saevitis",
+      "ppp.dat.pl.neut": "saevitis",
+      "ppp.acc.pl.masc": "saevitos",
+      "ppp.acc.pl.fem": "saevitas",
+      "ppp.acc.pl.neut": "saevita",
+      "ppp.abl.pl.masc": "saevitis",
+      "ppp.abl.pl.fem": "saevitis",
+      "ppp.abl.pl.neut": "saevitis",
+      "ppp.voc.pl.masc": "saeviti",
+      "ppp.voc.pl.fem": "saevitae",
+      "ppp.voc.pl.neut": "saevita"
+    }
   }
 }

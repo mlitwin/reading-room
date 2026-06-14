@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "pete",
       "2pl.pres.imp.act": "petite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: petitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "petitus",
+      "ppp.nom.sg.fem": "petita",
+      "ppp.nom.sg.neut": "petitum",
+      "ppp.gen.sg.masc": "petiti",
+      "ppp.gen.sg.fem": "petitae",
+      "ppp.gen.sg.neut": "petiti",
+      "ppp.dat.sg.masc": "petito",
+      "ppp.dat.sg.fem": "petitae",
+      "ppp.dat.sg.neut": "petito",
+      "ppp.acc.sg.masc": "petitum",
+      "ppp.acc.sg.fem": "petitam",
+      "ppp.acc.sg.neut": "petitum",
+      "ppp.abl.sg.masc": "petito",
+      "ppp.abl.sg.fem": "petita",
+      "ppp.abl.sg.neut": "petito",
+      "ppp.voc.sg.masc": "petite",
+      "ppp.voc.sg.fem": "petita",
+      "ppp.voc.sg.neut": "petitum",
+      "ppp.nom.pl.masc": "petiti",
+      "ppp.nom.pl.fem": "petitae",
+      "ppp.nom.pl.neut": "petita",
+      "ppp.gen.pl.masc": "petitorum",
+      "ppp.gen.pl.fem": "petitarum",
+      "ppp.gen.pl.neut": "petitorum",
+      "ppp.dat.pl.masc": "petitis",
+      "ppp.dat.pl.fem": "petitis",
+      "ppp.dat.pl.neut": "petitis",
+      "ppp.acc.pl.masc": "petitos",
+      "ppp.acc.pl.fem": "petitas",
+      "ppp.acc.pl.neut": "petita",
+      "ppp.abl.pl.masc": "petitis",
+      "ppp.abl.pl.fem": "petitis",
+      "ppp.abl.pl.neut": "petitis",
+      "ppp.voc.pl.masc": "petiti",
+      "ppp.voc.pl.fem": "petitae",
+      "ppp.voc.pl.neut": "petita"
+    }
   }
 }

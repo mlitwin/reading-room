@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "igni",
       "2pl.pres.imp.act": "ignite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ignitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ignitus",
+      "ppp.nom.sg.fem": "ignita",
+      "ppp.nom.sg.neut": "ignitum",
+      "ppp.gen.sg.masc": "igniti",
+      "ppp.gen.sg.fem": "ignitae",
+      "ppp.gen.sg.neut": "igniti",
+      "ppp.dat.sg.masc": "ignito",
+      "ppp.dat.sg.fem": "ignitae",
+      "ppp.dat.sg.neut": "ignito",
+      "ppp.acc.sg.masc": "ignitum",
+      "ppp.acc.sg.fem": "ignitam",
+      "ppp.acc.sg.neut": "ignitum",
+      "ppp.abl.sg.masc": "ignito",
+      "ppp.abl.sg.fem": "ignita",
+      "ppp.abl.sg.neut": "ignito",
+      "ppp.voc.sg.masc": "ignite",
+      "ppp.voc.sg.fem": "ignita",
+      "ppp.voc.sg.neut": "ignitum",
+      "ppp.nom.pl.masc": "igniti",
+      "ppp.nom.pl.fem": "ignitae",
+      "ppp.nom.pl.neut": "ignita",
+      "ppp.gen.pl.masc": "ignitorum",
+      "ppp.gen.pl.fem": "ignitarum",
+      "ppp.gen.pl.neut": "ignitorum",
+      "ppp.dat.pl.masc": "ignitis",
+      "ppp.dat.pl.fem": "ignitis",
+      "ppp.dat.pl.neut": "ignitis",
+      "ppp.acc.pl.masc": "ignitos",
+      "ppp.acc.pl.fem": "ignitas",
+      "ppp.acc.pl.neut": "ignita",
+      "ppp.abl.pl.masc": "ignitis",
+      "ppp.abl.pl.fem": "ignitis",
+      "ppp.abl.pl.neut": "ignitis",
+      "ppp.voc.pl.masc": "igniti",
+      "ppp.voc.pl.fem": "ignitae",
+      "ppp.voc.pl.neut": "ignita"
+    }
   }
 }

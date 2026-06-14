@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "incursa",
       "2pl.pres.imp.act": "incursate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: incursatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "incursatus",
+      "ppp.nom.sg.fem": "incursata",
+      "ppp.nom.sg.neut": "incursatum",
+      "ppp.gen.sg.masc": "incursati",
+      "ppp.gen.sg.fem": "incursatae",
+      "ppp.gen.sg.neut": "incursati",
+      "ppp.dat.sg.masc": "incursato",
+      "ppp.dat.sg.fem": "incursatae",
+      "ppp.dat.sg.neut": "incursato",
+      "ppp.acc.sg.masc": "incursatum",
+      "ppp.acc.sg.fem": "incursatam",
+      "ppp.acc.sg.neut": "incursatum",
+      "ppp.abl.sg.masc": "incursato",
+      "ppp.abl.sg.fem": "incursata",
+      "ppp.abl.sg.neut": "incursato",
+      "ppp.voc.sg.masc": "incursate",
+      "ppp.voc.sg.fem": "incursata",
+      "ppp.voc.sg.neut": "incursatum",
+      "ppp.nom.pl.masc": "incursati",
+      "ppp.nom.pl.fem": "incursatae",
+      "ppp.nom.pl.neut": "incursata",
+      "ppp.gen.pl.masc": "incursatorum",
+      "ppp.gen.pl.fem": "incursatarum",
+      "ppp.gen.pl.neut": "incursatorum",
+      "ppp.dat.pl.masc": "incursatis",
+      "ppp.dat.pl.fem": "incursatis",
+      "ppp.dat.pl.neut": "incursatis",
+      "ppp.acc.pl.masc": "incursatos",
+      "ppp.acc.pl.fem": "incursatas",
+      "ppp.acc.pl.neut": "incursata",
+      "ppp.abl.pl.masc": "incursatis",
+      "ppp.abl.pl.fem": "incursatis",
+      "ppp.abl.pl.neut": "incursatis",
+      "ppp.voc.pl.masc": "incursati",
+      "ppp.voc.pl.fem": "incursatae",
+      "ppp.voc.pl.neut": "incursata"
+    }
   }
 }

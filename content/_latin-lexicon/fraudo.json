@@ -43,5 +43,63 @@
       "2sg.pres.imp.act": "frauda",
       "2pl.pres.imp.act": "fraudate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fraudatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fraudatus",
+      "ppp.nom.sg.fem": "fraudata",
+      "ppp.nom.sg.neut": "fraudatum",
+      "ppp.gen.sg.masc": "fraudati",
+      "ppp.gen.sg.fem": "fraudatae",
+      "ppp.gen.sg.neut": "fraudati",
+      "ppp.dat.sg.masc": "fraudato",
+      "ppp.dat.sg.fem": "fraudatae",
+      "ppp.dat.sg.neut": "fraudato",
+      "ppp.acc.sg.masc": "fraudatum",
+      "ppp.acc.sg.fem": "fraudatam",
+      "ppp.acc.sg.neut": "fraudatum",
+      "ppp.abl.sg.masc": "fraudato",
+      "ppp.abl.sg.fem": "fraudata",
+      "ppp.abl.sg.neut": "fraudato",
+      "ppp.voc.sg.masc": "fraudate",
+      "ppp.voc.sg.fem": "fraudata",
+      "ppp.voc.sg.neut": "fraudatum",
+      "ppp.nom.pl.masc": "fraudati",
+      "ppp.nom.pl.fem": "fraudatae",
+      "ppp.nom.pl.neut": "fraudata",
+      "ppp.gen.pl.masc": "fraudatorum",
+      "ppp.gen.pl.fem": "fraudatarum",
+      "ppp.gen.pl.neut": "fraudatorum",
+      "ppp.dat.pl.masc": "fraudatis",
+      "ppp.dat.pl.fem": "fraudatis",
+      "ppp.dat.pl.neut": "fraudatis",
+      "ppp.acc.pl.masc": "fraudatos",
+      "ppp.acc.pl.fem": "fraudatas",
+      "ppp.acc.pl.neut": "fraudata",
+      "ppp.abl.pl.masc": "fraudatis",
+      "ppp.abl.pl.fem": "fraudatis",
+      "ppp.abl.pl.neut": "fraudatis",
+      "ppp.voc.pl.masc": "fraudati",
+      "ppp.voc.pl.fem": "fraudatae",
+      "ppp.voc.pl.neut": "fraudata"
+    }
   }
 }

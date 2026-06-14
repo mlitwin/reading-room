@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "caeca",
       "2pl.pres.imp.act": "caecate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: caecatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "caecatus",
+      "ppp.nom.sg.fem": "caecata",
+      "ppp.nom.sg.neut": "caecatum",
+      "ppp.gen.sg.masc": "caecati",
+      "ppp.gen.sg.fem": "caecatae",
+      "ppp.gen.sg.neut": "caecati",
+      "ppp.dat.sg.masc": "caecato",
+      "ppp.dat.sg.fem": "caecatae",
+      "ppp.dat.sg.neut": "caecato",
+      "ppp.acc.sg.masc": "caecatum",
+      "ppp.acc.sg.fem": "caecatam",
+      "ppp.acc.sg.neut": "caecatum",
+      "ppp.abl.sg.masc": "caecato",
+      "ppp.abl.sg.fem": "caecata",
+      "ppp.abl.sg.neut": "caecato",
+      "ppp.voc.sg.masc": "caecate",
+      "ppp.voc.sg.fem": "caecata",
+      "ppp.voc.sg.neut": "caecatum",
+      "ppp.nom.pl.masc": "caecati",
+      "ppp.nom.pl.fem": "caecatae",
+      "ppp.nom.pl.neut": "caecata",
+      "ppp.gen.pl.masc": "caecatorum",
+      "ppp.gen.pl.fem": "caecatarum",
+      "ppp.gen.pl.neut": "caecatorum",
+      "ppp.dat.pl.masc": "caecatis",
+      "ppp.dat.pl.fem": "caecatis",
+      "ppp.dat.pl.neut": "caecatis",
+      "ppp.acc.pl.masc": "caecatos",
+      "ppp.acc.pl.fem": "caecatas",
+      "ppp.acc.pl.neut": "caecata",
+      "ppp.abl.pl.masc": "caecatis",
+      "ppp.abl.pl.fem": "caecatis",
+      "ppp.abl.pl.neut": "caecatis",
+      "ppp.voc.pl.masc": "caecati",
+      "ppp.voc.pl.fem": "caecatae",
+      "ppp.voc.pl.neut": "caecata"
+    }
   }
 }

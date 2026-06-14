@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "convehe",
       "2pl.pres.imp.act": "convehite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: convectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "convectus",
+      "ppp.nom.sg.fem": "convecta",
+      "ppp.nom.sg.neut": "convectum",
+      "ppp.gen.sg.masc": "convecti",
+      "ppp.gen.sg.fem": "convectae",
+      "ppp.gen.sg.neut": "convecti",
+      "ppp.dat.sg.masc": "convecto",
+      "ppp.dat.sg.fem": "convectae",
+      "ppp.dat.sg.neut": "convecto",
+      "ppp.acc.sg.masc": "convectum",
+      "ppp.acc.sg.fem": "convectam",
+      "ppp.acc.sg.neut": "convectum",
+      "ppp.abl.sg.masc": "convecto",
+      "ppp.abl.sg.fem": "convecta",
+      "ppp.abl.sg.neut": "convecto",
+      "ppp.voc.sg.masc": "convecte",
+      "ppp.voc.sg.fem": "convecta",
+      "ppp.voc.sg.neut": "convectum",
+      "ppp.nom.pl.masc": "convecti",
+      "ppp.nom.pl.fem": "convectae",
+      "ppp.nom.pl.neut": "convecta",
+      "ppp.gen.pl.masc": "convectorum",
+      "ppp.gen.pl.fem": "convectarum",
+      "ppp.gen.pl.neut": "convectorum",
+      "ppp.dat.pl.masc": "convectis",
+      "ppp.dat.pl.fem": "convectis",
+      "ppp.dat.pl.neut": "convectis",
+      "ppp.acc.pl.masc": "convectos",
+      "ppp.acc.pl.fem": "convectas",
+      "ppp.acc.pl.neut": "convecta",
+      "ppp.abl.pl.masc": "convectis",
+      "ppp.abl.pl.fem": "convectis",
+      "ppp.abl.pl.neut": "convectis",
+      "ppp.voc.pl.masc": "convecti",
+      "ppp.voc.pl.fem": "convectae",
+      "ppp.voc.pl.neut": "convecta"
+    }
   }
 }

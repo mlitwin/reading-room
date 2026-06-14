@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "aude",
       "2pl.pres.imp.act": "audete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ausus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ausus",
+      "ppp.nom.sg.fem": "ausa",
+      "ppp.nom.sg.neut": "ausum",
+      "ppp.gen.sg.masc": "ausi",
+      "ppp.gen.sg.fem": "ausae",
+      "ppp.gen.sg.neut": "ausi",
+      "ppp.dat.sg.masc": "auso",
+      "ppp.dat.sg.fem": "ausae",
+      "ppp.dat.sg.neut": "auso",
+      "ppp.acc.sg.masc": "ausum",
+      "ppp.acc.sg.fem": "ausam",
+      "ppp.acc.sg.neut": "ausum",
+      "ppp.abl.sg.masc": "auso",
+      "ppp.abl.sg.fem": "ausa",
+      "ppp.abl.sg.neut": "auso",
+      "ppp.voc.sg.masc": "ause",
+      "ppp.voc.sg.fem": "ausa",
+      "ppp.voc.sg.neut": "ausum",
+      "ppp.nom.pl.masc": "ausi",
+      "ppp.nom.pl.fem": "ausae",
+      "ppp.nom.pl.neut": "ausa",
+      "ppp.gen.pl.masc": "ausorum",
+      "ppp.gen.pl.fem": "ausarum",
+      "ppp.gen.pl.neut": "ausorum",
+      "ppp.dat.pl.masc": "ausis",
+      "ppp.dat.pl.fem": "ausis",
+      "ppp.dat.pl.neut": "ausis",
+      "ppp.acc.pl.masc": "ausos",
+      "ppp.acc.pl.fem": "ausas",
+      "ppp.acc.pl.neut": "ausa",
+      "ppp.abl.pl.masc": "ausis",
+      "ppp.abl.pl.fem": "ausis",
+      "ppp.abl.pl.neut": "ausis",
+      "ppp.voc.pl.masc": "ausi",
+      "ppp.voc.pl.fem": "ausae",
+      "ppp.voc.pl.neut": "ausa"
+    }
   }
 }

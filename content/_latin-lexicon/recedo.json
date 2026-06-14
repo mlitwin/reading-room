@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "recede",
       "2pl.pres.imp.act": "recedite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: recessus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "recessus",
+      "ppp.nom.sg.fem": "recessa",
+      "ppp.nom.sg.neut": "recessum",
+      "ppp.gen.sg.masc": "recessi",
+      "ppp.gen.sg.fem": "recessae",
+      "ppp.gen.sg.neut": "recessi",
+      "ppp.dat.sg.masc": "recesso",
+      "ppp.dat.sg.fem": "recessae",
+      "ppp.dat.sg.neut": "recesso",
+      "ppp.acc.sg.masc": "recessum",
+      "ppp.acc.sg.fem": "recessam",
+      "ppp.acc.sg.neut": "recessum",
+      "ppp.abl.sg.masc": "recesso",
+      "ppp.abl.sg.fem": "recessa",
+      "ppp.abl.sg.neut": "recesso",
+      "ppp.voc.sg.masc": "recesse",
+      "ppp.voc.sg.fem": "recessa",
+      "ppp.voc.sg.neut": "recessum",
+      "ppp.nom.pl.masc": "recessi",
+      "ppp.nom.pl.fem": "recessae",
+      "ppp.nom.pl.neut": "recessa",
+      "ppp.gen.pl.masc": "recessorum",
+      "ppp.gen.pl.fem": "recessarum",
+      "ppp.gen.pl.neut": "recessorum",
+      "ppp.dat.pl.masc": "recessis",
+      "ppp.dat.pl.fem": "recessis",
+      "ppp.dat.pl.neut": "recessis",
+      "ppp.acc.pl.masc": "recessos",
+      "ppp.acc.pl.fem": "recessas",
+      "ppp.acc.pl.neut": "recessa",
+      "ppp.abl.pl.masc": "recessis",
+      "ppp.abl.pl.fem": "recessis",
+      "ppp.abl.pl.neut": "recessis",
+      "ppp.voc.pl.masc": "recessi",
+      "ppp.voc.pl.fem": "recessae",
+      "ppp.voc.pl.neut": "recessa"
+    }
   }
 }

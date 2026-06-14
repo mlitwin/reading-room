@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "geme",
       "2pl.pres.imp.act": "gemite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: gemitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "gemitus",
+      "ppp.nom.sg.fem": "gemita",
+      "ppp.nom.sg.neut": "gemitum",
+      "ppp.gen.sg.masc": "gemiti",
+      "ppp.gen.sg.fem": "gemitae",
+      "ppp.gen.sg.neut": "gemiti",
+      "ppp.dat.sg.masc": "gemito",
+      "ppp.dat.sg.fem": "gemitae",
+      "ppp.dat.sg.neut": "gemito",
+      "ppp.acc.sg.masc": "gemitum",
+      "ppp.acc.sg.fem": "gemitam",
+      "ppp.acc.sg.neut": "gemitum",
+      "ppp.abl.sg.masc": "gemito",
+      "ppp.abl.sg.fem": "gemita",
+      "ppp.abl.sg.neut": "gemito",
+      "ppp.voc.sg.masc": "gemite",
+      "ppp.voc.sg.fem": "gemita",
+      "ppp.voc.sg.neut": "gemitum",
+      "ppp.nom.pl.masc": "gemiti",
+      "ppp.nom.pl.fem": "gemitae",
+      "ppp.nom.pl.neut": "gemita",
+      "ppp.gen.pl.masc": "gemitorum",
+      "ppp.gen.pl.fem": "gemitarum",
+      "ppp.gen.pl.neut": "gemitorum",
+      "ppp.dat.pl.masc": "gemitis",
+      "ppp.dat.pl.fem": "gemitis",
+      "ppp.dat.pl.neut": "gemitis",
+      "ppp.acc.pl.masc": "gemitos",
+      "ppp.acc.pl.fem": "gemitas",
+      "ppp.acc.pl.neut": "gemita",
+      "ppp.abl.pl.masc": "gemitis",
+      "ppp.abl.pl.fem": "gemitis",
+      "ppp.abl.pl.neut": "gemitis",
+      "ppp.voc.pl.masc": "gemiti",
+      "ppp.voc.pl.fem": "gemitae",
+      "ppp.voc.pl.neut": "gemita"
+    }
   }
 }

@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "porrige",
       "2pl.pres.imp.act": "porrigite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: porrectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "porrectus",
+      "ppp.nom.sg.fem": "porrecta",
+      "ppp.nom.sg.neut": "porrectum",
+      "ppp.gen.sg.masc": "porrecti",
+      "ppp.gen.sg.fem": "porrectae",
+      "ppp.gen.sg.neut": "porrecti",
+      "ppp.dat.sg.masc": "porrecto",
+      "ppp.dat.sg.fem": "porrectae",
+      "ppp.dat.sg.neut": "porrecto",
+      "ppp.acc.sg.masc": "porrectum",
+      "ppp.acc.sg.fem": "porrectam",
+      "ppp.acc.sg.neut": "porrectum",
+      "ppp.abl.sg.masc": "porrecto",
+      "ppp.abl.sg.fem": "porrecta",
+      "ppp.abl.sg.neut": "porrecto",
+      "ppp.voc.sg.masc": "porrecte",
+      "ppp.voc.sg.fem": "porrecta",
+      "ppp.voc.sg.neut": "porrectum",
+      "ppp.nom.pl.masc": "porrecti",
+      "ppp.nom.pl.fem": "porrectae",
+      "ppp.nom.pl.neut": "porrecta",
+      "ppp.gen.pl.masc": "porrectorum",
+      "ppp.gen.pl.fem": "porrectarum",
+      "ppp.gen.pl.neut": "porrectorum",
+      "ppp.dat.pl.masc": "porrectis",
+      "ppp.dat.pl.fem": "porrectis",
+      "ppp.dat.pl.neut": "porrectis",
+      "ppp.acc.pl.masc": "porrectos",
+      "ppp.acc.pl.fem": "porrectas",
+      "ppp.acc.pl.neut": "porrecta",
+      "ppp.abl.pl.masc": "porrectis",
+      "ppp.abl.pl.fem": "porrectis",
+      "ppp.abl.pl.neut": "porrectis",
+      "ppp.voc.pl.masc": "porrecti",
+      "ppp.voc.pl.fem": "porrectae",
+      "ppp.voc.pl.neut": "porrecta"
+    }
   }
 }

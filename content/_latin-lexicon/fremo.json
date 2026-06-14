@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "freme",
       "2pl.pres.imp.act": "fremite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: fremitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "fremitus",
+      "ppp.nom.sg.fem": "fremita",
+      "ppp.nom.sg.neut": "fremitum",
+      "ppp.gen.sg.masc": "fremiti",
+      "ppp.gen.sg.fem": "fremitae",
+      "ppp.gen.sg.neut": "fremiti",
+      "ppp.dat.sg.masc": "fremito",
+      "ppp.dat.sg.fem": "fremitae",
+      "ppp.dat.sg.neut": "fremito",
+      "ppp.acc.sg.masc": "fremitum",
+      "ppp.acc.sg.fem": "fremitam",
+      "ppp.acc.sg.neut": "fremitum",
+      "ppp.abl.sg.masc": "fremito",
+      "ppp.abl.sg.fem": "fremita",
+      "ppp.abl.sg.neut": "fremito",
+      "ppp.voc.sg.masc": "fremite",
+      "ppp.voc.sg.fem": "fremita",
+      "ppp.voc.sg.neut": "fremitum",
+      "ppp.nom.pl.masc": "fremiti",
+      "ppp.nom.pl.fem": "fremitae",
+      "ppp.nom.pl.neut": "fremita",
+      "ppp.gen.pl.masc": "fremitorum",
+      "ppp.gen.pl.fem": "fremitarum",
+      "ppp.gen.pl.neut": "fremitorum",
+      "ppp.dat.pl.masc": "fremitis",
+      "ppp.dat.pl.fem": "fremitis",
+      "ppp.dat.pl.neut": "fremitis",
+      "ppp.acc.pl.masc": "fremitos",
+      "ppp.acc.pl.fem": "fremitas",
+      "ppp.acc.pl.neut": "fremita",
+      "ppp.abl.pl.masc": "fremitis",
+      "ppp.abl.pl.fem": "fremitis",
+      "ppp.abl.pl.neut": "fremitis",
+      "ppp.voc.pl.masc": "fremiti",
+      "ppp.voc.pl.fem": "fremitae",
+      "ppp.voc.pl.neut": "fremita"
+    }
   }
 }

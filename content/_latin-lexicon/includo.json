@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "include",
       "2pl.pres.imp.act": "includite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: inclusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "inclusus",
+      "ppp.nom.sg.fem": "inclusa",
+      "ppp.nom.sg.neut": "inclusum",
+      "ppp.gen.sg.masc": "inclusi",
+      "ppp.gen.sg.fem": "inclusae",
+      "ppp.gen.sg.neut": "inclusi",
+      "ppp.dat.sg.masc": "incluso",
+      "ppp.dat.sg.fem": "inclusae",
+      "ppp.dat.sg.neut": "incluso",
+      "ppp.acc.sg.masc": "inclusum",
+      "ppp.acc.sg.fem": "inclusam",
+      "ppp.acc.sg.neut": "inclusum",
+      "ppp.abl.sg.masc": "incluso",
+      "ppp.abl.sg.fem": "inclusa",
+      "ppp.abl.sg.neut": "incluso",
+      "ppp.voc.sg.masc": "incluse",
+      "ppp.voc.sg.fem": "inclusa",
+      "ppp.voc.sg.neut": "inclusum",
+      "ppp.nom.pl.masc": "inclusi",
+      "ppp.nom.pl.fem": "inclusae",
+      "ppp.nom.pl.neut": "inclusa",
+      "ppp.gen.pl.masc": "inclusorum",
+      "ppp.gen.pl.fem": "inclusarum",
+      "ppp.gen.pl.neut": "inclusorum",
+      "ppp.dat.pl.masc": "inclusis",
+      "ppp.dat.pl.fem": "inclusis",
+      "ppp.dat.pl.neut": "inclusis",
+      "ppp.acc.pl.masc": "inclusos",
+      "ppp.acc.pl.fem": "inclusas",
+      "ppp.acc.pl.neut": "inclusa",
+      "ppp.abl.pl.masc": "inclusis",
+      "ppp.abl.pl.fem": "inclusis",
+      "ppp.abl.pl.neut": "inclusis",
+      "ppp.voc.pl.masc": "inclusi",
+      "ppp.voc.pl.fem": "inclusae",
+      "ppp.voc.pl.neut": "inclusa"
+    }
   }
 }

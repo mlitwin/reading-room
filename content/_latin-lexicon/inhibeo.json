@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "inhibe",
       "2pl.pres.imp.act": "inhibete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: inhibitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "inhibitus",
+      "ppp.nom.sg.fem": "inhibita",
+      "ppp.nom.sg.neut": "inhibitum",
+      "ppp.gen.sg.masc": "inhibiti",
+      "ppp.gen.sg.fem": "inhibitae",
+      "ppp.gen.sg.neut": "inhibiti",
+      "ppp.dat.sg.masc": "inhibito",
+      "ppp.dat.sg.fem": "inhibitae",
+      "ppp.dat.sg.neut": "inhibito",
+      "ppp.acc.sg.masc": "inhibitum",
+      "ppp.acc.sg.fem": "inhibitam",
+      "ppp.acc.sg.neut": "inhibitum",
+      "ppp.abl.sg.masc": "inhibito",
+      "ppp.abl.sg.fem": "inhibita",
+      "ppp.abl.sg.neut": "inhibito",
+      "ppp.voc.sg.masc": "inhibite",
+      "ppp.voc.sg.fem": "inhibita",
+      "ppp.voc.sg.neut": "inhibitum",
+      "ppp.nom.pl.masc": "inhibiti",
+      "ppp.nom.pl.fem": "inhibitae",
+      "ppp.nom.pl.neut": "inhibita",
+      "ppp.gen.pl.masc": "inhibitorum",
+      "ppp.gen.pl.fem": "inhibitarum",
+      "ppp.gen.pl.neut": "inhibitorum",
+      "ppp.dat.pl.masc": "inhibitis",
+      "ppp.dat.pl.fem": "inhibitis",
+      "ppp.dat.pl.neut": "inhibitis",
+      "ppp.acc.pl.masc": "inhibitos",
+      "ppp.acc.pl.fem": "inhibitas",
+      "ppp.acc.pl.neut": "inhibita",
+      "ppp.abl.pl.masc": "inhibitis",
+      "ppp.abl.pl.fem": "inhibitis",
+      "ppp.abl.pl.neut": "inhibitis",
+      "ppp.voc.pl.masc": "inhibiti",
+      "ppp.voc.pl.fem": "inhibitae",
+      "ppp.voc.pl.neut": "inhibita"
+    }
   }
 }

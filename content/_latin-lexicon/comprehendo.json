@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "comprehende",
       "2pl.pres.imp.act": "comprehendite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: comprehensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "comprehensus",
+      "ppp.nom.sg.fem": "comprehensa",
+      "ppp.nom.sg.neut": "comprehensum",
+      "ppp.gen.sg.masc": "comprehensi",
+      "ppp.gen.sg.fem": "comprehensae",
+      "ppp.gen.sg.neut": "comprehensi",
+      "ppp.dat.sg.masc": "comprehenso",
+      "ppp.dat.sg.fem": "comprehensae",
+      "ppp.dat.sg.neut": "comprehenso",
+      "ppp.acc.sg.masc": "comprehensum",
+      "ppp.acc.sg.fem": "comprehensam",
+      "ppp.acc.sg.neut": "comprehensum",
+      "ppp.abl.sg.masc": "comprehenso",
+      "ppp.abl.sg.fem": "comprehensa",
+      "ppp.abl.sg.neut": "comprehenso",
+      "ppp.voc.sg.masc": "comprehense",
+      "ppp.voc.sg.fem": "comprehensa",
+      "ppp.voc.sg.neut": "comprehensum",
+      "ppp.nom.pl.masc": "comprehensi",
+      "ppp.nom.pl.fem": "comprehensae",
+      "ppp.nom.pl.neut": "comprehensa",
+      "ppp.gen.pl.masc": "comprehensorum",
+      "ppp.gen.pl.fem": "comprehensarum",
+      "ppp.gen.pl.neut": "comprehensorum",
+      "ppp.dat.pl.masc": "comprehensis",
+      "ppp.dat.pl.fem": "comprehensis",
+      "ppp.dat.pl.neut": "comprehensis",
+      "ppp.acc.pl.masc": "comprehensos",
+      "ppp.acc.pl.fem": "comprehensas",
+      "ppp.acc.pl.neut": "comprehensa",
+      "ppp.abl.pl.masc": "comprehensis",
+      "ppp.abl.pl.fem": "comprehensis",
+      "ppp.abl.pl.neut": "comprehensis",
+      "ppp.voc.pl.masc": "comprehensi",
+      "ppp.voc.pl.fem": "comprehensae",
+      "ppp.voc.pl.neut": "comprehensa"
+    }
   }
 }

@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "refer",
       "2pl.pres.imp.act": "referte"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: relatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "relatus",
+      "ppp.nom.sg.fem": "relata",
+      "ppp.nom.sg.neut": "relatum",
+      "ppp.gen.sg.masc": "relati",
+      "ppp.gen.sg.fem": "relatae",
+      "ppp.gen.sg.neut": "relati",
+      "ppp.dat.sg.masc": "relato",
+      "ppp.dat.sg.fem": "relatae",
+      "ppp.dat.sg.neut": "relato",
+      "ppp.acc.sg.masc": "relatum",
+      "ppp.acc.sg.fem": "relatam",
+      "ppp.acc.sg.neut": "relatum",
+      "ppp.abl.sg.masc": "relato",
+      "ppp.abl.sg.fem": "relata",
+      "ppp.abl.sg.neut": "relato",
+      "ppp.voc.sg.masc": "relate",
+      "ppp.voc.sg.fem": "relata",
+      "ppp.voc.sg.neut": "relatum",
+      "ppp.nom.pl.masc": "relati",
+      "ppp.nom.pl.fem": "relatae",
+      "ppp.nom.pl.neut": "relata",
+      "ppp.gen.pl.masc": "relatorum",
+      "ppp.gen.pl.fem": "relatarum",
+      "ppp.gen.pl.neut": "relatorum",
+      "ppp.dat.pl.masc": "relatis",
+      "ppp.dat.pl.fem": "relatis",
+      "ppp.dat.pl.neut": "relatis",
+      "ppp.acc.pl.masc": "relatos",
+      "ppp.acc.pl.fem": "relatas",
+      "ppp.acc.pl.neut": "relata",
+      "ppp.abl.pl.masc": "relatis",
+      "ppp.abl.pl.fem": "relatis",
+      "ppp.abl.pl.neut": "relatis",
+      "ppp.voc.pl.masc": "relati",
+      "ppp.voc.pl.fem": "relatae",
+      "ppp.voc.pl.neut": "relata"
+    }
   }
 }

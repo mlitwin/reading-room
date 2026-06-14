@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "glomera",
       "2pl.pres.imp.act": "glomerate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: glomeratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "glomeratus",
+      "ppp.nom.sg.fem": "glomerata",
+      "ppp.nom.sg.neut": "glomeratum",
+      "ppp.gen.sg.masc": "glomerati",
+      "ppp.gen.sg.fem": "glomeratae",
+      "ppp.gen.sg.neut": "glomerati",
+      "ppp.dat.sg.masc": "glomerato",
+      "ppp.dat.sg.fem": "glomeratae",
+      "ppp.dat.sg.neut": "glomerato",
+      "ppp.acc.sg.masc": "glomeratum",
+      "ppp.acc.sg.fem": "glomeratam",
+      "ppp.acc.sg.neut": "glomeratum",
+      "ppp.abl.sg.masc": "glomerato",
+      "ppp.abl.sg.fem": "glomerata",
+      "ppp.abl.sg.neut": "glomerato",
+      "ppp.voc.sg.masc": "glomerate",
+      "ppp.voc.sg.fem": "glomerata",
+      "ppp.voc.sg.neut": "glomeratum",
+      "ppp.nom.pl.masc": "glomerati",
+      "ppp.nom.pl.fem": "glomeratae",
+      "ppp.nom.pl.neut": "glomerata",
+      "ppp.gen.pl.masc": "glomeratorum",
+      "ppp.gen.pl.fem": "glomeratarum",
+      "ppp.gen.pl.neut": "glomeratorum",
+      "ppp.dat.pl.masc": "glomeratis",
+      "ppp.dat.pl.fem": "glomeratis",
+      "ppp.dat.pl.neut": "glomeratis",
+      "ppp.acc.pl.masc": "glomeratos",
+      "ppp.acc.pl.fem": "glomeratas",
+      "ppp.acc.pl.neut": "glomerata",
+      "ppp.abl.pl.masc": "glomeratis",
+      "ppp.abl.pl.fem": "glomeratis",
+      "ppp.abl.pl.neut": "glomeratis",
+      "ppp.voc.pl.masc": "glomerati",
+      "ppp.voc.pl.fem": "glomeratae",
+      "ppp.voc.pl.neut": "glomerata"
+    }
   }
 }

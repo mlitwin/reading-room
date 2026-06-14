@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "admove",
       "2pl.pres.imp.act": "admovete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: admotus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "admotus",
+      "ppp.nom.sg.fem": "admota",
+      "ppp.nom.sg.neut": "admotum",
+      "ppp.gen.sg.masc": "admoti",
+      "ppp.gen.sg.fem": "admotae",
+      "ppp.gen.sg.neut": "admoti",
+      "ppp.dat.sg.masc": "admoto",
+      "ppp.dat.sg.fem": "admotae",
+      "ppp.dat.sg.neut": "admoto",
+      "ppp.acc.sg.masc": "admotum",
+      "ppp.acc.sg.fem": "admotam",
+      "ppp.acc.sg.neut": "admotum",
+      "ppp.abl.sg.masc": "admoto",
+      "ppp.abl.sg.fem": "admota",
+      "ppp.abl.sg.neut": "admoto",
+      "ppp.voc.sg.masc": "admote",
+      "ppp.voc.sg.fem": "admota",
+      "ppp.voc.sg.neut": "admotum",
+      "ppp.nom.pl.masc": "admoti",
+      "ppp.nom.pl.fem": "admotae",
+      "ppp.nom.pl.neut": "admota",
+      "ppp.gen.pl.masc": "admotorum",
+      "ppp.gen.pl.fem": "admotarum",
+      "ppp.gen.pl.neut": "admotorum",
+      "ppp.dat.pl.masc": "admotis",
+      "ppp.dat.pl.fem": "admotis",
+      "ppp.dat.pl.neut": "admotis",
+      "ppp.acc.pl.masc": "admotos",
+      "ppp.acc.pl.fem": "admotas",
+      "ppp.acc.pl.neut": "admota",
+      "ppp.abl.pl.masc": "admotis",
+      "ppp.abl.pl.fem": "admotis",
+      "ppp.abl.pl.neut": "admotis",
+      "ppp.voc.pl.masc": "admoti",
+      "ppp.voc.pl.fem": "admotae",
+      "ppp.voc.pl.neut": "admota"
+    }
   }
 }

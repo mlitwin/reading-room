@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "innasce",
       "2pl.pres.imp.act": "innascite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: innatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "innatus",
+      "ppp.nom.sg.fem": "innata",
+      "ppp.nom.sg.neut": "innatum",
+      "ppp.gen.sg.masc": "innati",
+      "ppp.gen.sg.fem": "innatae",
+      "ppp.gen.sg.neut": "innati",
+      "ppp.dat.sg.masc": "innato",
+      "ppp.dat.sg.fem": "innatae",
+      "ppp.dat.sg.neut": "innato",
+      "ppp.acc.sg.masc": "innatum",
+      "ppp.acc.sg.fem": "innatam",
+      "ppp.acc.sg.neut": "innatum",
+      "ppp.abl.sg.masc": "innato",
+      "ppp.abl.sg.fem": "innata",
+      "ppp.abl.sg.neut": "innato",
+      "ppp.voc.sg.masc": "innate",
+      "ppp.voc.sg.fem": "innata",
+      "ppp.voc.sg.neut": "innatum",
+      "ppp.nom.pl.masc": "innati",
+      "ppp.nom.pl.fem": "innatae",
+      "ppp.nom.pl.neut": "innata",
+      "ppp.gen.pl.masc": "innatorum",
+      "ppp.gen.pl.fem": "innatarum",
+      "ppp.gen.pl.neut": "innatorum",
+      "ppp.dat.pl.masc": "innatis",
+      "ppp.dat.pl.fem": "innatis",
+      "ppp.dat.pl.neut": "innatis",
+      "ppp.acc.pl.masc": "innatos",
+      "ppp.acc.pl.fem": "innatas",
+      "ppp.acc.pl.neut": "innata",
+      "ppp.abl.pl.masc": "innatis",
+      "ppp.abl.pl.fem": "innatis",
+      "ppp.abl.pl.neut": "innatis",
+      "ppp.voc.pl.masc": "innati",
+      "ppp.voc.pl.fem": "innatae",
+      "ppp.voc.pl.neut": "innata"
+    }
   }
 }

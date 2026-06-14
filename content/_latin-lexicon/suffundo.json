@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "suffunde",
       "2pl.pres.imp.act": "suffundite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: suffusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "suffusus",
+      "ppp.nom.sg.fem": "suffusa",
+      "ppp.nom.sg.neut": "suffusum",
+      "ppp.gen.sg.masc": "suffusi",
+      "ppp.gen.sg.fem": "suffusae",
+      "ppp.gen.sg.neut": "suffusi",
+      "ppp.dat.sg.masc": "suffuso",
+      "ppp.dat.sg.fem": "suffusae",
+      "ppp.dat.sg.neut": "suffuso",
+      "ppp.acc.sg.masc": "suffusum",
+      "ppp.acc.sg.fem": "suffusam",
+      "ppp.acc.sg.neut": "suffusum",
+      "ppp.abl.sg.masc": "suffuso",
+      "ppp.abl.sg.fem": "suffusa",
+      "ppp.abl.sg.neut": "suffuso",
+      "ppp.voc.sg.masc": "suffuse",
+      "ppp.voc.sg.fem": "suffusa",
+      "ppp.voc.sg.neut": "suffusum",
+      "ppp.nom.pl.masc": "suffusi",
+      "ppp.nom.pl.fem": "suffusae",
+      "ppp.nom.pl.neut": "suffusa",
+      "ppp.gen.pl.masc": "suffusorum",
+      "ppp.gen.pl.fem": "suffusarum",
+      "ppp.gen.pl.neut": "suffusorum",
+      "ppp.dat.pl.masc": "suffusis",
+      "ppp.dat.pl.fem": "suffusis",
+      "ppp.dat.pl.neut": "suffusis",
+      "ppp.acc.pl.masc": "suffusos",
+      "ppp.acc.pl.fem": "suffusas",
+      "ppp.acc.pl.neut": "suffusa",
+      "ppp.abl.pl.masc": "suffusis",
+      "ppp.abl.pl.fem": "suffusis",
+      "ppp.abl.pl.neut": "suffusis",
+      "ppp.voc.pl.masc": "suffusi",
+      "ppp.voc.pl.fem": "suffusae",
+      "ppp.voc.pl.neut": "suffusa"
+    }
   }
 }

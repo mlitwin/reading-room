@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "crea",
       "2pl.pres.imp.act": "create"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: creatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "creatus",
+      "ppp.nom.sg.fem": "creata",
+      "ppp.nom.sg.neut": "creatum",
+      "ppp.gen.sg.masc": "creati",
+      "ppp.gen.sg.fem": "creatae",
+      "ppp.gen.sg.neut": "creati",
+      "ppp.dat.sg.masc": "creato",
+      "ppp.dat.sg.fem": "creatae",
+      "ppp.dat.sg.neut": "creato",
+      "ppp.acc.sg.masc": "creatum",
+      "ppp.acc.sg.fem": "creatam",
+      "ppp.acc.sg.neut": "creatum",
+      "ppp.abl.sg.masc": "creato",
+      "ppp.abl.sg.fem": "creata",
+      "ppp.abl.sg.neut": "creato",
+      "ppp.voc.sg.masc": "create",
+      "ppp.voc.sg.fem": "creata",
+      "ppp.voc.sg.neut": "creatum",
+      "ppp.nom.pl.masc": "creati",
+      "ppp.nom.pl.fem": "creatae",
+      "ppp.nom.pl.neut": "creata",
+      "ppp.gen.pl.masc": "creatorum",
+      "ppp.gen.pl.fem": "creatarum",
+      "ppp.gen.pl.neut": "creatorum",
+      "ppp.dat.pl.masc": "creatis",
+      "ppp.dat.pl.fem": "creatis",
+      "ppp.dat.pl.neut": "creatis",
+      "ppp.acc.pl.masc": "creatos",
+      "ppp.acc.pl.fem": "creatas",
+      "ppp.acc.pl.neut": "creata",
+      "ppp.abl.pl.masc": "creatis",
+      "ppp.abl.pl.fem": "creatis",
+      "ppp.abl.pl.neut": "creatis",
+      "ppp.voc.pl.masc": "creati",
+      "ppp.voc.pl.fem": "creatae",
+      "ppp.voc.pl.neut": "creata"
+    }
   }
 }

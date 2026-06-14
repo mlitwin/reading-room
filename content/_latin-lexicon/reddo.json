@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "redde",
       "2pl.pres.imp.act": "reddite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: redditus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "redditus",
+      "ppp.nom.sg.fem": "reddita",
+      "ppp.nom.sg.neut": "redditum",
+      "ppp.gen.sg.masc": "redditi",
+      "ppp.gen.sg.fem": "redditae",
+      "ppp.gen.sg.neut": "redditi",
+      "ppp.dat.sg.masc": "reddito",
+      "ppp.dat.sg.fem": "redditae",
+      "ppp.dat.sg.neut": "reddito",
+      "ppp.acc.sg.masc": "redditum",
+      "ppp.acc.sg.fem": "redditam",
+      "ppp.acc.sg.neut": "redditum",
+      "ppp.abl.sg.masc": "reddito",
+      "ppp.abl.sg.fem": "reddita",
+      "ppp.abl.sg.neut": "reddito",
+      "ppp.voc.sg.masc": "reddite",
+      "ppp.voc.sg.fem": "reddita",
+      "ppp.voc.sg.neut": "redditum",
+      "ppp.nom.pl.masc": "redditi",
+      "ppp.nom.pl.fem": "redditae",
+      "ppp.nom.pl.neut": "reddita",
+      "ppp.gen.pl.masc": "redditorum",
+      "ppp.gen.pl.fem": "redditarum",
+      "ppp.gen.pl.neut": "redditorum",
+      "ppp.dat.pl.masc": "redditis",
+      "ppp.dat.pl.fem": "redditis",
+      "ppp.dat.pl.neut": "redditis",
+      "ppp.acc.pl.masc": "redditos",
+      "ppp.acc.pl.fem": "redditas",
+      "ppp.acc.pl.neut": "reddita",
+      "ppp.abl.pl.masc": "redditis",
+      "ppp.abl.pl.fem": "redditis",
+      "ppp.abl.pl.neut": "redditis",
+      "ppp.voc.pl.masc": "redditi",
+      "ppp.voc.pl.fem": "redditae",
+      "ppp.voc.pl.neut": "reddita"
+    }
   }
 }

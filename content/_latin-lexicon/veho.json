@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "vehe",
       "2pl.pres.imp.act": "vehite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: vectus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "vectus",
+      "ppp.nom.sg.fem": "vecta",
+      "ppp.nom.sg.neut": "vectum",
+      "ppp.gen.sg.masc": "vecti",
+      "ppp.gen.sg.fem": "vectae",
+      "ppp.gen.sg.neut": "vecti",
+      "ppp.dat.sg.masc": "vecto",
+      "ppp.dat.sg.fem": "vectae",
+      "ppp.dat.sg.neut": "vecto",
+      "ppp.acc.sg.masc": "vectum",
+      "ppp.acc.sg.fem": "vectam",
+      "ppp.acc.sg.neut": "vectum",
+      "ppp.abl.sg.masc": "vecto",
+      "ppp.abl.sg.fem": "vecta",
+      "ppp.abl.sg.neut": "vecto",
+      "ppp.voc.sg.masc": "vecte",
+      "ppp.voc.sg.fem": "vecta",
+      "ppp.voc.sg.neut": "vectum",
+      "ppp.nom.pl.masc": "vecti",
+      "ppp.nom.pl.fem": "vectae",
+      "ppp.nom.pl.neut": "vecta",
+      "ppp.gen.pl.masc": "vectorum",
+      "ppp.gen.pl.fem": "vectarum",
+      "ppp.gen.pl.neut": "vectorum",
+      "ppp.dat.pl.masc": "vectis",
+      "ppp.dat.pl.fem": "vectis",
+      "ppp.dat.pl.neut": "vectis",
+      "ppp.acc.pl.masc": "vectos",
+      "ppp.acc.pl.fem": "vectas",
+      "ppp.acc.pl.neut": "vecta",
+      "ppp.abl.pl.masc": "vectis",
+      "ppp.abl.pl.fem": "vectis",
+      "ppp.abl.pl.neut": "vectis",
+      "ppp.voc.pl.masc": "vecti",
+      "ppp.voc.pl.fem": "vectae",
+      "ppp.voc.pl.neut": "vecta"
+    }
   }
 }

@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "recide",
       "2pl.pres.imp.act": "recidite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: recasus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "recasus",
+      "ppp.nom.sg.fem": "recasa",
+      "ppp.nom.sg.neut": "recasum",
+      "ppp.gen.sg.masc": "recasi",
+      "ppp.gen.sg.fem": "recasae",
+      "ppp.gen.sg.neut": "recasi",
+      "ppp.dat.sg.masc": "recaso",
+      "ppp.dat.sg.fem": "recasae",
+      "ppp.dat.sg.neut": "recaso",
+      "ppp.acc.sg.masc": "recasum",
+      "ppp.acc.sg.fem": "recasam",
+      "ppp.acc.sg.neut": "recasum",
+      "ppp.abl.sg.masc": "recaso",
+      "ppp.abl.sg.fem": "recasa",
+      "ppp.abl.sg.neut": "recaso",
+      "ppp.voc.sg.masc": "recase",
+      "ppp.voc.sg.fem": "recasa",
+      "ppp.voc.sg.neut": "recasum",
+      "ppp.nom.pl.masc": "recasi",
+      "ppp.nom.pl.fem": "recasae",
+      "ppp.nom.pl.neut": "recasa",
+      "ppp.gen.pl.masc": "recasorum",
+      "ppp.gen.pl.fem": "recasarum",
+      "ppp.gen.pl.neut": "recasorum",
+      "ppp.dat.pl.masc": "recasis",
+      "ppp.dat.pl.fem": "recasis",
+      "ppp.dat.pl.neut": "recasis",
+      "ppp.acc.pl.masc": "recasos",
+      "ppp.acc.pl.fem": "recasas",
+      "ppp.acc.pl.neut": "recasa",
+      "ppp.abl.pl.masc": "recasis",
+      "ppp.abl.pl.fem": "recasis",
+      "ppp.abl.pl.neut": "recasis",
+      "ppp.voc.pl.masc": "recasi",
+      "ppp.voc.pl.fem": "recasae",
+      "ppp.voc.pl.neut": "recasa"
+    }
   }
 }

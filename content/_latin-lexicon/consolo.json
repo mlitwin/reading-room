@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "consola",
       "2pl.pres.imp.act": "consolate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: consolatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "consolatus",
+      "ppp.nom.sg.fem": "consolata",
+      "ppp.nom.sg.neut": "consolatum",
+      "ppp.gen.sg.masc": "consolati",
+      "ppp.gen.sg.fem": "consolatae",
+      "ppp.gen.sg.neut": "consolati",
+      "ppp.dat.sg.masc": "consolato",
+      "ppp.dat.sg.fem": "consolatae",
+      "ppp.dat.sg.neut": "consolato",
+      "ppp.acc.sg.masc": "consolatum",
+      "ppp.acc.sg.fem": "consolatam",
+      "ppp.acc.sg.neut": "consolatum",
+      "ppp.abl.sg.masc": "consolato",
+      "ppp.abl.sg.fem": "consolata",
+      "ppp.abl.sg.neut": "consolato",
+      "ppp.voc.sg.masc": "consolate",
+      "ppp.voc.sg.fem": "consolata",
+      "ppp.voc.sg.neut": "consolatum",
+      "ppp.nom.pl.masc": "consolati",
+      "ppp.nom.pl.fem": "consolatae",
+      "ppp.nom.pl.neut": "consolata",
+      "ppp.gen.pl.masc": "consolatorum",
+      "ppp.gen.pl.fem": "consolatarum",
+      "ppp.gen.pl.neut": "consolatorum",
+      "ppp.dat.pl.masc": "consolatis",
+      "ppp.dat.pl.fem": "consolatis",
+      "ppp.dat.pl.neut": "consolatis",
+      "ppp.acc.pl.masc": "consolatos",
+      "ppp.acc.pl.fem": "consolatas",
+      "ppp.acc.pl.neut": "consolata",
+      "ppp.abl.pl.masc": "consolatis",
+      "ppp.abl.pl.fem": "consolatis",
+      "ppp.abl.pl.neut": "consolatis",
+      "ppp.voc.pl.masc": "consolati",
+      "ppp.voc.pl.fem": "consolatae",
+      "ppp.voc.pl.neut": "consolata"
+    }
   }
 }

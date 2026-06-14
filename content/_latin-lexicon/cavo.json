@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "cava",
       "2pl.pres.imp.act": "cavate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: cavatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "cavatus",
+      "ppp.nom.sg.fem": "cavata",
+      "ppp.nom.sg.neut": "cavatum",
+      "ppp.gen.sg.masc": "cavati",
+      "ppp.gen.sg.fem": "cavatae",
+      "ppp.gen.sg.neut": "cavati",
+      "ppp.dat.sg.masc": "cavato",
+      "ppp.dat.sg.fem": "cavatae",
+      "ppp.dat.sg.neut": "cavato",
+      "ppp.acc.sg.masc": "cavatum",
+      "ppp.acc.sg.fem": "cavatam",
+      "ppp.acc.sg.neut": "cavatum",
+      "ppp.abl.sg.masc": "cavato",
+      "ppp.abl.sg.fem": "cavata",
+      "ppp.abl.sg.neut": "cavato",
+      "ppp.voc.sg.masc": "cavate",
+      "ppp.voc.sg.fem": "cavata",
+      "ppp.voc.sg.neut": "cavatum",
+      "ppp.nom.pl.masc": "cavati",
+      "ppp.nom.pl.fem": "cavatae",
+      "ppp.nom.pl.neut": "cavata",
+      "ppp.gen.pl.masc": "cavatorum",
+      "ppp.gen.pl.fem": "cavatarum",
+      "ppp.gen.pl.neut": "cavatorum",
+      "ppp.dat.pl.masc": "cavatis",
+      "ppp.dat.pl.fem": "cavatis",
+      "ppp.dat.pl.neut": "cavatis",
+      "ppp.acc.pl.masc": "cavatos",
+      "ppp.acc.pl.fem": "cavatas",
+      "ppp.acc.pl.neut": "cavata",
+      "ppp.abl.pl.masc": "cavatis",
+      "ppp.abl.pl.fem": "cavatis",
+      "ppp.abl.pl.neut": "cavatis",
+      "ppp.voc.pl.masc": "cavati",
+      "ppp.voc.pl.fem": "cavatae",
+      "ppp.voc.pl.neut": "cavata"
+    }
   }
 }

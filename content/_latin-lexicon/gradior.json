@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "grade",
       "2pl.pres.imp.act": "gradite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: gressus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "gressus",
+      "ppp.nom.sg.fem": "gressa",
+      "ppp.nom.sg.neut": "gressum",
+      "ppp.gen.sg.masc": "gressi",
+      "ppp.gen.sg.fem": "gressae",
+      "ppp.gen.sg.neut": "gressi",
+      "ppp.dat.sg.masc": "gresso",
+      "ppp.dat.sg.fem": "gressae",
+      "ppp.dat.sg.neut": "gresso",
+      "ppp.acc.sg.masc": "gressum",
+      "ppp.acc.sg.fem": "gressam",
+      "ppp.acc.sg.neut": "gressum",
+      "ppp.abl.sg.masc": "gresso",
+      "ppp.abl.sg.fem": "gressa",
+      "ppp.abl.sg.neut": "gresso",
+      "ppp.voc.sg.masc": "gresse",
+      "ppp.voc.sg.fem": "gressa",
+      "ppp.voc.sg.neut": "gressum",
+      "ppp.nom.pl.masc": "gressi",
+      "ppp.nom.pl.fem": "gressae",
+      "ppp.nom.pl.neut": "gressa",
+      "ppp.gen.pl.masc": "gressorum",
+      "ppp.gen.pl.fem": "gressarum",
+      "ppp.gen.pl.neut": "gressorum",
+      "ppp.dat.pl.masc": "gressis",
+      "ppp.dat.pl.fem": "gressis",
+      "ppp.dat.pl.neut": "gressis",
+      "ppp.acc.pl.masc": "gressos",
+      "ppp.acc.pl.fem": "gressas",
+      "ppp.acc.pl.neut": "gressa",
+      "ppp.abl.pl.masc": "gressis",
+      "ppp.abl.pl.fem": "gressis",
+      "ppp.abl.pl.neut": "gressis",
+      "ppp.voc.pl.masc": "gressi",
+      "ppp.voc.pl.fem": "gressae",
+      "ppp.voc.pl.neut": "gressa"
+    }
   }
 }

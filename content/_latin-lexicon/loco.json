@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "loca",
       "2pl.pres.imp.act": "locate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: locatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "locatus",
+      "ppp.nom.sg.fem": "locata",
+      "ppp.nom.sg.neut": "locatum",
+      "ppp.gen.sg.masc": "locati",
+      "ppp.gen.sg.fem": "locatae",
+      "ppp.gen.sg.neut": "locati",
+      "ppp.dat.sg.masc": "locato",
+      "ppp.dat.sg.fem": "locatae",
+      "ppp.dat.sg.neut": "locato",
+      "ppp.acc.sg.masc": "locatum",
+      "ppp.acc.sg.fem": "locatam",
+      "ppp.acc.sg.neut": "locatum",
+      "ppp.abl.sg.masc": "locato",
+      "ppp.abl.sg.fem": "locata",
+      "ppp.abl.sg.neut": "locato",
+      "ppp.voc.sg.masc": "locate",
+      "ppp.voc.sg.fem": "locata",
+      "ppp.voc.sg.neut": "locatum",
+      "ppp.nom.pl.masc": "locati",
+      "ppp.nom.pl.fem": "locatae",
+      "ppp.nom.pl.neut": "locata",
+      "ppp.gen.pl.masc": "locatorum",
+      "ppp.gen.pl.fem": "locatarum",
+      "ppp.gen.pl.neut": "locatorum",
+      "ppp.dat.pl.masc": "locatis",
+      "ppp.dat.pl.fem": "locatis",
+      "ppp.dat.pl.neut": "locatis",
+      "ppp.acc.pl.masc": "locatos",
+      "ppp.acc.pl.fem": "locatas",
+      "ppp.acc.pl.neut": "locata",
+      "ppp.abl.pl.masc": "locatis",
+      "ppp.abl.pl.fem": "locatis",
+      "ppp.abl.pl.neut": "locatis",
+      "ppp.voc.pl.masc": "locati",
+      "ppp.voc.pl.fem": "locatae",
+      "ppp.voc.pl.neut": "locata"
+    }
   }
 }

@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "nota",
       "2pl.pres.imp.act": "notate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: notatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "notatus",
+      "ppp.nom.sg.fem": "notata",
+      "ppp.nom.sg.neut": "notatum",
+      "ppp.gen.sg.masc": "notati",
+      "ppp.gen.sg.fem": "notatae",
+      "ppp.gen.sg.neut": "notati",
+      "ppp.dat.sg.masc": "notato",
+      "ppp.dat.sg.fem": "notatae",
+      "ppp.dat.sg.neut": "notato",
+      "ppp.acc.sg.masc": "notatum",
+      "ppp.acc.sg.fem": "notatam",
+      "ppp.acc.sg.neut": "notatum",
+      "ppp.abl.sg.masc": "notato",
+      "ppp.abl.sg.fem": "notata",
+      "ppp.abl.sg.neut": "notato",
+      "ppp.voc.sg.masc": "notate",
+      "ppp.voc.sg.fem": "notata",
+      "ppp.voc.sg.neut": "notatum",
+      "ppp.nom.pl.masc": "notati",
+      "ppp.nom.pl.fem": "notatae",
+      "ppp.nom.pl.neut": "notata",
+      "ppp.gen.pl.masc": "notatorum",
+      "ppp.gen.pl.fem": "notatarum",
+      "ppp.gen.pl.neut": "notatorum",
+      "ppp.dat.pl.masc": "notatis",
+      "ppp.dat.pl.fem": "notatis",
+      "ppp.dat.pl.neut": "notatis",
+      "ppp.acc.pl.masc": "notatos",
+      "ppp.acc.pl.fem": "notatas",
+      "ppp.acc.pl.neut": "notata",
+      "ppp.abl.pl.masc": "notatis",
+      "ppp.abl.pl.fem": "notatis",
+      "ppp.abl.pl.neut": "notatis",
+      "ppp.voc.pl.masc": "notati",
+      "ppp.voc.pl.fem": "notatae",
+      "ppp.voc.pl.neut": "notata"
+    }
   }
 }

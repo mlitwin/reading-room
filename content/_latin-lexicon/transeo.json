@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "transi",
       "2pl.pres.imp.act": "transite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: transitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "transitus",
+      "ppp.nom.sg.fem": "transita",
+      "ppp.nom.sg.neut": "transitum",
+      "ppp.gen.sg.masc": "transiti",
+      "ppp.gen.sg.fem": "transitae",
+      "ppp.gen.sg.neut": "transiti",
+      "ppp.dat.sg.masc": "transito",
+      "ppp.dat.sg.fem": "transitae",
+      "ppp.dat.sg.neut": "transito",
+      "ppp.acc.sg.masc": "transitum",
+      "ppp.acc.sg.fem": "transitam",
+      "ppp.acc.sg.neut": "transitum",
+      "ppp.abl.sg.masc": "transito",
+      "ppp.abl.sg.fem": "transita",
+      "ppp.abl.sg.neut": "transito",
+      "ppp.voc.sg.masc": "transite",
+      "ppp.voc.sg.fem": "transita",
+      "ppp.voc.sg.neut": "transitum",
+      "ppp.nom.pl.masc": "transiti",
+      "ppp.nom.pl.fem": "transitae",
+      "ppp.nom.pl.neut": "transita",
+      "ppp.gen.pl.masc": "transitorum",
+      "ppp.gen.pl.fem": "transitarum",
+      "ppp.gen.pl.neut": "transitorum",
+      "ppp.dat.pl.masc": "transitis",
+      "ppp.dat.pl.fem": "transitis",
+      "ppp.dat.pl.neut": "transitis",
+      "ppp.acc.pl.masc": "transitos",
+      "ppp.acc.pl.fem": "transitas",
+      "ppp.acc.pl.neut": "transita",
+      "ppp.abl.pl.masc": "transitis",
+      "ppp.abl.pl.fem": "transitis",
+      "ppp.abl.pl.neut": "transitis",
+      "ppp.voc.pl.masc": "transiti",
+      "ppp.voc.pl.fem": "transitae",
+      "ppp.voc.pl.neut": "transita"
+    }
   }
 }

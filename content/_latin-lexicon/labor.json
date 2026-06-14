@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "laba",
       "2pl.pres.imp.act": "labate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: labatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "labatus",
+      "ppp.nom.sg.fem": "labata",
+      "ppp.nom.sg.neut": "labatum",
+      "ppp.gen.sg.masc": "labati",
+      "ppp.gen.sg.fem": "labatae",
+      "ppp.gen.sg.neut": "labati",
+      "ppp.dat.sg.masc": "labato",
+      "ppp.dat.sg.fem": "labatae",
+      "ppp.dat.sg.neut": "labato",
+      "ppp.acc.sg.masc": "labatum",
+      "ppp.acc.sg.fem": "labatam",
+      "ppp.acc.sg.neut": "labatum",
+      "ppp.abl.sg.masc": "labato",
+      "ppp.abl.sg.fem": "labata",
+      "ppp.abl.sg.neut": "labato",
+      "ppp.voc.sg.masc": "labate",
+      "ppp.voc.sg.fem": "labata",
+      "ppp.voc.sg.neut": "labatum",
+      "ppp.nom.pl.masc": "labati",
+      "ppp.nom.pl.fem": "labatae",
+      "ppp.nom.pl.neut": "labata",
+      "ppp.gen.pl.masc": "labatorum",
+      "ppp.gen.pl.fem": "labatarum",
+      "ppp.gen.pl.neut": "labatorum",
+      "ppp.dat.pl.masc": "labatis",
+      "ppp.dat.pl.fem": "labatis",
+      "ppp.dat.pl.neut": "labatis",
+      "ppp.acc.pl.masc": "labatos",
+      "ppp.acc.pl.fem": "labatas",
+      "ppp.acc.pl.neut": "labata",
+      "ppp.abl.pl.masc": "labatis",
+      "ppp.abl.pl.fem": "labatis",
+      "ppp.abl.pl.neut": "labatis",
+      "ppp.voc.pl.masc": "labati",
+      "ppp.voc.pl.fem": "labatae",
+      "ppp.voc.pl.neut": "labata"
+    }
   }
 }

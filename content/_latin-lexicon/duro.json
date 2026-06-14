@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "dura",
       "2pl.pres.imp.act": "durate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: duratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "duratus",
+      "ppp.nom.sg.fem": "durata",
+      "ppp.nom.sg.neut": "duratum",
+      "ppp.gen.sg.masc": "durati",
+      "ppp.gen.sg.fem": "duratae",
+      "ppp.gen.sg.neut": "durati",
+      "ppp.dat.sg.masc": "durato",
+      "ppp.dat.sg.fem": "duratae",
+      "ppp.dat.sg.neut": "durato",
+      "ppp.acc.sg.masc": "duratum",
+      "ppp.acc.sg.fem": "duratam",
+      "ppp.acc.sg.neut": "duratum",
+      "ppp.abl.sg.masc": "durato",
+      "ppp.abl.sg.fem": "durata",
+      "ppp.abl.sg.neut": "durato",
+      "ppp.voc.sg.masc": "durate",
+      "ppp.voc.sg.fem": "durata",
+      "ppp.voc.sg.neut": "duratum",
+      "ppp.nom.pl.masc": "durati",
+      "ppp.nom.pl.fem": "duratae",
+      "ppp.nom.pl.neut": "durata",
+      "ppp.gen.pl.masc": "duratorum",
+      "ppp.gen.pl.fem": "duratarum",
+      "ppp.gen.pl.neut": "duratorum",
+      "ppp.dat.pl.masc": "duratis",
+      "ppp.dat.pl.fem": "duratis",
+      "ppp.dat.pl.neut": "duratis",
+      "ppp.acc.pl.masc": "duratos",
+      "ppp.acc.pl.fem": "duratas",
+      "ppp.acc.pl.neut": "durata",
+      "ppp.abl.pl.masc": "duratis",
+      "ppp.abl.pl.fem": "duratis",
+      "ppp.abl.pl.neut": "duratis",
+      "ppp.voc.pl.masc": "durati",
+      "ppp.voc.pl.fem": "duratae",
+      "ppp.voc.pl.neut": "durata"
+    }
   }
 }

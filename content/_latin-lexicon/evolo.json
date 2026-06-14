@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "evola",
       "2pl.pres.imp.act": "evolate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: evolatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "evolatus",
+      "ppp.nom.sg.fem": "evolata",
+      "ppp.nom.sg.neut": "evolatum",
+      "ppp.gen.sg.masc": "evolati",
+      "ppp.gen.sg.fem": "evolatae",
+      "ppp.gen.sg.neut": "evolati",
+      "ppp.dat.sg.masc": "evolato",
+      "ppp.dat.sg.fem": "evolatae",
+      "ppp.dat.sg.neut": "evolato",
+      "ppp.acc.sg.masc": "evolatum",
+      "ppp.acc.sg.fem": "evolatam",
+      "ppp.acc.sg.neut": "evolatum",
+      "ppp.abl.sg.masc": "evolato",
+      "ppp.abl.sg.fem": "evolata",
+      "ppp.abl.sg.neut": "evolato",
+      "ppp.voc.sg.masc": "evolate",
+      "ppp.voc.sg.fem": "evolata",
+      "ppp.voc.sg.neut": "evolatum",
+      "ppp.nom.pl.masc": "evolati",
+      "ppp.nom.pl.fem": "evolatae",
+      "ppp.nom.pl.neut": "evolata",
+      "ppp.gen.pl.masc": "evolatorum",
+      "ppp.gen.pl.fem": "evolatarum",
+      "ppp.gen.pl.neut": "evolatorum",
+      "ppp.dat.pl.masc": "evolatis",
+      "ppp.dat.pl.fem": "evolatis",
+      "ppp.dat.pl.neut": "evolatis",
+      "ppp.acc.pl.masc": "evolatos",
+      "ppp.acc.pl.fem": "evolatas",
+      "ppp.acc.pl.neut": "evolata",
+      "ppp.abl.pl.masc": "evolatis",
+      "ppp.abl.pl.fem": "evolatis",
+      "ppp.abl.pl.neut": "evolatis",
+      "ppp.voc.pl.masc": "evolati",
+      "ppp.voc.pl.fem": "evolatae",
+      "ppp.voc.pl.neut": "evolata"
+    }
   }
 }

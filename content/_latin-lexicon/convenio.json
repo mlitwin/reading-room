@@ -41,5 +41,63 @@
       "2sg.pres.imp.act": "conveni",
       "2pl.pres.imp.act": "convenite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: conventus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "conventus",
+      "ppp.nom.sg.fem": "conventa",
+      "ppp.nom.sg.neut": "conventum",
+      "ppp.gen.sg.masc": "conventi",
+      "ppp.gen.sg.fem": "conventae",
+      "ppp.gen.sg.neut": "conventi",
+      "ppp.dat.sg.masc": "convento",
+      "ppp.dat.sg.fem": "conventae",
+      "ppp.dat.sg.neut": "convento",
+      "ppp.acc.sg.masc": "conventum",
+      "ppp.acc.sg.fem": "conventam",
+      "ppp.acc.sg.neut": "conventum",
+      "ppp.abl.sg.masc": "convento",
+      "ppp.abl.sg.fem": "conventa",
+      "ppp.abl.sg.neut": "convento",
+      "ppp.voc.sg.masc": "convente",
+      "ppp.voc.sg.fem": "conventa",
+      "ppp.voc.sg.neut": "conventum",
+      "ppp.nom.pl.masc": "conventi",
+      "ppp.nom.pl.fem": "conventae",
+      "ppp.nom.pl.neut": "conventa",
+      "ppp.gen.pl.masc": "conventorum",
+      "ppp.gen.pl.fem": "conventarum",
+      "ppp.gen.pl.neut": "conventorum",
+      "ppp.dat.pl.masc": "conventis",
+      "ppp.dat.pl.fem": "conventis",
+      "ppp.dat.pl.neut": "conventis",
+      "ppp.acc.pl.masc": "conventos",
+      "ppp.acc.pl.fem": "conventas",
+      "ppp.acc.pl.neut": "conventa",
+      "ppp.abl.pl.masc": "conventis",
+      "ppp.abl.pl.fem": "conventis",
+      "ppp.abl.pl.neut": "conventis",
+      "ppp.voc.pl.masc": "conventi",
+      "ppp.voc.pl.fem": "conventae",
+      "ppp.voc.pl.neut": "conventa"
+    }
   }
 }

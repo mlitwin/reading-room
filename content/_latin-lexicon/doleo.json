@@ -42,5 +42,63 @@
       "2sg.pres.imp.act": "dole",
       "2pl.pres.imp.act": "dolete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: dolitus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "dolitus",
+      "ppp.nom.sg.fem": "dolita",
+      "ppp.nom.sg.neut": "dolitum",
+      "ppp.gen.sg.masc": "doliti",
+      "ppp.gen.sg.fem": "dolitae",
+      "ppp.gen.sg.neut": "doliti",
+      "ppp.dat.sg.masc": "dolito",
+      "ppp.dat.sg.fem": "dolitae",
+      "ppp.dat.sg.neut": "dolito",
+      "ppp.acc.sg.masc": "dolitum",
+      "ppp.acc.sg.fem": "dolitam",
+      "ppp.acc.sg.neut": "dolitum",
+      "ppp.abl.sg.masc": "dolito",
+      "ppp.abl.sg.fem": "dolita",
+      "ppp.abl.sg.neut": "dolito",
+      "ppp.voc.sg.masc": "dolite",
+      "ppp.voc.sg.fem": "dolita",
+      "ppp.voc.sg.neut": "dolitum",
+      "ppp.nom.pl.masc": "doliti",
+      "ppp.nom.pl.fem": "dolitae",
+      "ppp.nom.pl.neut": "dolita",
+      "ppp.gen.pl.masc": "dolitorum",
+      "ppp.gen.pl.fem": "dolitarum",
+      "ppp.gen.pl.neut": "dolitorum",
+      "ppp.dat.pl.masc": "dolitis",
+      "ppp.dat.pl.fem": "dolitis",
+      "ppp.dat.pl.neut": "dolitis",
+      "ppp.acc.pl.masc": "dolitos",
+      "ppp.acc.pl.fem": "dolitas",
+      "ppp.acc.pl.neut": "dolita",
+      "ppp.abl.pl.masc": "dolitis",
+      "ppp.abl.pl.fem": "dolitis",
+      "ppp.abl.pl.neut": "dolitis",
+      "ppp.voc.pl.masc": "doliti",
+      "ppp.voc.pl.fem": "dolitae",
+      "ppp.voc.pl.neut": "dolita"
+    }
   }
 }

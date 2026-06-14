@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "luge",
       "2pl.pres.imp.act": "lugete"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: luctus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "luctus",
+      "ppp.nom.sg.fem": "lucta",
+      "ppp.nom.sg.neut": "luctum",
+      "ppp.gen.sg.masc": "lucti",
+      "ppp.gen.sg.fem": "luctae",
+      "ppp.gen.sg.neut": "lucti",
+      "ppp.dat.sg.masc": "lucto",
+      "ppp.dat.sg.fem": "luctae",
+      "ppp.dat.sg.neut": "lucto",
+      "ppp.acc.sg.masc": "luctum",
+      "ppp.acc.sg.fem": "luctam",
+      "ppp.acc.sg.neut": "luctum",
+      "ppp.abl.sg.masc": "lucto",
+      "ppp.abl.sg.fem": "lucta",
+      "ppp.abl.sg.neut": "lucto",
+      "ppp.voc.sg.masc": "lucte",
+      "ppp.voc.sg.fem": "lucta",
+      "ppp.voc.sg.neut": "luctum",
+      "ppp.nom.pl.masc": "lucti",
+      "ppp.nom.pl.fem": "luctae",
+      "ppp.nom.pl.neut": "lucta",
+      "ppp.gen.pl.masc": "luctorum",
+      "ppp.gen.pl.fem": "luctarum",
+      "ppp.gen.pl.neut": "luctorum",
+      "ppp.dat.pl.masc": "luctis",
+      "ppp.dat.pl.fem": "luctis",
+      "ppp.dat.pl.neut": "luctis",
+      "ppp.acc.pl.masc": "luctos",
+      "ppp.acc.pl.fem": "luctas",
+      "ppp.acc.pl.neut": "lucta",
+      "ppp.abl.pl.masc": "luctis",
+      "ppp.abl.pl.fem": "luctis",
+      "ppp.abl.pl.neut": "luctis",
+      "ppp.voc.pl.masc": "lucti",
+      "ppp.voc.pl.fem": "luctae",
+      "ppp.voc.pl.neut": "lucta"
+    }
   }
 }

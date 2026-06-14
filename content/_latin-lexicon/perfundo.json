@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "perfunde",
       "2pl.pres.imp.act": "perfundite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: perfusus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "perfusus",
+      "ppp.nom.sg.fem": "perfusa",
+      "ppp.nom.sg.neut": "perfusum",
+      "ppp.gen.sg.masc": "perfusi",
+      "ppp.gen.sg.fem": "perfusae",
+      "ppp.gen.sg.neut": "perfusi",
+      "ppp.dat.sg.masc": "perfuso",
+      "ppp.dat.sg.fem": "perfusae",
+      "ppp.dat.sg.neut": "perfuso",
+      "ppp.acc.sg.masc": "perfusum",
+      "ppp.acc.sg.fem": "perfusam",
+      "ppp.acc.sg.neut": "perfusum",
+      "ppp.abl.sg.masc": "perfuso",
+      "ppp.abl.sg.fem": "perfusa",
+      "ppp.abl.sg.neut": "perfuso",
+      "ppp.voc.sg.masc": "perfuse",
+      "ppp.voc.sg.fem": "perfusa",
+      "ppp.voc.sg.neut": "perfusum",
+      "ppp.nom.pl.masc": "perfusi",
+      "ppp.nom.pl.fem": "perfusae",
+      "ppp.nom.pl.neut": "perfusa",
+      "ppp.gen.pl.masc": "perfusorum",
+      "ppp.gen.pl.fem": "perfusarum",
+      "ppp.gen.pl.neut": "perfusorum",
+      "ppp.dat.pl.masc": "perfusis",
+      "ppp.dat.pl.fem": "perfusis",
+      "ppp.dat.pl.neut": "perfusis",
+      "ppp.acc.pl.masc": "perfusos",
+      "ppp.acc.pl.fem": "perfusas",
+      "ppp.acc.pl.neut": "perfusa",
+      "ppp.abl.pl.masc": "perfusis",
+      "ppp.abl.pl.fem": "perfusis",
+      "ppp.abl.pl.neut": "perfusis",
+      "ppp.voc.pl.masc": "perfusi",
+      "ppp.voc.pl.fem": "perfusae",
+      "ppp.voc.pl.neut": "perfusa"
+    }
   }
 }

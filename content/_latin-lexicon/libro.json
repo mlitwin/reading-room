@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "libra",
       "2pl.pres.imp.act": "librate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: libratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "libratus",
+      "ppp.nom.sg.fem": "librata",
+      "ppp.nom.sg.neut": "libratum",
+      "ppp.gen.sg.masc": "librati",
+      "ppp.gen.sg.fem": "libratae",
+      "ppp.gen.sg.neut": "librati",
+      "ppp.dat.sg.masc": "librato",
+      "ppp.dat.sg.fem": "libratae",
+      "ppp.dat.sg.neut": "librato",
+      "ppp.acc.sg.masc": "libratum",
+      "ppp.acc.sg.fem": "libratam",
+      "ppp.acc.sg.neut": "libratum",
+      "ppp.abl.sg.masc": "librato",
+      "ppp.abl.sg.fem": "librata",
+      "ppp.abl.sg.neut": "librato",
+      "ppp.voc.sg.masc": "librate",
+      "ppp.voc.sg.fem": "librata",
+      "ppp.voc.sg.neut": "libratum",
+      "ppp.nom.pl.masc": "librati",
+      "ppp.nom.pl.fem": "libratae",
+      "ppp.nom.pl.neut": "librata",
+      "ppp.gen.pl.masc": "libratorum",
+      "ppp.gen.pl.fem": "libratarum",
+      "ppp.gen.pl.neut": "libratorum",
+      "ppp.dat.pl.masc": "libratis",
+      "ppp.dat.pl.fem": "libratis",
+      "ppp.dat.pl.neut": "libratis",
+      "ppp.acc.pl.masc": "libratos",
+      "ppp.acc.pl.fem": "libratas",
+      "ppp.acc.pl.neut": "librata",
+      "ppp.abl.pl.masc": "libratis",
+      "ppp.abl.pl.fem": "libratis",
+      "ppp.abl.pl.neut": "libratis",
+      "ppp.voc.pl.masc": "librati",
+      "ppp.voc.pl.fem": "libratae",
+      "ppp.voc.pl.neut": "librata"
+    }
   }
 }

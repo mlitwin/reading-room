@@ -48,5 +48,63 @@
       "2sg.pres.imp.act": "fer",
       "2pl.pres.imp.act": "ferte"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: latus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "latus",
+      "ppp.nom.sg.fem": "lata",
+      "ppp.nom.sg.neut": "latum",
+      "ppp.gen.sg.masc": "lati",
+      "ppp.gen.sg.fem": "latae",
+      "ppp.gen.sg.neut": "lati",
+      "ppp.dat.sg.masc": "lato",
+      "ppp.dat.sg.fem": "latae",
+      "ppp.dat.sg.neut": "lato",
+      "ppp.acc.sg.masc": "latum",
+      "ppp.acc.sg.fem": "latam",
+      "ppp.acc.sg.neut": "latum",
+      "ppp.abl.sg.masc": "lato",
+      "ppp.abl.sg.fem": "lata",
+      "ppp.abl.sg.neut": "lato",
+      "ppp.voc.sg.masc": "late",
+      "ppp.voc.sg.fem": "lata",
+      "ppp.voc.sg.neut": "latum",
+      "ppp.nom.pl.masc": "lati",
+      "ppp.nom.pl.fem": "latae",
+      "ppp.nom.pl.neut": "lata",
+      "ppp.gen.pl.masc": "latorum",
+      "ppp.gen.pl.fem": "latarum",
+      "ppp.gen.pl.neut": "latorum",
+      "ppp.dat.pl.masc": "latis",
+      "ppp.dat.pl.fem": "latis",
+      "ppp.dat.pl.neut": "latis",
+      "ppp.acc.pl.masc": "latos",
+      "ppp.acc.pl.fem": "latas",
+      "ppp.acc.pl.neut": "lata",
+      "ppp.abl.pl.masc": "latis",
+      "ppp.abl.pl.fem": "latis",
+      "ppp.abl.pl.neut": "latis",
+      "ppp.voc.pl.masc": "lati",
+      "ppp.voc.pl.fem": "latae",
+      "ppp.voc.pl.neut": "lata"
+    }
   }
 }

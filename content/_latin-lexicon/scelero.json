@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "scelera",
       "2pl.pres.imp.act": "scelerate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sceleratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sceleratus",
+      "ppp.nom.sg.fem": "scelerata",
+      "ppp.nom.sg.neut": "sceleratum",
+      "ppp.gen.sg.masc": "scelerati",
+      "ppp.gen.sg.fem": "sceleratae",
+      "ppp.gen.sg.neut": "scelerati",
+      "ppp.dat.sg.masc": "scelerato",
+      "ppp.dat.sg.fem": "sceleratae",
+      "ppp.dat.sg.neut": "scelerato",
+      "ppp.acc.sg.masc": "sceleratum",
+      "ppp.acc.sg.fem": "sceleratam",
+      "ppp.acc.sg.neut": "sceleratum",
+      "ppp.abl.sg.masc": "scelerato",
+      "ppp.abl.sg.fem": "scelerata",
+      "ppp.abl.sg.neut": "scelerato",
+      "ppp.voc.sg.masc": "scelerate",
+      "ppp.voc.sg.fem": "scelerata",
+      "ppp.voc.sg.neut": "sceleratum",
+      "ppp.nom.pl.masc": "scelerati",
+      "ppp.nom.pl.fem": "sceleratae",
+      "ppp.nom.pl.neut": "scelerata",
+      "ppp.gen.pl.masc": "sceleratorum",
+      "ppp.gen.pl.fem": "sceleratarum",
+      "ppp.gen.pl.neut": "sceleratorum",
+      "ppp.dat.pl.masc": "sceleratis",
+      "ppp.dat.pl.fem": "sceleratis",
+      "ppp.dat.pl.neut": "sceleratis",
+      "ppp.acc.pl.masc": "sceleratos",
+      "ppp.acc.pl.fem": "sceleratas",
+      "ppp.acc.pl.neut": "scelerata",
+      "ppp.abl.pl.masc": "sceleratis",
+      "ppp.abl.pl.fem": "sceleratis",
+      "ppp.abl.pl.neut": "sceleratis",
+      "ppp.voc.pl.masc": "scelerati",
+      "ppp.voc.pl.fem": "sceleratae",
+      "ppp.voc.pl.neut": "scelerata"
+    }
   }
 }

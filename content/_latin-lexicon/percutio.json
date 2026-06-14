@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "percute",
       "2pl.pres.imp.act": "percutite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: percussus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "percussus",
+      "ppp.nom.sg.fem": "percussa",
+      "ppp.nom.sg.neut": "percussum",
+      "ppp.gen.sg.masc": "percussi",
+      "ppp.gen.sg.fem": "percussae",
+      "ppp.gen.sg.neut": "percussi",
+      "ppp.dat.sg.masc": "percusso",
+      "ppp.dat.sg.fem": "percussae",
+      "ppp.dat.sg.neut": "percusso",
+      "ppp.acc.sg.masc": "percussum",
+      "ppp.acc.sg.fem": "percussam",
+      "ppp.acc.sg.neut": "percussum",
+      "ppp.abl.sg.masc": "percusso",
+      "ppp.abl.sg.fem": "percussa",
+      "ppp.abl.sg.neut": "percusso",
+      "ppp.voc.sg.masc": "percusse",
+      "ppp.voc.sg.fem": "percussa",
+      "ppp.voc.sg.neut": "percussum",
+      "ppp.nom.pl.masc": "percussi",
+      "ppp.nom.pl.fem": "percussae",
+      "ppp.nom.pl.neut": "percussa",
+      "ppp.gen.pl.masc": "percussorum",
+      "ppp.gen.pl.fem": "percussarum",
+      "ppp.gen.pl.neut": "percussorum",
+      "ppp.dat.pl.masc": "percussis",
+      "ppp.dat.pl.fem": "percussis",
+      "ppp.dat.pl.neut": "percussis",
+      "ppp.acc.pl.masc": "percussos",
+      "ppp.acc.pl.fem": "percussas",
+      "ppp.acc.pl.neut": "percussa",
+      "ppp.abl.pl.masc": "percussis",
+      "ppp.abl.pl.fem": "percussis",
+      "ppp.abl.pl.neut": "percussis",
+      "ppp.voc.pl.masc": "percussi",
+      "ppp.voc.pl.fem": "percussae",
+      "ppp.voc.pl.neut": "percussa"
+    }
   }
 }

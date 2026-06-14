@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "sine",
       "2pl.pres.imp.act": "sinite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: situs -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "situs",
+      "ppp.nom.sg.fem": "sita",
+      "ppp.nom.sg.neut": "situm",
+      "ppp.gen.sg.masc": "siti",
+      "ppp.gen.sg.fem": "sitae",
+      "ppp.gen.sg.neut": "siti",
+      "ppp.dat.sg.masc": "sito",
+      "ppp.dat.sg.fem": "sitae",
+      "ppp.dat.sg.neut": "sito",
+      "ppp.acc.sg.masc": "situm",
+      "ppp.acc.sg.fem": "sitam",
+      "ppp.acc.sg.neut": "situm",
+      "ppp.abl.sg.masc": "sito",
+      "ppp.abl.sg.fem": "sita",
+      "ppp.abl.sg.neut": "sito",
+      "ppp.voc.sg.masc": "site",
+      "ppp.voc.sg.fem": "sita",
+      "ppp.voc.sg.neut": "situm",
+      "ppp.nom.pl.masc": "siti",
+      "ppp.nom.pl.fem": "sitae",
+      "ppp.nom.pl.neut": "sita",
+      "ppp.gen.pl.masc": "sitorum",
+      "ppp.gen.pl.fem": "sitarum",
+      "ppp.gen.pl.neut": "sitorum",
+      "ppp.dat.pl.masc": "sitis",
+      "ppp.dat.pl.fem": "sitis",
+      "ppp.dat.pl.neut": "sitis",
+      "ppp.acc.pl.masc": "sitos",
+      "ppp.acc.pl.fem": "sitas",
+      "ppp.acc.pl.neut": "sita",
+      "ppp.abl.pl.masc": "sitis",
+      "ppp.abl.pl.fem": "sitis",
+      "ppp.abl.pl.neut": "sitis",
+      "ppp.voc.pl.masc": "siti",
+      "ppp.voc.pl.fem": "sitae",
+      "ppp.voc.pl.neut": "sita"
+    }
   }
 }

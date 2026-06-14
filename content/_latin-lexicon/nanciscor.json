@@ -37,5 +37,63 @@
       "2sg.pres.imp.act": "nancisce",
       "2pl.pres.imp.act": "nanciscite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: nactus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "nactus",
+      "ppp.nom.sg.fem": "nacta",
+      "ppp.nom.sg.neut": "nactum",
+      "ppp.gen.sg.masc": "nacti",
+      "ppp.gen.sg.fem": "nactae",
+      "ppp.gen.sg.neut": "nacti",
+      "ppp.dat.sg.masc": "nacto",
+      "ppp.dat.sg.fem": "nactae",
+      "ppp.dat.sg.neut": "nacto",
+      "ppp.acc.sg.masc": "nactum",
+      "ppp.acc.sg.fem": "nactam",
+      "ppp.acc.sg.neut": "nactum",
+      "ppp.abl.sg.masc": "nacto",
+      "ppp.abl.sg.fem": "nacta",
+      "ppp.abl.sg.neut": "nacto",
+      "ppp.voc.sg.masc": "nacte",
+      "ppp.voc.sg.fem": "nacta",
+      "ppp.voc.sg.neut": "nactum",
+      "ppp.nom.pl.masc": "nacti",
+      "ppp.nom.pl.fem": "nactae",
+      "ppp.nom.pl.neut": "nacta",
+      "ppp.gen.pl.masc": "nactorum",
+      "ppp.gen.pl.fem": "nactarum",
+      "ppp.gen.pl.neut": "nactorum",
+      "ppp.dat.pl.masc": "nactis",
+      "ppp.dat.pl.fem": "nactis",
+      "ppp.dat.pl.neut": "nactis",
+      "ppp.acc.pl.masc": "nactos",
+      "ppp.acc.pl.fem": "nactas",
+      "ppp.acc.pl.neut": "nacta",
+      "ppp.abl.pl.masc": "nactis",
+      "ppp.abl.pl.fem": "nactis",
+      "ppp.abl.pl.neut": "nactis",
+      "ppp.voc.pl.masc": "nacti",
+      "ppp.voc.pl.fem": "nactae",
+      "ppp.voc.pl.neut": "nacta"
+    }
   }
 }

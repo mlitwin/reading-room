@@ -39,5 +39,63 @@
       "2sg.pres.imp.act": "media",
       "2pl.pres.imp.act": "mediate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: mediatus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "mediatus",
+      "ppp.nom.sg.fem": "mediata",
+      "ppp.nom.sg.neut": "mediatum",
+      "ppp.gen.sg.masc": "mediati",
+      "ppp.gen.sg.fem": "mediatae",
+      "ppp.gen.sg.neut": "mediati",
+      "ppp.dat.sg.masc": "mediato",
+      "ppp.dat.sg.fem": "mediatae",
+      "ppp.dat.sg.neut": "mediato",
+      "ppp.acc.sg.masc": "mediatum",
+      "ppp.acc.sg.fem": "mediatam",
+      "ppp.acc.sg.neut": "mediatum",
+      "ppp.abl.sg.masc": "mediato",
+      "ppp.abl.sg.fem": "mediata",
+      "ppp.abl.sg.neut": "mediato",
+      "ppp.voc.sg.masc": "mediate",
+      "ppp.voc.sg.fem": "mediata",
+      "ppp.voc.sg.neut": "mediatum",
+      "ppp.nom.pl.masc": "mediati",
+      "ppp.nom.pl.fem": "mediatae",
+      "ppp.nom.pl.neut": "mediata",
+      "ppp.gen.pl.masc": "mediatorum",
+      "ppp.gen.pl.fem": "mediatarum",
+      "ppp.gen.pl.neut": "mediatorum",
+      "ppp.dat.pl.masc": "mediatis",
+      "ppp.dat.pl.fem": "mediatis",
+      "ppp.dat.pl.neut": "mediatis",
+      "ppp.acc.pl.masc": "mediatos",
+      "ppp.acc.pl.fem": "mediatas",
+      "ppp.acc.pl.neut": "mediata",
+      "ppp.abl.pl.masc": "mediatis",
+      "ppp.abl.pl.fem": "mediatis",
+      "ppp.abl.pl.neut": "mediatis",
+      "ppp.voc.pl.masc": "mediati",
+      "ppp.voc.pl.fem": "mediatae",
+      "ppp.voc.pl.neut": "mediata"
+    }
   }
 }

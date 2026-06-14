@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "quere",
       "2pl.pres.imp.act": "querite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: questus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "questus",
+      "ppp.nom.sg.fem": "questa",
+      "ppp.nom.sg.neut": "questum",
+      "ppp.gen.sg.masc": "questi",
+      "ppp.gen.sg.fem": "questae",
+      "ppp.gen.sg.neut": "questi",
+      "ppp.dat.sg.masc": "questo",
+      "ppp.dat.sg.fem": "questae",
+      "ppp.dat.sg.neut": "questo",
+      "ppp.acc.sg.masc": "questum",
+      "ppp.acc.sg.fem": "questam",
+      "ppp.acc.sg.neut": "questum",
+      "ppp.abl.sg.masc": "questo",
+      "ppp.abl.sg.fem": "questa",
+      "ppp.abl.sg.neut": "questo",
+      "ppp.voc.sg.masc": "queste",
+      "ppp.voc.sg.fem": "questa",
+      "ppp.voc.sg.neut": "questum",
+      "ppp.nom.pl.masc": "questi",
+      "ppp.nom.pl.fem": "questae",
+      "ppp.nom.pl.neut": "questa",
+      "ppp.gen.pl.masc": "questorum",
+      "ppp.gen.pl.fem": "questarum",
+      "ppp.gen.pl.neut": "questorum",
+      "ppp.dat.pl.masc": "questis",
+      "ppp.dat.pl.fem": "questis",
+      "ppp.dat.pl.neut": "questis",
+      "ppp.acc.pl.masc": "questos",
+      "ppp.acc.pl.fem": "questas",
+      "ppp.acc.pl.neut": "questa",
+      "ppp.abl.pl.masc": "questis",
+      "ppp.abl.pl.fem": "questis",
+      "ppp.abl.pl.neut": "questis",
+      "ppp.voc.pl.masc": "questi",
+      "ppp.voc.pl.fem": "questae",
+      "ppp.voc.pl.neut": "questa"
+    }
   }
 }

@@ -38,5 +38,63 @@
       "2sg.pres.imp.act": "rura",
       "2pl.pres.imp.act": "rurate"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: ruratus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "ruratus",
+      "ppp.nom.sg.fem": "rurata",
+      "ppp.nom.sg.neut": "ruratum",
+      "ppp.gen.sg.masc": "rurati",
+      "ppp.gen.sg.fem": "ruratae",
+      "ppp.gen.sg.neut": "rurati",
+      "ppp.dat.sg.masc": "rurato",
+      "ppp.dat.sg.fem": "ruratae",
+      "ppp.dat.sg.neut": "rurato",
+      "ppp.acc.sg.masc": "ruratum",
+      "ppp.acc.sg.fem": "ruratam",
+      "ppp.acc.sg.neut": "ruratum",
+      "ppp.abl.sg.masc": "rurato",
+      "ppp.abl.sg.fem": "rurata",
+      "ppp.abl.sg.neut": "rurato",
+      "ppp.voc.sg.masc": "rurate",
+      "ppp.voc.sg.fem": "rurata",
+      "ppp.voc.sg.neut": "ruratum",
+      "ppp.nom.pl.masc": "rurati",
+      "ppp.nom.pl.fem": "ruratae",
+      "ppp.nom.pl.neut": "rurata",
+      "ppp.gen.pl.masc": "ruratorum",
+      "ppp.gen.pl.fem": "ruratarum",
+      "ppp.gen.pl.neut": "ruratorum",
+      "ppp.dat.pl.masc": "ruratis",
+      "ppp.dat.pl.fem": "ruratis",
+      "ppp.dat.pl.neut": "ruratis",
+      "ppp.acc.pl.masc": "ruratos",
+      "ppp.acc.pl.fem": "ruratas",
+      "ppp.acc.pl.neut": "rurata",
+      "ppp.abl.pl.masc": "ruratis",
+      "ppp.abl.pl.fem": "ruratis",
+      "ppp.abl.pl.neut": "ruratis",
+      "ppp.voc.pl.masc": "rurati",
+      "ppp.voc.pl.fem": "ruratae",
+      "ppp.voc.pl.neut": "rurata"
+    }
   }
 }

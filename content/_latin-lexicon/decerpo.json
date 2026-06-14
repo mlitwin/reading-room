@@ -40,5 +40,63 @@
       "2sg.pres.imp.act": "decerpe",
       "2pl.pres.imp.act": "decerpite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: decerptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "decerptus",
+      "ppp.nom.sg.fem": "decerpta",
+      "ppp.nom.sg.neut": "decerptum",
+      "ppp.gen.sg.masc": "decerpti",
+      "ppp.gen.sg.fem": "decerptae",
+      "ppp.gen.sg.neut": "decerpti",
+      "ppp.dat.sg.masc": "decerpto",
+      "ppp.dat.sg.fem": "decerptae",
+      "ppp.dat.sg.neut": "decerpto",
+      "ppp.acc.sg.masc": "decerptum",
+      "ppp.acc.sg.fem": "decerptam",
+      "ppp.acc.sg.neut": "decerptum",
+      "ppp.abl.sg.masc": "decerpto",
+      "ppp.abl.sg.fem": "decerpta",
+      "ppp.abl.sg.neut": "decerpto",
+      "ppp.voc.sg.masc": "decerpte",
+      "ppp.voc.sg.fem": "decerpta",
+      "ppp.voc.sg.neut": "decerptum",
+      "ppp.nom.pl.masc": "decerpti",
+      "ppp.nom.pl.fem": "decerptae",
+      "ppp.nom.pl.neut": "decerpta",
+      "ppp.gen.pl.masc": "decerptorum",
+      "ppp.gen.pl.fem": "decerptarum",
+      "ppp.gen.pl.neut": "decerptorum",
+      "ppp.dat.pl.masc": "decerptis",
+      "ppp.dat.pl.fem": "decerptis",
+      "ppp.dat.pl.neut": "decerptis",
+      "ppp.acc.pl.masc": "decerptos",
+      "ppp.acc.pl.fem": "decerptas",
+      "ppp.acc.pl.neut": "decerpta",
+      "ppp.abl.pl.masc": "decerptis",
+      "ppp.abl.pl.fem": "decerptis",
+      "ppp.abl.pl.neut": "decerptis",
+      "ppp.voc.pl.masc": "decerpti",
+      "ppp.voc.pl.fem": "decerptae",
+      "ppp.voc.pl.neut": "decerpta"
+    }
   }
 }

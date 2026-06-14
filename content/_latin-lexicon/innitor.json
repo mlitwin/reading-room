@@ -36,5 +36,63 @@
       "2sg.pres.imp.act": "innite",
       "2pl.pres.imp.act": "innitite"
     }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: innisus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "innisus",
+      "ppp.nom.sg.fem": "innisa",
+      "ppp.nom.sg.neut": "innisum",
+      "ppp.gen.sg.masc": "innisi",
+      "ppp.gen.sg.fem": "innisae",
+      "ppp.gen.sg.neut": "innisi",
+      "ppp.dat.sg.masc": "inniso",
+      "ppp.dat.sg.fem": "innisae",
+      "ppp.dat.sg.neut": "inniso",
+      "ppp.acc.sg.masc": "innisum",
+      "ppp.acc.sg.fem": "innisam",
+      "ppp.acc.sg.neut": "innisum",
+      "ppp.abl.sg.masc": "inniso",
+      "ppp.abl.sg.fem": "innisa",
+      "ppp.abl.sg.neut": "inniso",
+      "ppp.voc.sg.masc": "innise",
+      "ppp.voc.sg.fem": "innisa",
+      "ppp.voc.sg.neut": "innisum",
+      "ppp.nom.pl.masc": "innisi",
+      "ppp.nom.pl.fem": "innisae",
+      "ppp.nom.pl.neut": "innisa",
+      "ppp.gen.pl.masc": "innisorum",
+      "ppp.gen.pl.fem": "innisarum",
+      "ppp.gen.pl.neut": "innisorum",
+      "ppp.dat.pl.masc": "innisis",
+      "ppp.dat.pl.fem": "innisis",
+      "ppp.dat.pl.neut": "innisis",
+      "ppp.acc.pl.masc": "innisos",
+      "ppp.acc.pl.fem": "innisas",
+      "ppp.acc.pl.neut": "innisa",
+      "ppp.abl.pl.masc": "innisis",
+      "ppp.abl.pl.fem": "innisis",
+      "ppp.abl.pl.neut": "innisis",
+      "ppp.voc.pl.masc": "innisi",
+      "ppp.voc.pl.fem": "innisae",
+      "ppp.voc.pl.neut": "innisa"
+    }
   }
 }
