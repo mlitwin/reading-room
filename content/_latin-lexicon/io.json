@@ -1,0 +1,29 @@
+{
+  "lemma": "io",
+  "pos": "noun",
+  "head": "Io, Ious, f.",
+  "glosses": [
+    "Io",
+    "Argive princess loved by Jupiter, transformed into a heifer"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Io",
+      "gen.sg": "Ious",
+      "dat.sg": "Ioi",
+      "acc.sg": "Io",
+      "abl.sg": "Io"
+    }
+  }
+}

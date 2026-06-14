@@ -1,0 +1,31 @@
+{
+  "lemma": "argus",
+  "pos": "noun",
+  "head": "Argus, -i, m.",
+  "glosses": [
+    "Argus",
+    "the hundred-eyed guardian set by Juno to watch Io"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Argus",
+      "gen.sg": "Argi",
+      "dat.sg": "Argo",
+      "acc.sg": "Argum",
+      "abl.sg": "Argo",
+      "voc.sg": "Arge"
+    }
+  }
+}

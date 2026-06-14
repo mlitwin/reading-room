@@ -574,7 +574,9 @@ function renderLatinSpans(html, vocabDict, referenced, filePath) {
     }
     const primary = matches[0];
     const id = `card-${escapeAttr(primary.lemma)}`;
-    return `<button class="latin-token" type="button" popovertarget="${id}" data-matches="${escapeAttr(matchesStr)}">${inner}</button>`;
+    const stanzaRaw = (_pre + _post).match(/data-stanza="([^"]*)"/);
+    const stanzaAttr = stanzaRaw ? ` data-stanza="${escapeAttr(stanzaRaw[1])}"` : '';
+    return `<button class="latin-token" type="button" popovertarget="${id}" data-matches="${escapeAttr(matchesStr)}"${stanzaAttr}>${inner}</button>`;
   });
 }
 

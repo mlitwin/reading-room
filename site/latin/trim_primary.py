@@ -26,6 +26,14 @@ SHARED_LEXICON = REPO_ROOT / 'content' / '_latin-lexicon'
 
 
 def load_lexicon_pos():
+    """Return {lemma → pos} keyed by filename stem (matching build.js convention).
+
+    build.js uses the filename stem as the lookup key for data-matches lemmas.
+    Keying by stem (rather than the card's `lemma` field) ensures that cards
+    with capitalised lemma fields (e.g. phoebus.json with lemma "Phoebus") are
+    found correctly.  The lemma field may differ in case from the stem; the
+    stem is authoritative for pipeline lookups.
+    """
     out = {}
     if not SHARED_LEXICON.exists():
         return out
@@ -34,10 +42,9 @@ def load_lexicon_pos():
             data = json.loads(path.read_text(encoding='utf-8'))
         except json.JSONDecodeError:
             continue
-        lemma = data.get('lemma')
         pos = data.get('pos')
-        if lemma and pos:
-            out[lemma] = pos
+        if pos:
+            out[path.stem] = pos
     return out
 
 

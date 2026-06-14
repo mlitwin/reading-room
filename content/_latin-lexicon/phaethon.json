@@ -1,0 +1,30 @@
+{
+  "lemma": "phaethon",
+  "pos": "noun",
+  "head": "Phaethon, -ontis, m.",
+  "glosses": [
+    "Phaethon",
+    "son of the Sun",
+    "drove his father's chariot and fell into the Eridanus"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Phaethon",
+      "gen.sg": "Phaethontis",
+      "dat.sg": "Phaetnonti",
+      "acc.sg": "Phaethonta",
+      "abl.sg": "Phaethonte"
+    }
+  }
+}

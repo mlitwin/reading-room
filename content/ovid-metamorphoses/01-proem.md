@@ -1,45 +1,21 @@
 ---
-title: The proem (Met I.1–4)
+title: Invocation (Met I.1–4)
+lines: [1, 4]
 ---
 
-The opening four lines of the *Metamorphoses* — an invocation of the gods to support the project of the poem, framed as one continuous song from the world's origin down to Ovid's own day.
+First-pass mechanical chunk for Book 1 card 01, auto-generated from Perseus card boundaries and prepared for build-first QA.
 
 <div class="latin-passage">
-<span data-matches="in:prep" data-pos="prep">In</span>
-<span data-matches="novus:nom.sg.fem,abl.sg.fem,nom.pl.neut,acc.pl.neut" data-pos="adj">nova</span>
-<span data-matches="fero:3sg.pres.ind.act" data-pos="verb">fert</span>
-<span data-matches="animus:nom.sg" data-pos="noun">animus</span>
-<span data-matches="muto:ppp.acc.pl.fem" data-pos="verb">mutatas</span>
-<span data-matches="dico:inf.pres.act" data-pos="verb">dicere</span>
-<span data-matches="forma:acc.pl" data-pos="noun">formas</span><br>
-<span data-matches="corpus:nom.pl,acc.pl" data-pos="noun">corpora</span>;
-<span data-matches="deus:nom.pl" data-pos="noun">di</span>,
-<span data-matches="coeptum:dat.pl,abl.pl" data-pos="noun">coeptis</span>
-(<span data-matches="nam:conj" data-pos="conj">nam</span>
-<span data-matches="vos:nom.pl,acc.pl" data-pos="pron">vos</span>
-<span data-matches="muto:2pl.perf.ind.act" data-pos="verb">mutastis</span>
-<span data-matches="et:conj" data-pos="conj">et</span>
-<span data-matches="ille:acc.pl.fem" data-pos="pron">illas</span>)<br>
-<span data-matches="aspiro:2pl.pres.imp.act" data-pos="verb">adspirate</span>
-<span data-matches="meus:dat.pl.masc,dat.pl.fem,dat.pl.neut,abl.pl.masc,abl.pl.fem,abl.pl.neut" data-pos="adj">meis</span>
-<span data-matches="primus:abl.sg.fem" data-pos="adj">prima</span><span data-matches="que:enclit" data-pos="enclitic">que</span>
-<span data-matches="ab:prep" data-pos="prep">ab</span>
-<span data-matches="origo:abl.sg" data-pos="noun">origine</span>
-<span data-matches="mundus:gen.sg,nom.pl" data-pos="noun">mundi</span><br>
-<span data-matches="ad:prep" data-pos="prep">ad</span>
-<span data-matches="meus:nom.sg.fem,abl.sg.fem,nom.pl.neut,acc.pl.neut" data-pos="adj">mea</span>
-<span data-matches="perpetuus:acc.sg.masc,nom.sg.neut,acc.sg.neut" data-pos="adj">perpetuum</span>
-<span data-matches="deduco:2pl.pres.imp.act" data-pos="verb">deducite</span>
-<span data-matches="tempus:nom.pl,acc.pl" data-pos="noun">tempora</span>
-<span data-matches="carmen:nom.sg,acc.sg" data-pos="noun">carmen</span>.
+<span data-matches="in:prep" data-pos="prep" data-stanza="in">In</span>  <span data-matches="novus:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem;novo:2sg.pres.act" data-pos="adj" data-stanza="novus">nova</span>  <span data-matches="fero:3sg.pres.ind.act" data-pos="verb" data-stanza="fero">fert</span>  <span data-matches="animus:nom.sg.masc" data-pos="noun" data-stanza="animus">animus</span>  <span data-matches="muto:ppp.acc.pl.fem" data-pos="verb" data-stanza="muto">mutatas</span>  <span data-matches="dico:2sg.pres.subj.pass,2sg.fut.ind.pass,2sg.pres.pass,2sg.pres.ind.pass,inf.pres.act" data-pos="verb" data-stanza="dico">dicere</span>  <span data-matches="forma:acc.pl.fem;formo:2sg.pres.ind.act" data-pos="noun" data-stanza="forma">formas</span><br>
+<span data-matches="corpus:nom.pl.neut,voc.pl.neut,acc.pl.neut" data-pos="noun" data-stanza="corpus">corpora</span>;  <span data-matches="deus:nom.pl.masc,voc.pl.masc" data-pos="noun" data-stanza="deus">di</span>,  <span data-matches="coeptum:abl.pl.neut,dat.pl.neut" data-pos="noun" data-stanza="coepi">coeptis</span> ( <span data-matches="nam:conj" data-pos="conj" data-stanza="nam">nam</span>  <span data-matches="tu:acc.pl.masc,acc.pl.fem,nom.pl.masc,nom.pl.fem,voc.pl.masc,voc.pl.fem" data-pos="pron" data-stanza="ves">vos</span>  <span data-matches="muto:2pl.perf.ind.act" data-pos="verb" data-stanza="muto">mutastis</span>  <span data-matches="et:conj" data-pos="conj" data-stanza="et">et</span>  <span data-matches="ille:acc.pl.fem;illic:acc.pl.fem" data-pos="pron" data-stanza="ille">illas</span>)<br>
+<span data-matches="aspiro:2pl.pres.act,ppp.voc.sg.neut,ppp.voc.sg.masc" data-pos="verb" data-stanza="asspiro">adspirate</span>  <span data-matches="meus:dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut,abl.pl.fem,abl.pl.masc" data-pos="pron" data-stanza="meus">meis</span>  <span data-matches="primus:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem" data-pos="adj">prima</span> <span data-matches="que:enclit" data-pos="enclitic">que</span>  <span data-matches="ab:prep" data-pos="prep" data-stanza="ab">ab</span>  <span data-matches="origo:abl.sg.fem" data-pos="noun" data-stanza="origo">origine</span>  <span data-matches="mundus:gen.sg.masc,nom.pl.masc,voc.pl.masc,gen.sg.neut" data-pos="noun" data-stanza="mundus">mundi</span><br>
+<span data-matches="ad:prep" data-pos="prep" data-stanza="ad">ad</span>  <span data-matches="meus:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem" data-pos="pron" data-stanza="meus">mea</span>  <span data-matches="perpetuus:gen.pl.neut,gen.pl.masc,acc.sg.masc,nom.sg.neut,voc.sg.neut,acc.sg.neut" data-pos="adj" data-stanza="perpetuus">perpetuum</span>  <span data-matches="deduco:2pl.pres.act" data-pos="verb" data-stanza="deduco">deducite</span>  <span data-matches="tempus:nom.pl.neut,voc.pl.neut,acc.pl.neut" data-pos="noun" data-stanza="tempus">tempora</span>  <span data-matches="carmen:acc.sg.neut,nom.sg.neut,voc.sg.neut" data-pos="noun" data-stanza="carmen">carmen</span>.
 </div>
 
 ## Translation
 
-My spirit moves me to tell of forms changed into new bodies. Gods — for you yourselves changed those forms — breathe on my undertaking, and from the world's first beginning right down to my own time draw out one continuous song.
+My soul is wrought to sing of forms transformed to bodies new and strange! Immortal Gods inspire my heart, for ye have changed yourselves and all things you have changed! Oh lead my song in smooth and measured strains, from olden days when earth began to this completed time!
 
 ## Notes on the passage
 
-The first six words pull off a famous syntactic stunt: *in nova … corpora* ("into new bodies") is the prepositional phrase, but the noun *corpora* sits at the head of line 2, and the adjective *nova* opens line 1 — three words and a line-break apart from the noun it modifies. Between them Ovid packs the whole grammatical machinery of the sentence: subject (*animus*), verb (*fert*), object (*formas mutatas dicere*, "to tell of changed forms"). The reader has to hold *nova* in suspense until *corpora* lands.
-
-The verbs *adspirate* and *deducite* are second-person plural imperatives addressed to the *di* (gods). *Deducite* is the technical term — Ovid is asking the gods to "draw out" or "spin down" his song the way one spins a continuous thread from raw wool. The metaphor frames the *Metamorphoses* as a single unbroken song from the creation to the present.
+First-pass placeholder notes: this page was generated mechanically for coverage and UI review. Replace with passage-specific notes in a later editorial pass.

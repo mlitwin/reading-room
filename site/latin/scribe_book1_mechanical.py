@@ -53,25 +53,32 @@ def piece_title(lat_card):
     return f'Book 1 card {lat_card["card"]:02d} (Met I.{start}–{end})'
 
 
+# Fixed filename map for cards with canonical names; all others get the
+# sequential NN-book1-card-NN.md pattern (starting at 03, skipping 01/02).
+CARD_FNAME = {
+    1: '01-proem.md',
+    7: '02-python.md',
+}
+
+
 def main():
     lat_paths = sorted(glob.glob(str(LAT_CARDS / 'book-01-card-*.json')))
-    # Keep hand-authored files as-is: proem (card 1) and python (card 7).
-    skip_cards = {1, 7}
     next_num = 3
     created = []
 
     for lat_path in lat_paths:
         lat_card = load_json(Path(lat_path))
         card_no = lat_card['card']
-        if card_no in skip_cards:
-            continue
 
         card_key = f'01-card-{card_no:02d}'
         eng_path = ENG_CARDS / f'book-01-card-{card_no:02d}.json'
         eng_card = load_json(eng_path) if eng_path.exists() else {'text': []}
 
-        fname = f'{next_num:02d}-book1-card-{card_no:02d}.md'
-        next_num += 1
+        if card_no in CARD_FNAME:
+            fname = CARD_FNAME[card_no]
+        else:
+            fname = f'{next_num:02d}-book1-card-{card_no:02d}.md'
+            next_num += 1
         out_path = OUT_DIR / fname
 
         spans = spans_for_card(card_key, [line['latin'] for line in lat_card['text']])

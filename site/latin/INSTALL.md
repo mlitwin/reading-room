@@ -57,6 +57,29 @@ mutastis
 
 The `contr` tag marks the syncopated 1st-conj perfect that Whitaker's misses; `#1` distinguishes homograph lemmas (e.g. `dico#1` "dedicate" vs `dico#2` "say"). The wrapper validates the build before each call and emits a helpful pointer back to this page if anything is missing.
 
+## Stanza (Phase 6 editorial QA)
+
+The `stanza_editorial.py` script requires the stanza Latin model. A venv is committed at `site/latin/.venv` (gitignored) — create it once:
+
+```sh
+python3 -m venv site/latin/.venv
+site/latin/.venv/bin/pip install stanza
+site/latin/.venv/bin/python3 -c "import stanza; stanza.download('la')"
+```
+
+Run the QA pass against a card:
+
+```sh
+make latin-stanza-editorial CARD=2 STANZA_PYTHON=site/latin/.venv/bin/python3
+```
+
+Or as JSON for further processing:
+
+```sh
+STANZA_PYTHON=site/latin/.venv/bin/python3 \
+  site/latin/.venv/bin/python3 site/latin/stanza_editorial.py --card 2 --json
+```
+
 ## Pointing the wrapper somewhere else
 
 `morpheus.sh` defaults to `~/Dev/github.com/mlitwin/morpheus`. To use a different build location, override the environment:

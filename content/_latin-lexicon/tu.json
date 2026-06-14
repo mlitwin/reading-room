@@ -1,0 +1,23 @@
+{
+  "lemma": "tu",
+  "pos": "pron",
+  "head": "tu (2nd-person singular personal pronoun)",
+  "glosses": ["you (singular)"],
+  "paradigm": {
+    "type": "pron",
+    "rows": ["nom", "gen", "dat", "acc", "abl"],
+    "cols": ["sg", "pl"],
+    "cells": {
+      "nom.sg": "tu",
+      "gen.sg": "tui",
+      "dat.sg": "tibi",
+      "acc.sg": "te",
+      "abl.sg": "te",
+      "nom.pl": "vos",
+      "gen.pl": "vestrum / vestri",
+      "dat.pl": "vobis",
+      "acc.pl": "vos",
+      "abl.pl": "vobis"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "lemma": "pan",
+  "pos": "noun",
+  "head": "Pan, Panos, m.",
+  "glosses": [
+    "Pan",
+    "Arcadian god of shepherds and wild places",
+    "pursuer of Syrinx"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Pan",
+      "gen.sg": "Panos",
+      "dat.sg": "Pani",
+      "acc.sg": "Pana",
+      "abl.sg": "Pane"
+    }
+  }
+}

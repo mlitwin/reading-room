@@ -1,0 +1,30 @@
+{
+  "lemma": "deucalion",
+  "pos": "noun",
+  "head": "Deucalion, -onis, m.",
+  "glosses": [
+    "Deucalion",
+    "son of Prometheus",
+    "survivor of the great flood with Pyrrha"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Deucalion",
+      "gen.sg": "Deucalionis",
+      "dat.sg": "Deucalioni",
+      "acc.sg": "Deucaliona",
+      "abl.sg": "Deucalione"
+    }
+  }
+}

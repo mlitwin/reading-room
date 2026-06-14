@@ -1,0 +1,30 @@
+{
+  "lemma": "iuno",
+  "pos": "noun",
+  "head": "Iuno, Iunonis, f.",
+  "glosses": [
+    "Juno",
+    "queen of the gods",
+    "wife and sister of Jupiter"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Iuno",
+      "gen.sg": "Iunonis",
+      "dat.sg": "Iunoni",
+      "acc.sg": "Iunonem",
+      "abl.sg": "Iunone"
+    }
+  }
+}

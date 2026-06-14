@@ -1,0 +1,36 @@
+{
+  "lemma": "titan",
+  "pos": "noun",
+  "head": "Titan, -anis, m.",
+  "glosses": [
+    "Titan",
+    "one of the elder gods",
+    "the Sun (as a Titan)"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "Titan",
+      "gen.sg": "Titanis",
+      "dat.sg": "Titani",
+      "acc.sg": "Titana",
+      "abl.sg": "Titane",
+      "nom.pl": "Titanes",
+      "gen.pl": "Titanum",
+      "dat.pl": "Titanibus",
+      "acc.pl": "Titanas",
+      "abl.pl": "Titanibus"
+    }
+  }
+}

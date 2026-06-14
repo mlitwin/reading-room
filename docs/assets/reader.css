@@ -673,6 +673,29 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   color: var(--bg);
 }
 
+/* Stanza independently prefers this alternative reading — tint the chip
+   to signal it's worth a look, without claiming certainty. */
+.card-popover .other-lemma-chip.stanza-preferred {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+}
+.card-popover .other-lemma-chip.stanza-preferred:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: transparent;
+}
+
+/* Stanza confirms the primary lemma — add a quiet mark after the heading. */
+.card-popover .card-lemma.stanza-confirmed::after {
+  content: '✓';
+  font-size: 0.75rem;
+  font-family: ui-sans-serif, sans-serif;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--accent) 60%, transparent);
+  align-self: center;
+}
+
 /* Note-link buttons inside card popovers — they open grammar-reference
    notes. The default `.note-link` style (accent colour + dotted underline)
    is too loud for repeated paradigm-header use; tone it down in those

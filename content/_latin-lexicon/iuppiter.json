@@ -1,0 +1,30 @@
+{
+  "lemma": "iuppiter",
+  "pos": "noun",
+  "head": "Iuppiter, Iovis, m.",
+  "glosses": [
+    "Jupiter",
+    "Jove",
+    "king of the gods"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Iuppiter",
+      "gen.sg": "Iovis",
+      "dat.sg": "Iovi",
+      "acc.sg": "Iovem",
+      "abl.sg": "Iove"
+    }
+  }
+}

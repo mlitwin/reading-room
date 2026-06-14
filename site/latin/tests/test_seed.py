@@ -48,8 +48,8 @@ class TestParseNLBlock(unittest.TestCase):
         block = 'N vo_s,tu  masc/fem nom/voc pl\t\tindeclform\tpron2'
         a = seed.parse_nl_block(block)
         self.assertEqual(a['surface'], 'vos')
-        # `tu` aliased to `vos` (existing card).
-        self.assertEqual(a['lemma'], 'vos')
+        # Morpheus uses `tu` as the headword for all 2nd-person forms.
+        self.assertEqual(a['lemma'], 'tu')
 
     def test_homograph_suffix_stripped(self):
         block = 'V di_xe_re,dico#2  perf ind act 3rd pl\t\tpoetic\tperfstem'

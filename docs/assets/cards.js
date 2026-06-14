@@ -85,7 +85,7 @@
   var stack = [];
   var stackPos = -1;
 
-  function applyCardState(scope, lemma, matches) {
+  function applyCardState(scope, lemma, matches, stanzaLemma) {
     var thisMatch = matches.filter(function (m) { return m.lemma === lemma; })[0];
     var thisParses = thisMatch ? thisMatch.parses : [];
     scope.querySelectorAll('td.active-form').forEach(function (el) {
@@ -113,15 +113,24 @@
         var matchesStr = matches.map(function (m) {
           return m.lemma + ':' + m.parses.join(',');
         }).join(';');
-        chipsBox.innerHTML = '<span class="card-other-lemmas-label">also: </span>' +
+        // Mark the chip that stanza independently prefers (if it's a secondary).
+        chipsBox.innerHTML = '<span class="card-other-lemmas-label">readings: </span>' +
           others.map(function (m) {
-            return '<button class="latin-token other-lemma-chip" type="button" popovertarget="card-' +
+            var isStanzaPref = stanzaLemma && m.lemma === stanzaLemma;
+            var cls = 'latin-token other-lemma-chip' + (isStanzaPref ? ' stanza-preferred' : '');
+            var label = m.lemma + (isStanzaPref ? ' ✓' : '');
+            return '<button class="' + cls + '" type="button" popovertarget="card-' +
                    m.lemma + '" data-matches="' + matchesStr.replace(/"/g, '&quot;') + '">' +
-                   m.lemma + '</button>';
+                   label + '</button>';
           }).join('');
       } else {
         chipsBox.innerHTML = '';
       }
+    }
+    // Mark the primary heading when stanza independently confirms it.
+    var heading = scope.querySelector('.card-lemma');
+    if (heading) {
+      heading.classList.toggle('stanza-confirmed', !!(stanzaLemma && stanzaLemma === lemma));
     }
   }
 
@@ -141,7 +150,7 @@
     body.innerHTML = source.innerHTML;
     if (isCard && entry.matches) {
       var lemma = entry.sourceId.replace(/^card-/, '');
-      applyCardState(body, lemma, parseMatches(entry.matches));
+      applyCardState(body, lemma, parseMatches(entry.matches), entry.stanzaLemma || '');
     }
     renderBreadcrumb(host);
     updateNavButtons(host);
@@ -175,6 +184,7 @@
 
   function pushAndShow(source, btn) {
     var matches = btn ? (btn.getAttribute('data-matches') || '') : '';
+    var stanzaLemma = btn ? (btn.getAttribute('data-stanza') || '') : '';
     var current = stackPos >= 0 ? stack[stackPos] : null;
     // Clicking the same source with the same matches at the top of the
     // stack is a no-op (avoids duplicate breadcrumb entries).
@@ -190,6 +200,7 @@
       sourceId: source.id,
       label: source.dataset.label || source.id,
       matches: matches,
+      stanzaLemma: stanzaLemma,
     });
     stackPos = stack.length - 1;
     renderHost();

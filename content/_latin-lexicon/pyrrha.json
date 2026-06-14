@@ -1,0 +1,31 @@
+{
+  "lemma": "pyrrha",
+  "pos": "noun",
+  "head": "Pyrrha, -ae, f.",
+  "glosses": [
+    "Pyrrha",
+    "daughter of Epimetheus",
+    "wife of Deucalion",
+    "survivor of the flood"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Pyrrha",
+      "gen.sg": "Pyrrhae",
+      "dat.sg": "Pyrrhae",
+      "acc.sg": "Pyrrham",
+      "abl.sg": "Pyrrha"
+    }
+  }
+}

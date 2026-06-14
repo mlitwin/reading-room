@@ -1,0 +1,30 @@
+{
+  "lemma": "inachus",
+  "pos": "noun",
+  "head": "Inachus, -i, m.",
+  "glosses": [
+    "Inachus",
+    "river god of Argos",
+    "father of Io"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Inachus",
+      "gen.sg": "Inachi",
+      "dat.sg": "Inacho",
+      "acc.sg": "Inachum",
+      "abl.sg": "Inacho"
+    }
+  }
+}

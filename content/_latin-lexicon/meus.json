@@ -1,23 +1,59 @@
 {
   "lemma": "meus",
-  "pos": "adj",
+  "pos": "pron",
   "head": "meus, -a, -um (possessive adj.)",
-  "glosses": ["my", "mine"],
+  "glosses": [
+    "my",
+    "mine"
+  ],
   "paradigm": {
     "type": "adj",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg.masc", "sg.fem", "sg.neut", "pl.masc", "pl.fem", "pl.neut"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
     "cells": {
-      "nom.sg.masc": "meus", "nom.sg.fem": "mea", "nom.sg.neut": "meum",
-      "nom.pl.masc": "mei", "nom.pl.fem": "meae", "nom.pl.neut": "mea",
-      "gen.sg.masc": "mei", "gen.sg.fem": "meae", "gen.sg.neut": "mei",
-      "gen.pl.masc": "meorum", "gen.pl.fem": "mearum", "gen.pl.neut": "meorum",
-      "dat.sg.masc": "meo", "dat.sg.fem": "meae", "dat.sg.neut": "meo",
-      "dat.pl.masc": "meis", "dat.pl.fem": "meis", "dat.pl.neut": "meis",
-      "acc.sg.masc": "meum", "acc.sg.fem": "meam", "acc.sg.neut": "meum",
-      "acc.pl.masc": "meos", "acc.pl.fem": "meas", "acc.pl.neut": "mea",
-      "abl.sg.masc": "meo", "abl.sg.fem": "mea", "abl.sg.neut": "meo",
-      "abl.pl.masc": "meis", "abl.pl.fem": "meis", "abl.pl.neut": "meis"
+      "nom.sg.masc": "meus",
+      "nom.sg.fem": "mea",
+      "nom.sg.neut": "meum",
+      "nom.pl.masc": "mei",
+      "nom.pl.fem": "meae",
+      "nom.pl.neut": "mea",
+      "gen.sg.masc": "mei",
+      "gen.sg.fem": "meae",
+      "gen.sg.neut": "mei",
+      "gen.pl.masc": "meorum",
+      "gen.pl.fem": "mearum",
+      "gen.pl.neut": "meorum",
+      "dat.sg.masc": "meo",
+      "dat.sg.fem": "meae",
+      "dat.sg.neut": "meo",
+      "dat.pl.masc": "meis",
+      "dat.pl.fem": "meis",
+      "dat.pl.neut": "meis",
+      "acc.sg.masc": "meum",
+      "acc.sg.fem": "meam",
+      "acc.sg.neut": "meum",
+      "acc.pl.masc": "meos",
+      "acc.pl.fem": "meas",
+      "acc.pl.neut": "mea",
+      "abl.sg.masc": "meo",
+      "abl.sg.fem": "mea",
+      "abl.sg.neut": "meo",
+      "abl.pl.masc": "meis",
+      "abl.pl.fem": "meis",
+      "abl.pl.neut": "meis"
     }
   }
 }

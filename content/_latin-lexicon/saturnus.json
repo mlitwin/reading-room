@@ -1,0 +1,30 @@
+{
+  "lemma": "saturnus",
+  "pos": "noun",
+  "head": "Saturnus, -i, m.",
+  "glosses": [
+    "Saturn",
+    "father of Jupiter",
+    "god of the golden age"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Saturnus",
+      "gen.sg": "Saturni",
+      "dat.sg": "Saturno",
+      "acc.sg": "Saturnum",
+      "abl.sg": "Saturno"
+    }
+  }
+}

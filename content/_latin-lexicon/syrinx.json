@@ -1,0 +1,30 @@
+{
+  "lemma": "syrinx",
+  "pos": "noun",
+  "head": "Syrinx, Syringis, f.",
+  "glosses": [
+    "Syrinx",
+    "Arcadian nymph pursued by Pan",
+    "transformed into marsh reeds"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Syrinx",
+      "gen.sg": "Syringis",
+      "dat.sg": "Syringi",
+      "acc.sg": "Syringem",
+      "abl.sg": "Syringi"
+    }
+  }
+}

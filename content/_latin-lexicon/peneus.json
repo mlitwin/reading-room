@@ -1,0 +1,30 @@
+{
+  "lemma": "peneus",
+  "pos": "noun",
+  "head": "Peneus, -i, m.",
+  "glosses": [
+    "Peneus",
+    "river god of Thessaly",
+    "father of Daphne"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Peneus",
+      "gen.sg": "Penei",
+      "dat.sg": "Peneo",
+      "acc.sg": "Peneum",
+      "abl.sg": "Peneo"
+    }
+  }
+}

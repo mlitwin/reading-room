@@ -43,11 +43,8 @@ WRAPPER   = REPO_ROOT / 'site' / 'latin' / 'morpheus.sh'
 CACHE_PATH = Path(__file__).resolve().parent / 'sources' / 'morpheus-cache.json'
 
 # Morpheus's canonical lemma → the card filename we want to point at. When
-# Morpheus reports e.g. `tu` (the dictionary headword of the 2nd-person
-# personal pronoun, whose plural is `vos`) but we have a `vos.json` card,
-# we rewrite the lemma to `vos` so the existing card stays in use.
+# Morpheus canonical lemma → the card filename we want to point at.
 LEMMA_ALIAS = {
-    'tu':       'vos',      # 2pl personal pronoun
     'coepio':   'coeptum',  # the proem files coepio's PPP under the noun
     'ad-spiro': 'aspiro',   # Morpheus splits the preverb; existing card is aspiro
 }
@@ -76,7 +73,10 @@ PARTICIPLE_TAG = {
 # Inflection-class column → indeclinable POS tag, used when Morpheus tags
 # a function word as `N` (its catchall for unanalysable forms).
 INDECL_POS = {'prep': 'prep', 'conj': 'conj', 'adverb': 'adv',
-              'interj': 'interj', 'numeral': 'num'}
+              'interj': 'interj', 'numeral': 'num',
+              'indecl': 'adv',    # catch-all for undeclined function words (tot, nefas, nil…)
+              'exclam': 'interj', # exclamations (o!, vae!)
+              }
 
 # -------- cache --------------------------------------------------------------
 
@@ -247,8 +247,11 @@ def morph_to_parse_codes(a):
         return codes
 
     # Nominals (nouns, adjectives, pronouns): case + num [+ gender].
-    if cases:
-        for case in cases:
+    # If Morpheus gives gender/number but no case (citation-form entries like
+    # `aether, -is`), default to nominative so the candidate is still usable.
+    effective_cases = cases if cases else (['nom'] if (genders or numbers) else [])
+    if effective_cases:
+        for case in effective_cases:
             for num in numbers or ['']:
                 if genders:
                     for gen in genders:

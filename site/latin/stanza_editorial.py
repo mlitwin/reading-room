@@ -106,6 +106,35 @@ def stanza_tokens(nlp, text):
     return out
 
 
+def align_tokens(current_tokens, stanza_words):
+    """Return full LCS alignment as list of (current|None, stanza|None) pairs."""
+    current_surfaces = [normalize_surface(t['surface']) for t in current_tokens]
+    stanza_surfaces = [normalize_surface(t['surface']) for t in stanza_words]
+    n, m = len(current_surfaces), len(stanza_surfaces)
+    dp = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(n - 1, -1, -1):
+        for j in range(m - 1, -1, -1):
+            if current_surfaces[i] == stanza_surfaces[j]:
+                dp[i][j] = dp[i + 1][j + 1] + 1
+            else:
+                dp[i][j] = max(dp[i + 1][j], dp[i][j + 1])
+    pairs = []
+    i = j = 0
+    while i < n and j < m:
+        if current_surfaces[i] == stanza_surfaces[j]:
+            pairs.append((current_tokens[i], stanza_words[j]))
+            i += 1; j += 1
+        elif dp[i + 1][j] >= dp[i][j + 1]:
+            pairs.append((current_tokens[i], None)); i += 1
+        else:
+            pairs.append((None, stanza_words[j])); j += 1
+    while i < n:
+        pairs.append((current_tokens[i], None)); i += 1
+    while j < m:
+        pairs.append((None, stanza_words[j])); j += 1
+    return pairs
+
+
 def compare_tokens(current_tokens, stanza_words):
     current_surfaces = [normalize_surface(t['surface']) for t in current_tokens]
     stanza_surfaces = [normalize_surface(t['surface']) for t in stanza_words]

@@ -1,6 +1,7 @@
 .PHONY: install build serve clean test \
         latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
-        latin-translate-ingest latin-scribe-book1 latin-stanza-editorial latin-normalize-surface
+        latin-translate-ingest latin-scribe-book1 latin-stanza-editorial \
+        latin-stanza-annotate latin-stanza-annotate-all latin-normalize-surface
 
 install:
 	cd site/generator && npm install
@@ -72,6 +73,17 @@ latin-stanza-editorial:
 	@STANZA_PYTHON=$${STANZA_PYTHON:-python3}; \
 	if [ -z "$(CARD)" ]; then echo "usage: make latin-stanza-editorial CARD=NN [STANZA_PYTHON=/path/to/python]" >&2; exit 1; fi; \
 	$$STANZA_PYTHON site/latin/stanza_editorial.py --card "$(CARD)"
+
+latin-stanza-annotate:
+	@STANZA_PYTHON=$${STANZA_PYTHON:-site/latin/.venv/bin/python3}; \
+	if [ -z "$(CARD)" ]; then echo "usage: make latin-stanza-annotate CARD=NN [STANZA_PYTHON=/path/to/python]" >&2; exit 1; fi; \
+	$$STANZA_PYTHON site/latin/annotate_stanza.py --card "$(CARD)"
+
+latin-stanza-annotate-all:
+	@STANZA_PYTHON=$${STANZA_PYTHON:-site/latin/.venv/bin/python3}; \
+	for card in 1 2 3 4 5 6 7 8 9 10 11 12 13; do \
+	  $$STANZA_PYTHON site/latin/annotate_stanza.py --card $$card 2>/dev/null; \
+	done
 
 latin-normalize-surface:
 	@python3 site/latin/normalize_piece_surface.py
