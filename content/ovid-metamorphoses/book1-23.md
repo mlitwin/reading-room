@@ -46,4 +46,10 @@ up, but love on the other urges not. Shame by love would have been o'ercome ; bu
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Mercury is dispatched from Olympus with a brief and specific assignment: put Argus to sleep. Jupiter sends him in the casual manner of someone assigning a task to a competent subordinate; Mercury transforms himself into a shepherd's disguise — rustic cap, pan-pipes, shepherd's crook — and descends to the hill where Argus keeps watch over Io.
+
+The encounter between Mercury and Argus is one of the poem's comic episodes. Argus invites the stranger to sit — hospitality laws, which Lycaon had catastrophically violated, are here observed correctly and without apparent irony. Mercury plays the pipes; Argus is charmed. He asks Mercury to explain where the pipes came from, since they are new and he does not know them.
+
+Mercury obliges, and begins the story of Syrinx. The telling of a story as a sleep-inducing strategy is both comic and self-referential: Mercury uses narrative the way a parent uses a bedtime story, watching his audience's eyes as the words do their work. The eyes of Argus close one by one as the tale proceeds. Mercury watches them go and times his moment.
+
+He stops speaking before the story reaches its end. The story's purpose was to produce sleep, not to reach a conclusion. This is one of several places in the poem where a story within the story is cut off before its ending — a technique that acknowledges the mechanics of narrative itself, the way a story works and can be interrupted. Argus sleeps; Mercury acts.

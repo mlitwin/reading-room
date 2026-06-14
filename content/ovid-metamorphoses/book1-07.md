@@ -43,4 +43,10 @@ Lycaou's table—a story still unknown because the deed was new—he conceived a
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The gathering of the gods on Olympus to hear Jupiter's complaint receives a distinctly Roman civic form. The Milky Way is identified as a kind of celestial boulevard along which the gods' palaces are ranged — the "Palatine of heaven." The gods arrive in response to Jupiter's summons, and their assembly is explicitly compared to the Roman Senate responding to an imperial call. This comparison is at once flattery of Augustus and wry commentary: divine authority and imperial authority operate by the same institutional forms.
+
+Jupiter's complaint centers on Lycaon of Arcadia, who tested the god's divinity by serving him human flesh at dinner. The sequence of Lycaon's crimes is narrated with the intensity of a legal indictment: he first attempted to murder Jupiter in his sleep, then — after his divine identity became clear — killed a hostage and served the flesh anyway. The hybris is deliberate; Lycaon knows he is dealing with Jupiter and chooses provocation regardless.
+
+Lycaon's punishment — transformation into a wolf — is the poem's first metamorphosis, slipped into Jupiter's reported speech almost as an aside. This casualness is itself significant: metamorphosis will become so frequent in the poem that presenting the first instance as unremarkable is its own kind of tonal intelligence. What begins as exception will become the poem's governing law.
+
+The Lycaon episode also establishes the fundamental structure of punitive metamorphosis: the changed form enacts the inner nature. Lycaon was already wolf-like; the transformation makes visible what was always true.

@@ -41,4 +41,10 @@ grazes her very heels with his outstretched muzzle ; but she knows not whether o
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Io is the daughter of Inachus, the river-god who gives his name to a river in Argos. Like Daphne, she is introduced through her lineage and her belonging to a specific landscape; like Daphne, she is the object of a desire she does not share and has done nothing to invite.
+
+Jupiter sees her returning from her father's stream. His speech to her — inviting her to seek the shade of the deep woods, reassuring her that he is no ordinary god — is a seduction speech, and it is recognizable as one. He identifies himself (king of the gods, holder of the thunderbolt) by way of reassurance, not noticing that a display of superior power is a strange comfort to offer someone you are asking to trust you.
+
+Io flees. Jupiter, rather than pursuing as Apollo had pursued Daphne, takes a different approach: he creates a cloud of unnatural darkness to cover them both. The difference between the two divine pursuits is pointed. Apollo's desire led to a chase that Daphne won by transformation; Jupiter's desire is simply satisfied, concealed within the cloud. The poem does not linger here; it moves quickly to Juno's suspicious arrival.
+
+Juno notices the cloud: sky-cover of that kind is unusual in good weather. She descends to investigate. Jupiter, hearing her coming, transforms Io into a white heifer. Juno admires the heifer and requests it as a gift — a request Jupiter cannot refuse without arousing further suspicion. The trap closes.

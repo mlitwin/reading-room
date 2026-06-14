@@ -42,4 +42,10 @@ shall the truth be at all in doubt. He planned that night while I was heavy with
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Jupiter's speech concludes and the flood is decreed. The council of gods assents — the gods had already been moved to agreement before Jupiter finished — and the decision is reached without meaningful dissent. The narrative moves quickly from deliberation to execution.
+
+Jupiter considers the thunderbolt and rejects it: the scale of the resulting fire might spread to the heavens themselves. He chooses water. This moment of divine calculation — a god restraining himself out of practical concern for collateral damage — characterizes Ovid's Olympians as prudent administrators rather than pure forces of nature. Jupiter is powerful but not absolute; he thinks before he acts.
+
+The flood is then prepared as a coordinated operation. The South Wind (*Auster*) arrives dramatically described: dripping wings, pitch-black face, rain-heavy beard, cloud-wreathed crown. The storm deity is rendered with the full apparatus of personification — a literary set-piece in the tradition going back to Homer and Virgil's *Aeneid* I, but distinctively Ovidian in its slightly theatrical quality, as if Auster has arrived costumed for the role. Then Neptune is summoned and lends the sea's cooperation; the rivers are released from their banks.
+
+The passage establishes the flood as a fully organized event, executed departmentally, each divine and natural force doing its assigned part. The universe that was created through an orderly separation of elements is now being un-created through the systematic reversal of those same separations.

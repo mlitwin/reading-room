@@ -37,4 +37,10 @@ he would give them another race of wondrous origin far different from the first.
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The flood spreads across the known world. Neptune strikes the earth with his trident; subterranean waters burst upward to join the rains from above. The rivers, released from their sources, overflow their banks with something like exuberance — the language suggests a barely suppressed force finally given permission to move.
+
+The catalogue of inversions is the passage's central rhetorical device. A wolf swims among sheep; deer are carried helplessly by the current; the wild boar's proverbial strength is useless; fish move through what was forest. Each impossible combination is a small poem of dissolution: the natural hierarchy that organized the world — predators separate from prey, creatures in their element — has been overturned. The flood does physically what the Iron Age had done morally.
+
+The wandering dove is the most affecting of these images. It searches for solid ground and finds none; it falls exhausted into the water. The echo of the dove from the biblical flood tradition was audible to ancient readers as well as modern ones — even across cultural boundaries, the dove-and-flood pairing was recognizable. But in Ovid the dove finds nothing. There is no olive branch, no signal of recession. The world remains submerged and the bird gives up.
+
+Two brief divine vignettes — Neptune releasing and then restraining the waters, Triton appearing to blow the retreat — frame the flood as operating within divine governance even at its most destructive: even catastrophe has management.

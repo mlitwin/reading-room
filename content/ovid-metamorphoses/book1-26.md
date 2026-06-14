@@ -41,4 +41,10 @@ through the pathless wastes until she came to Ladon's stream flowing peacefully 
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Book I closes not with the resolution of Io's story but with its continuation into Book II. Jupiter persuades Juno to release Io; Io is restored to human form. The transformation is reversed, and Ovid describes the reversal with the same clinical attention he gave to the original change: the animal shape withdraws, the human form returns, speech comes last. Io speaks carefully at first, afraid that what she says will be a moo.
+
+The restored Io eventually becomes the goddess Isis in Egypt — the myth provides an aetiological account of the Egyptian goddess's origin as a transformed Argive princess. The metamorphosis continues past human form into the divine, which extends the poem's transformative logic upward as well as downward. Io's journey goes from river-nymph to heifer to goddess; the changes are neither simply improvements nor simply degradations.
+
+The son Epaphus, born to Io and Jupiter in Egypt, appears briefly in the episode's closing lines. His playmate is Phaethon, son of the Sun-god. Their quarrel — Epaphus mocks Phaethon's claim that his father is Phoebus Apollo — becomes the impetus for the entire opening of Book II: Phaethon goes to his mother Clymene to demand proof of his divine parentage, and Clymene swears by the sun itself that her son is indeed the Sun's.
+
+The poem ends mid-motion, the Phaethon story already underway. Book I has no proper conclusion; it opens into Book II as one episode opens into another throughout the poem. The Metamorphoses does not stop — it pauses.

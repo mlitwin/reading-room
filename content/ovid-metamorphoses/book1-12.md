@@ -39,4 +39,10 @@ the wandering bird, after long searching for a place to alight, falls with weary
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+As the waters complete their recession, the world is revealed as a vast, emptied mud-flat. The wandering dove from the previous episode had already given the image of total displacement: even creatures that can rise above terrestrial catastrophe had found no refuge. What remains is a landscape of slime-covered plains, leafless trees, and cold temples — the physical world intact, the human world absent.
+
+Deucalion's speech to Pyrrha is the emotional center of the episode. He names their situation plainly: two people in a depopulated world. He invokes his father Prometheus's art — the making of men from clay — and wishes that he had inherited it. The wish is moving precisely because it acknowledges what he lacks: he can identify the problem but cannot solve it alone.
+
+Together they walk to the temple of Themis, a goddess who presides over divine law, natural order, and the oracular tradition. The temple is described as it would appear after a flood: covered with moss and weeds from the water, altars cold. The detail grounds the mythological in the physical and emphasizes that even the divine world has been disrupted — the gods' houses need repair, just as the human world does.
+
+When they prostrate themselves on the cold stone floor, the gesture of complete submission before the divine is entirely appropriate to their situation. They have nothing left to offer but the correctness of their approach.

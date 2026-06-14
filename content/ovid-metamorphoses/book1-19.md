@@ -31,4 +31,10 @@ creature flees its foes. But love is the cause of my pursuit. Ah me! I fear that
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Apollo's lament over the laurel is the episode's epilogue and the poem's first sustained meditation on what metamorphosis does to the relationship between lover and beloved. Daphne is a tree; she is also still, in some sense, Daphne. The heart Apollo feels beating under the bark is both metaphorical and, in Ovid's mythology, literal. The continuity of identity through transformation is one of the poem's persistent themes, and it is stated most plainly here.
+
+Apollo's speech consecrates the laurel as his tree forever: associated with his unshorn hair, his lyre, his quiver. Roman generals will wear the laurel at their triumphs; the laurel will guard Augustus's portals and keep watch over the civic crown of oak. The sudden insertion of Roman political imagery into the mythology is typical Ovidian maneuvering — the myth is shown to have a contemporary application, but the application arrives as Apollo's prophecy rather than as Ovid's commentary, and the two frames are briefly indistinguishable.
+
+The laurel's branches move — as if nodding in consent to Apollo's declaration. This small gesture is one of the most delicate moments in the poem: Daphne, as a tree, can still respond. She has given up human form but not the capacity to signal assent. The transformation is loss, but not total loss. Something persists.
+
+The episode ends and the Io story begins immediately. The poem has established its method — desire, pursuit, transformation, complex aftermath — and will now repeat it with significant variations.

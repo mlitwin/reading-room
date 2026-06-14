@@ -43,4 +43,10 @@ which she had snared, vying with the virgin Phoebe. A single fillet bound herloc
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The final approach of the chase occupies these lines, compressed into an almost breathless sequence. The simile of the hound and the hare — he runs toward hope, she toward fear; he thinks he has her while her escape remains uncertain — dignifies the pursuit while also being unflattering: Daphne is being compared to prey. Ovid lets Apollo supply his own inadequate metaphors.
+
+Daphne calls on her father Peneus: "Change this beauty by which I have pleased too well." The prayer is the one Ovidian metamorphosis that is fully requested by its subject — not imposed as punishment, not the result of a god's desire overwhelming resistance, but asked for explicitly by the person who will undergo it. This matters enormously for how the episode is to be read: Daphne's transformation is, in a specific sense, her own act, her escape and her refusal simultaneously enacted.
+
+The transformation begins immediately. A numbness descends on her limbs; bark closes over her skin; her hair becomes leaves; her arms become branches; her feet, so swift, take root. Ovid describes the process with clinical attentiveness, from the outside in, from feet to torso to crown. The detail is precise rather than sentimental — Ovid watches Daphne become a laurel the way he might observe any natural process, with the fascination of someone interested in how things change.
+
+At the moment of full transformation, Apollo arrives just too late. He embraces the tree. He can feel her heart still beating beneath the bark.

@@ -34,4 +34,10 @@ may grieve the more, mother," he said, “I, the high-spirited, the bold of tong
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The Phaethon episode that will dominate Book II is set in motion here, in the closing lines of Book I, by a child's taunt. Epaphus — son of Io and Jupiter, born in Egypt — mocks his playmate Phaethon's claim that his father is Phoebus the Sun-god. The taunt is brief and cutting: your mother lies. Phaethon, stung, goes to his mother Clymene for proof.
+
+Clymene's response is one of the book's most affecting moments. She swears by the sun itself — by the very god she claims as Phaethon's father — that the claim is true. She points toward the sun's rising-place and tells him to go there and ask. The oath sworn on the object of the oath is both legally sound (in mythological terms) and emotionally convincing; she is staking her honor on the one witness who cannot be doubted.
+
+Book I ends here, with Phaethon still traveling toward the palace of the Sun, the great story of his disastrous chariot-ride not yet begun. This is characteristic of the poem's structure: no book ends with a proper conclusion. The narrative is always mid-event, always carrying its momentum forward, always opening into what comes next rather than rounding off into completion.
+
+The Metamorphoses is sometimes described as a poem without a center, and this is true in one sense — there is no single protagonist, no single arc. But there is a principle of organization that the first book has established in miniature: change is the constant; everything begins somewhere else and ends as something different; nothing stays the same long enough to constitute a resting place. The poem will run on this energy for fourteen more books.

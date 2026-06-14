@@ -45,4 +45,10 @@ seeds of life, nourished in that life-giving soil, as in a mother's womb, grew a
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The Daphne episode begins with an explicit declaration of cause: Apollo has mocked Cupid, and Cupid's revenge is immediate. He shoots Apollo with a gold-tipped arrow (inflaming love) and Daphne with a lead-tipped one (repelling it). The asymmetry is the engine of the narrative: one party burns while the other flees. The story can only end one way.
+
+Daphne is introduced through her lineage (daughter of the river-god Peneus) and her nature: she has rejected all suitors, asked her father for perpetual virginity like Diana, and lives in the forests as a huntress. Her father half-indulges her while wanting grandchildren; she is entirely committed to her chosen life. Into this settled existence Apollo erupts.
+
+Apollo's love, generated artificially by Cupid's arrow, is presented as real and experienced as burning — the reader is not invited to doubt its subjective intensity. But the love is also, from outside, a kind of violence directed at someone who has made her preferences entirely clear. The poem holds both of these things simultaneously, which is part of what makes the Daphne episode one of Ovid's most discussed passages. Sympathy is distributed, not adjudicated.
+
+The river Peneus appears both as Daphne's father and as a geographical fact — the Thessalian rivers gather at his invitation. The river-god father who cannot protect his daughter from a god with more power is a figure of quietly acknowledged helplessness, and his helplessness will be recalled when Daphne invokes him at the critical moment.

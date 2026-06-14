@@ -37,4 +37,10 @@ marked out with long-drawn boundary-line. Not only did men demand of the bounteo
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The Iron Age opens with a catalogue of vices that is also, implicitly, a portrait of Augustan Rome. Modesty, truth, and loyalty flee; in their place: deceit, force, fraud, greed, and the cursed love of possession (*amor sceleratus habendi*). Ships launch, forests are felled for their timber, the earth is carved up by boundary-markers, and the mines give up iron and gold — the two metals that enable war and corruption simultaneously.
+
+Three allegorical figures depart for heaven: Shame, Truth, and Justice. Justice (*Astraea*) is the last to leave, lingering on earth while the others flee — a detail borrowed from Aratus and Virgil's *Georgics* but made final and absolute in Ovid's version. The departure leaves the earth entirely to vice, and vice needs no further encouragement.
+
+The Giants pile Pelion on Ossa and assault Olympus. Jupiter strikes them down, and from their blood — soaked into the earth — a new race arises. This race also proves violent and murderous. The pattern established here — moral failure, divine punishment, attempted renewal, renewed failure — will drive the narrative for several more episodes. The blood-born Giants are the mythological explanation for why humanity has such deep capacity for violence: it is literally in the earth from which people come.
+
+The transition to the council of gods that will follow is managed economically: with the world this corrupt, a divine response is inevitable.

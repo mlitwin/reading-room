@@ -41,4 +41,10 @@ reason of the heat; deep snow covers two, two he placed between and gave them te
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Man is last in the order of creation, and is set apart by a single physical feature: he stands upright and can look at the sky. The gesture of lifting the face to the heavens — *os homini sublime dedit caelumque videre iussit* ("he gave man an upraised countenance and bade him look at the sky") — is Ovid's secular version of the divine breath that animates man in other traditions. Man looks up; the animals look down. That is the whole of his special status in Ovid's telling.
+
+The double origin myth is characteristically non-committal. Either the divine craftsman (*opifex rerum*) made man from his own divine substance, or Prometheus mixed earth with rainwater and shaped the gods' image in clay. Ovid offers both versions simultaneously and proceeds without adjudicating between them. This refusal to commit is a signature gesture throughout the poem: the text is interested in multiple accounts of the same event, holding them in suspension rather than resolving them.
+
+The geographical zone description earlier in this card connects implicitly to a geography of civilization: the temperate zones are where human life thrives, and Mediterranean civilization sits comfortably within them. This is a flattering premise that Ovid shares with much Greco-Roman cosmological writing, deployed here with more wit than conviction.
+
+The creation of man is also the end of the beginning. From here the poem will track moral descent through the ages. The creation narrative has been a prologue — philosophical rather than sacred, cataloguing rather than reverent — and man enters the world already carrying the capacity for both the Golden Age and the Iron Age.

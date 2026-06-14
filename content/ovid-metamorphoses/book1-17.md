@@ -40,4 +40,10 @@ youth who had been victorious in boxing, running, or the chariot race received t
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Apollo pursues; Daphne flees. The pursuit is narrated with the economy and forward momentum of a racing description. Apollo's entreaties interrupt the chase periodically — he calls to her to slow down, promises he means no harm, identifies himself — and these interruptions are gently comic: the god of poetry and rhetoric, using all his gifts, cannot stop a girl from running.
+
+Apollo's speech to the fleeing Daphne is a masterpiece of misdirected eloquence. He recites his divine credentials — the Delphian land, Claros, Tenedos, Patara; Jove as his father; the arts of prophecy, music, medicine — as if these would be persuasive to someone who is running from him. He even notes that his arrow is accurate and then admits that Cupid's arrow was surer still. The joke is at Apollo's expense: the god of clear-sighted truth cannot see that his entire speech is beside the point.
+
+Daphne does not reply. She speaks only once in the episode — in prayer, at the moment of transformation — and her silence here is eloquent. She has nothing to say that Apollo has not already heard; her position is expressed by her motion.
+
+The pursuit across the Thessalian landscape grows increasingly urgent as the gap closes. Apollo gains at every stride; Daphne can feel his breath on the back of her neck, his shadow crossing her shoulders. The river Peneus, her father's waters, is nearby. She is running toward the only power that might answer.

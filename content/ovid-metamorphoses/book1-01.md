@@ -34,4 +34,10 @@ My mind is bent to tell of bodies changed into new forms. Ye gods, for you yours
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The poem opens with one of the most carefully constructed first words in Latin literature: *In*, a preposition, launching the poem mid-motion before anything has happened. *In nova fert animus* — "my mind is bent toward new things" — announces a poem about change, and the opening word enacts its theme.
+
+The invocation (lines 1–4) departs from epic convention by addressing all the gods rather than a single Muse, and justifies this with a parenthetical that is playful and precise: the gods are recruited as collaborators because they themselves have worked transformations. The gods are implicated in the poem's subject matter before a single story begins.
+
+The description of Chaos (lines 5–22) draws on multiple philosophical traditions — Hesiod's primordial void, Empedoclean physics, Platonic matter, Lucretian atomism — but subordinates all of these to a vivid, accumulating rhetoric of formlessness. Chaos is characterized above all by conflict: the four elements are present but at war with each other, *non bene iunctarum discordia semina rerum*, "the discordant seeds of things not well combined." The famous phrase *rudis indigestaque moles* ("a rough, unordered mass") compresses the concept with memorable economy.
+
+The unnamed creator — *deus quisquis ille fuit*, "whatever god it was" — hovers just off-stage. Ovid's deliberate vagueness about the creator's identity is not negligence but strategy: the poem is interested in the fact of creation, not its theology. The chaos is the more arresting subject, and Ovid gives it nearly twenty lines before resolution arrives.

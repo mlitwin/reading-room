@@ -42,4 +42,10 @@ harangue. Put forth all your strength, for there is iced. Open wide your doors, 
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+At Neptune's command the waters begin to recede. Triton appears — blue-green, garlanded with shells and barnacles — and blows his great conch horn as the signal of retreat. The description of the conch itself is a small set-piece: a spiral that tapers from its base to a broad, swelling bell, filling with sound when the Triton breathes into it and carrying that sound to the shores at both ends of the world. It is at once a functional horn and a metaphysical instrument — its range is total.
+
+The land emerges gradually. Trees reappear without their leaves; the plains return covered in silt; hills become visible again. The world is there but it is empty — a landscape that has been wrung out and laid bare. Deucalion and Pyrrha, from their high place on Parnassus, look out over what remains.
+
+Their response is grief, not triumph. They are not the heroes of a survival narrative celebrating escape; they are witnesses to a world from which everyone else has been erased. Deucalion is established as the most just of men (*neque illo melior quisquam*); Pyrrha as devoted to the goddess Themis, guardian of divine law. Their survival is not arbitrary — the flood was a moral sorting, and these two are its residue.
+
+The oracular tradition is prepared by Pyrrha's identity: she worships the goddess through whom divine law speaks. When they decide to seek guidance, the choice of Themis's oracle is entirely prepared by who Pyrrha is.

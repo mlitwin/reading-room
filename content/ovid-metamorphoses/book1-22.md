@@ -37,4 +37,10 @@ zenith's height is overwarm. But if thou fearest to go alone amongst the haunts 
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The recognition scene between Io and her father Inachus is one of the most emotionally precise passages in Book I. Inachus mourns his daughter, not knowing whether she is alive or dead. Io, in heifer form, wanders to her father's river — and he does not recognize her.
+
+She traces her name in the dust with her hoof. Two letters: IΩ. It is enough. Inachus reads the letters and recognizes his daughter in the handwriting, and the recognition precipitates grief rather than resolving it: he throws his arms around her neck and weeps, and she can only moo in response, licking his hands. This is the episode's emotional climax — not a dramatic reversal but a moment of impotent love meeting its object in an impossible form.
+
+The father cannot help. He can name what has happened — "woe is me!" (*me miserum*) — but he cannot undo it. His grief is elaborate and eloquent; her response is animal sound. The disproportion is Ovid's point: human speech and its absence, parental grief and the child who cannot reply, held apart by a transformation that has left Io's consciousness intact and removed all conventional means of communication.
+
+Argus intervenes, driving Io back to pasture. The scene closes quickly after the emotional peak. Resolution — Mercury dispatched, Argus killed, Io released — is still several episodes away, and Ovid does not hurry toward it. The interval of suffering is part of what the myth is about.

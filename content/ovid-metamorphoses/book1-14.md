@@ -43,4 +43,10 @@ Oh, would that by my father's arts I might restore the nations, and breathe, as 
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Deucalion, surveying the empty world from the receding flood, delivers one of the poem's most affecting speeches. He names the situation directly: they are two people in a world that was made for millions. He cannot restore what has been lost; he can only wish that his father Prometheus's art — the making of conscious beings from clay — had been passed to him. The wish is at once grandiose and helpless, the gesture of a just man confronting a problem beyond any just man's resources.
+
+Together they make for the temple of Themis. The oracle responds; the riddle is interpreted; the stones are thrown. The transformation of stones into men is narrated with the attention of a natural historian: rough at first, gradually acquiring the shape of human figures, as if the human form were present in the stone waiting to be released. The word *imago* — form, likeness, image — appears at the moment of human recognition, suggesting both artistic creation and biological birth.
+
+Immediately following the stone-people, the earth spontaneously generates other creatures. Ovid offers a rationalistic account drawn from Epicurean physics: when moisture and heat combine in fertile soil in the right proportions, life arises. The Nile's annual flood and subsequent exposure to the sun was believed in antiquity to generate creatures directly from the riverbank mud — some fully formed, some in mid-development, some still partly earth.
+
+This Nile digression is also a transition: Egypt produced the Python, the great serpent that Apollo will shortly kill. The narrative is already preparing its next episode.

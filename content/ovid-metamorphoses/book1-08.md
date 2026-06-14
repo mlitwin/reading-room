@@ -41,4 +41,10 @@ of a place in heaven, let us at least allow them to dwell in safety in the lands
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Jupiter's speech to the divine council continues. He has established Lycaon's crime; now he broadens the indictment to all of mankind. If Lycaon could do this — if the most extreme violation of divine hospitality was available to one man and attempted without hesitation — then all men are capable of comparable wickedness, and the evidence suggests they have done so. The rhetoric moves from particular to universal with prosecutorial logic.
+
+The comparison of the gods' alarm to the Roman populace's horror at Julius Caesar's assassination is one of Ovid's most audacious insertions into mythological narrative. It has been read as flattery of Augustus (whose grief for his adoptive father Caesar was celebrated) and as veiled commentary on how tyrannical authority works: the powerful make a case for drastic action to an audience that cannot say no. It is probably both simultaneously, which is where Ovid is most comfortable.
+
+Jupiter's delivery is performative as well as judicial. He is not merely reporting events but managing the council's emotional response — moving them from alarm to approval, from horrified attention to assent. The gods respond as audiences do: they roar their approval, and Jupiter must calm them before proceeding. The divine council, for all its grandeur, operates by the same dynamics of crowd management as any deliberative body.
+
+The decision to destroy mankind approaches. Jupiter is working toward a verdict that the assembly is already prepared to applaud.

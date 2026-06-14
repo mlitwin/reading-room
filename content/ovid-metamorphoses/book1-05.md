@@ -42,4 +42,10 @@ gentle zephyrs with warm breath played with the flowers that sprang unplanted. A
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The Silver Age begins with loss: Jupiter shortens eternal spring and divides the year into seasons. For the first time in the poem, time has texture — summer's heat, winter's cold, the uncertain spring, the brief autumn. The change is not presented as punishment but as natural consequence: with seasons come agriculture, with agriculture comes work, and with work comes the end of the leisure that defined the Golden Age.
+
+Men in the Silver Age are not wicked — they still refrain from crime. But they have lost the spontaneous virtue that required no enforcement, and so law becomes necessary for the first time. The Silver Age builds the first houses and tames the first oxen. These are technologies of survival, not corruption, but they mark the beginning of the human project of *making*, which is also the beginning of the capacity to unmake.
+
+The Bronze Age receives only six lines and little characterization beyond material hardness: harder than silver, quicker to anger, but "not yet criminal" (*nondum sceleratus*). The brevity is itself expressive — the Bronze Age is a transition, a step toward the present, worth noting but not dwelling on.
+
+The speed of the narration accelerates as it approaches the Iron Age; the reader can feel the poet leaning toward what he really wants to discuss. The diminishing word-counts for each age mirror the moral diminishment the ages enact — the poem is formally enacting decline in its own proportions.

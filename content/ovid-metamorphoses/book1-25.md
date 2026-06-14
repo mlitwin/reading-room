@@ -37,4 +37,10 @@ country paths he drivesa flock of goats which he has collected as he came along,
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Mercury cuts off the sleeping Argus's head — the description is brief, almost matter-of-fact, which makes it more effective than any extended treatment would be. Argus, the inescapable watcher with a hundred eyes, is dispatched in a sentence. The gap between the preparation (the entire preceding episode of disguise and storytelling) and the execution (a single stroke) is part of the comedy; the elaborate ruse was necessary precisely because direct action was impossible.
+
+Juno collects Argus's eyes and sets them in the tail of her peacock. The aetiological explanation — why peacock feathers have eye-like markings — is delivered with characteristic Ovidian briskness: one of the world's most recognizable bird features receives its mythological origin and the narrative moves on immediately. This technique of the throwaway etymology, inserted and passed over in the same breath, recurs throughout the poem.
+
+Juno then sends a Fury — rendered here as a gadfly — to torment Io without rest. The punishment pursues Io because she cannot be directly punished: she has done nothing wrong. But Juno's jealousy requires an outlet, and Io, Jupiter's victim, becomes Juno's victim as well. Io flees across the world in frantic, pain-driven motion: through Greece, east and west, across the strait that gets its name from her crossing (the Bosporus: "cow-ford"). The catalog of her wandering is both geographical and emotional — driven without purpose or rest, a consciousness imprisoned in animal form.
+
+The injustice of Io's suffering is not obscured. Ovid presents it clearly without editorializing.

@@ -38,4 +38,10 @@ speak, she would tell her name and sad misfortune, and beg for aid. But instead 
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The tale of Syrinx is told as Mercury's sleep-inducing story within the Io episode — a myth nested inside a myth. Syrinx was a nymph of Arcadia devoted to Diana: a huntress, virginal, resembling her patron goddess so closely that she was sometimes mistaken for her. Pan pursued her as she fled toward the river Ladon; she called on the water-nymphs for help and was transformed into hollow marsh-reeds.
+
+The story closely mirrors the Daphne episode: pursuit, flight, transformation into a plant at a moment of divine intervention. The parallel is explicit and deliberate. Where Daphne became the laurel associated with Apollo's attributes, Syrinx becomes the reeds associated with Pan's — the pan-pipes (*syrinx* in Greek) are named after her, and Pan discovers music in the act of mourning her loss.
+
+Pan embracing the reed-bank and breathing across the reeds to produce sound is one of the great images of creative transformation in ancient poetry: the instrument is the beloved in another form, and music is what arises from loss. Art and grief share the same origin.
+
+The nested structure — the story told by Mercury to Argus — gives Syrinx's transformation a specifically instrumental quality. Her story is being used, deployed for its effect on Argus's eyes rather than told for her sake. The reader knows this; Mercury knows this; Argus does not. The pathos of Syrinx's transformation is filtered through the awareness that it is serving a purpose for which she is entirely irrelevant.

@@ -40,4 +40,10 @@ and lowest to a broad-swelling whorl—the shell which, when in mid-sea it has r
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The oracle of Themis delivers its command with compressed authority: leave the temple, veil your heads, loosen your garments, and throw your great mother's bones behind you. Oracular language operates by deliberate obscurity — it speaks truth in code, requiring interpretation. Pyrrha's first response is refusal: she will not scatter her mother's bones; it would be sacrilege. Her literalism is both pious and logical.
+
+It takes Deucalion's interpretive intelligence to unlock the riddle: the mother is the earth, the bones are the stones in the earth's body. This moment — the literal versus the figurative reading of an oracle — is a persistent preoccupation in ancient narrative. Interpreters who assume literal meaning fail; those who find the figurative sense succeed. Deucalion is the poem's first successful oracle-reader, and characteristically his success is intellectual rather than heroic.
+
+They act on this reading: veiled, clothes loosened, they throw stones behind them as they walk. The stones begin to change. "Put aside their hardness, grew soft by degrees, and took on shape" — Ovid's description of the transformation is watched with scientific curiosity rather than theological awe. The human form is latent in the stone and must only be coaxed out.
+
+The new race of people is harder for their origin — this is offered as an aetiological explanation of human endurance and capacity for labor. The stone-people carry the quality of their material: resistant, durable, shaped by difficulty. The poem moves at once toward its next episode.

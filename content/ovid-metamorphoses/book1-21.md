@@ -47,4 +47,10 @@ oak which hangs between. And as my head is ever young and my locks unshorn, so d
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+Io transformed into a heifer carries the full awareness of her situation — she has consciousness, memory, the capacity for grief — but now inhabits a body without the means to express any of it. When she tries to speak, she moos; when she tries to raise her arms in supplication, she has hooves instead. The disproportion between interior experience and exterior form is the governing irony of the episode, and Ovid renders it with a mixture of comedy and pathos that refuses to resolve in either direction.
+
+Juno, having secured the heifer as a gift, assigns Argus to guard her. Argus has a hundred eyes arranged so that fifty sleep while fifty watch, rotating in pairs. He is at once frightening (inescapable vigilance) and comic (a figure defined by the absurd abundance of his watchfulness). Io grazes and Argus watches from his hilltop.
+
+The social inversion that the transformation enacts is quietly pointed. Io was the daughter of a river-god, a figure of some standing; she is now livestock supervised by a herdsman who tends her with the indifference of someone doing a job. The gap between what she was and what she has been reduced to — visible in every line of the passage — is one of Ovid's persistent interests in the mechanics of metamorphosis. The changed form does not merely alter the body; it reassigns the person to a different position in the world's social hierarchy.
+
+Io cannot correct this. She can only suffer it, and wait.

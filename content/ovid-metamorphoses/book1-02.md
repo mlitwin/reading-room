@@ -38,4 +38,10 @@ and separated the ethereal heavens from the dense atmosphere. When thus he had r
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+With the unnamed god's intervention, Ovid moves briskly through the cosmogonic separation: sky from earth, sea from land, lighter elements rising above heavier ones. The Stoic model of elemental hierarchy — fire at the top, then air, water, earth — is followed, but Ovid handles it with the speed of a poet who finds the sorting-out interesting and the sorted-out world more interesting still.
+
+The five-zone cosmography is a pause for geographical decoration. The earth is divided into five bands by latitude: two frozen polar zones, two temperate zones, one torrid equatorial band. This geographical commonplace, derived from Aristotle and Eratosthenes, is introduced not for scientific precision but for the aesthetic satisfaction of ordered symmetry — the world divided as neatly as a poem.
+
+The four winds receive individual treatment: Eurus to the East, Zephyr to the West, Boreas to the frozen North, Auster to the wet South. This is the cosmogony becoming mythology: the winds are not forces but persons, assigned to their quadrants and given weather to carry. Ovid is already moving from world-as-physics to world-as-story, and the transition is deliberate — the brief personification of the winds is the first hint of the anthropomorphic imaginations that will drive the rest of the poem.
+
+The passage ends with the cosmos ordered and empty: fish for the water, birds for the air, animals for the land. Man has not yet appeared, but the stage is prepared.

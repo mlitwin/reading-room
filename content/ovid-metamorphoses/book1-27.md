@@ -38,4 +38,10 @@ which alone she could raise, to the high stars, and with groans and tears and ag
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The destruction of Argus is the mechanical center of the Io episode: everything before it has been preparation, everything after will flow from it. Mercury strikes while all hundred eyes are sleeping, having guided the last of them to rest with the unfinished tale of Syrinx. The act itself receives almost no narrative space — the elaborate ruse required to make it possible receives far more attention than the stroke that executes it.
+
+Juno collects Argus's eyes and sets them in the peacock's tail, where they survive as decoration after ceasing to function as organs of sight. The image is characteristic of Ovid's transformations: the original function is lost but something of the form persists. The guardian's watchfulness, which filled dozens of lines, is now a pattern on a bird's feathers.
+
+Juno's revenge on Io through the gadfly is harder to read. Io has been Jupiter's victim throughout; now she is Juno's as well. The punishment pursues her because she cannot be punished directly — she is innocent — but Juno's jealousy requires an outlet, and Io is there. Her wandering under the gadfly's torment covers the world: the Ionian Sea (named for her), the Bosporus ("cow-ford"), the Caucasus, Asia, Egypt. The catalog of her journey is both geographical and emotional — driven without purpose or rest, consciousness intact inside an animal body.
+
+In Egypt, at the Nile, Jupiter persuades Juno to relent. He swears he will ask nothing more of Io. Io is restored. The reversal of the transformation happens carefully and with the same clinical attention as the original change. Speech returns last. Io speaks — cautiously, afraid of what sound will come — and what comes is human language. The episode ends.

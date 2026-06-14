@@ -42,4 +42,10 @@ whether the god who made all else, designing a more perfect world, made man of h
 
 ## Notes on the passage
 
-Placeholder notes: to be filled with passage commentary.
+The Golden Age (lines 89–112 of Book I) is defined entirely by negation: no law was needed, no punishment, no fear; no swords, no walls, no ships; the earth gave grain without plowing, spring was eternal, rivers ran with milk and nectar. The paradisal abundance is inseparable from the absence of civilization — a paradox Ovid inherits from Hesiod, Lucretius, and Tibullus, but inflects with his own elegiac wit.
+
+The tone resembles Ovid's erotic poetry, where *otium* — leisure, freedom from obligation — is consistently the condition for happiness. The Golden Age is an elegist's paradise scaled to cosmic dimensions: no one must work, worry, or negotiate the complications of social existence. It is also, implicitly, a critique of the present: Roman law, military expansion, and commercial shipping are the Iron Age, and the Golden Age was better.
+
+The four-age scheme is inherited from Hesiod's *Works and Days*, but Ovid compresses and reshapes it. He drops Hesiod's fifth age, the Age of Heroes, perhaps because heroes do not fit neatly into a narrative of moral decline, or perhaps because the scheme works better as a symmetrical four. The Golden Age is given the most space; the Silver and Bronze Ages receive progressively less. Each diminishment in quality is accompanied by a diminishment in narrative attention, the form enacting the content.
+
+Note that the Golden Age precedes the creation of man as described in the preceding card — or rather, man belongs to all four ages simultaneously. The ages are moral epochs, not strict chronological sequence.
