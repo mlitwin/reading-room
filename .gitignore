@@ -24,3 +24,4 @@ app/*.cer
 app/*.certSigningRequest
 app/*.p12
 app/*.mobileprovision
+downloads/

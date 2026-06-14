@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T04:47:10.182Z",
+  "generated_at": "2026-06-14T05:54:59.900Z",
   "pieces": [
     {
       "slug": "ovid-metamorphoses",
@@ -20,69 +20,144 @@
         "html_path": "ovid-metamorphoses/index.html",
         "items": [
           {
-            "slug": "proem",
-            "title": "Invocation (Met I.1–4)",
-            "html_path": "ovid-metamorphoses/proem.html"
+            "slug": "book1-01",
+            "title": "Proem; The Chaos Before Creation",
+            "html_path": "ovid-metamorphoses/book1-01.html"
           },
           {
-            "slug": "python",
-            "title": "Book 1 card 07 (Met I.416–451)",
-            "html_path": "ovid-metamorphoses/python.html"
+            "slug": "book1-02",
+            "title": "The World Ordered; the Elements Set in Place",
+            "html_path": "ovid-metamorphoses/book1-02.html"
           },
           {
-            "slug": "book1-card-02",
-            "title": "Book 1 card 02 (Met I.5–88)",
-            "html_path": "ovid-metamorphoses/book1-card-02.html"
+            "slug": "book1-03",
+            "title": "Earth's Zones; The Creation of Man",
+            "html_path": "ovid-metamorphoses/book1-03.html"
           },
           {
-            "slug": "book1-card-03",
-            "title": "Giants (Met I.89–162)",
-            "html_path": "ovid-metamorphoses/book1-card-03.html"
+            "slug": "book1-04",
+            "title": "The Creation of Man; The Golden Age",
+            "html_path": "ovid-metamorphoses/book1-04.html"
           },
           {
-            "slug": "book1-card-04",
-            "title": "The deluge (Met I.163–252)",
-            "html_path": "ovid-metamorphoses/book1-card-04.html"
+            "slug": "book1-05",
+            "title": "The Silver and Bronze Ages",
+            "html_path": "ovid-metamorphoses/book1-05.html"
           },
           {
-            "slug": "book1-card-05",
-            "title": "Book 1 card 05 (Met I.253–347)",
-            "html_path": "ovid-metamorphoses/book1-card-05.html"
+            "slug": "book1-06",
+            "title": "The Iron Age; The Giants' War",
+            "html_path": "ovid-metamorphoses/book1-06.html"
           },
           {
-            "slug": "book1-card-06",
-            "title": "Book 1 card 06 (Met I.348–415)",
-            "html_path": "ovid-metamorphoses/book1-card-06.html"
+            "slug": "book1-07",
+            "title": "Lycaon's Crime; Jupiter Calls a Council",
+            "html_path": "ovid-metamorphoses/book1-07.html"
           },
           {
-            "slug": "book1-card-08",
-            "title": "Book 1 card 08 (Met I.452–524)",
-            "html_path": "ovid-metamorphoses/book1-card-08.html"
+            "slug": "book1-08",
+            "title": "Jupiter's Harangue; The Flood Decreed",
+            "html_path": "ovid-metamorphoses/book1-08.html"
           },
           {
-            "slug": "book1-card-09",
-            "title": "Book 1 card 09 (Met I.525–567)",
-            "html_path": "ovid-metamorphoses/book1-card-09.html"
+            "slug": "book1-09",
+            "title": "The Flood; Deucalion and Pyrrha Alone",
+            "html_path": "ovid-metamorphoses/book1-09.html"
           },
           {
-            "slug": "book1-card-10",
-            "title": "Book 1 card 10 (Met I.568–650)",
-            "html_path": "ovid-metamorphoses/book1-card-10.html"
+            "slug": "book1-10",
+            "title": "The Flood Rages",
+            "html_path": "ovid-metamorphoses/book1-10.html"
           },
           {
-            "slug": "book1-card-11",
-            "title": "Book 1 card 11 (Met I.651–712)",
-            "html_path": "ovid-metamorphoses/book1-card-11.html"
+            "slug": "book1-11",
+            "title": "The Flood Subsides",
+            "html_path": "ovid-metamorphoses/book1-11.html"
           },
           {
-            "slug": "book1-card-12",
-            "title": "Book 1 card 12 (Met I.713–746)",
-            "html_path": "ovid-metamorphoses/book1-card-12.html"
+            "slug": "book1-12",
+            "title": "The Survivors",
+            "html_path": "ovid-metamorphoses/book1-12.html"
           },
           {
-            "slug": "book1-card-13",
-            "title": "Book 1 card 13 (Met I.747–779)",
-            "html_path": "ovid-metamorphoses/book1-card-13.html"
+            "slug": "book1-13",
+            "title": "Triton Sounds the Retreat; Land Reappears",
+            "html_path": "ovid-metamorphoses/book1-13.html"
+          },
+          {
+            "slug": "book1-14",
+            "title": "The Oracle; The New Race",
+            "html_path": "ovid-metamorphoses/book1-14.html"
+          },
+          {
+            "slug": "book1-15",
+            "title": "Earth Teems with New Life",
+            "html_path": "ovid-metamorphoses/book1-15.html"
+          },
+          {
+            "slug": "book1-16",
+            "title": "Python; The Pythian Games",
+            "html_path": "ovid-metamorphoses/book1-16.html"
+          },
+          {
+            "slug": "book1-17",
+            "title": "Apollo and Daphne; Her Vow of Virginity",
+            "html_path": "ovid-metamorphoses/book1-17.html"
+          },
+          {
+            "slug": "book1-18",
+            "title": "Daphne Pursued",
+            "html_path": "ovid-metamorphoses/book1-18.html"
+          },
+          {
+            "slug": "book1-19",
+            "title": "Apollo's Appeal",
+            "html_path": "ovid-metamorphoses/book1-19.html"
+          },
+          {
+            "slug": "book1-20",
+            "title": "The Chase; Daphne's Prayer",
+            "html_path": "ovid-metamorphoses/book1-20.html"
+          },
+          {
+            "slug": "book1-21",
+            "title": "Daphne Transformed; Apollo's Lament",
+            "html_path": "ovid-metamorphoses/book1-21.html"
+          },
+          {
+            "slug": "book1-22",
+            "title": "Jupiter and Io",
+            "html_path": "ovid-metamorphoses/book1-22.html"
+          },
+          {
+            "slug": "book1-23",
+            "title": "Io Transformed; Juno's Jealousy",
+            "html_path": "ovid-metamorphoses/book1-23.html"
+          },
+          {
+            "slug": "book1-24",
+            "title": "Io Recognised by Her Father Inachus",
+            "html_path": "ovid-metamorphoses/book1-24.html"
+          },
+          {
+            "slug": "book1-25",
+            "title": "Mercury Sent to Free Io",
+            "html_path": "ovid-metamorphoses/book1-25.html"
+          },
+          {
+            "slug": "book1-26",
+            "title": "Mercury, Argus, and the Tale of Syrinx",
+            "html_path": "ovid-metamorphoses/book1-26.html"
+          },
+          {
+            "slug": "book1-27",
+            "title": "Argus Slain; Io Released",
+            "html_path": "ovid-metamorphoses/book1-27.html"
+          },
+          {
+            "slug": "book1-28",
+            "title": "Io Restored; Phaethon's Boast",
+            "html_path": "ovid-metamorphoses/book1-28.html"
           },
           {
             "slug": "notes",
