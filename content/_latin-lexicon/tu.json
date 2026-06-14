@@ -1,12 +1,24 @@
 {
+  "id": "tu_pron",
   "lemma": "tu",
   "pos": "pron",
   "head": "tu (2nd-person singular personal pronoun)",
-  "glosses": ["you (singular)"],
+  "glosses": [
+    "you (singular)"
+  ],
   "paradigm": {
     "type": "pron",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg", "pl"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
     "cells": {
       "nom.sg": "tu",
       "gen.sg": "tui",

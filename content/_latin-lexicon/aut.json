@@ -1,36 +1,10 @@
 {
+  "id": "aut_conj",
   "lemma": "aut",
-  "pos": "noun",
+  "pos": "conj",
+  "head": "aut",
   "glosses": [
-    "increase, enlargement",
-    "growth"
-  ],
-  "reviewed": false,
-  "head": "aut, -i, m.",
-  "paradigm": {
-    "type": "noun",
-    "rows": [
-      "nom",
-      "gen",
-      "dat",
-      "acc",
-      "abl"
-    ],
-    "cols": [
-      "sg",
-      "pl"
-    ],
-    "cells": {
-      "nom.sg": "autus",
-      "gen.sg": "auti",
-      "dat.sg": "auto",
-      "abl.sg": "auto",
-      "acc.sg": "autum",
-      "nom.pl": "auti",
-      "gen.pl": "autorum",
-      "dat.pl": "autis",
-      "abl.pl": "autis",
-      "acc.pl": "autos"
-    }
-  }
+    "or",
+    "either...or (aut...aut)"
+  ]
 }

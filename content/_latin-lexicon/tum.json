@@ -1,43 +1,11 @@
 {
+  "id": "tum_adv",
   "lemma": "tum",
-  "pos": "verb",
+  "pos": "adv",
+  "head": "tum / tunc",
   "glosses": [
-    "swell, become inflated",
-    "be puffed up",
-    "be bombastic",
-    "be swollen with conceit"
-  ],
-  "head": "tum, tumere, -i, -um",
-  "principal_parts": [
-    "tum",
-    "tumere",
-    "-i",
-    "-um"
-  ],
-  "paradigm": {
-    "type": "verb",
-    "rows": [
-      "1sg",
-      "2sg",
-      "3sg",
-      "1pl",
-      "2pl",
-      "3pl"
-    ],
-    "cols": [
-      "pres.ind.act",
-      "perf.ind.act",
-      "pres.imp.act"
-    ],
-    "cells": {
-      "1sg.pres.ind.act": "tumeo",
-      "2sg.pres.ind.act": "tumes",
-      "3sg.pres.ind.act": "tumet",
-      "1pl.pres.ind.act": "tumemus",
-      "2pl.pres.ind.act": "tumetis",
-      "3pl.pres.ind.act": "tument",
-      "2sg.pres.imp.act": "tume",
-      "2pl.pres.imp.act": "tumete"
-    }
-  }
+    "then, at that time",
+    "thereupon, next",
+    "cum...tum: both...and especially"
+  ]
 }

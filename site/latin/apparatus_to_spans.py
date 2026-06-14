@@ -7,19 +7,10 @@ from pathlib import Path
 import seed
 import trim_primary
 
-# When both lemmas appear as candidates for the same surface form, demote the
-# left-hand lemma (push it to the end of data-matches) so the right-hand one
-# becomes primary. Both are preserved so the reader can browse to either.
-LEMMA_PREFER = {
-    'edo':     'sum',      # est/erat/erit — copula, not "to eat"
-    'caelo':   'caelum',   # sky/heaven, not "to engrave"
-    'solo':    'solum',    # ground / "only", not "to soothe"
-    'medio':   'medius',   # the middle (adj), not "to halve"
-    'formo':   'forma',    # shape (noun), not "to shape"
-    'loco':    'locus',    # place (noun), not "to place"
-    'novo':    'novus',    # new (adj), not "to renew"
-    'diverto': 'diversus', # various/different (adj), not "to divert"
-}
+# LEMMA_PREFER is no longer needed: disambiguation is handled by the ID scheme.
+# Morpheus candidate lemmas that are surface-form stems get resolved to their
+# lexicon IDs by choose_candidate; the parse-code scoring picks the right one.
+LEMMA_PREFER = {}  # kept as empty dict so callers don't need to change
 
 
 def infer_pos_from_codes(codes, lexicon_pos, lemma):
@@ -42,54 +33,54 @@ def infer_pos_from_codes(codes, lexicon_pos, lemma):
     return lexicon_pos.get(lemma, 'unknown')
 
 
-def choose_candidate(candidates, lexicon_pos):
+def choose_candidate(candidates, lexicon_pos, stem_to_ids):
     """Score and order all candidates; return all (primary first) in data-matches.
 
-    All candidates that have a lexicon card are preserved in the output so the
-    reader UI can browse to any of them. LEMMA_PREFER demotes (not removes) the
-    lower-confidence reading so the better one becomes primary.
+    Morpheus outputs surface-form lemma strings; `stem_to_ids` maps each stem
+    to the one or more lexicon IDs that share it.  When a stem maps to multiple
+    IDs (e.g. both a verb and a noun), parse-code scoring selects the best one.
+    All candidates with a lexicon entry are preserved so the UI can browse them.
     """
     if not candidates:
         return {'matches': 'unknown:unk', 'pos': 'unknown'}
 
-    # Apply alias; deduplicate after aliasing. If the same lemma appears twice
-    # (different parse sets), keep the codes that best match the card's POS.
-    by_lemma = {}
+    # Resolve each Morpheus lemma string to its lexicon ID.
+    by_id: dict[str, list[str]] = {}
     for c in candidates:
-        lemma = seed.LEMMA_ALIAS.get(c['lemma'], c['lemma'])
+        surface = seed.LEMMA_ALIAS.get(c['lemma'], c['lemma'])
         codes = c.get('codes', [])
-        if lemma not in by_lemma:
-            by_lemma[lemma] = codes
+        ids_for_stem = stem_to_ids.get(surface, [])
+        if len(ids_for_stem) == 1:
+            entry_id = ids_for_stem[0]
+        elif len(ids_for_stem) > 1:
+            # Pick ID whose POS best matches the parse codes.
+            entry_id = max(
+                ids_for_stem,
+                key=lambda eid: sum(trim_primary.code_pos_score(code, lexicon_pos.get(eid, ''))
+                                    for code in codes),
+            )
         else:
-            pos = lexicon_pos.get(lemma)
-            if pos:
-                prev_score = max((trim_primary.code_pos_score(x, pos) for x in by_lemma[lemma]), default=0)
-                new_score = max((trim_primary.code_pos_score(x, pos) for x in codes), default=0)
-                if new_score > prev_score:
-                    by_lemma[lemma] = codes
-    resolved = [{'lemma': l, 'codes': c} for l, c in by_lemma.items()]
+            continue  # no lexicon entry for this surface lemma
 
-    # Keep only candidates that have a lexicon card (build.js validates these).
-    resolved = [c for c in resolved if lexicon_pos.get(c['lemma'])]
+        if entry_id not in by_id:
+            by_id[entry_id] = codes
+        else:
+            pos = lexicon_pos.get(entry_id, '')
+            if pos and codes:
+                prev = max((trim_primary.code_pos_score(x, pos) for x in by_id[entry_id]), default=0)
+                new  = max((trim_primary.code_pos_score(x, pos) for x in codes), default=0)
+                if new > prev:
+                    by_id[entry_id] = codes
+
+    resolved = [{'lemma': eid, 'codes': c} for eid, c in by_id.items()]
     if not resolved:
         return {'matches': 'unknown:unk', 'pos': 'unknown'}
 
-    # Mark demoted lemmas (LEMMA_PREFER) without removing them.
-    lemma_set = {c['lemma'] for c in resolved}
-    demoted = set()
-    for bad, good in LEMMA_PREFER.items():
-        if bad in lemma_set and good in lemma_set:
-            demoted.add(bad)
+    resolved.sort(
+        key=lambda c: trim_primary.candidate_score(c['lemma'], c['codes'], lexicon_pos),
+        reverse=True,
+    )
 
-    def score_of(c):
-        s = trim_primary.candidate_score(c['lemma'], c['codes'], lexicon_pos)
-        if c['lemma'] in demoted:
-            s -= 1000  # push to end, still present for browsing
-        return s
-
-    resolved.sort(key=score_of, reverse=True)
-
-    # Emit all candidates; primary (index 0) is first in data-matches.
     parts = []
     for c in resolved:
         codes_str = ','.join(c['codes'])
@@ -109,6 +100,7 @@ def main():
 
     data = json.loads(Path(args.apparatus_json).read_text(encoding='utf-8'))
     lexicon_pos = trim_primary.load_lexicon_pos()
+    stem_to_ids = trim_primary.load_stem_to_ids()
 
     out_lines = []
     for line in data.get('lines', []):
@@ -116,7 +108,7 @@ def main():
         for token in line.get('tokens', []):
             surface = token['surface']
             trail = token.get('trail', '')
-            chosen = choose_candidate(token.get('candidates', []), lexicon_pos)
+            chosen = choose_candidate(token.get('candidates', []), lexicon_pos, stem_to_ids)
             parts.append(f'<span data-matches="{chosen["matches"]}" data-pos="{chosen["pos"]}">{surface}</span>{trail}')
         out_lines.append(' '.join(parts))
 

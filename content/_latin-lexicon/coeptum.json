@@ -1,19 +1,39 @@
 {
+  "id": "coeptum_n",
   "lemma": "coeptum",
   "pos": "noun",
   "head": "coeptum, -i, n. (from coepi, 'I have begun')",
-  "glosses": ["undertaking", "beginning", "enterprise", "thing begun"],
+  "glosses": [
+    "undertaking",
+    "beginning",
+    "enterprise",
+    "thing begun"
+  ],
   "notes": "Substantive use of the perfect passive participle of coepi (defective verb, 'I have begun'); 'thing(s) begun'.",
   "paradigm": {
     "type": "noun",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg", "pl"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
     "cells": {
-      "nom.sg": "coeptum", "nom.pl": "coepta",
-      "gen.sg": "coepti", "gen.pl": "coeptorum",
-      "dat.sg": "coepto", "dat.pl": "coeptis",
-      "acc.sg": "coeptum", "acc.pl": "coepta",
-      "abl.sg": "coepto", "abl.pl": "coeptis"
+      "nom.sg": "coeptum",
+      "nom.pl": "coepta",
+      "gen.sg": "coepti",
+      "gen.pl": "coeptorum",
+      "dat.sg": "coepto",
+      "dat.pl": "coeptis",
+      "acc.sg": "coeptum",
+      "acc.pl": "coepta",
+      "abl.sg": "coepto",
+      "abl.pl": "coeptis"
     }
   }
 }

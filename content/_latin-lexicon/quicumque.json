@@ -1,7 +1,13 @@
 {
+  "id": "quicumque_pron",
   "lemma": "quicumque",
   "pos": "pron",
   "head": "quicumque, quaecumque, quodcumque",
-  "glosses": ["whoever", "whatever", "anyone who", "all that"],
+  "glosses": [
+    "whoever",
+    "whatever",
+    "anyone who",
+    "all that"
+  ],
   "notes": "Indefinite relative pronoun — declines as `qui` + indeclinable `-cumque`."
 }

@@ -1,35 +1,11 @@
 {
+  "id": "dum_conj",
   "lemma": "dum",
-  "pos": "noun",
+  "pos": "conj",
+  "head": "dum",
   "glosses": [
-    "thorn or briar bush"
-  ],
-  "reviewed": false,
-  "head": "dum, -i, m.",
-  "paradigm": {
-    "type": "noun",
-    "rows": [
-      "nom",
-      "gen",
-      "dat",
-      "acc",
-      "abl"
-    ],
-    "cols": [
-      "sg",
-      "pl"
-    ],
-    "cells": {
-      "nom.sg": "dumus",
-      "gen.sg": "dumi",
-      "dat.sg": "dumo",
-      "abl.sg": "dumo",
-      "acc.sg": "dumum",
-      "nom.pl": "dumi",
-      "gen.pl": "dumorum",
-      "dat.pl": "dumis",
-      "abl.pl": "dumis",
-      "acc.pl": "dumos"
-    }
-  }
+    "while, as long as (+ indic.)",
+    "until (+ subj.)",
+    "provided that, if only (+ subj.)"
+  ]
 }

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Audit Latin spans and lexicon cards for phase-scaling quality gates."""
+import argparse
 import json
 import re
 import sys
@@ -18,8 +19,10 @@ SPARSE_THRESHOLDS = {
 }
 CODE_LITERAL_TO_POS = {
     'prep': {'prep'},
-    'conj': {'conj'},
-    'adv': {'adv'},
+    # Latin conjunctions and adverbs share a fuzzy boundary; many words
+    # (ut, ubi, quam, cum, ...) are classified as both by different analyses.
+    'conj': {'conj', 'adv'},
+    'adv':  {'adv', 'conj'},
     'interj': {'interj'},
     'num': {'num', 'adj'},
     'enclit': {'conj', 'adv', 'enclitic'},
@@ -46,6 +49,8 @@ def lexicon_paths():
 
 
 def load_lexicon():
+    """Return {id → card} keyed by the entry's `id` field (stem fallback for
+    pre-migration entries), plus any load errors."""
     by_lemma = {}
     errors = []
     for path in lexicon_paths():
@@ -54,11 +59,11 @@ def load_lexicon():
         except ValueError as exc:
             errors.append(str(exc))
             continue
-        lemma = data.get('lemma')
-        if not lemma:
-            errors.append(f'{path}: missing lemma')
+        key = data.get('id') or data.get('lemma')
+        if not key:
+            errors.append(f'{path}: missing both id and lemma')
             continue
-        by_lemma[lemma] = data
+        by_lemma[key] = data
     return by_lemma, errors
 
 
@@ -141,7 +146,79 @@ def audit_spans(by_lemma):
     return errors
 
 
+# Codes that are POS labels, not paradigm cell keys.
+_NON_CELL_CODES = frozenset({
+    'adv', 'prep', 'conj', 'enclit', 'unk', 'num',
+    'inf', 'interj', 'gerund', 'gerundive', 'supine',
+})
+# Participial prefixes — forms often absent from the basic paradigm table.
+_PARTICIPLE_PREFIX = ('ppp.', 'pap.', 'fap.', 'fpp.')
+
+
+def _gender_strip(code):
+    """Strip a trailing .masc/.fem/.neut gender component, returning the
+    stripped code or None if no such suffix exists."""
+    stripped = re.sub(r'\.(masc|fem|neut)$', '', code)
+    return stripped if stripped != code else None
+
+
+def audit_cell_matches(by_lemma):
+    """Return (genuine_misses, resolved_misses) where each is a sorted list of
+    (lemma, code, count) triples.
+
+    genuine_misses: parse codes with no matching cell even after the runtime
+        gender-strip fallback — these mean the active-form highlight truly
+        cannot fire and likely indicate a sparse/incomplete paradigm.
+
+    resolved_misses: codes that miss the exact cell key but would be handled
+        by the runtime gender-strip fallback in cards.js (e.g. nom.sg.fem →
+        nom.sg).  Informational only; highlighting works at runtime.
+
+    Pure-POS codes (adv, prep, conj, …) and participial codes are excluded.
+    """
+    from collections import Counter
+    genuine: Counter = Counter()
+    resolved: Counter = Counter()
+
+    for md in markdown_paths():
+        text = md.read_text(encoding='utf-8')
+        for m in LATIN_SPAN_RE.finditer(text):
+            for lemma, codes in parse_groups(m.group(1)):
+                card = by_lemma.get(lemma)
+                if not card:
+                    continue
+                cells = (card.get('paradigm') or {}).get('cells', {})
+                if not cells:
+                    continue
+                for code in codes:
+                    if code in _NON_CELL_CODES:
+                        continue
+                    if code.startswith(_PARTICIPLE_PREFIX):
+                        continue
+                    if '.' not in code:
+                        continue
+                    if code in cells:
+                        continue
+                    stripped = _gender_strip(code)
+                    if stripped and stripped in cells:
+                        resolved[(lemma, code)] += 1
+                    else:
+                        genuine[(lemma, code)] += 1
+
+    def sort_key(t): return (-t[2], t[0], t[1])
+    return (
+        sorted(((l, c, n) for (l, c), n in genuine.items()), key=sort_key),
+        sorted(((l, c, n) for (l, c), n in resolved.items()), key=sort_key),
+    )
+
+
 def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--cell-check', action='store_true',
+                    help='Also report parse codes with no matching paradigm cell '
+                         '(active-form highlight misses)')
+    args = ap.parse_args()
+
     by_lemma, load_errors = load_lexicon()
     errors = []
     errors.extend(load_errors)
@@ -153,9 +230,33 @@ def main():
         for e in errors:
             print(f'  - {e}', file=sys.stderr)
         print(f'\n{len(errors)} error(s)', file=sys.stderr)
+
+    if args.cell_check:
+        genuine, resolved = audit_cell_matches(by_lemma)
+        if genuine:
+            print(f'\ncell-check GENUINE misses — highlight cannot fire ({len(genuine)} unique pairs):')
+            for lemma, code, n in genuine:
+                card = by_lemma[lemma]
+                cell_keys = set((card.get('paradigm') or {}).get('cells', {}).keys())
+                prefix = code.split('.')[0]
+                nearby = sorted(k for k in cell_keys if k.startswith(prefix + '.'))[:3]
+                hint = f'nearest: {nearby}' if nearby else '(no cells with this row)'
+                print(f'  {lemma}  {code}  ×{n}  {hint}')
+        else:
+            print('cell-check: OK — all annotated codes resolve to a paradigm cell')
+        if resolved:
+            print(f'\ncell-check RESOLVED misses — runtime gender-strip handles these ({len(resolved)} unique pairs):')
+            for lemma, code, n in resolved[:10]:
+                stripped = _gender_strip(code)
+                print(f'  {lemma}  {code} → {stripped}  ×{n}')
+            if len(resolved) > 10:
+                print(f'  … and {len(resolved) - 10} more')
+
+    if errors:
         raise SystemExit(1)
 
-    print('latin-audit: OK')
+    if not args.cell_check:
+        print('latin-audit: OK')
 
 
 if __name__ == '__main__':

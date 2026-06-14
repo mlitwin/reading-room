@@ -1,18 +1,38 @@
 {
+  "id": "carmen_n",
   "lemma": "carmen",
   "pos": "noun",
   "head": "carmen, carminis, n.",
-  "glosses": ["song", "poem", "verse", "incantation"],
+  "glosses": [
+    "song",
+    "poem",
+    "verse",
+    "incantation"
+  ],
   "paradigm": {
     "type": "noun",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg", "pl"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
     "cells": {
-      "nom.sg": "carmen", "nom.pl": "carmina",
-      "gen.sg": "carminis", "gen.pl": "carminum",
-      "dat.sg": "carmini", "dat.pl": "carminibus",
-      "acc.sg": "carmen", "acc.pl": "carmina",
-      "abl.sg": "carmine", "abl.pl": "carminibus"
+      "nom.sg": "carmen",
+      "nom.pl": "carmina",
+      "gen.sg": "carminis",
+      "gen.pl": "carminum",
+      "dat.sg": "carmini",
+      "dat.pl": "carminibus",
+      "acc.sg": "carmen",
+      "acc.pl": "carmina",
+      "abl.sg": "carmine",
+      "abl.pl": "carminibus"
     }
   }
 }

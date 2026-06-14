@@ -1,18 +1,39 @@
 {
+  "id": "animus_n",
   "lemma": "animus",
   "pos": "noun",
   "head": "animus, -i, m.",
-  "glosses": ["mind", "spirit", "soul", "intention", "courage"],
+  "glosses": [
+    "mind",
+    "spirit",
+    "soul",
+    "intention",
+    "courage"
+  ],
   "paradigm": {
     "type": "noun",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg", "pl"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
     "cells": {
-      "nom.sg": "animus", "nom.pl": "animi",
-      "gen.sg": "animi", "gen.pl": "animorum",
-      "dat.sg": "animo", "dat.pl": "animis",
-      "acc.sg": "animum", "acc.pl": "animos",
-      "abl.sg": "animo", "abl.pl": "animis"
+      "nom.sg": "animus",
+      "nom.pl": "animi",
+      "gen.sg": "animi",
+      "gen.pl": "animorum",
+      "dat.sg": "animo",
+      "dat.pl": "animis",
+      "acc.sg": "animum",
+      "acc.pl": "animos",
+      "abl.sg": "animo",
+      "abl.pl": "animis"
     }
   }
 }

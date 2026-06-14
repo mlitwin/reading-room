@@ -1,6 +1,11 @@
 {
+  "id": "et_conj",
   "lemma": "et",
   "pos": "conj",
   "head": "et (coordinating conjunction)",
-  "glosses": ["and", "also", "even"]
+  "glosses": [
+    "and",
+    "also",
+    "even"
+  ]
 }

@@ -1,7 +1,13 @@
 {
+  "id": "quidam_pron",
   "lemma": "quidam",
   "pos": "pron",
   "head": "quidam, quaedam, quoddam",
-  "glosses": ["a certain (one)", "someone", "something", "a particular"],
+  "glosses": [
+    "a certain (one)",
+    "someone",
+    "something",
+    "a particular"
+  ],
   "notes": "Indefinite pronoun — declines as `qui` + indeclinable `-dam`."
 }

@@ -1,12 +1,28 @@
 {
+  "id": "genus_n",
   "lemma": "genus",
   "pos": "noun",
   "head": "genus, generis, n.",
-  "glosses": ["kind", "race", "origin", "family", "class"],
+  "glosses": [
+    "kind",
+    "race",
+    "origin",
+    "family",
+    "class"
+  ],
   "paradigm": {
     "type": "noun",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg", "pl"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
     "cells": {
       "nom.sg": "genus",
       "gen.sg": "generis",

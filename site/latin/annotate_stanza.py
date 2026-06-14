@@ -19,6 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import stanza_editorial
+import trim_primary
 
 # Matches the opening tag of a latin-passage span (no closing tag needed).
 SPAN_OPEN_RE = re.compile(
@@ -53,6 +54,19 @@ def annotate(piece_path, card_no, nlp):
     stanza_words = stanza_editorial.stanza_tokens(nlp, source_text)
     stanza_map = build_stanza_map(current_tokens, stanza_words)
 
+    # Resolve Stanza surface lemmas to lexicon IDs.
+    stem_to_ids = trim_primary.load_stem_to_ids()
+
+    def stanza_lemma_to_id(lemma: str) -> str:
+        ids = stem_to_ids.get(lemma, [])
+        if len(ids) == 1:
+            return ids[0]
+        if ids:
+            # Multiple IDs for this stem — prefer verb (Stanza leans verbal).
+            verb = next((i for i in ids if i.endswith('_v')), None)
+            return verb or ids[0]
+        return lemma  # no lexicon entry; keep raw lemma as fallback
+
     token_idx = [0]
 
     def replace(m):
@@ -61,7 +75,7 @@ def annotate(piece_path, card_no, nlp):
         token_idx[0] += 1
         lemma = stanza_map.get(idx)
         if lemma:
-            return insert_stanza_attr(tag, lemma)
+            return insert_stanza_attr(tag, stanza_lemma_to_id(lemma))
         return DATA_STANZA_RE.sub('', tag)  # remove stale annotation if any
 
     new_text = SPAN_OPEN_RE.sub(replace, text)

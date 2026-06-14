@@ -1,18 +1,38 @@
 {
+  "id": "corpus_n",
   "lemma": "corpus",
   "pos": "noun",
   "head": "corpus, corporis, n.",
-  "glosses": ["body", "substance", "material thing", "corpse"],
+  "glosses": [
+    "body",
+    "substance",
+    "material thing",
+    "corpse"
+  ],
   "paradigm": {
     "type": "noun",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg", "pl"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
     "cells": {
-      "nom.sg": "corpus", "nom.pl": "corpora",
-      "gen.sg": "corporis", "gen.pl": "corporum",
-      "dat.sg": "corpori", "dat.pl": "corporibus",
-      "acc.sg": "corpus", "acc.pl": "corpora",
-      "abl.sg": "corpore", "abl.pl": "corporibus"
+      "nom.sg": "corpus",
+      "nom.pl": "corpora",
+      "gen.sg": "corporis",
+      "gen.pl": "corporum",
+      "dat.sg": "corpori",
+      "dat.pl": "corporibus",
+      "acc.sg": "corpus",
+      "acc.pl": "corpora",
+      "abl.sg": "corpore",
+      "abl.pl": "corporibus"
     }
   }
 }

@@ -26,13 +26,11 @@ SHARED_LEXICON = REPO_ROOT / 'content' / '_latin-lexicon'
 
 
 def load_lexicon_pos():
-    """Return {lemma → pos} keyed by filename stem (matching build.js convention).
+    """Return {id → pos} keyed by the entry's `id` field (falling back to
+    the filename stem for entries that predate the ID migration).
 
-    build.js uses the filename stem as the lookup key for data-matches lemmas.
-    Keying by stem (rather than the card's `lemma` field) ensures that cards
-    with capitalised lemma fields (e.g. phoebus.json with lemma "Phoebus") are
-    found correctly.  The lemma field may differ in case from the stem; the
-    stem is authoritative for pipeline lookups.
+    build.js now keys vocabDict by card.id, so data-matches lemma values are
+    IDs.  The stem fallback ensures old un-migrated entries still work.
     """
     out = {}
     if not SHARED_LEXICON.exists():
@@ -44,8 +42,30 @@ def load_lexicon_pos():
             continue
         pos = data.get('pos')
         if pos:
-            out[path.stem] = pos
+            key = data.get('id') or path.stem
+            out[key] = pos
     return out
+
+
+def load_stem_to_ids():
+    """Return {filename_stem → [id, ...]} for resolving Morpheus surface lemmas.
+
+    Morpheus outputs surface-form lemma strings (e.g. "sum", "non"); this map
+    converts them to the stable IDs used in data-matches.  Most stems map to
+    exactly one ID; a stem with multiple POS entries maps to several.
+    """
+    from collections import defaultdict
+    out = defaultdict(list)
+    if not SHARED_LEXICON.exists():
+        return dict(out)
+    for path in SHARED_LEXICON.glob('*.json'):
+        try:
+            data = json.loads(path.read_text(encoding='utf-8'))
+        except json.JSONDecodeError:
+            continue
+        entry_id = data.get('id') or path.stem
+        out[path.stem].append(entry_id)
+    return dict(out)
 
 
 def parse_groups(matches_str):

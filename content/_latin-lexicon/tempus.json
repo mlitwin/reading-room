@@ -1,18 +1,38 @@
 {
+  "id": "tempus_n",
   "lemma": "tempus",
   "pos": "noun",
   "head": "tempus, temporis, n.",
-  "glosses": ["time", "season", "occasion", "circumstances"],
+  "glosses": [
+    "time",
+    "season",
+    "occasion",
+    "circumstances"
+  ],
   "paradigm": {
     "type": "noun",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg", "pl"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
     "cells": {
-      "nom.sg": "tempus", "nom.pl": "tempora",
-      "gen.sg": "temporis", "gen.pl": "temporum",
-      "dat.sg": "tempori", "dat.pl": "temporibus",
-      "acc.sg": "tempus", "acc.pl": "tempora",
-      "abl.sg": "tempore", "abl.pl": "temporibus"
+      "nom.sg": "tempus",
+      "nom.pl": "tempora",
+      "gen.sg": "temporis",
+      "gen.pl": "temporum",
+      "dat.sg": "tempori",
+      "dat.pl": "temporibus",
+      "acc.sg": "tempus",
+      "acc.pl": "tempora",
+      "abl.sg": "tempore",
+      "abl.pl": "temporibus"
     }
   }
 }

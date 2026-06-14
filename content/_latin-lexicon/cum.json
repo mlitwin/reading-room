@@ -1,37 +1,12 @@
 {
+  "id": "cum_prep",
   "lemma": "cum",
-  "pos": "noun",
+  "pos": "prep",
+  "head": "cum (+ abl.)",
   "glosses": [
-    "spring shoots of cabbage/similar",
-    "hollow sphere (L+S)",
-    "spherical layer, stratum"
-  ],
-  "reviewed": false,
-  "head": "cum, -ae, f.",
-  "paradigm": {
-    "type": "noun",
-    "rows": [
-      "nom",
-      "gen",
-      "dat",
-      "acc",
-      "abl"
-    ],
-    "cols": [
-      "sg",
-      "pl"
-    ],
-    "cells": {
-      "nom.sg": "cuma",
-      "gen.sg": "cumae",
-      "abl.sg": "cuma",
-      "acc.sg": "cumam",
-      "dat.sg": "cumae",
-      "nom.pl": "cumae",
-      "gen.pl": "cumarum",
-      "dat.pl": "cumis",
-      "abl.pl": "cumis",
-      "acc.pl": "cumas"
-    }
-  }
+    "with, together with (prep. + abl.)",
+    "when, after (temporal conj. + subj.)",
+    "since, because (causal conj. + subj.)",
+    "although (concessive conj. + subj.)"
+  ]
 }

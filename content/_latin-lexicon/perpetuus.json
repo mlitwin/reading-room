@@ -1,23 +1,62 @@
 {
+  "id": "perpetuus_adj",
   "lemma": "perpetuus",
   "pos": "adj",
   "head": "perpetuus, -a, -um",
-  "glosses": ["continuous", "unbroken", "perpetual", "lasting"],
+  "glosses": [
+    "continuous",
+    "unbroken",
+    "perpetual",
+    "lasting"
+  ],
   "paradigm": {
     "type": "adj",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg.masc", "sg.fem", "sg.neut", "pl.masc", "pl.fem", "pl.neut"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
     "cells": {
-      "nom.sg.masc": "perpetuus", "nom.sg.fem": "perpetua", "nom.sg.neut": "perpetuum",
-      "nom.pl.masc": "perpetui", "nom.pl.fem": "perpetuae", "nom.pl.neut": "perpetua",
-      "gen.sg.masc": "perpetui", "gen.sg.fem": "perpetuae", "gen.sg.neut": "perpetui",
-      "gen.pl.masc": "perpetuorum", "gen.pl.fem": "perpetuarum", "gen.pl.neut": "perpetuorum",
-      "dat.sg.masc": "perpetuo", "dat.sg.fem": "perpetuae", "dat.sg.neut": "perpetuo",
-      "dat.pl.masc": "perpetuis", "dat.pl.fem": "perpetuis", "dat.pl.neut": "perpetuis",
-      "acc.sg.masc": "perpetuum", "acc.sg.fem": "perpetuam", "acc.sg.neut": "perpetuum",
-      "acc.pl.masc": "perpetuos", "acc.pl.fem": "perpetuas", "acc.pl.neut": "perpetua",
-      "abl.sg.masc": "perpetuo", "abl.sg.fem": "perpetua", "abl.sg.neut": "perpetuo",
-      "abl.pl.masc": "perpetuis", "abl.pl.fem": "perpetuis", "abl.pl.neut": "perpetuis"
+      "nom.sg.masc": "perpetuus",
+      "nom.sg.fem": "perpetua",
+      "nom.sg.neut": "perpetuum",
+      "nom.pl.masc": "perpetui",
+      "nom.pl.fem": "perpetuae",
+      "nom.pl.neut": "perpetua",
+      "gen.sg.masc": "perpetui",
+      "gen.sg.fem": "perpetuae",
+      "gen.sg.neut": "perpetui",
+      "gen.pl.masc": "perpetuorum",
+      "gen.pl.fem": "perpetuarum",
+      "gen.pl.neut": "perpetuorum",
+      "dat.sg.masc": "perpetuo",
+      "dat.sg.fem": "perpetuae",
+      "dat.sg.neut": "perpetuo",
+      "dat.pl.masc": "perpetuis",
+      "dat.pl.fem": "perpetuis",
+      "dat.pl.neut": "perpetuis",
+      "acc.sg.masc": "perpetuum",
+      "acc.sg.fem": "perpetuam",
+      "acc.sg.neut": "perpetuum",
+      "acc.pl.masc": "perpetuos",
+      "acc.pl.fem": "perpetuas",
+      "acc.pl.neut": "perpetua",
+      "abl.sg.masc": "perpetuo",
+      "abl.sg.fem": "perpetua",
+      "abl.sg.neut": "perpetuo",
+      "abl.pl.masc": "perpetuis",
+      "abl.pl.fem": "perpetuis",
+      "abl.pl.neut": "perpetuis"
     }
   }
 }

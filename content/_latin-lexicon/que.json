@@ -1,7 +1,10 @@
 {
+  "id": "que_enclit",
   "lemma": "que",
   "pos": "enclitic",
   "head": "-que (enclitic conjunction)",
-  "glosses": ["and"],
+  "glosses": [
+    "and"
+  ],
   "notes": "Attached to the end of the second of the two items being joined. Joins more tightly than et; common in fixed pairs (e.g. senatus populusque)."
 }

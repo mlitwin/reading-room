@@ -130,7 +130,7 @@
       var cells = sectionGroup.subCols.map(function (sc) {
         var form = p.cells[r + '.' + sc.orig];
         if (form == null) return '<td></td>';
-        return '<td data-parse="' + escAttr(sc.orig) + '">' + escHtml(form) + '</td>';
+        return '<td data-parse="' + escAttr(r + '.' + sc.orig) + '">' + escHtml(form) + '</td>';
       }).join('');
       return '<tr><th class="row-head">' + renderCompactRowHeader(r) + '</th>' + cells + '</tr>';
     }).join('');
@@ -259,6 +259,23 @@
     });
     thisParses.forEach(function (p) {
       var cell = scope.querySelector('td[data-parse="' + cssEscape(p) + '"]');
+      // Morpheus appends a gender suffix to noun codes (e.g. nom.sg.fem) but
+      // noun paradigms store cells without gender (nom.sg). Fall back by
+      // stripping the trailing .masc/.fem/.neut component if no exact match.
+      if (!cell) {
+        var stripped = p.replace(/\.(masc|fem|neut)$/, '');
+        if (stripped !== p) cell = scope.querySelector('td[data-parse="' + cssEscape(stripped) + '"]');
+      }
+      // Latin vocative = nominative in most declensions; if voc.* has no cell,
+      // fall back to the corresponding nom.* cell.
+      if (!cell && p.indexOf('voc.') === 0) {
+        var nomFallback = 'nom.' + p.slice(4);
+        cell = scope.querySelector('td[data-parse="' + cssEscape(nomFallback) + '"]');
+        if (!cell) {
+          var nomStripped = nomFallback.replace(/\.(masc|fem|neut)$/, '');
+          if (nomStripped !== nomFallback) cell = scope.querySelector('td[data-parse="' + cssEscape(nomStripped) + '"]');
+        }
+      }
       if (cell) cell.classList.add('active-form');
     });
     var slot = scope.querySelector('.card-parse');

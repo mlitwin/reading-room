@@ -1,7 +1,12 @@
 {
+  "id": "nam_conj",
   "lemma": "nam",
   "pos": "conj",
   "head": "nam (causal conjunction)",
-  "glosses": ["for", "indeed", "in fact"],
+  "glosses": [
+    "for",
+    "indeed",
+    "in fact"
+  ],
   "notes": "Postpositive in classical prose; in poetry placed freely."
 }

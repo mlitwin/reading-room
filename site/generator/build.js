@@ -280,13 +280,15 @@ async function loadSharedLexicon() {
   }
   for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
     if (!entry.isFile() || !entry.name.endsWith('.json')) continue;
-    const lemma = entry.name.replace(/\.json$/, '');
     const raw = await fs.readFile(path.join(dir, entry.name), 'utf8');
+    let card;
     try {
-      out[lemma] = JSON.parse(raw);
+      card = JSON.parse(raw);
     } catch (err) {
       throw new Error(`_latin-lexicon/${entry.name}: invalid JSON — ${err.message}`);
     }
+    const key = card.id || entry.name.replace(/\.json$/, '');
+    out[key] = card;
   }
   _sharedLexicon = out;
   return out;
@@ -303,13 +305,15 @@ async function loadVocabulary(pieceAbsDir) {
   const out = { ...shared };
   for (const entry of await fs.readdir(vocabDir, { withFileTypes: true })) {
     if (!entry.isFile() || !entry.name.endsWith('.json')) continue;
-    const lemma = entry.name.replace(/\.json$/, '');
     const raw = await fs.readFile(path.join(vocabDir, entry.name), 'utf8');
+    let card;
     try {
-      out[lemma] = JSON.parse(raw);
+      card = JSON.parse(raw);
     } catch (err) {
       throw new Error(`vocabulary/${entry.name}: invalid JSON — ${err.message}`);
     }
+    const key = card.id || entry.name.replace(/\.json$/, '');
+    out[key] = card;
   }
   return out;
 }
@@ -346,7 +350,7 @@ function renderLatinSpans(html, vocabDict, referenced, filePath) {
     if (matches.length === 0) return full;
     for (const m of matches) {
       if (!vocabDict[m.lemma]) {
-        throw new Error(`${filePath}: undefined lemma "${m.lemma}". Add content/_latin-lexicon/${m.lemma}.json (shared) or content/<book>/vocabulary/${m.lemma}.json (override).`);
+        throw new Error(`${filePath}: undefined id "${m.lemma}". Add an entry with id="${m.lemma}" to content/_latin-lexicon/ (shared) or content/<book>/vocabulary/ (override).`);
       }
       referenced.add(m.lemma);
     }

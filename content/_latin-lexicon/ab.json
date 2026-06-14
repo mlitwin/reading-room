@@ -1,7 +1,13 @@
 {
+  "id": "ab_prep",
   "lemma": "ab",
   "pos": "prep",
   "head": "ab (a, abs) (+ abl.)",
-  "glosses": ["from", "away from", "by (agent)", "since"],
+  "glosses": [
+    "from",
+    "away from",
+    "by (agent)",
+    "since"
+  ],
   "notes": "Form depends on the following sound: a before consonants, ab before vowels and h, abs (rare) before c, q, t."
 }

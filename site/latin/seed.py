@@ -42,11 +42,13 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 WRAPPER   = REPO_ROOT / 'site' / 'latin' / 'morpheus.sh'
 CACHE_PATH = Path(__file__).resolve().parent / 'sources' / 'morpheus-cache.json'
 
-# Morpheus's canonical lemma → the card filename we want to point at. When
-# Morpheus canonical lemma → the card filename we want to point at.
+# Morpheus surface lemma → lexicon filename stem to use instead.
+# apparatus_to_spans.py resolves stems to IDs via stem_to_ids; this alias
+# redirects before that resolution so Morpheus's non-standard spellings
+# point at the correct stem.
 LEMMA_ALIAS = {
-    'coepio':   'coeptum',  # the proem files coepio's PPP under the noun
-    'ad-spiro': 'aspiro',   # Morpheus splits the preverb; existing card is aspiro
+    'coepio':   'coeptum',  # Morpheus uses coepio; card is filed under coeptum
+    'ad-spiro': 'aspiro',   # Morpheus splits the preverb; card is aspiro
 }
 
 # Morpheus morphology vocabulary → our compact dotted parse codes.

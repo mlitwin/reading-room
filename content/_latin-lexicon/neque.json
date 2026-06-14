@@ -1,41 +1,11 @@
 {
+  "id": "neque_conj",
   "lemma": "neque",
-  "pos": "verb",
+  "pos": "conj",
+  "head": "neque / nec",
   "glosses": [
-    "be unable, cannot"
-  ],
-  "reviewed": false,
-  "head": "neque, nequire, nequivi, nequitum",
-  "principal_parts": [
-    "neque",
-    "nequire",
-    "nequivi",
-    "nequitum"
-  ],
-  "paradigm": {
-    "type": "verb",
-    "rows": [
-      "1sg",
-      "2sg",
-      "3sg",
-      "1pl",
-      "2pl",
-      "3pl"
-    ],
-    "cols": [
-      "pres.ind.act",
-      "perf.ind.act",
-      "pres.imp.act"
-    ],
-    "cells": {
-      "1sg.pres.ind.act": "nequeo",
-      "2sg.pres.ind.act": "nequis",
-      "3sg.pres.ind.act": "nequit",
-      "1pl.pres.ind.act": "nequimus",
-      "2pl.pres.ind.act": "nequitis",
-      "3pl.pres.ind.act": "nequeunt",
-      "2sg.pres.imp.act": "nequi",
-      "2pl.pres.imp.act": "nequite"
-    }
-  }
+    "and not",
+    "nor",
+    "neither...nor (neque...neque)"
+  ]
 }

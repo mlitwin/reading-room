@@ -1,23 +1,62 @@
 {
+  "id": "novus_adj",
   "lemma": "novus",
   "pos": "adj",
   "head": "novus, -a, -um",
-  "glosses": ["new", "fresh", "young", "novel"],
+  "glosses": [
+    "new",
+    "fresh",
+    "young",
+    "novel"
+  ],
   "paradigm": {
     "type": "adj",
-    "rows": ["nom", "gen", "dat", "acc", "abl"],
-    "cols": ["sg.masc", "sg.fem", "sg.neut", "pl.masc", "pl.fem", "pl.neut"],
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
     "cells": {
-      "nom.sg.masc": "novus", "nom.sg.fem": "nova", "nom.sg.neut": "novum",
-      "nom.pl.masc": "novi", "nom.pl.fem": "novae", "nom.pl.neut": "nova",
-      "gen.sg.masc": "novi", "gen.sg.fem": "novae", "gen.sg.neut": "novi",
-      "gen.pl.masc": "novorum", "gen.pl.fem": "novarum", "gen.pl.neut": "novorum",
-      "dat.sg.masc": "novo", "dat.sg.fem": "novae", "dat.sg.neut": "novo",
-      "dat.pl.masc": "novis", "dat.pl.fem": "novis", "dat.pl.neut": "novis",
-      "acc.sg.masc": "novum", "acc.sg.fem": "novam", "acc.sg.neut": "novum",
-      "acc.pl.masc": "novos", "acc.pl.fem": "novas", "acc.pl.neut": "nova",
-      "abl.sg.masc": "novo", "abl.sg.fem": "nova", "abl.sg.neut": "novo",
-      "abl.pl.masc": "novis", "abl.pl.fem": "novis", "abl.pl.neut": "novis"
+      "nom.sg.masc": "novus",
+      "nom.sg.fem": "nova",
+      "nom.sg.neut": "novum",
+      "nom.pl.masc": "novi",
+      "nom.pl.fem": "novae",
+      "nom.pl.neut": "nova",
+      "gen.sg.masc": "novi",
+      "gen.sg.fem": "novae",
+      "gen.sg.neut": "novi",
+      "gen.pl.masc": "novorum",
+      "gen.pl.fem": "novarum",
+      "gen.pl.neut": "novorum",
+      "dat.sg.masc": "novo",
+      "dat.sg.fem": "novae",
+      "dat.sg.neut": "novo",
+      "dat.pl.masc": "novis",
+      "dat.pl.fem": "novis",
+      "dat.pl.neut": "novis",
+      "acc.sg.masc": "novum",
+      "acc.sg.fem": "novam",
+      "acc.sg.neut": "novum",
+      "acc.pl.masc": "novos",
+      "acc.pl.fem": "novas",
+      "acc.pl.neut": "nova",
+      "abl.sg.masc": "novo",
+      "abl.sg.fem": "nova",
+      "abl.sg.neut": "novo",
+      "abl.pl.masc": "novis",
+      "abl.pl.fem": "novis",
+      "abl.pl.neut": "novis"
     }
   }
 }

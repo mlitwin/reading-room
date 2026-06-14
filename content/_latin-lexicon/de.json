@@ -1,34 +1,12 @@
 {
+  "id": "de_prep",
   "lemma": "de",
-  "pos": "noun",
+  "pos": "prep",
+  "head": "de (+ abl.)",
   "glosses": [
-    "goddess"
-  ],
-  "head": "de, -ae, f.",
-  "paradigm": {
-    "type": "noun",
-    "rows": [
-      "nom",
-      "gen",
-      "dat",
-      "acc",
-      "abl"
-    ],
-    "cols": [
-      "sg",
-      "pl"
-    ],
-    "cells": {
-      "nom.sg": "dea",
-      "gen.sg": "deae",
-      "abl.sg": "dea",
-      "acc.sg": "deam",
-      "dat.sg": "deae",
-      "nom.pl": "deae",
-      "gen.pl": "dearum",
-      "dat.pl": "deis",
-      "abl.pl": "deis",
-      "acc.pl": "deas"
-    }
-  }
+    "down from, from (+ abl.)",
+    "about, concerning (+ abl.)",
+    "of, out of (+ abl.)",
+    "from, after (time, + abl.)"
+  ]
 }

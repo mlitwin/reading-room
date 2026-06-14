@@ -1,8 +1,18 @@
 {
+  "id": "reor_v",
   "lemma": "reor",
   "pos": "verb",
   "head": "reor, reri, ratus sum",
-  "principal_parts": ["reor", "reri", "ratus sum"],
-  "glosses": ["think", "suppose", "imagine", "deem"],
+  "principal_parts": [
+    "reor",
+    "reri",
+    "ratus sum"
+  ],
+  "glosses": [
+    "think",
+    "suppose",
+    "imagine",
+    "deem"
+  ],
   "notes": "Deponent verb (passive forms, active meaning). The perfect passive participle `ratus` lives on as an adjective meaning 'fixed, settled'."
 }
