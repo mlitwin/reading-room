@@ -690,20 +690,17 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 }
 
 .card-popover .card-parse {
-  margin-top: 0.6rem;
   font-size: 0.85rem;
   color: var(--fg);
-  min-height: 1em;
 }
 .card-popover .card-parse:empty { display: none; }
-/* Surface form (the actual Latin word tapped) — shown above the parse list. */
+/* Surface form (the actual Latin word tapped) — shown in the card header. */
 .card-popover .card-parse-surface {
   display: block;
   font-family: ui-serif, "Iowan Old Style", Georgia, serif;
   font-size: 1.05rem;
   font-style: italic;
   font-weight: 600;
-  margin-bottom: 0.2rem;
   color: var(--fg);
 }
 .card-popover .card-parse-list {

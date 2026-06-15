@@ -245,10 +245,10 @@
     var notes = card.notes ? '<p class="card-notes">' + escHtml(card.notes) + '</p>' : '';
     return '<header class="card-head">' +
       '<h3 class="card-lemma">' + escHtml(label) + ' ' + pos + '</h3>' +
+      '<div class="card-parse" aria-live="polite"></div>' +
       head +
       '</header>' +
       glosses +
-      '<div class="card-parse" aria-live="polite"></div>' +
       paradigm + notes;
   }
 
@@ -345,18 +345,9 @@
     });
     var slot = scope.querySelector('.card-parse');
     if (slot) {
-      if (thisParses.length > 0) {
-        var surfaceHtml = surface
-          ? '<span class="card-parse-surface">' + escHtml(surface) + '</span>'
-          : '';
-        slot.innerHTML = surfaceHtml +
-          '<ul class="card-parse-list">' + thisParses.map(function (p) {
-            return '<li><span class="card-parse-human">' + expandParseLinks(p) +
-                   '</span> <span class="card-parse-code">' + escHtml(p) + '</span></li>';
-          }).join('') + '</ul>';
-      } else {
-        slot.innerHTML = '';
-      }
+      slot.innerHTML = (surface && thisParses.length > 0)
+        ? '<span class="card-parse-surface">' + escHtml(surface) + '</span>'
+        : '';
     }
     var heading = scope.querySelector('.card-lemma');
     if (heading) {
