@@ -413,6 +413,7 @@ struct PieceWebView: UIViewRepresentable {
         let webView = WKWebView(frame: .zero, configuration: config)
         webView.navigationDelegate = context.coordinator
         webView.scrollView.contentInsetAdjustmentBehavior = .automatic
+        webView.scrollView.alwaysBounceHorizontal = false
         webView.isOpaque = false
         // Disabled: the book-prev swipe replaces it, and the semantic overlap
         // (WebView-history-back vs book-prev) is confusing.
