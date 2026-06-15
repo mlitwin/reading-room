@@ -19,7 +19,8 @@
       "gen",
       "dat",
       "acc",
-      "abl"
+      "abl",
+      "voc"
     ],
     "cols": [
       "sg.masc",
@@ -30,10 +31,42 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "levis",
+      "nom.sg.fem": "levis",
       "nom.sg.neut": "leve",
+      "gen.sg.masc": "levis",
+      "gen.sg.fem": "levis",
+      "gen.sg.neut": "levis",
+      "dat.sg.masc": "levi",
+      "dat.sg.fem": "levi",
+      "dat.sg.neut": "levi",
+      "acc.sg.masc": "levem",
+      "acc.sg.fem": "levem",
       "acc.sg.neut": "leve",
+      "abl.sg.masc": "levi",
+      "abl.sg.fem": "levi",
+      "abl.sg.neut": "levi",
+      "voc.sg.masc": "levis",
+      "voc.sg.fem": "levis",
+      "voc.sg.neut": "leve",
+      "nom.pl.masc": "leves",
+      "nom.pl.fem": "leves",
       "nom.pl.neut": "levia",
-      "acc.pl.neut": "levia"
+      "gen.pl.masc": "levium",
+      "gen.pl.fem": "levium",
+      "gen.pl.neut": "levium",
+      "dat.pl.masc": "levibus",
+      "dat.pl.fem": "levibus",
+      "dat.pl.neut": "levibus",
+      "acc.pl.masc": "leves",
+      "acc.pl.fem": "leves",
+      "acc.pl.neut": "levia",
+      "abl.pl.masc": "levibus",
+      "abl.pl.fem": "levibus",
+      "abl.pl.neut": "levibus",
+      "voc.pl.masc": "leves",
+      "voc.pl.fem": "leves",
+      "voc.pl.neut": "levia"
     }
   }
 }

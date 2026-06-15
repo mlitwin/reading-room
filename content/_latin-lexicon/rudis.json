@@ -14,7 +14,8 @@
       "gen",
       "dat",
       "acc",
-      "abl"
+      "abl",
+      "voc"
     ],
     "cols": [
       "sg.masc",
@@ -25,10 +26,42 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "rudis",
+      "nom.sg.fem": "rudis",
       "nom.sg.neut": "rude",
+      "gen.sg.masc": "rudis",
+      "gen.sg.fem": "rudis",
+      "gen.sg.neut": "rudis",
+      "dat.sg.masc": "rudi",
+      "dat.sg.fem": "rudi",
+      "dat.sg.neut": "rudi",
+      "acc.sg.masc": "rudem",
+      "acc.sg.fem": "rudem",
       "acc.sg.neut": "rude",
+      "abl.sg.masc": "rudi",
+      "abl.sg.fem": "rudi",
+      "abl.sg.neut": "rudi",
+      "voc.sg.masc": "rudis",
+      "voc.sg.fem": "rudis",
+      "voc.sg.neut": "rude",
+      "nom.pl.masc": "rudes",
+      "nom.pl.fem": "rudes",
       "nom.pl.neut": "rudia",
-      "acc.pl.neut": "rudia"
+      "gen.pl.masc": "rudium",
+      "gen.pl.fem": "rudium",
+      "gen.pl.neut": "rudium",
+      "dat.pl.masc": "rudibus",
+      "dat.pl.fem": "rudibus",
+      "dat.pl.neut": "rudibus",
+      "acc.pl.masc": "rudes",
+      "acc.pl.fem": "rudes",
+      "acc.pl.neut": "rudia",
+      "abl.pl.masc": "rudibus",
+      "abl.pl.fem": "rudibus",
+      "abl.pl.neut": "rudibus",
+      "voc.pl.masc": "rudes",
+      "voc.pl.fem": "rudes",
+      "voc.pl.neut": "rudia"
     }
   }
 }

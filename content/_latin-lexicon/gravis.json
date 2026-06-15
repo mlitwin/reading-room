@@ -18,7 +18,8 @@
       "gen",
       "dat",
       "acc",
-      "abl"
+      "abl",
+      "voc"
     ],
     "cols": [
       "sg.masc",
@@ -29,10 +30,42 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "gravis",
+      "nom.sg.fem": "gravis",
       "nom.sg.neut": "grave",
+      "gen.sg.masc": "gravis",
+      "gen.sg.fem": "gravis",
+      "gen.sg.neut": "gravis",
+      "dat.sg.masc": "gravi",
+      "dat.sg.fem": "gravi",
+      "dat.sg.neut": "gravi",
+      "acc.sg.masc": "gravem",
+      "acc.sg.fem": "gravem",
       "acc.sg.neut": "grave",
+      "abl.sg.masc": "gravi",
+      "abl.sg.fem": "gravi",
+      "abl.sg.neut": "gravi",
+      "voc.sg.masc": "gravis",
+      "voc.sg.fem": "gravis",
+      "voc.sg.neut": "grave",
+      "nom.pl.masc": "graves",
+      "nom.pl.fem": "graves",
       "nom.pl.neut": "gravia",
-      "acc.pl.neut": "gravia"
+      "gen.pl.masc": "gravium",
+      "gen.pl.fem": "gravium",
+      "gen.pl.neut": "gravium",
+      "dat.pl.masc": "gravibus",
+      "dat.pl.fem": "gravibus",
+      "dat.pl.neut": "gravibus",
+      "acc.pl.masc": "graves",
+      "acc.pl.fem": "graves",
+      "acc.pl.neut": "gravia",
+      "abl.pl.masc": "gravibus",
+      "abl.pl.fem": "gravibus",
+      "abl.pl.neut": "gravibus",
+      "voc.pl.masc": "graves",
+      "voc.pl.fem": "graves",
+      "voc.pl.neut": "gravia"
     }
   }
 }
