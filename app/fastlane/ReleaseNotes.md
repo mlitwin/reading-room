@@ -1,7 +1,8 @@
-Changes since v0.1.4-5:
+Changes since v0.1.5-6:
 
-• 63cb0d4 cleanup lemmas more
-• c018b7c lexicon cleanup fixies
-• 6add059 tab view and ui reform
-• e0bf5e5 waypoint
-• cbcb60c Fix iOS lexicon loading without requiring app rebuild
+• d82cf9c fix swipe nav aggression
+• 2d7f30c imperat eq imp
+• c07af29 tighen ui
+• 47eb09f more forms
+• 99f559b more verb forms
+• c3343f9 ppp forms
