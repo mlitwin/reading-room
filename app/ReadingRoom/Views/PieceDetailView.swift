@@ -124,12 +124,10 @@ struct PieceDetailView: View {
         // Disable the NavigationStack's interactive pop gesture while on a
         // book page that has card-level prev/next navigation, so horizontal
         // swipes navigate cards rather than popping to the library.
-        .background(
-            NavigationPopGestureControl(
-                disabled: piece.isBook &&
-                    (state.currentEntry?.prev != nil || state.currentEntry?.next != nil)
-            )
-        )
+        // Disable the pop gesture for the entire book view — swipe is claimed
+        // for card-level prev/next and should never exit to the library.
+        // Non-book pieces leave the pop gesture intact (swipe → back to library).
+        .background(NavigationPopGestureControl(disabled: piece.isBook))
         // Freeze the background WebView's scroll while the note sheet is
         // open — prevents scroll bleed through the sheet's drag handle area.
         .onChange(of: state.openNoteKey) { _, newKey in
