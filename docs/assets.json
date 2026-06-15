@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T04:32:10.346Z",
+  "generated_at": "2026-06-15T05:11:58.484Z",
   "files": [
     {
       "path": "assets/cards.js",
@@ -333,8 +333,8 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "422ad48da17638d9738a191ec73dd4114f2b68ef92c162e2c9d9509bfdf4dfc3",
-      "size": 19803
+      "sha256": "28ce1543d14262480b0085011ca201a94a5bdb94a3af14503df43045f86a66e1",
+      "size": 20107
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -523,7 +523,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "fe8882717ad45e73b017b45fc2379ecb9509d6f9f8866d9c04f1e3655d3f011d",
+      "sha256": "6c7e89c0df75a8958ef26ca6dd39ab917a44923a1e52c03701a957ebeebc5dde",
       "size": 26585
     },
     {

@@ -505,7 +505,9 @@ nav.page-nav .placeholder { visibility: hidden; }
 .popover-body {
   flex: 1;
   overflow-y: auto;
-  overscroll-behavior: contain;
+  overflow-x: hidden;             /* no body-level horizontal scroll */
+  overscroll-behavior-y: contain; /* don't chain vertical scroll to page */
+  overscroll-behavior-x: none;    /* kill horizontal rubber-banding */
   padding: 0;          /* tab bar + content each carry their own padding */
 }
 
@@ -603,10 +605,13 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 
 .card-popover .card-paradigms {
   margin: 0.6rem 0;
+  overflow-x: auto;     /* fallback: contained scroll for any table that overflows (adj/noun) */
+  max-width: 100%;
 }
 .card-popover .card-paradigms > * + * {
   margin-top: 0.8rem;
 }
+
 .card-popover .card-paradigm {
   border-collapse: collapse;
   font-family: ui-serif, "Iowan Old Style", Georgia, serif;
