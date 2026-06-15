@@ -57,6 +57,7 @@ NUMBER_MAP = {'sg': 'sg', 'pl': 'pl', 'dual': 'dual'}
 TENSE_MAP  = {'pres': 'pres', 'imperf': 'imperf', 'fut': 'fut',
               'perf': 'perf', 'plup': 'plup', 'futperf': 'futperf'}
 MOOD_MAP   = {'ind': 'ind', 'subj': 'subj', 'opt': 'opt', 'imp': 'imp',
+              'imperat': 'imp',   # Morpheus spells this out; 'imp' is the short form
               'inf': 'inf', 'part': 'ppl', 'gerundive': 'gerundive',
               'gerund': 'gerund'}
 VOICE_MAP  = {'act': 'act', 'pass': 'pass', 'mid': 'mid', 'mp': 'mp'}
