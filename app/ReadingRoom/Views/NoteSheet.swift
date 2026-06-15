@@ -61,6 +61,7 @@ struct NoteSheet: View {
         }
         .presentationDetents([.medium, .large], selection: $detent)
         .presentationDragIndicator(.visible)
+        .interactiveDismissDisabled(true)
     }
 
     @ViewBuilder

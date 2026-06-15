@@ -11,6 +11,8 @@ final class BookViewState {
     var nav: BookNav?
     /// Non-nil while a note popover is open. The presented sheet binds to this.
     var openNoteKey: String?
+    /// True while the web-side vocab card popover (#popover-host) is visible.
+    var isPopoverOpen: Bool = false
 
     var currentEntry: NavEntry? {
         guard let nav, let currentPath else { return nil }
@@ -104,10 +106,12 @@ struct PieceDetailView: View {
         // Swipe gesture for book navigation. .simultaneousGesture so we
         // don't fight WebView scroll / selection / math-block horizontal
         // scroll. 60-pt threshold + horizontal-dominance check avoids
-        // triggering on incidental drags.
+        // triggering on incidental drags. Guard on openNoteKey so a swipe
+        // never fires through an open note sheet.
         .simultaneousGesture(
             DragGesture(minimumDistance: 40)
                 .onEnded { value in
+                    guard state.openNoteKey == nil, !state.isPopoverOpen else { return }
                     let dx = value.translation.width
                     let dy = value.translation.height
                     guard abs(dx) > 60, abs(dx) > abs(dy) * 1.5 else { return }
@@ -117,6 +121,20 @@ struct PieceDetailView: View {
                     }
                 }
         )
+        // Disable the NavigationStack's interactive pop gesture while on a
+        // book page that has card-level prev/next navigation, so horizontal
+        // swipes navigate cards rather than popping to the library.
+        .background(
+            NavigationPopGestureControl(
+                disabled: piece.isBook &&
+                    (state.currentEntry?.prev != nil || state.currentEntry?.next != nil)
+            )
+        )
+        // Freeze the background WebView's scroll while the note sheet is
+        // open — prevents scroll bleed through the sheet's drag handle area.
+        .onChange(of: state.openNoteKey) { _, newKey in
+            state.webView?.scrollView.isScrollEnabled = newKey == nil
+        }
         .sheet(isPresented: Binding(
             get: { state.openNoteKey != nil },
             set: { if !$0 { state.openNoteKey = nil } }
@@ -257,6 +275,49 @@ struct PieceDetailView: View {
     }
 }
 
+// Disables the UINavigationController's interactive pop gesture recognizer
+// while active, so horizontal swipes can be claimed for card-level navigation.
+// Stores a weak reference to the nav controller in its Coordinator so the
+// gesture is reliably re-enabled when the view leaves the hierarchy.
+private struct NavigationPopGestureControl: UIViewRepresentable {
+    let disabled: Bool
+
+    final class Coordinator {
+        weak var navigationController: UINavigationController?
+    }
+
+    func makeCoordinator() -> Coordinator { Coordinator() }
+
+    func makeUIView(context: Context) -> UIView {
+        let view = UIView()
+        view.backgroundColor = .clear
+        view.isUserInteractionEnabled = false
+        return view
+    }
+
+    func updateUIView(_ uiView: UIView, context: Context) {
+        // Defer to avoid mutating UIKit state during a SwiftUI layout pass.
+        DispatchQueue.main.async {
+            if context.coordinator.navigationController == nil {
+                var r: UIResponder? = uiView.next
+                while let responder = r {
+                    if let nc = responder as? UINavigationController {
+                        context.coordinator.navigationController = nc
+                        break
+                    }
+                    r = responder.next
+                }
+            }
+            context.coordinator.navigationController?
+                .interactivePopGestureRecognizer?.isEnabled = !disabled
+        }
+    }
+
+    static func dismantleUIView(_ uiView: UIView, coordinator: Coordinator) {
+        coordinator.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+    }
+}
+
 struct PieceWebView: UIViewRepresentable {
     let initialURL: URL
     let mirrorRoot: URL
@@ -270,6 +331,23 @@ struct PieceWebView: UIViewRepresentable {
           var style = document.createElement('style');
           style.textContent = 'header.site, nav.breadcrumb, nav.page-nav, .note-popovers { display: none !important; } article { margin-top: 1rem !important; }';
           document.head.appendChild(style);
+        })();
+        """
+
+    // Bridge the vocab card popover's open/close state to Swift so the
+    // swipe gesture can be suppressed while the card is visible.
+    // The popover toggle event does not bubble, so we attach directly to the
+    // #popover-host element (which is in the static HTML at document end).
+    private static let popoverBridgeJS = """
+        (function() {
+          var host = document.getElementById('popover-host');
+          if (!host) return;
+          host.addEventListener('toggle', function(e) {
+            var open = e.newState === 'open';
+            if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.popover) {
+              window.webkit.messageHandlers.popover.postMessage({ open: open });
+            }
+          });
         })();
         """
 
@@ -319,10 +397,16 @@ struct PieceWebView: UIViewRepresentable {
             forMainFrameOnly: true
         ))
         userContent.addUserScript(WKUserScript(
+            source: Self.popoverBridgeJS,
+            injectionTime: .atDocumentEnd,
+            forMainFrameOnly: true
+        ))
+        userContent.addUserScript(WKUserScript(
             source: Self.noteBridgeJS,
             injectionTime: .atDocumentEnd,
             forMainFrameOnly: true
         ))
+        userContent.add(context.coordinator, name: "popover")
         userContent.add(context.coordinator, name: "note")
 
         let config = WKWebViewConfiguration()
@@ -356,10 +440,17 @@ struct PieceWebView: UIViewRepresentable {
         init(_ parent: PieceWebView) { self.parent = parent }
 
         func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-            if message.name == "note",
-               let body = message.body as? [String: Any],
-               let key = body["key"] as? String {
-                DispatchQueue.main.async { self.parent.state.openNoteKey = key }
+            guard let body = message.body as? [String: Any] else { return }
+            switch message.name {
+            case "popover":
+                let open = body["open"] as? Bool ?? false
+                DispatchQueue.main.async { self.parent.state.isPopoverOpen = open }
+            case "note":
+                if let key = body["key"] as? String {
+                    DispatchQueue.main.async { self.parent.state.openNoteKey = key }
+                }
+            default:
+                break
             }
         }
 
@@ -386,6 +477,7 @@ struct PieceWebView: UIViewRepresentable {
 
         func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
             parent.state.isLoading = true
+            parent.state.isPopoverOpen = false
         }
 
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
