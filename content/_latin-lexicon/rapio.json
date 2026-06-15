@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "rapis",
       "3sg.pres.ind.act": "rapit",
       "1pl.pres.ind.act": "rapimus",
       "2pl.pres.ind.act": "rapitis",
+      "2sg.pres.ind.pass": "raperis",
+      "3sg.pres.ind.pass": "rapitur",
+      "1sg.imperf.subj.act": "raperem",
+      "2sg.imperf.subj.act": "raperes",
+      "3sg.imperf.subj.act": "raperet",
+      "1pl.imperf.subj.act": "raperemus",
+      "2pl.imperf.subj.act": "raperetis",
+      "3pl.imperf.subj.act": "raperent",
       "2sg.pres.imp.act": "rape",
-      "2pl.pres.imp.act": "rapite"
+      "2pl.pres.imp.act": "rapite",
+      "1sg.perf.ind.act": "rapui",
+      "2sg.perf.ind.act": "rapuisti",
+      "3sg.perf.ind.act": "rapuit",
+      "1pl.perf.ind.act": "rapuimus",
+      "2pl.perf.ind.act": "rapuistis",
+      "3pl.perf.ind.act": "rapuerunt"
     }
   },
   "ppp_paradigm": {

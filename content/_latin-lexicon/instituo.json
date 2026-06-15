@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "instituis",
       "3sg.pres.ind.act": "instituit",
       "1pl.pres.ind.act": "instituimus",
       "2pl.pres.ind.act": "instituitis",
+      "2sg.pres.ind.pass": "institueris",
+      "3sg.pres.ind.pass": "instituitur",
+      "1sg.imperf.subj.act": "instituerem",
+      "2sg.imperf.subj.act": "institueres",
+      "3sg.imperf.subj.act": "institueret",
+      "1pl.imperf.subj.act": "institueremus",
+      "2pl.imperf.subj.act": "institueretis",
+      "3pl.imperf.subj.act": "instituerent",
       "2sg.pres.imp.act": "institue",
-      "2pl.pres.imp.act": "instituite"
+      "2pl.pres.imp.act": "instituite",
+      "1sg.perf.ind.act": "institui",
+      "2sg.perf.ind.act": "instituisti",
+      "3sg.perf.ind.act": "instituit",
+      "1pl.perf.ind.act": "instituimus",
+      "2pl.perf.ind.act": "instituistis",
+      "3pl.perf.ind.act": "instituerunt"
     }
   },
   "ppp_paradigm": {

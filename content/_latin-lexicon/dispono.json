@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "disponis",
       "3sg.pres.ind.act": "disponit",
       "1pl.pres.ind.act": "disponimus",
       "2pl.pres.ind.act": "disponitis",
+      "2sg.pres.ind.pass": "disponeris",
+      "3sg.pres.ind.pass": "disponitur",
+      "1sg.imperf.subj.act": "disponerem",
+      "2sg.imperf.subj.act": "disponeres",
+      "3sg.imperf.subj.act": "disponeret",
+      "1pl.imperf.subj.act": "disponeremus",
+      "2pl.imperf.subj.act": "disponeretis",
+      "3pl.imperf.subj.act": "disponerent",
       "2sg.pres.imp.act": "dispone",
-      "2pl.pres.imp.act": "disponite"
+      "2pl.pres.imp.act": "disponite",
+      "1sg.perf.ind.act": "disposui",
+      "2sg.perf.ind.act": "disposuisti",
+      "3sg.perf.ind.act": "disposuit",
+      "1pl.perf.ind.act": "disposuimus",
+      "2pl.perf.ind.act": "disposuistis",
+      "3pl.perf.ind.act": "disposuerunt"
     }
   },
   "ppp_paradigm": {

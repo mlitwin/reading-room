@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "reprimis",
       "3sg.pres.ind.act": "reprimit",
       "1pl.pres.ind.act": "reprimimus",
       "2pl.pres.ind.act": "reprimitis",
+      "2sg.pres.ind.pass": "reprimeris",
+      "3sg.pres.ind.pass": "reprimitur",
+      "1sg.imperf.subj.act": "reprimerem",
+      "2sg.imperf.subj.act": "reprimeres",
+      "3sg.imperf.subj.act": "reprimeret",
+      "1pl.imperf.subj.act": "reprimeremus",
+      "2pl.imperf.subj.act": "reprimeretis",
+      "3pl.imperf.subj.act": "reprimerent",
       "2sg.pres.imp.act": "reprime",
-      "2pl.pres.imp.act": "reprimite"
+      "2pl.pres.imp.act": "reprimite",
+      "1sg.perf.ind.act": "repressi",
+      "2sg.perf.ind.act": "repressisti",
+      "3sg.perf.ind.act": "repressit",
+      "1pl.perf.ind.act": "repressimus",
+      "2pl.perf.ind.act": "repressistis",
+      "3pl.perf.ind.act": "represserunt"
     }
   },
   "ppp_paradigm": {

@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "contrahis",
       "3sg.pres.ind.act": "contrahit",
       "1pl.pres.ind.act": "contrahimus",
       "2pl.pres.ind.act": "contrahitis",
+      "2sg.pres.ind.pass": "contraheris",
+      "3sg.pres.ind.pass": "contrahitur",
+      "1sg.imperf.subj.act": "contraherem",
+      "2sg.imperf.subj.act": "contraheres",
+      "3sg.imperf.subj.act": "contraheret",
+      "1pl.imperf.subj.act": "contraheremus",
+      "2pl.imperf.subj.act": "contraheretis",
+      "3pl.imperf.subj.act": "contraherent",
       "2sg.pres.imp.act": "contrahe",
-      "2pl.pres.imp.act": "contrahite"
+      "2pl.pres.imp.act": "contrahite",
+      "1sg.perf.ind.act": "contraxi",
+      "2sg.perf.ind.act": "contraxisti",
+      "3sg.perf.ind.act": "contraxit",
+      "1pl.perf.ind.act": "contraximus",
+      "2pl.perf.ind.act": "contraxistis",
+      "3pl.perf.ind.act": "contraxerunt"
     }
   },
   "ppp_paradigm": {

@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "promis",
       "3sg.pres.ind.act": "promit",
       "1pl.pres.ind.act": "promimus",
       "2pl.pres.ind.act": "promitis",
+      "2sg.pres.ind.pass": "promeris",
+      "3sg.pres.ind.pass": "promitur",
+      "1sg.imperf.subj.act": "promerem",
+      "2sg.imperf.subj.act": "promeres",
+      "3sg.imperf.subj.act": "promeret",
+      "1pl.imperf.subj.act": "promeremus",
+      "2pl.imperf.subj.act": "promeretis",
+      "3pl.imperf.subj.act": "promerent",
       "2sg.pres.imp.act": "prome",
-      "2pl.pres.imp.act": "promite"
+      "2pl.pres.imp.act": "promite",
+      "1sg.perf.ind.act": "prompsi",
+      "2sg.perf.ind.act": "prompsisti",
+      "3sg.perf.ind.act": "prompsit",
+      "1pl.perf.ind.act": "prompsimus",
+      "2pl.perf.ind.act": "prompsistis",
+      "3pl.perf.ind.act": "prompserunt"
     }
   },
   "ppp_paradigm": {

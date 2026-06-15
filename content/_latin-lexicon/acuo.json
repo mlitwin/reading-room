@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "acuis",
       "3sg.pres.ind.act": "acuit",
       "1pl.pres.ind.act": "acuimus",
       "2pl.pres.ind.act": "acuitis",
+      "2sg.pres.ind.pass": "acueris",
+      "3sg.pres.ind.pass": "acuitur",
+      "1sg.imperf.subj.act": "acuerem",
+      "2sg.imperf.subj.act": "acueres",
+      "3sg.imperf.subj.act": "acueret",
+      "1pl.imperf.subj.act": "acueremus",
+      "2pl.imperf.subj.act": "acueretis",
+      "3pl.imperf.subj.act": "acuerent",
       "2sg.pres.imp.act": "acue",
-      "2pl.pres.imp.act": "acuite"
+      "2pl.pres.imp.act": "acuite",
+      "1sg.perf.ind.act": "acui",
+      "2sg.perf.ind.act": "acuisti",
+      "3sg.perf.ind.act": "acuit",
+      "1pl.perf.ind.act": "acuimus",
+      "2pl.perf.ind.act": "acuistis",
+      "3pl.perf.ind.act": "acuerunt"
     }
   },
   "ppp_paradigm": {

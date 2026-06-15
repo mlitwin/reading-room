@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "apiscis",
       "3sg.pres.ind.act": "apiscit",
       "1pl.pres.ind.act": "apiscimus",
       "2pl.pres.ind.act": "apiscitis",
+      "2sg.pres.ind.pass": "apisceris",
+      "3sg.pres.ind.pass": "apiscitur",
+      "1sg.imperf.subj.act": "apiscerem",
+      "2sg.imperf.subj.act": "apisceres",
+      "3sg.imperf.subj.act": "apisceret",
+      "1pl.imperf.subj.act": "apisceremus",
+      "2pl.imperf.subj.act": "apisceretis",
+      "3pl.imperf.subj.act": "apiscerent",
       "2sg.pres.imp.act": "apisce",
-      "2pl.pres.imp.act": "apiscite"
+      "2pl.pres.imp.act": "apiscite",
+      "1sg.perf.ind.act": "-i",
+      "2sg.perf.ind.act": "-isti",
+      "3sg.perf.ind.act": "-it",
+      "1pl.perf.ind.act": "-imus",
+      "2pl.perf.ind.act": "-istis",
+      "3pl.perf.ind.act": "-erunt"
     }
   },
   "ppp_paradigm": {

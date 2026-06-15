@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "laedis",
       "3sg.pres.ind.act": "laedit",
       "1pl.pres.ind.act": "laedimus",
       "2pl.pres.ind.act": "laeditis",
+      "2sg.pres.ind.pass": "laederis",
+      "3sg.pres.ind.pass": "laeditur",
+      "1sg.imperf.subj.act": "laederem",
+      "2sg.imperf.subj.act": "laederes",
+      "3sg.imperf.subj.act": "laederet",
+      "1pl.imperf.subj.act": "laederemus",
+      "2pl.imperf.subj.act": "laederetis",
+      "3pl.imperf.subj.act": "laederent",
       "2sg.pres.imp.act": "laede",
-      "2pl.pres.imp.act": "laedite"
+      "2pl.pres.imp.act": "laedite",
+      "1sg.perf.ind.act": "laesi",
+      "2sg.perf.ind.act": "laesisti",
+      "3sg.perf.ind.act": "laesit",
+      "1pl.perf.ind.act": "laesimus",
+      "2pl.perf.ind.act": "laesistis",
+      "3pl.perf.ind.act": "laeserunt"
     }
   },
   "ppp_paradigm": {

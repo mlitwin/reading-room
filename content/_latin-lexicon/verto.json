@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "vertis",
       "3sg.pres.ind.act": "vertit",
       "1pl.pres.ind.act": "vertimus",
       "2pl.pres.ind.act": "vertitis",
+      "2sg.pres.ind.pass": "verteris",
+      "3sg.pres.ind.pass": "vertitur",
+      "1sg.imperf.subj.act": "verterem",
+      "2sg.imperf.subj.act": "verteres",
+      "3sg.imperf.subj.act": "verteret",
+      "1pl.imperf.subj.act": "verteremus",
+      "2pl.imperf.subj.act": "verteretis",
+      "3pl.imperf.subj.act": "verterent",
       "2sg.pres.imp.act": "verte",
-      "2pl.pres.imp.act": "vertite"
+      "2pl.pres.imp.act": "vertite",
+      "1sg.perf.ind.act": "verti",
+      "2sg.perf.ind.act": "vertisti",
+      "3sg.perf.ind.act": "vertit",
+      "1pl.perf.ind.act": "vertimus",
+      "2pl.perf.ind.act": "vertistis",
+      "3pl.perf.ind.act": "verterunt"
     }
   },
   "ppp_paradigm": {

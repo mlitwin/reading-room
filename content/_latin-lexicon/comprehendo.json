@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "comprehendis",
       "3sg.pres.ind.act": "comprehendit",
       "1pl.pres.ind.act": "comprehendimus",
       "2pl.pres.ind.act": "comprehenditis",
+      "2sg.pres.ind.pass": "comprehenderis",
+      "3sg.pres.ind.pass": "comprehenditur",
+      "1sg.imperf.subj.act": "comprehenderem",
+      "2sg.imperf.subj.act": "comprehenderes",
+      "3sg.imperf.subj.act": "comprehenderet",
+      "1pl.imperf.subj.act": "comprehenderemus",
+      "2pl.imperf.subj.act": "comprehenderetis",
+      "3pl.imperf.subj.act": "comprehenderent",
       "2sg.pres.imp.act": "comprehende",
-      "2pl.pres.imp.act": "comprehendite"
+      "2pl.pres.imp.act": "comprehendite",
+      "1sg.perf.ind.act": "comprehendi",
+      "2sg.perf.ind.act": "comprehendisti",
+      "3sg.perf.ind.act": "comprehendit",
+      "1pl.perf.ind.act": "comprehendimus",
+      "2pl.perf.ind.act": "comprehendistis",
+      "3pl.perf.ind.act": "comprehenderunt"
     }
   },
   "ppp_paradigm": {

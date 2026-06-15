@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "excipis",
       "3sg.pres.ind.act": "excipit",
       "1pl.pres.ind.act": "excipimus",
       "2pl.pres.ind.act": "excipitis",
+      "2sg.pres.ind.pass": "exciperis",
+      "3sg.pres.ind.pass": "excipitur",
+      "1sg.imperf.subj.act": "exciperem",
+      "2sg.imperf.subj.act": "exciperes",
+      "3sg.imperf.subj.act": "exciperet",
+      "1pl.imperf.subj.act": "exciperemus",
+      "2pl.imperf.subj.act": "exciperetis",
+      "3pl.imperf.subj.act": "exciperent",
       "2sg.pres.imp.act": "excipe",
-      "2pl.pres.imp.act": "excipite"
+      "2pl.pres.imp.act": "excipite",
+      "1sg.perf.ind.act": "excepi",
+      "2sg.perf.ind.act": "excepisti",
+      "3sg.perf.ind.act": "excepit",
+      "1pl.perf.ind.act": "excepimus",
+      "2pl.perf.ind.act": "excepistis",
+      "3pl.perf.ind.act": "exceperunt"
     }
   },
   "ppp_paradigm": {

@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "fis",
       "3sg.pres.ind.act": "fit",
       "1pl.pres.ind.act": "fimus",
       "2pl.pres.ind.act": "fitis",
+      "2sg.pres.ind.pass": "feris",
+      "3sg.pres.ind.pass": "fitur",
+      "1sg.imperf.subj.act": "fierem",
+      "2sg.imperf.subj.act": "fieres",
+      "3sg.imperf.subj.act": "fieret",
+      "1pl.imperf.subj.act": "fieremus",
+      "2pl.imperf.subj.act": "fieretis",
+      "3pl.imperf.subj.act": "fierent",
       "2sg.pres.imp.act": "fi",
-      "2pl.pres.imp.act": "fite"
+      "2pl.pres.imp.act": "fite",
+      "1sg.perf.ind.act": "-i",
+      "2sg.perf.ind.act": "-isti",
+      "3sg.perf.ind.act": "-it",
+      "1pl.perf.ind.act": "-imus",
+      "2pl.perf.ind.act": "-istis",
+      "3pl.perf.ind.act": "-erunt"
     }
   },
   "ppp_paradigm": {

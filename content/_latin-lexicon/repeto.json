@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "repetis",
       "3sg.pres.ind.act": "repetit",
       "1pl.pres.ind.act": "repetimus",
       "2pl.pres.ind.act": "repetitis",
+      "2sg.pres.ind.pass": "repeteris",
+      "3sg.pres.ind.pass": "repetitur",
+      "1sg.imperf.subj.act": "repeterem",
+      "2sg.imperf.subj.act": "repeteres",
+      "3sg.imperf.subj.act": "repeteret",
+      "1pl.imperf.subj.act": "repeteremus",
+      "2pl.imperf.subj.act": "repeteretis",
+      "3pl.imperf.subj.act": "repeterent",
       "2sg.pres.imp.act": "repete",
-      "2pl.pres.imp.act": "repetite"
+      "2pl.pres.imp.act": "repetite",
+      "1sg.perf.ind.act": "repetivi",
+      "2sg.perf.ind.act": "repetivisti",
+      "3sg.perf.ind.act": "repetivit",
+      "1pl.perf.ind.act": "repetivimus",
+      "2pl.perf.ind.act": "repetivistis",
+      "3pl.perf.ind.act": "repetiverunt"
     }
   },
   "ppp_paradigm": {

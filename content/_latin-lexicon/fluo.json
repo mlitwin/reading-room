@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "fluis",
       "3sg.pres.ind.act": "fluit",
       "1pl.pres.ind.act": "fluimus",
       "2pl.pres.ind.act": "fluitis",
+      "2sg.pres.ind.pass": "flueris",
+      "3sg.pres.ind.pass": "fluitur",
+      "1sg.imperf.subj.act": "fluerem",
+      "2sg.imperf.subj.act": "flueres",
+      "3sg.imperf.subj.act": "flueret",
+      "1pl.imperf.subj.act": "flueremus",
+      "2pl.imperf.subj.act": "flueretis",
+      "3pl.imperf.subj.act": "fluerent",
       "2sg.pres.imp.act": "flue",
-      "2pl.pres.imp.act": "fluite"
+      "2pl.pres.imp.act": "fluite",
+      "1sg.perf.ind.act": "fluxi",
+      "2sg.perf.ind.act": "fluxisti",
+      "3sg.perf.ind.act": "fluxit",
+      "1pl.perf.ind.act": "fluximus",
+      "2pl.perf.ind.act": "fluxistis",
+      "3pl.perf.ind.act": "fluxerunt"
     }
   },
   "ppp_paradigm": {

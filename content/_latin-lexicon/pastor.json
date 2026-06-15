@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "pascis",
       "3sg.pres.ind.act": "pascit",
       "1pl.pres.ind.act": "pascimus",
       "2pl.pres.ind.act": "pascitis",
+      "2sg.pres.ind.pass": "pasceris",
+      "3sg.pres.ind.pass": "pascitur",
+      "1sg.imperf.subj.act": "pascerem",
+      "2sg.imperf.subj.act": "pasceres",
+      "3sg.imperf.subj.act": "pasceret",
+      "1pl.imperf.subj.act": "pasceremus",
+      "2pl.imperf.subj.act": "pasceretis",
+      "3pl.imperf.subj.act": "pascerent",
       "2sg.pres.imp.act": "pasce",
-      "2pl.pres.imp.act": "pascite"
+      "2pl.pres.imp.act": "pascite",
+      "1sg.perf.ind.act": "pavi",
+      "2sg.perf.ind.act": "pavisti",
+      "3sg.perf.ind.act": "pavit",
+      "1pl.perf.ind.act": "pavimus",
+      "2pl.perf.ind.act": "pavistis",
+      "3pl.perf.ind.act": "paverunt"
     }
   },
   "ppp_paradigm": {

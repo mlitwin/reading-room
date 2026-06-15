@@ -416,8 +416,31 @@ def head_line(lemma, entry):
 # ---------- paradigm generation -------------------------------------------
 
 NOUN_ROWS = ['nom', 'gen', 'dat', 'acc', 'abl']
-VERB_PRESENT_COLS = ['pres.ind.act', 'perf.ind.act', 'pres.imp.act']
-ADJ_ROWS = ['nom', 'gen', 'dat', 'acc', 'abl']
+ADJ_ROWS  = ['nom', 'gen', 'dat', 'acc', 'abl']
+
+# Original 3-column set (auto-generated before expansion).
+VERB_ORIGINAL_COLS = frozenset(['pres.ind.act', 'perf.ind.act', 'pres.imp.act'])
+
+# Full column set now generated for all verbs.
+VERB_COLS = [
+    'pres.ind.act',   'imperf.ind.act',  'fut.ind.act',  'perf.ind.act',
+    'pres.subj.act',  'imperf.subj.act', 'pres.imp.act',
+    'pres.ind.pass',  'imperf.ind.pass', 'fut.ind.pass',
+]
+
+# INFLECTS tense/voice/mood tuple → our compact col key.
+_VERB_KEEP = {
+    ('PRES', 'ACTIVE',  'IND'): 'pres.ind.act',
+    ('IMPF', 'ACTIVE',  'IND'): 'imperf.ind.act',
+    ('FUT',  'ACTIVE',  'IND'): 'fut.ind.act',
+    ('PERF', 'ACTIVE',  'IND'): 'perf.ind.act',
+    ('PRES', 'ACTIVE',  'SUB'): 'pres.subj.act',
+    ('IMPF', 'ACTIVE',  'SUB'): 'imperf.subj.act',
+    ('PRES', 'ACTIVE',  'IMP'): 'pres.imp.act',
+    ('PRES', 'PASSIVE', 'IND'): 'pres.ind.pass',
+    ('IMPF', 'PASSIVE', 'IND'): 'imperf.ind.pass',
+    ('FUT',  'PASSIVE', 'IND'): 'fut.ind.pass',
+}
 
 def rule_specificity(rule_form, n2_specific, gender_upper):
     """Higher = more specific. Variant-specific rules beat declension-wide;
@@ -597,32 +620,32 @@ def generate_ppp_paradigm(principal_parts):
 
 
 def generate_verb_paradigm(entry, lemma, rules):
-    """Generate just the present/perfect indicative active and present
-    imperative active rows — the columns the existing cards use."""
+    """Generate the standard full verb paradigm: active indicative (pres,
+    imperf, fut, perf), active subjunctive (pres, imperf), active imperative,
+    and passive indicative (pres, imperf, fut).  Perfect passive is omitted
+    because it is analytical (PPP + esse) and handled via ppp_paradigm."""
     try:
         n1, n2 = int(entry['form'][0]), int(entry['form'][1])
     except (ValueError, IndexError):
         return None
-    inflect_entries = rules.get(('V', n1, n2), [])
+    # Combine conjugation-specific rules with the generic (0, 0) rules.
+    # Perfect tense forms (using the perfect stem) live in ('V', 0, 0).
+    inflect_entries = (rules.get(('V', n1, n2), []) +
+                       (rules.get(('V', 0, 0), []) if n2 != 0 else []))
     if not inflect_entries:
         return None
     cells = {}
-    keep = {
-        ('PRES', 'ACTIVE', 'IND'): 'pres.ind.act',
-        ('PERF', 'ACTIVE', 'IND'): 'perf.ind.act',
-        ('PRES', 'ACTIVE', 'IMP'): 'pres.imp.act',
-    }
     for rule in inflect_entries:
         form = rule['form']
         if len(form) < 5:
             continue
         tense, voice, mood, person, number = form[:5]
-        col = keep.get((tense, voice, mood))
+        col = _VERB_KEEP.get((tense, voice, mood))
         if col is None:
             continue
         if person not in ('1', '2', '3') or number not in ('S', 'P'):
             continue
-        row = f'{person}{ "sg" if number == "S" else "pl" }'
+        row = f'{person}{"sg" if number == "S" else "pl"}'
         stem = entry['stems'][rule['stem_idx']] if rule['stem_idx'] < len(entry['stems']) else entry['stems'][0]
         if not stem:
             continue
@@ -631,10 +654,12 @@ def generate_verb_paradigm(entry, lemma, rules):
             cells[key] = stem + rule['ending']
     if not cells:
         return None
+    # Only include columns that actually have cells.
+    present_cols = [c for c in VERB_COLS if any(k.endswith('.' + c) for k in cells)]
     return {
         'type': 'verb',
         'rows': ['1sg', '2sg', '3sg', '1pl', '2pl', '3pl'],
-        'cols': VERB_PRESENT_COLS,
+        'cols': present_cols,
         'cells': cells,
     }
 

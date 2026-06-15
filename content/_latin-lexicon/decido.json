@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "decidis",
       "3sg.pres.ind.act": "decidit",
       "1pl.pres.ind.act": "decidimus",
       "2pl.pres.ind.act": "deciditis",
+      "2sg.pres.ind.pass": "decideris",
+      "3sg.pres.ind.pass": "deciditur",
+      "1sg.imperf.subj.act": "deciderem",
+      "2sg.imperf.subj.act": "decideres",
+      "3sg.imperf.subj.act": "decideret",
+      "1pl.imperf.subj.act": "decideremus",
+      "2pl.imperf.subj.act": "decideretis",
+      "3pl.imperf.subj.act": "deciderent",
       "2sg.pres.imp.act": "decide",
-      "2pl.pres.imp.act": "decidite"
+      "2pl.pres.imp.act": "decidite",
+      "1sg.perf.ind.act": "decidi",
+      "2sg.perf.ind.act": "decidisti",
+      "3sg.perf.ind.act": "decidit",
+      "1pl.perf.ind.act": "decidimus",
+      "2pl.perf.ind.act": "decidistis",
+      "3pl.perf.ind.act": "deciderunt"
     }
   },
   "ppp_paradigm": {

@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "asseris",
       "3sg.pres.ind.act": "asserit",
       "1pl.pres.ind.act": "asserimus",
       "2pl.pres.ind.act": "asseritis",
+      "2sg.pres.ind.pass": "assereris",
+      "3sg.pres.ind.pass": "asseritur",
+      "1sg.imperf.subj.act": "assererem",
+      "2sg.imperf.subj.act": "assereres",
+      "3sg.imperf.subj.act": "assereret",
+      "1pl.imperf.subj.act": "assereremus",
+      "2pl.imperf.subj.act": "assereretis",
+      "3pl.imperf.subj.act": "assererent",
       "2sg.pres.imp.act": "assere",
-      "2pl.pres.imp.act": "asserite"
+      "2pl.pres.imp.act": "asserite",
+      "1sg.perf.ind.act": "asserui",
+      "2sg.perf.ind.act": "asseruisti",
+      "3sg.perf.ind.act": "asseruit",
+      "1pl.perf.ind.act": "asseruimus",
+      "2pl.perf.ind.act": "asseruistis",
+      "3pl.perf.ind.act": "asseruerunt"
     }
   },
   "ppp_paradigm": {

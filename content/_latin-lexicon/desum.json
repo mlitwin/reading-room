@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "desumis",
       "3sg.pres.ind.act": "desumit",
       "1pl.pres.ind.act": "desumimus",
       "2pl.pres.ind.act": "desumitis",
+      "2sg.pres.ind.pass": "desumeris",
+      "3sg.pres.ind.pass": "desumitur",
+      "1sg.imperf.subj.act": "desumerem",
+      "2sg.imperf.subj.act": "desumeres",
+      "3sg.imperf.subj.act": "desumeret",
+      "1pl.imperf.subj.act": "desumeremus",
+      "2pl.imperf.subj.act": "desumeretis",
+      "3pl.imperf.subj.act": "desumerent",
       "2sg.pres.imp.act": "desume",
-      "2pl.pres.imp.act": "desumite"
+      "2pl.pres.imp.act": "desumite",
+      "1sg.perf.ind.act": "desumpsi",
+      "2sg.perf.ind.act": "desumpsisti",
+      "3sg.perf.ind.act": "desumpsit",
+      "1pl.perf.ind.act": "desumpsimus",
+      "2pl.perf.ind.act": "desumpsistis",
+      "3pl.perf.ind.act": "desumpserunt"
     }
   },
   "ppp_paradigm": {

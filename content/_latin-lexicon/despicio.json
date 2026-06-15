@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "despicis",
       "3sg.pres.ind.act": "despicit",
       "1pl.pres.ind.act": "despicimus",
       "2pl.pres.ind.act": "despicitis",
+      "2sg.pres.ind.pass": "despiceris",
+      "3sg.pres.ind.pass": "despicitur",
+      "1sg.imperf.subj.act": "despicerem",
+      "2sg.imperf.subj.act": "despiceres",
+      "3sg.imperf.subj.act": "despiceret",
+      "1pl.imperf.subj.act": "despiceremus",
+      "2pl.imperf.subj.act": "despiceretis",
+      "3pl.imperf.subj.act": "despicerent",
       "2sg.pres.imp.act": "despice",
-      "2pl.pres.imp.act": "despicite"
+      "2pl.pres.imp.act": "despicite",
+      "1sg.perf.ind.act": "despexi",
+      "2sg.perf.ind.act": "despexisti",
+      "3sg.perf.ind.act": "despexit",
+      "1pl.perf.ind.act": "despeximus",
+      "2pl.perf.ind.act": "despexistis",
+      "3pl.perf.ind.act": "despexerunt"
     }
   },
   "ppp_paradigm": {

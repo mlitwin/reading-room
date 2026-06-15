@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "sidis",
       "3sg.pres.ind.act": "sidit",
       "1pl.pres.ind.act": "sidimus",
       "2pl.pres.ind.act": "siditis",
+      "2sg.pres.ind.pass": "sideris",
+      "3sg.pres.ind.pass": "siditur",
+      "1sg.imperf.subj.act": "siderem",
+      "2sg.imperf.subj.act": "sideres",
+      "3sg.imperf.subj.act": "sideret",
+      "1pl.imperf.subj.act": "sideremus",
+      "2pl.imperf.subj.act": "sideretis",
+      "3pl.imperf.subj.act": "siderent",
       "2sg.pres.imp.act": "side",
-      "2pl.pres.imp.act": "sidite"
+      "2pl.pres.imp.act": "sidite",
+      "1sg.perf.ind.act": "sidi",
+      "2sg.perf.ind.act": "sidisti",
+      "3sg.perf.ind.act": "sidit",
+      "1pl.perf.ind.act": "sidimus",
+      "2pl.perf.ind.act": "sidistis",
+      "3pl.perf.ind.act": "siderunt"
     }
   },
   "ppp_paradigm": {

@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "fallis",
       "3sg.pres.ind.act": "fallit",
       "1pl.pres.ind.act": "fallimus",
       "2pl.pres.ind.act": "fallitis",
+      "2sg.pres.ind.pass": "falleris",
+      "3sg.pres.ind.pass": "fallitur",
+      "1sg.imperf.subj.act": "fallerem",
+      "2sg.imperf.subj.act": "falleres",
+      "3sg.imperf.subj.act": "falleret",
+      "1pl.imperf.subj.act": "falleremus",
+      "2pl.imperf.subj.act": "falleretis",
+      "3pl.imperf.subj.act": "fallerent",
       "2sg.pres.imp.act": "falle",
-      "2pl.pres.imp.act": "fallite"
+      "2pl.pres.imp.act": "fallite",
+      "1sg.perf.ind.act": "fefelli",
+      "2sg.perf.ind.act": "fefellisti",
+      "3sg.perf.ind.act": "fefellit",
+      "1pl.perf.ind.act": "fefellimus",
+      "2pl.perf.ind.act": "fefellistis",
+      "3pl.perf.ind.act": "fefellerunt"
     }
   },
   "ppp_paradigm": {

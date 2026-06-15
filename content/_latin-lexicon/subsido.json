@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "subsidis",
       "3sg.pres.ind.act": "subsidit",
       "1pl.pres.ind.act": "subsidimus",
       "2pl.pres.ind.act": "subsiditis",
+      "2sg.pres.ind.pass": "subsideris",
+      "3sg.pres.ind.pass": "subsiditur",
+      "1sg.imperf.subj.act": "subsiderem",
+      "2sg.imperf.subj.act": "subsideres",
+      "3sg.imperf.subj.act": "subsideret",
+      "1pl.imperf.subj.act": "subsideremus",
+      "2pl.imperf.subj.act": "subsideretis",
+      "3pl.imperf.subj.act": "subsiderent",
       "2sg.pres.imp.act": "subside",
-      "2pl.pres.imp.act": "subsidite"
+      "2pl.pres.imp.act": "subsidite",
+      "1sg.perf.ind.act": "subsedi",
+      "2sg.perf.ind.act": "subsedisti",
+      "3sg.perf.ind.act": "subsedit",
+      "1pl.perf.ind.act": "subsedimus",
+      "2pl.perf.ind.act": "subsedistis",
+      "3pl.perf.ind.act": "subsederunt"
     }
   },
   "ppp_paradigm": {

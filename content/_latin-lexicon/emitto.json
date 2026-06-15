@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "emittis",
       "3sg.pres.ind.act": "emittit",
       "1pl.pres.ind.act": "emittimus",
       "2pl.pres.ind.act": "emittitis",
+      "2sg.pres.ind.pass": "emitteris",
+      "3sg.pres.ind.pass": "emittitur",
+      "1sg.imperf.subj.act": "emitterem",
+      "2sg.imperf.subj.act": "emitteres",
+      "3sg.imperf.subj.act": "emitteret",
+      "1pl.imperf.subj.act": "emitteremus",
+      "2pl.imperf.subj.act": "emitteretis",
+      "3pl.imperf.subj.act": "emitterent",
       "2sg.pres.imp.act": "emitte",
-      "2pl.pres.imp.act": "emittite"
+      "2pl.pres.imp.act": "emittite",
+      "1sg.perf.ind.act": "emisi",
+      "2sg.perf.ind.act": "emisisti",
+      "3sg.perf.ind.act": "emisit",
+      "1pl.perf.ind.act": "emisimus",
+      "2pl.perf.ind.act": "emisistis",
+      "3pl.perf.ind.act": "emiserunt"
     }
   },
   "ppp_paradigm": {

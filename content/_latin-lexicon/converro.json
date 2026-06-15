@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "converris",
       "3sg.pres.ind.act": "converrit",
       "1pl.pres.ind.act": "converrimus",
       "2pl.pres.ind.act": "converritis",
+      "2sg.pres.ind.pass": "converreris",
+      "3sg.pres.ind.pass": "converritur",
+      "1sg.imperf.subj.act": "converrerem",
+      "2sg.imperf.subj.act": "converreres",
+      "3sg.imperf.subj.act": "converreret",
+      "1pl.imperf.subj.act": "converreremus",
+      "2pl.imperf.subj.act": "converreretis",
+      "3pl.imperf.subj.act": "converrerent",
       "2sg.pres.imp.act": "converre",
-      "2pl.pres.imp.act": "converrite"
+      "2pl.pres.imp.act": "converrite",
+      "1sg.perf.ind.act": "converri",
+      "2sg.perf.ind.act": "converristi",
+      "3sg.perf.ind.act": "converrit",
+      "1pl.perf.ind.act": "converrimus",
+      "2pl.perf.ind.act": "converristis",
+      "3pl.perf.ind.act": "converrerunt"
     }
   },
   "ppp_paradigm": {

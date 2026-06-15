@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "expallescis",
       "3sg.pres.ind.act": "expallescit",
       "1pl.pres.ind.act": "expallescimus",
       "2pl.pres.ind.act": "expallescitis",
+      "2sg.pres.ind.pass": "expallesceris",
+      "3sg.pres.ind.pass": "expallescitur",
+      "1sg.imperf.subj.act": "expallescerem",
+      "2sg.imperf.subj.act": "expallesceres",
+      "3sg.imperf.subj.act": "expallesceret",
+      "1pl.imperf.subj.act": "expallesceremus",
+      "2pl.imperf.subj.act": "expallesceretis",
+      "3pl.imperf.subj.act": "expallescerent",
       "2sg.pres.imp.act": "expallesce",
-      "2pl.pres.imp.act": "expallescite"
+      "2pl.pres.imp.act": "expallescite",
+      "1sg.perf.ind.act": "expallui",
+      "2sg.perf.ind.act": "expalluisti",
+      "3sg.perf.ind.act": "expalluit",
+      "1pl.perf.ind.act": "expalluimus",
+      "2pl.perf.ind.act": "expalluistis",
+      "3pl.perf.ind.act": "expalluerunt"
     }
   },
   "ppp_paradigm": {

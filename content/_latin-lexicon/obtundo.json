@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "obtundis",
       "3sg.pres.ind.act": "obtundit",
       "1pl.pres.ind.act": "obtundimus",
       "2pl.pres.ind.act": "obtunditis",
+      "2sg.pres.ind.pass": "obtunderis",
+      "3sg.pres.ind.pass": "obtunditur",
+      "1sg.imperf.subj.act": "obtunderem",
+      "2sg.imperf.subj.act": "obtunderes",
+      "3sg.imperf.subj.act": "obtunderet",
+      "1pl.imperf.subj.act": "obtunderemus",
+      "2pl.imperf.subj.act": "obtunderetis",
+      "3pl.imperf.subj.act": "obtunderent",
       "2sg.pres.imp.act": "obtunde",
-      "2pl.pres.imp.act": "obtundite"
+      "2pl.pres.imp.act": "obtundite",
+      "1sg.perf.ind.act": "obtudi",
+      "2sg.perf.ind.act": "obtudisti",
+      "3sg.perf.ind.act": "obtudit",
+      "1pl.perf.ind.act": "obtudimus",
+      "2pl.perf.ind.act": "obtudistis",
+      "3pl.perf.ind.act": "obtuderunt"
     }
   },
   "ppp_paradigm": {

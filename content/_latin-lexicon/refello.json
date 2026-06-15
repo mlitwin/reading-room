@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "refellis",
       "3sg.pres.ind.act": "refellit",
       "1pl.pres.ind.act": "refellimus",
       "2pl.pres.ind.act": "refellitis",
+      "2sg.pres.ind.pass": "refelleris",
+      "3sg.pres.ind.pass": "refellitur",
+      "1sg.imperf.subj.act": "refellerem",
+      "2sg.imperf.subj.act": "refelleres",
+      "3sg.imperf.subj.act": "refelleret",
+      "1pl.imperf.subj.act": "refelleremus",
+      "2pl.imperf.subj.act": "refelleretis",
+      "3pl.imperf.subj.act": "refellerent",
       "2sg.pres.imp.act": "refelle",
-      "2pl.pres.imp.act": "refellite"
+      "2pl.pres.imp.act": "refellite",
+      "1sg.perf.ind.act": "refelli",
+      "2sg.perf.ind.act": "refellisti",
+      "3sg.perf.ind.act": "refellit",
+      "1pl.perf.ind.act": "refellimus",
+      "2pl.perf.ind.act": "refellistis",
+      "3pl.perf.ind.act": "refellerunt"
     }
   },
   "ppp_paradigm": {

@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "intumescis",
       "3sg.pres.ind.act": "intumescit",
       "1pl.pres.ind.act": "intumescimus",
       "2pl.pres.ind.act": "intumescitis",
+      "2sg.pres.ind.pass": "intumesceris",
+      "3sg.pres.ind.pass": "intumescitur",
+      "1sg.imperf.subj.act": "intumescerem",
+      "2sg.imperf.subj.act": "intumesceres",
+      "3sg.imperf.subj.act": "intumesceret",
+      "1pl.imperf.subj.act": "intumesceremus",
+      "2pl.imperf.subj.act": "intumesceretis",
+      "3pl.imperf.subj.act": "intumescerent",
       "2sg.pres.imp.act": "intumesce",
-      "2pl.pres.imp.act": "intumescite"
+      "2pl.pres.imp.act": "intumescite",
+      "1sg.perf.ind.act": "intumui",
+      "2sg.perf.ind.act": "intumuisti",
+      "3sg.perf.ind.act": "intumuit",
+      "1pl.perf.ind.act": "intumuimus",
+      "2pl.perf.ind.act": "intumuistis",
+      "3pl.perf.ind.act": "intumuerunt"
     }
   },
   "ppp_paradigm": {

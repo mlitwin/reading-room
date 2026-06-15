@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "tangis",
       "3sg.pres.ind.act": "tangit",
       "1pl.pres.ind.act": "tangimus",
       "2pl.pres.ind.act": "tangitis",
+      "2sg.pres.ind.pass": "tangeris",
+      "3sg.pres.ind.pass": "tangitur",
+      "1sg.imperf.subj.act": "tangerem",
+      "2sg.imperf.subj.act": "tangeres",
+      "3sg.imperf.subj.act": "tangeret",
+      "1pl.imperf.subj.act": "tangeremus",
+      "2pl.imperf.subj.act": "tangeretis",
+      "3pl.imperf.subj.act": "tangerent",
       "2sg.pres.imp.act": "tange",
-      "2pl.pres.imp.act": "tangite"
+      "2pl.pres.imp.act": "tangite",
+      "1sg.perf.ind.act": "tetigi",
+      "2sg.perf.ind.act": "tetigisti",
+      "3sg.perf.ind.act": "tetigit",
+      "1pl.perf.ind.act": "tetigimus",
+      "2pl.perf.ind.act": "tetigistis",
+      "3pl.perf.ind.act": "tetigerunt"
     }
   },
   "ppp_paradigm": {

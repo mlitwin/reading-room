@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "retendis",
       "3sg.pres.ind.act": "retendit",
       "1pl.pres.ind.act": "retendimus",
       "2pl.pres.ind.act": "retenditis",
+      "2sg.pres.ind.pass": "retenderis",
+      "3sg.pres.ind.pass": "retenditur",
+      "1sg.imperf.subj.act": "retenderem",
+      "2sg.imperf.subj.act": "retenderes",
+      "3sg.imperf.subj.act": "retenderet",
+      "1pl.imperf.subj.act": "retenderemus",
+      "2pl.imperf.subj.act": "retenderetis",
+      "3pl.imperf.subj.act": "retenderent",
       "2sg.pres.imp.act": "retende",
-      "2pl.pres.imp.act": "retendite"
+      "2pl.pres.imp.act": "retendite",
+      "1sg.perf.ind.act": "retendi",
+      "2sg.perf.ind.act": "retendisti",
+      "3sg.perf.ind.act": "retendit",
+      "1pl.perf.ind.act": "retendimus",
+      "2pl.perf.ind.act": "retendistis",
+      "3pl.perf.ind.act": "retenderunt"
     }
   },
   "ppp_paradigm": {

@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "figis",
       "3sg.pres.ind.act": "figit",
       "1pl.pres.ind.act": "figimus",
       "2pl.pres.ind.act": "figitis",
+      "2sg.pres.ind.pass": "figeris",
+      "3sg.pres.ind.pass": "figitur",
+      "1sg.imperf.subj.act": "figerem",
+      "2sg.imperf.subj.act": "figeres",
+      "3sg.imperf.subj.act": "figeret",
+      "1pl.imperf.subj.act": "figeremus",
+      "2pl.imperf.subj.act": "figeretis",
+      "3pl.imperf.subj.act": "figerent",
       "2sg.pres.imp.act": "fige",
-      "2pl.pres.imp.act": "figite"
+      "2pl.pres.imp.act": "figite",
+      "1sg.perf.ind.act": "fixi",
+      "2sg.perf.ind.act": "fixisti",
+      "3sg.perf.ind.act": "fixit",
+      "1pl.perf.ind.act": "fiximus",
+      "2pl.perf.ind.act": "fixistis",
+      "3pl.perf.ind.act": "fixerunt"
     }
   },
   "ppp_paradigm": {

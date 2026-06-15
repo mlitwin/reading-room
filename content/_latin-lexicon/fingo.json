@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "fingis",
       "3sg.pres.ind.act": "fingit",
       "1pl.pres.ind.act": "fingimus",
       "2pl.pres.ind.act": "fingitis",
+      "2sg.pres.ind.pass": "fingeris",
+      "3sg.pres.ind.pass": "fingitur",
+      "1sg.imperf.subj.act": "fingerem",
+      "2sg.imperf.subj.act": "fingeres",
+      "3sg.imperf.subj.act": "fingeret",
+      "1pl.imperf.subj.act": "fingeremus",
+      "2pl.imperf.subj.act": "fingeretis",
+      "3pl.imperf.subj.act": "fingerent",
       "2sg.pres.imp.act": "finge",
-      "2pl.pres.imp.act": "fingite"
+      "2pl.pres.imp.act": "fingite",
+      "1sg.perf.ind.act": "finxi",
+      "2sg.perf.ind.act": "finxisti",
+      "3sg.perf.ind.act": "finxit",
+      "1pl.perf.ind.act": "finximus",
+      "2pl.perf.ind.act": "finxistis",
+      "3pl.perf.ind.act": "finxerunt"
     }
   },
   "ppp_paradigm": {

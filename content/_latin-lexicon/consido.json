@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "considis",
       "3sg.pres.ind.act": "considit",
       "1pl.pres.ind.act": "considimus",
       "2pl.pres.ind.act": "considitis",
+      "2sg.pres.ind.pass": "consideris",
+      "3sg.pres.ind.pass": "considitur",
+      "1sg.imperf.subj.act": "considerem",
+      "2sg.imperf.subj.act": "consideres",
+      "3sg.imperf.subj.act": "consideret",
+      "1pl.imperf.subj.act": "consideremus",
+      "2pl.imperf.subj.act": "consideretis",
+      "3pl.imperf.subj.act": "considerent",
       "2sg.pres.imp.act": "conside",
-      "2pl.pres.imp.act": "considite"
+      "2pl.pres.imp.act": "considite",
+      "1sg.perf.ind.act": "consedi",
+      "2sg.perf.ind.act": "consedisti",
+      "3sg.perf.ind.act": "consedit",
+      "1pl.perf.ind.act": "consedimus",
+      "2pl.perf.ind.act": "consedistis",
+      "3pl.perf.ind.act": "consederunt"
     }
   },
   "ppp_paradigm": {

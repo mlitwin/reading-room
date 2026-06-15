@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "circumspicis",
       "3sg.pres.ind.act": "circumspicit",
       "1pl.pres.ind.act": "circumspicimus",
       "2pl.pres.ind.act": "circumspicitis",
+      "2sg.pres.ind.pass": "circumspiceris",
+      "3sg.pres.ind.pass": "circumspicitur",
+      "1sg.imperf.subj.act": "circumspicerem",
+      "2sg.imperf.subj.act": "circumspiceres",
+      "3sg.imperf.subj.act": "circumspiceret",
+      "1pl.imperf.subj.act": "circumspiceremus",
+      "2pl.imperf.subj.act": "circumspiceretis",
+      "3pl.imperf.subj.act": "circumspicerent",
       "2sg.pres.imp.act": "circumspice",
-      "2pl.pres.imp.act": "circumspicite"
+      "2pl.pres.imp.act": "circumspicite",
+      "1sg.perf.ind.act": "circumspexi",
+      "2sg.perf.ind.act": "circumspexisti",
+      "3sg.perf.ind.act": "circumspexit",
+      "1pl.perf.ind.act": "circumspeximus",
+      "2pl.perf.ind.act": "circumspexistis",
+      "3pl.perf.ind.act": "circumspexerunt"
     }
   },
   "ppp_paradigm": {

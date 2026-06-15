@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "cadis",
       "3sg.pres.ind.act": "cadit",
       "1pl.pres.ind.act": "cadimus",
       "2pl.pres.ind.act": "caditis",
+      "2sg.pres.ind.pass": "caderis",
+      "3sg.pres.ind.pass": "caditur",
+      "1sg.imperf.subj.act": "caderem",
+      "2sg.imperf.subj.act": "caderes",
+      "3sg.imperf.subj.act": "caderet",
+      "1pl.imperf.subj.act": "caderemus",
+      "2pl.imperf.subj.act": "caderetis",
+      "3pl.imperf.subj.act": "caderent",
       "2sg.pres.imp.act": "cade",
-      "2pl.pres.imp.act": "cadite"
+      "2pl.pres.imp.act": "cadite",
+      "1sg.perf.ind.act": "cecidi",
+      "2sg.perf.ind.act": "cecidisti",
+      "3sg.perf.ind.act": "cecidit",
+      "1pl.perf.ind.act": "cecidimus",
+      "2pl.perf.ind.act": "cecidistis",
+      "3pl.perf.ind.act": "ceciderunt"
     }
   },
   "ppp_paradigm": {

@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "adicis",
       "3sg.pres.ind.act": "adicit",
       "1pl.pres.ind.act": "adicimus",
       "2pl.pres.ind.act": "adicitis",
+      "2sg.pres.ind.pass": "adiceris",
+      "3sg.pres.ind.pass": "adicitur",
+      "1sg.imperf.subj.act": "adicerem",
+      "2sg.imperf.subj.act": "adiceres",
+      "3sg.imperf.subj.act": "adiceret",
+      "1pl.imperf.subj.act": "adiceremus",
+      "2pl.imperf.subj.act": "adiceretis",
+      "3pl.imperf.subj.act": "adicerent",
       "2sg.pres.imp.act": "adice",
-      "2pl.pres.imp.act": "adicite"
+      "2pl.pres.imp.act": "adicite",
+      "1sg.perf.ind.act": "adjeci",
+      "2sg.perf.ind.act": "adjecisti",
+      "3sg.perf.ind.act": "adjecit",
+      "1pl.perf.ind.act": "adjecimus",
+      "2pl.perf.ind.act": "adjecistis",
+      "3pl.perf.ind.act": "adjecerunt"
     }
   },
   "ppp_paradigm": {

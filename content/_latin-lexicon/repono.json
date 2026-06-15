@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "reponis",
       "3sg.pres.ind.act": "reponit",
       "1pl.pres.ind.act": "reponimus",
       "2pl.pres.ind.act": "reponitis",
+      "2sg.pres.ind.pass": "reponeris",
+      "3sg.pres.ind.pass": "reponitur",
+      "1sg.imperf.subj.act": "reponerem",
+      "2sg.imperf.subj.act": "reponeres",
+      "3sg.imperf.subj.act": "reponeret",
+      "1pl.imperf.subj.act": "reponeremus",
+      "2pl.imperf.subj.act": "reponeretis",
+      "3pl.imperf.subj.act": "reponerent",
       "2sg.pres.imp.act": "repone",
-      "2pl.pres.imp.act": "reponite"
+      "2pl.pres.imp.act": "reponite",
+      "1sg.perf.ind.act": "reposui",
+      "2sg.perf.ind.act": "reposuisti",
+      "3sg.perf.ind.act": "reposuit",
+      "1pl.perf.ind.act": "reposuimus",
+      "2pl.perf.ind.act": "reposuistis",
+      "3pl.perf.ind.act": "reposuerunt"
     }
   },
   "ppp_paradigm": {

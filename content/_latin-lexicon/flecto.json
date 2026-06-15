@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "flectis",
       "3sg.pres.ind.act": "flectit",
       "1pl.pres.ind.act": "flectimus",
       "2pl.pres.ind.act": "flectitis",
+      "2sg.pres.ind.pass": "flecteris",
+      "3sg.pres.ind.pass": "flectitur",
+      "1sg.imperf.subj.act": "flecterem",
+      "2sg.imperf.subj.act": "flecteres",
+      "3sg.imperf.subj.act": "flecteret",
+      "1pl.imperf.subj.act": "flecteremus",
+      "2pl.imperf.subj.act": "flecteretis",
+      "3pl.imperf.subj.act": "flecterent",
       "2sg.pres.imp.act": "flecte",
-      "2pl.pres.imp.act": "flectite"
+      "2pl.pres.imp.act": "flectite",
+      "1sg.perf.ind.act": "flexi",
+      "2sg.perf.ind.act": "flexisti",
+      "3sg.perf.ind.act": "flexit",
+      "1pl.perf.ind.act": "fleximus",
+      "2pl.perf.ind.act": "flexistis",
+      "3pl.perf.ind.act": "flexerunt"
     }
   },
   "ppp_paradigm": {

@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "consistis",
       "3sg.pres.ind.act": "consistit",
       "1pl.pres.ind.act": "consistimus",
       "2pl.pres.ind.act": "consistitis",
+      "2sg.pres.ind.pass": "consisteris",
+      "3sg.pres.ind.pass": "consistitur",
+      "1sg.imperf.subj.act": "consisterem",
+      "2sg.imperf.subj.act": "consisteres",
+      "3sg.imperf.subj.act": "consisteret",
+      "1pl.imperf.subj.act": "consisteremus",
+      "2pl.imperf.subj.act": "consisteretis",
+      "3pl.imperf.subj.act": "consisterent",
       "2sg.pres.imp.act": "consiste",
-      "2pl.pres.imp.act": "consistite"
+      "2pl.pres.imp.act": "consistite",
+      "1sg.perf.ind.act": "constiti",
+      "2sg.perf.ind.act": "constitisti",
+      "3sg.perf.ind.act": "constitit",
+      "1pl.perf.ind.act": "constitimus",
+      "2pl.perf.ind.act": "constitistis",
+      "3pl.perf.ind.act": "constiterunt"
     }
   },
   "ppp_paradigm": {

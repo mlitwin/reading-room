@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "suffundis",
       "3sg.pres.ind.act": "suffundit",
       "1pl.pres.ind.act": "suffundimus",
       "2pl.pres.ind.act": "suffunditis",
+      "2sg.pres.ind.pass": "suffunderis",
+      "3sg.pres.ind.pass": "suffunditur",
+      "1sg.imperf.subj.act": "suffunderem",
+      "2sg.imperf.subj.act": "suffunderes",
+      "3sg.imperf.subj.act": "suffunderet",
+      "1pl.imperf.subj.act": "suffunderemus",
+      "2pl.imperf.subj.act": "suffunderetis",
+      "3pl.imperf.subj.act": "suffunderent",
       "2sg.pres.imp.act": "suffunde",
-      "2pl.pres.imp.act": "suffundite"
+      "2pl.pres.imp.act": "suffundite",
+      "1sg.perf.ind.act": "suffudi",
+      "2sg.perf.ind.act": "suffudisti",
+      "3sg.perf.ind.act": "suffudit",
+      "1pl.perf.ind.act": "suffudimus",
+      "2pl.perf.ind.act": "suffudistis",
+      "3pl.perf.ind.act": "suffuderunt"
     }
   },
   "ppp_paradigm": {

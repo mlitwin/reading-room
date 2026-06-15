@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "dimittis",
       "3sg.pres.ind.act": "dimittit",
       "1pl.pres.ind.act": "dimittimus",
       "2pl.pres.ind.act": "dimittitis",
+      "2sg.pres.ind.pass": "dimitteris",
+      "3sg.pres.ind.pass": "dimittitur",
+      "1sg.imperf.subj.act": "dimitterem",
+      "2sg.imperf.subj.act": "dimitteres",
+      "3sg.imperf.subj.act": "dimitteret",
+      "1pl.imperf.subj.act": "dimitteremus",
+      "2pl.imperf.subj.act": "dimitteretis",
+      "3pl.imperf.subj.act": "dimitterent",
       "2sg.pres.imp.act": "dimitte",
-      "2pl.pres.imp.act": "dimittite"
+      "2pl.pres.imp.act": "dimittite",
+      "1sg.perf.ind.act": "dimisi",
+      "2sg.perf.ind.act": "dimisisti",
+      "3sg.perf.ind.act": "dimisit",
+      "1pl.perf.ind.act": "dimisimus",
+      "2pl.perf.ind.act": "dimisistis",
+      "3pl.perf.ind.act": "dimiserunt"
     }
   },
   "ppp_paradigm": {

@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "adsumis",
       "3sg.pres.ind.act": "adsumit",
       "1pl.pres.ind.act": "adsumimus",
       "2pl.pres.ind.act": "adsumitis",
+      "2sg.pres.ind.pass": "adsumeris",
+      "3sg.pres.ind.pass": "adsumitur",
+      "1sg.imperf.subj.act": "adsumerem",
+      "2sg.imperf.subj.act": "adsumeres",
+      "3sg.imperf.subj.act": "adsumeret",
+      "1pl.imperf.subj.act": "adsumeremus",
+      "2pl.imperf.subj.act": "adsumeretis",
+      "3pl.imperf.subj.act": "adsumerent",
       "2sg.pres.imp.act": "adsume",
-      "2pl.pres.imp.act": "adsumite"
+      "2pl.pres.imp.act": "adsumite",
+      "1sg.perf.ind.act": "adsumpsi",
+      "2sg.perf.ind.act": "adsumpsisti",
+      "3sg.perf.ind.act": "adsumpsit",
+      "1pl.perf.ind.act": "adsumpsimus",
+      "2pl.perf.ind.act": "adsumpsistis",
+      "3pl.perf.ind.act": "adsumpserunt"
     }
   },
   "ppp_paradigm": {

@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "ludis",
       "3sg.pres.ind.act": "ludit",
       "1pl.pres.ind.act": "ludimus",
       "2pl.pres.ind.act": "luditis",
+      "2sg.pres.ind.pass": "luderis",
+      "3sg.pres.ind.pass": "luditur",
+      "1sg.imperf.subj.act": "luderem",
+      "2sg.imperf.subj.act": "luderes",
+      "3sg.imperf.subj.act": "luderet",
+      "1pl.imperf.subj.act": "luderemus",
+      "2pl.imperf.subj.act": "luderetis",
+      "3pl.imperf.subj.act": "luderent",
       "2sg.pres.imp.act": "lude",
-      "2pl.pres.imp.act": "ludite"
+      "2pl.pres.imp.act": "ludite",
+      "1sg.perf.ind.act": "lusi",
+      "2sg.perf.ind.act": "lusisti",
+      "3sg.perf.ind.act": "lusit",
+      "1pl.perf.ind.act": "lusimus",
+      "2pl.perf.ind.act": "lusistis",
+      "3pl.perf.ind.act": "luserunt"
     }
   },
   "ppp_paradigm": {

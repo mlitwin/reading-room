@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "eludis",
       "3sg.pres.ind.act": "eludit",
       "1pl.pres.ind.act": "eludimus",
       "2pl.pres.ind.act": "eluditis",
+      "2sg.pres.ind.pass": "eluderis",
+      "3sg.pres.ind.pass": "eluditur",
+      "1sg.imperf.subj.act": "eluderem",
+      "2sg.imperf.subj.act": "eluderes",
+      "3sg.imperf.subj.act": "eluderet",
+      "1pl.imperf.subj.act": "eluderemus",
+      "2pl.imperf.subj.act": "eluderetis",
+      "3pl.imperf.subj.act": "eluderent",
       "2sg.pres.imp.act": "elude",
-      "2pl.pres.imp.act": "eludite"
+      "2pl.pres.imp.act": "eludite",
+      "1sg.perf.ind.act": "elusi",
+      "2sg.perf.ind.act": "elusisti",
+      "3sg.perf.ind.act": "elusit",
+      "1pl.perf.ind.act": "elusimus",
+      "2pl.perf.ind.act": "elusistis",
+      "3pl.perf.ind.act": "eluserunt"
     }
   },
   "ppp_paradigm": {

@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "rumpis",
       "3sg.pres.ind.act": "rumpit",
       "1pl.pres.ind.act": "rumpimus",
       "2pl.pres.ind.act": "rumpitis",
+      "2sg.pres.ind.pass": "rumperis",
+      "3sg.pres.ind.pass": "rumpitur",
+      "1sg.imperf.subj.act": "rumperem",
+      "2sg.imperf.subj.act": "rumperes",
+      "3sg.imperf.subj.act": "rumperet",
+      "1pl.imperf.subj.act": "rumperemus",
+      "2pl.imperf.subj.act": "rumperetis",
+      "3pl.imperf.subj.act": "rumperent",
       "2sg.pres.imp.act": "rumpe",
-      "2pl.pres.imp.act": "rumpite"
+      "2pl.pres.imp.act": "rumpite",
+      "1sg.perf.ind.act": "rupi",
+      "2sg.perf.ind.act": "rupisti",
+      "3sg.perf.ind.act": "rupit",
+      "1pl.perf.ind.act": "rupimus",
+      "2pl.perf.ind.act": "rupistis",
+      "3pl.perf.ind.act": "ruperunt"
     }
   },
   "ppp_paradigm": {

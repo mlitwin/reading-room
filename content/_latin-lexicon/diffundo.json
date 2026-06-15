@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "diffundis",
       "3sg.pres.ind.act": "diffundit",
       "1pl.pres.ind.act": "diffundimus",
       "2pl.pres.ind.act": "diffunditis",
+      "2sg.pres.ind.pass": "diffunderis",
+      "3sg.pres.ind.pass": "diffunditur",
+      "1sg.imperf.subj.act": "diffunderem",
+      "2sg.imperf.subj.act": "diffunderes",
+      "3sg.imperf.subj.act": "diffunderet",
+      "1pl.imperf.subj.act": "diffunderemus",
+      "2pl.imperf.subj.act": "diffunderetis",
+      "3pl.imperf.subj.act": "diffunderent",
       "2sg.pres.imp.act": "diffunde",
-      "2pl.pres.imp.act": "diffundite"
+      "2pl.pres.imp.act": "diffundite",
+      "1sg.perf.ind.act": "diffundi",
+      "2sg.perf.ind.act": "diffundisti",
+      "3sg.perf.ind.act": "diffundit",
+      "1pl.perf.ind.act": "diffundimus",
+      "2pl.perf.ind.act": "diffundistis",
+      "3pl.perf.ind.act": "diffunderunt"
     }
   },
   "ppp_paradigm": {

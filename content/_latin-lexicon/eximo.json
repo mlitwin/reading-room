@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "eximis",
       "3sg.pres.ind.act": "eximit",
       "1pl.pres.ind.act": "eximimus",
       "2pl.pres.ind.act": "eximitis",
+      "2sg.pres.ind.pass": "eximeris",
+      "3sg.pres.ind.pass": "eximitur",
+      "1sg.imperf.subj.act": "eximerem",
+      "2sg.imperf.subj.act": "eximeres",
+      "3sg.imperf.subj.act": "eximeret",
+      "1pl.imperf.subj.act": "eximeremus",
+      "2pl.imperf.subj.act": "eximeretis",
+      "3pl.imperf.subj.act": "eximerent",
       "2sg.pres.imp.act": "exime",
-      "2pl.pres.imp.act": "eximite"
+      "2pl.pres.imp.act": "eximite",
+      "1sg.perf.ind.act": "exemi",
+      "2sg.perf.ind.act": "exemisti",
+      "3sg.perf.ind.act": "exemit",
+      "1pl.perf.ind.act": "exemimus",
+      "2pl.perf.ind.act": "exemistis",
+      "3pl.perf.ind.act": "exemerunt"
     }
   },
   "ppp_paradigm": {

@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "facis",
       "3sg.pres.ind.act": "facit",
       "1pl.pres.ind.act": "facimus",
       "2pl.pres.ind.act": "facitis",
+      "2sg.pres.ind.pass": "faceris",
+      "3sg.pres.ind.pass": "facitur",
+      "1sg.imperf.subj.act": "facerem",
+      "2sg.imperf.subj.act": "faceres",
+      "3sg.imperf.subj.act": "faceret",
+      "1pl.imperf.subj.act": "faceremus",
+      "2pl.imperf.subj.act": "faceretis",
+      "3pl.imperf.subj.act": "facerent",
       "2sg.pres.imp.act": "face",
-      "2pl.pres.imp.act": "facite"
+      "2pl.pres.imp.act": "facite",
+      "1sg.perf.ind.act": "feci",
+      "2sg.perf.ind.act": "fecisti",
+      "3sg.perf.ind.act": "fecit",
+      "1pl.perf.ind.act": "fecimus",
+      "2pl.perf.ind.act": "fecistis",
+      "3pl.perf.ind.act": "fecerunt"
     }
   },
   "ppp_paradigm": {

@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "contemnis",
       "3sg.pres.ind.act": "contemnit",
       "1pl.pres.ind.act": "contemnimus",
       "2pl.pres.ind.act": "contemnitis",
+      "2sg.pres.ind.pass": "contemneris",
+      "3sg.pres.ind.pass": "contemnitur",
+      "1sg.imperf.subj.act": "contemnerem",
+      "2sg.imperf.subj.act": "contemneres",
+      "3sg.imperf.subj.act": "contemneret",
+      "1pl.imperf.subj.act": "contemneremus",
+      "2pl.imperf.subj.act": "contemneretis",
+      "3pl.imperf.subj.act": "contemnerent",
       "2sg.pres.imp.act": "contemne",
-      "2pl.pres.imp.act": "contemnite"
+      "2pl.pres.imp.act": "contemnite",
+      "1sg.perf.ind.act": "contempsi",
+      "2sg.perf.ind.act": "contempsisti",
+      "3sg.perf.ind.act": "contempsit",
+      "1pl.perf.ind.act": "contempsimus",
+      "2pl.perf.ind.act": "contempsistis",
+      "3pl.perf.ind.act": "contempserunt"
     }
   },
   "ppp_paradigm": {

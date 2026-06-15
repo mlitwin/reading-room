@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "regis",
       "3sg.pres.ind.act": "regit",
       "1pl.pres.ind.act": "regimus",
       "2pl.pres.ind.act": "regitis",
+      "2sg.pres.ind.pass": "regeris",
+      "3sg.pres.ind.pass": "regitur",
+      "1sg.imperf.subj.act": "regerem",
+      "2sg.imperf.subj.act": "regeres",
+      "3sg.imperf.subj.act": "regeret",
+      "1pl.imperf.subj.act": "regeremus",
+      "2pl.imperf.subj.act": "regeretis",
+      "3pl.imperf.subj.act": "regerent",
       "2sg.pres.imp.act": "rege",
-      "2pl.pres.imp.act": "regite"
+      "2pl.pres.imp.act": "regite",
+      "1sg.perf.ind.act": "rexi",
+      "2sg.perf.ind.act": "rexisti",
+      "3sg.perf.ind.act": "rexit",
+      "1pl.perf.ind.act": "reximus",
+      "2pl.perf.ind.act": "rexistis",
+      "3pl.perf.ind.act": "rexerunt"
     }
   },
   "ppp_paradigm": {

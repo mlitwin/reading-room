@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "seducis",
       "3sg.pres.ind.act": "seducit",
       "1pl.pres.ind.act": "seducimus",
       "2pl.pres.ind.act": "seducitis",
+      "2sg.pres.ind.pass": "seduceris",
+      "3sg.pres.ind.pass": "seducitur",
+      "1sg.imperf.subj.act": "seducerem",
+      "2sg.imperf.subj.act": "seduceres",
+      "3sg.imperf.subj.act": "seduceret",
+      "1pl.imperf.subj.act": "seduceremus",
+      "2pl.imperf.subj.act": "seduceretis",
+      "3pl.imperf.subj.act": "seducerent",
       "2sg.pres.imp.act": "seduce",
-      "2pl.pres.imp.act": "seducite"
+      "2pl.pres.imp.act": "seducite",
+      "1sg.perf.ind.act": "seduxi",
+      "2sg.perf.ind.act": "seduxisti",
+      "3sg.perf.ind.act": "seduxit",
+      "1pl.perf.ind.act": "seduximus",
+      "2pl.perf.ind.act": "seduxistis",
+      "3pl.perf.ind.act": "seduxerunt"
     }
   },
   "ppp_paradigm": {

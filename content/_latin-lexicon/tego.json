@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "tegis",
       "3sg.pres.ind.act": "tegit",
       "1pl.pres.ind.act": "tegimus",
       "2pl.pres.ind.act": "tegitis",
+      "2sg.pres.ind.pass": "tegeris",
+      "3sg.pres.ind.pass": "tegitur",
+      "1sg.imperf.subj.act": "tegerem",
+      "2sg.imperf.subj.act": "tegeres",
+      "3sg.imperf.subj.act": "tegeret",
+      "1pl.imperf.subj.act": "tegeremus",
+      "2pl.imperf.subj.act": "tegeretis",
+      "3pl.imperf.subj.act": "tegerent",
       "2sg.pres.imp.act": "tege",
-      "2pl.pres.imp.act": "tegite"
+      "2pl.pres.imp.act": "tegite",
+      "1sg.perf.ind.act": "texi",
+      "2sg.perf.ind.act": "texisti",
+      "3sg.perf.ind.act": "texit",
+      "1pl.perf.ind.act": "teximus",
+      "2pl.perf.ind.act": "texistis",
+      "3pl.perf.ind.act": "texerunt"
     }
   },
   "ppp_paradigm": {

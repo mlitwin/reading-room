@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "obstipescis",
       "3sg.pres.ind.act": "obstipescit",
       "1pl.pres.ind.act": "obstipescimus",
       "2pl.pres.ind.act": "obstipescitis",
+      "2sg.pres.ind.pass": "obstipesceris",
+      "3sg.pres.ind.pass": "obstipescitur",
+      "1sg.imperf.subj.act": "obstipescerem",
+      "2sg.imperf.subj.act": "obstipesceres",
+      "3sg.imperf.subj.act": "obstipesceret",
+      "1pl.imperf.subj.act": "obstipesceremus",
+      "2pl.imperf.subj.act": "obstipesceretis",
+      "3pl.imperf.subj.act": "obstipescerent",
       "2sg.pres.imp.act": "obstipesce",
-      "2pl.pres.imp.act": "obstipescite"
+      "2pl.pres.imp.act": "obstipescite",
+      "1sg.perf.ind.act": "obstipui",
+      "2sg.perf.ind.act": "obstipuisti",
+      "3sg.perf.ind.act": "obstipuit",
+      "1pl.perf.ind.act": "obstipuimus",
+      "2pl.perf.ind.act": "obstipuistis",
+      "3pl.perf.ind.act": "obstipuerunt"
     }
   },
   "ppp_paradigm": {

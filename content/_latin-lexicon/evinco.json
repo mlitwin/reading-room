@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "evincis",
       "3sg.pres.ind.act": "evincit",
       "1pl.pres.ind.act": "evincimus",
       "2pl.pres.ind.act": "evincitis",
+      "2sg.pres.ind.pass": "evinceris",
+      "3sg.pres.ind.pass": "evincitur",
+      "1sg.imperf.subj.act": "evincerem",
+      "2sg.imperf.subj.act": "evinceres",
+      "3sg.imperf.subj.act": "evinceret",
+      "1pl.imperf.subj.act": "evinceremus",
+      "2pl.imperf.subj.act": "evinceretis",
+      "3pl.imperf.subj.act": "evincerent",
       "2sg.pres.imp.act": "evince",
-      "2pl.pres.imp.act": "evincite"
+      "2pl.pres.imp.act": "evincite",
+      "1sg.perf.ind.act": "evici",
+      "2sg.perf.ind.act": "evicisti",
+      "3sg.perf.ind.act": "evicit",
+      "1pl.perf.ind.act": "evicimus",
+      "2pl.perf.ind.act": "evicistis",
+      "3pl.perf.ind.act": "evicerunt"
     }
   },
   "ppp_paradigm": {

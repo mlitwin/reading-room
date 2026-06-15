@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "fugis",
       "3sg.pres.ind.act": "fugit",
       "1pl.pres.ind.act": "fugimus",
       "2pl.pres.ind.act": "fugitis",
+      "2sg.pres.ind.pass": "fugeris",
+      "3sg.pres.ind.pass": "fugitur",
+      "1sg.imperf.subj.act": "fugerem",
+      "2sg.imperf.subj.act": "fugeres",
+      "3sg.imperf.subj.act": "fugeret",
+      "1pl.imperf.subj.act": "fugeremus",
+      "2pl.imperf.subj.act": "fugeretis",
+      "3pl.imperf.subj.act": "fugerent",
       "2sg.pres.imp.act": "fuge",
-      "2pl.pres.imp.act": "fugite"
+      "2pl.pres.imp.act": "fugite",
+      "1sg.perf.ind.act": "fugi",
+      "2sg.perf.ind.act": "fugisti",
+      "3sg.perf.ind.act": "fugit",
+      "1pl.perf.ind.act": "fugimus",
+      "2pl.perf.ind.act": "fugistis",
+      "3pl.perf.ind.act": "fugerunt"
     }
   },
   "ppp_paradigm": {

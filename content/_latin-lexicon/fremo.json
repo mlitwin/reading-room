@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "fremis",
       "3sg.pres.ind.act": "fremit",
       "1pl.pres.ind.act": "fremimus",
       "2pl.pres.ind.act": "fremitis",
+      "2sg.pres.ind.pass": "fremeris",
+      "3sg.pres.ind.pass": "fremitur",
+      "1sg.imperf.subj.act": "fremerem",
+      "2sg.imperf.subj.act": "fremeres",
+      "3sg.imperf.subj.act": "fremeret",
+      "1pl.imperf.subj.act": "fremeremus",
+      "2pl.imperf.subj.act": "fremeretis",
+      "3pl.imperf.subj.act": "fremerent",
       "2sg.pres.imp.act": "freme",
-      "2pl.pres.imp.act": "fremite"
+      "2pl.pres.imp.act": "fremite",
+      "1sg.perf.ind.act": "fremui",
+      "2sg.perf.ind.act": "fremuisti",
+      "3sg.perf.ind.act": "fremuit",
+      "1pl.perf.ind.act": "fremuimus",
+      "2pl.perf.ind.act": "fremuistis",
+      "3pl.perf.ind.act": "fremuerunt"
     }
   },
   "ppp_paradigm": {

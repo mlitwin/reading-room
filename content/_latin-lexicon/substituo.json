@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "substituis",
       "3sg.pres.ind.act": "substituit",
       "1pl.pres.ind.act": "substituimus",
       "2pl.pres.ind.act": "substituitis",
+      "2sg.pres.ind.pass": "substitueris",
+      "3sg.pres.ind.pass": "substituitur",
+      "1sg.imperf.subj.act": "substituerem",
+      "2sg.imperf.subj.act": "substitueres",
+      "3sg.imperf.subj.act": "substitueret",
+      "1pl.imperf.subj.act": "substitueremus",
+      "2pl.imperf.subj.act": "substitueretis",
+      "3pl.imperf.subj.act": "substituerent",
       "2sg.pres.imp.act": "substitue",
-      "2pl.pres.imp.act": "substituite"
+      "2pl.pres.imp.act": "substituite",
+      "1sg.perf.ind.act": "substitui",
+      "2sg.perf.ind.act": "substituisti",
+      "3sg.perf.ind.act": "substituit",
+      "1pl.perf.ind.act": "substituimus",
+      "2pl.perf.ind.act": "substituistis",
+      "3pl.perf.ind.act": "substituerunt"
     }
   },
   "ppp_paradigm": {

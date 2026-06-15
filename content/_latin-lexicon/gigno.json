@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "gignis",
       "3sg.pres.ind.act": "gignit",
       "1pl.pres.ind.act": "gignimus",
       "2pl.pres.ind.act": "gignitis",
+      "2sg.pres.ind.pass": "gigneris",
+      "3sg.pres.ind.pass": "gignitur",
+      "1sg.imperf.subj.act": "gignerem",
+      "2sg.imperf.subj.act": "gigneres",
+      "3sg.imperf.subj.act": "gigneret",
+      "1pl.imperf.subj.act": "gigneremus",
+      "2pl.imperf.subj.act": "gigneretis",
+      "3pl.imperf.subj.act": "gignerent",
       "2sg.pres.imp.act": "gigne",
-      "2pl.pres.imp.act": "gignite"
+      "2pl.pres.imp.act": "gignite",
+      "1sg.perf.ind.act": "genui",
+      "2sg.perf.ind.act": "genuisti",
+      "3sg.perf.ind.act": "genuit",
+      "1pl.perf.ind.act": "genuimus",
+      "2pl.perf.ind.act": "genuistis",
+      "3pl.perf.ind.act": "genuerunt"
     }
   },
   "ppp_paradigm": {

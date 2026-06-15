@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "curris",
       "3sg.pres.ind.act": "currit",
       "1pl.pres.ind.act": "currimus",
       "2pl.pres.ind.act": "curritis",
+      "2sg.pres.ind.pass": "curreris",
+      "3sg.pres.ind.pass": "curritur",
+      "1sg.imperf.subj.act": "currerem",
+      "2sg.imperf.subj.act": "curreres",
+      "3sg.imperf.subj.act": "curreret",
+      "1pl.imperf.subj.act": "curreremus",
+      "2pl.imperf.subj.act": "curreretis",
+      "3pl.imperf.subj.act": "currerent",
       "2sg.pres.imp.act": "curre",
-      "2pl.pres.imp.act": "currite"
+      "2pl.pres.imp.act": "currite",
+      "1sg.perf.ind.act": "cucurri",
+      "2sg.perf.ind.act": "cucurristi",
+      "3sg.perf.ind.act": "cucurrit",
+      "1pl.perf.ind.act": "cucurrimus",
+      "2pl.perf.ind.act": "cucurristis",
+      "3pl.perf.ind.act": "cucurrerunt"
     }
   },
   "ppp_paradigm": {

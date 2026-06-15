@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "sistis",
       "3sg.pres.ind.act": "sistit",
       "1pl.pres.ind.act": "sistimus",
       "2pl.pres.ind.act": "sistitis",
+      "2sg.pres.ind.pass": "sisteris",
+      "3sg.pres.ind.pass": "sistitur",
+      "1sg.imperf.subj.act": "sisterem",
+      "2sg.imperf.subj.act": "sisteres",
+      "3sg.imperf.subj.act": "sisteret",
+      "1pl.imperf.subj.act": "sisteremus",
+      "2pl.imperf.subj.act": "sisteretis",
+      "3pl.imperf.subj.act": "sisterent",
       "2sg.pres.imp.act": "siste",
-      "2pl.pres.imp.act": "sistite"
+      "2pl.pres.imp.act": "sistite",
+      "1sg.perf.ind.act": "stiti",
+      "2sg.perf.ind.act": "stitisti",
+      "3sg.perf.ind.act": "stitit",
+      "1pl.perf.ind.act": "stitimus",
+      "2pl.perf.ind.act": "stitistis",
+      "3pl.perf.ind.act": "stiterunt"
     }
   },
   "ppp_paradigm": {

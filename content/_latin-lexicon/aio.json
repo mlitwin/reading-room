@@ -27,7 +27,9 @@
     ],
     "cols": [
       "pres.ind.act",
+      "imperf.ind.act",
       "perf.ind.act",
+      "pres.subj.act",
       "pres.imp.act"
     ],
     "cells": {
@@ -35,8 +37,22 @@
       "2sg.pres.ind.act": "ais",
       "3sg.pres.ind.act": "ait",
       "3pl.pres.ind.act": "aiunt",
+      "1sg.imperf.ind.act": "aiebam",
+      "2sg.imperf.ind.act": "aiebas",
+      "3sg.imperf.ind.act": "aiebat",
+      "1pl.imperf.ind.act": "aiebamus",
+      "2pl.imperf.ind.act": "aiebatis",
+      "3pl.imperf.ind.act": "aiebant",
       "3sg.perf.ind.act": "ait",
-      "2sg.pres.imp.act": "ai"
+      "2sg.pres.subj.act": "aias",
+      "3sg.pres.subj.act": "aiat",
+      "3pl.pres.subj.act": "aiant",
+      "2sg.pres.imp.act": "ai",
+      "1sg.perf.ind.act": "-i",
+      "2sg.perf.ind.act": "-isti",
+      "1pl.perf.ind.act": "-imus",
+      "2pl.perf.ind.act": "-istis",
+      "3pl.perf.ind.act": "-erunt"
     }
   },
   "ppp_paradigm": {

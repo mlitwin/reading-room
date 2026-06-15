@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "annuis",
       "3sg.pres.ind.act": "annuit",
       "1pl.pres.ind.act": "annuimus",
       "2pl.pres.ind.act": "annuitis",
+      "2sg.pres.ind.pass": "annueris",
+      "3sg.pres.ind.pass": "annuitur",
+      "1sg.imperf.subj.act": "annuerem",
+      "2sg.imperf.subj.act": "annueres",
+      "3sg.imperf.subj.act": "annueret",
+      "1pl.imperf.subj.act": "annueremus",
+      "2pl.imperf.subj.act": "annueretis",
+      "3pl.imperf.subj.act": "annuerent",
       "2sg.pres.imp.act": "annue",
-      "2pl.pres.imp.act": "annuite"
+      "2pl.pres.imp.act": "annuite",
+      "1sg.perf.ind.act": "annui",
+      "2sg.perf.ind.act": "annuisti",
+      "3sg.perf.ind.act": "annuit",
+      "1pl.perf.ind.act": "annuimus",
+      "2pl.perf.ind.act": "annuistis",
+      "3pl.perf.ind.act": "annuerunt"
     }
   },
   "ppp_paradigm": {

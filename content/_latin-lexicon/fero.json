@@ -30,23 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
-      "1sg.pres.ind.act": "fero",
       "2sg.pres.ind.act": "fers",
       "3sg.pres.ind.act": "fert",
       "1pl.pres.ind.act": "ferimus",
       "2pl.pres.ind.act": "fertis",
-      "3pl.pres.ind.act": "ferunt",
+      "2sg.pres.ind.pass": "ferris",
+      "3sg.pres.ind.pass": "fertur",
+      "1sg.imperf.subj.act": "ferrem",
+      "2sg.imperf.subj.act": "ferres",
+      "3sg.imperf.subj.act": "ferret",
+      "1pl.imperf.subj.act": "ferremus",
+      "2pl.imperf.subj.act": "ferretis",
+      "3pl.imperf.subj.act": "ferrent",
+      "2sg.pres.imp.act": "fer",
+      "2pl.pres.imp.act": "ferte",
       "1sg.perf.ind.act": "tuli",
       "2sg.perf.ind.act": "tulisti",
       "3sg.perf.ind.act": "tulit",
       "1pl.perf.ind.act": "tulimus",
       "2pl.perf.ind.act": "tulistis",
-      "3pl.perf.ind.act": "tulerunt",
-      "2sg.pres.imp.act": "fer",
-      "2pl.pres.imp.act": "ferte"
+      "3pl.perf.ind.act": "tulerunt"
     }
   },
   "ppp_paradigm": {

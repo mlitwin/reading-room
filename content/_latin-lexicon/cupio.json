@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "cupis",
       "3sg.pres.ind.act": "cupit",
       "1pl.pres.ind.act": "cupimus",
       "2pl.pres.ind.act": "cupitis",
+      "2sg.pres.ind.pass": "cuperis",
+      "3sg.pres.ind.pass": "cupitur",
+      "1sg.imperf.subj.act": "cuperem",
+      "2sg.imperf.subj.act": "cuperes",
+      "3sg.imperf.subj.act": "cuperet",
+      "1pl.imperf.subj.act": "cuperemus",
+      "2pl.imperf.subj.act": "cuperetis",
+      "3pl.imperf.subj.act": "cuperent",
       "2sg.pres.imp.act": "cupe",
-      "2pl.pres.imp.act": "cupite"
+      "2pl.pres.imp.act": "cupite",
+      "1sg.perf.ind.act": "cupivi",
+      "2sg.perf.ind.act": "cupivisti",
+      "3sg.perf.ind.act": "cupivit",
+      "1pl.perf.ind.act": "cupivimus",
+      "2pl.perf.ind.act": "cupivistis",
+      "3pl.perf.ind.act": "cupiverunt"
     }
   },
   "ppp_paradigm": {

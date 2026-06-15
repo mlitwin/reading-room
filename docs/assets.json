@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T23:54:31.412Z",
+  "generated_at": "2026-06-15T00:55:55.106Z",
   "files": [
     {
       "path": "assets/cards.js",
-      "sha256": "d9bc4704e006b7eff4132b863245d5bfcc01b98a0abce0fa143f18c759783f0d",
-      "size": 21811
+      "sha256": "20f22d587aa7d4d18c5e62644ee0262f27be5b6896c964f5b39dbdc139895d2d",
+      "size": 22159
     },
     {
       "path": "assets/fonts/KaTeX_AMS-Regular.ttf",
@@ -318,13 +318,13 @@
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "b3ea2fd8bbe92f9622da9b0932e918f983cea1ff807db728f88d719d088b61af",
-      "size": 1578020
+      "sha256": "1af337fdc9f2a5a3ea2b1301666b2cbedf2c99e8b60348bdd4b97b6a08b7c691",
+      "size": 2281807
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "e9da162ab28b8ea2ab715a5031bd36a930023f827b958f49dbbaaaf16167e4d2",
-      "size": 1577991
+      "sha256": "fe6c0e27031b236bb35d968c2a7bd8ed005fbb746d628f9fb69ba169a4c53dd0",
+      "size": 2281778
     },
     {
       "path": "assets/notes.js",
@@ -523,7 +523,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "26aaba0e13850851daa48ff279a1823b8b6b56f90ba8cc89fe992b14f9a9d4ea",
+      "sha256": "d7d81f9d7f696c1cd7c195d56b677c7dbac53c6c284343facac101ea7ac283fc",
       "size": 26585
     },
     {

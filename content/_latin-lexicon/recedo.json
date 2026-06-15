@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "recedis",
       "3sg.pres.ind.act": "recedit",
       "1pl.pres.ind.act": "recedimus",
       "2pl.pres.ind.act": "receditis",
+      "2sg.pres.ind.pass": "recederis",
+      "3sg.pres.ind.pass": "receditur",
+      "1sg.imperf.subj.act": "recederem",
+      "2sg.imperf.subj.act": "recederes",
+      "3sg.imperf.subj.act": "recederet",
+      "1pl.imperf.subj.act": "recederemus",
+      "2pl.imperf.subj.act": "recederetis",
+      "3pl.imperf.subj.act": "recederent",
       "2sg.pres.imp.act": "recede",
-      "2pl.pres.imp.act": "recedite"
+      "2pl.pres.imp.act": "recedite",
+      "1sg.perf.ind.act": "recessi",
+      "2sg.perf.ind.act": "recessisti",
+      "3sg.perf.ind.act": "recessit",
+      "1pl.perf.ind.act": "recessimus",
+      "2pl.perf.ind.act": "recessistis",
+      "3pl.perf.ind.act": "recesserunt"
     }
   },
   "ppp_paradigm": {

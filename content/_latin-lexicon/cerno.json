@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "cernis",
       "3sg.pres.ind.act": "cernit",
       "1pl.pres.ind.act": "cernimus",
       "2pl.pres.ind.act": "cernitis",
+      "2sg.pres.ind.pass": "cerneris",
+      "3sg.pres.ind.pass": "cernitur",
+      "1sg.imperf.subj.act": "cernerem",
+      "2sg.imperf.subj.act": "cerneres",
+      "3sg.imperf.subj.act": "cerneret",
+      "1pl.imperf.subj.act": "cerneremus",
+      "2pl.imperf.subj.act": "cerneretis",
+      "3pl.imperf.subj.act": "cernerent",
       "2sg.pres.imp.act": "cerne",
-      "2pl.pres.imp.act": "cernite"
+      "2pl.pres.imp.act": "cernite",
+      "1sg.perf.ind.act": "crevi",
+      "2sg.perf.ind.act": "crevisti",
+      "3sg.perf.ind.act": "crevit",
+      "1pl.perf.ind.act": "crevimus",
+      "2pl.perf.ind.act": "crevistis",
+      "3pl.perf.ind.act": "creverunt"
     }
   },
   "ppp_paradigm": {

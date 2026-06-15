@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "evertis",
       "3sg.pres.ind.act": "evertit",
       "1pl.pres.ind.act": "evertimus",
       "2pl.pres.ind.act": "evertitis",
+      "2sg.pres.ind.pass": "everteris",
+      "3sg.pres.ind.pass": "evertitur",
+      "1sg.imperf.subj.act": "everterem",
+      "2sg.imperf.subj.act": "everteres",
+      "3sg.imperf.subj.act": "everteret",
+      "1pl.imperf.subj.act": "everteremus",
+      "2pl.imperf.subj.act": "everteretis",
+      "3pl.imperf.subj.act": "everterent",
       "2sg.pres.imp.act": "everte",
-      "2pl.pres.imp.act": "evertite"
+      "2pl.pres.imp.act": "evertite",
+      "1sg.perf.ind.act": "everti",
+      "2sg.perf.ind.act": "evertisti",
+      "3sg.perf.ind.act": "evertit",
+      "1pl.perf.ind.act": "evertimus",
+      "2pl.perf.ind.act": "evertistis",
+      "3pl.perf.ind.act": "everterunt"
     }
   },
   "ppp_paradigm": {

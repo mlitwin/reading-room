@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "reddis",
       "3sg.pres.ind.act": "reddit",
       "1pl.pres.ind.act": "reddimus",
       "2pl.pres.ind.act": "redditis",
+      "2sg.pres.ind.pass": "redderis",
+      "3sg.pres.ind.pass": "redditur",
+      "1sg.imperf.subj.act": "redderem",
+      "2sg.imperf.subj.act": "redderes",
+      "3sg.imperf.subj.act": "redderet",
+      "1pl.imperf.subj.act": "redderemus",
+      "2pl.imperf.subj.act": "redderetis",
+      "3pl.imperf.subj.act": "redderent",
       "2sg.pres.imp.act": "redde",
-      "2pl.pres.imp.act": "reddite"
+      "2pl.pres.imp.act": "reddite",
+      "1sg.perf.ind.act": "reddidi",
+      "2sg.perf.ind.act": "reddidisti",
+      "3sg.perf.ind.act": "reddidit",
+      "1pl.perf.ind.act": "reddidimus",
+      "2pl.perf.ind.act": "reddidistis",
+      "3pl.perf.ind.act": "reddiderunt"
     }
   },
   "ppp_paradigm": {

@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "volvis",
       "3sg.pres.ind.act": "volvit",
       "1pl.pres.ind.act": "volvimus",
       "2pl.pres.ind.act": "volvitis",
+      "2sg.pres.ind.pass": "volveris",
+      "3sg.pres.ind.pass": "volvitur",
+      "1sg.imperf.subj.act": "volverem",
+      "2sg.imperf.subj.act": "volveres",
+      "3sg.imperf.subj.act": "volveret",
+      "1pl.imperf.subj.act": "volveremus",
+      "2pl.imperf.subj.act": "volveretis",
+      "3pl.imperf.subj.act": "volverent",
       "2sg.pres.imp.act": "volve",
-      "2pl.pres.imp.act": "volvite"
+      "2pl.pres.imp.act": "volvite",
+      "1sg.perf.ind.act": "volvi",
+      "2sg.perf.ind.act": "volvisti",
+      "3sg.perf.ind.act": "volvit",
+      "1pl.perf.ind.act": "volvimus",
+      "2pl.perf.ind.act": "volvistis",
+      "3pl.perf.ind.act": "volverunt"
     }
   },
   "ppp_paradigm": {

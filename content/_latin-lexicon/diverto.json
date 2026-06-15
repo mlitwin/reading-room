@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "divertis",
       "3sg.pres.ind.act": "divertit",
       "1pl.pres.ind.act": "divertimus",
       "2pl.pres.ind.act": "divertitis",
+      "2sg.pres.ind.pass": "diverteris",
+      "3sg.pres.ind.pass": "divertitur",
+      "1sg.imperf.subj.act": "diverterem",
+      "2sg.imperf.subj.act": "diverteres",
+      "3sg.imperf.subj.act": "diverteret",
+      "1pl.imperf.subj.act": "diverteremus",
+      "2pl.imperf.subj.act": "diverteretis",
+      "3pl.imperf.subj.act": "diverterent",
       "2sg.pres.imp.act": "diverte",
-      "2pl.pres.imp.act": "divertite"
+      "2pl.pres.imp.act": "divertite",
+      "1sg.perf.ind.act": "diverti",
+      "2sg.perf.ind.act": "divertisti",
+      "3sg.perf.ind.act": "divertit",
+      "1pl.perf.ind.act": "divertimus",
+      "2pl.perf.ind.act": "divertistis",
+      "3pl.perf.ind.act": "diverterunt"
     }
   },
   "ppp_paradigm": {

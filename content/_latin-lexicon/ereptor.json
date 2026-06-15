@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "eripis",
       "3sg.pres.ind.act": "eripit",
       "1pl.pres.ind.act": "eripimus",
       "2pl.pres.ind.act": "eripitis",
+      "2sg.pres.ind.pass": "eriperis",
+      "3sg.pres.ind.pass": "eripitur",
+      "1sg.imperf.subj.act": "eriperem",
+      "2sg.imperf.subj.act": "eriperes",
+      "3sg.imperf.subj.act": "eriperet",
+      "1pl.imperf.subj.act": "eriperemus",
+      "2pl.imperf.subj.act": "eriperetis",
+      "3pl.imperf.subj.act": "eriperent",
       "2sg.pres.imp.act": "eripe",
-      "2pl.pres.imp.act": "eripite"
+      "2pl.pres.imp.act": "eripite",
+      "1sg.perf.ind.act": "eripui",
+      "2sg.perf.ind.act": "eripuisti",
+      "3sg.perf.ind.act": "eripuit",
+      "1pl.perf.ind.act": "eripuimus",
+      "2pl.perf.ind.act": "eripuistis",
+      "3pl.perf.ind.act": "eripuerunt"
     }
   },
   "ppp_paradigm": {

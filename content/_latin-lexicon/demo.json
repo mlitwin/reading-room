@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "demis",
       "3sg.pres.ind.act": "demit",
       "1pl.pres.ind.act": "demimus",
       "2pl.pres.ind.act": "demitis",
+      "2sg.pres.ind.pass": "demeris",
+      "3sg.pres.ind.pass": "demitur",
+      "1sg.imperf.subj.act": "demerem",
+      "2sg.imperf.subj.act": "demeres",
+      "3sg.imperf.subj.act": "demeret",
+      "1pl.imperf.subj.act": "demeremus",
+      "2pl.imperf.subj.act": "demeretis",
+      "3pl.imperf.subj.act": "demerent",
       "2sg.pres.imp.act": "deme",
-      "2pl.pres.imp.act": "demite"
+      "2pl.pres.imp.act": "demite",
+      "1sg.perf.ind.act": "dempsi",
+      "2sg.perf.ind.act": "dempsisti",
+      "3sg.perf.ind.act": "dempsit",
+      "1pl.perf.ind.act": "dempsimus",
+      "2pl.perf.ind.act": "dempsistis",
+      "3pl.perf.ind.act": "dempserunt"
     }
   },
   "ppp_paradigm": {

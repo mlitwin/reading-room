@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "claudis",
       "3sg.pres.ind.act": "claudit",
       "1pl.pres.ind.act": "claudimus",
       "2pl.pres.ind.act": "clauditis",
+      "2sg.pres.ind.pass": "clauderis",
+      "3sg.pres.ind.pass": "clauditur",
+      "1sg.imperf.subj.act": "clauderem",
+      "2sg.imperf.subj.act": "clauderes",
+      "3sg.imperf.subj.act": "clauderet",
+      "1pl.imperf.subj.act": "clauderemus",
+      "2pl.imperf.subj.act": "clauderetis",
+      "3pl.imperf.subj.act": "clauderent",
       "2sg.pres.imp.act": "claude",
-      "2pl.pres.imp.act": "claudite"
+      "2pl.pres.imp.act": "claudite",
+      "1sg.perf.ind.act": "clausi",
+      "2sg.perf.ind.act": "clausisti",
+      "3sg.perf.ind.act": "clausit",
+      "1pl.perf.ind.act": "clausimus",
+      "2pl.perf.ind.act": "clausistis",
+      "3pl.perf.ind.act": "clauserunt"
     }
   },
   "ppp_paradigm": {

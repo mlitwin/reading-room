@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "delabis",
       "3sg.pres.ind.act": "delabit",
       "1pl.pres.ind.act": "delabimus",
       "2pl.pres.ind.act": "delabitis",
+      "2sg.pres.ind.pass": "delaberis",
+      "3sg.pres.ind.pass": "delabitur",
+      "1sg.imperf.subj.act": "delaberem",
+      "2sg.imperf.subj.act": "delaberes",
+      "3sg.imperf.subj.act": "delaberet",
+      "1pl.imperf.subj.act": "delaberemus",
+      "2pl.imperf.subj.act": "delaberetis",
+      "3pl.imperf.subj.act": "delaberent",
       "2sg.pres.imp.act": "delabe",
-      "2pl.pres.imp.act": "delabite"
+      "2pl.pres.imp.act": "delabite",
+      "1sg.perf.ind.act": "-i",
+      "2sg.perf.ind.act": "-isti",
+      "3sg.perf.ind.act": "-it",
+      "1pl.perf.ind.act": "-imus",
+      "2pl.perf.ind.act": "-istis",
+      "3pl.perf.ind.act": "-erunt"
     }
   },
   "ppp_paradigm": {

@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "vivis",
       "3sg.pres.ind.act": "vivit",
       "1pl.pres.ind.act": "vivimus",
       "2pl.pres.ind.act": "vivitis",
+      "2sg.pres.ind.pass": "viveris",
+      "3sg.pres.ind.pass": "vivitur",
+      "1sg.imperf.subj.act": "viverem",
+      "2sg.imperf.subj.act": "viveres",
+      "3sg.imperf.subj.act": "viveret",
+      "1pl.imperf.subj.act": "viveremus",
+      "2pl.imperf.subj.act": "viveretis",
+      "3pl.imperf.subj.act": "viverent",
       "2sg.pres.imp.act": "vive",
-      "2pl.pres.imp.act": "vivite"
+      "2pl.pres.imp.act": "vivite",
+      "1sg.perf.ind.act": "vixi",
+      "2sg.perf.ind.act": "vixisti",
+      "3sg.perf.ind.act": "vixit",
+      "1pl.perf.ind.act": "viximus",
+      "2pl.perf.ind.act": "vixistis",
+      "3pl.perf.ind.act": "vixerunt"
     }
   },
   "ppp_paradigm": {

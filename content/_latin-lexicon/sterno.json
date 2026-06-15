@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "sternis",
       "3sg.pres.ind.act": "sternit",
       "1pl.pres.ind.act": "sternimus",
       "2pl.pres.ind.act": "sternitis",
+      "2sg.pres.ind.pass": "sterneris",
+      "3sg.pres.ind.pass": "sternitur",
+      "1sg.imperf.subj.act": "sternerem",
+      "2sg.imperf.subj.act": "sterneres",
+      "3sg.imperf.subj.act": "sterneret",
+      "1pl.imperf.subj.act": "sterneremus",
+      "2pl.imperf.subj.act": "sterneretis",
+      "3pl.imperf.subj.act": "sternerent",
       "2sg.pres.imp.act": "sterne",
-      "2pl.pres.imp.act": "sternite"
+      "2pl.pres.imp.act": "sternite",
+      "1sg.perf.ind.act": "stravi",
+      "2sg.perf.ind.act": "stravisti",
+      "3sg.perf.ind.act": "stravit",
+      "1pl.perf.ind.act": "stravimus",
+      "2pl.perf.ind.act": "stravistis",
+      "3pl.perf.ind.act": "straverunt"
     }
   },
   "ppp_paradigm": {

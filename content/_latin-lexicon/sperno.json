@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "spernis",
       "3sg.pres.ind.act": "spernit",
       "1pl.pres.ind.act": "spernimus",
       "2pl.pres.ind.act": "spernitis",
+      "2sg.pres.ind.pass": "sperneris",
+      "3sg.pres.ind.pass": "spernitur",
+      "1sg.imperf.subj.act": "spernerem",
+      "2sg.imperf.subj.act": "sperneres",
+      "3sg.imperf.subj.act": "sperneret",
+      "1pl.imperf.subj.act": "sperneremus",
+      "2pl.imperf.subj.act": "sperneretis",
+      "3pl.imperf.subj.act": "spernerent",
       "2sg.pres.imp.act": "sperne",
-      "2pl.pres.imp.act": "spernite"
+      "2pl.pres.imp.act": "spernite",
+      "1sg.perf.ind.act": "sprevi",
+      "2sg.perf.ind.act": "sprevisti",
+      "3sg.perf.ind.act": "sprevit",
+      "1pl.perf.ind.act": "sprevimus",
+      "2pl.perf.ind.act": "sprevistis",
+      "3pl.perf.ind.act": "spreverunt"
     }
   },
   "ppp_paradigm": {

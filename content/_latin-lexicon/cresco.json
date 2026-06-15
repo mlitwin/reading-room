@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "crescis",
       "3sg.pres.ind.act": "crescit",
       "1pl.pres.ind.act": "crescimus",
       "2pl.pres.ind.act": "crescitis",
+      "2sg.pres.ind.pass": "cresceris",
+      "3sg.pres.ind.pass": "crescitur",
+      "1sg.imperf.subj.act": "crescerem",
+      "2sg.imperf.subj.act": "cresceres",
+      "3sg.imperf.subj.act": "cresceret",
+      "1pl.imperf.subj.act": "cresceremus",
+      "2pl.imperf.subj.act": "cresceretis",
+      "3pl.imperf.subj.act": "crescerent",
       "2sg.pres.imp.act": "cresce",
-      "2pl.pres.imp.act": "crescite"
+      "2pl.pres.imp.act": "crescite",
+      "1sg.perf.ind.act": "crevi",
+      "2sg.perf.ind.act": "crevisti",
+      "3sg.perf.ind.act": "crevit",
+      "1pl.perf.ind.act": "crevimus",
+      "2pl.perf.ind.act": "crevistis",
+      "3pl.perf.ind.act": "creverunt"
     }
   },
   "ppp_paradigm": {

@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "pluis",
       "3sg.pres.ind.act": "pluit",
       "1pl.pres.ind.act": "pluimus",
       "2pl.pres.ind.act": "pluitis",
+      "2sg.pres.ind.pass": "plueris",
+      "3sg.pres.ind.pass": "pluitur",
+      "1sg.imperf.subj.act": "pluerem",
+      "2sg.imperf.subj.act": "plueres",
+      "3sg.imperf.subj.act": "plueret",
+      "1pl.imperf.subj.act": "plueremus",
+      "2pl.imperf.subj.act": "plueretis",
+      "3pl.imperf.subj.act": "pluerent",
       "2sg.pres.imp.act": "plue",
-      "2pl.pres.imp.act": "pluite"
+      "2pl.pres.imp.act": "pluite",
+      "1sg.perf.ind.act": "plui",
+      "2sg.perf.ind.act": "pluisti",
+      "3sg.perf.ind.act": "pluit",
+      "1pl.perf.ind.act": "pluimus",
+      "2pl.perf.ind.act": "pluistis",
+      "3pl.perf.ind.act": "pluerunt"
     }
   },
   "ppp_paradigm": {

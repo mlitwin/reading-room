@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "deposcis",
       "3sg.pres.ind.act": "deposcit",
       "1pl.pres.ind.act": "deposcimus",
       "2pl.pres.ind.act": "deposcitis",
+      "2sg.pres.ind.pass": "deposceris",
+      "3sg.pres.ind.pass": "deposcitur",
+      "1sg.imperf.subj.act": "deposcerem",
+      "2sg.imperf.subj.act": "deposceres",
+      "3sg.imperf.subj.act": "deposceret",
+      "1pl.imperf.subj.act": "deposceremus",
+      "2pl.imperf.subj.act": "deposceretis",
+      "3pl.imperf.subj.act": "deposcerent",
       "2sg.pres.imp.act": "deposce",
-      "2pl.pres.imp.act": "deposcite"
+      "2pl.pres.imp.act": "deposcite",
+      "1sg.perf.ind.act": "depoposci",
+      "2sg.perf.ind.act": "depoposcisti",
+      "3sg.perf.ind.act": "depoposcit",
+      "1pl.perf.ind.act": "depoposcimus",
+      "2pl.perf.ind.act": "depoposcistis",
+      "3pl.perf.ind.act": "depoposcerunt"
     }
   },
   "ppp_paradigm": {

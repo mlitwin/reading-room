@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "perfundis",
       "3sg.pres.ind.act": "perfundit",
       "1pl.pres.ind.act": "perfundimus",
       "2pl.pres.ind.act": "perfunditis",
+      "2sg.pres.ind.pass": "perfunderis",
+      "3sg.pres.ind.pass": "perfunditur",
+      "1sg.imperf.subj.act": "perfunderem",
+      "2sg.imperf.subj.act": "perfunderes",
+      "3sg.imperf.subj.act": "perfunderet",
+      "1pl.imperf.subj.act": "perfunderemus",
+      "2pl.imperf.subj.act": "perfunderetis",
+      "3pl.imperf.subj.act": "perfunderent",
       "2sg.pres.imp.act": "perfunde",
-      "2pl.pres.imp.act": "perfundite"
+      "2pl.pres.imp.act": "perfundite",
+      "1sg.perf.ind.act": "perfudi",
+      "2sg.perf.ind.act": "perfudisti",
+      "3sg.perf.ind.act": "perfudit",
+      "1pl.perf.ind.act": "perfudimus",
+      "2pl.perf.ind.act": "perfudistis",
+      "3pl.perf.ind.act": "perfuderunt"
     }
   },
   "ppp_paradigm": {

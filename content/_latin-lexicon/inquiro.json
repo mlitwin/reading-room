@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "inquiris",
       "3sg.pres.ind.act": "inquirit",
       "1pl.pres.ind.act": "inquirimus",
       "2pl.pres.ind.act": "inquiritis",
+      "2sg.pres.ind.pass": "inquireris",
+      "3sg.pres.ind.pass": "inquiritur",
+      "1sg.imperf.subj.act": "inquirerem",
+      "2sg.imperf.subj.act": "inquireres",
+      "3sg.imperf.subj.act": "inquireret",
+      "1pl.imperf.subj.act": "inquireremus",
+      "2pl.imperf.subj.act": "inquireretis",
+      "3pl.imperf.subj.act": "inquirerent",
       "2sg.pres.imp.act": "inquire",
-      "2pl.pres.imp.act": "inquirite"
+      "2pl.pres.imp.act": "inquirite",
+      "1sg.perf.ind.act": "inquisivi",
+      "2sg.perf.ind.act": "inquisivisti",
+      "3sg.perf.ind.act": "inquisivit",
+      "1pl.perf.ind.act": "inquisivimus",
+      "2pl.perf.ind.act": "inquisivistis",
+      "3pl.perf.ind.act": "inquisiverunt"
     }
   },
   "ppp_paradigm": {

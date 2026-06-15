@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "officis",
       "3sg.pres.ind.act": "officit",
       "1pl.pres.ind.act": "officimus",
       "2pl.pres.ind.act": "officitis",
+      "2sg.pres.ind.pass": "officeris",
+      "3sg.pres.ind.pass": "officitur",
+      "1sg.imperf.subj.act": "officerem",
+      "2sg.imperf.subj.act": "officeres",
+      "3sg.imperf.subj.act": "officeret",
+      "1pl.imperf.subj.act": "officeremus",
+      "2pl.imperf.subj.act": "officeretis",
+      "3pl.imperf.subj.act": "officerent",
       "2sg.pres.imp.act": "office",
-      "2pl.pres.imp.act": "officite"
+      "2pl.pres.imp.act": "officite",
+      "1sg.perf.ind.act": "offeci",
+      "2sg.perf.ind.act": "offecisti",
+      "3sg.perf.ind.act": "offecit",
+      "1pl.perf.ind.act": "offecimus",
+      "2pl.perf.ind.act": "offecistis",
+      "3pl.perf.ind.act": "offecerunt"
     }
   },
   "ppp_paradigm": {

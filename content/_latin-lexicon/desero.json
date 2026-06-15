@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "deseris",
       "3sg.pres.ind.act": "deserit",
       "1pl.pres.ind.act": "deserimus",
       "2pl.pres.ind.act": "deseritis",
+      "2sg.pres.ind.pass": "desereris",
+      "3sg.pres.ind.pass": "deseritur",
+      "1sg.imperf.subj.act": "desererem",
+      "2sg.imperf.subj.act": "desereres",
+      "3sg.imperf.subj.act": "desereret",
+      "1pl.imperf.subj.act": "desereremus",
+      "2pl.imperf.subj.act": "desereretis",
+      "3pl.imperf.subj.act": "desererent",
       "2sg.pres.imp.act": "desere",
-      "2pl.pres.imp.act": "deserite"
+      "2pl.pres.imp.act": "deserite",
+      "1sg.perf.ind.act": "deserui",
+      "2sg.perf.ind.act": "deseruisti",
+      "3sg.perf.ind.act": "deseruit",
+      "1pl.perf.ind.act": "deseruimus",
+      "2pl.perf.ind.act": "deseruistis",
+      "3pl.perf.ind.act": "deseruerunt"
     }
   },
   "ppp_paradigm": {

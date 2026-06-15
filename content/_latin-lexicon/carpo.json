@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "carpis",
       "3sg.pres.ind.act": "carpit",
       "1pl.pres.ind.act": "carpimus",
       "2pl.pres.ind.act": "carpitis",
+      "2sg.pres.ind.pass": "carperis",
+      "3sg.pres.ind.pass": "carpitur",
+      "1sg.imperf.subj.act": "carperem",
+      "2sg.imperf.subj.act": "carperes",
+      "3sg.imperf.subj.act": "carperet",
+      "1pl.imperf.subj.act": "carperemus",
+      "2pl.imperf.subj.act": "carperetis",
+      "3pl.imperf.subj.act": "carperent",
       "2sg.pres.imp.act": "carpe",
-      "2pl.pres.imp.act": "carpite"
+      "2pl.pres.imp.act": "carpite",
+      "1sg.perf.ind.act": "carpsi",
+      "2sg.perf.ind.act": "carpsisti",
+      "3sg.perf.ind.act": "carpsit",
+      "1pl.perf.ind.act": "carpsimus",
+      "2pl.perf.ind.act": "carpsistis",
+      "3pl.perf.ind.act": "carpserunt"
     }
   },
   "ppp_paradigm": {

@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "ducis",
       "3sg.pres.ind.act": "ducit",
       "1pl.pres.ind.act": "ducimus",
       "2pl.pres.ind.act": "ducitis",
+      "2sg.pres.ind.pass": "duceris",
+      "3sg.pres.ind.pass": "ducitur",
+      "1sg.imperf.subj.act": "ducerem",
+      "2sg.imperf.subj.act": "duceres",
+      "3sg.imperf.subj.act": "duceret",
+      "1pl.imperf.subj.act": "duceremus",
+      "2pl.imperf.subj.act": "duceretis",
+      "3pl.imperf.subj.act": "ducerent",
       "2sg.pres.imp.act": "duce",
-      "2pl.pres.imp.act": "ducite"
+      "2pl.pres.imp.act": "ducite",
+      "1sg.perf.ind.act": "duxi",
+      "2sg.perf.ind.act": "duxisti",
+      "3sg.perf.ind.act": "duxit",
+      "1pl.perf.ind.act": "duximus",
+      "2pl.perf.ind.act": "duxistis",
+      "3pl.perf.ind.act": "duxerunt"
     }
   },
   "ppp_paradigm": {

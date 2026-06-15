@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "dedis",
       "3sg.pres.ind.act": "dedit",
       "1pl.pres.ind.act": "dedimus",
       "2pl.pres.ind.act": "deditis",
+      "2sg.pres.ind.pass": "dederis",
+      "3sg.pres.ind.pass": "deditur",
+      "1sg.imperf.subj.act": "dederem",
+      "2sg.imperf.subj.act": "dederes",
+      "3sg.imperf.subj.act": "dederet",
+      "1pl.imperf.subj.act": "dederemus",
+      "2pl.imperf.subj.act": "dederetis",
+      "3pl.imperf.subj.act": "dederent",
       "2sg.pres.imp.act": "dede",
-      "2pl.pres.imp.act": "dedite"
+      "2pl.pres.imp.act": "dedite",
+      "1sg.perf.ind.act": "dedidi",
+      "2sg.perf.ind.act": "dedidisti",
+      "3sg.perf.ind.act": "dedidit",
+      "1pl.perf.ind.act": "dedidimus",
+      "2pl.perf.ind.act": "dedidistis",
+      "3pl.perf.ind.act": "dediderunt"
     }
   },
   "ppp_paradigm": {

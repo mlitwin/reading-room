@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "alis",
       "3sg.pres.ind.act": "alit",
       "1pl.pres.ind.act": "alimus",
       "2pl.pres.ind.act": "alitis",
+      "2sg.pres.ind.pass": "aleris",
+      "3sg.pres.ind.pass": "alitur",
+      "1sg.imperf.subj.act": "alerem",
+      "2sg.imperf.subj.act": "aleres",
+      "3sg.imperf.subj.act": "aleret",
+      "1pl.imperf.subj.act": "aleremus",
+      "2pl.imperf.subj.act": "aleretis",
+      "3pl.imperf.subj.act": "alerent",
       "2sg.pres.imp.act": "ale",
-      "2pl.pres.imp.act": "alite"
+      "2pl.pres.imp.act": "alite",
+      "1sg.perf.ind.act": "alui",
+      "2sg.perf.ind.act": "aluisti",
+      "3sg.perf.ind.act": "aluit",
+      "1pl.perf.ind.act": "aluimus",
+      "2pl.perf.ind.act": "aluistis",
+      "3pl.perf.ind.act": "aluerunt"
     }
   },
   "ppp_paradigm": {

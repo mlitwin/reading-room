@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "quaeris",
       "3sg.pres.ind.act": "quaerit",
       "1pl.pres.ind.act": "quaerimus",
       "2pl.pres.ind.act": "quaeritis",
+      "2sg.pres.ind.pass": "quaereris",
+      "3sg.pres.ind.pass": "quaeritur",
+      "1sg.imperf.subj.act": "quaererem",
+      "2sg.imperf.subj.act": "quaereres",
+      "3sg.imperf.subj.act": "quaereret",
+      "1pl.imperf.subj.act": "quaereremus",
+      "2pl.imperf.subj.act": "quaereretis",
+      "3pl.imperf.subj.act": "quaererent",
       "2sg.pres.imp.act": "quaere",
-      "2pl.pres.imp.act": "quaerite"
+      "2pl.pres.imp.act": "quaerite",
+      "1sg.perf.ind.act": "quaesivi",
+      "2sg.perf.ind.act": "quaesivisti",
+      "3sg.perf.ind.act": "quaesivit",
+      "1pl.perf.ind.act": "quaesivimus",
+      "2pl.perf.ind.act": "quaesivistis",
+      "3pl.perf.ind.act": "quaesiverunt"
     }
   },
   "ppp_paradigm": {

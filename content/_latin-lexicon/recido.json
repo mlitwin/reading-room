@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "recidis",
       "3sg.pres.ind.act": "recidit",
       "1pl.pres.ind.act": "recidimus",
       "2pl.pres.ind.act": "reciditis",
+      "2sg.pres.ind.pass": "recideris",
+      "3sg.pres.ind.pass": "reciditur",
+      "1sg.imperf.subj.act": "reciderem",
+      "2sg.imperf.subj.act": "recideres",
+      "3sg.imperf.subj.act": "recideret",
+      "1pl.imperf.subj.act": "recideremus",
+      "2pl.imperf.subj.act": "recideretis",
+      "3pl.imperf.subj.act": "reciderent",
       "2sg.pres.imp.act": "recide",
-      "2pl.pres.imp.act": "recidite"
+      "2pl.pres.imp.act": "recidite",
+      "1sg.perf.ind.act": "recidi",
+      "2sg.perf.ind.act": "recidisti",
+      "3sg.perf.ind.act": "recidit",
+      "1pl.perf.ind.act": "recidimus",
+      "2pl.perf.ind.act": "recidistis",
+      "3pl.perf.ind.act": "reciderunt"
     }
   },
   "ppp_paradigm": {

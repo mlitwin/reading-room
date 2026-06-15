@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "differs",
       "3sg.pres.ind.act": "differt",
       "1pl.pres.ind.act": "differimus",
       "2pl.pres.ind.act": "differtis",
+      "2sg.pres.ind.pass": "differris",
+      "3sg.pres.ind.pass": "differtur",
+      "1sg.imperf.subj.act": "differrem",
+      "2sg.imperf.subj.act": "differres",
+      "3sg.imperf.subj.act": "differret",
+      "1pl.imperf.subj.act": "differremus",
+      "2pl.imperf.subj.act": "differretis",
+      "3pl.imperf.subj.act": "differrent",
       "2sg.pres.imp.act": "differ",
-      "2pl.pres.imp.act": "differte"
+      "2pl.pres.imp.act": "differte",
+      "1sg.perf.ind.act": "distuli",
+      "2sg.perf.ind.act": "distulisti",
+      "3sg.perf.ind.act": "distulit",
+      "1pl.perf.ind.act": "distulimus",
+      "2pl.perf.ind.act": "distulistis",
+      "3pl.perf.ind.act": "distulerunt"
     }
   },
   "ppp_paradigm": {

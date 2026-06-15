@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "exstinguis",
       "3sg.pres.ind.act": "exstinguit",
       "1pl.pres.ind.act": "exstinguimus",
       "2pl.pres.ind.act": "exstinguitis",
+      "2sg.pres.ind.pass": "exstingueris",
+      "3sg.pres.ind.pass": "exstinguitur",
+      "1sg.imperf.subj.act": "exstinguerem",
+      "2sg.imperf.subj.act": "exstingueres",
+      "3sg.imperf.subj.act": "exstingueret",
+      "1pl.imperf.subj.act": "exstingueremus",
+      "2pl.imperf.subj.act": "exstingueretis",
+      "3pl.imperf.subj.act": "exstinguerent",
       "2sg.pres.imp.act": "exstingue",
-      "2pl.pres.imp.act": "exstinguite"
+      "2pl.pres.imp.act": "exstinguite",
+      "1sg.perf.ind.act": "exstinxi",
+      "2sg.perf.ind.act": "exstinxisti",
+      "3sg.perf.ind.act": "exstinxit",
+      "1pl.perf.ind.act": "exstinximus",
+      "2pl.perf.ind.act": "exstinxistis",
+      "3pl.perf.ind.act": "exstinxerunt"
     }
   },
   "ppp_paradigm": {

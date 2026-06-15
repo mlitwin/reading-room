@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "permittis",
       "3sg.pres.ind.act": "permittit",
       "1pl.pres.ind.act": "permittimus",
       "2pl.pres.ind.act": "permittitis",
+      "2sg.pres.ind.pass": "permitteris",
+      "3sg.pres.ind.pass": "permittitur",
+      "1sg.imperf.subj.act": "permitterem",
+      "2sg.imperf.subj.act": "permitteres",
+      "3sg.imperf.subj.act": "permitteret",
+      "1pl.imperf.subj.act": "permitteremus",
+      "2pl.imperf.subj.act": "permitteretis",
+      "3pl.imperf.subj.act": "permitterent",
       "2sg.pres.imp.act": "permitte",
-      "2pl.pres.imp.act": "permittite"
+      "2pl.pres.imp.act": "permittite",
+      "1sg.perf.ind.act": "permisi",
+      "2sg.perf.ind.act": "permisisti",
+      "3sg.perf.ind.act": "permisit",
+      "1pl.perf.ind.act": "permisimus",
+      "2pl.perf.ind.act": "permisistis",
+      "3pl.perf.ind.act": "permiserunt"
     }
   },
   "ppp_paradigm": {

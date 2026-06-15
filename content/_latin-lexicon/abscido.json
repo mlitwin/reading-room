@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "abscidis",
       "3sg.pres.ind.act": "abscidit",
       "1pl.pres.ind.act": "abscidimus",
       "2pl.pres.ind.act": "absciditis",
+      "2sg.pres.ind.pass": "abscideris",
+      "3sg.pres.ind.pass": "absciditur",
+      "1sg.imperf.subj.act": "absciderem",
+      "2sg.imperf.subj.act": "abscideres",
+      "3sg.imperf.subj.act": "abscideret",
+      "1pl.imperf.subj.act": "abscideremus",
+      "2pl.imperf.subj.act": "abscideretis",
+      "3pl.imperf.subj.act": "absciderent",
       "2sg.pres.imp.act": "abscide",
-      "2pl.pres.imp.act": "abscidite"
+      "2pl.pres.imp.act": "abscidite",
+      "1sg.perf.ind.act": "abscidi",
+      "2sg.perf.ind.act": "abscidisti",
+      "3sg.perf.ind.act": "abscidit",
+      "1pl.perf.ind.act": "abscidimus",
+      "2pl.perf.ind.act": "abscidistis",
+      "3pl.perf.ind.act": "absciderunt"
     }
   },
   "ppp_paradigm": {

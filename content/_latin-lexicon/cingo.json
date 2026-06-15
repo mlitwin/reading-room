@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "cingis",
       "3sg.pres.ind.act": "cingit",
       "1pl.pres.ind.act": "cingimus",
       "2pl.pres.ind.act": "cingitis",
+      "2sg.pres.ind.pass": "cingeris",
+      "3sg.pres.ind.pass": "cingitur",
+      "1sg.imperf.subj.act": "cingerem",
+      "2sg.imperf.subj.act": "cingeres",
+      "3sg.imperf.subj.act": "cingeret",
+      "1pl.imperf.subj.act": "cingeremus",
+      "2pl.imperf.subj.act": "cingeretis",
+      "3pl.imperf.subj.act": "cingerent",
       "2sg.pres.imp.act": "cinge",
-      "2pl.pres.imp.act": "cingite"
+      "2pl.pres.imp.act": "cingite",
+      "1sg.perf.ind.act": "cinxi",
+      "2sg.perf.ind.act": "cinxisti",
+      "3sg.perf.ind.act": "cinxit",
+      "1pl.perf.ind.act": "cinximus",
+      "2pl.perf.ind.act": "cinxistis",
+      "3pl.perf.ind.act": "cinxerunt"
     }
   },
   "ppp_paradigm": {

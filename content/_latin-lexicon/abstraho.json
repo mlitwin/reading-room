@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "abstrahis",
       "3sg.pres.ind.act": "abstrahit",
       "1pl.pres.ind.act": "abstrahimus",
       "2pl.pres.ind.act": "abstrahitis",
+      "2sg.pres.ind.pass": "abstraheris",
+      "3sg.pres.ind.pass": "abstrahitur",
+      "1sg.imperf.subj.act": "abstraherem",
+      "2sg.imperf.subj.act": "abstraheres",
+      "3sg.imperf.subj.act": "abstraheret",
+      "1pl.imperf.subj.act": "abstraheremus",
+      "2pl.imperf.subj.act": "abstraheretis",
+      "3pl.imperf.subj.act": "abstraherent",
       "2sg.pres.imp.act": "abstrahe",
-      "2pl.pres.imp.act": "abstrahite"
+      "2pl.pres.imp.act": "abstrahite",
+      "1sg.perf.ind.act": "abstraxi",
+      "2sg.perf.ind.act": "abstraxisti",
+      "3sg.perf.ind.act": "abstraxit",
+      "1pl.perf.ind.act": "abstraximus",
+      "2pl.perf.ind.act": "abstraxistis",
+      "3pl.perf.ind.act": "abstraxerunt"
     }
   },
   "ppp_paradigm": {

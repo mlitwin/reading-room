@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "perfringis",
       "3sg.pres.ind.act": "perfringit",
       "1pl.pres.ind.act": "perfringimus",
       "2pl.pres.ind.act": "perfringitis",
+      "2sg.pres.ind.pass": "perfringeris",
+      "3sg.pres.ind.pass": "perfringitur",
+      "1sg.imperf.subj.act": "perfringerem",
+      "2sg.imperf.subj.act": "perfringeres",
+      "3sg.imperf.subj.act": "perfringeret",
+      "1pl.imperf.subj.act": "perfringeremus",
+      "2pl.imperf.subj.act": "perfringeretis",
+      "3pl.imperf.subj.act": "perfringerent",
       "2sg.pres.imp.act": "perfringe",
-      "2pl.pres.imp.act": "perfringite"
+      "2pl.pres.imp.act": "perfringite",
+      "1sg.perf.ind.act": "perfregi",
+      "2sg.perf.ind.act": "perfregisti",
+      "3sg.perf.ind.act": "perfregit",
+      "1pl.perf.ind.act": "perfregimus",
+      "2pl.perf.ind.act": "perfregistis",
+      "3pl.perf.ind.act": "perfregerunt"
     }
   },
   "ppp_paradigm": {

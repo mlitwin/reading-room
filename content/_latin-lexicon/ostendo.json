@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "ostendis",
       "3sg.pres.ind.act": "ostendit",
       "1pl.pres.ind.act": "ostendimus",
       "2pl.pres.ind.act": "ostenditis",
+      "2sg.pres.ind.pass": "ostenderis",
+      "3sg.pres.ind.pass": "ostenditur",
+      "1sg.imperf.subj.act": "ostenderem",
+      "2sg.imperf.subj.act": "ostenderes",
+      "3sg.imperf.subj.act": "ostenderet",
+      "1pl.imperf.subj.act": "ostenderemus",
+      "2pl.imperf.subj.act": "ostenderetis",
+      "3pl.imperf.subj.act": "ostenderent",
       "2sg.pres.imp.act": "ostende",
-      "2pl.pres.imp.act": "ostendite"
+      "2pl.pres.imp.act": "ostendite",
+      "1sg.perf.ind.act": "ostendi",
+      "2sg.perf.ind.act": "ostendisti",
+      "3sg.perf.ind.act": "ostendit",
+      "1pl.perf.ind.act": "ostendimus",
+      "2pl.perf.ind.act": "ostendistis",
+      "3pl.perf.ind.act": "ostenderunt"
     }
   },
   "ppp_paradigm": {

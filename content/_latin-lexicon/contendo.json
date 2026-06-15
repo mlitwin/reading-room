@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "contendis",
       "3sg.pres.ind.act": "contendit",
       "1pl.pres.ind.act": "contendimus",
       "2pl.pres.ind.act": "contenditis",
+      "2sg.pres.ind.pass": "contenderis",
+      "3sg.pres.ind.pass": "contenditur",
+      "1sg.imperf.subj.act": "contenderem",
+      "2sg.imperf.subj.act": "contenderes",
+      "3sg.imperf.subj.act": "contenderet",
+      "1pl.imperf.subj.act": "contenderemus",
+      "2pl.imperf.subj.act": "contenderetis",
+      "3pl.imperf.subj.act": "contenderent",
       "2sg.pres.imp.act": "contende",
-      "2pl.pres.imp.act": "contendite"
+      "2pl.pres.imp.act": "contendite",
+      "1sg.perf.ind.act": "contendi",
+      "2sg.perf.ind.act": "contendisti",
+      "3sg.perf.ind.act": "contendit",
+      "1pl.perf.ind.act": "contendimus",
+      "2pl.perf.ind.act": "contendistis",
+      "3pl.perf.ind.act": "contenderunt"
     }
   },
   "ppp_paradigm": {

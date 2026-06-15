@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "fodis",
       "3sg.pres.ind.act": "fodit",
       "1pl.pres.ind.act": "fodimus",
       "2pl.pres.ind.act": "foditis",
+      "2sg.pres.ind.pass": "foderis",
+      "3sg.pres.ind.pass": "foditur",
+      "1sg.imperf.subj.act": "foderem",
+      "2sg.imperf.subj.act": "foderes",
+      "3sg.imperf.subj.act": "foderet",
+      "1pl.imperf.subj.act": "foderemus",
+      "2pl.imperf.subj.act": "foderetis",
+      "3pl.imperf.subj.act": "foderent",
       "2sg.pres.imp.act": "fode",
-      "2pl.pres.imp.act": "fodite"
+      "2pl.pres.imp.act": "fodite",
+      "1sg.perf.ind.act": "fodi",
+      "2sg.perf.ind.act": "fodisti",
+      "3sg.perf.ind.act": "fodit",
+      "1pl.perf.ind.act": "fodimus",
+      "2pl.perf.ind.act": "fodistis",
+      "3pl.perf.ind.act": "foderunt"
     }
   },
   "ppp_paradigm": {

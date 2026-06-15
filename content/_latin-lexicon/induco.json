@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "inducis",
       "3sg.pres.ind.act": "inducit",
       "1pl.pres.ind.act": "inducimus",
       "2pl.pres.ind.act": "inducitis",
+      "2sg.pres.ind.pass": "induceris",
+      "3sg.pres.ind.pass": "inducitur",
+      "1sg.imperf.subj.act": "inducerem",
+      "2sg.imperf.subj.act": "induceres",
+      "3sg.imperf.subj.act": "induceret",
+      "1pl.imperf.subj.act": "induceremus",
+      "2pl.imperf.subj.act": "induceretis",
+      "3pl.imperf.subj.act": "inducerent",
       "2sg.pres.imp.act": "induce",
-      "2pl.pres.imp.act": "inducite"
+      "2pl.pres.imp.act": "inducite",
+      "1sg.perf.ind.act": "induxi",
+      "2sg.perf.ind.act": "induxisti",
+      "3sg.perf.ind.act": "induxit",
+      "1pl.perf.ind.act": "induximus",
+      "2pl.perf.ind.act": "induxistis",
+      "3pl.perf.ind.act": "induxerunt"
     }
   },
   "ppp_paradigm": {

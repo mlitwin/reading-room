@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "innubis",
       "3sg.pres.ind.act": "innubit",
       "1pl.pres.ind.act": "innubimus",
       "2pl.pres.ind.act": "innubitis",
+      "2sg.pres.ind.pass": "innuberis",
+      "3sg.pres.ind.pass": "innubitur",
+      "1sg.imperf.subj.act": "innuberem",
+      "2sg.imperf.subj.act": "innuberes",
+      "3sg.imperf.subj.act": "innuberet",
+      "1pl.imperf.subj.act": "innuberemus",
+      "2pl.imperf.subj.act": "innuberetis",
+      "3pl.imperf.subj.act": "innuberent",
       "2sg.pres.imp.act": "innube",
-      "2pl.pres.imp.act": "innubite"
+      "2pl.pres.imp.act": "innubite",
+      "1sg.perf.ind.act": "innupsi",
+      "2sg.perf.ind.act": "innupsisti",
+      "3sg.perf.ind.act": "innupsit",
+      "1pl.perf.ind.act": "innupsimus",
+      "2pl.perf.ind.act": "innupsistis",
+      "3pl.perf.ind.act": "innupserunt"
     }
   },
   "ppp_paradigm": {

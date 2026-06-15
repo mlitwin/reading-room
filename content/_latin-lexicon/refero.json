@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "refers",
       "3sg.pres.ind.act": "refert",
       "1pl.pres.ind.act": "referimus",
       "2pl.pres.ind.act": "refertis",
+      "2sg.pres.ind.pass": "referris",
+      "3sg.pres.ind.pass": "refertur",
+      "1sg.imperf.subj.act": "referrem",
+      "2sg.imperf.subj.act": "referres",
+      "3sg.imperf.subj.act": "referret",
+      "1pl.imperf.subj.act": "referremus",
+      "2pl.imperf.subj.act": "referretis",
+      "3pl.imperf.subj.act": "referrent",
       "2sg.pres.imp.act": "refer",
-      "2pl.pres.imp.act": "referte"
+      "2pl.pres.imp.act": "referte",
+      "1sg.perf.ind.act": "rettuli",
+      "2sg.perf.ind.act": "rettulisti",
+      "3sg.perf.ind.act": "rettulit",
+      "1pl.perf.ind.act": "rettulimus",
+      "2pl.perf.ind.act": "rettulistis",
+      "3pl.perf.ind.act": "rettulerunt"
     }
   },
   "ppp_paradigm": {

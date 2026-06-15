@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "resistis",
       "3sg.pres.ind.act": "resistit",
       "1pl.pres.ind.act": "resistimus",
       "2pl.pres.ind.act": "resistitis",
+      "2sg.pres.ind.pass": "resisteris",
+      "3sg.pres.ind.pass": "resistitur",
+      "1sg.imperf.subj.act": "resisterem",
+      "2sg.imperf.subj.act": "resisteres",
+      "3sg.imperf.subj.act": "resisteret",
+      "1pl.imperf.subj.act": "resisteremus",
+      "2pl.imperf.subj.act": "resisteretis",
+      "3pl.imperf.subj.act": "resisterent",
       "2sg.pres.imp.act": "resiste",
-      "2pl.pres.imp.act": "resistite"
+      "2pl.pres.imp.act": "resistite",
+      "1sg.perf.ind.act": "restiti",
+      "2sg.perf.ind.act": "restitisti",
+      "3sg.perf.ind.act": "restitit",
+      "1pl.perf.ind.act": "restitimus",
+      "2pl.perf.ind.act": "restitistis",
+      "3pl.perf.ind.act": "restiterunt"
     }
   },
   "ppp_paradigm": {

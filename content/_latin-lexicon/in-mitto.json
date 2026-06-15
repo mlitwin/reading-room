@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "mittis",
       "3sg.pres.ind.act": "mittit",
       "1pl.pres.ind.act": "mittimus",
       "2pl.pres.ind.act": "mittitis",
+      "2sg.pres.ind.pass": "mitteris",
+      "3sg.pres.ind.pass": "mittitur",
+      "1sg.imperf.subj.act": "mitterem",
+      "2sg.imperf.subj.act": "mitteres",
+      "3sg.imperf.subj.act": "mitteret",
+      "1pl.imperf.subj.act": "mitteremus",
+      "2pl.imperf.subj.act": "mitteretis",
+      "3pl.imperf.subj.act": "mitterent",
       "2sg.pres.imp.act": "mitte",
-      "2pl.pres.imp.act": "mittite"
+      "2pl.pres.imp.act": "mittite",
+      "1sg.perf.ind.act": "misi",
+      "2sg.perf.ind.act": "misisti",
+      "3sg.perf.ind.act": "misit",
+      "1pl.perf.ind.act": "misimus",
+      "2pl.perf.ind.act": "misistis",
+      "3pl.perf.ind.act": "miserunt"
     }
   },
   "ppp_paradigm": {

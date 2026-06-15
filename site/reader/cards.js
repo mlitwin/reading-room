@@ -113,7 +113,13 @@
       });
       return out;
     }
-    if (type === 'verb') return group(1);
+    if (type === 'verb') {
+      // Group by voice (index 2: act/pass) when passive columns are present,
+      // so active and passive forms appear as labelled separate tables.
+      // Fall back to mood grouping (index 1) for active-only paradigms.
+      var hasPassive = cols.some(function (c) { return c.indexOf('.pass') !== -1; });
+      return hasPassive ? group(2) : group(1);
+    }
     if (type === 'adj' || type === 'pron' || type === 'ppp') return group(0);
     return [{ groupKey: null, subCols: cols.map(function (c) { return { orig: c, sub: c }; }) }];
   }

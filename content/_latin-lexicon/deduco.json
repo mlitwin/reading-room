@@ -29,23 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
-      "1sg.pres.ind.act": "deduco",
       "2sg.pres.ind.act": "deducis",
       "3sg.pres.ind.act": "deducit",
       "1pl.pres.ind.act": "deducimus",
       "2pl.pres.ind.act": "deducitis",
-      "3pl.pres.ind.act": "deducunt",
+      "2sg.pres.ind.pass": "deduceris",
+      "3sg.pres.ind.pass": "deducitur",
+      "1sg.imperf.subj.act": "deducerem",
+      "2sg.imperf.subj.act": "deduceres",
+      "3sg.imperf.subj.act": "deduceret",
+      "1pl.imperf.subj.act": "deduceremus",
+      "2pl.imperf.subj.act": "deduceretis",
+      "3pl.imperf.subj.act": "deducerent",
+      "2sg.pres.imp.act": "deduce",
+      "2pl.pres.imp.act": "deducite",
       "1sg.perf.ind.act": "deduxi",
       "2sg.perf.ind.act": "deduxisti",
       "3sg.perf.ind.act": "deduxit",
       "1pl.perf.ind.act": "deduximus",
       "2pl.perf.ind.act": "deduxistis",
-      "3pl.perf.ind.act": "deduxerunt",
-      "2sg.pres.imp.act": "deduc",
-      "2pl.pres.imp.act": "deducite"
+      "3pl.perf.ind.act": "deduxerunt"
     }
   },
   "ppp_paradigm": {

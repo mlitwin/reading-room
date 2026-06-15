@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "credis",
       "3sg.pres.ind.act": "credit",
       "1pl.pres.ind.act": "credimus",
       "2pl.pres.ind.act": "creditis",
+      "2sg.pres.ind.pass": "crederis",
+      "3sg.pres.ind.pass": "creditur",
+      "1sg.imperf.subj.act": "crederem",
+      "2sg.imperf.subj.act": "crederes",
+      "3sg.imperf.subj.act": "crederet",
+      "1pl.imperf.subj.act": "crederemus",
+      "2pl.imperf.subj.act": "crederetis",
+      "3pl.imperf.subj.act": "crederent",
       "2sg.pres.imp.act": "crede",
-      "2pl.pres.imp.act": "credite"
+      "2pl.pres.imp.act": "credite",
+      "1sg.perf.ind.act": "credidi",
+      "2sg.perf.ind.act": "credidisti",
+      "3sg.perf.ind.act": "credidit",
+      "1pl.perf.ind.act": "credidimus",
+      "2pl.perf.ind.act": "credidistis",
+      "3pl.perf.ind.act": "crediderunt"
     }
   },
   "ppp_paradigm": {

@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "recandescis",
       "3sg.pres.ind.act": "recandescit",
       "1pl.pres.ind.act": "recandescimus",
       "2pl.pres.ind.act": "recandescitis",
+      "2sg.pres.ind.pass": "recandesceris",
+      "3sg.pres.ind.pass": "recandescitur",
+      "1sg.imperf.subj.act": "recandescerem",
+      "2sg.imperf.subj.act": "recandesceres",
+      "3sg.imperf.subj.act": "recandesceret",
+      "1pl.imperf.subj.act": "recandesceremus",
+      "2pl.imperf.subj.act": "recandesceretis",
+      "3pl.imperf.subj.act": "recandescerent",
       "2sg.pres.imp.act": "recandesce",
-      "2pl.pres.imp.act": "recandescite"
+      "2pl.pres.imp.act": "recandescite",
+      "1sg.perf.ind.act": "recandui",
+      "2sg.perf.ind.act": "recanduisti",
+      "3sg.perf.ind.act": "recanduit",
+      "1pl.perf.ind.act": "recanduimus",
+      "2pl.perf.ind.act": "recanduistis",
+      "3pl.perf.ind.act": "recanduerunt"
     }
   },
   "ppp_paradigm": {

@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "infundis",
       "3sg.pres.ind.act": "infundit",
       "1pl.pres.ind.act": "infundimus",
       "2pl.pres.ind.act": "infunditis",
+      "2sg.pres.ind.pass": "infunderis",
+      "3sg.pres.ind.pass": "infunditur",
+      "1sg.imperf.subj.act": "infunderem",
+      "2sg.imperf.subj.act": "infunderes",
+      "3sg.imperf.subj.act": "infunderet",
+      "1pl.imperf.subj.act": "infunderemus",
+      "2pl.imperf.subj.act": "infunderetis",
+      "3pl.imperf.subj.act": "infunderent",
       "2sg.pres.imp.act": "infunde",
-      "2pl.pres.imp.act": "infundite"
+      "2pl.pres.imp.act": "infundite",
+      "1sg.perf.ind.act": "infudi",
+      "2sg.perf.ind.act": "infudisti",
+      "3sg.perf.ind.act": "infudit",
+      "1pl.perf.ind.act": "infudimus",
+      "2pl.perf.ind.act": "infudistis",
+      "3pl.perf.ind.act": "infuderunt"
     }
   },
   "ppp_paradigm": {

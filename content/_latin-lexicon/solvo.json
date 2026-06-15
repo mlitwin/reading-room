@@ -30,15 +30,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "solvis",
       "3sg.pres.ind.act": "solvit",
       "1pl.pres.ind.act": "solvimus",
       "2pl.pres.ind.act": "solvitis",
+      "2sg.pres.ind.pass": "solveris",
+      "3sg.pres.ind.pass": "solvitur",
+      "1sg.imperf.subj.act": "solverem",
+      "2sg.imperf.subj.act": "solveres",
+      "3sg.imperf.subj.act": "solveret",
+      "1pl.imperf.subj.act": "solveremus",
+      "2pl.imperf.subj.act": "solveretis",
+      "3pl.imperf.subj.act": "solverent",
       "2sg.pres.imp.act": "solve",
-      "2pl.pres.imp.act": "solvite"
+      "2pl.pres.imp.act": "solvite",
+      "1sg.perf.ind.act": "solvi",
+      "2sg.perf.ind.act": "solvisti",
+      "3sg.perf.ind.act": "solvit",
+      "1pl.perf.ind.act": "solvimus",
+      "2pl.perf.ind.act": "solvistis",
+      "3pl.perf.ind.act": "solverunt"
     }
   },
   "ppp_paradigm": {

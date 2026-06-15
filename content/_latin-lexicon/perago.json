@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "peragis",
       "3sg.pres.ind.act": "peragit",
       "1pl.pres.ind.act": "peragimus",
       "2pl.pres.ind.act": "peragitis",
+      "2sg.pres.ind.pass": "perageris",
+      "3sg.pres.ind.pass": "peragitur",
+      "1sg.imperf.subj.act": "peragerem",
+      "2sg.imperf.subj.act": "perageres",
+      "3sg.imperf.subj.act": "perageret",
+      "1pl.imperf.subj.act": "perageremus",
+      "2pl.imperf.subj.act": "perageretis",
+      "3pl.imperf.subj.act": "peragerent",
       "2sg.pres.imp.act": "perage",
-      "2pl.pres.imp.act": "peragite"
+      "2pl.pres.imp.act": "peragite",
+      "1sg.perf.ind.act": "peregi",
+      "2sg.perf.ind.act": "peregisti",
+      "3sg.perf.ind.act": "peregit",
+      "1pl.perf.ind.act": "peregimus",
+      "2pl.perf.ind.act": "peregistis",
+      "3pl.perf.ind.act": "peregerunt"
     }
   },
   "ppp_paradigm": {

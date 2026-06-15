@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "obruis",
       "3sg.pres.ind.act": "obruit",
       "1pl.pres.ind.act": "obruimus",
       "2pl.pres.ind.act": "obruitis",
+      "2sg.pres.ind.pass": "obrueris",
+      "3sg.pres.ind.pass": "obruitur",
+      "1sg.imperf.subj.act": "obruerem",
+      "2sg.imperf.subj.act": "obrueres",
+      "3sg.imperf.subj.act": "obrueret",
+      "1pl.imperf.subj.act": "obrueremus",
+      "2pl.imperf.subj.act": "obrueretis",
+      "3pl.imperf.subj.act": "obruerent",
       "2sg.pres.imp.act": "obrue",
-      "2pl.pres.imp.act": "obruite"
+      "2pl.pres.imp.act": "obruite",
+      "1sg.perf.ind.act": "obrui",
+      "2sg.perf.ind.act": "obruisti",
+      "3sg.perf.ind.act": "obruit",
+      "1pl.perf.ind.act": "obruimus",
+      "2pl.perf.ind.act": "obruistis",
+      "3pl.perf.ind.act": "obruerunt"
     }
   },
   "ppp_paradigm": {

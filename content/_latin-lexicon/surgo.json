@@ -27,15 +27,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "surgis",
       "3sg.pres.ind.act": "surgit",
       "1pl.pres.ind.act": "surgimus",
       "2pl.pres.ind.act": "surgitis",
+      "2sg.pres.ind.pass": "surgeris",
+      "3sg.pres.ind.pass": "surgitur",
+      "1sg.imperf.subj.act": "surgerem",
+      "2sg.imperf.subj.act": "surgeres",
+      "3sg.imperf.subj.act": "surgeret",
+      "1pl.imperf.subj.act": "surgeremus",
+      "2pl.imperf.subj.act": "surgeretis",
+      "3pl.imperf.subj.act": "surgerent",
       "2sg.pres.imp.act": "surge",
-      "2pl.pres.imp.act": "surgite"
+      "2pl.pres.imp.act": "surgite",
+      "1sg.perf.ind.act": "surrexi",
+      "2sg.perf.ind.act": "surrexisti",
+      "3sg.perf.ind.act": "surrexit",
+      "1pl.perf.ind.act": "surreximus",
+      "2pl.perf.ind.act": "surrexistis",
+      "3pl.perf.ind.act": "surrexerunt"
     }
   },
   "ppp_paradigm": {

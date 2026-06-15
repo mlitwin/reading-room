@@ -31,15 +31,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "prehendis",
       "3sg.pres.ind.act": "prehendit",
       "1pl.pres.ind.act": "prehendimus",
       "2pl.pres.ind.act": "prehenditis",
+      "2sg.pres.ind.pass": "prehenderis",
+      "3sg.pres.ind.pass": "prehenditur",
+      "1sg.imperf.subj.act": "prehenderem",
+      "2sg.imperf.subj.act": "prehenderes",
+      "3sg.imperf.subj.act": "prehenderet",
+      "1pl.imperf.subj.act": "prehenderemus",
+      "2pl.imperf.subj.act": "prehenderetis",
+      "3pl.imperf.subj.act": "prehenderent",
       "2sg.pres.imp.act": "prehende",
-      "2pl.pres.imp.act": "prehendite"
+      "2pl.pres.imp.act": "prehendite",
+      "1sg.perf.ind.act": "prehendi",
+      "2sg.perf.ind.act": "prehendisti",
+      "3sg.perf.ind.act": "prehendit",
+      "1pl.perf.ind.act": "prehendimus",
+      "2pl.perf.ind.act": "prehendistis",
+      "3pl.perf.ind.act": "prehenderunt"
     }
   },
   "ppp_paradigm": {

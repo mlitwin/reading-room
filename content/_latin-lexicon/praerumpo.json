@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "praerumpis",
       "3sg.pres.ind.act": "praerumpit",
       "1pl.pres.ind.act": "praerumpimus",
       "2pl.pres.ind.act": "praerumpitis",
+      "2sg.pres.ind.pass": "praerumperis",
+      "3sg.pres.ind.pass": "praerumpitur",
+      "1sg.imperf.subj.act": "praerumperem",
+      "2sg.imperf.subj.act": "praerumperes",
+      "3sg.imperf.subj.act": "praerumperet",
+      "1pl.imperf.subj.act": "praerumperemus",
+      "2pl.imperf.subj.act": "praerumperetis",
+      "3pl.imperf.subj.act": "praerumperent",
       "2sg.pres.imp.act": "praerumpe",
-      "2pl.pres.imp.act": "praerumpite"
+      "2pl.pres.imp.act": "praerumpite",
+      "1sg.perf.ind.act": "praerupi",
+      "2sg.perf.ind.act": "praerupisti",
+      "3sg.perf.ind.act": "praerupit",
+      "1pl.perf.ind.act": "praerupimus",
+      "2pl.perf.ind.act": "praerupistis",
+      "3pl.perf.ind.act": "praeruperunt"
     }
   },
   "ppp_paradigm": {

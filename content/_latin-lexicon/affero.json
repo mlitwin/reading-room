@@ -28,15 +28,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "affers",
       "3sg.pres.ind.act": "affert",
       "1pl.pres.ind.act": "afferimus",
       "2pl.pres.ind.act": "affertis",
+      "2sg.pres.ind.pass": "afferris",
+      "3sg.pres.ind.pass": "affertur",
+      "1sg.imperf.subj.act": "afferrem",
+      "2sg.imperf.subj.act": "afferres",
+      "3sg.imperf.subj.act": "afferret",
+      "1pl.imperf.subj.act": "afferremus",
+      "2pl.imperf.subj.act": "afferretis",
+      "3pl.imperf.subj.act": "afferrent",
       "2sg.pres.imp.act": "affer",
-      "2pl.pres.imp.act": "afferte"
+      "2pl.pres.imp.act": "afferte",
+      "1sg.perf.ind.act": "attuli",
+      "2sg.perf.ind.act": "attulisti",
+      "3sg.perf.ind.act": "attulit",
+      "1pl.perf.ind.act": "attulimus",
+      "2pl.perf.ind.act": "attulistis",
+      "3pl.perf.ind.act": "attulerunt"
     }
   },
   "ppp_paradigm": {

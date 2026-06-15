@@ -26,15 +26,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "procumbis",
       "3sg.pres.ind.act": "procumbit",
       "1pl.pres.ind.act": "procumbimus",
       "2pl.pres.ind.act": "procumbitis",
+      "2sg.pres.ind.pass": "procumberis",
+      "3sg.pres.ind.pass": "procumbitur",
+      "1sg.imperf.subj.act": "procumberem",
+      "2sg.imperf.subj.act": "procumberes",
+      "3sg.imperf.subj.act": "procumberet",
+      "1pl.imperf.subj.act": "procumberemus",
+      "2pl.imperf.subj.act": "procumberetis",
+      "3pl.imperf.subj.act": "procumberent",
       "2sg.pres.imp.act": "procumbe",
-      "2pl.pres.imp.act": "procumbite"
+      "2pl.pres.imp.act": "procumbite",
+      "1sg.perf.ind.act": "procubui",
+      "2sg.perf.ind.act": "procubuisti",
+      "3sg.perf.ind.act": "procubuit",
+      "1pl.perf.ind.act": "procubuimus",
+      "2pl.perf.ind.act": "procubuistis",
+      "3pl.perf.ind.act": "procubuerunt"
     }
   },
   "ppp_paradigm": {

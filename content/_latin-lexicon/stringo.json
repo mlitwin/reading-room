@@ -29,15 +29,31 @@
     "cols": [
       "pres.ind.act",
       "perf.ind.act",
-      "pres.imp.act"
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
     ],
     "cells": {
       "2sg.pres.ind.act": "stringis",
       "3sg.pres.ind.act": "stringit",
       "1pl.pres.ind.act": "stringimus",
       "2pl.pres.ind.act": "stringitis",
+      "2sg.pres.ind.pass": "stringeris",
+      "3sg.pres.ind.pass": "stringitur",
+      "1sg.imperf.subj.act": "stringerem",
+      "2sg.imperf.subj.act": "stringeres",
+      "3sg.imperf.subj.act": "stringeret",
+      "1pl.imperf.subj.act": "stringeremus",
+      "2pl.imperf.subj.act": "stringeretis",
+      "3pl.imperf.subj.act": "stringerent",
       "2sg.pres.imp.act": "stringe",
-      "2pl.pres.imp.act": "stringite"
+      "2pl.pres.imp.act": "stringite",
+      "1sg.perf.ind.act": "strinxi",
+      "2sg.perf.ind.act": "strinxisti",
+      "3sg.perf.ind.act": "strinxit",
+      "1pl.perf.ind.act": "strinximus",
+      "2pl.perf.ind.act": "strinxistis",
+      "3pl.perf.ind.act": "strinxerunt"
     }
   },
   "ppp_paradigm": {
