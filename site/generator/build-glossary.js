@@ -60,7 +60,8 @@ function* expandLemmaForms(lemma) {
     }
   }
   if (!hadParadigm) {
-    yield [normalizeSurface(lemma.lemma), noParadigmParse(lemma)];
+    const norm = normalizeSurface(lemma.lemma);
+    for (const p of noParadigmParse(lemma)) yield [norm, p];
   }
 }
 

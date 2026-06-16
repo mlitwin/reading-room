@@ -78,6 +78,10 @@ export const concordanceInvariants = [
     severity: 'warning', // adjective paradigms missing voc cells — paradigm-expansion backlog
     /** @param {Concordance} c */
     check(c, ctx) {
+      const INVARIANT_POS_PARSES = new Set(['adv', 'prep', 'conj', 'interj', 'enclit']);
+      const lexById = ctx.lexicon
+        ? new Map(ctx.lexicon.lemmata.map((l) => [l.id, l]))
+        : null;
       /** @type {Violation[]} */
       const violations = [];
       for (const [id, tok] of Object.entries(c.tokens)) {
@@ -87,13 +91,30 @@ export const concordanceInvariants = [
         for (const cand of tok.candidates) {
           const allowed = glossaryParses.get(cand.lemma_id);
           if (!allowed) continue;
+          const lemma = lexById?.get(cand.lemma_id);
+          const lemmaIsInvariant = lemma && INVARIANT_POS_PARSES.has(lemma.pos === 'enclitic' ? 'enclit' : lemma.pos);
           for (const p of cand.parses) {
-            if (!allowed.has(p)) {
-              violations.push({
-                path: `tokens.${id}.candidates.${cand.lemma_id}`,
-                message: `parse "${p}" not in glossary for this lemma`,
-              });
-            }
+            if (allowed.has(p)) continue;
+            // Invariant POS lemmata (prep / adv / conj / interj / enclit) often
+            // do double-duty in classical Latin — "ante" can be either adv or
+            // prep depending on syntactic context. The markdown editor signals
+            // this by listing both parses; the glossary only carries the
+            // canonical one. Accept any other invariant-POS parse on an
+            // invariant-POS lemma so this routine cross-tagging doesn't drown
+            // out genuine paradigm gaps.
+            if (lemmaIsInvariant && INVARIANT_POS_PARSES.has(p)) continue;
+            // Gender-agnostic comparison: for personal/reflexive pronouns
+            // (ego, tu, nos, vos, sui) and any other lemma whose paradigm
+            // stores cells without a gender suffix, accept a markdown parse
+            // that includes a gender if the gender-stripped form is in the
+            // paradigm. E.g., glossary has `dat.sg` for ego_pron; markdown
+            // tags "mihi" as `dat.sg.masc,dat.sg.fem`; both should match.
+            const stripped = p.replace(/\.(masc|fem|neut)(?=\.|$)/, '');
+            if (stripped !== p && allowed.has(stripped)) continue;
+            violations.push({
+              path: `tokens.${id}.candidates.${cand.lemma_id}`,
+              message: `parse "${p}" not in glossary for this lemma`,
+            });
           }
         }
       }

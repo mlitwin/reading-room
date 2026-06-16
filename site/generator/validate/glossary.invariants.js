@@ -52,7 +52,7 @@ function expectedFormsFor(lemma) {
     }
   }
   if (!lemma.paradigm && !lemma.ppp_paradigm) {
-    addForm(lemma.lemma, noParadigmParse(lemma));
+    for (const p of noParadigmParse(lemma)) addForm(lemma.lemma, p);
   }
   return out;
 }

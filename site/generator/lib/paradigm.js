@@ -7,9 +7,16 @@ export function cellForms(value) {
 
 // For lemmata without a paradigm, the "uninflected" parse code is the pos
 // abbreviation extracted from the lemma id (matches markdown span convention).
+// When a lemma has been reclassified to a different POS post-seeding (e.g.
+// `ceu_n` retagged to pos=adv), the id suffix no longer reflects reality;
+// emit both the id-suffix code AND the current pos code so markdown spans
+// using either still resolve.
 export function noParadigmParse(lemma) {
   const ix = lemma.id.lastIndexOf('_');
-  return ix >= 0 ? lemma.id.slice(ix + 1) : 'inv';
+  const fromId = ix >= 0 ? lemma.id.slice(ix + 1) : 'inv';
+  const fromPos = lemma.pos === 'enclitic' ? 'enclit' : lemma.pos;
+  if (fromPos && fromPos !== fromId) return [fromId, fromPos];
+  return [fromId];
 }
 
 // Noun paradigms store gender-less parse codes (nom.sg, abl.pl). Markdown
