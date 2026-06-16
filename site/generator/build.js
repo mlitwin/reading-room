@@ -9,6 +9,7 @@ import katex from '@vscode/markdown-it-katex';
 import { validatePiece, validateNode } from './schema.js';
 import { buildGlossary } from './build-glossary.js';
 import { buildConcordance } from './build-concordance.js';
+import { buildGrammarPage } from './build-grammar-page.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -435,8 +436,19 @@ function parseMatches(matchesStr) {
   }).filter(m => m.lemma);
 }
 
+// Extract { book, chapter } from a chapter filename ("book1-01.md"). Returns
+// null for anything else — body pages without the convention don't get
+// data-token-id (the concordance only covers chapter-formatted texts).
+const CHAPTER_FILE_RE = /(?:^|\/)book(\d+)-(\w+)\.md$/;
+function chapterLocFromPath(filePath) {
+  const m = CHAPTER_FILE_RE.exec(filePath || '');
+  return m ? { book: m[1], chapter: m[2] } : null;
+}
+
 function renderLatinSpans(html, vocabDict, referenced, filePath) {
   if (!vocabDict) return html;
+  const loc = chapterLocFromPath(filePath);
+  let spanIndex = 0;
   return html.replace(LATIN_SPAN_RE, (full, _pre, matchesStr, _post, inner) => {
     const matches = parseMatches(matchesStr);
     if (matches.length === 0) return full;
@@ -449,7 +461,15 @@ function renderLatinSpans(html, vocabDict, referenced, filePath) {
     const primary = matches[0];
     const stanzaRaw = (_pre + _post).match(/data-stanza="([^"]*)"/);
     const stanzaAttr = stanzaRaw ? ` data-stanza="${escapeAttr(stanzaRaw[1])}"` : '';
-    return `<button class="latin-token" type="button" data-lemma="${escapeAttr(primary.lemma)}" data-matches="${escapeAttr(matchesStr)}"${stanzaAttr}>${inner}</button>`;
+    spanIndex += 1;
+    // data-token-id is the concordance handle. Format mirrors build-concordance.js
+    // exactly: b{book}-{chapter}-{ordinal:03d}. Only emitted for chapter-formatted
+    // files; other pages omit the attribute and lose the concordance feature
+    // (currently nothing relies on it at runtime, so absence is harmless).
+    const tokenAttr = loc
+      ? ` data-token-id="b${loc.book}-${loc.chapter}-${String(spanIndex).padStart(3, '0')}"`
+      : '';
+    return `<button class="latin-token" type="button" data-lemma="${escapeAttr(primary.lemma)}" data-matches="${escapeAttr(matchesStr)}"${stanzaAttr}${tokenAttr}>${inner}</button>`;
   });
 }
 
@@ -859,11 +879,19 @@ export async function build() {
   await buildLexiconJson();
 
   // grammar.json: emit alongside other web assets so the runtime can fetch().
+  // The .js wrapper mirrors lexicon.js — WKWebView blocks fetch() on file://,
+  // so a <script src> load with the script setting a window global is the
+  // only path that works in the iOS bundle.
   const grammar = await loadGrammar();
   if (grammar) {
+    const grammarJson = JSON.stringify(grammar);
     await fs.writeFile(
       path.join(DOCS_DIR, 'assets', 'latin-grammar.json'),
-      JSON.stringify(grammar) + '\n'
+      grammarJson + '\n'
+    );
+    await fs.writeFile(
+      path.join(DOCS_DIR, 'assets', 'latin-grammar.js'),
+      'window.__readingRoomGrammar=' + grammarJson + ';\n'
     );
   }
 
@@ -887,6 +915,28 @@ export async function build() {
 
   const pageTpl = await fs.readFile(path.join(TEMPLATES_DIR, 'page.html'), 'utf8');
   const indexTpl = await fs.readFile(path.join(TEMPLATES_DIR, 'index.html'), 'utf8');
+
+  // Standalone grammar reference page, rendered directly from grammar.json.
+  // No intermediate markdown — see build-grammar-page.js for the rendering.
+  if (grammar) {
+    await buildGrammarPage({
+      grammar,
+      languageId: 'latin',
+      languageName: 'Latin',
+      outDir: DOCS_DIR,
+      applyTemplate,
+      pageTpl,
+    });
+    indexEntries.push({
+      slug: '_language/latin/grammar',
+      title: 'Latin Grammar Reference',
+      author: null,
+      date: null,
+      tags: ['latin', 'reference'],
+      summary: 'Cases, tenses, moods, and parts of speech — the parse-code vocabulary used throughout the Latin reader.',
+      html_path: '_language/latin/grammar/index.html',
+    });
+  }
 
   for (const piece of pieces) {
     const title = piece.front.title;

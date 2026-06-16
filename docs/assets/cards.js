@@ -10,8 +10,13 @@
 //   Note entry: { type:'note', sourceId, label }
 (function () {
 
-  // ── parse-code vocabulary (mirrors build.js — both derive from the same data)
-  var PARSE_TOKEN_MAP = {
+  // ── parse-code vocabulary — derived from grammar.json at runtime when the
+  // grammar bundle has loaded. The hardcoded fallback below covers the cold
+  // path before grammar arrives (first render, slow network, missing asset).
+  // Both map a parse atom (e.g. "nom", "1") to `{label, note}` — label is the
+  // text rendered in the parse chip, note is the slug used to open the
+  // matching grammar gloss popover.
+  var FALLBACK_PARSE_TOKEN_MAP = {
     nom: { label: 'nominative', note: 'nominative' },
     gen: { label: 'genitive', note: 'genitive' },
     dat: { label: 'dative', note: 'dative' },
@@ -40,12 +45,12 @@
     conj: { label: 'conjunction', note: 'conjunction' },
     enclit: { label: 'enclitic', note: 'enclitic' },
   };
-  var PERSON_MAP = {
+  var FALLBACK_PERSON_MAP = {
     '1': { label: '1st-person', note: '1st-person' },
     '2': { label: '2nd-person', note: '2nd-person' },
     '3': { label: '3rd-person', note: '3rd-person' },
   };
-  var POS_NOTE = {
+  var FALLBACK_POS_NOTE = {
     noun: 'noun', verb: 'verb', adj: 'adjective', pron: 'pronoun',
     prep: 'preposition', conj: 'conjunction', enclitic: 'enclitic',
   };
@@ -53,6 +58,60 @@
     'first-principal-part', 'second-principal-part',
     'third-principal-part', 'fourth-principal-part',
   ];
+
+  // Live versions — start as the fallback shape, get replaced once
+  // grammar.json loads. Mutations are done in place so existing closures
+  // (renderHost etc.) don't need rebinding.
+  var PARSE_TOKEN_MAP = Object.assign({}, FALLBACK_PARSE_TOKEN_MAP);
+  var PERSON_MAP = Object.assign({}, FALLBACK_PERSON_MAP);
+  var POS_NOTE = Object.assign({}, FALLBACK_POS_NOTE);
+
+  function slugifyHeading(s) {
+    return String(s).toLowerCase()
+      .normalize('NFKD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9\s-]/g, '')
+      .trim()
+      .replace(/\s+/g, '-');
+  }
+
+  // Replace the parse-token + pos maps with entries derived from grammar.json.
+  // Keys are grammar value IDs (`nom`, `1`, `pres`, `ppp`, …); labels are the
+  // long-form names (`Nominative` etc.) lowercased to match the existing UI;
+  // note slugs are the slugified labels to match the build-time note ID
+  // injection (`note-nominative` etc., aliased to `note-nom` by the build).
+  function applyGrammar(grammar) {
+    if (!grammar || !Array.isArray(grammar.categories)) return;
+    var personCat = null, posCat = null;
+    var parseMap = {}, posMap = {};
+    for (var i = 0; i < grammar.categories.length; i++) {
+      var cat = grammar.categories[i];
+      for (var j = 0; j < cat.values.length; j++) {
+        var v = cat.values[j];
+        var label = String(v.label || v.id).toLowerCase();
+        var note = slugifyHeading(v.label || v.id);
+        var entry = { label: label, note: note };
+        if (cat.id === 'pos') {
+          posMap[v.id] = note;
+          // For the chip-rendering path that splits parse codes, pos values
+          // (`prep`, `conj`, …) also flow through PARSE_TOKEN_MAP, so include
+          // them under their id too.
+          parseMap[v.id] = entry;
+        } else if (cat.id === 'person') {
+          // Person codes don't go in PARSE_TOKEN_MAP — they're combined with
+          // sg/pl in PERSON_MAP-handled "1sg"/"2pl"/etc.
+          personCat = personCat || {};
+          personCat[v.id] = entry;
+        } else {
+          parseMap[v.id] = entry;
+        }
+      }
+    }
+    // Apply: overlay grammar-derived entries onto the fallback maps so any
+    // gaps in grammar (e.g. `sup` not modelled there) stay covered.
+    for (var k in parseMap) PARSE_TOKEN_MAP[k] = parseMap[k];
+    if (personCat) for (var kp in personCat) PERSON_MAP[kp] = personCat[kp];
+    for (var kq in posMap) POS_NOTE[kq] = posMap[kq];
+  }
 
   // ── HTML helpers
   function escHtml(s) {
@@ -250,6 +309,54 @@
       '</header>' +
       glosses +
       paradigm + notes;
+  }
+
+  // ── grammar loading
+  // Grammar drives parse-chip labels and pos-note slugs. We try, in order:
+  //   1. window.__readingRoomData.grammar  (iOS bundle injection)
+  //   2. window.__readingRoomGrammar       (script-tag injection on file://)
+  //   3. fetch('assets/latin-grammar.json') (web)
+  // Result is applied in place via applyGrammar(); the hardcoded fallback
+  // covers any failure mode silently.
+  var grammarApplied = false;
+
+  function tryApplyAmbientGrammar() {
+    if (grammarApplied) return true;
+    var rd = window.__readingRoomData;
+    if (rd && rd.grammar) {
+      applyGrammar(rd.grammar);
+      grammarApplied = true;
+      return true;
+    }
+    if (window.__readingRoomGrammar) {
+      applyGrammar(window.__readingRoomGrammar);
+      grammarApplied = true;
+      return true;
+    }
+    return false;
+  }
+
+  function loadGrammarViaScript(prefix) {
+    return new Promise(function (resolve) {
+      var s = document.createElement('script');
+      s.src = prefix + 'assets/latin-grammar.js';
+      s.onload = function () { tryApplyAmbientGrammar(); resolve(); };
+      s.onerror = function () { resolve(); };  // silent fallback
+      document.head.appendChild(s);
+    });
+  }
+
+  function loadGrammar() {
+    if (tryApplyAmbientGrammar()) return Promise.resolve();
+    var meta = document.querySelector('meta[name="asset-prefix"]');
+    var prefix = meta ? meta.content : './';
+    if (window.location.protocol === 'file:') {
+      return loadGrammarViaScript(prefix);
+    }
+    return fetch(prefix + 'assets/latin-grammar.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) { if (data) { applyGrammar(data); grammarApplied = true; } })
+      .catch(function () { /* silent fallback */ });
   }
 
   // ── lexicon loading
@@ -506,10 +613,16 @@
     if (e.newState === 'closed') { stack = []; stackPos = -1; }
   }, true);
 
-  // Pre-fetch the lexicon as soon as the page has Latin tokens, so the first
-  // click is instant rather than waiting for a cold network round-trip.
+  // Pre-fetch the lexicon and grammar as soon as the page has Latin tokens,
+  // so the first click is instant rather than waiting for a cold network
+  // round-trip. Grammar try-apply is cheap and may resolve synchronously when
+  // an iOS bundle has injected the data — call it unconditionally.
+  tryApplyAmbientGrammar();
   document.addEventListener('DOMContentLoaded', function () {
-    if (document.querySelector('button.latin-token')) loadLexicon();
+    if (document.querySelector('button.latin-token, button[popovertarget^="note-"]')) {
+      loadGrammar();
+      if (document.querySelector('button.latin-token')) loadLexicon();
+    }
   });
 
 })();

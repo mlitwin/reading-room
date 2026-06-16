@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T00:52:19.788Z",
+  "generated_at": "2026-06-16T01:00:04.236Z",
   "pieces": [
     {
       "slug": "ovid-metamorphoses",
@@ -709,6 +709,18 @@
           }
         ]
       }
+    },
+    {
+      "slug": "_language/latin/grammar",
+      "title": "Latin Grammar Reference",
+      "author": null,
+      "date": null,
+      "tags": [
+        "latin",
+        "reference"
+      ],
+      "summary": "Cases, tenses, moods, and parts of speech — the parse-code vocabulary used throughout the Latin reader.",
+      "html_path": "_language/latin/grammar/index.html"
     }
   ]
 }
