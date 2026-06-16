@@ -24,6 +24,7 @@ export const concordanceInvariants = [
   {
     id: 'C1',
     description: 'Every token surface has a glossary entry',
+    severity: 'warning', // missing surface = lexicon enrichment task per Decision 3
     /** @param {Concordance} c */
     check(c, ctx) {
       /** @type {Violation[]} */
@@ -43,6 +44,7 @@ export const concordanceInvariants = [
   {
     id: 'C2',
     description: 'Every concordance candidate lemma_id appears in the glossary for that surface',
+    severity: 'warning', // paradigm-strip fallout: stub lemmata lost their inflected forms
     /** @param {Concordance} c */
     check(c, ctx) {
       /** @type {Violation[]} */
@@ -67,6 +69,7 @@ export const concordanceInvariants = [
   {
     id: 'C3',
     description: 'Concordance parses are a subset of glossary parses for each lemma',
+    severity: 'warning', // adjective paradigms missing voc cells — paradigm-expansion backlog
     /** @param {Concordance} c */
     check(c, ctx) {
       /** @type {Violation[]} */
@@ -190,6 +193,7 @@ export const concordanceInvariants = [
   {
     id: 'C7a',
     description: 'pos_hint is a valid pos value and consistent with at least one candidate lemma',
+    severity: 'warning', // data-pos hint inconsistencies — audit aid, not load-bearing
     /** @param {Concordance} c */
     check(c, ctx) {
       const validPos = categoryValueIds(ctx.grammar, 'pos');
@@ -263,8 +267,34 @@ export const concordanceInvariants = [
   },
 
   {
+    id: 'C11',
+    description: 'Multi-candidate tokens have selected_lemma_id (editorial disambiguation)',
+    severity: 'warning', // worklist signal, not a build gate (per plan open-question #1)
+    /** @param {Concordance} c */
+    check(c) {
+      /** @type {Violation[]} */
+      const violations = [];
+      for (const [id, tok] of Object.entries(c.tokens)) {
+        if (tok.candidates.length > 1 && !tok.selected_lemma_id) {
+          violations.push({
+            path: `tokens.${id}`,
+            message: `${tok.candidates.length} candidates for "${tok.surface}"; no editorial selection`,
+          });
+        }
+      }
+      return violations;
+    },
+  },
+
+  // C12 — orphan data-stanza detection — requires the build-concordance step
+  // to surface dropped stanza pointers as a separate field on each token.
+  // Deferred until build-concordance.js is extended; for now build_concordance
+  // silently drops stanza hints that don't match a candidate.
+
+  {
     id: 'C10',
     description: 'No token surface contains an unsplit enclitic suffix',
+    severity: 'warning', // editorial split work; doesn't break rendering
     /** @param {Concordance} c */
     check(c, ctx) {
       const encliticLemmaIds = new Set();

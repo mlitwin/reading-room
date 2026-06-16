@@ -1,0 +1,35 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# Read-only — this workflow runs the language-model validation framework and
+# the Node-side framework tests. Editorial-backlog invariants are warnings;
+# only structural errors fail the job. The build itself is exercised on the
+# Pages deploy workflow (if any), not here.
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: site/generator/package-lock.json
+
+      - name: Install dependencies
+        run: cd site/generator && npm ci
+
+      - name: Run framework tests
+        run: cd site/generator && npm test
+
+      - name: Run language-model validation
+        run: cd site/generator && npm run --silent validate

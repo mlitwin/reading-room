@@ -34,12 +34,15 @@ const ALLOWED_PARADIGM_TYPES = {
   pron: new Set(['pron', 'adj']),
 };
 
-// L8: minimum cell count per paradigm.type for a "complete" entry.
+// L8: minimum cell count per paradigm.type for a "complete" entry. The pron
+// floor accommodates defective personal pronouns (ego/tu/nos/vos have no
+// gender forms — 5–10 cells is their full paradigm, not a stub). Genuine
+// pronoun stubs (e.g., a 4-cell talis_pron) still surface as violations.
 const MIN_CELLS_PER_TYPE = {
   noun: 8,
   verb: 10,
   adj: 12,
-  pron: 12,
+  pron: 5,
   ppp: 12,
 };
 
@@ -241,6 +244,7 @@ export const lexiconInvariants = [
   {
     id: 'L8',
     description: 'Paradigm has minimum cell count for its type',
+    severity: 'warning', // incomplete paradigm = editorial backlog, not data corruption
     /** @param {LexiconDocument} lex */
     check(lex) {
       /** @type {Violation[]} */
@@ -267,6 +271,7 @@ export const lexiconInvariants = [
   {
     id: 'L8a',
     description: 'Paradigm presence matches POS class (declinable include, invariant omit)',
+    severity: 'warning', // declinable-POS stubs still ship the citation form in the glossary
     /** @param {LexiconDocument} lex */
     check(lex) {
       /** @type {Violation[]} */
@@ -292,6 +297,7 @@ export const lexiconInvariants = [
   {
     id: 'L9',
     description: "Each lemma's surface form appears in at least one paradigm cell (or is invariant)",
+    severity: 'warning', // missing 1sg cells / wrong-template paradigms = editorial backlog
     /** @param {LexiconDocument} lex */
     check(lex) {
       /** @type {Violation[]} */

@@ -38,7 +38,8 @@ card_text.py --card NN-card-NN | build_apparatus.py
 * **`promote_staging.py`** — moves staged cards into `content/_latin-lexicon/` when they do not already exist there.
 * **`lexicon_corrections.json`** — explicit JSON overrides for cases where the mechanical stem lookup picks the wrong lemma/POS.
 * **`scribe_book1_mechanical.py`** — generates first-pass Book 1 piece markdown files from card boundaries, spans, and ingested public-domain translation text.
-* **`audit_latin.py`** — QA gate for unresolved lemmas, card-shape problems, sparse paradigms, and parse/POS mismatches.
+* **`audit_latin.py`** — *(retired)* The QA gates that lived here moved to the Node validation framework in `site/generator/validate/`. Run `make validate` (or `npm run validate` from `site/generator/`) for the equivalent checks against grammar.json / lexicon.json / the derived glossary / per-text concordance — see `Plans/language-model-refactor.md` for the invariant catalog.
+* **`assign_ids.py`** — *(retired)* A one-shot script that backfilled stable `{lemma_form}_{pos_abbrev}` IDs onto the pre-existing per-lemma JSON files. The current `content/_language/latin/lexicon.json` already carries IDs; new entries get them at editorial creation time. Kept on disk for historical reference.
 * **`stanza_editorial.py`** — editorial pass helper that compares stanza-la output against current span annotations and lists correction candidates.
 * **`morpheus.sh`** — single entry point for Morpheus invocations. Validates the local build, sets `MORPHLIB`, execs `cruncher -S -L`. All Morpheus calls in the project go through this wrapper.
 

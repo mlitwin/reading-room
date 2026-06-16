@@ -1,4 +1,4 @@
-.PHONY: install build serve clean test \
+.PHONY: install build serve clean test validate node-test \
         latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
         latin-translate-ingest latin-scribe-book1 latin-stanza-editorial \
         latin-stanza-annotate latin-stanza-annotate-all latin-normalize-surface
@@ -6,11 +6,22 @@
 install:
 	cd site/generator && npm install
 
-build:
+# build depends on validate: any error-severity invariant aborts the build.
+# Warnings (the editorial backlog) are reported but don't block.
+build: validate
 	cd site/generator && npm run build
 
 serve:
 	cd site/generator && npm run serve
+
+# All four language-model validation suites. Defaults paths to the canonical
+# locations; passes through to validate.js otherwise.
+validate:
+	cd site/generator && npm run --silent validate
+
+# Node-side framework tests (Zod schemas + invariant runner).
+node-test:
+	cd site/generator && npm test
 
 test:
 	python3 -m unittest discover -s site/latin/tests
@@ -60,8 +71,9 @@ latin-seed: latin-spans
 	@$(MAKE) latin-vocab SPANS=.tmp/latin-spans.md
 	@$(MAKE) latin-promote
 
-latin-audit:
-	@python3 site/latin/audit_latin.py
+latin-audit: validate
+	@echo "latin-audit: now sourced from the Node validation framework (make validate)."
+	@echo "             The legacy audit_latin.py is retired; see site/latin/README.md."
 
 latin-translate-ingest:
 	@python3 site/latin/ingest_translation.py
