@@ -20,6 +20,7 @@ import { parseArgs } from 'node:util';
 import { LexiconDocumentSchema } from './schema/language.schema.js';
 import { GlossarySchema } from './schema/glossary.schema.js';
 import { normalizeSurface } from './lib/normalize.js';
+import { cellForms, noParadigmParse, genderStampParses } from './lib/paradigm.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..');
@@ -28,19 +29,6 @@ const DEFAULT_OUT = join(REPO_ROOT, 'docs', 'assets', 'latin-glossary.json');
 
 const INVARIANT_POS = new Set(['adv', 'prep', 'conj', 'interj', 'enclitic']);
 
-function cellForms(value) {
-  return Array.isArray(value) ? value : [value];
-}
-
-// For a lemma with no paradigm, what parse code marks the (only) entry?
-// Convention matches the markdown spans: bare POS abbreviation taken from the
-// lemma id suffix. Examples: in_prep → "prep", que_enclit → "enclit",
-// agitabilis_adj (stub) → "adj". This keeps the glossary directly comparable
-// to data-matches="lemma_id:parse,…" attributes from build-concordance.
-function noParadigmParse(lemma) {
-  const ix = lemma.id.lastIndexOf('_');
-  return ix >= 0 ? lemma.id.slice(ix + 1) : 'inv';
-}
 
 /**
  * Yield [normalizedWord, parse] for every form a lemma produces.
@@ -64,7 +52,10 @@ function* expandLemmaForms(lemma) {
     hadParadigm = true;
     for (const [parse, value] of Object.entries(p.cells)) {
       for (const form of cellForms(value)) {
-        yield [normalizeSurface(form), parse];
+        const norm = normalizeSurface(form);
+        for (const stampedParse of genderStampParses(parse, lemma)) {
+          yield [norm, stampedParse];
+        }
       }
     }
   }

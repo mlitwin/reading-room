@@ -326,6 +326,27 @@ export const concordanceInvariants = [
         });
         if (isOwnCitationForm) continue;
 
+        // Skip tokens whose surface is a paradigm cell of one of their
+        // candidate lemmata (e.g. "quaeque" is a quisque_pron form). The
+        // editor has already chosen to treat the -que as part of the inflected
+        // pronoun, not as an enclitic to split.
+        const isParadigmForm = tok.candidates.some((cand) => {
+          const lemma = lexById.get(cand.lemma_id);
+          if (!lemma) return false;
+          for (const which of ['paradigm', 'ppp_paradigm']) {
+            const p = lemma[which];
+            if (!p?.cells) continue;
+            for (const value of Object.values(p.cells)) {
+              const forms = Array.isArray(value) ? value : [value];
+              for (const f of forms) {
+                if (normalizeSurface(f) === tok.surface) return true;
+              }
+            }
+          }
+          return false;
+        });
+        if (isParadigmForm) continue;
+
         const suf = findUnsplitEnclitic(tok.surface);
         if (suf) {
           violations.push({

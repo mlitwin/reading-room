@@ -47,10 +47,21 @@ export const LemmaIdSchema = z
   .string()
   .regex(/^[A-Za-z][A-Za-z0-9_-]*_[a-z]+$/, "lemma id must match {lemma}_{pos_abbrev}");
 
+// Noun gender. Fixed per lemma (animus is masc in every form). Array models
+// common-gender nouns (parens, hostis) that take m. or f. by referent.
+// build-glossary expands gender-less noun cells (nom.sg) into gendered parse
+// codes (nom.sg.masc) using this field so spans like "animus_n:nom.sg.masc"
+// match.
+export const GenderSchema = z.union([
+  z.enum(['masc', 'fem', 'neut']),
+  z.array(z.enum(['masc', 'fem', 'neut'])).min(1).max(3),
+]);
+
 export const LemmaEntrySchema = z.object({
   id: LemmaIdSchema,
   lemma: z.string().min(1),
   pos: z.string().min(1),                 // references a grammar.pos value id
+  gender: GenderSchema.optional(),
   glosses: z.array(z.string().min(1)).min(1).max(8),
   head: z.string().min(1),                // conventional dictionary form
   principal_parts: z.array(z.string().min(1)).optional(),

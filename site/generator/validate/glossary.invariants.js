@@ -5,6 +5,7 @@
 // diffs it against the actual one.
 
 import { normalizeSurface } from '../lib/normalize.js';
+import { cellForms, noParadigmParse, genderStampParses } from '../lib/paradigm.js';
 
 /** @typedef {import('../schema/glossary.schema.js').Glossary} Glossary */
 /** @typedef {import('../schema/language.schema.js').LexiconDocument} LexiconDocument */
@@ -30,19 +31,7 @@ const NOMINAL_ONLY_ATOMS = new Set([
 const VERB_POS = new Set(['verb']);
 const NOMINAL_POS = new Set(['noun', 'adj', 'pron']);
 
-function cellForms(value) {
-  return Array.isArray(value) ? value : [value];
-}
-
-// For lemmata without a paradigm, the "uninflected" parse code is the pos
-// abbreviation extracted from the lemma id (matches markdown span convention).
-// Must agree with build-glossary.js noParadigmParse().
-function noParadigmParse(lemma) {
-  const ix = lemma.id.lastIndexOf('_');
-  return ix >= 0 ? lemma.id.slice(ix + 1) : 'inv';
-}
-
-// Re-derive the expected glossary keys for one lemma. Used by Gl4.
+// Re-derive the expected glossary keys for one lemma. Used by Gl2 / Gl4.
 // Returns Map<normalizedWord, parses[]>.
 function expectedFormsFor(lemma) {
   const out = new Map();
@@ -55,7 +44,11 @@ function expectedFormsFor(lemma) {
     const p = lemma[which];
     if (!p) continue;
     for (const [parse, value] of Object.entries(p.cells)) {
-      for (const form of cellForms(value)) addForm(form, parse);
+      for (const form of cellForms(value)) {
+        for (const stampedParse of genderStampParses(parse, lemma)) {
+          addForm(form, stampedParse);
+        }
+      }
     }
   }
   if (!lemma.paradigm && !lemma.ppp_paradigm) {
