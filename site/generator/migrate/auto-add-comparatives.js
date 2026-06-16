@@ -38,7 +38,10 @@ async function main() {
     for (const cand of tok.candidates) {
       const lemma = lexById.get(cand.lemma_id);
       if (!lemma) continue;
-      if (lemma.pos !== 'adj' && lemma.pos !== 'noun') continue;
+      // Accept adj / noun (substantivized comparatives, e.g. liberioris on
+      // liber_n) and verb (present-active-participle comparatives such as
+      // ardentior on ardeo_v, metuentior on metuo_v).
+      if (lemma.pos !== 'adj' && lemma.pos !== 'noun' && lemma.pos !== 'verb') continue;
       if (!additions.has(cand.lemma_id)) additions.set(cand.lemma_id, new Set());
       additions.get(cand.lemma_id).add(tok.surface);
     }

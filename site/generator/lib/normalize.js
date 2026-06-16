@@ -33,9 +33,25 @@ export function normalizeSurface(word) {
   const noDiacritics = word.normalize('NFD').replace(/[̀-ͯ]/g, '');
   const lower = noDiacritics.toLowerCase();
   const ju = lower.replace(/j/g, 'i').replace(/v/g, 'u');
-  // in-[bmp] → im-[bmp] only when the "in" starts the word (avoids touching
-  // things like "principium" where in is mid-word).
-  return ju.replace(/^in([bmp])/, 'im$1');
+  // Word-initial Latin prefix-assimilation normalization. Manuscripts and
+  // modern editions mix the assimilated and unassimilated spellings; fold
+  // everything to the assimilated form so the glossary doesn't need to store
+  // both (and lemma_ids can keep their etymological prefix).
+  //   in-[bmp]  → im-[bmp]  (inmensus → immensus, inpia → impia)
+  //   in-[lr]   → il-l / ir-r (inludere → illudere, inrigare → irrigare)
+  //   ad-{cfglnprst} → assimilated double (adfert → affert, adsumo → assumo)
+  //   ex-f      → eff           (exfodit → effodit)
+  //   ob-[cfgp] → assimilated   (obcurro → occurro, obfero → offero)
+  //   sub-[cfgmp] → assimilated (subfero → suffero, submitto → summitto)
+  //   con-[lr]  → assimilated   (conligo → colligo, conrumpo → corrumpo)
+  return ju
+    .replace(/^in([bmp])/, 'im$1')
+    .replace(/^in([lr])/, 'i$1$1')
+    .replace(/^ad([cfglnprst])/, 'a$1$1')
+    .replace(/^exf/, 'eff')
+    .replace(/^ob([cfgp])/, 'o$1$1')
+    .replace(/^sub([cfgmp])/, 'su$1$1')
+    .replace(/^con([lr])/, 'co$1$1');
 }
 
 // Recognized Latin enclitic suffixes for the C10 invariant. Restricted to the
