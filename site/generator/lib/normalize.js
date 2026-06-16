@@ -13,6 +13,11 @@
  *  - Unicode-decompose then strip combining diacritics (macron, breve, ogonek, etc.)
  *  - Lowercase
  *  - Fold j → i, v → u (orthographic vowel/consonant unification)
+ *  - Assimilate "in" → "im" before {b, m, p} (Latin orthographic convention:
+ *    inmensa = immensa, inminet = imminet, inpia = impia). Classical
+ *    inscriptions and manuscripts mix both spellings; modernized editions
+ *    use "im", but Ovid's text often retains "in". Folded here so the
+ *    glossary doesn't need to store both surfaces.
  *
  * Punctuation is *not* stripped here — tokenization removes that earlier.
  * Leading hyphen is preserved (enclitic forms like "-que" keep the marker
@@ -27,7 +32,10 @@ export function normalizeSurface(word) {
   }
   const noDiacritics = word.normalize('NFD').replace(/[̀-ͯ]/g, '');
   const lower = noDiacritics.toLowerCase();
-  return lower.replace(/j/g, 'i').replace(/v/g, 'u');
+  const ju = lower.replace(/j/g, 'i').replace(/v/g, 'u');
+  // in-[bmp] → im-[bmp] only when the "in" starts the word (avoids touching
+  // things like "principium" where in is mid-word).
+  return ju.replace(/^in([bmp])/, 'im$1');
 }
 
 // Recognized Latin enclitic suffixes for the C10 invariant. Restricted to the

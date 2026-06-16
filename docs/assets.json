@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:33:01.814Z",
+  "generated_at": "2026-06-16T17:37:28.072Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -13,8 +13,8 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "41ba3716b263b45e8597906693a091e341409ad71eb4ca474ad10d8b5f92294b",
-      "size": 930281
+      "sha256": "5d0ec08cc5ce0cbf68a5393cd2b066708af42900575a7aee5cbddadd659b88f1",
+      "size": 917031
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.source-tokens.json",
@@ -333,8 +333,8 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "7beae70639651f0bff601440092b09815f16ee0dc2188b1cd56ee5162bfa9344",
-      "size": 9776734
+      "sha256": "006cde1194c0717695b413b706b1ee7d47f11ef259910103d338f84fae6dc702",
+      "size": 9828499
     },
     {
       "path": "assets/latin-grammar.js",
@@ -348,13 +348,13 @@
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "33d3318791a5c31e060f688ed3b1186de99d28f831fe3eca9a1814ca5cb48b6e",
-      "size": 5285061
+      "sha256": "ad9e2b55ccf404221f4d3fa665371c39c08384be881c67f247f9818243292d45",
+      "size": 5317165
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "da95970cd26b440ac746f8974c92b76d3defce96f9f1dceebf859b7866a4a2b7",
-      "size": 5285032
+      "sha256": "4b1b6023667eda5296913109c88f3672f46dc3fe2475a45a1ef573f058764172",
+      "size": 5317136
     },
     {
       "path": "assets/notes.js",
@@ -368,13 +368,13 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "e3f27f558d164670d0a4e5e7be07a3c9cb73bd04d279e9e385a9a958d4a4c4f4",
-      "size": 10719752
+      "sha256": "db8a8327a888cd20ad649df1d44846e24baf14b132c6217f46129093ed9b2761",
+      "size": 10758267
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "31a02cbf420ba57b9c96c420df4742088114f65873b8a74431aa5d5e2596df45",
-      "size": 10719726
+      "sha256": "af4bbe2c0d1bf03edf1f2dfc4fadbdb5ea592f6b25d589a1e451937f62940ca4",
+      "size": 10758241
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -563,7 +563,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "bae7d86775ddd45392b47e4719af85719e6c6a36eb2497980ce7b29cffc536d8",
+      "sha256": "80198a27587d030e7809a4b07f6daf21b6471fce077f590a2f93972ee68486d6",
       "size": 26967
     },
     {
@@ -608,143 +608,143 @@
     },
     {
       "path": "ovid-metamorphoses/book1-01.html",
-      "sha256": "ba796377dc57d1ce83bbec825bb30524e3ffa348e34c9676419255b129f88e35",
-      "size": 67509
+      "sha256": "f1787e7906d781abc239c59231c5acda27ef5c65ea5e4145a1d4d3f2bb37500a",
+      "size": 67475
     },
     {
       "path": "ovid-metamorphoses/book1-02.html",
-      "sha256": "b217d69a2cf523d1d831cd7255eac097e7d6b1bdc2728ca1115a0d8551d70b6a",
-      "size": 72544
+      "sha256": "dafbe00cc44247c3a0b9e5b47d8f54b4c4fc47b02dc1e32c469d188c330296d7",
+      "size": 72287
     },
     {
       "path": "ovid-metamorphoses/book1-03.html",
-      "sha256": "5215c144b2ae10032c315d81319381223fccdbb8e0d4d8a79df4c838223b55ed",
-      "size": 76828
+      "sha256": "12959cde5d44d332fccf2d2e4535ee70c836bb518c533fb2e2d4fdf644988549",
+      "size": 76487
     },
     {
       "path": "ovid-metamorphoses/book1-04.html",
-      "sha256": "72fc78c6ebe90af5354b843f1efa6dbc801821b0d0e1911c2600ad2be754372a",
-      "size": 78773
+      "sha256": "a15c2fd641d9d1ef31b487c0ae44e7433e142762b322d209127fc625020560ff",
+      "size": 78382
     },
     {
       "path": "ovid-metamorphoses/book1-05.html",
-      "sha256": "584786f7feee42894308433fbc26d69cbfacbb65bdf5a49abec2625190a8d183",
-      "size": 76473
+      "sha256": "97a6a90e51257601216573bfaead9a228d20b4a467689e22f115ea6f74df2ec3",
+      "size": 76302
     },
     {
       "path": "ovid-metamorphoses/book1-06.html",
-      "sha256": "91828bc780d27a7470cd1f466edab7d9ac20782efc60729a8a791c7657b15caf",
-      "size": 69573
+      "sha256": "26651fb681b4defcfc75f5e25c707cac4ab6fbcb954ceda2f5bfac1b90f63e3f",
+      "size": 69454
     },
     {
       "path": "ovid-metamorphoses/book1-07.html",
-      "sha256": "bd72766118ef45b8693b1af9c4d9d67dda9d5ec056d8b4c31bdfd5826c43e2ae",
-      "size": 78715
+      "sha256": "2bc97b37f2463b6f33df27e62dc45804f439a7f04c89a787e9e3878ce9690474",
+      "size": 78274
     },
     {
       "path": "ovid-metamorphoses/book1-08.html",
-      "sha256": "2f49b034503f331bf7d96915f3514de9b8966c4d8fe59c5e7557138d60fda45f",
-      "size": 74961
+      "sha256": "3e4a63be9370ae772b8d0faf3d860ebd8c23f8dd68ede06fd094f97610cdf6cc",
+      "size": 74781
     },
     {
       "path": "ovid-metamorphoses/book1-09.html",
-      "sha256": "503d5000ec2f0c00b082c85c3ed6d3424f104e68798986dcb0cbc6da3350600b",
-      "size": 78211
+      "sha256": "4b0a384932e982cc8e902e0863bc57bd02cbb8a69a475665eb94c41c3dc7f29f",
+      "size": 77913
     },
     {
       "path": "ovid-metamorphoses/book1-10.html",
-      "sha256": "8d4206b6856f3745c85c9b0b56e7282c5509476320f0850301e608a9362512aa",
-      "size": 70963
+      "sha256": "4bba8535dae520a7a91783b2bcd34c78425447c564ff4758ee5f93aca9a711e2",
+      "size": 70835
     },
     {
       "path": "ovid-metamorphoses/book1-11.html",
-      "sha256": "e7582c394e5cddff705e5394f9d78a1170cee4ab0014182735f89729037fcb32",
-      "size": 77611
+      "sha256": "7ea9d0d947060cac0396703795bdb26866b32ab92b80e1dea3680e5121c1c073",
+      "size": 77344
     },
     {
       "path": "ovid-metamorphoses/book1-12.html",
-      "sha256": "cc8b5b3efe700f8dc413cf8f855a789bc54c5a437827449888d4ff1fb1a227e3",
-      "size": 72856
+      "sha256": "773f4ad8387176ea1a3e1f46622e34cf612c138c21c2a8ddb1c562a3d7933d0d",
+      "size": 72816
     },
     {
       "path": "ovid-metamorphoses/book1-13.html",
-      "sha256": "4fb7ecdd79a5e86a1c247fd8f856113ae261b43aebddef3c17bdc3b405927fbb",
-      "size": 77413
+      "sha256": "e9b3275f2062593a9905709aa5bacd00d978ff9d0e77ce25465313cd77431cda",
+      "size": 77251
     },
     {
       "path": "ovid-metamorphoses/book1-14.html",
-      "sha256": "f4d1fc04eb13fb9adf022648c8ca12232bef2e6c245bd2e8c099248f5f0edd15",
-      "size": 79149
+      "sha256": "e87d31269385b4451cc130b057e68bede9be24734932bbb4f666440cb1512728",
+      "size": 78907
     },
     {
       "path": "ovid-metamorphoses/book1-15.html",
-      "sha256": "b4c33abab79c13c74d01a3aa7f36a6aebb850baaefbeea05db7c74a5b93796f6",
-      "size": 70780
+      "sha256": "537a4962186ec23a2793f67c8211a6bf6c6ba8f5cbbffa1a413ea027a95f8c30",
+      "size": 70591
     },
     {
       "path": "ovid-metamorphoses/book1-16.html",
-      "sha256": "2b0ec162b81ffa0c4a1c5c72c5784026b02c04de99ab23a28c034871df114bd0",
-      "size": 81332
+      "sha256": "e7c414ce9d43fc5f4aa03e6b6ceb961ae46ffa6c2f1dee93ffec0bd5a43947b3",
+      "size": 81148
     },
     {
       "path": "ovid-metamorphoses/book1-17.html",
-      "sha256": "075c9d2220e36f1b0b8e701970cb8bc53af1c9c9d707f9e0a10a1ccf45842f07",
-      "size": 75078
+      "sha256": "2ad29b7172fbbd843240d12f9dca95ecf17414e0a558d9c07827204fbb3646b1",
+      "size": 74756
     },
     {
       "path": "ovid-metamorphoses/book1-18.html",
-      "sha256": "d2ffd2e041789c80131cf4f6c775348025cd9cbe28b28f9eb8e1bf99570cdd8b",
-      "size": 81156
+      "sha256": "86a5cbd75c860b2fff601678d3e4ee7d0223bc7f98109157e249ebf4e156b21c",
+      "size": 80771
     },
     {
       "path": "ovid-metamorphoses/book1-19.html",
-      "sha256": "146d20da17bdd4ee3bfd33d7e172f246ff54a322454531c0c7d287cd97618574",
-      "size": 66217
+      "sha256": "f1b0b448d71badaffece133b7026b49592a05079fcd9b23cc1ec4e6b83933e9f",
+      "size": 65933
     },
     {
       "path": "ovid-metamorphoses/book1-20.html",
-      "sha256": "dccbe134bf5f3f7921864e215f8350a88a0a59e599e675ffc671f3ae59956d13",
-      "size": 78197
+      "sha256": "0187aab0005cd0e9be26c4293b792e91e0773ccf12fee22c7606a7c2a1addfee",
+      "size": 77888
     },
     {
       "path": "ovid-metamorphoses/book1-21.html",
-      "sha256": "28e50e3b953660a4e303f5633e930f1f8208678cbeccbeb2230dab6aebccdd5b",
-      "size": 83487
+      "sha256": "8dfd4b360b66d441892895ee7fe393fa9231f68d97b81a1fa0d7a9447ed85a74",
+      "size": 83277
     },
     {
       "path": "ovid-metamorphoses/book1-22.html",
-      "sha256": "5d673cfe7db77de89e20669542c4b03a1112e443c387e84ca49ba1e307f96127",
-      "size": 70969
+      "sha256": "f2412df0a4683d0c260f6cda7c4f6c56bcac867486966fb52b93530e3bfa034a",
+      "size": 70745
     },
     {
       "path": "ovid-metamorphoses/book1-23.html",
-      "sha256": "fcf6cff03ec578aff47ee4429dc14cde87c21784a0d3a9b8320ea7f68c1e804e",
-      "size": 82237
+      "sha256": "a7e936fe06185a2c2964f7c9d0eb4f63b51fc9238bf75b8243c9ab223be421d3",
+      "size": 82076
     },
     {
       "path": "ovid-metamorphoses/book1-24.html",
-      "sha256": "2cbf01a6bd67aa9cfc20fdcc6562efce2a95bfdf1123654a8d02353774e20875",
-      "size": 75182
+      "sha256": "c5e5c3b11f1260d3c6b35b3bf77a17c46a9bd4a777d9d91c710f29cee207ea60",
+      "size": 74625
     },
     {
       "path": "ovid-metamorphoses/book1-25.html",
-      "sha256": "3fc3575b4e25a3601c344f586b3c65b110202856ac97ff24bc2e822039caf394",
-      "size": 70748
+      "sha256": "2c02298c3a8cf346cab311663784fb718cf92212bc2bc8753b27b17a51d0917c",
+      "size": 70499
     },
     {
       "path": "ovid-metamorphoses/book1-26.html",
-      "sha256": "cb2e4390776ef89242b2c78779a430a3922442d6e7d458847d257d2440dcbf8b",
-      "size": 74381
+      "sha256": "2f5dd25de0dc6919f00ff4a627ebb6cf43c9277b5838cf7aa57e3551bf56713b",
+      "size": 74280
     },
     {
       "path": "ovid-metamorphoses/book1-27.html",
-      "sha256": "73623b2ffa30f133a28a127ec3b7a5c08c135b22070af9464e5c4dc6678643ef",
-      "size": 75147
+      "sha256": "e2dbbb2d67ad930e8f0b0725f99abb2a82f15f2d8f5a34eb4a450afba28b684c",
+      "size": 74690
     },
     {
       "path": "ovid-metamorphoses/book1-28.html",
-      "sha256": "0a1a69d52599bab9da3c5dceb18aaa26b8c5315b152b27624342ef4d169d38ee",
-      "size": 69896
+      "sha256": "56ca125fc239b369e4e984d1c3af73475415293f8489aa01a6327d65e7002267",
+      "size": 69807
     },
     {
       "path": "ovid-metamorphoses/index.html",

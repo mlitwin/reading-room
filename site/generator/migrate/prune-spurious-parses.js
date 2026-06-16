@@ -124,9 +124,26 @@ async function main() {
           else didPrune = true;
         }
         if (kept.length === 0) {
-          // All parses pruned — surface is genuinely missing from this lemma's
-          // paradigm. Keep the candidate with its original parses so the C1/C3
-          // signal stays visible.
+          // All parses pruned — none of them yield this surface in the
+          // candidate lemma's paradigm. If other candidates survive the prune,
+          // drop this one entirely (a genuine analyser misclassification like
+          // "alta" tagged with alo_v alongside altus_adj). If this is the only
+          // candidate, keep it as a sentinel so the C1/C2 signal stays visible
+          // and the editorial backlog item doesn't quietly disappear.
+          const otherCandidatesViable = candidates.some(
+            (other) =>
+              other !== cand &&
+              (() => {
+                const m = lemmaParseMap.get(other.lemma_id);
+                if (!m || m.size === 0) return true;
+                return other.parses.some((p) => m.get(p)?.has(surface));
+              })(),
+          );
+          if (otherCandidatesViable) {
+            didPrune = true;
+            prunedCandidates += 1;
+            continue;
+          }
           keptCandidates.push(cand);
           continue;
         }

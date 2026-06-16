@@ -117,6 +117,26 @@ export const concordanceInvariants = [
             // surfaces; their grammatical analysis lives in a related lemma
             // pending an editorial split.
             if (allowed.has('alt')) continue;
+            // Non-finite verb forms: markdown tags participle / gerundive /
+            // gerund / future-participle surfaces with a bare case-style
+            // parse ("gen.pl.neut" for habendum, "nom.sg.fem" for amans) when
+            // the cell keys carry a marker prefix (ppl., ppp., gerundive.,
+            // ger., fap., fpp.). Accept the markdown parse if any of those
+            // prefixed cells matches.
+            if (lemma && lemma.pos === 'verb' && /^[a-z]+\.(sg|pl)(\.(?:masc|fem|neut))?$/.test(p)) {
+              const prefixed = ['ppl.', 'ppp.', 'gerundive.', 'ger.', 'fap.', 'fpp.']
+                .some((pre) => allowed.has(pre + p));
+              if (prefixed) continue;
+            }
+            // Paradigmless lemmata (manifesta_adv, sponte_adv, mariti_adv —
+            // entries mistakenly classified as adv when they're substantivized
+            // adj / noun surfaces) can't disprove any parse: they offer the
+            // single bare-POS code from noParadigmParse and nothing else.
+            // L8a already flags these as editorial backlog (declinable POS
+            // without paradigm); rather than double-counting the same problem
+            // here, accept the markdown parse. The fix lives in the lexicon,
+            // not the validator.
+            if (lemma && !lemma.paradigm && !lemma.ppp_paradigm) continue;
             violations.push({
               path: `tokens.${id}.candidates.${cand.lemma_id}`,
               message: `parse "${p}" not in glossary for this lemma`,
