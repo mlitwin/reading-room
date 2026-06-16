@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T17:37:28.072Z",
+  "generated_at": "2026-06-16T18:04:11.744Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -13,8 +13,8 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "5d0ec08cc5ce0cbf68a5393cd2b066708af42900575a7aee5cbddadd659b88f1",
-      "size": 917031
+      "sha256": "c765f755a8195e137bdf676837d467217b95e3cab2aca026580c0e2d2b2983f5",
+      "size": 917041
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.source-tokens.json",
@@ -333,8 +333,8 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "006cde1194c0717695b413b706b1ee7d47f11ef259910103d338f84fae6dc702",
-      "size": 9828499
+      "sha256": "a6bc2e54118f9a7f07a497c2b089bfadf13b067fdba0fa06c79d0cd2451beb6a",
+      "size": 9854450
     },
     {
       "path": "assets/latin-grammar.js",
@@ -348,13 +348,13 @@
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "ad9e2b55ccf404221f4d3fa665371c39c08384be881c67f247f9818243292d45",
-      "size": 5317165
+      "sha256": "beac4927d81a293d352e6dbf907a07f65905bbc7179d19ccfa16a1485f746959",
+      "size": 5321984
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "4b1b6023667eda5296913109c88f3672f46dc3fe2475a45a1ef573f058764172",
-      "size": 5317136
+      "sha256": "bf30bcf11a52728b88bf6540d23c357fdeea14943349f194d6c474b3f1264f60",
+      "size": 5321955
     },
     {
       "path": "assets/notes.js",
@@ -368,13 +368,13 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "db8a8327a888cd20ad649df1d44846e24baf14b132c6217f46129093ed9b2761",
-      "size": 10758267
+      "sha256": "b6d3e347c2a98082bf9d86e280b205174f3ef2e0b0bed6f1d1e92727275d3bf5",
+      "size": 10784228
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "af4bbe2c0d1bf03edf1f2dfc4fadbdb5ea592f6b25d589a1e451937f62940ca4",
-      "size": 10758241
+      "sha256": "8f12f35cd79a80f68c409ab084535879ce489563d9a6939182466a639aa07024",
+      "size": 10784202
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -563,7 +563,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "80198a27587d030e7809a4b07f6daf21b6471fce077f590a2f93972ee68486d6",
+      "sha256": "254d6838ee7fe75fb634c0d8699724ec9c6e3fc25bad08f108346af1fc412d98",
       "size": 26967
     },
     {

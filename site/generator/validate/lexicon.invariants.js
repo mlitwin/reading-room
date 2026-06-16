@@ -33,8 +33,8 @@ const ALLOWED_PARADIGM_TYPES = {
   adj: new Set(['adj']),
   pron: new Set(['pron', 'adj']),
   // Cardinal numerals (duo, tres) and ordinals (primus, secundus) decline
-  // like adjectives or pronouns.
-  num: new Set(['adj', 'pron']),
+  // like adjectives or pronouns; some (mille) use a noun-shaped table.
+  num: new Set(['adj', 'pron', 'noun']),
 };
 
 // L8: minimum cell count per paradigm.type for a "complete" entry. The pron
