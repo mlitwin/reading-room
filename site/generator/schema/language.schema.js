@@ -1,0 +1,88 @@
+import { z } from 'zod';
+
+// Grammar — categories (case, number, gender, ...) and their enumerated values.
+// Source of truth: content/_language/{lang}/grammar.json.
+
+export const GrammarValueSchema = z.object({
+  id: z.string().min(1),                  // "nom", "pres", "1sg", "ppp"
+  label: z.string().min(1),               // "Nominative", "Present", ...
+  abbrev: z.string().optional(),          // "nom.", "pres."
+  gloss: z.string().min(1),               // HTML snippet shown in UI tooltip / note card
+  noteRef: z.string().optional(),         // optional editorial extension slug
+});
+
+export const GrammarCategorySchema = z.object({
+  id: z.string().min(1),                  // "case", "number", "tense", ...
+  label: z.string().min(1),
+  values: z.array(GrammarValueSchema).min(1),
+});
+
+export const GrammarSchema = z.object({
+  language_id: z.string().min(1),
+  categories: z.array(GrammarCategorySchema).min(1),
+});
+
+// Paradigm cells: each cell may hold a single form or a list of alternative
+// forms (syncopated perfects, declensional variants). Storing as record so
+// callers index by parse code, e.g. cells["nom.sg"] or cells["3sg.pres.ind.act"].
+export const CellValueSchema = z.union([
+  z.string().min(1),
+  z.array(z.string().min(1)).min(1),
+]);
+
+export const ParadigmSchema = z.object({
+  type: z.enum(["noun", "verb", "adj", "ppp", "pron"]),
+  rows: z.array(z.string().min(1)).min(1),
+  cols: z.array(z.string().min(1)).min(1),
+  cells: z.record(z.string(), CellValueSchema),
+});
+
+// Stable lemma ID: {lemma_form}_{pos_abbrev}. Examples: "morior_v", "leo_n",
+// "sum_adj", "ubi_adv", "Nilus_n" (proper noun), "ad-stringo_v" (compound).
+// Lemma portion preserves classical-philology conventions: capital initial on
+// proper nouns, internal hyphens marking morphological boundaries on compound
+// verbs. POS abbreviation is always lowercase. Semantic checks (abbrev matches
+// actual pos field) belong to invariant L2/L3.
+export const LemmaIdSchema = z
+  .string()
+  .regex(/^[A-Za-z][A-Za-z0-9_-]*_[a-z]+$/, "lemma id must match {lemma}_{pos_abbrev}");
+
+export const LemmaEntrySchema = z.object({
+  id: LemmaIdSchema,
+  lemma: z.string().min(1),
+  pos: z.string().min(1),                 // references a grammar.pos value id
+  glosses: z.array(z.string().min(1)).min(1).max(8),
+  head: z.string().min(1),                // conventional dictionary form
+  principal_parts: z.array(z.string().min(1)).optional(),
+  paradigm: ParadigmSchema.optional(),
+  ppp_paradigm: ParadigmSchema.optional(),
+  reviewed: z.boolean().default(false),
+  notes: z.string().optional(),
+});
+
+export const LanguageSchema = z.object({
+  id: z.string().min(1),                  // "latin"
+  name: z.string().min(1),                // "Latin"
+  grammar: GrammarSchema,
+  lemmata: z.array(LemmaEntrySchema),
+});
+
+// Standalone "lexicon document" — the consolidated lexicon.json. Lives next to
+// grammar.json under content/_language/{lang}/. Kept separate from
+// LanguageSchema so the language assembly step can load lexicon and grammar
+// independently and validate each in isolation.
+export const LexiconDocumentSchema = z.object({
+  language_id: z.string().min(1),
+  lemmata: z.array(LemmaEntrySchema),
+});
+
+/**
+ * @typedef {z.infer<typeof GrammarValueSchema>} GrammarValue
+ * @typedef {z.infer<typeof GrammarCategorySchema>} GrammarCategory
+ * @typedef {z.infer<typeof GrammarSchema>} Grammar
+ * @typedef {z.infer<typeof CellValueSchema>} CellValue
+ * @typedef {z.infer<typeof ParadigmSchema>} Paradigm
+ * @typedef {z.infer<typeof LemmaEntrySchema>} LemmaEntry
+ * @typedef {z.infer<typeof LanguageSchema>} Language
+ * @typedef {z.infer<typeof LexiconDocumentSchema>} LexiconDocument
+ */

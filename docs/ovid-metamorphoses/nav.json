@@ -682,137 +682,17 @@
     }
   ],
   "notes": {
-    "noun": {
-      "title": "Noun",
-      "html": "<p>A word that names a person, place, thing, or idea. In Latin, nouns inflect for <button class=\"note-link\" type=\"button\" popovertarget=\"note-nominative\">case</button> (six forms — nominative, genitive, dative, accusative, ablative, vocative) and <button class=\"note-link\" type=\"button\" popovertarget=\"note-singular\">number</button> (singular and plural). Every noun belongs to one of five <button class=\"note-link\" type=\"button\" popovertarget=\"note-declension\">declensions</button> and carries a fixed <button class=\"note-link\" type=\"button\" popovertarget=\"note-masculine\">gender</button> (masculine, feminine, or neuter), shown in the dictionary entry.</p>\n"
+    "1": {
+      "title": "1st person",
+      "html": "<p>Refers to the speaker — <em>I</em> in the singular, <em>we</em> in the plural. In Latin the person is shown by the verb ending; pronouns (<em>ego</em>, <em>nos</em>) appear only when emphatic or contrastive.</p>"
     },
-    "verb": {
-      "title": "Verb",
-      "html": "<p>A word that names an action or a state. A Latin verb inflects for <button class=\"note-link\" type=\"button\" popovertarget=\"note-1st-person\">person</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-singular\">number</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-present\">tense</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-indicative\">mood</button>, and <button class=\"note-link\" type=\"button\" popovertarget=\"note-active\">voice</button>. One verb has roughly 150 distinct forms; the four <button class=\"note-link\" type=\"button\" popovertarget=\"note-principal-parts\">principal parts</button> listed in the dictionary entry are enough to generate them all.</p>\n"
+    "2": {
+      "title": "2nd person",
+      "html": "<p>Refers to the addressee — <em>you</em> in the singular, <em>you (plural)</em> in the plural. Latin has distinct singular and plural pronouns (<em>tu</em>, <em>vos</em>); the verb ending also distinguishes them.</p>"
     },
-    "adjective": {
-      "title": "Adjective",
-      "html": "<p>A word that modifies a noun. Latin adjectives agree with the noun they modify in <button class=\"note-link\" type=\"button\" popovertarget=\"note-nominative\">case</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-singular\">number</button>, and <button class=\"note-link\" type=\"button\" popovertarget=\"note-masculine\">gender</button> — so an adjective has all three gender forms and shifts among them. The dictionary entry shows the three nominative-singular endings (e.g. <em>novus, -a, -um</em>).</p>\n"
-    },
-    "pronoun": {
-      "title": "Pronoun",
-      "html": "<p>A word that stands in for a noun (<em>he</em>, <em>she</em>, <em>they</em>, <em>that one</em>). Latin pronouns inflect for case, number, and gender like adjectives, often with irregular forms in some slots.</p>\n"
-    },
-    "preposition": {
-      "title": "Preposition",
-      "html": "<p>An indeclinable word that introduces a noun phrase and specifies its grammatical relationship to the rest of the sentence (<em>in urbe</em>, “in the city”). Each preposition governs a specific <button class=\"note-link\" type=\"button\" popovertarget=\"note-nominative\">case</button> — usually accusative or ablative; the dictionary entry says which.</p>\n"
-    },
-    "conjunction": {
-      "title": "Conjunction",
-      "html": "<p>An indeclinable word that joins clauses or phrases (<em>et</em>, “and”; <em>sed</em>, “but”; <em>quod</em>, “because”). Latin distinguishes coordinating (<em>et</em>) from subordinating (<em>ut</em>, <em>cum</em>) conjunctions.</p>\n"
-    },
-    "enclitic": {
-      "title": "Enclitic",
-      "html": "<p>A particle attached to the end of the preceding word rather than written separately (-que = “and”; -ne = question marker; -ve = “or”). <em>Primaque</em> in dictionary order is <em>prima</em> + <em>-que</em>.</p>\n"
-    },
-    "nominative": {
-      "title": "Nominative",
-      "html": "<p>The case of the grammatical subject and of predicate nouns/adjectives (<em>puella ridet</em>, “the girl smiles”). It’s also the dictionary-entry form of a Latin noun.</p>\n"
-    },
-    "genitive": {
-      "title": "Genitive",
-      "html": "<p>The case of possession and origin (<em>puellae liber</em>, “the girl’s book”), and of dependence on certain nouns and verbs. The genitive singular is the second principal part of a noun’s dictionary entry — it shows which <button class=\"note-link\" type=\"button\" popovertarget=\"note-declension\">declension</button> the noun belongs to.</p>\n"
-    },
-    "dative": {
-      "title": "Dative",
-      "html": "<p>The case of the indirect object and the recipient (<em>puellae librum dedit</em>, “he gave a book to the girl”). Also used with certain adjectives (“dear <em>to</em> her”) and verbs (“trust <em>in</em> him”).</p>\n"
-    },
-    "accusative": {
-      "title": "Accusative",
-      "html": "<p>The case of the direct object (<em>puellam amat</em>, “he loves the girl”), and the case governed by many prepositions of motion-toward (<em>in urbem</em>, “into the city”). For neuter nouns and adjectives, the accusative form always equals the nominative — both singular and plural.</p>\n"
-    },
-    "ablative": {
-      "title": "Ablative",
-      "html": "<p>A case of separation, means, manner, time, and place (<em>gladio interfecit</em>, “killed with a sword”). Also the case governed by many prepositions of rest-in and motion-from (<em>in urbe</em>, “in the city”; <em>ex urbe</em>, “out of the city”). Has no direct English equivalent.</p>\n"
-    },
-    "vocative": {
-      "title": "Vocative",
-      "html": "<p>The case of direct address (<em>Brute!</em>, “Brutus!”). For most nouns the vocative is identical to the nominative; second-declension <code>-us</code> nouns have a distinct <code>-e</code> vocative.</p>\n"
-    },
-    "singular": {
-      "title": "Singular",
-      "html": "<p>A grammatical number used when one of something is meant.</p>\n"
-    },
-    "plural": {
-      "title": "Plural",
-      "html": "<p>A grammatical number used when more than one of something is meant. Latin has no dual number; one or many is the only distinction.</p>\n"
-    },
-    "masculine": {
-      "title": "Masculine",
-      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Lexical gender — most nouns are assigned a gender that’s just a fact about them; it doesn’t always track sex (<em>nauta</em>, “sailor”, is masculine but ends like a feminine).</p>\n"
-    },
-    "feminine": {
-      "title": "Feminine",
-      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Like masculine, lexical and largely arbitrary.</p>\n"
-    },
-    "neuter": {
-      "title": "Neuter",
-      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Neuter nouns and adjectives always have the same form in the nominative and accusative (whether singular or plural); the plural nominative/accusative always ends in <code>-a</code>.</p>\n"
-    },
-    "1st-person": {
-      "title": "1st-person",
-      "html": "<p>Refers to the speaker — <em>I</em> in the singular, <em>we</em> in the plural. In Latin the person is shown by the verb ending; pronouns (<em>ego</em>, <em>nos</em>) appear only when emphatic or contrastive.</p>\n"
-    },
-    "2nd-person": {
-      "title": "2nd-person",
-      "html": "<p>Refers to the addressee — <em>you</em> in the singular, <em>you (plural)</em> in the plural. Latin has distinct singular and plural pronouns (<em>tu</em>, <em>vos</em>); the verb ending also distinguishes them.</p>\n"
-    },
-    "3rd-person": {
-      "title": "3rd-person",
-      "html": "<p>Refers to a non-speaker, non-addressee — <em>he</em>, <em>she</em>, <em>it</em>, <em>they</em>. There’s no Latin pronoun for “it” as such; <em>is, ea, id</em> or demonstrative <em>ille, illa, illud</em> fill the role.</p>\n"
-    },
-    "present": {
-      "title": "Present",
-      "html": "<p>The tense of action happening now or generally true (<em>amat</em>, “he loves” / “he is loving”). Built on the present stem (the first principal part).</p>\n"
-    },
-    "imperfect": {
-      "title": "Imperfect",
-      "html": "<p>The past tense of ongoing or repeated action (<em>amabat</em>, “he was loving” / “he used to love”). Built on the present stem with <code>-ba-</code> infix.</p>\n"
-    },
-    "perfect": {
-      "title": "Perfect",
-      "html": "<p>The tense of completed action (<em>amavit</em>, “he loved” / “he has loved”). Built on the perfect stem (the third <button class=\"note-link\" type=\"button\" popovertarget=\"note-principal-parts\">principal part</button>).</p>\n"
-    },
-    "pluperfect": {
-      "title": "Pluperfect",
-      "html": "<p>The past tense of action completed before another past action (<em>amaverat</em>, “he had loved”). Built on the perfect stem with <code>-era-</code> infix.</p>\n"
-    },
-    "future": {
-      "title": "Future",
-      "html": "<p>The tense of action yet to happen (<em>amabit</em>, “he will love”). Different conjugations form the future with different endings.</p>\n"
-    },
-    "indicative": {
-      "title": "Indicative",
-      "html": "<p>The mood of statement and question — the default mood for asserting that something is, was, or will be the case (<em>amat</em>, “he loves”).</p>\n"
-    },
-    "subjunctive": {
-      "title": "Subjunctive",
-      "html": "<p>The mood of possibility, wish, command in subordinate clauses, hypothetical condition, and other non-assertive uses (<em>amet</em>, “may he love” / “let him love”). One of the most flexible features of Latin.</p>\n"
-    },
-    "imperative": {
-      "title": "Imperative",
-      "html": "<p>The mood of direct command (<em>ama!</em>, “love!”). Latin has 2nd-person singular and plural imperatives (and rare 3rd-person forms); the singular often equals the present stem with no ending.</p>\n"
-    },
-    "active": {
-      "title": "Active",
-      "html": "<p>The voice in which the subject is the agent of the action (<em>puer librum legit</em>, “the boy reads the book”).</p>\n"
-    },
-    "passive": {
-      "title": "Passive",
-      "html": "<p>The voice in which the subject undergoes the action (<em>liber a puero legitur</em>, “the book is read by the boy”). Latin has distinct passive endings for the present system; the perfect passive is built from the <button class=\"note-link\" type=\"button\" popovertarget=\"note-perfect-passive-participle\">perfect passive participle</button> + a form of <em>esse</em>.</p>\n"
-    },
-    "infinitive": {
-      "title": "Infinitive",
-      "html": "<p>A non-finite verb form that names the action itself (“to love”, “to be loved”). Latin has six infinitives — present/perfect/future × active/passive — though the present active is the most common. The present active infinitive is the <button class=\"note-link\" type=\"button\" popovertarget=\"note-second-principal-part\">second principal part</button> of a verb’s dictionary entry.</p>\n"
-    },
-    "perfect-passive-participle": {
-      "title": "Perfect passive participle",
-      "html": "<p>The verbal adjective formed from the perfect stem of a verb’s passive voice (“having been loved”). It declines like a first/second declension adjective (so it agrees with its noun in case, number, and gender) and appears throughout the passive system, in deponent verbs, and in ablative absolute constructions. The fourth <button class=\"note-link\" type=\"button\" popovertarget=\"note-principal-parts\">principal part</button> of a verb gives this stem (in the neuter form, <em>amatum</em>).</p>\n"
+    "3": {
+      "title": "3rd person",
+      "html": "<p>Refers to a non-speaker, non-addressee — <em>he</em>, <em>she</em>, <em>it</em>, <em>they</em>. There's no Latin pronoun for “it” as such; <em>is, ea, id</em> or demonstrative <em>ille, illa, illud</em> fill the role.</p>"
     },
     "supine": {
       "title": "Supine",
@@ -845,6 +725,302 @@
     "fourth-principal-part": {
       "title": "Fourth principal part",
       "html": "<p>The fourth slot in a verb’s dictionary entry — the <button class=\"note-link\" type=\"button\" popovertarget=\"note-supine\">supine</button> (e.g. <em>amatum</em>). It gives the stem for the <button class=\"note-link\" type=\"button\" popovertarget=\"note-perfect-passive-participle\">perfect passive participle</button> and the future active participle.</p>\n"
+    },
+    "noun": {
+      "title": "Noun",
+      "html": "<p>A word that names a person, place, thing, or idea. In Latin, nouns inflect for <button class=\"note-link\" type=\"button\" popovertarget=\"note-nom\">case</button> (six forms — nominative, genitive, dative, accusative, ablative, vocative) and <button class=\"note-link\" type=\"button\" popovertarget=\"note-sg\">number</button> (singular and plural). Every noun belongs to one of five <button class=\"note-link\" type=\"button\" popovertarget=\"note-declension\">declensions</button> and carries a fixed <button class=\"note-link\" type=\"button\" popovertarget=\"note-masc\">gender</button> (masculine, feminine, or neuter), shown in the dictionary entry.</p>"
+    },
+    "verb": {
+      "title": "Verb",
+      "html": "<p>A word that names an action or a state. A Latin verb inflects for <button class=\"note-link\" type=\"button\" popovertarget=\"note-1\">person</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-sg\">number</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-pres\">tense</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-ind\">mood</button>, and <button class=\"note-link\" type=\"button\" popovertarget=\"note-act\">voice</button>. One verb has roughly 150 distinct forms; the four <button class=\"note-link\" type=\"button\" popovertarget=\"note-principal-parts\">principal parts</button> listed in the dictionary entry are enough to generate them all.</p>"
+    },
+    "adj": {
+      "title": "Adjective",
+      "html": "<p>A word that modifies a noun. Latin adjectives agree with the noun they modify in <button class=\"note-link\" type=\"button\" popovertarget=\"note-nom\">case</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-sg\">number</button>, and <button class=\"note-link\" type=\"button\" popovertarget=\"note-masc\">gender</button> — so an adjective has all three gender forms and shifts among them. The dictionary entry shows the three nominative-singular endings (e.g. <em>novus, -a, -um</em>).</p>"
+    },
+    "adjective": {
+      "title": "Adjective",
+      "html": "<p>A word that modifies a noun. Latin adjectives agree with the noun they modify in <button class=\"note-link\" type=\"button\" popovertarget=\"note-nom\">case</button>, <button class=\"note-link\" type=\"button\" popovertarget=\"note-sg\">number</button>, and <button class=\"note-link\" type=\"button\" popovertarget=\"note-masc\">gender</button> — so an adjective has all three gender forms and shifts among them. The dictionary entry shows the three nominative-singular endings (e.g. <em>novus, -a, -um</em>).</p>"
+    },
+    "pron": {
+      "title": "Pronoun",
+      "html": "<p>A word that stands in for a noun (<em>he</em>, <em>she</em>, <em>they</em>, <em>that one</em>). Latin pronouns inflect for case, number, and gender like adjectives, often with irregular forms in some slots.</p>"
+    },
+    "pronoun": {
+      "title": "Pronoun",
+      "html": "<p>A word that stands in for a noun (<em>he</em>, <em>she</em>, <em>they</em>, <em>that one</em>). Latin pronouns inflect for case, number, and gender like adjectives, often with irregular forms in some slots.</p>"
+    },
+    "prep": {
+      "title": "Preposition",
+      "html": "<p>An indeclinable word that introduces a noun phrase and specifies its grammatical relationship to the rest of the sentence (<em>in urbe</em>, “in the city”). Each preposition governs a specific <button class=\"note-link\" type=\"button\" popovertarget=\"note-nom\">case</button> — usually accusative or ablative; the dictionary entry says which.</p>"
+    },
+    "preposition": {
+      "title": "Preposition",
+      "html": "<p>An indeclinable word that introduces a noun phrase and specifies its grammatical relationship to the rest of the sentence (<em>in urbe</em>, “in the city”). Each preposition governs a specific <button class=\"note-link\" type=\"button\" popovertarget=\"note-nom\">case</button> — usually accusative or ablative; the dictionary entry says which.</p>"
+    },
+    "conj": {
+      "title": "Conjunction",
+      "html": "<p>An indeclinable word that joins clauses or phrases (<em>et</em>, “and”; <em>sed</em>, “but”; <em>quod</em>, “because”). Latin distinguishes coordinating (<em>et</em>) from subordinating (<em>ut</em>, <em>cum</em>) conjunctions.</p>"
+    },
+    "conjunction": {
+      "title": "Conjunction",
+      "html": "<p>An indeclinable word that joins clauses or phrases (<em>et</em>, “and”; <em>sed</em>, “but”; <em>quod</em>, “because”). Latin distinguishes coordinating (<em>et</em>) from subordinating (<em>ut</em>, <em>cum</em>) conjunctions.</p>"
+    },
+    "adv": {
+      "title": "Adverb",
+      "html": "<p>An indeclinable word that modifies a verb, an adjective, or another adverb (<em>celeriter</em>, “quickly”; <em>iam</em>, “already”). Latin adverbs do not inflect, though many form comparative and superlative degrees.</p>"
+    },
+    "adverb": {
+      "title": "Adverb",
+      "html": "<p>An indeclinable word that modifies a verb, an adjective, or another adverb (<em>celeriter</em>, “quickly”; <em>iam</em>, “already”). Latin adverbs do not inflect, though many form comparative and superlative degrees.</p>"
+    },
+    "interj": {
+      "title": "Interjection",
+      "html": "<p>An invariant exclamatory word, used to express emotion or call attention (<em>o!</em>, “oh!”; <em>ecce</em>, “behold!”). Interjections stand outside the grammatical structure of the sentence.</p>"
+    },
+    "interjection": {
+      "title": "Interjection",
+      "html": "<p>An invariant exclamatory word, used to express emotion or call attention (<em>o!</em>, “oh!”; <em>ecce</em>, “behold!”). Interjections stand outside the grammatical structure of the sentence.</p>"
+    },
+    "enclitic": {
+      "title": "Enclitic",
+      "html": "<p>A particle attached to the end of the preceding word rather than written separately (<em>-que</em> = “and”; <em>-ne</em> = question marker; <em>-ve</em> = “or”). <em>Primaque</em> in dictionary order is <em>prima</em> + <em>-que</em>.</p>"
+    },
+    "num": {
+      "title": "Numeral",
+      "html": "<p>A word that denotes number — cardinal (<em>unus</em>, <em>duo</em>, <em>tres</em>; “one”, “two”, “three”), ordinal (<em>primus</em>, <em>secundus</em>; “first”, “second”), distributive (<em>singuli</em>, <em>bini</em>; “one each”, “two each”), or multiplicative (<em>semel</em>, <em>bis</em>; “once”, “twice”). Some are indeclinable; <em>unus</em>, <em>duo</em>, <em>tres</em> and the hundreds inflect.</p>"
+    },
+    "numeral": {
+      "title": "Numeral",
+      "html": "<p>A word that denotes number — cardinal (<em>unus</em>, <em>duo</em>, <em>tres</em>; “one”, “two”, “three”), ordinal (<em>primus</em>, <em>secundus</em>; “first”, “second”), distributive (<em>singuli</em>, <em>bini</em>; “one each”, “two each”), or multiplicative (<em>semel</em>, <em>bis</em>; “once”, “twice”). Some are indeclinable; <em>unus</em>, <em>duo</em>, <em>tres</em> and the hundreds inflect.</p>"
+    },
+    "nom": {
+      "title": "Nominative",
+      "html": "<p>The case of the grammatical subject and of predicate nouns/adjectives (<em>puella ridet</em>, “the girl smiles”). It's also the dictionary-entry form of a Latin noun.</p>"
+    },
+    "nominative": {
+      "title": "Nominative",
+      "html": "<p>The case of the grammatical subject and of predicate nouns/adjectives (<em>puella ridet</em>, “the girl smiles”). It's also the dictionary-entry form of a Latin noun.</p>"
+    },
+    "gen": {
+      "title": "Genitive",
+      "html": "<p>The case of possession and origin (<em>puellae liber</em>, “the girl's book”), and of dependence on certain nouns and verbs. The genitive singular is the second principal part of a noun's dictionary entry — it shows which <button class=\"note-link\" type=\"button\" popovertarget=\"note-declension\">declension</button> the noun belongs to.</p>"
+    },
+    "genitive": {
+      "title": "Genitive",
+      "html": "<p>The case of possession and origin (<em>puellae liber</em>, “the girl's book”), and of dependence on certain nouns and verbs. The genitive singular is the second principal part of a noun's dictionary entry — it shows which <button class=\"note-link\" type=\"button\" popovertarget=\"note-declension\">declension</button> the noun belongs to.</p>"
+    },
+    "dat": {
+      "title": "Dative",
+      "html": "<p>The case of the indirect object and the recipient (<em>puellae librum dedit</em>, “he gave a book to the girl”). Also used with certain adjectives (“dear <em>to</em> her”) and verbs (“trust <em>in</em> him”).</p>"
+    },
+    "dative": {
+      "title": "Dative",
+      "html": "<p>The case of the indirect object and the recipient (<em>puellae librum dedit</em>, “he gave a book to the girl”). Also used with certain adjectives (“dear <em>to</em> her”) and verbs (“trust <em>in</em> him”).</p>"
+    },
+    "acc": {
+      "title": "Accusative",
+      "html": "<p>The case of the direct object (<em>puellam amat</em>, “he loves the girl”), and the case governed by many prepositions of motion-toward (<em>in urbem</em>, “into the city”). For neuter nouns and adjectives, the accusative form always equals the nominative — both singular and plural.</p>"
+    },
+    "accusative": {
+      "title": "Accusative",
+      "html": "<p>The case of the direct object (<em>puellam amat</em>, “he loves the girl”), and the case governed by many prepositions of motion-toward (<em>in urbem</em>, “into the city”). For neuter nouns and adjectives, the accusative form always equals the nominative — both singular and plural.</p>"
+    },
+    "abl": {
+      "title": "Ablative",
+      "html": "<p>A case of separation, means, manner, time, and place (<em>gladio interfecit</em>, “killed with a sword”). Also the case governed by many prepositions of rest-in and motion-from (<em>in urbe</em>, “in the city”; <em>ex urbe</em>, “out of the city”). Has no direct English equivalent.</p>"
+    },
+    "ablative": {
+      "title": "Ablative",
+      "html": "<p>A case of separation, means, manner, time, and place (<em>gladio interfecit</em>, “killed with a sword”). Also the case governed by many prepositions of rest-in and motion-from (<em>in urbe</em>, “in the city”; <em>ex urbe</em>, “out of the city”). Has no direct English equivalent.</p>"
+    },
+    "voc": {
+      "title": "Vocative",
+      "html": "<p>The case of direct address (<em>Brute!</em>, “Brutus!”). For most nouns the vocative is identical to the nominative; second-declension <code>-us</code> nouns have a distinct <code>-e</code> vocative.</p>"
+    },
+    "vocative": {
+      "title": "Vocative",
+      "html": "<p>The case of direct address (<em>Brute!</em>, “Brutus!”). For most nouns the vocative is identical to the nominative; second-declension <code>-us</code> nouns have a distinct <code>-e</code> vocative.</p>"
+    },
+    "sg": {
+      "title": "Singular",
+      "html": "<p>A grammatical number used when one of something is meant.</p>"
+    },
+    "singular": {
+      "title": "Singular",
+      "html": "<p>A grammatical number used when one of something is meant.</p>"
+    },
+    "pl": {
+      "title": "Plural",
+      "html": "<p>A grammatical number used when more than one of something is meant. Latin has no dual number; one or many is the only distinction.</p>"
+    },
+    "plural": {
+      "title": "Plural",
+      "html": "<p>A grammatical number used when more than one of something is meant. Latin has no dual number; one or many is the only distinction.</p>"
+    },
+    "masc": {
+      "title": "Masculine",
+      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Lexical gender — most nouns are assigned a gender that's just a fact about them; it doesn't always track sex (<em>nauta</em>, “sailor”, is masculine but ends like a feminine).</p>"
+    },
+    "masculine": {
+      "title": "Masculine",
+      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Lexical gender — most nouns are assigned a gender that's just a fact about them; it doesn't always track sex (<em>nauta</em>, “sailor”, is masculine but ends like a feminine).</p>"
+    },
+    "fem": {
+      "title": "Feminine",
+      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Like masculine, lexical and largely arbitrary.</p>"
+    },
+    "feminine": {
+      "title": "Feminine",
+      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Like masculine, lexical and largely arbitrary.</p>"
+    },
+    "neut": {
+      "title": "Neuter",
+      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Neuter nouns and adjectives always have the same form in the nominative and accusative (whether singular or plural); the plural nominative/accusative always ends in <code>-a</code>.</p>"
+    },
+    "neuter": {
+      "title": "Neuter",
+      "html": "<p>One of the three Latin grammatical <button class=\"note-link\" type=\"button\" popovertarget=\"note-gender\">genders</button>. Neuter nouns and adjectives always have the same form in the nominative and accusative (whether singular or plural); the plural nominative/accusative always ends in <code>-a</code>.</p>"
+    },
+    "1st-person": {
+      "title": "1st person",
+      "html": "<p>Refers to the speaker — <em>I</em> in the singular, <em>we</em> in the plural. In Latin the person is shown by the verb ending; pronouns (<em>ego</em>, <em>nos</em>) appear only when emphatic or contrastive.</p>"
+    },
+    "2nd-person": {
+      "title": "2nd person",
+      "html": "<p>Refers to the addressee — <em>you</em> in the singular, <em>you (plural)</em> in the plural. Latin has distinct singular and plural pronouns (<em>tu</em>, <em>vos</em>); the verb ending also distinguishes them.</p>"
+    },
+    "3rd-person": {
+      "title": "3rd person",
+      "html": "<p>Refers to a non-speaker, non-addressee — <em>he</em>, <em>she</em>, <em>it</em>, <em>they</em>. There's no Latin pronoun for “it” as such; <em>is, ea, id</em> or demonstrative <em>ille, illa, illud</em> fill the role.</p>"
+    },
+    "pres": {
+      "title": "Present",
+      "html": "<p>The tense of action happening now or generally true (<em>amat</em>, “he loves” / “he is loving”). Built on the present stem (the first principal part).</p>"
+    },
+    "present": {
+      "title": "Present",
+      "html": "<p>The tense of action happening now or generally true (<em>amat</em>, “he loves” / “he is loving”). Built on the present stem (the first principal part).</p>"
+    },
+    "imperf": {
+      "title": "Imperfect",
+      "html": "<p>The past tense of ongoing or repeated action (<em>amabat</em>, “he was loving” / “he used to love”). Built on the present stem with <code>-ba-</code> infix.</p>"
+    },
+    "imperfect": {
+      "title": "Imperfect",
+      "html": "<p>The past tense of ongoing or repeated action (<em>amabat</em>, “he was loving” / “he used to love”). Built on the present stem with <code>-ba-</code> infix.</p>"
+    },
+    "fut": {
+      "title": "Future",
+      "html": "<p>The tense of action yet to happen (<em>amabit</em>, “he will love”). Different conjugations form the future with different endings.</p>"
+    },
+    "future": {
+      "title": "Future",
+      "html": "<p>The tense of action yet to happen (<em>amabit</em>, “he will love”). Different conjugations form the future with different endings.</p>"
+    },
+    "perf": {
+      "title": "Perfect",
+      "html": "<p>The tense of completed action (<em>amavit</em>, “he loved” / “he has loved”). Built on the perfect stem (the third <button class=\"note-link\" type=\"button\" popovertarget=\"note-principal-parts\">principal part</button>).</p>"
+    },
+    "perfect": {
+      "title": "Perfect",
+      "html": "<p>The tense of completed action (<em>amavit</em>, “he loved” / “he has loved”). Built on the perfect stem (the third <button class=\"note-link\" type=\"button\" popovertarget=\"note-principal-parts\">principal part</button>).</p>"
+    },
+    "plup": {
+      "title": "Pluperfect",
+      "html": "<p>The past tense of action completed before another past action (<em>amaverat</em>, “he had loved”). Built on the perfect stem with <code>-era-</code> infix.</p>"
+    },
+    "pluperfect": {
+      "title": "Pluperfect",
+      "html": "<p>The past tense of action completed before another past action (<em>amaverat</em>, “he had loved”). Built on the perfect stem with <code>-era-</code> infix.</p>"
+    },
+    "futperf": {
+      "title": "Future perfect",
+      "html": "<p>The tense of action that will have been completed by some future point (<em>amaverit</em>, “he will have loved”). Built on the perfect stem with <code>-eri-</code> infix.</p>"
+    },
+    "future-perfect": {
+      "title": "Future perfect",
+      "html": "<p>The tense of action that will have been completed by some future point (<em>amaverit</em>, “he will have loved”). Built on the perfect stem with <code>-eri-</code> infix.</p>"
+    },
+    "ind": {
+      "title": "Indicative",
+      "html": "<p>The mood of statement and question — the default mood for asserting that something is, was, or will be the case (<em>amat</em>, “he loves”).</p>"
+    },
+    "indicative": {
+      "title": "Indicative",
+      "html": "<p>The mood of statement and question — the default mood for asserting that something is, was, or will be the case (<em>amat</em>, “he loves”).</p>"
+    },
+    "subj": {
+      "title": "Subjunctive",
+      "html": "<p>The mood of possibility, wish, command in subordinate clauses, hypothetical condition, and other non-assertive uses (<em>amet</em>, “may he love” / “let him love”). One of the most flexible features of Latin.</p>"
+    },
+    "subjunctive": {
+      "title": "Subjunctive",
+      "html": "<p>The mood of possibility, wish, command in subordinate clauses, hypothetical condition, and other non-assertive uses (<em>amet</em>, “may he love” / “let him love”). One of the most flexible features of Latin.</p>"
+    },
+    "imp": {
+      "title": "Imperative",
+      "html": "<p>The mood of direct command (<em>ama!</em>, “love!”). Latin has 2nd-person singular and plural imperatives (and rare 3rd-person forms); the singular often equals the present stem with no ending.</p>"
+    },
+    "imperative": {
+      "title": "Imperative",
+      "html": "<p>The mood of direct command (<em>ama!</em>, “love!”). Latin has 2nd-person singular and plural imperatives (and rare 3rd-person forms); the singular often equals the present stem with no ending.</p>"
+    },
+    "inf": {
+      "title": "Infinitive",
+      "html": "<p>A non-finite verb form that names the action itself (“to love”, “to be loved”). Latin has six infinitives — present/perfect/future × active/passive — though the present active is the most common. The present active infinitive is the <button class=\"note-link\" type=\"button\" popovertarget=\"note-second-principal-part\">second principal part</button> of a verb's dictionary entry.</p>"
+    },
+    "infinitive": {
+      "title": "Infinitive",
+      "html": "<p>A non-finite verb form that names the action itself (“to love”, “to be loved”). Latin has six infinitives — present/perfect/future × active/passive — though the present active is the most common. The present active infinitive is the <button class=\"note-link\" type=\"button\" popovertarget=\"note-second-principal-part\">second principal part</button> of a verb's dictionary entry.</p>"
+    },
+    "pap": {
+      "title": "Present active participle",
+      "html": "<p>A non-finite verbal adjective expressing ongoing action by the subject (<em>amans</em>, “loving”). It declines as a third-declension adjective with one ending, agreeing with its noun in case, number, and gender, and is built on the present stem.</p>"
+    },
+    "present-active-participle": {
+      "title": "Present active participle",
+      "html": "<p>A non-finite verbal adjective expressing ongoing action by the subject (<em>amans</em>, “loving”). It declines as a third-declension adjective with one ending, agreeing with its noun in case, number, and gender, and is built on the present stem.</p>"
+    },
+    "ppp": {
+      "title": "Perfect passive participle",
+      "html": "<p>The verbal adjective formed from the perfect stem of a verb's passive voice (“having been loved”). It declines like a first/second declension adjective (so it agrees with its noun in case, number, and gender) and appears throughout the passive system, in deponent verbs, and in ablative absolute constructions. The fourth <button class=\"note-link\" type=\"button\" popovertarget=\"note-principal-parts\">principal part</button> of a verb gives this stem (in the neuter form, <em>amatum</em>).</p>"
+    },
+    "perfect-passive-participle": {
+      "title": "Perfect passive participle",
+      "html": "<p>The verbal adjective formed from the perfect stem of a verb's passive voice (“having been loved”). It declines like a first/second declension adjective (so it agrees with its noun in case, number, and gender) and appears throughout the passive system, in deponent verbs, and in ablative absolute constructions. The fourth <button class=\"note-link\" type=\"button\" popovertarget=\"note-principal-parts\">principal part</button> of a verb gives this stem (in the neuter form, <em>amatum</em>).</p>"
+    },
+    "fap": {
+      "title": "Future active participle",
+      "html": "<p>A non-finite verbal adjective expressing intended or impending action by the subject (<em>amaturus</em>, “about to love”). It declines like a first/second declension adjective and combines with forms of <em>esse</em> to make the active periphrastic conjugation.</p>"
+    },
+    "future-active-participle": {
+      "title": "Future active participle",
+      "html": "<p>A non-finite verbal adjective expressing intended or impending action by the subject (<em>amaturus</em>, “about to love”). It declines like a first/second declension adjective and combines with forms of <em>esse</em> to make the active periphrastic conjugation.</p>"
+    },
+    "fpp": {
+      "title": "Future passive participle",
+      "html": "<p>A non-finite verbal adjective expressing necessity or impending action upon the subject — also called the gerundive (<em>amandus</em>, “about to be loved” / “to be loved”). It declines like a first/second declension adjective and forms the passive periphrastic with <em>esse</em>.</p>"
+    },
+    "future-passive-participle": {
+      "title": "Future passive participle",
+      "html": "<p>A non-finite verbal adjective expressing necessity or impending action upon the subject — also called the gerundive (<em>amandus</em>, “about to be loved” / “to be loved”). It declines like a first/second declension adjective and forms the passive periphrastic with <em>esse</em>.</p>"
+    },
+    "act": {
+      "title": "Active",
+      "html": "<p>The voice in which the subject is the agent of the action (<em>puer librum legit</em>, “the boy reads the book”).</p>"
+    },
+    "active": {
+      "title": "Active",
+      "html": "<p>The voice in which the subject is the agent of the action (<em>puer librum legit</em>, “the boy reads the book”).</p>"
+    },
+    "pass": {
+      "title": "Passive",
+      "html": "<p>The voice in which the subject undergoes the action (<em>liber a puero legitur</em>, “the book is read by the boy”). Latin has distinct passive endings for the present system; the perfect passive is built from the <button class=\"note-link\" type=\"button\" popovertarget=\"note-ppp\">perfect passive participle</button> + a form of <em>esse</em>.</p>"
+    },
+    "passive": {
+      "title": "Passive",
+      "html": "<p>The voice in which the subject undergoes the action (<em>liber a puero legitur</em>, “the book is read by the boy”). Latin has distinct passive endings for the present system; the perfect passive is built from the <button class=\"note-link\" type=\"button\" popovertarget=\"note-ppp\">perfect passive participle</button> + a form of <em>esse</em>.</p>"
     }
   },
   "notes_html_path": "ovid-metamorphoses/notes.html"

@@ -11,31 +11,5 @@
     "honorare",
     "honoravi",
     "honoratum"
-  ],
-  "paradigm": {
-    "type": "verb",
-    "rows": [
-      "1sg",
-      "2sg",
-      "3sg",
-      "1pl",
-      "2pl",
-      "3pl"
-    ],
-    "cols": [
-      "pres.ind.act",
-      "perf.ind.act",
-      "pres.imp.act"
-    ],
-    "cells": {
-      "1sg.pres.ind.act": "honoro",
-      "2sg.pres.ind.act": "honoras",
-      "3sg.pres.ind.act": "honorat",
-      "1pl.pres.ind.act": "honoramus",
-      "2pl.pres.ind.act": "honoratis",
-      "3pl.pres.ind.act": "honorant",
-      "2sg.pres.imp.act": "honora",
-      "2pl.pres.imp.act": "honorate"
-    }
-  }
+  ]
 }

@@ -6,31 +6,5 @@
     "his property (pl.)",
     "[se suaque => themselves and their possessions]"
   ],
-  "head": "sua, -i, n.",
-  "paradigm": {
-    "type": "noun",
-    "rows": [
-      "nom",
-      "gen",
-      "dat",
-      "acc",
-      "abl"
-    ],
-    "cols": [
-      "sg",
-      "pl"
-    ],
-    "cells": {
-      "nom.sg": "suum",
-      "gen.sg": "sui",
-      "acc.sg": "suum",
-      "dat.sg": "suo",
-      "abl.sg": "suo",
-      "gen.pl": "suorum",
-      "dat.pl": "suis",
-      "abl.pl": "suis",
-      "nom.pl": "sua",
-      "acc.pl": "sua"
-    }
-  }
+  "head": "sua, -i, n."
 }

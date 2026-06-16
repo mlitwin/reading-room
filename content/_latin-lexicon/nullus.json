@@ -6,31 +6,5 @@
     "no one"
   ],
   "reviewed": false,
-  "head": "nullus, -i, m.",
-  "paradigm": {
-    "type": "noun",
-    "rows": [
-      "nom",
-      "gen",
-      "dat",
-      "acc",
-      "abl"
-    ],
-    "cols": [
-      "sg",
-      "pl"
-    ],
-    "cells": {
-      "nom.sg": "nullus",
-      "gen.sg": "nulli",
-      "dat.sg": "nullo",
-      "abl.sg": "nullo",
-      "acc.sg": "nullum",
-      "nom.pl": "nulli",
-      "gen.pl": "nullorum",
-      "dat.pl": "nullis",
-      "abl.pl": "nullis",
-      "acc.pl": "nullos"
-    }
-  }
+  "head": "nullus, -i, m."
 }

@@ -7,6 +7,8 @@ import MarkdownIt from 'markdown-it';
 import hljs from 'highlight.js';
 import katex from '@vscode/markdown-it-katex';
 import { validatePiece, validateNode } from './schema.js';
+import { buildGlossary } from './build-glossary.js';
+import { buildConcordance } from './build-concordance.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -15,6 +17,9 @@ const DOCS_DIR = path.join(ROOT, 'docs');
 const TEMPLATES_DIR = path.join(__dirname, 'templates');
 const READER_DIR = path.resolve(__dirname, '..', 'reader');
 const KATEX_DIR = path.join(__dirname, 'node_modules', 'katex', 'dist');
+const LANGUAGE_DIR = path.join(CONTENT_DIR, '_language', 'latin');
+const CONSOLIDATED_LEXICON = path.join(LANGUAGE_DIR, 'lexicon.json');
+const GRAMMAR_JSON = path.join(LANGUAGE_DIR, 'grammar.json');
 
 const md = new MarkdownIt({
   // html: true so the Latin-passage book can drop a raw <div class="latin-passage">
@@ -195,7 +200,7 @@ function slugifyHeading(s) {
 // Walk the tokens of the notes page; for each H2, accumulate the tokens that
 // follow until the next H2 (or EOF), and render that slice as the note body.
 // Returns `{ key → { title, html } }`. Headings collide → build error.
-function extractNotes(markdown, absPath) {
+function extractNotes(markdown, absPath, extraKnownSlugs = null) {
   // `deferNoteValidation` tells the link-rewriter to mark note: links but
   // skip the existence check (the dictionary is what we're building). After
   // we have all the headings, we do a single cross-reference validation pass.
@@ -239,15 +244,77 @@ function extractNotes(markdown, absPath) {
   }
   flush();
 
-  // Cross-reference validation: every key any note references must exist.
+  // Cross-reference validation: every key any note references must exist
+  // either in this notes page or in extraKnownSlugs (typically grammar.json).
   for (const [k, n] of Object.entries(notes)) {
     for (const ref of n.refs) {
-      if (!notes[ref]) {
+      if (!notes[ref] && !(extraKnownSlugs && extraKnownSlugs.has(ref))) {
         throw new Error(`${absPath}: note "${k}" references undefined note "${ref}".`);
       }
     }
   }
   return notes;
+}
+
+// Convert a grammar.json category value's gloss HTML into a popover-ready
+// snippet:  <a href="note:X">…</a>  →  <button popovertarget="note-X">…</button>
+// This keeps grammar.json a clean reference document (no UI markup in source)
+// while letting the runtime treat the gloss as drop-in note content.
+function grammarGlossToHtml(gloss) {
+  if (!gloss) return '';
+  return gloss.replace(
+    /<a\s+href="note:([^"]+)">([\s\S]*?)<\/a>/g,
+    (_, slug, label) => `<button class="note-link" type="button" popovertarget="note-${escapeAttr(slug)}">${label}</button>`
+  );
+}
+
+// Convert grammar.json into notesDict shape:
+//   { key → { title, html, refs } }
+// keyed by every alias that downstream code might use:
+//   - value.id              (e.g. "nom")  — what grammar.json glosses link to
+//   - slugify(value.label)  (e.g. "nominative") — what PARSE_TOKEN_MAP + notes.md use
+//   - value.noteRef         (optional explicit override)
+//
+// Aliases all point at the same content. `refs` is derived by scanning the
+// gloss for note:X links so transitive-closure picks up grammar↔grammar refs.
+function grammarNotesDict(grammar) {
+  if (!grammar || !Array.isArray(grammar.categories)) return {};
+  const dict = {};
+  const collisions = [];
+
+  function add(key, entry, sourceLabel) {
+    if (!key) return;
+    if (dict[key] && dict[key]._source !== sourceLabel) {
+      collisions.push(`grammar key "${key}" produced by both ${dict[key]._source} and ${sourceLabel}`);
+      return;
+    }
+    if (!dict[key]) dict[key] = entry;
+  }
+
+  for (const cat of grammar.categories) {
+    for (const val of cat.values) {
+      const html = grammarGlossToHtml(val.gloss);
+      const refs = [];
+      const linkRe = /<button[^>]+popovertarget="note-([^"]+)"/g;
+      let m;
+      while ((m = linkRe.exec(html))) refs.push(m[1]);
+      const entry = {
+        title: val.label,
+        html,
+        refs,
+        _source: `grammar.${cat.id}.${val.id}`,
+      };
+      add(val.id, entry, entry._source);
+      add(slugifyHeading(val.label), entry, entry._source);
+      if (val.noteRef) add(val.noteRef, entry, entry._source);
+    }
+  }
+
+  if (collisions.length) {
+    console.warn(`grammar.json: ${collisions.length} key collision(s):`);
+    for (const c of collisions.slice(0, 5)) console.warn(`  ${c}`);
+  }
+  return dict;
 }
 
 // Follow note→note references from a starting set, returning every key
@@ -270,8 +337,32 @@ function transitiveNoteClosure(directRefs, notesDict) {
 // per build; per-book `vocabulary/` directories overlay on top for the rare
 // Ovid-specific gloss-set or similar.
 let _sharedLexicon = null;
+let _consolidatedLexiconDoc = null;
 async function loadSharedLexicon() {
   if (_sharedLexicon !== null) return _sharedLexicon;
+
+  // Prefer the consolidated lexicon (Phase 2 output). Fall back to per-lemma
+  // files for backwards compatibility (e.g., partial repo checkouts during
+  // editorial work). When the consolidated form is present, it is the source
+  // of truth — per-lemma files are no longer read.
+  if (await fileExists(CONSOLIDATED_LEXICON)) {
+    const raw = await fs.readFile(CONSOLIDATED_LEXICON, 'utf8');
+    let doc;
+    try {
+      doc = JSON.parse(raw);
+    } catch (err) {
+      throw new Error(`${CONSOLIDATED_LEXICON}: invalid JSON — ${err.message}`);
+    }
+    const out = {};
+    for (const lemma of doc.lemmata) {
+      out[lemma.id] = lemma;
+    }
+    _consolidatedLexiconDoc = doc;
+    _sharedLexicon = out;
+    return out;
+  }
+
+  // Legacy path: read per-lemma files from content/_latin-lexicon/.
   const dir = path.join(CONTENT_DIR, '_latin-lexicon');
   const out = {};
   if (!(await fileExists(dir))) {
@@ -290,6 +381,7 @@ async function loadSharedLexicon() {
     const key = card.id || entry.name.replace(/\.json$/, '');
     out[key] = card;
   }
+  _consolidatedLexiconDoc = { language_id: 'latin', lemmata: Object.values(out) };
   _sharedLexicon = out;
   return out;
 }
@@ -682,6 +774,79 @@ async function buildLexiconJson() {
     path.join(DOCS_DIR, 'assets', 'lexicon.js'),
     'window.__readingRoomLexicon=' + json + ';\n'
   );
+  return lexicon;
+}
+
+// Read grammar.json into a string + parsed form. Optional — sites without
+// grammar.json yet (e.g., during incremental migration) skip the grammar emit
+// and the data bundle's grammar field becomes null.
+async function loadGrammar() {
+  if (!(await fileExists(GRAMMAR_JSON))) return null;
+  const raw = await fs.readFile(GRAMMAR_JSON, 'utf8');
+  return JSON.parse(raw);
+}
+
+// Derive and emit the language-scoped glossary (one per language) and all
+// per-text concordances. Glossary is built once from the consolidated lexicon
+// doc; one concordance is built per piece whose source directory contains
+// book{N}-{NN}.md chapter files.
+async function buildLanguageArtifacts(pieces) {
+  await loadSharedLexicon(); // populate _consolidatedLexiconDoc
+  if (!_consolidatedLexiconDoc) return { glossary: null, concordances: {} };
+
+  const { glossary, stats: glossStats } = buildGlossary(_consolidatedLexiconDoc);
+  await fs.writeFile(
+    path.join(DOCS_DIR, 'assets', 'latin-glossary.json'),
+    JSON.stringify(glossary) + '\n'
+  );
+  console.log(`  glossary: ${glossStats.uniqueSurfaceForms} surface forms, ${glossStats.multiCandidateCount} multi-candidate`);
+
+  const concordances = {};
+  const concordanceDir = path.join(DOCS_DIR, 'assets', 'concordance');
+  await fs.mkdir(concordanceDir, { recursive: true });
+
+  for (const piece of pieces) {
+    if (piece.kind !== 'node') continue;
+    const sourceDir = path.dirname(piece.absPath);
+    // Probe for chapter files matching the convention before invoking the builder.
+    const entries = await fs.readdir(sourceDir);
+    const hasChapterFiles = entries.some((f) => /^book\d+-\w+\.md$/.test(f));
+    if (!hasChapterFiles) continue;
+
+    const { concordance, sourceTokens, stats } = await buildConcordance(piece.slug, sourceDir);
+    concordances[piece.slug] = concordance;
+    await fs.writeFile(
+      path.join(concordanceDir, `${piece.slug}.json`),
+      JSON.stringify(concordance) + '\n'
+    );
+    // Source-tokens manifest for C8/C9 cross-check by validate.js. Not consumed
+    // at runtime; lives in the same dir for convenience.
+    await fs.writeFile(
+      path.join(concordanceDir, `${piece.slug}.source-tokens.json`),
+      JSON.stringify(sourceTokens) + '\n'
+    );
+    console.log(`  concordance/${piece.slug}: ${stats.totalSpans} tokens across ${stats.files} chapters`);
+  }
+
+  return { glossary, concordances };
+}
+
+// Combined iOS bundle. WKWebView can't fetch() file:// resources, so the data
+// arrives via <script src> setting window.__readingRoomData.
+async function emitDataBundle(grammar, glossary, concordances) {
+  const bundle = {
+    grammar,
+    glossary,
+    concordances,
+  };
+  await fs.writeFile(
+    path.join(DOCS_DIR, 'assets', 'reading-room-data.js'),
+    'window.__readingRoomData=' + JSON.stringify(bundle) + ';\n'
+  );
+  await fs.writeFile(
+    path.join(DOCS_DIR, 'assets', 'reading-room-data.json'),
+    JSON.stringify(bundle) + '\n'
+  );
 }
 
 export async function build() {
@@ -692,12 +857,32 @@ export async function build() {
     await fs.copyFile(path.join(READER_DIR, file), path.join(DOCS_DIR, 'assets', file));
   }
   await buildLexiconJson();
+
+  // grammar.json: emit alongside other web assets so the runtime can fetch().
+  const grammar = await loadGrammar();
+  if (grammar) {
+    await fs.writeFile(
+      path.join(DOCS_DIR, 'assets', 'latin-grammar.json'),
+      JSON.stringify(grammar) + '\n'
+    );
+  }
+
   await fs.copyFile(path.join(KATEX_DIR, 'katex.min.css'), path.join(DOCS_DIR, 'assets', 'katex.min.css'));
   await copyDir(path.join(KATEX_DIR, 'fonts'), path.join(DOCS_DIR, 'assets', 'fonts'));
 
   await copyContentImages();
 
   const pieces = await loadPieces();
+
+  // Derive the language artifacts (glossary + per-text concordances) after
+  // pieces are discovered so we know which texts have chapter-file layouts.
+  const { glossary, concordances } = await buildLanguageArtifacts(pieces);
+  await emitDataBundle(grammar, glossary, concordances);
+
+  // Grammar notes — derived from grammar.json once, merged into every piece's
+  // notesDict below. Per Decision 4, grammar.json is the source of truth for
+  // grammar terms; notes.md remains source of truth for editorial commentary.
+  const grammarDict = grammar ? grammarNotesDict(grammar) : {};
   const indexEntries = [];
 
   const pageTpl = await fs.readFile(path.join(TEMPLATES_DIR, 'page.html'), 'utf8');
@@ -732,7 +917,27 @@ export async function build() {
         throw new Error(`${piece.slug}: multiple leaves marked notes: true (only one notes page per book).`);
       }
       const notesLeaf = noteLeaves[0] || null;
-      const notesDict = notesLeaf ? extractNotes(notesLeaf.content, notesLeaf.absPath) : null;
+      const grammarSlugs = new Set(Object.keys(grammarDict));
+      const editorialNotes = notesLeaf ? extractNotes(notesLeaf.content, notesLeaf.absPath, grammarSlugs) : null;
+
+      // Merge grammar notes in. Grammar wins on slug collision; warn so the
+      // editor can rename the passage note. notesDict ends up non-null whenever
+      // grammar.json supplied any entries — even if the piece has no notes.md.
+      let notesDict = null;
+      if (editorialNotes || Object.keys(grammarDict).length > 0) {
+        notesDict = {};
+        for (const [k, v] of Object.entries(editorialNotes || {})) notesDict[k] = v;
+        const collisions = [];
+        for (const [k, v] of Object.entries(grammarDict)) {
+          if (notesDict[k] && notesDict[k]._source !== v._source) {
+            collisions.push(k);
+          }
+          notesDict[k] = v;
+        }
+        if (collisions.length) {
+          console.warn(`${piece.slug}: ${collisions.length} note slug(s) overridden by grammar.json: ${collisions.slice(0, 5).join(', ')}${collisions.length > 5 ? '…' : ''}`);
+        }
+      }
 
       // Per-piece vocabulary: cards keyed by lemma. Drives the Latin-passage
       // popovers. Optional — books with no vocabulary/ directory get null.
