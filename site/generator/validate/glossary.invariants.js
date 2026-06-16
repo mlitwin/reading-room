@@ -52,7 +52,13 @@ function expectedFormsFor(lemma) {
     }
   }
   if (!lemma.paradigm && !lemma.ppp_paradigm) {
-    for (const p of noParadigmParse(lemma)) addForm(lemma.lemma, p);
+    const parses = noParadigmParse(lemma);
+    const surfaces = [lemma.lemma, ...(lemma.alt_forms ?? [])];
+    for (const surface of surfaces) {
+      for (const p of parses) addForm(surface, p);
+    }
+  } else if (Array.isArray(lemma.alt_forms)) {
+    for (const surface of lemma.alt_forms) addForm(surface, 'alt');
   }
   return out;
 }
@@ -60,7 +66,7 @@ function expectedFormsFor(lemma) {
 // Treat the pos-abbreviation parse codes ("prep", "adv", "conj", "enclit",
 // "interj") as "no-cell" markers — Gl2 should not require a paradigm cell to
 // back them. These are the values noParadigmParse() can produce.
-const NO_CELL_PARSES = new Set(['inv', 'prep', 'adv', 'conj', 'enclit', 'interj']);
+const NO_CELL_PARSES = new Set(['inv', 'prep', 'adv', 'conj', 'enclit', 'interj', 'alt']);
 
 /** @type {Invariant[]} */
 export const glossaryInvariants = [

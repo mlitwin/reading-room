@@ -111,6 +111,12 @@ export const concordanceInvariants = [
             // tags "mihi" as `dat.sg.masc,dat.sg.fem`; both should match.
             const stripped = p.replace(/\.(masc|fem|neut)(?=\.|$)/, '');
             if (stripped !== p && allowed.has(stripped)) continue;
+            // Suppletive / alternate-form surfaces — magis/maior/maximus on
+            // magnus_adj, Phoebe on Phoebus_n, etc. — enter the glossary
+            // tagged with an "alt" marker. Accept any markdown parse on those
+            // surfaces; their grammatical analysis lives in a related lemma
+            // pending an editorial split.
+            if (allowed.has('alt')) continue;
             violations.push({
               path: `tokens.${id}.candidates.${cand.lemma_id}`,
               message: `parse "${p}" not in glossary for this lemma`,

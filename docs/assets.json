@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:11:46.687Z",
+  "generated_at": "2026-06-16T15:33:01.814Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -13,8 +13,8 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "98ed1354680a1527ef8aeb1b7bca3e4fbcb491d1431e3430e1b3d03092c6f008",
-      "size": 930416
+      "sha256": "41ba3716b263b45e8597906693a091e341409ad71eb4ca474ad10d8b5f92294b",
+      "size": 930281
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.source-tokens.json",
@@ -333,8 +333,8 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "7c247d16906e83fb81953e03e665cb7cfb23005e108df2266bc88cd63f1e4dcc",
-      "size": 9756985
+      "sha256": "7beae70639651f0bff601440092b09815f16ee0dc2188b1cd56ee5162bfa9344",
+      "size": 9776734
     },
     {
       "path": "assets/latin-grammar.js",
@@ -348,13 +348,13 @@
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "06c0ab12c4a39d95245cbfa335846e2f41f70b6301472249e6ea7c30b1437ceb",
-      "size": 5276781
+      "sha256": "33d3318791a5c31e060f688ed3b1186de99d28f831fe3eca9a1814ca5cb48b6e",
+      "size": 5285061
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "501ecf24902af20e53ca444cb1ee8b3a97e3df469b3b35c910a033995a2c3225",
-      "size": 5276752
+      "sha256": "da95970cd26b440ac746f8974c92b76d3defce96f9f1dceebf859b7866a4a2b7",
+      "size": 5285032
     },
     {
       "path": "assets/notes.js",
@@ -368,13 +368,13 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "423ba3d5d8a90946f1c12e31799ee32974a8e0c9368fd0779f6296c0337e3d2c",
-      "size": 10700138
+      "sha256": "e3f27f558d164670d0a4e5e7be07a3c9cb73bd04d279e9e385a9a958d4a4c4f4",
+      "size": 10719752
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "e8876013b38a8b986cafdf64f72a9f9a4311539f4ab76718008cad3edf87fdb1",
-      "size": 10700112
+      "sha256": "31a02cbf420ba57b9c96c420df4742088114f65873b8a74431aa5d5e2596df45",
+      "size": 10719726
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -563,7 +563,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "11641a7126d7c673305cb58ece99aefbbf1241e3c00b2e68f7ea5c24dc8c6f72",
+      "sha256": "bae7d86775ddd45392b47e4719af85719e6c6a36eb2497980ce7b29cffc536d8",
       "size": 26967
     },
     {
@@ -643,8 +643,8 @@
     },
     {
       "path": "ovid-metamorphoses/book1-08.html",
-      "sha256": "a401c38561ad0c289cd9e42decfb7c45fc8ee96212e56ac1551c29773ac945e7",
-      "size": 74977
+      "sha256": "2f49b034503f331bf7d96915f3514de9b8966c4d8fe59c5e7557138d60fda45f",
+      "size": 74961
     },
     {
       "path": "ovid-metamorphoses/book1-09.html",
@@ -658,8 +658,8 @@
     },
     {
       "path": "ovid-metamorphoses/book1-11.html",
-      "sha256": "175af4fb53b8802731610b25295379d37cf4d96b84038c4414855bbe45c5fa77",
-      "size": 77680
+      "sha256": "e7582c394e5cddff705e5394f9d78a1170cee4ab0014182735f89729037fcb32",
+      "size": 77611
     },
     {
       "path": "ovid-metamorphoses/book1-12.html",
@@ -738,8 +738,8 @@
     },
     {
       "path": "ovid-metamorphoses/book1-27.html",
-      "sha256": "28ffd0d0379b536f7063671c15fd22cb78fb8e9e5a5b35fbfbf0e031d6906927",
-      "size": 75179
+      "sha256": "73623b2ffa30f133a28a127ec3b7a5c08c135b22070af9464e5c4dc6678643ef",
+      "size": 75147
     },
     {
       "path": "ovid-metamorphoses/book1-28.html",

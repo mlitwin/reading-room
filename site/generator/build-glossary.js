@@ -60,8 +60,22 @@ function* expandLemmaForms(lemma) {
     }
   }
   if (!hadParadigm) {
-    const norm = normalizeSurface(lemma.lemma);
-    for (const p of noParadigmParse(lemma)) yield [norm, p];
+    const parses = noParadigmParse(lemma);
+    const surfaces = [lemma.lemma, ...(lemma.alt_forms ?? [])];
+    for (const surface of surfaces) {
+      const norm = normalizeSurface(surface);
+      for (const p of parses) yield [norm, p];
+    }
+  } else if (Array.isArray(lemma.alt_forms)) {
+    // Suppletive / alternate forms (e.g. magis/maior/maximus on magnus_adj,
+    // Phoebe on Phoebus_n) that don't slot into a paradigm cell. Emit each
+    // with an "alt" marker so the surface is discoverable; C3 accepts any
+    // markdown parse on a surface whose glossary entry carries an "alt"
+    // candidate, since alt forms by construction don't have a regular parse
+    // code.
+    for (const surface of lemma.alt_forms) {
+      yield [normalizeSurface(surface), 'alt'];
+    }
   }
 }
 
