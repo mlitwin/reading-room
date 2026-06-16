@@ -144,10 +144,11 @@ export const glossaryInvariants = [
                 });
               }
               if (VERB_POS.has(lemma.pos) && NOMINAL_ONLY_ATOMS.has(atom)) {
-                // Verbs CAN use case/gender atoms for participle forms (pap/ppp etc.).
-                // Allow when the parse also contains a participle marker.
+                // Verbs CAN use case/gender atoms for participle forms (pap/ppp etc.)
+                // and for the gerund/gerundive (verbal noun/adj). Allow when
+                // the parse contains a non-finite marker.
                 const hasParticipleMarker = parse.split('.').some((a) =>
-                  ['pap', 'ppp', 'fap', 'fpp'].includes(a),
+                  ['pap', 'ppl', 'ppp', 'fap', 'fpp', 'gerundive', 'ger'].includes(a),
                 );
                 if (!hasParticipleMarker) {
                   violations.push({

@@ -31,6 +31,12 @@ export const concordanceInvariants = [
       const violations = [];
       for (const [id, tok] of Object.entries(c.tokens)) {
         if (!ctx.glossary.entries[tok.surface]) {
+          // Skip tokens explicitly marked as unresolved by the first-pass
+          // annotator (data-matches="unknown_adv:unk"). These are an editorial
+          // backlog of proper nouns / hapax to lemmatize, not glossary build
+          // gaps — surfacing them as C1 violations would drown out genuine
+          // lexicon-enrichment signal.
+          if (tok.candidates.length === 1 && tok.candidates[0].lemma_id === 'unknown_adv') continue;
           violations.push({
             path: `tokens.${id}`,
             message: `surface "${tok.surface}" not in glossary`,
