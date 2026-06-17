@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T04:56:47.099Z",
+  "generated_at": "2026-06-17T15:25:57.950Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -8,12 +8,12 @@
     },
     {
       "path": "assets/cards.js",
-      "sha256": "8f500ef4abc78cbbc2107a43ebbc7f0abf2cc6e4723cba4399e37a9fa6a060a0",
-      "size": 26649
+      "sha256": "c63e342b742f76f80828555c51dc3c829e3594deaa3aaebbfd9c4f720c7394e5",
+      "size": 27311
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "ee14bde07230bf592263937c56e656dfb1471e1de73a61aa51207a1d3783d888",
+      "sha256": "524a353793e9887f633402b18b1311456e1444e80d4bf28b697295b44160d290",
       "size": 916947
     },
     {
@@ -333,8 +333,8 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "c5543b89195904b82de9d70e7a51f18a439c833d411dc07d7bb7937821af4b42",
-      "size": 9678939
+      "sha256": "2fcfa39193543041d9041e536209171a43654fe8abcbd6b19484f033e9195484",
+      "size": 9680399
     },
     {
       "path": "assets/latin-grammar.js",
@@ -348,13 +348,13 @@
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "e0def7530b202ad84b9c7a1534899d0c858f2ced2ce3562f947e92b9062ea389",
-      "size": 5195745
+      "sha256": "bc5bb89a162693701aa1df7f7fd320f5cf76a88360a27a1433149c8c00cd57a9",
+      "size": 5196508
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "bd83e4dfc55e95a8a12e76f55b3a3de79d57c0039fa676aaf09075cf4e8d09e7",
-      "size": 5195716
+      "sha256": "31657b116e05940e266ea4da0bda4db0c12ba535ac79ebfe8cf0297d0a484dba",
+      "size": 5196479
     },
     {
       "path": "assets/notes.js",
@@ -363,18 +363,18 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "28ce1543d14262480b0085011ca201a94a5bdb94a3af14503df43045f86a66e1",
-      "size": 20107
+      "sha256": "c889c92990dfe2780473c3f779dc060abf41e3744e3da603c3b4f604cbdf7c63",
+      "size": 20421
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "53472187ee113a865facf2de4c2253fbed1ba5f04f3c31a29ec8e6d130b878b5",
-      "size": 10608623
+      "sha256": "47018c3819330e435c4520285e9abff22190cb7c6dc191df7267f14ce0ca07ab",
+      "size": 10610083
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "dd5e3ae9f2673833398af4067109a1d8b729b6584dea0f33dabc7d21ab1d419f",
-      "size": 10608597
+      "sha256": "17b1dbd349a72abdc3a20192a533b3658a8ec59ce73405be30f6def53b63eadc",
+      "size": 10610057
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -563,7 +563,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "ce82019c1ee8540cb9e25955e489075244f13c8fb70a2ccf4d143b131226ccd3",
+      "sha256": "4a88bb056ef5035da16ef903b3dc423d2da46220b32e3c63089995666f46f182",
       "size": 26967
     },
     {

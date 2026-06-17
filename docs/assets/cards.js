@@ -161,13 +161,13 @@
 
   // ── card HTML rendering (ported from build.js)
   function splitColumnsByGroup(cols, type) {
-    function group(keyIdx) {
+    function group(keyIdx, category) {
       var out = [], seen = Object.create(null);
       cols.forEach(function (c) {
         var parts = c.split('.');
         var key = parts[keyIdx];
         var subCol = parts.filter(function (_, i) { return i !== keyIdx; }).join('.');
-        if (!seen[key]) { seen[key] = { groupKey: key, subCols: [] }; out.push(seen[key]); }
+        if (!seen[key]) { seen[key] = { groupKey: key, category: category, subCols: [] }; out.push(seen[key]); }
         seen[key].subCols.push({ orig: c, sub: subCol });
       });
       return out;
@@ -177,10 +177,12 @@
       // so active and passive forms appear as labelled separate tables.
       // Fall back to mood grouping (index 1) for active-only paradigms.
       var hasPassive = cols.some(function (c) { return c.indexOf('.pass') !== -1; });
-      return hasPassive ? group(2) : group(1);
+      return hasPassive ? group(2, 'Voice') : group(1, 'Mood');
     }
-    if (type === 'adj' || type === 'pron' || type === 'ppp') return group(0);
-    return [{ groupKey: null, subCols: cols.map(function (c) { return { orig: c, sub: c }; }) }];
+    // Nominal paradigms (adj/pron/ppp) split on number — sg.{m,f,n} and
+    // pl.{m,f,n} land as separate tables with the gender as inner columns.
+    if (type === 'adj' || type === 'pron' || type === 'ppp') return group(0, 'Number');
+    return [{ groupKey: null, category: null, subCols: cols.map(function (c) { return { orig: c, sub: c }; }) }];
   }
 
   function renderSubTable(p, sectionGroup, type, soloSection) {
@@ -203,8 +205,17 @@
       }).join('');
       return '<tr><th class="row-head">' + renderCompactRowHeader(r) + '</th>' + cells + '</tr>';
     }).join('');
+    // Caption prefixes the linked group value (e.g. "active") with the
+    // category label (e.g. "Voice") so the reader knows what axis the
+    // tables are split on. Dropped when the paradigm renders as a single
+    // table (soloSection) or when there's no group key.
     var caption = sectionGroup.groupKey && !soloSection
-      ? '<caption class="paradigm-section">' + expandParseLinks(sectionGroup.groupKey) + '</caption>'
+      ? '<caption class="paradigm-section">'
+        + (sectionGroup.category
+          ? '<span class="paradigm-section-label">' + escHtml(sectionGroup.category) + ':</span> '
+          : '')
+        + expandParseLinks(sectionGroup.groupKey)
+        + '</caption>'
       : '';
     var cls = ('card-paradigm ' + (type || '')).trim();
     return '<table class="' + cls + '">' + caption + header + body + '</table>';

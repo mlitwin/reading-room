@@ -627,6 +627,13 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   letter-spacing: 0.05em;
   color: var(--fg);
 }
+.card-popover .card-paradigm caption.paradigm-section .paradigm-section-label {
+  /* Category label ("Voice", "Mood", "Number") preceding the linked group
+     value — softer than the value itself so the eye lands on "active" /
+     "passive" rather than "Voice". */
+  color: var(--muted);
+  font-weight: 500;
+}
 .card-popover .card-paradigm caption.paradigm-section .note-link {
   color: inherit;
   border-bottom: 0;
