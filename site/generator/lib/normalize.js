@@ -51,7 +51,8 @@ export function normalizeSurface(word) {
     .replace(/^exf/, 'eff')
     .replace(/^ob([cfgp])/, 'o$1$1')
     .replace(/^sub([cfgmp])/, 'su$1$1')
-    .replace(/^con([lr])/, 'co$1$1');
+    .replace(/^con([lr])/, 'co$1$1')
+    .replace(/^con([bmp])/, 'com$1');
 }
 
 // Recognized Latin enclitic suffixes for the C10 invariant. Restricted to the
