@@ -1,4 +1,4 @@
-.PHONY: install build serve clean test validate node-test \
+.PHONY: install build serve clean test validate node-test manuscript-md \
         latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
         latin-translate-ingest latin-scribe-book1 latin-stanza-editorial \
         latin-stanza-annotate latin-stanza-annotate-all latin-normalize-surface
@@ -6,9 +6,18 @@
 install:
 	cd site/generator && npm install
 
-# build depends on validate: any error-severity invariant aborts the build.
-# Warnings (the editorial backlog) are reported but don't block.
-build: validate
+# Regenerate per-chapter markdown from the structured manuscript JSON
+# (content/ovid-metamorphoses/manuscript.{latin,english}.json). The markdown
+# is a derived build artifact — see Plans/manuscript-format-plan.md
+# Decision 2 — and is gitignored at the destination. Downstream stages
+# (validate, build) keep reading from content/{text_slug}/book*.md.
+manuscript-md:
+	cd site/generator && node build-manuscript-md.js --text=ovid-metamorphoses --out=../../content/ovid-metamorphoses
+
+# build runs manuscript-md (regenerate markdown from JSON) before validate
+# (any error-severity invariant aborts the build). Warnings (the editorial
+# backlog) are reported but don't block.
+build: manuscript-md validate
 	cd site/generator && npm run build
 
 serve:

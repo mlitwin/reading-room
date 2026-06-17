@@ -7,7 +7,7 @@
     "build": "node build.js",
     "serve": "node serve.js",
     "validate": "node validate.js",
-    "test": "node --test 'schema/__tests__/*.test.js' 'validate/__tests__/*.test.js'"
+    "test": "node --test 'schema/__tests__/*.test.js' 'validate/__tests__/*.test.js' '__tests__/*.test.js'"
   },
   "dependencies": {
     "@vscode/markdown-it-katex": "^1.1.1",

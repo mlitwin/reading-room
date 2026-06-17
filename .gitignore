@@ -3,6 +3,14 @@ node_modules/
 Plans
 .tmp/
 
+# Manuscript markdown is a build artifact derived from
+# content/{text}/manuscript.{lang}.json — see Plans/manuscript-format-plan.md
+# Decision 2. The .build/ path is the default during development; the
+# content/ovid-metamorphoses/book*.md path is where `make manuscript-md`
+# writes during a build so downstream stages keep working.
+site/generator/.build/
+content/ovid-metamorphoses/book*.md
+
 # iOS app
 app/build/
 app/ReadingRoom.xcodeproj/
