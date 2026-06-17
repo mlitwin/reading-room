@@ -117,6 +117,26 @@ export const concordanceInvariants = [
             // surfaces; their grammatical analysis lives in a related lemma
             // pending an editorial split.
             if (allowed.has('alt')) continue;
+            // Indeclinable adj / one-form noun used adverbially or with the
+            // lemma's id-suffix parse: tot_adj's `adv` use, mille_num's `num`
+            // use, nefas_n's `adv` use. Accept when the markdown parse equals
+            // either the lemma's pos or the lemma's id-suffix (the
+            // noParadigmParse marker), and the token surface is the lemma's
+            // citation form.
+            if (lemma) {
+              const tokSurface = tok.surface;
+              const lemmaForm = lemma.lemma.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/j/g, 'i').replace(/v/g, 'u');
+              if (tokSurface === lemmaForm) {
+                const ix = lemma.id.lastIndexOf('_');
+                const idSuffix = ix >= 0 ? lemma.id.slice(ix + 1) : null;
+                if (p === lemma.pos || (idSuffix && p === idSuffix)) continue;
+                // Indeclinables (tot, totidem, nefas, mille, sponte, …) can
+                // double as adverbs / prepositions / conjunctions in classical
+                // usage; accept any invariant-POS parse on the lemma's own
+                // citation form.
+                if (INVARIANT_POS_PARSES.has(p)) continue;
+              }
+            }
             // Non-finite verb forms: markdown tags participle / gerundive /
             // gerund / future-participle surfaces with a bare case-style
             // parse ("gen.pl.neut" for habendum, "nom.sg.fem" for amans) when
