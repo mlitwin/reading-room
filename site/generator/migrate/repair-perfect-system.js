@@ -39,6 +39,11 @@ function denorm(s) {
 function perfectStem(pp2) {
   if (!pp2) return null;
   let raw = denorm(pp2).split(',')[0].trim();
+  // Placeholder principal parts like "-i" or "-" mark verbs with no
+  // attested perfect (the seeder couldn't infer one). Skip them — the
+  // perfect-system cells would otherwise be "-i", "-eram", … and pollute
+  // the glossary with literal dash-prefixed surfaces.
+  if (raw.startsWith('-')) return null;
   if (!raw.endsWith('i')) return null;
   return { full: raw, stem: raw.slice(0, -1) };
 }
