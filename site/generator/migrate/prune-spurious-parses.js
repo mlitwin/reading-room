@@ -119,9 +119,20 @@ async function main() {
         }
         const kept = [];
         for (const p of cand.parses) {
+          // Direct match: the parse code itself is a cell key.
           const forms = parseMap.get(p);
-          if (forms && forms.has(surface)) kept.push(p);
-          else didPrune = true;
+          if (forms && forms.has(surface)) { kept.push(p); continue; }
+          // Non-finite verb forms: markdown often tags participle / gerundive
+          // / gerund surfaces with a bare case-style parse ("gen.pl.neut" for
+          // habendum) when the cell keys carry a marker prefix. Accept if any
+          // of the prefixed variants yields the surface.
+          let matched = false;
+          for (const pre of ['ppl.', 'ppp.', 'gerundive.', 'ger.', 'fap.', 'fpp.']) {
+            const f = parseMap.get(pre + p);
+            if (f && f.has(surface)) { matched = true; break; }
+          }
+          if (matched) { kept.push(p); continue; }
+          didPrune = true;
         }
         if (kept.length === 0) {
           // All parses pruned — none of them yield this surface in the
