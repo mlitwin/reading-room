@@ -1,69 +1,180 @@
 # Validation Backlog
 
-`make validate` as of 2026-06-17: **0 errors, 100 warnings**
+`make validate` as of 2026-06-18: **0 errors, 0 warnings** — all invariants PASS.
 
 ```
 ✓ grammar (G1–G3)
 ✓ lexicon (L1–L9, L8a)
 ✓ glossary (Gl1–Gl5)
-! concordance: C2 (6), C11 (94)
+✓ concordance (C1–C11)
 ```
 
 ---
 
-## C2 — 6 violations (defective-verb surfaces)
+## What changed (2026-06-17 → 2026-06-18)
 
-`inquam_v` appears in the concordance on the surface `"in"` (5 tokens: b1-15-127, b1-18-048, b1-22-122, b1-23-234, + 1 more) and `ador_v` on `"aderis"` (b1-21-019). The glossary entry for `"in"` is dominated by `in_prep`; the glossary entry for `"aderis"` is dominated by `ad-sum_v`. These genuinely defective verbs form their 1sg/2sg differently from other paradigm cells, so no glossary candidate exists for their shortened forms.
+Starting point: 100 warnings (C2: 6, C11: 94). Three migrate scripts and one
+LLM disambiguation pass closed everything.
 
-**Resolution path:** Either (a) add the surface forms explicitly to the defective-verb paradigm cells so the glossary picks them up, or (b) promote these to C11 editorial tokens (add a `selected_lemma_id` to dismiss the spurious candidate).
+### `migrate/dismiss-defective-candidates-json.js` — C2 6 → 1
 
----
+Token-level rewrites for cases where the morphological analyzer offered a
+spurious defective-verb candidate. Rules:
 
-## C11 — 94 violations (homograph disambiguation)
+- surface `"in"` × `inquam_v` → `in_prep` (4 tokens). The editorial reading
+  "inque" = imperative of inquam is wrong; inquam is defective and has no
+  imperative cell. The surface is just `in` + the enclitic `-que`.
+- surface `"aderis"` × `ador_v` → drop the candidate (1 token). `adoro`'s
+  2sg.pres.subj.pass is `adoreris`, not `aderis`; the real lemma is `adsum_v`
+  2sg.fut.ind.act.
 
-94 concordance tokens have 2–3 lemma candidates and no `selected_lemma_id` editorial selection. These require translator-level reading of the surrounding context to resolve (e.g. `loco` could be `locus_n` or `loco_v`; `summa` could be `summus_adj` or `summa_n`).
+### C11 pipeline — 94 → 0
 
-**Infrastructure in place:**
-- `selected_lemma_id` field on `WordTokenSchema` (`manuscript.latin.json`)
-- `data-selected-lemma` attribute in the markdown emitter (`build-manuscript-md.js`)
-- `selected_lemma_id` propagation in `build-concordance.js`
-- C4/C5 invariants validate selections once made
+Three stages chained as `npm run c11`:
 
-**Resolution path:** Build an interactive editorial script (plan step a.3) that walks multi-candidate tokens, prints the line context and candidate glosses, accepts a keyboard selection, and writes `selected_lemma_id` back to `manuscript.latin.json`. Re-run `make build` after each editorial session.
+1. `migrate/extract-c11-worklist.js` walks `manuscript.latin.json`, computes
+   the per-section span index that matches the concordance's `b{book}-{chapter}-{NNN}`
+   token-ref format, and emits a JSONL worklist of every multi-candidate token
+   with no `selected_lemma_id`. Each record carries the target line text with
+   the surface wrapped in `[[…]]`, the previous and next lines, and each
+   candidate's lemma / pos / parses / glosses from `lexicon.json`.
+2. `migrate/resolve-c11-llm.js` calls the Anthropic SDK
+   (`claude-sonnet-4-6` with prompt caching on the system prompt and
+   structured-JSON output) for each record. The 2026-06-18 run used a local
+   subagent instead — same result, no API cost — so the SDK script is the
+   long-term path but doesn't need to be invoked for this corpus.
+3. `migrate/apply-c11-resolutions-json.js` reads the resolutions JSONL and
+   writes `selected_lemma_id` back to the appropriate word tokens in
+   `manuscript.latin.json`. It refuses to overwrite a prior editorial decision
+   and silently drops resolutions whose proposed lemma is off the candidate
+   list (C4 would flag the inconsistency otherwise). After applying, it
+   regenerates the gitignored chapter markdown so `build.js` picks the
+   changes up.
+
+### `migrate/fill-lexicon-gaps.js` — C2 1 → 0, plus collateral cleanups
+
+The disambiguation pass surfaced a handful of cases where the analyzer's
+candidate list was insufficient because the right lemma was missing from
+`lexicon.json`. This script:
+
+- Adds five new lemmata: `solum_n` (2nd-decl neut, "ground/soil"), `vetus_adj`
+  (3rd-decl 1-termination, "old"), `late_adv` (invariant, "broadly"),
+  `victus_n` (4th-decl masc, "sustenance"), `lenis_adj` (3rd-decl 2-termination,
+  "gentle"). Each carries a full paradigm modelled on an existing same-shape
+  entry.
+- Corrects two existing entries: `sol_n` glosses were mis-attached (described
+  *solum*, "ground") and got rewritten to "the sun"; `quis_pron`'s placeholder
+  gloss got replaced with the real interrogative/indefinite glosses.
+- Rewrites seven manuscript word tokens (`molles` → `molle_adj`, `humana` →
+  `humani_adj`, `solum` → `solum_n`, `veteris` → `vetus_adj`, `late` →
+  `late_adv`, `victu` → `victus_n`, `lenis` → `lenis_adj`) so each becomes
+  single-candidate with the correct lemma. The two `quo` tokens flagged in the
+  same investigation didn't need rewriting once `quis_pron` got a real gloss.
+- Regenerates the chapter markdown.
+
+The script is idempotent: re-running after a successful run is a no-op
+(presence of each new lemma id and each rewrite's target are both checked).
 
 ---
 
 ## Reusable migrate scripts
 
-Three scripts remain in `site/generator/migrate/` that can be re-run as the lexicon or manuscript evolves:
+The scripts in `site/generator/migrate/` cover the four classes of repair
+this corpus has needed so far. Re-run as the lexicon or manuscript evolves.
 
 ### `prune-spurious-parses-json.js`
-Removes parse codes from manuscript tokens when the candidate lemma's paradigm does not actually yield that surface. Run after authoring new paradigm cells that supersede old `noParadigmParse` codes (e.g., when a lemma gets its first real paradigm, the old `"noun"` or `"adj"` parse placeholder becomes spurious).
+Removes parse codes from manuscript tokens when the candidate lemma's paradigm
+doesn't actually yield that surface.
 
 ```
 node site/generator/migrate/prune-spurious-parses-json.js [--dry-run]
 ```
 
 ### `split-enclitics-json.js`
-Splits word tokens whose surface ends in `-que` or `-ve` into a host token + an enclitic token. Only splits when the host form is already a known glossary entry. Re-run after adding new lexicon entries for words that appear with enclitics in the text.
+Splits word tokens whose surface ends in `-que` or `-ve` into a host token +
+an enclitic token. Only splits when the host form is already a known glossary
+entry.
 
 ```
 node site/generator/migrate/split-enclitics-json.js [--dry-run]
 ```
 
 ### `clean-pos-hints-json.js`
-Aligns each token's `pos_hint` field with the actual POS of its first candidate lemma. Useful after bulk lexicon changes that alter POS assignments.
+Aligns each token's `pos_hint` field with the actual POS of its first
+candidate lemma.
 
 ```
 node site/generator/migrate/clean-pos-hints-json.js [--dry-run]
 ```
 
+### `dismiss-defective-candidates-json.js`
+Corrects tokens whose lemma assignment is a morphologically spurious
+defective-verb candidate. Rule table at the top of the script — append to it
+when a new defective-cell collision shows up.
+
+```
+node site/generator/migrate/dismiss-defective-candidates-json.js [--dry-run]
+```
+
+### `fill-lexicon-gaps.js`
+One-shot lexicon-gap repair: new lemmata + gloss fixes + token rewrites. The
+arrays at the top of the file are the canonical record of what got added and
+why; future similar gaps should extend the same script.
+
+```
+node site/generator/migrate/fill-lexicon-gaps.js [--dry-run]
+```
+
+---
+
+## C11 pipeline scripts
+
+### `extract-c11-worklist.js`
+Walks the manuscript, emits multi-candidate tokens with full line context for
+disambiguation.
+
+```
+node site/generator/migrate/extract-c11-worklist.js
+```
+
+### `resolve-c11-llm.js`
+Calls the Anthropic SDK to resolve each worklist record. Sonnet 4.6, prompt
+caching, structured JSON output, off-list/low-confidence drops. Requires
+`ANTHROPIC_API_KEY`. For one-shot corpus runs, delegating to a local
+subagent via the Agent tool produces equivalent quality at no API cost.
+
+```
+node site/generator/migrate/resolve-c11-llm.js [--max-tokens=N] [--include-low]
+```
+
+### `apply-c11-resolutions-json.js`
+Reads the resolutions JSONL, writes `selected_lemma_id` back to the
+manuscript, refuses to overwrite prior editorial decisions, regenerates the
+chapter markdown.
+
+```
+node site/generator/migrate/apply-c11-resolutions-json.js [--dry-run]
+```
+
+### Full chain
+
+```
+npm --prefix site/generator run c11
+```
+
+Runs `c11:extract` → `c11:resolve` → `c11:apply` → `build` → `validate`.
+
 ---
 
 ## Adding new lexicon entries
 
-1. Edit `content/_language/latin/lexicon.json` directly (or write a targeted migrate script).
-2. If the new lemma's surface appears in the text with an enclitic, re-run `split-enclitics-json.js`.
-3. If existing manuscript tokens now have stale parse codes, re-run `prune-spurious-parses-json.js`.
+1. Edit `content/_language/latin/lexicon.json` directly, or extend
+   `fill-lexicon-gaps.js` with the new entries.
+2. If the new lemma's surface appears in the text with an enclitic, re-run
+   `split-enclitics-json.js`.
+3. If existing manuscript tokens now have stale parse codes, re-run
+   `prune-spurious-parses-json.js`.
 4. Run `node site/generator/build.js` to rebuild all stored assets.
-5. Run `make validate` to check invariants.
+5. Run `node site/generator/validate.js` to check invariants.
+6. If new multi-candidate tokens surface, run `npm run c11` to disambiguate
+   them.

@@ -1317,7 +1317,8 @@
           ],
           "stanza": "iungo",
           "pos_hint": "verb",
-          "__data_matches": "jungo_v:ppp.gen.pl.fem;junctus_adj:gen.pl.fem"
+          "__data_matches": "jungo_v:ppp.gen.pl.fem;junctus_adj:gen.pl.fem",
+          "selected_lemma_id": "jungo_v"
         },
         {
           "kind": "ws",
@@ -2354,7 +2355,8 @@
           ],
           "stanza": "calidus",
           "pos_hint": "noun",
-          "__data_matches": "calida_n:dat.pl.fem,abl.pl.fem;calidum_n:dat.pl.neut,abl.pl.neut"
+          "__data_matches": "calida_n:dat.pl.fem,abl.pl.fem;calidum_n:dat.pl.neut,abl.pl.neut",
+          "selected_lemma_id": "calidum_n"
         },
         {
           "kind": "punct",
@@ -2900,7 +2902,8 @@
             "dat.sg.masc"
           ],
           "pos_hint": "verb",
-          "__data_matches": "caeco_v:1sg.pres.ind.act;caecus_n:abl.sg.masc,dat.sg.masc"
+          "__data_matches": "caeco_v:1sg.pres.ind.act;caecus_n:abl.sg.masc,dat.sg.masc",
+          "selected_lemma_id": "caecus_n"
         },
         {
           "kind": "ws"
@@ -3172,7 +3175,8 @@
             "acc.pl.neut"
           ],
           "pos_hint": "noun",
-          "__data_matches": "summa_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;summum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "summa_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;summum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "summa_n"
         },
         {
           "kind": "ws"
@@ -3356,7 +3360,8 @@
             "1sg.pres.ind.act"
           ],
           "pos_hint": "noun",
-          "__data_matches": "locum_n:abl.sg.neut,dat.sg.neut;locus_n:abl.sg.masc,dat.sg.masc;loco_v:1sg.pres.ind.act"
+          "__data_matches": "locum_n:abl.sg.neut,dat.sg.neut;locus_n:abl.sg.masc,dat.sg.masc;loco_v:1sg.pres.ind.act",
+          "selected_lemma_id": "locus_n"
         },
         {
           "kind": "ws"
@@ -8162,17 +8167,14 @@
         {
           "kind": "word",
           "surface": "solum",
-          "lemma_id": "sol_n",
+          "lemma_id": "solum_n",
           "parses": [
-            "gen.pl.masc",
-            "acc.sg.masc",
-            "nom.sg.neut",
-            "voc.sg.neut",
-            "acc.sg.neut"
+            "acc.sg",
+            "nom.sg"
           ],
-          "stanza": "solum",
+          "stanza": "solum_n",
           "pos_hint": "noun",
-          "__data_matches": "sol_n:gen.pl.masc;solus_adj:acc.sg.masc,nom.sg.neut,voc.sg.neut,acc.sg.neut"
+          "selected_lemma_id": "solus_adj"
         },
         {
           "kind": "ws",
@@ -8476,7 +8478,8 @@
             "gen.sg.fem"
           ],
           "pos_hint": "verb",
-          "__data_matches": "mentior_v:2sg.pres.ind.act;mens_n:gen.sg.fem"
+          "__data_matches": "mentior_v:2sg.pres.ind.act;mens_n:gen.sg.fem",
+          "selected_lemma_id": "mens_n"
         },
         {
           "kind": "ws"
@@ -10316,7 +10319,8 @@
           ],
           "stanza": "ora",
           "pos_hint": "verb",
-          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "os_n"
         },
         {
           "kind": "ws",
@@ -14917,7 +14921,8 @@
           ],
           "stanza": "aurra",
           "pos_hint": "verb",
-          "__data_matches": "auro_v:2sg.pres.ind.act;aura_n:acc.pl.fem"
+          "__data_matches": "auro_v:2sg.pres.ind.act;aura_n:acc.pl.fem",
+          "selected_lemma_id": "aura_n"
         }
       ]
     },
@@ -16290,7 +16295,8 @@
           ],
           "stanza": "vico",
           "pos_hint": "verb",
-          "__data_matches": "vinco_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;vivo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "vinco_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;vivo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "vinco_v"
         },
         {
           "kind": "ws",
@@ -16362,7 +16368,8 @@
           ],
           "stanza": "caedus",
           "pos_hint": "verb",
-          "__data_matches": "caedo_v:2sg.pres.imp.act;caedes_n:abl.sg.fem"
+          "__data_matches": "caedo_v:2sg.pres.imp.act;caedes_n:abl.sg.fem",
+          "selected_lemma_id": "caedes_n"
         },
         {
           "kind": "ws",
@@ -17058,7 +17065,8 @@
           ],
           "stanza": "iaceo",
           "pos_hint": "verb",
-          "__data_matches": "jaceo_v:3pl.imperf.subj.act;jacio_v:3pl.imperf.subj.act"
+          "__data_matches": "jaceo_v:3pl.imperf.subj.act;jacio_v:3pl.imperf.subj.act",
+          "selected_lemma_id": "jaceo_v"
         },
         {
           "kind": "punct",
@@ -17558,7 +17566,8 @@
           ],
           "stanza": "caedus",
           "pos_hint": "verb",
-          "__data_matches": "caedo_v:2sg.pres.ind.act;caedes_n:gen.sg.fem"
+          "__data_matches": "caedo_v:2sg.pres.ind.act;caedes_n:gen.sg.fem",
+          "selected_lemma_id": "caedes_n"
         }
       ]
     },
@@ -17739,7 +17748,8 @@
           ],
           "stanza": "summus",
           "pos_hint": "noun",
-          "__data_matches": "summa_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;summum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "summa_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;summum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "summa_n"
         },
         {
           "kind": "ws",
@@ -18464,7 +18474,8 @@
           ],
           "stanza": "superior",
           "pos_hint": "noun",
-          "__data_matches": "supera_n:dat.pl.neut,abl.pl.neut;superus_n:abl.pl.masc,dat.pl.masc"
+          "__data_matches": "supera_n:dat.pl.neut,abl.pl.neut;superus_n:abl.pl.masc,dat.pl.masc",
+          "selected_lemma_id": "superus_n"
         },
         {
           "kind": "ws",
@@ -18518,7 +18529,8 @@
           ],
           "stanza": "tectus",
           "pos_hint": "verb",
-          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "tectum_n"
         },
         {
           "kind": "ws",
@@ -19627,7 +19639,8 @@
           ],
           "stanza": "ora",
           "pos_hint": "verb",
-          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "os_n"
         },
         {
           "kind": "ws",
@@ -21906,7 +21919,8 @@
           ],
           "stanza": "humanus",
           "pos_hint": "noun",
-          "__data_matches": "humana_n:gen.pl.neut;humani_adj:gen.pl.masc"
+          "__data_matches": "humana_n:gen.pl.neut;humani_adj:gen.pl.masc",
+          "selected_lemma_id": "humani_adj"
         },
         {
           "kind": "ws",
@@ -22969,16 +22983,13 @@
         {
           "kind": "word",
           "surface": "humana",
-          "lemma_id": "humano_v",
+          "lemma_id": "humani_adj",
           "parses": [
-            "2sg.pres.imp.act",
-            "nom.pl.neut",
-            "voc.pl.neut",
-            "acc.pl.neut"
+            "abl.sg.fem"
           ],
-          "stanza": "humanus",
-          "pos_hint": "verb",
-          "__data_matches": "humano_v:2sg.pres.imp.act;humana_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "stanza": "humani_adj",
+          "pos_hint": "adj",
+          "selected_lemma_id": "humana_n"
         },
         {
           "kind": "ws",
@@ -23540,7 +23551,8 @@
           ],
           "stanza": "tectus",
           "pos_hint": "verb",
-          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "tectum_n"
         },
         {
           "kind": "ws",
@@ -24872,7 +24884,8 @@
           ],
           "stanza": "tectus",
           "pos_hint": "verb",
-          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "tectum_n"
         },
         {
           "kind": "ws",
@@ -25195,7 +25208,8 @@
           ],
           "stanza": "caedus",
           "pos_hint": "verb",
-          "__data_matches": "caedo_v:2sg.pres.ind.act;caedes_n:gen.sg.fem"
+          "__data_matches": "caedo_v:2sg.pres.ind.act;caedes_n:gen.sg.fem",
+          "selected_lemma_id": "caedes_n"
         }
       ]
     },
@@ -25481,14 +25495,13 @@
         {
           "kind": "word",
           "surface": "veteris",
-          "lemma_id": "veto_v",
+          "lemma_id": "vetus_adj",
           "parses": [
-            "2sg.pres.subj.pass",
-            "gen.sg.masc"
+            "gen.sg.fem"
           ],
-          "stanza": "veterus",
-          "pos_hint": "verb",
-          "__data_matches": "veto_v:2sg.pres.subj.pass;vetus_n:gen.sg.masc"
+          "stanza": "vetus_adj",
+          "pos_hint": "adj",
+          "selected_lemma_id": "vetus_n"
         },
         {
           "kind": "ws",
@@ -26090,7 +26103,8 @@
           ],
           "stanza": "pus",
           "pos_hint": "verb",
-          "__data_matches": "puteo_v:2sg.pres.ind.act;puto_v:2sg.pres.subj.act"
+          "__data_matches": "puteo_v:2sg.pres.ind.act;puto_v:2sg.pres.subj.act",
+          "selected_lemma_id": "puto_v"
         },
         {
           "kind": "punct",
@@ -26854,7 +26868,8 @@
             "abl.pl.fem"
           ],
           "pos_hint": "noun",
-          "__data_matches": "fera_n:abl.pl.fem,dat.pl.fem;ferus_adj:abl.pl.neut,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.fem"
+          "__data_matches": "fera_n:abl.pl.fem,dat.pl.fem;ferus_adj:abl.pl.neut,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.fem",
+          "selected_lemma_id": "fera_n"
         },
         {
           "kind": "ws"
@@ -27919,7 +27934,8 @@
           ],
           "stanza": "Tela",
           "pos_hint": "noun",
-          "__data_matches": "tela_n:abl.sg.fem,nom.sg.fem,voc.sg.fem;telum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "tela_n:abl.sg.fem,nom.sg.fem,voc.sg.fem;telum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "telum_n"
         },
         {
           "kind": "ws",
@@ -28870,14 +28886,13 @@
         {
           "kind": "word",
           "surface": "late",
-          "lemma_id": "fero_v",
+          "lemma_id": "late_adv",
           "parses": [
-            "ppp.voc.sg.masc",
-            "2sg.pres.imp.act"
+            "adv"
           ],
-          "stanza": "latim",
-          "pos_hint": "verb",
-          "__data_matches": "fero_v:ppp.voc.sg.masc;lateo_v:2sg.pres.imp.act"
+          "stanza": "late_adv",
+          "pos_hint": "adv",
+          "selected_lemma_id": "lateo_v"
         },
         {
           "kind": "ws",
@@ -29763,7 +29778,8 @@
           ],
           "stanza": "tectus",
           "pos_hint": "verb",
-          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "tectum_n"
         },
         {
           "kind": "ws",
@@ -30285,7 +30301,8 @@
           ],
           "stanza": "ora",
           "pos_hint": "verb",
-          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "os_n"
         },
         {
           "kind": "ws",
@@ -30826,7 +30843,8 @@
             "acc.pl.neut"
           ],
           "pos_hint": "verb",
-          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "tectum_n"
         },
         {
           "kind": "ws"
@@ -31495,7 +31513,8 @@
           ],
           "stanza": "ponum",
           "pos_hint": "noun",
-          "__data_matches": "ponto_n:nom.sg.masc,voc.sg.masc;pontus_n:abl.sg.masc,dat.sg.masc"
+          "__data_matches": "ponto_n:nom.sg.masc,voc.sg.masc;pontus_n:abl.sg.masc,dat.sg.masc",
+          "selected_lemma_id": "pontus_n"
         },
         {
           "kind": "punct",
@@ -31868,7 +31887,8 @@
           ],
           "stanza": "summus",
           "pos_hint": "noun",
-          "__data_matches": "summa_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;summum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "summa_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;summum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "summa_n"
         },
         {
           "kind": "ws",
@@ -33394,7 +33414,8 @@
           ],
           "stanza": "nov",
           "pos_hint": "verb",
-          "__data_matches": "nosco_v:1sg.perf.ind.act;novi_adj:nom.pl.masc,voc.pl.masc;novus_adj:nom.pl.masc,voc.pl.masc,gen.sg.neut,gen.sg.masc"
+          "__data_matches": "nosco_v:1sg.perf.ind.act;novi_adj:nom.pl.masc,voc.pl.masc;novus_adj:nom.pl.masc,voc.pl.masc,gen.sg.neut,gen.sg.masc",
+          "selected_lemma_id": "novus_adj"
         },
         {
           "kind": "ws",
@@ -33671,14 +33692,13 @@
         {
           "kind": "word",
           "surface": "victu",
-          "lemma_id": "vinco_v",
+          "lemma_id": "victus_n",
           "parses": [
-            "dat.sg.neut",
-            "dat.sg.neut"
+            "abl.sg"
           ],
-          "stanza": "victus",
-          "pos_hint": "verb",
-          "__data_matches": "vinco_v:dat.sg.neut;vivo_v:dat.sg.neut"
+          "stanza": "victus_n",
+          "pos_hint": "noun",
+          "selected_lemma_id": "vivo_v"
         },
         {
           "kind": "punct",
@@ -34328,7 +34348,8 @@
           ],
           "stanza": "aequor_v",
           "pos_hint": "verb",
-          "__data_matches": "aequo_v:1sg.pres.ind.pass;aequor_n:nom.sg.neut,voc.sg.neut,acc.sg.neut"
+          "__data_matches": "aequo_v:1sg.pres.ind.pass;aequor_n:nom.sg.neut,voc.sg.neut,acc.sg.neut",
+          "selected_lemma_id": "aequor_n"
         },
         {
           "kind": "punct",
@@ -35800,7 +35821,8 @@
           ],
           "stanza": "tectus",
           "pos_hint": "verb",
-          "__data_matches": "tego_v:ppp.acc.sg.masc,ppp.nom.sg.neut,ppp.voc.sg.neut,ppp.acc.sg.neut;tectum_n:nom.sg.neut,voc.sg.neut,acc.sg.neut"
+          "__data_matches": "tego_v:ppp.acc.sg.masc,ppp.nom.sg.neut,ppp.voc.sg.neut,ppp.acc.sg.neut;tectum_n:nom.sg.neut,voc.sg.neut,acc.sg.neut",
+          "selected_lemma_id": "tego_v"
         }
       ]
     },
@@ -35820,7 +35842,8 @@
           ],
           "stanza": "caerules",
           "pos_hint": "noun",
-          "__data_matches": "caeruleum_n:nom.sg.neut,voc.sg.neut,acc.sg.neut;caeruleus_n:acc.sg.masc"
+          "__data_matches": "caeruleum_n:nom.sg.neut,voc.sg.neut,acc.sg.neut;caeruleus_n:acc.sg.masc",
+          "selected_lemma_id": "caeruleus_n"
         },
         {
           "kind": "ws",
@@ -36367,7 +36390,8 @@
           ],
           "stanza": "ponum",
           "pos_hint": "noun",
-          "__data_matches": "ponto_n:nom.sg.masc,voc.sg.masc;pontus_n:abl.sg.masc,dat.sg.masc"
+          "__data_matches": "ponto_n:nom.sg.masc,voc.sg.masc;pontus_n:abl.sg.masc,dat.sg.masc",
+          "selected_lemma_id": "pontus_n"
         },
         {
           "kind": "punct",
@@ -36542,7 +36566,8 @@
           ],
           "stanza": "ora",
           "pos_hint": "verb",
-          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "os_n"
         },
         {
           "kind": "ws",
@@ -37238,7 +37263,8 @@
           ],
           "stanza": "locus_n",
           "pos_hint": "verb",
-          "__data_matches": "loco_v:2sg.pres.imp.act;locum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "loco_v:2sg.pres.imp.act;locum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "locum_n"
         },
         {
           "kind": "ws",
@@ -39574,7 +39600,8 @@
           ],
           "stanza": "visus",
           "pos_hint": "verb",
-          "__data_matches": "video_v:ppp.nom.sg.neut,ppp.voc.sg.neut,ppp.acc.sg.neut,ppp.acc.sg.masc;viso_v:ppp.acc.sg.masc,ppp.nom.sg.neut,ppp.voc.sg.neut,ppp.acc.sg.neut"
+          "__data_matches": "video_v:ppp.nom.sg.neut,ppp.voc.sg.neut,ppp.acc.sg.neut,ppp.acc.sg.masc;viso_v:ppp.acc.sg.masc,ppp.nom.sg.neut,ppp.voc.sg.neut,ppp.acc.sg.neut",
+          "selected_lemma_id": "video_v"
         },
         {
           "kind": "ws",
@@ -39592,7 +39619,8 @@
           ],
           "stanza": "superior",
           "pos_hint": "noun",
-          "__data_matches": "supera_n:dat.pl.neut,abl.pl.neut;superus_n:abl.pl.masc,dat.pl.masc"
+          "__data_matches": "supera_n:dat.pl.neut,abl.pl.neut;superus_n:abl.pl.masc,dat.pl.masc",
+          "selected_lemma_id": "superus_n"
         },
         {
           "kind": "punct",
@@ -40836,7 +40864,8 @@
           ],
           "stanza": "vico",
           "pos_hint": "verb",
-          "__data_matches": "vinco_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;vivo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "vinco_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;vivo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "vinco_v"
         },
         {
           "kind": "ws",
@@ -41183,7 +41212,8 @@
           ],
           "stanza": "moueo",
           "pos_hint": "verb",
-          "__data_matches": "moto_v:2sg.pres.imp.act;moveo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "moto_v:2sg.pres.imp.act;moveo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "moveo_v"
         },
         {
           "kind": "ws",
@@ -41692,7 +41722,8 @@
           ],
           "stanza": "pario_v",
           "pos_hint": "verb",
-          "__data_matches": "pareo_v:2sg.pres.ind.pass,2sg.pres.imp.pass,inf.pres.act;paro_v:2sg.pres.subj.pass"
+          "__data_matches": "pareo_v:2sg.pres.ind.pass,2sg.pres.imp.pass,inf.pres.act;paro_v:2sg.pres.subj.pass",
+          "selected_lemma_id": "pareo_v"
         },
         {
           "kind": "ws",
@@ -41767,7 +41798,8 @@
           ],
           "stanza": "venias",
           "pos_hint": "verb",
-          "__data_matches": "venio_v:1sg.pres.subj.act;venia_n:acc.sg.fem"
+          "__data_matches": "venio_v:1sg.pres.subj.act;venia_n:acc.sg.fem",
+          "selected_lemma_id": "venia_n"
         },
         {
           "kind": "ws",
@@ -42658,7 +42690,8 @@
           ],
           "stanza": "iaceo",
           "pos_hint": "verb",
-          "__data_matches": "jaceo_v:2sg.pres.imp.pass,2sg.pres.ind.pass,inf.pres.act;jacio_v:2sg.pres.imp.pass,2sg.pres.ind.pass,inf.pres.act"
+          "__data_matches": "jaceo_v:2sg.pres.imp.pass,2sg.pres.ind.pass,inf.pres.act;jacio_v:2sg.pres.imp.pass,2sg.pres.ind.pass,inf.pres.act",
+          "selected_lemma_id": "jacio_v"
         },
         {
           "kind": "ws",
@@ -42807,7 +42840,8 @@
           ],
           "stanza": "moueo",
           "pos_hint": "verb",
-          "__data_matches": "moto_v:2sg.pres.imp.act;moveo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "moto_v:2sg.pres.imp.act;moveo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "moveo_v"
         },
         {
           "kind": "ws",
@@ -43479,7 +43513,8 @@
             "acc.sg.neut"
           ],
           "pos_hint": "noun",
-          "__data_matches": "suum_n:nom.sg.neut,voc.sg.neut,acc.sg.neut;suus_pron:acc.sg.masc,nom.sg.neut,voc.sg.neut,acc.sg.neut"
+          "__data_matches": "suum_n:nom.sg.neut,voc.sg.neut,acc.sg.neut;suus_pron:acc.sg.masc,nom.sg.neut,voc.sg.neut,acc.sg.neut",
+          "selected_lemma_id": "suus_pron"
         },
         {
           "kind": "ws"
@@ -43903,7 +43938,8 @@
           ],
           "stanza": "utor",
           "pos_hint": "conj",
-          "__data_matches": "uti_conj:conj;uto_v:inf.pres.pass"
+          "__data_matches": "uti_conj:conj;uto_v:inf.pres.pass",
+          "selected_lemma_id": "uti_conj"
         },
         {
           "kind": "ws",
@@ -44276,7 +44312,8 @@
           ],
           "stanza": "versus",
           "pos_hint": "verb",
-          "__data_matches": "verro_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;verto_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "verro_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;verto_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "verto_v"
         },
         {
           "kind": "ws",
@@ -44611,12 +44648,12 @@
         {
           "kind": "word",
           "surface": "in",
-          "lemma_id": "inquam_v",
+          "lemma_id": "in_prep",
           "parses": [
-            "2sg.pres.imp.act"
+            "prep"
           ],
-          "stanza": "inque",
-          "pos_hint": "verb"
+          "stanza": "in_prep",
+          "pos_hint": "prep"
         },
         {
           "kind": "word",
@@ -44672,7 +44709,8 @@
           ],
           "stanza": "superior",
           "pos_hint": "noun",
-          "__data_matches": "supera_n:gen.pl.neut;superus_n:gen.pl.masc"
+          "__data_matches": "supera_n:gen.pl.neut;superus_n:gen.pl.masc",
+          "selected_lemma_id": "superus_n"
         },
         {
           "kind": "ws",
@@ -45508,7 +45546,8 @@
             "voc.sg.fem"
           ],
           "pos_hint": "verb",
-          "__data_matches": "fecundo_v:2sg.pres.imp.act;fecundus_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem"
+          "__data_matches": "fecundo_v:2sg.pres.imp.act;fecundus_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem",
+          "selected_lemma_id": "fecundus_adj"
         },
         {
           "kind": "ws"
@@ -46114,7 +46153,8 @@
           ],
           "stanza": "versus",
           "pos_hint": "verb",
-          "__data_matches": "verro_v:ppp.abl.pl.fem,ppp.abl.pl.masc,ppp.dat.pl.neut,ppp.dat.pl.fem,ppp.dat.pl.masc,ppp.abl.pl.neut;verto_v:ppp.dat.pl.masc,ppp.abl.pl.neut,ppp.abl.pl.fem,ppp.abl.pl.masc,ppp.dat.pl.neut,ppp.dat.pl.fem"
+          "__data_matches": "verro_v:ppp.abl.pl.fem,ppp.abl.pl.masc,ppp.dat.pl.neut,ppp.dat.pl.fem,ppp.dat.pl.masc,ppp.abl.pl.neut;verto_v:ppp.dat.pl.masc,ppp.abl.pl.neut,ppp.abl.pl.fem,ppp.abl.pl.masc,ppp.dat.pl.neut,ppp.dat.pl.fem",
+          "selected_lemma_id": "verto_v"
         },
         {
           "kind": "ws",
@@ -46383,7 +46423,8 @@
             "2sg.pres.ind.act"
           ],
           "pos_hint": "pron",
-          "__data_matches": "sua_pron:abl.pl.fem,dat.pl.fem;suum_n:dat.pl.neut,abl.pl.neut;suus_pron:abl.pl.fem,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut;suo_v:2sg.pres.ind.act"
+          "__data_matches": "sua_pron:abl.pl.fem,dat.pl.fem;suum_n:dat.pl.neut,abl.pl.neut;suus_pron:abl.pl.fem,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut;suo_v:2sg.pres.ind.act",
+          "selected_lemma_id": "suus_pron"
         },
         {
           "kind": "ws"
@@ -47631,7 +47672,8 @@
           ],
           "stanza": "magne",
           "pos_hint": "adj",
-          "__data_matches": "magnus_adj:voc.sg.neut,voc.sg.masc;multus_pron:voc.sg.neut,voc.sg.masc"
+          "__data_matches": "magnus_adj:voc.sg.neut,voc.sg.masc;multus_pron:voc.sg.neut,voc.sg.masc",
+          "selected_lemma_id": "magnus_adj"
         },
         {
           "kind": "ws",
@@ -48160,7 +48202,8 @@
           ],
           "stanza": "telis",
           "pos_hint": "noun",
-          "__data_matches": "tela_n:abl.pl.fem,dat.pl.fem;telum_n:abl.pl.neut,dat.pl.neut"
+          "__data_matches": "tela_n:abl.pl.fem,dat.pl.fem;telum_n:abl.pl.neut,dat.pl.neut",
+          "selected_lemma_id": "telum_n"
         },
         {
           "kind": "ws",
@@ -48644,7 +48687,8 @@
             "dat.pl.masc"
           ],
           "pos_hint": "noun",
-          "__data_matches": "pedis_n:abl.pl.masc,dat.pl.masc;pes_n:abl.pl.masc,dat.pl.masc"
+          "__data_matches": "pedis_n:abl.pl.masc,dat.pl.masc;pes_n:abl.pl.masc,dat.pl.masc",
+          "selected_lemma_id": "pes_n"
         },
         {
           "kind": "ws"
@@ -49253,7 +49297,8 @@
           ],
           "stanza": "vico",
           "pos_hint": "verb",
-          "__data_matches": "vinco_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;vivo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "vinco_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;vivo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "vinco_v"
         },
         {
           "kind": "ws",
@@ -49745,7 +49790,8 @@
           ],
           "stanza": "hostus",
           "pos_hint": "verb",
-          "__data_matches": "hostio_v:2sg.pres.imp.act;hostis_n:abl.sg.masc,abl.sg.fem,dat.sg.masc,dat.sg.fem"
+          "__data_matches": "hostio_v:2sg.pres.imp.act;hostis_n:abl.sg.masc,abl.sg.fem,dat.sg.masc,dat.sg.fem",
+          "selected_lemma_id": "hostis_n"
         },
         {
           "kind": "punct",
@@ -52216,7 +52262,8 @@
           ],
           "stanza": "“genus",
           "pos_hint": "noun",
-          "__data_matches": "gener_n:acc.sg.masc;genus_n:gen.pl.neut"
+          "__data_matches": "gener_n:acc.sg.masc;genus_n:gen.pl.neut",
+          "selected_lemma_id": "gener_n"
         },
         {
           "kind": "ws",
@@ -52570,7 +52617,8 @@
           ],
           "stanza": "ora",
           "pos_hint": "verb",
-          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "os_n"
         },
         {
           "kind": "ws",
@@ -52599,12 +52647,12 @@
         {
           "kind": "word",
           "surface": "in",
-          "lemma_id": "inquam_v",
+          "lemma_id": "in_prep",
           "parses": [
-            "2sg.pres.imp.act"
+            "prep"
           ],
-          "stanza": "inque",
-          "pos_hint": "verb"
+          "stanza": "in_prep",
+          "pos_hint": "prep"
         },
         {
           "kind": "word",
@@ -53222,7 +53270,8 @@
             "ppp.gen.sg.fem"
           ],
           "pos_hint": "verb",
-          "__data_matches": "video_v:ppp.nom.pl.fem,ppp.voc.pl.fem,ppp.dat.sg.fem,ppp.gen.sg.fem;viso_v:ppp.nom.pl.fem,ppp.voc.pl.fem,ppp.dat.sg.fem,ppp.gen.sg.fem"
+          "__data_matches": "video_v:ppp.nom.pl.fem,ppp.voc.pl.fem,ppp.dat.sg.fem,ppp.gen.sg.fem;viso_v:ppp.nom.pl.fem,ppp.voc.pl.fem,ppp.dat.sg.fem,ppp.gen.sg.fem",
+          "selected_lemma_id": "video_v"
         },
         {
           "kind": "ws"
@@ -53352,7 +53401,8 @@
             "voc.sg.fem"
           ],
           "pos_hint": "pron",
-          "__data_matches": "sua_pron:abl.sg.fem,nom.sg.fem,voc.sg.fem;suum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut;suus_pron:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem"
+          "__data_matches": "sua_pron:abl.sg.fem,nom.sg.fem,voc.sg.fem;suum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut;suus_pron:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem",
+          "selected_lemma_id": "suus_pron"
         },
         {
           "kind": "ws"
@@ -55544,7 +55594,8 @@
           ],
           "stanza": "locus_n",
           "pos_hint": "verb",
-          "__data_matches": "loco_v:2sg.pres.imp.act;locum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "loco_v:2sg.pres.imp.act;locum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "locum_n"
         },
         {
           "kind": "ws",
@@ -55933,7 +55984,8 @@
             "voc.pl.masc"
           ],
           "pos_hint": "verb",
-          "__data_matches": "grego_v:2sg.pres.subj.act;grex_n:nom.pl.masc,voc.pl.masc"
+          "__data_matches": "grego_v:2sg.pres.subj.act;grex_n:nom.pl.masc,voc.pl.masc",
+          "selected_lemma_id": "grex_n"
         },
         {
           "kind": "ws"
@@ -57492,7 +57544,8 @@
           ],
           "stanza": "vido",
           "pos_hint": "verb",
-          "__data_matches": "video_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;viso_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "video_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;viso_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "video_v"
         },
         {
           "kind": "ws",
@@ -57793,7 +57846,8 @@
             "ppp.voc.sg.fem"
           ],
           "pos_hint": "verb",
-          "__data_matches": "aucto_v:2sg.pres.imp.act;augeo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "aucto_v:2sg.pres.imp.act;augeo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "augeo_v"
         },
         {
           "kind": "ws"
@@ -58788,7 +58842,8 @@
           ],
           "stanza": "ora",
           "pos_hint": "verb",
-          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "os_n"
         },
         {
           "kind": "ws",
@@ -59385,7 +59440,8 @@
           ],
           "stanza": "vico",
           "pos_hint": "verb",
-          "__data_matches": "vinco_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;vivo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "vinco_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;vivo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "vinco_v"
         },
         {
           "kind": "ws",
@@ -59870,7 +59926,8 @@
           ],
           "stanza": "tenuus",
           "pos_hint": "verb",
-          "__data_matches": "teneo_v:1sg.perf.ind.act;tenuis_adj:abl.sg.masc,abl.sg.fem,abl.sg.neut,dat.sg.masc,dat.sg.fem,dat.sg.neut"
+          "__data_matches": "teneo_v:1sg.perf.ind.act;tenuis_adj:abl.sg.masc,abl.sg.fem,abl.sg.neut,dat.sg.masc,dat.sg.fem,dat.sg.neut",
+          "selected_lemma_id": "tenuis_adj"
         },
         {
           "kind": "ws",
@@ -60149,7 +60206,8 @@
           ],
           "stanza": "ora",
           "pos_hint": "verb",
-          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "oro_v:2sg.pres.imp.act;os_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "os_n"
         },
         {
           "kind": "ws",
@@ -61192,14 +61250,12 @@
         {
           "kind": "word",
           "surface": "aderis",
-          "lemma_id": "ador_v",
+          "lemma_id": "adsum_v",
           "parses": [
-            "2sg.pres.subj.pass",
             "2sg.fut.ind.act"
           ],
           "stanza": "adsum_v",
-          "pos_hint": "verb",
-          "__data_matches": "ador_v:2sg.pres.subj.pass;adsum_v:2sg.fut.ind.act"
+          "pos_hint": "verb"
         },
         {
           "kind": "punct",
@@ -61959,7 +62015,8 @@
           ],
           "stanza": "vido",
           "pos_hint": "verb",
-          "__data_matches": "video_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;viso_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "video_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;viso_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "video_v"
         },
         {
           "kind": "ws",
@@ -62456,7 +62513,8 @@
             "dat.pl.neut"
           ],
           "pos_hint": "noun",
-          "__data_matches": "summa_n:abl.pl.fem,dat.pl.fem;summum_n:abl.pl.neut,dat.pl.neut"
+          "__data_matches": "summa_n:abl.pl.fem,dat.pl.fem;summum_n:abl.pl.neut,dat.pl.neut",
+          "selected_lemma_id": "summa_n"
         },
         {
           "kind": "ws"
@@ -62933,7 +62991,8 @@
             "dat.pl.fem"
           ],
           "pos_hint": "noun",
-          "__data_matches": "nympha_n:abl.pl.fem,dat.pl.fem;nymphe_n:abl.pl.fem,dat.pl.fem"
+          "__data_matches": "nympha_n:abl.pl.fem,dat.pl.fem;nymphe_n:abl.pl.fem,dat.pl.fem",
+          "selected_lemma_id": "nympha_n"
         },
         {
           "kind": "ws"
@@ -63266,14 +63325,13 @@
         {
           "kind": "word",
           "surface": "lenis",
-          "lemma_id": "lenio_v",
+          "lemma_id": "lenis_adj",
           "parses": [
-            "2sg.pres.ind.act",
-            "dat.pl.fem",
-            "abl.pl.fem"
+            "nom.sg.masc"
           ],
-          "pos_hint": "verb",
-          "__data_matches": "lenio_v:2sg.pres.ind.act;lena_n:dat.pl.fem,abl.pl.fem"
+          "pos_hint": "adj",
+          "selected_lemma_id": "lenio_v",
+          "stanza": "lenis_adj"
         },
         {
           "kind": "ws"
@@ -66567,12 +66625,12 @@
         {
           "kind": "word",
           "surface": "in",
-          "lemma_id": "inquam_v",
+          "lemma_id": "in_prep",
           "parses": [
-            "2sg.pres.imp.act"
+            "prep"
           ],
-          "stanza": "inque",
-          "pos_hint": "verb"
+          "stanza": "in_prep",
+          "pos_hint": "prep"
         },
         {
           "kind": "word",
@@ -66949,7 +67007,8 @@
             "abl.sg.neut"
           ],
           "pos_hint": "pron",
-          "__data_matches": "qui_pron:abl.sg.masc,abl.sg.neut;quis_pron:abl.sg.masc,abl.sg.fem,abl.sg.neut"
+          "__data_matches": "qui_pron:abl.sg.masc,abl.sg.neut;quis_pron:abl.sg.masc,abl.sg.fem,abl.sg.neut",
+          "selected_lemma_id": "qui_pron"
         },
         {
           "kind": "ws"
@@ -67545,7 +67604,8 @@
           ],
           "stanza": "Victus",
           "pos_hint": "verb",
-          "__data_matches": "vinco_v:ppp.nom.sg.masc;vivo_v:ppp.nom.sg.masc"
+          "__data_matches": "vinco_v:ppp.nom.sg.masc;vivo_v:ppp.nom.sg.masc",
+          "selected_lemma_id": "vinco_v"
         },
         {
           "kind": "ws",
@@ -67687,7 +67747,8 @@
             "gen.sg.neut"
           ],
           "pos_hint": "noun",
-          "__data_matches": "gener_n:abl.pl.masc,dat.pl.masc;genus_n:gen.sg.neut"
+          "__data_matches": "gener_n:abl.pl.masc,dat.pl.masc;genus_n:gen.sg.neut",
+          "selected_lemma_id": "genus_n"
         },
         {
           "kind": "ws"
@@ -69764,7 +69825,8 @@
             "2sg.pres.imp.act"
           ],
           "pos_hint": "adj",
-          "__data_matches": "novus_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem;novo_v:2sg.pres.imp.act"
+          "__data_matches": "novus_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem;novo_v:2sg.pres.imp.act",
+          "selected_lemma_id": "novus_adj"
         },
         {
           "kind": "ws"
@@ -70395,7 +70457,8 @@
             "abl.pl.neut"
           ],
           "pos_hint": "noun",
-          "__data_matches": "patria_n:dat.pl.fem,abl.pl.fem;patrius_adj:abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.fem,abl.pl.neut"
+          "__data_matches": "patria_n:dat.pl.fem,abl.pl.fem;patrius_adj:abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.fem,abl.pl.neut",
+          "selected_lemma_id": "patrius_adj"
         },
         {
           "kind": "ws"
@@ -70991,12 +71054,12 @@
         {
           "kind": "word",
           "surface": "in",
-          "lemma_id": "inquam_v",
+          "lemma_id": "in_prep",
           "parses": [
-            "2sg.pres.imp.act"
+            "prep"
           ],
-          "stanza": "inque",
-          "pos_hint": "verb"
+          "stanza": "in_prep",
+          "pos_hint": "prep"
         },
         {
           "kind": "word",
@@ -73166,7 +73229,8 @@
             "dat.sg.neut"
           ],
           "pos_hint": "verb",
-          "__data_matches": "leto_v:1sg.pres.ind.act;letum_n:abl.sg.neut,dat.sg.neut"
+          "__data_matches": "leto_v:1sg.pres.ind.act;letum_n:abl.sg.neut,dat.sg.neut",
+          "selected_lemma_id": "letum_n"
         },
         {
           "kind": "ws"
@@ -73878,7 +73942,8 @@
           ],
           "stanza": "rura",
           "pos_hint": "verb",
-          "__data_matches": "ruro_v:2sg.pres.imp.act;rus_n:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "ruro_v:2sg.pres.imp.act;rus_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "rus_n"
         },
         {
           "kind": "ws",
@@ -74648,7 +74713,8 @@
           ],
           "stanza": "iunco",
           "pos_hint": "verb",
-          "__data_matches": "jungo_v:ppp.dat.pl.masc,ppp.abl.pl.neut,ppp.abl.pl.fem,ppp.abl.pl.masc,ppp.dat.pl.neut,ppp.dat.pl.fem;junctus_adj:abl.pl.fem,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut"
+          "__data_matches": "jungo_v:ppp.dat.pl.masc,ppp.abl.pl.neut,ppp.abl.pl.fem,ppp.abl.pl.masc,ppp.dat.pl.neut,ppp.dat.pl.fem;junctus_adj:abl.pl.fem,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut",
+          "selected_lemma_id": "jungo_v"
         },
         {
           "kind": "word",
@@ -74817,12 +74883,13 @@
         {
           "kind": "word",
           "surface": "molles",
-          "lemma_id": "molleo_adv",
+          "lemma_id": "molle_adj",
           "parses": [
-            "2sg.pres.ind.act"
+            "acc.pl.fem",
+            "acc.pl.masc"
           ],
-          "stanza": "mollis",
-          "pos_hint": "adv"
+          "stanza": "molle_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -75265,7 +75332,8 @@
           ],
           "stanza": "gelis",
           "pos_hint": "noun",
-          "__data_matches": "gelida_n:dat.pl.fem,abl.pl.fem;gelidus_adj:abl.pl.fem,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut"
+          "__data_matches": "gelida_n:dat.pl.fem,abl.pl.fem;gelidus_adj:abl.pl.fem,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut",
+          "selected_lemma_id": "gelidus_adj"
         },
         {
           "kind": "ws",
@@ -77609,7 +77677,8 @@
           ],
           "stanza": "iungo",
           "pos_hint": "verb",
-          "__data_matches": "jungo_v:ppp.dat.pl.masc,ppp.abl.pl.neut,ppp.abl.pl.fem,ppp.abl.pl.masc,ppp.dat.pl.neut,ppp.dat.pl.fem;junctus_adj:abl.pl.fem,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut"
+          "__data_matches": "jungo_v:ppp.dat.pl.masc,ppp.abl.pl.neut,ppp.abl.pl.fem,ppp.abl.pl.masc,ppp.dat.pl.neut,ppp.dat.pl.fem;junctus_adj:abl.pl.fem,abl.pl.masc,dat.pl.neut,dat.pl.fem,dat.pl.masc,abl.pl.neut",
+          "selected_lemma_id": "jungo_v"
         },
         {
           "kind": "ws",
@@ -77887,7 +77956,8 @@
           ],
           "stanza": "vocus",
           "pos_hint": "verb",
-          "__data_matches": "voco_v:1sg.pres.subj.act;vox_n:acc.sg.fem"
+          "__data_matches": "voco_v:1sg.pres.subj.act;vox_n:acc.sg.fem",
+          "selected_lemma_id": "vox_n"
         },
         {
           "kind": "ws",
@@ -78924,7 +78994,8 @@
             "dat.sg.masc"
           ],
           "pos_hint": "verb",
-          "__data_matches": "animo_v:1sg.pres.ind.act;animus_n:abl.sg.masc,dat.sg.masc"
+          "__data_matches": "animo_v:1sg.pres.ind.act;animus_n:abl.sg.masc,dat.sg.masc",
+          "selected_lemma_id": "animus_n"
         },
         {
           "kind": "ws"
@@ -79742,7 +79813,8 @@
           ],
           "stanza": "vido",
           "pos_hint": "verb",
-          "__data_matches": "video_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;viso_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "video_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;viso_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "video_v"
         },
         {
           "kind": "ws",
@@ -80733,7 +80805,8 @@
             "gen.sg.masc"
           ],
           "pos_hint": "verb",
-          "__data_matches": "umeo_v:inf.pres.pass;umerus_n:nom.pl.masc,voc.pl.masc,gen.sg.masc"
+          "__data_matches": "umeo_v:inf.pres.pass;umerus_n:nom.pl.masc,voc.pl.masc,gen.sg.masc",
+          "selected_lemma_id": "umerus_n"
         },
         {
           "kind": "ws"
@@ -81643,7 +81716,8 @@
           ],
           "stanza": "iungo",
           "pos_hint": "verb",
-          "__data_matches": "jungo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;junctus_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem"
+          "__data_matches": "jungo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;junctus_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem",
+          "selected_lemma_id": "jungo_v"
         },
         {
           "kind": "ws",
@@ -82132,7 +82206,8 @@
           ],
           "stanza": "“omnium",
           "pos_hint": "pron",
-          "__data_matches": "omne_pron:nom.pl.neut,voc.pl.neut,acc.pl.neut;omnis_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut"
+          "__data_matches": "omne_pron:nom.pl.neut,voc.pl.neut,acc.pl.neut;omnis_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut",
+          "selected_lemma_id": "omnis_adj"
         },
         {
           "kind": "ws",
@@ -82471,7 +82546,8 @@
           ],
           "stanza": "“quo”",
           "pos_hint": "pron",
-          "__data_matches": "qui_pron:abl.sg.masc,abl.sg.neut;quis_pron:abl.sg.masc,abl.sg.fem,abl.sg.neut"
+          "__data_matches": "qui_pron:abl.sg.masc,abl.sg.neut;quis_pron:abl.sg.masc,abl.sg.fem,abl.sg.neut",
+          "selected_lemma_id": "qui_pron"
         },
         {
           "kind": "punct",
@@ -83526,7 +83602,8 @@
           ],
           "stanza": "moueo",
           "pos_hint": "verb",
-          "__data_matches": "moto_v:2sg.pres.imp.act;moveo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem"
+          "__data_matches": "moto_v:2sg.pres.imp.act;moveo_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem",
+          "selected_lemma_id": "moveo_v"
         },
         {
           "kind": "ws",

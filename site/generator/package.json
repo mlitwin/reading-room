@@ -7,9 +7,15 @@
     "build": "node build.js",
     "serve": "node serve.js",
     "validate": "node validate.js",
-    "test": "node --test 'schema/__tests__/*.test.js' 'validate/__tests__/*.test.js' '__tests__/*.test.js'"
+    "test": "node --test 'schema/__tests__/*.test.js' 'validate/__tests__/*.test.js' '__tests__/*.test.js'",
+    "c2:dismiss": "node migrate/dismiss-defective-candidates-json.js",
+    "c11:extract": "node migrate/extract-c11-worklist.js",
+    "c11:resolve": "node migrate/resolve-c11-llm.js",
+    "c11:apply":   "node migrate/apply-c11-resolutions-json.js",
+    "c11": "npm run c11:extract && npm run c11:resolve && npm run c11:apply && npm run build && npm run validate"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.2",
     "@vscode/markdown-it-katex": "^1.1.1",
     "chokidar": "^4.0.3",
     "gray-matter": "^4.0.3",
