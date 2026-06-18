@@ -253,6 +253,7 @@ export const lexiconInvariants = [
       /** @type {Violation[]} */
       const violations = [];
       for (const lemma of lex.lemmata) {
+        if (lemma.defective) continue;
         for (const which of ['paradigm', 'ppp_paradigm']) {
           const p = lemma[which];
           if (!p) continue;

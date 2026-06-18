@@ -74,6 +74,7 @@ export const LemmaEntrySchema = z.object({
   ppp_paradigm: ParadigmSchema.optional(),
   reviewed: z.boolean().default(false),
   notes: z.string().optional(),
+  defective: z.boolean().optional(),
 });
 
 export const LanguageSchema = z.object({

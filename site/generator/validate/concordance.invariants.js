@@ -113,6 +113,11 @@ export const concordanceInvariants = [
             // tags "mihi" as `dat.sg.masc,dat.sg.fem`; both should match.
             const stripped = p.replace(/\.(masc|fem|neut)(?=\.|$)/, '');
             if (stripped !== p && allowed.has(stripped)) continue;
+            // Reverse: accept a bare (non-gendered) parse when the paradigm
+            // stores only gendered cells — e.g. vivax_adj / possum participle.
+            // If p has no gender and at least one of p+.masc/fem/neut is in
+            // the glossary, the parse is correct but under-specified.
+            if (stripped === p && ['masc','fem','neut'].some(g => allowed.has(p + '.' + g))) continue;
             // Suppletive / alternate-form surfaces — magis/maior/maximus on
             // magnus_adj, Phoebe on Phoebus_n, etc. — enter the glossary
             // tagged with an "alt" marker. Accept any markdown parse on those

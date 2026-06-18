@@ -35064,7 +35064,7 @@
           "surface": "milibus",
           "lemma_id": "mille_num",
           "parses": [
-            "num"
+            "abl.pl"
           ],
           "stanza": "milis",
           "pos_hint": "num"
@@ -35185,7 +35185,7 @@
           "surface": "milibus",
           "lemma_id": "mille_num",
           "parses": [
-            "num"
+            "abl.pl"
           ],
           "stanza": "milis",
           "pos_hint": "num"
@@ -37754,7 +37754,7 @@
           "surface": "Pyrrham",
           "lemma_id": "pyrrha_n",
           "parses": [
-            "acc.sg.masc"
+            "acc.sg.fem"
           ],
           "stanza": "pyrrha_n",
           "pos_hint": "noun"
@@ -43928,7 +43928,7 @@
           "surface": "marmore",
           "lemma_id": "marmor_n",
           "parses": [
-            "abl.sg.masc"
+            "abl.sg.neut"
           ],
           "stanza": "marmor_n",
           "pos_hint": "noun"
@@ -44963,7 +44963,7 @@
           "surface": "durum",
           "lemma_id": "dura_n",
           "parses": [
-            "gen.pl.neut"
+            "acc.sg.neut"
           ],
           "stanza": "dumus",
           "pos_hint": "noun"
@@ -46307,7 +46307,7 @@
           ],
           "stanza": "nascor_v",
           "pos_hint": "verb",
-          "__data_matches": "nasco_v:nom.pl.masc,voc.pl.masc,gen.sg.neut,gen.sg.masc;nascor_v:gerund"
+          "__data_matches": "nasco_v:nom.pl.masc,voc.pl.masc,gen.sg.neut,gen.sg.masc;nascor_v:ger.gen.sg"
         },
         {
           "kind": "ws",
@@ -64339,7 +64339,7 @@
           "surface": "beatum",
           "lemma_id": "beati_adj",
           "parses": [
-            "gen.pl.masc"
+            "acc.sg.masc"
           ],
           "stanza": "beatus",
           "pos_hint": "adj"
@@ -83773,7 +83773,7 @@
           "surface": "iubar",
           "lemma_id": "jubar_n",
           "parses": [
-            "nom.sg.masc"
+            "nom.sg.neut"
           ],
           "stanza": "iubar",
           "pos_hint": "noun"
