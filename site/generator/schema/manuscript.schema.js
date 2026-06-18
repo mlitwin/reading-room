@@ -69,6 +69,7 @@ export const WordTokenSchema = z.object({
   parses: z.array(z.string().min(1)).min(1),
   stanza: z.string().optional(),
   pos_hint: z.string().optional(),
+  selected_lemma_id: LemmaIdSchema.optional(),
 });
 
 export const PunctTokenSchema = z.object({

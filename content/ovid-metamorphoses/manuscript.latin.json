@@ -6507,8 +6507,6 @@
           "surface": "habendum",
           "lemma_id": "habeo_v",
           "parses": [
-            "gen.pl.neut",
-            "gen.pl.masc",
             "acc.sg.masc",
             "nom.sg.neut",
             "voc.sg.neut",
@@ -6896,13 +6894,23 @@
         },
         {
           "kind": "word",
-          "surface": "Nabataeaque",
+          "surface": "Nabataea",
           "lemma_id": "unknown_adv",
           "parses": [
             "unk"
           ],
           "stanza": "nabataeaqus",
           "pos_hint": "adv"
+        },
+        {
+          "kind": "word",
+          "surface": "que",
+          "lemma_id": "que_enclit",
+          "parses": [
+            "enclit"
+          ],
+          "stanza": "que_enclit",
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",
@@ -6944,13 +6952,23 @@
       "tokens": [
         {
           "kind": "word",
-          "surface": "Persidaque",
+          "surface": "Persida",
           "lemma_id": "unknown_adv",
           "parses": [
             "unk"
           ],
           "stanza": "persidaqus",
           "pos_hint": "adv"
+        },
+        {
+          "kind": "word",
+          "surface": "que",
+          "lemma_id": "que_enclit",
+          "parses": [
+            "enclit"
+          ],
+          "stanza": "que_enclit",
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",
@@ -9932,8 +9950,7 @@
           "lemma_id": "sponte_adv",
           "parses": [
             "abl.sg.fem",
-            "nom.sg.fem",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "spons",
           "pos_hint": "noun"
@@ -15263,13 +15280,23 @@
         },
         {
           "kind": "word",
-          "surface": "Stygiisque",
+          "surface": "Stygiis",
           "lemma_id": "unknown_adv",
           "parses": [
             "unk"
           ],
           "stanza": "stygiisqum",
           "pos_hint": "adv"
+        },
+        {
+          "kind": "word",
+          "surface": "que",
+          "lemma_id": "que_enclit",
+          "parses": [
+            "enclit"
+          ],
+          "stanza": "que_enclit",
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",
@@ -20308,8 +20335,6 @@
           "surface": "perdendum",
           "lemma_id": "perdo_v",
           "parses": [
-            "gen.pl.neut",
-            "gen.pl.masc",
             "acc.sg.masc",
             "nom.sg.neut",
             "voc.sg.neut",
@@ -20630,8 +20655,6 @@
           "surface": "recidendum",
           "lemma_id": "recido_v",
           "parses": [
-            "gen.pl.neut",
-            "gen.pl.masc",
             "acc.sg.masc",
             "nom.sg.neut",
             "voc.sg.neut",
@@ -20836,13 +20859,23 @@
       "tokens": [
         {
           "kind": "word",
-          "surface": "faunique",
+          "surface": "fauni",
           "lemma_id": "unknown_adv",
           "parses": [
             "unk"
           ],
           "stanza": "fauno",
           "pos_hint": "adv"
+        },
+        {
+          "kind": "word",
+          "surface": "que",
+          "lemma_id": "que_enclit",
+          "parses": [
+            "enclit"
+          ],
+          "stanza": "que_enclit",
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",
@@ -29904,8 +29937,6 @@
             "nom.sg.neut",
             "voc.sg.neut",
             "acc.sg.neut",
-            "gen.pl.neut",
-            "gen.pl.masc",
             "acc.sg.masc"
           ],
           "stanza": "“uto",
@@ -45204,8 +45235,7 @@
           "lemma_id": "sponte_adv",
           "parses": [
             "abl.sg.fem",
-            "nom.sg.fem",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "spons",
           "pos_hint": "noun"
@@ -56177,13 +56207,23 @@
         },
         {
           "kind": "word",
-          "surface": "Patareaque",
+          "surface": "Patarea",
           "lemma_id": "unknown_adv",
           "parses": [
             "unk"
           ],
           "stanza": "Patareaque",
           "pos_hint": "adv"
+        },
+        {
+          "kind": "word",
+          "surface": "que",
+          "lemma_id": "que_enclit",
+          "parses": [
+            "enclit"
+          ],
+          "stanza": "que_enclit",
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",
@@ -60474,13 +60514,23 @@
       "tokens": [
         {
           "kind": "word",
-          "surface": "conplexusque",
+          "surface": "conplexus",
           "lemma_id": "unknown_adv",
           "parses": [
             "unk"
           ],
           "stanza": "conplego",
           "pos_hint": "adv"
+        },
+        {
+          "kind": "word",
+          "surface": "que",
+          "lemma_id": "que_enclit",
+          "parses": [
+            "enclit"
+          ],
+          "stanza": "que_enclit",
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",
@@ -63177,13 +63227,23 @@
       "tokens": [
         {
           "kind": "word",
-          "surface": "Apidanusque",
+          "surface": "Apidanus",
           "lemma_id": "unknown_adv",
           "parses": [
             "unk"
           ],
           "stanza": "apidansus",
           "pos_hint": "adv"
+        },
+        {
+          "kind": "word",
+          "surface": "que",
+          "lemma_id": "que_enclit",
+          "parses": [
+            "enclit"
+          ],
+          "stanza": "que_enclit",
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",
@@ -84209,8 +84269,6 @@
           "surface": "videndum",
           "lemma_id": "video_v",
           "parses": [
-            "gen.pl.neut",
-            "gen.pl.masc",
             "acc.sg.masc",
             "nom.sg.neut",
             "voc.sg.neut",
@@ -84953,13 +85011,23 @@
       "tokens": [
         {
           "kind": "word",
-          "surface": "Aethiopasque",
+          "surface": "Aethiopas",
           "lemma_id": "unknown_adv",
           "parses": [
             "unk"
           ],
           "stanza": "aethiopasquus",
           "pos_hint": "adv"
+        },
+        {
+          "kind": "word",
+          "surface": "que",
+          "lemma_id": "que_enclit",
+          "parses": [
+            "enclit"
+          ],
+          "stanza": "que_enclit",
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",

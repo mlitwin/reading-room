@@ -45,6 +45,7 @@ function emitSpan(tok) {
   let out = `<span data-matches="${matchesAttr}"`;
   if (tok.pos_hint) out += ` data-pos="${tok.pos_hint}"`;
   if (tok.stanza) out += ` data-stanza="${tok.stanza}"`;
+  if (tok.selected_lemma_id) out += ` data-selected-lemma="${tok.selected_lemma_id}"`;
   out += `>${tok.surface}</span>`;
   return out;
 }

@@ -104,7 +104,13 @@ function extractTokens(fileText, loc) {
       raw_surface: rawSurface,
       span_index: spanIndex,
     };
-    if (attrs['data-stanza']) {
+    // data-selected-lemma is the explicit editorial selection (takes priority).
+    // data-stanza is the legacy stanza-model hint (fallback).
+    if (attrs['data-selected-lemma']) {
+      const selId = attrs['data-selected-lemma'];
+      const matching = candidates.find((c) => c.lemma_id === selId);
+      if (matching) tok.selected_lemma_id = selId;
+    } else if (attrs['data-stanza']) {
       const stanzaId = attrs['data-stanza'];
       // Promote to selected_lemma_id only if it matches one of the candidates;
       // otherwise the stanza-model hint pointed at a lemma we no longer expose,

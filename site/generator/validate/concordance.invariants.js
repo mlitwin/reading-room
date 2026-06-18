@@ -60,6 +60,8 @@ export const concordanceInvariants = [
         if (!entry) continue;
         const knownLemmaIds = new Set(entry.candidates.map((x) => x.lemma_id));
         for (const cand of tok.candidates) {
+          // Skip unknown_adv placeholder — same policy as C1.
+          if (cand.lemma_id === 'unknown_adv') continue;
           if (!knownLemmaIds.has(cand.lemma_id)) {
             violations.push({
               path: `tokens.${id}.candidates`,
@@ -399,10 +401,10 @@ export const concordanceInvariants = [
         });
         if (isOwnCitationForm) continue;
 
-        // Skip tokens whose surface is a paradigm cell of one of their
-        // candidate lemmata (e.g. "quaeque" is a quisque_pron form). The
-        // editor has already chosen to treat the -que as part of the inflected
-        // pronoun, not as an enclitic to split.
+        // Skip tokens whose surface is a paradigm cell or alt_form of one of
+        // their candidate lemmata (e.g. "quaeque" is a quisque_pron form, or
+        // "eque" is an alt_form of equus_n). The editor has already chosen to
+        // treat the -que as part of the inflected form, not as an enclitic.
         const isParadigmForm = tok.candidates.some((cand) => {
           const lemma = lexById.get(cand.lemma_id);
           if (!lemma) return false;
@@ -415,6 +417,9 @@ export const concordanceInvariants = [
                 if (normalizeSurface(f) === tok.surface) return true;
               }
             }
+          }
+          for (const f of (lemma.alt_forms ?? [])) {
+            if (normalizeSurface(f) === tok.surface) return true;
           }
           return false;
         });
