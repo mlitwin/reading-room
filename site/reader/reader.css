@@ -643,26 +643,45 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   text-decoration-style: dotted;
 }
 
-/* Responsive grid of self-describing column blocks. auto-fill + minmax wraps
-   the columns to the container width so wide verb paradigms never overflow
-   horizontally; the column max keeps a lone column from stretching too wide. */
+/* --rows (morphological rows per column) is set inline per section by the
+   renderer; this is just a fallback. */
+.card-popover .card-paradigm { --rows: 6; }
+
+/* Body: flex row of [gutter spacer | grid], and the positioning context for
+   the absolutely-positioned row badges. */
+.card-popover .card-paradigm .paradigm-body {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;               /* space between the badge gutter and the grid */
+}
+/* Gutter spacer: invisible, reserves the badge-column width so the grid shifts
+   right and the absolute badges have a clear gutter. Its own badges stay in
+   normal flow (the global .paradigm-badge rule makes them absolute). */
+.card-popover .card-paradigm .paradigm-gutter {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.card-popover .card-paradigm .paradigm-gutter .paradigm-badge { position: static; }
+
+/* Responsive wrapping grid. The min() floor collapses to ~half-width on narrow
+   screens so >=2 columns always fit (down to ~320px) without a media query;
+   8rem wins on wider screens and more columns appear. */
 .card-popover .card-paradigm .paradigm-grid {
+  flex: 1 1 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(7rem, 11rem));
-  gap: 0.5rem;
-  align-items: start;
+  grid-template-columns: repeat(auto-fill, minmax(min(8rem, calc(50% - 0.25rem)), 1fr));
+  gap: 0.6rem 0.5rem;        /* row gap separates wrapped bands */
 }
-/* On phones the popover is too narrow for auto-fill to reliably land two
-   columns (it depends on root font size). Force exactly two equal columns so
-   an iPhone-width screen always shows a two-up grid; forms wrap within a
-   cell (minmax floor of 0) rather than overflowing. */
-@media (max-width: 480px) {
-  .card-popover .card-paradigm .paradigm-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.4rem;
-  }
-}
+
+/* Each column adopts the parent's row tracks via subgrid, so rows align across
+   a band; span --rows + 1 (the col-head) lets columns wrap onto new bands. */
 .card-popover .card-paradigm .paradigm-col {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span calc(var(--rows) + 1);
+  row-gap: 0;                /* cells touch within a column (band gap stays) */
   border: 1px solid var(--rule);
   border-radius: 4px;
   overflow: hidden;
@@ -685,25 +704,31 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 }
 .card-popover .card-paradigm .paradigm-cell {
   display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
+  align-items: center;       /* centers the form, and the abs badge's static
+                                position, on the row centerline */
   padding: 0.2rem 0.5rem;
 }
 .card-popover .card-paradigm .paradigm-cell + .paradigm-cell {
   border-top: 1px solid var(--rule);
 }
+/* Row badges collapse to the shared left gutter. Opaque background is REQUIRED:
+   a band's columns each emit a badge at left:0, so up to N identical badges
+   stack; without an opaque fill the glyph edges composite darker ("overstrike").
+   The opaque fill lets the topmost badge occlude the rest. */
 .card-popover .card-paradigm .paradigm-badge {
-  flex: 0 0 2.3rem;          /* fixed gutter so forms align in a tight column */
+  position: absolute;
+  left: 0;
+  top: auto;
+  background: var(--bg);
+  white-space: nowrap;       /* keep "1 sg" together on one line */
   font-family: ui-sans-serif, sans-serif;
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--muted);
-  white-space: nowrap;       /* keep "1 sg" together on one line */
 }
 .card-popover .card-paradigm .paradigm-form {
-  flex: 1 1 auto;
-  text-align: left;          /* sit right after the badge, no wasted gap */
+  text-align: left;
   overflow-wrap: anywhere;   /* long forms wrap within the cell, not the grid */
 }
 .card-popover .card-paradigm .paradigm-cell.active-form {
@@ -713,8 +738,21 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   color: var(--bg);
   font-weight: 600;
 }
-.card-popover .card-paradigm .paradigm-cell.active-form .paradigm-badge {
-  color: color-mix(in srgb, var(--bg) 80%, transparent);
+
+/* Visually-hidden semantic table (the accessibility representation). Clip it
+   without removing it from the a11y tree; applied to the WRAPPER div, since a
+   <table> ignores width:1px. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .card-popover .card-glosses {

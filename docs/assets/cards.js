@@ -122,8 +122,13 @@
   function escAttr(s) {
     return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
   }
-  function noteBtn(note, label) {
-    return '<button class="note-link" type="button" popovertarget="note-' + escAttr(note) + '">' + escHtml(label) + '</button>';
+  // `inert` adds tabindex="-1" so the button is mouse-clickable but skipped by
+  // keyboard/AT. Used inside the aria-hidden visual paradigm, where focusable
+  // buttons would otherwise be a "focusable but hidden" anti-pattern.
+  function noteBtn(note, label, inert) {
+    return '<button class="note-link" type="button"'
+      + (inert ? ' tabindex="-1"' : '')
+      + ' popovertarget="note-' + escAttr(note) + '">' + escHtml(label) + '</button>';
   }
 
   // ── parse-code → linked tokens
@@ -139,7 +144,7 @@
     var pieces = [];
     parse.split('.').forEach(function (tok) { pieces.push.apply(pieces, tokenToLinks(tok)); });
     return pieces.map(function (p) {
-      return p.note ? noteBtn(p.note, p.label) : '<span>' + escHtml(p.label) + '</span>';
+      return p.note ? noteBtn(p.note, p.label, true) : '<span>' + escHtml(p.label) + '</span>';
     }).join(' ');
   }
   // Plain-text expansion of a parse code (no markup) for aria-labels.
@@ -162,7 +167,7 @@
       }
     });
     return pieces.map(function (p) {
-      return p.note ? noteBtn(p.note, p.label) : '<span>' + escHtml(p.label) + '</span>';
+      return p.note ? noteBtn(p.note, p.label, true) : '<span>' + escHtml(p.label) + '</span>';
     }).join(' ');
   }
 
@@ -192,13 +197,17 @@
     return [{ groupKey: null, category: null, subCols: cols.map(function (c) { return { orig: c, sub: c }; }) }];
   }
 
-  // Render one column-grouping (e.g. "active" voice) as a responsive grid of
-  // self-describing column blocks instead of a wide table. Each block is one
-  // sub-column (a tense·mood, or a case-set) headed by its parse, listing its
-  // forms with a compact person/number (or case) badge per form. The grid wraps
-  // to the container width so wide verb paradigms no longer need horizontal
-  // scroll. Row identity that used to live in a leftmost header column now lives
-  // in the per-cell badge.
+  function cellForm(v) {
+    return v == null ? null : (Array.isArray(v) ? v.join(', ') : v);
+  }
+
+  // Render one column-grouping (e.g. "active" voice) using the paradigm-grid
+  // pattern (see development/paradigm-grid-pattern.md). Two layers:
+  //   1. A visually-hidden semantic <table> carrying the accessibility
+  //      semantics (column/row headers, table navigation).
+  //   2. An aria-hidden visual grid: responsive wrapping column blocks whose
+  //      rows align via subgrid, with row labels collapsed into a shared left
+  //      gutter (absolutely-positioned, opaque-backed badges).
   function renderSubTable(p, sectionGroup, type, soloSection) {
     // PPP cells are stored with a 'ppp.' prefix on the row so their keys match
     // parse codes directly (e.g. ppp.acc.pl.fem).
@@ -208,8 +217,33 @@
       return sectionGroup.subCols.some(function (sc) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; });
     });
     if (!rows.length) return '';
-    // Section label ("Voice: active") above the grid — dropped when the paradigm
-    // renders as a single section (soloSection) or there's no group key.
+    // Drop sub-columns with no forms in any row for this section.
+    var subCols = sectionGroup.subCols.filter(function (sc) {
+      return rows.some(function (r) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; });
+    });
+    if (!subCols.length) return '';
+
+    // ── (1) accessibility: semantic table, plain text, header association.
+    var captionText = sectionGroup.groupKey && !soloSection
+      ? (sectionGroup.category ? sectionGroup.category + ': ' : '') + parseToText(sectionGroup.groupKey)
+      : '';
+    var srHead = '<tr><td></td>' + subCols.map(function (sc) {
+      return '<th scope="col">' + escHtml(parseToText(sc.sub) || sc.sub) + '</th>';
+    }).join('') + '</tr>';
+    var srBody = rows.map(function (r) {
+      return '<tr><th scope="row">' + escHtml(parseToText(r) || r) + '</th>'
+        + subCols.map(function (sc) {
+            return '<td>' + escHtml(cellForm(p.cells[rowPrefix + r + '.' + sc.orig]) || '') + '</td>';
+          }).join('')
+        + '</tr>';
+    }).join('');
+    var srTable = '<div class="sr-only"><table>'
+      + (captionText ? '<caption>' + escHtml(captionText) + '</caption>' : '')
+      + '<thead>' + srHead + '</thead><tbody>' + srBody + '</tbody></table></div>';
+
+    // ── (2) visual layer (aria-hidden).
+    // Section label ("Voice: active") above the grid — dropped for a solo
+    // section or when there's no group key (the <caption> covers AT).
     var section = sectionGroup.groupKey && !soloSection
       ? '<div class="paradigm-section">'
         + (sectionGroup.category
@@ -218,16 +252,18 @@
         + expandParseLinks(sectionGroup.groupKey)
         + '</div>'
       : '';
-    var cols = sectionGroup.subCols.map(function (sc) {
-      // Skip a sub-column that has no forms in any row for this section.
-      var hasAny = rows.some(function (r) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; });
-      if (!hasAny) return '';
-      var head = sc.sub
-        ? '<div class="paradigm-col-head">' + expandParseLinks(sc.sub) + '</div>'
-        : '';
+    // Gutter spacer: invisible, reserves width so the grid shifts right and the
+    // absolute badges have a clear gutter to sit in (one label set per band).
+    var gutter = '<div class="paradigm-gutter">'
+      + rows.map(function (r) { return '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span>'; }).join('')
+      + '</div>';
+    var cols = subCols.map(function (sc) {
+      // Always emit a col-head (even empty) so every column has exactly
+      // --rows + 1 children for the subgrid row span to line up.
+      var head = '<div class="paradigm-col-head">' + (sc.sub ? expandParseLinks(sc.sub) : '') + '</div>';
       var cells = rows.map(function (r) {
         var key = rowPrefix + r + '.' + sc.orig;
-        var form = p.cells[key];
+        var form = cellForm(p.cells[key]);
         // Keep a consistent row shape across every column in the section:
         // a column missing this row (e.g. imperative has no 1sg) renders a
         // placeholder that keeps the row badge but has no form, so rows stay
@@ -244,16 +280,14 @@
           + '<span class="paradigm-form">' + escHtml(form) + '</span>'
           + '</div>';
       }).join('');
-      // Lightweight a11y: name the column by its parse (e.g. "present
-      // indicative active"), prefixed by the section value when one exists.
-      var ariaParts = [sectionGroup.groupKey, sc.sub].filter(Boolean).map(parseToText);
-      var aria = ariaParts.join(' ');
-      return '<div class="paradigm-col" role="group"'
-        + (aria ? ' aria-label="' + escAttr(aria) + '"' : '')
-        + '>' + head + cells + '</div>';
+      return '<div class="paradigm-col">' + head + cells + '</div>';
     }).join('');
+    var visual = '<div class="paradigm-visual" aria-hidden="true">'
+      + section
+      + '<div class="paradigm-body">' + gutter + '<div class="paradigm-grid">' + cols + '</div></div>'
+      + '</div>';
     var cls = ('card-paradigm ' + (type || '')).trim();
-    return '<div class="' + cls + '">' + section + '<div class="paradigm-grid">' + cols + '</div></div>';
+    return '<div class="' + cls + '" style="--rows:' + rows.length + '">' + srTable + visual + '</div>';
   }
 
   function renderParadigm(card) {
