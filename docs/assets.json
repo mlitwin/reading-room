@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T22:31:17.577Z",
+  "generated_at": "2026-06-19T23:21:05.130Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -13,7 +13,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "df3b216b19ebccb7af52295f72f241ddf705b961519f54fa1c8a4753e0791c3b",
+      "sha256": "115087f5e46cacccfd45931afc85a96dc62247301db57d7dafb89e323c148199",
       "size": 920395
     },
     {
@@ -333,7 +333,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "07e52911a9095a967e374e8410ef4daea50fec02c62302c794aa069b9f248f99",
+      "sha256": "73e694b8c2b9cfd8b6893c815d8eedffe785f0161cff923cea01f3601a8b7f36",
       "size": 9714166
     },
     {
@@ -363,17 +363,17 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "72d8ebde53b7ec7c78d1efe441e088d76c1293e4c2acd9f28f8bcfdb591c7377",
-      "size": 23658
+      "sha256": "5c30afddc02081da6a2d174b4f4b89f8c5f2d93c300365072f2b8d1ae7578d33",
+      "size": 24402
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "050af5ab8f53c8310f59fade1d776e5b22a12d214ca689c5048bdbbb6ffc7034",
+      "sha256": "2a30190bf462e90857957e5d7e31ad98e40d2fac98b7eb01ccb7bafc5f594e57",
       "size": 10647298
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "75ec418fa5491decc99e74f17de275d38738b27475e8be13b978e78b4b19bc87",
+      "sha256": "c1b4b6431f943d61cecd875d1820ef62810eb9a94bbdf9e182dc1375d15a3fd7",
       "size": 10647272
     },
     {
@@ -563,7 +563,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "b0b58d5b4c6f7a95d7002d8bafdb0a433f15657e9633deb352992af0e5b4cc2c",
+      "sha256": "18fd7595779200fe4b7c46741db3d805afd71a2bb03185c2f004d2d14e8de7a3",
       "size": 26967
     },
     {

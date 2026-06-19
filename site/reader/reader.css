@@ -653,7 +653,6 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   position: relative;
   display: flex;
   align-items: flex-start;
-  gap: 0.4rem;               /* space between the badge gutter and the grid */
 }
 /* Gutter spacer: invisible, reserves the badge-column width so the grid shifts
    right and the absolute badges have a clear gutter. Its own badges stay in
@@ -672,7 +671,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   flex: 1 1 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(8rem, calc(50% - 0.25rem)), 1fr));
-  gap: 0.6rem 0.5rem;        /* row gap separates wrapped bands */
+  gap: 0.6rem 0;             /* no column gap (classic table); row gap separates bands */
 }
 
 /* Each column adopts the parent's row tracks via subgrid, so rows align across
@@ -683,7 +682,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   grid-row: span calc(var(--rows) + 1);
   row-gap: 0;                /* cells touch within a column (band gap stays) */
   border: 1px solid var(--rule);
-  border-radius: 4px;
+  margin-left: -1px;         /* collapse adjacent column borders to a 1px rule */
   overflow: hidden;
 }
 .card-popover .card-paradigm .paradigm-col-head {
@@ -719,7 +718,19 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   position: absolute;
   left: 0;
   top: auto;
-  background: var(--bg);
+  /* Styled like a row header cell: header tint + border. The background must
+     be OPAQUE (an opaque equivalent of the col-head's rgba(0,0,0,0.03) tint)
+     so the up-to-N stacked badges occlude rather than overstrike. */
+  background: color-mix(in srgb, var(--fg) 3%, var(--bg));
+  border: 1px solid var(--rule);
+  /* Uniform width (border-box) so every badge reaches the table edge — without
+     it each badge is only as wide as its own text (nom/dat/abl differ), leaving
+     irregular gaps before the first column. Covers short person/number and
+     case labels; the gutter spacer adopts the same width. */
+  box-sizing: border-box;
+  min-width: 2.6rem;
+  padding: 0.42rem 0.4rem;   /* ~one row tall so it reads as a header box */
+  text-align: center;
   white-space: nowrap;       /* keep "1 sg" together on one line */
   font-family: ui-sans-serif, sans-serif;
   font-size: 0.68rem;
