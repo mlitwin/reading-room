@@ -142,6 +142,13 @@
       return p.note ? noteBtn(p.note, p.label) : '<span>' + escHtml(p.label) + '</span>';
     }).join(' ');
   }
+  // Plain-text expansion of a parse code (no markup) for aria-labels.
+  function parseToText(parse) {
+    if (!parse) return '';
+    var pieces = [];
+    parse.split('.').forEach(function (tok) { pieces.push.apply(pieces, tokenToLinks(tok)); });
+    return pieces.map(function (p) { return p.label; }).join(' ');
+  }
   function renderCompactRowHeader(code) {
     var pieces = [];
     code.split('.').forEach(function (tok) {
@@ -185,40 +192,68 @@
     return [{ groupKey: null, category: null, subCols: cols.map(function (c) { return { orig: c, sub: c }; }) }];
   }
 
+  // Render one column-grouping (e.g. "active" voice) as a responsive grid of
+  // self-describing column blocks instead of a wide table. Each block is one
+  // sub-column (a tense·mood, or a case-set) headed by its parse, listing its
+  // forms with a compact person/number (or case) badge per form. The grid wraps
+  // to the container width so wide verb paradigms no longer need horizontal
+  // scroll. Row identity that used to live in a leftmost header column now lives
+  // in the per-cell badge.
   function renderSubTable(p, sectionGroup, type, soloSection) {
     // PPP cells are stored with a 'ppp.' prefix on the row so their keys match
     // parse codes directly (e.g. ppp.acc.pl.fem).
     var rowPrefix = type === 'ppp' ? 'ppp.' : '';
+    // Canonical row order is preserved from p.rows (1sg…3pl, nom…abl).
     var rows = p.rows.filter(function (r) {
       return sectionGroup.subCols.some(function (sc) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; });
     });
     if (!rows.length) return '';
-    var header = '<tr><th></th>' + sectionGroup.subCols.map(function (sc) {
-      return '<th class="col-head">' + (sc.sub ? expandParseLinks(sc.sub) : '') + '</th>';
-    }).join('') + '</tr>';
-    var body = rows.map(function (r) {
-      var cells = sectionGroup.subCols.map(function (sc) {
-        var key = rowPrefix + r + '.' + sc.orig;
-        var form = p.cells[key];
-        if (form == null) return '<td></td>';
-        return '<td data-parse="' + escAttr(key) + '">' + escHtml(form) + '</td>';
-      }).join('');
-      return '<tr><th class="row-head">' + renderCompactRowHeader(r) + '</th>' + cells + '</tr>';
-    }).join('');
-    // Caption prefixes the linked group value (e.g. "active") with the
-    // category label (e.g. "Voice") so the reader knows what axis the
-    // tables are split on. Dropped when the paradigm renders as a single
-    // table (soloSection) or when there's no group key.
-    var caption = sectionGroup.groupKey && !soloSection
-      ? '<caption class="paradigm-section">'
+    // Section label ("Voice: active") above the grid — dropped when the paradigm
+    // renders as a single section (soloSection) or there's no group key.
+    var section = sectionGroup.groupKey && !soloSection
+      ? '<div class="paradigm-section">'
         + (sectionGroup.category
           ? '<span class="paradigm-section-label">' + escHtml(sectionGroup.category) + ':</span> '
           : '')
         + expandParseLinks(sectionGroup.groupKey)
-        + '</caption>'
+        + '</div>'
       : '';
+    var cols = sectionGroup.subCols.map(function (sc) {
+      // Skip a sub-column that has no forms in any row for this section.
+      var hasAny = rows.some(function (r) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; });
+      if (!hasAny) return '';
+      var head = sc.sub
+        ? '<div class="paradigm-col-head">' + expandParseLinks(sc.sub) + '</div>'
+        : '';
+      var cells = rows.map(function (r) {
+        var key = rowPrefix + r + '.' + sc.orig;
+        var form = p.cells[key];
+        // Keep a consistent row shape across every column in the section:
+        // a column missing this row (e.g. imperative has no 1sg) renders a
+        // placeholder that keeps the row badge but has no form, so rows stay
+        // aligned across columns. The nbsp gives the empty form the same
+        // height as a populated cell.
+        if (form == null) {
+          return '<div class="paradigm-cell paradigm-cell--empty">'
+            + '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span>'
+            + '<span class="paradigm-form"> </span>'
+            + '</div>';
+        }
+        return '<div class="paradigm-cell" data-parse="' + escAttr(key) + '">'
+          + '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span>'
+          + '<span class="paradigm-form">' + escHtml(form) + '</span>'
+          + '</div>';
+      }).join('');
+      // Lightweight a11y: name the column by its parse (e.g. "present
+      // indicative active"), prefixed by the section value when one exists.
+      var ariaParts = [sectionGroup.groupKey, sc.sub].filter(Boolean).map(parseToText);
+      var aria = ariaParts.join(' ');
+      return '<div class="paradigm-col" role="group"'
+        + (aria ? ' aria-label="' + escAttr(aria) + '"' : '')
+        + '>' + head + cells + '</div>';
+    }).join('');
     var cls = ('card-paradigm ' + (type || '')).trim();
-    return '<table class="' + cls + '">' + caption + header + body + '</table>';
+    return '<div class="' + cls + '">' + section + '<div class="paradigm-grid">' + cols + '</div></div>';
   }
 
   function renderParadigm(card) {
@@ -437,26 +472,26 @@
   function applyCardState(scope, lemma, matches, stanzaLemma, surface) {
     var thisMatch = matches.filter(function (m) { return m.lemma === lemma; })[0];
     var thisParses = thisMatch ? thisMatch.parses : [];
-    scope.querySelectorAll('td.active-form').forEach(function (el) {
+    scope.querySelectorAll('.paradigm-cell.active-form').forEach(function (el) {
       el.classList.remove('active-form');
     });
     thisParses.forEach(function (p) {
-      var cell = scope.querySelector('td[data-parse="' + cssEscape(p) + '"]');
+      var cell = scope.querySelector('.paradigm-cell[data-parse="' + cssEscape(p) + '"]');
       // Morpheus appends a gender suffix to noun codes (e.g. nom.sg.fem) but
       // noun paradigms store cells without gender (nom.sg). Fall back by
       // stripping the trailing .masc/.fem/.neut component if no exact match.
       if (!cell) {
         var stripped = p.replace(/\.(masc|fem|neut)$/, '');
-        if (stripped !== p) cell = scope.querySelector('td[data-parse="' + cssEscape(stripped) + '"]');
+        if (stripped !== p) cell = scope.querySelector('.paradigm-cell[data-parse="' + cssEscape(stripped) + '"]');
       }
       // Latin vocative = nominative in most declensions; if voc.* has no cell,
       // fall back to the corresponding nom.* cell.
       if (!cell && p.indexOf('voc.') === 0) {
         var nomFallback = 'nom.' + p.slice(4);
-        cell = scope.querySelector('td[data-parse="' + cssEscape(nomFallback) + '"]');
+        cell = scope.querySelector('.paradigm-cell[data-parse="' + cssEscape(nomFallback) + '"]');
         if (!cell) {
           var nomStripped = nomFallback.replace(/\.(masc|fem|neut)$/, '');
-          if (nomStripped !== nomFallback) cell = scope.querySelector('td[data-parse="' + cssEscape(nomStripped) + '"]');
+          if (nomStripped !== nomFallback) cell = scope.querySelector('.paradigm-cell[data-parse="' + cssEscape(nomStripped) + '"]');
         }
       }
       if (cell) cell.classList.add('active-form');
