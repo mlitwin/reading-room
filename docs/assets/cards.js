@@ -269,14 +269,19 @@
         // placeholder that keeps the row badge but has no form, so rows stay
         // aligned across columns. The nbsp gives the empty form the same
         // height as a populated cell.
+        // The badge sits in a zero-width box that stretches to the cell height;
+        // the box is a size container so the badge can take 100cqh (= the row
+        // height) while staying absolutely positioned in the shared gutter.
+        var badge = '<span class="paradigm-badge-box">'
+          + '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span></span>';
         if (form == null) {
           return '<div class="paradigm-cell paradigm-cell--empty">'
-            + '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span>'
+            + badge
             + '<span class="paradigm-form"> </span>'
             + '</div>';
         }
         return '<div class="paradigm-cell" data-parse="' + escAttr(key) + '">'
-          + '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span>'
+          + badge
           + '<span class="paradigm-form">' + escHtml(form) + '</span>'
           + '</div>';
       }).join('');

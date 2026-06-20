@@ -703,12 +703,20 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 }
 .card-popover .card-paradigm .paradigm-cell {
   display: flex;
-  align-items: center;       /* centers the form, and the abs badge's static
-                                position, on the row centerline */
-  padding: 0.2rem 0.5rem;
+  align-items: stretch;      /* badge-box fills the row; form is centered below */
+  padding: 0;                /* moved to .paradigm-form so the badge spans the
+                                full row height */
 }
 .card-popover .card-paradigm .paradigm-cell + .paradigm-cell {
   border-top: 1px solid var(--rule);
+}
+/* Zero-width box that stretches to the cell (row) height and is a size
+   container, so the badge inside can take 100cqh — matching the row height
+   exactly, even when a sibling column's form wraps to two lines. */
+.card-popover .card-paradigm .paradigm-badge-box {
+  width: 0;
+  align-self: stretch;
+  container-type: size;
 }
 /* Row badges collapse to the shared left gutter. Opaque background is REQUIRED:
    a band's columns each emit a badge at left:0, so up to N identical badges
@@ -729,8 +737,10 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
      case labels; the gutter spacer adopts the same width. */
   box-sizing: border-box;
   min-width: 2.6rem;
-  padding: 0.42rem 0.4rem;   /* ~one row tall so it reads as a header box */
-  text-align: center;
+  padding: 0 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   white-space: nowrap;       /* keep "1 sg" together on one line */
   font-family: ui-sans-serif, sans-serif;
   font-size: 0.68rem;
@@ -738,7 +748,14 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   letter-spacing: 0.03em;
   color: var(--muted);
 }
+/* Only the in-cell badges (wrapped in a size-container box) take the row
+   height. The gutter spacer's badges have no container and keep auto height. */
+.card-popover .card-paradigm .paradigm-badge-box .paradigm-badge {
+  height: 100cqh;
+}
 .card-popover .card-paradigm .paradigm-form {
+  align-self: center;        /* keep the form centered when its row is taller */
+  padding: 0.2rem 0.5rem;
   text-align: left;
   overflow-wrap: anywhere;   /* long forms wrap within the cell, not the grid */
 }
