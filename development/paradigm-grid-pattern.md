@@ -143,15 +143,56 @@ wrapped in a `.paradigm-badge-box`:
 .paradigm-badge-box .paradigm-badge { height: 100cqh; }   /* = the row height */
 ```
 
-The box is a zero-width flex child that **stretches to the cell height**, and is
-a **size container**, so `100cqh` resolves to the row height — even when a
-sibling column's form wraps to two lines. Key points:
+#### Where the height actually comes from
+
+The common confusion: "a size container is sized *as if it had no children*, so
+how does it ever match a row that wraps to two lines?" The key is that **size
+containment only makes an element ignore its own _contents_ when computing its
+_intrinsic_ size. It does not make the element ignore a size imposed from
+_outside_.** The badge-box's height is imposed entirely from outside — by the
+parent cell's flex stretch. The chain (verified — see the table below):
+
+1. **`.paradigm-cell` is `display: flex; align-items: stretch`** with two
+   children: the `.paradigm-badge-box` and the `.paradigm-form`.
+2. **The cell's height is set by the form.** Flex computes each child's
+   hypothetical cross-size first:
+   - `.paradigm-form` → its content height (1 line ≈ 28px, 2 lines ≈ 51px).
+   - `.paradigm-badge-box` → **0**: it has `width: 0`, its only child
+     (`.paradigm-badge`) is `position: absolute` (out of flow), *and* size
+     containment tells the engine to size it as if empty. It contributes
+     nothing.
+   - The flex line takes the max → the **form's** height. (No circularity: the
+     box is 0 *before* stretch, so it never inflates the row.)
+3. **`align-items: stretch` pushes that height back down** onto both children,
+   stretching the badge-box to the cell's cross-size. This external size
+   overrides the box's contained (=0) intrinsic height — this is the step that's
+   invisible if you only think about containment.
+4. **`100cqh` reads that stretched height.** `container-type: size` makes the box
+   a query container on the block axis; `cqh` = 1% of the container's *own
+   laid-out height*, which is now the row height. The badge gets exactly the row
+   height.
+
+So containment is **not** what sets the height — flex stretch is. Containment
+does two things only: it guarantees the box never *adds* height to the row
+(step 2), and it unlocks block-axis container units (`cqh`). Proof: removing
+`align-self: stretch` drops the box to **0** for every row, because then nothing
+imposes a height and containment leaves no content-height to fall back on.
+
+| Row | cell | form | badge-box | badge |
+|---|---|---|---|---|
+| 1-line | 28 | 28 | 28 | 28 |
+| 2-line (`deduxerunt, deduxere`) | 51 | 51 | 51 | 51 |
+| badge-box, `align-self: stretch` removed | — | — | **0** | — |
+
+#### Other notes
 
 - `container-type: size` adds only *size* containment (not layout), so it does
   **not** become a containing block — the badge stays anchored to the body
   gutter, preserving the multi-band collapse.
-- Putting `container-type: size` on the cell itself would collapse it (the form
-  is what sizes the cell); the zero-width box sidesteps that.
+- Putting `container-type: size` on the cell itself would collapse the row: the
+  cell would ignore the form's height too (≈11px observed). The zero-width box
+  isolates containment to an element whose height is fed *externally* by stretch,
+  while the cell keeps sizing to the form normally.
 - The cell's row divider lives on the **form** (`.paradigm-cell + .paradigm-cell
   .paradigm-form { border-top }`), not on the cell. A cell `border-top` would
   push the badge's content box down 1px and misalign the badge dividers from the
