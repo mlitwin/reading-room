@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paradigm grid — working demonstration (deduco, active)</title>
+<!--
+  Self-contained working demonstration of the paradigm-grid layout pattern.
+  See development/paradigm-grid-pattern.md for the full write-up.
+
+  This file mirrors the shipped implementation:
+    - DOM: the exact structure site/reader/cards.js renderSection() emits
+      (hidden semantic <table> + aria-hidden visual grid).
+    - CSS: the paradigm rules are copied verbatim from
+      site/reader/css/06-paradigm.css, but with the ".card-popover .card-paradigm"
+      scope rewritten to ".paradigm" so the demo stands alone. The token layer,
+      subgrid columns, absolute-badge gutter, container-query full-height badges,
+      and classic-table border collapse are all identical.
+
+  Resize the window to watch columns wrap into bands (rows stay aligned within
+  a band via subgrid). It is a static snapshot — no JS.
+-->
+<style>
+  :root {
+    --bg: #fdfdfb;
+    --fg: #1c1c1a;
+    --muted: #6a6a66;
+    --accent: #2a4a8a;
+    --rule: #e3e1da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#15171a; --fg:#e6e6e3; --muted:#9a9a96; --accent:#9eb8ff; --rule:#2a2d33; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 1.5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  }
+  .demo-intro { max-width: 42rem; margin: 0 0 1.5rem; }
+  .demo-intro h1 { font-size: 1.3rem; margin: 0 0 .4rem; }
+  .demo-intro p { color: var(--muted); font-size: .95rem; line-height: 1.5; margin: .4rem 0; }
+  .demo-intro code { font-family: ui-monospace, SFMono-Regular, monospace; font-size: .85em; overflow-wrap: anywhere; }
+  .card-lemma { font-size: 1.4rem; font-weight: 700; margin: 1.2rem 0 .8rem; }
+
+  /* ── Demo chrome (not part of the pattern) ──────────────────
+     A width-controlled "stage" wraps the paradigm so its container width can
+     be driven by the slider below — standing in for resizing the browser. */
+  .demo-control {
+    display: flex; align-items: center; gap: .6rem;
+    margin: 0 0 1rem; font-family: ui-sans-serif, sans-serif; font-size: .85rem;
+    color: var(--muted);
+  }
+  .demo-control input[type=range] { flex: 1 1 auto; max-width: 28rem; }
+  .demo-control output { font-variant-numeric: tabular-nums; min-width: 4ch; color: var(--fg); }
+  .demo-stage {
+    max-width: 100%;
+    outline: 1px dashed color-mix(in srgb, var(--accent) 40%, transparent);
+    outline-offset: 6px;
+  }
+
+  /* ============================================================
+     06 · Lexicon card — paradigm grid
+     The paradigm pattern (see development/paradigm-grid-pattern.md): wrapping
+     subgrid columns, the absolute-badge gutter, and the hidden semantic table
+     (.sr-only).
+  
+     Layered: the THEME (custom-property knobs) is defined once below; every
+     rule after it consumes those tokens, so the structural mechanics carry no
+     hard-coded colors, fonts, or magic sizes. Re-theme by overriding tokens.
+     ============================================================ */
+  
+  /* ── Theme tokens ─────────────────────────────────────────── */
+  .paradigm {
+    /* layout knobs */
+    --rows: 6;                    /* fallback; the renderer sets it inline per section */
+    --paradigm-col-min: 8rem;     /* column wrap threshold (min() floor) */
+    --paradigm-badge-w: 2.6rem;   /* row-header / gutter width (uniform badge width) */
+    --paradigm-band-gap: 0.6rem;  /* vertical gap between wrapped bands */
+  
+    /* color & type */
+    --paradigm-rule: var(--rule);                                    /* gridline color */
+    --paradigm-head-bg: color-mix(in srgb, var(--fg) 3%, var(--bg)); /* col-head + badge tint —
+         opaque (not rgba) so stacked badges occlude rather than overstrike, and so the two stay
+         identical in dark mode (a black rgba tint would diverge there) */
+    --paradigm-label-font: ui-sans-serif, sans-serif;                /* col-head / badge / section */
+    --paradigm-label-color: var(--muted);
+    --paradigm-form-font: ui-serif, "Iowan Old Style", Georgia, serif;
+  
+    font-family: var(--paradigm-form-font);
+  }
+  
+  /* ── Outer containers & section label ─────────────────────── */
+  .paradigms {
+    margin: 0.6rem 0;
+    max-width: 100%;
+  }
+  .paradigms > * + * {
+    margin-top: 0.8rem;
+  }
+  
+  /* Section label ("Voice: active") above each grid. */
+  .paradigm .paradigm-section {
+    text-align: left;
+    padding: 0 0 0.3rem;
+    font-family: var(--paradigm-label-font);
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--fg);
+  }
+  .paradigm .paradigm-section .paradigm-section-label {
+    /* Category label ("Voice", "Mood", "Number") preceding the linked group
+       value — softer than the value itself so the eye lands on "active" /
+       "passive" rather than "Voice". */
+    color: var(--paradigm-label-color);
+    font-weight: 500;
+  }
+  .paradigm .paradigm-section .note-link {
+    color: inherit;
+    border-bottom: 0;
+    padding: 0;
+  }
+  .paradigm .paradigm-section .note-link:hover {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+  
+  /* ── Structure: gutter + wrapping subgrid ─────────────────── */
+  /* Body: flex row of [gutter spacer | grid], and the positioning context for
+     the absolutely-positioned row badges. */
+  .paradigm .paradigm-body {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+  }
+  /* Gutter spacer: invisible, reserves the badge-column width so the grid shifts
+     right and the absolute badges have a clear gutter. Its own badges stay in
+     normal flow (the global .paradigm-badge rule makes them absolute). */
+  .paradigm .paradigm-gutter {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .paradigm .paradigm-gutter .paradigm-badge { position: static; }
+  
+  /* Responsive wrapping grid. The min() floor collapses to ~half-width on narrow
+     screens so >=2 columns always fit (down to ~320px) without a media query;
+     --paradigm-col-min wins on wider screens and more columns appear. */
+  .paradigm .paradigm-grid {
+    flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(var(--paradigm-col-min), 50%), 1fr));
+    gap: var(--paradigm-band-gap) 0;  /* no column gap (classic table); row gap separates bands */
+  }
+  
+  /* Each column adopts the parent's row tracks via subgrid, so rows align across
+     a band; span --rows + 1 (the col-head) lets columns wrap onto new bands.
+     margin-left:-1px collapses adjacent column borders to a single 1px rule. */
+  .paradigm .paradigm-col {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span calc(var(--rows) + 1);
+    row-gap: 0;                /* cells touch within a column (band gap stays) */
+    border: 1px solid var(--paradigm-rule);
+    margin-left: -1px;
+    overflow: hidden;
+  }
+  
+  /* ── Cells, row-header badges & forms ─────────────────────── */
+  .paradigm .paradigm-cell {
+    display: flex;
+    align-items: stretch;      /* badge-box fills the row; form is centered below */
+    padding: 0;                /* moved to .paradigm-form so the badge spans the
+                                  full row height */
+  }
+  /* Row divider lives on the FORM (not the cell). A cell border-top would push
+     the badge's content box down 1px, misaligning the badge dividers from the
+     form's. With it on the form (border-box, so it adds no height), both the
+     badge and form dividers land exactly on the cell boundary. */
+  .paradigm .paradigm-cell + .paradigm-cell .paradigm-form {
+    border-top: 1px solid var(--paradigm-rule);
+  }
+  
+  /* Column header cell. */
+  .paradigm .paradigm-col-head {
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid var(--paradigm-rule);
+    background: var(--paradigm-head-bg);
+    font-family: var(--paradigm-label-font);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--paradigm-label-color);
+  }
+  .paradigm .paradigm-col-head .note-link {
+    display: block;            /* stack tense / mood / voice vertically */
+    padding: 0;
+    line-height: 1.2;
+  }
+  
+  /* Zero-width box that stretches to the cell (row) height and is a size
+     container, so the badge inside can take 100cqh — matching the row height
+     exactly, even when a sibling column's form wraps to two lines. */
+  .paradigm .paradigm-badge-box {
+    width: 0;
+    align-self: stretch;
+    container-type: size;
+  }
+  /* Row badges, styled like row-header cells. They collapse to the shared left
+     gutter — a band's columns each emit a badge at left:0, so up to N identical
+     badges stack; the opaque --paradigm-head-bg lets the topmost occlude the rest
+     (see the token comment). --paradigm-badge-w gives every badge the same width
+     so they all reach the table edge (a column's text alone — nom/dat/abl —
+     differs, leaving irregular gaps). */
+  .paradigm .paradigm-badge {
+    position: absolute;
+    left: 0;
+    top: auto;
+    min-width: var(--paradigm-badge-w);
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;       /* keep "1 sg" together on one line */
+    border: 1px solid var(--paradigm-rule);
+    border-bottom-width: 0;    /* divider comes from the next badge's border-top
+                                  (single 1px); last cell re-adds it below */
+    background: var(--paradigm-head-bg);
+    font-family: var(--paradigm-label-font);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--paradigm-label-color);
+  }
+  /* Only the in-cell badges (wrapped in a size-container box) take the row
+     height. The gutter spacer's badges have no container and keep auto height. */
+  .paradigm .paradigm-badge-box .paradigm-badge {
+    height: 100cqh;            /* = the row height; consecutive badges meet exactly */
+  }
+  /* Close the bottom of the row-header column (badges drop their border-bottom). */
+  .paradigm .paradigm-col .paradigm-cell:last-child .paradigm-badge {
+    border-bottom-width: 1px;
+  }
+  
+  .paradigm .paradigm-form {
+    flex: 1 1 auto;            /* fill the cell width so the border-top divider
+                                 spans the whole column, not just the form text */
+    align-self: stretch;       /* fill the row so the border-top divider sits at
+                                  the cell boundary (border-box — the global reset
+                                  — keeps the border from adding row height) */
+    display: flex;
+    align-items: center;       /* keep the form text centered when its row is taller */
+    padding: 0.2rem 0.5rem;
+    text-align: left;
+    overflow-wrap: anywhere;   /* long forms wrap within the cell, not the grid */
+  }
+  
+  /* Highlighted (active) form — the cell the reader tapped. */
+  .paradigm .paradigm-cell.active-form {
+    background: var(--accent);
+  }
+  .paradigm .paradigm-cell.active-form .paradigm-form {
+    color: var(--bg);
+    font-weight: 600;
+  }
+  
+  /* ── Accessibility ────────────────────────────────────────── */
+  /* Visually-hidden semantic table (the accessibility representation). Clip it
+     without removing it from the a11y tree; applied to the WRAPPER div, since a
+     <table> ignores width:1px. */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  
+</style>
+</head>
+<body>
+  <div class="demo-intro">
+    <h1>Paradigm grid — working demonstration</h1>
+    <p>Self-contained snapshot of the layout pattern as shipped
+       (<code>deduco</code>, active voice). CSS is copied verbatim from
+       <code>site/reader/css/06-paradigm.css</code>; the DOM matches
+       <code>cards.js</code>. See <code>paradigm-grid-pattern.md</code>.</p>
+    <p><strong>Drag the slider</strong> to change the container width and watch
+       the columns wrap into bands — rows stay aligned within a band via CSS
+       subgrid, and the row-header badge gutter rebuilds per band.</p>
+  </div>
+
+  <label class="demo-control">
+    Container width
+    <input type="range" id="w" min="180" max="900" value="560" step="10">
+    <output id="wout">560px</output>
+  </label>
+
+  <div class="card-lemma">deduco</div>
+  <div class="demo-stage" id="stage" style="width:560px">
+  <div class="paradigms">
+    <div class="paradigm" style="--rows:6">
+      <div class="sr-only"><table>
+        <caption>deduco — active voice</caption>
+        <thead><tr><td></td><th scope="col">present indicative</th><th scope="col">imperfect indicative</th><th scope="col">future indicative</th><th scope="col">perfect indicative</th><th scope="col">pluperfect indicative</th><th scope="col">future perfect indicative</th><th scope="col">present subjunctive</th><th scope="col">imperfect subjunctive</th><th scope="col">perfect subjunctive</th><th scope="col">pluperfect subjunctive</th><th scope="col">present imperative</th></tr></thead>
+        <tbody>
+        <tr><th scope="row">1st person singular</th><td>deduco</td><td>deducebam</td><td>deducam</td><td>deduxi</td><td>deduxeram</td><td>deduxero</td><td>deducam</td><td>deducerem</td><td>deduxerim</td><td>deduxissem</td><td></td></tr>
+        <tr><th scope="row">2nd person singular</th><td>deducis</td><td>deducebas</td><td>deduces</td><td>deduxisti</td><td>deduxeras</td><td>deduxeris</td><td>deducas</td><td>deduceres</td><td>deduxeris</td><td>deduxisses</td><td>deduce</td></tr>
+        <tr><th scope="row">3rd person singular</th><td>deducit</td><td>deducebat</td><td>deducet</td><td>deduxit</td><td>deduxerat</td><td>deduxerit</td><td>deducat</td><td>deduceret</td><td>deduxerit</td><td>deduxisset</td><td></td></tr>
+        <tr><th scope="row">1st person plural</th><td>deducimus</td><td>deducebamus</td><td>deducemus</td><td>deduximus</td><td>deduxeramus</td><td>deduxerimus</td><td>deducamus</td><td>deduceremus</td><td>deduxerimus</td><td>deduxissemus</td><td></td></tr>
+        <tr><th scope="row">2nd person plural</th><td>deducitis</td><td>deducebatis</td><td>deducetis</td><td>deduxistis</td><td>deduxeratis</td><td>deduxeritis</td><td>deducatis</td><td>deduceretis</td><td>deduxeritis</td><td>deduxissetis</td><td>deducite</td></tr>
+        <tr><th scope="row">3rd person plural</th><td>deducunt</td><td>deducebant</td><td>deducent</td><td>deduxerunt, deduxere</td><td>deduxerant</td><td>deduxerint</td><td>deducant</td><td>deducerent</td><td>deduxerint</td><td>deduxissent</td><td></td></tr>
+        </tbody>
+      </table></div>
+      <div class="paradigm-visual" aria-hidden="true">
+        <div class="paradigm-section"><span class="paradigm-section-label">Voice:</span> active</div>
+        <div class="paradigm-body">
+          <div class="paradigm-gutter"><span class="paradigm-badge">1 sg</span><span class="paradigm-badge">2 sg</span><span class="paradigm-badge">3 sg</span><span class="paradigm-badge">1 pl</span><span class="paradigm-badge">2 pl</span><span class="paradigm-badge">3 pl</span></div>
+          <div class="paradigm-grid">
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Present</span> <span>Indicative</span></div>
+            <div class="paradigm-cell" data-parse="1sg.pres.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deduco</span></div>
+            <div class="paradigm-cell" data-parse="2sg.pres.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deducis</span></div>
+            <div class="paradigm-cell active-form" data-parse="3sg.pres.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deducit</span></div>
+            <div class="paradigm-cell" data-parse="1pl.pres.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deducimus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.pres.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deducitis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.pres.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deducunt</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Imperfect</span> <span>Indicative</span></div>
+            <div class="paradigm-cell" data-parse="1sg.imperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deducebam</span></div>
+            <div class="paradigm-cell" data-parse="2sg.imperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deducebas</span></div>
+            <div class="paradigm-cell" data-parse="3sg.imperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deducebat</span></div>
+            <div class="paradigm-cell" data-parse="1pl.imperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deducebamus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.imperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deducebatis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.imperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deducebant</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Future</span> <span>Indicative</span></div>
+            <div class="paradigm-cell" data-parse="1sg.fut.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deducam</span></div>
+            <div class="paradigm-cell" data-parse="2sg.fut.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deduces</span></div>
+            <div class="paradigm-cell" data-parse="3sg.fut.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deducet</span></div>
+            <div class="paradigm-cell" data-parse="1pl.fut.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deducemus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.fut.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deducetis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.fut.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deducent</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Perfect</span> <span>Indicative</span></div>
+            <div class="paradigm-cell" data-parse="1sg.perf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deduxi</span></div>
+            <div class="paradigm-cell" data-parse="2sg.perf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deduxisti</span></div>
+            <div class="paradigm-cell" data-parse="3sg.perf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deduxit</span></div>
+            <div class="paradigm-cell" data-parse="1pl.perf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deduximus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.perf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deduxistis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.perf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deduxerunt, deduxere</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Pluperfect</span> <span>Indicative</span></div>
+            <div class="paradigm-cell" data-parse="1sg.plup.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deduxeram</span></div>
+            <div class="paradigm-cell" data-parse="2sg.plup.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deduxeras</span></div>
+            <div class="paradigm-cell" data-parse="3sg.plup.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deduxerat</span></div>
+            <div class="paradigm-cell" data-parse="1pl.plup.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deduxeramus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.plup.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deduxeratis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.plup.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deduxerant</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Future</span> <span>Perfect</span> <span>Indicative</span></div>
+            <div class="paradigm-cell" data-parse="1sg.futperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deduxero</span></div>
+            <div class="paradigm-cell" data-parse="2sg.futperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deduxeris</span></div>
+            <div class="paradigm-cell" data-parse="3sg.futperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deduxerit</span></div>
+            <div class="paradigm-cell" data-parse="1pl.futperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deduxerimus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.futperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deduxeritis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.futperf.ind.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deduxerint</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Present</span> <span>Subjunctive</span></div>
+            <div class="paradigm-cell" data-parse="1sg.pres.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deducam</span></div>
+            <div class="paradigm-cell" data-parse="2sg.pres.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deducas</span></div>
+            <div class="paradigm-cell" data-parse="3sg.pres.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deducat</span></div>
+            <div class="paradigm-cell" data-parse="1pl.pres.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deducamus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.pres.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deducatis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.pres.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deducant</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Imperfect</span> <span>Subjunctive</span></div>
+            <div class="paradigm-cell" data-parse="1sg.imperf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deducerem</span></div>
+            <div class="paradigm-cell" data-parse="2sg.imperf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deduceres</span></div>
+            <div class="paradigm-cell" data-parse="3sg.imperf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deduceret</span></div>
+            <div class="paradigm-cell" data-parse="1pl.imperf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deduceremus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.imperf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deduceretis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.imperf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deducerent</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Perfect</span> <span>Subjunctive</span></div>
+            <div class="paradigm-cell" data-parse="1sg.perf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deduxerim</span></div>
+            <div class="paradigm-cell" data-parse="2sg.perf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deduxeris</span></div>
+            <div class="paradigm-cell" data-parse="3sg.perf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deduxerit</span></div>
+            <div class="paradigm-cell" data-parse="1pl.perf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deduxerimus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.perf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deduxeritis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.perf.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deduxerint</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Pluperfect</span> <span>Subjunctive</span></div>
+            <div class="paradigm-cell" data-parse="1sg.plup.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">deduxissem</span></div>
+            <div class="paradigm-cell" data-parse="2sg.plup.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deduxisses</span></div>
+            <div class="paradigm-cell" data-parse="3sg.plup.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">deduxisset</span></div>
+            <div class="paradigm-cell" data-parse="1pl.plup.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">deduxissemus</span></div>
+            <div class="paradigm-cell" data-parse="2pl.plup.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deduxissetis</span></div>
+            <div class="paradigm-cell" data-parse="3pl.plup.subj.act"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">deduxissent</span></div>
+          </div>
+          <div class="paradigm-col">
+            <div class="paradigm-col-head"><span>Present</span> <span>Imperative</span></div>
+            <div class="paradigm-cell paradigm-cell--empty"><span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span><span class="paradigm-form">&#160;</span></div>
+            <div class="paradigm-cell" data-parse="2sg.pres.imp.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 sg</span></span><span class="paradigm-form">deduce</span></div>
+            <div class="paradigm-cell paradigm-cell--empty"><span class="paradigm-badge-box"><span class="paradigm-badge">3 sg</span></span><span class="paradigm-form">&#160;</span></div>
+            <div class="paradigm-cell paradigm-cell--empty"><span class="paradigm-badge-box"><span class="paradigm-badge">1 pl</span></span><span class="paradigm-form">&#160;</span></div>
+            <div class="paradigm-cell" data-parse="2pl.pres.imp.act"><span class="paradigm-badge-box"><span class="paradigm-badge">2 pl</span></span><span class="paradigm-form">deducite</span></div>
+            <div class="paradigm-cell paradigm-cell--empty"><span class="paradigm-badge-box"><span class="paradigm-badge">3 pl</span></span><span class="paradigm-form">&#160;</span></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script>
+    // Demo-only: drive the stage width from the slider (stands in for resizing
+    // the browser). The pattern itself uses no JS.
+    const w = document.getElementById('w'), out = document.getElementById('wout'), stage = document.getElementById('stage');
+    const apply = () => { stage.style.width = w.value + 'px'; out.textContent = w.value + 'px'; };
+    w.addEventListener('input', apply);
+    apply();
+  </script>
+</body>
+</html>

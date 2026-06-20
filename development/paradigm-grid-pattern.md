@@ -6,8 +6,14 @@ noun/adjective declensions) in the lexicon cards. It replaces the old wide
 blocks** whose rows stay aligned via CSS **subgrid**, plus a **shared badge
 gutter** for the row labels.
 
-A live scratch implementation lives at `.tmp/paradigm-test.html` (gitignored)
-for iterating on the CSS.
+**Working demonstration:** [`paradigm-grid-demo.html`](./paradigm-grid-demo.html)
+— a self-contained, dependency-free snapshot of the pattern as shipped (the
+`deduco` active-voice paradigm). Open it directly in a browser and drag the
+container-width slider to watch the columns wrap into bands. Its CSS is copied verbatim from
+`site/reader/css/06-paradigm.css` (with the `.card-popover .card-paradigm` scope
+rewritten to `.paradigm`) and its DOM matches what `site/reader/cards.js`
+`renderSection()` emits, so it stays an accurate reference. Keep it in sync when
+the pattern changes.
 
 ## Goals
 
@@ -394,7 +400,7 @@ non-zero column gap, subtract half the gap (`calc(50% - <half-gap>)`) so two
 columns plus the gap still fit; the shipping grid uses **column-gap 0**, so a
 plain `50%` is exact.
 
-**Verified** in `.tmp/paradigm-test.html` (no media query present):
+**Verified** in the [demo](./paradigm-grid-demo.html) (no media query present):
 
 | Viewport | Columns/band | Horizontal overflow |
 |---|---|---|
