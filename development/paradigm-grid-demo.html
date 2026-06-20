@@ -54,7 +54,8 @@
     color: var(--muted);
   }
   .demo-control input[type=range] { flex: 1 1 auto; max-width: 28rem; }
-  .demo-control output { font-variant-numeric: tabular-nums; min-width: 4ch; color: var(--fg); }
+  .demo-control input[type=number] { width: 6rem; font: inherit; color: var(--fg); text-align: right; }
+  .demo-unit { color: var(--fg); }
   .demo-stage {
     max-width: 100%;
     outline: 1px dashed color-mix(in srgb, var(--accent) 40%, transparent);
@@ -296,15 +297,17 @@
        (<code>deduco</code>, active voice). CSS is copied verbatim from
        <code>site/reader/css/06-paradigm.css</code>; the DOM matches
        <code>cards.js</code>. See <code>paradigm-grid-pattern.md</code>.</p>
-    <p><strong>Drag the slider</strong> to change the container width and watch
-       the columns wrap into bands — rows stay aligned within a band via CSS
-       subgrid, and the row-header badge gutter rebuilds per band.</p>
+    <p><strong>Drag the slider</strong> (or type a width) to change the
+       container width and watch the columns wrap into bands — rows stay aligned
+       within a band via CSS subgrid, and the row-header badge gutter rebuilds
+       per band.</p>
   </div>
 
   <label class="demo-control">
     Container width
-    <input type="range" id="w" min="180" max="900" value="560" step="10">
-    <output id="wout">560px</output>
+    <input type="range" id="w" min="180" max="1200" value="560" step="10">
+    <input type="number" id="wnum" min="1" step="10" value="560" aria-label="Container width in pixels">
+    <span class="demo-unit">px</span>
   </label>
 
   <div class="card-lemma">deduco</div>
@@ -435,12 +438,17 @@
   </div>
 
   <script>
-    // Demo-only: drive the stage width from the slider (stands in for resizing
-    // the browser). The pattern itself uses no JS.
-    const w = document.getElementById('w'), out = document.getElementById('wout'), stage = document.getElementById('stage');
-    const apply = () => { stage.style.width = w.value + 'px'; out.textContent = w.value + 'px'; };
-    w.addEventListener('input', apply);
-    apply();
+    // Demo-only: drive the stage width from the slider or the number field,
+    // standing in for resizing the browser. The pattern itself uses no JS.
+    const w = document.getElementById('w'), num = document.getElementById('wnum'), stage = document.getElementById('stage');
+    const applyStage = (px) => { if (Number.isFinite(px) && px > 0) stage.style.width = px + 'px'; };
+    // Slider → number field (slider is always valid, so mirroring is safe).
+    w.addEventListener('input', () => { num.value = w.value; applyStage(+w.value); });
+    // Number field → stage. The slider tracks (and clamps itself to its own
+    // range) but we never write back to the field, so an in-progress edit like
+    // "1000" is never snapped to the min mid-typing.
+    num.addEventListener('input', () => { w.value = num.value; applyStage(+num.value); });
+    applyStage(+w.value);
   </script>
 </body>
 </html>
