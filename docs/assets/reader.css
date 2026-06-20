@@ -1,3 +1,8 @@
+/* ============================================================
+   01 · Design tokens, reset & prose typography
+   CSS custom properties (+ dark mode), the box-sizing reset, html/body, and .body article prose.
+   ============================================================ */
+
 :root {
   --bg: #fdfdfb;
   --fg: #1c1c1a;
@@ -182,6 +187,11 @@ footer.piece a {
 
 footer.piece a:hover { color: var(--accent); }
 
+/* ============================================================
+   02 · Library index page
+   The index `main` listing, `.tag` chips, and KaTeX color overrides.
+   ============================================================ */
+
 /* index page */
 main {
   max-width: 42rem;
@@ -248,6 +258,11 @@ li.piece p.summary {
   overflow-y: hidden;
 }
 
+/* ============================================================
+   03 · Breadcrumb & prev/next nav
+   Piece-header breadcrumb and end-of-piece previous/next links.
+   ============================================================ */
+
 /* Breadcrumb above piece header */
 nav.breadcrumb {
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -310,6 +325,11 @@ nav.page-nav .dir {
 nav.page-nav a:hover .title { color: var(--accent); }
 
 nav.page-nav .placeholder { visibility: hidden; }
+
+/* ============================================================
+   04 · Popover host chrome & content hooks
+   `.note-link`, popover content hooks, `.latin-token`, the #popover-host panel chrome, tab bar, and `.card-content`.
+   ============================================================ */
 
 /* Inline note link — a button styled like a slightly-different link, with
    a dotted underline so the reader can tell it's a supplement rather than
@@ -576,6 +596,11 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 .card-content > :first-child { margin-top: 0; }
 .card-content > :last-child { margin-bottom: 0; }
 
+/* ============================================================
+   05 · Lexicon card — header
+   Card head: lemma, part-of-speech chip, principal parts.
+   ============================================================ */
+
 .card-popover .card-head {
   margin: 0 0 0.6rem 0;
 }
@@ -602,6 +627,11 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   margin: 0;
   color: var(--muted);
 }
+
+/* ============================================================
+   06 · Lexicon card — paradigm grid
+   The paradigm pattern (see development/paradigm-grid-pattern.md): wrapping subgrid columns, the absolute-badge gutter, and the hidden semantic table (.sr-only).
+   ============================================================ */
 
 .card-popover .card-paradigms {
   margin: 0.6rem 0;
@@ -801,6 +831,11 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+/* ============================================================
+   07 · Lexicon card — detail
+   Glosses, notes, PPP label, parse slot, other-lemma chips, stanza marks, and note-link toning.
+   ============================================================ */
 
 .card-popover .card-glosses {
   margin: 0.6rem 0;

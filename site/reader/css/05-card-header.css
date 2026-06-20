@@ -1,0 +1,32 @@
+/* ============================================================
+   05 · Lexicon card — header
+   Card head: lemma, part-of-speech chip, principal parts.
+   ============================================================ */
+
+.card-popover .card-head {
+  margin: 0 0 0.6rem 0;
+}
+.card-popover .card-lemma {
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0.15rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+.card-popover .card-pos {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  font-weight: 400;
+}
+.card-popover .card-principal {
+  font-family: ui-serif, Georgia, serif;
+  font-style: italic;
+  margin: 0;
+  color: var(--muted);
+}
+

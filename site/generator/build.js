@@ -873,9 +873,22 @@ export async function build() {
   await fs.rm(DOCS_DIR, { recursive: true, force: true });
   await fs.mkdir(path.join(DOCS_DIR, 'assets'), { recursive: true });
 
-  for (const file of await fs.readdir(READER_DIR)) {
-    await fs.copyFile(path.join(READER_DIR, file), path.join(DOCS_DIR, 'assets', file));
+  for (const entry of await fs.readdir(READER_DIR, { withFileTypes: true })) {
+    if (entry.isFile()) {
+      await fs.copyFile(path.join(READER_DIR, entry.name), path.join(DOCS_DIR, 'assets', entry.name));
+    }
   }
+  // reader.css is authored as ordered partials in reader/css/ (numeric prefixes
+  // define cascade order) and concatenated into one stylesheet. No bundler — the
+  // plain-CSS output works as a single <link> over both http and file:// (the
+  // iOS WKWebView), and avoids extra requests.
+  const cssDir = path.join(READER_DIR, 'css');
+  const cssParts = (await fs.readdir(cssDir)).filter((f) => f.endsWith('.css')).sort();
+  const cssOut = (await Promise.all(
+    cssParts.map((f) => fs.readFile(path.join(cssDir, f), 'utf8'))
+  )).join('');
+  await fs.writeFile(path.join(DOCS_DIR, 'assets', 'reader.css'), cssOut);
+
   await buildLexiconJson();
 
   // grammar.json: emit alongside other web assets so the runtime can fetch().

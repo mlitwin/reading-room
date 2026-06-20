@@ -1,0 +1,157 @@
+/* ============================================================
+   07 · Lexicon card — detail
+   Glosses, notes, PPP label, parse slot, other-lemma chips, stanza marks, and note-link toning.
+   ============================================================ */
+
+.card-popover .card-glosses {
+  margin: 0.6rem 0;
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+}
+
+.card-popover .card-notes {
+  margin: 0.6rem 0 0.2rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+/* PPP paradigm section — labelled table below the main conjugation. */
+.card-popover .card-ppp-paradigms {
+  margin-top: 0.8rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--rule);
+}
+.card-popover .card-ppp-label {
+  font-family: ui-sans-serif, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 0 0 0.4rem;
+}
+
+.card-popover .card-parse {
+  font-size: 0.85rem;
+  color: var(--fg);
+}
+.card-popover .card-parse:empty { display: none; }
+/* Surface form (the actual Latin word tapped) — shown in the card header. */
+.card-popover .card-parse-surface {
+  display: block;
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--fg);
+}
+.card-popover .card-parse-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.card-popover .card-parse-list li {
+  margin: 0.15rem 0;
+}
+.card-popover .card-parse-human {
+  font-style: italic;
+}
+.card-popover .card-parse-code {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.4rem;
+  font-family: ui-monospace, SFMono-Regular, monospace;
+  font-size: 0.78rem;
+  color: var(--muted);
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+}
+
+.card-popover .card-other-lemmas {
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.card-popover .card-other-lemmas:empty { display: none; }
+.card-popover .card-other-lemmas-label {
+  font-style: italic;
+  margin-right: 0.3rem;
+}
+.card-popover .other-lemma-chip {
+  background: rgba(0, 0, 0, 0.06);
+  border: 0;
+  font: inherit;
+  font-style: italic;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.3rem;
+  border-radius: 3px;
+  color: var(--fg);
+  cursor: pointer;
+}
+.card-popover .other-lemma-chip:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* Stanza independently prefers this alternative reading — tint the chip
+   to signal it's worth a look, without claiming certainty. */
+.card-popover .other-lemma-chip.stanza-preferred {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+}
+.card-popover .other-lemma-chip.stanza-preferred:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: transparent;
+}
+
+/* Stanza confirms the primary lemma — add a quiet mark after the heading. */
+.card-popover .card-lemma.stanza-confirmed::after {
+  content: '✓';
+  font-size: 0.75rem;
+  font-family: ui-sans-serif, sans-serif;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--accent) 60%, transparent);
+  align-self: center;
+}
+
+/* Note-link buttons inside card popovers — they open grammar-reference
+   notes. The default `.note-link` style (accent colour + dotted underline)
+   is too loud for repeated paradigm-header use; tone it down in those
+   contexts and keep the parse-slot links emphatic. */
+.card-popover .card-paradigm .paradigm-col-head .note-link,
+.card-popover .card-paradigm .paradigm-badge .note-link {
+  color: inherit;
+  border-bottom: 0;
+  font: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  padding: 0;
+}
+.card-popover .card-paradigm .paradigm-col-head .note-link:hover,
+.card-popover .card-paradigm .paradigm-badge .note-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.card-popover .card-principal .note-link {
+  color: inherit;
+  border-bottom: 1px dotted var(--muted);
+  font: inherit;
+}
+.card-popover .card-principal .note-link:hover {
+  color: var(--accent);
+}
+.card-pos.note-link {
+  color: var(--muted);
+  border-bottom: 0;
+  cursor: pointer;
+}
+.card-pos.note-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+/* (Old `.card-close` / `.note-close` selectors removed — the host's
+   chrome owns the close button now.) */

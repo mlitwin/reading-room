@@ -1,0 +1,270 @@
+/* ============================================================
+   04 · Popover host chrome & content hooks
+   `.note-link`, popover content hooks, `.latin-token`, the #popover-host panel chrome, tab bar, and `.card-content`.
+   ============================================================ */
+
+/* Inline note link — a button styled like a slightly-different link, with
+   a dotted underline so the reader can tell it's a supplement rather than
+   a navigation link. */
+.note-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: var(--accent);
+  cursor: pointer;
+  border-bottom: 1px dotted currentColor;
+  text-decoration: none;
+}
+.note-link:hover { color: var(--accent); filter: brightness(1.15); }
+
+/* `.note-popover` and `.card-popover` are now content-style hooks applied
+   to the host's `.popover-body` — they style the inner content (paradigm
+   tables, glosses, note titles). Positioning lives on `#popover-host`. */
+.note-popover {
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+.note-popover .note-title {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.05rem;
+  margin: 0 0 0.6rem 0;
+  line-height: 1.3;
+}
+.note-popover p:first-of-type { margin-top: 0; }
+.note-popover > :last-child { margin-bottom: 0; }
+
+/* Container holding all popovers — hidden from doc flow; popover API
+   floats them above the page. */
+.note-popovers { display: contents; }
+.card-popovers { display: contents; }
+
+/* Card / note source elements: data-only, never displayed. innerHTML is
+   copied into the single #popover-host on each click. */
+.card-popover-source,
+.note-popover-source {
+  display: none !important;
+}
+
+/* Latin passages: each Latin word is wrapped in a `<button class="latin-token">`
+   that opens a popover card for its lemma. Buttons look like inline text — no
+   border, no underline — until hover reveals the link affordance. */
+.latin-passage {
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin: 1.2rem 0 1.6rem;
+  padding: 0.6rem 0.9rem;
+  border-left: 3px solid var(--rule);
+}
+.latin-token {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-bottom: 1px dotted transparent;
+}
+.latin-token:hover {
+  color: var(--accent);
+  border-bottom-color: currentColor;
+}
+
+.card-popover {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* ----------------------------------------------------------------------
+   #popover-host — the single persistent popover. Sized panel-like; chrome
+   (back/forward/breadcrumb/close) on top stays put while the scrollable
+   `.popover-body` swaps content.
+   ---------------------------------------------------------------------- */
+/* Layout/look only apply when the host is actually open. Scoping under
+   `:popover-open` lets the UA's default `display: none` on closed
+   popovers keep working — without this, `display: flex` would make the
+   host visible at all times and `hidePopover()` would appear to do
+   nothing. */
+#popover-host {
+  position: fixed;
+  inset: 5vh auto auto 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  width: min(720px, 92vw);
+  height: min(720px, 85vh);
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--fg);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+#popover-host:popover-open {
+  display: flex;
+  flex-direction: column;
+}
+#popover-host::backdrop { background: rgba(0, 0, 0, 0.25); }
+
+.popover-chrome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--rule);
+  background: rgba(0, 0, 0, 0.02);
+  min-height: 2.4rem;
+}
+.popover-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 0;
+  flex: 1;
+}
+.popover-prev, .popover-next, .popover-close {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  color: var(--muted);
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  line-height: 1;
+}
+.popover-prev, .popover-next { font-size: 1.2rem; }
+.popover-close { font-size: 1.3rem; }
+.popover-prev:not(:disabled):hover,
+.popover-next:not(:disabled):hover,
+.popover-close:hover {
+  background: rgba(0, 0, 0, 0.06);
+  color: var(--fg);
+}
+.popover-prev:disabled, .popover-next:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.popover-breadcrumb {
+  list-style: none;
+  margin: 0 0 0 0.25rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.popover-breadcrumb .popover-crumb {
+  display: flex;
+  align-items: baseline;
+  min-width: 0;
+}
+.popover-breadcrumb .popover-crumb + .popover-crumb::before {
+  content: '›';
+  margin: 0 0.35rem;
+  color: var(--muted);
+}
+.popover-breadcrumb .popover-crumb button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  color: var(--accent);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 12rem;
+}
+.popover-breadcrumb .popover-crumb button:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+.popover-breadcrumb .popover-crumb.current button {
+  color: var(--fg);
+  font-weight: 600;
+  cursor: default;
+}
+.popover-breadcrumb .popover-crumb.current button:hover {
+  background: none;
+}
+
+.popover-body {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;             /* no body-level horizontal scroll */
+  overscroll-behavior-y: contain; /* don't chain vertical scroll to page */
+  overscroll-behavior-x: none;    /* kill horizontal rubber-banding */
+  padding: 0;          /* tab bar + content each carry their own padding */
+}
+
+/* Tab bar — one button per candidate lemma. Sticky so it stays visible
+   when the reader scrolls down into the paradigm table. */
+.card-tab-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.2rem;
+  padding: 0.45rem 1rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.card-tab {
+  flex-shrink: 0;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;   /* sits on top of the border-bottom of tab-bar */
+  padding: 0.3rem 0.7rem 0.4rem;
+  font: inherit;
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--muted);
+  cursor: pointer;
+  border-radius: 3px 3px 0 0;
+  white-space: nowrap;
+}
+.card-tab:hover { color: var(--fg); }
+.card-tab.active {
+  color: var(--fg);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+.card-tab.stanza-pref { color: var(--accent); }
+.card-tab.stanza-pref.active { color: var(--fg); }
+.card-tab-check {
+  font-style: normal;
+  font-size: 0.7rem;
+  color: color-mix(in srgb, var(--accent) 70%, transparent);
+  vertical-align: super;
+  margin-left: 0.15rem;
+}
+.card-tab.active .card-tab-check {
+  color: color-mix(in srgb, var(--accent) 60%, transparent);
+}
+
+/* Content area below the tab bar (or the full body when only one lemma). */
+.card-content {
+  padding: 1.1rem 1.4rem 1.2rem;
+}
+
+/* Modal scroll lock. When the host popover is open, freeze the page
+   underneath so wheel events on the chrome / past the body's edge don't
+   leak through and scroll the article. `scrollbar-gutter: stable` keeps
+   the scrollbar-width space reserved so the layout doesn't reflow when
+   the page scrollbar disappears. */
+html { scrollbar-gutter: stable; }
+html:has(#popover-host:popover-open) { overflow: hidden; }
+.card-content > :first-child { margin-top: 0; }
+.card-content > :last-child { margin-bottom: 0; }
+
