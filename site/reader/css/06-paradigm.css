@@ -14,7 +14,6 @@
   /* layout knobs */
   --rows: 6;                    /* fallback; the renderer sets it inline per section */
   --paradigm-col-min: 8rem;     /* column wrap threshold (min() floor) */
-  --paradigm-badge-w: 2.6rem;   /* row-header / gutter width (uniform badge width) */
   --paradigm-band-gap: 0.6rem;  /* vertical gap between wrapped bands */
 
   /* color & type */
@@ -152,19 +151,20 @@
 /* Row badges, styled like row-header cells. They collapse to the shared left
    gutter — a band's columns each emit a badge at left:0, so up to N identical
    badges stack; the opaque --paradigm-head-bg lets the topmost occlude the rest
-   (see the token comment). --paradigm-badge-w gives every badge the same width
-   so they all reach the table edge (a column's text alone — nom/dat/abl —
-   differs, leaving irregular gaps). */
+   (see the token comment).
+
+   Uniform width with NO magic number: every badge holds the full row-label
+   stack (.paradigm-badge-label), so each independently sizes to max-content of
+   all labels = the widest label. Only one label per badge is shown (revealed by
+   position — see below); the rest stay laid out (visibility:hidden) so they keep
+   contributing width. */
 .card-popover .card-paradigm .paradigm-badge {
   position: absolute;
   left: 0;
   top: auto;
-  min-width: var(--paradigm-badge-w);
   padding: 0 0.4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;       /* keep "1 sg" together on one line */
+  display: grid;
+  place-items: center;       /* center the revealed label in the stacked cell */
   border: 1px solid var(--paradigm-rule);
   border-bottom-width: 0;    /* divider comes from the next badge's border-top
                                 (single 1px); last cell re-adds it below */
@@ -174,6 +174,18 @@
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--paradigm-label-color);
+}
+/* All labels share one grid cell (so the badge sizes to the widest label);
+   hidden by default — laid out, so they still contribute width. The renderer
+   marks exactly one label per badge --shown (the gutter's badge marks none, so
+   it only reserves width). Row-count-agnostic — works for any paradigm. */
+.card-popover .card-paradigm .paradigm-badge-label {
+  grid-area: 1 / 1;
+  white-space: nowrap;       /* keep "1 sg" together on one line */
+  visibility: hidden;
+}
+.card-popover .card-paradigm .paradigm-badge-label--shown {
+  visibility: visible;
 }
 /* Only the in-cell badges (wrapped in a size-container box) take the row
    height. The gutter spacer's badges have no container and keep auto height. */

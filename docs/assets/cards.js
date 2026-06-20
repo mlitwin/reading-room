@@ -253,34 +253,48 @@
         + expandParseLinks(sectionGroup.groupKey)
         + '</div>'
       : '';
-    // Gutter spacer: invisible, reserves width so the grid shifts right and the
-    // absolute badges have a clear gutter to sit in (one label set per band).
+    // Row-header badge: every badge holds the full row-label stack, so it sizes
+    // to max-content of all labels = the widest label. That gives a uniform
+    // row-header column with no magic width. Only one label per badge is marked
+    // --shown (visible); the rest stay laid out (visibility:hidden) so they keep
+    // contributing width. Each row's compact header is rendered once (it carries
+    // grammar links); a per-row badge is then assembled by marking that row's
+    // label shown, and cloned into every column.
+    var rowLabelHtml = rows.map(function (r) { return renderCompactRowHeader(r); });
+    function badgeStack(shownIdx) {
+      return rowLabelHtml.map(function (h, i) {
+        var cls = 'paradigm-badge-label' + (i === shownIdx ? ' paradigm-badge-label--shown' : '');
+        return '<span class="' + cls + '">' + h + '</span>';
+      }).join('');
+    }
+    // One badge per row index (the active label twiddled), reused across columns.
+    var cellBadges = rows.map(function (_, i) {
+      return '<span class="paradigm-badge-box">'
+        + '<span class="paradigm-badge">' + badgeStack(i) + '</span></span>';
+    });
+    // Gutter spacer: invisible; one stack with nothing shown — it only reserves
+    // the (widest-label) width so the grid shifts right and the absolute badges
+    // have a clear gutter.
     var gutter = '<div class="paradigm-gutter">'
-      + rows.map(function (r) { return '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span>'; }).join('')
-      + '</div>';
+      + '<span class="paradigm-badge">' + badgeStack(-1) + '</span></div>';
     var cols = subCols.map(function (sc) {
       // Always emit a col-head (even empty) so every column has exactly
       // --rows + 1 children for the subgrid row span to line up.
       var head = '<div class="paradigm-col-head">' + (sc.sub ? expandParseLinks(sc.sub) : '') + '</div>';
-      var cells = rows.map(function (r) {
+      var cells = rows.map(function (r, i) {
         var key = rowPrefix + r + '.' + sc.orig;
         var form = cellForm(p.cells[key]);
-        // The badge sits in a zero-width box that stretches to the cell height;
-        // the box is a size container so the badge can take 100cqh (= the row
-        // height) while staying absolutely positioned in the shared gutter.
-        var badge = '<span class="paradigm-badge-box">'
-          + '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span></span>';
         // Keep a consistent row shape across columns: a column missing this row
         // (e.g. the imperative has no 1sg) still renders a placeholder cell so
         // the rows stay aligned. The nbsp keeps the empty cell from collapsing.
         if (form == null) {
           return '<div class="paradigm-cell paradigm-cell--empty">'
-            + badge
+            + cellBadges[i]
             + '<span class="paradigm-form">&#160;</span>'
             + '</div>';
         }
         return '<div class="paradigm-cell" data-parse="' + escAttr(key) + '">'
-          + badge
+          + cellBadges[i]
           + '<span class="paradigm-form">' + escHtml(form) + '</span>'
           + '</div>';
       }).join('');

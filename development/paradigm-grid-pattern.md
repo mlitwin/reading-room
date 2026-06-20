@@ -53,29 +53,29 @@ presentation. Both are generated from the same paradigm data. See
      kind modifier sets --rows; see "Kinds" below -->
 <div class="paradigm paradigm--verb" aria-hidden="true">
 
-  <!-- Gutter spacer: a column of badge cells that only reserves width.
-       Its contents are invisible; it pushes the grid right so the
-       absolutely-positioned badges have a clear gutter to sit in. -->
+  <!-- Gutter spacer: ONE badge stack that only reserves width (= widest
+       label). Invisible; pushes the grid right so the absolutely-positioned
+       cell badges have a clear gutter to sit in. -->
   <div class="paradigm-gutter" aria-hidden="true">
-    <span class="paradigm-badge">1 sg</span>
-    <span class="paradigm-badge">2 sg</span>
-    <span class="paradigm-badge">3 sg</span>
-    <span class="paradigm-badge">1 pl</span>
-    <span class="paradigm-badge">2 pl</span>
-    <span class="paradigm-badge">3 pl</span>
+    <span class="paradigm-badge">{badge stack}</span>
   </div>
 
   <div class="paradigm-grid">
     <div class="paradigm-col">
       <div class="paradigm-col-head">Present Indicative</div>
       <div class="paradigm-cell">
-        <span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span>
+        <span class="paradigm-badge-box"><span class="paradigm-badge">{badge stack}</span></span>
         <span class="paradigm-form">dēdūcō</span>
       </div>
       <!-- … one .paradigm-cell per row … -->
     </div>
     <!-- … one .paradigm-col per tense·mood (or case-set) … -->
   </div>
+  <!-- {badge stack} = every row label; the active row's is marked --shown:
+       <span class="paradigm-badge-label paradigm-badge-label--shown">1 sg</span>
+       <span class="paradigm-badge-label">2 sg</span> … (see "Uniform badge width").
+       The gutter's copy marks none. -->
+
 
 </div>
 ```
@@ -87,7 +87,7 @@ badge) so the row shape stays constant across columns:
 
 ```html
 <div class="paradigm-cell paradigm-cell--empty">
-  <span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span>
+  <span class="paradigm-badge-box"><span class="paradigm-badge">{badge stack}</span></span>
   <span class="paradigm-form">&#160;</span>
 </div>
 ```
@@ -271,6 +271,57 @@ mode):
 .paradigm-badge { background: var(--paradigm-head-bg); }
 ```
 
+## Uniform badge width (stacked labels — no magic number)
+
+Each absolute badge content-sizes to *its own* label, and the labels differ
+(`nom` vs `dat` vs `voc`), so badges would otherwise end at different x and leave
+ragged gaps before the first column. The fix is **intrinsic, not a fixed width**:
+
+Every badge holds the **full row-label stack** — one `.paradigm-badge-label` per
+row, all in one grid cell (`grid-area: 1/1`) — and exactly one is marked
+`--shown` (visible); the rest stay `visibility: hidden` (laid out, so they still
+contribute width). Each badge therefore sizes to `max-content` of *all* labels =
+the widest label, and they all match **with no cross-element transfer** and no
+magic number. (This is the only thing that does — see the next section.)
+
+```css
+.paradigm-badge { display: grid; place-items: center; }   /* stack + center */
+.paradigm-badge-label { grid-area: 1/1; white-space: nowrap; visibility: hidden; }
+.paradigm-badge-label--shown { visibility: visible; }
+```
+
+The CSS is row-count-agnostic (two rules, no `:nth-child` ladder). The renderer
+does the selection: each row's compact header is rendered once, then a per-row
+badge is assembled by marking that row's label `--shown` and **cloned into every
+column**; the gutter gets a copy with nothing marked, so it only reserves width.
+
+> **Cost:** each cell badge carries every row label (~N× the badge nodes). It's
+> transient (one card open at a time) and the simpler `min-width: <floor>` token
+> is a fine alternative for a stable label set — but the stack auto-adapts to any
+> label set with zero magic numbers.
+
+### Why not a container query (the rejected alternatives)
+
+The gutter already auto-sizes to the widest label, so it's tempting to make it a
+container and have the badges read its width. It can't work, for two independent
+reasons (both verified):
+
+- **A container can't shrink-wrap.** `container-type: size`/`inline-size` makes
+  an element's size *independent of its contents*, so the moment the gutter
+  becomes a query container its width collapses (→ 0) — it can no longer be "the
+  widest label" width. (Nesting the grid inside it, or making the grid
+  `position: absolute`, doesn't escape this.)
+- **Container units are ancestor-only.** Even with a sized container, `cqw`
+  resolves against an *ancestor* container; the cell badges live in sibling
+  `.paradigm-col` subtrees, so they could never read the gutter's size.
+
+General rule: intrinsic (content) sizing flows **up** the tree, container queries
+flow **down** — a descendant can't derive a length from an ancestor's
+content-based size (it would be a cycle). So the only pure-CSS way to make every
+badge the widest-label width is to give *each badge its own copy* of all the
+labels — the stacked-label technique above. (A JS measure that writes a
+`--badge-w` token is the other option; we chose the no-JS one.)
+
 ## Kinds
 
 The container modifier supplies the row count via the `--rows` custom property.
@@ -372,14 +423,15 @@ custom properties (`--bg`, `--fg`, `--muted`, `--rule`, `--accent`).
   background: var(--paradigm-head-bg);  /* opaque — prevents overstrike (above) */
   border: 1px solid var(--rule);
   border-bottom-width: 0;        /* next badge's border-top is the divider */
-  min-width: 2.6rem;             /* uniform width so all badges reach the table */
   padding: 0 .4rem;
-  display: flex; align-items: center; justify-content: center;
-  white-space: nowrap;
+  display: grid; place-items: center;   /* stack all labels, reveal one */
   font-family: ui-sans-serif, sans-serif;
   font-size: .68rem; text-transform: uppercase; letter-spacing: .03em;
   color: var(--muted);
 }
+/* Uniform width with no magic number — see "Uniform badge width" below. */
+.paradigm-badge-label { grid-area: 1 / 1; white-space: nowrap; visibility: hidden; }
+.paradigm-badge-label--shown { visibility: visible; }
 .paradigm-badge-box .paradigm-badge { height: 100cqh; }       /* = the row height */
 .paradigm-col .paradigm-cell:last-child .paradigm-badge { border-bottom-width: 1px; }
 
@@ -517,15 +569,19 @@ this reference:
 - **Layout/theme separation (done via a token layer).** Rather than split the
   rules onto bare `.paradigm-*` selectors, `06-paradigm.css` defines a block of
   `--paradigm-*` theme tokens at the top (colors, fonts, and the layout knobs:
-  `--paradigm-col-min`, `--paradigm-badge-w`, `--paradigm-band-gap`,
-  `--paradigm-rule`, `--paradigm-head-bg`, `--paradigm-label-font`,
-  `--paradigm-form-font`). Every rule below consumes tokens, so the structural
+  `--paradigm-col-min`, `--paradigm-band-gap`, `--paradigm-rule`,
+  `--paradigm-head-bg`, `--paradigm-label-font`, `--paradigm-form-font`). Every
+  rule below consumes tokens, so the structural
   mechanics carry no hard-coded colors/fonts/magic sizes — re-theme (or reuse
   elsewhere) by overriding tokens, no selector changes needed. The
   `.card-popover .card-paradigm` scope is kept (no specificity risk).
 - **Renderer.** `renderSection()` emits both layers (the `.sr-only` `<table>` and
-  the `aria-hidden` visual) from one paradigm section; the gutter and per-cell
-  badges are emitted from the same `rows` array.
+  the `aria-hidden` visual) from one paradigm section. Each row's compact header
+  is rendered once; a per-row badge (its label marked `--shown`) is assembled and
+  cloned into every column, with a nothing-marked copy for the gutter (see
+  "Uniform badge width").
+- **Working demo.** `development/paradigm-grid-demo.html` mirrors this and is the
+  place to eyeball changes; keep it in sync.
 
 ## Other follow-ups
 
