@@ -184,11 +184,61 @@ imposes a height and containment leaves no content-height to fall back on.
 | 2-line (`deduxerunt, deduxere`) | 51 | 51 | 51 | 51 |
 | badge-box, `align-self: stretch` removed | — | — | **0** | — |
 
+#### Isn't that circular? (why containment is required)
+
+A fair worry: the box's height comes from the cell, the cell lays out the box's
+children… so how does the cell know its height? Without containment it genuinely
+*would* be circular:
+
+```
+box height        ⟵ (normal flow)  ⟵ box's children
+box's children    ⟵ (100cqh)       ⟵ box height
+```
+
+`A` depends on `B` and `B` depends on `A` — unresolvable. **This is exactly why
+container queries _require_ a container declaration:** `container-type` cuts the
+top edge by making the box's size ignore its contents, turning the cycle into a
+one-way chain:
+
+```
+box height        ⟵ (containment: ignore contents)  ✂  box's children
+box's children    ⟵ (100cqh)                        ⟵ box height
+```
+
+Verified directly: injecting a **200px-tall in-flow child** into the box changes
+the row height by **0px** while `container-type: size` is set, and by the full
+**200px** once it's removed. The children genuinely cannot reach the outer
+layout.
+
+Also note the height source isn't even *inside* the box: the cell's height comes
+from the `form`, which is the box's **sibling**, not its child. The box only ever
+contributes its content-independent size (0) to the cell.
+
+**So is it two layouts?** Conceptually yes — two *ordered, isolated scopes*, not
+two passes of the same subtree converging to a fixed point:
+
+1. **Outer scope.** Lay out the cell and its direct children, treating the box as
+   a sealed, content-independent leaf. Flex takes the max cross-size (form = its
+   text height, box = 0), then `align-items: stretch` writes that height onto the
+   box. The box now has a definite size; nothing inside it was consulted.
+2. **Inner scope.** With the box's size fixed as an input, lay out its subtree;
+   `100cqh` resolves against that fixed height.
+
+Because containment guarantees the inner scope can't change the box's size, one
+outer pass + one inner pass is always sufficient and stable — no iteration. That
+isolation is the whole point of containment (and what lets engines skip
+re-laying-out a contained subtree when only the outside changes).
+
 #### Other notes
 
-- `container-type: size` adds only *size* containment (not layout), so it does
-  **not** become a containing block — the badge stays anchored to the body
-  gutter, preserving the multi-band collapse.
+- **The badge answers to two independent ancestor lookups.** As a
+  `position: absolute` element it has both a *containing block* (nearest
+  positioned ancestor = `.paradigm-body`, which is why every badge collapses into
+  the shared gutter via `left: 0`) and a *query container* (nearest ancestor
+  container = `.paradigm-badge-box`, which is why `100cqh` gives it its own row's
+  height). Different ancestors, resolved separately — so the gutter-collapse and
+  the full-height sizing don't interfere. (`container-type` does not establish a
+  containing block, so it doesn't disturb the positioning chain.)
 - Putting `container-type: size` on the cell itself would collapse the row: the
   cell would ignore the form's height too (≈11px observed). The zero-width box
   isolates containment to an element whose height is fed *externally* by stretch,
