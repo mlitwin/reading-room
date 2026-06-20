@@ -417,12 +417,15 @@ this reference:
   and the container class is `.card-paradigm` (not `.paradigm` + a `--rows`
   kind modifier). `--rows` is set per section via an **inline `style`** by the
   renderer rather than a `.paradigm--verb` modifier.
-- **Known follow-up — layout/theme separation.** Because everything is under the
-  deep `.card-popover .card-paradigm` scope, structural mechanics (grid/subgrid,
-  the size-container badge, the `min()` floor, border collapse) and card theme
-  (fonts, colors, sizes) are intermixed, and the pattern can't be reused outside
-  the card popover. Splitting the structural rules onto bare `.paradigm-*` (as in
-  this doc) with theme scoped under `.card-popover` is the intended cleanup.
+- **Layout/theme separation (done via a token layer).** Rather than split the
+  rules onto bare `.paradigm-*` selectors, `06-paradigm.css` defines a block of
+  `--paradigm-*` theme tokens at the top (colors, fonts, and the layout knobs:
+  `--paradigm-col-min`, `--paradigm-badge-w`, `--paradigm-band-gap`,
+  `--paradigm-rule`, `--paradigm-head-bg`, `--paradigm-label-font`,
+  `--paradigm-form-font`). Every rule below consumes tokens, so the structural
+  mechanics carry no hard-coded colors/fonts/magic sizes — re-theme (or reuse
+  elsewhere) by overriding tokens, no selector changes needed. The
+  `.card-popover .card-paradigm` scope is kept (no specificity risk).
 - **Renderer.** `renderSection()` emits both layers (the `.sr-only` `<table>` and
   the `aria-hidden` visual) from one paradigm section; the gutter and per-cell
   badges are emitted from the same `rows` array.

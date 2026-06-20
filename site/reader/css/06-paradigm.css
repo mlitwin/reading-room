@@ -1,8 +1,35 @@
 /* ============================================================
    06 · Lexicon card — paradigm grid
-   The paradigm pattern (see development/paradigm-grid-pattern.md): wrapping subgrid columns, the absolute-badge gutter, and the hidden semantic table (.sr-only).
+   The paradigm pattern (see development/paradigm-grid-pattern.md): wrapping
+   subgrid columns, the absolute-badge gutter, and the hidden semantic table
+   (.sr-only).
+
+   Layered: the THEME (custom-property knobs) is defined once below; every
+   rule after it consumes those tokens, so the structural mechanics carry no
+   hard-coded colors, fonts, or magic sizes. Re-theme by overriding tokens.
    ============================================================ */
 
+/* ── Theme tokens ─────────────────────────────────────────── */
+.card-popover .card-paradigm {
+  /* layout knobs */
+  --rows: 6;                    /* fallback; the renderer sets it inline per section */
+  --paradigm-col-min: 8rem;     /* column wrap threshold (min() floor) */
+  --paradigm-badge-w: 2.6rem;   /* row-header / gutter width (uniform badge width) */
+  --paradigm-band-gap: 0.6rem;  /* vertical gap between wrapped bands */
+
+  /* color & type */
+  --paradigm-rule: var(--rule);                                    /* gridline color */
+  --paradigm-head-bg: color-mix(in srgb, var(--fg) 3%, var(--bg)); /* col-head + badge tint —
+       opaque (not rgba) so stacked badges occlude rather than overstrike, and so the two stay
+       identical in dark mode (a black rgba tint would diverge there) */
+  --paradigm-label-font: ui-sans-serif, sans-serif;                /* col-head / badge / section */
+  --paradigm-label-color: var(--muted);
+  --paradigm-form-font: ui-serif, "Iowan Old Style", Georgia, serif;
+
+  font-family: var(--paradigm-form-font);
+}
+
+/* ── Outer containers & section label ─────────────────────── */
 .card-popover .card-paradigms {
   margin: 0.6rem 0;
   max-width: 100%;
@@ -11,14 +38,11 @@
   margin-top: 0.8rem;
 }
 
-.card-popover .card-paradigm {
-  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
-}
 /* Section label ("Voice: active") above each grid. */
 .card-popover .card-paradigm .paradigm-section {
   text-align: left;
   padding: 0 0 0.3rem;
-  font-family: ui-sans-serif, sans-serif;
+  font-family: var(--paradigm-label-font);
   font-size: 0.78rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -29,7 +53,7 @@
   /* Category label ("Voice", "Mood", "Number") preceding the linked group
      value — softer than the value itself so the eye lands on "active" /
      "passive" rather than "Voice". */
-  color: var(--muted);
+  color: var(--paradigm-label-color);
   font-weight: 500;
 }
 .card-popover .card-paradigm .paradigm-section .note-link {
@@ -43,16 +67,7 @@
   text-decoration-style: dotted;
 }
 
-.card-popover .card-paradigm {
-  /* --rows (morphological rows per column) is set inline per section by the
-     renderer; this is just a fallback. */
-  --rows: 6;
-  /* Shared header tint for the col-head and the row-header badges. Opaque (not
-     rgba) so the stacked badges occlude rather than overstrike, and so the two
-     stay identical in dark mode (a black rgba tint would diverge there). */
-  --paradigm-head-bg: color-mix(in srgb, var(--fg) 3%, var(--bg));
-}
-
+/* ── Structure: gutter + wrapping subgrid ─────────────────── */
 /* Body: flex row of [gutter spacer | grid], and the positioning context for
    the absolutely-positioned row badges. */
 .card-popover .card-paradigm .paradigm-body {
@@ -72,41 +87,28 @@
 
 /* Responsive wrapping grid. The min() floor collapses to ~half-width on narrow
    screens so >=2 columns always fit (down to ~320px) without a media query;
-   8rem wins on wider screens and more columns appear. */
+   --paradigm-col-min wins on wider screens and more columns appear. */
 .card-popover .card-paradigm .paradigm-grid {
   flex: 1 1 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(8rem, 50%), 1fr));
-  gap: 0.6rem 0;             /* no column gap (classic table); row gap separates bands */
+  grid-template-columns: repeat(auto-fill, minmax(min(var(--paradigm-col-min), 50%), 1fr));
+  gap: var(--paradigm-band-gap) 0;  /* no column gap (classic table); row gap separates bands */
 }
 
 /* Each column adopts the parent's row tracks via subgrid, so rows align across
-   a band; span --rows + 1 (the col-head) lets columns wrap onto new bands. */
+   a band; span --rows + 1 (the col-head) lets columns wrap onto new bands.
+   margin-left:-1px collapses adjacent column borders to a single 1px rule. */
 .card-popover .card-paradigm .paradigm-col {
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span calc(var(--rows) + 1);
   row-gap: 0;                /* cells touch within a column (band gap stays) */
-  border: 1px solid var(--rule);
-  margin-left: -1px;         /* collapse adjacent column borders to a 1px rule */
+  border: 1px solid var(--paradigm-rule);
+  margin-left: -1px;
   overflow: hidden;
 }
-.card-popover .card-paradigm .paradigm-col-head {
-  background: var(--paradigm-head-bg);
-  padding: 0.25rem 0.5rem;
-  font-family: ui-sans-serif, sans-serif;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--muted);
-  text-align: center;
-  border-bottom: 1px solid var(--rule);
-}
-.card-popover .card-paradigm .paradigm-col-head .note-link {
-  display: block;            /* stack tense / mood / voice vertically */
-  padding: 0;
-  line-height: 1.2;
-}
+
+/* ── Cells, row-header badges & forms ─────────────────────── */
 .card-popover .card-paradigm .paradigm-cell {
   display: flex;
   align-items: stretch;      /* badge-box fills the row; form is centered below */
@@ -118,8 +120,27 @@
    form's. With it on the form (border-box, so it adds no height), both the
    badge and form dividers land exactly on the cell boundary. */
 .card-popover .card-paradigm .paradigm-cell + .paradigm-cell .paradigm-form {
-  border-top: 1px solid var(--rule);
+  border-top: 1px solid var(--paradigm-rule);
 }
+
+/* Column header cell. */
+.card-popover .card-paradigm .paradigm-col-head {
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--paradigm-rule);
+  background: var(--paradigm-head-bg);
+  font-family: var(--paradigm-label-font);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--paradigm-label-color);
+}
+.card-popover .card-paradigm .paradigm-col-head .note-link {
+  display: block;            /* stack tense / mood / voice vertically */
+  padding: 0;
+  line-height: 1.2;
+}
+
 /* Zero-width box that stretches to the cell (row) height and is a size
    container, so the badge inside can take 100cqh — matching the row height
    exactly, even when a sibling column's form wraps to two lines. */
@@ -130,32 +151,29 @@
 }
 /* Row badges, styled like row-header cells. They collapse to the shared left
    gutter — a band's columns each emit a badge at left:0, so up to N identical
-   badges stack. The header tint must be OPAQUE (see --paradigm-head-bg) so the
-   topmost badge occludes the rest rather than the glyph edges compositing darker
-   ("overstrike"). */
+   badges stack; the opaque --paradigm-head-bg lets the topmost occlude the rest
+   (see the token comment). --paradigm-badge-w gives every badge the same width
+   so they all reach the table edge (a column's text alone — nom/dat/abl —
+   differs, leaving irregular gaps). */
 .card-popover .card-paradigm .paradigm-badge {
   position: absolute;
   left: 0;
   top: auto;
-  background: var(--paradigm-head-bg);
-  border: 1px solid var(--rule);
-  border-bottom-width: 0;    /* divider comes from the next badge's border-top
-                                (single 1px); last cell re-adds it below */
-  /* Uniform width so every badge reaches the table edge — without it each badge
-     is only as wide as its own text (nom/dat/abl differ), leaving irregular gaps
-     before the first column. Covers short person/number and case labels; the
-     gutter spacer adopts the same width. */
-  min-width: 2.6rem;
+  min-width: var(--paradigm-badge-w);
   padding: 0 0.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   white-space: nowrap;       /* keep "1 sg" together on one line */
-  font-family: ui-sans-serif, sans-serif;
+  border: 1px solid var(--paradigm-rule);
+  border-bottom-width: 0;    /* divider comes from the next badge's border-top
+                                (single 1px); last cell re-adds it below */
+  background: var(--paradigm-head-bg);
+  font-family: var(--paradigm-label-font);
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  color: var(--muted);
+  color: var(--paradigm-label-color);
 }
 /* Only the in-cell badges (wrapped in a size-container box) take the row
    height. The gutter spacer's badges have no container and keep auto height. */
@@ -166,6 +184,7 @@
 .card-popover .card-paradigm .paradigm-col .paradigm-cell:last-child .paradigm-badge {
   border-bottom-width: 1px;
 }
+
 .card-popover .card-paradigm .paradigm-form {
   flex: 1 1 auto;            /* fill the cell width so the border-top divider
                                spans the whole column, not just the form text */
@@ -178,6 +197,8 @@
   text-align: left;
   overflow-wrap: anywhere;   /* long forms wrap within the cell, not the grid */
 }
+
+/* Highlighted (active) form — the cell the reader tapped. */
 .card-popover .card-paradigm .paradigm-cell.active-form {
   background: var(--accent);
 }
@@ -186,6 +207,7 @@
   font-weight: 600;
 }
 
+/* ── Accessibility ────────────────────────────────────────── */
 /* Visually-hidden semantic table (the accessibility representation). Clip it
    without removing it from the a11y tree; applied to the WRAPPER div, since a
    <table> ignores width:1px. */
@@ -201,4 +223,3 @@
   clip-path: inset(50%);
   white-space: nowrap;
 }
-
