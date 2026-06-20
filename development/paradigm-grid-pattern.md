@@ -63,7 +63,7 @@ presentation. Both are generated from the same paradigm data. See
     <div class="paradigm-col">
       <div class="paradigm-col-head">Present Indicative</div>
       <div class="paradigm-cell">
-        <span class="paradigm-badge">1 sg</span>
+        <span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span>
         <span class="paradigm-form">dēdūcō</span>
       </div>
       <!-- … one .paradigm-cell per row … -->
@@ -81,10 +81,14 @@ badge) so the row shape stays constant across columns:
 
 ```html
 <div class="paradigm-cell paradigm-cell--empty">
-  <span class="paradigm-badge">1 sg</span>
+  <span class="paradigm-badge-box"><span class="paradigm-badge">1 sg</span></span>
   <span class="paradigm-form">&#160;</span>
 </div>
 ```
+
+The `.paradigm-badge-box` wrapper is a zero-width **size container** that lets
+each badge match its row height exactly — see
+[Full-height row headers](#4-full-height-row-headers-container-query).
 
 ## How the layout works
 
@@ -121,6 +125,32 @@ Row labels would otherwise repeat in every cell, wasting width. Instead:
 > The container is `position: relative` so the absolute badges anchor to it, and
 > `display: flex` so the gutter spacer and grid sit side by side.
 
+### 4. Full-height row headers (container query)
+
+The badges read as row-header **cells** (header tint + border, the full row
+height) rather than floating chips. Because a badge is absolutely positioned in
+the gutter, it can't naturally inherit its row's height — so each badge is
+wrapped in a `.paradigm-badge-box`:
+
+```css
+.paradigm-badge-box { width: 0; align-self: stretch; container-type: size; }
+.paradigm-badge-box .paradigm-badge { height: 100cqh; }   /* = the row height */
+```
+
+The box is a zero-width flex child that **stretches to the cell height**, and is
+a **size container**, so `100cqh` resolves to the row height — even when a
+sibling column's form wraps to two lines. Key points:
+
+- `container-type: size` adds only *size* containment (not layout), so it does
+  **not** become a containing block — the badge stays anchored to the body
+  gutter, preserving the multi-band collapse.
+- Putting `container-type: size` on the cell itself would collapse it (the form
+  is what sizes the cell); the zero-width box sidesteps that.
+- The cell's row divider lives on the **form** (`.paradigm-cell + .paradigm-cell
+  .paradigm-form { border-top }`), not on the cell. A cell `border-top` would
+  push the badge's content box down 1px and misalign the badge dividers from the
+  form's; on the form (border-box) both land on the cell boundary.
+
 ## ⚠️ Opaque badge background (required) — verified
 
 Within a band, **every column emits a badge at `left: 0`**, so up to *N*
@@ -132,10 +162,17 @@ With transparent badges, the anti-aliased glyph **edges composite darker on
 each pass** (a 50%-coverage edge pixel becomes ~94% black after 4 layers),
 producing a subtle faux-bold "overstrike."
 
-**Fix:** give `.paradigm-badge` an **opaque background matching the surface**
-(`var(--bg)`). The topmost badge's fill occludes the ones beneath, so exactly
-one crisp glyph renders. This also guards against any future case where a badge
-overlaps form text.
+**Fix:** give `.paradigm-badge` an **opaque background**. The topmost badge's
+fill occludes the ones beneath, so exactly one crisp glyph renders. Use the same
+opaque header tint as the col-head, via a shared custom property so the two
+match in both light and dark mode (an `rgba(0,0,0,…)` tint would diverge in dark
+mode):
+
+```css
+.paradigm { --paradigm-head-bg: color-mix(in srgb, var(--fg) 3%, var(--bg)); }
+.paradigm-col-head,
+.paradigm-badge { background: var(--paradigm-head-bg); }
+```
 
 ## Kinds
 
@@ -191,22 +228,26 @@ custom properties (`--bg`, `--fg`, `--muted`, `--rule`, `--accent`).
   flex: 1 1 auto;
   display: grid;
   /* min() floor guarantees >=2 columns down to ~320px without a media query
-     (see "Phone width" below); use calc(50% - <half the gap>). */
-  gap: .5rem;
-  grid-template-columns: repeat(auto-fill, minmax(min(8rem, calc(50% - .25rem)), 1fr));
+     (see "Phone width" below). With column-gap 0, the floor is exactly 50%. */
+  grid-template-columns: repeat(auto-fill, minmax(min(8rem, 50%), 1fr));
+  gap: .6rem 0;                  /* no column gap (classic table); row gap = bands */
 }
 
+/* Columns share single 1px gridlines: square corners, and margin-left:-1px
+   collapses each column's left border onto the previous column's right border
+   (works across wrapped bands since every column shifts equally). */
 .paradigm-col {
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span calc(var(--rows) + 1);  /* +1 for the col-head */
+  row-gap: 0;                    /* cells touch within a column (band gap stays) */
   border: 1px solid var(--rule);
-  border-radius: 4px;
+  margin-left: -1px;
   overflow: hidden;
 }
 
 .paradigm-col-head {
-  background: rgba(0, 0, 0, .03);
+  background: var(--paradigm-head-bg);
   border-bottom: 1px solid var(--rule);
   padding: .25rem .5rem;
   font-family: ui-sans-serif, sans-serif;
@@ -214,27 +255,42 @@ custom properties (`--bg`, `--fg`, `--muted`, `--rule`, `--accent`).
   color: var(--muted); text-align: center;
 }
 
+/* Cell has no padding/border itself — the form carries both, so the badge can
+   span the full row height and the row divider lands on the cell boundary. */
 .paradigm-cell {
   display: flex;
-  align-items: baseline;
-  gap: .5rem;
-  padding: .2rem .5rem;
+  align-items: stretch;
+  padding: 0;
 }
-.paradigm-cell + .paradigm-cell { border-top: 1px solid var(--rule); }
+.paradigm-cell + .paradigm-cell .paradigm-form { border-top: 1px solid var(--rule); }
+
+/* Size-container box that stretches to the row height (see "Full-height row
+   headers"). */
+.paradigm-badge-box { width: 0; align-self: stretch; container-type: size; }
 
 .paradigm-badge {
   position: absolute;            /* collapse to the shared left gutter */
   left: 0;
   top: auto;
-  background: var(--bg);         /* REQUIRED — prevents overstrike (see above) */
+  background: var(--paradigm-head-bg);  /* opaque — prevents overstrike (above) */
+  border: 1px solid var(--rule);
+  border-bottom-width: 0;        /* next badge's border-top is the divider */
+  min-width: 2.6rem;             /* uniform width so all badges reach the table */
+  padding: 0 .4rem;
+  display: flex; align-items: center; justify-content: center;
   white-space: nowrap;
   font-family: ui-sans-serif, sans-serif;
   font-size: .68rem; text-transform: uppercase; letter-spacing: .03em;
   color: var(--muted);
 }
+.paradigm-badge-box .paradigm-badge { height: 100cqh; }       /* = the row height */
+.paradigm-col .paradigm-cell:last-child .paradigm-badge { border-bottom-width: 1px; }
 
 .paradigm-form {
   flex: 1 1 auto;
+  align-self: stretch;
+  display: flex; align-items: center;    /* center text when the row is taller */
+  padding: .2rem .5rem;
   text-align: left;
   overflow-wrap: anywhere;       /* long forms wrap inside the cell */
 }
@@ -243,6 +299,11 @@ custom properties (`--bg`, `--fg`, `--muted`, `--rule`, `--accent`).
 .paradigm-cell.active-form { background: var(--accent); }
 .paradigm-cell.active-form .paradigm-form { color: var(--bg); font-weight: 600; }
 ```
+
+> Assumes a global `* { box-sizing: border-box }` reset (so the form's
+> `border-top` adds no row height). The shipping rules also live under a
+> `.card-popover .card-paradigm` scope and read `--rows` from an inline style —
+> see [Implementation notes](#implementation-notes).
 
 ## Accessibility (hidden semantic table)
 
@@ -312,30 +373,26 @@ same `rows` array.
 ## Phone width: `auto-fill` is deterministic, not fragile
 
 `auto-fill`'s column count is "how many `min`-width tracks fit the container,"
-so it keys off an **absolute length** (the 7rem floor) against available width.
-This is fully deterministic — the viewport meta
+so it keys off an **absolute length** (the `8rem` floor) against available
+width. This is fully deterministic — the viewport meta
 (`width=device-width, initial-scale=1`, already set) is necessary for px↔device
 mapping but does not change the arithmetic.
 
-With rem = 18px (so 7rem = 126px) and popover content ≈ `92vw − 2×1.4rem`:
-
-| Device | content width | natural auto-fill |
-|---|---|---|
-| iPhone 16 Pro (402px) | ~320px | 2 columns (breakpoint redundant) |
-| iPhone SE (320px) | ~244px | 1 column (two 126px tracks + gap don't fit) |
-
-So the `max-width: 480px` 2-up rule only matters on the narrowest phones. It is
-**not** fundamental, and we can drop it.
+A fixed `8rem` floor alone would drop to 1 column on the narrowest phones (two
+`8rem` tracks don't fit ~320px). The `min(8rem, 50%)` floor avoids that without
+a media query (next section), so no `max-width` breakpoint is needed.
 
 ### `min()` track floor (chosen — no media query)
 
 ```css
-grid-template-columns: repeat(auto-fill, minmax(min(8rem, calc(50% - 6px)), 1fr));
+grid-template-columns: repeat(auto-fill, minmax(min(8rem, 50%), 1fr));
 ```
 
-The floor collapses to ~half-width (minus half the gap) on narrow screens so
-**≥2 columns always fit**, while `8rem` wins on wider screens and more columns
-appear. Use `calc(50% - <half the gap>)` so two columns plus the gap fit exactly.
+The floor collapses to half-width on narrow screens so **≥2 columns always
+fit**, while `8rem` wins on wider screens and more columns appear. With a
+non-zero column gap, subtract half the gap (`calc(50% - <half-gap>)`) so two
+columns plus the gap still fit; the shipping grid uses **column-gap 0**, so a
+plain `50%` is exact.
 
 **Verified** in `.tmp/paradigm-test.html` (no media query present):
 
@@ -350,7 +407,29 @@ appear. Use `calc(50% - <half the gap>)` so two columns plus the gap fit exactly
 Sizing columns from the popover width (92vw) rather than the viewport is the
 most *correct* fix, but it's more machinery than the `min()` floor needs.
 
+## Implementation notes
+
+How the shipping code (`site/reader/cards.js`, `site/reader/reader.css`) maps to
+this reference:
+
+- **Class scope / naming.** The CSS in this doc uses bare, generic `.paradigm-*`
+  classes. The shipping rules are all scoped under `.card-popover .card-paradigm`
+  and the container class is `.card-paradigm` (not `.paradigm` + a `--rows`
+  kind modifier). `--rows` is set per section via an **inline `style`** by the
+  renderer rather than a `.paradigm--verb` modifier.
+- **Known follow-up — layout/theme separation.** Because everything is under the
+  deep `.card-popover .card-paradigm` scope, structural mechanics (grid/subgrid,
+  the size-container badge, the `min()` floor, border collapse) and card theme
+  (fonts, colors, sizes) are intermixed, and the pattern can't be reused outside
+  the card popover. Splitting the structural rules onto bare `.paradigm-*` (as in
+  this doc) with theme scoped under `.card-popover` is the intended cleanup.
+- **Renderer.** `renderSection()` emits both layers (the `.sr-only` `<table>` and
+  the `aria-hidden` visual) from one paradigm section; the gutter and per-cell
+  badges are emitted from the same `rows` array.
+
 ## Other follow-ups
 
 - **`calc()` in `grid-row: span`.** Verified working (resolves to `span 7` for
   `--rows: 6`). Keep an eye on older browser support if the target widens.
+- **Dead `.paradigm-cell--empty` modifier.** Emitted on placeholder cells as a
+  semantic hook but currently unstyled.

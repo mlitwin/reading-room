@@ -208,18 +208,19 @@
   //   2. An aria-hidden visual grid: responsive wrapping column blocks whose
   //      rows align via subgrid, with row labels collapsed into a shared left
   //      gutter (absolutely-positioned, opaque-backed badges).
-  function renderSubTable(p, sectionGroup, type, soloSection) {
+  function renderSection(p, sectionGroup, type, soloSection) {
     // PPP cells are stored with a 'ppp.' prefix on the row so their keys match
     // parse codes directly (e.g. ppp.acc.pl.fem).
     var rowPrefix = type === 'ppp' ? 'ppp.' : '';
+    function hasForm(r, sc) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; }
     // Canonical row order is preserved from p.rows (1sg…3pl, nom…abl).
     var rows = p.rows.filter(function (r) {
-      return sectionGroup.subCols.some(function (sc) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; });
+      return sectionGroup.subCols.some(function (sc) { return hasForm(r, sc); });
     });
     if (!rows.length) return '';
     // Drop sub-columns with no forms in any row for this section.
     var subCols = sectionGroup.subCols.filter(function (sc) {
-      return rows.some(function (r) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; });
+      return rows.some(function (r) { return hasForm(r, sc); });
     });
     if (!subCols.length) return '';
 
@@ -264,20 +265,18 @@
       var cells = rows.map(function (r) {
         var key = rowPrefix + r + '.' + sc.orig;
         var form = cellForm(p.cells[key]);
-        // Keep a consistent row shape across every column in the section:
-        // a column missing this row (e.g. imperative has no 1sg) renders a
-        // placeholder that keeps the row badge but has no form, so rows stay
-        // aligned across columns. The nbsp gives the empty form the same
-        // height as a populated cell.
         // The badge sits in a zero-width box that stretches to the cell height;
         // the box is a size container so the badge can take 100cqh (= the row
         // height) while staying absolutely positioned in the shared gutter.
         var badge = '<span class="paradigm-badge-box">'
           + '<span class="paradigm-badge">' + renderCompactRowHeader(r) + '</span></span>';
+        // Keep a consistent row shape across columns: a column missing this row
+        // (e.g. the imperative has no 1sg) still renders a placeholder cell so
+        // the rows stay aligned. The nbsp keeps the empty cell from collapsing.
         if (form == null) {
           return '<div class="paradigm-cell paradigm-cell--empty">'
             + badge
-            + '<span class="paradigm-form"> </span>'
+            + '<span class="paradigm-form">&#160;</span>'
             + '</div>';
         }
         return '<div class="paradigm-cell" data-parse="' + escAttr(key) + '">'
@@ -303,7 +302,7 @@
       var groups = splitColumnsByGroup(p.cols, type);
       var solo = groups.length === 1;
       out += '<div class="card-paradigms">' + groups.map(function (g) {
-        return renderSubTable(p, g, type, solo);
+        return renderSection(p, g, type, solo);
       }).join('\n') + '</div>';
     }
     var ppp = card.ppp_paradigm;
@@ -311,7 +310,7 @@
       var label = ppp.label ? '<p class="card-ppp-label">' + escHtml(ppp.label) + '</p>' : '';
       var groups2 = splitColumnsByGroup(ppp.cols, 'ppp');
       out += '<div class="card-paradigms card-ppp-paradigms">' + label +
-        groups2.map(function (g) { return renderSubTable(ppp, g, 'ppp', false); }).join('\n') +
+        groups2.map(function (g) { return renderSection(ppp, g, 'ppp', false); }).join('\n') +
         '</div>';
     }
     return out;

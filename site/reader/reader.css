@@ -643,9 +643,15 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   text-decoration-style: dotted;
 }
 
-/* --rows (morphological rows per column) is set inline per section by the
-   renderer; this is just a fallback. */
-.card-popover .card-paradigm { --rows: 6; }
+.card-popover .card-paradigm {
+  /* --rows (morphological rows per column) is set inline per section by the
+     renderer; this is just a fallback. */
+  --rows: 6;
+  /* Shared header tint for the col-head and the row-header badges. Opaque (not
+     rgba) so the stacked badges occlude rather than overstrike, and so the two
+     stay identical in dark mode (a black rgba tint would diverge there). */
+  --paradigm-head-bg: color-mix(in srgb, var(--fg) 3%, var(--bg));
+}
 
 /* Body: flex row of [gutter spacer | grid], and the positioning context for
    the absolutely-positioned row badges. */
@@ -670,7 +676,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 .card-popover .card-paradigm .paradigm-grid {
   flex: 1 1 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(8rem, calc(50% - 0.25rem)), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(8rem, 50%), 1fr));
   gap: 0.6rem 0;             /* no column gap (classic table); row gap separates bands */
 }
 
@@ -686,7 +692,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   overflow: hidden;
 }
 .card-popover .card-paradigm .paradigm-col-head {
-  background: rgba(0, 0, 0, 0.03);
+  background: var(--paradigm-head-bg);
   padding: 0.25rem 0.5rem;
   font-family: ui-sans-serif, sans-serif;
   font-size: 0.72rem;
@@ -722,26 +728,23 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   align-self: stretch;
   container-type: size;
 }
-/* Row badges collapse to the shared left gutter. Opaque background is REQUIRED:
-   a band's columns each emit a badge at left:0, so up to N identical badges
-   stack; without an opaque fill the glyph edges composite darker ("overstrike").
-   The opaque fill lets the topmost badge occlude the rest. */
+/* Row badges, styled like row-header cells. They collapse to the shared left
+   gutter — a band's columns each emit a badge at left:0, so up to N identical
+   badges stack. The header tint must be OPAQUE (see --paradigm-head-bg) so the
+   topmost badge occludes the rest rather than the glyph edges compositing darker
+   ("overstrike"). */
 .card-popover .card-paradigm .paradigm-badge {
   position: absolute;
   left: 0;
   top: auto;
-  /* Styled like a row header cell: header tint + border. The background must
-     be OPAQUE (an opaque equivalent of the col-head's rgba(0,0,0,0.03) tint)
-     so the up-to-N stacked badges occlude rather than overstrike. */
-  background: color-mix(in srgb, var(--fg) 3%, var(--bg));
+  background: var(--paradigm-head-bg);
   border: 1px solid var(--rule);
   border-bottom-width: 0;    /* divider comes from the next badge's border-top
                                 (single 1px); last cell re-adds it below */
-  /* Uniform width (border-box) so every badge reaches the table edge — without
-     it each badge is only as wide as its own text (nom/dat/abl differ), leaving
-     irregular gaps before the first column. Covers short person/number and
-     case labels; the gutter spacer adopts the same width. */
-  box-sizing: border-box;
+  /* Uniform width so every badge reaches the table edge — without it each badge
+     is only as wide as its own text (nom/dat/abl differ), leaving irregular gaps
+     before the first column. Covers short person/number and case labels; the
+     gutter spacer adopts the same width. */
   min-width: 2.6rem;
   padding: 0 0.4rem;
   display: flex;
@@ -764,9 +767,11 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   border-bottom-width: 1px;
 }
 .card-popover .card-paradigm .paradigm-form {
+  flex: 1 1 auto;            /* fill the cell width so the border-top divider
+                               spans the whole column, not just the form text */
   align-self: stretch;       /* fill the row so the border-top divider sits at
-                                the cell boundary */
-  box-sizing: border-box;    /* border-top adds no height → uniform rows */
+                                the cell boundary (border-box — the global reset
+                                — keeps the border from adding row height) */
   display: flex;
   align-items: center;       /* keep the form text centered when its row is taller */
   padding: 0.2rem 0.5rem;
