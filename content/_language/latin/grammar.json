@@ -397,5 +397,71 @@
         }
       ]
     }
+  ],
+  "terms": [
+    {
+      "id": "supine",
+      "label": "Supine",
+      "gloss": "<p>A defective verbal noun in <code>-um</code> (or <code>-u</code>), used in a narrow set of constructions: with verbs of motion to express purpose (<em>venit spectatum</em>, “he came to see”), and as the <a href=\"note:fourth-principal-part\">fourth principal part</a> of a verb’s dictionary entry — the form that gives the stem for the <a href=\"note:perfect-passive-participle\">perfect passive participle</a> and the future active participle.</p>",
+      "agRefs": [
+        "508"
+      ]
+    },
+    {
+      "id": "gender",
+      "label": "Gender",
+      "gloss": "<p>The three Latin grammatical genders are <a href=\"note:masculine\">masculine</a>, <a href=\"note:feminine\">feminine</a>, and <a href=\"note:neuter\">neuter</a>. Nouns have a fixed gender; adjectives shift to match the noun they modify.</p>",
+      "agRefs": [
+        "29"
+      ]
+    },
+    {
+      "id": "declension",
+      "label": "Declension",
+      "gloss": "<p>One of five patterns of noun (and adjective) inflection in Latin, identified by the genitive singular ending. 1st declension: <code>-ae</code> (feminine, like <em>forma</em>). 2nd: <code>-i</code> (masculine and neuter). 3rd: <code>-is</code> (all three genders). 4th: <code>-us</code> (mostly masculine). 5th: <code>-ei</code> (mostly feminine).</p>",
+      "agRefs": [
+        "36"
+      ]
+    },
+    {
+      "id": "principal-parts",
+      "label": "Principal parts",
+      "gloss": "<p>The set of four verb forms a dictionary entry gives so the reader can build any inflected form. For a regular verb: <a href=\"note:first-principal-part\">1st</a> = the lemma’s dictionary form (1st-person singular present indicative active, e.g. <em>amo</em>); <a href=\"note:second-principal-part\">2nd</a> = present active infinitive (<em>amare</em>); <a href=\"note:third-principal-part\">3rd</a> = 1st-person singular perfect indicative active (<em>amavi</em>); <a href=\"note:fourth-principal-part\">4th</a> = supine (<em>amatum</em>).</p>",
+      "agRefs": [
+        "164"
+      ]
+    },
+    {
+      "id": "first-principal-part",
+      "label": "First principal part",
+      "gloss": "<p>The first slot in a verb’s dictionary entry — the 1st-person singular present indicative active (e.g. <em>amo</em>, “I love”). This is the form the lemma is filed under, and it gives the present stem from which all present-system forms are built.</p>",
+      "agRefs": [
+        "164"
+      ]
+    },
+    {
+      "id": "second-principal-part",
+      "label": "Second principal part",
+      "gloss": "<p>The second slot in a verb’s dictionary entry — the present active <a href=\"note:infinitive\">infinitive</a> (e.g. <em>amare</em>, “to love”). It shows which <a href=\"note:declension\">conjugation</a> the verb belongs to and how the present system inflects.</p>",
+      "agRefs": [
+        "164"
+      ]
+    },
+    {
+      "id": "third-principal-part",
+      "label": "Third principal part",
+      "gloss": "<p>The third slot in a verb’s dictionary entry — the 1st-person singular perfect indicative active (e.g. <em>amavi</em>, “I have loved”). It gives the perfect stem, from which all forms in the <a href=\"note:perfect\">perfect</a>, <a href=\"note:pluperfect\">pluperfect</a>, and future-perfect active are built.</p>",
+      "agRefs": [
+        "164"
+      ]
+    },
+    {
+      "id": "fourth-principal-part",
+      "label": "Fourth principal part",
+      "gloss": "<p>The fourth slot in a verb’s dictionary entry — the <a href=\"note:supine\">supine</a> (e.g. <em>amatum</em>). It gives the stem for the <a href=\"note:perfect-passive-participle\">perfect passive participle</a> and the future active participle.</p>",
+      "agRefs": [
+        "164"
+      ]
+    }
   ]
 }

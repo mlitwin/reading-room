@@ -61,8 +61,11 @@ function renderAgRefs(val, resolveAgRef) {
 }
 
 export function renderGrammarBody(grammar, resolveAgRef) {
+  const terms = Array.isArray(grammar.terms) ? grammar.terms : [];
+
   const tocItems = grammar.categories
     .map((c) => `    <li><a href="#cat-${escapeHtml(c.id)}">${escapeHtml(c.label)}</a></li>`)
+    .concat(terms.length ? [`    <li><a href="#cat-terms">Grammar Terms</a></li>`] : [])
     .join('\n');
 
   const sections = grammar.categories.map((cat) => {
@@ -88,12 +91,33 @@ ${items}
   </section>`;
   }).join('\n');
 
+  // Grammar-terms section — language-general vocabulary linked from the parse-
+  // code glosses (note:declension, note:principal-parts, …). Same markup as a
+  // category value so anchors and agRefs render identically.
+  const termsSection = terms.length ? `  <section id="cat-terms" class="grammar-category">
+    <h2>Grammar Terms</h2>
+${terms.map((term) => {
+    const idShort = escapeHtml(term.id);
+    const idLong = escapeHtml(slugify(term.label));
+    const aliasAnchor = idShort !== idLong
+      ? `<span id="${idLong}" class="grammar-alias-anchor" hidden></span>`
+      : '';
+    return `      <div class="grammar-value">
+        <h3 id="${idShort}" class="grammar-label">${escapeHtml(term.label)}</h3>
+        ${aliasAnchor}
+        <div class="grammar-gloss">${rewriteCrossRefs(term.gloss)}</div>
+        ${renderAgRefs(term, resolveAgRef)}
+      </div>`;
+  }).join('\n')}
+  </section>` : '';
+
   return `<nav class="grammar-toc" aria-label="Categories">
   <ul>
 ${tocItems}
   </ul>
 </nav>
 ${sections}
+${termsSection}
 `;
 }
 

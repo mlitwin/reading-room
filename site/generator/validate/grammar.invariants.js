@@ -74,4 +74,52 @@ export const grammarInvariants = [
       return violations;
     },
   },
+
+  {
+    id: 'G4',
+    description: 'Grammar terms are unique, glossed, and do not collide with value note-keys',
+    /** @param {Grammar} g */
+    check(g) {
+      /** @type {Violation[]} */
+      const violations = [];
+      const terms = Array.isArray(g.terms) ? g.terms : [];
+      if (terms.length === 0) return violations;
+
+      // Slug helper mirrors grammarNotesDict()'s key generation.
+      const slug = (s) => String(s).toLowerCase()
+        .normalize('NFKD').replace(/[̀-ͯ]/g, '')
+        .replace(/[^a-z0-9\s-]/g, '').trim().replace(/\s+/g, '-');
+
+      // Every note-key the value layer already owns (id + label slug + noteRef).
+      const valueKeys = new Set();
+      for (const cat of g.categories) {
+        for (const val of cat.values) {
+          valueKeys.add(val.id);
+          valueKeys.add(slug(val.label));
+          if (val.noteRef) valueKeys.add(val.noteRef);
+        }
+      }
+
+      const seen = new Set();
+      for (let i = 0; i < terms.length; i++) {
+        const t = terms[i];
+        if (seen.has(t.id)) {
+          violations.push({ path: `terms[${i}].id`, message: `duplicate term id "${t.id}"` });
+        }
+        seen.add(t.id);
+        if (!t.gloss || t.gloss.trim().length === 0) {
+          violations.push({ path: `terms[${i}].gloss`, message: `term "${t.id}" missing gloss` });
+        }
+        for (const key of [t.id, slug(t.label)]) {
+          if (valueKeys.has(key)) {
+            violations.push({
+              path: `terms[${i}]`,
+              message: `term note-key "${key}" collides with a category value`,
+            });
+          }
+        }
+      }
+      return violations;
+    },
+  },
 ];

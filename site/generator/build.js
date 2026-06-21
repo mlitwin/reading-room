@@ -297,6 +297,18 @@ function grammarGlossToHtml(gloss) {
 //
 // Aliases all point at the same content. `refs` is derived by scanning the
 // gloss for note:X links so transitive-closure picks up grammar↔grammar refs.
+// "Allen & Greenough: §N, §M" line for a value/term's agRefs, using the `ag:`
+// scheme so resolveAgLinks() can rewrite it per consuming page. Empty when no
+// agRefs. Appended to popover note HTML so every grammar popover deep-links to
+// the reference grammar.
+function agRefsNoteHtml(agRefs) {
+  if (!Array.isArray(agRefs) || agRefs.length === 0) return '';
+  const links = agRefs
+    .map((id) => `<a class="ag-link" href="ag:${escapeAttr(id)}">§${escapeHtml(id)}</a>`)
+    .join(', ');
+  return `<p class="grammar-agref">Allen &amp; Greenough: ${links}</p>`;
+}
+
 function grammarNotesDict(grammar) {
   if (!grammar || !Array.isArray(grammar.categories)) return {};
   const dict = {};
@@ -313,7 +325,7 @@ function grammarNotesDict(grammar) {
 
   for (const cat of grammar.categories) {
     for (const val of cat.values) {
-      const html = grammarGlossToHtml(val.gloss);
+      const html = grammarGlossToHtml(val.gloss) + agRefsNoteHtml(val.agRefs);
       const refs = [];
       const linkRe = /<button[^>]+popovertarget="note-([^"]+)"/g;
       let m;
@@ -328,6 +340,19 @@ function grammarNotesDict(grammar) {
       add(slugifyHeading(val.label), entry, entry._source);
       if (val.noteRef) add(val.noteRef, entry, entry._source);
     }
+  }
+
+  // Grammar terms (language-general vocabulary, not parse codes) — same dict
+  // shape, keyed by term id and label slug.
+  for (const term of grammar.terms ?? []) {
+    const html = grammarGlossToHtml(term.gloss) + agRefsNoteHtml(term.agRefs);
+    const refs = [];
+    const linkRe = /<button[^>]+popovertarget="note-([^"]+)"/g;
+    let m;
+    while ((m = linkRe.exec(html))) refs.push(m[1]);
+    const entry = { title: term.label, html, refs, _source: `grammar.term.${term.id}` };
+    add(term.id, entry, entry._source);
+    add(slugifyHeading(term.label), entry, entry._source);
   }
 
   if (collisions.length) {
@@ -1088,9 +1113,13 @@ export async function build() {
       // dictionary in one fetch alongside the navigation chrome. Strip the
       // internal `refs` field — only used by the generator.
       if (notesDict) {
+        // Notes are consumed (web popovers, iOS NoteSheet) relative to the
+        // book's notes page, so resolve `ag:` deep links with that page's
+        // asset prefix. Falls back to the piece's own page depth.
+        const notesPrefix = assetPrefixFor(htmlPathFor(notesLeaf ?? piece));
         nav.notes = {};
         for (const [k, n] of Object.entries(notesDict)) {
-          nav.notes[k] = { title: n.title, html: n.html };
+          nav.notes[k] = { title: n.title, html: resolveAgLinks(n.html, notesPrefix) };
         }
         if (notesLeaf) {
           nav.notes_html_path = htmlPathFor(notesLeaf);

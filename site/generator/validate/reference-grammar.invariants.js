@@ -94,25 +94,28 @@ export const referenceGrammarInvariants = [
     description: 'grammar.json agRefs resolve to reference sections',
     /**
      * @param {ReferenceGrammar} ref
-     * @param {{ grammar?: { categories: Array<{ id: string, values: Array<{ id: string, agRefs?: string[] }> }> } }} ctx
+     * @param {{ grammar?: { categories: Array<{ id: string, values: Array<{ id: string, agRefs?: string[] }> }>, terms?: Array<{ id: string, agRefs?: string[] }> } }} ctx
      */
     check(ref, ctx) {
       /** @type {Violation[]} */
       const violations = [];
       const grammar = ctx?.grammar;
       if (!grammar) return violations;
-      for (const cat of grammar.categories) {
-        for (const val of cat.values) {
-          if (!Array.isArray(val.agRefs)) continue;
-          for (const t of val.agRefs) {
-            if (!ref.sections[t]) {
-              violations.push({
-                path: `grammar.${cat.id}.${val.id}.agRefs`,
-                message: `references missing A&G section "${t}"`,
-              });
-            }
+      const checkRefs = (agRefs, path) => {
+        if (!Array.isArray(agRefs)) return;
+        for (const t of agRefs) {
+          if (!ref.sections[t]) {
+            violations.push({ path, message: `references missing A&G section "${t}"` });
           }
         }
+      };
+      for (const cat of grammar.categories) {
+        for (const val of cat.values) {
+          checkRefs(val.agRefs, `grammar.${cat.id}.${val.id}.agRefs`);
+        }
+      }
+      for (const term of grammar.terms ?? []) {
+        checkRefs(term.agRefs, `grammar.term.${term.id}.agRefs`);
       }
       return violations;
     },

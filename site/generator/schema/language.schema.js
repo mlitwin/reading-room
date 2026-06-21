@@ -20,9 +20,21 @@ export const GrammarCategorySchema = z.object({
   values: z.array(GrammarValueSchema).min(1),
 });
 
+// Grammar terms — language-general vocabulary that isn't a parse-code dimension
+// (supine, declension, principal parts, …). Glosses are short popover content;
+// agRefs deep-link to the full treatment in the reference grammar. These live at
+// the language layer (not in any per-text notes.md) so they're text-independent.
+export const GrammarTermSchema = z.object({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  gloss: z.string().min(1),
+  agRefs: z.array(z.string().regex(/^\d+$/)).optional(),
+});
+
 export const GrammarSchema = z.object({
   language_id: z.string().min(1),
   categories: z.array(GrammarCategorySchema).min(1),
+  terms: z.array(GrammarTermSchema).optional(),
 });
 
 // Paradigm cells: each cell may hold a single form or a list of alternative
