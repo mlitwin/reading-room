@@ -678,6 +678,7 @@
     if (!host.matches(':popover-open')) {
       try { host.showPopover(); } catch (_) {}
     }
+    persistState();   // keep the shareable #g= URL current as the user navigates
   }
 
   // ── context model (Plans/latin-grammar-note-navigation-plan.md, Phase A)
@@ -765,11 +766,11 @@
     renderHost();
   }
 
-  // ── A1-light reading-state restore (navigation plan, Phase C)
-  // The "Open full section ↗" excursion is a real page navigation that loses
-  // the popover. We stash the popover ReadingState in history.state before
-  // leaving, so pressing Back restores the open popover (stack + context +
-  // per-step scroll). The outer document scroll is restored by the browser.
+  // ── Shareable reading-state restore (navigation plan, Phases C + D)
+  // The popover ReadingState (stack + context + per-step scroll) is encoded in
+  // the URL hash (#g=…) so it is: shareable/bookmarkable, survives a hard
+  // reload, and — covering the "Open full section ↗" excursion — restores the
+  // open popover on Back. The outer document scroll is restored by the browser.
   var navigatingAway = false;
 
   function serializeState() {
@@ -787,14 +788,27 @@
     return { stack: clean, pos: stackPos };
   }
 
+  // UTF-8-safe base64url (labels carry §, macrons, etc.).
+  function encodeState(s) {
+    try {
+      return btoa(unescape(encodeURIComponent(JSON.stringify(s))))
+        .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    } catch (_) { return ''; }
+  }
+  function decodeState(str) {
+    try {
+      var b = str.replace(/-/g, '+').replace(/_/g, '/');
+      return JSON.parse(decodeURIComponent(escape(atob(b))));
+    } catch (_) { return null; }
+  }
+
   function persistState() {
     try {
-      var hs = history.state || {};
-      var next = {};
-      for (var k in hs) { if (k !== '__popover') next[k] = hs[k]; }
       var s = serializeState();
-      if (s) next.__popover = s;        // omitted entirely when nothing is open
-      history.replaceState(next, '');
+      var base = location.pathname + location.search;
+      var enc = s ? encodeState(s) : '';
+      var url = enc ? (base + '#g=' + enc) : base;   // strip hash when closed
+      history.replaceState(history.state, '', url);
     } catch (_) { /* history unavailable — degrade silently */ }
   }
 
@@ -808,8 +822,12 @@
   }
 
   function maybeRestore() {
-    var s = history.state && history.state.__popover;
-    if (s) restoreState(s);
+    if (stackPos >= 0) return;
+    var m = (location.hash || '').match(/(?:^#|&)g=([^&]+)/);
+    if (m) {
+      var s = decodeState(m[1]);
+      if (s) restoreState(s);
+    }
   }
 
   // Open an A&G section in-flow (push a `ref` entry). When the reference notes
@@ -932,9 +950,11 @@
     }
   }, true);
 
-  // Restore the popover after a Back navigation returns to this page.
+  // Restore the popover after a Back navigation returns to this page, from a
+  // shared/bookmarked #g= link, or when the hash is pasted in.
   window.addEventListener('pageshow', maybeRestore);
   window.addEventListener('popstate', maybeRestore);
+  window.addEventListener('hashchange', maybeRestore);
 
   // Pre-fetch the lexicon and grammar as soon as the page has Latin tokens,
   // so the first click is instant rather than waiting for a cold network
