@@ -518,7 +518,22 @@
     if (rd && rd.referenceNotes) { referenceNotesCache = rd.referenceNotes; return Promise.resolve(referenceNotesCache); }
     if (window.__readingRoomReferenceNotes) { referenceNotesCache = window.__readingRoomReferenceNotes; return Promise.resolve(referenceNotesCache); }
     if (referenceNotesLoading) return referenceNotesLoading;
-    if (window.location.protocol === 'file:') return Promise.resolve(null);
+    if (window.location.protocol === 'file:') {
+      // iOS (WKWebView can't fetch file://). Ask the native layer to read the
+      // synced asset and inject window.__readingRoomReferenceNotes on demand,
+      // then resolve. No data is loaded until the first ag: tap.
+      var mh = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.refnotes;
+      if (!mh) return Promise.resolve(null);
+      referenceNotesLoading = new Promise(function (resolve) {
+        window.__resolveReferenceNotes = function () {
+          referenceNotesCache = window.__readingRoomReferenceNotes || null;
+          referenceNotesLoading = null;
+          resolve(referenceNotesCache);
+        };
+        mh.postMessage({});
+      });
+      return referenceNotesLoading;
+    }
     var meta = document.querySelector('meta[name="asset-prefix"]');
     var prefix = meta ? meta.content : './';
     referenceNotesLoading = fetch(prefix + 'assets/latin-reference-notes.json')
@@ -692,7 +707,11 @@
   // navigating the supplied href so the link still works.
   function openRef(id, fallbackHref) {
     if (!id) return;
-    if (!referenceNotesAvailable() && window.location.protocol === 'file:') {
+    // file:// (iOS): only fall back to navigation when there's no way to load
+    // the reference notes in-flow (no cache, no injected global, no native
+    // bridge). With the bridge present, push the ref entry and let it load.
+    var hasBridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.refnotes;
+    if (!referenceNotesAvailable() && !hasBridge && window.location.protocol === 'file:') {
       if (fallbackHref) window.location.href = fallbackHref;
       return;
     }

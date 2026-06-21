@@ -406,6 +406,10 @@ struct PieceWebView: UIViewRepresentable {
         ))
         userContent.add(context.coordinator, name: "popover")
         userContent.add(context.coordinator, name: "note")
+        // On-demand source for the in-flow A&G reference notes: cards.js posts
+        // here on the first ag: tap; we read the synced asset and inject it,
+        // then resolve. Avoids a 2.4 MB always-on global at page load.
+        userContent.add(context.coordinator, name: "refnotes")
 
         let config = WKWebViewConfiguration()
         config.userContentController = userContent
@@ -448,9 +452,25 @@ struct PieceWebView: UIViewRepresentable {
                 if let key = body["key"] as? String {
                     DispatchQueue.main.async { self.parent.state.openNoteKey = key }
                 }
+            case "refnotes":
+                provideReferenceNotes(to: message.webView)
             default:
                 break
             }
+        }
+
+        // Read the synced reference-notes asset from the mirror (FileManager —
+        // WKWebView can't fetch file://), inject it as a JS global, and resolve
+        // the pending cards.js promise. Loaded only on the first ag: tap.
+        private func provideReferenceNotes(to webView: WKWebView?) {
+            let url = parent.mirrorRoot.appendingPathComponent("assets/latin-reference-notes.json")
+            let resolve = "if (window.__resolveReferenceNotes) window.__resolveReferenceNotes();"
+            var js = resolve
+            if let data = try? Data(contentsOf: url),
+               let json = String(data: data, encoding: .utf8) {
+                js = "window.__readingRoomReferenceNotes = (\(json)).notes; " + resolve
+            }
+            DispatchQueue.main.async { webView?.evaluateJavaScript(js) }
         }
 
         func webView(

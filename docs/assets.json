@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T16:50:40.387Z",
+  "generated_at": "2026-06-21T17:16:38.451Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -263,12 +263,12 @@
     },
     {
       "path": "assets/cards.js",
-      "sha256": "128d96ef1cf7d1233b15d1cb86b6bdf21d38b15df63cd8878179e7a70563663c",
-      "size": 35972
+      "sha256": "bffbe34854475f6cfe42b7de5b818c3b05e2fca11dd2db0eb9ec2ba3cd366f36",
+      "size": 37039
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "d5e8a87ec0fce06ab8793a602b097a38609e1e98d0bce901565d3878a86e1cde",
+      "sha256": "d138f90609be694b4497899019155ce04d7f7c84e166041582ca9bdeb9113966",
       "size": 920395
     },
     {
@@ -588,7 +588,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "410ea2ae5664a43589d2c8020d06708141776b985a639f9f62e1620fbaa6a6d4",
+      "sha256": "ee3147a44d4c7009c4d2619a8d891fc54b97ec6fee9906e594f2bcda2a7ea75a",
       "size": 9714166
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "3f4964b128dc9eee49b7bf389ddd339cac3b6a6443fbab69627261931d11b304",
+      "sha256": "21c0a3986621e10279b49664696fbc21afba0bd19c5e105a684a143f54dea32c",
       "size": 2476366
     },
     {
@@ -628,12 +628,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "27e23a7d4fafe5b0905a5f399ce29456dfaccddc5edf1ec5e5bda2ddaac4201c",
+      "sha256": "14405d32b38f2d4a3931ba80acf366bfd2c708a82980762e6dfa507fa618150d",
       "size": 10651256
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "444aa0edfa35ec404a166cffcd47feb87007ccf6ce59346beb9c616fc4bb2e3a",
+      "sha256": "8da55fe2d6531cb15520da1a76361adaf1473e50fa7bcb64539f41a9485dc125",
       "size": 10651230
     },
     {
@@ -823,7 +823,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "2db92bf7ba464a85db92d110203bd6cfd54bc4b7ccdf6b761bf78432acc30daf",
+      "sha256": "38b636395a2027aa145f5264aef0c3b1926864bb44ab0e27e06c06421e19e267",
       "size": 27394
     },
     {
