@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T20:35:26.145Z",
+  "generated_at": "2026-06-21T20:52:20.935Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -262,13 +262,18 @@
       "size": 7747
     },
     {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
       "path": "assets/cards.js",
       "sha256": "53917d800fc4ca58c95e7c17159826db847b3e502083acd40f3e87668e10dd2c",
       "size": 43336
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "110b58048f15a5c85398b83f5befff82e4703f98c8d9453c6a1f710a0f317f55",
+      "sha256": "5cc9bac1ace6bd286bbd2857e5015bf4a9a5dd243de5267e472c79a0c7f2a185",
       "size": 920395
     },
     {
@@ -588,7 +593,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "e4719660a350bf107d62d177ce32a41af1f920e943268c9558db002609b6625f",
+      "sha256": "51b446c772bdd2a0659382da071fefd6d1b24507c8f3e100a9b9359203925765",
       "size": 9714166
     },
     {
@@ -603,7 +608,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "1740ec236b413b389762111089b9269a1350bcda574888005759fe5210cb1515",
+      "sha256": "fe9a6520589d4d998685fc7e6dfe505d7065e3ff8a504408ea4eca1505636e4d",
       "size": 2476366
     },
     {
@@ -628,12 +633,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "1ae0ff10fd1a8296f1841a9cf0971c83a35a5e9e6c03485cb48a91be45062441",
+      "sha256": "c8495254bf3c082384f2c8c89d419b99c589a8decaec33cec8a6ddfd611585ce",
       "size": 10651256
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "3e297ec33976590858e8c815123d48c89233a199a14df7579e92507f13f05d2a",
+      "sha256": "79c7fc3083f976d2b4ae888fb9997d05b928966ca9f92f0999f2ade19ae3f867",
       "size": 10651230
     },
     {
@@ -823,7 +828,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "01d4cb0784181fffc12357f4e08bf5eea63c4e4a2f5f204b1065cb371ddf9d34",
+      "sha256": "b71503e6d2f9263a3de66fac84b37b81252da5dc0603a33058e7e19aa2d66938",
       "size": 27394
     },
     {

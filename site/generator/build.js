@@ -929,6 +929,13 @@ export async function build() {
   await fs.rm(DOCS_DIR, { recursive: true, force: true });
   await fs.mkdir(path.join(DOCS_DIR, 'assets'), { recursive: true });
 
+  // GitHub Pages runs Jekyll by default, which silently drops files and
+  // directories whose names start with "_" — that would 404 the entire
+  // `_language/` tree (grammar + reference pages) on the live site. An empty
+  // .nojekyll disables Jekyll so every file is served verbatim. The build
+  // wipes docs/ each run, so this must be re-emitted here.
+  await fs.writeFile(path.join(DOCS_DIR, '.nojekyll'), '');
+
   for (const entry of await fs.readdir(READER_DIR, { withFileTypes: true })) {
     if (entry.isFile()) {
       await fs.copyFile(path.join(READER_DIR, entry.name), path.join(DOCS_DIR, 'assets', entry.name));
