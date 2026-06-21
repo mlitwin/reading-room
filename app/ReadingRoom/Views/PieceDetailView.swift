@@ -80,10 +80,21 @@ struct PieceDetailView: View {
                 }
 
                 if let errorMessage = state.errorMessage {
-                    VStack(spacing: 8) {
+                    VStack(spacing: 10) {
                         Text("Couldn't load page").font(.headline)
                         Text(errorMessage).font(.caption).foregroundStyle(.secondary)
                             .multilineTextAlignment(.center)
+                        HStack(spacing: 12) {
+                            if state.webViewCanGoBack {
+                                Button("Back") {
+                                    state.errorMessage = nil
+                                    state.webView?.goBack()
+                                }
+                            }
+                            Button("Dismiss") { state.errorMessage = nil }
+                                .buttonStyle(.borderedProminent)
+                        }
+                        .padding(.top, 2)
                     }
                     .padding()
                     .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 12))
@@ -517,6 +528,7 @@ struct PieceWebView: UIViewRepresentable {
         func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
             parent.state.isLoading = true
             parent.state.isPopoverOpen = false
+            parent.state.errorMessage = nil   // clear a prior error when navigating
         }
 
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
