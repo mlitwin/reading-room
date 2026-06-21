@@ -11,6 +11,7 @@ import { buildGlossary } from './build-glossary.js';
 import { buildConcordance } from './build-concordance.js';
 import { buildGrammarPage } from './build-grammar-page.js';
 import { buildReferenceGrammar, planPages as planReferencePages } from './build-reference-grammar.js';
+import { emitReferenceNotes } from './build-reference-notes.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -138,15 +139,18 @@ const escapeAttr = escapeHtml;
 // they appear (piece text, editorial note bodies, note popovers).
 let _agSecToPage = null;
 
-// Rewrite `<a href="ag:N">` links to deep links into the reference grammar,
-// relative to the consuming page's assetPrefix. Editorial mistakes (a section
-// number that doesn't exist) throw, matching the strictness of `note:` refs.
+// Rewrite `<a href="ag:N">` links to reference-grammar links. The emitted
+// anchor carries BOTH `data-ag="N"` (the in-flow hook: cards.js intercepts it
+// to open §N inside the popover stack) and a resolved `href` (graceful
+// fallback — direct navigation when JS is off, and the path the iOS note layer
+// follows until it too intercepts data-ag). Editorial mistakes throw, matching
+// the strictness of `note:` refs. See Plans/latin-grammar-inline-flow-plan.md.
 function resolveAgLinks(html, assetPrefix) {
   if (!_agSecToPage) return html;
   return html.replace(/href="ag:(\d+)"/g, (_, n) => {
     const slug = _agSecToPage.get(String(n));
     if (!slug) throw new Error(`undefined A&G reference "ag:${n}" (no such section)`);
-    return `class="ag-link" href="${assetPrefix}_language/latin/reference/${slug}.html#sec-${n}"`;
+    return `class="ag-link" data-ag="${n}" href="${assetPrefix}_language/latin/reference/${slug}.html#sec-${n}"`;
   });
 }
 
@@ -303,8 +307,9 @@ function grammarGlossToHtml(gloss) {
 // the reference grammar.
 function agRefsNoteHtml(agRefs) {
   if (!Array.isArray(agRefs) || agRefs.length === 0) return '';
+  // Emit the bare `ag:` scheme; resolveAgLinks() adds class + data-ag + href.
   const links = agRefs
-    .map((id) => `<a class="ag-link" href="ag:${escapeAttr(id)}">§${escapeHtml(id)}</a>`)
+    .map((id) => `<a href="ag:${escapeAttr(id)}">§${escapeHtml(id)}</a>`)
     .join(', ');
   return `<p class="grammar-agref">Allen &amp; Greenough: ${links}</p>`;
 }
@@ -1028,6 +1033,14 @@ export async function build() {
       pageTpl,
     });
     console.log(`  reference grammar: ${pageCount} section pages`);
+
+    // Language-level reference-NOTES artifact for the in-flow popover/sheet.
+    const { count: refNoteCount } = await emitReferenceNotes({
+      referenceGrammar,
+      languageId: 'latin',
+      docsDir: DOCS_DIR,
+    });
+    console.log(`  reference notes: ${refNoteCount} popover sections`);
     indexEntries.push({
       slug: '_language/latin/reference',
       title: 'Latin Reference Grammar',

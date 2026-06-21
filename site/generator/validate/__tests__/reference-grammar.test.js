@@ -66,3 +66,18 @@ test('R5 is a no-op without grammar context', () => {
   const report = runSuite('reference', referenceGrammarInvariants, okRef, {});
   assert.equal(report.invariants.find((x) => x.id === 'R5').passed, true);
 });
+
+test('R6 catches a reference-note ref with no matching note', () => {
+  const r = structuredClone(okRef);
+  r.sections['419'].xrefs.push('777'); // derived note inherits this dangling ref
+  const report = runSuite('reference', referenceGrammarInvariants, r);
+  assert.equal(report.invariants.find((x) => x.id === 'R6').passed, false);
+});
+
+test('R7 catches an in-flow data-ag with no matching note', () => {
+  const r = structuredClone(okRef);
+  // A cross-ref to a non-existent section becomes a dangling data-ag in-flow.
+  r.sections['420'].html = '<p>see <a class="ag-ref" href="#sec-888">888</a></p>';
+  const report = runSuite('reference', referenceGrammarInvariants, r);
+  assert.equal(report.invariants.find((x) => x.id === 'R7').passed, false);
+});

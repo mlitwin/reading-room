@@ -504,6 +504,36 @@
     return lexiconLoading;
   }
 
+  // ── reference-notes loading (A&G sections, rendered in-flow in the popover)
+  // Language-level artifact, shared across texts. On https we fetch it lazily
+  // on the first `ag:` tap; on file:// (iOS) the native note layer serves these
+  // (Phase 2) — until then openRef() falls back to navigation, so we never
+  // fetch here. Cache holds the { id -> note } map (doc.notes).
+  var referenceNotesCache = null;
+  var referenceNotesLoading = null;
+
+  function getReferenceNotes() {
+    if (referenceNotesCache) return Promise.resolve(referenceNotesCache);
+    var rd = window.__readingRoomData;
+    if (rd && rd.referenceNotes) { referenceNotesCache = rd.referenceNotes; return Promise.resolve(referenceNotesCache); }
+    if (window.__readingRoomReferenceNotes) { referenceNotesCache = window.__readingRoomReferenceNotes; return Promise.resolve(referenceNotesCache); }
+    if (referenceNotesLoading) return referenceNotesLoading;
+    if (window.location.protocol === 'file:') return Promise.resolve(null);
+    var meta = document.querySelector('meta[name="asset-prefix"]');
+    var prefix = meta ? meta.content : './';
+    referenceNotesLoading = fetch(prefix + 'assets/latin-reference-notes.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (doc) { referenceNotesCache = doc ? doc.notes : null; referenceNotesLoading = null; return referenceNotesCache; })
+      .catch(function () { referenceNotesLoading = null; return null; });
+    return referenceNotesLoading;
+  }
+
+  function referenceNotesAvailable() {
+    return Boolean(referenceNotesCache
+      || window.__readingRoomReferenceNotes
+      || (window.__readingRoomData && window.__readingRoomData.referenceNotes));
+  }
+
   // ── data-matches parsing
   function parseMatches(s) {
     if (!s) return [];
@@ -586,6 +616,21 @@
           }
         });
       }
+    } else if (entry.type === 'ref') {
+      body.className = 'popover-body note-popover ref-popover';
+      var note = referenceNotesCache && referenceNotesCache[entry.id];
+      if (note) {
+        if (note.title) entry.label = '§' + entry.id + ' · ' + note.title;
+        body.innerHTML = note.html;
+      } else if (!entry._loadTriggered) {
+        entry._loadTriggered = true;
+        body.innerHTML = '<p class="card-loading">Loading…</p>';
+        getReferenceNotes().then(function () {
+          if (stackPos >= 0 && stack[stackPos] === entry) renderHost();
+        });
+      } else {
+        body.innerHTML = '<p class="card-loading">Section unavailable.</p>';
+      }
     } else {
       var source = document.getElementById(entry.sourceId);
       if (!source) return;
@@ -622,7 +667,9 @@
     var isDupe = current && current.type === entry.type &&
       (entry.type === 'card'
         ? current.lemma === entry.lemma && current.matches === entry.matches
-        : current.sourceId === entry.sourceId);
+        : entry.type === 'ref'
+          ? current.id === entry.id
+          : current.sourceId === entry.sourceId);
     if (isDupe) {
       var h = document.getElementById('popover-host');
       if (h && !h.matches(':popover-open')) renderHost();
@@ -640,6 +687,21 @@
     renderHost();
   }
 
+  // Open an A&G section in-flow (push a `ref` entry). When the reference notes
+  // aren't reachable in this context (iOS file:// before Phase 2), fall back to
+  // navigating the supplied href so the link still works.
+  function openRef(id, fallbackHref) {
+    if (!id) return;
+    if (!referenceNotesAvailable() && window.location.protocol === 'file:') {
+      if (fallbackHref) window.location.href = fallbackHref;
+      return;
+    }
+    var label = '§' + id;
+    var note = referenceNotesCache && referenceNotesCache[id];
+    if (note && note.title) label = '§' + id + ' · ' + note.title;
+    pushEntry({ type: 'ref', id: id, label: label });
+  }
+
   // ── click handler
   document.addEventListener('click', function (e) {
     var host = document.getElementById('popover-host');
@@ -653,6 +715,22 @@
     }
     if (e.target.closest('.popover-prev')) { e.preventDefault(); navigateTo(stackPos - 1); return; }
     if (e.target.closest('.popover-next')) { e.preventDefault(); navigateTo(stackPos + 1); return; }
+
+    // In-flow A&G reference: open §N inside the stack instead of navigating.
+    var agEl = e.target.closest('#popover-host [data-ag]');
+    if (agEl) { e.preventDefault(); openRef(agEl.getAttribute('data-ag'), agEl.getAttribute('href')); return; }
+
+    // "Open full section ↗": the deliberate navigate-away to the standalone
+    // reference page. data-full is docroot-relative; prepend the asset prefix.
+    var fullEl = e.target.closest('#popover-host [data-full]');
+    if (fullEl) {
+      e.preventDefault();
+      var fm = document.querySelector('meta[name="asset-prefix"]');
+      var fp = fm ? fm.content : './';
+      try { host.hidePopover(); } catch (_) {}
+      window.location.href = fp + fullEl.getAttribute('data-full');
+      return;
+    }
 
     var anchor = e.target.closest('#popover-host a[href]');
     if (anchor) { try { host.hidePopover(); } catch (_) {} return; }

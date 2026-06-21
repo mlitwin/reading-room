@@ -3,6 +3,8 @@
 // Validates content/_language/latin/reference-grammar.json (Allen & Greenough,
 // extracted by site/latin/ingest_ag.py) and the agRefs bridge from grammar.json.
 
+import { buildReferenceNotes } from '../build-reference-notes.js';
+
 /** @typedef {import('../schema/reference-grammar.schema.js').ReferenceGrammar} ReferenceGrammar */
 /** @typedef {import('./runner.js').Violation} Violation */
 /** @typedef {import('./runner.js').Invariant} Invariant */
@@ -116,6 +118,46 @@ export const referenceGrammarInvariants = [
       }
       for (const term of grammar.terms ?? []) {
         checkRefs(term.agRefs, `grammar.term.${term.id}.agRefs`);
+      }
+      return violations;
+    },
+  },
+
+  {
+    id: 'R6',
+    description: 'Reference-notes refs resolve to a reference note',
+    /** @param {ReferenceGrammar} ref */
+    check(ref) {
+      /** @type {Violation[]} */
+      const violations = [];
+      const { notes } = buildReferenceNotes(ref);
+      for (const note of Object.values(notes)) {
+        for (const t of note.refs) {
+          if (!notes[t]) {
+            violations.push({ path: `notes["${note.id}"].refs`, message: `dangling ref to "${t}"` });
+          }
+        }
+      }
+      return violations;
+    },
+  },
+
+  {
+    id: 'R7',
+    description: 'Every in-flow data-ag in reference-notes HTML resolves to a note',
+    /** @param {ReferenceGrammar} ref */
+    check(ref) {
+      /** @type {Violation[]} */
+      const violations = [];
+      const { notes } = buildReferenceNotes(ref);
+      const re = /data-ag="(\d+)"/g;
+      for (const note of Object.values(notes)) {
+        let m;
+        while ((m = re.exec(note.html))) {
+          if (!notes[m[1]]) {
+            violations.push({ path: `notes["${note.id}"].html`, message: `data-ag="${m[1]}" has no note` });
+          }
+        }
       }
       return violations;
     },

@@ -73,3 +73,17 @@
   white-space: nowrap;
   text-decoration-style: dotted;
 }
+
+/* In-flow A&G references inside the popover stack (Phase 1). The §N controls
+   and cross-refs drill within the popover; "Open full section ↗" exits to the
+   standalone page. */
+.popover-body .ag-link,
+.popover-body [data-ag],
+.popover-body [data-full] { cursor: pointer; }
+.ref-popover .ag-fullpage {
+  margin-top: 1.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--rule);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85rem;
+}

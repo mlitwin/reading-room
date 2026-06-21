@@ -35,6 +35,7 @@ export function planPages(ref) {
   for (const part of ref.parts) {
     for (const id of part.sections) {
       const sec = ref.sections[id];
+      if (!sec) continue; // a part may reference a missing id; R2 flags it
       const path = sec.path || [];
       const topical = path[1] || path[0] || part.label;
       const key = `${part.id}::${topical}`;
