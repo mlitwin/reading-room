@@ -7,6 +7,11 @@ final class BookViewState {
     var webView: WKWebView?
     var currentPath: String?
     var isLoading: Bool = true
+    // True when the in-page WebView has back history — e.g. after the popover's
+    // "Open full section ↗" excursion to a reference page. Drives the native
+    // Back control so the reader can return (cards.js then restores the popover
+    // from the #g= reading-state in the URL). See the navigation plan, Phase E.
+    var webViewCanGoBack: Bool = false
     var errorMessage: String?
     var nav: BookNav?
     /// Non-nil while a note popover is open. The presented sheet binds to this.
@@ -103,6 +108,21 @@ struct PieceDetailView: View {
         }
         .navigationTitle(piece.title)
         .navigationBarTitleDisplayMode(.inline)
+        // Return from an in-WebView excursion (the popover's "Open full section
+        // ↗" jump to a reference page). Distinct from the system back-to-library
+        // button; appears only when the WebView has its own history. On return,
+        // cards.js restores the popover from the #g= reading-state.
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                if state.webViewCanGoBack {
+                    Button {
+                        state.webView?.goBack()
+                    } label: {
+                        Label("Back to reading", systemImage: "arrow.uturn.backward")
+                    }
+                }
+            }
+        }
         // Swipe gesture for book navigation. .simultaneousGesture so we
         // don't fight WebView scroll / selection / math-block horizontal
         // scroll. 60-pt threshold + horizontal-dominance check avoids
@@ -502,6 +522,7 @@ struct PieceWebView: UIViewRepresentable {
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
             parent.state.isLoading = false
             parent.state.errorMessage = nil
+            parent.state.webViewCanGoBack = webView.canGoBack
             updateCurrentPath(webView: webView)
         }
 
