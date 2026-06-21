@@ -1107,6 +1107,26 @@ export async function build() {
       // popovers. Optional — books with no vocabulary/ directory get null.
       const vocabDict = await loadVocabulary(path.dirname(piece.absPath));
 
+      // Entry-point audit (Plans/latin-grammar-inline-flow-plan.md, Phase 3):
+      // per-text editorial notes that read as language-general grammar
+      // definitions (no passage-specific reference — line/section numbers, a
+      // date) belong in the shared grammar (grammar.json terms), not in a
+      // text's notes.md. Advisory only; scoped to texts that actually use the
+      // Latin grammar (i.e., contain Latin-passage spans), since only those are
+      // backed by grammar.json. (loadVocabulary returns the shared lexicon for
+      // every piece, so it can't be the scoping signal.)
+      const usesLatin = allPages.some((n) => /data-matches=|class="latin-passage"/.test(n.content || ''));
+      if (editorialNotes && usesLatin) {
+        const candidates = [];
+        for (const [key, note] of Object.entries(editorialNotes)) {
+          const text = String(note.html || '').replace(/<[^>]+>/g, ' ');
+          if (!/\d/.test(text)) candidates.push(key); // no line/section ref
+        }
+        if (candidates.length > 0) {
+          console.warn(`${piece.slug}: ${candidates.length} note(s) look language-general (no passage reference) — consider promoting to grammar.json terms: ${candidates.slice(0, 8).join(', ')}${candidates.length > 8 ? '…' : ''}`);
+        }
+      }
+
       for (const node of allPages) {
         const here = htmlPathFor(node);
         const outFile = path.join(DOCS_DIR, ...here.split('/'));
