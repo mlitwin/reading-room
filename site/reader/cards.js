@@ -765,6 +765,53 @@
     renderHost();
   }
 
+  // ── A1-light reading-state restore (navigation plan, Phase C)
+  // The "Open full section ↗" excursion is a real page navigation that loses
+  // the popover. We stash the popover ReadingState in history.state before
+  // leaving, so pressing Back restores the open popover (stack + context +
+  // per-step scroll). The outer document scroll is restored by the browser.
+  var navigatingAway = false;
+
+  function serializeState() {
+    if (stackPos < 0 || !stack.length) return null;
+    saveScroll();
+    var clean = stack.map(function (e) {
+      return {
+        type: e.type, label: e.label, ctx: e.ctx, family: e.family,
+        scrollTop: e.scrollTop || 0,
+        lemma: e.lemma, matches: e.matches, stanzaLemma: e.stanzaLemma,
+        surface: e.surface, activeLemma: e.activeLemma,
+        id: e.id, sourceId: e.sourceId,
+      };
+    });
+    return { stack: clean, pos: stackPos };
+  }
+
+  function persistState() {
+    try {
+      var hs = history.state || {};
+      var next = {};
+      for (var k in hs) { if (k !== '__popover') next[k] = hs[k]; }
+      var s = serializeState();
+      if (s) next.__popover = s;        // omitted entirely when nothing is open
+      history.replaceState(next, '');
+    } catch (_) { /* history unavailable — degrade silently */ }
+  }
+
+  function restoreState(s) {
+    if (!s || !s.stack || !s.stack.length) return;
+    if (stackPos >= 0) return;          // already populated (e.g. bfcache)
+    stack = s.stack.slice();
+    stackPos = (typeof s.pos === 'number' && s.pos >= 0 && s.pos < stack.length)
+      ? s.pos : stack.length - 1;
+    renderHost();
+  }
+
+  function maybeRestore() {
+    var s = history.state && history.state.__popover;
+    if (s) restoreState(s);
+  }
+
   // Open an A&G section in-flow (push a `ref` entry). When the reference notes
   // aren't reachable in this context (iOS file:// before Phase 2), fall back to
   // navigating the supplied href so the link still works.
@@ -814,7 +861,11 @@
       e.preventDefault();
       var fm = document.querySelector('meta[name="asset-prefix"]');
       var fp = fm ? fm.content : './';
-      try { host.hidePopover(); } catch (_) {}
+      // Stash the popover state so Back restores it; navigate WITHOUT closing
+      // (closing would clear the state). navigatingAway tells the close handler
+      // not to wipe history.state if a close event fires during unload.
+      navigatingAway = true;
+      persistState();
       window.location.href = fp + fullEl.getAttribute('data-full');
       return;
     }
@@ -870,11 +921,20 @@
     pushEntry({ type: 'note', sourceId: targetId, label: source.dataset.label || targetId });
   });
 
-  // Reset stack on popover close.
+  // Reset stack on popover close. A normal close (× / light dismiss) also
+  // clears any stashed reading-state so a later Back doesn't reopen it; the
+  // escape-hatch close (navigatingAway) keeps the stash for restore.
   document.addEventListener('beforetoggle', function (e) {
     if (e.target.id !== 'popover-host') return;
-    if (e.newState === 'closed') { stack = []; stackPos = -1; }
+    if (e.newState === 'closed') {
+      stack = []; stackPos = -1;
+      if (!navigatingAway) persistState();   // serializes null → clears stash
+    }
   }, true);
+
+  // Restore the popover after a Back navigation returns to this page.
+  window.addEventListener('pageshow', maybeRestore);
+  window.addEventListener('popstate', maybeRestore);
 
   // Pre-fetch the lexicon and grammar as soon as the page has Latin tokens,
   // so the first click is instant rather than waiting for a cold network
@@ -887,5 +947,8 @@
       if (document.querySelector('button.latin-token')) loadLexicon();
     }
   });
+  // Initial-load restore (covers Back that does a full reload; pageshow also
+  // fires, but the restoreState guard makes a double call harmless).
+  maybeRestore();
 
 })();
