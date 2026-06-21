@@ -1,10 +1,265 @@
 {
-  "generated_at": "2026-06-20T19:24:10.723Z",
+  "generated_at": "2026-06-21T04:38:02.469Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
-      "sha256": "71396a7f70cd60dde7f45fe5932c68663f1ef17dee1585eac4e741afe6d944fa",
-      "size": 22186
+      "sha256": "dbf8223e9a9185d410b62e85d5382d28206220997d177b3d812f10826e458930",
+      "size": 27032
+    },
+    {
+      "path": "_language/latin/reference/01-the-alphabet.html",
+      "sha256": "2391ee36eb0a0d3c33ff8f3e6785d377e8bb745cf638be93fc540ca2f0f0b267",
+      "size": 12209
+    },
+    {
+      "path": "_language/latin/reference/02-orthography.html",
+      "sha256": "04535e0c4bcfd5701dd5a7aec775e1f6fc8a37952f4a8b13bc35555e02eb1f62",
+      "size": 41349
+    },
+    {
+      "path": "_language/latin/reference/03-the-parts-of-speech.html",
+      "sha256": "3c153b7aaf7aacaf4723a409696bbf7f8e0996af0481086e42b25efb654f6b2c",
+      "size": 6743
+    },
+    {
+      "path": "_language/latin/reference/04-inflection.html",
+      "sha256": "16f9b62e9adff1eb61e8f99fec41bef2e7eb6b10428a9d3403456d238854f010",
+      "size": 12187
+    },
+    {
+      "path": "_language/latin/reference/05-gender.html",
+      "sha256": "7724069e7df3b5a0d4c7f62e4e9e96db90edda5f641395538c7c8f10801855b3",
+      "size": 9577
+    },
+    {
+      "path": "_language/latin/reference/06-number-and-case.html",
+      "sha256": "d0176930b8a3ced4e89426b0c8e00fa7ec1103740864bd9b3ae7be31152d7231",
+      "size": 3552
+    },
+    {
+      "path": "_language/latin/reference/07-declension-of-nouns.html",
+      "sha256": "acf74258331ffed291fdb82ecf7098500d73fa85503520280060283a8f05e621",
+      "size": 7761
+    },
+    {
+      "path": "_language/latin/reference/08-first-declension-a-stems.html",
+      "sha256": "a54e0ece5ce81ba87ba267e699b7c6ed33fd9d27db74bc8baa337b2c1f299ec4",
+      "size": 15352
+    },
+    {
+      "path": "_language/latin/reference/09-second-declension-o-stems.html",
+      "sha256": "2a215592926267413fb9a219268f3fea2d7d1378d84b6a913f70218625aad5ca",
+      "size": 28865
+    },
+    {
+      "path": "_language/latin/reference/10-third-declension-consonant-and-i-stems.html",
+      "sha256": "ce2ede7375a1e863688a1482882e4464724322b9b1bb2a4dde36f9e6788180dd",
+      "size": 120547
+    },
+    {
+      "path": "_language/latin/reference/11-fourth-declension.html",
+      "sha256": "02ca6572e46b293f6bfae798149e11b7b1e5967c9400594b4ff74a5a620a31a4",
+      "size": 12994
+    },
+    {
+      "path": "_language/latin/reference/12-fifth-declension-e-stems.html",
+      "sha256": "1806ae6bf56035a11b89b785da9bc3dff9116a416b7ba551da1b9cfe9b13d997",
+      "size": 9143
+    },
+    {
+      "path": "_language/latin/reference/13-defective-nouns.html",
+      "sha256": "05ce257653a0e0c92f9ef46f5025cb866bc7fc84b7e4e4f338b31718a2ad66a6",
+      "size": 17883
+    },
+    {
+      "path": "_language/latin/reference/14-variable-nouns.html",
+      "sha256": "a83b259e38c469be95f57da437a2da1b0c75753804f722511fee41d27dbd75ff",
+      "size": 13891
+    },
+    {
+      "path": "_language/latin/reference/15-names-of-persons.html",
+      "sha256": "b038904a9ebe4e587463061c692ad90e5e8ec6d27f0bec9f8f3773bfbd78f109",
+      "size": 7058
+    },
+    {
+      "path": "_language/latin/reference/16-adjectives.html",
+      "sha256": "0a8fef296280707de3f435404a153c77e9bdfa4fe8b4af53b05676d66f2c342f",
+      "size": 2348
+    },
+    {
+      "path": "_language/latin/reference/17-first-and-second-declensions-a-and-o-stems.html",
+      "sha256": "238d843222f846152fc63005212990d335015a092c77e7a3144e31e655aea5f6",
+      "size": 20273
+    },
+    {
+      "path": "_language/latin/reference/18-comparison-of-adjectives.html",
+      "sha256": "b99a20b2f8bb2b8ef1c19b51891fdba16c7c99dc26b62e3481e8ca53180de811",
+      "size": 22355
+    },
+    {
+      "path": "_language/latin/reference/19-numerals.html",
+      "sha256": "373716f6494890f2f391d913a69316ce6720c727e364c7e338a7291a6b951fb2",
+      "size": 29621
+    },
+    {
+      "path": "_language/latin/reference/20-pronouns.html",
+      "sha256": "c750c8e473169730e04804df929a6660e31e11e433f5ed2fe7c0cab6480f9c06",
+      "size": 53707
+    },
+    {
+      "path": "_language/latin/reference/21-verbs-conjugation-of-the-verb.html",
+      "sha256": "d29eecec2237a624ba8b350a03ad4bb0c338b233d87b3633d12cd61136df284b",
+      "size": 4187
+    },
+    {
+      "path": "_language/latin/reference/22-signification-of-the-forms-of-the-verb.html",
+      "sha256": "993ad9da62747bce482c2b43a3d6af7ed8fd8137b3b7208f708a15cb55042811",
+      "size": 14949
+    },
+    {
+      "path": "_language/latin/reference/23-personal-endings.html",
+      "sha256": "e94f6e11ecbf79cbb536952013b2fc50b1c463bc3932f486ce8921337c2e382e",
+      "size": 9149
+    },
+    {
+      "path": "_language/latin/reference/24-forms-of-the-verb.html",
+      "sha256": "fd8a4b3d28c944ee24f7601c6d2183595741e9442a29b58d4522c966fcef981a",
+      "size": 43049
+    },
+    {
+      "path": "_language/latin/reference/25-the-four-conjugations.html",
+      "sha256": "44ef2cd1100ea69b9e8792786dc39e601831eff569a7f8a8680996156ca24992",
+      "size": 25116
+    },
+    {
+      "path": "_language/latin/reference/26-forms-of-conjugation.html",
+      "sha256": "7902675ffc88e92b38c2bba008571aa4da5c0561632734718bc5228e35b4bf7d",
+      "size": 240772
+    },
+    {
+      "path": "_language/latin/reference/27-particles.html",
+      "sha256": "11d66fa90c03a4831e11a415182edef77fe9372e276be8b8c0a817d6db626eb5",
+      "size": 78914
+    },
+    {
+      "path": "_language/latin/reference/28-conjunctions.html",
+      "sha256": "f90c8a81668cbcc49316d432b38d9d9cc014aaee96b6e8442a8bfd4681dbc327",
+      "size": 17157
+    },
+    {
+      "path": "_language/latin/reference/29-formation-of-words.html",
+      "sha256": "ff395ea8659094f1c1882fed9e46875bb7dff27ce27d98a09093408e1106b082",
+      "size": 120087
+    },
+    {
+      "path": "_language/latin/reference/30-compound-words.html",
+      "sha256": "d74264a3fc8fa4256551ce858fefa869415fe0f9061032491e07a3f40b4167eb",
+      "size": 19652
+    },
+    {
+      "path": "_language/latin/reference/31-introductory-note.html",
+      "sha256": "1a22a781071163b18829a74316dbcf1745e033238af411ddb70eced43a6a9c5a",
+      "size": 5560
+    },
+    {
+      "path": "_language/latin/reference/32-the-sentence.html",
+      "sha256": "3fdc86f161055f424c55bb53f6126e814d8a5fb69416bea4bed217bec9ce2e09",
+      "size": 28634
+    },
+    {
+      "path": "_language/latin/reference/33-agreement-of-adjectives.html",
+      "sha256": "48da022ee01edb6f7e4498245d89a61b1f72a86c42c61fe40b035ce43614949f",
+      "size": 27484
+    },
+    {
+      "path": "_language/latin/reference/34-pronouns.html",
+      "sha256": "3c117895a8dad267326465714320a0624bcac17c58fb9e400dc2d7c6b6d6dd6b",
+      "size": 83736
+    },
+    {
+      "path": "_language/latin/reference/35-verbs.html",
+      "sha256": "4dd71530db5154546193692b479fa478a6f3cade0e85c5f53bd5ac3c668bf8d2",
+      "size": 15551
+    },
+    {
+      "path": "_language/latin/reference/36-particles.html",
+      "sha256": "7a44bb34a4d1946625e6aa77ec733830135a960bbaaa918d880123aad967e836",
+      "size": 15952
+    },
+    {
+      "path": "_language/latin/reference/37-conjunctions.html",
+      "sha256": "2fa233d2aab12763263cf12792b5136145667b30e825ab171d033981bc29b27f",
+      "size": 32978
+    },
+    {
+      "path": "_language/latin/reference/38-questions.html",
+      "sha256": "335382f31892342e9b669b4f92a2c831b6a0278b1f1c274b55e30008a9adcd30",
+      "size": 21119
+    },
+    {
+      "path": "_language/latin/reference/39-construction-of-cases.html",
+      "sha256": "dbd44a78608a2de654126366241db6342d6c1b53eb796eca806d395ed0e7fd2e",
+      "size": 359261
+    },
+    {
+      "path": "_language/latin/reference/40-syntax-of-the-verb.html",
+      "sha256": "84d1facdf109672eef0855e8696ccb396a66194b8ec6083c6673175b7d78cf37",
+      "size": 432757
+    },
+    {
+      "path": "_language/latin/reference/41-substantive-clauses.html",
+      "sha256": "4c7090c031a743c6bde3ae681906ca4ac99e6447d7712d0516dbc905ff4ec117",
+      "size": 60294
+    },
+    {
+      "path": "_language/latin/reference/42-indirect-discourse.html",
+      "sha256": "716cbe760042a5d5e7f876a85606b4143f89fcb1a223dc2e920f455bf6707ace",
+      "size": 67943
+    },
+    {
+      "path": "_language/latin/reference/43-important-rules-of-syntax.html",
+      "sha256": "460a8c4f5b23b4ec1872c0ff4803d694dec9b761c1cd9710fb92979dbfc7e0f8",
+      "size": 27738
+    },
+    {
+      "path": "_language/latin/reference/44-order-of-words.html",
+      "sha256": "ff4a92b1f8f5cbde735de9ae54d24cdb2ace1e7ad0180fbeaf9bc5c7c35b2523",
+      "size": 38632
+    },
+    {
+      "path": "_language/latin/reference/45-quantity.html",
+      "sha256": "5ae11b3574bb38775a595718fd7ffcb105e70ee8fbd3740b9f4d1bd99ef3dc65",
+      "size": 29240
+    },
+    {
+      "path": "_language/latin/reference/46-rhythm.html",
+      "sha256": "4a7dd82f326a81cee08a97de68d51bc906dd220ab5d50141bd48f9d43dcfcfa9",
+      "size": 15697
+    },
+    {
+      "path": "_language/latin/reference/47-versification.html",
+      "sha256": "94745c6309fe7372ca1a6cfbd1b515d84f8639d09179ae312ec0529316be20a5",
+      "size": 6477
+    },
+    {
+      "path": "_language/latin/reference/48-forms-of-verse.html",
+      "sha256": "c8ee4e64747f9926b48c732f8dbab5d7e0b9affbdbdae8cd166c0f6fd493cdfd",
+      "size": 55531
+    },
+    {
+      "path": "_language/latin/reference/49-miscellaneous.html",
+      "sha256": "44217d14fd2719f8f8a66af1de524d66c7ae5dbc536d42d1809402cae9202ac7",
+      "size": 19825
+    },
+    {
+      "path": "_language/latin/reference/50-glossary-of-terms-used-in-grammar-rhetoric-and-prosody.html",
+      "sha256": "1f9d130d5546411fcf9768a10c352bc80fba1abed0767696df042f7ef5eb4c0b",
+      "size": 18347
+    },
+    {
+      "path": "_language/latin/reference/index.html",
+      "sha256": "7c03950032848788a309494280f62e7ed3167724f5d97f1029d6b7b408118296",
+      "size": 7747
     },
     {
       "path": "assets/cards.js",
@@ -13,7 +268,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "534da37e6846fd91fe715d839657a6ef299cd2ec466fcfd7bde1e6edc5ccc7c9",
+      "sha256": "b9a087a553bb42baff314d05b9fdc37e846a8bf220c959fbb003ca158996f3a9",
       "size": 920395
     },
     {
@@ -333,18 +588,18 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "43be891a8d96ffed58a3d635140e6e107b6155b8f0b161074f9ff2bd97828c90",
+      "sha256": "efdad35e845225d90369269bfbcf1ee55a29a941bdf4e47e0a3405c93b5a6b42",
       "size": 9714166
     },
     {
       "path": "assets/latin-grammar.js",
-      "sha256": "58a73cdc3fab5e29ba4e8b9f7eb1c4abc92ae9e8b1c92621b1c71cdf6729e326",
-      "size": 12679
+      "sha256": "3626ef8deb5ddd5f726aff14eb3ec5c479462183314aeb77307695b4d4fcb831",
+      "size": 13285
     },
     {
       "path": "assets/latin-grammar.json",
-      "sha256": "b583a6b86dd1f824ad092ad73f51f024b18a1c7d28623867d4062592446bda6e",
-      "size": 12650
+      "sha256": "fcd87de26c20b5d88b00bfeb02e1478257879dfb1c94bb3158e3b429ccc04eff",
+      "size": 13256
     },
     {
       "path": "assets/lexicon.js",
@@ -363,18 +618,18 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "b88f2627de5a87c7b0415dd09f6b99320276ddf36f51697bfc45663f0d87162f",
-      "size": 30142
+      "sha256": "f4b359e9db1fbab8f4e00e00b67ba8cd5a9324744a99263f6565cfcfb4fcd45e",
+      "size": 32614
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "c00283f9919f0504ff3bc1463894169b3054556f810166ee16106822f342a3bd",
-      "size": 10647298
+      "sha256": "381b330dfca4b0e2b95985a9d99378ee4105198dc530e2ad365166de52d2049f",
+      "size": 10647904
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "9745d0e1828789751491c567ab8218082e43b9e646f2cdb5d609f1850c9950e4",
-      "size": 10647272
+      "sha256": "9256ec21c731fa0ec0b064c109d1571a1fc5b5d9126868528c6b8806a6cb2d97",
+      "size": 10647878
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
@@ -558,13 +813,13 @@
     },
     {
       "path": "index.html",
-      "sha256": "dd60b302167beb87b14374e6ec3c8cc9c0e934a269b25e230ef644a16713baba",
-      "size": 4588
+      "sha256": "edaf18d0b64c015c9c97716a340a967cf5354f2031ae3ef2d6c2fb914ec6c8d2",
+      "size": 5014
     },
     {
       "path": "index.json",
-      "sha256": "ea27146ecd3d688a61b950b3310cb4f6b1a14211b4bb5182eca678f40fa66a67",
-      "size": 26967
+      "sha256": "e967893181efd216f39a148b1f8f97ff62b53c2c8fd42dd7232d521ae6d70373",
+      "size": 27394
     },
     {
       "path": "notes-on-sorting/algorithms/index.html",
@@ -608,143 +863,143 @@
     },
     {
       "path": "ovid-metamorphoses/book1-01.html",
-      "sha256": "f1787e7906d781abc239c59231c5acda27ef5c65ea5e4145a1d4d3f2bb37500a",
-      "size": 67475
+      "sha256": "3333801a3d902f19b6b9b9f7329a2f572ff15bf1160afa6513f223718ebb1148",
+      "size": 68013
     },
     {
       "path": "ovid-metamorphoses/book1-02.html",
-      "sha256": "dafbe00cc44247c3a0b9e5b47d8f54b4c4fc47b02dc1e32c469d188c330296d7",
-      "size": 72287
+      "sha256": "c29672ae095c234ebea05cc0d07d680a721ee8458d43d8f46fde298eb3f4115e",
+      "size": 72825
     },
     {
       "path": "ovid-metamorphoses/book1-03.html",
-      "sha256": "238b0a24198551b20498351f8a1244401b9ad63e4b48ec6b3422aa6499ea1a8b",
-      "size": 76685
+      "sha256": "e144ea8cbfa5d11809a9a7bf8bf0eda8b9537ba44035fe08c301344d5a2c5b54",
+      "size": 77223
     },
     {
       "path": "ovid-metamorphoses/book1-04.html",
-      "sha256": "495654af5d86b87f27c6ab382cc5bd2178eff3c52627f026a5c5ab186beb4f5a",
-      "size": 78371
+      "sha256": "ecb34e2aab6aaee0cdf7161b70cc504aa1fa08d5ac2e69222633648691a03cc5",
+      "size": 78909
     },
     {
       "path": "ovid-metamorphoses/book1-05.html",
-      "sha256": "97a6a90e51257601216573bfaead9a228d20b4a467689e22f115ea6f74df2ec3",
-      "size": 76302
+      "sha256": "520d1dcd56b007d678ebac0eea84c342195b65dd8c2b3994f9525f63b3576e31",
+      "size": 76840
     },
     {
       "path": "ovid-metamorphoses/book1-06.html",
-      "sha256": "a1048790a86ce1300130386ec100bc727322d25c99092243cc17ae23323b6674",
-      "size": 69613
+      "sha256": "12c6720111ce9904b8a16a7e5a8a2d24005237cf10fb113b11354762311b19f3",
+      "size": 70151
     },
     {
       "path": "ovid-metamorphoses/book1-07.html",
-      "sha256": "e6ddae74ae376db2101a1e06a7b9164c3bd4605b64f70c4de7cfd8a38d857976",
-      "size": 78385
+      "sha256": "9ce8e601c1b64227e0481aafa6638a161b1eefeba05c36e8bfa0672033fa9975",
+      "size": 78923
     },
     {
       "path": "ovid-metamorphoses/book1-08.html",
-      "sha256": "bd0251f41512144b52569e633c946279f73be3531670c2c7b8c7ae6798d36208",
-      "size": 74737
+      "sha256": "1ed4680fca108af0efa08a143ff8546627f61ea923e3c28923912ba0841cb99c",
+      "size": 75275
     },
     {
       "path": "ovid-metamorphoses/book1-09.html",
-      "sha256": "f4ac1b86f0d8ea294e954e27c20959f5c9a502ac4b73c7a3819979973b04dddd",
-      "size": 77893
+      "sha256": "e0e371ef6737b9b3a948b1892ad41094f1559304186d7d61781cff5659fc2ab2",
+      "size": 78431
     },
     {
       "path": "ovid-metamorphoses/book1-10.html",
-      "sha256": "55d8e9c8a5e7b5f2a2da0f08dbe67f14560d9c182e340f06b5bb438178b8d36f",
-      "size": 70805
+      "sha256": "3625cf9dd15f28692c1969654e65b669a4781e761caf24165ee11f0cd3dea45a",
+      "size": 71343
     },
     {
       "path": "ovid-metamorphoses/book1-11.html",
-      "sha256": "f9705c96267915bb48e8dd827654444d47aff366cdfac2cca666eaab58f807f0",
-      "size": 77320
+      "sha256": "4686eb724cf2fcd77795e775e8b7b7830b19fc97ebc93bd87425a039ae2225c4",
+      "size": 77858
     },
     {
       "path": "ovid-metamorphoses/book1-12.html",
-      "sha256": "59a94b9fa4e342cc733e5386352b0dd084d8794c2384e9822d1b77a65053f4ca",
-      "size": 72802
+      "sha256": "11a65433398dbbeff11b5ef7b9814cab74d6dd08065f801b15c6c74eec286188",
+      "size": 73340
     },
     {
       "path": "ovid-metamorphoses/book1-13.html",
-      "sha256": "f570010c964c92b02eab3aec4554c001f37017041f06b7d7ca6a92b28ab2b259",
-      "size": 77250
+      "sha256": "aba25f177e391a8b8e4404a65f62e9da38e1f6036a95ba71e31290f65a560158",
+      "size": 77788
     },
     {
       "path": "ovid-metamorphoses/book1-14.html",
-      "sha256": "e87d31269385b4451cc130b057e68bede9be24734932bbb4f666440cb1512728",
-      "size": 78907
+      "sha256": "a4e93ba052f88a053e804f8adc0e55bcb12d10b0b9e0a99a0b79eadba0b2e1c9",
+      "size": 79445
     },
     {
       "path": "ovid-metamorphoses/book1-15.html",
-      "sha256": "9caed568b2d7ef7084bfb27a5ed172e8f83d649019033be46bc13c1f2e6f3710",
-      "size": 70579
+      "sha256": "3280057702f2d6780756a0a6945e40a24e24cbd29b8282345aa7327a0308edac",
+      "size": 71117
     },
     {
       "path": "ovid-metamorphoses/book1-16.html",
-      "sha256": "e35fb58ad3c5d0b91dd8321df85a13313f9a17639dcf5bbe1a34e0e69102988e",
-      "size": 81141
+      "sha256": "95ffaad542fe56382ad26ea702c3883b658f72f6bfebef5ec496b9d934f90675",
+      "size": 81679
     },
     {
       "path": "ovid-metamorphoses/book1-17.html",
-      "sha256": "2ad29b7172fbbd843240d12f9dca95ecf17414e0a558d9c07827204fbb3646b1",
-      "size": 74756
+      "sha256": "14da2c7ebd90a67f04a658d551e6904bc03398c7823442455078e91815513693",
+      "size": 75294
     },
     {
       "path": "ovid-metamorphoses/book1-18.html",
-      "sha256": "502a39cb591483e31c75a55dd3c53d66549adda5f9ef43b678f621c5fb53b8c5",
-      "size": 80759
+      "sha256": "20c80ff5ea7cdef384a2117bcc38056f3c4032e5e68d49e6d789803ffb6cd214",
+      "size": 81297
     },
     {
       "path": "ovid-metamorphoses/book1-19.html",
-      "sha256": "4444bbcbf547fb9880d293676716a1c2ed77dbc1f07d3e4ddb1e5a5457c02ea3",
-      "size": 66092
+      "sha256": "764b37953a5308077bf824662748f297cf681503a93582d1c49d53599e694b7d",
+      "size": 66630
     },
     {
       "path": "ovid-metamorphoses/book1-20.html",
-      "sha256": "b0fa1170f0c4a89a9bcb70eacdd79f89b2ab815f83953c59e2c92d069fef02f6",
-      "size": 78047
+      "sha256": "c0bd47a640b251538bfdb13cac834e6e4aaac9bcfce96d2a52dd8cb4a197b218",
+      "size": 78585
     },
     {
       "path": "ovid-metamorphoses/book1-21.html",
-      "sha256": "cb47ee0004df15bea194748f3369c3237bfd2ba6730f2fb44576f9321e41dd9f",
-      "size": 83405
+      "sha256": "754f9c470349026188b6454311b79cb58a3c4b0449c2348628215f91076a786c",
+      "size": 83943
     },
     {
       "path": "ovid-metamorphoses/book1-22.html",
-      "sha256": "52e5f0f838e9023b0990643044d9c7cfdbd746cd2df9acf9d02d8d9e7527a60d",
-      "size": 70733
+      "sha256": "57d6e77714e20801fe9a18fceca13772bc9dd7d33ff5fb049523290146905bab",
+      "size": 71271
     },
     {
       "path": "ovid-metamorphoses/book1-23.html",
-      "sha256": "d3d987b4668f58c9c5fc391a3301e25b51da0fabc4317532fb22316ed7ce635a",
-      "size": 82052
+      "sha256": "42f89faaeb95c92ee2c5e8065db9017cd14d815244604f16043512638130b33e",
+      "size": 82590
     },
     {
       "path": "ovid-metamorphoses/book1-24.html",
-      "sha256": "c5e5c3b11f1260d3c6b35b3bf77a17c46a9bd4a777d9d91c710f29cee207ea60",
-      "size": 74625
+      "sha256": "d8e5bd3a3f63e71898dec0cb188033d5d43b6844f52ef1b2a39b47350a2358dc",
+      "size": 75163
     },
     {
       "path": "ovid-metamorphoses/book1-25.html",
-      "sha256": "24abcab278a18b9299e5b7d38e4969632b7f255c6596a8578f34db43d9bbcd55",
-      "size": 70470
+      "sha256": "022c6fd1c3714773e9ebfef4ab9a0bc47ab5e57795afef6b7e69814e84becfec",
+      "size": 71008
     },
     {
       "path": "ovid-metamorphoses/book1-26.html",
-      "sha256": "2f5dd25de0dc6919f00ff4a627ebb6cf43c9277b5838cf7aa57e3551bf56713b",
-      "size": 74280
+      "sha256": "543c4432fcec33bff7753c1b5c84c322afacd3e255e184194eaa1f1845370573",
+      "size": 74818
     },
     {
       "path": "ovid-metamorphoses/book1-27.html",
-      "sha256": "e2dbbb2d67ad930e8f0b0725f99abb2a82f15f2d8f5a34eb4a450afba28b684c",
-      "size": 74690
+      "sha256": "59eeb0ba9f1932b9c9739e6b8d9ed037190c2cf8a481fa2de19b4c1ac07421a0",
+      "size": 75228
     },
     {
       "path": "ovid-metamorphoses/book1-28.html",
-      "sha256": "71201eaeeaa0a9239aee5fbfe0ed4ddd00c68ab5f443936d3bf09f336e58ae1a",
-      "size": 69942
+      "sha256": "f90b61730bff8960b034662e7f80edd8e79bfbb0cf98fb696fe70af7b0405506",
+      "size": 70480
     },
     {
       "path": "ovid-metamorphoses/index.html",
@@ -753,13 +1008,13 @@
     },
     {
       "path": "ovid-metamorphoses/nav.json",
-      "sha256": "e5f3b8aa357713bea5517b10481699c819082cdd333f41e08aa70069c121d93b",
-      "size": 48758
+      "sha256": "19b5317a1ad48be6206872dcf90842e46c8899b671c2102d93dd85337344e58e",
+      "size": 49024
     },
     {
       "path": "ovid-metamorphoses/notes.html",
-      "sha256": "9999b3654f92e360b39aae3d6f44fc95b6cee75bf615003270c99a336975cc6b",
-      "size": 13522
+      "sha256": "8fa64b5571c0c4a863fdb480f2ac24439203ae3d589b20dd8d37a53e6c963a98",
+      "size": 14598
     },
     {
       "path": "shahnameh-study-guide/characters/heroes-of-sistan.html",

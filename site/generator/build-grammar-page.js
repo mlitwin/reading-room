@@ -44,7 +44,23 @@ function rewriteCrossRefs(html) {
  * template. Returns the string starting with the <nav class="grammar-toc">
  * and ending with the last category section.
  */
-export function renderGrammarBody(grammar) {
+// Render the "→ Allen & Greenough §N" line for a value's agRefs, if any.
+// `resolveAgRef(id)` maps a section id to an href (relative to the grammar
+// page) or null when no reference grammar is built. The whole feature is a
+// no-op when either agRefs or the resolver is absent.
+function renderAgRefs(val, resolveAgRef) {
+  if (!Array.isArray(val.agRefs) || val.agRefs.length === 0 || !resolveAgRef) return '';
+  const links = val.agRefs
+    .map((id) => {
+      const href = resolveAgRef(id);
+      return href ? `<a href="${escapeHtml(href)}">§${escapeHtml(id)}</a>` : null;
+    })
+    .filter(Boolean);
+  if (links.length === 0) return '';
+  return `<p class="grammar-agref">Allen &amp; Greenough: ${links.join(', ')}</p>`;
+}
+
+export function renderGrammarBody(grammar, resolveAgRef) {
   const tocItems = grammar.categories
     .map((c) => `    <li><a href="#cat-${escapeHtml(c.id)}">${escapeHtml(c.label)}</a></li>`)
     .join('\n');
@@ -63,6 +79,7 @@ export function renderGrammarBody(grammar) {
         <h3 id="${idShort}" class="grammar-label">${escapeHtml(val.label)}${abbrev}</h3>
         ${aliasAnchor}
         <div class="grammar-gloss">${rewriteCrossRefs(val.gloss)}</div>
+        ${renderAgRefs(val, resolveAgRef)}
       </div>`;
     }).join('\n');
     return `  <section id="cat-${escapeHtml(cat.id)}" class="grammar-category">
@@ -93,13 +110,19 @@ ${sections}
  * @param {(tpl: string, vars: Record<string,string>) => string} params.applyTemplate
  * @param {string} params.pageTpl  page.html template content
  */
-export async function buildGrammarPage({ grammar, languageId, languageName, outDir, applyTemplate, pageTpl }) {
+export async function buildGrammarPage({ grammar, languageId, languageName, outDir, applyTemplate, pageTpl, resolveAgRef, hasReference }) {
   const subdir = join('_language', languageId, 'grammar');
   const outPath = join(outDir, subdir, 'index.html');
   await mkdir(join(outDir, subdir), { recursive: true });
 
-  const body = renderGrammarBody(grammar);
+  const body = renderGrammarBody(grammar, resolveAgRef);
   const breadcrumb = `<nav class="breadcrumb"><a href="../../../index.html">Library</a> › ${escapeHtml(languageName)} Grammar Reference</nav>`;
+
+  // Link to the full reference grammar when it's built. This page is the short
+  // parse-code glossary; the reference grammar (A&G) is the prose companion.
+  const refLink = hasReference
+    ? `<p class="grammar-lede">A quick glossary of the parse codes used by the reader's word popovers. For the full prose grammar — paradigms, syntax, and worked examples — see the <a href="../reference/index.html">${escapeHtml(languageName)} reference grammar</a>.</p>`
+    : '';
 
   const html = applyTemplate(pageTpl, {
     title: `${languageName} Grammar Reference`,
@@ -108,7 +131,7 @@ export async function buildGrammarPage({ grammar, languageId, languageName, outD
     date: '',
     tags: '',
     breadcrumb,
-    body: `<div class="grammar-reference">${body}</div>`,
+    body: `<div class="grammar-reference">${refLink}${body}</div>`,
     pagenav: '',
   });
 

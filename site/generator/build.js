@@ -10,6 +10,7 @@ import { validatePiece, validateNode } from './schema.js';
 import { buildGlossary } from './build-glossary.js';
 import { buildConcordance } from './build-concordance.js';
 import { buildGrammarPage } from './build-grammar-page.js';
+import { buildReferenceGrammar, planPages as planReferencePages } from './build-reference-grammar.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -21,6 +22,7 @@ const KATEX_DIR = path.join(__dirname, 'node_modules', 'katex', 'dist');
 const LANGUAGE_DIR = path.join(CONTENT_DIR, '_language', 'latin');
 const CONSOLIDATED_LEXICON = path.join(LANGUAGE_DIR, 'lexicon.json');
 const GRAMMAR_JSON = path.join(LANGUAGE_DIR, 'grammar.json');
+const REFERENCE_GRAMMAR_JSON = path.join(LANGUAGE_DIR, 'reference-grammar.json');
 
 const md = new MarkdownIt({
   // html: true so the Latin-passage book can drop a raw <div class="latin-passage">
@@ -130,6 +132,23 @@ function escapeHtml(s) {
     .replace(/'/g, '&#39;');
 }
 const escapeAttr = escapeHtml;
+
+// Reference-grammar section → page slug, populated in build() when the A&G
+// reference grammar is present. Used to resolve `ag:N` deep links wherever
+// they appear (piece text, editorial note bodies, note popovers).
+let _agSecToPage = null;
+
+// Rewrite `<a href="ag:N">` links to deep links into the reference grammar,
+// relative to the consuming page's assetPrefix. Editorial mistakes (a section
+// number that doesn't exist) throw, matching the strictness of `note:` refs.
+function resolveAgLinks(html, assetPrefix) {
+  if (!_agSecToPage) return html;
+  return html.replace(/href="ag:(\d+)"/g, (_, n) => {
+    const slug = _agSecToPage.get(String(n));
+    if (!slug) throw new Error(`undefined A&G reference "ag:${n}" (no such section)`);
+    return `class="ag-link" href="${assetPrefix}_language/latin/reference/${slug}.html#sec-${n}"`;
+  });
+}
 
 function applyTemplate(tpl, vars) {
   return tpl.replace(/\{\{(\w+)\}\}/g, (_, k) => (vars[k] ?? ''));
@@ -752,6 +771,10 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
   const here = htmlPathFor(node);
   const assetPrefix = assetPrefixFor(here);
 
+  // Resolve `ag:N` deep links (in piece text and emitted note popovers) now
+  // that we know this page's assetPrefix.
+  body = resolveAgLinks(body, assetPrefix);
+
   const breadcrumbHtml = `<nav class="breadcrumb">${renderBreadcrumbHtml(node)}</nav>`;
   const prevNextHtml = isStandaloneLeaf ? '' : renderPrevNextHtml(node, navPages);
 
@@ -929,8 +952,23 @@ export async function build() {
   const pageTpl = await fs.readFile(path.join(TEMPLATES_DIR, 'page.html'), 'utf8');
   const indexTpl = await fs.readFile(path.join(TEMPLATES_DIR, 'index.html'), 'utf8');
 
-  // Standalone grammar reference page, rendered directly from grammar.json.
-  // No intermediate markdown — see build-grammar-page.js for the rendering.
+  // Parse the reference grammar first (if present) so the parse-code grammar
+  // page can deep-link into it via agRefs (§N → the page that holds §N).
+  let referenceGrammar = null;
+  let resolveAgRef = null;
+  if (await fileExists(REFERENCE_GRAMMAR_JSON)) {
+    referenceGrammar = JSON.parse(await fs.readFile(REFERENCE_GRAMMAR_JSON, 'utf8'));
+    const { secToPage } = planReferencePages(referenceGrammar);
+    _agSecToPage = secToPage; // enables `ag:N` deep links in piece/note bodies
+    // hrefs are relative to the grammar page at _language/latin/grammar/.
+    resolveAgRef = (id) => {
+      const slug = secToPage.get(String(id));
+      return slug ? `../reference/${slug}.html#sec-${id}` : null;
+    };
+  }
+
+  // Standalone grammar reference page (the parse-code glossary), rendered
+  // directly from grammar.json. See build-grammar-page.js for the rendering.
   if (grammar) {
     await buildGrammarPage({
       grammar,
@@ -939,6 +977,8 @@ export async function build() {
       outDir: DOCS_DIR,
       applyTemplate,
       pageTpl,
+      resolveAgRef,
+      hasReference: Boolean(referenceGrammar),
     });
     indexEntries.push({
       slug: '_language/latin/grammar',
@@ -948,6 +988,29 @@ export async function build() {
       tags: ['latin', 'reference'],
       summary: 'Cases, tenses, moods, and parts of speech — the parse-code vocabulary used throughout the Latin reader.',
       html_path: '_language/latin/grammar/index.html',
+    });
+  }
+
+  // Full reference grammar (Allen & Greenough), rendered into a browsable,
+  // deep-linkable multi-page set.
+  if (referenceGrammar) {
+    const { pageCount } = await buildReferenceGrammar({
+      referenceGrammar,
+      languageId: 'latin',
+      languageName: 'Latin',
+      outDir: DOCS_DIR,
+      applyTemplate,
+      pageTpl,
+    });
+    console.log(`  reference grammar: ${pageCount} section pages`);
+    indexEntries.push({
+      slug: '_language/latin/reference',
+      title: 'Latin Reference Grammar',
+      author: null,
+      date: null,
+      tags: ['latin', 'reference'],
+      summary: 'Allen & Greenough’s New Latin Grammar (1903) — the full reference, with paradigms, syntax, and prosody, deep-linkable by canonical § section.',
+      html_path: '_language/latin/reference/index.html',
     });
   }
 

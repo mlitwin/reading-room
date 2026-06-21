@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T19:24:10.638Z",
+  "generated_at": "2026-06-21T04:38:02.407Z",
   "pieces": [
     {
       "slug": "ovid-metamorphoses",
@@ -721,6 +721,18 @@
       ],
       "summary": "Cases, tenses, moods, and parts of speech — the parse-code vocabulary used throughout the Latin reader.",
       "html_path": "_language/latin/grammar/index.html"
+    },
+    {
+      "slug": "_language/latin/reference",
+      "title": "Latin Reference Grammar",
+      "author": null,
+      "date": null,
+      "tags": [
+        "latin",
+        "reference"
+      ],
+      "summary": "Allen & Greenough’s New Latin Grammar (1903) — the full reference, with paradigms, syntax, and prosody, deep-linkable by canonical § section.",
+      "html_path": "_language/latin/reference/index.html"
     }
   ]
 }

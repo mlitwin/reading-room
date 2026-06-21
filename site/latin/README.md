@@ -30,6 +30,7 @@ card_text.py --card NN-card-NN | build_apparatus.py
 
 * **`ingest_perseus.py`** — parse the canonical TEI vendored at `sources/phi0959.phi006.perseus-lat2.xml`; emit one JSON intermediate per Perseus "card" to `sources/cards/book-NN-card-NN.json`. Run once; re-run after editing the canonical text.
 * **`ingest_translation.py`** — parse the canonical Perseus eng3 translation XML and emit per-card translation JSON to `sources/translations/book-NN-card-NN.json`.
+* **`ingest_ag.py`** — parse the vendored Allen & Greenough TEI grammar at `sources/viaf39744457.001.perseus-eng1.xml` and emit the structured reference grammar to `content/_language/latin/reference-grammar.json` (642 canonical §-sections, paradigm tables, cross-refs rewritten to in-site anchors). Source: Allen and Greenough, *New Latin Grammar* (Ginn & Co., 1903); Perseus TEI markup CC BY-SA, corrections by Dickinson College Commentaries 2013–2016. PD underlying text. See `Plans/latin-reference-grammar-plan.md`. Run once; re-run after re-vendoring the source.
 * **`build_apparatus.py`** — mechanical stage: tokenises a passage, gathers all Morpheus candidates, and emits an apparatus-criticus JSON with each token classified as unambiguous / ambiguous / unresolved.
 * **`apparatus_to_spans.py`** — heuristic stage: picks one primary candidate from apparatus token candidates and emits `<div class="latin-passage">` spans.
 * **`seed.py`** — low-level Morpheus integration and span helpers used by both stages.

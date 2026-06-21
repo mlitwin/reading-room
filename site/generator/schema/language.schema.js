@@ -9,6 +9,9 @@ export const GrammarValueSchema = z.object({
   abbrev: z.string().optional(),          // "nom.", "pres."
   gloss: z.string().min(1),               // HTML snippet shown in UI tooltip / note card
   noteRef: z.string().optional(),         // optional editorial extension slug
+  agRefs: z.array(z.string().regex(/^\d+$/)).optional(), // Allen & Greenough §
+                                          // section numbers this value links to
+                                          // in the reference grammar (R5)
 });
 
 export const GrammarCategorySchema = z.object({

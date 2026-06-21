@@ -29,6 +29,7 @@ import { grammarInvariants } from './validate/grammar.invariants.js';
 import { lexiconInvariants } from './validate/lexicon.invariants.js';
 import { glossaryInvariants } from './validate/glossary.invariants.js';
 import { concordanceInvariants } from './validate/concordance.invariants.js';
+import { referenceGrammarInvariants } from './validate/reference-grammar.invariants.js';
 import { buildGlossary } from './build-glossary.js';
 import { buildConcordance } from './build-concordance.js';
 
@@ -36,19 +37,21 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..');
 const LANG_DIR = join(REPO_ROOT, 'content', '_language', 'latin');
 
-const SUITE_ORDER = ['grammar', 'lexicon', 'glossary', 'concordance'];
+const SUITE_ORDER = ['grammar', 'lexicon', 'glossary', 'concordance', 'reference'];
 
 const SUITES = {
   grammar: { invariants: grammarInvariants, needs: [] },
   lexicon: { invariants: lexiconInvariants, needs: ['grammar'] },
   glossary: { invariants: glossaryInvariants, needs: ['grammar', 'lexicon'] },
   concordance: { invariants: concordanceInvariants, needs: ['grammar', 'glossary', 'lexicon'] },
+  reference: { invariants: referenceGrammarInvariants, needs: ['grammar'] },
 };
 
 const CANONICAL_PATHS = {
   grammar: join(LANG_DIR, 'grammar.json'),
   lexicon: join(LANG_DIR, 'lexicon.json'),
   glossary: join(REPO_ROOT, 'docs', 'assets', 'latin-glossary.json'),
+  reference: join(LANG_DIR, 'reference-grammar.json'),
 };
 
 function canonicalConcordancePath(textSlug) {
