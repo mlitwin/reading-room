@@ -87,14 +87,15 @@ c-1 5-5 9-11 9h-2L532 67 19 159h-2c-5 0-9-4-11-9l-5-22c-1-6 2-12 8-13z"/></svg><
 </div>
 <aside id="popover-host" popover>
   <div class="popover-chrome">
-    <div class="popover-nav">
+    <div class="popover-chrome-top">
       <button class="popover-home" type="button" hidden aria-label="Home">⌂</button>
       <button class="popover-up" type="button" hidden aria-label="Up"><span class="dir" aria-hidden="true">↑</span> <span class="popover-up-label"></span></button>
-      <span class="popover-context" aria-live="polite"></span>
+      <span class="popover-chrome-spacer"></span>
       <button class="popover-prev" type="button" disabled aria-label="Previous">‹</button>
       <button class="popover-next" type="button" disabled aria-label="Next">›</button>
+      <button class="popover-close" type="button" popovertarget="popover-host" popovertargetaction="hide" aria-label="Close">×</button>
     </div>
-    <button class="popover-close" type="button" popovertarget="popover-host" popovertargetaction="hide" aria-label="Close">×</button>
+    <div class="popover-context-row"><span class="popover-context" aria-live="polite"></span></div>
   </div>
   <div class="popover-body"></div>
 </aside>

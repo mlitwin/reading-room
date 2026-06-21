@@ -109,23 +109,24 @@
 }
 #popover-host::backdrop { background: rgba(0, 0, 0, 0.25); }
 
+/* Two-line header: control row (Home/Up · Prev/Next/Close) on top, the context
+   chip + current title on its own line below so it can show in full instead of
+   truncating. */
 .popover-chrome {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 0.3rem;
   padding: 0.4rem 0.6rem;
   border-bottom: 1px solid var(--rule);
   background: rgba(0, 0, 0, 0.02);
-  min-height: 2.4rem;
 }
-.popover-nav {
+.popover-chrome-top {
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  min-width: 0;
-  flex: 1;
 }
+.popover-chrome-spacer { flex: 1; min-width: 0.5rem; }
+.popover-context-row { min-width: 0; }
 .popover-prev, .popover-next, .popover-close {
   background: none;
   border: 0;
@@ -180,13 +181,11 @@
 .popover-home[hidden], .popover-up[hidden] { display: none; }
 
 .popover-context {
-  flex: 1;
+  display: block;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin-left: 0.25rem;
+  margin-left: 0.1rem;
   color: var(--fg);
+  line-height: 1.3;
 }
 .popover-ctx-chip {
   font-size: 0.7rem;
@@ -265,6 +264,14 @@
 .card-content {
   padding: 1.1rem 1.4rem 1.2rem;
 }
+
+/* Note / reference content is injected straight into .popover-body, so it
+   needs the same edge padding the card gets from .card-content. */
+.popover-body.note-popover {
+  padding: 1.1rem 1.4rem 1.2rem;
+}
+.popover-body.note-popover > :first-child { margin-top: 0; }
+.popover-body.note-popover > :last-child { margin-bottom: 0; }
 
 /* Modal scroll lock. When the host popover is open, freeze the page
    underneath so wheel events on the chrome / past the body's edge don't
