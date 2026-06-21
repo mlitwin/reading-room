@@ -653,28 +653,64 @@
       body.innerHTML = source.innerHTML;
     }
 
-    renderBreadcrumb(host);
-    updateNavButtons(host);
+    renderChrome(host);
     if (!host.matches(':popover-open')) {
       try { host.showPopover(); } catch (_) {}
     }
   }
 
-  function renderBreadcrumb(host) {
-    var crumbs = host.querySelector('.popover-breadcrumb');
-    if (!crumbs) return;
-    crumbs.innerHTML = stack.map(function (entry, i) {
-      var cls = i === stackPos ? 'popover-crumb current' : 'popover-crumb';
-      return '<li class="' + cls + '"><button type="button" data-stack-pos="' + i + '">' +
-             escHtml(entry.label) + '</button></li>';
-    }).join('');
-  }
+  // ── context model (Plans/latin-grammar-note-navigation-plan.md, Phase A)
+  // The flat stack is grouped into contexts: a contiguous run of same-family
+  // entries. Two families today (n-ary by construction): 'local' (card/note,
+  // the note context opened from the text) and 'grammar' (A&G ref sections).
+  // Prev/Next move within the current context (disabled at its ends); Up jumps
+  // to the previous context; Home jumps to the origin. No Down / no redo —
+  // descend by following a link.
+  function familyOf(entry) { return entry.type === 'ref' ? 'grammar' : 'local'; }
 
-  function updateNavButtons(host) {
+  function ctxLo(pos) {
+    var c = stack[pos].ctx, lo = pos;
+    while (lo > 0 && stack[lo - 1].ctx === c) lo--;
+    return lo;
+  }
+  function ctxHi(pos) {
+    var c = stack[pos].ctx, hi = pos;
+    while (hi < stack.length - 1 && stack[hi + 1].ctx === c) hi++;
+    return hi;
+  }
+  function upTargetPos() {
+    if (stackPos < 0) return -1;
+    var lo = ctxLo(stackPos);
+    return lo > 0 ? lo - 1 : -1;        // last entry of the previous context
+  }
+  function homeTargetPos() { return stackPos > 0 ? 0 : -1; }
+
+  var CONTEXT_LABEL = { grammar: 'Grammar' };
+
+  function renderChrome(host) {
+    var entry = stack[stackPos];
+    var lo = ctxLo(stackPos), hi = ctxHi(stackPos);
+
     var prev = host.querySelector('.popover-prev');
     var next = host.querySelector('.popover-next');
-    if (prev) prev.disabled = stackPos <= 0;
-    if (next) next.disabled = stackPos >= stack.length - 1;
+    if (prev) prev.disabled = stackPos <= lo;
+    if (next) next.disabled = stackPos >= hi;
+
+    var homeBtn = host.querySelector('.popover-home');
+    if (homeBtn) homeBtn.hidden = homeTargetPos() < 0;
+
+    var upTarget = upTargetPos();
+    var upBtn = host.querySelector('.popover-up');
+    var upLabel = host.querySelector('.popover-up-label');
+    if (upBtn) upBtn.hidden = upTarget < 0;
+    if (upLabel) upLabel.textContent = upTarget >= 0 ? (stack[upTarget].label || '') : '';
+
+    var ctxEl = host.querySelector('.popover-context');
+    if (ctxEl) {
+      var chipName = CONTEXT_LABEL[entry.family];
+      var chip = chipName ? '<span class="popover-ctx-chip">' + escHtml(chipName) + '</span> ' : '';
+      ctxEl.innerHTML = chip + '<span class="popover-ctx-title">' + escHtml(entry.label || '') + '</span>';
+    }
   }
 
   function pushEntry(entry) {
@@ -690,6 +726,10 @@
       if (h && !h.matches(':popover-open')) renderHost();
       return;
     }
+    // Assign the entry's family + context index. A new context begins whenever
+    // the family changes from the current top (e.g. local note → grammar).
+    entry.family = familyOf(entry);
+    entry.ctx = current ? (entry.family !== current.family ? current.ctx + 1 : current.ctx) : 0;
     stack = stack.slice(0, stackPos + 1);
     stack.push(entry);
     stackPos = stack.length - 1;
@@ -726,14 +766,19 @@
     var host = document.getElementById('popover-host');
     if (!host) return;
 
-    var crumbBtn = e.target.closest('.popover-breadcrumb button[data-stack-pos]');
-    if (crumbBtn) {
+    if (e.target.closest('.popover-home')) { e.preventDefault(); navigateTo(homeTargetPos()); return; }
+    if (e.target.closest('.popover-up')) { e.preventDefault(); navigateTo(upTargetPos()); return; }
+    // Prev/Next stay within the current context (disabled at its ends).
+    if (e.target.closest('.popover-prev')) {
       e.preventDefault();
-      navigateTo(parseInt(crumbBtn.dataset.stackPos, 10));
+      if (stackPos > ctxLo(stackPos)) navigateTo(stackPos - 1);
       return;
     }
-    if (e.target.closest('.popover-prev')) { e.preventDefault(); navigateTo(stackPos - 1); return; }
-    if (e.target.closest('.popover-next')) { e.preventDefault(); navigateTo(stackPos + 1); return; }
+    if (e.target.closest('.popover-next')) {
+      e.preventDefault();
+      if (stackPos < ctxHi(stackPos)) navigateTo(stackPos + 1);
+      return;
+    }
 
     // In-flow A&G reference: open §N inside the stack instead of navigating.
     var agEl = e.target.closest('#popover-host [data-ag]');

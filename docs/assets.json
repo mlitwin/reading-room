@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T17:51:08.083Z",
+  "generated_at": "2026-06-21T18:36:40.107Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -263,12 +263,12 @@
     },
     {
       "path": "assets/cards.js",
-      "sha256": "bffbe34854475f6cfe42b7de5b818c3b05e2fca11dd2db0eb9ec2ba3cd366f36",
-      "size": 37039
+      "sha256": "5e79ea2ad291d9067cbfa6c0c57319c9a1e6b2ea2f419fff54d0fda3a0115e10",
+      "size": 39007
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "f128eb2d6b105b8405b76e0a115e043232483e51b4f3499e43c50ef200f47920",
+      "sha256": "a566d88a35d33ebf44893a7e39e0665f79601072067c9e944b730dd9bfb32fbc",
       "size": 920395
     },
     {
@@ -588,7 +588,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "ff6f2a10c4cd54d3eab465d939566be4dfcecad8e16756dbafeb27ac8805144f",
+      "sha256": "2ad90d24c0375bd6652387456021d05b38e2a91d3626e136ebcae9fcf3dc9e77",
       "size": 9714166
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "04a75c121c5a82f064da53b050d93f144a70b7464bc0d64a1229921329a2620c",
+      "sha256": "c97b150deedb4c3efb6523975b8f87ed916e6dd88f20dc5b0ed6e6f583834228",
       "size": 2476366
     },
     {
@@ -623,23 +623,23 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "89e67524976d64be69c9c32cd7cde63b30dbe07a3f0d82c14cf2e6cb87e0d89e",
-      "size": 33107
+      "sha256": "a3f10cde3b5a494c689a89ff8db48f27c0b9781fb5e911d64e08410f4f99ed8a",
+      "size": 33727
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "7778c8c0c5234a176826c3cd0b7b3cd6ee46b0136efc650c06c442934d4be72f",
+      "sha256": "0ae7501d3b104a3231d7c79deb2e84b37213923c1f4d1f4c79c0ca5d829c7549",
       "size": 10651256
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "97b4235123ec833f72bb7d54719c3f335618717c138cfaf1f2ef2af6dc23b485",
+      "sha256": "feb6ac25d27c7b40dadc30424289b1a157f6c2a04d30a769c3bbdda5da0a56f4",
       "size": 10651230
     },
     {
       "path": "calculus-on-manifolds/de-rham/cohomology.html",
-      "sha256": "f4bc5367c4c55158faab253f79f0560e3514f40c0d1cd04e0b1435c62bb527a9",
-      "size": 89182
+      "sha256": "7cf7dceec10114455dee61cd819c4ff27df8844e70e93719ab16ba07621ff1c5",
+      "size": 89416
     },
     {
       "path": "calculus-on-manifolds/de-rham/index.html",
@@ -648,8 +648,8 @@
     },
     {
       "path": "calculus-on-manifolds/de-rham/poincare-lemma.html",
-      "sha256": "8a99a6a0768e58721a319856c0c518ad811af36e136579313f25b553a4c25a8c",
-      "size": 57825
+      "sha256": "3885a6c5b22dfe8dff33b5f0512346190787b34c85eacd9eca1d89e13b64635a",
+      "size": 58059
     },
     {
       "path": "calculus-on-manifolds/differential-forms/closed-and-exact.html",
@@ -658,8 +658,8 @@
     },
     {
       "path": "calculus-on-manifolds/differential-forms/exterior-derivative-and-pullback.html",
-      "sha256": "3498d3ddb4c94fd7108ca3c337a828f1a4dd8895936c1bf98b26c39c53df73e8",
-      "size": 97595
+      "sha256": "b15ae5587da508f6308e17d7569072919ce3dc83ff5fb470fe278afb79aeb7d8",
+      "size": 97829
     },
     {
       "path": "calculus-on-manifolds/differential-forms/index.html",
@@ -693,13 +693,13 @@
     },
     {
       "path": "calculus-on-manifolds/manifolds/charts-and-smooth-maps.html",
-      "sha256": "f0d6aecfaa131dd6317009eb03f8a0bf696ba27e26c18fcf69957c73a23261d4",
-      "size": 32959
+      "sha256": "e75dd2b9cbafb4090ab03031f776d3150ff6b7614205c9e62d9f26c99018e6d2",
+      "size": 33193
     },
     {
       "path": "calculus-on-manifolds/manifolds/cotangent-space.html",
-      "sha256": "f111f357ee3d9763a248b98ec16244f76458a026689d2722e27397460cef3659",
-      "size": 62630
+      "sha256": "6ffa736c38af3cf89577c0757a7a7426ffee57c420c28ff1b1deceb0f26e41bf",
+      "size": 62864
     },
     {
       "path": "calculus-on-manifolds/manifolds/index.html",
@@ -718,13 +718,13 @@
     },
     {
       "path": "calculus-on-manifolds/notes.html",
-      "sha256": "51f4ce6f49aa759ae32111b4d3b3197d1a135a89761ccd40b66939ceb5f92e43",
-      "size": 113613
+      "sha256": "dc40b652c67fa9b390de33b65dd67c498a75144c6328fd31e8f6b35dc804895d",
+      "size": 113847
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/flows-and-lie-bracket.html",
-      "sha256": "f0ae01de04e2c1e84f2f68e5e2d20af9ae56bd5728a2e4d38213f59ee2d8c2f2",
-      "size": 54771
+      "sha256": "639706de8eb0ef070804c338f3832c7fcb137ddb8609e3ca9623fe1aeb4dd7e1",
+      "size": 55005
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/index.html",
@@ -733,8 +733,8 @@
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/lie-derivative.html",
-      "sha256": "63940470bf7c4aeff375f65ab8bb5fdb041c8c3836d6d95f1a70edd91fee3a09",
-      "size": 51179
+      "sha256": "e198b0c90c38305fcfaed15f955642a94382bfd03e89c7fea178ff510541b2de",
+      "size": 51413
     },
     {
       "path": "calculus-on-manifolds/vector-fields-and-flows/vector-fields.html",
@@ -748,13 +748,13 @@
     },
     {
       "path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html",
-      "sha256": "71dd4e816dfd91b6ecdeaf757f1a6491ac832c3ffa1194a8849d8b73654dc1f1",
-      "size": 89028
+      "sha256": "1bcc5e6ca3f84b2fd38e25afad0cd2ab84397f7e673f1da5562e07f3f0268ac0",
+      "size": 89262
     },
     {
       "path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html",
-      "sha256": "a271dc24f063260c0d551a9e039c1c3fb44eeaf36a67619ca27e90a1e0563e3f",
-      "size": 71872
+      "sha256": "5bb2c4153be4f2b3ea624b5b09feb9873b5082e33f10d8d324480ead0babf93e",
+      "size": 72106
     },
     {
       "path": "classical-mechanics/index.html",
@@ -763,13 +763,13 @@
     },
     {
       "path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html",
-      "sha256": "6aa24261682831306f8699dc4cbdb5f00ac51530d27d6bae296dbefa13792779",
-      "size": 80657
+      "sha256": "a298cc8aeeac878810f4cc51b511430dc77fcf09270be4d122b13380a119a049",
+      "size": 80891
     },
     {
       "path": "classical-mechanics/lagrangian/coordinates-and-constraints.html",
-      "sha256": "29eaf1492f701553460967535e2bcc984f120ee63b1014beff08ba4e56ff370e",
-      "size": 75458
+      "sha256": "d32483009f100ee0e4eb65d2871dfe961edfaa1faca598649aedcde21f8a325b",
+      "size": 75692
     },
     {
       "path": "classical-mechanics/lagrangian/index.html",
@@ -793,8 +793,8 @@
     },
     {
       "path": "classical-mechanics/newtonian/newtons-laws.html",
-      "sha256": "81e2a78f3227d89b9b7bf27a6cc18a225b58bf90ae47faa5d8ae6a248feb526d",
-      "size": 55441
+      "sha256": "752f95bcc239a0d491004943ca34aa64019f7828bdedaa2f0839cf60bee18e92",
+      "size": 55675
     },
     {
       "path": "classical-mechanics/noether/examples.html",
@@ -823,7 +823,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "614b280ca0b386892f93dc49888ebdbe9cec677a2c7ae27b4fdd8414d0cd68be",
+      "sha256": "004230938342d986c6405694d36707b837d75f8aaca0841588122cf2d000614c",
       "size": 27394
     },
     {
@@ -868,143 +868,143 @@
     },
     {
       "path": "ovid-metamorphoses/book1-01.html",
-      "sha256": "a5fd9e7e261765a155f072a8b308ba1a241bb0cf72df6c0ce214774dbecdbbd8",
-      "size": 80210
+      "sha256": "1ee145fcb754911f01d6ed4354e26c029d2c186bc81b37b161d8588089f1af34",
+      "size": 80444
     },
     {
       "path": "ovid-metamorphoses/book1-02.html",
-      "sha256": "c32a69a4180f2f3f2448d458c9bf12c50a4e6c7021e7c869506977eca0f4c23d",
-      "size": 85022
+      "sha256": "2c284b804d0203d806378cd7e6f26133af0706529e2e3b216903dd8b5870971f",
+      "size": 85256
     },
     {
       "path": "ovid-metamorphoses/book1-03.html",
-      "sha256": "04f66147799d9bb6124da69098e2e32dcf72b4dd2073d23cfc43fd3c90caca15",
-      "size": 89420
+      "sha256": "2f03f1278955ea41d87959d4024ae09b0fe711139b086c5661a76a891e7593e9",
+      "size": 89654
     },
     {
       "path": "ovid-metamorphoses/book1-04.html",
-      "sha256": "96d55eb29106deb583f946337f330dcfda60f9b136529d9f70b8e99e2dbfa807",
-      "size": 91106
+      "sha256": "e9ab891da6d544c065c6581fb9364a9bdb9c3d0e0a749fb38f8dcba0eaee38fe",
+      "size": 91340
     },
     {
       "path": "ovid-metamorphoses/book1-05.html",
-      "sha256": "1b484738c9fd9daaf3ea882538ec7f8669f80e4d967ac16a4bb533e08bc94ed5",
-      "size": 89037
+      "sha256": "680134bf603bea39b988dc5199e54f8312352688c60f8e18ae7c6027d63889a0",
+      "size": 89271
     },
     {
       "path": "ovid-metamorphoses/book1-06.html",
-      "sha256": "a52d3df13b11877e373d7c755e360bf628819993f47f6f43bb93ebc432075f5b",
-      "size": 82348
+      "sha256": "b6b53bcfbb202de7935718a1a5ca70a2f3c0f33cf4aaab5a572712b4ebb1d147",
+      "size": 82582
     },
     {
       "path": "ovid-metamorphoses/book1-07.html",
-      "sha256": "cc0d906b852181d12b6ace52dc18794d54c79bbea9fd338c76af416098c6a814",
-      "size": 91120
+      "sha256": "207c9e48cafefca780acc2bf175ffe0a6d2f5c11c6f0f3d957831c8fcb3a6ae8",
+      "size": 91354
     },
     {
       "path": "ovid-metamorphoses/book1-08.html",
-      "sha256": "55b6b7eb9b5bfe6c86f09b45e345a4557760b2a6f288f2948bfa3b41412b4ebe",
-      "size": 87472
+      "sha256": "a4d697752304c760eab97007b1ff7b5e7cfb1178fa7e7f19db1795f58b08aff8",
+      "size": 87706
     },
     {
       "path": "ovid-metamorphoses/book1-09.html",
-      "sha256": "e3eb6fd4fea00eb29f55eb456da7420ce274e1092714e12bf09a475cb994bad6",
-      "size": 90628
+      "sha256": "33b5dd9819dd8f648c397d1f7cea433b207ece9f49623d40fa8d1db923bafbef",
+      "size": 90862
     },
     {
       "path": "ovid-metamorphoses/book1-10.html",
-      "sha256": "49d2ad9035011fe154286be4ef56a39635715d96e38b7b4bd7e9ac1dd7b24a02",
-      "size": 83540
+      "sha256": "f1e7b18cf19c63bdf962d93b1de1889ebc2b69749a9883f3155dbb240f438a47",
+      "size": 83774
     },
     {
       "path": "ovid-metamorphoses/book1-11.html",
-      "sha256": "5f25ac7574f1a54894fca0370357d27fc350537a1700bef171dcd72a759119f5",
-      "size": 90055
+      "sha256": "d5fc021ec3695355ee45b08048ef7f2d728f0ada86a69b25bdd1e4833068e247",
+      "size": 90289
     },
     {
       "path": "ovid-metamorphoses/book1-12.html",
-      "sha256": "215b148be5ea819f7a5141be5b703d3af66192f6c2ba5bccbe00c9d552aff653",
-      "size": 85537
+      "sha256": "cd8aafaac5d284a798db1f736b455bdb5967de651a1334954c98ff5597543500",
+      "size": 85771
     },
     {
       "path": "ovid-metamorphoses/book1-13.html",
-      "sha256": "a46374303eaca94513714e1dae6c55cef12e21a47333826035676acd87b3f256",
-      "size": 89985
+      "sha256": "035d3c60d690d73ba04667367670013f97bbe04164642e18d1f4580a2ac69787",
+      "size": 90219
     },
     {
       "path": "ovid-metamorphoses/book1-14.html",
-      "sha256": "5277962ec690e9112ad0116b7e79ab81cf77328ef7965aa2a70d35b26e8c910e",
-      "size": 91642
+      "sha256": "abcd1d26dd5e675d3b5b6561393a189e3c9c7e513904378438905b7d1c550f7e",
+      "size": 91876
     },
     {
       "path": "ovid-metamorphoses/book1-15.html",
-      "sha256": "093dbb05e15eb37c92f04ffdd96cbcf2d0749d666dd2a4ba4945518c1b784ad4",
-      "size": 83314
+      "sha256": "b4ba16044225913ff68ee55ae07cf1353fd427a90f479861dc78baf9183c054f",
+      "size": 83548
     },
     {
       "path": "ovid-metamorphoses/book1-16.html",
-      "sha256": "a7add7b95dd35856b025fc29fcaa27a82df943c3b5efc0bc68917aad6198b714",
-      "size": 93876
+      "sha256": "3f8ef0abd9f73abfce967cb78f239a0a3145d3708ced3c756033b82a66a37b4b",
+      "size": 94110
     },
     {
       "path": "ovid-metamorphoses/book1-17.html",
-      "sha256": "40bc8d3045af3f5355f34e433a033778b639fafac3bf574e1021cb8b81dd7971",
-      "size": 87491
+      "sha256": "bd274d2c0546cac1a664b7a2571f923a6e4c246360fa4155ab94d858329e70df",
+      "size": 87725
     },
     {
       "path": "ovid-metamorphoses/book1-18.html",
-      "sha256": "e19f2b482cd89132c6a769ad0b32662db29ec85d77345857adf44ccee5300530",
-      "size": 93494
+      "sha256": "3addba6c499bf7d56a3f4706c4ce29c940ad6abc5deaf5dccf7e642d6615dada",
+      "size": 93728
     },
     {
       "path": "ovid-metamorphoses/book1-19.html",
-      "sha256": "ff7d68576ff994c53e9521de747cf4a08148dd0b898d25e77113e294a2c3c764",
-      "size": 78827
+      "sha256": "9298b79d593d211e199e8a810e83711706b787f06cfd666e7224a65e455773ea",
+      "size": 79061
     },
     {
       "path": "ovid-metamorphoses/book1-20.html",
-      "sha256": "96c35bee87261fa3fccc7b1f721f1479af10823fcb733962430939263889e27a",
-      "size": 90782
+      "sha256": "8c348d1e1ba5d56cfb6176f422893f9db51c5831a73207c1104e26e7213953f8",
+      "size": 91016
     },
     {
       "path": "ovid-metamorphoses/book1-21.html",
-      "sha256": "5da5d8173e451a779c138904b6ece7d2ca72be575cb6441f3c76d508036e3fdf",
-      "size": 96140
+      "sha256": "c10a8b0a94ca66b8e02e52dcd10fcb3b6d8abb744606e5136217f86222318d49",
+      "size": 96374
     },
     {
       "path": "ovid-metamorphoses/book1-22.html",
-      "sha256": "017436be0af753fd18353428d7477f861cb51f002da4e640fee94b2870e5a216",
-      "size": 83468
+      "sha256": "2a0396239178258073523ebcafefe6a30ed1e2edc2d75031a41df6299dcc6213",
+      "size": 83702
     },
     {
       "path": "ovid-metamorphoses/book1-23.html",
-      "sha256": "639ec092285a545a9ee4179cbe419f7a47530af4b49132fccb231cdbe27b7ab8",
-      "size": 94787
+      "sha256": "f432bcd098d85bd0ebb801a7495f4fe94e52b634f44a6f2460fc0ccc670b22ed",
+      "size": 95021
     },
     {
       "path": "ovid-metamorphoses/book1-24.html",
-      "sha256": "25bcbe5c7d0804e8743ac124dd70d625101f493d7a16acf78e99e42c978bc4e9",
-      "size": 87360
+      "sha256": "321af691cca4604aa2175538afbd088707452814b81ecb571f6487f99b8a4917",
+      "size": 87594
     },
     {
       "path": "ovid-metamorphoses/book1-25.html",
-      "sha256": "39d80cbc20cae9010511c8aea1a125457ada553a4e45a0798a66b3f053e0f616",
-      "size": 83205
+      "sha256": "f8e642583a8af20fc946165da33c5740dde7263baa06629a315862d8d996b180",
+      "size": 83439
     },
     {
       "path": "ovid-metamorphoses/book1-26.html",
-      "sha256": "0b17158c1fa95a6c7a1aad7225814809dc79f0a695b74c1159f43429cd88c08f",
-      "size": 87015
+      "sha256": "43335d9f611f6b4b1f26f12463e235364d4830b36d88aea0a2ca19961160383c",
+      "size": 87249
     },
     {
       "path": "ovid-metamorphoses/book1-27.html",
-      "sha256": "d496f85fa6d188c02257c2cdbdbfe671a56846b78feb17bfb034f853e2372c09",
-      "size": 87425
+      "sha256": "799e7bf0c34283092ae42aee72f12a4b329f22c604f2819fca1ad6f8aac09697",
+      "size": 87659
     },
     {
       "path": "ovid-metamorphoses/book1-28.html",
-      "sha256": "a0f8405c7ea5d114af851321fc67f95367e6585d151f8ecb856a409120705e88",
-      "size": 82677
+      "sha256": "a5c67fcc22c6391a7b9189ecb12f614367adf69c94f6268e70bf5e11ac9b852b",
+      "size": 82911
     },
     {
       "path": "ovid-metamorphoses/index.html",
@@ -1203,8 +1203,8 @@
     },
     {
       "path": "tensors-for-gr/index.html",
-      "sha256": "c86ce5c0f17f7f9deca928cc219ebaaf00a47f58644d4860606a021bbf1631c4",
-      "size": 57419
+      "sha256": "2050549166bfbfe54d7e787bccf9749042053eb20475f6c84705adc292de0962",
+      "size": 57653
     },
     {
       "path": "tensors-for-gr/metric/index.html",
@@ -1213,13 +1213,13 @@
     },
     {
       "path": "tensors-for-gr/metric/on-the-sphere.html",
-      "sha256": "fe20b81ac93d7344d6aa9795660fce0ca92c07ccc8376507265d48ca450d69e4",
-      "size": 210386
+      "sha256": "6e9ca9bcc1536f13aa055ee314b93dcb00bdbdc6e700e6b9ee1a733f8a332ade",
+      "size": 210620
     },
     {
       "path": "tensors-for-gr/metric/raising-and-lowering.html",
-      "sha256": "b991cf79ee5f1aada878ce28ff19c12e634fb5a00c879a2f9212b3d2c1483a3b",
-      "size": 140502
+      "sha256": "8fc1b2f94c1d889a8309af25f838a03dab7d058331abcf288daf7f24b5da3e6a",
+      "size": 140736
     },
     {
       "path": "tensors-for-gr/metric/the-metric-tensor.html",
@@ -1238,8 +1238,8 @@
     },
     {
       "path": "tensors-for-gr/tensors/co-contra-vs-k-forms.html",
-      "sha256": "d860d3cdd7aebc20feb84d15a2d7e6a610dbc5455df8efe9aa5538a5c7648354",
-      "size": 141406
+      "sha256": "4f56d6584a6abfc7ce3d8f9420959d92d872250057f2b7c5165e0b428ab02361",
+      "size": 141640
     },
     {
       "path": "tensors-for-gr/tensors/coordinate-components.html",
@@ -1253,8 +1253,8 @@
     },
     {
       "path": "tensors-for-gr/tensors/multilinear-and-rank.html",
-      "sha256": "7f364fcc68237953651373b9a4c7e3b3f939c0b145d1a18625ef8696cf64cc2e",
-      "size": 139476
+      "sha256": "527114a06bcb07a2acc34809da204794cf5065d5c412908416eb16bee6f3866c",
+      "size": 139710
     },
     {
       "path": "tensors-for-gr/tensors/on-the-sphere.html",
@@ -1263,8 +1263,8 @@
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/dual-vectors.html",
-      "sha256": "0adaf710197ff5192829ea5dde215664727d2324242324edc6adc1ef3c9392fc",
-      "size": 80373
+      "sha256": "20dd39a67ef51a5651b7484b95e735de35642c5de44ea319f55f194cf1b09c29",
+      "size": 80607
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/index.html",
@@ -1278,8 +1278,8 @@
     },
     {
       "path": "tensors-for-gr/vectors-and-covectors/tangent-vectors.html",
-      "sha256": "ecea7210d3082fda3725ddc313042bfcb3835cef11e99501e5ba5ef7e168612d",
-      "size": 96211
+      "sha256": "9b5d58c532e3062ba9559284bacd64bb4128444e1744cc739957c8085324f1bc",
+      "size": 96445
     }
   ]
 }

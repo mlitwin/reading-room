@@ -149,50 +149,58 @@
   cursor: default;
 }
 
-.popover-breadcrumb {
-  list-style: none;
-  margin: 0 0 0 0.25rem;
-  padding: 0;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: baseline;
-  min-width: 0;
-  overflow: hidden;
-  white-space: nowrap;
-}
-.popover-breadcrumb .popover-crumb {
-  display: flex;
-  align-items: baseline;
-  min-width: 0;
-}
-.popover-breadcrumb .popover-crumb + .popover-crumb::before {
-  content: '›';
-  margin: 0 0.35rem;
-  color: var(--muted);
-}
-.popover-breadcrumb .popover-crumb button {
+/* Context-aware chrome: Home / Up / context label, with Prev/Next scoped to
+   the current context. Replaces the old flat breadcrumb (which didn't scale
+   to depth). See Plans/latin-grammar-note-navigation-plan.md. */
+.popover-home, .popover-up {
   background: none;
   border: 0;
   cursor: pointer;
   font: inherit;
-  color: var(--accent);
-  padding: 0.1rem 0.35rem;
+  color: var(--muted);
+  padding: 0.2rem 0.45rem;
   border-radius: 4px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  white-space: nowrap;
+  min-width: 0;
+}
+.popover-home { font-size: 1.1rem; }
+.popover-up .popover-up-label {
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 12rem;
+  max-width: 8rem;
 }
-.popover-breadcrumb .popover-crumb button:hover {
+.popover-home:hover, .popover-up:hover {
   background: rgba(0, 0, 0, 0.06);
-}
-.popover-breadcrumb .popover-crumb.current button {
   color: var(--fg);
+}
+.popover-home[hidden], .popover-up[hidden] { display: none; }
+
+.popover-context {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 0.25rem;
+  color: var(--fg);
+}
+.popover-ctx-chip {
+  font-size: 0.7rem;
   font-weight: 600;
-  cursor: default;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 0.05rem 0.3rem;
+  margin-right: 0.15rem;
+  white-space: nowrap;
 }
-.popover-breadcrumb .popover-crumb.current button:hover {
-  background: none;
-}
+.popover-ctx-title { font-weight: 600; }
 
 .popover-body {
   flex: 1;

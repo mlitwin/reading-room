@@ -80,10 +80,15 @@
 .popover-body .ag-link,
 .popover-body [data-ag],
 .popover-body [data-full] { cursor: pointer; }
+/* De-emphasized escape hatch: in-flow drilling is the primary path, so the
+   "Open full section ↗" exit is small and muted at the foot of the section. */
 .ref-popover .ag-fullpage {
-  margin-top: 1.25rem;
-  padding-top: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 0.6rem;
   border-top: 1px solid var(--rule);
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.72rem;
+  text-align: right;
 }
+.ref-popover .ag-fullpage-link { color: var(--muted); }
+.ref-popover .ag-fullpage-link:hover { color: var(--accent); }
