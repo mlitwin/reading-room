@@ -609,6 +609,23 @@
   var stack = [];
   var stackPos = -1;
 
+  // Per-step scroll memory (Plans/latin-grammar-note-navigation-plan.md,
+  // Phase B). saveScroll() records the outgoing entry's scroll before we leave
+  // it; applyScroll() restores it right after content is in the DOM but before
+  // paint (no flash). New entries have no saved offset → start at the top.
+  function popoverBody() {
+    var h = document.getElementById('popover-host');
+    return h && h.querySelector('.popover-body');
+  }
+  function saveScroll() {
+    if (stackPos < 0) return;
+    var body = popoverBody();
+    if (body) stack[stackPos].scrollTop = body.scrollTop;
+  }
+  function applyScroll(entry, body) {
+    if (body) body.scrollTop = entry.scrollTop || 0;
+  }
+
   function renderHost() {
     var host = document.getElementById('popover-host');
     if (!host) return;
@@ -623,11 +640,13 @@
       body.className = 'popover-body card-popover';
       if (lexiconCache) {
         renderCardBody(body, entry, lexiconCache);
+        applyScroll(entry, body);
       } else {
         body.innerHTML = '<p class="card-loading">Loading…</p>';
         loadLexicon().then(function (lex) {
           if (stackPos >= 0 && stack[stackPos] === entry) {
             renderCardBody(body, entry, lex);
+            applyScroll(entry, body);
           }
         });
       }
@@ -637,6 +656,7 @@
       if (note) {
         if (note.title) entry.label = '§' + entry.id + ' · ' + note.title;
         body.innerHTML = note.html;
+        applyScroll(entry, body);
       } else if (!entry._loadTriggered) {
         entry._loadTriggered = true;
         body.innerHTML = '<p class="card-loading">Loading…</p>';
@@ -651,6 +671,7 @@
       if (!source) return;
       body.className = 'popover-body note-popover';
       body.innerHTML = source.innerHTML;
+      applyScroll(entry, body);
     }
 
     renderChrome(host);
@@ -726,6 +747,7 @@
       if (h && !h.matches(':popover-open')) renderHost();
       return;
     }
+    saveScroll(); // remember where we were in the entry we're descending from
     // Assign the entry's family + context index. A new context begins whenever
     // the family changes from the current top (e.g. local note → grammar).
     entry.family = familyOf(entry);
@@ -738,6 +760,7 @@
 
   function navigateTo(pos) {
     if (pos < 0 || pos >= stack.length || pos === stackPos) return;
+    saveScroll(); // remember scroll in the entry we're leaving
     stackPos = pos;
     renderHost();
   }
