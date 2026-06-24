@@ -23,3 +23,5 @@ where $M = \sum_a m_a$, $R_{\text{cm}}$ is the center-of-mass position, and $P$ 
 **Scaling and beyond.** Less elementary symmetries give less elementary conserved quantities. The Laplace–Runge–Lenz vector in the Kepler problem comes from a non-obvious symmetry of the $1/r$ potential. The Runge–Lenz conservation is what makes Kepler orbits close.
 
 The summary: classical conservation laws are not coincidences; they're the visible shadow of the symmetry group of the Lagrangian. Noether is the bridge.
+
+The same machinery carries into general relativity: free fall is [geodesic motion](../../tensor-calculus-on-manifolds/09-connection-and-curvature/02-covariant-derivative.md), extremizing the action $\int g_{\mu\nu}\, \dot x^\mu \dot x^\nu\, d\lambda$, and a continuous isometry of the metric — a Killing vector $K$ — is a symmetry of that action whose Noether charge $K_\mu \dot x^\mu$ is conserved along every geodesic. Energy and angular momentum in the Schwarzschild geometry are the relativistic descendants of the time-translation and rotation examples above.

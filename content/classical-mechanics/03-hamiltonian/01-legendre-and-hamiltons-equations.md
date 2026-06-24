@@ -13,7 +13,7 @@ For $L = T(q, \dot q) - V(q)$ with $T$ a positive-definite quadratic form in $\d
 
 **Hamilton's equations.** Differentiating the definition of $H$ and using the EL equations,
 $$\boxed{\quad \dot q^i = \frac{\partial H}{\partial p_i}, \qquad \dot p_i = -\frac{\partial H}{\partial q^i}. \quad}$$
-A system of $2n$ first-order ODEs on **phase space** $(q, p) \in T^* Q$ — the [cotangent bundle](../../calculus-on-manifolds/01-manifolds/03-cotangent-space.md) of configuration space. A point of $T^*Q$ is a position together with a covector ("conjugate momentum") at that position.
+A system of $2n$ first-order ODEs on **phase space** $(q, p) \in T^* Q$ — the [cotangent bundle](../../tensor-calculus-on-manifolds/01-manifolds/03-cotangent-space.md) of configuration space. A point of $T^*Q$ is a position together with a covector ("conjugate momentum") at that position.
 
 **Equivalence to Lagrangian.** Trajectories satisfying Hamilton's equations correspond bijectively to trajectories satisfying the Euler–Lagrange equations via the Legendre transform. The two formulations describe the same dynamics; they emphasize different geometric structures.
 

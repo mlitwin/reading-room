@@ -18,4 +18,4 @@ so the conjugate momentum $p_i = \partial L / \partial \dot q^i$ is conserved. (
 $$L = \tfrac{1}{2} m \ell^2 \dot\theta^2 - m g \ell (1 - \cos\theta).$$
 EL: $\ell \ddot\theta + g \sin\theta = 0$. No mention of the constraint force in the rod.
 
-**Example: free particle on a sphere.** $Q = S^2$, $L = \tfrac{1}{2} m R^2 (\dot\theta^2 + \sin^2\theta\, \dot\varphi^2)$. EL gives geodesics on the sphere — great circles. The EL equations here are the same geodesic equations derived from the [Levi-Civita connection of the round metric](../../tensors-for-gr/05-connection-and-curvature/04-on-the-sphere.md).
+**Example: free particle on a sphere.** $Q = S^2$, $L = \tfrac{1}{2} m R^2 (\dot\theta^2 + \sin^2\theta\, \dot\varphi^2)$. EL gives geodesics on the sphere — great circles. The EL equations here are the same geodesic equations derived from the [Levi-Civita connection of the round metric](../../tensor-calculus-on-manifolds/09-connection-and-curvature/04-on-the-sphere.md).

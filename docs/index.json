@@ -1,6 +1,264 @@
 {
-  "generated_at": "2026-06-21T20:52:20.859Z",
+  "generated_at": "2026-06-24T03:32:22.396Z",
   "pieces": [
+    {
+      "slug": "tensor-calculus-on-manifolds",
+      "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+      "author": "Matthew Litwin",
+      "date": "2026-06-23",
+      "tags": [
+        "mathematics",
+        "physics",
+        "manifolds",
+        "tensors",
+        "differential-geometry",
+        "general-relativity"
+      ],
+      "summary": "A reference that develops the calculus of smooth manifolds from scratch and carries it through to general relativity. Part I is the coordinate-free foundation — manifolds, tangent and cotangent spaces, vector fields, differential forms, integration, de Rham cohomology. Part II builds tensors, the metric, the affine connection, and curvature on top of it, with the sphere as a running example and flat spacetime recovered as the special case, ending at the Einstein equations, Schwarzschild, and Einstein–Cartan.",
+      "html_path": "tensor-calculus-on-manifolds/index.html",
+      "structure": {
+        "slug": "tensor-calculus-on-manifolds",
+        "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+        "html_path": "tensor-calculus-on-manifolds/index.html",
+        "items": [
+          {
+            "slug": "manifolds",
+            "title": "Manifolds",
+            "html_path": "tensor-calculus-on-manifolds/manifolds/index.html",
+            "items": [
+              {
+                "slug": "charts-and-smooth-maps",
+                "title": "Manifolds, charts, smooth maps",
+                "html_path": "tensor-calculus-on-manifolds/manifolds/charts-and-smooth-maps.html"
+              },
+              {
+                "slug": "tangent-space",
+                "title": "Tangent space",
+                "html_path": "tensor-calculus-on-manifolds/manifolds/tangent-space.html"
+              },
+              {
+                "slug": "cotangent-space",
+                "title": "Cotangent space and 1-forms",
+                "html_path": "tensor-calculus-on-manifolds/manifolds/cotangent-space.html"
+              }
+            ]
+          },
+          {
+            "slug": "vector-fields-and-flows",
+            "title": "Vector fields and flows",
+            "html_path": "tensor-calculus-on-manifolds/vector-fields-and-flows/index.html",
+            "items": [
+              {
+                "slug": "vector-fields",
+                "title": "Vector fields",
+                "html_path": "tensor-calculus-on-manifolds/vector-fields-and-flows/vector-fields.html"
+              },
+              {
+                "slug": "flows-and-lie-bracket",
+                "title": "Flows and the Lie bracket",
+                "html_path": "tensor-calculus-on-manifolds/vector-fields-and-flows/flows-and-lie-bracket.html"
+              },
+              {
+                "slug": "lie-derivative",
+                "title": "Lie derivative",
+                "html_path": "tensor-calculus-on-manifolds/vector-fields-and-flows/lie-derivative.html"
+              }
+            ]
+          },
+          {
+            "slug": "differential-forms",
+            "title": "Differential forms",
+            "html_path": "tensor-calculus-on-manifolds/differential-forms/index.html",
+            "items": [
+              {
+                "slug": "k-forms-and-wedge",
+                "title": "k-forms and the wedge product",
+                "html_path": "tensor-calculus-on-manifolds/differential-forms/k-forms-and-wedge.html"
+              },
+              {
+                "slug": "exterior-derivative-and-pullback",
+                "title": "Exterior derivative and pullback",
+                "html_path": "tensor-calculus-on-manifolds/differential-forms/exterior-derivative-and-pullback.html"
+              },
+              {
+                "slug": "closed-and-exact",
+                "title": "Closed and exact forms",
+                "html_path": "tensor-calculus-on-manifolds/differential-forms/closed-and-exact.html"
+              }
+            ]
+          },
+          {
+            "slug": "integration",
+            "title": "Integration",
+            "html_path": "tensor-calculus-on-manifolds/integration/index.html",
+            "items": [
+              {
+                "slug": "orientation-and-integration",
+                "title": "Orientation and integration",
+                "html_path": "tensor-calculus-on-manifolds/integration/orientation-and-integration.html"
+              },
+              {
+                "slug": "stokes-theorem",
+                "title": "Stokes's theorem",
+                "html_path": "tensor-calculus-on-manifolds/integration/stokes-theorem.html"
+              }
+            ]
+          },
+          {
+            "slug": "de-rham",
+            "title": "De Rham cohomology",
+            "html_path": "tensor-calculus-on-manifolds/de-rham/index.html",
+            "items": [
+              {
+                "slug": "cohomology",
+                "title": "De Rham cohomology",
+                "html_path": "tensor-calculus-on-manifolds/de-rham/cohomology.html"
+              },
+              {
+                "slug": "poincare-lemma",
+                "title": "The Poincaré lemma",
+                "html_path": "tensor-calculus-on-manifolds/de-rham/poincare-lemma.html"
+              }
+            ]
+          },
+          {
+            "slug": "coordinate-systems",
+            "title": "Coordinate systems on the sphere",
+            "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html",
+            "items": [
+              {
+                "slug": "the-sphere-and-two-charts",
+                "title": "The sphere and two charts",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html"
+              },
+              {
+                "slug": "standard-coordinates",
+                "title": "Standard coordinates",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html"
+              },
+              {
+                "slug": "skew-coordinates",
+                "title": "Skew coordinates",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html"
+              },
+              {
+                "slug": "changing-charts",
+                "title": "Changing charts",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html"
+              },
+              {
+                "slug": "vectors-and-covectors-on-the-sphere",
+                "title": "Vectors and covectors on the sphere",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "tensors",
+            "title": "Tensors",
+            "html_path": "tensor-calculus-on-manifolds/tensors/index.html",
+            "items": [
+              {
+                "slug": "multilinear-and-rank",
+                "title": "Multilinear maps and rank",
+                "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html"
+              },
+              {
+                "slug": "coordinate-components",
+                "title": "Coordinate components and the transformation rule",
+                "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html"
+              },
+              {
+                "slug": "co-contra-vs-k-forms",
+                "title": "Two languages, side by side",
+                "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html"
+              },
+              {
+                "slug": "on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensor-calculus-on-manifolds/tensors/on-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "metric",
+            "title": "The metric",
+            "html_path": "tensor-calculus-on-manifolds/metric/index.html",
+            "items": [
+              {
+                "slug": "the-metric-tensor",
+                "title": "The metric tensor",
+                "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
+              },
+              {
+                "slug": "raising-and-lowering",
+                "title": "Raising and lowering, trace, volume form",
+                "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
+              },
+              {
+                "slug": "on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensor-calculus-on-manifolds/metric/on-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "connection-and-curvature",
+            "title": "Connection and curvature",
+            "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html",
+            "items": [
+              {
+                "slug": "affine-connection",
+                "title": "The affine connection",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
+              },
+              {
+                "slug": "covariant-derivative",
+                "title": "The covariant derivative",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
+              },
+              {
+                "slug": "torsion-and-curvature",
+                "title": "Torsion and curvature",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
+              },
+              {
+                "slug": "on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "general-relativity",
+            "title": "General relativity",
+            "html_path": "tensor-calculus-on-manifolds/general-relativity/index.html",
+            "items": [
+              {
+                "slug": "einstein-equations",
+                "title": "The Einstein equations",
+                "html_path": "tensor-calculus-on-manifolds/general-relativity/einstein-equations.html"
+              },
+              {
+                "slug": "schwarzschild",
+                "title": "Schwarzschild — the torsion-free worked example",
+                "html_path": "tensor-calculus-on-manifolds/general-relativity/schwarzschild.html"
+              },
+              {
+                "slug": "einstein-cartan",
+                "title": "Einstein–Cartan — gravity with torsion",
+                "html_path": "tensor-calculus-on-manifolds/general-relativity/einstein-cartan.html"
+              }
+            ]
+          },
+          {
+            "slug": "notes",
+            "title": "Notes",
+            "html_path": "tensor-calculus-on-manifolds/notes.html"
+          }
+        ]
+      }
+    },
     {
       "slug": "ovid-metamorphoses",
       "title": "Ovid's Metamorphoses",
@@ -163,305 +421,6 @@
             "slug": "notes",
             "title": "Grammar reference",
             "html_path": "ovid-metamorphoses/notes.html"
-          }
-        ]
-      }
-    },
-    {
-      "slug": "tensors-for-gr",
-      "title": "Tensors for General Relativity",
-      "author": "Matthew Litwin",
-      "date": "2026-05-21",
-      "tags": [
-        "mathematics",
-        "physics",
-        "tensors",
-        "general-relativity",
-        "differential-geometry"
-      ],
-      "summary": "A comprehensive introduction to tensors for a reader with multivariable calculus and linear algebra who wants to be able to read a general relativity textbook. Embedded and abstract views in parallel; index notation and coordinate-free notation in parallel; the sphere as a running example; the affine connection given its own treatment; GR with and without torsion.",
-      "html_path": "tensors-for-gr/index.html",
-      "structure": {
-        "slug": "tensors-for-gr",
-        "title": "Tensors for General Relativity",
-        "html_path": "tensors-for-gr/index.html",
-        "items": [
-          {
-            "slug": "coordinate-systems",
-            "title": "Coordinate systems on the sphere",
-            "html_path": "tensors-for-gr/coordinate-systems/index.html",
-            "items": [
-              {
-                "slug": "the-sphere-and-two-charts",
-                "title": "The sphere and two charts",
-                "html_path": "tensors-for-gr/coordinate-systems/the-sphere-and-two-charts.html"
-              },
-              {
-                "slug": "standard-coordinates",
-                "title": "Standard coordinates",
-                "html_path": "tensors-for-gr/coordinate-systems/standard-coordinates.html"
-              },
-              {
-                "slug": "skew-coordinates",
-                "title": "Skew coordinates",
-                "html_path": "tensors-for-gr/coordinate-systems/skew-coordinates.html"
-              },
-              {
-                "slug": "changing-charts",
-                "title": "Changing charts",
-                "html_path": "tensors-for-gr/coordinate-systems/changing-charts.html"
-              }
-            ]
-          },
-          {
-            "slug": "vectors-and-covectors",
-            "title": "Vectors and covectors",
-            "html_path": "tensors-for-gr/vectors-and-covectors/index.html",
-            "items": [
-              {
-                "slug": "tangent-vectors",
-                "title": "Tangent vectors",
-                "html_path": "tensors-for-gr/vectors-and-covectors/tangent-vectors.html"
-              },
-              {
-                "slug": "dual-vectors",
-                "title": "Dual vectors and 1-forms",
-                "html_path": "tensors-for-gr/vectors-and-covectors/dual-vectors.html"
-              },
-              {
-                "slug": "on-the-sphere",
-                "title": "On the sphere",
-                "html_path": "tensors-for-gr/vectors-and-covectors/on-the-sphere.html"
-              }
-            ]
-          },
-          {
-            "slug": "tensors",
-            "title": "Tensors",
-            "html_path": "tensors-for-gr/tensors/index.html",
-            "items": [
-              {
-                "slug": "multilinear-and-rank",
-                "title": "Multilinear maps and rank",
-                "html_path": "tensors-for-gr/tensors/multilinear-and-rank.html"
-              },
-              {
-                "slug": "coordinate-components",
-                "title": "Coordinate components and the transformation rule",
-                "html_path": "tensors-for-gr/tensors/coordinate-components.html"
-              },
-              {
-                "slug": "co-contra-vs-k-forms",
-                "title": "Two languages, side by side",
-                "html_path": "tensors-for-gr/tensors/co-contra-vs-k-forms.html"
-              },
-              {
-                "slug": "on-the-sphere",
-                "title": "On the sphere",
-                "html_path": "tensors-for-gr/tensors/on-the-sphere.html"
-              }
-            ]
-          },
-          {
-            "slug": "metric",
-            "title": "The metric",
-            "html_path": "tensors-for-gr/metric/index.html",
-            "items": [
-              {
-                "slug": "the-metric-tensor",
-                "title": "The metric tensor",
-                "html_path": "tensors-for-gr/metric/the-metric-tensor.html"
-              },
-              {
-                "slug": "raising-and-lowering",
-                "title": "Raising and lowering, trace, volume form",
-                "html_path": "tensors-for-gr/metric/raising-and-lowering.html"
-              },
-              {
-                "slug": "on-the-sphere",
-                "title": "On the sphere",
-                "html_path": "tensors-for-gr/metric/on-the-sphere.html"
-              }
-            ]
-          },
-          {
-            "slug": "connection-and-curvature",
-            "title": "Connection and curvature",
-            "html_path": "tensors-for-gr/connection-and-curvature/index.html",
-            "items": [
-              {
-                "slug": "affine-connection",
-                "title": "The affine connection",
-                "html_path": "tensors-for-gr/connection-and-curvature/affine-connection.html"
-              },
-              {
-                "slug": "covariant-derivative",
-                "title": "The covariant derivative",
-                "html_path": "tensors-for-gr/connection-and-curvature/covariant-derivative.html"
-              },
-              {
-                "slug": "torsion-and-curvature",
-                "title": "Torsion and curvature",
-                "html_path": "tensors-for-gr/connection-and-curvature/torsion-and-curvature.html"
-              },
-              {
-                "slug": "on-the-sphere",
-                "title": "On the sphere",
-                "html_path": "tensors-for-gr/connection-and-curvature/on-the-sphere.html"
-              }
-            ]
-          },
-          {
-            "slug": "general-relativity",
-            "title": "General relativity",
-            "html_path": "tensors-for-gr/general-relativity/index.html",
-            "items": [
-              {
-                "slug": "einstein-equations",
-                "title": "The Einstein equations",
-                "html_path": "tensors-for-gr/general-relativity/einstein-equations.html"
-              },
-              {
-                "slug": "schwarzschild",
-                "title": "Schwarzschild — the torsion-free worked example",
-                "html_path": "tensors-for-gr/general-relativity/schwarzschild.html"
-              },
-              {
-                "slug": "einstein-cartan",
-                "title": "Einstein–Cartan — gravity with torsion",
-                "html_path": "tensors-for-gr/general-relativity/einstein-cartan.html"
-              }
-            ]
-          },
-          {
-            "slug": "notes",
-            "title": "Notes",
-            "html_path": "tensors-for-gr/notes.html"
-          }
-        ]
-      }
-    },
-    {
-      "slug": "calculus-on-manifolds",
-      "title": "Calculus on Manifolds — A Cheat Sheet",
-      "author": "Matthew Litwin",
-      "date": "2026-05-18",
-      "tags": [
-        "mathematics",
-        "manifolds",
-        "differential-geometry"
-      ],
-      "summary": "A compact review of smooth manifolds, tangent and cotangent spaces, vector fields, differential forms, integration, and de Rham cohomology — definitions, key formulas, and key theorems, with proofs left to your textbook of choice.",
-      "html_path": "calculus-on-manifolds/index.html",
-      "structure": {
-        "slug": "calculus-on-manifolds",
-        "title": "Calculus on Manifolds — A Cheat Sheet",
-        "html_path": "calculus-on-manifolds/index.html",
-        "items": [
-          {
-            "slug": "manifolds",
-            "title": "Manifolds",
-            "html_path": "calculus-on-manifolds/manifolds/index.html",
-            "items": [
-              {
-                "slug": "charts-and-smooth-maps",
-                "title": "Manifolds, charts, smooth maps",
-                "html_path": "calculus-on-manifolds/manifolds/charts-and-smooth-maps.html"
-              },
-              {
-                "slug": "tangent-space",
-                "title": "Tangent space",
-                "html_path": "calculus-on-manifolds/manifolds/tangent-space.html"
-              },
-              {
-                "slug": "cotangent-space",
-                "title": "Cotangent space and 1-forms",
-                "html_path": "calculus-on-manifolds/manifolds/cotangent-space.html"
-              }
-            ]
-          },
-          {
-            "slug": "vector-fields-and-flows",
-            "title": "Vector fields and flows",
-            "html_path": "calculus-on-manifolds/vector-fields-and-flows/index.html",
-            "items": [
-              {
-                "slug": "vector-fields",
-                "title": "Vector fields",
-                "html_path": "calculus-on-manifolds/vector-fields-and-flows/vector-fields.html"
-              },
-              {
-                "slug": "flows-and-lie-bracket",
-                "title": "Flows and the Lie bracket",
-                "html_path": "calculus-on-manifolds/vector-fields-and-flows/flows-and-lie-bracket.html"
-              },
-              {
-                "slug": "lie-derivative",
-                "title": "Lie derivative",
-                "html_path": "calculus-on-manifolds/vector-fields-and-flows/lie-derivative.html"
-              }
-            ]
-          },
-          {
-            "slug": "differential-forms",
-            "title": "Differential forms",
-            "html_path": "calculus-on-manifolds/differential-forms/index.html",
-            "items": [
-              {
-                "slug": "k-forms-and-wedge",
-                "title": "k-forms and the wedge product",
-                "html_path": "calculus-on-manifolds/differential-forms/k-forms-and-wedge.html"
-              },
-              {
-                "slug": "exterior-derivative-and-pullback",
-                "title": "Exterior derivative and pullback",
-                "html_path": "calculus-on-manifolds/differential-forms/exterior-derivative-and-pullback.html"
-              },
-              {
-                "slug": "closed-and-exact",
-                "title": "Closed and exact forms",
-                "html_path": "calculus-on-manifolds/differential-forms/closed-and-exact.html"
-              }
-            ]
-          },
-          {
-            "slug": "integration",
-            "title": "Integration",
-            "html_path": "calculus-on-manifolds/integration/index.html",
-            "items": [
-              {
-                "slug": "orientation-and-integration",
-                "title": "Orientation and integration",
-                "html_path": "calculus-on-manifolds/integration/orientation-and-integration.html"
-              },
-              {
-                "slug": "stokes-theorem",
-                "title": "Stokes's theorem",
-                "html_path": "calculus-on-manifolds/integration/stokes-theorem.html"
-              }
-            ]
-          },
-          {
-            "slug": "de-rham",
-            "title": "De Rham cohomology",
-            "html_path": "calculus-on-manifolds/de-rham/index.html",
-            "items": [
-              {
-                "slug": "cohomology",
-                "title": "De Rham cohomology",
-                "html_path": "calculus-on-manifolds/de-rham/cohomology.html"
-              },
-              {
-                "slug": "poincare-lemma",
-                "title": "The Poincaré lemma",
-                "html_path": "calculus-on-manifolds/de-rham/poincare-lemma.html"
-              }
-            ]
-          },
-          {
-            "slug": "notes",
-            "title": "Notes",
-            "html_path": "calculus-on-manifolds/notes.html"
           }
         ]
       }

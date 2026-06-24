@@ -4,7 +4,7 @@ title: Action and the Euler–Lagrange equations
 
 A mechanical system on configuration space $Q$ (an $n$-dimensional manifold) is specified by a smooth **Lagrangian**
 $$L: TQ \times \mathbb{R} \to \mathbb{R}, \qquad (q, \dot q, t) \mapsto L(q, \dot q, t),$$
-defined on the [tangent bundle](../../calculus-on-manifolds/01-manifolds/02-tangent-space.md) $TQ$ of configuration space — a point of $TQ$ is a position together with a velocity at that position.
+defined on the [tangent bundle](../../tensor-calculus-on-manifolds/01-manifolds/02-tangent-space.md) $TQ$ of configuration space — a point of $TQ$ is a position together with a velocity at that position.
 For ordinary classical mechanics, $L = T - V$ (kinetic minus potential energy).
 
 **Action.** For a smooth path $q: [t_1, t_2] \to Q$,
