@@ -85,7 +85,7 @@ Three related but distinct objects share the name.
 
 **Levi-Civita tensor.** The honest tensor $\epsilon_{\mu_1 \cdots \mu_n} := \sqrt{|\det g|}\, \varepsilon_{\mu_1 \cdots \mu_n}$. The factor of $\sqrt{|\det g|}$ converts the density into a tensor; this is the canonical volume form $\mathrm{vol}_g$.
 
-**Levi-Civita connection.** The unique torsion-free metric-compatible connection of a pseudo-Riemannian manifold $(M, g)$. The connection assumed throughout standard GR. Christoffel symbols given by the formula in the covariant-derivative section of the connection-and-curvature chapter.
+**Levi-Civita connection.** The unique torsion-free metric-compatible connection of a pseudo-Riemannian manifold $(M, g)$. The connection assumed throughout standard GR. Christoffel symbols given by the formula in the [covariant-derivative page](09-connection-and-curvature/02-covariant-derivative.md).
 
 Three different objects, one Italian mathematician. Context picks which is meant.
 
@@ -99,13 +99,13 @@ $$\nabla_\mu K_\nu + \nabla_\nu K_\mu = 0$$
 
 Killing fields are the infinitesimal generators of isometries: their flows are one-parameter families of isometries of $(M, g)$. On $S^2$ with the round metric, the three generators of $SO(3)$ give three Killing fields; in spherical coordinates, $\partial_\varphi$ is one of them (rotation about the $Z$-axis).
 
-Along a geodesic $\gamma$, $K_\mu \dot\gamma^\mu$ is conserved — every Killing vector gives a conserved quantity for free-fall motion. This is the geodesic instance of Noether's theorem: a Killing vector is a continuous symmetry of the geodesic action $\int g_{\mu\nu}\dot x^\mu \dot x^\nu\, d\lambda$, and $K_\mu \dot\gamma^\mu$ is the Noether charge (the `classical-mechanics` review has the general theorem). In Schwarzschild, $\partial_t$ and $\partial_\varphi$ are Killing; the two conserved quantities they yield are the energy $E$ and angular momentum $L$ that drive the orbit calculation.
+Along a geodesic $\gamma$, $K_\mu \dot\gamma^\mu$ is conserved — every Killing vector gives a conserved quantity for free-fall motion. This is the geodesic instance of Noether's theorem: a Killing vector is a continuous symmetry of the geodesic action $\int g_{\mu\nu}\dot x^\mu \dot x^\nu\, d\lambda$, and $K_\mu \dot\gamma^\mu$ is the Noether charge (the [`classical-mechanics`](../classical-mechanics/04-noether/01-noethers-theorem.md) review has the general theorem). In Schwarzschild, $\partial_t$ and $\partial_\varphi$ are Killing; the two conserved quantities they yield are the energy $E$ and angular momentum $L$ that drive the orbit calculation.
 
 ## Cochain complex
 
 A **cochain complex** is a sequence of abelian groups (or vector spaces) and linear maps
 $$\cdots \to C^{k-1} \xrightarrow{d^{k-1}} C^k \xrightarrow{d^k} C^{k+1} \to \cdots$$
-with $d^k \circ d^{k-1} = 0$ for every $k$. The kernel of each $d^k$ ("cocycles") contains the image of the previous $d^{k-1}$ ("coboundaries"), and the quotient $\ker(d^k) / \mathrm{im}(d^{k-1})$ is the $k$-th *cohomology* of the complex. The complex $\Omega^0 \to \Omega^1 \to \Omega^2 \to \cdots$ with the exterior derivative as $d$ is the **de Rham complex**.
+with $d^k \circ d^{k-1} = 0$ for every $k$. The kernel of each $d^k$ ("cocycles") contains the image of the previous $d^{k-1}$ ("coboundaries"), and the quotient $\ker(d^k) / \mathrm{im}(d^{k-1})$ is the $k$-th *cohomology* of the complex. The complex $\Omega^0 \to \Omega^1 \to \Omega^2 \to \cdots$ with [exterior derivative](03-differential-forms/02-exterior-derivative-and-pullback.md) as $d$ is the **de Rham complex**.
 
 ## Singular cohomology
 

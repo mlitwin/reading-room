@@ -154,6 +154,22 @@ function resolveAgLinks(html, assetPrefix) {
   });
 }
 
+// Note bodies are rendered once with links relative to the notes page, which
+// lives at the book root. When a popover source is injected into a host page
+// deeper in the book, those relative hrefs must be shifted up by the host
+// page's within-book depth (`prefix` = `../` × depth) so they resolve from the
+// host page rather than the notes page. Scheme links (`ag:`, `note:`, `http:`,
+// …), in-page anchors, and root-relative hrefs are left untouched — `ag:` links
+// are resolved later by resolveAgLinks against the page's assetPrefix, and
+// `note:` links have already become popover buttons (no href).
+function relocateNoteLinks(htmlStr, prefix) {
+  if (!prefix) return htmlStr;
+  return htmlStr.replace(/href="([^"]*)"/g, (m, href) => {
+    if (!href || /^([a-z][a-z0-9+.\-]*:|#|\/)/i.test(href)) return m;
+    return `href="${prefix}${href}"`;
+  });
+}
+
 function applyTemplate(tpl, vars) {
   return tpl.replace(/\{\{(\w+)\}\}/g, (_, k) => (vars[k] ?? ''));
 }
@@ -766,8 +782,11 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
   }
 
   // Emit hidden note-source asides for all reachable notes (body-text refs
-  // plus the grammar notes added above).
+  // plus the grammar notes added above). Note hrefs are authored relative to
+  // the notes page (book root); shift them to this host page's depth.
   if (env.referencedNotes.size > 0 && notesDict) {
+    const noteHostPath = htmlPathFor(node);
+    const notePrefix = '../'.repeat(Math.max(0, (noteHostPath.match(/\//g) || []).length - 1));
     const reachable = transitiveNoteClosure(env.referencedNotes, notesDict);
     const popovers = [...reachable].map(key => {
       const n = notesDict[key];
@@ -775,7 +794,7 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
       const noteId = `note-${escapeAttr(key)}`;
       return `<aside hidden id="${noteId}" class="note-popover-source" data-label="${escapeAttr(n.title)}">
   <h3 class="note-title">${escapeHtml(n.title)}</h3>
-  ${n.html}
+  ${relocateNoteLinks(n.html, notePrefix)}
 </aside>`;
     }).filter(Boolean).join('\n');
     if (popovers) body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
