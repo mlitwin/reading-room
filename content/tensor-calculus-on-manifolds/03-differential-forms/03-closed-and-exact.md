@@ -19,4 +19,4 @@ is closed (check directly that $d\omega = 0$). But it isn't exact: integrating o
 
 The form $\omega$ is "$d\theta$" in polar coordinates, but $\theta$ isn't a globally defined function on $\mathbb{R}^2 \setminus \{0\}$ — it's a multivalued angle.
 
-**Local result.** On a contractible open set, every closed form is exact. The cohomology measuring the gap between closed and exact is therefore purely a global, topological invariant — the theme of the next section.
+**Local result.** On a [contractible](note:contractible) open set, every closed form is exact. The cohomology measuring the gap between closed and exact is therefore purely a global, topological invariant — the theme of the next section.

@@ -16,7 +16,7 @@ Properties:
 - **Jacobi identity**: $\{f, \{g, h\}\} + \{g, \{h, f\}\} + \{h, \{f, g\}\} = 0$.
 - **Leibniz**: $\{f, gh\} = \{f, g\} h + g \{f, h\}$.
 
-These make $(C^\infty(T^* Q), \{\cdot, \cdot\})$ a Lie algebra (and a Poisson algebra). The fundamental brackets:
+These make $(C^\infty(T^* Q), \{\cdot, \cdot\})$ a Lie algebra (and a **Poisson algebra** — a commutative algebra under pointwise product whose bracket is a derivation in each slot, the Leibniz property above). The fundamental brackets:
 $$\{q^i, q^j\} = 0, \qquad \{p_i, p_j\} = 0, \qquad \{q^i, p_j\} = \delta^i_j.$$
 
 **Evolution.** For any smooth $f(q, p, t)$ on phase space,

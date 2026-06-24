@@ -10,7 +10,7 @@ Equivalently, an orientation is a consistent choice of "right-handed basis" at e
 
 **Oriented chart.** A chart $(U, \varphi)$ is **positively oriented** if $dx^1 \wedge \cdots \wedge dx^n$ agrees with the orientation of $M$ on $U$.
 
-**Integration of $n$-forms.** For a positively oriented chart $(U, \varphi)$ and a compactly supported $n$-form
+**Integration of $n$-forms.** For a positively oriented chart $(U, \varphi)$ and a [compactly supported](note:compact-support) $n$-form
 $$\omega = f\, dx^1 \wedge \cdots \wedge dx^n \in \Omega^n_c(U),$$
 define
 $$\int_M \omega := \int_{\varphi(U)} (f \circ \varphi^{-1})\, dx^1 \cdots dx^n,$$

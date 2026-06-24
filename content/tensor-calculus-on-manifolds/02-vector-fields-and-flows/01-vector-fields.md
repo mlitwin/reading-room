@@ -4,7 +4,7 @@ title: Vector fields
 
 A **vector field** on $M$ is a smooth section of the tangent bundle: a smooth map $X: M \to TM$ with $\pi \circ X = \mathrm{id}_M$. Equivalently, an assignment $p \mapsto X_p \in T_p M$ varying smoothly with $p$.
 
-The space of vector fields is $\mathfrak{X}(M)$ (also written $\Gamma(TM)$). It is an $\mathbb{R}$-vector space and a $C^\infty(M)$-module.
+The space of vector fields is $\mathfrak{X}(M)$ (also written $\Gamma(TM)$). It is an $\mathbb{R}$-vector space and a $C^\infty(M)$-**module** — the vector-space axioms, but with smooth functions rather than real numbers as the scalars (you can scale a vector field by a function $f \in C^\infty(M)$).
 
 **Coordinate expression.**
 $$X = X^i\, \partial_i, \qquad X^i \in C^\infty(U).$$

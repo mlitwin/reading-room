@@ -2,7 +2,7 @@
 title: The Poincaré lemma
 ---
 
-**Poincaré lemma.** On any contractible open subset $U$ of a smooth manifold (or, more concretely, on a [star-shaped](note:star-shaped) open subset of $\mathbb{R}^n$),
+**Poincaré lemma.** On any [contractible](note:contractible) open subset $U$ of a smooth manifold (or, more concretely, on a [star-shaped](note:star-shaped) open subset of $\mathbb{R}^n$),
 $$H^k_{dR}(U) = 0 \quad \text{for all } k \geq 1.$$
 
 Equivalently: on a contractible manifold, every closed form of positive degree is exact.

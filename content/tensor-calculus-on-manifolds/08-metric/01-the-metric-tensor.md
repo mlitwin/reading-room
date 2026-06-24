@@ -43,6 +43,6 @@ It is always symmetric, but is non-degenerate (hence a true metric) only when $d
 
 ## Existence
 
-Any paracompact manifold admits a Riemannian metric — partition-of-unity construction. Lorentzian metrics are much more restrictive: a closed orientable $n$-manifold admits a Lorentzian metric iff it has a nowhere-vanishing vector field, equivalently iff its Euler characteristic vanishes. Among compact $2$-manifolds, only the torus and Klein bottle admit Lorentzian metrics; the sphere does not. ($S^2$ has Euler characteristic $2$.)
+Any paracompact manifold — which here means every manifold in this book, since [second-countable](note:second-countable) Hausdorff implies paracompact — admits a Riemannian metric, by a partition-of-unity construction. Lorentzian metrics are much more restrictive: a closed orientable $n$-manifold admits a Lorentzian metric iff it has a nowhere-vanishing vector field, equivalently iff its Euler characteristic vanishes. Among compact $2$-manifolds, only the torus and Klein bottle admit Lorentzian metrics; the sphere does not. ($S^2$ has Euler characteristic $2$.)
 
 This is one reason GR is set on non-compact spacetimes (open $4$-manifolds, asymptotically flat or otherwise) rather than compact ones: a closed $4$-manifold needs vanishing Euler characteristic just to carry a Lorentzian metric at all.

@@ -13,6 +13,10 @@ A topological space is **Hausdorff** if any two distinct points $p, q$ have disj
 
 A topological space is **second countable** if its topology has a countable base: countably many open sets such that every open set is a union of some of them. Equivalently for metric spaces, $X$ has a countable dense subset and balls of rational radius centered on that subset form a base. This is what makes paracompactness and partition-of-unity arguments work on a manifold.
 
+## Compact support
+
+A function (or vector field, or differential form) has **compact support** if it vanishes outside some compact subset $K \subseteq M$. On a non-compact manifold this is the condition that makes $\int_M$ converge and that kills the boundary contributions at infinity — it is why Stokes's theorem and the integration of $n$-forms are stated for compactly supported forms. On a *compact* manifold every smooth function has compact support automatically, so the qualifier can be dropped.
+
 ## Embedded manifold
 
 A **smooth submanifold** of $\mathbb{R}^N$ is a subset $M \subseteq \mathbb{R}^N$ that locally looks like the graph of a smooth function: around every $p \in M$ there is an open $U \subseteq \mathbb{R}^N$, an open $V \subseteq \mathbb{R}^n$, and a smooth embedding $\Phi: V \to U \cap M$ whose differential is everywhere injective. The image $\Phi(V)$ is an open piece of $M$, and the $n$ coordinates on $V$ are a chart on $M$.
@@ -110,6 +114,12 @@ with $d^k \circ d^{k-1} = 0$ for every $k$. The kernel of each $d^k$ ("cocycles"
 ## Singular cohomology
 
 **Singular cohomology** $H^k(X; A)$ of a topological space $X$ with coefficients in an abelian group $A$ is built from the dual of the singular [chain complex](note:cochain-complex). A *singular $k$-simplex* in $X$ is a continuous map $\Delta^k \to X$; the free abelian group on these forms $C_k(X)$, with the boundary map $\partial_k: C_k \to C_{k-1}$. Then $C^k(X; A) := \mathrm{Hom}(C_k(X), A)$ and $d := \partial^*$. Cohomology depends only on the homotopy type of $X$, and for paracompact [Hausdorff](note:hausdorff) $X$ the singular and de Rham versions agree (de Rham's theorem).
+
+## Contractible
+
+Two smooth maps $F, G: M \to N$ are **(smoothly) homotopic**, written $F \simeq G$, if one can be deformed into the other: there is a smooth $H: M \times [0, 1] \to N$ with $H(\cdot, 0) = F$ and $H(\cdot, 1) = G$. A manifold $M$ is **contractible** if its identity map is homotopic to a constant map — $M$ can be continuously shrunk to a point. Convex and [star-shaped](note:star-shaped) subsets of $\mathbb{R}^n$ are contractible; $\mathbb{R}^n$ is, but $\mathbb{R}^n \setminus \{0\}$ and the sphere are not.
+
+De Rham cohomology is a **homotopy invariant**: homotopic maps induce the same map on cohomology, so a contractible manifold has the cohomology of a point (all reduced groups vanish — the Poincaré lemma).
 
 ## Star-shaped
 

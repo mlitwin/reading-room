@@ -17,7 +17,7 @@ a graded-commutative $\mathbb{R}$-algebra.
 - $H^k_{dR}(M) = 0$ for $k > \dim M$.
 - For $M$ compact, connected, orientable: $H^n_{dR}(M) \cong \mathbb{R}$, with isomorphism $[\omega] \mapsto \int_M \omega$.
 - A smooth map $F: M \to N$ induces a graded-algebra map $F^*: H^*_{dR}(N) \to H^*_{dR}(M)$.
-- **Homotopy invariance.** If $F \simeq G$ smoothly, then $F^* = G^*$ on cohomology.
+- **[Homotopy invariance](note:contractible).** If $F \simeq G$ smoothly, then $F^* = G^*$ on cohomology.
 
 **De Rham's theorem.** The de Rham cohomology is naturally isomorphic to the [singular cohomology](note:singular-cohomology) of $M$ with real coefficients:
 $$H^k_{dR}(M) \;\cong\; H^k(M; \mathbb{R}).$$

@@ -6,7 +6,7 @@ A **manifold with boundary** is a topological space modeled locally on $\mathbb{
 
 **Boundary orientation.** If $M$ is oriented with form $\Omega$ and $\nu$ is an outward-pointing vector field along $\partial M$, the induced orientation on $\partial M$ is represented by $\iota_\nu \Omega|_{\partial M}$. ("Outward normal first" convention.)
 
-**Stokes's theorem.** Let $M$ be a smooth oriented $n$-manifold with boundary, and let $\omega \in \Omega^{n-1}(M)$ have compact support. Then
+**Stokes's theorem.** Let $M$ be a smooth oriented $n$-manifold with boundary, and let $\omega \in \Omega^{n-1}(M)$ have [compact support](note:compact-support). Then
 $$\boxed{\quad \int_M d\omega \;=\; \int_{\partial M} \omega \quad}$$
 with $\partial M$ given the induced orientation. (If $M$ has no boundary, both sides vanish when $\omega$ has compact support.)
 
