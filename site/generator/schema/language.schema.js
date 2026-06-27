@@ -87,7 +87,6 @@ export const LemmaEntrySchema = z.object({
   principal_parts: z.array(z.string().min(1)).optional(),
   paradigm: ParadigmSchema.optional(),
   ppp_paradigm: ParadigmSchema.optional(),
-  reviewed: z.boolean().default(false),
   notes: z.string().optional(),
   defective: z.boolean().optional(),
 });

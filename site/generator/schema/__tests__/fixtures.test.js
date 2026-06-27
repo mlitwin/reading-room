@@ -67,7 +67,6 @@ const leoLemmaFixture = {
       'voc.pl': 'leones',
     },
   },
-  reviewed: true,
 };
 
 const ubiAdvFixture = {
@@ -111,14 +110,12 @@ test('GrammarSchema accepts a well-formed grammar', () => {
 test('LemmaEntrySchema accepts a noun with paradigm', () => {
   const parsed = LemmaEntrySchema.parse(leoLemmaFixture);
   assert.equal(parsed.id, 'leo_n');
-  assert.equal(parsed.reviewed, true);
 });
 
 test('LemmaEntrySchema accepts an invariant POS lemma without paradigm', () => {
   const parsed = LemmaEntrySchema.parse(ubiAdvFixture);
   assert.equal(parsed.id, 'ubi_adv');
   assert.equal(parsed.paradigm, undefined);
-  assert.equal(parsed.reviewed, false); // default applies
 });
 
 test('ParadigmSchema accepts cells with both string and array values', () => {

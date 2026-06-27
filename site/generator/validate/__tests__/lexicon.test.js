@@ -60,7 +60,6 @@ const leoLemma = {
       'gen.pl': 'leonum',
     },
   },
-  reviewed: false,
 };
 
 const ubiAdv = {
@@ -69,7 +68,6 @@ const ubiAdv = {
   pos: 'adv',
   glosses: ['where'],
   head: 'ubi (adv.)',
-  reviewed: false,
 };
 
 const okLexicon = { language_id: 'latin', lemmata: [leoLemma, ubiAdv] };

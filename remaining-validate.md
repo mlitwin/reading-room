@@ -1,6 +1,6 @@
 # Validation Backlog
 
-`make validate` as of 2026-06-18: **0 errors, 0 warnings** — all invariants PASS.
+`make validate` as of 2026-06-26: **0 errors, 0 warnings** — all invariants PASS.
 
 ```
 ✓ grammar (G1–G3)
@@ -8,6 +8,43 @@
 ✓ glossary (Gl1–Gl5)
 ✓ concordance (C1–C11)
 ```
+
+---
+
+## Placeholder lexicon curation (2026-06-26)
+
+Closed the 64 `"placeholder pending lexicon curation"` stubs in
+`content/_language/latin/lexicon.json`. Most were mis-lemmatized (lemma stored
+as an inflected form, paradigm auto-generated against the wrong declension/POS),
+not merely missing glosses. Three-step tooling under `site/latin/`:
+
+1. `draft_placeholder_curation.py` → `staging/placeholder-worklist.json`:
+   gathers each stub's manuscript usage (surfaces + line refs) and a Whitaker's
+   WORDS draft. 41/64 drafted by WORDS; 23 needed Lewis & Short.
+2. `curate_placeholders.py` (+ `ls_lookup.py` over the vendored
+   `sources/lewis-short-json/`, gitignored): authored editorial decisions
+   (citation form, POS, gender/principal parts, concise glosses), generated
+   complete paradigms (deterministic regular decliners/conjugators with a
+   seed_vocab/DICTLINE fallback; hand-built pronouns/Greek nouns/defectives),
+   and surface-coverage-checked every manuscript token against the new cells.
+   → `staging/placeholder-corrections.json`.
+3. `apply_placeholder_curation.py`: writes the corrections into `lexicon.json`,
+   deletes the orphan `molleo_adv`, adds `ultra_adv` + `decens_adj`, re-points
+   the 3 conflated manuscript tokens (2× `ultra`, 1× `decens`), and reconciles
+   every affected token's candidate `parses`/`pos_hint` against the corrected
+   paradigms (gender-stamped to match `build-glossary`'s `genderStampParses`).
+
+Rebuild after applying: `make manuscript-md && (cd site/generator && node build.js)`
+regenerates the gitignored book `.md`, then the glossary/concordance/docs assets.
+
+The glosses are drafted/mechanical (cross-checked against WORDS + L&S) and still
+want a human editorial read. Notable judgement calls flagged in the entries'
+`notes`: `occido` (fall/die, not occīdo kill); `decet` verb vs the split-off
+`decens_adj`; `Zephyrus` noun (L108 nom.pl subject, not the adjective); `siquis`
+kept as a merged-token indefinite.
+
+The `reviewed` lemma field was removed entirely on 2026-06-26 (schema, data, and
+tooling) — the project isn't doing per-lemma editorial sign-off yet.
 
 ---
 

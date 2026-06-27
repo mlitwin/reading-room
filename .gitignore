@@ -33,3 +33,6 @@ app/*.certSigningRequest
 app/*.p12
 app/*.mobileprovision
 downloads/
+
+# Vendored Lewis & Short 1879 JSON (47M source for lexicon curation)
+site/latin/sources/lewis-short-json/

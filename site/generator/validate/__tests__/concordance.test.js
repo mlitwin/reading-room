@@ -31,9 +31,9 @@ const glossary = {
 const lexicon = {
   language_id: 'latin',
   lemmata: [
-    { id: 'leo_n', lemma: 'leo', pos: 'noun', glosses: ['lion'], head: 'leo', reviewed: false,
+    { id: 'leo_n', lemma: 'leo', pos: 'noun', glosses: ['lion'], head: 'leo',
       paradigm: { type: 'noun', rows: ['nom'], cols: ['sg'], cells: { 'nom.sg': 'leo' } } },
-    { id: 'que_encl', lemma: 'que', pos: 'enclitic', glosses: ['and'], head: '-que', reviewed: false },
+    { id: 'que_encl', lemma: 'que', pos: 'enclitic', glosses: ['and'], head: '-que' },
   ],
 };
 

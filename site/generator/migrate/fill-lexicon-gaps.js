@@ -48,7 +48,6 @@ const NEW_LEMMATA = [
       'base, foundation',
     ],
     head: 'solum, -i, n.',
-    reviewed: false,
     notes: '2nd-decl neuter. Glosses previously mis-attached to sol_n; the sol_n entry has been re-glossed to "the sun" in the same pass.',
     paradigm: {
       type: 'noun',
@@ -72,7 +71,6 @@ const NEW_LEMMATA = [
       'veteran, experienced',
     ],
     head: 'vetus, -eris',
-    reviewed: false,
     notes: '3rd-decl 1-termination adj, stem "veter-". Comparative veterior is rare; superlative veterrimus.',
     paradigm: {
       type: 'adj',
@@ -103,7 +101,6 @@ const NEW_LEMMATA = [
       'broadly, extensively',
     ],
     head: 'late',
-    reviewed: false,
     notes: 'Adverb from latus "wide". Comparative latius, superlative latissime — omitted as not currently needed.',
   },
   {
@@ -117,7 +114,6 @@ const NEW_LEMMATA = [
       'provisions, diet, food',
     ],
     head: 'victus, -us, m.',
-    reviewed: false,
     paradigm: {
       type: 'noun',
       rows: ['nom', 'voc', 'gen', 'dat', 'acc', 'abl'],
@@ -139,7 +135,6 @@ const NEW_LEMMATA = [
       'smooth, mild, easy, calm',
     ],
     head: 'lenis, -e',
-    reviewed: false,
     notes: '3rd-decl 2-termination adj (Whitaker ADJ 3 2), stem "len-".',
     paradigm: {
       type: 'adj',

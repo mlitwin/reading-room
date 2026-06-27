@@ -105,10 +105,8 @@ def audit_cards(by_lemma):
             errors.append(f'lexicon/{lemma}: glosses must be a non-empty list')
         pos = card.get('pos')
         paradigm = card.get('paradigm')
-        reviewed = card.get('reviewed', True)
         if pos in {'noun', 'adj', 'verb', 'pron'} and not paradigm:
-            if reviewed is not False:
-                errors.append(f'lexicon/{lemma}: missing paradigm for pos={pos}')
+            errors.append(f'lexicon/{lemma}: missing paradigm for pos={pos}')
             continue
         if paradigm and isinstance(paradigm, dict):
             ptype = paradigm.get('type')

@@ -13,7 +13,6 @@ const lexicon = {
       pos: 'noun',
       glosses: ['lion'],
       head: 'leo, leonis, m.',
-      reviewed: false,
       paradigm: {
         type: 'noun',
         rows: ['nom', 'gen'],
@@ -27,7 +26,6 @@ const lexicon = {
       pos: 'adv',
       glosses: ['where'],
       head: 'ubi',
-      reviewed: false,
     },
   ],
 };
