@@ -47,6 +47,11 @@ struct PieceDetailView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var state = BookViewState()
     @State private var fallbackToast: String?
+    @State private var showTOC = false
+
+    private var hasTOC: Bool {
+        piece.isBook && (state.nav?.pages.count ?? 0) > 1
+    }
 
     // Silent resume: reopen at the saved page if it still exists in the mirror,
     // otherwise the piece's own entry page. The saved scroll offset (if any) is
@@ -157,6 +162,26 @@ struct PieceDetailView: View {
                     }
                 }
             }
+            ToolbarItem(placement: .topBarTrailing) {
+                // Table of contents — jump anywhere in the book. Hidden while the
+                // popover is open, matching the inert-top-bar modal behavior.
+                if hasTOC && !state.isPopoverOpen {
+                    Button {
+                        showTOC = true
+                    } label: {
+                        Label("Contents", systemImage: "list.bullet")
+                    }
+                }
+            }
+        }
+        .sheet(isPresented: $showTOC) {
+            BookTOCView(
+                pages: state.nav?.pages ?? [],
+                currentPath: state.currentPath,
+                onSelect: { htmlPath in
+                    state.navigate(toHtmlPath: htmlPath, mirrorRoot: siteSync.mirrorRoot)
+                }
+            )
         }
         // Swipe gesture for book navigation. .simultaneousGesture so we
         // don't fight WebView scroll / selection / math-block horizontal
