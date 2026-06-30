@@ -14,17 +14,15 @@ final class BookViewState {
     var webViewCanGoBack: Bool = false
     var errorMessage: String?
     var nav: BookNav?
-    /// Non-nil while a note popover is open. The presented sheet binds to this.
-    var openNoteKey: String?
-    /// True while the web-side vocab card popover (#popover-host) is visible.
+    /// True while the web-side popover (#popover-host) is visible — vocab
+    /// cards, prose notes, and A&G refs all render here. iOS no longer has a
+    /// separate native note sheet; the in-page popover is the single surface.
     var isPopoverOpen: Bool = false
 
     var currentEntry: NavEntry? {
         guard let nav, let currentPath else { return nil }
         return nav.pages.first { $0.htmlPath == currentPath }
     }
-
-    var notesDict: [String: NoteData] { nav?.notes ?? [:] }
 
     func navigate(toHtmlPath htmlPath: String, mirrorRoot: URL) {
         var url = mirrorRoot
@@ -44,16 +42,6 @@ struct PieceDetailView: View {
 
     private var initialURL: URL {
         siteSync.localURL(for: piece.htmlPath)
-    }
-
-    // Base URL for the inner NoteWebView's relative-path resolution. Pointed
-    // at the book's notes page so links inside note content (which the
-    // generator wrote relative to the notes page) resolve correctly.
-    private var notesBaseURL: URL {
-        if let p = state.nav?.notesHtmlPath {
-            return siteSync.localURL(for: p)
-        }
-        return siteSync.mirrorRoot
     }
 
     var body: some View {
@@ -119,6 +107,11 @@ struct PieceDetailView: View {
         }
         .navigationTitle(piece.title)
         .navigationBarTitleDisplayMode(.inline)
+        // While the web popover is open, hide the system back chevron. It
+        // leaves the nav bar exposed, and reaching up for back to dismiss the
+        // popover would otherwise pop the whole book to the library. The
+        // popover carries its own prominent close. See nav UX work.
+        .navigationBarBackButtonHidden(state.isPopoverOpen)
         // Return from an in-WebView excursion (the popover's "Open full section
         // ↗" jump to a reference page). Distinct from the system back-to-library
         // button; appears only when the WebView has its own history. On return,
@@ -137,12 +130,12 @@ struct PieceDetailView: View {
         // Swipe gesture for book navigation. .simultaneousGesture so we
         // don't fight WebView scroll / selection / math-block horizontal
         // scroll. 60-pt threshold + horizontal-dominance check avoids
-        // triggering on incidental drags. Guard on openNoteKey so a swipe
-        // never fires through an open note sheet.
+        // triggering on incidental drags. Guard on isPopoverOpen so a swipe
+        // never fires through an open popover (vocab card / note / A&G ref).
         .simultaneousGesture(
             DragGesture(minimumDistance: 40)
                 .onEnded { value in
-                    guard state.openNoteKey == nil, !state.isPopoverOpen else { return }
+                    guard !state.isPopoverOpen else { return }
                     let dx = value.translation.width
                     let dy = value.translation.height
                     guard abs(dx) > 60, abs(dx) > abs(dy) * 1.5 else { return }
@@ -159,26 +152,6 @@ struct PieceDetailView: View {
         // for card-level prev/next and should never exit to the library.
         // Non-book pieces leave the pop gesture intact (swipe → back to library).
         .background(NavigationPopGestureControl(disabled: piece.isBook))
-        // Freeze the background WebView's scroll while the note sheet is
-        // open — prevents scroll bleed through the sheet's drag handle area.
-        .onChange(of: state.openNoteKey) { _, newKey in
-            state.webView?.scrollView.isScrollEnabled = newKey == nil
-        }
-        .sheet(isPresented: Binding(
-            get: { state.openNoteKey != nil },
-            set: { if !$0 { state.openNoteKey = nil } }
-        )) {
-            if let key = state.openNoteKey {
-                NoteSheet(
-                    notesDict: state.notesDict,
-                    initialKey: key,
-                    baseURL: notesBaseURL,
-                    onContentLink: { url in
-                        state.webView?.load(URLRequest(url: url))
-                    }
-                )
-            }
-        }
         .task {
             guard piece.isBook, state.nav == nil else { return }
             state.nav = loadNavFromMirror(slug: piece.slug)
@@ -353,12 +326,14 @@ struct PieceWebView: UIViewRepresentable {
     let state: BookViewState
 
     // Hide HTML chrome that the native UI is replacing: site header,
-    // breadcrumb, footer prev/next, and the HTML note popovers. (The web
-    // reader keeps everything visible since it has no native chrome.)
+    // breadcrumb, and footer prev/next. Note popovers are left intact —
+    // prose notes now render in the same in-page #popover-host as vocab
+    // cards and A&G refs (unified note surface). (The web reader keeps
+    // everything visible since it has no native chrome.)
     private static let hideChromeJS = """
         (function() {
           var style = document.createElement('style');
-          style.textContent = 'header.site, nav.breadcrumb, nav.page-nav, .note-popovers { display: none !important; } article { margin-top: 1rem !important; }';
+          style.textContent = 'header.site, nav.breadcrumb, nav.page-nav { display: none !important; } article { margin-top: 1rem !important; }';
           document.head.appendChild(style);
         })();
         """
@@ -377,29 +352,6 @@ struct PieceWebView: UIViewRepresentable {
               window.webkit.messageHandlers.popover.postMessage({ open: open });
             }
           });
-        })();
-        """
-
-    // Intercept .note-link clicks (the buttons that would otherwise open the
-    // HTML popover) and forward the note key to Swift for native sheet
-    // presentation. Capture phase so we beat the browser's built-in popover
-    // toggling.
-    private static let noteBridgeJS = """
-        (function() {
-          document.addEventListener('click', function(e) {
-            var btn = e.target.closest('button.note-link');
-            if (!btn) return;
-            // Let cards.js handle note links inside the vocab card popover —
-            // only escalate to the native sheet for links in the main text.
-            if (btn.closest('#popover-host')) return;
-            e.preventDefault();
-            e.stopPropagation();
-            var t = btn.getAttribute('popovertarget') || '';
-            var key = t.replace(/^note-/, '');
-            if (key && window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.note) {
-              window.webkit.messageHandlers.note.postMessage({ key: key });
-            }
-          }, true);
         })();
         """
 
@@ -430,13 +382,7 @@ struct PieceWebView: UIViewRepresentable {
             injectionTime: .atDocumentEnd,
             forMainFrameOnly: true
         ))
-        userContent.addUserScript(WKUserScript(
-            source: Self.noteBridgeJS,
-            injectionTime: .atDocumentEnd,
-            forMainFrameOnly: true
-        ))
         userContent.add(context.coordinator, name: "popover")
-        userContent.add(context.coordinator, name: "note")
         // On-demand source for the in-flow A&G reference notes: cards.js posts
         // here on the first ag: tap; we read the synced asset and inject it,
         // then resolve. Avoids a 2.4 MB always-on global at page load.
@@ -479,10 +425,6 @@ struct PieceWebView: UIViewRepresentable {
             case "popover":
                 let open = body["open"] as? Bool ?? false
                 DispatchQueue.main.async { self.parent.state.isPopoverOpen = open }
-            case "note":
-                if let key = body["key"] as? String {
-                    DispatchQueue.main.async { self.parent.state.openNoteKey = key }
-                }
             case "refnotes":
                 provideReferenceNotes(to: message.webView)
             default:

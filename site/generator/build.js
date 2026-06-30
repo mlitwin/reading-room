@@ -1171,22 +1171,9 @@ export async function build() {
         await fs.writeFile(outFile, html);
       }
 
-      // Bake notes into nav.json so iOS (and any other client) gets the
-      // dictionary in one fetch alongside the navigation chrome. Strip the
-      // internal `refs` field — only used by the generator.
-      if (notesDict) {
-        // Notes are consumed (web popovers, iOS NoteSheet) relative to the
-        // book's notes page, so resolve `ag:` deep links with that page's
-        // asset prefix. Falls back to the piece's own page depth.
-        const notesPrefix = assetPrefixFor(htmlPathFor(notesLeaf ?? piece));
-        nav.notes = {};
-        for (const [k, n] of Object.entries(notesDict)) {
-          nav.notes[k] = { title: n.title, html: resolveAgLinks(n.html, notesPrefix) };
-        }
-        if (notesLeaf) {
-          nav.notes_html_path = htmlPathFor(notesLeaf);
-        }
-      }
+      // Note content is no longer baked into nav.json: every client (web and
+      // iOS) renders notes from the in-page `.note-popover-source` asides via
+      // the unified #popover-host. nav.json carries navigation chrome only.
 
       // nav.json at docs/<slug>/nav.json
       const navOut = path.join(DOCS_DIR, piece.slug, 'nav.json');

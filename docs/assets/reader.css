@@ -455,7 +455,7 @@ nav.page-nav .placeholder { visibility: hidden; }
 }
 .popover-chrome-spacer { flex: 1; min-width: 0.5rem; }
 .popover-context-row { min-width: 0; }
-.popover-prev, .popover-next, .popover-close {
+.popover-prev, .popover-next {
   background: none;
   border: 0;
   cursor: pointer;
@@ -466,12 +466,36 @@ nav.page-nav .placeholder { visibility: hidden; }
   line-height: 1;
 }
 .popover-prev, .popover-next { font-size: 1.2rem; }
-.popover-close { font-size: 1.3rem; }
+
+/* Close gets a real button affordance: a bordered, filled control with a
+   comfortable touch target (≥ 44px) so it reads as the way out and isn't
+   mistaken for the muted nav arrows — which led readers to reach for the
+   native back button instead, exiting the whole book. */
+.popover-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  margin-left: 0.15rem;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--fg);
+}
 .popover-prev:not(:disabled):hover,
-.popover-next:not(:disabled):hover,
-.popover-close:hover {
+.popover-next:not(:disabled):hover {
   background: rgba(0, 0, 0, 0.06);
   color: var(--fg);
+}
+.popover-close:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
 }
 .popover-prev:disabled, .popover-next:disabled {
   opacity: 0.3;

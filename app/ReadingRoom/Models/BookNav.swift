@@ -2,18 +2,6 @@ import Foundation
 
 struct BookNav: Codable {
     let pages: [NavEntry]
-    let notes: [String: NoteData]?
-    let notesHtmlPath: String?
-
-    enum CodingKeys: String, CodingKey {
-        case pages, notes
-        case notesHtmlPath = "notes_html_path"
-    }
-}
-
-struct NoteData: Codable, Hashable {
-    let title: String
-    let html: String
 }
 
 struct NavEntry: Codable, Identifiable, Hashable {
