@@ -20,8 +20,8 @@ targets:
     info:
       path: ReadingRoom/Info.plist
       properties:
-        CFBundleShortVersionString: "0.1.9"
-        CFBundleVersion: "10"
+        CFBundleShortVersionString: "0.1.10"
+        CFBundleVersion: "11"
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
