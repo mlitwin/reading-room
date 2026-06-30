@@ -18,6 +18,13 @@ final class BookViewState {
     /// cards, prose notes, and A&G refs all render here. iOS no longer has a
     /// separate native note sheet; the in-page popover is the single surface.
     var isPopoverOpen: Bool = false
+    /// Last reported page scroll offset (page coords, from the JS scroll
+    /// bridge). Persisted for silent resume. Reset to 0 on each navigation.
+    var scrollY: Double = 0
+    /// Gate: true once the initial resume load has applied its saved position.
+    /// Suppresses saving before then so the resume load can't overwrite the
+    /// stored scroll with 0.
+    var didResume: Bool = false
 
     var currentEntry: NavEntry? {
         guard let nav, let currentPath else { return nil }
@@ -37,11 +44,23 @@ struct PieceDetailView: View {
     let piece: Piece
     @Environment(SiteSync.self) private var siteSync
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.scenePhase) private var scenePhase
     @State private var state = BookViewState()
     @State private var fallbackToast: String?
 
+    // Silent resume: reopen at the saved page if it still exists in the mirror,
+    // otherwise the piece's own entry page. The saved scroll offset (if any) is
+    // handed to the WebView and restored after the first load finishes.
+    private var savedPosition: ReadingPosition? {
+        ReadingPositionStore.position(forSlug: piece.slug)
+    }
+
     private var initialURL: URL {
-        siteSync.localURL(for: piece.htmlPath)
+        if let pos = savedPosition {
+            let url = siteSync.localURL(for: pos.htmlPath)
+            if FileManager.default.fileExists(atPath: url.path) { return url }
+        }
+        return siteSync.localURL(for: piece.htmlPath)
     }
 
     var body: some View {
@@ -59,6 +78,7 @@ struct PieceDetailView: View {
             ZStack {
                 PieceWebView(
                     initialURL: initialURL,
+                    initialScrollY: savedPosition?.scrollY ?? 0,
                     mirrorRoot: siteSync.mirrorRoot,
                     state: state
                 )
@@ -159,6 +179,26 @@ struct PieceDetailView: View {
         .onChange(of: siteSync.lastSyncDate) { _, _ in
             handleSyncCompleted()
         }
+        // Persist eagerly: on each navigation (page identity), on each settled
+        // scroll update (from the JS bridge, debounced), and on leave/background.
+        // The scroll-update path is what survives a hard kill — lifecycle events
+        // don't fire when the process is SIGKILLed (e.g. relaunch from Xcode).
+        .onChange(of: state.currentPath) { _, _ in saveReadingPosition() }
+        .onChange(of: state.scrollY) { _, _ in saveReadingPosition() }
+        .onChange(of: scenePhase) { _, phase in
+            if phase != .active { saveReadingPosition() }
+        }
+        .onDisappear { saveReadingPosition() }
+    }
+
+    private func saveReadingPosition() {
+        // Don't persist until the resume load has settled, or the initial
+        // currentPath/scrollY writes would clobber the stored scroll with 0.
+        guard state.didResume, let path = state.currentPath else { return }
+        ReadingPositionStore.save(
+            ReadingPosition(htmlPath: path, scrollY: state.scrollY),
+            forSlug: piece.slug
+        )
     }
 
     // Called after each successful sync. If the page the user is reading
@@ -322,6 +362,8 @@ private struct NavigationPopGestureControl: UIViewRepresentable {
 
 struct PieceWebView: UIViewRepresentable {
     let initialURL: URL
+    // Scroll offset to restore once, after the initial (resume) load finishes.
+    var initialScrollY: Double = 0
     let mirrorRoot: URL
     let state: BookViewState
 
@@ -355,6 +397,24 @@ struct PieceWebView: UIViewRepresentable {
         })();
         """
 
+    // Report the page scroll offset (page coords) to Swift, debounced to the
+    // trailing edge so it fires once the reader pauses/stops. Persisting on this
+    // signal is what makes silent resume survive a hard process kill.
+    private static let scrollBridgeJS = """
+        (function() {
+          var t;
+          function post() {
+            if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.scrollpos) {
+              window.webkit.messageHandlers.scrollpos.postMessage({ y: window.scrollY });
+            }
+          }
+          window.addEventListener('scroll', function() {
+            clearTimeout(t);
+            t = setTimeout(post, 250);
+          }, { passive: true });
+        })();
+        """
+
     func makeCoordinator() -> Coordinator { Coordinator(self) }
 
     func makeUIView(context: Context) -> WKWebView {
@@ -382,7 +442,13 @@ struct PieceWebView: UIViewRepresentable {
             injectionTime: .atDocumentEnd,
             forMainFrameOnly: true
         ))
+        userContent.addUserScript(WKUserScript(
+            source: Self.scrollBridgeJS,
+            injectionTime: .atDocumentEnd,
+            forMainFrameOnly: true
+        ))
         userContent.add(context.coordinator, name: "popover")
+        userContent.add(context.coordinator, name: "scrollpos")
         // On-demand source for the in-flow A&G reference notes: cards.js posts
         // here on the first ag: tap; we read the synced asset and inject it,
         // then resolve. Avoids a 2.4 MB always-on global at page load.
@@ -416,6 +482,7 @@ struct PieceWebView: UIViewRepresentable {
     final class Coordinator: NSObject, WKNavigationDelegate, WKScriptMessageHandler {
         let parent: PieceWebView
         var didLoadInitial = false
+        var didRestoreScroll = false
 
         init(_ parent: PieceWebView) { self.parent = parent }
 
@@ -425,6 +492,10 @@ struct PieceWebView: UIViewRepresentable {
             case "popover":
                 let open = body["open"] as? Bool ?? false
                 DispatchQueue.main.async { self.parent.state.isPopoverOpen = open }
+            case "scrollpos":
+                if let y = body["y"] as? Double {
+                    DispatchQueue.main.async { self.parent.state.scrollY = y }
+                }
             case "refnotes":
                 provideReferenceNotes(to: message.webView)
             default:
@@ -471,6 +542,10 @@ struct PieceWebView: UIViewRepresentable {
             parent.state.isLoading = true
             parent.state.isPopoverOpen = false
             parent.state.errorMessage = nil   // clear a prior error when navigating
+            // New page starts at the top; later didFinish restores the saved
+            // offset for the resume load only. Keeps the wrong page's scroll
+            // from being persisted against a freshly-navigated page.
+            parent.state.scrollY = 0
         }
 
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
@@ -478,6 +553,28 @@ struct PieceWebView: UIViewRepresentable {
             parent.state.errorMessage = nil
             parent.state.webViewCanGoBack = webView.canGoBack
             updateCurrentPath(webView: webView)
+            restoreScrollIfNeeded(webView)
+        }
+
+        // Restore the saved scroll offset exactly once, on the first (resume)
+        // load, in page coordinates (matching the JS scroll bridge). Re-applied
+        // shortly after because content height can still be settling at
+        // didFinish, which would otherwise clamp the target. Setting state.scrollY
+        // up front, then opening the didResume gate, means the first persisted
+        // save records the restored offset rather than 0.
+        private func restoreScrollIfNeeded(_ webView: WKWebView) {
+            guard !didRestoreScroll else { return }
+            didRestoreScroll = true
+            let y = parent.initialScrollY
+            parent.state.scrollY = y
+            if y > 0 {
+                let js = "window.scrollTo(0, \(y));"
+                webView.evaluateJavaScript(js)
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
+                    webView.evaluateJavaScript(js)
+                }
+            }
+            parent.state.didResume = true
         }
 
         func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
