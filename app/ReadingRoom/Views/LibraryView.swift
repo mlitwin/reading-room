@@ -7,11 +7,26 @@ struct LibraryView: View {
     @State private var showSettings = false
     @State private var path: [Piece] = []
     @State private var didAutoOpen = false
+    @State private var searchText = ""
+
+    // Case-insensitive match across title, author, summary, and tags. Empty
+    // query returns everything.
+    private var filteredPieces: [Piece] {
+        let q = searchText.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+        guard !q.isEmpty else { return library.pieces }
+        return library.pieces.filter { piece in
+            piece.title.lowercased().contains(q)
+                || (piece.author?.lowercased().contains(q) ?? false)
+                || piece.summary.lowercased().contains(q)
+                || piece.tags.contains { $0.lowercased().contains(q) }
+        }
+    }
 
     var body: some View {
         NavigationStack(path: $path) {
             content
                 .navigationTitle("Reading Room")
+                .searchable(text: $searchText, prompt: "Search title, author, tag")
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
                         Button {
@@ -107,9 +122,14 @@ struct LibraryView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         } else {
-            List(library.pieces) { piece in
+            List(filteredPieces) { piece in
                 NavigationLink(value: piece) {
                     PieceRow(piece: piece)
+                }
+            }
+            .overlay {
+                if filteredPieces.isEmpty {
+                    ContentUnavailableView.search(text: searchText)
                 }
             }
             .navigationDestination(for: Piece.self) { piece in
