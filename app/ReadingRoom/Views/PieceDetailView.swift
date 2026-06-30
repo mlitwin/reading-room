@@ -188,7 +188,14 @@ struct PieceDetailView: View {
         .onChange(of: scenePhase) { _, phase in
             if phase != .active { saveReadingPosition() }
         }
-        .onDisappear { saveReadingPosition() }
+        // Mark this as the open piece for reopen-on-launch. Cleared on disappear,
+        // which fires on a pop back to the library but NOT on backgrounding/kill —
+        // so we only auto-reopen when the app was closed while reading.
+        .onAppear { ReadingPositionStore.lastOpenSlug = piece.slug }
+        .onDisappear {
+            saveReadingPosition()
+            ReadingPositionStore.lastOpenSlug = nil
+        }
     }
 
     private func saveReadingPosition() {

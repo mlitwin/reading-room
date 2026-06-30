@@ -31,4 +31,21 @@ enum ReadingPositionStore {
             UserDefaults.standard.set(data, forKey: key)
         }
     }
+
+    // Slug of the piece the reader currently has open. Set when a piece appears,
+    // cleared when it's popped back to the library. On launch, a non-nil value
+    // means the app was last closed (backgrounded or killed) while reading —
+    // so reopen straight into it.
+    private static let lastOpenKey = "ReadingRoom.lastOpenSlug"
+
+    static var lastOpenSlug: String? {
+        get { UserDefaults.standard.string(forKey: lastOpenKey) }
+        set {
+            if let newValue {
+                UserDefaults.standard.set(newValue, forKey: lastOpenKey)
+            } else {
+                UserDefaults.standard.removeObject(forKey: lastOpenKey)
+            }
+        }
+    }
 }

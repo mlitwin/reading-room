@@ -5,9 +5,11 @@ struct LibraryView: View {
     @Environment(LibraryStore.self) private var library
     @Environment(SiteSync.self) private var siteSync
     @State private var showSettings = false
+    @State private var path: [Piece] = []
+    @State private var didAutoOpen = false
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             content
                 .navigationTitle("Reading Room")
                 .toolbar {
@@ -36,11 +38,24 @@ struct LibraryView: View {
                     if case .idle = library.state {
                         await library.refresh(from: siteSync.mirrorRoot)
                     }
+                    attemptAutoOpen()
                 }
+                .onChange(of: library.pieces) { _, _ in attemptAutoOpen() }
                 .onChange(of: siteSync.lastSyncDate) { _, _ in
                     Task { await library.refresh(from: siteSync.mirrorRoot) }
                 }
         }
+    }
+
+    // Reopen the piece the app was last closed inside, once, after the library
+    // loads. A nil lastOpenSlug (the reader backed out before closing) leaves us
+    // on the library. Runs at most once per launch.
+    private func attemptAutoOpen() {
+        guard !didAutoOpen, !library.pieces.isEmpty else { return }
+        didAutoOpen = true
+        guard let slug = ReadingPositionStore.lastOpenSlug,
+              let piece = library.pieces.first(where: { $0.slug == slug }) else { return }
+        path = [piece]
     }
 
     // Pull-to-refresh: trigger a network sync, await it, then re-read the
