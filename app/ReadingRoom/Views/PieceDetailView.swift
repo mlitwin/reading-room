@@ -72,6 +72,7 @@ struct PieceDetailView: View {
                 let ancestors = Array(entry.breadcrumbs.dropFirst())
                 if !ancestors.isEmpty {
                     breadcrumbRow(entry: entry, ancestors: ancestors)
+                        .modifier(InertWhilePopover(active: state.isPopoverOpen))
                 }
             }
 
@@ -112,6 +113,7 @@ struct PieceDetailView: View {
 
             if piece.isBook, let entry = state.currentEntry, (entry.prev != nil || entry.next != nil) {
                 bottomNavBar(entry: entry)
+                    .modifier(InertWhilePopover(active: state.isPopoverOpen))
             }
         }
         .overlay(alignment: .top) {
@@ -132,13 +134,22 @@ struct PieceDetailView: View {
         // popover would otherwise pop the whole book to the library. The
         // popover carries its own prominent close. See nav UX work.
         .navigationBarBackButtonHidden(state.isPopoverOpen)
+        // Freeze the page scroll behind the popover. Without this, a drag on the
+        // popover — especially its non-scrolling header — bleeds through to the
+        // WebView's scroll view and moves the article underneath. The popover's
+        // own `.popover-body` keeps its inner scroll (a separate scroller).
+        .onChange(of: state.isPopoverOpen) { _, open in
+            state.webView?.scrollView.isScrollEnabled = !open
+        }
         // Return from an in-WebView excursion (the popover's "Open full section
         // ↗" jump to a reference page). Distinct from the system back-to-library
         // button; appears only when the WebView has its own history. On return,
         // cards.js restores the popover from the #g= reading-state.
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
-                if state.webViewCanGoBack {
+                // Hidden while the popover is open so the top bar is fully inert
+                // (modal feel) — alongside the suppressed back chevron.
+                if state.webViewCanGoBack && !state.isPopoverOpen {
                     Button {
                         state.webView?.goBack()
                     } label: {
@@ -321,6 +332,20 @@ struct PieceDetailView: View {
             // Keeps the opposite-side button anchored.
             Color.clear.frame(width: 1, height: 1)
         }
+    }
+}
+
+// Dims and disables native book chrome (breadcrumb row, bottom nav bar) while
+// the web popover is open, so only the popover is live — a modal feel without
+// the layout shift that hiding the rows would cause.
+private struct InertWhilePopover: ViewModifier {
+    let active: Bool
+
+    func body(content: Content) -> some View {
+        content
+            .disabled(active)
+            .opacity(active ? 0.35 : 1)
+            .animation(.easeInOut(duration: 0.15), value: active)
     }
 }
 
