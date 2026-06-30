@@ -163,6 +163,22 @@ struct BookPager: UIViewControllerRepresentable {
             } else {
                 state.currentPath = vc.entry.htmlPath
             }
+            prewarmNeighbors(of: vc.index)
+        }
+
+        // After a page settles, instantiate and start loading the adjacent pages
+        // off-screen (next runloop, so it never blocks the current page's
+        // display). By the time the reader swipes, the neighbor's DOM/CSS/lexicon
+        // are already done, so it appears immediately instead of populating mid-swipe.
+        private func prewarmNeighbors(of index: Int) {
+            DispatchQueue.main.async { [weak self] in
+                guard let self else { return }
+                for i in [index - 1, index + 1] {
+                    guard let vc = self.pageController(forIndex: i) else { continue }
+                    vc.loadViewIfNeeded()       // builds the web view
+                    vc.startLoadingIfNeeded()   // begins the load off-screen
+                }
+            }
         }
 
         // MARK: ReaderWebDelegate — only the current page drives shared state.
@@ -242,6 +258,13 @@ final class PageHostController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        startLoadingIfNeeded()
+    }
+
+    /// Kick off the page load. Called from viewDidLoad for the visible page, and
+    /// early (off-screen) when a neighbor is pre-warmed so a swipe to it finds
+    /// the content already parsed rather than loading from cold.
+    func startLoadingIfNeeded() {
         guard !didLoad else { return }
         didLoad = true
         host.load(htmlPath: entry.htmlPath)
