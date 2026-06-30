@@ -31,7 +31,15 @@ final class BookViewState {
         return nav.pages.first { $0.htmlPath == currentPath }
     }
 
+    /// Installed by the active renderer. The pager pages to the target; the
+    /// single-doc reader loads it into its one web view (the default below).
+    var navigator: ((String) -> Void)?
+
     func navigate(toHtmlPath htmlPath: String, mirrorRoot: URL) {
+        if let navigator {
+            navigator(htmlPath)
+            return
+        }
         var url = mirrorRoot
         for component in htmlPath.split(separator: "/") {
             url = url.appendingPathComponent(String(component))
@@ -53,6 +61,13 @@ struct PieceDetailView: View {
         piece.isBook && (state.nav?.pages.count ?? 0) > 1
     }
 
+    // True when the reader is on an off-book reference page reached from the
+    // popover's "Open full section ↗" — i.e. the current page isn't one of the
+    // book's own nav pages, and there's WebView history to return through.
+    private var isOnReferenceExcursion: Bool {
+        state.currentPath != nil && state.currentEntry == nil && state.webViewCanGoBack
+    }
+
     // Silent resume: reopen at the saved page if it still exists in the mirror,
     // otherwise the piece's own entry page. The saved scroll offset (if any) is
     // handed to the WebView and restored after the first load finishes.
@@ -60,13 +75,16 @@ struct PieceDetailView: View {
         ReadingPositionStore.position(forSlug: piece.slug)
     }
 
-    private var initialURL: URL {
+    // Resume at the saved page if it still exists, else the piece's entry page.
+    private var initialPath: String {
         if let pos = savedPosition {
             let url = siteSync.localURL(for: pos.htmlPath)
-            if FileManager.default.fileExists(atPath: url.path) { return url }
+            if FileManager.default.fileExists(atPath: url.path) { return pos.htmlPath }
         }
-        return siteSync.localURL(for: piece.htmlPath)
+        return piece.htmlPath
     }
+
+    private var initialURL: URL { siteSync.localURL(for: initialPath) }
 
     var body: some View {
         VStack(spacing: 0) {
@@ -82,12 +100,28 @@ struct PieceDetailView: View {
             }
 
             ZStack {
-                PieceWebView(
-                    initialURL: initialURL,
-                    initialScrollY: savedPosition?.scrollY ?? 0,
-                    mirrorRoot: siteSync.mirrorRoot,
-                    state: state
-                )
+                if piece.isBook {
+                    // Native horizontal pager over the book's pages. Waits for
+                    // nav.json (loaded in .task) so it knows the page sequence.
+                    if let nav = state.nav {
+                        BookPager(
+                            nav: nav,
+                            mirrorRoot: siteSync.mirrorRoot,
+                            state: state,
+                            initialPath: initialPath,
+                            initialScrollY: savedPosition?.scrollY ?? 0
+                        )
+                    } else {
+                        Color.clear
+                    }
+                } else {
+                    PieceWebView(
+                        initialURL: initialURL,
+                        initialScrollY: savedPosition?.scrollY ?? 0,
+                        mirrorRoot: siteSync.mirrorRoot,
+                        state: state
+                    )
+                }
 
                 if state.isLoading && state.errorMessage == nil {
                     ProgressView()
@@ -134,11 +168,10 @@ struct PieceDetailView: View {
         }
         .navigationTitle(piece.title)
         .navigationBarTitleDisplayMode(.inline)
-        // While the web popover is open, hide the system back chevron. It
-        // leaves the nav bar exposed, and reaching up for back to dismiss the
-        // popover would otherwise pop the whole book to the library. The
-        // popover carries its own prominent close. See nav UX work.
-        .navigationBarBackButtonHidden(state.isPopoverOpen)
+        // Books use a custom context-aware leading chevron (below); hide the
+        // system one. Non-book pieces keep the system back (and its edge-swipe).
+        // Either is hidden while the popover is open, so the top bar is inert.
+        .navigationBarBackButtonHidden(piece.isBook || state.isPopoverOpen)
         // Freeze the page scroll behind the popover. Without this, a drag on the
         // popover — especially its non-scrolling header — bleeds through to the
         // WebView's scroll view and moves the article underneath. The popover's
@@ -146,19 +179,25 @@ struct PieceDetailView: View {
         .onChange(of: state.isPopoverOpen) { _, open in
             state.webView?.scrollView.isScrollEnabled = !open
         }
-        // Return from an in-WebView excursion (the popover's "Open full section
-        // ↗" jump to a reference page). Distinct from the system back-to-library
-        // button; appears only when the WebView has its own history. On return,
-        // cards.js restores the popover from the #g= reading-state.
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                // Hidden while the popover is open so the top bar is fully inert
-                // (modal feel) — alongside the suppressed back chevron.
-                if state.webViewCanGoBack && !state.isPopoverOpen {
+            // One back control, "up one level": on an off-book reference page
+            // (reached via the popover's "Open full section ↗"), it returns to
+            // the reading spot (cards.js restores the popover from #g=); on a
+            // normal book page it exits to the library. The label says where
+            // you'll land. Replaces the old dual back/forward + uturn controls.
+            ToolbarItem(placement: .topBarLeading) {
+                if piece.isBook && !state.isPopoverOpen {
                     Button {
-                        state.webView?.goBack()
+                        if isOnReferenceExcursion {
+                            state.webView?.goBack()
+                        } else {
+                            dismiss()
+                        }
                     } label: {
-                        Label("Back to reading", systemImage: "arrow.uturn.backward")
+                        HStack(spacing: 4) {
+                            Image(systemName: "chevron.backward")
+                            Text(isOnReferenceExcursion ? "Reading" : "Library")
+                        }
                     }
                 }
             }
@@ -183,24 +222,9 @@ struct PieceDetailView: View {
                 }
             )
         }
-        // Swipe gesture for book navigation. .simultaneousGesture so we
-        // don't fight WebView scroll / selection / math-block horizontal
-        // scroll. 60-pt threshold + horizontal-dominance check avoids
-        // triggering on incidental drags. Guard on isPopoverOpen so a swipe
-        // never fires through an open popover (vocab card / note / A&G ref).
-        .simultaneousGesture(
-            DragGesture(minimumDistance: 40)
-                .onEnded { value in
-                    guard !state.isPopoverOpen else { return }
-                    let dx = value.translation.width
-                    let dy = value.translation.height
-                    guard abs(dx) > 60, abs(dx) > abs(dy) * 1.5 else { return }
-                    let target = dx < 0 ? state.currentEntry?.next : state.currentEntry?.prev
-                    if let target {
-                        state.navigate(toHtmlPath: target.htmlPath, mirrorRoot: siteSync.mirrorRoot)
-                    }
-                }
-        )
+        // Page turning is handled natively by the BookPager (UIPageViewController):
+        // horizontal swipe = prev/next page with live preview, vertical scroll
+        // stays with the WebView — UIKit arbitrates the two axes.
         // Disable the NavigationStack's interactive pop gesture while on a
         // book page that has card-level prev/next navigation, so horizontal
         // swipes navigate cards rather than popping to the library.
@@ -414,251 +438,5 @@ private struct NavigationPopGestureControl: UIViewRepresentable {
 
     static func dismantleUIView(_ uiView: UIView, coordinator: Coordinator) {
         coordinator.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
-    }
-}
-
-struct PieceWebView: UIViewRepresentable {
-    let initialURL: URL
-    // Scroll offset to restore once, after the initial (resume) load finishes.
-    var initialScrollY: Double = 0
-    let mirrorRoot: URL
-    let state: BookViewState
-
-    // Hide HTML chrome that the native UI is replacing: site header,
-    // breadcrumb, and footer prev/next. Note popovers are left intact —
-    // prose notes now render in the same in-page #popover-host as vocab
-    // cards and A&G refs (unified note surface). (The web reader keeps
-    // everything visible since it has no native chrome.)
-    private static let hideChromeJS = """
-        (function() {
-          var style = document.createElement('style');
-          style.textContent = 'header.site, nav.breadcrumb, nav.page-nav { display: none !important; } article { margin-top: 1rem !important; }';
-          document.head.appendChild(style);
-        })();
-        """
-
-    // Bridge the vocab card popover's open/close state to Swift so the
-    // swipe gesture can be suppressed while the card is visible.
-    // The popover toggle event does not bubble, so we attach directly to the
-    // #popover-host element (which is in the static HTML at document end).
-    private static let popoverBridgeJS = """
-        (function() {
-          var host = document.getElementById('popover-host');
-          if (!host) return;
-          host.addEventListener('toggle', function(e) {
-            var open = e.newState === 'open';
-            if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.popover) {
-              window.webkit.messageHandlers.popover.postMessage({ open: open });
-            }
-          });
-        })();
-        """
-
-    // Report the page scroll offset (page coords) to Swift, debounced to the
-    // trailing edge so it fires once the reader pauses/stops. Persisting on this
-    // signal is what makes silent resume survive a hard process kill.
-    private static let scrollBridgeJS = """
-        (function() {
-          var t;
-          function post() {
-            if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.scrollpos) {
-              window.webkit.messageHandlers.scrollpos.postMessage({ y: window.scrollY });
-            }
-          }
-          window.addEventListener('scroll', function() {
-            clearTimeout(t);
-            t = setTimeout(post, 250);
-          }, { passive: true });
-        })();
-        """
-
-    func makeCoordinator() -> Coordinator { Coordinator(self) }
-
-    func makeUIView(context: Context) -> WKWebView {
-        let userContent = WKUserContentController()
-
-        // fetch() is blocked for file:// URLs in WKWebView. Inject the lexicon
-        // as a JS global so cards.js can skip the fetch entirely on iOS.
-        let lexiconURL = mirrorRoot.appendingPathComponent("assets/lexicon.json")
-        if let lexiconData = try? Data(contentsOf: lexiconURL),
-           let lexiconJSON = String(data: lexiconData, encoding: .utf8) {
-            userContent.addUserScript(WKUserScript(
-                source: "window.__readingRoomLexicon = \(lexiconJSON);",
-                injectionTime: .atDocumentStart,
-                forMainFrameOnly: true
-            ))
-        }
-
-        userContent.addUserScript(WKUserScript(
-            source: Self.hideChromeJS,
-            injectionTime: .atDocumentEnd,
-            forMainFrameOnly: true
-        ))
-        userContent.addUserScript(WKUserScript(
-            source: Self.popoverBridgeJS,
-            injectionTime: .atDocumentEnd,
-            forMainFrameOnly: true
-        ))
-        userContent.addUserScript(WKUserScript(
-            source: Self.scrollBridgeJS,
-            injectionTime: .atDocumentEnd,
-            forMainFrameOnly: true
-        ))
-        userContent.add(context.coordinator, name: "popover")
-        userContent.add(context.coordinator, name: "scrollpos")
-        // On-demand source for the in-flow A&G reference notes: cards.js posts
-        // here on the first ag: tap; we read the synced asset and inject it,
-        // then resolve. Avoids a 2.4 MB always-on global at page load.
-        userContent.add(context.coordinator, name: "refnotes")
-
-        let config = WKWebViewConfiguration()
-        config.userContentController = userContent
-
-        let webView = WKWebView(frame: .zero, configuration: config)
-        webView.navigationDelegate = context.coordinator
-        webView.scrollView.contentInsetAdjustmentBehavior = .automatic
-        webView.scrollView.alwaysBounceHorizontal = false
-        webView.isOpaque = false
-        // Disabled: the book-prev swipe replaces it, and the semantic overlap
-        // (WebView-history-back vs book-prev) is confusing.
-        webView.allowsBackForwardNavigationGestures = false
-        state.webView = webView
-        return webView
-    }
-
-    func updateUIView(_ webView: WKWebView, context: Context) {
-        if context.coordinator.didLoadInitial { return }
-        context.coordinator.didLoadInitial = true
-        state.isLoading = true
-        state.errorMessage = nil
-        // file:// URLs need explicit read-access to the mirror root so the
-        // page can pull in ../assets/reader.css and siblings.
-        webView.loadFileURL(initialURL, allowingReadAccessTo: mirrorRoot)
-    }
-
-    final class Coordinator: NSObject, WKNavigationDelegate, WKScriptMessageHandler {
-        let parent: PieceWebView
-        var didLoadInitial = false
-        var didRestoreScroll = false
-
-        init(_ parent: PieceWebView) { self.parent = parent }
-
-        func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-            guard let body = message.body as? [String: Any] else { return }
-            switch message.name {
-            case "popover":
-                let open = body["open"] as? Bool ?? false
-                DispatchQueue.main.async { self.parent.state.isPopoverOpen = open }
-            case "scrollpos":
-                if let y = body["y"] as? Double {
-                    DispatchQueue.main.async { self.parent.state.scrollY = y }
-                }
-            case "refnotes":
-                provideReferenceNotes(to: message.webView)
-            default:
-                break
-            }
-        }
-
-        // Read the synced reference-notes asset from the mirror (FileManager —
-        // WKWebView can't fetch file://), inject it as a JS global, and resolve
-        // the pending cards.js promise. Loaded only on the first ag: tap.
-        private func provideReferenceNotes(to webView: WKWebView?) {
-            let url = parent.mirrorRoot.appendingPathComponent("assets/latin-reference-notes.json")
-            let resolve = "if (window.__resolveReferenceNotes) window.__resolveReferenceNotes();"
-            var js = resolve
-            if let data = try? Data(contentsOf: url),
-               let json = String(data: data, encoding: .utf8) {
-                js = "window.__readingRoomReferenceNotes = (\(json)).notes; " + resolve
-            }
-            DispatchQueue.main.async { webView?.evaluateJavaScript(js) }
-        }
-
-        func webView(
-            _ webView: WKWebView,
-            decidePolicyFor navigationAction: WKNavigationAction,
-            decisionHandler: @escaping (WKNavigationActionPolicy) -> Void
-        ) {
-            if navigationAction.navigationType == .linkActivated,
-               let target = navigationAction.request.url {
-                // file:// links inside the mirror — allow. Anything else
-                // (http/mailto/...) hand off to the OS.
-                if target.isFileURL,
-                   target.path.hasPrefix(parent.mirrorRoot.path) {
-                    decisionHandler(.allow)
-                } else {
-                    UIApplication.shared.open(target)
-                    decisionHandler(.cancel)
-                }
-                return
-            }
-            decisionHandler(.allow)
-        }
-
-        func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
-            parent.state.isLoading = true
-            parent.state.isPopoverOpen = false
-            parent.state.errorMessage = nil   // clear a prior error when navigating
-            // New page starts at the top; later didFinish restores the saved
-            // offset for the resume load only. Keeps the wrong page's scroll
-            // from being persisted against a freshly-navigated page.
-            parent.state.scrollY = 0
-        }
-
-        func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-            parent.state.isLoading = false
-            parent.state.errorMessage = nil
-            parent.state.webViewCanGoBack = webView.canGoBack
-            updateCurrentPath(webView: webView)
-            restoreScrollIfNeeded(webView)
-        }
-
-        // Restore the saved scroll offset exactly once, on the first (resume)
-        // load, in page coordinates (matching the JS scroll bridge). Re-applied
-        // shortly after because content height can still be settling at
-        // didFinish, which would otherwise clamp the target. Setting state.scrollY
-        // up front, then opening the didResume gate, means the first persisted
-        // save records the restored offset rather than 0.
-        private func restoreScrollIfNeeded(_ webView: WKWebView) {
-            guard !didRestoreScroll else { return }
-            didRestoreScroll = true
-            let y = parent.initialScrollY
-            parent.state.scrollY = y
-            if y > 0 {
-                let js = "window.scrollTo(0, \(y));"
-                webView.evaluateJavaScript(js)
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
-                    webView.evaluateJavaScript(js)
-                }
-            }
-            parent.state.didResume = true
-        }
-
-        func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
-            parent.state.isLoading = false
-            parent.state.errorMessage = error.localizedDescription
-        }
-
-        func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
-            parent.state.isLoading = false
-            parent.state.errorMessage = error.localizedDescription
-        }
-
-        private func updateCurrentPath(webView: WKWebView) {
-            guard let url = webView.url else { return }
-            parent.state.currentPath = htmlPath(from: url, mirrorRoot: parent.mirrorRoot)
-        }
-
-        // For file:// URLs we ask: does the page's path live under the
-        // mirror root? If so, the relative remainder IS the html path
-        // (e.g. "calculus-on-manifolds/index.html").
-        private func htmlPath(from url: URL, mirrorRoot: URL) -> String? {
-            guard url.isFileURL else { return nil }
-            let pagePath = url.standardizedFileURL.path
-            let rootPath = mirrorRoot.standardizedFileURL.path
-            let prefix = rootPath.hasSuffix("/") ? rootPath : rootPath + "/"
-            guard pagePath.hasPrefix(prefix) else { return nil }
-            return String(pagePath.dropFirst(prefix.count))
-        }
     }
 }

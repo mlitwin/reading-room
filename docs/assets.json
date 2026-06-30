@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T18:45:04.803Z",
+  "generated_at": "2026-06-30T19:50:00.444Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,7 +273,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "282038edfe1602bd81cebe3ce8e17a093948f986e65c506215fceaa74e06f1fc",
+      "sha256": "6c08070bbab2c945a418280078a1cada8ade57313c9fdb1c053a7b72068495a3",
       "size": 919862
     },
     {
@@ -593,7 +593,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "696000c52ed7c3f639367f0c7aa4099b1a9dea6d91327539fcc9744ee9682441",
+      "sha256": "3291f6ab423960ae92f5e6deb38ab57fe7855d62a066e319e26b374a0363ecab",
       "size": 9750667
     },
     {
@@ -608,7 +608,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "2162a5cb89db320b8b75a9310b50c30cf2cde1e2279a95171adb4b1825174517",
+      "sha256": "f6df77033740219a5cc4a182c79fe4176b7ccad218eaff86ef29e11cb390ce93",
       "size": 2476366
     },
     {
@@ -633,12 +633,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "6bc8152bbf857d8cac3a8301f30fad83c5b6c24a605526f7f18c3374c331b396",
+      "sha256": "e054c897331aa5271dc9d5b11ecea84177d0a5e67e8a89439ca0b7acf4ef1a1f",
       "size": 10687224
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "400faf848046e7d2d823129aad034d3844705cf6817b92e2283f6b8dad491870",
+      "sha256": "65d757ff25ed816ae387f5cfd184a0d95e48b2ec4e10d8be07293860cd8745b1",
       "size": 10687198
     },
     {
@@ -678,8 +678,8 @@
     },
     {
       "path": "classical-mechanics/nav.json",
-      "sha256": "83ba6c74dc9145d712f5ef10fe2fb1d1ee89a8de7b270f331af791261ec3ee1d",
-      "size": 10526
+      "sha256": "2ecb31df0522f3bb956ca615d75dc11a57150851f513996c511cc0b671273d18",
+      "size": 10549
     },
     {
       "path": "classical-mechanics/newtonian/conservation-laws.html",
@@ -723,7 +723,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "421a954b5f7877cac14077b6a8fb197a068ad1d6a8859a7810f5e0424e105dc3",
+      "sha256": "81734c091c421052f70826db0ea2f8023a54655b180e5fc233a7fece0adffae2",
       "size": 26638
     },
     {
@@ -763,8 +763,8 @@
     },
     {
       "path": "notes-on-sorting/nav.json",
-      "sha256": "95f30f77501a5f809a0df988df7fe20440298747cac76a1f5776726fbce62cb2",
-      "size": 4429
+      "sha256": "950b940f5db2797bf589e29d26399675c6d4ae2a6bcdd826c07289d60bd25f56",
+      "size": 4452
     },
     {
       "path": "ovid-metamorphoses/book1-01.html",
@@ -913,8 +913,8 @@
     },
     {
       "path": "ovid-metamorphoses/nav.json",
-      "sha256": "bd44d61b2eae9f1fc776649079b1edb0e2f60461901b45dc4d21a831ae14b7a1",
-      "size": 18786
+      "sha256": "d25a0f2b0aca9f3a7dbdfb72f0cd1e21d0c42d29e939f60d47c71ac74b07406e",
+      "size": 18808
     },
     {
       "path": "ovid-metamorphoses/notes.html",
@@ -998,8 +998,8 @@
     },
     {
       "path": "shahnameh-study-guide/nav.json",
-      "sha256": "499cbc2a478d7df2db8b7371df3af70a604f80d4b3a8fe31d3fcb1c6e851328a",
-      "size": 11691
+      "sha256": "2af4c02422150026a5885ecf3fdd790dda1cddbc4917ddc9de1cd4a1d2a244f7",
+      "size": 11714
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html",
@@ -1203,8 +1203,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/nav.json",
-      "sha256": "31c65bf59202ac542b6b15673abeda32accb8c548d179b72fe7a1fbd2852d68a",
-      "size": 38414
+      "sha256": "4fdd096638e5081b00707e434a6f7c83f72837305d44b667959a839b53dbc3a0",
+      "size": 38437
     },
     {
       "path": "tensor-calculus-on-manifolds/notes.html",

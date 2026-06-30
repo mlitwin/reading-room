@@ -1175,6 +1175,10 @@ export async function build() {
       // iOS) renders notes from the in-page `.note-popover-source` asides via
       // the unified #popover-host. nav.json carries navigation chrome only.
 
+      // Book-level Latin flag — lets iOS gate the 5 MB lexicon injection so it
+      // only parses on books that actually have Latin passages (currently Ovid).
+      nav.uses_latin = usesLatin;
+
       // nav.json at docs/<slug>/nav.json
       const navOut = path.join(DOCS_DIR, piece.slug, 'nav.json');
       await fs.writeFile(navOut, JSON.stringify(nav, null, 2));
