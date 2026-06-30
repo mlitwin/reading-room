@@ -56,6 +56,9 @@ struct PieceDetailView: View {
     @State private var state = BookViewState()
     @State private var fallbackToast: String?
     @State private var showTOC = false
+    // Delayed loading indicator: only shown if a load outlasts the threshold, so
+    // snappy (pre-warmed) page loads never flash a spinner.
+    @State private var showSpinner = false
 
     private var hasTOC: Bool {
         piece.isBook && (state.nav?.pages.count ?? 0) > 1
@@ -123,7 +126,7 @@ struct PieceDetailView: View {
                     )
                 }
 
-                if state.isLoading && state.errorMessage == nil {
+                if showSpinner && state.errorMessage == nil {
                     ProgressView()
                 }
 
@@ -235,6 +238,14 @@ struct PieceDetailView: View {
         .task {
             guard piece.isBook, state.nav == nil else { return }
             state.nav = loadNavFromMirror(slug: piece.slug)
+        }
+        // Drive the spinner with a delay so it only appears for genuinely slow
+        // loads. Re-runs on each isLoading change, cancelling the pending show
+        // when a load finishes within the threshold.
+        .task(id: state.isLoading) {
+            guard state.isLoading else { showSpinner = false; return }
+            try? await Task.sleep(for: .milliseconds(250))
+            if !Task.isCancelled { showSpinner = true }
         }
         .onChange(of: siteSync.lastSyncDate) { _, _ in
             handleSyncCompleted()
