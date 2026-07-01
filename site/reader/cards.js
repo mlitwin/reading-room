@@ -731,7 +731,12 @@
     if (ctxEl) {
       var chipName = CONTEXT_LABEL[entry.family];
       var chip = chipName ? '<span class="popover-ctx-chip">' + escHtml(chipName) + '</span> ' : '';
-      ctxEl.innerHTML = chip + '<span class="popover-ctx-title">' + escHtml(entry.label || '') + '</span>';
+      // For a card, title the popover with the exact surface form that was
+      // tapped (the instance in the text), not the dictionary lemma — the
+      // lemma still heads the card body. Fall back to the label for cards
+      // opened without a surface (e.g. an "also-matches" chip) and for notes.
+      var ctxTitle = (entry.type === 'card' && entry.surface) ? entry.surface : (entry.label || '');
+      ctxEl.innerHTML = chip + '<span class="popover-ctx-title">' + escHtml(ctxTitle) + '</span>';
     }
   }
 

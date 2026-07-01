@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T03:34:09.146Z",
+  "generated_at": "2026-07-01T13:23:29.466Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -268,12 +268,12 @@
     },
     {
       "path": "assets/cards.js",
-      "sha256": "53917d800fc4ca58c95e7c17159826db847b3e502083acd40f3e87668e10dd2c",
-      "size": 43336
+      "sha256": "9a772aa7fb0ecc272be9c83c25fe06fdeb6955b880a914945eae9c42046611d9",
+      "size": 43735
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "35458f9dd7d26aa0986838795c95ac4456da47cb819933d6a3a38e82122dd10b",
+      "sha256": "e15d97d13df1753760a7ac5b93f5ef25c97e11e7c165f10bd43563df467685f4",
       "size": 58689
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "8ce65fe23696277e97ec5978cc388a6898db160398a28f152a1e224ade7269f7",
+      "sha256": "d1f11bcfdeb724cf0bc4b105858470f50cd7fe1f646b849b617f5210124a500d",
       "size": 919862
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "90c6367532d2178aaa83de15d26c0cdfb2b63ca53e170726332546550ae49e4d",
+      "sha256": "e10a0a4b4e08829a37696b6c58b83ca67603a677bfbc3d9ef8498288cc37a450",
       "size": 9750667
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "bac53a19abb4c6f277c40985762c4178cc78d69fc634a420ed801ed2a404a90a",
+      "sha256": "7b44311b1e52599b9ffcd9721fc698344999cd3a9ea0c236ab55877e74ae5a19",
       "size": 2476366
     },
     {
@@ -643,12 +643,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "8cb0a4895f27670c7d76cfbf378f40e1432cabb83759d149f0d39c196fde031e",
+      "sha256": "1b6fb9198845a6afec1ebd51efa31c317fdfd99357c97fb0f0a41e7e6bbdfa84",
       "size": 10745930
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "b3d66fa0d1acfc84478e711f953965ebb88b53ace7d1d73c9b6eb46c8cbecdb1",
+      "sha256": "ce6fa4a8387a5f5ee5dc351b8ab07e7e9d8f91f7abd033390613c7db5628b171",
       "size": 10745904
     },
     {
@@ -733,7 +733,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "cbd33af0044f49780ab6bad5b097949bd7f503deeb36db1b70565545d276efcd",
+      "sha256": "6fabe793b635e307159f724ef470c0202b61ef7d3c60f40c9ddb9c937f40fc16",
       "size": 29399
     },
     {
