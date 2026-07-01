@@ -11,6 +11,13 @@
   --rule: #e3e1da;
   --code-bg: #f4f2eb;
   --tag-bg: #ece9df;
+
+  /* "Form in context" highlight — the tapped surface form. Single source of
+     truth shared by the active paradigm cell (06-paradigm.css) and the popover
+     title chip (04-popover.css) so they read as the same token. Resolves via
+     --accent/--bg, so it adapts to dark mode with no extra override. */
+  --form-highlight-bg: var(--accent);
+  --form-highlight-fg: var(--bg);
 }
 
 @media (prefers-color-scheme: dark) {

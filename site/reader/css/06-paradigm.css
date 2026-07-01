@@ -210,12 +210,13 @@
   overflow-wrap: anywhere;   /* long forms wrap within the cell, not the grid */
 }
 
-/* Highlighted (active) form — the cell the reader tapped. */
+/* Highlighted (active) form — the cell the reader tapped. Shares the
+   --form-highlight-* tokens with the popover title chip (04-popover.css). */
 .card-popover .card-paradigm .paradigm-cell.active-form {
-  background: var(--accent);
+  background: var(--form-highlight-bg);
 }
 .card-popover .card-paradigm .paradigm-cell.active-form .paradigm-form {
-  color: var(--bg);
+  color: var(--form-highlight-fg);
   font-weight: 600;
 }
 

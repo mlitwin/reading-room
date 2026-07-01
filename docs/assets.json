@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T13:23:29.466Z",
+  "generated_at": "2026-07-01T15:56:55.198Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -268,12 +268,12 @@
     },
     {
       "path": "assets/cards.js",
-      "sha256": "9a772aa7fb0ecc272be9c83c25fe06fdeb6955b880a914945eae9c42046611d9",
-      "size": 43735
+      "sha256": "79ab2ef6fbf8ed35f00ea58af71d9fed521a63eb5d4dae5acc640a9c67016287",
+      "size": 44031
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "e15d97d13df1753760a7ac5b93f5ef25c97e11e7c165f10bd43563df467685f4",
+      "sha256": "cc8eb941eb2d5bac687f5e4295cf2b78951a3ee94e7ee683fb176c5cc5938fc0",
       "size": 58689
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "d1f11bcfdeb724cf0bc4b105858470f50cd7fe1f646b849b617f5210124a500d",
+      "sha256": "214ab9a906514c98c621fa745cc1209dbdeb780f71179fea7072db4dfa16daed",
       "size": 919862
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "e10a0a4b4e08829a37696b6c58b83ca67603a677bfbc3d9ef8498288cc37a450",
+      "sha256": "8d41e8e78d2c1bfff3adc473cc4cc24fbfdbc059ca998ee4be828af0e08241c9",
       "size": 9750667
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "7b44311b1e52599b9ffcd9721fc698344999cd3a9ea0c236ab55877e74ae5a19",
+      "sha256": "b4abb789ea5586184c2cc81db2132badb96ee477db73f2b6309bed903afce2b5",
       "size": 2476366
     },
     {
@@ -638,17 +638,17 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "3e357b9af2c86958066b2920991e6c0406d907ce01bf6ba1f84d72800d72903f",
-      "size": 35125
+      "sha256": "ce83ff4470728102217d33b6dc7f5228fa13746b48b6fcdef9e2cd843fc18b91",
+      "size": 36216
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "1b6fb9198845a6afec1ebd51efa31c317fdfd99357c97fb0f0a41e7e6bbdfa84",
+      "sha256": "9ebb40d31277e033431aa8eee9327b36a0a7c040c7e59d03acf457d9cd6c4f68",
       "size": 10745930
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "ce6fa4a8387a5f5ee5dc351b8ab07e7e9d8f91f7abd033390613c7db5628b171",
+      "sha256": "62794f61372f5f3d2b43c8273a026663f007c79bbaa3c4f02539c985f31d8319",
       "size": 10745904
     },
     {
@@ -733,7 +733,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "6fabe793b635e307159f724ef470c0202b61ef7d3c60f40c9ddb9c937f40fc16",
+      "sha256": "75ccd30d218d6ab635b28a08e27cb83659c2f16c138f66e5d4f06d31622049ed",
       "size": 29399
     },
     {

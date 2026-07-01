@@ -227,6 +227,18 @@
   white-space: nowrap;
 }
 .popover-ctx-title { font-weight: 600; }
+/* Surface-form title wears the same accent highlight as the active paradigm
+   cell (06-paradigm.css .paradigm-cell.active-form), so the tapped word in the
+   title reads as the same token as the highlighted cell. */
+.popover-ctx-title.is-form {
+  /* shared "form in context" highlight — matches the active paradigm cell */
+  background: var(--form-highlight-bg);
+  color: var(--form-highlight-fg);
+  /* same serif as --paradigm-form-font (scoped to .card-paradigm, so inlined) */
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  border-radius: 4px;
+  padding: 0.05rem 0.35rem;
+}
 
 .popover-body {
   flex: 1;

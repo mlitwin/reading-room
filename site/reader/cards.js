@@ -735,8 +735,13 @@
       // tapped (the instance in the text), not the dictionary lemma — the
       // lemma still heads the card body. Fall back to the label for cards
       // opened without a surface (e.g. an "also-matches" chip) and for notes.
-      var ctxTitle = (entry.type === 'card' && entry.surface) ? entry.surface : (entry.label || '');
-      ctxEl.innerHTML = chip + '<span class="popover-ctx-title">' + escHtml(ctxTitle) + '</span>';
+      var isForm = entry.type === 'card' && entry.surface;
+      var ctxTitle = isForm ? entry.surface : (entry.label || '');
+      // `is-form` gives the surface form the same accent highlight the active
+      // paradigm cell wears, so the reader sees the title and the highlighted
+      // cell are the same word.
+      var titleCls = isForm ? 'popover-ctx-title is-form' : 'popover-ctx-title';
+      ctxEl.innerHTML = chip + '<span class="' + titleCls + '">' + escHtml(ctxTitle) + '</span>';
     }
   }
 

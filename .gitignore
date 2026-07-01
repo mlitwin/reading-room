@@ -3,6 +3,8 @@ node_modules/
 Plans
 .tmp/
 
+.playwright-mcp/
+
 # Manuscript markdown is a build artifact derived from
 # content/{text}/manuscript.{lang}.json — see Plans/manuscript-format-plan.md
 # Decision 2. The .build/ path is the default during development; the

@@ -11,6 +11,13 @@
   --rule: #e3e1da;
   --code-bg: #f4f2eb;
   --tag-bg: #ece9df;
+
+  /* "Form in context" highlight — the tapped surface form. Single source of
+     truth shared by the active paradigm cell (06-paradigm.css) and the popover
+     title chip (04-popover.css) so they read as the same token. Resolves via
+     --accent/--bg, so it adapts to dark mode with no extra override. */
+  --form-highlight-bg: var(--accent);
+  --form-highlight-fg: var(--bg);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -555,6 +562,18 @@ nav.page-nav .placeholder { visibility: hidden; }
   white-space: nowrap;
 }
 .popover-ctx-title { font-weight: 600; }
+/* Surface-form title wears the same accent highlight as the active paradigm
+   cell (06-paradigm.css .paradigm-cell.active-form), so the tapped word in the
+   title reads as the same token as the highlighted cell. */
+.popover-ctx-title.is-form {
+  /* shared "form in context" highlight — matches the active paradigm cell */
+  background: var(--form-highlight-bg);
+  color: var(--form-highlight-fg);
+  /* same serif as --paradigm-form-font (scoped to .card-paradigm, so inlined) */
+  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  border-radius: 4px;
+  padding: 0.05rem 0.35rem;
+}
 
 .popover-body {
   flex: 1;
@@ -883,12 +902,13 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   overflow-wrap: anywhere;   /* long forms wrap within the cell, not the grid */
 }
 
-/* Highlighted (active) form — the cell the reader tapped. */
+/* Highlighted (active) form — the cell the reader tapped. Shares the
+   --form-highlight-* tokens with the popover title chip (04-popover.css). */
 .card-popover .card-paradigm .paradigm-cell.active-form {
-  background: var(--accent);
+  background: var(--form-highlight-bg);
 }
 .card-popover .card-paradigm .paradigm-cell.active-form .paradigm-form {
-  color: var(--bg);
+  color: var(--form-highlight-fg);
   font-weight: 600;
 }
 
