@@ -1,0 +1,36 @@
+{
+  "id": "susurrus_n",
+  "lemma": "susurrus",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "whisper, murmur, rustling"
+  ],
+  "head": "susurrus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "susurrus",
+      "gen.sg": "susurri",
+      "dat.sg": "susurro",
+      "abl.sg": "susurro",
+      "acc.sg": "susurrum",
+      "nom.pl": "susurri",
+      "gen.pl": "susurrorum",
+      "dat.pl": "susurris",
+      "abl.pl": "susurris",
+      "acc.pl": "susurros"
+    }
+  }
+}

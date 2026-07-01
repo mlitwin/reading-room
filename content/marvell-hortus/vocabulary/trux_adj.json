@@ -1,0 +1,32 @@
+{
+  "id": "trux_adj",
+  "lemma": "trux",
+  "pos": "adj",
+  "glosses": [
+    "fierce, savage, grim, wild"
+  ],
+  "head": "trux, trucis",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "trux",
+      "nom.pl.neut": "trucia",
+      "acc.pl.neut": "trucia"
+    }
+  }
+}

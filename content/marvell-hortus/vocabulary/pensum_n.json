@@ -1,0 +1,37 @@
+{
+  "id": "pensum_n",
+  "lemma": "pensum",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "allotted task, day's work",
+    "portion of wool weighed out"
+  ],
+  "head": "pensum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "pensum",
+      "gen.sg": "pensi",
+      "acc.sg": "pensum",
+      "dat.sg": "penso",
+      "abl.sg": "penso",
+      "gen.pl": "pensorum",
+      "dat.pl": "pensis",
+      "abl.pl": "pensis",
+      "nom.pl": "pensa",
+      "acc.pl": "pensa"
+    }
+  }
+}

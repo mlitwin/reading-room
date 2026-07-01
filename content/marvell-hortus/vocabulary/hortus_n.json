@@ -1,0 +1,36 @@
+{
+  "id": "hortus_n",
+  "lemma": "hortus",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "garden"
+  ],
+  "head": "hortus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "hortus",
+      "gen.sg": "horti",
+      "dat.sg": "horto",
+      "abl.sg": "horto",
+      "acc.sg": "hortum",
+      "nom.pl": "horti",
+      "gen.pl": "hortorum",
+      "dat.pl": "hortis",
+      "abl.pl": "hortis",
+      "acc.pl": "hortos"
+    }
+  }
+}

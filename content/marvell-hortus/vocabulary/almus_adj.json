@@ -1,0 +1,53 @@
+{
+  "id": "almus_adj",
+  "lemma": "almus",
+  "pos": "adj",
+  "glosses": [
+    "nourishing, kindly, gracious"
+  ],
+  "head": "almus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "almus",
+      "gen.sg.masc": "almi",
+      "dat.sg.masc": "almo",
+      "gen.sg.fem": "almae",
+      "dat.sg.fem": "almae",
+      "nom.sg.neut": "almum",
+      "gen.sg.neut": "almi",
+      "dat.sg.neut": "almo",
+      "acc.sg.neut": "almum",
+      "acc.sg.masc": "almum",
+      "abl.sg.masc": "almo",
+      "nom.pl.masc": "almi",
+      "gen.pl.masc": "almorum",
+      "acc.pl.masc": "almos",
+      "nom.sg.fem": "alma",
+      "acc.sg.fem": "almam",
+      "abl.sg.fem": "alma",
+      "nom.pl.fem": "almae",
+      "gen.pl.fem": "almarum",
+      "acc.pl.fem": "almas",
+      "abl.sg.neut": "almo",
+      "nom.pl.neut": "alma",
+      "gen.pl.neut": "almorum",
+      "acc.pl.neut": "alma"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mellitus_adj",
+  "lemma": "mellitus",
+  "pos": "adj",
+  "glosses": [
+    "honey-sweet, of honey",
+    "delightful"
+  ],
+  "head": "mellitus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "mellitus",
+      "gen.sg.masc": "melliti",
+      "dat.sg.masc": "mellito",
+      "gen.sg.fem": "mellitae",
+      "dat.sg.fem": "mellitae",
+      "nom.sg.neut": "mellitum",
+      "gen.sg.neut": "melliti",
+      "dat.sg.neut": "mellito",
+      "acc.sg.neut": "mellitum",
+      "acc.sg.masc": "mellitum",
+      "abl.sg.masc": "mellito",
+      "nom.pl.masc": "melliti",
+      "gen.pl.masc": "mellitorum",
+      "acc.pl.masc": "mellitos",
+      "nom.sg.fem": "mellita",
+      "acc.sg.fem": "mellitam",
+      "abl.sg.fem": "mellita",
+      "nom.pl.fem": "mellitae",
+      "gen.pl.fem": "mellitarum",
+      "acc.pl.fem": "mellitas",
+      "abl.sg.neut": "mellito",
+      "nom.pl.neut": "mellita",
+      "gen.pl.neut": "mellitorum",
+      "acc.pl.neut": "mellita"
+    }
+  }
+}

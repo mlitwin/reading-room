@@ -1,0 +1,53 @@
+{
+  "id": "concolor_adj",
+  "lemma": "concolor",
+  "pos": "adj",
+  "glosses": [
+    "of the same colour, matching in hue"
+  ],
+  "head": "concolor, -oris",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "concolorus",
+      "gen.sg.masc": "concolori",
+      "dat.sg.masc": "concoloro",
+      "gen.sg.fem": "concolorae",
+      "dat.sg.fem": "concolorae",
+      "nom.sg.neut": "concolorum",
+      "gen.sg.neut": "concolori",
+      "dat.sg.neut": "concoloro",
+      "acc.sg.neut": "concolorum",
+      "acc.sg.masc": "concolorum",
+      "abl.sg.masc": "concoloro",
+      "nom.pl.masc": "concolori",
+      "gen.pl.masc": "concolororum",
+      "acc.pl.masc": "concoloros",
+      "nom.sg.fem": "concolora",
+      "acc.sg.fem": "concoloram",
+      "abl.sg.fem": "concolora",
+      "nom.pl.fem": "concolorae",
+      "gen.pl.fem": "concolorarum",
+      "acc.pl.fem": "concoloras",
+      "abl.sg.neut": "concoloro",
+      "nom.pl.neut": "concolora",
+      "gen.pl.neut": "concolororum",
+      "acc.pl.neut": "concolora"
+    }
+  }
+}

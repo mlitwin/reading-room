@@ -1,0 +1,37 @@
+{
+  "id": "musa_n",
+  "lemma": "musa",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "Muse",
+    "poetry, song"
+  ],
+  "head": "Musa, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "musa",
+      "gen.sg": "musae",
+      "abl.sg": "musa",
+      "acc.sg": "musam",
+      "dat.sg": "musae",
+      "nom.pl": "musae",
+      "gen.pl": "musarum",
+      "dat.pl": "musis",
+      "abl.pl": "musis",
+      "acc.pl": "musas"
+    }
+  }
+}

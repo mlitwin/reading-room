@@ -1,0 +1,54 @@
+{
+  "id": "allabor_v",
+  "lemma": "allabor",
+  "pos": "verb",
+  "glosses": [
+    "to glide toward, flow up to, approach"
+  ],
+  "head": "allabor, -labi, -lapsus sum",
+  "principal_parts": [
+    "allabor",
+    "allabi",
+    "allapsus sum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "allabis",
+      "3sg.pres.ind.act": "allabit",
+      "1pl.pres.ind.act": "allabimus",
+      "2pl.pres.ind.act": "allabitis",
+      "2sg.pres.ind.pass": "allaberis",
+      "3sg.pres.ind.pass": "allabitur",
+      "1sg.imperf.subj.act": "allaberem",
+      "2sg.imperf.subj.act": "allaberes",
+      "3sg.imperf.subj.act": "allaberet",
+      "1pl.imperf.subj.act": "allaberemus",
+      "2pl.imperf.subj.act": "allaberetis",
+      "3pl.imperf.subj.act": "allaberent",
+      "2sg.pres.imp.act": "allabe",
+      "2pl.pres.imp.act": "allabite",
+      "1sg.perf.ind.act": "-i",
+      "2sg.perf.ind.act": "-isti",
+      "3sg.perf.ind.act": "-it",
+      "1pl.perf.ind.act": "-imus",
+      "2pl.perf.ind.act": "-istis",
+      "3pl.perf.ind.act": "-erunt"
+    }
+  }
+}

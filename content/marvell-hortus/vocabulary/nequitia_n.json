@@ -1,0 +1,37 @@
+{
+  "id": "nequitia_n",
+  "lemma": "nequitia",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "worthlessness, idleness",
+    "wantonness, wickedness"
+  ],
+  "head": "nequitia, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "nequitia",
+      "gen.sg": "nequitiae",
+      "abl.sg": "nequitia",
+      "acc.sg": "nequitiam",
+      "dat.sg": "nequitiae",
+      "nom.pl": "nequitiae",
+      "gen.pl": "nequitiarum",
+      "dat.pl": "nequitiis",
+      "abl.pl": "nequitiis",
+      "acc.pl": "nequitias"
+    }
+  }
+}

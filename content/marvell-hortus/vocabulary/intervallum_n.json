@@ -1,0 +1,37 @@
+{
+  "id": "intervallum_n",
+  "lemma": "intervallum",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "interval, space between",
+    "distance, pause"
+  ],
+  "head": "intervallum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "intervallum",
+      "gen.sg": "intervalli",
+      "acc.sg": "intervallum",
+      "dat.sg": "intervallo",
+      "abl.sg": "intervallo",
+      "gen.pl": "intervallorum",
+      "dat.pl": "intervallis",
+      "abl.pl": "intervallis",
+      "nom.pl": "intervalla",
+      "acc.pl": "intervalla"
+    }
+  }
+}

@@ -10,6 +10,7 @@ Plans
 # writes during a build so downstream stages keep working.
 site/generator/.build/
 content/ovid-metamorphoses/book*.md
+content/marvell-hortus/book*.md
 
 # iOS app
 app/build/

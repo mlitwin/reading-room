@@ -1,0 +1,53 @@
+{
+  "id": "tremulus_adj",
+  "lemma": "tremulus",
+  "pos": "adj",
+  "glosses": [
+    "trembling, quivering, shaking"
+  ],
+  "head": "tremulus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "tremulus",
+      "gen.sg.masc": "tremuli",
+      "dat.sg.masc": "tremulo",
+      "gen.sg.fem": "tremulae",
+      "dat.sg.fem": "tremulae",
+      "nom.sg.neut": "tremulum",
+      "gen.sg.neut": "tremuli",
+      "dat.sg.neut": "tremulo",
+      "acc.sg.neut": "tremulum",
+      "acc.sg.masc": "tremulum",
+      "abl.sg.masc": "tremulo",
+      "nom.pl.masc": "tremuli",
+      "gen.pl.masc": "tremulorum",
+      "acc.pl.masc": "tremulos",
+      "nom.sg.fem": "tremula",
+      "acc.sg.fem": "tremulam",
+      "abl.sg.fem": "tremula",
+      "nom.pl.fem": "tremulae",
+      "gen.pl.fem": "tremularum",
+      "acc.pl.fem": "tremulas",
+      "abl.sg.neut": "tremulo",
+      "nom.pl.neut": "tremula",
+      "gen.pl.neut": "tremulorum",
+      "acc.pl.neut": "tremula"
+    }
+  }
+}

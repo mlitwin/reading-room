@@ -201,10 +201,28 @@ def build_line_tokens(line, cache):
     return out
 
 
+def load_overrides(path):
+    """Merge a per-text proper-noun overrides file into PROPER_NOUN_SURFACE.
+
+    Keeps shared tooling text-agnostic: Ovid's registry stays inline; other
+    texts (e.g. Marvell's Hortus) supply their own names via --overrides.
+    File shape: { "surface_lowercase": ["lemma", ["code", ...]], ... }.
+    """
+    data = json.loads(open(path, encoding='utf-8').read())
+    for surface, (lemma, codes) in data.items():
+        PROPER_NOUN_SURFACE[surface.lower()] = (lemma, list(codes))
+    return len(data)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--card', default='', help='Optional card label for metadata')
+    ap.add_argument('--overrides', default='', help='Optional per-text proper-noun overrides JSON')
     args = ap.parse_args()
+
+    if args.overrides:
+        n = load_overrides(args.overrides)
+        print(f'build_apparatus: merged {n} proper-noun override(s) from {args.overrides}', file=sys.stderr)
 
     lines = [line.strip() for line in sys.stdin.read().splitlines() if line.strip()]
     cache = seed.load_cache()

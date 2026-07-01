@@ -1,0 +1,37 @@
+{
+  "id": "planta_n",
+  "lemma": "planta",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "plant, shoot, sprout",
+    "sole of the foot"
+  ],
+  "head": "planta, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "planta",
+      "gen.sg": "plantae",
+      "abl.sg": "planta",
+      "acc.sg": "plantam",
+      "dat.sg": "plantae",
+      "nom.pl": "plantae",
+      "gen.pl": "plantarum",
+      "dat.pl": "plantis",
+      "abl.pl": "plantis",
+      "acc.pl": "plantas"
+    }
+  }
+}

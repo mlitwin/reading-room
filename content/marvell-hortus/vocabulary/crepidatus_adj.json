@@ -1,0 +1,53 @@
+{
+  "id": "crepidatus_adj",
+  "lemma": "crepidatus",
+  "pos": "adj",
+  "glosses": [
+    "wearing sandals, sandalled"
+  ],
+  "head": "crepidatus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "crepidatus",
+      "gen.sg.masc": "crepidati",
+      "dat.sg.masc": "crepidato",
+      "gen.sg.fem": "crepidatae",
+      "dat.sg.fem": "crepidatae",
+      "nom.sg.neut": "crepidatum",
+      "gen.sg.neut": "crepidati",
+      "dat.sg.neut": "crepidato",
+      "acc.sg.neut": "crepidatum",
+      "acc.sg.masc": "crepidatum",
+      "abl.sg.masc": "crepidato",
+      "nom.pl.masc": "crepidati",
+      "gen.pl.masc": "crepidatorum",
+      "acc.pl.masc": "crepidatos",
+      "nom.sg.fem": "crepidata",
+      "acc.sg.fem": "crepidatam",
+      "abl.sg.fem": "crepidata",
+      "nom.pl.fem": "crepidatae",
+      "gen.pl.fem": "crepidatarum",
+      "acc.pl.fem": "crepidatas",
+      "abl.sg.neut": "crepidato",
+      "nom.pl.neut": "crepidata",
+      "gen.pl.neut": "crepidatorum",
+      "acc.pl.neut": "crepidata"
+    }
+  }
+}

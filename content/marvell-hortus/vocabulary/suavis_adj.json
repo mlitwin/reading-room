@@ -1,0 +1,33 @@
+{
+  "id": "suavis_adj",
+  "lemma": "suavis",
+  "pos": "adj",
+  "glosses": [
+    "sweet, pleasant, agreeable"
+  ],
+  "head": "suavis, -e",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "suave",
+      "acc.sg.neut": "suave",
+      "nom.pl.neut": "suavia",
+      "acc.pl.neut": "suavia"
+    }
+  }
+}

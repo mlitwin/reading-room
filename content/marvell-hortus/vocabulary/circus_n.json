@@ -1,0 +1,37 @@
+{
+  "id": "circus_n",
+  "lemma": "circus",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "the Circus (Roman racecourse)",
+    "ring, circle"
+  ],
+  "head": "circus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "circus",
+      "gen.sg": "circi",
+      "dat.sg": "circo",
+      "abl.sg": "circo",
+      "acc.sg": "circum",
+      "nom.pl": "circi",
+      "gen.pl": "circorum",
+      "dat.pl": "circis",
+      "abl.pl": "circis",
+      "acc.pl": "circos"
+    }
+  }
+}

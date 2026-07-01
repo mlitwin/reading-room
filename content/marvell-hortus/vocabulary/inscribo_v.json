@@ -1,0 +1,113 @@
+{
+  "id": "inscribo_v",
+  "lemma": "inscribo",
+  "pos": "verb",
+  "glosses": [
+    "to write upon, inscribe, engrave"
+  ],
+  "head": "inscribo, -ere, -scripsi, -scriptum",
+  "principal_parts": [
+    "inscribo",
+    "inscribere",
+    "inscripsi",
+    "inscriptum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "inscribis",
+      "3sg.pres.ind.act": "inscribit",
+      "1pl.pres.ind.act": "inscribimus",
+      "2pl.pres.ind.act": "inscribitis",
+      "2sg.pres.ind.pass": "inscriberis",
+      "3sg.pres.ind.pass": "inscribitur",
+      "1sg.imperf.subj.act": "inscriberem",
+      "2sg.imperf.subj.act": "inscriberes",
+      "3sg.imperf.subj.act": "inscriberet",
+      "1pl.imperf.subj.act": "inscriberemus",
+      "2pl.imperf.subj.act": "inscriberetis",
+      "3pl.imperf.subj.act": "inscriberent",
+      "2sg.pres.imp.act": "inscribe",
+      "2pl.pres.imp.act": "inscribite",
+      "1sg.perf.ind.act": "inscripsi",
+      "2sg.perf.ind.act": "inscripsisti",
+      "3sg.perf.ind.act": "inscripsit",
+      "1pl.perf.ind.act": "inscripsimus",
+      "2pl.perf.ind.act": "inscripsistis",
+      "3pl.perf.ind.act": "inscripserunt"
+    }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: inscriptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "inscriptus",
+      "ppp.nom.sg.fem": "inscripta",
+      "ppp.nom.sg.neut": "inscriptum",
+      "ppp.gen.sg.masc": "inscripti",
+      "ppp.gen.sg.fem": "inscriptae",
+      "ppp.gen.sg.neut": "inscripti",
+      "ppp.dat.sg.masc": "inscripto",
+      "ppp.dat.sg.fem": "inscriptae",
+      "ppp.dat.sg.neut": "inscripto",
+      "ppp.acc.sg.masc": "inscriptum",
+      "ppp.acc.sg.fem": "inscriptam",
+      "ppp.acc.sg.neut": "inscriptum",
+      "ppp.abl.sg.masc": "inscripto",
+      "ppp.abl.sg.fem": "inscripta",
+      "ppp.abl.sg.neut": "inscripto",
+      "ppp.voc.sg.masc": "inscripte",
+      "ppp.voc.sg.fem": "inscripta",
+      "ppp.voc.sg.neut": "inscriptum",
+      "ppp.nom.pl.masc": "inscripti",
+      "ppp.nom.pl.fem": "inscriptae",
+      "ppp.nom.pl.neut": "inscripta",
+      "ppp.gen.pl.masc": "inscriptorum",
+      "ppp.gen.pl.fem": "inscriptarum",
+      "ppp.gen.pl.neut": "inscriptorum",
+      "ppp.dat.pl.masc": "inscriptis",
+      "ppp.dat.pl.fem": "inscriptis",
+      "ppp.dat.pl.neut": "inscriptis",
+      "ppp.acc.pl.masc": "inscriptos",
+      "ppp.acc.pl.fem": "inscriptas",
+      "ppp.acc.pl.neut": "inscripta",
+      "ppp.abl.pl.masc": "inscriptis",
+      "ppp.abl.pl.fem": "inscriptis",
+      "ppp.abl.pl.neut": "inscriptis",
+      "ppp.voc.pl.masc": "inscripti",
+      "ppp.voc.pl.fem": "inscriptae",
+      "ppp.voc.pl.neut": "inscripta"
+    }
+  }
+}

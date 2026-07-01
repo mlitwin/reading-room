@@ -1,0 +1,37 @@
+{
+  "id": "ostrum_n",
+  "lemma": "ostrum",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "purple (dye)",
+    "purple cloth"
+  ],
+  "head": "ostrum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "ostrum",
+      "gen.sg": "ostri",
+      "acc.sg": "ostrum",
+      "dat.sg": "ostro",
+      "abl.sg": "ostro",
+      "gen.pl": "ostrorum",
+      "dat.pl": "ostris",
+      "abl.pl": "ostris",
+      "nom.pl": "ostra",
+      "acc.pl": "ostra"
+    }
+  }
+}

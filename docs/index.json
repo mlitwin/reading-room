@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-06-30T19:50:00.396Z",
+  "generated_at": "2026-07-01T03:12:31.733Z",
   "pieces": [
+    {
+      "slug": "marvell-hortus",
+      "title": "Marvell: Hortus / The Garden",
+      "author": "Matthew Litwin",
+      "date": "2026-06-30",
+      "tags": [
+        "latin",
+        "marvell",
+        "poetry",
+        "metaphysical",
+        "parallel-text"
+      ],
+      "summary": "Andrew Marvell's Latin poem \"Hortus\" set against his own English \"The Garden.\" The two are not a translation pair but independent poems on the same theme, and they diverge — Hortus expands the mythological conceits and breaks off in a lacuna where The Garden gives its famous Neoplatonic stanzas (\"a green thought in a green shade\"). The Latin carries a per-word study apparatus — tap any word for lemma, parse, paradigm, and gloss. The English runs alongside as the parallel poem, with each movement noting where the two texts meet and where they part.",
+      "html_path": "marvell-hortus/index.html",
+      "structure": {
+        "slug": "marvell-hortus",
+        "title": "Marvell: Hortus / The Garden",
+        "html_path": "marvell-hortus/index.html",
+        "items": [
+          {
+            "slug": "book1-01",
+            "title": "The Vain Wreaths / Garlands of Repose",
+            "html_path": "marvell-hortus/book1-01.html"
+          },
+          {
+            "slug": "book1-02",
+            "title": "Quiet and Innocence; the Citizen of the Grove",
+            "html_path": "marvell-hortus/book1-02.html"
+          },
+          {
+            "slug": "book1-03",
+            "title": "The Lovely Green; Lovers Carving Names",
+            "html_path": "marvell-hortus/book1-03.html"
+          },
+          {
+            "slug": "book1-04",
+            "title": "Love Retreats to the Trees; Gods in Pursuit",
+            "html_path": "marvell-hortus/book1-04.html"
+          },
+          {
+            "slug": "book1-05",
+            "title": "The Garden’s Abundance",
+            "html_path": "marvell-hortus/book1-05.html"
+          },
+          {
+            "slug": "book1-06",
+            "title": "The Mind Withdrawing",
+            "html_path": "marvell-hortus/book1-06.html"
+          },
+          {
+            "slug": "book1-07",
+            "title": "The Soul in the Boughs",
+            "html_path": "marvell-hortus/book1-07.html"
+          },
+          {
+            "slug": "book1-08",
+            "title": "Solitary in Paradise",
+            "html_path": "marvell-hortus/book1-08.html"
+          },
+          {
+            "slug": "book1-09",
+            "title": "The Floral Sundial",
+            "html_path": "marvell-hortus/book1-09.html"
+          },
+          {
+            "slug": "notes",
+            "title": "Notes on the text",
+            "html_path": "marvell-hortus/notes.html"
+          }
+        ]
+      }
+    },
     {
       "slug": "tensor-calculus-on-manifolds",
       "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",

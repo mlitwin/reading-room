@@ -1,0 +1,36 @@
+{
+  "id": "Mavors_n",
+  "lemma": "Mavors",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "Mars (archaic, poetic name)"
+  ],
+  "head": "Mavors, -vortis, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "mavorti",
+      "acc.sg": "mavortem",
+      "nom.pl": "mavortis",
+      "gen.pl": "mavortium",
+      "acc.pl": "mavortis",
+      "nom.sg": "mavors",
+      "gen.sg": "mavortis",
+      "dat.sg": "mavorti",
+      "dat.pl": "mavortibus",
+      "abl.pl": "mavortibus"
+    }
+  }
+}

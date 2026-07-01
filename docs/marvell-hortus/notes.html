@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Notes on the text — Reading Room</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="asset-prefix" content="../">
+<link rel="stylesheet" href="../assets/katex.min.css">
+<link rel="stylesheet" href="../assets/highlight.css">
+<link rel="stylesheet" href="../assets/reader.css">
+<script src="../assets/notes.js" defer></script>
+<script src="../assets/cards.js" defer></script>
+</head>
+<body>
+<header class="site">
+  <a href="../index.html" class="home">Reading Room</a>
+</header>
+<article>
+<nav class="breadcrumb"><a href="../index.html">Library</a><span class="sep">›</span><a href="index.html">Marvell: Hortus / The Garden</a><span class="sep">›</span><span class="here">Notes on the text</span></nav>
+  <header class="piece">
+    <h1>Notes on the text</h1>
+    <div class="meta">
+      <span class="author">Matthew Litwin</span>
+      <time>2026-06-30</time>
+      <span class="tags"></span>
+    </div>
+  </header>
+  <div class="body">
+<h2>Texts and provenance</h2>
+<ul>
+<li><strong>The Garden</strong> — 9 stanzas × 8 lines, iambic tetrameter. <em>Miscellaneous Poems</em> (1681), via Wikisource. Public domain.</li>
+<li><strong>Hortus</strong> — Latin hexameter, 58 lines (normalised), with a printed lacuna (<em>Desunt multa</em>) after line 48. Same edition/source.</li>
+<li>Raw sources and the normalization audit trail live in <code>downloads/marvell/</code> (<code>the-garden.txt</code>, <code>hortus.txt</code>, <code>hortus.normalized.txt</code>, <code>hortus.normalization-log.md</code>, <code>normalize_hortus.py</code>).</li>
+</ul>
+<h2>Latin normalization</h2>
+<p>The 1681 print is normalised for the study apparatus: æ/œ ligatures expanded, <code>&amp;</code> → <code>et</code>, whitespace collapsed, and a short list of printer’s errors and detached enclitics corrected (e.g. <em>simplieis</em> → <em>simplicis</em>, <em>Hotrorum</em> → <em>Hortorum</em>, <em>Regum per que</em> → <em>Regumque per</em>, <em>vulner a</em> → <em>vulnera</em>, <em>temer a vero</em> → <em>temeravero</em>, <em>referuut</em> → <em>referunt</em>, <em>Ulnus</em> → <em>Ulmus</em>, spurious <em>Quiætis</em>/<em>Phæbus</em> ligatures → <em>Quietis</em>/<em>Phoebus</em>). Every change is logged in <code>hortus.normalization-log.md</code>.</p>
+<h2>Correspondence structure</h2>
+<p>The two poems align movement-by-movement but with gaps on both sides — see <code>correspondences.json</code>:</p>
+<ul>
+<li><strong>Parallel</strong>: Hortus 1–6 ↔ Garden I; 7–13 ↔ II; 20–30 ↔ III; 31–48 ↔ IV; 49–58 ↔ IX.</li>
+<li><strong>Latin-only</strong> (no English): Hortus 14–19 — the “new citizen of the grove” conceit and the invocation of the Muses and Apollo.</li>
+<li><strong>Lacuna / English-only</strong>: Garden V–VIII (lines 33–64) have no Latin. The Latin’s <em>Desunt multa</em> falls here; the famous “green thought in a green shade” (VI), the soul-as-bird (VII), and solitary Adam (VIII) are all absent from Hortus.</li>
+</ul>
+<h2>Apparatus status (build state)</h2>
+<ul>
+<li>Tokenised via Morpheus (<code>build_apparatus.py</code>) with a per-text proper-noun overrides file (<code>latin-overrides.json</code>). All 384 tokens resolve to a candidate.</li>
+<li>Lemmas absent from the shared consolidated lexicon live as per-book cards under <code>vocabulary/</code>, <strong>derived</strong> from <code>lexicon-curation.json</code> by <code>site/marvell/build_manuscripts.py</code> (edit the curation source, never the cards). The curation pass has assigned correct POS (hence lemma id), gender, glosses, and dictionary heads/principal parts to all 110 cards, and corrected ~23 primary-lemma/parse-code mis-analyses via <code>surface_primary</code> (e.g. <em>Flores</em> → noun <em>flos</em>, <em>serta</em> → <em>sertum</em>, <em>opaca</em> → adj <em>opacus</em>, <em>rosae</em> → <em>rosa</em>, <em>virides</em> → <em>viridis</em>).</li>
+<li><strong>Paradigms</strong> are generated from Whitaker’s WORDS (DICTLINE + INFLECTS) via <code>seed_vocab</code>, attached to each card by the builder: 89 of 103 declinable lemmas have full declension/conjugation tables. The 14 without are proper nouns (absent from DICTLINE, like Ovid’s), participial adjectives (<em>fragrans</em>), and a few rare words (<em>cyparissus, platanus, fraxinus, implecto, furor, germana, potis</em>). A handful of generated tables are thin — 3rd-declension adjectives (<em>viridis</em> etc.) often come out neuter-only, and some 3rd-declension noun plurals are imperfect — the same generator limitations carried over from Ovid; these are an L8 warning-class polish item, not blocking.</li>
+<li><strong>Remaining</strong>: fill the 14 missing / thin paradigms by hand where they matter, and wire <code>correspondences.json</code> into an interactive facing-alignment view (today the pairing is per movement page).</li>
+</ul>
+
+  </div>
+<nav class="page-nav"><a class="prev" href="book1-09.html"><span class="dir">←</span> <span class="title">The Floral Sundial</span></a><span class="next placeholder"></span></nav>
+</article>
+</body>
+</html>

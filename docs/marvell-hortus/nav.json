@@ -1,0 +1,248 @@
+{
+  "pages": [
+    {
+      "slug": "marvell-hortus",
+      "title": "Marvell: Hortus / The Garden",
+      "html_path": "marvell-hortus/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        }
+      ],
+      "prev": null,
+      "next": {
+        "title": "The Vain Wreaths / Garlands of Repose",
+        "html_path": "marvell-hortus/book1-01.html"
+      }
+    },
+    {
+      "slug": "book1-01",
+      "title": "The Vain Wreaths / Garlands of Repose",
+      "html_path": "marvell-hortus/book1-01.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Marvell: Hortus / The Garden",
+        "html_path": "marvell-hortus/index.html"
+      },
+      "next": {
+        "title": "Quiet and Innocence; the Citizen of the Grove",
+        "html_path": "marvell-hortus/book1-02.html"
+      }
+    },
+    {
+      "slug": "book1-02",
+      "title": "Quiet and Innocence; the Citizen of the Grove",
+      "html_path": "marvell-hortus/book1-02.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Vain Wreaths / Garlands of Repose",
+        "html_path": "marvell-hortus/book1-01.html"
+      },
+      "next": {
+        "title": "The Lovely Green; Lovers Carving Names",
+        "html_path": "marvell-hortus/book1-03.html"
+      }
+    },
+    {
+      "slug": "book1-03",
+      "title": "The Lovely Green; Lovers Carving Names",
+      "html_path": "marvell-hortus/book1-03.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Quiet and Innocence; the Citizen of the Grove",
+        "html_path": "marvell-hortus/book1-02.html"
+      },
+      "next": {
+        "title": "Love Retreats to the Trees; Gods in Pursuit",
+        "html_path": "marvell-hortus/book1-04.html"
+      }
+    },
+    {
+      "slug": "book1-04",
+      "title": "Love Retreats to the Trees; Gods in Pursuit",
+      "html_path": "marvell-hortus/book1-04.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Lovely Green; Lovers Carving Names",
+        "html_path": "marvell-hortus/book1-03.html"
+      },
+      "next": {
+        "title": "The Garden’s Abundance",
+        "html_path": "marvell-hortus/book1-05.html"
+      }
+    },
+    {
+      "slug": "book1-05",
+      "title": "The Garden’s Abundance",
+      "html_path": "marvell-hortus/book1-05.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Love Retreats to the Trees; Gods in Pursuit",
+        "html_path": "marvell-hortus/book1-04.html"
+      },
+      "next": {
+        "title": "The Mind Withdrawing",
+        "html_path": "marvell-hortus/book1-06.html"
+      }
+    },
+    {
+      "slug": "book1-06",
+      "title": "The Mind Withdrawing",
+      "html_path": "marvell-hortus/book1-06.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Garden’s Abundance",
+        "html_path": "marvell-hortus/book1-05.html"
+      },
+      "next": {
+        "title": "The Soul in the Boughs",
+        "html_path": "marvell-hortus/book1-07.html"
+      }
+    },
+    {
+      "slug": "book1-07",
+      "title": "The Soul in the Boughs",
+      "html_path": "marvell-hortus/book1-07.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Mind Withdrawing",
+        "html_path": "marvell-hortus/book1-06.html"
+      },
+      "next": {
+        "title": "Solitary in Paradise",
+        "html_path": "marvell-hortus/book1-08.html"
+      }
+    },
+    {
+      "slug": "book1-08",
+      "title": "Solitary in Paradise",
+      "html_path": "marvell-hortus/book1-08.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Soul in the Boughs",
+        "html_path": "marvell-hortus/book1-07.html"
+      },
+      "next": {
+        "title": "The Floral Sundial",
+        "html_path": "marvell-hortus/book1-09.html"
+      }
+    },
+    {
+      "slug": "book1-09",
+      "title": "The Floral Sundial",
+      "html_path": "marvell-hortus/book1-09.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Solitary in Paradise",
+        "html_path": "marvell-hortus/book1-08.html"
+      },
+      "next": {
+        "title": "Notes on the text",
+        "html_path": "marvell-hortus/notes.html"
+      }
+    },
+    {
+      "slug": "notes",
+      "title": "Notes on the text",
+      "html_path": "marvell-hortus/notes.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Marvell: Hortus / The Garden",
+          "html_path": "marvell-hortus/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Floral Sundial",
+        "html_path": "marvell-hortus/book1-09.html"
+      },
+      "next": null
+    }
+  ],
+  "uses_latin": true
+}

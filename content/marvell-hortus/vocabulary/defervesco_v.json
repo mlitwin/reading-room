@@ -1,0 +1,54 @@
+{
+  "id": "defervesco_v",
+  "lemma": "defervesco",
+  "pos": "verb",
+  "glosses": [
+    "to cease boiling, cool down, abate"
+  ],
+  "head": "defervesco, -ere, -ferbui",
+  "principal_parts": [
+    "defervesco",
+    "defervescere",
+    "deferbui"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "defervescis",
+      "3sg.pres.ind.act": "defervescit",
+      "1pl.pres.ind.act": "defervescimus",
+      "2pl.pres.ind.act": "defervescitis",
+      "2sg.pres.ind.pass": "defervesceris",
+      "3sg.pres.ind.pass": "defervescitur",
+      "1sg.imperf.subj.act": "defervescerem",
+      "2sg.imperf.subj.act": "defervesceres",
+      "3sg.imperf.subj.act": "defervesceret",
+      "1pl.imperf.subj.act": "defervesceremus",
+      "2pl.imperf.subj.act": "defervesceretis",
+      "3pl.imperf.subj.act": "defervescerent",
+      "2sg.pres.imp.act": "defervesce",
+      "2pl.pres.imp.act": "defervescite",
+      "1sg.perf.ind.act": "deferbui",
+      "2sg.perf.ind.act": "deferbuisti",
+      "3sg.perf.ind.act": "deferbuit",
+      "1pl.perf.ind.act": "deferbuimus",
+      "2pl.perf.ind.act": "deferbuistis",
+      "3pl.perf.ind.act": "deferbuerunt"
+    }
+  }
+}

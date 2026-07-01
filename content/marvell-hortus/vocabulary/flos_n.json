@@ -1,0 +1,36 @@
+{
+  "id": "flos_n",
+  "lemma": "flos",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "flower, blossom"
+  ],
+  "head": "flos, floris, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "florem",
+      "gen.pl": "florum",
+      "acc.pl": "floris",
+      "nom.sg": "flos",
+      "gen.sg": "floris",
+      "dat.sg": "flori",
+      "abl.sg": "flore",
+      "nom.pl": "flores",
+      "dat.pl": "floribus",
+      "abl.pl": "floribus"
+    }
+  }
+}

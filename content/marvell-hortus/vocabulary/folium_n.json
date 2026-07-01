@@ -1,0 +1,37 @@
+{
+  "id": "folium_n",
+  "lemma": "folium",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "leaf",
+    "petal, foliage"
+  ],
+  "head": "folium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "folium",
+      "gen.sg": "folii",
+      "acc.sg": "folium",
+      "dat.sg": "folio",
+      "abl.sg": "folio",
+      "gen.pl": "foliorum",
+      "dat.pl": "foliis",
+      "abl.pl": "foliis",
+      "nom.pl": "folia",
+      "acc.pl": "folia"
+    }
+  }
+}

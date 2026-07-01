@@ -1,0 +1,32 @@
+{
+  "id": "capripes_adj",
+  "lemma": "capripes",
+  "pos": "adj",
+  "glosses": [
+    "goat-footed"
+  ],
+  "head": "capripes, -pedis",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "capripes",
+      "nom.pl.neut": "capripedia",
+      "acc.pl.neut": "capripedia"
+    }
+  }
+}

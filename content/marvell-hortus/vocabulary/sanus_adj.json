@@ -1,0 +1,54 @@
+{
+  "id": "sanus_adj",
+  "lemma": "sanus",
+  "pos": "adj",
+  "glosses": [
+    "sound, healthy, whole",
+    "sane, wholesome"
+  ],
+  "head": "sanus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "sanus",
+      "gen.sg.masc": "sani",
+      "dat.sg.masc": "sano",
+      "gen.sg.fem": "sanae",
+      "dat.sg.fem": "sanae",
+      "nom.sg.neut": "sanum",
+      "gen.sg.neut": "sani",
+      "dat.sg.neut": "sano",
+      "acc.sg.neut": "sanum",
+      "acc.sg.masc": "sanum",
+      "abl.sg.masc": "sano",
+      "nom.pl.masc": "sani",
+      "gen.pl.masc": "sanorum",
+      "acc.pl.masc": "sanos",
+      "nom.sg.fem": "sana",
+      "acc.sg.fem": "sanam",
+      "abl.sg.fem": "sana",
+      "nom.pl.fem": "sanae",
+      "gen.pl.fem": "sanarum",
+      "acc.pl.fem": "sanas",
+      "abl.sg.neut": "sano",
+      "nom.pl.neut": "sana",
+      "gen.pl.neut": "sanorum",
+      "acc.pl.neut": "sana"
+    }
+  }
+}

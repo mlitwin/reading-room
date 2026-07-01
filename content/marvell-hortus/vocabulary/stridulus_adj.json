@@ -1,0 +1,53 @@
+{
+  "id": "stridulus_adj",
+  "lemma": "stridulus",
+  "pos": "adj",
+  "glosses": [
+    "hissing, whizzing, creaking, shrill"
+  ],
+  "head": "stridulus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "stridulus",
+      "gen.sg.masc": "striduli",
+      "dat.sg.masc": "stridulo",
+      "gen.sg.fem": "stridulae",
+      "dat.sg.fem": "stridulae",
+      "nom.sg.neut": "stridulum",
+      "gen.sg.neut": "striduli",
+      "dat.sg.neut": "stridulo",
+      "acc.sg.neut": "stridulum",
+      "acc.sg.masc": "stridulum",
+      "abl.sg.masc": "stridulo",
+      "nom.pl.masc": "striduli",
+      "gen.pl.masc": "stridulorum",
+      "acc.pl.masc": "stridulos",
+      "nom.sg.fem": "stridula",
+      "acc.sg.fem": "stridulam",
+      "abl.sg.fem": "stridula",
+      "nom.pl.fem": "stridulae",
+      "gen.pl.fem": "stridularum",
+      "acc.pl.fem": "stridulas",
+      "abl.sg.neut": "stridulo",
+      "nom.pl.neut": "stridula",
+      "gen.pl.neut": "stridulorum",
+      "acc.pl.neut": "stridula"
+    }
+  }
+}

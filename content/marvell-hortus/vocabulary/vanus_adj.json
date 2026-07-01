@@ -1,0 +1,54 @@
+{
+  "id": "vanus_adj",
+  "lemma": "vanus",
+  "pos": "adj",
+  "glosses": [
+    "empty, idle, vain",
+    "illusory, groundless"
+  ],
+  "head": "vanus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "vanus",
+      "gen.sg.masc": "vani",
+      "dat.sg.masc": "vano",
+      "gen.sg.fem": "vanae",
+      "dat.sg.fem": "vanae",
+      "nom.sg.neut": "vanum",
+      "gen.sg.neut": "vani",
+      "dat.sg.neut": "vano",
+      "acc.sg.neut": "vanum",
+      "acc.sg.masc": "vanum",
+      "abl.sg.masc": "vano",
+      "nom.pl.masc": "vani",
+      "gen.pl.masc": "vanorum",
+      "acc.pl.masc": "vanos",
+      "nom.sg.fem": "vana",
+      "acc.sg.fem": "vanam",
+      "abl.sg.fem": "vana",
+      "nom.pl.fem": "vanae",
+      "gen.pl.fem": "vanarum",
+      "acc.pl.fem": "vanas",
+      "abl.sg.neut": "vano",
+      "nom.pl.neut": "vana",
+      "gen.pl.neut": "vanorum",
+      "acc.pl.neut": "vana"
+    }
+  }
+}

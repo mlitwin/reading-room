@@ -1,0 +1,40 @@
+{
+  "id": "civis_n",
+  "lemma": "civis",
+  "pos": "noun",
+  "gender": [
+    "masc",
+    "fem"
+  ],
+  "glosses": [
+    "citizen",
+    "fellow-citizen"
+  ],
+  "head": "civis, -is, m./f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "civi",
+      "acc.sg": "civem",
+      "nom.pl": "civis",
+      "gen.pl": "civium",
+      "acc.pl": "civis",
+      "nom.sg": "civis",
+      "gen.sg": "civis",
+      "dat.sg": "civi",
+      "dat.pl": "civibus",
+      "abl.pl": "civibus"
+    }
+  }
+}

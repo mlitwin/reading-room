@@ -1,0 +1,53 @@
+{
+  "id": "omnigenus_adj",
+  "lemma": "omnigenus",
+  "pos": "adj",
+  "glosses": [
+    "of all kinds, of every sort"
+  ],
+  "head": "omnigenus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "omnigenus",
+      "gen.sg.masc": "omnigeni",
+      "dat.sg.masc": "omnigeno",
+      "gen.sg.fem": "omnigenae",
+      "dat.sg.fem": "omnigenae",
+      "nom.sg.neut": "omnigenum",
+      "gen.sg.neut": "omnigeni",
+      "dat.sg.neut": "omnigeno",
+      "acc.sg.neut": "omnigenum",
+      "acc.sg.masc": "omnigenum",
+      "abl.sg.masc": "omnigeno",
+      "nom.pl.masc": "omnigeni",
+      "gen.pl.masc": "omnigenorum",
+      "acc.pl.masc": "omnigenos",
+      "nom.sg.fem": "omnigena",
+      "acc.sg.fem": "omnigenam",
+      "abl.sg.fem": "omnigena",
+      "nom.pl.fem": "omnigenae",
+      "gen.pl.fem": "omnigenarum",
+      "acc.pl.fem": "omnigenas",
+      "abl.sg.neut": "omnigeno",
+      "nom.pl.neut": "omnigena",
+      "gen.pl.neut": "omnigenorum",
+      "acc.pl.neut": "omnigena"
+    }
+  }
+}

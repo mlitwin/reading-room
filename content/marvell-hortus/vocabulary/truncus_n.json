@@ -1,0 +1,37 @@
+{
+  "id": "truncus_n",
+  "lemma": "truncus",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "trunk (of a tree), stem",
+    "trunk of the body"
+  ],
+  "head": "truncus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "truncus",
+      "gen.sg": "trunci",
+      "dat.sg": "trunco",
+      "abl.sg": "trunco",
+      "acc.sg": "truncum",
+      "nom.pl": "trunci",
+      "gen.pl": "truncorum",
+      "dat.pl": "truncis",
+      "abl.pl": "truncis",
+      "acc.pl": "truncos"
+    }
+  }
+}

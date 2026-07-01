@@ -1,0 +1,37 @@
+{
+  "id": "virtus_n",
+  "lemma": "virtus",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "virtue, worth",
+    "manliness, courage, excellence"
+  ],
+  "head": "virtus, -utis, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "virtutem",
+      "gen.pl": "virtutum",
+      "acc.pl": "virtutis",
+      "nom.sg": "virtus",
+      "gen.sg": "virtutis",
+      "dat.sg": "virtuti",
+      "abl.sg": "virtute",
+      "nom.pl": "virtutes",
+      "dat.pl": "virtutibus",
+      "abl.pl": "virtutibus"
+    }
+  }
+}

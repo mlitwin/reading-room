@@ -1,0 +1,37 @@
+{
+  "id": "simplicitas_n",
+  "lemma": "simplicitas",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "simplicity, plainness",
+    "frankness, innocence"
+  ],
+  "head": "simplicitas, -atis, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "simplicitatem",
+      "gen.pl": "simplicitatum",
+      "acc.pl": "simplicitatis",
+      "nom.sg": "simplicitas",
+      "gen.sg": "simplicitatis",
+      "dat.sg": "simplicitati",
+      "abl.sg": "simplicitate",
+      "nom.pl": "simplicitates",
+      "dat.pl": "simplicitatibus",
+      "abl.pl": "simplicitatibus"
+    }
+  }
+}

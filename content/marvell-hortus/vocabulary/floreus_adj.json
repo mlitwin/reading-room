@@ -1,0 +1,53 @@
+{
+  "id": "floreus_adj",
+  "lemma": "floreus",
+  "pos": "adj",
+  "glosses": [
+    "flowery, of flowers, blooming"
+  ],
+  "head": "floreus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "floreus",
+      "gen.sg.masc": "florei",
+      "dat.sg.masc": "floreo",
+      "gen.sg.fem": "floreae",
+      "dat.sg.fem": "floreae",
+      "nom.sg.neut": "floreum",
+      "gen.sg.neut": "florei",
+      "dat.sg.neut": "floreo",
+      "acc.sg.neut": "floreum",
+      "acc.sg.masc": "floreum",
+      "abl.sg.masc": "floreo",
+      "nom.pl.masc": "florei",
+      "gen.pl.masc": "floreorum",
+      "acc.pl.masc": "floreos",
+      "nom.sg.fem": "florea",
+      "acc.sg.fem": "floream",
+      "abl.sg.fem": "florea",
+      "nom.pl.fem": "floreae",
+      "gen.pl.fem": "florearum",
+      "acc.pl.fem": "floreas",
+      "abl.sg.neut": "floreo",
+      "nom.pl.neut": "florea",
+      "gen.pl.neut": "floreorum",
+      "acc.pl.neut": "florea"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "municeps_n",
+  "lemma": "municeps",
+  "pos": "noun",
+  "gender": [
+    "masc",
+    "fem"
+  ],
+  "glosses": [
+    "citizen of a free town, fellow-townsman"
+  ],
+  "head": "municeps, -cipis, m./f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "municipem",
+      "gen.pl": "municipum",
+      "acc.pl": "municipis",
+      "nom.sg": "municeps",
+      "gen.sg": "municipis",
+      "dat.sg": "municipi",
+      "abl.sg": "municipe",
+      "nom.pl": "municipes",
+      "dat.pl": "municipibus",
+      "abl.pl": "municipibus"
+    }
+  }
+}

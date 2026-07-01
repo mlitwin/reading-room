@@ -1,0 +1,53 @@
+{
+  "id": "frondosus_adj",
+  "lemma": "frondosus",
+  "pos": "adj",
+  "glosses": [
+    "leafy, full of leaves"
+  ],
+  "head": "frondosus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "frondosus",
+      "gen.sg.masc": "frondosi",
+      "dat.sg.masc": "frondoso",
+      "gen.sg.fem": "frondosae",
+      "dat.sg.fem": "frondosae",
+      "nom.sg.neut": "frondosum",
+      "gen.sg.neut": "frondosi",
+      "dat.sg.neut": "frondoso",
+      "acc.sg.neut": "frondosum",
+      "acc.sg.masc": "frondosum",
+      "abl.sg.masc": "frondoso",
+      "nom.pl.masc": "frondosi",
+      "gen.pl.masc": "frondosorum",
+      "acc.pl.masc": "frondosos",
+      "nom.sg.fem": "frondosa",
+      "acc.sg.fem": "frondosam",
+      "abl.sg.fem": "frondosa",
+      "nom.pl.fem": "frondosae",
+      "gen.pl.fem": "frondosarum",
+      "acc.pl.fem": "frondosas",
+      "abl.sg.neut": "frondoso",
+      "nom.pl.neut": "frondosa",
+      "gen.pl.neut": "frondosorum",
+      "acc.pl.neut": "frondosa"
+    }
+  }
+}

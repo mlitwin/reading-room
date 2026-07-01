@@ -68,27 +68,33 @@ function renderLine(line) {
   return line.tokens.map(emitToken).join('');
 }
 
-// Emit the latin-passage div + Translation + Notes blocks for one chapter.
-function emitChapter(latinSection, englishSection, latinLines) {
-  const lines = [
-    emitYamlFrontmatter(latinSection),
-    '',
-    '<div class="latin-passage">',
-  ];
-  // Lines separated by <br>; last line in the div ends with a comma (we
-  // preserve whatever final punctuation/character was authored — no implicit
-  // closing punctuation).
-  for (let i = 0; i < latinLines.length; i += 1) {
-    const rendered = renderLine(latinLines[i]);
-    if (i < latinLines.length - 1) lines.push(`${rendered}<br>`);
-    else lines.push(rendered);
+// Emit one chapter's markdown. `latinSection` may be undefined for a movement
+// that exists only in the facing language (e.g. Marvell's The Garden stanzas
+// V–VIII, which Hortus omits) — in that case we page off the English section
+// and emit no latin-passage block. `facingHeading` labels the facing-language
+// block ("Translation" for a real translation, "The Garden" for a parallel
+// poem); it comes from the english manuscript's top-level `facing_heading`.
+function emitChapter(latinSection, englishSection, latinLines, facingHeading) {
+  const frontmatterSection = latinSection ?? englishSection;
+  const lines = [emitYamlFrontmatter(frontmatterSection), ''];
+
+  if (latinLines.length > 0) {
+    lines.push('<div class="latin-passage">');
+    for (let i = 0; i < latinLines.length; i += 1) {
+      const rendered = renderLine(latinLines[i]);
+      if (i < latinLines.length - 1) lines.push(`${rendered}<br>`);
+      else lines.push(rendered);
+    }
+    lines.push('</div>', '');
+  } else if (englishSection) {
+    // Facing-language-only movement: name the absence of a Latin counterpart.
+    lines.push('*No Latin counterpart in Hortus.*', '');
   }
-  lines.push('</div>', '');
 
   if (englishSection?.translation) {
-    lines.push('## Translation', '', englishSection.translation, '');
+    lines.push(`## ${facingHeading}`, '', englishSection.translation, '');
   }
-  if (latinSection.notes) {
+  if (latinSection?.notes) {
     lines.push('## Notes on the passage', '', latinSection.notes, '');
   }
 
@@ -128,7 +134,9 @@ export async function buildManuscriptMd(textSlug, outDir, contentDir = join(REPO
     throw new Error(`english manuscript schema validation failed`);
   }
 
+  const facingHeading = english.facing_heading ?? 'Translation';
   const englishByPath = new Map(english.sections.map((s) => [s.path, s]));
+  const latinByPath = new Map(latin.sections.map((s) => [s.path, s]));
   // Group latin lines by their section path.
   const linesBySection = new Map();
   for (const line of latin.lines) {
@@ -138,16 +146,24 @@ export async function buildManuscriptMd(textSlug, outDir, contentDir = join(REPO
   // Stable line order: by `n` ascending within each section.
   for (const arr of linesBySection.values()) arr.sort((a, b) => a.n - b.n);
 
+  // Page off the union of latin + english chapter paths, in path order, so a
+  // movement present in only one language still gets a page.
+  const chapterPaths = new Set();
+  for (const s of latin.sections) if (s.level === 'chapter') chapterPaths.add(s.path);
+  for (const s of english.sections) if (s.level === 'chapter') chapterPaths.add(s.path);
+  const orderedPaths = [...chapterPaths].sort();
+
   await mkdir(outDir, { recursive: true });
   const written = [];
-  for (const section of latin.sections) {
-    if (section.level !== 'chapter') continue;
-    const lines = linesBySection.get(section.path) ?? [];
-    if (lines.length === 0) continue;
-    const md = emitChapter(section, englishByPath.get(section.path), lines);
-    const path = join(outDir, chapterFilename(section.path));
-    await writeFile(path, md, 'utf8');
-    written.push(path);
+  for (const path of orderedPaths) {
+    const latinSection = latinByPath.get(path);
+    const lines = linesBySection.get(path) ?? [];
+    const englishSection = englishByPath.get(path);
+    if (lines.length === 0 && !englishSection) continue;
+    const md = emitChapter(latinSection, englishSection, lines, facingHeading);
+    const outPath = join(outDir, chapterFilename(path));
+    await writeFile(outPath, md, 'utf8');
+    written.push(outPath);
   }
   return written;
 }

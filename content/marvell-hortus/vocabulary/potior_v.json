@@ -1,0 +1,54 @@
+{
+  "id": "potior_v",
+  "lemma": "potior",
+  "pos": "verb",
+  "glosses": [
+    "to become master of, take possession of, enjoy (+ abl.)"
+  ],
+  "head": "potior, -iri, -itus sum",
+  "principal_parts": [
+    "potior",
+    "potiri",
+    "potitus sum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "potis",
+      "3sg.pres.ind.act": "potit",
+      "1pl.pres.ind.act": "potimus",
+      "2pl.pres.ind.act": "potitis",
+      "2sg.pres.ind.pass": "poteris",
+      "3sg.pres.ind.pass": "potitur",
+      "1sg.imperf.subj.act": "poterem",
+      "2sg.imperf.subj.act": "poteres",
+      "3sg.imperf.subj.act": "poteret",
+      "1pl.imperf.subj.act": "poteremus",
+      "2pl.imperf.subj.act": "poteretis",
+      "3pl.imperf.subj.act": "poterent",
+      "2sg.pres.imp.act": "pote",
+      "2pl.pres.imp.act": "potite",
+      "1sg.perf.ind.act": "-i",
+      "2sg.perf.ind.act": "-isti",
+      "3sg.perf.ind.act": "-it",
+      "1pl.perf.ind.act": "-imus",
+      "2pl.perf.ind.act": "-istis",
+      "3pl.perf.ind.act": "-erunt"
+    }
+  }
+}

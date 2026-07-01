@@ -1,0 +1,37 @@
+{
+  "id": "taurus_n",
+  "lemma": "taurus",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "bull",
+    "the Bull (Taurus, the zodiac sign)"
+  ],
+  "head": "taurus, -i, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "taurus",
+      "gen.sg": "tauri",
+      "dat.sg": "tauro",
+      "abl.sg": "tauro",
+      "acc.sg": "taurum",
+      "nom.pl": "tauri",
+      "gen.pl": "taurorum",
+      "dat.pl": "tauris",
+      "abl.pl": "tauris",
+      "acc.pl": "tauros"
+    }
+  }
+}

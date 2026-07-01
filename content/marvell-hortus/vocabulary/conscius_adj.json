@@ -1,0 +1,54 @@
+{
+  "id": "conscius_adj",
+  "lemma": "conscius",
+  "pos": "adj",
+  "glosses": [
+    "sharing knowledge, aware",
+    "witnessing, conscious"
+  ],
+  "head": "conscius, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "conscius",
+      "gen.sg.masc": "conscii",
+      "dat.sg.masc": "conscio",
+      "gen.sg.fem": "consciae",
+      "dat.sg.fem": "consciae",
+      "nom.sg.neut": "conscium",
+      "gen.sg.neut": "conscii",
+      "dat.sg.neut": "conscio",
+      "acc.sg.neut": "conscium",
+      "acc.sg.masc": "conscium",
+      "abl.sg.masc": "conscio",
+      "nom.pl.masc": "conscii",
+      "gen.pl.masc": "consciorum",
+      "acc.pl.masc": "conscios",
+      "nom.sg.fem": "conscia",
+      "acc.sg.fem": "consciam",
+      "abl.sg.fem": "conscia",
+      "nom.pl.fem": "consciae",
+      "gen.pl.fem": "consciarum",
+      "acc.pl.fem": "conscias",
+      "abl.sg.neut": "conscio",
+      "nom.pl.neut": "conscia",
+      "gen.pl.neut": "consciorum",
+      "acc.pl.neut": "conscia"
+    }
+  }
+}

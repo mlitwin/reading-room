@@ -1,0 +1,54 @@
+{
+  "id": "charus_adj",
+  "lemma": "charus",
+  "pos": "adj",
+  "glosses": [
+    "dear, beloved",
+    "precious"
+  ],
+  "head": "charus (carus), -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "charus",
+      "gen.sg.masc": "chari",
+      "dat.sg.masc": "charo",
+      "gen.sg.fem": "charae",
+      "dat.sg.fem": "charae",
+      "nom.sg.neut": "charum",
+      "gen.sg.neut": "chari",
+      "dat.sg.neut": "charo",
+      "acc.sg.neut": "charum",
+      "acc.sg.masc": "charum",
+      "abl.sg.masc": "charo",
+      "nom.pl.masc": "chari",
+      "gen.pl.masc": "charorum",
+      "acc.pl.masc": "charos",
+      "nom.sg.fem": "chara",
+      "acc.sg.fem": "charam",
+      "abl.sg.fem": "chara",
+      "nom.pl.fem": "charae",
+      "gen.pl.fem": "chararum",
+      "acc.pl.fem": "charas",
+      "abl.sg.neut": "charo",
+      "nom.pl.neut": "chara",
+      "gen.pl.neut": "charorum",
+      "acc.pl.neut": "chara"
+    }
+  }
+}

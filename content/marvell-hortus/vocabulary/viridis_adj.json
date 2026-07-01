@@ -1,0 +1,34 @@
+{
+  "id": "viridis_adj",
+  "lemma": "viridis",
+  "pos": "adj",
+  "glosses": [
+    "green",
+    "fresh, young, vigorous"
+  ],
+  "head": "viridis, -e",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "viride",
+      "acc.sg.neut": "viride",
+      "nom.pl.neut": "viridia",
+      "acc.pl.neut": "viridia"
+    }
+  }
+}

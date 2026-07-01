@@ -1,0 +1,36 @@
+{
+  "id": "boatus_n",
+  "lemma": "boatus",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "a roaring, bellowing, loud cry"
+  ],
+  "head": "boatus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "boatus",
+      "gen.sg": "boatus",
+      "dat.sg": "boatui",
+      "acc.sg": "boatum",
+      "nom.pl": "boatus",
+      "acc.pl": "boatus",
+      "abl.sg": "boatu",
+      "gen.pl": "boatuum",
+      "dat.pl": "boatibus",
+      "abl.pl": "boatibus"
+    }
+  }
+}

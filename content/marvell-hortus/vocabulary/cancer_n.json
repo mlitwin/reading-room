@@ -1,0 +1,37 @@
+{
+  "id": "cancer_n",
+  "lemma": "cancer",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "crab",
+    "the Crab (Cancer, the zodiac sign)"
+  ],
+  "head": "cancer, -cri, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "cancerem",
+      "gen.pl": "cancerum",
+      "acc.pl": "canceris",
+      "nom.sg": "cancer",
+      "gen.sg": "canceris",
+      "dat.sg": "canceri",
+      "abl.sg": "cancere",
+      "nom.pl": "canceres",
+      "dat.pl": "canceribus",
+      "abl.pl": "canceribus"
+    }
+  }
+}

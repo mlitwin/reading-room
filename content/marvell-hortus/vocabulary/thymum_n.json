@@ -1,0 +1,36 @@
+{
+  "id": "thymum_n",
+  "lemma": "thymum",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "thyme"
+  ],
+  "head": "thymum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "thymum",
+      "gen.sg": "thymi",
+      "acc.sg": "thymum",
+      "dat.sg": "thymo",
+      "abl.sg": "thymo",
+      "gen.pl": "thymorum",
+      "dat.pl": "thymis",
+      "abl.pl": "thymis",
+      "nom.pl": "thyma",
+      "acc.pl": "thyma"
+    }
+  }
+}

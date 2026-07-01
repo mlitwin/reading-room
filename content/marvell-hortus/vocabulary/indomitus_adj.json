@@ -1,0 +1,53 @@
+{
+  "id": "indomitus_adj",
+  "lemma": "indomitus",
+  "pos": "adj",
+  "glosses": [
+    "untamed, wild, unconquered"
+  ],
+  "head": "indomitus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "indomitus",
+      "gen.sg.masc": "indomiti",
+      "dat.sg.masc": "indomito",
+      "gen.sg.fem": "indomitae",
+      "dat.sg.fem": "indomitae",
+      "nom.sg.neut": "indomitum",
+      "gen.sg.neut": "indomiti",
+      "dat.sg.neut": "indomito",
+      "acc.sg.neut": "indomitum",
+      "acc.sg.masc": "indomitum",
+      "abl.sg.masc": "indomito",
+      "nom.pl.masc": "indomiti",
+      "gen.pl.masc": "indomitorum",
+      "acc.pl.masc": "indomitos",
+      "nom.sg.fem": "indomita",
+      "acc.sg.fem": "indomitam",
+      "abl.sg.fem": "indomita",
+      "nom.pl.fem": "indomitae",
+      "gen.pl.fem": "indomitarum",
+      "acc.pl.fem": "indomitas",
+      "abl.sg.neut": "indomito",
+      "nom.pl.neut": "indomita",
+      "gen.pl.neut": "indomitorum",
+      "acc.pl.neut": "indomita"
+    }
+  }
+}

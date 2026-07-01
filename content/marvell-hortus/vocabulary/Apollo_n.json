@@ -1,0 +1,37 @@
+{
+  "id": "Apollo_n",
+  "lemma": "Apollo",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "Apollo",
+    "god of poetry, prophecy, and the sun"
+  ],
+  "head": "Apollo, -inis, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "apollinem",
+      "gen.pl": "apollinum",
+      "acc.pl": "apollinis",
+      "nom.sg": "apollo",
+      "gen.sg": "apollinis",
+      "dat.sg": "apollini",
+      "abl.sg": "apolline",
+      "nom.pl": "apollines",
+      "dat.pl": "apollinibus",
+      "abl.pl": "apollinibus"
+    }
+  }
+}

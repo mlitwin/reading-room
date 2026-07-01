@@ -1,0 +1,37 @@
+{
+  "id": "rosa_n",
+  "lemma": "rosa",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "rose",
+    "rose-bush"
+  ],
+  "head": "rosa, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "rosa",
+      "gen.sg": "rosae",
+      "abl.sg": "rosa",
+      "acc.sg": "rosam",
+      "dat.sg": "rosae",
+      "nom.pl": "rosae",
+      "gen.pl": "rosarum",
+      "dat.pl": "rosis",
+      "abl.pl": "rosis",
+      "acc.pl": "rosas"
+    }
+  }
+}

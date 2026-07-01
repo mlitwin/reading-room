@@ -1,0 +1,37 @@
+{
+  "id": "horror_n",
+  "lemma": "horror",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "a bristling, shuddering",
+    "awe; the shady gloom of a grove"
+  ],
+  "head": "horror, -oris, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "acc.sg": "horrorem",
+      "gen.pl": "horrorum",
+      "acc.pl": "horroris",
+      "nom.sg": "horror",
+      "gen.sg": "horroris",
+      "dat.sg": "horrori",
+      "abl.sg": "horrore",
+      "nom.pl": "horrores",
+      "dat.pl": "horroribus",
+      "abl.pl": "horroribus"
+    }
+  }
+}

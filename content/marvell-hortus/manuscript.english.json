@@ -1,0 +1,809 @@
+{
+  "text_id": "marvell-hortus",
+  "language_id": "english",
+  "title": "The Garden",
+  "author": "Andrew Marvell",
+  "facing_heading": "The Garden",
+  "hierarchy": [
+    {
+      "id": "book",
+      "label": "Poem"
+    },
+    {
+      "id": "chapter",
+      "label": "Stanza"
+    }
+  ],
+  "sections": [
+    {
+      "path": "1",
+      "level": "book",
+      "label": "The Garden"
+    },
+    {
+      "path": "1.01",
+      "level": "chapter",
+      "label": "Stanza 1",
+      "title": "The Vain Wreaths / Garlands of Repose",
+      "translation": "How vainly men themselves amaze\nTo win the Palm, the Oke, or Bayes;\nAnd their uncessant Labours see\nCrown'd from some single Herb or Tree,\nWhose short and narrow verged Shade\nDoes prudently their Toyles upbraid;\nWhile all Flow'rs and all Trees do close\nTo weave the Garlands of repose."
+    },
+    {
+      "path": "1.02",
+      "level": "chapter",
+      "label": "Stanza 2",
+      "title": "Quiet and Innocence; the Citizen of the Grove",
+      "translation": "Fair quiet, have I found thee here,\nAnd Innocence thy Sister dear!\nMistaken long, I sought you then\nIn busie Companies of Men.\nYour sacred Plants, if here below,\nOnly among the Plants will grow.\nSociety is all but rude,\nTo this delicious Solitude."
+    },
+    {
+      "path": "1.03",
+      "level": "chapter",
+      "label": "Stanza 3",
+      "title": "The Lovely Green; Lovers Carving Names",
+      "translation": "No white nor red was ever seen\nSo am'rous as this lovely green.\nFond Lovers, cruel as their Flame,\nCut in these Trees their Mistress name.\nLittle, Alas, they know, or heed,\nHow far these Beauties Hers exceed!\nFair Trees! where s'eer you barkes I wound,\nNo Name shall but your own be found."
+    },
+    {
+      "path": "1.04",
+      "level": "chapter",
+      "label": "Stanza 4",
+      "title": "Love Retreats to the Trees; Gods in Pursuit",
+      "translation": "When we have run our Passions heat,\nLove hither makes his best retreat.\nThe Gods, that mortal Beauty chase,\nStill in a Tree did end their race.\nApollo hunted Daphne so,\nOnly that She might Laurel grow.\nAnd Pan did after Syrinx speed,\nNot as a Nymph, but for a Reed."
+    },
+    {
+      "path": "1.05",
+      "level": "chapter",
+      "label": "Stanza 5",
+      "title": "The Garden’s Abundance",
+      "translation": "What wond'rous Life in this I lead!\nRipe Apples drop about my head;\nThe Luscious Clusters of the Vine\nUpon my Mouth do crush their Wine;\nThe Nectaren, and curious Peach,\nInto my hands themselves do reach;\nStumbling on Melons, as I pass,\nInsnar'd with Flow'rs, I fall on Grass."
+    },
+    {
+      "path": "1.06",
+      "level": "chapter",
+      "label": "Stanza 6",
+      "title": "The Mind Withdrawing",
+      "translation": "Mean while the Mind, from pleasure less,\nWithdraws into its happiness:\nThe Mind, that Ocean where each kind\nDoes streight its own resemblance find;\nYet it creates, transcending these,\nFar other Worlds, and other Seas;\nAnnihilating all that's made\nTo a green Thought in a green Shade."
+    },
+    {
+      "path": "1.07",
+      "level": "chapter",
+      "label": "Stanza 7",
+      "title": "The Soul in the Boughs",
+      "translation": "Here at the Fountains sliding foot,\nOr at some Fruit-trees mossy root,\nCasting the Bodies Vest aside,\nMy Soul into the boughs does glide:\nThere like a Bird it sits, and sings,\nThen whets, and combs its silver Wings;\nAnd, till prepar'd for longer flight,\nWaves in its Plumes the various Light."
+    },
+    {
+      "path": "1.08",
+      "level": "chapter",
+      "label": "Stanza 8",
+      "title": "Solitary in Paradise",
+      "translation": "Such was that happy Garden-state,\nWhile Man there walk'd without a Mate:\nAfter a Place so pure, and sweet,\nWhat other Help could yet be meet!\nBut 'twas beyond a Mortal's share\nTo wander solitary there:\nTwo Paradises 'twere in one\nTo live in Paradise alone."
+    },
+    {
+      "path": "1.09",
+      "level": "chapter",
+      "label": "Stanza 9",
+      "title": "The Floral Sundial",
+      "translation": "How well the skilful Gardner drew\nOf flow'rs and herbes this Dial new;\nWhere from above the milder Sun\nDoes through a fragrant Zodiack run;\nAnd, as it works, th' industrious Bee\nComputes its time as well as we.\nHow could such sweet and wholsome Hours\nBe reckon'd but with herbs and flow'rs!"
+    }
+  ],
+  "lines": [
+    {
+      "n": 1,
+      "section": "1.01",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "How vainly men themselves amaze"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "section": "1.01",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "To win the Palm, the Oke, or Bayes;"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "section": "1.01",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "And their uncessant Labours see"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "section": "1.01",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Crown'd from some single Herb or Tree,"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "section": "1.01",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Whose short and narrow verged Shade"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "section": "1.01",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Does prudently their Toyles upbraid;"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "section": "1.01",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "While all Flow'rs and all Trees do close"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "section": "1.01",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "To weave the Garlands of repose."
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "section": "1.02",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Fair quiet, have I found thee here,"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "section": "1.02",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "And Innocence thy Sister dear!"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "section": "1.02",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Mistaken long, I sought you then"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "section": "1.02",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "In busie Companies of Men."
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "section": "1.02",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Your sacred Plants, if here below,"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "section": "1.02",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Only among the Plants will grow."
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "section": "1.02",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Society is all but rude,"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "section": "1.02",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "To this delicious Solitude."
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "section": "1.03",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "No white nor red was ever seen"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "section": "1.03",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "So am'rous as this lovely green."
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "section": "1.03",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Fond Lovers, cruel as their Flame,"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "section": "1.03",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Cut in these Trees their Mistress name."
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "section": "1.03",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Little, Alas, they know, or heed,"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "section": "1.03",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "How far these Beauties Hers exceed!"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "section": "1.03",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Fair Trees! where s'eer you barkes I wound,"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "section": "1.03",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "No Name shall but your own be found."
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "section": "1.04",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "When we have run our Passions heat,"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "section": "1.04",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Love hither makes his best retreat."
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "section": "1.04",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "The Gods, that mortal Beauty chase,"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "section": "1.04",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Still in a Tree did end their race."
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "section": "1.04",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Apollo hunted Daphne so,"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "section": "1.04",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Only that She might Laurel grow."
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "section": "1.04",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "And Pan did after Syrinx speed,"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "section": "1.04",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Not as a Nymph, but for a Reed."
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "section": "1.05",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "What wond'rous Life in this I lead!"
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "section": "1.05",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Ripe Apples drop about my head;"
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "section": "1.05",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "The Luscious Clusters of the Vine"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "section": "1.05",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Upon my Mouth do crush their Wine;"
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "section": "1.05",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "The Nectaren, and curious Peach,"
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "section": "1.05",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Into my hands themselves do reach;"
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "section": "1.05",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Stumbling on Melons, as I pass,"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "section": "1.05",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Insnar'd with Flow'rs, I fall on Grass."
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "section": "1.06",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Mean while the Mind, from pleasure less,"
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "section": "1.06",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Withdraws into its happiness:"
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "section": "1.06",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "The Mind, that Ocean where each kind"
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "section": "1.06",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Does streight its own resemblance find;"
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "section": "1.06",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Yet it creates, transcending these,"
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "section": "1.06",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Far other Worlds, and other Seas;"
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "section": "1.06",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Annihilating all that's made"
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "section": "1.06",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "To a green Thought in a green Shade."
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "section": "1.07",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Here at the Fountains sliding foot,"
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "section": "1.07",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Or at some Fruit-trees mossy root,"
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "section": "1.07",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Casting the Bodies Vest aside,"
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "section": "1.07",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "My Soul into the boughs does glide:"
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "section": "1.07",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "There like a Bird it sits, and sings,"
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "section": "1.07",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Then whets, and combs its silver Wings;"
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "section": "1.07",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "And, till prepar'd for longer flight,"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "section": "1.07",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Waves in its Plumes the various Light."
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "section": "1.08",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Such was that happy Garden-state,"
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "section": "1.08",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "While Man there walk'd without a Mate:"
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "section": "1.08",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "After a Place so pure, and sweet,"
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "section": "1.08",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "What other Help could yet be meet!"
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "section": "1.08",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "But 'twas beyond a Mortal's share"
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "section": "1.08",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "To wander solitary there:"
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "section": "1.08",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Two Paradises 'twere in one"
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "section": "1.08",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "To live in Paradise alone."
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "section": "1.09",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "How well the skilful Gardner drew"
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "section": "1.09",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Of flow'rs and herbes this Dial new;"
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "section": "1.09",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Where from above the milder Sun"
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "section": "1.09",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Does through a fragrant Zodiack run;"
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "section": "1.09",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "And, as it works, th' industrious Bee"
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "section": "1.09",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Computes its time as well as we."
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "section": "1.09",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "How could such sweet and wholsome Hours"
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "section": "1.09",
+      "tokens": [
+        {
+          "kind": "punct",
+          "text": "Be reckon'd but with herbs and flow'rs!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "forum_n",
+  "lemma": "forum",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "forum, marketplace",
+    "public life, the courts"
+  ],
+  "head": "forum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "forum",
+      "gen.sg": "fori",
+      "acc.sg": "forum",
+      "dat.sg": "foro",
+      "abl.sg": "foro",
+      "gen.pl": "fororum",
+      "dat.pl": "foris",
+      "abl.pl": "foris",
+      "nom.pl": "fora",
+      "acc.pl": "fora"
+    }
+  }
+}

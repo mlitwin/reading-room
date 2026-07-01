@@ -1,0 +1,110 @@
+{
+  "text_id": "marvell-hortus",
+  "pairs": [
+    {
+      "source": "latin",
+      "target": "english",
+      "mappings": [
+        {
+          "source": [
+            1,
+            6
+          ],
+          "target": [
+            1,
+            8
+          ],
+          "kind": "parallel"
+        },
+        {
+          "source": [
+            7,
+            13
+          ],
+          "target": [
+            9,
+            16
+          ],
+          "kind": "parallel",
+          "note": "Hortus expands the praise of Quiet and Simplicity."
+        },
+        {
+          "source": [
+            14,
+            19
+          ],
+          "kind": "source-only",
+          "note": "Hortus-only: the 'new citizen of the grove' conceit and the invocation of the Muses and Apollo have no counterpart in The Garden."
+        },
+        {
+          "source": [
+            20,
+            30
+          ],
+          "target": [
+            17,
+            24
+          ],
+          "kind": "parallel"
+        },
+        {
+          "source": [
+            31,
+            48
+          ],
+          "target": [
+            25,
+            32
+          ],
+          "kind": "parallel",
+          "note": "Hortus greatly expands the gods-in-trees material (Cupid disarmed; Jupiter and the oak; Mars and the ash)."
+        },
+        {
+          "source": null,
+          "target": [
+            33,
+            40
+          ],
+          "kind": "lacuna",
+          "note": "Desunt multa — the surviving Latin breaks off here. The Garden's stanza V (the garden's sensuous abundance) has no Latin counterpart."
+        },
+        {
+          "target": [
+            41,
+            48
+          ],
+          "kind": "target-only",
+          "note": "No Latin counterpart: The Garden VI, the Mind withdrawing to 'a green thought in a green shade'."
+        },
+        {
+          "target": [
+            49,
+            56
+          ],
+          "kind": "target-only",
+          "note": "No Latin counterpart: The Garden VII, the Soul gliding into the boughs."
+        },
+        {
+          "target": [
+            57,
+            64
+          ],
+          "kind": "target-only",
+          "note": "No Latin counterpart: The Garden VIII, solitary Adam in Paradise."
+        },
+        {
+          "source": [
+            49,
+            58
+          ],
+          "target": [
+            65,
+            72
+          ],
+          "kind": "parallel",
+          "note": "The floral sundial resumes after the lacuna."
+        }
+      ]
+    }
+  ]
+}

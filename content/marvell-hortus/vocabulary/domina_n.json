@@ -1,0 +1,37 @@
+{
+  "id": "domina_n",
+  "lemma": "domina",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "mistress, lady",
+    "sweetheart (in love-elegy)"
+  ],
+  "head": "domina, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "domina",
+      "gen.sg": "dominae",
+      "abl.sg": "domina",
+      "acc.sg": "dominam",
+      "dat.sg": "dominae",
+      "nom.pl": "dominae",
+      "gen.pl": "dominarum",
+      "dat.pl": "dominis",
+      "abl.pl": "dominis",
+      "acc.pl": "dominas"
+    }
+  }
+}

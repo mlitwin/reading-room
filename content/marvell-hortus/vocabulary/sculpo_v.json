@@ -1,0 +1,113 @@
+{
+  "id": "sculpo_v",
+  "lemma": "sculpo",
+  "pos": "verb",
+  "glosses": [
+    "to carve, cut, engrave"
+  ],
+  "head": "sculpo, -ere, sculpsi, sculptum",
+  "principal_parts": [
+    "sculpo",
+    "sculpere",
+    "sculpsi",
+    "sculptum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "sculpis",
+      "3sg.pres.ind.act": "sculpit",
+      "1pl.pres.ind.act": "sculpimus",
+      "2pl.pres.ind.act": "sculpitis",
+      "2sg.pres.ind.pass": "sculperis",
+      "3sg.pres.ind.pass": "sculpitur",
+      "1sg.imperf.subj.act": "sculperem",
+      "2sg.imperf.subj.act": "sculperes",
+      "3sg.imperf.subj.act": "sculperet",
+      "1pl.imperf.subj.act": "sculperemus",
+      "2pl.imperf.subj.act": "sculperetis",
+      "3pl.imperf.subj.act": "sculperent",
+      "2sg.pres.imp.act": "sculpe",
+      "2pl.pres.imp.act": "sculpite",
+      "1sg.perf.ind.act": "sculpsi",
+      "2sg.perf.ind.act": "sculpsisti",
+      "3sg.perf.ind.act": "sculpsit",
+      "1pl.perf.ind.act": "sculpsimus",
+      "2pl.perf.ind.act": "sculpsistis",
+      "3pl.perf.ind.act": "sculpserunt"
+    }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: sculptus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "sculptus",
+      "ppp.nom.sg.fem": "sculpta",
+      "ppp.nom.sg.neut": "sculptum",
+      "ppp.gen.sg.masc": "sculpti",
+      "ppp.gen.sg.fem": "sculptae",
+      "ppp.gen.sg.neut": "sculpti",
+      "ppp.dat.sg.masc": "sculpto",
+      "ppp.dat.sg.fem": "sculptae",
+      "ppp.dat.sg.neut": "sculpto",
+      "ppp.acc.sg.masc": "sculptum",
+      "ppp.acc.sg.fem": "sculptam",
+      "ppp.acc.sg.neut": "sculptum",
+      "ppp.abl.sg.masc": "sculpto",
+      "ppp.abl.sg.fem": "sculpta",
+      "ppp.abl.sg.neut": "sculpto",
+      "ppp.voc.sg.masc": "sculpte",
+      "ppp.voc.sg.fem": "sculpta",
+      "ppp.voc.sg.neut": "sculptum",
+      "ppp.nom.pl.masc": "sculpti",
+      "ppp.nom.pl.fem": "sculptae",
+      "ppp.nom.pl.neut": "sculpta",
+      "ppp.gen.pl.masc": "sculptorum",
+      "ppp.gen.pl.fem": "sculptarum",
+      "ppp.gen.pl.neut": "sculptorum",
+      "ppp.dat.pl.masc": "sculptis",
+      "ppp.dat.pl.fem": "sculptis",
+      "ppp.dat.pl.neut": "sculptis",
+      "ppp.acc.pl.masc": "sculptos",
+      "ppp.acc.pl.fem": "sculptas",
+      "ppp.acc.pl.neut": "sculpta",
+      "ppp.abl.pl.masc": "sculptis",
+      "ppp.abl.pl.fem": "sculptis",
+      "ppp.abl.pl.neut": "sculptis",
+      "ppp.voc.pl.masc": "sculpti",
+      "ppp.voc.pl.fem": "sculptae",
+      "ppp.voc.pl.neut": "sculpta"
+    }
+  }
+}

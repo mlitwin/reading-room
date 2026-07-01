@@ -1,0 +1,33 @@
+{
+  "id": "simplex_adj",
+  "lemma": "simplex",
+  "pos": "adj",
+  "glosses": [
+    "simple, single, plain",
+    "unmixed, guileless"
+  ],
+  "head": "simplex, -icis",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "acc.sg.neut": "simplex",
+      "nom.pl.neut": "simplicia",
+      "acc.pl.neut": "simplicia"
+    }
+  }
+}

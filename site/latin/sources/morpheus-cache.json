@@ -15,6 +15,9 @@
   "abeunt": [
     "V abeo  pres ind act 3rd pl\t\t\tirreg_pp1"
   ],
+  "abibis": [
+    "V abi_bis,abeo  fut ind act 2nd sg\t\t\tirreg_pp1"
+  ],
   "abiit": [
     "V abeo  perf ind act 3rd sg\t\t\tperfstem"
   ],
@@ -205,6 +208,9 @@
     "N adsidui_s,assiduus#1  masc dat pl\t\t\tus_i",
     "N adsidui_s,assiduus#1  masc abl pl\t\t\tus_i"
   ],
+  "adsit": [
+    "V adsum  pres subj act 3rd sg\t\traw_preverb\tirreg_pp1"
+  ],
   "adspergi": [],
   "adspergine": [],
   "adspirate": [
@@ -256,6 +262,11 @@
     "N aequa_li_s,aequalis  masc/fem acc pl\t\t\tis_e",
     "N aequa_lis,aequalis  masc/fem/neut gen sg\t\t\tis_e",
     "N aequa_lis,aequalis  masc/fem nom/voc sg\t\t\tis_e"
+  ],
+  "aequare": [
+    "V aequa_re,aequo  pres imperat pass 2nd sg\t\t\tconj1,are_vb",
+    "V aequa_re,aequo  pres ind pass 2nd sg\t\t\tconj1,are_vb",
+    "V aequa_re,aequo  pres inf act\t\t\tconj1,are_vb"
   ],
   "aequi": [
     "N aequi_,aequum  neut gen sg\t\t\tus_i",
@@ -400,12 +411,23 @@
   "agros": [
     "N agro_s,ager  masc acc pl\t\t\ter_ri"
   ],
+  "ah": [
+    "N a_h,ah \t\tindeclform\texclam"
+  ],
   "ait": [
     "V aio  pres ind act 3rd sg\t\t\tirreg_pp1"
   ],
   "alas": [
     "N a_la_s,ala  fem acc pl\t\t\ta_ae",
     "V ala_s,alo  pres subj act 2nd sg\t\t\tconj3"
+  ],
+  "alia": [
+    "N alia_,alia \t\tindeclform\tadverb",
+    "V ali_a_,alio  pres imperat act 2nd sg\t\t\tconj1,are_vb",
+    "N alius#2  fem nom sg\t\tindeclform\tirreg_nom2",
+    "N alius#2  neut nom/voc/acc pl\t\tindeclform\tirreg_nom2",
+    "N alia_,alius#2  fem abl sg\t\tindeclform\tirreg_nom2",
+    "N allium  neut nom/voc/acc pl\t\t\tus_i"
   ],
   "alii": [
     "N alii_,alius#2  masc/fem/neut dat sg\t\tindeclform\tirreg_nom2",
@@ -445,6 +467,15 @@
   ],
   "aliud": [
     "N alius#2  neut nom/acc sg\t\tindeclform\tirreg_nom2"
+  ],
+  "allabitur": [
+    "V alla_bitur,allabor  pres ind pass 3rd sg\t\t\tconj3",
+    "V alla_bitur,allabor  pres ind pass 3rd sg\t\t\tconj3"
+  ],
+  "alma": [
+    "N almus  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N alma_,almus  fem abl sg\t\t\tus_a_um",
+    "N almus  fem nom/voc sg\t\t\tus_a_um"
   ],
   "alta": [
     "P alo  perf part pass neut nom/voc/acc pl\t\t\tpp4",
@@ -557,6 +588,10 @@
     "N alvo_,alvus  masc/fem abl sg\t\t\tus_i",
     "N alvo_,alvus  masc/fem dat sg\t\t\tus_i"
   ],
+  "amantes": [
+    "P amante_s,amo  pres part masc/fem acc pl\t\t\tconj1,are_vb",
+    "P amante_s,amo  pres part masc/fem nom/voc pl\t\t\tconj1,are_vb"
+  ],
   "amantior": [
     "V amo  masc/fem nom/voc comp sg\t\t\tconj1,are_vb"
   ],
@@ -641,6 +676,13 @@
     "N ancora  fem nom/voc sg\t\t\ta_ae"
   ],
   "anguipedum": [],
+  "anhelo": [
+    "V anhe_lo_,anhelo  pres ind act 1st sg\t\t\tconj1,are_vb",
+    "N anhe_lo_,anhelus  neut abl sg\t\t\tus_a_um",
+    "N anhe_lo_,anhelus  masc abl sg\t\t\tus_a_um",
+    "N anhe_lo_,anhelus  neut dat sg\t\t\tus_a_um",
+    "N anhe_lo_,anhelus  masc dat sg\t\t\tus_a_um"
+  ],
   "animal": [
     "N animal  neut nom/voc/acc sg\t\t\t0_is"
   ],
@@ -689,6 +731,9 @@
   ],
   "annos": [
     "N anno_s,annus  masc acc pl\t\t\tus_i"
+  ],
+  "annosam": [
+    "N anno_sam,annosus  fem acc sg\t\t\tus_a_um"
   ],
   "annum": [
     "N annu_m,annus  masc gen pl\t\tpoetic\tus_i",
@@ -775,7 +820,17 @@
   ],
   "apidanus": [],
   "apidanusque": [],
+  "apis": [
+    "N api_s,apis#1  fem acc pl\t\t\tis_is",
+    "N apis#1  fem gen sg\t\t\tis_is",
+    "N apis#1  fem nom sg\t\t\tis_is",
+    "N api_s,apis#1  fem acc pl\t\t\ts_is",
+    "N apis#1  fem gen sg\t\t\ts_is",
+    "N api_s,apium  neut abl/dat pl\t\t\tius_i",
+    "V apo  pres ind act 2nd sg\t\t\tconj3"
+  ],
   "apollineas": [],
+  "apollo": [],
   "apro": [
     "N apro_,aper#1  masc abl sg\t\t\ter_ri",
     "N apro_,aper#1  masc dat sg\t\t\ter_ri"
@@ -866,6 +921,7 @@
     "N arbo^ribus,arbor#1  masc/fem abl pl\t\t\tor_oris",
     "N arbo^ribus,arbor#1  masc/fem dat pl\t\t\tor_oris"
   ],
+  "arbos": [],
   "arbusta": [
     "V arbusta_,arbusto  pres imperat act 2nd sg\t\t\tconj1,are_vb",
     "N arbustum  neut nom/voc/acc pl\t\t\tus_i",
@@ -1016,6 +1072,9 @@
     "V aspera_,aspero  pres imperat act 2nd sg\t\t\tconj1,are_vb",
     "N asperum  neut nom/voc/acc pl\t\t\tus_i"
   ],
+  "ast": [
+    "N at \t\tindeclform\tconj"
+  ],
   "astra": [
     "N astrum  neut nom/voc/acc pl\t\t\tus_i"
   ],
@@ -1071,6 +1130,9 @@
   ],
   "auditque": [
     "V audit,audio  pres ind act 3rd sg\t\t\tconj4"
+  ],
+  "auditurus": [
+    "P audio  fut part act masc nom sg\t\t\tpp4"
   ],
   "auget": [
     "V augeo  pres ind act 3rd sg\t\t\tconj2"
@@ -1280,6 +1342,12 @@
     "N blanditia_s,blanditia  fem acc pl\t\t\ta_ae"
   ],
   "bo": [],
+  "boatus": [
+    "N boa_tu_s,boatus  masc acc pl\t\t\tus_us",
+    "N boa_tu_s,boatus  masc nom pl\t\t\tus_us",
+    "N boa_tu_s,boatus  masc gen sg\t\t\tus_us",
+    "N boa_tus,boatus  masc nom sg\t\t\tus_us"
+  ],
   "boreas": [
     "N borea_s,boreas  masc acc pl\t\t\tas_ae",
     "N borea_s,boreas  masc nom sg\t\t\tas_ae"
@@ -1295,6 +1363,9 @@
   ],
   "bracchiaque": [
     "N bracchia,bracchium  neut nom/voc/acc pl\t\t\tius_i"
+  ],
+  "brachia": [
+    "N bra_chia,bracchium  neut nom/voc/acc pl\t\t\tius_i"
   ],
   "bre": [],
   "breve": [
@@ -1314,6 +1385,18 @@
     "N brevi_,brevis  masc dat sg\t\t\tis_is",
     "N brevi_,brevis  masc/fem/neut abl sg\t\t\tis_e",
     "N brevi_,brevis  masc/fem/neut dat sg\t\t\tis_e"
+  ],
+  "brevibus": [
+    "N breve  neut dat pl\t\t\tis_is",
+    "N breve  neut abl pl\t\t\tis_is",
+    "N brevia  neut dat pl\t\t\tis_is",
+    "N brevia  neut abl pl\t\t\tis_is",
+    "N brevis  fem dat pl\t\t\tis_is",
+    "N brevis  masc abl pl\t\t\tis_is",
+    "N brevis  masc dat pl\t\t\tis_is",
+    "N brevis  masc/fem/neut abl pl\t\t\tis_e",
+    "N brevis  masc/fem/neut dat pl\t\t\tis_e",
+    "N brevis  fem abl pl\t\t\tis_is"
   ],
   "bucina": [
     "N bu_cina_,bucina  fem abl sg\t\t\ta_ae",
@@ -1472,6 +1555,10 @@
   "calamos": [
     "N calamo_s,calamus  masc acc pl\t\t\tus_i"
   ],
+  "calamum": [
+    "N calamu_m,calamus  masc gen pl\t\tpoetic\tus_i",
+    "N calamus  masc acc sg\t\t\tus_i"
+  ],
   "calet": [
     "V caleo  pres ind act 3rd sg\t\t\tconj2",
     "V calo#1  pres subj act 3rd sg\t\t\tconj1,are_vb"
@@ -1537,6 +1624,13 @@
   "campus": [
     "N campus#1  masc nom sg\t\t\tus_i",
     "N campus#2  masc nom sg\t\t\tus_i"
+  ],
+  "cancri": [
+    "N cancri_,cancer  masc/fem nom/voc pl\t\t\ter_ri",
+    "N cancri_,cancer  gen sg\t\t\ter_ri"
+  ],
+  "candidior": [
+    "N candidus  masc/fem nom/voc comp sg\t\t\tus_a_um"
   ],
   "candor": [
     "N candor  masc nom/voc sg\t\t\tor_oLris"
@@ -1643,6 +1737,9 @@
     "N caprei_s,caprea  fem abl pl\t\t\ta_ae",
     "N caprei_s,caprea  fem dat pl\t\t\ta_ae"
   ],
+  "capripes": [
+    "N capripe_s,capripes  masc/fem nom sg\t\t\tpeLs_pedis_adj"
+  ],
   "captivarum": [
     "N capti_va_rum,captiva  fem gen pl\t\t\ta_ae",
     "N capti_va_rum,captivus  fem gen pl\t\t\tus_a_um"
@@ -1708,11 +1805,16 @@
     "N carmen#2  neut acc sg\t\t\tmen_minis",
     "N carmen#2  neut nom/voc sg\t\t\tmen_minis"
   ],
+  "carmi": [],
   "carmina": [
     "N carmi^na,carmen#1  neut nom/voc/acc pl\t\t\tmen_minis",
     "N carmi^na,carmen#2  neut nom/voc/acc pl\t\t\tmen_minis",
     "V carmina_,carmino#1  pres imperat act 2nd sg\t\t\tconj1,are_vb",
     "V carmina_,carmino#2  pres imperat act 2nd sg\t\t\tconj1,are_vb"
+  ],
+  "carmine": [
+    "N carmi^ne,carmen#1  neut abl sg\t\t\tmen_minis",
+    "N carmi^ne,carmen#2  neut abl sg\t\t\tmen_minis"
   ],
   "carpsere": [
     "V carpse_re,carpo  perf ind act 3rd pl\t\tpoetic\tperfstem"
@@ -1762,6 +1864,9 @@
   ],
   "cedunt": [
     "V ce_dunt,cedo#1  pres ind act 3rd pl\t\t\tconj3"
+  ],
+  "celarant": [
+    "V ce_la_rant,celo  plup ind act 3rd pl\t\tcontr\tavperf,are_vb"
   ],
   "celeberrima": [
     "N cele_berrima,celeber  masc nom/voc superl sg\t\t\ter_ris_re",
@@ -1824,6 +1929,13 @@
   "certamine": [
     "N certa_mi^ne,certamen  neut abl sg\t\t\tmen_minis"
   ],
+  "certare": [
+    "V certa_re,certo#2  pres imperat pass 2nd sg\t\t\tconj1,are_vb",
+    "V certa_re,certo#2  pres ind pass 2nd sg\t\t\tconj1,are_vb",
+    "V certa_re,certo#2  pres inf act\t\t\tconj1,are_vb",
+    "V certa_re,certor  pres imperat pass 2nd sg\t\t\tconj1,are_vb",
+    "V certa_re,certor  pres ind pass 2nd sg\t\t\tconj1,are_vb"
+  ],
   "certe": [
     "N certe_,certus  adverbial\t\t\tus_a_um",
     "N certus  neut voc sg\t\t\tus_a_um",
@@ -1873,6 +1985,12 @@
   "chaos": [
     "N chaos  neut nom/acc sg\t\tindeclform\tirreg_nom2"
   ],
+  "charae": [
+    "N chara  fem nom/voc pl\t\t\ta_ae",
+    "N chara  fem dat sg\t\t\ta_ae",
+    "N chara  fem gen sg\t\t\ta_ae"
+  ],
+  "chloe": [],
   "cibis": [
     "N cibi_s,cibus  masc abl pl\t\t\tus_i",
     "N cibi_s,cibus  masc dat pl\t\t\tus_i"
@@ -1911,6 +2029,24 @@
   ],
   "cinxit": [
     "V cingo  perf ind act 3rd sg\t\t\tperfstem"
+  ],
+  "circi": [
+    "N circi_,circius  masc nom pl\t\t\tius_i",
+    "N circius  masc voc sg\t\t\tius_i",
+    "N circi_,circius  masc gen sg\t\t\tius_i",
+    "N circi_,circos  masc nom/voc pl\t\t\tos_i",
+    "N circi_,circos  masc gen sg\t\t\tos_i",
+    "N circi_,circus  masc nom/voc pl\t\t\tus_i",
+    "N circi_,circus  masc gen sg\t\t\tus_i"
+  ],
+  "circique": [
+    "N circi_,circius  masc nom pl\t\t\tius_i",
+    "N circi,circius  masc voc sg\t\t\tius_i",
+    "N circi_,circius  masc gen sg\t\t\tius_i",
+    "N circi_,circos  masc nom/voc pl\t\t\tos_i",
+    "N circi_,circos  masc gen sg\t\t\tos_i",
+    "N circi_,circus  masc nom/voc pl\t\t\tus_i",
+    "N circi_,circus  masc gen sg\t\t\tus_i"
   ],
   "circumdare": [
     "V circumdo  pres inf act\t\t\tirreg_pp1",
@@ -1952,6 +2088,12 @@
     "N cithara  fem nom/voc pl\t\t\ta_ae",
     "N cithara  fem dat sg\t\t\ta_ae",
     "N cithara  fem gen sg\t\t\ta_ae"
+  ],
+  "cives": [
+    "N cive_s,civis  masc acc pl\t\t\tis_is",
+    "N cive_s,civis  masc nom/voc pl\t\t\tis_is",
+    "N ci_ve_s,civis  masc/fem acc pl\t\t\tis_is",
+    "N ci_ve_s,civis  masc/fem nom/voc pl\t\t\tis_is"
   ],
   "clamor": [
     "V cla_mor,clamo  pres ind pass 1st sg\t\t\tconj1,are_vb",
@@ -2025,6 +2167,9 @@
   "coercuit": [
     "V coerceo  perf ind act 3rd sg\t\t\tperfstem"
   ],
+  "coeunt": [
+    "V coeo  pres ind act 3rd pl\t\t\tirreg_pp1"
+  ],
   "cogente": [
     "P co_gente,cogo  pres part masc/fem/neut abl sg\t\t\tconj3"
   ],
@@ -2094,6 +2239,16 @@
     "N come#1  fem nom/voc sg\t\t\te_es",
     "V coma_,como#2  pres imperat act 2nd sg\t\t\tconj1,are_vb"
   ],
+  "comae": [
+    "N coma  fem dat sg\t\t\ta_ae",
+    "N coma  fem nom/voc pl\t\t\ta_ae",
+    "N coma  fem gen sg\t\t\ta_ae",
+    "N come#1  fem dat sg\t\t\te_es",
+    "N come#1  fem nom/voc pl\t\t\te_es",
+    "N come#1  fem gen sg\t\t\te_es",
+    "P complaceo  perf part pass neut voc sg\t\t\tpp4",
+    "P complaceo  perf part pass masc voc sg\t\t\tpp4"
+  ],
   "comantur": [
     "V co_mantur,como#1  pres subj pass 3rd pl\t\t\tconj3",
     "V como#2  pres ind pass 3rd pl\t\t\tconj1,are_vb"
@@ -2150,6 +2305,10 @@
   ],
   "concipiunt": [
     "V concipio  pres ind act 3rd pl\t\t\tconj3_io"
+  ],
+  "concolor": [
+    "V concolor  pres ind pass 1st sg\t\t\tconj3",
+    "V conco_lor,concolor  pres ind pass 1st sg\t\t\tconj1,are_vb"
   ],
   "concordant": [
     "V concordo  pres ind act 3rd pl\t\t\tconj1,are_vb"
@@ -2209,6 +2368,9 @@
   "coniunx": [
     "N conjunx,conjunx  masc/fem nom sg\t\tindeclform\tirreg_nom3"
   ],
+  "conjuge": [
+    "N conjunx  masc/fem abl sg\t\t\tx_gis"
+  ],
   "conligit": [
     "V colligo#1  pres ind act 3rd sg\t\t\tconj3"
   ],
@@ -2221,6 +2383,11 @@
   ],
   "conpressit": [
     "V comprimo  perf ind act 3rd sg\t\t\tperfstem"
+  ],
+  "conscie": [
+    "N conscius  masc voc sg\t\t\tius_i",
+    "N conscius  neut voc sg\t\t\tius_ia_ium",
+    "N conscius  masc voc sg\t\t\tius_ia_ium"
   ],
   "considere": [
     "V consi_de_re,consido  fut ind pass 2nd sg\t\t\tconj3",
@@ -2259,6 +2426,10 @@
   ],
   "consorte": [
     "N consors  masc/fem/neut abl sg\t\t\ts_tis"
+  ],
+  "consortia": [
+    "N consors  neut nom/voc/acc pl\t\t\ts_tis",
+    "N consortium  neut nom/voc/acc pl\t\t\tius_i"
   ],
   "conspexit": [
     "V conspicio#1  perf ind act 3rd sg\t\t\tperfstem"
@@ -2421,6 +2592,7 @@
     "N corusci_s,coruscus  neut abl pl\t\t\tus_a_um"
   ],
   "corycidas": [],
+  "corynna": [],
   "creat": [
     "V creo  pres ind act 3rd sg\t\t\tconj1,are_vb"
   ],
@@ -2474,6 +2646,9 @@
   "creditur": [
     "V cre_ditur,credo  pres ind pass 3rd sg\t\t\tconj3"
   ],
+  "crepidatus": [
+    "N crepida_tus,crepidatus  masc nom sg\t\t\tus_a_um"
+  ],
   "crepitantia": [
     "P crepito  pres part neut nom/voc/acc pl\t\t\tconj1,are_vb"
   ],
@@ -2485,6 +2660,10 @@
     "V crescendo_,cresco  gerundive masc abl sg\t\t\tconj3",
     "V crescendo_,cresco  gerundive neut dat sg\t\t\tconj3",
     "V crescendo_,cresco  gerundive masc dat sg\t\t\tconj3"
+  ],
+  "crescentes": [
+    "P crescente_s,cresco  pres part masc/fem acc pl\t\t\tconj3",
+    "P crescente_s,cresco  pres part masc/fem nom/voc pl\t\t\tconj3"
   ],
   "crescit": [
     "V cresco  pres ind act 3rd sg\t\t\tconj3"
@@ -2529,6 +2708,10 @@
   ],
   "crura": [
     "N cru_ra,crus  neut nom/voc/acc pl\t\t\tuLs_uLris"
+  ],
+  "cubile": [
+    "N cubi_le,cubile  neut abl sg\t\t\tis_is",
+    "N cubi_le,cubile  neut nom/voc/acc sg\t\t\tis_is"
   ],
   "cui": [
     "N qui#1  masc/fem/neut dat sg\t\tindeclform\tinterrog",
@@ -2593,6 +2776,11 @@
   "cupit": [
     "V cupio  pres ind act 3rd sg\t\t\tconj3_io"
   ],
+  "cupita": [
+    "P cupi_ta,cupio  perf part pass neut nom/voc/acc pl\t\t\tpp4",
+    "P cupi_ta_,cupio  perf part pass fem abl sg\t\t\tpp4",
+    "P cupi_ta,cupio  perf part pass fem nom/voc sg\t\t\tpp4"
+  ],
   "cura": [
     "N cu_ra_,cura  fem abl sg\t\t\ta_ae",
     "N cu_ra,cura  fem nom/voc sg\t\t\ta_ae",
@@ -2640,6 +2828,10 @@
   "cylle": [],
   "cyllene": [],
   "cyllenius": [],
+  "cyparissus": [
+    "N cyparissus  fem nom sg\t\t\tus_i"
+  ],
+  "cytherea": [],
   "da": [
     "V da_,do  pres imperat act 2nd sg\t\t\tconj1"
   ],
@@ -2708,6 +2900,12 @@
   ],
   "deam": [
     "N dea  fem acc sg\t\t\ta_ae"
+  ],
+  "deas": [
+    "N dea_s,dea  fem acc pl\t\t\ta_ae"
+  ],
+  "deasque": [
+    "N dea_s,dea  fem acc pl\t\t\ta_ae"
   ],
   "debes": [
     "V de_be_s,debeo  pres ind act 2nd sg\t\t\tconj2"
@@ -2779,6 +2977,9 @@
   ],
   "deerat": [
     "V de_erat,desum  imperf ind act 3rd sg\t\t\tirreg_pp1"
+  ],
+  "defervescente": [
+    "P de_fervescente,defervesco  pres part masc/fem/neut abl sg\t\t\tconj3"
   ],
   "deformes": [
     "N de_forme_s,deformis  masc/fem acc pl\t\t\tis_e",
@@ -2887,6 +3088,9 @@
   ],
   "deos": [
     "N deo_s,deus  masc acc pl\t\t\tus_i"
+  ],
+  "deperit": [
+    "V de_perit,depereo  pres ind act 3rd sg\t\t\tirreg_pp1"
   ],
   "deplorata": [
     "P de_plo_ra_ta,deploro  perf part pass neut nom/voc/acc pl\t\t\tpp4,are_vb",
@@ -3035,6 +3239,10 @@
     "N dius  masc voc sg\t\t\tius_ia_ium",
     "N di_e,divus  neut voc sg\t\t\tus_i"
   ],
+  "diei": [
+    "N diei_,dies  masc/fem dat sg\t\t\tes_ei",
+    "N diei_,dies  masc/fem gen sg\t\t\tes_ei"
+  ],
   "diem": [
     "N dies  masc/fem acc sg\t\t\tes_ei"
   ],
@@ -3055,6 +3263,11 @@
     "N dignus  neut nom/voc/acc pl\t\t\tus_a_um",
     "N digna_,dignus  fem abl sg\t\t\tus_a_um",
     "N dignus  fem nom/voc sg\t\t\tus_a_um"
+  ],
+  "dignae": [
+    "N dignus  fem nom/voc pl\t\t\tus_a_um",
+    "N dignus  fem dat sg\t\t\tus_a_um",
+    "N dignus  fem gen sg\t\t\tus_a_um"
   ],
   "dignamur": [
     "V digna_mur,digno  pres ind pass 1st pl\t\t\tconj1,are_vb",
@@ -3270,8 +3483,16 @@
   "doloris": [
     "N dolo_ris,dolor  masc gen sg\t\t\tor_oLris"
   ],
+  "doluit": [
+    "V doleo  perf ind act 3rd sg\t\t\tperfstem"
+  ],
   "domant": [
     "V domo  pres ind act 3rd pl\t\t\tconj1"
+  ],
+  "dominae": [
+    "N domina  fem nom/voc pl\t\t\ta_ae",
+    "N domina  fem dat sg\t\t\ta_ae",
+    "N domina  fem gen sg\t\t\ta_ae"
   ],
   "dominari": [
     "V domina_ri,dominor  pres inf pass\t\t\tconj1,are_vb"
@@ -3483,6 +3704,11 @@
   "emittitque": [
     "V e_mittit,emitto  pres ind act 3rd sg\t\t\tconj3"
   ],
+  "enerves": [
+    "N e_nerve_s,enervis  masc/fem acc pl\t\t\tis_e",
+    "N e_nerve_s,enervis  masc/fem nom/voc pl\t\t\tis_e",
+    "V e_nerve_s,enervo  pres subj act 2nd sg\t\t\tconj1,are_vb"
+  ],
   "enim": [
     "N enim \t\tindeclform\tconj"
   ],
@@ -3570,6 +3796,10 @@
   ],
   "eritque": [
     "V erit,sum#1  fut ind act 3rd sg\t\t\tirreg_pp1"
+  ],
+  "erranti": [
+    "P erranti_,erro#1  pres part masc/fem/neut abl sg\t\t\tconj1,are_vb",
+    "P erranti_,erro#1  pres part masc/fem/neut dat sg\t\t\tconj1,are_vb"
   ],
   "erroribus": [
     "N erro_ribus,error  masc abl pl\t\t\tor_oLris",
@@ -3702,6 +3932,9 @@
     "N experientia  fem nom/voc sg\t\t\ta_ae",
     "P experior  pres part neut nom/voc/acc pl\t\t\tconj4"
   ],
+  "experrectus": [
+    "P expergiscor  perf part pass masc nom sg\t\t\tpp4"
+  ],
   "expers": [
     "N expers  neut nom/voc/acc sg\t\t\ts_tis_adj",
     "N expers  masc/fem nom sg\t\t\ts_tis_adj"
@@ -3709,6 +3942,12 @@
   "expersque": [
     "N expers,expers  neut nom/voc/acc sg\t\t\ts_tis_adj",
     "N expers,expers  masc/fem nom sg\t\t\ts_tis_adj"
+  ],
+  "experti": [
+    "P experti_,experior  perf part pass masc nom/voc pl\t\t\tpp4",
+    "P experti_,experior  perf part pass neut gen sg\t\t\tpp4",
+    "P experti_,experior  perf part pass masc gen sg\t\t\tpp4",
+    "N experti_,expers  masc/fem/neut dat sg\t\t\ts_tis_adj"
   ],
   "exspatiata": [
     "P exspatia_ta,exspatior  perf part pass neut nom/voc/acc pl\t\t\tpp4,are_vb",
@@ -3772,6 +4011,14 @@
   "exululat": [
     "V exululo  pres ind act 3rd sg\t\t\tconj1,are_vb"
   ],
+  "exutis": [
+    "P exu_ti_s,exuo  perf part pass neut abl pl\t\t\tpp4",
+    "P exu_ti_s,exuo  perf part pass fem abl pl\t\t\tpp4",
+    "P exu_ti_s,exuo  perf part pass masc abl pl\t\t\tpp4",
+    "P exu_ti_s,exuo  perf part pass neut dat pl\t\t\tpp4",
+    "P exu_ti_s,exuo  perf part pass fem dat pl\t\t\tpp4",
+    "P exu_ti_s,exuo  perf part pass masc dat pl\t\t\tpp4"
+  ],
   "exuviis": [
     "N exuvii_s,exuviae  fem abl pl\t\t\ta_ae",
     "N exuvii_s,exuviae  fem dat pl\t\t\ta_ae"
@@ -3790,6 +4037,10 @@
   "face": [
     "V facio  pres imperat act 2nd sg\t\t\tconj3_io",
     "N fax  fem abl sg\t\t\tx_cis"
+  ],
+  "faces": [
+    "N face_s,fax  fem acc pl\t\t\tx_cis",
+    "N face_s,fax  fem nom/voc pl\t\t\tx_cis"
   ],
   "faciat": [
     "V facio  pres subj act 3rd sg\t\t\tconj3_io"
@@ -3903,6 +4154,7 @@
   ],
   "fauni": [],
   "faunique": [],
+  "faustina": [],
   "fecisse": [
     "V fe_cisse,facio  perf inf act\t\t\tperfstem"
   ],
@@ -4104,6 +4356,9 @@
     "N fi_du_cia,fiducia  fem nom/voc sg\t\t\ta_ae",
     "V fi_du_cia_,fiducio  pres imperat act 2nd sg\t\t\tconj1,are_vb"
   ],
+  "fieret": [
+    "V fi_eret,fio  subj act 3rd sg\t\t\tirreg_pp1"
+  ],
   "figat": [
     "V fi_gat,figo  pres subj act 3rd sg\t\t\tconj3"
   ],
@@ -4224,10 +4479,26 @@
     "P flexi_,flecto  perf part pass neut gen sg\t\t\tpp4",
     "P flexi_,flecto  perf part pass masc gen sg\t\t\tpp4"
   ],
+  "flore": [
+    "V flo_re_,floreo  pres imperat act 2nd sg\t\t\tconj2",
+    "N flo_re_,florus#1  adverbial\t\t\tus_a_um",
+    "N flo_re,florus#1  neut voc sg\t\t\tus_a_um",
+    "N flo_re,florus#1  masc voc sg\t\t\tus_a_um",
+    "N flo_re,flos  masc abl sg\t\t\tor_oLris"
+  ],
+  "florea": [
+    "N flo_rea,floreus  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N flo_rea_,floreus  fem abl sg\t\t\tus_a_um",
+    "N flo_rea,floreus  fem nom/voc sg\t\t\tus_a_um"
+  ],
   "flores": [
     "V flo_re_s,floreo  pres ind act 2nd sg\t\t\tconj2",
     "N flo_re_s,flos  masc acc pl\t\t\tor_oLris",
     "N flo_re_s,flos  masc nom/voc pl\t\t\tor_oLris"
+  ],
+  "floribus": [
+    "N flo_ribus,flos  masc abl pl\t\t\tor_oLris",
+    "N flo_ribus,flos  masc dat pl\t\t\tor_oLris"
   ],
   "fluctibus": [
     "N fluctus  masc abl pl\t\t\tus_us",
@@ -4271,6 +4542,10 @@
     "N foeda_,foedus#1  fem abl sg\t\t\tus_a_um",
     "N foedus#1  fem nom/voc sg\t\t\tus_a_um"
   ],
+  "foliis": [
+    "N folii_s,folium  neut abl pl\t\t\tius_i",
+    "N folii_s,folium  neut dat pl\t\t\tius_i"
+  ],
   "fontes": [
     "N fonte_s,fons  fem acc pl\t\t\ts_tis",
     "N fonte_s,fons  fem nom/voc pl\t\t\ts_tis"
@@ -4279,6 +4554,7 @@
     "N fons  fem abl pl\t\t\ts_tis",
     "N fons  fem dat pl\t\t\ts_tis"
   ],
+  "forcipe": [],
   "fore": [
     "N foris  fem abl sg\t\t\tis_is",
     "N foris#1  neut nom/voc/acc sg\t\t\tis_e",
@@ -4301,6 +4577,20 @@
   "foret": [
     "V foro  pres subj act 3rd sg\t\t\tconj1,are_vb",
     "V sum#1  imperf subj act 3rd sg\t\tearly\tirreg_pp1"
+  ],
+  "fori": [
+    "N fori_,fori  masc nom/voc pl\t\t\tus_i",
+    "V fori_,forio  pres imperat act 2nd sg\t\t\tconj4,ire_vb",
+    "N fori_,foris  fem dat sg\t\t\tis_is",
+    "N fori_,foris  fem abl sg\t\t\tis_is",
+    "N fori_,foris#1  masc/fem/neut dat sg\t\t\tis_e",
+    "N fori_,foris#1  masc/fem/neut abl sg\t\t\tis_e",
+    "N fori_,forum  neut gen sg\t\t\tus_i",
+    "N fori_,forum#1  neut gen sg\t\t\tus_i",
+    "N fori_,forus  masc nom/voc pl\t\t\tus_i",
+    "N fori_,forus  masc gen sg\t\t\tus_i",
+    "N fori_,forus#1  masc nom/voc pl\t\t\tus_i",
+    "N fori_,forus#1  masc gen sg\t\t\tus_i"
   ],
   "forma": [
     "N forma_,forma  fem abl sg\t\t\ta_ae",
@@ -4355,6 +4645,11 @@
     "N formo_sa_,formosus  fem abl sg\t\t\tus_a_um",
     "N formo_sa,formosus  fem nom/voc sg\t\t\tus_a_um"
   ],
+  "formosae": [
+    "N formo_sae,formosus  fem nom/voc pl\t\t\tus_a_um",
+    "N formo_sae,formosus  fem dat sg\t\t\tus_a_um",
+    "N formo_sae,formosus  fem gen sg\t\t\tus_a_um"
+  ],
   "fors": [
     "N fors  fem nom sg\t\t\ts_tis"
   ],
@@ -4384,6 +4679,11 @@
   "fragor": [
     "N fragor  masc nom/voc sg\t\t\tor_oLris"
   ],
+  "fragrantia": [
+    "N fra_grantia_,fragrantia  fem abl sg\t\t\ta_ae",
+    "N fra_grantia,fragrantia  fem nom/voc sg\t\t\ta_ae",
+    "P fra_grantia,fragro  pres part neut nom/voc/acc pl\t\t\tconj1,are_vb"
+  ],
   "frater": [
     "N fra_ter,frater  masc nom/voc sg\t\t\ter_ris"
   ],
@@ -4399,6 +4699,10 @@
     "V fraude_s,fraudo  pres subj act 2nd sg\t\t\tconj1,are_vb",
     "N fraude_s,fraus  fem acc pl\t\t\ts_dis",
     "N fraude_s,fraus  fem nom/voc pl\t\t\ts_dis"
+  ],
+  "fraxinus": [
+    "N fraxinus#1  fem nom sg\t\t\tus_i",
+    "N fraxinus#2  masc nom sg\t\t\tus_a_um"
   ],
   "frementi": [
     "P frementi_,fremo  pres part masc/fem/neut abl sg\t\t\tconj3",
@@ -4437,6 +4741,11 @@
   "frondis": [
     "N frons#1  fem gen sg\t\t\ts_dis"
   ],
+  "frondosae": [
+    "N frondo_sae,frondosus  fem nom/voc pl\t\t\tus_a_um",
+    "N frondo_sae,frondosus  fem dat sg\t\t\tus_a_um",
+    "N frondo_sae,frondosus  fem gen sg\t\t\tus_a_um"
+  ],
   "fronte": [
     "N frons#2  fem abl sg\t\t\ts_tis"
   ],
@@ -4473,6 +4782,9 @@
     "N fuga_,fuga  fem abl sg\t\t\ta_ae",
     "N fuga  fem nom/voc sg\t\t\ta_ae",
     "V fuga_,fugo  pres imperat act 2nd sg\t\t\tconj1,are_vb"
+  ],
+  "fugacem": [
+    "N fuga_cem,fugax  masc/fem acc sg\t\t\tax_adj"
   ],
   "fugacibus": [
     "N fuga_cibus,fugax  abl pl\t\t\tax_adj",
@@ -4584,6 +4896,11 @@
   ],
   "funduntur": [
     "V fundo#1  pres ind pass 3rd pl\t\t\tconj3"
+  ],
+  "furor": [
+    "V furo  pres ind pass 1st sg\t\t\tconj3",
+    "V fu_ror,furor#1  pres ind pass 1st sg\t\t\tconj1,are_vb",
+    "N furor#2  masc nom/voc sg\t\t\tor_oLris"
   ],
   "furta": [
     "N furtum  neut nom/voc/acc pl\t\t\tus_i"
@@ -4732,6 +5049,13 @@
   "gere": [
     "V gero#1  pres imperat act 2nd sg\t\t\tconj3"
   ],
+  "germana": [
+    "N germa_na_,germana  fem abl sg\t\t\ta_ae",
+    "N germa_na,germana  fem nom/voc sg\t\t\ta_ae",
+    "N germa_na,germanus#1  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N germa_na_,germanus#1  fem abl sg\t\t\tus_a_um",
+    "N germa_na,germanus#1  fem nom/voc sg\t\t\tus_a_um"
+  ],
   "gestamina": [],
   "gigantas": [],
   "glacies": [
@@ -4789,6 +5113,14 @@
   "gratia": [
     "N gra_tia_,gratia  fem abl sg\t\t\ta_ae",
     "N gra_tia,gratia  fem nom/voc sg\t\t\ta_ae"
+  ],
+  "grato": [
+    "N gra_to_,gratus  neut abl sg\t\t\tus_a_um",
+    "N gra_to_,gratus  masc abl sg\t\t\tus_a_um",
+    "N gra_to_,gratus  neut dat sg\t\t\tus_a_um",
+    "N gra_to_,gratus  masc dat sg\t\t\tus_a_um",
+    "N gra_to_,gratus  masc abl sg\t\t\tus_i",
+    "N gra_to_,gratus  masc dat sg\t\t\tus_i"
   ],
   "gravem": [
     "N gravis  masc/fem acc sg\t\t\tis_e",
@@ -4953,6 +5285,11 @@
     "N herba_,herba  fem abl sg\t\t\ta_ae",
     "N herba  fem nom/voc sg\t\t\ta_ae"
   ],
+  "herbae": [
+    "N herba  fem nom/voc pl\t\t\ta_ae",
+    "N herba  fem dat sg\t\t\ta_ae",
+    "N herba  fem gen sg\t\t\ta_ae"
+  ],
   "herbarum": [
     "N herba_rum,herba  fem gen pl\t\t\ta_ae"
   ],
@@ -4962,6 +5299,9 @@
   "herbis": [
     "N herbi_s,herba  fem abl pl\t\t\ta_ae",
     "N herbi_s,herba  fem dat pl\t\t\ta_ae"
+  ],
+  "heu": [
+    "N heu \t\tindeclform\texclam"
   ],
   "hi": [
     "N hi_,hic  masc nom/voc pl\t\tindeclform\tdemonstr"
@@ -5021,6 +5361,17 @@
     "N hono_re_s,honor  masc nom/voc pl\t\t\tor_oLris",
     "V hono_re_s,honoro  pres subj act 2nd sg\t\t\tconj1,are_vb"
   ],
+  "horae": [
+    "N ho_rae,hora#1  fem nom/voc pl\t\t\ta_ae",
+    "N ho_rae,hora#1  fem dat sg\t\t\ta_ae",
+    "N ho_rae,hora#1  fem gen sg\t\t\ta_ae",
+    "N ho_rae,horae  fem nom/voc pl\t\t\ta_ae"
+  ],
+  "horas": [
+    "N ho_ra_s,hora#1  fem acc pl\t\t\ta_ae",
+    "N ho_ra_s,horae  fem acc pl\t\t\ta_ae"
+  ],
+  "horologo": [],
   "horrenda": [
     "V horreo  gerundive neut nom/voc/acc pl\t\t\tconj2",
     "V horrenda_,horreo  gerundive fem abl sg\t\t\tconj2",
@@ -5043,9 +5394,24 @@
   "horriferamque": [
     "N horriferam,horrifer  fem acc sg\t\t\ter_era_erum"
   ],
+  "horrores": [
+    "N horro_re_s,horror  masc acc pl\t\t\tor_oLris",
+    "N horro_re_s,horror  masc nom/voc pl\t\t\tor_oLris"
+  ],
+  "horroresque": [
+    "N horro_re_s,horror  masc acc pl\t\t\tor_oLris",
+    "N horro_re_s,horror  masc nom/voc pl\t\t\tor_oLris"
+  ],
   "hortami": [],
   "hortamine": [
     "N horta_mi^ne,hortamen  neut abl sg\t\t\tmen_minis"
+  ],
+  "horti": [
+    "N horti_,hortus  masc nom/voc pl\t\t\tus_i",
+    "N horti_,hortus  masc gen sg\t\t\tus_i"
+  ],
+  "hortorum": [
+    "N horto_rum,hortus  masc gen pl\t\t\tus_i"
   ],
   "hos": [
     "N ho_s,hic  masc acc pl\t\tindeclform\tdemonstr"
@@ -5366,6 +5732,12 @@
     "N impetu_s,impetus  masc gen sg\t\t\tus_us",
     "N impetus  masc nom sg\t\t\tus_us"
   ],
+  "implexi": [
+    "V implexi_,implecto  perf ind act 1st sg\t\t\tperfstem",
+    "P implexi_,implecto  perf part pass masc nom/voc pl\t\t\tpp4",
+    "P implexi_,implecto  perf part pass neut gen sg\t\t\tpp4",
+    "P implexi_,implecto  perf part pass masc gen sg\t\t\tpp4"
+  ],
   "in": [
     "N in \t\tindeclform\tprep"
   ],
@@ -5377,6 +5749,9 @@
     "N inaequa_li_s,inaequalis  masc/fem acc pl\t\t\tis_e",
     "N inaequa_lis,inaequalis  masc/fem/neut gen sg\t\t\tis_e",
     "N inaequa_lis,inaequalis  masc/fem nom/voc sg\t\t\tis_e"
+  ],
+  "inambulat": [
+    "V inambulo  pres ind act 3rd sg\t\t\tconj1,are_vb"
   ],
   "inanem": [
     "N ina_nem,inanis  masc/fem acc sg\t\t\tis_e"
@@ -5456,6 +5831,15 @@
     "N indigno_,indignus  masc abl sg\t\t\tus_a_um",
     "N indigno_,indignus  neut dat sg\t\t\tus_a_um",
     "N indigno_,indignus  masc dat sg\t\t\tus_a_um"
+  ],
+  "indomitos": [
+    "N indomito_s,indomitus  masc acc pl\t\t\tus_a_um"
+  ],
+  "indormit": [
+    "V indormio  pres ind act 3rd sg\t\t\tconj4"
+  ],
+  "indormitque": [
+    "V indormit,indormio  pres ind act 3rd sg\t\t\tconj4"
   ],
   "indos": [],
   "inducta": [
@@ -5728,6 +6112,12 @@
   "inrupit": [
     "V inru_pit,irrumpo  perf ind act 3rd sg\t\t\tperfstem"
   ],
+  "inscribere": [
+    "V inscri_be_re,inscribo  fut ind pass 2nd sg\t\t\tconj3",
+    "V inscri_bere,inscribo  pres imperat pass 2nd sg\t\t\tconj3",
+    "V inscri_bere,inscribo  pres ind pass 2nd sg\t\t\tconj3",
+    "V inscri_bere,inscribo  pres inf act\t\t\tconj3"
+  ],
   "insequar": [
     "V insequor  fut ind pass 1st sg\t\t\tconj3",
     "V insequor  pres subj pass 1st sg\t\t\tconj3"
@@ -5777,6 +6167,27 @@
     "N intacta_,intactus#1  fem abl sg\t\t\tus_a_um",
     "N intactus#1  fem nom/voc sg\t\t\tus_a_um"
   ],
+  "integra": [
+    "N integer  neut nom/voc/acc pl\t\t\ter_ra_rum",
+    "N integra_,integer  fem abl sg\t\t\ter_ra_rum",
+    "N integer  fem nom/voc sg\t\t\ter_ra_rum",
+    "V inte_gra_,integro  pres imperat act 2nd sg\t\t\tconj1,are_vb"
+  ],
+  "integraque": [
+    "N integra,integer  neut nom/voc/acc pl\t\t\ter_ra_rum",
+    "N integra_,integer  fem abl sg\t\t\ter_ra_rum",
+    "N integra,integer  fem nom/voc sg\t\t\ter_ra_rum",
+    "V inte_gra_,integro  pres imperat act 2nd sg\t\t\tconj1,are_vb"
+  ],
+  "intenta": [
+    "P intendo  perf part pass fem nom/voc sg\t\t\tpp4",
+    "P intenta_,intendo  perf part pass fem abl sg\t\t\tpp4",
+    "P intendo  perf part pass neut nom/voc/acc pl\t\t\tpp4",
+    "V intenta_,intento  pres imperat act 2nd sg\t\t\tconj1,are_vb",
+    "N intentus  fem nom/voc sg\t\t\tus_a_um",
+    "N intenta_,intentus  fem abl sg\t\t\tus_a_um",
+    "N intentus  neut nom/voc/acc pl\t\t\tus_a_um"
+  ],
   "inter": [
     "N inter \t\tindeclform\tadverb",
     "N inter \t\tindeclform\tprep"
@@ -5794,6 +6205,10 @@
     "P intermitto  perf part pass fem nom/voc sg\t\t\tpp4",
     "P intermissa_,intermitto  perf part pass fem abl sg\t\t\tpp4",
     "P intermitto  perf part pass neut nom/voc/acc pl\t\t\tpp4"
+  ],
+  "intervalla": [
+    "V intervalla_,intervallo  pres imperat act 2nd sg\t\t\tconj1,are_vb",
+    "N intervallum  neut nom/voc/acc pl\t\t\tus_i"
   ],
   "intonsis": [
     "P intonsi_s,intondeo  perf part pass neut dat pl\t\t\tpp4",
@@ -5850,6 +6265,14 @@
     "N inventu_m,inventum  neut gen pl\t\tpoetic\tus_i",
     "N inventum  neut nom/voc/acc sg\t\t\tus_i",
     "N inventus#2  masc acc sg\t\t\tus_us"
+  ],
+  "invertit": [
+    "V inverto  pres ind act 3rd sg\t\t\tconj3",
+    "V inverto  perf ind act 3rd sg\t\t\tperfstem"
+  ],
+  "invertitque": [
+    "V invertit,inverto  pres ind act 3rd sg\t\t\tconj3",
+    "V invertit,inverto  perf ind act 3rd sg\t\t\tperfstem"
   ],
   "invita": [
     "V invi_ta_,invito  pres imperat act 2nd sg\t\t\tconj1,are_vb",
@@ -6125,6 +6548,17 @@
   "iuvenum": [
     "N juvenum,juvenis  masc gen pl\t\t\tis_is_C"
   ],
+  "jacet": [
+    "V jaceo  pres ind act 3rd sg\t\t\tconj2"
+  ],
+  "judice": [
+    "N ju_dice,judex  masc/fem abl sg\t\t\tex_icis"
+  ],
+  "juno": [],
+  "jupiter": [],
+  "juvant": [
+    "V juvo  pres ind act 3rd pl\t\t\tconj1"
+  ],
   "labentia": [
     "P la_bentia,labor#1  pres part neut nom/voc/acc pl\t\t\tconj3"
   ],
@@ -6135,6 +6569,11 @@
   ],
   "labore": [
     "N labo_re,labor#2  masc abl sg\t\t\tor_oLris"
+  ],
+  "labores": [
+    "N labo_re_s,labor#2  masc acc pl\t\t\tor_oLris",
+    "N labo_re_s,labor#2  masc nom/voc pl\t\t\tor_oLris",
+    "V labo_re_s,laboro  pres subj act 2nd sg\t\t\tconj1,are_vb"
   ],
   "laboret": [
     "V labo_ret,laboro  pres subj act 3rd sg\t\t\tconj1,are_vb"
@@ -6217,6 +6656,19 @@
     "N laeta_,laetus#1  fem abl sg\t\t\tus_a_um",
     "N laetus#1  fem nom/voc sg\t\t\tus_a_um"
   ],
+  "laetantur": [
+    "V laeto  pres ind pass 3rd pl\t\t\tconj1,are_vb",
+    "V laetor  pres ind pass 3rd pl\t\t\tconj1,are_vb"
+  ],
+  "laeto": [
+    "V laeto_,laeto  pres ind act 1st sg\t\t\tconj1,are_vb",
+    "N laeto_,laetus#1  neut abl sg\t\t\tus_a_um",
+    "N laeto_,laetus#1  masc abl sg\t\t\tus_a_um",
+    "N laeto_,laetus#1  neut dat sg\t\t\tus_a_um",
+    "N laeto_,laetus#1  masc dat sg\t\t\tus_a_um",
+    "N laeto_,laetus#2  masc abl sg\t\t\tus_i",
+    "N laeto_,laetus#2  masc dat sg\t\t\tus_i"
+  ],
   "laetus": [
     "N laetus#1  masc nom sg\t\t\tus_a_um",
     "N laetus#2  masc nom sg\t\t\tus_i"
@@ -6257,6 +6709,14 @@
   "lapidosos": [
     "N lapido_so_s,lapidosus  masc acc pl\t\t\tus_a_um"
   ],
+  "lapsus": [
+    "P labor#1  perf part pass masc nom sg\t\t\tpp4",
+    "N lapsus  masc nom sg\t\t\tus_a_um",
+    "N lapsu_s,lapsus#2  masc acc pl\t\t\tus_us",
+    "N lapsu_s,lapsus#2  masc nom pl\t\t\tus_us",
+    "N lapsu_s,lapsus#2  masc gen sg\t\t\tus_us",
+    "N lapsus#2  masc nom sg\t\t\tus_us"
+  ],
   "lasci": [],
   "lascive": [
     "N lasci_ve_,lascivus  adverbial\t\t\tus_a_um",
@@ -6271,6 +6731,14 @@
     "P lassa_ti_s,lasso  perf part pass neut dat pl\t\t\tpp4,are_vb",
     "P lassa_ti_s,lasso  perf part pass fem dat pl\t\t\tpp4,are_vb",
     "P lassa_ti_s,lasso  perf part pass masc dat pl\t\t\tpp4,are_vb"
+  ],
+  "lasso": [
+    "V lasso_,lasso  pres ind act 1st sg\t\t\tconj1,are_vb",
+    "N lasso_,lassus  neut abl sg\t\t\tus_a_um",
+    "N lasso_,lassus  masc abl sg\t\t\tus_a_um",
+    "N lasso_,lassus  neut dat sg\t\t\tus_a_um",
+    "N lasso_,lassus  masc dat sg\t\t\tus_a_um",
+    "V lasso_,lavo  futperf ind act 1st sg\t\t\tavperf"
   ],
   "latas": [
     "P lata_s,fero  perf part pass fem acc pl\t\t\tpp4",
@@ -6348,6 +6816,14 @@
     "N laurea_,laureus  fem abl sg\t\t\tus_a_um",
     "N laureus  fem nom/voc sg\t\t\tus_a_um"
   ],
+  "lauri": [
+    "N lauri_,laurus  fem nom/voc pl\t\t\tus_i",
+    "N lauri_,laurus  fem gen sg\t\t\tus_i"
+  ],
+  "laurique": [
+    "N lauri_,laurus  fem nom/voc pl\t\t\tus_i",
+    "N lauri_,laurus  fem gen sg\t\t\tus_i"
+  ],
   "laurus": [
     "N laurus  fem nom sg\t\t\tus_i"
   ],
@@ -6362,6 +6838,11 @@
   "legebantur": [
     "V lege_bantur,lego#2  imperf ind pass 3rd pl\t\t\tconj3"
   ],
+  "legetur": [
+    "V le_ge_tur,lego#1  pres subj pass 3rd sg\t\t\tconj1,are_vb",
+    "V lege_tur,lego#2  fut ind pass 3rd sg\t\t\tconj3"
+  ],
+  "lemniacum": [],
   "lenis": [
     "N le_ni_s,lena  fem dat pl\t\t\ta_ae",
     "N le_ni_s,lena  fem abl pl\t\t\ta_ae",
@@ -6472,6 +6953,11 @@
     "N libro_,liber#4  masc abl sg\t\t\ter_ri",
     "N libro_,liber#4  masc dat sg\t\t\ter_ri",
     "V li_bro_,libro  pres ind act 1st sg\t\t\tconj1,are_vb"
+  ],
+  "liceat": [
+    "V liceo#1  pres subj act 3rd sg\t\t\tconj2",
+    "V liceor  pres subj act 3rd sg\t\t\tconj2",
+    "V licet  pres subj act 3rd sg\t\t\tconj2"
   ],
   "licentia": [
     "N licentia_,licentia  fem abl sg\t\t\ta_ae",
@@ -6640,6 +7126,11 @@
   ],
   "longas": [
     "N longa_s,longus  fem acc pl\t\t\tus_a_um"
+  ],
+  "longe": [
+    "N longe_,longus  adverbial\t\t\tus_a_um",
+    "N longus  neut voc sg\t\t\tus_a_um",
+    "N longus  masc voc sg\t\t\tus_a_um"
   ],
   "longi": [
     "N longi_,longus  masc nom/voc pl\t\t\tus_a_um",
@@ -6881,6 +7372,14 @@
     "N mala_,malus#1  fem abl sg\t\t\tus_a_um",
     "N malus#1  neut nom/voc/acc pl\t\t\tus_a_um"
   ],
+  "malignis": [
+    "N maligni_s,malignus  neut abl pl\t\t\tus_a_um",
+    "N maligni_s,malignus  fem abl pl\t\t\tus_a_um",
+    "N maligni_s,malignus  masc abl pl\t\t\tus_a_um",
+    "N maligni_s,malignus  neut dat pl\t\t\tus_a_um",
+    "N maligni_s,malignus  fem dat pl\t\t\tus_a_um",
+    "N maligni_s,malignus  masc dat pl\t\t\tus_a_um"
+  ],
   "malo": [
     "V ma_lo_,malo  pres ind act 1st sg\t\t\tirreg_pp1",
     "N malo_,malum  neut dat sg\t\t\tus_i",
@@ -7040,6 +7539,7 @@
     "N ma_tu_ti_ni_s,matutinus  masc dat pl\t\t\tus_a_um",
     "N ma_tu_ti_ni_s,matutinus  neut abl pl\t\t\tus_a_um"
   ],
+  "mavors": [],
   "maxima": [
     "N maxima_,magnus  fem abl sg\t\tirreg_superl\tus_a_um",
     "N magnus  neut nom/voc/acc pl\t\tirreg_superl\tus_a_um",
@@ -7153,6 +7653,10 @@
   "melioris": [
     "N bonus  masc/fem/neut gen comp sg\t\t\tior_ius_comp"
   ],
+  "melius": [
+    "N bonus  neut nom/voc/acc comp sg\t\t\tior_ius_comp",
+    "N melius#1 \t\tindeclform\tadverb"
+  ],
   "mella": [
     "N mel  neut nom/voc/acc pl\t\tindeclform\tirreg_nom3",
     "N mella_,mella#1  fem abl sg\t\t\ta_ae",
@@ -7160,9 +7664,20 @@
     "V mella_,mello  pres imperat act 2nd sg\t\t\tconj1,are_vb",
     "N mellum  neut nom/voc/acc pl\t\t\tus_i"
   ],
+  "mellito": [
+    "N melli_to_,mellitus  neut abl sg\t\t\tus_a_um",
+    "N melli_to_,mellitus  masc abl sg\t\t\tus_a_um",
+    "N melli_to_,mellitus  neut dat sg\t\t\tus_a_um",
+    "N melli_to_,mellitus  masc dat sg\t\t\tus_a_um",
+    "N melli_to_,mellitus  masc abl sg\t\t\tus_i",
+    "N melli_to_,mellitus  masc dat sg\t\t\tus_i"
+  ],
   "membra": [
     "V membra_,membro  pres imperat act 2nd sg\t\t\tconj1,are_vb",
     "N membrum  neut nom/voc/acc pl\t\t\tus_i"
+  ],
+  "meminit": [
+    "V memini  perf ind act 3rd sg\t\t\tperfstem"
   ],
   "mensae": [
     "N mensa  fem dat sg\t\t\ta_ae",
@@ -7648,6 +8163,13 @@
     "N mu_gi_tu_s,mugitus  masc gen sg\t\t\tus_us",
     "N mu_gi_tus,mugitus  masc nom sg\t\t\tus_us"
   ],
+  "mugitusve": [
+    "P mu_gi_tus,mugio#1  perf part pass masc nom sg\t\t\tpp4",
+    "N mu_gi_tu_s,mugitus  masc acc pl\t\t\tus_us",
+    "N mu_gi_tu_s,mugitus  masc nom pl\t\t\tus_us",
+    "N mu_gi_tu_s,mugitus  masc gen sg\t\t\tus_us",
+    "N mu_gi_tus,mugitus  masc nom sg\t\t\tus_us"
+  ],
   "mulcebant": [
     "V mulce_bant,mulceo  imperf ind act 3rd pl\t\t\tconj2"
   ],
@@ -7718,6 +8240,9 @@
     "N mundus#1  masc nom sg\t\t\tus_a_um",
     "N mundus#2  masc nom sg\t\t\tus_i"
   ],
+  "municipem": [
+    "N mu_nicipem,municeps  masc/fem acc sg\t\t\teps_ipis"
+  ],
   "munus": [
     "N mu_nus,munus  neut nom/voc/acc sg\t\t\tus_eris"
   ],
@@ -7728,6 +8253,7 @@
   "murmura": [
     "N murmur  neut nom/voc/acc pl\t\t\t0_is"
   ],
+  "musae": [],
   "musco": [
     "N musco_,muscus  masc abl sg\t\t\tus_i",
     "N musco_,muscus  masc dat sg\t\t\tus_i"
@@ -7761,6 +8287,15 @@
   ],
   "mutaverat": [
     "V mu_ta_verat,muto#1  plup ind act 3rd sg\t\t\tavperf,are_vb"
+  ],
+  "muti": [
+    "V mu_ti_,mutio  pres imperat act 2nd sg\t\t\tconj4",
+    "N mu_ti_,mutum  neut gen sg\t\t\tus_i",
+    "N mu_ti_,mutus  masc nom/voc pl\t\t\tus_a_um",
+    "N mu_ti_,mutus  neut gen sg\t\t\tus_a_um",
+    "N mu_ti_,mutus  masc gen sg\t\t\tus_a_um",
+    "N mu_ti_,mutus  masc nom/voc pl\t\t\tus_i",
+    "N mu_ti_,mutus  masc gen sg\t\t\tus_i"
   ],
   "mutua": [
     "V mu_tua_,mutuo  pres imperat act 2nd sg\t\t\tconj1,are_vb",
@@ -7931,6 +8466,7 @@
     "N ne_,ne#3 \t\tindeclform\texclam",
     "V ne_,neo#1  pres imperat act 2nd sg\t\t\tconj2"
   ],
+  "neaera": [],
   "nebulae": [
     "N nebula  fem nom/voc pl\t\t\ta_ae",
     "N nebula  fem dat sg\t\t\ta_ae",
@@ -7966,6 +8502,11 @@
   "neget": [
     "V nego  pres subj act 3rd sg\t\t\tconj1,are_vb"
   ],
+  "neglecta": [
+    "P neglego  perf part pass neut nom/voc/acc pl\t\t\tpp4",
+    "P neglecta_,neglego  perf part pass fem abl sg\t\t\tpp4",
+    "P neglego  perf part pass fem nom/voc sg\t\t\tpp4"
+  ],
   "nemora": [
     "N nemus  neut nom/voc/acc pl\t\t\tus_oris"
   ],
@@ -7990,6 +8531,9 @@
   ],
   "nequit": [
     "V nequeo  pres ind act 3rd sg\t\t\tirreg_pp1"
+  ],
+  "nequitias": [
+    "N ne_quitia_s,nequitia  fem acc pl\t\t\ta_ae"
   ],
   "nereides": [],
   "nereus": [],
@@ -8105,6 +8649,11 @@
     "N niveus  fem nom/voc pl\t\t\tus_a_um",
     "N niveus  fem dat sg\t\t\tus_a_um",
     "N niveus  fem gen sg\t\t\tus_a_um"
+  ],
+  "nives": [
+    "V nive_s,nivit  fut ind act 2nd sg\t\t\tconj3",
+    "N nive_s,nix  fem acc pl\t\tindeclform\tirreg_nom3",
+    "N nive_s,nix  fem nom/voc pl\t\tindeclform\tirreg_nom3"
   ],
   "nix": [
     "N nix  fem nom sg\t\tindeclform\tirreg_nom3"
@@ -8228,6 +8777,9 @@
     "N nota  fem acc sg\t\t\ta_ae",
     "N no_tam,notus  fem acc sg\t\t\tus_a_um"
   ],
+  "notasti": [
+    "V noto  perf ind act 2nd sg\t\tcontr\tavperf,are_vb"
+  ],
   "notent": [
     "V noto  pres subj act 3rd pl\t\t\tconj1,are_vb"
   ],
@@ -8309,6 +8861,16 @@
     "N novo_,novus  masc abl sg\t\t\tus_a_um",
     "N novo_,novus  neut dat sg\t\t\tus_a_um",
     "N novo_,novus  masc dat sg\t\t\tus_a_um"
+  ],
+  "novum": [
+    "N novu_m,novi  masc gen pl\t\tpoetic\tus_i",
+    "N novu_m,novum  neut gen pl\t\tpoetic\tus_i",
+    "N novum  neut nom/voc/acc sg\t\t\tus_i",
+    "N novus  masc acc sg\t\t\tus_a_um",
+    "N novus  neut nom/voc/acc sg\t\t\tus_a_um",
+    "N novus  neut nom sg\t\t\tus_a_um",
+    "N novu_m,novus  neut gen pl\t\tpoetic\tus_a_um",
+    "N novu_m,novus  masc gen pl\t\tpoetic\tus_a_um"
   ],
   "nox": [
     "N nox  fem nom/voc sg\t\t\tx_ctis"
@@ -8421,6 +8983,12 @@
     "N nu_men,numen  neut acc sg\t\t\tmen_minis",
     "N nu_men,numen  neut nom/voc sg\t\t\tmen_minis"
   ],
+  "numerari": [
+    "N numera_ri_,numerarius  masc nom pl\t\t\tius_i",
+    "N numera_ri,numerarius  masc voc sg\t\t\tius_i",
+    "N numera_ri_,numerarius  masc gen sg\t\t\tius_i",
+    "V numera_ri,numero#1  pres inf pass\t\t\tconj1,are_vb"
+  ],
   "numeris": [
     "N numeri_s,numerus  masc abl pl\t\t\tus_i",
     "N numeri_s,numerus  masc dat pl\t\t\tus_i"
@@ -8494,6 +9062,10 @@
     "N nymphe  fem acc sg\t\t\te_es"
   ],
   "nymphas": [
+    "N nympha_s,nympha  fem acc pl\t\t\ta_ae",
+    "N nympha_s,nymphe  fem acc pl\t\t\te_es"
+  ],
+  "nymphasque": [
     "N nympha_s,nympha  fem acc pl\t\t\ta_ae",
     "N nympha_s,nymphe  fem acc pl\t\t\te_es"
   ],
@@ -8697,6 +9269,14 @@
     "N omnis  masc/fem/neut abl pl\t\t\tis_e",
     "N omnis  masc/fem/neut dat pl\t\t\tis_e"
   ],
+  "omnigeni": [
+    "N omnigeni_,omnigenus#1  masc nom/voc pl\t\t\tus_a_um",
+    "N omnigeni_,omnigenus#1  neut gen sg\t\t\tus_a_um",
+    "N omnigeni_,omnigenus#1  masc gen sg\t\t\tus_a_um",
+    "N omnigeni_,omnigenus#2  masc nom/voc pl\t\t\tus_a_um",
+    "N omnigeni_,omnigenus#2  neut gen sg\t\t\tus_a_um",
+    "N omnigeni_,omnigenus#2  masc gen sg\t\t\tus_a_um"
+  ],
   "omnipotens": [
     "N omnipotens  neut nom/voc/acc sg\t\t\tens_adj",
     "N omnipotens  masc/fem nom/voc sg\t\t\tens_adj"
@@ -8706,6 +9286,12 @@
   ],
   "onus": [
     "N onus  neut nom/voc/acc sg\t\t\tus_eris"
+  ],
+  "opaca": [
+    "V opa_ca_,opaco  pres imperat act 2nd sg\t\t\tconj1,are_vb",
+    "N opa_ca,opacus  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N opa_ca_,opacus  fem abl sg\t\t\tus_a_um",
+    "N opa_ca,opacus  fem nom/voc sg\t\t\tus_a_um"
   ],
   "opem": [
     "N ops#1  fem acc sg\t\t\ts_is"
@@ -8742,6 +9328,13 @@
   "optas": [
     "N opta_s,optimas  fem nom sg\t\t\ttas_tatis",
     "V opta_s,opto  pres ind act 2nd sg\t\t\tconj1,are_vb"
+  ],
+  "optate": [
+    "N opta_te,optatum  neut voc sg\t\t\tus_i",
+    "N opta_te,optimas  fem abl sg\t\t\ttas_tatis",
+    "V opta_te,opto  pres imperat act 2nd pl\t\t\tconj1,are_vb",
+    "P opta_te,opto  perf part pass neut voc sg\t\t\tpp4,are_vb",
+    "P opta_te,opto  perf part pass masc voc sg\t\t\tpp4,are_vb"
   ],
   "opus": [
     "N opus#1  neut nom/voc/acc sg\t\t\tus_eris"
@@ -8831,6 +9424,9 @@
   "oriuntur": [
     "V orior  pres ind pass 3rd pl\t\t\tconj4"
   ],
+  "ornet": [
+    "V orno  pres subj act 3rd sg\t\t\tconj1,are_vb"
+  ],
   "oro": [
     "N o_ro_,aurum  neut abl sg\t\t\tus_i",
     "N o_ro_,aurum  neut dat sg\t\t\tus_i",
@@ -8873,6 +9469,14 @@
   "ostendunt": [
     "V ostendo  pres ind act 3rd pl\t\t\tconj3"
   ],
+  "ostrum": [
+    "N ostru_m,ostrum  neut gen pl\t\tpoetic\tus_i",
+    "N ostrum  neut nom/voc/acc sg\t\t\tus_i"
+  ],
+  "ostrumque": [
+    "N ostru_m,ostrum  neut gen pl\t\tpoetic\tus_i",
+    "N ostrum,ostrum  neut nom/voc/acc sg\t\t\tus_i"
+  ],
   "otia": [
     "N o_tia_,otia  fem abl sg\t\t\ta_ae",
     "N o_tia,otia  fem nom/voc sg\t\t\ta_ae",
@@ -8905,6 +9509,14 @@
   ],
   "pallebant": [
     "V palle_bant,palleo  imperf ind act 3rd pl\t\t\tconj2"
+  ],
+  "palmae": [
+    "N palma#1  fem nom/voc pl\t\t\ta_ae",
+    "N palma#1  fem dat sg\t\t\ta_ae",
+    "N palma#1  fem gen sg\t\t\ta_ae",
+    "N palma#2  fem nom/voc pl\t\t\ta_ae",
+    "N palma#2  fem dat sg\t\t\ta_ae",
+    "N palma#2  fem gen sg\t\t\ta_ae"
   ],
   "palmis": [
     "N palmi_s,palma#1  fem abl pl\t\t\ta_ae",
@@ -9251,6 +9863,11 @@
     "N pelagi_,pelagus  neut gen sg\t\t\tus_i"
   ],
   "pelion": [],
+  "pellice": [
+    "N paelex  fem abl sg\t\t\tex_icis",
+    "V pellice_,pelliceo  pres imperat act 2nd sg\t\t\tconj2",
+    "V pellicio  pres imperat act 2nd sg\t\t\tconj3_io"
+  ],
   "penates": [
     "N pena_te_s,Penates  masc acc pl\t\t\tis_is",
     "N pena_te_s,Penates  masc nom/voc pl\t\t\tis_is"
@@ -9306,6 +9923,15 @@
   "pennis": [
     "N penni_s,penna  fem abl pl\t\t\ta_ae",
     "N penni_s,penna  fem dat pl\t\t\ta_ae"
+  ],
+  "pensa": [
+    "P pendo  perf part pass neut nom/voc/acc pl\t\t\tpp4",
+    "P pensa_,pendo  perf part pass fem abl sg\t\t\tpp4",
+    "P pendo  perf part pass fem nom/voc sg\t\t\tpp4",
+    "N pensa_,pensa  fem abl sg\t\t\ta_ae",
+    "N pensa  fem nom/voc sg\t\t\ta_ae",
+    "V pensa_,penso  pres imperat act 2nd sg\t\t\tconj1,are_vb",
+    "N pensum  neut nom/voc/acc pl\t\t\tus_i"
   ],
   "pependit": [
     "V pendeo  perf ind act 3rd sg\t\t\tperfstem",
@@ -9374,6 +10000,9 @@
     "N peregri_num,peregrinus  neut nom sg\t\t\tus_a_um",
     "N peregri_nu_m,peregrinus  masc gen pl\t\tpoetic\tus_i",
     "N peregri_num,peregrinus  masc acc sg\t\t\tus_i"
+  ],
+  "pererrat": [
+    "V pererro  pres ind act 3rd sg\t\t\tconj1,are_vb"
   ],
   "perfregit": [
     "V perfre_git,perfringo  perf ind act 3rd sg\t\t\tperfstem"
@@ -9453,12 +10082,16 @@
     "P petente_s,peto  pres part masc/fem acc pl\t\t\tconj3",
     "P petente_s,peto  pres part masc/fem nom/voc pl\t\t\tconj3"
   ],
+  "peteret": [
+    "V peto  imperf subj act 3rd sg\t\t\tconj3"
+  ],
   "petiere": [
     "V petie_re,peto  perf ind act 3rd pl\t\tpoetic\tperfstem"
   ],
   "petit": [
     "V peto  pres ind act 3rd sg\t\t\tconj3"
   ],
+  "phaebus": [],
   "phaethon": [],
   "phaethontis": [],
   "pharetra": [
@@ -9589,6 +10222,18 @@
     "N plaga#3  fem dat sg\t\t\ta_ae",
     "N plaga#3  fem nom/voc pl\t\t\ta_ae"
   ],
+  "plantae": [
+    "N planta  fem nom/voc pl\t\t\ta_ae",
+    "N planta  fem dat sg\t\t\ta_ae",
+    "N planta  fem gen sg\t\t\ta_ae"
+  ],
+  "plantis": [
+    "N planti_s,planta  fem abl pl\t\t\ta_ae",
+    "N planti_s,planta  fem dat pl\t\t\ta_ae"
+  ],
+  "platanus": [
+    "N platanus  fem nom sg\t\t\tus_i"
+  ],
   "plebe": [
     "N plebs  fem abl sg\t\t\ts_is"
   ],
@@ -9718,6 +10363,10 @@
     "N populo_s,populus#1  masc acc pl\t\t\tus_i",
     "N po_pulo_s,populus#2  fem acc pl\t\t\tus_i"
   ],
+  "populus": [
+    "N populus#1  masc nom sg\t\t\tus_i",
+    "N po_pulus,populus#2  fem nom sg\t\t\tus_i"
+  ],
   "porrexerat": [
     "V porrigo#1  plup ind act 3rd sg\t\t\tperfstem"
   ],
@@ -9774,6 +10423,9 @@
   ],
   "possim": [
     "V possum  pres subj act 1st sg\t\t\tirreg_pp1"
+  ],
+  "possint": [
+    "V possum  pres subj act 3rd pl\t\t\tirreg_pp1"
   ],
   "possit": [
     "V possum  pres subj act 3rd sg\t\t\tirreg_pp1"
@@ -9837,6 +10489,26 @@
     "V possum  pres ind act 3rd sg\t\t\tirreg_pp1",
     "N pote,potis  neut nom/voc/acc sg\t\tindeclform\tirreg_adj3"
   ],
+  "potiori": [
+    "N potiori_,potis  dat comp sg\t\t\tis_e"
+  ],
+  "potitum": [
+    "N poti_tum,potior  supine neut nom sg\t\t\tpp4",
+    "P poti_tu_m,potior  perf part pass neut gen pl\t\tpoetic\tpp4",
+    "P poti_tu_m,potior  perf part pass masc gen pl\t\tpoetic\tpp4",
+    "P poti_tum,potior  perf part pass masc acc sg\t\t\tpp4",
+    "P poti_tum,potior  perf part pass neut nom/voc/acc sg\t\t\tpp4",
+    "P poti_tum,potior  perf part pass neut nom sg\t\t\tpp4",
+    "N poti_tu_m,potitus  masc gen pl\t\tpoetic\tus_a_um",
+    "N poti_tum,potitus  masc acc sg\t\t\tus_a_um",
+    "N poti_tum,potitus  neut nom/voc/acc sg\t\t\tus_a_um",
+    "N poti_tum,potitus  neut nom sg\t\t\tus_a_um",
+    "N poti_tu_m,potitus  neut gen pl\t\tpoetic\tus_a_um"
+  ],
+  "potiuntur": [
+    "V potio#2  pres ind pass 3rd pl\t\t\tconj4",
+    "V potior  pres ind pass 3rd pl\t\t\tconj4"
+  ],
   "potuisse": [
     "V possum  perf inf act\t\t\tperfstem"
   ],
@@ -9855,6 +10527,9 @@
     "N praecinctu_s,praecinctus#2  masc gen sg\t\t\tus_us",
     "N praecinctus#2  masc nom sg\t\t\tus_us",
     "P praecingo  perf part pass masc nom sg\t\t\tpp4"
+  ],
+  "praecingat": [
+    "V praecingo  pres subj act 3rd sg\t\t\tconj3"
   ],
   "praecipites": [
     "N praecipite_s,praeceps  masc/fem acc pl\t\t\teps_ipitis",
@@ -10125,6 +10800,15 @@
     "N pro_pria_,proprius  fem abl sg\t\t\tius_ia_ium",
     "N pro_pria,proprius  fem nom/voc sg\t\t\tius_ia_ium"
   ],
+  "proprio": [
+    "V proprio_,proprio  pres ind act 1st sg\t\t\tconj1,are_vb",
+    "N pro_prio_,proprium  neut abl sg\t\t\tus_i",
+    "N pro_prio_,proprium  neut dat sg\t\t\tus_i",
+    "N pro_prio_,proprius  neut abl sg\t\t\tius_ia_ium",
+    "N pro_prio_,proprius  masc abl sg\t\t\tius_ia_ium",
+    "N pro_prio_,proprius  neut dat sg\t\t\tius_ia_ium",
+    "N pro_prio_,proprius  masc dat sg\t\t\tius_ia_ium"
+  ],
   "proque": [
     "N pro_,pro \t\tindeclform\tadverb",
     "N pro_,pro \t\tindeclform\texclam",
@@ -10160,6 +10844,9 @@
   ],
   "pudorem": [
     "N pudo_rem,pudor  masc acc sg\t\t\tor_oLris"
+  ],
+  "puduit": [
+    "V pudeo  perf ind act 3rd sg\t\t\tperfstem"
   ],
   "puellae": [
     "N puella  fem nom/voc pl\t\t\ta_ae",
@@ -10288,6 +10975,14 @@
     "N quaesi_ti_s,quaesitum  neut abl pl\t\t\tus_i",
     "V quaesitis,quaeso  pres ind act 2nd pl\t\t\tconj3"
   ],
+  "quaesiverat": [
+    "V quaesi_verat,quaero  plup ind act 3rd sg\t\t\tivperf",
+    "V quaesi_verat,quaeso  plup ind act 3rd sg\t\t\tivperf"
+  ],
+  "quaesivi": [
+    "V quaesi_vi_,quaero  perf ind act 1st sg\t\t\tivperf",
+    "V quaesi_vi_,quaeso  perf ind act 1st sg\t\t\tivperf"
+  ],
   "qualibet": [
     "N qua_libet,qualibet \t\tindeclform\tadverb"
   ],
@@ -10304,6 +10999,9 @@
   "quamvis": [
     "N quamvi_s,quamvis \t\tindeclform\tadverb",
     "N quivis  fem acc sg\t\tindeclform\tindef"
+  ],
+  "quanquam": [
+    "N quamquam \t\tindeclform\tconj"
   ],
   "quanto": [
     "N quanto_,quanto \t\tindeclform\tadverb",
@@ -10388,6 +11086,7 @@
   "quia": [
     "N quia \t\tindeclform\tconj"
   ],
+  "quiaetis": [],
   "quibus": [
     "N qui#1  masc/fem/neut abl pl\t\tindeclform\tinterrog",
     "N qui#1  masc/fem/neut dat pl\t\tindeclform\tinterrog",
@@ -10416,9 +11115,27 @@
   "quidem": [
     "N quidem \t\tindeclform\tadverb"
   ],
+  "quies": [
+    "N quies  fem nom/voc sg\t\t\tes_eLtis",
+    "N quies#1  fem nom/voc sg\t\t\tes_eLtis"
+  ],
   "quietem": [
     "N quie_tem,quies  fem acc sg\t\t\tes_eLtis",
     "N quie_tem,quies#1  fem acc sg\t\t\tes_eLtis"
+  ],
+  "quietis": [
+    "N quie_tis,quies  fem gen sg\t\t\tes_eLtis",
+    "N quie_tis,quies#1  fem gen sg\t\t\tes_eLtis",
+    "P quie_ti_s,quiesco  perf part pass masc dat pl\t\t\tpp4",
+    "P quie_ti_s,quiesco  perf part pass fem abl pl\t\t\tpp4",
+    "P quie_ti_s,quiesco  perf part pass masc abl pl\t\t\tpp4",
+    "P quie_ti_s,quiesco  perf part pass neut dat pl\t\t\tpp4",
+    "P quie_ti_s,quiesco  perf part pass fem dat pl\t\t\tpp4",
+    "P quie_ti_s,quiesco  perf part pass neut abl pl\t\t\tpp4",
+    "N quie_ti_s,quieti  masc dat pl\t\t\tus_i",
+    "N quie_ti_s,quieti  masc abl pl\t\t\tus_i",
+    "N quie_ti_s,quietum  neut abl pl\t\t\tus_i",
+    "N quie_ti_s,quietum  neut dat pl\t\t\tus_i"
   ],
   "quin": [
     "N quin \t\tindeclform\tconj"
@@ -10441,6 +11158,9 @@
     "V qui_s,queo  pres ind act 2nd sg\t\t\tirreg_pp1",
     "N quis#1  masc/fem nom sg\t\tindeclform\tinterrog",
     "N quis#2  masc/fem nom sg\t\tindeclform\tindef"
+  ],
+  "quisnam": [
+    "N quisnam  masc nom sg\t\tindeclform\tindef"
   ],
   "quisquam": [
     "N quisquam  masc/fem nom sg\t\tindeclform\tindef"
@@ -10499,6 +11219,9 @@
   "quoscum": [],
   "quoscumque": [
     "N quo_scumque,quicumque  masc acc pl\t\tindeclform\tindef"
+  ],
+  "quoties": [
+    "N quotiens \t\tindeclform\tadverb"
   ],
   "quove": [
     "N quo_,qui#2  masc/neut abl sg\t\tindeclform\trelative",
@@ -10628,6 +11351,13 @@
     "N recessu_,recedo  supine neut dat sg\t\t\tpp4",
     "N recessu_,recessus#2  masc abl sg\t\t\tus_us"
   ],
+  "recessus": [
+    "P recedo  perf part pass masc nom sg\t\t\tpp4",
+    "N recessu_s,recessus#2  masc acc pl\t\t\tus_us",
+    "N recessu_s,recessus#2  masc nom pl\t\t\tus_us",
+    "N recessu_s,recessus#2  masc gen sg\t\t\tus_us",
+    "N recessus#2  masc nom sg\t\t\tus_us"
+  ],
   "recidendum": [
     "V recidendu_m,recido#1  gerundive neut gen pl\t\tpoetic\tconj3",
     "V recidendu_m,recido#1  gerundive masc gen pl\t\tpoetic\tconj3",
@@ -10737,6 +11467,10 @@
     "V refero  pres ind act 3rd sg\t\t\tirreg_pp1",
     "V refero  pres ind act 3rd sg\t\t\tirreg_pp1"
   ],
+  "referunt": [
+    "V refero  pres ind act 3rd pl\t\t\tirreg_pp1",
+    "V refero  pres ind act 3rd pl\t\t\tirreg_pp1"
+  ],
   "refugit": [
     "V refugio  pres ind act 3rd sg\t\t\tconj3_io",
     "V refu_git,refugio  perf ind act 3rd sg\t\t\tperfstem"
@@ -10791,6 +11525,12 @@
   ],
   "regoque": [
     "V rego_,rego  pres ind act 1st sg\t\t\tconj3"
+  ],
+  "regum": [
+    "N re_gum,rex  masc gen pl\t\t\tx_gis"
+  ],
+  "regumque": [
+    "N re_gum,rex  masc gen pl\t\t\tx_gis"
   ],
   "relaxant": [
     "V relaxo  pres ind act 3rd pl\t\t\tconj1,are_vb"
@@ -10871,6 +11611,9 @@
     "P repara_ta,reparo  perf part pass fem nom/voc sg\t\t\tpp4,are_vb",
     "P repara_ta_,reparo  perf part pass fem abl sg\t\t\tpp4,are_vb"
   ],
+  "reperire": [
+    "V reperi_re,reperio  pres inf act\t\t\tconj4"
+  ],
   "reperta": [
     "P reperio  perf part pass neut nom/voc/acc pl\t\t\tpp4",
     "P reperta_,reperio  perf part pass fem abl sg\t\t\tpp4",
@@ -10892,6 +11635,10 @@
   ],
   "replet": [
     "V re_plet,repleo  pres ind act 3rd sg\t\t\tconj2"
+  ],
+  "reponens": [
+    "P repo_ne_ns,repono  pres part neut acc sg\t\t\tconj3",
+    "P repo_ne_ns,repono  pres part masc/fem/neut nom/voc sg\t\t\tconj3"
   ],
   "reponuntur": [
     "V repo_nuntur,repono  pres ind pass 3rd pl\t\t\tconj3"
@@ -11047,6 +11794,22 @@
   "rorantia": [
     "P ro_rantia,roro  pres part neut nom/voc/acc pl\t\t\tconj1,are_vb"
   ],
+  "rosae": [
+    "P ro_sae,rodo  perf part pass fem nom/voc pl\t\t\tpp4",
+    "P ro_sae,rodo  perf part pass fem dat sg\t\t\tpp4",
+    "P ro_sae,rodo  perf part pass fem gen sg\t\t\tpp4",
+    "N rosa  fem nom/voc pl\t\t\ta_ae",
+    "N rosa  fem dat sg\t\t\ta_ae",
+    "N rosa  fem gen sg\t\t\ta_ae"
+  ],
+  "rosaeque": [
+    "P ro_sae,rodo  perf part pass fem nom/voc pl\t\t\tpp4",
+    "P ro_sae,rodo  perf part pass fem dat sg\t\t\tpp4",
+    "P ro_sae,rodo  perf part pass fem gen sg\t\t\tpp4",
+    "N rosae,rosa  fem nom/voc pl\t\t\ta_ae",
+    "N rosae,rosa  fem dat sg\t\t\ta_ae",
+    "N rosae,rosa  fem gen sg\t\t\ta_ae"
+  ],
   "rostro": [
     "N ro_stro_,rostrum  neut abl sg\t\t\tus_i",
     "N ro_stro_,rostrum  neut dat sg\t\t\tus_i"
@@ -11190,6 +11953,9 @@
   "saevit": [
     "V saevio  pres ind act 3rd sg\t\t\tconj4"
   ],
+  "saevos": [
+    "N saevo_s,saevus  masc acc pl\t\t\tus_a_um"
+  ],
   "sagitta": [
     "N sagitta_,sagitta  fem abl sg\t\t\ta_ae",
     "N sagitta  fem nom/voc sg\t\t\ta_ae",
@@ -11207,6 +11973,12 @@
   "salutem": [
     "N salu_tem,salus  fem acc sg\t\t\ts_tis",
     "V salu_tem,saluto  pres subj act 1st sg\t\t\tconj1,are_vb"
+  ],
+  "sana": [
+    "V sa_na_,sano  pres imperat act 2nd sg\t\t\tconj1,are_vb",
+    "N sa_na,sanus  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N sa_na_,sanus  fem abl sg\t\t\tus_a_um",
+    "N sa_na,sanus  fem nom/voc sg\t\t\tus_a_um"
   ],
   "sanabilis": [
     "N sa_na_bili_s,sanabilis  masc/fem acc pl\t\t\tis_e",
@@ -11334,6 +12106,10 @@
   "scitabere": [
     "V sci_ta_be_re,scitor  fut ind pass 2nd sg\t\t\tconj1,are_vb"
   ],
+  "sculpentes": [
+    "P sculpente_s,sculpo  pres part masc/fem acc pl\t\t\tconj3",
+    "P sculpente_s,sculpo  pres part masc/fem nom/voc pl\t\t\tconj3"
+  ],
   "scythiam": [],
   "se": [
     "N se_,sui  masc/fem abl pl\t\tindeclform\tpron3",
@@ -11391,6 +12167,17 @@
   "securior": [
     "N se_cu_rior,securus  masc/fem nom/voc comp sg\t\t\tus_a_um"
   ],
+  "securis": [
+    "N secu_ri_s,securis  fem acc pl\t\t\tis_is",
+    "N secu_ris,securis  fem gen sg\t\t\tis_is",
+    "N secu_ris,securis  fem nom sg\t\t\tis_is",
+    "N se_cu_ri_s,securus  neut dat pl\t\t\tus_a_um",
+    "N se_cu_ri_s,securus  neut abl pl\t\t\tus_a_um",
+    "N se_cu_ri_s,securus  masc dat pl\t\t\tus_a_um",
+    "N se_cu_ri_s,securus  fem dat pl\t\t\tus_a_um",
+    "N se_cu_ri_s,securus  fem abl pl\t\t\tus_a_um",
+    "N se_cu_ri_s,securus  masc abl pl\t\t\tus_a_um"
+  ],
   "sed": [
     "N sed \t\tindeclform\tconj"
   ],
@@ -11440,6 +12227,11 @@
     "N se_ducta,seductus  neut nom/voc/acc pl\t\t\tus_a_um",
     "N se_ducta,seductus  fem nom/voc sg\t\t\tus_a_um",
     "N se_ducta_,seductus  fem abl sg\t\t\tus_a_um"
+  ],
+  "sedula": [
+    "N se_dula,sedulus  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N se_dula_,sedulus  fem abl sg\t\t\tus_a_um",
+    "N se_dula,sedulus  fem nom/voc sg\t\t\tus_a_um"
   ],
   "segetes": [
     "N segete_s,seges  fem acc pl\t\t\ts_tis",
@@ -11569,6 +12361,16 @@
     "P serpenti_s,serpo  pres part masc/fem acc pl\t\t\tconj3",
     "P serpo  pres part masc/fem/neut gen sg\t\t\tconj3"
   ],
+  "serta": [
+    "P sero#2  perf part pass fem nom/voc sg\t\t\tpp4",
+    "P serta_,sero#2  perf part pass fem abl sg\t\t\tpp4",
+    "P sero#2  perf part pass neut nom/voc/acc pl\t\t\tpp4",
+    "N serta_,serta  fem abl sg\t\t\ta_ae",
+    "N serta  fem nom/voc sg\t\t\ta_ae",
+    "N serta  neut nom/voc/acc pl\t\t\tus_i",
+    "N sertaCampanica#2  fem nom/voc sg\t\t\ta_ae",
+    "N serta_,sertaCampanica#2  fem abl sg\t\t\ta_ae"
+  ],
   "servabant": [
     "V serva_bant,servo  imperf ind act 3rd pl\t\t\tconj1,are_vb"
   ],
@@ -11580,6 +12382,11 @@
   ],
   "servat": [
     "V servo  pres ind act 3rd sg\t\t\tconj1,are_vb"
+  ],
+  "servate": [
+    "V serva_te,servo  pres imperat act 2nd pl\t\t\tconj1,are_vb",
+    "P serva_te,servo  perf part pass neut voc sg\t\t\tpp4,are_vb",
+    "P serva_te,servo  perf part pass masc voc sg\t\t\tpp4,are_vb"
   ],
   "servit": [
     "V servio  pres ind act 3rd sg\t\t\tconj4"
@@ -11627,6 +12434,14 @@
   "signa": [
     "V signa_,signo  pres imperat act 2nd sg\t\t\tconj1,are_vb",
     "N signum  neut nom/voc/acc pl\t\t\tus_i"
+  ],
+  "signabitur": [
+    "V signa_bitur,signo  fut ind pass 3rd sg\t\t\tconj1,are_vb"
+  ],
+  "signare": [
+    "V signa_re,signo  pres imperat pass 2nd sg\t\t\tconj1,are_vb",
+    "V signa_re,signo  pres ind pass 2nd sg\t\t\tconj1,are_vb",
+    "V signa_re,signo  pres inf act\t\t\tconj1,are_vb"
   ],
   "signavit": [
     "V signa_vit,signo  perf ind act 3rd sg\t\t\tavperf,are_vb"
@@ -11692,6 +12507,13 @@
     "N similis  neut nom/voc/acc pl\t\tirreg_comp\tus_a_um",
     "N simillima_,similis  fem abl sg\t\tirreg_comp\tus_a_um",
     "N similis  fem nom/voc sg\t\tirreg_comp\tus_a_um"
+  ],
+  "simplicis": [
+    "N simplici_s,simplex  masc/fem acc pl\t\t\tex_icis_adj",
+    "N simplex  masc/fem/neut gen sg\t\t\tex_icis_adj"
+  ],
+  "simplicitas": [
+    "N simplicita_s,simplicitas  fem nom sg\t\t\ttas_tatis"
   ],
   "simul": [
     "N simul \t\tindeclform\tadverb"
@@ -11873,6 +12695,10 @@
     "V solvo  pres ind act 3rd sg\t\t\tconj3",
     "V solvo  perf ind act 3rd sg\t\t\tperfstem"
   ],
+  "somnia": [
+    "V somnia_,somnio  pres imperat act 2nd sg\t\t\tconj1,are_vb",
+    "N somnium  neut nom/voc/acc pl\t\t\tius_i"
+  ],
   "somniferam": [
     "N somnifer  fem acc sg\t\t\ter_era_erum"
   ],
@@ -11890,6 +12716,16 @@
   "sonitu": [
     "N sonitu_,sonitus  masc abl sg\t\t\tus_us",
     "N sonitu_,sono  supine neut dat sg\t\t\tpp4"
+  ],
+  "sonorum": [
+    "N sono_rum,sonor  masc gen pl\t\t\tor_oLris",
+    "N sono_rum,sonorus  neut nom sg\t\t\tus_a_um",
+    "N sono_rum,sonorus  masc acc sg\t\t\tus_a_um",
+    "N sono_rum,sonorus  neut nom/voc/acc sg\t\t\tus_a_um",
+    "N sono_ru_m,sonorus  neut gen pl\t\tpoetic\tus_a_um",
+    "N sono_ru_m,sonorus  masc gen pl\t\tpoetic\tus_a_um",
+    "N so_no_rum,sonus#2  masc gen pl\t\t\tus_a_um",
+    "N so_no_rum,sonus#2  neut gen pl\t\t\tus_a_um"
   ],
   "sonos": [
     "N so_no_s,sonus#2  masc acc pl\t\t\tus_a_um"
@@ -12127,12 +12963,28 @@
   "stirpe": [
     "N stirps  fem abl sg\t\t\ts_is"
   ],
+  "stirpes": [
+    "N stirpe_s,stirps  fem acc pl\t\t\ts_is",
+    "N stirps  fem nom/voc pl\t\t\ts_is",
+    "N stirpe_s,stirps  fem nom/voc pl\t\t\ts_is"
+  ],
   "stirpis": [
     "N stirpi_s,stirps  fem acc pl\t\t\ts_is",
     "N stirps  fem gen sg\t\t\ts_is"
   ],
   "stravimus": [
     "V stra_vimus,sterno  perf ind act 1st pl\t\t\tavperf"
+  ],
+  "stricto": [
+    "P stricto_,stringo  perf part pass neut abl sg\t\t\tpp4",
+    "P stricto_,stringo  perf part pass masc abl sg\t\t\tpp4",
+    "P stricto_,stringo  perf part pass neut dat sg\t\t\tpp4",
+    "P stricto_,stringo  perf part pass masc dat sg\t\t\tpp4"
+  ],
+  "stridula": [
+    "N stri_dula,stridulus  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N stri_dula_,stridulus  fem abl sg\t\t\tus_a_um",
+    "N stri_dula,stridulus  fem nom/voc sg\t\t\tus_a_um"
   ],
   "stringit": [
     "V stringo  pres ind act 3rd sg\t\t\tconj3"
@@ -12199,6 +13051,10 @@
     "N sua,suus  neut nom/voc/acc pl\t\t\tus_a_um",
     "N sua_,suus  fem abl sg\t\t\tus_a_um",
     "N sua,suus  fem nom/voc sg\t\t\tus_a_um"
+  ],
+  "suaves": [
+    "N sua_ve_s,suavis  masc/fem acc pl\t\t\tis_e",
+    "N sua_ve_s,suavis  masc/fem nom/voc pl\t\t\tis_e"
   ],
   "sub": [
     "N sub \t\tindeclform\tprep"
@@ -12504,6 +13360,9 @@
     "N supere,superus  masc voc sg\t\t\tus_a_um",
     "V supe_re,supo  pres subj pass 2nd sg\t\t\tconj1,are_vb"
   ],
+  "superet": [
+    "V supero  pres subj act 3rd sg\t\t\tconj1,are_vb"
+  ],
   "superi": [
     "N superi_,superus  masc nom/voc pl\t\t\tus_a_um",
     "N superi_,superus  neut gen sg\t\t\tus_a_um",
@@ -12569,6 +13428,10 @@
     "P suspicio#1  perf part pass neut nom sg\t\t\tpp4",
     "N suspicio#1  supine neut nom sg\t\t\tpp4"
   ],
+  "suspendit": [
+    "V suspendo  pres ind act 3rd sg\t\t\tconj3",
+    "V suspendo  perf ind act 3rd sg\t\t\tperfstem"
+  ],
   "suspirat": [
     "V suspi_rat,suspiro  pres ind act 3rd sg\t\t\tconj1,are_vb"
   ],
@@ -12577,6 +13440,10 @@
   ],
   "sustinet": [
     "V sustineo  pres ind act 3rd sg\t\t\tconj2"
+  ],
+  "susurros": [
+    "N susurro_s,susurrus#1  masc acc pl\t\t\tus_i",
+    "N susurro_s,susurrus#2  masc acc pl\t\t\tus_a_um"
   ],
   "suum": [
     "N suu_m,suum  neut gen pl\t\tpoetic\tus_i",
@@ -12598,6 +13465,10 @@
   ],
   "suus": [
     "N suus  masc nom sg\t\t\tus_a_um"
+  ],
+  "sylva": [
+    "N sylva_,silva  fem abl sg\t\t\ta_ae",
+    "N silva  fem nom/voc sg\t\t\ta_ae"
   ],
   "syringa": [],
   "tacui": [
@@ -12666,6 +13537,10 @@
     "N tantus \t\tindeclform\tadverb"
   ],
   "tartara": [],
+  "tauro": [
+    "N tauro_,taurus#1  masc abl sg\t\t\tus_i",
+    "N tauro_,taurus#1  masc dat sg\t\t\tus_i"
+  ],
   "te": [
     "N te_,tu  masc/fem abl sg\t\tindeclform\tpron2",
     "N te_,tu  masc/fem acc sg\t\tindeclform\tpron2"
@@ -12741,10 +13616,17 @@
     "N te_lo_,telum  neut abl sg\t\t\tus_i",
     "N te_lo_,telum  neut dat sg\t\t\tus_i"
   ],
+  "temer": [],
+  "temerant": [
+    "V temero  pres ind act 3rd pl\t\t\tconj1,are_vb"
+  ],
   "temeraria": [
     "N temera_ria,temerarius  neut nom/voc/acc pl\t\t\tius_ia_ium",
     "N temera_ria_,temerarius  fem abl sg\t\t\tius_ia_ium",
     "N temera_ria,temerarius  fem nom/voc sg\t\t\tius_ia_ium"
+  ],
+  "temeravero": [
+    "V temera_vero_,temero  futperf ind act 1st sg\t\t\tavperf,are_vb"
   ],
   "tempe": [],
   "temperat": [
@@ -12970,6 +13852,10 @@
     "N testis#1  masc/fem abl sg\t\t\tis_is",
     "N testis#2  masc abl sg\t\t\tis_is"
   ],
+  "testor": [
+    "V testo  pres ind pass 1st sg\t\t\tconj1,are_vb",
+    "V testor  pres ind pass 1st sg\t\t\tconj1,are_vb"
+  ],
   "tetigere": [
     "V tetige_re,tango  perf ind act 3rd pl\t\tpoetic\tperfstem"
   ],
@@ -12984,6 +13870,10 @@
   ],
   "themi": [],
   "themin": [],
+  "thymo": [
+    "N thymo_,thymum  neut abl sg\t\t\tus_i",
+    "N thymo_,thymum  neut dat sg\t\t\tus_i"
+  ],
   "tibi": [
     "N tu  masc/fem dat sg\t\tindeclform\tpron2"
   ],
@@ -12996,6 +13886,9 @@
   ],
   "timebat": [
     "V time_bat,timeo  imperf ind act 3rd sg\t\t\tconj2"
+  ],
+  "timeri": [
+    "V time_ri,timeo  pres inf pass\t\t\tconj2"
   ],
   "times": [
     "V time_s,timeo  pres ind act 2nd sg\t\t\tconj2"
@@ -13077,6 +13970,17 @@
   "tot": [
     "N tot \t\tindeclform\tindecl"
   ],
+  "tota": [
+    "N to_ta,totus#1  fem nom sg\t\t\tus_ius_adj",
+    "N to_ta,totus#1  fem nom/voc sg\t\t\tus_a_um",
+    "N to_ta,totus#1  neut nom/voc/acc pl\t\t\tus_ius_adj",
+    "N to_ta_,totus#1  fem abl sg\t\t\tus_ius_adj",
+    "N to_ta,totus#1  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N to_ta_,totus#1  fem abl sg\t\t\tus_a_um",
+    "N tota_,totus#2  fem abl sg\t\t\tus_a_um",
+    "N totus#2  fem nom/voc sg\t\t\tus_a_um",
+    "N totus#2  neut nom/voc/acc pl\t\t\tus_a_um"
+  ],
   "totas": [
     "N to_ta_s,totus#1  fem acc pl\t\t\tus_a_um",
     "N to_ta_s,totus#1  fem acc pl\t\t\tus_ius_adj",
@@ -13089,6 +13993,9 @@
     "N totidem,totidem \t\tindeclform\tadverb"
   ],
   "totiens": [
+    "N totiens \t\tindeclform\tadverb"
+  ],
+  "toties": [
     "N totiens \t\tindeclform\tadverb"
   ],
   "toto": [
@@ -13150,11 +14057,19 @@
   "traherent": [
     "V traho  imperf subj act 3rd pl\t\t\tconj3"
   ],
+  "trahunt": [
+    "V traho  pres ind act 3rd pl\t\t\tconj3"
+  ],
   "traiecta": [
     "P tra_jecta_,traicio  perf part pass fem abl sg\t\t\tpp4",
     "P tra_jecta,traicio  perf part pass neut nom/voc/acc pl\t\t\tpp4",
     "P tra_jecta,traicio  perf part pass fem nom/voc sg\t\t\tpp4",
     "V tra_jecta_,trajecto  pres imperat act 2nd sg\t\t\tconj1,are_vb"
+  ],
+  "tranquillae": [
+    "N tranquillus  fem nom/voc pl\t\t\tus_a_um",
+    "N tranquillus  fem dat sg\t\t\tus_a_um",
+    "N tranquillus  fem gen sg\t\t\tus_a_um"
   ],
   "transieram": [
     "V transeo  plup ind act 1st sg\t\traw_preverb\tperfstem"
@@ -13168,6 +14083,9 @@
   ],
   "traxit": [
     "V traho  perf ind act 3rd sg\t\t\tperfstem"
+  ],
+  "tremulos": [
+    "N tremulo_s,tremulus  masc acc pl\t\t\tus_a_um"
   ],
   "trepidante": [
     "P trepido  pres part masc/fem/neut abl sg\t\t\tconj1,are_vb"
@@ -13195,11 +14113,24 @@
     "N triumphu_m,triumphus  masc gen pl\t\tpoetic\tus_i",
     "N triumphus  masc acc sg\t\t\tus_i"
   ],
+  "truci": [
+    "N truci_,trux  dat sg\t\t\tx_cis"
+  ],
   "trunca": [
     "V trunca_,trunco  pres imperat act 2nd sg\t\t\tconj1,are_vb",
     "N truncus#1  neut nom/voc/acc pl\t\t\tus_a_um",
     "N trunca_,truncus#1  fem abl sg\t\t\tus_a_um",
     "N truncus#1  fem nom/voc sg\t\t\tus_a_um"
+  ],
+  "truncis": [
+    "N trunci_s,truncus#1  neut abl pl\t\t\tus_a_um",
+    "N trunci_s,truncus#1  fem abl pl\t\t\tus_a_um",
+    "N trunci_s,truncus#1  masc abl pl\t\t\tus_a_um",
+    "N trunci_s,truncus#1  neut dat pl\t\t\tus_a_um",
+    "N trunci_s,truncus#1  fem dat pl\t\t\tus_a_um",
+    "N trunci_s,truncus#1  masc dat pl\t\t\tus_a_um",
+    "N trunci_s,truncus#2  masc abl pl\t\t\tus_i",
+    "N trunci_s,truncus#2  masc dat pl\t\t\tus_i"
   ],
   "tu": [
     "N tu_,tu  masc/fem nom/voc sg\t\tindeclform\tpron2"
@@ -13321,6 +14252,10 @@
     "N tyranni_,tyrannus  masc nom/voc pl\t\t\tus_i",
     "N tyranni_,tyrannus  masc gen sg\t\t\tus_i"
   ],
+  "tyranno": [
+    "N tyranno_,tyrannus  masc abl sg\t\t\tus_i",
+    "N tyranno_,tyrannus  masc dat sg\t\t\tus_i"
+  ],
   "ubi": [
     "N ubi \t\tindeclform\tconj",
     "N ubi_,ubi \t\tindeclform\tadverb"
@@ -13370,6 +14305,9 @@
     "N ulmo_,ulmus  fem abl sg\t\t\tus_i",
     "N ulmo_,ulmus  fem dat sg\t\t\tus_i"
   ],
+  "ulmus": [
+    "N ulmus  fem nom sg\t\t\tus_i"
+  ],
   "ultima": [
     "N ulter  neut nom/voc/acc pl\t\tirreg_superl\tus_a_um",
     "N ultima_,ulter  fem abl sg\t\tirreg_superl\tus_a_um",
@@ -13387,6 +14325,11 @@
     "N ulter  fem nom/voc sg\t\t\ter_ra_rum",
     "N ultra_,ultra \t\tindeclform\tadverb",
     "N ultra_,ultra \t\tindeclform\tprep"
+  ],
+  "umbra": [
+    "N umbra_,umbra  fem abl sg\t\t\ta_ae",
+    "N umbra  fem nom/voc sg\t\t\ta_ae",
+    "V umbra_,umbro  pres imperat act 2nd sg\t\t\tconj1,are_vb"
   ],
   "umbram": [
     "N umbra  fem acc sg\t\t\ta_ae"
@@ -13500,6 +14443,9 @@
     "N u_no_,unus  masc/neut abl sg\t\t\tus_ius_adj",
     "N u_no_,unus  masc/neut dat sg\t\t\tus_ius_adj"
   ],
+  "unquam": [
+    "N umquam \t\tindeclform\tadverb"
+  ],
   "unum": [
     "N u_nu_m,unus  masc/neut gen pl\t\tpoetic\tus_ius_adj",
     "N u_num,unus  masc acc sg\t\t\tus_ius_adj",
@@ -13521,8 +14467,12 @@
   "uritur": [
     "V u_ritur,uro  pres ind pass 3rd sg\t\t\tconj3"
   ],
+  "us": [],
   "usquam": [
     "N usquam \t\tindeclform\tadverb"
+  ],
+  "usque": [
+    "N usque \t\tindeclform\tadverb"
   ],
   "ustus": [
     "P uro  perf part pass masc nom sg\t\t\tpp4"
@@ -13656,6 +14606,13 @@
     "N valvi_s,valva  fem dat pl\t\t\ta_ae",
     "N valvi_s,valvae  fem abl pl\t\t\ta_ae",
     "N valvi_s,valvae  fem dat pl\t\t\ta_ae"
+  ],
+  "vana": [
+    "V va_na_,vano  pres imperat act 2nd sg\t\t\tconj1,are_vb",
+    "N va_na,vanum  neut nom/voc/acc pl\t\t\tus_i",
+    "N va_na,vanus  neut nom/voc/acc pl\t\t\tus_a_um",
+    "N va_na_,vanus  fem abl sg\t\t\tus_a_um",
+    "N va_na,vanus  fem nom/voc sg\t\t\tus_a_um"
   ],
   "vapor": [
     "N vapor  masc nom/voc sg\t\t\tor_oLris"
@@ -13822,6 +14779,9 @@
     "P versa_,verto  perf part pass fem abl sg\t\t\tpp4",
     "P verto  perf part pass fem nom/voc sg\t\t\tpp4"
   ],
+  "versat": [
+    "V verso  pres ind act 3rd sg\t\t\tconj1,are_vb"
+  ],
   "versis": [
     "P versi_s,verro  perf part pass fem abl pl\t\t\tpp4",
     "P versi_s,verro  perf part pass masc abl pl\t\t\tpp4",
@@ -13885,6 +14845,11 @@
   "vestigia": [
     "N vesti_gia,vestigium  neut nom/voc/acc pl\t\t\tius_i"
   ],
+  "vestra": [
+    "N vester  neut nom/voc/acc pl\t\t\ter_ra_rum",
+    "N vestra_,vester  fem abl sg\t\t\ter_ra_rum",
+    "N vester  fem nom/voc sg\t\t\ter_ra_rum"
+  ],
   "vestras": [
     "N vestra_s,vester  fem acc pl\t\t\ter_ra_rum"
   ],
@@ -13895,6 +14860,9 @@
     "N vestri_s,vester  neut dat pl\t\t\ter_ra_rum",
     "N vestri_s,vester  fem dat pl\t\t\ter_ra_rum",
     "N vestri_s,vester  masc dat pl\t\t\ter_ra_rum"
+  ],
+  "vestros": [
+    "N vestro_s,vester  masc acc pl\t\t\ter_ra_rum"
   ],
   "vetat": [
     "V veto  pres ind act 3rd sg\t\t\tconj1"
@@ -13995,6 +14963,12 @@
   "videtque": [
     "V videt,video  pres ind act 3rd sg\t\t\tconj2"
   ],
+  "videtur": [
+    "V vide_tur,video  pres ind pass 3rd sg\t\t\tconj2"
+  ],
+  "vidi": [
+    "V vi_di_,video  perf ind act 1st sg\t\t\tperfstem"
+  ],
   "vidisse": [
     "V vi_disse,video  perf inf act\t\t\tperfstem"
   ],
@@ -14011,6 +14985,9 @@
   ],
   "villos": [
     "N villo_s,villus  masc acc pl\t\t\tus_i"
+  ],
+  "vincentem": [
+    "P vinco  pres part masc/fem acc sg\t\t\tconj3"
   ],
   "vincere": [
     "V vince_re,vinco  fut ind pass 2nd sg\t\t\tconj3",
@@ -14036,6 +15013,19 @@
   ],
   "vineta": [
     "N vi_ne_ta,vinetum  neut nom/voc/acc pl\t\t\tus_i"
+  ],
+  "violae": [
+    "N viola  fem nom/voc pl\t\t\ta_ae",
+    "N viola  fem dat sg\t\t\ta_ae",
+    "N viola  fem gen sg\t\t\ta_ae"
+  ],
+  "violaeque": [
+    "N violae,viola  fem nom/voc pl\t\t\ta_ae",
+    "N violae,viola  fem dat sg\t\t\ta_ae",
+    "N violae,viola  fem gen sg\t\t\ta_ae"
+  ],
+  "violasse": [
+    "V violo  perf inf act\t\tcontr\tavperf,are_vb"
   ],
   "violenta": [
     "N violentus  neut nom/voc/acc pl\t\t\tus_a_um",
@@ -14070,6 +15060,11 @@
   "virgamque": [
     "N virgam,virga  fem acc sg\t\t\ta_ae"
   ],
+  "virgineae": [
+    "N virgineus  fem nom/voc pl\t\t\tus_a_um",
+    "N virgineus  fem dat sg\t\t\tus_a_um",
+    "N virgineus  fem gen sg\t\t\tus_a_um"
+  ],
   "virginitate": [
     "N virginita_te,virginitas  fem abl sg\t\t\ttas_tatis"
   ],
@@ -14086,11 +15081,22 @@
     "N vi_ribus,vis  fem abl pl\t\tindeclform\tirreg_nom3",
     "N vi_ribus,vis  fem dat pl\t\tindeclform\tirreg_nom3"
   ],
+  "virides": [
+    "N viride_s,viridis  masc/fem acc pl\t\t\tis_e",
+    "N viride_s,viridis  masc/fem nom/voc pl\t\t\tis_e",
+    "V viride_s,virido  pres subj act 2nd sg\t\t\tconj1,are_vb"
+  ],
   "viridi": [
     "N viridi_,viride  neut abl sg\t\t\tis_is",
     "N viridi_,viride  neut dat sg\t\t\tis_is",
     "N viridi_,viridis  masc/fem/neut abl sg\t\t\tis_e",
     "N viridi_,viridis  masc/fem/neut dat sg\t\t\tis_e"
+  ],
+  "viridis": [
+    "N viride  neut gen sg\t\t\tis_is",
+    "N viridi_s,viridis  masc/fem acc pl\t\t\tis_e",
+    "N viridis  masc/fem/neut gen sg\t\t\tis_e",
+    "N viridis  masc/fem nom/voc sg\t\t\tis_e"
   ],
   "virorum": [
     "N viro_rum,vir  masc gen pl\t\t\t0_i",
@@ -14102,6 +15108,9 @@
   ],
   "virosque": [
     "N viro_s,vir  masc acc pl\t\t\t0_i"
+  ],
+  "virtus": [
+    "N virtu_s,virtus  fem nom sg\t\t\ts_tis"
   ],
   "virum": [
     "N viru_m,vir  masc gen pl\t\tpoetic\t0_i",
@@ -14203,6 +15212,9 @@
   "vocant": [
     "V voco  pres ind act 3rd pl\t\t\tconj1,are_vb"
   ],
+  "vocarit": [
+    "V voca_rit,voco  perf subj act 3rd sg\t\tcontr\tavperf,are_vb"
+  ],
   "vocat": [
     "V voco  pres ind act 3rd sg\t\t\tconj1,are_vb"
   ],
@@ -14215,6 +15227,11 @@
   "vocem": [
     "V voco  pres subj act 1st sg\t\t\tconj1,are_vb",
     "N vox  fem acc sg\t\t\tx_cis"
+  ],
+  "voces": [
+    "V voce_s,voco  pres subj act 2nd sg\t\t\tconj1,are_vb",
+    "N voce_s,vox  fem acc pl\t\t\tx_cis",
+    "N voce_s,vox  fem nom/voc pl\t\t\tx_cis"
   ],
   "vocis": [
     "N vox  fem gen sg\t\t\tx_cis"

@@ -1,0 +1,16 @@
+{
+  "musae":     ["musa", ["voc.pl.fem"]],
+  "apollo":    ["Apollo", ["voc.sg.masc"]],
+  "neaera":    ["Neaera", ["nom.sg.fem"]],
+  "chloe":     ["Chloe", ["nom.sg.fem"]],
+  "faustina":  ["Faustina", ["nom.sg.fem"]],
+  "corynna":   ["Corynna", ["nom.sg.fem"]],
+  "arbos":     ["arbor", ["nom.sg.fem"]],
+  "cytherea":  ["Cytherea", ["nom.sg.fem"]],
+  "jupiter":   ["iuppiter", ["nom.sg.masc"]],
+  "juno":      ["iuno", ["nom.sg.fem"]],
+  "lemniacum": ["Lemniacus", ["acc.sg.neut"]],
+  "mavors":    ["Mavors", ["nom.sg.masc"]],
+  "forcipe":   ["forceps", ["abl.sg.fem"]],
+  "horologo":  ["horologium", ["abl.sg.neut"]]
+}

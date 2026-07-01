@@ -187,3 +187,37 @@ test('CorrespondencesSchema rejects malformed mapping ranges', () => {
     pairs: [{ source: 'latin', target: 'english', mappings: [{ source: [5, 1], target: [1, 1] }] }],
   }).success);
 });
+
+// Asymmetric correspondences (Marvell: parallel-but-independent poems).
+const asymmetricPair = (mapping) => ({
+  ...correspondences,
+  pairs: [{ source: 'latin', target: 'english', mappings: [mapping] }],
+});
+test('CorrespondencesSchema accepts a target-only mapping (source null)', () => {
+  assert.ok(CorrespondencesSchema.safeParse(
+    asymmetricPair({ source: null, target: [33, 40], kind: 'target-only' })
+  ).success);
+});
+test('CorrespondencesSchema accepts a source-only mapping (target omitted)', () => {
+  assert.ok(CorrespondencesSchema.safeParse(
+    asymmetricPair({ source: [16, 19], kind: 'source-only' })
+  ).success);
+});
+test('CorrespondencesSchema rejects a mapping with neither side', () => {
+  assert.ok(!CorrespondencesSchema.safeParse(
+    asymmetricPair({ source: null, target: null })
+  ).success);
+});
+test('CorrespondencesSchema requires a note on a lacuna mapping', () => {
+  assert.ok(!CorrespondencesSchema.safeParse(
+    asymmetricPair({ target: [33, 64], kind: 'lacuna' })
+  ).success);
+  assert.ok(CorrespondencesSchema.safeParse(
+    asymmetricPair({ target: [33, 64], kind: 'lacuna', note: 'Desunt multa' })
+  ).success);
+});
+test('CorrespondencesSchema rejects an unknown mapping kind', () => {
+  assert.ok(!CorrespondencesSchema.safeParse(
+    asymmetricPair({ source: [1, 6], target: [1, 8], kind: 'facing' })
+  ).success);
+});

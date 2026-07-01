@@ -1,0 +1,54 @@
+{
+  "id": "malignus_adj",
+  "lemma": "malignus",
+  "pos": "adj",
+  "glosses": [
+    "spiteful, grudging",
+    "stingy, scanty, barren"
+  ],
+  "head": "malignus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "malignus",
+      "gen.sg.masc": "maligni",
+      "dat.sg.masc": "maligno",
+      "gen.sg.fem": "malignae",
+      "dat.sg.fem": "malignae",
+      "nom.sg.neut": "malignum",
+      "gen.sg.neut": "maligni",
+      "dat.sg.neut": "maligno",
+      "acc.sg.neut": "malignum",
+      "acc.sg.masc": "malignum",
+      "abl.sg.masc": "maligno",
+      "nom.pl.masc": "maligni",
+      "gen.pl.masc": "malignorum",
+      "acc.pl.masc": "malignos",
+      "nom.sg.fem": "maligna",
+      "acc.sg.fem": "malignam",
+      "abl.sg.fem": "maligna",
+      "nom.pl.fem": "malignae",
+      "gen.pl.fem": "malignarum",
+      "acc.pl.fem": "malignas",
+      "abl.sg.neut": "maligno",
+      "nom.pl.neut": "maligna",
+      "gen.pl.neut": "malignorum",
+      "acc.pl.neut": "maligna"
+    }
+  }
+}

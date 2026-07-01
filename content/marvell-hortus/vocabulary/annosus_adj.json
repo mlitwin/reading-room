@@ -1,0 +1,53 @@
+{
+  "id": "annosus_adj",
+  "lemma": "annosus",
+  "pos": "adj",
+  "glosses": [
+    "full of years, aged, old"
+  ],
+  "head": "annosus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "annosus",
+      "gen.sg.masc": "annosi",
+      "dat.sg.masc": "annoso",
+      "gen.sg.fem": "annosae",
+      "dat.sg.fem": "annosae",
+      "nom.sg.neut": "annosum",
+      "gen.sg.neut": "annosi",
+      "dat.sg.neut": "annoso",
+      "acc.sg.neut": "annosum",
+      "acc.sg.masc": "annosum",
+      "abl.sg.masc": "annoso",
+      "nom.pl.masc": "annosi",
+      "gen.pl.masc": "annosorum",
+      "acc.pl.masc": "annosos",
+      "nom.sg.fem": "annosa",
+      "acc.sg.fem": "annosam",
+      "abl.sg.fem": "annosa",
+      "nom.pl.fem": "annosae",
+      "gen.pl.fem": "annosarum",
+      "acc.pl.fem": "annosas",
+      "abl.sg.neut": "annoso",
+      "nom.pl.neut": "annosa",
+      "gen.pl.neut": "annosorum",
+      "acc.pl.neut": "annosa"
+    }
+  }
+}

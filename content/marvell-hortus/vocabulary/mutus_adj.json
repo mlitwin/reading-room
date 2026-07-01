@@ -1,0 +1,53 @@
+{
+  "id": "mutus_adj",
+  "lemma": "mutus",
+  "pos": "adj",
+  "glosses": [
+    "dumb, mute, silent, speechless"
+  ],
+  "head": "mutus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "mutus",
+      "gen.sg.masc": "muti",
+      "dat.sg.masc": "muto",
+      "gen.sg.fem": "mutae",
+      "dat.sg.fem": "mutae",
+      "nom.sg.neut": "mutum",
+      "gen.sg.neut": "muti",
+      "dat.sg.neut": "muto",
+      "acc.sg.neut": "mutum",
+      "acc.sg.masc": "mutum",
+      "abl.sg.masc": "muto",
+      "nom.pl.masc": "muti",
+      "gen.pl.masc": "mutorum",
+      "acc.pl.masc": "mutos",
+      "nom.sg.fem": "muta",
+      "acc.sg.fem": "mutam",
+      "abl.sg.fem": "muta",
+      "nom.pl.fem": "mutae",
+      "gen.pl.fem": "mutarum",
+      "acc.pl.fem": "mutas",
+      "abl.sg.neut": "muto",
+      "nom.pl.neut": "muta",
+      "gen.pl.neut": "mutorum",
+      "acc.pl.neut": "muta"
+    }
+  }
+}

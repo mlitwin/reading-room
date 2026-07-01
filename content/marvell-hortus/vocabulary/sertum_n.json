@@ -1,0 +1,36 @@
+{
+  "id": "sertum_n",
+  "lemma": "sertum",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "garland, wreath, festoon"
+  ],
+  "head": "sertum, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "sertum",
+      "gen.sg": "serti",
+      "acc.sg": "sertum",
+      "dat.sg": "serto",
+      "abl.sg": "serto",
+      "gen.pl": "sertorum",
+      "dat.pl": "sertis",
+      "abl.pl": "sertis",
+      "nom.pl": "serta",
+      "acc.pl": "serta"
+    }
+  }
+}

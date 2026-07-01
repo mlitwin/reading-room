@@ -1,0 +1,37 @@
+{
+  "id": "cubile_n",
+  "lemma": "cubile",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "bed, couch",
+    "marriage-bed, lair"
+  ],
+  "head": "cubile, -is, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "cubili",
+      "acc.sg": "cubile",
+      "nom.pl": "cubilia",
+      "gen.pl": "cubilium",
+      "acc.pl": "cubilia",
+      "nom.sg": "cubile",
+      "gen.sg": "cubilis",
+      "dat.sg": "cubili",
+      "dat.pl": "cubilibus",
+      "abl.pl": "cubilibus"
+    }
+  }
+}

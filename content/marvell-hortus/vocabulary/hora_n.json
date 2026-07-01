@@ -1,0 +1,37 @@
+{
+  "id": "hora_n",
+  "lemma": "hora",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "hour",
+    "time, season"
+  ],
+  "head": "hora, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "hora",
+      "gen.sg": "horae",
+      "abl.sg": "hora",
+      "acc.sg": "horam",
+      "dat.sg": "horae",
+      "nom.pl": "horae",
+      "gen.pl": "horarum",
+      "dat.pl": "horis",
+      "abl.pl": "horis",
+      "acc.pl": "horas"
+    }
+  }
+}

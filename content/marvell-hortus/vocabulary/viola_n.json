@@ -1,0 +1,37 @@
+{
+  "id": "viola_n",
+  "lemma": "viola",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "violet",
+    "stock, gillyflower"
+  ],
+  "head": "viola, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "viola",
+      "gen.sg": "violae",
+      "abl.sg": "viola",
+      "acc.sg": "violam",
+      "dat.sg": "violae",
+      "nom.pl": "violae",
+      "gen.pl": "violarum",
+      "dat.pl": "violis",
+      "abl.pl": "violis",
+      "acc.pl": "violas"
+    }
+  }
+}

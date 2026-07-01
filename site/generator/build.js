@@ -859,8 +859,54 @@ function renderLibraryListHtml(entries) {
   }).join('\n');
 }
 
+// Collect every per-book vocabulary/ overlay card, keyed by id. These are the
+// text-specific lemmas (e.g. Marvell's Hortus vocabulary) that aren't in the
+// shared consolidated lexicon; they must reach the runtime lexicon asset so
+// their popovers render.
+// The runtime lexicon asset (docs/assets/lexicon.json) is a single global
+// id→card map — there is no per-book namespace at runtime. Two books that
+// define the same id would otherwise collide silently (last-writer-wins,
+// filesystem-order-dependent), and a book's card can shadow a shared-lexicon
+// card for *every* page. To keep the flat map sound we require overlay ids to
+// be globally consistent: an id may be defined by at most one book (unless the
+// definitions are byte-identical), and must not shadow a *different* shared
+// card. Genuinely shared vocabulary should be promoted into the consolidated
+// lexicon rather than duplicated per book.
+async function collectVocabularyOverlays(sharedLexicon) {
+  const out = {};
+  const source = {};   // id → "book/vocabulary/file.json" (for error messages)
+  const entries = await fs.readdir(CONTENT_DIR, { withFileTypes: true });
+  for (const entry of entries) {
+    if (!entry.isDirectory() || entry.name.startsWith('_')) continue;
+    const vocabDir = path.join(CONTENT_DIR, entry.name, 'vocabulary');
+    if (!(await fileExists(vocabDir))) continue;
+    for (const f of await fs.readdir(vocabDir, { withFileTypes: true })) {
+      if (!f.isFile() || !f.name.endsWith('.json')) continue;
+      const rel = `${entry.name}/vocabulary/${f.name}`;
+      const raw = await fs.readFile(path.join(vocabDir, f.name), 'utf8');
+      let card;
+      try {
+        card = JSON.parse(raw);
+      } catch (err) {
+        throw new Error(`${rel}: invalid JSON — ${err.message}`);
+      }
+      const id = card.id || f.name.replace(/\.json$/, '');
+      if (out[id] && JSON.stringify(out[id]) !== raw && JSON.stringify(out[id]) !== JSON.stringify(card)) {
+        throw new Error(`vocabulary id collision: "${id}" is defined differently by ${source[id]} and ${rel}. Overlay ids share one global namespace — rename one or promote the lemma to the shared lexicon.`);
+      }
+      if (sharedLexicon && sharedLexicon[id] && JSON.stringify(sharedLexicon[id]) !== JSON.stringify(card)) {
+        throw new Error(`vocabulary id "${id}" (${rel}) shadows a different shared-lexicon entry. The runtime lexicon is a single flat map, so this override would leak into every book — rename it or edit the shared lexicon instead.`);
+      }
+      out[id] = card;
+      source[id] = rel;
+    }
+  }
+  return out;
+}
+
 async function buildLexiconJson() {
-  const lexicon = await loadSharedLexicon();
+  const shared = await loadSharedLexicon();
+  const lexicon = { ...shared, ...(await collectVocabularyOverlays(shared)) };
   const json = JSON.stringify(lexicon);
   // lexicon.json — consumed by fetch() on the web
   await fs.writeFile(path.join(DOCS_DIR, 'assets', 'lexicon.json'), json + '\n');

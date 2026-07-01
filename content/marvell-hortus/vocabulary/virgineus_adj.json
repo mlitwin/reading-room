@@ -1,0 +1,53 @@
+{
+  "id": "virgineus_adj",
+  "lemma": "virgineus",
+  "pos": "adj",
+  "glosses": [
+    "maidenly, of a maiden, virgin"
+  ],
+  "head": "virgineus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "virgineus",
+      "gen.sg.masc": "virginei",
+      "dat.sg.masc": "virgineo",
+      "gen.sg.fem": "virgineae",
+      "dat.sg.fem": "virgineae",
+      "nom.sg.neut": "virgineum",
+      "gen.sg.neut": "virginei",
+      "dat.sg.neut": "virgineo",
+      "acc.sg.neut": "virgineum",
+      "acc.sg.masc": "virgineum",
+      "abl.sg.masc": "virgineo",
+      "nom.pl.masc": "virginei",
+      "gen.pl.masc": "virgineorum",
+      "acc.pl.masc": "virgineos",
+      "nom.sg.fem": "virginea",
+      "acc.sg.fem": "virgineam",
+      "abl.sg.fem": "virginea",
+      "nom.pl.fem": "virgineae",
+      "gen.pl.fem": "virginearum",
+      "acc.pl.fem": "virgineas",
+      "abl.sg.neut": "virgineo",
+      "nom.pl.neut": "virginea",
+      "gen.pl.neut": "virgineorum",
+      "acc.pl.neut": "virginea"
+    }
+  }
+}

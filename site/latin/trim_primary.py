@@ -23,6 +23,21 @@ CODE_LITERAL_TO_POS = {
 }
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SHARED_LEXICON = REPO_ROOT / 'content' / '_latin-lexicon'
+# Phase-2 consolidated lexicon — the source of truth build.js resolves against.
+# When present it supersedes the sparse per-lemma _latin-lexicon/ files, so the
+# span tool and the site builder agree on what lemma IDs exist.
+CONSOLIDATED_LEXICON = REPO_ROOT / 'content' / '_language' / 'latin' / 'lexicon.json'
+
+
+def _load_consolidated():
+    """Return doc.lemmata list from the consolidated lexicon, or None."""
+    if not CONSOLIDATED_LEXICON.exists():
+        return None
+    try:
+        doc = json.loads(CONSOLIDATED_LEXICON.read_text(encoding='utf-8'))
+    except json.JSONDecodeError:
+        return None
+    return doc.get('lemmata', [])
 
 
 def load_lexicon_pos():
@@ -33,6 +48,12 @@ def load_lexicon_pos():
     IDs.  The stem fallback ensures old un-migrated entries still work.
     """
     out = {}
+    lemmata = _load_consolidated()
+    if lemmata is not None:
+        for e in lemmata:
+            if e.get('pos'):
+                out[e.get('id')] = e['pos']
+        return out
     if not SHARED_LEXICON.exists():
         return out
     for path in SHARED_LEXICON.glob('*.json'):
@@ -56,6 +77,16 @@ def load_stem_to_ids():
     """
     from collections import defaultdict
     out = defaultdict(list)
+    lemmata = _load_consolidated()
+    if lemmata is not None:
+        # Key on the entry's `lemma` (the Morpheus surface-form stem), mapping to
+        # its stable id. Mirrors the legacy filename-stem behaviour.
+        for e in lemmata:
+            stem = e.get('lemma')
+            eid = e.get('id')
+            if stem and eid:
+                out[stem].append(eid)
+        return dict(out)
     if not SHARED_LEXICON.exists():
         return dict(out)
     for path in SHARED_LEXICON.glob('*.json'):

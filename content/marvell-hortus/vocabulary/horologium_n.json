@@ -1,0 +1,36 @@
+{
+  "id": "horologium_n",
+  "lemma": "horologium",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "sundial, clock, timepiece"
+  ],
+  "head": "horologium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "horologium",
+      "gen.sg": "horologii",
+      "acc.sg": "horologium",
+      "dat.sg": "horologio",
+      "abl.sg": "horologio",
+      "gen.pl": "horologiorum",
+      "dat.pl": "horologiis",
+      "abl.pl": "horologiis",
+      "nom.pl": "horologia",
+      "acc.pl": "horologia"
+    }
+  }
+}

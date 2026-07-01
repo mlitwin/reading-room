@@ -1,0 +1,37 @@
+{
+  "id": "somnium_n",
+  "lemma": "somnium",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "dream",
+    "fancy, idle fancy"
+  ],
+  "head": "somnium, -i, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "somnium",
+      "gen.sg": "somnii",
+      "acc.sg": "somnium",
+      "dat.sg": "somnio",
+      "abl.sg": "somnio",
+      "gen.pl": "somniorum",
+      "dat.pl": "somniis",
+      "abl.pl": "somniis",
+      "nom.pl": "somnia",
+      "acc.pl": "somnia"
+    }
+  }
+}

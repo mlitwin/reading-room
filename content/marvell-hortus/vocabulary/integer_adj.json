@@ -1,0 +1,54 @@
+{
+  "id": "integer_adj",
+  "lemma": "integer",
+  "pos": "adj",
+  "glosses": [
+    "whole, entire, untouched",
+    "fresh, undivided"
+  ],
+  "head": "integer, -gra, -grum",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "integer",
+      "gen.sg.masc": "integri",
+      "dat.sg.masc": "integro",
+      "gen.sg.fem": "integrae",
+      "dat.sg.fem": "integrae",
+      "nom.sg.neut": "integrum",
+      "gen.sg.neut": "integri",
+      "dat.sg.neut": "integro",
+      "acc.sg.neut": "integrum",
+      "acc.sg.masc": "integrum",
+      "abl.sg.masc": "integro",
+      "nom.pl.masc": "integri",
+      "gen.pl.masc": "integrorum",
+      "acc.pl.masc": "integros",
+      "nom.sg.fem": "integra",
+      "acc.sg.fem": "integram",
+      "abl.sg.fem": "integra",
+      "nom.pl.fem": "integrae",
+      "gen.pl.fem": "integrarum",
+      "acc.pl.fem": "integras",
+      "abl.sg.neut": "integro",
+      "nom.pl.neut": "integra",
+      "gen.pl.neut": "integrorum",
+      "acc.pl.neut": "integra"
+    }
+  }
+}

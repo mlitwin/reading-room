@@ -1,0 +1,33 @@
+{
+  "id": "enervis_adj",
+  "lemma": "enervis",
+  "pos": "adj",
+  "glosses": [
+    "nerveless, weak, feeble"
+  ],
+  "head": "enervis, -e",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.neut": "enerve",
+      "acc.sg.neut": "enerve",
+      "nom.pl.neut": "enervia",
+      "acc.pl.neut": "enervia"
+    }
+  }
+}

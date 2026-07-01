@@ -1,0 +1,54 @@
+{
+  "id": "candidus_adj",
+  "lemma": "candidus",
+  "pos": "adj",
+  "glosses": [
+    "shining white, bright",
+    "fair, radiant, beautiful"
+  ],
+  "head": "candidus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "candidus",
+      "gen.sg.masc": "candidi",
+      "dat.sg.masc": "candido",
+      "gen.sg.fem": "candidae",
+      "dat.sg.fem": "candidae",
+      "nom.sg.neut": "candidum",
+      "gen.sg.neut": "candidi",
+      "dat.sg.neut": "candido",
+      "acc.sg.neut": "candidum",
+      "acc.sg.masc": "candidum",
+      "abl.sg.masc": "candido",
+      "nom.pl.masc": "candidi",
+      "gen.pl.masc": "candidorum",
+      "acc.pl.masc": "candidos",
+      "nom.sg.fem": "candida",
+      "acc.sg.fem": "candidam",
+      "abl.sg.fem": "candida",
+      "nom.pl.fem": "candidae",
+      "gen.pl.fem": "candidarum",
+      "acc.pl.fem": "candidas",
+      "abl.sg.neut": "candido",
+      "nom.pl.neut": "candida",
+      "gen.pl.neut": "candidorum",
+      "acc.pl.neut": "candida"
+    }
+  }
+}

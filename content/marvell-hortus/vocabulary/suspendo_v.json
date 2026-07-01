@@ -1,0 +1,114 @@
+{
+  "id": "suspendo_v",
+  "lemma": "suspendo",
+  "pos": "verb",
+  "glosses": [
+    "to hang up, suspend",
+    "to keep in suspense, captivate"
+  ],
+  "head": "suspendo, -ere, -pendi, -pensum",
+  "principal_parts": [
+    "suspendo",
+    "suspendere",
+    "suspendi",
+    "suspensum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "suspendis",
+      "3sg.pres.ind.act": "suspendit",
+      "1pl.pres.ind.act": "suspendimus",
+      "2pl.pres.ind.act": "suspenditis",
+      "2sg.pres.ind.pass": "suspenderis",
+      "3sg.pres.ind.pass": "suspenditur",
+      "1sg.imperf.subj.act": "suspenderem",
+      "2sg.imperf.subj.act": "suspenderes",
+      "3sg.imperf.subj.act": "suspenderet",
+      "1pl.imperf.subj.act": "suspenderemus",
+      "2pl.imperf.subj.act": "suspenderetis",
+      "3pl.imperf.subj.act": "suspenderent",
+      "2sg.pres.imp.act": "suspende",
+      "2pl.pres.imp.act": "suspendite",
+      "1sg.perf.ind.act": "suspendi",
+      "2sg.perf.ind.act": "suspendisti",
+      "3sg.perf.ind.act": "suspendit",
+      "1pl.perf.ind.act": "suspendimus",
+      "2pl.perf.ind.act": "suspendistis",
+      "3pl.perf.ind.act": "suspenderunt"
+    }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: suspensus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "suspensus",
+      "ppp.nom.sg.fem": "suspensa",
+      "ppp.nom.sg.neut": "suspensum",
+      "ppp.gen.sg.masc": "suspensi",
+      "ppp.gen.sg.fem": "suspensae",
+      "ppp.gen.sg.neut": "suspensi",
+      "ppp.dat.sg.masc": "suspenso",
+      "ppp.dat.sg.fem": "suspensae",
+      "ppp.dat.sg.neut": "suspenso",
+      "ppp.acc.sg.masc": "suspensum",
+      "ppp.acc.sg.fem": "suspensam",
+      "ppp.acc.sg.neut": "suspensum",
+      "ppp.abl.sg.masc": "suspenso",
+      "ppp.abl.sg.fem": "suspensa",
+      "ppp.abl.sg.neut": "suspenso",
+      "ppp.voc.sg.masc": "suspense",
+      "ppp.voc.sg.fem": "suspensa",
+      "ppp.voc.sg.neut": "suspensum",
+      "ppp.nom.pl.masc": "suspensi",
+      "ppp.nom.pl.fem": "suspensae",
+      "ppp.nom.pl.neut": "suspensa",
+      "ppp.gen.pl.masc": "suspensorum",
+      "ppp.gen.pl.fem": "suspensarum",
+      "ppp.gen.pl.neut": "suspensorum",
+      "ppp.dat.pl.masc": "suspensis",
+      "ppp.dat.pl.fem": "suspensis",
+      "ppp.dat.pl.neut": "suspensis",
+      "ppp.acc.pl.masc": "suspensos",
+      "ppp.acc.pl.fem": "suspensas",
+      "ppp.acc.pl.neut": "suspensa",
+      "ppp.abl.pl.masc": "suspensis",
+      "ppp.abl.pl.fem": "suspensis",
+      "ppp.abl.pl.neut": "suspensis",
+      "ppp.voc.pl.masc": "suspensi",
+      "ppp.voc.pl.fem": "suspensae",
+      "ppp.voc.pl.neut": "suspensa"
+    }
+  }
+}

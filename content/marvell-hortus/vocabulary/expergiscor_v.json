@@ -1,0 +1,54 @@
+{
+  "id": "expergiscor_v",
+  "lemma": "expergiscor",
+  "pos": "verb",
+  "glosses": [
+    "to wake up, awaken, rouse oneself"
+  ],
+  "head": "expergiscor, -gisci, -perrectus sum",
+  "principal_parts": [
+    "expergiscor",
+    "expergisci",
+    "experrectus sum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "expergiscis",
+      "3sg.pres.ind.act": "expergiscit",
+      "1pl.pres.ind.act": "expergiscimus",
+      "2pl.pres.ind.act": "expergiscitis",
+      "2sg.pres.ind.pass": "expergisceris",
+      "3sg.pres.ind.pass": "expergiscitur",
+      "1sg.imperf.subj.act": "expergiscerem",
+      "2sg.imperf.subj.act": "expergisceres",
+      "3sg.imperf.subj.act": "expergisceret",
+      "1pl.imperf.subj.act": "expergisceremus",
+      "2pl.imperf.subj.act": "expergisceretis",
+      "3pl.imperf.subj.act": "expergiscerent",
+      "2sg.pres.imp.act": "expergisce",
+      "2pl.pres.imp.act": "expergiscite",
+      "1sg.perf.ind.act": "-i",
+      "2sg.perf.ind.act": "-isti",
+      "3sg.perf.ind.act": "-it",
+      "1pl.perf.ind.act": "-imus",
+      "2pl.perf.ind.act": "-istis",
+      "3pl.perf.ind.act": "-erunt"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "opacus_adj",
+  "lemma": "opacus",
+  "pos": "adj",
+  "glosses": [
+    "shady, shaded",
+    "dark, obscure"
+  ],
+  "head": "opacus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "opacus",
+      "gen.sg.masc": "opaci",
+      "dat.sg.masc": "opaco",
+      "gen.sg.fem": "opacae",
+      "dat.sg.fem": "opacae",
+      "nom.sg.neut": "opacum",
+      "gen.sg.neut": "opaci",
+      "dat.sg.neut": "opaco",
+      "acc.sg.neut": "opacum",
+      "acc.sg.masc": "opacum",
+      "abl.sg.masc": "opaco",
+      "nom.pl.masc": "opaci",
+      "gen.pl.masc": "opacorum",
+      "acc.pl.masc": "opacos",
+      "nom.sg.fem": "opaca",
+      "acc.sg.fem": "opacam",
+      "abl.sg.fem": "opaca",
+      "nom.pl.fem": "opacae",
+      "gen.pl.fem": "opacarum",
+      "acc.pl.fem": "opacas",
+      "abl.sg.neut": "opaco",
+      "nom.pl.neut": "opaca",
+      "gen.pl.neut": "opacorum",
+      "acc.pl.neut": "opaca"
+    }
+  }
+}

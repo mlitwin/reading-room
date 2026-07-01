@@ -13,6 +13,7 @@ install:
 # (validate, build) keep reading from content/{text_slug}/book*.md.
 manuscript-md:
 	cd site/generator && node build-manuscript-md.js --text=ovid-metamorphoses --out=../../content/ovid-metamorphoses
+	cd site/generator && node build-manuscript-md.js --text=marvell-hortus --out=../../content/marvell-hortus
 
 # build runs manuscript-md (regenerate markdown from JSON) before validate
 # (any error-severity invariant aborts the build). Warnings (the editorial

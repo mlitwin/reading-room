@@ -1,0 +1,36 @@
+{
+  "id": "apis_n",
+  "lemma": "apis",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "bee"
+  ],
+  "head": "apis, -is, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "abl.sg": "api",
+      "acc.sg": "apem",
+      "nom.pl": "apis",
+      "gen.pl": "apium",
+      "acc.pl": "apis",
+      "nom.sg": "apis",
+      "gen.sg": "apis",
+      "dat.sg": "api",
+      "dat.pl": "apibus",
+      "abl.pl": "apibus"
+    }
+  }
+}

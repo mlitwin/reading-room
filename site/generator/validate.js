@@ -24,20 +24,24 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 
+import { readdir } from 'node:fs/promises';
+
 import { runSuite, formatReport } from './validate/runner.js';
 import { grammarInvariants } from './validate/grammar.invariants.js';
 import { lexiconInvariants } from './validate/lexicon.invariants.js';
 import { glossaryInvariants } from './validate/glossary.invariants.js';
 import { concordanceInvariants } from './validate/concordance.invariants.js';
 import { referenceGrammarInvariants } from './validate/reference-grammar.invariants.js';
+import { vocabularyInvariants } from './validate/vocabulary.invariants.js';
 import { buildGlossary } from './build-glossary.js';
 import { buildConcordance } from './build-concordance.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..');
 const LANG_DIR = join(REPO_ROOT, 'content', '_language', 'latin');
+const CONTENT_DIR = join(REPO_ROOT, 'content');
 
-const SUITE_ORDER = ['grammar', 'lexicon', 'glossary', 'concordance', 'reference'];
+const SUITE_ORDER = ['grammar', 'lexicon', 'glossary', 'concordance', 'reference', 'vocabulary'];
 
 const SUITES = {
   grammar: { invariants: grammarInvariants, needs: [] },
@@ -45,7 +49,38 @@ const SUITES = {
   glossary: { invariants: glossaryInvariants, needs: ['grammar', 'lexicon'] },
   concordance: { invariants: concordanceInvariants, needs: ['grammar', 'glossary', 'lexicon'] },
   reference: { invariants: referenceGrammarInvariants, needs: ['grammar'] },
+  vocabulary: { invariants: vocabularyInvariants, needs: ['lexicon'] },
 };
+
+// Collect per-book vocabulary/ overlay cards as Array<{ id, book, rel, card }>.
+// Mirrors build.js's collectVocabularyOverlays, but only gathers — the V*
+// invariants do the checking.
+async function collectVocabularyOverlays() {
+  const out = [];
+  let entries;
+  try {
+    entries = await readdir(CONTENT_DIR, { withFileTypes: true });
+  } catch {
+    return out;
+  }
+  for (const entry of entries) {
+    if (!entry.isDirectory() || entry.name.startsWith('_')) continue;
+    const vocabDir = join(CONTENT_DIR, entry.name, 'vocabulary');
+    let files;
+    try {
+      files = await readdir(vocabDir, { withFileTypes: true });
+    } catch {
+      continue;
+    }
+    for (const f of files) {
+      if (!f.isFile() || !f.name.endsWith('.json')) continue;
+      const rel = `${entry.name}/vocabulary/${f.name}`;
+      const card = await loadJson(join(vocabDir, f.name));
+      out.push({ id: card.id || f.name.replace(/\.json$/, ''), book: entry.name, rel, card });
+    }
+  }
+  return out;
+}
 
 const CANONICAL_PATHS = {
   grammar: join(LANG_DIR, 'grammar.json'),
@@ -127,7 +162,9 @@ async function runOne(suiteName, values, sharedCtx) {
   // The data under test for this suite.
   const data = values.data
     ? await loadJson(values.data)
-    : await loadOrDerive(suiteName, textSlug, null, sharedCtx.lexicon);
+    : suiteName === 'vocabulary'
+      ? await collectVocabularyOverlays()
+      : await loadOrDerive(suiteName, textSlug, null, sharedCtx.lexicon);
 
   if (suiteName === 'concordance') {
     try {

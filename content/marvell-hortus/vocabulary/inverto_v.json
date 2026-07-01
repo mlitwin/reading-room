@@ -1,0 +1,113 @@
+{
+  "id": "inverto_v",
+  "lemma": "inverto",
+  "pos": "verb",
+  "glosses": [
+    "to turn upside down, invert, reverse"
+  ],
+  "head": "inverto, -ere, -verti, -versum",
+  "principal_parts": [
+    "inverto",
+    "invertere",
+    "inverti",
+    "inversum"
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "invertis",
+      "3sg.pres.ind.act": "invertit",
+      "1pl.pres.ind.act": "invertimus",
+      "2pl.pres.ind.act": "invertitis",
+      "2sg.pres.ind.pass": "inverteris",
+      "3sg.pres.ind.pass": "invertitur",
+      "1sg.imperf.subj.act": "inverterem",
+      "2sg.imperf.subj.act": "inverteres",
+      "3sg.imperf.subj.act": "inverteret",
+      "1pl.imperf.subj.act": "inverteremus",
+      "2pl.imperf.subj.act": "inverteretis",
+      "3pl.imperf.subj.act": "inverterent",
+      "2sg.pres.imp.act": "inverte",
+      "2pl.pres.imp.act": "invertite",
+      "1sg.perf.ind.act": "inverti",
+      "2sg.perf.ind.act": "invertisti",
+      "3sg.perf.ind.act": "invertit",
+      "1pl.perf.ind.act": "invertimus",
+      "2pl.perf.ind.act": "invertistis",
+      "3pl.perf.ind.act": "inverterunt"
+    }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: inversus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "inversus",
+      "ppp.nom.sg.fem": "inversa",
+      "ppp.nom.sg.neut": "inversum",
+      "ppp.gen.sg.masc": "inversi",
+      "ppp.gen.sg.fem": "inversae",
+      "ppp.gen.sg.neut": "inversi",
+      "ppp.dat.sg.masc": "inverso",
+      "ppp.dat.sg.fem": "inversae",
+      "ppp.dat.sg.neut": "inverso",
+      "ppp.acc.sg.masc": "inversum",
+      "ppp.acc.sg.fem": "inversam",
+      "ppp.acc.sg.neut": "inversum",
+      "ppp.abl.sg.masc": "inverso",
+      "ppp.abl.sg.fem": "inversa",
+      "ppp.abl.sg.neut": "inverso",
+      "ppp.voc.sg.masc": "inverse",
+      "ppp.voc.sg.fem": "inversa",
+      "ppp.voc.sg.neut": "inversum",
+      "ppp.nom.pl.masc": "inversi",
+      "ppp.nom.pl.fem": "inversae",
+      "ppp.nom.pl.neut": "inversa",
+      "ppp.gen.pl.masc": "inversorum",
+      "ppp.gen.pl.fem": "inversarum",
+      "ppp.gen.pl.neut": "inversorum",
+      "ppp.dat.pl.masc": "inversis",
+      "ppp.dat.pl.fem": "inversis",
+      "ppp.dat.pl.neut": "inversis",
+      "ppp.acc.pl.masc": "inversos",
+      "ppp.acc.pl.fem": "inversas",
+      "ppp.acc.pl.neut": "inversa",
+      "ppp.abl.pl.masc": "inversis",
+      "ppp.abl.pl.fem": "inversis",
+      "ppp.abl.pl.neut": "inversis",
+      "ppp.voc.pl.masc": "inversi",
+      "ppp.voc.pl.fem": "inversae",
+      "ppp.voc.pl.neut": "inversa"
+    }
+  }
+}

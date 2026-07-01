@@ -1,0 +1,53 @@
+{
+  "id": "tranquillus_adj",
+  "lemma": "tranquillus",
+  "pos": "adj",
+  "glosses": [
+    "calm, quiet, still, tranquil"
+  ],
+  "head": "tranquillus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "tranquillus",
+      "gen.sg.masc": "tranquilli",
+      "dat.sg.masc": "tranquillo",
+      "gen.sg.fem": "tranquillae",
+      "dat.sg.fem": "tranquillae",
+      "nom.sg.neut": "tranquillum",
+      "gen.sg.neut": "tranquilli",
+      "dat.sg.neut": "tranquillo",
+      "acc.sg.neut": "tranquillum",
+      "acc.sg.masc": "tranquillum",
+      "abl.sg.masc": "tranquillo",
+      "nom.pl.masc": "tranquilli",
+      "gen.pl.masc": "tranquillorum",
+      "acc.pl.masc": "tranquillos",
+      "nom.sg.fem": "tranquilla",
+      "acc.sg.fem": "tranquillam",
+      "abl.sg.fem": "tranquilla",
+      "nom.pl.fem": "tranquillae",
+      "gen.pl.fem": "tranquillarum",
+      "acc.pl.fem": "tranquillas",
+      "abl.sg.neut": "tranquillo",
+      "nom.pl.neut": "tranquilla",
+      "gen.pl.neut": "tranquillorum",
+      "acc.pl.neut": "tranquilla"
+    }
+  }
+}

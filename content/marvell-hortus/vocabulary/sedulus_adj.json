@@ -1,0 +1,53 @@
+{
+  "id": "sedulus_adj",
+  "lemma": "sedulus",
+  "pos": "adj",
+  "glosses": [
+    "busy, diligent, painstaking"
+  ],
+  "head": "sedulus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "sedulus",
+      "gen.sg.masc": "seduli",
+      "dat.sg.masc": "sedulo",
+      "gen.sg.fem": "sedulae",
+      "dat.sg.fem": "sedulae",
+      "nom.sg.neut": "sedulum",
+      "gen.sg.neut": "seduli",
+      "dat.sg.neut": "sedulo",
+      "acc.sg.neut": "sedulum",
+      "acc.sg.masc": "sedulum",
+      "abl.sg.masc": "sedulo",
+      "nom.pl.masc": "seduli",
+      "gen.pl.masc": "sedulorum",
+      "acc.pl.masc": "sedulos",
+      "nom.sg.fem": "sedula",
+      "acc.sg.fem": "sedulam",
+      "abl.sg.fem": "sedula",
+      "nom.pl.fem": "sedulae",
+      "gen.pl.fem": "sedularum",
+      "acc.pl.fem": "sedulas",
+      "abl.sg.neut": "sedulo",
+      "nom.pl.neut": "sedula",
+      "gen.pl.neut": "sedulorum",
+      "acc.pl.neut": "sedula"
+    }
+  }
+}
