@@ -6,5 +6,31 @@
   "glosses": [
     "Neaera (a girl's name)"
   ],
-  "head": "Neaera, -ae, f."
+  "head": "Neaera, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "Neaera",
+      "gen.sg": "Neaerae",
+      "dat.sg": "Neaerae",
+      "acc.sg": "Neaeram",
+      "abl.sg": "Neaera",
+      "nom.pl": "Neaerae",
+      "gen.pl": "Neaerarum",
+      "dat.pl": "Neaeris",
+      "acc.pl": "Neaeras",
+      "abl.pl": "Neaeris"
+    }
+  }
 }

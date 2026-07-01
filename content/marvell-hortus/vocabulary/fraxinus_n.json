@@ -7,5 +7,31 @@
     "ash tree",
     "spear of ash-wood"
   ],
-  "head": "fraxinus, -i, f."
+  "head": "fraxinus, -i, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "fraxinus",
+      "gen.sg": "fraxini",
+      "dat.sg": "fraxino",
+      "acc.sg": "fraxinum",
+      "abl.sg": "fraxino",
+      "nom.pl": "fraxini",
+      "gen.pl": "fraxinorum",
+      "dat.pl": "fraxinis",
+      "acc.pl": "fraxinos",
+      "abl.pl": "fraxinis"
+    }
+  }
 }

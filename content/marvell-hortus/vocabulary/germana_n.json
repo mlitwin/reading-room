@@ -6,5 +6,31 @@
   "glosses": [
     "sister, own sister"
   ],
-  "head": "germana, -ae, f."
+  "head": "germana, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "germana",
+      "gen.sg": "germanae",
+      "dat.sg": "germanae",
+      "acc.sg": "germanam",
+      "abl.sg": "germana",
+      "nom.pl": "germanae",
+      "gen.pl": "germanarum",
+      "dat.pl": "germanis",
+      "acc.pl": "germanas",
+      "abl.pl": "germanis"
+    }
+  }
 }

@@ -6,5 +6,25 @@
   "glosses": [
     "Chloe (a girl's name)"
   ],
-  "head": "Chloe, -es, f."
+  "head": "Chloe, -es, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg"
+    ],
+    "cells": {
+      "nom.sg": "Chloe",
+      "gen.sg": "Chloes",
+      "dat.sg": "Chloae",
+      "acc.sg": "Chloen",
+      "abl.sg": "Chloe"
+    }
+  }
 }

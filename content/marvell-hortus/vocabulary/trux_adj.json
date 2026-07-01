@@ -24,9 +24,36 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "trux",
+      "gen.sg.masc": "trucis",
+      "dat.sg.masc": "truci",
+      "acc.sg.masc": "trucem",
+      "abl.sg.masc": "truci",
+      "nom.sg.fem": "trux",
+      "gen.sg.fem": "trucis",
+      "dat.sg.fem": "truci",
+      "acc.sg.fem": "trucem",
+      "abl.sg.fem": "truci",
+      "nom.sg.neut": "trux",
+      "gen.sg.neut": "trucis",
+      "dat.sg.neut": "truci",
       "acc.sg.neut": "trux",
+      "abl.sg.neut": "truci",
+      "nom.pl.masc": "truces",
+      "gen.pl.masc": "trucium",
+      "dat.pl.masc": "trucibus",
+      "acc.pl.masc": "truces",
+      "abl.pl.masc": "trucibus",
+      "nom.pl.fem": "truces",
+      "gen.pl.fem": "trucium",
+      "dat.pl.fem": "trucibus",
+      "acc.pl.fem": "truces",
+      "abl.pl.fem": "trucibus",
       "nom.pl.neut": "trucia",
-      "acc.pl.neut": "trucia"
+      "gen.pl.neut": "trucium",
+      "dat.pl.neut": "trucibus",
+      "acc.pl.neut": "trucia",
+      "abl.pl.neut": "trucibus"
     }
   }
 }

@@ -11,5 +11,103 @@
     "implectere",
     "implexui",
     "implexum"
-  ]
+  ],
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "pres.ind.act",
+      "perf.ind.act",
+      "imperf.subj.act",
+      "pres.imp.act",
+      "pres.ind.pass"
+    ],
+    "cells": {
+      "2sg.pres.ind.act": "implectis",
+      "3sg.pres.ind.act": "implectit",
+      "1pl.pres.ind.act": "implectimus",
+      "2pl.pres.ind.act": "implectitis",
+      "2sg.pres.ind.pass": "implecteris",
+      "3sg.pres.ind.pass": "implectitur",
+      "1sg.imperf.subj.act": "implecterem",
+      "2sg.imperf.subj.act": "implecteres",
+      "3sg.imperf.subj.act": "implecteret",
+      "1pl.imperf.subj.act": "implecteremus",
+      "2pl.imperf.subj.act": "implecteretis",
+      "3pl.imperf.subj.act": "implecterent",
+      "2sg.pres.imp.act": "implecte",
+      "2pl.pres.imp.act": "implectite",
+      "1sg.perf.ind.act": "implexi",
+      "2sg.perf.ind.act": "implexisti",
+      "3sg.perf.ind.act": "implexit",
+      "1pl.perf.ind.act": "impleximus",
+      "2pl.perf.ind.act": "implexistis",
+      "3pl.perf.ind.act": "implexerunt"
+    }
+  },
+  "ppp_paradigm": {
+    "label": "PPP: implexus -a -um",
+    "type": "ppp",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl",
+      "voc"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "ppp.nom.sg.masc": "implexus",
+      "ppp.nom.sg.fem": "implexa",
+      "ppp.nom.sg.neut": "implexum",
+      "ppp.gen.sg.masc": "implexi",
+      "ppp.gen.sg.fem": "implexae",
+      "ppp.gen.sg.neut": "implexi",
+      "ppp.dat.sg.masc": "implexo",
+      "ppp.dat.sg.fem": "implexae",
+      "ppp.dat.sg.neut": "implexo",
+      "ppp.acc.sg.masc": "implexum",
+      "ppp.acc.sg.fem": "implexam",
+      "ppp.acc.sg.neut": "implexum",
+      "ppp.abl.sg.masc": "implexo",
+      "ppp.abl.sg.fem": "implexa",
+      "ppp.abl.sg.neut": "implexo",
+      "ppp.voc.sg.masc": "implexe",
+      "ppp.voc.sg.fem": "implexa",
+      "ppp.voc.sg.neut": "implexum",
+      "ppp.nom.pl.masc": "implexi",
+      "ppp.nom.pl.fem": "implexae",
+      "ppp.nom.pl.neut": "implexa",
+      "ppp.gen.pl.masc": "implexorum",
+      "ppp.gen.pl.fem": "implexarum",
+      "ppp.gen.pl.neut": "implexorum",
+      "ppp.dat.pl.masc": "implexis",
+      "ppp.dat.pl.fem": "implexis",
+      "ppp.dat.pl.neut": "implexis",
+      "ppp.acc.pl.masc": "implexos",
+      "ppp.acc.pl.fem": "implexas",
+      "ppp.acc.pl.neut": "implexa",
+      "ppp.abl.pl.masc": "implexis",
+      "ppp.abl.pl.fem": "implexis",
+      "ppp.abl.pl.neut": "implexis",
+      "ppp.voc.pl.masc": "implexi",
+      "ppp.voc.pl.fem": "implexae",
+      "ppp.voc.pl.neut": "implexa"
+    }
+  }
 }

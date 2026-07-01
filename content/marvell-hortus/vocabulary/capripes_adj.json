@@ -24,9 +24,36 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "capripes",
+      "gen.sg.masc": "capripedis",
+      "dat.sg.masc": "capripedi",
+      "acc.sg.masc": "capripedem",
+      "abl.sg.masc": "capripedi",
+      "nom.sg.fem": "capripes",
+      "gen.sg.fem": "capripedis",
+      "dat.sg.fem": "capripedi",
+      "acc.sg.fem": "capripedem",
+      "abl.sg.fem": "capripedi",
+      "nom.sg.neut": "capripes",
+      "gen.sg.neut": "capripedis",
+      "dat.sg.neut": "capripedi",
       "acc.sg.neut": "capripes",
+      "abl.sg.neut": "capripedi",
+      "nom.pl.masc": "capripedes",
+      "gen.pl.masc": "capripedium",
+      "dat.pl.masc": "capripedibus",
+      "acc.pl.masc": "capripedes",
+      "abl.pl.masc": "capripedibus",
+      "nom.pl.fem": "capripedes",
+      "gen.pl.fem": "capripedium",
+      "dat.pl.fem": "capripedibus",
+      "acc.pl.fem": "capripedes",
+      "abl.pl.fem": "capripedibus",
       "nom.pl.neut": "capripedia",
-      "acc.pl.neut": "capripedia"
+      "gen.pl.neut": "capripedium",
+      "dat.pl.neut": "capripedibus",
+      "acc.pl.neut": "capripedia",
+      "abl.pl.neut": "capripedibus"
     }
   }
 }

@@ -7,5 +7,31 @@
     "madness, frenzy",
     "passionate desire"
   ],
-  "head": "furor, -oris, m."
+  "head": "furor, -oris, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "furor",
+      "gen.sg": "furoris",
+      "dat.sg": "furori",
+      "acc.sg": "furorem",
+      "abl.sg": "furore",
+      "nom.pl": "furores",
+      "gen.pl": "furorum",
+      "dat.pl": "furoribus",
+      "acc.pl": "furores",
+      "abl.pl": "furoribus"
+    }
+  }
 }

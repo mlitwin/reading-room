@@ -6,5 +6,31 @@
   "glosses": [
     "cypress tree"
   ],
-  "head": "cyparissus, -i, f."
+  "head": "cyparissus, -i, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "cyparissus",
+      "gen.sg": "cyparissi",
+      "dat.sg": "cyparisso",
+      "acc.sg": "cyparissum",
+      "abl.sg": "cyparisso",
+      "nom.pl": "cyparissi",
+      "gen.pl": "cyparissorum",
+      "dat.pl": "cyparissis",
+      "acc.pl": "cyparissos",
+      "abl.pl": "cyparissis"
+    }
+  }
 }

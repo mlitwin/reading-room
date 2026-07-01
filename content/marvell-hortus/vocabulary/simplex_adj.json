@@ -25,9 +25,36 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "simplex",
+      "gen.sg.masc": "simplicis",
+      "dat.sg.masc": "simplici",
+      "acc.sg.masc": "simplicem",
+      "abl.sg.masc": "simplici",
+      "nom.sg.fem": "simplex",
+      "gen.sg.fem": "simplicis",
+      "dat.sg.fem": "simplici",
+      "acc.sg.fem": "simplicem",
+      "abl.sg.fem": "simplici",
+      "nom.sg.neut": "simplex",
+      "gen.sg.neut": "simplicis",
+      "dat.sg.neut": "simplici",
       "acc.sg.neut": "simplex",
+      "abl.sg.neut": "simplici",
+      "nom.pl.masc": "simplices",
+      "gen.pl.masc": "simplicium",
+      "dat.pl.masc": "simplicibus",
+      "acc.pl.masc": "simplices",
+      "abl.pl.masc": "simplicibus",
+      "nom.pl.fem": "simplices",
+      "gen.pl.fem": "simplicium",
+      "dat.pl.fem": "simplicibus",
+      "acc.pl.fem": "simplices",
+      "abl.pl.fem": "simplicibus",
       "nom.pl.neut": "simplicia",
-      "acc.pl.neut": "simplicia"
+      "gen.pl.neut": "simplicium",
+      "dat.pl.neut": "simplicibus",
+      "acc.pl.neut": "simplicia",
+      "abl.pl.neut": "simplicibus"
     }
   }
 }

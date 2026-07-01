@@ -5,5 +5,55 @@
   "glosses": [
     "fragrant, sweet-smelling"
   ],
-  "head": "fragrans, -antis"
+  "head": "fragrans, -antis",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "fragrans",
+      "gen.sg.masc": "fragrantis",
+      "dat.sg.masc": "fragranti",
+      "acc.sg.masc": "fragrantem",
+      "abl.sg.masc": "fragranti",
+      "nom.sg.fem": "fragrans",
+      "gen.sg.fem": "fragrantis",
+      "dat.sg.fem": "fragranti",
+      "acc.sg.fem": "fragrantem",
+      "abl.sg.fem": "fragranti",
+      "nom.sg.neut": "fragrans",
+      "gen.sg.neut": "fragrantis",
+      "dat.sg.neut": "fragranti",
+      "acc.sg.neut": "fragrans",
+      "abl.sg.neut": "fragranti",
+      "nom.pl.masc": "fragrantes",
+      "gen.pl.masc": "fragrantium",
+      "dat.pl.masc": "fragrantibus",
+      "acc.pl.masc": "fragrantes",
+      "abl.pl.masc": "fragrantibus",
+      "nom.pl.fem": "fragrantes",
+      "gen.pl.fem": "fragrantium",
+      "dat.pl.fem": "fragrantibus",
+      "acc.pl.fem": "fragrantes",
+      "abl.pl.fem": "fragrantibus",
+      "nom.pl.neut": "fragrantia",
+      "gen.pl.neut": "fragrantium",
+      "dat.pl.neut": "fragrantibus",
+      "acc.pl.neut": "fragrantia",
+      "abl.pl.neut": "fragrantibus"
+    }
+  }
 }

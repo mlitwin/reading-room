@@ -25,10 +25,36 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "viridis",
+      "gen.sg.masc": "viridis",
+      "dat.sg.masc": "viridi",
+      "acc.sg.masc": "viridem",
+      "abl.sg.masc": "viridi",
+      "nom.sg.fem": "viridis",
+      "gen.sg.fem": "viridis",
+      "dat.sg.fem": "viridi",
+      "acc.sg.fem": "viridem",
+      "abl.sg.fem": "viridi",
       "nom.sg.neut": "viride",
+      "gen.sg.neut": "viridis",
+      "dat.sg.neut": "viridi",
       "acc.sg.neut": "viride",
+      "abl.sg.neut": "viridi",
+      "nom.pl.masc": "virides",
+      "gen.pl.masc": "viridium",
+      "dat.pl.masc": "viridibus",
+      "acc.pl.masc": "virides",
+      "abl.pl.masc": "viridibus",
+      "nom.pl.fem": "virides",
+      "gen.pl.fem": "viridium",
+      "dat.pl.fem": "viridibus",
+      "acc.pl.fem": "virides",
+      "abl.pl.fem": "viridibus",
       "nom.pl.neut": "viridia",
-      "acc.pl.neut": "viridia"
+      "gen.pl.neut": "viridium",
+      "dat.pl.neut": "viridibus",
+      "acc.pl.neut": "viridia",
+      "abl.pl.neut": "viridibus"
     }
   }
 }

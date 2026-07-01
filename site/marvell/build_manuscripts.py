@@ -44,28 +44,103 @@ def load_whitaker():
     return {'entries': entries, 'by_stem': by_stem, 'rules': rules}
 
 
-def generate_paradigm(stem, pos, principal_parts, wh):
+def generate_paradigm(stem, pos, principal_parts, wh, prefix=''):
     """Return (paradigm, ppp_paradigm) from Whitaker for a regular noun / adj /
-    verb, or (None, None). Deponents (principal parts ending in ' sum') and
-    proper nouns absent from DICTLINE fall through to None."""
+    verb, or (None, None). `prefix` prefixes every generated main-paradigm cell
+    (compound verbs looked up under their base, e.g. implecto ← plecto + "im").
+    The ppp table is built from the real principal parts, so it is not prefixed."""
     if wh is None:
         return None, None
     mpos = WHITAKER_POS.get(pos)
     if not mpos:
         return None, None
     entry = sv.lookup_entry(stem, morpheus_pos=pos, infl_class='', by_stem=wh['by_stem'], entries=wh['entries'])
-    if not entry or entry['pos'] != mpos:
-        return None, None
     paradigm = ppp = None
-    if mpos == 'N':
-        paradigm = sv.generate_noun_paradigm(entry, stem, wh['rules'])
-    elif mpos == 'ADJ':
-        paradigm = sv.generate_adj_paradigm(entry, stem, wh['rules'])
-    elif mpos == 'V':
-        paradigm = sv.generate_verb_paradigm(entry, stem, wh['rules'])
-        if principal_parts and len(principal_parts) >= 4:
-            ppp = sv.generate_ppp_paradigm(principal_parts)
+    if entry and entry['pos'] == mpos:
+        if mpos == 'N':
+            paradigm = sv.generate_noun_paradigm(entry, stem, wh['rules'])
+        elif mpos == 'ADJ':
+            paradigm = sv.generate_adj_paradigm(entry, stem, wh['rules'])
+        elif mpos == 'V':
+            paradigm = sv.generate_verb_paradigm(entry, stem, wh['rules'])
+    if paradigm and prefix:
+        paradigm['cells'] = {k: (prefix + v if isinstance(v, str) else [prefix + x for x in v])
+                             for k, v in paradigm['cells'].items()}
+    if mpos == 'V' and principal_parts and len(principal_parts) >= 4:
+        ppp = sv.generate_ppp_paradigm(principal_parts)
     return paradigm, ppp
+
+
+# ---- Hand-authored paradigms for lemmas Whitaker misses or renders thin -----
+# Standard ending tables for the regular declension classes; reproducible from a
+# small `paradigm_spec` (class + stem [+ nom]) in lexicon-curation.json.
+_NOUN_ROWS = ['nom', 'gen', 'dat', 'acc', 'abl']
+_ADJ_COLS = ['sg.masc', 'sg.fem', 'sg.neut', 'pl.masc', 'pl.fem', 'pl.neut']
+
+_NOUN_ENDINGS = {
+    'decl1': {'nom.sg': 'a', 'gen.sg': 'ae', 'dat.sg': 'ae', 'acc.sg': 'am', 'abl.sg': 'a',
+              'nom.pl': 'ae', 'gen.pl': 'arum', 'dat.pl': 'is', 'acc.pl': 'as', 'abl.pl': 'is'},
+    'decl2': {'nom.sg': 'us', 'gen.sg': 'i', 'dat.sg': 'o', 'acc.sg': 'um', 'abl.sg': 'o',
+              'nom.pl': 'i', 'gen.pl': 'orum', 'dat.pl': 'is', 'acc.pl': 'os', 'abl.pl': 'is'},
+}
+
+
+def _noun_table(cells, cols=('sg', 'pl')):
+    return {'type': 'noun', 'rows': _NOUN_ROWS, 'cols': list(cols), 'cells': cells}
+
+
+def _adj3(stem, nom):
+    """Third-declension i-stem adjective. nom=None → two-termination (-is/-e);
+    nom given → one-termination (simplex, trux …), all genders share nom.sg."""
+    nm = nf = (stem + 'is') if nom is None else nom
+    nn = (stem + 'e') if nom is None else nom
+    accn = nn
+    cells = {}
+    for g, nomsg, accsg in (('masc', nm, stem + 'em'), ('fem', nf, stem + 'em'), ('neut', nn, accn)):
+        cells[f'nom.sg.{g}'] = nomsg
+        cells[f'gen.sg.{g}'] = stem + 'is'
+        cells[f'dat.sg.{g}'] = stem + 'i'
+        cells[f'acc.sg.{g}'] = accsg
+        cells[f'abl.sg.{g}'] = stem + 'i'
+    for g, nompl, accpl in (('masc', stem + 'es', stem + 'es'), ('fem', stem + 'es', stem + 'es'),
+                            ('neut', stem + 'ia', stem + 'ia')):
+        cells[f'nom.pl.{g}'] = nompl
+        cells[f'gen.pl.{g}'] = stem + 'ium'
+        cells[f'dat.pl.{g}'] = stem + 'ibus'
+        cells[f'acc.pl.{g}'] = accpl
+        cells[f'abl.pl.{g}'] = stem + 'ibus'
+    return {'type': 'adj', 'rows': _NOUN_ROWS, 'cols': _ADJ_COLS, 'cells': cells}
+
+
+def manual_paradigm(spec):
+    cls, stem, nom = spec['class'], spec.get('stem', ''), spec.get('nom')
+    if cls in _NOUN_ENDINGS:
+        return _noun_table({k: stem + e for k, e in _NOUN_ENDINGS[cls].items()})
+    if cls == 'decl3m':  # 3rd-decl consonant stem; nom.sg irregular, oblique on stem
+        cells = {'nom.sg': nom, 'gen.sg': stem + 'is', 'dat.sg': stem + 'i', 'acc.sg': stem + 'em', 'abl.sg': stem + 'e',
+                 'nom.pl': stem + 'es', 'gen.pl': stem + 'um', 'dat.pl': stem + 'ibus', 'acc.pl': stem + 'es', 'abl.pl': stem + 'ibus'}
+        return _noun_table(cells)
+    if cls == 'greek1f':  # Greek 1st-decl -e (Chloe), singular only
+        cells = {'nom.sg': nom, 'gen.sg': stem + 'es', 'dat.sg': stem + 'ae', 'acc.sg': stem + 'en', 'abl.sg': nom}
+        return _noun_table(cells, cols=('sg',))
+    if cls == 'adj12':  # 1st/2nd-decl -us/-a/-um
+        e = {'sg.masc': 'us', 'sg.fem': 'a', 'sg.neut': 'um'}
+        obl = {'gen': {'masc': 'i', 'fem': 'ae', 'neut': 'i'}, 'dat': {'masc': 'o', 'fem': 'ae', 'neut': 'o'},
+               'acc': {'masc': 'um', 'fem': 'am', 'neut': 'um'}, 'abl': {'masc': 'o', 'fem': 'a', 'neut': 'o'}}
+        plur = {'nom': {'masc': 'i', 'fem': 'ae', 'neut': 'a'}, 'gen': {'masc': 'orum', 'fem': 'arum', 'neut': 'orum'},
+                'dat': {'masc': 'is', 'fem': 'is', 'neut': 'is'}, 'acc': {'masc': 'os', 'fem': 'as', 'neut': 'a'},
+                'abl': {'masc': 'is', 'fem': 'is', 'neut': 'is'}}
+        cells = {}
+        for g in ('masc', 'fem', 'neut'):
+            cells[f'nom.sg.{g}'] = stem + e[f'sg.{g}']
+            for r in ('gen', 'dat', 'acc', 'abl'):
+                cells[f'{r}.sg.{g}'] = stem + obl[r][g]
+            for r in ('nom', 'gen', 'dat', 'acc', 'abl'):
+                cells[f'{r}.pl.{g}'] = stem + plur[r][g]
+        return {'type': 'adj', 'rows': _NOUN_ROWS, 'cols': _ADJ_COLS, 'cells': cells}
+    if cls in ('adj3two', 'adj3one'):
+        return _adj3(stem, nom if cls == 'adj3one' else None)
+    raise SystemExit(f'manual_paradigm: unknown class {cls!r}')
 
 OUT_DIR = ROOT / 'content' / 'marvell-hortus'
 VOCAB_DIR = OUT_DIR / 'vocabulary'
@@ -119,8 +194,16 @@ def curated_card(stem, entry, ctx):
         card['principal_parts'] = pp
     if entry.get('defective'):
         card['defective'] = True
-        return card  # defectives (memini) have no regular table to generate
-    paradigm, ppp = generate_paradigm(stem, entry['pos'], pp, ctx.get('whitaker'))
+        return card  # defectives (memini, potis) have no regular table to generate
+    # 1. Hand-authored paradigm for lemmas Whitaker misses or renders thin.
+    spec = ctx['curation'].get('paradigm_spec', {}).get(stem)
+    if spec:
+        card['paradigm'] = manual_paradigm(spec)
+        return card
+    # 2. Whitaker generation (optionally under a base lemma + prefix).
+    paradigm, ppp = generate_paradigm(
+        entry.get('whitaker_lemma', stem), entry['pos'], pp, ctx.get('whitaker'),
+        prefix=entry.get('prefix', ''))
     if paradigm:
         card['paradigm'] = paradigm
     if ppp:

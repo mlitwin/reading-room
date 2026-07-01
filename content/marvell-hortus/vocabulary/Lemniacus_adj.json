@@ -6,5 +6,55 @@
     "Lemnian",
     "of Lemnos (Vulcan's isle)"
   ],
-  "head": "Lemniacus, -a, -um"
+  "head": "Lemniacus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "Lemniacus",
+      "gen.sg.masc": "Lemniaci",
+      "dat.sg.masc": "Lemniaco",
+      "acc.sg.masc": "Lemniacum",
+      "abl.sg.masc": "Lemniaco",
+      "nom.pl.masc": "Lemniaci",
+      "gen.pl.masc": "Lemniacorum",
+      "dat.pl.masc": "Lemniacis",
+      "acc.pl.masc": "Lemniacos",
+      "abl.pl.masc": "Lemniacis",
+      "nom.sg.fem": "Lemniaca",
+      "gen.sg.fem": "Lemniacae",
+      "dat.sg.fem": "Lemniacae",
+      "acc.sg.fem": "Lemniacam",
+      "abl.sg.fem": "Lemniaca",
+      "nom.pl.fem": "Lemniacae",
+      "gen.pl.fem": "Lemniacarum",
+      "dat.pl.fem": "Lemniacis",
+      "acc.pl.fem": "Lemniacas",
+      "abl.pl.fem": "Lemniacis",
+      "nom.sg.neut": "Lemniacum",
+      "gen.sg.neut": "Lemniaci",
+      "dat.sg.neut": "Lemniaco",
+      "acc.sg.neut": "Lemniacum",
+      "abl.sg.neut": "Lemniaco",
+      "nom.pl.neut": "Lemniaca",
+      "gen.pl.neut": "Lemniacorum",
+      "dat.pl.neut": "Lemniacis",
+      "acc.pl.neut": "Lemniaca",
+      "abl.pl.neut": "Lemniacis"
+    }
+  }
 }

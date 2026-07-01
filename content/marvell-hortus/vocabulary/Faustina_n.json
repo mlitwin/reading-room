@@ -6,5 +6,31 @@
   "glosses": [
     "Faustina (a girl's name)"
   ],
-  "head": "Faustina, -ae, f."
+  "head": "Faustina, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "Faustina",
+      "gen.sg": "Faustinae",
+      "dat.sg": "Faustinae",
+      "acc.sg": "Faustinam",
+      "abl.sg": "Faustina",
+      "nom.pl": "Faustinae",
+      "gen.pl": "Faustinarum",
+      "dat.pl": "Faustinis",
+      "acc.pl": "Faustinas",
+      "abl.pl": "Faustinis"
+    }
+  }
 }

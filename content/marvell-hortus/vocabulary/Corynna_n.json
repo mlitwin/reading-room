@@ -6,5 +6,31 @@
   "glosses": [
     "Corinna (a girl's name)"
   ],
-  "head": "Corynna, -ae, f."
+  "head": "Corynna, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "Corynna",
+      "gen.sg": "Corynnae",
+      "dat.sg": "Corynnae",
+      "acc.sg": "Corynnam",
+      "abl.sg": "Corynna",
+      "nom.pl": "Corynnae",
+      "gen.pl": "Corynnarum",
+      "dat.pl": "Corynnis",
+      "acc.pl": "Corynnas",
+      "abl.pl": "Corynnis"
+    }
+  }
 }

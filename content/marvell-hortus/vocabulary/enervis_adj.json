@@ -24,10 +24,36 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "enervis",
+      "gen.sg.masc": "enervis",
+      "dat.sg.masc": "enervi",
+      "acc.sg.masc": "enervem",
+      "abl.sg.masc": "enervi",
+      "nom.sg.fem": "enervis",
+      "gen.sg.fem": "enervis",
+      "dat.sg.fem": "enervi",
+      "acc.sg.fem": "enervem",
+      "abl.sg.fem": "enervi",
       "nom.sg.neut": "enerve",
+      "gen.sg.neut": "enervis",
+      "dat.sg.neut": "enervi",
       "acc.sg.neut": "enerve",
+      "abl.sg.neut": "enervi",
+      "nom.pl.masc": "enerves",
+      "gen.pl.masc": "enervium",
+      "dat.pl.masc": "enervibus",
+      "acc.pl.masc": "enerves",
+      "abl.pl.masc": "enervibus",
+      "nom.pl.fem": "enerves",
+      "gen.pl.fem": "enervium",
+      "dat.pl.fem": "enervibus",
+      "acc.pl.fem": "enerves",
+      "abl.pl.fem": "enervibus",
       "nom.pl.neut": "enervia",
-      "acc.pl.neut": "enervia"
+      "gen.pl.neut": "enervium",
+      "dat.pl.neut": "enervibus",
+      "acc.pl.neut": "enervia",
+      "abl.pl.neut": "enervibus"
     }
   }
 }

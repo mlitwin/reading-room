@@ -6,5 +6,31 @@
   "glosses": [
     "plane tree"
   ],
-  "head": "platanus, -i, f."
+  "head": "platanus, -i, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "platanus",
+      "gen.sg": "platani",
+      "dat.sg": "platano",
+      "acc.sg": "platanum",
+      "abl.sg": "platano",
+      "nom.pl": "platani",
+      "gen.pl": "platanorum",
+      "dat.pl": "platanis",
+      "acc.pl": "platanos",
+      "abl.pl": "platanis"
+    }
+  }
 }

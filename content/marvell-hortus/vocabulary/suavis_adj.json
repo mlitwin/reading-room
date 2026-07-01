@@ -24,10 +24,36 @@
       "pl.neut"
     ],
     "cells": {
+      "nom.sg.masc": "suavis",
+      "gen.sg.masc": "suavis",
+      "dat.sg.masc": "suavi",
+      "acc.sg.masc": "suavem",
+      "abl.sg.masc": "suavi",
+      "nom.sg.fem": "suavis",
+      "gen.sg.fem": "suavis",
+      "dat.sg.fem": "suavi",
+      "acc.sg.fem": "suavem",
+      "abl.sg.fem": "suavi",
       "nom.sg.neut": "suave",
+      "gen.sg.neut": "suavis",
+      "dat.sg.neut": "suavi",
       "acc.sg.neut": "suave",
+      "abl.sg.neut": "suavi",
+      "nom.pl.masc": "suaves",
+      "gen.pl.masc": "suavium",
+      "dat.pl.masc": "suavibus",
+      "acc.pl.masc": "suaves",
+      "abl.pl.masc": "suavibus",
+      "nom.pl.fem": "suaves",
+      "gen.pl.fem": "suavium",
+      "dat.pl.fem": "suavibus",
+      "acc.pl.fem": "suaves",
+      "abl.pl.fem": "suavibus",
       "nom.pl.neut": "suavia",
-      "acc.pl.neut": "suavia"
+      "gen.pl.neut": "suavium",
+      "dat.pl.neut": "suavibus",
+      "acc.pl.neut": "suavia",
+      "abl.pl.neut": "suavibus"
     }
   }
 }

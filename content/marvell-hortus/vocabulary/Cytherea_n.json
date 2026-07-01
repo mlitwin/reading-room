@@ -6,5 +6,31 @@
   "glosses": [
     "Cytherea (Venus)"
   ],
-  "head": "Cytherea, -ae, f."
+  "head": "Cytherea, -ae, f.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "Cytherea",
+      "gen.sg": "Cythereae",
+      "dat.sg": "Cythereae",
+      "acc.sg": "Cytheream",
+      "abl.sg": "Cytherea",
+      "nom.pl": "Cythereae",
+      "gen.pl": "Cytherearum",
+      "dat.pl": "Cythereis",
+      "acc.pl": "Cythereas",
+      "abl.pl": "Cythereis"
+    }
+  }
 }
