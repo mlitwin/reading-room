@@ -21,6 +21,109 @@ All under `content/_language/latin/` (the `_` keeps them out of the book pass):
 `lexicon.json` is now the source of truth; the per-lemma files are a legacy
 fallback the build reads only when the consolidated file is absent.
 
+## Source material — where the data comes from
+
+None of the three language sources are hand-authored from scratch. They are
+distilled from a stack of vendored corpora and sibling analysis tools, mostly
+under `site/latin/sources/` plus two sibling clones alongside this repo. The
+authoring pipeline (`site/latin/*.py`) reads these; the shipped JSON is the
+distilled residue. Understanding the provenance matters because the same surface
+form is cross-checked against **three independent morphological analyzers** —
+rule-based (Morpheus, Whitaker's) and neural (Stanza) — and disagreements are
+exactly the editorial backlog.
+
+### Morpheus (rule-based parser, primary evidence)
+
+The mechanical parsing stage shells out to a local C build of the
+[perseids-tools/morpheus](https://github.com/perseids-tools/morpheus) fork —
+Gregory Crane's classic Greek/Latin morphological analyzer. It lives **outside**
+this repo as a sibling clone (`~/Dev/github.com/mlitwin/morpheus`), built once
+per machine; see [../site/latin/INSTALL.md](../site/latin/INSTALL.md) for the
+`flex` + clang build. All calls funnel through `site/latin/morpheus.sh`, which
+validates the build, sets `MORPHLIB`, and execs `cruncher -S -L`. Raw `<NL>`
+analyses are cached in `site/latin/sources/morpheus-cache.json` (~3,400 surface
+forms, committed) so re-runs are zero-cost and the build is reproducible without
+the binary present. `build_apparatus.py` gathers *every* Morpheus candidate per
+token; `apparatus_to_spans.py` then picks one primary. Morpheus is the source of
+the `#N` homograph discriminators (`dico#1` vs `dico#2`) and syncope tags
+(`contr`) that the other tools miss.
+
+### Whitaker's WORDS (rule-based dictionary + inflection tables)
+
+A second sibling clone, `~/Dev/github.com/mlitwin/whitakers_words` — the Python 3
+reimplementation of William Whitaker's WORDS — supplies the **dictionary and
+paradigm skeletons**. Two of its plain-text data files are read directly (using
+the same fixed-width slice offsets as `whitakers_words/datagenerator.py`):
+
+- `whitakers_words/data/DICTLINE.GEN` — **39,338** dictionary entries (stems +
+  glosses + POS + frequency/age metadata).
+- `whitakers_words/data/INFLECTS.LAT` — **3,207** inflection ending rules.
+
+`seed_vocab.py` looks a lemma up in DICTLINE by stem and generates a full
+paradigm from INFLECTS, emitting skeleton cards to `staging/`.
+`expand_verb_paradigms.py` fills sparse verb grids the same way. The repo's
+importable `whitakers_words.parser.Parser` API is used by
+`draft_placeholder_curation.py` to draft corrected entries for placeholder
+lemmata (`sys.path` is pointed at the sibling clone; no pip install needed).
+
+### Stanza neural pipeline (`.venv`, editorial cross-check)
+
+`site/latin/.venv` (gitignored, ~644 MB) is a committed-by-convention Python
+3.14 virtualenv holding the **neural** analyzer: `stanza` 1.12.2 on `torch`
+2.12 + `numpy` 2.4, plus the downloaded Latin model (`stanza.download('la')`).
+This is the "vector embedding" layer — Stanza's tokenize/POS/lemma processors
+are neural networks over character and word **embeddings**, giving a data-driven
+second opinion that is independent of the rule-based Morpheus/Whitaker stems.
+
+`stanza_editorial.py` runs `Pipeline('la', processors='tokenize,mwt,pos,lemma')`
+over a card, LCS-aligns its tokens against the current span annotations, and
+lists the disagreements as correction candidates (`make latin-stanza-editorial
+CARD=… STANZA_PYTHON=site/latin/.venv/bin/python3`). `annotate_stanza.py`,
+`fix_pos_mismatches.py`, and `apply_placeholder_curation.py` consume the same
+Stanza-preferred reading — it is what lands in a span's `data-stanza` attribute
+(the ✓ default tab). Because the venv is huge and platform-specific it is
+rebuilt per machine, not cloned; scripts that import stanza skip gracefully when
+it is absent.
+
+### Lewis & Short (vendored dictionary prose)
+
+`site/latin/sources/lewis-short-json/` is a git-vendored copy of
+[IohannesArnold/lewis-short-json](https://github.com/IohannesArnold/lewis-short-json)
+— the Perseus Lewis & Short (1879) *A Latin Dictionary* converted from TEI XML
+to per-initial JSON (`ls_A.json` … `ls_Z.json`, ~45 MB). `ls_lookup.py` is the
+accessor: it normalizes orthography (strips macrons, `j→i`, `v→u`, trailing
+homograph digits) and returns `{key, orthography, pos, notes}` for a headword.
+This is the source of authoritative gloss/definition prose during placeholder
+curation, where DICTLINE's terse glosses are too thin.
+
+### Perseus TEI corpora (canonical text, translation, grammar)
+
+The primary texts and the reference grammar are vendored TEI XML under
+`site/latin/sources/`:
+
+- `phi0959.phi006.perseus-lat2.xml` — canonical Ovid *Metamorphoses* Latin
+  (Perseus), ingested by `ingest_perseus.py` into per-"card" JSON under
+  `sources/cards/` (~156 cards).
+- `phi0959.phi006.perseus-eng3.xml` — public-domain English translation,
+  ingested by `ingest_translation.py` into `sources/translations/` (~146 files);
+  `scribe_book1_mechanical.py` weaves it into first-pass page markdown.
+- `viaf39744457.001.perseus-eng1.xml` — Allen & Greenough, *New Latin Grammar*
+  (Ginn & Co., 1903) TEI, ingested by `ingest_ag.py` into
+  `reference-grammar.json` (642 §-sections). PD underlying text; Perseus TEI
+  markup CC BY-SA with Dickinson College Commentaries corrections.
+
+### Provenance at a glance
+
+| source | location | kind | feeds | accessor |
+|--------|----------|------|-------|----------|
+| Morpheus | sibling `morpheus/` clone (+ cached JSON) | rule-based parser | apparatus / spans | `morpheus.sh`, `seed.py` |
+| Whitaker's WORDS | sibling `whitakers_words/` clone | dictionary + inflection tables | `lexicon.json` cards, paradigms | `seed_vocab.py`, `draft_placeholder_curation.py` |
+| Stanza `la` model | `site/latin/.venv/` (gitignored) | neural (embeddings) | `data-stanza` reading, editorial QA | `stanza_editorial.py` |
+| Lewis & Short | `sources/lewis-short-json/` (vendored git) | dictionary prose | gloss curation | `ls_lookup.py` |
+| Ovid Latin TEI | `sources/…perseus-lat2.xml` | canonical text | `sources/cards/` | `ingest_perseus.py` |
+| Ovid translation TEI | `sources/…perseus-eng3.xml` | translation | page scribing | `ingest_translation.py` |
+| A&G grammar TEI | `sources/…perseus-eng1.xml` | reference grammar | `reference-grammar.json` | `ingest_ag.py` |
+
 ## How a word becomes a card
 
 1. A chapter's markdown carries a `.latin-passage` block of

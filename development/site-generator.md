@@ -84,8 +84,7 @@ numeric prefixes define cascade order) into a single `docs/assets/reader.css`:
 | `07-card-detail.css` | glosses, notes, card body detail |
 | `08-reference-grammar.css` | the browsable A&G reference-grammar pages |
 
-`highlight.css` and `cards.js`/`notes.js` are copied verbatim into
-`docs/assets/`. The plain-CSS output is one `<link>` that works over both
+`highlight.css` and `cards.js` are copied verbatim into `docs/assets/`. The plain-CSS output is one `<link>` that works over both
 transports; there is deliberately no build step for the client assets beyond the
 concatenation.
 
@@ -93,7 +92,7 @@ concatenation.
 
 The build produces, in addition to the per-page HTML:
 
-- `reader.css`, `highlight.css`, `cards.js`, `notes.js` — the client bundle.
+- `reader.css`, `highlight.css`, `cards.js` — the client bundle.
 - `katex.min.css` + `fonts/` — copied from the KaTeX package.
 - `lexicon.json` / `lexicon.js` — the runtime Latin dictionary (shared lexicon
   plus per-book `vocabulary/` overlays). The `.js` wrapper sets
