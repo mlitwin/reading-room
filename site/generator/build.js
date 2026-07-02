@@ -936,11 +936,6 @@ async function buildLanguageArtifacts(pieces) {
   if (!_consolidatedLexiconDoc) return { glossary: null, concordances: {} };
 
   const { glossary, stats: glossStats } = buildGlossary(_consolidatedLexiconDoc);
-  await fs.writeFile(
-    path.join(DOCS_DIR, 'assets', 'latin-glossary.json'),
-    JSON.stringify(glossary) + '\n'
-  );
-  console.log(`  glossary: ${glossStats.uniqueSurfaceForms} surface forms, ${glossStats.multiCandidateCount} multi-candidate`);
 
   const concordances = {};
   const concordanceDir = path.join(DOCS_DIR, 'assets', 'concordance');
@@ -968,6 +963,27 @@ async function buildLanguageArtifacts(pieces) {
     );
     console.log(`  concordance/${piece.slug}: ${stats.totalSpans} tokens across ${stats.files} chapters`);
   }
+
+  // Provenance: most glossary surfaces are expanded from paradigm cells and
+  // never occur in a text. Mark the ones that do, so consumers can rank real
+  // forms above generated ones (and bad generated forms are identifiable as
+  // dictionary assertions rather than attestations).
+  let attestedCount = 0;
+  const attested = new Set();
+  for (const concordance of Object.values(concordances)) {
+    for (const tok of Object.values(concordance.tokens)) attested.add(tok.surface);
+  }
+  for (const [word, entry] of Object.entries(glossary.entries)) {
+    if (attested.has(word)) {
+      entry.attested = true;
+      attestedCount += 1;
+    }
+  }
+  await fs.writeFile(
+    path.join(DOCS_DIR, 'assets', 'latin-glossary.json'),
+    JSON.stringify(glossary) + '\n'
+  );
+  console.log(`  glossary: ${glossStats.uniqueSurfaceForms} surface forms (${attestedCount} attested in texts), ${glossStats.multiCandidateCount} multi-candidate`);
 
   return { glossary, concordances };
 }

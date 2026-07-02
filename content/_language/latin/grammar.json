@@ -154,6 +154,15 @@
           "agRefs": [
             "340"
           ]
+        },
+        {
+          "id": "loc",
+          "label": "Locative",
+          "abbrev": "loc.",
+          "gloss": "<p>The case of place-where, surviving only for names of towns and small islands and a few common nouns (<em>Romae</em>, “at Rome”; <em>domi</em>, “at home”; <em>ruri</em>, “in the country”; <em>humi</em>, “on the ground”). Elsewhere Latin expresses place-where with <em>in</em> + ablative.</p>",
+          "agRefs": [
+            "427"
+          ]
         }
       ]
     },
@@ -425,6 +434,32 @@
           "gloss": "<p>The voice in which the subject undergoes the action (<em>liber a puero legitur</em>, “the book is read by the boy”). Latin has distinct passive endings for the present system; the perfect passive is built from the <a href=\"note:ppp\">perfect passive participle</a> + a form of <em>esse</em>.</p>",
           "agRefs": [
             "156"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "degree",
+      "label": "Degree",
+      "values": [
+        {
+          "id": "comp",
+          "label": "Comparative",
+          "abbrev": "comp.",
+          "gloss": "<p>The degree of an adjective or adverb expressing “more” or “rather/too” (<em>altior</em>, “higher”; <em>altius</em>, “more deeply”). Adjective comparatives are formed with <code>-ior</code> (neuter <code>-ius</code>) and decline as third-declension adjectives; the adverb's comparative is the neuter accusative of the adjective's. The compared term takes <em>quam</em> or the ablative of comparison.</p>",
+          "agRefs": [
+            "123",
+            "124"
+          ]
+        },
+        {
+          "id": "superl",
+          "label": "Superlative",
+          "abbrev": "superl.",
+          "gloss": "<p>The degree of an adjective or adverb expressing “most” or “very” (<em>altissimus</em>, “highest / very high”; <em>carissime</em>, “dearest”, vocative). Formed with <code>-issimus</code> (<code>-rimus</code> after <code>-er</code>, <code>-limus</code> for a few in <code>-lis</code>) and declined like a first/second declension adjective. The positive degree is unmarked in parse codes.</p>",
+          "agRefs": [
+            "123",
+            "124"
           ]
         }
       ]

@@ -1816,12 +1816,14 @@
         {
           "kind": "word",
           "surface": "Amphitrite",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "amphitrite_n",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem"
           ],
-          "stanza": "amphitro",
-          "pos_hint": "adv"
+          "stanza": "amphitrite_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -3000,12 +3002,17 @@
         {
           "kind": "word",
           "surface": "concordi",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "concors_adj",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc",
+            "dat.sg.fem",
+            "abl.sg.fem",
+            "dat.sg.neut",
+            "abl.sg.neut"
           ],
-          "stanza": "concordus",
-          "pos_hint": "adv"
+          "stanza": "concors_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -6902,12 +6909,17 @@
         {
           "kind": "word",
           "surface": "Nabataea",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "nabataeus_adj",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem",
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "nabataeaqus",
-          "pos_hint": "adv"
+          "stanza": "nabataeus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "word",
@@ -6960,12 +6972,12 @@
         {
           "kind": "word",
           "surface": "Persida",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "persis_n",
           "parses": [
-            "unk"
+            "acc.sg.fem"
           ],
-          "stanza": "persidaqus",
-          "pos_hint": "adv"
+          "stanza": "persis_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "word",
@@ -7218,12 +7230,13 @@
         {
           "kind": "word",
           "surface": "Zephyro",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "zephyrius_adv",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc"
           ],
-          "stanza": "zepher",
-          "pos_hint": "adv"
+          "stanza": "zephyrius_adv",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -7232,12 +7245,12 @@
         {
           "kind": "word",
           "surface": "Scythiam",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "scythia_n",
           "parses": [
-            "unk"
+            "acc.sg.fem"
           ],
-          "stanza": "scythia",
-          "pos_hint": "adv"
+          "stanza": "scythia_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -7271,12 +7284,14 @@
         {
           "kind": "word",
           "surface": "triones",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "trio_n",
           "parses": [
-            "unk"
+            "nom.pl.masc",
+            "voc.pl.masc",
+            "acc.pl.masc"
           ],
-          "stanza": "trior",
-          "pos_hint": "adv"
+          "stanza": "trio_n",
+          "pos_hint": "noun"
         }
       ]
     },
@@ -7635,12 +7650,12 @@
         {
           "kind": "word",
           "surface": "faecis",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "faex_n",
           "parses": [
-            "unk"
+            "gen.sg.fem"
           ],
-          "stanza": "faecus",
-          "pos_hint": "adv"
+          "stanza": "faex_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -9106,12 +9121,13 @@
         {
           "kind": "word",
           "surface": "Iapeto",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "iapetus_n",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc"
           ],
-          "stanza": "iapetus",
-          "pos_hint": "adv"
+          "stanza": "iapetus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -9212,12 +9228,14 @@
         {
           "kind": "word",
           "surface": "moderantum",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "moderor_v",
           "parses": [
-            "unk"
+            "pap.gen.pl.masc",
+            "pap.gen.pl.fem",
+            "pap.gen.pl.neut"
           ],
-          "stanza": "modero",
-          "pos_hint": "adv"
+          "stanza": "moderor_v",
+          "pos_hint": "verb"
         },
         {
           "kind": "ws",
@@ -10755,12 +10773,12 @@
         {
           "kind": "word",
           "surface": "norant",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "nosco_v",
           "parses": [
-            "unk"
+            "3pl.plup.ind.act"
           ],
-          "stanza": "noro",
-          "pos_hint": "adv"
+          "stanza": "nosco_v",
+          "pos_hint": "verb"
         },
         {
           "kind": "punct",
@@ -11328,12 +11346,13 @@
         {
           "kind": "word",
           "surface": "vomeribus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "vomer_n",
           "parses": [
-            "unk"
+            "dat.pl.masc",
+            "abl.pl.masc"
           ],
-          "stanza": "vomer",
-          "pos_hint": "adv"
+          "stanza": "vomer_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -12532,12 +12551,14 @@
         {
           "kind": "word",
           "surface": "Tartara",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "tartara_n",
           "parses": [
-            "unk"
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "Tartara",
-          "pos_hint": "adv"
+          "stanza": "tartara_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -13558,12 +13579,14 @@
         {
           "kind": "word",
           "surface": "Cerealia",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "cerealis_adj",
           "parses": [
-            "unk"
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "cerealis",
-          "pos_hint": "adv"
+          "stanza": "cerealis_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -15284,12 +15307,17 @@
         {
           "kind": "word",
           "surface": "Stygiis",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "stygius_adj",
           "parses": [
-            "unk"
+            "dat.pl.masc",
+            "abl.pl.masc",
+            "dat.pl.fem",
+            "abl.pl.fem",
+            "dat.pl.neut",
+            "abl.pl.neut"
           ],
-          "stanza": "stygiisqum",
-          "pos_hint": "adv"
+          "stanza": "stygius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "word",
@@ -16415,12 +16443,14 @@
         {
           "kind": "word",
           "surface": "caelestum",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "caelestis_adj",
           "parses": [
-            "unk"
+            "gen.pl.masc",
+            "gen.pl.fem",
+            "gen.pl.neut"
           ],
-          "stanza": "caelestus",
-          "pos_hint": "adv"
+          "stanza": "caelestis_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -16443,12 +16473,14 @@
         {
           "kind": "word",
           "surface": "Astraea",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "astraea_n",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem"
           ],
-          "stanza": "astraea",
-          "pos_hint": "adv"
+          "stanza": "astraea_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -16630,12 +16662,12 @@
         {
           "kind": "word",
           "surface": "Gigantas",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "gigas_n",
           "parses": [
-            "unk"
+            "acc.pl.masc"
           ],
-          "stanza": "gigo",
-          "pos_hint": "adv"
+          "stanza": "gigas_n",
+          "pos_hint": "noun"
         }
       ]
     },
@@ -16836,12 +16868,12 @@
         {
           "kind": "word",
           "surface": "Olympum",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "olympus_n",
           "parses": [
-            "unk"
+            "acc.sg.masc"
           ],
-          "stanza": "olymppus",
-          "pos_hint": "adv"
+          "stanza": "olympus_n",
+          "pos_hint": "noun"
         }
       ]
     },
@@ -16911,12 +16943,14 @@
         {
           "kind": "word",
           "surface": "Pelion",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "pelion_n",
           "parses": [
-            "unk"
+            "nom.sg.neut",
+            "voc.sg.neut",
+            "acc.sg.neut"
           ],
-          "stanza": "pelio",
-          "pos_hint": "adv"
+          "stanza": "pelion_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -16925,12 +16959,13 @@
         {
           "kind": "word",
           "surface": "Ossae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "ossa_n",
           "parses": [
-            "unk"
+            "gen.sg.fem",
+            "dat.sg.fem"
           ],
-          "stanza": "os_n",
-          "pos_hint": "adv"
+          "stanza": "ossa_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -17324,12 +17359,14 @@
         {
           "kind": "word",
           "surface": "monimenta",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "monimentum_n",
           "parses": [
-            "unk"
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "monimentum",
-          "pos_hint": "adv"
+          "stanza": "monimentum_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -17918,12 +17955,15 @@
         {
           "kind": "word",
           "surface": "Lycaoniae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "lycaonius_adj",
           "parses": [
-            "unk"
+            "gen.sg.fem",
+            "dat.sg.fem",
+            "nom.pl.fem",
+            "voc.pl.fem"
           ],
-          "stanza": "lycaonia",
-          "pos_hint": "adv"
+          "stanza": "lycaonius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -19913,12 +19953,13 @@
         {
           "kind": "word",
           "surface": "anguipedum",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "anguipes_adj",
           "parses": [
-            "unk"
+            "gen.pl.masc",
+            "gen.pl.fem"
           ],
-          "stanza": "anguipedus",
-          "pos_hint": "adv"
+          "stanza": "anguipes_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -20292,12 +20333,12 @@
         {
           "kind": "word",
           "surface": "Nereus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "nereus_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "Nereus",
-          "pos_hint": "adv"
+          "stanza": "nereus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -20497,12 +20538,15 @@
         {
           "kind": "word",
           "surface": "Stygio",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "stygius_adj",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc",
+            "dat.sg.neut",
+            "abl.sg.neut"
           ],
-          "stanza": "stygius",
-          "pos_hint": "adv"
+          "stanza": "stygius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -20869,12 +20913,14 @@
         {
           "kind": "word",
           "surface": "fauni",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "faunus_n",
           "parses": [
-            "unk"
+            "gen.sg.masc",
+            "nom.pl.masc",
+            "voc.pl.masc"
           ],
-          "stanza": "fauno",
-          "pos_hint": "adv"
+          "stanza": "faunus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "word",
@@ -20950,12 +20996,14 @@
         {
           "kind": "word",
           "surface": "silvani",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "silvanus_n",
           "parses": [
-            "unk"
+            "gen.sg.masc",
+            "nom.pl.masc",
+            "voc.pl.masc"
           ],
-          "stanza": "silvanus",
-          "pos_hint": "adv"
+          "stanza": "silvanus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -21753,12 +21801,15 @@
         {
           "kind": "word",
           "surface": "Caesareo",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "caesareus_adj",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc",
+            "dat.sg.neut",
+            "abl.sg.neut"
           ],
-          "stanza": "caesareus",
-          "pos_hint": "adv"
+          "stanza": "caesareus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -21767,12 +21818,15 @@
         {
           "kind": "word",
           "surface": "Romanum",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "romanus_adj",
           "parses": [
-            "unk"
+            "acc.sg.masc",
+            "nom.sg.neut",
+            "voc.sg.neut",
+            "acc.sg.neut"
           ],
-          "stanza": "romanus",
-          "pos_hint": "adv"
+          "stanza": "romanus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -22931,12 +22985,13 @@
         {
           "kind": "word",
           "surface": "Olympo",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "olympus_n",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc"
           ],
-          "stanza": "olympus",
-          "pos_hint": "adv"
+          "stanza": "olympus_n",
+          "pos_hint": "noun"
         }
       ]
     },
@@ -23282,12 +23337,14 @@
         {
           "kind": "word",
           "surface": "Maenala",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "maenala_n",
           "parses": [
-            "unk"
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "maenalum",
-          "pos_hint": "adv"
+          "stanza": "maenala_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -23390,12 +23447,14 @@
         {
           "kind": "word",
           "surface": "Cyllene",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "cyllene_n",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem"
           ],
-          "stanza": "cyllenc",
-          "pos_hint": "adv"
+          "stanza": "cyllene_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -23437,12 +23496,12 @@
         {
           "kind": "word",
           "surface": "Lycaei",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "lycaeus_n",
           "parses": [
-            "unk"
+            "gen.sg.masc"
           ],
-          "stanza": "lycae",
-          "pos_hint": "adv"
+          "stanza": "lycaeus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -23457,12 +23516,12 @@
         {
           "kind": "word",
           "surface": "Arcadis",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "arcas_n",
           "parses": [
-            "unk"
+            "gen.sg.masc"
           ],
-          "stanza": "arcado",
-          "pos_hint": "adv"
+          "stanza": "arcas_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -24404,12 +24463,17 @@
         {
           "kind": "word",
           "surface": "Molossa",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "molossus_adj",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem",
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "molossus",
-          "pos_hint": "adv"
+          "stanza": "molossus_adj",
+          "pos_hint": "adj"
         }
       ]
     },
@@ -26019,12 +26083,13 @@
         {
           "kind": "word",
           "surface": "Erinys",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "erinys_n",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem"
           ],
-          "stanza": "erinysia",
-          "pos_hint": "adv"
+          "stanza": "erinys_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -27544,12 +27609,12 @@
         {
           "kind": "word",
           "surface": "ardesceret",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "ardesco_v",
           "parses": [
-            "unk"
+            "3sg.imperf.subj.act"
           ],
-          "stanza": "ardesco",
-          "pos_hint": "adv"
+          "stanza": "ardesco_v",
+          "pos_hint": "verb"
         },
         {
           "kind": "ws",
@@ -27979,12 +28044,12 @@
         {
           "kind": "word",
           "surface": "Cyclopum",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "cyclops_n",
           "parses": [
-            "unk"
+            "gen.pl.masc"
           ],
-          "stanza": "cyclopus",
-          "pos_hint": "adv"
+          "stanza": "cyclops_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -28248,12 +28313,17 @@
         {
           "kind": "word",
           "surface": "Aeoliis",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "aeolius_adj",
           "parses": [
-            "unk"
+            "dat.pl.masc",
+            "abl.pl.masc",
+            "dat.pl.fem",
+            "abl.pl.fem",
+            "dat.pl.neut",
+            "abl.pl.neut"
           ],
-          "stanza": "aeoleus",
-          "pos_hint": "adv"
+          "stanza": "aeolius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -31564,12 +31634,14 @@
         {
           "kind": "word",
           "surface": "cumba",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "cumba_n",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem"
           ],
-          "stanza": "cumba",
-          "pos_hint": "adv"
+          "stanza": "cumba_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -32532,12 +32604,14 @@
         {
           "kind": "word",
           "surface": "Nereides",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "nereis_n",
           "parses": [
-            "unk"
+            "nom.pl.fem",
+            "voc.pl.fem",
+            "acc.pl.fem"
           ],
-          "stanza": "nereis",
-          "pos_hint": "adv"
+          "stanza": "nereis_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -32585,12 +32659,14 @@
         {
           "kind": "word",
           "surface": "delphines",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "delphin_n",
           "parses": [
-            "unk"
+            "nom.pl.masc",
+            "voc.pl.masc",
+            "acc.pl.masc"
           ],
-          "stanza": "delphines",
-          "pos_hint": "adv"
+          "stanza": "delphin_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -33020,12 +33096,14 @@
         {
           "kind": "word",
           "surface": "velocia",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "velox_adj",
           "parses": [
-            "unk"
+            "nom.pl.neut",
+            "acc.pl.neut",
+            "voc.pl.neut"
           ],
           "stanza": "velox_adj",
-          "pos_hint": "adv"
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -33720,12 +33798,12 @@
         {
           "kind": "word",
           "surface": "Aonios",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "aonius_adj",
           "parses": [
-            "unk"
+            "acc.pl.masc"
           ],
-          "stanza": "aonius",
-          "pos_hint": "adv"
+          "stanza": "aonius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -33734,12 +33812,17 @@
         {
           "kind": "word",
           "surface": "Oetaeis",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "oetaeus_adj",
           "parses": [
-            "unk"
+            "dat.pl.masc",
+            "abl.pl.masc",
+            "dat.pl.fem",
+            "abl.pl.fem",
+            "dat.pl.neut",
+            "abl.pl.neut"
           ],
-          "stanza": "oetaeus",
-          "pos_hint": "adv"
+          "stanza": "oetaeus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -34165,12 +34248,12 @@
         {
           "kind": "word",
           "surface": "Parnasus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "parnasus_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "Parnasus",
-          "pos_hint": "adv"
+          "stanza": "parnasus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -34470,12 +34553,12 @@
         {
           "kind": "word",
           "surface": "Corycidas",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "corycis_adj",
           "parses": [
-            "unk"
+            "acc.pl.fem"
           ],
-          "stanza": "corycidus",
-          "pos_hint": "adv"
+          "stanza": "corycis_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -34586,12 +34669,12 @@
         {
           "kind": "word",
           "surface": "Themin",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "themis_n",
           "parses": [
-            "unk"
+            "acc.sg.fem"
           ],
-          "stanza": "thema",
-          "pos_hint": "adv"
+          "stanza": "themis_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -35839,12 +35922,12 @@
         {
           "kind": "word",
           "surface": "Tritona",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "triton_n",
           "parses": [
-            "unk"
+            "acc.sg.masc"
           ],
-          "stanza": "Tritona",
-          "pos_hint": "adv"
+          "stanza": "triton_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -39952,12 +40035,12 @@
         {
           "kind": "word",
           "surface": "Cephisidas",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "cephisis_adj",
           "parses": [
-            "unk"
+            "acc.pl.fem"
           ],
-          "stanza": "cephisidus",
-          "pos_hint": "adv"
+          "stanza": "cephisis_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -40951,12 +41034,12 @@
         {
           "kind": "word",
           "surface": "Themi",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "themis_n",
           "parses": [
-            "unk"
+            "voc.sg.fem"
           ],
-          "stanza": "themo",
-          "pos_hint": "adv"
+          "stanza": "themis_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -42150,12 +42233,12 @@
         {
           "kind": "word",
           "surface": "Promethides",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "promethides_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "promethis",
-          "pos_hint": "adv"
+          "stanza": "promethides_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -42183,12 +42266,12 @@
         {
           "kind": "word",
           "surface": "Epimethida",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "epimethis_n",
           "parses": [
-            "unk"
+            "acc.sg.fem"
           ],
-          "stanza": "epimethidus",
-          "pos_hint": "adv"
+          "stanza": "epimethis_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -42795,12 +42878,14 @@
         {
           "kind": "word",
           "surface": "Titania",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "titania_n",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem"
           ],
-          "stanza": "titanis",
-          "pos_hint": "adv"
+          "stanza": "titania_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -47093,12 +47178,18 @@
         {
           "kind": "word",
           "surface": "discors",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "discors_adj",
           "parses": [
-            "unk"
+            "nom.sg.masc",
+            "nom.sg.fem",
+            "nom.sg.neut",
+            "acc.sg.neut",
+            "voc.sg.masc",
+            "voc.sg.fem",
+            "voc.sg.neut"
           ],
           "stanza": "discors_adj",
-          "pos_hint": "adv"
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -49218,12 +49309,12 @@
         {
           "kind": "word",
           "surface": "Delius",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "delius_adj",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "Delius",
-          "pos_hint": "adv"
+          "stanza": "delius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -49420,12 +49511,12 @@
         {
           "kind": "word",
           "surface": "que",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "que_enclit",
           "parses": [
-            "unk"
+            "enclit"
           ],
           "stanza": "que_enclit",
-          "pos_hint": "adv"
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws"
@@ -49606,12 +49697,14 @@
         {
           "kind": "word",
           "surface": "gestamina",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "gestamen_n",
           "parses": [
-            "unk"
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "gestamina",
-          "pos_hint": "adv"
+          "stanza": "gestamen_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -50711,12 +50804,12 @@
         {
           "kind": "word",
           "surface": "Parnasi",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "parnasus_n",
           "parses": [
-            "unk"
+            "gen.sg.masc"
           ],
-          "stanza": "parnasus",
-          "pos_hint": "adv"
+          "stanza": "parnasus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -51366,12 +51459,12 @@
         {
           "kind": "word",
           "surface": "Apollineas",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "apollineus_adj",
           "parses": [
-            "unk"
+            "acc.pl.fem"
           ],
-          "stanza": "apollineus",
-          "pos_hint": "adv"
+          "stanza": "apollineus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -52074,12 +52167,13 @@
         {
           "kind": "word",
           "surface": "Hymen",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "hymen_n",
           "parses": [
-            "unk"
+            "nom.sg.masc",
+            "voc.sg.masc"
           ],
-          "stanza": "Hymen",
-          "pos_hint": "adv"
+          "stanza": "hymen_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -52797,12 +52891,12 @@
         {
           "kind": "word",
           "surface": "carissime",
-          "lemma_id": "carus_n",
+          "lemma_id": "carus_adj",
           "parses": [
-            "voc.sg.masc"
+            "superl.voc.sg.masc"
           ],
-          "stanza": "cario",
-          "pos_hint": "noun"
+          "stanza": "carus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "punct",
@@ -52925,12 +53019,13 @@
         {
           "kind": "word",
           "surface": "Dianae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "diana_n",
           "parses": [
-            "unk"
+            "gen.sg.fem",
+            "dat.sg.fem"
           ],
-          "stanza": "dianaeus",
-          "pos_hint": "adv"
+          "stanza": "diana_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -56151,12 +56246,17 @@
         {
           "kind": "word",
           "surface": "Delphica",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "delphicus_adj",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem",
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "delphicus",
-          "pos_hint": "adv"
+          "stanza": "delphicus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -56224,12 +56324,12 @@
         {
           "kind": "word",
           "surface": "Tenedos",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "tenedos_n",
           "parses": [
-            "unk"
+            "nom.sg.fem"
           ],
-          "stanza": "Tenedos",
-          "pos_hint": "adv"
+          "stanza": "tenedos_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -56238,12 +56338,17 @@
         {
           "kind": "word",
           "surface": "Patarea",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "patareus_adj",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem",
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "Patareaque",
-          "pos_hint": "adv"
+          "stanza": "patareus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "word",
@@ -58246,12 +58351,12 @@
         {
           "kind": "word",
           "surface": "Gallicus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "gallicus_adj",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "Gallicus",
-          "pos_hint": "adv"
+          "stanza": "gallicus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -60538,12 +60643,12 @@
         {
           "kind": "word",
           "surface": "conplexus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "conplector_v",
           "parses": [
-            "unk"
+            "ppp.nom.sg.masc"
           ],
-          "stanza": "conplego",
-          "pos_hint": "adv"
+          "stanza": "conplector_v",
+          "pos_hint": "verb"
         },
         {
           "kind": "word",
@@ -61201,12 +61306,17 @@
         {
           "kind": "word",
           "surface": "Latiis",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "latius_adj",
           "parses": [
-            "unk"
+            "dat.pl.masc",
+            "abl.pl.masc",
+            "dat.pl.fem",
+            "abl.pl.fem",
+            "dat.pl.neut",
+            "abl.pl.neut"
           ],
-          "stanza": "latia",
-          "pos_hint": "adv"
+          "stanza": "latius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -61350,12 +61460,14 @@
         {
           "kind": "word",
           "surface": "Capitolia",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "capitolium_n",
           "parses": [
-            "unk"
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "capitolia",
-          "pos_hint": "adv"
+          "stanza": "capitolium_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -62071,12 +62183,13 @@
         {
           "kind": "word",
           "surface": "Haemoniae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "haemonia_n",
           "parses": [
-            "unk"
+            "gen.sg.fem",
+            "dat.sg.fem"
           ],
-          "stanza": "haemonias",
-          "pos_hint": "adv"
+          "stanza": "haemonia_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -62179,12 +62292,14 @@
         {
           "kind": "word",
           "surface": "Tempe",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "tempe_n",
           "parses": [
-            "unk"
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "tempus_n",
-          "pos_hint": "adv"
+          "stanza": "tempe_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -62287,12 +62402,13 @@
         {
           "kind": "word",
           "surface": "Pindo",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "pindus_n",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc"
           ],
-          "stanza": "pindus",
-          "pos_hint": "adv"
+          "stanza": "pindus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -62499,12 +62615,12 @@
         {
           "kind": "word",
           "surface": "adspergine",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "adspergo_n",
           "parses": [
-            "unk"
+            "abl.sg.fem"
           ],
-          "stanza": "adspergo",
-          "pos_hint": "adv"
+          "stanza": "adspergo_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -63192,12 +63308,12 @@
         {
           "kind": "word",
           "surface": "Sperchios",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "sperchios_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "sperchia",
-          "pos_hint": "adv"
+          "stanza": "sperchios_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -63234,12 +63350,12 @@
         {
           "kind": "word",
           "surface": "Enipeus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "enipeus_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "Enipeus",
-          "pos_hint": "adv"
+          "stanza": "enipeus_n",
+          "pos_hint": "noun"
         }
       ]
     },
@@ -63250,12 +63366,12 @@
         {
           "kind": "word",
           "surface": "Apidanus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "apidanus_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "apidansus",
-          "pos_hint": "adv"
+          "stanza": "apidanus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "word",
@@ -63315,12 +63431,12 @@
         {
           "kind": "word",
           "surface": "Amphrysos",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "amphrysos_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "amphrysus",
-          "pos_hint": "adv"
+          "stanza": "amphrysos_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -65276,12 +65392,13 @@
         {
           "kind": "word",
           "surface": "Lernae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "lerna_n",
           "parses": [
-            "unk"
+            "gen.sg.fem",
+            "dat.sg.fem"
           ],
-          "stanza": "lerna",
-          "pos_hint": "adv"
+          "stanza": "lerna_n",
+          "pos_hint": "noun"
         }
       ]
     },
@@ -65337,12 +65454,17 @@
         {
           "kind": "word",
           "surface": "Lyrcea",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "lyrceus_adj",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem",
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "lyrceum",
-          "pos_hint": "adv"
+          "stanza": "lyrceus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -68093,12 +68215,13 @@
         {
           "kind": "word",
           "surface": "Arestoridae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "arestorides_n",
           "parses": [
-            "unk"
+            "gen.sg.masc",
+            "dat.sg.masc"
           ],
-          "stanza": "arestoridus",
-          "pos_hint": "adv"
+          "stanza": "arestorides_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -69955,12 +70078,13 @@
         {
           "kind": "word",
           "surface": "Naides",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "naias_n",
           "parses": [
-            "unk"
+            "nom.pl.fem",
+            "voc.pl.fem"
           ],
-          "stanza": "naidiel",
-          "pos_hint": "adv"
+          "stanza": "naias_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -72984,12 +73108,12 @@
         {
           "kind": "word",
           "surface": "Phoronidos",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "phoronis_n",
           "parses": [
-            "unk"
+            "gen.sg.fem"
           ],
-          "stanza": "phoronidus",
-          "pos_hint": "adv"
+          "stanza": "phoronis_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -73133,12 +73257,13 @@
         {
           "kind": "word",
           "surface": "Pleias",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "pleias_n",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem"
           ],
-          "stanza": "pleia",
-          "pos_hint": "adv"
+          "stanza": "pleias_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -74105,12 +74230,12 @@
         {
           "kind": "word",
           "surface": "Iunonius",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "iunonius_adj",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "iunonius",
-          "pos_hint": "adv"
+          "stanza": "iunonius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws"
@@ -74530,12 +74655,12 @@
         {
           "kind": "word",
           "surface": "Atlantiades",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "atlantiades_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "atlantia",
-          "pos_hint": "adv"
+          "stanza": "atlantiades_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -75262,12 +75387,13 @@
         {
           "kind": "word",
           "surface": "Arcadiae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "arcadia_n",
           "parses": [
-            "unk"
+            "gen.sg.fem",
+            "dat.sg.fem"
           ],
-          "stanza": "“arcadia",
-          "pos_hint": "adv"
+          "stanza": "arcadia_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -75362,12 +75488,12 @@
         {
           "kind": "word",
           "surface": "hamadryadas",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "hamadryas_n",
           "parses": [
-            "unk"
+            "acc.pl.fem"
           ],
-          "stanza": "hamadrya",
-          "pos_hint": "adv"
+          "stanza": "hamadryas_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -75396,12 +75522,12 @@
         {
           "kind": "word",
           "surface": "Nonacrinas",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "nonacrinus_adj",
           "parses": [
-            "unk"
+            "acc.pl.fem"
           ],
-          "stanza": "nonacrinus",
-          "pos_hint": "adv"
+          "stanza": "nonacrinus_adj",
+          "pos_hint": "adj"
         }
       ]
     },
@@ -75412,12 +75538,13 @@
         {
           "kind": "word",
           "surface": "naias",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "naias_n",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem"
           ],
-          "stanza": "naias",
-          "pos_hint": "adv"
+          "stanza": "naias_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -75922,12 +76049,13 @@
         {
           "kind": "word",
           "surface": "Dianae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "diana_n",
           "parses": [
-            "unk"
+            "gen.sg.fem",
+            "dat.sg.fem"
           ],
-          "stanza": "diana",
-          "pos_hint": "adv"
+          "stanza": "diana_n",
+          "pos_hint": "noun"
         }
       ]
     },
@@ -75994,12 +76122,17 @@
         {
           "kind": "word",
           "surface": "Latonia",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "latonius_adj",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem",
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "latonius",
-          "pos_hint": "adv"
+          "stanza": "latonius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "punct",
@@ -76236,12 +76369,13 @@
         {
           "kind": "word",
           "surface": "Lycaeo",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "lycaeus_n",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc"
           ],
-          "stanza": "lycaeum",
-          "pos_hint": "adv"
+          "stanza": "lycaeus_n",
+          "pos_hint": "noun"
         }
       ]
     },
@@ -76622,12 +76756,12 @@
         {
           "kind": "word",
           "surface": "Ladonis",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "ladon_n",
           "parses": [
-            "unk"
+            "gen.sg.masc"
           ],
-          "stanza": "ladon",
-          "pos_hint": "adv"
+          "stanza": "ladon_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -76860,12 +76994,12 @@
         {
           "kind": "word",
           "surface": "Pana",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "pan_n",
           "parses": [
-            "unk"
+            "acc.sg.masc"
           ],
-          "stanza": "pano",
-          "pos_hint": "adv"
+          "stanza": "pan_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "word",
@@ -76898,12 +77032,12 @@
         {
           "kind": "word",
           "surface": "prensam",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "prendo_v",
           "parses": [
-            "unk"
+            "ppp.acc.sg.fem"
           ],
-          "stanza": "prendo",
-          "pos_hint": "adv"
+          "stanza": "prendo_v",
+          "pos_hint": "verb"
         },
         {
           "kind": "ws",
@@ -77558,12 +77692,12 @@
         {
           "kind": "word",
           "surface": "conpagine",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "conpago_n",
           "parses": [
-            "unk"
+            "abl.sg.fem"
           ],
-          "stanza": "conpago",
-          "pos_hint": "adv"
+          "stanza": "conpago_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -77746,12 +77880,12 @@
         {
           "kind": "word",
           "surface": "Cyllenius",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "cyllenius_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "Cyllenius",
-          "pos_hint": "adv"
+          "stanza": "cyllenius_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -78991,11 +79125,12 @@
         {
           "kind": "word",
           "surface": "Erinyn",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "erinys_n",
           "parses": [
-            "unk"
+            "acc.sg.fem"
           ],
-          "pos_hint": "adv"
+          "pos_hint": "noun",
+          "stanza": "erinys_n"
         }
       ]
     },
@@ -79020,12 +79155,15 @@
         {
           "kind": "word",
           "surface": "Argolicae",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "argolicus_adj",
           "parses": [
-            "unk"
+            "gen.sg.fem",
+            "dat.sg.fem",
+            "nom.pl.fem",
+            "voc.pl.fem"
           ],
-          "stanza": "argolicus",
-          "pos_hint": "adv"
+          "stanza": "argolicus_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -79913,12 +80051,12 @@
         {
           "kind": "word",
           "surface": "conplexus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "conplector_v",
           "parses": [
-            "unk"
+            "ppp.nom.sg.masc"
           ],
-          "stanza": "conpleo",
-          "pos_hint": "adv"
+          "stanza": "conplector_v",
+          "pos_hint": "verb"
         },
         {
           "kind": "ws",
@@ -80061,12 +80199,12 @@
         {
           "kind": "word",
           "surface": "que",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "que_enclit",
           "parses": [
-            "unk"
+            "enclit"
           ],
           "stanza": "que_enclit",
-          "pos_hint": "adv"
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws"
@@ -80271,12 +80409,12 @@
         {
           "kind": "word",
           "surface": "Stygias",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "stygius_adj",
           "parses": [
-            "unk"
+            "acc.pl.fem"
           ],
-          "stanza": "stygia",
-          "pos_hint": "adv"
+          "stanza": "stygius_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -81400,12 +81538,17 @@
         {
           "kind": "word",
           "surface": "linigera",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "liniger_adj",
           "parses": [
-            "unk"
+            "nom.sg.fem",
+            "voc.sg.fem",
+            "abl.sg.fem",
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
-          "stanza": "linigera",
-          "pos_hint": "adv"
+          "stanza": "liniger_adj",
+          "pos_hint": "adj"
         },
         {
           "kind": "ws",
@@ -81486,12 +81629,12 @@
         {
           "kind": "word",
           "surface": "Epaphus",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "epaphus_n",
           "parses": [
-            "unk"
+            "nom.sg.masc"
           ],
-          "stanza": "Epaphus",
-          "pos_hint": "adv"
+          "stanza": "epaphus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -81992,12 +82135,13 @@
         {
           "kind": "word",
           "surface": "Phoebo",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "Phoebus_n",
           "parses": [
-            "unk"
+            "dat.sg.masc",
+            "abl.sg.masc"
           ],
-          "stanza": "phoeboqus",
-          "pos_hint": "adv"
+          "stanza": "Phoebus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "word",
@@ -82121,12 +82265,12 @@
         {
           "kind": "word",
           "surface": "que",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "que_enclit",
           "parses": [
-            "unk"
+            "enclit"
           ],
           "stanza": "que_enclit",
-          "pos_hint": "adv"
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws",
@@ -82448,12 +82592,12 @@
         {
           "kind": "word",
           "surface": "Epaphi",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "epaphus_n",
           "parses": [
-            "unk"
+            "gen.sg.masc"
           ],
-          "stanza": "epaphus",
-          "pos_hint": "adv"
+          "stanza": "epaphus_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -82520,12 +82664,12 @@
         {
           "kind": "word",
           "surface": "que",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "que_enclit",
           "parses": [
-            "unk"
+            "enclit"
           ],
           "stanza": "que_enclit",
-          "pos_hint": "adv"
+          "pos_hint": "enclitic"
         },
         {
           "kind": "ws"
@@ -85052,12 +85196,12 @@
         {
           "kind": "word",
           "surface": "Aethiopas",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "aethiops_n",
           "parses": [
-            "unk"
+            "acc.pl.masc"
           ],
-          "stanza": "aethiopasquus",
-          "pos_hint": "adv"
+          "stanza": "aethiops_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "word",
@@ -85144,12 +85288,12 @@
         {
           "kind": "word",
           "surface": "Indos",
-          "lemma_id": "unknown_adv",
+          "lemma_id": "indus_n",
           "parses": [
-            "unk"
+            "acc.pl.masc"
           ],
-          "stanza": "Indos",
-          "pos_hint": "adv"
+          "stanza": "indus_n",
+          "pos_hint": "noun"
         }
       ]
     },

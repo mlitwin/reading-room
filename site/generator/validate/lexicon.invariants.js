@@ -326,6 +326,52 @@ export const lexiconInvariants = [
   },
 
   {
+    id: 'L11',
+    description: 'Second-declension vocative singulars follow A&G §49.c',
+    severity: 'warning', // linguistic sanity check on generated paradigms
+    /** @param {LexiconDocument} lex */
+    check(lex) {
+      // -us nouns/adjectives (2nd decl, gen. sg. in -i) take voc. -e; -ius
+      // proper names plus filius/genius take -i; other -ius forms take -ie;
+      // deus keeps deus; meus takes mi. Guards against regenerating grids
+      // with the voc=nom bug fixed in phase1_corrections.py.
+      const EXEMPT = new Set(['deus_n', 'meus_pron']);
+      /** @type {Violation[]} */
+      const violations = [];
+      const first = (v) => (Array.isArray(v) ? v[0] : v);
+      for (const lemma of lex.lemmata) {
+        if (EXEMPT.has(lemma.id) || !lemma.paradigm) continue;
+        const cells = lemma.paradigm.cells;
+        const pairs = lemma.pos === 'noun'
+          ? [['nom.sg', 'voc.sg', 'gen.sg']]
+          : (lemma.pos === 'adj' ? [['nom.sg.masc', 'voc.sg.masc', 'gen.sg.masc']] : []);
+        for (const [nomK, vocK, genK] of pairs) {
+          const nom = first(cells[nomK]);
+          const gen = first(cells[genK]);
+          if (!nom || !nom.endsWith('us') || cells[vocK] == null) continue;
+          if (gen !== nom.slice(0, -2) + 'i') continue; // not 2nd declension
+          // Proper names in -ius (nouns only) plus filius/genius take -i.
+          const isProperIus = lemma.pos === 'noun' && nom.endsWith('ius')
+            && /^[A-Z]/.test(nom);
+          const expected = isProperIus || ['filius_n', 'genius_n'].includes(lemma.id)
+            ? nom.slice(0, -2)
+            : (nom.endsWith('ius') ? nom.slice(0, -3) + 'ie' : nom.slice(0, -2) + 'e');
+          const vocForms = Array.isArray(cells[vocK]) ? cells[vocK] : [cells[vocK]];
+          // Greek names in -eus keep the Greek vocative -eu (Nereu, Orpheu).
+          const greekEu = nom.endsWith('eus') && vocForms.includes(nom.slice(0, -1));
+          if (!vocForms.includes(expected) && !greekEu) {
+            violations.push({
+              path: `${lemma.id}.paradigm.cells.${vocK}`,
+              message: `vocative "${vocForms.join('/')}" — expected "${expected}" (A&G §49.c)`,
+            });
+          }
+        }
+      }
+      return violations;
+    },
+  },
+
+  {
     id: 'L10',
     description: 'Every parse atom in paradigm cell keys is defined in grammar.json',
     /** @param {LexiconDocument} lex */

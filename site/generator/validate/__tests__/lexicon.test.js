@@ -156,3 +156,38 @@ test('L10 flags a cell-key parse atom not defined in grammar', () => {
   assert.equal(inv.passed, false);
   assert.match(inv.violations[0].message, /"ppl"/);
 });
+
+test('L11 flags a second-declension vocative copying the nominative', () => {
+  const bad = {
+    id: 'animus_n', lemma: 'animus', pos: 'noun', gender: 'masc',
+    glosses: ['mind'], head: 'animus, -i, m.',
+    paradigm: {
+      type: 'noun', rows: ['nom', 'voc', 'gen'], cols: ['sg'],
+      cells: { 'nom.sg': 'animus', 'voc.sg': 'animus', 'gen.sg': 'animi' },
+    },
+  };
+  const report = runSuite('lexicon', lexiconInvariants, {
+    language_id: 'latin',
+    lemmata: [bad],
+  }, { grammar });
+  const inv = report.invariants.find((x) => x.id === 'L11');
+  assert.equal(inv.passed, false);
+  assert.match(inv.violations[0].message, /anime/);
+});
+
+test('L11 accepts Greek -eus vocatives in -eu', () => {
+  const ok = {
+    id: 'nereus_n', lemma: 'nereus', pos: 'noun', gender: 'masc',
+    glosses: ['Nereus'], head: 'Nereus, -ei, m.',
+    paradigm: {
+      type: 'noun', rows: ['nom', 'voc', 'gen'], cols: ['sg'],
+      cells: { 'nom.sg': 'Nereus', 'voc.sg': 'Nereu', 'gen.sg': 'Nerei' },
+    },
+  };
+  const report = runSuite('lexicon', lexiconInvariants, {
+    language_id: 'latin',
+    lemmata: [ok],
+  }, { grammar });
+  const inv = report.invariants.find((x) => x.id === 'L11');
+  assert.equal(inv.passed, true);
+});

@@ -11,6 +11,68 @@
 
 ---
 
+## Latin-support Phase 3: display hardening (2026-07-01)
+
+- **Marker grids render.** `cards.js` now renders paradigm cells stored under
+  non-finite / degree marker prefixes (`pap.`, `fap.`, `gerundive.`, `ger.`,
+  `comp.`, `superl.`) as their own labelled sections (reusing the ppp-grid
+  styling); previously ~76 cells per verb existed only for form-matching.
+  Verified in-browser: *moderantum* shows participle/gerundive/gerund
+  sections with `pap.gen.pl` highlighted; *carissime* shows comparative +
+  superlative grids with `superl.voc.sg.masc` highlighted.
+- **Cold-path drift guard.** `validate/__tests__/cards-fallback.test.js`
+  asserts every grammar.json value id is covered by the hardcoded cards.js
+  fallback maps (`comp`/`superl`/`loc` added). Build-time generation of the
+  fallbacks remains open backlog.
+- **Glossary provenance.** Each glossary entry attested in a text carries
+  `attested: true` (2,953 of 83,337 surfaces); the rest are
+  paradigm-generated dictionary forms. Schema documents the field.
+- **L11 vocative invariant** (warning): 2nd-declension voc. sg. must follow
+  A&G §49.c (-e; -ius names/filius/genius -i; -ius common -ie; Greek -eus
+  keeps -eu; deus/meus exempt) — guards the Phase 1 fix against regeneration.
+  It immediately caught six pre-existing unreferenced capitalized duplicate
+  cards (Stygius_adj vs stygius_adj etc.), now deleted.
+
+---
+
+## Latin-support Phase 2: onomasticon + degree (2026-07-01)
+
+Executed Phase 2 of `development/latin-support-analysis.md` via
+`site/latin/phase2_onomasticon.py` (idempotent). The `unknown_adv` sentinel is
+**retired**: all 111 unresolved Ovid tokens are lemmatized, the lemma is
+deleted, the `unk` marker atom is out of the closure allowlist, and the
+C1/C2 unknown_adv skip clauses are gone.
+
+- **89 new lexicon cards**: the Peneus river catalogue (Apidanus, Amphrysos,
+  Sperchios, Enipeus, Ladon), mountains/places (Olympus, Pelion, Ossa,
+  Parnasus, Pindus, Lycaeus, Maenala, Cyllene, Tempe, Tartara, Capitolium…),
+  theonyms (Amphitrite, Astraea, Nereus, Erinys, Themis, Triton, Diana,
+  Hymen…), patronymics (Promethides, Epimethis, Atlantiades, Arestorides),
+  collectives (fauns, silvans, Giants, Cyclopes, Nereids, naiads,
+  hamadryads), 25 ethnic/divine adjectives (Stygius, Delius, Latonius,
+  Corycis…), ordinary words (vomer, faex, cumba, gestamen, adspergo,
+  conpago, monimentum, trio, delphin, concors, anguipes, liniger), and four
+  verbs (ardesco, prendo, and the deponents moderor / conplector,
+  stem-transformed from the conor_v / sequor_v grids). Glosses cross-checked
+  against the vendored Lewis & Short.
+- **Token parses computed mechanically** from matching cells (gender-stamped
+  like build-glossary), so Gl2/Gl4/C3 verify every new paradigm. Syncopated /
+  contracted forms added as list-cells: nosco `norant`, caelestis
+  `caelestum`, moderor `moderantum`. The four stray `que` tokens were
+  quote-interrupted enclitics → `que_enclit`.
+- **Degree modeled**: grammar.json gains a `degree` category (`comp`,
+  `superl`; A&G §§123–124) and case `loc` (§427). `carus_n` (the Phase 1
+  regloss) is now `carus_adj` with full comparative + superlative grids;
+  Met 1.486 *carissime* parses as `superl.voc.sg.masc` instead of riding an
+  `alt` marker.
+
+Remaining from the analysis doc: Phase 3 (display hardening) plus two
+follow-ups noted during Phase 2: `zephyrius_adv` still has a misleading id
+(pos noun, cells Zephyrus), and comp./superl./gerund cells exist in cells but
+are not yet rendered as paradigm sections.
+
+---
+
 ## Latin-support Phase 1 corrections (2026-07-01)
 
 Executed Phase 1 of `development/latin-support-analysis.md` via

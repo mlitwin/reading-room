@@ -1,10 +1,14 @@
 # Latin support — correctness & coverage analysis
 
-> **Status 2026-07-01:** Phase 1 (§6, items 1–5) is done — see
-> `site/latin/phase1_corrections.py`, the new L10/Gl6/C12 closure invariants,
-> and the "Latin-support Phase 1 corrections" entry in `remaining-validate.md`.
-> Item 10's fallback-map staleness was also patched by hand (build-time
-> generation remains open). Phases 2–3 remain.
+> **Status 2026-07-01:** Phases 1 and 2 are done — see
+> `site/latin/phase1_corrections.py`, `site/latin/phase2_onomasticon.py`, the
+> L10/Gl6/C12 closure invariants, and the two Latin-support entries in
+> `remaining-validate.md`. The `unknown_adv` sentinel is retired (89 new
+> cards, all 111 tokens lemmatized), degree (`comp`/`superl`) and locative
+> are modeled, and *carissime* parses as a real superlative. Item 10's
+> fallback-map staleness was patched by hand (build-time generation remains
+> open). Phase 3 (display hardening: render comp/superl/gerund cell
+> sections, glossary provenance flag, generated fallback maps) remains.
 
 Review of [latin-support.md](latin-support.md) against the shipped data and
 runtime, 2026-07-01. Method: every factual claim in the doc was checked against

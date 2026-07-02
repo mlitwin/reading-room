@@ -11,11 +11,9 @@
 //   inv     — indeclinable, from noParadigmParse()
 //   enclit  — id-suffix spelling of pos "enclitic" (markdown span convention)
 //   alt     — suppletive / alternate-form surface marker
-//   unk     — unresolved first-pass analysis (unknown_adv backlog; Phase 2
-//             of development/latin-support-analysis.md retires this)
 //   n, v    — id-suffix codes emitted by noParadigmParse() for paradigmless
 //             lemmata reclassified to another POS (ceu_n → adv keeps "n")
-export const MARKER_ATOMS = new Set(['inv', 'enclit', 'alt', 'unk', 'n', 'v']);
+export const MARKER_ATOMS = new Set(['inv', 'enclit', 'alt', 'n', 'v']);
 
 /**
  * Build the set of valid parse atoms from grammar.json.

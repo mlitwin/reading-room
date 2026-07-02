@@ -22747,9 +22747,18 @@
           "gen.sg.masc": "caelestis",
           "gen.sg.fem": "caelestis",
           "gen.sg.neut": "caelestis",
-          "gen.pl.masc": "caelestium",
-          "gen.pl.fem": "caelestium",
-          "gen.pl.neut": "caelestium",
+          "gen.pl.masc": [
+            "caelestium",
+            "caelestum"
+          ],
+          "gen.pl.fem": [
+            "caelestium",
+            "caelestum"
+          ],
+          "gen.pl.neut": [
+            "caelestium",
+            "caelestum"
+          ],
           "dat.sg.masc": "caelesti",
           "dat.sg.fem": "caelesti",
           "dat.sg.neut": "caelesti",
@@ -26921,16 +26930,16 @@
       }
     },
     {
-      "id": "carus_n",
+      "id": "carus_adj",
       "lemma": "carus",
-      "pos": "noun",
-      "gender": "masc",
+      "pos": "adj",
+      "head": "carus, -a, -um (carior, carissimus)",
       "glosses": [
-        "dear one, beloved"
+        "dear, beloved",
+        "costly, precious"
       ],
-      "head": "carus, -i, m.",
       "paradigm": {
-        "type": "noun",
+        "type": "adj",
         "rows": [
           "nom",
           "voc",
@@ -26940,28 +26949,124 @@
           "abl"
         ],
         "cols": [
-          "sg",
-          "pl"
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
         ],
         "cells": {
-          "nom.sg": "carus",
-          "gen.sg": "cari",
-          "dat.sg": "caro",
-          "abl.sg": "caro",
-          "acc.sg": "carum",
-          "nom.pl": "cari",
-          "gen.pl": "carorum",
-          "dat.pl": "caris",
-          "abl.pl": "caris",
-          "acc.pl": "caros",
-          "voc.sg": "care",
-          "voc.pl": "cari"
+          "nom.sg.masc": "carus",
+          "voc.sg.masc": "care",
+          "gen.sg.masc": "cari",
+          "dat.sg.masc": "caro",
+          "acc.sg.masc": "carum",
+          "abl.sg.masc": "caro",
+          "nom.sg.fem": "cara",
+          "voc.sg.fem": "cara",
+          "gen.sg.fem": "carae",
+          "dat.sg.fem": "carae",
+          "acc.sg.fem": "caram",
+          "abl.sg.fem": "cara",
+          "nom.sg.neut": "carum",
+          "voc.sg.neut": "carum",
+          "gen.sg.neut": "cari",
+          "dat.sg.neut": "caro",
+          "acc.sg.neut": "carum",
+          "abl.sg.neut": "caro",
+          "nom.pl.masc": "cari",
+          "voc.pl.masc": "cari",
+          "gen.pl.masc": "carorum",
+          "dat.pl.masc": "caris",
+          "acc.pl.masc": "caros",
+          "abl.pl.masc": "caris",
+          "nom.pl.fem": "carae",
+          "voc.pl.fem": "carae",
+          "gen.pl.fem": "cararum",
+          "dat.pl.fem": "caris",
+          "acc.pl.fem": "caras",
+          "abl.pl.fem": "caris",
+          "nom.pl.neut": "cara",
+          "voc.pl.neut": "cara",
+          "gen.pl.neut": "carorum",
+          "dat.pl.neut": "caris",
+          "acc.pl.neut": "cara",
+          "abl.pl.neut": "caris",
+          "comp.nom.sg.masc": "carior",
+          "comp.voc.sg.masc": "carior",
+          "comp.gen.sg.masc": "carioris",
+          "comp.dat.sg.masc": "cariori",
+          "comp.acc.sg.masc": "cariorem",
+          "comp.abl.sg.masc": "cariore",
+          "comp.nom.pl.masc": "cariores",
+          "comp.voc.pl.masc": "cariores",
+          "comp.acc.pl.masc": "cariores",
+          "comp.gen.pl.masc": "cariorum",
+          "comp.dat.pl.masc": "carioribus",
+          "comp.abl.pl.masc": "carioribus",
+          "comp.nom.sg.fem": "carior",
+          "comp.voc.sg.fem": "carior",
+          "comp.gen.sg.fem": "carioris",
+          "comp.dat.sg.fem": "cariori",
+          "comp.acc.sg.fem": "cariorem",
+          "comp.abl.sg.fem": "cariore",
+          "comp.nom.pl.fem": "cariores",
+          "comp.voc.pl.fem": "cariores",
+          "comp.acc.pl.fem": "cariores",
+          "comp.gen.pl.fem": "cariorum",
+          "comp.dat.pl.fem": "carioribus",
+          "comp.abl.pl.fem": "carioribus",
+          "comp.nom.sg.neut": "carius",
+          "comp.voc.sg.neut": "carius",
+          "comp.gen.sg.neut": "carioris",
+          "comp.dat.sg.neut": "cariori",
+          "comp.acc.sg.neut": "carius",
+          "comp.abl.sg.neut": "cariore",
+          "comp.nom.pl.neut": "cariora",
+          "comp.voc.pl.neut": "cariora",
+          "comp.acc.pl.neut": "cariora",
+          "comp.gen.pl.neut": "cariorum",
+          "comp.dat.pl.neut": "carioribus",
+          "comp.abl.pl.neut": "carioribus",
+          "superl.nom.sg.masc": "carissimus",
+          "superl.voc.sg.masc": "carissime",
+          "superl.gen.sg.masc": "carissimi",
+          "superl.dat.sg.masc": "carissimo",
+          "superl.acc.sg.masc": "carissimum",
+          "superl.abl.sg.masc": "carissimo",
+          "superl.nom.sg.fem": "carissima",
+          "superl.voc.sg.fem": "carissima",
+          "superl.gen.sg.fem": "carissimae",
+          "superl.dat.sg.fem": "carissimae",
+          "superl.acc.sg.fem": "carissimam",
+          "superl.abl.sg.fem": "carissima",
+          "superl.nom.sg.neut": "carissimum",
+          "superl.voc.sg.neut": "carissimum",
+          "superl.gen.sg.neut": "carissimi",
+          "superl.dat.sg.neut": "carissimo",
+          "superl.acc.sg.neut": "carissimum",
+          "superl.abl.sg.neut": "carissimo",
+          "superl.nom.pl.masc": "carissimi",
+          "superl.voc.pl.masc": "carissimi",
+          "superl.gen.pl.masc": "carissimorum",
+          "superl.dat.pl.masc": "carissimis",
+          "superl.acc.pl.masc": "carissimos",
+          "superl.abl.pl.masc": "carissimis",
+          "superl.nom.pl.fem": "carissimae",
+          "superl.voc.pl.fem": "carissimae",
+          "superl.gen.pl.fem": "carissimarum",
+          "superl.dat.pl.fem": "carissimis",
+          "superl.acc.pl.fem": "carissimas",
+          "superl.abl.pl.fem": "carissimis",
+          "superl.nom.pl.neut": "carissima",
+          "superl.voc.pl.neut": "carissima",
+          "superl.gen.pl.neut": "carissimorum",
+          "superl.dat.pl.neut": "carissimis",
+          "superl.acc.pl.neut": "carissima",
+          "superl.abl.pl.neut": "carissimis"
         }
-      },
-      "alt_forms": [
-        "carissime"
-      ],
-      "notes": "Substantivized from the adjective carus; carissime (Met 1.486) is its superlative vocative."
+      }
     },
     {
       "id": "cauda_n",
@@ -136645,7 +136750,10 @@
           "3sg.plup.ind.act": "noverat",
           "1pl.plup.ind.act": "noveramus",
           "2pl.plup.ind.act": "noveratis",
-          "3pl.plup.ind.act": "noverant",
+          "3pl.plup.ind.act": [
+            "noverant",
+            "norant"
+          ],
           "1sg.futperf.ind.act": "novero",
           "2sg.futperf.ind.act": "noveris",
           "3sg.futperf.ind.act": "noverit",
@@ -215900,15 +216008,6 @@
       }
     },
     {
-      "id": "unknown_adv",
-      "lemma": "unknown",
-      "pos": "adv",
-      "glosses": [
-        "analysis unresolved in first-pass pipeline"
-      ],
-      "head": "unknown"
-    },
-    {
       "id": "uno_num",
       "lemma": "uno",
       "pos": "num",
@@ -226240,196 +226339,6 @@
       }
     },
     {
-      "id": "Nabataeus_adj",
-      "lemma": "Nabataeus",
-      "pos": "adj",
-      "glosses": [
-        "Nabataean",
-        "of the Nabataeans"
-      ],
-      "head": "Nabataeus, -a, -um",
-      "paradigm": {
-        "type": "adj",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg.masc",
-          "sg.fem",
-          "sg.neut",
-          "pl.masc",
-          "pl.fem",
-          "pl.neut"
-        ],
-        "cells": {
-          "nom.sg.masc": "Nabataeus",
-          "nom.sg.fem": "Nabataea",
-          "nom.sg.neut": "Nabataeum",
-          "voc.sg.masc": "Nabataee",
-          "voc.sg.fem": "Nabataea",
-          "voc.sg.neut": "Nabataeum",
-          "gen.sg.masc": "Nabataei",
-          "gen.sg.fem": "Nabataeae",
-          "gen.sg.neut": "Nabataei",
-          "dat.sg.masc": "Nabataeo",
-          "dat.sg.fem": "Nabataeae",
-          "dat.sg.neut": "Nabataeo",
-          "acc.sg.masc": "Nabataeum",
-          "acc.sg.fem": "Nabataeam",
-          "acc.sg.neut": "Nabataeum",
-          "abl.sg.masc": "Nabataeo",
-          "abl.sg.fem": "Nabataea",
-          "abl.sg.neut": "Nabataeo"
-        }
-      }
-    },
-    {
-      "id": "Persis_n",
-      "lemma": "Persis",
-      "pos": "noun",
-      "gender": "fem",
-      "glosses": [
-        "Persia",
-        "the Persian woman"
-      ],
-      "head": "Persis, -idis, f.",
-      "paradigm": {
-        "type": "noun",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg",
-          "pl"
-        ],
-        "cells": {
-          "nom.sg": "Persis",
-          "voc.sg": "Persi",
-          "gen.sg": "Persidis",
-          "dat.sg": "Persidi",
-          "acc.sg": [
-            "Persidem",
-            "Persida"
-          ],
-          "abl.sg": "Perside"
-        }
-      },
-      "defective": true
-    },
-    {
-      "id": "Stygius_adj",
-      "lemma": "Stygius",
-      "pos": "adj",
-      "glosses": [
-        "Stygian",
-        "of the river Styx"
-      ],
-      "head": "Stygius, -a, -um",
-      "paradigm": {
-        "type": "adj",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg.masc",
-          "sg.fem",
-          "sg.neut",
-          "pl.masc",
-          "pl.fem",
-          "pl.neut"
-        ],
-        "cells": {
-          "nom.sg.masc": "Stygius",
-          "nom.sg.fem": "Stygia",
-          "nom.sg.neut": "Stygium",
-          "voc.sg.masc": "Stygie",
-          "voc.sg.fem": "Stygia",
-          "voc.sg.neut": "Stygium",
-          "gen.sg.masc": "Stygii",
-          "gen.sg.fem": "Stygiae",
-          "gen.sg.neut": "Stygii",
-          "dat.sg.masc": "Stygio",
-          "dat.sg.fem": "Stygiae",
-          "dat.sg.neut": "Stygio",
-          "acc.sg.masc": "Stygium",
-          "acc.sg.fem": "Stygiam",
-          "acc.sg.neut": "Stygium",
-          "abl.sg.masc": "Stygio",
-          "abl.sg.fem": "Stygia",
-          "abl.sg.neut": "Stygio",
-          "nom.pl.masc": "Stygii",
-          "nom.pl.fem": "Stygiae",
-          "nom.pl.neut": "Stygia",
-          "gen.pl.masc": "Stygiorum",
-          "gen.pl.fem": "Stygiarum",
-          "gen.pl.neut": "Stygiorum",
-          "dat.pl.masc": "Stygiis",
-          "dat.pl.fem": "Stygiis",
-          "dat.pl.neut": "Stygiis",
-          "acc.pl.masc": "Stygios",
-          "acc.pl.fem": "Stygias",
-          "acc.pl.neut": "Stygia",
-          "abl.pl.masc": "Stygiis",
-          "abl.pl.fem": "Stygiis",
-          "abl.pl.neut": "Stygiis"
-        }
-      }
-    },
-    {
-      "id": "Faunus_n",
-      "lemma": "Faunus",
-      "pos": "noun",
-      "gender": "masc",
-      "glosses": [
-        "Faunus (Italic deity of forests and fields)"
-      ],
-      "head": "Faunus, -i, m.",
-      "paradigm": {
-        "type": "noun",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg",
-          "pl"
-        ],
-        "cells": {
-          "nom.sg": "Faunus",
-          "voc.sg": "Faune",
-          "gen.sg": "Fauni",
-          "dat.sg": "Fauno",
-          "acc.sg": "Faunum",
-          "abl.sg": "Fauno",
-          "nom.pl": "Fauni",
-          "voc.pl": "Fauni",
-          "gen.pl": "Faunorum",
-          "dat.pl": "Faunis",
-          "acc.pl": "Faunos",
-          "abl.pl": "Faunis"
-        }
-      }
-    },
-    {
       "id": "Pataraeus_adj",
       "lemma": "Pataraeus",
       "pos": "adj",
@@ -226561,83 +226470,6 @@
             "complexibus",
             "conplexibus"
           ]
-        }
-      }
-    },
-    {
-      "id": "Apidanus_n",
-      "lemma": "Apidanus",
-      "pos": "noun",
-      "gender": "masc",
-      "glosses": [
-        "Apidanus (river in Thessaly)"
-      ],
-      "head": "Apidanus, -i, m.",
-      "paradigm": {
-        "type": "noun",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg",
-          "pl"
-        ],
-        "cells": {
-          "nom.sg": "Apidanus",
-          "voc.sg": "Apidane",
-          "gen.sg": "Apidani",
-          "dat.sg": "Apidano",
-          "acc.sg": "Apidanum",
-          "abl.sg": "Apidano"
-        }
-      },
-      "defective": true
-    },
-    {
-      "id": "Aethiops_n",
-      "lemma": "Aethiops",
-      "pos": "noun",
-      "gender": [
-        "masc",
-        "fem"
-      ],
-      "glosses": [
-        "Ethiopian",
-        "person from Ethiopia"
-      ],
-      "head": "Aethiops, -opis, m./f.",
-      "paradigm": {
-        "type": "noun",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg",
-          "pl"
-        ],
-        "cells": {
-          "nom.sg": "Aethiops",
-          "voc.sg": "Aethiops",
-          "gen.sg": "Aethiopum",
-          "dat.sg": "Aethiopi",
-          "acc.sg": "Aethiopem",
-          "abl.sg": "Aethiope",
-          "nom.pl": "Aethiopes",
-          "voc.pl": "Aethiopes",
-          "gen.pl": "Aethiopum",
-          "dat.pl": "Aethiopibus",
-          "acc.pl": "Aethiopas",
-          "abl.pl": "Aethiopibus"
         }
       }
     },
@@ -226940,6 +226772,4782 @@
           "acc.pl.masc": "decentes",
           "acc.pl.fem": "decentes",
           "acc.pl.neut": "decentia"
+        }
+      }
+    },
+    {
+      "id": "apidanus_n",
+      "lemma": "apidanus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Apidanus, -i, m.",
+      "glosses": [
+        "the Apidanus",
+        "river of Thessaly, tributary of the Peneus"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Apidanus",
+          "voc.sg": "Apidane",
+          "gen.sg": "Apidani",
+          "dat.sg": "Apidano",
+          "acc.sg": "Apidanum",
+          "abl.sg": "Apidano"
+        }
+      }
+    },
+    {
+      "id": "amphrysos_n",
+      "lemma": "amphrysos",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Amphrysos (Amphrysus), -i, m.",
+      "glosses": [
+        "the Amphrysos",
+        "river of Thessaly where Apollo kept the flocks of Admetus"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": [
+            "Amphrysos",
+            "Amphrysus"
+          ],
+          "voc.sg": "Amphryse",
+          "gen.sg": "Amphrysi",
+          "dat.sg": "Amphryso",
+          "acc.sg": [
+            "Amphryson",
+            "Amphrysum"
+          ],
+          "abl.sg": "Amphryso"
+        }
+      }
+    },
+    {
+      "id": "sperchios_n",
+      "lemma": "sperchios",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Sperchios (Spercheos), -i, m.",
+      "glosses": [
+        "the Sperchios",
+        "river of southern Thessaly"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": [
+            "Sperchios",
+            "Spercheos"
+          ],
+          "gen.sg": "Sperchei",
+          "dat.sg": "Spercheo",
+          "acc.sg": "Spercheon",
+          "abl.sg": "Spercheo"
+        }
+      }
+    },
+    {
+      "id": "enipeus_n",
+      "lemma": "enipeus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Enipeus, -ei, m.",
+      "glosses": [
+        "the Enipeus",
+        "river of Thessaly, tributary of the Peneus"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Enipeus",
+          "voc.sg": "Enipeu",
+          "gen.sg": [
+            "Enipei",
+            "Enipeos"
+          ],
+          "dat.sg": "Enipeo",
+          "acc.sg": "Enipea",
+          "abl.sg": "Enipeo"
+        }
+      }
+    },
+    {
+      "id": "ladon_n",
+      "lemma": "ladon",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Ladon, -onis, m.",
+      "glosses": [
+        "the Ladon",
+        "sandy river of Arcadia, where Syrinx was transformed"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Ladon",
+          "voc.sg": "Ladon",
+          "gen.sg": "Ladonis",
+          "dat.sg": "Ladoni",
+          "acc.sg": "Ladonem",
+          "abl.sg": "Ladone"
+        }
+      }
+    },
+    {
+      "id": "olympus_n",
+      "lemma": "olympus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Olympus, -i, m.",
+      "glosses": [
+        "Olympus",
+        "mountain between Thessaly and Macedonia, seat of the gods"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Olympus",
+          "voc.sg": "Olympe",
+          "gen.sg": "Olympi",
+          "dat.sg": "Olympo",
+          "acc.sg": "Olympum",
+          "abl.sg": "Olympo"
+        }
+      }
+    },
+    {
+      "id": "pelion_n",
+      "lemma": "pelion",
+      "pos": "noun",
+      "gender": "neut",
+      "head": "Pelion, -ii, n.",
+      "glosses": [
+        "Pelion",
+        "mountain of Thessaly, piled on Ossa by the Giants"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Pelion",
+          "voc.sg": "Pelion",
+          "acc.sg": "Pelion",
+          "gen.sg": "Pelii",
+          "dat.sg": "Pelio",
+          "abl.sg": "Pelio"
+        }
+      }
+    },
+    {
+      "id": "ossa_n",
+      "lemma": "ossa",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Ossa, -ae, f.",
+      "glosses": [
+        "Ossa",
+        "mountain of Thessaly, piled on Pelion in the Gigantomachy"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Ossa",
+          "voc.sg": "Ossa",
+          "gen.sg": "Ossae",
+          "dat.sg": "Ossae",
+          "acc.sg": "Ossam",
+          "abl.sg": "Ossa"
+        }
+      }
+    },
+    {
+      "id": "parnasus_n",
+      "lemma": "parnasus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Parnasus, -i, m.",
+      "glosses": [
+        "Parnassus",
+        "two-peaked mountain above Delphi, sacred to Apollo and the Muses"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Parnasus",
+          "voc.sg": "Parnase",
+          "gen.sg": "Parnasi",
+          "dat.sg": "Parnaso",
+          "acc.sg": "Parnasum",
+          "abl.sg": "Parnaso"
+        }
+      }
+    },
+    {
+      "id": "pindus_n",
+      "lemma": "pindus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Pindus, -i, m.",
+      "glosses": [
+        "Pindus",
+        "mountain range of northern Greece; source of the Peneus"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Pindus",
+          "voc.sg": "Pinde",
+          "gen.sg": "Pindi",
+          "dat.sg": "Pindo",
+          "acc.sg": "Pindum",
+          "abl.sg": "Pindo"
+        }
+      }
+    },
+    {
+      "id": "lycaeus_n",
+      "lemma": "lycaeus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Lycaeus, -i, m.",
+      "glosses": [
+        "Lycaeus",
+        "mountain of Arcadia sacred to Pan; also as adj., Lycaean"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Lycaeus",
+          "voc.sg": "Lycaee",
+          "gen.sg": "Lycaei",
+          "dat.sg": "Lycaeo",
+          "acc.sg": "Lycaeum",
+          "abl.sg": "Lycaeo"
+        }
+      }
+    },
+    {
+      "id": "maenala_n",
+      "lemma": "maenala",
+      "pos": "noun",
+      "gender": "neut",
+      "head": "Maenala, -orum, n. pl. (sg. Maenalus, m.)",
+      "glosses": [
+        "Maenala",
+        "mountain range of Arcadia, haunt of Pan"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "pl"
+        ],
+        "cells": {
+          "nom.pl": "Maenala",
+          "voc.pl": "Maenala",
+          "acc.pl": "Maenala",
+          "gen.pl": "Maenalorum",
+          "dat.pl": "Maenalis",
+          "abl.pl": "Maenalis"
+        }
+      }
+    },
+    {
+      "id": "cyllene_n",
+      "lemma": "cyllene",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Cyllene, -es, f.",
+      "glosses": [
+        "Cyllene",
+        "mountain of Arcadia, birthplace of Mercury"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Cyllene",
+          "voc.sg": "Cyllene",
+          "gen.sg": "Cyllenes",
+          "acc.sg": "Cyllenen",
+          "abl.sg": "Cyllene"
+        }
+      }
+    },
+    {
+      "id": "scythia_n",
+      "lemma": "scythia",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Scythia, -ae, f.",
+      "glosses": [
+        "Scythia",
+        "the far northern land beyond the Black Sea"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Scythia",
+          "voc.sg": "Scythia",
+          "gen.sg": "Scythiae",
+          "dat.sg": "Scythiae",
+          "acc.sg": "Scythiam",
+          "abl.sg": "Scythia"
+        }
+      }
+    },
+    {
+      "id": "arcadia_n",
+      "lemma": "arcadia",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Arcadia, -ae, f.",
+      "glosses": [
+        "Arcadia",
+        "pastoral mountain region of the central Peloponnese"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Arcadia",
+          "voc.sg": "Arcadia",
+          "gen.sg": "Arcadiae",
+          "dat.sg": "Arcadiae",
+          "acc.sg": "Arcadiam",
+          "abl.sg": "Arcadia"
+        }
+      }
+    },
+    {
+      "id": "haemonia_n",
+      "lemma": "haemonia",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Haemonia, -ae, f.",
+      "glosses": [
+        "Haemonia",
+        "poetic name for Thessaly"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Haemonia",
+          "voc.sg": "Haemonia",
+          "gen.sg": "Haemoniae",
+          "dat.sg": "Haemoniae",
+          "acc.sg": "Haemoniam",
+          "abl.sg": "Haemonia"
+        }
+      }
+    },
+    {
+      "id": "lerna_n",
+      "lemma": "lerna",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Lerna, -ae, f.",
+      "glosses": [
+        "Lerna",
+        "marsh and pastures near Argos, lair of the Hydra"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Lerna",
+          "voc.sg": "Lerna",
+          "gen.sg": "Lernae",
+          "dat.sg": "Lernae",
+          "acc.sg": "Lernam",
+          "abl.sg": "Lerna"
+        }
+      }
+    },
+    {
+      "id": "tempe_n",
+      "lemma": "tempe",
+      "pos": "noun",
+      "gender": "neut",
+      "head": "Tempe, n. pl. (indecl.)",
+      "glosses": [
+        "Tempe",
+        "the gorge of the Peneus between Olympus and Ossa"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "pl"
+        ],
+        "cells": {
+          "nom.pl": "Tempe",
+          "voc.pl": "Tempe",
+          "acc.pl": "Tempe"
+        }
+      }
+    },
+    {
+      "id": "tenedos_n",
+      "lemma": "tenedos",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Tenedos, -i, f.",
+      "glosses": [
+        "Tenedos",
+        "island off the Troad with a shrine of Apollo"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Tenedos",
+          "voc.sg": "Tenede",
+          "gen.sg": "Tenedi",
+          "dat.sg": "Tenedo",
+          "acc.sg": "Tenedon",
+          "abl.sg": "Tenedo"
+        }
+      }
+    },
+    {
+      "id": "capitolium_n",
+      "lemma": "capitolium",
+      "pos": "noun",
+      "gender": "neut",
+      "head": "Capitolium, -ii, n.",
+      "glosses": [
+        "the Capitol",
+        "the Capitoline hill and temple of Jupiter at Rome; pl., its buildings"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Capitolium",
+          "voc.sg": "Capitolium",
+          "gen.sg": "Capitolii",
+          "dat.sg": "Capitolio",
+          "acc.sg": "Capitolium",
+          "abl.sg": "Capitolio",
+          "nom.pl": "Capitolia",
+          "voc.pl": "Capitolia",
+          "gen.pl": "Capitoliorum",
+          "dat.pl": "Capitoliis",
+          "acc.pl": "Capitolia",
+          "abl.pl": "Capitoliis"
+        }
+      }
+    },
+    {
+      "id": "tartara_n",
+      "lemma": "tartara",
+      "pos": "noun",
+      "gender": "neut",
+      "head": "Tartara, -orum, n. pl. (sg. Tartarus, m.)",
+      "glosses": [
+        "Tartarus",
+        "the abyss of the underworld where the wicked are punished"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "pl"
+        ],
+        "cells": {
+          "nom.pl": "Tartara",
+          "voc.pl": "Tartara",
+          "acc.pl": "Tartara",
+          "gen.pl": "Tartarorum",
+          "dat.pl": "Tartaris",
+          "abl.pl": "Tartaris"
+        }
+      }
+    },
+    {
+      "id": "aethiops_n",
+      "lemma": "aethiops",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Aethiops, -opis, m.",
+      "glosses": [
+        "an Ethiopian",
+        "dweller of the sun-scorched south"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Aethiops",
+          "voc.sg": "Aethiops",
+          "gen.sg": "Aethiopis",
+          "dat.sg": "Aethiopi",
+          "acc.sg": "Aethiopem",
+          "abl.sg": "Aethiope",
+          "nom.pl": "Aethiopes",
+          "voc.pl": "Aethiopes",
+          "gen.pl": "Aethiopum",
+          "dat.pl": "Aethiopibus",
+          "acc.pl": [
+            "Aethiopes",
+            "Aethiopas"
+          ],
+          "abl.pl": "Aethiopibus"
+        }
+      }
+    },
+    {
+      "id": "indus_n",
+      "lemma": "indus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Indus, -i, m.",
+      "glosses": [
+        "an Indian",
+        "dweller of the far east"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Indus",
+          "voc.sg": "Inde",
+          "gen.sg": "Indi",
+          "dat.sg": "Indo",
+          "acc.sg": "Indum",
+          "abl.sg": "Indo",
+          "nom.pl": "Indi",
+          "voc.pl": "Indi",
+          "gen.pl": "Indorum",
+          "dat.pl": "Indis",
+          "acc.pl": "Indos",
+          "abl.pl": "Indis"
+        }
+      }
+    },
+    {
+      "id": "arcas_n",
+      "lemma": "arcas",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Arcas, -adis, m.",
+      "glosses": [
+        "an Arcadian",
+        "also Arcas, son of Jupiter and Callisto"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Arcas",
+          "voc.sg": "Arcas",
+          "gen.sg": "Arcadis",
+          "dat.sg": "Arcadi",
+          "acc.sg": "Arcadem",
+          "abl.sg": "Arcade",
+          "nom.pl": "Arcades",
+          "voc.pl": "Arcades",
+          "gen.pl": "Arcadum",
+          "dat.pl": "Arcadibus",
+          "acc.pl": [
+            "Arcades",
+            "Arcadas"
+          ],
+          "abl.pl": "Arcadibus"
+        }
+      }
+    },
+    {
+      "id": "amphitrite_n",
+      "lemma": "amphitrite",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Amphitrite, -es, f.",
+      "glosses": [
+        "Amphitrite",
+        "sea-goddess, wife of Neptune; by metonymy, the sea"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Amphitrite",
+          "voc.sg": "Amphitrite",
+          "gen.sg": "Amphitrites",
+          "acc.sg": "Amphitriten",
+          "abl.sg": "Amphitrite"
+        }
+      }
+    },
+    {
+      "id": "astraea_n",
+      "lemma": "astraea",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Astraea, -ae, f.",
+      "glosses": [
+        "Astraea",
+        "goddess of justice, last immortal to leave the earth"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Astraea",
+          "voc.sg": "Astraea",
+          "gen.sg": "Astraeae",
+          "dat.sg": "Astraeae",
+          "acc.sg": "Astraeam",
+          "abl.sg": "Astraea"
+        }
+      }
+    },
+    {
+      "id": "nereus_n",
+      "lemma": "nereus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Nereus, -ei, m.",
+      "glosses": [
+        "Nereus",
+        "old sea-god, father of the Nereids; by metonymy, the sea"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Nereus",
+          "voc.sg": "Nereu",
+          "gen.sg": [
+            "Nerei",
+            "Nereos"
+          ],
+          "dat.sg": "Nereo",
+          "acc.sg": [
+            "Nerea",
+            "Nereum"
+          ],
+          "abl.sg": "Nereo"
+        }
+      }
+    },
+    {
+      "id": "erinys_n",
+      "lemma": "erinys",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Erinys, -yos, f.",
+      "glosses": [
+        "an Erinys, Fury",
+        "avenging spirit; by metonymy, frenzy, curse"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Erinys",
+          "voc.sg": "Erinys",
+          "gen.sg": "Erinyos",
+          "acc.sg": "Erinyn",
+          "abl.sg": "Erinye",
+          "nom.pl": "Erinyes",
+          "voc.pl": "Erinyes",
+          "acc.pl": "Erinyas"
+        }
+      }
+    },
+    {
+      "id": "themis_n",
+      "lemma": "themis",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Themis, -idis, f.",
+      "glosses": [
+        "Themis",
+        "goddess of divine order and prophecy, holder of the Delphic oracle before Apollo"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Themis",
+          "voc.sg": [
+            "Themi",
+            "Themis"
+          ],
+          "gen.sg": "Themidis",
+          "dat.sg": "Themidi",
+          "acc.sg": [
+            "Themin",
+            "Themidem"
+          ],
+          "abl.sg": "Themide"
+        }
+      }
+    },
+    {
+      "id": "triton_n",
+      "lemma": "triton",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Triton, -onis, m.",
+      "glosses": [
+        "Triton",
+        "sea-god, trumpeter of Neptune with his conch shell"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Triton",
+          "voc.sg": "Triton",
+          "gen.sg": "Tritonis",
+          "dat.sg": "Tritoni",
+          "acc.sg": [
+            "Tritona",
+            "Tritonem"
+          ],
+          "abl.sg": "Tritone"
+        }
+      }
+    },
+    {
+      "id": "diana_n",
+      "lemma": "diana",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Diana, -ae, f.",
+      "glosses": [
+        "Diana",
+        "virgin goddess of the hunt, sister of Apollo"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Diana",
+          "voc.sg": "Diana",
+          "gen.sg": "Dianae",
+          "dat.sg": "Dianae",
+          "acc.sg": "Dianam",
+          "abl.sg": "Diana"
+        }
+      }
+    },
+    {
+      "id": "epaphus_n",
+      "lemma": "epaphus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Epaphus, -i, m.",
+      "glosses": [
+        "Epaphus",
+        "son of Jupiter and Io"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Epaphus",
+          "voc.sg": "Epaphe",
+          "gen.sg": "Epaphi",
+          "dat.sg": "Epapho",
+          "acc.sg": "Epaphum",
+          "abl.sg": "Epapho"
+        }
+      }
+    },
+    {
+      "id": "iapetus_n",
+      "lemma": "iapetus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Iapetus, -i, m.",
+      "glosses": [
+        "Iapetus",
+        "Titan, father of Prometheus"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Iapetus",
+          "voc.sg": "Iapete",
+          "gen.sg": "Iapeti",
+          "dat.sg": "Iapeto",
+          "acc.sg": "Iapetum",
+          "abl.sg": "Iapeto"
+        }
+      }
+    },
+    {
+      "id": "pleias_n",
+      "lemma": "pleias",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Pleias, -adis, f.",
+      "glosses": [
+        "a Pleiad",
+        "one of the seven daughters of Atlas; here Maia, mother of Mercury"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Pleias",
+          "voc.sg": "Pleias",
+          "gen.sg": "Pleiadis",
+          "dat.sg": "Pleiadi",
+          "acc.sg": "Pleiadem",
+          "abl.sg": "Pleiade",
+          "nom.pl": "Pleiades",
+          "voc.pl": "Pleiades",
+          "gen.pl": "Pleiadum",
+          "dat.pl": "Pleiadibus",
+          "acc.pl": [
+            "Pleiades",
+            "Pleiadas"
+          ],
+          "abl.pl": "Pleiadibus"
+        }
+      }
+    },
+    {
+      "id": "phoronis_n",
+      "lemma": "phoronis",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Phoronis, -idis, f.",
+      "glosses": [
+        "the Phoronid",
+        "descendant of Phoroneus, i.e. Io"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Phoronis",
+          "voc.sg": "Phoronis",
+          "gen.sg": [
+            "Phoronidis",
+            "Phoronidos"
+          ],
+          "dat.sg": "Phoronidi",
+          "acc.sg": [
+            "Phoronida",
+            "Phoronidem"
+          ],
+          "abl.sg": "Phoronide"
+        }
+      }
+    },
+    {
+      "id": "titania_n",
+      "lemma": "titania",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Titania, -ae, f.",
+      "glosses": [
+        "the Titaness",
+        "female descendant of the Titans; here Pyrrha, granddaughter of Iapetus"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Titania",
+          "voc.sg": "Titania",
+          "gen.sg": "Titaniae",
+          "dat.sg": "Titaniae",
+          "acc.sg": "Titaniam",
+          "abl.sg": "Titania"
+        }
+      }
+    },
+    {
+      "id": "cyllenius_n",
+      "lemma": "cyllenius",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Cyllenius, -ii, m.",
+      "glosses": [
+        "the Cyllenian",
+        "Mercury, born on mount Cyllene"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Cyllenius",
+          "voc.sg": "Cylleni",
+          "gen.sg": "Cyllenii",
+          "dat.sg": "Cyllenio",
+          "acc.sg": "Cyllenium",
+          "abl.sg": "Cyllenio"
+        }
+      }
+    },
+    {
+      "id": "hymen_n",
+      "lemma": "hymen",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Hymen, -enis, m.",
+      "glosses": [
+        "Hymen",
+        "god of marriage; the wedding song"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Hymen",
+          "voc.sg": "Hymen",
+          "gen.sg": "Hymenis",
+          "dat.sg": "Hymeni",
+          "acc.sg": [
+            "Hymena",
+            "Hymenem"
+          ],
+          "abl.sg": "Hymene"
+        }
+      }
+    },
+    {
+      "id": "promethides_n",
+      "lemma": "promethides",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Promethides, -ae, m.",
+      "glosses": [
+        "son of Prometheus",
+        "i.e. Deucalion"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Promethides",
+          "gen.sg": "Promethidae",
+          "dat.sg": "Promethidae",
+          "acc.sg": "Promethiden",
+          "abl.sg": "Promethide"
+        }
+      }
+    },
+    {
+      "id": "epimethis_n",
+      "lemma": "epimethis",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Epimethis, -idis, f.",
+      "glosses": [
+        "daughter of Epimetheus",
+        "i.e. Pyrrha"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Epimethis",
+          "gen.sg": "Epimethidis",
+          "dat.sg": "Epimethidi",
+          "acc.sg": [
+            "Epimethida",
+            "Epimethidem"
+          ],
+          "abl.sg": "Epimethide"
+        }
+      }
+    },
+    {
+      "id": "atlantiades_n",
+      "lemma": "atlantiades",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Atlantiades, -ae, m.",
+      "glosses": [
+        "descendant of Atlas",
+        "i.e. Mercury, son of the Pleiad Maia"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Atlantiades",
+          "gen.sg": "Atlantiadae",
+          "dat.sg": "Atlantiadae",
+          "acc.sg": "Atlantiaden",
+          "abl.sg": "Atlantiade"
+        }
+      }
+    },
+    {
+      "id": "arestorides_n",
+      "lemma": "arestorides",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Arestorides, -ae, m.",
+      "glosses": [
+        "son of Arestor",
+        "i.e. Argus, the hundred-eyed watchman"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Arestorides",
+          "gen.sg": "Arestoridae",
+          "dat.sg": "Arestoridae",
+          "acc.sg": "Arestoriden",
+          "abl.sg": "Arestoride"
+        }
+      }
+    },
+    {
+      "id": "faunus_n",
+      "lemma": "faunus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Faunus, -i, m.",
+      "glosses": [
+        "Faunus; pl., fauns",
+        "rustic woodland gods"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Faunus",
+          "voc.sg": "Faune",
+          "gen.sg": "Fauni",
+          "dat.sg": "Fauno",
+          "acc.sg": "Faunum",
+          "abl.sg": "Fauno",
+          "nom.pl": "Fauni",
+          "voc.pl": "Fauni",
+          "gen.pl": "Faunorum",
+          "dat.pl": "Faunis",
+          "acc.pl": "Faunos",
+          "abl.pl": "Faunis"
+        }
+      }
+    },
+    {
+      "id": "silvanus_n",
+      "lemma": "silvanus",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Silvanus, -i, m.",
+      "glosses": [
+        "Silvanus; pl., silvans",
+        "gods of the woods"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Silvanus",
+          "voc.sg": "Silvane",
+          "gen.sg": "Silvani",
+          "dat.sg": "Silvano",
+          "acc.sg": "Silvanum",
+          "abl.sg": "Silvano",
+          "nom.pl": "Silvani",
+          "voc.pl": "Silvani",
+          "gen.pl": "Silvanorum",
+          "dat.pl": "Silvanis",
+          "acc.pl": "Silvanos",
+          "abl.pl": "Silvanis"
+        }
+      }
+    },
+    {
+      "id": "gigas_n",
+      "lemma": "gigas",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Gigas, -antis, m.",
+      "glosses": [
+        "a Giant",
+        "one of the earth-born assailants of heaven"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Gigas",
+          "voc.sg": "Gigas",
+          "gen.sg": "Gigantis",
+          "dat.sg": "Giganti",
+          "acc.sg": "Gigantem",
+          "abl.sg": "Gigante",
+          "nom.pl": "Gigantes",
+          "voc.pl": "Gigantes",
+          "gen.pl": "Gigantum",
+          "dat.pl": "Gigantibus",
+          "acc.pl": [
+            "Gigantes",
+            "Gigantas"
+          ],
+          "abl.pl": "Gigantibus"
+        }
+      }
+    },
+    {
+      "id": "cyclops_n",
+      "lemma": "cyclops",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "Cyclops, -opis, m.",
+      "glosses": [
+        "a Cyclops",
+        "one-eyed smiths who forge Jupiter’s thunderbolts"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Cyclops",
+          "voc.sg": "Cyclops",
+          "gen.sg": "Cyclopis",
+          "dat.sg": "Cyclopi",
+          "acc.sg": "Cyclopem",
+          "abl.sg": "Cyclope",
+          "nom.pl": "Cyclopes",
+          "voc.pl": "Cyclopes",
+          "gen.pl": "Cyclopum",
+          "dat.pl": "Cyclopibus",
+          "acc.pl": [
+            "Cyclopes",
+            "Cyclopas"
+          ],
+          "abl.pl": "Cyclopibus"
+        }
+      }
+    },
+    {
+      "id": "nereis_n",
+      "lemma": "nereis",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Nereis, -idis, f.",
+      "glosses": [
+        "a Nereid",
+        "sea-nymph, daughter of Nereus"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "Nereis",
+          "voc.sg": "Nereis",
+          "gen.sg": "Nereidis",
+          "dat.sg": "Nereidi",
+          "acc.sg": "Nereidem",
+          "abl.sg": "Nereide",
+          "nom.pl": "Nereides",
+          "voc.pl": "Nereides",
+          "gen.pl": "Nereidum",
+          "dat.pl": "Nereidibus",
+          "acc.pl": [
+            "Nereidas",
+            "Nereides"
+          ],
+          "abl.pl": "Nereidibus"
+        }
+      }
+    },
+    {
+      "id": "naias_n",
+      "lemma": "naias",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "naias (nais), -adis, f.",
+      "glosses": [
+        "a naiad",
+        "nymph of fresh waters"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": [
+            "naias",
+            "nais"
+          ],
+          "voc.sg": [
+            "naias",
+            "nais"
+          ],
+          "gen.sg": [
+            "naiadis",
+            "naidis"
+          ],
+          "dat.sg": [
+            "naiadi",
+            "naidi"
+          ],
+          "acc.sg": [
+            "naiada",
+            "naida"
+          ],
+          "abl.sg": [
+            "naiade",
+            "naide"
+          ],
+          "nom.pl": [
+            "naiades",
+            "naides"
+          ],
+          "voc.pl": [
+            "naiades",
+            "naides"
+          ],
+          "gen.pl": [
+            "naiadum",
+            "naidum"
+          ],
+          "dat.pl": [
+            "naiadibus",
+            "naidibus"
+          ],
+          "acc.pl": [
+            "naiadas",
+            "naidas"
+          ],
+          "abl.pl": [
+            "naiadibus",
+            "naidibus"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hamadryas_n",
+      "lemma": "hamadryas",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "hamadryas, -adis, f.",
+      "glosses": [
+        "a hamadryad",
+        "tree-nymph whose life is bound to her tree"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "hamadryas",
+          "voc.sg": "hamadryas",
+          "gen.sg": "hamadryadis",
+          "dat.sg": "hamadryadi",
+          "acc.sg": "hamadryadem",
+          "abl.sg": "hamadryade",
+          "nom.pl": "hamadryades",
+          "voc.pl": "hamadryades",
+          "gen.pl": "hamadryadum",
+          "dat.pl": "hamadryadibus",
+          "acc.pl": [
+            "hamadryadas",
+            "hamadryades"
+          ],
+          "abl.pl": "hamadryadibus"
+        }
+      }
+    },
+    {
+      "id": "delphin_n",
+      "lemma": "delphin",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "delphin, -inis, m.",
+      "glosses": [
+        "dolphin"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "delphin",
+          "voc.sg": "delphin",
+          "gen.sg": "delphinis",
+          "dat.sg": "delphini",
+          "acc.sg": "delphinem",
+          "abl.sg": "delphine",
+          "nom.pl": "delphines",
+          "voc.pl": "delphines",
+          "gen.pl": "delphinum",
+          "dat.pl": "delphinibus",
+          "acc.pl": [
+            "delphinas",
+            "delphines"
+          ],
+          "abl.pl": "delphinibus"
+        }
+      }
+    },
+    {
+      "id": "trio_n",
+      "lemma": "trio",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "trio, -onis, m.",
+      "glosses": [
+        "plough-ox",
+        "pl., the Triones: the oxen of the Wain, the stars of the Great and Little Bear"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "trio",
+          "voc.sg": "trio",
+          "gen.sg": "trionis",
+          "dat.sg": "trioni",
+          "acc.sg": "trionem",
+          "abl.sg": "trione",
+          "nom.pl": "triones",
+          "voc.pl": "triones",
+          "gen.pl": "trionum",
+          "dat.pl": "trionibus",
+          "acc.pl": "triones",
+          "abl.pl": "trionibus"
+        }
+      }
+    },
+    {
+      "id": "vomer_n",
+      "lemma": "vomer",
+      "pos": "noun",
+      "gender": "masc",
+      "head": "vomer, -eris, m.",
+      "glosses": [
+        "ploughshare"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "vomer",
+          "voc.sg": "vomer",
+          "gen.sg": "vomeris",
+          "dat.sg": "vomeri",
+          "acc.sg": "vomerem",
+          "abl.sg": "vomere",
+          "nom.pl": "vomeres",
+          "voc.pl": "vomeres",
+          "gen.pl": "vomerum",
+          "dat.pl": "vomeribus",
+          "acc.pl": "vomeres",
+          "abl.pl": "vomeribus"
+        }
+      }
+    },
+    {
+      "id": "faex_n",
+      "lemma": "faex",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "faex, faecis, f.",
+      "glosses": [
+        "dregs, sediment",
+        "impurity"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "faex",
+          "voc.sg": "faex",
+          "gen.sg": "faecis",
+          "dat.sg": "faeci",
+          "acc.sg": "faecem",
+          "abl.sg": "faece",
+          "nom.pl": "faeces",
+          "voc.pl": "faeces",
+          "gen.pl": "faecum",
+          "dat.pl": "faecibus",
+          "acc.pl": "faeces",
+          "abl.pl": "faecibus"
+        }
+      }
+    },
+    {
+      "id": "cumba_n",
+      "lemma": "cumba",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "cumba (cymba), -ae, f.",
+      "glosses": [
+        "small boat, skiff"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "cumba",
+          "voc.sg": "cumba",
+          "gen.sg": "cumbae",
+          "dat.sg": "cumbae",
+          "acc.sg": "cumbam",
+          "abl.sg": "cumba",
+          "nom.pl": "cumbae",
+          "voc.pl": "cumbae",
+          "gen.pl": "cumbarum",
+          "dat.pl": "cumbis",
+          "acc.pl": "cumbas",
+          "abl.pl": "cumbis"
+        }
+      }
+    },
+    {
+      "id": "monimentum_n",
+      "lemma": "monimentum",
+      "pos": "noun",
+      "gender": "neut",
+      "head": "monimentum (monumentum), -i, n.",
+      "glosses": [
+        "memorial, reminder",
+        "record, monument"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "monimentum",
+          "voc.sg": "monimentum",
+          "gen.sg": "monimenti",
+          "dat.sg": "monimento",
+          "acc.sg": "monimentum",
+          "abl.sg": "monimento",
+          "nom.pl": "monimenta",
+          "voc.pl": "monimenta",
+          "gen.pl": "monimentorum",
+          "dat.pl": "monimentis",
+          "acc.pl": "monimenta",
+          "abl.pl": "monimentis"
+        }
+      }
+    },
+    {
+      "id": "gestamen_n",
+      "lemma": "gestamen",
+      "pos": "noun",
+      "gender": "neut",
+      "head": "gestamen, -inis, n.",
+      "glosses": [
+        "a thing carried or worn",
+        "burden, equipment, ornament"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "gestamen",
+          "voc.sg": "gestamen",
+          "acc.sg": "gestamen",
+          "gen.sg": "gestaminis",
+          "dat.sg": "gestamini",
+          "abl.sg": "gestamine",
+          "nom.pl": "gestamina",
+          "voc.pl": "gestamina",
+          "acc.pl": "gestamina",
+          "gen.pl": "gestaminum",
+          "dat.pl": "gestaminibus",
+          "abl.pl": "gestaminibus"
+        }
+      }
+    },
+    {
+      "id": "adspergo_n",
+      "lemma": "adspergo",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "adspergo (aspergo), -inis, f.",
+      "glosses": [
+        "sprinkling, spray"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "adspergo",
+          "voc.sg": "adspergo",
+          "gen.sg": "adsperginis",
+          "dat.sg": "adspergini",
+          "acc.sg": "adsperginem",
+          "abl.sg": "adspergine",
+          "nom.pl": "adspergines",
+          "voc.pl": "adspergines",
+          "gen.pl": "adsperginum",
+          "dat.pl": "adsperginibus",
+          "acc.pl": "adspergines",
+          "abl.pl": "adsperginibus"
+        }
+      }
+    },
+    {
+      "id": "conpago_n",
+      "lemma": "conpago",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "conpago (compago), -inis, f.",
+      "glosses": [
+        "a joining, fastening",
+        "joint, seam, structure"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "conpago",
+          "voc.sg": "conpago",
+          "gen.sg": "conpaginis",
+          "dat.sg": "conpagini",
+          "acc.sg": "conpaginem",
+          "abl.sg": "conpagine",
+          "nom.pl": "conpagines",
+          "voc.pl": "conpagines",
+          "gen.pl": "conpaginum",
+          "dat.pl": "conpaginibus",
+          "acc.pl": "conpagines",
+          "abl.pl": "conpaginibus"
+        }
+      }
+    },
+    {
+      "id": "persis_n",
+      "lemma": "persis",
+      "pos": "noun",
+      "gender": "fem",
+      "head": "Persis, -idis, f.",
+      "glosses": [
+        "Persia",
+        "the Persian land"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg"
+        ],
+        "cells": {
+          "nom.sg": "Persis",
+          "voc.sg": "Persis",
+          "gen.sg": "Persidis",
+          "dat.sg": "Persidi",
+          "acc.sg": [
+            "Persida",
+            "Persidem"
+          ],
+          "abl.sg": "Perside"
+        }
+      }
+    },
+    {
+      "id": "nabataeus_adj",
+      "lemma": "nabataeus",
+      "pos": "adj",
+      "head": "Nabataeus, -a, -um",
+      "glosses": [
+        "Nabataean",
+        "of Nabataea in Arabia; eastern"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Nabataeus",
+          "voc.sg.masc": "Nabataee",
+          "gen.sg.masc": "Nabataei",
+          "dat.sg.masc": "Nabataeo",
+          "acc.sg.masc": "Nabataeum",
+          "abl.sg.masc": "Nabataeo",
+          "nom.sg.fem": "Nabataea",
+          "voc.sg.fem": "Nabataea",
+          "gen.sg.fem": "Nabataeae",
+          "dat.sg.fem": "Nabataeae",
+          "acc.sg.fem": "Nabataeam",
+          "abl.sg.fem": "Nabataea",
+          "nom.sg.neut": "Nabataeum",
+          "voc.sg.neut": "Nabataeum",
+          "gen.sg.neut": "Nabataei",
+          "dat.sg.neut": "Nabataeo",
+          "acc.sg.neut": "Nabataeum",
+          "abl.sg.neut": "Nabataeo",
+          "nom.pl.masc": "Nabataei",
+          "voc.pl.masc": "Nabataei",
+          "gen.pl.masc": "Nabataeorum",
+          "dat.pl.masc": "Nabataeis",
+          "acc.pl.masc": "Nabataeos",
+          "abl.pl.masc": "Nabataeis",
+          "nom.pl.fem": "Nabataeae",
+          "voc.pl.fem": "Nabataeae",
+          "gen.pl.fem": "Nabataearum",
+          "dat.pl.fem": "Nabataeis",
+          "acc.pl.fem": "Nabataeas",
+          "abl.pl.fem": "Nabataeis",
+          "nom.pl.neut": "Nabataea",
+          "voc.pl.neut": "Nabataea",
+          "gen.pl.neut": "Nabataeorum",
+          "dat.pl.neut": "Nabataeis",
+          "acc.pl.neut": "Nabataea",
+          "abl.pl.neut": "Nabataeis"
+        }
+      }
+    },
+    {
+      "id": "stygius_adj",
+      "lemma": "stygius",
+      "pos": "adj",
+      "head": "Stygius, -a, -um",
+      "glosses": [
+        "Stygian",
+        "of the Styx, the river of the underworld; infernal"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Stygius",
+          "voc.sg.masc": "Stygie",
+          "gen.sg.masc": "Stygii",
+          "dat.sg.masc": "Stygio",
+          "acc.sg.masc": "Stygium",
+          "abl.sg.masc": "Stygio",
+          "nom.sg.fem": "Stygia",
+          "voc.sg.fem": "Stygia",
+          "gen.sg.fem": "Stygiae",
+          "dat.sg.fem": "Stygiae",
+          "acc.sg.fem": "Stygiam",
+          "abl.sg.fem": "Stygia",
+          "nom.sg.neut": "Stygium",
+          "voc.sg.neut": "Stygium",
+          "gen.sg.neut": "Stygii",
+          "dat.sg.neut": "Stygio",
+          "acc.sg.neut": "Stygium",
+          "abl.sg.neut": "Stygio",
+          "nom.pl.masc": "Stygii",
+          "voc.pl.masc": "Stygii",
+          "gen.pl.masc": "Stygiorum",
+          "dat.pl.masc": "Stygiis",
+          "acc.pl.masc": "Stygios",
+          "abl.pl.masc": "Stygiis",
+          "nom.pl.fem": "Stygiae",
+          "voc.pl.fem": "Stygiae",
+          "gen.pl.fem": "Stygiarum",
+          "dat.pl.fem": "Stygiis",
+          "acc.pl.fem": "Stygias",
+          "abl.pl.fem": "Stygiis",
+          "nom.pl.neut": "Stygia",
+          "voc.pl.neut": "Stygia",
+          "gen.pl.neut": "Stygiorum",
+          "dat.pl.neut": "Stygiis",
+          "acc.pl.neut": "Stygia",
+          "abl.pl.neut": "Stygiis"
+        }
+      }
+    },
+    {
+      "id": "caesareus_adj",
+      "lemma": "caesareus",
+      "pos": "adj",
+      "head": "Caesareus, -a, -um",
+      "glosses": [
+        "of Caesar",
+        "imperial"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Caesareus",
+          "voc.sg.masc": "Caesaree",
+          "gen.sg.masc": "Caesarei",
+          "dat.sg.masc": "Caesareo",
+          "acc.sg.masc": "Caesareum",
+          "abl.sg.masc": "Caesareo",
+          "nom.sg.fem": "Caesarea",
+          "voc.sg.fem": "Caesarea",
+          "gen.sg.fem": "Caesareae",
+          "dat.sg.fem": "Caesareae",
+          "acc.sg.fem": "Caesaream",
+          "abl.sg.fem": "Caesarea",
+          "nom.sg.neut": "Caesareum",
+          "voc.sg.neut": "Caesareum",
+          "gen.sg.neut": "Caesarei",
+          "dat.sg.neut": "Caesareo",
+          "acc.sg.neut": "Caesareum",
+          "abl.sg.neut": "Caesareo",
+          "nom.pl.masc": "Caesarei",
+          "voc.pl.masc": "Caesarei",
+          "gen.pl.masc": "Caesareorum",
+          "dat.pl.masc": "Caesareis",
+          "acc.pl.masc": "Caesareos",
+          "abl.pl.masc": "Caesareis",
+          "nom.pl.fem": "Caesareae",
+          "voc.pl.fem": "Caesareae",
+          "gen.pl.fem": "Caesarearum",
+          "dat.pl.fem": "Caesareis",
+          "acc.pl.fem": "Caesareas",
+          "abl.pl.fem": "Caesareis",
+          "nom.pl.neut": "Caesarea",
+          "voc.pl.neut": "Caesarea",
+          "gen.pl.neut": "Caesareorum",
+          "dat.pl.neut": "Caesareis",
+          "acc.pl.neut": "Caesarea",
+          "abl.pl.neut": "Caesareis"
+        }
+      }
+    },
+    {
+      "id": "romanus_adj",
+      "lemma": "romanus",
+      "pos": "adj",
+      "head": "Romanus, -a, -um",
+      "glosses": [
+        "Roman"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Romanus",
+          "voc.sg.masc": "Romane",
+          "gen.sg.masc": "Romani",
+          "dat.sg.masc": "Romano",
+          "acc.sg.masc": "Romanum",
+          "abl.sg.masc": "Romano",
+          "nom.sg.fem": "Romana",
+          "voc.sg.fem": "Romana",
+          "gen.sg.fem": "Romanae",
+          "dat.sg.fem": "Romanae",
+          "acc.sg.fem": "Romanam",
+          "abl.sg.fem": "Romana",
+          "nom.sg.neut": "Romanum",
+          "voc.sg.neut": "Romanum",
+          "gen.sg.neut": "Romani",
+          "dat.sg.neut": "Romano",
+          "acc.sg.neut": "Romanum",
+          "abl.sg.neut": "Romano",
+          "nom.pl.masc": "Romani",
+          "voc.pl.masc": "Romani",
+          "gen.pl.masc": "Romanorum",
+          "dat.pl.masc": "Romanis",
+          "acc.pl.masc": "Romanos",
+          "abl.pl.masc": "Romanis",
+          "nom.pl.fem": "Romanae",
+          "voc.pl.fem": "Romanae",
+          "gen.pl.fem": "Romanarum",
+          "dat.pl.fem": "Romanis",
+          "acc.pl.fem": "Romanas",
+          "abl.pl.fem": "Romanis",
+          "nom.pl.neut": "Romana",
+          "voc.pl.neut": "Romana",
+          "gen.pl.neut": "Romanorum",
+          "dat.pl.neut": "Romanis",
+          "acc.pl.neut": "Romana",
+          "abl.pl.neut": "Romanis"
+        }
+      }
+    },
+    {
+      "id": "molossus_adj",
+      "lemma": "molossus",
+      "pos": "adj",
+      "head": "Molossus, -a, -um",
+      "glosses": [
+        "Molossian",
+        "of the Molossi of Epirus, famed for their hounds"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Molossus",
+          "voc.sg.masc": "Molosse",
+          "gen.sg.masc": "Molossi",
+          "dat.sg.masc": "Molosso",
+          "acc.sg.masc": "Molossum",
+          "abl.sg.masc": "Molosso",
+          "nom.sg.fem": "Molossa",
+          "voc.sg.fem": "Molossa",
+          "gen.sg.fem": "Molossae",
+          "dat.sg.fem": "Molossae",
+          "acc.sg.fem": "Molossam",
+          "abl.sg.fem": "Molossa",
+          "nom.sg.neut": "Molossum",
+          "voc.sg.neut": "Molossum",
+          "gen.sg.neut": "Molossi",
+          "dat.sg.neut": "Molosso",
+          "acc.sg.neut": "Molossum",
+          "abl.sg.neut": "Molosso",
+          "nom.pl.masc": "Molossi",
+          "voc.pl.masc": "Molossi",
+          "gen.pl.masc": "Molossorum",
+          "dat.pl.masc": "Molossis",
+          "acc.pl.masc": "Molossos",
+          "abl.pl.masc": "Molossis",
+          "nom.pl.fem": "Molossae",
+          "voc.pl.fem": "Molossae",
+          "gen.pl.fem": "Molossarum",
+          "dat.pl.fem": "Molossis",
+          "acc.pl.fem": "Molossas",
+          "abl.pl.fem": "Molossis",
+          "nom.pl.neut": "Molossa",
+          "voc.pl.neut": "Molossa",
+          "gen.pl.neut": "Molossorum",
+          "dat.pl.neut": "Molossis",
+          "acc.pl.neut": "Molossa",
+          "abl.pl.neut": "Molossis"
+        }
+      }
+    },
+    {
+      "id": "aeolius_adj",
+      "lemma": "aeolius",
+      "pos": "adj",
+      "head": "Aeolius, -a, -um",
+      "glosses": [
+        "Aeolian",
+        "of Aeolus, keeper of the winds"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Aeolius",
+          "voc.sg.masc": "Aeolie",
+          "gen.sg.masc": "Aeolii",
+          "dat.sg.masc": "Aeolio",
+          "acc.sg.masc": "Aeolium",
+          "abl.sg.masc": "Aeolio",
+          "nom.sg.fem": "Aeolia",
+          "voc.sg.fem": "Aeolia",
+          "gen.sg.fem": "Aeoliae",
+          "dat.sg.fem": "Aeoliae",
+          "acc.sg.fem": "Aeoliam",
+          "abl.sg.fem": "Aeolia",
+          "nom.sg.neut": "Aeolium",
+          "voc.sg.neut": "Aeolium",
+          "gen.sg.neut": "Aeolii",
+          "dat.sg.neut": "Aeolio",
+          "acc.sg.neut": "Aeolium",
+          "abl.sg.neut": "Aeolio",
+          "nom.pl.masc": "Aeolii",
+          "voc.pl.masc": "Aeolii",
+          "gen.pl.masc": "Aeoliorum",
+          "dat.pl.masc": "Aeoliis",
+          "acc.pl.masc": "Aeolios",
+          "abl.pl.masc": "Aeoliis",
+          "nom.pl.fem": "Aeoliae",
+          "voc.pl.fem": "Aeoliae",
+          "gen.pl.fem": "Aeoliarum",
+          "dat.pl.fem": "Aeoliis",
+          "acc.pl.fem": "Aeolias",
+          "abl.pl.fem": "Aeoliis",
+          "nom.pl.neut": "Aeolia",
+          "voc.pl.neut": "Aeolia",
+          "gen.pl.neut": "Aeoliorum",
+          "dat.pl.neut": "Aeoliis",
+          "acc.pl.neut": "Aeolia",
+          "abl.pl.neut": "Aeoliis"
+        }
+      }
+    },
+    {
+      "id": "aonius_adj",
+      "lemma": "aonius",
+      "pos": "adj",
+      "head": "Aonius, -a, -um",
+      "glosses": [
+        "Aonian",
+        "Boeotian; as subst., the Aonians"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Aonius",
+          "voc.sg.masc": "Aonie",
+          "gen.sg.masc": "Aonii",
+          "dat.sg.masc": "Aonio",
+          "acc.sg.masc": "Aonium",
+          "abl.sg.masc": "Aonio",
+          "nom.sg.fem": "Aonia",
+          "voc.sg.fem": "Aonia",
+          "gen.sg.fem": "Aoniae",
+          "dat.sg.fem": "Aoniae",
+          "acc.sg.fem": "Aoniam",
+          "abl.sg.fem": "Aonia",
+          "nom.sg.neut": "Aonium",
+          "voc.sg.neut": "Aonium",
+          "gen.sg.neut": "Aonii",
+          "dat.sg.neut": "Aonio",
+          "acc.sg.neut": "Aonium",
+          "abl.sg.neut": "Aonio",
+          "nom.pl.masc": "Aonii",
+          "voc.pl.masc": "Aonii",
+          "gen.pl.masc": "Aoniorum",
+          "dat.pl.masc": "Aoniis",
+          "acc.pl.masc": "Aonios",
+          "abl.pl.masc": "Aoniis",
+          "nom.pl.fem": "Aoniae",
+          "voc.pl.fem": "Aoniae",
+          "gen.pl.fem": "Aoniarum",
+          "dat.pl.fem": "Aoniis",
+          "acc.pl.fem": "Aonias",
+          "abl.pl.fem": "Aoniis",
+          "nom.pl.neut": "Aonia",
+          "voc.pl.neut": "Aonia",
+          "gen.pl.neut": "Aoniorum",
+          "dat.pl.neut": "Aoniis",
+          "acc.pl.neut": "Aonia",
+          "abl.pl.neut": "Aoniis"
+        }
+      }
+    },
+    {
+      "id": "oetaeus_adj",
+      "lemma": "oetaeus",
+      "pos": "adj",
+      "head": "Oetaeus, -a, -um",
+      "glosses": [
+        "Oetaean",
+        "of mount Oeta"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Oetaeus",
+          "voc.sg.masc": "Oetaee",
+          "gen.sg.masc": "Oetaei",
+          "dat.sg.masc": "Oetaeo",
+          "acc.sg.masc": "Oetaeum",
+          "abl.sg.masc": "Oetaeo",
+          "nom.sg.fem": "Oetaea",
+          "voc.sg.fem": "Oetaea",
+          "gen.sg.fem": "Oetaeae",
+          "dat.sg.fem": "Oetaeae",
+          "acc.sg.fem": "Oetaeam",
+          "abl.sg.fem": "Oetaea",
+          "nom.sg.neut": "Oetaeum",
+          "voc.sg.neut": "Oetaeum",
+          "gen.sg.neut": "Oetaei",
+          "dat.sg.neut": "Oetaeo",
+          "acc.sg.neut": "Oetaeum",
+          "abl.sg.neut": "Oetaeo",
+          "nom.pl.masc": "Oetaei",
+          "voc.pl.masc": "Oetaei",
+          "gen.pl.masc": "Oetaeorum",
+          "dat.pl.masc": "Oetaeis",
+          "acc.pl.masc": "Oetaeos",
+          "abl.pl.masc": "Oetaeis",
+          "nom.pl.fem": "Oetaeae",
+          "voc.pl.fem": "Oetaeae",
+          "gen.pl.fem": "Oetaearum",
+          "dat.pl.fem": "Oetaeis",
+          "acc.pl.fem": "Oetaeas",
+          "abl.pl.fem": "Oetaeis",
+          "nom.pl.neut": "Oetaea",
+          "voc.pl.neut": "Oetaea",
+          "gen.pl.neut": "Oetaeorum",
+          "dat.pl.neut": "Oetaeis",
+          "acc.pl.neut": "Oetaea",
+          "abl.pl.neut": "Oetaeis"
+        }
+      }
+    },
+    {
+      "id": "delphicus_adj",
+      "lemma": "delphicus",
+      "pos": "adj",
+      "head": "Delphicus, -a, -um",
+      "glosses": [
+        "Delphic",
+        "of Delphi and its oracle of Apollo"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Delphicus",
+          "voc.sg.masc": "Delphice",
+          "gen.sg.masc": "Delphici",
+          "dat.sg.masc": "Delphico",
+          "acc.sg.masc": "Delphicum",
+          "abl.sg.masc": "Delphico",
+          "nom.sg.fem": "Delphica",
+          "voc.sg.fem": "Delphica",
+          "gen.sg.fem": "Delphicae",
+          "dat.sg.fem": "Delphicae",
+          "acc.sg.fem": "Delphicam",
+          "abl.sg.fem": "Delphica",
+          "nom.sg.neut": "Delphicum",
+          "voc.sg.neut": "Delphicum",
+          "gen.sg.neut": "Delphici",
+          "dat.sg.neut": "Delphico",
+          "acc.sg.neut": "Delphicum",
+          "abl.sg.neut": "Delphico",
+          "nom.pl.masc": "Delphici",
+          "voc.pl.masc": "Delphici",
+          "gen.pl.masc": "Delphicorum",
+          "dat.pl.masc": "Delphicis",
+          "acc.pl.masc": "Delphicos",
+          "abl.pl.masc": "Delphicis",
+          "nom.pl.fem": "Delphicae",
+          "voc.pl.fem": "Delphicae",
+          "gen.pl.fem": "Delphicarum",
+          "dat.pl.fem": "Delphicis",
+          "acc.pl.fem": "Delphicas",
+          "abl.pl.fem": "Delphicis",
+          "nom.pl.neut": "Delphica",
+          "voc.pl.neut": "Delphica",
+          "gen.pl.neut": "Delphicorum",
+          "dat.pl.neut": "Delphicis",
+          "acc.pl.neut": "Delphica",
+          "abl.pl.neut": "Delphicis"
+        }
+      }
+    },
+    {
+      "id": "patareus_adj",
+      "lemma": "patareus",
+      "pos": "adj",
+      "head": "Patareus, -a, -um",
+      "glosses": [
+        "Patarean",
+        "of Patara in Lycia, seat of an oracle of Apollo"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Patareus",
+          "voc.sg.masc": "Pataree",
+          "gen.sg.masc": "Patarei",
+          "dat.sg.masc": "Patareo",
+          "acc.sg.masc": "Patareum",
+          "abl.sg.masc": "Patareo",
+          "nom.sg.fem": "Patarea",
+          "voc.sg.fem": "Patarea",
+          "gen.sg.fem": "Patareae",
+          "dat.sg.fem": "Patareae",
+          "acc.sg.fem": "Pataream",
+          "abl.sg.fem": "Patarea",
+          "nom.sg.neut": "Patareum",
+          "voc.sg.neut": "Patareum",
+          "gen.sg.neut": "Patarei",
+          "dat.sg.neut": "Patareo",
+          "acc.sg.neut": "Patareum",
+          "abl.sg.neut": "Patareo",
+          "nom.pl.masc": "Patarei",
+          "voc.pl.masc": "Patarei",
+          "gen.pl.masc": "Patareorum",
+          "dat.pl.masc": "Patareis",
+          "acc.pl.masc": "Patareos",
+          "abl.pl.masc": "Patareis",
+          "nom.pl.fem": "Patareae",
+          "voc.pl.fem": "Patareae",
+          "gen.pl.fem": "Patarearum",
+          "dat.pl.fem": "Patareis",
+          "acc.pl.fem": "Patareas",
+          "abl.pl.fem": "Patareis",
+          "nom.pl.neut": "Patarea",
+          "voc.pl.neut": "Patarea",
+          "gen.pl.neut": "Patareorum",
+          "dat.pl.neut": "Patareis",
+          "acc.pl.neut": "Patarea",
+          "abl.pl.neut": "Patareis"
+        }
+      }
+    },
+    {
+      "id": "gallicus_adj",
+      "lemma": "gallicus",
+      "pos": "adj",
+      "head": "Gallicus, -a, -um",
+      "glosses": [
+        "Gaulish",
+        "of Gaul; Gallicus canis, a Gaulish hound"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Gallicus",
+          "voc.sg.masc": "Gallice",
+          "gen.sg.masc": "Gallici",
+          "dat.sg.masc": "Gallico",
+          "acc.sg.masc": "Gallicum",
+          "abl.sg.masc": "Gallico",
+          "nom.sg.fem": "Gallica",
+          "voc.sg.fem": "Gallica",
+          "gen.sg.fem": "Gallicae",
+          "dat.sg.fem": "Gallicae",
+          "acc.sg.fem": "Gallicam",
+          "abl.sg.fem": "Gallica",
+          "nom.sg.neut": "Gallicum",
+          "voc.sg.neut": "Gallicum",
+          "gen.sg.neut": "Gallici",
+          "dat.sg.neut": "Gallico",
+          "acc.sg.neut": "Gallicum",
+          "abl.sg.neut": "Gallico",
+          "nom.pl.masc": "Gallici",
+          "voc.pl.masc": "Gallici",
+          "gen.pl.masc": "Gallicorum",
+          "dat.pl.masc": "Gallicis",
+          "acc.pl.masc": "Gallicos",
+          "abl.pl.masc": "Gallicis",
+          "nom.pl.fem": "Gallicae",
+          "voc.pl.fem": "Gallicae",
+          "gen.pl.fem": "Gallicarum",
+          "dat.pl.fem": "Gallicis",
+          "acc.pl.fem": "Gallicas",
+          "abl.pl.fem": "Gallicis",
+          "nom.pl.neut": "Gallica",
+          "voc.pl.neut": "Gallica",
+          "gen.pl.neut": "Gallicorum",
+          "dat.pl.neut": "Gallicis",
+          "acc.pl.neut": "Gallica",
+          "abl.pl.neut": "Gallicis"
+        }
+      }
+    },
+    {
+      "id": "latius_adj",
+      "lemma": "latius",
+      "pos": "adj",
+      "head": "Latius, -a, -um",
+      "glosses": [
+        "Latian",
+        "of Latium; Roman"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Latius",
+          "voc.sg.masc": "Latie",
+          "gen.sg.masc": "Latii",
+          "dat.sg.masc": "Latio",
+          "acc.sg.masc": "Latium",
+          "abl.sg.masc": "Latio",
+          "nom.sg.fem": "Latia",
+          "voc.sg.fem": "Latia",
+          "gen.sg.fem": "Latiae",
+          "dat.sg.fem": "Latiae",
+          "acc.sg.fem": "Latiam",
+          "abl.sg.fem": "Latia",
+          "nom.sg.neut": "Latium",
+          "voc.sg.neut": "Latium",
+          "gen.sg.neut": "Latii",
+          "dat.sg.neut": "Latio",
+          "acc.sg.neut": "Latium",
+          "abl.sg.neut": "Latio",
+          "nom.pl.masc": "Latii",
+          "voc.pl.masc": "Latii",
+          "gen.pl.masc": "Latiorum",
+          "dat.pl.masc": "Latiis",
+          "acc.pl.masc": "Latios",
+          "abl.pl.masc": "Latiis",
+          "nom.pl.fem": "Latiae",
+          "voc.pl.fem": "Latiae",
+          "gen.pl.fem": "Latiarum",
+          "dat.pl.fem": "Latiis",
+          "acc.pl.fem": "Latias",
+          "abl.pl.fem": "Latiis",
+          "nom.pl.neut": "Latia",
+          "voc.pl.neut": "Latia",
+          "gen.pl.neut": "Latiorum",
+          "dat.pl.neut": "Latiis",
+          "acc.pl.neut": "Latia",
+          "abl.pl.neut": "Latiis"
+        }
+      }
+    },
+    {
+      "id": "lyrceus_adj",
+      "lemma": "lyrceus",
+      "pos": "adj",
+      "head": "Lyrceus, -a, -um",
+      "glosses": [
+        "Lyrcean",
+        "of mount Lyrceum between Argolis and Arcadia"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Lyrceus",
+          "voc.sg.masc": "Lyrcee",
+          "gen.sg.masc": "Lyrcei",
+          "dat.sg.masc": "Lyrceo",
+          "acc.sg.masc": "Lyrceum",
+          "abl.sg.masc": "Lyrceo",
+          "nom.sg.fem": "Lyrcea",
+          "voc.sg.fem": "Lyrcea",
+          "gen.sg.fem": "Lyrceae",
+          "dat.sg.fem": "Lyrceae",
+          "acc.sg.fem": "Lyrceam",
+          "abl.sg.fem": "Lyrcea",
+          "nom.sg.neut": "Lyrceum",
+          "voc.sg.neut": "Lyrceum",
+          "gen.sg.neut": "Lyrcei",
+          "dat.sg.neut": "Lyrceo",
+          "acc.sg.neut": "Lyrceum",
+          "abl.sg.neut": "Lyrceo",
+          "nom.pl.masc": "Lyrcei",
+          "voc.pl.masc": "Lyrcei",
+          "gen.pl.masc": "Lyrceorum",
+          "dat.pl.masc": "Lyrceis",
+          "acc.pl.masc": "Lyrceos",
+          "abl.pl.masc": "Lyrceis",
+          "nom.pl.fem": "Lyrceae",
+          "voc.pl.fem": "Lyrceae",
+          "gen.pl.fem": "Lyrcearum",
+          "dat.pl.fem": "Lyrceis",
+          "acc.pl.fem": "Lyrceas",
+          "abl.pl.fem": "Lyrceis",
+          "nom.pl.neut": "Lyrcea",
+          "voc.pl.neut": "Lyrcea",
+          "gen.pl.neut": "Lyrceorum",
+          "dat.pl.neut": "Lyrceis",
+          "acc.pl.neut": "Lyrcea",
+          "abl.pl.neut": "Lyrceis"
+        }
+      }
+    },
+    {
+      "id": "argolicus_adj",
+      "lemma": "argolicus",
+      "pos": "adj",
+      "head": "Argolicus, -a, -um",
+      "glosses": [
+        "Argolic",
+        "of Argos, Argive"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Argolicus",
+          "voc.sg.masc": "Argolice",
+          "gen.sg.masc": "Argolici",
+          "dat.sg.masc": "Argolico",
+          "acc.sg.masc": "Argolicum",
+          "abl.sg.masc": "Argolico",
+          "nom.sg.fem": "Argolica",
+          "voc.sg.fem": "Argolica",
+          "gen.sg.fem": "Argolicae",
+          "dat.sg.fem": "Argolicae",
+          "acc.sg.fem": "Argolicam",
+          "abl.sg.fem": "Argolica",
+          "nom.sg.neut": "Argolicum",
+          "voc.sg.neut": "Argolicum",
+          "gen.sg.neut": "Argolici",
+          "dat.sg.neut": "Argolico",
+          "acc.sg.neut": "Argolicum",
+          "abl.sg.neut": "Argolico",
+          "nom.pl.masc": "Argolici",
+          "voc.pl.masc": "Argolici",
+          "gen.pl.masc": "Argolicorum",
+          "dat.pl.masc": "Argolicis",
+          "acc.pl.masc": "Argolicos",
+          "abl.pl.masc": "Argolicis",
+          "nom.pl.fem": "Argolicae",
+          "voc.pl.fem": "Argolicae",
+          "gen.pl.fem": "Argolicarum",
+          "dat.pl.fem": "Argolicis",
+          "acc.pl.fem": "Argolicas",
+          "abl.pl.fem": "Argolicis",
+          "nom.pl.neut": "Argolica",
+          "voc.pl.neut": "Argolica",
+          "gen.pl.neut": "Argolicorum",
+          "dat.pl.neut": "Argolicis",
+          "acc.pl.neut": "Argolica",
+          "abl.pl.neut": "Argolicis"
+        }
+      }
+    },
+    {
+      "id": "iunonius_adj",
+      "lemma": "iunonius",
+      "pos": "adj",
+      "head": "Iunonius, -a, -um",
+      "glosses": [
+        "of Juno",
+        "Junonian"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Iunonius",
+          "voc.sg.masc": "Iunonie",
+          "gen.sg.masc": "Iunonii",
+          "dat.sg.masc": "Iunonio",
+          "acc.sg.masc": "Iunonium",
+          "abl.sg.masc": "Iunonio",
+          "nom.sg.fem": "Iunonia",
+          "voc.sg.fem": "Iunonia",
+          "gen.sg.fem": "Iunoniae",
+          "dat.sg.fem": "Iunoniae",
+          "acc.sg.fem": "Iunoniam",
+          "abl.sg.fem": "Iunonia",
+          "nom.sg.neut": "Iunonium",
+          "voc.sg.neut": "Iunonium",
+          "gen.sg.neut": "Iunonii",
+          "dat.sg.neut": "Iunonio",
+          "acc.sg.neut": "Iunonium",
+          "abl.sg.neut": "Iunonio",
+          "nom.pl.masc": "Iunonii",
+          "voc.pl.masc": "Iunonii",
+          "gen.pl.masc": "Iunoniorum",
+          "dat.pl.masc": "Iunoniis",
+          "acc.pl.masc": "Iunonios",
+          "abl.pl.masc": "Iunoniis",
+          "nom.pl.fem": "Iunoniae",
+          "voc.pl.fem": "Iunoniae",
+          "gen.pl.fem": "Iunoniarum",
+          "dat.pl.fem": "Iunoniis",
+          "acc.pl.fem": "Iunonias",
+          "abl.pl.fem": "Iunoniis",
+          "nom.pl.neut": "Iunonia",
+          "voc.pl.neut": "Iunonia",
+          "gen.pl.neut": "Iunoniorum",
+          "dat.pl.neut": "Iunoniis",
+          "acc.pl.neut": "Iunonia",
+          "abl.pl.neut": "Iunoniis"
+        }
+      }
+    },
+    {
+      "id": "nonacrinus_adj",
+      "lemma": "nonacrinus",
+      "pos": "adj",
+      "head": "Nonacrinus, -a, -um",
+      "glosses": [
+        "of Nonacris",
+        "Arcadian"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Nonacrinus",
+          "voc.sg.masc": "Nonacrine",
+          "gen.sg.masc": "Nonacrini",
+          "dat.sg.masc": "Nonacrino",
+          "acc.sg.masc": "Nonacrinum",
+          "abl.sg.masc": "Nonacrino",
+          "nom.sg.fem": "Nonacrina",
+          "voc.sg.fem": "Nonacrina",
+          "gen.sg.fem": "Nonacrinae",
+          "dat.sg.fem": "Nonacrinae",
+          "acc.sg.fem": "Nonacrinam",
+          "abl.sg.fem": "Nonacrina",
+          "nom.sg.neut": "Nonacrinum",
+          "voc.sg.neut": "Nonacrinum",
+          "gen.sg.neut": "Nonacrini",
+          "dat.sg.neut": "Nonacrino",
+          "acc.sg.neut": "Nonacrinum",
+          "abl.sg.neut": "Nonacrino",
+          "nom.pl.masc": "Nonacrini",
+          "voc.pl.masc": "Nonacrini",
+          "gen.pl.masc": "Nonacrinorum",
+          "dat.pl.masc": "Nonacrinis",
+          "acc.pl.masc": "Nonacrinos",
+          "abl.pl.masc": "Nonacrinis",
+          "nom.pl.fem": "Nonacrinae",
+          "voc.pl.fem": "Nonacrinae",
+          "gen.pl.fem": "Nonacrinarum",
+          "dat.pl.fem": "Nonacrinis",
+          "acc.pl.fem": "Nonacrinas",
+          "abl.pl.fem": "Nonacrinis",
+          "nom.pl.neut": "Nonacrina",
+          "voc.pl.neut": "Nonacrina",
+          "gen.pl.neut": "Nonacrinorum",
+          "dat.pl.neut": "Nonacrinis",
+          "acc.pl.neut": "Nonacrina",
+          "abl.pl.neut": "Nonacrinis"
+        }
+      }
+    },
+    {
+      "id": "apollineus_adj",
+      "lemma": "apollineus",
+      "pos": "adj",
+      "head": "Apollineus, -a, -um",
+      "glosses": [
+        "of Apollo",
+        "Apollonian"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Apollineus",
+          "voc.sg.masc": "Apollinee",
+          "gen.sg.masc": "Apollinei",
+          "dat.sg.masc": "Apollineo",
+          "acc.sg.masc": "Apollineum",
+          "abl.sg.masc": "Apollineo",
+          "nom.sg.fem": "Apollinea",
+          "voc.sg.fem": "Apollinea",
+          "gen.sg.fem": "Apollineae",
+          "dat.sg.fem": "Apollineae",
+          "acc.sg.fem": "Apollineam",
+          "abl.sg.fem": "Apollinea",
+          "nom.sg.neut": "Apollineum",
+          "voc.sg.neut": "Apollineum",
+          "gen.sg.neut": "Apollinei",
+          "dat.sg.neut": "Apollineo",
+          "acc.sg.neut": "Apollineum",
+          "abl.sg.neut": "Apollineo",
+          "nom.pl.masc": "Apollinei",
+          "voc.pl.masc": "Apollinei",
+          "gen.pl.masc": "Apollineorum",
+          "dat.pl.masc": "Apollineis",
+          "acc.pl.masc": "Apollineos",
+          "abl.pl.masc": "Apollineis",
+          "nom.pl.fem": "Apollineae",
+          "voc.pl.fem": "Apollineae",
+          "gen.pl.fem": "Apollinearum",
+          "dat.pl.fem": "Apollineis",
+          "acc.pl.fem": "Apollineas",
+          "abl.pl.fem": "Apollineis",
+          "nom.pl.neut": "Apollinea",
+          "voc.pl.neut": "Apollinea",
+          "gen.pl.neut": "Apollineorum",
+          "dat.pl.neut": "Apollineis",
+          "acc.pl.neut": "Apollinea",
+          "abl.pl.neut": "Apollineis"
+        }
+      }
+    },
+    {
+      "id": "lycaonius_adj",
+      "lemma": "lycaonius",
+      "pos": "adj",
+      "head": "Lycaonius, -a, -um",
+      "glosses": [
+        "of Lycaon",
+        "the impious Arcadian king turned wolf"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Lycaonius",
+          "voc.sg.masc": "Lycaonie",
+          "gen.sg.masc": "Lycaonii",
+          "dat.sg.masc": "Lycaonio",
+          "acc.sg.masc": "Lycaonium",
+          "abl.sg.masc": "Lycaonio",
+          "nom.sg.fem": "Lycaonia",
+          "voc.sg.fem": "Lycaonia",
+          "gen.sg.fem": "Lycaoniae",
+          "dat.sg.fem": "Lycaoniae",
+          "acc.sg.fem": "Lycaoniam",
+          "abl.sg.fem": "Lycaonia",
+          "nom.sg.neut": "Lycaonium",
+          "voc.sg.neut": "Lycaonium",
+          "gen.sg.neut": "Lycaonii",
+          "dat.sg.neut": "Lycaonio",
+          "acc.sg.neut": "Lycaonium",
+          "abl.sg.neut": "Lycaonio",
+          "nom.pl.masc": "Lycaonii",
+          "voc.pl.masc": "Lycaonii",
+          "gen.pl.masc": "Lycaoniorum",
+          "dat.pl.masc": "Lycaoniis",
+          "acc.pl.masc": "Lycaonios",
+          "abl.pl.masc": "Lycaoniis",
+          "nom.pl.fem": "Lycaoniae",
+          "voc.pl.fem": "Lycaoniae",
+          "gen.pl.fem": "Lycaoniarum",
+          "dat.pl.fem": "Lycaoniis",
+          "acc.pl.fem": "Lycaonias",
+          "abl.pl.fem": "Lycaoniis",
+          "nom.pl.neut": "Lycaonia",
+          "voc.pl.neut": "Lycaonia",
+          "gen.pl.neut": "Lycaoniorum",
+          "dat.pl.neut": "Lycaoniis",
+          "acc.pl.neut": "Lycaonia",
+          "abl.pl.neut": "Lycaoniis"
+        }
+      }
+    },
+    {
+      "id": "latonius_adj",
+      "lemma": "latonius",
+      "pos": "adj",
+      "head": "Latonius, -a, -um",
+      "glosses": [
+        "of Latona",
+        "as fem. subst., Latonia: Diana, Latona’s daughter"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Latonius",
+          "voc.sg.masc": "Latonie",
+          "gen.sg.masc": "Latonii",
+          "dat.sg.masc": "Latonio",
+          "acc.sg.masc": "Latonium",
+          "abl.sg.masc": "Latonio",
+          "nom.sg.fem": "Latonia",
+          "voc.sg.fem": "Latonia",
+          "gen.sg.fem": "Latoniae",
+          "dat.sg.fem": "Latoniae",
+          "acc.sg.fem": "Latoniam",
+          "abl.sg.fem": "Latonia",
+          "nom.sg.neut": "Latonium",
+          "voc.sg.neut": "Latonium",
+          "gen.sg.neut": "Latonii",
+          "dat.sg.neut": "Latonio",
+          "acc.sg.neut": "Latonium",
+          "abl.sg.neut": "Latonio",
+          "nom.pl.masc": "Latonii",
+          "voc.pl.masc": "Latonii",
+          "gen.pl.masc": "Latoniorum",
+          "dat.pl.masc": "Latoniis",
+          "acc.pl.masc": "Latonios",
+          "abl.pl.masc": "Latoniis",
+          "nom.pl.fem": "Latoniae",
+          "voc.pl.fem": "Latoniae",
+          "gen.pl.fem": "Latoniarum",
+          "dat.pl.fem": "Latoniis",
+          "acc.pl.fem": "Latonias",
+          "abl.pl.fem": "Latoniis",
+          "nom.pl.neut": "Latonia",
+          "voc.pl.neut": "Latonia",
+          "gen.pl.neut": "Latoniorum",
+          "dat.pl.neut": "Latoniis",
+          "acc.pl.neut": "Latonia",
+          "abl.pl.neut": "Latoniis"
+        }
+      }
+    },
+    {
+      "id": "delius_adj",
+      "lemma": "delius",
+      "pos": "adj",
+      "head": "Delius, -a, -um",
+      "glosses": [
+        "Delian",
+        "of Delos; as masc. subst., the Delian: Apollo"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Delius",
+          "voc.sg.masc": "Delie",
+          "gen.sg.masc": "Delii",
+          "dat.sg.masc": "Delio",
+          "acc.sg.masc": "Delium",
+          "abl.sg.masc": "Delio",
+          "nom.sg.fem": "Delia",
+          "voc.sg.fem": "Delia",
+          "gen.sg.fem": "Deliae",
+          "dat.sg.fem": "Deliae",
+          "acc.sg.fem": "Deliam",
+          "abl.sg.fem": "Delia",
+          "nom.sg.neut": "Delium",
+          "voc.sg.neut": "Delium",
+          "gen.sg.neut": "Delii",
+          "dat.sg.neut": "Delio",
+          "acc.sg.neut": "Delium",
+          "abl.sg.neut": "Delio",
+          "nom.pl.masc": "Delii",
+          "voc.pl.masc": "Delii",
+          "gen.pl.masc": "Deliorum",
+          "dat.pl.masc": "Deliis",
+          "acc.pl.masc": "Delios",
+          "abl.pl.masc": "Deliis",
+          "nom.pl.fem": "Deliae",
+          "voc.pl.fem": "Deliae",
+          "gen.pl.fem": "Deliarum",
+          "dat.pl.fem": "Deliis",
+          "acc.pl.fem": "Delias",
+          "abl.pl.fem": "Deliis",
+          "nom.pl.neut": "Delia",
+          "voc.pl.neut": "Delia",
+          "gen.pl.neut": "Deliorum",
+          "dat.pl.neut": "Deliis",
+          "acc.pl.neut": "Delia",
+          "abl.pl.neut": "Deliis"
+        }
+      }
+    },
+    {
+      "id": "cerealis_adj",
+      "lemma": "cerealis",
+      "pos": "adj",
+      "head": "Cerealis, -e",
+      "glosses": [
+        "of Ceres",
+        "of grain or cultivation"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "Cerealis",
+          "voc.sg.masc": "Cerealis",
+          "gen.sg.masc": "Cerealis",
+          "dat.sg.masc": "Cereali",
+          "acc.sg.masc": "Cerealem",
+          "abl.sg.masc": "Cereali",
+          "nom.pl.masc": "Cereales",
+          "voc.pl.masc": "Cereales",
+          "acc.pl.masc": "Cereales",
+          "gen.pl.masc": "Cerealium",
+          "dat.pl.masc": "Cerealibus",
+          "abl.pl.masc": "Cerealibus",
+          "nom.sg.fem": "Cerealis",
+          "voc.sg.fem": "Cerealis",
+          "gen.sg.fem": "Cerealis",
+          "dat.sg.fem": "Cereali",
+          "acc.sg.fem": "Cerealem",
+          "abl.sg.fem": "Cereali",
+          "nom.pl.fem": "Cereales",
+          "voc.pl.fem": "Cereales",
+          "acc.pl.fem": "Cereales",
+          "gen.pl.fem": "Cerealium",
+          "dat.pl.fem": "Cerealibus",
+          "abl.pl.fem": "Cerealibus",
+          "nom.sg.neut": "Cereale",
+          "voc.sg.neut": "Cereale",
+          "gen.sg.neut": "Cerealis",
+          "dat.sg.neut": "Cereali",
+          "acc.sg.neut": "Cereale",
+          "abl.sg.neut": "Cereali",
+          "nom.pl.neut": "Cerealia",
+          "voc.pl.neut": "Cerealia",
+          "acc.pl.neut": "Cerealia",
+          "gen.pl.neut": "Cerealium",
+          "dat.pl.neut": "Cerealibus",
+          "abl.pl.neut": "Cerealibus"
+        }
+      }
+    },
+    {
+      "id": "concors_adj",
+      "lemma": "concors",
+      "pos": "adj",
+      "head": "concors, -cordis",
+      "glosses": [
+        "harmonious, agreeing",
+        "of one mind"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "concors",
+          "voc.sg.masc": "concors",
+          "gen.sg.masc": "concordis",
+          "dat.sg.masc": "concordi",
+          "acc.sg.masc": "concordem",
+          "abl.sg.masc": "concordi",
+          "nom.sg.fem": "concors",
+          "voc.sg.fem": "concors",
+          "gen.sg.fem": "concordis",
+          "dat.sg.fem": "concordi",
+          "acc.sg.fem": "concordem",
+          "abl.sg.fem": "concordi",
+          "nom.sg.neut": "concors",
+          "voc.sg.neut": "concors",
+          "gen.sg.neut": "concordis",
+          "dat.sg.neut": "concordi",
+          "acc.sg.neut": "concors",
+          "abl.sg.neut": "concordi",
+          "nom.pl.masc": "concordes",
+          "voc.pl.masc": "concordes",
+          "acc.pl.masc": "concordes",
+          "gen.pl.masc": "concordium",
+          "dat.pl.masc": "concordibus",
+          "abl.pl.masc": "concordibus",
+          "nom.pl.fem": "concordes",
+          "voc.pl.fem": "concordes",
+          "acc.pl.fem": "concordes",
+          "gen.pl.fem": "concordium",
+          "dat.pl.fem": "concordibus",
+          "abl.pl.fem": "concordibus",
+          "nom.pl.neut": "concordia",
+          "voc.pl.neut": "concordia",
+          "acc.pl.neut": "concordia",
+          "gen.pl.neut": "concordium",
+          "dat.pl.neut": "concordibus",
+          "abl.pl.neut": "concordibus"
+        }
+      }
+    },
+    {
+      "id": "anguipes_adj",
+      "lemma": "anguipes",
+      "pos": "adj",
+      "head": "anguipes, -pedis",
+      "glosses": [
+        "snake-footed",
+        "epithet of the Giants"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "anguipes",
+          "voc.sg.masc": "anguipes",
+          "gen.sg.masc": "anguipedis",
+          "dat.sg.masc": "anguipedi",
+          "acc.sg.masc": "anguipedem",
+          "abl.sg.masc": "anguipede",
+          "nom.sg.fem": "anguipes",
+          "voc.sg.fem": "anguipes",
+          "gen.sg.fem": "anguipedis",
+          "dat.sg.fem": "anguipedi",
+          "acc.sg.fem": "anguipedem",
+          "abl.sg.fem": "anguipede",
+          "nom.sg.neut": "anguipes",
+          "voc.sg.neut": "anguipes",
+          "gen.sg.neut": "anguipedis",
+          "dat.sg.neut": "anguipedi",
+          "acc.sg.neut": "anguipes",
+          "abl.sg.neut": "anguipede",
+          "nom.pl.masc": "anguipedes",
+          "voc.pl.masc": "anguipedes",
+          "acc.pl.masc": "anguipedes",
+          "gen.pl.masc": "anguipedum",
+          "dat.pl.masc": "anguipedibus",
+          "abl.pl.masc": "anguipedibus",
+          "nom.pl.fem": "anguipedes",
+          "voc.pl.fem": "anguipedes",
+          "acc.pl.fem": "anguipedes",
+          "gen.pl.fem": "anguipedum",
+          "dat.pl.fem": "anguipedibus",
+          "abl.pl.fem": "anguipedibus"
+        }
+      }
+    },
+    {
+      "id": "liniger_adj",
+      "lemma": "liniger",
+      "pos": "adj",
+      "head": "liniger, -gera, -gerum",
+      "glosses": [
+        "linen-wearing",
+        "epithet of Isis and her worshippers"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "liniger",
+          "voc.sg.masc": "liniger",
+          "gen.sg.masc": "linigeri",
+          "dat.sg.masc": "linigero",
+          "acc.sg.masc": "linigerum",
+          "abl.sg.masc": "linigero",
+          "nom.sg.fem": "linigera",
+          "voc.sg.fem": "linigera",
+          "gen.sg.fem": "linigerae",
+          "dat.sg.fem": "linigerae",
+          "acc.sg.fem": "linigeram",
+          "abl.sg.fem": "linigera",
+          "nom.sg.neut": "linigerum",
+          "voc.sg.neut": "linigerum",
+          "gen.sg.neut": "linigeri",
+          "dat.sg.neut": "linigero",
+          "acc.sg.neut": "linigerum",
+          "abl.sg.neut": "linigero",
+          "nom.pl.masc": "linigeri",
+          "voc.pl.masc": "linigeri",
+          "gen.pl.masc": "linigerorum",
+          "dat.pl.masc": "linigeris",
+          "acc.pl.masc": "linigeros",
+          "abl.pl.masc": "linigeris",
+          "nom.pl.fem": "linigerae",
+          "voc.pl.fem": "linigerae",
+          "gen.pl.fem": "linigerarum",
+          "dat.pl.fem": "linigeris",
+          "acc.pl.fem": "linigeras",
+          "abl.pl.fem": "linigeris",
+          "nom.pl.neut": "linigera",
+          "voc.pl.neut": "linigera",
+          "gen.pl.neut": "linigerorum",
+          "dat.pl.neut": "linigeris",
+          "acc.pl.neut": "linigera",
+          "abl.pl.neut": "linigeris"
+        }
+      }
+    },
+    {
+      "id": "corycis_adj",
+      "lemma": "corycis",
+      "pos": "adj",
+      "head": "Corycis, -idis, f. adj.",
+      "glosses": [
+        "Corycian",
+        "of the Corycian cave on Parnassus; Corycides nymphae, its nymphs"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.fem",
+          "pl.fem"
+        ],
+        "cells": {
+          "nom.sg.fem": "Corycis",
+          "voc.sg.fem": "Corycis",
+          "gen.sg.fem": "Corycidis",
+          "dat.sg.fem": "Corycidi",
+          "acc.sg.fem": [
+            "Corycida",
+            "Corycidem"
+          ],
+          "abl.sg.fem": "Corycide",
+          "nom.pl.fem": "Corycides",
+          "voc.pl.fem": "Corycides",
+          "gen.pl.fem": "Corycidum",
+          "dat.pl.fem": "Corycidibus",
+          "acc.pl.fem": "Corycidas",
+          "abl.pl.fem": "Corycidibus"
+        }
+      }
+    },
+    {
+      "id": "cephisis_adj",
+      "lemma": "cephisis",
+      "pos": "adj",
+      "head": "Cephisis, -idis, f. adj.",
+      "glosses": [
+        "of the Cephisus",
+        "the river of Phocis and Boeotia"
+      ],
+      "defective": true,
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.fem",
+          "pl.fem"
+        ],
+        "cells": {
+          "nom.sg.fem": "Cephisis",
+          "voc.sg.fem": "Cephisis",
+          "gen.sg.fem": "Cephisidis",
+          "dat.sg.fem": "Cephisidi",
+          "acc.sg.fem": [
+            "Cephisida",
+            "Cephisidem"
+          ],
+          "abl.sg.fem": "Cephiside",
+          "nom.pl.fem": "Cephisides",
+          "voc.pl.fem": "Cephisides",
+          "gen.pl.fem": "Cephisidum",
+          "dat.pl.fem": "Cephisidibus",
+          "acc.pl.fem": "Cephisidas",
+          "abl.pl.fem": "Cephisidibus"
+        }
+      }
+    },
+    {
+      "id": "ardesco_v",
+      "lemma": "ardesco",
+      "pos": "verb",
+      "principal_parts": [
+        "ardesco",
+        "ardescere",
+        "arsi"
+      ],
+      "glosses": [
+        "catch fire, kindle",
+        "begin to blaze"
+      ],
+      "notes": "Inchoative of ardeo; no supine.",
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "perf.subj.act",
+          "plup.subj.act"
+        ],
+        "cells": {
+          "inf.pres.act": "ardescere",
+          "1sg.pres.ind.act": "ardesco",
+          "2sg.pres.ind.act": "ardescis",
+          "3sg.pres.ind.act": "ardescit",
+          "1pl.pres.ind.act": "ardescimus",
+          "2pl.pres.ind.act": "ardescitis",
+          "3pl.pres.ind.act": "ardescunt",
+          "1sg.imperf.ind.act": "ardescebam",
+          "2sg.imperf.ind.act": "ardescebas",
+          "3sg.imperf.ind.act": "ardescebat",
+          "1pl.imperf.ind.act": "ardescebamus",
+          "2pl.imperf.ind.act": "ardescebatis",
+          "3pl.imperf.ind.act": "ardescebant",
+          "1sg.fut.ind.act": "ardescam",
+          "2sg.fut.ind.act": "ardesces",
+          "3sg.fut.ind.act": "ardescet",
+          "1pl.fut.ind.act": "ardescemus",
+          "2pl.fut.ind.act": "ardescetis",
+          "3pl.fut.ind.act": "ardescent",
+          "1sg.pres.subj.act": "ardescam",
+          "2sg.pres.subj.act": "ardescas",
+          "3sg.pres.subj.act": "ardescat",
+          "1pl.pres.subj.act": "ardescamus",
+          "2pl.pres.subj.act": "ardescatis",
+          "3pl.pres.subj.act": "ardescant",
+          "1sg.imperf.subj.act": "ardescerem",
+          "2sg.imperf.subj.act": "ardesceres",
+          "3sg.imperf.subj.act": "ardesceret",
+          "1pl.imperf.subj.act": "ardesceremus",
+          "2pl.imperf.subj.act": "ardesceretis",
+          "3pl.imperf.subj.act": "ardescerent",
+          "1sg.perf.ind.act": "arsi",
+          "2sg.perf.ind.act": "arsisti",
+          "3sg.perf.ind.act": "arsit",
+          "1pl.perf.ind.act": "arsimus",
+          "2pl.perf.ind.act": "arsistis",
+          "3pl.perf.ind.act": "arserunt",
+          "1sg.plup.ind.act": "arseram",
+          "2sg.plup.ind.act": "arseras",
+          "3sg.plup.ind.act": "arserat",
+          "1pl.plup.ind.act": "arseramus",
+          "2pl.plup.ind.act": "arseratis",
+          "3pl.plup.ind.act": "arserant",
+          "1sg.futperf.ind.act": "arsero",
+          "2sg.futperf.ind.act": "arseris",
+          "3sg.futperf.ind.act": "arserit",
+          "1pl.futperf.ind.act": "arserimus",
+          "2pl.futperf.ind.act": "arseritis",
+          "3pl.futperf.ind.act": "arserint",
+          "1sg.perf.subj.act": "arserim",
+          "2sg.perf.subj.act": "arseris",
+          "3sg.perf.subj.act": "arserit",
+          "1pl.perf.subj.act": "arserimus",
+          "2pl.perf.subj.act": "arseritis",
+          "3pl.perf.subj.act": "arserint",
+          "1sg.plup.subj.act": "arsissem",
+          "2sg.plup.subj.act": "arsisses",
+          "3sg.plup.subj.act": "arsisset",
+          "1pl.plup.subj.act": "arsissemus",
+          "2pl.plup.subj.act": "arsissetis",
+          "3pl.plup.subj.act": "arsissent",
+          "pap.nom.sg.masc": "ardescens",
+          "pap.voc.sg.masc": "ardescens",
+          "pap.gen.sg.masc": "ardescentis",
+          "pap.dat.sg.masc": "ardescenti",
+          "pap.acc.sg.masc": "ardescentem",
+          "pap.abl.sg.masc": "ardescente",
+          "pap.nom.sg.fem": "ardescens",
+          "pap.voc.sg.fem": "ardescens",
+          "pap.gen.sg.fem": "ardescentis",
+          "pap.dat.sg.fem": "ardescenti",
+          "pap.acc.sg.fem": "ardescentem",
+          "pap.abl.sg.fem": "ardescente",
+          "pap.nom.sg.neut": "ardescens",
+          "pap.voc.sg.neut": "ardescens",
+          "pap.gen.sg.neut": "ardescentis",
+          "pap.dat.sg.neut": "ardescenti",
+          "pap.acc.sg.neut": "ardescens",
+          "pap.abl.sg.neut": "ardescente",
+          "pap.nom.pl.masc": "ardescentes",
+          "pap.voc.pl.masc": "ardescentes",
+          "pap.acc.pl.masc": "ardescentes",
+          "pap.gen.pl.masc": "ardescentium",
+          "pap.dat.pl.masc": "ardescentibus",
+          "pap.abl.pl.masc": "ardescentibus",
+          "pap.nom.pl.fem": "ardescentes",
+          "pap.voc.pl.fem": "ardescentes",
+          "pap.acc.pl.fem": "ardescentes",
+          "pap.gen.pl.fem": "ardescentium",
+          "pap.dat.pl.fem": "ardescentibus",
+          "pap.abl.pl.fem": "ardescentibus",
+          "pap.nom.pl.neut": "ardescentia",
+          "pap.voc.pl.neut": "ardescentia",
+          "pap.acc.pl.neut": "ardescentia",
+          "pap.gen.pl.neut": "ardescentium",
+          "pap.dat.pl.neut": "ardescentibus",
+          "pap.abl.pl.neut": "ardescentibus"
+        }
+      }
+    },
+    {
+      "id": "prendo_v",
+      "lemma": "prendo",
+      "pos": "verb",
+      "principal_parts": [
+        "prendo",
+        "prendere",
+        "prendi",
+        "prensum"
+      ],
+      "glosses": [
+        "grasp, seize, catch"
+      ],
+      "notes": "Contracted form of prehendo.",
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "perf.subj.act",
+          "plup.subj.act"
+        ],
+        "cells": {
+          "inf.pres.act": "prendere",
+          "1sg.pres.ind.act": "prendo",
+          "2sg.pres.ind.act": "prendis",
+          "3sg.pres.ind.act": "prendit",
+          "1pl.pres.ind.act": "prendimus",
+          "2pl.pres.ind.act": "prenditis",
+          "3pl.pres.ind.act": "prendunt",
+          "1sg.imperf.ind.act": "prendebam",
+          "2sg.imperf.ind.act": "prendebas",
+          "3sg.imperf.ind.act": "prendebat",
+          "1pl.imperf.ind.act": "prendebamus",
+          "2pl.imperf.ind.act": "prendebatis",
+          "3pl.imperf.ind.act": "prendebant",
+          "1sg.fut.ind.act": "prendam",
+          "2sg.fut.ind.act": "prendes",
+          "3sg.fut.ind.act": "prendet",
+          "1pl.fut.ind.act": "prendemus",
+          "2pl.fut.ind.act": "prendetis",
+          "3pl.fut.ind.act": "prendent",
+          "1sg.pres.subj.act": "prendam",
+          "2sg.pres.subj.act": "prendas",
+          "3sg.pres.subj.act": "prendat",
+          "1pl.pres.subj.act": "prendamus",
+          "2pl.pres.subj.act": "prendatis",
+          "3pl.pres.subj.act": "prendant",
+          "1sg.imperf.subj.act": "prenderem",
+          "2sg.imperf.subj.act": "prenderes",
+          "3sg.imperf.subj.act": "prenderet",
+          "1pl.imperf.subj.act": "prenderemus",
+          "2pl.imperf.subj.act": "prenderetis",
+          "3pl.imperf.subj.act": "prenderent",
+          "1sg.perf.ind.act": "prendi",
+          "2sg.perf.ind.act": "prendisti",
+          "3sg.perf.ind.act": "prendit",
+          "1pl.perf.ind.act": "prendimus",
+          "2pl.perf.ind.act": "prendistis",
+          "3pl.perf.ind.act": "prenderunt",
+          "1sg.plup.ind.act": "prenderam",
+          "2sg.plup.ind.act": "prenderas",
+          "3sg.plup.ind.act": "prenderat",
+          "1pl.plup.ind.act": "prenderamus",
+          "2pl.plup.ind.act": "prenderatis",
+          "3pl.plup.ind.act": "prenderant",
+          "1sg.futperf.ind.act": "prendero",
+          "2sg.futperf.ind.act": "prenderis",
+          "3sg.futperf.ind.act": "prenderit",
+          "1pl.futperf.ind.act": "prenderimus",
+          "2pl.futperf.ind.act": "prenderitis",
+          "3pl.futperf.ind.act": "prenderint",
+          "1sg.perf.subj.act": "prenderim",
+          "2sg.perf.subj.act": "prenderis",
+          "3sg.perf.subj.act": "prenderit",
+          "1pl.perf.subj.act": "prenderimus",
+          "2pl.perf.subj.act": "prenderitis",
+          "3pl.perf.subj.act": "prenderint",
+          "1sg.plup.subj.act": "prendissem",
+          "2sg.plup.subj.act": "prendisses",
+          "3sg.plup.subj.act": "prendisset",
+          "1pl.plup.subj.act": "prendissemus",
+          "2pl.plup.subj.act": "prendissetis",
+          "3pl.plup.subj.act": "prendissent",
+          "pap.nom.sg.masc": "prendens",
+          "pap.voc.sg.masc": "prendens",
+          "pap.gen.sg.masc": "prendentis",
+          "pap.dat.sg.masc": "prendenti",
+          "pap.acc.sg.masc": "prendentem",
+          "pap.abl.sg.masc": "prendente",
+          "pap.nom.sg.fem": "prendens",
+          "pap.voc.sg.fem": "prendens",
+          "pap.gen.sg.fem": "prendentis",
+          "pap.dat.sg.fem": "prendenti",
+          "pap.acc.sg.fem": "prendentem",
+          "pap.abl.sg.fem": "prendente",
+          "pap.nom.sg.neut": "prendens",
+          "pap.voc.sg.neut": "prendens",
+          "pap.gen.sg.neut": "prendentis",
+          "pap.dat.sg.neut": "prendenti",
+          "pap.acc.sg.neut": "prendens",
+          "pap.abl.sg.neut": "prendente",
+          "pap.nom.pl.masc": "prendentes",
+          "pap.voc.pl.masc": "prendentes",
+          "pap.acc.pl.masc": "prendentes",
+          "pap.gen.pl.masc": "prendentium",
+          "pap.dat.pl.masc": "prendentibus",
+          "pap.abl.pl.masc": "prendentibus",
+          "pap.nom.pl.fem": "prendentes",
+          "pap.voc.pl.fem": "prendentes",
+          "pap.acc.pl.fem": "prendentes",
+          "pap.gen.pl.fem": "prendentium",
+          "pap.dat.pl.fem": "prendentibus",
+          "pap.abl.pl.fem": "prendentibus",
+          "pap.nom.pl.neut": "prendentia",
+          "pap.voc.pl.neut": "prendentia",
+          "pap.acc.pl.neut": "prendentia",
+          "pap.gen.pl.neut": "prendentium",
+          "pap.dat.pl.neut": "prendentibus",
+          "pap.abl.pl.neut": "prendentibus"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "prensus",
+          "ppp.voc.sg.masc": "prense",
+          "ppp.gen.sg.masc": "prensi",
+          "ppp.dat.sg.masc": "prenso",
+          "ppp.acc.sg.masc": "prensum",
+          "ppp.abl.sg.masc": "prenso",
+          "ppp.nom.sg.fem": "prensa",
+          "ppp.voc.sg.fem": "prensa",
+          "ppp.gen.sg.fem": "prensae",
+          "ppp.dat.sg.fem": "prensae",
+          "ppp.acc.sg.fem": "prensam",
+          "ppp.abl.sg.fem": "prensa",
+          "ppp.nom.sg.neut": "prensum",
+          "ppp.voc.sg.neut": "prensum",
+          "ppp.gen.sg.neut": "prensi",
+          "ppp.dat.sg.neut": "prenso",
+          "ppp.acc.sg.neut": "prensum",
+          "ppp.abl.sg.neut": "prenso",
+          "ppp.nom.pl.masc": "prensi",
+          "ppp.voc.pl.masc": "prensi",
+          "ppp.gen.pl.masc": "prensorum",
+          "ppp.dat.pl.masc": "prensis",
+          "ppp.acc.pl.masc": "prensos",
+          "ppp.abl.pl.masc": "prensis",
+          "ppp.nom.pl.fem": "prensae",
+          "ppp.voc.pl.fem": "prensae",
+          "ppp.gen.pl.fem": "prensarum",
+          "ppp.dat.pl.fem": "prensis",
+          "ppp.acc.pl.fem": "prensas",
+          "ppp.abl.pl.fem": "prensis",
+          "ppp.nom.pl.neut": "prensa",
+          "ppp.voc.pl.neut": "prensa",
+          "ppp.gen.pl.neut": "prensorum",
+          "ppp.dat.pl.neut": "prensis",
+          "ppp.acc.pl.neut": "prensa",
+          "ppp.abl.pl.neut": "prensis"
+        }
+      }
+    },
+    {
+      "id": "moderor_v",
+      "lemma": "moderor",
+      "pos": "verb",
+      "principal_parts": [
+        "moderor",
+        "moderari",
+        "moderatus sum"
+      ],
+      "glosses": [
+        "guide, direct, govern",
+        "restrain, moderate"
+      ],
+      "notes": "Deponent.",
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "pres.imp.act",
+          "pres.ind.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "perf.subj.act",
+          "plup.subj.act",
+          "perf.act",
+          "pres.pass",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass"
+        ],
+        "cells": {
+          "1sg.pres.ind.act": "modero",
+          "2sg.pres.ind.act": "moderas",
+          "3sg.pres.ind.act": "moderat",
+          "1pl.pres.ind.act": "moderamus",
+          "2pl.pres.ind.act": "moderatis",
+          "3pl.pres.ind.act": "moderant",
+          "1sg.imperf.ind.act": "moderabam",
+          "2sg.imperf.ind.act": "moderabas",
+          "3sg.imperf.ind.act": "moderabat",
+          "1pl.imperf.ind.act": "moderabamus",
+          "2pl.imperf.ind.act": "moderabatis",
+          "3pl.imperf.ind.act": "moderabant",
+          "1sg.fut.ind.act": "moderabo",
+          "2sg.fut.ind.act": "moderabis",
+          "3sg.fut.ind.act": "moderabit",
+          "1pl.fut.ind.act": "moderabimus",
+          "2pl.fut.ind.act": "moderabitis",
+          "3pl.fut.ind.act": "moderabunt",
+          "1sg.pres.ind.pass": "moderor",
+          "2sg.pres.ind.pass": [
+            "moderaris",
+            "moderare"
+          ],
+          "3sg.pres.ind.pass": "moderatur",
+          "1pl.pres.ind.pass": "moderamur",
+          "2pl.pres.ind.pass": "moderamini",
+          "3pl.pres.ind.pass": "moderantur",
+          "1sg.imperf.ind.pass": "moderabar",
+          "2sg.imperf.ind.pass": [
+            "moderabaris",
+            "moderabare"
+          ],
+          "3sg.imperf.ind.pass": "moderabatur",
+          "1pl.imperf.ind.pass": "moderabamur",
+          "2pl.imperf.ind.pass": "moderabamini",
+          "3pl.imperf.ind.pass": "moderabantur",
+          "1sg.fut.ind.pass": "moderabor",
+          "2sg.fut.ind.pass": [
+            "moderaberis",
+            "moderabere"
+          ],
+          "3sg.fut.ind.pass": "moderabitur",
+          "1pl.fut.ind.pass": "moderabimur",
+          "2pl.fut.ind.pass": "moderabimini",
+          "3pl.fut.ind.pass": "moderabuntur",
+          "1sg.pres.subj.act": "moderem",
+          "2sg.pres.subj.act": "moderes",
+          "3sg.pres.subj.act": "moderet",
+          "1pl.pres.subj.act": "moderemus",
+          "2pl.pres.subj.act": "moderetis",
+          "3pl.pres.subj.act": "moderent",
+          "1sg.imperf.subj.act": "moderarem",
+          "2sg.imperf.subj.act": "moderares",
+          "3sg.imperf.subj.act": "moderaret",
+          "1pl.imperf.subj.act": "moderaremus",
+          "2pl.imperf.subj.act": "moderaretis",
+          "3pl.imperf.subj.act": "moderarent",
+          "2sg.pres.imp.act": "modera",
+          "2pl.pres.imp.act": "moderate",
+          "inf.pres.act": "moderare",
+          "inf.pres.pass": "moderari",
+          "gerundive.nom.sg.masc": "moderandus",
+          "gerundive.nom.sg.fem": "moderanda",
+          "gerundive.nom.sg.neut": "moderandum",
+          "gerundive.voc.sg.masc": "moderande",
+          "gerundive.voc.sg.fem": "moderanda",
+          "gerundive.voc.sg.neut": "moderandum",
+          "gerundive.gen.sg.masc": "moderandi",
+          "gerundive.gen.sg.fem": "moderandae",
+          "gerundive.gen.sg.neut": "moderandi",
+          "gerundive.dat.sg.masc": "moderando",
+          "gerundive.dat.sg.fem": "moderandae",
+          "gerundive.dat.sg.neut": "moderando",
+          "gerundive.acc.sg.masc": "moderandum",
+          "gerundive.acc.sg.fem": "moderandam",
+          "gerundive.acc.sg.neut": "moderandum",
+          "gerundive.abl.sg.masc": "moderando",
+          "gerundive.abl.sg.fem": "moderanda",
+          "gerundive.abl.sg.neut": "moderando",
+          "gerundive.nom.pl.masc": "moderandi",
+          "gerundive.nom.pl.fem": "moderandae",
+          "gerundive.nom.pl.neut": "moderanda",
+          "gerundive.voc.pl.masc": "moderandi",
+          "gerundive.voc.pl.fem": "moderandae",
+          "gerundive.voc.pl.neut": "moderanda",
+          "gerundive.gen.pl.masc": "moderandorum",
+          "gerundive.gen.pl.fem": "moderandarum",
+          "gerundive.gen.pl.neut": "moderandorum",
+          "gerundive.dat.pl.masc": "moderandis",
+          "gerundive.dat.pl.fem": "moderandis",
+          "gerundive.dat.pl.neut": "moderandis",
+          "gerundive.acc.pl.masc": "moderandos",
+          "gerundive.acc.pl.fem": "moderandas",
+          "gerundive.acc.pl.neut": "moderanda",
+          "gerundive.abl.pl.masc": "moderandis",
+          "gerundive.abl.pl.fem": "moderandis",
+          "gerundive.abl.pl.neut": "moderandis",
+          "ger.gen.sg": "moderandi",
+          "ger.dat.sg": "moderando",
+          "ger.acc.sg": "moderandum",
+          "ger.abl.sg": "moderando",
+          "1sg.pres.subj.pass": "moderer",
+          "2sg.pres.subj.pass": [
+            "modereris",
+            "moderere"
+          ],
+          "3sg.pres.subj.pass": "moderetur",
+          "1pl.pres.subj.pass": "moderemur",
+          "2pl.pres.subj.pass": "moderemini",
+          "3pl.pres.subj.pass": "moderentur",
+          "1sg.imperf.subj.pass": "moderarer",
+          "2sg.imperf.subj.pass": [
+            "moderareris",
+            "moderarere"
+          ],
+          "3sg.imperf.subj.pass": "moderaretur",
+          "1pl.imperf.subj.pass": "moderaremur",
+          "2pl.imperf.subj.pass": "moderaremini",
+          "3pl.imperf.subj.pass": "moderarentur",
+          "2sg.pres.imp.pass": "moderare",
+          "2pl.pres.imp.pass": "moderamini",
+          "pap.nom.sg.masc": "moderans",
+          "pap.nom.sg.fem": "moderans",
+          "pap.nom.sg.neut": "moderans",
+          "pap.voc.sg.masc": "moderans",
+          "pap.voc.sg.fem": "moderans",
+          "pap.voc.sg.neut": "moderans",
+          "pap.gen.sg.masc": "moderantis",
+          "pap.gen.sg.fem": "moderantis",
+          "pap.gen.sg.neut": "moderantis",
+          "pap.dat.sg.masc": "moderanti",
+          "pap.dat.sg.fem": "moderanti",
+          "pap.dat.sg.neut": "moderanti",
+          "pap.acc.sg.masc": "moderantem",
+          "pap.acc.sg.fem": "moderantem",
+          "pap.acc.sg.neut": "moderans",
+          "pap.abl.sg.masc": "moderante",
+          "pap.abl.sg.fem": "moderante",
+          "pap.abl.sg.neut": "moderante",
+          "pap.nom.pl.masc": "moderantes",
+          "pap.nom.pl.fem": "moderantes",
+          "pap.nom.pl.neut": "moderantia",
+          "pap.voc.pl.masc": "moderantes",
+          "pap.voc.pl.fem": "moderantes",
+          "pap.voc.pl.neut": "moderantia",
+          "pap.gen.pl.masc": [
+            "moderantium",
+            "moderantum"
+          ],
+          "pap.gen.pl.fem": [
+            "moderantium",
+            "moderantum"
+          ],
+          "pap.gen.pl.neut": [
+            "moderantium",
+            "moderantum"
+          ],
+          "pap.dat.pl.masc": "moderantibus",
+          "pap.dat.pl.fem": "moderantibus",
+          "pap.dat.pl.neut": "moderantibus",
+          "pap.acc.pl.masc": "moderantes",
+          "pap.acc.pl.fem": "moderantes",
+          "pap.acc.pl.neut": "moderantia",
+          "pap.abl.pl.masc": "moderantibus",
+          "pap.abl.pl.fem": "moderantibus",
+          "pap.abl.pl.neut": "moderantibus"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "moderatus",
+          "ppp.nom.sg.fem": "moderata",
+          "ppp.nom.sg.neut": "moderatum",
+          "ppp.gen.sg.masc": "moderati",
+          "ppp.gen.sg.fem": "moderatae",
+          "ppp.gen.sg.neut": "moderati",
+          "ppp.dat.sg.masc": "moderato",
+          "ppp.dat.sg.fem": "moderatae",
+          "ppp.dat.sg.neut": "moderato",
+          "ppp.acc.sg.masc": "moderatum",
+          "ppp.acc.sg.fem": "moderatam",
+          "ppp.acc.sg.neut": "moderatum",
+          "ppp.abl.sg.masc": "moderato",
+          "ppp.abl.sg.fem": "moderata",
+          "ppp.abl.sg.neut": "moderato",
+          "ppp.voc.sg.masc": "moderate",
+          "ppp.voc.sg.fem": "moderata",
+          "ppp.voc.sg.neut": "moderatum",
+          "ppp.nom.pl.masc": "moderati",
+          "ppp.nom.pl.fem": "moderatae",
+          "ppp.nom.pl.neut": "moderata",
+          "ppp.gen.pl.masc": "moderatorum",
+          "ppp.gen.pl.fem": "moderatarum",
+          "ppp.gen.pl.neut": "moderatorum",
+          "ppp.dat.pl.masc": "moderatis",
+          "ppp.dat.pl.fem": "moderatis",
+          "ppp.dat.pl.neut": "moderatis",
+          "ppp.acc.pl.masc": "moderatos",
+          "ppp.acc.pl.fem": "moderatas",
+          "ppp.acc.pl.neut": "moderata",
+          "ppp.abl.pl.masc": "moderatis",
+          "ppp.abl.pl.fem": "moderatis",
+          "ppp.abl.pl.neut": "moderatis",
+          "ppp.voc.pl.masc": "moderati",
+          "ppp.voc.pl.fem": "moderatae",
+          "ppp.voc.pl.neut": "moderata"
+        }
+      }
+    },
+    {
+      "id": "conplector_v",
+      "lemma": "conplector",
+      "pos": "verb",
+      "principal_parts": [
+        "conplector",
+        "conplecti",
+        "conplexus sum"
+      ],
+      "glosses": [
+        "embrace, clasp",
+        "encompass"
+      ],
+      "notes": "Deponent; also spelled complector.",
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "perf.ind.act",
+          "imperf.subj.act",
+          "pres.imp.act",
+          "pres.ind.pass",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "perf.subj.act",
+          "plup.subj.act",
+          "perf.act",
+          "pres.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "pres.subj.act"
+        ],
+        "cells": {
+          "2sg.pres.ind.act": "conplectis",
+          "3sg.pres.ind.act": "conplectit",
+          "1pl.pres.ind.act": "conplectimus",
+          "2pl.pres.ind.act": "conplectitis",
+          "2sg.pres.ind.pass": [
+            "conplecteris",
+            "conplectere"
+          ],
+          "3sg.pres.ind.pass": "conplectitur",
+          "1sg.imperf.subj.act": "conplecterem",
+          "2sg.imperf.subj.act": "conplecteres",
+          "3sg.imperf.subj.act": "conplecteret",
+          "1pl.imperf.subj.act": "conplecteremus",
+          "2pl.imperf.subj.act": "conplecteretis",
+          "3pl.imperf.subj.act": "conplecterent",
+          "2sg.pres.imp.act": "conplecte",
+          "2pl.pres.imp.act": "conplectite",
+          "1sg.pres.ind.act": "conplector",
+          "inf.pres.act": "conplectere",
+          "inf.pres.pass": "conplecti",
+          "gerundive.nom.sg.masc": "conplectendus",
+          "gerundive.nom.sg.fem": "conplectenda",
+          "gerundive.nom.sg.neut": "conplectendum",
+          "gerundive.voc.sg.masc": "conplectende",
+          "gerundive.voc.sg.fem": "conplectenda",
+          "gerundive.voc.sg.neut": "conplectendum",
+          "gerundive.gen.sg.masc": "conplectendi",
+          "gerundive.gen.sg.fem": "conplectendae",
+          "gerundive.gen.sg.neut": "conplectendi",
+          "gerundive.dat.sg.masc": "conplectendo",
+          "gerundive.dat.sg.fem": "conplectendae",
+          "gerundive.dat.sg.neut": "conplectendo",
+          "gerundive.acc.sg.masc": "conplectendum",
+          "gerundive.acc.sg.fem": "conplectendam",
+          "gerundive.acc.sg.neut": "conplectendum",
+          "gerundive.abl.sg.masc": "conplectendo",
+          "gerundive.abl.sg.fem": "conplectenda",
+          "gerundive.abl.sg.neut": "conplectendo",
+          "gerundive.nom.pl.masc": "conplectendi",
+          "gerundive.nom.pl.fem": "conplectendae",
+          "gerundive.nom.pl.neut": "conplectenda",
+          "gerundive.voc.pl.masc": "conplectendi",
+          "gerundive.voc.pl.fem": "conplectendae",
+          "gerundive.voc.pl.neut": "conplectenda",
+          "gerundive.gen.pl.masc": "conplectendorum",
+          "gerundive.gen.pl.fem": "conplectendarum",
+          "gerundive.gen.pl.neut": "conplectendorum",
+          "gerundive.dat.pl.masc": "conplectendis",
+          "gerundive.dat.pl.fem": "conplectendis",
+          "gerundive.dat.pl.neut": "conplectendis",
+          "gerundive.acc.pl.masc": "conplectendos",
+          "gerundive.acc.pl.fem": "conplectendas",
+          "gerundive.acc.pl.neut": "conplectenda",
+          "gerundive.abl.pl.masc": "conplectendis",
+          "gerundive.abl.pl.fem": "conplectendis",
+          "gerundive.abl.pl.neut": "conplectendis",
+          "ger.gen.sg": "conplectendi",
+          "ger.dat.sg": "conplectendo",
+          "ger.acc.sg": "conplectendum",
+          "ger.abl.sg": "conplectendo",
+          "1sg.pres.ind.pass": "conplector",
+          "1pl.pres.ind.pass": "conplectimur",
+          "2pl.pres.ind.pass": "conplectimini",
+          "3pl.pres.ind.pass": "conplectuntur",
+          "1sg.imperf.ind.pass": "conplectebar",
+          "2sg.imperf.ind.pass": [
+            "conplectebaris",
+            "conplectebare"
+          ],
+          "3sg.imperf.ind.pass": "conplectebatur",
+          "1pl.imperf.ind.pass": "conplectebamur",
+          "2pl.imperf.ind.pass": "conplectebamini",
+          "3pl.imperf.ind.pass": "conplectebantur",
+          "1sg.fut.ind.pass": "conplectar",
+          "2sg.fut.ind.pass": [
+            "conplecteris",
+            "conplectere"
+          ],
+          "3sg.fut.ind.pass": "conplectetur",
+          "1pl.fut.ind.pass": "conplectemur",
+          "2pl.fut.ind.pass": "conplectemini",
+          "3pl.fut.ind.pass": "conplectentur",
+          "1sg.pres.subj.pass": "conplectar",
+          "2sg.pres.subj.pass": [
+            "conplectaris",
+            "conplectare"
+          ],
+          "3sg.pres.subj.pass": "conplectatur",
+          "1pl.pres.subj.pass": "conplectamur",
+          "2pl.pres.subj.pass": "conplectamini",
+          "3pl.pres.subj.pass": "conplectantur",
+          "1sg.imperf.subj.pass": "conplecterer",
+          "2sg.imperf.subj.pass": [
+            "conplectereris",
+            "conplecterere"
+          ],
+          "3sg.imperf.subj.pass": "conplecteretur",
+          "1pl.imperf.subj.pass": "conplecteremur",
+          "2pl.imperf.subj.pass": "conplecteremini",
+          "3pl.imperf.subj.pass": "conplecterentur",
+          "2sg.pres.imp.pass": "conplectere",
+          "2pl.pres.imp.pass": "conplectimini",
+          "3pl.pres.ind.act": "conplectunt",
+          "1sg.imperf.ind.act": "conplectebam",
+          "2sg.imperf.ind.act": "conplectebas",
+          "3sg.imperf.ind.act": "conplectebat",
+          "1pl.imperf.ind.act": "conplectebamus",
+          "2pl.imperf.ind.act": "conplectebatis",
+          "3pl.imperf.ind.act": "conplectebant",
+          "1sg.fut.ind.act": "conplectam",
+          "2sg.fut.ind.act": "conplectes",
+          "3sg.fut.ind.act": "conplectet",
+          "1pl.fut.ind.act": "conplectemus",
+          "2pl.fut.ind.act": "conplectetis",
+          "3pl.fut.ind.act": "conplectent",
+          "1sg.pres.subj.act": "conplectam",
+          "2sg.pres.subj.act": "conplectas",
+          "3sg.pres.subj.act": "conplectat",
+          "1pl.pres.subj.act": "conplectamus",
+          "2pl.pres.subj.act": "conplectatis",
+          "3pl.pres.subj.act": "conplectant",
+          "pap.nom.sg.masc": "conplectens",
+          "pap.nom.sg.fem": "conplectens",
+          "pap.nom.sg.neut": "conplectens",
+          "pap.voc.sg.masc": "conplectens",
+          "pap.voc.sg.fem": "conplectens",
+          "pap.voc.sg.neut": "conplectens",
+          "pap.gen.sg.masc": "conplectentis",
+          "pap.gen.sg.fem": "conplectentis",
+          "pap.gen.sg.neut": "conplectentis",
+          "pap.dat.sg.masc": "conplectenti",
+          "pap.dat.sg.fem": "conplectenti",
+          "pap.dat.sg.neut": "conplectenti",
+          "pap.acc.sg.masc": "conplectentem",
+          "pap.acc.sg.fem": "conplectentem",
+          "pap.acc.sg.neut": "conplectens",
+          "pap.abl.sg.masc": "conplectente",
+          "pap.abl.sg.fem": "conplectente",
+          "pap.abl.sg.neut": "conplectente",
+          "pap.nom.pl.masc": "conplectentes",
+          "pap.nom.pl.fem": "conplectentes",
+          "pap.nom.pl.neut": "conplectentia",
+          "pap.voc.pl.masc": "conplectentes",
+          "pap.voc.pl.fem": "conplectentes",
+          "pap.voc.pl.neut": "conplectentia",
+          "pap.gen.pl.masc": "conplectentium",
+          "pap.gen.pl.fem": "conplectentium",
+          "pap.gen.pl.neut": "conplectentium",
+          "pap.dat.pl.masc": "conplectentibus",
+          "pap.dat.pl.fem": "conplectentibus",
+          "pap.dat.pl.neut": "conplectentibus",
+          "pap.acc.pl.masc": "conplectentes",
+          "pap.acc.pl.fem": "conplectentes",
+          "pap.acc.pl.neut": "conplectentia",
+          "pap.abl.pl.masc": "conplectentibus",
+          "pap.abl.pl.fem": "conplectentibus",
+          "pap.abl.pl.neut": "conplectentibus"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "conplexus",
+          "ppp.nom.sg.fem": "conplexa",
+          "ppp.nom.sg.neut": "conplexum",
+          "ppp.gen.sg.masc": "conplexi",
+          "ppp.gen.sg.fem": "conplexae",
+          "ppp.gen.sg.neut": "conplexi",
+          "ppp.dat.sg.masc": "conplexo",
+          "ppp.dat.sg.fem": "conplexae",
+          "ppp.dat.sg.neut": "conplexo",
+          "ppp.acc.sg.masc": "conplexum",
+          "ppp.acc.sg.fem": "conplexam",
+          "ppp.acc.sg.neut": "conplexum",
+          "ppp.abl.sg.masc": "conplexo",
+          "ppp.abl.sg.fem": "conplexa",
+          "ppp.abl.sg.neut": "conplexo",
+          "ppp.voc.sg.masc": "conplexe",
+          "ppp.voc.sg.fem": "conplexa",
+          "ppp.voc.sg.neut": "conplexum",
+          "ppp.nom.pl.masc": "conplexi",
+          "ppp.nom.pl.fem": "conplexae",
+          "ppp.nom.pl.neut": "conplexa",
+          "ppp.gen.pl.masc": "conplexorum",
+          "ppp.gen.pl.fem": "conplexarum",
+          "ppp.gen.pl.neut": "conplexorum",
+          "ppp.dat.pl.masc": "conplexis",
+          "ppp.dat.pl.fem": "conplexis",
+          "ppp.dat.pl.neut": "conplexis",
+          "ppp.acc.pl.masc": "conplexos",
+          "ppp.acc.pl.fem": "conplexas",
+          "ppp.acc.pl.neut": "conplexa",
+          "ppp.abl.pl.masc": "conplexis",
+          "ppp.abl.pl.fem": "conplexis",
+          "ppp.abl.pl.neut": "conplexis",
+          "ppp.voc.pl.masc": "conplexi",
+          "ppp.voc.pl.fem": "conplexae",
+          "ppp.voc.pl.neut": "conplexa"
         }
       }
     }

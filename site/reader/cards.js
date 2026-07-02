@@ -47,6 +47,9 @@
     ger: { label: 'gerund', note: 'gerund' },
     sup: { label: 'supine', note: 'supine' },
     c: { label: 'common gender', note: 'common-gender' },
+    loc: { label: 'locative', note: 'locative' },
+    comp: { label: 'comparative', note: 'comparative' },
+    superl: { label: 'superlative', note: 'superlative' },
     prep: { label: 'preposition', note: 'preposition' },
     conj: { label: 'conjunction', note: 'conjunction' },
     enclit: { label: 'enclitic', note: 'enclitic' },
@@ -215,10 +218,13 @@
   //   2. An aria-hidden visual grid: responsive wrapping column blocks whose
   //      rows align via subgrid, with row labels collapsed into a shared left
   //      gutter (absolutely-positioned, opaque-backed badges).
-  function renderSection(p, sectionGroup, type, soloSection) {
+  function renderSection(p, sectionGroup, type, soloSection, rowPrefixOverride) {
     // PPP cells are stored with a 'ppp.' prefix on the row so their keys match
-    // parse codes directly (e.g. ppp.acc.pl.fem).
-    var rowPrefix = type === 'ppp' ? 'ppp.' : '';
+    // parse codes directly (e.g. ppp.acc.pl.fem). Marker grids (pap.,
+    // gerundive., comp., …) pass their prefix explicitly.
+    var rowPrefix = rowPrefixOverride != null
+      ? rowPrefixOverride
+      : (type === 'ppp' ? 'ppp.' : '');
     function hasForm(r, sc) { return p.cells[rowPrefix + r + '.' + sc.orig] != null; }
     // Canonical row order is preserved from p.rows (1sg…3pl, nom…abl).
     var rows = p.rows.filter(function (r) {
@@ -315,6 +321,44 @@
     return '<div class="' + cls + '" style="--rows:' + rows.length + '">' + srTable + visual + '</div>';
   }
 
+  // Marker grids: cells stored under a non-finite / degree marker prefix
+  // (pap.nom.sg.masc, ger.gen.sg, superl.voc.sg.masc, …). The main rows×cols
+  // never address them, so without this they exist only for form-matching.
+  // Render each marker present as its own labelled section, declined like a
+  // nominal grid.
+  var MARKER_GRIDS = ['pap', 'fap', 'gerundive', 'ger', 'comp', 'superl'];
+  var MARKER_ROW_ORDER = ['nom', 'voc', 'gen', 'dat', 'acc', 'abl', 'loc'];
+  var MARKER_COL_ORDER = ['sg.masc', 'sg.fem', 'sg.neut', 'pl.masc', 'pl.fem', 'pl.neut', 'sg', 'pl'];
+
+  function renderMarkerGrids(p) {
+    if (!p || !p.cells) return '';
+    var out = '';
+    MARKER_GRIDS.forEach(function (marker) {
+      var prefix = marker + '.';
+      var colsSeen = Object.create(null);
+      var any = false;
+      Object.keys(p.cells).forEach(function (k) {
+        if (k.indexOf(prefix) !== 0) return;
+        any = true;
+        colsSeen[k.slice(prefix.length).split('.').slice(1).join('.')] = true;
+      });
+      if (!any) return;
+      var cols = MARKER_COL_ORDER.filter(function (c) { return colsSeen[c]; });
+      if (!cols.length) return;
+      var pseudo = { rows: MARKER_ROW_ORDER, cols: cols, cells: p.cells };
+      var groups = splitColumnsByGroup(cols, 'adj');
+      var solo = groups.length === 1;
+      var m = PARSE_TOKEN_MAP[marker];
+      var label = '<p class="card-ppp-label">'
+        + (m && m.note ? noteBtn(m.note, m.label) : escHtml(marker))
+        + '</p>';
+      out += '<div class="card-paradigms card-ppp-paradigms">' + label
+        + groups.map(function (g) { return renderSection(pseudo, g, 'adj', solo, prefix); }).join('\n')
+        + '</div>';
+    });
+    return out;
+  }
+
   function renderParadigm(card) {
     var out = '';
     var p = card.paradigm;
@@ -325,6 +369,7 @@
       out += '<div class="card-paradigms">' + groups.map(function (g) {
         return renderSection(p, g, type, solo);
       }).join('\n') + '</div>';
+      out += renderMarkerGrids(p);
     }
     var ppp = card.ppp_paradigm;
     if (ppp && ppp.rows && ppp.cols && ppp.cells) {

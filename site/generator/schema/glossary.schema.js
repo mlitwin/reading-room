@@ -13,6 +13,7 @@ export const GlossaryCandidateSchema = z.object({
 export const GlossaryEntrySchema = z.object({
   word: z.string().min(1),                                // normalized surface form (see C7)
   candidates: z.array(GlossaryCandidateSchema).min(1),
+  attested: z.boolean().optional(),                       // surface occurs in a text (vs. paradigm-generated)
 });
 
 export const GlossarySchema = z.object({
