@@ -1,14 +1,19 @@
 # Latin support — correctness & coverage analysis
 
-> **Status 2026-07-01:** Phases 1 and 2 are done — see
-> `site/latin/phase1_corrections.py`, `site/latin/phase2_onomasticon.py`, the
-> L10/Gl6/C12 closure invariants, and the two Latin-support entries in
-> `remaining-validate.md`. The `unknown_adv` sentinel is retired (89 new
-> cards, all 111 tokens lemmatized), degree (`comp`/`superl`) and locative
-> are modeled, and *carissime* parses as a real superlative. Item 10's
-> fallback-map staleness was patched by hand (build-time generation remains
-> open). Phase 3 (display hardening: render comp/superl/gerund cell
-> sections, glossary provenance flag, generated fallback maps) remains.
+> **Status 2026-07-01: all three phases executed** — see
+> `site/latin/phase1_corrections.py`, `site/latin/phase2_onomasticon.py`,
+> the L10/L11/Gl6/C12 invariants, and the three Latin-support entries in
+> `remaining-validate.md`. Phase 1: vocatives, fabricated/garbled lemmata,
+> ppl→pap, parse-atom closure. Phase 2: `unknown_adv` retired (89 new cards,
+> all 111 tokens lemmatized), degree + locative modeled, *carissime* is a
+> real superlative. Phase 3: marker grids (participles, gerund/gerundive,
+> comparative/superlative) render as card sections, glossary entries carry
+> an `attested` provenance flag, and a coverage test pins the cards.js
+> fallback maps to grammar.json. Still open: generating the fallback maps at
+> build time (item 10, now test-guarded), the full morphology-regeneration
+> cross-check (item 13, partially covered by L11), the `zephyrius_adv` id
+> rename, and the marvell overlay deponent grids (laetor/testor carry
+> active-form cells).
 
 Review of [latin-support.md](latin-support.md) against the shipped data and
 runtime, 2026-07-01. Method: every factual claim in the doc was checked against

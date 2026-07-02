@@ -158,7 +158,9 @@ two-layer structure: a visually-hidden semantic `<table>` for accessibility, and
 an aria-hidden CSS-subgrid visual grid with a shared row-label gutter. The
 in-context form(s) get an `active-form` highlight, with fallbacks for
 Morpheus/paradigm code mismatches (noun gender suffixes, vocative→nominative).
-The full layout rationale is in
+Cells stored under a non-finite / degree marker prefix (`pap.`, `fap.`,
+`gerundive.`, `ger.`, `comp.`, `superl.`) render as their own labelled
+sections via `renderMarkerGrids()`. The full layout rationale is in
 [paradigm-grid-pattern.md](paradigm-grid-pattern.md).
 
 ## Parse codes and grammar links
@@ -193,7 +195,9 @@ web.
 ## Derived artifacts
 
 - **Glossary** (`build-glossary.js`) → `latin-glossary.json`: every surface form
-  mapped to its candidate lemmas (multi-candidate forms flagged).
+  mapped to its candidate lemmas (multi-candidate forms flagged). Entries whose
+  surface occurs in a text carry `attested: true`; the rest are
+  paradigm-generated dictionary forms.
 - **Concordance** (`build-concordance.js`) → `docs/assets/concordance/<text>.json`:
   a token index for each chapter-formatted text (`book{N}-{NN}.md`). Each span
   gets a stable `data-token-id` (`b{book}-{chapter}-{ordinal}`).
