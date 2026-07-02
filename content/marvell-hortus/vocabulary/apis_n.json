@@ -30,7 +30,9 @@
       "gen.sg": "apis",
       "dat.sg": "api",
       "dat.pl": "apibus",
-      "abl.pl": "apibus"
+      "abl.pl": "apibus",
+      "voc.sg": "apis",
+      "voc.pl": "apis"
     }
   }
 }

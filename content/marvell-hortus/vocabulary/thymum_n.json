@@ -30,7 +30,9 @@
       "dat.pl": "thymis",
       "abl.pl": "thymis",
       "nom.pl": "thyma",
-      "acc.pl": "thyma"
+      "acc.pl": "thyma",
+      "voc.sg": "thymum",
+      "voc.pl": "thyma"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T02:42:04.427Z",
+  "generated_at": "2026-07-02T11:48:27.842Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,8 +273,8 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "1569f6a226e57c939e04802ae5df6e5b4b219b5190be9c4e2921d5bcc1c0556d",
-      "size": 58675
+      "sha256": "69d99db7e76d8d5fa14cd23710a5b2d5e259b65b3a4cc7e3b3a82b101215a507",
+      "size": 59129
     },
     {
       "path": "assets/concordance/marvell-hortus.source-tokens.json",
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "300c53c7244aad69a16c4aced80b217ea3c05d6c491a79d1be741d5755f09c44",
+      "sha256": "c3e4b59e3767eed5da07d1dc36460192c6cb04b2a1270eb53fbf50406d9b42bc",
       "size": 926268
     },
     {
@@ -603,8 +603,8 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "d8671e0ccd197f82216d3ae9cb0ade9e594bdd1f3dffb3cef71a40c17465c689",
-      "size": 9867554
+      "sha256": "f2c85668d19d3efa101f03853f84aaba5597263d579d19710b05f632a6bcf583",
+      "size": 10322603
     },
     {
       "path": "assets/latin-grammar.js",
@@ -618,18 +618,18 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "deb9a15bc202a42ca4709278d26e21924ff9451dad4d3c03f1fe8e2d505577f2",
+      "sha256": "1c61da1ebfaeed15e59e36ab08de37cd6f44c00a82698114699665f73bf853bf",
       "size": 2476366
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "3c34580346769adf4c70a37535ac86300f32746da8f4cdfb2ef9ec4bdd142a7d",
-      "size": 5360178
+      "sha256": "223c71fe504d94a0b41c644f5bba1ac1e186c6f4100846a70b2b13b33409bd63",
+      "size": 5513746
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "2fba4ecc4d16356219e14fc9004d2b81bf92449febfca722875b5cead142edbc",
-      "size": 5360149
+      "sha256": "d09396867e8f67c86cdbd4439a7031e408de9a855641417a9f59e72a928114f5",
+      "size": 5513717
     },
     {
       "path": "assets/reader.css",
@@ -638,13 +638,13 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "ea2f0a3a6e763a8b5db6ddf6e71f9e06e726dc2b884fbef796435f732029e0fb",
-      "size": 10871825
+      "sha256": "f2de81ce6d2de02eb3b49f530c59bae8fa5e1719e047f3b87e11c5c48f5cd5f7",
+      "size": 11327328
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "d20607d8e53651c22519991eb85201494a3cc7cc7a357c7ab816fa30aa0e3f65",
-      "size": 10871799
+      "sha256": "cde97f232ed42127f715458627622cfbf5300e8200128323ccc6eaf2e0ed37bb",
+      "size": 11327302
     },
     {
       "path": "classical-mechanics/hamiltonian/index.html",
@@ -728,28 +728,28 @@
     },
     {
       "path": "index.json",
-      "sha256": "93e6836435e951cad8138d08a9c3306896f09465e716df6c45babb6a4fcff739",
+      "sha256": "8be91e52aea199e05b36f2a262f74ccf5db4408ee65500f38a1302f829f1106a",
       "size": 29399
     },
     {
       "path": "marvell-hortus/book1-01.html",
-      "sha256": "75fa79803c3fe82daf1985878a8c980ee9a22060ae85b1b47e6e3701083c09b9",
-      "size": 70494
+      "sha256": "4779ecefb541cfce2ebcf72b7c799fbd1dd954c513c7bc0f638e7c79a18ff581",
+      "size": 70469
     },
     {
       "path": "marvell-hortus/book1-02.html",
-      "sha256": "59763b3ad02eba1fb7062624bda76eab177b83da22333270bc6365a705f3fff8",
-      "size": 78643
+      "sha256": "3f023c5f426c1b6bb1e5294cb5c1c84aa627921706e396af163c508fbe5beb8e",
+      "size": 78345
     },
     {
       "path": "marvell-hortus/book1-03.html",
-      "sha256": "9e41eaff69befe2927e76df11b5d7495d4d6cb49b54dfcf02cc84ee56106d3e9",
-      "size": 75680
+      "sha256": "d175c8131523d623bb05a5900e9326306cc3644af5b63dd85b786ac1dedf34be",
+      "size": 75740
     },
     {
       "path": "marvell-hortus/book1-04.html",
-      "sha256": "fd7b7a7f3850c5c4e1828aecdfb75773f36cf194c1d3081633596e449d970a2a",
-      "size": 81541
+      "sha256": "47262a8396d6285aa5cc6c9b1c3d476a2f6b3488c5d3dbdd5077991cb62e3d0e",
+      "size": 81687
     },
     {
       "path": "marvell-hortus/book1-05.html",
@@ -773,8 +773,8 @@
     },
     {
       "path": "marvell-hortus/book1-09.html",
-      "sha256": "85ef6ee333535d993361c5513d0800498e27135129f0176ab39dc3f664dd2ec3",
-      "size": 75014
+      "sha256": "d0dc01a7355ea58fb63e726cb9bd94381af01f5b85ad8ce1c11f868a073f8cbe",
+      "size": 75166
     },
     {
       "path": "marvell-hortus/index.html",

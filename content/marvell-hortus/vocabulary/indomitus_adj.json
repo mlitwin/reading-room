@@ -47,7 +47,19 @@
       "abl.sg.neut": "indomito",
       "nom.pl.neut": "indomita",
       "gen.pl.neut": "indomitorum",
-      "acc.pl.neut": "indomita"
+      "acc.pl.neut": "indomita",
+      "voc.sg.masc": "indomite",
+      "voc.sg.fem": "indomita",
+      "voc.sg.neut": "indomitum",
+      "voc.pl.masc": "indomiti",
+      "dat.pl.masc": "indomitis",
+      "abl.pl.masc": "indomitis",
+      "voc.pl.fem": "indomitae",
+      "dat.pl.fem": "indomitis",
+      "abl.pl.fem": "indomitis",
+      "voc.pl.neut": "indomita",
+      "dat.pl.neut": "indomitis",
+      "abl.pl.neut": "indomitis"
     }
   }
 }

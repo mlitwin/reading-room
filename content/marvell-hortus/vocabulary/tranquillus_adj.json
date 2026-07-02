@@ -47,7 +47,19 @@
       "abl.sg.neut": "tranquillo",
       "nom.pl.neut": "tranquilla",
       "gen.pl.neut": "tranquillorum",
-      "acc.pl.neut": "tranquilla"
+      "acc.pl.neut": "tranquilla",
+      "voc.sg.masc": "tranquille",
+      "voc.sg.fem": "tranquilla",
+      "voc.sg.neut": "tranquillum",
+      "voc.pl.masc": "tranquilli",
+      "dat.pl.masc": "tranquillis",
+      "abl.pl.masc": "tranquillis",
+      "voc.pl.fem": "tranquillae",
+      "dat.pl.fem": "tranquillis",
+      "abl.pl.fem": "tranquillis",
+      "voc.pl.neut": "tranquilla",
+      "dat.pl.neut": "tranquillis",
+      "abl.pl.neut": "tranquillis"
     }
   }
 }

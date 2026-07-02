@@ -31,7 +31,9 @@
       "dat.pl": "foris",
       "abl.pl": "foris",
       "nom.pl": "fora",
-      "acc.pl": "fora"
+      "acc.pl": "fora",
+      "voc.sg": "forum",
+      "voc.pl": "fora"
     }
   }
 }

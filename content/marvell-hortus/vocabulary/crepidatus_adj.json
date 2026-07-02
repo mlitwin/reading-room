@@ -47,7 +47,19 @@
       "abl.sg.neut": "crepidato",
       "nom.pl.neut": "crepidata",
       "gen.pl.neut": "crepidatorum",
-      "acc.pl.neut": "crepidata"
+      "acc.pl.neut": "crepidata",
+      "voc.sg.masc": "crepidate",
+      "voc.sg.fem": "crepidata",
+      "voc.sg.neut": "crepidatum",
+      "voc.pl.masc": "crepidati",
+      "dat.pl.masc": "crepidatis",
+      "abl.pl.masc": "crepidatis",
+      "voc.pl.fem": "crepidatae",
+      "dat.pl.fem": "crepidatis",
+      "abl.pl.fem": "crepidatis",
+      "voc.pl.neut": "crepidata",
+      "dat.pl.neut": "crepidatis",
+      "abl.pl.neut": "crepidatis"
     }
   }
 }

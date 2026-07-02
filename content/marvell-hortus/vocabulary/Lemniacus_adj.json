@@ -54,7 +54,13 @@
       "gen.pl.neut": "Lemniacorum",
       "dat.pl.neut": "Lemniacis",
       "acc.pl.neut": "Lemniaca",
-      "abl.pl.neut": "Lemniacis"
+      "abl.pl.neut": "Lemniacis",
+      "voc.sg.masc": "Lemniace",
+      "voc.sg.fem": "Lemniaca",
+      "voc.sg.neut": "Lemniacum",
+      "voc.pl.masc": "Lemniaci",
+      "voc.pl.fem": "Lemniacae",
+      "voc.pl.neut": "Lemniaca"
     }
   }
 }

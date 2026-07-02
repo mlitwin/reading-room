@@ -53,7 +53,10 @@
       "gen.pl.neut": "capripedium",
       "dat.pl.neut": "capripedibus",
       "acc.pl.neut": "capripedia",
-      "abl.pl.neut": "capripedibus"
+      "abl.pl.neut": "capripedibus",
+      "voc.pl.masc": "capripedes",
+      "voc.pl.fem": "capripedes",
+      "voc.pl.neut": "capripedia"
     }
   }
 }

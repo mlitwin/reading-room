@@ -54,7 +54,12 @@
       "gen.pl.neut": "viridium",
       "dat.pl.neut": "viridibus",
       "acc.pl.neut": "viridia",
-      "abl.pl.neut": "viridibus"
+      "abl.pl.neut": "viridibus",
+      "voc.sg.masc": "viridis",
+      "voc.sg.fem": "viridis",
+      "voc.pl.masc": "virides",
+      "voc.pl.fem": "virides",
+      "voc.pl.neut": "viridia"
     }
   }
 }

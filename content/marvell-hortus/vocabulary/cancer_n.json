@@ -22,16 +22,18 @@
       "pl"
     ],
     "cells": {
-      "acc.sg": "cancerem",
-      "gen.pl": "cancerum",
-      "acc.pl": "canceris",
       "nom.sg": "cancer",
-      "gen.sg": "canceris",
-      "dat.sg": "canceri",
-      "abl.sg": "cancere",
-      "nom.pl": "canceres",
-      "dat.pl": "canceribus",
-      "abl.pl": "canceribus"
+      "voc.sg": "cancer",
+      "gen.sg": "cancri",
+      "dat.sg": "cancro",
+      "acc.sg": "cancrum",
+      "abl.sg": "cancro",
+      "nom.pl": "cancri",
+      "voc.pl": "cancri",
+      "gen.pl": "cancrorum",
+      "dat.pl": "cancris",
+      "acc.pl": "cancros",
+      "abl.pl": "cancris"
     }
   }
 }

@@ -30,7 +30,9 @@
       "gen.pl": "susurrorum",
       "dat.pl": "susurris",
       "abl.pl": "susurris",
-      "acc.pl": "susurros"
+      "acc.pl": "susurros",
+      "voc.sg": "susurre",
+      "voc.pl": "susurri"
     }
   }
 }

@@ -24,12 +24,18 @@
       "pl.neut"
     ],
     "cells": {
-      "nom.sg.masc": "concolorus",
+      "nom.sg.masc": [
+        "concolorus",
+        "concolor"
+      ],
       "gen.sg.masc": "concolori",
       "dat.sg.masc": "concoloro",
       "gen.sg.fem": "concolorae",
       "dat.sg.fem": "concolorae",
-      "nom.sg.neut": "concolorum",
+      "nom.sg.neut": [
+        "concolorum",
+        "concolor"
+      ],
       "gen.sg.neut": "concolori",
       "dat.sg.neut": "concoloro",
       "acc.sg.neut": "concolorum",
@@ -38,7 +44,10 @@
       "nom.pl.masc": "concolori",
       "gen.pl.masc": "concolororum",
       "acc.pl.masc": "concoloros",
-      "nom.sg.fem": "concolora",
+      "nom.sg.fem": [
+        "concolora",
+        "concolor"
+      ],
       "acc.sg.fem": "concoloram",
       "abl.sg.fem": "concolora",
       "nom.pl.fem": "concolorae",
@@ -47,7 +56,19 @@
       "abl.sg.neut": "concoloro",
       "nom.pl.neut": "concolora",
       "gen.pl.neut": "concolororum",
-      "acc.pl.neut": "concolora"
+      "acc.pl.neut": "concolora",
+      "voc.sg.masc": "concolore",
+      "voc.sg.fem": [
+        "concolora",
+        "concolor"
+      ],
+      "voc.sg.neut": [
+        "concolorum",
+        "concolor"
+      ],
+      "voc.pl.masc": "concolori",
+      "voc.pl.fem": "concolorae",
+      "voc.pl.neut": "concolora"
     }
   }
 }

@@ -47,7 +47,19 @@
       "abl.sg.neut": "tremulo",
       "nom.pl.neut": "tremula",
       "gen.pl.neut": "tremulorum",
-      "acc.pl.neut": "tremula"
+      "acc.pl.neut": "tremula",
+      "voc.sg.masc": "tremule",
+      "voc.sg.fem": "tremula",
+      "voc.sg.neut": "tremulum",
+      "voc.pl.masc": "tremuli",
+      "dat.pl.masc": "tremulis",
+      "abl.pl.masc": "tremulis",
+      "voc.pl.fem": "tremulae",
+      "dat.pl.fem": "tremulis",
+      "abl.pl.fem": "tremulis",
+      "voc.pl.neut": "tremula",
+      "dat.pl.neut": "tremulis",
+      "abl.pl.neut": "tremulis"
     }
   }
 }

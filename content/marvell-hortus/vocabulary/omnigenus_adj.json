@@ -47,7 +47,19 @@
       "abl.sg.neut": "omnigeno",
       "nom.pl.neut": "omnigena",
       "gen.pl.neut": "omnigenorum",
-      "acc.pl.neut": "omnigena"
+      "acc.pl.neut": "omnigena",
+      "voc.sg.masc": "omnigene",
+      "voc.sg.fem": "omnigena",
+      "voc.sg.neut": "omnigenum",
+      "voc.pl.masc": "omnigeni",
+      "dat.pl.masc": "omnigenis",
+      "abl.pl.masc": "omnigenis",
+      "voc.pl.fem": "omnigenae",
+      "dat.pl.fem": "omnigenis",
+      "abl.pl.fem": "omnigenis",
+      "voc.pl.neut": "omnigena",
+      "dat.pl.neut": "omnigenis",
+      "abl.pl.neut": "omnigenis"
     }
   }
 }

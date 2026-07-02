@@ -31,7 +31,9 @@
       "gen.pl": "nequitiarum",
       "dat.pl": "nequitiis",
       "abl.pl": "nequitiis",
-      "acc.pl": "nequitias"
+      "acc.pl": "nequitias",
+      "voc.sg": "nequitia",
+      "voc.pl": "nequitiae"
     }
   }
 }

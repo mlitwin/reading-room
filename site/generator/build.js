@@ -931,11 +931,17 @@ async function loadGrammar() {
 // per-text concordances. Glossary is built once from the consolidated lexicon
 // doc; one concordance is built per piece whose source directory contains
 // book{N}-{NN}.md chapter files.
-async function buildLanguageArtifacts(pieces) {
+async function buildLanguageArtifacts(pieces, mergedLexiconMap) {
   await loadSharedLexicon(); // populate _consolidatedLexiconDoc
   if (!_consolidatedLexiconDoc) return { glossary: null, concordances: {} };
 
-  const { glossary, stats: glossStats } = buildGlossary(_consolidatedLexiconDoc);
+  // The glossary must cover overlay vocabulary too — marvell tokens resolve
+  // against overlay cards at runtime, and the C-invariants cross-check
+  // token surfaces against the glossary.
+  const glossaryDoc = mergedLexiconMap
+    ? { ..._consolidatedLexiconDoc, lemmata: Object.values(mergedLexiconMap) }
+    : _consolidatedLexiconDoc;
+  const { glossary, stats: glossStats } = buildGlossary(glossaryDoc);
 
   const concordances = {};
   const concordanceDir = path.join(DOCS_DIR, 'assets', 'concordance');
@@ -1007,6 +1013,13 @@ async function emitDataBundle(grammar, glossary, concordances) {
 }
 
 export async function build() {
+  // The lexicon caches are per-build, not per-process: serve.js keeps one
+  // process alive across watcher rebuilds, and a stale cached lexicon here
+  // silently rebuilds every derived asset (glossary, lexicon.json, data
+  // bundle) from pre-edit data.
+  _sharedLexicon = null;
+  _consolidatedLexiconDoc = null;
+
   await fs.rm(DOCS_DIR, { recursive: true, force: true });
   await fs.mkdir(path.join(DOCS_DIR, 'assets'), { recursive: true });
 
@@ -1033,7 +1046,7 @@ export async function build() {
   )).join('');
   await fs.writeFile(path.join(DOCS_DIR, 'assets', 'reader.css'), cssOut);
 
-  await buildLexiconJson();
+  const mergedLexiconMap = await buildLexiconJson();
 
   // grammar.json: emit alongside other web assets so the runtime can fetch().
   // The .js wrapper mirrors lexicon.js — WKWebView blocks fetch() on file://,
@@ -1061,7 +1074,7 @@ export async function build() {
 
   // Derive the language artifacts (glossary + per-text concordances) after
   // pieces are discovered so we know which texts have chapter-file layouts.
-  const { glossary, concordances } = await buildLanguageArtifacts(pieces);
+  const { glossary, concordances } = await buildLanguageArtifacts(pieces, mergedLexiconMap);
   await emitDataBundle(grammar, glossary, concordances);
 
   // Grammar notes — derived from grammar.json once, merged into every piece's

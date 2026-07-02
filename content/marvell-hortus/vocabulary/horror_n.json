@@ -24,14 +24,19 @@
     "cells": {
       "acc.sg": "horrorem",
       "gen.pl": "horrorum",
-      "acc.pl": "horroris",
+      "acc.pl": [
+        "horrores",
+        "horroris"
+      ],
       "nom.sg": "horror",
       "gen.sg": "horroris",
       "dat.sg": "horrori",
       "abl.sg": "horrore",
       "nom.pl": "horrores",
       "dat.pl": "horroribus",
-      "abl.pl": "horroribus"
+      "abl.pl": "horroribus",
+      "voc.sg": "horror",
+      "voc.pl": "horrores"
     }
   }
 }

@@ -48,7 +48,19 @@
       "abl.sg.neut": "conscio",
       "nom.pl.neut": "conscia",
       "gen.pl.neut": "consciorum",
-      "acc.pl.neut": "conscia"
+      "acc.pl.neut": "conscia",
+      "voc.sg.masc": "conscie",
+      "voc.sg.fem": "conscia",
+      "voc.sg.neut": "conscium",
+      "voc.pl.masc": "conscii",
+      "dat.pl.masc": "consciis",
+      "abl.pl.masc": "consciis",
+      "voc.pl.fem": "consciae",
+      "dat.pl.fem": "consciis",
+      "abl.pl.fem": "consciis",
+      "voc.pl.neut": "conscia",
+      "dat.pl.neut": "consciis",
+      "abl.pl.neut": "consciis"
     }
   }
 }

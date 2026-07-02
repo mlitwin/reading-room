@@ -53,7 +53,13 @@
       "gen.pl.neut": "trucium",
       "dat.pl.neut": "trucibus",
       "acc.pl.neut": "trucia",
-      "abl.pl.neut": "trucibus"
+      "abl.pl.neut": "trucibus",
+      "voc.sg.masc": "trux",
+      "voc.sg.fem": "trux",
+      "voc.sg.neut": "trux",
+      "voc.pl.masc": "truces",
+      "voc.pl.fem": "truces",
+      "voc.pl.neut": "trucia"
     }
   }
 }

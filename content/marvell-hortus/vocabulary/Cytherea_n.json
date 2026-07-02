@@ -30,7 +30,9 @@
       "gen.pl": "Cytherearum",
       "dat.pl": "Cythereis",
       "acc.pl": "Cythereas",
-      "abl.pl": "Cythereis"
+      "abl.pl": "Cythereis",
+      "voc.sg": "Cytherea",
+      "voc.pl": "Cythereae"
     }
   }
 }

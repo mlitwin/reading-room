@@ -53,7 +53,12 @@
       "gen.pl.neut": "enervium",
       "dat.pl.neut": "enervibus",
       "acc.pl.neut": "enervia",
-      "abl.pl.neut": "enervibus"
+      "abl.pl.neut": "enervibus",
+      "voc.sg.masc": "enervis",
+      "voc.sg.fem": "enervis",
+      "voc.pl.masc": "enerves",
+      "voc.pl.fem": "enerves",
+      "voc.pl.neut": "enervia"
     }
   }
 }

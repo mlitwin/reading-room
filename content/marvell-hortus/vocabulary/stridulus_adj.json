@@ -47,7 +47,19 @@
       "abl.sg.neut": "stridulo",
       "nom.pl.neut": "stridula",
       "gen.pl.neut": "stridulorum",
-      "acc.pl.neut": "stridula"
+      "acc.pl.neut": "stridula",
+      "voc.sg.masc": "stridule",
+      "voc.sg.fem": "stridula",
+      "voc.sg.neut": "stridulum",
+      "voc.pl.masc": "striduli",
+      "dat.pl.masc": "stridulis",
+      "abl.pl.masc": "stridulis",
+      "voc.pl.fem": "stridulae",
+      "dat.pl.fem": "stridulis",
+      "abl.pl.fem": "stridulis",
+      "voc.pl.neut": "stridula",
+      "dat.pl.neut": "stridulis",
+      "abl.pl.neut": "stridulis"
     }
   }
 }

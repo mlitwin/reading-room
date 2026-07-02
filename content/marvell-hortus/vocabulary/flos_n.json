@@ -23,14 +23,18 @@
     "cells": {
       "acc.sg": "florem",
       "gen.pl": "florum",
-      "acc.pl": "floris",
+      "acc.pl": [
+        "flores",
+        "floris"
+      ],
       "nom.sg": "flos",
       "gen.sg": "floris",
       "dat.sg": "flori",
       "abl.sg": "flore",
       "nom.pl": "flores",
       "dat.pl": "floribus",
-      "abl.pl": "floribus"
+      "abl.pl": "floribus",
+      "voc.pl": "flores"
     }
   }
 }

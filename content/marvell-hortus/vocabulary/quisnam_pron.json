@@ -5,5 +5,38 @@
   "glosses": [
     "who then? what then? (emphatic interrogative)"
   ],
-  "head": "quisnam, quaenam, quidnam"
+  "head": "quisnam, quaenam, quidnam",
+  "paradigm": {
+    "type": "pron",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "quisnam",
+      "nom.sg.fem": "quaenam",
+      "nom.sg.neut": "quidnam",
+      "gen.sg.masc": "cuiusnam",
+      "gen.sg.fem": "cuiusnam",
+      "gen.sg.neut": "cuiusnam",
+      "dat.sg.masc": "cuinam",
+      "dat.sg.fem": "cuinam",
+      "dat.sg.neut": "cuinam",
+      "acc.sg.masc": "quemnam",
+      "acc.sg.fem": "quamnam",
+      "acc.sg.neut": "quidnam",
+      "abl.sg.masc": "quonam",
+      "abl.sg.fem": "quanam",
+      "abl.sg.neut": "quonam"
+    }
+  },
+  "defective": true
 }

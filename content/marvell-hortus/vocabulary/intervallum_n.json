@@ -31,7 +31,9 @@
       "dat.pl": "intervallis",
       "abl.pl": "intervallis",
       "nom.pl": "intervalla",
-      "acc.pl": "intervalla"
+      "acc.pl": "intervalla",
+      "voc.sg": "intervallum",
+      "voc.pl": "intervalla"
     }
   }
 }

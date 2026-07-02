@@ -31,7 +31,9 @@
       "gen.pl": "fraxinorum",
       "dat.pl": "fraxinis",
       "acc.pl": "fraxinos",
-      "abl.pl": "fraxinis"
+      "abl.pl": "fraxinis",
+      "voc.sg": "fraxine",
+      "voc.pl": "fraxini"
     }
   }
 }

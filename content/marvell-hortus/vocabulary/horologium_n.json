@@ -25,12 +25,17 @@
       "gen.sg": "horologii",
       "acc.sg": "horologium",
       "dat.sg": "horologio",
-      "abl.sg": "horologio",
+      "abl.sg": [
+        "horologio",
+        "Horologo"
+      ],
       "gen.pl": "horologiorum",
       "dat.pl": "horologiis",
       "abl.pl": "horologiis",
       "nom.pl": "horologia",
-      "acc.pl": "horologia"
+      "acc.pl": "horologia",
+      "voc.sg": "horologium",
+      "voc.pl": "horologia"
     }
   }
 }

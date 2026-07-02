@@ -31,7 +31,9 @@
       "gen.pl": "taurorum",
       "dat.pl": "tauris",
       "abl.pl": "tauris",
-      "acc.pl": "tauros"
+      "acc.pl": "tauros",
+      "voc.sg": "taure",
+      "voc.pl": "tauri"
     }
   }
 }

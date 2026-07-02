@@ -48,7 +48,19 @@
       "abl.sg.neut": "sano",
       "nom.pl.neut": "sana",
       "gen.pl.neut": "sanorum",
-      "acc.pl.neut": "sana"
+      "acc.pl.neut": "sana",
+      "voc.sg.masc": "sane",
+      "voc.sg.fem": "sana",
+      "voc.sg.neut": "sanum",
+      "voc.pl.masc": "sani",
+      "dat.pl.masc": "sanis",
+      "abl.pl.masc": "sanis",
+      "voc.pl.fem": "sanae",
+      "dat.pl.fem": "sanis",
+      "abl.pl.fem": "sanis",
+      "voc.pl.neut": "sana",
+      "dat.pl.neut": "sanis",
+      "abl.pl.neut": "sanis"
     }
   }
 }

@@ -30,7 +30,9 @@
       "gen.pl": "platanorum",
       "dat.pl": "platanis",
       "acc.pl": "platanos",
-      "abl.pl": "platanis"
+      "abl.pl": "platanis",
+      "voc.sg": "platane",
+      "voc.pl": "platani"
     }
   }
 }

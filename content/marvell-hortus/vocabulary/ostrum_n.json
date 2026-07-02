@@ -31,7 +31,9 @@
       "dat.pl": "ostris",
       "abl.pl": "ostris",
       "nom.pl": "ostra",
-      "acc.pl": "ostra"
+      "acc.pl": "ostra",
+      "voc.sg": "ostrum",
+      "voc.pl": "ostra"
     }
   }
 }

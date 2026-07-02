@@ -48,7 +48,13 @@
       "abl.sg.neut": "charo",
       "nom.pl.neut": "chara",
       "gen.pl.neut": "charorum",
-      "acc.pl.neut": "chara"
+      "acc.pl.neut": "chara",
+      "voc.sg.masc": "chare",
+      "voc.sg.fem": "chara",
+      "voc.sg.neut": "charum",
+      "voc.pl.masc": "chari",
+      "voc.pl.fem": "charae",
+      "voc.pl.neut": "chara"
     }
   }
 }

@@ -27,14 +27,25 @@
     "cells": {
       "abl.sg": "civi",
       "acc.sg": "civem",
-      "nom.pl": "civis",
+      "nom.pl": [
+        "cives",
+        "civis"
+      ],
       "gen.pl": "civium",
-      "acc.pl": "civis",
+      "acc.pl": [
+        "cives",
+        "civis"
+      ],
       "nom.sg": "civis",
       "gen.sg": "civis",
       "dat.sg": "civi",
       "dat.pl": "civibus",
-      "abl.pl": "civibus"
+      "abl.pl": "civibus",
+      "voc.pl": [
+        "cives",
+        "civis"
+      ],
+      "voc.sg": "civis"
     }
   }
 }

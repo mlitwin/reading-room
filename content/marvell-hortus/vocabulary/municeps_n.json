@@ -26,14 +26,19 @@
     "cells": {
       "acc.sg": "municipem",
       "gen.pl": "municipum",
-      "acc.pl": "municipis",
+      "acc.pl": [
+        "municipes",
+        "municipis"
+      ],
       "nom.sg": "municeps",
       "gen.sg": "municipis",
       "dat.sg": "municipi",
       "abl.sg": "municipe",
       "nom.pl": "municipes",
       "dat.pl": "municipibus",
-      "abl.pl": "municipibus"
+      "abl.pl": "municipibus",
+      "voc.sg": "municeps",
+      "voc.pl": "municipes"
     }
   }
 }

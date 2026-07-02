@@ -31,7 +31,9 @@
       "gen.pl": "rosarum",
       "dat.pl": "rosis",
       "abl.pl": "rosis",
-      "acc.pl": "rosas"
+      "acc.pl": "rosas",
+      "voc.sg": "rosa",
+      "voc.pl": "rosae"
     }
   }
 }

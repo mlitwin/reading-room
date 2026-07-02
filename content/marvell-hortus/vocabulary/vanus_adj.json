@@ -48,7 +48,19 @@
       "abl.sg.neut": "vano",
       "nom.pl.neut": "vana",
       "gen.pl.neut": "vanorum",
-      "acc.pl.neut": "vana"
+      "acc.pl.neut": "vana",
+      "voc.sg.masc": "vane",
+      "voc.sg.fem": "vana",
+      "voc.sg.neut": "vanum",
+      "voc.pl.masc": "vani",
+      "dat.pl.masc": "vanis",
+      "abl.pl.masc": "vanis",
+      "voc.pl.fem": "vanae",
+      "dat.pl.fem": "vanis",
+      "abl.pl.fem": "vanis",
+      "voc.pl.neut": "vana",
+      "dat.pl.neut": "vanis",
+      "abl.pl.neut": "vanis"
     }
   }
 }

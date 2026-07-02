@@ -24,14 +24,18 @@
     "cells": {
       "acc.sg": "simplicitatem",
       "gen.pl": "simplicitatum",
-      "acc.pl": "simplicitatis",
+      "acc.pl": [
+        "simplicitates",
+        "simplicitatis"
+      ],
       "nom.sg": "simplicitas",
       "gen.sg": "simplicitatis",
       "dat.sg": "simplicitati",
       "abl.sg": "simplicitate",
       "nom.pl": "simplicitates",
       "dat.pl": "simplicitatibus",
-      "abl.pl": "simplicitatibus"
+      "abl.pl": "simplicitatibus",
+      "voc.pl": "simplicitates"
     }
   }
 }

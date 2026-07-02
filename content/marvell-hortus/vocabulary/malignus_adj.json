@@ -48,7 +48,19 @@
       "abl.sg.neut": "maligno",
       "nom.pl.neut": "maligna",
       "gen.pl.neut": "malignorum",
-      "acc.pl.neut": "maligna"
+      "acc.pl.neut": "maligna",
+      "voc.sg.masc": "maligne",
+      "voc.sg.fem": "maligna",
+      "voc.sg.neut": "malignum",
+      "voc.pl.masc": "maligni",
+      "dat.pl.masc": "malignis",
+      "abl.pl.masc": "malignis",
+      "voc.pl.fem": "malignae",
+      "dat.pl.fem": "malignis",
+      "abl.pl.fem": "malignis",
+      "voc.pl.neut": "maligna",
+      "dat.pl.neut": "malignis",
+      "abl.pl.neut": "malignis"
     }
   }
 }

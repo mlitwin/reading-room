@@ -31,7 +31,9 @@
       "dat.pl": "foliis",
       "abl.pl": "foliis",
       "nom.pl": "folia",
-      "acc.pl": "folia"
+      "acc.pl": "folia",
+      "voc.sg": "folium",
+      "voc.pl": "folia"
     }
   }
 }

@@ -206,7 +206,8 @@ web.
 
 A book may add text-specific cards in its own `vocabulary/*.json` (e.g. Marvell's
 Hortus vocabulary). These overlay the shared lexicon into the runtime
-`lexicon.json`. Because the runtime map is a single flat global namespace, the
+`lexicon.json` **and** into the derived glossary, so the C-invariants
+cross-check overlay-backed tokens like any others. Because the runtime map is a single flat global namespace, the
 build enforces: an overlay id may be defined by at most one book (unless
 byte-identical), and must not shadow a *different* shared-lexicon entry —
 genuinely shared vocabulary should be promoted into `lexicon.json` instead. The
@@ -215,7 +216,11 @@ genuinely shared vocabulary should be promoted into `lexicon.json` instead. The
 ## Validation
 
 `make validate` runs the `grammar`, `lexicon`, `glossary`, `concordance`,
-`reference`, and `vocabulary` suites. Error-severity violations block the build;
+`reference`, and `vocabulary` suites. The concordance suite runs once per
+text (every content directory with a `manuscript.latin.json`); the lexicon
+and glossary suites see the *merged* shared+overlay lexicon — the same view
+the build ships — while the vocabulary suite keeps the shared-only doc so its
+shadowing check stays meaningful. Error-severity violations block the build;
 warnings are the editorial backlog (see `remaining-validate.md` at the repo
 root). The retired `audit_latin.py` gates now live entirely in this Node
 framework. The parse-code vocabulary is closed under validation: every atom in

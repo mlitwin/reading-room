@@ -47,7 +47,19 @@
       "abl.sg.neut": "muto",
       "nom.pl.neut": "muta",
       "gen.pl.neut": "mutorum",
-      "acc.pl.neut": "muta"
+      "acc.pl.neut": "muta",
+      "voc.sg.masc": "mute",
+      "voc.sg.fem": "muta",
+      "voc.sg.neut": "mutum",
+      "voc.pl.masc": "muti",
+      "dat.pl.masc": "mutis",
+      "abl.pl.masc": "mutis",
+      "voc.pl.fem": "mutae",
+      "dat.pl.fem": "mutis",
+      "abl.pl.fem": "mutis",
+      "voc.pl.neut": "muta",
+      "dat.pl.neut": "mutis",
+      "abl.pl.neut": "mutis"
     }
   }
 }

@@ -1,13 +1,66 @@
 # Validation Backlog
 
-`make validate` as of 2026-07-01: **0 errors, 0 warnings** — all invariants PASS.
+`make validate` as of 2026-07-02: **0 errors, 0 warnings** — all invariants
+PASS, now across **both** texts (the concordance suite iterates every text
+with a `manuscript.latin.json`; it previously validated only Ovid).
 
 ```
 ✓ grammar (G1–G4)
-✓ lexicon (L1–L10, L8a)
-✓ glossary (Gl1–Gl6)
-✓ concordance (C1–C12)
+✓ lexicon (L1–L11, L8a)   — over the merged shared+overlay lexicon
+✓ glossary (Gl1–Gl6)      — glossary now includes overlay vocabulary
+✓ concordance/marvell-hortus (C1–C12)
+✓ concordance/ovid-metamorphoses (C1–C12)
+✓ vocabulary (V1–V3)      — against the shared-only lexicon (V2 shadowing)
 ```
+
+---
+
+## Marvell apparatus hardening + shared-grid repairs (2026-07-02)
+
+The marvell concordance had been outside the validation fence (validate
+defaulted to Ovid) and the overlay vocabulary outside the glossary — a reader
+tapping *praecingat* got a card with no present subjunctive at all. Closing
+the fence exposed ~248 warnings; `site/latin/expand_overlay_grids.py`
+(idempotent) closed them:
+
+- **24 overlay verbs regenerated** as full grids by three-stem transform from
+  the shared 173-cell templates (fabrico/rego/audio/conor/sequor); potior_v
+  built from audio's passive morphology; memini_v got its perfect-system
+  defective grid; potis/quisnam/concolor/cancer/civis hand grids
+  (cancer had been declined 3rd-declension against its own head).
+- **Shared-lexicon systematic repairs** the fence-closing surfaced:
+  - `eo_v` was a fabricated first-conjugation card ("eas, eabat, eare")
+    hidden behind 17 alt_forms — rebuilt from redeo_v; abeo/coeo/depereo
+    regenerated as prefix+eo.
+  - **50 `-io` verbs** (audio, venio, sentio, patior…) had generator-mangled
+    imperfects ("audbat"), futures ("audibit"), 4th-conj infinitive cells
+    ("reperere"), passive imperfect subjunctives ("auderer") — all
+    regenerated from the i-stem.
+  - **11 ire-compounds** had participle obliques and gerunds on the wrong
+    stem (redientem, rediendi → redeuntem, redeundi).
+  - **91 third-declension nouns** offered only the i-stem -is accusative
+    plural; the -es form is now primary (the -is variant is kept — Ovid's
+    tokens attest it for genuine i-stems).
+  - **186 noun/adj grids** filled in missing vocatives (voc.pl = nom.pl;
+    voc.sg per A&G §49.c; Greek nominatives left to the renderer's voc→nom
+    fallback).
+- **Marvell manuscript reconciled**: 85 pos_hints fixed, 20 multi-candidate
+  tokens got editorial selected_lemma_id, 5 tokens re-pointed (lapsus →
+  new `lapsus_n` 4th-decl noun, comparatives *potiori*/*candidior* onto new
+  `comp.` grids, conscie/cancri junk parses), Neo-Latin orthography and
+  syncopated perfects (sylua, quoties, unquam, celarant, notasti…) added as
+  variant forms on exactly the attested cells, and every candidate's parses
+  recomputed to match its cells (164 tokens canonicalized).
+- **serve.js stale-cache bug fixed**: `build()` now resets the module-level
+  lexicon caches, so watcher rebuilds in a long-running `make serve` no
+  longer regenerate every derived asset from pre-edit data (this was
+  intermittently clobbering fresh builds during the session — restart any
+  running `make serve` to pick it up).
+
+Still open (pre-existing, shared lexicon): deponent grids carry fabricated
+active-voice finite cells (conor shows "cono/conas"; nascor/sequor/moderor/
+conplector inherit the convention); `labor_v` conflates labō "totter" with
+lābor "glide"; deponent principal-parts display ("nascor, nascere").
 
 ---
 

@@ -47,7 +47,19 @@
       "abl.sg.neut": "floreo",
       "nom.pl.neut": "florea",
       "gen.pl.neut": "floreorum",
-      "acc.pl.neut": "florea"
+      "acc.pl.neut": "florea",
+      "voc.sg.masc": "floree",
+      "voc.sg.fem": "florea",
+      "voc.sg.neut": "floreum",
+      "voc.pl.masc": "florei",
+      "dat.pl.masc": "floreis",
+      "abl.pl.masc": "floreis",
+      "voc.pl.fem": "floreae",
+      "dat.pl.fem": "floreis",
+      "abl.pl.fem": "floreis",
+      "voc.pl.neut": "florea",
+      "dat.pl.neut": "floreis",
+      "abl.pl.neut": "floreis"
     }
   }
 }

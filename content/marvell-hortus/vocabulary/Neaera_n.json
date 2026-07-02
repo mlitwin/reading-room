@@ -30,7 +30,9 @@
       "gen.pl": "Neaerarum",
       "dat.pl": "Neaeris",
       "acc.pl": "Neaeras",
-      "abl.pl": "Neaeris"
+      "abl.pl": "Neaeris",
+      "voc.sg": "Neaera",
+      "voc.pl": "Neaerae"
     }
   }
 }

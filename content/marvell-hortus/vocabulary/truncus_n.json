@@ -31,7 +31,9 @@
       "gen.pl": "truncorum",
       "dat.pl": "truncis",
       "abl.pl": "truncis",
-      "acc.pl": "truncos"
+      "acc.pl": "truncos",
+      "voc.sg": "trunce",
+      "voc.pl": "trunci"
     }
   }
 }

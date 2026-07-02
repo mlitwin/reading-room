@@ -48,7 +48,13 @@
       "abl.sg.neut": "integro",
       "nom.pl.neut": "integra",
       "gen.pl.neut": "integrorum",
-      "acc.pl.neut": "integra"
+      "acc.pl.neut": "integra",
+      "voc.sg.masc": "integer",
+      "voc.sg.fem": "integra",
+      "voc.sg.neut": "integrum",
+      "voc.pl.masc": "integri",
+      "voc.pl.fem": "integrae",
+      "voc.pl.neut": "integra"
     }
   }
 }

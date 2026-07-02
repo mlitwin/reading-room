@@ -31,7 +31,9 @@
       "dat.pl": "pensis",
       "abl.pl": "pensis",
       "nom.pl": "pensa",
-      "acc.pl": "pensa"
+      "acc.pl": "pensa",
+      "voc.sg": "pensum",
+      "voc.pl": "pensa"
     }
   }
 }

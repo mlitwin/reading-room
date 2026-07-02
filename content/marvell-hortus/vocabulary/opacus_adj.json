@@ -48,7 +48,19 @@
       "abl.sg.neut": "opaco",
       "nom.pl.neut": "opaca",
       "gen.pl.neut": "opacorum",
-      "acc.pl.neut": "opaca"
+      "acc.pl.neut": "opaca",
+      "voc.sg.masc": "opace",
+      "voc.sg.fem": "opaca",
+      "voc.sg.neut": "opacum",
+      "voc.pl.masc": "opaci",
+      "dat.pl.masc": "opacis",
+      "abl.pl.masc": "opacis",
+      "voc.pl.fem": "opacae",
+      "dat.pl.fem": "opacis",
+      "abl.pl.fem": "opacis",
+      "voc.pl.neut": "opaca",
+      "dat.pl.neut": "opacis",
+      "abl.pl.neut": "opacis"
     }
   }
 }

@@ -30,7 +30,9 @@
       "gen.pl": "germanarum",
       "dat.pl": "germanis",
       "acc.pl": "germanas",
-      "abl.pl": "germanis"
+      "abl.pl": "germanis",
+      "voc.sg": "germana",
+      "voc.pl": "germanae"
     }
   }
 }

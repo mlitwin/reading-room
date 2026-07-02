@@ -47,7 +47,19 @@
       "abl.sg.neut": "annoso",
       "nom.pl.neut": "annosa",
       "gen.pl.neut": "annosorum",
-      "acc.pl.neut": "annosa"
+      "acc.pl.neut": "annosa",
+      "voc.sg.masc": "annose",
+      "voc.sg.fem": "annosa",
+      "voc.sg.neut": "annosum",
+      "voc.pl.masc": "annosi",
+      "dat.pl.masc": "annosis",
+      "abl.pl.masc": "annosis",
+      "voc.pl.fem": "annosae",
+      "dat.pl.fem": "annosis",
+      "abl.pl.fem": "annosis",
+      "voc.pl.neut": "annosa",
+      "dat.pl.neut": "annosis",
+      "abl.pl.neut": "annosis"
     }
   }
 }

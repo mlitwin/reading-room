@@ -10,5 +10,59 @@
     "memini",
     "meminisse"
   ],
-  "defective": true
+  "defective": true,
+  "paradigm": {
+    "type": "verb",
+    "rows": [
+      "1sg",
+      "2sg",
+      "3sg",
+      "1pl",
+      "2pl",
+      "3pl"
+    ],
+    "cols": [
+      "perf.ind.act",
+      "plup.ind.act",
+      "futperf.ind.act",
+      "perf.subj.act",
+      "plup.subj.act"
+    ],
+    "cells": {
+      "inf.perf.act": "meminisse",
+      "2sg.pres.imp.act": "memento",
+      "2pl.pres.imp.act": "mementote",
+      "1sg.perf.ind.act": "memini",
+      "2sg.perf.ind.act": "meministi",
+      "3sg.perf.ind.act": "meminit",
+      "1pl.perf.ind.act": "meminimus",
+      "2pl.perf.ind.act": "meministis",
+      "3pl.perf.ind.act": "meminerunt",
+      "1sg.plup.ind.act": "memineram",
+      "2sg.plup.ind.act": "memineras",
+      "3sg.plup.ind.act": "meminerat",
+      "1pl.plup.ind.act": "memineramus",
+      "2pl.plup.ind.act": "memineratis",
+      "3pl.plup.ind.act": "meminerant",
+      "1sg.futperf.ind.act": "meminero",
+      "2sg.futperf.ind.act": "memineris",
+      "3sg.futperf.ind.act": "meminerit",
+      "1pl.futperf.ind.act": "meminerimus",
+      "2pl.futperf.ind.act": "memineritis",
+      "3pl.futperf.ind.act": "meminerint",
+      "1sg.perf.subj.act": "meminerim",
+      "2sg.perf.subj.act": "memineris",
+      "3sg.perf.subj.act": "meminerit",
+      "1pl.perf.subj.act": "meminerimus",
+      "2pl.perf.subj.act": "memineritis",
+      "3pl.perf.subj.act": "meminerint",
+      "1sg.plup.subj.act": "meminissem",
+      "2sg.plup.subj.act": "meminisses",
+      "3sg.plup.subj.act": "meminisset",
+      "1pl.plup.subj.act": "meminissemus",
+      "2pl.plup.subj.act": "meminissetis",
+      "3pl.plup.subj.act": "meminissent"
+    }
+  },
+  "notes": "Defective: perfect system only, with present force (\"I remember\"). Imperative memento."
 }

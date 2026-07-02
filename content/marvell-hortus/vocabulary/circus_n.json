@@ -31,7 +31,9 @@
       "gen.pl": "circorum",
       "dat.pl": "circis",
       "abl.pl": "circis",
-      "acc.pl": "circos"
+      "acc.pl": "circos",
+      "voc.sg": "circe",
+      "voc.pl": "circi"
     }
   }
 }

@@ -31,7 +31,9 @@
       "gen.pl": "dominarum",
       "dat.pl": "dominis",
       "abl.pl": "dominis",
-      "acc.pl": "dominas"
+      "acc.pl": "dominas",
+      "voc.sg": "domina",
+      "voc.pl": "dominae"
     }
   }
 }

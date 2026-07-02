@@ -30,7 +30,9 @@
       "gen.pl": "cyparissorum",
       "dat.pl": "cyparissis",
       "acc.pl": "cyparissos",
-      "abl.pl": "cyparissis"
+      "abl.pl": "cyparissis",
+      "voc.sg": "cyparisse",
+      "voc.pl": "cyparissi"
     }
   }
 }

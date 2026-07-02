@@ -1,0 +1,40 @@
+{
+  "id": "lapsus_n",
+  "lemma": "lapsus",
+  "pos": "noun",
+  "gender": "masc",
+  "head": "lapsus, -us, m.",
+  "glosses": [
+    "a gliding, sliding, flowing",
+    "the smooth passage (of time, water, stars)"
+  ],
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "voc",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "lapsus",
+      "voc.sg": "lapsus",
+      "gen.sg": "lapsus",
+      "dat.sg": "lapsui",
+      "acc.sg": "lapsum",
+      "abl.sg": "lapsu",
+      "nom.pl": "lapsus",
+      "voc.pl": "lapsus",
+      "gen.pl": "lapsuum",
+      "dat.pl": "lapsibus",
+      "acc.pl": "lapsus",
+      "abl.pl": "lapsibus"
+    }
+  }
+}

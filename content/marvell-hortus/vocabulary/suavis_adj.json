@@ -53,7 +53,12 @@
       "gen.pl.neut": "suavium",
       "dat.pl.neut": "suavibus",
       "acc.pl.neut": "suavia",
-      "abl.pl.neut": "suavibus"
+      "abl.pl.neut": "suavibus",
+      "voc.sg.masc": "suavis",
+      "voc.sg.fem": "suavis",
+      "voc.pl.masc": "suaves",
+      "voc.pl.fem": "suaves",
+      "voc.pl.neut": "suavia"
     }
   }
 }

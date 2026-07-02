@@ -31,7 +31,9 @@
       "gen.pl": "furorum",
       "dat.pl": "furoribus",
       "acc.pl": "furores",
-      "abl.pl": "furoribus"
+      "abl.pl": "furoribus",
+      "voc.sg": "furor",
+      "voc.pl": "furores"
     }
   }
 }

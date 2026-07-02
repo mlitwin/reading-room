@@ -47,7 +47,19 @@
       "abl.sg.neut": "almo",
       "nom.pl.neut": "alma",
       "gen.pl.neut": "almorum",
-      "acc.pl.neut": "alma"
+      "acc.pl.neut": "alma",
+      "voc.sg.masc": "alme",
+      "voc.sg.fem": "alma",
+      "voc.sg.neut": "almum",
+      "voc.pl.masc": "almi",
+      "dat.pl.masc": "almis",
+      "abl.pl.masc": "almis",
+      "voc.pl.fem": "almae",
+      "dat.pl.fem": "almis",
+      "abl.pl.fem": "almis",
+      "voc.pl.neut": "alma",
+      "dat.pl.neut": "almis",
+      "abl.pl.neut": "almis"
     }
   }
 }

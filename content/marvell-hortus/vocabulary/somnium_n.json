@@ -31,7 +31,9 @@
       "dat.pl": "somniis",
       "abl.pl": "somniis",
       "nom.pl": "somnia",
-      "acc.pl": "somnia"
+      "acc.pl": "somnia",
+      "voc.sg": "somnium",
+      "voc.pl": "somnia"
     }
   }
 }

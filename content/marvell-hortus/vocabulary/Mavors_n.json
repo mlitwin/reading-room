@@ -30,7 +30,9 @@
       "gen.sg": "mavortis",
       "dat.sg": "mavorti",
       "dat.pl": "mavortibus",
-      "abl.pl": "mavortibus"
+      "abl.pl": "mavortibus",
+      "voc.sg": "mavors",
+      "voc.pl": "mavortis"
     }
   }
 }

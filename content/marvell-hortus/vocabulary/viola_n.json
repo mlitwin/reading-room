@@ -31,7 +31,9 @@
       "gen.pl": "violarum",
       "dat.pl": "violis",
       "abl.pl": "violis",
-      "acc.pl": "violas"
+      "acc.pl": "violas",
+      "voc.sg": "viola",
+      "voc.pl": "violae"
     }
   }
 }

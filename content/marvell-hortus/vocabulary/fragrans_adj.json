@@ -53,7 +53,13 @@
       "gen.pl.neut": "fragrantium",
       "dat.pl.neut": "fragrantibus",
       "acc.pl.neut": "fragrantia",
-      "abl.pl.neut": "fragrantibus"
+      "abl.pl.neut": "fragrantibus",
+      "voc.sg.masc": "fragrans",
+      "voc.sg.fem": "fragrans",
+      "voc.sg.neut": "fragrans",
+      "voc.pl.masc": "fragrantes",
+      "voc.pl.fem": "fragrantes",
+      "voc.pl.neut": "fragrantia"
     }
   }
 }

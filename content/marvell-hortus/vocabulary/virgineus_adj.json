@@ -47,7 +47,19 @@
       "abl.sg.neut": "virgineo",
       "nom.pl.neut": "virginea",
       "gen.pl.neut": "virgineorum",
-      "acc.pl.neut": "virginea"
+      "acc.pl.neut": "virginea",
+      "voc.sg.masc": "virginee",
+      "voc.sg.fem": "virginea",
+      "voc.sg.neut": "virgineum",
+      "voc.pl.masc": "virginei",
+      "dat.pl.masc": "virgineis",
+      "abl.pl.masc": "virgineis",
+      "voc.pl.fem": "virgineae",
+      "dat.pl.fem": "virgineis",
+      "abl.pl.fem": "virgineis",
+      "voc.pl.neut": "virginea",
+      "dat.pl.neut": "virgineis",
+      "abl.pl.neut": "virgineis"
     }
   }
 }

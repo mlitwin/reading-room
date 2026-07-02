@@ -89,6 +89,41 @@ const CANONICAL_PATHS = {
   reference: join(LANG_DIR, 'reference-grammar.json'),
 };
 
+// The runtime lexicon (and the glossary derived from it) is the shared file
+// plus every per-book vocabulary/ overlay. Suites that resolve lemma_ids from
+// glossary entries or concordance tokens must see the same merged doc the
+// build uses; the vocabulary suite keeps the shared-only doc so V2's
+// shadowing check stays meaningful.
+async function loadLexiconDocs(explicitPath) {
+  const shared = await loadJson(explicitPath ?? CANONICAL_PATHS.lexicon);
+  const byId = new Set(shared.lemmata.map((l) => l.id));
+  const lemmata = shared.lemmata.slice();
+  for (const o of await collectVocabularyOverlays()) {
+    if (!byId.has(o.id)) {
+      lemmata.push(o.card);
+      byId.add(o.id);
+    }
+  }
+  return { shared, merged: { ...shared, lemmata } };
+}
+
+// Texts with a Latin manuscript get a concordance; validate each of them
+// when --text is not passed explicitly.
+async function discoverTexts() {
+  const out = [];
+  const entries = await readdir(CONTENT_DIR, { withFileTypes: true });
+  for (const entry of entries) {
+    if (!entry.isDirectory() || entry.name.startsWith('_')) continue;
+    try {
+      await readFile(join(CONTENT_DIR, entry.name, 'manuscript.latin.json'));
+      out.push(entry.name);
+    } catch {
+      // not a concordance-bearing text
+    }
+  }
+  return out.sort();
+}
+
 function canonicalConcordancePath(textSlug) {
   return join(REPO_ROOT, 'docs', 'assets', 'concordance', `${textSlug}.json`);
 }
@@ -147,11 +182,18 @@ async function runOne(suiteName, values, sharedCtx) {
   const suite = SUITES[suiteName];
   const textSlug = values.text ?? 'ovid-metamorphoses';
 
+  if (!sharedCtx.lexiconDocs) sharedCtx.lexiconDocs = await loadLexiconDocs(values.lexicon);
+  sharedCtx.lexicon = sharedCtx.lexiconDocs.merged;
+
   // Dependencies (grammar, lexicon, glossary) load from explicit flag, the
   // shared cache, or canonical path — in that order.
   const ctx = {};
   for (const dep of suite.needs) {
-    if (sharedCtx[dep]) {
+    if (dep === 'lexicon') {
+      ctx.lexicon = suiteName === 'vocabulary'
+        ? sharedCtx.lexiconDocs.shared
+        : sharedCtx.lexiconDocs.merged;
+    } else if (sharedCtx[dep]) {
       ctx[dep] = sharedCtx[dep];
     } else {
       ctx[dep] = await loadOrDerive(dep, textSlug, values[dep], sharedCtx.lexicon);
@@ -164,7 +206,9 @@ async function runOne(suiteName, values, sharedCtx) {
     ? await loadJson(values.data)
     : suiteName === 'vocabulary'
       ? await collectVocabularyOverlays()
-      : await loadOrDerive(suiteName, textSlug, null, sharedCtx.lexicon);
+      : suiteName === 'lexicon'
+        ? sharedCtx.lexiconDocs.merged
+        : await loadOrDerive(suiteName, textSlug, null, sharedCtx.lexicon);
 
   if (suiteName === 'concordance') {
     try {
@@ -173,7 +217,8 @@ async function runOne(suiteName, values, sharedCtx) {
       // C8/C9 skipped if unavailable.
     }
   }
-  return runSuite(suiteName, suite.invariants, data, ctx);
+  const displayName = suiteName === 'concordance' ? `concordance/${textSlug}` : suiteName;
+  return runSuite(displayName, suite.invariants, data, ctx);
 }
 
 async function main() {
@@ -208,14 +253,21 @@ async function main() {
   const sharedCtx = {};
 
   for (const name of suitesToRun) {
-    const report = await runOne(name, values, sharedCtx);
-    console.log(formatReport(report, { maxExamples }));
-    if (suitesToRun.length > 1) console.log('');
-    if (report.hasErrors) anyErrors = true;
-    for (const inv of report.invariants) {
-      if (inv.passed) continue;
-      if (inv.severity === 'error') totalErrors += inv.violations.length;
-      else totalWarnings += inv.violations.length;
+    // The concordance suite is per-text: without an explicit --text, run it
+    // for every text that carries a Latin manuscript.
+    const runs = name === 'concordance' && !values.text
+      ? (await discoverTexts()).map((slug) => ({ ...values, text: slug }))
+      : [values];
+    for (const runValues of runs) {
+      const report = await runOne(name, runValues, sharedCtx);
+      console.log(formatReport(report, { maxExamples }));
+      if (suitesToRun.length > 1 || runs.length > 1) console.log('');
+      if (report.hasErrors) anyErrors = true;
+      for (const inv of report.invariants) {
+        if (inv.passed) continue;
+        if (inv.severity === 'error') totalErrors += inv.violations.length;
+        else totalWarnings += inv.violations.length;
+      }
     }
   }
 

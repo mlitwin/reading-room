@@ -54,7 +54,13 @@
       "gen.pl.neut": "simplicium",
       "dat.pl.neut": "simplicibus",
       "acc.pl.neut": "simplicia",
-      "abl.pl.neut": "simplicibus"
+      "abl.pl.neut": "simplicibus",
+      "voc.sg.masc": "simplex",
+      "voc.sg.fem": "simplex",
+      "voc.sg.neut": "simplex",
+      "voc.pl.masc": "simplices",
+      "voc.pl.fem": "simplices",
+      "voc.pl.neut": "simplicia"
     }
   }
 }

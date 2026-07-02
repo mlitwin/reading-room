@@ -31,7 +31,9 @@
       "gen.pl": "musarum",
       "dat.pl": "musis",
       "abl.pl": "musis",
-      "acc.pl": "musas"
+      "acc.pl": "musas",
+      "voc.sg": "musa",
+      "voc.pl": "musae"
     }
   }
 }

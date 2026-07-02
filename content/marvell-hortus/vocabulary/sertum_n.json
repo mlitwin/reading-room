@@ -30,7 +30,9 @@
       "dat.pl": "sertis",
       "abl.pl": "sertis",
       "nom.pl": "serta",
-      "acc.pl": "serta"
+      "acc.pl": "serta",
+      "voc.sg": "sertum",
+      "voc.pl": "serta"
     }
   }
 }

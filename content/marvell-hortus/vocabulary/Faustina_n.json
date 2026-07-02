@@ -30,7 +30,9 @@
       "gen.pl": "Faustinarum",
       "dat.pl": "Faustinis",
       "acc.pl": "Faustinas",
-      "abl.pl": "Faustinis"
+      "abl.pl": "Faustinis",
+      "voc.sg": "Faustina",
+      "voc.pl": "Faustinae"
     }
   }
 }

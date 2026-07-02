@@ -24,14 +24,19 @@
     "cells": {
       "acc.sg": "apollinem",
       "gen.pl": "apollinum",
-      "acc.pl": "apollinis",
+      "acc.pl": [
+        "apollines",
+        "apollinis"
+      ],
       "nom.sg": "apollo",
       "gen.sg": "apollinis",
       "dat.sg": "apollini",
       "abl.sg": "apolline",
       "nom.pl": "apollines",
       "dat.pl": "apollinibus",
-      "abl.pl": "apollinibus"
+      "abl.pl": "apollinibus",
+      "voc.sg": "apollo",
+      "voc.pl": "apollines"
     }
   }
 }

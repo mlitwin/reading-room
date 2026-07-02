@@ -48,7 +48,19 @@
       "abl.sg.neut": "mellito",
       "nom.pl.neut": "mellita",
       "gen.pl.neut": "mellitorum",
-      "acc.pl.neut": "mellita"
+      "acc.pl.neut": "mellita",
+      "voc.sg.masc": "mellite",
+      "voc.sg.fem": "mellita",
+      "voc.sg.neut": "mellitum",
+      "voc.pl.masc": "melliti",
+      "dat.pl.masc": "mellitis",
+      "abl.pl.masc": "mellitis",
+      "voc.pl.fem": "mellitae",
+      "dat.pl.fem": "mellitis",
+      "abl.pl.fem": "mellitis",
+      "voc.pl.neut": "mellita",
+      "dat.pl.neut": "mellitis",
+      "abl.pl.neut": "mellitis"
     }
   }
 }

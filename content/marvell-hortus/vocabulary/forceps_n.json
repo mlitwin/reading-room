@@ -24,14 +24,19 @@
     "cells": {
       "acc.sg": "forcipem",
       "gen.pl": "forcipum",
-      "acc.pl": "forcipis",
+      "acc.pl": [
+        "forcipes",
+        "forcipis"
+      ],
       "nom.sg": "forceps",
       "gen.sg": "forcipis",
       "dat.sg": "forcipi",
       "abl.sg": "forcipe",
       "nom.pl": "forcipes",
       "dat.pl": "forcipibus",
-      "abl.pl": "forcipibus"
+      "abl.pl": "forcipibus",
+      "voc.sg": "forceps",
+      "voc.pl": "forcipes"
     }
   }
 }

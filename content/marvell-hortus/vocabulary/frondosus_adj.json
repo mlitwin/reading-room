@@ -47,7 +47,19 @@
       "abl.sg.neut": "frondoso",
       "nom.pl.neut": "frondosa",
       "gen.pl.neut": "frondosorum",
-      "acc.pl.neut": "frondosa"
+      "acc.pl.neut": "frondosa",
+      "voc.sg.masc": "frondose",
+      "voc.sg.fem": "frondosa",
+      "voc.sg.neut": "frondosum",
+      "voc.pl.masc": "frondosi",
+      "dat.pl.masc": "frondosis",
+      "abl.pl.masc": "frondosis",
+      "voc.pl.fem": "frondosae",
+      "dat.pl.fem": "frondosis",
+      "abl.pl.fem": "frondosis",
+      "voc.pl.neut": "frondosa",
+      "dat.pl.neut": "frondosis",
+      "abl.pl.neut": "frondosis"
     }
   }
 }

@@ -30,7 +30,9 @@
       "abl.sg": "boatu",
       "gen.pl": "boatuum",
       "dat.pl": "boatibus",
-      "abl.pl": "boatibus"
+      "abl.pl": "boatibus",
+      "voc.sg": "boatus",
+      "voc.pl": "boatus"
     }
   }
 }

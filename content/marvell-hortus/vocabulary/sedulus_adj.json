@@ -47,7 +47,19 @@
       "abl.sg.neut": "sedulo",
       "nom.pl.neut": "sedula",
       "gen.pl.neut": "sedulorum",
-      "acc.pl.neut": "sedula"
+      "acc.pl.neut": "sedula",
+      "voc.sg.masc": "sedule",
+      "voc.sg.fem": "sedula",
+      "voc.sg.neut": "sedulum",
+      "voc.pl.masc": "seduli",
+      "dat.pl.masc": "sedulis",
+      "abl.pl.masc": "sedulis",
+      "voc.pl.fem": "sedulae",
+      "dat.pl.fem": "sedulis",
+      "abl.pl.fem": "sedulis",
+      "voc.pl.neut": "sedula",
+      "dat.pl.neut": "sedulis",
+      "abl.pl.neut": "sedulis"
     }
   }
 }

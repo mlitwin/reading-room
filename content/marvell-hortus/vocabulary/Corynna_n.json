@@ -30,7 +30,9 @@
       "gen.pl": "Corynnarum",
       "dat.pl": "Corynnis",
       "acc.pl": "Corynnas",
-      "abl.pl": "Corynnis"
+      "abl.pl": "Corynnis",
+      "voc.sg": "Corynna",
+      "voc.pl": "Corynnae"
     }
   }
 }

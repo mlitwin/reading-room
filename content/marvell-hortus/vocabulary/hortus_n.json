@@ -30,7 +30,9 @@
       "gen.pl": "hortorum",
       "dat.pl": "hortis",
       "abl.pl": "hortis",
-      "acc.pl": "hortos"
+      "acc.pl": "hortos",
+      "voc.sg": "horte",
+      "voc.pl": "horti"
     }
   }
 }

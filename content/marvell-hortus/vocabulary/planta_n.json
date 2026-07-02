@@ -31,7 +31,9 @@
       "gen.pl": "plantarum",
       "dat.pl": "plantis",
       "abl.pl": "plantis",
-      "acc.pl": "plantas"
+      "acc.pl": "plantas",
+      "voc.sg": "planta",
+      "voc.pl": "plantae"
     }
   }
 }

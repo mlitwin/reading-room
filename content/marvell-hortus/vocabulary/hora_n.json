@@ -31,7 +31,9 @@
       "gen.pl": "horarum",
       "dat.pl": "horis",
       "abl.pl": "horis",
-      "acc.pl": "horas"
+      "acc.pl": "horas",
+      "voc.sg": "hora",
+      "voc.pl": "horae"
     }
   }
 }

@@ -24,14 +24,19 @@
     "cells": {
       "acc.sg": "virtutem",
       "gen.pl": "virtutum",
-      "acc.pl": "virtutis",
+      "acc.pl": [
+        "virtutes",
+        "virtutis"
+      ],
       "nom.sg": "virtus",
       "gen.sg": "virtutis",
       "dat.sg": "virtuti",
       "abl.sg": "virtute",
       "nom.pl": "virtutes",
       "dat.pl": "virtutibus",
-      "abl.pl": "virtutibus"
+      "abl.pl": "virtutibus",
+      "voc.sg": "virtus",
+      "voc.pl": "virtutes"
     }
   }
 }
