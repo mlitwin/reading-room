@@ -151,6 +151,30 @@ The primary texts and the reference grammar are vendored TEI XML under
 - The card is **word-general**: passage-specific commentary belongs in the
   page's Notes section, not the card.
 
+### UI/UX principles: the card is a dictionary, the tabs are the apparatus
+
+Two principles govern what a card asserts and how disambiguation reaches the
+reader:
+
+1. **Dictionary orthography.** The card is a dictionary artifact: headword,
+   paradigm forms, and glosses appear in normalized dictionary form —
+   lowercase for common words, classical spelling first. The *text's*
+   typography stays in the text: Marvell capitalizes common nouns ("Sylva",
+   "Arbos") and spells in Neo-Latin; those attested variants are recorded as
+   secondary cell forms, but lowercased (`silva, sylva`), because a
+   capitalized form on a common-noun card silently asserts a proper name.
+   The tapped surface form shown in the card header keeps the text's exact
+   typography — that slot *is* the quotation.
+
+2. **Soft disambiguation.** Every morphologically possible reading stays
+   available to the reader: `data-matches` lists every candidate lemma
+   (rendered as card tabs) and every paradigm cell the surface could fill
+   (rendered as parse chips) — the card is a study tool, not an answer key.
+   Editorial judgment (`selected_lemma_id`, the Stanza ✓) only chooses which
+   tab is *in front*; it never deletes a reading. Candidates are removed from
+   the data only when they are morphologically false (a form the lemma cannot
+   yield), never merely contextually disfavored.
+
 ### Paradigm rendering
 
 `renderParadigm()` / `renderSection()` in `cards.js` emit the paradigm as a

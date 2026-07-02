@@ -54,8 +54,17 @@ the fence exposed ~248 warnings; `site/latin/expand_overlay_grids.py`
 - **serve.js stale-cache bug fixed**: `build()` now resets the module-level
   lexicon caches, so watcher rebuilds in a long-running `make serve` no
   longer regenerate every derived asset from pre-edit data (this was
-  intermittently clobbering fresh builds during the session — restart any
-  running `make serve` to pick it up).
+  intermittently clobbering fresh builds during the session; the running
+  server was restarted with the fix).
+- **Dictionary-orthography cleanup**: the variant-cell repair initially
+  stored token surfaces verbatim, leaking Marvell's typographic capitals
+  ("Sylva", "Arbos") onto common-noun cards as if they were proper names —
+  16 variants lowercased, and the rule is now part of the script (proper-noun
+  lemmata keep their capitals; patronymic alt_forms like Inachides untouched).
+  The audit also caught "Consortia" (line 19) riding a fake variant on
+  consors_n — it is consortium, -ii n., now a proper shared card with the
+  token re-pointed. Principle documented in latin-support.md ("UI/UX
+  principles: the card is a dictionary, the tabs are the apparatus").
 
 Still open (pre-existing, shared lexicon): deponent grids carry fabricated
 active-voice finite cells (conor shows "cono/conas"; nascor/sequor/moderor/

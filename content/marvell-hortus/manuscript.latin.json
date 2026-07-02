@@ -2400,14 +2400,11 @@
         {
           "kind": "word",
           "surface": "Consortia",
-          "lemma_id": "consors_n",
+          "lemma_id": "consortium_n",
           "parses": [
-            "nom.pl.masc",
-            "nom.pl.fem",
-            "acc.pl.masc",
-            "acc.pl.fem",
-            "voc.pl.masc",
-            "voc.pl.fem"
+            "nom.pl.neut",
+            "voc.pl.neut",
+            "acc.pl.neut"
           ],
           "pos_hint": "noun"
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T11:48:27.842Z",
+  "generated_at": "2026-07-02T16:49:41.405Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,8 +273,8 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "69d99db7e76d8d5fa14cd23710a5b2d5e259b65b3a4cc7e3b3a82b101215a507",
-      "size": 59129
+      "sha256": "7b41d566db74311f5451a34c93857372e8f1dbf55e634818aa3d4f00a9d54eb6",
+      "size": 59093
     },
     {
       "path": "assets/concordance/marvell-hortus.source-tokens.json",
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "c3e4b59e3767eed5da07d1dc36460192c6cb04b2a1270eb53fbf50406d9b42bc",
+      "sha256": "57dcb03d087759422260e8e6653e28b98c13088739253eb929b2726b9e3e9e5b",
       "size": 926268
     },
     {
@@ -603,8 +603,8 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "f2c85668d19d3efa101f03853f84aaba5597263d579d19710b05f632a6bcf583",
-      "size": 10322603
+      "sha256": "9d6a7a6720ec3d4e2378ba5e1fdf081e005316a78eef571d34b1aac981ab3370",
+      "size": 10323088
     },
     {
       "path": "assets/latin-grammar.js",
@@ -618,18 +618,18 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "1c61da1ebfaeed15e59e36ab08de37cd6f44c00a82698114699665f73bf853bf",
+      "sha256": "21892dd760ecef2afb1bbb6c6392d64a0cdb68a4297c3dbc604eaee4d9e58644",
       "size": 2476366
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "223c71fe504d94a0b41c644f5bba1ac1e186c6f4100846a70b2b13b33409bd63",
-      "size": 5513746
+      "sha256": "e58107f5a611e8117655b57816da563e8513360d27b27e6e29eb1a057ddb5bf9",
+      "size": 5514248
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "d09396867e8f67c86cdbd4439a7031e408de9a855641417a9f59e72a928114f5",
-      "size": 5513717
+      "sha256": "68662a7e3c1d7377855ec7ff87826099b72d3743432869dc409decfdfb620589",
+      "size": 5514219
     },
     {
       "path": "assets/reader.css",
@@ -638,13 +638,13 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "f2de81ce6d2de02eb3b49f530c59bae8fa5e1719e047f3b87e11c5c48f5cd5f7",
-      "size": 11327328
+      "sha256": "e45b7ebdb37d82fbc987542c5da79a02b768915383f147a3bda36e41467b9228",
+      "size": 11327777
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "cde97f232ed42127f715458627622cfbf5300e8200128323ccc6eaf2e0ed37bb",
-      "size": 11327302
+      "sha256": "d3c1b9e85056c5fdaf0ea92c415b36be1468cb9d05239d0b22d8ac5d21b376f7",
+      "size": 11327751
     },
     {
       "path": "classical-mechanics/hamiltonian/index.html",
@@ -728,7 +728,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "8be91e52aea199e05b36f2a262f74ccf5db4408ee65500f38a1302f829f1106a",
+      "sha256": "21d84db48b6538f2c345477b05df8e6fa8d0044922ea6d321a80e499917469a2",
       "size": 29399
     },
     {
@@ -738,8 +738,8 @@
     },
     {
       "path": "marvell-hortus/book1-02.html",
-      "sha256": "3f023c5f426c1b6bb1e5294cb5c1c84aa627921706e396af163c508fbe5beb8e",
-      "size": 78345
+      "sha256": "f46bb3a6b19aff0caf8d5e26a630bcba453a365ec33207a9b94a00376c020c4d",
+      "size": 78318
     },
     {
       "path": "marvell-hortus/book1-03.html",

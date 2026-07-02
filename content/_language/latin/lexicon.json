@@ -14438,7 +14438,7 @@
           ],
           "nom.sg": [
             "arbor",
-            "Arbos"
+            "arbos"
           ],
           "gen.sg": "arboris",
           "dat.sg": "arbori",
@@ -17436,7 +17436,7 @@
       ],
       "head": "at",
       "alt_forms": [
-        "Ast"
+        "ast"
       ]
     },
     {
@@ -21707,16 +21707,16 @@
           "abl.pl": "bracchiis",
           "nom.pl": [
             "bracchia",
-            "Brachia"
+            "brachia"
           ],
           "acc.pl": [
             "bracchia",
-            "Brachia"
+            "brachia"
           ],
           "voc.sg": "bracchium",
           "voc.pl": [
             "bracchia",
-            "Brachia"
+            "brachia"
           ]
         }
       }
@@ -39231,14 +39231,12 @@
           "acc.sg": "consortem",
           "nom.pl": [
             "consortes",
-            "consortis",
-            "Consortia"
+            "consortis"
           ],
           "gen.pl": "consortium",
           "acc.pl": [
             "consortes",
-            "consortis",
-            "Consortia"
+            "consortis"
           ],
           "nom.sg": "consors",
           "gen.sg": "consortis",
@@ -39247,8 +39245,7 @@
           "abl.pl": "consortibus",
           "voc.pl": [
             "consortes",
-            "consortis",
-            "Consortia"
+            "consortis"
           ],
           "voc.sg": "consors"
         }
@@ -116238,13 +116235,13 @@
           "nom.sg": "laurus",
           "gen.sg": [
             "laurus",
-            "Lauri"
+            "lauri"
           ],
           "dat.sg": "laurui",
           "acc.sg": "laurum",
           "nom.pl": [
             "laurus",
-            "Lauri"
+            "lauri"
           ],
           "acc.pl": "laurus",
           "abl.sg": "lauru",
@@ -116254,7 +116251,7 @@
           "voc.sg": "laurus",
           "voc.pl": [
             "laurus",
-            "Lauri"
+            "lauri"
           ]
         }
       },
@@ -191186,12 +191183,12 @@
         "cells": {
           "nom.sg": [
             "silva",
-            "Sylva"
+            "sylva"
           ],
           "gen.sg": "silvae",
           "abl.sg": [
             "silva",
-            "Sylva"
+            "sylva"
           ],
           "acc.sg": "silvam",
           "dat.sg": "silvae",
@@ -191202,7 +191199,7 @@
           "acc.pl": "silvas",
           "voc.sg": [
             "silva",
-            "Sylva"
+            "sylva"
           ],
           "voc.pl": "silvae"
         }
@@ -231812,6 +231809,46 @@
           "ppp.voc.pl.masc": "conplexi",
           "ppp.voc.pl.fem": "conplexae",
           "ppp.voc.pl.neut": "conplexa"
+        }
+      }
+    },
+    {
+      "id": "consortium_n",
+      "lemma": "consortium",
+      "pos": "noun",
+      "gender": "neut",
+      "head": "consortium, -ii, n.",
+      "glosses": [
+        "fellowship, community",
+        "companionship, society"
+      ],
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "voc",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "consortium",
+          "voc.sg": "consortium",
+          "gen.sg": "consortii",
+          "dat.sg": "consortio",
+          "acc.sg": "consortium",
+          "abl.sg": "consortio",
+          "nom.pl": "consortia",
+          "voc.pl": "consortia",
+          "gen.pl": "consortiorum",
+          "dat.pl": "consortiis",
+          "acc.pl": "consortia",
+          "abl.pl": "consortiis"
         }
       }
     }

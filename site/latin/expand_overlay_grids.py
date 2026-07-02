@@ -769,7 +769,8 @@ def repair_tokens(ms, by_id, dirty, report):
                     continue
                 if not lem.get('paradigm') and not lem.get('ppp_paradigm'):
                     if target != norm(lem['lemma']) and target not in map(norm, lem.get('alt_forms', [])):
-                        lem.setdefault('alt_forms', []).append(surface)
+                        store = surface if lem['lemma'][:1].isupper() else surface.lower()
+                        lem.setdefault('alt_forms', []).append(store)
                         dirty.add(lid)
                         report['alt_forms_added'] = report.get('alt_forms_added', 0) + 1
                     continue
@@ -789,6 +790,11 @@ def repair_tokens(ms, by_id, dirty, report):
                 if not ok:
                     manual.append((line.get('n'), surface, lid, f'parses {parses} have no cells'))
                     continue
+                # Cards are word-general: store the variant in dictionary
+                # orthography. Marvell capitalizes common nouns typographically
+                # ("Sylva") — that must not leak into the card as if it were a
+                # proper name. Proper-noun lemmata keep the capital.
+                store = surface if lem['lemma'][:1].isupper() else surface.lower()
                 seen_keys = set()
                 for cells, key in keys:
                     if (id(cells), key) in seen_keys:
@@ -796,10 +802,94 @@ def repair_tokens(ms, by_id, dirty, report):
                     seen_keys.add((id(cells), key))
                     cur = forms(cells[key])
                     if not any(norm(f) == target for f in cur):
-                        cells[key] = cur + [surface]
+                        cells[key] = cur + [store]
                 report['variant_cells_added'] = report.get('variant_cells_added', 0) + 1
                 dirty.add(lid)
     report['manual'] = [f'{n}: {s} -> {lid}: {why}' for n, s, lid, why in manual]
+
+
+CONSORTIUM_ENTRY = {
+    'id': 'consortium_n',
+    'lemma': 'consortium',
+    'pos': 'noun',
+    'gender': 'neut',
+    'head': 'consortium, -ii, n.',
+    'glosses': ['fellowship, community', 'companionship, society'],
+    'paradigm': {
+        'type': 'noun',
+        'rows': ['nom', 'voc', 'gen', 'dat', 'acc', 'abl'],
+        'cols': ['sg', 'pl'],
+        'cells': {
+            'nom.sg': 'consortium', 'voc.sg': 'consortium', 'gen.sg': 'consortii',
+            'dat.sg': 'consortio', 'acc.sg': 'consortium', 'abl.sg': 'consortio',
+            'nom.pl': 'consortia', 'voc.pl': 'consortia', 'gen.pl': 'consortiorum',
+            'dat.pl': 'consortiis', 'acc.pl': 'consortia', 'abl.pl': 'consortiis',
+        },
+    },
+}
+
+
+def fix_typographic_variants(shared_lemmata, shared_by_id, overlay_cards, ms, dirty, report):
+    """An earlier pass stored token surfaces verbatim as variant cell forms,
+    leaking Marvell's typographic capitals ("Sylva") into word-general cards
+    as if they were proper names. Lowercase capitalized variants on
+    lowercase-lemma cards (cells only — capitalized alt_forms on cards like
+    inachus are genuine patronymics). Also: "Consortia" (line 19) is
+    consortium, -ii n., not a form of consors (whose plural is consortes) —
+    give it its own card and drop the fake consors variant."""
+    for card in list(shared_by_id.values()) + list(overlay_cards.values()):
+        if (card.get('lemma') or 'X')[:1].isupper():
+            continue
+        for which in ('paradigm', 'ppp_paradigm'):
+            grid = card.get(which)
+            if not grid:
+                continue
+            for key, val in grid['cells'].items():
+                if not isinstance(val, list) or not val or not val[0][:1].islower():
+                    continue
+                fixed = [val[0]]
+                changed = False
+                for f in val[1:]:
+                    low = f.lower() if f[:1].isupper() else f
+                    if low != f:
+                        changed = True
+                    if low not in fixed:
+                        fixed.append(low)
+                if changed:
+                    grid['cells'][key] = fixed if len(fixed) > 1 else fixed[0]
+                    dirty.add(card['id'])
+                    report['variants_lowercased'] = report.get('variants_lowercased', 0) + 1
+    at = shared_by_id.get('at_conj')
+    if at and 'Ast' in (at.get('alt_forms') or []):
+        at['alt_forms'] = [('ast' if a == 'Ast' else a) for a in at['alt_forms']]
+        dirty.add('at_conj')
+        report['variants_lowercased'] = report.get('variants_lowercased', 0) + 1
+
+    if 'consortium_n' not in shared_by_id:
+        shared_lemmata.append(CONSORTIUM_ENTRY)
+        shared_by_id['consortium_n'] = CONSORTIUM_ENTRY
+        dirty.add('consortium_n')
+        report['consortium_added'] = True
+    consors = shared_by_id.get('consors_n')
+    if consors:
+        changed = False
+        for key, val in consors['paradigm']['cells'].items():
+            if isinstance(val, list) and any(f.lower() == 'consortia' for f in val):
+                consors['paradigm']['cells'][key] = [
+                    f for f in val if f.lower() != 'consortia']
+                changed = True
+        if changed:
+            dirty.add('consors_n')
+            report['consors_cleaned'] = True
+    for line in ms['lines']:
+        for tok in line['tokens']:
+            if (tok.get('kind') == 'word' and norm(tok['surface']) == 'consortia'
+                    and tok.get('lemma_id') != 'consortium_n'):
+                tok['lemma_id'] = 'consortium_n'
+                tok['parses'] = ['nom.pl.neut', 'voc.pl.neut', 'acc.pl.neut']
+                tok['pos_hint'] = 'noun'
+                tok.pop('__data_matches', None)
+                report['consortia_repointed'] = True
 
 
 def recompute_marvell_parses(ms, by_id, report):
@@ -915,6 +1005,9 @@ def main():
     by_id.update(overlay_cards)
     ms = json.loads(MANUSCRIPT_PATH.read_text())
     repair_tokens(ms, by_id, dirty, report)
+    fix_typographic_variants(lexicon['lemmata'], shared_by_id, overlay_cards,
+                             ms, dirty, report)
+    by_id['consortium_n'] = shared_by_id.get('consortium_n', by_id.get('consortium_n'))
     recompute_marvell_parses(ms, by_id, report)
 
     # write back
