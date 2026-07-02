@@ -16,6 +16,16 @@ const grammar = {
         { id: 'enclitic', label: 'Encl', gloss: 'x' },
       ],
     },
+    {
+      id: 'case',
+      label: 'Case',
+      values: [{ id: 'nom', label: 'Nominative', gloss: 'x' }],
+    },
+    {
+      id: 'number',
+      label: 'Number',
+      values: [{ id: 'sg', label: 'Singular', gloss: 'x' }],
+    },
   ],
 };
 
@@ -138,4 +148,15 @@ test('C10 does not flag bare enclitic standing alone', () => {
   });
   const inv = report.invariants.find((x) => x.id === 'C10');
   assert.equal(inv.passed, true);
+});
+
+test('C12 flags a parse atom not defined in grammar', () => {
+  const bad = structuredClone(okConcordance);
+  bad.tokens['b1-01-001'].candidates[0].parses = ['ppl.nom.sg'];
+  const report = runSuite('concordance', concordanceInvariants, bad, {
+    grammar, glossary, lexicon,
+  });
+  const inv = report.invariants.find((x) => x.id === 'C12');
+  assert.equal(inv.passed, false);
+  assert.match(inv.violations[0].message, /"ppl"/);
 });

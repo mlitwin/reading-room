@@ -33,6 +33,7 @@
     perf: { label: 'perfect', note: 'perfect' },
     plup: { label: 'pluperfect', note: 'pluperfect' },
     fut: { label: 'future', note: 'future' },
+    futperf: { label: 'future perfect', note: 'future-perfect' },
     ind: { label: 'indicative', note: 'indicative' },
     subj: { label: 'subjunctive', note: 'subjunctive' },
     imp: { label: 'imperative', note: 'imperative' },
@@ -40,7 +41,12 @@
     pass: { label: 'passive', note: 'passive' },
     inf: { label: 'infinitive', note: 'infinitive' },
     ppp: { label: 'perfect passive participle', note: 'perfect-passive-participle' },
+    pap: { label: 'present active participle', note: 'present-active-participle' },
+    fap: { label: 'future active participle', note: 'future-active-participle' },
+    gerundive: { label: 'gerundive', note: 'gerundive' },
+    ger: { label: 'gerund', note: 'gerund' },
     sup: { label: 'supine', note: 'supine' },
+    c: { label: 'common gender', note: 'common-gender' },
     prep: { label: 'preposition', note: 'preposition' },
     conj: { label: 'conjunction', note: 'conjunction' },
     enclit: { label: 'enclitic', note: 'enclitic' },
@@ -53,6 +59,7 @@
   var FALLBACK_POS_NOTE = {
     noun: 'noun', verb: 'verb', adj: 'adjective', pron: 'pronoun',
     prep: 'preposition', conj: 'conjunction', enclitic: 'enclitic',
+    adv: 'adverb', interj: 'interjection', num: 'numeral',
   };
   var PRINCIPAL_PART_NOTES = [
     'first-principal-part', 'second-principal-part',

@@ -139,3 +139,20 @@ test('L9 flags lemma surface form not present in any cell', () => {
   const inv = report.invariants.find((x) => x.id === 'L9');
   assert.equal(inv.passed, false);
 });
+
+test('L10 flags a cell-key parse atom not defined in grammar', () => {
+  const bad = {
+    ...leoLemma,
+    paradigm: {
+      ...leoLemma.paradigm,
+      cells: { ...leoLemma.paradigm.cells, 'ppl.nom.sg': 'leons' },
+    },
+  };
+  const report = runSuite('lexicon', lexiconInvariants, {
+    language_id: 'latin',
+    lemmata: [bad],
+  }, { grammar });
+  const inv = report.invariants.find((x) => x.id === 'L10');
+  assert.equal(inv.passed, false);
+  assert.match(inv.violations[0].message, /"ppl"/);
+});

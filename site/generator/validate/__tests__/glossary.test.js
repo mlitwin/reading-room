@@ -77,3 +77,19 @@ test('Gl5 flags zero-candidate entry', () => {
   const inv = report.invariants.find((x) => x.id === 'Gl5');
   assert.equal(inv.passed, false);
 });
+
+test('Gl6 flags a parse atom not defined in grammar', () => {
+  const grammar = {
+    language_id: 'latin',
+    categories: [
+      { id: 'case', label: 'Case', values: [{ id: 'nom', label: 'Nom', gloss: 'x' }] },
+      { id: 'number', label: 'Number', values: [{ id: 'sg', label: 'Sg', gloss: 'x' }] },
+    ],
+  };
+  const g = structuredClone(fullGlossary);
+  g.entries.leo.candidates[0].parses = ['ppl.nom.sg'];
+  const report = runSuite('glossary', glossaryInvariants, g, { lexicon, grammar });
+  const inv = report.invariants.find((x) => x.id === 'Gl6');
+  assert.equal(inv.passed, false);
+  assert.match(inv.violations[0].message, /"ppl"/);
+});

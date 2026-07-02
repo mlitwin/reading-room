@@ -10,6 +10,7 @@
 /** @typedef {import('./runner.js').Invariant} Invariant */
 
 import { normalizeSurface } from '../lib/normalize.js';
+import { grammarAtomSet, undefinedAtoms } from './parse-atoms.js';
 
 // POS classification — drives L7, L8, L8a, L9.
 const DECLINABLE_POS = new Set(['noun', 'verb', 'adj', 'pron']);
@@ -318,6 +319,32 @@ export const lexiconInvariants = [
             path: `${lemma.id}.lemma`,
             message: `surface form "${lemma.lemma}" not present in any paradigm cell`,
           });
+        }
+      }
+      return violations;
+    },
+  },
+
+  {
+    id: 'L10',
+    description: 'Every parse atom in paradigm cell keys is defined in grammar.json',
+    /** @param {LexiconDocument} lex */
+    check(lex, ctx) {
+      if (!ctx.grammar) return []; // suite run without grammar context
+      const atoms = grammarAtomSet(ctx.grammar);
+      /** @type {Violation[]} */
+      const violations = [];
+      for (const lemma of lex.lemmata) {
+        for (const which of ['paradigm', 'ppp_paradigm']) {
+          if (!lemma[which]) continue;
+          for (const key of Object.keys(lemma[which].cells)) {
+            for (const atom of undefinedAtoms(key, atoms)) {
+              violations.push({
+                path: `${lemma.id}.${which}.${key}`,
+                message: `parse atom "${atom}" not defined in grammar`,
+              });
+            }
+          }
         }
       }
       return violations;

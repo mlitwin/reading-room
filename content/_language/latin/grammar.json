@@ -81,7 +81,10 @@
           "id": "enclitic",
           "label": "Enclitic",
           "abbrev": "encl.",
-          "gloss": "<p>A particle attached to the end of the preceding word rather than written separately (<em>-que</em> = “and”; <em>-ne</em> = question marker; <em>-ve</em> = “or”). <em>Primaque</em> in dictionary order is <em>prima</em> + <em>-que</em>.</p>"
+          "gloss": "<p>A particle attached to the end of the preceding word rather than written separately (<em>-que</em> = “and”; <em>-ne</em> = question marker; <em>-ve</em> = “or”). <em>Primaque</em> in dictionary order is <em>prima</em> + <em>-que</em>.</p>",
+          "agRefs": [
+            "324"
+          ]
         },
         {
           "id": "num",
@@ -208,6 +211,15 @@
           "agRefs": [
             "29"
           ]
+        },
+        {
+          "id": "c",
+          "label": "Common gender",
+          "abbrev": "c.",
+          "gloss": "<p>Nouns that may be either masculine or feminine according to the sex of the being they name (<em>civis</em>, “citizen”; <em>incola</em>, “inhabitant”; <em>caelicola</em>, “heaven-dweller”) are said to be of common gender. The noun takes whichever <a href=\"note:gender\">gender</a> fits its referent in context.</p>",
+          "agRefs": [
+            "34"
+          ]
         }
       ]
     },
@@ -219,19 +231,28 @@
           "id": "1",
           "label": "1st person",
           "abbrev": "1.",
-          "gloss": "<p>Refers to the speaker — <em>I</em> in the singular, <em>we</em> in the plural. In Latin the person is shown by the verb ending; pronouns (<em>ego</em>, <em>nos</em>) appear only when emphatic or contrastive.</p>"
+          "gloss": "<p>Refers to the speaker — <em>I</em> in the singular, <em>we</em> in the plural. In Latin the person is shown by the verb ending; pronouns (<em>ego</em>, <em>nos</em>) appear only when emphatic or contrastive.</p>",
+          "agRefs": [
+            "163"
+          ]
         },
         {
           "id": "2",
           "label": "2nd person",
           "abbrev": "2.",
-          "gloss": "<p>Refers to the addressee — <em>you</em> in the singular, <em>you (plural)</em> in the plural. Latin has distinct singular and plural pronouns (<em>tu</em>, <em>vos</em>); the verb ending also distinguishes them.</p>"
+          "gloss": "<p>Refers to the addressee — <em>you</em> in the singular, <em>you (plural)</em> in the plural. Latin has distinct singular and plural pronouns (<em>tu</em>, <em>vos</em>); the verb ending also distinguishes them.</p>",
+          "agRefs": [
+            "163"
+          ]
         },
         {
           "id": "3",
           "label": "3rd person",
           "abbrev": "3.",
-          "gloss": "<p>Refers to a non-speaker, non-addressee — <em>he</em>, <em>she</em>, <em>it</em>, <em>they</em>. There's no Latin pronoun for “it” as such; <em>is, ea, id</em> or demonstrative <em>ille, illa, illud</em> fill the role.</p>"
+          "gloss": "<p>Refers to a non-speaker, non-addressee — <em>he</em>, <em>she</em>, <em>it</em>, <em>they</em>. There's no Latin pronoun for “it” as such; <em>is, ea, id</em> or demonstrative <em>ille, illa, illud</em> fill the role.</p>",
+          "agRefs": [
+            "163"
+          ]
         }
       ]
     },
@@ -363,12 +384,23 @@
           ]
         },
         {
-          "id": "fpp",
-          "label": "Future passive participle",
-          "abbrev": "fut. pass. pcpl.",
-          "gloss": "<p>A non-finite verbal adjective expressing necessity or impending action upon the subject — also called the gerundive (<em>amandus</em>, “about to be loved” / “to be loved”). It declines like a first/second declension adjective and forms the passive periphrastic with <em>esse</em>.</p>",
+          "id": "gerundive",
+          "label": "Gerundive",
+          "abbrev": "gerundive",
+          "gloss": "<p>A non-finite verbal adjective expressing necessity or impending action upon the subject — traditionally also called the future passive participle (<em>amandus</em>, “to be loved” / “requiring to be loved”). It declines like a first/second declension adjective, agrees with its noun in case, number, and gender, and forms the passive periphrastic with <em>esse</em>. When a <a href=\"note:ger\">gerund</a> would take an accusative object, Latin prefers the gerundive construction.</p>",
           "agRefs": [
+            "500",
             "503"
+          ]
+        },
+        {
+          "id": "ger",
+          "label": "Gerund",
+          "abbrev": "ger.",
+          "gloss": "<p>A verbal noun expressing the action of the verb (<em>amandi</em>, “of loving”). It is the neuter singular of the <a href=\"note:gerundive\">gerundive</a> used substantively, and exists only in the oblique cases — genitive, dative, accusative (after prepositions), and ablative; the nominative slot is filled by the infinitive. As a noun it is itself governed by other words; as a verb it may take an object in the proper case.</p>",
+          "agRefs": [
+            "501",
+            "502"
           ]
         }
       ]

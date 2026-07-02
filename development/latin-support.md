@@ -214,4 +214,7 @@ genuinely shared vocabulary should be promoted into `lexicon.json` instead. The
 `reference`, and `vocabulary` suites. Error-severity violations block the build;
 warnings are the editorial backlog (see `remaining-validate.md` at the repo
 root). The retired `audit_latin.py` gates now live entirely in this Node
-framework.
+framework. The parse-code vocabulary is closed under validation: every atom in
+a lexicon cell key, glossary parse, or concordance parse must be defined in
+`grammar.json` (invariants L10/Gl6/C12, shared helper
+`site/generator/validate/parse-atoms.js`).

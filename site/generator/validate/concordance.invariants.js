@@ -7,6 +7,7 @@
 // against grammar + glossary alone).
 
 import { normalizeSurface, findUnsplitEnclitic } from '../lib/normalize.js';
+import { grammarAtomSet, undefinedAtoms } from './parse-atoms.js';
 
 /** @typedef {import('../schema/concordance.schema.js').Concordance} Concordance */
 /** @typedef {import('../schema/glossary.schema.js').Glossary} Glossary */
@@ -147,11 +148,11 @@ export const concordanceInvariants = [
             // Non-finite verb forms: markdown tags participle / gerundive /
             // gerund / future-participle surfaces with a bare case-style
             // parse ("gen.pl.neut" for habendum, "nom.sg.fem" for amans) when
-            // the cell keys carry a marker prefix (ppl., ppp., gerundive.,
-            // ger., fap., fpp.). Accept the markdown parse if any of those
+            // the cell keys carry a marker prefix (pap., ppp., gerundive.,
+            // ger., fap.). Accept the markdown parse if any of those
             // prefixed cells matches.
             if (lemma && lemma.pos === 'verb' && /^[a-z]+\.(sg|pl)(\.(?:masc|fem|neut))?$/.test(p)) {
-              const prefixed = ['ppl.', 'ppp.', 'gerundive.', 'ger.', 'fap.', 'fpp.']
+              const prefixed = ['pap.', 'ppp.', 'gerundive.', 'ger.', 'fap.']
                 .some((pre) => allowed.has(pre + p));
               if (prefixed) continue;
             }
@@ -436,6 +437,31 @@ export const concordanceInvariants = [
             path: `tokens.${id}.surface`,
             message: `surface "${tok.surface}" ends in enclitic "-${suf}" — split into adjacent tokens`,
           });
+        }
+      }
+      return violations;
+    },
+  },
+
+  {
+    id: 'C12',
+    description: 'Every parse atom in token candidate parses is defined in grammar.json',
+    /** @param {Concordance} c */
+    check(c, ctx) {
+      if (!ctx.grammar) return []; // suite run without grammar context
+      const atoms = grammarAtomSet(ctx.grammar);
+      /** @type {Violation[]} */
+      const violations = [];
+      for (const [id, tok] of Object.entries(c.tokens)) {
+        for (const cand of tok.candidates) {
+          for (const parse of cand.parses) {
+            for (const atom of undefinedAtoms(parse, atoms)) {
+              violations.push({
+                path: `tokens.${id}.${cand.lemma_id}.${parse}`,
+                message: `parse atom "${atom}" not defined in grammar`,
+              });
+            }
+          }
         }
       }
       return violations;

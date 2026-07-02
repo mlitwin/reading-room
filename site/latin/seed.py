@@ -58,7 +58,7 @@ TENSE_MAP  = {'pres': 'pres', 'imperf': 'imperf', 'fut': 'fut',
               'perf': 'perf', 'plup': 'plup', 'futperf': 'futperf'}
 MOOD_MAP   = {'ind': 'ind', 'subj': 'subj', 'opt': 'opt', 'imp': 'imp',
               'imperat': 'imp',   # Morpheus spells this out; 'imp' is the short form
-              'inf': 'inf', 'part': 'ppl', 'gerundive': 'gerundive',
+              'inf': 'inf', 'part': 'pap', 'gerundive': 'gerundive',
               'gerund': 'gerund'}
 VOICE_MAP  = {'act': 'act', 'pass': 'pass', 'mid': 'mid', 'mp': 'mp'}
 CASE_MAP   = {'nom': 'nom', 'gen': 'gen', 'dat': 'dat', 'acc': 'acc',
@@ -70,7 +70,7 @@ PARTICIPLE_TAG = {
     ('pres', 'act'):  'pap',
     ('perf', 'pass'): 'ppp',
     ('fut',  'act'):  'fap',
-    ('fut',  'pass'): 'fpp',
+    ('fut',  'pass'): 'gerundive',
 }
 
 # Inflection-class column → indeclinable POS tag, used when Morpheus tags
@@ -222,8 +222,8 @@ def morph_to_parse_codes(a):
 
     # Participles (Morpheus often reports them as `P ... perf part pass ...`
     # or with mood=part inside a V-tagged analysis).
-    if pos == 'P' or mood == 'ppl' or 'part' in morph:
-        tag = PARTICIPLE_TAG.get((tense, voice), 'ppl')
+    if pos == 'P' or mood == 'pap' or 'part' in morph:
+        tag = PARTICIPLE_TAG.get((tense, voice), 'pap')
         for case in cases or ['']:
             for num in numbers or ['']:
                 for gen in genders or ['']:

@@ -1267,7 +1267,9 @@
           "surface": "eodem",
           "lemma_id": "eodem_adv",
           "parses": [
-            "adv"
+            "adv",
+            "abl.sg.masc",
+            "abl.sg.neut"
           ],
           "stanza": "idem_pron",
           "pos_hint": "adv",
@@ -2086,13 +2088,13 @@
           "surface": "egens",
           "lemma_id": "egeo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "egeo_v",
           "pos_hint": "verb"
@@ -2304,7 +2306,8 @@
           "lemma_id": "unus_pron",
           "parses": [
             "abl.sg.masc",
-            "abl.sg.neut"
+            "abl.sg.neut",
+            "1sg.pres.ind.act"
           ],
           "stanza": "unus_pron",
           "pos_hint": "pron",
@@ -2371,9 +2374,9 @@
           "surface": "umentia",
           "lemma_id": "umeo_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "umo",
           "pos_hint": "verb"
@@ -2487,9 +2490,9 @@
           "surface": "habentia",
           "lemma_id": "habeo_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "habeo_v",
           "pos_hint": "verb"
@@ -2568,9 +2571,7 @@
           "lemma_id": "bonus_n",
           "parses": [
             "nom.sg.masc",
-            "nom.sg.fem",
-            "voc.sg.masc",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "bonus_n",
           "pos_hint": "noun"
@@ -3397,7 +3398,6 @@
           "parses": [
             "nom.sg.masc",
             "nom.sg.fem",
-            "voc.sg.masc",
             "voc.sg.fem"
           ],
           "stanza": "denses",
@@ -5248,8 +5248,7 @@
             "voc.pl.neut",
             "acc.pl.neut",
             "abl.sg.fem",
-            "nom.sg.fem",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "quintus_n",
           "pos_hint": "noun"
@@ -5395,7 +5394,9 @@
           "surface": "eodem",
           "lemma_id": "eodem_adv",
           "parses": [
-            "adv"
+            "adv",
+            "abl.sg.masc",
+            "abl.sg.neut"
           ],
           "stanza": "idem_pron",
           "pos_hint": "adv",
@@ -6103,7 +6104,6 @@
           "parses": [
             "nom.sg.masc",
             "nom.sg.fem",
-            "voc.sg.masc",
             "voc.sg.fem"
           ],
           "stanza": "onerosus_adj",
@@ -6367,12 +6367,12 @@
           "surface": "facientes",
           "lemma_id": "facio_v",
           "parses": [
-            "ppl.acc.pl.masc",
-            "ppl.acc.pl.fem",
-            "ppl.nom.pl.masc",
-            "ppl.nom.pl.fem",
-            "ppl.voc.pl.masc",
-            "ppl.voc.pl.fem"
+            "pap.acc.pl.masc",
+            "pap.acc.pl.fem",
+            "pap.nom.pl.masc",
+            "pap.nom.pl.fem",
+            "pap.voc.pl.masc",
+            "pap.voc.pl.fem"
           ],
           "stanza": "facio_v",
           "pos_hint": "verb"
@@ -6497,13 +6497,13 @@
         {
           "kind": "word",
           "surface": "fabricator",
-          "lemma_id": "fabricator_v",
+          "lemma_id": "fabricator_n",
           "parses": [
             "nom.sg.masc",
             "voc.sg.masc"
           ],
-          "stanza": "fabricator_v",
-          "pos_hint": "verb"
+          "stanza": "fabricator_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "ws",
@@ -7560,8 +7560,8 @@
           "surface": "carentem",
           "lemma_id": "careo_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "careo_v",
           "pos_hint": "verb"
@@ -7651,8 +7651,8 @@
           "surface": "habentem",
           "lemma_id": "habeo_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "habeo_v",
           "pos_hint": "verb"
@@ -10176,9 +10176,9 @@
           "surface": "minantia",
           "lemma_id": "mino_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "minaho",
           "pos_hint": "verb"
@@ -10335,7 +10335,14 @@
           "lemma_id": "sui_pron",
           "parses": [
             "gen.pl",
-            "gen.sg"
+            "gen.sg",
+            "gen.sg.neut",
+            "gen.sg.neut",
+            "gen.sg.masc",
+            "nom.pl.masc",
+            "voc.pl.masc",
+            "inf.pres.pass",
+            "1sg.perf.ind.act"
           ],
           "stanza": "sui_pron",
           "pos_hint": "pron",
@@ -11481,9 +11488,9 @@
           "surface": "cogente",
           "lemma_id": "cogo_v",
           "parses": [
-            "ppl.abl.sg.masc",
-            "ppl.abl.sg.fem",
-            "ppl.abl.sg.neut"
+            "pap.abl.sg.masc",
+            "pap.abl.sg.fem",
+            "pap.abl.sg.neut"
           ],
           "stanza": "cogo_v",
           "pos_hint": "verb"
@@ -11682,9 +11689,9 @@
           "surface": "haerentia",
           "lemma_id": "haereo_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "haereo_v",
           "pos_hint": "verb"
@@ -11923,12 +11930,12 @@
           "surface": "tepentibus",
           "lemma_id": "tepeo_v",
           "parses": [
-            "ppl.abl.pl.masc",
-            "ppl.abl.pl.fem",
-            "ppl.abl.pl.neut",
-            "ppl.dat.pl.masc",
-            "ppl.dat.pl.fem",
-            "ppl.dat.pl.neut"
+            "pap.abl.pl.masc",
+            "pap.abl.pl.fem",
+            "pap.abl.pl.neut",
+            "pap.dat.pl.masc",
+            "pap.dat.pl.fem",
+            "pap.dat.pl.neut"
           ],
           "stanza": "tepeo_v",
           "pos_hint": "verb"
@@ -12638,8 +12645,7 @@
             "voc.pl.neut",
             "acc.pl.neut",
             "abl.sg.fem",
-            "nom.sg.fem",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "argentea",
           "pos_hint": "noun"
@@ -12726,7 +12732,6 @@
           "parses": [
             "nom.sg.masc",
             "nom.sg.fem",
-            "voc.sg.masc",
             "voc.sg.fem"
           ],
           "stanza": "pretiosus_adj",
@@ -15431,13 +15436,13 @@
           "surface": "nocens",
           "lemma_id": "noceo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "noceo_v",
           "pos_hint": "verb"
@@ -15664,9 +15669,9 @@
           "surface": "crepitantia",
           "lemma_id": "crepito_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "crepito_v",
           "pos_hint": "verb"
@@ -16373,9 +16378,9 @@
           "surface": "madentis",
           "lemma_id": "madeo_v",
           "parses": [
-            "ppl.gen.sg.masc",
-            "ppl.gen.sg.fem",
-            "ppl.gen.sg.neut"
+            "pap.gen.sg.masc",
+            "pap.gen.sg.fem",
+            "pap.gen.sg.neut"
           ],
           "stanza": "madio",
           "pos_hint": "verb"
@@ -16519,7 +16524,6 @@
           "parses": [
             "nom.sg.masc",
             "nom.sg.fem",
-            "voc.sg.masc",
             "voc.sg.fem"
           ],
           "stanza": "securior",
@@ -17930,13 +17934,13 @@
           "surface": "referens",
           "lemma_id": "refero_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "refero_v",
           "pos_hint": "verb"
@@ -18533,9 +18537,9 @@
           "surface": "Tonantis",
           "lemma_id": "tono_v",
           "parses": [
-            "ppl.gen.sg.masc",
-            "ppl.gen.sg.fem",
-            "ppl.gen.sg.neut"
+            "pap.gen.sg.masc",
+            "pap.gen.sg.fem",
+            "pap.gen.sg.neut"
           ],
           "stanza": "tono_v",
           "pos_hint": "verb"
@@ -18829,12 +18833,12 @@
           "surface": "potentes",
           "lemma_id": "possum_v",
           "parses": [
-            "ppl.acc.pl.masc",
-            "ppl.acc.pl.fem",
-            "ppl.nom.pl.masc",
-            "ppl.nom.pl.fem",
-            "ppl.voc.pl.masc",
-            "ppl.voc.pl.fem"
+            "pap.acc.pl.masc",
+            "pap.acc.pl.fem",
+            "pap.nom.pl.masc",
+            "pap.nom.pl.fem",
+            "pap.voc.pl.masc",
+            "pap.voc.pl.fem"
           ],
           "stanza": "possum_v",
           "pos_hint": "verb"
@@ -19262,7 +19266,6 @@
           "parses": [
             "nom.sg.masc",
             "nom.sg.fem",
-            "voc.sg.masc",
             "voc.sg.fem"
           ],
           "stanza": "celsis",
@@ -19643,9 +19646,9 @@
           "surface": "indignantia",
           "lemma_id": "indignor_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "indigno",
           "pos_hint": "verb"
@@ -19993,7 +19996,8 @@
           "surface": "quamquam",
           "lemma_id": "quamquam_conj",
           "parses": [
-            "conj"
+            "conj",
+            "acc.sg.fem"
           ],
           "stanza": "quamquam_conj",
           "pos_hint": "conj",
@@ -20101,7 +20105,8 @@
           "lemma_id": "unus_pron",
           "parses": [
             "abl.sg.masc",
-            "abl.sg.neut"
+            "abl.sg.neut",
+            "1sg.pres.ind.act"
           ],
           "stanza": "unus_pron",
           "pos_hint": "pron",
@@ -20452,8 +20457,7 @@
             "voc.pl.neut",
             "acc.pl.neut",
             "abl.sg.fem",
-            "nom.sg.fem",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "infera",
           "pos_hint": "noun"
@@ -20509,9 +20513,9 @@
           "surface": "labentia",
           "lemma_id": "labor_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "labeo",
           "pos_hint": "verb"
@@ -21589,12 +21593,12 @@
           "surface": "ardentibus",
           "lemma_id": "ardeo_v",
           "parses": [
-            "ppl.abl.pl.masc",
-            "ppl.abl.pl.fem",
-            "ppl.abl.pl.neut",
-            "ppl.dat.pl.masc",
-            "ppl.dat.pl.fem",
-            "ppl.dat.pl.neut"
+            "pap.abl.pl.masc",
+            "pap.abl.pl.fem",
+            "pap.abl.pl.neut",
+            "pap.dat.pl.masc",
+            "pap.dat.pl.fem",
+            "pap.dat.pl.neut"
           ],
           "stanza": "ardeo_v",
           "pos_hint": "verb"
@@ -22430,9 +22434,9 @@
           "surface": "regentis",
           "lemma_id": "rego_v",
           "parses": [
-            "ppl.gen.sg.masc",
-            "ppl.gen.sg.fem",
-            "ppl.gen.sg.neut"
+            "pap.gen.sg.masc",
+            "pap.gen.sg.fem",
+            "pap.gen.sg.neut"
           ],
           "stanza": "rego_v",
           "pos_hint": "verb"
@@ -22866,13 +22870,13 @@
           "surface": "cupiens",
           "lemma_id": "cupio_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "cupio_v",
           "pos_hint": "verb"
@@ -24561,12 +24565,12 @@
           "surface": "ferventibus",
           "lemma_id": "ferveo_v",
           "parses": [
-            "ppl.abl.pl.masc",
-            "ppl.abl.pl.fem",
-            "ppl.abl.pl.neut",
-            "ppl.dat.pl.masc",
-            "ppl.dat.pl.fem",
-            "ppl.dat.pl.neut"
+            "pap.abl.pl.masc",
+            "pap.abl.pl.fem",
+            "pap.abl.pl.neut",
+            "pap.dat.pl.masc",
+            "pap.dat.pl.fem",
+            "pap.dat.pl.neut"
           ],
           "stanza": "fervo",
           "pos_hint": "verb"
@@ -25568,7 +25572,11 @@
           "surface": "eadem",
           "lemma_id": "eadem_adv",
           "parses": [
-            "adv"
+            "adv",
+            "abl.sg.fem",
+            "acc.pl.neut",
+            "nom.pl.neut",
+            "nom.sg.fem"
           ],
           "stanza": "idem_pron",
           "pos_hint": "adv",
@@ -25597,7 +25605,11 @@
           "surface": "eadem",
           "lemma_id": "eadem_adv",
           "parses": [
-            "adv"
+            "adv",
+            "abl.sg.fem",
+            "acc.pl.neut",
+            "nom.pl.neut",
+            "nom.sg.fem"
           ],
           "stanza": "idem_pron",
           "pos_hint": "adv",
@@ -25697,7 +25709,11 @@
           "surface": "eadem",
           "lemma_id": "eadem_adv",
           "parses": [
-            "adv"
+            "adv",
+            "abl.sg.fem",
+            "acc.pl.neut",
+            "nom.pl.neut",
+            "nom.sg.fem"
           ],
           "stanza": "idem_pron",
           "pos_hint": "adv",
@@ -26358,9 +26374,9 @@
           "surface": "frementi",
           "lemma_id": "fremo_v",
           "parses": [
-            "ppl.dat.sg.masc",
-            "ppl.dat.sg.fem",
-            "ppl.dat.sg.neut"
+            "pap.dat.sg.masc",
+            "pap.dat.sg.fem",
+            "pap.dat.sg.neut"
           ],
           "stanza": "frementum",
           "pos_hint": "verb"
@@ -26945,12 +26961,12 @@
           "surface": "quaerentes",
           "lemma_id": "quaero_v",
           "parses": [
-            "ppl.acc.pl.masc",
-            "ppl.acc.pl.fem",
-            "ppl.nom.pl.masc",
-            "ppl.nom.pl.fem",
-            "ppl.voc.pl.masc",
-            "ppl.voc.pl.fem"
+            "pap.acc.pl.masc",
+            "pap.acc.pl.fem",
+            "pap.nom.pl.masc",
+            "pap.nom.pl.fem",
+            "pap.voc.pl.masc",
+            "pap.voc.pl.fem"
           ],
           "stanza": "quaero_v",
           "pos_hint": "verb"
@@ -28874,9 +28890,9 @@
           "surface": "pendentia",
           "lemma_id": "pendeo_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "pendentia",
           "pos_hint": "verb"
@@ -29798,7 +29814,14 @@
           "lemma_id": "sui_pron",
           "parses": [
             "gen.pl",
-            "gen.sg"
+            "gen.sg",
+            "gen.sg.neut",
+            "gen.sg.neut",
+            "gen.sg.masc",
+            "nom.pl.masc",
+            "voc.pl.masc",
+            "inf.pres.pass",
+            "1sg.perf.ind.act"
           ],
           "stanza": "sui_pron",
           "pos_hint": "pron",
@@ -33308,13 +33331,13 @@
             "abl.sg.fem",
             "nom.sg.fem",
             "voc.sg.fem",
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "licentia_n",
           "pos_hint": "noun",
-          "__data_matches": "licentia_n:abl.sg.fem,nom.sg.fem,voc.sg.fem;liceo_v:ppl.nom.pl.neut,ppl.voc.pl.neut,ppl.acc.pl.neut"
+          "__data_matches": "licentia_n:abl.sg.fem,nom.sg.fem,voc.sg.fem;liceo_v:pap.nom.pl.neut,pap.voc.pl.neut,pap.acc.pl.neut"
         },
         {
           "kind": "ws",
@@ -34316,7 +34339,7 @@
             "voc.sg.neut",
             "acc.sg.neut"
           ],
-          "stanza": "aequor_v",
+          "stanza": "aequor_n",
           "pos_hint": "verb",
           "__data_matches": "aequo_v:1sg.pres.ind.pass;aequor_n:nom.sg.neut,voc.sg.neut,acc.sg.neut",
           "selected_lemma_id": "aequor_n"
@@ -34680,9 +34703,7 @@
           "lemma_id": "bonus_n",
           "parses": [
             "nom.sg.masc",
-            "nom.sg.fem",
-            "voc.sg.masc",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "bonus_n",
           "pos_hint": "noun"
@@ -35703,8 +35724,8 @@
           "surface": "exstantem",
           "lemma_id": "exsto_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "exstandeo",
           "pos_hint": "verb"
@@ -35876,9 +35897,9 @@
           "surface": "sonanti",
           "lemma_id": "sono_v",
           "parses": [
-            "ppl.dat.sg.masc",
-            "ppl.dat.sg.fem",
-            "ppl.dat.sg.neut"
+            "pap.dat.sg.masc",
+            "pap.dat.sg.fem",
+            "pap.dat.sg.neut"
           ],
           "stanza": "sono_v",
           "pos_hint": "verb"
@@ -36446,9 +36467,9 @@
           "surface": "iacentia",
           "lemma_id": "jaceo_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "iaceo",
           "pos_hint": "verb"
@@ -36577,9 +36598,9 @@
           "surface": "rorantia",
           "lemma_id": "roro_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "roro_v",
           "pos_hint": "verb"
@@ -37241,12 +37262,12 @@
           "surface": "decrescentibus",
           "lemma_id": "decresco_v",
           "parses": [
-            "ppl.abl.pl.masc",
-            "ppl.abl.pl.fem",
-            "ppl.abl.pl.neut",
-            "ppl.dat.pl.masc",
-            "ppl.dat.pl.fem",
-            "ppl.dat.pl.neut"
+            "pap.abl.pl.masc",
+            "pap.abl.pl.fem",
+            "pap.abl.pl.neut",
+            "pap.dat.pl.masc",
+            "pap.dat.pl.fem",
+            "pap.dat.pl.neut"
           ],
           "stanza": "decresco_v",
           "pos_hint": "verb"
@@ -38918,9 +38939,9 @@
           "surface": "consolante",
           "lemma_id": "consolo_v",
           "parses": [
-            "ppl.abl.sg.masc",
-            "ppl.abl.sg.fem",
-            "ppl.abl.sg.neut"
+            "pap.abl.sg.masc",
+            "pap.abl.sg.fem",
+            "pap.abl.sg.neut"
           ],
           "stanza": "consolo_v",
           "pos_hint": "verb"
@@ -40072,12 +40093,12 @@
           "surface": "secantes",
           "lemma_id": "seco_v",
           "parses": [
-            "ppl.acc.pl.masc",
-            "ppl.acc.pl.fem",
-            "ppl.nom.pl.masc",
-            "ppl.nom.pl.fem",
-            "ppl.voc.pl.masc",
-            "ppl.voc.pl.fem"
+            "pap.acc.pl.masc",
+            "pap.acc.pl.fem",
+            "pap.nom.pl.masc",
+            "pap.nom.pl.fem",
+            "pap.voc.pl.masc",
+            "pap.voc.pl.fem"
           ],
           "stanza": "seco_v",
           "pos_hint": "verb"
@@ -40626,13 +40647,13 @@
           "surface": "pavens",
           "lemma_id": "paveo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "pavio",
           "pos_hint": "verb"
@@ -41011,7 +41032,11 @@
           "surface": "nostri",
           "lemma_id": "nos_pron",
           "parses": [
-            "gen.pl"
+            "gen.pl",
+            "nom.pl.masc",
+            "voc.pl.masc",
+            "gen.sg.neut",
+            "gen.sg.masc"
           ],
           "stanza": "noster_pron",
           "pos_hint": "pron",
@@ -41487,13 +41512,13 @@
             "acc.pl.fem",
             "gen.sg.masc",
             "gen.sg.fem",
-            "ppl.gen.sg.masc",
-            "ppl.gen.sg.fem",
-            "ppl.gen.sg.neut"
+            "pap.gen.sg.masc",
+            "pap.gen.sg.fem",
+            "pap.gen.sg.neut"
           ],
           "stanza": "parens_n",
           "pos_hint": "noun",
-          "__data_matches": "parens_n:acc.pl.masc,acc.pl.fem,gen.sg.masc,gen.sg.fem;pareo_v:ppl.gen.sg.masc,ppl.gen.sg.fem,ppl.gen.sg.neut"
+          "__data_matches": "parens_n:acc.pl.masc,acc.pl.fem,gen.sg.masc,gen.sg.fem;pareo_v:pap.gen.sg.masc,pap.gen.sg.fem,pap.gen.sg.neut"
         },
         {
           "kind": "punct",
@@ -42481,17 +42506,17 @@
             "nom.sg.fem",
             "voc.sg.masc",
             "voc.sg.fem",
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "pareo_v",
           "pos_hint": "noun",
-          "__data_matches": "parens_n:nom.sg.masc,nom.sg.fem,voc.sg.masc,voc.sg.fem;pareo_v:ppl.acc.sg.neut,ppl.nom.sg.masc,ppl.nom.sg.fem,ppl.nom.sg.neut,ppl.voc.sg.masc,ppl.voc.sg.fem,ppl.voc.sg.neut"
+          "__data_matches": "parens_n:nom.sg.masc,nom.sg.fem,voc.sg.masc,voc.sg.fem;pareo_v:pap.acc.sg.neut,pap.nom.sg.masc,pap.nom.sg.fem,pap.nom.sg.neut,pap.voc.sg.masc,pap.voc.sg.fem,pap.voc.sg.neut"
         },
         {
           "kind": "ws",
@@ -42756,7 +42781,8 @@
           "surface": "quamquam",
           "lemma_id": "quamquam_conj",
           "parses": [
-            "conj"
+            "conj",
+            "acc.sg.fem"
           ],
           "stanza": "quamquam_conj",
           "pos_hint": "conj",
@@ -44555,7 +44581,9 @@
           "surface": "eodem",
           "lemma_id": "eodem_adv",
           "parses": [
-            "adv"
+            "adv",
+            "abl.sg.masc",
+            "abl.sg.neut"
           ],
           "stanza": "idem_pron",
           "pos_hint": "adv",
@@ -44983,13 +45011,13 @@
           "surface": "experiens",
           "lemma_id": "experior_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "pos_hint": "verb"
         },
@@ -46297,7 +46325,7 @@
             "voc.pl.masc",
             "gen.sg.neut",
             "gen.sg.masc",
-            "gerund"
+            "ger.gen.sg"
           ],
           "stanza": "nascor_v",
           "pos_hint": "verb",
@@ -46460,7 +46488,9 @@
           "surface": "eodem",
           "lemma_id": "eodem_adv",
           "parses": [
-            "adv"
+            "adv",
+            "abl.sg.masc",
+            "abl.sg.neut"
           ],
           "stanza": "idem_pron",
           "pos_hint": "adv",
@@ -47618,13 +47648,12 @@
           "lemma_id": "magnus_adj",
           "parses": [
             "voc.sg.neut",
-            "voc.sg.masc",
             "voc.sg.neut",
             "voc.sg.masc"
           ],
           "stanza": "magne",
           "pos_hint": "adj",
-          "__data_matches": "magnus_adj:voc.sg.neut,voc.sg.masc;multus_pron:voc.sg.neut,voc.sg.masc",
+          "__data_matches": "magnus_adj:voc.sg.neut;multus_pron:voc.sg.neut,voc.sg.masc",
           "selected_lemma_id": "magnus_adj"
         },
         {
@@ -49026,8 +49055,7 @@
           "surface": "Peneia",
           "lemma_id": "peneus_n",
           "parses": [
-            "nom.sg.fem",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "peneius",
           "pos_hint": "noun"
@@ -49327,8 +49355,8 @@
           "surface": "flectentem",
           "lemma_id": "flecto_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "flecto_v",
           "pos_hint": "verb"
@@ -49852,8 +49880,8 @@
           "surface": "prementem",
           "lemma_id": "premo_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "premo_v",
           "pos_hint": "verb"
@@ -51516,9 +51544,9 @@
           "surface": "amantis",
           "lemma_id": "amo_v",
           "parses": [
-            "ppl.gen.sg.masc",
-            "ppl.gen.sg.fem",
-            "ppl.gen.sg.neut"
+            "pap.gen.sg.masc",
+            "pap.gen.sg.fem",
+            "pap.gen.sg.neut"
           ],
           "stanza": "amo_v",
           "pos_hint": "verb"
@@ -51621,13 +51649,13 @@
           "surface": "gaudens",
           "lemma_id": "gaudeo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "gaudeo_v",
           "pos_hint": "verb"
@@ -51881,12 +51909,12 @@
           "surface": "petentes",
           "lemma_id": "peto_v",
           "parses": [
-            "ppl.acc.pl.masc",
-            "ppl.acc.pl.fem",
-            "ppl.nom.pl.masc",
-            "ppl.nom.pl.fem",
-            "ppl.voc.pl.masc",
-            "ppl.voc.pl.fem"
+            "pap.acc.pl.masc",
+            "pap.acc.pl.fem",
+            "pap.nom.pl.masc",
+            "pap.nom.pl.fem",
+            "pap.voc.pl.masc",
+            "pap.voc.pl.fem"
           ],
           "stanza": "peto_v",
           "pos_hint": "verb"
@@ -52654,13 +52682,13 @@
           "surface": "haerens",
           "lemma_id": "haereo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "haereo_v",
           "pos_hint": "verb"
@@ -52759,7 +52787,7 @@
             "nom.sg.masc",
             "voc.sg.masc"
           ],
-          "stanza": "genitor_v",
+          "stanza": "genitor_n",
           "pos_hint": "noun"
         },
         {
@@ -52771,8 +52799,7 @@
           "surface": "carissime",
           "lemma_id": "carus_n",
           "parses": [
-            "voc.sg.masc",
-            "voc.sg.neut"
+            "voc.sg.masc"
           ],
           "stanza": "cario",
           "pos_hint": "noun"
@@ -54164,12 +54191,12 @@
           "surface": "micantes",
           "lemma_id": "mico_v",
           "parses": [
-            "ppl.acc.pl.masc",
-            "ppl.acc.pl.fem",
-            "ppl.nom.pl.masc",
-            "ppl.nom.pl.fem",
-            "ppl.voc.pl.masc",
-            "ppl.voc.pl.fem"
+            "pap.acc.pl.masc",
+            "pap.acc.pl.fem",
+            "pap.nom.pl.masc",
+            "pap.nom.pl.fem",
+            "pap.voc.pl.masc",
+            "pap.voc.pl.fem"
           ],
           "stanza": "mico_v",
           "pos_hint": "verb"
@@ -54723,9 +54750,9 @@
           "surface": "revocantis",
           "lemma_id": "revoco_v",
           "parses": [
-            "ppl.gen.sg.masc",
-            "ppl.gen.sg.fem",
-            "ppl.gen.sg.neut"
+            "pap.gen.sg.masc",
+            "pap.gen.sg.fem",
+            "pap.gen.sg.neut"
           ],
           "stanza": "revoco_v",
           "pos_hint": "verb"
@@ -55070,9 +55097,9 @@
           "surface": "trepidante",
           "lemma_id": "trepido_v",
           "parses": [
-            "ppl.abl.sg.masc",
-            "ppl.abl.sg.fem",
-            "ppl.abl.sg.neut"
+            "pap.abl.sg.masc",
+            "pap.abl.sg.fem",
+            "pap.abl.sg.neut"
           ],
           "stanza": "trepido_v",
           "pos_hint": "verb"
@@ -55874,7 +55901,7 @@
             "nom.sg.masc",
             "voc.sg.masc"
           ],
-          "stanza": "pastor_v",
+          "stanza": "pastor_n",
           "pos_hint": "noun"
         },
         {
@@ -56304,7 +56331,7 @@
             "nom.sg.masc",
             "voc.sg.masc"
           ],
-          "stanza": "genitor_v",
+          "stanza": "genitor_n",
           "pos_hint": "noun"
         },
         {
@@ -56673,7 +56700,6 @@
           "parses": [
             "nom.sg.masc",
             "nom.sg.fem",
-            "voc.sg.masc",
             "voc.sg.fem"
           ],
           "stanza": "certus_adj",
@@ -56966,9 +56992,9 @@
           "surface": "potentia",
           "lemma_id": "possum_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "potentia",
           "pos_hint": "verb"
@@ -57318,8 +57344,7 @@
           "surface": "Peneia",
           "lemma_id": "peneus_n",
           "parses": [
-            "nom.sg.fem",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "peneika",
           "pos_hint": "noun"
@@ -58747,9 +58772,9 @@
           "surface": "tangentia",
           "lemma_id": "tango_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "pos_hint": "verb"
         },
@@ -59423,13 +59448,13 @@
           "surface": "spectans",
           "lemma_id": "specto_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "specto_v",
           "pos_hint": "verb"
@@ -61391,7 +61416,11 @@
           "surface": "eadem",
           "lemma_id": "eadem_adv",
           "parses": [
-            "adv"
+            "adv",
+            "abl.sg.fem",
+            "acc.pl.neut",
+            "nom.pl.neut",
+            "nom.sg.fem"
           ],
           "stanza": "idem_pron",
           "pos_hint": "adv",
@@ -62380,9 +62409,9 @@
           "surface": "agitantia",
           "lemma_id": "agito_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "agito_v",
           "pos_hint": "verb"
@@ -62790,13 +62819,13 @@
           "surface": "residens",
           "lemma_id": "resideo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "resideo_v",
           "pos_hint": "verb"
@@ -62950,12 +62979,12 @@
           "surface": "colentibus",
           "lemma_id": "colo_v",
           "parses": [
-            "ppl.abl.pl.masc",
-            "ppl.abl.pl.fem",
-            "ppl.abl.pl.neut",
-            "ppl.dat.pl.masc",
-            "ppl.dat.pl.fem",
-            "ppl.dat.pl.neut"
+            "pap.abl.pl.masc",
+            "pap.abl.pl.fem",
+            "pap.abl.pl.neut",
+            "pap.dat.pl.masc",
+            "pap.dat.pl.fem",
+            "pap.dat.pl.neut"
           ],
           "stanza": "colo_v",
           "pos_hint": "verb"
@@ -63128,12 +63157,12 @@
           "parses": [
             "acc.sg.masc",
             "acc.sg.fem",
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "parens_n",
           "pos_hint": "noun",
-          "__data_matches": "parens_n:acc.sg.masc,acc.sg.fem;pareo_v:ppl.acc.sg.masc,ppl.acc.sg.fem"
+          "__data_matches": "parens_n:acc.sg.masc,acc.sg.fem;pareo_v:pap.acc.sg.masc,pap.acc.sg.fem"
         },
         {
           "kind": "punct",
@@ -63314,12 +63343,12 @@
         {
           "kind": "word",
           "surface": "Aeas",
-          "lemma_id": "a-eo_v",
+          "lemma_id": "aeas_n",
           "parses": [
-            "2sg.pres.subj.act"
+            "nom.sg.masc"
           ],
-          "stanza": "aea",
-          "pos_hint": "verb"
+          "stanza": "aeas_n",
+          "pos_hint": "noun"
         },
         {
           "kind": "punct",
@@ -65860,9 +65889,9 @@
           "surface": "umenti",
           "lemma_id": "umeo_v",
           "parses": [
-            "ppl.dat.sg.masc",
-            "ppl.dat.sg.fem",
-            "ppl.dat.sg.neut"
+            "pap.dat.sg.masc",
+            "pap.dat.sg.fem",
+            "pap.dat.sg.neut"
           ],
           "stanza": "umo",
           "pos_hint": "verb"
@@ -66585,14 +66614,14 @@
           "surface": "nitentem",
           "lemma_id": "niteo_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem",
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem",
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "nitor_v",
           "pos_hint": "verb",
-          "__data_matches": "niteo_v:ppl.acc.sg.masc,ppl.acc.sg.fem;nitor_v:ppl.acc.sg.masc,ppl.acc.sg.fem"
+          "__data_matches": "niteo_v:pap.acc.sg.masc,pap.acc.sg.fem;nitor_v:pap.acc.sg.masc,pap.acc.sg.fem"
         }
       ]
     },
@@ -66797,7 +66826,8 @@
           "surface": "quamquam",
           "lemma_id": "quamquam_conj",
           "parses": [
-            "conj"
+            "conj",
+            "acc.sg.fem"
           ],
           "stanza": "quamquam_conj",
           "pos_hint": "conj",
@@ -69041,9 +69071,9 @@
           "surface": "habenti",
           "lemma_id": "habeo_v",
           "parses": [
-            "ppl.dat.sg.masc",
-            "ppl.dat.sg.fem",
-            "ppl.dat.sg.neut"
+            "pap.dat.sg.masc",
+            "pap.dat.sg.fem",
+            "pap.dat.sg.neut"
           ],
           "stanza": "habeo_v",
           "pos_hint": "verb"
@@ -70213,12 +70243,12 @@
           "surface": "admirantibus",
           "lemma_id": "admiror_v",
           "parses": [
-            "ppl.abl.pl.masc",
-            "ppl.abl.pl.fem",
-            "ppl.abl.pl.neut",
-            "ppl.dat.pl.masc",
-            "ppl.dat.pl.fem",
-            "ppl.dat.pl.neut"
+            "pap.abl.pl.masc",
+            "pap.abl.pl.fem",
+            "pap.abl.pl.neut",
+            "pap.dat.pl.masc",
+            "pap.dat.pl.fem",
+            "pap.dat.pl.neut"
           ],
           "stanza": "admiror_v",
           "pos_hint": "verb"
@@ -71014,9 +71044,9 @@
           "surface": "gementis",
           "lemma_id": "gemo_v",
           "parses": [
-            "ppl.gen.sg.masc",
-            "ppl.gen.sg.fem",
-            "ppl.gen.sg.neut"
+            "pap.gen.sg.masc",
+            "pap.gen.sg.fem",
+            "pap.gen.sg.neut"
           ],
           "stanza": "geminuo",
           "pos_hint": "verb"
@@ -71078,13 +71108,13 @@
           "surface": "pendens",
           "lemma_id": "pendeo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "pendeo_v",
           "pos_hint": "verb"
@@ -72497,8 +72527,8 @@
           "surface": "maerentem",
           "lemma_id": "maereo_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "maeeo",
           "pos_hint": "verb"
@@ -72782,13 +72812,13 @@
           "surface": "sedens",
           "lemma_id": "sedeo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "sedeo_v",
           "pos_hint": "verb"
@@ -73335,7 +73365,7 @@
           "surface": "potenti",
           "lemma_id": "possum_v",
           "parses": [
-            "ppl.dat.sg"
+            "pap.dat.sg"
           ],
           "stanza": "possum_v",
           "pos_hint": "verb"
@@ -73821,7 +73851,7 @@
             "nom.sg.masc",
             "voc.sg.masc"
           ],
-          "stanza": "pastor_v",
+          "stanza": "pastor_n",
           "pos_hint": "noun"
         },
         {
@@ -74330,7 +74360,6 @@
           "parses": [
             "nom.sg.masc",
             "nom.sg.fem",
-            "voc.sg.masc",
             "voc.sg.fem"
           ],
           "stanza": "fecundus_adj",
@@ -74453,7 +74482,7 @@
             "abl.pl.masc",
             "dat.pl.masc"
           ],
-          "stanza": "pastor_v",
+          "stanza": "pastor_n",
           "pos_hint": "noun"
         },
         {
@@ -74719,9 +74748,9 @@
           "surface": "servantia",
           "lemma_id": "servo_v",
           "parses": [
-            "ppl.nom.pl.neut",
-            "ppl.voc.pl.neut",
-            "ppl.acc.pl.neut"
+            "pap.nom.pl.neut",
+            "pap.voc.pl.neut",
+            "pap.acc.pl.neut"
           ],
           "stanza": "servo_v",
           "pos_hint": "verb"
@@ -75575,12 +75604,12 @@
           "surface": "sequentes",
           "lemma_id": "sequor_v",
           "parses": [
-            "ppl.acc.pl.masc",
-            "ppl.acc.pl.fem",
-            "ppl.nom.pl.masc",
-            "ppl.nom.pl.fem",
-            "ppl.voc.pl.masc",
-            "ppl.voc.pl.fem"
+            "pap.acc.pl.masc",
+            "pap.acc.pl.fem",
+            "pap.nom.pl.masc",
+            "pap.nom.pl.fem",
+            "pap.voc.pl.masc",
+            "pap.voc.pl.fem"
           ],
           "stanza": "sequor_v",
           "pos_hint": "verb"
@@ -76699,12 +76728,12 @@
           "surface": "inpedientibus",
           "lemma_id": "impedio_v",
           "parses": [
-            "ppl.abl.pl.masc",
-            "ppl.abl.pl.fem",
-            "ppl.abl.pl.neut",
-            "ppl.dat.pl.masc",
-            "ppl.dat.pl.fem",
-            "ppl.dat.pl.neut"
+            "pap.abl.pl.masc",
+            "pap.abl.pl.fem",
+            "pap.abl.pl.neut",
+            "pap.dat.pl.masc",
+            "pap.dat.pl.fem",
+            "pap.dat.pl.neut"
           ],
           "stanza": "inpedio",
           "pos_hint": "verb"
@@ -77230,9 +77259,9 @@
           "surface": "querenti",
           "lemma_id": "queror_v",
           "parses": [
-            "ppl.dat.sg.masc",
-            "ppl.dat.sg.fem",
-            "ppl.dat.sg.neut"
+            "pap.dat.sg.masc",
+            "pap.dat.sg.fem",
+            "pap.dat.sg.neut"
           ],
           "stanza": "quereo",
           "pos_hint": "verb"
@@ -77961,13 +77990,13 @@
           "surface": "permulcens",
           "lemma_id": "permulceo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "permulco",
           "pos_hint": "verb"
@@ -78085,8 +78114,8 @@
           "surface": "nutantem",
           "lemma_id": "nuto_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "nutor",
           "pos_hint": "verb"
@@ -78751,12 +78780,12 @@
           "surface": "stellantibus",
           "lemma_id": "stello_v",
           "parses": [
-            "ppl.abl.pl.masc",
-            "ppl.abl.pl.fem",
-            "ppl.abl.pl.neut",
-            "ppl.dat.pl.masc",
-            "ppl.dat.pl.fem",
-            "ppl.dat.pl.neut"
+            "pap.abl.pl.masc",
+            "pap.abl.pl.fem",
+            "pap.abl.pl.neut",
+            "pap.dat.pl.masc",
+            "pap.dat.pl.fem",
+            "pap.dat.pl.neut"
           ],
           "stanza": "stello_v",
           "pos_hint": "verb"
@@ -79529,13 +79558,13 @@
           "surface": "tollens",
           "lemma_id": "tollo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "tollo_v",
           "pos_hint": "verb"
@@ -81662,13 +81691,13 @@
             "abl.sg.fem",
             "dat.sg.masc",
             "dat.sg.fem",
-            "ppl.dat.sg.masc",
-            "ppl.dat.sg.fem",
-            "ppl.dat.sg.neut"
+            "pap.dat.sg.masc",
+            "pap.dat.sg.fem",
+            "pap.dat.sg.neut"
           ],
           "stanza": "parens_n",
           "pos_hint": "noun",
-          "__data_matches": "parens_n:abl.sg.masc,abl.sg.fem,dat.sg.masc,dat.sg.fem;pareo_v:ppl.dat.sg.masc,ppl.dat.sg.fem,ppl.dat.sg.neut"
+          "__data_matches": "parens_n:abl.sg.masc,abl.sg.fem,dat.sg.masc,dat.sg.fem;pareo_v:pap.dat.sg.masc,pap.dat.sg.fem,pap.dat.sg.neut"
         }
       ]
     },
@@ -81904,8 +81933,8 @@
           "surface": "loquentem",
           "lemma_id": "loquor_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "loquor_v",
           "pos_hint": "verb"
@@ -81950,8 +81979,8 @@
           "surface": "cedentem",
           "lemma_id": "cedo_v",
           "parses": [
-            "ppl.acc.sg.masc",
-            "ppl.acc.sg.fem"
+            "pap.acc.sg.masc",
+            "pap.acc.sg.fem"
           ],
           "stanza": "cedo_v",
           "pos_hint": "verb"
@@ -81991,13 +82020,13 @@
           "parses": [
             "abl.sg.masc",
             "abl.sg.fem",
-            "ppl.abl.sg.masc",
-            "ppl.abl.sg.fem",
-            "ppl.abl.sg.neut"
+            "pap.abl.sg.masc",
+            "pap.abl.sg.fem",
+            "pap.abl.sg.neut"
           ],
           "stanza": "parens_n",
           "pos_hint": "noun",
-          "__data_matches": "parens_n:abl.sg.masc,abl.sg.fem;pareo_v:ppl.abl.sg.masc,ppl.abl.sg.fem,ppl.abl.sg.neut"
+          "__data_matches": "parens_n:abl.sg.masc,abl.sg.fem;pareo_v:pap.abl.sg.masc,pap.abl.sg.fem,pap.abl.sg.neut"
         },
         {
           "kind": "ws",
@@ -82149,13 +82178,13 @@
           "surface": "demens",
           "lemma_id": "demo_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "stanza": "demens_n",
           "pos_hint": "verb"
@@ -82229,7 +82258,7 @@
           "parses": [
             "gen.sg.masc"
           ],
-          "stanza": "genitor_v",
+          "stanza": "genitor_n",
           "pos_hint": "noun"
         },
         {
@@ -83408,13 +83437,13 @@
             "acc.pl.fem",
             "gen.sg.masc",
             "gen.sg.fem",
-            "ppl.gen.sg.masc",
-            "ppl.gen.sg.fem",
-            "ppl.gen.sg.neut"
+            "pap.gen.sg.masc",
+            "pap.gen.sg.fem",
+            "pap.gen.sg.neut"
           ],
           "stanza": "parens_n",
           "pos_hint": "noun",
-          "__data_matches": "parens_n:acc.pl.masc,acc.pl.fem,gen.sg.masc,gen.sg.fem;pareo_v:ppl.gen.sg.masc,ppl.gen.sg.fem,ppl.gen.sg.neut"
+          "__data_matches": "parens_n:acc.pl.masc,acc.pl.fem,gen.sg.masc,gen.sg.fem;pareo_v:pap.gen.sg.masc,pap.gen.sg.fem,pap.gen.sg.neut"
         },
         {
           "kind": "punct",
@@ -83685,13 +83714,13 @@
           "surface": "spectans",
           "lemma_id": "specto_v",
           "parses": [
-            "ppl.acc.sg.neut",
-            "ppl.nom.sg.masc",
-            "ppl.nom.sg.fem",
-            "ppl.nom.sg.neut",
-            "ppl.voc.sg.masc",
-            "ppl.voc.sg.fem",
-            "ppl.voc.sg.neut"
+            "pap.acc.sg.neut",
+            "pap.nom.sg.masc",
+            "pap.nom.sg.fem",
+            "pap.nom.sg.neut",
+            "pap.voc.sg.masc",
+            "pap.voc.sg.fem",
+            "pap.voc.sg.neut"
           ],
           "pos_hint": "verb"
         },

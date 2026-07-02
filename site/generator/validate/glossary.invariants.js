@@ -6,6 +6,7 @@
 
 import { normalizeSurface } from '../lib/normalize.js';
 import { cellForms, noParadigmParse, genderStampParses } from '../lib/paradigm.js';
+import { grammarAtomSet, undefinedAtoms } from './parse-atoms.js';
 
 /** @typedef {import('../schema/glossary.schema.js').Glossary} Glossary */
 /** @typedef {import('../schema/language.schema.js').LexiconDocument} LexiconDocument */
@@ -20,7 +21,7 @@ import { cellForms, noParadigmParse, genderStampParses } from '../lib/paradigm.j
 const VERB_ONLY_ATOMS = new Set([
   '1', '2', '3', '1sg', '2sg', '3sg', '1pl', '2pl', '3pl',
   'pres', 'imperf', 'fut', 'perf', 'plup', 'futperf',
-  'ind', 'subj', 'imp', 'inf', 'pap', 'ppp', 'fap', 'fpp',
+  'ind', 'subj', 'imp', 'inf', 'pap', 'ppp', 'fap', 'gerundive', 'ger',
   'act', 'pass',
 ]);
 const NOMINAL_ONLY_ATOMS = new Set([
@@ -154,7 +155,7 @@ export const glossaryInvariants = [
                 // and for the gerund/gerundive (verbal noun/adj). Allow when
                 // the parse contains a non-finite marker.
                 const hasParticipleMarker = parse.split('.').some((a) =>
-                  ['pap', 'ppl', 'ppp', 'fap', 'fpp', 'gerundive', 'ger'].includes(a),
+                  ['pap', 'ppp', 'fap', 'gerundive', 'ger'].includes(a),
                 );
                 if (!hasParticipleMarker) {
                   violations.push({
@@ -239,6 +240,31 @@ export const glossaryInvariants = [
             path: `entries.${word}`,
             message: `zero candidates`,
           });
+        }
+      }
+      return violations;
+    },
+  },
+
+  {
+    id: 'Gl6',
+    description: 'Every parse atom in glossary parses is defined in grammar.json',
+    /** @param {Glossary} g */
+    check(g, ctx) {
+      if (!ctx.grammar) return []; // suite run without grammar context
+      const atoms = grammarAtomSet(ctx.grammar);
+      /** @type {Violation[]} */
+      const violations = [];
+      for (const [word, entry] of Object.entries(g.entries)) {
+        for (const cand of entry.candidates) {
+          for (const parse of cand.parses) {
+            for (const atom of undefinedAtoms(parse, atoms)) {
+              violations.push({
+                path: `entries.${word}.${cand.lemma_id}.${parse}`,
+                message: `parse atom "${atom}" not defined in grammar`,
+              });
+            }
+          }
         }
       }
       return violations;

@@ -1,13 +1,45 @@
 # Validation Backlog
 
-`make validate` as of 2026-06-26: **0 errors, 0 warnings** — all invariants PASS.
+`make validate` as of 2026-07-01: **0 errors, 0 warnings** — all invariants PASS.
 
 ```
-✓ grammar (G1–G3)
-✓ lexicon (L1–L9, L8a)
-✓ glossary (Gl1–Gl5)
-✓ concordance (C1–C11)
+✓ grammar (G1–G4)
+✓ lexicon (L1–L10, L8a)
+✓ glossary (Gl1–Gl6)
+✓ concordance (C1–C12)
 ```
+
+---
+
+## Latin-support Phase 1 corrections (2026-07-01)
+
+Executed Phase 1 of `development/latin-support-analysis.md` via
+`site/latin/phase1_corrections.py` (idempotent; report printed on run):
+
+- **197 second-declension vocatives** fixed across nouns/adjectives whose
+  `voc.sg` had been auto-filled as a copy of `nom.sg` (animus → *anime*;
+  -ius regularly → -ie; *meus* → *mi*; *deus* kept per A&G §49.c). 20 stale
+  voc parses dropped from manuscript tokens whose surface no longer matches.
+- **`a-eo_v` deleted** (fabricated "aeo, aeare" with eo/ire glosses) —
+  replaced by `aeas_n`, the river Aeas of Met 1.580; token `b1-21-154`
+  re-pointed.
+- **`fabricator_v` → `fabricator_n`** (the Met 1.57 token is the agent noun);
+  **`uno_v`** rebuilt as regular 1st-conj *uno, unare* (was a unire-paradigm
+  hybrid); **`ador_v`/`genitor_v`/`pastor_v`/`aequor_v`** deleted (passive
+  surface-form headwords duplicating adoro/gigno-era entries; token-unreferenced,
+  9 `stanza` slugs re-pointed). `carus_n` re-glossed (was DICTLINE's Emperor
+  Carus; Met 1.486 *carissime* is "dearest").
+- **Parse-atom `ppl` → `pap`** everywhere (21,960 lexicon cells + manuscript
+  parses); grammar.json's `fpp` renamed `gerundive`, new `ger` (gerund) and
+  gender `c` (common) values, agRefs added for person 1/2/3 and enclitic;
+  `seed.py` participle tagging updated to match.
+- **New closure invariants L10 / Gl6 / C12** (shared helper
+  `site/generator/validate/parse-atoms.js`): every parse atom in lexicon cell
+  keys, glossary parses, and concordance parses must be defined in
+  grammar.json (markers `inv`/`enclit`/`alt`/`unk`/id-suffix `n`,`v`
+  allowlisted; `unk` retires with Phase 2's unknown_adv curation).
+- cards.js cold-path fallback maps extended (futperf, pap, fap, gerundive,
+  ger, c; adv/interj/num pos notes).
 
 ---
 

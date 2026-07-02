@@ -87,7 +87,7 @@ function pruneCandidates(surface, candidates, lemmaParseMap) {
       const forms = parseMap.get(p);
       if (forms && forms.has(surface)) { kept.push(p); continue; }
       let matched = false;
-      for (const pre of ['ppl.', 'ppp.', 'gerundive.', 'ger.', 'fap.', 'fpp.']) {
+      for (const pre of ['pap.', 'ppp.', 'gerundive.', 'ger.', 'fap.']) {
         const f = parseMap.get(pre + p);
         if (f && f.has(surface)) { matched = true; break; }
       }
