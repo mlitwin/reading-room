@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T16:38:46.951Z",
+  "generated_at": "2026-07-03T17:52:00.945Z",
   "pieces": [
     {
       "slug": "marvell-hortus",
@@ -112,6 +112,11 @@
                 "slug": "cotangent-space",
                 "title": "Cotangent space and 1-forms",
                 "html_path": "tensor-calculus-on-manifolds/manifolds/cotangent-space.html"
+              },
+              {
+                "slug": "metric-at-a-point",
+                "title": "Aside: a metric at a point",
+                "html_path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html"
               }
             ]
           },
@@ -268,6 +273,11 @@
                 "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
               },
               {
+                "slug": "killing-vectors",
+                "title": "Killing vectors",
+                "html_path": "tensor-calculus-on-manifolds/metric/killing-vectors.html"
+              },
+              {
                 "slug": "on-the-sphere",
                 "title": "On the sphere",
                 "html_path": "tensor-calculus-on-manifolds/metric/on-the-sphere.html"
@@ -293,6 +303,11 @@
                 "slug": "torsion-and-curvature",
                 "title": "Torsion and curvature",
                 "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
+              },
+              {
+                "slug": "geodesic-deviation",
+                "title": "Geodesic deviation",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
               },
               {
                 "slug": "on-the-sphere",

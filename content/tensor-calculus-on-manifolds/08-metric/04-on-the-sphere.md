@@ -71,7 +71,7 @@ The takeaways:
 - The same geometric metric has different component matrices in different charts.
 - Off-diagonal entries are a chart artifact, not a feature of the geometry.
 - Determinant and the volume form are chart-independent (when the chart change is volume-preserving).
-- The Gaussian curvature $K = 1$ (computed in [the connection-and-curvature section](../09-connection-and-curvature/04-on-the-sphere.md)) is the same in both charts because it's an intrinsic invariant.
+- The Gaussian curvature $K = 1$ (computed in [the connection-and-curvature section](../09-connection-and-curvature/05-on-the-sphere.md)) is the same in both charts because it's an intrinsic invariant.
 
 ## In stereographic coordinates
 

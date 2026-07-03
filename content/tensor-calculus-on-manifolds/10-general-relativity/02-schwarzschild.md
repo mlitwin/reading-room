@@ -38,7 +38,7 @@ For $r < 2M$ (inside the horizon), the roles of $t$ and $r$ swap: $g_{tt} > 0$ a
 
 ## Test-particle motion
 
-The Christoffels of the Schwarzschild metric — straightforward but tedious — feed the geodesic equation. Conserved quantities from the symmetries:
+The Christoffels of the Schwarzschild metric — straightforward but tedious — feed the geodesic equation. Conserved quantities from the [Killing symmetries](../08-metric/03-killing-vectors.md):
 
 - $E := -g_{tt}\, \dot t = (1 - 2M/r)\, \dot t$ — **energy per unit mass** (from $\partial_t$ Killing).
 - $L := g_{\varphi\varphi}\, \dot\varphi = r^2 \sin^2\theta\, \dot\varphi$ — **angular momentum** (from $\partial_\varphi$ Killing).

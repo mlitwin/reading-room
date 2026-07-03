@@ -11,7 +11,7 @@ In components $g = g_{\mu\nu}\, dx^\mu \otimes dx^\nu$ with $g_{\mu\nu} = g_{\nu
 
 ## Signature
 
-The symmetric bilinear form $g_p$ at a point is classified up to choice of basis by its **signature** $(p, q)$ with $p + q = n$ — the number of positive and negative eigenvalues. Three cases come up:
+The symmetric bilinear form $g_p$ at a point is classified up to choice of basis by its **signature** $(p, q)$ with $p + q = n$ — the number of positive and negative eigenvalues. (The pointwise linear algebra — Sylvester's law, the lightcone at a single event — is previewed in the [Part I aside](../01-manifolds/04-metric-at-a-point.md).) Three cases come up:
 
 - **Riemannian:** signature $(n, 0)$, i.e. $g$ is positive-definite. $g(v, v) > 0$ for $v \neq 0$. Every $v$ has a positive length $\sqrt{g(v, v)}$.
 - **Lorentzian:** signature $(1, n-1)$ or $(n-1, 1)$ depending on convention; one direction is "timelike" and the rest are "spacelike." General relativity uses Lorentzian signature on a $4$-manifold with convention $(-, +, +, +)$ (so timelike vectors have $g(v, v) < 0$) or $(+, -, -, -)$ (the opposite).

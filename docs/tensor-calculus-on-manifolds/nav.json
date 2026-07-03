@@ -116,6 +116,33 @@
         "html_path": "tensor-calculus-on-manifolds/manifolds/tangent-space.html"
       },
       "next": {
+        "title": "Aside: a metric at a point",
+        "html_path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html"
+      }
+    },
+    {
+      "slug": "metric-at-a-point",
+      "title": "Aside: a metric at a point",
+      "html_path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Manifolds",
+          "html_path": "tensor-calculus-on-manifolds/manifolds/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Cotangent space and 1-forms",
+        "html_path": "tensor-calculus-on-manifolds/manifolds/cotangent-space.html"
+      },
+      "next": {
         "title": "Vector fields and flows",
         "html_path": "tensor-calculus-on-manifolds/vector-fields-and-flows/index.html"
       }
@@ -135,8 +162,8 @@
         }
       ],
       "prev": {
-        "title": "Cotangent space and 1-forms",
-        "html_path": "tensor-calculus-on-manifolds/manifolds/cotangent-space.html"
+        "title": "Aside: a metric at a point",
+        "html_path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html"
       },
       "next": {
         "title": "Vector fields",
@@ -844,6 +871,33 @@
         "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
       },
       "next": {
+        "title": "Killing vectors",
+        "html_path": "tensor-calculus-on-manifolds/metric/killing-vectors.html"
+      }
+    },
+    {
+      "slug": "killing-vectors",
+      "title": "Killing vectors",
+      "html_path": "tensor-calculus-on-manifolds/metric/killing-vectors.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "The metric",
+          "html_path": "tensor-calculus-on-manifolds/metric/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Raising and lowering, trace, volume form",
+        "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
+      },
+      "next": {
         "title": "On the sphere",
         "html_path": "tensor-calculus-on-manifolds/metric/on-the-sphere.html"
       }
@@ -867,8 +921,8 @@
         }
       ],
       "prev": {
-        "title": "Raising and lowering, trace, volume form",
-        "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
+        "title": "Killing vectors",
+        "html_path": "tensor-calculus-on-manifolds/metric/killing-vectors.html"
       },
       "next": {
         "title": "Connection and curvature",
@@ -975,6 +1029,33 @@
         "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
       },
       "next": {
+        "title": "Geodesic deviation",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
+      }
+    },
+    {
+      "slug": "geodesic-deviation",
+      "title": "Geodesic deviation",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Connection and curvature",
+          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Torsion and curvature",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
+      },
+      "next": {
         "title": "On the sphere",
         "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html"
       }
@@ -998,8 +1079,8 @@
         }
       ],
       "prev": {
-        "title": "Torsion and curvature",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
+        "title": "Geodesic deviation",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
       },
       "next": {
         "title": "General relativity",

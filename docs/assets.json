@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T16:38:47.006Z",
+  "generated_at": "2026-07-03T17:52:01.001Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,7 +273,7 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "0d76bc992de61d47294e7a5e367d922a4377fc5eef65f731f533e75e28a296d0",
+      "sha256": "1eaf45eb4618837dc81737bd4cdfaae4d521f3c9bf666266bece54502c18188d",
       "size": 59093
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "c664f9635f1d0f45f72394503c1d243fcfd3bb07863bb9bc766255d13c9d7946",
+      "sha256": "af29de8d3a0566695fbfce6f0bf0efb88d74a4359c2a78223b95c1528e399376",
       "size": 926268
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "80957a6857c880e9de0bfbb61d047f3f8610e212ac98bcb90b87d512565454a3",
+      "sha256": "91efbfc885a7082b3fbce304609ab43dc0eacfcf1ea532b043a81663d6352156",
       "size": 10323088
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "2773390f86d4b3a9910bace74a13b03c66680ff6703e6d6ee9c0657e72b5b112",
+      "sha256": "250857f73657fb3deb042c4a2f279464889826813747e832098784caa835a4d0",
       "size": 2476366
     },
     {
@@ -638,12 +638,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "45ede471bcff61557f9dfb568472a196e1ced969b33f71a2bf418c4ccf295ac4",
+      "sha256": "8bc60d8c239e23830f9ce9652332ba7f7370ca91d637b39db4edea52d068fa93",
       "size": 11327777
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "6fb4f38b53091cfa3e064a540ac651d1a02647d73c251d82508207678cb669c3",
+      "sha256": "54c1dedcda2c154731a1554b68a5d5965690e7b21323cd99ea153b1a89cb2d90",
       "size": 11327751
     },
     {
@@ -728,8 +728,8 @@
     },
     {
       "path": "index.json",
-      "sha256": "be1dd25f7461b6f25d8f32fc187c0c332c2bb2b818c089e9c862ec7e34b65229",
-      "size": 29399
+      "sha256": "afa8ec547e672ec4743ebdf98b961beb747f68c7e6d6face91951d913a0a2adb",
+      "size": 30068
     },
     {
       "path": "marvell-hortus/book1-01.html",
@@ -1073,23 +1073,28 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html",
-      "sha256": "53361dbd2d4715cf15b67f7f500136779dedee7428433dc34944e7a1161fb582",
-      "size": 170404
+      "sha256": "c59b147a3fe254dbd0bd5aace08d44775f64732fd8f65e15bfb53ec3ef05c384",
+      "size": 159778
+    },
+    {
+      "path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html",
+      "sha256": "bcedba3e008e0ebb4bd00a3fefad83d6d6cccf22124a390676bde578b84f7a1b",
+      "size": 64476
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html",
-      "sha256": "0bd06376d96c755c0739ce11109d85f1d0a7be1fb3335208cf3565121a0a1a51",
-      "size": 4534
+      "sha256": "95d5bb61f2fec98962f248c6028056e92297271fdbef2210791ef4146c7be4b8",
+      "size": 4661
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html",
-      "sha256": "5e2fb97c3b09a99c9b9b3b11932acda13093e1c6b782f9ad016e9a8569fd5290",
-      "size": 203529
+      "sha256": "71e5744d842fc854166bde3850b1680587ad8bb2786893fded838c0c555ac5b9",
+      "size": 203523
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html",
-      "sha256": "c881f79fdb17ef77848050c3e6614d2e50c5a498cc7672effd732d31fc76bc29",
-      "size": 115143
+      "sha256": "761a2976c0cfa7064f252df190281d76087970090df4574d2fb99fbe7b50b2b1",
+      "size": 115153
     },
     {
       "path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html",
@@ -1103,8 +1108,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html",
-      "sha256": "80c657fd3e58c65c57bedb25e314824a26b404330b05bf8b17632d364c9fe771",
-      "size": 201765
+      "sha256": "2f36f176cb76f0a6ee1fb47baadf9ae268d59283e3538f8515e85c1ba4b4dca0",
+      "size": 201856
     },
     {
       "path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html",
@@ -1128,8 +1133,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/de-rham/index.html",
-      "sha256": "b8bbec79b345c8daae78d5a2e6b0923619948ccffc2ef7c8d166345d4e7a4a14",
-      "size": 2061
+      "sha256": "328a90fc0cf455abc913241ea5d29dc96955c5bcaff663d370d029a94cce6fcd",
+      "size": 2969
     },
     {
       "path": "tensor-calculus-on-manifolds/de-rham/poincare-lemma.html",
@@ -1148,8 +1153,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/differential-forms/index.html",
-      "sha256": "afe9c881513bf977a3b49b2ba6d8bdc7340d9ce3777e8040d1ad5c45ca68460e",
-      "size": 1688
+      "sha256": "223de70a190edba0b12efae97003e76cc1ce8d9a423b9492c9d8dad88da2985a",
+      "size": 3169
     },
     {
       "path": "tensor-calculus-on-manifolds/differential-forms/k-forms-and-wedge.html",
@@ -1193,8 +1198,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/einstein-equations.html",
-      "sha256": "4688acfb1b8b8b4044e09a0eb804765ea1614eee5f511d25947f9348e44b9143",
-      "size": 103533
+      "sha256": "81a3fef8c79e5c1a87eebdcfb40c0105e752b85cb50f321c8b7953e213bd797b",
+      "size": 103732
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/index.html",
@@ -1203,18 +1208,18 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/schwarzschild.html",
-      "sha256": "95cd5d6f98af792a86f588276365411e90b8cec495fc8710a2dd13b3241600bf",
-      "size": 88640
+      "sha256": "4bf302992d7045217d0b720fbc7d76bdfdc0796133faf9f7224a894b2e9bb9bc",
+      "size": 88693
     },
     {
       "path": "tensor-calculus-on-manifolds/index.html",
-      "sha256": "5d5c01976fd09d29fa92216140fda595da559284c6316ce1ed767498f8140e4d",
-      "size": 98594
+      "sha256": "20cf34a0ab49391b7694d332cac9e1ce8be2ab970bff76400afd69d556da702f",
+      "size": 88210
     },
     {
       "path": "tensor-calculus-on-manifolds/integration/index.html",
-      "sha256": "3afea9422cfdb768e5b0080d63fd8f0aa6415c754b8a212e674f9fa41376b0a2",
-      "size": 3533
+      "sha256": "2792ef116d32c7bf5ae7c4d107a5d925aff629c68c610e5d8cd6a0be5e868166",
+      "size": 6242
     },
     {
       "path": "tensor-calculus-on-manifolds/integration/orientation-and-integration.html",
@@ -1233,13 +1238,18 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/manifolds/cotangent-space.html",
-      "sha256": "268cdefb46c862bdd10d174e6a6ebe58143d5b5a9a67eaa270fc920649d40fd0",
-      "size": 129495
+      "sha256": "3166d43c29af91eaf5766e19205ee919cbcca781bd1be1602d114ba82dd0a63c",
+      "size": 129728
     },
     {
       "path": "tensor-calculus-on-manifolds/manifolds/index.html",
-      "sha256": "477b547b9c81942fe1c751cf4d2b82d271817e78f1999c0e4570b0ca622ac837",
-      "size": 2495
+      "sha256": "bc6c13c75d299771fa6fd69fad4ac9d9916862ebb8366e2e4236bbfbb949b409",
+      "size": 3360
+    },
+    {
+      "path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html",
+      "sha256": "13026e5b18ba569934515ced4ef0019c650403cbb4795a0af9c791f9757033ce",
+      "size": 86212
     },
     {
       "path": "tensor-calculus-on-manifolds/manifolds/tangent-space.html",
@@ -1248,38 +1258,43 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/metric/index.html",
-      "sha256": "084c6c647ee8bc352840039e0f6e8e343eccd8846077a15e37e0618d668feb32",
-      "size": 3290
+      "sha256": "2a463cb452b9a862746ca27919aeffbff4575af0d153473581631bd5c1d73463",
+      "size": 3379
+    },
+    {
+      "path": "tensor-calculus-on-manifolds/metric/killing-vectors.html",
+      "sha256": "cd5f1575d546e8e547eccb3beba58e075a82835c9274ed2a5a1674d64bdcf312",
+      "size": 77021
     },
     {
       "path": "tensor-calculus-on-manifolds/metric/on-the-sphere.html",
-      "sha256": "da0a30e32a836a134b9e5d6fe018299c063b0bd7d93871794cb465a9ea3e9439",
-      "size": 252710
+      "sha256": "d5ed51161c8cb41e64296e0759367a9f18e3da65220aafb442a52eeb91cec22f",
+      "size": 242145
     },
     {
       "path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html",
-      "sha256": "bbf888b4d20b8e69ec94a18629aedc0fc16a29b5455be04eda4ea1d3931f8827",
-      "size": 144373
+      "sha256": "54c3f0803e60980e13e7e84d0a83879f2105fdc6a32a7a0d1861a58900b74ec4",
+      "size": 144377
     },
     {
       "path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html",
-      "sha256": "c8d1daeb7a3161f9004105f3c0a30d5521b9c7231047ab43860feb6f58a5f8c5",
-      "size": 112037
+      "sha256": "4bc017bd75402f656055f5006d2fa9dd0301d2ed15d82fc03bf332949494fb65",
+      "size": 112211
     },
     {
       "path": "tensor-calculus-on-manifolds/nav.json",
-      "sha256": "4fdd096638e5081b00707e434a6f7c83f72837305d44b667959a839b53dbc3a0",
-      "size": 38437
+      "sha256": "42592f6b28667adae87233166e5e0b527786b7857e37de4ef3b87b04b05a338a",
+      "size": 41164
     },
     {
       "path": "tensor-calculus-on-manifolds/notes.html",
-      "sha256": "d1f2d1b364a5ec7c6878643d0120cf716c521f119b5df72a8cdf944cf029b2c8",
-      "size": 345715
+      "sha256": "246222a2643b33280a15a64047e2f7030b5b5fb2fc1a93fc1f93500914a85dea",
+      "size": 335177
     },
     {
       "path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html",
-      "sha256": "811907836659dbeba443c9ef5af41d2a929c64882f569492392e42f86de8365c",
-      "size": 175146
+      "sha256": "d01bb8707a5533925279eadd80bf7b884425bc7efd5fbf89a39f34c450ddc2b4",
+      "size": 175237
     },
     {
       "path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html",
@@ -1308,8 +1323,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/vector-fields-and-flows/index.html",
-      "sha256": "442a9af8cf9e71b5672f330e96735bc681ee656b8231d524ff8168bd31105e0a",
-      "size": 1766
+      "sha256": "43f50a825f2582e10be9ba26b4ef0cec88a1aaa9e701af4a4ce8d52ae6a1999d",
+      "size": 2191
     },
     {
       "path": "tensor-calculus-on-manifolds/vector-fields-and-flows/lie-derivative.html",

@@ -55,7 +55,7 @@ For finite-dimensional $V$, $\dim V^* = \dim V$; a basis $\{e_i\}$ of $V$ induce
 
 The metric's canonical identification of vectors with covectors. On a bare manifold the tangent space and its [dual](note:dual-space) have the same dimension but no canonical isomorphism between them (contrast the double dual, where $V^{**} \cong V$ *is* canonical). A metric $g$ provides one — the **musical isomorphisms**
 $$\flat: T_p M \to T^*_p M, \qquad v^\flat := g(v, \cdot), \qquad \sharp := \flat^{-1}: T^*_p M \to T_p M,$$
-named for how they move the component index down ($v_\mu = g_{\mu\nu}\, v^\nu$) and up ($\omega^\mu = g^{\mu\nu}\, \omega_\nu$) — [raising and lowering](08-metric/02-raising-and-lowering.md) applied to a single index.
+named for how they move the component index down ($v_\mu = g_{\mu\nu}\, v^\nu$) and up ($\omega^\mu = g^{\mu\nu}\, \omega_\nu$) — [raising and lowering](08-metric/02-raising-and-lowering.md) applied to a single index. Previewed pointwise in [Part I's aside](01-manifolds/04-metric-at-a-point.md).
 
 The gradient is the standard illustration of the distinction $\sharp$ erases: the differential $df$ of a function is metric-free, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ is not. In Euclidean coordinates on $\mathbb{R}^n$ the two have identical components, which is why elementary vector calculus never distinguishes them; in any non-orthonormal chart, or on any curved manifold, they differ.
 
@@ -117,9 +117,7 @@ In components,
 $$\nabla_\mu K_\nu + \nabla_\nu K_\mu = 0$$
 (the **Killing equation**, equivalent to $\mathcal{L}_K g = 0$ for the Levi-Civita connection).
 
-Killing fields are the infinitesimal generators of isometries: their flows are one-parameter families of isometries of $(M, g)$. On $S^2$ with the round metric, the three generators of $SO(3)$ give three Killing fields; in spherical coordinates, $\partial_\varphi$ is one of them (rotation about the $Z$-axis).
-
-Along a geodesic $\gamma$, $K_\mu \dot\gamma^\mu$ is conserved — every Killing vector gives a conserved quantity for free-fall motion. This is the geodesic instance of Noether's theorem: a Killing vector is a continuous symmetry of the geodesic action $\int g_{\mu\nu}\dot x^\mu \dot x^\nu\, d\lambda$, and $K_\mu \dot\gamma^\mu$ is the Noether charge (the [`classical-mechanics`](../classical-mechanics/04-noether/01-noethers-theorem.md) review has the general theorem). In Schwarzschild, $\partial_t$ and $\partial_\varphi$ are Killing; the two conserved quantities they yield are the energy $E$ and angular momentum $L$ that drive the orbit calculation.
+Killing fields are the infinitesimal generators of isometries: their flows are one-parameter families of isometries of $(M, g)$. Along a geodesic $\gamma$, $K_\mu \dot\gamma^\mu$ is conserved — every Killing vector gives a conserved quantity for free-fall motion. The [Killing-vectors page](08-metric/03-killing-vectors.md) develops the isometry picture, the sphere's three fields, the Noether connection, and the Schwarzschild $E$ and $L$.
 
 ## Lovelock's theorem
 

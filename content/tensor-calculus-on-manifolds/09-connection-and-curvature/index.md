@@ -9,6 +9,7 @@ This section gets connection-confusion out of the way:
 1. Why the partial derivative of a vector field's components is not a vector field. What an affine connection picks out.
 2. The covariant derivative $\nabla$, Christoffel symbols, metric compatibility, parallel transport, geodesics.
 3. The two tensors built from a connection — torsion and curvature. The Riemann, Ricci, scalar curvature decomposition. The Bianchi identities.
-4. Christoffels, the Riemann tensor, and Gaussian curvature on $S^2$.
+4. Geodesic deviation — the Jacobi equation, and curvature as the tidal acceleration of nearby free-falling particles.
+5. Christoffels, the Riemann tensor, and Gaussian curvature on $S^2$.
 
 The longest section of the book. Most reader confusion in GR lives here.

@@ -55,7 +55,7 @@ In all three, $\nabla^\mu T_{\mu\nu} = 0$ follows from the matter field equation
 
 A few phrases for the geometric meaning:
 
-- The **Ricci tensor** $R_{\mu\nu}$ measures how the volume of a small ball changes as it's parallel-transported; positive Ricci → focusing, negative → defocusing.
+- The **Ricci tensor** $R_{\mu\nu}$ measures how the volume of a small ball changes as it's parallel-transported; positive Ricci → focusing, negative → defocusing. ([Geodesic deviation](../09-connection-and-curvature/04-geodesic-deviation.md) is the precise statement: Riemann drives the relative acceleration of nearby geodesics, and Ricci is its trace.)
 - The **Weyl tensor** measures tidal distortion at fixed volume — the trace-free shearing component of curvature.
 - A **vacuum solution** has all curvature in the Weyl tensor; the Ricci tensor (and hence volumes) is locally flat, but tidal effects (and hence relative geodesic motion) remain.
 
