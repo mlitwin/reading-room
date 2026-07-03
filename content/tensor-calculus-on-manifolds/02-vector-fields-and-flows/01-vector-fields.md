@@ -14,7 +14,7 @@ $$X(f)(p) := X_p(f), \qquad X: C^\infty(M) \to C^\infty(M).$$
 This map is $\mathbb{R}$-linear and satisfies Leibniz:
 $$X(fg) = f \cdot X(g) + g \cdot X(f).$$
 
-Conversely, every $\mathbb{R}$-linear Leibniz derivation of $C^\infty(M)$ is a vector field — vector fields and derivations are the same object up to bookkeeping.
+Conversely, every $\mathbb{R}$-linear Leibniz [derivation](note:derivation) of $C^\infty(M)$ is a vector field — vector fields and derivations are the same object up to bookkeeping.
 
 **Push-forward of vector fields.** Unlike forms, vector fields generally *cannot* be pushed forward by a smooth map $F: M \to N$ — only by a diffeomorphism. The reason: a smooth map can map two distinct points $p, p' \in M$ to the same point $q \in N$, but $dF_p \cdot X_p$ and $dF_{p'} \cdot X_{p'}$ need not agree.
 

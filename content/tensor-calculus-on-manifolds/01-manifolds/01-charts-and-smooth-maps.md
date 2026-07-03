@@ -18,4 +18,4 @@ A **smooth atlas** is a collection of pairwise smoothly compatible charts whose 
 
 **Diffeomorphism.** A smooth map with a smooth inverse. Two manifolds are diffeomorphic iff there's a diffeomorphism between them; this is the equivalence relation for the category.
 
-**Partition of unity.** On any (second-countable, Hausdorff) smooth manifold, given any open cover, a smooth partition of unity subordinate to it exists. This is the lever that turns local constructions into global ones — used constantly for integration, gluing of metrics, extending sections.
+**Partition of unity.** On any (second-countable, Hausdorff) smooth manifold, given any open cover, a smooth [partition of unity](note:partition-of-unity) subordinate to it exists. This is the lever that turns local constructions into global ones — used constantly for integration, gluing of metrics, extending sections.

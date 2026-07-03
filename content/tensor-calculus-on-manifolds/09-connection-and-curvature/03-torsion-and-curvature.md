@@ -27,7 +27,7 @@ The **Riemann curvature tensor** of $\nabla$ is the $(1, 3)$-tensor
 $$R(X, Y) Z := \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z.$$
 In components,
 $$R^\rho{}_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho{}_{\nu\sigma} - \partial_\nu \Gamma^\rho{}_{\mu\sigma} + \Gamma^\rho{}_{\mu\lambda}\, \Gamma^\lambda{}_{\nu\sigma} - \Gamma^\rho{}_{\nu\lambda}\, \Gamma^\lambda{}_{\mu\sigma}.$$
-Index conventions vary; the placement here puts the "differentiated" index $\rho$ up, the "differentiated" index $\sigma$ down at the start, and the two anti-symmetric directions $\mu, \nu$ last. Some texts (Misner–Thorne–Wheeler) use $R^\rho{}_{\sigma\mu\nu}$; others put indices in other orders. Be alert to conventions.
+Index conventions vary; the placement here — shared with Misner–Thorne–Wheeler and Wald — puts the output index $\rho$ up, the index $\sigma$ of the vector being transported next, and the two antisymmetrized loop directions $\mu, \nu$ last. Other texts permute the slots or differ by an overall sign. Be alert to conventions.
 
 **Geometric picture.** Take a small closed loop at $p$ spanned by vectors $u, v$; parallel-transport $Z \in T_p M$ around it. The transported vector $Z'$ differs from $Z$ by
 $$Z' - Z = R(u, v) Z + O(\text{area}^2).$$

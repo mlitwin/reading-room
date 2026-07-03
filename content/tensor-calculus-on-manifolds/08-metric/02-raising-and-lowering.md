@@ -12,6 +12,8 @@ In components,
 $$v_\mu = g_{\mu\nu}\, v^\nu, \qquad \omega^\mu = g^{\mu\nu}\, \omega_\nu.$$
 The two maps are mutual inverses: $(v^\flat)^\sharp = v$ and $(\omega^\sharp)^\flat = \omega$.
 
+The standard example of what $\sharp$ buys: the differential $df$ of a function is defined on any smooth manifold, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ requires the metric. In Euclidean coordinates on $\mathbb{R}^n$ the two have identical components — which is why vector calculus never needs the distinction; in any non-orthonormal chart, or with any non-flat metric, they differ.
+
 For tensors of higher rank, raising and lowering act on a chosen index. Convention: write the same kernel letter and move the index;
 $$T_\mu{}^\nu := g_{\mu\rho}\, T^{\rho\nu}, \qquad T^{\mu\nu} = g^{\mu\rho}\, T_\rho{}^\nu.$$
 The horizontal position is kept (so you know which slot was originally where). Different conventions exist; the slot order is the safe disambiguator.

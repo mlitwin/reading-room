@@ -39,10 +39,10 @@ Angles between $v, w$ are defined (in the Riemannian case) by $\cos\theta = g(v,
 
 Given a smooth $F: N \to M$ and a metric $g$ on $M$, the pullback $F^* g$ is a *candidate* metric on $N$:
 $$(F^* g)_p(v, w) := g_{F(p)}(dF_p \cdot v, dF_p \cdot w).$$
-It is always symmetric, but is non-degenerate (hence a true metric) only when $dF_p$ is injective at every $p$ — i.e., when $F$ is an immersion. This is exactly how **induced metrics** on submanifolds arise: an embedded $S^2 \subseteq \mathbb{R}^3$ inherits a metric by pulling back the Euclidean inner product through the inclusion.
+It is always symmetric, but is non-degenerate (hence a true metric) only when $dF_p$ is injective at every $p$ — i.e., when $F$ is an [immersion](note:immersion). This is exactly how **induced metrics** on submanifolds arise: an embedded $S^2 \subseteq \mathbb{R}^3$ inherits a metric by pulling back the Euclidean inner product through the inclusion.
 
 ## Existence
 
-Any paracompact manifold — which here means every manifold in this book, since [second-countable](note:second-countable) Hausdorff implies paracompact — admits a Riemannian metric, by a partition-of-unity construction. Lorentzian metrics are much more restrictive: a closed orientable $n$-manifold admits a Lorentzian metric iff it has a nowhere-vanishing vector field, equivalently iff its Euler characteristic vanishes. Among compact $2$-manifolds, only the torus and Klein bottle admit Lorentzian metrics; the sphere does not. ($S^2$ has Euler characteristic $2$.)
+Any paracompact manifold — which here means every manifold in this book, since [second-countable](note:second-countable) Hausdorff implies paracompact — admits a Riemannian metric, by a [partition-of-unity](note:partition-of-unity) construction. Lorentzian metrics are much more restrictive: a closed orientable $n$-manifold admits a Lorentzian metric iff it has a nowhere-vanishing vector field, equivalently iff its Euler characteristic vanishes. Among compact $2$-manifolds, only the torus and Klein bottle admit Lorentzian metrics; the sphere does not. ($S^2$ has Euler characteristic $2$.)
 
 This is one reason GR is set on non-compact spacetimes (open $4$-manifolds, asymptotically flat or otherwise) rather than compact ones: a closed $4$-manifold needs vanishing Euler characteristic just to carry a Lorentzian metric at all.

@@ -15,7 +15,7 @@ $$\tilde\Phi(\tilde\theta, \tilde\varphi) = \Phi\big(\tilde\theta,\, \tilde\varp
 
 Differentiating the embedded formula:
 $$\begin{aligned}
-\partial_{\tilde\theta} &= \frac{\partial \tilde\Phi}{\partial \tilde\theta} = (\cos\tilde\theta\,\cos\psi + \alpha\sin^2\tilde\theta\,\sin\psi, \; \cos\tilde\theta\,\sin\psi - \alpha\sin^2\tilde\theta\,\cos\psi, \; -\sin\tilde\theta), \\
+\partial_{\tilde\theta} &= \frac{\partial \tilde\Phi}{\partial \tilde\theta} = (\cos\tilde\theta\,\cos\psi - \alpha\sin^2\tilde\theta\,\sin\psi, \; \cos\tilde\theta\,\sin\psi + \alpha\sin^2\tilde\theta\,\cos\psi, \; -\sin\tilde\theta), \\
 \partial_{\tilde\varphi} &= \frac{\partial \tilde\Phi}{\partial \tilde\varphi} = (-\sin\tilde\theta\,\sin\psi, \; \sin\tilde\theta\,\cos\psi, \; 0).
 \end{aligned}$$
 
@@ -37,10 +37,10 @@ At $\tilde\theta = \pi/2$ (equator) and $\alpha = \pi/8$ the cosine is $\alpha/\
 ## At the sample point
 
 With $\tilde\theta_0 = \theta_0 = 13\pi/32, \tilde\varphi_0 = \varphi_0 + \alpha\cos\theta_0$:
-$$|\partial_{\tilde\theta}|^2 = 1 + \alpha^2 \sin^4 \tilde\theta_0 \approx 1 + (\pi/8)^2 (0.981)^4 \approx 1.143.$$
-$$|\partial_{\tilde\varphi}|^2 = \sin^2 \tilde\theta_0 \approx 0.962.$$
-$$\cos \angle \approx \frac{(\pi/8)(0.981)^2}{\sqrt{1.143}} \approx 0.353,$$
-so the angle is about $69.3°$.
+$$|\partial_{\tilde\theta}|^2 = 1 + \alpha^2 \sin^4 \tilde\theta_0 \approx 1 + (\pi/8)^2 (0.957)^4 \approx 1.129.$$
+$$|\partial_{\tilde\varphi}|^2 = \sin^2 \tilde\theta_0 \approx 0.916.$$
+$$\cos \angle \approx \frac{(\pi/8)(0.957)^2}{\sqrt{1.129}} \approx 0.338,$$
+so the angle is about $70.2°$.
 
 The tangent-plane diagram in the skew chart:
 
@@ -59,7 +59,7 @@ Concretely:
 
 ![Skew tangent plane with coordinate basis (solid black) and dual basis (dashed grey). Each dual covector is perpendicular to the "wrong" axis.](../figures/dual-basis-skew.svg)
 
-The angle between $d\tilde\theta$ and $d\tilde\varphi$ is also not $\pi/2$ — it is the *same* angle as between $\partial_{\tilde\theta}$ and $\partial_{\tilde\varphi}$, by a symmetric argument. (Both bases lie in the same $2$-dimensional space; the chart's "shear" affects both.)
+Talking about covectors' lengths and angles at all — and drawing them as arrows in the same plane as the basis vectors — means identifying each covector with a vector through the metric, i.e. applying the [musical isomorphism](note:musical-isomorphism) $\sharp$. Done honestly, the angle between $d\tilde\theta$ and $d\tilde\varphi$ is not $\pi/2$ either — it is the **supplement** of the angle between $\partial_{\tilde\theta}$ and $\partial_{\tilde\varphi}$. Angles between covectors use the *inverse* metric, and inverting a $2 \times 2$ matrix flips the sign of the off-diagonal entry ($g^{\tilde\theta\tilde\varphi} = -g_{\tilde\theta\tilde\varphi}/\det g$), so the cosine flips sign: basis vectors at $\approx 70°$ put the dual covectors at $\approx 110°$.
 
 ## Coordinate functions
 

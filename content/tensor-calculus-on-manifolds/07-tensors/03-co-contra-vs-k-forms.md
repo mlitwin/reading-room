@@ -24,7 +24,7 @@ The same object goes by different names depending on the audience. This page is 
 
 ## Up versus down: where the indices go
 
-The position of an index — up for a $T_p M$ slot, down for a $T^*_p M$ slot — encodes the tensor's type. The pairing rule (sum exactly one up with exactly one down) makes indexed expressions chart-independent. Without a metric, you cannot freely move indices up and down; that operation requires the **musical isomorphisms**, covered in the [metric section](../08-metric/02-raising-and-lowering.md).
+The position of an index — up for a $T_p M$ slot, down for a $T^*_p M$ slot — encodes the tensor's type. The pairing rule (sum exactly one up with exactly one down) makes indexed expressions chart-independent. Without a metric, you cannot freely move indices up and down; that operation requires the [**musical isomorphisms**](note:musical-isomorphism), covered in the [metric section](../08-metric/02-raising-and-lowering.md).
 
 A useful identity that has nothing to do with the metric:
 $$\partial_\mu \otimes dx^\mu = \mathrm{id}_{T_p M},$$

@@ -13,6 +13,10 @@ A topological space is **Hausdorff** if any two distinct points $p, q$ have disj
 
 A topological space is **second countable** if its topology has a countable base: countably many open sets such that every open set is a union of some of them. Equivalently for metric spaces, $X$ has a countable dense subset and balls of rational radius centered on that subset form a base. This is what makes paracompactness and partition-of-unity arguments work on a manifold.
 
+## Partition of unity
+
+A **partition of unity** subordinate to an open cover $\{U_\alpha\}$ of $M$ is a family of smooth functions $\rho_\alpha: M \to [0, 1]$, each supported inside the corresponding $U_\alpha$, locally finite (every point has a neighborhood meeting only finitely many supports), with $\sum_\alpha \rho_\alpha = 1$ everywhere. On a [second-countable](note:second-countable) [Hausdorff](note:hausdorff) smooth manifold, every open cover admits one — this is the lever that turns local constructions into global ones: integration is defined chart by chart and glued ($\int_M \omega = \sum_\alpha \int \rho_\alpha\, \omega$), Riemannian metrics are built by gluing chart-wise Euclidean ones, and local sections are extended globally.
+
 ## Compact support
 
 A function (or vector field, or differential form) has **compact support** if it vanishes outside some compact subset $K \subseteq M$. On a non-compact manifold this is the condition that makes $\int_M$ converge and that kills the boundary contributions at infinity — it is why Stokes's theorem and the integration of $n$-forms are stated for compactly supported forms. On a *compact* manifold every smooth function has compact support automatically, so the qualifier can be dropped.
@@ -29,6 +33,10 @@ An **abstract smooth manifold** is a [Hausdorff](note:hausdorff), [second-counta
 
 All structures — tangent spaces, tensor fields, metrics, connections — are then built intrinsically. The geometry in this book is mostly abstract, with the embedded view brought in as the geometrically transparent special case.
 
+## Immersion
+
+A smooth map $F: M \to N$ is an **immersion** if its differential $dF_p: T_p M \to T_{F(p)} N$ is injective at every point. (Compare: a **submersion** has surjective differential; an **embedding** is an injective immersion that is a homeomorphism onto its image.) Immersions are the maps through which metrics pull back to metrics: $F^* g$ is non-degenerate exactly when $dF_p$ is injective. An immersion can self-intersect (a figure-eight curve in the plane); an [embedded submanifold](note:embedded-manifold) cannot.
+
 ## Derivation
 
 For a commutative algebra $A$ over $\mathbb{R}$ (e.g., $A = C^\infty(M)$), a **derivation at $p \in M$** is an $\mathbb{R}$-linear map $D: A \to \mathbb{R}$ satisfying the **Leibniz rule**
@@ -42,6 +50,14 @@ The derivation viewpoint generalizes: a derivation of $A$ (with values in $A$) i
 For a vector space $V$ over a field $k$, the **dual space** is the space of $k$-linear functionals
 $$V^* := \mathrm{Hom}_k(V, k).$$
 For finite-dimensional $V$, $\dim V^* = \dim V$; a basis $\{e_i\}$ of $V$ induces a **dual basis** $\{e^i\}$ of $V^*$ defined by $e^i(e_j) = \delta^i_j$. The double dual is canonically isomorphic to $V$: $V^{**} \cong V$ via $v \mapsto (\omega \mapsto \omega(v))$. The cotangent space $T^*_p M$ is the dual of the tangent space $T_p M$.
+
+## Musical isomorphism
+
+The metric's canonical identification of vectors with covectors. On a bare manifold the tangent space and its [dual](note:dual-space) have the same dimension but no canonical isomorphism between them (contrast the double dual, where $V^{**} \cong V$ *is* canonical). A metric $g$ provides one — the **musical isomorphisms**
+$$\flat: T_p M \to T^*_p M, \qquad v^\flat := g(v, \cdot), \qquad \sharp := \flat^{-1}: T^*_p M \to T_p M,$$
+named for how they move the component index down ($v_\mu = g_{\mu\nu}\, v^\nu$) and up ($\omega^\mu = g^{\mu\nu}\, \omega_\nu$) — [raising and lowering](08-metric/02-raising-and-lowering.md) applied to a single index.
+
+The gradient is the standard illustration of the distinction $\sharp$ erases: the differential $df$ of a function is metric-free, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ is not. In Euclidean coordinates on $\mathbb{R}^n$ the two have identical components, which is why elementary vector calculus never distinguishes them; in any non-orthonormal chart, or on any curved manifold, they differ.
 
 ## Lie algebra
 
@@ -104,6 +120,20 @@ $$\nabla_\mu K_\nu + \nabla_\nu K_\mu = 0$$
 Killing fields are the infinitesimal generators of isometries: their flows are one-parameter families of isometries of $(M, g)$. On $S^2$ with the round metric, the three generators of $SO(3)$ give three Killing fields; in spherical coordinates, $\partial_\varphi$ is one of them (rotation about the $Z$-axis).
 
 Along a geodesic $\gamma$, $K_\mu \dot\gamma^\mu$ is conserved — every Killing vector gives a conserved quantity for free-fall motion. This is the geodesic instance of Noether's theorem: a Killing vector is a continuous symmetry of the geodesic action $\int g_{\mu\nu}\dot x^\mu \dot x^\nu\, d\lambda$, and $K_\mu \dot\gamma^\mu$ is the Noether charge (the [`classical-mechanics`](../classical-mechanics/04-noether/01-noethers-theorem.md) review has the general theorem). In Schwarzschild, $\partial_t$ and $\partial_\varphi$ are Killing; the two conserved quantities they yield are the energy $E$ and angular momentum $L$ that drive the orbit calculation.
+
+## Lovelock's theorem
+
+In four dimensions, every symmetric $(0, 2)$-tensor that is (i) built from the metric and at most its first and second derivatives and (ii) divergence-free is a linear combination
+$$a\, G_{\mu\nu} + b\, g_{\mu\nu}$$
+of the Einstein tensor and the metric. So the left-hand side of the Einstein equations — including the cosmological-constant term — is forced, not chosen, once a tensorial second-order theory of the metric is demanded. In dimension $n > 4$, additional "Lovelock terms" (Gauss–Bonnet and higher) become available, which is one reason higher-dimensional gravity theories are less rigid than $4$D GR.
+
+## Cartan formalism
+
+The **tetrad** (or **vielbein**) formulation of gravity. Replace the coordinate basis with an orthonormal coframe: $n$ one-forms $e^a$ with
+$$g = \eta_{ab}\; e^a \otimes e^b,$$
+where $\eta$ is the flat metric of the appropriate signature ("tetrad" when $n = 4$). The connection becomes the **spin connection** $\omega^a{}_b$, a matrix of one-forms, and torsion and curvature become the two-forms of the **Cartan structure equations**
+$$T^a = de^a + \omega^a{}_b \wedge e^b, \qquad R^a{}_b = d\omega^a{}_b + \omega^a{}_c \wedge \omega^c{}_b.$$
+The payoff: spinor fields on curved spacetime become definable (spinors transform under local frame rotations, which the coordinate-basis formalism has no handle on), and the [Einstein–Cartan](10-general-relativity/03-einstein-cartan.md) action becomes a polynomial in differential forms. Misner–Thorne–Wheeler (chapter 14) and Nakahara develop the formalism in full.
 
 ## Cochain complex
 

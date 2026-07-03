@@ -14,7 +14,7 @@ The embedded picture is the affine tangent plane at each point. Intrinsically, t
 
 A **chart** on a smooth manifold $M$ is a smooth invertible map
 $$\Phi: U \to V,$$
-where $U \subseteq \mathbb{R}^n$ is open and $V \subseteq M$ is an open subset. The inverse $\Phi^{-1}: V \to U$ assigns coordinates to points; the components are the **coordinate functions** $x^\mu := \pi_\mu \circ \Phi^{-1}$.
+where $U \subseteq \mathbb{R}^n$ is open and $V \subseteq M$ is an open subset. The inverse $\Phi^{-1}: V \to U$ assigns coordinates to points; the components are the **coordinate functions** $x^\mu := \pi_\mu \circ \Phi^{-1}$. ([Part I](../01-manifolds/01-charts-and-smooth-maps.md) defined a chart as the coordinate map $\varphi: V \to \mathbb{R}^n$; this chapter works with the parametrization $\Phi = \varphi^{-1}$, the convenient direction for computing on the sphere. Same data, opposite arrow.)
 
 A single chart almost never covers all of $M$. The sphere needs at least two — any chart that uses $\theta, \varphi$ angular coordinates has a singularity at the poles where $\varphi$ is undefined. Manifolds are described by an **atlas** of charts whose overlaps glue together smoothly (the **transition maps**).
 
@@ -22,7 +22,7 @@ For tensor calculus, the choice of atlas mostly doesn't matter — every object 
 
 ## Two charts on $S^2$
 
-We use two charts throughout the book, both parametrized by $(\theta, \varphi) \in (0, \pi) \times [0, 2\pi)$.
+We use two charts throughout the book, both parametrized by $(\theta, \varphi) \in (0, \pi) \times (0, 2\pi)$.
 
 **Standard chart** $\Phi$. The familiar lat/long parametrization:
 $$\Phi(\theta, \varphi) = (\sin\theta\cos\varphi, \; \sin\theta\sin\varphi, \; \cos\theta).$$

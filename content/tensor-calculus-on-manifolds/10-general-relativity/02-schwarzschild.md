@@ -46,10 +46,10 @@ The Christoffels of the Schwarzschild metric — straightforward but tedious —
 
 The radial geodesic equation reduces to
 $$\tfrac{1}{2} \dot r^2 + V_{\mathrm{eff}}(r) = \tfrac{1}{2} (E^2 - 1), \qquad V_{\mathrm{eff}}(r) = -\frac{M}{r} + \frac{L^2}{2 r^2} - \frac{M L^2}{r^3}.$$
-The first three terms — Newtonian gravity, angular-momentum barrier, GR correction — explain the classical tests:
+The three terms — Newtonian gravity, angular-momentum barrier, GR correction — explain the classical tests:
 
 - **Perihelion precession of Mercury** comes from the $-M L^2 / r^3$ term, which makes bound orbits not close on themselves.
-- **Light deflection** comes from doing the same calculation for null geodesics ($\dot\tau \to 0$ limit).
+- **Light deflection** comes from the same reduction for null geodesics — normalization $g(\dot\gamma, \dot\gamma) = 0$ in place of $-1$, which drops the $-M/r$ term and puts $\tfrac{1}{2} E^2$ on the right.
 - **Gravitational redshift** comes directly from the $g_{tt}$ coefficient: clocks at rest at small $r$ tick slower than clocks at large $r$ by a factor of $\sqrt{1 - 2M/r}$.
 
 These three are the classical tests of GR. The numerical values are textbook.

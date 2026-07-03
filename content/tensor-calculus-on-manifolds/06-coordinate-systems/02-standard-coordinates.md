@@ -25,17 +25,17 @@ Both facts can be checked by direct computation from the formulas above. The ort
 
 Plug $\theta_0 = 13\pi/32, \varphi_0 = 29\pi/32$ into the formulas:
 $$\begin{aligned}
-p &\approx (-0.910, \; 0.286, \; 0.290), \\
-\partial_\theta\big|_p &\approx (-0.286, \; 0.0900, \; -0.957), \\
-\partial_\varphi\big|_p &\approx (-0.286, \; -0.910, \; 0).
+p &\approx (-0.916, \; 0.278, \; 0.290), \\
+\partial_\theta\big|_p &\approx (-0.278, \; 0.0843, \; -0.957), \\
+\partial_\varphi\big|_p &\approx (-0.278, \; -0.916, \; 0).
 \end{aligned}$$
-Verification: $\partial_\theta \cdot \partial_\varphi = (-0.286)(-0.286) + (0.0900)(-0.910) + (-0.957)(0) = 0.0817 - 0.0819 + 0 \approx 0$ to rounding error. Orthogonality confirmed.
+Verification: $\partial_\theta \cdot \partial_\varphi = (-0.278)(-0.278) + (0.0843)(-0.916) + (-0.957)(0) = 0.0773 - 0.0772 + 0 \approx 0$ to rounding error. Orthogonality confirmed.
 
 The tangent-plane diagram, drawn locally at $p$:
 
 ![Tangent basis at the sample point — the two arrows ∂θ and ∂φ at right angles, with ∂φ shorter by a factor of sin(θ₀)](../figures/tangent-standard.svg)
 
-The horizontal axis represents $\partial_\theta$ direction (unit length); the vertical axis $\partial_\varphi$ direction (length $\sin\theta_0 \approx 0.981$). At the sample point's latitude they happen to be nearly the same length; near the poles the discrepancy is much larger.
+The horizontal axis represents $\partial_\theta$ direction (unit length); the vertical axis $\partial_\varphi$ direction (length $\sin\theta_0 \approx 0.957$). At the sample point's latitude they happen to be nearly the same length; near the poles the discrepancy is much larger.
 
 ## In coordinate basis
 
@@ -43,7 +43,7 @@ A general tangent vector at $p$ is
 $$v = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi,$$
 with components $(v^\theta, v^\varphi) \in \mathbb{R}^2$. The components depend on the chart; the vector itself does not.
 
-The chart-coordinate functions on $S^2$ are the smooth real-valued functions $\theta(p) = \arctan(\sqrt{X^2+Y^2}/Z)$ and $\varphi(p) = \arctan(Y/X)$, both defined where the chart is. Their differentials $d\theta, d\varphi$ are the **dual basis**:
+The chart-coordinate functions on $S^2$ are the smooth real-valued functions $\theta(p) = \arccos Z$ and $\varphi(p) = \operatorname{atan2}(Y, X)$, both defined where the chart is. Their differentials $d\theta, d\varphi$ are the **dual basis**:
 $$d\theta(\partial_\theta) = 1, \quad d\theta(\partial_\varphi) = 0, \quad d\varphi(\partial_\theta) = 0, \quad d\varphi(\partial_\varphi) = 1.$$
 A general covector is $\omega = \omega_\theta\, d\theta + \omega_\varphi\, d\varphi$ and the pairing with $v$ is $\omega(v) = \omega_\theta\, v^\theta + \omega_\varphi\, v^\varphi$ — just multiply matched components and sum.
 

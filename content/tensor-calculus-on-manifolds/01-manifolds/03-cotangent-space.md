@@ -4,7 +4,7 @@ title: Cotangent space and 1-forms
 
 The **cotangent space at $p$** is the [dual](note:dual-space) of the tangent space:
 $$T^*_p M := (T_p M)^*,$$
-the space of linear functionals on $T_p M$. Whatever the tangent space is, its dual is automatically defined; both have dimension $n$, and the duality is symmetric — neither is "primary." Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**.
+the space of linear functionals on $T_p M$. Whatever the tangent space is, its dual is automatically defined; both have dimension $n$, and the duality is symmetric — neither is "primary." But the two are not canonically *identified*: no particular isomorphism $T_p M \to T^*_p M$ is available without extra structure. The metric of Part II supplies one — the [musical isomorphisms](note:musical-isomorphism). Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**.
 
 ## Dual basis and components
 
@@ -38,4 +38,4 @@ A **1-form** $\omega$ on $M$ is a smooth section of the cotangent bundle $T^*M :
 
 **Pullback.** For a smooth map $F: M \to N$ and $\eta \in \Omega^1(N)$,
 $$(F^* \eta)_p(v) := \eta_{F(p)}(dF_p \cdot v), \qquad v \in T_p M.$$
-Pullbacks of forms always exist — forms are contravariant, while vector fields can only be pushed forward through diffeomorphisms. This asymmetry — pullback for covectors, pushforward for vectors — is the prototype for all of tensor calculus.
+Pullbacks of forms always exist — the assignment $F \mapsto F^*$ reverses arrows, "contravariant" in the categorical sense — while vector fields can only be pushed forward through diffeomorphisms. (Terminology collision: forms pull back *contravariantly* as a functor even though their components $\omega_i$ transform *covariantly* under chart change. Both usages are standard; context disambiguates.) This asymmetry — pullback for covectors, pushforward for vectors — is the prototype for all of tensor calculus.

@@ -8,7 +8,7 @@ The **tangent space at $p$**, denoted $T_p M$, is the $n$-dimensional vector spa
 
 1. **Curves modulo first-order tangency.** Equivalence classes of smooth curves $\gamma: (-\varepsilon, \varepsilon) \to M$ with $\gamma(0) = p$ under $\gamma_1 \sim \gamma_2 \iff (\varphi \circ \gamma_1)'(0) = (\varphi \circ \gamma_2)'(0)$ for some (equivalently, any) chart.
 
-2. **Derivations at $p$.** Linear maps $v: C^\infty(M) \to \mathbb{R}$ satisfying Leibniz:
+2. **[Derivations](note:derivation) at $p$.** Linear maps $v: C^\infty(M) \to \mathbb{R}$ satisfying Leibniz:
 $$v(fg) = f(p)\, v(g) + g(p)\, v(f).$$
 
 3. **Coordinate $n$-tuples that transform.** Tuples $(v^1, \ldots, v^n) \in \mathbb{R}^n$ assigned to each chart, related across charts by the Jacobian of the transition map (below).

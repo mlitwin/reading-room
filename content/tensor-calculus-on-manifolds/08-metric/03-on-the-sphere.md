@@ -19,7 +19,7 @@ $$[g^{\mu\nu}] = \begin{pmatrix} 1 & 0 \\ 0 & 1/\sin^2\theta \end{pmatrix}.$$
 
 The length of the basis vectors:
 $$|\partial_\theta|^2 = g_{\theta\theta} = 1, \qquad |\partial_\varphi|^2 = g_{\varphi\varphi} = \sin^2\theta.$$
-So $\partial_\theta$ has unit length everywhere; $\partial_\varphi$ has length $\sin\theta$ — short near the poles, long at the equator. The vector $\sin\theta\, \partial_\varphi$ would be the unit vector pointing east, in the conventions of any geographer.
+So $\partial_\theta$ has unit length everywhere; $\partial_\varphi$ has length $\sin\theta$ — short near the poles, long at the equator. The vector $\frac{1}{\sin\theta}\, \partial_\varphi$ would be the unit vector pointing east, in the conventions of any geographer.
 
 The orthogonality $g(\partial_\theta, \partial_\varphi) = 0$ says the spherical coordinates are an orthogonal coordinate system on $S^2$.
 
@@ -33,7 +33,7 @@ recovering the same form computed in the [previous section](../07-tensors/04-on-
 
 ## Raising and lowering
 
-The covector dual to $\partial_\theta$ is
+The [musical isomorphisms](note:musical-isomorphism) in action: the covector dual to $\partial_\theta$ is
 $$(\partial_\theta)^\flat = g_{\theta\nu}\, dx^\nu = d\theta.$$
 Similarly $(\partial_\varphi)^\flat = \sin^2\theta\, d\varphi$. Note this is *not* $d\varphi$: the metric weighting changes the magnitude.
 
@@ -65,7 +65,7 @@ Note that the inverse has off-diagonal entries with a *minus* sign — that's th
 
 **Length of the basis vectors.** From the diagonal entries:
 $$|\partial_{\tilde\theta}|^2 = 1 + \alpha^2 \sin^4\tilde\theta, \qquad |\partial_{\tilde\varphi}|^2 = \sin^2 \tilde\theta.$$
-At the sample point and $\alpha = \pi/8$: $|\partial_{\tilde\theta}|^2 \approx 1.143$ (slightly longer than the standard $\partial_\theta$, which has $|\partial_\theta|^2 = 1$), and $|\partial_{\tilde\varphi}|^2 \approx 0.962$ (same as the standard $\partial_\varphi$, since they're the same vector).
+At the sample point and $\alpha = \pi/8$: $|\partial_{\tilde\theta}|^2 \approx 1.129$ (slightly longer than the standard $\partial_\theta$, which has $|\partial_\theta|^2 = 1$), and $|\partial_{\tilde\varphi}|^2 \approx 0.916$ (same as the standard $\partial_\varphi$, since they're the same vector).
 
 The takeaways:
 - The same geometric metric has different component matrices in different charts.
