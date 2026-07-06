@@ -8,8 +8,8 @@ The Schwarzschild solution is the unique spherically symmetric vacuum solution o
 
 Look for a vacuum metric ($R_{\mu\nu} = 0$, $\Lambda = 0$) that is:
 
-- **Static:** there is a timelike Killing vector field whose orbits foliate spacetime; the metric has no $t$-dependence in adapted coordinates.
-- **Spherically symmetric:** there is an $SO(3)$ acting by isometries, with orbits two-dimensional spheres.
+- **Static:** there is a timelike [Killing vector](note:killing-vector) field whose orbits foliate spacetime; the metric has no $t$-dependence in adapted coordinates.
+- **Spherically symmetric:** there is an $SO(3)$ acting by [isometries](note:isometry), with orbits two-dimensional spheres.
 
 Adapted coordinates $(t, r, \theta, \varphi)$, with $(\theta, \varphi)$ the angular coordinates on $S^2$ from earlier. The most general such metric is
 $$g = -A(r)\, dt^2 + B(r)\, dr^2 + r^2\, (d\theta^2 + \sin^2\theta\, d\varphi^2)$$
@@ -17,7 +17,7 @@ for two scalar functions $A, B$ of $r$ alone.
 
 ## Solving the equations
 
-Compute the Christoffel symbols (analogous to the sphere calculation but in $4$D), then the Ricci tensor components. After some bookkeeping, the vacuum equations $R_{\mu\nu} = 0$ reduce to two ODEs that force
+Compute the [Christoffel symbols](note:covariant-derivative) (analogous to the sphere calculation but in $4$D), then the Ricci tensor components. After some bookkeeping, the vacuum equations $R_{\mu\nu} = 0$ reduce to two ODEs that force
 $$A(r)\, B(r) = \mathrm{const}.$$
 Absorbing the constant into the definition of $t$ gives $AB = 1$, i.e. $B = 1/A$. The remaining equation $R_{tt} = 0$ then gives $(rA)' = 1$, so
 $$A(r) = 1 - \frac{2M}{r}$$
@@ -32,7 +32,7 @@ Two distinguished radii:
 - $r = 2M$, the **Schwarzschild radius** or **event horizon**. The metric coefficient $g_{tt} \to 0$ and $g_{rr} \to \infty$; coordinates break down but the geometry is regular (a *coordinate* singularity).
 - $r = 0$, a **true singularity**. The scalar invariant $R_{\rho\sigma\mu\nu} R^{\rho\sigma\mu\nu} = 48 M^2 / r^6$ blows up; no coordinate change removes it.
 
-For $r > 2M$, the metric is static and spherically symmetric and approaches Minkowski as $r \to \infty$ — the exterior of a non-rotating massive body.
+For $r > 2M$, the metric is static and spherically symmetric and approaches [Minkowski](note:minkowski-space) as $r \to \infty$ — the exterior of a non-rotating massive body.
 
 For $r < 2M$ (inside the horizon), the roles of $t$ and $r$ swap: $g_{tt} > 0$ and $g_{rr} < 0$, so $t$ is now spacelike and $r$ is timelike. Inside, $r$ decreases monotonically toward $r = 0$ for any future-directed worldline — the black hole interior.
 

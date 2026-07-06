@@ -26,7 +26,7 @@ on $S^2$ in the spherical chart eats two tangent vectors and returns a number. P
 $$\omega(\partial_\theta, \partial_\varphi) = \sin\theta\, [d\theta(\partial_\theta)\, d\varphi(\partial_\varphi) - d\theta(\partial_\varphi)\, d\varphi(\partial_\theta)] = \sin\theta.$$
 The component array is $\omega_{\theta\varphi} = \sin\theta$, $\omega_{\varphi\theta} = -\sin\theta$, $\omega_{\theta\theta} = \omega_{\varphi\varphi} = 0$ — fully antisymmetric, as required of a 2-form.
 
-This form measures the area of an infinitesimal coordinate rectangle: a small patch $[\theta, \theta + d\theta] \times [\varphi, \varphi + d\varphi]$ has area $\sin\theta\, d\theta\, d\varphi$, which integrates over the whole sphere to $4\pi$. The same form will reappear with a metric explanation: $\omega = \sqrt{\det g}\, d\theta \wedge d\varphi$ is the canonical volume form.
+This form measures the area of an infinitesimal coordinate rectangle: a small patch $[\theta, \theta + d\theta] \times [\varphi, \varphi + d\varphi]$ has area $\sin\theta\, d\theta\, d\varphi$, which integrates over the whole sphere to $4\pi$. The same form will reappear with a metric explanation: $\omega = \sqrt{\det g}\, d\theta \wedge d\varphi$ is the canonical [volume form](note:volume-form).
 
 In the stereographic chart $(x, y)$, the chain rule gives
 $$\omega = \frac{4}{(1 + x^2 + y^2)^2}\, dx \wedge dy.$$
@@ -34,6 +34,6 @@ Again, same tensor, different components.
 
 ## Transformation diagnostic
 
-Both objects above transform correctly: changing chart, recomputing the components from the rule, and checking that the result is the same as starting fresh in the new chart, is a finite (and tedious) check. The defining property of a tensor — the multiplicative transformation law of [the previous page](02-coordinate-components.md) — is what licenses calling these objects intrinsic features of the sphere rather than chart artifacts.
+Both objects above transform correctly: changing chart, recomputing the components from the rule, and checking that the result is the same as starting fresh in the new chart, is a finite (and tedious) check. The defining property of a tensor — the multiplicative [transformation law](note:tensor-transformation-law) of [the previous page](02-coordinate-components.md) — is what licenses calling these objects intrinsic features of the sphere rather than chart artifacts.
 
 The next section introduces the round metric, which lets us assign a *length* to a tangent vector, a *length* to a covector via the dual metric, and gives a unified construction of $J$ (as the rotation associated to the metric and orientation) and $\omega$ (as the metric volume form).

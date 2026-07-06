@@ -9,7 +9,7 @@ Local existence and uniqueness follow from the standard ODE theorems applied in 
 The **flow** of $X$ is the map $\theta$ defined on the maximal open set $\mathcal{D} \subseteq \mathbb{R} \times M$ for which the integral curves exist; we write $\theta_t(p) := \theta(t, p)$. The flow satisfies the **flow group laws**:
 $$\theta_0 = \mathrm{id}_M, \qquad \theta_t \circ \theta_s = \theta_{t+s} \quad \text{where defined.}$$
 
-A vector field with $\mathcal{D} = \mathbb{R} \times M$ is **complete** — its flow is defined for all time. Vector fields with compact support are always complete; on a compact $M$, every vector field is complete.
+A vector field with $\mathcal{D} = \mathbb{R} \times M$ is **complete** — its flow is defined for all time. Vector fields with [compact support](note:compact-support) are always complete; on a compact $M$, every vector field is complete.
 
 **Lie bracket.** The **Lie bracket** of $X, Y \in \mathfrak{X}(M)$ is the vector field
 $$[X, Y]f := X(Y(f)) - Y(X(f)), \qquad f \in C^\infty(M).$$

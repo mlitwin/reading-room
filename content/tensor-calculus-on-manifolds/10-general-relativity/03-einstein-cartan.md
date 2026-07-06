@@ -23,7 +23,7 @@ Contortion is a genuine tensor (the difference of two connections); torsion is i
 
 The **Einstein–Cartan action** is the Einstein–Hilbert action with the Levi-Civita curvature replaced by the curvature of the full (possibly torsionful) connection:
 $$S_{\mathrm{EC}}[g, \Gamma] = \frac{c^4}{16\pi G} \int_M R[\Gamma]\, \mathrm{vol}_g + S_{\mathrm{matter}}[g, \Gamma, \psi],$$
-where $R[\Gamma]$ is the scalar curvature constructed from $\Gamma$, not from $\mathring\Gamma$. The matter action $S_{\mathrm{matter}}$ in general depends on the connection (not just the metric) when $\psi$ contains spinor fields, since the spinor covariant derivative involves the spin connection — and once that dependence is allowed, matter couples to torsion.
+where $R[\Gamma]$ is the scalar curvature constructed from $\Gamma$, not from $\mathring\Gamma$. The matter action $S_{\mathrm{matter}}$ in general depends on the connection (not just the metric) when $\psi$ contains [spinor](note:spinor) fields, since the spinor covariant derivative involves the spin connection — and once that dependence is allowed, matter couples to torsion.
 
 ## Field equations
 

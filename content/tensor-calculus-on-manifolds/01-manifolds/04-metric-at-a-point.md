@@ -27,4 +27,4 @@ In relativity, $T_p M$ with a Lorentzian $g_p$ *is* the local inertial frame at 
 
 ## What Part II adds
 
-A **metric on $M$** is a smooth field $p \mapsto g_p$ of such forms — the subject of [chapter 8](../08-metric/index.md). Only then do lengths of curves, proper time, isometries, and volume exist; and only the *variation* of $g_p$ from point to point produces the connection and curvature of chapter 9. Until then, Part I proceeds metric-free.
+A **metric on $M$** is a smooth field $p \mapsto g_p$ of such forms — the subject of [chapter 8](../08-metric/index.md). Only then do lengths of curves, [proper time](note:proper-time), [isometries](note:isometry), and volume exist; and only the *variation* of $g_p$ from point to point produces the connection and curvature of chapter 9. Until then, Part I proceeds metric-free.

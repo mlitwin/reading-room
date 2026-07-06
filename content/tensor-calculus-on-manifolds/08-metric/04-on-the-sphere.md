@@ -27,7 +27,7 @@ The angle between two tangent vectors at a point uses the inner product in the u
 $$L(\gamma) = \int \sqrt{\dot\theta^2 + \sin^2\theta\, \dot\varphi^2}\; dt.$$
 A meridian ($\varphi$ constant) from pole to pole has length $\int_0^\pi 1\, d\theta = \pi$; the equator ($\theta = \pi/2$) has length $\int_0^{2\pi} \sin(\pi/2)\, d\varphi = 2\pi$. Both as expected for a unit-radius sphere.
 
-The volume form is
+The [volume form](note:volume-form) is
 $$\mathrm{vol}_g = \sqrt{\det g}\; d\theta \wedge d\varphi = \sin\theta\; d\theta \wedge d\varphi,$$
 recovering the same form computed in the [previous section](../07-tensors/04-on-the-sphere.md) — there constructed from antisymmetry alone, here recovered as the metric volume form. Integrating gives $\int_{S^2} \mathrm{vol}_g = \int_0^\pi \int_0^{2\pi} \sin\theta\, d\varphi\, d\theta = 4\pi$, the area of the unit sphere.
 
@@ -83,6 +83,6 @@ A general fact: any $2$-manifold admits isothermal (conformally flat) coordinate
 
 ## Pullback by a rotation
 
-The action of $SO(3)$ on $S^2$ preserves the round metric. For a rotation $R: S^2 \to S^2$,
+The action of $SO(3)$ on $S^2$ preserves the round metric. For a rotation $R: S^2 \to S^2$, the [pullback](note:pullback) satisfies
 $$R^* g = g.$$
-Equivalently, the components of $R^* g$ in the spherical chart equal the components of $g$ in that chart, after the rotation has been worked through the transformation rule. This is the **isometry** condition; the connected isometry group of the round sphere is $SO(3)$ (with $O(3)$ if reflections are allowed). [Killing vectors](note:killing-vector) — infinitesimal generators of isometries — make this concrete in the connection section.
+Equivalently, the components of $R^* g$ in the spherical chart equal the components of $g$ in that chart, after the rotation has been worked through the transformation rule. This is the [**isometry**](note:isometry) condition; the connected isometry group of the round sphere is $SO(3)$ (with $O(3)$ if reflections are allowed). [Killing vectors](note:killing-vector) — infinitesimal generators of isometries — make this concrete in the connection section.

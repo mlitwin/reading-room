@@ -15,7 +15,7 @@ $$\nabla_T \nabla_T J = \nabla_T \nabla_J T = \nabla_J \nabla_T T + R(T, J)\, T 
 
 $$\boxed{\quad \nabla_T \nabla_T J = R(T, J)\, T \quad}$$
 
-This is the **Jacobi equation** (or **geodesic deviation equation**). In components, with the [index convention](03-torsion-and-curvature.md) of this book,
+This is the **Jacobi equation** (or **geodesic deviation equation**). In components, with the [index convention](note:riemann-index-convention) of this book,
 $$\frac{D^2 J^\rho}{dt^2} = R^\rho{}_{\sigma\mu\nu}\, T^\sigma T^\mu J^\nu = -R^\rho{}_{\sigma\mu\nu}\, T^\sigma J^\mu T^\nu.$$
 Flat space: $R = 0$, so $J$ grows at most linearly — initially parallel geodesics stay parallel. Any deviation from that is curvature, measured directly.
 

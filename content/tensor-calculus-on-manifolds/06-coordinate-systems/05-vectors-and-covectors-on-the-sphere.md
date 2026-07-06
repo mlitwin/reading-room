@@ -10,7 +10,7 @@ This page revisits the standard chart and adds a second, *stereographic*, chart 
 
 Take the standard parametrization
 $$\Phi(\theta, \varphi) = (\sin\theta \cos\varphi, \; \sin\theta \sin\varphi, \; \cos\theta),$$
-with $\theta \in (0, \pi)$ the polar angle from the north pole and $\varphi \in [0, 2\pi)$ the azimuth. This chart misses the two poles (where $\varphi$ is undefined) and the seam at $\varphi = 0$; a second chart, e.g. rotated $90^\circ$ in $Z$, covers what this one misses.
+with $\theta \in (0, \pi)$ the polar angle from the north pole and $\varphi \in (0, 2\pi)$ the azimuth. This chart misses the two poles (where $\varphi$ is undefined) and the seam at $\varphi = 0$; a second chart, e.g. rotated $90^\circ$ in $Z$, covers what this one misses.
 
 The tangent basis vectors at $p = \Phi(\theta, \varphi)$, **embedded view**, are the partial derivatives of $\Phi$:
 $$\begin{aligned}
@@ -37,7 +37,7 @@ A vector field expressed in the spherical chart, say $V = \partial_\varphi$ (rot
 $$V'^{x} = \frac{\partial x}{\partial \theta}\, V^\theta + \frac{\partial x}{\partial \varphi}\, V^\varphi, \qquad V'^{y} = \frac{\partial y}{\partial \theta}\, V^\theta + \frac{\partial y}{\partial \varphi}\, V^\varphi.$$
 With $V^\theta = 0, V^\varphi = 1$, this evaluates (using $x = \sin\theta\cos\varphi / (1+\cos\theta)$, $y = \sin\theta\sin\varphi / (1+\cos\theta)$) to
 $$V'^{x} = -y, \qquad V'^{y} = x,$$
-the familiar rotation field in the plane. The *same* vector field has *different* component functions in the two charts — both are correct, and both transform into each other via the [vector transformation rule](../01-manifolds/02-tangent-space.md).
+the familiar rotation field in the plane. The *same* vector field has *different* component functions in the two charts — both are correct, and both transform into each other via the [vector transformation rule](note:tensor-transformation-law).
 
 ## Cotangent at a point
 

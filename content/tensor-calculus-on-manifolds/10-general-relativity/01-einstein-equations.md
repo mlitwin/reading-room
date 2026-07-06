@@ -4,7 +4,7 @@ title: The Einstein equations
 
 ## Setup
 
-Spacetime is a four-dimensional smooth manifold $M$ equipped with a Lorentzian metric $g$ of signature $(-, +, +, +)$. Test particles follow timelike (massive) or null (massless) geodesics of the Levi-Civita connection of $g$. The geometry of $g$ is the gravitational field; the dynamical content of GR is the equation that determines $g$ from matter content.
+Spacetime is a four-dimensional smooth manifold $M$ equipped with a Lorentzian metric $g$ of signature $(-, +, +, +)$. Test particles follow timelike (massive) or null (massless) [geodesics](note:geodesic) of the Levi-Civita connection of $g$. The geometry of $g$ is the gravitational field; the dynamical content of GR is the equation that determines $g$ from matter content.
 
 ## The equations
 

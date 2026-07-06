@@ -6,7 +6,7 @@ The Levi-Civita connection of the round metric, the Riemann tensor, and Gaussian
 
 ## Christoffel symbols
 
-Plug into the [Christoffel formula](02-covariant-derivative.md). The non-trivial pieces of $g$ are $g_{\theta\theta} = 1$, $g_{\varphi\varphi} = \sin^2\theta$, with $g^{\theta\theta} = 1$, $g^{\varphi\varphi} = 1/\sin^2\theta$, and only one non-zero partial derivative: $\partial_\theta g_{\varphi\varphi} = 2 \sin\theta \cos\theta$.
+Plug into the [Christoffel formula](note:covariant-derivative). The non-trivial pieces of $g$ are $g_{\theta\theta} = 1$, $g_{\varphi\varphi} = \sin^2\theta$, with $g^{\theta\theta} = 1$, $g^{\varphi\varphi} = 1/\sin^2\theta$, and only one non-zero partial derivative: $\partial_\theta g_{\varphi\varphi} = 2 \sin\theta \cos\theta$.
 
 Running through the formula:
 
@@ -73,7 +73,7 @@ $$K = 1$$
 
 ## Gauss–Bonnet
 
-The integral of Gaussian curvature on a closed orientable Riemannian $2$-manifold equals $2\pi$ times the Euler characteristic:
+The integral of Gaussian curvature on a closed orientable Riemannian $2$-manifold equals $2\pi$ times the [Euler characteristic](note:euler-characteristic):
 $$\int_M K\, \mathrm{vol}_g = 2\pi\, \chi(M).$$
 For $S^2$: $\int_{S^2} 1 \cdot \sin\theta\, d\theta\, d\varphi = 4\pi = 2\pi \cdot 2 = 2\pi \chi(S^2)$. The unit sphere's Gaussian curvature integrates correctly to give Euler characteristic $2$ — a topological invariant computed from purely metric data.
 
@@ -81,7 +81,7 @@ This is the simplest of the Chern–Gauss–Bonnet theorems, and the cleanest co
 
 ## Parallel transport around a triangle
 
-A vector parallel-transported around a closed loop on the sphere returns rotated by the loop's enclosed solid angle. For a spherical triangle with interior angles $\alpha, \beta, \gamma$, the rotation angle is the spherical excess
+A vector [parallel-transported](note:parallel-transport) around a closed loop on the sphere returns rotated by the loop's enclosed solid angle. For a spherical triangle with interior angles $\alpha, \beta, \gamma$, the rotation angle is the spherical excess
 $$E = \alpha + \beta + \gamma - \pi,$$
 which equals the triangle's area on the unit sphere. This is the integrated Riemann tensor: $\oint = \iint R$, in the most explicit form available in dimension $2$.
 

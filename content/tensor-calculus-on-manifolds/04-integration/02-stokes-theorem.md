@@ -4,7 +4,7 @@ title: Stokes's theorem
 
 A **manifold with boundary** is a topological space modeled locally on $\mathbb{R}^n$ (interior points) or on $\mathbb{H}^n := \{x \in \mathbb{R}^n : x^n \geq 0\}$ (boundary points). The **boundary** $\partial M$ is the set of points mapped to $\{x^n = 0\}$ by some (hence every) chart; it's itself a smooth $(n-1)$-manifold (without boundary).
 
-**Boundary orientation.** If $M$ is oriented with form $\Omega$ and $\nu$ is an outward-pointing vector field along $\partial M$, the induced orientation on $\partial M$ is represented by $\iota_\nu \Omega|_{\partial M}$. ("Outward normal first" convention.)
+**Boundary orientation.** If $M$ is oriented with form $\Omega$ and $\nu$ is an outward-pointing vector field along $\partial M$, the induced orientation on $\partial M$ is represented by the [interior product](note:interior-product) $\iota_\nu \Omega|_{\partial M}$. ("Outward normal first" convention.)
 
 **Stokes's theorem.** Let $M$ be a smooth oriented $n$-manifold with boundary, and let $\omega \in \Omega^{n-1}(M)$ have [compact support](note:compact-support). Then
 $$\boxed{\quad \int_M d\omega \;=\; \int_{\partial M} \omega \quad}$$

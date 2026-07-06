@@ -2,21 +2,21 @@
 title: Killing vectors
 ---
 
-The symmetries of a metric, made infinitesimal. This page uses the [Lie derivative](../02-vector-fields-and-flows/03-lie-derivative.md) from Part I and quotes one formula from [chapter 9](../09-connection-and-curvature/02-covariant-derivative.md).
+The symmetries of a metric, made infinitesimal. This page uses the [Lie derivative](note:lie-derivative) from [Part I](../02-vector-fields-and-flows/03-lie-derivative.md) and quotes one formula from [chapter 9](../09-connection-and-curvature/02-covariant-derivative.md).
 
 ## Isometries
 
 A diffeomorphism $F: M \to M$ with
 $$F^* g = g$$
-is an **isometry** — it preserves every length and angle the metric defines. The isometries of $(M, g)$ form a group. For the round sphere it is $O(3)$, with connected part $SO(3)$; for Minkowski space, the Poincaré group.
+is an **isometry** — it preserves every length and angle the metric defines. The isometries of $(M, g)$ form a group. For the round sphere it is $O(3)$, with connected part $SO(3)$; for [Minkowski space](note:minkowski-space), the Poincaré group.
 
 ## Killing fields
 
-A vector field $K \in \mathfrak{X}(M)$ is a **Killing vector field** if its flow preserves the metric:
+A vector field $K \in \mathfrak{X}(M)$ is a **Killing vector field** if its [flow](note:flow) preserves the metric:
 $$\mathcal{L}_K g = 0.$$
 The flow of a Killing field is a one-parameter family of isometries — a continuous symmetry of the geometry. For the Levi-Civita connection this is equivalent to the **Killing equation**
 $$\nabla_\mu K_\nu + \nabla_\nu K_\mu = 0$$
-(with $\nabla$ the covariant derivative of [chapter 9](../09-connection-and-curvature/02-covariant-derivative.md); $\nabla K$ is antisymmetric).
+(with $\nabla$ the [covariant derivative](note:covariant-derivative) of [chapter 9](../09-connection-and-curvature/02-covariant-derivative.md); $\nabla K$ is antisymmetric).
 
 **Coordinate shortcut.** If every component $g_{\mu\nu}$ is independent of some coordinate $x^k$, then $\partial_k$ is Killing — "the metric doesn't change along $x^k$." Most Killing fields met in practice are found this way.
 
@@ -24,7 +24,7 @@ Killing fields are closed under the Lie bracket, so they form a [Lie algebra](no
 
 ## Conserved quantities along geodesics
 
-For any geodesic $\gamma$ and any Killing field $K$, the pairing $K_\mu \dot\gamma^\mu$ is constant along $\gamma$:
+For any [geodesic](note:geodesic) $\gamma$ and any Killing field $K$, the pairing $K_\mu \dot\gamma^\mu$ is constant along $\gamma$:
 $$\frac{d}{d\lambda}\bigl(K_\mu \dot\gamma^\mu\bigr) = (\nabla_\nu K_\mu)\, \dot\gamma^\nu \dot\gamma^\mu + K_\mu\, (\nabla_{\dot\gamma}\dot\gamma)^\mu = 0,$$
 the first term vanishing because $\nabla K$ is antisymmetric against the symmetric $\dot\gamma^\nu \dot\gamma^\mu$, the second by the geodesic equation. One Killing field, one conserved quantity of free-fall motion.
 
