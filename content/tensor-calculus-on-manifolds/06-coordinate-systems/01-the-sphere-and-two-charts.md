@@ -42,7 +42,7 @@ The two diagrams show the same surface with the same equator (the green great ci
 
 The colored arrows mark the basis-vector directions at a fixed **sample point**
 $$p = \Phi(\theta_0, \varphi_0) \quad\text{with } \theta_0 = \tfrac{13\pi}{32}, \ \varphi_0 = \tfrac{29\pi}{32}.$$
-The yellow arc is along the longitude (the direction of increasing $\theta$ for the chart in question); the blue arc is along the latitude (the direction of increasing $\varphi$). In the standard chart these two arcs meet at $90°$ at every point. In the skew chart they don't — at the sample point the angle between them is visibly less than $90°$. Section [02](02-standard-coordinates.md) and [03](03-skew-coordinates.md) work out the basis vectors explicitly.
+The yellow arc is along the longitude (the direction of increasing $\theta$ for the chart in question); the blue arc is along the latitude (the direction of increasing $\varphi$). In the standard chart these two arcs meet at $90°$ at every point. In the skew chart they don't — at the sample point the angle between them is visibly less than $90°$. Sections [02](02-standard-coordinates.md) and [03](03-skew-coordinates.md) work out the basis vectors explicitly.
 
 ## What the contrast is meant to show
 

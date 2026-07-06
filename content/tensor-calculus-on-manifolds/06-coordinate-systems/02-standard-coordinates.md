@@ -51,8 +51,8 @@ A general covector is $\omega = \omega_\theta\, d\theta + \omega_\varphi\, d\var
 
 In the standard chart, almost everything has a diagonal form:
 
-- The metric (next section) has the diagonal matrix $g = \mathrm{diag}(1, \sin^2\theta)$.
+- The metric ([chapter 8](../08-metric/04-on-the-sphere.md)) has the diagonal matrix $g = \mathrm{diag}(1, \sin^2\theta)$.
 - The basis is orthogonal, so raising and lowering indices is the same as multiplying components by $g_{\mu\mu}$ or $1/g_{\mu\mu}$.
-- The Christoffel symbols (section 5) have only three non-zero entries.
+- The Christoffel symbols ([chapter 9](../09-connection-and-curvature/05-on-the-sphere.md)) have only three non-zero entries.
 
 The next page introduces the skew chart, which has none of these properties. The math is identical; the components are not.

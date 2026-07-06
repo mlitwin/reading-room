@@ -4,7 +4,7 @@ title: Cotangent space and 1-forms
 
 The **cotangent space at $p$** is the [dual](note:dual-space) of the tangent space:
 $$T^*_p M := (T_p M)^*,$$
-the space of linear functionals on $T_p M$. Whatever the tangent space is, its dual is automatically defined; both have dimension $n$, and the duality is symmetric — neither is "primary." But the two are not canonically *identified*: no particular isomorphism $T_p M \to T^*_p M$ is available without extra structure. A metric supplies one — the [musical isomorphisms](note:musical-isomorphism); the [next page](04-metric-at-a-point.md) previews this at a single point, and [Part II](../08-metric/02-raising-and-lowering.md) develops it in full. Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**.
+the space of linear functionals on $T_p M$. Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**. Whatever the tangent space is, its dual is automatically defined; both have dimension $n$, and the duality is symmetric — neither is "primary." But the two are not canonically *identified*: no particular isomorphism $T_p M \to T^*_p M$ is available without extra structure. A metric supplies one — the [musical isomorphisms](note:musical-isomorphism); the [next page](04-metric-at-a-point.md) previews this at a single point, and [Part II](../08-metric/02-raising-and-lowering.md) develops it in full.
 
 ## Dual basis and components
 
@@ -16,7 +16,7 @@ with the $\omega_i$ the **covariant components** of $\omega$ — index down.
 
 **Differential of a function.** For $f \in C^\infty(M)$, the covector
 $$df_p \in T^*_p M, \qquad df_p(v) := v(f)$$
-is the **differential** of $f$ at $p$. In coordinates $df_p = \frac{\partial f}{\partial x^i}(p)\, dx^i|_p$. In the [embedded view](note:embedded-manifold), every covector arises as such a $df_p$ (already from linear $f$, since the tangent plane is finite-dimensional); abstractly, $T^*_p M$ contains all linear functionals whether or not they come from a function on $M$.
+is the **differential** of $f$ at $p$. In coordinates $df_p = \frac{\partial f}{\partial x^i}(p)\, dx^i|_p$. Every covector at $p$ arises as such a $df_p$: in the [embedded view](note:embedded-manifold) already from the restriction of a *linear* function on the ambient $\mathbb{R}^N$; abstractly from a linear combination of coordinate functions in a chart (cut off away from $p$ by a bump function). Differentials of functions don't just live in $T^*_p M$ — pointwise, they fill it.
 
 ## Transformation rule
 

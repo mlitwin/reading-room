@@ -16,6 +16,6 @@ A **smooth atlas** is a collection of pairwise smoothly compatible charts whose 
 
 **Smooth map.** $F: M \to N$ is smooth if its coordinate representation $\psi \circ F \circ \varphi^{-1}$ is $C^\infty$ for every pair of charts where the composition is defined.
 
-**Diffeomorphism.** A smooth map with a smooth inverse. Two manifolds are diffeomorphic iff there's a diffeomorphism between them; this is the equivalence relation for the category.
+**Diffeomorphism.** A smooth map with a smooth inverse. Two manifolds with a diffeomorphism between them are **diffeomorphic** — the notion of "the same smooth manifold," playing the role isomorphism plays for groups or vector spaces.
 
 **Partition of unity.** On any (second-countable, Hausdorff) smooth manifold, given any open cover, a smooth [partition of unity](note:partition-of-unity) subordinate to it exists. This is the lever that turns local constructions into global ones — used constantly for integration, gluing of metrics, extending sections.

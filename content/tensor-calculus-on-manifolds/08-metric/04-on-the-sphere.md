@@ -85,4 +85,4 @@ A general fact: any $2$-manifold admits isothermal (conformally flat) coordinate
 
 The action of $SO(3)$ on $S^2$ preserves the round metric. For a rotation $R: S^2 \to S^2$, the [pullback](note:pullback) satisfies
 $$R^* g = g.$$
-Equivalently, the components of $R^* g$ in the spherical chart equal the components of $g$ in that chart, after the rotation has been worked through the transformation rule. This is the [**isometry**](note:isometry) condition; the connected isometry group of the round sphere is $SO(3)$ (with $O(3)$ if reflections are allowed). [Killing vectors](note:killing-vector) — infinitesimal generators of isometries — make this concrete in the connection section.
+Equivalently, the components of $R^* g$ in the spherical chart equal the components of $g$ in that chart, after the rotation has been worked through the transformation rule. This is the [**isometry**](note:isometry) condition; the connected isometry group of the round sphere is $SO(3)$ (with $O(3)$ if reflections are allowed). [Killing vectors](note:killing-vector) — infinitesimal generators of isometries — made this concrete on the [previous page](03-killing-vectors.md).

@@ -15,7 +15,7 @@ Every exact form is closed; the converse fails in general, and the obstruction i
 
 **Standard counterexample.** On $\mathbb{R}^2 \setminus \{0\}$, the 1-form
 $$\omega = \frac{-y\, dx + x\, dy}{x^2 + y^2}$$
-is closed (check directly that $d\omega = 0$). But it isn't exact: integrating over the unit circle counterclockwise gives $\int_{S^1} \omega = 2\pi$, and a closed-curve integral of an exact form must vanish (by Stokes's theorem on a disk that the closed curve bounds — except no such disk exists in the punctured plane, which is the point).
+is closed (check directly that $d\omega = 0$). But it isn't exact: integrating over the unit circle counterclockwise gives $\int_{S^1} \omega = 2\pi$, and a closed-loop integral of an exact form must vanish — $\int_\gamma df = f(\text{end}) - f(\text{start}) = 0$ when the endpoints coincide. (Had $\omega$ been defined on all of $\mathbb{R}^2$, closedness alone would force $\int_{S^1} \omega = \int_D d\omega = 0$ over the disk the circle bounds; in the punctured plane no such disk exists, which is the point.)
 
 The form $\omega$ is "$d\theta$" in polar coordinates, but $\theta$ isn't a globally defined function on $\mathbb{R}^2 \setminus \{0\}$ — it's a multivalued angle.
 

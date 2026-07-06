@@ -2,7 +2,7 @@
 title: The covariant derivative
 ---
 
-The covariant derivative is the connection extended to all tensor fields, with the components of a Christoffel correction added for every index. This page records the operational rules, the Levi-Civita formula, parallel transport, and geodesics.
+The covariant derivative is the connection extended to all tensor fields, with a Christoffel correction added for every index. This page records the operational rules, the Levi-Civita formula, parallel transport, and geodesics.
 
 ## Components
 

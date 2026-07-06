@@ -15,7 +15,7 @@ The **torsion tensor** of $\nabla$ is the $(1, 2)$-tensor
 $$T(X, Y) := \nabla_X Y - \nabla_Y X - [X, Y].$$
 That this is tensorial (i.e. $C^\infty(M)$-bilinear) is a one-line check from the Leibniz rule and the bracket identity. In components,
 $$T^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\mu\nu} - \Gamma^\rho{}_{\nu\mu},$$
-the antisymmetric part of the Christoffels in their lower indices.
+twice the antisymmetric part $\Gamma^\rho{}_{[\mu\nu]}$ of the Christoffels in their lower indices.
 
 A connection is **torsion-free** iff $T = 0$. Levi-Civita is torsion-free by axiom. In Einstein–Cartan gravity, torsion is allowed and couples to spinning matter.
 

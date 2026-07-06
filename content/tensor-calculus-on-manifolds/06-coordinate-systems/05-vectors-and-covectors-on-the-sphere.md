@@ -45,4 +45,4 @@ In the spherical chart, the dual basis to $\{\partial_\theta, \partial_\varphi\}
 $$\omega(v) = \omega_\theta\, v^\theta + \omega_\varphi\, v^\varphi.$$
 The arithmetic is identical to flat space; what's coordinate-dependent is the basis being paired, not the pairing itself.
 
-A natural covector field is $d(\cos\theta) = -\sin\theta\, d\theta$ — the differential of the $Z$-coordinate function. It pairs with $\partial_\varphi$ to give zero (the $Z$-coordinate is rotation-invariant); with $\partial_\theta$ to give $-\sin\theta$ (the rate of change of $Z$ as $\theta$ increases). All of this is independent of any choice of metric; the next section is where lengths enter.
+A natural covector field is $d(\cos\theta) = -\sin\theta\, d\theta$ — the differential of the $Z$-coordinate function. It pairs with $\partial_\varphi$ to give zero (the $Z$-coordinate is rotation-invariant); with $\partial_\theta$ to give $-\sin\theta$ (the rate of change of $Z$ as $\theta$ increases). All of this is independent of any choice of metric; lengths enter in [chapter 8](../08-metric/index.md).

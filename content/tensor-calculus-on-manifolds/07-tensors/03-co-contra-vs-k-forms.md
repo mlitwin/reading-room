@@ -28,7 +28,7 @@ The position of an index — up for a $T_p M$ slot, down for a $T^*_p M$ slot �
 
 A useful identity that has nothing to do with the metric:
 $$\partial_\mu \otimes dx^\mu = \mathrm{id}_{T_p M},$$
-the identity $(1, 1)$-tensor. Its components are $\delta^\mu_\nu$ (the Kronecker delta), and it transforms to the same Kronecker delta in every chart — the unique tensor with the property that it equals itself under any change of coordinates.
+the identity $(1, 1)$-tensor. Its components are $\delta^\mu_\nu$ (the Kronecker delta), and the transformation law returns the same Kronecker delta in every chart — the rare tensor whose component array never changes under a change of coordinates.
 
 ## $k$-forms: the antisymmetric special case
 

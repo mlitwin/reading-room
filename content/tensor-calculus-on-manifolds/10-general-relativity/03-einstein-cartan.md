@@ -13,7 +13,7 @@ Two independent fields on $M$:
 
 The torsion is
 $$T^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\mu\nu} - \Gamma^\rho{}_{\nu\mu},$$
-the antisymmetric-in-the-lower-pair part of the Christoffels. The connection splits as
+twice the antisymmetric-in-the-lower-pair part of the Christoffels. The connection splits as
 $$\Gamma^\rho{}_{\mu\nu} = \mathring{\Gamma}^\rho{}_{\mu\nu} + K^\rho{}_{\mu\nu},$$
 where $\mathring{\Gamma}$ is the Levi-Civita connection of $g$ and $K$ is the **contortion tensor**, determined by torsion and metric by
 $$K^\rho{}_{\mu\nu} = \tfrac{1}{2} (T^\rho{}_{\mu\nu} + T_{\mu}{}^{\rho}{}_{\nu} + T_{\nu}{}^{\rho}{}_{\mu}).$$
@@ -44,7 +44,7 @@ The Cartan equation is **algebraic** — there are no derivatives of torsion on 
 Where spin density vanishes, Einstein–Cartan reduces exactly to GR — same metric, same predictions, same Schwarzschild solution outside. The differences live inside spinning matter:
 
 - **Spinning fluids and dust.** Macroscopic spin alignment is rare; in cosmological-fluid models EC is effectively GR.
-- **Dense fermionic matter.** Inside a neutron star, fermion spins contribute a non-zero spin density and torsion appears. The leading correction to GR is suppressed by $\sim G \rho \hbar^2 / c^4$ for nuclear density $\rho$ — very small under normal conditions, but potentially relevant at the highest densities (singularity avoidance has been argued for, with caveats).
+- **Dense fermionic matter.** Inside a neutron star, fermion spins contribute a non-zero spin density and torsion appears. Because the Cartan equation is algebraic, the torsion contribution enters the effective Einstein equations as a term *quadratic* in the spin density (each factor carrying an $\hbar$), and it becomes comparable to the ordinary stress–energy only at densities orders of magnitude beyond nuclear — utterly negligible under normal conditions, but potentially relevant at the most extreme ones (singularity avoidance has been argued for, with caveats).
 - **Cosmological singularities.** Some EC models avoid the initial singularity that standard GR predicts, replacing it with a bounce — torsion contributes an effective repulsive term at extreme density.
 
 Beyond these, EC is observationally indistinguishable from GR with current data.

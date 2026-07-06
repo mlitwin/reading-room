@@ -23,5 +23,5 @@ All four are the same statement with different test forms and different identifi
 
 **Consequences.**
 
-- If $\omega$ is closed and $M$ has no boundary, $\int_M \omega$ is a homotopy invariant of $\omega$ (depends only on cohomology class).
+- If $\omega$ is closed and $M$ has no boundary, $\int_M \omega$ depends only on the cohomology class of $\omega$: adding an exact form changes the integral by $\int_M d\eta = 0$.
 - For a compact manifold without boundary, an exact $n$-form integrates to zero. Hence a volume form is never exact on a compact orientable closed manifold — proving that $H^n_{dR}(M) \neq 0$ for such $M$.

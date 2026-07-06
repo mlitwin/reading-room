@@ -14,7 +14,7 @@ Squaring: $J^2 = -\mathrm{id}$. So $J$ is a **complex structure** — a global $
 
 This is a genuine tensor field: a chart change to the stereographic coordinates $(x, y)$ would give different component functions $J^x{}_x$, $J^x{}_y$, etc., but the same intrinsic object. (Computing those components from the transformation rule is an exercise.)
 
-Under contraction of $J$ with itself,
+Contracting the upper index of $J$ against its lower one,
 $$\mathrm{tr}\, J = J^\mu{}_\mu = 0,$$
 the trace vanishes identically; $J$ is traceless. This is invariant: trace of a $(1, 1)$-tensor is a scalar, and zero in one chart is zero in every chart.
 

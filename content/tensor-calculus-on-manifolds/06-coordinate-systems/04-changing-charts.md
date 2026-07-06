@@ -22,8 +22,8 @@ So
 $$\partial_{\tilde\theta} = \partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi, \qquad \partial_{\tilde\varphi} = \partial_\varphi,$$
 matching what the [previous page](03-skew-coordinates.md) derived by differentiating the embedded parametrization.
 
-In matrix form, with column vectors of basis elements:
-$$\begin{pmatrix} \partial_{\tilde\theta} \\ \partial_{\tilde\varphi} \end{pmatrix} = J^{-1} \begin{pmatrix} \partial_\theta \\ \partial_\varphi \end{pmatrix}.$$
+In matrix form, with the basis elements collected in a *row* vector (so that each new basis vector picks up a *column* of the matrix):
+$$\begin{pmatrix} \partial_{\tilde\theta} & \partial_{\tilde\varphi} \end{pmatrix} = \begin{pmatrix} \partial_\theta & \partial_\varphi \end{pmatrix} J^{-1}.$$
 The basis transforms with the **inverse** Jacobian. This is the defining property of a *covariant* index — moving with the basis, opposite to how vector components move.
 
 ![Both bases at the sample point: blue is the standard chart, yellow is the skew chart. ∂θ and ∂θ̃ overlap horizontally; ∂φ̃ visibly leaning compared to ∂φ.](../figures/chart-change-jacobian.svg)

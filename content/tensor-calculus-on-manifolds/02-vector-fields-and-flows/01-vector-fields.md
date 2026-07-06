@@ -16,6 +16,6 @@ $$X(fg) = f \cdot X(g) + g \cdot X(f).$$
 
 Conversely, every $\mathbb{R}$-linear Leibniz [derivation](note:derivation) of $C^\infty(M)$ is a vector field — vector fields and derivations are the same object up to bookkeeping.
 
-**Push-forward of vector fields.** Unlike forms, vector fields generally *cannot* be pushed forward by a smooth map $F: M \to N$ — only by a diffeomorphism. The reason: a smooth map can map two distinct points $p, p' \in M$ to the same point $q \in N$, but $dF_p \cdot X_p$ and $dF_{p'} \cdot X_{p'}$ need not agree.
+**Push-forward of vector fields.** Unlike forms, vector fields generally *cannot* be pushed forward by a smooth map $F: M \to N$ — only by a diffeomorphism. The reason: a smooth map can send two distinct points $p, p' \in M$ to the same point $q \in N$, and $dF_p \cdot X_p$ and $dF_{p'} \cdot X_{p'}$ need not agree; and if $F$ isn't surjective, points outside its image get no vector at all.
 
 **$F$-related vector fields.** Even without push-forward, one can ask whether $X \in \mathfrak{X}(M)$ and $Y \in \mathfrak{X}(N)$ are *$F$-related*, meaning $dF_p \cdot X_p = Y_{F(p)}$ for all $p$. This is the right notion for tracking vector fields through smooth maps.

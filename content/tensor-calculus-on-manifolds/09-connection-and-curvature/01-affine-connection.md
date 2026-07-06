@@ -21,7 +21,7 @@ satisfying:
 - **$C^\infty(M)$-linear in $X$:** $\nabla_{fX + gY} Z = f \nabla_X Z + g \nabla_Y Z$ for $f, g \in C^\infty(M)$.
 - **Leibniz in $Y$:** $\nabla_X (fY) = X(f)\, Y + f\, \nabla_X Y$.
 
-The first axiom makes $\nabla_X Y$ at $p$ depend only on $X_p$ (a tensorial slot); the second is the failure-to-be-tensorial in $Y$ that distinguishes connections from straight $(1, 1)$-tensors. Together they say a connection differentiates vector fields along a direction at a point.
+The first axiom makes $\nabla_X Y$ at $p$ depend only on $X_p$ (a tensorial slot); the second is the failure-to-be-tensorial in $Y$ that distinguishes connections from straight $(1, 2)$-tensors — were $\nabla$ $C^\infty(M)$-linear in $Y$ too, it would be one. Together they say a connection differentiates vector fields along a direction at a point.
 
 ## Christoffel symbols
 
