@@ -12,7 +12,7 @@ Look for a vacuum metric ($R_{\mu\nu} = 0$, $\Lambda = 0$) that is:
 - **Spherically symmetric:** there is an $SO(3)$ acting by [isometries](note:isometry), with orbits two-dimensional spheres.
 
 Adapted coordinates $(t, r, \theta, \varphi)$, with $(\theta, \varphi)$ the angular coordinates on $S^2$ from earlier. The most general such metric is
-$$g = -A(r)\, dt^2 + B(r)\, dr^2 + r^2\, (d\theta^2 + \sin^2\theta\, d\varphi^2)$$
+$$\tens{g} = -A(r)\, dt^2 + B(r)\, dr^2 + r^2\, (d\theta^2 + \sin^2\theta\, d\varphi^2)$$
 for two positive functions $A, B$ of $r$ alone, with $r$ defined so the orbit spheres have area $4\pi r^2$.
 
 ## Solving the equations
@@ -25,7 +25,7 @@ with $M$ a constant of integration. With $G = c = 1$ units, $M$ is the **mass pa
 
 ## The Schwarzschild metric
 
-$$\boxed{\; g = -\left(1 - \frac{2M}{r}\right) dt^2 + \left(1 - \frac{2M}{r}\right)^{-1} dr^2 + r^2\, (d\theta^2 + \sin^2\theta\, d\varphi^2). \;}$$
+$$\boxed{\; \tens{g} = -\left(1 - \frac{2M}{r}\right) dt^2 + \left(1 - \frac{2M}{r}\right)^{-1} dr^2 + r^2\, (d\theta^2 + \sin^2\theta\, d\varphi^2). \;}$$
 
 Two distinguished radii:
 
@@ -49,7 +49,7 @@ $$\tfrac{1}{2} \dot r^2 + V_{\mathrm{eff}}(r) = \tfrac{1}{2} (E^2 - 1), \qquad V
 The three terms — Newtonian gravity, angular-momentum barrier, GR correction — explain the classical tests:
 
 - **Perihelion precession of Mercury** comes from the $-M L^2 / r^3$ term, which makes bound orbits not close on themselves.
-- **Light deflection** comes from the same reduction for null geodesics — normalization $g(\dot\gamma, \dot\gamma) = 0$ in place of $-1$, which drops the $-M/r$ term and puts $\tfrac{1}{2} E^2$ on the right.
+- **Light deflection** comes from the same reduction for null geodesics — normalization $\tens{g}(\dot\gamma, \dot\gamma) = 0$ in place of $-1$, which drops the $-M/r$ term and puts $\tfrac{1}{2} E^2$ on the right.
 - **Gravitational redshift** comes directly from the $g_{tt}$ coefficient: clocks at rest at small $r$ tick slower than clocks at large $r$ by a factor of $\sqrt{1 - 2M/r}$.
 
 These three are the classical tests of GR. The numerical values are textbook.

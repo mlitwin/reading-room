@@ -2,7 +2,7 @@
 title: Connection and curvature
 ---
 
-The metric tells you lengths and angles at a point. To compare vectors at *different* points — to differentiate a vector field, to talk about "the rate of change of $X$ in the direction $Y$" — you need extra structure called a **connection**. The connection is not determined by the metric alone in general; the **[Levi-Civita connection](note:levi-civita)** is the unique one compatible with the metric and torsion-free, and is the connection used in standard GR.
+The metric tells you lengths and angles at a point. To compare vectors at *different* points — to differentiate a vector field, to talk about "the rate of change of $\tens{X}$ in the direction $\tens{Y}$" — you need extra structure called a **connection**. The connection is not determined by the metric alone in general; the **[Levi-Civita connection](note:levi-civita)** is the unique one compatible with the metric and torsion-free, and is the connection used in standard GR.
 
 This chapter:
 

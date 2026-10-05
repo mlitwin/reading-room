@@ -95,11 +95,9 @@ Takeaways:
 - **No URL preservation.** Nothing outside this repo links to the book pages, so chapters and pages may be renamed or moved freely.
 - **Retire `content/classical-mechanics`** entirely once its content is merged. Don't keep a stub piece.
 
-- **Typography: option A** (§5), approved 2026-10-04. Index-free tensors are bold italic (`\boldsymbol`); scalars and components are italic. Recorded on the book's [notation page](../content/tensor-calculus-on-manifolds/00-notation.md). The body text has not yet been converted.
+- **Typography: option A** (§5), approved 2026-10-04. Index-free tensors are bold italic (`\boldsymbol`); scalars and components are italic. Recorded on the book's [notation page](../content/tensor-calculus-on-manifolds/00-notation.md). Applied to the existing chapters 2026-10-04 via the `\tens` macro.
 
-### Proposed (needs sign-off)
-
-- Symbol reassignments: §6. The notation page currently records *present* usage (ℒ_X, K for Killing, T/J in geodesic deviation).
+- **Symbol reassignments (§6)**, approved 2026-10-04 and applied to the existing chapters: £_X (`\Lie`), ξ for Killing fields, u / S in geodesic deviation, Tor(X, Y), len(γ). J_ξ (Noether charge) and A, B particle labels apply when the mechanics material is merged.
 
 ## 5. Typography: making the two registers look distinct
 

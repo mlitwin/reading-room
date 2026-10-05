@@ -19,8 +19,8 @@ $$\begin{aligned}
 \end{aligned}$$
 These are vectors in $\mathbb{R}^3$, automatically tangent to the sphere at $p$. Their lengths are $|\partial_\theta| = 1$ and $|\partial_\varphi| = \sin\theta$ — not unit vectors. This non-trivial length is a coordinate artifact; the same basis from the **abstract view** is just $\partial/\partial \theta$ and $\partial/\partial \varphi$ acting on functions $f(\theta, \varphi)$, with no notion of length until the metric arrives.
 
-A tangent vector at $p$ is $v = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi$. The contravariant components $(v^\theta, v^\varphi)$ depend on the chart; in the embedded view, the *Euclidean* components in $\mathbb{R}^3$ are
-$$v_{\mathrm{euc}} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi \in \mathbb{R}^3,$$
+A tangent vector at $p$ is $\tens{v} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi$. The contravariant components $(v^\theta, v^\varphi)$ depend on the chart; in the embedded view, the *Euclidean* components in $\mathbb{R}^3$ are
+$$\tens{v}_{\mathrm{euc}} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi \in \mathbb{R}^3,$$
 read off the formulas above. The two representations carry the same information but live in different vector spaces.
 
 ## Stereographic chart
@@ -41,8 +41,8 @@ the familiar rotation field in the plane. The *same* vector field has *different
 
 ## Cotangent at a point
 
-In the spherical chart, the dual basis to $\{\partial_\theta, \partial_\varphi\}$ is $\{d\theta, d\varphi\}$, with $d\theta(\partial_\theta) = 1$, $d\theta(\partial_\varphi) = 0$, and so on. A covector $\omega = \omega_\theta\, d\theta + \omega_\varphi\, d\varphi$ pairs with $v = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi$ as
-$$\omega(v) = \omega_\theta\, v^\theta + \omega_\varphi\, v^\varphi.$$
+In the spherical chart, the dual basis to $\{\partial_\theta, \partial_\varphi\}$ is $\{d\theta, d\varphi\}$, with $d\theta(\partial_\theta) = 1$, $d\theta(\partial_\varphi) = 0$, and so on. A covector $\tens{\omega} = \omega_\theta\, d\theta + \omega_\varphi\, d\varphi$ pairs with $\tens{v} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi$ as
+$$\tens{\omega}(\tens{v}) = \omega_\theta\, v^\theta + \omega_\varphi\, v^\varphi.$$
 The arithmetic is identical to flat space; what's coordinate-dependent is the basis being paired, not the pairing itself.
 
 A natural covector field is $d(\cos\theta) = -\sin\theta\, d\theta$ — the differential of the $Z$-coordinate function. It pairs with $\partial_\varphi$ to give zero (the $Z$-coordinate is rotation-invariant); with $\partial_\theta$ to give $-\sin\theta$ (the rate of change of $Z$ as $\theta$ increases). All of this is independent of any choice of metric; lengths enter in [chapter 8](../08-metric/index.md).

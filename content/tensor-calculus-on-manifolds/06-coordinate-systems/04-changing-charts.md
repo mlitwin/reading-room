@@ -30,13 +30,13 @@ The basis transforms with the **inverse** Jacobian. This is the defining propert
 
 ## Components transform with $J$
 
-A tangent vector $v$ has components $v^\mu$ in the standard chart and $\tilde v^{\tilde\mu}$ in the skew chart. The intrinsic identity
-$$v = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi = \tilde v^{\tilde\theta}\, \partial_{\tilde\theta} + \tilde v^{\tilde\varphi}\, \partial_{\tilde\varphi}$$
+A tangent vector $\tens{v}$ has components $v^\mu$ in the standard chart and $\tilde v^{\tilde\mu}$ in the skew chart. The intrinsic identity
+$$\tens{v} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi = \tilde v^{\tilde\theta}\, \partial_{\tilde\theta} + \tilde v^{\tilde\varphi}\, \partial_{\tilde\varphi}$$
 combined with the basis transformation above gives
 $$\tilde v^{\tilde\theta} = v^\theta, \qquad \tilde v^{\tilde\varphi} = v^\varphi - \alpha\sin\theta\, v^\theta,$$
 or in matrix form $\tilde v = J v$. Vector components transform with $J$, opposite to the basis — this is the *contravariant* transformation rule, and the reason vector indices are written **up**.
 
-A [covector](note:cotangent-space) $\omega$ pairs against $v$ to give a chart-independent number $\omega(v) = \omega_\mu v^\mu$. For that pairing to be invariant under chart change, the covector components must transform with $J^{-1}$:
+A [covector](note:cotangent-space) $\tens{\omega}$ pairs against $\tens{v}$ to give a chart-independent number $\tens{\omega}(\tens{v}) = \omega_\mu v^\mu$. For that pairing to be invariant under chart change, the covector components must transform with $J^{-1}$:
 $$\tilde \omega_{\tilde\theta} = \omega_\theta + \alpha\sin\theta\, \omega_\varphi, \qquad \tilde \omega_{\tilde\varphi} = \omega_\varphi.$$
 This is the covariant rule — index down.
 
@@ -48,15 +48,15 @@ In the skew chart, applying the transformation rule:
 $$\tilde \omega_{\tilde\theta} = -\sin\tilde\theta + \alpha\sin\tilde\theta \cdot 0 = -\sin\tilde\theta, \qquad \tilde \omega_{\tilde\varphi} = 0.$$
 Same components — because $\tilde\theta = \theta$ and $f$ depends only on $\theta$. Sanity check.
 
-Now take the vector $v = \partial_\varphi$ (rotation around the $Z$-axis). Its standard components are $(v^\theta, v^\varphi) = (0, 1)$. Skew components:
+Now take the vector $\tens{v} = \partial_\varphi$ (rotation around the $Z$-axis). Its standard components are $(v^\theta, v^\varphi) = (0, 1)$. Skew components:
 $$\tilde v^{\tilde\theta} = 0, \qquad \tilde v^{\tilde\varphi} = 1 - \alpha\sin\theta \cdot 0 = 1.$$
 Identical again, because $\partial_\varphi = \partial_{\tilde\varphi}$ in our shear.
 
-For a less trivial example, take $w = \partial_\theta$ (motion along a meridian). Standard components $(1, 0)$, skew components
+For a less trivial example, take $\tens{w} = \partial_\theta$ (motion along a meridian). Standard components $(1, 0)$, skew components
 $$\tilde w^{\tilde\theta} = 1, \qquad \tilde w^{\tilde\varphi} = 0 - \alpha\sin\theta \cdot 1 = -\alpha\sin\theta.$$
-Now the skew chart sees a non-zero $\tilde\varphi$-component. Yet the pairing $df(w)$ is the same in both:
-$$df(w) = \omega_\theta w^\theta + \omega_\varphi w^\varphi = (-\sin\theta)(1) + 0 = -\sin\theta,$$
-$$df(w) = \tilde\omega_{\tilde\theta} \tilde w^{\tilde\theta} + \tilde\omega_{\tilde\varphi} \tilde w^{\tilde\varphi} = (-\sin\tilde\theta)(1) + 0 \cdot (-\alpha\sin\tilde\theta) = -\sin\tilde\theta.$$
+Now the skew chart sees a non-zero $\tilde\varphi$-component. Yet the pairing $df(\tens{w})$ is the same in both:
+$$df(\tens{w}) = \omega_\theta w^\theta + \omega_\varphi w^\varphi = (-\sin\theta)(1) + 0 = -\sin\theta,$$
+$$df(\tens{w}) = \tilde\omega_{\tilde\theta} \tilde w^{\tilde\theta} + \tilde\omega_{\tilde\varphi} \tilde w^{\tilde\varphi} = (-\sin\tilde\theta)(1) + 0 \cdot (-\alpha\sin\tilde\theta) = -\sin\tilde\theta.$$
 The components changed; the number didn't.
 
 ## What's intrinsic, what's not
@@ -65,11 +65,11 @@ A summary of which quantities are intrinsic (chart-independent) and which depend
 
 | Quantity | Intrinsic? |
 |---|---|
-| The vector $v \in T_p M$ | Yes |
-| The covector $\omega \in T^*_p M$ | Yes |
+| The vector $\tens{v} \in T_p M$ | Yes |
+| The covector $\tens{\omega} \in T^*_p M$ | Yes |
 | Components $v^\mu$ | **No** — chart-dependent |
 | Components $\omega_\mu$ | **No** — chart-dependent |
-| Pairing $\omega(v) = \omega_\mu v^\mu$ | Yes |
+| Pairing $\tens{\omega}(\tens{v}) = \omega_\mu v^\mu$ | Yes |
 | Coordinate basis $\partial_\mu$ at a point | **No** — chart-dependent |
 | Dual coordinate basis $dx^\mu$ at a point | **No** — chart-dependent |
 | Lengths, angles (when a metric is fixed) | Yes |

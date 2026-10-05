@@ -40,12 +40,12 @@ The horizontal axis represents $\partial_\theta$ direction (unit length); the ve
 ## In coordinate basis
 
 A general tangent vector at $p$ is
-$$v = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi,$$
+$$\tens{v} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi,$$
 with components $(v^\theta, v^\varphi) \in \mathbb{R}^2$. The components depend on the chart; the vector itself does not.
 
 The chart-coordinate functions on $S^2$ are the smooth real-valued functions $\theta(p) = \arccos Z$ and $\varphi(p) = \operatorname{atan2}(Y, X)$ (taken in $(0, 2\pi)$), both defined on the chart's domain. Their differentials $d\theta, d\varphi$ are the **[dual basis](note:cotangent-space)**:
 $$d\theta(\partial_\theta) = 1, \quad d\theta(\partial_\varphi) = 0, \quad d\varphi(\partial_\theta) = 0, \quad d\varphi(\partial_\varphi) = 1.$$
-A general covector is $\omega = \omega_\theta\, d\theta + \omega_\varphi\, d\varphi$ and the pairing with $v$ is $\omega(v) = \omega_\theta\, v^\theta + \omega_\varphi\, v^\varphi$ — just multiply matched components and sum.
+A general covector is $\tens{\omega} = \omega_\theta\, d\theta + \omega_\varphi\, d\varphi$ and the pairing with $\tens{v}$ is $\tens{\omega}(\tens{v}) = \omega_\theta\, v^\theta + \omega_\varphi\, v^\varphi$ — just multiply matched components and sum.
 
 ## Why this chart is the "easy" one
 

@@ -7,10 +7,10 @@ The metric and its inverse provide a canonical isomorphism between $T_p M$ and $
 ## The musical isomorphisms
 
 Define $\flat: T_p M \to T^*_p M$ (*flat*, lowering) and $\sharp: T^*_p M \to T_p M$ (*sharp*, raising) by
-$$v^\flat(w) := g(v, w), \qquad g(\omega^\sharp, w) := \omega(w).$$
+$$\tens{v}^\flat(\tens{w}) := \tens{g}(\tens{v}, \tens{w}), \qquad \tens{g}(\tens{\omega}^\sharp, \tens{w}) := \tens{\omega}(\tens{w}).$$
 In components,
 $$v_\mu = g_{\mu\nu}\, v^\nu, \qquad \omega^\mu = g^{\mu\nu}\, \omega_\nu.$$
-The two maps are mutual inverses: $(v^\flat)^\sharp = v$ and $(\omega^\sharp)^\flat = \omega$.
+The two maps are mutual inverses: $(\tens{v}^\flat)^\sharp = \tens{v}$ and $(\tens{\omega}^\sharp)^\flat = \tens{\omega}$.
 
 The standard example of what $\sharp$ buys: the differential $df$ of a function is defined on any smooth manifold, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ requires the metric. In Cartesian coordinates on $\mathbb{R}^n$ the two have identical components — which is why vector calculus never needs the distinction; in any chart with $g_{\mu\nu} \neq \delta_{\mu\nu}$ (polar coordinates already) they differ.
 
@@ -31,9 +31,9 @@ The last is the trace of $\mathrm{id}_{T_p M}$ and is a constant scalar. In Lore
 ## Trace of a $(1, 1)$-tensor
 
 For a $(1, 1)$-tensor $T^\mu{}_\nu$ — equivalently a linear endomorphism of $T_p M$ — the **trace** is the [contraction](note:contraction)
-$$\mathrm{tr}\, T := T^\mu{}_\mu.$$
+$$\mathrm{tr}\, \tens{T} := T^\mu{}_\mu.$$
 No metric needed. For a $(0, 2)$-tensor $T_{\mu\nu}$, the trace requires raising one index:
-$$\mathrm{tr}_g T := g^{\mu\nu}\, T_{\mu\nu} = T^\mu{}_\mu.$$
+$$\mathrm{tr}_g \tens{T} := g^{\mu\nu}\, T_{\mu\nu} = T^\mu{}_\mu.$$
 This is the **metric trace**. The metric trace of the metric is $n$ (above); the metric trace of the [Ricci tensor](note:ricci-and-einstein-tensors) will give the scalar curvature, far down the road.
 
 ## The volume form
@@ -56,6 +56,6 @@ A metric and orientation define the **Hodge star** $\star: \Omega^k(M) \to \Omeg
 $$\star (dx^{\mu_1} \wedge \cdots \wedge dx^{\mu_k}) = \frac{\sqrt{|\det g|}}{(n-k)!}\, g^{\mu_1 \nu_1} \cdots g^{\mu_k \nu_k}\, \varepsilon_{\nu_1 \cdots \nu_k \rho_1 \cdots \rho_{n-k}}\, dx^{\rho_1} \wedge \cdots \wedge dx^{\rho_{n-k}},$$
 with $\varepsilon$ the [Levi-Civita symbol](note:levi-civita) (totally antisymmetric, $\varepsilon_{1 \cdots n} = 1$).
 
-The star squares to $\pm \mathrm{id}$ on $k$-forms with a sign depending on $k$, $n$, and signature. In four-dimensional Lorentzian spacetime, $\star^2 = -\mathrm{id}$ on $2$-forms — a fact used in the dual formulation of electromagnetism (where $\star F$ exchanges the electric and magnetic fields in $F$).
+The star squares to $\pm \mathrm{id}$ on $k$-forms with a sign depending on $k$, $n$, and signature. In four-dimensional Lorentzian spacetime, $\star^2 = -\mathrm{id}$ on $2$-forms — a fact used in the dual formulation of electromagnetism (where $\star \tens{F}$ exchanges the electric and magnetic fields in $\tens{F}$).
 
 The full Hodge-star machinery is not used in this book past the volume form, but it's worth knowing the name.

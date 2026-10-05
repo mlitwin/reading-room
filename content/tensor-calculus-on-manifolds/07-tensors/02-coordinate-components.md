@@ -24,12 +24,12 @@ A **free index** appears once on each side of an equation, at the same vertical 
 
 The operations on tensors all have one-line component expressions.
 
-- **Tensor product:** $(S \otimes T)^{\mu_1 \cdots \mu_{r_1+r_2}}{}_{\nu_1 \cdots \nu_{s_1+s_2}} = S^{\mu_1 \cdots \mu_{r_1}}{}_{\nu_1 \cdots \nu_{s_1}}\; T^{\mu_{r_1+1} \cdots}{}_{\nu_{s_1+1} \cdots}$.
+- **Tensor product:** $(\tens{S} \otimes \tens{T})^{\mu_1 \cdots \mu_{r_1+r_2}}{}_{\nu_1 \cdots \nu_{s_1+s_2}} = S^{\mu_1 \cdots \mu_{r_1}}{}_{\nu_1 \cdots \nu_{s_1}}\; T^{\mu_{r_1+1} \cdots}{}_{\nu_{s_1+1} \cdots}$.
 - **Contraction** of the $k$-th upper with the $\ell$-th lower index: set them equal and sum.
 - **Symmetrization:** $T_{(\mu\nu)} := \tfrac{1}{2}(T_{\mu\nu} + T_{\nu\mu})$; for $k$ indices, average over all permutations.
 - **Antisymmetrization:** $T_{[\mu\nu]} := \tfrac{1}{2}(T_{\mu\nu} - T_{\nu\mu})$; for $k$ indices, sign-weighted average.
 
-Symmetric and antisymmetric parts are themselves tensors and add to the original when $T$ has only two indices: $T_{\mu\nu} = T_{(\mu\nu)} + T_{[\mu\nu]}$.
+Symmetric and antisymmetric parts are themselves tensors and add to the original when $\tens{T}$ has only two indices: $T_{\mu\nu} = T_{(\mu\nu)} + T_{[\mu\nu]}$.
 
 ## The "transforms like a tensor" diagnostic
 

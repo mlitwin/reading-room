@@ -7,10 +7,10 @@ $$H^k_{dR}(U) = 0 \quad \text{for all } k \geq 1.$$
 
 Equivalently: on a contractible manifold, every closed form of positive degree is exact.
 
-**Explicit primitive.** If $U \subseteq \mathbb{R}^n$ is star-shaped about the origin and $\omega \in \Omega^k(U)$ is closed with $k \geq 1$, then $\omega = d(h\omega)$, where the **cone operator** $h: \Omega^k(U) \to \Omega^{k-1}(U)$ is
-$$(h\omega)_x(v_1, \ldots, v_{k-1}) := \int_0^1 t^{k-1}\, \omega_{tx}(x, v_1, \ldots, v_{k-1})\, dt.$$
+**Explicit primitive.** If $U \subseteq \mathbb{R}^n$ is star-shaped about the origin and $\tens{\omega} \in \Omega^k(U)$ is closed with $k \geq 1$, then $\tens{\omega} = d(h\tens{\omega})$, where the **cone operator** $h: \Omega^k(U) \to \Omega^{k-1}(U)$ is
+$$(h\tens{\omega})_x(\tens{v}_1, \ldots, \tens{v}_{k-1}) := \int_0^1 t^{k-1}\, \tens{\omega}_{tx}(x, \tens{v}_1, \ldots, \tens{v}_{k-1})\, dt.$$
 
-The identity $h \circ d + d \circ h = \mathrm{id}$ on $\Omega^k(U)$, $k \geq 1$ (a *chain homotopy* between the identity and zero), is what produces the primitive when $\omega$ is closed.
+The identity $h \circ d + d \circ h = \mathrm{id}$ on $\Omega^k(U)$, $k \geq 1$ (a *chain homotopy* between the identity and zero), is what produces the primitive when $\tens{\omega}$ is closed.
 
 **Consequence: locally, closed ⇔ exact.** Every closed form has a local primitive in some neighborhood of every point. So the cohomology
 $$H^k_{dR}(M)$$

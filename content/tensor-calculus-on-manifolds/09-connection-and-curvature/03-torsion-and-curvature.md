@@ -2,35 +2,35 @@
 title: Torsion and curvature
 ---
 
-Out of any [connection](note:affine-connection) $\nabla$ come two tensor fields: the **torsion** $T$ and the **Riemann curvature** $R$. Both are obstructions to "$\nabla$ behaves like the partial derivative":
+Out of any [connection](note:affine-connection) $\nabla$ come two tensor fields: the **torsion** $\Tor$ and the **Riemann curvature** $\tens{R}$. Both are obstructions to "$\nabla$ behaves like the partial derivative":
 
-- $T = 0$ means the antisymmetrized covariant derivative reproduces the Lie bracket, $\nabla_X Y - \nabla_Y X = [X, Y]$, as partial derivatives do in flat space.
-- $R = 0$ means iterated covariant derivatives commute, $\nabla_X \nabla_Y - \nabla_Y \nabla_X - \nabla_{[X, Y]} = 0$.
+- $\Tor = 0$ means the antisymmetrized covariant derivative reproduces the Lie bracket, $\nabla_{\tens{X}} \tens{Y} - \nabla_{\tens{Y}} \tens{X} = [\tens{X}, \tens{Y}]$, as partial derivatives do in flat space.
+- $\tens{R} = 0$ means iterated covariant derivatives commute, $\nabla_{\tens{X}} \nabla_{\tens{Y}} - \nabla_{\tens{Y}} \nabla_{\tens{X}} - \nabla_{[\tens{X}, \tens{Y}]} = 0$.
 
 Both are defined for any affine connection; together they characterize the connection's local non-triviality.
 
 ## Torsion
 
 The **torsion tensor** of $\nabla$ is the $(1, 2)$-tensor
-$$T(X, Y) := \nabla_X Y - \nabla_Y X - [X, Y].$$
+$$\Tor(\tens{X}, \tens{Y}) := \nabla_{\tens{X}} \tens{Y} - \nabla_{\tens{Y}} \tens{X} - [\tens{X}, \tens{Y}].$$
 That this is tensorial (i.e. $C^\infty(M)$-bilinear) is a one-line check from the Leibniz rule and the [bracket identity](note:lie-bracket). In components,
 $$T^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\mu\nu} - \Gamma^\rho{}_{\nu\mu},$$
 twice the antisymmetric part $\Gamma^\rho{}_{[\mu\nu]}$ of the Christoffels in their lower indices.
 
-A connection is **torsion-free** iff $T = 0$. Levi-Civita is torsion-free by axiom. In Einstein–Cartan gravity, torsion is allowed and couples to spinning matter.
+A connection is **torsion-free** iff $\Tor = 0$. Levi-Civita is torsion-free by axiom. In Einstein–Cartan gravity, torsion is allowed and couples to spinning matter.
 
-**Geometric picture.** Take two infinitesimal vectors $u, v$ at $p$; transport $u$ along $v$ and $v$ along $u$ to form a small "parallelogram." With torsion, the parallelogram doesn't close — the two endpoints differ by a $T(u, v)$ correction. Without torsion, the parallelogram closes. (Curvature is a different defect: it's about how vectors *rotate* when transported around a closed loop, not whether parallelograms close.)
+**Geometric picture.** Take two infinitesimal vectors $\tens{u}, \tens{v}$ at $p$; transport $\tens{u}$ along $\tens{v}$ and $\tens{v}$ along $\tens{u}$ to form a small "parallelogram." With torsion, the parallelogram doesn't close — the two endpoints differ by a $\Tor(\tens{u}, \tens{v})$ correction. Without torsion, the parallelogram closes. (Curvature is a different defect: it's about how vectors *rotate* when transported around a closed loop, not whether parallelograms close.)
 
 ## Riemann curvature
 
 The **Riemann curvature tensor** of $\nabla$ is the $(1, 3)$-tensor
-$$R(X, Y) Z := \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z.$$
+$$\tens{R}(\tens{X}, \tens{Y}) \tens{Z} := \nabla_{\tens{X}} \nabla_{\tens{Y}} \tens{Z} - \nabla_{\tens{Y}} \nabla_{\tens{X}} \tens{Z} - \nabla_{[\tens{X}, \tens{Y}]} \tens{Z}.$$
 In components,
 $$R^\rho{}_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho{}_{\nu\sigma} - \partial_\nu \Gamma^\rho{}_{\mu\sigma} + \Gamma^\rho{}_{\mu\lambda}\, \Gamma^\lambda{}_{\nu\sigma} - \Gamma^\rho{}_{\nu\lambda}\, \Gamma^\lambda{}_{\mu\sigma}.$$
 Index conventions vary; the placement here — that of Misner–Thorne–Wheeler and Carroll — puts the output index $\rho$ up, the index $\sigma$ of the vector being transported next, and the two antisymmetrized loop directions $\mu, \nu$ last. Other texts (Wald, for one) permute the slots or differ by an overall sign.
 
-**Geometric picture.** [Parallel-transport](note:parallel-transport) $Z \in T_p M$ around the small parallelogram at $p$ with sides $\varepsilon u, \varepsilon v$, traversed first along $u$, then $v$. The returned vector $Z'$ differs from $Z$ by
-$$Z' - Z = -\varepsilon^2\, R(u, v) Z + O(\varepsilon^3).$$
+**Geometric picture.** [Parallel-transport](note:parallel-transport) $\tens{Z} \in T_p M$ around the small parallelogram at $p$ with sides $\varepsilon \tens{u}, \varepsilon \tens{v}$, traversed first along $\tens{u}$, then $\tens{v}$. The returned vector $\tens{Z}'$ differs from $\tens{Z}$ by
+$$\tens{Z}' - \tens{Z} = -\varepsilon^2\, \tens{R}(\tens{u}, \tens{v}) \tens{Z} + O(\varepsilon^3).$$
 The Riemann tensor measures the leading-order failure of parallel-transport around a loop to return a vector to itself.
 
 ## Symmetries (Levi-Civita)
@@ -66,8 +66,8 @@ The tensor $G_{\mu\nu}$ is the **Einstein tensor**, and its automatic divergence
 
 ## Sectional curvature (Riemannian only)
 
-For a $2$-plane $\Pi \subseteq T_p M$ spanned by $u, v$, the **sectional curvature** is
-$$K(u, v) := \frac{g\bigl(R(u, v)\, v,\; u\bigr)}{g(u, u)\, g(v, v) - g(u, v)^2},$$
+For a $2$-plane $\Pi \subseteq T_p M$ spanned by $\tens{u}, \tens{v}$, the **sectional curvature** is
+$$K(\tens{u}, \tens{v}) := \frac{\tens{g}\bigl(\tens{R}(\tens{u}, \tens{v})\, \tens{v},\; \tens{u}\bigr)}{\tens{g}(\tens{u}, \tens{u})\, \tens{g}(\tens{v}, \tens{v}) - \tens{g}(\tens{u}, \tens{v})^2},$$
 a scalar depending only on $\Pi$, not on the basis. In dimension $2$, there's only one plane in each tangent space, and $K$ is the **Gaussian curvature**. The sphere of radius $a$ has $K = 1/a^2$ everywhere.
 
 In Lorentzian signature, sectional curvature has the same definition but the denominator can vanish or change sign, so it's less useful as a global classifier; the Ricci and scalar curvatures are the natural Lorentzian quantities.

@@ -2,11 +2,11 @@
 title: On the sphere
 ---
 
-The Levi-Civita connection of the round metric, the [Riemann tensor](note:riemann-tensor), and Gaussian curvature on $S^2$ — all worked out from $g = d\theta^2 + \sin^2\theta\, d\varphi^2$.
+The Levi-Civita connection of the round metric, the [Riemann tensor](note:riemann-tensor), and Gaussian curvature on $S^2$ — all worked out from $\tens{g} = d\theta^2 + \sin^2\theta\, d\varphi^2$.
 
 ## Christoffel symbols
 
-Plug into the [Christoffel formula](note:covariant-derivative). The non-trivial pieces of $g$ are $g_{\theta\theta} = 1$, $g_{\varphi\varphi} = \sin^2\theta$, with $g^{\theta\theta} = 1$, $g^{\varphi\varphi} = 1/\sin^2\theta$, and only one non-zero partial derivative: $\partial_\theta g_{\varphi\varphi} = 2 \sin\theta \cos\theta$.
+Plug into the [Christoffel formula](note:covariant-derivative). The non-trivial pieces of $\tens{g}$ are $g_{\theta\theta} = 1$, $g_{\varphi\varphi} = \sin^2\theta$, with $g^{\theta\theta} = 1$, $g^{\varphi\varphi} = 1/\sin^2\theta$, and only one non-zero partial derivative: $\partial_\theta g_{\varphi\varphi} = 2 \sin\theta \cos\theta$.
 
 Running through the formula:
 

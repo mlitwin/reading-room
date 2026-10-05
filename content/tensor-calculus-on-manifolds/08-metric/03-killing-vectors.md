@@ -7,16 +7,16 @@ The symmetries of a metric, made infinitesimal. This page uses the [Lie derivati
 ## Isometries
 
 A diffeomorphism $F: M \to M$ with
-$$F^* g = g$$
-is an **isometry** — it preserves every length and angle the metric defines. The isometries of $(M, g)$ form a group. For the round sphere it is $O(3)$, with connected part $SO(3)$; for [Minkowski space](note:minkowski-space), the Poincaré group.
+$$F^* \tens{g} = \tens{g}$$
+is an **isometry** — it preserves every length and angle the metric defines. The isometries of $(M, \tens{g})$ form a group. For the round sphere it is $O(3)$, with connected part $SO(3)$; for [Minkowski space](note:minkowski-space), the Poincaré group.
 
 ## Killing fields
 
-A vector field $K \in \mathfrak{X}(M)$ is a **Killing vector field** if its [flow](note:flow) preserves the metric:
-$$\mathcal{L}_K g = 0.$$
+A vector field $\tens{\xi} \in \mathfrak{X}(M)$ is a **Killing vector field** if its [flow](note:flow) preserves the metric:
+$$\Lie_{\tens{\xi}} \tens{g} = 0.$$
 The flow of a Killing field is a one-parameter family of isometries — a continuous symmetry of the geometry. For the Levi-Civita connection this is equivalent to the **Killing equation**
-$$\nabla_\mu K_\nu + \nabla_\nu K_\mu = 0$$
-(with $\nabla$ the [covariant derivative](note:covariant-derivative) of [chapter 9](../09-connection-and-curvature/02-covariant-derivative.md); $\nabla K$ is antisymmetric).
+$$\nabla_\mu \xi_\nu + \nabla_\nu \xi_\mu = 0$$
+(with $\nabla$ the [covariant derivative](note:covariant-derivative) of [chapter 9](../09-connection-and-curvature/02-covariant-derivative.md); $\nabla \tens{\xi}$ is antisymmetric).
 
 **Coordinate shortcut.** If every component $g_{\mu\nu}$ is independent of some coordinate $x^k$, then $\partial_k$ is Killing — "the metric doesn't change along $x^k$." Most Killing fields met in practice are found this way.
 
@@ -24,17 +24,17 @@ Killing fields are closed under the [Lie bracket](note:lie-bracket), so they for
 
 ## Conserved quantities along geodesics
 
-For any [geodesic](note:geodesic) $\gamma$ and any Killing field $K$, the pairing $K_\mu \dot\gamma^\mu$ is constant along $\gamma$:
-$$\frac{d}{d\lambda}\bigl(K_\mu \dot\gamma^\mu\bigr) = (\nabla_\nu K_\mu)\, \dot\gamma^\nu \dot\gamma^\mu + K_\mu\, (\nabla_{\dot\gamma}\dot\gamma)^\mu = 0,$$
-the first term vanishing because $\nabla K$ is antisymmetric against the symmetric $\dot\gamma^\nu \dot\gamma^\mu$, the second by the geodesic equation. One Killing field, one conserved quantity of free-fall motion.
+For any [geodesic](note:geodesic) $\gamma$ and any Killing field $\tens{\xi}$, the pairing $\xi_\mu \dot\gamma^\mu$ is constant along $\gamma$:
+$$\frac{d}{d\lambda}\bigl(\xi_\mu \dot\gamma^\mu\bigr) = (\nabla_\nu \xi_\mu)\, \dot\gamma^\nu \dot\gamma^\mu + \xi_\mu\, (\nabla_{\dot\gamma}\dot\gamma)^\mu = 0,$$
+the first term vanishing because $\nabla \tens{\xi}$ is antisymmetric against the symmetric $\dot\gamma^\nu \dot\gamma^\mu$, the second by the geodesic equation. One Killing field, one conserved quantity of free-fall motion.
 
-This is the geodesic instance of Noether's theorem (the [`classical-mechanics`](../../classical-mechanics/04-noether/01-noethers-theorem.md) review has the general statement): a Killing vector is a continuous symmetry of the geodesic action $\int g_{\mu\nu}\, \dot x^\mu \dot x^\nu\, d\lambda$, and $K_\mu \dot\gamma^\mu$ is its Noether charge.
+This is the geodesic instance of Noether's theorem (the [`classical-mechanics`](../../classical-mechanics/04-noether/01-noethers-theorem.md) review has the general statement): a Killing vector is a continuous symmetry of the geodesic action $\int g_{\mu\nu}\, \dot x^\mu \dot x^\nu\, d\lambda$, and $\xi_\mu \dot\gamma^\mu$ is its Noether charge.
 
 ## On the sphere
 
-The round metric $g = d\theta^2 + \sin^2\theta\, d\varphi^2$ has no $\varphi$-dependence, so $\partial_\varphi$ is Killing — rotation about the $Z$-axis. The full Killing algebra is three-dimensional, $\mathfrak{so}(3)$, one field per rotation axis:
-$$K_Z = \partial_\varphi, \qquad K_X = -\sin\varphi\, \partial_\theta - \cot\theta\cos\varphi\, \partial_\varphi, \qquad K_Y = \cos\varphi\, \partial_\theta - \cot\theta\sin\varphi\, \partial_\varphi.$$
-Three is the maximum $\tfrac{1}{2}n(n+1) = 3$ for $n = 2$: the round sphere is maximally symmetric. Only $K_Z$ is visible as a coordinate symmetry of the standard chart; the other two mix $\theta$ and $\varphi$, which is the usual situation — a chart adapts to at most a few of the symmetries at once.
+The round metric $\tens{g} = d\theta^2 + \sin^2\theta\, d\varphi^2$ has no $\varphi$-dependence, so $\partial_\varphi$ is Killing — rotation about the $Z$-axis. The full Killing algebra is three-dimensional, $\mathfrak{so}(3)$, one field per rotation axis:
+$$\tens{\xi}_Z = \partial_\varphi, \qquad \tens{\xi}_X = -\sin\varphi\, \partial_\theta - \cot\theta\cos\varphi\, \partial_\varphi, \qquad \tens{\xi}_Y = \cos\varphi\, \partial_\theta - \cot\theta\sin\varphi\, \partial_\varphi.$$
+Three is the maximum $\tfrac{1}{2}n(n+1) = 3$ for $n = 2$: the round sphere is maximally symmetric. Only $\tens{\xi}_Z$ is visible as a coordinate symmetry of the standard chart; the other two mix $\theta$ and $\varphi$, which is the usual situation — a chart adapts to at most a few of the symmetries at once.
 
 ## Toward Schwarzschild
 
