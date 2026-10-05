@@ -1468,6 +1468,33 @@
         "html_path": "tensor-calculus-on-manifolds/natural-systems/covariant-newton.html"
       },
       "next": {
+        "title": "The rigid body",
+        "html_path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html"
+      }
+    },
+    {
+      "slug": "rigid-body",
+      "title": "The rigid body",
+      "html_path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Natural systems",
+          "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Symmetry and the sphere",
+        "html_path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html"
+      },
+      "next": {
         "title": "Special relativity",
         "html_path": "tensor-calculus-on-manifolds/special-relativity/index.html"
       }
@@ -1487,8 +1514,8 @@
         }
       ],
       "prev": {
-        "title": "Symmetry and the sphere",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html"
+        "title": "The rigid body",
+        "html_path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html"
       },
       "next": {
         "title": "Minkowski spacetime",
@@ -1753,6 +1780,33 @@
         "html_path": "tensor-calculus-on-manifolds/general-relativity/einstein-cartan.html"
       },
       "next": {
+        "title": "Newton–Cartan gravity",
+        "html_path": "tensor-calculus-on-manifolds/general-relativity/newton-cartan.html"
+      }
+    },
+    {
+      "slug": "newton-cartan",
+      "title": "Newton–Cartan gravity",
+      "html_path": "tensor-calculus-on-manifolds/general-relativity/newton-cartan.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "General relativity",
+          "html_path": "tensor-calculus-on-manifolds/general-relativity/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Newtonian limit",
+        "html_path": "tensor-calculus-on-manifolds/general-relativity/newtonian-limit.html"
+      },
+      "next": {
         "title": "Notes",
         "html_path": "tensor-calculus-on-manifolds/notes.html"
       }
@@ -1772,8 +1826,8 @@
         }
       ],
       "prev": {
-        "title": "The Newtonian limit",
-        "html_path": "tensor-calculus-on-manifolds/general-relativity/newtonian-limit.html"
+        "title": "Newton–Cartan gravity",
+        "html_path": "tensor-calculus-on-manifolds/general-relativity/newton-cartan.html"
       },
       "next": null
     }

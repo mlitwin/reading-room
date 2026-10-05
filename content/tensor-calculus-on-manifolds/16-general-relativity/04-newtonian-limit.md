@@ -34,4 +34,4 @@ the Newtonian tidal acceleration between neighbouring particles. Poisson's equat
 
 ## Validity
 
-The limit needs $\lvert\Phi\rvert \ll 1$ (about $10^{-9}$ at the Earth's surface and $10^{-6}$ at the Sun's) and $v \ll 1$. Corrections at the next order, the post-Newtonian terms, give the [classical tests](02-schwarzschild.md): perihelion precession, light deflection (twice the Newtonian value, because $g_{ij}$ is perturbed as well as $g_{00}$), and Shapiro delay.
+The limit needs $\lvert\Phi\rvert \ll 1$ (about $10^{-9}$ at the Earth's surface and $10^{-6}$ at the Sun's) and $v \ll 1$. Corrections at the next order, the post-Newtonian terms, give the [classical tests](02-schwarzschild.md): perihelion precession, light deflection (twice the Newtonian value, because $g_{ij}$ is perturbed as well as $g_{00}$), and Shapiro delay. The [next page](05-newton-cartan.md) recasts the limit itself exactly, as Newton–Cartan geometry.

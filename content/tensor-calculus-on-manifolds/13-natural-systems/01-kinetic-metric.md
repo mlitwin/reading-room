@@ -10,7 +10,7 @@ a flat, **mass-weighted Euclidean [metric](note:metric)** on $Q = \mathbb{R}^{3N
 
 In general, a **natural system** is a manifold $Q$ with a Riemannian metric $\tens{g}$ (the kinetic metric) and a function $V$, with
 $$L = \tfrac12\, \tens{g}(\dot q, \dot q) - V(q) = \tfrac12\, g_{ij}(q)\, \dot q^i \dot q^j - V(q).$$
-Positive kinetic energy is what makes $\tens{g}$ Riemannian. A rigid body is the classic case with a non-flat kinetic metric: $Q = \mathbb{R}^3 \times SO(3)$, with a left-invariant metric on $SO(3)$ given by the inertia tensor.
+Positive kinetic energy is what makes $\tens{g}$ Riemannian. A rigid body is the classic case with a non-flat kinetic metric: $Q = \mathbb{R}^3 \times SO(3)$, with a left-invariant metric on $SO(3)$ given by the inertia tensor ([page 4](04-rigid-body.md)).
 
 ## The Legendre transform is index lowering
 

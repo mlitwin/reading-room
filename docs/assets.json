@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:53:33.152Z",
+  "generated_at": "2026-10-05T03:58:23.278Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,7 +273,7 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "1e97343decdead1ba2f50bdc12e0ffe2146759243c485d9726ca220e1ba5442f",
+      "sha256": "b2efd805dae5e7d0bcca97f753ba9de1c41580dc1dc7d745a5a6650fe5ed7054",
       "size": 59093
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "92140aa7f3dc9ee935b7933d44b46f1eb84fb3f99e65f8fbdc3827ac2a708f86",
+      "sha256": "489b70128b41f315c2ee5a867dbcd867d956412cb22a7b03c066ca943a9a7172",
       "size": 926268
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "dbc44c2622351d5f9e4aa56db71d29aeb331376fd69d8bd36552096260550932",
+      "sha256": "7810f2a29af68b9a6cf64325499524c839e2cacf150596051170a6e9ac83b6b8",
       "size": 10323088
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "8a54e99bf5867de60f3513d410c8c37361ec87e4cc7cdd8a3fdd1170e546396c",
+      "sha256": "2fb3a42e3e90028552ca35aaa6567f7770eb02f5200836595343bceeabc0f4f6",
       "size": 2476366
     },
     {
@@ -638,23 +638,23 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "58845857677faef09d73e774058558a2d9dc6e77e038edbbb6216076ba603862",
+      "sha256": "ea5e21716d847a0398b5ecc21bbf950605546c738eaf5c1677845ef76840e92b",
       "size": 11327777
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "540a7758009a6d95a67cff092047ce48ae65e36e508fa1104471aab07d9f15d3",
+      "sha256": "db162e9344e06ef98a96d8c0eb37f48ccbcacd3fb902090f26333e25cf2405a4",
       "size": 11327751
     },
     {
       "path": "index.html",
-      "sha256": "9f3a7fcd9be01f7976ccbf8836f597e67940f6a950f09a17cf901a7195e24d92",
-      "size": 5352
+      "sha256": "80eefcb433823d1f606db311804b17719934fe55fc2fc4a289eeddfa6ccf5772",
+      "size": 5377
     },
     {
       "path": "index.json",
-      "sha256": "6c78e59f636ceee156874e5871f59431a721e29294fb7f2b4f497a745361ffd3",
-      "size": 32070
+      "sha256": "df792143c46a598bea67196c747bcb945608d327024bf8b90ca4781818e68387",
+      "size": 32525
     },
     {
       "path": "marvell-hortus/book1-01.html",
@@ -1143,13 +1143,18 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/index.html",
-      "sha256": "494c06a5b2b9b8d2262cf0faa74e28b77ff300ba2d611bb4ccd74d086677db73",
-      "size": 99687
+      "sha256": "df065a8b09b2228a06cec251a4b663b9731df26952a406222c84f8836ba9ddce",
+      "size": 99858
+    },
+    {
+      "path": "tensor-calculus-on-manifolds/general-relativity/newton-cartan.html",
+      "sha256": "6e38872a0f67eaeb4a580ac979f84bc89a6db5dc95fa1507dbdda0770af8b0f8",
+      "size": 162894
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/newtonian-limit.html",
-      "sha256": "ede7ae924f7d72b8a93a0b7467e32f6bf77ef64b312b33b3c2f1ec385d245706",
-      "size": 348245
+      "sha256": "c3e731b41bb4566d5100fc8d9b32452c8e2b199beeacc5c255a6c86217f9a62b",
+      "size": 348378
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/schwarzschild.html",
@@ -1173,8 +1178,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/index.html",
-      "sha256": "d58b4e357b3f18774a2c70147edc49dbae9aed25995afab36ce0145436695e16",
-      "size": 261006
+      "sha256": "efdb90ea7701e38e46879fc9c98ed91555c3184fa6ae81e4efb510fa02e85607",
+      "size": 261047
     },
     {
       "path": "tensor-calculus-on-manifolds/integration/index.html",
@@ -1268,38 +1273,43 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/natural-systems/index.html",
-      "sha256": "22e65e91e1e97ba4084cf6b58d27af5cec0c2d828d60936a2817053bc58cb4ed",
-      "size": 229853
+      "sha256": "835ee1f3419aec5be5b7ba69710180abec94240e8aba56ed3d5c862281a80122",
+      "size": 230637
     },
     {
       "path": "tensor-calculus-on-manifolds/natural-systems/kinetic-metric.html",
-      "sha256": "b108de8d5e74192f02fd86d377a2b359114be9e103f555aebb3abc6ac840b8d1",
-      "size": 371874
+      "sha256": "155108d60b00e318b7e0ee8ab9853a710e03da1778b2cc3801eb15ea396c91c8",
+      "size": 371913
+    },
+    {
+      "path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html",
+      "sha256": "c4c813a8f0a01a9ed52fc17c2d3d6a4d34745f0b52912213d2aea6eb1b1c230b",
+      "size": 79579
     },
     {
       "path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html",
-      "sha256": "e4c250ca98f585b86afc74b1dc88e255601380105df495f8a51d8a557b883f28",
-      "size": 243729
+      "sha256": "1dd984a5550cd3dcff1ba6a2158779dd3418a54c8d813944543cd2e91590997a",
+      "size": 243708
     },
     {
       "path": "tensor-calculus-on-manifolds/nav.json",
-      "sha256": "11a1c8488b1be65a16b4a34cc57e8553e6880e83c71d6eb55fa7a334a3718464",
-      "size": 61104
+      "sha256": "0b8487e1cae793b6439d9175144a56d51a95221b89b2be7c9065c16bbaf9b33f",
+      "size": 62910
     },
     {
       "path": "tensor-calculus-on-manifolds/notation.html",
-      "sha256": "c5181a218e469695adbc59927398266ee253ec3bc674a73187a05518c666cebf",
-      "size": 998853
+      "sha256": "1a0e6ccdfa799bcf05b62067d5c099c1a41201288e4e6430aeb5d06c40cdd016",
+      "size": 1003335
     },
     {
       "path": "tensor-calculus-on-manifolds/notes.html",
-      "sha256": "7ae1fd76d550cdd8c07455d2e2f81134fb143f3271158cb1b91c4832bdf5423d",
-      "size": 1501403
+      "sha256": "a3f61351661843a0e8167312bc730b6a38cde301eba4fa25a8fb6dad72771a93",
+      "size": 1501405
     },
     {
       "path": "tensor-calculus-on-manifolds/special-relativity/index.html",
-      "sha256": "e6c1c6d264282e3436f747013a5797ab83e36483a218242b2d8b2b7e0e08b15c",
-      "size": 4037
+      "sha256": "ffbcda236b5072ebd7ff0b028cadf757527dc4181b5007dc8b55a5a220340216",
+      "size": 4015
     },
     {
       "path": "tensor-calculus-on-manifolds/special-relativity/minkowski-spacetime.html",

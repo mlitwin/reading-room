@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:53:33.081Z",
+  "generated_at": "2026-10-05T03:58:23.200Z",
   "pieces": [
     {
       "slug": "marvell-hortus",
@@ -89,7 +89,7 @@
         "hamiltonian",
         "general-relativity"
       ],
-      "summary": "A reference that develops the calculus of smooth manifolds from scratch and carries one tensor formulation from classical mechanics through to general relativity. Part I is the coordinate-free foundation (manifolds, tangent and cotangent spaces, flows, forms, integration, cohomology). Part II is Lagrangian and Hamiltonian mechanics and Noether's theorem, which need no metric. Part III builds tensors, the metric, the connection and curvature, with the sphere as a running example. Part IV joins the two through the kinetic metric, where Newton's law becomes covariant. Part V reaches special relativity, field theory and the stress–energy tensor, the Einstein equations, Schwarzschild, Einstein–Cartan and the Newtonian limit.",
+      "summary": "A reference that develops the calculus of smooth manifolds from scratch and carries one tensor formulation from classical mechanics through to general relativity. Part I is the coordinate-free foundation (manifolds, tangent and cotangent spaces, flows, forms, integration, cohomology). Part II is Lagrangian and Hamiltonian mechanics and Noether's theorem, which need no metric. Part III builds tensors, the metric, the connection and curvature, with the sphere as a running example. Part IV joins the two through the kinetic metric, where Newton's law becomes covariant. Part V reaches special relativity, field theory and the stress–energy tensor, the Einstein equations, Schwarzschild, Einstein–Cartan, the Newtonian limit and Newton–Cartan gravity.",
       "html_path": "tensor-calculus-on-manifolds/index.html",
       "structure": {
         "slug": "tensor-calculus-on-manifolds",
@@ -399,6 +399,11 @@
                 "slug": "symmetry-and-the-sphere",
                 "title": "Symmetry and the sphere",
                 "html_path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html"
+              },
+              {
+                "slug": "rigid-body",
+                "title": "The rigid body",
+                "html_path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html"
               }
             ]
           },
@@ -460,6 +465,11 @@
                 "slug": "newtonian-limit",
                 "title": "The Newtonian limit",
                 "html_path": "tensor-calculus-on-manifolds/general-relativity/newtonian-limit.html"
+              },
+              {
+                "slug": "newton-cartan",
+                "title": "Newton–Cartan gravity",
+                "html_path": "tensor-calculus-on-manifolds/general-relativity/newton-cartan.html"
               }
             ]
           },

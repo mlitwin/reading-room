@@ -15,10 +15,11 @@ Part II ran mechanics without a metric. Part III built metrics, connections and 
 | holonomic constraint | induced metric on a submanifold |
 | Noether symmetry | [Killing field](note:killing-vector) $\tens{\xi}$ with $\tens{\xi}(V) = 0$; charge $\xi_i\, \dot q^i$ |
 
-Three pages:
+Four pages:
 
 1. [The kinetic metric](01-kinetic-metric.md): mass-weighted metrics, the Legendre transform as $\flat$, constraints as induced metrics.
 2. [Covariant Newton](02-covariant-newton.md): the Euler–Lagrange equations as $\nabla_{\dot q}\dot q = -\operatorname{grad} V$, flat reductions, the Jacobi metric.
 3. [Symmetry and the sphere](03-symmetry-and-the-sphere.md): Killing fields as conserved charges; the particle and the spherical pendulum on $S^2$.
+4. [The rigid body](04-rigid-body.md): a curved kinetic metric on $SO(3)$, Euler's equations, the heavy top.
 
 **Where this lands in GR.** Take $Q$ to be spacetime, $\tens{g}$ Lorentzian, and $V = 0$. Covariant Newton becomes the geodesic equation, and Killing charges become the conserved energy and angular momentum of orbits ([chapter 16](../16-general-relativity/02-schwarzschild.md)). Gravity is no longer a force term: it has moved into the metric.

@@ -3,7 +3,7 @@ title: Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity
 author: Matthew Litwin
 date: 2026-06-23
 tags: [mathematics, physics, manifolds, tensors, differential-geometry, classical-mechanics, lagrangian, hamiltonian, general-relativity]
-summary: A reference that develops the calculus of smooth manifolds from scratch and carries one tensor formulation from classical mechanics through to general relativity. Part I is the coordinate-free foundation (manifolds, tangent and cotangent spaces, flows, forms, integration, cohomology). Part II is Lagrangian and Hamiltonian mechanics and Noether's theorem, which need no metric. Part III builds tensors, the metric, the connection and curvature, with the sphere as a running example. Part IV joins the two through the kinetic metric, where Newton's law becomes covariant. Part V reaches special relativity, field theory and the stress–energy tensor, the Einstein equations, Schwarzschild, Einstein–Cartan and the Newtonian limit.
+summary: A reference that develops the calculus of smooth manifolds from scratch and carries one tensor formulation from classical mechanics through to general relativity. Part I is the coordinate-free foundation (manifolds, tangent and cotangent spaces, flows, forms, integration, cohomology). Part II is Lagrangian and Hamiltonian mechanics and Noether's theorem, which need no metric. Part III builds tensors, the metric, the connection and curvature, with the sphere as a running example. Part IV joins the two through the kinetic metric, where Newton's law becomes covariant. Part V reaches special relativity, field theory and the stress–energy tensor, the Einstein equations, Schwarzschild, Einstein–Cartan, the Newtonian limit and Newton–Cartan gravity.
 ---
 
 This is a reference, not a textbook. It develops the calculus of smooth manifolds and carries a single tensor formulation from classical mechanics to general relativity. A reader heading into [Misner–Thorne–Wheeler](https://en.wikipedia.org/wiki/Gravitation_(book)), [Wald](https://en.wikipedia.org/wiki/General_Relativity_(book)) or [Arnold](https://en.wikipedia.org/wiki/Mathematical_Methods_of_Classical_Mechanics) can use it to recover any definition, formula or transformation rule without paging through a thicker book.
@@ -42,13 +42,13 @@ Flat space, Cartesian coordinates, and slow motion are special cases the general
 
 ## Part IV — Mechanics with a metric
 
-13. [Natural systems](13-natural-systems/index.md): the kinetic metric, covariant Newton, Killing symmetries, the particle and pendulum on $S^2$.
+13. [Natural systems](13-natural-systems/index.md): the kinetic metric, covariant Newton, Killing symmetries, the particle and pendulum on $S^2$, the rigid body.
 
 ## Part V — Relativity
 
 14. [Special relativity](14-special-relativity/index.md): Minkowski spacetime, four-momentum, the relativistic particle.
 15. [Fields and stress–energy](15-fields-and-stress-energy/index.md): Lagrangian field theory, Noether currents, $T_{\mu\nu}$.
-16. [General relativity](16-general-relativity/index.md): the Einstein equations, Schwarzschild, Einstein–Cartan, the Newtonian limit.
+16. [General relativity](16-general-relativity/index.md): the Einstein equations, Schwarzschild, Einstein–Cartan, the Newtonian limit, Newton–Cartan gravity.
 
 ## Reading paths
 
