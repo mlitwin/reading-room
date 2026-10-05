@@ -11,7 +11,7 @@ A **smooth manifold** is a topological space that locally looks like $\mathbb{R}
 | Symbol | Meaning |
 |---|---|
 | $M, N$ | smooth manifolds; $n = \dim M$ |
-| $p, q$ | points of $M$ (Part I). In mechanics $q$ is a configuration and $p$ a momentum |
+| $p, q$ | points of $M$. In mechanics $q$ is a configuration and $p$ a momentum |
 | $U, V$ | open sets |
 | $(U, \varphi)$ — $\varphi$ (phi) | chart; local coordinates $x^i = \varphi^i$ |
 | $F, G$ | smooth maps; $dF_p$ or $F_*$ differential (pushforward), $F^*$ pullback |

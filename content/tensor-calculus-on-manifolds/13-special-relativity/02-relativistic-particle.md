@@ -6,7 +6,7 @@ title: The relativistic particle
 
 The action of a free massive particle is $-m$ times its proper time:
 $$S = -m \int d\tau = -m \int \sqrt{-g_{\mu\nu}\, \dot x^\mu \dot x^\nu}\; d\lambda, \qquad \dot x^\mu = dx^\mu / d\lambda.$$
-It is written with a general metric $\tens{g}$ because nothing below depends on $\tens{g} = \tens{\eta}$. The configuration space is spacetime itself. Time is a coordinate $x^0$, and the path parameter $\lambda$ is arbitrary.
+It is written with a general metric $\tens{g}$ because nothing on this page depends on $\tens{g} = \tens{\eta}$. The configuration space is spacetime itself. Time is a coordinate $x^0$, and the path parameter $\lambda$ is arbitrary.
 
 **Reparametrization invariance.** The Lagrangian is homogeneous of degree 1 in $\dot x$, so $S$ is unchanged under $\lambda \mapsto f(\lambda)$. Two consequences follow.
 

@@ -253,7 +253,7 @@ It supplies the [musical isomorphisms](note:musical-isomorphism), the [volume fo
 
 The unit sphere
 $$S^2 = \{ (X, Y, Z) \in \mathbb{R}^3 : X^2 + Y^2 + Z^2 = 1 \}$$
-is the running example carried through Parts III–V of this book: charts, metric, curvature, and the mechanics of a particle and a pendulum on it. Two reasons it works:
+is the running example carried through this book: charts, metric, curvature, and the mechanics of a particle and a pendulum on it. Two reasons it works:
 
 - **Small enough to compute on by hand.** Two coordinates, one round metric, four-line Christoffel calculation, single Riemann component.
 - **Big enough to break intuition.** Non-zero constant curvature; no global flat chart; non-trivial topology ([Euler characteristic](note:euler-characteristic) $2$); $SO(3)$ symmetry; closed orientable.
@@ -278,7 +278,7 @@ Three related but distinct objects share the name.
 
 **Levi-Civita connection.** The unique torsion-free metric-compatible connection of a pseudo-Riemannian manifold $(M, \tens{g})$ — the connection assumed throughout standard GR. Its Christoffel symbols are
 $$\Gamma^\rho{}_{\mu\nu} = \tfrac{1}{2}\, g^{\rho\sigma} \left( \partial_\mu g_{\nu\sigma} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right),$$
-derived on the [covariant-derivative page](08-connection-and-curvature/02-covariant-derivative.md).
+derived on the [connection page](08-connection-and-curvature/01-the-connection.md).
 
 Three different objects, one Italian mathematician. Context picks which is meant.
 
@@ -290,7 +290,7 @@ A **tensor density of weight $w$** is a component array that transforms by the [
 
 On an oriented pseudo-Riemannian manifold, the canonical top-degree form
 $$\mathrm{vol}_g = \sqrt{|\det g|}\; dx^1 \wedge \cdots \wedge dx^n$$
-in any positively-oriented chart — chart-independent, because the Jacobian factors from $\det g$ and from the wedge cancel. It integrates scalars: $\int_M f\, \mathrm{vol}_g$ is well-defined for compactly supported $f$. As a tensor it is the [Levi-Civita](note:levi-civita) tensor. On the unit sphere, $\mathrm{vol}_g = \sin\theta\, d\theta \wedge d\varphi$, total area $4\pi$. Constructed on the [raising-and-lowering page](03-metric/02-raising-and-lowering.md).
+in any positively-oriented chart — chart-independent, because the Jacobian factors from $\det g$ and from the wedge cancel. It integrates scalars: $\int_M f\, \mathrm{vol}_g$ is well-defined for compactly supported $f$. As a tensor it is the [Levi-Civita](note:levi-civita) tensor. On the unit sphere, $\mathrm{vol}_g = \sin\theta\, d\theta \wedge d\varphi$, total area $4\pi$. Constructed on the [volume-form page](07-integration/02-volume-form-and-hodge-star.md).
 
 ## Affine connection
 
@@ -358,7 +358,7 @@ It gives the relative acceleration of neighbouring free-falling particles, i.e. 
 
 ## Isometry
 
-A diffeomorphism $F: M \to M$ with $F^* \tens{g} = \tens{g}$ — it preserves every length and angle the metric defines. The isometries of $(M, \tens{g})$ form a [Lie group](note:lie-group): $O(3)$ for the round sphere, the Poincaré group for [Minkowski space](note:minkowski-space). Continuous one-parameter families of isometries are the [flows](note:flow) of [Killing vector fields](note:killing-vector). Defined on the [Killing-vectors page](08-connection-and-curvature/03-killing-vectors.md).
+A diffeomorphism $F: M \to M$ with $F^* \tens{g} = \tens{g}$ — it preserves every length and angle the metric defines. The isometries of $(M, \tens{g})$ form a [Lie group](note:lie-group): $O(3)$ for the round sphere, the Poincaré group for [Minkowski space](note:minkowski-space). Continuous one-parameter families of isometries are the [flows](note:flow) of [Killing vector fields](note:killing-vector). Defined with [induced metrics](03-metric/01-the-metric-tensor.md); the infinitesimal version is on the [Killing-vectors page](08-connection-and-curvature/03-killing-vectors.md).
 
 ## Killing vector
 
@@ -380,7 +380,7 @@ $$\tau = \int \sqrt{-\, g_{\mu\nu}\, \dot\gamma^\mu \dot\gamma^\nu}\; d\lambda$$
 
 The spacetime of special relativity: $\mathbb{R}^4$ with the global flat Lorentzian metric
 $$\tens{\eta} = -dt^2 + dx^2 + dy^2 + dz^2$$
-(signature $(-, +, +, +)$). All Christoffel symbols vanish in these coordinates, so [geodesics](note:geodesic) are straight lines and the Riemann tensor is zero — the "no gravity" special case that curved solutions approach asymptotically (Schwarzschild as $r \to \infty$). Its [isometry](note:isometry) group is the **Poincaré group**: translations plus Lorentz transformations. Every tangent space of a Lorentzian manifold is a copy of Minkowski space in miniature ([causal structure](03-metric/01-the-metric-tensor.md)).
+(signature $(-, +, +, +)$). All Christoffel symbols vanish in these coordinates, so [geodesics](note:geodesic) are straight lines and the Riemann tensor is zero — the "no gravity" special case that curved solutions approach asymptotically (Schwarzschild as $r \to \infty$). Its [isometry](note:isometry) group is the **Poincaré group**: translations plus Lorentz transformations. Every tangent space of a Lorentzian manifold is a copy of Minkowski space in miniature ([causal structure](03-metric/01-the-metric-tensor.md)). Developed in [special relativity](13-special-relativity/01-minkowski-spacetime.md).
 
 ## Stress-energy tensor
 

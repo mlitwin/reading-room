@@ -2,7 +2,7 @@
 title: General relativity
 ---
 
-General relativity is the geometric theory of gravity. It is built on the geometry of Part III, with the mechanics of Parts II and IV and the matter description of [chapter 14](../14-fields-and-stress-energy/index.md) as inputs. Spacetime is a Lorentzian $4$-manifold; matter and energy are described by a stress–energy tensor $T_{\mu\nu}$; the metric is determined by the **[Einstein equations](note:einstein-equations)**, which equate the Einstein tensor (geometry) to a constant times $T_{\mu\nu}$ (matter content).
+General relativity is the geometric theory of gravity. It is built on the geometry of Parts I–II, with the mechanics of Part III and the matter description of [chapter 14](../14-fields-and-stress-energy/index.md) as inputs. Spacetime is a Lorentzian $4$-manifold; matter and energy are described by a stress–energy tensor $T_{\mu\nu}$; the metric is determined by the **[Einstein equations](note:einstein-equations)**, which equate the Einstein tensor (geometry) to a constant times $T_{\mu\nu}$ (matter content).
 
 Five pages:
 

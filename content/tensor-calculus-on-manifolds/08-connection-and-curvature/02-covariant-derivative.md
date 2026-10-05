@@ -14,7 +14,7 @@ Once $\nabla$ is defined on vector fields, it extends uniquely to all tensor fie
 
 These force the action on a covector $\tens{\omega}$ to be
 $$(\nabla_{\tens{X}} \tens{\omega})(\tens{Y}) = \tens{X}(\tens{\omega}(\tens{Y})) - \tens{\omega}(\nabla_{\tens{X}} \tens{Y}),$$
-and fix the components below.
+and they fix the components in general:
 
 ## Components
 

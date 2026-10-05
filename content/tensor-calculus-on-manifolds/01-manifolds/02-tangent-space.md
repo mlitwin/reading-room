@@ -11,7 +11,7 @@ The **tangent space at $p$**, denoted $T_p M$, is the $n$-dimensional vector spa
 2. **[Derivations](note:derivation) at $p$.** Linear maps $\tens{v}: C^\infty(M) \to \mathbb{R}$ satisfying Leibniz:
 $$\tens{v}(fg) = f(p)\, \tens{v}(g) + g(p)\, \tens{v}(f).$$
 
-3. **Coordinate $n$-tuples that transform.** Tuples $(v^1, \ldots, v^n) \in \mathbb{R}^n$ assigned to each chart, related across charts by the Jacobian of the transition map (below).
+3. **Coordinate $n$-tuples that transform.** Tuples $(v^1, \ldots, v^n) \in \mathbb{R}^n$ assigned to each chart, related across charts by the Jacobian of the transition map, $v'^{i'} = (\partial x'^{i'} / \partial x^j)\, v^j$.
 
 The three define the same space; which is most convenient depends on the construction at hand.
 

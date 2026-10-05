@@ -30,19 +30,19 @@ The components $\omega_i$ transform with the same matrix $\partial x^j/\partial 
 
 The defining operation between vectors and covectors is the pairing
 $$\tens{\omega}(\tens{v}) = \omega_i\, v^i \in \mathbb{R}$$
-— sum one up index with one down index. Both transformation rules cancel, so this is a chart-independent number; it is the geometric content of the duality. For $f \in C^\infty(M)$ and a vector field $\tens{X}$ ([chapter 5](../05-vector-fields-and-flows/01-vector-fields.md)), $df(\tens{X}) = \tens{X}(f)$.
+— sum one up index with one down index. Both transformation rules cancel, so this is a chart-independent number; it is the geometric content of the duality. For $f \in C^\infty(M)$, $df_p(\tens{v}) = \tens{v}(f)$: pairing with a differential is differentiation.
 
-## 1-form fields and pullback
+## Cotangent bundle and 1-forms
 
-A **1-form** $\tens{\omega}$ on $M$ is a smooth section of the cotangent bundle $T^*M$ (below), i.e. a smoothly varying assignment $p \mapsto \tens{\omega}_p \in T^*_p M$. In coordinates $\tens{\omega} = \omega_i\, dx^i$ with $\omega_i \in C^\infty(U)$; the space of 1-forms is $\Omega^1(M)$.
+The **cotangent bundle** $T^*M := \bigsqcup_p T^*_p M$ is a smooth $2n$-manifold, with projection $\pi: T^*M \to M$. A chart $(x^i)$ induces coordinates $(x^i, p_i)$: the covector $\tens{\alpha} = p_i\, dx^i$ at the point with coordinates $x^i$ is assigned the $2n$ numbers $(x^i, p_i)$.
+
+A **1-form** $\tens{\omega}$ on $M$ is a smooth section of $T^*M$, i.e. a smoothly varying assignment $p \mapsto \tens{\omega}_p \in T^*_p M$. In coordinates $\tens{\omega} = \omega_i\, dx^i$ with $\omega_i \in C^\infty(U)$; the space of 1-forms is $\Omega^1(M)$.
 
 **Pullback.** For a smooth map $F: M \to N$ and $\tens{\eta} \in \Omega^1(N)$,
 $$(F^* \tens{\eta})_p(\tens{v}) := \tens{\eta}_{F(p)}(dF_p \cdot \tens{v}), \qquad \tens{v} \in T_p M.$$
 Forms pull back along *any* smooth map, while vector fields push forward only along diffeomorphisms. This asymmetry, pullback for covectors and pushforward for vectors, recurs throughout tensor calculus. (Terminology clash: $F \mapsto F^*$ reverses arrows, so it is "contravariant" in the categorical sense, although the components $\omega_i$ are "covariant" under chart changes. Both usages are standard.)
 
-## Cotangent bundle and the tautological form
-
-The **cotangent bundle** $T^*M := \bigsqcup_p T^*_p M$ is a smooth $2n$-manifold, with projection $\pi: T^*M \to M$. A chart $(x^i)$ induces coordinates $(x^i, p_i)$: the covector $\tens{\alpha} = p_i\, dx^i$ at the point with coordinates $x^i$ is assigned the $2n$ numbers $(x^i, p_i)$.
+## The tautological form
 
 $T^*M$ carries a canonical 1-form that needs no extra structure, the **tautological form** $\tens{\theta}$. At a point $\tens{\alpha} \in T^*_x M$ it is
 $$\tens{\theta}_{\tens{\alpha}}(\tens{V}) := \tens{\alpha}\bigl(d\pi \cdot \tens{V}\bigr), \qquad \tens{V} \in T_{\tens{\alpha}}(T^*M),$$
