@@ -867,14 +867,14 @@
         "html_path": "tensor-calculus-on-manifolds/integration/stokes-theorem.html"
       },
       "next": {
-        "title": "The affine connection",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
+        "title": "The connection",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/the-connection.html"
       }
     },
     {
-      "slug": "affine-connection",
-      "title": "The affine connection",
-      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html",
+      "slug": "the-connection",
+      "title": "The connection",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/the-connection.html",
       "breadcrumbs": [
         {
           "title": "Library",
@@ -894,13 +894,13 @@
         "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
       },
       "next": {
-        "title": "The covariant derivative",
+        "title": "Covariant derivative, transport, geodesics",
         "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
       }
     },
     {
       "slug": "covariant-derivative",
-      "title": "The covariant derivative",
+      "title": "Covariant derivative, transport, geodesics",
       "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html",
       "breadcrumbs": [
         {
@@ -917,8 +917,8 @@
         }
       ],
       "prev": {
-        "title": "The affine connection",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
+        "title": "The connection",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/the-connection.html"
       },
       "next": {
         "title": "Killing vectors",
@@ -944,7 +944,7 @@
         }
       ],
       "prev": {
-        "title": "The covariant derivative",
+        "title": "Covariant derivative, transport, geodesics",
         "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
       },
       "next": {

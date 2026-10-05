@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:53:41.380Z",
+  "generated_at": "2026-10-05T15:55:19.730Z",
   "pieces": [
     {
       "slug": "marvell-hortus",
@@ -276,13 +276,13 @@
             "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html",
             "items": [
               {
-                "slug": "affine-connection",
-                "title": "The affine connection",
-                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
+                "slug": "the-connection",
+                "title": "The connection",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/the-connection.html"
               },
               {
                 "slug": "covariant-derivative",
-                "title": "The covariant derivative",
+                "title": "Covariant derivative, transport, geodesics",
                 "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
               },
               {

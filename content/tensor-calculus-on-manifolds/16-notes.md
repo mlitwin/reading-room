@@ -294,7 +294,7 @@ in any positively-oriented chart — chart-independent, because the Jacobian fac
 
 ## Affine connection
 
-An $\mathbb{R}$-bilinear $\nabla: (\tens{X}, \tens{Y}) \mapsto \nabla_{\tens{X}} \tens{Y}$ that is $C^\infty(M)$-linear in $\tens{X}$ and Leibniz in $\tens{Y}$: $\nabla_{\tens{X}}(f\tens{Y}) = \tens{X}(f)\, \tens{Y} + f\, \nabla_{\tens{X}} \tens{Y}$. It is the extra structure needed to compare tangent vectors at different points. Its coefficients in a chart, $\nabla_{\partial_\mu} \partial_\nu = \Gamma^\rho{}_{\mu\nu}\, \partial_\rho$ (the **Christoffel symbols**), are *not* a tensor: their transformation law has an inhomogeneous second-derivative term. The difference of two connections *is* a $(1, 2)$-tensor. Defined on the [affine-connection page](08-connection-and-curvature/01-affine-connection.md).
+An $\mathbb{R}$-bilinear $\nabla: (\tens{X}, \tens{Y}) \mapsto \nabla_{\tens{X}} \tens{Y}$ that is $C^\infty(M)$-linear in $\tens{X}$ and Leibniz in $\tens{Y}$: $\nabla_{\tens{X}}(f\tens{Y}) = \tens{X}(f)\, \tens{Y} + f\, \nabla_{\tens{X}} \tens{Y}$. It is the extra structure needed to compare tangent vectors at different points. Its coefficients in a chart, $\nabla_{\partial_\mu} \partial_\nu = \Gamma^\rho{}_{\mu\nu}\, \partial_\rho$ (the **Christoffel symbols**), are *not* a tensor: their transformation law has an inhomogeneous second-derivative term. The difference of two connections *is* a $(1, 2)$-tensor. Defined on the [affine-connection page](08-connection-and-curvature/01-the-connection.md).
 
 ## Covariant derivative
 
