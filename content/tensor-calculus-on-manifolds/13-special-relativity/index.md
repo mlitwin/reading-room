@@ -20,9 +20,9 @@ Two pages:
 | Symbol | Meaning |
 |---|---|
 | $\tens{\eta}$ (eta); $\eta_{\mu\nu}$ | [Minkowski metric](note:minkowski-space) |
-| $G$, $c$ | Newton's constant, speed of light |
+| $c$ | speed of light |
 | $\tau$ (tau) | [proper time](note:proper-time) |
 | $\tens{u}$; $u^\mu$ | four-velocity |
-| $\tens{p}$; $p^\mu = (E, \tens{p})$ | four-momentum $m\tens{u}$; mass shell $g^{\mu\nu} p_\mu p_\nu = -m^2$ |
+| $\tens{p}$; $p^\mu = (E, p^i)$ | four-momentum $m\tens{u}$; mass shell $g^{\mu\nu} p_\mu p_\nu = -m^2$ |
 | $\Lambda^\mu{}_\nu$ (Lambda) | Lorentz transformation (context separates it from the cosmological constant) |
 | $\gamma$ (gamma) | Lorentz factor $(1 - v^2)^{-1/2}$ (context separates it from a curve) |

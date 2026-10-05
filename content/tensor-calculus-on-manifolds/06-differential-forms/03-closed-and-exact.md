@@ -11,11 +11,11 @@ $$B^k(M) := \mathrm{im}\bigl(d: \Omega^{k-1}(M) \to \Omega^k(M)\bigr).$$
 Because $d^2 = 0$,
 $$B^k(M) \subseteq Z^k(M).$$
 
-Every exact form is closed; the converse fails in general, and the obstruction is exactly the topology of $M$.
+Every exact form is closed. The converse fails in general, and the obstruction is topological.
 
 **Standard counterexample.** On $\mathbb{R}^2 \setminus \{0\}$, the 1-form
 $$\tens{\omega} = \frac{-y\, dx + x\, dy}{x^2 + y^2}$$
-is closed (a direct check). It is not exact: its integral counterclockwise around the unit circle is $2\pi$, while the integral of an exact form around a closed loop vanishes, $\oint df = 0$. Were $\tens{\omega}$ defined on all of $\mathbb{R}^2$, Stokes's theorem on the unit disk would give $\oint \tens{\omega} = \int_D d\tens{\omega} = 0$; the puncture removes that disk.
+is closed, as a direct computation shows. It is not exact: its integral counterclockwise around the unit circle is $2\pi$, while the integral of an exact form around a closed loop vanishes, $\oint df = 0$. Were $\tens{\omega}$ defined on all of $\mathbb{R}^2$, Stokes's theorem on the unit disk would give $\oint \tens{\omega} = \int_D d\tens{\omega} = 0$; the puncture removes that disk.
 
 In polar coordinates $\tens{\omega} = d\theta$, but the angle $\theta$ is not a single-valued function on $\mathbb{R}^2 \setminus \{0\}$.
 

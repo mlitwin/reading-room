@@ -14,8 +14,8 @@ $$\tens{X}(f)(p) := \tens{X}_p(f), \qquad \tens{X}: C^\infty(M) \to C^\infty(M).
 This map is $\mathbb{R}$-linear and satisfies Leibniz:
 $$\tens{X}(fg) = f \cdot \tens{X}(g) + g \cdot \tens{X}(f).$$
 
-Conversely, every $\mathbb{R}$-linear Leibniz [derivation](note:derivation) of $C^\infty(M)$ is a vector field — vector fields and derivations are the same object up to bookkeeping.
+Conversely, every $\mathbb{R}$-linear Leibniz [derivation](note:derivation) of $C^\infty(M)$ is a vector field, so vector fields and derivations of $C^\infty(M)$ are the same thing.
 
-**Push-forward.** Unlike forms, vector fields can be pushed forward only by diffeomorphisms. A general smooth map $F$ may send distinct points $p, p'$ to the same point, where $dF_p \cdot \tens{X}_p$ and $dF_{p'} \cdot \tens{X}_{p'}$ need not agree, and points outside its image receive no vector at all.
+**Pushforward.** Unlike forms, vector fields can be pushed forward only by diffeomorphisms. A general smooth map $F$ may send distinct points $p, p'$ to the same point, where $dF_p \cdot \tens{X}_p$ and $dF_{p'} \cdot \tens{X}_{p'}$ need not agree, and points outside its image receive no vector at all.
 
-**$F$-related vector fields.** Even without push-forward, one can ask whether $\tens{X} \in \mathfrak{X}(M)$ and $\tens{Y} \in \mathfrak{X}(N)$ are *$F$-related*, meaning $dF_p \cdot \tens{X}_p = \tens{Y}_{F(p)}$ for all $p$. This is the right notion for tracking vector fields through general smooth maps.
+**$F$-related vector fields.** Even without a pushforward, one can ask whether $\tens{X} \in \mathfrak{X}(M)$ and $\tens{Y} \in \mathfrak{X}(N)$ are *$F$-related*, meaning $dF_p \cdot \tens{X}_p = \tens{Y}_{F(p)}$ for all $p$. This is the right notion for tracking vector fields through general smooth maps.

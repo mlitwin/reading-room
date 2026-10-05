@@ -10,7 +10,7 @@ Define $\flat: T_p M \to T^*_p M$ (*flat*, lowering) and $\sharp: T^*_p M \to T_
 $$\tens{v}^\flat(\tens{w}) := \tens{g}(\tens{v}, \tens{w}), \qquad \tens{g}(\tens{\omega}^\sharp, \tens{w}) := \tens{\omega}(\tens{w}).$$
 In components,
 $$v_\mu = g_{\mu\nu}\, v^\nu, \qquad \omega^\mu = g^{\mu\nu}\, \omega_\nu.$$
-The two maps are mutual inverses: $(\tens{v}^\flat)^\sharp = \tens{v}$ and $(\tens{\omega}^\sharp)^\flat = \tens{\omega}$. They are the identification of vectors with covectors that a bare manifold lacks ([chapter 1](../01-manifolds/03-cotangent-space.md)); $\flat$ is injective by non-degeneracy, hence an isomorphism in equal finite dimensions.
+Non-degeneracy makes $\flat$ injective, hence an isomorphism, since the two spaces have the same dimension; $\sharp$ is its inverse. This is the identification of vectors with covectors that a bare manifold lacks ([chapter 1](../01-manifolds/03-cotangent-space.md)).
 
 **Gradient.** The differential $df$ is a covector on any manifold. The **gradient** $\operatorname{grad} f := (df)^\sharp$, with components $g^{\mu\nu}\, \partial_\nu f$, is a vector and needs the metric. In Cartesian coordinates on $\mathbb{R}^n$ the two have the same components, which is why vector calculus never distinguishes them. In polar coordinates they already differ.
 

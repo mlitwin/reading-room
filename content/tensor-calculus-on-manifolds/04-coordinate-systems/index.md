@@ -24,12 +24,12 @@ The standard chart is the working chart in the chapters that follow. The skew ch
 
 | Symbol | Meaning |
 |---|---|
-| $\Phi$ (Phi) | parametrization $\Phi = \varphi^{-1}$ (chapter 4) |
+| $\Phi$ (Phi) | parametrization $\Phi = \varphi^{-1}$ |
 | $X, Y, Z$ | Cartesian coordinates of the ambient $\mathbb{R}^3$ |
 | $\theta$ (theta), $\varphi$ (phi) | polar angle, azimuth (standard chart) |
 | $\tilde\theta, \tilde\varphi$ | skew chart, $\tilde\varphi = \varphi + \alpha\cos\theta$ |
 | $\alpha$ (alpha) | skew-chart shear, fixed at $\pi/8$ |
 | $\theta_0, \varphi_0$ | sample point, $(13\pi/32,\ 29\pi/32)$ |
 | $(x, y)$; $\psi_S$ (psi), $\Phi_S$ | stereographic coordinates; their chart and parametrization |
-| $J$ | Jacobian of a chart change (chapter 4) |
+| $J$ | Jacobian of a chart change |
 | $\tens{J}$ | rotation by $90^\circ$, an almost complex structure on $S^2$ |

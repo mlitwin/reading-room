@@ -23,4 +23,4 @@ Independence of the partition and the atlas follows from the change-of-variables
 **Change of variables on manifolds.** For an orientation-preserving diffeomorphism $F: N \to M$,
 $$\int_N F^* \tens{\omega} = \int_M \tens{\omega}.$$
 
-Integrals of forms are thus chart-independent by construction, which is why one integrates forms rather than functions.
+Integrals of forms are thus chart-independent by construction, which is why one integrates forms rather than functions. A metric supplies the form that integrates functions, the volume form ([next page](02-volume-form-and-hodge-star.md)).

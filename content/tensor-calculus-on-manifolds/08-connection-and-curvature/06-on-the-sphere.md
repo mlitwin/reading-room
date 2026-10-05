@@ -6,7 +6,7 @@ The Levi-Civita connection of the round metric, the [Riemann tensor](note:rieman
 
 ## Christoffel symbols
 
-Plug into the [Christoffel formula](note:covariant-derivative). The non-trivial pieces of $\tens{g}$ are $g_{\theta\theta} = 1$, $g_{\varphi\varphi} = \sin^2\theta$, with $g^{\theta\theta} = 1$, $g^{\varphi\varphi} = 1/\sin^2\theta$, and only one non-zero partial derivative: $\partial_\theta g_{\varphi\varphi} = 2 \sin\theta \cos\theta$.
+Plug into the [Christoffel formula](note:levi-civita). The non-trivial pieces of $\tens{g}$ are $g_{\theta\theta} = 1$, $g_{\varphi\varphi} = \sin^2\theta$, with $g^{\theta\theta} = 1$, $g^{\varphi\varphi} = 1/\sin^2\theta$, and only one non-zero partial derivative: $\partial_\theta g_{\varphi\varphi} = 2 \sin\theta \cos\theta$.
 
 Running through the formula:
 

@@ -37,11 +37,11 @@ the divergence $\operatorname{div} \tens{v}$ of the [volume form](../07-integrat
 
 A vector field $\tens{V}(t)$ along a curve $\gamma(t)$ is **parallel-transported** if $\nabla_{\dot\gamma} \tens{V} = 0$. In coordinates,
 $$\frac{dV^\rho}{dt} + \Gamma^\rho{}_{\mu\nu}\, \dot\gamma^\mu\, V^\nu = 0.$$
-This is a linear ODE for $V^\rho(t)$ given initial value $\tens{V}(0)$; the solution exists on the same interval as $\gamma$, defining a linear isomorphism
+This is a linear ODE for $V^\rho(t)$. Its solution exists on the whole interval of $\gamma$ for any initial value, and defines a linear isomorphism
 $$P_\gamma^{t_0, t_1}: T_{\gamma(t_0)} M \to T_{\gamma(t_1)} M,$$
 the **parallel transport** along $\gamma$ from $t_0$ to $t_1$. For metric-compatible $\nabla$, parallel transport preserves the inner product.
 
-Crucially, parallel transport depends on the *path*, not just the endpoints — this path dependence is the curvature, made tensorial on [page 4](04-torsion-and-curvature.md).
+Parallel transport depends on the *path*, not just the endpoints. The path dependence is curvature, made tensorial on [page 4](04-torsion-and-curvature.md).
 
 ## Geodesics
 

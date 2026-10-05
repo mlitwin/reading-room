@@ -12,13 +12,13 @@ Five pages:
 4. [The Newtonian limit](04-newtonian-limit.md): $g_{00} \approx -(1 + 2\Phi)$, Poisson's equation, and tides.
 5. [Newton–Cartan gravity](05-newton-cartan.md): Newton's theory as exact spacetime geometry, with gravity as curvature of a connection and no metric.
 
-This is tensor calculus for GR, not a survey of GR: the field equations, one worked solution, a torsionful variant, and the Newtonian limit. Standard textbooks pick up from here.
+This is tensor calculus for GR, not a survey of GR: the field equations, one worked solution, a variant with torsion, the Newtonian limit, and Newton's theory recast as geometry. Standard textbooks pick up from here.
 
 ## Notation
 
 | Quantity | Convention |
 |---|---|
-| Einstein equations | $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}$. With the Riemann and Ricci rows, this is MTW's sign class $(+, +, +)$ |
+| Einstein equations | $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}$. With the Riemann and Ricci conventions of [chapter 8](../08-connection-and-curvature/index.md), this is MTW's sign class $(+, +, +)$ |
 | Units | $c = G = 1$ unless constants are shown |
 
 | Symbol | Meaning |

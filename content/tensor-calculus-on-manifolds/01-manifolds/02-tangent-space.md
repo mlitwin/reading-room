@@ -2,7 +2,7 @@
 title: Tangent space
 ---
 
-The **tangent space at $p$**, denoted $T_p M$, is the $n$-dimensional vector space of "directions" at $p$ — the velocities a curve through $p$ could have.
+The **tangent space at $p$**, $T_p M$, is the $n$-dimensional vector space of directions at $p$: the velocities a curve through $p$ could have.
 
 ## Three equivalent definitions
 
@@ -25,12 +25,12 @@ In a chart $\varphi = (x^1, \ldots, x^n)$ the basis vectors are the partial-deri
 $$\partial_i\big|_p := \frac{\partial}{\partial x^i}\bigg|_p, \qquad \partial_i|_p : f \mapsto \frac{\partial f}{\partial x^i}(p),$$
 and an arbitrary tangent vector is
 $$\tens{v} = v^i\, \partial_i\big|_p, \qquad v^i \in \mathbb{R}.$$
-The numbers $v^i$ are the **contravariant components** of $\tens{v}$ — index up, the name justified by how they transform.
+The numbers $v^i$ are the **contravariant components** of $\tens{v}$, written with the index up; the name comes from how they transform.
 
 ## Transformation rule
 
 Under a change of coordinates $x^i \mapsto x'^{i'}(x)$, the basis and components transform oppositely:
-$$\partial_{i'}' = \frac{\partial x^j}{\partial x'^{i'}}\, \partial_j, \qquad v'^{i'} = \frac{\partial x'^{i'}}{\partial x^j}\, v^j.$$
+$$\partial'_{i'} = \frac{\partial x^j}{\partial x'^{i'}}\, \partial_j, \qquad v'^{i'} = \frac{\partial x'^{i'}}{\partial x^j}\, v^j.$$
 The components use the inverse of the basis's matrix ("contra" to it). The opposite transformations keep $\tens{v}$ itself chart-independent while its component array changes.
 
 **Index notation:** $v^i$, index up. **Coordinate-free:** $\tens{v} \in T_p M$, no chart.
@@ -43,6 +43,6 @@ Also called the **pushforward** and written $F_{*,p}$; in components $(F_* \tens
 
 ## Tangent bundle
 
-$TM := \bigsqcup_p T_p M$ is itself a smooth manifold of dimension $2n$, with projection $\pi: TM \to M$ and natural smooth structure coming from the charts on $M$.
+$TM := \bigsqcup_p T_p M$ is itself a smooth manifold of dimension $2n$, with projection $\pi: TM \to M$ and natural smooth structure coming from the charts on $M$. A smooth section of $TM$, a smoothly varying choice of tangent vector at each point, is a **vector field** ([chapter 5](../05-vector-fields-and-flows/01-vector-fields.md)).
 
 **Induced coordinates.** A chart $(x^i)$ on $U \subseteq M$ gives coordinates $(x^i, v^i)$ on $\pi^{-1}(U) \subseteq TM$. They assign to $\tens{v} = v^i\, \partial_i|_p$ the $2n$ numbers $(x^i(p), v^i)$. Under a change of chart, $x^i$ transforms as a coordinate and $v^i$ by the Jacobian. In mechanics $TM$ is the space of positions and velocities, with these coordinates written $(q^i, \dot q^i)$ ([chapter 10](../10-lagrangian-mechanics/03-action-and-euler-lagrange.md)).

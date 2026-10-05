@@ -22,7 +22,7 @@ Five pages:
 4. [Covariant Newton](04-covariant-newton.md): $\nabla_{\dot q}\dot q = -\operatorname{grad} V$, flat reductions, the Jacobi metric.
 5. [Constraints and examples](05-constraints-and-examples.md): constraints as induced metrics, multipliers, cyclic coordinates, the pendulum and the sphere.
 
-Prerequisites: chapters 1–3 and 5, and pages 1–2 of [chapter 8](../08-connection-and-curvature/index.md).
+Prerequisites: chapters 1–3 and 5, and pages 1–3 of [chapter 8](../08-connection-and-curvature/index.md).
 
 **Without a metric:** Hamilton's principle, the Euler–Lagrange equations and their tensoriality hold for any Lagrangian on $TQ$, quadratic in the velocities or not (page 3). The relativistic particle of [chapter 13](../13-special-relativity/02-relativistic-particle.md) is a case where $L$ is not of the form $T - V$.
 

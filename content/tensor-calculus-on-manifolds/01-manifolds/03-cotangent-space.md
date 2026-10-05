@@ -29,8 +29,8 @@ The components $\omega_i$ transform with the same matrix $\partial x^j/\partial 
 ## Pairing
 
 The defining operation between vectors and covectors is the pairing
-$$\tens{\omega}(\tens{v}) = \omega_i\, v^i \in \mathbb{R}$$
-— sum one up index with one down index. Both transformation rules cancel, so this is a chart-independent number; it is the geometric content of the duality. For $f \in C^\infty(M)$, $df_p(\tens{v}) = \tens{v}(f)$: pairing with a differential is differentiation.
+$$\tens{\omega}(\tens{v}) = \omega_i\, v^i \in \mathbb{R},$$
+one index up summed against one down. The two transformation rules cancel, so the pairing is a chart-independent number. Pairing with a differential is differentiation: $df_p(\tens{v}) = \tens{v}(f)$.
 
 ## Cotangent bundle and 1-forms
 
@@ -40,10 +40,10 @@ A **1-form** $\tens{\omega}$ on $M$ is a smooth section of $T^*M$, i.e. a smooth
 
 **Pullback.** For a smooth map $F: M \to N$ and $\tens{\eta} \in \Omega^1(N)$,
 $$(F^* \tens{\eta})_p(\tens{v}) := \tens{\eta}_{F(p)}(dF_p \cdot \tens{v}), \qquad \tens{v} \in T_p M.$$
-Forms pull back along *any* smooth map, while vector fields push forward only along diffeomorphisms. This asymmetry, pullback for covectors and pushforward for vectors, recurs throughout tensor calculus. (Terminology clash: $F \mapsto F^*$ reverses arrows, so it is "contravariant" in the categorical sense, although the components $\omega_i$ are "covariant" under chart changes. Both usages are standard.)
+Forms pull back along *any* smooth map. Tangent vectors push forward pointwise, but a field of them pushes forward to a field only along a diffeomorphism. This asymmetry, pullback for covectors and pushforward for vectors, recurs throughout tensor calculus. (Terminology clash: $F \mapsto F^*$ reverses arrows, so it is "contravariant" in the categorical sense, although the components $\omega_i$ are "covariant" under chart changes. Both usages are standard.)
 
 ## The tautological form
 
-$T^*M$ carries a canonical 1-form that needs no extra structure, the **tautological form** $\tens{\theta}$. At a point $\tens{\alpha} \in T^*_x M$ it is
+$T^*M$ carries a canonical 1-form that needs no extra structure, the **tautological form** $\tens{\theta}$. At a point $\tens{\alpha} \in T^*_q M$ it is
 $$\tens{\theta}_{\tens{\alpha}}(\tens{V}) := \tens{\alpha}\bigl(d\pi \cdot \tens{V}\bigr), \qquad \tens{V} \in T_{\tens{\alpha}}(T^*M),$$
 and in induced coordinates $\tens{\theta} = p_i\, dx^i$. Its exterior derivative $d\tens{\theta} = dp_i \wedge dx^i$ is the symplectic form of Hamiltonian mechanics ([chapter 11](../11-hamiltonian-mechanics/02-phase-space-and-symplectic-form.md)). There, $T^*Q$ is phase space and $(x^i, p_i)$ are written $(q^i, p_i)$.

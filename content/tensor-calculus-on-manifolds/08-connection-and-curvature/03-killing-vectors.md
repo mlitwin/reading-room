@@ -18,9 +18,9 @@ The flow of a Killing field is a one-parameter family of isometries, a continuou
 $$(\Lie_{\tens{\xi}} \tens{g})_{\mu\nu} = \nabla_\mu \xi_\nu + \nabla_\nu \xi_\mu = 0,$$
 so $\nabla_\mu \xi_\nu$ is antisymmetric.
 
-**Coordinate shortcut.** If every component $g_{\mu\nu}$ is independent of some coordinate $x^k$, then $\partial_k$ is Killing — "the metric doesn't change along $x^k$." Most Killing fields met in practice are found this way.
+**Coordinate shortcut.** If no component $g_{\mu\nu}$ depends on the coordinate $x^k$, then $\partial_k$ is Killing. Most Killing fields met in practice are found this way.
 
-Killing fields are closed under the [Lie bracket](note:lie-bracket), so they form a [Lie algebra](note:lie-algebra) — the Lie algebra of the isometry group. Its dimension is at most $n(n+1)/2$; spaces achieving the bound are **maximally symmetric** (spheres, Euclidean and hyperbolic spaces, and Minkowski, de Sitter and anti-de Sitter spacetimes).
+Killing fields are closed under the [Lie bracket](note:lie-bracket), so they form a [Lie algebra](note:lie-algebra), the Lie algebra of the isometry group. Its dimension is at most $n(n+1)/2$; spaces achieving the bound are **maximally symmetric** (spheres, Euclidean and hyperbolic spaces, and Minkowski, de Sitter and anti-de Sitter spacetimes).
 
 ## Conserved quantities along geodesics
 
@@ -32,9 +32,9 @@ This is the geodesic instance of [Noether's theorem](note:noethers-theorem): a K
 
 ## On the sphere
 
-The round metric $\tens{g} = d\theta^2 + \sin^2\theta\, d\varphi^2$ has no $\varphi$-dependence, so $\partial_\varphi$ is Killing — rotation about the $Z$-axis. The full Killing algebra is three-dimensional, $\mathfrak{so}(3)$, one field per rotation axis:
+The round metric $\tens{g} = d\theta^2 + \sin^2\theta\, d\varphi^2$ has no $\varphi$-dependence, so $\partial_\varphi$, rotation about the $Z$-axis, is Killing. The full Killing algebra is three-dimensional, $\mathfrak{so}(3)$, one field per rotation axis:
 $$\tens{\xi}_Z = \partial_\varphi, \qquad \tens{\xi}_X = -\sin\varphi\, \partial_\theta - \cot\theta\cos\varphi\, \partial_\varphi, \qquad \tens{\xi}_Y = \cos\varphi\, \partial_\theta - \cot\theta\sin\varphi\, \partial_\varphi.$$
-Three is the maximum $\tfrac{1}{2}n(n+1) = 3$ for $n = 2$: the round sphere is maximally symmetric. Only $\tens{\xi}_Z$ is visible as a coordinate symmetry of the standard chart; the other two mix $\theta$ and $\varphi$, which is the usual situation — a chart adapts to at most a few of the symmetries at once.
+Three is the maximum $\tfrac{1}{2}n(n+1) = 3$ for $n = 2$: the round sphere is maximally symmetric. Only $\tens{\xi}_Z$ is visible as a coordinate symmetry of the standard chart; the other two mix $\theta$ and $\varphi$, which is the usual situation: a chart adapts to at most a few symmetries at once.
 
 The finite version: every rotation $R \in SO(3)$ restricted to $S^2$ satisfies $R^* \tens{g} = \tens{g}$, and the three Killing fields generate these rotations.
 

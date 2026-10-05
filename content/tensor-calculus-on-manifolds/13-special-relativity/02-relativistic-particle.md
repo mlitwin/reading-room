@@ -16,6 +16,7 @@ It is written with a general metric $\tens{g}$ because nothing on this page depe
 **The quadratic substitute.** The same worldlines are the [Euler–Lagrange solutions](note:euler-lagrange-equations) of the natural Lagrangian
 $$L = \tfrac12\, g_{\mu\nu}\, \dot x^\mu \dot x^\nu, \qquad H = \tfrac12\, g^{\mu\nu}\, p_\mu p_\nu,$$
 whose solutions automatically have $\lambda$ proportional to proper time (an *affine* parameter). With the normalization $\lambda = \tau/m$, the momenta are $p_\mu = m\, u_\mu$ and the conserved value $H = -\tfrac12 m^2$ is the mass shell.
+
 This is [chapter 10](../10-lagrangian-mechanics/04-covariant-newton.md)'s natural system with $V = 0$, so its solutions are the geodesics $\nabla_{\dot x}\dot x = 0$. In Minkowski coordinates they are straight lines, $d u^\mu / d\tau = 0$. The quadratic form also covers null geodesics (massless particles), where proper time is zero.
 
 ## Coupling to electromagnetism

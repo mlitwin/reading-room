@@ -12,7 +12,7 @@ with inverse
 $$\theta = \tilde\theta, \qquad \varphi = \tilde\varphi - \alpha\cos\tilde\theta.$$
 The Jacobians are
 $$J = \frac{\partial(\tilde\theta, \tilde\varphi)}{\partial(\theta, \varphi)} = \begin{pmatrix} 1 & 0 \\ -\alpha\sin\theta & 1 \end{pmatrix}, \qquad J^{-1} = \frac{\partial(\theta, \varphi)}{\partial(\tilde\theta, \tilde\varphi)} = \begin{pmatrix} 1 & 0 \\ \alpha\sin\tilde\theta & 1 \end{pmatrix}.$$
-Both have determinant $1$. (The shear is volume-preserving.)
+Both have determinant $1$: the shear preserves coordinate area.
 
 ## Basis vectors transform with $J^{-1}$
 
@@ -24,7 +24,7 @@ matching what the [previous page](03-skew-coordinates.md) derived by differentia
 
 In matrix form, with the basis elements collected in a *row* vector (so that each new basis vector picks up a *column* of the matrix):
 $$\begin{pmatrix} \partial_{\tilde\theta} & \partial_{\tilde\varphi} \end{pmatrix} = \begin{pmatrix} \partial_\theta & \partial_\varphi \end{pmatrix} J^{-1}.$$
-The basis transforms with the **inverse** Jacobian. This is the defining property of a *covariant* index — moving with the basis, opposite to how vector components move.
+The basis transforms with the **inverse** Jacobian. An index that transforms this way, with the basis, is *covariant*; vector components move the opposite way.
 
 ![Both bases at the sample point, to scale: blue is the standard chart, yellow the skew chart. ∂φ̃ coincides with ∂φ; ∂θ̃ = ∂θ + α sin θ₀ ∂φ leans toward it.](../figures/chart-change-jacobian.svg)
 
@@ -34,7 +34,7 @@ A tangent vector $\tens{v}$ has components $v^\mu$ in the standard chart and $\t
 $$\tens{v} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi = \tilde v^{\tilde\theta}\, \partial_{\tilde\theta} + \tilde v^{\tilde\varphi}\, \partial_{\tilde\varphi}$$
 combined with the basis transformation above gives
 $$\tilde v^{\tilde\theta} = v^\theta, \qquad \tilde v^{\tilde\varphi} = v^\varphi - \alpha\sin\theta\, v^\theta,$$
-or in matrix form $\tilde v = J v$. Vector components transform with $J$, opposite to the basis — this is the *contravariant* transformation rule, and the reason vector indices are written **up**.
+or in matrix form $\tilde v = J v$. Vector components transform with $J$, opposite to the basis. This is the *contravariant* rule, and the reason vector indices are written **up**.
 
 A [covector](note:cotangent-space) $\tens{\omega}$ pairs against $\tens{v}$ to give a chart-independent number $\tens{\omega}(\tens{v}) = \omega_\mu v^\mu$. For that pairing to be invariant under chart change, the covector components must transform with $J^{-1}$:
 $$\tilde \omega_{\tilde\theta} = \omega_\theta + \alpha\sin\theta\, \omega_\varphi, \qquad \tilde \omega_{\tilde\varphi} = \omega_\varphi.$$
@@ -46,7 +46,7 @@ Take the function $f(p) = Z(p) = \cos\theta(p)$ (the embedded $Z$-coordinate). I
 $$df = -\sin\theta\, d\theta + 0 \cdot d\varphi, \quad \text{so} \quad \omega_\theta = -\sin\theta, \quad \omega_\varphi = 0.$$
 In the skew chart, applying the transformation rule:
 $$\tilde \omega_{\tilde\theta} = -\sin\tilde\theta + \alpha\sin\tilde\theta \cdot 0 = -\sin\tilde\theta, \qquad \tilde \omega_{\tilde\varphi} = 0.$$
-Same components — because $\tilde\theta = \theta$ and $f$ depends only on $\theta$. Sanity check.
+The components are unchanged, because $\tilde\theta = \theta$ and $f$ depends only on $\theta$.
 
 Now take the vector $\tens{v} = \partial_\varphi$ (rotation around the $Z$-axis). Its standard components are $(v^\theta, v^\varphi) = (0, 1)$. Skew components:
 $$\tilde v^{\tilde\theta} = 0, \qquad \tilde v^{\tilde\varphi} = 1 - \alpha\sin\theta \cdot 0 = 1.$$
@@ -70,7 +70,7 @@ The components changed; the number didn't.
 | Pairing $\tens{\omega}(\tens{v}) = \omega_\mu v^\mu$ | Yes |
 | Coordinate basis $\partial_\mu$ at a point | **No** — chart-dependent |
 | Dual coordinate basis $dx^\mu$ at a point | **No** — chart-dependent |
-| Lengths, angles (when a metric is fixed) | Yes |
+| Lengths and angles | Yes |
 | [Christoffel symbols](note:affine-connection) $\Gamma^\rho{}_{\mu\nu}$ | **No** — not even tensorial |
 
 The tensor calculus of the following chapters keeps the intrinsic objects in view while computing with their chart-dependent components.

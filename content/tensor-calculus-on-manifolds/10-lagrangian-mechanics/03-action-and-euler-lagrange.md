@@ -22,7 +22,7 @@ The boundary term vanishes for fixed endpoints. Requiring $\delta S = 0$ for eve
 $$\boxed{\quad E_i := \frac{d}{dt}\frac{\partial L}{\partial \dot q^i} - \frac{\partial L}{\partial q^i} = 0, \qquad i = 1, \ldots, n. \quad}$$
 With non-conservative generalized forces $\tens{F} = F_i\, dq^i$ ([page 1](01-newtonian-mechanics.md)), the equations become $E_i = F_i$.
 
-**Regularity.** The Euler–Lagrange equations are $n$ second-order ODEs. When the velocity Hessian $\partial^2 L / \partial \dot q^i \partial \dot q^j$ is invertible, they can be solved for $\ddot q$. For a natural system the Hessian is $g_{ij}$, invertible by definition. Solutions are then locally unique given $(q, \dot q)$ at one instant.
+**Regularity.** The Euler–Lagrange equations are $n$ second-order ODEs. When the velocity Hessian $\partial^2 L / \partial \dot q^i \partial \dot q^j$ is invertible, they can be solved for $\ddot q$, and solutions are locally unique given $(q, \dot q)$ at one instant. For a natural system the Hessian is $g_{ij}$, invertible by definition.
 
 ## Why the equations are tensorial
 

@@ -8,7 +8,7 @@ Phase space $T^*Q$ carries the [tautological 1-form](../01-manifolds/03-cotangen
 $$\tens{\omega} := d\tens{\theta} = dp_i \wedge dq^i.$$
 It is closed (indeed exact) and non-degenerate: $\tens{X} \mapsto \iota_{\tens{X}} \tens{\omega}$ is an isomorphism from vector fields to 1-forms. **Darboux's theorem** says every symplectic manifold looks like this locally: coordinates $(q^i, p_i)$ with $\tens{\omega} = dp_i \wedge dq^i$ exist around every point. Such coordinates are called canonical.
 
-Sign conventions differ between texts. This book follows Arnold, as recorded on the [notation page](../00-notation.md).
+Sign conventions differ between texts. This book follows Arnold; the conventions are tabulated in the [chapter index](index.md).
 
 ## Hamiltonian vector fields
 

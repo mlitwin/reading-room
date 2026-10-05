@@ -17,7 +17,7 @@ That this is tensorial (i.e. $C^\infty(M)$-bilinear) is a one-line check from th
 $$T^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\mu\nu} - \Gamma^\rho{}_{\nu\mu},$$
 twice the antisymmetric part $\Gamma^\rho{}_{[\mu\nu]}$ of the Christoffels in their lower indices.
 
-A connection is **torsion-free** iff $\Tor = 0$. Levi-Civita is torsion-free by axiom. In Einstein–Cartan gravity, torsion is allowed and couples to spinning matter.
+A connection is **torsion-free** iff $\Tor = 0$. The Levi-Civita connection is torsion-free by definition. In Einstein–Cartan gravity, torsion is allowed and couples to spinning matter.
 
 **Geometric picture.** Take two infinitesimal vectors $\tens{u}, \tens{v}$ at $p$; transport $\tens{u}$ along $\tens{v}$ and $\tens{v}$ along $\tens{u}$ to form a small "parallelogram." With torsion it fails to close, by $\Tor(\tens{u}, \tens{v})$ at leading order. Curvature is a different defect: it measures how a vector *turns* when carried around a closed loop.
 

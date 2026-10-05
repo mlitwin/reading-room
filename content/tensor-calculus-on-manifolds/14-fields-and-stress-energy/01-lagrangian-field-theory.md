@@ -15,7 +15,7 @@ where $\mathrm{vol}_g$ is the metric [volume form](note:volume-form). The mechan
 | velocities $\dot q^i$ | derivatives $\nabla_\mu \phi$ |
 | $L(q, \dot q)$, $S = \int L\, dt$ | $\mathcal{L}(\phi, \nabla\phi)$, $S = \int \mathcal{L}\, \mathrm{vol}_g$ |
 
-Varying $\phi \mapsto \phi + \delta\phi$ with $\delta\phi$ compactly supported, and integrating by parts by the divergence form of [Stokes's theorem](note:stokess-theorem), gives the **field Euler–Lagrange equations**
+Varying $\phi \mapsto \phi + \delta\phi$ with $\delta\phi$ compactly supported, and integrating by parts with the [divergence theorem](../07-integration/03-stokes-theorem.md), gives the **field Euler–Lagrange equations**
 $$\boxed{\quad \nabla_\mu\, \frac{\partial \mathcal{L}}{\partial(\nabla_\mu \phi)} - \frac{\partial \mathcal{L}}{\partial \phi} = 0. \quad}$$
 In Minkowski space with inertial coordinates, $\nabla_\mu$ is $\partial_\mu$ and $\mathrm{vol}_g$ is $d^4x$ ([flat reduction](../13-special-relativity/01-minkowski-spacetime.md)).
 

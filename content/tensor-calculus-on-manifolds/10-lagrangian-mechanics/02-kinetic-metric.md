@@ -19,4 +19,4 @@ The rest of the chapter, and chapters 11–12, take a natural system as the stan
 - a holonomic constraint replaces $\tens{g}$ by an induced metric ([page 5](05-constraints-and-examples.md));
 - symmetries are Killing fields of $\tens{g}$ that preserve $V$ ([chapter 12](../12-symmetry-and-noether/02-symmetry-and-the-sphere.md)).
 
-**Lorentzian kinetic metrics.** Positive kinetic energy makes $\tens{g}$ Riemannian. A relativistic particle has a Lorentzian "kinetic metric", spacetime's own $\tens{g}$, and no potential. Free fall is then its geodesic motion ([chapter 13](../13-special-relativity/02-relativistic-particle.md)).
+**Lorentzian kinetic metrics.** A relativistic particle has a Lorentzian "kinetic metric", spacetime's own $\tens{g}$, and no potential. Free fall is then its geodesic motion ([chapter 13](../13-special-relativity/02-relativistic-particle.md)).

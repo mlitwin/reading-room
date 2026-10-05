@@ -26,7 +26,7 @@ By Cartan's formula ([chapter 6](../06-differential-forms/02-exterior-derivative
 
 For the round metric $\tens{g} = d\theta^2 + \sin^2\theta\, d\varphi^2$ ([chapter 4](../04-coordinate-systems/06-the-round-metric.md)), $\det g = \sin^2\theta$ and
 $$\mathrm{vol}_g = \sin\theta\; d\theta \wedge d\varphi.$$
-Evaluated on the coordinate basis, $\mathrm{vol}_g(\partial_\theta, \partial_\varphi) = \sin\theta$, the area of the coordinate parallelogram. Its components are $\omega_{\theta\varphi} = -\omega_{\varphi\theta} = \sin\theta$. Integrating gives the area of the unit sphere:
+Evaluated on the coordinate basis, $\mathrm{vol}_g(\partial_\theta, \partial_\varphi) = \sin\theta$, the area of the coordinate parallelogram. Its components are $(\mathrm{vol}_g)_{\theta\varphi} = -(\mathrm{vol}_g)_{\varphi\theta} = \sin\theta$. Integrating gives the area of the unit sphere:
 $$\int_{S^2} \mathrm{vol}_g = \int_0^\pi \!\! \int_0^{2\pi} \sin\theta\; d\varphi\, d\theta = 4\pi.$$
 In the skew chart $\det g = \sin^2\tilde\theta$ as well, because the chart change has Jacobian determinant $1$, so $\mathrm{vol}_g = \sin\tilde\theta\, d\tilde\theta \wedge d\tilde\varphi$. In the stereographic chart the chain rule gives
 $$\mathrm{vol}_g = \frac{4}{(1 + x^2 + y^2)^2}\; dx \wedge dy.$$

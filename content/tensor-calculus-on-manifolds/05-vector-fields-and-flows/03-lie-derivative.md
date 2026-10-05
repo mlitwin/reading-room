@@ -4,7 +4,7 @@ title: Lie derivative
 
 The **Lie derivative** $\Lie_{\tens{X}} \tens{T}$ measures the infinitesimal rate of change of a [tensor field](note:tensor-field) $\tens{T}$ along the flow of $\tens{X}$. For each tensor type the definition is
 $$\Lie_{\tens{X}} \tens{T} := \frac{d}{dt}\bigg|_{t=0} (\theta_t^* \tens{T}),$$
-where $\theta_t$ is the flow of $\tens{X}$ and $\theta_t^*$ is its [pullback](note:pullback). Each $\theta_t$ is a diffeomorphism, so tensors of every type can be pulled back. On a vector field, $\theta_t^*$ means pushing forward by $\theta_{-t}$.
+where $\theta_t$ is the flow of $\tens{X}$ and $\theta_t^*$ is its [pullback](note:pullback). Each $\theta_t$ is a diffeomorphism onto its image, so tensors of every type can be pulled back. On a vector field, $\theta_t^*$ means pushing forward by $\theta_{-t}$.
 
 **Specializations.**
 

@@ -2,7 +2,7 @@
 title: Newton–Cartan gravity
 ---
 
-The [Newtonian limit](04-newtonian-limit.md) recovers Newton's gravity from general relativity approximately. Cartan (1923) showed that Newton's theory can be stated *exactly* in the same geometric language. Gravity becomes the curvature of a spacetime connection, free fall becomes geodesic motion, and Poisson's equation becomes a curvature equation. What Newtonian spacetime lacks is a spacetime metric. Units are $G = 1$.
+The [Newtonian limit](04-newtonian-limit.md) recovers Newton's gravity from general relativity approximately. Cartan (1923) showed that Newton's theory can be stated *exactly* in the same geometric language. Gravity becomes the curvature of a spacetime connection, free fall becomes geodesic motion, and Poisson's equation becomes a curvature equation. What Newtonian spacetime lacks is a spacetime metric, so this is the book's worked case of a connection [without a metric](../08-connection-and-curvature/01-the-connection.md): there is no Levi-Civita connection to fall back on. Units are $G = 1$.
 
 ## Galilean structure
 

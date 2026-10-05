@@ -403,7 +403,7 @@ The **tetrad** (or **vielbein**) formulation of gravity. Replace the coordinate 
 $$\tens{g} = \eta_{ab}\; e^a \otimes e^b,$$
 where $\tens{\eta}$ is the flat metric of the appropriate signature ("tetrad" when $n = 4$). The connection becomes the **spin connection** $\omega^a{}_b$, a matrix of one-forms, and torsion and curvature become the two-forms of the **Cartan structure equations**
 $$T^a = de^a + \omega^a{}_b \wedge e^b, \qquad R^a{}_b = d\omega^a{}_b + \omega^a{}_c \wedge \omega^c{}_b.$$
-The payoff: [spinor](note:spinor) fields on curved spacetime become definable (spinors transform under local frame rotations, which the coordinate-basis formalism has no handle on), and the [Einstein–Cartan](15-general-relativity/03-einstein-cartan.md) action becomes a polynomial in differential forms. Misner–Thorne–Wheeler (chapter 13) and Nakahara develop the formalism in full.
+The payoff: [spinor](note:spinor) fields on curved spacetime become definable (spinors transform under local frame rotations, which the coordinate-basis formalism has no handle on), and the [Einstein–Cartan](15-general-relativity/03-einstein-cartan.md) action becomes a polynomial in differential forms. Misner–Thorne–Wheeler (chapter 14) and Nakahara develop the formalism in full.
 
 ## Spinor
 
