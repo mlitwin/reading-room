@@ -12,7 +12,7 @@ The book is in two parts. **Part I** is the abstract foundation: smooth manifold
 
 A companion review, [`classical-mechanics`](../classical-mechanics/index.md), develops the Lagrangian and Hamiltonian formalisms and Noether's theorem; this book references it where mechanics and geometry meet — most directly at [Killing vectors](note:killing-vector), where the conserved quantities of geodesic motion are the geodesic instance of Noether's theorem.
 
-Notation throughout: $M, N$ are smooth manifolds; $p \in M$; $T_p M$ is the tangent space at $p$ with coordinate basis $\partial_i := \partial/\partial x^i$, and $T^*_p M$ the cotangent space with dual basis $dx^i$; $\Omega^k(M)$ is the space of smooth $k$-forms; $X, Y, Z$ are vector fields; $\omega, \eta$ are forms. In the GR chapters, Greek indices $\mu, \nu, \rho, \sigma$ range over spacetime dimensions $0,1,2,3$ and Latin indices $i, j, k$ over spatial dimensions $1,2,3$; the metric signature is $(-,+,+,+)$ when Lorentzian. The [Einstein summation convention](note:einstein-summation) is in force throughout: any index appearing once up and once down in the same expression is summed.
+Notation is introduced as it is needed. The index, sign and typeface conventions, and a table of every symbol (with Greek letters spelled out), are collected on the [notation page](00-notation.md). The [Einstein summation convention](note:einstein-summation) is in force throughout.
 
 ## Part I — Calculus on manifolds
 

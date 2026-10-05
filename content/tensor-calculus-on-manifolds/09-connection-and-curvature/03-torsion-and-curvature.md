@@ -2,7 +2,7 @@
 title: Torsion and curvature
 ---
 
-Out of any connection $\nabla$ come two tensor fields: the **torsion** $T$ and the **Riemann curvature** $R$. Both are obstructions to "$\nabla$ behaves like the partial derivative":
+Out of any [connection](note:affine-connection) $\nabla$ come two tensor fields: the **torsion** $T$ and the **Riemann curvature** $R$. Both are obstructions to "$\nabla$ behaves like the partial derivative":
 
 - $T = 0$ means the antisymmetrized covariant derivative reproduces the Lie bracket, $\nabla_X Y - \nabla_Y X = [X, Y]$, as partial derivatives do in flat space.
 - $R = 0$ means iterated covariant derivatives commute, $\nabla_X \nabla_Y - \nabla_Y \nabla_X - \nabla_{[X, Y]} = 0$.
@@ -13,7 +13,7 @@ Both are defined for any affine connection; together they characterize the conne
 
 The **torsion tensor** of $\nabla$ is the $(1, 2)$-tensor
 $$T(X, Y) := \nabla_X Y - \nabla_Y X - [X, Y].$$
-That this is tensorial (i.e. $C^\infty(M)$-bilinear) is a one-line check from the Leibniz rule and the bracket identity. In components,
+That this is tensorial (i.e. $C^\infty(M)$-bilinear) is a one-line check from the Leibniz rule and the [bracket identity](note:lie-bracket). In components,
 $$T^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\mu\nu} - \Gamma^\rho{}_{\nu\mu},$$
 twice the antisymmetric part $\Gamma^\rho{}_{[\mu\nu]}$ of the Christoffels in their lower indices.
 
@@ -29,13 +29,13 @@ In components,
 $$R^\rho{}_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho{}_{\nu\sigma} - \partial_\nu \Gamma^\rho{}_{\mu\sigma} + \Gamma^\rho{}_{\mu\lambda}\, \Gamma^\lambda{}_{\nu\sigma} - \Gamma^\rho{}_{\nu\lambda}\, \Gamma^\lambda{}_{\mu\sigma}.$$
 Index conventions vary; the placement here — that of Misner–Thorne–Wheeler and Carroll — puts the output index $\rho$ up, the index $\sigma$ of the vector being transported next, and the two antisymmetrized loop directions $\mu, \nu$ last. Other texts (Wald, for one) permute the slots or differ by an overall sign.
 
-**Geometric picture.** Parallel-transport $Z \in T_p M$ around the small parallelogram at $p$ with sides $\varepsilon u, \varepsilon v$, traversed first along $u$, then $v$. The returned vector $Z'$ differs from $Z$ by
+**Geometric picture.** [Parallel-transport](note:parallel-transport) $Z \in T_p M$ around the small parallelogram at $p$ with sides $\varepsilon u, \varepsilon v$, traversed first along $u$, then $v$. The returned vector $Z'$ differs from $Z$ by
 $$Z' - Z = -\varepsilon^2\, R(u, v) Z + O(\varepsilon^3).$$
 The Riemann tensor measures the leading-order failure of parallel-transport around a loop to return a vector to itself.
 
 ## Symmetries (Levi-Civita)
 
-Lower the first index: $R_{\rho\sigma\mu\nu} := g_{\rho\lambda}\, R^\lambda{}_{\sigma\mu\nu}$. For the Levi-Civita connection, the lowered Riemann tensor has
+Lower the first index: $R_{\rho\sigma\mu\nu} := g_{\rho\lambda}\, R^\lambda{}_{\sigma\mu\nu}$. For the [Levi-Civita connection](note:levi-civita), the lowered Riemann tensor has
 
 - **Antisymmetry in the first pair:** $R_{\rho\sigma\mu\nu} = -R_{\sigma\rho\mu\nu}$.
 - **Antisymmetry in the second pair:** $R_{\rho\sigma\mu\nu} = -R_{\rho\sigma\nu\mu}$.
@@ -62,7 +62,7 @@ A differential constraint on Riemann (Levi-Civita case):
 $$\nabla_{[\lambda} R_{\rho\sigma]\mu\nu} = 0 \quad \Longleftrightarrow \quad \nabla_\lambda R_{\rho\sigma\mu\nu} + \nabla_\rho R_{\sigma\lambda\mu\nu} + \nabla_\sigma R_{\lambda\rho\mu\nu} = 0.$$
 Contracting with $g^{\lambda\mu}$ and $g^{\rho\nu}$ gives the **contracted Bianchi identity**:
 $$\nabla^\mu G_{\mu\nu} = 0, \qquad G_{\mu\nu} := R_{\mu\nu} - \tfrac{1}{2}\, R\, g_{\mu\nu}.$$
-The tensor $G_{\mu\nu}$ is the **Einstein tensor**, and its automatic divergencelessness is what makes it the right object on the left of the Einstein equations (next chapter). Conservation of the stress–energy tensor on the right is enforced by the geometry on the left.
+The tensor $G_{\mu\nu}$ is the **Einstein tensor**, and its automatic divergencelessness is what makes it the right object on the left of the [Einstein equations](note:einstein-equations) (next chapter). Conservation of the [stress–energy tensor](note:stress-energy-tensor) on the right is enforced by the geometry on the left.
 
 ## Sectional curvature (Riemannian only)
 

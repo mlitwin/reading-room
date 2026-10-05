@@ -2,7 +2,7 @@
 title: "Aside: a metric at a point"
 ---
 
-Everything in Part I works on a bare manifold — no lengths, no angles, no causal structure. This page is the one preview of the structure Part II adds, at the level where it is pure linear algebra: a single tangent space at a single point. **Nothing in chapters 2–5 uses this page.** It sits here because the previous page raises exactly the question it answers — vectors and covectors are dual but not identified — and because its Lorentzian case is where special relativity lives.
+Everything in Part I works on a bare manifold — no lengths, no angles, no causal structure. This page is the one preview of the structure Part II adds, at the level where it is pure linear algebra: a [single tangent space](note:tangent-space) at a single point. **Nothing in chapters 2–5 uses this page.** It sits here because the previous page raises exactly the question it answers — vectors and covectors are dual but not identified — and because its Lorentzian case is where special relativity lives.
 
 ## An inner product on $T_p M$
 

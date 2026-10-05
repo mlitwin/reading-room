@@ -30,15 +30,15 @@ The last is the trace of $\mathrm{id}_{T_p M}$ and is a constant scalar. In Lore
 
 ## Trace of a $(1, 1)$-tensor
 
-For a $(1, 1)$-tensor $T^\mu{}_\nu$ — equivalently a linear endomorphism of $T_p M$ — the **trace** is the contraction
+For a $(1, 1)$-tensor $T^\mu{}_\nu$ — equivalently a linear endomorphism of $T_p M$ — the **trace** is the [contraction](note:contraction)
 $$\mathrm{tr}\, T := T^\mu{}_\mu.$$
 No metric needed. For a $(0, 2)$-tensor $T_{\mu\nu}$, the trace requires raising one index:
 $$\mathrm{tr}_g T := g^{\mu\nu}\, T_{\mu\nu} = T^\mu{}_\mu.$$
-This is the **metric trace**. The metric trace of the metric is $n$ (above); the metric trace of the Ricci tensor will give the scalar curvature, far down the road.
+This is the **metric trace**. The metric trace of the metric is $n$ (above); the metric trace of the [Ricci tensor](note:ricci-and-einstein-tensors) will give the scalar curvature, far down the road.
 
 ## The volume form
 
-A metric and an orientation together define a canonical **volume form** $\mathrm{vol}_g \in \Omega^n(M)$:
+A metric and an [orientation](note:orientation) together define a canonical **volume form** $\mathrm{vol}_g \in \Omega^n(M)$:
 $$\mathrm{vol}_g = \sqrt{|\det g|}\; dx^1 \wedge \cdots \wedge dx^n$$
 in any positively-oriented chart. The absolute value handles signature: $\det g > 0$ for Riemannian, $\det g < 0$ for Lorentzian of signature $(-, +, +, +)$.
 

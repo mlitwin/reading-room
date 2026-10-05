@@ -37,6 +37,22 @@ An **abstract smooth manifold** is a [Hausdorff](note:hausdorff), [second-counta
 
 All structures — tangent spaces, tensor fields, metrics, connections — are then built intrinsically. The geometry in this book is mostly abstract, with the embedded view brought in as the geometrically transparent special case.
 
+## Chart
+
+A **chart** $(U, \varphi)$ is an open set $U \subseteq M$ with a homeomorphism $\varphi: U \to \varphi(U) \subseteq \mathbb{R}^n$; its components $x^i = \varphi^i$ are local coordinates. Two charts are compatible when the **transition map** $\psi \circ \varphi^{-1}$ is a diffeomorphism on the overlap. A covering family of compatible charts is an **atlas**, and a maximal atlas is a smooth structure. Chapter 6 works with the inverse direction, the parametrization $\Phi = \varphi^{-1}$. Defined on the [charts page](01-manifolds/01-charts-and-smooth-maps.md).
+
+## Tangent space
+
+$T_p M$ is the $n$-dimensional space of velocities of curves through $p$. Equivalently, it is the space of [derivations](note:derivation) at $p$. In a chart it has the basis $\partial_i = \partial/\partial x^i$, and a vector is $v = v^i\, \partial_i$. Under a change of chart the components transform with the Jacobian, $v'^{i'} = (\partial x'^{i'}/\partial x^j)\, v^j$. The basis transforms with its inverse, which is why the index is up (contravariant). Defined on the [tangent-space page](01-manifolds/02-tangent-space.md).
+
+## Differential of a map
+
+For smooth $F: M \to N$, the **differential** (or **pushforward**) $dF_p = F_{*,p}: T_p M \to T_{F(p)} N$ is $(dF_p\, v)(g) = v(g \circ F)$. Its matrix in coordinates is the Jacobian $\partial F^{i'}/\partial x^j$, and the chain rule reads $d(G \circ F) = dG \circ dF$. It is the dual of the [pullback](note:pullback). Defined on the [tangent-space page](01-manifolds/02-tangent-space.md).
+
+## Cotangent space
+
+$T^*_p M$ is the [dual](note:dual-space) of the [tangent space](note:tangent-space): the linear functionals on $T_p M$, called covectors or 1-forms at $p$. The dual basis $dx^i$ satisfies $dx^i(\partial_j) = \delta^i_j$, and a covector is $\omega = \omega_i\, dx^i$. The components transform with the same matrix as $\partial_i$ (covariant, index down). The differential of a function is $df(v) = v(f)$, and the pairing $\omega(v) = \omega_i v^i$ is chart-independent. Defined on the [cotangent-space page](01-manifolds/03-cotangent-space.md).
+
 ## Immersion
 
 A smooth map $F: M \to N$ is an **immersion** if its differential $dF_p: T_p M \to T_{F(p)} N$ is injective at every point. (Compare: a **submersion** has surjective differential; an **embedding** is an injective immersion that is a homeomorphism onto its image.) Immersions are the maps through which *Riemannian* metrics [pull back](note:pullback) to metrics: for positive-definite $g$, $F^* g$ is non-degenerate exactly when $dF_p$ is injective. In indefinite signature injectivity is necessary but not sufficient — a null hyperplane in [Minkowski space](note:minkowski-space) is embedded, yet its induced metric is degenerate. An immersion can self-intersect (a figure-eight curve in the plane); an [embedded submanifold](note:embedded-manifold) cannot.
@@ -83,6 +99,10 @@ A **Lie group** is a group that is also a smooth manifold, with multiplication a
 
 The **flow** of a vector field $X$ is the map $\theta_t(p)$ that follows the integral curve of $X$ from $p$ for parameter time $t$: $\theta_0 = \mathrm{id}$, $\frac{d}{dt}\theta_t(p) = X_{\theta_t(p)}$, with the group law $\theta_t \circ \theta_s = \theta_{t+s}$ where defined. Each $\theta_t$ is a diffeomorphism between open subsets — a flow is a one-parameter family of transformations of $M$, and every such family arises this way from its velocity field. A vector field whose flow is defined for all $t \in \mathbb{R}$ is **complete**; [compactly supported](note:compact-support) fields always are. Defined in full on the [flows page](02-vector-fields-and-flows/02-flows-and-lie-bracket.md).
 
+## Lie bracket
+
+The vector field $[X, Y] f := X(Y f) - Y(X f)$, in components $[X, Y]^k = X^i \partial_i Y^k - Y^i \partial_i X^k$. It is bilinear over $\mathbb{R}$, antisymmetric, and satisfies the Jacobi identity, which makes $\mathfrak{X}(M)$ a [Lie algebra](note:lie-algebra). It is not $C^\infty(M)$-bilinear: $[X, fY] = f[X, Y] + X(f)\, Y$. It vanishes exactly when the [flows](note:flow) of $X$ and $Y$ commute, and it equals $\mathcal{L}_X Y$. Defined on the [flows page](02-vector-fields-and-flows/02-flows-and-lie-bracket.md).
+
 ## Lie derivative
 
 The rate of change of a [tensor field](note:tensor-field) $T$ along the [flow](note:flow) $\theta_t$ of a vector field $X$:
@@ -94,6 +114,44 @@ with $\theta_t^*$ the [pullback](note:pullback). Specializations: on functions $
 The contraction of a vector field into the first slot of a $k$-form:
 $$\iota_X: \Omega^k(M) \to \Omega^{k-1}(M), \qquad (\iota_X \omega)(Y_1, \ldots, Y_{k-1}) := \omega(X, Y_1, \ldots, Y_{k-1}).$$
 A graded antiderivation: $\iota_X(\omega \wedge \eta) = (\iota_X \omega) \wedge \eta + (-1)^k\, \omega \wedge (\iota_X \eta)$ for $\omega \in \Omega^k$, and $\iota_X^2 = 0$. It appears in Cartan's magic formula $\mathcal{L}_X = \iota_X d + d\, \iota_X$ ([Lie derivative](note:lie-derivative)) and in the boundary-orientation rule $\iota_\nu \Omega$ of Stokes's theorem. Introduced on the [Lie-derivative page](02-vector-fields-and-flows/03-lie-derivative.md).
+
+## Differential form
+
+A **$k$-form** at $p$ is an alternating multilinear map on $k$ tangent vectors. These form the space $\Lambda^k T^*_p M$, of dimension $\binom{n}{k}$. A differential $k$-form is a smooth field of them; the space of all of them is $\Omega^k(M)$. In coordinates, $\omega = \tfrac{1}{k!}\, \omega_{i_1 \cdots i_k}\, dx^{i_1} \wedge \cdots \wedge dx^{i_k}$ ([convention](note:wedge-convention)). The **wedge product** is associative and graded-commutative, $\omega \wedge \eta = (-1)^{k\ell}\, \eta \wedge \omega$. Defined on the [$k$-forms page](03-differential-forms/01-k-forms-and-wedge.md).
+
+## Exterior derivative
+
+The unique $\mathbb{R}$-linear $d: \Omega^k \to \Omega^{k+1}$ satisfying three conditions:
+
+- on functions it is the differential $df$;
+- graded Leibniz: $d(\omega \wedge \eta) = d\omega \wedge \eta + (-1)^k\, \omega \wedge d\eta$;
+- $d \circ d = 0$.
+
+In coordinates, $d\omega = \tfrac{1}{k!}\, \partial_j \omega_{i_1 \cdots i_k}\, dx^j \wedge dx^{i_1} \wedge \cdots \wedge dx^{i_k}$. It commutes with [pullback](note:pullback). Defined on the [exterior-derivative page](03-differential-forms/02-exterior-derivative-and-pullback.md).
+
+## Closed and exact forms
+
+A form is **closed** if $d\omega = 0$ and **exact** if $\omega = d\eta$. Every exact form is closed, because $d^2 = 0$. The converse holds locally (on [contractible](note:contractible) sets, the Poincaré lemma) but fails globally. The standard example is $(-y\, dx + x\, dy)/(x^2 + y^2)$ on the punctured plane, which integrates to $2\pi$ around the origin. The gap is measured by [de Rham cohomology](note:de-rham-cohomology). Defined on the [closed-and-exact page](03-differential-forms/03-closed-and-exact.md).
+
+## Orientation
+
+An **orientation** of an $n$-manifold is a nowhere-vanishing $n$-form, taken up to multiplication by a positive function. A chart is positively oriented when $dx^1 \wedge \cdots \wedge dx^n$ agrees with it. An orientation is what makes $\int_M \omega$ of an $n$-form well-defined: the change-of-variables Jacobian then always has positive sign. The Möbius strip and Klein bottle admit none. Defined on the [integration page](04-integration/01-orientation-and-integration.md).
+
+## Stokes's theorem
+
+For an [oriented](note:orientation) $n$-manifold $M$ with boundary and a compactly supported $(n-1)$-form $\omega$,
+$$\int_M d\omega = \int_{\partial M} \omega,$$
+with $\partial M$ given the outward-normal-first orientation. It contains the fundamental theorem of calculus, Green's theorem, the classical Stokes theorem, and the divergence theorem. It also underlies integration by parts in every variational derivation. Defined on the [Stokes page](04-integration/02-stokes-theorem.md).
+
+## De Rham cohomology
+
+$H^k_{dR}(M) := \{\text{closed } k\text{-forms}\} / \{\text{exact } k\text{-forms}\}$, a real vector space and a topological invariant. Examples:
+
+- $H^0 \cong \mathbb{R}^{\#\text{components}}$;
+- $H^k(\mathbb{R}^n) = 0$ for $k \geq 1$;
+- $S^n$ has $H^0 = H^n = \mathbb{R}$.
+
+De Rham's theorem identifies it with [singular cohomology](note:singular-cohomology) with real coefficients. Defined on the [cohomology page](05-de-rham/01-cohomology.md).
 
 ## Tensor field
 
@@ -113,6 +171,19 @@ Two ramifications. First, repeated indices in the same vertical position ($v^\mu
 Under a change of coordinates $x^\mu \mapsto x'^{\mu'}(x)$, the components of an $(r, s)$-tensor transform as
 $$T'^{\mu'_1 \cdots \mu'_r}{}_{\nu'_1 \cdots \nu'_s} = \frac{\partial x'^{\mu'_1}}{\partial x^{\mu_1}} \cdots \frac{\partial x'^{\mu'_r}}{\partial x^{\mu_r}}\; \frac{\partial x^{\nu_1}}{\partial x'^{\nu'_1}} \cdots \frac{\partial x^{\nu_s}}{\partial x'^{\nu'_s}}\; T^{\mu_1 \cdots \mu_r}{}_{\nu_1 \cdots \nu_s}$$
 — one forward Jacobian factor per upper index, one inverse Jacobian factor per lower index. A component array obeying this rule on every chart overlap *is* a tensor; an array that picks up extra inhomogeneous terms (the Christoffel symbols are the standard example) is not. Stated and unpacked on the [coordinate-components page](07-tensors/02-coordinate-components.md).
+
+## Contraction
+
+Pairing one upper index of a tensor with one lower index and summing, which turns an $(r, s)$-tensor into an $(r-1, s-1)$-tensor: $T^{\cdots\lambda\cdots}{}_{\cdots\lambda\cdots}$. It needs no metric. Examples: the pairing $\omega_\mu v^\mu$; the trace $T^\mu{}_\mu$ of a $(1, 1)$-tensor; the Ricci tensor $R^\lambda{}_{\mu\lambda\nu}$. Contracting two lower indices requires the inverse metric (the *metric trace* $g^{\mu\nu} T_{\mu\nu}$). Defined on the [multilinear-maps page](07-tensors/01-multilinear-and-rank.md).
+
+## Metric
+
+A smooth symmetric non-degenerate $(0, 2)$-[tensor field](note:tensor-field) $g = g_{\mu\nu}\, dx^\mu \otimes dx^\nu$, with inverse $g^{\mu\nu}$ ($g^{\mu\rho} g_{\rho\nu} = \delta^\mu_\nu$). Its **signature** is the numbers of positive and negative eigenvalues:
+
+- **Riemannian:** all positive; lengths and angles are defined.
+- **Lorentzian:** $(-, +, +, +)$ in this book; it adds the timelike / null / spacelike classification.
+
+It supplies the [musical isomorphisms](note:musical-isomorphism), the [volume form](note:volume-form), and the [Levi-Civita connection](note:levi-civita). Defined on the [metric-tensor page](08-metric/01-the-metric-tensor.md).
 
 ## Running example
 
@@ -157,6 +228,10 @@ On an oriented pseudo-Riemannian manifold, the canonical top-degree form
 $$\mathrm{vol}_g = \sqrt{|\det g|}\; dx^1 \wedge \cdots \wedge dx^n$$
 in any positively-oriented chart — chart-independent, because the Jacobian factors from $\det g$ and from the wedge cancel. It integrates scalars: $\int_M f\, \mathrm{vol}_g$ is well-defined for compactly supported $f$. As a tensor it is the [Levi-Civita](note:levi-civita) tensor. On the unit sphere, $\mathrm{vol}_g = \sin\theta\, d\theta \wedge d\varphi$, total area $4\pi$. Constructed on the [raising-and-lowering page](08-metric/02-raising-and-lowering.md).
 
+## Affine connection
+
+An $\mathbb{R}$-bilinear $\nabla: (X, Y) \mapsto \nabla_X Y$ that is $C^\infty(M)$-linear in $X$ and Leibniz in $Y$: $\nabla_X(fY) = X(f)\, Y + f\, \nabla_X Y$. It is the extra structure needed to compare tangent vectors at different points. Its coefficients in a chart, $\nabla_{\partial_\mu} \partial_\nu = \Gamma^\rho{}_{\mu\nu}\, \partial_\rho$ (the **Christoffel symbols**), are *not* a tensor: their transformation law has an inhomogeneous second-derivative term. The difference of two connections *is* a $(1, 2)$-tensor. Defined on the [affine-connection page](09-connection-and-curvature/01-affine-connection.md).
+
 ## Covariant derivative
 
 The derivative operator $\nabla$ of a connection, extended to all tensor fields: in components, one Christoffel correction per index,
@@ -180,6 +255,42 @@ For the Levi-Civita connection these are the locally length-extremizing curves �
 This book (following Misner–Thorne–Wheeler and Carroll) writes
 $$R^\rho{}_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho{}_{\nu\sigma} - \partial_\nu \Gamma^\rho{}_{\mu\sigma} + \Gamma^\rho{}_{\mu\lambda}\, \Gamma^\lambda{}_{\nu\sigma} - \Gamma^\rho{}_{\nu\lambda}\, \Gamma^\lambda{}_{\mu\sigma},$$
 matching $R(X, Y) Z := \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z$: the output index $\rho$ first, then the index $\sigma$ of the vector being transported, then the two antisymmetrized loop directions $\mu, \nu$. Mnemonic: [parallel transport](note:parallel-transport) of $Z$ around the small loop with sides $\varepsilon u, \varepsilon v$ ($u$ first) changes it by $-\varepsilon^2 R(u, v)\, Z$. Other texts permute slots or flip the overall sign — check conventions before comparing formulas.
+
+## Torsion
+
+The $(1, 2)$-tensor $T(X, Y) = \nabla_X Y - \nabla_Y X - [X, Y]$ of a [connection](note:affine-connection). In components, $T^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\mu\nu} - \Gamma^\rho{}_{\nu\mu}$. A torsion-free connection has Christoffel symbols symmetric in the lower pair; the [Levi-Civita connection](note:levi-civita) is torsion-free by definition. Torsion is allowed, and sourced by spin, in Einstein–Cartan gravity. Defined on the [torsion-and-curvature page](09-connection-and-curvature/03-torsion-and-curvature.md).
+
+## Riemann tensor
+
+The $(1, 3)$-tensor $R(X, Y) Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z$, with components $R^\rho{}_{\sigma\mu\nu}$ in the book's [index convention](note:riemann-index-convention). It measures the failure of [parallel transport](note:parallel-transport) around a small loop to return a vector to itself. For the Levi-Civita connection the lowered tensor $R_{\rho\sigma\mu\nu}$ has these symmetries:
+
+- antisymmetric in each pair;
+- symmetric under exchange of the pairs;
+- satisfies the first Bianchi identity.
+
+That leaves $n^2(n^2 - 1)/12$ independent components, 20 in four dimensions. Defined on the [torsion-and-curvature page](09-connection-and-curvature/03-torsion-and-curvature.md).
+
+## Ricci and Einstein tensors
+
+Contractions of the [Riemann tensor](note:riemann-tensor):
+
+- the **Ricci tensor** $R_{\mu\nu} = R^\lambda{}_{\mu\lambda\nu}$, symmetric for Levi-Civita;
+- the **scalar curvature** $R = g^{\mu\nu} R_{\mu\nu}$;
+- the **Einstein tensor** $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2} R\, g_{\mu\nu}$.
+
+The contracted Bianchi identity makes $G$ divergence-free, $\nabla^\mu G_{\mu\nu} = 0$, which is why it sits on the left of the [Einstein equations](note:einstein-equations). Ricci measures volume focusing of geodesics; the trace-free remainder of Riemann is the Weyl tensor. Defined on the [torsion-and-curvature page](09-connection-and-curvature/03-torsion-and-curvature.md).
+
+## Sectional curvature
+
+For a 2-plane spanned by $u, v$,
+$$K(u, v) = \frac{g(R(u, v)\, v,\; u)}{g(u, u)\, g(v, v) - g(u, v)^2}.$$
+It depends only on the plane. In two dimensions it is the **Gaussian curvature**, $1/a^2$ for a sphere of radius $a$. Its integral over a closed orientable surface is $2\pi\chi$ (Gauss–Bonnet; see [Euler characteristic](note:euler-characteristic)). Defined on the [torsion-and-curvature page](09-connection-and-curvature/03-torsion-and-curvature.md).
+
+## Geodesic deviation
+
+For a family of [geodesics](note:geodesic) with tangent $T$ and deviation (Jacobi) field $J$, the **Jacobi equation** is
+$$\nabla_T \nabla_T J = R(T, J)\, T.$$
+It gives the relative acceleration of neighbouring free-falling particles, i.e. tidal force, so the [Riemann tensor](note:riemann-tensor) is the measurable gravitational field. Positive curvature focuses geodesics (meridians on $S^2$ reconverge). Derived on the [geodesic-deviation page](09-connection-and-curvature/04-geodesic-deviation.md).
 
 ## Isometry
 
@@ -206,6 +317,15 @@ $$\tau = \int \sqrt{-\, g_{\mu\nu}\, \dot\gamma^\mu \dot\gamma^\nu}\; d\lambda$$
 The spacetime of special relativity: $\mathbb{R}^4$ with the global flat Lorentzian metric
 $$\eta = -dt^2 + dx^2 + dy^2 + dz^2$$
 (signature $(-, +, +, +)$). All Christoffel symbols vanish in these coordinates, so [geodesics](note:geodesic) are straight lines and the Riemann tensor is zero — the "no gravity" special case that curved solutions approach asymptotically (Schwarzschild as $r \to \infty$). Its [isometry](note:isometry) group is the **Poincaré group**: translations plus Lorentz transformations. Every tangent space of a Lorentzian manifold is a copy of Minkowski space in miniature — the content of the [Part I aside](01-manifolds/04-metric-at-a-point.md).
+
+## Stress-energy tensor
+
+The symmetric $(0, 2)$-tensor $T_{\mu\nu}$ of matter and non-gravitational fields. Its components give energy density ($T_{00}$), momentum density, and stress. For a perfect fluid, $T_{\mu\nu} = (\rho + p)\, u_\mu u_\nu + p\, g_{\mu\nu}$. Field-theoretically it is the response of the matter action to a change of metric, $T_{\mu\nu} = -\tfrac{2}{\sqrt{|\det g|}}\, \delta(\sqrt{|\det g|}\, \mathcal{L}_{\mathrm{matter}}) / \delta g^{\mu\nu}$. Local conservation is $\nabla^\mu T_{\mu\nu} = 0$. Defined on the [Einstein-equations page](10-general-relativity/01-einstein-equations.md).
+
+## Einstein equations
+
+$$G_{\mu\nu} + \Lambda\, g_{\mu\nu} = 8\pi G\, T_{\mu\nu}$$
+This sets the [Einstein tensor](note:ricci-and-einstein-tensors) of the metric equal to the [stress-energy](note:stress-energy-tensor) of matter, with cosmological constant $\Lambda$ (units $c = 1$). In vacuum with $\Lambda = 0$ they reduce to $R_{\mu\nu} = 0$. The left side is forced by [Lovelock's theorem](note:lovelocks-theorem), and the equations follow from the Einstein–Hilbert action $\int (R - 2\Lambda)\, \mathrm{vol}_g$. Defined on the [Einstein-equations page](10-general-relativity/01-einstein-equations.md).
 
 ## Lovelock's theorem
 

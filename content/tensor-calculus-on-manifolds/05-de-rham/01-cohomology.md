@@ -5,7 +5,7 @@ title: De Rham cohomology
 The **$k$-th de Rham cohomology group** of $M$ is the quotient
 $$H^k_{dR}(M) := \frac{Z^k(M)}{B^k(M)} = \frac{\ker\bigl(d: \Omega^k \to \Omega^{k+1}\bigr)}{\mathrm{im}\bigl(d: \Omega^{k-1} \to \Omega^k\bigr)}.$$
 
-This is an $\mathbb{R}$-vector space. Elements are equivalence classes $[\omega]$ of closed $k$-forms, with $[\omega] = [\omega']$ iff $\omega - \omega'$ is exact.
+This is an $\mathbb{R}$-vector space. Elements are equivalence classes $[\omega]$ of [closed](note:closed-and-exact-forms) $k$-forms, with $[\omega] = [\omega']$ iff $\omega - \omega'$ is exact.
 
 The wedge product descends to cohomology, making the total cohomology
 $$H^*_{dR}(M) := \bigoplus_{k=0}^n H^k_{dR}(M)$$

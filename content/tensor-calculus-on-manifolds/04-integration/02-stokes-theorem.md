@@ -23,5 +23,5 @@ All four are the same statement with different test forms and different identifi
 
 **Consequences.**
 
-- If $M$ has no boundary, the integral of a compactly supported $n$-form is unchanged by adding $d\eta$ ($\eta$ compactly supported), since $\int_M d\eta = 0$: it depends only on the cohomology class.
+- If $M$ has no boundary, the integral of a compactly supported $n$-form is unchanged by adding $d\eta$ ($\eta$ compactly supported), since $\int_M d\eta = 0$: it depends only on the [cohomology class](note:de-rham-cohomology).
 - On a closed (compact, boundaryless) oriented $M$, an exact $n$-form integrates to zero while a volume form integrates to a positive number. So a volume form is never exact, and $H^n_{dR}(M) \neq 0$.

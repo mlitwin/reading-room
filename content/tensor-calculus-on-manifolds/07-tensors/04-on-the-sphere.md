@@ -2,7 +2,7 @@
 title: On the sphere
 ---
 
-Two tensors on $S^2$ worked out in components: a $(1, 1)$-tensor (an endomorphism of the tangent bundle) and a 2-form (the dimension-$2$ top form). Both prefigure the metric and volume form of [the next chapter](../08-metric/index.md), but the construction here uses only the chart structure — no metric required.
+Two tensors on $S^2$ worked out in components: a $(1, 1)$-tensor (an endomorphism of the tangent bundle) and [a 2-form](note:differential-form) (the dimension-$2$ top form). Both prefigure the metric and volume form of [the next chapter](../08-metric/index.md), but the construction here uses only the chart structure — no metric required.
 
 ## A $(1, 1)$-tensor: $90^\circ$ rotation
 

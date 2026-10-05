@@ -4,7 +4,7 @@ title: The Einstein equations
 
 ## Setup
 
-Spacetime is a four-dimensional smooth manifold $M$ equipped with a Lorentzian metric $g$ of signature $(-, +, +, +)$. Test particles follow timelike (massive) or null (massless) [geodesics](note:geodesic) of the Levi-Civita connection of $g$. The geometry of $g$ is the gravitational field; the dynamical content of GR is the equation that determines $g$ from matter content.
+Spacetime is a four-dimensional smooth manifold $M$ equipped with a Lorentzian metric $g$ of signature $(-, +, +, +)$. Test particles follow timelike (massive) or null (massless) [geodesics](note:geodesic) of the [Levi-Civita connection](note:levi-civita) of $g$. The geometry of $g$ is the gravitational field; the dynamical content of GR is the equation that determines $g$ from matter content.
 
 ## The equations
 
@@ -12,10 +12,10 @@ The **Einstein field equations** are
 $$\boxed{\; G_{\mu\nu} + \Lambda\, g_{\mu\nu} = \frac{8\pi G}{c^4}\, T_{\mu\nu}, \;}$$
 where:
 
-- $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2}\, R\, g_{\mu\nu}$ is the **Einstein tensor** built from the Ricci tensor and scalar curvature of $g$.
+- $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2}\, R\, g_{\mu\nu}$ is the **Einstein tensor** built from the [Ricci tensor](note:ricci-and-einstein-tensors) and scalar curvature of $g$.
 - $\Lambda$ is the **cosmological constant** — a scalar parameter; observationally non-zero and positive.
 - $G$ is Newton's gravitational constant and $c$ the speed of light; $8\pi G / c^4 \approx 2.08 \times 10^{-43}\, \mathrm{N}^{-1}$ in SI units. Most GR work sets $c = 1$ and $G = 1$, in which case the prefactor is $8\pi$.
-- $T_{\mu\nu}$ is the **stress–energy tensor** of matter and non-gravitational fields. Symmetric, $(0, 2)$-tensor; its components encode energy density, momentum density, and stress.
+- $T_{\mu\nu}$ is the **[stress–energy tensor](note:stress-energy-tensor)** of matter and non-gravitational fields. Symmetric, $(0, 2)$-tensor; its components encode energy density, momentum density, and stress.
 
 Ten components on each side (symmetric $4 \times 4$). The contracted Bianchi identity imposes four identities among the ten equations, and diffeomorphism invariance makes four of the ten components of $g_{\mu\nu}$ gauge: six equations for six components.
 

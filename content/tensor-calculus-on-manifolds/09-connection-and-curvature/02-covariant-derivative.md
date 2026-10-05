@@ -29,11 +29,11 @@ Equivalently $\nabla g = 0$ as a tensor equation. Equivalently, $X(g(Y, Z)) = g(
 
 A connection is **torsion-free** (or symmetric) if its Christoffel symbols are symmetric in their lower indices:
 $$\Gamma^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\nu\mu}.$$
-Equivalently, $\nabla_X Y - \nabla_Y X = [X, Y]$. The next page treats torsion as a tensor in its own right; for now, this is the second of the two conditions that pin down a unique connection from a metric.
+Equivalently, $\nabla_X Y - \nabla_Y X = [X, Y]$. The next page treats [torsion as a tensor](note:torsion) in its own right; for now, this is the second of the two conditions that pin down a unique connection from a metric.
 
 ## The Levi-Civita connection
 
-**Theorem (Fundamental theorem of pseudo-Riemannian geometry).** On any pseudo-Riemannian manifold $(M, g)$, there is a unique torsion-free metric-compatible connection. Its Christoffel symbols are given by the **Christoffel formula**:
+**Theorem (Fundamental theorem of pseudo-Riemannian geometry).** On any [pseudo-Riemannian manifold](note:metric) $(M, g)$, there is a unique torsion-free metric-compatible connection. Its Christoffel symbols are given by the **Christoffel formula**:
 $$\Gamma^\rho{}_{\mu\nu} = \tfrac{1}{2} g^{\rho\sigma} \left( \partial_\mu g_{\nu\sigma} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right).$$
 This is the **Levi-Civita connection**, and is the connection assumed throughout standard GR. The derivation is direct: write down the three permutations of $\nabla_\rho g_{\mu\nu} = 0$, take a signed sum, and use $\Gamma^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\nu\mu}$ to solve for $\Gamma$.
 

@@ -28,7 +28,7 @@ This is more compact and more informative than the embedded formula. The skew ba
 
 The inner product of the two skew basis vectors:
 $$\partial_{\tilde\theta} \cdot \partial_{\tilde\varphi} = (\partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi) \cdot \partial_\varphi = \partial_\theta \cdot \partial_\varphi + \alpha\sin\tilde\theta\, |\partial_\varphi|^2 = 0 + \alpha\sin\tilde\theta \cdot \sin^2\tilde\theta = \alpha \sin^3\tilde\theta.$$
-Non-zero away from the poles. This is the entry $g_{\tilde\theta\tilde\varphi}$ of the metric in the skew chart, and the most direct sign that the chart is "non-orthogonal."
+Non-zero away from the poles. This is the entry $g_{\tilde\theta\tilde\varphi}$ of [the metric](note:metric) in the skew chart, and the most direct sign that the chart is "non-orthogonal."
 
 The angle between the skew basis vectors:
 $$\cos \angle(\partial_{\tilde\theta}, \partial_{\tilde\varphi}) = \frac{\partial_{\tilde\theta} \cdot \partial_{\tilde\varphi}}{|\partial_{\tilde\theta}|\, |\partial_{\tilde\varphi}|} = \frac{\alpha\sin^3\tilde\theta}{\sqrt{1 + \alpha^2 \sin^4 \tilde\theta} \, \cdot \sin\tilde\theta} = \frac{\alpha\sin^2\tilde\theta}{\sqrt{1 + \alpha^2 \sin^4\tilde\theta}}.$$

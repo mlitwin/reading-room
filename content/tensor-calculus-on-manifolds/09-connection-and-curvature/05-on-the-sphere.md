@@ -2,7 +2,7 @@
 title: On the sphere
 ---
 
-The Levi-Civita connection of the round metric, the Riemann tensor, and Gaussian curvature on $S^2$ — all worked out from $g = d\theta^2 + \sin^2\theta\, d\varphi^2$.
+The Levi-Civita connection of the round metric, the [Riemann tensor](note:riemann-tensor), and Gaussian curvature on $S^2$ — all worked out from $g = d\theta^2 + \sin^2\theta\, d\varphi^2$.
 
 ## Christoffel symbols
 
@@ -52,7 +52,7 @@ in dimension $2$, so $R_{\mu\nu} = g_{\mu\nu}$ on the unit sphere. The Ricci ten
 
 Scalar curvature: $R = g^{\mu\nu} R_{\mu\nu} = g^{\mu\nu} g_{\mu\nu} = 2$.
 
-Note the Einstein tensor $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2} R\, g_{\mu\nu} = g_{\mu\nu} - g_{\mu\nu} = 0$ vanishes identically. This is *not* the vacuum Einstein equation in $4$D (where $G = 0$ is non-trivial); in dimension $2$ the Einstein tensor is always identically zero and conveys no geometric information. GR begins to be non-trivial only in dimension $\geq 3$, and the dynamical content lives entirely in dimension $\geq 4$.
+Note the [Einstein tensor](note:ricci-and-einstein-tensors) $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2} R\, g_{\mu\nu} = g_{\mu\nu} - g_{\mu\nu} = 0$ vanishes identically. This is *not* the vacuum Einstein equation in $4$D (where $G = 0$ is non-trivial); in dimension $2$ the Einstein tensor is always identically zero and conveys no geometric information. GR begins to be non-trivial only in dimension $\geq 3$, and the dynamical content lives entirely in dimension $\geq 4$.
 
 ## In the skew chart
 
@@ -67,7 +67,7 @@ and grinding through.
 
 The takeaway from this calculation isn't the values of the six Christoffels — it's that they are **different** from the standard-chart Christoffels even though the connection is the same. Christoffels are *not* tensors; they carry chart-dependent information.
 
-What **is** chart-independent: the Riemann tensor (as a tensor), the Ricci scalar, and the sectional curvature. Computing $R^{\tilde\theta}{}_{\tilde\varphi\tilde\theta\tilde\varphi}$ from the skew Christoffels and then $K = R_{\tilde\theta\tilde\varphi\tilde\theta\tilde\varphi} / (g_{\tilde\theta\tilde\theta} g_{\tilde\varphi\tilde\varphi} - g_{\tilde\theta\tilde\varphi}^2)$ recovers
+What **is** chart-independent: the Riemann tensor (as a tensor), the Ricci scalar, and the [sectional curvature](note:sectional-curvature). Computing $R^{\tilde\theta}{}_{\tilde\varphi\tilde\theta\tilde\varphi}$ from the skew Christoffels and then $K = R_{\tilde\theta\tilde\varphi\tilde\theta\tilde\varphi} / (g_{\tilde\theta\tilde\theta} g_{\tilde\varphi\tilde\varphi} - g_{\tilde\theta\tilde\varphi}^2)$ recovers
 $$K = 1$$
 — the same Gaussian curvature as in the standard chart. The chart's shear shows up entirely in the components; the intrinsic curvature is untouched.
 

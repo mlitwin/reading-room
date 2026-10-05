@@ -43,7 +43,7 @@ A general tangent vector at $p$ is
 $$v = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi,$$
 with components $(v^\theta, v^\varphi) \in \mathbb{R}^2$. The components depend on the chart; the vector itself does not.
 
-The chart-coordinate functions on $S^2$ are the smooth real-valued functions $\theta(p) = \arccos Z$ and $\varphi(p) = \operatorname{atan2}(Y, X)$ (taken in $(0, 2\pi)$), both defined on the chart's domain. Their differentials $d\theta, d\varphi$ are the **dual basis**:
+The chart-coordinate functions on $S^2$ are the smooth real-valued functions $\theta(p) = \arccos Z$ and $\varphi(p) = \operatorname{atan2}(Y, X)$ (taken in $(0, 2\pi)$), both defined on the chart's domain. Their differentials $d\theta, d\varphi$ are the **[dual basis](note:cotangent-space)**:
 $$d\theta(\partial_\theta) = 1, \quad d\theta(\partial_\varphi) = 0, \quad d\varphi(\partial_\theta) = 0, \quad d\varphi(\partial_\varphi) = 1.$$
 A general covector is $\omega = \omega_\theta\, d\theta + \omega_\varphi\, d\varphi$ and the pairing with $v$ is $\omega(v) = \omega_\theta\, v^\theta + \omega_\varphi\, v^\varphi$ — just multiply matched components and sum.
 
@@ -51,8 +51,8 @@ A general covector is $\omega = \omega_\theta\, d\theta + \omega_\varphi\, d\var
 
 In the standard chart, almost everything has a diagonal form:
 
-- The metric ([chapter 8](../08-metric/04-on-the-sphere.md)) has the diagonal matrix $g = \mathrm{diag}(1, \sin^2\theta)$.
+- [The metric](note:metric) ([chapter 8](../08-metric/04-on-the-sphere.md)) has the diagonal matrix $g = \mathrm{diag}(1, \sin^2\theta)$.
 - The basis is orthogonal, so raising and lowering indices is the same as multiplying each component by $g_{\mu\mu}$ or $1/g_{\mu\mu}$ (no sum).
-- The Christoffel symbols ([chapter 9](../09-connection-and-curvature/05-on-the-sphere.md)) have only three non-zero entries.
+- The [Christoffel symbols](note:affine-connection) ([chapter 9](../09-connection-and-curvature/05-on-the-sphere.md)) have only three non-zero entries.
 
 The next page introduces the skew chart, which has none of these properties. The math is identical; the components are not.

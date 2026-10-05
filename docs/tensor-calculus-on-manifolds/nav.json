@@ -12,6 +12,29 @@
       ],
       "prev": null,
       "next": {
+        "title": "Notation and conventions",
+        "html_path": "tensor-calculus-on-manifolds/notation.html"
+      }
+    },
+    {
+      "slug": "notation",
+      "title": "Notation and conventions",
+      "html_path": "tensor-calculus-on-manifolds/notation.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+        "html_path": "tensor-calculus-on-manifolds/index.html"
+      },
+      "next": {
         "title": "Manifolds",
         "html_path": "tensor-calculus-on-manifolds/manifolds/index.html"
       }
@@ -31,8 +54,8 @@
         }
       ],
       "prev": {
-        "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
-        "html_path": "tensor-calculus-on-manifolds/index.html"
+        "title": "Notation and conventions",
+        "html_path": "tensor-calculus-on-manifolds/notation.html"
       },
       "next": {
         "title": "Manifolds, charts, smooth maps",

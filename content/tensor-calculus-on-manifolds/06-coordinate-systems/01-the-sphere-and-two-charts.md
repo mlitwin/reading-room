@@ -16,7 +16,7 @@ A **chart** on a smooth manifold $M$ is a smooth invertible map
 $$\Phi: U \to V,$$
 where $U \subseteq \mathbb{R}^n$ is open and $V \subseteq M$ is an open subset. The inverse $\Phi^{-1}: V \to U$ assigns coordinates to points; the components are the **coordinate functions** $x^\mu := \pi_\mu \circ \Phi^{-1}$. ([Part I](../01-manifolds/01-charts-and-smooth-maps.md) defined a chart as the coordinate map $\varphi: V \to \mathbb{R}^n$; this chapter works with the parametrization $\Phi = \varphi^{-1}$, the convenient direction for computing on the sphere. Same data, opposite arrow.)
 
-A single chart almost never covers all of $M$. The sphere needs at least two: it is compact, and no open subset of $\mathbb{R}^2$ is. (The angular chart below does worse, missing both poles and a seam.) Manifolds are described by an **atlas** of charts whose overlaps glue together smoothly (the **transition maps**).
+A single chart almost never covers all of $M$. The sphere needs at least two: it is compact, and no open subset of $\mathbb{R}^2$ is. (The angular chart below does worse, missing both poles and a seam.) Manifolds are described by an **atlas** of charts whose overlaps glue together smoothly (the **[transition maps](note:chart)**).
 
 For tensor calculus, the choice of atlas mostly doesn't matter — every object we introduce is **chart-independent** in the sense that it has an intrinsic definition. What *does* depend on the chart is the **component representation**: the array of numbers a tensor has in a given chart. The transformation rule between charts is what makes those arrays into a tensor.
 
@@ -49,7 +49,7 @@ The yellow arc is along the longitude (the direction of increasing $\theta$ for 
 Three things become visible by comparing the charts:
 
 1. **A choice of chart picks a basis at every point.** Each chart has its own coordinate basis $\partial_\theta, \partial_\varphi$ in the tangent space at $p$. The basis is part of the chart, not part of the manifold.
-2. **The angle between basis vectors is not invariant.** It depends on the chart. Where the basis is non-orthogonal, components of the metric pick up off-diagonal entries; the dual basis is no longer parallel to the coordinate basis; and more Christoffel symbols are non-zero.
+2. **The angle between basis vectors is not invariant.** It depends on the chart. Where the basis is non-orthogonal, components of the metric pick up off-diagonal entries; the [dual basis](note:cotangent-space) is no longer parallel to the coordinate basis; and more [Christoffel symbols](note:affine-connection) are non-zero.
 3. **The geometry doesn't care.** The geodesics, the curvature, the area form — all are the same intrinsic objects in both charts. Their *components* differ; their intrinsic descriptions do not. This invariance is exactly what the tensor transformation law enforces.
 
 The next pages develop these three observations concretely.

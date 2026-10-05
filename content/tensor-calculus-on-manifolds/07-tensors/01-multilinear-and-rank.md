@@ -12,9 +12,9 @@ $$T: \underbrace{T^*_p M \times \cdots \times T^*_p M}_{r \text{ copies}} \times
 
 Examples:
 
-- **$(1, 0)$-tensor at $p$** = an element of $T^{**}_p M = T_p M$, i.e. a tangent vector.
-- **$(0, 1)$-tensor at $p$** = an element of $T^*_p M$, a covector.
-- **$(0, 2)$-tensor at $p$** = a bilinear form on $T_p M$. The metric $g_p$ is one of these.
+- **$(1, 0)$-tensor at $p$** = an element of $T^{**}_p M = T_p M$, i.e. a [tangent vector](note:tangent-space).
+- **$(0, 1)$-tensor at $p$** = an element of $T^*_p M$, a [covector](note:cotangent-space).
+- **$(0, 2)$-tensor at $p$** = a bilinear form on $T_p M$. [The metric](note:metric) $g_p$ is one of these.
 - **$(1, 1)$-tensor at $p$** = a linear map $T_p M \to T_p M$, equivalently a bilinear form on $T^*_p M \times T_p M$. The identity, every endomorphism.
 - **$(0, 0)$-tensor at $p$** = a scalar.
 

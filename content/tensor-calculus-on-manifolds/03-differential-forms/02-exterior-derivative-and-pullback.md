@@ -6,7 +6,7 @@ The **exterior derivative** is the family of $\mathbb{R}$-linear maps
 $$d: \Omega^k(M) \to \Omega^{k+1}(M)$$
 characterized uniquely by:
 
-1. On $\Omega^0(M) = C^\infty(M)$: $df$ is the ordinary differential of $f$.
+1. On $\Omega^0(M) = C^\infty(M)$: $df$ is the [ordinary differential](note:cotangent-space) of $f$.
 2. **Graded Leibniz**: for $\omega \in \Omega^k$, $\eta \in \Omega^\ell$,
 $$d(\omega \wedge \eta) = d\omega \wedge \eta + (-1)^k\, \omega \wedge d\eta.$$
 3. **$d \circ d = 0$.**

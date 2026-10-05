@@ -8,7 +8,7 @@ Given a vector field $X = X^\mu(x)\, \partial_\mu$ on $M$, you might guess that 
 $$\partial'_{\nu'} X'^{\mu'} = \frac{\partial x^\nu}{\partial x'^{\nu'}} \frac{\partial x'^{\mu'}}{\partial x^\mu}\, \partial_\nu X^\mu \;+\; X^\mu \frac{\partial x^\nu}{\partial x'^{\nu'}} \frac{\partial^2 x'^{\mu'}}{\partial x^\nu \partial x^\mu}.$$
 The first term is the correct tensor transformation. The second — the inhomogeneous piece coming from the second derivative of the coordinate change — has no business being there.
 
-**Geometric reason.** To "compare" $X_p$ and $X_q$ when $p$ and $q$ are different points, you need a way to bring $X_p$ over to $T_q M$. The two tangent spaces $T_p M$ and $T_q M$ are separate vector spaces; there is no canonical identification. The partial derivative tries to subtract $X_p$ from $X_q$ component-wise, which depends on the (arbitrary) coordinate frames at $p$ and $q$.
+**Geometric reason.** To "compare" $X_p$ and $X_q$ when $p$ and $q$ are different points, you need a way to bring $X_p$ over to $T_q M$. The two [tangent spaces](note:tangent-space) $T_p M$ and $T_q M$ are separate vector spaces; there is no canonical identification. The partial derivative tries to subtract $X_p$ from $X_q$ component-wise, which depends on the (arbitrary) coordinate frames at $p$ and $q$.
 
 The piece of extra structure that does the comparison is an **affine connection** (often just *connection* in this book, since it's the only kind appearing here).
 
@@ -45,7 +45,7 @@ is $C^\infty(M)$-linear in *both* $X$ and $Y$ (the second-derivative pieces canc
 
 ## Affine versus the metric
 
-Importantly: the definition of $\nabla$ above does *not* use a metric. There are many connections on the same manifold; the choice is the additional data. A connection compatible with a metric and torsion-free is unique (the Levi-Civita connection, derived on the next page), but the definition of an affine connection makes sense even on a manifold with no metric.
+Importantly: the definition of $\nabla$ above does *not* use a metric. There are many connections on the same manifold; the choice is the additional data. A connection [compatible with a metric](note:metric) and torsion-free is unique (the Levi-Civita connection, derived on the next page), but the definition of an affine connection makes sense even on a manifold with no metric.
 
 In Einstein–Cartan gravity ([end of the book](../10-general-relativity/03-einstein-cartan.md)), torsion is allowed and the connection is no longer determined by the metric.
 
@@ -55,7 +55,7 @@ Once $\nabla$ is defined on vector fields, it extends uniquely to all tensor fie
 
 - **On scalars:** $\nabla_X f = X(f) = X^\mu \partial_\mu f$, the ordinary derivative.
 - **Leibniz on tensor products:** $\nabla_X (S \otimes T) = (\nabla_X S) \otimes T + S \otimes (\nabla_X T)$.
-- **Commutes with contraction.**
+- **Commutes with [contraction](note:contraction).**
 
 These force the action on a covector $\omega$ to be
 $$(\nabla_X \omega)(Y) = X(\omega(Y)) - \omega(\nabla_X Y),$$

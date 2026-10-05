@@ -36,7 +36,7 @@ combined with the basis transformation above gives
 $$\tilde v^{\tilde\theta} = v^\theta, \qquad \tilde v^{\tilde\varphi} = v^\varphi - \alpha\sin\theta\, v^\theta,$$
 or in matrix form $\tilde v = J v$. Vector components transform with $J$, opposite to the basis — this is the *contravariant* transformation rule, and the reason vector indices are written **up**.
 
-A covector $\omega$ pairs against $v$ to give a chart-independent number $\omega(v) = \omega_\mu v^\mu$. For that pairing to be invariant under chart change, the covector components must transform with $J^{-1}$:
+A [covector](note:cotangent-space) $\omega$ pairs against $v$ to give a chart-independent number $\omega(v) = \omega_\mu v^\mu$. For that pairing to be invariant under chart change, the covector components must transform with $J^{-1}$:
 $$\tilde \omega_{\tilde\theta} = \omega_\theta + \alpha\sin\theta\, \omega_\varphi, \qquad \tilde \omega_{\tilde\varphi} = \omega_\varphi.$$
 This is the covariant rule — index down.
 
@@ -73,6 +73,6 @@ A summary of which quantities are intrinsic (chart-independent) and which depend
 | Coordinate basis $\partial_\mu$ at a point | **No** — chart-dependent |
 | Dual coordinate basis $dx^\mu$ at a point | **No** — chart-dependent |
 | Lengths, angles (when a metric is fixed) | Yes |
-| Christoffel symbols $\Gamma^\rho{}_{\mu\nu}$ | **No** — not even tensorial |
+| [Christoffel symbols](note:affine-connection) $\Gamma^\rho{}_{\mu\nu}$ | **No** — not even tensorial |
 
 The tensor calculus of the next four chapters is largely a story about consistently keeping the intrinsic objects in view while computing with their chart-dependent components.

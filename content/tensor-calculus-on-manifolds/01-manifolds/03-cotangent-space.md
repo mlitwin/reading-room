@@ -2,7 +2,7 @@
 title: Cotangent space and 1-forms
 ---
 
-The **cotangent space at $p$** is the [dual](note:dual-space) of the tangent space:
+The **cotangent space at $p$** is the [dual](note:dual-space) of the [tangent space](note:tangent-space):
 $$T^*_p M := (T_p M)^*,$$
 the space of linear functionals on $T_p M$. Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**. Whatever the tangent space is, its dual is automatically defined; both have dimension $n$, and the duality is symmetric — neither is "primary." But the two are not canonically *identified*: no particular isomorphism $T_p M \to T^*_p M$ is available without extra structure. A metric supplies one — the [musical isomorphisms](note:musical-isomorphism); the [next page](04-metric-at-a-point.md) previews this at a single point, and [Part II](../08-metric/02-raising-and-lowering.md) develops it in full.
 

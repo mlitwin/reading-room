@@ -20,7 +20,7 @@ $$\nabla_\mu K_\nu + \nabla_\nu K_\mu = 0$$
 
 **Coordinate shortcut.** If every component $g_{\mu\nu}$ is independent of some coordinate $x^k$, then $\partial_k$ is Killing — "the metric doesn't change along $x^k$." Most Killing fields met in practice are found this way.
 
-Killing fields are closed under the Lie bracket, so they form a [Lie algebra](note:lie-algebra) — the Lie algebra of the isometry group. Its dimension is at most $n(n+1)/2$; spaces achieving the bound are **maximally symmetric** (spheres, Euclidean and hyperbolic spaces, de Sitter).
+Killing fields are closed under the [Lie bracket](note:lie-bracket), so they form a [Lie algebra](note:lie-algebra) — the Lie algebra of the isometry group. Its dimension is at most $n(n+1)/2$; spaces achieving the bound are **maximally symmetric** (spheres, Euclidean and hyperbolic spaces, de Sitter).
 
 ## Conserved quantities along geodesics
 

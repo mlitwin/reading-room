@@ -2,7 +2,7 @@
 title: Einstein–Cartan — gravity with torsion
 ---
 
-The Levi-Civita connection is the unique torsion-free metric-compatible connection. Drop the torsion-free assumption and you get **Einstein–Cartan theory**: a metric-compatible (but not torsion-free) connection on spacetime, with torsion sourced by the **spin density** of matter. EC gravity agrees with standard GR wherever spin density is negligible — everywhere short of densities far beyond nuclear — and is the natural setting when fermion spin is allowed to source geometry.
+The [Levi-Civita connection](note:levi-civita) is the unique [torsion](note:torsion)-free metric-compatible connection. Drop the torsion-free assumption and you get **Einstein–Cartan theory**: a metric-compatible (but not torsion-free) connection on spacetime, with torsion sourced by the **spin density** of matter. EC gravity agrees with standard GR wherever spin density is negligible — everywhere short of densities far beyond nuclear — and is the natural setting when fermion spin is allowed to source geometry.
 
 ## The variables
 
@@ -31,7 +31,7 @@ Varying with respect to $g$ and $\Gamma$ as independent fields (the **Palatini v
 
 **Einstein-like equation.**
 $$G_{\mu\nu}[\Gamma] = \frac{8\pi G}{c^4}\, T_{\mu\nu},$$
-identical in form to GR but with the Einstein tensor built from the *torsionful* connection $\Gamma$ and a generalized stress–energy on the right.
+identical in form to GR but with the [Einstein tensor](note:ricci-and-einstein-tensors) built from the *torsionful* connection $\Gamma$ and a generalized [stress–energy](note:stress-energy-tensor) on the right.
 
 **Cartan equation** (the torsion equation).
 $$T^\rho{}_{\mu\nu} + \delta^\rho_\mu\, T^\sigma{}_{\nu\sigma} - \delta^\rho_\nu\, T^\sigma{}_{\mu\sigma} = \frac{8\pi G}{c^4}\, S^\rho{}_{\mu\nu},$$

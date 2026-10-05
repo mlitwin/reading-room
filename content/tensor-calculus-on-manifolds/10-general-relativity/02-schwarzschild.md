@@ -2,7 +2,7 @@
 title: Schwarzschild — the torsion-free worked example
 ---
 
-The Schwarzschild solution is the unique spherically symmetric vacuum solution of the Einstein equations. It models the exterior geometry of a non-rotating massive body — a star, a non-rotating black hole — and is the canonical first calculation in any GR course.
+The Schwarzschild solution is the unique spherically symmetric vacuum solution of the [Einstein equations](note:einstein-equations). It models the exterior geometry of a non-rotating massive body — a star, a non-rotating black hole — and is the canonical first calculation in any GR course.
 
 ## Setup
 
@@ -17,7 +17,7 @@ for two positive functions $A, B$ of $r$ alone, with $r$ defined so the orbit sp
 
 ## Solving the equations
 
-Compute the [Christoffel symbols](note:covariant-derivative) (analogous to the sphere calculation but in $4$D), then the Ricci tensor components. After some bookkeeping, the vacuum equations $R_{\mu\nu} = 0$ reduce to two ODEs that force
+Compute the [Christoffel symbols](note:covariant-derivative) (analogous to the sphere calculation but in $4$D), then the [Ricci tensor](note:ricci-and-einstein-tensors) components. After some bookkeeping, the vacuum equations $R_{\mu\nu} = 0$ reduce to two ODEs that force
 $$A(r)\, B(r) = \mathrm{const}.$$
 Absorbing the constant into the definition of $t$ gives $AB = 1$, i.e. $B = 1/A$. The angular equation $R_{\theta\theta} = 0$ then gives $(rA)' = 1$, so
 $$A(r) = 1 - \frac{2M}{r}$$
