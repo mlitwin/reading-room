@@ -2,7 +2,7 @@
 
 Plan for merging `content/classical-mechanics` into `content/tensor-calculus-on-manifolds` to make one tensor-based book. It runs from calculus on manifolds through classical mechanics to general relativity, and it notes the flat-space classical reductions (Euler–Lagrange in Cartesian coordinates, Newton's law, the Newtonian limit) where they fall out.
 
-Status: **plan, not started** (2026-10-04). Conventions marked **Decided** are settled. Everything else is a proposal.
+Status: **merged** (2026-10-04, local commits on `main`, unpushed pending final review). Steps 1–9 are done; the classical-mechanics book is retired. The Part IV extras marked optional (rigid body beyond a mention, Newton–Cartan) were not written. Conventions marked **Decided** are settled. Everything else is a proposal.
 
 ---
 

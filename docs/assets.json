@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:52:58.858Z",
+  "generated_at": "2026-10-05T03:53:33.152Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,7 +273,7 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "1af69c3631bad6f3ba6b3af220432b5c6f2eada7a9a323af3e63be4c64636828",
+      "sha256": "1e97343decdead1ba2f50bdc12e0ffe2146759243c485d9726ca220e1ba5442f",
       "size": 59093
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "2a76a4003684e54de4b669c82a683427276ee611b247b69c1e88362397e4d8db",
+      "sha256": "92140aa7f3dc9ee935b7933d44b46f1eb84fb3f99e65f8fbdc3827ac2a708f86",
       "size": 926268
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "596a7fbf050cdacf5c5d99c3e8f39e3655a03c044e8086cbfef9593368e59990",
+      "sha256": "dbc44c2622351d5f9e4aa56db71d29aeb331376fd69d8bd36552096260550932",
       "size": 10323088
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "6e8f5670b1792a3aaa225fae154bb5c3f07a0290ee6a2404be678291f6b44eec",
+      "sha256": "8a54e99bf5867de60f3513d410c8c37361ec87e4cc7cdd8a3fdd1170e546396c",
       "size": 2476366
     },
     {
@@ -638,98 +638,23 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "83ab15f5934139db17b80574388b62c1029de59a8b2861dd6643e0f0184a7d4c",
+      "sha256": "58845857677faef09d73e774058558a2d9dc6e77e038edbbb6216076ba603862",
       "size": 11327777
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "4ff9405184a973d6c3aafe0d14a88a250e7fb8645d5374f94e7f80083485e2dd",
+      "sha256": "540a7758009a6d95a67cff092047ce48ae65e36e508fa1104471aab07d9f15d3",
       "size": 11327751
     },
     {
-      "path": "classical-mechanics/hamiltonian/index.html",
-      "sha256": "74628d6d8c8d972f6bfd27988de4bbdd1ff7b00e53067db7bbd84b0c3f131233",
-      "size": 1811
-    },
-    {
-      "path": "classical-mechanics/hamiltonian/legendre-and-hamiltons-equations.html",
-      "sha256": "3bf2f2462ab11ddd10e75e23a6843ef8fea1169beeee1651bcac713397e49b57",
-      "size": 91008
-    },
-    {
-      "path": "classical-mechanics/hamiltonian/phase-space-and-poisson.html",
-      "sha256": "43da08098ff90bd58d7b3a702740774980d29a77cbebf9c0d56d048ff42fe4c2",
-      "size": 74987
-    },
-    {
-      "path": "classical-mechanics/index.html",
-      "sha256": "d687c9d8c656c0a24f42e2872737c0232c2367cb1874f76a00fafcc80528040f",
-      "size": 12797
-    },
-    {
-      "path": "classical-mechanics/lagrangian/action-and-euler-lagrange.html",
-      "sha256": "80ef8c89f19b08d21a1fb74afc05ad45f21d0238f924686bd39a089009a604d5",
-      "size": 80954
-    },
-    {
-      "path": "classical-mechanics/lagrangian/coordinates-and-constraints.html",
-      "sha256": "e36d6ba6c59e2ee77faf042ee5047a95b8afb3a4fd62a4929a60b2fa35865952",
-      "size": 80262
-    },
-    {
-      "path": "classical-mechanics/lagrangian/index.html",
-      "sha256": "1f2630f39426c7549d1f753f8296f69934ef76f88be218b3f46391d0586da582",
-      "size": 3949
-    },
-    {
-      "path": "classical-mechanics/nav.json",
-      "sha256": "2ecb31df0522f3bb956ca615d75dc11a57150851f513996c511cc0b671273d18",
-      "size": 10549
-    },
-    {
-      "path": "classical-mechanics/newtonian/conservation-laws.html",
-      "sha256": "57dd5a15d7a4c7f9d94299b32dccfc9724cb0ff5b83edf7ebe531705c9d47031",
-      "size": 42512
-    },
-    {
-      "path": "classical-mechanics/newtonian/index.html",
-      "sha256": "e00f337e854637e088b5cdb6067821068ba95824d7950f2414dafe00417f4ed4",
-      "size": 5173
-    },
-    {
-      "path": "classical-mechanics/newtonian/newtons-laws.html",
-      "sha256": "6f2712f09ddd00fae28d12148376f4780718a3abee53641058a128a0fe3f565c",
-      "size": 55840
-    },
-    {
-      "path": "classical-mechanics/noether/examples.html",
-      "sha256": "a489209d2de27c2d04ba1eb500562b484c29b050f2d910a88a5d3aec92d6f25e",
-      "size": 61444
-    },
-    {
-      "path": "classical-mechanics/noether/index.html",
-      "sha256": "0517e5bf5f16c7b933498d62283d8267279b9baf5850f373f04df10c6d75947f",
-      "size": 1847
-    },
-    {
-      "path": "classical-mechanics/noether/noethers-theorem.html",
-      "sha256": "1b23e4f5264590d52a38053df5b7c05eecb0a2c6043bd53668f75be5570b1464",
-      "size": 56109
-    },
-    {
-      "path": "classical-mechanics/notes.html",
-      "sha256": "0cde6a75793de72a9c09cb28d87f6eb01364ac3f4d56259d10d635e629d27ece",
-      "size": 65764
-    },
-    {
       "path": "index.html",
-      "sha256": "b696eb951172dd57dfbf3065a6decdb751dc700149052fe7004c60f098706bf2",
-      "size": 5980
+      "sha256": "9f3a7fcd9be01f7976ccbf8836f597e67940f6a950f09a17cf901a7195e24d92",
+      "size": 5352
     },
     {
       "path": "index.json",
-      "sha256": "efd57dcc7526a3c69cf2ea52973e2e970e18e285615bcf72ccabdf746d5cb503",
-      "size": 35586
+      "sha256": "6c78e59f636ceee156874e5871f59431a721e29294fb7f2b4f497a745361ffd3",
+      "size": 32070
     },
     {
       "path": "marvell-hortus/book1-01.html",
