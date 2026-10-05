@@ -9,7 +9,7 @@ The index, sign and typeface conventions of this book, and a table of its symbol
 | Indices | Range | Used for |
 |---|---|---|
 | $i, j, k, \ell$ | $1, \ldots, n$ | coordinate indices on a general manifold (Part I) and on a configuration space $Q$ |
-| $\mu, \nu, \rho, \sigma, \lambda$ (mu, nu, rho, sigma, lambda) | $1, \ldots, n$; $0, \ldots, 3$ on spacetime | tensor components from chapter 9 on |
+| $\mu, \nu, \rho, \sigma, \lambda$ (mu, nu, rho, sigma, lambda) | $1, \ldots, n$; $0, \ldots, 3$ on spacetime | tensor components from chapter 4 on |
 | $i, j, k$ in a spacetime context | $1, 2, 3$ | spatial components |
 | $A, B$ | $1, \ldots, N$ | particle labels: $\tens{r}_A$, $m_A$, $\sum_A$ |
 | $a, b$ | $0, \ldots, 3$ | orthonormal-frame (tetrad) indices, Cartan formalism only |
@@ -34,7 +34,7 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | $k$-form components | $\tens{\omega} = \tfrac{1}{k!}\, \omega_{i_1 \cdots i_k}\, dx^{i_1} \wedge \cdots \wedge dx^{i_k}$, determinant wedge ([convention](note:wedge-convention)) |
 | Symplectic form | $\tens{\theta} = p_i\, dq^i$, $\tens{\omega} = d\tens{\theta} = dp_i \wedge dq^i$, $\iota_{\tens{X}_H} \tens{\omega} = -dH$ (Arnold). Abraham–Marsden's $dq \wedge dp$ with $+dH$ gives the same equations |
 | [Poisson bracket](note:poisson-bracket) | $\{f, g\} = \partial_{q^i} f\, \partial_{p_i} g - \partial_{p_i} f\, \partial_{q^i} g$, so $\{q^i, p_j\} = \delta^i_j$ |
-| Units | $c = 1$ in chapters 14–16, and $G = 1$ in chapter 16, unless constants are shown |
+| Units | $c = 1$ in chapters 13–15, and $G = 1$ in chapter 15, unless constants are shown |
 
 ## Typefaces
 
@@ -68,7 +68,7 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | $p, q$ | points of $M$ (Part I). In mechanics $q$ is a configuration and $p$ a momentum |
 | $U, V$ | open sets |
 | $(U, \varphi)$ — $\varphi$ (phi) | chart; local coordinates $x^i = \varphi^i$ |
-| $\Phi$ (Phi) | parametrization $\Phi = \varphi^{-1}$ (chapter 9) |
+| $\Phi$ (Phi) | parametrization $\Phi = \varphi^{-1}$ (chapter 4) |
 | $F, G$ | smooth maps; $dF_p$ or $F_*$ differential (pushforward), $F^*$ pullback |
 | $\gamma$ (gamma) | curve, with velocity $\dot\gamma$ |
 | $\lambda$ (lambda) | curve parameter (affine for geodesics) |
@@ -142,8 +142,8 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | $\alpha$ (alpha) | skew-chart shear, fixed at $\pi/8$ |
 | $\theta_0, \varphi_0$ | sample point, $(13\pi/32,\ 29\pi/32)$ |
 | $(x, y)$; $\psi_S$ (psi), $\Phi_S$ | stereographic coordinates; their chart and parametrization |
-| $J$ | Jacobian of a chart change (chapter 9) |
-| $\tens{J}$ | complex structure on $S^2$ (chapter 10) |
+| $J$ | Jacobian of a chart change (chapter 4) |
+| $\tens{J}$ | complex structure on $S^2$ (chapter 2) |
 
 ### Tensors and the metric
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:08:14.505Z",
+  "generated_at": "2026-10-05T15:48:12.267Z",
   "pieces": [
     {
       "slug": "marvell-hortus",
@@ -120,11 +120,92 @@
                 "slug": "cotangent-space",
                 "title": "Cotangent space and 1-forms",
                 "html_path": "tensor-calculus-on-manifolds/manifolds/cotangent-space.html"
+              }
+            ]
+          },
+          {
+            "slug": "tensors",
+            "title": "Tensors",
+            "html_path": "tensor-calculus-on-manifolds/tensors/index.html",
+            "items": [
+              {
+                "slug": "multilinear-and-rank",
+                "title": "Multilinear maps and rank",
+                "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html"
               },
+              {
+                "slug": "coordinate-components",
+                "title": "Coordinate components and the transformation rule",
+                "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html"
+              },
+              {
+                "slug": "co-contra-vs-k-forms",
+                "title": "Two languages, side by side",
+                "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html"
+              }
+            ]
+          },
+          {
+            "slug": "metric",
+            "title": "The metric",
+            "html_path": "tensor-calculus-on-manifolds/metric/index.html",
+            "items": [
               {
                 "slug": "metric-at-a-point",
                 "title": "Aside: a metric at a point",
-                "html_path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html"
+                "html_path": "tensor-calculus-on-manifolds/metric/metric-at-a-point.html"
+              },
+              {
+                "slug": "the-metric-tensor",
+                "title": "The metric tensor",
+                "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
+              },
+              {
+                "slug": "raising-and-lowering",
+                "title": "Raising and lowering, trace, volume form",
+                "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
+              }
+            ]
+          },
+          {
+            "slug": "coordinate-systems",
+            "title": "Coordinate systems on the sphere",
+            "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html",
+            "items": [
+              {
+                "slug": "the-sphere-and-two-charts",
+                "title": "The sphere and two charts",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html"
+              },
+              {
+                "slug": "standard-coordinates",
+                "title": "Standard coordinates",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html"
+              },
+              {
+                "slug": "skew-coordinates",
+                "title": "Skew coordinates",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html"
+              },
+              {
+                "slug": "changing-charts",
+                "title": "Changing charts",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html"
+              },
+              {
+                "slug": "vectors-and-covectors-on-the-sphere",
+                "title": "Vectors and covectors on the sphere",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html"
+              },
+              {
+                "slug": "the-round-metric",
+                "title": "On the sphere",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-round-metric.html"
+              },
+              {
+                "slug": "tensors-on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/tensors-on-the-sphere.html"
               }
             ]
           },
@@ -190,6 +271,43 @@
             ]
           },
           {
+            "slug": "connection-and-curvature",
+            "title": "Connection and curvature",
+            "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html",
+            "items": [
+              {
+                "slug": "affine-connection",
+                "title": "The affine connection",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
+              },
+              {
+                "slug": "covariant-derivative",
+                "title": "The covariant derivative",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
+              },
+              {
+                "slug": "killing-vectors",
+                "title": "Killing vectors",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/killing-vectors.html"
+              },
+              {
+                "slug": "torsion-and-curvature",
+                "title": "Torsion and curvature",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
+              },
+              {
+                "slug": "geodesic-deviation",
+                "title": "Geodesic deviation",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
+              },
+              {
+                "slug": "on-the-sphere",
+                "title": "On the sphere",
+                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html"
+              }
+            ]
+          },
+          {
             "slug": "de-rham",
             "title": "De Rham cohomology",
             "html_path": "tensor-calculus-on-manifolds/de-rham/index.html",
@@ -217,14 +335,29 @@
                 "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/newtonian-mechanics.html"
               },
               {
+                "slug": "kinetic-metric",
+                "title": "The kinetic metric",
+                "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/kinetic-metric.html"
+              },
+              {
                 "slug": "action-and-euler-lagrange",
                 "title": "Action and the Euler–Lagrange equations",
                 "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/action-and-euler-lagrange.html"
               },
               {
+                "slug": "covariant-newton",
+                "title": "Covariant Newton",
+                "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/covariant-newton.html"
+              },
+              {
                 "slug": "constraints-and-examples",
                 "title": "Constraints and examples",
                 "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/constraints-and-examples.html"
+              },
+              {
+                "slug": "natural-systems-index",
+                "title": "Natural systems",
+                "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/natural-systems-index.html"
               }
             ]
           },
@@ -256,154 +389,19 @@
                 "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/noethers-theorem.html"
               },
               {
+                "slug": "symmetry-and-the-sphere",
+                "title": "Symmetry and the sphere",
+                "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/symmetry-and-the-sphere.html"
+              },
+              {
                 "slug": "examples",
                 "title": "Examples",
                 "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/examples.html"
-              }
-            ]
-          },
-          {
-            "slug": "coordinate-systems",
-            "title": "Coordinate systems on the sphere",
-            "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html",
-            "items": [
-              {
-                "slug": "the-sphere-and-two-charts",
-                "title": "The sphere and two charts",
-                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html"
-              },
-              {
-                "slug": "standard-coordinates",
-                "title": "Standard coordinates",
-                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html"
-              },
-              {
-                "slug": "skew-coordinates",
-                "title": "Skew coordinates",
-                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html"
-              },
-              {
-                "slug": "changing-charts",
-                "title": "Changing charts",
-                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html"
-              },
-              {
-                "slug": "vectors-and-covectors-on-the-sphere",
-                "title": "Vectors and covectors on the sphere",
-                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html"
-              }
-            ]
-          },
-          {
-            "slug": "tensors",
-            "title": "Tensors",
-            "html_path": "tensor-calculus-on-manifolds/tensors/index.html",
-            "items": [
-              {
-                "slug": "multilinear-and-rank",
-                "title": "Multilinear maps and rank",
-                "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html"
-              },
-              {
-                "slug": "coordinate-components",
-                "title": "Coordinate components and the transformation rule",
-                "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html"
-              },
-              {
-                "slug": "co-contra-vs-k-forms",
-                "title": "Two languages, side by side",
-                "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html"
-              },
-              {
-                "slug": "on-the-sphere",
-                "title": "On the sphere",
-                "html_path": "tensor-calculus-on-manifolds/tensors/on-the-sphere.html"
-              }
-            ]
-          },
-          {
-            "slug": "metric",
-            "title": "The metric",
-            "html_path": "tensor-calculus-on-manifolds/metric/index.html",
-            "items": [
-              {
-                "slug": "the-metric-tensor",
-                "title": "The metric tensor",
-                "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
-              },
-              {
-                "slug": "raising-and-lowering",
-                "title": "Raising and lowering, trace, volume form",
-                "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
-              },
-              {
-                "slug": "killing-vectors",
-                "title": "Killing vectors",
-                "html_path": "tensor-calculus-on-manifolds/metric/killing-vectors.html"
-              },
-              {
-                "slug": "on-the-sphere",
-                "title": "On the sphere",
-                "html_path": "tensor-calculus-on-manifolds/metric/on-the-sphere.html"
-              }
-            ]
-          },
-          {
-            "slug": "connection-and-curvature",
-            "title": "Connection and curvature",
-            "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html",
-            "items": [
-              {
-                "slug": "affine-connection",
-                "title": "The affine connection",
-                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
-              },
-              {
-                "slug": "covariant-derivative",
-                "title": "The covariant derivative",
-                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
-              },
-              {
-                "slug": "torsion-and-curvature",
-                "title": "Torsion and curvature",
-                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
-              },
-              {
-                "slug": "geodesic-deviation",
-                "title": "Geodesic deviation",
-                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
-              },
-              {
-                "slug": "on-the-sphere",
-                "title": "On the sphere",
-                "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html"
-              }
-            ]
-          },
-          {
-            "slug": "natural-systems",
-            "title": "Natural systems",
-            "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html",
-            "items": [
-              {
-                "slug": "kinetic-metric",
-                "title": "The kinetic metric",
-                "html_path": "tensor-calculus-on-manifolds/natural-systems/kinetic-metric.html"
-              },
-              {
-                "slug": "covariant-newton",
-                "title": "Covariant Newton",
-                "html_path": "tensor-calculus-on-manifolds/natural-systems/covariant-newton.html"
-              },
-              {
-                "slug": "symmetry-and-the-sphere",
-                "title": "Symmetry and the sphere",
-                "html_path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html"
               },
               {
                 "slug": "rigid-body",
                 "title": "The rigid body",
-                "html_path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html"
+                "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/rigid-body.html"
               }
             ]
           },

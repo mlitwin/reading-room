@@ -139,14 +139,37 @@
         "html_path": "tensor-calculus-on-manifolds/manifolds/tangent-space.html"
       },
       "next": {
-        "title": "Aside: a metric at a point",
-        "html_path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html"
+        "title": "Tensors",
+        "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
       }
     },
     {
-      "slug": "metric-at-a-point",
-      "title": "Aside: a metric at a point",
-      "html_path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html",
+      "slug": "tensors",
+      "title": "Tensors",
+      "html_path": "tensor-calculus-on-manifolds/tensors/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Cotangent space and 1-forms",
+        "html_path": "tensor-calculus-on-manifolds/manifolds/cotangent-space.html"
+      },
+      "next": {
+        "title": "Multilinear maps and rank",
+        "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html"
+      }
+    },
+    {
+      "slug": "multilinear-and-rank",
+      "title": "Multilinear maps and rank",
+      "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html",
       "breadcrumbs": [
         {
           "title": "Library",
@@ -157,13 +180,383 @@
           "html_path": "tensor-calculus-on-manifolds/index.html"
         },
         {
-          "title": "Manifolds",
-          "html_path": "tensor-calculus-on-manifolds/manifolds/index.html"
+          "title": "Tensors",
+          "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
         }
       ],
       "prev": {
-        "title": "Cotangent space and 1-forms",
-        "html_path": "tensor-calculus-on-manifolds/manifolds/cotangent-space.html"
+        "title": "Tensors",
+        "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
+      },
+      "next": {
+        "title": "Coordinate components and the transformation rule",
+        "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html"
+      }
+    },
+    {
+      "slug": "coordinate-components",
+      "title": "Coordinate components and the transformation rule",
+      "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Tensors",
+          "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Multilinear maps and rank",
+        "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html"
+      },
+      "next": {
+        "title": "Two languages, side by side",
+        "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html"
+      }
+    },
+    {
+      "slug": "co-contra-vs-k-forms",
+      "title": "Two languages, side by side",
+      "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Tensors",
+          "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Coordinate components and the transformation rule",
+        "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html"
+      },
+      "next": {
+        "title": "The metric",
+        "html_path": "tensor-calculus-on-manifolds/metric/index.html"
+      }
+    },
+    {
+      "slug": "metric",
+      "title": "The metric",
+      "html_path": "tensor-calculus-on-manifolds/metric/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Two languages, side by side",
+        "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html"
+      },
+      "next": {
+        "title": "Aside: a metric at a point",
+        "html_path": "tensor-calculus-on-manifolds/metric/metric-at-a-point.html"
+      }
+    },
+    {
+      "slug": "metric-at-a-point",
+      "title": "Aside: a metric at a point",
+      "html_path": "tensor-calculus-on-manifolds/metric/metric-at-a-point.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "The metric",
+          "html_path": "tensor-calculus-on-manifolds/metric/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The metric",
+        "html_path": "tensor-calculus-on-manifolds/metric/index.html"
+      },
+      "next": {
+        "title": "The metric tensor",
+        "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
+      }
+    },
+    {
+      "slug": "the-metric-tensor",
+      "title": "The metric tensor",
+      "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "The metric",
+          "html_path": "tensor-calculus-on-manifolds/metric/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Aside: a metric at a point",
+        "html_path": "tensor-calculus-on-manifolds/metric/metric-at-a-point.html"
+      },
+      "next": {
+        "title": "Raising and lowering, trace, volume form",
+        "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
+      }
+    },
+    {
+      "slug": "raising-and-lowering",
+      "title": "Raising and lowering, trace, volume form",
+      "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "The metric",
+          "html_path": "tensor-calculus-on-manifolds/metric/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The metric tensor",
+        "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
+      },
+      "next": {
+        "title": "Coordinate systems on the sphere",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+      }
+    },
+    {
+      "slug": "coordinate-systems",
+      "title": "Coordinate systems on the sphere",
+      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Raising and lowering, trace, volume form",
+        "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
+      },
+      "next": {
+        "title": "The sphere and two charts",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html"
+      }
+    },
+    {
+      "slug": "the-sphere-and-two-charts",
+      "title": "The sphere and two charts",
+      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Coordinate systems on the sphere",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+      },
+      "next": {
+        "title": "Standard coordinates",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html"
+      }
+    },
+    {
+      "slug": "standard-coordinates",
+      "title": "Standard coordinates",
+      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The sphere and two charts",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html"
+      },
+      "next": {
+        "title": "Skew coordinates",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html"
+      }
+    },
+    {
+      "slug": "skew-coordinates",
+      "title": "Skew coordinates",
+      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Standard coordinates",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html"
+      },
+      "next": {
+        "title": "Changing charts",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html"
+      }
+    },
+    {
+      "slug": "changing-charts",
+      "title": "Changing charts",
+      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Skew coordinates",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html"
+      },
+      "next": {
+        "title": "Vectors and covectors on the sphere",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html"
+      }
+    },
+    {
+      "slug": "vectors-and-covectors-on-the-sphere",
+      "title": "Vectors and covectors on the sphere",
+      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Changing charts",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html"
+      },
+      "next": {
+        "title": "On the sphere",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-round-metric.html"
+      }
+    },
+    {
+      "slug": "the-round-metric",
+      "title": "On the sphere",
+      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-round-metric.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Vectors and covectors on the sphere",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html"
+      },
+      "next": {
+        "title": "On the sphere",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/tensors-on-the-sphere.html"
+      }
+    },
+    {
+      "slug": "tensors-on-the-sphere",
+      "title": "On the sphere",
+      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/tensors-on-the-sphere.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Coordinate systems on the sphere",
+          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
+        }
+      ],
+      "prev": {
+        "title": "On the sphere",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-round-metric.html"
       },
       "next": {
         "title": "Vector fields and flows",
@@ -185,8 +578,8 @@
         }
       ],
       "prev": {
-        "title": "Aside: a metric at a point",
-        "html_path": "tensor-calculus-on-manifolds/manifolds/metric-at-a-point.html"
+        "title": "On the sphere",
+        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/tensors-on-the-sphere.html"
       },
       "next": {
         "title": "Vector fields",
@@ -451,6 +844,191 @@
         "html_path": "tensor-calculus-on-manifolds/integration/orientation-and-integration.html"
       },
       "next": {
+        "title": "Connection and curvature",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+      }
+    },
+    {
+      "slug": "connection-and-curvature",
+      "title": "Connection and curvature",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Stokes's theorem",
+        "html_path": "tensor-calculus-on-manifolds/integration/stokes-theorem.html"
+      },
+      "next": {
+        "title": "The affine connection",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
+      }
+    },
+    {
+      "slug": "affine-connection",
+      "title": "The affine connection",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Connection and curvature",
+          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Connection and curvature",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+      },
+      "next": {
+        "title": "The covariant derivative",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
+      }
+    },
+    {
+      "slug": "covariant-derivative",
+      "title": "The covariant derivative",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Connection and curvature",
+          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The affine connection",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
+      },
+      "next": {
+        "title": "Killing vectors",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/killing-vectors.html"
+      }
+    },
+    {
+      "slug": "killing-vectors",
+      "title": "Killing vectors",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/killing-vectors.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Connection and curvature",
+          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The covariant derivative",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
+      },
+      "next": {
+        "title": "Torsion and curvature",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
+      }
+    },
+    {
+      "slug": "torsion-and-curvature",
+      "title": "Torsion and curvature",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Connection and curvature",
+          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Killing vectors",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/killing-vectors.html"
+      },
+      "next": {
+        "title": "Geodesic deviation",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
+      }
+    },
+    {
+      "slug": "geodesic-deviation",
+      "title": "Geodesic deviation",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Connection and curvature",
+          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Torsion and curvature",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
+      },
+      "next": {
+        "title": "On the sphere",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html"
+      }
+    },
+    {
+      "slug": "on-the-sphere",
+      "title": "On the sphere",
+      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Connection and curvature",
+          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Geodesic deviation",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
+      },
+      "next": {
         "title": "De Rham cohomology",
         "html_path": "tensor-calculus-on-manifolds/de-rham/index.html"
       }
@@ -470,8 +1048,8 @@
         }
       ],
       "prev": {
-        "title": "Stokes's theorem",
-        "html_path": "tensor-calculus-on-manifolds/integration/stokes-theorem.html"
+        "title": "On the sphere",
+        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html"
       },
       "next": {
         "title": "De Rham cohomology",
@@ -578,6 +1156,33 @@
         "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/index.html"
       },
       "next": {
+        "title": "The kinetic metric",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/kinetic-metric.html"
+      }
+    },
+    {
+      "slug": "kinetic-metric",
+      "title": "The kinetic metric",
+      "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/kinetic-metric.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Lagrangian mechanics",
+          "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Newtonian mechanics",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/newtonian-mechanics.html"
+      },
+      "next": {
         "title": "Action and the Euler–Lagrange equations",
         "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/action-and-euler-lagrange.html"
       }
@@ -601,8 +1206,35 @@
         }
       ],
       "prev": {
-        "title": "Newtonian mechanics",
-        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/newtonian-mechanics.html"
+        "title": "The kinetic metric",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/kinetic-metric.html"
+      },
+      "next": {
+        "title": "Covariant Newton",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/covariant-newton.html"
+      }
+    },
+    {
+      "slug": "covariant-newton",
+      "title": "Covariant Newton",
+      "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/covariant-newton.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Lagrangian mechanics",
+          "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Action and the Euler–Lagrange equations",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/action-and-euler-lagrange.html"
       },
       "next": {
         "title": "Constraints and examples",
@@ -628,8 +1260,35 @@
         }
       ],
       "prev": {
-        "title": "Action and the Euler–Lagrange equations",
-        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/action-and-euler-lagrange.html"
+        "title": "Covariant Newton",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/covariant-newton.html"
+      },
+      "next": {
+        "title": "Natural systems",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/natural-systems-index.html"
+      }
+    },
+    {
+      "slug": "natural-systems-index",
+      "title": "Natural systems",
+      "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/natural-systems-index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Lagrangian mechanics",
+          "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Constraints and examples",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/constraints-and-examples.html"
       },
       "next": {
         "title": "Hamiltonian mechanics",
@@ -651,8 +1310,8 @@
         }
       ],
       "prev": {
-        "title": "Constraints and examples",
-        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/constraints-and-examples.html"
+        "title": "Natural systems",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/natural-systems-index.html"
       },
       "next": {
         "title": "Legendre transform and Hamilton's equations",
@@ -759,6 +1418,33 @@
         "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/index.html"
       },
       "next": {
+        "title": "Symmetry and the sphere",
+        "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/symmetry-and-the-sphere.html"
+      }
+    },
+    {
+      "slug": "symmetry-and-the-sphere",
+      "title": "Symmetry and the sphere",
+      "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/symmetry-and-the-sphere.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
+          "html_path": "tensor-calculus-on-manifolds/index.html"
+        },
+        {
+          "title": "Symmetry and Noether's theorem",
+          "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The theorem",
+        "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/noethers-theorem.html"
+      },
+      "next": {
         "title": "Examples",
         "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/examples.html"
       }
@@ -782,700 +1468,18 @@
         }
       ],
       "prev": {
-        "title": "The theorem",
-        "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/noethers-theorem.html"
-      },
-      "next": {
-        "title": "Coordinate systems on the sphere",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
-      }
-    },
-    {
-      "slug": "coordinate-systems",
-      "title": "Coordinate systems on the sphere",
-      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Examples",
-        "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/examples.html"
-      },
-      "next": {
-        "title": "The sphere and two charts",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html"
-      }
-    },
-    {
-      "slug": "the-sphere-and-two-charts",
-      "title": "The sphere and two charts",
-      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Coordinate systems on the sphere",
-          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Coordinate systems on the sphere",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
-      },
-      "next": {
-        "title": "Standard coordinates",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html"
-      }
-    },
-    {
-      "slug": "standard-coordinates",
-      "title": "Standard coordinates",
-      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Coordinate systems on the sphere",
-          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
-        }
-      ],
-      "prev": {
-        "title": "The sphere and two charts",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-sphere-and-two-charts.html"
-      },
-      "next": {
-        "title": "Skew coordinates",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html"
-      }
-    },
-    {
-      "slug": "skew-coordinates",
-      "title": "Skew coordinates",
-      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Coordinate systems on the sphere",
-          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Standard coordinates",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/standard-coordinates.html"
-      },
-      "next": {
-        "title": "Changing charts",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html"
-      }
-    },
-    {
-      "slug": "changing-charts",
-      "title": "Changing charts",
-      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Coordinate systems on the sphere",
-          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Skew coordinates",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/skew-coordinates.html"
-      },
-      "next": {
-        "title": "Vectors and covectors on the sphere",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html"
-      }
-    },
-    {
-      "slug": "vectors-and-covectors-on-the-sphere",
-      "title": "Vectors and covectors on the sphere",
-      "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Coordinate systems on the sphere",
-          "html_path": "tensor-calculus-on-manifolds/coordinate-systems/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Changing charts",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html"
-      },
-      "next": {
-        "title": "Tensors",
-        "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
-      }
-    },
-    {
-      "slug": "tensors",
-      "title": "Tensors",
-      "html_path": "tensor-calculus-on-manifolds/tensors/index.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Vectors and covectors on the sphere",
-        "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html"
-      },
-      "next": {
-        "title": "Multilinear maps and rank",
-        "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html"
-      }
-    },
-    {
-      "slug": "multilinear-and-rank",
-      "title": "Multilinear maps and rank",
-      "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Tensors",
-          "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Tensors",
-        "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
-      },
-      "next": {
-        "title": "Coordinate components and the transformation rule",
-        "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html"
-      }
-    },
-    {
-      "slug": "coordinate-components",
-      "title": "Coordinate components and the transformation rule",
-      "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Tensors",
-          "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Multilinear maps and rank",
-        "html_path": "tensor-calculus-on-manifolds/tensors/multilinear-and-rank.html"
-      },
-      "next": {
-        "title": "Two languages, side by side",
-        "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html"
-      }
-    },
-    {
-      "slug": "co-contra-vs-k-forms",
-      "title": "Two languages, side by side",
-      "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Tensors",
-          "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Coordinate components and the transformation rule",
-        "html_path": "tensor-calculus-on-manifolds/tensors/coordinate-components.html"
-      },
-      "next": {
-        "title": "On the sphere",
-        "html_path": "tensor-calculus-on-manifolds/tensors/on-the-sphere.html"
-      }
-    },
-    {
-      "slug": "on-the-sphere",
-      "title": "On the sphere",
-      "html_path": "tensor-calculus-on-manifolds/tensors/on-the-sphere.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Tensors",
-          "html_path": "tensor-calculus-on-manifolds/tensors/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Two languages, side by side",
-        "html_path": "tensor-calculus-on-manifolds/tensors/co-contra-vs-k-forms.html"
-      },
-      "next": {
-        "title": "The metric",
-        "html_path": "tensor-calculus-on-manifolds/metric/index.html"
-      }
-    },
-    {
-      "slug": "metric",
-      "title": "The metric",
-      "html_path": "tensor-calculus-on-manifolds/metric/index.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        }
-      ],
-      "prev": {
-        "title": "On the sphere",
-        "html_path": "tensor-calculus-on-manifolds/tensors/on-the-sphere.html"
-      },
-      "next": {
-        "title": "The metric tensor",
-        "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
-      }
-    },
-    {
-      "slug": "the-metric-tensor",
-      "title": "The metric tensor",
-      "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "The metric",
-          "html_path": "tensor-calculus-on-manifolds/metric/index.html"
-        }
-      ],
-      "prev": {
-        "title": "The metric",
-        "html_path": "tensor-calculus-on-manifolds/metric/index.html"
-      },
-      "next": {
-        "title": "Raising and lowering, trace, volume form",
-        "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
-      }
-    },
-    {
-      "slug": "raising-and-lowering",
-      "title": "Raising and lowering, trace, volume form",
-      "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "The metric",
-          "html_path": "tensor-calculus-on-manifolds/metric/index.html"
-        }
-      ],
-      "prev": {
-        "title": "The metric tensor",
-        "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
-      },
-      "next": {
-        "title": "Killing vectors",
-        "html_path": "tensor-calculus-on-manifolds/metric/killing-vectors.html"
-      }
-    },
-    {
-      "slug": "killing-vectors",
-      "title": "Killing vectors",
-      "html_path": "tensor-calculus-on-manifolds/metric/killing-vectors.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "The metric",
-          "html_path": "tensor-calculus-on-manifolds/metric/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Raising and lowering, trace, volume form",
-        "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
-      },
-      "next": {
-        "title": "On the sphere",
-        "html_path": "tensor-calculus-on-manifolds/metric/on-the-sphere.html"
-      }
-    },
-    {
-      "slug": "on-the-sphere",
-      "title": "On the sphere",
-      "html_path": "tensor-calculus-on-manifolds/metric/on-the-sphere.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "The metric",
-          "html_path": "tensor-calculus-on-manifolds/metric/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Killing vectors",
-        "html_path": "tensor-calculus-on-manifolds/metric/killing-vectors.html"
-      },
-      "next": {
-        "title": "Connection and curvature",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
-      }
-    },
-    {
-      "slug": "connection-and-curvature",
-      "title": "Connection and curvature",
-      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        }
-      ],
-      "prev": {
-        "title": "On the sphere",
-        "html_path": "tensor-calculus-on-manifolds/metric/on-the-sphere.html"
-      },
-      "next": {
-        "title": "The affine connection",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
-      }
-    },
-    {
-      "slug": "affine-connection",
-      "title": "The affine connection",
-      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Connection and curvature",
-          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Connection and curvature",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
-      },
-      "next": {
-        "title": "The covariant derivative",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
-      }
-    },
-    {
-      "slug": "covariant-derivative",
-      "title": "The covariant derivative",
-      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Connection and curvature",
-          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
-        }
-      ],
-      "prev": {
-        "title": "The affine connection",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/affine-connection.html"
-      },
-      "next": {
-        "title": "Torsion and curvature",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
-      }
-    },
-    {
-      "slug": "torsion-and-curvature",
-      "title": "Torsion and curvature",
-      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Connection and curvature",
-          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
-        }
-      ],
-      "prev": {
-        "title": "The covariant derivative",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/covariant-derivative.html"
-      },
-      "next": {
-        "title": "Geodesic deviation",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
-      }
-    },
-    {
-      "slug": "geodesic-deviation",
-      "title": "Geodesic deviation",
-      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Connection and curvature",
-          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Torsion and curvature",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/torsion-and-curvature.html"
-      },
-      "next": {
-        "title": "On the sphere",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html"
-      }
-    },
-    {
-      "slug": "on-the-sphere",
-      "title": "On the sphere",
-      "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Connection and curvature",
-          "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Geodesic deviation",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/geodesic-deviation.html"
-      },
-      "next": {
-        "title": "Natural systems",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html"
-      }
-    },
-    {
-      "slug": "natural-systems",
-      "title": "Natural systems",
-      "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        }
-      ],
-      "prev": {
-        "title": "On the sphere",
-        "html_path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html"
-      },
-      "next": {
-        "title": "The kinetic metric",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/kinetic-metric.html"
-      }
-    },
-    {
-      "slug": "kinetic-metric",
-      "title": "The kinetic metric",
-      "html_path": "tensor-calculus-on-manifolds/natural-systems/kinetic-metric.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Natural systems",
-          "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Natural systems",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html"
-      },
-      "next": {
-        "title": "Covariant Newton",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/covariant-newton.html"
-      }
-    },
-    {
-      "slug": "covariant-newton",
-      "title": "Covariant Newton",
-      "html_path": "tensor-calculus-on-manifolds/natural-systems/covariant-newton.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Natural systems",
-          "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html"
-        }
-      ],
-      "prev": {
-        "title": "The kinetic metric",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/kinetic-metric.html"
-      },
-      "next": {
         "title": "Symmetry and the sphere",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html"
-      }
-    },
-    {
-      "slug": "symmetry-and-the-sphere",
-      "title": "Symmetry and the sphere",
-      "html_path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Natural systems",
-          "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Covariant Newton",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/covariant-newton.html"
+        "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/symmetry-and-the-sphere.html"
       },
       "next": {
         "title": "The rigid body",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html"
+        "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/rigid-body.html"
       }
     },
     {
       "slug": "rigid-body",
       "title": "The rigid body",
-      "html_path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html",
+      "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/rigid-body.html",
       "breadcrumbs": [
         {
           "title": "Library",
@@ -1486,13 +1490,13 @@
           "html_path": "tensor-calculus-on-manifolds/index.html"
         },
         {
-          "title": "Natural systems",
-          "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html"
+          "title": "Symmetry and Noether's theorem",
+          "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/index.html"
         }
       ],
       "prev": {
-        "title": "Symmetry and the sphere",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html"
+        "title": "Examples",
+        "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/examples.html"
       },
       "next": {
         "title": "Special relativity",
@@ -1515,7 +1519,7 @@
       ],
       "prev": {
         "title": "The rigid body",
-        "html_path": "tensor-calculus-on-manifolds/natural-systems/rigid-body.html"
+        "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/rigid-body.html"
       },
       "next": {
         "title": "Minkowski spacetime",

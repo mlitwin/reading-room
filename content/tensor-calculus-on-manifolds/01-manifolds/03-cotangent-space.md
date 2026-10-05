@@ -4,7 +4,7 @@ title: Cotangent space and 1-forms
 
 The **cotangent space at $p$** is the [dual](note:dual-space) of the [tangent space](note:tangent-space):
 $$T^*_p M := (T_p M)^*,$$
-the space of linear functionals on $T_p M$. Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**. Both spaces have dimension $n$, but they are not canonically *identified*: no particular isomorphism $T_p M \to T^*_p M$ exists without extra structure. A metric supplies one, the [musical isomorphisms](note:musical-isomorphism). The [next page](04-metric-at-a-point.md) previews this at a single point, and [chapter 11](../11-metric/02-raising-and-lowering.md) develops it in full.
+the space of linear functionals on $T_p M$. Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**. Both spaces have dimension $n$, but they are not canonically *identified*: no particular isomorphism $T_p M \to T^*_p M$ exists without extra structure. A metric supplies one, the [musical isomorphisms](note:musical-isomorphism). The [next page](../03-metric/00-metric-at-a-point.md) previews this at a single point, and [chapter 3](../03-metric/02-raising-and-lowering.md) develops it in full.
 
 ## Dual basis and components
 
@@ -30,7 +30,7 @@ The components $\omega_i$ transform with the same matrix $\partial x^j/\partial 
 
 The defining operation between vectors and covectors is the pairing
 $$\tens{\omega}(\tens{v}) = \omega_i\, v^i \in \mathbb{R}$$
-— sum one up index with one down index. Both transformation rules cancel, so this is a chart-independent number; it is the geometric content of the duality. For $f \in C^\infty(M)$ and a vector field $\tens{X}$ ([chapter 2](../02-vector-fields-and-flows/01-vector-fields.md)), $df(\tens{X}) = \tens{X}(f)$.
+— sum one up index with one down index. Both transformation rules cancel, so this is a chart-independent number; it is the geometric content of the duality. For $f \in C^\infty(M)$ and a vector field $\tens{X}$ ([chapter 5](../05-vector-fields-and-flows/01-vector-fields.md)), $df(\tens{X}) = \tens{X}(f)$.
 
 ## 1-form fields and pullback
 
@@ -46,4 +46,4 @@ The **cotangent bundle** $T^*M := \bigsqcup_p T^*_p M$ is a smooth $2n$-manifold
 
 $T^*M$ carries a canonical 1-form that needs no extra structure, the **tautological form** $\tens{\theta}$. At a point $\tens{\alpha} \in T^*_x M$ it is
 $$\tens{\theta}_{\tens{\alpha}}(\tens{V}) := \tens{\alpha}\bigl(d\pi \cdot \tens{V}\bigr), \qquad \tens{V} \in T_{\tens{\alpha}}(T^*M),$$
-and in induced coordinates $\tens{\theta} = p_i\, dx^i$. Its exterior derivative $d\tens{\theta} = dp_i \wedge dx^i$ is the symplectic form of Hamiltonian mechanics ([chapter 7](../07-hamiltonian-mechanics/02-phase-space-and-symplectic-form.md)). There, $T^*Q$ is phase space and $(x^i, p_i)$ are written $(q^i, p_i)$.
+and in induced coordinates $\tens{\theta} = p_i\, dx^i$. Its exterior derivative $d\tens{\theta} = dp_i \wedge dx^i$ is the symplectic form of Hamiltonian mechanics ([chapter 11](../11-hamiltonian-mechanics/02-phase-space-and-symplectic-form.md)). There, $T^*Q$ is phase space and $(x^i, p_i)$ are written $(q^i, p_i)$.

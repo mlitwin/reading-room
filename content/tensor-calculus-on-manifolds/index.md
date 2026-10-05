@@ -22,36 +22,36 @@ Flat space, Cartesian coordinates, and slow motion are special cases the general
 ## Part I — Calculus on manifolds
 
 1. [Manifolds](01-manifolds/index.md): charts, smooth maps, tangent and cotangent spaces and bundles; a pointwise-metric aside.
-2. [Vector fields and flows](02-vector-fields-and-flows/index.md): vector fields, flows, the Lie bracket, the Lie derivative.
-3. [Differential forms](03-differential-forms/index.md): $k$-forms, the wedge product, the exterior derivative, pullback.
-4. [Integration](04-integration/index.md): orientation, integration of $n$-forms, Stokes's theorem.
-5. [De Rham cohomology](05-de-rham/index.md): closed and exact forms, the Poincaré lemma. *Optional on a first pass.*
+2. [Vector fields and flows](05-vector-fields-and-flows/index.md): vector fields, flows, the Lie bracket, the Lie derivative.
+3. [Differential forms](06-differential-forms/index.md): $k$-forms, the wedge product, the exterior derivative, pullback.
+4. [Integration](07-integration/index.md): orientation, integration of $n$-forms, Stokes's theorem.
+5. [De Rham cohomology](09-de-rham/index.md): closed and exact forms, the Poincaré lemma. *Optional on a first pass.*
 
 ## Part II — Mechanics without a metric
 
-6. [Lagrangian mechanics](06-lagrangian-mechanics/index.md): Newton as the flat case, forces as 1-forms, the action, Euler–Lagrange, constraints.
-7. [Hamiltonian mechanics](07-hamiltonian-mechanics/index.md): the Legendre transform, phase space, the symplectic form, Poisson brackets, Liouville.
-8. [Symmetry and Noether's theorem](08-symmetry-and-noether/index.md): symmetries as flows, the charge $J_\xi$, the classical conservation laws.
+6. [Lagrangian mechanics](10-lagrangian-mechanics/index.md): Newton as the flat case, forces as 1-forms, the action, Euler–Lagrange, constraints.
+7. [Hamiltonian mechanics](11-hamiltonian-mechanics/index.md): the Legendre transform, phase space, the symplectic form, Poisson brackets, Liouville.
+8. [Symmetry and Noether's theorem](12-symmetry-and-noether/index.md): symmetries as flows, the charge $J_\xi$, the classical conservation laws.
 
 ## Part III — Geometry
 
-9. [Coordinate systems on the sphere](09-coordinate-systems/index.md): charts, atlases and basis vectors; two charts on $S^2$.
-10. [Tensors](10-tensors/index.md): the $(r, s)$ construction, components, the parallel notations.
-11. [The metric](11-metric/index.md): signature, raising and lowering, volume, Killing vectors.
-12. [Connection and curvature](12-connection-and-curvature/index.md): the covariant derivative, geodesics, torsion, Riemann, geodesic deviation.
+9. [Coordinate systems on the sphere](04-coordinate-systems/index.md): charts, atlases and basis vectors; two charts on $S^2$.
+10. [Tensors](02-tensors/index.md): the $(r, s)$ construction, components, the parallel notations.
+11. [The metric](03-metric/index.md): signature, raising and lowering, volume, Killing vectors.
+12. [Connection and curvature](08-connection-and-curvature/index.md): the covariant derivative, geodesics, torsion, Riemann, geodesic deviation.
 
 ## Part IV — Mechanics with a metric
 
-13. [Natural systems](13-natural-systems/index.md): the kinetic metric, covariant Newton, Killing symmetries, the particle and pendulum on $S^2$, the rigid body.
+13. [Natural systems](10-lagrangian-mechanics/natural-systems-index.md): the kinetic metric, covariant Newton, Killing symmetries, the particle and pendulum on $S^2$, the rigid body.
 
 ## Part V — Relativity
 
-14. [Special relativity](14-special-relativity/index.md): Minkowski spacetime, four-momentum, the relativistic particle.
-15. [Fields and stress–energy](15-fields-and-stress-energy/index.md): Lagrangian field theory, Noether currents, $T_{\mu\nu}$.
-16. [General relativity](16-general-relativity/index.md): the Einstein equations, Schwarzschild, Einstein–Cartan, the Newtonian limit, Newton–Cartan gravity.
+14. [Special relativity](13-special-relativity/index.md): Minkowski spacetime, four-momentum, the relativistic particle.
+15. [Fields and stress–energy](14-fields-and-stress-energy/index.md): Lagrangian field theory, Noether currents, $T_{\mu\nu}$.
+16. [General relativity](15-general-relativity/index.md): the Einstein equations, Schwarzschild, Einstein–Cartan, the Newtonian limit, Newton–Cartan gravity.
 
 ## Reading paths
 
-- **Mechanics:** chapters 1–3, then Part II, then chapter 11, then Part IV.
-- **General relativity:** everything except chapter 5. Part II can be read quickly, but Parts IV and V build on its Euler–Lagrange, Legendre and Noether results.
-- **Lookup:** the [notation page](00-notation.md) and the [notes page](17-notes.md), which collects the short definitions behind every underlined term.
+- **Mechanics:** chapters 1–6, then Part II, then chapter 3, then Part IV.
+- **General relativity:** everything except chapter 9. Part II can be read quickly, but Parts IV and V build on its Euler–Lagrange, Legendre and Noether results.
+- **Lookup:** the [notation page](00-notation.md) and the [notes page](16-notes.md), which collects the short definitions behind every underlined term.
