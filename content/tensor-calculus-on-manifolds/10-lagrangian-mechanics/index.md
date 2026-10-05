@@ -27,3 +27,19 @@ Prerequisites: chapters 1–3 and 5, and pages 1–2 of [chapter 8](../08-connec
 **Without a metric:** Hamilton's principle, the Euler–Lagrange equations and their tensoriality hold for any Lagrangian on $TQ$, quadratic in the velocities or not (page 3). The relativistic particle of [chapter 13](../13-special-relativity/02-relativistic-particle.md) is a case where $L$ is not of the form $T - V$.
 
 **Where this lands in GR.** Take $Q$ to be spacetime, $\tens{g}$ Lorentzian, and $V = 0$. Covariant Newton becomes the geodesic equation of free fall, and gravity is no longer a force term: it has moved into the metric.
+
+## Notation
+
+| Symbol | Meaning |
+|---|---|
+| $Q$; $TQ$, $T^*Q$ | [configuration space; velocity phase space and phase space](note:configuration-space) |
+| $q^i$, $\dot q^i$, $p_i$ | generalized coordinates, velocities, conjugate momenta |
+| $L$ | Lagrangian |
+| $T$, $V$, $E$ | kinetic energy, potential energy, total energy |
+| $S[q]$ | action |
+| $\epsilon$ (epsilon) | parameter of a family of paths or transformations |
+| $E_i$ | Euler–Lagrange expressions, components of a covector |
+| $\lambda$ (lambda) | Lagrange multiplier |
+| $\tens{r}_A$, $m_A$, $\tens{F}_A$ | position, mass, force of particle $A$ |
+| $\tens{F} = F_i\, dq^i$ | force as a 1-form; $F_i$ generalized forces |
+| $\tens{g}$; $\tens{g}_J$ | kinetic metric, $T = \tfrac12 g_{ij}\, \dot q^i \dot q^j$; Jacobi metric $2(E - V)\tens{g}$ |

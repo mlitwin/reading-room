@@ -12,3 +12,12 @@ Two pages:
 The round metric on $S^2$ is worked in three charts in [chapter 4](../04-coordinate-systems/06-the-round-metric.md). Structures built from the metric come with the tools they need: the volume form and Hodge star with integration ([chapter 7](../07-integration/index.md)), the Levi-Civita connection, geodesics and Killing vectors in [chapter 8](../08-connection-and-curvature/index.md).
 
 **Metric-free:** manifolds, vectors, covectors and tensors (chapters 1–2); flows, the Lie bracket and Lie derivative (chapter 5); forms, the exterior derivative, integration and Stokes's theorem (chapters 6–7); de Rham cohomology (chapter 9).
+
+## Notation
+
+| Symbol | Meaning |
+|---|---|
+| $\tens{g}$; $g_{\mu\nu}$, $g^{\mu\nu}$ | [metric; components and inverse](note:metric); $\det g$ |
+| $(n_+, n_-)$ | signature |
+| $\operatorname{len}(\gamma)$ | length of a curve |
+| $\flat$, $\sharp$ (flat, sharp) | [musical isomorphisms](note:musical-isomorphism) |

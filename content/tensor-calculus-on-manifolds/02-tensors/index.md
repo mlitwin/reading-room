@@ -13,3 +13,11 @@ Three pages:
 The metric of [chapter 3](../03-metric/index.md) is the first tensor field the book adds as structure. A worked $(1, 1)$-tensor on $S^2$ is in [chapter 4](../04-coordinate-systems/07-a-tensor-on-the-sphere.md).
 
 **Metric-free:** the whole chapter. Index positions cannot be changed until the metric supplies $\flat$ and $\sharp$.
+
+## Notation
+
+| Symbol | Meaning |
+|---|---|
+| $\otimes$ | tensor product |
+| $(r, s)$; $T^r_s(T_p M)$ | tensor type; space of $(r, s)$-tensors |
+| $\tens{T}$; $T^{\mu \cdots}{}_{\nu \cdots}$ | a generic tensor; its components |

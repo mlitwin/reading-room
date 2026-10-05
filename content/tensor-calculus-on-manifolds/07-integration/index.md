@@ -13,3 +13,14 @@ Three pages:
 **Metric-free:** orientation, integration of forms and Stokes's theorem. The volume form, divergence and Hodge star need $\tens{g}$.
 
 **Where this lands in GR.** The volume form makes the Einstein–Hilbert action $\int_M (R - 2\Lambda)\, \mathrm{vol}_g$ a well-defined number. Stokes's theorem is behind the integration by parts in every variational derivation and behind conserved-charge integrals over spatial slices.
+
+## Notation
+
+| Symbol | Meaning |
+|---|---|
+| $\tens{\Omega}$ (Omega) | [orientation](note:orientation) $n$-form |
+| $\partial M$; $\tens{\nu}$ (nu) | boundary; outward-pointing vector field |
+| $\rho_\alpha$ (rho, alpha) | partition of unity |
+| $\mathrm{vol}_g$ | [metric volume form](note:volume-form) |
+| $\star$ | Hodge star |
+| $\varepsilon_{\mu_1 \cdots \mu_n}$, $\epsilon_{\mu_1 \cdots \mu_n}$ (epsilon) | Levi-Civita symbol (a density) and tensor ([note](note:levi-civita)) |

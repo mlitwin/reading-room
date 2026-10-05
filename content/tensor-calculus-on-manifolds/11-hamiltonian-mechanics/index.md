@@ -12,3 +12,18 @@ Two pages:
 **Without a metric:** the fiber derivative, Hamilton's equations and the whole of page 2. The symplectic form is canonical on every cotangent bundle; for a natural system the metric enters only through $H$.
 
 **Where this lands in GR.** A relativistic particle's Hamiltonian is $\tfrac12 g^{\mu\nu} p_\mu p_\nu$ on $T^*M$. The inverse metric appears because the Legendre transform of a quadratic Lagrangian is index lowering ([page 1](01-legendre-and-hamiltons-equations.md)), and the mass shell is the level set $g^{\mu\nu} p_\mu p_\nu = -m^2$ ([chapter 13](../13-special-relativity/index.md)).
+
+## Notation
+
+| Quantity | Convention |
+|---|---|
+| Symplectic form | $\tens{\theta} = p_i\, dq^i$, $\tens{\omega} = d\tens{\theta} = dp_i \wedge dq^i$, $\iota_{\tens{X}_H} \tens{\omega} = -dH$ (Arnold). Abraham–Marsden's $dq \wedge dp$ with $+dH$ gives the same equations |
+| [Poisson bracket](note:poisson-bracket) | $\{f, g\} = \partial_{q^i} f\, \partial_{p_i} g - \partial_{p_i} f\, \partial_{q^i} g$, so $\{q^i, p_j\} = \delta^i_j$ |
+
+| Symbol | Meaning |
+|---|---|
+| $H$ | [Hamiltonian](note:legendre-transform) |
+| $\mathbb{F}L$ | fiber derivative $TQ \to T^*Q$ (the Legendre map) |
+| $\tens{\theta}$ (theta), $\tens{\omega}$ (omega) | [tautological 1-form](note:symplectic-form) $p_i\, dq^i$; symplectic form $d\tens{\theta}$ |
+| $\tens{X}_H$ | [Hamiltonian vector field](note:hamiltons-equations) |
+| $\{f, g\}$ | Poisson bracket |

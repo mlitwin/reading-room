@@ -8,3 +8,16 @@ Two pages:
 
 1. [Lagrangian field theory](01-lagrangian-field-theory.md): actions on spacetime, the field Euler–Lagrange equations, the scalar and Maxwell fields, Noether currents.
 2. [The stress–energy tensor](02-stress-energy-tensor.md): $T_{\mu\nu}$ from metric variation, $\nabla_\mu T^{\mu\nu} = 0$, Killing currents and conserved charges, the perfect fluid.
+
+## Notation
+
+| Symbol | Meaning |
+|---|---|
+| $\tens{T}$; $T_{\mu\nu}$ | stress–energy tensor |
+| $\rho$ (rho), $p$ | energy density, pressure |
+| $\phi$ (phi), $V(\phi)$ | scalar field and its potential |
+| $\Box$ | wave operator $\nabla^\mu \nabla_\mu$ |
+| $\tens{A}$; $A_\mu$ | electromagnetic potential 1-form, $\tens{F} = d\tens{A}$ |
+| $F_{\mu\nu}$ | electromagnetic field strength |
+| $J^\mu$ | conserved (Noether) current; electric current in Maxwell's equations |
+| $\mathcal{L}$ | Lagrangian density; action $\int \mathcal{L}\, \mathrm{vol}_g$ |
