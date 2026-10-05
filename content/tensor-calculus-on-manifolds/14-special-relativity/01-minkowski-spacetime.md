@@ -26,8 +26,8 @@ $$\tau = \int \sqrt{-\eta_{\mu\nu}\, \dot x^\mu \dot x^\nu}\; d\lambda,$$
 is the time read by a clock carried along it. It does not depend on the parametrization.
 
 - The **four-velocity** $\tens{u} = dx/d\tau$ is a unit timelike vector, $\tens{\eta}(\tens{u}, \tens{u}) = -1$. In an inertial frame, $u^\mu = \gamma\,(1, \tens{v})$.
-- The **four-momentum** $\tens{p} = m\tens{u}$ has components $p^\mu = (E, \tens{p})$, with $E = \gamma m$ and spatial part $\gamma m \tens{v}$.
+- The **four-momentum** $\tens{p} = m\tens{u}$ has components $p^\mu = (E, p^i)$: energy $E = \gamma m$ and spatial momentum $p^i = \gamma m v^i$.
 - It satisfies the **mass shell** relation
-$$\eta^{\mu\nu}\, p_\mu p_\nu = -m^2, \qquad \text{i.e. } E^2 = \lvert \tens{p} \rvert^2 + m^2.$$
+$$\eta^{\mu\nu}\, p_\mu p_\nu = -m^2, \qquad \text{i.e. } E^2 = \delta_{ij}\, p^i p^j + m^2.$$
 
 For slow particles, $E = m + \tfrac12 m v^2 + O(v^4)$: rest energy plus Newtonian kinetic energy.

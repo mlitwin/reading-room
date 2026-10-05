@@ -11,7 +11,7 @@ This is a reference, not a textbook. It develops the calculus of smooth manifold
 **The thread.** Mechanics and gravity use the same tensor calculus, in two stages:
 
 - **Without a metric.** Lagrangian and Hamiltonian mechanics live on the tangent and cotangent bundles of a configuration space, and Noether's theorem is a statement about flows.
-- **With a metric.** Adding one identifies kinetic energy with it, so Newton's law becomes $\nabla_{\dot q}\dot q = -\operatorname{grad} V$, free motion becomes geodesic motion, and symmetries become Killing fields. General relativity takes the last step: spacetime is the configuration space, $V = 0$, and gravity is the curvature of the metric.
+- **With a metric.** Kinetic energy *is* a metric. Newton's law becomes $\nabla_{\dot q}\dot q = -\operatorname{grad} V$, free motion becomes geodesic motion, and symmetries become Killing fields. General relativity takes the last step: spacetime is the configuration space, $V = 0$, and gravity is the curvature of the metric.
 
 Flat space, Cartesian coordinates, and slow motion are special cases the general machinery reduces to, and each reduction is noted where it occurs.
 

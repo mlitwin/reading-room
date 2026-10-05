@@ -2,14 +2,14 @@
 title: Coordinate systems on the sphere
 ---
 
-A coordinate chart is a parametrization of a piece of a manifold by an open set of $\mathbb{R}^n$. Calculus is well-defined on $\mathbb{R}^n$; pulling that machinery back through a chart gives calculus on the manifold. Most of the technicalities of tensor calculus exist because the chart is a *choice* — different choices produce different component arrays for the same intrinsic object, and the transformation rules between them are what make a tensor a tensor.
+A chart parametrizes a piece of a manifold by an open set of $\mathbb{R}^n$, and calculus on $\mathbb{R}^n$ pulls back through it. Most of the technicalities of tensor calculus exist because the chart is a *choice*: different charts give different component arrays for the same object, and the transformation rules between them are what make a tensor a tensor.
 
-This chapter sets up that picture with two concrete charts on the two-sphere $S^2$: the standard lat/long chart and a *skew* variant in which the longitude curves are sheared azimuthally by an amount that varies with latitude. The two charts cover the same surface; their basis vectors at a point are different; the angle between those bases is $\pi/2$ in one chart and not $\pi/2$ in the other. The contrast between them is the easiest setting in which to see what coordinate-dependence actually does.
+This chapter makes that concrete with two charts on $S^2$: standard spherical coordinates, and a *skew* variant whose longitudes are sheared by an amount that varies with latitude. The bases of the two charts differ at every point, orthogonal in one and not in the other, which makes coordinate-dependence easy to see.
 
 Five pages:
 
 1. [The sphere and two charts](01-the-sphere-and-two-charts.md) — the underlying surface and the two parametrizations side by side.
-2. [Standard coordinates](02-standard-coordinates.md) — the lat/long chart in detail, basis vectors as a function of position.
+2. [Standard coordinates](02-standard-coordinates.md) — the spherical chart in detail, basis vectors as a function of position.
 3. [Skew coordinates](03-skew-coordinates.md) — the tilted-longitude chart, the same constructions, now with non-orthogonal basis.
 4. [Changing charts](04-changing-charts.md) — the Jacobian as the bridge; what changes and what doesn't.
 5. [Vectors and covectors on the sphere](05-vectors-and-covectors-on-the-sphere.md) — the [Part I](../01-manifolds/index.md) tangent and cotangent spaces made concrete, with the stereographic chart as a third example.

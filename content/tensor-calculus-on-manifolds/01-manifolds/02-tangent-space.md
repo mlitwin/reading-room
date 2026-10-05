@@ -17,7 +17,7 @@ The three define the same space; which is most convenient depends on the constru
 
 ## Embedded view
 
-When $M \subseteq \mathbb{R}^N$ is a smooth [submanifold](note:embedded-manifold), the definitions collapse to a concrete one: the tangent vector of a curve $\gamma$ with $\gamma(0) = p$ is the ordinary derivative $\gamma'(0) \in \mathbb{R}^N$, lying in the tangent plane to $M$ at $p$ (a linear subspace of $\mathbb{R}^N$). The curve acts on $f \in C^\infty(M)$ by $\tens{v}(f) = (f \circ \gamma)'(0)$, recovering the derivation. The abstract definitions are what survive when no ambient $\mathbb{R}^N$ is available.
+When $M \subseteq \mathbb{R}^N$ is a smooth [submanifold](note:embedded-manifold), the definitions become concrete: the tangent vector of a curve $\gamma$ with $\gamma(0) = p$ is the ordinary derivative $\gamma'(0) \in \mathbb{R}^N$, lying in the tangent plane to $M$ at $p$ (a linear subspace of $\mathbb{R}^N$). The curve acts on $f \in C^\infty(M)$ by $\tens{v}(f) = (f \circ \gamma)'(0)$, recovering the derivation. The abstract definitions are what survive when no ambient $\mathbb{R}^N$ is available.
 
 ## Coordinate basis and components
 
@@ -31,7 +31,7 @@ The numbers $v^i$ are the **contravariant components** of $\tens{v}$ — index u
 
 Under a change of coordinates $x^i \mapsto x'^{i'}(x)$, the basis and components transform oppositely:
 $$\partial_{i'}' = \frac{\partial x^j}{\partial x'^{i'}}\, \partial_j, \qquad v'^{i'} = \frac{\partial x'^{i'}}{\partial x^j}\, v^j.$$
-The components move with the *inverse* Jacobian of the basis — "contra" to it. This opposite transformation is exactly what keeps the abstract vector $\tens{v}$ chart-independent while its component array is not.
+The components use the inverse of the basis's matrix ("contra" to it). The opposite transformations keep $\tens{v}$ itself chart-independent while its component array changes.
 
 **Index notation:** $v^i$, index up. **Coordinate-free:** $\tens{v} \in T_p M$, no chart.
 

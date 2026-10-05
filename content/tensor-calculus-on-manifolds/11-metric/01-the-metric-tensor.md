@@ -11,10 +11,10 @@ In components $\tens{g} = g_{\mu\nu}\, dx^\mu \otimes dx^\nu$ with $g_{\mu\nu} =
 
 ## Signature
 
-The symmetric bilinear form $\tens{g}_p$ at a point is classified up to choice of basis by its **signature** $(n_+, n_-)$ with $n_+ + n_- = n$ — the numbers of positive and negative eigenvalues. (The pointwise linear algebra — Sylvester's law, the lightcone at a single event — is previewed in the [Part I aside](../01-manifolds/04-metric-at-a-point.md).) Three cases come up:
+Up to choice of basis, $\tens{g}_p$ is classified by its **signature** $(n_+, n_-)$, $n_+ + n_- = n$: the numbers of positive and negative eigenvalues. The pointwise linear algebra (Sylvester's law, the lightcone at one event) is previewed in the [Part I aside](../01-manifolds/04-metric-at-a-point.md). Three cases come up:
 
 - **Riemannian:** signature $(n, 0)$, i.e. $\tens{g}$ is positive-definite. $\tens{g}(\tens{v}, \tens{v}) > 0$ for $\tens{v} \neq 0$. Every $\tens{v}$ has a positive length $\sqrt{\tens{g}(\tens{v}, \tens{v})}$.
-- **Lorentzian:** signature $(1, n-1)$ or $(n-1, 1)$ depending on convention; one direction is "timelike" and the rest are "spacelike." General relativity uses Lorentzian signature on a $4$-manifold with convention $(-, +, +, +)$ (so timelike vectors have $\tens{g}(\tens{v}, \tens{v}) < 0$) or $(+, -, -, -)$ (the opposite).
+- **Lorentzian:** signature $(1, n-1)$ or $(n-1, 1)$ depending on convention; one direction is timelike and the rest spacelike. This book uses $(-, +, +, +)$, so timelike vectors have $\tens{g}(\tens{v}, \tens{v}) < 0$; Landau–Lifshitz and particle physics use $(+, -, -, -)$.
 - **Pseudo-Riemannian:** any non-degenerate signature, generalizing both above.
 
 Non-degeneracy keeps eigenvalues from crossing zero, so the signature is constant on a connected manifold. A Lorentzian metric distinguishes three classes of tangent vector at each point:
@@ -23,7 +23,7 @@ Non-degeneracy keeps eigenvalues from crossing zero, so the signature is constan
 - **Null** (or *lightlike*) if $\tens{g}(\tens{v}, \tens{v}) = 0$ — on the lightcone.
 - **Spacelike** if $\tens{g}(\tens{v}, \tens{v}) > 0$ — outside the lightcone.
 
-A Lorentzian manifold also needs a **time orientation** — a continuous choice of "future" lightcone at each point — to do physics. Not every Lorentzian manifold admits one; those that do are called **time-orientable**.
+Physics also needs a **time orientation**: a continuous choice of the "future" half of the lightcone at each point. Lorentzian manifolds that admit one are **time-orientable**; not all do.
 
 ## Inner product on $T_p M$
 
@@ -33,7 +33,7 @@ Length squared: $|\tens{v}|^2 := \tens{g}(\tens{v}, \tens{v})$. Length of a curv
 $$\operatorname{len}(\gamma) := \int_a^b \sqrt{|g_{\mu\nu}\, \dot\gamma^\mu \dot\gamma^\nu|}\, dt.$$
 The absolute value is needed in the Lorentzian case; spacelike and timelike curves have positive lengths under this definition, with the timelike length being [**proper time**](note:proper-time) along the curve. Null curves have zero length.
 
-Angles between $\tens{v}, \tens{w}$ are defined (in the Riemannian case) by $\cos\theta = \tens{g}(\tens{v}, \tens{w}) / (|\tens{v}|\, |\tens{w}|)$. There is no useful angle notion for null vectors in the Lorentzian case.
+In the Riemannian case, the angle between $\tens{v}$ and $\tens{w}$ is given by $\cos\angle(\tens{v}, \tens{w}) = \tens{g}(\tens{v}, \tens{w}) / (|\tens{v}|\, |\tens{w}|)$. In the Lorentzian case there is no useful angle involving null vectors.
 
 ## Pullback of a metric
 
@@ -43,6 +43,6 @@ It is always symmetric, but need not be non-degenerate. Injectivity of $dF_p$ at
 
 ## Existence
 
-Any [paracompact](note:paracompact) manifold — which here means every manifold in this book, since [second-countable](note:second-countable) Hausdorff implies paracompact — admits a Riemannian metric, by a [partition-of-unity](note:partition-of-unity) construction. Lorentzian metrics are much more restrictive: a closed (compact, boundaryless) manifold admits a Lorentzian metric iff it has a nowhere-vanishing vector field, equivalently iff its [Euler characteristic](note:euler-characteristic) vanishes. Among compact $2$-manifolds, only the torus and Klein bottle admit Lorentzian metrics; the sphere does not. ($S^2$ has Euler characteristic $2$.)
+Every manifold admits a Riemannian metric: glue local Euclidean metrics with a [partition of unity](note:partition-of-unity). (This uses [paracompactness](note:paracompact), automatic for second-countable Hausdorff spaces.) Lorentzian metrics are much more restrictive: a closed (compact, boundaryless) manifold admits a Lorentzian metric iff it has a nowhere-vanishing vector field, equivalently iff its [Euler characteristic](note:euler-characteristic) vanishes. Among compact $2$-manifolds, only the torus and Klein bottle admit Lorentzian metrics; the sphere does not. ($S^2$ has Euler characteristic $2$.)
 
 GR is set on non-compact spacetimes for a causal reason: every compact Lorentzian manifold contains a closed timelike curve.

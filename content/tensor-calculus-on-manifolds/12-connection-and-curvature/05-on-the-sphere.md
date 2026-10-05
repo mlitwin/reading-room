@@ -23,7 +23,7 @@ are non-zero (in the spherical chart). Symmetry in the lower pair holds automati
 
 The geodesic equation $\ddot\gamma^\rho + \Gamma^\rho{}_{\mu\nu} \dot\gamma^\mu \dot\gamma^\nu = 0$ becomes
 $$\ddot\theta - \sin\theta\cos\theta\, \dot\varphi^2 = 0, \qquad \ddot\varphi + 2 \cot\theta\, \dot\theta \dot\varphi = 0.$$
-Solutions: great circles. The meridians $\varphi = \mathrm{const}$ have $\dot\varphi = 0$, so both equations reduce to $\ddot\theta = 0$ — uniform-speed traversal of $\theta$. The equator $\theta = \pi/2$ has $\dot\theta = 0$ and $\sin\theta\cos\theta = 0$, so $\ddot\varphi = 0$ — uniform-speed traversal of $\varphi$. Other geodesics are rotations of these — the family of all great circles, which is what the geometry knows about $SO(3)$.
+Solutions: great circles. The meridians $\varphi = \mathrm{const}$ have $\dot\varphi = 0$, so both equations reduce to $\ddot\theta = 0$ — uniform-speed traversal of $\theta$. The equator $\theta = \pi/2$ has $\dot\theta = 0$ and $\sin\theta\cos\theta = 0$, so $\ddot\varphi = 0$ — uniform-speed traversal of $\varphi$. Rotations are isometries and carry geodesics to geodesics, so every great circle is a geodesic.
 
 ## Riemann tensor
 
@@ -52,7 +52,7 @@ in dimension $2$, so $R_{\mu\nu} = g_{\mu\nu}$ on the unit sphere. The Ricci ten
 
 Scalar curvature: $R = g^{\mu\nu} R_{\mu\nu} = g^{\mu\nu} g_{\mu\nu} = 2$.
 
-Note the [Einstein tensor](note:ricci-and-einstein-tensors) $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2} R\, g_{\mu\nu} = g_{\mu\nu} - g_{\mu\nu} = 0$ vanishes identically. This is *not* the vacuum Einstein equation in $4$D (where $G = 0$ is non-trivial); in dimension $2$ the Einstein tensor is always identically zero and conveys no geometric information. GR begins to be non-trivial only in dimension $\geq 3$, and the dynamical content lives entirely in dimension $\geq 4$.
+Note the [Einstein tensor](note:ricci-and-einstein-tensors) $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2} R\, g_{\mu\nu} = g_{\mu\nu} - g_{\mu\nu} = 0$ vanishes identically. This is not a vacuum solution in any interesting sense: in dimension $2$ the Einstein tensor vanishes identically for every metric. The Einstein equations first constrain the geometry in dimension $3$, and first admit gravitational waves in dimension $4$.
 
 ## In the skew chart
 
@@ -61,11 +61,9 @@ The same geometry, the same Levi-Civita connection, computed in the [skew chart]
 The metric components (from the [previous chapter's calculation](../11-metric/04-on-the-sphere.md)) are
 $$g_{\tilde\theta\tilde\theta} = 1 + \alpha^2 \sin^4 \tilde\theta, \quad g_{\tilde\theta\tilde\varphi} = \alpha \sin^3\tilde\theta, \quad g_{\tilde\varphi\tilde\varphi} = \sin^2\tilde\theta.$$
 
-Both off-diagonal terms and the dependence of $g_{\tilde\theta\tilde\theta}$ on $\tilde\theta$ contribute to the Christoffel formula. Whereas the standard chart had only the three non-zero entries $\Gamma^\theta{}_{\varphi\varphi}, \Gamma^\varphi{}_{\theta\varphi}, \Gamma^\varphi{}_{\varphi\theta}$, the skew chart has every $\Gamma^{\tilde\rho}{}_{\tilde\mu\tilde\nu}$ entry non-zero (still subject to lower-pair symmetry). The complete list is six independent functions of $\tilde\theta$ — they can be derived by writing the Christoffel formula
-$$\Gamma^{\tilde\rho}{}_{\tilde\mu\tilde\nu} = \tfrac{1}{2}\, g^{\tilde\rho\tilde\sigma} (\partial_{\tilde\mu} g_{\tilde\nu\tilde\sigma} + \partial_{\tilde\nu} g_{\tilde\sigma\tilde\mu} - \partial_{\tilde\sigma} g_{\tilde\mu\tilde\nu})$$
-and grinding through.
+Both off-diagonal terms and the dependence of $g_{\tilde\theta\tilde\theta}$ on $\tilde\theta$ contribute to the Christoffel formula. Whereas the standard chart had only the three non-zero entries $\Gamma^\theta{}_{\varphi\varphi}, \Gamma^\varphi{}_{\theta\varphi}, \Gamma^\varphi{}_{\varphi\theta}$, the skew chart has all six independent entries (after lower-pair symmetry) non-zero as functions of $\tilde\theta$. They follow from the same Christoffel formula with the skew components.
 
-The takeaway from this calculation isn't the values of the six Christoffels — it's that they are **different** from the standard-chart Christoffels even though the connection is the same. Christoffels are *not* tensors; they carry chart-dependent information.
+The point is not their values but that they **differ** from the standard-chart Christoffels although the connection is the same: Christoffel symbols are not tensors.
 
 What **is** chart-independent: the Riemann tensor (as a tensor), the Ricci scalar, and the [sectional curvature](note:sectional-curvature). Computing $R^{\tilde\theta}{}_{\tilde\varphi\tilde\theta\tilde\varphi}$ from the skew Christoffels and then $K = R_{\tilde\theta\tilde\varphi\tilde\theta\tilde\varphi} / (g_{\tilde\theta\tilde\theta} g_{\tilde\varphi\tilde\varphi} - g_{\tilde\theta\tilde\varphi}^2)$ recovers
 $$K = 1$$
@@ -77,12 +75,12 @@ The integral of Gaussian curvature on a closed orientable Riemannian $2$-manifol
 $$\int_M K\, \mathrm{vol}_g = 2\pi\, \chi(M).$$
 For $S^2$: $\int_{S^2} 1 \cdot \sin\theta\, d\theta\, d\varphi = 4\pi = 2\pi \cdot 2 = 2\pi \chi(S^2)$. The unit sphere's Gaussian curvature integrates correctly to give Euler characteristic $2$ — a topological invariant computed from purely metric data.
 
-This is the simplest of the Chern–Gauss–Bonnet theorems, and the cleanest connection between local curvature and global topology that anything in this book displays.
+This is the simplest Chern–Gauss–Bonnet theorem, and the book's cleanest link between local curvature and global topology.
 
 ## Parallel transport around a triangle
 
-A vector [parallel-transported](note:parallel-transport) around a closed loop on the sphere returns rotated by the loop's enclosed solid angle. For a spherical triangle with interior angles $\alpha, \beta, \gamma$, the rotation angle is the spherical excess
-$$E = \alpha + \beta + \gamma - \pi,$$
-which equals the triangle's area on the unit sphere. This is the integrated Riemann tensor: $\oint = \iint R$, in the most explicit form available in dimension $2$.
+A vector [parallel-transported](note:parallel-transport) around a closed loop on the sphere returns rotated by the loop's enclosed solid angle. For a geodesic triangle with interior angles $A_1, A_2, A_3$, the rotation angle is the spherical excess
+$$A_1 + A_2 + A_3 - \pi = \iint_{\triangle} K\, \mathrm{vol}_g,$$
+which on the unit sphere is the triangle's area. The holonomy around a loop is the curvature integrated over the region it encloses: the finite version of the small-loop formula on [page 3](03-torsion-and-curvature.md).
 
-The same phenomenon in dimension $4$ — parallel transport around a closed loop returning a vector rotated by an amount measured by the Riemann tensor — is the geometric content of GR's curved-spacetime picture of gravity.
+In four dimensions the same holonomy, measured by the Riemann tensor, is the geometric content of gravity as spacetime curvature.

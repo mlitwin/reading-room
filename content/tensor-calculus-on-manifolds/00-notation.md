@@ -11,7 +11,7 @@ The index, sign and typeface conventions of this book, and a table of its symbol
 | $i, j, k, \ell$ | $1, \ldots, n$ | coordinate indices on a general manifold (Part I) and on a configuration space $Q$ |
 | $\mu, \nu, \rho, \sigma, \lambda$ (mu, nu, rho, sigma, lambda) | $1, \ldots, n$; $0, \ldots, 3$ on spacetime | tensor components from chapter 9 on |
 | $i, j, k$ in a spacetime context | $1, 2, 3$ | spatial components |
-| $A, B$ | $1, \ldots, N$ | particle labels: $r_A$, $m_A$, $\sum_A$ |
+| $A, B$ | $1, \ldots, N$ | particle labels: $\tens{r}_A$, $m_A$, $\sum_A$ |
 | $a, b$ | $0, \ldots, 3$ | orthonormal-frame (tetrad) indices, Cartan formalism only |
 
 - **Position.** An upper index marks a $T_p M$ slot (contravariant), a lower index a $T^*_p M$ slot (covariant). Coordinates carry upper indices, $x^\mu$. Momenta carry lower ones, $p_i$.
@@ -30,11 +30,11 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | Torsion | $T^\rho{}_{\mu\nu} = \Gamma^\rho{}_{\mu\nu} - \Gamma^\rho{}_{\nu\mu}$ |
 | [Riemann tensor](note:riemann-tensor) | $\tens{R}(\tens{X}, \tens{Y}) \tens{Z} = \nabla_{\tens{X}} \nabla_{\tens{Y}} \tens{Z} - \nabla_{\tens{Y}} \nabla_{\tens{X}} \tens{Z} - \nabla_{[\tens{X}, \tens{Y}]} \tens{Z}$; [component form](note:riemann-index-convention) as in MTW and Carroll |
 | Ricci tensor | $R_{\mu\nu} = R^\lambda{}_{\mu\lambda\nu}$ |
-| Einstein equations | $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}$. Together with the two rows above, this is MTW's sign class $(+, +, +)$ |
+| Einstein equations | $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}$. With the Riemann and Ricci rows, this is MTW's sign class $(+, +, +)$ |
 | $k$-form components | $\tens{\omega} = \tfrac{1}{k!}\, \omega_{i_1 \cdots i_k}\, dx^{i_1} \wedge \cdots \wedge dx^{i_k}$, determinant wedge ([convention](note:wedge-convention)) |
 | Symplectic form | $\tens{\theta} = p_i\, dq^i$, $\tens{\omega} = d\tens{\theta} = dp_i \wedge dq^i$, $\iota_{\tens{X}_H} \tens{\omega} = -dH$ (Arnold). Abraham–Marsden's $dq \wedge dp$ with $+dH$ gives the same equations |
 | [Poisson bracket](note:poisson-bracket) | $\{f, g\} = \partial_{q^i} f\, \partial_{p_i} g - \partial_{p_i} f\, \partial_{q^i} g$, so $\{q^i, p_j\} = \delta^i_j$ |
-| Units | $G = c = 1$ in the general-relativity chapters unless constants are shown |
+| Units | $c = 1$ in chapters 14–16, and $G = 1$ in chapter 16, unless constants are shown |
 
 ## Typefaces
 
@@ -55,7 +55,7 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
   - scalar curvature $R$ from the Riemann tensor $\tens{R}(\tens{X}, \tens{Y})\tens{Z}$;
   - ambient coordinates $X, Y, Z$ from vector fields $\tens{X}, \tens{Y}, \tens{Z}$.
 - **Basis elements stay plain.** $\partial_\mu$ and $dx^\mu$ carry their index.
-- **Differentials stay italic:** $d$, as in $dx$ and $d\omega$.
+- **The differential stays italic:** $d$, as in $dx$ and $d\tens{\omega}$.
 - **Source.** The bold register follows MTW's practice, and ISO 80000-2's (which sets vectors in bold italic).
 
 ## Symbols
@@ -106,6 +106,31 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | $Z^k$, $B^k$, $H^k_{dR}$ | closed forms, exact forms, [de Rham cohomology](note:de-rham-cohomology) |
 | $h$ | cone operator (Poincaré lemma) |
 | $\chi$ (chi) | [Euler characteristic](note:euler-characteristic) |
+
+### Mechanics
+
+| Symbol | Meaning |
+|---|---|
+| $Q$; $TQ$, $T^*Q$ | [configuration space; velocity phase space and phase space](note:configuration-space) |
+| $q^i$, $\dot q^i$, $p_i$ | generalized coordinates, velocities, conjugate momenta |
+| $L$, $H$ | [Lagrangian, Hamiltonian](note:legendre-transform) |
+| $T$, $V$, $E$ | kinetic energy, potential energy, total energy |
+| $S[q]$ | action |
+| $\epsilon$ (epsilon) | parameter of a family of paths or transformations |
+| $\tens{\theta}$ (theta), $\tens{\omega}$ (omega) | [tautological 1-form](note:symplectic-form) $p_i\, dq^i$; symplectic form $d\tens{\theta}$ |
+| $\tens{X}_H$ | [Hamiltonian vector field](note:hamiltons-equations) |
+| $\{f, g\}$ | Poisson bracket |
+| $\lambda$ (lambda) | Lagrange multiplier |
+| $\tens{r}_A$, $m_A$, $\tens{F}_A$ | position, mass, force of particle $A$ |
+| $\tens{F} = F_i\, dq^i$ | force as a 1-form; $F_i$ generalized forces |
+| $\tens{g}$; $\tens{g}_J$ | kinetic metric, $T = \tfrac12 g_{ij}\, \dot q^i \dot q^j$; Jacobi metric $2(E - V)\tens{g}$ |
+| $\mathbb{F}L$ | fiber derivative $TQ \to T^*Q$ (the Legendre map) |
+| $\phi_s$ (phi), $\tens{\xi}$ (xi) | one-parameter group of symmetries and its generator |
+| $E_i$ | Euler–Lagrange expressions, components of a covector |
+| $R$; $\tens{\omega}$, $\tens{\Omega}$ (omega, Omega) | rigid-body rotation; spatial and body angular velocity (rigid-body page only) |
+| $\mathbb{I}$; $\tens{\pi}$, $\tens{\Pi}$ (pi, Pi) | inertia tensor; spatial and body angular momentum |
+| $\tens{P}$, $\tens{L}$, $M$ | total momentum, angular momentum, total mass |
+| $J_\xi$ | [Noether charge](note:noethers-theorem) of the symmetry generated by $\tens{\xi}$ (the momentum map) |
 
 ### The sphere
 
@@ -178,31 +203,6 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | $K^\rho{}_{\mu\nu}$ | contortion |
 | $S^\rho{}_{\mu\nu}$ | spin density |
 | $\tens{e}^a$; $\omega^a{}_b$ (omega) | tetrad (orthonormal coframe); spin connection |
-
-### Mechanics
-
-| Symbol | Meaning |
-|---|---|
-| $Q$; $TQ$, $T^*Q$ | [configuration space; velocity phase space and phase space](note:configuration-space) |
-| $q^i$, $\dot q^i$, $p_i$ | generalized coordinates, velocities, conjugate momenta |
-| $L$, $H$ | [Lagrangian, Hamiltonian](note:legendre-transform) |
-| $T$, $V$, $E$ | kinetic energy, potential energy, total energy |
-| $S[q]$ | action |
-| $\epsilon$ (epsilon) | parameter of a family of paths or transformations |
-| $\tens{\theta}$ (theta), $\tens{\omega}$ (omega) | [tautological 1-form](note:symplectic-form) $p_i\, dq^i$; symplectic form $d\tens{\theta}$ |
-| $\tens{X}_H$ | [Hamiltonian vector field](note:hamiltons-equations) |
-| $\{f, g\}$ | Poisson bracket |
-| $\lambda$ (lambda) | Lagrange multiplier |
-| $\tens{r}_A$, $m_A$, $\tens{F}_A$ | position, mass, force of particle $A$ |
-| $\tens{F} = F_i\, dq^i$ | force as a 1-form; $F_i$ generalized forces |
-| $\tens{g}$; $\tens{g}_J$ | kinetic metric, $T = \tfrac12 g_{ij}\, \dot q^i \dot q^j$; Jacobi metric $2(E - V)\tens{g}$ |
-| $\mathbb{F}L$ | fiber derivative $TQ \to T^*Q$ (the Legendre map) |
-| $\phi_s$ (phi), $\tens{\xi}$ (xi) | one-parameter group of symmetries and its generator |
-| $E_i$ | Euler–Lagrange expressions, components of a covector |
-| $R$; $\tens{\omega}$, $\tens{\Omega}$ (omega, Omega) | rigid-body rotation; spatial and body angular velocity (rigid-body page only) |
-| $\mathbb{I}$; $\tens{\pi}$, $\tens{\Pi}$ (pi, Pi) | inertia tensor; spatial and body angular momentum |
-| $\tens{P}$, $\tens{L}$, $M$ | total momentum, angular momentum, total mass |
-| $J_\xi$ | [Noether charge](note:noethers-theorem) of the symmetry generated by $\tens{\xi}$ (the momentum map) |
 
 ## Greek alphabet
 

@@ -22,7 +22,7 @@ where $q^i$ runs over the $3N$ Cartesian coordinates. The **generalized forces**
 
 - **Conservative**: $\tens{F} = -dV$, an [exact](note:closed-and-exact-forms) form. Work is path-independent: $W = V(\text{start}) - V(\text{end})$. Gravity and electrostatics are conservative and central.
 - **Closed but not exact**: on the punctured plane, $\tens{F} = k\,(-y\, dx + x\, dy)/(x^2 + y^2)$ satisfies $d\tens{F} = 0$ but does work $2\pi k$ on every circuit of the origin ([chapter 3](../03-differential-forms/03-closed-and-exact.md)). Locally it has a potential; globally it doesn't.
-- **Dissipative** forces such as friction depend on velocity. They are not 1-forms on $Q$.
+- **Dissipative** forces such as friction depend on velocity as well as position, so they are not 1-forms on $Q$ alone.
 
 ## Conservation laws
 

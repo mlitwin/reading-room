@@ -19,7 +19,7 @@ Two facts at a glance:
 - **Lengths.** $|\partial_\theta| = 1$ at every point; $|\partial_\varphi| = \sin\theta$, vanishing at the poles where the chart breaks down.
 - **Inner product.** $\partial_\theta \cdot \partial_\varphi = 0$ everywhere — the standard basis is *orthogonal* at every point.
 
-Both facts can be checked by direct computation from the formulas above. The orthogonality is what makes the standard chart so easy to compute with.
+Both follow directly from the formulas above. Orthogonality is what makes the standard chart easy to compute with.
 
 ## At the sample point
 
@@ -35,9 +35,9 @@ The tangent-plane diagram, drawn locally at $p$:
 
 ![Tangent basis at the sample point — the two arrows ∂θ and ∂φ at right angles, with ∂φ shorter by a factor of sin(θ₀)](../figures/tangent-standard.svg)
 
-The horizontal axis represents $\partial_\theta$ direction (unit length); the vertical axis $\partial_\varphi$ direction (length $\sin\theta_0 \approx 0.957$). At the sample point's latitude they happen to be nearly the same length; near the poles the discrepancy is much larger.
+The horizontal arrow is $\partial_\theta$ (unit length) and the vertical arrow $\partial_\varphi$ (length $\sin\theta_0 \approx 0.957$). They are nearly equal here; near the poles $\partial_\varphi$ shrinks to zero.
 
-## In coordinate basis
+## Components
 
 A general tangent vector at $p$ is
 $$\tens{v} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi,$$
@@ -51,7 +51,7 @@ A general covector is $\tens{\omega} = \omega_\theta\, d\theta + \omega_\varphi\
 
 In the standard chart, almost everything has a diagonal form:
 
-- [The metric](note:metric) ([chapter 11](../11-metric/04-on-the-sphere.md)) has the diagonal matrix $g = \mathrm{diag}(1, \sin^2\theta)$.
+- [The metric](note:metric) ([chapter 11](../11-metric/04-on-the-sphere.md)) has the diagonal matrix $[g_{\mu\nu}] = \mathrm{diag}(1, \sin^2\theta)$.
 - The basis is orthogonal, so raising and lowering indices is the same as multiplying each component by $g_{\mu\mu}$ or $1/g_{\mu\mu}$ (no sum).
 - The [Christoffel symbols](note:affine-connection) ([chapter 12](../12-connection-and-curvature/05-on-the-sphere.md)) have only three non-zero entries.
 

@@ -20,7 +20,7 @@ $$\nabla_\mu \xi_\nu + \nabla_\nu \xi_\mu = 0$$
 
 **Coordinate shortcut.** If every component $g_{\mu\nu}$ is independent of some coordinate $x^k$, then $\partial_k$ is Killing — "the metric doesn't change along $x^k$." Most Killing fields met in practice are found this way.
 
-Killing fields are closed under the [Lie bracket](note:lie-bracket), so they form a [Lie algebra](note:lie-algebra) — the Lie algebra of the isometry group. Its dimension is at most $n(n+1)/2$; spaces achieving the bound are **maximally symmetric** (spheres, Euclidean and hyperbolic spaces, de Sitter).
+Killing fields are closed under the [Lie bracket](note:lie-bracket), so they form a [Lie algebra](note:lie-algebra) — the Lie algebra of the isometry group. Its dimension is at most $n(n+1)/2$; spaces achieving the bound are **maximally symmetric** (spheres, Euclidean and hyperbolic spaces, and Minkowski, de Sitter and anti-de Sitter spacetimes).
 
 ## Conserved quantities along geodesics
 
@@ -38,4 +38,4 @@ Three is the maximum $\tfrac{1}{2}n(n+1) = 3$ for $n = 2$: the round sphere is m
 
 ## Toward Schwarzschild
 
-The Schwarzschild metric of [chapter 16](../16-general-relativity/02-schwarzschild.md) is independent of both $t$ and $\varphi$, so $\partial_t$ and $\partial_\varphi$ are Killing. Their conserved pairings are the energy $E$ and angular momentum $L$ that reduce the orbit calculation to a one-dimensional problem — the entire tractability of Schwarzschild geodesics is Killing symmetry at work.
+The Schwarzschild metric of [chapter 16](../16-general-relativity/02-schwarzschild.md) is independent of both $t$ and $\varphi$, so $\partial_t$ and $\partial_\varphi$ are Killing. Their conserved pairings are the energy $E$ and angular momentum $L$, which reduce the orbit problem to one dimension. The remaining rotational Killing fields keep each orbit in a plane. Killing symmetry is what makes Schwarzschild geodesics solvable.

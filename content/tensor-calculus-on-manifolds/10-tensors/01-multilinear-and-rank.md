@@ -15,7 +15,7 @@ Examples:
 - **$(1, 0)$-tensor at $p$** = an element of $T^{**}_p M = T_p M$, i.e. a [tangent vector](note:tangent-space).
 - **$(0, 1)$-tensor at $p$** = an element of $T^*_p M$, a [covector](note:cotangent-space).
 - **$(0, 2)$-tensor at $p$** = a bilinear form on $T_p M$. [The metric](note:metric) $\tens{g}_p$ is one of these.
-- **$(1, 1)$-tensor at $p$** = a linear map $T_p M \to T_p M$, equivalently a bilinear form on $T^*_p M \times T_p M$. The identity, every endomorphism.
+- **$(1, 1)$-tensor at $p$** = a linear map $T_p M \to T_p M$, equivalently a bilinear form on $T^*_p M \times T_p M$; for example, the identity.
 - **$(0, 0)$-tensor at $p$** = a scalar.
 
 The space of $(r, s)$-tensors at $p$ is denoted $T^r_s(T_p M)$ or $\bigotimes^r T_p M \otimes \bigotimes^s T^*_p M$.
@@ -39,12 +39,12 @@ The component array $T^{\mu_1 \cdots}{}_{\nu_1 \cdots}$ has $n^{r+s}$ entries.
 
 ## Contraction
 
-Given an $(r, s)$-tensor with $r, s \geq 1$, **contraction** of an upper index with a lower index produces an $(r-1, s-1)$-tensor. In components, pick one upper slot and one lower slot, relabel both with a single dummy index $\lambda$, and sum:
-$$T^{\mu_1 \cdots \mu_r}{}_{\nu_1 \cdots \nu_s} \;\longmapsto\; T^{\mu_1 \cdots \lambda \cdots \mu_r}{}_{\nu_1 \cdots \lambda \cdots \nu_s} \;=\; \sum_{\lambda=1}^{n} T^{\cdots \lambda \cdots}{}_{\cdots \lambda \cdots}.$$
-The Einstein summation convention bakes the sum in: any index appearing once up and once down is summed. The pairing $\omega_\mu v^\mu$ is the contraction of $\tens{\omega} \otimes \tens{v}$.
+For $r, s \geq 1$, **contraction** of an upper index with a lower index turns an $(r, s)$-tensor into an $(r-1, s-1)$-tensor. In components, give the two slots the same label and sum (the summation convention does this automatically). For example,
+$$T^\mu{}_{\nu\rho} \;\longmapsto\; T^\lambda{}_{\lambda\rho} = \sum_{\lambda=1}^n T^\lambda{}_{\lambda\rho}.$$
+The pairing $\omega_\mu v^\mu$ is the contraction of $\tens{\omega} \otimes \tens{v}$.
 
 ## Tensor fields
 
-A **tensor field** of type $(r, s)$ on $M$ is a smooth section of the corresponding tensor bundle — a smooth assignment $p \mapsto T_p \in T^r_s(T_p M)$. In coordinates, the components $T^{\mu_1 \cdots}{}_{\nu_1 \cdots}(x)$ are smooth functions on the chart's domain. (See [tensor field](note:tensor-field).)
+A **tensor field** of type $(r, s)$ on $M$ is a smooth section of the corresponding tensor bundle — a smooth assignment $p \mapsto \tens{T}_p \in T^r_s(T_p M)$. In coordinates, the components $T^{\mu_1 \cdots}{}_{\nu_1 \cdots}(x)$ are smooth functions on the chart's domain. (See [tensor field](note:tensor-field).)
 
 Tensor product and contraction act pointwise. Evaluated on 1-forms and vector fields, a tensor field is a $C^\infty(M)$-multilinear map, and conversely every such map is a tensor field — the abstract tensoriality test of the next page.

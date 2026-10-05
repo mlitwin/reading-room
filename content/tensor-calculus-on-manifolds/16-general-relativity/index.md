@@ -12,4 +12,4 @@ Five pages:
 4. [The Newtonian limit](04-newtonian-limit.md): $g_{00} \approx -(1 + 2\Phi)$, Poisson's equation, and tides.
 5. [Newton–Cartan gravity](05-newton-cartan.md): Newton's theory as exact spacetime geometry, with gravity as curvature of a connection and no metric.
 
-This is "tensors for GR", not "GR." The pages set up the field equations and compute one example each — not a survey of GR phenomena. Standard textbooks pick up from here.
+This is tensor calculus for GR, not a survey of GR: the field equations, one worked solution, a torsionful variant, and the Newtonian limit. Standard textbooks pick up from here.

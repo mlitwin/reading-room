@@ -44,14 +44,14 @@ The Cartan equation is **algebraic** — there are no derivatives of torsion on 
 Where spin density vanishes, Einstein–Cartan reduces exactly to GR — same metric, same predictions, same Schwarzschild solution outside. The differences live inside spinning matter:
 
 - **Spinning fluids and dust.** Macroscopic spin alignment is rare; in cosmological-fluid models EC is effectively GR.
-- **Dense fermionic matter.** Inside a neutron star, fermion spins give a non-zero spin density and torsion is present, but its effect is tiny. Because the Cartan equation is algebraic, the torsion contribution enters the effective Einstein equations as a term *quadratic* in the spin density (each factor carrying an $\hbar$), and it becomes comparable to the ordinary stress–energy only at densities orders of magnitude beyond nuclear — utterly negligible under normal conditions, but potentially relevant at the most extreme ones (singularity avoidance has been argued for, with caveats).
+- **Dense fermionic matter.** Inside a neutron star, fermion spins give a non-zero spin density, but the effect is tiny. Because the Cartan equation is algebraic, torsion enters the effective Einstein equations as a term *quadratic* in the spin density, with each factor carrying an $\hbar$. That term rivals ordinary stress–energy only at densities far beyond nuclear.
 - **Cosmological singularities.** Some EC models avoid the initial singularity that standard GR predicts, replacing it with a bounce — torsion contributes an effective repulsive term at extreme density.
 
 Beyond these, EC is observationally indistinguishable from GR with current data.
 
-## Why teach it?
+## Why include it
 
-Three reasons EC appears in this book despite being a small numerical correction to GR:
+Einstein–Cartan is a tiny numerical correction to GR, but it earns its place for three reasons:
 
 1. **Conceptual clean-up.** The "extra" degree of freedom of the connection — beyond what the metric determines — is what spinors couple to. Standard GR with spinors requires a tetrad/spin-connection formulation; EC makes the splitting natural.
 2. **Coupling to fermions.** In EC, Dirac fermions couple minimally to the full connection, so their spin sources torsion and they feel it; gauge bosons, whose field strength $\tens{F} = d\tens{A}$ needs no connection, neither source nor feel it.

@@ -16,13 +16,11 @@ A component array satisfying this rule on every chart overlap defines a tensor �
 
 A repeated index appearing once up and once down in the same monomial is summed from $1$ to $n$:
 $$v^\mu \omega_\mu := \sum_{\mu=1}^{n} v^\mu \omega_\mu, \qquad T^\mu{}_\nu v^\nu := \sum_{\nu=1}^{n} T^\mu{}_\nu v^\nu.$$
-Indices in the same position (both up, or both down) are *not* summed and usually indicate an error in the calculation. The convention is so consistent that the summation symbol can be omitted everywhere; the index positions enforce the rule.
+A repeated index in the same position (both up or both down) is *not* summed, and usually signals an error.
 
 A **free index** appears once on each side of an equation, at the same vertical position; equations are read as holding for every value of every free index. A **dummy** (or summed) index appears as an up-down pair on the same side and can be renamed at will.
 
 ## Operations in component form
-
-The operations on tensors all have one-line component expressions.
 
 - **Tensor product:** $(\tens{S} \otimes \tens{T})^{\mu_1 \cdots \mu_{r_1+r_2}}{}_{\nu_1 \cdots \nu_{s_1+s_2}} = S^{\mu_1 \cdots \mu_{r_1}}{}_{\nu_1 \cdots \nu_{s_1}}\; T^{\mu_{r_1+1} \cdots}{}_{\nu_{s_1+1} \cdots}$.
 - **Contraction** of the $k$-th upper with the $\ell$-th lower index: set them equal and sum.
@@ -37,4 +35,4 @@ Not every indexed quantity is a tensor. The [Christoffel symbols](note:affine-co
 $$\Gamma'^{\rho'}{}_{\mu'\nu'} = \frac{\partial x'^{\rho'}}{\partial x^\rho} \frac{\partial x^\mu}{\partial x'^{\mu'}} \frac{\partial x^\nu}{\partial x'^{\nu'}}\, \Gamma^{\rho}{}_{\mu\nu} \;+\; \frac{\partial x'^{\rho'}}{\partial x^\rho} \frac{\partial^2 x^\rho}{\partial x'^{\mu'} \partial x'^{\nu'}}.$$
 The second-derivative term spoils tensoriality. The presence or absence of such a term, in any candidate construction, is the diagnostic: if the array transforms multiplicatively as above, it's a tensor; otherwise it isn't.
 
-The equivalent abstract diagnostic is **$C^\infty(M)$-linearity in every slot.** A multilinear map on vector fields and 1-forms that is $C^\infty(M)$-linear in each argument — not merely $\mathbb{R}$-linear — comes from a tensor field. Multilinearity over the smooth functions is the operational reason the value at a point depends only on values at that point.
+The equivalent abstract diagnostic is **$C^\infty(M)$-linearity in every slot.** A multilinear map on vector fields and 1-forms that is $C^\infty(M)$-linear in each argument — not merely $\mathbb{R}$-linear — comes from a tensor field. $C^\infty(M)$-linearity is what makes the value at $p$ depend only on the arguments' values at $p$.

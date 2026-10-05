@@ -7,7 +7,7 @@ Out of any [connection](note:affine-connection) $\nabla$ come two tensor fields:
 - $\Tor = 0$ means the antisymmetrized covariant derivative reproduces the Lie bracket, $\nabla_{\tens{X}} \tens{Y} - \nabla_{\tens{Y}} \tens{X} = [\tens{X}, \tens{Y}]$, as partial derivatives do in flat space.
 - $\tens{R} = 0$ means iterated covariant derivatives commute, $\nabla_{\tens{X}} \nabla_{\tens{Y}} - \nabla_{\tens{Y}} \nabla_{\tens{X}} - \nabla_{[\tens{X}, \tens{Y}]} = 0$.
 
-Both are defined for any affine connection; together they characterize the connection's local non-triviality.
+Both are defined for any affine connection. Both vanish exactly when, near each point, there are coordinates in which every $\Gamma^\rho{}_{\mu\nu} = 0$: then $\nabla$ is locally the ordinary derivative of $\mathbb{R}^n$.
 
 ## Torsion
 
@@ -19,7 +19,7 @@ twice the antisymmetric part $\Gamma^\rho{}_{[\mu\nu]}$ of the Christoffels in t
 
 A connection is **torsion-free** iff $\Tor = 0$. Levi-Civita is torsion-free by axiom. In Einstein–Cartan gravity, torsion is allowed and couples to spinning matter.
 
-**Geometric picture.** Take two infinitesimal vectors $\tens{u}, \tens{v}$ at $p$; transport $\tens{u}$ along $\tens{v}$ and $\tens{v}$ along $\tens{u}$ to form a small "parallelogram." With torsion, the parallelogram doesn't close — the two endpoints differ by a $\Tor(\tens{u}, \tens{v})$ correction. Without torsion, the parallelogram closes. (Curvature is a different defect: it's about how vectors *rotate* when transported around a closed loop, not whether parallelograms close.)
+**Geometric picture.** Take two infinitesimal vectors $\tens{u}, \tens{v}$ at $p$; transport $\tens{u}$ along $\tens{v}$ and $\tens{v}$ along $\tens{u}$ to form a small "parallelogram." With torsion it fails to close, by $\Tor(\tens{u}, \tens{v})$ at leading order. Curvature is a different defect: it measures how a vector *turns* when carried around a closed loop.
 
 ## Riemann curvature
 
@@ -44,7 +44,7 @@ Lower the first index: $R_{\rho\sigma\mu\nu} := g_{\rho\lambda}\, R^\lambda{}_{\
 
 These reduce the $n^4$ component count down to $\tfrac{1}{12} n^2 (n^2 - 1)$ — in dimension $4$ that's $20$ independent components.
 
-In the presence of torsion, the symmetries weaken: pair symmetry can fail and the first Bianchi acquires a torsion-dependent right-hand side.
+In the presence of torsion, the symmetries weaken: pair symmetry can fail and the first Bianchi identity acquires a torsion-dependent right-hand side.
 
 ## Ricci, scalar, Weyl
 
@@ -52,9 +52,9 @@ Contractions of the Riemann tensor:
 
 - **Ricci tensor.** $R_{\mu\nu} := R^\lambda{}_{\mu\lambda\nu}$. Symmetric for Levi-Civita; $(0, 2)$-tensor; $n(n+1)/2$ independent components in dimension $n$.
 - **Scalar curvature.** $R := g^{\mu\nu} R_{\mu\nu}$. A scalar function.
-- **Weyl tensor.** The trace-free part of Riemann (the part that vanishes on contraction with the metric in any pair of indices); only meaningful in $n \geq 4$. Captures the "conformal" piece of curvature — the part not seen by Ricci.
+- **Weyl tensor.** The trace-free part of Riemann, which vanishes under every metric contraction: the conformal part of the curvature, which Ricci does not see.
 
-In dimension $2$ and $3$, the Weyl tensor vanishes identically; Riemann is fully determined by Ricci (in $3$) or by the scalar (in $2$). In dimension $4$, Weyl is independent — and in vacuum GR ($R_{\mu\nu} = 0$), all curvature is Weyl curvature.
+In dimensions $2$ and $3$ the Weyl tensor vanishes identically, and Riemann is determined by the scalar curvature ($n = 2$) or by Ricci ($n = 3$). In dimension $4$, Weyl is independent — and in vacuum GR ($R_{\mu\nu} = 0$), all curvature is Weyl curvature.
 
 ## Second Bianchi identity
 
@@ -62,7 +62,7 @@ A differential constraint on Riemann (Levi-Civita case):
 $$\nabla_{[\lambda} R_{\rho\sigma]\mu\nu} = 0 \quad \Longleftrightarrow \quad \nabla_\lambda R_{\rho\sigma\mu\nu} + \nabla_\rho R_{\sigma\lambda\mu\nu} + \nabla_\sigma R_{\lambda\rho\mu\nu} = 0.$$
 Contracting with $g^{\lambda\mu}$ and $g^{\rho\nu}$ gives the **contracted Bianchi identity**:
 $$\nabla^\mu G_{\mu\nu} = 0, \qquad G_{\mu\nu} := R_{\mu\nu} - \tfrac{1}{2}\, R\, g_{\mu\nu}.$$
-The tensor $G_{\mu\nu}$ is the **Einstein tensor**, and its automatic divergencelessness is what makes it the right object on the left of the [Einstein equations](note:einstein-equations) (next chapter). Conservation of the [stress–energy tensor](note:stress-energy-tensor) on the right is enforced by the geometry on the left.
+The tensor $G_{\mu\nu}$ is the **Einstein tensor**, and its automatic divergencelessness is what makes it the right object on the left of the [Einstein equations](note:einstein-equations) ([chapter 16](../16-general-relativity/01-einstein-equations.md)). Conservation of the [stress–energy tensor](note:stress-energy-tensor) on the right is enforced by the geometry on the left.
 
 ## Sectional curvature (Riemannian only)
 

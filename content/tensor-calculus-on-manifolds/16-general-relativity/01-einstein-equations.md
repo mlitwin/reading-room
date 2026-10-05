@@ -27,15 +27,13 @@ The left-hand side is forced by three requirements:
 2. **Built from $\tens{g}$ and at most its second derivatives.**
 3. **Divergence-free.** Local conservation of stress–energy $\nabla^\mu T_{\mu\nu} = 0$ requires the same on the left. The [contracted Bianchi identity](../12-connection-and-curvature/03-torsion-and-curvature.md) gives $\nabla^\mu G_{\mu\nu} = 0$ automatically; $\nabla^\mu g_{\mu\nu} = 0$ by metric compatibility. So $G_{\mu\nu} + \Lambda\, g_{\mu\nu}$ has divergence zero for *any* $\Lambda$.
 
-[Lovelock's theorem](note:lovelocks-theorem): in $4$D the only tensors meeting all three are $a\, G_{\mu\nu} + b\, g_{\mu\nu}$. This is essentially the entire derivation, and explains why the Einstein equations are nearly inescapable once you ask for a tensorial second-order classical theory of a metric.
+[Lovelock's theorem](note:lovelocks-theorem): in $4$D the only tensors meeting all three are $a\, G_{\mu\nu} + b\, g_{\mu\nu}$. That is essentially the whole derivation: any tensorial, second-order theory of a metric in four dimensions leads to the Einstein equations.
 
 ## Variational form
 
 The Einstein equations are the [Euler–Lagrange equations](note:euler-lagrange-equations) of the **Einstein–Hilbert action** (the first term) plus matter:
 $$S[\tens{g}, \psi] = \frac{c^4}{16\pi G} \int_M (R - 2\Lambda)\, \mathrm{vol}_g + S_{\mathrm{matter}}[\tens{g}, \psi],$$
-where $\psi$ collectively denotes matter fields. Varying $S$ with respect to $g^{\mu\nu}$ and integrating by parts yields the field equations with
-$$T_{\mu\nu} = -\frac{2}{\sqrt{|\det g|}}\, \frac{\delta (\sqrt{|\det g|}\, \mathcal{L}_{\mathrm{matter}})}{\delta g^{\mu\nu}}.$$
-This is the "definition" of $T_{\mu\nu}$ in field-theoretic GR — the response of the matter Lagrangian to a perturbation of the metric. Stress–energy is what couples to gravity. [Chapter 15](../15-fields-and-stress-energy/02-stress-energy-tensor.md) develops it, with examples and its conservation law.
+where $\psi$ denotes the matter fields. Varying with respect to $g^{\mu\nu}$ gives the field equations, with $T_{\mu\nu}$ appearing as the response of the matter action to the metric ([chapter 15](../15-fields-and-stress-energy/02-stress-energy-tensor.md)). Stress–energy is what couples to gravity.
 
 ## Vacuum and matter
 
@@ -43,20 +41,12 @@ This is the "definition" of $T_{\mu\nu}$ in field-theoretic GR — the response 
 $$G_{\mu\nu} = 0 \quad \Longleftrightarrow \quad R_{\mu\nu} = 0.$$
 The trace of $G_{\mu\nu} = 0$ gives $-R = 0$, so $R = 0$ and the equation collapses to $R_{\mu\nu} = 0$. Vacuum solutions are **Ricci-flat** Lorentzian $4$-manifolds. The Riemann tensor need not vanish — Weyl curvature can carry the gravitational degrees of freedom — and there are non-trivial solutions like Schwarzschild and gravitational waves.
 
-**With matter.** A few stress–energy tensors that come up:
-
-- **Perfect fluid:** $T_{\mu\nu} = (\rho + p)\, u_\mu u_\nu + p\, g_{\mu\nu}$, with $\rho$ energy density, $p$ pressure, $u^\mu$ four-velocity of the fluid ($g_{\mu\nu} u^\mu u^\nu = -1$).
-- **Electromagnetism:** $T_{\mu\nu} = \tfrac{1}{4\pi}(F_{\mu\lambda}\, F_\nu{}^\lambda - \tfrac{1}{4} g_{\mu\nu}\, F_{\rho\sigma} F^{\rho\sigma})$, with $\tens{F}$ the field-strength $2$-form.
-- **Scalar field:** $T_{\mu\nu} = \nabla_\mu \phi\, \nabla_\nu \phi - \tfrac{1}{2}\, g_{\mu\nu}\, (\nabla \phi)^2 - g_{\mu\nu}\, V(\phi)$.
-
-In all three, $\nabla^\mu T_{\mu\nu} = 0$ follows from the matter field equations — energy conservation is consistent with the geometry, by design.
+**With matter.** The perfect-fluid, electromagnetic and scalar-field stress–energy tensors are on the [stress–energy page](../15-fields-and-stress-energy/02-stress-energy-tensor.md). For each, $\nabla^\mu T_{\mu\nu} = 0$ follows from the matter field equations, consistent with the contracted Bianchi identity on the left.
 
 ## Geometric content, briefly
-
-A few phrases for the geometric meaning:
 
 - The **Ricci tensor** $R_{\mu\nu}$ measures how the volume of a small ball of freely falling test particles changes; positive Ricci → focusing, negative → defocusing. ([Geodesic deviation](../12-connection-and-curvature/04-geodesic-deviation.md) is the precise statement: Riemann drives the relative acceleration of nearby geodesics, and Ricci is its trace.)
 - The **Weyl tensor** measures tidal distortion at fixed volume — the trace-free shearing component of curvature.
 - A **vacuum solution** has all curvature in the Weyl tensor: Ricci vanishes, so a small ball initially at rest keeps its volume to leading order, but tidal distortion remains.
 
-The single most important consequence — the geodesic equation as the equation of motion for free particles — is what makes the Einstein equations a theory of *gravity*: matter tells spacetime how to curve, and spacetime tells matter how to move.
+Together with the geodesic equation for free particles, this is a theory of gravity: matter tells spacetime how to curve, and spacetime tells matter how to move.

@@ -2,7 +2,7 @@
 title: Changing charts
 ---
 
-The two charts on $S^2$ describe the same surface. A vector or a function at a point has a single intrinsic identity; what changes between charts is the *components*. This page sets up the bookkeeping.
+A vector or covector at a point is the same object in either chart; only its *components* change. This page does the bookkeeping.
 
 ## The Jacobian
 
@@ -61,8 +61,6 @@ The components changed; the number didn't.
 
 ## What's intrinsic, what's not
 
-A summary of which quantities are intrinsic (chart-independent) and which depend on the chart:
-
 | Quantity | Intrinsic? |
 |---|---|
 | The vector $\tens{v} \in T_p M$ | Yes |
@@ -75,4 +73,4 @@ A summary of which quantities are intrinsic (chart-independent) and which depend
 | Lengths, angles (when a metric is fixed) | Yes |
 | [Christoffel symbols](note:affine-connection) $\Gamma^\rho{}_{\mu\nu}$ | **No** — not even tensorial |
 
-The tensor calculus of the next four chapters is largely a story about consistently keeping the intrinsic objects in view while computing with their chart-dependent components.
+The tensor calculus of the following chapters keeps the intrinsic objects in view while computing with their chart-dependent components.

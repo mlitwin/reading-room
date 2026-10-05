@@ -15,8 +15,8 @@ Every exact form is closed; the converse fails in general, and the obstruction i
 
 **Standard counterexample.** On $\mathbb{R}^2 \setminus \{0\}$, the 1-form
 $$\tens{\omega} = \frac{-y\, dx + x\, dy}{x^2 + y^2}$$
-is closed (check directly that $d\tens{\omega} = 0$). But it isn't exact: integrating over the unit circle counterclockwise gives $\int_{S^1} \tens{\omega} = 2\pi$, and a closed-loop integral of an exact form must vanish — $\int_\gamma df = f(\text{end}) - f(\text{start}) = 0$ when the endpoints coincide. (Had $\tens{\omega}$ been defined on all of $\mathbb{R}^2$, closedness alone would force $\int_{S^1} \tens{\omega} = \int_D d\tens{\omega} = 0$ over the disk the circle bounds; in the punctured plane no such disk exists, which is the point.)
+is closed (a direct check). It is not exact: its integral counterclockwise around the unit circle is $2\pi$, while the integral of an exact form around a closed loop vanishes, $\oint df = 0$. Were $\tens{\omega}$ defined on all of $\mathbb{R}^2$, Stokes's theorem on the unit disk would give $\oint \tens{\omega} = \int_D d\tens{\omega} = 0$; the puncture removes that disk.
 
-The form $\tens{\omega}$ is "$d\theta$" in polar coordinates, but $\theta$ isn't a globally defined function on $\mathbb{R}^2 \setminus \{0\}$ — it's a multivalued angle.
+In polar coordinates $\tens{\omega} = d\theta$, but the angle $\theta$ is not a single-valued function on $\mathbb{R}^2 \setminus \{0\}$.
 
-**Local result.** On a [contractible](note:contractible) open set, every closed form is exact. The cohomology measuring the gap between closed and exact is therefore purely a global, topological invariant — the subject of [chapter 5](../05-de-rham/index.md).
+**Local result.** On a [contractible](note:contractible) open set, every closed form is exact. The gap between closed and exact is therefore global and topological: it is the subject of [chapter 5](../05-de-rham/index.md).

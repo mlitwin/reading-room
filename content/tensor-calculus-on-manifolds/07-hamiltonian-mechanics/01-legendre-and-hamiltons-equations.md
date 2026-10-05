@@ -22,7 +22,7 @@ the total energy, written with the inverse metric.
 
 ## Hamilton's equations
 
-Differentiate the definition of $H$. The $dp$ terms give $\partial H / \partial p_i = \dot q^i$. The $dq$ terms give $\partial H / \partial q^i = -\partial L / \partial q^i = -\dot p_i$, using the [Euler–Lagrange equations](note:euler-lagrange-equations). So:
+Differentiate the definition of $H$. The $d\dot q$ terms cancel because $p_i = \partial L / \partial \dot q^i$. The $dp$ terms give $\partial H / \partial p_i = \dot q^i$. The $dq$ terms give $\partial H / \partial q^i = -\partial L / \partial q^i = -\dot p_i$, using the [Euler–Lagrange equations](note:euler-lagrange-equations). So:
 $$\boxed{\quad \dot q^i = \frac{\partial H}{\partial p_i}, \qquad \dot p_i = -\frac{\partial H}{\partial q^i}. \quad}$$
 These are $2n$ first-order ODEs on **phase space** $T^*Q$, with coordinates $(q^i, p_i)$ ([cotangent bundle](../01-manifolds/03-cotangent-space.md)). For hyperregular $L$, $\mathbb{F}L$ carries solutions of the Euler–Lagrange equations bijectively onto solutions of Hamilton's equations. The two formulations describe the same dynamics.
 

@@ -25,4 +25,4 @@ The centrifugal term $-r\dot\varphi^2$ and the Coriolis-type term $2\dot r\dot\v
 
 At fixed energy $E$, the trajectories of a natural system in the region $V < E$ are, after reparametrization, the geodesics of the **Jacobi metric**
 $$\tens{g}_J = 2\,(E - V)\, \tens{g}$$
-(Maupertuis' principle). The potential is absorbed into the geometry. This is the classical prototype of what general relativity does with gravity in full.
+(Maupertuis' principle). The potential is absorbed into a spatial metric, one energy at a time. [Newton–Cartan gravity](../16-general-relativity/05-newton-cartan.md) absorbs it into a spacetime connection for all energies at once, which is the version general relativity extends.

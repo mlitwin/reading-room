@@ -10,12 +10,12 @@ Two charts $(U, \varphi)$ and $(V, \psi)$ are **smoothly compatible** if $U \cap
 $$\psi \circ \varphi^{-1}: \varphi(U \cap V) \to \psi(U \cap V)$$
 is a $C^\infty$ diffeomorphism between open subsets of $\mathbb{R}^n$.
 
-A **smooth atlas** is a collection of pairwise smoothly compatible charts whose domains cover $M$. A maximal smooth atlas is a **smooth structure**.
+A **smooth atlas** is a collection of pairwise smoothly compatible charts whose domains cover $M$. A maximal smooth atlas is a **smooth structure**, and a **smooth manifold** is a topological manifold equipped with one. From here on, $M$ and $N$ denote smooth manifolds and charts belong to their smooth structures.
 
 **Smooth function.** $f: M \to \mathbb{R}$ is smooth if $f \circ \varphi^{-1}: \varphi(U) \to \mathbb{R}$ is $C^\infty$ for every chart $(U, \varphi)$. Smooth functions form an $\mathbb{R}$-algebra $C^\infty(M)$.
 
 **Smooth map.** $F: M \to N$ is smooth if its coordinate representation $\psi \circ F \circ \varphi^{-1}$ is $C^\infty$ for every pair of charts where the composition is defined.
 
-**Diffeomorphism.** A smooth map with a smooth inverse. Two manifolds with a diffeomorphism between them are **diffeomorphic** — the notion of "the same smooth manifold," playing the role isomorphism plays for groups or vector spaces.
+**Diffeomorphism.** A smooth map with a smooth inverse. Manifolds related by one are **diffeomorphic**: the same smooth manifold, as isomorphic groups are the same group.
 
-**Partition of unity.** On any (second-countable, Hausdorff) smooth manifold, given any open cover, a smooth [partition of unity](note:partition-of-unity) subordinate to it exists. This is the lever that turns local constructions into global ones — used constantly for integration, gluing of metrics, extending sections.
+**Partition of unity.** Every open cover of a smooth manifold has a subordinate smooth [partition of unity](note:partition-of-unity). This is what turns local constructions into global ones: integration, gluing metrics, extending sections.

@@ -6,7 +6,7 @@ An **orientation** on an $n$-manifold $M$ is a smooth, nowhere-vanishing $n$-for
 
 A manifold that admits an orientation is **orientable**. Examples: $\mathbb{R}^n$, $S^n$, $T^n$, every [Lie group](note:lie-group), every complex manifold. Non-examples: the Möbius strip, the Klein bottle, $\mathbb{RP}^{2k}$.
 
-Equivalently, an orientation is a consistent choice of "right-handed basis" at each tangent space: a connected component of the bundle of frames.
+Equivalently, an orientation is a continuous choice of "right-handed" bases of the tangent spaces; on a connected orientable $M$ there are exactly two.
 
 **Oriented chart.** A chart $(U, \varphi)$ is **positively oriented** if $dx^1 \wedge \cdots \wedge dx^n$ agrees with the orientation of $M$ on $U$.
 
@@ -18,9 +18,9 @@ the right side being an ordinary Riemann/Lebesgue integral on $\mathbb{R}^n$.
 
 For a general $\tens{\omega} \in \Omega^n_c(M)$, choose a [partition of unity](note:partition-of-unity) $\{\rho_\alpha\}$ subordinate to a positively oriented atlas $\{(U_\alpha, \varphi_\alpha)\}$ and set
 $$\int_M \tens{\omega} := \sum_\alpha \int_{U_\alpha} \rho_\alpha \, \tens{\omega}.$$
-Independence of the choice of partition and atlas is exactly the change-of-variables formula in $\mathbb{R}^n$ (with Jacobian sign tracked by the orientation).
+Independence of the partition and the atlas follows from the change-of-variables formula in $\mathbb{R}^n$. Positive orientation guarantees the Jacobian determinant is positive.
 
 **Change of variables on manifolds.** For an orientation-preserving diffeomorphism $F: N \to M$,
 $$\int_N F^* \tens{\omega} = \int_M \tens{\omega}.$$
 
-Integration of forms is reparametrization-invariant by construction — that's the whole motivation for using forms instead of functions.
+Integrals of forms are thus chart-independent by construction, which is why one integrates forms rather than functions.

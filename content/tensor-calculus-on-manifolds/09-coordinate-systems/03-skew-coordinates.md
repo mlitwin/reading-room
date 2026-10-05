@@ -2,9 +2,7 @@
 title: Skew coordinates
 ---
 
-The skew chart in this book is defined so its grid is **visibly tilted** relative to the standard chart — the longitude circles are sheared, the latitude circles stay horizontal. (See [the diagram on the previous page](01-the-sphere-and-two-charts.md).) The tilt parameter is fixed throughout: $\alpha = \pi/8 \approx 22.5°$.
-
-The simplest definition that gives that picture keeps the standard $\theta$ and shears the longitude:
+The skew chart tilts the grid of the standard chart: longitudes are sheared and latitudes stay horizontal ([diagram](01-the-sphere-and-two-charts.md)). It keeps $\theta$ and shears the longitude, with $\alpha = \pi/8 \approx 22.5°$ throughout:
 $$\tilde\theta := \theta, \qquad \tilde\varphi := \varphi + \alpha\, \cos\theta.$$
 The shift by $\alpha\cos\theta$ is largest at the poles and zero at the equator, producing the visible tilt of the longitude curves. The Jacobian of $(\theta, \varphi) \mapsto (\tilde\theta, \tilde\varphi)$ is everywhere non-singular ($\det = 1$), so this is a valid chart wherever the standard one is.
 
@@ -57,12 +55,12 @@ The **dual basis** $d\tilde\theta, d\tilde\varphi$ is defined by $d\tilde\theta(
 
 ![Skew tangent plane with coordinate basis (solid black) and dual basis (dashed grey). Each dual covector is perpendicular to the "wrong" axis.](../figures/dual-basis-skew.svg)
 
-Talking about covectors' lengths and angles at all — and drawing them as arrows in the same plane as the basis vectors — means identifying each covector with a vector through the metric, i.e. applying the [musical isomorphism](note:musical-isomorphism) $\sharp$. Done honestly, the angle between $d\tilde\theta$ and $d\tilde\varphi$ is not $\pi/2$ either — it is the **supplement** of the angle between $\partial_{\tilde\theta}$ and $\partial_{\tilde\varphi}$. Angles between covectors use the *inverse* metric, and inverting a $2 \times 2$ matrix flips the sign of the off-diagonal entry ($g^{\tilde\theta\tilde\varphi} = -g_{\tilde\theta\tilde\varphi}/\det g$), so the cosine flips sign: basis vectors at $\approx 70°$ put the dual covectors at $\approx 110°$.
+Lengths and angles of covectors, and drawing them as arrows beside the basis vectors, require identifying covectors with vectors through the metric: the [musical isomorphism](note:musical-isomorphism) $\sharp$. Measured that way, the angle between $d\tilde\theta$ and $d\tilde\varphi$ is not $\pi/2$ either. It is the **supplement** of the angle between $\partial_{\tilde\theta}$ and $\partial_{\tilde\varphi}$. Angles between covectors use the *inverse* metric, and inverting a $2 \times 2$ matrix flips the sign of the off-diagonal entry ($g^{\tilde\theta\tilde\varphi} = -g_{\tilde\theta\tilde\varphi}/\det g$), so the cosine flips sign: basis vectors at $\approx 70°$ put the dual covectors at $\approx 110°$.
 
 ## Coordinate functions
 
-To complete the picture: what *are* the coordinate functions $\tilde\theta, \tilde\varphi$ on $S^2$, regarded as smooth real-valued functions of points? They are
+As functions on $S^2$, the skew coordinates are
 $$\tilde\theta(p) = \theta(p), \qquad \tilde\varphi(p) = \varphi(p) + \alpha\, \cos\theta(p),$$
-with $\theta, \varphi$ the standard coordinate functions. These are explicit functions of position, and $d\tilde\theta, d\tilde\varphi$ are their differentials in the usual sense.
+with $\theta, \varphi$ the standard coordinate functions; $d\tilde\theta$ and $d\tilde\varphi$ are their differentials.
 
-The next page works out the relation between the two charts — the Jacobian, and what it means to transform components between them.
+The next page works out the Jacobian between the two charts and how components transform.

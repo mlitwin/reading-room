@@ -24,7 +24,7 @@ A charge $q$ in a potential 1-form $\tens{A} = A_\mu\, dx^\mu$ adds a term to th
 $$S = -m\int d\tau + q \int \tens{A} = \int \Bigl(-m\sqrt{-g_{\mu\nu}\dot x^\mu \dot x^\nu} + q\, A_\mu \dot x^\mu\Bigr) d\lambda.$$
 The coupling is the integral of a 1-form along the worldline, so it is automatically reparametrization-invariant. The canonical momentum becomes $p_\mu = m u_\mu + q A_\mu$. The Euler–Lagrange equations give the **Lorentz force**
 $$m\, \frac{du_\mu}{d\tau} = q\, F_{\mu\nu}\, u^\nu, \qquad \tens{F} = d\tens{A}, \quad F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu.$$
-With $A_\mu = (-\phi, \tens{A})$, the components $F_{i0}$ are the electric field $E_i$ and $F_{ij}$ the magnetic field. Gauge invariance $\tens{A} \to \tens{A} + d\chi$ changes $S$ by a boundary term: it is a quasi-symmetry ([chapter 8](../08-symmetry-and-noether/01-noethers-theorem.md)).
+With $A_0 = -\phi$ (the electric potential) and $A_i$ the vector potential, the components $F_{i0}$ are the electric field $E_i$, and $F_{ij}$ are the components of the magnetic field. Gauge invariance $\tens{A} \to \tens{A} + d\chi$ changes $S$ by a boundary term: it is a quasi-symmetry ([chapter 8](../08-symmetry-and-noether/01-noethers-theorem.md)).
 
 ## Newtonian limit
 

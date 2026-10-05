@@ -12,11 +12,11 @@ Read $\tens{J}$ as a $(1, 1)$-tensor: it eats one vector and returns one vector,
 $$J^\theta{}_\varphi = -\sin\theta, \qquad J^\varphi{}_\theta = \frac{1}{\sin\theta}, \qquad J^\theta{}_\theta = J^\varphi{}_\varphi = 0.$$
 Squaring: $\tens{J}^2 = -\mathrm{id}$, so $\tens{J}$ is an **almost complex structure**; it extends smoothly over the poles to all of $S^2$. With respect to the round metric of chapter 11 it is rotation by $90^\circ$, but its definition uses no metric.
 
-This is a genuine tensor field: a chart change to the stereographic coordinates $(x, y)$ would give different component functions $J^x{}_x$, $J^x{}_y$, etc., but the same intrinsic object. (Computing those components from the transformation rule is an exercise.)
+It is a genuine tensor field: other charts give other component functions for the same object. In the stereographic chart, where the round metric is a multiple of $dx^2 + dy^2$ ([chapter 11](../11-metric/04-on-the-sphere.md)), the components are constant: $\tens{J}(\partial_x) = \partial_y$ and $\tens{J}(\partial_y) = -\partial_x$.
 
 Contracting the upper index of $\tens{J}$ against its lower one,
 $$\mathrm{tr}\, \tens{J} = J^\mu{}_\mu = 0,$$
-the trace vanishes identically; $\tens{J}$ is traceless. This is invariant: trace of a $(1, 1)$-tensor is a scalar, and zero in one chart is zero in every chart.
+so $\tens{J}$ is traceless. The trace of a $(1, 1)$-tensor is a scalar, so this holds in every chart.
 
 ## A 2-form: the area form
 
@@ -34,6 +34,6 @@ Again, same tensor, different components.
 
 ## Transformation diagnostic
 
-Both objects above transform correctly: changing chart, recomputing the components from the rule, and checking that the result is the same as starting fresh in the new chart, is a finite (and tedious) check. The defining property of a tensor — the multiplicative [transformation law](note:tensor-transformation-law) of [the previous page](02-coordinate-components.md) — is what licenses calling these objects intrinsic features of the sphere rather than chart artifacts.
+For either object, transforming the standard-chart components by the [transformation law](note:tensor-transformation-law) of [the previous page](02-coordinate-components.md) reproduces a direct computation in the new chart. That law is what makes them features of the sphere rather than artifacts of a chart.
 
 The next chapter introduces the round metric, which lets us assign a *length* to a tangent vector, a *length* to a covector via the dual metric, and gives a unified construction of $\tens{J}$ (as the rotation associated to the metric and orientation) and $\tens{\omega}$ (as the metric volume form).

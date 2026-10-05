@@ -2,7 +2,7 @@
 title: Two languages, side by side
 ---
 
-The same object goes by different names depending on the audience. This page is a translation table between the physicist's index notation and the mathematician's coordinate-free notation, plus the special role of fully antisymmetric covariant tensors as differential forms.
+A translation table between the physicist's index notation and the mathematician's coordinate-free notation, and the place of differential forms among tensors.
 
 ## Translation table
 
@@ -37,16 +37,10 @@ $$\tens{\omega}(\tens{v}_{\sigma(1)}, \ldots, \tens{v}_{\sigma(k)}) = \mathrm{sg
 for every permutation $\sigma \in S_k$. Equivalently, $\omega_{\mu_1 \cdots \mu_k}$ is unchanged under the antisymmetrization operator $[\,\cdot\,]$:
 $$\omega_{\mu_1 \cdots \mu_k} = \omega_{[\mu_1 \cdots \mu_k]}.$$
 
-The space of $k$-forms at $p$ has dimension $\binom{n}{k}$ (zero for $k > n$). The basis is
-$$dx^{\mu_1} \wedge \cdots \wedge dx^{\mu_k}, \qquad 1 \leq \mu_1 < \cdots < \mu_k \leq n,$$
-with the **wedge product**
-$$dx^{\mu_1} \wedge \cdots \wedge dx^{\mu_k} := \sum_{\sigma \in S_k} \mathrm{sgn}(\sigma)\; dx^{\mu_{\sigma(1)}} \otimes \cdots \otimes dx^{\mu_{\sigma(k)}}.$$
-A general $k$-form on $M$ is $\tens{\omega} = \tfrac{1}{k!}\, \omega_{\mu_1 \cdots \mu_k}\, dx^{\mu_1} \wedge \cdots \wedge dx^{\mu_k}$, with $\omega_{\mu_1 \cdots \mu_k}$ totally antisymmetric.
-
-The full machinery — wedge product, [exterior derivative](note:exterior-derivative) $d$, pullback, integration — is developed in [Part I](../03-differential-forms/index.md), in the same $\tfrac{1}{k!}$ [convention](note:wedge-convention) used here. For GR purposes the wedge product and $d$ recur in two places: the volume form built from the metric, and the with-torsion connection of [Einstein–Cartan](../16-general-relativity/03-einstein-cartan.md).
+The space of $k$-forms at $p$ has dimension $\binom{n}{k}$, zero for $k > n$. The wedge product, the [exterior derivative](note:exterior-derivative), pullback and integration are developed in [chapter 3](../03-differential-forms/01-k-forms-and-wedge.md), with the same $\tfrac{1}{k!}$ [convention](note:wedge-convention) for components. In the physics chapters they recur in the metric volume form, Maxwell's $\tens{F} = d\tens{A}$, and the structure equations of [Einstein–Cartan](../16-general-relativity/03-einstein-cartan.md) gravity.
 
 ## Symmetric tensors
 
-Mirror construction: a **symmetric $k$-tensor** has $T_{\mu_1 \cdots \mu_k} = T_{(\mu_1 \cdots \mu_k)}$. The metric is the most important example. The dimension of the symmetric $(0, k)$-space is $\binom{n + k - 1}{k}$, larger than the $k$-form space for $k \geq 2$. Symmetric and antisymmetric tensors together span the rank-$k$ space only for $k \leq 2$; for higher $k$, there are mixed-symmetry tensors as well (Young-diagram decomposition).
+A **symmetric $k$-tensor** has $T_{\mu_1 \cdots \mu_k} = T_{(\mu_1 \cdots \mu_k)}$. The metric is the most important example. The dimension of the symmetric $(0, k)$-space is $\binom{n + k - 1}{k}$, larger than the $k$-form space for $k \geq 2$. Symmetric and antisymmetric tensors together span the rank-$k$ space only for $k \leq 2$; for higher $k$, there are mixed-symmetry tensors as well (Young-diagram decomposition).
 
-This will not matter again until the [Riemann tensor](note:riemann-tensor) (which has a non-trivial mixed symmetry — antisymmetric in two pairs of indices, with the first Bianchi identity giving a third constraint).
+Mixed symmetry next matters for the [Riemann tensor](note:riemann-tensor), which is antisymmetric within each of two index pairs and obeys the first Bianchi identity as a further constraint.

@@ -19,11 +19,11 @@ $$[g^{\mu\nu}] = \begin{pmatrix} 1 & 0 \\ 0 & 1/\sin^2\theta \end{pmatrix}.$$
 
 The length of the basis vectors:
 $$|\partial_\theta|^2 = g_{\theta\theta} = 1, \qquad |\partial_\varphi|^2 = g_{\varphi\varphi} = \sin^2\theta.$$
-So $\partial_\theta$ has unit length everywhere; $\partial_\varphi$ has length $\sin\theta$ — short near the poles, long at the equator. The vector $\frac{1}{\sin\theta}\, \partial_\varphi$ would be the unit vector pointing east, in the conventions of any geographer.
+So $\partial_\theta$ has unit length everywhere; $\partial_\varphi$ has length $\sin\theta$ — short near the poles, long at the equator. The unit vector pointing east is $\frac{1}{\sin\theta}\, \partial_\varphi$.
 
 The orthogonality $\tens{g}(\partial_\theta, \partial_\varphi) = 0$ says the spherical coordinates are an orthogonal coordinate system on $S^2$.
 
-The angle between two tangent vectors at a point uses the inner product in the usual way. A curve $\gamma(t) = \Phi(\theta(t), \varphi(t))$ has length
+A curve $\gamma(t) = \Phi(\theta(t), \varphi(t))$ has length
 $$\operatorname{len}(\gamma) = \int \sqrt{\dot\theta^2 + \sin^2\theta\, \dot\varphi^2}\; dt.$$
 A meridian ($\varphi$ constant) from pole to pole has length $\int_0^\pi 1\, d\theta = \pi$; the equator ($\theta = \pi/2$) has length $\int_0^{2\pi} \sin(\pi/2)\, d\varphi = 2\pi$. Both as expected for a unit-radius sphere.
 
@@ -41,9 +41,7 @@ Going the other way: the vector dual to $d\varphi$ is $(d\varphi)^\sharp = g^{\v
 
 ## In the skew chart
 
-The same round metric, expressed in the [skew chart](../09-coordinate-systems/03-skew-coordinates.md) $(\tilde\theta, \tilde\varphi)$ defined by $\tilde\theta = \theta, \tilde\varphi = \varphi + \alpha\cos\theta$:
-
-Compute each component using $g_{\tilde\mu\tilde\nu} = \tens{g}(\partial_{\tilde\mu}, \partial_{\tilde\nu})$ and the basis identities $\partial_{\tilde\theta} = \partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi$, $\partial_{\tilde\varphi} = \partial_\varphi$:
+In the [skew chart](../09-coordinate-systems/03-skew-coordinates.md) $\tilde\theta = \theta$, $\tilde\varphi = \varphi + \alpha\cos\theta$, compute each component from $g_{\tilde\mu\tilde\nu} = \tens{g}(\partial_{\tilde\mu}, \partial_{\tilde\nu})$ and the basis identities $\partial_{\tilde\theta} = \partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi$, $\partial_{\tilde\varphi} = \partial_\varphi$:
 
 $$\begin{aligned}
 g_{\tilde\theta\tilde\theta} &= \tens{g}(\partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi, \; \partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi) = 1 + \alpha^2 \sin^4 \tilde\theta, \\
@@ -68,6 +66,7 @@ $$|\partial_{\tilde\theta}|^2 = 1 + \alpha^2 \sin^4\tilde\theta, \qquad |\partia
 At the sample point and $\alpha = \pi/8$: $|\partial_{\tilde\theta}|^2 \approx 1.129$ (slightly longer than the standard $\partial_\theta$, which has $|\partial_\theta|^2 = 1$), and $|\partial_{\tilde\varphi}|^2 \approx 0.916$ (same as the standard $\partial_\varphi$, since they're the same vector).
 
 The takeaways:
+
 - The same geometric metric has different component matrices in different charts.
 - Off-diagonal entries are a chart artifact, not a feature of the geometry.
 - The volume form is chart-independent; its component $\sqrt{\det g}$ is unchanged here only because the chart change has Jacobian determinant $1$.
@@ -79,10 +78,10 @@ Pulling back the same Euclidean metric through the stereographic chart gives
 $$\tens{g} = \frac{4}{(1 + x^2 + y^2)^2}\, (dx^2 + dy^2).$$
 **Conformally flat:** the metric is a positive scalar function times $dx^2 + dy^2$, so angles agree with Euclidean angles in this chart even though lengths don't. The conformal factor $4/(1 + r^2)^2$ tends to $0$ as $r \to \infty$, where the south pole sits at infinity.
 
-A general fact: any $2$-manifold admits isothermal (conformally flat) coordinates locally. The sphere happens to admit them on a chart missing a single point.
+Every Riemannian $2$-manifold admits isothermal (conformally flat) coordinates locally. The sphere happens to admit them on a chart missing a single point.
 
 ## Pullback by a rotation
 
 The action of $SO(3)$ on $S^2$ preserves the round metric. For a rotation $R: S^2 \to S^2$, the [pullback](note:pullback) satisfies
 $$R^* \tens{g} = \tens{g}.$$
-This is the [**isometry**](note:isometry) condition; the connected isometry group of the round sphere is $SO(3)$ (with $O(3)$ if reflections are allowed). [Killing vectors](note:killing-vector) — infinitesimal generators of isometries — made this concrete on the [previous page](03-killing-vectors.md).
+This is the [**isometry**](note:isometry) condition. Its infinitesimal form is the three [Killing vectors](note:killing-vector) of the [previous page](03-killing-vectors.md).

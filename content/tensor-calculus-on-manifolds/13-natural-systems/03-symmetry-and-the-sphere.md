@@ -13,7 +13,7 @@ The [Noether charge](../08-symmetry-and-noether/01-noethers-theorem.md) is then 
 $$J_\xi = p_i\, \xi^i = g_{ij}\, \xi^i \dot q^j = \tens{g}(\tens{\xi}, \dot q).$$
 A direct check uses covariant Newton and the antisymmetry of $\nabla \tens{\xi}$ ([chapter 11](../11-metric/03-killing-vectors.md)):
 $$\frac{d}{dt}\, \tens{g}(\tens{\xi}, \dot q) = \tens{g}(\nabla_{\dot q}\tens{\xi}, \dot q) + \tens{g}(\tens{\xi}, \nabla_{\dot q}\dot q) = 0 - \tens{g}(\tens{\xi}, \operatorname{grad} V) = -\tens{\xi}(V) = 0.$$
-This is the general-relativistic Killing charge $\xi_\mu \dot x^\mu$ with $V = 0$.
+With $Q$ spacetime and $V = 0$, this is the geodesic Killing charge $\xi_\mu \dot x^\mu$ of chapter 11.
 
 ## The particle on the sphere
 

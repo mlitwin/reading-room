@@ -3,7 +3,7 @@ title: Notes
 notes: true
 ---
 
-Supplementary definitions referenced from the body of this book — terms the main text uses without expanding inline, plus quick-reference restatements of definitions the book does develop in full, so a later chapter can recall an earlier one without a detour. Read as a standalone glossary, or popped up on demand from links in the chapters.
+Short definitions behind the underlined terms in the chapters: terms the text uses without developing, and recaps of ones it does develop, each linked back to its full treatment. Read it as a glossary or open entries in place from the text.
 
 ## Hausdorff
 
@@ -19,7 +19,7 @@ A topological space is **paracompact** if every open cover admits a *locally fin
 
 ## Partition of unity
 
-A **partition of unity** subordinate to an open cover $\{U_\alpha\}$ of $M$ is a family of smooth functions $\rho_\alpha: M \to [0, 1]$, each supported inside the corresponding $U_\alpha$, locally finite (every point has a neighborhood meeting only finitely many supports), with $\sum_\alpha \rho_\alpha = 1$ everywhere. On a [second-countable](note:second-countable) [Hausdorff](note:hausdorff) smooth manifold, every open cover admits one — this is the lever that turns local constructions into global ones: integration is defined chart by chart and glued ($\int_M \tens{\omega} = \sum_\alpha \int \rho_\alpha\, \tens{\omega}$), Riemannian metrics are built by gluing chart-wise Euclidean ones, and local sections are extended globally.
+A **partition of unity** subordinate to an open cover $\{U_\alpha\}$ of $M$ is a family of smooth functions $\rho_\alpha: M \to [0, 1]$, each supported inside the corresponding $U_\alpha$, locally finite (every point has a neighborhood meeting only finitely many supports), with $\sum_\alpha \rho_\alpha = 1$ everywhere. On a smooth manifold every open cover admits one (this uses [second countability](note:second-countable) and the [Hausdorff](note:hausdorff) property). It turns local constructions into global ones: integration is defined chart by chart and glued ($\int_M \tens{\omega} = \sum_\alpha \int \rho_\alpha\, \tens{\omega}$), Riemannian metrics are built by gluing chart-wise Euclidean ones, and local sections are extended globally.
 
 ## Compact support
 
@@ -27,7 +27,7 @@ A function (or vector field, or differential form) has **compact support** if it
 
 ## Embedded manifold
 
-A **smooth submanifold** of $\mathbb{R}^N$ is a subset $M \subseteq \mathbb{R}^N$ that locally looks like the graph of a smooth function: around every $p \in M$ there is an open $U \subseteq \mathbb{R}^N$, an open $V \subseteq \mathbb{R}^n$, and a smooth map $\Phi: V \to \mathbb{R}^N$ with everywhere-injective differential that is a homeomorphism onto $U \cap M$. The image $\Phi(V)$ is an open piece of $M$, and the $n$ coordinates on $V$ are a chart on $M$.
+A **smooth submanifold** of $\mathbb{R}^N$ is a subset $M \subseteq \mathbb{R}^N$ that is smoothly parametrized near each point: around every $p \in M$ there is an open $U \subseteq \mathbb{R}^N$, an open $V \subseteq \mathbb{R}^n$, and a smooth map $\Phi: V \to \mathbb{R}^N$ with everywhere-injective differential that is a homeomorphism onto $U \cap M$. The image $\Phi(V)$ is an open piece of $M$, and the $n$ coordinates on $V$ are a chart on $M$.
 
 The **embedded view** of differential geometry takes advantage of the ambient $\mathbb{R}^N$: tangent vectors are vectors in $\mathbb{R}^N$ (spanning the tangent plane to $M$); the metric is the pullback of the Euclidean inner product; integration is over an embedded submanifold of $\mathbb{R}^N$. The Whitney embedding theorem says every smooth $n$-manifold can be embedded in $\mathbb{R}^{2n}$, so the embedded view loses no generality in principle. In practice the ambient space is excess baggage — isometric embeddings need many more dimensions (Nash), and a Lorentzian metric can only be induced from an indefinite-signature ambient space — which is why the abstract view is the working one.
 
@@ -67,7 +67,7 @@ Pullback always exists — vector fields, by contrast, push forward only through
 
 For the commutative algebra $A = C^\infty(M)$ of smooth functions on a manifold, a **derivation at $p \in M$** is an $\mathbb{R}$-linear map $D: A \to \mathbb{R}$ satisfying the **Leibniz rule**
 $$D(fg) = f(p)\, D(g) + g(p)\, D(f).$$
-Every derivation at $p$ is determined by its values on a coordinate system around $p$ — $D(x^\mu)$ for the chart $x = (x^1, \ldots, x^n)$ — and the space of derivations is an $n$-dimensional real vector space, isomorphic to $T_p M$.
+Every derivation at $p$ is determined by its values on a coordinate system around $p$ — $D(x^i)$ for the chart $x = (x^1, \ldots, x^n)$ — and the space of derivations is an $n$-dimensional real vector space, isomorphic to $T_p M$.
 
 The derivation viewpoint generalizes: a derivation of $A$ (with values in $A$) is a vector field; the Lie bracket of vector fields is the commutator of derivations.
 
@@ -97,7 +97,7 @@ A **Lie group** is a group that is also a smooth manifold, with multiplication a
 
 ## Flow
 
-The **flow** of a vector field $\tens{X}$ is the map $\theta_t(p)$ that follows the integral curve of $\tens{X}$ from $p$ for parameter time $t$: $\theta_0 = \mathrm{id}$, $\frac{d}{dt}\theta_t(p) = X_{\theta_t(p)}$, with the group law $\theta_t \circ \theta_s = \theta_{t+s}$ where defined. Each $\theta_t$ is a diffeomorphism between open subsets — a flow is a one-parameter family of transformations of $M$, and every such family arises this way from its velocity field. A vector field whose flow is defined for all $t \in \mathbb{R}$ is **complete**; [compactly supported](note:compact-support) fields always are. Defined in full on the [flows page](02-vector-fields-and-flows/02-flows-and-lie-bracket.md).
+The **flow** of a vector field $\tens{X}$ is the map $\theta_t(p)$ that follows the integral curve of $\tens{X}$ from $p$ for parameter time $t$: $\theta_0 = \mathrm{id}$, $\frac{d}{dt}\theta_t(p) = \tens{X}_{\theta_t(p)}$, with the group law $\theta_t \circ \theta_s = \theta_{t+s}$ where defined. Each $\theta_t$ is a diffeomorphism between open subsets — a flow is a one-parameter family of transformations of $M$, and every such family arises this way from its velocity field. A vector field whose flow is defined for all $t \in \mathbb{R}$ is **complete**; [compactly supported](note:compact-support) fields always are. Defined in full on the [flows page](02-vector-fields-and-flows/02-flows-and-lie-bracket.md).
 
 ## Lie bracket
 
@@ -113,7 +113,7 @@ with $\theta_t^*$ the [pullback](note:pullback). Specializations: on functions $
 
 The contraction of a vector field into the first slot of a $k$-form:
 $$\iota_{\tens{X}}: \Omega^k(M) \to \Omega^{k-1}(M), \qquad (\iota_{\tens{X}} \tens{\omega})(\tens{Y}_1, \ldots, \tens{Y}_{k-1}) := \tens{\omega}(\tens{X}, \tens{Y}_1, \ldots, \tens{Y}_{k-1}).$$
-A graded antiderivation: $\iota_{\tens{X}}(\tens{\omega} \wedge \tens{\eta}) = (\iota_{\tens{X}} \tens{\omega}) \wedge \tens{\eta} + (-1)^k\, \tens{\omega} \wedge (\iota_{\tens{X}} \tens{\eta})$ for $\tens{\omega} \in \Omega^k$, and $\iota_X^2 = 0$. It appears in Cartan's magic formula $\Lie_{\tens{X}} = \iota_{\tens{X}} d + d\, \iota_{\tens{X}}$ ([Lie derivative](note:lie-derivative)) and in the boundary-orientation rule $\iota_\nu \Omega$ of Stokes's theorem. Introduced on the [Lie-derivative page](02-vector-fields-and-flows/03-lie-derivative.md).
+A graded antiderivation: $\iota_{\tens{X}}(\tens{\omega} \wedge \tens{\eta}) = (\iota_{\tens{X}} \tens{\omega}) \wedge \tens{\eta} + (-1)^k\, \tens{\omega} \wedge (\iota_{\tens{X}} \tens{\eta})$ for $\tens{\omega} \in \Omega^k$, and $\iota_{\tens{X}}^2 = 0$. It appears in Cartan's magic formula $\Lie_{\tens{X}} = \iota_{\tens{X}} d + d\, \iota_{\tens{X}}$ ([Lie derivative](note:lie-derivative)) and in the boundary-orientation rule $\iota_{\tens{\nu}} \tens{\Omega}$ of Stokes's theorem. Introduced on the [Lie-derivative page](02-vector-fields-and-flows/03-lie-derivative.md).
 
 ## Differential form
 
@@ -306,13 +306,13 @@ and $\nabla \tens{g} = 0$. Developed in full on the [covariant-derivative page](
 
 ## Parallel transport
 
-A vector field $V(t)$ along a curve $\gamma$ is **parallel-transported** if $\nabla_{\dot\gamma} V = 0$ — a linear ODE whose solutions define an isomorphism $P_\gamma: T_{\gamma(t_0)} M \to T_{\gamma(t_1)} M$ between tangent spaces along the curve. For a metric-compatible connection it preserves inner products. The transport depends on the *path*, not just the endpoints: carried around a small parallelogram with sides $\varepsilon \tens{u}, \varepsilon \tens{v}$ ($\tens{u}$ first), a vector $\tens{Z}$ returns changed by $-\varepsilon^2 \tens{R}(\tens{u}, \tens{v})\, \tens{Z}$ to leading order — that failure *is* the Riemann curvature. Defined on the [covariant-derivative page](12-connection-and-curvature/02-covariant-derivative.md).
+A vector field $\tens{V}(t)$ along a curve $\gamma$ is **parallel-transported** if $\nabla_{\dot\gamma} \tens{V} = 0$ — a linear ODE whose solutions define an isomorphism $P_\gamma: T_{\gamma(t_0)} M \to T_{\gamma(t_1)} M$ between tangent spaces along the curve. For a metric-compatible connection it preserves inner products. The transport depends on the *path*, not just the endpoints: carried around a small parallelogram with sides $\varepsilon \tens{u}, \varepsilon \tens{v}$ ($\tens{u}$ first), a vector $\tens{Z}$ returns changed by $-\varepsilon^2 \tens{R}(\tens{u}, \tens{v})\, \tens{Z}$ to leading order — that failure *is* the Riemann curvature. Defined on the [covariant-derivative page](12-connection-and-curvature/02-covariant-derivative.md).
 
 ## Geodesic
 
 A curve whose velocity is [parallel-transported](note:parallel-transport) along itself:
 $$\nabla_{\dot\gamma} \dot\gamma = 0, \qquad \text{in coordinates} \quad \ddot\gamma^\rho + \Gamma^\rho{}_{\mu\nu}\, \dot\gamma^\mu \dot\gamma^\nu = 0.$$
-For the Levi-Civita connection these are the locally length-extremizing curves — great circles on the sphere, straight lines in flat space. In GR, timelike geodesics are the worldlines of free-falling massive particles and null geodesics the worldlines of light. Along any geodesic, each [Killing vector](note:killing-vector) $\tens{\xi}$ gives a conserved quantity $\xi_\mu \dot\gamma^\mu$. Developed on the [covariant-derivative page](12-connection-and-curvature/02-covariant-derivative.md).
+For the Levi-Civita connection they are the critical curves of length: great circles on the sphere, straight lines in flat space. In GR, timelike geodesics are the worldlines of free-falling massive particles and null geodesics the worldlines of light. Along any geodesic, each [Killing vector](note:killing-vector) $\tens{\xi}$ gives a conserved quantity $\xi_\mu \dot\gamma^\mu$. Developed on the [covariant-derivative page](12-connection-and-curvature/02-covariant-derivative.md).
 
 ## Riemann index convention
 
@@ -384,7 +384,7 @@ $$\tens{\eta} = -dt^2 + dx^2 + dy^2 + dz^2$$
 
 ## Stress-energy tensor
 
-The symmetric $(0, 2)$-tensor $T_{\mu\nu}$ of matter and non-gravitational fields. Its components give energy density ($T_{00}$), momentum density, and stress. For a perfect fluid, $T_{\mu\nu} = (\rho + p)\, u_\mu u_\nu + p\, g_{\mu\nu}$. Field-theoretically it is the response of the matter action to a change of metric, $T_{\mu\nu} = -\tfrac{2}{\sqrt{|\det g|}}\, \delta(\sqrt{|\det g|}\, \mathcal{L}_{\mathrm{matter}}) / \delta g^{\mu\nu}$. Local conservation is $\nabla^\mu T_{\mu\nu} = 0$. Defined on the [Einstein-equations page](16-general-relativity/01-einstein-equations.md).
+The symmetric $(0, 2)$-tensor $T_{\mu\nu}$ of matter and non-gravitational fields. Its components give energy density ($T_{00}$), momentum density, and stress. For a perfect fluid, $T_{\mu\nu} = (\rho + p)\, u_\mu u_\nu + p\, g_{\mu\nu}$. Field-theoretically it is the response of the matter action to a change of metric, $T_{\mu\nu} = -\tfrac{2}{\sqrt{|\det g|}}\, \delta(\sqrt{|\det g|}\, \mathcal{L}_{\mathrm{matter}}) / \delta g^{\mu\nu}$. Local conservation is $\nabla^\mu T_{\mu\nu} = 0$. Defined on the [stress–energy page](15-fields-and-stress-energy/02-stress-energy-tensor.md).
 
 ## Einstein equations
 

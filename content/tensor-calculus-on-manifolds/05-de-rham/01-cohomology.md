@@ -22,7 +22,7 @@ a graded-commutative $\mathbb{R}$-algebra.
 **De Rham's theorem.** The de Rham cohomology is naturally isomorphic to the [singular cohomology](note:singular-cohomology) of $M$ with real coefficients:
 $$H^k_{dR}(M) \;\cong\; H^k(M; \mathbb{R}).$$
 
-So a calculation made entirely in terms of smooth differential forms turns out to compute a topological invariant defined without any smooth structure at all. The smooth structure used to define $d$ doesn't survive into the answer.
+A calculation made entirely with smooth forms thus computes a topological invariant, one defined without any smooth structure.
 
 **Examples.**
 

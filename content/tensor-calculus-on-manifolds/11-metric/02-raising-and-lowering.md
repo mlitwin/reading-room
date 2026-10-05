@@ -2,7 +2,7 @@
 title: Raising and lowering, trace, volume form
 ---
 
-The metric and its inverse provide a canonical isomorphism between $T_p M$ and $T^*_p M$. This is the operation called **raising and lowering indices** — it lets the position of an index on a tensor be moved freely, with the rule that lowering uses $g_{\mu\nu}$ and raising uses $g^{\mu\nu}$.
+A metric identifies $T_p M$ with $T^*_p M$. In components this is **raising and lowering indices**: lowering uses $g_{\mu\nu}$, raising uses $g^{\mu\nu}$.
 
 ## The musical isomorphisms
 
@@ -26,15 +26,13 @@ A few identities that recur:
 - $g_{\mu\nu} v^\mu w^\nu = v_\mu w^\mu = v^\mu w_\mu = g^{\mu\nu} v_\mu w_\nu$ — the inner product, written in any of four equivalent ways.
 - $g_{\mu\nu} g^{\mu\nu} = \delta^\mu_\mu = n$ — the dimension of $M$.
 
-The last is the trace of $\mathrm{id}_{T_p M}$ and is a constant scalar. In Lorentzian $4$-spacetime this is $4$.
-
 ## Trace of a $(1, 1)$-tensor
 
 For a $(1, 1)$-tensor $T^\mu{}_\nu$ — equivalently a linear endomorphism of $T_p M$ — the **trace** is the [contraction](note:contraction)
 $$\mathrm{tr}\, \tens{T} := T^\mu{}_\mu.$$
 No metric needed. For a $(0, 2)$-tensor $T_{\mu\nu}$, the trace requires raising one index:
 $$\mathrm{tr}_g \tens{T} := g^{\mu\nu}\, T_{\mu\nu} = T^\mu{}_\mu.$$
-This is the **metric trace**. The metric trace of the metric is $n$ (above); the metric trace of the [Ricci tensor](note:ricci-and-einstein-tensors) will give the scalar curvature, far down the road.
+This is the **metric trace**. The metric trace of the metric is $n$ (above); the metric trace of the [Ricci tensor](note:ricci-and-einstein-tensors) gives the scalar curvature ([chapter 12](../12-connection-and-curvature/03-torsion-and-curvature.md)).
 
 ## The volume form
 
@@ -58,4 +56,4 @@ with $\varepsilon$ the [Levi-Civita symbol](note:levi-civita) (totally antisymme
 
 The star squares to $\pm \mathrm{id}$ on $k$-forms with a sign depending on $k$, $n$, and signature. In four-dimensional Lorentzian spacetime, $\star^2 = -\mathrm{id}$ on $2$-forms — a fact used in the dual formulation of electromagnetism (where $\star \tens{F}$ exchanges the electric and magnetic fields in $\tens{F}$).
 
-The full Hodge-star machinery is not used in this book past the volume form, but it's worth knowing the name.
+Beyond this, the book does not use the Hodge star.

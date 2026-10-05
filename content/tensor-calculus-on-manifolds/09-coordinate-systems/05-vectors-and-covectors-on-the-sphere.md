@@ -4,7 +4,7 @@ title: Vectors and covectors on the sphere
 
 The [tangent and cotangent spaces](../01-manifolds/02-tangent-space.md) of [Part I](../01-manifolds/index.md), worked out concretely on the two-sphere
 $$S^2 = \{ (X, Y, Z) \in \mathbb{R}^3 : X^2 + Y^2 + Z^2 = 1 \}.$$
-This page revisits the standard chart and adds a second, *stereographic*, chart — a different pairing from the standard-vs-skew contrast of the preceding pages, and the one that recurs when the metric arrives.
+This page pairs the standard chart with the *stereographic* chart, which recurs when the metric arrives.
 
 ## Spherical-coordinate chart
 
@@ -31,18 +31,14 @@ covering everything except the south pole — in particular the north pole and t
 $$\Phi_S := \psi_S^{-1}, \qquad \Phi_S(x, y) = \frac{(2x,\; 2y,\; 1 - x^2 - y^2)}{1 + x^2 + y^2},$$
 the basis $\{\partial_x, \partial_y\}$ at $p$ is, embedded, $\partial_x = \partial \Phi_S / \partial x$ and $\partial_y = \partial \Phi_S / \partial y$. These two vectors at $p$ are *different* from $\partial_\theta, \partial_\varphi$ — different basis, different components — but they span the same tangent space $T_p S^2$.
 
-## Components transform
+## Components across charts
 
-A vector field expressed in the spherical chart, say $V = \partial_\varphi$ (rotation around the $Z$-axis), has stereographic components determined by the Jacobian:
+The vector field $\tens{V} = \partial_\varphi$ (rotation about the $Z$-axis) has stereographic components given by the Jacobian:
 $$V'^{x} = \frac{\partial x}{\partial \theta}\, V^\theta + \frac{\partial x}{\partial \varphi}\, V^\varphi, \qquad V'^{y} = \frac{\partial y}{\partial \theta}\, V^\theta + \frac{\partial y}{\partial \varphi}\, V^\varphi.$$
 With $V^\theta = 0, V^\varphi = 1$, this evaluates (using $x = \sin\theta\cos\varphi / (1+\cos\theta)$, $y = \sin\theta\sin\varphi / (1+\cos\theta)$) to
 $$V'^{x} = -y, \qquad V'^{y} = x,$$
-the familiar rotation field in the plane. The *same* vector field has *different* component functions in the two charts — both are correct, and both transform into each other via the [vector transformation rule](note:tensor-transformation-law).
+the rotation field of the plane. One vector field, two sets of component functions, related by the [vector transformation rule](note:tensor-transformation-law).
 
-## Cotangent at a point
+## A covector field
 
-In the spherical chart, the dual basis to $\{\partial_\theta, \partial_\varphi\}$ is $\{d\theta, d\varphi\}$, with $d\theta(\partial_\theta) = 1$, $d\theta(\partial_\varphi) = 0$, and so on. A covector $\tens{\omega} = \omega_\theta\, d\theta + \omega_\varphi\, d\varphi$ pairs with $\tens{v} = v^\theta\, \partial_\theta + v^\varphi\, \partial_\varphi$ as
-$$\tens{\omega}(\tens{v}) = \omega_\theta\, v^\theta + \omega_\varphi\, v^\varphi.$$
-The arithmetic is identical to flat space; what's coordinate-dependent is the basis being paired, not the pairing itself.
-
-A natural covector field is $d(\cos\theta) = -\sin\theta\, d\theta$ — the differential of the $Z$-coordinate function. It pairs with $\partial_\varphi$ to give zero (the $Z$-coordinate is rotation-invariant); with $\partial_\theta$ to give $-\sin\theta$ (the rate of change of $Z$ as $\theta$ increases). All of this is independent of any choice of metric; lengths enter in [chapter 11](../11-metric/index.md).
+Covectors pair with vectors in the dual basis $d\theta, d\varphi$ exactly as on [page 2](02-standard-coordinates.md). A natural covector field is $d(\cos\theta) = -\sin\theta\, d\theta$ — the differential of the $Z$-coordinate function. It pairs with $\partial_\varphi$ to give zero (the $Z$-coordinate is rotation-invariant); with $\partial_\theta$ to give $-\sin\theta$ (the rate of change of $Z$ as $\theta$ increases). All of this is independent of any choice of metric; lengths enter in [chapter 11](../11-metric/index.md).

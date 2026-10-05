@@ -11,7 +11,7 @@ Look for a vacuum metric ($R_{\mu\nu} = 0$, $\Lambda = 0$) that is:
 - **Static:** there is a hypersurface-orthogonal timelike [Killing vector](note:killing-vector) field; in adapted coordinates the metric has no $t$-dependence and no $dt\, dx^i$ cross terms.
 - **Spherically symmetric:** there is an $SO(3)$ acting by [isometries](note:isometry), with orbits two-dimensional spheres.
 
-Adapted coordinates $(t, r, \theta, \varphi)$, with $(\theta, \varphi)$ the angular coordinates on $S^2$ from earlier. The most general such metric is
+Adapted coordinates $(t, r, \theta, \varphi)$, with $(\theta, \varphi)$ the angular coordinates on $S^2$ ([chapter 9](../09-coordinate-systems/02-standard-coordinates.md)). The most general such metric is
 $$\tens{g} = -A(r)\, dt^2 + B(r)\, dr^2 + r^2\, (d\theta^2 + \sin^2\theta\, d\varphi^2)$$
 for two positive functions $A, B$ of $r$ alone, with $r$ defined so the orbit spheres have area $4\pi r^2$.
 
@@ -21,7 +21,7 @@ Compute the [Christoffel symbols](note:covariant-derivative) (analogous to the s
 $$A(r)\, B(r) = \mathrm{const}.$$
 Absorbing the constant into the definition of $t$ gives $AB = 1$, i.e. $B = 1/A$. The angular equation $R_{\theta\theta} = 0$ then gives $(rA)' = 1$, so
 $$A(r) = 1 - \frac{2M}{r}$$
-with $M$ a constant of integration. With $G = c = 1$ units, $M$ is the **mass parameter** in geometrized units; in SI units, $2M$ is replaced by $2GM/c^2$.
+with $M$ a constant of integration. $M$ is the **mass** in geometrized units ($G = c = 1$); in SI units, $2M$ becomes $2GM/c^2$.
 
 ## The Schwarzschild metric
 
@@ -44,7 +44,7 @@ The Christoffels of the Schwarzschild metric — straightforward but tedious —
 - $L := g_{\varphi\varphi}\, \dot\varphi = r^2 \sin^2\theta\, \dot\varphi$ — **angular momentum** (from $\partial_\varphi$ Killing).
 - Orbits are planar (spherical symmetry); fix $\theta = \pi/2$.
 
-The radial geodesic equation reduces to
+With dots denoting $d/d\tau$, the radial geodesic equation reduces to
 $$\tfrac{1}{2} \dot r^2 + V_{\mathrm{eff}}(r) = \tfrac{1}{2} (E^2 - 1), \qquad V_{\mathrm{eff}}(r) = -\frac{M}{r} + \frac{L^2}{2 r^2} - \frac{M L^2}{r^3}.$$
 The three terms — Newtonian gravity, angular-momentum barrier, GR correction — explain the classical tests:
 
@@ -52,13 +52,13 @@ The three terms — Newtonian gravity, angular-momentum barrier, GR correction �
 - **Light deflection** comes from the same reduction for null geodesics — normalization $\tens{g}(\dot\gamma, \dot\gamma) = 0$ in place of $-1$, which drops the $-M/r$ term and puts $\tfrac{1}{2} E^2$ on the right.
 - **Gravitational redshift** comes directly from the $g_{tt}$ coefficient: clocks at rest at small $r$ tick slower than clocks at large $r$ by a factor of $\sqrt{1 - 2M/r}$.
 
-These three are the classical tests of GR. The numerical values are textbook.
+These are the classical tests of GR; the Shapiro time delay of radar signals is a fourth.
 
 ## Why "the" example
 
 Two more facts justify Schwarzschild as the worked example:
 
 - **Birkhoff's theorem.** Any spherically symmetric vacuum solution of the Einstein equations is locally isometric to Schwarzschild — even *without* assuming staticity. Spherical symmetry alone forces the metric to be static outside the source. No spherically symmetric gravitational waves.
-- **Generalizations.** Adding charge gives Reissner–Nordström; adding rotation gives Kerr; both retain the family-of-conserved-quantities structure that makes geodesic motion tractable. Schwarzschild is the simplest member of a hierarchy.
+- **Generalizations.** Adding charge gives Reissner–Nordström, and adding rotation gives Kerr. Kerr has only two Killing fields, but a hidden conserved quantity (Carter's constant) still makes its geodesics integrable.
 
 The next page leaves the torsion-free Levi-Civita world: Einstein–Cartan gravity, where torsion is allowed.
