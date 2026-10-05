@@ -9,7 +9,7 @@ The index, sign and typeface conventions of this book, and a table of its symbol
 | Indices | Range | Used for |
 |---|---|---|
 | $i, j, k, \ell$ | $1, \ldots, n$ | coordinate indices on a general manifold (Part I) and on a configuration space $Q$ |
-| $\mu, \nu, \rho, \sigma, \lambda$ (mu, nu, rho, sigma, lambda) | $1, \ldots, n$; $0, \ldots, 3$ on spacetime | tensor components from chapter 6 on |
+| $\mu, \nu, \rho, \sigma, \lambda$ (mu, nu, rho, sigma, lambda) | $1, \ldots, n$; $0, \ldots, 3$ on spacetime | tensor components from chapter 9 on |
 | $i, j, k$ in a spacetime context | $1, 2, 3$ | spatial components |
 | $A, B$ | $1, \ldots, N$ | particle labels: $r_A$, $m_A$, $\sum_A$ |
 | $a, b$ | $0, \ldots, 3$ | orthonormal-frame (tetrad) indices, Cartan formalism only |
@@ -33,7 +33,7 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | Einstein equations | $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}$. Together with the two rows above, this is MTW's sign class $(+, +, +)$ |
 | $k$-form components | $\tens{\omega} = \tfrac{1}{k!}\, \omega_{i_1 \cdots i_k}\, dx^{i_1} \wedge \cdots \wedge dx^{i_k}$, determinant wedge ([convention](note:wedge-convention)) |
 | Symplectic form | $\tens{\theta} = p_i\, dq^i$, $\tens{\omega} = d\tens{\theta} = dp_i \wedge dq^i$, $\iota_{\tens{X}_H} \tens{\omega} = -dH$ (Arnold). Abraham–Marsden's $dq \wedge dp$ with $+dH$ gives the same equations |
-| Poisson bracket | $\{f, g\} = \partial_{q^i} f\, \partial_{p_i} g - \partial_{p_i} f\, \partial_{q^i} g$, so $\{q^i, p_j\} = \delta^i_j$ |
+| [Poisson bracket](note:poisson-bracket) | $\{f, g\} = \partial_{q^i} f\, \partial_{p_i} g - \partial_{p_i} f\, \partial_{q^i} g$, so $\{q^i, p_j\} = \delta^i_j$ |
 | Units | $G = c = 1$ in the general-relativity chapters unless constants are shown |
 
 ## Typefaces
@@ -68,7 +68,7 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | $p, q$ | points of $M$ (Part I). In mechanics $q$ is a configuration and $p$ a momentum |
 | $U, V$ | open sets |
 | $(U, \varphi)$ — $\varphi$ (phi) | chart; local coordinates $x^i = \varphi^i$ |
-| $\Phi$ (Phi) | parametrization $\Phi = \varphi^{-1}$ (chapter 6) |
+| $\Phi$ (Phi) | parametrization $\Phi = \varphi^{-1}$ (chapter 9) |
 | $F, G$ | smooth maps; $dF_p$ or $F_*$ differential (pushforward), $F^*$ pullback |
 | $\gamma$ (gamma) | curve, with velocity $\dot\gamma$ |
 | $\lambda$ (lambda) | curve parameter (affine for geodesics) |
@@ -117,8 +117,8 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | $\alpha$ (alpha) | skew-chart shear, fixed at $\pi/8$ |
 | $\theta_0, \varphi_0$ | sample point, $(13\pi/32,\ 29\pi/32)$ |
 | $(x, y)$; $\psi_S$ (psi), $\Phi_S$ | stereographic coordinates; their chart and parametrization |
-| $J$ | Jacobian of a chart change (chapter 6) |
-| $\tens{J}$ | complex structure on $S^2$ (chapter 7) |
+| $J$ | Jacobian of a chart change (chapter 9) |
+| $\tens{J}$ | complex structure on $S^2$ (chapter 10) |
 
 ### Tensors and the metric
 
@@ -165,6 +165,14 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 | $M$; $t, r$ | Schwarzschild mass parameter; Schwarzschild coordinates |
 | $E$, $L$; $V_{\mathrm{eff}}$ | energy and angular momentum per unit mass; effective potential |
 | $\Phi$ (Phi) | Newtonian gravitational potential |
+| $h_{\mu\nu}$ | weak-field metric perturbation, $g_{\mu\nu} = \eta_{\mu\nu} + h_{\mu\nu}$ |
+| $\Lambda^\mu{}_\nu$ (Lambda) | Lorentz transformation (context separates it from the cosmological constant) |
+| $\gamma$ (gamma) | Lorentz factor $(1 - v^2)^{-1/2}$ (context separates it from a curve) |
+| $\tens{p}$; $p^\mu = (E, \tens{p})$ | four-momentum $m\tens{u}$; mass shell $g^{\mu\nu} p_\mu p_\nu = -m^2$ |
+| $\tens{A}$; $A_\mu$ | electromagnetic potential 1-form, $\tens{F} = d\tens{A}$ |
+| $\mathcal{L}$ | Lagrangian density; action $\int \mathcal{L}\, \mathrm{vol}_g$ |
+| $J^\mu$ | conserved (Noether) current; electric current in Maxwell's equations |
+| $\Box$ | wave operator $\nabla^\mu \nabla_\mu$ |
 | $\mathring\Gamma$ | Levi-Civita part of a connection with torsion |
 | $K^\rho{}_{\mu\nu}$ | contortion |
 | $S^\rho{}_{\mu\nu}$ | spin density |
@@ -174,19 +182,24 @@ Einstein's 1916 paper, where the summation convention was introduced, used Greek
 
 | Symbol | Meaning |
 |---|---|
-| $Q$; $TQ$, $T^*Q$ | configuration space; velocity phase space and phase space |
+| $Q$; $TQ$, $T^*Q$ | [configuration space; velocity phase space and phase space](note:configuration-space) |
 | $q^i$, $\dot q^i$, $p_i$ | generalized coordinates, velocities, conjugate momenta |
-| $L$, $H$ | Lagrangian, Hamiltonian |
+| $L$, $H$ | [Lagrangian, Hamiltonian](note:legendre-transform) |
 | $T$, $V$, $E$ | kinetic energy, potential energy, total energy |
 | $S[q]$ | action |
 | $\epsilon$ (epsilon) | parameter of a family of paths or transformations |
-| $\tens{\theta}$ (theta), $\tens{\omega}$ (omega) | tautological 1-form $p_i\, dq^i$; symplectic form $d\tens{\theta}$ |
-| $\tens{X}_H$ | Hamiltonian vector field |
+| $\tens{\theta}$ (theta), $\tens{\omega}$ (omega) | [tautological 1-form](note:symplectic-form) $p_i\, dq^i$; symplectic form $d\tens{\theta}$ |
+| $\tens{X}_H$ | [Hamiltonian vector field](note:hamiltons-equations) |
 | $\{f, g\}$ | Poisson bracket |
 | $\lambda$ (lambda) | Lagrange multiplier |
 | $\tens{r}_A$, $m_A$, $\tens{F}_A$ | position, mass, force of particle $A$ |
+| $\tens{F} = F_i\, dq^i$ | force as a 1-form; $F_i$ generalized forces |
+| $\tens{g}$; $\tens{g}_J$ | kinetic metric, $T = \tfrac12 g_{ij}\, \dot q^i \dot q^j$; Jacobi metric $2(E - V)\tens{g}$ |
+| $\mathbb{F}L$ | fiber derivative $TQ \to T^*Q$ (the Legendre map) |
+| $\phi_s$ (phi), $\tens{\xi}$ (xi) | one-parameter group of symmetries and its generator |
+| $E_i$ | Euler–Lagrange expressions, components of a covector |
 | $\tens{P}$, $\tens{L}$, $M$ | total momentum, angular momentum, total mass |
-| $J_\xi$ | Noether charge of the symmetry generated by $\tens{\xi}$ (the momentum map) |
+| $J_\xi$ | [Noether charge](note:noethers-theorem) of the symmetry generated by $\tens{\xi}$ (the momentum map) |
 
 ## Greek alphabet
 

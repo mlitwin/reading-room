@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:40:32.902Z",
+  "generated_at": "2026-10-05T03:52:58.786Z",
   "pieces": [
     {
       "slug": "marvell-hortus",
@@ -75,7 +75,7 @@
     },
     {
       "slug": "tensor-calculus-on-manifolds",
-      "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+      "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
       "author": "Matthew Litwin",
       "date": "2026-06-23",
       "tags": [
@@ -84,13 +84,16 @@
         "manifolds",
         "tensors",
         "differential-geometry",
+        "classical-mechanics",
+        "lagrangian",
+        "hamiltonian",
         "general-relativity"
       ],
-      "summary": "A reference that develops the calculus of smooth manifolds from scratch and carries it through to general relativity. Part I is the coordinate-free foundation — manifolds, tangent and cotangent spaces, vector fields, differential forms, integration, de Rham cohomology. Part II builds tensors, the metric, the affine connection, and curvature on top of it, with the sphere as a running example and flat spacetime recovered as the special case, ending at the Einstein equations, Schwarzschild, and Einstein–Cartan.",
+      "summary": "A reference that develops the calculus of smooth manifolds from scratch and carries one tensor formulation from classical mechanics through to general relativity. Part I is the coordinate-free foundation (manifolds, tangent and cotangent spaces, flows, forms, integration, cohomology). Part II is Lagrangian and Hamiltonian mechanics and Noether's theorem, which need no metric. Part III builds tensors, the metric, the connection and curvature, with the sphere as a running example. Part IV joins the two through the kinetic metric, where Newton's law becomes covariant. Part V reaches special relativity, field theory and the stress–energy tensor, the Einstein equations, Schwarzschild, Einstein–Cartan and the Newtonian limit.",
       "html_path": "tensor-calculus-on-manifolds/index.html",
       "structure": {
         "slug": "tensor-calculus-on-manifolds",
-        "title": "Tensor Calculus on Manifolds, with an Eye to General Relativity",
+        "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
         "html_path": "tensor-calculus-on-manifolds/index.html",
         "items": [
           {
@@ -200,6 +203,62 @@
                 "slug": "poincare-lemma",
                 "title": "The Poincaré lemma",
                 "html_path": "tensor-calculus-on-manifolds/de-rham/poincare-lemma.html"
+              }
+            ]
+          },
+          {
+            "slug": "lagrangian-mechanics",
+            "title": "Lagrangian mechanics",
+            "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/index.html",
+            "items": [
+              {
+                "slug": "newtonian-mechanics",
+                "title": "Newtonian mechanics",
+                "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/newtonian-mechanics.html"
+              },
+              {
+                "slug": "action-and-euler-lagrange",
+                "title": "Action and the Euler–Lagrange equations",
+                "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/action-and-euler-lagrange.html"
+              },
+              {
+                "slug": "constraints-and-examples",
+                "title": "Constraints and examples",
+                "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/constraints-and-examples.html"
+              }
+            ]
+          },
+          {
+            "slug": "hamiltonian-mechanics",
+            "title": "Hamiltonian mechanics",
+            "html_path": "tensor-calculus-on-manifolds/hamiltonian-mechanics/index.html",
+            "items": [
+              {
+                "slug": "legendre-and-hamiltons-equations",
+                "title": "Legendre transform and Hamilton's equations",
+                "html_path": "tensor-calculus-on-manifolds/hamiltonian-mechanics/legendre-and-hamiltons-equations.html"
+              },
+              {
+                "slug": "phase-space-and-symplectic-form",
+                "title": "Phase space and the symplectic form",
+                "html_path": "tensor-calculus-on-manifolds/hamiltonian-mechanics/phase-space-and-symplectic-form.html"
+              }
+            ]
+          },
+          {
+            "slug": "symmetry-and-noether",
+            "title": "Symmetry and Noether's theorem",
+            "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/index.html",
+            "items": [
+              {
+                "slug": "noethers-theorem",
+                "title": "The theorem",
+                "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/noethers-theorem.html"
+              },
+              {
+                "slug": "examples",
+                "title": "Examples",
+                "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/examples.html"
               }
             ]
           },
@@ -322,6 +381,62 @@
             ]
           },
           {
+            "slug": "natural-systems",
+            "title": "Natural systems",
+            "html_path": "tensor-calculus-on-manifolds/natural-systems/index.html",
+            "items": [
+              {
+                "slug": "kinetic-metric",
+                "title": "The kinetic metric",
+                "html_path": "tensor-calculus-on-manifolds/natural-systems/kinetic-metric.html"
+              },
+              {
+                "slug": "covariant-newton",
+                "title": "Covariant Newton",
+                "html_path": "tensor-calculus-on-manifolds/natural-systems/covariant-newton.html"
+              },
+              {
+                "slug": "symmetry-and-the-sphere",
+                "title": "Symmetry and the sphere",
+                "html_path": "tensor-calculus-on-manifolds/natural-systems/symmetry-and-the-sphere.html"
+              }
+            ]
+          },
+          {
+            "slug": "special-relativity",
+            "title": "Special relativity",
+            "html_path": "tensor-calculus-on-manifolds/special-relativity/index.html",
+            "items": [
+              {
+                "slug": "minkowski-spacetime",
+                "title": "Minkowski spacetime",
+                "html_path": "tensor-calculus-on-manifolds/special-relativity/minkowski-spacetime.html"
+              },
+              {
+                "slug": "relativistic-particle",
+                "title": "The relativistic particle",
+                "html_path": "tensor-calculus-on-manifolds/special-relativity/relativistic-particle.html"
+              }
+            ]
+          },
+          {
+            "slug": "fields-and-stress-energy",
+            "title": "Fields and stress–energy",
+            "html_path": "tensor-calculus-on-manifolds/fields-and-stress-energy/index.html",
+            "items": [
+              {
+                "slug": "lagrangian-field-theory",
+                "title": "Lagrangian field theory",
+                "html_path": "tensor-calculus-on-manifolds/fields-and-stress-energy/lagrangian-field-theory.html"
+              },
+              {
+                "slug": "stress-energy-tensor",
+                "title": "The stress–energy tensor",
+                "html_path": "tensor-calculus-on-manifolds/fields-and-stress-energy/stress-energy-tensor.html"
+              }
+            ]
+          },
+          {
             "slug": "general-relativity",
             "title": "General relativity",
             "html_path": "tensor-calculus-on-manifolds/general-relativity/index.html",
@@ -340,6 +455,11 @@
                 "slug": "einstein-cartan",
                 "title": "Einstein–Cartan — gravity with torsion",
                 "html_path": "tensor-calculus-on-manifolds/general-relativity/einstein-cartan.html"
+              },
+              {
+                "slug": "newtonian-limit",
+                "title": "The Newtonian limit",
+                "html_path": "tensor-calculus-on-manifolds/general-relativity/newtonian-limit.html"
               }
             ]
           },

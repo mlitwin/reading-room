@@ -4,7 +4,7 @@ title: Cotangent space and 1-forms
 
 The **cotangent space at $p$** is the [dual](note:dual-space) of the [tangent space](note:tangent-space):
 $$T^*_p M := (T_p M)^*,$$
-the space of linear functionals on $T_p M$. Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**. Whatever the tangent space is, its dual is automatically defined; both have dimension $n$, and the duality is symmetric — neither is "primary." But the two are not canonically *identified*: no particular isomorphism $T_p M \to T^*_p M$ is available without extra structure. A metric supplies one — the [musical isomorphisms](note:musical-isomorphism); the [next page](04-metric-at-a-point.md) previews this at a single point, and [Part II](../08-metric/02-raising-and-lowering.md) develops it in full.
+the space of linear functionals on $T_p M$. Its elements are called **covectors**, **dual vectors**, or **1-forms at $p$**. Whatever the tangent space is, its dual is automatically defined; both have dimension $n$, and the duality is symmetric — neither is "primary." But the two are not canonically *identified*: no particular isomorphism $T_p M \to T^*_p M$ is available without extra structure. A metric supplies one — the [musical isomorphisms](note:musical-isomorphism); the [next page](04-metric-at-a-point.md) previews this at a single point, and [chapter 11](../11-metric/02-raising-and-lowering.md) develops it in full.
 
 ## Dual basis and components
 
@@ -39,3 +39,11 @@ A **1-form** $\tens{\omega}$ on $M$ is a smooth section of the cotangent bundle 
 **Pullback.** For a smooth map $F: M \to N$ and $\tens{\eta} \in \Omega^1(N)$,
 $$(F^* \tens{\eta})_p(\tens{v}) := \tens{\eta}_{F(p)}(dF_p \cdot \tens{v}), \qquad \tens{v} \in T_p M.$$
 Pullbacks of forms always exist — the assignment $F \mapsto F^*$ reverses arrows, "contravariant" in the categorical sense — while vector fields can only be pushed forward through diffeomorphisms. (Terminology collision: forms pull back *contravariantly* as a functor even though their components $\omega_i$ transform *covariantly* under chart change. Both usages are standard; context disambiguates.) This asymmetry — pullback for covectors, pushforward for vectors — is the prototype for all of tensor calculus.
+
+## Cotangent bundle and the tautological form
+
+$T^*M := \bigsqcup_p T^*_p M$ is a smooth $2n$-manifold, with projection $\pi: T^*M \to M$. A chart $(x^i)$ induces coordinates $(x^i, p_i)$, assigning to $\tens{\alpha} = p_i\, dx^i|_x$ the numbers $(x^i(x), p_i)$.
+
+$T^*M$ carries a canonical 1-form that needs no extra structure, the **tautological form** $\tens{\theta}$. At a point $\tens{\alpha} \in T^*_x M$ it is
+$$\tens{\theta}_{\tens{\alpha}}(\tens{V}) := \tens{\alpha}\bigl(d\pi \cdot \tens{V}\bigr), \qquad \tens{V} \in T_{\tens{\alpha}}(T^*M),$$
+and in induced coordinates $\tens{\theta} = p_i\, dx^i$. Its exterior derivative $d\tens{\theta} = dp_i \wedge dx^i$ is the symplectic form of Hamiltonian mechanics ([chapter 7](../07-hamiltonian-mechanics/02-phase-space-and-symplectic-form.md)). There, $T^*Q$ is phase space and $(x^i, p_i)$ are written $(q^i, p_i)$.

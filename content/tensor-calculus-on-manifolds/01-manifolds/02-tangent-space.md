@@ -44,3 +44,5 @@ Also called the **pushforward** and written $F_{*,p}$; in components $(F_* \tens
 ## Tangent bundle
 
 $TM := \bigsqcup_p T_p M$ is itself a smooth manifold of dimension $2n$, with projection $\pi: TM \to M$ and natural smooth structure coming from the charts on $M$.
+
+**Induced coordinates.** A chart $(x^i)$ on $U \subseteq M$ gives coordinates $(x^i, v^i)$ on $\pi^{-1}(U) \subseteq TM$. They assign to $\tens{v} = v^i\, \partial_i|_p$ the $2n$ numbers $(x^i(p), v^i)$. Under a change of chart, $x^i$ transforms as a coordinate and $v^i$ by the Jacobian. In mechanics $TM$ is the space of positions and velocities, with these coordinates written $(q^i, \dot q^i)$ ([chapter 6](../06-lagrangian-mechanics/02-action-and-euler-lagrange.md)).
