@@ -21,7 +21,7 @@ Flat space, Cartesian coordinates, and slow motion are special cases the general
 
 ## Part I — Calculus on manifolds
 
-1. [Manifolds](01-manifolds/index.md): charts, smooth maps, tangent and cotangent spaces and bundles; a pointwise-metric aside.
+1. [Manifolds](01-manifolds/index.md): charts, smooth maps, tangent and cotangent spaces and bundles.
 2. [Vector fields and flows](05-vector-fields-and-flows/index.md): vector fields, flows, the Lie bracket, the Lie derivative.
 3. [Differential forms](06-differential-forms/index.md): $k$-forms, the wedge product, the exterior derivative, pullback.
 4. [Integration](07-integration/index.md): orientation, integration of $n$-forms, Stokes's theorem.

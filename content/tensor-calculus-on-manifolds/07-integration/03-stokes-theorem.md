@@ -19,7 +19,11 @@ with $\partial M$ given the induced orientation. (If $M$ has no boundary, both s
 | 2-surface in $\mathbb{R}^3$ | Classical Stokes (curl theorem) |
 | $n = 3$, $M \subseteq \mathbb{R}^3$ | Divergence theorem (Gauss) |
 
-The four differ only in the degree of the form and in how the Euclidean metric identifies forms with the vector-calculus operations grad, curl and div.
+The four differ only in the degree of the form and in how the Euclidean metric identifies forms with grad, curl and div ([previous page](02-volume-form-and-hodge-star.md)).
+
+**Divergence theorem.** On an oriented $(M, \tens{g})$, apply Stokes to $\tens{\omega} = \iota_{\tens{X}} \mathrm{vol}_g$:
+$$\int_M (\operatorname{div} \tens{X})\, \mathrm{vol}_g = \int_{\partial M} \iota_{\tens{X}} \mathrm{vol}_g.$$
+Where the outward unit normal $\tens{n}$ is defined (the boundary is not null), the right side is $\int_{\partial M} \tens{g}(\tens{X}, \tens{n})\, \mathrm{vol}_{\partial M}$, the flux of $\tens{X}$ through the boundary, up to a sign fixed by the boundary's causal type in Lorentzian signature. This is the form used for integration by parts in variational derivations and for conserved charges ([chapter 14](../14-fields-and-stress-energy/01-lagrangian-field-theory.md)).
 
 **Consequences.**
 

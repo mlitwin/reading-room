@@ -8,15 +8,15 @@ The two-sphere of radius $R$ is the subset
 $$S^2_R = \{(X, Y, Z) \in \mathbb{R}^3 : X^2 + Y^2 + Z^2 = R^2\}.$$
 Throughout this book we take $R = 1$ unless stated otherwise. It is a smooth two-dimensional submanifold of $\mathbb{R}^3$, small enough to compute on by hand and rich enough that most phenomena of tensor calculus appear on it.
 
-In the embedded picture, $T_p S^2$ is the plane in $\mathbb{R}^3$ tangent to the sphere at $p$. Intrinsically, the sphere is a closed orientable surface, of constant curvature once given the round metric; the constructions of this book work intrinsically and reduce to the embedded picture wherever both apply.
+In the embedded picture, $T_p S^2$ is the plane in $\mathbb{R}^3$ tangent to the sphere at $p$. The sphere carries the **round metric**, the metric [induced](../03-metric/01-the-metric-tensor.md) from the Euclidean inner product: lengths and angles of tangent vectors are those of $\mathbb{R}^3$, written $\tens{g}(\tens{v}, \tens{w}) = \tens{v} \cdot \tens{w}$ in the embedded picture. Its components in each chart are on [page 6](06-the-round-metric.md). Intrinsically, $S^2$ is a closed orientable surface of constant curvature. The constructions of this book work intrinsically and reduce to the embedded picture wherever both apply.
 
 ## Charts as parametrizations
 
-[Part I](../01-manifolds/01-charts-and-smooth-maps.md) defined a chart as a coordinate map $\varphi: V \to \mathbb{R}^n$. On the sphere it is more convenient to work with the inverse, a **parametrization**
+[Chapter 1](../01-manifolds/01-charts-and-smooth-maps.md) defined a chart as a coordinate map $\varphi: V \to \mathbb{R}^n$. On the sphere it is more convenient to work with the inverse, a **parametrization**
 $$\Phi = \varphi^{-1}: U \to V,$$
 a diffeomorphism from an open $U \subseteq \mathbb{R}^n$ onto an open $V \subseteq M$. Same data, opposite arrow. The coordinate functions are the components of $\Phi^{-1}$.
 
-A single chart rarely covers all of $M$. The sphere needs at least two: it is compact, and no open subset of $\mathbb{R}^2$ is. (The angular chart below misses both poles and a seam.) An **atlas** covers $M$ with charts glued by smooth **[transition maps](note:chart)**.
+A single chart rarely covers all of $M$. The sphere needs at least two: it is compact, and no open subset of $\mathbb{R}^2$ is. (The standard chart of the next section misses both poles and a seam.) An **atlas** covers $M$ with charts glued by smooth **[transition maps](note:chart)**.
 
 Every object in this book has an intrinsic, **chart-independent** definition. What depends on the chart is its **components**, the array of numbers it has in that chart. The transformation rule between charts is what makes those arrays represent a single tensor.
 
@@ -49,7 +49,7 @@ The yellow arc points along the chart's longitude (increasing $\theta$) and the 
 Three things become visible by comparing the charts:
 
 1. **A choice of chart picks a basis at every point.** Each chart has its own coordinate basis $\partial_\theta, \partial_\varphi$ in the tangent space at $p$. The basis is part of the chart, not part of the manifold.
-2. **The angle between basis vectors is not invariant.** It depends on the chart. Where the basis is non-orthogonal, components of the metric pick up off-diagonal entries; the [dual basis](note:cotangent-space) is no longer parallel to the coordinate basis; and more [Christoffel symbols](note:affine-connection) are non-zero.
+2. **The angle between basis vectors is not invariant.** It depends on the chart. Where the basis is non-orthogonal, the metric components $g_{\mu\nu}$ pick up off-diagonal entries; the [dual basis](note:cotangent-space) is no longer parallel to the coordinate basis; and more [Christoffel symbols](note:affine-connection) are non-zero.
 3. **The geometry doesn't care.** Geodesics, curvature and the area form are the same intrinsic objects in both charts; only their *components* differ. The tensor transformation law enforces exactly this.
 
 The next pages develop these three observations concretely.

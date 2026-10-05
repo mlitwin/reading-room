@@ -24,9 +24,9 @@ This is more compact and more informative than the embedded formula. The skew ba
 
 ## Non-orthogonality
 
-The inner product of the two skew basis vectors:
+The inner product of the two skew basis vectors, in the round metric:
 $$\partial_{\tilde\theta} \cdot \partial_{\tilde\varphi} = (\partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi) \cdot \partial_\varphi = \partial_\theta \cdot \partial_\varphi + \alpha\sin\tilde\theta\, |\partial_\varphi|^2 = 0 + \alpha\sin\tilde\theta \cdot \sin^2\tilde\theta = \alpha \sin^3\tilde\theta.$$
-Non-zero away from the poles. This is the entry $g_{\tilde\theta\tilde\varphi}$ of [the metric](note:metric) in the skew chart, and the most direct sign that the chart is "non-orthogonal."
+Non-zero away from the poles. This is the off-diagonal component $g_{\tilde\theta\tilde\varphi}$ of the metric in the skew chart ([page 6](06-the-round-metric.md)), and the most direct sign that the chart is non-orthogonal.
 
 The angle between the skew basis vectors:
 $$\cos \angle(\partial_{\tilde\theta}, \partial_{\tilde\varphi}) = \frac{\partial_{\tilde\theta} \cdot \partial_{\tilde\varphi}}{|\partial_{\tilde\theta}|\, |\partial_{\tilde\varphi}|} = \frac{\alpha\sin^3\tilde\theta}{\sqrt{1 + \alpha^2 \sin^4 \tilde\theta} \, \cdot \sin\tilde\theta} = \frac{\alpha\sin^2\tilde\theta}{\sqrt{1 + \alpha^2 \sin^4\tilde\theta}}.$$
@@ -48,14 +48,14 @@ The diagram exaggerates the obliqueness slightly (it's drawn at $60°$ for visua
 
 ## Dual basis
 
-The **dual basis** $d\tilde\theta, d\tilde\varphi$ is defined by $d\tilde\theta(\partial_{\tilde\theta}) = 1$, $d\tilde\theta(\partial_{\tilde\varphi}) = 0$, etc. Drawn as vectors via the metric (see below), each dual covector is perpendicular to the *other* coordinate basis vector, because $d\tilde\theta(\partial_{\tilde\varphi}) = d\tilde\varphi(\partial_{\tilde\theta}) = 0$. In an orthogonal chart that makes each parallel to its own basis vector; in a non-orthogonal chart it does not:
+The **dual basis** $d\tilde\theta, d\tilde\varphi$ is defined by $d\tilde\theta(\partial_{\tilde\theta}) = 1$, $d\tilde\theta(\partial_{\tilde\varphi}) = 0$, etc. To draw a covector as an arrow beside the basis vectors, convert it to a vector with the [musical isomorphism](note:musical-isomorphism) $\sharp$. Drawn that way, each dual covector is perpendicular to the *other* coordinate basis vector, because $d\tilde\theta(\partial_{\tilde\varphi}) = d\tilde\varphi(\partial_{\tilde\theta}) = 0$. In an orthogonal chart that makes each parallel to its own basis vector; in a non-orthogonal chart it does not:
 
 - $d\tilde\theta \perp \partial_{\tilde\varphi}$, so $d\tilde\theta$ is not parallel to $\partial_{\tilde\theta}$.
 - $d\tilde\varphi \perp \partial_{\tilde\theta}$, so $d\tilde\varphi$ is not parallel to $\partial_{\tilde\varphi}$.
 
 ![Skew tangent plane with coordinate basis (solid black) and dual basis (dashed grey). Each dual covector is perpendicular to the "wrong" axis.](../figures/dual-basis-skew.svg)
 
-Lengths and angles of covectors, and drawing them as arrows beside the basis vectors, require identifying covectors with vectors through the metric: the [musical isomorphism](note:musical-isomorphism) $\sharp$. Measured that way, the angle between $d\tilde\theta$ and $d\tilde\varphi$ is not $\pi/2$ either. It is the **supplement** of the angle between $\partial_{\tilde\theta}$ and $\partial_{\tilde\varphi}$. Angles between covectors use the *inverse* metric, and inverting a $2 \times 2$ matrix flips the sign of the off-diagonal entry ($g^{\tilde\theta\tilde\varphi} = -g_{\tilde\theta\tilde\varphi}/\det g$), so the cosine flips sign: basis vectors at $\approx 70°$ put the dual covectors at $\approx 110°$.
+The angle between $d\tilde\theta$ and $d\tilde\varphi$, measured the same way, is not $\pi/2$ either. It is the **supplement** of the angle between $\partial_{\tilde\theta}$ and $\partial_{\tilde\varphi}$. Angles between covectors use the *inverse* metric, and inverting a $2 \times 2$ matrix flips the sign of the off-diagonal entry ($g^{\tilde\theta\tilde\varphi} = -g_{\tilde\theta\tilde\varphi}/\det g$), so the cosine flips sign: basis vectors at $\approx 70°$ put the dual covectors at $\approx 110°$.
 
 ## Coordinate functions
 

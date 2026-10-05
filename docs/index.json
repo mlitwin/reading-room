@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:48:12.267Z",
+  "generated_at": "2026-10-05T15:52:22.334Z",
   "pieces": [
     {
       "slug": "marvell-hortus",
@@ -151,18 +151,13 @@
             "html_path": "tensor-calculus-on-manifolds/metric/index.html",
             "items": [
               {
-                "slug": "metric-at-a-point",
-                "title": "Aside: a metric at a point",
-                "html_path": "tensor-calculus-on-manifolds/metric/metric-at-a-point.html"
-              },
-              {
                 "slug": "the-metric-tensor",
                 "title": "The metric tensor",
                 "html_path": "tensor-calculus-on-manifolds/metric/the-metric-tensor.html"
               },
               {
                 "slug": "raising-and-lowering",
-                "title": "Raising and lowering, trace, volume form",
+                "title": "Raising and lowering",
                 "html_path": "tensor-calculus-on-manifolds/metric/raising-and-lowering.html"
               }
             ]
@@ -193,19 +188,19 @@
                 "html_path": "tensor-calculus-on-manifolds/coordinate-systems/changing-charts.html"
               },
               {
-                "slug": "vectors-and-covectors-on-the-sphere",
-                "title": "Vectors and covectors on the sphere",
-                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/vectors-and-covectors-on-the-sphere.html"
+                "slug": "the-stereographic-chart",
+                "title": "The stereographic chart",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-stereographic-chart.html"
               },
               {
                 "slug": "the-round-metric",
-                "title": "On the sphere",
+                "title": "The round metric",
                 "html_path": "tensor-calculus-on-manifolds/coordinate-systems/the-round-metric.html"
               },
               {
-                "slug": "tensors-on-the-sphere",
-                "title": "On the sphere",
-                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/tensors-on-the-sphere.html"
+                "slug": "a-tensor-on-the-sphere",
+                "title": "A (1, 1)-tensor on the sphere",
+                "html_path": "tensor-calculus-on-manifolds/coordinate-systems/a-tensor-on-the-sphere.html"
               }
             ]
           },
@@ -262,6 +257,11 @@
                 "slug": "orientation-and-integration",
                 "title": "Orientation and integration",
                 "html_path": "tensor-calculus-on-manifolds/integration/orientation-and-integration.html"
+              },
+              {
+                "slug": "volume-form-and-hodge-star",
+                "title": "Volume form and Hodge star",
+                "html_path": "tensor-calculus-on-manifolds/integration/volume-form-and-hodge-star.html"
               },
               {
                 "slug": "stokes-theorem",

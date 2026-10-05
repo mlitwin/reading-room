@@ -17,9 +17,9 @@ These two vectors in $\mathbb{R}^3$ are tangent to $S^2$ at $p$ by construction,
 Two facts at a glance:
 
 - **Lengths.** $|\partial_\theta| = 1$ at every point; $|\partial_\varphi| = \sin\theta$, vanishing at the poles where the chart breaks down.
-- **Inner product.** $\partial_\theta \cdot \partial_\varphi = 0$ everywhere — the standard basis is *orthogonal* at every point.
+- **Orthogonality.** $\tens{g}(\partial_\theta, \partial_\varphi) = \partial_\theta \cdot \partial_\varphi = 0$ everywhere.
 
-Both follow directly from the formulas above. Orthogonality is what makes the standard chart easy to compute with.
+Both follow from the formulas above, with the round metric as the dot product of $\mathbb{R}^3$. Orthogonality is what makes the standard chart easy to compute with.
 
 ## At the sample point
 
@@ -51,8 +51,8 @@ A general covector is $\tens{\omega} = \omega_\theta\, d\theta + \omega_\varphi\
 
 In the standard chart, almost everything has a diagonal form:
 
-- [The metric](note:metric) ([chapter 4](06-the-round-metric.md)) has the diagonal matrix $[g_{\mu\nu}] = \mathrm{diag}(1, \sin^2\theta)$.
-- The basis is orthogonal, so raising and lowering indices is the same as multiplying each component by $g_{\mu\mu}$ or $1/g_{\mu\mu}$ (no sum).
+- The [round metric](06-the-round-metric.md) has the diagonal matrix $[g_{\mu\nu}] = \mathrm{diag}(1, \sin^2\theta)$.
+- The basis is orthogonal, so [raising and lowering](note:musical-isomorphism) multiplies each component by $g_{\mu\mu}$ or $1/g_{\mu\mu}$ (no sum).
 - The [Christoffel symbols](note:affine-connection) ([chapter 8](../08-connection-and-curvature/06-on-the-sphere.md)) have only three non-zero entries.
 
 The next page introduces the skew chart, which has none of these properties. The math is identical; the components are not.

@@ -2,6 +2,14 @@
 title: Tensors
 ---
 
-A tensor is a multilinear map that takes some vectors and some [covectors](note:cotangent-space) and returns a real number. The same object has two names: physicists call it an $(r, s)$-tensor with $r$ upper and $s$ lower indices; mathematicians call it an element of $T_p M^{\otimes r} \otimes T^*_p M^{\otimes s}$. They are identical.
+A tensor is a multilinear map that takes some vectors and some [covectors](note:cotangent-space) and returns a real number. Physicists call it an $(r, s)$-tensor with $r$ upper and $s$ lower indices. Mathematicians call it an element of $T_p M^{\otimes r} \otimes T^*_p M^{\otimes s}$. The two are the same object.
 
-Four pages: the multilinear-map definition and tensor product; how indices and the transformation rule encode it; the side-by-side dictionary between index notation, coordinate-free notation, and (anti-symmetric) $k$-forms; tensors and forms on $S^2$ worked out in components.
+Three pages:
+
+1. [Multilinear maps and rank](01-multilinear-and-rank.md): the definition, the tensor product, contraction, tensor fields.
+2. [Coordinate components](02-coordinate-components.md): the transformation law, summation, the tensoriality test.
+3. [Two languages](03-co-contra-vs-k-forms.md): index and coordinate-free notation side by side; $k$-forms and symmetric tensors.
+
+The metric of [chapter 3](../03-metric/index.md) is the first tensor field the book adds as structure. A worked $(1, 1)$-tensor on $S^2$ is in [chapter 4](../04-coordinate-systems/07-a-tensor-on-the-sphere.md).
+
+**Metric-free:** the whole chapter. Index positions cannot be changed until the metric supplies $\flat$ and $\sharp$.

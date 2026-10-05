@@ -81,7 +81,7 @@ For finite-dimensional $V$, $\dim V^* = \dim V$; a basis $\{e_i\}$ of $V$ induce
 
 The metric's canonical identification of vectors with covectors. On a bare manifold the tangent space and its [dual](note:dual-space) have the same dimension but no canonical isomorphism between them (contrast the double dual, where $V^{**} \cong V$ *is* canonical). A metric $\tens{g}$ provides one — the **musical isomorphisms**
 $$\flat: T_p M \to T^*_p M, \qquad \tens{v}^\flat := \tens{g}(\tens{v}, \cdot), \qquad \sharp := \flat^{-1}: T^*_p M \to T_p M,$$
-named for how they move the component index down ($v_\mu = g_{\mu\nu}\, v^\nu$) and up ($\omega^\mu = g^{\mu\nu}\, \omega_\nu$) — [raising and lowering](03-metric/02-raising-and-lowering.md) applied to a single index. Previewed pointwise in [Part I's aside](03-metric/00-metric-at-a-point.md).
+named for how they move the component index down ($v_\mu = g_{\mu\nu}\, v^\nu$) and up ($\omega^\mu = g^{\mu\nu}\, \omega_\nu$) — [raising and lowering](03-metric/02-raising-and-lowering.md) applied to a single index.
 
 The gradient is the standard illustration of the distinction $\sharp$ erases: the differential $df$ of a function is metric-free, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ is not. In Cartesian coordinates on $\mathbb{R}^n$ the two have identical components, which is why elementary vector calculus never distinguishes them; in any chart with $g_{\mu\nu} \neq \delta_{\mu\nu}$ they differ.
 
@@ -380,7 +380,7 @@ $$\tau = \int \sqrt{-\, g_{\mu\nu}\, \dot\gamma^\mu \dot\gamma^\nu}\; d\lambda$$
 
 The spacetime of special relativity: $\mathbb{R}^4$ with the global flat Lorentzian metric
 $$\tens{\eta} = -dt^2 + dx^2 + dy^2 + dz^2$$
-(signature $(-, +, +, +)$). All Christoffel symbols vanish in these coordinates, so [geodesics](note:geodesic) are straight lines and the Riemann tensor is zero — the "no gravity" special case that curved solutions approach asymptotically (Schwarzschild as $r \to \infty$). Its [isometry](note:isometry) group is the **Poincaré group**: translations plus Lorentz transformations. Every tangent space of a Lorentzian manifold is a copy of Minkowski space in miniature — the content of the [Part I aside](03-metric/00-metric-at-a-point.md).
+(signature $(-, +, +, +)$). All Christoffel symbols vanish in these coordinates, so [geodesics](note:geodesic) are straight lines and the Riemann tensor is zero — the "no gravity" special case that curved solutions approach asymptotically (Schwarzschild as $r \to \infty$). Its [isometry](note:isometry) group is the **Poincaré group**: translations plus Lorentz transformations. Every tangent space of a Lorentzian manifold is a copy of Minkowski space in miniature ([causal structure](03-metric/01-the-metric-tensor.md)).
 
 ## Stress-energy tensor
 

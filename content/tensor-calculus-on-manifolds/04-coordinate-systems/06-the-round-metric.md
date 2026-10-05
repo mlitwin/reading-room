@@ -1,8 +1,8 @@
 ---
-title: On the sphere
+title: The round metric
 ---
 
-The round metric on $S^2$ — the geometry inherited from $S^2 \subseteq \mathbb{R}^3$.
+The round metric on $S^2$, induced from $S^2 \subseteq \mathbb{R}^3$, in the three charts of this chapter.
 
 ## In spherical coordinates
 
@@ -15,7 +15,7 @@ Riemannian (both eigenvalues positive), non-degenerate where $\sin\theta \neq 0$
 The inverse metric is
 $$[g^{\mu\nu}] = \begin{pmatrix} 1 & 0 \\ 0 & 1/\sin^2\theta \end{pmatrix}.$$
 
-## Lengths, angles, area
+## Lengths and angles
 
 The length of the basis vectors:
 $$|\partial_\theta|^2 = g_{\theta\theta} = 1, \qquad |\partial_\varphi|^2 = g_{\varphi\varphi} = \sin^2\theta.$$
@@ -27,9 +27,7 @@ A curve $\gamma(t) = \Phi(\theta(t), \varphi(t))$ has length
 $$\operatorname{len}(\gamma) = \int \sqrt{\dot\theta^2 + \sin^2\theta\, \dot\varphi^2}\; dt.$$
 A meridian ($\varphi$ constant) from pole to pole has length $\int_0^\pi 1\, d\theta = \pi$; the equator ($\theta = \pi/2$) has length $\int_0^{2\pi} \sin(\pi/2)\, d\varphi = 2\pi$. Both as expected for a unit-radius sphere.
 
-The [volume form](note:volume-form) is
-$$\mathrm{vol}_g = \sqrt{\det g}\; d\theta \wedge d\varphi = \sin\theta\; d\theta \wedge d\varphi,$$
-recovering the area form of [chapter 4](07-tensors-on-the-sphere.md) — there written down without a metric, here derived from one. Integrating gives $\int_{S^2} \mathrm{vol}_g = \int_0^\pi \int_0^{2\pi} \sin\theta\, d\varphi\, d\theta = 4\pi$, the area of the unit sphere.
+The area form $\mathrm{vol}_g = \sin\theta\, d\theta \wedge d\varphi$ and the total area $4\pi$ follow from $\det g = \sin^2\theta$ ([chapter 7](../07-integration/02-volume-form-and-hodge-star.md)).
 
 ## Raising and lowering
 
@@ -54,7 +52,7 @@ $$[g_{\tilde\mu\tilde\nu}] = \begin{pmatrix} 1 + \alpha^2 \sin^4\tilde\theta & \
 
 **Off-diagonal entry.** Non-zero away from the poles, confirming the basis non-orthogonality of the skew chart. This is the most visible component-level difference from the standard chart.
 
-**Determinant.** $\det g = (1 + \alpha^2 \sin^4\tilde\theta) \sin^2\tilde\theta - \alpha^2 \sin^6\tilde\theta = \sin^2\tilde\theta$. *Same* as the standard chart — the Jacobian of the chart change has determinant $1$, so $\det g$ is unchanged. The volume form $\mathrm{vol}_g = \sin\tilde\theta\, d\tilde\theta \wedge d\tilde\varphi$ is the same intrinsic 2-form, with the same component, in both charts.
+**Determinant.** $\det g = (1 + \alpha^2 \sin^4\tilde\theta) \sin^2\tilde\theta - \alpha^2 \sin^6\tilde\theta = \sin^2\tilde\theta$. The same as in the standard chart, because the chart change has Jacobian determinant $1$.
 
 **Inverse metric.** $g^{\tilde\mu\tilde\nu}$ via the cofactor formula:
 $$[g^{\tilde\mu\tilde\nu}] = \frac{1}{\sin^2\tilde\theta} \begin{pmatrix} \sin^2\tilde\theta & -\alpha\sin^3\tilde\theta \\ -\alpha\sin^3\tilde\theta & 1 + \alpha^2 \sin^4\tilde\theta \end{pmatrix} = \begin{pmatrix} 1 & -\alpha\sin\tilde\theta \\ -\alpha\sin\tilde\theta & (1 + \alpha^2 \sin^4\tilde\theta)/\sin^2\tilde\theta \end{pmatrix}.$$
@@ -69,8 +67,8 @@ The takeaways:
 
 - The same geometric metric has different component matrices in different charts.
 - Off-diagonal entries are a chart artifact, not a feature of the geometry.
-- The volume form is chart-independent; its component $\sqrt{\det g}$ is unchanged here only because the chart change has Jacobian determinant $1$.
-- The [Gaussian curvature](note:sectional-curvature) $K = 1$ (computed in [the connection-and-curvature chapter](../08-connection-and-curvature/06-on-the-sphere.md)) is the same in both charts because it's an intrinsic invariant.
+- $\det g$ is unchanged here only because the chart change has Jacobian determinant $1$; in general it scales by $J^{-2}$.
+- The [Gaussian curvature](note:sectional-curvature) $K = 1$ ([chapter 8](../08-connection-and-curvature/06-on-the-sphere.md)) is the same in both charts because it's an intrinsic invariant.
 
 ## In stereographic coordinates
 
@@ -79,9 +77,3 @@ $$\tens{g} = \frac{4}{(1 + x^2 + y^2)^2}\, (dx^2 + dy^2).$$
 **Conformally flat:** the metric is a positive scalar function times $dx^2 + dy^2$, so angles agree with Euclidean angles in this chart even though lengths don't. The conformal factor $4/(1 + r^2)^2$ tends to $0$ as $r \to \infty$, where the south pole sits at infinity.
 
 Every Riemannian $2$-manifold admits isothermal (conformally flat) coordinates locally. The sphere happens to admit them on a chart missing a single point.
-
-## Pullback by a rotation
-
-The action of $SO(3)$ on $S^2$ preserves the round metric. For a rotation $R: S^2 \to S^2$, the [pullback](note:pullback) satisfies
-$$R^* \tens{g} = \tens{g}.$$
-This is the [**isometry**](note:isometry) condition. Its infinitesimal form is the three [Killing vectors](note:killing-vector) of the [previous page](../08-connection-and-curvature/03-killing-vectors.md).
