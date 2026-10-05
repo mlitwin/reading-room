@@ -55,13 +55,17 @@ is written by the manuscript-md generator, not authored by hand.
 
 `md` is a configured `markdown-it` instance with:
 
-- **KaTeX** (`@vscode/markdown-it-katex`) for `$…$` / `$$…$$` math.
+- **KaTeX** (`@vscode/markdown-it-katex`) for `$…$` / `$$…$$` math, with a shared
+  macro table (`KATEX_MACROS` in `build.js`): `\tens{x}` (index-free tensor, bold
+  italic), `\Lie` (Lie derivative £), `\Tor`. Author through these rather than
+  raw `\boldsymbol`, so typeface conventions stay switchable in one place.
 - **highlight.js** for fenced code blocks.
 - `html: true` — the Latin-passage books inject a raw `<div class="latin-passage">`
   of `<span data-matches="…">` tokens straight into their markdown. The trust
   model is that only the author writes book markdown.
 - A custom core rule `rewrite_md_links` that (a) rewrites inter-doc `*.md` links
-  to `*.html` and strips the `^\d+-` ordering prefix, and (b) turns `note:` and
+  to `*.html` and strips the `^\d+-` ordering prefix — failing the build if the
+  target `.md` doesn't exist — and (b) turns `note:` and
   `ag:` scheme links into popover triggers. See
   [navigation-and-popovers.md](navigation-and-popovers.md).
 

@@ -1,4 +1,5 @@
 import { promises as fs } from 'node:fs';
+import fsSync from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
@@ -44,7 +45,14 @@ const md = new MarkdownIt({
     return `<pre><code class="hljs">${md.utils.escapeHtml(str)}</code></pre>`;
   },
 });
-md.use(katex.default ?? katex);
+// Semantic math macros shared by every book. Authoring through these keeps
+// typeface conventions (see the tensor book's notation page) in one place.
+const KATEX_MACROS = {
+  '\\tens': '\\boldsymbol{#1}',          // index-free vector / form / tensor
+  '\\Lie': '\\pounds',                   // Lie derivative (MTW)
+  '\\Tor': '\\operatorname{Tor}',        // index-free torsion
+};
+md.use(katex.default ?? katex, { macros: KATEX_MACROS });
 
 // Inter-doc links + `note:` references. Iterates inline tokens and rewrites
 // link_open hrefs (and tags note: links via .meta so the renderer rules
@@ -97,6 +105,15 @@ md.core.ruler.push('rewrite_md_links', state => {
 
       // Existing inter-doc rewrite: `.md` → `.html`, strip `^\d+-` prefixes.
       if (/^[a-z][a-z0-9+\-.]*:/i.test(href)) continue;
+      // A relative link to another source file must resolve: a stale target
+      // would otherwise render as a dead link without failing the build.
+      const mdTarget = href.match(/^([^?#]+\.md)(?=$|[?#])/);
+      if (mdTarget && env.filePath && !mdTarget[1].startsWith('/')) {
+        const target = path.resolve(path.dirname(env.filePath), decodeURIComponent(mdTarget[1]));
+        if (!fsSync.existsSync(target)) {
+          throw new Error(`${env.filePath}: link target "${mdTarget[1]}" does not exist.`);
+        }
+      }
       const rewritten = href
         .replace(/\.md(?=$|[?#])/, '.html')
         .replace(/(^|\/)\d+-/g, '$1');

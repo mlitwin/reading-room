@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:19:11.321Z",
+  "generated_at": "2026-10-05T03:32:53.673Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,7 +273,7 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "702657e1d0a10e4d257d0180385d2c2a0d8c5c13899051748e7e8388bee067f4",
+      "sha256": "b317481e2e3e90363846bf22680873f0c4bdff85ebe6876a40937b243442c7a9",
       "size": 59093
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "411d2fc233c4adf414ec33e04517e3f7658ec93192dc893aeaa4f40da2da8fef",
+      "sha256": "cb2bdeccfa6253594ceb9a846fe2a1e46f6fc25d95cf2ebf829ca23156017246",
       "size": 926268
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "6e4c0a5f3b0ef2930a4184c5179f075508f51f4c77ab3b8e66610582597ff6f5",
+      "sha256": "94000f13045d907d30e1c060a7241f0efb7dab77795a0924b16aab5ea06fffbd",
       "size": 10323088
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "95522b54523165dfcb7fb93b15fdc4c83cabe6844acd646945ed7e237bfaeaef",
+      "sha256": "f64cfe498a919444c1b77346a5837257a94c56c0a74d16f89c602a28b41efebb",
       "size": 2476366
     },
     {
@@ -638,12 +638,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "7bd5712b89b263259b03866608c08a1f0a6303f7681c5a0f26e0d569fca61cf3",
+      "sha256": "75d4c7cb0561b5d7e60cae4702f873bb8dc87eb92f03cc62893ba3ff32739a66",
       "size": 11327777
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "83c40e348f29f394da9dd33fab3cdde20b86e9eb78a2b11e15d086174deed219",
+      "sha256": "d22718b997cc1569f470b1ed7d5b348e24e89e04cec64921e9d17c8716c97581",
       "size": 11327751
     },
     {
@@ -728,7 +728,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "bfc442748c0152207d1cae6c2eb36269469a33a85a25f48028d4664bc9b5fe34",
+      "sha256": "5b68b8abf800922b8c784de419cbbac1433d54e1e5b7a2e2fdc283a83e0fdbcf",
       "size": 30244
     },
     {
