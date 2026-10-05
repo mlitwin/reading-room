@@ -22,4 +22,4 @@ For $L = \tfrac{1}{2} m |\dot q|^2 - V(q)$ on $\mathbb{R}^n$,
 $$\frac{\partial L}{\partial \dot q^i} = m \dot q^i, \qquad \frac{\partial L}{\partial q^i} = -\partial_i V,$$
 and EL reads $m \ddot q^i = -\partial_i V$ — Newton's second law.
 
-The EL equations form a system of $n$ second-order ODEs in $q$. They have a *unique* solution given initial $(q(t_0), \dot q(t_0))$ when $L$ is non-degenerate (the matrix $\partial^2 L / \partial \dot q^i \partial \dot q^j$ is invertible).
+The EL equations form a system of $n$ second-order ODEs in $q$. They have a locally *unique* solution for given initial $(q(t_0), \dot q(t_0))$ when $L$ is non-degenerate (the matrix $\partial^2 L / \partial \dot q^i \partial \dot q^j$ is invertible).

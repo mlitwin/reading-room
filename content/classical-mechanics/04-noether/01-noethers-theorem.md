@@ -9,7 +9,7 @@ $$\delta q^i := \frac{\partial q_\epsilon^i}{\partial \epsilon}\bigg|_{\epsilon 
 
 The transformation is a **symmetry of the action** if for every smooth path $q$,
 $$\frac{d}{d\epsilon} S[q_\epsilon]\bigg|_{\epsilon=0} = 0$$
-— the variation $\delta S$ vanishes for *all* paths, not only solutions.
+over every time interval $[t_1, t_2]$ — the variation $\delta S$ vanishes for *all* paths, not only solutions. Equivalently, $\delta L = 0$.
 
 **Noether's theorem.** For each such symmetry, the quantity
 $$\boxed{\quad Q := \frac{\partial L}{\partial \dot q^i}\, \delta q^i = p_i\, \delta q^i \quad}$$

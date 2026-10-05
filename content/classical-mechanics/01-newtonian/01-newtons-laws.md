@@ -2,13 +2,13 @@
 title: Newton's laws
 ---
 
-**N1** (inertia). A particle subject to no net force moves with constant velocity. Equivalently: there exist *inertial* reference frames in which N2 holds.
+**N1** (inertia). A particle subject to no net force moves with constant velocity. Read as a postulate: *inertial* reference frames exist, and they are the frames in which N2 holds.
 
 **N2** (force = rate of change of momentum). For a particle of momentum $p_a = m_a \dot r_a$ subject to net force $F_a$,
 $$\dot p_a = F_a.$$
 For constant mass, $F_a = m_a \ddot r_a$.
 
-**N3** (action and reaction). The force exerted by particle $a$ on particle $b$ is equal in magnitude and opposite in direction to the force exerted by $b$ on $a$, along the line connecting them.
+**N3** (action and reaction). The force exerted by particle $a$ on particle $b$ is equal in magnitude and opposite in direction to the force exerted by $b$ on $a$. The *strong* form adds that both act along the line connecting them; magnetic forces between moving charges violate it.
 
 **Force types.**
 

@@ -9,7 +9,7 @@ Assume $L$ is *regular*: the map $\dot q \mapsto p$ at fixed $(q, t)$ is inverti
 **Hamiltonian.** The **Hamiltonian** is the [Legendre transform](note:legendre-transform) of $L$ with respect to $\dot q$:
 $$H(q, p, t) := p_i \dot q^i(q, p, t) - L(q, \dot q(q, p, t), t).$$
 
-For $L = T(q, \dot q) - V(q)$ with $T$ a positive-definite quadratic form in $\dot q$ (the typical case), $H$ equals $T + V$ — total energy — when the constraints are time-independent.
+For $L = T - V(q)$ with $T$ a quadratic form in $\dot q$ (homogeneous of degree $2$, as when constraints and coordinates are time-independent), Euler's theorem gives $p_i \dot q^i = 2T$, so $H = T + V$ — the total energy.
 
 **Hamilton's equations.** Differentiating the definition of $H$ and using the EL equations,
 $$\boxed{\quad \dot q^i = \frac{\partial H}{\partial p_i}, \qquad \dot p_i = -\frac{\partial H}{\partial q^i}. \quad}$$

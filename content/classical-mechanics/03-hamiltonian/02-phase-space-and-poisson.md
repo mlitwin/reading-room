@@ -4,7 +4,7 @@ title: Phase space and the Poisson bracket
 
 **Phase space.** The state space of a Hamiltonian system is the cotangent bundle $T^* Q$ with coordinates $(q^i, p_i)$. It carries a canonical [2-form](../../tensor-calculus-on-manifolds/03-differential-forms/01-k-forms-and-wedge.md)
 $$\omega := dp_i \wedge dq^i$$
-(the [symplectic form](note:symplectic-form)) that's [non-degenerate and closed](../../tensor-calculus-on-manifolds/03-differential-forms/03-closed-and-exact.md). Hamilton's equations are the integral curves of the vector field $X_H$ defined by $\iota_{X_H} \omega = dH$, with $\iota$ the [interior product](../../tensor-calculus-on-manifolds/02-vector-fields-and-flows/03-lie-derivative.md) of a vector field into a form.
+(the [symplectic form](note:symplectic-form)) that's non-degenerate and [closed](../../tensor-calculus-on-manifolds/03-differential-forms/03-closed-and-exact.md) — indeed exact, $\omega = d(p_i\, dq^i)$. Hamilton's equations are the integral curves of the vector field $X_H$ defined by $\iota_{X_H} \omega = -dH$, with $\iota$ the [interior product](../../tensor-calculus-on-manifolds/02-vector-fields-and-flows/03-lie-derivative.md) of a vector field into a form.
 
 **Poisson bracket.** For smooth functions $f, g$ on phase space,
 $$\{f, g\} := \frac{\partial f}{\partial q^i} \frac{\partial g}{\partial p_i} - \frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q^i}.$$
@@ -29,4 +29,4 @@ In particular Hamilton's equations are themselves $\dot q^i = \{q^i, H\}$, $\dot
 
 **Liouville's theorem.** The Hamiltonian flow preserves phase-space volume:
 $$\frac{d}{dt} \int_{\Phi_t(D)} dq^1 \cdots dq^n\, dp_1 \cdots dp_n = 0$$
-for any region $D \subseteq T^*Q$. Geometrically, $\omega^n / n!$ is the volume form and it's preserved by canonical transformations. This is the foundation of statistical mechanics.
+for any region $D \subseteq T^*Q$. Geometrically, $\omega^n / n!$ is (up to sign) this volume form, and canonical transformations preserve it. This is a foundation of statistical mechanics.

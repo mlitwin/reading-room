@@ -18,7 +18,7 @@ $$P := \sum_a m_a \dot r_a, \qquad \dot P = \sum_a F_a^{\text{(ext)}} \quad \tex
 $P$ is conserved if there are no external forces — a consequence of *translation invariance* of the dynamics.
 
 **Angular momentum.** About the origin,
-$$L := \sum_a r_a \times m_a \dot r_a, \qquad \dot L = \sum_a r_a \times F_a^{\text{(ext)}} = \tau^{\text{(ext)}}.$$
+$$L := \sum_a r_a \times m_a \dot r_a, \qquad \dot L = \sum_a r_a \times F_a^{\text{(ext)}} = \tau^{\text{(ext)}} \quad \text{(internal torques cancel by strong N3).}$$
 If all external forces are central (parallel to $r_a$) or absent, $\tau^{\text{(ext)}} = 0$ and $L$ is conserved — a consequence of *rotational invariance*.
 
-These three conservation laws are not independent miracles: each comes from a continuous symmetry of the action via Noether's theorem (covered in the last section). Time translation gives energy, spatial translation gives linear momentum, rotational symmetry gives angular momentum.
+These three conservation laws are not independent miracles: each comes from a continuous symmetry of the action via Noether's theorem ([chapter 4](../04-noether/index.md)). Time translation gives energy, spatial translation gives linear momentum, rotational symmetry gives angular momentum.
