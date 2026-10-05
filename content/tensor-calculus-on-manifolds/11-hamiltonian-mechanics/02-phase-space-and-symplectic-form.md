@@ -29,7 +29,7 @@ Hamilton's equations themselves read $\dot q^i = \{q^i, H\}$, $\dot p_i = \{p_i,
 
 ## Canonical transformations and Liouville
 
-A diffeomorphism $\Phi$ of $T^*Q$ is **canonical** (symplectic) if $\Phi^* \tens{\omega} = \tens{\omega}$; equivalently, it preserves all Poisson brackets. The flow of any Hamiltonian vector field is canonical. By [Cartan's formula](../05-vector-fields-and-flows/03-lie-derivative.md),
+A diffeomorphism $\Phi$ of $T^*Q$ is **canonical** (symplectic) if $\Phi^* \tens{\omega} = \tens{\omega}$; equivalently, it preserves all Poisson brackets. The flow of any Hamiltonian vector field is canonical. By [Cartan's formula](../06-differential-forms/02-exterior-derivative-and-pullback.md),
 $$\Lie_{\tens{X}_H} \tens{\omega} = d(\iota_{\tens{X}_H} \tens{\omega}) + \iota_{\tens{X}_H}\, d\tens{\omega} = -d\,dH + 0 = 0.$$
 
 **Liouville's theorem.** The top-degree form $\tens{\omega}^n / n!$ is (up to sign) the phase-space volume $dq^1 \cdots dq^n\, dp_1 \cdots dp_n$. Since $\Lie_{\tens{X}_H}$ is a derivation of the wedge product and kills $\tens{\omega}$, it kills $\tens{\omega}^n$. The Hamiltonian flow $\Phi_t$ therefore preserves phase-space volume: for any region $D$,

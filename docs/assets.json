@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:15:19.187Z",
+  "generated_at": "2026-10-05T16:15:51.663Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,7 +273,7 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "c579ecab69f39f06b359b5ae93c2f3f0dd42b293610d46ffe716cb17a8ec1502",
+      "sha256": "b78fd9a005288fd3b65c472fe20dff69b6e0be25f80b373188c3e78dc08c3faf",
       "size": 59093
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "6275bd2275f75c155fec3691adb5cb9b9e1fe99408c8870d0b6f8fbf39586812",
+      "sha256": "033902be5c469b1ac0fc7e7eeb7fa6bc61cd6ff9ee4bbcdcbe0b570f75dcafaa",
       "size": 926268
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "747d442a8f04557f9b5956013b67d727121d26efbdec6e39333827a6ab02fb24",
+      "sha256": "854b8783a580ef88acb4ff41896dffaaed13bdb5ad822e5fdc49d0696578d510",
       "size": 10323088
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "72ffd9c186224c0bd0aad7518c2486884d20dae97946c3aa01ecef08594506fa",
+      "sha256": "85b3a2459ce6d6eac4e8010f2055a9331e9cf7087055f7fb069681fc5292389e",
       "size": 2476366
     },
     {
@@ -638,12 +638,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "e24d45bfc76fc62a88f3fbf3de154bf73455685ae92d4959507bca1221927453",
+      "sha256": "e9ce455d07c1e7ca498a53d9422f96467e7d26b9c7c51c9e9a8b679a145dc673",
       "size": 11327777
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "eb738e87d85d87d89c46a00cf31e41b011b38fcdfb94ba8459e4d39037c1d5cf",
+      "sha256": "f4643db766e01c33893dfbe21fbdee6a63fd1527848a55d1bf1713e4beb3be6b",
       "size": 11327751
     },
     {
@@ -653,7 +653,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "632fb2c5b8ea87cdde739eeeb63befa177ffb9cd4c517340c004b8d46bfa7d7a",
+      "sha256": "7d102f9fe396396eed3a3a1571fc17f34e50f3acaa3754c9ffc161cf5fb75299",
       "size": 32367
     },
     {
@@ -1188,8 +1188,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/hamiltonian-mechanics/phase-space-and-symplectic-form.html",
-      "sha256": "0ad58721d7aea8556c8ff047d6807a78dd93f1cea457d48b187049c8b4009198",
-      "size": 311257
+      "sha256": "db55aad98ee7d3d00c03a2c9798c6a5b3d54b7d433298d1692d8d627fbb558d3",
+      "size": 311270
     },
     {
       "path": "tensor-calculus-on-manifolds/index.html",
