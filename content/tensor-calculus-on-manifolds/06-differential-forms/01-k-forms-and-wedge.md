@@ -2,9 +2,9 @@
 title: k-forms and the wedge product
 ---
 
-A **$k$-form at $p$** is an **alternating multilinear map**
+A **$k$-form at $p$** is an alternating $(0, k)$-tensor ([chapter 2](../02-tensors/03-co-contra-vs-k-forms.md)): a multilinear map
 $$\tens{\omega}_p: \underbrace{T_p M \times \cdots \times T_p M}_{k \text{ copies}} \to \mathbb{R}$$
-*Multilinear* means linear in each argument with the others fixed. *Alternating* means changing sign under any swap of two arguments, the same property the [tensor chapter](../02-tensors/03-co-contra-vs-k-forms.md) calls *totally antisymmetric*.
+that changes sign under any swap of two arguments, so that its components are totally antisymmetric.
 
 The space of $k$-forms at $p$ is $\Lambda^k T^*_p M$, of dimension $\binom{n}{k}$. By convention $\Lambda^0 = \mathbb{R}$ (numbers), $\Lambda^1 = T^*_p M$ (covectors). $\Lambda^k = 0$ for $k > n$.
 

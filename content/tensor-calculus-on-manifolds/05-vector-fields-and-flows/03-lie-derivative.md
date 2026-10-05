@@ -19,9 +19,8 @@ where $\theta_t$ is the flow of $\tens{X}$ and $\theta_t^*$ is its [pullback](no
 - Commutes with contraction.
 - $\Lie_{\tens{X}} \Lie_{\tens{Y}} - \Lie_{\tens{Y}} \Lie_{\tens{X}} = \Lie_{[\tens{X}, \tens{Y}]}$.
 
-**Cartan's magic formula.** For any $k$-form $\tens{\omega}$,
-$$\Lie_{\tens{X}} \tens{\omega} = \iota_{\tens{X}} (d\tens{\omega}) + d(\iota_{\tens{X}} \tens{\omega}),$$
-where $\iota_{\tens{X}}$ is the **interior product** contracting $\tens{X}$ into the first slot:
-$$(\iota_{\tens{X}} \tens{\omega})(\tens{Y}_1, \ldots, \tens{Y}_{k-1}) := \tens{\omega}(\tens{X}, \tens{Y}_1, \ldots, \tens{Y}_{k-1}).$$
+**The metric.** On a $(0, 2)$-tensor the definition gives, in coordinates,
+$$(\Lie_{\tens{X}} \tens{g})_{\mu\nu} = X^\rho\, \partial_\rho g_{\mu\nu} + g_{\rho\nu}\, \partial_\mu X^\rho + g_{\mu\rho}\, \partial_\nu X^\rho.$$
+The flow of $\tens{X}$ consists of [isometries](note:isometry) exactly when $\Lie_{\tens{X}} \tens{g} = 0$. Such an $\tens{X}$ is a **Killing field**. If no $g_{\mu\nu}$ depends on $x^k$, the formula shows at once that $\partial_k$ is Killing: on the round sphere, $\partial_\varphi$. Killing fields and the conserved quantities they produce are treated in [chapter 8](../08-connection-and-curvature/03-killing-vectors.md), once geodesics are available.
 
-This is the computational workhorse for forms: it replaces differentiation along the flow by the purely algebraic operations $d$ and $\iota_{\tens{X}}$.
+**On forms.** On differential forms the Lie derivative reduces to the exterior derivative and the interior product by Cartan's formula, $\Lie_{\tens{X}} = \iota_{\tens{X}} d + d\, \iota_{\tens{X}}$ ([chapter 6](../06-differential-forms/02-exterior-derivative-and-pullback.md)).

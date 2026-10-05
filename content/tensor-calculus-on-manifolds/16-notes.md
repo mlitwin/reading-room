@@ -113,7 +113,7 @@ with $\theta_t^*$ the [pullback](note:pullback). Specializations: on functions $
 
 The contraction of a vector field into the first slot of a $k$-form:
 $$\iota_{\tens{X}}: \Omega^k(M) \to \Omega^{k-1}(M), \qquad (\iota_{\tens{X}} \tens{\omega})(\tens{Y}_1, \ldots, \tens{Y}_{k-1}) := \tens{\omega}(\tens{X}, \tens{Y}_1, \ldots, \tens{Y}_{k-1}).$$
-A graded antiderivation: $\iota_{\tens{X}}(\tens{\omega} \wedge \tens{\eta}) = (\iota_{\tens{X}} \tens{\omega}) \wedge \tens{\eta} + (-1)^k\, \tens{\omega} \wedge (\iota_{\tens{X}} \tens{\eta})$ for $\tens{\omega} \in \Omega^k$, and $\iota_{\tens{X}}^2 = 0$. It appears in Cartan's magic formula $\Lie_{\tens{X}} = \iota_{\tens{X}} d + d\, \iota_{\tens{X}}$ ([Lie derivative](note:lie-derivative)) and in the boundary-orientation rule $\iota_{\tens{\nu}} \tens{\Omega}$ of Stokes's theorem. Introduced on the [Lie-derivative page](05-vector-fields-and-flows/03-lie-derivative.md).
+A graded antiderivation: $\iota_{\tens{X}}(\tens{\omega} \wedge \tens{\eta}) = (\iota_{\tens{X}} \tens{\omega}) \wedge \tens{\eta} + (-1)^k\, \tens{\omega} \wedge (\iota_{\tens{X}} \tens{\eta})$ for $\tens{\omega} \in \Omega^k$, and $\iota_{\tens{X}}^2 = 0$. It appears in Cartan's magic formula $\Lie_{\tens{X}} = \iota_{\tens{X}} d + d\, \iota_{\tens{X}}$ ([Lie derivative](note:lie-derivative)) and in the boundary-orientation rule $\iota_{\tens{\nu}} \tens{\Omega}$ of Stokes's theorem. Introduced with [Cartan's formula](06-differential-forms/02-exterior-derivative-and-pullback.md).
 
 ## Differential form
 
