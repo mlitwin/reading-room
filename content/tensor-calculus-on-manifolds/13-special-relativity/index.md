@@ -2,7 +2,7 @@
 title: Special relativity
 ---
 
-Special relativity is the natural-system picture of [chapter 10](../10-lagrangian-mechanics/natural-systems-index.md) with configuration space replaced by spacetime. The kinetic metric becomes the flat Lorentzian metric $\tens{\eta}$, and Newton's absolute time becomes one coordinate among four. It is the flat case that general relativity curves. Each tangent space of a curved spacetime is a copy of it ([chapter 3](../03-metric/01-the-metric-tensor.md)).
+Special relativity is the natural-system picture of [chapter 10](../10-lagrangian-mechanics/02-kinetic-metric.md) with configuration space replaced by spacetime. The kinetic metric becomes the flat Lorentzian metric $\tens{\eta}$, and Newton's absolute time becomes one coordinate among four. It is the flat case that general relativity curves. Each tangent space of a curved spacetime is a copy of it ([chapter 3](../03-metric/01-the-metric-tensor.md)).
 
 Two pages:
 

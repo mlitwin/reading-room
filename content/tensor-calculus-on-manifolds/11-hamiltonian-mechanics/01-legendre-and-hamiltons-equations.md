@@ -6,11 +6,15 @@ title: Legendre transform and Hamilton's equations
 
 The **conjugate momentum** to $q^i$ is
 $$p_i := \frac{\partial L}{\partial \dot q^i}.$$
-Its index is down: $p = p_i\, dq^i$ is a [covector](note:cotangent-space) at $q$ ([previous chapter](../10-lagrangian-mechanics/03-action-and-euler-lagrange.md)). Coordinate-free, the momentum of a velocity $\dot q \in T_q Q$ is the derivative of $L$ along the fiber $T_q Q$:
-$$p(\tens{w}) = \frac{d}{ds} L(q, \dot q + s\tens{w})\Big|_{s=0}, \qquad \tens{w} \in T_q Q.$$
-This defines the **fiber derivative** $\mathbb{F}L: TQ \to T^*Q$, $(q, \dot q) \mapsto (q, p)$. $L$ is **regular** when $\mathbb{F}L$ is a local diffeomorphism, equivalently when $\partial^2 L / \partial \dot q^i \partial \dot q^j$ is invertible. It is **hyperregular** when $\mathbb{F}L$ is a global diffeomorphism. Then $\dot q$ can be solved for as a function of $(q, p, t)$.
+Its index is down: $p = p_i\, dq^i$ is a [covector](note:cotangent-space) at $q$ ([chapter 10](../10-lagrangian-mechanics/03-action-and-euler-lagrange.md)).
 
-**Natural Lagrangians.** For $L = \tfrac12 g_{ij}(q)\, \dot q^i \dot q^j - V(q)$, the momenta are $p_i = g_{ij}\, \dot q^j$. The fiber derivative is the [musical isomorphism](note:musical-isomorphism) $\flat$ of the kinetic metric: the Legendre transform lowers the index ([chapter 10](../10-lagrangian-mechanics/natural-systems-index.md)).
+**Natural systems: the Legendre transform lowers the index.** For $L = \tfrac12 g_{ij}(q)\, \dot q^i \dot q^j - V(q)$ the momentum is
+$$p_i = g_{ij}\, \dot q^j, \qquad p = \dot q^\flat,$$
+the [musical isomorphism](note:musical-isomorphism) $\flat: TQ \to T^*Q$ of the kinetic metric. It is a global diffeomorphism with inverse $\sharp$. The velocity–momentum distinction that the notation keeps (index up, index down) is exactly the distinction a metric removes. In Cartesian coordinates with unit masses, $p_i = \dot q^i$ numerically, which is why elementary mechanics never needs to make it.
+
+**Without a metric: the fiber derivative.** For a general $L$, the momentum of a velocity $\dot q \in T_q Q$ is the derivative of $L$ along the fiber $T_q Q$:
+$$p(\tens{w}) = \frac{d}{ds} L(q, \dot q + s\tens{w})\Big|_{s=0}, \qquad \tens{w} \in T_q Q.$$
+This defines the **fiber derivative** $\mathbb{F}L: TQ \to T^*Q$, $(q, \dot q) \mapsto (q, p)$, which is $\flat$ for a natural system. $L$ is **regular** when $\mathbb{F}L$ is a local diffeomorphism, equivalently when $\partial^2 L / \partial \dot q^i \partial \dot q^j$ is invertible. It is **hyperregular** when $\mathbb{F}L$ is a global diffeomorphism, as natural Lagrangians are. Then $\dot q$ can be solved for as a function of $(q, p, t)$.
 
 ## The Hamiltonian
 

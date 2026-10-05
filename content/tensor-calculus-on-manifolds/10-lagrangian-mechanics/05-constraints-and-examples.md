@@ -6,7 +6,11 @@ title: Constraints and examples
 
 A [holonomic constraint](note:holonomic-constraint) $f(q, t) = 0$ cuts $Q$ down to a submanifold $Q' \subset Q$, which moves if $f$ depends on $t$. Let $\iota: Q' \hookrightarrow Q$ be the inclusion. The reduced Lagrangian is the restriction of $L$ to velocities tangent to $Q'$:
 $$L' := L \circ d\iota: TQ' \times \mathbb{R} \to \mathbb{R}.$$
-In coordinates $\tilde q^1, \ldots, \tilde q^{n'}$ on $Q'$ ($n' = n - 1$ for one constraint), this is just $L$ with $q = q(\tilde q, t)$ substituted. $L'$ has its own Euler–Lagrange equations on $Q'$. For ideal (workless) constraints, the constraint forces never appear. When $L = T - V$, restricting $T$ amounts to [pulling back](note:pullback) the kinetic quadratic form to $Q'$. [Chapter 10](natural-systems-index.md) reads that as the induced metric.
+In coordinates $\tilde q^1, \ldots, \tilde q^{n'}$ on $Q'$ ($n' = n - 1$ for one constraint), this is $L$ with $q = q(\tilde q, t)$ substituted. $L'$ has its own Euler–Lagrange equations on $Q'$, and for ideal (workless) constraints the constraint forces never appear.
+
+**Constraints are induced metrics.** For a natural system and a fixed constraint, restricting $T$ replaces $\tens{g}$ by its [pullback](note:pullback) $\iota^* \tens{g}$, the [induced metric](../03-metric/01-the-metric-tensor.md). The constrained system is again natural, with kinetic metric $\iota^*\tens{g}$ and potential $V \circ \iota$. For a particle of mass $m$ confined to the sphere of radius $R$ in $\mathbb{R}^3$,
+$$\iota^* \tens{g} = m R^2 \bigl(d\theta^2 + \sin^2\theta\, d\varphi^2\bigr),$$
+which is $m R^2$ times the [round metric](../04-coordinate-systems/06-the-round-metric.md).
 
 **Lagrange multipliers.** Alternatively, stay on $Q$ and enforce $f = 0$ alongside
 $$\frac{d}{dt}\frac{\partial L}{\partial \dot q^i} - \frac{\partial L}{\partial q^i} = \lambda\, \frac{\partial f}{\partial q^i}.$$
@@ -24,8 +28,8 @@ The tension in the rod never enters.
 
 **Free particle on a sphere.** On $Q = S^2$ of radius $R$,
 $$L = \tfrac12 m R^2 \bigl(\dot\theta^2 + \sin^2\theta\, \dot\varphi^2\bigr),$$
-and the Euler–Lagrange equations are
-$$\ddot\theta - \sin\theta\cos\theta\, \dot\varphi^2 = 0, \qquad \ddot\varphi + 2\cot\theta\, \dot\theta\dot\varphi = 0.$$
-These are the geodesic equations of the round metric ([chapter 8](../08-connection-and-curvature/06-on-the-sphere.md)), whose solutions are great circles. The azimuth $\varphi$ is cyclic, so $p_\varphi = m R^2 \sin^2\theta\, \dot\varphi$ is conserved: it is the angular momentum about the $Z$-axis.
+the kinetic energy of the induced metric above. The Euler–Lagrange equations are
+$$\ddot\theta - \sin\theta\cos\theta\, \dot\varphi^2 = 0, \qquad \ddot\varphi + 2\cot\theta\, \dot\theta\dot\varphi = 0,$$
+which is $\nabla_{\dot q}\dot q = 0$ for the round metric: the motion is geodesic, along great circles at constant speed ([chapter 8](../08-connection-and-curvature/06-on-the-sphere.md)). The azimuth $\varphi$ is cyclic, so $p_\varphi = m R^2 \sin^2\theta\, \dot\varphi$ is conserved: it is the angular momentum about the $Z$-axis.
 
-**Spherical pendulum.** Add gravity along $-Z$, $V = m g R \cos\theta$, with $\theta$ the polar angle from $+Z$. The $\theta$ equation gains a term $-(g/R)\sin\theta$. The azimuth is still cyclic, so $p_\varphi$ is still conserved. Of the round sphere's three rotational symmetries, gravity leaves only the one about the vertical.
+**Spherical pendulum.** Add gravity along $-Z$, $V = m g R \cos\theta$, with $\theta$ the polar angle from $+Z$. The $\theta$ equation gains a term $-(g/R)\sin\theta$. The azimuth is still cyclic, so $p_\varphi$ is still conserved. Of the round sphere's three rotational symmetries, gravity leaves only the one about the vertical ([chapter 12](../12-symmetry-and-noether/02-symmetry-and-the-sphere.md)).

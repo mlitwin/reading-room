@@ -1,10 +1,10 @@
 ---
-title: Symmetry and the sphere
+title: Killing symmetries and the sphere
 ---
 
 ## Killing fields are Noether symmetries
 
-For a natural system, the flow of $\tens{\xi}$ is a symmetry of $L$ exactly when it preserves both terms:
+For a natural system $L = \tfrac12\, \tens{g}(\dot q, \dot q) - V$ ([chapter 10](../10-lagrangian-mechanics/02-kinetic-metric.md)), the flow of $\tens{\xi}$ is a symmetry of $L$ exactly when it preserves both terms:
 
 - $\tens{\xi}$ is a [Killing field](note:killing-vector) of the kinetic metric, $\Lie_{\tens{\xi}}\, \tens{g} = 0$;
 - $\tens{\xi}$ preserves the potential, $\tens{\xi}(V) = 0$.
@@ -17,7 +17,7 @@ With $Q$ spacetime and $V = 0$, this is the geodesic Killing charge $\xi_\mu \do
 
 ## The particle on the sphere
 
-A free particle of mass $m$ on the sphere of radius $R$ has kinetic metric $mR^2$ times the round metric ([page 1](../10-lagrangian-mechanics/02-kinetic-metric.md)). Its Euler–Lagrange equations are the round-sphere geodesic equations, whose solutions are great circles traversed at constant speed ([chapter 8](../08-connection-and-curvature/06-on-the-sphere.md)).
+A free particle of mass $m$ on the sphere of radius $R$ has kinetic metric $mR^2$ times the round metric ([chapter 10](../10-lagrangian-mechanics/05-constraints-and-examples.md)). Its Euler–Lagrange equations are the round-sphere geodesic equations, whose solutions are great circles traversed at constant speed ([chapter 8](../08-connection-and-curvature/06-on-the-sphere.md)).
 
 The round sphere has three Killing fields, one per rotation axis ([chapter 8](../08-connection-and-curvature/03-killing-vectors.md)):
 $$\tens{\xi}_Z = \partial_\varphi, \quad \tens{\xi}_X = -\sin\varphi\, \partial_\theta - \cot\theta\cos\varphi\, \partial_\varphi, \quad \tens{\xi}_Y = \cos\varphi\, \partial_\theta - \cot\theta\sin\varphi\, \partial_\varphi.$$

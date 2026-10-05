@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:55:19.730Z",
+  "generated_at": "2026-10-05T15:58:24.981Z",
   "pieces": [
     {
       "slug": "marvell-hortus",
@@ -89,7 +89,7 @@
         "hamiltonian",
         "general-relativity"
       ],
-      "summary": "A reference that develops the calculus of smooth manifolds from scratch and carries one tensor formulation from classical mechanics through to general relativity. Part I is the coordinate-free foundation (manifolds, tangent and cotangent spaces, flows, forms, integration, cohomology). Part II is Lagrangian and Hamiltonian mechanics and Noether's theorem, which need no metric. Part III builds tensors, the metric, the connection and curvature, with the sphere as a running example. Part IV joins the two through the kinetic metric, where Newton's law becomes covariant. Part V reaches special relativity, field theory and the stress–energy tensor, the Einstein equations, Schwarzschild, Einstein–Cartan, the Newtonian limit and Newton–Cartan gravity.",
+      "summary": "A reference that develops the calculus of smooth manifolds from scratch and carries one tensor formulation from classical mechanics through to general relativity. Part I builds manifolds, tensors and the metric, with the sphere as a running example. Part II is calculus on a manifold with a metric — flows, forms, integration, the Levi-Civita connection and curvature — marking what holds without one. Part III is Lagrangian and Hamiltonian mechanics with kinetic energy as the metric, so Newton's law is covariant and symmetries are Killing fields. Part IV reaches special relativity, field theory and the stress–energy tensor, the Einstein equations, Schwarzschild, Einstein–Cartan, the Newtonian limit and Newton–Cartan gravity.",
       "html_path": "tensor-calculus-on-manifolds/index.html",
       "structure": {
         "slug": "tensor-calculus-on-manifolds",
@@ -353,11 +353,6 @@
                 "slug": "constraints-and-examples",
                 "title": "Constraints and examples",
                 "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/constraints-and-examples.html"
-              },
-              {
-                "slug": "natural-systems-index",
-                "title": "Natural systems",
-                "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/natural-systems-index.html"
               }
             ]
           },
@@ -390,7 +385,7 @@
               },
               {
                 "slug": "symmetry-and-the-sphere",
-                "title": "Symmetry and the sphere",
+                "title": "Killing symmetries and the sphere",
                 "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/symmetry-and-the-sphere.html"
               },
               {

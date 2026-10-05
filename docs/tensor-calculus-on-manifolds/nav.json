@@ -1264,33 +1264,6 @@
         "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/covariant-newton.html"
       },
       "next": {
-        "title": "Natural systems",
-        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/natural-systems-index.html"
-      }
-    },
-    {
-      "slug": "natural-systems-index",
-      "title": "Natural systems",
-      "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/natural-systems-index.html",
-      "breadcrumbs": [
-        {
-          "title": "Library",
-          "html_path": "index.html"
-        },
-        {
-          "title": "Tensor Calculus on Manifolds — Geometry, Mechanics, and Gravity",
-          "html_path": "tensor-calculus-on-manifolds/index.html"
-        },
-        {
-          "title": "Lagrangian mechanics",
-          "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/index.html"
-        }
-      ],
-      "prev": {
-        "title": "Constraints and examples",
-        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/constraints-and-examples.html"
-      },
-      "next": {
         "title": "Hamiltonian mechanics",
         "html_path": "tensor-calculus-on-manifolds/hamiltonian-mechanics/index.html"
       }
@@ -1310,8 +1283,8 @@
         }
       ],
       "prev": {
-        "title": "Natural systems",
-        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/natural-systems-index.html"
+        "title": "Constraints and examples",
+        "html_path": "tensor-calculus-on-manifolds/lagrangian-mechanics/constraints-and-examples.html"
       },
       "next": {
         "title": "Legendre transform and Hamilton's equations",
@@ -1418,13 +1391,13 @@
         "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/index.html"
       },
       "next": {
-        "title": "Symmetry and the sphere",
+        "title": "Killing symmetries and the sphere",
         "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/symmetry-and-the-sphere.html"
       }
     },
     {
       "slug": "symmetry-and-the-sphere",
-      "title": "Symmetry and the sphere",
+      "title": "Killing symmetries and the sphere",
       "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/symmetry-and-the-sphere.html",
       "breadcrumbs": [
         {
@@ -1468,7 +1441,7 @@
         }
       ],
       "prev": {
-        "title": "Symmetry and the sphere",
+        "title": "Killing symmetries and the sphere",
         "html_path": "tensor-calculus-on-manifolds/symmetry-and-noether/symmetry-and-the-sphere.html"
       },
       "next": {

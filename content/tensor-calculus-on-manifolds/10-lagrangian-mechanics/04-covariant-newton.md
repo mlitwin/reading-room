@@ -17,7 +17,7 @@ This is Newton's second law, mass × acceleration = force, written covariantly. 
 ## Flat reductions
 
 - **Cartesian coordinates, $\tens{g} = \sum_A m_A\, \delta$.** Every $\Gamma$ vanishes, $\nabla_{\dot q}$ is $d/dt$, and $(\operatorname{grad} V)$ has components $m_A^{-1}\, \partial V / \partial \tens{r}_A$. The equation is $m_A \ddot{\tens{r}}_A = -\partial V / \partial \tens{r}_A$.
-- **Polar coordinates, $\tens{g} = m\,(dr^2 + r^2 d\varphi^2)$.** The non-zero Christoffel symbols are $\Gamma^r{}_{\varphi\varphi} = -r$ and $\Gamma^\varphi{}_{r\varphi} = \Gamma^\varphi{}_{\varphi r} = 1/r$. So
+- **Polar coordinates, $\tens{g} = m\,(dr^2 + r^2 d\varphi^2)$.** The Euler–Lagrange equations of $L = \tfrac12 m(\dot r^2 + r^2\dot\varphi^2) - V$ produce a centrifugal term without its being put in by hand. The non-zero Christoffel symbols are $\Gamma^r{}_{\varphi\varphi} = -r$ and $\Gamma^\varphi{}_{r\varphi} = \Gamma^\varphi{}_{\varphi r} = 1/r$. So
 $$\ddot r - r\dot\varphi^2 = -\frac{1}{m}\, \partial_r V, \qquad \ddot\varphi + \frac{2}{r}\, \dot r \dot\varphi = -\frac{1}{m r^2}\, \partial_\varphi V.$$
 The centrifugal term $-r\dot\varphi^2$ and the Coriolis-type term $2\dot r\dot\varphi / r$ are Christoffel symbols: $\Gamma \neq 0$ but $\tens{R} = 0$. A [chart](note:chart) artifact is not curvature.
 

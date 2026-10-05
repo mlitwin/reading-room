@@ -2,7 +2,7 @@
 title: Newtonian mechanics
 ---
 
-Newton's framework is the flat special case of Part II: $N$ point particles in $\mathbb{R}^3$, with masses $m_A > 0$ and positions $\tens{r}_A(t)$, $A = 1, \ldots, N$. The configuration space is $Q = \mathbb{R}^{3N}$, with Cartesian coordinates. Later pages drop the Cartesian assumption, and [chapter 10](natural-systems-index.md) drops flatness.
+Newton's framework is the flat special case of this part: $N$ point particles in $\mathbb{R}^3$, with masses $m_A > 0$ and positions $\tens{r}_A(t)$, $A = 1, \ldots, N$. The configuration space is $Q = \mathbb{R}^{3N}$, with Cartesian coordinates. Later pages drop the Cartesian assumption and then flatness.
 
 ## Laws
 
@@ -26,7 +26,7 @@ where $q^i$ runs over the $3N$ Cartesian coordinates. The **generalized forces**
 
 ## Conservation laws
 
-The **kinetic energy** is $T = \tfrac12 \sum_A m_A\, \lvert \dot{\tens{r}}_A \rvert^2$. It is a quadratic form in the velocities, $T = \tfrac12\, g_{ij}\, \dot q^i \dot q^j$, with $g_{ij}$ the mass-weighted Euclidean metric. [Chapter 10](natural-systems-index.md) builds on that observation.
+The **kinetic energy** is $T = \tfrac12 \sum_A m_A\, \lvert \dot{\tens{r}}_A \rvert^2$. It is a quadratic form in the velocities, $T = \tfrac12\, g_{ij}\, \dot q^i \dot q^j$, with $g_{ij}$ the mass-weighted Euclidean metric. The [next page](02-kinetic-metric.md) builds on that observation.
 
 - **Energy.** If $\tens{F} = -dV$ with $V$ time-independent, $E = T + V$ is conserved:
 $$\dot E = \sum_A \Bigl( m_A \ddot{\tens{r}}_A + \frac{\partial V}{\partial \tens{r}_A} \Bigr) \cdot \dot{\tens{r}}_A = 0.$$

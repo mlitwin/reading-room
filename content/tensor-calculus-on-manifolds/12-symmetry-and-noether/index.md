@@ -2,11 +2,15 @@
 title: Symmetry and Noether's theorem
 ---
 
-Each continuous symmetry of a Lagrangian gives a quantity conserved along its solutions (Noether, 1918). In the language of Part I, a continuous symmetry is the [flow](note:flow) of a vector field $\tens{\xi}$ on configuration space. Its conserved charge pairs the momentum covector with the generator: $J_\xi = p_i\, \xi^i$. On phase space the same statement reads $\{J_\xi, H\} = 0$, so symmetries and conserved quantities are the same thing seen from two sides.
+Each continuous symmetry of a Lagrangian gives a quantity conserved along its solutions (Noether, 1918). A continuous symmetry is the [flow](note:flow) of a vector field $\tens{\xi}$ on configuration space, and its conserved charge pairs the momentum covector with the generator, $J_\xi = p_i\, \xi^i$. For a natural system the symmetries are the [Killing fields](note:killing-vector) of the kinetic metric that preserve the potential, and the charge is $\tens{g}(\tens{\xi}, \dot q)$. On phase space the theorem reads $\{J_\xi, H\} = 0$: symmetries and conserved quantities are the same thing seen from two sides.
 
-Two pages:
+Four pages:
 
 1. [The theorem](01-noethers-theorem.md): symmetries as flows, the charge $J_\xi$, quasi-symmetries, time translation, the Hamiltonian form.
-2. [Examples](03-examples.md): momentum, angular momentum, the Galilean boost, Runge–Lenz, and the Killing-vector form used in general relativity.
+2. [Killing symmetries and the sphere](02-symmetry-and-the-sphere.md): Killing fields as conserved charges; the particle and the spherical pendulum on $S^2$.
+3. [Examples](03-examples.md): momentum, angular momentum, the Galilean boost, Runge–Lenz.
+4. [The rigid body](04-rigid-body.md): a curved kinetic metric on $SO(3)$, Euler's equations, the heavy top.
+
+**Without a metric:** Noether's theorem itself (page 1), for any Lagrangian and any flow, including quasi-symmetries and its Hamiltonian form.
 
 **Where this lands in GR.** A Killing vector field of spacetime is a symmetry of the geodesic Lagrangian, and its Noether charge $\xi_\mu \dot x^\mu$ is conserved along every free-fall path ([chapter 8](../08-connection-and-curvature/03-killing-vectors.md)). The energy and angular momentum of [Schwarzschild](../15-general-relativity/02-schwarzschild.md) orbits are the two charges that reduce the orbit problem to one dimension.

@@ -20,7 +20,9 @@ is constant along every solution of the [Euler–Lagrange equations](note:euler-
 $$\delta L = \frac{\partial L}{\partial q^i}\, \xi^i + \frac{\partial L}{\partial \dot q^i}\, \frac{d\xi^i}{dt}.$$
 On a solution, $\partial L / \partial q^i = \dot p_i$ (Euler–Lagrange), so $\delta L = \tfrac{d}{dt}(p_i \xi^i)$. Setting this equal to $\tfrac{d}{dt}F$ gives $\tfrac{d}{dt} J_\xi = 0$. $\square$
 
-**Geometric reading.** $J_\xi = \langle p, \tens{\xi} \rangle$ pairs the momentum [covector](note:cotangent-space) with the generator. No metric is involved, and the expression is chart-independent. If $\tens{\xi} = \partial_k$ is a coordinate vector field, $J_\xi = p_k$, which recovers the [cyclic-coordinate](note:cyclic-coordinate) rule.
+**Without a metric.** $J_\xi = \langle p, \tens{\xi} \rangle$ pairs the momentum [covector](note:cotangent-space) with the generator. The theorem uses only the flow and the Lagrangian, and the expression is chart-independent. If $\tens{\xi} = \partial_k$ is a coordinate vector field, $J_\xi = p_k$, which recovers the [cyclic-coordinate](note:cyclic-coordinate) rule.
+
+**Natural systems.** With $p = \dot q^\flat$, the charge is $J_\xi = \tens{g}(\tens{\xi}, \dot q)$, and the symmetries are the Killing fields of the kinetic metric that preserve $V$ ([next page](02-symmetry-and-the-sphere.md)).
 
 ## Time translation
 

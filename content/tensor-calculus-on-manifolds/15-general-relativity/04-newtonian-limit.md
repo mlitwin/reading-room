@@ -16,7 +16,7 @@ For $v \ll 1$ the four-velocity is $u^\mu \approx (1, \tens{0})$, and proper tim
 $$\frac{d^2 x^i}{dt^2} \approx -\Gamma^i{}_{00} = \tfrac12\, \partial_i h_{00},$$
 using $\Gamma^i{}_{00} = \tfrac12\, g^{ii}\,(2\partial_0 g_{0i} - \partial_i g_{00}) = -\tfrac12\, \partial_i h_{00}$ for a static field. Comparison with $\ddot{\tens{x}} = -\nabla\Phi$ gives
 $$h_{00} = -2\Phi, \qquad g_{00} \approx -(1 + 2\Phi).$$
-The Newtonian potential is a perturbation of the time-time component of the metric. Gravity acts through clock rates: for a static clock, $d\tau = \sqrt{-g_{00}}\, dt \approx (1 + \Phi)\, dt$, the gravitational redshift of [Schwarzschild](02-schwarzschild.md). In the language of [chapter 10](../10-lagrangian-mechanics/natural-systems-index.md), the potential $V = m\Phi$ has been absorbed into the geometry.
+The Newtonian potential is a perturbation of the time-time component of the metric. Gravity acts through clock rates: for a static clock, $d\tau = \sqrt{-g_{00}}\, dt \approx (1 + \Phi)\, dt$, the gravitational redshift of [Schwarzschild](02-schwarzschild.md). In the language of [chapter 10](../10-lagrangian-mechanics/04-covariant-newton.md), the potential $V = m\Phi$ has been absorbed into the geometry.
 
 ## Field equations: Poisson's equation
 
