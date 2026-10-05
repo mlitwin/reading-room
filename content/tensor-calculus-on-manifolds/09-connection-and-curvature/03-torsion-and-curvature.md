@@ -4,7 +4,7 @@ title: Torsion and curvature
 
 Out of any connection $\nabla$ come two tensor fields: the **torsion** $T$ and the **Riemann curvature** $R$. Both are obstructions to "$\nabla$ behaves like the partial derivative":
 
-- $T = 0$ means partial derivatives commute in the sense $\nabla_X Y - \nabla_Y X = [X, Y]$.
+- $T = 0$ means the antisymmetrized covariant derivative reproduces the Lie bracket, $\nabla_X Y - \nabla_Y X = [X, Y]$, as partial derivatives do in flat space.
 - $R = 0$ means iterated covariant derivatives commute, $\nabla_X \nabla_Y - \nabla_Y \nabla_X - \nabla_{[X, Y]} = 0$.
 
 Both are defined for any affine connection; together they characterize the connection's local non-triviality.
@@ -27,11 +27,11 @@ The **Riemann curvature tensor** of $\nabla$ is the $(1, 3)$-tensor
 $$R(X, Y) Z := \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z.$$
 In components,
 $$R^\rho{}_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho{}_{\nu\sigma} - \partial_\nu \Gamma^\rho{}_{\mu\sigma} + \Gamma^\rho{}_{\mu\lambda}\, \Gamma^\lambda{}_{\nu\sigma} - \Gamma^\rho{}_{\nu\lambda}\, \Gamma^\lambda{}_{\mu\sigma}.$$
-Index conventions vary; the placement here — shared with Misner–Thorne–Wheeler and Wald — puts the output index $\rho$ up, the index $\sigma$ of the vector being transported next, and the two antisymmetrized loop directions $\mu, \nu$ last. Other texts permute the slots or differ by an overall sign. Be alert to conventions.
+Index conventions vary; the placement here — that of Misner–Thorne–Wheeler and Carroll — puts the output index $\rho$ up, the index $\sigma$ of the vector being transported next, and the two antisymmetrized loop directions $\mu, \nu$ last. Other texts (Wald, for one) permute the slots or differ by an overall sign.
 
-**Geometric picture.** Take a small closed loop at $p$ spanned by vectors $u, v$; parallel-transport $Z \in T_p M$ around it. The transported vector $Z'$ differs from $Z$ by
-$$Z' - Z = R(u, v) Z + O(\text{area}^2).$$
-The Riemann tensor measures the first-order failure of parallel-transport around a loop to return a vector to itself.
+**Geometric picture.** Parallel-transport $Z \in T_p M$ around the small parallelogram at $p$ with sides $\varepsilon u, \varepsilon v$, traversed first along $u$, then $v$. The returned vector $Z'$ differs from $Z$ by
+$$Z' - Z = -\varepsilon^2\, R(u, v) Z + O(\varepsilon^3).$$
+The Riemann tensor measures the leading-order failure of parallel-transport around a loop to return a vector to itself.
 
 ## Symmetries (Levi-Civita)
 
@@ -62,12 +62,12 @@ A differential constraint on Riemann (Levi-Civita case):
 $$\nabla_{[\lambda} R_{\rho\sigma]\mu\nu} = 0 \quad \Longleftrightarrow \quad \nabla_\lambda R_{\rho\sigma\mu\nu} + \nabla_\rho R_{\sigma\lambda\mu\nu} + \nabla_\sigma R_{\lambda\rho\mu\nu} = 0.$$
 Contracting with $g^{\lambda\mu}$ and $g^{\rho\nu}$ gives the **contracted Bianchi identity**:
 $$\nabla^\mu G_{\mu\nu} = 0, \qquad G_{\mu\nu} := R_{\mu\nu} - \tfrac{1}{2}\, R\, g_{\mu\nu}.$$
-The tensor $G_{\mu\nu}$ is the **Einstein tensor**, and its automatic divergencelessness is what makes it the right object on the left of the Einstein equations (next section). Conservation of the stress–energy tensor on the right is enforced by the geometry on the left.
+The tensor $G_{\mu\nu}$ is the **Einstein tensor**, and its automatic divergencelessness is what makes it the right object on the left of the Einstein equations (next chapter). Conservation of the stress–energy tensor on the right is enforced by the geometry on the left.
 
 ## Sectional curvature (Riemannian only)
 
 For a $2$-plane $\Pi \subseteq T_p M$ spanned by $u, v$, the **sectional curvature** is
-$$K(u, v) := \frac{R(u, v, v, u)}{g(u, u)\, g(v, v) - g(u, v)^2},$$
+$$K(u, v) := \frac{g\bigl(R(u, v)\, v,\; u\bigr)}{g(u, u)\, g(v, v) - g(u, v)^2},$$
 a scalar depending only on $\Pi$, not on the basis. In dimension $2$, there's only one plane in each tangent space, and $K$ is the **Gaussian curvature**. The sphere of radius $a$ has $K = 1/a^2$ everywhere.
 
 In Lorentzian signature, sectional curvature has the same definition but the denominator can vanish or change sign, so it's less useful as a global classifier; the Ricci and scalar curvatures are the natural Lorentzian quantities.

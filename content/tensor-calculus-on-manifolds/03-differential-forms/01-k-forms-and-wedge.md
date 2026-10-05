@@ -15,7 +15,7 @@ $$\omega = \frac{1}{k!}\, \omega_{i_1 \cdots i_k}\, dx^{i_1} \wedge \cdots \wedg
 with $\omega_{i_1 \cdots i_k} \in C^\infty(U)$ totally antisymmetric and the sum running over all index tuples. (Equivalently, restrict to strictly increasing tuples $i_1 < \cdots < i_k$ and drop the $\tfrac{1}{k!}$; the component array on ordered tuples is the same.)
 
 **Wedge product.** The wedge $\wedge: \Omega^k(M) \times \Omega^\ell(M) \to \Omega^{k+\ell}(M)$ is the alternating tensor product. The basis $k$-form is the antisymmetrized tensor product of coordinate differentials,
-$$dx^{\mu_1} \wedge \cdots \wedge dx^{\mu_k} := \sum_{\sigma \in S_k} \mathrm{sgn}(\sigma)\; dx^{\mu_{\sigma(1)}} \otimes \cdots \otimes dx^{\mu_{\sigma(k)}},$$
+$$dx^{i_1} \wedge \cdots \wedge dx^{i_k} := \sum_{\sigma \in S_k} \mathrm{sgn}(\sigma)\; dx^{i_{\sigma(1)}} \otimes \cdots \otimes dx^{i_{\sigma(k)}},$$
 and wedging concatenates factors:
 $$(dx^{i_1} \wedge \cdots \wedge dx^{i_k}) \wedge (dx^{j_1} \wedge \cdots \wedge dx^{j_\ell}) = dx^{i_1} \wedge \cdots \wedge dx^{i_k} \wedge dx^{j_1} \wedge \cdots \wedge dx^{j_\ell}.$$
 

@@ -11,11 +11,11 @@ A topological space is **Hausdorff** if any two distinct points $p, q$ have disj
 
 ## Second countable
 
-A topological space is **second countable** if its topology has a countable base: countably many open sets such that every open set is a union of some of them. Equivalently for metric spaces, $X$ has a countable dense subset and balls of rational radius centered on that subset form a base. This is what makes [paracompactness](note:paracompact) and [partition-of-unity](note:partition-of-unity) arguments work on a manifold.
+A topological space is **second countable** if its topology has a countable base: countably many open sets such that every open set is a union of some of them. For a metric space this is equivalent to having a countable dense subset: balls of rational radius about its points form a countable base. This is what makes [paracompactness](note:paracompact) and [partition-of-unity](note:partition-of-unity) arguments work on a manifold.
 
 ## Paracompact
 
-A topological space is **paracompact** if every open cover admits a *locally finite* open refinement — a cover by smaller sets, each inside some original set, such that every point has a neighborhood meeting only finitely many of them. For manifolds the property comes for free: [second-countable](note:second-countable) plus [Hausdorff](note:hausdorff) implies paracompact, and paracompactness is exactly what a [partition of unity](note:partition-of-unity) needs to exist. It is the weakest topological hypothesis under which the local-to-global constructions of differential geometry (gluing metrics, defining integration) go through.
+A topological space is **paracompact** if every open cover admits a *locally finite* open refinement — a cover by smaller sets, each inside some original set, such that every point has a neighborhood meeting only finitely many of them. For manifolds the property comes for free: [second-countable](note:second-countable) plus [Hausdorff](note:hausdorff) implies paracompact, and paracompactness is exactly what a [partition of unity](note:partition-of-unity) needs to exist. It is the standard topological hypothesis under which the local-to-global constructions of differential geometry (gluing metrics, defining integration) go through.
 
 ## Partition of unity
 
@@ -27,13 +27,13 @@ A function (or vector field, or differential form) has **compact support** if it
 
 ## Embedded manifold
 
-A **smooth submanifold** of $\mathbb{R}^N$ is a subset $M \subseteq \mathbb{R}^N$ that locally looks like the graph of a smooth function: around every $p \in M$ there is an open $U \subseteq \mathbb{R}^N$, an open $V \subseteq \mathbb{R}^n$, and a smooth embedding $\Phi: V \to U \cap M$ whose differential is everywhere injective. The image $\Phi(V)$ is an open piece of $M$, and the $n$ coordinates on $V$ are a chart on $M$.
+A **smooth submanifold** of $\mathbb{R}^N$ is a subset $M \subseteq \mathbb{R}^N$ that locally looks like the graph of a smooth function: around every $p \in M$ there is an open $U \subseteq \mathbb{R}^N$, an open $V \subseteq \mathbb{R}^n$, and a smooth map $\Phi: V \to \mathbb{R}^N$ with everywhere-injective differential that is a homeomorphism onto $U \cap M$. The image $\Phi(V)$ is an open piece of $M$, and the $n$ coordinates on $V$ are a chart on $M$.
 
-The **embedded view** of differential geometry takes advantage of the ambient $\mathbb{R}^N$: tangent vectors are vectors in $\mathbb{R}^N$ (sitting in the affine tangent plane to $M$); the metric is the pullback of the Euclidean inner product; integration is over an embedded submanifold of $\mathbb{R}^N$. The Whitney embedding theorem says every smooth $n$-manifold can be embedded in $\mathbb{R}^{2n}$, so the embedded view loses no generality in principle. In practice it can be inconvenient — Lorentzian spacetimes do not embed isometrically in any flat ambient — which is why the abstract view is also needed.
+The **embedded view** of differential geometry takes advantage of the ambient $\mathbb{R}^N$: tangent vectors are vectors in $\mathbb{R}^N$ (spanning the tangent plane to $M$); the metric is the pullback of the Euclidean inner product; integration is over an embedded submanifold of $\mathbb{R}^N$. The Whitney embedding theorem says every smooth $n$-manifold can be embedded in $\mathbb{R}^{2n}$, so the embedded view loses no generality in principle. In practice the ambient space is excess baggage — isometric embeddings need many more dimensions (Nash), and a Lorentzian metric can only be induced from an indefinite-signature ambient space — which is why the abstract view is the working one.
 
 ## Abstract manifold
 
-An **abstract smooth manifold** is a [Hausdorff](note:hausdorff), [second-countable](note:second-countable) topological space equipped with an atlas of charts $\varphi_\alpha: U_\alpha \to \mathbb{R}^n$ whose transition maps $\varphi_\beta \circ \varphi_\alpha^{-1}$ are smooth. No ambient space; the manifold is the chart-and-transition data, considered up to refinement of atlas.
+An **abstract smooth manifold** is a [Hausdorff](note:hausdorff), [second-countable](note:second-countable) topological space equipped with an atlas of charts $\varphi_\alpha: U_\alpha \to \mathbb{R}^n$ whose transition maps $\varphi_\beta \circ \varphi_\alpha^{-1}$ are smooth. No ambient space; the manifold is the chart-and-transition data, considered up to equivalence of atlases (equivalently, with a maximal atlas).
 
 All structures — tangent spaces, tensor fields, metrics, connections — are then built intrinsically. The geometry in this book is mostly abstract, with the embedded view brought in as the geometrically transparent special case.
 
@@ -67,7 +67,7 @@ The metric's canonical identification of vectors with covectors. On a bare manif
 $$\flat: T_p M \to T^*_p M, \qquad v^\flat := g(v, \cdot), \qquad \sharp := \flat^{-1}: T^*_p M \to T_p M,$$
 named for how they move the component index down ($v_\mu = g_{\mu\nu}\, v^\nu$) and up ($\omega^\mu = g^{\mu\nu}\, \omega_\nu$) — [raising and lowering](08-metric/02-raising-and-lowering.md) applied to a single index. Previewed pointwise in [Part I's aside](01-manifolds/04-metric-at-a-point.md).
 
-The gradient is the standard illustration of the distinction $\sharp$ erases: the differential $df$ of a function is metric-free, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ is not. In Euclidean coordinates on $\mathbb{R}^n$ the two have identical components, which is why elementary vector calculus never distinguishes them; in any non-orthonormal chart, or on any curved manifold, they differ.
+The gradient is the standard illustration of the distinction $\sharp$ erases: the differential $df$ of a function is metric-free, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ is not. In Cartesian coordinates on $\mathbb{R}^n$ the two have identical components, which is why elementary vector calculus never distinguishes them; in any chart with $g_{\mu\nu} \neq \delta_{\mu\nu}$ they differ.
 
 ## Lie algebra
 
@@ -103,7 +103,7 @@ Equivalently, a $C^\infty(M)$-multilinear map taking $r$ smooth $1$-forms and $s
 
 ## Einstein summation
 
-The convention, due to Einstein and unstated everywhere it's in force: a Greek (or Latin) index appearing exactly once *up* and exactly once *down* in the same monomial is summed over its range. So
+The convention, due to Einstein and assumed tacitly wherever it is in force: a Greek (or Latin) index appearing exactly once *up* and exactly once *down* in the same monomial is summed over its range. So
 $$v^\mu \omega_\mu := \sum_{\mu} v^\mu \omega_\mu, \qquad T^\mu{}_\nu\, S^\nu{}_\rho := \sum_{\nu} T^\mu{}_\nu\, S^\nu{}_\rho.$$
 
 Two ramifications. First, repeated indices in the same vertical position ($v^\mu \omega^\mu$, $T_{\mu\mu}$) are almost always an error — there is no canonical pairing without a metric. Second, an index used as a dummy variable is *bound* and can be renamed: $v^\mu \omega_\mu = v^\nu \omega_\nu$. Be wary of dummy collisions when chaining contractions.
@@ -123,7 +123,7 @@ is the running example carried through Part II of this book. Two reasons it work
 - **Small enough to compute on by hand.** Two coordinates, one round metric, four-line Christoffel calculation, single Riemann component.
 - **Big enough to break intuition.** Non-zero constant curvature; no global flat chart; non-trivial topology ([Euler characteristic](note:euler-characteristic) $2$); $SO(3)$ symmetry; closed orientable.
 
-The drawback — $S^2$ is two-dimensional Riemannian, not four-dimensional Lorentzian — means it doesn't model spacetime. But every tensor construction in the book is dimension- and signature-agnostic; correctness on $S^2$ is correctness in general.
+The drawback — $S^2$ is two-dimensional Riemannian, not four-dimensional Lorentzian — means it doesn't model spacetime. But every tensor construction in the book is dimension- and signature-agnostic, so the formulas exercised on $S^2$ are the ones used on spacetime.
 
 ## Wedge convention
 
@@ -167,7 +167,7 @@ and $\nabla g = 0$. Developed in full on the [covariant-derivative page](09-conn
 
 ## Parallel transport
 
-A vector field $V(t)$ along a curve $\gamma$ is **parallel-transported** if $\nabla_{\dot\gamma} V = 0$ — a linear ODE whose solutions define an isomorphism $P_\gamma: T_{\gamma(t_0)} M \to T_{\gamma(t_1)} M$ between tangent spaces along the curve. For a metric-compatible connection it preserves inner products. The transport depends on the *path*, not just the endpoints: carried around a small closed loop spanned by $u, v$, a vector returns rotated by $R(u, v)\, Z$ to first order — that failure *is* the Riemann curvature. Defined on the [covariant-derivative page](09-connection-and-curvature/02-covariant-derivative.md).
+A vector field $V(t)$ along a curve $\gamma$ is **parallel-transported** if $\nabla_{\dot\gamma} V = 0$ — a linear ODE whose solutions define an isomorphism $P_\gamma: T_{\gamma(t_0)} M \to T_{\gamma(t_1)} M$ between tangent spaces along the curve. For a metric-compatible connection it preserves inner products. The transport depends on the *path*, not just the endpoints: carried around a small parallelogram with sides $\varepsilon u, \varepsilon v$ ($u$ first), a vector $Z$ returns changed by $-\varepsilon^2 R(u, v)\, Z$ to leading order — that failure *is* the Riemann curvature. Defined on the [covariant-derivative page](09-connection-and-curvature/02-covariant-derivative.md).
 
 ## Geodesic
 
@@ -177,9 +177,9 @@ For the Levi-Civita connection these are the locally length-extremizing curves �
 
 ## Riemann index convention
 
-This book (following Misner–Thorne–Wheeler and Wald) writes
+This book (following Misner–Thorne–Wheeler and Carroll) writes
 $$R^\rho{}_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho{}_{\nu\sigma} - \partial_\nu \Gamma^\rho{}_{\mu\sigma} + \Gamma^\rho{}_{\mu\lambda}\, \Gamma^\lambda{}_{\nu\sigma} - \Gamma^\rho{}_{\nu\lambda}\, \Gamma^\lambda{}_{\mu\sigma},$$
-matching $R(X, Y) Z := \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z$: the output index $\rho$ first, then the index $\sigma$ of the vector being transported, then the two antisymmetrized loop directions $\mu, \nu$. Mnemonic: [parallel transport](note:parallel-transport) of $Z$ around the loop spanned by $u, v$ changes it by $R(u, v)\, Z$. Other texts permute slots or flip the overall sign — check conventions before comparing formulas.
+matching $R(X, Y) Z := \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X, Y]} Z$: the output index $\rho$ first, then the index $\sigma$ of the vector being transported, then the two antisymmetrized loop directions $\mu, \nu$. Mnemonic: [parallel transport](note:parallel-transport) of $Z$ around the small loop with sides $\varepsilon u, \varepsilon v$ ($u$ first) changes it by $-\varepsilon^2 R(u, v)\, Z$. Other texts permute slots or flip the overall sign — check conventions before comparing formulas.
 
 ## Isometry
 
@@ -235,7 +235,7 @@ A **chain complex** is the same structure with the maps *lowering* degree ($\par
 
 ## Singular cohomology
 
-**Singular cohomology** $H^k(X; A)$ of a topological space $X$ with coefficients in an abelian group $A$ is built from the dual of the singular [chain complex](note:cochain-complex). A *singular $k$-simplex* in $X$ is a continuous map $\Delta^k \to X$; the free abelian group on these forms $C_k(X)$, with the boundary map $\partial_k: C_k \to C_{k-1}$. Then $C^k(X; A) := \mathrm{Hom}(C_k(X), A)$ and $d := \partial^*$. Cohomology depends only on the homotopy type of $X$, and for [paracompact](note:paracompact) [Hausdorff](note:hausdorff) $X$ the singular and de Rham versions agree (de Rham's theorem).
+**Singular cohomology** $H^k(X; A)$ of a topological space $X$ with coefficients in an abelian group $A$ is built from the dual of the singular [chain complex](note:cochain-complex). A *singular $k$-simplex* in $X$ is a continuous map $\Delta^k \to X$; the free abelian group on these forms $C_k(X)$, with the boundary map $\partial_k: C_k \to C_{k-1}$. Then $C^k(X; A) := \mathrm{Hom}(C_k(X), A)$ and $d := \partial^*$. Cohomology depends only on the homotopy type of $X$, and for a smooth manifold $X$, $H^k(X; \mathbb{R})$ agrees with de Rham cohomology (de Rham's theorem).
 
 ## Contractible
 
@@ -247,7 +247,7 @@ De Rham cohomology is a **homotopy invariant**: homotopic maps induce the same m
 
 The alternating sum of the dimensions of a space's cohomology groups (its Betti numbers):
 $$\chi(M) := \sum_k (-1)^k \dim H^k(M; \mathbb{R})$$
-— equivalently $V - E + F$ (and its higher-dimensional analogue) for any triangulation. A homotopy invariant. Values worth memorizing: $\chi(S^2) = 2$; $\chi(T^n) = 0$; $\chi = 0$ for every odd-dimensional closed manifold; a genus-$g$ surface has $\chi = 2 - 2g$. Two roles in this book: Gauss–Bonnet, $\int_M K\, \mathrm{vol}_g = 2\pi \chi(M)$, ties curvature to topology; and the Poincaré–Hopf theorem — a closed manifold admits a nowhere-vanishing vector field iff $\chi = 0$ — is why the sphere admits no Lorentzian metric but the torus does.
+— equivalently $V - E + F$ (and its higher-dimensional analogue) for any triangulation. A homotopy invariant. Values worth memorizing: $\chi(S^2) = 2$; $\chi(T^n) = 0$; $\chi = 0$ for every odd-dimensional closed manifold; a genus-$g$ surface has $\chi = 2 - 2g$. Two roles in this book: Gauss–Bonnet, $\int_M K\, \mathrm{vol}_g = 2\pi \chi(M)$, ties curvature to topology; and the Poincaré–Hopf theorem with Hopf's converse — a closed connected manifold admits a nowhere-vanishing vector field iff $\chi = 0$ — is why the sphere admits no Lorentzian metric but the torus does.
 
 ## Star-shaped
 
@@ -257,4 +257,4 @@ An open set $U \subseteq \mathbb{R}^n$ is **star-shaped about $p \in U$** if for
 
 A **sheaf** of abelian groups on a topological space $X$ assigns to every open $U \subseteq X$ an abelian group $\mathcal{F}(U)$ ("sections over $U$") and to every inclusion $V \subseteq U$ a restriction map $\mathcal{F}(U) \to \mathcal{F}(V)$, subject to a **gluing axiom**: local sections that agree on overlaps glue uniquely to a section on the union.
 
-The **constant sheaf** $\underline{A}$ assigns $A$ (with the discrete topology) to each connected open set. The sheaf $C^\infty_M$ assigns $C^\infty(U)$ to each $U$. **Sheaf cohomology** $H^k(X; \mathcal{F})$ generalizes singular cohomology; an **acyclic resolution** is a long exact sequence of sheaves that's nice enough to compute cohomology from. The de Rham complex is an acyclic resolution of $\underline{\mathbb{R}}$ on $M$, which is the abstract reason de Rham cohomology computes $H^*(M; \mathbb{R})$.
+The **constant sheaf** $\underline{A}$ assigns $A$ (with the discrete topology) to each connected open set. The sheaf $C^\infty_M$ assigns $C^\infty(U)$ to each $U$. **Sheaf cohomology** $H^k(X; \mathcal{F})$ generalizes singular cohomology. It can be computed from any **acyclic resolution** — an exact sequence $0 \to \mathcal{F} \to \mathcal{A}^0 \to \mathcal{A}^1 \to \cdots$ of sheaves with no higher cohomology — as the cohomology of the complex of global sections. The de Rham complex is such a resolution of $\underline{\mathbb{R}}$ on $M$, which is the abstract reason de Rham cohomology computes $H^*(M; \mathbb{R})$.

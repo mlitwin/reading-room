@@ -17,7 +17,7 @@ The three define the same space; which is most convenient depends on the constru
 
 ## Embedded view
 
-When $M \subseteq \mathbb{R}^N$ is a smooth [submanifold](note:embedded-manifold), the definitions collapse to a concrete one: the tangent vector of a curve $\gamma$ with $\gamma(0) = p$ is the ordinary derivative $\gamma'(0) \in \mathbb{R}^N$, lying in the affine tangent plane to $M$ at $p$. The curve acts on $f \in C^\infty(M)$ by $v(f) = (f \circ \gamma)'(0)$, recovering the derivation. The abstract definitions are what survive when no ambient $\mathbb{R}^N$ is available.
+When $M \subseteq \mathbb{R}^N$ is a smooth [submanifold](note:embedded-manifold), the definitions collapse to a concrete one: the tangent vector of a curve $\gamma$ with $\gamma(0) = p$ is the ordinary derivative $\gamma'(0) \in \mathbb{R}^N$, lying in the tangent plane to $M$ at $p$ (a linear subspace of $\mathbb{R}^N$). The curve acts on $f \in C^\infty(M)$ by $v(f) = (f \circ \gamma)'(0)$, recovering the derivation. The abstract definitions are what survive when no ambient $\mathbb{R}^N$ is available.
 
 ## Coordinate basis and components
 

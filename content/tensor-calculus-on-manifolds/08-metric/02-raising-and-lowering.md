@@ -12,7 +12,7 @@ In components,
 $$v_\mu = g_{\mu\nu}\, v^\nu, \qquad \omega^\mu = g^{\mu\nu}\, \omega_\nu.$$
 The two maps are mutual inverses: $(v^\flat)^\sharp = v$ and $(\omega^\sharp)^\flat = \omega$.
 
-The standard example of what $\sharp$ buys: the differential $df$ of a function is defined on any smooth manifold, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ requires the metric. In Euclidean coordinates on $\mathbb{R}^n$ the two have identical components — which is why vector calculus never needs the distinction; in any non-orthonormal chart, or with any non-flat metric, they differ.
+The standard example of what $\sharp$ buys: the differential $df$ of a function is defined on any smooth manifold, but the **gradient** $\operatorname{grad} f := (df)^\sharp$ requires the metric. In Cartesian coordinates on $\mathbb{R}^n$ the two have identical components — which is why vector calculus never needs the distinction; in any chart with $g_{\mu\nu} \neq \delta_{\mu\nu}$ (polar coordinates already) they differ.
 
 For tensors of higher rank, raising and lowering act on a chosen index. Convention: write the same kernel letter and move the index;
 $$T_\mu{}^\nu := g_{\mu\rho}\, T^{\rho\nu}, \qquad T^{\mu\nu} = g^{\mu\rho}\, T_\rho{}^\nu.$$
@@ -56,6 +56,6 @@ A metric and orientation define the **Hodge star** $\star: \Omega^k(M) \to \Omeg
 $$\star (dx^{\mu_1} \wedge \cdots \wedge dx^{\mu_k}) = \frac{\sqrt{|\det g|}}{(n-k)!}\, g^{\mu_1 \nu_1} \cdots g^{\mu_k \nu_k}\, \varepsilon_{\nu_1 \cdots \nu_k \rho_1 \cdots \rho_{n-k}}\, dx^{\rho_1} \wedge \cdots \wedge dx^{\rho_{n-k}},$$
 with $\varepsilon$ the [Levi-Civita symbol](note:levi-civita) (totally antisymmetric, $\varepsilon_{1 \cdots n} = 1$).
 
-The star squares to $\pm \mathrm{id}$ on $k$-forms with a sign depending on $k$, $n$, and signature. In four-dimensional Lorentzian spacetime, $\star^2 = -\mathrm{id}$ on $2$-forms — a fact used in the dual formulation of electromagnetism (where $\star F$ is the magnetic-side dual of the field-strength $F$).
+The star squares to $\pm \mathrm{id}$ on $k$-forms with a sign depending on $k$, $n$, and signature. In four-dimensional Lorentzian spacetime, $\star^2 = -\mathrm{id}$ on $2$-forms — a fact used in the dual formulation of electromagnetism (where $\star F$ exchanges the electric and magnetic fields in $F$).
 
 The full Hodge-star machinery is not used in this book past the volume form, but it's worth knowing the name.

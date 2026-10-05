@@ -2,7 +2,7 @@
 title: Einstein–Cartan — gravity with torsion
 ---
 
-The Levi-Civita connection is the unique torsion-free metric-compatible connection. Drop the torsion-free assumption and you get **Einstein–Cartan theory**: a metric-compatible (but not torsion-free) connection on spacetime, with torsion sourced by the **spin density** of matter. EC gravity agrees with standard GR wherever spin is negligible — i.e., everywhere outside the interior of neutron stars and analogous extreme situations — and is the natural target if you want a classical theory of gravity that couples consistently to fermions.
+The Levi-Civita connection is the unique torsion-free metric-compatible connection. Drop the torsion-free assumption and you get **Einstein–Cartan theory**: a metric-compatible (but not torsion-free) connection on spacetime, with torsion sourced by the **spin density** of matter. EC gravity agrees with standard GR wherever spin density is negligible — everywhere short of densities far beyond nuclear — and is the natural setting when fermion spin is allowed to source geometry.
 
 ## The variables
 
@@ -17,7 +17,7 @@ twice the antisymmetric-in-the-lower-pair part of the Christoffels. The connecti
 $$\Gamma^\rho{}_{\mu\nu} = \mathring{\Gamma}^\rho{}_{\mu\nu} + K^\rho{}_{\mu\nu},$$
 where $\mathring{\Gamma}$ is the Levi-Civita connection of $g$ and $K$ is the **contortion tensor**, determined by torsion and metric by
 $$K^\rho{}_{\mu\nu} = \tfrac{1}{2} (T^\rho{}_{\mu\nu} + T_{\mu}{}^{\rho}{}_{\nu} + T_{\nu}{}^{\rho}{}_{\mu}).$$
-Contortion is a genuine tensor (the difference of two connections); torsion is its antisymmetric-in-the-last-pair part: $K^\rho{}_{[\mu\nu]} = \tfrac{1}{2}\, T^\rho{}_{\mu\nu}$.
+Contortion is a genuine tensor (the difference of two connections), and torsion is twice its antisymmetric part: $K^\rho{}_{[\mu\nu]} = \tfrac{1}{2}\, T^\rho{}_{\mu\nu}$.
 
 ## The action
 
@@ -44,7 +44,7 @@ The Cartan equation is **algebraic** — there are no derivatives of torsion on 
 Where spin density vanishes, Einstein–Cartan reduces exactly to GR — same metric, same predictions, same Schwarzschild solution outside. The differences live inside spinning matter:
 
 - **Spinning fluids and dust.** Macroscopic spin alignment is rare; in cosmological-fluid models EC is effectively GR.
-- **Dense fermionic matter.** Inside a neutron star, fermion spins contribute a non-zero spin density and torsion appears. Because the Cartan equation is algebraic, the torsion contribution enters the effective Einstein equations as a term *quadratic* in the spin density (each factor carrying an $\hbar$), and it becomes comparable to the ordinary stress–energy only at densities orders of magnitude beyond nuclear — utterly negligible under normal conditions, but potentially relevant at the most extreme ones (singularity avoidance has been argued for, with caveats).
+- **Dense fermionic matter.** Inside a neutron star, fermion spins give a non-zero spin density and torsion is present, but its effect is tiny. Because the Cartan equation is algebraic, the torsion contribution enters the effective Einstein equations as a term *quadratic* in the spin density (each factor carrying an $\hbar$), and it becomes comparable to the ordinary stress–energy only at densities orders of magnitude beyond nuclear — utterly negligible under normal conditions, but potentially relevant at the most extreme ones (singularity avoidance has been argued for, with caveats).
 - **Cosmological singularities.** Some EC models avoid the initial singularity that standard GR predicts, replacing it with a bounce — torsion contributes an effective repulsive term at extreme density.
 
 Beyond these, EC is observationally indistinguishable from GR with current data.
@@ -54,7 +54,7 @@ Beyond these, EC is observationally indistinguishable from GR with current data.
 Three reasons EC appears in this book despite being a small numerical correction to GR:
 
 1. **Conceptual clean-up.** The "extra" degree of freedom of the connection — beyond what the metric determines — is what spinors couple to. Standard GR with spinors requires a tetrad/spin-connection formulation; EC makes the splitting natural.
-2. **Coupling to fermions.** The minimal coupling of Dirac fermions to gravity is via the EC connection, not the Levi-Civita connection. This is the geometric origin of why fermions feel torsion and bosons don't.
+2. **Coupling to fermions.** In EC, Dirac fermions couple minimally to the full connection, so their spin sources torsion and they feel it; gauge bosons, whose field strength $F = dA$ needs no connection, neither source nor feel it.
 3. **Mathematical generality.** The non-torsion-free case is the "generic" affine connection. Treating it as a special case obscures what the metric assumption (Levi-Civita) is doing.
 
 The further story — vielbein/tetrad formulation, spin connection, the action written as a polynomial in differential forms — is the [**Cartan formalism**](note:cartan-formalism), a separate (longer) topic; the [notes page](../11-notes.md) has a sketch.

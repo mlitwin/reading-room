@@ -29,7 +29,7 @@ A meridian ($\varphi$ constant) from pole to pole has length $\int_0^\pi 1\, d\t
 
 The [volume form](note:volume-form) is
 $$\mathrm{vol}_g = \sqrt{\det g}\; d\theta \wedge d\varphi = \sin\theta\; d\theta \wedge d\varphi,$$
-recovering the same form computed in the [previous section](../07-tensors/04-on-the-sphere.md) — there constructed from antisymmetry alone, here recovered as the metric volume form. Integrating gives $\int_{S^2} \mathrm{vol}_g = \int_0^\pi \int_0^{2\pi} \sin\theta\, d\varphi\, d\theta = 4\pi$, the area of the unit sphere.
+recovering the area form of [chapter 7](../07-tensors/04-on-the-sphere.md) — there written down without a metric, here derived from one. Integrating gives $\int_{S^2} \mathrm{vol}_g = \int_0^\pi \int_0^{2\pi} \sin\theta\, d\varphi\, d\theta = 4\pi$, the area of the unit sphere.
 
 ## Raising and lowering
 
@@ -61,7 +61,7 @@ $$[g_{\tilde\mu\tilde\nu}] = \begin{pmatrix} 1 + \alpha^2 \sin^4\tilde\theta & \
 **Inverse metric.** $g^{\tilde\mu\tilde\nu}$ via the cofactor formula:
 $$[g^{\tilde\mu\tilde\nu}] = \frac{1}{\sin^2\tilde\theta} \begin{pmatrix} \sin^2\tilde\theta & -\alpha\sin^3\tilde\theta \\ -\alpha\sin^3\tilde\theta & 1 + \alpha^2 \sin^4\tilde\theta \end{pmatrix} = \begin{pmatrix} 1 & -\alpha\sin\tilde\theta \\ -\alpha\sin\tilde\theta & (1 + \alpha^2 \sin^4\tilde\theta)/\sin^2\tilde\theta \end{pmatrix}.$$
 
-Note that the inverse has off-diagonal entries with a *minus* sign — that's the consistent feature of inverses of non-diagonal symmetric matrices.
+The off-diagonal entry flips sign — true of any $2 \times 2$ inverse with positive determinant, not of inverses in general.
 
 **Length of the basis vectors.** From the diagonal entries:
 $$|\partial_{\tilde\theta}|^2 = 1 + \alpha^2 \sin^4\tilde\theta, \qquad |\partial_{\tilde\varphi}|^2 = \sin^2 \tilde\theta.$$
@@ -70,14 +70,14 @@ At the sample point and $\alpha = \pi/8$: $|\partial_{\tilde\theta}|^2 \approx 1
 The takeaways:
 - The same geometric metric has different component matrices in different charts.
 - Off-diagonal entries are a chart artifact, not a feature of the geometry.
-- Determinant and the volume form are chart-independent (when the chart change is volume-preserving).
-- The Gaussian curvature $K = 1$ (computed in [the connection-and-curvature section](../09-connection-and-curvature/05-on-the-sphere.md)) is the same in both charts because it's an intrinsic invariant.
+- The volume form is chart-independent; its component $\sqrt{\det g}$ is unchanged here only because the chart change has Jacobian determinant $1$.
+- The Gaussian curvature $K = 1$ (computed in [the connection-and-curvature chapter](../09-connection-and-curvature/05-on-the-sphere.md)) is the same in both charts because it's an intrinsic invariant.
 
 ## In stereographic coordinates
 
 Pulling back the same Euclidean metric through the stereographic chart gives
 $$g = \frac{4}{(1 + x^2 + y^2)^2}\, (dx^2 + dy^2).$$
-**Conformally flat:** the metric is a positive scalar function times $dx^2 + dy^2$, so angles agree with Euclidean angles in this chart even though lengths don't. The conformal factor $4/(1 + r^2)^2$ blows up as $r \to \infty$ (which is where the south pole would be).
+**Conformally flat:** the metric is a positive scalar function times $dx^2 + dy^2$, so angles agree with Euclidean angles in this chart even though lengths don't. The conformal factor $4/(1 + r^2)^2$ tends to $0$ as $r \to \infty$, where the south pole sits at infinity.
 
 A general fact: any $2$-manifold admits isothermal (conformally flat) coordinates locally. The sphere happens to admit them on a chart missing a single point.
 
@@ -85,4 +85,4 @@ A general fact: any $2$-manifold admits isothermal (conformally flat) coordinate
 
 The action of $SO(3)$ on $S^2$ preserves the round metric. For a rotation $R: S^2 \to S^2$, the [pullback](note:pullback) satisfies
 $$R^* g = g.$$
-Equivalently, the components of $R^* g$ in the spherical chart equal the components of $g$ in that chart, after the rotation has been worked through the transformation rule. This is the [**isometry**](note:isometry) condition; the connected isometry group of the round sphere is $SO(3)$ (with $O(3)$ if reflections are allowed). [Killing vectors](note:killing-vector) — infinitesimal generators of isometries — made this concrete on the [previous page](03-killing-vectors.md).
+This is the [**isometry**](note:isometry) condition; the connected isometry group of the round sphere is $SO(3)$ (with $O(3)$ if reflections are allowed). [Killing vectors](note:killing-vector) — infinitesimal generators of isometries — made this concrete on the [previous page](03-killing-vectors.md).

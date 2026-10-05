@@ -26,7 +26,7 @@ In matrix form, with the basis elements collected in a *row* vector (so that eac
 $$\begin{pmatrix} \partial_{\tilde\theta} & \partial_{\tilde\varphi} \end{pmatrix} = \begin{pmatrix} \partial_\theta & \partial_\varphi \end{pmatrix} J^{-1}.$$
 The basis transforms with the **inverse** Jacobian. This is the defining property of a *covariant* index — moving with the basis, opposite to how vector components move.
 
-![Both bases at the sample point: blue is the standard chart, yellow is the skew chart. ∂θ and ∂θ̃ overlap horizontally; ∂φ̃ visibly leaning compared to ∂φ.](../figures/chart-change-jacobian.svg)
+![Both bases at the sample point, to scale: blue is the standard chart, yellow the skew chart. ∂φ̃ coincides with ∂φ; ∂θ̃ = ∂θ + α sin θ₀ ∂φ leans toward it.](../figures/chart-change-jacobian.svg)
 
 ## Components transform with $J$
 
@@ -75,4 +75,4 @@ A summary of which quantities are intrinsic (chart-independent) and which depend
 | Lengths, angles (when a metric is fixed) | Yes |
 | Christoffel symbols $\Gamma^\rho{}_{\mu\nu}$ | **No** — not even tensorial |
 
-The tensor calculus of the next four sections is largely a story about consistently keeping the intrinsic objects in view while computing with their chart-dependent components.
+The tensor calculus of the next four chapters is largely a story about consistently keeping the intrinsic objects in view while computing with their chart-dependent components.

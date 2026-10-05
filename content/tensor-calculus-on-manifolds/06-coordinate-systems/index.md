@@ -4,7 +4,7 @@ title: Coordinate systems on the sphere
 
 A coordinate chart is a parametrization of a piece of a manifold by an open set of $\mathbb{R}^n$. Calculus is well-defined on $\mathbb{R}^n$; pulling that machinery back through a chart gives calculus on the manifold. Most of the technicalities of tensor calculus exist because the chart is a *choice* — different choices produce different component arrays for the same intrinsic object, and the transformation rules between them are what make a tensor a tensor.
 
-This section sets up that picture with two concrete charts on the two-sphere $S^2$ as a running example. The standard lat/long chart and a *skew* variant in which the longitude curves are sheared azimuthally by an amount that varies with latitude. The two charts cover the same surface; their basis vectors at a point are different; the angle between those bases is $\pi/2$ in one chart and not $\pi/2$ in the other. The contrast between them is the easiest setting in which to see what coordinate-dependence actually does.
+This chapter sets up that picture with two concrete charts on the two-sphere $S^2$: the standard lat/long chart and a *skew* variant in which the longitude curves are sheared azimuthally by an amount that varies with latitude. The two charts cover the same surface; their basis vectors at a point are different; the angle between those bases is $\pi/2$ in one chart and not $\pi/2$ in the other. The contrast between them is the easiest setting in which to see what coordinate-dependence actually does.
 
 Five pages:
 

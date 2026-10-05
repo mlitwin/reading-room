@@ -58,7 +58,7 @@ Note the Einstein tensor $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2} R\, g_{\mu\nu} 
 
 The same geometry, the same Levi-Civita connection, computed in the [skew chart](../06-coordinate-systems/03-skew-coordinates.md) with $\alpha = \pi/8$ — and the same intrinsic curvature emerging at the end.
 
-The metric components (from the [previous section's calculation](../08-metric/04-on-the-sphere.md)) are
+The metric components (from the [previous chapter's calculation](../08-metric/04-on-the-sphere.md)) are
 $$g_{\tilde\theta\tilde\theta} = 1 + \alpha^2 \sin^4 \tilde\theta, \quad g_{\tilde\theta\tilde\varphi} = \alpha \sin^3\tilde\theta, \quad g_{\tilde\varphi\tilde\varphi} = \sin^2\tilde\theta.$$
 
 Both off-diagonal terms and the dependence of $g_{\tilde\theta\tilde\theta}$ on $\tilde\theta$ contribute to the Christoffel formula. Whereas the standard chart had only the three non-zero entries $\Gamma^\theta{}_{\varphi\varphi}, \Gamma^\varphi{}_{\theta\varphi}, \Gamma^\varphi{}_{\varphi\theta}$, the skew chart has every $\Gamma^{\tilde\rho}{}_{\tilde\mu\tilde\nu}$ entry non-zero (still subject to lower-pair symmetry). The complete list is six independent functions of $\tilde\theta$ — they can be derived by writing the Christoffel formula

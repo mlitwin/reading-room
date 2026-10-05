@@ -10,7 +10,7 @@ This page revisits the standard chart and adds a second, *stereographic*, chart 
 
 Take the standard parametrization
 $$\Phi(\theta, \varphi) = (\sin\theta \cos\varphi, \; \sin\theta \sin\varphi, \; \cos\theta),$$
-with $\theta \in (0, \pi)$ the polar angle from the north pole and $\varphi \in (0, 2\pi)$ the azimuth. This chart misses the two poles (where $\varphi$ is undefined) and the seam at $\varphi = 0$; a second chart, e.g. rotated $90^\circ$ in $Z$, covers what this one misses.
+with $\theta \in (0, \pi)$ the polar angle from the north pole and $\varphi \in (0, 2\pi)$ the azimuth. This chart misses the two poles (where $\varphi$ is undefined) and the seam at $\varphi = 0$; covering all of $S^2$ takes more charts — e.g. the stereographic pair below.
 
 The tangent basis vectors at $p = \Phi(\theta, \varphi)$, **embedded view**, are the partial derivatives of $\Phi$:
 $$\begin{aligned}
@@ -25,11 +25,11 @@ read off the formulas above. The two representations carry the same information 
 
 ## Stereographic chart
 
-A second chart covers the missing seam. Stereographic projection from the south pole gives
+Stereographic projection from the south pole gives
 $$\psi_S(p) = (x, y) = \left( \frac{X}{1 + Z}, \; \frac{Y}{1 + Z} \right),$$
-covering everything except the south pole itself. The basis $\{\partial_x, \partial_y\}$ at $p$ is, embedded,
-$$\partial_x = \frac{\partial \Phi_S^{-1}}{\partial x}, \qquad \partial_y = \frac{\partial \Phi_S^{-1}}{\partial y},$$
-with $\Phi_S^{-1}(x, y) = (2x, 2y, 1 - x^2 - y^2) / (1 + x^2 + y^2)$. These two vectors at $p$ are *different* from $\partial_\theta, \partial_\varphi$ — different basis, different components — but they span the same tangent space $T_p S^2$.
+covering everything except the south pole — in particular the north pole and the seam the spherical chart misses. (Projection from the north pole covers the south pole; the two form an atlas.) With the parametrization
+$$\Phi_S := \psi_S^{-1}, \qquad \Phi_S(x, y) = \frac{(2x,\; 2y,\; 1 - x^2 - y^2)}{1 + x^2 + y^2},$$
+the basis $\{\partial_x, \partial_y\}$ at $p$ is, embedded, $\partial_x = \partial \Phi_S / \partial x$ and $\partial_y = \partial \Phi_S / \partial y$. These two vectors at $p$ are *different* from $\partial_\theta, \partial_\varphi$ — different basis, different components — but they span the same tangent space $T_p S^2$.
 
 ## Components transform
 

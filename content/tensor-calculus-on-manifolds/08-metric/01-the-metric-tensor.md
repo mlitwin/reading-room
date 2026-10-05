@@ -11,15 +11,15 @@ In components $g = g_{\mu\nu}\, dx^\mu \otimes dx^\nu$ with $g_{\mu\nu} = g_{\nu
 
 ## Signature
 
-The symmetric bilinear form $g_p$ at a point is classified up to choice of basis by its **signature** $(p, q)$ with $p + q = n$ — the number of positive and negative eigenvalues. (The pointwise linear algebra — Sylvester's law, the lightcone at a single event — is previewed in the [Part I aside](../01-manifolds/04-metric-at-a-point.md).) Three cases come up:
+The symmetric bilinear form $g_p$ at a point is classified up to choice of basis by its **signature** $(n_+, n_-)$ with $n_+ + n_- = n$ — the numbers of positive and negative eigenvalues. (The pointwise linear algebra — Sylvester's law, the lightcone at a single event — is previewed in the [Part I aside](../01-manifolds/04-metric-at-a-point.md).) Three cases come up:
 
 - **Riemannian:** signature $(n, 0)$, i.e. $g$ is positive-definite. $g(v, v) > 0$ for $v \neq 0$. Every $v$ has a positive length $\sqrt{g(v, v)}$.
 - **Lorentzian:** signature $(1, n-1)$ or $(n-1, 1)$ depending on convention; one direction is "timelike" and the rest are "spacelike." General relativity uses Lorentzian signature on a $4$-manifold with convention $(-, +, +, +)$ (so timelike vectors have $g(v, v) < 0$) or $(+, -, -, -)$ (the opposite).
 - **Pseudo-Riemannian:** any non-degenerate signature, generalizing both above.
 
-The signature is a discrete invariant — it cannot change continuously over a connected manifold. A Lorentzian metric distinguishes three classes of tangent vector at each point:
+Non-degeneracy keeps eigenvalues from crossing zero, so the signature is constant on a connected manifold. A Lorentzian metric distinguishes three classes of tangent vector at each point:
 
-- **Timelike** if $g(v, v) < 0$ (in mostly-plus convention) — into the future or past lightcone.
+- **Timelike** if $g(v, v) < 0$ (in mostly-plus convention) — inside the lightcone (future or past).
 - **Null** (or *lightlike*) if $g(v, v) = 0$ — on the lightcone.
 - **Spacelike** if $g(v, v) > 0$ — outside the lightcone.
 
@@ -43,6 +43,6 @@ It is always symmetric, but need not be non-degenerate. Injectivity of $dF_p$ at
 
 ## Existence
 
-Any [paracompact](note:paracompact) manifold — which here means every manifold in this book, since [second-countable](note:second-countable) Hausdorff implies paracompact — admits a Riemannian metric, by a [partition-of-unity](note:partition-of-unity) construction. Lorentzian metrics are much more restrictive: a closed orientable $n$-manifold admits a Lorentzian metric iff it has a nowhere-vanishing vector field, equivalently iff its [Euler characteristic](note:euler-characteristic) vanishes. Among compact $2$-manifolds, only the torus and Klein bottle admit Lorentzian metrics; the sphere does not. ($S^2$ has Euler characteristic $2$.)
+Any [paracompact](note:paracompact) manifold — which here means every manifold in this book, since [second-countable](note:second-countable) Hausdorff implies paracompact — admits a Riemannian metric, by a [partition-of-unity](note:partition-of-unity) construction. Lorentzian metrics are much more restrictive: a closed (compact, boundaryless) manifold admits a Lorentzian metric iff it has a nowhere-vanishing vector field, equivalently iff its [Euler characteristic](note:euler-characteristic) vanishes. Among compact $2$-manifolds, only the torus and Klein bottle admit Lorentzian metrics; the sphere does not. ($S^2$ has Euler characteristic $2$.)
 
-This is one reason GR is set on non-compact spacetimes (open $4$-manifolds, asymptotically flat or otherwise) rather than compact ones: a closed $4$-manifold needs vanishing Euler characteristic just to carry a Lorentzian metric at all.
+GR is set on non-compact spacetimes for a causal reason: every compact Lorentzian manifold contains a closed timelike curve.

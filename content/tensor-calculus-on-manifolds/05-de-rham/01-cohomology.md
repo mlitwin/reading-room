@@ -15,7 +15,7 @@ a graded-commutative $\mathbb{R}$-algebra.
 
 - $H^0_{dR}(M) \cong \mathbb{R}^c$ where $c$ is the number of connected components of $M$. (A closed 0-form is a locally constant function.)
 - $H^k_{dR}(M) = 0$ for $k > \dim M$.
-- For $M$ compact, connected, orientable: $H^n_{dR}(M) \cong \mathbb{R}$, with isomorphism $[\omega] \mapsto \int_M \omega$.
+- For $M$ compact, connected, oriented, without boundary: $H^n_{dR}(M) \cong \mathbb{R}$, with isomorphism $[\omega] \mapsto \int_M \omega$.
 - A smooth map $F: M \to N$ induces a graded-algebra map $F^*: H^*_{dR}(N) \to H^*_{dR}(M)$.
 - **[Homotopy invariance](note:contractible).** If $F \simeq G$ smoothly, then $F^* = G^*$ on cohomology.
 

@@ -8,7 +8,7 @@ The single mathematical object behind every tensor in physics is the **multiline
 
 An **$(r, s)$-tensor at $p$** is a multilinear map
 $$T: \underbrace{T^*_p M \times \cdots \times T^*_p M}_{r \text{ copies}} \times \underbrace{T_p M \times \cdots \times T_p M}_{s \text{ copies}} \to \mathbb{R}.$$
-"Multilinear" means $T$ is $\mathbb{R}$-linear in each slot separately, with the others held fixed. The pair $(r, s)$ is the **rank** or **type** of the tensor; the dimension of the tensor space at $p$ is $n^{r+s}$.
+"Multilinear" means $T$ is $\mathbb{R}$-linear in each slot separately, with the others held fixed. The pair $(r, s)$ is the **type** of the tensor (also called its rank, though "rank" often means $r + s$); the dimension of the tensor space at $p$ is $n^{r+s}$.
 
 Examples:
 
@@ -47,4 +47,4 @@ The Einstein summation convention bakes the sum in: any index appearing once up 
 
 A **tensor field** of type $(r, s)$ on $M$ is a smooth section of the corresponding tensor bundle — a smooth assignment $p \mapsto T_p \in T^r_s(T_p M)$. In coordinates, the components $T^{\mu_1 \cdots}{}_{\nu_1 \cdots}(x)$ are smooth functions on the chart's domain. (See [tensor field](note:tensor-field).)
 
-The tensor product and contraction operations work pointwise — a tensor field becomes a $C^\infty(M)$-multilinear map on vector fields and 1-forms, which is one diagnostic for whether a candidate operation is tensorial (next page).
+Tensor product and contraction act pointwise. Evaluated on 1-forms and vector fields, a tensor field is a $C^\infty(M)$-multilinear map, and conversely every such map is a tensor field — the abstract tensoriality test of the next page.

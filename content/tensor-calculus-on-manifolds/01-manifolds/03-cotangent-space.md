@@ -20,9 +20,9 @@ is the **differential** of $f$ at $p$. In coordinates $df_p = \frac{\partial f}{
 
 ## Transformation rule
 
-Under $x^i \mapsto x'^{i'}(x)$ the dual basis and components transform the *same* way as each other:
+Under $x^i \mapsto x'^{i'}(x)$ the dual basis and the components again transform oppositely:
 $$dx'^{i'} = \frac{\partial x'^{i'}}{\partial x^j}\, dx^j, \qquad \omega_{i'}' = \frac{\partial x^j}{\partial x'^{i'}}\, \omega_j.$$
-Components move *with* the basis ("co", together) — the opposite convention from vectors, and the defining property of a covariant index.
+The components $\omega_i$ transform with the same matrix $\partial x^j/\partial x'^{i'}$ as the tangent basis $\partial_i$ ("co", together) — the defining property of a covariant index. Vector components $v^i$ use the inverse matrix.
 
 **Index notation:** $\omega_i$, index down. **Coordinate-free:** $\omega \in T^*_p M$, the pairing written $\omega(v)$ or $\langle\omega, v\rangle$.
 

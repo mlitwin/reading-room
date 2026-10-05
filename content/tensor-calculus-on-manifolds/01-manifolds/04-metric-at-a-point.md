@@ -18,13 +18,13 @@ injective, hence — equal finite dimensions — an isomorphism, with inverse $\
 
 ## Signature and causal structure
 
-By Sylvester's law of inertia, a basis of $T_p M$ can always be chosen in which $[g_{\mu\nu}]$ is diagonal with entries $\pm 1$, and the count $(p, q)$ of each sign — the **signature** — is independent of the choice. Two cases matter in this book:
+By Sylvester's law of inertia, a basis of $T_p M$ can always be chosen in which $[g_{\mu\nu}]$ is diagonal with entries $\pm 1$, and the number of each sign — the **signature** — is independent of the choice. Two cases matter in this book:
 
-- **Riemannian**, signature $(n, 0)$: $g_p$ is positive-definite, an ordinary inner product. Every non-zero vector has a positive length $\sqrt{g_p(v, v)}$, and angles are defined.
+- **Riemannian**, signature $(+, \cdots, +)$: $g_p$ is positive-definite, an ordinary inner product. Every non-zero vector has a positive length $\sqrt{g_p(v, v)}$, and angles are defined.
 - **Lorentzian**, signature $(-, +, \cdots, +)$: the tangent space acquires **causal structure**. A vector is **timelike** if $g_p(v, v) < 0$, **null** if $g_p(v, v) = 0$, **spacelike** if $g_p(v, v) > 0$. The null vectors form a double cone — the **lightcone** — with the timelike vectors inside it and the spacelike vectors outside.
 
 In relativity, $T_p M$ with a Lorentzian $g_p$ *is* the local inertial frame at the event $p$: 4-velocities of massive particles are timelike, light rays are null, and everything special relativity says about one observer at one event is linear algebra in this single tangent space. Gravity — curvature, dynamics — enters only when $g_p$ is allowed to vary with $p$.
 
 ## What Part II adds
 
-A **metric on $M$** is a smooth field $p \mapsto g_p$ of such forms — the subject of [chapter 8](../08-metric/index.md). Only then do lengths of curves, [proper time](note:proper-time), [isometries](note:isometry), and volume exist; and only the *variation* of $g_p$ from point to point produces the connection and curvature of chapter 9. Until then, Part I proceeds metric-free.
+A **metric on $M$** is a smooth field $p \mapsto g_p$ of such bilinear forms — the subject of [chapter 8](../08-metric/index.md). Only then do lengths of curves, [proper time](note:proper-time), [isometries](note:isometry), and volume exist; and only the *variation* of $g_p$ from point to point produces the connection and curvature of chapter 9. Until then, Part I proceeds metric-free.

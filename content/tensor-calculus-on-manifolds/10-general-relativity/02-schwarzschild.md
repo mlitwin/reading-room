@@ -8,18 +8,18 @@ The Schwarzschild solution is the unique spherically symmetric vacuum solution o
 
 Look for a vacuum metric ($R_{\mu\nu} = 0$, $\Lambda = 0$) that is:
 
-- **Static:** there is a timelike [Killing vector](note:killing-vector) field whose orbits foliate spacetime; the metric has no $t$-dependence in adapted coordinates.
+- **Static:** there is a hypersurface-orthogonal timelike [Killing vector](note:killing-vector) field; in adapted coordinates the metric has no $t$-dependence and no $dt\, dx^i$ cross terms.
 - **Spherically symmetric:** there is an $SO(3)$ acting by [isometries](note:isometry), with orbits two-dimensional spheres.
 
 Adapted coordinates $(t, r, \theta, \varphi)$, with $(\theta, \varphi)$ the angular coordinates on $S^2$ from earlier. The most general such metric is
 $$g = -A(r)\, dt^2 + B(r)\, dr^2 + r^2\, (d\theta^2 + \sin^2\theta\, d\varphi^2)$$
-for two scalar functions $A, B$ of $r$ alone.
+for two positive functions $A, B$ of $r$ alone, with $r$ defined so the orbit spheres have area $4\pi r^2$.
 
 ## Solving the equations
 
 Compute the [Christoffel symbols](note:covariant-derivative) (analogous to the sphere calculation but in $4$D), then the Ricci tensor components. After some bookkeeping, the vacuum equations $R_{\mu\nu} = 0$ reduce to two ODEs that force
 $$A(r)\, B(r) = \mathrm{const}.$$
-Absorbing the constant into the definition of $t$ gives $AB = 1$, i.e. $B = 1/A$. The remaining equation $R_{tt} = 0$ then gives $(rA)' = 1$, so
+Absorbing the constant into the definition of $t$ gives $AB = 1$, i.e. $B = 1/A$. The angular equation $R_{\theta\theta} = 0$ then gives $(rA)' = 1$, so
 $$A(r) = 1 - \frac{2M}{r}$$
 with $M$ a constant of integration. With $G = c = 1$ units, $M$ is the **mass parameter** in geometrized units; in SI units, $2M$ is replaced by $2GM/c^2$.
 

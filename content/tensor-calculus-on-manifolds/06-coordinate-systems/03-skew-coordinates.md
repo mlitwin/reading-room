@@ -22,7 +22,7 @@ $$\begin{aligned}
 In terms of the **standard** basis vectors $\partial_\theta, \partial_\varphi$ evaluated at the same point in $S^2$, the chain rule gives
 $$\partial_{\tilde\theta} = \partial_\theta + \alpha\sin\tilde\theta\, \partial_\varphi, \qquad \partial_{\tilde\varphi} = \partial_\varphi.$$
 
-This is more compact and more informative than the embedded formula. The skew basis vector $\partial_{\tilde\varphi}$ is *the same* tangent vector as the standard $\partial_\varphi$ (because $\partial / \partial\tilde\varphi = \partial / \partial \varphi$ with $\theta$ held fixed). The skew $\partial_{\tilde\theta}$ is the standard $\partial_\theta$ *plus* a contribution along $\partial_\varphi$ proportional to $\alpha \sin\tilde\theta$. The shear scales with $\sin\theta$ — zero at the poles, maximum at the equator.
+This is more compact and more informative than the embedded formula. The skew basis vector $\partial_{\tilde\varphi}$ is *the same* tangent vector as the standard $\partial_\varphi$ (because $\partial / \partial\tilde\varphi = \partial / \partial \varphi$ with $\theta$ held fixed). The skew $\partial_{\tilde\theta}$ is the standard $\partial_\theta$ *plus* a contribution along $\partial_\varphi$ proportional to $\alpha \sin\tilde\theta$. The shear — the $\theta$-derivative of the shift — scales with $\sin\theta$: zero at the poles, maximum at the equator.
 
 ## Non-orthogonality
 
@@ -50,12 +50,10 @@ The diagram exaggerates the obliqueness slightly (it's drawn at $60°$ for visua
 
 ## Dual basis
 
-The **dual basis** $d\tilde\theta, d\tilde\varphi$ is defined by $d\tilde\theta(\partial_{\tilde\theta}) = 1$, $d\tilde\theta(\partial_{\tilde\varphi}) = 0$, etc. In an orthogonal coordinate system, the dual basis is simply parallel to the coordinate basis (up to scaling). In a *non*-orthogonal system, it is not — each dual covector is perpendicular to the *other* coordinate axis, not to its own.
+The **dual basis** $d\tilde\theta, d\tilde\varphi$ is defined by $d\tilde\theta(\partial_{\tilde\theta}) = 1$, $d\tilde\theta(\partial_{\tilde\varphi}) = 0$, etc. Drawn as vectors via the metric (see below), each dual covector is perpendicular to the *other* coordinate basis vector, because $d\tilde\theta(\partial_{\tilde\varphi}) = d\tilde\varphi(\partial_{\tilde\theta}) = 0$. In an orthogonal chart that makes each parallel to its own basis vector; in a non-orthogonal chart it does not:
 
-Concretely:
-
-- $d\tilde\theta$ is perpendicular to $\partial_{\tilde\varphi}$, not to $\partial_{\tilde\theta}$.
-- $d\tilde\varphi$ is perpendicular to $\partial_{\tilde\theta}$, not to $\partial_{\tilde\varphi}$.
+- $d\tilde\theta \perp \partial_{\tilde\varphi}$, so $d\tilde\theta$ is not parallel to $\partial_{\tilde\theta}$.
+- $d\tilde\varphi \perp \partial_{\tilde\theta}$, so $d\tilde\varphi$ is not parallel to $\partial_{\tilde\varphi}$.
 
 ![Skew tangent plane with coordinate basis (solid black) and dual basis (dashed grey). Each dual covector is perpendicular to the "wrong" axis.](../figures/dual-basis-skew.svg)
 
