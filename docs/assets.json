@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:15:51.663Z",
+  "generated_at": "2026-10-05T16:19:06.895Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,7 +273,7 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "b78fd9a005288fd3b65c472fe20dff69b6e0be25f80b373188c3e78dc08c3faf",
+      "sha256": "cdc9938583280f9a263a939962f482e59e4e92b68a558b2ca7f8709bab74c9f9",
       "size": 59093
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "033902be5c469b1ac0fc7e7eeb7fa6bc61cd6ff9ee4bbcdcbe0b570f75dcafaa",
+      "sha256": "39911080bc195cbd2ab73d6d4aba71060c07939b8fbe34b2e9b8624fc070de29",
       "size": 926268
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "854b8783a580ef88acb4ff41896dffaaed13bdb5ad822e5fdc49d0696578d510",
+      "sha256": "64e3ac4eab34c45b4877bef7e59aa6211e36348e8757951017b0bc02edc39be5",
       "size": 10323088
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "85b3a2459ce6d6eac4e8010f2055a9331e9cf7087055f7fb069681fc5292389e",
+      "sha256": "b741453bfd916b423230a6dee8faa87a74ce7d70f39c959ab633b7830a7f9e44",
       "size": 2476366
     },
     {
@@ -638,12 +638,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "e9ce455d07c1e7ca498a53d9422f96467e7d26b9c7c51c9e9a8b679a145dc673",
+      "sha256": "303569496c35a7615509dd5d4a7e683a0a68ca997d495eea95e3d641f53a0ae6",
       "size": 11327777
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "f4643db766e01c33893dfbe21fbdee6a63fd1527848a55d1bf1713e4beb3be6b",
+      "sha256": "68e99331e0368dcf95dcb2108bd72a1414c35a485a65982cbc0426ac751fdb73",
       "size": 11327751
     },
     {
@@ -653,7 +653,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "7d102f9fe396396eed3a3a1571fc17f34e50f3acaa3754c9ffc161cf5fb75299",
+      "sha256": "d375db7073395b2ae9c740610bb112a969485b8efb34e7d638fc586969bde6a1",
       "size": 32367
     },
     {
@@ -1148,13 +1148,13 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/einstein-cartan.html",
-      "sha256": "17171de3795634406dbe9059555bd148a3f23948dae1940ba6047ced87a249cc",
-      "size": 281560
+      "sha256": "850a4a8a1ab7c04d7e4c96c454f2f7edc843db1339307a19280a3318edb485e9",
+      "size": 281446
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/einstein-equations.html",
-      "sha256": "7b6fb69ae00cbc5ba829d372bcf50a3ecdc8fb4cd9e91a18193203a0660f76dc",
-      "size": 417101
+      "sha256": "badd8e73df1ce1d108a52c0af884c47e2766602aeae2de7236f29fc896475bd7",
+      "size": 419077
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/index.html",
@@ -1173,8 +1173,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/general-relativity/schwarzschild.html",
-      "sha256": "969c3442116ff542f3ab6af3add067ba942b09a802b57b59a43a68f5f2445920",
-      "size": 457894
+      "sha256": "2c04dafa8a76bcaa025948cbb72a58f6d3de8d27bd7ea7666efc4ea325cb9986",
+      "size": 372127
     },
     {
       "path": "tensor-calculus-on-manifolds/hamiltonian-mechanics/index.html",

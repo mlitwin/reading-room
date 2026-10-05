@@ -2,7 +2,7 @@
 title: Schwarzschild — the torsion-free worked example
 ---
 
-The Schwarzschild solution is the unique spherically symmetric vacuum solution of the [Einstein equations](note:einstein-equations). It models the exterior geometry of a non-rotating massive body — a star, a non-rotating black hole — and is the canonical first calculation in any GR course.
+The Schwarzschild solution is the unique spherically symmetric vacuum solution of the [Einstein equations](note:einstein-equations). It models the exterior of a non-rotating massive body, such as a star or a non-rotating black hole, and is the standard first calculation in GR.
 
 ## Setup
 
@@ -17,7 +17,7 @@ for two positive functions $A, B$ of $r$ alone, with $r$ defined so the orbit sp
 
 ## Solving the equations
 
-Compute the [Christoffel symbols](note:covariant-derivative) (analogous to the sphere calculation but in $4$D), then the [Ricci tensor](note:ricci-and-einstein-tensors) components. After some bookkeeping, the vacuum equations $R_{\mu\nu} = 0$ reduce to two ODEs that force
+Compute the [Christoffel symbols](note:affine-connection) (analogous to the sphere calculation but in $4$D), then the [Ricci tensor](note:ricci-and-einstein-tensors) components. After some bookkeeping, the vacuum equations $R_{\mu\nu} = 0$ reduce to two ODEs that force
 $$A(r)\, B(r) = \mathrm{const}.$$
 Absorbing the constant into the definition of $t$ gives $AB = 1$, i.e. $B = 1/A$. The angular equation $R_{\theta\theta} = 0$ then gives $(rA)' = 1$, so
 $$A(r) = 1 - \frac{2M}{r}$$
@@ -32,24 +32,24 @@ Two distinguished radii:
 - $r = 2M$, the **Schwarzschild radius** or **event horizon**. The metric coefficient $g_{tt} \to 0$ and $g_{rr} \to \infty$; coordinates break down but the geometry is regular (a *coordinate* singularity).
 - $r = 0$, a **true singularity**. The scalar invariant $R_{\rho\sigma\mu\nu} R^{\rho\sigma\mu\nu} = 48 M^2 / r^6$ blows up; no coordinate change removes it.
 
-For $r > 2M$, the metric is static and spherically symmetric and approaches [Minkowski](note:minkowski-space) as $r \to \infty$ — the exterior of a non-rotating massive body.
+For $r > 2M$ the metric is static and approaches [Minkowski](note:minkowski-space) as $r \to \infty$.
 
-For $r < 2M$ (inside the horizon), the roles of $t$ and $r$ swap: $g_{tt} > 0$ and $g_{rr} < 0$, so $t$ is now spacelike and $r$ is timelike. Inside, $r$ decreases monotonically toward $r = 0$ for any future-directed worldline — the black hole interior.
+For $r < 2M$ (inside the horizon), the roles of $t$ and $r$ swap: $g_{tt} > 0$ and $g_{rr} < 0$, so $t$ is now spacelike and $r$ is timelike. Inside, $r$ decreases monotonically toward $r = 0$ along every future-directed causal worldline: this is the black-hole interior.
 
 ## Test-particle motion
 
-The Christoffels of the Schwarzschild metric — straightforward but tedious — feed the geodesic equation. Conserved quantities from the [Killing symmetries](../08-connection-and-curvature/03-killing-vectors.md):
+The Christoffel symbols of the Schwarzschild metric, straightforward but tedious, feed the geodesic equation. Conserved quantities from the [Killing symmetries](../08-connection-and-curvature/03-killing-vectors.md):
 
-- $E := -g_{tt}\, \dot t = (1 - 2M/r)\, \dot t$ — **energy per unit mass** (from $\partial_t$ Killing).
-- $L := g_{\varphi\varphi}\, \dot\varphi = r^2 \sin^2\theta\, \dot\varphi$ — **angular momentum** (from $\partial_\varphi$ Killing).
+- $E := -g_{tt}\, \dot t = (1 - 2M/r)\, \dot t$, the **energy per unit mass**, from the Killing field $\partial_t$.
+- $L := g_{\varphi\varphi}\, \dot\varphi = r^2 \sin^2\theta\, \dot\varphi$, the **angular momentum per unit mass**, from $\partial_\varphi$.
 - Orbits are planar (spherical symmetry); fix $\theta = \pi/2$.
 
 With dots denoting $d/d\tau$, the radial geodesic equation reduces to
 $$\tfrac{1}{2} \dot r^2 + V_{\mathrm{eff}}(r) = \tfrac{1}{2} (E^2 - 1), \qquad V_{\mathrm{eff}}(r) = -\frac{M}{r} + \frac{L^2}{2 r^2} - \frac{M L^2}{r^3}.$$
-The three terms — Newtonian gravity, angular-momentum barrier, GR correction — explain the classical tests:
+The three terms are Newtonian gravity, the angular-momentum barrier and the GR correction. They account for the classical tests:
 
 - **Perihelion precession of Mercury** comes from the $-M L^2 / r^3$ term. Without it, $V_{\mathrm{eff}}$ is exactly the Newtonian Kepler effective potential (Newtonian $-M/r$ plus the angular-momentum barrier). There, the Runge–Lenz vector is conserved and bound orbits close ([chapter 12](../12-symmetry-and-noether/03-examples.md)). The GR term breaks that hidden symmetry, so the orbit's perihelion advances.
-- **Light deflection** comes from the same reduction for null geodesics — normalization $\tens{g}(\dot\gamma, \dot\gamma) = 0$ in place of $-1$, which drops the $-M/r$ term and puts $\tfrac{1}{2} E^2$ on the right.
+- **Light deflection** comes from the same reduction for null geodesics. The normalization $\tens{g}(\dot\gamma, \dot\gamma) = 0$ replaces $-1$, which drops the $-M/r$ term and puts $\tfrac{1}{2} E^2$ on the right.
 - **Gravitational redshift** comes directly from the $g_{tt}$ coefficient: clocks at rest at small $r$ tick slower than clocks at large $r$ by a factor of $\sqrt{1 - 2M/r}$.
 
 These are the classical tests of GR; the Shapiro time delay of radar signals is a fourth.
@@ -58,7 +58,7 @@ These are the classical tests of GR; the Shapiro time delay of radar signals is 
 
 Two more facts justify Schwarzschild as the worked example:
 
-- **Birkhoff's theorem.** Any spherically symmetric vacuum solution of the Einstein equations is locally isometric to Schwarzschild — even *without* assuming staticity. Spherical symmetry alone forces the metric to be static outside the source. No spherically symmetric gravitational waves.
+- **Birkhoff's theorem.** Any spherically symmetric vacuum solution of the Einstein equations is locally isometric to Schwarzschild, even *without* assuming staticity. Spherical symmetry alone forces the metric to be static outside the source, so there are no spherically symmetric gravitational waves.
 - **Generalizations.** Adding charge gives Reissner–Nordström, and adding rotation gives Kerr. Kerr has only two Killing fields, but a hidden conserved quantity (Carter's constant) still makes its geodesics integrable.
 
 The next page leaves the torsion-free Levi-Civita world: Einstein–Cartan gravity, where torsion is allowed.
