@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:01:38.446Z",
+  "generated_at": "2026-10-05T16:02:56.666Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -273,7 +273,7 @@
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "90f41e92f1eda24cdc7d546eec11a6456830ad13e0b211d4e39145df1cfa7721",
+      "sha256": "ecd8cb11d56797a772ef9f61ac22e096afb579b1644f9edb071633a78399e2cd",
       "size": 59093
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "4ae3895d3b75eb2d992f71915bc75d735fca63e4ce01b2ff87f26c53b0e92af5",
+      "sha256": "f860b0672e86cd5b926b22e7e294ec7082ceed3c0dfef47b1c3729c98ba6a68b",
       "size": 926268
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "5d19e2f36cf831bcc83d33463d908cc8f9b78c6eee3371ea39b3d6c3e9b5ab5d",
+      "sha256": "4842184f296490ab1540d0b3a4849a59f89c8b801c1101d977b7e63ee5fb993d",
       "size": 10323088
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "162ce431c8059aa5ad15292886aa5e121133c9aea1e7c0343f3a16cb93192ddb",
+      "sha256": "c84292e0547ecbec4a629712869fb2c5caf3c03ed82f4ad1df25ab28a6c0ed01",
       "size": 2476366
     },
     {
@@ -638,12 +638,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "196d52c3777af54b1be780e7b773886dc06f19a2ce4158f7df724639d98204ad",
+      "sha256": "8a4a720999716eca12f9b41d12c287a480953815f191c04e87d3e93c34f82fae",
       "size": 11327777
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "c691e08eb379b92f9021e3ddcea567d0eb2e4f907db94ea9d34a37fbbc0ad2b2",
+      "sha256": "a1c00e4c865940ba5051c96bbd0e931fbb80c6bd527fd3fe5b53619524695b68",
       "size": 11327751
     },
     {
@@ -653,7 +653,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "ecf3690112c69310fab50329de19b58d2c1df711347b029e563de4e1f4b208a7",
+      "sha256": "6e15c1478fa81e6d7e8f4eb6b4f38846772996a395e398882aa11b155a0fba7d",
       "size": 32367
     },
     {
@@ -1003,8 +1003,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/index.html",
-      "sha256": "d904adb42c9f9cf8504cdd645658ac44503961083afd6d4ef4054512ee645c5a",
-      "size": 436405
+      "sha256": "66effed4232488070725ed0d62a0a87e9c36b5f6a2fe23ce5686c284590f6056",
+      "size": 436400
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/killing-vectors.html",
@@ -1013,8 +1013,8 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/on-the-sphere.html",
-      "sha256": "d51c9bf2f88fbce8e3a0978e1e9e60c3900f1176b4cb9773f7fc6122a1031264",
-      "size": 401669
+      "sha256": "980bec6b18a11911af16aaf76a6a0309377ca7e3933190da6186678bc67696db",
+      "size": 401649
     },
     {
       "path": "tensor-calculus-on-manifolds/connection-and-curvature/the-connection.html",
@@ -1243,7 +1243,7 @@
     },
     {
       "path": "tensor-calculus-on-manifolds/lagrangian-mechanics/newtonian-mechanics.html",
-      "sha256": "3f32fff5871ba63a5c13d66c781ff32996bef95cca7ebc68f1bef88c2da3fb47",
+      "sha256": "ee1c3663f189d8b2f443691d9bc156f5678a70ecfaa7b59835a222c9e8934433",
       "size": 225159
     },
     {

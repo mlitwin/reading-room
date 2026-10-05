@@ -58,7 +58,7 @@ Note the [Einstein tensor](note:ricci-and-einstein-tensors) $G_{\mu\nu} = R_{\mu
 
 The same geometry, the same Levi-Civita connection, computed in the [skew chart](../04-coordinate-systems/03-skew-coordinates.md) with $\alpha = \pi/8$ — and the same intrinsic curvature emerging at the end.
 
-The metric components (from the [previous chapter's calculation](../04-coordinate-systems/06-the-round-metric.md)) are
+The metric components (computed in [chapter 4](../04-coordinate-systems/06-the-round-metric.md)) are
 $$g_{\tilde\theta\tilde\theta} = 1 + \alpha^2 \sin^4 \tilde\theta, \quad g_{\tilde\theta\tilde\varphi} = \alpha \sin^3\tilde\theta, \quad g_{\tilde\varphi\tilde\varphi} = \sin^2\tilde\theta.$$
 
 Both off-diagonal terms and the dependence of $g_{\tilde\theta\tilde\theta}$ on $\tilde\theta$ contribute to the Christoffel formula. Whereas the standard chart had only the three non-zero entries $\Gamma^\theta{}_{\varphi\varphi}, \Gamma^\varphi{}_{\theta\varphi}, \Gamma^\varphi{}_{\varphi\theta}$, the skew chart has all six independent entries (after lower-pair symmetry) non-zero as functions of $\tilde\theta$. They follow from the same Christoffel formula with the skew components.
@@ -81,6 +81,6 @@ This is the simplest Chern–Gauss–Bonnet theorem, and the book's cleanest lin
 
 A vector [parallel-transported](note:parallel-transport) around a closed loop on the sphere returns rotated by the loop's enclosed solid angle. For a geodesic triangle with interior angles $A_1, A_2, A_3$, the rotation angle is the spherical excess
 $$A_1 + A_2 + A_3 - \pi = \iint_{\triangle} K\, \mathrm{vol}_g,$$
-which on the unit sphere is the triangle's area. The holonomy around a loop is the curvature integrated over the region it encloses: the finite version of the small-loop formula on [page 3](04-torsion-and-curvature.md).
+which on the unit sphere is the triangle's area. The holonomy around a loop is the curvature integrated over the region it encloses: the finite version of the small-loop formula on [page 4](04-torsion-and-curvature.md).
 
 In four dimensions the same holonomy, measured by the Riemann tensor, is the geometric content of gravity as spacetime curvature.

@@ -2,7 +2,7 @@
 title: Connection and curvature
 ---
 
-The metric gives lengths and angles at a point. Differentiating a vector field, or comparing vectors at different points, needs more structure: a **connection**. A metric determines one, the **[Levi-Civita connection](note:levi-civita)**, the unique connection that is torsion-free and compatible with the metric. It is the connection of this book and of standard GR. Its curvature is the gravitational field's tidal content.
+The metric gives lengths and angles at a point. Differentiating a vector field, or comparing vectors at different points, needs more structure: a **connection**. A metric determines one, the **[Levi-Civita connection](note:levi-civita)**, the unique connection that is torsion-free and compatible with the metric. It is the connection of this book and of standard GR, and in GR its curvature is the tidal field of gravity.
 
 Six pages:
 

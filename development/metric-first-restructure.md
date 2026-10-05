@@ -1,5 +1,7 @@
 # Metric-first restructure of the tensor-calculus book
 
+**Status: done (2026-10-05), on local `main`, not yet pushed.** As built, ch 4 has seven pages (stereographic chart and the $(1, 1)$-tensor $\tens{J}$ as pages 5 and 7); ch 10 keeps covariant Newton as its own page; ch 12 orders theorem, Killing symmetries, flat examples, rigid body.
+
 Plan for three pieces of reader feedback on `content/tensor-calculus-on-manifolds`
 (2026-10-05). It follows the merge recorded in
 [tensor-mechanics-unification.md](tensor-mechanics-unification.md).

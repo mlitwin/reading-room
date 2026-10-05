@@ -38,4 +38,4 @@ Each is the charge of a continuous symmetry (time translation, spatial translati
 
 ## Constraints
 
-A [holonomic constraint](note:holonomic-constraint) $f(q, t) = 0$ confines the motion to a submanifold of $Q$. A rigid rod, a bead on a wire and a particle on a sphere are examples. A *nonholonomic* constraint restricts velocities without reducing the dimension of $Q$; a disk rolling without slipping is the standard case. The Lagrangian formalism works on the constraint submanifold directly ([page 3](05-constraints-and-examples.md)).
+A [holonomic constraint](note:holonomic-constraint) $f(q, t) = 0$ confines the motion to a submanifold of $Q$. A rigid rod, a bead on a wire and a particle on a sphere are examples. A *nonholonomic* constraint restricts velocities without reducing the dimension of $Q$; a disk rolling without slipping is the standard case. The Lagrangian formalism works on the constraint submanifold directly ([page 5](05-constraints-and-examples.md)).
