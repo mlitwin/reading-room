@@ -14,13 +14,16 @@ spelling is kept. Cells use only parse atoms grammar.json defines (no supine).
 Usage:
     python3 site/latin/wiktionary_regen.py ID [ID …] [--glosses] [--dry-run]
     python3 site/latin/wiktionary_regen.py --new ID [ID …]   # create shared cards
+    python3 site/latin/wiktionary_regen.py --patch|--merge ID [ID …]
 
   --glosses   also replace the card's glosses with Wiktionary's (for cards whose
               glosses belong to a different word, e.g. adsum_v carrying assumo's)
   --new       create the cards in lexicon.json from Wiktionary (implies --glosses)
+  --etym N    use Wiktionary etymology N (homographs: colligō -ere vs -āre)
+  --patch     only replace cells whose forms Wiktionary doesn't give (keeps the
+              rest of the card); --merge adds Wiktionary's forms as variants
 """
 import json
-import re
 import sys
 from pathlib import Path
 
@@ -100,6 +103,8 @@ def verb_card(card, entry, cells):
     cols += sorted({k.split(".", 1)[1] for k in finite} - set(cols))
     card["paradigm"] = {"type": "verb", "rows": PERSONS, "cols": cols,
                         "cells": {k: cell_value(x) for k, x in {**finite, **other}.items()}}
+    if len(ppp) == 1 and strip_marks(next(iter(ppp.values()))[0]).endswith("um"):
+        ppp = {}  # intransitive: only the impersonal neuter (saevītum), no grid
     if len(ppp) == 1 and strip_marks(next(iter(ppp.values()))[0]).endswith("us"):
         # Only the nominative came through (no participle entry to fold in);
         # -us participles decline regularly (1st/2nd declension).
@@ -118,11 +123,10 @@ def verb_card(card, entry, cells):
         pp.append(f"{part} sum" if part else None)
     else:
         pp.append(first(cells, "1sg.perf.ind.act"))
-        # The 4th head form is a supine only when the head line says so
-        # (adsum's is a future participle).
-        sup = [strip_marks(f) for f in (entry.get("principal_parts") or [])[3:4]]
-        has_sup = re.search(r"\bsupine \w", entry.get("head", "").split(";")[0])
-        pp.append(sup[0] if sup and has_sup and " " not in sup[0] else None)
+        # Supine from its tagged cell (not "4th head form": sonō lists two
+        # perfects, adsum a future participle).
+        sup = (entry.get("cells") or {}).get("sup.acc") or []
+        pp.append(strip_marks(sup[0]) if sup else None)
     pp = [p for p in pp if p]
     card["principal_parts"] = pp
     card["head"] = ", ".join(pp)
@@ -172,14 +176,50 @@ def _adj_endings(entry):
     return [f"gen. {gen}"] if gen else []
 
 
-def regen(card, glosses=False):
+def match_entry(card, etym=None):
     entries = [e for e in audit.lookup(card["lemma"]) if e.get("cells") or e.get("glosses")]
     same = [e for e in entries if e["pos"] in audit.POS_COMPAT.get(card["pos"], {card["pos"]})]
+    if etym:
+        same = [e for e in same if e.get("etym") == etym]
     if not same:
-        raise SystemExit(f"{card['id']}: no Wiktionary entry with pos {card['pos']}")
-    entry = audit.best_entry(card, same)
+        raise SystemExit(f"{card['id']}: no Wiktionary entry with pos {card['pos']}"
+                         + (f" and etymology {etym}" if etym else ""))
+    return audit.best_entry(card, same)
+
+
+def touch_cells(card, entry, mode):
+    """--patch: replace only cells where no card form is in Wiktionary's cell.
+    --merge: add Wiktionary's forms to every shared cell (variants, card first).
+    Patch leaves verbs' participle/gerundive cells alone — Wiktionary gives
+    intransitive verbs only the impersonal neuter (ventum, eundum)."""
+    ok = atoms()
+    changed = 0
+    for pk in ("paradigm", "ppp_paradigm"):
+        cells = (card.get(pk) or {}).get("cells") or {}
+        for code, v in cells.items():
+            if (mode == "patch" and card["pos"] == "verb"
+                    and code.split(".")[0] in ("ppp", "pap", "fap", "gerundive")):
+                continue
+            wf = plain((entry.get("cells") or {}).get(code, []))
+            if not wf or not all(a in ok for a in code.split(".")):
+                continue
+            cur = v if isinstance(v, list) else [v]
+            have = {audit.norm(x) for x in cur}
+            if mode == "patch" and not have & {audit.norm(x) for x in wf}:
+                cells[code] = cell_value(wf)
+                changed += 1
+            elif mode == "merge":
+                add = [x for x in wf if audit.norm(x) not in have]
+                if add:
+                    cells[code] = cell_value(cur + add)
+                    changed += 1
+    return changed
+
+
+def regen(card, glosses=False, etym=None):
+    entry = match_entry(card, etym)
     cells = build_cells(entry, atoms())
-    if card["pos"] == "noun" and not card.get("gender") and entry.get("gender"):
+    if card["pos"] == "noun" and entry.get("gender"):  # also corrects (murmur was masc)
         g = entry["gender"]
         card["gender"] = g[0] if len(g) == 1 else g
     if card["pos"] in INVARIANT_POS:
@@ -190,7 +230,9 @@ def regen(card, glosses=False):
         nominal_card(card, entry, cells)
     if glosses and entry.get("glosses"):
         card["glosses"] = entry["glosses"][:MAX_GLOSSES]
-    if card.get("alt_forms"):
+    if card.get("alt_forms") and card["pos"] != "adj":
+        # Adjectives keep theirs: degree forms (celeberrima) are separate
+        # Wiktionary entries, not cells of this one.
         have = {audit.norm(x) for v in audit.card_cells(card).values() for x in v}
         wikt = {audit.norm(f) for fs in (entry.get("cells") or {}).values() for f in fs}
         keep = [a for a in card["alt_forms"] if audit.norm(a) in wikt and audit.norm(a) not in have]
@@ -202,8 +244,15 @@ def regen(card, glosses=False):
 
 
 def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    glosses, dry = "--glosses" in sys.argv, "--dry-run" in sys.argv
+    argv = sys.argv[1:]
+    etym = None
+    if "--etym" in argv:
+        i = argv.index("--etym")
+        etym = argv[i + 1]
+        del argv[i:i + 2]
+    args = [a for a in argv if not a.startswith("--")]
+    glosses, dry = "--glosses" in argv, "--dry-run" in argv
+    mode = "patch" if "--patch" in argv else "merge" if "--merge" in argv else None
     if not args:
         sys.exit(__doc__)
     lex = json.loads(audit.LEXICON.read_text())
@@ -230,10 +279,16 @@ def main():
             path = hits[0]
             card = json.loads(path.read_text())
         before = len(audit.card_cells(card))
-        entry = regen(card, glosses)
-        n, wrong = audit.compare_cells(card, entry)
-        print(f"{cid}: {before} -> {len(audit.card_cells(card))} cells; head '{card['head']}'; "
-              f"vs Wiktionary {n - len(wrong)}/{n}")
+        if mode:
+            entry = match_entry(card, etym)
+            changed = touch_cells(card, entry, mode)
+            n, wrong = audit.compare_cells(card, entry)
+            print(f"{cid}: {mode} {changed} cells; vs Wiktionary {n - len(wrong)}/{n}")
+        else:
+            entry = regen(card, glosses, etym)
+            n, wrong = audit.compare_cells(card, entry)
+            print(f"{cid}: {before} -> {len(audit.card_cells(card))} cells; head '{card['head']}'; "
+                  f"vs Wiktionary {n - len(wrong)}/{n}")
         if dry:
             continue
         if path:

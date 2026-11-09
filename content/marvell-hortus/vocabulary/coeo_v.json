@@ -179,15 +179,15 @@
       "ger.dat.sg": "coeundo",
       "ger.acc.sg": "coeundum",
       "ger.abl.sg": "coeundo",
-      "1sg.pres.subj.pass": "coiar",
+      "1sg.pres.subj.pass": "coear",
       "2sg.pres.subj.pass": [
-        "coiaris",
-        "coiare"
+        "coearis",
+        "coeare"
       ],
-      "3sg.pres.subj.pass": "coiatur",
-      "1pl.pres.subj.pass": "coiamur",
-      "2pl.pres.subj.pass": "coiamini",
-      "3pl.pres.subj.pass": "coiantur",
+      "3sg.pres.subj.pass": "coeatur",
+      "1pl.pres.subj.pass": "coeamur",
+      "2pl.pres.subj.pass": "coeamini",
+      "3pl.pres.subj.pass": "coeantur",
       "1sg.imperf.subj.pass": "coirer",
       "2sg.imperf.subj.pass": [
         "coireris",

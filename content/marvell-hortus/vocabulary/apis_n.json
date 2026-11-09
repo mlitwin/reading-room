@@ -21,7 +21,10 @@
       "pl"
     ],
     "cells": {
-      "abl.sg": "api",
+      "abl.sg": [
+        "api",
+        "Ape"
+      ],
       "acc.sg": "apem",
       "nom.pl": "apis",
       "gen.pl": "apium",

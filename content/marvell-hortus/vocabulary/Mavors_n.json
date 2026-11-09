@@ -21,7 +21,10 @@
       "pl"
     ],
     "cells": {
-      "abl.sg": "mavorti",
+      "abl.sg": [
+        "mavorti",
+        "Mavorte"
+      ],
       "acc.sg": "mavortem",
       "nom.pl": "mavortis",
       "gen.pl": "mavortium",

@@ -8426,14 +8426,12 @@
         {
           "kind": "word",
           "surface": "mentis",
-          "lemma_id": "mentior_v",
+          "lemma_id": "mens_n",
           "parses": [
-            "2sg.pres.ind.act",
             "gen.sg.fem"
           ],
-          "pos_hint": "verb",
-          "__data_matches": "mentior_v:2sg.pres.ind.act;mens_n:gen.sg.fem",
-          "selected_lemma_id": "mens_n"
+          "pos_hint": "noun",
+          "__data_matches": "mens_n:gen.sg.fem"
         },
         {
           "kind": "word",
@@ -13608,12 +13606,13 @@
         {
           "kind": "word",
           "surface": "Tertia",
-          "lemma_id": "tertio_v",
+          "lemma_id": "tertius_adj",
           "parses": [
-            "2sg.pres.imp.act"
+            "nom.sg.fem"
           ],
           "stanza": "tertius",
-          "pos_hint": "verb"
+          "pos_hint": "adj",
+          "__data_matches": "tertius_adj:nom.sg.fem"
         },
         {
           "kind": "ws",
@@ -13710,8 +13709,7 @@
           ],
           "stanza": "saevus_adj",
           "pos_hint": "adj",
-          "__data_matches": "saevus_adj:comp.nom.sg.fem,comp.nom.sg.masc;saevio_v:1sg.pres.ind.pass",
-          "selected_lemma_id": "saevus_adj"
+          "__data_matches": "saevus_adj:comp.nom.sg.fem,comp.nom.sg.masc"
         },
         {
           "kind": "ws",

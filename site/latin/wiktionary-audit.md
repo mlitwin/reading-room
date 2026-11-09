@@ -7,20 +7,20 @@ Read-only comparison of the lexicon cards and text annotations with Wiktionary. 
 a disagreement to look at, not an automatic error: Wiktionary covers Neo-Latin and proper names
 unevenly, and its paradigms list classical forms only. Full detail: `.tmp/wiktionary-audit.json`.
 
-Cards checked: 1900 (1736 matched to a Wiktionary entry).
+Cards checked: 1901 (1737 matched to a Wiktionary entry).
 
 | check | finding | count |
 |---|---|---|
 | W1 | Card headword not in Wiktionary | 62 |
 | W2 | Card headword is an inflected form / variant of another lemma | 49 |
 | W3 | No Wiktionary entry with the card's part of speech | 53 |
-| W4 | Noun gender disagrees | 7 |
+| W4 | Noun gender disagrees | 6 |
 | W5 | Plurale tantum in Wiktionary, card has singular cells | 0 |
-| W6 | Paradigm cells Wiktionary doesn't give | 129 |
+| W6 | Paradigm cells Wiktionary doesn't give | 47 |
 | W7 | Card id doesn't match its pos / headword | 64 |
 | T1 | Selected reading not among Wiktionary's analyses of the surface | 27 |
 | T2 | Selected lemma matches, but no parse does | 3 |
-| T3 | Known lemma's reading missing from the token's candidates | 331 |
+| T3 | Known lemma's reading missing from the token's candidates | 332 |
 
 ## W1 — Card headword not in Wiktionary (62)
 
@@ -195,141 +195,66 @@ Cards checked: 1900 (1736 matched to a Wiktionary entry).
 - `vetus_n` (lexicon.json) — card noun; Wiktionary adj
 - `volucris_adj` (lexicon.json) — card adj; Wiktionary noun
 
-## W4 — Noun gender disagrees (7)
+## W4 — Noun gender disagrees (6)
 
 - `armenta_n` (lexicon.json) — card neut, Wiktionary fem — armenta f (genitive armentae); first declension; also a form of armentum
 - `arva_n` (lexicon.json) — card neut, Wiktionary fem — Arva f sg (genitive Arvae); first declension; also a form of arvum
 - `forceps_n` (marvell-hortus/vocabulary) — card fem, Wiktionary masc — forceps m (genitive forcipis); third declension
 - `mala_n` (lexicon.json) — card neut, Wiktionary fem — māla f (genitive mālae); first declension; also a form of malum, malus
-- `murmur_n` (lexicon.json) — card masc, Wiktionary neut — murmur n (genitive murmuris); third declension
 - `pascua_n` (lexicon.json) — card neut, Wiktionary fem — pāscua f (genitive pāscuae); first declension; also a form of pāscuum, pāscuus
 - `vela_n` (lexicon.json) — card neut, Wiktionary fem — vela f (genitive velae); first declension; also a form of vēlum, vēlō
 
-## W6 — Paradigm cells Wiktionary doesn't give (129)
+## W6 — Paradigm cells Wiktionary doesn't give (47)
 
 Sorted by the share of compared cells that disagree.
 
 - `arva_n` (lexicon.json) 6/6 cells — nom.sg: aruum ≠ arua; gen.sg: arui ≠ aruae; acc.sg: aruum ≠ aruam; dat.sg: aruo ≠ aruae
 - `cani_n` (lexicon.json) 2/2 cells — nom.sg: cania ≠ kaa; nom.pl: caniae ≠ kaas
-- `tueor_v` (lexicon.json) 36/36 cells — ppp.nom.sg.masc: tutus ≠ tuitus; ppp.nom.sg.fem: tuta ≠ tuita; ppp.nom.sg.neut: tutum ≠ tuitum; ppp.nom.pl.masc: tuti ≠ tuiti
 - `armenta_n` (lexicon.json) 10/12 cells — nom.sg: armentum ≠ armenta; gen.sg: armenti ≠ armentae; acc.sg: armentum ≠ armentam; dat.sg: armento ≠ armentae
 - `mala_n` (lexicon.json) 10/12 cells — nom.sg: malum ≠ mala; gen.sg: mali ≠ malae; acc.sg: malum ≠ malam; dat.sg: malo ≠ malae
 - `uter_n` (lexicon.json) 10/12 cells — gen.sg: utri ≠ utris; dat.sg: utro ≠ utri; acc.sg: utrum ≠ utrem; abl.sg: utro ≠ utre
 - `vela_n` (lexicon.json) 10/12 cells — nom.sg: uelum ≠ uela; gen.sg: ueli ≠ uelae; acc.sg: uelum ≠ uelam; dat.sg: uelo ≠ uelae
 - `como_v` (lexicon.json) 104/142 cells — 2sg.pres.ind.act: comas ≠ comis; 3sg.pres.ind.act: comat ≠ comit; 1pl.pres.ind.act: comamus ≠ comimus; 2pl.pres.ind.act: comatis ≠ comitis
-- `laurus_n` (lexicon.json) 6/12 cells — dat.sg: laurui ≠ lauro; abl.sg: lauru ≠ lauro; gen.pl: lauruum ≠ laurorum; dat.pl: lauribus ≠ lauris
-- `requies_n` (lexicon.json) 6/12 cells — nom.pl: requies ≠ requietes; gen.pl: requierum ≠ requietum; dat.pl: requiebus ≠ requietibus; abl.pl: requiebus ≠ requietibus
-- `mentior_v` (lexicon.json) 48/109 cells — ger.gen.sg: mentendi ≠ mentiendi; ger.dat.sg: mentendo ≠ mentiendo; ger.acc.sg: mentendum ≠ mentiendum; ger.abl.sg: mentendo ≠ mentiendo
-- `patior_v` (lexicon.json) 48/109 cells — ger.gen.sg: patendi ≠ patiendi; ger.dat.sg: patendo ≠ patiendo; ger.acc.sg: patendum ≠ patiendum; ger.abl.sg: patendo ≠ patiendo
-- `jubar_n` (lexicon.json) 5/12 cells — abl.sg: iubari ≠ iubare; nom.pl: iubaria ≠ iubara; gen.pl: iubarium ≠ iubarum; acc.pl: iubaria ≠ iubara
 - `praeceps_n` (lexicon.json) 5/12 cells — abl.sg: praecipite ≠ praecipiti; nom.pl: praecipita ≠ praecipitia; gen.pl: praecipitum ≠ praecipitium; acc.pl: praecipita ≠ praecipitia
-- `colligo_v` (lexicon.json) 36/100 cells — ppp.nom.sg.masc: colligatus ≠ collectus; ppp.nom.sg.fem: colligata ≠ collecta; ppp.nom.sg.neut: colligatum ≠ collectum; ppp.gen.sg.masc: colligati ≠ collecti
-- `fundo_v` (lexicon.json) 36/100 cells — ppp.nom.sg.masc: fundatus ≠ fusum/fusus; ppp.nom.sg.fem: fundata ≠ fusa; ppp.nom.sg.neut: fundatum ≠ fusum; ppp.gen.sg.masc: fundati ≠ fusi
-- `io_n` (lexicon.json) 2/6 cells — gen.sg: ious ≠ ionis/ius; dat.sg: ioi ≠ io/ioni
-- `murmur_n` (lexicon.json) 4/12 cells — acc.sg: murmurem ≠ murmur; acc.pl: murmures/murmuris ≠ murmura; nom.pl: murmures ≠ murmura; voc.pl: murmures ≠ murmura
 - `pelagium_adv` (lexicon.json) 4/12 cells — nom.pl: pelaga ≠ pelage; acc.pl: pelaga ≠ pelage; voc.sg: pelage ≠ pelagus; voc.pl: pelaga ≠ pelage
-- `vis_n` (lexicon.json) 4/12 cells — acc.sg: uem ≠ uim; gen.pl: uium ≠ uirium; dat.pl: uibus ≠ uiribus; abl.pl: uibus ≠ uiribus
-- `cano_v` (lexicon.json) 67/209 cells — 1sg.perf.ind.act: cani ≠ cecini; 2sg.perf.ind.act: canisti ≠ cecinisti; 3sg.perf.ind.act: canit ≠ cecinit; 1pl.perf.ind.act: canimus ≠ cecinimus
-- `exspatior_v` (lexicon.json) 12/39 cells — 1sg.imperf.ind.pass: exspatiebar ≠ exspatiabar; 2sg.imperf.ind.pass: exspatiebaris ≠ exspatiabare/exspatiabaris; 3sg.imperf.ind.pass: exspatiebatur ≠ exspatiabatur; 1pl.imperf.ind.pass: exspatiebamur ≠ exspatiabamur
-- `saevio_v` (lexicon.json) 33/112 cells — 1sg.perf.ind.act: saeuiui ≠ saeuii; 2sg.perf.ind.act: saeuiuisti ≠ saeuiisti/saeuisti; 3sg.perf.ind.act: saeuiuit ≠ saeuiit/saeuit; 1pl.perf.ind.act: saeuiuimus ≠ saeuiimus/saeuimus
 - `pedis_n` (lexicon.json) 3/12 cells — gen.pl: pedum ≠ pedium; nom.sg: pes ≠ pedis; voc.sg: pes ≠ pedis
-- `nascor_v` (lexicon.json) 36/145 cells — gerundive.nom.sg.masc: nascendus ≠ nascundus; gerundive.nom.sg.fem: nascenda ≠ nascunda; gerundive.nom.sg.neut: nascendum ≠ nascundum; gerundive.voc.sg.masc: nascende ≠ nascunde
-- `diluvio_v` (lexicon.json) 24/104 cells — 1sg.imperf.ind.act: diluuiebam ≠ diluuiabam; 2sg.imperf.ind.act: diluuiebas ≠ diluuiabas; 3sg.imperf.ind.act: diluuiebat ≠ diluuiabat; 1pl.imperf.ind.act: diluuiebamus ≠ diluuiabamus
-- `dissocio_v` (lexicon.json) 24/104 cells — 1sg.imperf.ind.act: dissociebam ≠ dissociabam; 2sg.imperf.ind.act: dissociebas ≠ dissociabas; 3sg.imperf.ind.act: dissociebat ≠ dissociabat; 1pl.imperf.ind.act: dissociebamus ≠ dissociabamus
-- `pario_v` (lexicon.json) 24/104 cells — 1sg.imperf.ind.act: pariebam ≠ pariabam; 2sg.imperf.ind.act: pariebas ≠ pariabas; 3sg.imperf.ind.act: pariebat ≠ pariabat; 1pl.imperf.ind.act: pariebamus ≠ pariabamus
-- `dico_v` (lexicon.json) 48/209 cells — 2sg.pres.ind.act: dicas ≠ dicis; 3sg.pres.ind.act: dicat ≠ dicit; 1pl.pres.ind.act: dicamus ≠ dicimus; 2pl.pres.ind.act: dicatis ≠ dicitis
-- `implecto_v` (marvell-hortus/vocabulary) 31/139 cells — 1sg.perf.ind.act: implexui ≠ implexi; 2sg.perf.ind.act: implexuisti ≠ implexisti; 3sg.perf.ind.act: implexuit ≠ implexit; 1pl.perf.ind.act: implexuimus ≠ impleximus
-- `chaos_adv` (lexicon.json) 1/5 cells — gen.sg: chaos ≠ chai
-- `subeo_v` (lexicon.json) 39/209 cells — 1sg.pres.ind.pass: subior ≠ subeor; 3pl.pres.ind.pass: subiuntur ≠ subeuntur; 1sg.imperf.ind.pass: subiebar ≠ subibar; 2sg.imperf.ind.pass: subiebare/subiebaris ≠ subibare/subibaris
-- `obvio_v` (lexicon.json) 24/139 cells — 1sg.imperf.ind.act: obuiebam ≠ obuiabam; 2sg.imperf.ind.act: obuiebas ≠ obuiabas; 3sg.imperf.ind.act: obuiebat ≠ obuiabat; 1pl.imperf.ind.act: obuiebamus ≠ obuiabamus
-- `extendo_v` (lexicon.json) 36/209 cells — ppp.nom.sg.masc: extensus ≠ extentus; ppp.nom.sg.fem: extensa ≠ extenta; ppp.nom.sg.neut: extensum ≠ extentum; ppp.gen.sg.masc: extensi ≠ extenti
-- `obtundo_v` (lexicon.json) 36/209 cells — ppp.nom.sg.masc: obtunsus ≠ obtusus; ppp.nom.sg.fem: obtunsa ≠ obtusa; ppp.nom.sg.neut: obtunsum ≠ obtusum; ppp.gen.sg.masc: obtunsi ≠ obtusi
-- `ostendo_v` (lexicon.json) 36/209 cells — ppp.nom.sg.masc: ostensus ≠ ostentus; ppp.nom.sg.fem: ostensa ≠ ostenta; ppp.nom.sg.neut: ostensum ≠ ostentum; ppp.gen.sg.masc: ostensi ≠ ostenti
-- `sono_v` (lexicon.json) 35/209 cells — ppp.nom.sg.fem: sonata ≠ sonita; ppp.nom.sg.neut: sonatum ≠ sonitum; ppp.gen.sg.masc: sonati ≠ soniti; ppp.gen.sg.fem: sonatae ≠ sonitae
-- `Mavors_n` (marvell-hortus/vocabulary) 1/6 cells — abl.sg: mauorti ≠ mauorte
-- `apis_n` (marvell-hortus/vocabulary) 1/6 cells — abl.sg: api ≠ ape
-- `arcus_n` (lexicon.json) 2/12 cells — dat.pl: arcibus ≠ arcubus; abl.pl: arcibus ≠ arcubus
-- `artus_n` (lexicon.json) 2/12 cells — dat.pl: artibus ≠ artubus; abl.pl: artibus ≠ artubus
-- `dea_n` (lexicon.json) 2/12 cells — dat.pl: deis ≠ deabus; abl.pl: deis ≠ deabus
-- `deucalion_n` (lexicon.json) 1/6 cells — acc.sg: deucaliona ≠ deucalionem
-- `enipeus_n` (lexicon.json) 1/6 cells — acc.sg: enipea ≠ enipeum
-- `jugerum_n` (lexicon.json) 2/12 cells — gen.pl: iugerorum ≠ iugerum; dat.pl: iugeris ≠ iugeribus
-- `juvenis_adj` (lexicon.json) 2/12 cells — abl.sg.masc: iuueni ≠ iuuene; abl.sg.fem: iuueni ≠ iuuene
-- `lycaon_adv` (lexicon.json) 1/6 cells — acc.sg: lycaona ≠ lycaonem
-- `nectar_n` (lexicon.json) 1/6 cells — abl.sg: nectari ≠ nectare
-- `phaethon_n` (lexicon.json) 1/6 cells — dat.sg: phaetnonti ≠ phaethonti
-- `tonitruo_adv` (lexicon.json) 2/12 cells — dat.sg: tonitru ≠ tonitrui; gen.pl: tonituum ≠ tonitruum
-- `dissaepio_v` (lexicon.json) 17/104 cells — 2sg.pres.ind.pass: dissaepere/dissaeperis ≠ dissaepire/dissaepiris; 1sg.imperf.subj.act: dissaeperem ≠ dissaepirem; 2sg.imperf.subj.act: dissaeperes ≠ dissaepires; 3sg.imperf.subj.act: dissaeperet ≠ dissaepiret
-- `facio_v` (lexicon.json) 33/209 cells — 2sg.pres.ind.pass: facere/faceris ≠ fis; 3sg.pres.ind.pass: facitur ≠ fit; inf.pres.pass: faci ≠ fieri; 1sg.pres.ind.pass: facior ≠ fio
-- `patefacio_v` (lexicon.json) 33/209 cells — 2sg.pres.ind.pass: patefacere/patefaceris ≠ patefis; 3sg.pres.ind.pass: patefacitur ≠ patefit; inf.pres.pass: patefaci ≠ patefieri; 1sg.pres.ind.pass: patefacior ≠ patefio
-- `caedo_v` (lexicon.json) 31/209 cells — 1sg.perf.ind.act: caecidi ≠ cecidi; 2sg.perf.ind.act: caecidisti ≠ cecidisti; 3sg.perf.ind.act: caecidit ≠ cecidit; 1pl.perf.ind.act: caecidimus ≠ cecidimus
-- `circumsono_v` (lexicon.json) 31/209 cells — 1sg.perf.ind.act: circumsonaui ≠ circumsonui; 2sg.perf.ind.act: circumsonauisti ≠ circumsonuisti; 3sg.perf.ind.act: circumsonauit ≠ circumsonuit; 1pl.perf.ind.act: circumsonauimus ≠ circumsonuimus
-- `desilio_v` (lexicon.json) 31/209 cells — 1sg.perf.ind.act: desiliui ≠ desilui; 2sg.perf.ind.act: desiliuisti ≠ desiluisti; 3sg.perf.ind.act: desiliuit ≠ desiluit; 1pl.perf.ind.act: desiliuimus ≠ desiluimus
-- `diffundo_v` (lexicon.json) 31/209 cells — 1sg.perf.ind.act: diffundi ≠ diffudi; 2sg.perf.ind.act: diffundisti ≠ diffudisti; 3sg.perf.ind.act: diffundit ≠ diffudit; 1pl.perf.ind.act: diffundimus ≠ diffudimus
-- `in-pello_v` (lexicon.json) 31/209 cells — 1sg.perf.ind.act: inpepuli ≠ inpuli; 2sg.perf.ind.act: inpepulisti ≠ inpulisti; 3sg.perf.ind.act: inpepulit ≠ inpulit; 1pl.perf.ind.act: inpepulimus ≠ inpulimus
-- `celeber_adj` (lexicon.json) 5/36 cells — nom.sg.fem: celeber ≠ celebris; nom.sg.neut: celeber ≠ celebre; acc.sg.neut: celeber ≠ celebre; voc.sg.fem: celeber ≠ celebris
-- `paluster_adj` (lexicon.json) 5/36 cells — nom.sg.fem: paluster ≠ palustris; nom.sg.neut: paluster ≠ palustre; acc.sg.neut: paluster ≠ palustre; voc.sg.fem: paluster ≠ palustris
 - `tertio_v` (lexicon.json) 24/178 cells — 1sg.imperf.ind.act: tertiebam ≠ tertiabam; 2sg.imperf.ind.act: tertiebas ≠ tertiabas; 3sg.imperf.ind.act: tertiebat ≠ tertiabat; 1pl.imperf.ind.act: tertiebamus ≠ tertiabamus
 - `quisquam_pron` (lexicon.json) 2/15 cells — acc.sg.fem: quamquam ≠ quemquam; abl.sg.fem: quaquam ≠ quiquam/quoquam
-- `anxio_v` (lexicon.json) 24/209 cells — 1sg.imperf.ind.act: anxiebam ≠ anxiabam; 2sg.imperf.ind.act: anxiebas ≠ anxiabas; 3sg.imperf.ind.act: anxiebat ≠ anxiabat; 1pl.imperf.ind.act: anxiebamus ≠ anxiabamus
-- `lanio_v` (lexicon.json) 24/209 cells — 1sg.imperf.ind.act: laniebam ≠ laniabam; 2sg.imperf.ind.act: laniebas ≠ laniabas; 3sg.imperf.ind.act: laniebat ≠ laniabat; 1pl.imperf.ind.act: laniebamus ≠ laniabamus
-- `medio_v` (lexicon.json) 24/209 cells — 1sg.imperf.ind.act: mediebam ≠ mediabam; 2sg.imperf.ind.act: mediebas ≠ mediabas; 3sg.imperf.ind.act: mediebat ≠ mediabat; 1pl.imperf.ind.act: mediebamus ≠ mediabamus
-- `pio_v` (lexicon.json) 24/209 cells — 1sg.imperf.ind.act: piebam ≠ piabam; 2sg.imperf.ind.act: piebas ≠ piabas; 3sg.imperf.ind.act: piebat ≠ piabat; 1pl.imperf.ind.act: piebamus ≠ piabamus
-- `saucio_v` (lexicon.json) 24/209 cells — 1sg.imperf.ind.act: sauciebam ≠ sauciabam; 2sg.imperf.ind.act: sauciebas ≠ sauciabas; 3sg.imperf.ind.act: sauciebat ≠ sauciabat; 1pl.imperf.ind.act: sauciebamus ≠ sauciabamus
-- `Python_n` (lexicon.json) 1/12 cells — acc.pl: pythonas ≠ pythones
-- `fors_n` (lexicon.json) 1/12 cells — gen.pl: fortum ≠ fortium
-- `inops_adj` (lexicon.json) 3/36 cells — gen.pl.masc: inopium ≠ inopum; gen.pl.fem: inopium ≠ inopum; gen.pl.neut: inopium ≠ inopum
-- `lucius_n` (lexicon.json) 1/12 cells — voc.sg: lucie ≠ luci
-- `mel_n` (lexicon.json) 1/12 cells — gen.pl: mellum ≠ mellium
-- `optimas_n` (lexicon.json) 1/12 cells — gen.pl: optimatum ≠ optimatium
-- `pars_n` (lexicon.json) 1/12 cells — gen.pl: partum ≠ partium
-- `ponto_n` (lexicon.json) 1/12 cells — gen.pl: pontonum ≠ pontonium
 - `quisquis_pron` (lexicon.json) 1/12 cells — acc.sg.fem: quemquem ≠ quamquam
-- `stirps_n` (lexicon.json) 1/12 cells — gen.pl: stirpum ≠ stirpium
-- `suboles_n` (lexicon.json) 1/12 cells — gen.pl: subolium ≠ subolum
-- `convicior_v` (lexicon.json) 12/145 cells — 1sg.imperf.ind.pass: conuiciebar ≠ conuiciabar; 2sg.imperf.ind.pass: conuiciebaris ≠ conuiciabare/conuiciabaris; 3sg.imperf.ind.pass: conuiciebatur ≠ conuiciabatur; 1pl.imperf.ind.pass: conuiciebamur ≠ conuiciabamur
-- `anguipes_adj` (lexicon.json) 2/30 cells — gen.pl.masc: anguipedum ≠ anguipedium; gen.pl.fem: anguipedum ≠ anguipedium
-- `queo_v` (lexicon.json) 6/139 cells — 1sg.pres.subj.pass: quiar ≠ quear; 2sg.pres.subj.pass: quiare/quiaris ≠ queare/quearis; 3sg.pres.subj.pass: quiatur ≠ queatur; 1pl.pres.subj.pass: quiamur ≠ queamur
-- `affero_v` (lexicon.json) 9/209 cells — inf.pres.act: afferere ≠ afferre; inf.pres.pass: afferi ≠ afferri; 1sg.imperf.subj.pass: affererer ≠ afferrer; 2sg.imperf.subj.pass: affererere/afferereris ≠ afferrere/afferreris
-- `aufero_v` (lexicon.json) 9/209 cells — inf.pres.act: auferere ≠ auferre; inf.pres.pass: auferi ≠ auferri; 1sg.imperf.subj.pass: aufererer ≠ auferrer; 2sg.imperf.subj.pass: aufererere/auferereris ≠ auferrere/auferreris
-- `differo_v` (lexicon.json) 9/209 cells — inf.pres.act: differere ≠ differre; inf.pres.pass: differi ≠ differri; 1sg.imperf.subj.pass: differerer ≠ differrer; 2sg.imperf.subj.pass: differerere/differereris ≠ differrere/differreris
-- `refero_v` (lexicon.json) 9/209 cells — inf.pres.act: referere ≠ referre; inf.pres.pass: referi ≠ referri; 1sg.imperf.subj.pass: refererer ≠ referrer; 2sg.imperf.subj.pass: refererere/referereris ≠ referrere/referreris
-- `nequeo_v` (lexicon.json) 6/174 cells — 1sg.pres.subj.pass: nequiar ≠ nequear; 2sg.pres.subj.pass: nequiare/nequiaris ≠ nequeare/nequearis; 3sg.pres.subj.pass: nequiatur ≠ nequeatur; 1pl.pres.subj.pass: nequiamur ≠ nequeamur
 - `quis_pron` (lexicon.json) 1/30 cells — abl.sg.fem: quo ≠ qua/qui
 - `tuus_pron` (lexicon.json) 1/30 cells — voc.sg.masc: tuus ≠ tue
-- `adeo_v` (lexicon.json) 6/209 cells — 1sg.pres.subj.pass: adiar ≠ adear; 2sg.pres.subj.pass: adiare/adiaris ≠ adeare/adearis; 3sg.pres.subj.pass: adiatur ≠ adeatur; 1pl.pres.subj.pass: adiamur ≠ adeamur
-- `coeo_v` (marvell-hortus/vocabulary) 6/209 cells — 1sg.pres.subj.pass: coiar ≠ coear; 2sg.pres.subj.pass: coiare/coiaris ≠ coeare/coearis; 3sg.pres.subj.pass: coiatur ≠ coeatur; 1pl.pres.subj.pass: coiamur ≠ coeamur
-- `exeo_v` (lexicon.json) 6/209 cells — 1sg.pres.subj.pass: exiar ≠ exear; 2sg.pres.subj.pass: exiare/exiaris ≠ exeare/exearis; 3sg.pres.subj.pass: exiatur ≠ exeatur; 1pl.pres.subj.pass: exiamur ≠ exeamur
-- `transeo_v` (lexicon.json) 6/209 cells — 1sg.pres.subj.pass: transiar ≠ transear; 2sg.pres.subj.pass: transiare/transiaris ≠ transeare/transearis; 3sg.pres.subj.pass: transiatur ≠ transeatur; 1pl.pres.subj.pass: transiamur ≠ transeamur
 - `alius_pron` (lexicon.json) 1/36 cells — voc.sg.masc: alius ≠ alie
 - `multus_pron` (lexicon.json) 1/36 cells — voc.sg.masc: multus ≠ multe
 - `nullus_pron` (lexicon.json) 1/36 cells — voc.sg.masc: nullus ≠ nulle
 - `solus_adj` (lexicon.json) 1/36 cells — voc.sg.masc: solus ≠ sole
 - `suus_pron` (lexicon.json) 1/36 cells — voc.sg.masc: suus ≠ sue
 - `totus_adj` (lexicon.json) 1/36 cells — voc.sg.masc: totus ≠ tote
-- `supersum_v` (lexicon.json) 1/37 cells — 1sg.fut.ind.act: supero ≠ superero
-- `eo_v` (lexicon.json) 3/112 cells — gerundive.nom.sg.masc: eundus ≠ eundum; 3sg.pres.subj.pass: iatur ≠ eatur; ppp.nom.sg.masc: itus ≠ itum
-- `prodeo_v` (lexicon.json) 3/112 cells — gerundive.nom.sg.masc: prodeundus ≠ prodeundum; 3sg.pres.subj.pass: prodiatur ≠ prodeatur; ppp.nom.sg.masc: proditus ≠ proditum
-- `redeo_v` (lexicon.json) 3/112 cells — gerundive.nom.sg.masc: redeundus ≠ redeundum; 3sg.pres.subj.pass: rediatur ≠ redeatur; ppp.nom.sg.masc: reditus ≠ reditum
 - `cuncto_v` (lexicon.json) 2/77 cells — gerundive.nom.sg.masc: cunctandus ≠ cunctandum; ppp.nom.sg.masc: cunctatus ≠ cunctatum
 - `cado_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: cadendus ≠ cadendum/cadundum; ppp.nom.sg.masc: casus ≠ casum
+- `eo_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: eundus ≠ eundum; ppp.nom.sg.masc: itus ≠ itum
+- `prodeo_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: prodeundus ≠ prodeundum; ppp.nom.sg.masc: proditus ≠ proditum
+- `redeo_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: redeundus ≠ redeundum; ppp.nom.sg.masc: reditus ≠ reditum
 - `sedeo_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: sedendus ≠ sedendum; ppp.nom.sg.masc: sessus ≠ sessum
 - `sto_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: standus ≠ standum; ppp.nom.sg.masc: status ≠ statum
 - `vivo_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: uiuendus ≠ uiuendum; ppp.nom.sg.masc: uictus ≠ uictum
 - `haereo_v` (lexicon.json) 2/117 cells — gerundive.nom.sg.masc: haerendus ≠ haerendum; ppp.nom.sg.masc: haesus ≠ haesum
-- `malo_v` (lexicon.json) 1/59 cells — inf.pres.act: malre ≠ malle
-- `nolo_v` (lexicon.json) 1/61 cells — inf.pres.act: nolre ≠ nolle
-- `abeo_v` (lexicon.json) 2/147 cells — 3sg.pres.subj.pass: abiatur ≠ abeatur; ppp.nom.sg.masc: abitus ≠ abitum
-- `pereo_v` (lexicon.json) 2/147 cells — gerundive.nom.sg.masc: pereundus ≠ pereundum; 3sg.pres.subj.pass: periatur ≠ pereatur
 - `rubeo_v` (lexicon.json) 1/85 cells — gerundive.nom.sg.masc: rubendus ≠ rubendum
-- `depereo_v` (marvell-hortus/vocabulary) 2/187 cells — 3sg.pres.subj.pass: deperiatur ≠ depereatur; 3pl.pres.subj.pass: deperiantur ≠ depereantur
 - `ferveo_v` (lexicon.json) 1/111 cells — gerundive.nom.sg.masc: feruendus ≠ feruendum
 - `madeo_v` (lexicon.json) 1/111 cells — gerundive.nom.sg.masc: madendus ≠ madendum
 - `refugio_v` (lexicon.json) 1/111 cells — gerundive.nom.sg.masc: refugiendus ≠ refugiendum/refugiundum
 - `resisto_v` (lexicon.json) 1/111 cells — gerundive.nom.sg.masc: resistendus ≠ resistendum/resistundum
 - `horreo_v` (lexicon.json) 1/116 cells — gerundive.nom.sg.masc: horrendus ≠ horrendum
-- `fio_v` (lexicon.json) 1/145 cells — inf.pres.act: fere ≠ fieri
-- … 9 more in the JSON detail
+- `abeo_v` (lexicon.json) 1/147 cells — ppp.nom.sg.masc: abitus ≠ abitum
+- `advenio_v` (lexicon.json) 1/147 cells — ppp.nom.sg.masc: aduentus ≠ aduentum
+- `consisto_v` (lexicon.json) 1/147 cells — ppp.nom.sg.masc: constitus ≠ constitum
+- `obsisto_v` (lexicon.json) 1/147 cells — gerundive.nom.sg.masc: obsistendus ≠ obsistendum/obsistundum
+- `pareo_v` (lexicon.json) 1/147 cells — ppp.nom.sg.masc: paritus ≠ paritum
+- `pereo_v` (lexicon.json) 1/147 cells — gerundive.nom.sg.masc: pereundus ≠ pereundum
+- `pervenio_v` (lexicon.json) 1/147 cells — ppp.nom.sg.masc: peruentus ≠ peruentum
+- `servio_v` (lexicon.json) 1/147 cells — ppp.nom.sg.masc: seruitus ≠ seruitum
+- `venio_v` (lexicon.json) 1/147 cells — ppp.nom.sg.masc: uentus ≠ uentum
+- `laboro_v` (lexicon.json) 1/152 cells — gerundive.nom.sg.masc: laborandus ≠ laborandum
+- `sculpo_v` (marvell-hortus/vocabulary) 1/152 cells — gerundive.nom.sg.masc: sculpendus ≠ sculpendum/sculpundum
 
 ## W7 — Card id doesn't match its pos / headword (64)
 
@@ -434,7 +359,7 @@ Sorted by the share of compared cells that disagree.
 - ovid-metamorphoses 138 **itum** → `eo_v` — token nom.sg; Wiktionary inv,ppp.nom.sg,sup.acc
 - ovid-metamorphoses 498 **comantur** → `como_v` — token 3pl.pres.ind.pass; Wiktionary 3pl.pres.subj.pass
 
-## T3 — Known lemma's reading missing from the token's candidates (331)
+## T3 — Known lemma's reading missing from the token's candidates (332)
 
 Grouped by the missing lemma (occurrences). Limited to lemmata that already have
 a card, i.e. a known word the token's candidate tabs don't offer.
@@ -501,6 +426,7 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - sōl ×1
 - aureus ×1
 - flōs ×1
+- tertiō ×1
 - vela ×1
 - tuor ×1
 - iter ×1
