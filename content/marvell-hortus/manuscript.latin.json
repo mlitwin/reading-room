@@ -1704,18 +1704,13 @@
           "surface": "novum",
           "lemma_id": "novus_adj",
           "parses": [
-            "nom.sg.neut",
-            "acc.sg.neut",
-            "acc.sg.masc",
-            "voc.sg.neut",
-            "nom.sg.neut",
             "acc.sg.masc",
             "acc.sg.neut",
+            "nom.sg.neut",
             "voc.sg.neut"
           ],
           "pos_hint": "adj",
-          "__data_matches": "novi_adj:nom.sg.neut,acc.sg.neut,acc.sg.masc,voc.sg.neut;novus_adj:nom.sg.neut,acc.sg.masc,acc.sg.neut,voc.sg.neut",
-          "selected_lemma_id": "novus_adj"
+          "__data_matches": "novus_adj:acc.sg.masc,acc.sg.neut,nom.sg.neut,voc.sg.neut"
         },
         {
           "kind": "punct",
@@ -2699,24 +2694,16 @@
           "surface": "viridis",
           "lemma_id": "viridis_adj",
           "parses": [
-            "nom.sg.masc",
-            "nom.sg.fem",
-            "gen.sg.masc",
             "gen.sg.fem",
+            "gen.sg.masc",
             "gen.sg.neut",
-            "voc.sg.masc",
+            "nom.sg.fem",
+            "nom.sg.masc",
             "voc.sg.fem",
-            "nom.sg.masc",
-            "gen.sg.masc",
-            "nom.sg.fem",
-            "gen.sg.fem",
-            "gen.sg.neut",
-            "voc.sg.masc",
-            "voc.sg.fem"
+            "voc.sg.masc"
           ],
           "pos_hint": "adj",
-          "__data_matches": "viride_adj:nom.sg.masc,nom.sg.fem,gen.sg.masc,gen.sg.fem,gen.sg.neut,voc.sg.masc,voc.sg.fem;viridis_adj:nom.sg.masc,gen.sg.masc,nom.sg.fem,gen.sg.fem,gen.sg.neut,voc.sg.masc,voc.sg.fem",
-          "selected_lemma_id": "viridis_adj"
+          "__data_matches": "viridis_adj:gen.sg.fem,gen.sg.masc,gen.sg.neut,nom.sg.fem,nom.sg.masc,voc.sg.fem,voc.sg.masc"
         },
         {
           "kind": "punct",
@@ -4541,13 +4528,15 @@
         {
           "kind": "word",
           "surface": "Superi",
-          "lemma_id": "superus_n",
+          "lemma_id": "superus_adj",
           "parses": [
             "gen.sg.masc",
+            "gen.sg.neut",
             "nom.pl.masc",
             "voc.pl.masc"
           ],
-          "pos_hint": "noun"
+          "pos_hint": "adj",
+          "__data_matches": "superus_adj:gen.sg.masc,gen.sg.neut,nom.pl.masc,voc.pl.masc"
         },
         {
           "kind": "punct",
@@ -6633,22 +6622,15 @@
           "surface": "sua",
           "lemma_id": "suus_pron",
           "parses": [
-            "nom.sg.fem",
-            "voc.sg.fem",
             "abl.sg.fem",
-            "nom.pl.neut",
             "acc.pl.neut",
+            "nom.pl.neut",
+            "nom.sg.fem",
             "voc.pl.neut",
-            "nom.sg.fem",
-            "nom.pl.neut",
-            "acc.pl.neut",
-            "abl.sg.fem",
-            "voc.sg.fem",
-            "voc.pl.neut"
+            "voc.sg.fem"
           ],
           "pos_hint": "pron",
-          "__data_matches": "sua_pron:nom.sg.fem,voc.sg.fem,abl.sg.fem;suum_n:nom.pl.neut,acc.pl.neut,voc.pl.neut;suus_pron:nom.sg.fem,nom.pl.neut,acc.pl.neut,abl.sg.fem,voc.sg.fem,voc.pl.neut",
-          "selected_lemma_id": "suus_pron"
+          "__data_matches": "suus_pron:abl.sg.fem,acc.pl.neut,nom.pl.neut,nom.sg.fem,voc.pl.neut,voc.sg.fem"
         },
         {
           "kind": "punct",

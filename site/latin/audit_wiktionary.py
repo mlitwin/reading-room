@@ -143,6 +143,7 @@ def token_candidates(t):
     return [t["lemma_id"]] if t.get("lemma_id") else []
 
 
+PARTICIPLE_PREFIX = {"ppp", "pap", "fap", "gerundive"}
 INVARIANT_CODES = {"inv", "indecl", "adv", "conj", "prep", "interj", "enclit", "num"}
 
 
@@ -213,6 +214,10 @@ def audit_tokens(cards, matched):
                                            "detail": "Wiktionary: " + ", ".join(offered)})
                     else:
                         wcodes = {strip_gender(c) for a in hits for c in a["codes"]}
+                        if card["pos"] != "verb":
+                            # Adjective card for a participle entry (dīrēctus).
+                            wcodes = {c.split(".", 1)[1] if c.split(".")[0] in PARTICIPLE_PREFIX else c
+                                      for c in wcodes}
                         tcodes = {strip_gender(c) for c in t.get("parses", [])}
                         invariant = "inv" in wcodes and tcodes & INVARIANT_CODES
                         # A bare headword match (no Wiktionary table, e.g. Nereus) or an

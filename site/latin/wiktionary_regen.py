@@ -68,9 +68,13 @@ def cell_value(forms):
     return forms[0] if len(forms) == 1 else forms
 
 
-def build_cells(entry, ok_atoms):
+def build_cells(entry, ok_atoms, pos=None):
     cells = {}
     for code, forms in (entry.get("cells") or {}).items():
+        if pos and pos != "verb" and entry.get("participle"):
+            # An adjective card built from a participle entry (dīrēctus):
+            # plain adjective codes, not ppp.-prefixed ones.
+            code = code.split(".", 1)[1] if code.startswith(f"{entry['participle']}.") else code
         if all(a in ok_atoms for a in code.split(".")):
             cells[code] = plain(forms)
     return cells
@@ -218,7 +222,7 @@ def touch_cells(card, entry, mode):
 
 def regen(card, glosses=False, etym=None):
     entry = match_entry(card, etym)
-    cells = build_cells(entry, atoms())
+    cells = build_cells(entry, atoms(), card["pos"])
     if card["pos"] == "noun" and entry.get("gender"):  # also corrects (murmur was masc)
         g = entry["gender"]
         card["gender"] = g[0] if len(g) == 1 else g
