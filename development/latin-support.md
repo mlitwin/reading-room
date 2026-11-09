@@ -119,10 +119,11 @@ declined under `ppp.`/`pap.`/`fap.`/`gerundive.` and folded into their parent
 verb's cells; sigmatic/aorist/potential forms and periphrastic "X + sum"
 descriptions are dropped.
 
-Current role is **audit only**: `audit_wiktionary.py` (`make
-latin-wiktionary-audit`) compares cards and token annotations with it and writes
-`site/latin/wiktionary-audit.md`. Nothing in the shipped data is derived from
-Wiktionary yet. Wiktionary content is CC BY-SA 4.0 — using it to generate cards
+`audit_wiktionary.py` (`make latin-wiktionary-audit`) compares cards and token
+annotations with it and writes `site/latin/wiktionary-audit.md`;
+`wiktionary_regen.py` rebuilds a card's paradigm/head from Wiktionary (or creates
+a new shared card with `--new`). Cards regenerated or created that way are
+Wiktionary-derived data. Wiktionary content is CC BY-SA 4.0 — using it to generate cards
 requires attribution (alongside the A&G credit) and share-alike terms for the
 derived lexicon data.
 

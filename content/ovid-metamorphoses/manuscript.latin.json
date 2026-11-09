@@ -4203,17 +4203,14 @@
         {
           "kind": "word",
           "surface": "ventis",
-          "lemma_id": "venio_v",
+          "lemma_id": "ventus_n",
           "parses": [
-            "ppp.dat.pl.masc",
-            "ppp.dat.pl.neut",
-            "ppp.dat.pl.fem",
-            "ppp.abl.pl.neut",
-            "ppp.abl.pl.fem",
-            "ppp.abl.pl.masc"
+            "abl.pl.masc",
+            "dat.pl.masc"
           ],
           "stanza": "vens",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "ventus_n:abl.pl.masc,dat.pl.masc"
         }
       ]
     },
@@ -4593,12 +4590,14 @@
         {
           "kind": "word",
           "surface": "partim",
-          "lemma_id": "pars_n",
+          "lemma_id": "partim_adv",
           "parses": [
             "adv"
           ],
           "stanza": "partim",
-          "pos_hint": "noun"
+          "pos_hint": "adv",
+          "__data_matches": "partim_adv:adv;pars_n:adv",
+          "selected_lemma_id": "partim_adv"
         },
         {
           "kind": "ws",
@@ -4704,12 +4703,14 @@
         {
           "kind": "word",
           "surface": "partim",
-          "lemma_id": "pars_n",
+          "lemma_id": "partim_adv",
           "parses": [
             "adv"
           ],
           "stanza": "partim",
-          "pos_hint": "noun"
+          "pos_hint": "adv",
+          "__data_matches": "partim_adv:adv;pars_n:adv",
+          "selected_lemma_id": "partim_adv"
         },
         {
           "kind": "ws",
@@ -6350,12 +6351,13 @@
         {
           "kind": "word",
           "surface": "ventos",
-          "lemma_id": "venio_v",
+          "lemma_id": "ventus_n",
           "parses": [
-            "ppp.acc.pl.masc"
+            "acc.pl.masc"
           ],
           "stanza": "ventus",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "ventus_n:acc.pl.masc"
         },
         {
           "kind": "punct",
@@ -7109,14 +7111,13 @@
         {
           "kind": "word",
           "surface": "sole",
-          "lemma_id": "soleo_v",
+          "lemma_id": "sol_n",
           "parses": [
-            "2sg.pres.imp.act",
             "abl.sg.masc"
           ],
           "stanza": "sol_n",
-          "pos_hint": "verb",
-          "__data_matches": "soleo_v:2sg.pres.imp.act;sol_n:abl.sg.masc"
+          "pos_hint": "noun",
+          "__data_matches": "sol_n:abl.sg.masc"
         },
         {
           "kind": "ws",
@@ -8218,13 +8219,14 @@
           "surface": "habitandae",
           "lemma_id": "habito_v",
           "parses": [
-            "nom.pl.fem",
-            "voc.pl.fem",
-            "dat.sg.fem",
-            "gen.sg.fem"
+            "gerundive.dat.sg.fem",
+            "gerundive.gen.sg.fem",
+            "gerundive.nom.pl.fem",
+            "gerundive.voc.pl.fem"
           ],
           "stanza": "habito_v",
-          "pos_hint": "verb"
+          "pos_hint": "verb",
+          "__data_matches": "habito_v:gerundive.dat.sg.fem,gerundive.gen.sg.fem,gerundive.nom.pl.fem,gerundive.voc.pl.fem"
         },
         {
           "kind": "ws",
@@ -9719,17 +9721,14 @@
         {
           "kind": "word",
           "surface": "conversa",
-          "lemma_id": "converro_v",
+          "lemma_id": "converto_v",
           "parses": [
-            "ppp.nom.sg.fem",
-            "ppp.voc.sg.fem",
-            "ppp.abl.sg.fem",
-            "ppp.nom.pl.neut",
-            "ppp.voc.pl.neut",
-            "ppp.acc.pl.neut"
+            "ppp.nom.sg.fem"
           ],
           "stanza": "converdo",
-          "pos_hint": "verb"
+          "pos_hint": "verb",
+          "__data_matches": "converto_v:ppp.nom.sg.fem;converro_v:ppp.nom.sg.fem,ppp.voc.sg.fem,ppp.abl.sg.fem,ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut",
+          "selected_lemma_id": "converto_v"
         },
         {
           "kind": "ws",
@@ -10108,14 +10107,16 @@
         {
           "kind": "word",
           "surface": "minantia",
-          "lemma_id": "mino_v",
+          "lemma_id": "minor_v",
           "parses": [
             "pap.nom.pl.neut",
-            "pap.voc.pl.neut",
-            "pap.acc.pl.neut"
+            "pap.acc.pl.neut",
+            "pap.voc.pl.neut"
           ],
           "stanza": "minaho",
-          "pos_hint": "verb"
+          "pos_hint": "verb",
+          "__data_matches": "minor_v:pap.nom.pl.neut,pap.acc.pl.neut,pap.voc.pl.neut;mino_v:pap.nom.pl.neut,pap.voc.pl.neut,pap.acc.pl.neut",
+          "selected_lemma_id": "minor_v"
         },
         {
           "kind": "ws",
@@ -13098,17 +13099,14 @@
         {
           "kind": "word",
           "surface": "ventis",
-          "lemma_id": "venio_v",
+          "lemma_id": "ventus_n",
           "parses": [
-            "ppp.dat.pl.masc",
-            "ppp.dat.pl.neut",
-            "ppp.dat.pl.fem",
-            "ppp.abl.pl.neut",
-            "ppp.abl.pl.fem",
-            "ppp.abl.pl.masc"
+            "abl.pl.masc",
+            "dat.pl.masc"
           ],
           "stanza": "vens",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "ventus_n:abl.pl.masc,dat.pl.masc"
         },
         {
           "kind": "ws",
@@ -13705,12 +13703,15 @@
         {
           "kind": "word",
           "surface": "saevior",
-          "lemma_id": "saevio_v",
+          "lemma_id": "saevus_adj",
           "parses": [
-            "1sg.pres.ind.pass"
+            "comp.nom.sg.fem",
+            "comp.nom.sg.masc"
           ],
           "stanza": "saevus_adj",
-          "pos_hint": "verb"
+          "pos_hint": "adj",
+          "__data_matches": "saevus_adj:comp.nom.sg.fem,comp.nom.sg.masc;saevio_v:1sg.pres.ind.pass",
+          "selected_lemma_id": "saevus_adj"
         },
         {
           "kind": "ws",
@@ -14063,10 +14064,12 @@
           "surface": "nefas",
           "lemma_id": "nefas_n",
           "parses": [
-            "adv"
+            "nom.sg.neut",
+            "acc.sg.neut"
           ],
           "stanza": "nefas_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "nefas_n:nom.sg.neut,acc.sg.neut"
         },
         {
           "kind": "punct",
@@ -14418,17 +14421,14 @@
         {
           "kind": "word",
           "surface": "ventis",
-          "lemma_id": "venio_v",
+          "lemma_id": "ventus_n",
           "parses": [
-            "ppp.dat.pl.masc",
-            "ppp.dat.pl.neut",
-            "ppp.dat.pl.fem",
-            "ppp.abl.pl.neut",
-            "ppp.abl.pl.fem",
-            "ppp.abl.pl.masc"
+            "abl.pl.masc",
+            "dat.pl.masc"
           ],
           "stanza": "vens",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "ventus_n:abl.pl.masc,dat.pl.masc"
         },
         {
           "kind": "ws"
@@ -19120,12 +19120,13 @@
         {
           "kind": "word",
           "surface": "recessu",
-          "lemma_id": "recedo_v",
+          "lemma_id": "recessus_n",
           "parses": [
-            "dat.sg.neut"
+            "abl.sg.masc"
           ],
           "stanza": "recessus",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "recessus_n:abl.sg.masc"
         },
         {
           "kind": "punct",
@@ -24421,12 +24422,14 @@
         {
           "kind": "word",
           "surface": "partim",
-          "lemma_id": "pars_n",
+          "lemma_id": "partim_adv",
           "parses": [
             "adv"
           ],
           "stanza": "partim",
-          "pos_hint": "noun"
+          "pos_hint": "adv",
+          "__data_matches": "partim_adv:adv;pars_n:adv",
+          "selected_lemma_id": "partim_adv"
         },
         {
           "kind": "ws",
@@ -24502,12 +24505,14 @@
         {
           "kind": "word",
           "surface": "partim",
-          "lemma_id": "pars_n",
+          "lemma_id": "partim_adv",
           "parses": [
             "adv"
           ],
           "stanza": "partim",
-          "pos_hint": "noun"
+          "pos_hint": "adv",
+          "__data_matches": "partim_adv:adv;pars_n:adv",
+          "selected_lemma_id": "partim_adv"
         },
         {
           "kind": "ws",
@@ -28721,7 +28726,7 @@
           ],
           "stanza": "late_adv",
           "pos_hint": "adv",
-          "selected_lemma_id": "lateo_v"
+          "__data_matches": "late_adv:adv"
         },
         {
           "kind": "ws",
@@ -30230,12 +30235,13 @@
         {
           "kind": "word",
           "surface": "cursu",
-          "lemma_id": "curro_v",
+          "lemma_id": "cursus_n",
           "parses": [
-            "dat.sg.neut"
+            "abl.sg.masc"
           ],
           "stanza": "cursus",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "cursus_n:abl.sg.masc"
         },
         {
           "kind": "punct",
@@ -33495,11 +33501,11 @@
           "surface": "victu",
           "lemma_id": "victus_n",
           "parses": [
-            "abl.sg"
+            "abl.sg.masc"
           ],
           "stanza": "victus_n",
           "pos_hint": "noun",
-          "selected_lemma_id": "vivo_v"
+          "__data_matches": "victus_n:abl.sg.masc"
         },
         {
           "kind": "punct",
@@ -39952,14 +39958,15 @@
         {
           "kind": "word",
           "surface": "liquores",
-          "lemma_id": "liquor_v",
+          "lemma_id": "liquor_n",
           "parses": [
             "acc.pl.masc",
             "nom.pl.masc",
             "voc.pl.masc"
           ],
           "stanza": "liquor_v",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "liquor_n:acc.pl.masc,nom.pl.masc,voc.pl.masc"
         }
       ]
     },
@@ -40586,13 +40593,14 @@
         {
           "kind": "word",
           "surface": "iustis",
-          "lemma_id": "justa_n",
+          "lemma_id": "iustus_adj",
           "parses": [
-            "dat.pl.neut",
-            "abl.pl.neut"
+            "abl.pl.fem",
+            "dat.pl.fem"
           ],
           "stanza": "iustus",
-          "pos_hint": "noun"
+          "pos_hint": "adj",
+          "__data_matches": "iustus_adj:abl.pl.fem,dat.pl.fem"
         }
       ]
     },
@@ -42183,10 +42191,12 @@
           "surface": "nefas",
           "lemma_id": "nefas_n",
           "parses": [
-            "adv"
+            "nom.sg.neut",
+            "acc.sg.neut"
           ],
           "stanza": "nefas_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "nefas_n:nom.sg.neut,acc.sg.neut"
         },
         {
           "kind": "ws",
@@ -44657,12 +44667,13 @@
         {
           "kind": "word",
           "surface": "iactu",
-          "lemma_id": "jacio_v",
+          "lemma_id": "iactus_n",
           "parses": [
-            "dat.sg.neut"
+            "abl.sg.masc"
           ],
           "stanza": "iactus",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "iactus_n:abl.sg.masc"
         },
         {
           "kind": "punct",
@@ -47118,11 +47129,13 @@
         {
           "kind": "word",
           "surface": "partim",
-          "lemma_id": "pars_n",
+          "lemma_id": "partim_adv",
           "parses": [
             "adv"
           ],
-          "pos_hint": "noun"
+          "pos_hint": "adv",
+          "__data_matches": "partim_adv:adv;pars_n:adv",
+          "selected_lemma_id": "partim_adv"
         },
         {
           "kind": "word",
@@ -47184,12 +47197,14 @@
         {
           "kind": "word",
           "surface": "partim",
-          "lemma_id": "pars_n",
+          "lemma_id": "partim_adv",
           "parses": [
             "adv"
           ],
           "stanza": "partim",
-          "pos_hint": "noun"
+          "pos_hint": "adv",
+          "__data_matches": "partim_adv:adv;pars_n:adv",
+          "selected_lemma_id": "partim_adv"
         },
         {
           "kind": "ws",
@@ -56995,12 +57010,13 @@
         {
           "kind": "word",
           "surface": "cursu",
-          "lemma_id": "curro_v",
+          "lemma_id": "cursus_n",
           "parses": [
-            "dat.sg.neut"
+            "abl.sg.masc"
           ],
           "stanza": "cursus",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "cursus_n:abl.sg.masc"
         }
       ]
     },
@@ -57212,15 +57228,15 @@
         {
           "kind": "word",
           "surface": "venti",
-          "lemma_id": "venio_v",
+          "lemma_id": "ventus_n",
           "parses": [
-            "ppp.nom.pl.masc",
-            "ppp.voc.pl.masc",
-            "ppp.gen.sg.neut",
-            "ppp.gen.sg.masc"
+            "nom.pl.masc",
+            "gen.sg.masc",
+            "voc.pl.masc"
           ],
           "stanza": "vens",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "ventus_n:nom.pl.masc,gen.sg.masc,voc.pl.masc"
         },
         {
           "kind": "punct",
@@ -60661,16 +60677,14 @@
         {
           "kind": "word",
           "surface": "coma",
-          "lemma_id": "como_v",
+          "lemma_id": "coma_n",
           "parses": [
-            "2sg.pres.imp.act",
-            "abl.sg.fem",
-            "nom.sg.fem",
-            "voc.sg.fem"
+            "nom.sg.fem"
           ],
           "stanza": "coma_n",
-          "pos_hint": "verb",
-          "__data_matches": "como_v:2sg.pres.imp.act;coma_n:abl.sg.fem,nom.sg.fem,voc.sg.fem"
+          "pos_hint": "noun",
+          "__data_matches": "coma_n:nom.sg.fem;como_v:2sg.pres.imp.act",
+          "selected_lemma_id": "coma_n"
         },
         {
           "kind": "punct",
@@ -61021,13 +61035,15 @@
         {
           "kind": "word",
           "surface": "Augustis",
-          "lemma_id": "augustus_n",
+          "lemma_id": "augustus_adj",
           "parses": [
             "abl.pl.masc",
             "dat.pl.masc"
           ],
           "stanza": "Augustis",
-          "pos_hint": "noun"
+          "pos_hint": "adj",
+          "__data_matches": "augustus_adj:abl.pl.masc,dat.pl.masc;augustus_n:abl.pl.masc,dat.pl.masc",
+          "selected_lemma_id": "augustus_adj"
         },
         {
           "kind": "ws",
@@ -62901,8 +62917,8 @@
             "nom.sg.masc"
           ],
           "pos_hint": "adj",
-          "selected_lemma_id": "lenio_v",
-          "stanza": "lenis_adj"
+          "stanza": "lenis_adj",
+          "__data_matches": "lenis_adj:nom.sg.masc"
         },
         {
           "kind": "word",
@@ -67679,10 +67695,11 @@
           "surface": "servandam",
           "lemma_id": "servo_v",
           "parses": [
-            "acc.sg.fem"
+            "gerundive.acc.sg.fem"
           ],
           "stanza": "servo_v",
-          "pos_hint": "verb"
+          "pos_hint": "verb",
+          "__data_matches": "servo_v:gerundive.acc.sg.fem"
         },
         {
           "kind": "ws",
@@ -70231,11 +70248,16 @@
         {
           "kind": "word",
           "surface": "casus",
-          "lemma_id": "cado_v",
+          "lemma_id": "casus_n",
           "parses": [
-            "ppp.nom.sg.masc"
+            "acc.pl.masc",
+            "nom.sg.masc",
+            "gen.sg.masc",
+            "nom.pl.masc"
           ],
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "casus_n:acc.pl.masc,nom.sg.masc,gen.sg.masc,nom.pl.masc;cado_v:ppp.nom.sg.masc",
+          "selected_lemma_id": "casus_n"
         },
         {
           "kind": "word",
@@ -71529,14 +71551,13 @@
         {
           "kind": "word",
           "surface": "secunda",
-          "lemma_id": "secunda_n",
+          "lemma_id": "secundus_adj",
           "parses": [
-            "nom.pl.neut",
-            "voc.pl.neut",
-            "acc.pl.neut"
+            "nom.sg.fem"
           ],
           "stanza": "secundus",
-          "pos_hint": "noun"
+          "pos_hint": "adj",
+          "__data_matches": "secundus_adj:nom.sg.fem"
         },
         {
           "kind": "ws",
@@ -71696,10 +71717,11 @@
           "surface": "habendus",
           "lemma_id": "habeo_v",
           "parses": [
-            "nom.sg.masc"
+            "gerundive.nom.sg.masc"
           ],
           "stanza": "habeo_v",
-          "pos_hint": "verb"
+          "pos_hint": "verb",
+          "__data_matches": "habeo_v:gerundive.nom.sg.masc"
         },
         {
           "kind": "punct",
@@ -72643,12 +72665,13 @@
         {
           "kind": "word",
           "surface": "partu",
-          "lemma_id": "pario_v",
+          "lemma_id": "partus_n",
           "parses": [
-            "dat.sg.neut"
+            "abl.sg.masc"
           ],
           "stanza": "pars_n",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "partus_n:abl.sg.masc"
         }
       ]
     },
@@ -76675,12 +76698,13 @@
         {
           "kind": "word",
           "surface": "ventos",
-          "lemma_id": "venio_v",
+          "lemma_id": "ventus_n",
           "parses": [
-            "ppp.acc.pl.masc"
+            "acc.pl.masc"
           ],
           "stanza": "ventus",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "ventus_n:acc.pl.masc"
         }
       ]
     },
@@ -79187,12 +79211,13 @@
         {
           "kind": "word",
           "surface": "mugitu",
-          "lemma_id": "mugio_v",
+          "lemma_id": "mugitus_n",
           "parses": [
-            "dat.sg.neut"
+            "abl.sg.masc"
           ],
           "stanza": "mugio_v",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "mugitus_n:abl.sg.masc"
         }
       ]
     },
@@ -80690,12 +80715,13 @@
         {
           "kind": "word",
           "surface": "more",
-          "lemma_id": "morior_v",
+          "lemma_id": "mos_n",
           "parses": [
-            "2sg.pres.imp.act"
+            "abl.sg.masc"
           ],
           "stanza": "mos",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "mos_n:abl.sg.masc"
         },
         {
           "kind": "ws",
@@ -81288,14 +81314,13 @@
         {
           "kind": "word",
           "surface": "Sole",
-          "lemma_id": "soleo_v",
+          "lemma_id": "sol_n",
           "parses": [
-            "2sg.pres.imp.act",
             "abl.sg.masc"
           ],
           "stanza": "sol_n",
-          "pos_hint": "verb",
-          "__data_matches": "soleo_v:2sg.pres.imp.act;sol_n:abl.sg.masc"
+          "pos_hint": "noun",
+          "__data_matches": "sol_n:abl.sg.masc"
         },
         {
           "kind": "ws",
@@ -81907,12 +81932,15 @@
         {
           "kind": "word",
           "surface": "convicia",
-          "lemma_id": "convicior_v",
+          "lemma_id": "convicium_n",
           "parses": [
-            "2sg.pres.imp.act"
+            "acc.pl.neut",
+            "nom.pl.neut",
+            "voc.pl.neut"
           ],
           "stanza": "convicium",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "convicium_n:acc.pl.neut,nom.pl.neut,voc.pl.neut"
         },
         {
           "kind": "ws",
@@ -83616,14 +83644,13 @@
         {
           "kind": "word",
           "surface": "Sole",
-          "lemma_id": "soleo_v",
+          "lemma_id": "sol_n",
           "parses": [
-            "2sg.pres.imp.act",
             "abl.sg.masc"
           ],
           "stanza": "sol_n",
-          "pos_hint": "verb",
-          "__data_matches": "soleo_v:2sg.pres.imp.act;sol_n:abl.sg.masc"
+          "pos_hint": "noun",
+          "__data_matches": "sol_n:abl.sg.masc"
         },
         {
           "kind": "ws",
@@ -84181,11 +84208,11 @@
           "lemma_id": "gradior_v",
           "parses": [
             "2sg.pres.imp.pass",
-            "2sg.pres.ind.pass",
-            "inf.pres.act"
+            "2sg.pres.ind.pass"
           ],
           "stanza": "grado",
-          "pos_hint": "verb"
+          "pos_hint": "verb",
+          "__data_matches": "gradior_v:2sg.pres.imp.pass,2sg.pres.ind.pass"
         },
         {
           "kind": "ws",

@@ -7,7 +7,7 @@ Read-only comparison of the lexicon cards and text annotations with Wiktionary. 
 a disagreement to look at, not an automatic error: Wiktionary covers Neo-Latin and proper names
 unevenly, and its paradigms list classical forms only. Full detail: `.tmp/wiktionary-audit.json`.
 
-Cards checked: 1886 (1722 matched to a Wiktionary entry).
+Cards checked: 1900 (1736 matched to a Wiktionary entry).
 
 | check | finding | count |
 |---|---|---|
@@ -15,12 +15,12 @@ Cards checked: 1886 (1722 matched to a Wiktionary entry).
 | W2 | Card headword is an inflected form / variant of another lemma | 49 |
 | W3 | No Wiktionary entry with the card's part of speech | 53 |
 | W4 | Noun gender disagrees | 7 |
-| W5 | Plurale tantum in Wiktionary, card has singular cells | 3 |
-| W6 | Paradigm cells Wiktionary doesn't give | 152 |
+| W5 | Plurale tantum in Wiktionary, card has singular cells | 0 |
+| W6 | Paradigm cells Wiktionary doesn't give | 129 |
 | W7 | Card id doesn't match its pos / headword | 64 |
-| T1 | Selected reading not among Wiktionary's analyses of the surface | 43 |
-| T2 | Selected lemma matches, but no parse does | 38 |
-| T3 | Known lemma's reading missing from the token's candidates | 311 |
+| T1 | Selected reading not among Wiktionary's analyses of the surface | 27 |
+| T2 | Selected lemma matches, but no parse does | 3 |
+| T3 | Known lemma's reading missing from the token's candidates | 331 |
 
 ## W1 — Card headword not in Wiktionary (62)
 
@@ -205,42 +205,18 @@ Cards checked: 1886 (1722 matched to a Wiktionary entry).
 - `pascua_n` (lexicon.json) — card neut, Wiktionary fem — pāscua f (genitive pāscuae); first declension; also a form of pāscuum, pāscuus
 - `vela_n` (lexicon.json) — card neut, Wiktionary fem — vela f (genitive velae); first declension; also a form of vēlum, vēlō
 
-## W5 — Plurale tantum in Wiktionary, card has singular cells (3)
-
-- `arma_n` (lexicon.json) — 6 singular cells — arma n pl (genitive armōrum); second declension
-- `justa_n` (lexicon.json) — 6 singular cells — iūsta n pl (genitive iūstōrum); second declension
-- `secunda_n` (lexicon.json) — 6 singular cells — secunda n pl (genitive secundōrum); second declension
-
-## W6 — Paradigm cells Wiktionary doesn't give (152)
+## W6 — Paradigm cells Wiktionary doesn't give (129)
 
 Sorted by the share of compared cells that disagree.
 
 - `arva_n` (lexicon.json) 6/6 cells — nom.sg: aruum ≠ arua; gen.sg: arui ≠ aruae; acc.sg: aruum ≠ aruam; dat.sg: aruo ≠ aruae
 - `cani_n` (lexicon.json) 2/2 cells — nom.sg: cania ≠ kaa; nom.pl: caniae ≠ kaas
 - `tueor_v` (lexicon.json) 36/36 cells — ppp.nom.sg.masc: tutus ≠ tuitus; ppp.nom.sg.fem: tuta ≠ tuita; ppp.nom.sg.neut: tutum ≠ tuitum; ppp.nom.pl.masc: tuti ≠ tuiti
-- `labor_v` (lexicon.json) 144/145 cells — 2sg.pres.ind.pass: labare/labaris ≠ labere/laberis; 3sg.pres.ind.pass: labatur ≠ labitur; 1pl.pres.ind.pass: labamur ≠ labimur; 2pl.pres.ind.pass: labamini ≠ labimini
-- `offero_v` (lexicon.json) 207/209 cells — 2sg.pres.ind.act: offeras ≠ offers; 3sg.pres.ind.act: offerat ≠ offert; 1pl.pres.ind.act: offeramus ≠ offerimus; 2pl.pres.ind.act: offeratis ≠ offertis
-- `liquor_v` (lexicon.json) 72/73 cells — 2sg.pres.ind.pass: liquare/liquaris ≠ liquere/liqueris; 3sg.pres.ind.pass: liquatur ≠ liquitur; 1pl.pres.ind.pass: liquamur ≠ liquimur; 2pl.pres.ind.pass: liquamini ≠ liquimini
-- `tuor_v` (lexicon.json) 37/38 cells — 2sg.pres.ind.pass: tuare/tuaris ≠ tuere/tueris; 3sg.pres.ind.pass: tuatur ≠ tuitur; 1pl.pres.ind.pass: tuamur ≠ tuimur; 2pl.pres.ind.pass: tuamini ≠ tuimini
-- `adsum_v` (lexicon.json) 62/64 cells — 2sg.pres.ind.act: adsumis ≠ ades; 3sg.pres.ind.act: adsumit ≠ adest; 1pl.pres.ind.act: adsumimus ≠ adsumus; 2pl.pres.ind.act: adsumitis ≠ adestis
-- `desino_v` (lexicon.json) 201/209 cells — 2sg.pres.ind.act: desinas ≠ desinis; 3sg.pres.ind.act: desinat ≠ desinit; 1pl.pres.ind.act: desinamus ≠ desinimus; 2pl.pres.ind.act: desinatis ≠ desinitis
-- `asper_adj` (lexicon.json) 34/36 cells — gen.sg.masc: aspri ≠ asperi; dat.sg.masc: aspro ≠ aspero; gen.sg.fem: asprae ≠ asperae; dat.sg.fem: asprae ≠ asperae
 - `armenta_n` (lexicon.json) 10/12 cells — nom.sg: armentum ≠ armenta; gen.sg: armenti ≠ armentae; acc.sg: armentum ≠ armentam; dat.sg: armento ≠ armentae
-- `lacus_n` (lexicon.json) 10/12 cells — gen.sg: laci ≠ lacus; dat.sg: laco ≠ lacui; abl.sg: laco ≠ lacu; nom.pl: laci ≠ lacus
 - `mala_n` (lexicon.json) 10/12 cells — nom.sg: malum ≠ mala; gen.sg: mali ≠ malae; acc.sg: malum ≠ malam; dat.sg: malo ≠ malae
 - `uter_n` (lexicon.json) 10/12 cells — gen.sg: utri ≠ utris; dat.sg: utro ≠ utri; acc.sg: utrum ≠ utrem; abl.sg: utro ≠ utre
 - `vela_n` (lexicon.json) 10/12 cells — nom.sg: uelum ≠ uela; gen.sg: ueli ≠ uelae; acc.sg: uelum ≠ uelam; dat.sg: uelo ≠ uelae
-- `soleo_v` (lexicon.json) 25/31 cells — 1sg.pres.ind.pass: soleor ≠ soleo; 2sg.pres.ind.pass: solere/soleris ≠ soles; 3sg.pres.ind.pass: soletur ≠ solet; 1pl.pres.ind.pass: solemur ≠ solemus
-- `edo_v` (lexicon.json) 140/174 cells — 2sg.pres.ind.act: edas ≠ edis; 3sg.pres.ind.act: edat ≠ edit; 1pl.pres.ind.act: edamus ≠ edimus; 2pl.pres.ind.act: edatis ≠ editis
-- `morior_v` (lexicon.json) 84/109 cells — ger.gen.sg: morendi ≠ moriendi; ger.dat.sg: morendo ≠ moriendo; ger.acc.sg: morendum ≠ moriendum; ger.abl.sg: morendo ≠ moriendo
-- `aio_v` (lexicon.json) 40/54 cells — inf.pres.act: are ≠ aiere; 2pl.pres.ind.act: atis ≠ aitis; 1sg.pres.subj.act: em ≠ aiam; 3sg.imperf.subj.act: aret ≠ aieret
-- `concolor_adj` (marvell-hortus/vocabulary) 22/30 cells — gen.sg.masc: concolori ≠ concoloris; dat.sg.masc: concoloro ≠ concolori; gen.sg.fem: concolorae ≠ concoloris; dat.sg.fem: concolorae ≠ concolori
 - `como_v` (lexicon.json) 104/142 cells — 2sg.pres.ind.act: comas ≠ comis; 3sg.pres.ind.act: comat ≠ comit; 1pl.pres.ind.act: comamus ≠ comimus; 2pl.pres.ind.act: comatis ≠ comitis
-- `fruor_v` (lexicon.json) 66/109 cells — 2sg.pres.ind.pass: fruare/fruaris ≠ fruere/frueris; 3sg.pres.ind.pass: fruatur ≠ fruitur; 1pl.pres.ind.pass: fruamur ≠ fruimur; 2pl.pres.ind.pass: fruamini ≠ fruimini
-- `experior_v` (lexicon.json) 84/145 cells — gerundive.nom.sg.masc: experendus ≠ experiendus; gerundive.nom.sg.fem: experenda ≠ experienda; gerundive.nom.sg.neut: experendum ≠ experiendum; gerundive.voc.sg.masc: experende ≠ experiende
-- `gradior_v` (lexicon.json) 84/145 cells — gerundive.nom.sg.masc: gradendus ≠ gradiendus/gradiundus; gerundive.nom.sg.fem: gradenda ≠ gradienda/gradiunda; gerundive.nom.sg.neut: gradendum ≠ gradiendum/gradiundum; gerundive.voc.sg.masc: gradende ≠ gradiende/gradiunde
-- `ingredior_v` (lexicon.json) 84/145 cells — gerundive.nom.sg.masc: ingredendus ≠ ingrediendus; gerundive.nom.sg.fem: ingredenda ≠ ingredienda; gerundive.nom.sg.neut: ingredendum ≠ ingrediendum; gerundive.voc.sg.masc: ingredende ≠ ingrediende
-- `oborior_v` (lexicon.json) 84/145 cells — gerundive.nom.sg.masc: oborendus ≠ oboriendus; gerundive.nom.sg.fem: oborenda ≠ oborienda; gerundive.nom.sg.neut: oborendum ≠ oboriendum; gerundive.voc.sg.masc: oborende ≠ oboriende
 - `laurus_n` (lexicon.json) 6/12 cells — dat.sg: laurui ≠ lauro; abl.sg: lauru ≠ lauro; gen.pl: lauruum ≠ laurorum; dat.pl: lauribus ≠ lauris
 - `requies_n` (lexicon.json) 6/12 cells — nom.pl: requies ≠ requietes; gen.pl: requierum ≠ requietum; dat.pl: requiebus ≠ requietibus; abl.pl: requiebus ≠ requietibus
 - `mentior_v` (lexicon.json) 48/109 cells — ger.gen.sg: mentendi ≠ mentiendi; ger.dat.sg: mentendo ≠ mentiendo; ger.acc.sg: mentendum ≠ mentiendum; ger.abl.sg: mentendo ≠ mentiendo
@@ -255,11 +231,6 @@ Sorted by the share of compared cells that disagree.
 - `vis_n` (lexicon.json) 4/12 cells — acc.sg: uem ≠ uim; gen.pl: uium ≠ uirium; dat.pl: uibus ≠ uiribus; abl.pl: uibus ≠ uiribus
 - `cano_v` (lexicon.json) 67/209 cells — 1sg.perf.ind.act: cani ≠ cecini; 2sg.perf.ind.act: canisti ≠ cecinisti; 3sg.perf.ind.act: canit ≠ cecinit; 1pl.perf.ind.act: canimus ≠ cecinimus
 - `exspatior_v` (lexicon.json) 12/39 cells — 1sg.imperf.ind.pass: exspatiebar ≠ exspatiabar; 2sg.imperf.ind.pass: exspatiebaris ≠ exspatiabare/exspatiabaris; 3sg.imperf.ind.pass: exspatiebatur ≠ exspatiabatur; 1pl.imperf.ind.pass: exspatiebamur ≠ exspatiabamur
-- `audeo_v` (lexicon.json) 33/109 cells — 1sg.pres.ind.pass: audeor ≠ audeo; 2sg.pres.ind.pass: audere/auderis ≠ audes; 3sg.pres.ind.pass: audetur ≠ audet; 1pl.pres.ind.pass: audemur ≠ audemus
-- `diffido_v` (lexicon.json) 33/109 cells — 2sg.pres.ind.pass: diffidere/diffideris ≠ diffidis; 3sg.pres.ind.pass: diffiditur ≠ diffidit; inf.pres.pass: diffidi ≠ diffidere; 1sg.pres.ind.pass: diffidor ≠ diffido
-- `fio_v` (lexicon.json) 33/109 cells — 2sg.pres.ind.pass: fere/feris ≠ fis; 3sg.pres.ind.pass: fitur ≠ fit; inf.pres.pass: fi ≠ fieri; 1sg.pres.ind.pass: fior ≠ fio
-- `gaudeo_v` (lexicon.json) 33/109 cells — 1sg.pres.ind.pass: gaudeor ≠ gaudeo; 2sg.pres.ind.pass: gaudere/gauderis ≠ gaudes; 3sg.pres.ind.pass: gaudetur ≠ gaudet; 1pl.pres.ind.pass: gaudemur ≠ gaudemus
-- `pudeo_v` (lexicon.json) 33/110 cells — 1sg.pres.ind.pass: pudeor ≠ pudeo; 2sg.pres.ind.pass: pudere/puderis ≠ pudes; 3sg.pres.ind.pass: pudetur ≠ pudet; 1pl.pres.ind.pass: pudemur ≠ pudemus
 - `saevio_v` (lexicon.json) 33/112 cells — 1sg.perf.ind.act: saeuiui ≠ saeuii; 2sg.perf.ind.act: saeuiuisti ≠ saeuiisti/saeuisti; 3sg.perf.ind.act: saeuiuit ≠ saeuiit/saeuit; 1pl.perf.ind.act: saeuiuimus ≠ saeuiimus/saeuimus
 - `pedis_n` (lexicon.json) 3/12 cells — gen.pl: pedum ≠ pedium; nom.sg: pes ≠ pedis; voc.sg: pes ≠ pedis
 - `nascor_v` (lexicon.json) 36/145 cells — gerundive.nom.sg.masc: nascendus ≠ nascundus; gerundive.nom.sg.fem: nascenda ≠ nascunda; gerundive.nom.sg.neut: nascendum ≠ nascundum; gerundive.voc.sg.masc: nascende ≠ nascunde
@@ -267,7 +238,6 @@ Sorted by the share of compared cells that disagree.
 - `dissocio_v` (lexicon.json) 24/104 cells — 1sg.imperf.ind.act: dissociebam ≠ dissociabam; 2sg.imperf.ind.act: dissociebas ≠ dissociabas; 3sg.imperf.ind.act: dissociebat ≠ dissociabat; 1pl.imperf.ind.act: dissociebamus ≠ dissociabamus
 - `pario_v` (lexicon.json) 24/104 cells — 1sg.imperf.ind.act: pariebam ≠ pariabam; 2sg.imperf.ind.act: pariebas ≠ pariabas; 3sg.imperf.ind.act: pariebat ≠ pariabat; 1pl.imperf.ind.act: pariebamus ≠ pariabamus
 - `dico_v` (lexicon.json) 48/209 cells — 2sg.pres.ind.act: dicas ≠ dicis; 3sg.pres.ind.act: dicat ≠ dicit; 1pl.pres.ind.act: dicamus ≠ dicimus; 2pl.pres.ind.act: dicatis ≠ dicitis
-- `placeo_v` (lexicon.json) 33/145 cells — 1sg.pres.ind.pass: placeor ≠ placeo; 2sg.pres.ind.pass: placere/placeris ≠ places; 3sg.pres.ind.pass: placetur ≠ placet; 1pl.pres.ind.pass: placemur ≠ placemus
 - `implecto_v` (marvell-hortus/vocabulary) 31/139 cells — 1sg.perf.ind.act: implexui ≠ implexi; 2sg.perf.ind.act: implexuisti ≠ implexisti; 3sg.perf.ind.act: implexuit ≠ implexit; 1pl.perf.ind.act: implexuimus ≠ impleximus
 - `chaos_adv` (lexicon.json) 1/5 cells — gen.sg: chaos ≠ chai
 - `subeo_v` (lexicon.json) 39/209 cells — 1sg.pres.ind.pass: subior ≠ subeor; 3pl.pres.ind.pass: subiuntur ≠ subeuntur; 1sg.imperf.ind.pass: subiebar ≠ subibar; 2sg.imperf.ind.pass: subiebare/subiebaris ≠ subibare/subibaris
@@ -335,7 +305,31 @@ Sorted by the share of compared cells that disagree.
 - `multus_pron` (lexicon.json) 1/36 cells — voc.sg.masc: multus ≠ multe
 - `nullus_pron` (lexicon.json) 1/36 cells — voc.sg.masc: nullus ≠ nulle
 - `solus_adj` (lexicon.json) 1/36 cells — voc.sg.masc: solus ≠ sole
-- … 32 more in the JSON detail
+- `suus_pron` (lexicon.json) 1/36 cells — voc.sg.masc: suus ≠ sue
+- `totus_adj` (lexicon.json) 1/36 cells — voc.sg.masc: totus ≠ tote
+- `supersum_v` (lexicon.json) 1/37 cells — 1sg.fut.ind.act: supero ≠ superero
+- `eo_v` (lexicon.json) 3/112 cells — gerundive.nom.sg.masc: eundus ≠ eundum; 3sg.pres.subj.pass: iatur ≠ eatur; ppp.nom.sg.masc: itus ≠ itum
+- `prodeo_v` (lexicon.json) 3/112 cells — gerundive.nom.sg.masc: prodeundus ≠ prodeundum; 3sg.pres.subj.pass: prodiatur ≠ prodeatur; ppp.nom.sg.masc: proditus ≠ proditum
+- `redeo_v` (lexicon.json) 3/112 cells — gerundive.nom.sg.masc: redeundus ≠ redeundum; 3sg.pres.subj.pass: rediatur ≠ redeatur; ppp.nom.sg.masc: reditus ≠ reditum
+- `cuncto_v` (lexicon.json) 2/77 cells — gerundive.nom.sg.masc: cunctandus ≠ cunctandum; ppp.nom.sg.masc: cunctatus ≠ cunctatum
+- `cado_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: cadendus ≠ cadendum/cadundum; ppp.nom.sg.masc: casus ≠ casum
+- `sedeo_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: sedendus ≠ sedendum; ppp.nom.sg.masc: sessus ≠ sessum
+- `sto_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: standus ≠ standum; ppp.nom.sg.masc: status ≠ statum
+- `vivo_v` (lexicon.json) 2/112 cells — gerundive.nom.sg.masc: uiuendus ≠ uiuendum; ppp.nom.sg.masc: uictus ≠ uictum
+- `haereo_v` (lexicon.json) 2/117 cells — gerundive.nom.sg.masc: haerendus ≠ haerendum; ppp.nom.sg.masc: haesus ≠ haesum
+- `malo_v` (lexicon.json) 1/59 cells — inf.pres.act: malre ≠ malle
+- `nolo_v` (lexicon.json) 1/61 cells — inf.pres.act: nolre ≠ nolle
+- `abeo_v` (lexicon.json) 2/147 cells — 3sg.pres.subj.pass: abiatur ≠ abeatur; ppp.nom.sg.masc: abitus ≠ abitum
+- `pereo_v` (lexicon.json) 2/147 cells — gerundive.nom.sg.masc: pereundus ≠ pereundum; 3sg.pres.subj.pass: periatur ≠ pereatur
+- `rubeo_v` (lexicon.json) 1/85 cells — gerundive.nom.sg.masc: rubendus ≠ rubendum
+- `depereo_v` (marvell-hortus/vocabulary) 2/187 cells — 3sg.pres.subj.pass: deperiatur ≠ depereatur; 3pl.pres.subj.pass: deperiantur ≠ depereantur
+- `ferveo_v` (lexicon.json) 1/111 cells — gerundive.nom.sg.masc: feruendus ≠ feruendum
+- `madeo_v` (lexicon.json) 1/111 cells — gerundive.nom.sg.masc: madendus ≠ madendum
+- `refugio_v` (lexicon.json) 1/111 cells — gerundive.nom.sg.masc: refugiendus ≠ refugiendum/refugiundum
+- `resisto_v` (lexicon.json) 1/111 cells — gerundive.nom.sg.masc: resistendus ≠ resistendum/resistundum
+- `horreo_v` (lexicon.json) 1/116 cells — gerundive.nom.sg.masc: horrendus ≠ horrendum
+- `fio_v` (lexicon.json) 1/145 cells — inf.pres.act: fere ≠ fieri
+- … 9 more in the JSON detail
 
 ## W7 — Card id doesn't match its pos / headword (64)
 
@@ -404,24 +398,16 @@ Sorted by the share of compared cells that disagree.
 - `vulgus_adv` (lexicon.json) — pos noun, id suffix _adv
 - `zephyrius_adv` (lexicon.json) — pos noun, id suffix _adv
 
-## T1 — Selected reading not among Wiktionary's analyses of the surface (43)
+## T1 — Selected reading not among Wiktionary's analyses of the surface (27)
 
 - marvell-hortus 8 **Vos** → `tu_pron` — Wiktionary: vōs (pron)
 - marvell-hortus 10 **vos** → `tu_pron` — Wiktionary: vōs (pron)
 - marvell-hortus 16 **vos** → `tu_pron` — Wiktionary: vōs (pron)
 - marvell-hortus 55 **intenta** → `intendo_v` — Wiktionary: intentus (adj), intentō (verb)
 - ovid-metamorphoses 2 **vos** → `tu_pron` — Wiktionary: vōs (pron)
-- ovid-metamorphoses 36 **ventis** → `venio_v` — Wiktionary: Venta (noun), ventus (noun)
 - ovid-metamorphoses 40 **diversa** → `diverto_v` — Wiktionary: dīversus (adj)
-- ovid-metamorphoses 56 **ventos** → `venio_v` — Wiktionary: ventus (noun)
 - ovid-metamorphoses 59 **diverso** → `diverto_v` — Wiktionary: dīversus (adj)
-- ovid-metamorphoses 63 **sole** → `soleo_v` — Wiktionary: Sōl (noun), sōl (noun), sōlus (adj)
-- ovid-metamorphoses 88 **conversa** → `converro_v` — Wiktionary: conversus (verb), conversō (verb), convertō (verb)
-- ovid-metamorphoses 91 **minantia** → `mino_v` — Wiktionary: minor (verb), mināns (verb)
 - ovid-metamorphoses 93 **tuti** → `tueor_v` — Wiktionary: tutum (noun), tūtus (adj)
-- ovid-metamorphoses 120 **ventis** → `venio_v` — Wiktionary: Venta (noun), ventus (noun)
-- ovid-metamorphoses 126 **saevior** → `saevio_v` — Wiktionary: saevior (adj), saevus (adj)
-- ovid-metamorphoses 132 **ventis** → `venio_v` — Wiktionary: Venta (noun), ventus (noun)
 - ovid-metamorphoses 173 **diversa** → `diverto_v` — Wiktionary: dīversus (adj)
 - ovid-metamorphoses 196 **tutos** → `tueor_v` — Wiktionary: tūtus (adj)
 - ovid-metamorphoses 197 **vos** → `tu_pron` — Wiktionary: vōs (pron)
@@ -434,64 +420,21 @@ Sorted by the share of compared cells that disagree.
 - ovid-metamorphoses 360 **consolante** → `consolo_v` — Wiktionary: cōnsōlor (verb), cōnsōlāns (verb)
 - ovid-metamorphoses 416 **diversis** → `diverto_v` — Wiktionary: dīversus (adj)
 - ovid-metamorphoses 469 **diversorum** → `diverto_v` — Wiktionary: dīversus (adj)
-- ovid-metamorphoses 527 **venti** → `venio_v` — Wiktionary: ventus (noun)
 - ovid-metamorphoses 530 **aucta** → `augeo_v` — Wiktionary: auctus (adj), auctō (verb)
 - ovid-metamorphoses 543 **citae** → `cieo_v` — Wiktionary: citus (adj), citus (verb)
-- ovid-metamorphoses 558 **coma** → `como_v` — Wiktionary: coma (noun)
-- ovid-metamorphoses 561 **Augustis** → `augustus_n` — Wiktionary: Augusta (noun), augustus (adj)
 - ovid-metamorphoses 566 **adnuit** → `annuo_v` — Wiktionary: adnuō (verb)
 - ovid-metamorphoses 594 **tuta** → `tueor_v` — Wiktionary: tutum (noun), tūtus (adj), tūtō (verb)
-- ovid-metamorphoses 648 **casus** → `cado_v` — Wiktionary: Casus (noun), cāsus (noun)
 - ovid-metamorphoses 665 **diversa** → `diverto_v` — Wiktionary: dīversus (adj)
-- ovid-metamorphoses 707 **ventos** → `venio_v` — Wiktionary: ventus (noun)
-- ovid-metamorphoses 751 **Sole** → `soleo_v` — Wiktionary: Sōl (noun), sōl (noun), sōlus (adj)
-- ovid-metamorphoses 756 **convicia** → `convicior_v` — Wiktionary: convīcium (noun)
-- ovid-metamorphoses 771 **Sole** → `soleo_v` — Wiktionary: Sōl (noun), sōl (noun), sōlus (adj)
 - ovid-metamorphoses 778 **Aethiopas** → `aethiops_n` — Wiktionary: aethiopus (adj), aethiopus (noun)
 - ovid-metamorphoses 778 **Indos** → `indus_n` — Wiktionary: Indus (adj), indus (adj)
 
-## T2 — Selected lemma matches, but no parse does (38)
+## T2 — Selected lemma matches, but no parse does (3)
 
-- marvell-hortus 27 **puduit** → `pudeo_v` — token 3sg.perf.ind.act; Wiktionary 3sg.perf.ind.pass
 - marvell-hortus 44 **meminit** → `memini_v` — token 3sg.perf.ind.act; Wiktionary 3sg.pres.ind.act
-- marvell-hortus 46 **fieret** → `fio_v` — token 3sg.imperf.subj.act; Wiktionary 3sg.imperf.subj.pass
-- ovid-metamorphoses 40 **partim** → `pars_n` — token adv; Wiktionary acc.sg
-- ovid-metamorphoses 41 **partim** → `pars_n` — token adv; Wiktionary acc.sg
-- ovid-metamorphoses 74 **habitandae** → `habito_v` — token dat.sg,gen.sg,nom.pl,voc.pl; Wiktionary gerundive.dat.sg,gerundive.gen.sg,gerundive.nom.pl,gerundive.voc.pl
-- ovid-metamorphoses 129 **nefas** → `nefas_n` — token adv; Wiktionary acc.sg,nom.sg
 - ovid-metamorphoses 138 **itum** → `eo_v` — token nom.sg; Wiktionary inv,ppp.nom.sg,sup.acc
-- ovid-metamorphoses 177 **recessu** → `recedo_v` — token dat.sg; Wiktionary sup.abl
-- ovid-metamorphoses 225 **placet** → `placeo_v` — token 3sg.pres.ind.act; Wiktionary 3sg.pres.ind.pass
-- ovid-metamorphoses 228 **partim** → `pars_n` — token adv; Wiktionary acc.sg
-- ovid-metamorphoses 229 **partim** → `pars_n` — token adv; Wiktionary acc.sg
-- ovid-metamorphoses 235 **gaudet** → `gaudeo_v` — token 3sg.pres.ind.act; Wiktionary 3sg.pres.ind.pass
-- ovid-metamorphoses 237 **fit** → `fio_v` — token 3sg.pres.ind.act; Wiktionary 3sg.pres.ind.pass
-- ovid-metamorphoses 260 **placet** → `placeo_v` — token 3sg.pres.ind.act; Wiktionary 3sg.pres.ind.pass
-- ovid-metamorphoses 268 **late** → `lateo_v` — token adv; Wiktionary 2sg.pres.imp.act
-- ovid-metamorphoses 269 **fit** → `fio_v` — token 3sg.pres.ind.act; Wiktionary 3sg.pres.ind.pass
-- ovid-metamorphoses 282 **cursu** → `curro_v` — token dat.sg; Wiktionary sup.abl
-- ovid-metamorphoses 312 **victu** → `vivo_v` — token abl.sg; Wiktionary sup.abl
-- ovid-metamorphoses 367 **Placuit** → `placeo_v` — token 3sg.perf.ind.act; Wiktionary 3sg.perf.ind.pass
-- ovid-metamorphoses 392 **nefas** → `nefas_n` — token adv; Wiktionary acc.sg,nom.sg
-- ovid-metamorphoses 397 **diffidunt** → `diffido_v` — token 3pl.pres.ind.act; Wiktionary 3pl.pres.ind.pass
-- ovid-metamorphoses 413 **iactu** → `jacio_v` — token dat.sg; Wiktionary sup.abl
-- ovid-metamorphoses 436 **partim** → `pars_n` — token adv; Wiktionary acc.sg
-- ovid-metamorphoses 437 **partim** → `pars_n` — token adv; Wiktionary acc.sg
 - ovid-metamorphoses 498 **comantur** → `como_v` — token 3pl.pres.ind.pass; Wiktionary 3pl.pres.subj.pass
-- ovid-metamorphoses 512 **placeas** → `placeo_v` — token 2sg.pres.subj.act; Wiktionary 2sg.pres.subj.pass
-- ovid-metamorphoses 525 **cursu** → `curro_v` — token dat.sg; Wiktionary sup.abl
-- ovid-metamorphoses 546 **placui** → `placeo_v` — token 1sg.perf.ind.act; Wiktionary 1sg.perf.ind.pass
-- ovid-metamorphoses 579 **lenis** → `lenio_v` — token nom.sg; Wiktionary 2sg.pres.ind.act
-- ovid-metamorphoses 624 **servandam** → `servo_v` — token acc.sg; Wiktionary gerundive.acc.sg
-- ovid-metamorphoses 639 **solebat** → `soleo_v` — token 3sg.imperf.ind.act; Wiktionary 3sg.imperf.ind.pass
-- ovid-metamorphoses 660 **habendus** → `habeo_v` — token nom.sg; Wiktionary gerundive.nom.sg
-- ovid-metamorphoses 669 **partu** → `pario_v` — token dat.sg; Wiktionary sup.abl
-- ovid-metamorphoses 732 **mugitu** → `mugio_v` — token dat.sg; Wiktionary sup.abl
-- ovid-metamorphoses 739 **fit** → `fio_v` — token 3sg.pres.ind.act; Wiktionary 3sg.pres.ind.pass
-- ovid-metamorphoses 740 **fit** → `fio_v` — token 3sg.pres.ind.act; Wiktionary 3sg.pres.ind.pass
-- ovid-metamorphoses 758 **Pudet** → `pudeo_v` — token 3sg.pres.ind.act; Wiktionary 3sg.pres.ind.pass
 
-## T3 — Known lemma's reading missing from the token's candidates (311)
+## T3 — Known lemma's reading missing from the token's candidates (331)
 
 Grouped by the missing lemma (occurrences). Limited to lemmata that already have
 a card, i.e. a known word the token's candidate tabs don't offer.
@@ -502,8 +445,10 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - modus ×14
 - sīnus ×11
 - Indus ×10
-- pariō ×7
+- pariō ×8
 - solum ×7
+- minor ×7
+- partus ×6
 - satus ×6
 - faciō ×5
 - sōlus ×4
@@ -520,6 +465,7 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - cōnsistō ×3
 - iuvencus ×3
 - alō ×2
+- recēdō ×2
 - discors ×2
 - medius ×2
 - āēr ×2
@@ -527,18 +473,17 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - viridis ×2
 - soleō ×2
 - vīs ×2
+- currō ×2
 - locus ×2
 - artus ×2
 - crēscō ×2
 - decet ×2
 - lūcus ×2
 - mānus ×2
-- mūgītus ×2
 - ignōscō ×2
 - labōrō ×1
 - flōreō ×1
 - longus ×1
-- recēdō ×1
 - lassō ×1
 - anhēlō ×1
 - cōnsors ×1
@@ -568,7 +513,9 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - vincō ×1
 - vīvō ×1
 - capitium ×1
+- iūsta ×1
 - versō ×1
+- iaciō ×1
 - speciēs ×1
 - truncus ×1
 - concors ×1
@@ -583,11 +530,14 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - lēna ×1
 - lēniō ×1
 - Arva ×1
+- mūgītus ×1
+- secunda ×1
 - malus ×1
 - māla ×1
 - praecingō ×1
 - Nīlus ×1
 - gemō ×1
+- mūgiō ×1
 - pēs ×1
 - dēmēns ×1
 - fīgō ×1

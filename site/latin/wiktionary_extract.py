@@ -226,9 +226,11 @@ def compact_entry(e):
     canonical = next((f["form"] for f in head_forms if "canonical" in f.get("tags", [])), e["word"])
     expansion = head_expansion(e)
     # Semi-deponents (placeō, fīō, diffīdō) are active in the present system.
-    full_dep = re.compile(r"(?<!semi-)deponent")
-    deponent = bool(full_dep.search(expansion)) or any(
-        full_dep.search(f.get("form", "")) for f in forms if "table-tags" in f.get("tags", []))
+    full_dep = re.compile(r"(?<!semi-)(?<!semi)deponent")
+    # The head line wins: soleō's table tag reads "deponent future" though the
+    # head says "optionally semi-deponent".
+    deponent = bool(full_dep.search(expansion)) or ("semi" not in expansion and any(
+        full_dep.search(f.get("form", "")) for f in forms if "table-tags" in f.get("tags", [])))
     genders, plural_only = head_gender(expansion, canonical) if pos == "noun" else ([], False)
 
     # Participles decline like adjectives; their codes carry the participle
