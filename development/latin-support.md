@@ -96,6 +96,36 @@ homograph digits) and returns `{key, orthography, pos, notes}` for a headword.
 This is the source of authoritative gloss/definition prose during placeholder
 curation, where DICTLINE's terse glosses are too thin.
 
+### Wiktionary (structured lexicon, cross-check)
+
+English Wiktionary's Latin entries, as extracted by
+[wiktextract](https://github.com/tatuylonen/wiktextract) and published at
+[kaikki.org](https://kaikki.org/), supply what DICTLINE and Whitaker's generator
+are weakest at: macronized headwords, gender and declension/conjugation class,
+plurale tantum, principal parts, concise modern glosses, complete inflection
+tables, homographs split by etymology (*populus* "people" vs *pōpulus*
+"poplar"), and form-of / alternative-of pointers (*veneris* → *Venus* gen.sg,
+*sylva* → *silva*).
+
+`wiktionary_extract.py fetch` streams the all-languages raw dump (~3 GB) and
+keeps the Latin entries (~890k) under gitignored `downloads/wiktionary/`;
+`build` preprocesses them into this repo's parse-code vocabulary and writes the
+committed subset `site/latin/sources/wiktionary-cache.json` (card headwords plus
+every attested surface, ~6 MB) — pinned to a dated dump so builds are
+reproducible, like `morpheus-cache.json`. `wiktionary_lookup.py` is the
+accessor. Preprocessing details that matter: deponent forms are flipped to this
+repo's `pass` convention (semi-deponents are not); participle entries are
+declined under `ppp.`/`pap.`/`fap.`/`gerundive.` and folded into their parent
+verb's cells; sigmatic/aorist/potential forms and periphrastic "X + sum"
+descriptions are dropped.
+
+Current role is **audit only**: `audit_wiktionary.py` (`make
+latin-wiktionary-audit`) compares cards and token annotations with it and writes
+`site/latin/wiktionary-audit.md`. Nothing in the shipped data is derived from
+Wiktionary yet. Wiktionary content is CC BY-SA 4.0 — using it to generate cards
+requires attribution (alongside the A&G credit) and share-alike terms for the
+derived lexicon data.
+
 ### Perseus TEI corpora (canonical text, translation, grammar)
 
 The primary texts and the reference grammar are vendored TEI XML under
@@ -120,6 +150,7 @@ The primary texts and the reference grammar are vendored TEI XML under
 | Whitaker's WORDS | sibling `whitakers_words/` clone | dictionary + inflection tables | `lexicon.json` cards, paradigms | `seed_vocab.py`, `draft_placeholder_curation.py` |
 | Stanza `la` model | `site/latin/.venv/` (gitignored) | neural (embeddings) | `data-stanza` reading, editorial QA | `stanza_editorial.py` |
 | Lewis & Short | `sources/lewis-short-json/` (vendored git) | dictionary prose | gloss curation | `ls_lookup.py` |
+| Wiktionary (wiktextract) | `sources/wiktionary-cache.json` (+ gitignored full extract) | structured lexicon | audit (`wiktionary-audit.md`) | `wiktionary_lookup.py` |
 | Ovid Latin TEI | `sources/…perseus-lat2.xml` | canonical text | `sources/cards/` | `ingest_perseus.py` |
 | Ovid translation TEI | `sources/…perseus-eng3.xml` | translation | page scribing | `ingest_translation.py` |
 | A&G grammar TEI | `sources/…perseus-eng1.xml` | reference grammar | `reference-grammar.json` | `ingest_ag.py` |

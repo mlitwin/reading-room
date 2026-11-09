@@ -1,7 +1,8 @@
 .PHONY: install build serve clean test validate node-test manuscript-md \
         latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
         latin-translate-ingest latin-scribe-book1 latin-stanza-editorial \
-        latin-stanza-annotate latin-stanza-annotate-all latin-normalize-surface
+        latin-stanza-annotate latin-stanza-annotate-all latin-normalize-surface \
+        latin-wiktionary-fetch latin-wiktionary-cache latin-wiktionary-audit
 
 install:
 	cd site/generator && npm install
@@ -84,6 +85,19 @@ latin-seed: latin-spans
 latin-audit: validate
 	@echo "latin-audit: now sourced from the Node validation framework (make validate)."
 	@echo "             The legacy audit_latin.py is retired; see site/latin/README.md."
+
+# Wiktionary (kaikki.org wiktextract) as a lexical cross-check. `fetch` streams
+# the ~3 GB all-languages dump once and keeps Latin under downloads/ (gitignored);
+# `cache` rebuilds the committed site/latin/sources/wiktionary-cache.json;
+# `audit` compares cards and annotations with it (site/latin/wiktionary-audit.md).
+latin-wiktionary-fetch:
+	@python3 site/latin/wiktionary_extract.py fetch
+
+latin-wiktionary-cache:
+	@python3 site/latin/wiktionary_extract.py build
+
+latin-wiktionary-audit:
+	@python3 site/latin/audit_wiktionary.py
 
 latin-translate-ingest:
 	@python3 site/latin/ingest_translation.py

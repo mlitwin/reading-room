@@ -98,3 +98,16 @@ WebView bridges, and the TestFlight/fastlane release flow.
 validation suites on every push and PR to `main`. It is read-only; structural
 errors fail the job, editorial-backlog warnings do not. The Pages deploy is
 handled separately (the committed `docs/` is served directly).
+
+## License
+
+Two licenses, split by what the files are:
+
+- **Code** — the generator and reader (`site/`), the iOS app (`app/`), and the
+  build tooling — is under the [MIT License](LICENSE).
+- **Content and data** — texts, notes, and Latin language data (`content/`), the
+  generated site (`docs/`), and the vendored source data (`site/latin/sources/`)
+  — is under [CC BY-SA 4.0](LICENSE-CONTENT.md), as required by the
+  Perseus, Allen & Greenough, Lewis & Short, and Wiktionary material it builds
+  on. [LICENSE-CONTENT.md](LICENSE-CONTENT.md) lists every source and gives a
+  credit line for reuse.
