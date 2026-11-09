@@ -56,6 +56,11 @@ def surface_codes(card):
         suffix = card["id"].rsplit("_", 1)[-1]
         for form in [card["lemma"], *(card.get("alt_forms") or [])]:
             out.setdefault(norm(form), set()).add(suffix)
+    else:
+        # Suppletive / supine / variant forms outside the grid: the glossary
+        # gives them the "alt" marker (build-glossary.js expandLemmaForms).
+        for form in card.get("alt_forms") or []:
+            out.setdefault(norm(form), set()).add("alt")
     return {k: sorted(v) for k, v in out.items()}
 
 

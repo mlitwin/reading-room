@@ -283,3 +283,23 @@ framework. The parse-code vocabulary is closed under validation: every atom in
 a lexicon cell key, glossary parse, or concordance parse must be defined in
 `grammar.json` (invariants L10/Gl6/C12, shared helper
 `site/generator/validate/parse-atoms.js`).
+
+Validation checks the *current sources*, not the last build: the glossary is
+always derived from the lexicon in memory, and the concordance from the chapter
+markdown when present (CI, without it, falls back to the committed `docs/`).
+Other guards worth knowing:
+
+- **C13** (warning) enforces soft disambiguation: every lemma the glossary
+  gives a surface must be offered by the token. Adding or regenerating a card
+  can create new readings for existing tokens; the warning is the prompt to add
+  them (as back tabs — the editorial choice stays in front).
+- **V4**: a book's tokens may use only shared cards or that book's own
+  `vocabulary/` overlay — the build resolves each page that way, so a token on
+  another book's overlay card would abort the build. Promote shared vocabulary
+  to `lexicon.json`.
+- `build-manuscript-md` fails on a `selected_lemma_id` that isn't one of the
+  token's readings (the concordance builder would otherwise drop it silently).
+
+**Homograph ids.** Two lemmata with the same headword and part of speech take
+Lewis & Short's homograph number on the second: `populus_n` (people) /
+`populus2_n` (pōpulus, poplar), `os_n` (ōs, mouth) / `os2_n` (os, bone).

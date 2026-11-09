@@ -459,4 +459,33 @@ export const concordanceInvariants = [
       return violations;
     },
   },
+  {
+    id: 'C13',
+    description: 'Every reading the lexicon yields for a surface is offered by the token',
+    // Soft disambiguation (development/latin-support.md): data-matches lists
+    // every candidate lemma; editorial choice only orders the tabs. A card
+    // added or regenerated later can make an existing token's surface a form
+    // of a new lemma — backlog, not corruption, hence a warning.
+    severity: 'warning',
+    /** @param {Concordance} c */
+    check(c, ctx) {
+      /** @type {Violation[]} */
+      const violations = [];
+      for (const [id, tok] of Object.entries(c.tokens)) {
+        if (tok.pos_hint === 'enclitic') continue;
+        const entry = ctx.glossary.entries[tok.surface];
+        if (!entry) continue;
+        const offered = new Set(tok.candidates.map((x) => x.lemma_id));
+        for (const cand of entry.candidates) {
+          if (!offered.has(cand.lemma_id)) {
+            violations.push({
+              path: `tokens.${id}.candidates`,
+              message: `"${tok.surface}" is also a form of "${cand.lemma_id}" (${cand.parses.slice(0, 3).join(', ')}), not offered`,
+            });
+          }
+        }
+      }
+      return violations;
+    },
+  },
 ];

@@ -160,3 +160,22 @@ test('C12 flags a parse atom not defined in grammar', () => {
   assert.equal(inv.passed, false);
   assert.match(inv.violations[0].message, /"ppl"/);
 });
+
+test('C13 flags a glossary reading the token does not offer', () => {
+  const g = structuredClone(glossary);
+  g.entries.leo.candidates.push({ lemma_id: 'leo_v', parses: ['1sg.pres.ind.act'] });
+  const report = runSuite('concordance', concordanceInvariants, okConcordance, { grammar, glossary: g, lexicon });
+  const inv = report.invariants.find((x) => x.id === 'C13');
+  assert.equal(inv.passed, false);
+  assert.equal(inv.severity, 'warning');
+  assert.match(inv.violations[0].message, /also a form of "leo_v"/);
+});
+
+test('C13 passes when the token offers every glossary reading', () => {
+  const g = structuredClone(glossary);
+  g.entries.leo.candidates.push({ lemma_id: 'leo_v', parses: ['1sg.pres.ind.act'] });
+  const c = structuredClone(okConcordance);
+  c.tokens['b1-01-001'].candidates.push({ lemma_id: 'leo_v', parses: ['1sg.pres.ind.act'] });
+  const report = runSuite('concordance', concordanceInvariants, c, { grammar, glossary: g, lexicon });
+  assert.equal(report.invariants.find((x) => x.id === 'C13').passed, true);
+});
