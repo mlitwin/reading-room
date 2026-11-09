@@ -623,9 +623,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -1119,9 +1116,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -1245,9 +1239,6 @@
             "ppp.acc.pl.neut"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -1845,9 +1836,6 @@
           "pos_hint": "conj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -2209,9 +2197,6 @@
             "3sg.imperf.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -2913,9 +2898,6 @@
           "selected_lemma_id": "caecus_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -3191,9 +3173,6 @@
           "selected_lemma_id": "summa_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -3377,9 +3356,6 @@
           "selected_lemma_id": "locus_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -3458,9 +3434,6 @@
             "acc.pl.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -3668,9 +3641,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -3854,9 +3824,6 @@
             "ppp.acc.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -4204,9 +4171,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -4456,9 +4420,6 @@
             "nom.sg.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -4763,9 +4724,6 @@
             "dat.sg.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -5091,9 +5049,6 @@
           "pos_hint": "conj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -5163,9 +5118,6 @@
             "adv"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -5455,9 +5407,6 @@
             "adv"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -5755,9 +5704,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -5794,9 +5740,6 @@
             "acc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -7266,9 +7209,6 @@
           "pos_hint": "num"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -7415,9 +7355,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -8211,9 +8148,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -8498,9 +8432,6 @@
           "pos_hint": "verb",
           "__data_matches": "mentior_v:2sg.pres.ind.act;mens_n:gen.sg.fem",
           "selected_lemma_id": "mens_n"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -8946,9 +8877,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -9290,9 +9218,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -9460,9 +9385,6 @@
             "acc.sg.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -10066,9 +9988,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -10128,9 +10047,6 @@
             "nom.sg.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -10678,9 +10594,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "pron"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -11260,9 +11173,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -11457,9 +11367,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -11586,9 +11493,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -11643,9 +11547,6 @@
             "acc.pl.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -11927,9 +11828,6 @@
             "gen.sg.masc"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -12392,9 +12290,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -12867,9 +12762,6 @@
           "pos_hint": "prep"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -12907,9 +12799,6 @@
             "nom.sg.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -13656,9 +13545,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -14229,9 +14115,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -14255,9 +14138,6 @@
             "nom.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -14351,9 +14231,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -14375,9 +14252,6 @@
             "gen.sg.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -14402,9 +14276,6 @@
             "nom.pl.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -14837,9 +14708,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -15102,9 +14970,6 @@
             "acc.pl.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -15506,9 +15371,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -15661,9 +15523,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -16690,9 +16549,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -17223,9 +17079,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -17552,9 +17405,6 @@
             "gen.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -18154,9 +18004,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -18601,9 +18448,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -18659,9 +18503,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -18916,9 +18757,6 @@
             "gen.sg.masc"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -19360,9 +19198,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -19462,9 +19297,6 @@
           "pos_hint": "adv"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -19485,9 +19317,6 @@
             "adv"
           ],
           "pos_hint": "adv"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -20948,9 +20777,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -21442,9 +21268,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -21465,9 +21288,6 @@
             "1sg.pres.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -21619,9 +21439,6 @@
             "dat.pl.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -22014,9 +21831,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -22312,9 +22126,6 @@
             "abl.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -23795,9 +23606,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -25022,9 +24830,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -25091,9 +24896,6 @@
             "adv"
           ],
           "pos_hint": "adv"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -25222,9 +25024,6 @@
             "ppp.gen.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -26419,9 +26218,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -26923,9 +26719,6 @@
           "selected_lemma_id": "fera_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "ne",
           "lemma_id": "ne_adv",
@@ -27194,9 +26987,6 @@
             "acc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -27591,9 +27381,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -27826,9 +27613,6 @@
             "2sg.pres.imp.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -28489,9 +28273,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -28855,9 +28636,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -28878,9 +28656,6 @@
             "nom.sg.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -28909,9 +28684,6 @@
             "adv"
           ],
           "pos_hint": "conj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -29267,9 +29039,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -29436,9 +29205,6 @@
             "gen.sg.masc"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -30619,9 +30385,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -30847,9 +30610,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -30870,9 +30630,6 @@
             "acc.pl.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -30907,9 +30664,6 @@
           "pos_hint": "verb",
           "__data_matches": "tego_v:ppp.nom.pl.neut,ppp.voc.pl.neut,ppp.acc.pl.neut,ppp.abl.sg.fem,ppp.nom.sg.fem,ppp.voc.sg.fem;tectum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
           "selected_lemma_id": "tectum_n"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -31072,9 +30826,6 @@
             "3sg.perf.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -31269,9 +31020,6 @@
             "ppp.gen.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -32559,9 +32307,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -32582,9 +32327,6 @@
             "acc.pl.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -32625,9 +32367,6 @@
             "acc.pl.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -32749,9 +32488,6 @@
             "ppp.voc.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -33145,9 +32881,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -33453,9 +33186,6 @@
             "3pl.imperf.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -34269,9 +33999,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -34649,9 +34376,6 @@
             "acc.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -35425,9 +35149,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -35655,9 +35376,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -35767,9 +35485,6 @@
             "adv"
           ],
           "pos_hint": "adv"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -35960,9 +35675,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -36034,9 +35746,6 @@
             "nom.sg.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -37230,9 +36939,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -37390,9 +37096,6 @@
           "pos_hint": "adv"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -37509,9 +37212,6 @@
             "acc.sg.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -39063,9 +38763,6 @@
           "pos_hint": "conj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -40497,9 +40194,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -40650,9 +40344,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -40708,9 +40399,6 @@
             "dat.sg.masc"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -41326,9 +41014,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -41450,9 +41135,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -41507,9 +41189,6 @@
             "acc.pl.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -41653,9 +41332,6 @@
             "3sg.pres.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -41826,9 +41502,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -41926,9 +41599,6 @@
             "3sg.pres.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -42494,9 +42164,6 @@
             "acc.sg.masc"
           ],
           "pos_hint": "pron"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -43179,9 +42846,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -43218,9 +42882,6 @@
             "acc.pl.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -43583,9 +43244,6 @@
           "selected_lemma_id": "suus_pron"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -43622,9 +43280,6 @@
             "inf.pres.pass"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -43668,9 +43323,6 @@
             "ppp.voc.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -43774,9 +43426,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -44123,9 +43772,6 @@
             "dat.pl.neut"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -44501,9 +44147,6 @@
             "inf.pres.pass"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -45107,9 +44750,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -45510,9 +45150,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -45536,9 +45173,6 @@
             "gen.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -45615,9 +45249,6 @@
           "pos_hint": "verb",
           "__data_matches": "fecundo_v:2sg.pres.imp.act;fecundus_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem",
           "selected_lemma_id": "fecundus_adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -45795,9 +45426,6 @@
             "acc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -46075,9 +45703,6 @@
             "dat.sg.masc"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -46494,9 +46119,6 @@
           "selected_lemma_id": "suus_pron"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -46833,9 +46455,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -46856,9 +46475,6 @@
             "1sg.pres.ind.pass"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -47409,9 +47025,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -47510,9 +47123,6 @@
             "adv"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -47808,9 +47418,6 @@
             "dat.pl.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -48178,9 +47785,6 @@
             "dat.pl.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -48763,9 +48367,6 @@
           "selected_lemma_id": "pes_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "ve",
           "lemma_id": "ve_enclit",
@@ -48788,9 +48389,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -48939,9 +48537,6 @@
             "dat.sg.masc"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -49503,10 +49098,6 @@
         {
           "kind": "punct",
           "text": "”"
-        },
-        {
-          "kind": "ws",
-          "text": "  "
         },
         {
           "kind": "word",
@@ -50487,9 +50078,6 @@
             "adv"
           ],
           "pos_hint": "adv"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -51689,9 +51277,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -51768,9 +51353,6 @@
             "ppp.gen.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -52050,9 +51632,6 @@
             "nom.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -53213,9 +52792,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -53349,9 +52925,6 @@
           "selected_lemma_id": "video_v"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -53480,9 +53053,6 @@
           "selected_lemma_id": "suus_pron"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -53553,9 +53123,6 @@
             "adv"
           ],
           "pos_hint": "conj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -54482,9 +54049,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -54508,9 +54072,6 @@
             "nom.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -54537,9 +54098,6 @@
             "acc.pl.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -55454,9 +55012,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "ve",
           "lemma_id": "ve_enclit",
@@ -55750,9 +55305,6 @@
             "acc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -56061,9 +55613,6 @@
           "selected_lemma_id": "grex_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -56194,9 +55743,6 @@
             "adv"
           ],
           "pos_hint": "adv"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -56499,9 +56045,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -56522,9 +56065,6 @@
             "3sg.perf.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -56549,9 +56089,6 @@
             "3sg.pres.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -56984,9 +56521,6 @@
             "voc.sg.masc"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -57708,9 +57242,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -57924,9 +57455,6 @@
           "selected_lemma_id": "augeo_v"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -58134,9 +57662,6 @@
             "adv"
           ],
           "pos_hint": "conj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -58884,9 +58409,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -59227,9 +58749,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -59265,9 +58784,6 @@
             "dat.sg.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -59471,9 +58987,6 @@
             "ppp.gen.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -60464,9 +59977,6 @@
             "ppp.voc.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -61630,9 +61140,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -61687,9 +61194,6 @@
             "adv"
           ],
           "pos_hint": "conj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -62038,9 +61542,6 @@
             "adv"
           ],
           "pos_hint": "conj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -62597,9 +62098,6 @@
           "selected_lemma_id": "summa_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -63075,9 +62573,6 @@
           "selected_lemma_id": "nympha_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -63251,9 +62746,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "ne",
           "lemma_id": "ne_adv",
@@ -63413,9 +62905,6 @@
           "stanza": "lenis_adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -63484,9 +62973,6 @@
             "adv"
           ],
           "pos_hint": "adv"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -63765,9 +63251,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -63862,9 +63345,6 @@
             "acc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -63975,9 +63455,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -64454,9 +63931,6 @@
             "dat.sg.masc"
           ],
           "pos_hint": "pron"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -65421,9 +64895,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -65621,9 +65092,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -65658,9 +65126,6 @@
             "3sg.perf.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -66496,9 +65961,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -66607,9 +66069,6 @@
             "acc.pl.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -67094,9 +66553,6 @@
           "pos_hint": "pron",
           "__data_matches": "qui_pron:abl.sg.masc,abl.sg.neut;quis_pron:abl.sg.masc,abl.sg.fem,abl.sg.neut",
           "selected_lemma_id": "qui_pron"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -67836,9 +67292,6 @@
           "selected_lemma_id": "genus_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -67861,9 +67314,6 @@
             "gen.sg.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -68105,9 +67555,6 @@
             "3sg.perf.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -69098,9 +68545,6 @@
           "pos_hint": "prep"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -69252,9 +68696,6 @@
             "nom.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -69636,9 +69077,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -69676,9 +69114,6 @@
             "nom.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -69914,9 +69349,6 @@
           "pos_hint": "adj",
           "__data_matches": "novus_adj:nom.pl.neut,voc.pl.neut,acc.pl.neut,abl.sg.fem,nom.sg.fem,voc.sg.fem;novo_v:2sg.pres.imp.act",
           "selected_lemma_id": "novus_adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -70274,9 +69706,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -70549,9 +69978,6 @@
           "selected_lemma_id": "patrius_adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -70769,9 +70195,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -70813,9 +70236,6 @@
             "ppp.nom.sg.masc"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -71351,9 +70771,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "pron"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -71987,9 +71404,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -72032,9 +71446,6 @@
             "nom.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -72478,9 +71889,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -72715,9 +72123,6 @@
             "ppp.acc.sg.fem"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -73173,9 +72578,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -73314,9 +72716,6 @@
           "pos_hint": "verb",
           "__data_matches": "leto_v:1sg.pres.ind.act;letum_n:abl.sg.neut,dat.sg.neut",
           "selected_lemma_id": "letum_n"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -73470,9 +72869,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -73553,9 +72949,6 @@
             "voc.sg.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -73782,9 +73175,6 @@
             "voc.sg.neut"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -74570,9 +73960,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -75201,9 +74588,6 @@
           "pos_hint": "conj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -75802,9 +75186,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -75847,9 +75228,6 @@
             "voc.sg.neut"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -75938,9 +75316,6 @@
             "abl.sg.fem"
           ],
           "pos_hint": "pron"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -76433,9 +75808,6 @@
             "abl.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -77218,9 +76590,6 @@
           "pos_hint": "conj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -77373,9 +76742,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -77453,9 +76819,6 @@
             "gen.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -77962,9 +77325,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -78067,9 +77427,6 @@
             "3sg.pres.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -78376,9 +77733,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -78664,9 +78018,6 @@
           "pos_hint": "num"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -78782,9 +78133,6 @@
             "nom.sg.fem"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -79049,9 +78397,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -79091,9 +78436,6 @@
           "pos_hint": "verb",
           "__data_matches": "animo_v:1sg.pres.ind.act;animus_n:abl.sg.masc,dat.sg.masc",
           "selected_lemma_id": "animus_n"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -79177,9 +78519,6 @@
             "acc.pl.masc"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -79588,9 +78927,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -79944,9 +79280,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -80191,10 +79524,6 @@
         {
           "kind": "punct",
           "text": "”"
-        },
-        {
-          "kind": "ws",
-          "text": "  "
         },
         {
           "kind": "word",
@@ -80628,9 +79957,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -80908,9 +80234,6 @@
           "selected_lemma_id": "umerus_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -80934,9 +80257,6 @@
             "nom.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -80967,9 +80287,6 @@
             "voc.sg.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -81225,9 +80542,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -81331,9 +80645,6 @@
             "3sg.perf.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -81765,9 +81076,6 @@
             "prep"
           ],
           "pos_hint": "prep"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -82259,10 +81567,6 @@
           "text": "”"
         },
         {
-          "kind": "ws",
-          "text": "  "
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -82488,9 +81792,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -82656,10 +81957,6 @@
         {
           "kind": "punct",
           "text": "”"
-        },
-        {
-          "kind": "ws",
-          "text": "  "
         },
         {
           "kind": "word",
@@ -83220,9 +82517,6 @@
           "pos_hint": "pron"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -83378,9 +82672,6 @@
           "pos_hint": "prep"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -83425,9 +82716,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -83464,9 +82752,6 @@
             "acc.pl.fem"
           ],
           "pos_hint": "noun"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -83789,9 +83074,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -83867,9 +83149,6 @@
             "pap.voc.sg.neut"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -84144,9 +83423,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -84167,9 +83443,6 @@
             "3sg.pres.ind.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -84505,9 +83778,6 @@
             "3sg.pres.subj.act"
           ],
           "pos_hint": "verb"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -85241,9 +84511,6 @@
           "pos_hint": "verb"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -85342,9 +84609,6 @@
             "acc.pl.masc"
           ],
           "pos_hint": "adj"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",

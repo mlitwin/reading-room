@@ -146,6 +146,7 @@ OUT_DIR = ROOT / 'content' / 'marvell-hortus'
 VOCAB_DIR = OUT_DIR / 'vocabulary'
 APPARATUS = ROOT / '.tmp' / 'hortus-apparatus.json'
 GARDEN = ROOT / 'downloads' / 'marvell' / 'the-garden.txt'
+ENCLITICS = {'que', 've', 'ne'}
 CURATION = OUT_DIR / 'lexicon-curation.json'
 
 POS_ABBREV = {  # grammar pos id -> lemma-id suffix
@@ -301,7 +302,8 @@ def build_latin(apparatus, ctx):
             trail = t.get('trail', '')
             if trail:
                 tokens.append({'kind': 'punct', 'text': trail})
-            if ti != len(toks) - 1:
+            # No space before an enclitic split off its host (Lauri|que).
+            if ti != len(toks) - 1 and not (trail == '' and toks[ti + 1]['surface'] in ENCLITICS):
                 tokens.append({'kind': 'ws'})
         lines.append({'n': idx, 'section': section, 'tokens': tokens})
 

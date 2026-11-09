@@ -1,0 +1,39 @@
+{
+  "id": "mugitus_n",
+  "lemma": "mugitus",
+  "pos": "noun",
+  "gender": "masc",
+  "glosses": [
+    "a lowing, bellowing",
+    "roar, rumbling"
+  ],
+  "head": "mugitus, -us, m.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "mugitus",
+      "gen.sg": "mugitus",
+      "dat.sg": "mugitui",
+      "acc.sg": "mugitum",
+      "abl.sg": "mugitu",
+      "voc.sg": "mugitus",
+      "nom.pl": "mugitus",
+      "gen.pl": "mugituum",
+      "dat.pl": "mugitibus",
+      "acc.pl": "mugitus",
+      "abl.pl": "mugitibus",
+      "voc.pl": "mugitus"
+    }
+  }
+}

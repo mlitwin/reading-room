@@ -233,9 +233,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -763,9 +760,6 @@
           "pos_hint": "adj"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -1114,7 +1108,21 @@
           "__data_matches": "rex_n:gen.pl.masc"
         },
         {
+          "kind": "punct",
+          "text": " "
+        },
+        {
           "kind": "ws"
+        },
+        {
+          "kind": "word",
+          "surface": "per",
+          "lemma_id": "per_prep",
+          "parses": [
+            "prep"
+          ],
+          "pos_hint": "prep",
+          "__data_matches": "per_prep:prep"
         },
         {
           "kind": "word",
@@ -1135,34 +1143,13 @@
         },
         {
           "kind": "word",
-          "surface": "per",
-          "lemma_id": "per_prep",
-          "parses": [
-            "prep"
-          ],
-          "pos_hint": "prep",
-          "__data_matches": "per_prep:prep"
-        },
-        {
-          "kind": "punct",
-          "text": " "
-        },
-        {
-          "kind": "ws"
-        },
-        {
-          "kind": "word",
           "surface": "alta",
-          "lemma_id": "alo_v",
+          "lemma_id": "altus_adj",
           "parses": [
-            "ppp.nom.sg.fem",
-            "ppp.nom.pl.neut",
-            "ppp.voc.sg.fem",
-            "ppp.voc.pl.neut",
-            "ppp.acc.pl.neut",
-            "ppp.abl.sg.fem"
+            "acc.pl.neut"
           ],
-          "pos_hint": "verb"
+          "pos_hint": "adj",
+          "__data_matches": "altus_adj:acc.pl.neut"
         },
         {
           "kind": "punct",
@@ -1739,15 +1726,12 @@
         {
           "kind": "word",
           "surface": "voto",
-          "lemma_id": "veto_v",
+          "lemma_id": "votum_n",
           "parses": [
-            "1sg.pres.ind.act"
+            "abl.sg.neut"
           ],
-          "pos_hint": "verb",
-          "__data_matches": "veto_v:1sg.pres.ind.act"
-        },
-        {
-          "kind": "ws"
+          "pos_hint": "noun",
+          "__data_matches": "votum_n:abl.sg.neut"
         },
         {
           "kind": "word",
@@ -1989,7 +1973,7 @@
         },
         {
           "kind": "punct",
-          "text": " , "
+          "text": ", "
         },
         {
           "kind": "ws"
@@ -2150,9 +2134,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -2196,15 +2177,12 @@
         {
           "kind": "word",
           "surface": "Mugitus",
-          "lemma_id": "mugio_v",
+          "lemma_id": "mugitus_n",
           "parses": [
-            "ppp.nom.sg.masc"
+            "nom.pl.masc"
           ],
-          "pos_hint": "verb",
-          "__data_matches": "mugio_v:ppp.nom.sg.masc"
-        },
-        {
-          "kind": "ws"
+          "pos_hint": "noun",
+          "__data_matches": "mugitus_n:nom.pl.masc"
         },
         {
           "kind": "word",
@@ -2323,9 +2301,6 @@
           ],
           "pos_hint": "noun",
           "__data_matches": "horror_n:acc.pl.masc,nom.pl.masc,voc.pl.masc"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -2643,9 +2618,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -2764,9 +2736,6 @@
         {
           "kind": "punct",
           "text": " ("
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -3122,9 +3091,6 @@
         {
           "kind": "punct",
           "text": " ("
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -4130,9 +4096,6 @@
           "__data_matches": "inverto_v:3sg.pres.ind.act,3sg.perf.ind.act"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -4318,9 +4281,6 @@
           ],
           "pos_hint": "verb",
           "__data_matches": "indormio_v:3sg.pres.ind.act"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -4728,9 +4688,6 @@
           "selected_lemma_id": "nympha_n"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -4756,9 +4713,6 @@
           ],
           "pos_hint": "noun",
           "__data_matches": "dea_n:acc.pl.fem"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
@@ -6280,9 +6234,6 @@
           "__data_matches": "pro_prep:adv,interj,prep"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -6447,9 +6398,6 @@
           "pos_hint": "noun"
         },
         {
-          "kind": "ws"
-        },
-        {
           "kind": "word",
           "surface": "que",
           "lemma_id": "que_enclit",
@@ -6478,9 +6426,6 @@
           ],
           "pos_hint": "noun",
           "__data_matches": "rosa_n:gen.sg.fem,dat.sg.fem,nom.pl.fem,voc.pl.fem"
-        },
-        {
-          "kind": "ws"
         },
         {
           "kind": "word",
