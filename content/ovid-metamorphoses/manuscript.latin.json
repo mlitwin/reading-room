@@ -11075,7 +11075,7 @@
         {
           "kind": "word",
           "surface": "otia",
-          "lemma_id": "otia_adv",
+          "lemma_id": "otium_n",
           "parses": [
             "acc.pl.neut",
             "nom.pl.neut"
@@ -31752,7 +31752,7 @@
         {
           "kind": "word",
           "surface": "ulmo",
-          "lemma_id": "ulmus_adv",
+          "lemma_id": "ulmus_n",
           "parses": [
             "abl.sg.fem",
             "dat.sg.fem"
@@ -69106,7 +69106,7 @@
         {
           "kind": "word",
           "surface": "propria",
-          "lemma_id": "proprio_adv",
+          "lemma_id": "proprius_adj",
           "parses": [
             "abl.sg.fem",
             "acc.pl.neut",

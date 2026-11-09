@@ -1,0 +1,40 @@
+{
+  "id": "vulnus_n",
+  "lemma": "vulnus",
+  "pos": "noun",
+  "gender": "neut",
+  "glosses": [
+    "wound, injury",
+    "cut, gash (in a tree)",
+    "blow, misfortune"
+  ],
+  "head": "vulnus, vulneris, n.",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "vulnus",
+      "gen.sg": "vulneris",
+      "dat.sg": "vulneri",
+      "acc.sg": "vulnus",
+      "abl.sg": "vulnere",
+      "voc.sg": "vulnus",
+      "nom.pl": "vulnera",
+      "gen.pl": "vulnerum",
+      "dat.pl": "vulneribus",
+      "acc.pl": "vulnera",
+      "abl.pl": "vulneribus",
+      "voc.pl": "vulnera"
+    }
+  }
+}

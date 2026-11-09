@@ -1,0 +1,65 @@
+{
+  "id": "brevis_adj",
+  "lemma": "brevis",
+  "pos": "adj",
+  "glosses": [
+    "short, brief",
+    "small, little, narrow"
+  ],
+  "head": "brevis, -e",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "brevis",
+      "gen.sg.masc": "brevis",
+      "dat.sg.masc": "brevi",
+      "acc.sg.masc": "brevem",
+      "abl.sg.masc": "brevi",
+      "nom.sg.fem": "brevis",
+      "gen.sg.fem": "brevis",
+      "dat.sg.fem": "brevi",
+      "acc.sg.fem": "brevem",
+      "abl.sg.fem": "brevi",
+      "nom.sg.neut": "breve",
+      "gen.sg.neut": "brevis",
+      "dat.sg.neut": "brevi",
+      "acc.sg.neut": "breve",
+      "abl.sg.neut": "brevi",
+      "nom.pl.masc": "breves",
+      "gen.pl.masc": "brevium",
+      "dat.pl.masc": "brevibus",
+      "acc.pl.masc": "breves",
+      "abl.pl.masc": "brevibus",
+      "nom.pl.fem": "breves",
+      "gen.pl.fem": "brevium",
+      "dat.pl.fem": "brevibus",
+      "acc.pl.fem": "breves",
+      "abl.pl.fem": "brevibus",
+      "nom.pl.neut": "brevia",
+      "gen.pl.neut": "brevium",
+      "dat.pl.neut": "brevibus",
+      "acc.pl.neut": "brevia",
+      "abl.pl.neut": "brevibus",
+      "voc.sg.masc": "brevis",
+      "voc.sg.fem": "brevis",
+      "voc.pl.masc": "breves",
+      "voc.pl.fem": "breves",
+      "voc.pl.neut": "brevia"
+    }
+  }
+}

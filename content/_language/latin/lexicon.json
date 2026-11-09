@@ -21142,7 +21142,11 @@
         "better",
         "best"
       ],
-      "head": "bene"
+      "head": "bene",
+      "alt_forms": [
+        "melius",
+        "optime"
+      ]
     },
     {
       "id": "bini_adv",
@@ -146585,7 +146589,7 @@
       }
     },
     {
-      "id": "otia_adv",
+      "id": "otium_n",
       "lemma": "otium",
       "pos": "noun",
       "glosses": [
@@ -146620,7 +146624,8 @@
           "voc.pl": "otia"
         }
       },
-      "gender": "neut"
+      "gender": "neut",
+      "head": "otium, -i, n."
     },
     {
       "id": "ovis_n",
@@ -159864,47 +159869,35 @@
       "id": "praecordia_n",
       "lemma": "praecordia",
       "pos": "noun",
-      "gender": "fem",
+      "gender": "neut",
       "glosses": [
         "midriff",
         "diaphragm",
         "P:breast"
       ],
-      "head": "praecordia, -ae, f.",
+      "head": "praecordia, -orum, n. pl.",
       "paradigm": {
         "type": "noun",
         "rows": [
           "nom",
-          "voc",
           "gen",
           "dat",
           "acc",
           "abl"
         ],
         "cols": [
-          "sg",
           "pl"
         ],
         "cells": {
-          "nom.sg": "praecordia",
-          "gen.sg": "praecordiae",
-          "abl.sg": "praecordia",
-          "acc.sg": "praecordiam",
-          "dat.sg": "praecordiae",
-          "nom.pl": "praecordiae",
-          "gen.pl": "praecordiarum",
+          "nom.pl": "praecordia",
+          "gen.pl": "praecordiorum",
           "dat.pl": "praecordiis",
+          "acc.pl": "praecordia",
           "abl.pl": "praecordiis",
-          "acc.pl": "praecordias",
-          "voc.sg": "praecordia",
-          "voc.pl": "praecordiae"
+          "voc.pl": "praecordia"
         }
       },
-      "alt_forms": [
-        "praecordia",
-        "praecordiis",
-        "praecordiorum"
-      ]
+      "defective": true
     },
     {
       "id": "praeda_n",
@@ -164310,7 +164303,7 @@
       }
     },
     {
-      "id": "proprio_adv",
+      "id": "proprius_adj",
       "lemma": "proprius",
       "pos": "adj",
       "glosses": [
@@ -164378,7 +164371,8 @@
         "propriam",
         "proprio",
         "proprium"
-      ]
+      ],
+      "head": "proprius, -a, -um"
     },
     {
       "id": "prosum_v",
@@ -205123,7 +205117,10 @@
           ],
           "gen.sg": "Syringis",
           "dat.sg": "Syringi",
-          "acc.sg": "Syringem",
+          "acc.sg": [
+            "Syringem",
+            "Syringa"
+          ],
           "abl.sg": "Syringe",
           "voc.sg": "Syrinx"
         }
@@ -206951,7 +206948,8 @@
         "time",
         "season",
         "occasion",
-        "circumstances"
+        "circumstances",
+        "temple (side of the head); pl. the temples"
       ],
       "head": "tempus, temporis, n.",
       "paradigm": {
@@ -215503,7 +215501,7 @@
       "head": "ūllus, -a, -um"
     },
     {
-      "id": "ulmus_adv",
+      "id": "ulmus_n",
       "lemma": "ulmus",
       "pos": "noun",
       "glosses": [
@@ -215544,7 +215542,8 @@
         "ulmo",
         "ulmum",
         "ulmus"
-      ]
+      ],
+      "head": "ulmus, -i, f."
     },
     {
       "id": "ulter_pron",

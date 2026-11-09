@@ -1,0 +1,65 @@
+{
+  "id": "lassus_adj",
+  "lemma": "lassus",
+  "pos": "adj",
+  "glosses": [
+    "weary, tired, exhausted"
+  ],
+  "head": "lassus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "lassus",
+      "gen.sg.masc": "lassi",
+      "dat.sg.masc": "lasso",
+      "gen.sg.fem": "lassae",
+      "dat.sg.fem": "lassae",
+      "nom.sg.neut": "lassum",
+      "gen.sg.neut": "lassi",
+      "dat.sg.neut": "lasso",
+      "acc.sg.neut": "lassum",
+      "acc.sg.masc": "lassum",
+      "abl.sg.masc": "lasso",
+      "nom.pl.masc": "lassi",
+      "gen.pl.masc": "lassorum",
+      "acc.pl.masc": "lassos",
+      "nom.sg.fem": "lassa",
+      "acc.sg.fem": "lassam",
+      "abl.sg.fem": "lassa",
+      "nom.pl.fem": "lassae",
+      "gen.pl.fem": "lassarum",
+      "acc.pl.fem": "lassas",
+      "abl.sg.neut": "lasso",
+      "nom.pl.neut": "lassa",
+      "gen.pl.neut": "lassorum",
+      "acc.pl.neut": "lassa",
+      "voc.sg.masc": "lasse",
+      "voc.sg.fem": "lassa",
+      "voc.sg.neut": "lassum",
+      "voc.pl.masc": "lassi",
+      "dat.pl.masc": "lassis",
+      "abl.pl.masc": "lassis",
+      "voc.pl.fem": "lassae",
+      "dat.pl.fem": "lassis",
+      "abl.pl.fem": "lassis",
+      "voc.pl.neut": "lassa",
+      "dat.pl.neut": "lassis",
+      "abl.pl.neut": "lassis"
+    }
+  }
+}

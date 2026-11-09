@@ -1,0 +1,65 @@
+{
+  "id": "sonorus_adj",
+  "lemma": "sonorus",
+  "pos": "adj",
+  "glosses": [
+    "sounding, resounding, tuneful"
+  ],
+  "head": "sonorus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "sonorus",
+      "gen.sg.masc": "sonori",
+      "dat.sg.masc": "sonoro",
+      "gen.sg.fem": "sonorae",
+      "dat.sg.fem": "sonorae",
+      "nom.sg.neut": "sonorum",
+      "gen.sg.neut": "sonori",
+      "dat.sg.neut": "sonoro",
+      "acc.sg.neut": "sonorum",
+      "acc.sg.masc": "sonorum",
+      "abl.sg.masc": "sonoro",
+      "nom.pl.masc": "sonori",
+      "gen.pl.masc": "sonororum",
+      "acc.pl.masc": "sonoros",
+      "nom.sg.fem": "sonora",
+      "acc.sg.fem": "sonoram",
+      "abl.sg.fem": "sonora",
+      "nom.pl.fem": "sonorae",
+      "gen.pl.fem": "sonorarum",
+      "acc.pl.fem": "sonoras",
+      "abl.sg.neut": "sonoro",
+      "nom.pl.neut": "sonora",
+      "gen.pl.neut": "sonororum",
+      "acc.pl.neut": "sonora",
+      "voc.sg.masc": "sonore",
+      "voc.sg.fem": "sonora",
+      "voc.sg.neut": "sonorum",
+      "voc.pl.masc": "sonori",
+      "dat.pl.masc": "sonoris",
+      "abl.pl.masc": "sonoris",
+      "voc.pl.fem": "sonorae",
+      "dat.pl.fem": "sonoris",
+      "abl.pl.fem": "sonoris",
+      "voc.pl.neut": "sonora",
+      "dat.pl.neut": "sonoris",
+      "abl.pl.neut": "sonoris"
+    }
+  }
+}

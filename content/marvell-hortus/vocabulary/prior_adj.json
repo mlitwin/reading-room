@@ -1,0 +1,67 @@
+{
+  "id": "prior_adj",
+  "lemma": "prior",
+  "pos": "adj",
+  "glosses": [
+    "former, earlier, previous",
+    "first (of two)",
+    "superior, preferable"
+  ],
+  "head": "prior, prius (gen. prioris)",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "prior",
+      "nom.pl.masc": "priores",
+      "gen.sg.masc": "prioris",
+      "gen.pl.masc": "priorum",
+      "dat.sg.masc": "priori",
+      "dat.pl.masc": "prioribus",
+      "acc.sg.masc": "priorem",
+      "acc.pl.masc": "priores",
+      "abl.sg.masc": "priore",
+      "abl.pl.masc": "prioribus",
+      "voc.sg.masc": "prior",
+      "voc.pl.masc": "priores",
+      "nom.sg.fem": "prior",
+      "nom.pl.fem": "priores",
+      "gen.sg.fem": "prioris",
+      "gen.pl.fem": "priorum",
+      "dat.sg.fem": "priori",
+      "dat.pl.fem": "prioribus",
+      "acc.sg.fem": "priorem",
+      "acc.pl.fem": "priores",
+      "abl.sg.fem": "priore",
+      "abl.pl.fem": "prioribus",
+      "voc.sg.fem": "prior",
+      "voc.pl.fem": "priores",
+      "nom.sg.neut": "prius",
+      "nom.pl.neut": "priora",
+      "gen.sg.neut": "prioris",
+      "gen.pl.neut": "priorum",
+      "dat.sg.neut": "priori",
+      "dat.pl.neut": "prioribus",
+      "acc.sg.neut": "prius",
+      "acc.pl.neut": "priora",
+      "abl.sg.neut": "priore",
+      "abl.pl.neut": "prioribus",
+      "voc.sg.neut": "prius",
+      "voc.pl.neut": "priora"
+    }
+  }
+}

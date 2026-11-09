@@ -1,0 +1,66 @@
+{
+  "id": "anhelus_adj",
+  "lemma": "anhelus",
+  "pos": "adj",
+  "glosses": [
+    "panting, out of breath",
+    "breathless with longing"
+  ],
+  "head": "anhelus, -a, -um",
+  "paradigm": {
+    "type": "adj",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg.masc",
+      "sg.fem",
+      "sg.neut",
+      "pl.masc",
+      "pl.fem",
+      "pl.neut"
+    ],
+    "cells": {
+      "nom.sg.masc": "anhelus",
+      "gen.sg.masc": "anheli",
+      "dat.sg.masc": "anhelo",
+      "gen.sg.fem": "anhelae",
+      "dat.sg.fem": "anhelae",
+      "nom.sg.neut": "anhelum",
+      "gen.sg.neut": "anheli",
+      "dat.sg.neut": "anhelo",
+      "acc.sg.neut": "anhelum",
+      "acc.sg.masc": "anhelum",
+      "abl.sg.masc": "anhelo",
+      "nom.pl.masc": "anheli",
+      "gen.pl.masc": "anhelorum",
+      "acc.pl.masc": "anhelos",
+      "nom.sg.fem": "anhela",
+      "acc.sg.fem": "anhelam",
+      "abl.sg.fem": "anhela",
+      "nom.pl.fem": "anhelae",
+      "gen.pl.fem": "anhelarum",
+      "acc.pl.fem": "anhelas",
+      "abl.sg.neut": "anhelo",
+      "nom.pl.neut": "anhela",
+      "gen.pl.neut": "anhelorum",
+      "acc.pl.neut": "anhela",
+      "voc.sg.masc": "anhele",
+      "voc.sg.fem": "anhela",
+      "voc.sg.neut": "anhelum",
+      "voc.pl.masc": "anheli",
+      "dat.pl.masc": "anhelis",
+      "abl.pl.masc": "anhelis",
+      "voc.pl.fem": "anhelae",
+      "dat.pl.fem": "anhelis",
+      "abl.pl.fem": "anhelis",
+      "voc.pl.neut": "anhela",
+      "dat.pl.neut": "anhelis",
+      "abl.pl.neut": "anhelis"
+    }
+  }
+}

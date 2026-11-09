@@ -1,0 +1,38 @@
+{
+  "id": "populus2_n",
+  "lemma": "populus",
+  "pos": "noun",
+  "gender": "fem",
+  "glosses": [
+    "poplar, poplar tree"
+  ],
+  "head": "pōpulus, -i, f. (the poplar; distinct from populus, people)",
+  "paradigm": {
+    "type": "noun",
+    "rows": [
+      "nom",
+      "gen",
+      "dat",
+      "acc",
+      "abl"
+    ],
+    "cols": [
+      "sg",
+      "pl"
+    ],
+    "cells": {
+      "nom.sg": "populus",
+      "gen.sg": "populi",
+      "dat.sg": "populo",
+      "acc.sg": "populum",
+      "abl.sg": "populo",
+      "voc.sg": "popule",
+      "nom.pl": "populi",
+      "gen.pl": "populorum",
+      "dat.pl": "populis",
+      "acc.pl": "populos",
+      "abl.pl": "populis",
+      "voc.pl": "populi"
+    }
+  }
+}
