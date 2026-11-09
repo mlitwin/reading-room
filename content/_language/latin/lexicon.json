@@ -13532,7 +13532,8 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "plants of genus arum"
+        "altar",
+        "refuge, sanctuary"
       ],
       "head": "ara, arae, f.",
       "paradigm": {
@@ -18560,7 +18561,9 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "gold (metal/color), gold money, riches"
+        "breeze, breath of air",
+        "air, the upper air",
+        "gleam, glitter"
       ],
       "head": "aura, aurae, f.",
       "paradigm": {
@@ -108254,11 +108257,9 @@
       "lemma": "labor",
       "pos": "verb",
       "glosses": [
-        "totter, be ready to fall",
-        "begin to sink",
-        "give way",
-        "waver, decline, sink",
-        "err"
+        "slip, glide, slide",
+        "fall, sink, decline",
+        "go wrong, err"
       ],
       "head": "labor, labi, lapsus sum",
       "principal_parts": [
@@ -142185,9 +142186,9 @@
       "lemma": "pario",
       "pos": "verb",
       "glosses": [
-        "acquire (accounts)",
-        "settle a debt",
-        "settle up"
+        "bear, give birth to",
+        "bring forth, produce, create",
+        "acquire, obtain"
       ],
       "head": "pario, parere, peperi, partum",
       "principal_parts": [
@@ -161747,12 +161748,9 @@
       "lemma": "qui",
       "pos": "pron",
       "glosses": [
-        "how?",
-        "how so",
-        "in what way",
-        "by what/which means",
-        "whereby",
-        "at whatever price"
+        "who, which, that (relative)",
+        "which? what? (interrogative adjective)",
+        "(indefinite) any, some"
       ],
       "head": "qui",
       "paradigm": {
@@ -237812,6 +237810,45 @@
       "head": "aliqui or aliquei or aliquis, aliqua, aliquod",
       "headword": "aliquī",
       "freq": "A"
+    },
+    {
+      "id": "natus_n",
+      "lemma": "natus",
+      "pos": "noun",
+      "glosses": [
+        "son",
+        "children"
+      ],
+      "gender": "masc",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "natus",
+          "nom.pl": "nati",
+          "gen.sg": "nati",
+          "gen.pl": "natorum",
+          "dat.sg": "nato",
+          "dat.pl": "natis",
+          "acc.sg": "natum",
+          "acc.pl": "natos",
+          "abl.sg": "nato",
+          "abl.pl": "natis",
+          "voc.sg": "nate",
+          "voc.pl": "nati"
+        }
+      },
+      "head": "natus, nati, m."
     }
   ]
 }
