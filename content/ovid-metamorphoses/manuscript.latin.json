@@ -14062,15 +14062,15 @@
         {
           "kind": "word",
           "surface": "peioris",
-          "lemma_id": "malus_n",
+          "lemma_id": "malus_adj",
           "parses": [
-            "gen.sg.masc",
-            "gen.sg.fem",
-            "gen.sg.neut",
-            "gen.sg"
+            "comp.gen.sg.fem",
+            "comp.gen.sg.masc",
+            "comp.gen.sg.neut"
           ],
           "stanza": "malum_n",
-          "pos_hint": "noun"
+          "pos_hint": "adj",
+          "__data_matches": "malus_adj:comp.gen.sg.fem,comp.gen.sg.masc,comp.gen.sg.neut"
         },
         {
           "kind": "ws",
@@ -15354,12 +15354,12 @@
           "surface": "malorum",
           "lemma_id": "malum_n",
           "parses": [
-            "gen.pl.neut",
-            "gen.pl.masc"
+            "gen.pl.neut"
           ],
           "stanza": "malum_n",
           "pos_hint": "noun",
-          "__data_matches": "malum_n:gen.pl.neut;malus_n:gen.pl.masc"
+          "__data_matches": "malum_n:gen.pl.neut;malus_n:gen.pl.masc;malus_adj:gen.pl.masc,gen.pl.neut",
+          "selected_lemma_id": "malum_n"
         },
         {
           "kind": "punct",
@@ -31087,17 +31087,15 @@
         {
           "kind": "word",
           "surface": "malo",
-          "lemma_id": "malo_v",
+          "lemma_id": "malum_n",
           "parses": [
-            "1sg.pres.ind.act",
             "dat.sg.neut",
-            "abl.sg.neut",
-            "dat.sg.masc",
-            "abl.sg.masc"
+            "abl.sg.neut"
           ],
           "stanza": "malum_n",
-          "pos_hint": "verb",
-          "__data_matches": "malo_v:1sg.pres.ind.act;malum_n:dat.sg.neut,abl.sg.neut;malus_n:dat.sg.masc,abl.sg.masc"
+          "pos_hint": "noun",
+          "__data_matches": "malo_v:1sg.pres.ind.act;malum_n:dat.sg.neut,abl.sg.neut;malus_n:dat.sg.masc,abl.sg.masc;malus_adj:abl.sg.masc,abl.sg.neut,dat.sg.masc,dat.sg.neut",
+          "selected_lemma_id": "malum_n"
         },
         {
           "kind": "punct",
@@ -64095,14 +64093,15 @@
         {
           "kind": "word",
           "surface": "peiora",
-          "lemma_id": "malus_n",
+          "lemma_id": "malus_adj",
           "parses": [
-            "nom.pl.neut",
-            "voc.pl.neut",
-            "acc.pl.neut"
+            "comp.acc.pl.neut",
+            "comp.nom.pl.neut",
+            "comp.voc.pl.neut"
           ],
           "stanza": "peius",
-          "pos_hint": "noun"
+          "pos_hint": "adj",
+          "__data_matches": "malus_adj:comp.acc.pl.neut,comp.nom.pl.neut,comp.voc.pl.neut"
         },
         {
           "kind": "ws",
@@ -72952,7 +72951,9 @@
             "acc.pl.neut"
           ],
           "stanza": "malus_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "malum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut;malus_adj:abl.sg.fem,acc.pl.neut,nom.pl.neut,nom.sg.fem,voc.pl.neut,voc.sg.fem",
+          "selected_lemma_id": "malum_n"
         },
         {
           "kind": "ws",
@@ -79819,12 +79820,12 @@
           "surface": "malorum",
           "lemma_id": "malum_n",
           "parses": [
-            "gen.pl.neut",
-            "gen.pl.masc"
+            "gen.pl.neut"
           ],
           "stanza": "malum_n",
           "pos_hint": "noun",
-          "__data_matches": "malum_n:gen.pl.neut;malus_n:gen.pl.masc"
+          "__data_matches": "malum_n:gen.pl.neut;malus_n:gen.pl.masc;malus_adj:gen.pl.masc,gen.pl.neut",
+          "selected_lemma_id": "malum_n"
         },
         {
           "kind": "punct",
