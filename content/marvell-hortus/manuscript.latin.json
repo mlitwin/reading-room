@@ -4085,17 +4085,12 @@
           "surface": "tela",
           "lemma_id": "telum_n",
           "parses": [
-            "nom.sg.fem",
-            "voc.sg.fem",
-            "abl.sg.fem",
-            "nom.pl.neut",
             "acc.pl.neut",
+            "nom.pl.neut",
             "voc.pl.neut"
           ],
           "pos_hint": "noun",
-          "__data_matches": "tela_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;telum_n:nom.pl.neut,acc.pl.neut,voc.pl.neut",
-          "selected_lemma_id": "telum_n",
-          "selected_by": "parser"
+          "__data_matches": "telum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut"
         },
         {
           "kind": "punct",

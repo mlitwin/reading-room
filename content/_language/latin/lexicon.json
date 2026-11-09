@@ -916,10 +916,9 @@
       "lemma": "absum",
       "pos": "verb",
       "glosses": [
-        "spend, waste, squander, use up",
-        "take up (time)",
-        "consume",
-        "exhaust, wear out"
+        "to be away, to be absent, to be distant",
+        "to stretch, be away from, be distant from (with ab + ablative)",
+        "to be forbidden, be unpleasant, unwarranted for, vile"
       ],
       "head": "absum, abesse, afui, -",
       "principal_parts": [
@@ -6788,10 +6787,8 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "darnel (grass/weed, grows among wheat, subject to ergot, thereby dangerous)",
-        "parameter from which a calculation is made",
-        "item of account",
-        "era/epoch"
+        "air",
+        "the troposphere (situated below aethēr)"
       ],
       "head": "aer, aeris, m.",
       "paradigm": {
@@ -8767,8 +8764,7 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "ear of grain",
-        "straw/blade (L+S)"
+        "ewe lamb"
       ],
       "head": "agna, -ae, f.",
       "paradigm": {
@@ -24157,10 +24153,7 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "chapel",
-        "choir",
-        "[a capella => unaccompanied (song)",
-        "~ magister => choirmaster]"
+        "she-goat, kid"
       ],
       "head": "capella, -ae, f.",
       "paradigm": {
@@ -32545,10 +32538,10 @@
       "lemma": "colo",
       "pos": "verb",
       "glosses": [
-        "strain/filter (liquid), clarify",
-        "purify",
-        "remove solids by filter",
-        "wash (gold)"
+        "to cultivate the land, till, tend, take care of a field or garden",
+        "to inhabit",
+        "to frequent, be the guardian of, cherish, care for, protect, nurture",
+        "to worship, honor, revere, reverence, respect"
       ],
       "head": "colo, colere, colui, cultum",
       "principal_parts": [
@@ -40858,9 +40851,8 @@
       "lemma": "corneus",
       "pos": "adj",
       "glosses": [
-        "made of/belonging to cornel-tree/wood",
-        "(of genus Cornus)",
-        "(for arrow/javelin)"
+        "of horn, horny",
+        "of cornel-wood"
       ],
       "head": "corneus, -a, -um",
       "paradigm": {
@@ -44471,7 +44463,7 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "precious stone (unidentified)"
+        "Daphne, nymph loved by Apollo, changed into a laurel"
       ],
       "head": "daphne, daphnes, f.",
       "paradigm": {
@@ -51461,9 +51453,10 @@
       "lemma": "desum",
       "pos": "verb",
       "glosses": [
-        "choose, pick out, select, take",
-        "pick (fight)",
-        "take for/upon one's self (L+S)"
+        "to be wanting/lacking (+ dative)",
+        "to fall short of, fail to obtain, miss",
+        "to abandon, to desert, to neglect",
+        "to be away, to be absent, to be missing"
       ],
       "head": "desum, deesse, defui, -",
       "principal_parts": [
@@ -52536,8 +52529,9 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "quarter tone",
-        "first audible note of instrument (L+S)"
+        "day",
+        "daytime",
+        "(appointed) day, time"
       ],
       "head": "dies, diei, m.",
       "paradigm": {
@@ -57376,8 +57370,7 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "sky, open air",
-        "[sub divo => in the open air]"
+        "goddess, deity"
       ],
       "head": "diva, divae, f.",
       "paradigm": {
@@ -59062,8 +59055,9 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "hew/chop into shape, fashion/devise",
-        "inflict blows, batter/cudgel soundly, drub"
+        "pain, ache, hurt",
+        "anguish, grief, sorrow",
+        "indignation, resentment, anger, fury, vengeance"
       ],
       "head": "dolor, doloris, m.",
       "paradigm": {
@@ -80470,10 +80464,7 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "door, gate",
-        "(the two leaves of) a folding door (pl.)",
-        "double door",
-        "entrance"
+        "luck, chance"
       ],
       "head": "fors, fortis, f.",
       "paradigm": {
@@ -84361,9 +84352,7 @@
       "pos": "noun",
       "gender": "neut",
       "glosses": [
-        "give birth to, bring forth, bear",
-        "beget",
-        "be born (PASSIVE)"
+        "knee"
       ],
       "head": "genu, genus, n.",
       "paradigm": {
@@ -97891,7 +97880,10 @@
       "pos": "noun",
       "gender": "neut",
       "glosses": [
-        "trick, clever device"
+        "innate or natural quality, natural character; nature",
+        "disposition, temper, inclination",
+        "intelligence, natural capacity",
+        "talent, ability, art"
       ],
       "head": "ingenium, -i, n.",
       "paradigm": {
@@ -108840,12 +108832,7 @@
       "pos": "noun",
       "gender": "neut",
       "glosses": [
-        "basin/tank/tub",
-        "lake/pond",
-        "reservoir/cistern/basin, trough",
-        "lime-hole",
-        "bin",
-        "pit"
+        "milk"
       ],
       "head": "lac, lactis, n.",
       "paradigm": {
@@ -114359,7 +114346,7 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "apron crossed with purple, worn by attendants at sacrifice/by magistrates"
+        "mud, slime, mire"
       ],
       "head": "limus, -i, m.",
       "paradigm": {
@@ -119028,8 +119015,10 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "mace",
-        "club"
+        "mass, bulk (of material)",
+        "load, burden",
+        "dough",
+        "lump"
       ],
       "head": "massa, -ae, f.",
       "paradigm": {
@@ -119931,8 +119920,9 @@
       "pos": "noun",
       "gender": "neut",
       "glosses": [
-        "song, tune, air, strain, lay, melody",
-        "hymn"
+        "honey",
+        "sweetness, pleasantness",
+        "darling, sweet, honey"
       ],
       "head": "mel, mellis, n.",
       "paradigm": {
@@ -119978,9 +119968,10 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "table",
-        "course, meal",
-        "banker's counter"
+        "mind",
+        "intellect, reason",
+        "reasoning, judgement",
+        "heart, conscience (seat of the thoughts and will)"
       ],
       "head": "mens, mentis, f.",
       "paradigm": {
@@ -120064,10 +120055,7 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "mind",
-        "reason, intellect, judgment",
-        "plan, intention, frame of mind",
-        "courage"
+        "measurer, surveyor"
       ],
       "head": "mensor, mensoris, m.",
       "paradigm": {
@@ -124298,8 +124286,9 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "mulberry",
-        "fruit of the black mulberry"
+        "delay, pause",
+        "hindrance, obstacle",
+        "space of time"
       ],
       "head": "mora, morae, f.",
       "paradigm": {
@@ -124825,9 +124814,9 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "custom, habit",
-        "mood, manner, fashion",
-        "character (pl.), behavior, morals"
+        "death",
+        "corpse, dead body",
+        "annihilation"
       ],
       "head": "mors, mortis, f.",
       "paradigm": {
@@ -141216,7 +141205,8 @@
       "pos": "noun",
       "gender": "neut",
       "glosses": [
-        "Palatine Hill"
+        "palace",
+        "the Palatine Hill (site of the imperial residence)"
       ],
       "head": "palatium, -i, n.",
       "paradigm": {
@@ -141548,11 +141538,8 @@
         "fem"
       ],
       "glosses": [
-        "stake/pile/pole/unsplit wood",
-        "peg/pin",
-        "execution stake",
-        "wood sword",
-        "fence (pl.)"
+        "swamp, marsh, fen",
+        "pool, lake"
       ],
       "head": "palus, paludis, f. (marsh) / -i, m. (stake)",
       "paradigm": {
@@ -144215,8 +144202,10 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "bowl",
-        "saucer"
+        "father (male parent)",
+        "head of household",
+        "parent",
+        "forefather"
       ],
       "head": "pater, patris, m.",
       "paradigm": {
@@ -159304,8 +159293,9 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "girl",
-        "lass"
+        "boy, lad",
+        "child",
+        "young slave, servant"
       ],
       "head": "puer, pueri, m.",
       "paradigm": {
@@ -182264,46 +182254,6 @@
       "freq": "A"
     },
     {
-      "id": "sera_n",
-      "lemma": "sera",
-      "pos": "noun",
-      "gender": "fem",
-      "glosses": [
-        "late hour"
-      ],
-      "head": "sera, serae, f.",
-      "paradigm": {
-        "type": "noun",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg",
-          "pl"
-        ],
-        "cells": {
-          "nom.sg": "sera",
-          "voc.sg": "sera",
-          "gen.sg": "serae",
-          "dat.sg": "serae",
-          "acc.sg": "seram",
-          "abl.sg": "sera",
-          "nom.pl": "serae",
-          "voc.pl": "serae",
-          "gen.pl": "serarum",
-          "dat.pl": "seris",
-          "acc.pl": "seras",
-          "abl.pl": "seris"
-        }
-      },
-      "freq": "C"
-    },
-    {
       "id": "sereno_v",
       "lemma": "sereno",
       "pos": "verb",
@@ -198732,49 +198682,6 @@
       "freq": "A"
     },
     {
-      "id": "tela_n",
-      "lemma": "tela",
-      "pos": "noun",
-      "gender": "fem",
-      "glosses": [
-        "dart, spear",
-        "weapon, javelin",
-        "bullet (gun)"
-      ],
-      "head": "tela, telae, f.",
-      "paradigm": {
-        "type": "noun",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg",
-          "pl"
-        ],
-        "cells": {
-          "nom.sg": "tela",
-          "voc.sg": "tela",
-          "gen.sg": "telae",
-          "dat.sg": "telae",
-          "acc.sg": "telam",
-          "abl.sg": "tela",
-          "nom.pl": "telae",
-          "voc.pl": "telae",
-          "gen.pl": "telarum",
-          "dat.pl": "telis",
-          "acc.pl": "telas",
-          "abl.pl": "telis"
-        }
-      },
-      "headword": "tēla",
-      "freq": "A"
-    },
-    {
       "id": "tellus_n",
       "lemma": "tellus",
       "pos": "noun",
@@ -208684,53 +208591,6 @@
       "freq": "A"
     },
     {
-      "id": "uter_n",
-      "lemma": "uter",
-      "pos": "noun",
-      "gender": "masc",
-      "glosses": [
-        "womb",
-        "belly, abdomen"
-      ],
-      "head": "uter, utris, m.",
-      "paradigm": {
-        "type": "noun",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg",
-          "pl"
-        ],
-        "cells": {
-          "nom.sg": "uter",
-          "voc.sg": "uter",
-          "gen.sg": "utri",
-          "dat.sg": "utro",
-          "acc.sg": "utrum",
-          "abl.sg": "utro",
-          "nom.pl": "utri",
-          "voc.pl": "utri",
-          "gen.pl": "utrorum",
-          "dat.pl": "utris",
-          "acc.pl": "utros",
-          "abl.pl": "utris"
-        }
-      },
-      "alt_forms": [
-        "utra",
-        "utre",
-        "utris",
-        "utrum"
-      ],
-      "freq": "D"
-    },
-    {
       "id": "uti_conj",
       "lemma": "uti",
       "pos": "conj",
@@ -209097,7 +208957,8 @@
       "lemma": "vado",
       "pos": "verb",
       "glosses": [
-        "accept sureties from (the other party) for his appearance in court"
+        "go, walk",
+        "rush, hasten, advance"
       ],
       "head": "vado, vadare, -i, vadatum",
       "principal_parts": [
@@ -210842,9 +210703,10 @@
       "pos": "noun",
       "gender": "fem",
       "glosses": [
-        "sale, purchase",
-        "(only sg. ACC/DAT w/dare)",
-        "[venum dare => put up for sale]"
+        "a vein, blood vessel",
+        "an artery",
+        "a watercourse",
+        "a vein of metals"
       ],
       "head": "vena, venae, f.",
       "paradigm": {
@@ -211517,8 +211379,9 @@
       "pos": "noun",
       "gender": "neut",
       "glosses": [
-        "Verus",
-        "(Emperor Lucius Verus 161-169)"
+        "spring (the season)",
+        "(fig.) springtime, youth",
+        "spring produce (ver sacrum: offerings of the spring)"
       ],
       "head": "ver, veris, n.",
       "paradigm": {
@@ -214910,8 +214773,10 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "venom (sg.), poisonous secretion of snakes/creatures/plants",
-        "acrid element"
+        "man (adult male human)",
+        "brave or courageous man, hero, warrior",
+        "husband",
+        "foot soldier"
       ],
       "head": "vir, viri, m.",
       "paradigm": {
@@ -237848,7 +237713,160 @@
           "voc.pl": "nati"
         }
       },
-      "head": "natus, nati, m."
+      "head": "natus, nati, m.",
+      "headword": "nātus",
+      "freq": "C"
+    },
+    {
+      "id": "morum_n",
+      "lemma": "morum",
+      "pos": "noun",
+      "glosses": [
+        "mulberry (fruit)",
+        "blackberry"
+      ],
+      "gender": "neut",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "morum",
+          "nom.pl": "mora",
+          "gen.sg": "mori",
+          "gen.pl": "mororum",
+          "dat.sg": "moro",
+          "dat.pl": "moris",
+          "acc.sg": "morum",
+          "acc.pl": "mora",
+          "abl.sg": "moro",
+          "abl.pl": "moris",
+          "voc.sg": "morum",
+          "voc.pl": "mora"
+        }
+      },
+      "head": "morum, mori, n.",
+      "headword": "mōrum",
+      "freq": "E"
+    },
+    {
+      "id": "serus_adj",
+      "lemma": "serus",
+      "pos": "adj",
+      "glosses": [
+        "late, too late",
+        "slow, tardy"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "serus",
+          "nom.sg.fem": "sera",
+          "nom.sg.neut": "serum",
+          "nom.pl.masc": "seri",
+          "nom.pl.fem": "serae",
+          "nom.pl.neut": "sera",
+          "gen.sg.masc": "seri",
+          "gen.sg.fem": "serae",
+          "gen.sg.neut": "seri",
+          "gen.pl.masc": "serorum",
+          "gen.pl.fem": "serarum",
+          "gen.pl.neut": "serorum",
+          "dat.sg.masc": "sero",
+          "dat.sg.fem": "serae",
+          "dat.sg.neut": "sero",
+          "dat.pl.fem": "seris",
+          "dat.pl.masc": "seris",
+          "dat.pl.neut": "seris",
+          "acc.sg.masc": "serum",
+          "acc.sg.fem": "seram",
+          "acc.sg.neut": "serum",
+          "acc.pl.masc": "seros",
+          "acc.pl.fem": "seras",
+          "acc.pl.neut": "sera",
+          "abl.sg.masc": "sero",
+          "abl.sg.fem": "sera",
+          "abl.sg.neut": "sero",
+          "abl.pl.fem": "seris",
+          "abl.pl.masc": "seris",
+          "abl.pl.neut": "seris",
+          "voc.sg.masc": "sere",
+          "voc.sg.fem": "sera",
+          "voc.sg.neut": "serum",
+          "voc.pl.masc": "seri",
+          "voc.pl.fem": "serae",
+          "voc.pl.neut": "sera"
+        }
+      },
+      "head": "serus, sera, serum",
+      "headword": "sērus",
+      "freq": "B"
+    },
+    {
+      "id": "vadum_n",
+      "lemma": "vadum",
+      "pos": "noun",
+      "glosses": [
+        "A shallow, ford, shoal",
+        "A body of water; sea, stream",
+        "The bottom of a body of water",
+        "a “shallow” as a metaphor for circumstances implying either safety or danger, similar to a boat in shallow water"
+      ],
+      "gender": "neut",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "vadum",
+          "nom.pl": "vada",
+          "gen.sg": "vadi",
+          "gen.pl": "vadorum",
+          "dat.sg": "vado",
+          "dat.pl": "vadis",
+          "acc.sg": "vadum",
+          "acc.pl": "vada",
+          "abl.sg": "vado",
+          "abl.pl": "vadis",
+          "voc.sg": "vadum",
+          "voc.pl": "vada"
+        }
+      },
+      "head": "vadum, vadi, n.",
+      "freq": "B"
     }
   ]
 }

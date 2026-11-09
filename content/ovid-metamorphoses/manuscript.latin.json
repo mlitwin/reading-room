@@ -5781,21 +5781,15 @@
         },
         {
           "kind": "word",
-          "surface": "utrum",
-          "lemma_id": "uter_n",
+          "surface": "utrumque",
+          "lemma_id": "uterque_pron",
           "parses": [
-            "acc.sg.masc"
+            "acc.sg.masc",
+            "acc.sg.neut",
+            "nom.sg.neut",
+            "voc.sg.neut"
           ],
-          "pos_hint": "noun"
-        },
-        {
-          "kind": "word",
-          "surface": "que",
-          "lemma_id": "que_enclit",
-          "parses": [
-            "enclit"
-          ],
-          "pos_hint": "enclitic"
+          "pos_hint": "pron"
         },
         {
           "kind": "ws",
@@ -11811,14 +11805,17 @@
         {
           "kind": "word",
           "surface": "mora",
-          "lemma_id": "mora_n",
+          "lemma_id": "morum_n",
           "parses": [
-            "nom.sg.fem",
-            "voc.sg.fem",
-            "abl.sg.fem"
+            "acc.pl.neut",
+            "nom.pl.neut",
+            "voc.pl.neut"
           ],
           "stanza": "mora_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "morum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut;mora_n:nom.sg.fem,voc.sg.fem,abl.sg.fem",
+          "selected_lemma_id": "morum_n",
+          "selected_by": "editor"
         },
         {
           "kind": "ws",
@@ -18322,7 +18319,10 @@
             "abl.sg.fem"
           ],
           "stanza": "mora_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "mora_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;morum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut",
+          "selected_lemma_id": "mora_n",
+          "selected_by": "parser"
         },
         {
           "kind": "ws",
@@ -23348,7 +23348,10 @@
             "abl.sg.fem"
           ],
           "stanza": "mora_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "mora_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;morum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut",
+          "selected_lemma_id": "mora_n",
+          "selected_by": "parser"
         },
         {
           "kind": "ws",
@@ -23902,14 +23905,18 @@
         {
           "kind": "word",
           "surface": "sera",
-          "lemma_id": "sera_n",
+          "lemma_id": "serus_adj",
           "parses": [
+            "abl.sg.fem",
+            "acc.pl.neut",
+            "nom.pl.neut",
             "nom.sg.fem",
-            "voc.sg.fem",
-            "abl.sg.fem"
+            "voc.pl.neut",
+            "voc.sg.fem"
           ],
           "stanza": "sera_n",
-          "pos_hint": "noun"
+          "pos_hint": "adj",
+          "__data_matches": "serus_adj:abl.sg.fem,acc.pl.neut,nom.pl.neut,nom.sg.fem,voc.pl.neut,voc.sg.fem"
         },
         {
           "kind": "ws",
@@ -28266,20 +28273,15 @@
         {
           "kind": "word",
           "surface": "Tela",
-          "lemma_id": "tela_n",
+          "lemma_id": "telum_n",
           "parses": [
-            "abl.sg.fem",
-            "nom.sg.fem",
-            "voc.sg.fem",
+            "acc.pl.neut",
             "nom.pl.neut",
-            "voc.pl.neut",
-            "acc.pl.neut"
+            "voc.pl.neut"
           ],
           "stanza": "Tela",
           "pos_hint": "noun",
-          "__data_matches": "tela_n:abl.sg.fem,nom.sg.fem,voc.sg.fem;telum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
-          "selected_lemma_id": "telum_n",
-          "selected_by": "parser"
+          "__data_matches": "telum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut"
         },
         {
           "kind": "ws",
@@ -40365,7 +40367,10 @@
             "abl.sg.fem"
           ],
           "stanza": "mora_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "mora_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;morum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut",
+          "selected_lemma_id": "mora_n",
+          "selected_by": "parser"
         },
         {
           "kind": "ws",
@@ -40523,12 +40528,17 @@
         {
           "kind": "word",
           "surface": "vada",
-          "lemma_id": "vado_v",
+          "lemma_id": "vadum_n",
           "parses": [
-            "2sg.pres.imp.act"
+            "acc.pl.neut",
+            "nom.pl.neut",
+            "voc.pl.neut"
           ],
           "stanza": "vada",
-          "pos_hint": "verb"
+          "pos_hint": "noun",
+          "__data_matches": "vadum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut;vado_v:2sg.pres.imp.act",
+          "selected_lemma_id": "vadum_n",
+          "selected_by": "parser"
         },
         {
           "kind": "ws",
@@ -41036,22 +41046,13 @@
         },
         {
           "kind": "word",
-          "surface": "uter",
-          "lemma_id": "uter_n",
+          "surface": "uterque",
+          "lemma_id": "uterque_pron",
           "parses": [
             "nom.sg.masc",
             "voc.sg.masc"
           ],
-          "pos_hint": "noun"
-        },
-        {
-          "kind": "word",
-          "surface": "que",
-          "lemma_id": "que_enclit",
-          "parses": [
-            "enclit"
-          ],
-          "pos_hint": "enclitic"
+          "pos_hint": "pron"
         }
       ]
     },
@@ -44054,7 +44055,10 @@
             "abl.sg.fem"
           ],
           "stanza": "mora_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "mora_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;morum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut",
+          "selected_lemma_id": "mora_n",
+          "selected_by": "parser"
         },
         {
           "kind": "ws",
@@ -48744,18 +48748,14 @@
         {
           "kind": "word",
           "surface": "telis",
-          "lemma_id": "tela_n",
+          "lemma_id": "telum_n",
           "parses": [
-            "abl.pl.fem",
-            "dat.pl.fem",
             "abl.pl.neut",
             "dat.pl.neut"
           ],
           "stanza": "telis",
           "pos_hint": "noun",
-          "__data_matches": "tela_n:abl.pl.fem,dat.pl.fem;telum_n:abl.pl.neut,dat.pl.neut",
-          "selected_lemma_id": "telum_n",
-          "selected_by": "parser"
+          "__data_matches": "telum_n:abl.pl.neut,dat.pl.neut"
         },
         {
           "kind": "ws",
@@ -51424,20 +51424,15 @@
         {
           "kind": "word",
           "surface": "tela",
-          "lemma_id": "tela_n",
+          "lemma_id": "telum_n",
           "parses": [
-            "abl.sg.fem",
-            "nom.sg.fem",
-            "voc.sg.fem",
+            "acc.pl.neut",
             "nom.pl.neut",
-            "voc.pl.neut",
-            "acc.pl.neut"
+            "voc.pl.neut"
           ],
           "stanza": "tela_n",
           "pos_hint": "noun",
-          "__data_matches": "tela_n:abl.sg.fem,nom.sg.fem,voc.sg.fem;telum_n:nom.pl.neut,voc.pl.neut,acc.pl.neut",
-          "selected_lemma_id": "tela_n",
-          "selected_by": "parser"
+          "__data_matches": "telum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut"
         },
         {
           "kind": "ws",
@@ -74169,7 +74164,10 @@
             "abl.sg.fem"
           ],
           "stanza": "mora_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "mora_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;morum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut",
+          "selected_lemma_id": "mora_n",
+          "selected_by": "parser"
         },
         {
           "kind": "ws",
@@ -79020,7 +79018,10 @@
             "abl.sg.fem"
           ],
           "stanza": "mora_n",
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "mora_n:nom.sg.fem,voc.sg.fem,abl.sg.fem;morum_n:acc.pl.neut,nom.pl.neut,voc.pl.neut",
+          "selected_lemma_id": "mora_n",
+          "selected_by": "parser"
         },
         {
           "kind": "punct",
@@ -84592,26 +84593,17 @@
         },
         {
           "kind": "word",
-          "surface": "utra",
-          "lemma_id": "uter_n",
+          "surface": "utraque",
+          "lemma_id": "uterque_pron",
           "parses": [
-            "nom.sg.fem",
-            "nom.pl.neut",
-            "voc.pl.neut",
+            "abl.sg.fem",
             "acc.pl.neut",
-            "nom.sg",
-            "abl.sg.fem"
+            "nom.pl.neut",
+            "nom.sg.fem",
+            "voc.pl.neut",
+            "voc.sg.fem"
           ],
-          "pos_hint": "noun"
-        },
-        {
-          "kind": "word",
-          "surface": "que",
-          "lemma_id": "que_enclit",
-          "parses": [
-            "enclit"
-          ],
-          "pos_hint": "enclitic"
+          "pos_hint": "pron"
         },
         {
           "kind": "ws",

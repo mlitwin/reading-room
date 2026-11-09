@@ -191,3 +191,16 @@ test('C14 flags a parser default Stanza disagrees with, but not an editor one', 
   tok.selected_by = 'editor';
   assert.equal(inv(c).passed, true);
 });
+
+test('C10 accepts inflected forms of a lemma that ends in -que (utrumque of uterque)', () => {
+  const lex = { ...lexicon, lemmata: [...lexicon.lemmata,
+    { id: 'uterque_pron', lemma: 'uterque', pos: 'pron', glosses: ['each of two'], head: 'uterque' }] };
+  const c = structuredClone(okConcordance);
+  c.tokens['b1-01-001'] = { id: 'b1-01-001', surface: 'utrumque', candidates: [{ lemma_id: 'uterque_pron', parses: ['acc.sg.masc'] }] };
+  const inv = runSuite('concordance', concordanceInvariants, c, { grammar, glossary, lexicon: lex })
+    .invariants.find((x) => x.id === 'C10');
+  assert.equal(inv.passed, true);
+  c.tokens['b1-01-001'] = { id: 'b1-01-001', surface: 'leoque', candidates: [{ lemma_id: 'leo_n', parses: ['nom.sg'] }] };
+  assert.equal(runSuite('concordance', concordanceInvariants, c, { grammar, glossary, lexicon: lex })
+    .invariants.find((x) => x.id === 'C10').passed, false);
+});

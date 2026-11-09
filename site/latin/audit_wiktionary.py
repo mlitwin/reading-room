@@ -13,6 +13,8 @@ Card checks
   W5  Wiktionary says plurale tantum, card has singular cells
   W6  paradigm cells whose forms Wiktionary doesn't give for that cell
   W7  id suffix doesn't match pos, or id stem doesn't match the headword
+  W8  glosses share no word with the matched entry's senses (copied from a
+      different word sharing a stem: pater "bowl", ver "Verus")
 
 Token checks
   T1  selected reading's lemma isn't among Wiktionary's analyses of the surface
@@ -23,6 +25,7 @@ Usage:
     python3 site/latin/audit_wiktionary.py      # writes the report below
 """
 import json
+import re
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -183,6 +186,33 @@ def card_forms(card):
     return {norm(card.get("lemma", ""))} | {norm(x) for x in card.get("alt_forms") or []}
 
 
+GLOSS_STOP = set("a an the of to in on at by for with from and or be is as it its one that this pl sg etc "
+                 "into out up off over make made do".split())
+GLOSS_SKIP_POS = {"conj", "prep", "adv", "pron", "interj", "num", "enclitic"}
+
+
+def gloss_words(glosses):
+    return {w[:5] for g in glosses for w in re.findall(r"[a-z]+", g.lower())
+            if len(w) > 2 and w not in GLOSS_STOP}
+
+
+def audit_glosses(cards, matched):
+    """W8: card glosses share no word with the matched Wiktionary entry's —
+    the signature of glosses copied from a different word sharing a stem
+    (pater "bowl" from patera, ver "Verus")."""
+    out = []
+    for cid, (card, src) in sorted(cards.items()):
+        e = matched.get(cid)
+        if (not e or not e.get("glosses") or not card.get("glosses") or card["pos"] in GLOSS_SKIP_POS
+                or card.get("homograph") or e.get("proper") or card["lemma"][:1].isupper()):
+            continue
+        cw, ew = gloss_words(card["glosses"]), gloss_words(e["glosses"])
+        if cw and ew and not cw & ew:
+            out.append({"id": cid, "src": src,
+                        "detail": f"card: {'; '.join(card['glosses'][:2])[:70]} | Wiktionary: {'; '.join(e['glosses'][:2])[:70]}"})
+    return out
+
+
 def audit_tokens(cards, matched):
     find = defaultdict(list)
     # Homograph-aware: the exact (macronized) Wiktionary words our cards were
@@ -299,6 +329,7 @@ TITLES = {
     "W5": "Plurale tantum in Wiktionary, card has singular cells",
     "W6": "Paradigm cells Wiktionary doesn't give",
     "W7": "Card id doesn't match its pos / headword",
+    "W8": "Card glosses share nothing with the word's Wiktionary senses",
     "T1": "Selected reading not among Wiktionary's analyses of the surface",
     "T2": "Selected lemma matches, but no parse does",
     "T3": "Known lemma's reading missing from the token's candidates",
@@ -368,6 +399,7 @@ def write_report(cfind, tfind, cards, matched):
 def main():
     cards = load_cards()
     cfind, matched = audit_cards(cards)
+    cfind["W8"] = audit_glosses(cards, matched)
     tfind = audit_tokens(cards, matched)
     tfind["H1"] = audit_homographs(cards, matched)
     write_report(cfind, tfind, cards, matched)

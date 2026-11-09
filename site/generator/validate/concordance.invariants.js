@@ -392,10 +392,14 @@ export const concordanceInvariants = [
         // candidate lemmata. This catches Latin words that legitimately end in
         // -que / -ve as part of their dictionary form (quoque, quisque, ubique,
         // utroque, neve, sive, …) without false-flagging them as unsplit.
+        // Likewise every form of a lemma whose citation form itself ends in
+        // the suffix: uterque → utrumque, utraque; quisque → quaeque.
         const isOwnCitationForm = tok.candidates.some((cand) => {
           const lemma = lexById.get(cand.lemma_id);
           if (!lemma) return false;
-          return normalizeSurface(lemma.lemma) === tok.surface;
+          const cite = normalizeSurface(lemma.lemma);
+          const suf = findUnsplitEnclitic(cite);
+          return cite === tok.surface || (suf !== null && tok.surface.endsWith(suf));
         });
         if (isOwnCitationForm) continue;
 

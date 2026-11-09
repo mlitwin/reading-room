@@ -7,7 +7,7 @@ Read-only comparison of the lexicon cards and text annotations with Wiktionary. 
 a disagreement to look at, not an automatic error: Wiktionary covers Neo-Latin and proper names
 unevenly, and its paradigms list classical forms only. Full detail: `.tmp/wiktionary-audit.json`.
 
-Cards checked: 1890 (1793 matched to a Wiktionary entry).
+Cards checked: 1891 (1794 matched to a Wiktionary entry).
 
 | check | finding | count |
 |---|---|---|
@@ -16,8 +16,9 @@ Cards checked: 1890 (1793 matched to a Wiktionary entry).
 | W3 | No Wiktionary entry with the card's part of speech | 26 |
 | W4 | Noun gender disagrees | 2 |
 | W5 | Plurale tantum in Wiktionary, card has singular cells | 0 |
-| W6 | Paradigm cells Wiktionary doesn't give | 35 |
+| W6 | Paradigm cells Wiktionary doesn't give | 34 |
 | W7 | Card id doesn't match its pos / headword | 0 |
+| W8 | Card glosses share nothing with the word's Wiktionary senses | 20 |
 | T1 | Selected reading not among Wiktionary's analyses of the surface | 27 |
 | T2 | Selected lemma matches, but no parse does | 3 |
 | T3 | Known lemma's reading missing from the token's candidates | 49 |
@@ -134,11 +135,10 @@ Cards checked: 1890 (1793 matched to a Wiktionary entry).
 - `forceps_n` (marvell-hortus/vocabulary) — card fem, Wiktionary masc — forceps m (genitive forcipis); third declension
 - `pascua_n` (lexicon.json) — card neut, Wiktionary fem — pāscua f (genitive pāscuae); first declension; also a form of pāscuum, pāscuus
 
-## W6 — Paradigm cells Wiktionary doesn't give (35)
+## W6 — Paradigm cells Wiktionary doesn't give (34)
 
 Sorted by the share of compared cells that disagree.
 
-- `uter_n` (lexicon.json) 10/12 cells — gen.sg: utri ≠ utris; dat.sg: utro ≠ utri; acc.sg: utrum ≠ utrem; abl.sg: utro ≠ utre
 - `como_v` (lexicon.json) 104/142 cells — 2sg.pres.ind.act: comas ≠ comis; 3sg.pres.ind.act: comat ≠ comit; 1pl.pres.ind.act: comamus ≠ comimus; 2pl.pres.ind.act: comatis ≠ comitis
 - `praeceps_n` (lexicon.json) 5/12 cells — abl.sg: praecipite ≠ praecipiti; nom.pl: praecipita ≠ praecipitia; gen.pl: praecipitum ≠ praecipitium; acc.pl: praecipita ≠ praecipitia
 - `pelagus_n` (lexicon.json) 4/12 cells — nom.pl: pelaga ≠ pelage; acc.pl: pelaga ≠ pelage; voc.sg: pelage ≠ pelagus; voc.pl: pelaga ≠ pelage
@@ -173,6 +173,29 @@ Sorted by the share of compared cells that disagree.
 - `pereo_v` (lexicon.json) 1/147 cells — gerundive.nom.sg.masc: pereundus ≠ pereundum
 - `laboro_v` (lexicon.json) 1/152 cells — gerundive.nom.sg.masc: laborandus ≠ laborandum
 - `sculpo_v` (marvell-hortus/vocabulary) 1/152 cells — gerundive.nom.sg.masc: sculpendus ≠ sculpendum/sculpundum
+
+## W8 — Card glosses share nothing with the word's Wiktionary senses (20)
+
+- `adoleo_v` (lexicon.json) — card: worship, make/burn sacrifice/offerings; cremate | Wiktionary: to emit an odor, smell
+- `argus_n` (lexicon.json) — card: Argus; the hundred-eyed guardian set by Juno to watch Io | Wiktionary: a taxonomic epithet for an organism having many markings that look lik
+- `avia_n` (lexicon.json) — card: pathless region (pl.), wild waste, wilderness, desert; lonely/solitary | Wiktionary: grandmother (mother of someone’s parent)
+- `chaos_n` (lexicon.json) — card: Chaos, the formless primordial mass; the shapeless void; the abyss | Wiktionary: a chasm
+- `cornum_n` (lexicon.json) — card: cornel berry/cherry, fruit of cornelian cherry tree; javelin/spear (of | Wiktionary: horn (all senses); hoof
+- `cumba_n` (lexicon.json) — card: small boat, skiff | Wiktionary: valley
+- `dissocio_v` (lexicon.json) — card: be/set at variance with, split into factions, separate, part | Wiktionary: to put out of union, to disjoin, to disunite
+- `exululo_v` (lexicon.json) — card: invoke with howls | Wiktionary: to howl out; to call by howling
+- `fulvus_adj` (lexicon.json) — card: tawny, reddish yellow; yellow | Wiktionary: glowing; bright brown, orange or golden in color, sometimes green
+- `impatiens_adj` (lexicon.json) — card: impatient/intolerant (of); not moved to action by feeling | Wiktionary: that cannot bear; avoiding, fleeing; insensible, apathetic, stoic
+- `indormio_v` (marvell-hortus/vocabulary) — card: to sleep on or over; to grow careless | Wiktionary: to fall asleep (over)
+- `liceo_v` (lexicon.json) — card: it is permitted, one may; it is all right, lawful, allowed, permitted | Wiktionary: to be for sale; to have a price; to fetch; to value
+- `palatium_n` (lexicon.json) — card: Palatine Hill | Wiktionary: a palace; large residence
+- `patruelis_adj` (lexicon.json) — card: of a cousin | Wiktionary: of, belonging to or descending from one's father's brother; of, belong
+- `semideus_n` (lexicon.json) — card: demigod | Wiktionary: the son born of a god and a mortal.; a man considered talented, powerf
+- `somnifer_adj` (lexicon.json) — card: inducing sleep | Wiktionary: somniferous
+- `stagno_v` (lexicon.json) — card: form/lie in pools; be under water | Wiktionary: to cover the land as a lake; to become a pool; to stagnate
+- `trio_n` (lexicon.json) — card: plough-ox; pl., the Triones: the oxen of the Wain, the stars of the Gr | Wiktionary: a plow ox; the constellation of the Wagon (Ursa Major and Ursa Minor)
+- `triton_n` (lexicon.json) — card: Triton; sea-god, trumpeter of Neptune with his conch shell | Wiktionary: a merman; a type of fish
+- `vado_v` (lexicon.json) — card: go, walk; rush, hasten, advance | Wiktionary: to ford, wade through
 
 ## T1 — Selected reading not among Wiktionary's analyses of the surface (27)
 
