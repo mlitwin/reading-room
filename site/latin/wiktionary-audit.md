@@ -7,17 +7,17 @@ Read-only comparison of the lexicon cards and text annotations with Wiktionary. 
 a disagreement to look at, not an automatic error: Wiktionary covers Neo-Latin and proper names
 unevenly, and its paradigms list classical forms only. Full detail: `.tmp/wiktionary-audit.json`.
 
-Cards checked: 1882 (1780 matched to a Wiktionary entry).
+Cards checked: 1881 (1780 matched to a Wiktionary entry).
 
 | check | finding | count |
 |---|---|---|
 | W1 | Card headword not in Wiktionary | 62 |
 | W2 | Card headword is an inflected form / variant of another lemma | 11 |
-| W3 | No Wiktionary entry with the card's part of speech | 29 |
+| W3 | No Wiktionary entry with the card's part of speech | 28 |
 | W4 | Noun gender disagrees | 6 |
 | W5 | Plurale tantum in Wiktionary, card has singular cells | 0 |
-| W6 | Paradigm cells Wiktionary doesn't give | 47 |
-| W7 | Card id doesn't match its pos / headword | 63 |
+| W6 | Paradigm cells Wiktionary doesn't give | 46 |
+| W7 | Card id doesn't match its pos / headword | 0 |
 | T1 | Selected reading not among Wiktionary's analyses of the surface | 27 |
 | T2 | Selected lemma matches, but no parse does | 3 |
 | T3 | Known lemma's reading missing from the token's candidates | 332 |
@@ -25,6 +25,7 @@ Cards checked: 1882 (1780 matched to a Wiktionary entry).
 ## W1 — Card headword not in Wiktionary (62)
 
 - `Chloe_n` (marvell-hortus/vocabulary) — Chloe
+- `Clymene_n` (lexicon.json) — Clymene
 - `Corynna_n` (marvell-hortus/vocabulary) — Corynna
 - `Faustina_n` (marvell-hortus/vocabulary) — Faustina
 - `Lemniacus_adj` (marvell-hortus/vocabulary) — Lemniacus
@@ -43,7 +44,6 @@ Cards checked: 1882 (1780 matched to a Wiktionary entry).
 - `astraea_n` (lexicon.json) — astraea
 - `atlantiades_n` (lexicon.json) — atlantiades
 - `cephisis_adj` (lexicon.json) — cephisis
-- `clymenos_adv` (lexicon.json) — Clymene
 - `delius_adj` (lexicon.json) — delius
 - `delphicus_adj` (lexicon.json) — delphicus
 - `dis-redimo_v` (lexicon.json) — disredimo
@@ -90,18 +90,18 @@ Cards checked: 1882 (1780 matched to a Wiktionary entry).
 ## W2 — Card headword is an inflected form / variant of another lemma (11)
 
 - `admissum_n` (lexicon.json) — admissum → admissus, admittō
-- `bini_adv` (lexicon.json) — bini → bīnus
+- `bini_num` (lexicon.json) — bini → bīnus
 - `conata_n` (lexicon.json) — conata → cōnātus
 - `correpto_v` (lexicon.json) — correpto → correptus
 - `corycis_adj` (lexicon.json) — corycis → cōrycus
 - `neu_conj` (lexicon.json) — neu → nēve
-- `quini_adv` (lexicon.json) — quini → quīnus
+- `quini_num` (lexicon.json) — quini → quīnus
 - `re-tento_v` (lexicon.json) — retento → retentus
 - `solo_v` (lexicon.json) — solo → solum, sōlus
 - `tartara_n` (lexicon.json) — tartara → Tartara
 - `titania_n` (lexicon.json) — titania → tītānium
 
-## W3 — No Wiktionary entry with the card's part of speech (29)
+## W3 — No Wiktionary entry with the card's part of speech (28)
 
 - `Arcitenens_n` (lexicon.json) — card noun; Wiktionary adj
 - `adspergo_n` (lexicon.json) — card noun; Wiktionary verb
@@ -112,24 +112,23 @@ Cards checked: 1882 (1780 matched to a Wiktionary entry).
 - `decens_adj` (lexicon.json) — card adj; Wiktionary verb
 - `fragrans_adj` (marvell-hortus/vocabulary) — card adj; Wiktionary verb
 - `inaratus_adj` (lexicon.json) — card adj; Wiktionary verb
-- `intermissus_adv` (lexicon.json) — card adj; Wiktionary verb
+- `intermissus_adj` (lexicon.json) — card adj; Wiktionary verb
 - `junctus_adj` (lexicon.json) — card adj; Wiktionary verb
 - `miserandus_adj` (lexicon.json) — card adj; Wiktionary verb
 - `molossus_adj` (lexicon.json) — card adj; Wiktionary noun
 - `mutuo_v` (lexicon.json) — card verb; Wiktionary adv
 - `nihil_n` (marvell-hortus/vocabulary) — card noun; Wiktionary adv, pron
 - `nocens_adj` (lexicon.json) — card adj; Wiktionary verb
-- `praecinctus_adv` (lexicon.json) — card adj; Wiktionary verb
+- `praecinctus_adj` (lexicon.json) — card adj; Wiktionary verb
 - `quasi_adv` (lexicon.json) — card adv; Wiktionary conj
 - `relictus_adj` (lexicon.json) — card adj; Wiktionary noun, verb
 - `sata_adj` (lexicon.json) — card adj; Wiktionary noun
 - `satus_adj` (lexicon.json) — card adj; Wiktionary noun, verb
 - `semel_num` (lexicon.json) — card num; Wiktionary adv
-- `sponte_adv` (lexicon.json) — card noun; Wiktionary adv
+- `sponte_n` (lexicon.json) — card noun; Wiktionary adv
 - `subditus_adj` (lexicon.json) — card adj; Wiktionary noun, verb
 - `supera_n` (lexicon.json) — card noun; Wiktionary verb
 - `tot_adj` (lexicon.json) — card adj; Wiktionary pron
-- `triste_adv` (lexicon.json) — card adj; Wiktionary adv
 - `vester_adj` (lexicon.json) — card adj; Wiktionary pron
 - `volucris_adj` (lexicon.json) — card adj; Wiktionary noun
 
@@ -142,19 +141,18 @@ Cards checked: 1882 (1780 matched to a Wiktionary entry).
 - `pascua_n` (lexicon.json) — card neut, Wiktionary fem — pāscua f (genitive pāscuae); first declension; also a form of pāscuum, pāscuus
 - `vela_n` (lexicon.json) — card neut, Wiktionary fem — vela f (genitive velae); first declension; also a form of vēlum, vēlō
 
-## W6 — Paradigm cells Wiktionary doesn't give (47)
+## W6 — Paradigm cells Wiktionary doesn't give (46)
 
 Sorted by the share of compared cells that disagree.
 
 - `arva_n` (lexicon.json) 6/6 cells — nom.sg: aruum ≠ arua; gen.sg: arui ≠ aruae; acc.sg: aruum ≠ aruam; dat.sg: aruo ≠ aruae
-- `cani_n` (lexicon.json) 2/2 cells — nom.sg: cania ≠ kaa; nom.pl: caniae ≠ kaas
 - `armenta_n` (lexicon.json) 10/12 cells — nom.sg: armentum ≠ armenta; gen.sg: armenti ≠ armentae; acc.sg: armentum ≠ armentam; dat.sg: armento ≠ armentae
 - `mala_n` (lexicon.json) 10/12 cells — nom.sg: malum ≠ mala; gen.sg: mali ≠ malae; acc.sg: malum ≠ malam; dat.sg: malo ≠ malae
 - `uter_n` (lexicon.json) 10/12 cells — gen.sg: utri ≠ utris; dat.sg: utro ≠ utri; acc.sg: utrum ≠ utrem; abl.sg: utro ≠ utre
 - `vela_n` (lexicon.json) 10/12 cells — nom.sg: uelum ≠ uela; gen.sg: ueli ≠ uelae; acc.sg: uelum ≠ uelam; dat.sg: uelo ≠ uelae
 - `como_v` (lexicon.json) 104/142 cells — 2sg.pres.ind.act: comas ≠ comis; 3sg.pres.ind.act: comat ≠ comit; 1pl.pres.ind.act: comamus ≠ comimus; 2pl.pres.ind.act: comatis ≠ comitis
 - `praeceps_n` (lexicon.json) 5/12 cells — abl.sg: praecipite ≠ praecipiti; nom.pl: praecipita ≠ praecipitia; gen.pl: praecipitum ≠ praecipitium; acc.pl: praecipita ≠ praecipitia
-- `pelagium_adv` (lexicon.json) 4/12 cells — nom.pl: pelaga ≠ pelage; acc.pl: pelaga ≠ pelage; voc.sg: pelage ≠ pelagus; voc.pl: pelaga ≠ pelage
+- `pelagus_n` (lexicon.json) 4/12 cells — nom.pl: pelaga ≠ pelage; acc.pl: pelaga ≠ pelage; voc.sg: pelage ≠ pelagus; voc.pl: pelaga ≠ pelage
 - `pedis_n` (lexicon.json) 3/12 cells — gen.pl: pedum ≠ pedium; nom.sg: pes ≠ pedis; voc.sg: pes ≠ pedis
 - `tertio_v` (lexicon.json) 24/178 cells — 1sg.imperf.ind.act: tertiebam ≠ tertiabam; 2sg.imperf.ind.act: tertiebas ≠ tertiabas; 3sg.imperf.ind.act: tertiebat ≠ tertiabat; 1pl.imperf.ind.act: tertiebamus ≠ tertiabamus
 - `quisquam_pron` (lexicon.json) 2/15 cells — acc.sg.fem: quamquam ≠ quemquam; abl.sg.fem: quaquam ≠ quiquam/quoquam
@@ -193,72 +191,6 @@ Sorted by the share of compared cells that disagree.
 - `venio_v` (lexicon.json) 1/147 cells — ppp.nom.sg.masc: uentus ≠ uentum
 - `laboro_v` (lexicon.json) 1/152 cells — gerundive.nom.sg.masc: laborandus ≠ laborandum
 - `sculpo_v` (marvell-hortus/vocabulary) 1/152 cells — gerundive.nom.sg.masc: sculpendus ≠ sculpendum/sculpundum
-
-## W7 — Card id doesn't match its pos / headword (63)
-
-- `auxilia_adv` (lexicon.json) — pos noun, id suffix _adv
-- `auxiliares_adv` (lexicon.json) — pos adj, id suffix _adv
-- `bini_adv` (lexicon.json) — pos num, id suffix _adv
-- `boreas_adv` (lexicon.json) — pos noun, id suffix _adv
-- `caelicola_adv` (lexicon.json) — pos noun, id suffix _adv
-- `cani_n` (lexicon.json) — id stem 'cani' vs headword 'cania'
-- `ceter_adj` (lexicon.json) — id stem 'ceter' vs headword 'ceterus'
-- `ceu_n` (lexicon.json) — pos adv, id suffix _n
-- `chaos_adv` (lexicon.json) — pos noun, id suffix _adv
-- `clymenos_adv` (lexicon.json) — pos noun, id suffix _adv
-- `congeries_adv` (lexicon.json) — pos noun, id suffix _adv
-- `decet_adv` (lexicon.json) — pos verb, id suffix _adv
-- `decor_v` (lexicon.json) — id stem 'decor' vs headword 'decoro'
-- `demens_n` (lexicon.json) — pos adj, id suffix _n
-- `deterior_v` (lexicon.json) — id stem 'deterior' vs headword 'deterioro'
-- `dubitabilis_adv` (lexicon.json) — pos adj, id suffix _adv
-- `exitio_adv` (lexicon.json) — pos noun, id suffix _adv
-- `exuviae_adv` (lexicon.json) — pos noun, id suffix _adv
-- `filius_adv` (lexicon.json) — pos noun, id suffix _adv
-- `frigida_adv` (lexicon.json) — pos adj, id suffix _adv
-- `in-pleo_adv` (lexicon.json) — pos verb, id suffix _adv
-- `incola_adv` (lexicon.json) — pos noun, id suffix _adv
-- `inhospita_adv` (lexicon.json) — pos adj, id suffix _adv
-- `insidiae_adv` (lexicon.json) — pos noun, id suffix _adv
-- `instabilio_adv` (lexicon.json) — pos adj, id suffix _adv
-- `intermissus_adv` (lexicon.json) — pos adj, id suffix _adv
-- `intondeo_adv` (lexicon.json) — pos adj, id suffix _adv
-- `is_adv` (lexicon.json) — pos pron, id suffix _adv
-- `limosa_adv` (lexicon.json) — pos adj, id suffix _adv
-- `lycaon_adv` (lexicon.json) — pos noun, id suffix _adv
-- `manifesta_adv` (lexicon.json) — pos adj, id suffix _adv
-- `mariti_adv` (lexicon.json) — pos noun, id suffix _adv
-- `matutinum_adv` (lexicon.json) — pos adj, id suffix _adv
-- `modium_adv` (lexicon.json) — pos noun, id suffix _adv
-- `monticola_adv` (lexicon.json) — pos noun, id suffix _adv
-- `nauta_adv` (lexicon.json) — pos noun, id suffix _adv
-- `occaedes_adv` (lexicon.json) — pos verb, id suffix _adv
-- `ocior_adv` (lexicon.json) — pos adj, id suffix _adv
-- `ortygia_adv` (lexicon.json) — pos noun, id suffix _adv
-- `pelagium_adv` (lexicon.json) — pos noun, id suffix _adv
-- `pertimeo_adv` (lexicon.json) — pos verb, id suffix _adv
-- `popularia_adv` (lexicon.json) — pos adj, id suffix _adv
-- `praecinctus_adv` (lexicon.json) — pos adj, id suffix _adv
-- `profuga_adv` (lexicon.json) — pos adj, id suffix _adv
-- `qua_pron` (lexicon.json) — pos adv, id suffix _pron
-- `quini_adv` (lexicon.json) — pos num, id suffix _adv
-- `regales_adv` (lexicon.json) — pos adj, id suffix _adv
-- `resupino_adv` (lexicon.json) — pos verb, id suffix _adv
-- `sincero_adv` (lexicon.json) — pos adj, id suffix _adv
-- `siquis_adv` (lexicon.json) — pos pron, id suffix _adv
-- `sponte_adv` (lexicon.json) — pos noun, id suffix _adv
-- `suco_adv` (lexicon.json) — pos noun, id suffix _adv
-- `super_n` (lexicon.json) — pos prep, id suffix _n
-- `tenebrosum_adv` (lexicon.json) — pos adj, id suffix _adv
-- `tonitruo_adv` (lexicon.json) — pos noun, id suffix _adv
-- `triste_adv` (lexicon.json) — pos adj, id suffix _adv
-- `ulter_pron` (lexicon.json) — pos adj, id suffix _pron
-- `umbrosa_adv` (lexicon.json) — pos adj, id suffix _adv
-- `vero_n` (lexicon.json) — pos adv, id suffix _n
-- `vinculo_adv` (lexicon.json) — pos noun, id suffix _adv
-- `viscera_adv` (lexicon.json) — pos noun, id suffix _adv
-- `vulgus_adv` (lexicon.json) — pos noun, id suffix _adv
-- `zephyrius_adv` (lexicon.json) — pos noun, id suffix _adv
 
 ## T1 — Selected reading not among Wiktionary's analyses of the surface (27)
 
