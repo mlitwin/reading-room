@@ -50,6 +50,24 @@ function emitSpan(tok) {
   return out;
 }
 
+// Editorial selections must name one of the token's own readings. The
+// concordance builder silently drops a selection that matches no candidate
+// (so C4 can't see it), and the reader would show a tab that doesn't exist —
+// fail here instead. Returns ["line N "surface": sel not in [ids]", …].
+export function straySelections(manuscript) {
+  const out = [];
+  for (const line of manuscript.lines) {
+    for (const tok of line.tokens) {
+      if (tok.kind !== 'word' || !tok.selected_lemma_id) continue;
+      const ids = String(tok.__data_matches ?? tok.lemma_id).split(';').map((p) => p.split(':')[0]);
+      if (!ids.includes(tok.selected_lemma_id)) {
+        out.push(`line ${line.n} "${tok.surface}": ${tok.selected_lemma_id} not in [${ids.join(', ')}]`);
+      }
+    }
+  }
+  return out;
+}
+
 function emitToken(tok) {
   switch (tok.kind) {
     case 'word':  return emitSpan(tok);
@@ -128,6 +146,11 @@ export async function buildManuscriptMd(textSlug, outDir, contentDir = join(REPO
       lValidation.error.issues.slice(0, 5)
         .map((i) => `  ${i.path.join('.')}: ${i.message}`).join('\n')
     }`);
+  }
+  const stray = straySelections(latin);
+  if (stray.length) {
+    throw new Error(`latin manuscript: selected_lemma_id not among the token's readings:\n  ${
+      stray.slice(0, 5).join('\n  ')}`);
   }
   const eValidation = ManuscriptSchema.safeParse(english);
   if (!eValidation.success) {

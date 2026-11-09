@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { buildManuscriptMd } from '../build-manuscript-md.js';
+import { buildManuscriptMd, straySelections } from '../build-manuscript-md.js';
 import { ManuscriptSchema } from '../schema/manuscript.schema.js';
 import { CorrespondencesSchema } from '../schema/correspondences.schema.js';
 
@@ -75,5 +75,26 @@ test('build-manuscript-md is deterministic across runs', async () => {
   } finally {
     if (outA) await rm(outA, { recursive: true, force: true });
     if (outB) await rm(outB, { recursive: true, force: true });
+  }
+});
+
+test('straySelections flags a selection that is not one of the readings', () => {
+  const word = (over) => ({ kind: 'word', surface: 'veteris', lemma_id: 'vetus_adj', parses: ['gen.sg.fem'], ...over });
+  const ms = (tokens) => ({ lines: [{ n: 237, tokens }] });
+  assert.deepEqual(straySelections(ms([word({ selected_lemma_id: 'vetus_adj' })])), []);
+  assert.deepEqual(
+    straySelections(ms([word({ __data_matches: 'vetus_adj:gen.sg.fem;vetus_n:gen.sg.neut', selected_lemma_id: 'vetus_n' })])),
+    [],
+  );
+  assert.deepEqual(
+    straySelections(ms([word({ selected_lemma_id: 'vetus_n' })])),
+    ['line 237 "veteris": vetus_n not in [vetus_adj]'],
+  );
+});
+
+test('committed Latin manuscripts have no stray selections', async () => {
+  for (const slug of ['ovid-metamorphoses', 'marvell-hortus']) {
+    const ms = JSON.parse(await readFile(join(REPO_ROOT, 'content', slug, 'manuscript.latin.json'), 'utf8'));
+    assert.deepEqual(straySelections(ms), [], slug);
   }
 });
