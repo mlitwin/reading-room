@@ -44,15 +44,17 @@ def sync_token(t, idx, cards, first=None, drop=frozenset()):
     new = [[cid, codes] for cid, codes in sorted(idx.get(s, {}).items())
            if cid not in have and (s, cid) not in drop]
     primary = t.get("selected_lemma_id") or t["lemma_id"]
+    selected_by = None
     if first and (s, primary) in first:
         primary = first[(s, primary)]
+        selected_by = "editor"   # --first is an editorial decision
     if primary not in have | {c for c, _ in new}:
         primary = (parts or new)[0][0]
     if not new and parts == old and primary == (t.get("selected_lemma_id") or t["lemma_id"]):
         return 0
     allp = sorted(parts + new, key=lambda p: p[0] != primary)
     pos = cards[primary][0]["pos"] if primary in cards else None
-    write_readings(t, allp, primary, (primary, pos) if pos else None)
+    write_readings(t, allp, primary, (primary, pos) if pos else None, selected_by)
     return len(new)
 
 

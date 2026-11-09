@@ -22,6 +22,8 @@ export const TokenInstanceSchema = z.object({
   surface: z.string().min(1),                             // normalized — see C7
   candidates: z.array(ConcordanceCandidateSchema).min(1),
   selected_lemma_id: LemmaIdSchema.optional(),            // stanza-model or editorial choice
+  selected_by: z.enum(['editor', 'stanza', 'parser']).optional(), // provenance of selected_lemma_id
+  stanza_lemma_id: LemmaIdSchema.optional(),              // Stanza's reading, when it is a candidate
   selected_parses: z.array(z.string().min(1)).optional(), // narrowed parses on selected lemma
   pos_hint: z.string().optional(),                        // data-pos audit aid
 });

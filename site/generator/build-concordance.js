@@ -123,6 +123,12 @@ function extractTokens(fileText, loc) {
         // selected_parses unset rather than guess.
       }
     }
+    if (attrs['data-selected-by'] && tok.selected_lemma_id) tok.selected_by = attrs['data-selected-by'];
+    // Stanza's reading, kept beside an editorial selection so C14 can flag
+    // parser defaults that Stanza disagrees with.
+    if (attrs['data-stanza'] && candidates.some((c) => c.lemma_id === attrs['data-stanza'])) {
+      tok.stanza_lemma_id = attrs['data-stanza'];
+    }
     if (attrs['data-pos']) tok.pos_hint = attrs['data-pos'];
     tokens.push(tok);
   }

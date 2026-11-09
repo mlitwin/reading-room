@@ -89,6 +89,15 @@ export const LemmaEntrySchema = z.object({
   ppp_paradigm: ParadigmSchema.optional(),
   notes: z.string().optional(),
   defective: z.boolean().optional(),
+  // Display headword with vowel quantities (lēvis, pōpulus); `lemma` stays the
+  // unmarked key. Used for tab labels and the card title.
+  headword: z.string().min(1).optional(),
+  // Homograph number (Lewis & Short numbering) when another card shares this
+  // unmarked lemma and pos: populus_n = 1, populus2_n = 2. Invariant L12.
+  homograph: z.number().int().min(1).optional(),
+  // Whitaker DICTLINE frequency code (A = very frequent … F = rare; I/M/N =
+  // inscription/graffiti/Pliny-only). Orders non-default reading tabs.
+  freq: z.string().regex(/^[A-FIMN]$/).optional(),
 });
 
 export const LanguageSchema = z.object({

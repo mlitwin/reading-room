@@ -488,4 +488,28 @@ export const concordanceInvariants = [
       return violations;
     },
   },
+  {
+    id: 'C14',
+    description: "A parser-chosen default that Stanza disagrees with (editorial review queue)",
+    // The default tab follows editor > Stanza > parser. Where the default is
+    // only the parser's pick and Stanza names another candidate, the reader
+    // opens Stanza's — this lists those for a person to confirm one way or
+    // the other (confirming writes selected_by: "editor").
+    severity: 'warning',
+    /** @param {Concordance} c */
+    check(c) {
+      /** @type {Violation[]} */
+      const violations = [];
+      for (const [id, tok] of Object.entries(c.tokens)) {
+        if (!tok.stanza_lemma_id || !tok.selected_lemma_id || tok.selected_by === 'editor') continue;
+        if (tok.stanza_lemma_id !== tok.selected_lemma_id) {
+          violations.push({
+            path: `tokens.${id}`,
+            message: `"${tok.raw_surface ?? tok.surface}": parser default ${tok.selected_lemma_id}, Stanza ${tok.stanza_lemma_id}`,
+          });
+        }
+      }
+      return violations;
+    },
+  },
 ];

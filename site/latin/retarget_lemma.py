@@ -75,7 +75,7 @@ def readings(t):
     return [[t["lemma_id"], list(t.get("parses") or [])]]
 
 
-def write_readings(t, parts, primary, target_pos):
+def write_readings(t, parts, primary, target_pos, selected_by=None):
     t["__data_matches"] = ";".join(f"{i}:{','.join(p)}" if p else i for i, p in parts)
     ids = [i for i, _ in parts]
     primary = primary if primary in ids else ids[0]
@@ -84,9 +84,15 @@ def write_readings(t, parts, primary, target_pos):
     if target_pos and primary == target_pos[0]:
         t["pos_hint"] = target_pos[1]
     if len(parts) > 1:
+        changed = t.get("selected_lemma_id") != primary
         t["selected_lemma_id"] = primary
+        if selected_by:
+            t["selected_by"] = selected_by
+        elif changed or "selected_by" not in t:
+            t["selected_by"] = "parser"   # a tool's pick, not an editorial one
     else:
         t.pop("selected_lemma_id", None)
+        t.pop("selected_by", None)
 
 
 def retarget(pairs, dry=False, keep=False):
@@ -123,8 +129,9 @@ def retarget(pairs, dry=False, keep=False):
                             hit[1] = sorted(set(hit[1]) | set(p))
                         else:
                             new.append([i, p])
+                    # A rename keeps the selection's provenance.
                     write_readings(t, new, target if primary == junk else primary,
-                                   (target, cards[target][0]["pos"]))
+                                   (target, cards[target][0]["pos"]), t.get("selected_by"))
                     moved[junk] += 1
 
     # Which junk cards are still referenced?

@@ -6,7 +6,8 @@
 // elements in the page DOM (see build.js).
 //
 // Stack model: one per open-cycle, cleared on light-dismiss.
-//   Card entry: { type:'card', lemma, label, matches, stanzaLemma }
+//   Card entry: { type:'card', lemma, label, matches, stanzaLemma,
+//                 selectedLemma, selectedBy, activeLemma }
 //   Note entry: { type:'note', sourceId, label }
 (function () {
 
@@ -399,52 +400,168 @@
     return '<button class="card-pos note-link" type="button" popovertarget="note-' + escAttr(note) + '">' + escHtml(pos) + '</button>';
   }
 
-  // ── tab bar (multi-lemma)
-  function chooseInitialTab(available, stanzaLemma, activeLemma) {
-    // Restore the tab the user last selected for this stack entry.
-    if (activeLemma) {
-      for (var i = 0; i < available.length; i++) {
-        if (available[i].lemma === activeLemma) return available[i].lemma;
-      }
-    }
-    // Default to stanza-preferred, then first candidate.
-    if (stanzaLemma) {
-      for (var i = 0; i < available.length; i++) {
-        if (available[i].lemma === stanzaLemma) return available[i].lemma;
-      }
-    }
+  // ── reading tabs (multi-lemma and homographs)
+  // A token's surface can be a form of several dictionary words (soft
+  // disambiguation: every reading stays available). One opens by default; the
+  // rest are tabs. See Plans/homograph-support-plan.md.
+
+  // Default tab precedence: the learner's own last choice for this stack
+  // entry → an editor's selection → Stanza's ✓ → the parser's selection →
+  // first candidate. selectedBy is internal: it orders, it is never shown.
+  function chooseInitialTab(available, entry) {
+    var has = function (id) {
+      return id && available.some(function (m) { return m.lemma === id; });
+    };
+    if (has(entry.activeLemma)) return entry.activeLemma;
+    if (entry.selectedBy === 'editor' && has(entry.selectedLemma)) return entry.selectedLemma;
+    if (has(entry.stanzaLemma)) return entry.stanzaLemma;
+    if (has(entry.selectedLemma)) return entry.selectedLemma;
     return available[0].lemma;
   }
 
-  function renderTabBar(available, activeLemma, stanzaLemma) {
-    if (available.length <= 1) return '';
-    return '<div class="card-tab-bar">' +
-      available.map(function (m) {
-        var isActive = m.lemma === activeLemma;
-        var isStanza = stanzaLemma && m.lemma === stanzaLemma;
-        var displayName = (lexiconCache && lexiconCache[m.lemma] && lexiconCache[m.lemma].lemma) || m.lemma;
-        var cls = 'card-tab' + (isActive ? ' active' : '') + (isStanza ? ' stanza-pref' : '');
-        var mark = isStanza ? ' <span class="card-tab-check">✓</span>' : '';
-        return '<button class="' + cls + '" type="button" data-tab-lemma="' + escAttr(m.lemma) + '">' +
-               escHtml(displayName) + mark + '</button>';
-      }).join('') +
+  var FREQ_RANK = { A: 0, B: 1, C: 2, D: 3, E: 4, F: 5, I: 6, M: 6, N: 6 };
+
+  // Tab order: the default first; then readings with the default's part of
+  // speech; then commoner words (DICTLINE freq); then homograph number; then
+  // data order. Computed here, not stored, so tuning never touches data.
+  function orderReadings(available, defaultLemma, lex) {
+    var def = lex[defaultLemma] || {};
+    return available
+      .map(function (m, i) {
+        var c = lex[m.lemma] || {};
+        return {
+          m: m,
+          key: [
+            m.lemma === defaultLemma ? 0 : 1,
+            c.pos === def.pos ? 0 : 1,
+            c.freq in FREQ_RANK ? FREQ_RANK[c.freq] : 3.5,
+            c.homograph || 0,
+            i,
+          ],
+        };
+      })
+      .sort(function (a, b) {
+        for (var k = 0; k < a.key.length; k++) {
+          if (a.key[k] !== b.key[k]) return a.key[k] - b.key[k];
+        }
+        return 0;
+      })
+      .map(function (x) { return x.m; });
+  }
+
+  var SUPERSCRIPT = ['⁰', '¹', '²', '³', '⁴', '⁵', '⁶', '⁷', '⁸', '⁹'];
+  var POS_ABBR = {
+    noun: 'n.', verb: 'v.', adj: 'adj.', adv: 'adv.', pron: 'pron.', prep: 'prep.',
+    conj: 'conj.', interj: 'interj.', num: 'num.', enclitic: 'encl.',
+  };
+
+  // Display name for a card: macronized headword (lēvis) + homograph number.
+  function displayHeadword(lemmaId, card) {
+    var name = (card && (card.headword || card.lemma)) || lemmaId;
+    var n = card && card.homograph;
+    return n ? name + String(n).split('').map(function (d) { return SUPERSCRIPT[+d]; }).join('') : name;
+  }
+
+  function firstGloss(card) {
+    var g = card && Array.isArray(card.glosses) && card.glosses[0];
+    if (!g) return '';
+    return g.length > 32 ? g.slice(0, 31).replace(/[\s,;]+\S*$/, '') + '…' : g;
+  }
+
+  // Label parts for one reading tab (pure; also used by tests).
+  function tabLabel(lemmaId, card) {
+    var pos = card && card.pos;
+    return {
+      name: displayHeadword(lemmaId, card),
+      pos: POS_ABBR[pos] || pos || '',
+      gloss: firstGloss(card),
+    };
+  }
+
+  function renderTabBar(ordered, activeLemma, defaultLemma, lex) {
+    if (ordered.length <= 1) return '';
+    var idx = 0;
+    var tabs = ordered.map(function (m, i) {
+      var isActive = m.lemma === activeLemma;
+      if (isActive) idx = i;
+      var l = tabLabel(m.lemma, lex[m.lemma]);
+      var cls = 'card-tab' + (isActive ? ' active' : '') + (m.lemma === defaultLemma ? ' default' : '');
+      var mark = m.lemma === defaultLemma ? '<span class="card-tab-check" aria-hidden="true">✓</span>' : '';
+      var a11y = l.name + (l.pos ? ', ' + l.pos : '') + (l.gloss ? ': ' + l.gloss : '');
+      return '<button class="' + cls + '" type="button" role="tab" aria-selected="' + isActive +
+        '" tabindex="' + (isActive ? '0' : '-1') + '" aria-label="' + escAttr(a11y) +
+        '" data-tab-lemma="' + escAttr(m.lemma) + '">' +
+        '<span class="card-tab-name">' + escHtml(l.name) + mark +
+        (l.pos ? ' <span class="card-tab-pos">' + escHtml(l.pos) + '</span>' : '') + '</span>' +
+        (l.gloss ? '<span class="card-tab-gloss">' + escHtml(l.gloss) + '</span>' : '') +
+        '</button>';
+    }).join('');
+    // Three or more readings: ‹ n / N › stepping; on phones only the active
+    // tab shows between the arrows (CSS), on wider screens the strip scrolls.
+    var step = ordered.length > 2
+      ? '<button class="card-tab-step" type="button" data-tab-step="-1" aria-label="Previous reading">‹</button>' +
+        '<span class="card-tab-count" aria-live="polite">' + (idx + 1) + ' / ' + ordered.length + '</span>' +
+        '<button class="card-tab-step" type="button" data-tab-step="1" aria-label="Next reading">›</button>'
+      : '';
+    return '<div class="card-tab-bar' + (step ? ' stepped' : '') + '">' +
+      (step ? '<span class="card-tab-nav">' + step + '</span>' : '') +
+      '<div class="card-tab-strip" role="tablist" aria-label="Readings of this word">' + tabs + '</div>' +
       '</div>';
   }
 
+  // Homographs of this card that are not readings of the tapped token
+  // (levis "light" when the form can't be lēvis "smooth"): a quiet
+  // cross-reference — the learning payoff without a false reading.
+  var homographIndex = null;
+  function unmarked(s) {
+    return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  }
+  function homographsOf(lemmaId, lex) {
+    if (!homographIndex) {
+      homographIndex = {};
+      Object.keys(lex).forEach(function (id) {
+        var c = lex[id];
+        if (!c || !c.lemma) return;
+        var k = unmarked(c.lemma) + '|' + c.pos;
+        (homographIndex[k] = homographIndex[k] || []).push(id);
+      });
+    }
+    var card = lex[lemmaId];
+    if (!card) return [];
+    return (homographIndex[unmarked(card.lemma) + '|' + card.pos] || [])
+      .filter(function (id) { return id !== lemmaId; });
+  }
+
+  function renderSeeAlso(lemmaId, available, lex) {
+    var shown = {};
+    available.forEach(function (m) { shown[m.lemma] = true; });
+    var others = homographsOf(lemmaId, lex).filter(function (id) { return !shown[id]; });
+    if (!others.length) return '';
+    return '<p class="card-see-also">Not to be confused with: ' + others.map(function (id) {
+      var l = tabLabel(id, lex[id]);
+      return '<button class="card-see-also-link" type="button" data-lemma="' + escAttr(id) + '">' +
+        escHtml(l.name) + '</button>' + (l.gloss ? ' (' + escHtml(l.gloss) + ')' : '');
+    }).join(', ') + '</p>';
+  }
+
+  function availableReadings(entry, lex) {
+    return parseMatches(entry.matches).filter(function (m) { return lex[m.lemma]; });
+  }
+
   function renderCardBody(body, entry, lex) {
-    var allMatches = parseMatches(entry.matches);
-    var available = allMatches.filter(function (m) { return lex[m.lemma]; });
+    var available = availableReadings(entry, lex);
     if (!available.length) return;
-    var stanza = entry.stanzaLemma || '';
-    var activeLemma = chooseInitialTab(available, stanza, entry.activeLemma || '');
-    body.innerHTML = renderTabBar(available, activeLemma, stanza) +
-      '<div class="card-content">' + renderCardInnerHtml(activeLemma, lex[activeLemma]) + '</div>';
-    applyCardState(body.querySelector('.card-content'), activeLemma, available, stanza, entry.surface || '');
+    var defaultLemma = chooseInitialTab(available, Object.assign({}, entry, { activeLemma: '' }));
+    var activeLemma = chooseInitialTab(available, entry);
+    var ordered = orderReadings(available, defaultLemma, lex);
+    body.innerHTML = renderTabBar(ordered, activeLemma, defaultLemma, lex) +
+      '<div class="card-content">' + renderCardInnerHtml(activeLemma, lex[activeLemma], available, lex) + '</div>';
+    applyCardState(body.querySelector('.card-content'), activeLemma, available, defaultLemma, entry.surface || '');
   }
 
   // Returns the innerHTML of the content area for one lemma.
-  function renderCardInnerHtml(lemma, card) {
-    var label = card.lemma || lemma;
+  function renderCardInnerHtml(lemma, card, available, lex) {
+    var label = displayHeadword(lemma, card);
     var head = renderHeadLine(card);
     var pos = renderPosChip(card.pos);
     var paradigm = renderParadigm(card);
@@ -452,14 +569,63 @@
       ? '<p class="card-glosses">' + card.glosses.map(escHtml).join('; ') + '</p>'
       : '';
     var notes = card.notes ? '<p class="card-notes">' + escHtml(card.notes) + '</p>' : '';
+    var seeAlso = lex ? renderSeeAlso(lemma, available || [], lex) : '';
     return '<header class="card-head">' +
       '<h3 class="card-lemma">' + escHtml(label) + ' ' + pos + '</h3>' +
       '<div class="card-parse" aria-live="polite"></div>' +
       head +
       '</header>' +
       glosses +
+      seeAlso +
       paradigm + notes;
   }
+
+  function switchReading(newLemma, keepFocusOnStep) {
+    var host = document.getElementById('popover-host');
+    var curEntry = stackPos >= 0 ? stack[stackPos] : null;
+    if (!host || !curEntry || curEntry.type !== 'card' || !lexiconCache || !lexiconCache[newLemma]) return;
+    curEntry.activeLemma = newLemma;   // persist for back/forward navigation
+    var tabs = Array.prototype.slice.call(host.querySelectorAll('.card-tab'));
+    tabs.forEach(function (t) {
+      var on = t.getAttribute('data-tab-lemma') === newLemma;
+      t.classList.toggle('active', on);
+      t.setAttribute('aria-selected', String(on));
+      t.setAttribute('tabindex', on ? '0' : '-1');
+      if (on && !keepFocusOnStep) t.focus();
+      if (on && t.scrollIntoView) t.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    });
+    var count = host.querySelector('.card-tab-count');
+    if (count) {
+      var i = tabs.findIndex(function (t) { return t.classList.contains('active'); });
+      count.textContent = (i + 1) + ' / ' + tabs.length;
+    }
+    var content = host.querySelector('.card-content');
+    if (content) {
+      var avail = availableReadings(curEntry, lexiconCache);
+      var defaultLemma = chooseInitialTab(avail, Object.assign({}, curEntry, { activeLemma: '' }));
+      content.innerHTML = renderCardInnerHtml(newLemma, lexiconCache[newLemma], avail, lexiconCache);
+      applyCardState(content, newLemma, avail, defaultLemma, curEntry.surface || '');
+    }
+  }
+
+  // Arrow keys move between reading tabs (roving tabindex).
+  document.addEventListener('keydown', function (e) {
+    var tab = e.target.closest && e.target.closest('#popover-host .card-tab');
+    if (!tab || (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight' && e.key !== 'Home' && e.key !== 'End')) return;
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('#popover-host .card-tab'));
+    var i = tabs.indexOf(tab);
+    var j = e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1
+      : (i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+    e.preventDefault();
+    switchReading(tabs[j].getAttribute('data-tab-lemma'), false);
+  });
+
+  // Test hook: pure tab logic, exercised by site/generator/__tests__.
+  window.__readingRoomCardTabs = {
+    chooseInitialTab: chooseInitialTab, orderReadings: orderReadings,
+    tabLabel: tabLabel, displayHeadword: displayHeadword, homographsOf: homographsOf,
+    resetHomographIndex: function () { homographIndex = null; },
+  };
 
   // ── grammar loading
   // Grammar drives parse-chip labels and pos-note slugs. We try, in order:
@@ -843,6 +1009,7 @@
         type: e.type, label: e.label, ctx: e.ctx, family: e.family,
         scrollTop: e.scrollTop || 0,
         lemma: e.lemma, matches: e.matches, stanzaLemma: e.stanzaLemma,
+        selectedLemma: e.selectedLemma, selectedBy: e.selectedBy,
         surface: e.surface, activeLemma: e.activeLemma,
         id: e.id, sourceId: e.sourceId,
       };
@@ -953,23 +1120,20 @@
     var anchor = e.target.closest('#popover-host a[href]');
     if (anchor) { try { host.hidePopover(); } catch (_) {} return; }
 
-    // Tab switch within a multi-lemma card (does not push a new stack entry)
+    // Reading tabs: a tab click or a ‹ › step switches the reading in place
+    // (does not push a new stack entry).
+    var stepBtn = e.target.closest('.card-tab-bar button[data-tab-step]');
     var tabBtn = e.target.closest('.card-tab-bar button[data-tab-lemma]');
-    if (tabBtn) {
+    if (stepBtn || tabBtn) {
       e.preventDefault();
-      var newLemma = tabBtn.getAttribute('data-tab-lemma');
-      var curEntry = stackPos >= 0 ? stack[stackPos] : null;
-      if (!curEntry || curEntry.type !== 'card' || !lexiconCache || !lexiconCache[newLemma]) return;
-      curEntry.activeLemma = newLemma;   // persist for back/forward navigation
-      host.querySelectorAll('.card-tab').forEach(function (t) {
-        t.classList.toggle('active', t.getAttribute('data-tab-lemma') === newLemma);
-      });
-      var content = host.querySelector('.card-content');
-      if (content) {
-        content.innerHTML = renderCardInnerHtml(newLemma, lexiconCache[newLemma]);
-        var avail = parseMatches(curEntry.matches).filter(function (m) { return lexiconCache[m.lemma]; });
-        applyCardState(content, newLemma, avail, curEntry.stanzaLemma || '', curEntry.surface || '');
+      var tabs = Array.prototype.slice.call(host.querySelectorAll('.card-tab'));
+      var newLemma = tabBtn ? tabBtn.getAttribute('data-tab-lemma') : null;
+      if (stepBtn) {
+        var cur = tabs.findIndex(function (t) { return t.classList.contains('active'); });
+        var next = (cur + Number(stepBtn.getAttribute('data-tab-step')) + tabs.length) % tabs.length;
+        newLemma = tabs[next].getAttribute('data-tab-lemma');
       }
+      switchReading(newLemma, !!stepBtn);
       return;
     }
 
@@ -978,14 +1142,26 @@
     if (btn) {
       e.preventDefault();
       var lemma = btn.getAttribute('data-lemma');
-      var matches = btn.getAttribute('data-matches') || '';
+      // A card opened by id alone (e.g. a homograph cross-reference) has no
+      // token readings: the lemma itself is its one reading.
+      var matches = btn.getAttribute('data-matches') || lemma;
       var stanzaLemma = btn.getAttribute('data-stanza') || '';
+      var selectedLemma = btn.getAttribute('data-selected-lemma') || '';
+      var selectedBy = btn.getAttribute('data-selected-by') || '';
+      // Label the stack entry with the reading that will open by default.
+      if (lexiconCache) {
+        var avail0 = availableReadings({ matches: matches }, lexiconCache);
+        if (avail0.length) {
+          lemma = chooseInitialTab(avail0, { stanzaLemma: stanzaLemma, selectedLemma: selectedLemma, selectedBy: selectedBy });
+        }
+      }
       var cardData = lexiconCache && lexiconCache[lemma];
-      var label = cardData ? (cardData.lemma || lemma) : lemma;
+      var label = cardData ? displayHeadword(lemma, cardData) : lemma;
       // Capture the surface form (the Latin token text) so the parse slot
       // can show which exact form was tapped alongside its grammatical analysis.
       var surface = btn.classList.contains('latin-token') ? (btn.textContent || '').trim() : '';
-      pushEntry({ type: 'card', lemma: lemma, label: label, matches: matches, stanzaLemma: stanzaLemma, surface: surface });
+      pushEntry({ type: 'card', lemma: lemma, label: label, matches: matches, stanzaLemma: stanzaLemma,
+        selectedLemma: selectedLemma, selectedBy: selectedBy, surface: surface });
       return;
     }
 

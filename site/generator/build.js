@@ -541,8 +541,14 @@ function renderLatinSpans(html, vocabDict, referenced, filePath) {
       referenced.add(m.lemma);
     }
     const primary = matches[0];
-    const stanzaRaw = (_pre + _post).match(/data-stanza="([^"]*)"/);
-    const stanzaAttr = stanzaRaw ? ` data-stanza="${escapeAttr(stanzaRaw[1])}"` : '';
+    // Carry the default-reading inputs through to the button: Stanza's ✓ and
+    // the editorial selection with its provenance (the reader's default-tab
+    // precedence is editor > stanza > parser; provenance is never displayed).
+    const carry = (name) => {
+      const m = (_pre + _post).match(new RegExp(`${name}="([^"]*)"`));
+      return m ? ` ${name}="${escapeAttr(m[1])}"` : '';
+    };
+    const stanzaAttr = carry('data-stanza') + carry('data-selected-lemma') + carry('data-selected-by');
     spanIndex += 1;
     // data-token-id is the concordance handle. Format mirrors build-concordance.js
     // exactly: b{book}-{chapter}-{ordinal:03d}. Only emitted for chapter-formatted

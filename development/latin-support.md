@@ -182,6 +182,10 @@ The primary texts and the reference grammar are vendored TEI XML under
   (`nom.sg`, `3sg.pres.ind.act`). `ppp_paradigm` adds a participle grid.
 - The card is **word-general**: passage-specific commentary belongs in the
   page's Notes section, not the card.
+- Display/ordering fields, filled by `site/latin/annotate_cards.py`:
+  `headword` (macronized: *lēvis*, *pōpulus*), `homograph` (Lewis & Short
+  number when another card shares the unmarked lemma and pos; invariant L12),
+  `freq` (Whitaker DICTLINE letter, A common … F rare).
 
 ### UI/UX principles: the card is a dictionary, the tabs are the apparatus
 
@@ -206,6 +210,26 @@ reader:
    tab is *in front*; it never deletes a reading. Candidates are removed from
    the data only when they are morphologically false (a form the lemma cannot
    yield), never merely contextually disfavored.
+
+### Readings, defaults, and homographs
+
+A token whose surface can be several words shows each as a tab
+(`cards.js`, "reading tabs"). One opens by default, in this precedence: the
+learner's own last choice for that popover entry → an editor's selection →
+Stanza's ✓ → the parser's selection → the first candidate. A token's
+`selected_by` (`editor` | `stanza` | `parser`, beside `selected_lemma_id`)
+records who chose; it is internal — it orders, it is never displayed. The
+remaining tabs follow the default: same part of speech first, then commoner
+words (`freq`), then homograph number. Tabs are labelled with the macronized
+headword, homograph superscript, POS and a short gloss (*lēvis² adj.* —
+smooth); three or more readings add a `‹ n / N ›` stepper, and on phones only
+the active tab shows beside it. Arrow keys move between tabs. A card whose
+word has homographs that are *not* readings of the tapped form adds a quiet
+"Not to be confused with: …" link (*ōs¹* mouth ↔ *os²* bone).
+
+C14 (warning) lists parser-chosen defaults that Stanza disagrees with — the
+editorial queue; confirming one writes `selected_by: "editor"`. The plan is
+`Plans/homograph-support-plan.md`.
 
 ### Paradigm rendering
 

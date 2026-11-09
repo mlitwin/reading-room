@@ -70,6 +70,10 @@ export const WordTokenSchema = z.object({
   stanza: z.string().optional(),
   pos_hint: z.string().optional(),
   selected_lemma_id: LemmaIdSchema.optional(),
+  // Who chose selected_lemma_id: a person ("editor"), Stanza ("stanza"), or a
+  // tool's mechanical first pick ("parser"). Internal only — it orders the
+  // default-tab precedence (editor > stanza > parser) but is never shown.
+  selected_by: z.enum(['editor', 'stanza', 'parser']).optional(),
 });
 
 export const PunctTokenSchema = z.object({

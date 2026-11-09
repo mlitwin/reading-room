@@ -396,4 +396,33 @@ export const lexiconInvariants = [
       return violations;
     },
   },
+  {
+    id: 'L12',
+    description: 'Homographs (same unmarked lemma and pos) carry distinct homograph numbers matching their ids',
+    /** @param {LexiconDocument} doc */
+    check(doc) {
+      /** @type {Violation[]} */
+      const violations = [];
+      const key = (e) => `${e.lemma.normalize('NFD').replace(/\p{Mn}/gu, '').toLowerCase()}|${e.pos}`;
+      const groups = new Map();
+      for (const e of doc.lemmata) {
+        if (!groups.has(key(e))) groups.set(key(e), []);
+        groups.get(key(e)).push(e);
+      }
+      for (const group of groups.values()) {
+        if (group.length < 2) continue;
+        const seen = new Set();
+        for (const e of group) {
+          const m = /^(.*?)(\d+)_[a-z]+$/.exec(e.id);
+          const expected = m ? Number(m[2]) : 1;
+          if (e.homograph !== expected) {
+            violations.push({ path: `${e.id}.homograph`, message: `expected homograph ${expected} (shares "${e.lemma}" ${e.pos} with ${group.filter((x) => x !== e).map((x) => x.id).join(', ')})` });
+          }
+          if (seen.has(expected)) violations.push({ path: e.id, message: `duplicate homograph number ${expected}` });
+          seen.add(expected);
+        }
+      }
+      return violations;
+    },
+  },
 ];

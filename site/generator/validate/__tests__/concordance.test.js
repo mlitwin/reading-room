@@ -179,3 +179,15 @@ test('C13 passes when the token offers every glossary reading', () => {
   const report = runSuite('concordance', concordanceInvariants, c, { grammar, glossary: g, lexicon });
   assert.equal(report.invariants.find((x) => x.id === 'C13').passed, true);
 });
+
+test('C14 flags a parser default Stanza disagrees with, but not an editor one', () => {
+  const c = structuredClone(okConcordance);
+  const tok = c.tokens['b1-01-001'];
+  tok.candidates.push({ lemma_id: 'leo_v', parses: ['1sg.pres.ind.act'] });
+  Object.assign(tok, { selected_lemma_id: 'leo_n', selected_by: 'parser', stanza_lemma_id: 'leo_v' });
+  const inv = (cc) => runSuite('concordance', concordanceInvariants, cc, { grammar, glossary, lexicon })
+    .invariants.find((x) => x.id === 'C14');
+  assert.equal(inv(c).passed, false);
+  tok.selected_by = 'editor';
+  assert.equal(inv(c).passed, true);
+});

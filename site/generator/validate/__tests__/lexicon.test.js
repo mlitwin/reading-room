@@ -191,3 +191,17 @@ test('L11 accepts Greek -eus vocatives in -eu', () => {
   const inv = report.invariants.find((x) => x.id === 'L11');
   assert.equal(inv.passed, true);
 });
+
+test('L12 passes numbered homographs and flags missing/mismatched numbers', () => {
+  const people = { ...ubiAdv, id: 'populus_n', lemma: 'populus', pos: 'noun', head: 'populus' };
+  const poplar = { ...people, id: 'populus2_n', headword: 'pōpulus' };
+  const run = (lemmata) => runSuite('lexicon', lexiconInvariants, { language_id: 'latin', lemmata }, { grammar })
+    .invariants.find((x) => x.id === 'L12');
+  assert.equal(run([{ ...people, homograph: 1 }, { ...poplar, homograph: 2 }]).passed, true);
+  const missing = run([people, { ...poplar, homograph: 2 }]);
+  assert.equal(missing.passed, false);
+  assert.match(missing.violations[0].message, /expected homograph 1/);
+  assert.equal(run([{ ...people, homograph: 1 }, { ...poplar, homograph: 3 }]).passed, false);
+  // A lone card needs no number; a different pos is not a homograph.
+  assert.equal(run([people, { ...poplar, id: 'populo_v', pos: 'verb' }]).passed, true);
+});
