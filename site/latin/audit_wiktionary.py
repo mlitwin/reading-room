@@ -83,7 +83,13 @@ def best_entry(card, entries):
         g = card.get("gender")
         g = set(g if isinstance(g, list) else [g]) if g else set()
         gender_ok = 1 if (not g or not e.get("gender") or g & set(e["gender"])) else 0
-        return (gender_ok, (n - len(wrong)) / n if n else 0, bool(e.get("cells")), bool(e.get("glosses")))
+        # A lowercase card is a common word: prefer a lowercase, non-proper
+        # entry over a namesake (amor not Amor, equus not Equus).
+        lemma = card.get("lemma") or ""
+        case_ok = 1 if (lemma[:1].isupper() == e["word"][:1].isupper()
+                        and (lemma[:1].isupper() or not e.get("proper"))) else 0
+        return (gender_ok, case_ok, (n - len(wrong)) / n if n else 0,
+                bool(e.get("cells")), bool(e.get("glosses")))
     return max(entries, key=score)
 
 
@@ -244,6 +250,47 @@ def audit_tokens(cards, matched):
     return find
 
 
+def kind_of(e):
+    """Triage guess for an uncarded homograph entry."""
+    gl = " ".join(e.get("glosses", [])).lower()
+    if e.get("participle") or e.get("participle_of"):
+        return "participle-as-entry"
+    if e.get("proper"):
+        return "proper"
+    if any(w in gl for w in ("taxonomic", "medieval", "ecclesiastical", "new latin", "chemistry", "aqueduct")):
+        return "late/technical"
+    return "homograph"
+
+
+def audit_homographs(cards, matched):
+    """H1: Wiktionary lemmata sharing a headword with a card, not carded,
+    whose forms occur in the texts."""
+    have = {e["word"] for e in matched.values()}
+    entries, surfaces = _cache()["entries"], _cache()["surfaces"]
+    found = {}
+    for card, _ in cards.values():
+        for e in lookup(card.get("lemma", "")):
+            if e["word"] in have or not e.get("glosses") or e.get("form_of"):
+                continue
+            if e["pos"] not in ("noun", "verb", "adj", "adv", "pron", "prep", "conj"):
+                continue
+            found[(e["word"], e["pos"], e.get("etym"))] = e
+    forms = defaultdict(set)
+    for surf, lst in surfaces.items():
+        for key, i, codes in lst:
+            e = entries[key][i]
+            k = (e["word"], e["pos"], e.get("etym"))
+            if k in found and codes:
+                forms[k].add(surf)
+    out = []
+    for k, e in sorted(found.items(), key=lambda kv: (-len(forms[kv[0]]), kv[0][0])):
+        if not forms[k]:
+            continue
+        out.append({"word": k[0], "pos": k[1], "etym": k[2], "kind": kind_of(e),
+                    "forms": sorted(forms[k]), "detail": "; ".join(e.get("glosses", [])[:2])[:120]})
+    return out
+
+
 TITLES = {
     "W1": "Card headword not in Wiktionary",
     "W2": "Card headword is an inflected form / variant of another lemma",
@@ -255,6 +302,7 @@ TITLES = {
     "T1": "Selected reading not among Wiktionary's analyses of the surface",
     "T2": "Selected lemma matches, but no parse does",
     "T3": "Known lemma's reading missing from the token's candidates",
+    "H1": "Uncarded homographs whose forms occur in the texts",
 }
 LIMIT = {"W6": 120, "T3": 0}
 
@@ -291,6 +339,13 @@ def write_report(cfind, tfind, cards, matched):
             lines.append("")
             lines += [f"- {w} ×{n}" for w, n in by.most_common(150)]
             continue
+        if k == "H1":
+            lines.append("Triage: card true homographs (`wiktionary_regen.py --new ID --etym N`);")
+            lines.append("participle entries fold into their verb's tab; skip late/technical senses.")
+            lines.append("")
+            lines += [f"- **{i['word']}** ({i['pos']}{', etym ' + i['etym'] if i['etym'] else ''}) "
+                      f"[{i['kind']}] — {i['detail']} — forms: {', '.join(i['forms'][:6])}" for i in items]
+            continue
         if k == "W6":
             items = sorted(items, key=lambda i: (-i["wrong"] / max(i["shared"], 1), i["id"]))
             lines.append("Sorted by the share of compared cells that disagree.")
@@ -314,6 +369,7 @@ def main():
     cards = load_cards()
     cfind, matched = audit_cards(cards)
     tfind = audit_tokens(cards, matched)
+    tfind["H1"] = audit_homographs(cards, matched)
     write_report(cfind, tfind, cards, matched)
     for k in TITLES:
         print(f"{k} {len({**cfind, **tfind}.get(k, [])):5}  {TITLES[k]}")

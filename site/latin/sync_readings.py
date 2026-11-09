@@ -13,6 +13,8 @@ current first tab alone.
   --first   also switch the first tab from OLD to NEW on tokens with that
             surface (normalized: lowercase, j->i, v->u), e.g. alta:alo_v:altus_adj
   --drop    SURFACE:LEMMA removes a reading that is not possible for the token
+  --prune   also drop readings a card no longer yields and refresh drifted
+            parses (after regenerating paradigms; C2/C3 warnings)
 
 Rewrites each content/<book>/manuscript.latin.json; follow with `make build`.
 """
@@ -35,11 +37,32 @@ def surface_index(cards):
     return idx
 
 
-def sync_token(t, idx, cards, first=None, drop=frozenset()):
-    """Return the number of readings added (0 and unchanged if nothing to do)."""
+INVARIANT = {"adv", "prep", "conj", "interj", "enclit", "inv", "num"}
+
+
+def sync_token(t, idx, cards, first=None, drop=frozenset(), prune=False):
+    """Return the number of readings added (0 and unchanged if nothing to do).
+
+    prune: also make existing readings agree with the lexicon — drop a reading
+    whose card no longer yields the surface (a regenerated paradigm), and
+    replace a reading's parses with the card's when they have drifted."""
     s = norm(t["surface"])
     old = readings(t)
     parts = [p for p in old if (s, p[0]) not in drop]
+    if prune:
+        kept = []
+        for lid, ps in parts:
+            yielded = idx.get(s, {}).get(lid)
+            if lid in cards and not yielded:
+                continue   # the card can no longer be this form
+            if yielded and "alt" not in yielded and not set(ps) & INVARIANT and not set(ps) <= set(yielded):
+                # Drifted parses (e.g. a regenerated gender): keep the ones the
+                # card still yields, else take the card's. Alt-form surfaces
+                # accept any parse (C3), so syncopated parses like mutastis
+                # 2pl.perf.ind.act are never rewritten to "alt".
+                ps = [p for p in ps if p in yielded] or yielded
+            kept.append([lid, ps])
+        parts = kept or parts
     have = {i for i, _ in parts}
     new = [[cid, codes] for cid, codes in sorted(idx.get(s, {}).items())
            if cid not in have and (s, cid) not in drop]
@@ -50,6 +73,8 @@ def sync_token(t, idx, cards, first=None, drop=frozenset()):
         selected_by = "editor"   # --first is an editorial decision
     if primary not in have | {c for c, _ in new}:
         primary = (parts or new)[0][0]
+    if not parts and not new:
+        return 0
     if not new and parts == old and primary == (t.get("selected_lemma_id") or t["lemma_id"]):
         return 0
     allp = sorted(parts + new, key=lambda p: p[0] != primary)
@@ -70,7 +95,7 @@ def main():
                 store[(norm(spec[0]), spec[1])] = spec[2]
             else:
                 store.add((norm(spec[0]), spec[1]))
-    dry = "--dry-run" in argv
+    dry, prune = "--dry-run" in argv, "--prune" in argv
     cards = load_cards()
     idx = surface_index(cards)
     total = 0
@@ -81,7 +106,7 @@ def main():
         for line in doc["lines"]:
             for t in line["tokens"]:
                 if t.get("kind") == "word" and t.get("pos_hint") != "enclitic":
-                    added += sync_token(t, idx, cards, first, drop)
+                    added += sync_token(t, idx, cards, first, drop, prune)
         total += added
         print(f"{ms.parent.name}: {added} readings added")
         if not dry:

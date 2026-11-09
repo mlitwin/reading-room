@@ -7,20 +7,21 @@ Read-only comparison of the lexicon cards and text annotations with Wiktionary. 
 a disagreement to look at, not an automatic error: Wiktionary covers Neo-Latin and proper names
 unevenly, and its paradigms list classical forms only. Full detail: `.tmp/wiktionary-audit.json`.
 
-Cards checked: 1877 (1778 matched to a Wiktionary entry).
+Cards checked: 1890 (1793 matched to a Wiktionary entry).
 
 | check | finding | count |
 |---|---|---|
 | W1 | Card headword not in Wiktionary | 62 |
-| W2 | Card headword is an inflected form / variant of another lemma | 10 |
-| W3 | No Wiktionary entry with the card's part of speech | 27 |
+| W2 | Card headword is an inflected form / variant of another lemma | 9 |
+| W3 | No Wiktionary entry with the card's part of speech | 26 |
 | W4 | Noun gender disagrees | 2 |
 | W5 | Plurale tantum in Wiktionary, card has singular cells | 0 |
-| W6 | Paradigm cells Wiktionary doesn't give | 34 |
+| W6 | Paradigm cells Wiktionary doesn't give | 35 |
 | W7 | Card id doesn't match its pos / headword | 0 |
 | T1 | Selected reading not among Wiktionary's analyses of the surface | 27 |
 | T2 | Selected lemma matches, but no parse does | 3 |
 | T3 | Known lemma's reading missing from the token's candidates | 49 |
+| H1 | Uncarded homographs whose forms occur in the texts | 96 |
 
 ## W1 — Card headword not in Wiktionary (62)
 
@@ -87,7 +88,7 @@ Cards checked: 1877 (1778 matched to a Wiktionary entry).
 - `tricuspis_adj` (lexicon.json) — tricuspis
 - `ve_enclit` (lexicon.json) — ve
 
-## W2 — Card headword is an inflected form / variant of another lemma (10)
+## W2 — Card headword is an inflected form / variant of another lemma (9)
 
 - `admissum_n` (lexicon.json) — admissum → admissus, admittō
 - `bini_num` (lexicon.json) — bini → bīnus
@@ -95,16 +96,14 @@ Cards checked: 1877 (1778 matched to a Wiktionary entry).
 - `corycis_adj` (lexicon.json) — corycis → cōrycus
 - `neu_conj` (lexicon.json) — neu → nēve
 - `quini_num` (lexicon.json) — quini → quīnus
-- `re-tento_v` (lexicon.json) — retento → retentus
 - `solo_v` (lexicon.json) — solo → solum, sōlus
 - `tartara_n` (lexicon.json) — tartara → Tartara
 - `titania_n` (lexicon.json) — titania → tītānium
 
-## W3 — No Wiktionary entry with the card's part of speech (27)
+## W3 — No Wiktionary entry with the card's part of speech (26)
 
 - `Arcitenens_n` (lexicon.json) — card noun; Wiktionary adj
 - `adspergo_n` (lexicon.json) — card noun; Wiktionary verb
-- `aliqui_adv` (lexicon.json) — card adv; Wiktionary pron
 - `ambo_num` (lexicon.json) — card num; Wiktionary noun, pron
 - `cerealis_adj` (lexicon.json) — card adj; Wiktionary noun
 - `cujus_adj` (lexicon.json) — card adj; Wiktionary pron
@@ -135,7 +134,7 @@ Cards checked: 1877 (1778 matched to a Wiktionary entry).
 - `forceps_n` (marvell-hortus/vocabulary) — card fem, Wiktionary masc — forceps m (genitive forcipis); third declension
 - `pascua_n` (lexicon.json) — card neut, Wiktionary fem — pāscua f (genitive pāscuae); first declension; also a form of pāscuum, pāscuus
 
-## W6 — Paradigm cells Wiktionary doesn't give (34)
+## W6 — Paradigm cells Wiktionary doesn't give (35)
 
 Sorted by the share of compared cells that disagree.
 
@@ -143,6 +142,7 @@ Sorted by the share of compared cells that disagree.
 - `como_v` (lexicon.json) 104/142 cells — 2sg.pres.ind.act: comas ≠ comis; 3sg.pres.ind.act: comat ≠ comit; 1pl.pres.ind.act: comamus ≠ comimus; 2pl.pres.ind.act: comatis ≠ comitis
 - `praeceps_n` (lexicon.json) 5/12 cells — abl.sg: praecipite ≠ praecipiti; nom.pl: praecipita ≠ praecipitia; gen.pl: praecipitum ≠ praecipitium; acc.pl: praecipita ≠ praecipitia
 - `pelagus_n` (lexicon.json) 4/12 cells — nom.pl: pelaga ≠ pelage; acc.pl: pelaga ≠ pelage; voc.sg: pelage ≠ pelagus; voc.pl: pelaga ≠ pelage
+- `apis_n` (marvell-hortus/vocabulary) 2/12 cells — nom.pl: apis ≠ apes; voc.pl: apis ≠ apes
 - `quisquam_pron` (lexicon.json) 2/15 cells — acc.sg.fem: quamquam ≠ quemquam; abl.sg.fem: quaquam ≠ quiquam/quoquam
 - `quisquis_pron` (lexicon.json) 1/12 cells — acc.sg.fem: quemquem ≠ quamquam
 - `quis_pron` (lexicon.json) 1/30 cells — abl.sg.fem: quo ≠ qua/qui
@@ -243,3 +243,105 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - pariō ×1
 - gemō ×1
 - fīgō ×1
+
+## H1 — Uncarded homographs whose forms occur in the texts (96)
+
+Triage: card true homographs (`wiktionary_regen.py --new ID --etym N`);
+participle entries fold into their verb's tab; skip late/technical senses.
+
+- **Amor** (noun) [proper] — "amor" or love): Love, God of Love, Cupid — forms: amor, amore, amorem, amores, amoris
+- **pārēns** (verb, etym 2) [participle-as-entry] — appearing; being visible to; obeying — forms: parens, parente, parentem, parenti, parentis
+- **pārēns** (adj, etym 2) [homograph] — obedient; subject to — forms: parens, parente, parentem, parenti, parentis
+- **tŏtus** (adj, etym 2) [homograph] — so great a —— — forms: tota, totas, toto, totum, totus
+- **Argus** (noun, etym 1) [proper] — Argus — forms: arge, argo, argum, argus
+- **Deus** (noun) [proper] — God — forms: dei, deo, deum, deus
+- **Nox** (noun) [proper] — Night (personification); The goddess Nox — forms: nocte, noctem, noctis, nox
+- **lēvis** (adj, etym 2) [homograph] — slippery; without hair, beardless — forms: leue, leues, leui, leuis
+- **vester** (pron) [homograph] — your, yours, of you (plural) — forms: uestra, uestras, uestris, uestros
+- **Pontus** (noun) [proper] — Pontus (an ancient kingdom and cultural region covering the eastern half of the southern coast of the Black Sea, in Anat — forms: ponti, ponto, pontus
+- **Stygius** (adj) [homograph] — of the Styx, Stygian; of the lower world, infernal — forms: stygias, stygiis, stygio
+- **Sōl** (noun) [proper] — Sol (the sun god) — forms: sol, sole, solis
+- **Tellūs** (noun) [homograph] — Earth; An ancient goddess of the Earth — forms: tellure, telluris, tellus
+- **Terra** (noun) [proper] — Terra (goddess of the Earth); the Earth (planet) — forms: terra, terrae, terram
+- **iūnctus** (verb) [participle-as-entry] — joined, having been joined — forms: iuncta, iunctarum, iunctis
+- **mālum** (noun, etym 3) [homograph] — apple (fruit); any tree fruit with a fleshy exterior, e.g. quinces, pears, peaches, etc. — forms: mala, malo, malorum
+- **Cupīdō** (noun) [proper] — Cupid (god of love, lust and sex) — forms: cupidine, cupidinis
+- **Dūrus** (noun) [proper] — a Roman cognomen of the gens Laberia,; Quintus Laberius Durus: a Roman military tribune who died during Julius Caesar's  — forms: duro, durum
+- **Fidēs** (noun) [proper] — a female given name, a goddess — forms: fidem, fides
+- **Laetus** (noun) [proper] — A Roman cognomen — famously held by; Quintus Maecius Laetus, a Roman consul — forms: laeto, laetus
+- **Lupus** (noun) [proper] — A Roman cognomen — forms: lupum, lupus
+- **Placidus** (noun) [proper] — A masculine cognomen — famously held by; Lactantius Placidus (circa AD 350–400), presumed author of a commentary on P. P — forms: placidi, placidum
+- **Superbus** (noun) [proper] — the cognomen of the younger Tarquin, the last king of Rome — forms: superbum, superbus
+- **decēns** (verb) [participle-as-entry] — fitting, appropriate, worthy, decent — forms: decens, decentia
+- **dēcīdō** (verb, etym 2) [homograph] — to cut off or away; clip; reduce, diminish; to beat severely, cudgel soundly, thrash — forms: deciderant, decidit
+- **illic** (pron, etym 1) [homograph] — yon, that, that over there (3rd person demonstrative pronoun of distance) — forms: illic, illuc
+- **mānus** (adj, etym 2) [homograph] — good — forms: mane, manus
+- **nīlus** (noun) [late/technical] — aqueduct — forms: nile, nilus
+- **sācer** (adj, etym 2) [homograph] — sacred, holy, suitable to be sacrificed (found especially as an adjective applying to the noun porcus) — forms: sacer, sacris
+- **victus** (verb, etym 2) [participle-as-entry] — conquered, vanquished, subdued, defeated, having been conquered, vanquished, etc. — forms: uicta, uictus
+- **Apis** (noun) [proper] — A seaport town of Egypt situated at the borders with Marmarica — forms: apis
+- **Aquila** (noun) [proper] — a male given name; A Roman cognomen — famously held by — forms: aquilam
+- **Aurōra** (noun) [proper] — (Roman mythology) Aurora, the goddess of the dawn/morning; dawn, daybreak, morning — forms: auroram
+- **Auxilium** (noun) [proper] — a male given name, a god — forms: auxilium
+- **Barba** (noun) [proper] — a Roman cognomen — famously held by; Cassius Barba (a friend of Caesar, who gave Cicero guards for his villa, when Caesa — forms: barba
+- **Caesareus** (adj) [homograph] — of, or pertaining to, Julius Caesar; of, or pertaining to, the Roman caesars — forms: caesareo
+- **Cancer** (noun) [proper] — Cancer, one of the constellations of the Zodiac — forms: cancri
+- **Capella** (noun) [proper] — A masculine cognomen — famously held by; Martianus Minneus Felix Capella (fl. c. AD 410–420), a Latin prose writer of La — forms: capellae
+- **Capitium** (noun) [proper] — a city in Sicily, situated near Aluntium and Engyum — forms: capiti
+- **Carīna** (noun) [proper] — a town in Phrygia, mentioned by Pliny; A mountain of Crete — forms: carinae
+- **Casus** (noun, etym 2) [proper] — Casus (a river in Caucasian Albania) — forms: casus
+- **Celer** (noun) [proper] — A Roman cognomen — famously held by; Publius Egnatius Celer, a Roman philosopher — forms: celer
+- **Chaos** (noun) [proper] — the shapeless primordial universe; the Underworld, Hell — forms: chaos
+- **Concordia** (noun) [proper] — A city of Venetia situated on the road from Altinum to Aquileia, now Concordia Sagittaria; A Gallic town situated on the — forms: concordia
+- **Dominus** (noun) [proper] — The Lord, the God of Abraham and the Hebrew Tanakh; (Christianity) God, often God the Father — forms: domino
+- **Equus** (noun) [proper] — The constellation Pegasus. — forms: eque
+- **Flamma** (noun) [proper] — A Roman cognomen — famously held by; Lucius Volumnius Flamma Violens, a Roman consul — forms: flamma
+- **Gallicus** (adj) [late/technical] — Gallic, Gaulish, of or related to ancient Gaul and the Gauls; Frankish, of or related to the medieval Franks and their k — forms: gallicus
+- **Hȳmēn** (noun) [proper] — Hymen, god of weddings and marriage; A wedding song — forms: hymen
+- **Laurea** (noun) [proper] — A Roman cognomen — forms: laurea
+- **Līber** (noun) [proper] — An Italic deity of planting and fruiting; associated with the Greek Bacchus. — forms: liber
+- **Magnus** (noun) [proper] — A Roman cognomen, notably held by Gnaeus Pompeius Magnus; An epithet meaning "the Great" — forms: magni
+- **Māssa** (noun) [proper] — A Roman cognomen — famously held by; Baebius Massa, a Roman governor — forms: massa
+- **Mūsa** (noun) [proper] — Muse, one of the nine goddesses of liberal arts. — forms: musae
+- **Ops** (noun) [proper] — The goddess Ops. — forms: opem
+- **Opūs** (noun) [proper] — The capital city of the Locri and birthplace of Patroclus — forms: opus
+- **Palma** (noun) [proper] — Palma, Palma de Mallorca (a city and port, the capital of the Balearic Islands, Spain, on the island of Mallorca; in ful — forms: palmae
+- **Pedum** (noun) [proper] — an ancient city in Latium, probably the modern Gallicano — forms: pedum
+- **Piscis** (noun) [proper] — the Fish, Piscis Austrinus (constellation) — forms: piscem
+- **Ripa** (noun) [proper] — an ancient city in Hispania Baetica — forms: ripae
+- **Rōmānus** (adj) [homograph] — Roman; Christian, sometimes particularly Catholic. — forms: romanum
+- **Rōmānus** (noun) [proper] — a male given name made famous by a martyred 7th-century bishop of Rouen — forms: romanum
+- **Sagitta** (noun) [proper] — A Roman cognomen — famously held by; Octavius Sagitta, a Roman tribune — forms: sagitta
+- **Scēptrum** (noun) [proper] — The star 53 Eridani in the constellation Eridanus. — forms: sceptro
+- **Secunda** (noun) [proper] — a female given name — forms: secunda
+- **Sōnus** (noun) [proper] — A tributary river of the Ganges, now the Son River — forms: sonum
+- **Sȳrinx** (noun) [proper] — Syrinx (an Arcadian nymph, changed into a reed) — forms: syringa
+- **Vindex** (noun) [proper] — A Roman cognomen, famously held by; Gaius Iulius Vindex, a Roman governor — forms: uindice
+- **Virgō** (noun, etym 1) [proper] — Virgo (constellation) — forms: uirgo
+- **Virgō** (noun, etym 2) [proper] — a male given name, character in the play Persa by Plautus — forms: uirgo
+- **Viātor** (noun) [proper] — a cognomen famously held by; Calventius Viator, a Roman soldier — forms: uiator
+- **ambō** (noun, etym 2) [homograph] — pulpit, lectern — forms: ambo
+- **ambō̆** (pron, etym 1) [homograph] — both (of objects occurring in pairs) — forms: ambo
+- **boreās** (noun) [homograph] — north wind; north (compass direction) — forms: boreas
+- **cuius** (pron, etym 3) [homograph] — whose?; whose — forms: cuius
+- **faunus** (noun) [proper] — faun (horned sylvan deity) — forms: fauni
+- **fragrāns** (verb) [participle-as-entry] — Emitting a smell, smelling; fragrant, sweet scented or smelling. — forms: fragrantia
+- **inarātus** (verb) [participle-as-entry] — untilled, unploughed, fallow — forms: inarata
+- **intermissus** (verb) [participle-as-entry] — interrupted; omitted — forms: intermissa
+- **jugulum** (noun) [homograph] — post-classical spelling of iugulum — forms: iugulum
+- **litus** (verb, etym 2) [participle-as-entry] — daubed, besmeared, anointed — forms: litus
+- **lustrō** (noun, etym 2) [homograph] — frequenter of brothels/places of ill repute; vagabond, wanderer, roamer — forms: lustro
+- **lēvitās** (noun, etym 2) [homograph] — smoothness; fluency (in a language) — forms: leuitate
+- **miserandus** (verb) [participle-as-entry] — which is to be lamented; lamentable, pitiable, deplorable — forms: miseranda
+- **muscus** (noun, etym 2) [homograph] — musk deer; musk (secretion, odour) — forms: musco
+- **mīnō** (verb, etym 2) [homograph] — to mine; to sap; to undermine — forms: minor
+- **mōror** (verb, etym 2) [homograph] — to be a fool — forms: morando
+- **nocēns** (verb) [participle-as-entry] — injuring, doing harm, hurting; harmful, hurtful, pernicious — forms: nocens
+- **plaga** (noun, etym 2) [homograph] — tract, region, quarter, zone — forms: plagae
+- **plaga** (noun, etym 3) [homograph] — a hunting net, web, used to set traps, snares; bedcurtain, curtain — forms: plagae
+- **praecīnctus** (verb) [participle-as-entry] — surrounded, encircled — forms: praecinctus
+- **relictus** (verb) [participle-as-entry] — abandoned; having been abandoned; forsaken; relinquished; left behind; widowed; surviving (a deceased person) — forms: relictum
+- **relictus** (noun) [homograph] — a leaving behind, a forsaking; desertion, abandonment — forms: relictum
+- **silvānus** (adj) [homograph] — sylvan; Pertaining to the forest, or woodlands. — forms: siluani
+- **subditus** (verb, etym 1) [participle-as-entry] — subjected, subdued — forms: subdita
+- **venus** (noun, etym 1) [homograph] — loveliness, attractiveness, beauty, grace, elegance, charm; love, beloved (person or object) — forms: ueneris

@@ -9280,22 +9280,6 @@
       "freq": "A"
     },
     {
-      "id": "aliqui_adv",
-      "lemma": "aliqui",
-      "pos": "adv",
-      "glosses": [
-        "in some way/extent"
-      ],
-      "head": "aliqui",
-      "alt_forms": [
-        "aliquam",
-        "aliquid",
-        "aliquo",
-        "aliquos"
-      ],
-      "freq": "E"
-    },
-    {
       "id": "alius_pron",
       "lemma": "alius",
       "pos": "pron",
@@ -27287,51 +27271,6 @@
       "freq": "A"
     },
     {
-      "id": "celer_n",
-      "lemma": "celer",
-      "pos": "noun",
-      "gender": "masc",
-      "glosses": [
-        "knights (pl.) (old name/precursor of equestrian order)",
-        "Roman kings' bodyguard"
-      ],
-      "head": "celer, -is, m.",
-      "paradigm": {
-        "type": "noun",
-        "rows": [
-          "nom",
-          "voc",
-          "gen",
-          "dat",
-          "acc",
-          "abl"
-        ],
-        "cols": [
-          "sg",
-          "pl"
-        ],
-        "cells": {
-          "acc.sg": "celerem",
-          "gen.pl": "celerum",
-          "acc.pl": [
-            "celeres",
-            "celeris"
-          ],
-          "nom.sg": "celer",
-          "gen.sg": "celeris",
-          "dat.sg": "celeri",
-          "abl.sg": "celere",
-          "nom.pl": "celeres",
-          "dat.pl": "celeribus",
-          "abl.pl": "celeribus",
-          "voc.sg": "celer",
-          "voc.pl": "celeres"
-        }
-      },
-      "headword": "Celer",
-      "freq": "D"
-    },
-    {
       "id": "celsus_adj",
       "lemma": "celsus",
       "pos": "adj",
@@ -43278,12 +43217,13 @@
       "id": "cupido_n",
       "lemma": "cupido",
       "pos": "noun",
-      "gender": "masc",
+      "gender": "fem",
       "glosses": [
-        "Cupid, son of Venus",
-        "personification of carnal desire"
+        "desire, longing, especially amorous desire, eagerness",
+        "lust, passion, greed",
+        "(personified) Cupid, son of Venus"
       ],
-      "head": "cupido, -is, m.",
+      "head": "cupido, cupidinis, f.",
       "paradigm": {
         "type": "noun",
         "rows": [
@@ -43299,24 +43239,21 @@
           "pl"
         ],
         "cells": {
-          "acc.sg": "cupidinem",
-          "gen.pl": "cupidinum",
-          "acc.pl": [
-            "cupidines",
-            "cupidinis"
-          ],
           "nom.sg": "cupido",
-          "gen.sg": "cupidinis",
-          "dat.sg": "cupidini",
-          "abl.sg": "cupidine",
           "nom.pl": "cupidines",
+          "gen.sg": "cupidinis",
+          "gen.pl": "cupidinum",
+          "dat.sg": "cupidini",
           "dat.pl": "cupidinibus",
+          "acc.sg": "cupidinem",
+          "acc.pl": "cupidines",
+          "abl.sg": "cupidine",
           "abl.pl": "cupidinibus",
           "voc.sg": "cupido",
           "voc.pl": "cupidines"
         }
       },
-      "headword": "Cupīdō",
+      "headword": "cupīdō",
       "freq": "B"
     },
     {
@@ -45276,19 +45213,15 @@
       "lemma": "decido",
       "pos": "verb",
       "glosses": [
-        "detach, cut off/out/down",
-        "fell",
-        "cut/notch/carve to delineate",
-        "flog thoroughly",
-        "make explicit",
-        "put an end to, bring to conclusion, settle/decide/agree (on)"
+        "to fall down or off; collapse; drop, hang down",
+        "to die, fall dead",
+        "to sink, perish"
       ],
-      "head": "decido, decidere, decidi, decisum",
+      "head": "decido, decidere, decidi",
       "principal_parts": [
         "decido",
         "decidere",
-        "decidi",
-        "decisum"
+        "decidi"
       ],
       "paradigm": {
         "type": "verb",
@@ -45302,162 +45235,24 @@
         ],
         "cols": [
           "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
           "perf.ind.act",
+          "pres.subj.act",
           "imperf.subj.act",
           "pres.imp.act",
-          "pres.ind.pass",
           "plup.ind.act",
           "futperf.ind.act",
           "perf.subj.act",
           "plup.subj.act",
-          "perf.act",
-          "pres.pass",
-          "imperf.ind.pass",
-          "fut.ind.pass",
-          "pres.subj.pass",
-          "imperf.subj.pass",
-          "pres.imp.pass",
-          "imperf.ind.act",
-          "fut.ind.act",
-          "pres.subj.act"
+          "fut.imp.act"
         ],
         "cells": {
+          "1sg.pres.ind.act": "decido",
           "2sg.pres.ind.act": "decidis",
           "3sg.pres.ind.act": "decidit",
           "1pl.pres.ind.act": "decidimus",
           "2pl.pres.ind.act": "deciditis",
-          "2sg.pres.ind.pass": [
-            "decideris",
-            "decidere"
-          ],
-          "3sg.pres.ind.pass": "deciditur",
-          "1sg.imperf.subj.act": "deciderem",
-          "2sg.imperf.subj.act": "decideres",
-          "3sg.imperf.subj.act": "decideret",
-          "1pl.imperf.subj.act": "decideremus",
-          "2pl.imperf.subj.act": "decideretis",
-          "3pl.imperf.subj.act": "deciderent",
-          "2sg.pres.imp.act": "decide",
-          "2pl.pres.imp.act": "decidite",
-          "1sg.perf.ind.act": "decidi",
-          "2sg.perf.ind.act": "decidisti",
-          "3sg.perf.ind.act": "decidit",
-          "1pl.perf.ind.act": "decidimus",
-          "2pl.perf.ind.act": "decidistis",
-          "3pl.perf.ind.act": [
-            "deciderunt",
-            "decidere"
-          ],
-          "1sg.pres.ind.act": "decido",
-          "inf.pres.act": "decidere",
-          "1sg.plup.ind.act": "decideram",
-          "2sg.plup.ind.act": "decideras",
-          "3sg.plup.ind.act": "deciderat",
-          "1pl.plup.ind.act": "decideramus",
-          "2pl.plup.ind.act": "decideratis",
-          "3pl.plup.ind.act": "deciderant",
-          "1sg.futperf.ind.act": "decidero",
-          "2sg.futperf.ind.act": "decideris",
-          "3sg.futperf.ind.act": "deciderit",
-          "1pl.futperf.ind.act": "deciderimus",
-          "2pl.futperf.ind.act": "decideritis",
-          "3pl.futperf.ind.act": "deciderint",
-          "1sg.perf.subj.act": "deciderim",
-          "2sg.perf.subj.act": "decideris",
-          "3sg.perf.subj.act": "deciderit",
-          "1pl.perf.subj.act": "deciderimus",
-          "2pl.perf.subj.act": "decideritis",
-          "3pl.perf.subj.act": "deciderint",
-          "1sg.plup.subj.act": "decidissem",
-          "2sg.plup.subj.act": "decidisses",
-          "3sg.plup.subj.act": "decidisset",
-          "1pl.plup.subj.act": "decidissemus",
-          "2pl.plup.subj.act": "decidissetis",
-          "3pl.plup.subj.act": "decidissent",
-          "inf.perf.act": "decidisse",
-          "inf.pres.pass": "decidi",
-          "gerundive.nom.sg.masc": "decidendus",
-          "gerundive.nom.sg.fem": "decidenda",
-          "gerundive.nom.sg.neut": "decidendum",
-          "gerundive.voc.sg.masc": "decidende",
-          "gerundive.voc.sg.fem": "decidenda",
-          "gerundive.voc.sg.neut": "decidendum",
-          "gerundive.gen.sg.masc": "decidendi",
-          "gerundive.gen.sg.fem": "decidendae",
-          "gerundive.gen.sg.neut": "decidendi",
-          "gerundive.dat.sg.masc": "decidendo",
-          "gerundive.dat.sg.fem": "decidendae",
-          "gerundive.dat.sg.neut": "decidendo",
-          "gerundive.acc.sg.masc": "decidendum",
-          "gerundive.acc.sg.fem": "decidendam",
-          "gerundive.acc.sg.neut": "decidendum",
-          "gerundive.abl.sg.masc": "decidendo",
-          "gerundive.abl.sg.fem": "decidenda",
-          "gerundive.abl.sg.neut": "decidendo",
-          "gerundive.nom.pl.masc": "decidendi",
-          "gerundive.nom.pl.fem": "decidendae",
-          "gerundive.nom.pl.neut": "decidenda",
-          "gerundive.voc.pl.masc": "decidendi",
-          "gerundive.voc.pl.fem": "decidendae",
-          "gerundive.voc.pl.neut": "decidenda",
-          "gerundive.gen.pl.masc": "decidendorum",
-          "gerundive.gen.pl.fem": "decidendarum",
-          "gerundive.gen.pl.neut": "decidendorum",
-          "gerundive.dat.pl.masc": "decidendis",
-          "gerundive.dat.pl.fem": "decidendis",
-          "gerundive.dat.pl.neut": "decidendis",
-          "gerundive.acc.pl.masc": "decidendos",
-          "gerundive.acc.pl.fem": "decidendas",
-          "gerundive.acc.pl.neut": "decidenda",
-          "gerundive.abl.pl.masc": "decidendis",
-          "gerundive.abl.pl.fem": "decidendis",
-          "gerundive.abl.pl.neut": "decidendis",
-          "ger.gen.sg": "decidendi",
-          "ger.dat.sg": "decidendo",
-          "ger.acc.sg": "decidendum",
-          "ger.abl.sg": "decidendo",
-          "1sg.pres.ind.pass": "decidor",
-          "1pl.pres.ind.pass": "decidimur",
-          "2pl.pres.ind.pass": "decidimini",
-          "3pl.pres.ind.pass": "deciduntur",
-          "1sg.imperf.ind.pass": "decidebar",
-          "2sg.imperf.ind.pass": [
-            "decidebaris",
-            "decidebare"
-          ],
-          "3sg.imperf.ind.pass": "decidebatur",
-          "1pl.imperf.ind.pass": "decidebamur",
-          "2pl.imperf.ind.pass": "decidebamini",
-          "3pl.imperf.ind.pass": "decidebantur",
-          "1sg.fut.ind.pass": "decidar",
-          "2sg.fut.ind.pass": [
-            "decideris",
-            "decidere"
-          ],
-          "3sg.fut.ind.pass": "decidetur",
-          "1pl.fut.ind.pass": "decidemur",
-          "2pl.fut.ind.pass": "decidemini",
-          "3pl.fut.ind.pass": "decidentur",
-          "1sg.pres.subj.pass": "decidar",
-          "2sg.pres.subj.pass": [
-            "decidaris",
-            "decidare"
-          ],
-          "3sg.pres.subj.pass": "decidatur",
-          "1pl.pres.subj.pass": "decidamur",
-          "2pl.pres.subj.pass": "decidamini",
-          "3pl.pres.subj.pass": "decidantur",
-          "1sg.imperf.subj.pass": "deciderer",
-          "2sg.imperf.subj.pass": [
-            "decidereris",
-            "deciderere"
-          ],
-          "3sg.imperf.subj.pass": "decideretur",
-          "1pl.imperf.subj.pass": "decideremur",
-          "2pl.imperf.subj.pass": "decideremini",
-          "3pl.imperf.subj.pass": "deciderentur",
-          "2sg.pres.imp.pass": "decidere",
-          "2pl.pres.imp.pass": "decidimini",
           "3pl.pres.ind.act": "decidunt",
           "1sg.imperf.ind.act": "decidebam",
           "2sg.imperf.ind.act": "decidebas",
@@ -45471,52 +45266,119 @@
           "1pl.fut.ind.act": "decidemus",
           "2pl.fut.ind.act": "decidetis",
           "3pl.fut.ind.act": "decident",
+          "1sg.perf.ind.act": "decidi",
+          "2sg.perf.ind.act": "decidisti",
+          "3sg.perf.ind.act": "decidit",
+          "1pl.perf.ind.act": "decidimus",
+          "2pl.perf.ind.act": "decidistis",
+          "3pl.perf.ind.act": [
+            "deciderunt",
+            "decidere"
+          ],
+          "1sg.plup.ind.act": "decideram",
+          "2sg.plup.ind.act": "decideras",
+          "3sg.plup.ind.act": "deciderat",
+          "1pl.plup.ind.act": "decideramus",
+          "2pl.plup.ind.act": "decideratis",
+          "3pl.plup.ind.act": "deciderant",
+          "1sg.futperf.ind.act": "decidero",
+          "2sg.futperf.ind.act": "decideris",
+          "3sg.futperf.ind.act": "deciderit",
+          "1pl.futperf.ind.act": "deciderimus",
+          "2pl.futperf.ind.act": "decideritis",
+          "3pl.futperf.ind.act": "deciderint",
           "1sg.pres.subj.act": "decidam",
           "2sg.pres.subj.act": "decidas",
           "3sg.pres.subj.act": "decidat",
           "1pl.pres.subj.act": "decidamus",
           "2pl.pres.subj.act": "decidatis",
           "3pl.pres.subj.act": "decidant",
+          "1sg.imperf.subj.act": "deciderem",
+          "2sg.imperf.subj.act": "decideres",
+          "3sg.imperf.subj.act": "decideret",
+          "1pl.imperf.subj.act": "decideremus",
+          "2pl.imperf.subj.act": "decideretis",
+          "3pl.imperf.subj.act": "deciderent",
+          "1sg.perf.subj.act": "deciderim",
+          "2sg.perf.subj.act": "decideris",
+          "3sg.perf.subj.act": "deciderit",
+          "1pl.perf.subj.act": "deciderimus",
+          "2pl.perf.subj.act": "decideritis",
+          "3pl.perf.subj.act": "deciderint",
+          "1sg.plup.subj.act": "decidissem",
+          "2sg.plup.subj.act": "decidisses",
+          "3sg.plup.subj.act": "decidisset",
+          "1pl.plup.subj.act": "decidissemus",
+          "2pl.plup.subj.act": "decidissetis",
+          "3pl.plup.subj.act": "decidissent",
+          "2sg.pres.imp.act": "decide",
+          "2pl.pres.imp.act": "decidite",
+          "2sg.fut.imp.act": "decidito",
+          "3sg.fut.imp.act": "decidito",
+          "2pl.fut.imp.act": "deciditote",
+          "3pl.fut.imp.act": "decidunto",
+          "inf.pres.act": "decidere",
           "pap.nom.sg.masc": "decidens",
+          "inf.perf.act": "decidisse",
+          "ger.gen.sg": "decidendi",
+          "ger.dat.sg": "decidendo",
+          "ger.acc.sg": "decidendum",
+          "ger.abl.sg": "decidendo",
           "pap.nom.sg.fem": "decidens",
           "pap.nom.sg.neut": "decidens",
-          "pap.voc.sg.masc": "decidens",
-          "pap.voc.sg.fem": "decidens",
-          "pap.voc.sg.neut": "decidens",
-          "pap.gen.sg.masc": "decidentis",
-          "pap.gen.sg.fem": "decidentis",
-          "pap.gen.sg.neut": "decidentis",
-          "pap.dat.sg.masc": "decidenti",
-          "pap.dat.sg.fem": "decidenti",
-          "pap.dat.sg.neut": "decidenti",
-          "pap.acc.sg.masc": "decidentem",
-          "pap.acc.sg.fem": "decidentem",
-          "pap.acc.sg.neut": "decidens",
-          "pap.abl.sg.masc": "decidente",
-          "pap.abl.sg.fem": "decidente",
-          "pap.abl.sg.neut": "decidente",
-          "pap.nom.pl.masc": "decidentes",
           "pap.nom.pl.fem": "decidentes",
+          "pap.nom.pl.masc": "decidentes",
           "pap.nom.pl.neut": "decidentia",
-          "pap.voc.pl.masc": "decidentes",
-          "pap.voc.pl.fem": "decidentes",
-          "pap.voc.pl.neut": "decidentia",
-          "pap.gen.pl.masc": "decidentium",
+          "pap.gen.sg.fem": "decidentis",
+          "pap.gen.sg.masc": "decidentis",
+          "pap.gen.sg.neut": "decidentis",
           "pap.gen.pl.fem": "decidentium",
+          "pap.gen.pl.masc": "decidentium",
           "pap.gen.pl.neut": "decidentium",
-          "pap.dat.pl.masc": "decidentibus",
+          "pap.dat.sg.fem": "decidenti",
+          "pap.dat.sg.masc": "decidenti",
+          "pap.dat.sg.neut": "decidenti",
           "pap.dat.pl.fem": "decidentibus",
+          "pap.dat.pl.masc": "decidentibus",
           "pap.dat.pl.neut": "decidentibus",
-          "pap.acc.pl.masc": "decidentes",
-          "pap.acc.pl.fem": "decidentes",
+          "pap.acc.sg.fem": "decidentem",
+          "pap.acc.sg.masc": "decidentem",
+          "pap.acc.sg.neut": "decidens",
+          "pap.acc.pl.fem": [
+            "decidentes",
+            "decidentis"
+          ],
+          "pap.acc.pl.masc": [
+            "decidentes",
+            "decidentis"
+          ],
           "pap.acc.pl.neut": "decidentia",
-          "pap.abl.pl.masc": "decidentibus",
+          "pap.abl.sg.fem": [
+            "decidente",
+            "decidenti"
+          ],
+          "pap.abl.sg.masc": [
+            "decidente",
+            "decidenti"
+          ],
+          "pap.abl.sg.neut": [
+            "decidente",
+            "decidenti"
+          ],
           "pap.abl.pl.fem": "decidentibus",
-          "pap.abl.pl.neut": "decidentibus"
+          "pap.abl.pl.masc": "decidentibus",
+          "pap.abl.pl.neut": "decidentibus",
+          "pap.voc.sg.fem": "decidens",
+          "pap.voc.sg.masc": "decidens",
+          "pap.voc.sg.neut": "decidens",
+          "pap.voc.pl.fem": "decidentes",
+          "pap.voc.pl.masc": "decidentes",
+          "pap.voc.pl.neut": "decidentia"
         }
       },
       "headword": "dēcidō",
-      "freq": "B"
+      "freq": "B",
+      "homograph": 1
     },
     {
       "id": "declive_n",
@@ -52662,7 +52524,8 @@
         }
       },
       "headword": "dīcō",
-      "freq": "A"
+      "freq": "A",
+      "homograph": 1
     },
     {
       "id": "dies_n",
@@ -61622,7 +61485,8 @@
         }
       },
       "headword": "ēdō",
-      "freq": "A"
+      "freq": "A",
+      "homograph": 1
     },
     {
       "id": "effervesco_v",
@@ -111805,8 +111669,11 @@
       "lemma": "lego",
       "pos": "verb",
       "glosses": [
-        "bequeath, will",
-        "entrust, send as an envoy, choose as a deputy"
+        "to collect, gather, bring together, catch",
+        "to choose, select",
+        "to appoint",
+        "to take out, pick out, extract, remove",
+        "to take to one's self unjustly, carry off, steal, purloin, plunder, abstract"
       ],
       "head": "lego, legere, legi, lectum",
       "principal_parts": [
@@ -111840,13 +111707,40 @@
           "futperf.ind.act",
           "perf.subj.act",
           "plup.subj.act",
-          "perf.act",
-          "pres.pass",
           "pres.subj.pass",
           "imperf.subj.pass",
-          "pres.imp.pass"
+          "pres.imp.pass",
+          "fut.imp.act",
+          "fut.imp.pass"
         ],
         "cells": {
+          "1sg.pres.ind.act": "lego",
+          "2sg.pres.ind.act": "legis",
+          "3sg.pres.ind.act": "legit",
+          "1pl.pres.ind.act": "legimus",
+          "2pl.pres.ind.act": "legitis",
+          "3pl.pres.ind.act": "legunt",
+          "1sg.imperf.ind.act": "legebam",
+          "2sg.imperf.ind.act": "legebas",
+          "3sg.imperf.ind.act": "legebat",
+          "1pl.imperf.ind.act": "legebamus",
+          "2pl.imperf.ind.act": "legebatis",
+          "3pl.imperf.ind.act": "legebant",
+          "1sg.fut.ind.act": "legam",
+          "2sg.fut.ind.act": "leges",
+          "3sg.fut.ind.act": "leget",
+          "1pl.fut.ind.act": "legemus",
+          "2pl.fut.ind.act": "legetis",
+          "3pl.fut.ind.act": "legent",
+          "1sg.perf.ind.act": "legi",
+          "2sg.perf.ind.act": "legisti",
+          "3sg.perf.ind.act": "legit",
+          "1pl.perf.ind.act": "legimus",
+          "2pl.perf.ind.act": "legistis",
+          "3pl.perf.ind.act": [
+            "legerunt",
+            "legere"
+          ],
           "1sg.plup.ind.act": "legeram",
           "2sg.plup.ind.act": "legeras",
           "3sg.plup.ind.act": "legerat",
@@ -111859,71 +111753,6 @@
           "1pl.futperf.ind.act": "legerimus",
           "2pl.futperf.ind.act": "legeritis",
           "3pl.futperf.ind.act": "legerint",
-          "1sg.plup.subj.act": "legissem",
-          "2sg.plup.subj.act": "legisses",
-          "3sg.plup.subj.act": "legisset",
-          "1pl.plup.subj.act": "legissemus",
-          "2pl.plup.subj.act": "legissetis",
-          "3pl.plup.subj.act": "legissent",
-          "1sg.pres.ind.act": "lego",
-          "inf.pres.act": "legere",
-          "1sg.perf.subj.act": "legerim",
-          "2sg.perf.subj.act": "legeris",
-          "3sg.perf.subj.act": "legerit",
-          "1pl.perf.subj.act": "legerimus",
-          "2pl.perf.subj.act": "legeritis",
-          "3pl.perf.subj.act": "legerint",
-          "1sg.perf.ind.act": "legi",
-          "2sg.perf.ind.act": "legisti",
-          "3sg.perf.ind.act": "legit",
-          "1pl.perf.ind.act": "legimus",
-          "2pl.perf.ind.act": "legistis",
-          "3pl.perf.ind.act": [
-            "legerunt",
-            "legere"
-          ],
-          "inf.perf.act": "legisse",
-          "inf.pres.pass": "legi",
-          "gerundive.nom.sg.masc": "legendus",
-          "gerundive.nom.sg.fem": "legenda",
-          "gerundive.nom.sg.neut": "legendum",
-          "gerundive.voc.sg.masc": "legende",
-          "gerundive.voc.sg.fem": "legenda",
-          "gerundive.voc.sg.neut": "legendum",
-          "gerundive.gen.sg.masc": "legendi",
-          "gerundive.gen.sg.fem": "legendae",
-          "gerundive.gen.sg.neut": "legendi",
-          "gerundive.dat.sg.masc": "legendo",
-          "gerundive.dat.sg.fem": "legendae",
-          "gerundive.dat.sg.neut": "legendo",
-          "gerundive.acc.sg.masc": "legendum",
-          "gerundive.acc.sg.fem": "legendam",
-          "gerundive.acc.sg.neut": "legendum",
-          "gerundive.abl.sg.masc": "legendo",
-          "gerundive.abl.sg.fem": "legenda",
-          "gerundive.abl.sg.neut": "legendo",
-          "gerundive.nom.pl.masc": "legendi",
-          "gerundive.nom.pl.fem": "legendae",
-          "gerundive.nom.pl.neut": "legenda",
-          "gerundive.voc.pl.masc": "legendi",
-          "gerundive.voc.pl.fem": "legendae",
-          "gerundive.voc.pl.neut": "legenda",
-          "gerundive.gen.pl.masc": "legendorum",
-          "gerundive.gen.pl.fem": "legendarum",
-          "gerundive.gen.pl.neut": "legendorum",
-          "gerundive.dat.pl.masc": "legendis",
-          "gerundive.dat.pl.fem": "legendis",
-          "gerundive.dat.pl.neut": "legendis",
-          "gerundive.acc.pl.masc": "legendos",
-          "gerundive.acc.pl.fem": "legendas",
-          "gerundive.acc.pl.neut": "legenda",
-          "gerundive.abl.pl.masc": "legendis",
-          "gerundive.abl.pl.fem": "legendis",
-          "gerundive.abl.pl.neut": "legendis",
-          "ger.gen.sg": "legendi",
-          "ger.dat.sg": "legendo",
-          "ger.acc.sg": "legendum",
-          "ger.abl.sg": "legendo",
           "1sg.pres.ind.pass": "legor",
           "2sg.pres.ind.pass": [
             "legeris",
@@ -111951,6 +111780,30 @@
           "1pl.fut.ind.pass": "legemur",
           "2pl.fut.ind.pass": "legemini",
           "3pl.fut.ind.pass": "legentur",
+          "1sg.pres.subj.act": "legam",
+          "2sg.pres.subj.act": "legas",
+          "3sg.pres.subj.act": "legat",
+          "1pl.pres.subj.act": "legamus",
+          "2pl.pres.subj.act": "legatis",
+          "3pl.pres.subj.act": "legant",
+          "1sg.imperf.subj.act": "legerem",
+          "2sg.imperf.subj.act": "legeres",
+          "3sg.imperf.subj.act": "legeret",
+          "1pl.imperf.subj.act": "legeremus",
+          "2pl.imperf.subj.act": "legeretis",
+          "3pl.imperf.subj.act": "legerent",
+          "1sg.perf.subj.act": "legerim",
+          "2sg.perf.subj.act": "legeris",
+          "3sg.perf.subj.act": "legerit",
+          "1pl.perf.subj.act": "legerimus",
+          "2pl.perf.subj.act": "legeritis",
+          "3pl.perf.subj.act": "legerint",
+          "1sg.plup.subj.act": "legissem",
+          "2sg.plup.subj.act": "legisses",
+          "3sg.plup.subj.act": "legisset",
+          "1pl.plup.subj.act": "legissemus",
+          "2pl.plup.subj.act": "legissetis",
+          "3pl.plup.subj.act": "legissent",
           "1sg.pres.subj.pass": "legar",
           "2sg.pres.subj.pass": [
             "legaris",
@@ -111969,86 +111822,269 @@
           "1pl.imperf.subj.pass": "legeremur",
           "2pl.imperf.subj.pass": "legeremini",
           "3pl.imperf.subj.pass": "legerentur",
-          "2sg.pres.imp.pass": "legere",
-          "2pl.pres.imp.pass": "legimini",
-          "2sg.pres.ind.act": "legis",
-          "3sg.pres.ind.act": "legit",
-          "1pl.pres.ind.act": "legimus",
-          "2pl.pres.ind.act": "legitis",
-          "3pl.pres.ind.act": "legunt",
-          "1sg.imperf.ind.act": "legebam",
-          "2sg.imperf.ind.act": "legebas",
-          "3sg.imperf.ind.act": "legebat",
-          "1pl.imperf.ind.act": "legebamus",
-          "2pl.imperf.ind.act": "legebatis",
-          "3pl.imperf.ind.act": "legebant",
-          "1sg.fut.ind.act": "legam",
-          "2sg.fut.ind.act": "leges",
-          "3sg.fut.ind.act": "leget",
-          "1pl.fut.ind.act": "legemus",
-          "2pl.fut.ind.act": "legetis",
-          "3pl.fut.ind.act": "legent",
-          "1sg.pres.subj.act": "legam",
-          "2sg.pres.subj.act": "legas",
-          "3sg.pres.subj.act": "legat",
-          "1pl.pres.subj.act": "legamus",
-          "2pl.pres.subj.act": "legatis",
-          "3pl.pres.subj.act": "legant",
-          "1sg.imperf.subj.act": "legerem",
-          "2sg.imperf.subj.act": "legeres",
-          "3sg.imperf.subj.act": "legeret",
-          "1pl.imperf.subj.act": "legeremus",
-          "2pl.imperf.subj.act": "legeretis",
-          "3pl.imperf.subj.act": "legerent",
           "2sg.pres.imp.act": "lege",
           "2pl.pres.imp.act": "legite",
+          "2sg.fut.imp.act": "legito",
+          "3sg.fut.imp.act": "legito",
+          "2pl.fut.imp.act": "legitote",
+          "3pl.fut.imp.act": "legunto",
+          "2sg.pres.imp.pass": "legere",
+          "2pl.pres.imp.pass": "legimini",
+          "2sg.fut.imp.pass": "legitor",
+          "3sg.fut.imp.pass": "legitor",
+          "3pl.fut.imp.pass": "leguntor",
+          "inf.pres.act": "legere",
+          "inf.pres.pass": "legi",
           "pap.nom.sg.masc": "legens",
+          "inf.fut.act": "lecturum esse",
+          "inf.fut.pass": "lectum iri",
+          "fap.nom.sg.masc": "lecturus",
+          "gerundive.nom.sg.masc": [
+            "legendus",
+            "legundus"
+          ],
+          "inf.perf.act": "legisse",
+          "inf.perf.pass": "lectum esse",
+          "ger.gen.sg": "legendi",
+          "ger.dat.sg": "legendo",
+          "ger.acc.sg": "legendum",
+          "ger.abl.sg": "legendo",
           "pap.nom.sg.fem": "legens",
           "pap.nom.sg.neut": "legens",
-          "pap.voc.sg.masc": "legens",
-          "pap.voc.sg.fem": "legens",
-          "pap.voc.sg.neut": "legens",
-          "pap.gen.sg.masc": "legentis",
-          "pap.gen.sg.fem": "legentis",
-          "pap.gen.sg.neut": "legentis",
-          "pap.dat.sg.masc": "legenti",
-          "pap.dat.sg.fem": "legenti",
-          "pap.dat.sg.neut": "legenti",
-          "pap.acc.sg.masc": "legentem",
-          "pap.acc.sg.fem": "legentem",
-          "pap.acc.sg.neut": "legens",
-          "pap.abl.sg.masc": "legente",
-          "pap.abl.sg.fem": "legente",
-          "pap.abl.sg.neut": "legente",
-          "pap.nom.pl.masc": "legentes",
           "pap.nom.pl.fem": "legentes",
+          "pap.nom.pl.masc": "legentes",
           "pap.nom.pl.neut": "legentia",
-          "pap.voc.pl.masc": "legentes",
-          "pap.voc.pl.fem": "legentes",
-          "pap.voc.pl.neut": "legentia",
-          "pap.gen.pl.masc": "legentium",
+          "pap.gen.sg.fem": "legentis",
+          "pap.gen.sg.masc": "legentis",
+          "pap.gen.sg.neut": "legentis",
           "pap.gen.pl.fem": "legentium",
+          "pap.gen.pl.masc": "legentium",
           "pap.gen.pl.neut": "legentium",
-          "pap.dat.pl.masc": "legentibus",
+          "pap.dat.sg.fem": "legenti",
+          "pap.dat.sg.masc": "legenti",
+          "pap.dat.sg.neut": "legenti",
           "pap.dat.pl.fem": "legentibus",
+          "pap.dat.pl.masc": "legentibus",
           "pap.dat.pl.neut": "legentibus",
-          "pap.acc.pl.masc": "legentes",
-          "pap.acc.pl.fem": "legentes",
+          "pap.acc.sg.fem": "legentem",
+          "pap.acc.sg.masc": "legentem",
+          "pap.acc.sg.neut": "legens",
+          "pap.acc.pl.fem": [
+            "legentes",
+            "legentis"
+          ],
+          "pap.acc.pl.masc": [
+            "legentes",
+            "legentis"
+          ],
           "pap.acc.pl.neut": "legentia",
-          "pap.abl.pl.masc": "legentibus",
+          "pap.abl.sg.fem": [
+            "legente",
+            "legenti"
+          ],
+          "pap.abl.sg.masc": [
+            "legente",
+            "legenti"
+          ],
+          "pap.abl.sg.neut": [
+            "legente",
+            "legenti"
+          ],
           "pap.abl.pl.fem": "legentibus",
-          "pap.abl.pl.neut": "legentibus"
+          "pap.abl.pl.masc": "legentibus",
+          "pap.abl.pl.neut": "legentibus",
+          "pap.voc.sg.fem": "legens",
+          "pap.voc.sg.masc": "legens",
+          "pap.voc.sg.neut": "legens",
+          "pap.voc.pl.fem": "legentes",
+          "pap.voc.pl.masc": "legentes",
+          "pap.voc.pl.neut": "legentia",
+          "fap.nom.sg.fem": "lectura",
+          "fap.nom.sg.neut": "lecturum",
+          "fap.nom.pl.masc": "lecturi",
+          "fap.nom.pl.fem": "lecturae",
+          "fap.nom.pl.neut": "lectura",
+          "fap.gen.sg.masc": "lecturi",
+          "fap.gen.sg.fem": "lecturae",
+          "fap.gen.sg.neut": "lecturi",
+          "fap.gen.pl.masc": "lecturorum",
+          "fap.gen.pl.fem": "lecturarum",
+          "fap.gen.pl.neut": "lecturorum",
+          "fap.dat.sg.masc": "lecturo",
+          "fap.dat.sg.fem": "lecturae",
+          "fap.dat.sg.neut": "lecturo",
+          "fap.dat.pl.fem": "lecturis",
+          "fap.dat.pl.masc": "lecturis",
+          "fap.dat.pl.neut": "lecturis",
+          "fap.acc.sg.masc": "lecturum",
+          "fap.acc.sg.fem": "lecturam",
+          "fap.acc.sg.neut": "lecturum",
+          "fap.acc.pl.masc": "lecturos",
+          "fap.acc.pl.fem": "lecturas",
+          "fap.acc.pl.neut": "lectura",
+          "fap.abl.sg.masc": "lecturo",
+          "fap.abl.sg.fem": "lectura",
+          "fap.abl.sg.neut": "lecturo",
+          "fap.abl.pl.fem": "lecturis",
+          "fap.abl.pl.masc": "lecturis",
+          "fap.abl.pl.neut": "lecturis",
+          "fap.voc.sg.masc": "lecture",
+          "fap.voc.sg.fem": "lectura",
+          "fap.voc.sg.neut": "lecturum",
+          "fap.voc.pl.masc": "lecturi",
+          "fap.voc.pl.fem": "lecturae",
+          "fap.voc.pl.neut": "lectura",
+          "gerundive.nom.sg.fem": [
+            "legenda",
+            "legunda"
+          ],
+          "gerundive.nom.sg.neut": [
+            "legendum",
+            "legundum"
+          ],
+          "gerundive.nom.pl.masc": [
+            "legendi",
+            "legundi"
+          ],
+          "gerundive.nom.pl.fem": [
+            "legendae",
+            "legundae"
+          ],
+          "gerundive.nom.pl.neut": [
+            "legenda",
+            "legunda"
+          ],
+          "gerundive.gen.sg.masc": [
+            "legendi",
+            "legundi"
+          ],
+          "gerundive.gen.sg.fem": [
+            "legendae",
+            "legundae"
+          ],
+          "gerundive.gen.sg.neut": [
+            "legendi",
+            "legundi"
+          ],
+          "gerundive.gen.pl.masc": [
+            "legendorum",
+            "legundorum"
+          ],
+          "gerundive.gen.pl.fem": [
+            "legendarum",
+            "legundarum"
+          ],
+          "gerundive.gen.pl.neut": [
+            "legendorum",
+            "legundorum"
+          ],
+          "gerundive.dat.sg.masc": [
+            "legendo",
+            "legundo"
+          ],
+          "gerundive.dat.sg.fem": [
+            "legendae",
+            "legundae"
+          ],
+          "gerundive.dat.sg.neut": [
+            "legendo",
+            "legundo"
+          ],
+          "gerundive.dat.pl.fem": [
+            "legendis",
+            "legundis"
+          ],
+          "gerundive.dat.pl.masc": [
+            "legendis",
+            "legundis"
+          ],
+          "gerundive.dat.pl.neut": [
+            "legendis",
+            "legundis"
+          ],
+          "gerundive.acc.sg.masc": [
+            "legendum",
+            "legundum"
+          ],
+          "gerundive.acc.sg.fem": [
+            "legendam",
+            "legundam"
+          ],
+          "gerundive.acc.sg.neut": [
+            "legendum",
+            "legundum"
+          ],
+          "gerundive.acc.pl.masc": [
+            "legendos",
+            "legundos"
+          ],
+          "gerundive.acc.pl.fem": [
+            "legendas",
+            "legundas"
+          ],
+          "gerundive.acc.pl.neut": [
+            "legenda",
+            "legunda"
+          ],
+          "gerundive.abl.sg.masc": [
+            "legendo",
+            "legundo"
+          ],
+          "gerundive.abl.sg.fem": [
+            "legenda",
+            "legunda"
+          ],
+          "gerundive.abl.sg.neut": [
+            "legendo",
+            "legundo"
+          ],
+          "gerundive.abl.pl.fem": [
+            "legendis",
+            "legundis"
+          ],
+          "gerundive.abl.pl.masc": [
+            "legendis",
+            "legundis"
+          ],
+          "gerundive.abl.pl.neut": [
+            "legendis",
+            "legundis"
+          ],
+          "gerundive.voc.sg.masc": [
+            "legende",
+            "legunde"
+          ],
+          "gerundive.voc.sg.fem": [
+            "legenda",
+            "legunda"
+          ],
+          "gerundive.voc.sg.neut": [
+            "legendum",
+            "legundum"
+          ],
+          "gerundive.voc.pl.masc": [
+            "legendi",
+            "legundi"
+          ],
+          "gerundive.voc.pl.fem": [
+            "legendae",
+            "legundae"
+          ],
+          "gerundive.voc.pl.neut": [
+            "legenda",
+            "legunda"
+          ]
         }
       },
       "ppp_paradigm": {
         "type": "ppp",
         "rows": [
           "nom",
-          "voc",
           "gen",
           "dat",
           "acc",
-          "abl"
+          "abl",
+          "voc"
         ],
         "cols": [
           "sg.masc",
@@ -112065,12 +112101,6 @@
           "ppp.nom.pl.masc": "lecti",
           "ppp.nom.pl.fem": "lectae",
           "ppp.nom.pl.neut": "lecta",
-          "ppp.voc.sg.masc": "lecte",
-          "ppp.voc.sg.fem": "lecta",
-          "ppp.voc.sg.neut": "lectum",
-          "ppp.voc.pl.masc": "lecti",
-          "ppp.voc.pl.fem": "lectae",
-          "ppp.voc.pl.neut": "lecta",
           "ppp.gen.sg.masc": "lecti",
           "ppp.gen.sg.fem": "lectae",
           "ppp.gen.sg.neut": "lecti",
@@ -112080,8 +112110,8 @@
           "ppp.dat.sg.masc": "lecto",
           "ppp.dat.sg.fem": "lectae",
           "ppp.dat.sg.neut": "lecto",
-          "ppp.dat.pl.masc": "lectis",
           "ppp.dat.pl.fem": "lectis",
+          "ppp.dat.pl.masc": "lectis",
           "ppp.dat.pl.neut": "lectis",
           "ppp.acc.sg.masc": "lectum",
           "ppp.acc.sg.fem": "lectam",
@@ -112092,13 +112122,20 @@
           "ppp.abl.sg.masc": "lecto",
           "ppp.abl.sg.fem": "lecta",
           "ppp.abl.sg.neut": "lecto",
-          "ppp.abl.pl.masc": "lectis",
           "ppp.abl.pl.fem": "lectis",
-          "ppp.abl.pl.neut": "lectis"
+          "ppp.abl.pl.masc": "lectis",
+          "ppp.abl.pl.neut": "lectis",
+          "ppp.voc.sg.masc": "lecte",
+          "ppp.voc.sg.fem": "lecta",
+          "ppp.voc.sg.neut": "lectum",
+          "ppp.voc.pl.masc": "lecti",
+          "ppp.voc.pl.fem": "lectae",
+          "ppp.voc.pl.neut": "lecta"
         }
       },
       "headword": "legō",
-      "freq": "A"
+      "freq": "A",
+      "homograph": 1
     },
     {
       "id": "lena_n",
@@ -112945,7 +112982,8 @@
       "alt_forms": [
         "leuior"
       ],
-      "freq": "B"
+      "freq": "B",
+      "homograph": 1
     },
     {
       "id": "levitas_n",
@@ -113000,10 +113038,10 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "children (pl.)",
-        "(sg. VOC) child"
+        "book",
+        "the inner bark of a tree"
       ],
-      "head": "liber, -i, m.",
+      "head": "liber, libri, m.",
       "paradigm": {
         "type": "noun",
         "rows": [
@@ -113020,28 +113058,19 @@
         ],
         "cells": {
           "nom.sg": "liber",
-          "gen.sg": "liberi",
-          "dat.sg": [
-            "libero",
-            "libro"
-          ],
-          "abl.sg": [
-            "libero",
-            "libro"
-          ],
-          "acc.sg": "liberum",
-          "nom.pl": "liberi",
-          "gen.pl": "liberorum",
-          "dat.pl": "liberis",
-          "abl.pl": "liberis",
-          "acc.pl": "liberos",
+          "nom.pl": "libri",
+          "gen.sg": "libri",
+          "gen.pl": "librorum",
+          "dat.sg": "libro",
+          "dat.pl": "libris",
+          "acc.sg": "librum",
+          "acc.pl": "libros",
+          "abl.sg": "libro",
+          "abl.pl": "libris",
           "voc.sg": "liber",
-          "voc.pl": "liberi"
+          "voc.pl": "libri"
         }
       },
-      "alt_forms": [
-        "liberioris"
-      ],
       "headword": "Līber",
       "freq": "A"
     },
@@ -115735,7 +115764,7 @@
           "voc.pl": "lucii"
         }
       },
-      "headword": "Lūcius",
+      "headword": "lūcius",
       "freq": "D"
     },
     {
@@ -118401,7 +118430,8 @@
           "voc.pl": "mala"
         }
       },
-      "freq": "D"
+      "freq": "D",
+      "homograph": 1
     },
     {
       "id": "malus_n",
@@ -151049,7 +151079,8 @@
         }
       },
       "headword": "plāga",
-      "freq": "C"
+      "freq": "C",
+      "homograph": 1
     },
     {
       "id": "plebs_n",
@@ -164298,7 +164329,8 @@
         }
       },
       "headword": "recidō",
-      "freq": "B"
+      "freq": "B",
+      "homograph": 1
     },
     {
       "id": "recingo_v",
@@ -184651,9 +184683,13 @@
       "pos": "noun",
       "gender": "masc",
       "glosses": [
-        "bowl for serving wine, etc"
+        "a bent surface; a curve, fold, hollow",
+        "a purse, money (which was carried in the bosom of the toga)",
+        "a garment",
+        "the bosom, breast",
+        "the bosom for love, protection, asylum"
       ],
-      "head": "sinus, sini, m.",
+      "head": "sinus, sinus, m.",
       "paradigm": {
         "type": "noun",
         "rows": [
@@ -184670,17 +184706,17 @@
         ],
         "cells": {
           "nom.sg": "sinus",
-          "nom.pl": "sini",
-          "gen.sg": "sini",
-          "gen.pl": "sinorum",
-          "dat.sg": "sino",
-          "dat.pl": "sinis",
+          "nom.pl": "sinus",
+          "gen.sg": "sinus",
+          "gen.pl": "sinuum",
+          "dat.sg": "sinui",
+          "dat.pl": "sinibus",
           "acc.sg": "sinum",
-          "acc.pl": "sinos",
-          "abl.sg": "sino",
-          "abl.pl": "sinis",
-          "voc.sg": "sine",
-          "voc.pl": "sini"
+          "acc.pl": "sinus",
+          "abl.sg": "sinu",
+          "abl.pl": "sinibus",
+          "voc.sg": "sinus",
+          "voc.pl": "sinus"
         }
       },
       "headword": "sīnus",
@@ -220618,7 +220654,7 @@
           "abl.pl.neut": "Romanis"
         }
       },
-      "headword": "Rōmānus",
+      "headword": "rōmānus",
       "freq": "A"
     },
     {
@@ -229532,7 +229568,8 @@
         "occidit"
       ],
       "headword": "occidō",
-      "freq": "A"
+      "freq": "A",
+      "homograph": 1
     },
     {
       "id": "ocior_adj",
@@ -234289,6 +234326,3492 @@
         }
       },
       "freq": "D"
+    },
+    {
+      "id": "edo2_v",
+      "lemma": "edo",
+      "pos": "verb",
+      "glosses": [
+        "to eat"
+      ],
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "pres.imp.act",
+          "pres.ind.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "perf.subj.act",
+          "plup.subj.act",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass",
+          "fut.imp.act",
+          "fut.imp.pass"
+        ],
+        "cells": {
+          "1sg.pres.ind.act": "edo",
+          "2sg.pres.ind.act": [
+            "edis",
+            "es"
+          ],
+          "3sg.pres.ind.act": [
+            "edit",
+            "est"
+          ],
+          "1pl.pres.ind.act": "edimus",
+          "2pl.pres.ind.act": [
+            "editis",
+            "estis"
+          ],
+          "3pl.pres.ind.act": "edunt",
+          "1sg.imperf.ind.act": "edebam",
+          "2sg.imperf.ind.act": "edebas",
+          "3sg.imperf.ind.act": "edebat",
+          "1pl.imperf.ind.act": "edebamus",
+          "2pl.imperf.ind.act": "edebatis",
+          "3pl.imperf.ind.act": "edebant",
+          "1sg.fut.ind.act": "edam",
+          "2sg.fut.ind.act": "edes",
+          "3sg.fut.ind.act": "edet",
+          "1pl.fut.ind.act": "edemus",
+          "2pl.fut.ind.act": "edetis",
+          "3pl.fut.ind.act": "edent",
+          "1sg.perf.ind.act": "edi",
+          "2sg.perf.ind.act": "edisti",
+          "3sg.perf.ind.act": "edit",
+          "1pl.perf.ind.act": "edimus",
+          "2pl.perf.ind.act": "edistis",
+          "3pl.perf.ind.act": [
+            "ederunt",
+            "edere"
+          ],
+          "1sg.plup.ind.act": "ederam",
+          "2sg.plup.ind.act": "ederas",
+          "3sg.plup.ind.act": "ederat",
+          "1pl.plup.ind.act": "ederamus",
+          "2pl.plup.ind.act": "ederatis",
+          "3pl.plup.ind.act": "ederant",
+          "1sg.futperf.ind.act": "edero",
+          "2sg.futperf.ind.act": "ederis",
+          "3sg.futperf.ind.act": "ederit",
+          "1pl.futperf.ind.act": "ederimus",
+          "2pl.futperf.ind.act": "ederitis",
+          "3pl.futperf.ind.act": "ederint",
+          "1sg.pres.ind.pass": "edor",
+          "2sg.pres.ind.pass": [
+            "ederis",
+            "edere",
+            "essis",
+            "esse"
+          ],
+          "3sg.pres.ind.pass": [
+            "editur",
+            "estur"
+          ],
+          "1pl.pres.ind.pass": "edimur",
+          "2pl.pres.ind.pass": "edimini",
+          "3pl.pres.ind.pass": "eduntur",
+          "1sg.imperf.ind.pass": "edebar",
+          "2sg.imperf.ind.pass": [
+            "edebaris",
+            "edebare"
+          ],
+          "3sg.imperf.ind.pass": "edebatur",
+          "1pl.imperf.ind.pass": "edebamur",
+          "2pl.imperf.ind.pass": "edebamini",
+          "3pl.imperf.ind.pass": "edebantur",
+          "1sg.fut.ind.pass": "edar",
+          "2sg.fut.ind.pass": [
+            "ederis",
+            "edere"
+          ],
+          "3sg.fut.ind.pass": "edetur",
+          "1pl.fut.ind.pass": "edemur",
+          "2pl.fut.ind.pass": "edemini",
+          "3pl.fut.ind.pass": "edentur",
+          "1sg.pres.subj.act": [
+            "edam",
+            "edim"
+          ],
+          "2sg.pres.subj.act": [
+            "edas",
+            "edis"
+          ],
+          "3sg.pres.subj.act": [
+            "edat",
+            "edit",
+            "est"
+          ],
+          "1pl.pres.subj.act": [
+            "edamus",
+            "edimus"
+          ],
+          "2pl.pres.subj.act": [
+            "edatis",
+            "editis"
+          ],
+          "3pl.pres.subj.act": [
+            "edant",
+            "edint"
+          ],
+          "1sg.imperf.subj.act": [
+            "ederem",
+            "essem"
+          ],
+          "2sg.imperf.subj.act": [
+            "ederes",
+            "esses"
+          ],
+          "3sg.imperf.subj.act": [
+            "ederet",
+            "esset"
+          ],
+          "1pl.imperf.subj.act": [
+            "ederemus",
+            "essemus"
+          ],
+          "2pl.imperf.subj.act": [
+            "ederetis",
+            "essetis"
+          ],
+          "3pl.imperf.subj.act": [
+            "ederent",
+            "essent"
+          ],
+          "1sg.perf.subj.act": "ederim",
+          "2sg.perf.subj.act": "ederis",
+          "3sg.perf.subj.act": "ederit",
+          "1pl.perf.subj.act": "ederimus",
+          "2pl.perf.subj.act": "ederitis",
+          "3pl.perf.subj.act": "ederint",
+          "1sg.plup.subj.act": "edissem",
+          "2sg.plup.subj.act": "edisses",
+          "3sg.plup.subj.act": "edisset",
+          "1pl.plup.subj.act": "edissemus",
+          "2pl.plup.subj.act": "edissetis",
+          "3pl.plup.subj.act": "edissent",
+          "1sg.pres.subj.pass": "edar",
+          "2sg.pres.subj.pass": [
+            "edaris",
+            "edare"
+          ],
+          "3sg.pres.subj.pass": "edatur",
+          "1pl.pres.subj.pass": "edamur",
+          "2pl.pres.subj.pass": "edamini",
+          "3pl.pres.subj.pass": "edantur",
+          "1sg.imperf.subj.pass": [
+            "ederer",
+            "esser"
+          ],
+          "2sg.imperf.subj.pass": [
+            "edereris",
+            "ederere",
+            "esseris",
+            "essere"
+          ],
+          "3sg.imperf.subj.pass": [
+            "ederetur",
+            "essetur"
+          ],
+          "1pl.imperf.subj.pass": [
+            "ederemur",
+            "essemur"
+          ],
+          "2pl.imperf.subj.pass": [
+            "ederemini",
+            "essemini"
+          ],
+          "3pl.imperf.subj.pass": [
+            "ederentur",
+            "essentur"
+          ],
+          "2sg.pres.imp.act": [
+            "ede",
+            "es"
+          ],
+          "2pl.pres.imp.act": [
+            "edite",
+            "este"
+          ],
+          "2sg.fut.imp.act": [
+            "edito",
+            "esto"
+          ],
+          "3sg.fut.imp.act": [
+            "edito",
+            "esto"
+          ],
+          "2pl.fut.imp.act": [
+            "editote",
+            "estote"
+          ],
+          "3pl.fut.imp.act": "edunto",
+          "2sg.pres.imp.pass": [
+            "edere",
+            "esse"
+          ],
+          "2pl.pres.imp.pass": "edimini",
+          "2sg.fut.imp.pass": [
+            "editor",
+            "estor"
+          ],
+          "3sg.fut.imp.pass": [
+            "editor",
+            "estor"
+          ],
+          "3pl.fut.imp.pass": "eduntor",
+          "inf.pres.act": [
+            "edere",
+            "esse"
+          ],
+          "inf.pres.pass": "edi",
+          "pap.nom.sg.masc": "edens",
+          "inf.fut.act": [
+            "esurum esse",
+            "essurum esse",
+            "esturum esse"
+          ],
+          "inf.fut.pass": [
+            "esum iri",
+            "essum iri",
+            "estum iri"
+          ],
+          "fap.nom.sg.masc": [
+            "esurus",
+            "essurus",
+            "esturus"
+          ],
+          "gerundive.nom.sg.masc": [
+            "edendus",
+            "edundus"
+          ],
+          "inf.perf.act": "edisse",
+          "inf.perf.pass": [
+            "esum esse",
+            "essum esse",
+            "estum esse"
+          ],
+          "ger.gen.sg": "edendi",
+          "ger.dat.sg": "edendo",
+          "ger.acc.sg": "edendum",
+          "ger.abl.sg": "edendo",
+          "pap.nom.sg.fem": "edens",
+          "pap.nom.sg.neut": "edens",
+          "pap.nom.pl.fem": "edentes",
+          "pap.nom.pl.masc": "edentes",
+          "pap.nom.pl.neut": "edentia",
+          "pap.gen.sg.fem": "edentis",
+          "pap.gen.sg.masc": "edentis",
+          "pap.gen.sg.neut": "edentis",
+          "pap.gen.pl.fem": "edentium",
+          "pap.gen.pl.masc": "edentium",
+          "pap.gen.pl.neut": "edentium",
+          "pap.dat.sg.fem": "edenti",
+          "pap.dat.sg.masc": "edenti",
+          "pap.dat.sg.neut": "edenti",
+          "pap.dat.pl.fem": "edentibus",
+          "pap.dat.pl.masc": "edentibus",
+          "pap.dat.pl.neut": "edentibus",
+          "pap.acc.sg.fem": "edentem",
+          "pap.acc.sg.masc": "edentem",
+          "pap.acc.sg.neut": "edens",
+          "pap.acc.pl.fem": [
+            "edentes",
+            "edentis"
+          ],
+          "pap.acc.pl.masc": [
+            "edentes",
+            "edentis"
+          ],
+          "pap.acc.pl.neut": "edentia",
+          "pap.abl.sg.fem": [
+            "edente",
+            "edenti"
+          ],
+          "pap.abl.sg.masc": [
+            "edente",
+            "edenti"
+          ],
+          "pap.abl.sg.neut": [
+            "edente",
+            "edenti"
+          ],
+          "pap.abl.pl.fem": "edentibus",
+          "pap.abl.pl.masc": "edentibus",
+          "pap.abl.pl.neut": "edentibus",
+          "pap.voc.sg.fem": "edens",
+          "pap.voc.sg.masc": "edens",
+          "pap.voc.sg.neut": "edens",
+          "pap.voc.pl.fem": "edentes",
+          "pap.voc.pl.masc": "edentes",
+          "pap.voc.pl.neut": "edentia",
+          "fap.nom.sg.fem": [
+            "esura",
+            "essura",
+            "estura"
+          ],
+          "fap.nom.sg.neut": [
+            "esurum",
+            "essurum",
+            "esturum"
+          ],
+          "fap.nom.pl.masc": [
+            "esuri",
+            "essuri",
+            "esturi"
+          ],
+          "fap.nom.pl.fem": [
+            "esurae",
+            "essurae",
+            "esturae"
+          ],
+          "fap.nom.pl.neut": [
+            "esura",
+            "essura",
+            "estura"
+          ],
+          "fap.gen.sg.masc": [
+            "esuri",
+            "essuri",
+            "esturi"
+          ],
+          "fap.gen.sg.fem": [
+            "esurae",
+            "essurae",
+            "esturae"
+          ],
+          "fap.gen.sg.neut": [
+            "esuri",
+            "essuri",
+            "esturi"
+          ],
+          "fap.gen.pl.masc": [
+            "esurorum",
+            "essurorum",
+            "esturorum"
+          ],
+          "fap.gen.pl.fem": [
+            "esurarum",
+            "essurarum",
+            "esturarum"
+          ],
+          "fap.gen.pl.neut": [
+            "esurorum",
+            "essurorum",
+            "esturorum"
+          ],
+          "fap.dat.sg.masc": [
+            "esuro",
+            "essuro",
+            "esturo"
+          ],
+          "fap.dat.sg.fem": [
+            "esurae",
+            "essurae",
+            "esturae"
+          ],
+          "fap.dat.sg.neut": [
+            "esuro",
+            "essuro",
+            "esturo"
+          ],
+          "fap.dat.pl.fem": [
+            "esuris",
+            "essuris",
+            "esturis"
+          ],
+          "fap.dat.pl.masc": [
+            "esuris",
+            "essuris",
+            "esturis"
+          ],
+          "fap.dat.pl.neut": [
+            "esuris",
+            "essuris",
+            "esturis"
+          ],
+          "fap.acc.sg.masc": [
+            "esurum",
+            "essurum",
+            "esturum"
+          ],
+          "fap.acc.sg.fem": [
+            "esuram",
+            "essuram",
+            "esturam"
+          ],
+          "fap.acc.sg.neut": [
+            "esurum",
+            "essurum",
+            "esturum"
+          ],
+          "fap.acc.pl.masc": [
+            "esuros",
+            "essuros",
+            "esturos"
+          ],
+          "fap.acc.pl.fem": [
+            "esuras",
+            "essuras",
+            "esturas"
+          ],
+          "fap.acc.pl.neut": [
+            "esura",
+            "essura",
+            "estura"
+          ],
+          "fap.abl.sg.masc": [
+            "esuro",
+            "essuro",
+            "esturo"
+          ],
+          "fap.abl.sg.fem": [
+            "esura",
+            "essura",
+            "estura"
+          ],
+          "fap.abl.sg.neut": [
+            "esuro",
+            "essuro",
+            "esturo"
+          ],
+          "fap.abl.pl.fem": [
+            "esuris",
+            "essuris",
+            "esturis"
+          ],
+          "fap.abl.pl.masc": [
+            "esuris",
+            "essuris",
+            "esturis"
+          ],
+          "fap.abl.pl.neut": [
+            "esuris",
+            "essuris",
+            "esturis"
+          ],
+          "fap.voc.sg.masc": [
+            "esure",
+            "essure",
+            "esture"
+          ],
+          "fap.voc.sg.fem": [
+            "esura",
+            "essura",
+            "estura"
+          ],
+          "fap.voc.sg.neut": [
+            "esurum",
+            "essurum",
+            "esturum"
+          ],
+          "fap.voc.pl.masc": [
+            "esuri",
+            "essuri",
+            "esturi"
+          ],
+          "fap.voc.pl.fem": [
+            "esurae",
+            "essurae",
+            "esturae"
+          ],
+          "fap.voc.pl.neut": [
+            "esura",
+            "essura",
+            "estura"
+          ],
+          "gerundive.nom.sg.fem": [
+            "edenda",
+            "edunda"
+          ],
+          "gerundive.nom.sg.neut": [
+            "edendum",
+            "edundum"
+          ],
+          "gerundive.nom.pl.masc": [
+            "edendi",
+            "edundi"
+          ],
+          "gerundive.nom.pl.fem": [
+            "edendae",
+            "edundae"
+          ],
+          "gerundive.nom.pl.neut": [
+            "edenda",
+            "edunda"
+          ],
+          "gerundive.gen.sg.masc": [
+            "edendi",
+            "edundi"
+          ],
+          "gerundive.gen.sg.fem": [
+            "edendae",
+            "edundae"
+          ],
+          "gerundive.gen.sg.neut": [
+            "edendi",
+            "edundi"
+          ],
+          "gerundive.gen.pl.masc": [
+            "edendorum",
+            "edundorum"
+          ],
+          "gerundive.gen.pl.fem": [
+            "edendarum",
+            "edundarum"
+          ],
+          "gerundive.gen.pl.neut": [
+            "edendorum",
+            "edundorum"
+          ],
+          "gerundive.dat.sg.masc": [
+            "edendo",
+            "edundo"
+          ],
+          "gerundive.dat.sg.fem": [
+            "edendae",
+            "edundae"
+          ],
+          "gerundive.dat.sg.neut": [
+            "edendo",
+            "edundo"
+          ],
+          "gerundive.dat.pl.fem": [
+            "edendis",
+            "edundis"
+          ],
+          "gerundive.dat.pl.masc": [
+            "edendis",
+            "edundis"
+          ],
+          "gerundive.dat.pl.neut": [
+            "edendis",
+            "edundis"
+          ],
+          "gerundive.acc.sg.masc": [
+            "edendum",
+            "edundum"
+          ],
+          "gerundive.acc.sg.fem": [
+            "edendam",
+            "edundam"
+          ],
+          "gerundive.acc.sg.neut": [
+            "edendum",
+            "edundum"
+          ],
+          "gerundive.acc.pl.masc": [
+            "edendos",
+            "edundos"
+          ],
+          "gerundive.acc.pl.fem": [
+            "edendas",
+            "edundas"
+          ],
+          "gerundive.acc.pl.neut": [
+            "edenda",
+            "edunda"
+          ],
+          "gerundive.abl.sg.masc": [
+            "edendo",
+            "edundo"
+          ],
+          "gerundive.abl.sg.fem": [
+            "edenda",
+            "edunda"
+          ],
+          "gerundive.abl.sg.neut": [
+            "edendo",
+            "edundo"
+          ],
+          "gerundive.abl.pl.fem": [
+            "edendis",
+            "edundis"
+          ],
+          "gerundive.abl.pl.masc": [
+            "edendis",
+            "edundis"
+          ],
+          "gerundive.abl.pl.neut": [
+            "edendis",
+            "edundis"
+          ],
+          "gerundive.voc.sg.masc": [
+            "edende",
+            "edunde"
+          ],
+          "gerundive.voc.sg.fem": [
+            "edenda",
+            "edunda"
+          ],
+          "gerundive.voc.sg.neut": [
+            "edendum",
+            "edundum"
+          ],
+          "gerundive.voc.pl.masc": [
+            "edendi",
+            "edundi"
+          ],
+          "gerundive.voc.pl.fem": [
+            "edendae",
+            "edundae"
+          ],
+          "gerundive.voc.pl.neut": [
+            "edenda",
+            "edunda"
+          ]
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": [
+            "esus",
+            "essus",
+            "estus"
+          ],
+          "ppp.nom.sg.fem": [
+            "esta",
+            "esa",
+            "essa"
+          ],
+          "ppp.nom.sg.neut": [
+            "estum",
+            "esum",
+            "essum"
+          ],
+          "ppp.nom.pl.masc": [
+            "esti",
+            "esi",
+            "essi"
+          ],
+          "ppp.nom.pl.fem": [
+            "estae",
+            "esae",
+            "essae"
+          ],
+          "ppp.nom.pl.neut": [
+            "esta",
+            "esa",
+            "essa"
+          ],
+          "ppp.gen.sg.masc": [
+            "esti",
+            "esi",
+            "essi"
+          ],
+          "ppp.gen.sg.fem": [
+            "estae",
+            "esae",
+            "essae"
+          ],
+          "ppp.gen.sg.neut": [
+            "esti",
+            "esi",
+            "essi"
+          ],
+          "ppp.gen.pl.masc": [
+            "estorum",
+            "esorum",
+            "essorum"
+          ],
+          "ppp.gen.pl.fem": [
+            "estarum",
+            "esarum",
+            "essarum"
+          ],
+          "ppp.gen.pl.neut": [
+            "estorum",
+            "esorum",
+            "essorum"
+          ],
+          "ppp.dat.sg.masc": [
+            "esto",
+            "eso",
+            "esso"
+          ],
+          "ppp.dat.sg.fem": [
+            "estae",
+            "esae",
+            "essae"
+          ],
+          "ppp.dat.sg.neut": [
+            "esto",
+            "eso",
+            "esso"
+          ],
+          "ppp.dat.pl.fem": [
+            "estis",
+            "esis",
+            "essis"
+          ],
+          "ppp.dat.pl.masc": [
+            "estis",
+            "esis",
+            "essis"
+          ],
+          "ppp.dat.pl.neut": [
+            "estis",
+            "esis",
+            "essis"
+          ],
+          "ppp.acc.sg.masc": [
+            "estum",
+            "esum",
+            "essum"
+          ],
+          "ppp.acc.sg.fem": [
+            "estam",
+            "esam",
+            "essam"
+          ],
+          "ppp.acc.sg.neut": [
+            "estum",
+            "esum",
+            "essum"
+          ],
+          "ppp.acc.pl.masc": [
+            "estos",
+            "esos",
+            "essos"
+          ],
+          "ppp.acc.pl.fem": [
+            "estas",
+            "esas",
+            "essas"
+          ],
+          "ppp.acc.pl.neut": [
+            "esta",
+            "esa",
+            "essa"
+          ],
+          "ppp.abl.sg.masc": [
+            "esto",
+            "eso",
+            "esso"
+          ],
+          "ppp.abl.sg.fem": [
+            "esta",
+            "esa",
+            "essa"
+          ],
+          "ppp.abl.sg.neut": [
+            "esto",
+            "eso",
+            "esso"
+          ],
+          "ppp.abl.pl.fem": [
+            "estis",
+            "esis",
+            "essis"
+          ],
+          "ppp.abl.pl.masc": [
+            "estis",
+            "esis",
+            "essis"
+          ],
+          "ppp.abl.pl.neut": [
+            "estis",
+            "esis",
+            "essis"
+          ],
+          "ppp.voc.sg.masc": [
+            "este",
+            "ese",
+            "esse"
+          ],
+          "ppp.voc.sg.fem": [
+            "esta",
+            "esa",
+            "essa"
+          ],
+          "ppp.voc.sg.neut": [
+            "estum",
+            "esum",
+            "essum"
+          ],
+          "ppp.voc.pl.masc": [
+            "esti",
+            "esi",
+            "essi"
+          ],
+          "ppp.voc.pl.fem": [
+            "estae",
+            "esae",
+            "essae"
+          ],
+          "ppp.voc.pl.neut": [
+            "esta",
+            "esa",
+            "essa"
+          ]
+        }
+      },
+      "principal_parts": [
+        "edo",
+        "edere",
+        "edi",
+        "esum"
+      ],
+      "head": "edo, edere, edi, esum",
+      "headword": "edō",
+      "homograph": 2,
+      "freq": "A"
+    },
+    {
+      "id": "levis2_adj",
+      "lemma": "levis",
+      "pos": "adj",
+      "glosses": [
+        "slippery",
+        "without hair, beardless",
+        "youthful, delicate, beautiful; finely dressed, spruce, effeminate",
+        "rubbed smooth, ground down, softened, soft",
+        "(of speech) smooth, flowing"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.fem": "levis",
+          "nom.sg.masc": "levis",
+          "nom.sg.neut": "leve",
+          "nom.pl.fem": "leves",
+          "nom.pl.masc": "leves",
+          "nom.pl.neut": "levia",
+          "gen.sg.fem": "levis",
+          "gen.sg.masc": "levis",
+          "gen.sg.neut": "levis",
+          "gen.pl.fem": "levium",
+          "gen.pl.masc": "levium",
+          "gen.pl.neut": "levium",
+          "dat.sg.fem": "levi",
+          "dat.sg.masc": "levi",
+          "dat.sg.neut": "levi",
+          "dat.pl.fem": "levibus",
+          "dat.pl.masc": "levibus",
+          "dat.pl.neut": "levibus",
+          "acc.sg.fem": "levem",
+          "acc.sg.masc": "levem",
+          "acc.sg.neut": "leve",
+          "acc.pl.fem": [
+            "levis",
+            "leves"
+          ],
+          "acc.pl.masc": [
+            "levis",
+            "leves"
+          ],
+          "acc.pl.neut": "levia",
+          "abl.sg.fem": "levi",
+          "abl.sg.masc": "levi",
+          "abl.sg.neut": "levi",
+          "abl.pl.fem": "levibus",
+          "abl.pl.masc": "levibus",
+          "abl.pl.neut": "levibus",
+          "voc.sg.fem": "levis",
+          "voc.sg.masc": "levis",
+          "voc.sg.neut": "leve",
+          "voc.pl.fem": "leves",
+          "voc.pl.masc": "leves",
+          "voc.pl.neut": "levia"
+        }
+      },
+      "head": "levis, leve",
+      "homograph": 2,
+      "freq": "B"
+    },
+    {
+      "id": "malum2_n",
+      "lemma": "malum",
+      "pos": "noun",
+      "glosses": [
+        "apple (fruit)",
+        "any tree fruit with a fleshy exterior, e.g. quinces, pears, peaches, etc.",
+        "the plant Aristolochia"
+      ],
+      "gender": "neut",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "malum",
+          "nom.pl": "mala",
+          "gen.sg": "mali",
+          "gen.pl": "malorum",
+          "dat.sg": "malo",
+          "dat.pl": "malis",
+          "acc.sg": "malum",
+          "acc.pl": "mala",
+          "abl.sg": "malo",
+          "abl.pl": "malis",
+          "voc.sg": "malum",
+          "voc.pl": "mala"
+        }
+      },
+      "head": "malum, mali, n.",
+      "homograph": 2,
+      "freq": "D"
+    },
+    {
+      "id": "plaga2_n",
+      "lemma": "plaga",
+      "pos": "noun",
+      "glosses": [
+        "tract, region, quarter, zone"
+      ],
+      "gender": "fem",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "plaga",
+          "nom.pl": "plagae",
+          "gen.sg": "plagae",
+          "gen.pl": "plagarum",
+          "dat.sg": "plagae",
+          "dat.pl": "plagis",
+          "acc.sg": "plagam",
+          "acc.pl": "plagas",
+          "abl.sg": "plaga",
+          "abl.pl": "plagis",
+          "voc.sg": "plaga",
+          "voc.pl": "plagae"
+        }
+      },
+      "head": "plaga, plagae, f.",
+      "headword": "plāga",
+      "homograph": 2,
+      "freq": "C"
+    },
+    {
+      "id": "plaga3_n",
+      "lemma": "plaga",
+      "pos": "noun",
+      "glosses": [
+        "a hunting net, web, used to set traps, snares",
+        "bedcurtain, curtain"
+      ],
+      "gender": "fem",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "plaga",
+          "nom.pl": "plagae",
+          "gen.sg": "plagae",
+          "gen.pl": "plagarum",
+          "dat.sg": "plagae",
+          "dat.pl": "plagis",
+          "acc.sg": "plagam",
+          "acc.pl": "plagas",
+          "abl.sg": "plaga",
+          "abl.pl": "plagis",
+          "voc.sg": "plaga",
+          "voc.pl": "plagae"
+        }
+      },
+      "head": "plaga, plagae, f.",
+      "headword": "plāga",
+      "homograph": 3,
+      "freq": "C"
+    },
+    {
+      "id": "dico2_v",
+      "lemma": "dico",
+      "pos": "verb",
+      "glosses": [
+        "to dedicate, devote",
+        "to consecrate, deify",
+        "to appropriate to, devote to, assign to, set apart for"
+      ],
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "pres.imp.act",
+          "pres.ind.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "perf.subj.act",
+          "plup.subj.act",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass",
+          "fut.imp.act",
+          "fut.imp.pass"
+        ],
+        "cells": {
+          "1sg.pres.ind.act": "dico",
+          "2sg.pres.ind.act": "dicas",
+          "3sg.pres.ind.act": "dicat",
+          "1pl.pres.ind.act": "dicamus",
+          "2pl.pres.ind.act": "dicatis",
+          "3pl.pres.ind.act": "dicant",
+          "1sg.imperf.ind.act": "dicabam",
+          "2sg.imperf.ind.act": "dicabas",
+          "3sg.imperf.ind.act": "dicabat",
+          "1pl.imperf.ind.act": "dicabamus",
+          "2pl.imperf.ind.act": "dicabatis",
+          "3pl.imperf.ind.act": "dicabant",
+          "1sg.fut.ind.act": "dicabo",
+          "2sg.fut.ind.act": "dicabis",
+          "3sg.fut.ind.act": "dicabit",
+          "1pl.fut.ind.act": "dicabimus",
+          "2pl.fut.ind.act": "dicabitis",
+          "3pl.fut.ind.act": "dicabunt",
+          "1sg.perf.ind.act": "dicavi",
+          "2sg.perf.ind.act": "dicavisti",
+          "3sg.perf.ind.act": "dicavit",
+          "1pl.perf.ind.act": "dicavimus",
+          "2pl.perf.ind.act": "dicavistis",
+          "3pl.perf.ind.act": [
+            "dicaverunt",
+            "dicavere"
+          ],
+          "1sg.plup.ind.act": "dicaveram",
+          "2sg.plup.ind.act": "dicaveras",
+          "3sg.plup.ind.act": "dicaverat",
+          "1pl.plup.ind.act": "dicaveramus",
+          "2pl.plup.ind.act": "dicaveratis",
+          "3pl.plup.ind.act": "dicaverant",
+          "1sg.futperf.ind.act": "dicavero",
+          "2sg.futperf.ind.act": "dicaveris",
+          "3sg.futperf.ind.act": "dicaverit",
+          "1pl.futperf.ind.act": "dicaverimus",
+          "2pl.futperf.ind.act": "dicaveritis",
+          "3pl.futperf.ind.act": "dicaverint",
+          "1sg.pres.ind.pass": "dicor",
+          "2sg.pres.ind.pass": [
+            "dicaris",
+            "dicare"
+          ],
+          "3sg.pres.ind.pass": "dicatur",
+          "1pl.pres.ind.pass": "dicamur",
+          "2pl.pres.ind.pass": "dicamini",
+          "3pl.pres.ind.pass": "dicantur",
+          "1sg.imperf.ind.pass": "dicabar",
+          "2sg.imperf.ind.pass": [
+            "dicabaris",
+            "dicabare"
+          ],
+          "3sg.imperf.ind.pass": "dicabatur",
+          "1pl.imperf.ind.pass": "dicabamur",
+          "2pl.imperf.ind.pass": "dicabamini",
+          "3pl.imperf.ind.pass": "dicabantur",
+          "1sg.fut.ind.pass": "dicabor",
+          "2sg.fut.ind.pass": [
+            "dicaberis",
+            "dicabere"
+          ],
+          "3sg.fut.ind.pass": "dicabitur",
+          "1pl.fut.ind.pass": "dicabimur",
+          "2pl.fut.ind.pass": "dicabimini",
+          "3pl.fut.ind.pass": "dicabuntur",
+          "1sg.pres.subj.act": "dicem",
+          "2sg.pres.subj.act": "dices",
+          "3sg.pres.subj.act": "dicet",
+          "1pl.pres.subj.act": "dicemus",
+          "2pl.pres.subj.act": "dicetis",
+          "3pl.pres.subj.act": "dicent",
+          "1sg.imperf.subj.act": "dicarem",
+          "2sg.imperf.subj.act": "dicares",
+          "3sg.imperf.subj.act": "dicaret",
+          "1pl.imperf.subj.act": "dicaremus",
+          "2pl.imperf.subj.act": "dicaretis",
+          "3pl.imperf.subj.act": "dicarent",
+          "1sg.perf.subj.act": "dicaverim",
+          "2sg.perf.subj.act": "dicaveris",
+          "3sg.perf.subj.act": "dicaverit",
+          "1pl.perf.subj.act": "dicaverimus",
+          "2pl.perf.subj.act": "dicaveritis",
+          "3pl.perf.subj.act": "dicaverint",
+          "1sg.plup.subj.act": "dicavissem",
+          "2sg.plup.subj.act": "dicavisses",
+          "3sg.plup.subj.act": "dicavisset",
+          "1pl.plup.subj.act": "dicavissemus",
+          "2pl.plup.subj.act": "dicavissetis",
+          "3pl.plup.subj.act": "dicavissent",
+          "1sg.pres.subj.pass": "dicer",
+          "2sg.pres.subj.pass": [
+            "diceris",
+            "dicere"
+          ],
+          "3sg.pres.subj.pass": "dicetur",
+          "1pl.pres.subj.pass": "dicemur",
+          "2pl.pres.subj.pass": "dicemini",
+          "3pl.pres.subj.pass": "dicentur",
+          "1sg.imperf.subj.pass": "dicarer",
+          "2sg.imperf.subj.pass": [
+            "dicareris",
+            "dicarere"
+          ],
+          "3sg.imperf.subj.pass": "dicaretur",
+          "1pl.imperf.subj.pass": "dicaremur",
+          "2pl.imperf.subj.pass": "dicaremini",
+          "3pl.imperf.subj.pass": "dicarentur",
+          "2sg.pres.imp.act": "dica",
+          "2pl.pres.imp.act": "dicate",
+          "2sg.fut.imp.act": "dicato",
+          "3sg.fut.imp.act": "dicato",
+          "2pl.fut.imp.act": "dicatote",
+          "3pl.fut.imp.act": "dicanto",
+          "2sg.pres.imp.pass": "dicare",
+          "2pl.pres.imp.pass": "dicamini",
+          "2sg.fut.imp.pass": "dicator",
+          "3sg.fut.imp.pass": "dicator",
+          "3pl.fut.imp.pass": "dicantor",
+          "inf.pres.act": "dicare",
+          "inf.pres.pass": "dicari",
+          "pap.nom.sg.masc": "dicans",
+          "inf.fut.act": "dicaturum esse",
+          "inf.fut.pass": "dicatum iri",
+          "fap.nom.sg.masc": "dicaturus",
+          "gerundive.nom.sg.masc": "dicandus",
+          "inf.perf.act": "dicavisse",
+          "inf.perf.pass": "dicatum esse",
+          "ger.gen.sg": "dicandi",
+          "ger.dat.sg": "dicando",
+          "ger.acc.sg": "dicandum",
+          "ger.abl.sg": "dicando",
+          "pap.nom.sg.fem": "dicans",
+          "pap.nom.sg.neut": "dicans",
+          "pap.nom.pl.fem": "dicantes",
+          "pap.nom.pl.masc": "dicantes",
+          "pap.nom.pl.neut": "dicantia",
+          "pap.gen.sg.fem": "dicantis",
+          "pap.gen.sg.masc": "dicantis",
+          "pap.gen.sg.neut": "dicantis",
+          "pap.gen.pl.fem": "dicantium",
+          "pap.gen.pl.masc": "dicantium",
+          "pap.gen.pl.neut": "dicantium",
+          "pap.dat.sg.fem": "dicanti",
+          "pap.dat.sg.masc": "dicanti",
+          "pap.dat.sg.neut": "dicanti",
+          "pap.dat.pl.fem": "dicantibus",
+          "pap.dat.pl.masc": "dicantibus",
+          "pap.dat.pl.neut": "dicantibus",
+          "pap.acc.sg.fem": "dicantem",
+          "pap.acc.sg.masc": "dicantem",
+          "pap.acc.sg.neut": "dicans",
+          "pap.acc.pl.fem": [
+            "dicantes",
+            "dicantis"
+          ],
+          "pap.acc.pl.masc": [
+            "dicantes",
+            "dicantis"
+          ],
+          "pap.acc.pl.neut": "dicantia",
+          "pap.abl.sg.fem": [
+            "dicante",
+            "dicanti"
+          ],
+          "pap.abl.sg.masc": [
+            "dicante",
+            "dicanti"
+          ],
+          "pap.abl.sg.neut": [
+            "dicante",
+            "dicanti"
+          ],
+          "pap.abl.pl.fem": "dicantibus",
+          "pap.abl.pl.masc": "dicantibus",
+          "pap.abl.pl.neut": "dicantibus",
+          "pap.voc.sg.fem": "dicans",
+          "pap.voc.sg.masc": "dicans",
+          "pap.voc.sg.neut": "dicans",
+          "pap.voc.pl.fem": "dicantes",
+          "pap.voc.pl.masc": "dicantes",
+          "pap.voc.pl.neut": "dicantia",
+          "fap.nom.sg.fem": "dicatura",
+          "fap.nom.sg.neut": "dicaturum",
+          "fap.nom.pl.masc": "dicaturi",
+          "fap.nom.pl.fem": "dicaturae",
+          "fap.nom.pl.neut": "dicatura",
+          "fap.gen.sg.masc": "dicaturi",
+          "fap.gen.sg.fem": "dicaturae",
+          "fap.gen.sg.neut": "dicaturi",
+          "fap.gen.pl.masc": "dicaturorum",
+          "fap.gen.pl.fem": "dicaturarum",
+          "fap.gen.pl.neut": "dicaturorum",
+          "fap.dat.sg.masc": "dicaturo",
+          "fap.dat.sg.fem": "dicaturae",
+          "fap.dat.sg.neut": "dicaturo",
+          "fap.dat.pl.fem": "dicaturis",
+          "fap.dat.pl.masc": "dicaturis",
+          "fap.dat.pl.neut": "dicaturis",
+          "fap.acc.sg.masc": "dicaturum",
+          "fap.acc.sg.fem": "dicaturam",
+          "fap.acc.sg.neut": "dicaturum",
+          "fap.acc.pl.masc": "dicaturos",
+          "fap.acc.pl.fem": "dicaturas",
+          "fap.acc.pl.neut": "dicatura",
+          "fap.abl.sg.masc": "dicaturo",
+          "fap.abl.sg.fem": "dicatura",
+          "fap.abl.sg.neut": "dicaturo",
+          "fap.abl.pl.fem": "dicaturis",
+          "fap.abl.pl.masc": "dicaturis",
+          "fap.abl.pl.neut": "dicaturis",
+          "fap.voc.sg.masc": "dicature",
+          "fap.voc.sg.fem": "dicatura",
+          "fap.voc.sg.neut": "dicaturum",
+          "fap.voc.pl.masc": "dicaturi",
+          "fap.voc.pl.fem": "dicaturae",
+          "fap.voc.pl.neut": "dicatura",
+          "gerundive.nom.sg.fem": "dicanda",
+          "gerundive.nom.sg.neut": "dicandum",
+          "gerundive.nom.pl.masc": "dicandi",
+          "gerundive.nom.pl.fem": "dicandae",
+          "gerundive.nom.pl.neut": "dicanda",
+          "gerundive.gen.sg.masc": "dicandi",
+          "gerundive.gen.sg.fem": "dicandae",
+          "gerundive.gen.sg.neut": "dicandi",
+          "gerundive.gen.pl.masc": "dicandorum",
+          "gerundive.gen.pl.fem": "dicandarum",
+          "gerundive.gen.pl.neut": "dicandorum",
+          "gerundive.dat.sg.masc": "dicando",
+          "gerundive.dat.sg.fem": "dicandae",
+          "gerundive.dat.sg.neut": "dicando",
+          "gerundive.dat.pl.fem": "dicandis",
+          "gerundive.dat.pl.masc": "dicandis",
+          "gerundive.dat.pl.neut": "dicandis",
+          "gerundive.acc.sg.masc": "dicandum",
+          "gerundive.acc.sg.fem": "dicandam",
+          "gerundive.acc.sg.neut": "dicandum",
+          "gerundive.acc.pl.masc": "dicandos",
+          "gerundive.acc.pl.fem": "dicandas",
+          "gerundive.acc.pl.neut": "dicanda",
+          "gerundive.abl.sg.masc": "dicando",
+          "gerundive.abl.sg.fem": "dicanda",
+          "gerundive.abl.sg.neut": "dicando",
+          "gerundive.abl.pl.fem": "dicandis",
+          "gerundive.abl.pl.masc": "dicandis",
+          "gerundive.abl.pl.neut": "dicandis",
+          "gerundive.voc.sg.masc": "dicande",
+          "gerundive.voc.sg.fem": "dicanda",
+          "gerundive.voc.sg.neut": "dicandum",
+          "gerundive.voc.pl.masc": "dicandi",
+          "gerundive.voc.pl.fem": "dicandae",
+          "gerundive.voc.pl.neut": "dicanda"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "dicatus",
+          "ppp.nom.sg.fem": "dicata",
+          "ppp.nom.sg.neut": "dicatum",
+          "ppp.nom.pl.masc": "dicati",
+          "ppp.nom.pl.fem": "dicatae",
+          "ppp.nom.pl.neut": "dicata",
+          "ppp.gen.sg.masc": "dicati",
+          "ppp.gen.sg.fem": "dicatae",
+          "ppp.gen.sg.neut": "dicati",
+          "ppp.gen.pl.masc": "dicatorum",
+          "ppp.gen.pl.fem": "dicatarum",
+          "ppp.gen.pl.neut": "dicatorum",
+          "ppp.dat.sg.masc": "dicato",
+          "ppp.dat.sg.fem": "dicatae",
+          "ppp.dat.sg.neut": "dicato",
+          "ppp.dat.pl.fem": "dicatis",
+          "ppp.dat.pl.masc": "dicatis",
+          "ppp.dat.pl.neut": "dicatis",
+          "ppp.acc.sg.masc": "dicatum",
+          "ppp.acc.sg.fem": "dicatam",
+          "ppp.acc.sg.neut": "dicatum",
+          "ppp.acc.pl.masc": "dicatos",
+          "ppp.acc.pl.fem": "dicatas",
+          "ppp.acc.pl.neut": "dicata",
+          "ppp.abl.sg.masc": "dicato",
+          "ppp.abl.sg.fem": "dicata",
+          "ppp.abl.sg.neut": "dicato",
+          "ppp.abl.pl.fem": "dicatis",
+          "ppp.abl.pl.masc": "dicatis",
+          "ppp.abl.pl.neut": "dicatis",
+          "ppp.voc.sg.masc": "dicate",
+          "ppp.voc.sg.fem": "dicata",
+          "ppp.voc.sg.neut": "dicatum",
+          "ppp.voc.pl.masc": "dicati",
+          "ppp.voc.pl.fem": "dicatae",
+          "ppp.voc.pl.neut": "dicata"
+        }
+      },
+      "principal_parts": [
+        "dico",
+        "dicare",
+        "dicavi",
+        "dicatum"
+      ],
+      "head": "dico, dicare, dicavi, dicatum",
+      "headword": "dicō",
+      "homograph": 2,
+      "freq": "A"
+    },
+    {
+      "id": "decido2_v",
+      "lemma": "decido",
+      "pos": "verb",
+      "glosses": [
+        "to cut off or away; clip; reduce, diminish",
+        "to beat severely, cudgel soundly, thrash",
+        "to decide, determine, settle, terminate, put an end to; agree"
+      ],
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "pres.imp.act",
+          "pres.ind.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "perf.subj.act",
+          "plup.subj.act",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass",
+          "fut.imp.act",
+          "fut.imp.pass"
+        ],
+        "cells": {
+          "1sg.pres.ind.act": "decido",
+          "2sg.pres.ind.act": "decidis",
+          "3sg.pres.ind.act": "decidit",
+          "1pl.pres.ind.act": "decidimus",
+          "2pl.pres.ind.act": "deciditis",
+          "3pl.pres.ind.act": "decidunt",
+          "1sg.imperf.ind.act": "decidebam",
+          "2sg.imperf.ind.act": "decidebas",
+          "3sg.imperf.ind.act": "decidebat",
+          "1pl.imperf.ind.act": "decidebamus",
+          "2pl.imperf.ind.act": "decidebatis",
+          "3pl.imperf.ind.act": "decidebant",
+          "1sg.fut.ind.act": "decidam",
+          "2sg.fut.ind.act": "decides",
+          "3sg.fut.ind.act": "decidet",
+          "1pl.fut.ind.act": "decidemus",
+          "2pl.fut.ind.act": "decidetis",
+          "3pl.fut.ind.act": "decident",
+          "1sg.perf.ind.act": "decidi",
+          "2sg.perf.ind.act": "decidisti",
+          "3sg.perf.ind.act": "decidit",
+          "1pl.perf.ind.act": "decidimus",
+          "2pl.perf.ind.act": "decidistis",
+          "3pl.perf.ind.act": [
+            "deciderunt",
+            "decidere"
+          ],
+          "1sg.plup.ind.act": "decideram",
+          "2sg.plup.ind.act": "decideras",
+          "3sg.plup.ind.act": "deciderat",
+          "1pl.plup.ind.act": "decideramus",
+          "2pl.plup.ind.act": "decideratis",
+          "3pl.plup.ind.act": "deciderant",
+          "1sg.futperf.ind.act": "decidero",
+          "2sg.futperf.ind.act": "decideris",
+          "3sg.futperf.ind.act": "deciderit",
+          "1pl.futperf.ind.act": "deciderimus",
+          "2pl.futperf.ind.act": "decideritis",
+          "3pl.futperf.ind.act": "deciderint",
+          "1sg.pres.ind.pass": "decidor",
+          "2sg.pres.ind.pass": [
+            "decideris",
+            "decidere"
+          ],
+          "3sg.pres.ind.pass": "deciditur",
+          "1pl.pres.ind.pass": "decidimur",
+          "2pl.pres.ind.pass": "decidimini",
+          "3pl.pres.ind.pass": "deciduntur",
+          "1sg.imperf.ind.pass": "decidebar",
+          "2sg.imperf.ind.pass": [
+            "decidebaris",
+            "decidebare"
+          ],
+          "3sg.imperf.ind.pass": "decidebatur",
+          "1pl.imperf.ind.pass": "decidebamur",
+          "2pl.imperf.ind.pass": "decidebamini",
+          "3pl.imperf.ind.pass": "decidebantur",
+          "1sg.fut.ind.pass": "decidar",
+          "2sg.fut.ind.pass": [
+            "decideris",
+            "decidere"
+          ],
+          "3sg.fut.ind.pass": "decidetur",
+          "1pl.fut.ind.pass": "decidemur",
+          "2pl.fut.ind.pass": "decidemini",
+          "3pl.fut.ind.pass": "decidentur",
+          "1sg.pres.subj.act": "decidam",
+          "2sg.pres.subj.act": "decidas",
+          "3sg.pres.subj.act": "decidat",
+          "1pl.pres.subj.act": "decidamus",
+          "2pl.pres.subj.act": "decidatis",
+          "3pl.pres.subj.act": "decidant",
+          "1sg.imperf.subj.act": "deciderem",
+          "2sg.imperf.subj.act": "decideres",
+          "3sg.imperf.subj.act": "decideret",
+          "1pl.imperf.subj.act": "decideremus",
+          "2pl.imperf.subj.act": "decideretis",
+          "3pl.imperf.subj.act": "deciderent",
+          "1sg.perf.subj.act": "deciderim",
+          "2sg.perf.subj.act": "decideris",
+          "3sg.perf.subj.act": "deciderit",
+          "1pl.perf.subj.act": "deciderimus",
+          "2pl.perf.subj.act": "decideritis",
+          "3pl.perf.subj.act": "deciderint",
+          "1sg.plup.subj.act": "decidissem",
+          "2sg.plup.subj.act": "decidisses",
+          "3sg.plup.subj.act": "decidisset",
+          "1pl.plup.subj.act": "decidissemus",
+          "2pl.plup.subj.act": "decidissetis",
+          "3pl.plup.subj.act": "decidissent",
+          "1sg.pres.subj.pass": "decidar",
+          "2sg.pres.subj.pass": [
+            "decidaris",
+            "decidare"
+          ],
+          "3sg.pres.subj.pass": "decidatur",
+          "1pl.pres.subj.pass": "decidamur",
+          "2pl.pres.subj.pass": "decidamini",
+          "3pl.pres.subj.pass": "decidantur",
+          "1sg.imperf.subj.pass": "deciderer",
+          "2sg.imperf.subj.pass": [
+            "decidereris",
+            "deciderere"
+          ],
+          "3sg.imperf.subj.pass": "decideretur",
+          "1pl.imperf.subj.pass": "decideremur",
+          "2pl.imperf.subj.pass": "decideremini",
+          "3pl.imperf.subj.pass": "deciderentur",
+          "2sg.pres.imp.act": "decide",
+          "2pl.pres.imp.act": "decidite",
+          "2sg.fut.imp.act": "decidito",
+          "3sg.fut.imp.act": "decidito",
+          "2pl.fut.imp.act": "deciditote",
+          "3pl.fut.imp.act": "decidunto",
+          "2sg.pres.imp.pass": "decidere",
+          "2pl.pres.imp.pass": "decidimini",
+          "2sg.fut.imp.pass": "deciditor",
+          "3sg.fut.imp.pass": "deciditor",
+          "3pl.fut.imp.pass": "deciduntor",
+          "inf.pres.act": "decidere",
+          "inf.pres.pass": "decidi",
+          "pap.nom.sg.masc": "decidens",
+          "inf.fut.act": "decisurum esse",
+          "inf.fut.pass": "decisum iri",
+          "fap.nom.sg.masc": "decisurus",
+          "gerundive.nom.sg.masc": [
+            "decidendus",
+            "decidundus"
+          ],
+          "inf.perf.act": "decidisse",
+          "inf.perf.pass": "decisum esse",
+          "ger.gen.sg": "decidendi",
+          "ger.dat.sg": "decidendo",
+          "ger.acc.sg": "decidendum",
+          "ger.abl.sg": "decidendo",
+          "pap.nom.sg.fem": "decidens",
+          "pap.nom.sg.neut": "decidens",
+          "pap.nom.pl.fem": "decidentes",
+          "pap.nom.pl.masc": "decidentes",
+          "pap.nom.pl.neut": "decidentia",
+          "pap.gen.sg.fem": "decidentis",
+          "pap.gen.sg.masc": "decidentis",
+          "pap.gen.sg.neut": "decidentis",
+          "pap.gen.pl.fem": "decidentium",
+          "pap.gen.pl.masc": "decidentium",
+          "pap.gen.pl.neut": "decidentium",
+          "pap.dat.sg.fem": "decidenti",
+          "pap.dat.sg.masc": "decidenti",
+          "pap.dat.sg.neut": "decidenti",
+          "pap.dat.pl.fem": "decidentibus",
+          "pap.dat.pl.masc": "decidentibus",
+          "pap.dat.pl.neut": "decidentibus",
+          "pap.acc.sg.fem": "decidentem",
+          "pap.acc.sg.masc": "decidentem",
+          "pap.acc.sg.neut": "decidens",
+          "pap.acc.pl.fem": [
+            "decidentes",
+            "decidentis"
+          ],
+          "pap.acc.pl.masc": [
+            "decidentes",
+            "decidentis"
+          ],
+          "pap.acc.pl.neut": "decidentia",
+          "pap.abl.sg.fem": [
+            "decidente",
+            "decidenti"
+          ],
+          "pap.abl.sg.masc": [
+            "decidente",
+            "decidenti"
+          ],
+          "pap.abl.sg.neut": [
+            "decidente",
+            "decidenti"
+          ],
+          "pap.abl.pl.fem": "decidentibus",
+          "pap.abl.pl.masc": "decidentibus",
+          "pap.abl.pl.neut": "decidentibus",
+          "pap.voc.sg.fem": "decidens",
+          "pap.voc.sg.masc": "decidens",
+          "pap.voc.sg.neut": "decidens",
+          "pap.voc.pl.fem": "decidentes",
+          "pap.voc.pl.masc": "decidentes",
+          "pap.voc.pl.neut": "decidentia",
+          "gerundive.nom.sg.fem": "decidenda",
+          "gerundive.nom.sg.neut": "decidendum",
+          "gerundive.nom.pl.masc": "decidendi",
+          "gerundive.nom.pl.fem": "decidendae",
+          "gerundive.nom.pl.neut": "decidenda",
+          "gerundive.gen.sg.masc": "decidendi",
+          "gerundive.gen.sg.fem": "decidendae",
+          "gerundive.gen.sg.neut": "decidendi",
+          "gerundive.gen.pl.masc": "decidendorum",
+          "gerundive.gen.pl.fem": "decidendarum",
+          "gerundive.gen.pl.neut": "decidendorum",
+          "gerundive.dat.sg.masc": "decidendo",
+          "gerundive.dat.sg.fem": "decidendae",
+          "gerundive.dat.sg.neut": "decidendo",
+          "gerundive.dat.pl.fem": "decidendis",
+          "gerundive.dat.pl.masc": "decidendis",
+          "gerundive.dat.pl.neut": "decidendis",
+          "gerundive.acc.sg.masc": "decidendum",
+          "gerundive.acc.sg.fem": "decidendam",
+          "gerundive.acc.sg.neut": "decidendum",
+          "gerundive.acc.pl.masc": "decidendos",
+          "gerundive.acc.pl.fem": "decidendas",
+          "gerundive.acc.pl.neut": "decidenda",
+          "gerundive.abl.sg.masc": "decidendo",
+          "gerundive.abl.sg.fem": "decidenda",
+          "gerundive.abl.sg.neut": "decidendo",
+          "gerundive.abl.pl.fem": "decidendis",
+          "gerundive.abl.pl.masc": "decidendis",
+          "gerundive.abl.pl.neut": "decidendis",
+          "gerundive.voc.sg.masc": "decidende",
+          "gerundive.voc.sg.fem": "decidenda",
+          "gerundive.voc.sg.neut": "decidendum",
+          "gerundive.voc.pl.masc": "decidendi",
+          "gerundive.voc.pl.fem": "decidendae",
+          "gerundive.voc.pl.neut": "decidenda"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "decisus",
+          "ppp.nom.sg.fem": "decisa",
+          "ppp.nom.sg.neut": "decisum",
+          "ppp.nom.pl.masc": "decisi",
+          "ppp.nom.pl.fem": "decisae",
+          "ppp.nom.pl.neut": "decisa",
+          "ppp.gen.sg.masc": "decisi",
+          "ppp.gen.sg.fem": "decisae",
+          "ppp.gen.sg.neut": "decisi",
+          "ppp.gen.pl.masc": "decisorum",
+          "ppp.gen.pl.fem": "decisarum",
+          "ppp.gen.pl.neut": "decisorum",
+          "ppp.dat.sg.masc": "deciso",
+          "ppp.dat.sg.fem": "decisae",
+          "ppp.dat.sg.neut": "deciso",
+          "ppp.dat.pl.fem": "decisis",
+          "ppp.dat.pl.masc": "decisis",
+          "ppp.dat.pl.neut": "decisis",
+          "ppp.acc.sg.masc": "decisum",
+          "ppp.acc.sg.fem": "decisam",
+          "ppp.acc.sg.neut": "decisum",
+          "ppp.acc.pl.masc": "decisos",
+          "ppp.acc.pl.fem": "decisas",
+          "ppp.acc.pl.neut": "decisa",
+          "ppp.abl.sg.masc": "deciso",
+          "ppp.abl.sg.fem": "decisa",
+          "ppp.abl.sg.neut": "deciso",
+          "ppp.abl.pl.fem": "decisis",
+          "ppp.abl.pl.masc": "decisis",
+          "ppp.abl.pl.neut": "decisis",
+          "ppp.voc.sg.masc": "decise",
+          "ppp.voc.sg.fem": "decisa",
+          "ppp.voc.sg.neut": "decisum",
+          "ppp.voc.pl.masc": "decisi",
+          "ppp.voc.pl.fem": "decisae",
+          "ppp.voc.pl.neut": "decisa"
+        }
+      },
+      "principal_parts": [
+        "decido",
+        "decidere",
+        "decidi",
+        "decisum"
+      ],
+      "head": "decido, decidere, decidi, decisum",
+      "headword": "dēcidō",
+      "homograph": 2,
+      "freq": "B"
+    },
+    {
+      "id": "occido2_v",
+      "lemma": "occido",
+      "pos": "verb",
+      "glosses": [
+        "to fell, cut to the ground; beat, smash, crush",
+        "to cut off, kill, slay, slaughter",
+        "to plague to death, torture, torment, pester",
+        "to ruin, undo, bring about the ruin of"
+      ],
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "pres.imp.act",
+          "pres.ind.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "perf.subj.act",
+          "plup.subj.act",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass",
+          "fut.imp.act",
+          "fut.imp.pass"
+        ],
+        "cells": {
+          "1sg.pres.ind.act": "occido",
+          "2sg.pres.ind.act": "occidis",
+          "3sg.pres.ind.act": "occidit",
+          "1pl.pres.ind.act": "occidimus",
+          "2pl.pres.ind.act": "occiditis",
+          "3pl.pres.ind.act": "occidunt",
+          "1sg.imperf.ind.act": "occidebam",
+          "2sg.imperf.ind.act": "occidebas",
+          "3sg.imperf.ind.act": "occidebat",
+          "1pl.imperf.ind.act": "occidebamus",
+          "2pl.imperf.ind.act": "occidebatis",
+          "3pl.imperf.ind.act": "occidebant",
+          "1sg.fut.ind.act": "occidam",
+          "2sg.fut.ind.act": "occides",
+          "3sg.fut.ind.act": "occidet",
+          "1pl.fut.ind.act": "occidemus",
+          "2pl.fut.ind.act": "occidetis",
+          "3pl.fut.ind.act": "occident",
+          "1sg.perf.ind.act": "occidi",
+          "2sg.perf.ind.act": "occidisti",
+          "3sg.perf.ind.act": "occidit",
+          "1pl.perf.ind.act": "occidimus",
+          "2pl.perf.ind.act": "occidistis",
+          "3pl.perf.ind.act": [
+            "occiderunt",
+            "occidere"
+          ],
+          "1sg.plup.ind.act": "occideram",
+          "2sg.plup.ind.act": "occideras",
+          "3sg.plup.ind.act": "occiderat",
+          "1pl.plup.ind.act": "occideramus",
+          "2pl.plup.ind.act": "occideratis",
+          "3pl.plup.ind.act": "occiderant",
+          "1sg.futperf.ind.act": "occidero",
+          "2sg.futperf.ind.act": "occideris",
+          "3sg.futperf.ind.act": "occiderit",
+          "1pl.futperf.ind.act": "occiderimus",
+          "2pl.futperf.ind.act": "occideritis",
+          "3pl.futperf.ind.act": "occiderint",
+          "1sg.pres.ind.pass": "occidor",
+          "2sg.pres.ind.pass": [
+            "occideris",
+            "occidere"
+          ],
+          "3sg.pres.ind.pass": "occiditur",
+          "1pl.pres.ind.pass": "occidimur",
+          "2pl.pres.ind.pass": "occidimini",
+          "3pl.pres.ind.pass": "occiduntur",
+          "1sg.imperf.ind.pass": "occidebar",
+          "2sg.imperf.ind.pass": [
+            "occidebaris",
+            "occidebare"
+          ],
+          "3sg.imperf.ind.pass": "occidebatur",
+          "1pl.imperf.ind.pass": "occidebamur",
+          "2pl.imperf.ind.pass": "occidebamini",
+          "3pl.imperf.ind.pass": "occidebantur",
+          "1sg.fut.ind.pass": "occidar",
+          "2sg.fut.ind.pass": [
+            "occideris",
+            "occidere"
+          ],
+          "3sg.fut.ind.pass": "occidetur",
+          "1pl.fut.ind.pass": "occidemur",
+          "2pl.fut.ind.pass": "occidemini",
+          "3pl.fut.ind.pass": "occidentur",
+          "1sg.pres.subj.act": "occidam",
+          "2sg.pres.subj.act": "occidas",
+          "3sg.pres.subj.act": "occidat",
+          "1pl.pres.subj.act": "occidamus",
+          "2pl.pres.subj.act": "occidatis",
+          "3pl.pres.subj.act": "occidant",
+          "1sg.imperf.subj.act": "occiderem",
+          "2sg.imperf.subj.act": "occideres",
+          "3sg.imperf.subj.act": "occideret",
+          "1pl.imperf.subj.act": "occideremus",
+          "2pl.imperf.subj.act": "occideretis",
+          "3pl.imperf.subj.act": "occiderent",
+          "1sg.perf.subj.act": "occiderim",
+          "2sg.perf.subj.act": "occideris",
+          "3sg.perf.subj.act": "occiderit",
+          "1pl.perf.subj.act": "occiderimus",
+          "2pl.perf.subj.act": "occideritis",
+          "3pl.perf.subj.act": "occiderint",
+          "1sg.plup.subj.act": "occidissem",
+          "2sg.plup.subj.act": "occidisses",
+          "3sg.plup.subj.act": "occidisset",
+          "1pl.plup.subj.act": "occidissemus",
+          "2pl.plup.subj.act": "occidissetis",
+          "3pl.plup.subj.act": "occidissent",
+          "1sg.pres.subj.pass": "occidar",
+          "2sg.pres.subj.pass": [
+            "occidaris",
+            "occidare"
+          ],
+          "3sg.pres.subj.pass": "occidatur",
+          "1pl.pres.subj.pass": "occidamur",
+          "2pl.pres.subj.pass": "occidamini",
+          "3pl.pres.subj.pass": "occidantur",
+          "1sg.imperf.subj.pass": "occiderer",
+          "2sg.imperf.subj.pass": [
+            "occidereris",
+            "occiderere"
+          ],
+          "3sg.imperf.subj.pass": "occideretur",
+          "1pl.imperf.subj.pass": "occideremur",
+          "2pl.imperf.subj.pass": "occideremini",
+          "3pl.imperf.subj.pass": "occiderentur",
+          "2sg.pres.imp.act": "occide",
+          "2pl.pres.imp.act": "occidite",
+          "2sg.fut.imp.act": "occidito",
+          "3sg.fut.imp.act": "occidito",
+          "2pl.fut.imp.act": "occiditote",
+          "3pl.fut.imp.act": "occidunto",
+          "2sg.pres.imp.pass": "occidere",
+          "2pl.pres.imp.pass": "occidimini",
+          "2sg.fut.imp.pass": "occiditor",
+          "3sg.fut.imp.pass": "occiditor",
+          "3pl.fut.imp.pass": "occiduntor",
+          "inf.pres.act": "occidere",
+          "inf.pres.pass": "occidi",
+          "pap.nom.sg.masc": "occidens",
+          "inf.fut.act": "occisurum esse",
+          "inf.fut.pass": "occisum iri",
+          "fap.nom.sg.masc": "occisurus",
+          "gerundive.nom.sg.masc": [
+            "occidendus",
+            "occidundus"
+          ],
+          "inf.perf.act": "occidisse",
+          "inf.perf.pass": "occisum esse",
+          "ger.gen.sg": "occidendi",
+          "ger.dat.sg": "occidendo",
+          "ger.acc.sg": "occidendum",
+          "ger.abl.sg": "occidendo",
+          "pap.nom.sg.fem": "occidens",
+          "pap.nom.sg.neut": "occidens",
+          "pap.nom.pl.fem": "occidentes",
+          "pap.nom.pl.masc": "occidentes",
+          "pap.nom.pl.neut": "occidentia",
+          "pap.gen.sg.fem": "occidentis",
+          "pap.gen.sg.masc": "occidentis",
+          "pap.gen.sg.neut": "occidentis",
+          "pap.gen.pl.fem": "occidentium",
+          "pap.gen.pl.masc": "occidentium",
+          "pap.gen.pl.neut": "occidentium",
+          "pap.dat.sg.fem": "occidenti",
+          "pap.dat.sg.masc": "occidenti",
+          "pap.dat.sg.neut": "occidenti",
+          "pap.dat.pl.fem": "occidentibus",
+          "pap.dat.pl.masc": "occidentibus",
+          "pap.dat.pl.neut": "occidentibus",
+          "pap.acc.sg.fem": "occidentem",
+          "pap.acc.sg.masc": "occidentem",
+          "pap.acc.sg.neut": "occidens",
+          "pap.acc.pl.fem": [
+            "occidentes",
+            "occidentis"
+          ],
+          "pap.acc.pl.masc": [
+            "occidentes",
+            "occidentis"
+          ],
+          "pap.acc.pl.neut": "occidentia",
+          "pap.abl.sg.fem": [
+            "occidente",
+            "occidenti"
+          ],
+          "pap.abl.sg.masc": [
+            "occidente",
+            "occidenti"
+          ],
+          "pap.abl.sg.neut": [
+            "occidente",
+            "occidenti"
+          ],
+          "pap.abl.pl.fem": "occidentibus",
+          "pap.abl.pl.masc": "occidentibus",
+          "pap.abl.pl.neut": "occidentibus",
+          "pap.voc.sg.fem": "occidens",
+          "pap.voc.sg.masc": "occidens",
+          "pap.voc.sg.neut": "occidens",
+          "pap.voc.pl.fem": "occidentes",
+          "pap.voc.pl.masc": "occidentes",
+          "pap.voc.pl.neut": "occidentia",
+          "fap.nom.sg.fem": "occisura",
+          "fap.nom.sg.neut": "occisurum",
+          "fap.nom.pl.masc": "occisuri",
+          "fap.nom.pl.fem": "occisurae",
+          "fap.nom.pl.neut": "occisura",
+          "fap.gen.sg.masc": "occisuri",
+          "fap.gen.sg.fem": "occisurae",
+          "fap.gen.sg.neut": "occisuri",
+          "fap.gen.pl.masc": "occisurorum",
+          "fap.gen.pl.fem": "occisurarum",
+          "fap.gen.pl.neut": "occisurorum",
+          "fap.dat.sg.masc": "occisuro",
+          "fap.dat.sg.fem": "occisurae",
+          "fap.dat.sg.neut": "occisuro",
+          "fap.dat.pl.fem": "occisuris",
+          "fap.dat.pl.masc": "occisuris",
+          "fap.dat.pl.neut": "occisuris",
+          "fap.acc.sg.masc": "occisurum",
+          "fap.acc.sg.fem": "occisuram",
+          "fap.acc.sg.neut": "occisurum",
+          "fap.acc.pl.masc": "occisuros",
+          "fap.acc.pl.fem": "occisuras",
+          "fap.acc.pl.neut": "occisura",
+          "fap.abl.sg.masc": "occisuro",
+          "fap.abl.sg.fem": "occisura",
+          "fap.abl.sg.neut": "occisuro",
+          "fap.abl.pl.fem": "occisuris",
+          "fap.abl.pl.masc": "occisuris",
+          "fap.abl.pl.neut": "occisuris",
+          "fap.voc.sg.masc": "occisure",
+          "fap.voc.sg.fem": "occisura",
+          "fap.voc.sg.neut": "occisurum",
+          "fap.voc.pl.masc": "occisuri",
+          "fap.voc.pl.fem": "occisurae",
+          "fap.voc.pl.neut": "occisura",
+          "gerundive.nom.sg.fem": "occidenda",
+          "gerundive.nom.sg.neut": "occidendum",
+          "gerundive.nom.pl.masc": "occidendi",
+          "gerundive.nom.pl.fem": "occidendae",
+          "gerundive.nom.pl.neut": "occidenda",
+          "gerundive.gen.sg.masc": "occidendi",
+          "gerundive.gen.sg.fem": "occidendae",
+          "gerundive.gen.sg.neut": "occidendi",
+          "gerundive.gen.pl.masc": "occidendorum",
+          "gerundive.gen.pl.fem": "occidendarum",
+          "gerundive.gen.pl.neut": "occidendorum",
+          "gerundive.dat.sg.masc": "occidendo",
+          "gerundive.dat.sg.fem": "occidendae",
+          "gerundive.dat.sg.neut": "occidendo",
+          "gerundive.dat.pl.fem": "occidendis",
+          "gerundive.dat.pl.masc": "occidendis",
+          "gerundive.dat.pl.neut": "occidendis",
+          "gerundive.acc.sg.masc": "occidendum",
+          "gerundive.acc.sg.fem": "occidendam",
+          "gerundive.acc.sg.neut": "occidendum",
+          "gerundive.acc.pl.masc": "occidendos",
+          "gerundive.acc.pl.fem": "occidendas",
+          "gerundive.acc.pl.neut": "occidenda",
+          "gerundive.abl.sg.masc": "occidendo",
+          "gerundive.abl.sg.fem": "occidenda",
+          "gerundive.abl.sg.neut": "occidendo",
+          "gerundive.abl.pl.fem": "occidendis",
+          "gerundive.abl.pl.masc": "occidendis",
+          "gerundive.abl.pl.neut": "occidendis",
+          "gerundive.voc.sg.masc": "occidende",
+          "gerundive.voc.sg.fem": "occidenda",
+          "gerundive.voc.sg.neut": "occidendum",
+          "gerundive.voc.pl.masc": "occidendi",
+          "gerundive.voc.pl.fem": "occidendae",
+          "gerundive.voc.pl.neut": "occidenda"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "occisus",
+          "ppp.nom.sg.fem": "occisa",
+          "ppp.nom.sg.neut": "occisum",
+          "ppp.nom.pl.masc": "occisi",
+          "ppp.nom.pl.fem": "occisae",
+          "ppp.nom.pl.neut": "occisa",
+          "ppp.gen.sg.masc": "occisi",
+          "ppp.gen.sg.fem": "occisae",
+          "ppp.gen.sg.neut": "occisi",
+          "ppp.gen.pl.masc": "occisorum",
+          "ppp.gen.pl.fem": "occisarum",
+          "ppp.gen.pl.neut": "occisorum",
+          "ppp.dat.sg.masc": "occiso",
+          "ppp.dat.sg.fem": "occisae",
+          "ppp.dat.sg.neut": "occiso",
+          "ppp.dat.pl.fem": "occisis",
+          "ppp.dat.pl.masc": "occisis",
+          "ppp.dat.pl.neut": "occisis",
+          "ppp.acc.sg.masc": "occisum",
+          "ppp.acc.sg.fem": "occisam",
+          "ppp.acc.sg.neut": "occisum",
+          "ppp.acc.pl.masc": "occisos",
+          "ppp.acc.pl.fem": "occisas",
+          "ppp.acc.pl.neut": "occisa",
+          "ppp.abl.sg.masc": "occiso",
+          "ppp.abl.sg.fem": "occisa",
+          "ppp.abl.sg.neut": "occiso",
+          "ppp.abl.pl.fem": "occisis",
+          "ppp.abl.pl.masc": "occisis",
+          "ppp.abl.pl.neut": "occisis",
+          "ppp.voc.sg.masc": "occise",
+          "ppp.voc.sg.fem": "occisa",
+          "ppp.voc.sg.neut": "occisum",
+          "ppp.voc.pl.masc": "occisi",
+          "ppp.voc.pl.fem": "occisae",
+          "ppp.voc.pl.neut": "occisa"
+        }
+      },
+      "principal_parts": [
+        "occido",
+        "occidere",
+        "occidi",
+        "occisum"
+      ],
+      "head": "occido, occidere, occidi, occisum",
+      "headword": "occīdō",
+      "homograph": 2,
+      "freq": "A"
+    },
+    {
+      "id": "recido2_v",
+      "lemma": "recido",
+      "pos": "verb",
+      "glosses": [
+        "to cut back, cut off",
+        "to abridge, cut short"
+      ],
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "pres.imp.act",
+          "pres.ind.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "perf.subj.act",
+          "plup.subj.act",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass",
+          "fut.imp.act",
+          "fut.imp.pass"
+        ],
+        "cells": {
+          "1sg.pres.ind.act": "recido",
+          "2sg.pres.ind.act": "recidis",
+          "3sg.pres.ind.act": "recidit",
+          "1pl.pres.ind.act": "recidimus",
+          "2pl.pres.ind.act": "reciditis",
+          "3pl.pres.ind.act": "recidunt",
+          "1sg.imperf.ind.act": "recidebam",
+          "2sg.imperf.ind.act": "recidebas",
+          "3sg.imperf.ind.act": "recidebat",
+          "1pl.imperf.ind.act": "recidebamus",
+          "2pl.imperf.ind.act": "recidebatis",
+          "3pl.imperf.ind.act": "recidebant",
+          "1sg.fut.ind.act": "recidam",
+          "2sg.fut.ind.act": "recides",
+          "3sg.fut.ind.act": "recidet",
+          "1pl.fut.ind.act": "recidemus",
+          "2pl.fut.ind.act": "recidetis",
+          "3pl.fut.ind.act": "recident",
+          "1sg.perf.ind.act": "recidi",
+          "2sg.perf.ind.act": "recidisti",
+          "3sg.perf.ind.act": "recidit",
+          "1pl.perf.ind.act": "recidimus",
+          "2pl.perf.ind.act": "recidistis",
+          "3pl.perf.ind.act": [
+            "reciderunt",
+            "recidere"
+          ],
+          "1sg.plup.ind.act": "recideram",
+          "2sg.plup.ind.act": "recideras",
+          "3sg.plup.ind.act": "reciderat",
+          "1pl.plup.ind.act": "recideramus",
+          "2pl.plup.ind.act": "recideratis",
+          "3pl.plup.ind.act": "reciderant",
+          "1sg.futperf.ind.act": "recidero",
+          "2sg.futperf.ind.act": "recideris",
+          "3sg.futperf.ind.act": "reciderit",
+          "1pl.futperf.ind.act": "reciderimus",
+          "2pl.futperf.ind.act": "recideritis",
+          "3pl.futperf.ind.act": "reciderint",
+          "1sg.pres.ind.pass": "recidor",
+          "2sg.pres.ind.pass": [
+            "recideris",
+            "recidere"
+          ],
+          "3sg.pres.ind.pass": "reciditur",
+          "1pl.pres.ind.pass": "recidimur",
+          "2pl.pres.ind.pass": "recidimini",
+          "3pl.pres.ind.pass": "reciduntur",
+          "1sg.imperf.ind.pass": "recidebar",
+          "2sg.imperf.ind.pass": [
+            "recidebaris",
+            "recidebare"
+          ],
+          "3sg.imperf.ind.pass": "recidebatur",
+          "1pl.imperf.ind.pass": "recidebamur",
+          "2pl.imperf.ind.pass": "recidebamini",
+          "3pl.imperf.ind.pass": "recidebantur",
+          "1sg.fut.ind.pass": "recidar",
+          "2sg.fut.ind.pass": [
+            "recideris",
+            "recidere"
+          ],
+          "3sg.fut.ind.pass": "recidetur",
+          "1pl.fut.ind.pass": "recidemur",
+          "2pl.fut.ind.pass": "recidemini",
+          "3pl.fut.ind.pass": "recidentur",
+          "1sg.pres.subj.act": "recidam",
+          "2sg.pres.subj.act": "recidas",
+          "3sg.pres.subj.act": "recidat",
+          "1pl.pres.subj.act": "recidamus",
+          "2pl.pres.subj.act": "recidatis",
+          "3pl.pres.subj.act": "recidant",
+          "1sg.imperf.subj.act": "reciderem",
+          "2sg.imperf.subj.act": "recideres",
+          "3sg.imperf.subj.act": "recideret",
+          "1pl.imperf.subj.act": "recideremus",
+          "2pl.imperf.subj.act": "recideretis",
+          "3pl.imperf.subj.act": "reciderent",
+          "1sg.perf.subj.act": "reciderim",
+          "2sg.perf.subj.act": "recideris",
+          "3sg.perf.subj.act": "reciderit",
+          "1pl.perf.subj.act": "reciderimus",
+          "2pl.perf.subj.act": "recideritis",
+          "3pl.perf.subj.act": "reciderint",
+          "1sg.plup.subj.act": "recidissem",
+          "2sg.plup.subj.act": "recidisses",
+          "3sg.plup.subj.act": "recidisset",
+          "1pl.plup.subj.act": "recidissemus",
+          "2pl.plup.subj.act": "recidissetis",
+          "3pl.plup.subj.act": "recidissent",
+          "1sg.pres.subj.pass": "recidar",
+          "2sg.pres.subj.pass": [
+            "recidaris",
+            "recidare"
+          ],
+          "3sg.pres.subj.pass": "recidatur",
+          "1pl.pres.subj.pass": "recidamur",
+          "2pl.pres.subj.pass": "recidamini",
+          "3pl.pres.subj.pass": "recidantur",
+          "1sg.imperf.subj.pass": "reciderer",
+          "2sg.imperf.subj.pass": [
+            "recidereris",
+            "reciderere"
+          ],
+          "3sg.imperf.subj.pass": "recideretur",
+          "1pl.imperf.subj.pass": "recideremur",
+          "2pl.imperf.subj.pass": "recideremini",
+          "3pl.imperf.subj.pass": "reciderentur",
+          "2sg.pres.imp.act": "recide",
+          "2pl.pres.imp.act": "recidite",
+          "2sg.fut.imp.act": "recidito",
+          "3sg.fut.imp.act": "recidito",
+          "2pl.fut.imp.act": "reciditote",
+          "3pl.fut.imp.act": "recidunto",
+          "2sg.pres.imp.pass": "recidere",
+          "2pl.pres.imp.pass": "recidimini",
+          "2sg.fut.imp.pass": "reciditor",
+          "3sg.fut.imp.pass": "reciditor",
+          "3pl.fut.imp.pass": "reciduntor",
+          "inf.pres.act": "recidere",
+          "inf.pres.pass": "recidi",
+          "pap.nom.sg.masc": "recidens",
+          "inf.fut.act": "recisurum esse",
+          "inf.fut.pass": "recisum iri",
+          "fap.nom.sg.masc": "recisurus",
+          "gerundive.nom.sg.masc": [
+            "recidendus",
+            "recidundus"
+          ],
+          "inf.perf.act": "recidisse",
+          "inf.perf.pass": "recisum esse",
+          "ger.gen.sg": "recidendi",
+          "ger.dat.sg": "recidendo",
+          "ger.acc.sg": "recidendum",
+          "ger.abl.sg": "recidendo",
+          "pap.nom.sg.fem": "recidens",
+          "pap.nom.sg.neut": "recidens",
+          "pap.nom.pl.fem": "recidentes",
+          "pap.nom.pl.masc": "recidentes",
+          "pap.nom.pl.neut": "recidentia",
+          "pap.gen.sg.fem": "recidentis",
+          "pap.gen.sg.masc": "recidentis",
+          "pap.gen.sg.neut": "recidentis",
+          "pap.gen.pl.fem": "recidentium",
+          "pap.gen.pl.masc": "recidentium",
+          "pap.gen.pl.neut": "recidentium",
+          "pap.dat.sg.fem": "recidenti",
+          "pap.dat.sg.masc": "recidenti",
+          "pap.dat.sg.neut": "recidenti",
+          "pap.dat.pl.fem": "recidentibus",
+          "pap.dat.pl.masc": "recidentibus",
+          "pap.dat.pl.neut": "recidentibus",
+          "pap.acc.sg.fem": "recidentem",
+          "pap.acc.sg.masc": "recidentem",
+          "pap.acc.sg.neut": "recidens",
+          "pap.acc.pl.fem": [
+            "recidentes",
+            "recidentis"
+          ],
+          "pap.acc.pl.masc": [
+            "recidentes",
+            "recidentis"
+          ],
+          "pap.acc.pl.neut": "recidentia",
+          "pap.abl.sg.fem": [
+            "recidente",
+            "recidenti"
+          ],
+          "pap.abl.sg.masc": [
+            "recidente",
+            "recidenti"
+          ],
+          "pap.abl.sg.neut": [
+            "recidente",
+            "recidenti"
+          ],
+          "pap.abl.pl.fem": "recidentibus",
+          "pap.abl.pl.masc": "recidentibus",
+          "pap.abl.pl.neut": "recidentibus",
+          "pap.voc.sg.fem": "recidens",
+          "pap.voc.sg.masc": "recidens",
+          "pap.voc.sg.neut": "recidens",
+          "pap.voc.pl.fem": "recidentes",
+          "pap.voc.pl.masc": "recidentes",
+          "pap.voc.pl.neut": "recidentia",
+          "gerundive.nom.sg.fem": "recidenda",
+          "gerundive.nom.sg.neut": "recidendum",
+          "gerundive.nom.pl.masc": "recidendi",
+          "gerundive.nom.pl.fem": "recidendae",
+          "gerundive.nom.pl.neut": "recidenda",
+          "gerundive.gen.sg.masc": "recidendi",
+          "gerundive.gen.sg.fem": "recidendae",
+          "gerundive.gen.sg.neut": "recidendi",
+          "gerundive.gen.pl.masc": "recidendorum",
+          "gerundive.gen.pl.fem": "recidendarum",
+          "gerundive.gen.pl.neut": "recidendorum",
+          "gerundive.dat.sg.masc": "recidendo",
+          "gerundive.dat.sg.fem": "recidendae",
+          "gerundive.dat.sg.neut": "recidendo",
+          "gerundive.dat.pl.fem": "recidendis",
+          "gerundive.dat.pl.masc": "recidendis",
+          "gerundive.dat.pl.neut": "recidendis",
+          "gerundive.acc.sg.masc": "recidendum",
+          "gerundive.acc.sg.fem": "recidendam",
+          "gerundive.acc.sg.neut": "recidendum",
+          "gerundive.acc.pl.masc": "recidendos",
+          "gerundive.acc.pl.fem": "recidendas",
+          "gerundive.acc.pl.neut": "recidenda",
+          "gerundive.abl.sg.masc": "recidendo",
+          "gerundive.abl.sg.fem": "recidenda",
+          "gerundive.abl.sg.neut": "recidendo",
+          "gerundive.abl.pl.fem": "recidendis",
+          "gerundive.abl.pl.masc": "recidendis",
+          "gerundive.abl.pl.neut": "recidendis",
+          "gerundive.voc.sg.masc": "recidende",
+          "gerundive.voc.sg.fem": "recidenda",
+          "gerundive.voc.sg.neut": "recidendum",
+          "gerundive.voc.pl.masc": "recidendi",
+          "gerundive.voc.pl.fem": "recidendae",
+          "gerundive.voc.pl.neut": "recidenda",
+          "fap.nom.sg.fem": "recisura",
+          "fap.nom.sg.neut": "recisurum",
+          "fap.nom.pl.masc": "recisuri",
+          "fap.nom.pl.fem": "recisurae",
+          "fap.nom.pl.neut": "recisura",
+          "fap.gen.sg.masc": "recisuri",
+          "fap.gen.sg.fem": "recisurae",
+          "fap.gen.sg.neut": "recisuri",
+          "fap.gen.pl.masc": "recisurorum",
+          "fap.gen.pl.fem": "recisurarum",
+          "fap.gen.pl.neut": "recisurorum",
+          "fap.dat.sg.masc": "recisuro",
+          "fap.dat.sg.fem": "recisurae",
+          "fap.dat.sg.neut": "recisuro",
+          "fap.dat.pl.fem": "recisuris",
+          "fap.dat.pl.masc": "recisuris",
+          "fap.dat.pl.neut": "recisuris",
+          "fap.acc.sg.masc": "recisurum",
+          "fap.acc.sg.fem": "recisuram",
+          "fap.acc.sg.neut": "recisurum",
+          "fap.acc.pl.masc": "recisuros",
+          "fap.acc.pl.fem": "recisuras",
+          "fap.acc.pl.neut": "recisura",
+          "fap.abl.sg.masc": "recisuro",
+          "fap.abl.sg.fem": "recisura",
+          "fap.abl.sg.neut": "recisuro",
+          "fap.abl.pl.fem": "recisuris",
+          "fap.abl.pl.masc": "recisuris",
+          "fap.abl.pl.neut": "recisuris",
+          "fap.voc.sg.masc": "recisure",
+          "fap.voc.sg.fem": "recisura",
+          "fap.voc.sg.neut": "recisurum",
+          "fap.voc.pl.masc": "recisuri",
+          "fap.voc.pl.fem": "recisurae",
+          "fap.voc.pl.neut": "recisura"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "recisus",
+          "ppp.nom.sg.fem": "recisa",
+          "ppp.nom.sg.neut": "recisum",
+          "ppp.nom.pl.masc": "recisi",
+          "ppp.nom.pl.fem": "recisae",
+          "ppp.nom.pl.neut": "recisa",
+          "ppp.gen.sg.masc": "recisi",
+          "ppp.gen.sg.fem": "recisae",
+          "ppp.gen.sg.neut": "recisi",
+          "ppp.gen.pl.masc": "recisorum",
+          "ppp.gen.pl.fem": "recisarum",
+          "ppp.gen.pl.neut": "recisorum",
+          "ppp.dat.sg.masc": "reciso",
+          "ppp.dat.sg.fem": "recisae",
+          "ppp.dat.sg.neut": "reciso",
+          "ppp.dat.pl.fem": "recisis",
+          "ppp.dat.pl.masc": "recisis",
+          "ppp.dat.pl.neut": "recisis",
+          "ppp.acc.sg.masc": "recisum",
+          "ppp.acc.sg.fem": "recisam",
+          "ppp.acc.sg.neut": "recisum",
+          "ppp.acc.pl.masc": "recisos",
+          "ppp.acc.pl.fem": "recisas",
+          "ppp.acc.pl.neut": "recisa",
+          "ppp.abl.sg.masc": "reciso",
+          "ppp.abl.sg.fem": "recisa",
+          "ppp.abl.sg.neut": "reciso",
+          "ppp.abl.pl.fem": "recisis",
+          "ppp.abl.pl.masc": "recisis",
+          "ppp.abl.pl.neut": "recisis",
+          "ppp.voc.sg.masc": "recise",
+          "ppp.voc.sg.fem": "recisa",
+          "ppp.voc.sg.neut": "recisum",
+          "ppp.voc.pl.masc": "recisi",
+          "ppp.voc.pl.fem": "recisae",
+          "ppp.voc.pl.neut": "recisa"
+        }
+      },
+      "principal_parts": [
+        "recido",
+        "recidere",
+        "recidi",
+        "recisum"
+      ],
+      "head": "recido, recidere, recidi, recisum",
+      "headword": "recīdō",
+      "homograph": 2,
+      "freq": "B"
+    },
+    {
+      "id": "lego2_v",
+      "lemma": "lego",
+      "pos": "verb",
+      "glosses": [
+        "to dispatch, send as ambassador",
+        "to send on mission",
+        "to assign as a legatus",
+        "to delegate, entrust, assign, deputize",
+        "to appoint by a last will or testament, leave or bequeath as a legacy"
+      ],
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.act",
+          "imperf.ind.act",
+          "fut.ind.act",
+          "perf.ind.act",
+          "pres.subj.act",
+          "imperf.subj.act",
+          "pres.imp.act",
+          "pres.ind.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "plup.ind.act",
+          "futperf.ind.act",
+          "perf.subj.act",
+          "plup.subj.act",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass",
+          "fut.imp.act",
+          "fut.imp.pass"
+        ],
+        "cells": {
+          "1sg.pres.ind.act": "lego",
+          "2sg.pres.ind.act": "legas",
+          "3sg.pres.ind.act": "legat",
+          "1pl.pres.ind.act": "legamus",
+          "2pl.pres.ind.act": "legatis",
+          "3pl.pres.ind.act": "legant",
+          "1sg.imperf.ind.act": "legabam",
+          "2sg.imperf.ind.act": "legabas",
+          "3sg.imperf.ind.act": "legabat",
+          "1pl.imperf.ind.act": "legabamus",
+          "2pl.imperf.ind.act": "legabatis",
+          "3pl.imperf.ind.act": "legabant",
+          "1sg.fut.ind.act": "legabo",
+          "2sg.fut.ind.act": "legabis",
+          "3sg.fut.ind.act": "legabit",
+          "1pl.fut.ind.act": "legabimus",
+          "2pl.fut.ind.act": "legabitis",
+          "3pl.fut.ind.act": "legabunt",
+          "1sg.perf.ind.act": "legavi",
+          "2sg.perf.ind.act": "legavisti",
+          "3sg.perf.ind.act": "legavit",
+          "1pl.perf.ind.act": "legavimus",
+          "2pl.perf.ind.act": "legavistis",
+          "3pl.perf.ind.act": [
+            "legaverunt",
+            "legavere"
+          ],
+          "1sg.plup.ind.act": "legaveram",
+          "2sg.plup.ind.act": "legaveras",
+          "3sg.plup.ind.act": "legaverat",
+          "1pl.plup.ind.act": "legaveramus",
+          "2pl.plup.ind.act": "legaveratis",
+          "3pl.plup.ind.act": "legaverant",
+          "1sg.futperf.ind.act": "legavero",
+          "2sg.futperf.ind.act": "legaveris",
+          "3sg.futperf.ind.act": "legaverit",
+          "1pl.futperf.ind.act": "legaverimus",
+          "2pl.futperf.ind.act": "legaveritis",
+          "3pl.futperf.ind.act": "legaverint",
+          "1sg.pres.ind.pass": "legor",
+          "2sg.pres.ind.pass": [
+            "legaris",
+            "legare"
+          ],
+          "3sg.pres.ind.pass": "legatur",
+          "1pl.pres.ind.pass": "legamur",
+          "2pl.pres.ind.pass": "legamini",
+          "3pl.pres.ind.pass": "legantur",
+          "1sg.imperf.ind.pass": "legabar",
+          "2sg.imperf.ind.pass": [
+            "legabaris",
+            "legabare"
+          ],
+          "3sg.imperf.ind.pass": "legabatur",
+          "1pl.imperf.ind.pass": "legabamur",
+          "2pl.imperf.ind.pass": "legabamini",
+          "3pl.imperf.ind.pass": "legabantur",
+          "1sg.fut.ind.pass": "legabor",
+          "2sg.fut.ind.pass": [
+            "legaberis",
+            "legabere"
+          ],
+          "3sg.fut.ind.pass": "legabitur",
+          "1pl.fut.ind.pass": "legabimur",
+          "2pl.fut.ind.pass": "legabimini",
+          "3pl.fut.ind.pass": "legabuntur",
+          "1sg.pres.subj.act": "legem",
+          "2sg.pres.subj.act": "leges",
+          "3sg.pres.subj.act": "leget",
+          "1pl.pres.subj.act": "legemus",
+          "2pl.pres.subj.act": "legetis",
+          "3pl.pres.subj.act": "legent",
+          "1sg.imperf.subj.act": "legarem",
+          "2sg.imperf.subj.act": "legares",
+          "3sg.imperf.subj.act": "legaret",
+          "1pl.imperf.subj.act": "legaremus",
+          "2pl.imperf.subj.act": "legaretis",
+          "3pl.imperf.subj.act": "legarent",
+          "1sg.perf.subj.act": "legaverim",
+          "2sg.perf.subj.act": "legaveris",
+          "3sg.perf.subj.act": "legaverit",
+          "1pl.perf.subj.act": "legaverimus",
+          "2pl.perf.subj.act": "legaveritis",
+          "3pl.perf.subj.act": "legaverint",
+          "1sg.plup.subj.act": "legavissem",
+          "2sg.plup.subj.act": "legavisses",
+          "3sg.plup.subj.act": "legavisset",
+          "1pl.plup.subj.act": "legavissemus",
+          "2pl.plup.subj.act": "legavissetis",
+          "3pl.plup.subj.act": "legavissent",
+          "1sg.pres.subj.pass": "leger",
+          "2sg.pres.subj.pass": [
+            "legeris",
+            "legere"
+          ],
+          "3sg.pres.subj.pass": "legetur",
+          "1pl.pres.subj.pass": "legemur",
+          "2pl.pres.subj.pass": "legemini",
+          "3pl.pres.subj.pass": "legentur",
+          "1sg.imperf.subj.pass": "legarer",
+          "2sg.imperf.subj.pass": [
+            "legareris",
+            "legarere"
+          ],
+          "3sg.imperf.subj.pass": "legaretur",
+          "1pl.imperf.subj.pass": "legaremur",
+          "2pl.imperf.subj.pass": "legaremini",
+          "3pl.imperf.subj.pass": "legarentur",
+          "2sg.pres.imp.act": "lega",
+          "2pl.pres.imp.act": "legate",
+          "2sg.fut.imp.act": "legato",
+          "3sg.fut.imp.act": "legato",
+          "2pl.fut.imp.act": "legatote",
+          "3pl.fut.imp.act": "leganto",
+          "2sg.pres.imp.pass": "legare",
+          "2pl.pres.imp.pass": "legamini",
+          "2sg.fut.imp.pass": "legator",
+          "3sg.fut.imp.pass": "legator",
+          "3pl.fut.imp.pass": "legantor",
+          "inf.pres.act": "legare",
+          "inf.pres.pass": "legari",
+          "pap.nom.sg.masc": "legans",
+          "inf.fut.act": "legaturum esse",
+          "inf.fut.pass": "legatum iri",
+          "fap.nom.sg.masc": "legaturus",
+          "gerundive.nom.sg.masc": "legandus",
+          "inf.perf.act": "legavisse",
+          "inf.perf.pass": "legatum esse",
+          "ger.gen.sg": "legandi",
+          "ger.dat.sg": "legando",
+          "ger.acc.sg": "legandum",
+          "ger.abl.sg": "legando",
+          "pap.nom.sg.fem": "legans",
+          "pap.nom.sg.neut": "legans",
+          "pap.nom.pl.fem": "legantes",
+          "pap.nom.pl.masc": "legantes",
+          "pap.nom.pl.neut": "legantia",
+          "pap.gen.sg.fem": "legantis",
+          "pap.gen.sg.masc": "legantis",
+          "pap.gen.sg.neut": "legantis",
+          "pap.gen.pl.fem": "legantium",
+          "pap.gen.pl.masc": "legantium",
+          "pap.gen.pl.neut": "legantium",
+          "pap.dat.sg.fem": "leganti",
+          "pap.dat.sg.masc": "leganti",
+          "pap.dat.sg.neut": "leganti",
+          "pap.dat.pl.fem": "legantibus",
+          "pap.dat.pl.masc": "legantibus",
+          "pap.dat.pl.neut": "legantibus",
+          "pap.acc.sg.fem": "legantem",
+          "pap.acc.sg.masc": "legantem",
+          "pap.acc.sg.neut": "legans",
+          "pap.acc.pl.fem": [
+            "legantes",
+            "legantis"
+          ],
+          "pap.acc.pl.masc": [
+            "legantes",
+            "legantis"
+          ],
+          "pap.acc.pl.neut": "legantia",
+          "pap.abl.sg.fem": [
+            "legante",
+            "leganti"
+          ],
+          "pap.abl.sg.masc": [
+            "legante",
+            "leganti"
+          ],
+          "pap.abl.sg.neut": [
+            "legante",
+            "leganti"
+          ],
+          "pap.abl.pl.fem": "legantibus",
+          "pap.abl.pl.masc": "legantibus",
+          "pap.abl.pl.neut": "legantibus",
+          "pap.voc.sg.fem": "legans",
+          "pap.voc.sg.masc": "legans",
+          "pap.voc.sg.neut": "legans",
+          "pap.voc.pl.fem": "legantes",
+          "pap.voc.pl.masc": "legantes",
+          "pap.voc.pl.neut": "legantia",
+          "fap.nom.sg.fem": "legatura",
+          "fap.nom.sg.neut": "legaturum",
+          "fap.nom.pl.masc": "legaturi",
+          "fap.nom.pl.fem": "legaturae",
+          "fap.nom.pl.neut": "legatura",
+          "fap.gen.sg.masc": "legaturi",
+          "fap.gen.sg.fem": "legaturae",
+          "fap.gen.sg.neut": "legaturi",
+          "fap.gen.pl.masc": "legaturorum",
+          "fap.gen.pl.fem": "legaturarum",
+          "fap.gen.pl.neut": "legaturorum",
+          "fap.dat.sg.masc": "legaturo",
+          "fap.dat.sg.fem": "legaturae",
+          "fap.dat.sg.neut": "legaturo",
+          "fap.dat.pl.fem": "legaturis",
+          "fap.dat.pl.masc": "legaturis",
+          "fap.dat.pl.neut": "legaturis",
+          "fap.acc.sg.masc": "legaturum",
+          "fap.acc.sg.fem": "legaturam",
+          "fap.acc.sg.neut": "legaturum",
+          "fap.acc.pl.masc": "legaturos",
+          "fap.acc.pl.fem": "legaturas",
+          "fap.acc.pl.neut": "legatura",
+          "fap.abl.sg.masc": "legaturo",
+          "fap.abl.sg.fem": "legatura",
+          "fap.abl.sg.neut": "legaturo",
+          "fap.abl.pl.fem": "legaturis",
+          "fap.abl.pl.masc": "legaturis",
+          "fap.abl.pl.neut": "legaturis",
+          "fap.voc.sg.masc": "legature",
+          "fap.voc.sg.fem": "legatura",
+          "fap.voc.sg.neut": "legaturum",
+          "fap.voc.pl.masc": "legaturi",
+          "fap.voc.pl.fem": "legaturae",
+          "fap.voc.pl.neut": "legatura",
+          "gerundive.nom.sg.fem": "leganda",
+          "gerundive.nom.sg.neut": "legandum",
+          "gerundive.nom.pl.masc": "legandi",
+          "gerundive.nom.pl.fem": "legandae",
+          "gerundive.nom.pl.neut": "leganda",
+          "gerundive.gen.sg.masc": "legandi",
+          "gerundive.gen.sg.fem": "legandae",
+          "gerundive.gen.sg.neut": "legandi",
+          "gerundive.gen.pl.masc": "legandorum",
+          "gerundive.gen.pl.fem": "legandarum",
+          "gerundive.gen.pl.neut": "legandorum",
+          "gerundive.dat.sg.masc": "legando",
+          "gerundive.dat.sg.fem": "legandae",
+          "gerundive.dat.sg.neut": "legando",
+          "gerundive.dat.pl.fem": "legandis",
+          "gerundive.dat.pl.masc": "legandis",
+          "gerundive.dat.pl.neut": "legandis",
+          "gerundive.acc.sg.masc": "legandum",
+          "gerundive.acc.sg.fem": "legandam",
+          "gerundive.acc.sg.neut": "legandum",
+          "gerundive.acc.pl.masc": "legandos",
+          "gerundive.acc.pl.fem": "legandas",
+          "gerundive.acc.pl.neut": "leganda",
+          "gerundive.abl.sg.masc": "legando",
+          "gerundive.abl.sg.fem": "leganda",
+          "gerundive.abl.sg.neut": "legando",
+          "gerundive.abl.pl.fem": "legandis",
+          "gerundive.abl.pl.masc": "legandis",
+          "gerundive.abl.pl.neut": "legandis",
+          "gerundive.voc.sg.masc": "legande",
+          "gerundive.voc.sg.fem": "leganda",
+          "gerundive.voc.sg.neut": "legandum",
+          "gerundive.voc.pl.masc": "legandi",
+          "gerundive.voc.pl.fem": "legandae",
+          "gerundive.voc.pl.neut": "leganda"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "legatus",
+          "ppp.nom.sg.fem": "legata",
+          "ppp.nom.sg.neut": "legatum",
+          "ppp.nom.pl.masc": "legati",
+          "ppp.nom.pl.fem": "legatae",
+          "ppp.nom.pl.neut": "legata",
+          "ppp.gen.sg.masc": "legati",
+          "ppp.gen.sg.fem": "legatae",
+          "ppp.gen.sg.neut": "legati",
+          "ppp.gen.pl.masc": "legatorum",
+          "ppp.gen.pl.fem": "legatarum",
+          "ppp.gen.pl.neut": "legatorum",
+          "ppp.dat.sg.masc": "legato",
+          "ppp.dat.sg.fem": "legatae",
+          "ppp.dat.sg.neut": "legato",
+          "ppp.dat.pl.fem": "legatis",
+          "ppp.dat.pl.masc": "legatis",
+          "ppp.dat.pl.neut": "legatis",
+          "ppp.acc.sg.masc": "legatum",
+          "ppp.acc.sg.fem": "legatam",
+          "ppp.acc.sg.neut": "legatum",
+          "ppp.acc.pl.masc": "legatos",
+          "ppp.acc.pl.fem": "legatas",
+          "ppp.acc.pl.neut": "legata",
+          "ppp.abl.sg.masc": "legato",
+          "ppp.abl.sg.fem": "legata",
+          "ppp.abl.sg.neut": "legato",
+          "ppp.abl.pl.fem": "legatis",
+          "ppp.abl.pl.masc": "legatis",
+          "ppp.abl.pl.neut": "legatis",
+          "ppp.voc.sg.masc": "legate",
+          "ppp.voc.sg.fem": "legata",
+          "ppp.voc.sg.neut": "legatum",
+          "ppp.voc.pl.masc": "legati",
+          "ppp.voc.pl.fem": "legatae",
+          "ppp.voc.pl.neut": "legata"
+        }
+      },
+      "principal_parts": [
+        "lego",
+        "legare",
+        "legavi",
+        "legatum"
+      ],
+      "head": "lego, legare, legavi, legatum",
+      "headword": "lēgō",
+      "homograph": 2,
+      "freq": "A"
+    },
+    {
+      "id": "liber_adj",
+      "lemma": "liber",
+      "pos": "adj",
+      "glosses": [
+        "free, independent, unrestricted, unchecked, unrestrained, licentious",
+        "freeman, freewoman",
+        "open (not decided or settled)",
+        "unbiased (pertains to lawyers)",
+        "exempt, void"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "liber",
+          "nom.sg.fem": "libera",
+          "nom.sg.neut": "liberum",
+          "nom.pl.masc": "liberi",
+          "nom.pl.fem": "liberae",
+          "nom.pl.neut": "libera",
+          "gen.sg.masc": "liberi",
+          "gen.sg.fem": "liberae",
+          "gen.sg.neut": "liberi",
+          "gen.pl.masc": "liberorum",
+          "gen.pl.fem": "liberarum",
+          "gen.pl.neut": "liberorum",
+          "dat.sg.masc": "libero",
+          "dat.sg.fem": "liberae",
+          "dat.sg.neut": "libero",
+          "dat.pl.fem": "liberis",
+          "dat.pl.masc": "liberis",
+          "dat.pl.neut": "liberis",
+          "acc.sg.masc": "liberum",
+          "acc.sg.fem": "liberam",
+          "acc.sg.neut": "liberum",
+          "acc.pl.masc": "liberos",
+          "acc.pl.fem": "liberas",
+          "acc.pl.neut": "libera",
+          "abl.sg.masc": "libero",
+          "abl.sg.fem": "libera",
+          "abl.sg.neut": "libero",
+          "abl.pl.fem": "liberis",
+          "abl.pl.masc": "liberis",
+          "abl.pl.neut": "liberis",
+          "voc.sg.masc": "liber",
+          "voc.sg.fem": "libera",
+          "voc.sg.neut": "liberum",
+          "voc.pl.masc": "liberi",
+          "voc.pl.fem": "liberae",
+          "voc.pl.neut": "libera",
+          "comp.nom.sg.masc": "liberior",
+          "comp.nom.pl.masc": "liberiores",
+          "comp.gen.sg.masc": "liberioris",
+          "comp.gen.pl.masc": "liberiorum",
+          "comp.dat.sg.masc": "liberiori",
+          "comp.dat.pl.masc": "liberioribus",
+          "comp.acc.sg.masc": "liberiorem",
+          "comp.acc.pl.masc": "liberiores",
+          "comp.abl.sg.masc": "liberiore",
+          "comp.abl.pl.masc": "liberioribus",
+          "comp.voc.sg.masc": "liberior",
+          "comp.voc.pl.masc": "liberiores",
+          "comp.nom.sg.fem": "liberior",
+          "comp.nom.pl.fem": "liberiores",
+          "comp.gen.sg.fem": "liberioris",
+          "comp.gen.pl.fem": "liberiorum",
+          "comp.dat.sg.fem": "liberiori",
+          "comp.dat.pl.fem": "liberioribus",
+          "comp.acc.sg.fem": "liberiorem",
+          "comp.acc.pl.fem": "liberiores",
+          "comp.abl.sg.fem": "liberiore",
+          "comp.abl.pl.fem": "liberioribus",
+          "comp.voc.sg.fem": "liberior",
+          "comp.voc.pl.fem": "liberiores",
+          "comp.nom.sg.neut": "liberius",
+          "comp.nom.pl.neut": "liberiora",
+          "comp.gen.sg.neut": "liberioris",
+          "comp.gen.pl.neut": "liberiorum",
+          "comp.dat.sg.neut": "liberiori",
+          "comp.dat.pl.neut": "liberioribus",
+          "comp.acc.sg.neut": "liberius",
+          "comp.acc.pl.neut": "liberiora",
+          "comp.abl.sg.neut": "liberiore",
+          "comp.abl.pl.neut": "liberioribus",
+          "comp.voc.sg.neut": "liberius",
+          "comp.voc.pl.neut": "liberiora"
+        }
+      },
+      "head": "liber, libera, liberum",
+      "headword": "līber",
+      "freq": "A"
+    },
+    {
+      "id": "nitor_n",
+      "lemma": "nitor",
+      "pos": "noun",
+      "glosses": [
+        "brightness, splendor, lustre, sheen",
+        "sleekness, good looks, beauty, glamour",
+        "neatness, smartness, elegance, brilliancy",
+        "splendor, elegance, polish, grace",
+        "dignity, excellence"
+      ],
+      "gender": "masc",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "nitor",
+          "nom.pl": "nitores",
+          "gen.sg": "nitoris",
+          "gen.pl": "nitorum",
+          "dat.sg": "nitori",
+          "dat.pl": "nitoribus",
+          "acc.sg": "nitorem",
+          "acc.pl": "nitores",
+          "abl.sg": "nitore",
+          "abl.pl": "nitoribus",
+          "voc.sg": "nitor",
+          "voc.pl": "nitores"
+        }
+      },
+      "head": "nitor, nitoris, m.",
+      "freq": "B"
+    },
+    {
+      "id": "satus_n",
+      "lemma": "satus",
+      "pos": "noun",
+      "glosses": [
+        "a sowing, planting",
+        "begetting, race, stock, lineage"
+      ],
+      "gender": "masc",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "satus",
+          "nom.pl": "satus",
+          "gen.sg": "satus",
+          "gen.pl": "satuum",
+          "dat.sg": "satui",
+          "dat.pl": "satibus",
+          "acc.sg": "satum",
+          "acc.pl": "satus",
+          "abl.sg": "satu",
+          "abl.pl": "satibus",
+          "voc.sg": "satus",
+          "voc.pl": "satus"
+        }
+      },
+      "head": "satus, satus, m."
+    },
+    {
+      "id": "volucris_n",
+      "lemma": "volucris",
+      "pos": "noun",
+      "glosses": [
+        "a bird (or other flying creature)"
+      ],
+      "gender": "fem",
+      "paradigm": {
+        "type": "noun",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg",
+          "pl"
+        ],
+        "cells": {
+          "nom.sg": "volucris",
+          "nom.pl": "volucres",
+          "gen.sg": "volucris",
+          "gen.pl": "volucrum",
+          "dat.sg": "volucri",
+          "dat.pl": "volucribus",
+          "acc.sg": "volucrem",
+          "acc.pl": "volucres",
+          "abl.sg": "volucri",
+          "abl.pl": "volucribus",
+          "voc.sg": "volucris",
+          "voc.pl": "volucres"
+        }
+      },
+      "head": "volucris, volucris, f.",
+      "freq": "C"
+    },
+    {
+      "id": "furor_v",
+      "lemma": "furor",
+      "pos": "verb",
+      "glosses": [
+        "to steal, plunder",
+        "to take away by stealth, remove secretly, to withdraw"
+      ],
+      "paradigm": {
+        "type": "verb",
+        "rows": [
+          "1sg",
+          "2sg",
+          "3sg",
+          "1pl",
+          "2pl",
+          "3pl"
+        ],
+        "cols": [
+          "pres.ind.pass",
+          "imperf.ind.pass",
+          "fut.ind.pass",
+          "pres.subj.pass",
+          "imperf.subj.pass",
+          "pres.imp.pass",
+          "fut.imp.pass"
+        ],
+        "cells": {
+          "1sg.pres.ind.pass": "furor",
+          "2sg.pres.ind.pass": [
+            "furaris",
+            "furare"
+          ],
+          "3sg.pres.ind.pass": "furatur",
+          "1pl.pres.ind.pass": "furamur",
+          "2pl.pres.ind.pass": "furamini",
+          "3pl.pres.ind.pass": "furantur",
+          "1sg.imperf.ind.pass": "furabar",
+          "2sg.imperf.ind.pass": [
+            "furabaris",
+            "furabare"
+          ],
+          "3sg.imperf.ind.pass": "furabatur",
+          "1pl.imperf.ind.pass": "furabamur",
+          "2pl.imperf.ind.pass": "furabamini",
+          "3pl.imperf.ind.pass": "furabantur",
+          "1sg.fut.ind.pass": "furabor",
+          "2sg.fut.ind.pass": [
+            "furaberis",
+            "furabere"
+          ],
+          "3sg.fut.ind.pass": "furabitur",
+          "1pl.fut.ind.pass": "furabimur",
+          "2pl.fut.ind.pass": "furabimini",
+          "3pl.fut.ind.pass": "furabuntur",
+          "1sg.pres.subj.pass": "furer",
+          "2sg.pres.subj.pass": [
+            "fureris",
+            "furere"
+          ],
+          "3sg.pres.subj.pass": "furetur",
+          "1pl.pres.subj.pass": "furemur",
+          "2pl.pres.subj.pass": "furemini",
+          "3pl.pres.subj.pass": "furentur",
+          "1sg.imperf.subj.pass": "furarer",
+          "2sg.imperf.subj.pass": [
+            "furareris",
+            "furarere"
+          ],
+          "3sg.imperf.subj.pass": "furaretur",
+          "1pl.imperf.subj.pass": "furaremur",
+          "2pl.imperf.subj.pass": "furaremini",
+          "3pl.imperf.subj.pass": "furarentur",
+          "2sg.pres.imp.pass": "furare",
+          "2pl.pres.imp.pass": "furamini",
+          "2sg.fut.imp.pass": "furator",
+          "3sg.fut.imp.pass": "furator",
+          "3pl.fut.imp.pass": "furantor",
+          "inf.pres.pass": "furari",
+          "pap.nom.sg.masc": "furans",
+          "inf.fut.pass": "furaturum esse",
+          "fap.nom.sg.masc": [
+            "furaturus",
+            "furandus"
+          ],
+          "inf.perf.pass": [
+            "furatum esse",
+            "furasse"
+          ],
+          "ger.gen.sg": "furandi",
+          "ger.dat.sg": "furando",
+          "ger.acc.sg": "furandum",
+          "ger.abl.sg": "furando",
+          "pap.nom.sg.fem": "furans",
+          "pap.nom.sg.neut": "furans",
+          "pap.nom.pl.fem": "furantes",
+          "pap.nom.pl.masc": "furantes",
+          "pap.nom.pl.neut": "furantia",
+          "pap.gen.sg.fem": "furantis",
+          "pap.gen.sg.masc": "furantis",
+          "pap.gen.sg.neut": "furantis",
+          "pap.gen.pl.fem": "furantium",
+          "pap.gen.pl.masc": "furantium",
+          "pap.gen.pl.neut": "furantium",
+          "pap.dat.sg.fem": "furanti",
+          "pap.dat.sg.masc": "furanti",
+          "pap.dat.sg.neut": "furanti",
+          "pap.dat.pl.fem": "furantibus",
+          "pap.dat.pl.masc": "furantibus",
+          "pap.dat.pl.neut": "furantibus",
+          "pap.acc.sg.fem": "furantem",
+          "pap.acc.sg.masc": "furantem",
+          "pap.acc.sg.neut": "furans",
+          "pap.acc.pl.fem": [
+            "furantes",
+            "furantis"
+          ],
+          "pap.acc.pl.masc": [
+            "furantes",
+            "furantis"
+          ],
+          "pap.acc.pl.neut": "furantia",
+          "pap.abl.sg.fem": [
+            "furante",
+            "furanti"
+          ],
+          "pap.abl.sg.masc": [
+            "furante",
+            "furanti"
+          ],
+          "pap.abl.sg.neut": [
+            "furante",
+            "furanti"
+          ],
+          "pap.abl.pl.fem": "furantibus",
+          "pap.abl.pl.masc": "furantibus",
+          "pap.abl.pl.neut": "furantibus",
+          "pap.voc.sg.fem": "furans",
+          "pap.voc.sg.masc": "furans",
+          "pap.voc.sg.neut": "furans",
+          "pap.voc.pl.fem": "furantes",
+          "pap.voc.pl.masc": "furantes",
+          "pap.voc.pl.neut": "furantia",
+          "fap.nom.sg.fem": "furatura",
+          "fap.nom.sg.neut": "furaturum",
+          "fap.nom.pl.masc": "furaturi",
+          "fap.nom.pl.fem": "furaturae",
+          "fap.nom.pl.neut": "furatura",
+          "fap.gen.sg.masc": "furaturi",
+          "fap.gen.sg.fem": "furaturae",
+          "fap.gen.sg.neut": "furaturi",
+          "fap.gen.pl.masc": "furaturorum",
+          "fap.gen.pl.fem": "furaturarum",
+          "fap.gen.pl.neut": "furaturorum",
+          "fap.dat.sg.masc": "furaturo",
+          "fap.dat.sg.fem": "furaturae",
+          "fap.dat.sg.neut": "furaturo",
+          "fap.dat.pl.fem": "furaturis",
+          "fap.dat.pl.masc": "furaturis",
+          "fap.dat.pl.neut": "furaturis",
+          "fap.acc.sg.masc": "furaturum",
+          "fap.acc.sg.fem": "furaturam",
+          "fap.acc.sg.neut": "furaturum",
+          "fap.acc.pl.masc": "furaturos",
+          "fap.acc.pl.fem": "furaturas",
+          "fap.acc.pl.neut": "furatura",
+          "fap.abl.sg.masc": "furaturo",
+          "fap.abl.sg.fem": "furatura",
+          "fap.abl.sg.neut": "furaturo",
+          "fap.abl.pl.fem": "furaturis",
+          "fap.abl.pl.masc": "furaturis",
+          "fap.abl.pl.neut": "furaturis",
+          "fap.voc.sg.masc": "furature",
+          "fap.voc.sg.fem": "furatura",
+          "fap.voc.sg.neut": "furaturum",
+          "fap.voc.pl.masc": "furaturi",
+          "fap.voc.pl.fem": "furaturae",
+          "fap.voc.pl.neut": "furatura"
+        }
+      },
+      "ppp_paradigm": {
+        "type": "ppp",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl",
+          "voc"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "ppp.nom.sg.masc": "furatus",
+          "ppp.nom.sg.fem": "furata",
+          "ppp.nom.sg.neut": "furatum",
+          "ppp.nom.pl.masc": "furati",
+          "ppp.nom.pl.fem": "furatae",
+          "ppp.nom.pl.neut": "furata",
+          "ppp.gen.sg.masc": "furati",
+          "ppp.gen.sg.fem": "furatae",
+          "ppp.gen.sg.neut": "furati",
+          "ppp.gen.pl.masc": "furatorum",
+          "ppp.gen.pl.fem": "furatarum",
+          "ppp.gen.pl.neut": "furatorum",
+          "ppp.dat.sg.masc": "furato",
+          "ppp.dat.sg.fem": "furatae",
+          "ppp.dat.sg.neut": "furato",
+          "ppp.dat.pl.fem": "furatis",
+          "ppp.dat.pl.masc": "furatis",
+          "ppp.dat.pl.neut": "furatis",
+          "ppp.acc.sg.masc": "furatum",
+          "ppp.acc.sg.fem": "furatam",
+          "ppp.acc.sg.neut": "furatum",
+          "ppp.acc.pl.masc": "furatos",
+          "ppp.acc.pl.fem": "furatas",
+          "ppp.acc.pl.neut": "furata",
+          "ppp.abl.sg.masc": "furato",
+          "ppp.abl.sg.fem": "furata",
+          "ppp.abl.sg.neut": "furato",
+          "ppp.abl.pl.fem": "furatis",
+          "ppp.abl.pl.masc": "furatis",
+          "ppp.abl.pl.neut": "furatis",
+          "ppp.voc.sg.masc": "furate",
+          "ppp.voc.sg.fem": "furata",
+          "ppp.voc.sg.neut": "furatum",
+          "ppp.voc.pl.masc": "furati",
+          "ppp.voc.pl.fem": "furatae",
+          "ppp.voc.pl.neut": "furata"
+        }
+      },
+      "principal_parts": [
+        "furor",
+        "furari",
+        "furatus sum"
+      ],
+      "head": "furor, furari, furatus sum",
+      "headword": "fūror",
+      "freq": "B"
+    },
+    {
+      "id": "celer_adj",
+      "lemma": "celer",
+      "pos": "adj",
+      "glosses": [
+        "fast, swift, quick, speedy, fleet"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": "celer",
+          "nom.sg.fem": "celeris",
+          "nom.sg.neut": "celere",
+          "nom.pl.fem": "celeres",
+          "nom.pl.masc": "celeres",
+          "nom.pl.neut": "celeria",
+          "gen.sg.fem": "celeris",
+          "gen.sg.masc": "celeris",
+          "gen.sg.neut": "celeris",
+          "gen.pl.fem": "celerium",
+          "gen.pl.masc": "celerium",
+          "gen.pl.neut": "celerium",
+          "dat.sg.fem": "celeri",
+          "dat.sg.masc": "celeri",
+          "dat.sg.neut": "celeri",
+          "dat.pl.fem": "celeribus",
+          "dat.pl.masc": "celeribus",
+          "dat.pl.neut": "celeribus",
+          "acc.sg.fem": "celerem",
+          "acc.sg.masc": "celerem",
+          "acc.sg.neut": "celere",
+          "acc.pl.fem": [
+            "celeres",
+            "celeris"
+          ],
+          "acc.pl.masc": [
+            "celeres",
+            "celeris"
+          ],
+          "acc.pl.neut": "celeria",
+          "abl.sg.fem": "celeri",
+          "abl.sg.masc": "celeri",
+          "abl.sg.neut": "celeri",
+          "abl.pl.fem": "celeribus",
+          "abl.pl.masc": "celeribus",
+          "abl.pl.neut": "celeribus",
+          "voc.sg.masc": "celer",
+          "voc.sg.fem": "celeris",
+          "voc.sg.neut": "celere",
+          "voc.pl.fem": "celeres",
+          "voc.pl.masc": "celeres",
+          "voc.pl.neut": "celeria"
+        }
+      },
+      "head": "celer, celeris, celere",
+      "freq": "A"
+    },
+    {
+      "id": "aliqui_pron",
+      "lemma": "aliqui",
+      "pos": "pron",
+      "glosses": [
+        "some, any",
+        "someone, something, anyone, anything"
+      ],
+      "paradigm": {
+        "type": "adj",
+        "rows": [
+          "nom",
+          "gen",
+          "dat",
+          "acc",
+          "abl"
+        ],
+        "cols": [
+          "sg.masc",
+          "sg.fem",
+          "sg.neut",
+          "pl.masc",
+          "pl.fem",
+          "pl.neut"
+        ],
+        "cells": {
+          "nom.sg.masc": [
+            "aliqui",
+            "aliquis"
+          ],
+          "nom.sg.fem": "aliqua",
+          "nom.sg.neut": "aliquod",
+          "nom.pl.masc": "aliqui",
+          "nom.pl.fem": "aliquae",
+          "nom.pl.neut": "aliqua",
+          "gen.sg.fem": "alicuius",
+          "gen.sg.masc": "alicuius",
+          "gen.sg.neut": "alicuius",
+          "gen.pl.masc": "aliquorum",
+          "gen.pl.fem": "aliquarum",
+          "gen.pl.neut": "aliquorum",
+          "dat.sg.fem": "alicui",
+          "dat.sg.masc": "alicui",
+          "dat.sg.neut": "alicui",
+          "dat.pl.fem": [
+            "aliquis",
+            "aliquibus"
+          ],
+          "dat.pl.masc": [
+            "aliquis",
+            "aliquibus"
+          ],
+          "dat.pl.neut": [
+            "aliquis",
+            "aliquibus"
+          ],
+          "acc.sg.masc": "aliquem",
+          "acc.sg.fem": "aliquam",
+          "acc.sg.neut": "aliquod",
+          "acc.pl.masc": "aliquos",
+          "acc.pl.fem": "aliquas",
+          "acc.pl.neut": "aliqua",
+          "abl.sg.masc": "aliquo",
+          "abl.sg.fem": "aliqua",
+          "abl.sg.neut": "aliquo",
+          "abl.pl.fem": [
+            "aliquis",
+            "aliquibus"
+          ],
+          "abl.pl.masc": [
+            "aliquis",
+            "aliquibus"
+          ],
+          "abl.pl.neut": [
+            "aliquis",
+            "aliquibus"
+          ]
+        }
+      },
+      "head": "aliqui or aliquei or aliquis, aliqua, aliquod",
+      "headword": "aliquī",
+      "freq": "A"
     }
   ]
 }

@@ -267,6 +267,7 @@ def main():
             if cid in by_id:
                 raise SystemExit(f"{cid}: already exists")
             lemma, abbrev = cid.rsplit("_", 1)
+            lemma = lemma.rstrip("0123456789")   # homograph id: edo2_v -> edo
             pos = {v: k for k, v in audit.POS_SUFFIX.items()}[abbrev]
             stub = {"id": cid, "lemma": lemma, "pos": pos, "glosses": []}
             lex["lemmata"].append(stub)

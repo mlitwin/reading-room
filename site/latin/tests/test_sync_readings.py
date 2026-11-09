@@ -52,5 +52,17 @@ class TestSyncToken(unittest.TestCase):
         self.assertNotIn("selected_lemma_id", t)
 
 
+    def test_prune_drops_unyielded_and_refreshes_parses(self):
+        t = {"kind": "word", "surface": "alta", "lemma_id": "altus_adj", "parses": ["acc.sg.fem"],
+             "__data_matches": "altus_adj:acc.sg.fem;gone_n:nom.sg", "selected_lemma_id": "altus_adj"}
+        cards = dict(CARDS, gone_n=({"id": "gone_n", "lemma": "gone", "pos": "noun",
+                                     "paradigm": {"cells": {"nom.sg": "gone"}}}, None))
+        idx = sr.surface_index(cards)
+        sr.sync_token(t, idx, cards, prune=True)
+        self.assertNotIn("gone_n", t["__data_matches"])  # its card can't yield "alta"
+        self.assertIn("altus_adj:nom.pl.neut,nom.sg.fem", t["__data_matches"])  # drifted parse refreshed
+        self.assertIn("alo_v", t["__data_matches"])  # missing reading added
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -260,7 +260,10 @@
             "nom.sg.masc",
             "voc.sg.masc"
           ],
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "furor_n:nom.sg.masc,voc.sg.masc;furor_v:1sg.pres.ind.pass",
+          "selected_lemma_id": "furor_n",
+          "selected_by": "parser"
         },
         {
           "kind": "punct",
@@ -3632,7 +3635,10 @@
           "parses": [
             "3sg.fut.ind.pass"
           ],
-          "pos_hint": "verb"
+          "pos_hint": "verb",
+          "__data_matches": "lego_v:3sg.fut.ind.pass;lego2_v:3sg.pres.subj.pass",
+          "selected_lemma_id": "lego_v",
+          "selected_by": "parser"
         }
       ]
     },
@@ -5887,7 +5893,7 @@
             "prep"
           ],
           "pos_hint": "prep",
-          "__data_matches": "sine_prep:adv,prep;sino_v:2sg.pres.imp.act;sinus_n:voc.sg.masc",
+          "__data_matches": "sine_prep:adv,prep;sino_v:2sg.pres.imp.act",
           "selected_lemma_id": "sine_prep",
           "selected_by": "parser"
         },
