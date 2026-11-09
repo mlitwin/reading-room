@@ -161,8 +161,30 @@ async function loadJson(path) {
 // Try loading from a path; on ENOENT, derive in-memory via the build helper.
 // This makes validate self-contained: it works on a fresh checkout without
 // requiring `make build` to have been run first.
+// Derived artifacts are validated as the *current sources* would produce them,
+// not as last built into docs/: `make build` validates before it rebuilds, so
+// reading docs/assets would check the previous build's glossary/concordance
+// and fail (or pass) on stale data after any lexicon or manuscript edit.
+// The glossary needs only the lexicon, so it is always derived. The
+// concordance needs the chapter markdown, which is gitignored: derive it when
+// present (after `make manuscript-md`), else fall back to the committed copy
+// (CI, which validates the committed docs/).
+async function hasChapterMarkdown(textSlug) {
+  try {
+    const files = await readdir(join(REPO_ROOT, 'content', textSlug));
+    return files.some((f) => /^book\d+-\w+\.md$/.test(f));
+  } catch {
+    return false;
+  }
+}
+
 async function loadOrDerive(suiteName, textSlug, explicitPath, lexiconDoc) {
   if (explicitPath) return loadJson(explicitPath);
+  if (suiteName === 'glossary') return buildGlossary(lexiconDoc).glossary;
+  if (suiteName === 'concordance' && await hasChapterMarkdown(textSlug)) {
+    const { concordance } = await buildConcordance(textSlug, join(REPO_ROOT, 'content', textSlug));
+    return concordance;
+  }
   const canonical = suiteName === 'concordance'
     ? canonicalConcordancePath(textSlug)
     : CANONICAL_PATHS[suiteName];
@@ -187,6 +209,10 @@ async function loadOrDerive(suiteName, textSlug, explicitPath, lexiconDoc) {
 async function loadOrDeriveSourceTokens(textSlug, explicitPath) {
   if (explicitPath) {
     try { return await loadJson(explicitPath); } catch (e) { if (e.code !== 'ENOENT') throw e; }
+  }
+  if (await hasChapterMarkdown(textSlug)) {
+    const { sourceTokens } = await buildConcordance(textSlug, join(REPO_ROOT, 'content', textSlug));
+    return sourceTokens;
   }
   const canonical = canonicalSourceTokensPath(textSlug);
   try {
