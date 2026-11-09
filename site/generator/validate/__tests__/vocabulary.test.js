@@ -54,3 +54,32 @@ test('V3 fails for a malformed overlay card', () => {
   const rep = report([overlay('marvell-hortus', bad)], { lexicon: sharedLexicon([]) });
   assert.equal(inv(rep, 'V3').passed, false);
 });
+
+const refs = (book, ...ids) => ({ book, refs: new Map(ids.map((id) => [id, `line 1 "${id}"`])) });
+
+test('V4 passes when a book uses shared cards and its own overlay', () => {
+  const shared = sharedLexicon([card({ id: 'flos_n', lemma: 'flos', glosses: ['flower'], head: 'flos, floris, m.' })]);
+  const rep = report([overlay('marvell-hortus', card())], {
+    lexicon: shared, bookRefs: [refs('marvell-hortus', 'hortus_n', 'flos_n')],
+  });
+  assert.ok(inv(rep, 'V4').passed);
+});
+
+test("V4 fails when a book uses another book's overlay card", () => {
+  const rep = report([overlay('marvell-hortus', card())], {
+    lexicon: sharedLexicon([]), bookRefs: [refs('ovid-metamorphoses', 'hortus_n')],
+  });
+  const v = inv(rep, 'V4');
+  assert.equal(v.passed, false);
+  assert.match(v.violations[0].message, /defined only in marvell-hortus\/vocabulary/);
+  assert.match(v.violations[0].path, /^ovid-metamorphoses:/);
+});
+
+test('V4 fails for an id defined nowhere', () => {
+  const rep = report([], { lexicon: sharedLexicon([]), bookRefs: [refs('ovid-metamorphoses', 'nusquam_n')] });
+  assert.match(inv(rep, 'V4').violations[0].message, /not defined/);
+});
+
+test('V4 is a no-op without bookRefs', () => {
+  assert.ok(inv(report([], { lexicon: sharedLexicon([]) }), 'V4').passed);
+});

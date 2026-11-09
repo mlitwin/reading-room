@@ -82,6 +82,28 @@ async function collectVocabularyOverlays() {
   return out;
 }
 
+// Every lemma id each book's manuscript tokens reference (primary, selected,
+// and every data-matches candidate), with its first location — for V4.
+async function collectBookLemmaRefs() {
+  const out = [];
+  for (const book of await discoverTexts()) {
+    const ms = await loadJson(join(CONTENT_DIR, book, 'manuscript.latin.json'));
+    const refs = new Map();
+    for (const line of ms.lines) {
+      for (const t of line.tokens) {
+        if (t.kind !== 'word') continue;
+        const ids = [t.lemma_id, t.selected_lemma_id,
+          ...String(t.__data_matches ?? '').split(';').map((p) => p.split(':')[0])];
+        for (const id of ids) {
+          if (id && !refs.has(id)) refs.set(id, `line ${line.n} "${t.surface}"`);
+        }
+      }
+    }
+    out.push({ book, refs });
+  }
+  return out;
+}
+
 const CANONICAL_PATHS = {
   grammar: join(LANG_DIR, 'grammar.json'),
   lexicon: join(LANG_DIR, 'lexicon.json'),
@@ -209,6 +231,10 @@ async function runOne(suiteName, values, sharedCtx) {
       : suiteName === 'lexicon'
         ? sharedCtx.lexiconDocs.merged
         : await loadOrDerive(suiteName, textSlug, null, sharedCtx.lexicon);
+
+  if (suiteName === 'vocabulary' && !values.data) {
+    ctx.bookRefs = await collectBookLemmaRefs();
+  }
 
   if (suiteName === 'concordance') {
     try {

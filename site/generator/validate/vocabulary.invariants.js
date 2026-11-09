@@ -1,4 +1,4 @@
-// Vocabulary-overlay invariants (V1–V3).
+// Vocabulary-overlay invariants (V1–V4).
 //
 // Per-book vocabulary/ cards (content/<book>/vocabulary/*.json) are merged into
 // a single flat runtime lexicon asset (docs/assets/lexicon.json), keyed by id
@@ -54,6 +54,34 @@ export const vocabularyInvariants = [
           violations.push({
             path: o.id,
             message: `${o.rel} shadows a different shared-lexicon entry; the runtime lexicon is one flat map, so this would leak into every book — rename it or edit the shared lexicon instead`,
+          });
+        }
+      }
+      return violations;
+    },
+  },
+  {
+    id: 'V4',
+    description: "A book's tokens use only shared cards or that book's own overlay",
+    // The build resolves each page's spans against the shared lexicon plus the
+    // page's *own* book overlay (renderLatinSpans), while the merged lexicon
+    // the other suites check is global — so a token pointing at another book's
+    // overlay card passes C2 yet aborts the build mid-write. ctx.bookRefs:
+    // Array<{ book, refs: Map<lemmaId, location> }>, from each manuscript.
+    check(data, ctx) {
+      /** @type {Violation[]} */
+      const violations = [];
+      const shared = new Set((ctx.lexicon?.lemmata ?? []).map((e) => e.id));
+      for (const { book, refs } of ctx.bookRefs ?? []) {
+        const own = new Set(data.filter((o) => o.book === book).map((o) => o.id));
+        for (const [id, where] of refs) {
+          if (shared.has(id) || own.has(id)) continue;
+          const elsewhere = data.find((o) => o.id === id);
+          violations.push({
+            path: `${book}:${where}`,
+            message: elsewhere
+              ? `"${id}" is defined only in ${elsewhere.rel}; promote it to the shared lexicon to use it from ${book}`
+              : `"${id}" is not defined in the shared lexicon or ${book}/vocabulary`,
           });
         }
       }
