@@ -7,22 +7,22 @@ Read-only comparison of the lexicon cards and text annotations with Wiktionary. 
 a disagreement to look at, not an automatic error: Wiktionary covers Neo-Latin and proper names
 unevenly, and its paradigms list classical forms only. Full detail: `.tmp/wiktionary-audit.json`.
 
-Cards checked: 1875 (1777 matched to a Wiktionary entry).
+Cards checked: 1877 (1778 matched to a Wiktionary entry).
 
 | check | finding | count |
 |---|---|---|
-| W1 | Card headword not in Wiktionary | 61 |
-| W2 | Card headword is an inflected form / variant of another lemma | 11 |
-| W3 | No Wiktionary entry with the card's part of speech | 26 |
+| W1 | Card headword not in Wiktionary | 62 |
+| W2 | Card headword is an inflected form / variant of another lemma | 10 |
+| W3 | No Wiktionary entry with the card's part of speech | 27 |
 | W4 | Noun gender disagrees | 2 |
 | W5 | Plurale tantum in Wiktionary, card has singular cells | 0 |
 | W6 | Paradigm cells Wiktionary doesn't give | 34 |
 | W7 | Card id doesn't match its pos / headword | 0 |
 | T1 | Selected reading not among Wiktionary's analyses of the surface | 27 |
 | T2 | Selected lemma matches, but no parse does | 3 |
-| T3 | Known lemma's reading missing from the token's candidates | 148 |
+| T3 | Known lemma's reading missing from the token's candidates | 49 |
 
-## W1 — Card headword not in Wiktionary (61)
+## W1 — Card headword not in Wiktionary (62)
 
 - `Chloe_n` (marvell-hortus/vocabulary) — Chloe
 - `Clymene_n` (lexicon.json) — Clymene
@@ -80,18 +80,18 @@ Cards checked: 1875 (1777 matched to a Wiktionary entry).
 - `pythion_n` (lexicon.json) — pythion
 - `que_enclit` (lexicon.json) — que
 - `recandesco_v` (lexicon.json) — recandesco
+- `retempto_v` (lexicon.json) — retempto
 - `ruro_v` (lexicon.json) — ruro
 - `sperchios_n` (lexicon.json) — sperchios
 - `themis_n` (lexicon.json) — themis
 - `tricuspis_adj` (lexicon.json) — tricuspis
 - `ve_enclit` (lexicon.json) — ve
 
-## W2 — Card headword is an inflected form / variant of another lemma (11)
+## W2 — Card headword is an inflected form / variant of another lemma (10)
 
 - `admissum_n` (lexicon.json) — admissum → admissus, admittō
 - `bini_num` (lexicon.json) — bini → bīnus
 - `conata_n` (lexicon.json) — conata → cōnātus
-- `correpto_v` (lexicon.json) — correpto → correptus
 - `corycis_adj` (lexicon.json) — corycis → cōrycus
 - `neu_conj` (lexicon.json) — neu → nēve
 - `quini_num` (lexicon.json) — quini → quīnus
@@ -100,7 +100,7 @@ Cards checked: 1875 (1777 matched to a Wiktionary entry).
 - `tartara_n` (lexicon.json) — tartara → Tartara
 - `titania_n` (lexicon.json) — titania → tītānium
 
-## W3 — No Wiktionary entry with the card's part of speech (26)
+## W3 — No Wiktionary entry with the card's part of speech (27)
 
 - `Arcitenens_n` (lexicon.json) — card noun; Wiktionary adj
 - `adspergo_n` (lexicon.json) — card noun; Wiktionary verb
@@ -119,6 +119,7 @@ Cards checked: 1875 (1777 matched to a Wiktionary entry).
 - `nihil_n` (lexicon.json) — card noun; Wiktionary adv, pron
 - `nocens_adj` (lexicon.json) — card adj; Wiktionary verb
 - `praecinctus_adj` (lexicon.json) — card adj; Wiktionary verb
+- `proximus_adj` (lexicon.json) — card adj; Wiktionary noun
 - `quasi_adv` (lexicon.json) — card adv; Wiktionary conj
 - `relictus_adj` (lexicon.json) — card adj; Wiktionary noun, verb
 - `satus_adj` (lexicon.json) — card adj; Wiktionary noun, verb
@@ -209,20 +210,15 @@ Sorted by the share of compared cells that disagree.
 - ovid-metamorphoses 138 **itum** → `eo_v` — token nom.sg; Wiktionary inv,ppp.nom.sg,sup.acc
 - ovid-metamorphoses 498 **comantur** → `como_v` — token 3pl.pres.ind.pass; Wiktionary 3pl.pres.subj.pass
 
-## T3 — Known lemma's reading missing from the token's candidates (148)
+## T3 — Known lemma's reading missing from the token's candidates (49)
 
 Grouped by the missing lemma (occurrences). Limited to lemmata that already have
 a card, i.e. a known word the token's candidate tabs don't offer.
 
-- edō ×87
 - sinō ×16
 - sōlus ×3
 - iuvencus ×3
-- discors ×2
-- āēr ×2
-- locus ×2
 - artus ×2
-- mānus ×2
 - ignōscō ×2
 - cōnsors ×1
 - potior ×1
@@ -230,9 +226,7 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - dō ×1
 - fabricō ×1
 - trahō ×1
-- proximus ×1
 - ferō ×1
-- aureus ×1
 - ūtor ×1
 - minor ×1
 - tuor ×1
@@ -242,12 +236,10 @@ a card, i.e. a known word the token's candidate tabs don't offer.
 - moveō ×1
 - capitium ×1
 - speciēs ×1
-- truncus ×1
 - sum ×1
 - patior ×1
 - sonō ×1
 - adveniō ×1
-- malus ×1
 - pariō ×1
 - gemō ×1
 - fīgō ×1

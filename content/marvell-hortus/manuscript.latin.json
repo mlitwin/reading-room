@@ -3313,7 +3313,9 @@
             "dat.pl.masc",
             "abl.pl.masc"
           ],
-          "pos_hint": "noun"
+          "pos_hint": "noun",
+          "__data_matches": "truncus_n:dat.pl.masc,abl.pl.masc;truncus_adj:abl.pl.fem,abl.pl.masc,abl.pl.neut,dat.pl.fem,dat.pl.masc,dat.pl.neut",
+          "selected_lemma_id": "truncus_n"
         },
         {
           "kind": "punct",

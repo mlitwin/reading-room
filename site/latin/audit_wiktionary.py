@@ -179,7 +179,9 @@ def card_forms(card):
 
 def audit_tokens(cards, matched):
     find = defaultdict(list)
-    known = {norm(c.get("lemma", "")) for c, _ in cards.values()} | {norm(e["word"]) for e in matched.values()}
+    # Homograph-aware: the exact (macronized) Wiktionary words our cards were
+    # matched to — edō "eat" is not known just because ēdō "put forth" is.
+    known = {e["word"] for e in matched.values()}
     for ms in sorted((ROOT / "content").glob("*/manuscript.latin.json")):
         text = ms.parent.name
         for line in json.loads(ms.read_text())["lines"]:
@@ -235,7 +237,7 @@ def audit_tokens(cards, matched):
                 for (k, p), a in wl.items():
                     # Only readings whose lemma we already have a card for: a known
                     # word the token doesn't offer (rare homographs like edō are noise).
-                    if p in CONTENT_POS and a["codes"] and k in known \
+                    if p in CONTENT_POS and a["codes"] and a["word"] in known \
                             and not related(a["word"]) & cand_lemmas:
                         find["T3"].append({"where": where, "surface": surface,
                                            "detail": f"{a['word']} ({p}) {','.join(a['codes'][:3])}"})
