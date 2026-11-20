@@ -194,3 +194,9 @@ footer.piece a {
 
 footer.piece a:hover { color: var(--accent); }
 
+/* Attribution footer (front-matter `attribution` / `source`) — the credit
+   line licensed texts require on every page. Sits above the prev/next bar. */
+footer.piece.attribution { color: var(--muted); line-height: 1.5; overflow-wrap: anywhere; }
+footer.piece.attribution p { margin: 0.4rem 0; }
+footer.piece.attribution a { text-decoration: underline; text-underline-offset: 2px; }
+

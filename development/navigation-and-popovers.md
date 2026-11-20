@@ -37,6 +37,19 @@ note references are a **build error** (symmetric with the strictness below).
 Note→note references are validated after extraction and pulled in via transitive
 closure so a page only emits the note sources it can actually reach.
 
+Notes can also come from a book's `notes.json` (`{ key → { title, html } }`),
+merged into the same dictionary — used for imported apparatus too large for a
+notes page (Milton's *History of Britain*: ~1,700 annotations). `note:` links in
+the JSON HTML work the same way.
+
+### Inline glosses (not a popover)
+
+`<span class="inline-gloss" data-gloss="spoken">spok'n</span>` shows its gloss in
+a small CSS bubble on hover, or on tap (`cards.js` toggles `.inline-gloss-open`).
+It never touches `#popover-host`, so a short gloss (a modernised spelling, an
+expanded abbreviation) doesn't push a stack entry. Inside a note link the note
+wins.
+
 ### 2. Latin word cards — `data-matches` spans
 
 Inside a `.latin-passage` block, each `<span data-matches="lemma:parse,…">word</span>`

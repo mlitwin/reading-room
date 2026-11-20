@@ -24,6 +24,7 @@ site/
   reader/               client CSS (reader/css/*) + JS (cards.js) copied into docs/assets
   latin/                Python pipeline: TEI → spans → lexicon cards (Ovid)
   marvell/              manuscript builder for the Marvell parallel-poem book
+  milton/               one-shot importer for Milton's History of Britain (Dartmouth MRR)
   figures/              generated SVG figures for the math books
 docs/                   generated output, served by GitHub Pages — committed, DO NOT hand-edit
 app/                    iOS reader app (XcodeGen + SwiftUI + WKWebView)

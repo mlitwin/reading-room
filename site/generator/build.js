@@ -7,7 +7,7 @@ import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import hljs from 'highlight.js';
 import katex from '@vscode/markdown-it-katex';
-import { validatePiece, validateNode } from './schema.js';
+import { validatePiece, validateNode, validateNotesJson } from './schema.js';
 import { buildGlossary } from './build-glossary.js';
 import { buildConcordance } from './build-concordance.js';
 import { buildGrammarPage } from './build-grammar-page.js';
@@ -398,6 +398,29 @@ function grammarNotesDict(grammar) {
     for (const c of collisions.slice(0, 5)) console.warn(`  ${c}`);
   }
   return dict;
+}
+
+// A book may also carry its notes as data: `notes.json` beside its index.md,
+// `{ key → { title, html } }` (see NotesJsonSchema). Same notesDict shape as
+// extractNotes; `note:` links in the HTML become popover buttons, and every
+// such reference must resolve within the file or to extraKnownSlugs.
+async function loadJsonNotes(pieceAbsDir, extraKnownSlugs = null) {
+  const file = path.join(pieceAbsDir, 'notes.json');
+  if (!(await fileExists(file))) return null;
+  const data = validateNotesJson(file, JSON.parse(await fs.readFile(file, 'utf8')));
+  const notes = {};
+  for (const [key, { title, html }] of Object.entries(data)) {
+    const refs = [...html.matchAll(/<a\s+href="note:([^"]+)">/g)].map(m => m[1]);
+    notes[key] = { title, html: grammarGlossToHtml(html), refs };
+  }
+  for (const [k, n] of Object.entries(notes)) {
+    for (const ref of n.refs) {
+      if (!notes[ref] && !(extraKnownSlugs && extraKnownSlugs.has(ref))) {
+        throw new Error(`${file}: note "${k}" references undefined note "${ref}".`);
+      }
+    }
+  }
+  return notes;
 }
 
 // Follow note→note references from a starting set, returning every key
@@ -853,6 +876,18 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
   const breadcrumbHtml = `<nav class="breadcrumb">${renderBreadcrumbHtml(node)}</nav>`;
   const prevNextHtml = isStandaloneLeaf ? '' : renderPrevNextHtml(node, navPages);
 
+  // Attribution footer: the piece's (inherited) credit line plus this page's
+  // own source link. Required on every page for CC BY-licensed text.
+  const attribution = inheritedField(node, 'attribution');
+  const source = node.front.source;
+  const attributionParts = [
+    attribution ? md.renderInline(attribution, { filePath: node.absPath }) : '',
+    source ? `Source: <a href="${escapeAttr(source)}">${escapeHtml(source)}</a>` : '',
+  ].filter(Boolean);
+  const attributionHtml = attributionParts.length
+    ? `<footer class="piece attribution">${attributionParts.map(p => `<p>${p}</p>`).join('')}</footer>`
+    : '';
+
   const tagsHtml = tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('');
   return applyTemplate(pageTpl, {
     title: escapeHtml(title),
@@ -863,6 +898,7 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
     assetPrefix,
     breadcrumb: breadcrumbHtml,
     pagenav: prevNextHtml,
+    attribution: attributionHtml,
   });
 }
 
@@ -1209,7 +1245,16 @@ export async function build() {
       }
       const notesLeaf = noteLeaves[0] || null;
       const grammarSlugs = new Set(Object.keys(grammarDict));
-      const editorialNotes = notesLeaf ? extractNotes(notesLeaf.content, notesLeaf.absPath, grammarSlugs) : null;
+      const pageNotes = notesLeaf ? extractNotes(notesLeaf.content, notesLeaf.absPath, grammarSlugs) : null;
+      const dataNotes = await loadJsonNotes(path.dirname(piece.absPath), grammarSlugs);
+      let editorialNotes = pageNotes || dataNotes;
+      if (pageNotes && dataNotes) {
+        const dup = Object.keys(dataNotes).filter(k => pageNotes[k]);
+        if (dup.length) {
+          throw new Error(`${piece.slug}: note key(s) defined in both the notes page and notes.json: ${dup.slice(0, 5).join(', ')}`);
+        }
+        editorialNotes = { ...pageNotes, ...dataNotes };
+      }
 
       // Merge grammar notes in. Grammar wins on slug collision; warn so the
       // editor can rename the passage note. notesDict ends up non-null whenever

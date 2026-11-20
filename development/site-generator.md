@@ -42,11 +42,16 @@ Validated with Zod in `site/generator/schema.js`. Unknown keys pass through.
 | `date` | string \| date | optional; sorts the library (newest first) |
 | `tags` | string[] | optional; only on pieces, not sub-pages |
 | `summary` | string | optional; shown in the library list |
+| `attribution` | string | optional; inline-markdown credit line rendered in a footer on every page of the piece (inherited) — for licensed third-party text |
+| `source` | URL | optional; this page's source document, appended to the attribution footer |
 
 **Node** (a book's sub-page — chapter or section `index.md`): same as Piece
 minus `tags`, plus `notes: true` to mark the single page that holds the book's
 editorial notes / glossary (see the navigation doc). At most one notes page per
-book.
+book. A book can instead (or also) keep its notes as data in a `notes.json`
+beside its `index.md` — `{ key → { title, html } }`, Zod-validated by
+`NotesJsonSchema` — for large imported apparatus; keys must not collide with
+the notes page.
 
 Chapter pages of the manuscript books also carry `lines: [start, end]`, but that
 is written by the manuscript-md generator, not authored by hand.
@@ -87,6 +92,7 @@ numeric prefixes define cascade order) into a single `docs/assets/reader.css`:
 | `06-paradigm.css` | the inflection paradigm grid — see [paradigm-grid-pattern.md](paradigm-grid-pattern.md) |
 | `07-card-detail.css` | glosses, notes, card body detail |
 | `08-reference-grammar.css` | the browsable A&G reference-grammar pages |
+| `09-early-modern-text.css` | early-printed-text conventions: `.title-page` heading blocks, `.verse`, `.roman` in italic, `.inline-gloss` tap/hover glosses |
 
 `highlight.css` and `cards.js` are copied verbatim into `docs/assets/`. The plain-CSS output is one `<link>` that works over both
 transports; there is deliberately no build step for the client assets beyond the

@@ -1,0 +1,75 @@
+/* ============================================================
+   09 · Early-modern printed text
+   Conventions for texts transcribed from early printings (Milton's History of
+   Britain): the printed title-page / book-head block, verse set in prose,
+   roman type inside italic, and `.inline-gloss` — an inline gloss (modernised
+   spelling, expanded abbreviation) shown in a small bubble on hover or tap.
+   ============================================================ */
+
+/* A run of the printed headings ("THE HISTORY OF BRITAIN, …", "The Second
+   Book.") — centred and quiet, so it reads as the printed page rather than
+   competing with the page's own <h1>. */
+.body .title-page {
+  text-align: center;
+  margin: 1.5rem 0 2rem;
+}
+.body .title-page h2,
+.body .title-page h3 {
+  font-family: inherit;
+  font-weight: normal;
+  margin: 0.6rem 0;
+}
+.body .title-page h2 { font-size: 1.3rem; letter-spacing: 0.04em; }
+.body .title-page h3 { font-size: 1rem; line-height: 1.6; }
+
+/* Verse quoted in the prose (not a blockquote: the 1671 print sets it as
+   indented lines, and the default blockquote is muted italic). */
+.body .verse {
+  margin: 1.25rem 0 1.25rem 1.5rem;
+}
+.body .verse p { margin: 0; }
+
+/* Roman inside italic — the printer's reverse emphasis. */
+.body i .roman, .note-popover i .roman { font-style: normal; }
+
+/* ── .inline-gloss ────────────────────────────────────────────────────── */
+
+.inline-gloss {
+  position: relative;
+  cursor: help;
+  text-decoration: underline dotted;
+  text-decoration-color: color-mix(in srgb, var(--muted) 45%, transparent);
+  text-underline-offset: 3px;
+}
+
+.inline-gloss::after {
+  content: attr(data-gloss);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 4px);
+  transform: translateX(-50%);
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  background: var(--fg);
+  color: var(--bg);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.4;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.1s;
+  z-index: 10;
+}
+
+.inline-gloss.inline-gloss-open::after { opacity: 1; visibility: visible; }
+@media (hover: hover) {
+  .inline-gloss:hover::after { opacity: 1; visibility: visible; }
+}
+
+/* Inside a note link the note wins the tap; don't advertise the gloss too. */
+.note-link .inline-gloss { text-decoration: none; cursor: inherit; }
+.note-link .inline-gloss::after { display: none; }

@@ -11,6 +11,11 @@ export const PieceSchema = z.object({
   date: dateLike,
   tags: z.array(z.string()).optional(),
   summary: z.string().optional(),
+  // Credit line (markdown, inline) shown at the foot of every page of the
+  // piece; inherited by sub-pages. For licensed third-party text — e.g. a
+  // CC BY licence's required attribution.
+  attribution: z.string().optional(),
+  source: z.string().url().optional(),
 }).passthrough();
 
 // Node: anything inside a Book — section index.md or a leaf chapter .md.
@@ -22,6 +27,9 @@ export const NodeSchema = z.object({
   date: dateLike,
   summary: z.string().optional(),
   notes: z.boolean().optional(),
+  attribution: z.string().optional(),
+  // URL of the page's own source document, appended to the attribution footer.
+  source: z.string().url().optional(),
 }).passthrough();
 
 function formatIssues(issues) {
@@ -42,6 +50,26 @@ export function validateNode(filePath, data) {
   const result = NodeSchema.safeParse(data ?? {});
   if (!result.success) {
     throw new Error(`${filePath}: front matter validation failed:\n${formatIssues(result.error.issues)}`);
+  }
+  return result.data;
+}
+
+// A book's notes.json: editorial notes keyed by note slug, for books whose
+// notes are imported as data rather than written as a notes page (e.g. Milton's
+// History of Britain, ~1,700 annotations). `html` is the note body; `note:`
+// links inside it become popover buttons like those in a notes page.
+export const NotesJsonSchema = z.record(
+  z.string().regex(/^[A-Za-z0-9][A-Za-z0-9_-]*$/, 'note keys must be id-safe'),
+  z.object({
+    title: z.string().min(1),
+    html: z.string(),
+  }).strict(),
+);
+
+export function validateNotesJson(filePath, data) {
+  const result = NotesJsonSchema.safeParse(data);
+  if (!result.success) {
+    throw new Error(`${filePath}: notes.json validation failed:\n${formatIssues(result.error.issues)}`);
   }
   return result.data;
 }

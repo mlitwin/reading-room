@@ -1,0 +1,765 @@
+{
+  "pages": [
+    {
+      "slug": "milton-history-of-britain",
+      "title": "Milton: The History of Britain",
+      "html_path": "milton-history-of-britain/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        }
+      ],
+      "prev": null,
+      "next": {
+        "title": "Introduction",
+        "html_path": "milton-history-of-britain/introduction.html"
+      }
+    },
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "html_path": "milton-history-of-britain/introduction.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Milton: The History of Britain",
+        "html_path": "milton-history-of-britain/index.html"
+      },
+      "next": {
+        "title": "Book I",
+        "html_path": "milton-history-of-britain/book-1.html"
+      }
+    },
+    {
+      "slug": "book-1",
+      "title": "Book I",
+      "html_path": "milton-history-of-britain/book-1.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Introduction",
+        "html_path": "milton-history-of-britain/introduction.html"
+      },
+      "next": {
+        "title": "Book II",
+        "html_path": "milton-history-of-britain/book-2.html"
+      }
+    },
+    {
+      "slug": "book-2",
+      "title": "Book II",
+      "html_path": "milton-history-of-britain/book-2.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book I",
+        "html_path": "milton-history-of-britain/book-1.html"
+      },
+      "next": {
+        "title": "Book III",
+        "html_path": "milton-history-of-britain/book-3.html"
+      }
+    },
+    {
+      "slug": "book-3",
+      "title": "Book III",
+      "html_path": "milton-history-of-britain/book-3.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book II",
+        "html_path": "milton-history-of-britain/book-2.html"
+      },
+      "next": {
+        "title": "The Digression (Manuscript)",
+        "html_path": "milton-history-of-britain/digression-ms.html"
+      }
+    },
+    {
+      "slug": "digression-ms",
+      "title": "The Digression (Manuscript)",
+      "html_path": "milton-history-of-britain/digression-ms.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book III",
+        "html_path": "milton-history-of-britain/book-3.html"
+      },
+      "next": {
+        "title": "Book IV",
+        "html_path": "milton-history-of-britain/book-4.html"
+      }
+    },
+    {
+      "slug": "book-4",
+      "title": "Book IV",
+      "html_path": "milton-history-of-britain/book-4.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "The Digression (Manuscript)",
+        "html_path": "milton-history-of-britain/digression-ms.html"
+      },
+      "next": {
+        "title": "Book V",
+        "html_path": "milton-history-of-britain/book-5/index.html"
+      }
+    },
+    {
+      "slug": "book-5",
+      "title": "Book V",
+      "html_path": "milton-history-of-britain/book-5/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book IV",
+        "html_path": "milton-history-of-britain/book-4.html"
+      },
+      "next": {
+        "title": "Ecbert",
+        "html_path": "milton-history-of-britain/book-5/ecbert.html"
+      }
+    },
+    {
+      "slug": "ecbert",
+      "title": "Ecbert",
+      "html_path": "milton-history-of-britain/book-5/ecbert.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book V",
+        "html_path": "milton-history-of-britain/book-5/index.html"
+      },
+      "next": {
+        "title": "Ethelwolf",
+        "html_path": "milton-history-of-britain/book-5/ethelwolf.html"
+      }
+    },
+    {
+      "slug": "ethelwolf",
+      "title": "Ethelwolf",
+      "html_path": "milton-history-of-britain/book-5/ethelwolf.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Ecbert",
+        "html_path": "milton-history-of-britain/book-5/ecbert.html"
+      },
+      "next": {
+        "title": "Ethelbald, and Ethelbert",
+        "html_path": "milton-history-of-britain/book-5/ethelbald-and-ethelbert.html"
+      }
+    },
+    {
+      "slug": "ethelbald-and-ethelbert",
+      "title": "Ethelbald, and Ethelbert",
+      "html_path": "milton-history-of-britain/book-5/ethelbald-and-ethelbert.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Ethelwolf",
+        "html_path": "milton-history-of-britain/book-5/ethelwolf.html"
+      },
+      "next": {
+        "title": "Ethelbert alone",
+        "html_path": "milton-history-of-britain/book-5/ethelbert-alone.html"
+      }
+    },
+    {
+      "slug": "ethelbert-alone",
+      "title": "Ethelbert alone",
+      "html_path": "milton-history-of-britain/book-5/ethelbert-alone.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Ethelbald, and Ethelbert",
+        "html_path": "milton-history-of-britain/book-5/ethelbald-and-ethelbert.html"
+      },
+      "next": {
+        "title": "Ethelred",
+        "html_path": "milton-history-of-britain/book-5/ethelred.html"
+      }
+    },
+    {
+      "slug": "ethelred",
+      "title": "Ethelred",
+      "html_path": "milton-history-of-britain/book-5/ethelred.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Ethelbert alone",
+        "html_path": "milton-history-of-britain/book-5/ethelbert-alone.html"
+      },
+      "next": {
+        "title": "Alfred",
+        "html_path": "milton-history-of-britain/book-5/alfred.html"
+      }
+    },
+    {
+      "slug": "alfred",
+      "title": "Alfred",
+      "html_path": "milton-history-of-britain/book-5/alfred.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Ethelred",
+        "html_path": "milton-history-of-britain/book-5/ethelred.html"
+      },
+      "next": {
+        "title": "Edward the Elder",
+        "html_path": "milton-history-of-britain/book-5/edward-the-elder.html"
+      }
+    },
+    {
+      "slug": "edward-the-elder",
+      "title": "Edward the Elder",
+      "html_path": "milton-history-of-britain/book-5/edward-the-elder.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Alfred",
+        "html_path": "milton-history-of-britain/book-5/alfred.html"
+      },
+      "next": {
+        "title": "Athelstan",
+        "html_path": "milton-history-of-britain/book-5/athelstan.html"
+      }
+    },
+    {
+      "slug": "athelstan",
+      "title": "Athelstan",
+      "html_path": "milton-history-of-britain/book-5/athelstan.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Edward the Elder",
+        "html_path": "milton-history-of-britain/book-5/edward-the-elder.html"
+      },
+      "next": {
+        "title": "Edmund",
+        "html_path": "milton-history-of-britain/book-5/edmund.html"
+      }
+    },
+    {
+      "slug": "edmund",
+      "title": "Edmund",
+      "html_path": "milton-history-of-britain/book-5/edmund.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Athelstan",
+        "html_path": "milton-history-of-britain/book-5/athelstan.html"
+      },
+      "next": {
+        "title": "Edred",
+        "html_path": "milton-history-of-britain/book-5/edred.html"
+      }
+    },
+    {
+      "slug": "edred",
+      "title": "Edred",
+      "html_path": "milton-history-of-britain/book-5/edred.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Edmund",
+        "html_path": "milton-history-of-britain/book-5/edmund.html"
+      },
+      "next": {
+        "title": "Edwi",
+        "html_path": "milton-history-of-britain/book-5/edwi.html"
+      }
+    },
+    {
+      "slug": "edwi",
+      "title": "Edwi",
+      "html_path": "milton-history-of-britain/book-5/edwi.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Edred",
+        "html_path": "milton-history-of-britain/book-5/edred.html"
+      },
+      "next": {
+        "title": "Edgar",
+        "html_path": "milton-history-of-britain/book-5/edgar.html"
+      }
+    },
+    {
+      "slug": "edgar",
+      "title": "Edgar",
+      "html_path": "milton-history-of-britain/book-5/edgar.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book V",
+          "html_path": "milton-history-of-britain/book-5/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Edwi",
+        "html_path": "milton-history-of-britain/book-5/edwi.html"
+      },
+      "next": {
+        "title": "Book VI",
+        "html_path": "milton-history-of-britain/book-6/index.html"
+      }
+    },
+    {
+      "slug": "book-6",
+      "title": "Book VI",
+      "html_path": "milton-history-of-britain/book-6/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Edgar",
+        "html_path": "milton-history-of-britain/book-5/edgar.html"
+      },
+      "next": {
+        "title": "Edward the Younger",
+        "html_path": "milton-history-of-britain/book-6/edward-the-younger.html"
+      }
+    },
+    {
+      "slug": "edward-the-younger",
+      "title": "Edward the Younger",
+      "html_path": "milton-history-of-britain/book-6/edward-the-younger.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book VI",
+          "html_path": "milton-history-of-britain/book-6/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Book VI",
+        "html_path": "milton-history-of-britain/book-6/index.html"
+      },
+      "next": {
+        "title": "Ethelred",
+        "html_path": "milton-history-of-britain/book-6/ethelred.html"
+      }
+    },
+    {
+      "slug": "ethelred",
+      "title": "Ethelred",
+      "html_path": "milton-history-of-britain/book-6/ethelred.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book VI",
+          "html_path": "milton-history-of-britain/book-6/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Edward the Younger",
+        "html_path": "milton-history-of-britain/book-6/edward-the-younger.html"
+      },
+      "next": {
+        "title": "Edmund Ironside",
+        "html_path": "milton-history-of-britain/book-6/edmund-ironside.html"
+      }
+    },
+    {
+      "slug": "edmund-ironside",
+      "title": "Edmund Ironside",
+      "html_path": "milton-history-of-britain/book-6/edmund-ironside.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book VI",
+          "html_path": "milton-history-of-britain/book-6/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Ethelred",
+        "html_path": "milton-history-of-britain/book-6/ethelred.html"
+      },
+      "next": {
+        "title": "Canute, or Knute",
+        "html_path": "milton-history-of-britain/book-6/canute-or-knute.html"
+      }
+    },
+    {
+      "slug": "canute-or-knute",
+      "title": "Canute, or Knute",
+      "html_path": "milton-history-of-britain/book-6/canute-or-knute.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book VI",
+          "html_path": "milton-history-of-britain/book-6/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Edmund Ironside",
+        "html_path": "milton-history-of-britain/book-6/edmund-ironside.html"
+      },
+      "next": {
+        "title": "Harold",
+        "html_path": "milton-history-of-britain/book-6/harold.html"
+      }
+    },
+    {
+      "slug": "harold",
+      "title": "Harold",
+      "html_path": "milton-history-of-britain/book-6/harold.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book VI",
+          "html_path": "milton-history-of-britain/book-6/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Canute, or Knute",
+        "html_path": "milton-history-of-britain/book-6/canute-or-knute.html"
+      },
+      "next": {
+        "title": "Hardecnute",
+        "html_path": "milton-history-of-britain/book-6/hardecnute.html"
+      }
+    },
+    {
+      "slug": "hardecnute",
+      "title": "Hardecnute",
+      "html_path": "milton-history-of-britain/book-6/hardecnute.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book VI",
+          "html_path": "milton-history-of-britain/book-6/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Harold",
+        "html_path": "milton-history-of-britain/book-6/harold.html"
+      },
+      "next": {
+        "title": "Edward the Confessor",
+        "html_path": "milton-history-of-britain/book-6/edward-the-confessor.html"
+      }
+    },
+    {
+      "slug": "edward-the-confessor",
+      "title": "Edward the Confessor",
+      "html_path": "milton-history-of-britain/book-6/edward-the-confessor.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book VI",
+          "html_path": "milton-history-of-britain/book-6/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Hardecnute",
+        "html_path": "milton-history-of-britain/book-6/hardecnute.html"
+      },
+      "next": {
+        "title": "Harold Son of Earl Godwin",
+        "html_path": "milton-history-of-britain/book-6/harold-son-of-earl-godwin.html"
+      }
+    },
+    {
+      "slug": "harold-son-of-earl-godwin",
+      "title": "Harold Son of Earl Godwin",
+      "html_path": "milton-history-of-britain/book-6/harold-son-of-earl-godwin.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        },
+        {
+          "title": "Book VI",
+          "html_path": "milton-history-of-britain/book-6/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Edward the Confessor",
+        "html_path": "milton-history-of-britain/book-6/edward-the-confessor.html"
+      },
+      "next": {
+        "title": "The Character of the Long Parliament (1681)",
+        "html_path": "milton-history-of-britain/character-1681.html"
+      }
+    },
+    {
+      "slug": "character-1681",
+      "title": "The Character of the Long Parliament (1681)",
+      "html_path": "milton-history-of-britain/character-1681.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Milton: The History of Britain",
+          "html_path": "milton-history-of-britain/index.html"
+        }
+      ],
+      "prev": {
+        "title": "Harold Son of Earl Godwin",
+        "html_path": "milton-history-of-britain/book-6/harold-son-of-earl-godwin.html"
+      },
+      "next": null
+    }
+  ],
+  "uses_latin": false
+}

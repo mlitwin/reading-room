@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:21:03.099Z",
+  "generated_at": "2026-11-20T01:40:05.373Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -268,12 +268,12 @@
     },
     {
       "path": "assets/cards.js",
-      "sha256": "70e257d7193ae7d2bb995bf8e9fb9faa42f98f549e43e48ca85e15b46044bc2d",
-      "size": 55045
+      "sha256": "bd40e1b74d59f7fbd71cfdfec3ec631b38ce0d8586d1b767bc7c26d5d021f655",
+      "size": 55821
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "ac1e5968f6c88e23374a6a53401c745037fff82f7cc44fc1bd7ad14e016a5426",
+      "sha256": "b68d409e8fef8ac1a8d77bff8a657aca050c1805592c26a2f388e3194a749aa9",
       "size": 62081
     },
     {
@@ -283,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "c45c47a44c03ee61fcd595fc937d7eb53e20d6418805b6623e84dfda4c3fda85",
+      "sha256": "ec06f595a308819d2d420d6fd9377acca65310f4376415cf421a19335a4b4062",
       "size": 1064559
     },
     {
@@ -603,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "5aee18ed0ce17fc6397c8fe7e604a558c7d7a63ca69f6985687b5b65e46c5a19",
+      "sha256": "02637db3b75dcbb19a5a5afb7d6a394863320ab8eb1eca7ef95ee9cbb86ac846",
       "size": 10210844
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "1629fe2530f73549a5e518d63a1bc5e92c32642f091ae1ff810b7ba305789f22",
+      "sha256": "4891140b67911067e3c2940b1de8d15b463b9bd35c16b61ff5b67edb8e2b1a1c",
       "size": 2476366
     },
     {
@@ -633,28 +633,28 @@
     },
     {
       "path": "assets/reader.css",
-      "sha256": "07f40528ce02df2cb070293ecc3f6eb520356b3c8d72f97affc30409eab35955",
-      "size": 38128
+      "sha256": "09ee27c101655d00e2a2e5ddb6af8cecd629e677dfcbd060a73b97e1860384af",
+      "size": 41142
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "7b32c1f26e3e6c351a929bae31c240ffa89be8ca3a2523de4ef487f838c9f0a6",
+      "sha256": "d9afa35bfc4917c8099f20cf185e0b95a9feeb4a9cdc2e43717f35f197db1d59",
       "size": 11356812
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "2cdb58a995a3c92cc8c68c5cc7e16f9ff0e7561b34da3ce6511155355acb4fb8",
+      "sha256": "7ec6371222558dd6f983a82760a573b4d2f1dc10e2d93de96197e0ff2db22ff1",
       "size": 11356786
     },
     {
       "path": "index.html",
-      "sha256": "baf5795660c8b06726fc3d815ffe00052c8a24d2ae94bb0d0317293b4cf4ba4b",
-      "size": 5356
+      "sha256": "92377b83945f0fbfde6b5f3249d1742784d38b95392374127a540184266397c4",
+      "size": 6186
     },
     {
       "path": "index.json",
-      "sha256": "ee4d760da2bbb012f75545f5fba414911b20cb3843a1f2646607f2af07061a80",
-      "size": 32367
+      "sha256": "b37d5ab0660e8e31eff26b18106857fde528ece5c5f6455e768181eac514b7ae",
+      "size": 38762
     },
     {
       "path": "marvell-hortus/book1-01.html",
@@ -715,6 +715,161 @@
       "path": "marvell-hortus/notes.html",
       "sha256": "32569b49589f2b677494dda7948e348bc007bee234d22819a0f1ec20db569e20",
       "size": 5251
+    },
+    {
+      "path": "milton-history-of-britain/book-1.html",
+      "sha256": "a6ba11a6a5c97c46eff36316a0b5eb24cdd7900b7b98ddced7c2e7d7b13df162",
+      "size": 155910
+    },
+    {
+      "path": "milton-history-of-britain/book-2.html",
+      "sha256": "d61c8d0da62cc009663050a59a89970f778012e4940255c78524b8404dbfd87e",
+      "size": 454902
+    },
+    {
+      "path": "milton-history-of-britain/book-3.html",
+      "sha256": "841d3702475052cd96bb3bceff3ae6fdcf89e9ecd2d6d71968bce5f3494c621a",
+      "size": 246367
+    },
+    {
+      "path": "milton-history-of-britain/book-4.html",
+      "sha256": "0abedea7bc89d11c05d3454898ed14488b24a45e76823b3909d1f8dac709b78f",
+      "size": 368418
+    },
+    {
+      "path": "milton-history-of-britain/book-5/alfred.html",
+      "sha256": "cbd2385ef17c918644ff36adbfd165e471b921f6a6c60ec8a063a1672b2e2c46",
+      "size": 66623
+    },
+    {
+      "path": "milton-history-of-britain/book-5/athelstan.html",
+      "sha256": "3a6e26c3eec6345f3900f89478ecb1873bc1052b984b0d4c2f3448a1838798ee",
+      "size": 45767
+    },
+    {
+      "path": "milton-history-of-britain/book-5/ecbert.html",
+      "sha256": "50c86d84c71cab7e627640de2898ca96e6a403dc0eae66d39c6549872b33dc5a",
+      "size": 9841
+    },
+    {
+      "path": "milton-history-of-britain/book-5/edgar.html",
+      "sha256": "0661eefa4480d36a37e1abee46b77041800bb9fdc01844b8ba6c1b2006326743",
+      "size": 32332
+    },
+    {
+      "path": "milton-history-of-britain/book-5/edmund.html",
+      "sha256": "3f51971a9238172ce9425c33bac51381aabf1c378d3e9f53f54c79f52c01d517",
+      "size": 13265
+    },
+    {
+      "path": "milton-history-of-britain/book-5/edred.html",
+      "sha256": "547edb0df4bec2fde3cec2d279efe88058e4f5f582f51c89004ec8f9f1c3d018",
+      "size": 9646
+    },
+    {
+      "path": "milton-history-of-britain/book-5/edward-the-elder.html",
+      "sha256": "f99a5000134010aa3819b9cc6c3dedae978c0cac95ae155fb0e13982b9165a6d",
+      "size": 48430
+    },
+    {
+      "path": "milton-history-of-britain/book-5/edwi.html",
+      "sha256": "5b8b92c9c682ef0d1bc91314e129eb29f9543e2842b68ff7226824ac7704cd20",
+      "size": 12153
+    },
+    {
+      "path": "milton-history-of-britain/book-5/ethelbald-and-ethelbert.html",
+      "sha256": "1d35d390708bbca46ed76e2a801340bd9eada888f233857c90ae40112faf77ed",
+      "size": 7217
+    },
+    {
+      "path": "milton-history-of-britain/book-5/ethelbert-alone.html",
+      "sha256": "4931cd1b188883a593d497f8dbf28f54af9523d3a86db6f0f788226622dc5a5c",
+      "size": 5887
+    },
+    {
+      "path": "milton-history-of-britain/book-5/ethelred.html",
+      "sha256": "28cd5ede204c11e99f54efc73a23cbc6334b805527b4b67cac4b9bea0e80575a",
+      "size": 26641
+    },
+    {
+      "path": "milton-history-of-britain/book-5/ethelwolf.html",
+      "sha256": "0101bd38d96492a2b4a6845d99a58de28114604ceaf8358661362ae7cc8bb9d9",
+      "size": 35864
+    },
+    {
+      "path": "milton-history-of-britain/book-5/index.html",
+      "sha256": "95132e3ee4550ae83c09579971202668233594bd579cbc57fb6560665bc83cbe",
+      "size": 9652
+    },
+    {
+      "path": "milton-history-of-britain/book-6/canute-or-knute.html",
+      "sha256": "285dae909ce323b66a8af148503c3177d38cb8650a09eea52d728449a20b55cd",
+      "size": 42383
+    },
+    {
+      "path": "milton-history-of-britain/book-6/edmund-ironside.html",
+      "sha256": "d02f47ec089a1e9b36b9c0edc36859d7d9d7908564b4cd7d63464a57eb381630",
+      "size": 26725
+    },
+    {
+      "path": "milton-history-of-britain/book-6/edward-the-confessor.html",
+      "sha256": "03f8a8ff8d527f98845eb61b4b6b9313ab00b8122c5b49b24bc05e54d1cc0287",
+      "size": 101092
+    },
+    {
+      "path": "milton-history-of-britain/book-6/edward-the-younger.html",
+      "sha256": "1335e94c3e6b76b2caa6253cf6723af6ff4b8c5ddc3e205e3e4cfcff9d638c54",
+      "size": 12652
+    },
+    {
+      "path": "milton-history-of-britain/book-6/ethelred.html",
+      "sha256": "94554908998cc07361c27ab6ab4938f6a65b4acd764bce1f7d4a797351a71330",
+      "size": 119985
+    },
+    {
+      "path": "milton-history-of-britain/book-6/hardecnute.html",
+      "sha256": "3db37cfbff01c7422898e5a452a0bdbdd517130dab81a9dee516f3ae004d8ec1",
+      "size": 22372
+    },
+    {
+      "path": "milton-history-of-britain/book-6/harold-son-of-earl-godwin.html",
+      "sha256": "0db116623a9e9fee244a822b84efbfe18cefd89d7cbed149731546363c67bbe5",
+      "size": 41119
+    },
+    {
+      "path": "milton-history-of-britain/book-6/harold.html",
+      "sha256": "2de0fc51f6c51100693c935f604858b8a943cabe7ed09de0211200bc697cbf96",
+      "size": 19504
+    },
+    {
+      "path": "milton-history-of-britain/book-6/index.html",
+      "sha256": "8b013182c62a868b6d687e30e45b48742d53d796b732973da8b37c637ff72560",
+      "size": 2580
+    },
+    {
+      "path": "milton-history-of-britain/character-1681.html",
+      "sha256": "dc7a3ddfcc4b0f0fc004433db524a55d3c18a3bb9e1e22247ba1419d1f15a803",
+      "size": 40112
+    },
+    {
+      "path": "milton-history-of-britain/digression-ms.html",
+      "sha256": "345fbaea3aae47805fd8fc66415d877fe944108148d12a8109431cde780e3386",
+      "size": 64159
+    },
+    {
+      "path": "milton-history-of-britain/index.html",
+      "sha256": "2aefd76435ce06a8aabc26076a021988e38beffa62a255fe2be26c6064e787f4",
+      "size": 6130
+    },
+    {
+      "path": "milton-history-of-britain/introduction.html",
+      "sha256": "b8049ed7cf51cfb74757bbcbb362b866ac17a1b2e73e9756f0307a9f3a1c0c50",
+      "size": 10566
+    },
+    {
+      "path": "milton-history-of-britain/nav.json",
+      "sha256": "5d07dfb1e2371e4c37e509113904ff3c9ea0ee1d595d884feda196d1fba5293a",
+      "size": 21674
     },
     {
       "path": "notes-on-sorting/algorithms/index.html",

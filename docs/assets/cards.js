@@ -1177,6 +1177,20 @@
     pushEntry({ type: 'note', sourceId: targetId, label: source.dataset.label || targetId });
   });
 
+  // ── inline glosses
+  // <span class="inline-gloss" data-gloss="…"> (a modernised spelling, an expanded
+  // abbreviation) shows its gloss in a CSS bubble — on hover where there is
+  // hover, on tap everywhere. One open at a time; any other tap closes it.
+  // Independent of #popover-host, so it works on pages with no popovers.
+  var openGloss = null;
+  document.addEventListener('click', function (e) {
+    var g = e.target.closest && e.target.closest('.inline-gloss');
+    if (g && g.closest('.note-link, a')) g = null;   // the link wins
+    if (openGloss && openGloss !== g) openGloss.classList.remove('inline-gloss-open');
+    if (g) g.classList.toggle('inline-gloss-open');
+    openGloss = g && g.classList.contains('inline-gloss-open') ? g : null;
+  });
+
   // Reset stack on popover close. A normal close (× / light dismiss) also
   // clears any stashed reading-state so a later Back doesn't reopen it; the
   // escape-hatch close (navigatingAway) keeps the stash for restore.

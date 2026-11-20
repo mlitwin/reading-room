@@ -1,6 +1,177 @@
 {
-  "generated_at": "2026-11-09T05:21:03.013Z",
+  "generated_at": "2026-11-20T01:40:05.298Z",
   "pieces": [
+    {
+      "slug": "milton-history-of-britain",
+      "title": "Milton: The History of Britain",
+      "author": "John Milton",
+      "date": "2026-11-19",
+      "tags": [
+        "milton",
+        "history",
+        "prose",
+        "early-modern",
+        "britain"
+      ],
+      "summary": "Milton's History of Britain (1670), from the legendary Brutus to the Norman Conquest, in the 1671 printing as edited by Thomas H. Luxon for the John Milton Reading Room. The editor's annotations open as popovers, and the old spellings show their modern forms when you tap them. The suppressed \"Digression\" on the Long Parliament follows Book III in its manuscript form.",
+      "html_path": "milton-history-of-britain/index.html",
+      "structure": {
+        "slug": "milton-history-of-britain",
+        "title": "Milton: The History of Britain",
+        "html_path": "milton-history-of-britain/index.html",
+        "items": [
+          {
+            "slug": "introduction",
+            "title": "Introduction",
+            "html_path": "milton-history-of-britain/introduction.html"
+          },
+          {
+            "slug": "book-1",
+            "title": "Book I",
+            "html_path": "milton-history-of-britain/book-1.html"
+          },
+          {
+            "slug": "book-2",
+            "title": "Book II",
+            "html_path": "milton-history-of-britain/book-2.html"
+          },
+          {
+            "slug": "book-3",
+            "title": "Book III",
+            "html_path": "milton-history-of-britain/book-3.html"
+          },
+          {
+            "slug": "digression-ms",
+            "title": "The Digression (Manuscript)",
+            "html_path": "milton-history-of-britain/digression-ms.html"
+          },
+          {
+            "slug": "book-4",
+            "title": "Book IV",
+            "html_path": "milton-history-of-britain/book-4.html"
+          },
+          {
+            "slug": "book-5",
+            "title": "Book V",
+            "html_path": "milton-history-of-britain/book-5/index.html",
+            "items": [
+              {
+                "slug": "ecbert",
+                "title": "Ecbert",
+                "html_path": "milton-history-of-britain/book-5/ecbert.html"
+              },
+              {
+                "slug": "ethelwolf",
+                "title": "Ethelwolf",
+                "html_path": "milton-history-of-britain/book-5/ethelwolf.html"
+              },
+              {
+                "slug": "ethelbald-and-ethelbert",
+                "title": "Ethelbald, and Ethelbert",
+                "html_path": "milton-history-of-britain/book-5/ethelbald-and-ethelbert.html"
+              },
+              {
+                "slug": "ethelbert-alone",
+                "title": "Ethelbert alone",
+                "html_path": "milton-history-of-britain/book-5/ethelbert-alone.html"
+              },
+              {
+                "slug": "ethelred",
+                "title": "Ethelred",
+                "html_path": "milton-history-of-britain/book-5/ethelred.html"
+              },
+              {
+                "slug": "alfred",
+                "title": "Alfred",
+                "html_path": "milton-history-of-britain/book-5/alfred.html"
+              },
+              {
+                "slug": "edward-the-elder",
+                "title": "Edward the Elder",
+                "html_path": "milton-history-of-britain/book-5/edward-the-elder.html"
+              },
+              {
+                "slug": "athelstan",
+                "title": "Athelstan",
+                "html_path": "milton-history-of-britain/book-5/athelstan.html"
+              },
+              {
+                "slug": "edmund",
+                "title": "Edmund",
+                "html_path": "milton-history-of-britain/book-5/edmund.html"
+              },
+              {
+                "slug": "edred",
+                "title": "Edred",
+                "html_path": "milton-history-of-britain/book-5/edred.html"
+              },
+              {
+                "slug": "edwi",
+                "title": "Edwi",
+                "html_path": "milton-history-of-britain/book-5/edwi.html"
+              },
+              {
+                "slug": "edgar",
+                "title": "Edgar",
+                "html_path": "milton-history-of-britain/book-5/edgar.html"
+              }
+            ]
+          },
+          {
+            "slug": "book-6",
+            "title": "Book VI",
+            "html_path": "milton-history-of-britain/book-6/index.html",
+            "items": [
+              {
+                "slug": "edward-the-younger",
+                "title": "Edward the Younger",
+                "html_path": "milton-history-of-britain/book-6/edward-the-younger.html"
+              },
+              {
+                "slug": "ethelred",
+                "title": "Ethelred",
+                "html_path": "milton-history-of-britain/book-6/ethelred.html"
+              },
+              {
+                "slug": "edmund-ironside",
+                "title": "Edmund Ironside",
+                "html_path": "milton-history-of-britain/book-6/edmund-ironside.html"
+              },
+              {
+                "slug": "canute-or-knute",
+                "title": "Canute, or Knute",
+                "html_path": "milton-history-of-britain/book-6/canute-or-knute.html"
+              },
+              {
+                "slug": "harold",
+                "title": "Harold",
+                "html_path": "milton-history-of-britain/book-6/harold.html"
+              },
+              {
+                "slug": "hardecnute",
+                "title": "Hardecnute",
+                "html_path": "milton-history-of-britain/book-6/hardecnute.html"
+              },
+              {
+                "slug": "edward-the-confessor",
+                "title": "Edward the Confessor",
+                "html_path": "milton-history-of-britain/book-6/edward-the-confessor.html"
+              },
+              {
+                "slug": "harold-son-of-earl-godwin",
+                "title": "Harold Son of Earl Godwin",
+                "html_path": "milton-history-of-britain/book-6/harold-son-of-earl-godwin.html"
+              }
+            ]
+          },
+          {
+            "slug": "character-1681",
+            "title": "The Character of the Long Parliament (1681)",
+            "html_path": "milton-history-of-britain/character-1681.html"
+          }
+        ]
+      }
+    },
     {
       "slug": "marvell-hortus",
       "title": "Marvell: Hortus / The Garden",
