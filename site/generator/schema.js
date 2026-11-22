@@ -3,6 +3,10 @@ import { z } from 'zod';
 // gray-matter parses YAML dates as JS Date objects; allow either form.
 const dateLike = z.union([z.string(), z.date()]).optional();
 
+// Default system for the Latin word popovers' pronunciation line; inherited by
+// sub-pages. The reader can toggle it per book (see site/reader/latin-pron.js).
+const latinPronunciation = z.enum(['classical', 'ecclesiastical']).optional();
+
 // Piece: top-level library entry. Either a loose .md at content/ root, or a
 // folder's index.md. Surfaces in the library list.
 export const PieceSchema = z.object({
@@ -16,6 +20,7 @@ export const PieceSchema = z.object({
   // CC BY licence's required attribution.
   attribution: z.string().optional(),
   source: z.string().url().optional(),
+  latin_pronunciation: latinPronunciation,
 }).passthrough();
 
 // Node: anything inside a Book — section index.md or a leaf chapter .md.
@@ -30,6 +35,7 @@ export const NodeSchema = z.object({
   attribution: z.string().optional(),
   // URL of the page's own source document, appended to the attribution footer.
   source: z.string().url().optional(),
+  latin_pronunciation: latinPronunciation,
 }).passthrough();
 
 function formatIssues(issues) {

@@ -393,6 +393,77 @@
     return card.head ? '<p class="card-principal">' + escHtml(card.head) + '</p>' : '';
   }
 
+  // ── pronunciation line
+  // Respelling + IPA of the card's headword in the reader's chosen system
+  // (site/reader/latin-pron.js). The page's <meta name="latin-pronunciation">
+  // gives the book's default (front matter `latin_pronunciation`); a toggle
+  // here overrides it, remembered per book (the meta's data-scope).
+  var PRON_KEY = 'rr.latinPronunciation.';
+  var PRON_LABEL = { classical: 'Classical', ecclesiastical: 'Ecclesiastical' };
+
+  function pronMeta() {
+    return document.querySelector('meta[name="latin-pronunciation"]');
+  }
+  function pronSystem() {
+    var meta = pronMeta();
+    try {
+      var saved = localStorage.getItem(PRON_KEY + ((meta && meta.getAttribute('data-scope')) || 'site'));
+      if (PRON_LABEL[saved]) return saved;
+    } catch (e) { /* storage blocked: fall through to the book default */ }
+    var dflt = meta && meta.getAttribute('content');
+    return PRON_LABEL[dflt] ? dflt : 'classical';
+  }
+  function setPronSystem(system) {
+    var meta = pronMeta();
+    try {
+      localStorage.setItem(PRON_KEY + ((meta && meta.getAttribute('data-scope')) || 'site'), system);
+    } catch (e) { /* not remembered; still applies to this page */ }
+    var lines = document.querySelectorAll('.card-pron');
+    for (var i = 0; i < lines.length; i++) fillPronLine(lines[i], system);
+  }
+  function pronGuideHref() {
+    var m = document.querySelector('meta[name="asset-prefix"]');
+    return ((m && m.getAttribute('content')) || '') + '_language/latin/guide/index.html#pronunciation';
+  }
+
+  function fillPronLine(el, system) {
+    var p = window.LatinPron && window.LatinPron.pronounce(
+      el.getAttribute('data-word'), system, el.getAttribute('data-lemma'));
+    if (!p) { el.hidden = true; return; }
+    el.querySelector('.card-pron-respell').textContent = p.respell;
+    el.querySelector('.card-pron-ipa').textContent = p.ipa;
+    var btns = el.querySelectorAll('.card-pron-system');
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].setAttribute('aria-pressed', String(btns[i].getAttribute('data-system') === system));
+    }
+  }
+
+  function renderPronLine(card) {
+    if (!window.LatinPron || !card) return '';
+    var word = card.headword || card.lemma;
+    var system = pronSystem();
+    var p = window.LatinPron.pronounce(word, system, card.lemma);
+    if (!p) return '';
+    var toggle = window.LatinPron.SYSTEMS.map(function (s) {
+      return '<button class="card-pron-system" type="button" data-system="' + s + '" aria-pressed="' +
+        (s === system) + '">' + PRON_LABEL[s] + '</button>';
+    }).join('');
+    return '<div class="card-pron" data-word="' + escAttr(word) + '" data-lemma="' + escAttr(card.lemma || '') + '">' +
+      '<span class="card-pron-respell">' + escHtml(p.respell) + '</span> ' +
+      '<span class="card-pron-ipa">' + escHtml(p.ipa) + '</span>' +
+      '<span class="card-pron-controls">' +
+      '<span class="card-pron-toggle" role="group" aria-label="Pronunciation">' + toggle + '</span>' +
+      '<a class="card-pron-help" href="' + escAttr(pronGuideHref()) + '">guide</a>' +
+      '</span></div>';
+  }
+
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.card-pron-system');
+    if (!b) return;
+    e.preventDefault();
+    setPronSystem(b.getAttribute('data-system'));
+  });
+
   function renderPosChip(pos) {
     if (!pos) return '';
     var note = POS_NOTE[pos];
@@ -574,6 +645,7 @@
       '<h3 class="card-lemma">' + escHtml(label) + ' ' + pos + '</h3>' +
       '<div class="card-parse" aria-live="polite"></div>' +
       head +
+      renderPronLine(card) +
       '</header>' +
       glosses +
       seeAlso +

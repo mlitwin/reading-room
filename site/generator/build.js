@@ -13,6 +13,7 @@ import { buildConcordance } from './build-concordance.js';
 import { buildGrammarPage } from './build-grammar-page.js';
 import { buildReferenceGrammar, planPages as planReferencePages } from './build-reference-grammar.js';
 import { emitReferenceNotes } from './build-reference-notes.js';
+import { renderPronunciationSection } from './build-pronunciation-section.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -25,6 +26,7 @@ const LANGUAGE_DIR = path.join(CONTENT_DIR, '_language', 'latin');
 const CONSOLIDATED_LEXICON = path.join(LANGUAGE_DIR, 'lexicon.json');
 const GRAMMAR_JSON = path.join(LANGUAGE_DIR, 'grammar.json');
 const REFERENCE_GRAMMAR_JSON = path.join(LANGUAGE_DIR, 'reference-grammar.json');
+const PRONUNCIATION_MD = path.join(LANGUAGE_DIR, 'pronunciation.md');
 
 const md = new MarkdownIt({
   // html: true so the Latin-passage book can drop a raw <div class="latin-passage">
@@ -889,7 +891,12 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
     : '';
 
   const tagsHtml = tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('');
+  // Pronunciation default for the Latin popovers; the reader's own toggle is
+  // remembered per book (scope = the book's slug).
+  const latinPronunciation = inheritedField(node, 'latin_pronunciation') ?? 'classical';
   return applyTemplate(pageTpl, {
+    latinPronunciation,
+    latinPronunciationScope: escapeAttr(node.pathSegments[0]),
     title: escapeHtml(title),
     author: escapeHtml(author),
     date: escapeHtml(date),
@@ -1153,17 +1160,23 @@ export async function build() {
     referenceGrammar = JSON.parse(await fs.readFile(REFERENCE_GRAMMAR_JSON, 'utf8'));
     const { secToPage } = planReferencePages(referenceGrammar);
     _agSecToPage = secToPage; // enables `ag:N` deep links in piece/note bodies
-    // hrefs are relative to the grammar page at _language/latin/grammar/.
+    // hrefs are relative to the guide page at _language/latin/guide/.
     resolveAgRef = (id) => {
       const slug = secToPage.get(String(id));
       return slug ? `../reference/${slug}.html#sec-${id}` : null;
     };
   }
 
-  // Standalone grammar reference page (the parse-code glossary), rendered
-  // directly from grammar.json. See build-grammar-page.js for the rendering.
+  // The Latin Reader's Guide: pronunciation (pronunciation.md) + the parse-code
+  // glossary (grammar.json). See build-grammar-page.js for the rendering.
   if (grammar) {
+    const pronunciation = await fileExists(PRONUNCIATION_MD)
+      ? await renderPronunciationSection({
+        sourcePath: PRONUNCIATION_MD, readerDir: READER_DIR, md, resolveAgLinks, assetPrefix: '../../../',
+      })
+      : null;
     await buildGrammarPage({
+      pronunciation,
       grammar,
       languageId: 'latin',
       languageName: 'Latin',
@@ -1174,13 +1187,13 @@ export async function build() {
       hasReference: Boolean(referenceGrammar),
     });
     indexEntries.push({
-      slug: '_language/latin/grammar',
-      title: 'Latin Grammar Reference',
+      slug: '_language/latin/guide',
+      title: "Latin Reader's Guide",
       author: null,
       date: null,
       tags: ['latin', 'reference'],
-      summary: 'Cases, tenses, moods, and parts of speech — the parse-code vocabulary used throughout the Latin reader.',
-      html_path: '_language/latin/grammar/index.html',
+      summary: 'A compact reference for the Latin texts here: Classical and Ecclesiastical pronunciation, and the cases, tenses, moods, and other terms used by the word popovers.',
+      html_path: '_language/latin/guide/index.html',
     });
   }
 

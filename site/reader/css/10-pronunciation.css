@@ -1,0 +1,35 @@
+/* ============================================================
+   10 · Latin pronunciation guide
+   _language/latin/pronunciation/ — the examples table, computed
+   at build time by latin-pron.js.
+   ============================================================ */
+
+.pronunciation-guide .pron-examples {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.95rem;
+}
+.pronunciation-guide .pron-examples th,
+.pronunciation-guide .pron-examples td {
+  text-align: left;
+  padding: 0.3rem 0.6rem 0.3rem 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: baseline;
+}
+.pronunciation-guide .pron-examples th[scope="row"] {
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.pronunciation-guide .pron-respell {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.02em;
+}
+.pronunciation-guide .pron-ipa {
+  display: block;
+  /* IPA needs ɫ, t͡ʃ, combining tildes and tie bars: fonts known to carry them. */
+  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  color: var(--muted);
+  font-size: 0.85rem;
+}

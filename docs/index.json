@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T01:40:05.298Z",
+  "generated_at": "2026-11-22T06:14:39.864Z",
   "pieces": [
     {
       "slug": "milton-history-of-britain",
@@ -962,16 +962,16 @@
       }
     },
     {
-      "slug": "_language/latin/grammar",
-      "title": "Latin Grammar Reference",
+      "slug": "_language/latin/guide",
+      "title": "Latin Reader's Guide",
       "author": null,
       "date": null,
       "tags": [
         "latin",
         "reference"
       ],
-      "summary": "Cases, tenses, moods, and parts of speech — the parse-code vocabulary used throughout the Latin reader.",
-      "html_path": "_language/latin/grammar/index.html"
+      "summary": "A compact reference for the Latin texts here: Classical and Ecclesiastical pronunciation, and the cases, tenses, moods, and other terms used by the word popovers.",
+      "html_path": "_language/latin/guide/index.html"
     },
     {
       "slug": "_language/latin/reference",

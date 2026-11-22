@@ -1,5 +1,8 @@
-// Build a standalone navigable grammar reference page from grammar.json,
-// emitted to docs/_language/{language}/grammar/index.html.
+// Build the Latin Reader's Guide — the compact reference for the terms the
+// reader's word popovers use — emitted to docs/_language/{language}/guide/index.html.
+// Two parts: Pronunciation (from pronunciation.md, rendered by
+// build-pronunciation-section.js) and the parse-code glossary from grammar.json.
+// The page's old home, _language/{language}/grammar/, becomes a redirect stub.
 //
 // Per the plan: no intermediate markdown file. We render straight from the
 // structured grammar source. Each category becomes a section; each value an
@@ -60,13 +63,27 @@ function renderAgRefs(val, resolveAgRef) {
   return `<p class="grammar-agref">Allen &amp; Greenough: ${links.join(', ')}</p>`;
 }
 
-export function renderGrammarBody(grammar, resolveAgRef) {
+export function renderGrammarBody(grammar, resolveAgRef, pronunciation) {
   const terms = Array.isArray(grammar.terms) ? grammar.terms : [];
 
-  const tocItems = grammar.categories
-    .map((c) => `    <li><a href="#cat-${escapeHtml(c.id)}">${escapeHtml(c.label)}</a></li>`)
-    .concat(terms.length ? [`    <li><a href="#cat-terms">Grammar Terms</a></li>`] : [])
+  const tocLink = (href, label) => `      <li><a href="${href}">${escapeHtml(label)}</a></li>`;
+  const grammarToc = grammar.categories
+    .map((c) => tocLink(`#cat-${escapeHtml(c.id)}`, c.label))
+    .concat(terms.length ? [tocLink('#cat-terms', 'Grammar Terms')] : [])
     .join('\n');
+  const tocGroups = [];
+  if (pronunciation) {
+    tocGroups.push(`    <li><a href="#pronunciation">Pronunciation</a>
+      <ul>
+${pronunciation.toc.map((t) => tocLink(`#${t.id}`, t.label)).join('\n')}
+      </ul>
+    </li>`);
+  }
+  tocGroups.push(`    <li><a href="#grammar">Grammar</a>
+      <ul>
+${grammarToc}
+      </ul>
+    </li>`);
 
   const sections = grammar.categories.map((cat) => {
     const items = cat.values.map((val) => {
@@ -111,13 +128,16 @@ ${terms.map((term) => {
   }).join('\n')}
   </section>` : '';
 
-  return `<nav class="grammar-toc" aria-label="Categories">
+  return `<nav class="grammar-toc" aria-label="Contents">
   <ul>
-${tocItems}
+${tocGroups.join('\n')}
   </ul>
 </nav>
+${pronunciation ? pronunciation.html : ''}
+<div id="grammar">
 ${sections}
 ${termsSection}
+</div>
 `;
 }
 
@@ -134,31 +154,53 @@ ${termsSection}
  * @param {(tpl: string, vars: Record<string,string>) => string} params.applyTemplate
  * @param {string} params.pageTpl  page.html template content
  */
-export async function buildGrammarPage({ grammar, languageId, languageName, outDir, applyTemplate, pageTpl, resolveAgRef, hasReference }) {
-  const subdir = join('_language', languageId, 'grammar');
+export const GUIDE_DIR = 'guide';
+
+export async function buildGrammarPage({ grammar, languageId, languageName, outDir, applyTemplate, pageTpl, resolveAgRef, hasReference, pronunciation }) {
+  const subdir = join('_language', languageId, GUIDE_DIR);
   const outPath = join(outDir, subdir, 'index.html');
   await mkdir(join(outDir, subdir), { recursive: true });
+  const title = `${languageName} Reader's Guide`;
 
-  const body = renderGrammarBody(grammar, resolveAgRef);
-  const breadcrumb = `<nav class="breadcrumb"><a href="../../../index.html">Library</a> › ${escapeHtml(languageName)} Grammar Reference</nav>`;
+  const body = renderGrammarBody(grammar, resolveAgRef, pronunciation);
+  const breadcrumb = `<nav class="breadcrumb"><a href="../../../index.html">Library</a> › ${escapeHtml(title)}</nav>`;
 
-  // Link to the full reference grammar when it's built. This page is the short
-  // parse-code glossary; the reference grammar (A&G) is the prose companion.
+  // This page is the compact companion to the word popovers; the reference
+  // grammar (A&G) is the full prose treatment.
   const refLink = hasReference
-    ? `<p class="grammar-lede">A quick glossary of the parse codes used by the reader's word popovers. For the full prose grammar — paradigms, syntax, and worked examples — see the <a href="../reference/index.html">${escapeHtml(languageName)} reference grammar</a>.</p>`
+    ? ` For the full prose grammar — paradigms, syntax, and worked examples — see the <a href="../reference/index.html">${escapeHtml(languageName)} Reference Grammar</a> (Allen &amp; Greenough).`
     : '';
+  const lede = `<p class="grammar-lede">A compact reference for reading the ${escapeHtml(languageName)} texts here: how the words are pronounced, and what the grammatical terms in the word popovers mean. Tap a term in any popover to see its entry.${refLink}</p>`;
 
   const html = applyTemplate(pageTpl, {
-    title: `${languageName} Grammar Reference`,
+    title: escapeHtml(title),
     assetPrefix: '../../../',
     author: '',
     date: '',
     tags: '',
     breadcrumb,
-    body: `<div class="grammar-reference">${refLink}${body}</div>`,
+    body: `<div class="grammar-reference">${lede}${body}</div>`,
     pagenav: '',
   });
-
   await writeFile(outPath, html);
+
+  // The guide's old address (the "Latin Grammar Reference") redirects here,
+  // keeping its value anchors (#nom) — published links and bookmarks still land.
+  const oldDir = join(outDir, '_language', languageId, 'grammar');
+  await mkdir(oldDir, { recursive: true });
+  await writeFile(join(oldDir, 'index.html'), `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>${escapeHtml(title)} — Reading Room</title>
+<meta http-equiv="refresh" content="0; url=../${GUIDE_DIR}/index.html">
+<link rel="canonical" href="../${GUIDE_DIR}/index.html">
+<script>location.replace('../${GUIDE_DIR}/index.html' + location.hash);</script>
+</head>
+<body>
+<p>Moved to the <a href="../${GUIDE_DIR}/index.html">${escapeHtml(title)}</a>.</p>
+</body>
+</html>
+`);
   return outPath;
 }

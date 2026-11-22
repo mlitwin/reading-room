@@ -57,7 +57,7 @@
   color: var(--muted);
 }
 
-/* Parse-code glossary page (_language/latin/grammar/) — lede + the
+/* Latin Reader's Guide (_language/latin/guide/) — lede + the
    "Allen & Greenough: §N" cross-links under each value's gloss. */
 .grammar-lede { color: var(--muted); }
 .grammar-agref {
@@ -92,3 +92,18 @@
 }
 .ref-popover .ag-fullpage-link { color: var(--muted); }
 .ref-popover .ag-fullpage-link:hover { color: var(--accent); }
+
+/* Reader's Guide contents: two groups (Pronunciation, Grammar), each a run of
+   inline links so the list stays short on a phone. */
+.grammar-toc > ul { list-style: none; padding: 0; margin: 1rem 0 1.5rem; }
+.grammar-toc > ul > li { margin: 0 0 0.6rem; }
+.grammar-toc > ul > li > a { font-weight: 600; }
+.grammar-toc ul ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.2rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.9rem;
+  font-size: 0.9rem;
+}

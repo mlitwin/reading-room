@@ -1,0 +1,15844 @@
+{
+"Apollo_n": {
+"word": "Apollō",
+"classical": [
+"[aˈpɔl.loː]"
+],
+"eccl": [
+"[aˈpɔl.lo]"
+]
+},
+"Boreas_n": {
+"word": "Boreās",
+"classical": [
+"[ˈbɔ.re.aːs]"
+],
+"eccl": [
+"[ˈbɔː.re.as]"
+]
+},
+"Cytherea_n": {
+"word": "Cytherēa",
+"classical": [
+"[ky.tʰɛˈreː.a]"
+],
+"eccl": [
+"[t͡ʃi.teˈrɛː.a]"
+]
+},
+"Lycaon_n": {
+"word": "Lycāōn",
+"classical": [
+"[lyˈkaː.oːn]"
+],
+"eccl": [
+"[liˈkaː.on]"
+]
+},
+"Mavors_n": {
+"word": "Māvors",
+"classical": [
+"[ˈmaː.wɔrs]"
+],
+"eccl": [
+"[ˈmaː.vors]"
+]
+},
+"Nilus_n": {
+"word": "Nīlus",
+"classical": [
+"[ˈniː.ɫʊs]"
+],
+"eccl": [
+"[ˈniː.lus]"
+]
+},
+"Ortygia_n": {
+"word": "Ortygia",
+"classical": [
+"[ɔrˈty.ɡi.a]"
+],
+"eccl": [
+"[orˈtiː.d͡ʒi.a]"
+]
+},
+"Penates_n": {
+"word": "penātēs",
+"classical": [
+"[pɛˈnaː.teːs]"
+],
+"eccl": [
+"[peˈnaː.tes]"
+]
+},
+"Phoebus_n": {
+"word": "Phoebus",
+"classical": [
+"[ˈpʰoe̯.bʊs]"
+],
+"eccl": [
+"[ˈfɛː.bus]"
+]
+},
+"Python_n": {
+"word": "pȳthōn",
+"classical": [
+"[ˈpyː.tʰoːn]"
+],
+"eccl": [
+"[ˈpiː.ton]"
+]
+},
+"Venus_n": {
+"word": "Venus",
+"classical": [
+"[ˈwɛ.nʊs]"
+],
+"eccl": [
+"[ˈvɛː.nus]"
+]
+},
+"Zephyrus_n": {
+"word": "zephyrus",
+"classical": [
+"[ˈzɛ.pʰy.rʊs]"
+],
+"eccl": [
+"[ˈd͡zɛː.fi.rus]"
+]
+},
+"ab_prep": {
+"word": "ab",
+"classical": [
+"[ˈab]"
+],
+"eccl": [
+"[ˈab]"
+]
+},
+"abeo_v": {
+"word": "abeō",
+"classical": [
+"[ˈa.be.oː]"
+],
+"eccl": [
+"[ˈaː.be.o]"
+]
+},
+"abscido_v": {
+"word": "abscīdō",
+"classical": [
+"[apˈskiː.doː]"
+],
+"eccl": [
+"[abˈʃiː.do]"
+]
+},
+"abstraho_v": {
+"word": "abstrahō",
+"classical": [
+"[ˈap.stra.(ɦ)oː]"
+],
+"eccl": [
+"[ˈab.stra.o]"
+]
+},
+"absum_v": {
+"word": "absum",
+"classical": [
+"[ˈap.sũː]"
+],
+"eccl": [
+"[ˈab.sum]"
+]
+},
+"absumo_v": {
+"word": "absūmō",
+"classical": [
+"[apˈsuː.moː]"
+],
+"eccl": [
+"[abˈsuː.mo]"
+]
+},
+"acervo_v": {
+"word": "acervō",
+"classical": [
+"[aˈkɛr.woː]"
+],
+"eccl": [
+"[aˈt͡ʃɛr.vo]"
+]
+},
+"aconitum_n": {
+"word": "aconītum",
+"classical": [
+"[a.kɔˈniː.tũː]"
+],
+"eccl": [
+"[a.koˈniː.tum]"
+]
+},
+"acuo_v": {
+"word": "acuō",
+"classical": [
+"[ˈa.ku.oː]"
+],
+"eccl": [
+"[ˈaː.ku.o]"
+]
+},
+"ad-stringo_v": {
+"word": "adstringō",
+"classical": [
+"[as(ː)trɪŋ.ɡoː]"
+],
+"eccl": [
+"[adˈstriŋ.ɡo]"
+]
+},
+"ad_prep": {
+"word": "ad",
+"classical": [
+"[ˈad]"
+],
+"eccl": [
+"[ˈad]"
+]
+},
+"addico_v": {
+"word": "addīcō",
+"classical": [
+"[adˈdiː.koː]"
+],
+"eccl": [
+"[adˈdiː.ko]"
+]
+},
+"addo_v": {
+"word": "addō",
+"classical": [
+"[ˈad.doː]"
+],
+"eccl": [
+"[ˈad.do]"
+]
+},
+"adduco_v": {
+"word": "addūcō",
+"classical": [
+"[adˈduː.koː]"
+],
+"eccl": [
+"[adˈduː.ko]"
+]
+},
+"adeo_adv": {
+"word": "adeō",
+"classical": [
+"[ˈa.de.oː]"
+],
+"eccl": [
+"[ˈaː.de.o]"
+]
+},
+"adeo_v": {
+"word": "adeō",
+"classical": [
+"[ˈa.de.oː]"
+],
+"eccl": [
+"[ˈaː.de.o]"
+]
+},
+"adhaereo_v": {
+"word": "adhaereō",
+"classical": [
+"[aˈdae̯.re.oː]"
+],
+"eccl": [
+"[aˈdɛː.re.o]"
+]
+},
+"adhuc_adv": {
+"word": "adhūc",
+"classical": [
+"[aˈduːk]"
+],
+"eccl": [
+"[aˈduk]"
+]
+},
+"adicio_v": {
+"word": "adiciō",
+"classical": [
+"[aˈdɪ.ki.oː]",
+"[adˈjɪ.ki.oː]"
+],
+"eccl": [
+"[adˈjiː.t͡ʃi.o]"
+]
+},
+"adjutus_n": {
+"word": "adiūtus",
+"classical": [
+"[adˈjuː.tʊs]"
+],
+"eccl": [
+"[adˈjuː.tus]"
+]
+},
+"admiror_v": {
+"word": "admīror",
+"classical": [
+"[adˈmiː.rɔr]"
+],
+"eccl": [
+"[adˈmiː.ror]"
+]
+},
+"admoveo_v": {
+"word": "admoveō",
+"classical": [
+"[adˈmɔ.we.oː]"
+],
+"eccl": [
+"[adˈmɔː.ve.o]"
+]
+},
+"adoleo_v": {
+"word": "adoleō",
+"classical": [
+"[aˈdɔ.ɫe.oː]"
+],
+"eccl": [
+"[aˈdɔː.le.o]"
+]
+},
+"adoperio_v": {
+"word": "adoperiō",
+"classical": [
+"[a.dɔˈpɛ.ri.oː]"
+],
+"eccl": [
+"[a.doˈpɛː.ri.o]"
+]
+},
+"adoro_v": {
+"word": "adōrō",
+"classical": [
+"[aˈdoː.roː]"
+],
+"eccl": [
+"[aˈdɔː.ro]"
+]
+},
+"adsum_v": {
+"word": "adsum",
+"classical": [
+"[ˈas.sũː]"
+],
+"eccl": [
+"[ˈad.sum]"
+]
+},
+"aduncus_adj": {
+"word": "aduncus",
+"classical": [
+"[aˈdʊŋ.kʊs]"
+],
+"eccl": [
+"[aˈduŋ.kus]"
+]
+},
+"advenio_v": {
+"word": "adveniō",
+"classical": [
+"[adˈwɛ.ni.oː]"
+],
+"eccl": [
+"[adˈvɛː.ni.o]"
+]
+},
+"adventus_n": {
+"word": "adventus",
+"classical": [
+"[adˈwɛn.tʊs]"
+],
+"eccl": [
+"[adˈvɛn.tus]"
+]
+},
+"aemulus_adj": {
+"word": "aemulus",
+"classical": [
+"[ˈae̯.mʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈɛː.mu.lus]"
+]
+},
+"aeneus_adj": {
+"word": "aēneus",
+"classical": [
+"[aˈeː.ne.ʊs]"
+],
+"eccl": [
+"[aˈɛː.ne.us]"
+]
+},
+"aequalis_adj": {
+"word": "aequālis",
+"classical": [
+"[ae̯ˈkʷaː.lɪs]"
+],
+"eccl": [
+"[eˈkʷaː.lis]"
+]
+},
+"aequo_v": {
+"word": "aequō",
+"classical": [
+"[ˈae̯.kʷoː]"
+],
+"eccl": [
+"[ˈɛː.kʷo]"
+]
+},
+"aequor_n": {
+"word": "aequor",
+"classical": [
+"[ˈae̯.kʷɔr]"
+],
+"eccl": [
+"[ˈɛː.kʷor]"
+]
+},
+"aequum_n": {
+"word": "aequum",
+"classical": [
+"[ˈae̯.kũː]"
+],
+"eccl": [
+"[ˈɛː.kʷum]"
+]
+},
+"aer_n": {
+"word": "āēr",
+"classical": [
+"[ˈaː.eːr]"
+],
+"eccl": [
+"[ˈaː.er]"
+]
+},
+"aesculeus_adj": {
+"word": "aesculeus",
+"classical": [
+"[ae̯sˈkʊ.ɫe.ʊs]"
+],
+"eccl": [
+"[esˈkuː.le.us]"
+]
+},
+"aestus_n": {
+"word": "aestus",
+"classical": [
+"[ˈae̯s.tʊs]"
+],
+"eccl": [
+"[ˈɛs.tus]"
+]
+},
+"aetas_n": {
+"word": "aetās",
+"classical": [
+"[ˈae̯.taːs]"
+],
+"eccl": [
+"[ˈɛː.tas]"
+]
+},
+"aeternus_adj": {
+"word": "aeternus",
+"classical": [
+"[ae̯ˈtɛr.nʊs]"
+],
+"eccl": [
+"[eˈtɛr.nus]"
+]
+},
+"aether_n": {
+"word": "aethēr",
+"classical": [
+"[ˈae̯.tʰeːr]"
+],
+"eccl": [
+"[ˈɛː.ter]"
+]
+},
+"aetherius_adj": {
+"word": "aetherius",
+"classical": [
+"[ae̯ˈtʰɛ.ri.ʊs]"
+],
+"eccl": [
+"[eˈtɛː.ri.us]"
+]
+},
+"aevum_n": {
+"word": "aevum",
+"classical": [
+"[ˈae̯.wũː]"
+],
+"eccl": [
+"[ˈɛː.vum]"
+]
+},
+"affecto_v": {
+"word": "affectō",
+"classical": [
+"[afˈfɛk.toː]"
+],
+"eccl": [
+"[afˈfɛk.to]"
+]
+},
+"affero_v": {
+"word": "afferō",
+"classical": [
+"[ˈaf.fɛ.roː]"
+],
+"eccl": [
+"[ˈaf.fe.ro]"
+]
+},
+"afflo_v": {
+"word": "afflō",
+"classical": [
+"[ˈaf.fɫoː]"
+],
+"eccl": [
+"[ˈaf.flo]"
+]
+},
+"affor_v": {
+"word": "affor",
+"classical": [
+"[ˈaf.fɔr]"
+],
+"eccl": [
+"[ˈaf.for]"
+]
+},
+"ager_n": {
+"word": "ager",
+"classical": [
+"[ˈa.ɡɛr]"
+],
+"eccl": [
+"[ˈaː.d͡ʒer]"
+]
+},
+"agitabilis_adj": {
+"word": "agitābilis",
+"classical": [
+"[a.ɡɪˈtaː.bɪ.lɪs]"
+],
+"eccl": [
+"[a.d͡ʒiˈtaː.bi.lis]"
+]
+},
+"agito_v": {
+"word": "agitō",
+"classical": [
+"[ˈa.ɡɪ.toː]"
+],
+"eccl": [
+"[ˈaː.d͡ʒi.to]"
+]
+},
+"agna_n": {
+"word": "agna",
+"classical": [
+"[ˈaŋ.na]"
+],
+"eccl": [
+"[ˈaɲ.ɲa]"
+]
+},
+"ago_v": {
+"word": "agō",
+"classical": [
+"[ˈa.ɡoː]"
+],
+"eccl": [
+"[ˈaː.ɡo]"
+]
+},
+"ah_interj": {
+"word": "āh",
+"classical": [
+"[ˈaː(ɦ)]"
+],
+"eccl": [
+"[ˈa]"
+]
+},
+"aio_v": {
+"word": "ajō",
+"classical": [
+"[ˈaj.joː]"
+],
+"eccl": [
+"[ˈaː.jo]"
+]
+},
+"ala_n": {
+"word": "āla",
+"classical": [
+"[ˈaː.ɫa]"
+],
+"eccl": [
+"[ˈaː.la]"
+]
+},
+"alimentum_n": {
+"word": "alimentum",
+"classical": [
+"[a.lɪˈmɛn.tũː]"
+],
+"eccl": [
+"[a.liˈmɛn.tum]"
+]
+},
+"aliquando_adv": {
+"word": "aliquandō",
+"classical": [
+"[a.lɪˈkʷan.doː]"
+],
+"eccl": [
+"[a.liˈkʷan.do]"
+]
+},
+"aliqui_pron": {
+"word": "aliquī",
+"classical": [
+"[ˈa.lɪ.kʷiː]"
+],
+"eccl": [
+"[ˈaː.li.kʷi]"
+]
+},
+"alius_pron": {
+"word": "alius",
+"classical": [
+"[ˈa.li.ʊs]"
+],
+"eccl": [
+"[ˈaː.li.us]"
+]
+},
+"allabor_v": {
+"word": "allābor",
+"classical": [
+"[alˈlaː.bɔr]"
+],
+"eccl": [
+"[alˈlaː.bor]"
+]
+},
+"almus_adj": {
+"word": "almus",
+"classical": [
+"[ˈaɫ.mʊs]"
+],
+"eccl": [
+"[ˈal.mus]"
+]
+},
+"alo_v": {
+"word": "alō",
+"classical": [
+"[ˈa.ɫoː]"
+],
+"eccl": [
+"[ˈaː.lo]"
+]
+},
+"alter_pron": {
+"word": "alter",
+"classical": [
+"[ˈaɫ.tɛr]"
+],
+"eccl": [
+"[ˈal.ter]"
+]
+},
+"altus_adj": {
+"word": "altus",
+"classical": [
+"[ˈaɫ.tʊs]"
+],
+"eccl": [
+"[ˈal.tus]"
+]
+},
+"alveus_n": {
+"word": "alveus",
+"classical": [
+"[ˈaɫ.we.ʊs]"
+],
+"eccl": [
+"[ˈal.ve.us]"
+]
+},
+"alvus_n": {
+"word": "alvus",
+"classical": [
+"[ˈaɫ.wʊs]"
+],
+"eccl": [
+"[ˈal.vus]"
+]
+},
+"amarus_adj": {
+"word": "amārus",
+"classical": [
+"[aˈmaː.rʊs]"
+],
+"eccl": [
+"[aˈmaː.rus]"
+]
+},
+"ambiguus_adj": {
+"word": "ambiguus",
+"classical": [
+"[amˈbɪ.ɡu.ʊs]"
+],
+"eccl": [
+"[amˈbiː.ɡu.us]"
+]
+},
+"ambio_v": {
+"word": "ambiō",
+"classical": [
+"[ˈam.bi.oː]"
+],
+"eccl": [
+"[ˈam.bi.o]"
+]
+},
+"amitto_v": {
+"word": "āmittō",
+"classical": [
+"[aːˈmɪt.toː]"
+],
+"eccl": [
+"[aˈmit.to]"
+]
+},
+"amnis_n": {
+"word": "amnis",
+"classical": [
+"[ˈam.nɪs]"
+],
+"eccl": [
+"[ˈam.nis]"
+]
+},
+"amo_v": {
+"word": "amō",
+"classical": [
+"[ˈa.moː]"
+],
+"eccl": [
+"[ˈaː.mo]"
+]
+},
+"amor_n": {
+"word": "amor",
+"classical": [
+"[ˈa.mɔr]"
+],
+"eccl": [
+"[ˈaː.mor]"
+]
+},
+"an_conj": {
+"word": "an",
+"classical": [
+"[ˈan]"
+],
+"eccl": [
+"[ˈan]"
+]
+},
+"ancora_n": {
+"word": "ancora",
+"classical": [
+"[ˈaŋ.kɔ.ra]"
+],
+"eccl": [
+"[ˈaŋ.ko.ra]"
+]
+},
+"ango_v": {
+"word": "angō",
+"classical": [
+"[ˈaŋ.ɡoː]"
+],
+"eccl": [
+"[ˈaŋ.ɡo]"
+]
+},
+"anguipes_adj": {
+"word": "anguipēs",
+"classical": [
+"[ˈaŋ.ɡʷɪ.peːs]"
+],
+"eccl": [
+"[ˈaŋ.ɡʷi.pes]"
+]
+},
+"anhelo_v": {
+"word": "anhēlō",
+"classical": [
+"[aˈneː.ɫoː]"
+],
+"eccl": [
+"[aˈnɛː.lo]"
+]
+},
+"anhelus_adj": {
+"word": "anhēlus",
+"classical": [
+"[aˈneː.ɫʊs]"
+],
+"eccl": [
+"[aˈnɛː.lus]"
+]
+},
+"anima_n": {
+"word": "anima",
+"classical": [
+"[ˈa.nɪ.ma]"
+],
+"eccl": [
+"[ˈaː.ni.ma]"
+]
+},
+"animal_n": {
+"word": "animal",
+"classical": [
+"[ˈa.nɪ.maɫ]"
+],
+"eccl": [
+"[ˈaː.ni.mal]"
+]
+},
+"animalis_adj": {
+"word": "animālis",
+"classical": [
+"[a.nɪˈmaː.lɪs]"
+],
+"eccl": [
+"[a.niˈmaː.lis]"
+]
+},
+"animo_v": {
+"word": "animō",
+"classical": [
+"[ˈa.nɪ.moː]"
+],
+"eccl": [
+"[ˈaː.ni.mo]"
+]
+},
+"animus_n": {
+"word": "animus",
+"classical": [
+"[ˈa.nɪ.mʊs]"
+],
+"eccl": [
+"[ˈaː.ni.mus]"
+]
+},
+"annosus_adj": {
+"word": "annōsus",
+"classical": [
+"[anˈnoː.sʊs]"
+],
+"eccl": [
+"[anˈnɔː.s̬us]"
+]
+},
+"annuo_v": {
+"word": "annuō",
+"classical": [
+"[ˈan.nu.oː]"
+],
+"eccl": [
+"[ˈan.nu.o]"
+]
+},
+"annus_n": {
+"word": "annus",
+"classical": [
+"[ˈan.nʊs]"
+],
+"eccl": [
+"[ˈan.nus]"
+]
+},
+"ante_prep": {
+"word": "ante",
+"classical": [
+"[ˈan.tɛ]"
+],
+"eccl": [
+"[ˈan.te]"
+]
+},
+"antiquo_v": {
+"word": "antīquō",
+"classical": [
+"[anˈtiː.kʷoː]"
+],
+"eccl": [
+"[anˈtiː.kʷo]"
+]
+},
+"antiquus_adj": {
+"word": "antīquus",
+"classical": [
+"[anˈtiː.kʊs]"
+],
+"eccl": [
+"[anˈtiː.kʷus]"
+]
+},
+"antrum_n": {
+"word": "antrum",
+"classical": [
+"[ˈan.trũː]"
+],
+"eccl": [
+"[ˈan.trum]"
+]
+},
+"anxio_v": {
+"word": "anxiō",
+"classical": [
+"[ˈaŋk.si.oː]"
+],
+"eccl": [
+"[ˈaŋk.si.o]"
+]
+},
+"aper_n": {
+"word": "aper",
+"classical": [
+"[ˈa.pɛr]"
+],
+"eccl": [
+"[ˈaː.per]"
+]
+},
+"aperio_v": {
+"word": "aperiō",
+"classical": [
+"[aˈpɛ.ri.oː]"
+],
+"eccl": [
+"[aˈpɛː.ri.o]"
+]
+},
+"apidanus_n": {
+"word": "Āpidanus",
+"classical": [
+"[aːˈpɪ.da.nʊs]"
+],
+"eccl": [
+"[aˈpiː.da.nus]"
+]
+},
+"apis_n": {
+"word": "apis",
+"classical": [
+"[ˈa.pɪs]"
+],
+"eccl": [
+"[ˈaː.pis]"
+]
+},
+"apiscor_v": {
+"word": "apīscor",
+"classical": [
+"[aˈpiːs.kɔr]"
+],
+"eccl": [
+"[aˈpis.kor]"
+]
+},
+"apud_prep": {
+"word": "apud",
+"classical": [
+"[ˈa.pʊd]"
+],
+"eccl": [
+"[ˈaː.pud]"
+]
+},
+"aqua_n": {
+"word": "aqua",
+"classical": [
+"[ˈa.kʷa]",
+"[ˈa.kʷaː]"
+],
+"eccl": [
+"[ˈaː.kʷa]",
+"[ˈaː.kʷa]"
+]
+},
+"aquila_n": {
+"word": "aquila",
+"classical": [
+"[ˈa.kʷɪ.ɫa]"
+],
+"eccl": [
+"[ˈaː.kʷi.la]"
+]
+},
+"ara_n": {
+"word": "āra",
+"classical": [
+"[ˈaː.ra]"
+],
+"eccl": [
+"[ˈaː.ra]"
+]
+},
+"arbor_n": {
+"word": "arbor",
+"classical": [
+"[ˈar.bɔr]"
+],
+"eccl": [
+"[ˈar.bor]"
+]
+},
+"arboreus_adj": {
+"word": "arboreus",
+"classical": [
+"[arˈbɔ.re.ʊs]"
+],
+"eccl": [
+"[arˈbɔː.re.us]"
+]
+},
+"arbusto_v": {
+"word": "arbustō",
+"classical": [
+"[arˈbʊs.toː]"
+],
+"eccl": [
+"[arˈbus.to]"
+]
+},
+"arbuteus_adj": {
+"word": "arbuteus",
+"classical": [
+"[arˈbʊ.te.ʊs]"
+],
+"eccl": [
+"[arˈbuː.te.us]"
+]
+},
+"arcadia_n": {
+"word": "Arcadia",
+"classical": [
+"[arˈka.di.a]"
+],
+"eccl": [
+"[arˈkaː.di.a]"
+]
+},
+"arcas_n": {
+"word": "Arcas",
+"classical": [
+"[ˈar.kas]"
+],
+"eccl": [
+"[ˈar.kas]"
+]
+},
+"arceo_v": {
+"word": "arceō",
+"classical": [
+"[ˈar.ke.oː]"
+],
+"eccl": [
+"[ˈar.t͡ʃe.o]"
+]
+},
+"arcus_n": {
+"word": "arcus",
+"classical": [
+"[ˈar.kʊs]"
+],
+"eccl": [
+"[ˈar.kus]"
+]
+},
+"ardeo_v": {
+"word": "ārdeō",
+"classical": [
+"[ˈaːr.de.oː]"
+],
+"eccl": [
+"[ˈar.de.o]"
+]
+},
+"ardesco_v": {
+"word": "ārdēscō",
+"classical": [
+"[aːrˈdeːs.koː]"
+],
+"eccl": [
+"[arˈdɛs.ko]"
+]
+},
+"arduus_adj": {
+"word": "arduus",
+"classical": [
+"[ˈar.du.ʊs]"
+],
+"eccl": [
+"[ˈar.du.us]"
+]
+},
+"argenteus_adj": {
+"word": "argenteus",
+"classical": [
+"[arˈɡɛn.te.ʊs]"
+],
+"eccl": [
+"[arˈd͡ʒɛn.te.us]"
+]
+},
+"argus_n": {
+"word": "Argus",
+"classical": [
+"[ˈar.ɡʊs]"
+],
+"eccl": [
+"[ˈar.ɡus]"
+]
+},
+"arista_n": {
+"word": "arista",
+"classical": [
+"[aˈrɪs.ta]"
+],
+"eccl": [
+"[aˈris.ta]"
+]
+},
+"arma_n": {
+"word": "arma",
+"classical": [
+"[ˈar.ma]"
+],
+"eccl": [
+"[ˈar.ma]"
+]
+},
+"armentum_n": {
+"word": "armentum",
+"classical": [
+"[arˈmɛn.tũː]"
+],
+"eccl": [
+"[arˈmɛn.tum]"
+]
+},
+"aro_v": {
+"word": "arō",
+"classical": [
+"[ˈa.roː]"
+],
+"eccl": [
+"[ˈaː.ro]"
+]
+},
+"ars_n": {
+"word": "ars",
+"classical": [
+"[ˈars]"
+],
+"eccl": [
+"[ˈars]"
+]
+},
+"artus_n": {
+"word": "artus",
+"classical": [
+"[ˈar.tʊs]"
+],
+"eccl": [
+"[ˈar.tus]"
+]
+},
+"asper_adj": {
+"word": "asper",
+"classical": [
+"[ˈas.pɛr]"
+],
+"eccl": [
+"[ˈas.per]"
+]
+},
+"aspiro_v": {
+"word": "aspīrō",
+"classical": [
+"[asˈpiː.roː]"
+],
+"eccl": [
+"[asˈpiː.ro]"
+]
+},
+"assensus_n": {
+"word": "assēnsus",
+"classical": [
+"[asˈsẽː.sʊs]"
+],
+"eccl": [
+"[asˈsɛn.sus]"
+]
+},
+"assero_v": {
+"word": "asserō",
+"classical": [
+"[ˈas.sɛ.roː]"
+],
+"eccl": [
+"[ˈas.se.ro]"
+]
+},
+"assiduus_adj": {
+"word": "assiduus",
+"classical": [
+"[asˈsɪ.du.ʊs]"
+],
+"eccl": [
+"[asˈsiː.du.us]"
+]
+},
+"astrum_n": {
+"word": "astrum",
+"classical": [
+"[ˈas.trũː]"
+],
+"eccl": [
+"[ˈas.trum]"
+]
+},
+"at_conj": {
+"word": "at",
+"classical": [
+"[ˈat]"
+],
+"eccl": [
+"[ˈat]"
+]
+},
+"atque_conj": {
+"word": "atque",
+"classical": [
+"[ˈat.kʷɛ]"
+],
+"eccl": [
+"[ˈat.kʷe]"
+]
+},
+"atrium_n": {
+"word": "ātrium",
+"classical": [
+"[ˈaː.tri.ũː]"
+],
+"eccl": [
+"[ˈaː.tri.um]"
+]
+},
+"attono_v": {
+"word": "attonō",
+"classical": [
+"[ˈat.tɔ.noː]"
+],
+"eccl": [
+"[ˈat.to.no]"
+]
+},
+"aucto_v": {
+"word": "auctō",
+"classical": [
+"[ˈau̯k.toː]"
+],
+"eccl": [
+"[ˈau̯k.to]"
+]
+},
+"auctumnus_n": {
+"word": "auctumnus",
+"classical": [
+"[au̯kˈtʊm.nʊs]"
+],
+"eccl": [
+"[au̯kˈtum.nus]"
+]
+},
+"audacia_n": {
+"word": "audācia",
+"classical": [
+"[au̯ˈdaː.ki.a]"
+],
+"eccl": [
+"[au̯ˈdaː.t͡ʃi.a]"
+]
+},
+"audeo_v": {
+"word": "audeō",
+"classical": [
+"[ˈau̯.de.oː]"
+],
+"eccl": [
+"[ˈaːu̯.de.o]"
+]
+},
+"audio_v": {
+"word": "audiō",
+"classical": [
+"[ˈau̯.di.oː]"
+],
+"eccl": [
+"[ˈaːu̯.di.o]"
+]
+},
+"aufero_v": {
+"word": "auferō",
+"classical": [
+"[ˈau̯.fɛ.roː]"
+],
+"eccl": [
+"[ˈaːu̯.fe.ro]"
+]
+},
+"augeo_v": {
+"word": "augeō",
+"classical": [
+"[ˈau̯.ɡe.oː]"
+],
+"eccl": [
+"[ˈaːu̯.d͡ʒe.o]"
+]
+},
+"augurium_n": {
+"word": "augurium",
+"classical": [
+"[au̯ˈɡʊ.ri.ũː]"
+],
+"eccl": [
+"[au̯ˈɡuː.ri.um]"
+]
+},
+"augustus_adj": {
+"word": "Augustus",
+"classical": [
+"[au̯ˈɡʊs.tʊs]"
+],
+"eccl": [
+"[au̯ˈɡus.tus]"
+]
+},
+"augustus_n": {
+"word": "Augustus",
+"classical": [
+"[au̯ˈɡʊs.tʊs]"
+],
+"eccl": [
+"[au̯ˈɡus.tus]"
+]
+},
+"aura_n": {
+"word": "aura",
+"classical": [
+"[ˈau̯.ra]"
+],
+"eccl": [
+"[ˈaːu̯.ra]"
+]
+},
+"aureus_adj": {
+"word": "aureus",
+"classical": [
+"[ˈau̯.re.ʊs]"
+],
+"eccl": [
+"[ˈaːu̯.re.us]"
+]
+},
+"aureus_n": {
+"word": "aureus",
+"classical": [
+"[ˈau̯.re.ʊs]"
+],
+"eccl": [
+"[ˈaːu̯.re.us]"
+]
+},
+"auris_n": {
+"word": "auris",
+"classical": [
+"[ˈau̯.rɪs]",
+"[ˈau̯.riːs]"
+],
+"eccl": [
+"[ˈaːu̯.ris]",
+"[ˈaːu̯.ris]"
+]
+},
+"auro_v": {
+"word": "aurō",
+"classical": [
+"[ˈau̯.roː]"
+],
+"eccl": [
+"[ˈaːu̯.ro]"
+]
+},
+"aurora_n": {
+"word": "aurōra",
+"classical": [
+"[au̯ˈroː.ra]"
+],
+"eccl": [
+"[au̯ˈrɔː.ra]"
+]
+},
+"aurum_n": {
+"word": "aurum",
+"classical": [
+"[ˈau̯.rũː]"
+],
+"eccl": [
+"[ˈaːu̯.rum]"
+]
+},
+"auster_n": {
+"word": "auster",
+"classical": [
+"[ˈau̯s.tɛr]"
+],
+"eccl": [
+"[ˈau̯s.ter]"
+]
+},
+"aut_conj": {
+"word": "aut",
+"classical": [
+"[ˈau̯t]"
+],
+"eccl": [
+"[ˈau̯t]"
+]
+},
+"auxiliaris_adj": {
+"word": "auxiliāris",
+"classical": [
+"[au̯k.sɪ.liˈaː.rɪs]"
+],
+"eccl": [
+"[au̯k.si.liˈaː.ris]"
+]
+},
+"auxilium_n": {
+"word": "auxilium",
+"classical": [
+"[au̯kˈsɪ.li.ũː]"
+],
+"eccl": [
+"[au̯kˈsiː.li.um]"
+]
+},
+"avena_n": {
+"word": "avēna",
+"classical": [
+"[aˈweː.na]"
+],
+"eccl": [
+"[aˈvɛː.na]"
+]
+},
+"aversor_v": {
+"word": "āversor",
+"classical": [
+"[aːˈwɛr.sɔr]"
+],
+"eccl": [
+"[aˈvɛr.sor]"
+]
+},
+"averto_v": {
+"word": "āvertō",
+"classical": [
+"[aːˈwɛr.toː]"
+],
+"eccl": [
+"[aˈvɛr.to]"
+]
+},
+"avia_n": {
+"word": "avia",
+"classical": [
+"[ˈa.wi.a]"
+],
+"eccl": [
+"[ˈaː.vi.a]"
+]
+},
+"avidus_adj": {
+"word": "avidus",
+"classical": [
+"[ˈa.wɪ.dʊs]"
+],
+"eccl": [
+"[ˈaː.vi.dus]"
+]
+},
+"axis_n": {
+"word": "axis",
+"classical": [
+"[ˈak.sɪs]"
+],
+"eccl": [
+"[ˈak.sis]"
+]
+},
+"barba_n": {
+"word": "barba",
+"classical": [
+"[ˈbar.ba]"
+],
+"eccl": [
+"[ˈbar.ba]"
+]
+},
+"beatus_adj": {
+"word": "beātus",
+"classical": [
+"[beˈaː.tʊs]"
+],
+"eccl": [
+"[beˈaː.tus]"
+]
+},
+"bellum_n": {
+"word": "bellum",
+"classical": [
+"[ˈbɛl.lũː]"
+],
+"eccl": [
+"[ˈbɛl.lum]"
+]
+},
+"bene_adv": {
+"word": "bene",
+"classical": [
+"[ˈbɛ.nɛ]"
+],
+"eccl": [
+"[ˈbɛː.ne]"
+]
+},
+"blandio_v": {
+"word": "blandiō",
+"classical": [
+"[ˈbɫan.di.oː]"
+],
+"eccl": [
+"[ˈblan.di.o]"
+]
+},
+"boatus_n": {
+"word": "boātus",
+"classical": [
+"[boˈaː.tʊs]",
+"[boˈaː.tuːs]"
+],
+"eccl": [
+"[boˈaː.tus]",
+"[boˈaː.tus]"
+]
+},
+"bonus_adj": {
+"word": "bonus",
+"classical": [
+"[ˈbɔ.nʊs]"
+],
+"eccl": [
+"[ˈbɔː.nus]"
+]
+},
+"bonus_n": {
+"word": "bonus",
+"classical": [
+"[ˈbɔ.nʊs]"
+],
+"eccl": [
+"[ˈbɔː.nus]"
+]
+},
+"bos_n": {
+"word": "bōs",
+"classical": [
+"[ˈboːs]"
+],
+"eccl": [
+"[ˈbɔs]"
+]
+},
+"bracchium_n": {
+"word": "bracchium",
+"classical": [
+"[ˈbrak.kʰi.ũː]"
+],
+"eccl": [
+"[ˈbrak.ki.um]"
+]
+},
+"brevis_adj": {
+"word": "brevis",
+"classical": [
+"[ˈbrɛ.wɪs]"
+],
+"eccl": [
+"[ˈbrɛː.vis]"
+]
+},
+"bucina_n": {
+"word": "būcina",
+"classical": [
+"[ˈbuː.kɪ.na]"
+],
+"eccl": [
+"[ˈbuː.t͡ʃi.na]"
+]
+},
+"cacumen_n": {
+"word": "cacūmen",
+"classical": [
+"[kaˈkuː.mɛn]"
+],
+"eccl": [
+"[kaˈkuː.men]"
+]
+},
+"cado_v": {
+"word": "cadō",
+"classical": [
+"[ˈka.doː]"
+],
+"eccl": [
+"[ˈkaː.do]"
+]
+},
+"caeco_v": {
+"word": "caecō",
+"classical": [
+"[ˈkae̯.koː]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.ko]"
+]
+},
+"caecus_adj": {
+"word": "caecus",
+"classical": [
+"[ˈkae̯.kʊs]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.kus]"
+]
+},
+"caedes_n": {
+"word": "caedēs",
+"classical": [
+"[ˈkae̯.deːs]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.des]"
+]
+},
+"caedo_v": {
+"word": "caedō",
+"classical": [
+"[ˈkae̯.doː]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.do]"
+]
+},
+"caelestis_adj": {
+"word": "caelestis",
+"classical": [
+"[kae̯ˈɫɛs.tɪs]"
+],
+"eccl": [
+"[t͡ʃeˈlɛs.tis]"
+]
+},
+"caelicola_n": {
+"word": "caelicola",
+"classical": [
+"[kae̯ˈlɪ.kɔ.ɫa]"
+],
+"eccl": [
+"[t͡ʃeˈliː.ko.la]"
+]
+},
+"caelo_v": {
+"word": "caelō",
+"classical": [
+"[ˈkae̯.ɫoː]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.lo]"
+]
+},
+"caelum_n": {
+"word": "caelum",
+"classical": [
+"[ˈkae̯.ɫũː]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.lum]"
+]
+},
+"caenum_n": {
+"word": "caenum",
+"classical": [
+"[ˈkae̯.nũː]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.num]"
+]
+},
+"caeruleus_adj": {
+"word": "caeruleus",
+"classical": [
+"[kae̯ˈrʊ.ɫe.ʊs]"
+],
+"eccl": [
+"[t͡ʃeˈruː.le.us]"
+]
+},
+"caesareus_adj": {
+"word": "caesareus",
+"classical": [
+"[kae̯ˈsa.re.ʊs]"
+],
+"eccl": [
+"[t͡ʃeˈs̬aː.re.us]"
+]
+},
+"caesaries_n": {
+"word": "caesariēs",
+"classical": [
+"[kae̯ˈsa.ri.eːs]"
+],
+"eccl": [
+"[t͡ʃeˈs̬aː.ri.es]"
+]
+},
+"calamus_n": {
+"word": "calamus",
+"classical": [
+"[ˈka.ɫa.mʊs]"
+],
+"eccl": [
+"[ˈkaː.la.mus]"
+]
+},
+"calidus_adj": {
+"word": "calidus",
+"classical": [
+"[ˈka.lɪ.dʊs]"
+],
+"eccl": [
+"[ˈkaː.li.dus]"
+]
+},
+"caligo_v": {
+"word": "cālīgō",
+"classical": [
+"[kaːˈliː.ɡoː]"
+],
+"eccl": [
+"[kaˈliː.ɡo]"
+]
+},
+"calo_v": {
+"word": "calō",
+"classical": [
+"[ˈka.ɫoː]"
+],
+"eccl": [
+"[ˈkaː.lo]"
+]
+},
+"campus_n": {
+"word": "campus",
+"classical": [
+"[ˈkam.pʊs]"
+],
+"eccl": [
+"[ˈkam.pus]"
+]
+},
+"cancer_n": {
+"word": "cancer",
+"classical": [
+"[ˈkaŋ.kɛr]"
+],
+"eccl": [
+"[ˈkan̠ʲ.t͡ʃer]"
+]
+},
+"candeo_v": {
+"word": "candeō",
+"classical": [
+"[ˈkan.de.oː]"
+],
+"eccl": [
+"[ˈkan.de.o]"
+]
+},
+"candidus_adj": {
+"word": "candidus",
+"classical": [
+"[ˈkan.dɪ.dʊs]"
+],
+"eccl": [
+"[ˈkan.di.dus]"
+]
+},
+"candor_n": {
+"word": "candor",
+"classical": [
+"[ˈkan.dɔr]"
+],
+"eccl": [
+"[ˈkan.dor]"
+]
+},
+"caneo_v": {
+"word": "cāneō",
+"classical": [
+"[ˈkaː.ne.oː]"
+],
+"eccl": [
+"[ˈkaː.ne.o]"
+]
+},
+"cano_v": {
+"word": "canō",
+"classical": [
+"[ˈka.noː]"
+],
+"eccl": [
+"[ˈkaː.no]"
+]
+},
+"canto_v": {
+"word": "cantō",
+"classical": [
+"[ˈkan.toː]"
+],
+"eccl": [
+"[ˈkan.to]"
+]
+},
+"capax_adj": {
+"word": "capāx",
+"classical": [
+"[ˈka.paːks]"
+],
+"eccl": [
+"[ˈkaː.paks]"
+]
+},
+"capella_n": {
+"word": "Capella",
+"classical": [
+"[kaˈpɛl.la]"
+],
+"eccl": [
+"[kaˈpɛl.la]"
+]
+},
+"capillus_n": {
+"word": "capillus",
+"classical": [
+"[kaˈpɪl.lʊs]"
+],
+"eccl": [
+"[kaˈpil.lus]"
+]
+},
+"capio_v": {
+"word": "capiō",
+"classical": [
+"[ˈka.pi.oː]"
+],
+"eccl": [
+"[ˈkaː.pi.o]"
+]
+},
+"capitium_n": {
+"word": "capitium",
+"classical": [
+"[kaˈpɪ.ti.ũː]"
+],
+"eccl": [
+"[kaˈpit.t͡si.um]"
+]
+},
+"capitolium_n": {
+"word": "Capitōlium",
+"classical": [
+"[ka.pɪˈtoː.li.ũː]"
+],
+"eccl": [
+"[ka.piˈtɔː.li.um]"
+]
+},
+"caprea_n": {
+"word": "caprea",
+"classical": [
+"[ˈka.pre.a]"
+],
+"eccl": [
+"[ˈkaː.pre.a]"
+]
+},
+"capripes_adj": {
+"word": "capripēs",
+"classical": [
+"[ˈka.prɪ.peːs]"
+],
+"eccl": [
+"[ˈkaː.pri.pes]"
+]
+},
+"captiva_n": {
+"word": "captīva",
+"classical": [
+"[kapˈtiː.wa]"
+],
+"eccl": [
+"[kapˈtiː.va]"
+]
+},
+"captivo_v": {
+"word": "captīvō",
+"classical": [
+"[kapˈtiː.woː]"
+],
+"eccl": [
+"[kapˈtiː.vo]"
+]
+},
+"caput_n": {
+"word": "caput",
+"classical": [
+"[ˈka.pʊt]"
+],
+"eccl": [
+"[ˈkaː.put]"
+]
+},
+"careo_v": {
+"word": "careō",
+"classical": [
+"[ˈka.re.oː]"
+],
+"eccl": [
+"[ˈkaː.re.o]"
+]
+},
+"carina_n": {
+"word": "Carīna",
+"classical": [
+"[kaˈriː.na]"
+],
+"eccl": [
+"[kaˈriː.na]"
+]
+},
+"carmen_n": {
+"word": "carmen",
+"classical": [
+"[ˈkar.mɛn]"
+],
+"eccl": [
+"[ˈkar.men]"
+]
+},
+"carpo_v": {
+"word": "carpō",
+"classical": [
+"[ˈkar.poː]"
+],
+"eccl": [
+"[ˈkar.po]"
+]
+},
+"carus_adj": {
+"word": "cārus",
+"classical": [
+"[ˈkaː.rʊs]"
+],
+"eccl": [
+"[ˈkaː.rus]"
+]
+},
+"casus_n": {
+"word": "cāsus",
+"classical": [
+"[ˈkaː.sʊs]"
+],
+"eccl": [
+"[ˈkaː.s̬us]"
+]
+},
+"cauda_n": {
+"word": "cauda",
+"classical": [
+"[ˈkau̯.da]"
+],
+"eccl": [
+"[ˈkaːu̯.da]"
+]
+},
+"causa_n": {
+"word": "causa",
+"classical": [
+"[ˈkau̯.sa]",
+"[ˈkau̯.saː]"
+],
+"eccl": [
+"[ˈkaːu̯.sa]",
+"[ˈkaːu̯.sa]"
+]
+},
+"caveo_v": {
+"word": "caveō",
+"classical": [
+"[ˈka.we.oː]"
+],
+"eccl": [
+"[ˈkaː.ve.o]"
+]
+},
+"cavo_v": {
+"word": "cavō",
+"classical": [
+"[ˈka.woː]"
+],
+"eccl": [
+"[ˈkaː.vo]"
+]
+},
+"cedo_v": {
+"word": "cēdō",
+"classical": [
+"[ˈkeː.doː]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.do]"
+]
+},
+"celeber_adj": {
+"word": "celeber",
+"classical": [
+"[ˈkɛ.ɫɛ.bɛr]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.le.ber]"
+]
+},
+"celebro_v": {
+"word": "celebrō",
+"classical": [
+"[ˈkɛ.ɫɛ.broː]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.le.bro]"
+]
+},
+"celer_adj": {
+"word": "celer",
+"classical": [
+"[ˈkɛ.ɫɛr]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.ler]"
+]
+},
+"celo_v": {
+"word": "cēlō",
+"classical": [
+"[ˈkeː.ɫoː]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.lo]"
+]
+},
+"celsus_adj": {
+"word": "celsus",
+"classical": [
+"[ˈkɛɫ.sʊs]"
+],
+"eccl": [
+"[ˈt͡ʃɛl.sus]"
+]
+},
+"centum_num": {
+"word": "centum",
+"classical": [
+"[ˈkɛn.tũː]"
+],
+"eccl": [
+"[ˈt͡ʃɛn.tum]"
+]
+},
+"cera_n": {
+"word": "cēra",
+"classical": [
+"[ˈkeː.ra]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.ra]"
+]
+},
+"cerno_v": {
+"word": "cernō",
+"classical": [
+"[ˈkɛr.noː]"
+],
+"eccl": [
+"[ˈt͡ʃɛr.no]"
+]
+},
+"certamen_n": {
+"word": "certāmen",
+"classical": [
+"[kɛrˈtaː.mɛn]"
+],
+"eccl": [
+"[t͡ʃerˈtaː.men]"
+]
+},
+"certo_v": {
+"word": "certō",
+"classical": [
+"[ˈkɛr.toː]"
+],
+"eccl": [
+"[ˈt͡ʃɛr.to]"
+]
+},
+"certus_adj": {
+"word": "certus",
+"classical": [
+"[ˈkɛr.tʊs]"
+],
+"eccl": [
+"[ˈt͡ʃɛr.tus]"
+]
+},
+"cerva_n": {
+"word": "cerva",
+"classical": [
+"[ˈkɛr.wa]",
+"[ˈkɛr.waː]"
+],
+"eccl": [
+"[ˈt͡ʃɛr.va]",
+"[ˈt͡ʃɛr.va]"
+]
+},
+"cervix_n": {
+"word": "cervīx",
+"classical": [
+"[ˈkɛr.wiːks]"
+],
+"eccl": [
+"[ˈt͡ʃɛr.viks]"
+]
+},
+"cervus_n": {
+"word": "cervus",
+"classical": [
+"[ˈkɛr.wʊs]"
+],
+"eccl": [
+"[ˈt͡ʃɛr.vus]"
+]
+},
+"ceterus_adj": {
+"word": "cēterus",
+"classical": [
+"[ˈkeː.tɛ.rʊs]"
+],
+"eccl": [
+"[ˈt͡ʃɛː.te.rus]"
+]
+},
+"ceu_adv": {
+"word": "ceu",
+"classical": [
+"[ˈkɛu̯]"
+],
+"eccl": [
+"[ˈt͡ʃɛːu̯]"
+]
+},
+"chaos_n": {
+"word": "chaos",
+"classical": [
+"[ˈkʰa.ɔs]"
+],
+"eccl": [
+"[ˈkaː.os]"
+]
+},
+"cibus_n": {
+"word": "cibus",
+"classical": [
+"[ˈkɪ.bʊs]"
+],
+"eccl": [
+"[ˈt͡ʃiː.bus]"
+]
+},
+"cieo_v": {
+"word": "cieō",
+"classical": [
+"[ˈki.e.oː]"
+],
+"eccl": [
+"[ˈt͡ʃiː.e.o]"
+]
+},
+"cingo_v": {
+"word": "cingō",
+"classical": [
+"[ˈkɪŋ.ɡoː]"
+],
+"eccl": [
+"[ˈt͡ʃiŋ.ɡo]"
+]
+},
+"circumdo_v": {
+"word": "circumdō",
+"classical": [
+"[kɪrˈkʊn.doː]"
+],
+"eccl": [
+"[t͡ʃirˈkum.do]"
+]
+},
+"circumfluus_adj": {
+"word": "circumfluus",
+"classical": [
+"[kɪrˈkũː.fɫu.ʊs]"
+],
+"eccl": [
+"[t͡ʃirˈkum.flu.us]"
+]
+},
+"circumfundo_v": {
+"word": "circumfundō",
+"classical": [
+"[kɪr.kũːˈfʊn.doː]"
+],
+"eccl": [
+"[t͡ʃir.kumˈfun.do]"
+]
+},
+"circumsono_v": {
+"word": "circumsonō",
+"classical": [
+"[kɪrˈkũː.sɔ.noː]"
+],
+"eccl": [
+"[t͡ʃirˈkum.so.no]"
+]
+},
+"circumspicio_v": {
+"word": "circumspiciō",
+"classical": [
+"[kɪr.kũːˈspɪ.ki.oː]"
+],
+"eccl": [
+"[t͡ʃir.kumˈspiː.t͡ʃi.o]"
+]
+},
+"circus_n": {
+"word": "circus",
+"classical": [
+"[ˈkɪr.kʊs]"
+],
+"eccl": [
+"[ˈt͡ʃir.kus]"
+]
+},
+"cithara_n": {
+"word": "cithara",
+"classical": [
+"[ˈkɪ.tʰa.ra]"
+],
+"eccl": [
+"[ˈt͡ʃiː.ta.ra]"
+]
+},
+"civis_n": {
+"word": "cīvis",
+"classical": [
+"[ˈkiː.wɪs]"
+],
+"eccl": [
+"[ˈt͡ʃiː.vis]"
+]
+},
+"clamo_v": {
+"word": "clāmō",
+"classical": [
+"[ˈkɫaː.moː]"
+],
+"eccl": [
+"[ˈklaː.mo]"
+]
+},
+"clarus_adj": {
+"word": "clārus",
+"classical": [
+"[ˈkɫaː.rʊs]"
+],
+"eccl": [
+"[ˈklaː.rus]"
+]
+},
+"claudo_v": {
+"word": "claudō",
+"classical": [
+"[ˈkɫau̯.doː]"
+],
+"eccl": [
+"[ˈklaːu̯.do]"
+]
+},
+"coeo_v": {
+"word": "coeō",
+"classical": [
+"[ˈko.e.oː]",
+"[ˈkoe̯.oː]"
+],
+"eccl": [
+"[ˈkɔː.e.o]",
+"[ˈt͡ʃɛː.o]"
+]
+},
+"coerceo_v": {
+"word": "coërceō",
+"classical": [
+"[koˈɛr.ke.oː]"
+],
+"eccl": [
+"[koˈɛr.t͡ʃe.o]"
+]
+},
+"cognatus_n": {
+"word": "cognātus",
+"classical": [
+"[kɔŋˈnaː.tʊs]"
+],
+"eccl": [
+"[koɲˈɲaː.tus]"
+]
+},
+"cogo_v": {
+"word": "cōgō",
+"classical": [
+"[ˈkoː.ɡoː]"
+],
+"eccl": [
+"[ˈkɔː.ɡo]"
+]
+},
+"colligo_v": {
+"word": "colligō",
+"classical": [
+"[ˈkɔl.lɪ.ɡoː]"
+],
+"eccl": [
+"[ˈkɔl.li.ɡo]"
+]
+},
+"collis_n": {
+"word": "collis",
+"classical": [
+"[ˈkɔl.lɪs]"
+],
+"eccl": [
+"[ˈkɔl.lis]"
+]
+},
+"colloco_v": {
+"word": "collocō",
+"classical": [
+"[ˈkɔl.lɔ.koː]"
+],
+"eccl": [
+"[ˈkɔl.lo.ko]"
+]
+},
+"collum_n": {
+"word": "collum",
+"classical": [
+"[ˈkɔl.lũː]"
+],
+"eccl": [
+"[ˈkɔl.lum]"
+]
+},
+"colo_v": {
+"word": "colō",
+"classical": [
+"[ˈkɔ.ɫoː]"
+],
+"eccl": [
+"[ˈkɔː.lo]"
+]
+},
+"colonus_n": {
+"word": "colōnus",
+"classical": [
+"[kɔˈɫoː.nʊs]"
+],
+"eccl": [
+"[koˈlɔː.nus]"
+]
+},
+"color_n": {
+"word": "color",
+"classical": [
+"[ˈkɔ.ɫɔr]"
+],
+"eccl": [
+"[ˈkɔː.lor]"
+]
+},
+"columba_n": {
+"word": "columba",
+"classical": [
+"[kɔˈɫʊm.ba]"
+],
+"eccl": [
+"[koˈlum.ba]"
+]
+},
+"coma_n": {
+"word": "coma",
+"classical": [
+"[ˈkɔ.ma]"
+],
+"eccl": [
+"[ˈkɔː.ma]"
+]
+},
+"communis_adj": {
+"word": "commūnis",
+"classical": [
+"[kɔmˈmuː.nɪs]"
+],
+"eccl": [
+"[komˈmuː.nis]"
+]
+},
+"como_v": {
+"word": "cōmō",
+"classical": [
+"[ˈkoː.moː]"
+],
+"eccl": [
+"[ˈkɔː.mo]"
+]
+},
+"complexus_n": {
+"word": "complexus",
+"classical": [
+"[kɔmˈpɫɛk.sʊs]"
+],
+"eccl": [
+"[komˈplɛk.sus]"
+]
+},
+"comprehendo_v": {
+"word": "comprehendō",
+"classical": [
+"[kɔm.preˈ(ɦ)ɛn.doː]"
+],
+"eccl": [
+"[kom.preˈɛn.do]"
+]
+},
+"comprimo_v": {
+"word": "comprimō",
+"classical": [
+"[ˈkɔm.prɪ.moː]"
+],
+"eccl": [
+"[ˈkɔm.pri.mo]"
+]
+},
+"concha_n": {
+"word": "concha",
+"classical": [
+"[ˈkɔŋ.kʰa]"
+],
+"eccl": [
+"[ˈkɔŋ.ka]"
+]
+},
+"concilium_n": {
+"word": "concilium",
+"classical": [
+"[kɔŋˈkɪ.li.ũː]"
+],
+"eccl": [
+"[kon̠ʲˈt͡ʃiː.li.um]"
+]
+},
+"concipio_v": {
+"word": "concipiō",
+"classical": [
+"[kɔŋˈkɪ.pi.oː]"
+],
+"eccl": [
+"[kon̠ʲˈt͡ʃiː.pi.o]"
+]
+},
+"concolor_adj": {
+"word": "concolor",
+"classical": [
+"[ˈkɔŋ.kɔ.ɫɔr]"
+],
+"eccl": [
+"[ˈkɔŋ.ko.lor]"
+]
+},
+"concordia_n": {
+"word": "concordia",
+"classical": [
+"[kɔŋˈkɔr.di.a]"
+],
+"eccl": [
+"[koŋˈkɔr.di.a]"
+]
+},
+"concordo_v": {
+"word": "concordō",
+"classical": [
+"[kɔŋˈkɔr.doː]"
+],
+"eccl": [
+"[koŋˈkɔr.do]"
+]
+},
+"concors_adj": {
+"word": "concors",
+"classical": [
+"[ˈkɔŋ.kɔrs]"
+],
+"eccl": [
+"[ˈkɔŋ.kors]"
+]
+},
+"concutio_v": {
+"word": "concutiō",
+"classical": [
+"[kɔŋˈkʊ.ti.oː]"
+],
+"eccl": [
+"[koŋˈkut.t͡si.o]"
+]
+},
+"condo_v": {
+"word": "condō",
+"classical": [
+"[ˈkɔn.doː]"
+],
+"eccl": [
+"[ˈkɔn.do]"
+]
+},
+"conduco_v": {
+"word": "condūcō",
+"classical": [
+"[kɔnˈduː.koː]"
+],
+"eccl": [
+"[konˈduː.ko]"
+]
+},
+"confinis_adj": {
+"word": "cōnfīnis",
+"classical": [
+"[kõːˈfiː.nɪs]"
+],
+"eccl": [
+"[koɱˈfiː.nis]"
+]
+},
+"confremo_v": {
+"word": "cōnfremō",
+"classical": [
+"[ˈkõː.frɛ.moː]"
+],
+"eccl": [
+"[ˈkɔɱ.fre.mo]"
+]
+},
+"congeries_n": {
+"word": "congeriēs",
+"classical": [
+"[kɔŋˈɡɛ.ri.eːs]"
+],
+"eccl": [
+"[kon̠ʲˈd͡ʒɛː.ri.es]"
+]
+},
+"congero_v": {
+"word": "congerō",
+"classical": [
+"[ˈkɔŋ.ɡɛ.roː]"
+],
+"eccl": [
+"[ˈkɔn̠ʲ.d͡ʒe.ro]"
+]
+},
+"conjugium_n": {
+"word": "coniugium",
+"classical": [
+"[kɔnˈjʊ.ɡi.ũː]"
+],
+"eccl": [
+"[konˈjuː.d͡ʒi.um]"
+]
+},
+"conjunx_n": {
+"word": "coniūnx",
+"classical": [
+"[ˈkɔn.juːŋks]"
+],
+"eccl": [
+"[ˈkɔn.juŋks]"
+]
+},
+"conor_v": {
+"word": "cōnor",
+"classical": [
+"[ˈkoː.nɔr]"
+],
+"eccl": [
+"[ˈkɔː.nor]"
+]
+},
+"conplector_v": {
+"word": "conplector",
+"classical": [
+"[kɔmˈpɫɛk.tɔr]"
+],
+"eccl": [
+"[konˈplɛk.tor]"
+]
+},
+"conscius_adj": {
+"word": "cōnscius",
+"classical": [
+"[ˈkõː.ski.ʊs]"
+],
+"eccl": [
+"[ˈkɔn̠ʲ.ʃi.us]"
+]
+},
+"consero_v": {
+"word": "cōnserō",
+"classical": [
+"[ˈkõː.sɛ.roː]"
+],
+"eccl": [
+"[ˈkɔn.se.ro]"
+]
+},
+"consido_v": {
+"word": "cōnsīdō",
+"classical": [
+"[kõːˈsiː.doː]"
+],
+"eccl": [
+"[konˈsiː.do]"
+]
+},
+"consisto_v": {
+"word": "cōnsistō",
+"classical": [
+"[kõːˈsɪs.toː]"
+],
+"eccl": [
+"[konˈsis.to]"
+]
+},
+"consolo_v": {
+"word": "cōnsōlō",
+"classical": [
+"[kõːˈsoː.ɫoː]"
+],
+"eccl": [
+"[konˈsɔː.lo]"
+]
+},
+"consors_n": {
+"word": "cōnsors",
+"classical": [
+"[ˈkõː.sɔrs]"
+],
+"eccl": [
+"[ˈkɔn.sors]"
+]
+},
+"consortium_n": {
+"word": "cōnsortium",
+"classical": [
+"[kõːˈsɔr.ti.ũː]"
+],
+"eccl": [
+"[konˈsɔr.t͡si.um]"
+]
+},
+"conspicio_v": {
+"word": "cōnspiciō",
+"classical": [
+"[kõːˈspɪ.ki.oː]"
+],
+"eccl": [
+"[konˈspiː.t͡ʃi.o]"
+]
+},
+"consto_v": {
+"word": "cōnstō",
+"classical": [
+"[ˈkõː.stoː]"
+],
+"eccl": [
+"[ˈkɔn.sto]"
+]
+},
+"contemptrix_n": {
+"word": "contemptrīx",
+"classical": [
+"[kɔnˈtɛmp.triːks]"
+],
+"eccl": [
+"[konˈtɛmp.triks]"
+]
+},
+"contendo_v": {
+"word": "contendō",
+"classical": [
+"[kɔnˈtɛn.doː]"
+],
+"eccl": [
+"[konˈtɛn.do]"
+]
+},
+"conterminus_adj": {
+"word": "conterminus",
+"classical": [
+"[kɔnˈtɛr.mɪ.nʊs]"
+],
+"eccl": [
+"[konˈtɛr.mi.nus]"
+]
+},
+"contingo_v": {
+"word": "contingō",
+"classical": [
+"[kɔnˈtɪŋ.ɡoː]"
+],
+"eccl": [
+"[konˈtiŋ.ɡo]"
+]
+},
+"contraho_v": {
+"word": "contrahō",
+"classical": [
+"[ˈkɔn.tra.(ɦ)oː]"
+],
+"eccl": [
+"[ˈkɔn.tra.o]"
+]
+},
+"contrarium_n": {
+"word": "contrārium",
+"classical": [
+"[kɔnˈtraː.ri.ũː]"
+],
+"eccl": [
+"[konˈtraː.ri.um]"
+]
+},
+"conubium_n": {
+"word": "cōnū̆bium",
+"classical": [
+"[koːˈnuː.bi.ũː]",
+"[koːˈnʊ.bi.ũː]"
+],
+"eccl": [
+"[koˈnuː.bi.um]"
+]
+},
+"conveho_v": {
+"word": "convehō",
+"classical": [
+"[ˈkɔn.we.(ɦ)oː]"
+],
+"eccl": [
+"[ˈkɔɱ.ve.o]"
+]
+},
+"convenio_v": {
+"word": "conveniō",
+"classical": [
+"[kɔnˈwɛ.ni.oː]"
+],
+"eccl": [
+"[koɱˈvɛː.ni.o]"
+]
+},
+"converro_v": {
+"word": "converrō",
+"classical": [
+"[kɔnˈwɛr.roː]"
+],
+"eccl": [
+"[koɱˈvɛr.ro]"
+]
+},
+"converto_v": {
+"word": "convertō",
+"classical": [
+"[kɔnˈwɛr.toː]"
+],
+"eccl": [
+"[koɱˈvɛr.to]"
+]
+},
+"convicior_v": {
+"word": "convīcior",
+"classical": [
+"[kɔnˈwiː.ki.ɔr]"
+],
+"eccl": [
+"[koɱˈviː.t͡ʃi.or]"
+]
+},
+"convivium_n": {
+"word": "convīvium",
+"classical": [
+"[kɔnˈwiː.wi.ũː]"
+],
+"eccl": [
+"[koɱˈviː.vi.um]"
+]
+},
+"convoco_v": {
+"word": "convocō",
+"classical": [
+"[ˈkɔn.wɔ.koː]"
+],
+"eccl": [
+"[ˈkɔɱ.vo.ko]"
+]
+},
+"cornu_n": {
+"word": "cornū̆",
+"classical": [
+"[ˈkɔr.nuː]",
+"[ˈkɔr.nʊ]"
+],
+"eccl": [
+"[ˈkɔr.nu]"
+]
+},
+"cornum_n": {
+"word": "Cornum",
+"classical": [
+"[ˈkɔr.nũː]"
+],
+"eccl": [
+"[ˈkɔr.num]"
+]
+},
+"corpus_n": {
+"word": "corpus",
+"classical": [
+"[ˈkɔr.pʊs]"
+],
+"eccl": [
+"[ˈkɔr.pus]"
+]
+},
+"corripio_v": {
+"word": "corripiō",
+"classical": [
+"[kɔrˈrɪ.pi.oː]"
+],
+"eccl": [
+"[korˈriː.pi.o]"
+]
+},
+"cortex_n": {
+"word": "cortex",
+"classical": [
+"[ˈkɔr.tɛks]"
+],
+"eccl": [
+"[ˈkɔr.teks]"
+]
+},
+"coruscus_adj": {
+"word": "coruscus",
+"classical": [
+"[kɔˈrʊs.kʊs]"
+],
+"eccl": [
+"[koˈrus.kus]"
+]
+},
+"creditum_n": {
+"word": "crēditum",
+"classical": [
+"[ˈkreː.dɪ.tũː]"
+],
+"eccl": [
+"[ˈkrɛː.di.tum]"
+]
+},
+"credo_v": {
+"word": "crēdō",
+"classical": [
+"[ˈkreː.doː]"
+],
+"eccl": [
+"[ˈkrɛː.do]"
+]
+},
+"creo_v": {
+"word": "creō",
+"classical": [
+"[ˈkre.oː]"
+],
+"eccl": [
+"[ˈkrɛː.o]"
+]
+},
+"crepidatus_adj": {
+"word": "crepidātus",
+"classical": [
+"[krɛ.pɪˈdaː.tʊs]"
+],
+"eccl": [
+"[kre.piˈdaː.tus]"
+]
+},
+"crepito_v": {
+"word": "crepitō",
+"classical": [
+"[ˈkrɛ.pɪ.toː]"
+],
+"eccl": [
+"[ˈkrɛː.pi.to]"
+]
+},
+"crepusculum_n": {
+"word": "crepusculum",
+"classical": [
+"[krɛˈpʊs.kʊ.ɫũː]"
+],
+"eccl": [
+"[kreˈpus.ku.lum]"
+]
+},
+"cresco_v": {
+"word": "crēscō",
+"classical": [
+"[ˈkreːs.koː]"
+],
+"eccl": [
+"[ˈkrɛs.ko]"
+]
+},
+"crimen_n": {
+"word": "crīmen",
+"classical": [
+"[ˈkriː.mɛn]"
+],
+"eccl": [
+"[ˈkriː.men]"
+]
+},
+"crinis_n": {
+"word": "crīnis",
+"classical": [
+"[ˈkriː.nɪs]"
+],
+"eccl": [
+"[ˈkriː.nis]"
+]
+},
+"crudelis_adj": {
+"word": "crūdēlis",
+"classical": [
+"[kruːˈdeː.lɪs]"
+],
+"eccl": [
+"[kruˈdɛː.lis]"
+]
+},
+"cruentus_adj": {
+"word": "cruentus",
+"classical": [
+"[kruˈɛn.tʊs]"
+],
+"eccl": [
+"[kruˈɛn.tus]"
+]
+},
+"cruor_n": {
+"word": "cruor",
+"classical": [
+"[ˈkru.ɔr]"
+],
+"eccl": [
+"[ˈkruː.or]"
+]
+},
+"crus_n": {
+"word": "crūs",
+"classical": [
+"[ˈkruːs]"
+],
+"eccl": [
+"[ˈkrus]"
+]
+},
+"cubile_n": {
+"word": "cubīle",
+"classical": [
+"[kʊˈbiː.ɫɛ]"
+],
+"eccl": [
+"[kuˈbiː.le]"
+]
+},
+"cujus_adj": {
+"word": "cuius",
+"classical": [
+"[ˈkʊj.jʊs]"
+],
+"eccl": [
+"[ˈkuː.jus]"
+]
+},
+"culmen_n": {
+"word": "culmen",
+"classical": [
+"[ˈkʊɫ.mɛn]"
+],
+"eccl": [
+"[ˈkul.men]"
+]
+},
+"cultor_n": {
+"word": "cultor",
+"classical": [
+"[ˈkʊɫ.tɔr]"
+],
+"eccl": [
+"[ˈkul.tor]"
+]
+},
+"cum_prep": {
+"word": "cum",
+"classical": [
+"[ˈkũː]"
+],
+"eccl": [
+"[ˈkum]"
+]
+},
+"cumba_n": {
+"word": "cumba",
+"classical": [
+"[ˈkʊm.ba]"
+],
+"eccl": [
+"[ˈkum.ba]"
+]
+},
+"cumque_adv": {
+"word": "cumque",
+"classical": [
+"[ˈkʊŋ.kʷɛ]"
+],
+"eccl": [
+"[ˈkum.kʷe]"
+]
+},
+"cuncto_v": {
+"word": "cūnctō",
+"classical": [
+"[ˈkuːŋk.toː]"
+],
+"eccl": [
+"[ˈkuŋk.to]"
+]
+},
+"cunctus_adj": {
+"word": "cūnctus",
+"classical": [
+"[ˈkuːŋk.tʊs]"
+],
+"eccl": [
+"[ˈkuŋk.tus]"
+]
+},
+"cupido_n": {
+"word": "cupīdō",
+"classical": [
+"[kʊˈpiː.doː]"
+],
+"eccl": [
+"[kuˈpiː.do]"
+]
+},
+"cupio_v": {
+"word": "cupiō",
+"classical": [
+"[ˈkʊ.pi.oː]"
+],
+"eccl": [
+"[ˈkuː.pi.o]"
+]
+},
+"cura_n": {
+"word": "cūra",
+"classical": [
+"[ˈkuː.ra]"
+],
+"eccl": [
+"[ˈkuː.ra]"
+]
+},
+"curo_v": {
+"word": "cūrō",
+"classical": [
+"[ˈkuː.roː]"
+],
+"eccl": [
+"[ˈkuː.ro]"
+]
+},
+"curro_v": {
+"word": "currō",
+"classical": [
+"[ˈkʊr.roː]"
+],
+"eccl": [
+"[ˈkur.ro]"
+]
+},
+"cursus_n": {
+"word": "cursus",
+"classical": [
+"[ˈkʊr.sʊs]"
+],
+"eccl": [
+"[ˈkur.sus]"
+]
+},
+"curvus_adj": {
+"word": "curvus",
+"classical": [
+"[ˈkʊr.wʊs]"
+],
+"eccl": [
+"[ˈkur.vus]"
+]
+},
+"custos_n": {
+"word": "custōs",
+"classical": [
+"[ˈkʊs.toːs]"
+],
+"eccl": [
+"[ˈkus.tos]"
+]
+},
+"cyclops_n": {
+"word": "cyclōps",
+"classical": [
+"[ˈky.kɫoːps]"
+],
+"eccl": [
+"[ˈt͡ʃiː.klops]"
+]
+},
+"cyllene_n": {
+"word": "Cyllēnē",
+"classical": [
+"[kylˈleː.neː]"
+],
+"eccl": [
+"[t͡ʃilˈlɛː.ne]"
+]
+},
+"cyllenius_n": {
+"word": "Cyllēnius",
+"classical": [
+"[kylˈlɛ.ni.ʊs]"
+],
+"eccl": [
+"[t͡ʃilˈlɛː.ni.us]"
+]
+},
+"cyparissus_n": {
+"word": "cyparissus",
+"classical": [
+"[ky.paˈrɪs.sʊs]"
+],
+"eccl": [
+"[t͡ʃi.paˈris.sus]"
+]
+},
+"damnum_n": {
+"word": "damnum",
+"classical": [
+"[ˈdam.nũː]"
+],
+"eccl": [
+"[ˈdam.num]"
+]
+},
+"daphne_n": {
+"word": "Daphnē",
+"classical": [
+"[ˈdapʰ.neː]"
+],
+"eccl": [
+"[ˈdaf.ne]"
+]
+},
+"de_prep": {
+"word": "dē",
+"classical": [
+"[ˈdeː]"
+],
+"eccl": [
+"[ˈdɛː]"
+]
+},
+"dea_n": {
+"word": "dea",
+"classical": [
+"[ˈde.a]"
+],
+"eccl": [
+"[ˈdɛː.a]"
+]
+},
+"debeo_v": {
+"word": "dēbeō",
+"classical": [
+"[ˈdeː.be.oː]"
+],
+"eccl": [
+"[ˈdɛː.be.o]"
+]
+},
+"decentia_n": {
+"word": "decentia",
+"classical": [
+"[dɛˈkɛn.ti.a]"
+],
+"eccl": [
+"[deˈt͡ʃɛn.t͡si.a]"
+]
+},
+"decerpo_v": {
+"word": "dēcerpō",
+"classical": [
+"[deːˈkɛr.poː]"
+],
+"eccl": [
+"[deˈt͡ʃɛr.po]"
+]
+},
+"decet_v": {
+"word": "decet",
+"classical": [
+"[ˈdɛ.kɛt]"
+],
+"eccl": [
+"[ˈdɛː.t͡ʃet]"
+]
+},
+"decido2_v": {
+"word": "dēcidō",
+"classical": [
+"[ˈdeː.kɪ.doː]"
+],
+"eccl": [
+"[ˈdɛː.t͡ʃi.do]"
+]
+},
+"decido_v": {
+"word": "dēcidō",
+"classical": [
+"[ˈdeː.kɪ.doː]"
+],
+"eccl": [
+"[ˈdɛː.t͡ʃi.do]"
+]
+},
+"decor_n": {
+"word": "decor",
+"classical": [
+"[ˈdɛ.kɔr]"
+],
+"eccl": [
+"[ˈdɛː.kor]"
+]
+},
+"decresco_v": {
+"word": "dēcrēscō",
+"classical": [
+"[deːˈkreːs.koː]"
+],
+"eccl": [
+"[deˈkrɛs.ko]"
+]
+},
+"dedo_v": {
+"word": "dēdō",
+"classical": [
+"[ˈdeː.doː]"
+],
+"eccl": [
+"[ˈdɛː.do]"
+]
+},
+"deduco_v": {
+"word": "dēdūcō",
+"classical": [
+"[deːˈduː.koː]"
+],
+"eccl": [
+"[deˈduː.ko]"
+]
+},
+"defervesco_v": {
+"word": "dēfervēscō",
+"classical": [
+"[deː.fɛrˈweːs.koː]"
+],
+"eccl": [
+"[de.ferˈvɛs.ko]"
+]
+},
+"deformis_adj": {
+"word": "dēfōrmis",
+"classical": [
+"[deːˈfoːr.mɪs]"
+],
+"eccl": [
+"[deˈfɔr.mis]"
+]
+},
+"defrenatus_adj": {
+"word": "dēfrēnātus",
+"classical": [
+"[deː.freːˈnaː.tʊs]"
+],
+"eccl": [
+"[de.freˈnaː.tus]"
+]
+},
+"deicio_v": {
+"word": "dēiciō",
+"classical": [
+"[deːˈjɪ.ki.oː]"
+],
+"eccl": [
+"[deˈjiː.t͡ʃi.o]"
+]
+},
+"deinde_adv": {
+"word": "de͡inde",
+"classical": [
+"[ˈdɛi̯n.dɛ]"
+],
+"eccl": [
+"[deˈin.de]"
+]
+},
+"delabor_v": {
+"word": "dēlābor",
+"classical": [
+"[deːˈɫaː.bɔr]"
+],
+"eccl": [
+"[deˈlaː.bor]"
+]
+},
+"deleo_v": {
+"word": "dēleō",
+"classical": [
+"[ˈdeː.ɫe.oː]"
+],
+"eccl": [
+"[ˈdɛː.le.o]"
+]
+},
+"delphin_n": {
+"word": "delphīn",
+"classical": [
+"[ˈdɛɫ.pʰiːn]"
+],
+"eccl": [
+"[ˈdɛl.fin]"
+]
+},
+"delubrum_n": {
+"word": "dēlūbrum",
+"classical": [
+"[deːˈɫuː.brũː]"
+],
+"eccl": [
+"[deˈluː.brum]"
+]
+},
+"demens_adj": {
+"word": "dēmēns",
+"classical": [
+"[ˈdeː.mẽːs]"
+],
+"eccl": [
+"[ˈdɛː.mens]"
+]
+},
+"demitto_v": {
+"word": "dēmittō",
+"classical": [
+"[deːˈmɪt.toː]"
+],
+"eccl": [
+"[deˈmit.to]"
+]
+},
+"demo_v": {
+"word": "dēmō",
+"classical": [
+"[ˈdeː.moː]"
+],
+"eccl": [
+"[ˈdɛː.mo]"
+]
+},
+"densus_adj": {
+"word": "dēnsus",
+"classical": [
+"[ˈdẽː.sʊs]"
+],
+"eccl": [
+"[ˈdɛn.sus]"
+]
+},
+"depereo_v": {
+"word": "dēpereō",
+"classical": [
+"[deːˈpɛ.re.oː]"
+],
+"eccl": [
+"[deˈpɛː.re.o]"
+]
+},
+"deploro_v": {
+"word": "dēplōrō",
+"classical": [
+"[deːˈpɫoː.roː]"
+],
+"eccl": [
+"[deˈplɔː.ro]"
+]
+},
+"deposco_v": {
+"word": "dēposcō",
+"classical": [
+"[deːˈpɔs.koː]"
+],
+"eccl": [
+"[deˈpɔs.ko]"
+]
+},
+"deprehendo_v": {
+"word": "dēprehendō",
+"classical": [
+"[deː.preˈ(ɦ)ɛn.doː]"
+],
+"eccl": [
+"[de.preˈɛn.do]"
+]
+},
+"descendo_v": {
+"word": "dēscendō",
+"classical": [
+"[deːsˈkɛn.doː]"
+],
+"eccl": [
+"[deʃˈʃɛn.do]"
+]
+},
+"desero_v": {
+"word": "dēserō",
+"classical": [
+"[ˈdeː.sɛ.roː]"
+],
+"eccl": [
+"[ˈdɛː.s̬e.ro]"
+]
+},
+"desilio_v": {
+"word": "dēsiliō",
+"classical": [
+"[deːˈsɪ.li.oː]"
+],
+"eccl": [
+"[deˈs̬iː.li.o]"
+]
+},
+"desino_v": {
+"word": "dēsinō",
+"classical": [
+"[ˈdeː.sɪ.noː]"
+],
+"eccl": [
+"[ˈdɛː.s̬i.no]"
+]
+},
+"desolo_v": {
+"word": "dēsōlō",
+"classical": [
+"[deːˈsoː.ɫoː]"
+],
+"eccl": [
+"[deˈs̬ɔː.lo]"
+]
+},
+"despicio_v": {
+"word": "dēspiciō",
+"classical": [
+"[deːsˈpɪ.ki.oː]"
+],
+"eccl": [
+"[desˈpiː.t͡ʃi.o]"
+]
+},
+"desum_v": {
+"word": "dēsum",
+"classical": [
+"[ˈdeː.sũː]"
+],
+"eccl": [
+"[ˈdɛː.s̬um]"
+]
+},
+"deterior_adj": {
+"word": "dēterior",
+"classical": [
+"[deːˈtɛ.ri.ɔr]"
+],
+"eccl": [
+"[deˈtɛː.ri.or]"
+]
+},
+"detineo_v": {
+"word": "dētineō",
+"classical": [
+"[deːˈtɪ.ne.oː]"
+],
+"eccl": [
+"[deˈtiː.ne.o]"
+]
+},
+"deucalion_n": {
+"word": "Deucaliōn",
+"classical": [
+"[dɛu̯ˈka.li.oːn]"
+],
+"eccl": [
+"[deu̯ˈkaː.li.on]"
+]
+},
+"deus_n": {
+"word": "deus",
+"classical": [
+"[ˈde.ʊs]"
+],
+"eccl": [
+"[ˈdɛː.us]"
+]
+},
+"devius_adj": {
+"word": "dēvius",
+"classical": [
+"[ˈdeː.wi.ʊs]"
+],
+"eccl": [
+"[ˈdɛː.vi.us]"
+]
+},
+"dexter_adj": {
+"word": "dexter",
+"classical": [
+"[ˈdɛk.stɛr]"
+],
+"eccl": [
+"[ˈdɛk.ster]"
+]
+},
+"diana_n": {
+"word": "Dī̆āna",
+"classical": [
+"[diːˈaː.na]",
+"[diˈaː.na]"
+],
+"eccl": [
+"[diˈaː.na]"
+]
+},
+"dico2_v": {
+"word": "dicō",
+"classical": [
+"[ˈdɪ.koː]"
+],
+"eccl": [
+"[ˈdiː.ko]"
+]
+},
+"dico_v": {
+"word": "dīcō",
+"classical": [
+"[ˈdiː.koː]"
+],
+"eccl": [
+"[ˈdiː.ko]"
+]
+},
+"dies_n": {
+"word": "diēs",
+"classical": [
+"[ˈdi.eːs]"
+],
+"eccl": [
+"[ˈdiː.es]"
+]
+},
+"differo_v": {
+"word": "differō",
+"classical": [
+"[ˈdɪf.fɛ.roː]"
+],
+"eccl": [
+"[ˈdif.fe.ro]"
+]
+},
+"diffido_v": {
+"word": "diffīdō",
+"classical": [
+"[dɪfˈfiː.doː]"
+],
+"eccl": [
+"[difˈfiː.do]"
+]
+},
+"diffundo_v": {
+"word": "diffundō",
+"classical": [
+"[dɪfˈfʊn.doː]"
+],
+"eccl": [
+"[difˈfun.do]"
+]
+},
+"digitus_n": {
+"word": "digitus",
+"classical": [
+"[ˈdɪ.ɡɪ.tʊs]"
+],
+"eccl": [
+"[ˈdiː.d͡ʒi.tus]"
+]
+},
+"digno_v": {
+"word": "dignō",
+"classical": [
+"[ˈdɪŋ.noː]"
+],
+"eccl": [
+"[ˈdiɲ.ɲo]"
+]
+},
+"dignus_adj": {
+"word": "dignus",
+"classical": [
+"[ˈdɪŋ.nʊs]"
+],
+"eccl": [
+"[ˈdiɲ.ɲus]"
+]
+},
+"dilabor_v": {
+"word": "dīlābor",
+"classical": [
+"[diːˈɫaː.bɔr]"
+],
+"eccl": [
+"[diˈlaː.bor]"
+]
+},
+"diluvio_v": {
+"word": "dīluviō",
+"classical": [
+"[diːˈɫʊ.wi.oː]"
+],
+"eccl": [
+"[diˈluː.vi.o]"
+]
+},
+"dimitto_v": {
+"word": "dīmittō",
+"classical": [
+"[diːˈmɪt.toː]"
+],
+"eccl": [
+"[diˈmit.to]"
+]
+},
+"directus_adj": {
+"word": "dīrēctus",
+"classical": [
+"[diːˈreːk.tʊs]"
+],
+"eccl": [
+"[diˈrɛk.tus]"
+]
+},
+"dirus_adj": {
+"word": "dīrus",
+"classical": [
+"[ˈdiː.rʊs]"
+],
+"eccl": [
+"[ˈdiː.rus]"
+]
+},
+"discedo_v": {
+"word": "discēdō",
+"classical": [
+"[dɪsˈkeː.doː]"
+],
+"eccl": [
+"[diʃˈʃɛː.do]"
+]
+},
+"discordia_n": {
+"word": "discordia",
+"classical": [
+"[dɪsˈkɔr.di.a]"
+],
+"eccl": [
+"[disˈkɔr.di.a]"
+]
+},
+"discors_adj": {
+"word": "discors",
+"classical": [
+"[ˈdɪs.kɔrs]"
+],
+"eccl": [
+"[ˈdis.kors]"
+]
+},
+"discrimen_n": {
+"word": "discrīmen",
+"classical": [
+"[dɪsˈkriː.mɛn]"
+],
+"eccl": [
+"[disˈkriː.men]"
+]
+},
+"disicio_v": {
+"word": "disiciō",
+"classical": [
+"[dɪsˈjɪ.ki.oː]"
+],
+"eccl": [
+"[disˈjiː.t͡ʃi.o]"
+]
+},
+"dispar_adj": {
+"word": "dispār",
+"classical": [
+"[ˈdɪs.paːr]"
+],
+"eccl": [
+"[ˈdis.par]"
+]
+},
+"dispono_v": {
+"word": "dispōnō",
+"classical": [
+"[dɪsˈpoː.noː]"
+],
+"eccl": [
+"[disˈpɔː.no]"
+]
+},
+"dissaepio_v": {
+"word": "dissaepiō",
+"classical": [
+"[dɪsˈsae̯.pi.oː]"
+],
+"eccl": [
+"[disˈsɛː.pi.o]"
+]
+},
+"dissimilis_adj": {
+"word": "dissimilis",
+"classical": [
+"[dɪsˈsɪ.mɪ.lɪs]"
+],
+"eccl": [
+"[disˈsiː.mi.lis]"
+]
+},
+"dissocio_v": {
+"word": "dissociō",
+"classical": [
+"[dɪsˈsɔ.ki.oː]"
+],
+"eccl": [
+"[disˈsɔː.t͡ʃi.o]"
+]
+},
+"dissuadeo_v": {
+"word": "dissuādeō",
+"classical": [
+"[dɪsˈsʷaː.de.oː]"
+],
+"eccl": [
+"[disˈsʷaː.de.o]"
+]
+},
+"distinguo_v": {
+"word": "distinguō",
+"classical": [
+"[dɪsˈtɪŋ.ɡʷoː]"
+],
+"eccl": [
+"[disˈtiŋ.ɡʷo]"
+]
+},
+"diu_adv": {
+"word": "diū",
+"classical": [
+"[ˈdi.uː]"
+],
+"eccl": [
+"[ˈdiː.u]"
+]
+},
+"diva_n": {
+"word": "dīva",
+"classical": [
+"[ˈdiː.wa]",
+"[ˈdiː.waː]"
+],
+"eccl": [
+"[ˈdiː.va]",
+"[ˈdiː.va]"
+]
+},
+"diverto_v": {
+"word": "dīvertō",
+"classical": [
+"[diːˈwɛr.toː]"
+],
+"eccl": [
+"[diˈvɛr.to]"
+]
+},
+"dives_n": {
+"word": "dīves",
+"classical": [
+"[ˈdiː.wɛs]"
+],
+"eccl": [
+"[ˈdiː.ves]"
+]
+},
+"divino_v": {
+"word": "dīvīnō",
+"classical": [
+"[diːˈwiː.noː]"
+],
+"eccl": [
+"[diˈviː.no]"
+]
+},
+"do_v": {
+"word": "dō",
+"classical": [
+"[ˈdoː]"
+],
+"eccl": [
+"[ˈdɔː]"
+]
+},
+"doceo_v": {
+"word": "doceō",
+"classical": [
+"[ˈdɔ.ke.oː]"
+],
+"eccl": [
+"[ˈdɔː.t͡ʃe.o]"
+]
+},
+"documentum_n": {
+"word": "documentum",
+"classical": [
+"[dɔ.kʊˈmɛn.tũː]"
+],
+"eccl": [
+"[do.kuˈmɛn.tum]"
+]
+},
+"doleo_v": {
+"word": "doleō",
+"classical": [
+"[ˈdɔ.ɫe.oː]"
+],
+"eccl": [
+"[ˈdɔː.le.o]"
+]
+},
+"dolor_n": {
+"word": "dolor",
+"classical": [
+"[ˈdɔ.ɫɔr]"
+],
+"eccl": [
+"[ˈdɔː.lor]"
+]
+},
+"domina_n": {
+"word": "domina",
+"classical": [
+"[ˈdɔ.mɪ.na]"
+],
+"eccl": [
+"[ˈdɔː.mi.na]"
+]
+},
+"dominor_v": {
+"word": "dominor",
+"classical": [
+"[ˈdɔ.mɪ.nɔr]"
+],
+"eccl": [
+"[ˈdɔː.mi.nor]"
+]
+},
+"dominus_n": {
+"word": "dominus",
+"classical": [
+"[ˈdɔ.mɪ.nʊs]"
+],
+"eccl": [
+"[ˈdɔː.mi.nus]"
+]
+},
+"domo_v": {
+"word": "domō",
+"classical": [
+"[ˈdɔ.moː]"
+],
+"eccl": [
+"[ˈdɔː.mo]"
+]
+},
+"domus_n": {
+"word": "domus",
+"classical": [
+"[ˈdɔ.mʊs]"
+],
+"eccl": [
+"[ˈdɔː.mus]"
+]
+},
+"donec_conj": {
+"word": "dōnec",
+"classical": [
+"[ˈdoː.nɛk]"
+],
+"eccl": [
+"[ˈdɔː.nek]"
+]
+},
+"dono_v": {
+"word": "dōnō",
+"classical": [
+"[ˈdoː.noː]"
+],
+"eccl": [
+"[ˈdɔː.no]"
+]
+},
+"dubitabilis_adj": {
+"word": "dubitābilis",
+"classical": [
+"[dʊ.bɪˈtaː.bɪ.lɪs]"
+],
+"eccl": [
+"[du.biˈtaː.bi.lis]"
+]
+},
+"dubius_adj": {
+"word": "dubius",
+"classical": [
+"[ˈdʊ.bi.ʊs]"
+],
+"eccl": [
+"[ˈduː.bi.us]"
+]
+},
+"duco_v": {
+"word": "dūcō",
+"classical": [
+"[ˈduː.koː]"
+],
+"eccl": [
+"[ˈduː.ko]"
+]
+},
+"dulcedo_n": {
+"word": "dulcēdō",
+"classical": [
+"[dʊɫˈkeː.doː]"
+],
+"eccl": [
+"[dul̠ʲˈt͡ʃɛː.do]"
+]
+},
+"dum_conj": {
+"word": "dum",
+"classical": [
+"[ˈdũː]"
+],
+"eccl": [
+"[ˈdum]"
+]
+},
+"duo_num": {
+"word": "duo",
+"classical": [
+"[ˈdu.ɔ]"
+],
+"eccl": [
+"[ˈduː.o]"
+]
+},
+"duro_v": {
+"word": "dūrō",
+"classical": [
+"[ˈduː.roː]"
+],
+"eccl": [
+"[ˈduː.ro]"
+]
+},
+"durus_adj": {
+"word": "dūrus",
+"classical": [
+"[ˈduː.rʊs]"
+],
+"eccl": [
+"[ˈduː.rus]"
+]
+},
+"dux_n": {
+"word": "dux",
+"classical": [
+"[ˈdʊks]"
+],
+"eccl": [
+"[ˈduks]"
+]
+},
+"eburneus_adj": {
+"word": "eburneus",
+"classical": [
+"[ɛˈbʊr.ne.ʊs]"
+],
+"eccl": [
+"[eˈbur.ne.us]"
+]
+},
+"edo2_v": {
+"word": "edō",
+"classical": [
+"[ˈɛ.doː]"
+],
+"eccl": [
+"[ˈɛː.do]"
+]
+},
+"edo_v": {
+"word": "ēdō",
+"classical": [
+"[ˈeː.doː]"
+],
+"eccl": [
+"[ˈɛː.do]"
+]
+},
+"effervesco_v": {
+"word": "effervēscō",
+"classical": [
+"[ɛf.fɛrˈweːs.koː]"
+],
+"eccl": [
+"[ef.ferˈvɛs.ko]"
+]
+},
+"efficio_v": {
+"word": "efficiō",
+"classical": [
+"[ɛfˈfɪ.ki.oː]"
+],
+"eccl": [
+"[efˈfiː.t͡ʃi.o]"
+]
+},
+"effigies_n": {
+"word": "effigiēs",
+"classical": [
+"[ɛfˈfɪ.ɡi.eːs]"
+],
+"eccl": [
+"[efˈfiː.d͡ʒi.es]"
+]
+},
+"effundo_v": {
+"word": "effundō",
+"classical": [
+"[ɛfˈfʊn.doː]"
+],
+"eccl": [
+"[efˈfun.do]"
+]
+},
+"egeo_v": {
+"word": "egeō",
+"classical": [
+"[ˈɛ.ɡe.oː]"
+],
+"eccl": [
+"[ˈɛː.d͡ʒe.o]"
+]
+},
+"ego_pron": {
+"word": "egō̆",
+"classical": [
+"[ˈɛ.ɡoː]",
+"[ˈɛ.ɡɔ]"
+],
+"eccl": [
+"[ˈɛː.ɡo]"
+]
+},
+"elementum_n": {
+"word": "elementum",
+"classical": [
+"[ɛ.ɫɛˈmɛn.tũː]"
+],
+"eccl": [
+"[e.leˈmɛn.tum]"
+]
+},
+"elido_v": {
+"word": "ēlīdō",
+"classical": [
+"[eːˈliː.doː]"
+],
+"eccl": [
+"[eˈliː.do]"
+]
+},
+"eludo_v": {
+"word": "ēlūdō",
+"classical": [
+"[eːˈɫuː.doː]"
+],
+"eccl": [
+"[eˈluː.do]"
+]
+},
+"emico_v": {
+"word": "ēmicō",
+"classical": [
+"[ˈeː.mɪ.koː]"
+],
+"eccl": [
+"[ˈɛː.mi.ko]"
+]
+},
+"emitto_v": {
+"word": "ēmittō",
+"classical": [
+"[eːˈmɪt.toː]"
+],
+"eccl": [
+"[eˈmit.to]"
+]
+},
+"enervis_adj": {
+"word": "ēnervis",
+"classical": [
+"[eːˈnɛr.wɪs]"
+],
+"eccl": [
+"[eˈnɛr.vis]"
+]
+},
+"enim_conj": {
+"word": "enim",
+"classical": [
+"[ˈɛ.nĩː]"
+],
+"eccl": [
+"[ˈɛː.nim]"
+]
+},
+"enipeus_n": {
+"word": "Enīpeus",
+"classical": [
+"[ɛˈniː.pɛu̯s]"
+],
+"eccl": [
+"[eˈniː.peu̯s]"
+]
+},
+"enitor_v": {
+"word": "ēnītor",
+"classical": [
+"[eːˈniː.tɔr]"
+],
+"eccl": [
+"[eˈniː.tor]"
+]
+},
+"ensis_n": {
+"word": "ēnsis",
+"classical": [
+"[ˈẽː.sɪs]"
+],
+"eccl": [
+"[ˈɛn.sis]"
+]
+},
+"enumero_v": {
+"word": "ēnumerō",
+"classical": [
+"[eːˈnʊ.mɛ.roː]"
+],
+"eccl": [
+"[eˈnuː.me.ro]"
+]
+},
+"eo_v": {
+"word": "eō",
+"classical": [
+"[ˈe.oː]"
+],
+"eccl": [
+"[ˈɛː.o]"
+]
+},
+"equus_n": {
+"word": "equus",
+"classical": [
+"[ˈɛ.kʊs]"
+],
+"eccl": [
+"[ˈɛː.kʷus]"
+]
+},
+"era_n": {
+"word": "era",
+"classical": [
+"[ˈɛ.ra]"
+],
+"eccl": [
+"[ˈɛː.ra]"
+]
+},
+"ergo_adv": {
+"word": "ergō",
+"classical": [
+"[ˈɛr.ɡoː]"
+],
+"eccl": [
+"[ˈɛr.ɡo]"
+]
+},
+"erigo_v": {
+"word": "ērigō",
+"classical": [
+"[ˈeː.rɪ.ɡoː]"
+],
+"eccl": [
+"[ˈɛː.ri.ɡo]"
+]
+},
+"eripio_v": {
+"word": "ēripiō",
+"classical": [
+"[eːˈrɪ.pi.oː]"
+],
+"eccl": [
+"[eˈriː.pi.o]"
+]
+},
+"erro_v": {
+"word": "errō",
+"classical": [
+"[ˈɛr.roː]"
+],
+"eccl": [
+"[ˈɛr.ro]"
+]
+},
+"error_n": {
+"word": "error",
+"classical": [
+"[ˈɛr.rɔr]"
+],
+"eccl": [
+"[ˈɛr.ror]"
+]
+},
+"erubesco_v": {
+"word": "ērubēscō",
+"classical": [
+"[eː.rʊˈbeːs.koː]"
+],
+"eccl": [
+"[e.ruˈbɛs.ko]"
+]
+},
+"et_conj": {
+"word": "et",
+"classical": [
+"[ˈɛt]"
+],
+"eccl": [
+"[ˈɛt]"
+]
+},
+"etiam_conj": {
+"word": "etiam",
+"classical": [
+"[ˈɛ.ti.ãː]"
+],
+"eccl": [
+"[ˈɛt.t͡si.am]"
+]
+},
+"eurus_n": {
+"word": "eurus",
+"classical": [
+"[ˈɛu̯.rʊs]"
+],
+"eccl": [
+"[ˈɛːu̯.rus]"
+]
+},
+"everto_v": {
+"word": "ēvertō",
+"classical": [
+"[eːˈwɛr.toː]"
+],
+"eccl": [
+"[eˈvɛr.to]"
+]
+},
+"evinco_v": {
+"word": "ēvincō",
+"classical": [
+"[eːˈwɪŋ.koː]"
+],
+"eccl": [
+"[eˈviŋ.ko]"
+]
+},
+"evolo_v": {
+"word": "ēvolō",
+"classical": [
+"[ˈeː.wɔ.ɫoː]"
+],
+"eccl": [
+"[ˈɛː.vo.lo]"
+]
+},
+"evolvo_v": {
+"word": "ēvolvō",
+"classical": [
+"[eːˈwɔɫ.woː]"
+],
+"eccl": [
+"[eˈvɔl.vo]"
+]
+},
+"ex-ardeo_v": {
+"word": "exārdeō",
+"classical": [
+"[ɛkˈsaːr.de.oː]"
+],
+"eccl": [
+"[eɡˈzar.de.o]"
+]
+},
+"ex_prep": {
+"word": "ex",
+"classical": [
+"[ˈɛks]"
+],
+"eccl": [
+"[ˈɛks]"
+]
+},
+"excipio_v": {
+"word": "excipiō",
+"classical": [
+"[ɛksˈkɪ.pi.oː]"
+],
+"eccl": [
+"[eksˈt͡ʃiː.pi.o]"
+]
+},
+"exclamo_v": {
+"word": "exclāmō",
+"classical": [
+"[ɛkˈskɫaː.moː]"
+],
+"eccl": [
+"[ekˈsklaː.mo]"
+]
+},
+"excutio_v": {
+"word": "excutiō",
+"classical": [
+"[ɛkˈskʊ.ti.oː]"
+],
+"eccl": [
+"[ekˈskut.t͡si.o]"
+]
+},
+"exemplo_v": {
+"word": "exemplō",
+"classical": [
+"[ɛkˈsɛm.pɫoː]"
+],
+"eccl": [
+"[eɡˈzɛm.plo]"
+]
+},
+"exeo_v": {
+"word": "exeō",
+"classical": [
+"[ˈɛk.se.oː]"
+],
+"eccl": [
+"[ˈɛk.se.o]"
+]
+},
+"exhaurio_v": {
+"word": "exhauriō",
+"classical": [
+"[ɛkˈsau̯.ri.oː]"
+],
+"eccl": [
+"[eɡˈzaːu̯.ri.o]"
+]
+},
+"exigo_v": {
+"word": "exigō",
+"classical": [
+"[ˈɛk.sɪ.ɡoː]"
+],
+"eccl": [
+"[ˈɛk.si.ɡo]"
+]
+},
+"eximo_v": {
+"word": "eximō",
+"classical": [
+"[ˈɛk.sɪ.moː]"
+],
+"eccl": [
+"[ˈɛk.si.mo]"
+]
+},
+"exitium_n": {
+"word": "exitium",
+"classical": [
+"[ɛkˈsɪ.ti.ũː]"
+],
+"eccl": [
+"[eɡˈzit.t͡si.um]"
+]
+},
+"exosus_adj": {
+"word": "exōsus",
+"classical": [
+"[ɛkˈsoː.sʊs]"
+],
+"eccl": [
+"[eɡˈzɔː.s̬us]"
+]
+},
+"expallesco_v": {
+"word": "expallēscō",
+"classical": [
+"[ɛk.spalˈleːs.koː]"
+],
+"eccl": [
+"[ek.spalˈlɛs.ko]"
+]
+},
+"expergiscor_v": {
+"word": "expergīscor",
+"classical": [
+"[ɛk.spɛrˈɡiːs.kɔr]"
+],
+"eccl": [
+"[ek.sperˈd͡ʒis.kor]"
+]
+},
+"experientia_n": {
+"word": "experientia",
+"classical": [
+"[ɛk.spɛ.riˈɛn.ti.a]"
+],
+"eccl": [
+"[ek.spe.riˈɛn.t͡si.a]"
+]
+},
+"experior_v": {
+"word": "experior",
+"classical": [
+"[ɛkˈspɛ.ri.ɔr]"
+],
+"eccl": [
+"[ekˈspɛː.ri.or]"
+]
+},
+"expers_adj": {
+"word": "expers",
+"classical": [
+"[ˈɛk.spɛrs]"
+],
+"eccl": [
+"[ˈɛk.spers]"
+]
+},
+"exspatior_v": {
+"word": "exspatior",
+"classical": [
+"[ɛks(ː)pa.ti.ɔr]"
+],
+"eccl": [
+"[eksˈspat.t͡si.or]"
+]
+},
+"exsterno_v": {
+"word": "exsternō",
+"classical": [
+"[ɛks(ː)tɛr.noː]"
+],
+"eccl": [
+"[eksˈstɛr.no]"
+]
+},
+"exstinguo_v": {
+"word": "exstinguō",
+"classical": [
+"[ɛks(ː)tɪŋ.ɡʷoː]"
+],
+"eccl": [
+"[eksˈstiŋ.ɡʷo]"
+]
+},
+"exsto_v": {
+"word": "exstō",
+"classical": [
+"[ˈɛks(ː)toː]"
+],
+"eccl": [
+"[ˈɛks.sto]"
+]
+},
+"extemplo_adv": {
+"word": "extemplō",
+"classical": [
+"[ɛkˈstɛm.pɫoː]"
+],
+"eccl": [
+"[ekˈstɛm.plo]"
+]
+},
+"extendo_v": {
+"word": "extendō",
+"classical": [
+"[ɛkˈstɛn.doː]"
+],
+"eccl": [
+"[ekˈstɛn.do]"
+]
+},
+"exterreo_v": {
+"word": "exterreō",
+"classical": [
+"[ɛkˈstɛr.re.oː]"
+],
+"eccl": [
+"[ekˈstɛr.re.o]"
+]
+},
+"exululo_v": {
+"word": "exululō",
+"classical": [
+"[ɛkˈsʊ.ɫʊ.ɫoː]"
+],
+"eccl": [
+"[eɡˈzuː.lu.lo]"
+]
+},
+"exuo_v": {
+"word": "exuō",
+"classical": [
+"[ˈɛk.su.oː]"
+],
+"eccl": [
+"[ˈɛk.su.o]"
+]
+},
+"exuviae_n": {
+"word": "exuviae",
+"classical": [
+"[ɛkˈsʊ.wi.ae̯]"
+],
+"eccl": [
+"[eɡˈzuː.vi.e]"
+]
+},
+"fabricator_n": {
+"word": "fābricātor",
+"classical": [
+"[faː.brɪˈkaː.tɔr]"
+],
+"eccl": [
+"[fa.briˈkaː.tor]"
+]
+},
+"fabrico_v": {
+"word": "fabricō",
+"classical": [
+"[ˈfa.brɪ.koː]"
+],
+"eccl": [
+"[ˈfaː.bri.ko]"
+]
+},
+"facies_n": {
+"word": "faciēs",
+"classical": [
+"[ˈfa.ki.eːs]"
+],
+"eccl": [
+"[ˈfaː.t͡ʃi.es]"
+]
+},
+"facinus_n": {
+"word": "facinus",
+"classical": [
+"[ˈfa.kɪ.nʊs]"
+],
+"eccl": [
+"[ˈfaː.t͡ʃi.nus]"
+]
+},
+"facio_v": {
+"word": "faciō",
+"classical": [
+"[ˈfa.ki.oː]"
+],
+"eccl": [
+"[ˈfaː.t͡ʃi.o]"
+]
+},
+"faex_n": {
+"word": "faex",
+"classical": [
+"[ˈfae̯ks]"
+],
+"eccl": [
+"[ˈfɛks]"
+]
+},
+"falcatus_adj": {
+"word": "falcātus",
+"classical": [
+"[faɫˈkaː.tʊs]"
+],
+"eccl": [
+"[falˈkaː.tus]"
+]
+},
+"fallax_adj": {
+"word": "fallāx",
+"classical": [
+"[ˈfal.laːks]"
+],
+"eccl": [
+"[ˈfal.laks]"
+]
+},
+"fallo_v": {
+"word": "fallō",
+"classical": [
+"[ˈfal.loː]"
+],
+"eccl": [
+"[ˈfal.lo]"
+]
+},
+"fama_n": {
+"word": "fāma",
+"classical": [
+"[ˈfaː.ma]",
+"[ˈfaː.maː]"
+],
+"eccl": [
+"[ˈfaː.ma]",
+"[ˈfaː.ma]"
+]
+},
+"fastigium_n": {
+"word": "fastīgium",
+"classical": [
+"[fasˈtiː.ɡi.ũː]"
+],
+"eccl": [
+"[fasˈtiː.d͡ʒi.um]"
+]
+},
+"fatigo_v": {
+"word": "fatīgō",
+"classical": [
+"[faˈtiː.ɡoː]"
+],
+"eccl": [
+"[faˈtiː.ɡo]"
+]
+},
+"fatisco_v": {
+"word": "fatīscō",
+"classical": [
+"[faˈtiːs.koː]"
+],
+"eccl": [
+"[faˈtis.ko]"
+]
+},
+"fatum_n": {
+"word": "fātum",
+"classical": [
+"[ˈfaː.tũː]"
+],
+"eccl": [
+"[ˈfaː.tum]"
+]
+},
+"faunus_n": {
+"word": "Faunus",
+"classical": [
+"[ˈfau̯.nʊs]"
+],
+"eccl": [
+"[ˈfaːu̯.nus]"
+]
+},
+"fax_n": {
+"word": "fax",
+"classical": [
+"[ˈfaks]"
+],
+"eccl": [
+"[ˈfaks]"
+]
+},
+"fecundo_v": {
+"word": "fēcundō",
+"classical": [
+"[feːˈkʊn.doː]"
+],
+"eccl": [
+"[feˈkun.do]"
+]
+},
+"fecundus_adj": {
+"word": "fēcundus",
+"classical": [
+"[feːˈkʊn.dʊs]"
+],
+"eccl": [
+"[feˈkun.dus]"
+]
+},
+"femina_n": {
+"word": "fēmina",
+"classical": [
+"[ˈfeː.mɪ.na]"
+],
+"eccl": [
+"[ˈfɛː.mi.na]"
+]
+},
+"femineus_adj": {
+"word": "fēmineus",
+"classical": [
+"[feːˈmɪ.ne.ʊs]"
+],
+"eccl": [
+"[feˈmiː.ne.us]"
+]
+},
+"fera_n": {
+"word": "fera",
+"classical": [
+"[ˈfɛ.ra]"
+],
+"eccl": [
+"[ˈfɛː.ra]"
+]
+},
+"ferax_adj": {
+"word": "ferāx",
+"classical": [
+"[ˈfɛ.raːks]"
+],
+"eccl": [
+"[ˈfɛː.raks]"
+]
+},
+"feritas_n": {
+"word": "feritās",
+"classical": [
+"[ˈfɛ.rɪ.taːs]"
+],
+"eccl": [
+"[ˈfɛː.ri.tas]"
+]
+},
+"fero_v": {
+"word": "ferō",
+"classical": [
+"[ˈfɛ.roː]"
+],
+"eccl": [
+"[ˈfɛː.ro]"
+]
+},
+"ferox_adj": {
+"word": "ferōx",
+"classical": [
+"[ˈfɛ.roːks]"
+],
+"eccl": [
+"[ˈfɛː.roks]"
+]
+},
+"ferrum_n": {
+"word": "ferrum",
+"classical": [
+"[ˈfɛr.rũː]"
+],
+"eccl": [
+"[ˈfɛr.rum]"
+]
+},
+"ferus_adj": {
+"word": "ferus",
+"classical": [
+"[ˈfɛ.rʊs]"
+],
+"eccl": [
+"[ˈfɛː.rus]"
+]
+},
+"ferveo_v": {
+"word": "ferveō",
+"classical": [
+"[ˈfɛr.we.oː]"
+],
+"eccl": [
+"[ˈfɛr.ve.o]"
+]
+},
+"fervor_n": {
+"word": "fervor",
+"classical": [
+"[ˈfɛr.wɔr]"
+],
+"eccl": [
+"[ˈfɛr.vor]"
+]
+},
+"fetus_n": {
+"word": "fētus",
+"classical": [
+"[ˈfeː.tʊs]"
+],
+"eccl": [
+"[ˈfɛː.tus]"
+]
+},
+"fides_n": {
+"word": "fidēs",
+"classical": [
+"[ˈfɪ.deːs]"
+],
+"eccl": [
+"[ˈfiː.des]"
+]
+},
+"fiducia_n": {
+"word": "fīdūcia",
+"classical": [
+"[fiːˈduː.ki.a]"
+],
+"eccl": [
+"[fiˈduː.t͡ʃi.a]"
+]
+},
+"fidus_adj": {
+"word": "fīdus",
+"classical": [
+"[ˈfiː.dʊs]"
+],
+"eccl": [
+"[ˈfiː.dus]"
+]
+},
+"figo_v": {
+"word": "fīgō",
+"classical": [
+"[ˈfiː.ɡoː]"
+],
+"eccl": [
+"[ˈfiː.ɡo]"
+]
+},
+"figura_n": {
+"word": "figūra",
+"classical": [
+"[fɪˈɡuː.ra]"
+],
+"eccl": [
+"[fiˈɡuː.ra]"
+]
+},
+"filia_n": {
+"word": "fīlia",
+"classical": [
+"[ˈfiː.li.a]"
+],
+"eccl": [
+"[ˈfiː.li.a]"
+]
+},
+"filius_n": {
+"word": "fīlius",
+"classical": [
+"[ˈfiː.li.ʊs]"
+],
+"eccl": [
+"[ˈfiː.li.us]"
+]
+},
+"fingo_v": {
+"word": "fingō",
+"classical": [
+"[ˈfɪŋ.ɡoː]"
+],
+"eccl": [
+"[ˈfiŋ.ɡo]"
+]
+},
+"finio_v": {
+"word": "fīniō",
+"classical": [
+"[ˈfiː.ni.oː]"
+],
+"eccl": [
+"[ˈfiː.ni.o]"
+]
+},
+"finis_n": {
+"word": "fīnis",
+"classical": [
+"[ˈfiː.nɪs]"
+],
+"eccl": [
+"[ˈfiː.nis]"
+]
+},
+"fio_v": {
+"word": "fīō",
+"classical": [
+"[ˈfiː.oː]"
+],
+"eccl": [
+"[ˈfiː.o]"
+]
+},
+"firmo_v": {
+"word": "firmō",
+"classical": [
+"[ˈfɪr.moː]"
+],
+"eccl": [
+"[ˈfir.mo]"
+]
+},
+"fistula_n": {
+"word": "fistula",
+"classical": [
+"[ˈfɪs.tʊ.ɫa]"
+],
+"eccl": [
+"[ˈfis.tu.la]"
+]
+},
+"flamen_n": {
+"word": "flāmen",
+"classical": [
+"[ˈfɫaː.mɛn]"
+],
+"eccl": [
+"[ˈflaː.men]"
+]
+},
+"flamma_n": {
+"word": "flamma",
+"classical": [
+"[ˈfɫam.ma]"
+],
+"eccl": [
+"[ˈflam.ma]"
+]
+},
+"flavus_adj": {
+"word": "flāvus",
+"classical": [
+"[ˈfɫaː.wʊs]"
+],
+"eccl": [
+"[ˈflaː.vus]"
+]
+},
+"flecto_v": {
+"word": "flectō",
+"classical": [
+"[ˈfɫɛk.toː]"
+],
+"eccl": [
+"[ˈflɛk.to]"
+]
+},
+"fleo_v": {
+"word": "fleō",
+"classical": [
+"[ˈfɫe.oː]"
+],
+"eccl": [
+"[ˈflɛː.o]"
+]
+},
+"fletus_n": {
+"word": "flētus",
+"classical": [
+"[ˈfɫeː.tʊs]",
+"[ˈfɫeː.tuːs]"
+],
+"eccl": [
+"[ˈflɛː.tus]"
+]
+},
+"floreo_v": {
+"word": "flōreō",
+"classical": [
+"[ˈfɫoː.re.oː]"
+],
+"eccl": [
+"[ˈflɔː.re.o]"
+]
+},
+"flos_n": {
+"word": "flōs",
+"classical": [
+"[ˈfɫoːs]"
+],
+"eccl": [
+"[ˈflɔs]"
+]
+},
+"fluctus_n": {
+"word": "flūctus",
+"classical": [
+"[ˈfɫuːk.tʊs]"
+],
+"eccl": [
+"[ˈfluk.tus]"
+]
+},
+"flumen_n": {
+"word": "flūmen",
+"classical": [
+"[ˈfɫuː.mɛn]"
+],
+"eccl": [
+"[ˈfluː.men]"
+]
+},
+"fluo_v": {
+"word": "fluō",
+"classical": [
+"[ˈfɫu.oː]"
+],
+"eccl": [
+"[ˈfluː.o]"
+]
+},
+"fodio_v": {
+"word": "fodiō",
+"classical": [
+"[ˈfɔ.di.oː]"
+],
+"eccl": [
+"[ˈfɔː.di.o]"
+]
+},
+"foedo_v": {
+"word": "foedō",
+"classical": [
+"[ˈfoe̯.doː]"
+],
+"eccl": [
+"[ˈfɛː.do]"
+]
+},
+"folium_n": {
+"word": "folium",
+"classical": [
+"[ˈfɔ.li.ũː]"
+],
+"eccl": [
+"[ˈfɔː.li.um]"
+]
+},
+"fons_n": {
+"word": "fōns",
+"classical": [
+"[ˈfõːs]"
+],
+"eccl": [
+"[ˈfɔns]"
+]
+},
+"forceps_n": {
+"word": "forceps",
+"classical": [
+"[ˈfɔr.kɛps]"
+],
+"eccl": [
+"[ˈfɔr.t͡ʃeps]"
+]
+},
+"forma_n": {
+"word": "fōrma",
+"classical": [
+"[ˈfoːr.ma]",
+"[ˈfoːr.maː]"
+],
+"eccl": [
+"[ˈfɔr.ma]",
+"[ˈfɔr.ma]"
+]
+},
+"formo_v": {
+"word": "fōrmō",
+"classical": [
+"[ˈfoːr.moː]"
+],
+"eccl": [
+"[ˈfɔr.mo]"
+]
+},
+"formosus_adj": {
+"word": "fōrmōsus",
+"classical": [
+"[foːrˈmoː.sʊs]"
+],
+"eccl": [
+"[forˈmɔː.s̬us]"
+]
+},
+"fors_n": {
+"word": "fors",
+"classical": [
+"[ˈfɔrs]"
+],
+"eccl": [
+"[ˈfɔrs]"
+]
+},
+"forum_n": {
+"word": "forum",
+"classical": [
+"[ˈfɔ.rũː]"
+],
+"eccl": [
+"[ˈfɔː.rum]"
+]
+},
+"fragor_n": {
+"word": "fragor",
+"classical": [
+"[ˈfra.ɡɔr]"
+],
+"eccl": [
+"[ˈfraː.ɡor]"
+]
+},
+"fragum_n": {
+"word": "frāgum",
+"classical": [
+"[ˈfraː.ɡũː]"
+],
+"eccl": [
+"[ˈfraː.ɡum]"
+]
+},
+"frater_n": {
+"word": "frāter",
+"classical": [
+"[ˈfraː.tɛr]"
+],
+"eccl": [
+"[ˈfraː.ter]"
+]
+},
+"fraudo_v": {
+"word": "fraudō",
+"classical": [
+"[ˈfrau̯.doː]"
+],
+"eccl": [
+"[ˈfraːu̯.do]"
+]
+},
+"fraxinus_n": {
+"word": "frā̆xinus",
+"classical": [
+"[ˈfraːk.sɪ.nʊs]",
+"[ˈfrak.sɪ.nʊs]"
+],
+"eccl": [
+"[ˈfrak.si.nus]"
+]
+},
+"fremo_v": {
+"word": "fremō",
+"classical": [
+"[ˈfrɛ.moː]"
+],
+"eccl": [
+"[ˈfrɛː.mo]"
+]
+},
+"fretum_n": {
+"word": "fretum",
+"classical": [
+"[ˈfrɛ.tũː]"
+],
+"eccl": [
+"[ˈfrɛː.tum]"
+]
+},
+"frigidus_adj": {
+"word": "frīgidus",
+"classical": [
+"[ˈfriː.ɡɪ.dʊs]"
+],
+"eccl": [
+"[ˈfriː.d͡ʒi.dus]"
+]
+},
+"frigus_n": {
+"word": "frīgus",
+"classical": [
+"[ˈfriː.ɡʊs]"
+],
+"eccl": [
+"[ˈfriː.ɡus]"
+]
+},
+"frondosus_adj": {
+"word": "frondōsus",
+"classical": [
+"[frɔnˈdoː.sʊs]"
+],
+"eccl": [
+"[fronˈdɔː.s̬us]"
+]
+},
+"frons_n": {
+"word": "frōns",
+"classical": [
+"[ˈfrõːs]"
+],
+"eccl": [
+"[ˈfrɔns]"
+]
+},
+"fruor_v": {
+"word": "fruor",
+"classical": [
+"[ˈfru.ɔr]"
+],
+"eccl": [
+"[ˈfruː.or]"
+]
+},
+"frustra_adv": {
+"word": "frūstrā",
+"classical": [
+"[ˈfruːs.traː]"
+],
+"eccl": [
+"[ˈfrus.tra]"
+]
+},
+"frutex_n": {
+"word": "frutex",
+"classical": [
+"[ˈfrʊ.tɛks]"
+],
+"eccl": [
+"[ˈfruː.teks]"
+]
+},
+"frux_n": {
+"word": "frūx",
+"classical": [
+"[ˈfruːks]"
+],
+"eccl": [
+"[ˈfruks]"
+]
+},
+"fuga_n": {
+"word": "fuga",
+"classical": [
+"[ˈfʊ.ɡa]"
+],
+"eccl": [
+"[ˈfuː.ɡa]"
+]
+},
+"fugax_adj": {
+"word": "fugāx",
+"classical": [
+"[ˈfʊ.ɡaːks]"
+],
+"eccl": [
+"[ˈfuː.ɡaks]"
+]
+},
+"fugio_v": {
+"word": "fugiō",
+"classical": [
+"[ˈfʊ.ɡi.oː]"
+],
+"eccl": [
+"[ˈfuː.d͡ʒi.o]"
+]
+},
+"fugo_v": {
+"word": "fugō",
+"classical": [
+"[ˈfʊ.ɡoː]"
+],
+"eccl": [
+"[ˈfuː.ɡo]"
+]
+},
+"fulgeo_v": {
+"word": "fulgeō",
+"classical": [
+"[ˈfʊɫ.ɡe.oː]"
+],
+"eccl": [
+"[ˈful̠ʲ.d͡ʒe.o]"
+]
+},
+"fulgur_n": {
+"word": "fulgur",
+"classical": [
+"[ˈfʊɫ.ɡʊr]"
+],
+"eccl": [
+"[ˈful.ɡur]"
+]
+},
+"fulmen_n": {
+"word": "fulmen",
+"classical": [
+"[ˈfʊɫ.mɛn]"
+],
+"eccl": [
+"[ˈful.men]"
+]
+},
+"fulvus_adj": {
+"word": "fulvus",
+"classical": [
+"[ˈfʊɫ.wʊs]"
+],
+"eccl": [
+"[ˈful.vus]"
+]
+},
+"fumus_n": {
+"word": "fūmus",
+"classical": [
+"[ˈfuː.mʊs]"
+],
+"eccl": [
+"[ˈfuː.mus]"
+]
+},
+"fundo_v": {
+"word": "fundō",
+"classical": [
+"[ˈfʊn.doː]"
+],
+"eccl": [
+"[ˈfun.do]"
+]
+},
+"furor_n": {
+"word": "furor",
+"classical": [
+"[ˈfʊ.rɔr]"
+],
+"eccl": [
+"[ˈfuː.ror]"
+]
+},
+"furor_v": {
+"word": "fūror",
+"classical": [
+"[ˈfuː.rɔr]"
+],
+"eccl": [
+"[ˈfuː.ror]"
+]
+},
+"furtum_n": {
+"word": "fūrtum",
+"classical": [
+"[ˈfuːr.tũː]"
+],
+"eccl": [
+"[ˈfur.tum]"
+]
+},
+"galea_n": {
+"word": "galea",
+"classical": [
+"[ˈɡa.ɫe.a]"
+],
+"eccl": [
+"[ˈɡaː.le.a]"
+]
+},
+"gallicus_adj": {
+"word": "Gallicus",
+"classical": [
+"[ˈɡal.lɪ.kʊs]"
+],
+"eccl": [
+"[ˈɡal.li.kus]"
+]
+},
+"gaudeo_v": {
+"word": "gaudeō",
+"classical": [
+"[ˈɡau̯.de.oː]"
+],
+"eccl": [
+"[ˈɡaːu̯.de.o]"
+]
+},
+"gelidus_adj": {
+"word": "gelidus",
+"classical": [
+"[ˈɡɛ.lɪ.dʊs]"
+],
+"eccl": [
+"[ˈd͡ʒɛː.li.dus]"
+]
+},
+"gemma_n": {
+"word": "gemma",
+"classical": [
+"[ˈɡɛm.ma]"
+],
+"eccl": [
+"[ˈd͡ʒɛm.ma]"
+]
+},
+"gemo_v": {
+"word": "gemō",
+"classical": [
+"[ˈɡɛ.moː]"
+],
+"eccl": [
+"[ˈd͡ʒɛː.mo]"
+]
+},
+"gener_n": {
+"word": "gener",
+"classical": [
+"[ˈɡɛ.nɛr]"
+],
+"eccl": [
+"[ˈd͡ʒɛː.ner]"
+]
+},
+"genetrix_n": {
+"word": "genetrīx",
+"classical": [
+"[ˈɡɛ.nɛ.triːks]"
+],
+"eccl": [
+"[ˈd͡ʒɛː.ne.triks]"
+]
+},
+"genitor_n": {
+"word": "genitor",
+"classical": [
+"[ˈɡɛ.nɪ.tɔr]"
+],
+"eccl": [
+"[ˈd͡ʒɛː.ni.tor]"
+]
+},
+"gens_n": {
+"word": "gēns",
+"classical": [
+"[ˈɡẽːs]"
+],
+"eccl": [
+"[ˈd͡ʒɛns]"
+]
+},
+"genu_n": {
+"word": "genū̆",
+"classical": [
+"[ˈɡɛ.nuː]",
+"[ˈɡɛ.nʊ]"
+],
+"eccl": [
+"[ˈd͡ʒɛː.nu]"
+]
+},
+"genus_n": {
+"word": "genus",
+"classical": [
+"[ˈɡɛ.nʊs]"
+],
+"eccl": [
+"[ˈd͡ʒɛː.nus]"
+]
+},
+"germana_n": {
+"word": "germāna",
+"classical": [
+"[ɡɛrˈmaː.na]",
+"[ɡɛrˈmaː.naː]"
+],
+"eccl": [
+"[d͡ʒerˈmaː.na]",
+"[d͡ʒerˈmaː.na]"
+]
+},
+"gero_v": {
+"word": "gerō",
+"classical": [
+"[ˈɡɛ.roː]"
+],
+"eccl": [
+"[ˈd͡ʒɛː.ro]"
+]
+},
+"gestamen_n": {
+"word": "gestāmen",
+"classical": [
+"[ɡɛsˈtaː.mɛn]"
+],
+"eccl": [
+"[d͡ʒesˈtaː.men]"
+]
+},
+"gigas_n": {
+"word": "gigās",
+"classical": [
+"[ˈɡɪ.ɡaːs]"
+],
+"eccl": [
+"[ˈd͡ʒiː.ɡas]"
+]
+},
+"gigno_v": {
+"word": "gignō",
+"classical": [
+"[ˈɡɪŋ.noː]"
+],
+"eccl": [
+"[ˈd͡ʒiɲ.ɲo]"
+]
+},
+"glacies_n": {
+"word": "glaciēs",
+"classical": [
+"[ˈɡɫa.ki.eːs]"
+],
+"eccl": [
+"[ˈɡlaː.t͡ʃi.es]"
+]
+},
+"glaeba_n": {
+"word": "glaeba",
+"classical": [
+"[ˈɡɫae̯.ba]"
+],
+"eccl": [
+"[ˈɡlɛː.ba]"
+]
+},
+"glans_n": {
+"word": "glāns",
+"classical": [
+"[ˈɡɫãːs]"
+],
+"eccl": [
+"[ˈɡlans]"
+]
+},
+"glomero_v": {
+"word": "glomerō",
+"classical": [
+"[ˈɡɫɔ.mɛ.roː]"
+],
+"eccl": [
+"[ˈɡlɔː.me.ro]"
+]
+},
+"gloria_n": {
+"word": "glōria",
+"classical": [
+"[ˈɡɫoː.ri.a]"
+],
+"eccl": [
+"[ˈɡlɔː.ri.a]"
+]
+},
+"gracilis_adj": {
+"word": "gracilis",
+"classical": [
+"[ˈɡra.kɪ.lɪs]"
+],
+"eccl": [
+"[ˈɡraː.t͡ʃi.lis]"
+]
+},
+"gradior_v": {
+"word": "gradior",
+"classical": [
+"[ˈɡra.di.ɔr]"
+],
+"eccl": [
+"[ˈɡraː.di.or]"
+]
+},
+"gradus_n": {
+"word": "gradus",
+"classical": [
+"[ˈɡra.dʊs]"
+],
+"eccl": [
+"[ˈɡraː.dus]"
+]
+},
+"gramen_n": {
+"word": "grāmen",
+"classical": [
+"[ˈɡraː.mɛn]"
+],
+"eccl": [
+"[ˈɡraː.men]"
+]
+},
+"grandis_adj": {
+"word": "grandis",
+"classical": [
+"[ˈɡran.dɪs]"
+],
+"eccl": [
+"[ˈɡran.dis]"
+]
+},
+"gratia_n": {
+"word": "grātia",
+"classical": [
+"[ˈɡraː.ti.a]"
+],
+"eccl": [
+"[ˈɡrat.t͡si.a]"
+]
+},
+"grator_v": {
+"word": "grātor",
+"classical": [
+"[ˈɡraː.tɔr]"
+],
+"eccl": [
+"[ˈɡraː.tor]"
+]
+},
+"gratus_adj": {
+"word": "grātus",
+"classical": [
+"[ˈɡraː.tʊs]"
+],
+"eccl": [
+"[ˈɡraː.tus]"
+]
+},
+"gravida_n": {
+"word": "gravida",
+"classical": [
+"[ˈɡra.wɪ.da]"
+],
+"eccl": [
+"[ˈɡraː.vi.da]"
+]
+},
+"gravis_adj": {
+"word": "gravis",
+"classical": [
+"[ˈɡra.wɪs]"
+],
+"eccl": [
+"[ˈɡraː.vis]"
+]
+},
+"gravitas_n": {
+"word": "gravitās",
+"classical": [
+"[ˈɡra.wɪ.taːs]"
+],
+"eccl": [
+"[ˈɡraː.vi.tas]"
+]
+},
+"grego_v": {
+"word": "gregō",
+"classical": [
+"[ˈɡrɛ.ɡoː]"
+],
+"eccl": [
+"[ˈɡrɛː.ɡo]"
+]
+},
+"grex_n": {
+"word": "grex",
+"classical": [
+"[ˈɡrɛks]"
+],
+"eccl": [
+"[ˈɡrɛks]"
+]
+},
+"gurges_n": {
+"word": "gurges",
+"classical": [
+"[ˈɡʊr.ɡɛs]"
+],
+"eccl": [
+"[ˈɡur.d͡ʒes]"
+]
+},
+"habena_n": {
+"word": "habēna",
+"classical": [
+"[haˈbeː.na]"
+],
+"eccl": [
+"[aˈbɛː.na]"
+]
+},
+"habeo_v": {
+"word": "habeō",
+"classical": [
+"[ˈha.be.oː]"
+],
+"eccl": [
+"[ˈaː.be.o]"
+]
+},
+"habitabilis_adj": {
+"word": "habitābilis",
+"classical": [
+"[ha.bɪˈtaː.bɪ.lɪs]"
+],
+"eccl": [
+"[a.biˈtaː.bi.lis]"
+]
+},
+"habito_v": {
+"word": "habitō",
+"classical": [
+"[ˈha.bɪ.toː]"
+],
+"eccl": [
+"[ˈaː.bi.to]"
+]
+},
+"haereo_v": {
+"word": "haereō",
+"classical": [
+"[ˈhae̯.re.oː]"
+],
+"eccl": [
+"[ˈɛː.re.o]"
+]
+},
+"hamadryas_n": {
+"word": "Hamādryas",
+"classical": [
+"[haˈmaː.dry.as]"
+],
+"eccl": [
+"[aˈmaː.dri.as]"
+]
+},
+"harenosus_adj": {
+"word": "harēnōsus",
+"classical": [
+"[ha.reːˈnoː.sʊs]"
+],
+"eccl": [
+"[a.reˈnɔː.s̬us]"
+]
+},
+"harundo_n": {
+"word": "harundō",
+"classical": [
+"[haˈrʊn.doː]"
+],
+"eccl": [
+"[aˈrun.do]"
+]
+},
+"haud_adv": {
+"word": "haud",
+"classical": [
+"[ˈhau̯d]"
+],
+"eccl": [
+"[ˈau̯d]"
+]
+},
+"herba_n": {
+"word": "herba",
+"classical": [
+"[ˈhɛr.ba]"
+],
+"eccl": [
+"[ˈɛr.ba]"
+]
+},
+"heu_interj": {
+"word": "heu",
+"classical": [
+"[ˈhɛu̯]"
+],
+"eccl": [
+"[ˈɛːu̯]"
+]
+},
+"hic_adv": {
+"word": "hīc",
+"classical": [
+"[ˈhiːk]"
+],
+"eccl": [
+"[ˈik]"
+]
+},
+"hic_pron": {
+"word": "hic",
+"classical": [
+"[ˈhɪk]"
+],
+"eccl": [
+"[ˈik]"
+]
+},
+"hiemo_v": {
+"word": "hiemō",
+"classical": [
+"[ˈhi.ɛ.moː]"
+],
+"eccl": [
+"[ˈiː.e.mo]"
+]
+},
+"hinc_adv": {
+"word": "hinc",
+"classical": [
+"[ˈhɪŋk]"
+],
+"eccl": [
+"[ˈiŋk]"
+]
+},
+"homo_n": {
+"word": "homō̆",
+"classical": [
+"[ˈhɔ.moː]",
+"[ˈhɔ.mɔ]"
+],
+"eccl": [
+"[ˈɔː.mo]"
+]
+},
+"honor_n": {
+"word": "honor",
+"classical": [
+"[ˈhɔ.nɔr]"
+],
+"eccl": [
+"[ˈɔː.nor]"
+]
+},
+"hora_n": {
+"word": "hōra",
+"classical": [
+"[ˈhoː.ra]"
+],
+"eccl": [
+"[ˈɔː.ra]"
+]
+},
+"horologium_n": {
+"word": "hōrologium",
+"classical": [
+"[hoː.rɔˈɫɔ.ɡi.ũː]"
+],
+"eccl": [
+"[o.roˈlɔː.d͡ʒi.um]"
+]
+},
+"horreo_v": {
+"word": "horreō",
+"classical": [
+"[ˈhɔr.re.oː]"
+],
+"eccl": [
+"[ˈɔr.re.o]"
+]
+},
+"horridus_adj": {
+"word": "horridus",
+"classical": [
+"[ˈhɔr.rɪ.dʊs]"
+],
+"eccl": [
+"[ˈɔr.ri.dus]"
+]
+},
+"horror_n": {
+"word": "horror",
+"classical": [
+"[ˈhɔr.rɔr]"
+],
+"eccl": [
+"[ˈɔr.ror]"
+]
+},
+"hortamen_n": {
+"word": "hortāmen",
+"classical": [
+"[hɔrˈtaː.mɛn]"
+],
+"eccl": [
+"[orˈtaː.men]"
+]
+},
+"hortus_n": {
+"word": "hortus",
+"classical": [
+"[ˈhɔr.tʊs]"
+],
+"eccl": [
+"[ˈɔr.tus]"
+]
+},
+"hospes_n": {
+"word": "hospes",
+"classical": [
+"[ˈhɔs.pɛs]"
+],
+"eccl": [
+"[ˈɔs.pes]"
+]
+},
+"hostis_n": {
+"word": "hostis",
+"classical": [
+"[ˈhɔs.tɪs]"
+],
+"eccl": [
+"[ˈɔs.tis]"
+]
+},
+"humanus_adj": {
+"word": "hūmānus",
+"classical": [
+"[huːˈmaː.nʊs]"
+],
+"eccl": [
+"[uˈmaː.nus]"
+]
+},
+"humus_n": {
+"word": "humus",
+"classical": [
+"[ˈhʊ.mʊs]"
+],
+"eccl": [
+"[ˈuː.mus]"
+]
+},
+"hymen_n": {
+"word": "hymēn",
+"classical": [
+"[ˈhy.meːn]"
+],
+"eccl": [
+"[ˈiː.men]"
+]
+},
+"iactus_n": {
+"word": "iactus",
+"classical": [
+"[ˈjak.tʊs]"
+],
+"eccl": [
+"[ˈjak.tus]"
+]
+},
+"iapetus_n": {
+"word": "Īapetus",
+"classical": [
+"[iːˈa.pɛ.tʊs]"
+],
+"eccl": [
+"[iˈaː.pe.tus]"
+]
+},
+"ibi_adv": {
+"word": "ibī̆",
+"classical": [
+"[ˈɪ.biː]",
+"[ˈɪ.bɪ]"
+],
+"eccl": [
+"[ˈiː.bi]"
+]
+},
+"idem_pron": {
+"word": "īdem",
+"classical": [
+"[ˈiː.dẽː]",
+"[ˈɪ.dẽː]"
+],
+"eccl": [
+"[ˈiː.dem]"
+]
+},
+"ignarus_adj": {
+"word": "ignārus",
+"classical": [
+"[ɪŋˈnaː.rʊs]"
+],
+"eccl": [
+"[iɲˈɲaː.rus]"
+]
+},
+"igneus_adj": {
+"word": "igneus",
+"classical": [
+"[ˈɪŋ.ne.ʊs]"
+],
+"eccl": [
+"[ˈiɲ.ɲe.us]"
+]
+},
+"ignio_v": {
+"word": "igniō",
+"classical": [
+"[ˈɪŋ.ni.oː]"
+],
+"eccl": [
+"[ˈiɲ.ɲi.o]"
+]
+},
+"ignis_n": {
+"word": "ignis",
+"classical": [
+"[ˈɪŋ.nɪs]"
+],
+"eccl": [
+"[ˈiɲ.ɲis]"
+]
+},
+"ignoro_v": {
+"word": "ignōrō",
+"classical": [
+"[ɪŋˈnoː.roː]"
+],
+"eccl": [
+"[iɲˈɲɔː.ro]"
+]
+},
+"ignosco_v": {
+"word": "ignōscō",
+"classical": [
+"[ɪŋˈnoːs.koː]"
+],
+"eccl": [
+"[iɲˈɲɔs.ko]"
+]
+},
+"ilex_n": {
+"word": "īlex",
+"classical": [
+"[ˈiː.ɫɛks]"
+],
+"eccl": [
+"[ˈiː.leks]"
+]
+},
+"ille_pron": {
+"word": "ille",
+"classical": [
+"[ˈɪl.lɛ]"
+],
+"eccl": [
+"[ˈil.le]"
+]
+},
+"illic_adv": {
+"word": "illīc",
+"classical": [
+"[ɪlˈliːk]"
+],
+"eccl": [
+"[ilˈlik]"
+]
+},
+"illinc_adv": {
+"word": "illinc",
+"classical": [
+"[ɪlˈlɪŋk]"
+],
+"eccl": [
+"[ilˈliŋk]"
+]
+},
+"imago_n": {
+"word": "imāgō",
+"classical": [
+"[ɪˈmaː.ɡoː]"
+],
+"eccl": [
+"[iˈmaː.ɡo]"
+]
+},
+"immedicabilis_adj": {
+"word": "immedicābilis",
+"classical": [
+"[ɪm.mɛ.dɪˈkaː.bɪ.lɪs]"
+],
+"eccl": [
+"[im.me.diˈkaː.bi.lis]"
+]
+},
+"immensus_adj": {
+"word": "immēnsus",
+"classical": [
+"[ɪmˈmẽː.sʊs]"
+],
+"eccl": [
+"[imˈmɛn.sus]"
+]
+},
+"immineo_v": {
+"word": "immineō",
+"classical": [
+"[ɪmˈmɪ.ne.oː]"
+],
+"eccl": [
+"[imˈmiː.ne.o]"
+]
+},
+"immunis_adj": {
+"word": "immūnis",
+"classical": [
+"[ɪmˈmuː.nɪs]"
+],
+"eccl": [
+"[imˈmuː.nis]"
+]
+},
+"impatiens_adj": {
+"word": "impatiēns",
+"classical": [
+"[ɪmˈpa.ti.ẽːs]"
+],
+"eccl": [
+"[imˈpat.t͡si.ens]"
+]
+},
+"impedio_v": {
+"word": "impediō",
+"classical": [
+"[ɪmˈpɛ.di.oː]"
+],
+"eccl": [
+"[imˈpɛː.di.o]"
+]
+},
+"imperfectus_adj": {
+"word": "imperfectus",
+"classical": [
+"[ɪm.pɛrˈfɛk.tʊs]"
+],
+"eccl": [
+"[im.perˈfɛk.tus]"
+]
+},
+"impero_v": {
+"word": "imperō",
+"classical": [
+"[ˈɪm.pɛ.roː]"
+],
+"eccl": [
+"[ˈim.pe.ro]"
+]
+},
+"impetus_n": {
+"word": "impetus",
+"classical": [
+"[ˈɪm.pɛ.tʊs]"
+],
+"eccl": [
+"[ˈim.pe.tus]"
+]
+},
+"impiger_adj": {
+"word": "impiger",
+"classical": [
+"[ˈɪm.pɪ.ɡɛr]"
+],
+"eccl": [
+"[ˈim.pi.d͡ʒer]"
+]
+},
+"impius_adj": {
+"word": "impius",
+"classical": [
+"[ˈɪm.pi.ʊs]"
+],
+"eccl": [
+"[ˈim.pi.us]"
+]
+},
+"implecto_v": {
+"word": "implectō",
+"classical": [
+"[ɪmˈpɫɛk.toː]"
+],
+"eccl": [
+"[imˈplɛk.to]"
+]
+},
+"impleo_v": {
+"word": "impleō",
+"classical": [
+"[ˈɪm.pɫe.oː]"
+],
+"eccl": [
+"[ˈim.ple.o]"
+]
+},
+"implico_v": {
+"word": "implicō",
+"classical": [
+"[ˈɪm.plɪ.koː]"
+],
+"eccl": [
+"[ˈim.pli.ko]"
+]
+},
+"imus_adj": {
+"word": "īmus",
+"classical": [
+"[ˈiː.mʊs]"
+],
+"eccl": [
+"[ˈiː.mus]"
+]
+},
+"in-cubo_v": {
+"word": "incubō",
+"classical": [
+"[ˈɪŋ.kʊ.boː]"
+],
+"eccl": [
+"[ˈiŋ.ku.bo]"
+]
+},
+"in-mitto_v": {
+"word": "inmittō",
+"classical": [
+"[ɪmˈmɪt.toː]"
+],
+"eccl": [
+"[inˈmit.to]"
+]
+},
+"in-pello_v": {
+"word": "inpellō",
+"classical": [
+"[ɪmˈpɛl.loː]"
+],
+"eccl": [
+"[inˈpɛl.lo]"
+]
+},
+"in-pono_v": {
+"word": "inpōnō",
+"classical": [
+"[ɪmˈpoː.noː]"
+],
+"eccl": [
+"[inˈpɔː.no]"
+]
+},
+"in_prep": {
+"word": "in",
+"classical": [
+"[ˈɪn]"
+],
+"eccl": [
+"[ˈin]"
+]
+},
+"inachus_n": {
+"word": "Īnachus",
+"classical": [
+"[ˈiː.na.kʰʊs]"
+],
+"eccl": [
+"[ˈiː.na.kus]"
+]
+},
+"inaequalis_adj": {
+"word": "inaequālis",
+"classical": [
+"[ɪ.nae̯ˈkʷaː.lɪs]"
+],
+"eccl": [
+"[i.neˈkʷaː.lis]"
+]
+},
+"inambulo_v": {
+"word": "inambulō",
+"classical": [
+"[ɪˈnam.bʊ.ɫoː]"
+],
+"eccl": [
+"[iˈnam.bu.lo]"
+]
+},
+"inanis_adj": {
+"word": "inānis",
+"classical": [
+"[ɪˈnaː.nɪs]"
+],
+"eccl": [
+"[iˈnaː.nis]"
+]
+},
+"includo_v": {
+"word": "inclūdō",
+"classical": [
+"[ɪŋˈkɫuː.doː]"
+],
+"eccl": [
+"[iŋˈkluː.do]"
+]
+},
+"incognitus_adj": {
+"word": "incognitus",
+"classical": [
+"[ɪŋˈkɔŋ.nɪ.tʊs]"
+],
+"eccl": [
+"[iŋˈkɔɲ.ɲi.tus]"
+]
+},
+"incola_n": {
+"word": "incola",
+"classical": [
+"[ˈɪŋ.kɔ.ɫa]"
+],
+"eccl": [
+"[ˈiŋ.ko.la]"
+]
+},
+"incurso_v": {
+"word": "incursō",
+"classical": [
+"[ɪŋˈkʊr.soː]"
+],
+"eccl": [
+"[iŋˈkur.so]"
+]
+},
+"inde_adv": {
+"word": "Inde",
+"classical": [
+"[ˈɪn.dɛ]"
+],
+"eccl": [
+"[ˈin.de]"
+]
+},
+"indicium_n": {
+"word": "indicium",
+"classical": [
+"[ɪnˈdɪ.ki.ũː]"
+],
+"eccl": [
+"[inˈdiː.t͡ʃi.um]"
+]
+},
+"indigestus_adj": {
+"word": "indīgestus",
+"classical": [
+"[ɪn.diːˈɡɛs.tʊs]"
+],
+"eccl": [
+"[in.diˈd͡ʒɛs.tus]"
+]
+},
+"indignor_v": {
+"word": "indignor",
+"classical": [
+"[ɪnˈdɪŋ.nɔr]"
+],
+"eccl": [
+"[inˈdiɲ.ɲor]"
+]
+},
+"indignus_adj": {
+"word": "indignus",
+"classical": [
+"[ɪnˈdɪŋ.nʊs]"
+],
+"eccl": [
+"[inˈdiɲ.ɲus]"
+]
+},
+"indomitus_adj": {
+"word": "indomitus",
+"classical": [
+"[ɪnˈdɔ.mɪ.tʊs]"
+],
+"eccl": [
+"[inˈdɔː.mi.tus]"
+]
+},
+"indormio_v": {
+"word": "indormiō",
+"classical": [
+"[ɪnˈdɔr.mi.oː]"
+],
+"eccl": [
+"[inˈdɔr.mi.o]"
+]
+},
+"induco_v": {
+"word": "indūcō",
+"classical": [
+"[ɪnˈduː.koː]"
+],
+"eccl": [
+"[inˈduː.ko]"
+]
+},
+"induo_v": {
+"word": "induō",
+"classical": [
+"[ˈɪn.du.oː]"
+],
+"eccl": [
+"[ˈin.du.o]"
+]
+},
+"indus_n": {
+"word": "Indus",
+"classical": [
+"[ˈɪn.dʊs]"
+],
+"eccl": [
+"[ˈin.dus]"
+]
+},
+"iners_adj": {
+"word": "iners",
+"classical": [
+"[ˈɪ.nɛrs]"
+],
+"eccl": [
+"[ˈiː.ners]"
+]
+},
+"infamia_n": {
+"word": "īnfāmia",
+"classical": [
+"[ĩːˈfaː.mi.a]"
+],
+"eccl": [
+"[iɱˈfaː.mi.a]"
+]
+},
+"infelix_adj": {
+"word": "īnfēlīx",
+"classical": [
+"[ĩːˈfeː.liːks]"
+],
+"eccl": [
+"[iɱˈfɛː.liks]"
+]
+},
+"inferus_adj": {
+"word": "īnferus",
+"classical": [
+"[ˈĩː.fɛ.rʊs]"
+],
+"eccl": [
+"[ˈiɱ.fe.rus]"
+]
+},
+"inflo_v": {
+"word": "īnflō",
+"classical": [
+"[ˈĩː.fɫoː]"
+],
+"eccl": [
+"[ˈiɱ.flo]"
+]
+},
+"infundo_v": {
+"word": "īnfundō",
+"classical": [
+"[ĩːˈfʊn.doː]"
+],
+"eccl": [
+"[iɱˈfun.do]"
+]
+},
+"ingemino_v": {
+"word": "ingeminō",
+"classical": [
+"[ɪŋˈɡɛ.mɪ.noː]"
+],
+"eccl": [
+"[in̠ʲˈd͡ʒɛː.mi.no]"
+]
+},
+"ingemo_v": {
+"word": "ingemō",
+"classical": [
+"[ˈɪŋ.ɡɛ.moː]"
+],
+"eccl": [
+"[ˈin̠ʲ.d͡ʒe.mo]"
+]
+},
+"ingenium_n": {
+"word": "ingenium",
+"classical": [
+"[ɪŋˈɡɛ.ni.ũː]"
+],
+"eccl": [
+"[in̠ʲˈd͡ʒɛː.ni.um]"
+]
+},
+"ingens_adj": {
+"word": "ingēns",
+"classical": [
+"[ˈɪŋ.ɡẽːs]"
+],
+"eccl": [
+"[ˈin̠ʲ.d͡ʒens]"
+]
+},
+"ingredior_v": {
+"word": "ingredior",
+"classical": [
+"[ɪŋˈɡrɛ.di.ɔr]"
+],
+"eccl": [
+"[iŋˈɡrɛː.di.or]"
+]
+},
+"inhaereo_v": {
+"word": "inhaereō",
+"classical": [
+"[ɪˈnae̯.re.oː]"
+],
+"eccl": [
+"[iˈnɛː.re.o]"
+]
+},
+"inhibeo_v": {
+"word": "inhibeō",
+"classical": [
+"[ɪˈnɪ.be.oː]"
+],
+"eccl": [
+"[iˈniː.be.o]"
+]
+},
+"inhospitus_adj": {
+"word": "inhospitus",
+"classical": [
+"[ɪˈnɔs.pɪ.tʊs]"
+],
+"eccl": [
+"[iˈnɔs.pi.tus]"
+]
+},
+"inicio_v": {
+"word": "iniciō",
+"classical": [
+"[ɪnˈjɪ.ki.oː]"
+],
+"eccl": [
+"[inˈjiː.t͡ʃi.o]"
+]
+},
+"innabilis_adj": {
+"word": "innābilis",
+"classical": [
+"[ɪnˈnaː.bɪ.lɪs]"
+],
+"eccl": [
+"[inˈnaː.bi.lis]"
+]
+},
+"innascor_v": {
+"word": "innāscor",
+"classical": [
+"[ɪnˈnaːs.kɔr]"
+],
+"eccl": [
+"[inˈnas.kor]"
+]
+},
+"innitor_v": {
+"word": "innītor",
+"classical": [
+"[ɪnˈniː.tɔr]"
+],
+"eccl": [
+"[inˈniː.tor]"
+]
+},
+"innocuus_adj": {
+"word": "innocuus",
+"classical": [
+"[ɪnˈnɔ.ku.ʊs]"
+],
+"eccl": [
+"[inˈnɔː.ku.us]"
+]
+},
+"innubo_v": {
+"word": "innūbō",
+"classical": [
+"[ɪnˈnuː.boː]"
+],
+"eccl": [
+"[inˈnuː.bo]"
+]
+},
+"innumerus_adj": {
+"word": "innumerus",
+"classical": [
+"[ɪnˈnʊ.mɛ.rʊs]"
+],
+"eccl": [
+"[inˈnuː.me.rus]"
+]
+},
+"inops_adj": {
+"word": "inops",
+"classical": [
+"[ˈɪ.nɔps]"
+],
+"eccl": [
+"[ˈiː.nops]"
+]
+},
+"inornatus_adj": {
+"word": "inōrnātus",
+"classical": [
+"[ɪ.noːrˈnaː.tʊs]"
+],
+"eccl": [
+"[i.norˈnaː.tus]"
+]
+},
+"inquam_v": {
+"word": "inquam",
+"classical": [
+"[ˈɪŋ.kʷãː]"
+],
+"eccl": [
+"[ˈiŋ.kʷam]"
+]
+},
+"inquiro_v": {
+"word": "inquīrō",
+"classical": [
+"[ɪŋˈkʷiː.roː]"
+],
+"eccl": [
+"[iŋˈkʷiː.ro]"
+]
+},
+"inscribo_v": {
+"word": "īnscrībō",
+"classical": [
+"[ĩːˈskriː.boː]"
+],
+"eccl": [
+"[inˈskriː.bo]"
+]
+},
+"insequor_v": {
+"word": "īnsequor",
+"classical": [
+"[ˈĩː.sɛ.kʷɔr]"
+],
+"eccl": [
+"[ˈin.se.kʷor]"
+]
+},
+"insidiae_n": {
+"word": "īnsidiae",
+"classical": [
+"[ĩːˈsɪ.di.ae̯]"
+],
+"eccl": [
+"[inˈsiː.di.e]"
+]
+},
+"insigne_n": {
+"word": "īnsigne",
+"classical": [
+"[ĩːˈsɪŋ.nɛ]"
+],
+"eccl": [
+"[inˈsiɲ.ɲe]"
+]
+},
+"inspiro_v": {
+"word": "īnspīrō",
+"classical": [
+"[ĩːˈspiː.roː]"
+],
+"eccl": [
+"[inˈspiː.ro]"
+]
+},
+"instabilis_adj": {
+"word": "īnstabilis",
+"classical": [
+"[ĩːˈsta.bɪ.lɪs]"
+],
+"eccl": [
+"[inˈstaː.bi.lis]"
+]
+},
+"instituo_v": {
+"word": "īnstituō",
+"classical": [
+"[ĩːˈstɪ.tu.oː]"
+],
+"eccl": [
+"[inˈstiː.tu.o]"
+]
+},
+"insulto_v": {
+"word": "īnsultō",
+"classical": [
+"[ĩːˈsʊɫ.toː]"
+],
+"eccl": [
+"[inˈsul.to]"
+]
+},
+"intactus_adj": {
+"word": "intāctus",
+"classical": [
+"[ɪnˈtaːk.tʊs]"
+],
+"eccl": [
+"[inˈtak.tus]"
+]
+},
+"integer_adj": {
+"word": "integer",
+"classical": [
+"[ˈɪn.tɛ.ɡɛr]"
+],
+"eccl": [
+"[ˈin.te.d͡ʒer]"
+]
+},
+"intendo_v": {
+"word": "intendō",
+"classical": [
+"[ɪnˈtɛn.doː]"
+],
+"eccl": [
+"[inˈtɛn.do]"
+]
+},
+"inter_prep": {
+"word": "inter",
+"classical": [
+"[ˈɪn.tɛr]"
+],
+"eccl": [
+"[ˈin.ter]"
+]
+},
+"intervallum_n": {
+"word": "intervallum",
+"classical": [
+"[ɪn.tɛrˈwal.lũː]"
+],
+"eccl": [
+"[in.terˈval.lum]"
+]
+},
+"intonsus_adj": {
+"word": "intōnsus",
+"classical": [
+"[ɪnˈtõː.sʊs]"
+],
+"eccl": [
+"[inˈtɔn.sus]"
+]
+},
+"intremo_v": {
+"word": "intremō",
+"classical": [
+"[ˈɪn.trɛ.moː]"
+],
+"eccl": [
+"[ˈin.tre.mo]"
+]
+},
+"intro_v": {
+"word": "intrō",
+"classical": [
+"[ˈɪn.troː]"
+],
+"eccl": [
+"[ˈin.tro]"
+]
+},
+"intumesco_v": {
+"word": "intumēscō",
+"classical": [
+"[ɪn.tʊˈmeːs.koː]"
+],
+"eccl": [
+"[in.tuˈmɛs.ko]"
+]
+},
+"invado_v": {
+"word": "invādō",
+"classical": [
+"[ɪnˈwaː.doː]"
+],
+"eccl": [
+"[iɱˈvaː.do]"
+]
+},
+"invenio_v": {
+"word": "inveniō",
+"classical": [
+"[ɪnˈwɛ.ni.oː]"
+],
+"eccl": [
+"[iɱˈvɛː.ni.o]"
+]
+},
+"inverto_v": {
+"word": "invertō",
+"classical": [
+"[ɪnˈwɛr.toː]"
+],
+"eccl": [
+"[iɱˈvɛr.to]"
+]
+},
+"invito_v": {
+"word": "invītō",
+"classical": [
+"[ɪnˈwiː.toː]"
+],
+"eccl": [
+"[iɱˈviː.to]"
+]
+},
+"io_n": {
+"word": "Īō",
+"classical": [
+"[ˈiː.oː]"
+],
+"eccl": [
+"[ˈiː.o]"
+]
+},
+"ipse_pron": {
+"word": "ipse",
+"classical": [
+"[ˈɪp.sɛ]"
+],
+"eccl": [
+"[ˈip.se]"
+]
+},
+"ira_n": {
+"word": "īra",
+"classical": [
+"[ˈiː.ra]"
+],
+"eccl": [
+"[ˈiː.ra]"
+]
+},
+"irrequietus_adj": {
+"word": "irrequiētus",
+"classical": [
+"[ɪr.rɛ.kʷiˈeː.tʊs]"
+],
+"eccl": [
+"[ir.re.kʷiˈɛː.tus]"
+]
+},
+"irrideo_v": {
+"word": "irrīdeō",
+"classical": [
+"[ɪrˈriː.de.oː]"
+],
+"eccl": [
+"[irˈriː.de.o]"
+]
+},
+"irrito_v": {
+"word": "irrītō",
+"classical": [
+"[ɪrˈriː.toː]"
+],
+"eccl": [
+"[irˈriː.to]"
+]
+},
+"irritus_adj": {
+"word": "irritus",
+"classical": [
+"[ˈɪr.rɪ.tʊs]"
+],
+"eccl": [
+"[ˈir.ri.tus]"
+]
+},
+"irrumpo_v": {
+"word": "irrumpō",
+"classical": [
+"[ɪrˈrʊm.poː]"
+],
+"eccl": [
+"[irˈrum.po]"
+]
+},
+"is_pron": {
+"word": "is",
+"classical": [
+"[ˈɪs]"
+],
+"eccl": [
+"[ˈis]"
+]
+},
+"iste_pron": {
+"word": "iste",
+"classical": [
+"[ˈɪs.tɛ]"
+],
+"eccl": [
+"[ˈis.te]"
+]
+},
+"ita_adv": {
+"word": "ita",
+"classical": [
+"[ˈɪ.ta]"
+],
+"eccl": [
+"[ˈiː.ta]"
+]
+},
+"iter_n": {
+"word": "iter",
+"classical": [
+"[ˈɪ.tɛr]"
+],
+"eccl": [
+"[ˈiː.ter]"
+]
+},
+"iterum_adv": {
+"word": "iterum",
+"classical": [
+"[ˈɪ.tɛ.rũː]"
+],
+"eccl": [
+"[ˈiː.te.rum]"
+]
+},
+"iuno_n": {
+"word": "Iūnō",
+"classical": [
+"[ˈjuː.noː]"
+],
+"eccl": [
+"[ˈjuː.no]"
+]
+},
+"iuppiter_n": {
+"word": "Iuppiter",
+"classical": [
+"[ˈjʊp.pɪ.tɛr]"
+],
+"eccl": [
+"[ˈjup.pi.ter]"
+]
+},
+"iustus_adj": {
+"word": "iūstus",
+"classical": [
+"[ˈjuːs.tʊs]"
+],
+"eccl": [
+"[ˈjus.tus]"
+]
+},
+"jaceo_v": {
+"word": "iaceō",
+"classical": [
+"[ˈja.ke.oː]"
+],
+"eccl": [
+"[ˈjaː.t͡ʃe.o]"
+]
+},
+"jacio_v": {
+"word": "iaciō",
+"classical": [
+"[ˈja.ki.oː]"
+],
+"eccl": [
+"[ˈjaː.t͡ʃi.o]"
+]
+},
+"jacto_v": {
+"word": "iactō",
+"classical": [
+"[ˈjak.toː]"
+],
+"eccl": [
+"[ˈjak.to]"
+]
+},
+"jam_adv": {
+"word": "iam",
+"classical": [
+"[ˈjãː]"
+],
+"eccl": [
+"[ˈjam]"
+]
+},
+"janua_n": {
+"word": "iānua",
+"classical": [
+"[ˈjaː.nu.a]"
+],
+"eccl": [
+"[ˈjaː.nu.a]"
+]
+},
+"jejunium_n": {
+"word": "ieiūnium",
+"classical": [
+"[jɛjˈjuː.ni.ũː]"
+],
+"eccl": [
+"[jeˈjuː.ni.um]"
+]
+},
+"jubar_n": {
+"word": "iubar",
+"classical": [
+"[ˈjʊ.bar]"
+],
+"eccl": [
+"[ˈjuː.bar]"
+]
+},
+"jubeo_v": {
+"word": "iubeō",
+"classical": [
+"[ˈjʊ.be.oː]"
+],
+"eccl": [
+"[ˈjuː.be.o]"
+]
+},
+"judex_n": {
+"word": "iūdex",
+"classical": [
+"[ˈjuː.dɛks]"
+],
+"eccl": [
+"[ˈjuː.deks]"
+]
+},
+"jugalis_adj": {
+"word": "iugālis",
+"classical": [
+"[jʊˈɡaː.lɪs]"
+],
+"eccl": [
+"[juˈɡaː.lis]"
+]
+},
+"jugerum_n": {
+"word": "jūgerum",
+"classical": [
+"[ˈjuː.ɡɛ.rũː]"
+],
+"eccl": [
+"[ˈjuː.d͡ʒe.rum]"
+]
+},
+"jugo_v": {
+"word": "jugō",
+"classical": [
+"[ˈjʊ.ɡoː]"
+],
+"eccl": [
+"[ˈjuː.ɡo]"
+]
+},
+"jugulum_n": {
+"word": "iugulum",
+"classical": [
+"[ˈjʊ.ɡʊ.ɫũː]"
+],
+"eccl": [
+"[ˈjuː.ɡu.lum]"
+]
+},
+"jungo_v": {
+"word": "iungō",
+"classical": [
+"[ˈjʊŋ.ɡoː]"
+],
+"eccl": [
+"[ˈjuŋ.ɡo]"
+]
+},
+"juro_v": {
+"word": "jūrō",
+"classical": [
+"[ˈjuː.roː]"
+],
+"eccl": [
+"[ˈjuː.ro]"
+]
+},
+"justa_n": {
+"word": "jūsta",
+"classical": [
+"[ˈjuːs.ta]",
+"[ˈjuːs.taː]"
+],
+"eccl": [
+"[ˈjus.ta]",
+"[ˈjus.ta]"
+]
+},
+"juvenca_n": {
+"word": "iuvenca",
+"classical": [
+"[jʊˈwɛŋ.ka]",
+"[jʊˈwɛŋ.kaː]"
+],
+"eccl": [
+"[juˈvɛŋ.ka]",
+"[juˈvɛŋ.ka]"
+]
+},
+"juvencus_n": {
+"word": "iuvencus",
+"classical": [
+"[jʊˈwɛŋ.kʊs]"
+],
+"eccl": [
+"[juˈvɛŋ.kus]"
+]
+},
+"juvenis_adj": {
+"word": "iuvenis",
+"classical": [
+"[ˈjʊ.wɛ.nɪs]"
+],
+"eccl": [
+"[ˈjuː.ve.nis]"
+]
+},
+"juvo_v": {
+"word": "iuvō",
+"classical": [
+"[ˈjʊ.woː]"
+],
+"eccl": [
+"[ˈjuː.vo]"
+]
+},
+"labo_v": {
+"word": "labō",
+"classical": [
+"[ˈɫa.boː]"
+],
+"eccl": [
+"[ˈlaː.bo]"
+]
+},
+"labor_n": {
+"word": "labor",
+"classical": [
+"[ˈɫa.bɔr]"
+],
+"eccl": [
+"[ˈlaː.bor]"
+]
+},
+"labor_v": {
+"word": "lābor",
+"classical": [
+"[ˈɫaː.bɔr]"
+],
+"eccl": [
+"[ˈlaː.bor]"
+]
+},
+"laboro_v": {
+"word": "labōrō",
+"classical": [
+"[ɫaˈboː.roː]"
+],
+"eccl": [
+"[laˈbɔː.ro]"
+]
+},
+"lac_n": {
+"word": "lac",
+"classical": [
+"[ˈɫak]"
+],
+"eccl": [
+"[ˈlak]"
+]
+},
+"lacerta_n": {
+"word": "lacerta",
+"classical": [
+"[ɫaˈkɛr.ta]"
+],
+"eccl": [
+"[laˈt͡ʃɛr.ta]"
+]
+},
+"lacertus_n": {
+"word": "lacertus",
+"classical": [
+"[ɫaˈkɛr.tʊs]"
+],
+"eccl": [
+"[laˈt͡ʃɛr.tus]"
+]
+},
+"lacrima_n": {
+"word": "lacrima",
+"classical": [
+"[ˈɫa.krɪ.ma]"
+],
+"eccl": [
+"[ˈlaː.kri.ma]"
+]
+},
+"lacteus_adj": {
+"word": "lacteus",
+"classical": [
+"[ˈɫak.te.ʊs]"
+],
+"eccl": [
+"[ˈlak.te.us]"
+]
+},
+"lacus_n": {
+"word": "lacus",
+"classical": [
+"[ˈɫa.kʊs]"
+],
+"eccl": [
+"[ˈlaː.kus]"
+]
+},
+"ladon_n": {
+"word": "Ladōn",
+"classical": [
+"[ˈɫa.doːn]"
+],
+"eccl": [
+"[ˈlaː.don]"
+]
+},
+"laedo_v": {
+"word": "laedō",
+"classical": [
+"[ˈɫae̯.doː]"
+],
+"eccl": [
+"[ˈlɛː.do]"
+]
+},
+"laetus_adj": {
+"word": "laetus",
+"classical": [
+"[ˈɫae̯.tʊs]"
+],
+"eccl": [
+"[ˈlɛː.tus]"
+]
+},
+"lambo_v": {
+"word": "lambō",
+"classical": [
+"[ˈɫam.boː]"
+],
+"eccl": [
+"[ˈlam.bo]"
+]
+},
+"languidus_adj": {
+"word": "languidus",
+"classical": [
+"[ˈɫaŋ.ɡʷɪ.dʊs]"
+],
+"eccl": [
+"[ˈlaŋ.ɡʷi.dus]"
+]
+},
+"lanio_v": {
+"word": "laniō",
+"classical": [
+"[ˈɫa.ni.oː]"
+],
+"eccl": [
+"[ˈlaː.ni.o]"
+]
+},
+"lapido_v": {
+"word": "lapidō",
+"classical": [
+"[ˈɫa.pɪ.doː]"
+],
+"eccl": [
+"[ˈlaː.pi.do]"
+]
+},
+"lapidosus_adj": {
+"word": "lapidōsus",
+"classical": [
+"[ɫa.pɪˈdoː.sʊs]"
+],
+"eccl": [
+"[la.piˈdɔː.s̬us]"
+]
+},
+"lapsus_n": {
+"word": "lāpsus",
+"classical": [
+"[ˈɫaːp.sʊs]"
+],
+"eccl": [
+"[ˈlap.sus]"
+]
+},
+"lascivus_adj": {
+"word": "lascīvus",
+"classical": [
+"[ɫasˈkiː.wʊs]"
+],
+"eccl": [
+"[laʃˈʃiː.vus]"
+]
+},
+"lasso_v": {
+"word": "lassō",
+"classical": [
+"[ˈɫas.soː]"
+],
+"eccl": [
+"[ˈlas.so]"
+]
+},
+"lassus_adj": {
+"word": "lassus",
+"classical": [
+"[ˈɫas.sʊs]"
+],
+"eccl": [
+"[ˈlas.sus]"
+]
+},
+"latebra_n": {
+"word": "latebra",
+"classical": [
+"[ˈɫa.tɛ.bra]"
+],
+"eccl": [
+"[ˈlaː.te.bra]"
+]
+},
+"lateo_v": {
+"word": "lateō",
+"classical": [
+"[ˈɫa.te.oː]"
+],
+"eccl": [
+"[ˈlaː.te.o]"
+]
+},
+"latius_adj": {
+"word": "Latius",
+"classical": [
+"[ˈɫa.ti.ʊs]"
+],
+"eccl": [
+"[ˈlat.t͡si.us]"
+]
+},
+"laudo_v": {
+"word": "laudō",
+"classical": [
+"[ˈɫau̯.doː]"
+],
+"eccl": [
+"[ˈlaːu̯.do]"
+]
+},
+"laurea_n": {
+"word": "laurea",
+"classical": [
+"[ˈɫau̯.re.a]"
+],
+"eccl": [
+"[ˈlaːu̯.re.a]"
+]
+},
+"laurus_n": {
+"word": "laurus",
+"classical": [
+"[ˈɫau̯.rʊs]"
+],
+"eccl": [
+"[ˈlaːu̯.rus]"
+]
+},
+"lego2_v": {
+"word": "lēgō",
+"classical": [
+"[ˈɫeː.ɡoː]"
+],
+"eccl": [
+"[ˈlɛː.ɡo]"
+]
+},
+"lego_v": {
+"word": "legō",
+"classical": [
+"[ˈɫɛ.ɡoː]"
+],
+"eccl": [
+"[ˈlɛː.ɡo]"
+]
+},
+"lena_n": {
+"word": "lēna",
+"classical": [
+"[ˈɫeː.na]"
+],
+"eccl": [
+"[ˈlɛː.na]"
+]
+},
+"lenio_v": {
+"word": "lēniō",
+"classical": [
+"[ˈɫeː.ni.oː]"
+],
+"eccl": [
+"[ˈlɛː.ni.o]"
+]
+},
+"lenis_adj": {
+"word": "lēnis",
+"classical": [
+"[ˈɫeː.nɪs]"
+],
+"eccl": [
+"[ˈlɛː.nis]"
+]
+},
+"leo_n": {
+"word": "leō",
+"classical": [
+"[ˈɫe.oː]"
+],
+"eccl": [
+"[ˈlɛː.o]"
+]
+},
+"lerna_n": {
+"word": "Lerna",
+"classical": [
+"[ˈɫɛr.na]"
+],
+"eccl": [
+"[ˈlɛr.na]"
+]
+},
+"leto_v": {
+"word": "lētō",
+"classical": [
+"[ˈɫeː.toː]"
+],
+"eccl": [
+"[ˈlɛː.to]"
+]
+},
+"letum_n": {
+"word": "lētum",
+"classical": [
+"[ˈɫeː.tũː]"
+],
+"eccl": [
+"[ˈlɛː.tum]"
+]
+},
+"levis2_adj": {
+"word": "levis",
+"classical": [
+"[ˈɫɛ.wɪs]"
+],
+"eccl": [
+"[ˈlɛː.vis]"
+]
+},
+"levis_adj": {
+"word": "levis",
+"classical": [
+"[ˈɫɛ.wɪs]"
+],
+"eccl": [
+"[ˈlɛː.vis]"
+]
+},
+"levitas_n": {
+"word": "levitās",
+"classical": [
+"[ˈɫɛ.wɪ.taːs]"
+],
+"eccl": [
+"[ˈlɛː.vi.tas]"
+]
+},
+"liber_adj": {
+"word": "līber",
+"classical": [
+"[ˈliː.bɛr]"
+],
+"eccl": [
+"[ˈliː.ber]"
+]
+},
+"liber_n": {
+"word": "līber",
+"classical": [
+"[ˈliː.bɛr]"
+],
+"eccl": [
+"[ˈliː.ber]"
+]
+},
+"libo_v": {
+"word": "lībō",
+"classical": [
+"[ˈliː.boː]"
+],
+"eccl": [
+"[ˈliː.bo]"
+]
+},
+"libro_v": {
+"word": "lībrō",
+"classical": [
+"[ˈliː.broː]"
+],
+"eccl": [
+"[ˈliː.bro]"
+]
+},
+"licentia_n": {
+"word": "licentia",
+"classical": [
+"[lɪˈkɛn.ti.a]"
+],
+"eccl": [
+"[liˈt͡ʃɛn.t͡si.a]"
+]
+},
+"liceo_v": {
+"word": "liceō",
+"classical": [
+"[ˈlɪ.ke.oː]"
+],
+"eccl": [
+"[ˈliː.t͡ʃe.o]"
+]
+},
+"lignum_n": {
+"word": "lignum",
+"classical": [
+"[ˈlɪŋ.nũː]"
+],
+"eccl": [
+"[ˈliɲ.ɲum]"
+]
+},
+"ligo_v": {
+"word": "ligō",
+"classical": [
+"[ˈlɪ.ɡoː]"
+],
+"eccl": [
+"[ˈliː.ɡo]"
+]
+},
+"limes_n": {
+"word": "līmes",
+"classical": [
+"[ˈliː.mɛs]"
+],
+"eccl": [
+"[ˈliː.mes]"
+]
+},
+"limosus_adj": {
+"word": "līmōsus",
+"classical": [
+"[liːˈmoː.sʊs]"
+],
+"eccl": [
+"[liˈmɔː.s̬us]"
+]
+},
+"limus_n": {
+"word": "līmus",
+"classical": [
+"[ˈliː.mʊs]"
+],
+"eccl": [
+"[ˈliː.mus]"
+]
+},
+"liniger_adj": {
+"word": "līniger",
+"classical": [
+"[ˈliː.nɪ.ɡɛr]"
+],
+"eccl": [
+"[ˈliː.ni.d͡ʒer]"
+]
+},
+"liquidus_adj": {
+"word": "liquidus",
+"classical": [
+"[ˈlɪ.kʷɪ.dʊs]"
+],
+"eccl": [
+"[ˈliː.kʷi.dus]"
+]
+},
+"liquor_n": {
+"word": "liquor",
+"classical": [
+"[ˈlɪ.kʷɔr]"
+],
+"eccl": [
+"[ˈliː.kʷor]"
+]
+},
+"liquor_v": {
+"word": "līquor",
+"classical": [
+"[ˈliː.kʷɔr]"
+],
+"eccl": [
+"[ˈliː.kʷor]"
+]
+},
+"lis_n": {
+"word": "līs",
+"classical": [
+"[ˈliːs]"
+],
+"eccl": [
+"[ˈlis]"
+]
+},
+"littera_n": {
+"word": "littera",
+"classical": [
+"[ˈlɪt.tɛ.ra]"
+],
+"eccl": [
+"[ˈlit.te.ra]"
+]
+},
+"litus_n": {
+"word": "lītus",
+"classical": [
+"[ˈliː.tʊs]"
+],
+"eccl": [
+"[ˈliː.tus]"
+]
+},
+"loco_v": {
+"word": "locō",
+"classical": [
+"[ˈɫɔ.koː]"
+],
+"eccl": [
+"[ˈlɔː.ko]"
+]
+},
+"locus_n": {
+"word": "locus",
+"classical": [
+"[ˈɫɔ.kʊs]"
+],
+"eccl": [
+"[ˈlɔː.kus]"
+]
+},
+"longe_adv": {
+"word": "longē",
+"classical": [
+"[ˈɫɔŋ.ɡeː]"
+],
+"eccl": [
+"[ˈlɔn̠ʲ.d͡ʒe]"
+]
+},
+"longus_adj": {
+"word": "longus",
+"classical": [
+"[ˈɫɔŋ.ɡʊs]"
+],
+"eccl": [
+"[ˈlɔŋ.ɡus]"
+]
+},
+"loquor_v": {
+"word": "loquor",
+"classical": [
+"[ˈɫɔ.kʷɔr]"
+],
+"eccl": [
+"[ˈlɔː.kʷor]"
+]
+},
+"luceo_v": {
+"word": "lūceō",
+"classical": [
+"[ˈɫuː.ke.oː]"
+],
+"eccl": [
+"[ˈluː.t͡ʃe.o]"
+]
+},
+"lucidus_adj": {
+"word": "lūcidus",
+"classical": [
+"[ˈɫuː.kɪ.dʊs]"
+],
+"eccl": [
+"[ˈluː.t͡ʃi.dus]"
+]
+},
+"lucius_n": {
+"word": "Lūcius",
+"classical": [
+"[ˈɫuː.ki.ʊs]"
+],
+"eccl": [
+"[ˈluː.t͡ʃi.us]"
+]
+},
+"luctus_n": {
+"word": "lūctus",
+"classical": [
+"[ˈɫuːk.tʊs]"
+],
+"eccl": [
+"[ˈluk.tus]"
+]
+},
+"lucus_n": {
+"word": "lūcus",
+"classical": [
+"[ˈɫuː.kʊs]"
+],
+"eccl": [
+"[ˈluː.kus]"
+]
+},
+"ludo_v": {
+"word": "lūdō",
+"classical": [
+"[ˈɫuː.doː]"
+],
+"eccl": [
+"[ˈluː.do]"
+]
+},
+"ludus_n": {
+"word": "lūdus",
+"classical": [
+"[ˈɫuː.dʊs]"
+],
+"eccl": [
+"[ˈluː.dus]"
+]
+},
+"lugeo_v": {
+"word": "lūgeō",
+"classical": [
+"[ˈɫuː.ɡe.oː]"
+],
+"eccl": [
+"[ˈluː.d͡ʒe.o]"
+]
+},
+"lumen_n": {
+"word": "lūmen",
+"classical": [
+"[ˈɫuː.mɛn]"
+],
+"eccl": [
+"[ˈluː.men]"
+]
+},
+"lupus_n": {
+"word": "lupus",
+"classical": [
+"[ˈɫʊ.pʊs]"
+],
+"eccl": [
+"[ˈluː.pus]"
+]
+},
+"luridus_adj": {
+"word": "lūridus",
+"classical": [
+"[ˈɫuː.rɪ.dʊs]"
+],
+"eccl": [
+"[ˈluː.ri.dus]"
+]
+},
+"lustro_v": {
+"word": "lūstrō",
+"classical": [
+"[ˈɫuːs.troː]"
+],
+"eccl": [
+"[ˈlus.tro]"
+]
+},
+"lutulentus_adj": {
+"word": "lutulentus",
+"classical": [
+"[ɫʊ.tʊˈɫɛn.tʊs]"
+],
+"eccl": [
+"[lu.tuˈlɛn.tus]"
+]
+},
+"lux_n": {
+"word": "lūx",
+"classical": [
+"[ˈɫuːks]"
+],
+"eccl": [
+"[ˈluks]"
+]
+},
+"lycaeus_n": {
+"word": "Lycaeus",
+"classical": [
+"[lyˈkae̯.ʊs]"
+],
+"eccl": [
+"[liˈt͡ʃɛː.us]"
+]
+},
+"maculo_v": {
+"word": "maculō",
+"classical": [
+"[ˈma.kʊ.ɫoː]"
+],
+"eccl": [
+"[ˈmaː.ku.lo]"
+]
+},
+"madeo_v": {
+"word": "madeō",
+"classical": [
+"[ˈma.de.oː]"
+],
+"eccl": [
+"[ˈmaː.de.o]"
+]
+},
+"madesco_v": {
+"word": "madēscō",
+"classical": [
+"[maˈdeːs.koː]"
+],
+"eccl": [
+"[maˈdɛs.ko]"
+]
+},
+"madidus_adj": {
+"word": "madidus",
+"classical": [
+"[ˈma.dɪ.dʊs]"
+],
+"eccl": [
+"[ˈmaː.di.dus]"
+]
+},
+"maereo_v": {
+"word": "maereō",
+"classical": [
+"[ˈmae̯.re.oː]"
+],
+"eccl": [
+"[ˈmɛː.re.o]"
+]
+},
+"magnus_adj": {
+"word": "magnus",
+"classical": [
+"[ˈmaŋ.nʊs]"
+],
+"eccl": [
+"[ˈmaɲ.ɲus]"
+]
+},
+"malignus_adj": {
+"word": "malignus",
+"classical": [
+"[maˈlɪŋ.nʊs]"
+],
+"eccl": [
+"[maˈliɲ.ɲus]"
+]
+},
+"malo_v": {
+"word": "mālō",
+"classical": [
+"[ˈmaː.ɫoː]"
+],
+"eccl": [
+"[ˈmaː.lo]"
+]
+},
+"malum2_n": {
+"word": "malum",
+"classical": [
+"[ˈma.ɫũː]"
+],
+"eccl": [
+"[ˈmaː.lum]"
+]
+},
+"malum_n": {
+"word": "malum",
+"classical": [
+"[ˈma.ɫũː]"
+],
+"eccl": [
+"[ˈmaː.lum]"
+]
+},
+"malus_adj": {
+"word": "malus",
+"classical": [
+"[ˈma.ɫʊs]"
+],
+"eccl": [
+"[ˈmaː.lus]"
+]
+},
+"malus_n": {
+"word": "mālus",
+"classical": [
+"[ˈmaː.ɫʊs]"
+],
+"eccl": [
+"[ˈmaː.lus]"
+]
+},
+"maneo_v": {
+"word": "maneō",
+"classical": [
+"[ˈma.ne.oː]"
+],
+"eccl": [
+"[ˈmaː.ne.o]"
+]
+},
+"manifestus_adj": {
+"word": "manifestus",
+"classical": [
+"[ma.nɪˈfɛs.tʊs]"
+],
+"eccl": [
+"[ma.niˈfɛs.tus]"
+]
+},
+"manus_n": {
+"word": "manus",
+"classical": [
+"[ˈma.nʊs]",
+"[ˈma.nuːs]"
+],
+"eccl": [
+"[ˈmaː.nus]",
+"[ˈmaː.nus]"
+]
+},
+"mare_n": {
+"word": "mare",
+"classical": [
+"[ˈma.rɛ]"
+],
+"eccl": [
+"[ˈmaː.re]"
+]
+},
+"margo_n": {
+"word": "margō",
+"classical": [
+"[ˈmar.ɡoː]"
+],
+"eccl": [
+"[ˈmar.ɡo]"
+]
+},
+"maritus_n": {
+"word": "marītus",
+"classical": [
+"[maˈriː.tʊs]"
+],
+"eccl": [
+"[maˈriː.tus]"
+]
+},
+"marmor_n": {
+"word": "marmor",
+"classical": [
+"[ˈmar.mɔr]"
+],
+"eccl": [
+"[ˈmar.mor]"
+]
+},
+"marmoreus_adj": {
+"word": "marmoreus",
+"classical": [
+"[marˈmɔ.re.ʊs]"
+],
+"eccl": [
+"[marˈmɔː.re.us]"
+]
+},
+"massa_n": {
+"word": "massa",
+"classical": [
+"[ˈmas.sa]"
+],
+"eccl": [
+"[ˈmas.sa]"
+]
+},
+"mater_n": {
+"word": "māter",
+"classical": [
+"[ˈmaː.tɛr]"
+],
+"eccl": [
+"[ˈmaː.ter]"
+]
+},
+"maternus_adj": {
+"word": "māternus",
+"classical": [
+"[maːˈtɛr.nʊs]"
+],
+"eccl": [
+"[maˈtɛr.nus]"
+]
+},
+"matutinus_adj": {
+"word": "mātūtīnus",
+"classical": [
+"[maː.tuːˈtiː.nʊs]"
+],
+"eccl": [
+"[ma.tuˈtiː.nus]"
+]
+},
+"medicina_n": {
+"word": "medicīna",
+"classical": [
+"[mɛ.dɪˈkiː.na]"
+],
+"eccl": [
+"[me.diˈt͡ʃiː.na]"
+]
+},
+"medico_v": {
+"word": "medicō",
+"classical": [
+"[ˈmɛ.dɪ.koː]"
+],
+"eccl": [
+"[ˈmɛː.di.ko]"
+]
+},
+"medio_v": {
+"word": "mediō",
+"classical": [
+"[ˈmɛ.di.oː]"
+],
+"eccl": [
+"[ˈmɛː.di.o]"
+]
+},
+"medius_adj": {
+"word": "medius",
+"classical": [
+"[ˈmɛ.di.ʊs]"
+],
+"eccl": [
+"[ˈmɛː.di.us]"
+]
+},
+"medulla_n": {
+"word": "medulla",
+"classical": [
+"[mɛˈdʊl.la]"
+],
+"eccl": [
+"[meˈdul.la]"
+]
+},
+"mel_n": {
+"word": "mel",
+"classical": [
+"[ˈmɛɫ]"
+],
+"eccl": [
+"[ˈmɛl]"
+]
+},
+"mellitus_adj": {
+"word": "mellītus",
+"classical": [
+"[mɛlˈliː.tʊs]"
+],
+"eccl": [
+"[melˈliː.tus]"
+]
+},
+"membrum_n": {
+"word": "membrum",
+"classical": [
+"[ˈmɛm.brũː]"
+],
+"eccl": [
+"[ˈmɛm.brum]"
+]
+},
+"memini_v": {
+"word": "meminī",
+"classical": [
+"[ˈmɛ.mɪ.niː]"
+],
+"eccl": [
+"[ˈmɛː.mi.ni]"
+]
+},
+"mens_n": {
+"word": "mēns",
+"classical": [
+"[ˈmẽːs]"
+],
+"eccl": [
+"[ˈmɛns]"
+]
+},
+"mensa_n": {
+"word": "mēnsa",
+"classical": [
+"[ˈmẽː.sa]"
+],
+"eccl": [
+"[ˈmɛn.sa]"
+]
+},
+"mensor_n": {
+"word": "mēnsor",
+"classical": [
+"[ˈmẽː.sɔr]"
+],
+"eccl": [
+"[ˈmɛn.sor]"
+]
+},
+"mentior_v": {
+"word": "mentior",
+"classical": [
+"[ˈmɛn.ti.ɔr]"
+],
+"eccl": [
+"[ˈmɛn.t͡si.or]"
+]
+},
+"mereo_v": {
+"word": "mereō",
+"classical": [
+"[ˈmɛ.re.oː]"
+],
+"eccl": [
+"[ˈmɛː.re.o]"
+]
+},
+"mergo_v": {
+"word": "mergō",
+"classical": [
+"[ˈmɛr.ɡoː]"
+],
+"eccl": [
+"[ˈmɛr.ɡo]"
+]
+},
+"metuo_v": {
+"word": "metuō",
+"classical": [
+"[ˈmɛ.tu.oː]"
+],
+"eccl": [
+"[ˈmɛː.tu.o]"
+]
+},
+"metus_n": {
+"word": "metus",
+"classical": [
+"[ˈmɛ.tʊs]"
+],
+"eccl": [
+"[ˈmɛː.tus]"
+]
+},
+"meus_pron": {
+"word": "meus",
+"classical": [
+"[ˈme.ʊs]"
+],
+"eccl": [
+"[ˈmɛː.us]"
+]
+},
+"mico_v": {
+"word": "micō",
+"classical": [
+"[ˈmɪ.koː]"
+],
+"eccl": [
+"[ˈmiː.ko]"
+]
+},
+"miles_n": {
+"word": "mīles",
+"classical": [
+"[ˈmiː.ɫɛs]"
+],
+"eccl": [
+"[ˈmiː.les]"
+]
+},
+"mille_num": {
+"word": "mīlle",
+"classical": [
+"[ˈmiːl.lɛ]"
+],
+"eccl": [
+"[ˈmil.le]"
+]
+},
+"mino_v": {
+"word": "minō",
+"classical": [
+"[ˈmɪ.noː]"
+],
+"eccl": [
+"[ˈmiː.no]"
+]
+},
+"minor_v": {
+"word": "minor",
+"classical": [
+"[ˈmɪ.nɔr]"
+],
+"eccl": [
+"[ˈmiː.nor]"
+]
+},
+"miro_v": {
+"word": "mīrō",
+"classical": [
+"[ˈmiː.roː]"
+],
+"eccl": [
+"[ˈmiː.ro]"
+]
+},
+"misceo_v": {
+"word": "misceō",
+"classical": [
+"[ˈmɪs.ke.oː]"
+],
+"eccl": [
+"[ˈmiʃ.ʃe.o]"
+]
+},
+"miser_adj": {
+"word": "miser",
+"classical": [
+"[ˈmɪ.sɛr]"
+],
+"eccl": [
+"[ˈmiː.s̬er]"
+]
+},
+"missa_n": {
+"word": "missa",
+"classical": [
+"[ˈmɪs.sa]"
+],
+"eccl": [
+"[ˈmis.sa]"
+]
+},
+"mitis_adj": {
+"word": "mītis",
+"classical": [
+"[ˈmiː.tɪs]"
+],
+"eccl": [
+"[ˈmiː.tis]"
+]
+},
+"mitto_v": {
+"word": "mittō",
+"classical": [
+"[ˈmɪt.toː]"
+],
+"eccl": [
+"[ˈmit.to]"
+]
+},
+"moderatus_adj": {
+"word": "moderātus",
+"classical": [
+"[mɔ.dɛˈraː.tʊs]"
+],
+"eccl": [
+"[mo.deˈraː.tus]"
+]
+},
+"moderor_v": {
+"word": "moderor",
+"classical": [
+"[ˈmɔ.dɛ.rɔr]"
+],
+"eccl": [
+"[ˈmɔː.de.ror]"
+]
+},
+"modo_adv": {
+"word": "modō̆",
+"classical": [
+"[ˈmɔ.doː]",
+"[ˈmɔ.dɔ]"
+],
+"eccl": [
+"[ˈmɔː.do]"
+]
+},
+"modus_n": {
+"word": "modus",
+"classical": [
+"[ˈmɔ.dʊs]"
+],
+"eccl": [
+"[ˈmɔː.dus]"
+]
+},
+"moles_n": {
+"word": "mōlēs",
+"classical": [
+"[ˈmoː.ɫeːs]"
+],
+"eccl": [
+"[ˈmɔː.les]"
+]
+},
+"mollio_v": {
+"word": "molliō",
+"classical": [
+"[ˈmɔl.li.oː]"
+],
+"eccl": [
+"[ˈmɔl.li.o]"
+]
+},
+"mollis_adj": {
+"word": "mollis",
+"classical": [
+"[ˈmɔl.lɪs]"
+],
+"eccl": [
+"[ˈmɔl.lis]"
+]
+},
+"molossus_adj": {
+"word": "molossus",
+"classical": [
+"[mɔˈɫɔs.sʊs]"
+],
+"eccl": [
+"[moˈlɔs.sus]"
+]
+},
+"moneo_v": {
+"word": "moneō",
+"classical": [
+"[ˈmɔ.ne.oː]"
+],
+"eccl": [
+"[ˈmɔː.ne.o]"
+]
+},
+"mons_n": {
+"word": "mōns",
+"classical": [
+"[ˈmõːs]"
+],
+"eccl": [
+"[ˈmɔns]"
+]
+},
+"monstro_v": {
+"word": "mōnstrō",
+"classical": [
+"[ˈmõː.stroː]"
+],
+"eccl": [
+"[ˈmɔn.stro]"
+]
+},
+"montanus_adj": {
+"word": "montānus",
+"classical": [
+"[mɔnˈtaː.nʊs]"
+],
+"eccl": [
+"[monˈtaː.nus]"
+]
+},
+"monticola_n": {
+"word": "monticola",
+"classical": [
+"[mɔnˈtɪ.kɔ.ɫa]"
+],
+"eccl": [
+"[monˈtiː.ko.la]"
+]
+},
+"mora_n": {
+"word": "mora",
+"classical": [
+"[ˈmɔ.ra]"
+],
+"eccl": [
+"[ˈmɔː.ra]"
+]
+},
+"morior_v": {
+"word": "morior",
+"classical": [
+"[ˈmɔ.ri.ɔr]"
+],
+"eccl": [
+"[ˈmɔː.ri.or]"
+]
+},
+"moror_v": {
+"word": "moror",
+"classical": [
+"[ˈmɔ.rɔr]"
+],
+"eccl": [
+"[ˈmɔː.ror]"
+]
+},
+"mors_n": {
+"word": "mors",
+"classical": [
+"[ˈmɔrs]"
+],
+"eccl": [
+"[ˈmɔrs]"
+]
+},
+"morsus_n": {
+"word": "morsus",
+"classical": [
+"[ˈmɔr.sʊs]"
+],
+"eccl": [
+"[ˈmɔr.sus]"
+]
+},
+"mortalis_adj": {
+"word": "mortālis",
+"classical": [
+"[mɔrˈtaː.lɪs]"
+],
+"eccl": [
+"[morˈtaː.lis]"
+]
+},
+"morum_n": {
+"word": "mōrum",
+"classical": [
+"[ˈmoː.rũː]"
+],
+"eccl": [
+"[ˈmɔː.rum]"
+]
+},
+"mos_n": {
+"word": "mōs",
+"classical": [
+"[ˈmoːs]"
+],
+"eccl": [
+"[ˈmɔs]"
+]
+},
+"moto_v": {
+"word": "mōtō",
+"classical": [
+"[ˈmoː.toː]"
+],
+"eccl": [
+"[ˈmɔː.to]"
+]
+},
+"motus_n": {
+"word": "mōtus",
+"classical": [
+"[ˈmoː.tʊs]"
+],
+"eccl": [
+"[ˈmɔː.tus]"
+]
+},
+"moveo_v": {
+"word": "moveō",
+"classical": [
+"[ˈmɔ.we.oː]"
+],
+"eccl": [
+"[ˈmɔː.ve.o]"
+]
+},
+"mox_adv": {
+"word": "mox",
+"classical": [
+"[ˈmɔks]"
+],
+"eccl": [
+"[ˈmɔks]"
+]
+},
+"mucro_n": {
+"word": "mūcrō",
+"classical": [
+"[ˈmʊ.kroː]"
+],
+"eccl": [
+"[ˈmuː.kro]"
+]
+},
+"mugio_v": {
+"word": "mūgiō",
+"classical": [
+"[ˈmuː.ɡi.oː]"
+],
+"eccl": [
+"[ˈmuː.d͡ʒi.o]"
+]
+},
+"mugitus_n": {
+"word": "mūgītus",
+"classical": [
+"[muːˈɡiː.tʊs]"
+],
+"eccl": [
+"[muˈd͡ʒiː.tus]"
+]
+},
+"mulceo_v": {
+"word": "mulceō",
+"classical": [
+"[ˈmʊɫ.ke.oː]"
+],
+"eccl": [
+"[ˈmul̠ʲ.t͡ʃe.o]"
+]
+},
+"multus_pron": {
+"word": "multus",
+"classical": [
+"[ˈmʊɫ.tʊs]"
+],
+"eccl": [
+"[ˈmul.tus]"
+]
+},
+"mundus_n": {
+"word": "mundus",
+"classical": [
+"[ˈmʊn.dʊs]"
+],
+"eccl": [
+"[ˈmun.dus]"
+]
+},
+"municeps_n": {
+"word": "mūniceps",
+"classical": [
+"[ˈmuː.nɪ.kɛps]"
+],
+"eccl": [
+"[ˈmuː.ni.t͡ʃeps]"
+]
+},
+"munus_n": {
+"word": "mūnus",
+"classical": [
+"[ˈmuː.nʊs]"
+],
+"eccl": [
+"[ˈmuː.nus]"
+]
+},
+"murex_n": {
+"word": "mūrex",
+"classical": [
+"[ˈmuː.rɛks]"
+],
+"eccl": [
+"[ˈmuː.reks]"
+]
+},
+"murmur_n": {
+"word": "murmur",
+"classical": [
+"[ˈmʊr.mʊr]"
+],
+"eccl": [
+"[ˈmur.mur]"
+]
+},
+"musa_n": {
+"word": "Mūsa",
+"classical": [
+"[ˈmuː.sa]"
+],
+"eccl": [
+"[ˈmuː.s̬a]"
+]
+},
+"muto_v": {
+"word": "mūtō",
+"classical": [
+"[ˈmuː.toː]"
+],
+"eccl": [
+"[ˈmuː.to]"
+]
+},
+"mutus_adj": {
+"word": "mūtus",
+"classical": [
+"[ˈmuː.tʊs]"
+],
+"eccl": [
+"[ˈmuː.tus]"
+]
+},
+"nabataeus_adj": {
+"word": "Nabataeus",
+"classical": [
+"[na.baˈtae̯.ʊs]"
+],
+"eccl": [
+"[na.baˈtɛː.us]"
+]
+},
+"nam_conj": {
+"word": "nam",
+"classical": [
+"[ˈnãː]"
+],
+"eccl": [
+"[ˈnam]"
+]
+},
+"nanciscor_v": {
+"word": "nancīscor",
+"classical": [
+"[naŋˈkiːs.kɔr]"
+],
+"eccl": [
+"[nan̠ʲˈt͡ʃis.kor]"
+]
+},
+"nascor_v": {
+"word": "nāscor",
+"classical": [
+"[ˈnaːs.kɔr]"
+],
+"eccl": [
+"[ˈnas.kor]"
+]
+},
+"nata_n": {
+"word": "nāta",
+"classical": [
+"[ˈnaː.ta]"
+],
+"eccl": [
+"[ˈnaː.ta]"
+]
+},
+"natura_n": {
+"word": "nātūra",
+"classical": [
+"[naːˈtuː.ra]",
+"[naːˈtuː.raː]"
+],
+"eccl": [
+"[naˈtuː.ra]",
+"[naˈtuː.ra]"
+]
+},
+"natus_n": {
+"word": "nātus",
+"classical": [
+"[ˈnaː.tʊs]"
+],
+"eccl": [
+"[ˈnaː.tus]"
+]
+},
+"nauta_n": {
+"word": "nauta",
+"classical": [
+"[ˈnau̯.ta]",
+"[ˈnau̯.taː]"
+],
+"eccl": [
+"[ˈnaːu̯.ta]",
+"[ˈnaːu̯.ta]"
+]
+},
+"navigo_v": {
+"word": "nāvigō",
+"classical": [
+"[ˈnaː.wɪ.ɡoː]"
+],
+"eccl": [
+"[ˈnaː.vi.ɡo]"
+]
+},
+"ne_adv": {
+"word": "nē",
+"classical": [
+"[ˈneː]"
+],
+"eccl": [
+"[ˈnɛː]"
+]
+},
+"nebula_n": {
+"word": "nebula",
+"classical": [
+"[ˈnɛ.bʊ.ɫa]",
+"[ˈnɛ.bʊ.ɫaː]"
+],
+"eccl": [
+"[ˈnɛː.bu.la]",
+"[ˈnɛː.bu.la]"
+]
+},
+"necopinus_adj": {
+"word": "necopīnus",
+"classical": [
+"[nɛ.kɔˈpiː.nʊs]"
+],
+"eccl": [
+"[ne.koˈpiː.nus]"
+]
+},
+"nectar_n": {
+"word": "nectar",
+"classical": [
+"[ˈnɛk.tar]"
+],
+"eccl": [
+"[ˈnɛk.tar]"
+]
+},
+"nefas_n": {
+"word": "nefās",
+"classical": [
+"[ˈnɛ.faːs]"
+],
+"eccl": [
+"[ˈnɛː.fas]"
+]
+},
+"neglego_v": {
+"word": "neglegō",
+"classical": [
+"[ˈnɛɡ.ɫɛ.ɡoː]"
+],
+"eccl": [
+"[ˈnɛɡ.le.ɡo]"
+]
+},
+"nego_v": {
+"word": "negō",
+"classical": [
+"[ˈnɛ.ɡoː]"
+],
+"eccl": [
+"[ˈnɛː.ɡo]"
+]
+},
+"nemus_n": {
+"word": "nemus",
+"classical": [
+"[ˈnɛ.mʊs]"
+],
+"eccl": [
+"[ˈnɛː.mus]"
+]
+},
+"nepos_n": {
+"word": "nepōs",
+"classical": [
+"[ˈnɛ.poːs]"
+],
+"eccl": [
+"[ˈnɛː.pos]"
+]
+},
+"neque_conj": {
+"word": "neque",
+"classical": [
+"[ˈnɛ.kʷɛ]"
+],
+"eccl": [
+"[ˈnɛː.kʷe]"
+]
+},
+"nequeo_v": {
+"word": "nequeō",
+"classical": [
+"[ˈnɛ.kʷe.oː]"
+],
+"eccl": [
+"[ˈnɛː.kʷe.o]"
+]
+},
+"nequitia_n": {
+"word": "nēquitia",
+"classical": [
+"[neːˈkʷɪ.ti.a]"
+],
+"eccl": [
+"[neˈkʷit.t͡si.a]"
+]
+},
+"nereis_n": {
+"word": "Nērē̆is",
+"classical": [
+"[neːˈreː.ɪs]",
+"[ˈneː.re.ɪs]"
+],
+"eccl": [
+"[neˈrɛː.is]",
+"[ˈnɛː.re.is]"
+]
+},
+"nereus_n": {
+"word": "Nēreus",
+"classical": [
+"[ˈneː.re.ʊs]"
+],
+"eccl": [
+"[ˈnɛː.re.us]"
+]
+},
+"nervus_n": {
+"word": "nervus",
+"classical": [
+"[ˈnɛr.wʊs]"
+],
+"eccl": [
+"[ˈnɛr.vus]"
+]
+},
+"nescio_v": {
+"word": "nesciō",
+"classical": [
+"[ˈnɛs.ki.oː]"
+],
+"eccl": [
+"[ˈnɛʃ.ʃi.o]"
+]
+},
+"nescius_adj": {
+"word": "nescius",
+"classical": [
+"[ˈnɛs.ki.ʊs]"
+],
+"eccl": [
+"[ˈnɛʃ.ʃi.us]"
+]
+},
+"neu_conj": {
+"word": "neu",
+"classical": [
+"[ˈnɛu̯]"
+],
+"eccl": [
+"[ˈnɛːu̯]"
+]
+},
+"neve_conj": {
+"word": "nēve",
+"classical": [
+"[ˈneː.wɛ]"
+],
+"eccl": [
+"[ˈnɛː.ve]"
+]
+},
+"niger_adj": {
+"word": "Niger",
+"classical": [
+"[ˈnɪ.ɡɛr]"
+],
+"eccl": [
+"[ˈniː.d͡ʒer]"
+]
+},
+"nihil_n": {
+"word": "nihil",
+"classical": [
+"[ˈni.(ɦ)ɪɫ]"
+],
+"eccl": [
+"[ˈniː.kil]"
+]
+},
+"nihilum_n": {
+"word": "nihilum",
+"classical": [
+"[ˈni.(ɦ)ɪ.ɫũː]"
+],
+"eccl": [
+"[ˈniː.ki.lum]"
+]
+},
+"nimbus_n": {
+"word": "nimbus",
+"classical": [
+"[ˈnɪm.bʊs]"
+],
+"eccl": [
+"[ˈnim.bus]"
+]
+},
+"nimis_adv": {
+"word": "nimis",
+"classical": [
+"[ˈnɪ.mɪs]"
+],
+"eccl": [
+"[ˈniː.mis]"
+]
+},
+"nimium_adv": {
+"word": "nimium",
+"classical": [
+"[ˈnɪ.mi.ũː]"
+],
+"eccl": [
+"[ˈniː.mi.um]"
+]
+},
+"nisi_conj": {
+"word": "nisi",
+"classical": [
+"[ˈnɪ.siː]",
+"[ˈnɪ.sɪ]"
+],
+"eccl": [
+"[ˈniː.s̬i]"
+]
+},
+"niteo_v": {
+"word": "niteō",
+"classical": [
+"[ˈnɪ.te.oː]"
+],
+"eccl": [
+"[ˈniː.te.o]"
+]
+},
+"nitidus_adj": {
+"word": "nitidus",
+"classical": [
+"[ˈnɪ.tɪ.dʊs]"
+],
+"eccl": [
+"[ˈniː.ti.dus]"
+]
+},
+"nitor_n": {
+"word": "nitor",
+"classical": [
+"[ˈnɪ.tɔr]"
+],
+"eccl": [
+"[ˈniː.tor]"
+]
+},
+"nitor_v": {
+"word": "nītor",
+"classical": [
+"[ˈniː.tɔr]"
+],
+"eccl": [
+"[ˈniː.tor]"
+]
+},
+"niveus_adj": {
+"word": "niveus",
+"classical": [
+"[ˈnɪ.we.ʊs]"
+],
+"eccl": [
+"[ˈniː.ve.us]"
+]
+},
+"nix_n": {
+"word": "nix",
+"classical": [
+"[ˈnɪks]"
+],
+"eccl": [
+"[ˈniks]"
+]
+},
+"no_v": {
+"word": "nō",
+"classical": [
+"[ˈnoː]"
+],
+"eccl": [
+"[ˈnɔː]"
+]
+},
+"nobilis_adj": {
+"word": "nōbilis",
+"classical": [
+"[ˈnoː.bɪ.lɪs]"
+],
+"eccl": [
+"[ˈnɔː.bi.lis]"
+]
+},
+"noceo_v": {
+"word": "noceō",
+"classical": [
+"[ˈnɔ.ke.oː]"
+],
+"eccl": [
+"[ˈnɔː.t͡ʃe.o]"
+]
+},
+"nolo_v": {
+"word": "nōlō",
+"classical": [
+"[ˈnoː.ɫoː]"
+],
+"eccl": [
+"[ˈnɔː.lo]"
+]
+},
+"nomen_n": {
+"word": "nōmen",
+"classical": [
+"[ˈnoː.mɛn]"
+],
+"eccl": [
+"[ˈnɔː.men]"
+]
+},
+"non_adv": {
+"word": "nōn",
+"classical": [
+"[ˈnoːn]"
+],
+"eccl": [
+"[ˈnɔn]"
+]
+},
+"nondum_adv": {
+"word": "nōndum",
+"classical": [
+"[ˈnoːn.dũː]"
+],
+"eccl": [
+"[ˈnɔn.dum]"
+]
+},
+"nos_pron": {
+"word": "nōs",
+"classical": [
+"[ˈnoːs]"
+],
+"eccl": [
+"[ˈnɔs]"
+]
+},
+"nosco_v": {
+"word": "nōscō",
+"classical": [
+"[ˈnoːs.koː]"
+],
+"eccl": [
+"[ˈnɔs.ko]"
+]
+},
+"noster_pron": {
+"word": "noster",
+"classical": [
+"[ˈnɔs.tɛr]"
+],
+"eccl": [
+"[ˈnɔs.ter]"
+]
+},
+"notabilis_adj": {
+"word": "notābilis",
+"classical": [
+"[nɔˈtaː.bɪ.lɪs]"
+],
+"eccl": [
+"[noˈtaː.bi.lis]"
+]
+},
+"noto_v": {
+"word": "notō",
+"classical": [
+"[ˈnɔ.toː]"
+],
+"eccl": [
+"[ˈnɔː.to]"
+]
+},
+"noverca_n": {
+"word": "noverca",
+"classical": [
+"[nɔˈwɛr.ka]"
+],
+"eccl": [
+"[noˈvɛr.ka]"
+]
+},
+"novo_v": {
+"word": "novō",
+"classical": [
+"[ˈnɔ.woː]"
+],
+"eccl": [
+"[ˈnɔː.vo]"
+]
+},
+"novus_adj": {
+"word": "novus",
+"classical": [
+"[ˈnɔ.wʊs]"
+],
+"eccl": [
+"[ˈnɔː.vus]"
+]
+},
+"nox_n": {
+"word": "nox",
+"classical": [
+"[ˈnɔks]"
+],
+"eccl": [
+"[ˈnɔks]"
+]
+},
+"nubes_n": {
+"word": "nūbēs",
+"classical": [
+"[ˈnuː.beːs]"
+],
+"eccl": [
+"[ˈnuː.bes]"
+]
+},
+"nubilum_n": {
+"word": "nūbilum",
+"classical": [
+"[ˈnuː.bɪ.ɫũː]"
+],
+"eccl": [
+"[ˈnuː.bi.lum]"
+]
+},
+"nudo_v": {
+"word": "nūdō",
+"classical": [
+"[ˈnuː.doː]"
+],
+"eccl": [
+"[ˈnuː.do]"
+]
+},
+"nudus_adj": {
+"word": "nūdus",
+"classical": [
+"[ˈnuː.dʊs]"
+],
+"eccl": [
+"[ˈnuː.dus]"
+]
+},
+"nullus_pron": {
+"word": "nūllus",
+"classical": [
+"[ˈnuːl.lʊs]"
+],
+"eccl": [
+"[ˈnul.lus]"
+]
+},
+"numen_n": {
+"word": "nūmen",
+"classical": [
+"[ˈnuː.mɛn]"
+],
+"eccl": [
+"[ˈnuː.men]"
+]
+},
+"numero_v": {
+"word": "numerō",
+"classical": [
+"[ˈnʊ.mɛ.roː]"
+],
+"eccl": [
+"[ˈnuː.me.ro]"
+]
+},
+"numerus_n": {
+"word": "numerus",
+"classical": [
+"[ˈnʊ.mɛ.rʊs]"
+],
+"eccl": [
+"[ˈnuː.me.rus]"
+]
+},
+"numquam_adv": {
+"word": "numquam",
+"classical": [
+"[ˈnʊŋ.kʷãː]"
+],
+"eccl": [
+"[ˈnum.kʷam]"
+]
+},
+"nunc_adv": {
+"word": "nunc",
+"classical": [
+"[ˈnʊŋk]"
+],
+"eccl": [
+"[ˈnuŋk]"
+]
+},
+"nuntia_n": {
+"word": "nū̆ntia",
+"classical": [
+"[ˈnuːn.ti.a]",
+"[ˈnʊn.ti.a]"
+],
+"eccl": [
+"[ˈnun.t͡si.a]"
+]
+},
+"nuper_adv": {
+"word": "nūper",
+"classical": [
+"[ˈnuː.pɛr]"
+],
+"eccl": [
+"[ˈnuː.per]"
+]
+},
+"nusquam_adv": {
+"word": "nusquam",
+"classical": [
+"[ˈnʊs.kʷãː]"
+],
+"eccl": [
+"[ˈnus.kʷam]"
+]
+},
+"nuto_v": {
+"word": "nūtō",
+"classical": [
+"[ˈnuː.toː]"
+],
+"eccl": [
+"[ˈnuː.to]"
+]
+},
+"nutrio_v": {
+"word": "nūtriō",
+"classical": [
+"[ˈnuː.tri.oː]"
+],
+"eccl": [
+"[ˈnuː.tri.o]"
+]
+},
+"nympha_n": {
+"word": "nympha",
+"classical": [
+"[ˈnym.pʰa]"
+],
+"eccl": [
+"[ˈnim.fa]"
+]
+},
+"nymphe_n": {
+"word": "nymphē",
+"classical": [
+"[ˈnym.pʰeː]"
+],
+"eccl": [
+"[ˈnim.fe]"
+]
+},
+"o_interj": {
+"word": "ō̆",
+"classical": [
+"[ˈoː]",
+"[ˈɔ]"
+],
+"eccl": [
+"[ˈɔː]"
+]
+},
+"obicio_v": {
+"word": "obiciō",
+"classical": [
+"[ɔbˈjɪ.ki.oː]",
+"[ɔˈbɪ.ki.oː]"
+],
+"eccl": [
+"[obˈjiː.t͡ʃi.o]",
+"[oˈbiː.t͡ʃi.o]"
+]
+},
+"obliquus_adj": {
+"word": "oblīquus",
+"classical": [
+"[ɔbˈliː.kʊs]"
+],
+"eccl": [
+"[obˈliː.kʷus]"
+]
+},
+"oborior_v": {
+"word": "oborior",
+"classical": [
+"[ɔˈbɔ.ri.ɔr]"
+],
+"eccl": [
+"[oˈbɔː.ri.or]"
+]
+},
+"obruo_v": {
+"word": "obruō",
+"classical": [
+"[ˈɔb.ru.oː]"
+],
+"eccl": [
+"[ˈɔb.ru.o]"
+]
+},
+"obscuro_v": {
+"word": "obscūrō",
+"classical": [
+"[ɔpˈskuː.roː]"
+],
+"eccl": [
+"[obˈskuː.ro]"
+]
+},
+"obsequor_v": {
+"word": "obsequor",
+"classical": [
+"[ˈɔp.sɛ.kʷɔr]"
+],
+"eccl": [
+"[ˈɔb.se.kʷor]"
+]
+},
+"observo_v": {
+"word": "observō",
+"classical": [
+"[ɔpˈsɛr.woː]"
+],
+"eccl": [
+"[obˈsɛr.vo]"
+]
+},
+"obses_n": {
+"word": "obses",
+"classical": [
+"[ˈɔp.sɛs]"
+],
+"eccl": [
+"[ˈɔb.ses]"
+]
+},
+"obsideo_v": {
+"word": "obsideō",
+"classical": [
+"[ɔpˈsɪ.de.oː]"
+],
+"eccl": [
+"[obˈsiː.de.o]"
+]
+},
+"obsisto_v": {
+"word": "obsistō",
+"classical": [
+"[ɔpˈsɪs.toː]"
+],
+"eccl": [
+"[obˈsis.to]"
+]
+},
+"obstipesco_v": {
+"word": "obstipēscō",
+"classical": [
+"[ɔp.stɪˈpeːs.koː]"
+],
+"eccl": [
+"[ob.stiˈpɛs.ko]"
+]
+},
+"obsto_v": {
+"word": "obstō",
+"classical": [
+"[ˈɔp.stoː]"
+],
+"eccl": [
+"[ˈɔb.sto]"
+]
+},
+"obtundo_v": {
+"word": "obtundō",
+"classical": [
+"[ɔpˈtʊn.doː]"
+],
+"eccl": [
+"[obˈtun.do]"
+]
+},
+"obvio_v": {
+"word": "obviō",
+"classical": [
+"[ˈɔb.wi.oː]"
+],
+"eccl": [
+"[ˈɔb.vi.o]"
+]
+},
+"occasus_n": {
+"word": "occāsus",
+"classical": [
+"[ɔkˈkaː.sʊs]"
+],
+"eccl": [
+"[okˈkaː.s̬us]"
+]
+},
+"occido2_v": {
+"word": "occīdō",
+"classical": [
+"[ɔkˈkiː.doː]"
+],
+"eccl": [
+"[otˈt͡ʃiː.do]"
+]
+},
+"occido_v": {
+"word": "occidō",
+"classical": [
+"[ˈɔk.kɪ.doː]"
+],
+"eccl": [
+"[ˈɔt.t͡ʃi.do]"
+]
+},
+"occiduus_adj": {
+"word": "occiduus",
+"classical": [
+"[ɔkˈkɪ.du.ʊs]"
+],
+"eccl": [
+"[otˈt͡ʃiː.du.us]"
+]
+},
+"occulo_v": {
+"word": "occulō",
+"classical": [
+"[ˈɔk.kʊ.ɫoː]"
+],
+"eccl": [
+"[ˈɔk.ku.lo]"
+]
+},
+"occupo_v": {
+"word": "occupō",
+"classical": [
+"[ˈɔk.kʊ.poː]"
+],
+"eccl": [
+"[ˈɔk.ku.po]"
+]
+},
+"oculus_n": {
+"word": "oculus",
+"classical": [
+"[ˈɔ.kʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈɔː.ku.lus]"
+]
+},
+"offero_v": {
+"word": "offerō",
+"classical": [
+"[ˈɔf.fɛ.roː]"
+],
+"eccl": [
+"[ˈɔf.fe.ro]"
+]
+},
+"officio_v": {
+"word": "officiō",
+"classical": [
+"[ɔfˈfɪ.ki.oː]"
+],
+"eccl": [
+"[ofˈfiː.t͡ʃi.o]"
+]
+},
+"olympus_n": {
+"word": "Olympus",
+"classical": [
+"[ɔˈlym.pʊs]"
+],
+"eccl": [
+"[oˈlim.pus]"
+]
+},
+"omnigenus_adj": {
+"word": "omnigenus",
+"classical": [
+"[ɔmˈnɪ.ɡɛ.nʊs]"
+],
+"eccl": [
+"[omˈniː.d͡ʒe.nus]"
+]
+},
+"omnipotens_adj": {
+"word": "omnipotēns",
+"classical": [
+"[ɔmˈnɪ.pɔ.tẽːs]"
+],
+"eccl": [
+"[omˈniː.po.tens]"
+]
+},
+"omnis_adj": {
+"word": "omnis",
+"classical": [
+"[ˈɔm.nɪs]"
+],
+"eccl": [
+"[ˈɔm.nis]"
+]
+},
+"onerosus_adj": {
+"word": "onerōsus",
+"classical": [
+"[ɔ.nɛˈroː.sʊs]"
+],
+"eccl": [
+"[o.neˈrɔː.s̬us]"
+]
+},
+"onus_n": {
+"word": "onus",
+"classical": [
+"[ˈɔ.nʊs]"
+],
+"eccl": [
+"[ˈɔː.nus]"
+]
+},
+"opacus_adj": {
+"word": "opācus",
+"classical": [
+"[ɔˈpaː.kʊs]"
+],
+"eccl": [
+"[oˈpaː.kus]"
+]
+},
+"opera_n": {
+"word": "opera",
+"classical": [
+"[ˈɔ.pɛ.ra]"
+],
+"eccl": [
+"[ˈɔː.pe.ra]"
+]
+},
+"opifer_adj": {
+"word": "opifer",
+"classical": [
+"[ˈɔ.pɪ.fɛr]"
+],
+"eccl": [
+"[ˈɔː.pi.fer]"
+]
+},
+"opifex_n": {
+"word": "opifex",
+"classical": [
+"[ˈɔ.pɪ.fɛks]"
+],
+"eccl": [
+"[ˈɔː.pi.feks]"
+]
+},
+"oppidum_n": {
+"word": "oppidum",
+"classical": [
+"[ˈɔp.pɪ.dũː]"
+],
+"eccl": [
+"[ˈɔp.pi.dum]"
+]
+},
+"opprobrium_n": {
+"word": "opprobrium",
+"classical": [
+"[ɔpˈprɔ.bri.ũː]"
+],
+"eccl": [
+"[opˈprɔː.bri.um]"
+]
+},
+"ops_n": {
+"word": "ops",
+"classical": [
+"[ˈɔps]"
+],
+"eccl": [
+"[ˈɔps]"
+]
+},
+"optimas_n": {
+"word": "optimās",
+"classical": [
+"[ˈɔp.tɪ.maːs]"
+],
+"eccl": [
+"[ˈɔp.ti.mas]"
+]
+},
+"opto_v": {
+"word": "optō",
+"classical": [
+"[ˈɔp.toː]"
+],
+"eccl": [
+"[ˈɔp.to]"
+]
+},
+"opus_n": {
+"word": "opus",
+"classical": [
+"[ˈɔ.pʊs]"
+],
+"eccl": [
+"[ˈɔː.pus]"
+]
+},
+"oraculum_n": {
+"word": "ōrāculum",
+"classical": [
+"[oːˈraː.kʊ.ɫũː]"
+],
+"eccl": [
+"[oˈraː.ku.lum]"
+]
+},
+"orbis_n": {
+"word": "orbis",
+"classical": [
+"[ˈɔr.bɪs]"
+],
+"eccl": [
+"[ˈɔr.bis]"
+]
+},
+"orbus_adj": {
+"word": "orbus",
+"classical": [
+"[ˈɔr.bʊs]"
+],
+"eccl": [
+"[ˈɔr.bus]"
+]
+},
+"origo_n": {
+"word": "orīgō",
+"classical": [
+"[ɔˈriː.ɡoː]"
+],
+"eccl": [
+"[oˈriː.ɡo]"
+]
+},
+"orior_v": {
+"word": "orior",
+"classical": [
+"[ˈɔ.ri.ɔr]"
+],
+"eccl": [
+"[ˈɔː.ri.or]"
+]
+},
+"orno_v": {
+"word": "ōrnō",
+"classical": [
+"[ˈoːr.noː]"
+],
+"eccl": [
+"[ˈɔr.no]"
+]
+},
+"oro_v": {
+"word": "ōrō",
+"classical": [
+"[ˈoː.roː]"
+],
+"eccl": [
+"[ˈɔː.ro]"
+]
+},
+"os2_n": {
+"word": "os",
+"classical": [
+"[ˈɔs]"
+],
+"eccl": [
+"[ˈɔs]"
+]
+},
+"os_n": {
+"word": "ōs",
+"classical": [
+"[ˈoːs]"
+],
+"eccl": [
+"[ˈɔs]"
+]
+},
+"ossa_n": {
+"word": "ossa",
+"classical": [
+"[ˈɔs.sa]"
+],
+"eccl": [
+"[ˈɔs.sa]"
+]
+},
+"ostendo_v": {
+"word": "ostendō",
+"classical": [
+"[ɔsˈtɛn.doː]"
+],
+"eccl": [
+"[osˈtɛn.do]"
+]
+},
+"ostrum_n": {
+"word": "ostrum",
+"classical": [
+"[ˈɔs.trũː]"
+],
+"eccl": [
+"[ˈɔs.trum]"
+]
+},
+"otium_n": {
+"word": "ōtium",
+"classical": [
+"[ˈoː.ti.ũː]"
+],
+"eccl": [
+"[ˈɔt.t͡si.um]"
+]
+},
+"ovis_n": {
+"word": "ovis",
+"classical": [
+"[ˈɔ.wɪs]"
+],
+"eccl": [
+"[ˈɔː.vis]"
+]
+},
+"paean_n": {
+"word": "paeān",
+"classical": [
+"[ˈpae̯.aːn]"
+],
+"eccl": [
+"[ˈpɛː.an]"
+]
+},
+"paelex_n": {
+"word": "paelex",
+"classical": [
+"[ˈpae̯.ɫɛks]"
+],
+"eccl": [
+"[ˈpɛː.leks]"
+]
+},
+"paene_adv": {
+"word": "paene",
+"classical": [
+"[ˈpae̯.nɛ]"
+],
+"eccl": [
+"[ˈpɛː.ne]"
+]
+},
+"palatium_n": {
+"word": "palātium",
+"classical": [
+"[paˈɫaː.ti.ũː]"
+],
+"eccl": [
+"[paˈlat.t͡si.um]"
+]
+},
+"palleo_v": {
+"word": "palleō",
+"classical": [
+"[ˈpal.le.oː]"
+],
+"eccl": [
+"[ˈpal.le.o]"
+]
+},
+"palma_n": {
+"word": "palma",
+"classical": [
+"[ˈpaɫ.ma]",
+"[ˈpaɫ.maː]"
+],
+"eccl": [
+"[ˈpal.ma]",
+"[ˈpal.ma]"
+]
+},
+"palus_n": {
+"word": "palūs",
+"classical": [
+"[ˈpa.ɫuːs]"
+],
+"eccl": [
+"[ˈpaː.lus]"
+]
+},
+"paluster_adj": {
+"word": "palūster",
+"classical": [
+"[paˈɫuːs.tɛr]"
+],
+"eccl": [
+"[paˈlus.ter]"
+]
+},
+"pan_n": {
+"word": "Pān",
+"classical": [
+"[ˈpaːn]"
+],
+"eccl": [
+"[ˈpan]"
+]
+},
+"parco_v": {
+"word": "parcō",
+"classical": [
+"[ˈpar.koː]"
+],
+"eccl": [
+"[ˈpar.ko]"
+]
+},
+"parens_n": {
+"word": "parēns",
+"classical": [
+"[ˈpa.rẽːs]"
+],
+"eccl": [
+"[ˈpaː.rens]"
+]
+},
+"pareo_v": {
+"word": "pāreō",
+"classical": [
+"[ˈpaː.re.oː]"
+],
+"eccl": [
+"[ˈpaː.re.o]"
+]
+},
+"pario_v": {
+"word": "pariō",
+"classical": [
+"[ˈpa.ri.oː]"
+],
+"eccl": [
+"[ˈpaː.ri.o]"
+]
+},
+"paro_v": {
+"word": "parō",
+"classical": [
+"[ˈpa.roː]"
+],
+"eccl": [
+"[ˈpaː.ro]"
+]
+},
+"pars_n": {
+"word": "pars",
+"classical": [
+"[ˈpars]"
+],
+"eccl": [
+"[ˈpars]"
+]
+},
+"partim_adv": {
+"word": "partim",
+"classical": [
+"[ˈpar.tĩː]"
+],
+"eccl": [
+"[ˈpar.tim]"
+]
+},
+"partus_n": {
+"word": "partus",
+"classical": [
+"[ˈpar.tʊs]"
+],
+"eccl": [
+"[ˈpar.tus]"
+]
+},
+"parvus_adj": {
+"word": "parvus",
+"classical": [
+"[ˈpar.wʊs]"
+],
+"eccl": [
+"[ˈpar.vus]"
+]
+},
+"pasco_v": {
+"word": "pāscō",
+"classical": [
+"[ˈpaːs.koː]"
+],
+"eccl": [
+"[ˈpas.ko]"
+]
+},
+"pascua_n": {
+"word": "pāscua",
+"classical": [
+"[ˈpaːs.ku.a]",
+"[ˈpaːs.ku.aː]"
+],
+"eccl": [
+"[ˈpas.ku.a]",
+"[ˈpas.ku.a]"
+]
+},
+"passus_n": {
+"word": "passus",
+"classical": [
+"[ˈpas.sʊs]",
+"[ˈpas.suːs]"
+],
+"eccl": [
+"[ˈpas.sus]"
+]
+},
+"pastor_n": {
+"word": "pāstor",
+"classical": [
+"[ˈpaːs.tɔr]"
+],
+"eccl": [
+"[ˈpas.tor]"
+]
+},
+"patefacio_v": {
+"word": "patefaciō",
+"classical": [
+"[pa.tɛˈfa.ki.oː]"
+],
+"eccl": [
+"[pa.teˈfaː.t͡ʃi.o]"
+]
+},
+"pateo_v": {
+"word": "pateō",
+"classical": [
+"[ˈpa.te.oː]"
+],
+"eccl": [
+"[ˈpaː.te.o]"
+]
+},
+"pater_n": {
+"word": "pater",
+"classical": [
+"[ˈpa.tɛr]"
+],
+"eccl": [
+"[ˈpaː.ter]"
+]
+},
+"paternus_adj": {
+"word": "paternus",
+"classical": [
+"[paˈtɛr.nʊs]"
+],
+"eccl": [
+"[paˈtɛr.nus]"
+]
+},
+"patior_v": {
+"word": "patior",
+"classical": [
+"[ˈpa.ti.ɔr]"
+],
+"eccl": [
+"[ˈpat.t͡si.or]"
+]
+},
+"patria_n": {
+"word": "patria",
+"classical": [
+"[ˈpa.tri.a]"
+],
+"eccl": [
+"[ˈpaː.tri.a]"
+]
+},
+"patrius_adj": {
+"word": "patrius",
+"classical": [
+"[ˈpa.tri.ʊs]"
+],
+"eccl": [
+"[ˈpaː.tri.us]"
+]
+},
+"patruelis_adj": {
+"word": "patruēlis",
+"classical": [
+"[pa.truˈeː.lɪs]"
+],
+"eccl": [
+"[pa.truˈɛː.lis]"
+]
+},
+"patulus_adj": {
+"word": "patulus",
+"classical": [
+"[ˈpa.tʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈpaː.tu.lus]"
+]
+},
+"paveo_v": {
+"word": "paveō",
+"classical": [
+"[ˈpa.we.oː]"
+],
+"eccl": [
+"[ˈpaː.ve.o]"
+]
+},
+"pavidus_adj": {
+"word": "pavidus",
+"classical": [
+"[ˈpa.wɪ.dʊs]"
+],
+"eccl": [
+"[ˈpaː.vi.dus]"
+]
+},
+"pax_n": {
+"word": "pāx",
+"classical": [
+"[ˈpaːks]"
+],
+"eccl": [
+"[ˈpaks]"
+]
+},
+"pectus_n": {
+"word": "pectus",
+"classical": [
+"[ˈpɛk.tʊs]"
+],
+"eccl": [
+"[ˈpɛk.tus]"
+]
+},
+"pecus_n": {
+"word": "pecus",
+"classical": [
+"[ˈpɛ.kʊs]"
+],
+"eccl": [
+"[ˈpɛː.kus]"
+]
+},
+"pedum_n": {
+"word": "Pedum",
+"classical": [
+"[ˈpɛ.dũː]"
+],
+"eccl": [
+"[ˈpɛː.dum]"
+]
+},
+"pelagus_n": {
+"word": "pelagus",
+"classical": [
+"[ˈpɛ.ɫa.ɡʊs]"
+],
+"eccl": [
+"[ˈpɛː.la.ɡus]"
+]
+},
+"pendeo_v": {
+"word": "pendeō",
+"classical": [
+"[ˈpɛn.de.oː]"
+],
+"eccl": [
+"[ˈpɛn.de.o]"
+]
+},
+"penetralis_adj": {
+"word": "penetrālis",
+"classical": [
+"[pɛ.nɛˈtraː.lɪs]"
+],
+"eccl": [
+"[pe.neˈtraː.lis]"
+]
+},
+"peneus_n": {
+"word": "Pēnēus",
+"classical": [
+"[peːˈneː.ʊs]"
+],
+"eccl": [
+"[peˈnɛː.us]"
+]
+},
+"penna_n": {
+"word": "penna",
+"classical": [
+"[ˈpɛn.na]"
+],
+"eccl": [
+"[ˈpɛn.na]"
+]
+},
+"pensum_n": {
+"word": "pēnsum",
+"classical": [
+"[ˈpẽː.sũː]"
+],
+"eccl": [
+"[ˈpɛn.sum]"
+]
+},
+"per_prep": {
+"word": "per",
+"classical": [
+"[ˈpɛr]"
+],
+"eccl": [
+"[ˈpɛr]"
+]
+},
+"perago_v": {
+"word": "peragō",
+"classical": [
+"[ˈpɛ.ra.ɡoː]"
+],
+"eccl": [
+"[ˈpɛː.ra.ɡo]"
+]
+},
+"percutio_v": {
+"word": "percutiō",
+"classical": [
+"[pɛrˈkʊ.ti.oː]"
+],
+"eccl": [
+"[perˈkut.t͡si.o]"
+]
+},
+"perdo_v": {
+"word": "perdō",
+"classical": [
+"[ˈpɛr.doː]"
+],
+"eccl": [
+"[ˈpɛr.do]"
+]
+},
+"perdomo_v": {
+"word": "perdomō",
+"classical": [
+"[ˈpɛr.dɔ.moː]"
+],
+"eccl": [
+"[ˈpɛr.do.mo]"
+]
+},
+"peregrinus_n": {
+"word": "peregrīnus",
+"classical": [
+"[pɛ.rɛˈɡriː.nʊs]"
+],
+"eccl": [
+"[pe.reˈɡriː.nus]"
+]
+},
+"pereo_v": {
+"word": "pereō",
+"classical": [
+"[ˈpɛ.re.oː]"
+],
+"eccl": [
+"[ˈpɛː.re.o]"
+]
+},
+"pererro_v": {
+"word": "pererrō",
+"classical": [
+"[pɛˈrɛr.roː]"
+],
+"eccl": [
+"[peˈrɛr.ro]"
+]
+},
+"perfringo_v": {
+"word": "perfringō",
+"classical": [
+"[pɛrˈfrɪŋ.ɡoː]"
+],
+"eccl": [
+"[perˈfriŋ.ɡo]"
+]
+},
+"perfundo_v": {
+"word": "perfundō",
+"classical": [
+"[pɛrˈfʊn.doː]"
+],
+"eccl": [
+"[perˈfun.do]"
+]
+},
+"perhorreo_v": {
+"word": "perhorreō",
+"classical": [
+"[pɛˈrɔr.re.oː]"
+],
+"eccl": [
+"[peˈrɔr.re.o]"
+]
+},
+"periculum_n": {
+"word": "perīculum",
+"classical": [
+"[pɛˈriː.kʊ.ɫũː]"
+],
+"eccl": [
+"[peˈriː.ku.lum]"
+]
+},
+"permitto_v": {
+"word": "permittō",
+"classical": [
+"[pɛrˈmɪt.toː]"
+],
+"eccl": [
+"[perˈmit.to]"
+]
+},
+"permulceo_v": {
+"word": "permulceō",
+"classical": [
+"[pɛrˈmʊɫ.ke.oː]"
+],
+"eccl": [
+"[perˈmul̠ʲ.t͡ʃe.o]"
+]
+},
+"perpetuus_adj": {
+"word": "perpetuus",
+"classical": [
+"[pɛrˈpɛ.tu.ʊs]"
+],
+"eccl": [
+"[perˈpɛː.tu.us]"
+]
+},
+"persis_n": {
+"word": "Persis",
+"classical": [
+"[ˈpɛr.sɪs]"
+],
+"eccl": [
+"[ˈpɛr.sis]"
+]
+},
+"pertimesco_v": {
+"word": "pertimēscō",
+"classical": [
+"[pɛr.tɪˈmeːs.koː]"
+],
+"eccl": [
+"[per.tiˈmɛs.ko]"
+]
+},
+"pervenio_v": {
+"word": "perveniō",
+"classical": [
+"[pɛrˈwɛ.ni.oː]"
+],
+"eccl": [
+"[perˈvɛː.ni.o]"
+]
+},
+"pes_n": {
+"word": "pēs",
+"classical": [
+"[ˈpeːs]"
+],
+"eccl": [
+"[ˈpɛs]"
+]
+},
+"pestifer_adj": {
+"word": "pestifer",
+"classical": [
+"[ˈpɛs.tɪ.fɛr]"
+],
+"eccl": [
+"[ˈpɛs.ti.fer]"
+]
+},
+"peto_v": {
+"word": "petō",
+"classical": [
+"[ˈpɛ.toː]"
+],
+"eccl": [
+"[ˈpɛː.to]"
+]
+},
+"phaethon_n": {
+"word": "Phaëthōn",
+"classical": [
+"[ˈpʰa.ɛ.tʰoːn]"
+],
+"eccl": [
+"[ˈfaː.e.ton]"
+]
+},
+"pharetra_n": {
+"word": "pharetra",
+"classical": [
+"[ˈpʰa.rɛ.tra]",
+"[pʰaˈrɛt.ra]"
+],
+"eccl": [
+"[ˈfaː.re.tra]"
+]
+},
+"phoca_n": {
+"word": "phōca",
+"classical": [
+"[ˈpʰoː.ka]"
+],
+"eccl": [
+"[ˈfɔː.ka]"
+]
+},
+"picea_n": {
+"word": "picea",
+"classical": [
+"[ˈpɪ.ke.a]"
+],
+"eccl": [
+"[ˈpiː.t͡ʃe.a]"
+]
+},
+"pietas_n": {
+"word": "pietās",
+"classical": [
+"[ˈpi.ɛ.taːs]"
+],
+"eccl": [
+"[ˈpiː.e.tas]"
+]
+},
+"piger_adj": {
+"word": "piger",
+"classical": [
+"[ˈpɪ.ɡɛr]"
+],
+"eccl": [
+"[ˈpiː.d͡ʒer]"
+]
+},
+"pindus_n": {
+"word": "Pindus",
+"classical": [
+"[ˈpɪn.dʊs]"
+],
+"eccl": [
+"[ˈpin.dus]"
+]
+},
+"pinetum_n": {
+"word": "pīnētum",
+"classical": [
+"[piːˈneː.tũː]"
+],
+"eccl": [
+"[piˈnɛː.tum]"
+]
+},
+"pinus_n": {
+"word": "pīnus",
+"classical": [
+"[ˈpiː.nʊs]"
+],
+"eccl": [
+"[ˈpiː.nus]"
+]
+},
+"pio_v": {
+"word": "piō",
+"classical": [
+"[ˈpi.oː]"
+],
+"eccl": [
+"[ˈpiː.o]"
+]
+},
+"piscis_n": {
+"word": "piscis",
+"classical": [
+"[ˈpɪs.kɪs]"
+],
+"eccl": [
+"[ˈpiʃ.ʃis]"
+]
+},
+"placeo_v": {
+"word": "placeō",
+"classical": [
+"[ˈpɫa.ke.oː]"
+],
+"eccl": [
+"[ˈplaː.t͡ʃe.o]"
+]
+},
+"placidus_adj": {
+"word": "placidus",
+"classical": [
+"[ˈpɫa.kɪ.dʊs]"
+],
+"eccl": [
+"[ˈplaː.t͡ʃi.dus]"
+]
+},
+"plaga2_n": {
+"word": "plāga",
+"classical": [
+"[ˈpɫaː.ɡa]"
+],
+"eccl": [
+"[ˈplaː.ɡa]"
+]
+},
+"plaga3_n": {
+"word": "plāga",
+"classical": [
+"[ˈpɫaː.ɡa]"
+],
+"eccl": [
+"[ˈplaː.ɡa]"
+]
+},
+"plaga_n": {
+"word": "plāga",
+"classical": [
+"[ˈpɫaː.ɡa]"
+],
+"eccl": [
+"[ˈplaː.ɡa]"
+]
+},
+"planta_n": {
+"word": "planta",
+"classical": [
+"[ˈpɫan.ta]"
+],
+"eccl": [
+"[ˈplan.ta]"
+]
+},
+"platanus_n": {
+"word": "platanus",
+"classical": [
+"[ˈpɫa.ta.nʊs]"
+],
+"eccl": [
+"[ˈplaː.ta.nus]"
+]
+},
+"plebs_n": {
+"word": "plēbs",
+"classical": [
+"[ˈpɫeːps]"
+],
+"eccl": [
+"[ˈplɛbs]"
+]
+},
+"pleias_n": {
+"word": "Plēias",
+"classical": [
+"[ˈpɫeː.i.as]",
+"[ˈpɫeː.jas]"
+],
+"eccl": [
+"[ˈplɛː.i.as]",
+"[ˈplɛː.jas]"
+]
+},
+"plenus_adj": {
+"word": "plēnus",
+"classical": [
+"[ˈpɫeː.nʊs]"
+],
+"eccl": [
+"[ˈplɛː.nus]"
+]
+},
+"plumbum_n": {
+"word": "plumbum",
+"classical": [
+"[ˈpɫʊm.bũː]"
+],
+"eccl": [
+"[ˈplum.bum]"
+]
+},
+"pluvia_n": {
+"word": "pluvia",
+"classical": [
+"[ˈpɫʊ.wi.a]"
+],
+"eccl": [
+"[ˈpluː.vi.a]"
+]
+},
+"pluvialis_adj": {
+"word": "pluviālis",
+"classical": [
+"[pɫʊ.wiˈaː.lɪs]"
+],
+"eccl": [
+"[plu.viˈaː.lis]"
+]
+},
+"poena_n": {
+"word": "poena",
+"classical": [
+"[ˈpoe̯.na]"
+],
+"eccl": [
+"[ˈpɛː.na]"
+]
+},
+"pompa_n": {
+"word": "pompa",
+"classical": [
+"[ˈpɔm.pa]"
+],
+"eccl": [
+"[ˈpɔm.pa]"
+]
+},
+"pondus_n": {
+"word": "pondus",
+"classical": [
+"[ˈpɔn.dʊs]"
+],
+"eccl": [
+"[ˈpɔn.dus]"
+]
+},
+"pone_prep": {
+"word": "pōne",
+"classical": [
+"[ˈpoː.nɛ]"
+],
+"eccl": [
+"[ˈpɔː.ne]"
+]
+},
+"pono_v": {
+"word": "pōnō",
+"classical": [
+"[ˈpoː.noː]"
+],
+"eccl": [
+"[ˈpɔː.no]"
+]
+},
+"pons_n": {
+"word": "pōns",
+"classical": [
+"[ˈpõːs]"
+],
+"eccl": [
+"[ˈpɔns]"
+]
+},
+"ponto_n": {
+"word": "pontō",
+"classical": [
+"[ˈpɔn.toː]"
+],
+"eccl": [
+"[ˈpɔn.to]"
+]
+},
+"pontus_n": {
+"word": "Pontus",
+"classical": [
+"[ˈpɔn.tʊs]"
+],
+"eccl": [
+"[ˈpɔn.tus]"
+]
+},
+"popularis_adj": {
+"word": "populāris",
+"classical": [
+"[pɔ.pʊˈɫaː.rɪs]"
+],
+"eccl": [
+"[po.puˈlaː.ris]"
+]
+},
+"populo_v": {
+"word": "populō",
+"classical": [
+"[ˈpɔ.pʊ.ɫoː]"
+],
+"eccl": [
+"[ˈpɔː.pu.lo]"
+]
+},
+"populus2_n": {
+"word": "pōpulus",
+"classical": [
+"[ˈpoː.pʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈpɔː.pu.lus]"
+]
+},
+"populus_n": {
+"word": "populus",
+"classical": [
+"[ˈpɔ.pʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈpɔː.pu.lus]"
+]
+},
+"porrigo_v": {
+"word": "porrigō",
+"classical": [
+"[ˈpɔr.rɪ.ɡoː]"
+],
+"eccl": [
+"[ˈpɔr.ri.ɡo]"
+]
+},
+"posco_v": {
+"word": "poscō",
+"classical": [
+"[ˈpɔs.koː]"
+],
+"eccl": [
+"[ˈpɔs.ko]"
+]
+},
+"possideo_v": {
+"word": "possideō",
+"classical": [
+"[pɔsˈsɪ.de.oː]"
+],
+"eccl": [
+"[posˈsiː.de.o]"
+]
+},
+"possum_v": {
+"word": "possum",
+"classical": [
+"[ˈpɔs.sũː]"
+],
+"eccl": [
+"[ˈpɔs.sum]"
+]
+},
+"post_adv": {
+"word": "post",
+"classical": [
+"[ˈpɔst]"
+],
+"eccl": [
+"[ˈpɔst]"
+]
+},
+"postis_n": {
+"word": "postis",
+"classical": [
+"[ˈpɔs.tɪs]",
+"[ˈpɔs.tiːs]"
+],
+"eccl": [
+"[ˈpɔs.tis]",
+"[ˈpɔs.tis]"
+]
+},
+"postquam_conj": {
+"word": "postquam",
+"classical": [
+"[ˈpɔs(t).kʷãː]"
+],
+"eccl": [
+"[ˈpɔst.kʷam]"
+]
+},
+"potior_v": {
+"word": "potior",
+"classical": [
+"[ˈpɔ.ti.ɔr]"
+],
+"eccl": [
+"[ˈpɔt.t͡si.or]"
+]
+},
+"poto_v": {
+"word": "pōtō",
+"classical": [
+"[ˈpoː.toː]"
+],
+"eccl": [
+"[ˈpɔː.to]"
+]
+},
+"praebeo_v": {
+"word": "praebeō",
+"classical": [
+"[ˈprae̯.be.oː]"
+],
+"eccl": [
+"[ˈprɛː.be.o]"
+]
+},
+"praeceps_n": {
+"word": "praeceps",
+"classical": [
+"[ˈprae̯.kɛps]"
+],
+"eccl": [
+"[ˈprɛː.t͡ʃeps]"
+]
+},
+"praecingo_v": {
+"word": "praecingō",
+"classical": [
+"[prae̯ˈkɪŋ.ɡoː]"
+],
+"eccl": [
+"[preˈt͡ʃiŋ.ɡo]"
+]
+},
+"praecludo_v": {
+"word": "praeclūdō",
+"classical": [
+"[prae̯ˈkɫuː.doː]"
+],
+"eccl": [
+"[preˈkluː.do]"
+]
+},
+"praecordia_n": {
+"word": "praecordia",
+"classical": [
+"[prae̯ˈkɔr.di.a]"
+],
+"eccl": [
+"[preˈkɔr.di.a]"
+]
+},
+"praeda_n": {
+"word": "praeda",
+"classical": [
+"[ˈprae̯.da]"
+],
+"eccl": [
+"[ˈprɛː.da]"
+]
+},
+"praerumpo_v": {
+"word": "praerumpō",
+"classical": [
+"[prae̯ˈrʊm.poː]"
+],
+"eccl": [
+"[preˈrum.po]"
+]
+},
+"praesentio_v": {
+"word": "praesentiō",
+"classical": [
+"[prae̯ˈsɛn.ti.oː]"
+],
+"eccl": [
+"[preˈs̬ɛn.t͡si.o]"
+]
+},
+"praesideo_v": {
+"word": "praesideō",
+"classical": [
+"[prae̯ˈsɪ.de.oː]"
+],
+"eccl": [
+"[preˈs̬iː.de.o]"
+]
+},
+"praeter_prep": {
+"word": "praeter",
+"classical": [
+"[ˈprae̯.tɛr]"
+],
+"eccl": [
+"[ˈprɛː.ter]"
+]
+},
+"pratum_n": {
+"word": "prātum",
+"classical": [
+"[ˈpraː.tũː]"
+],
+"eccl": [
+"[ˈpraː.tum]"
+]
+},
+"premo_v": {
+"word": "premō",
+"classical": [
+"[ˈprɛ.moː]"
+],
+"eccl": [
+"[ˈprɛː.mo]"
+]
+},
+"prendo_v": {
+"word": "prēndō",
+"classical": [
+"[ˈpreːn.doː]"
+],
+"eccl": [
+"[ˈprɛn.do]"
+]
+},
+"pretiosus_adj": {
+"word": "pretiōsus",
+"classical": [
+"[prɛ.tiˈoː.sʊs]"
+],
+"eccl": [
+"[pret.t͡siˈɔː.s̬us]"
+]
+},
+"prex_n": {
+"word": "prex",
+"classical": [
+"[ˈprɛks]"
+],
+"eccl": [
+"[ˈprɛks]"
+]
+},
+"primus_adj": {
+"word": "prīmus",
+"classical": [
+"[ˈpriː.mʊs]"
+],
+"eccl": [
+"[ˈpriː.mus]"
+]
+},
+"principium_n": {
+"word": "prī̆ncipium",
+"classical": [
+"[priːŋˈkɪ.pi.ũː]",
+"[prɪŋˈkɪ.pi.ũː]"
+],
+"eccl": [
+"[prin̠ʲˈt͡ʃiː.pi.um]"
+]
+},
+"prior_adj": {
+"word": "prior",
+"classical": [
+"[ˈpri.ɔr]"
+],
+"eccl": [
+"[ˈpriː.or]"
+]
+},
+"pro_prep": {
+"word": "prō",
+"classical": [
+"[ˈproː]"
+],
+"eccl": [
+"[ˈprɔː]"
+]
+},
+"probo_v": {
+"word": "probō",
+"classical": [
+"[ˈprɔ.boː]"
+],
+"eccl": [
+"[ˈprɔː.bo]"
+]
+},
+"procul_adv": {
+"word": "procul",
+"classical": [
+"[ˈprɔ.kʊɫ]"
+],
+"eccl": [
+"[ˈprɔː.kul]"
+]
+},
+"procumbo_v": {
+"word": "prōcumbō",
+"classical": [
+"[proːˈkʊm.boː]"
+],
+"eccl": [
+"[proˈkum.bo]"
+]
+},
+"prodeo_v": {
+"word": "prōdeō",
+"classical": [
+"[ˈproː.de.oː]"
+],
+"eccl": [
+"[ˈprɔː.de.o]"
+]
+},
+"profugus_adj": {
+"word": "profugus",
+"classical": [
+"[ˈprɔ.fʊ.ɡʊs]"
+],
+"eccl": [
+"[ˈprɔː.fu.ɡus]"
+]
+},
+"profundum_n": {
+"word": "profundum",
+"classical": [
+"[prɔˈfʊn.dũː]"
+],
+"eccl": [
+"[proˈfun.dum]"
+]
+},
+"proles_n": {
+"word": "prōlēs",
+"classical": [
+"[ˈproː.ɫeːs]"
+],
+"eccl": [
+"[ˈprɔː.les]"
+]
+},
+"promitto_v": {
+"word": "prōmittō",
+"classical": [
+"[proːˈmɪt.toː]"
+],
+"eccl": [
+"[proˈmit.to]"
+]
+},
+"promo_v": {
+"word": "prōmō",
+"classical": [
+"[ˈproː.moː]"
+],
+"eccl": [
+"[ˈprɔː.mo]"
+]
+},
+"promptus_n": {
+"word": "prōmptus",
+"classical": [
+"[ˈproːmp.tʊs]"
+],
+"eccl": [
+"[ˈprɔmp.tus]"
+]
+},
+"pronus_adj": {
+"word": "prōnus",
+"classical": [
+"[ˈproː.nʊs]"
+],
+"eccl": [
+"[ˈprɔː.nus]"
+]
+},
+"propago_v": {
+"word": "prō̆pāgō",
+"classical": [
+"[proːˈpaː.ɡoː]",
+"[prɔˈpaː.ɡoː]"
+],
+"eccl": [
+"[proˈpaː.ɡo]"
+]
+},
+"propero_v": {
+"word": "properō",
+"classical": [
+"[ˈprɔ.pɛ.roː]"
+],
+"eccl": [
+"[ˈprɔː.pe.ro]"
+]
+},
+"proprius_adj": {
+"word": "proprius",
+"classical": [
+"[ˈprɔ.pri.ʊs]",
+"[ˈprɔp.ri.ʊs]"
+],
+"eccl": [
+"[ˈprɔː.pri.us]",
+"[ˈprɔp.ri.us]"
+]
+},
+"prosum_v": {
+"word": "prōsum",
+"classical": [
+"[ˈproː.sũː]"
+],
+"eccl": [
+"[ˈprɔː.s̬um]"
+]
+},
+"protinus_adv": {
+"word": "prōtinus",
+"classical": [
+"[ˈproː.tɪ.nʊs]"
+],
+"eccl": [
+"[ˈprɔː.ti.nus]"
+]
+},
+"proximo_v": {
+"word": "proximō",
+"classical": [
+"[ˈprɔk.sɪ.moː]"
+],
+"eccl": [
+"[ˈprɔk.si.mo]"
+]
+},
+"proximus_adj": {
+"word": "proximus",
+"classical": [
+"[ˈprɔk.sɪ.mʊs]"
+],
+"eccl": [
+"[ˈprɔk.si.mus]"
+]
+},
+"proximus_n": {
+"word": "proximus",
+"classical": [
+"[ˈprɔk.sɪ.mʊs]"
+],
+"eccl": [
+"[ˈprɔk.si.mus]"
+]
+},
+"pudeo_v": {
+"word": "pudeō",
+"classical": [
+"[ˈpʊ.de.oː]"
+],
+"eccl": [
+"[ˈpuː.de.o]"
+]
+},
+"pudor_n": {
+"word": "pudor",
+"classical": [
+"[ˈpʊ.dɔr]"
+],
+"eccl": [
+"[ˈpuː.dor]"
+]
+},
+"puella_n": {
+"word": "puella",
+"classical": [
+"[puˈɛl.la]"
+],
+"eccl": [
+"[puˈɛl.la]"
+]
+},
+"puer_n": {
+"word": "puer",
+"classical": [
+"[ˈpu.ɛr]"
+],
+"eccl": [
+"[ˈpuː.er]"
+]
+},
+"pugnax_adj": {
+"word": "pugnāx",
+"classical": [
+"[ˈpʊŋ.naːks]"
+],
+"eccl": [
+"[ˈpuɲ.ɲaks]"
+]
+},
+"pugno_v": {
+"word": "pugnō",
+"classical": [
+"[ˈpʊŋ.noː]"
+],
+"eccl": [
+"[ˈpuɲ.ɲo]"
+]
+},
+"pulcher_adj": {
+"word": "pulcher",
+"classical": [
+"[ˈpʊɫ.kʰɛr]"
+],
+"eccl": [
+"[ˈpul.ker]"
+]
+},
+"pulso_v": {
+"word": "pulsō",
+"classical": [
+"[ˈpʊɫ.soː]"
+],
+"eccl": [
+"[ˈpul.so]"
+]
+},
+"pulvis_n": {
+"word": "pulvis",
+"classical": [
+"[ˈpʊɫ.wɪs]"
+],
+"eccl": [
+"[ˈpul.vis]"
+]
+},
+"puteo_v": {
+"word": "pūteō",
+"classical": [
+"[ˈpuː.te.oː]"
+],
+"eccl": [
+"[ˈpuː.te.o]"
+]
+},
+"puto_v": {
+"word": "putō",
+"classical": [
+"[ˈpʊ.toː]"
+],
+"eccl": [
+"[ˈpuː.to]"
+]
+},
+"pyrrha_n": {
+"word": "Pyrrha",
+"classical": [
+"[ˈpyr.rʰa]"
+],
+"eccl": [
+"[ˈpir.ra]"
+]
+},
+"qua_adv": {
+"word": "quā",
+"classical": [
+"[ˈkʷaː]",
+"[ˈkʷa]"
+],
+"eccl": [
+"[ˈkʷaː]",
+"[ˈkʷaː]"
+]
+},
+"quaero_v": {
+"word": "quaerō",
+"classical": [
+"[ˈkʷae̯.roː]"
+],
+"eccl": [
+"[ˈkʷɛː.ro]"
+]
+},
+"quam_adv": {
+"word": "quam",
+"classical": [
+"[ˈkʷãː]"
+],
+"eccl": [
+"[ˈkʷam]"
+]
+},
+"quamquam_conj": {
+"word": "quamquam",
+"classical": [
+"[ˈkʷaŋ.kʷãː]"
+],
+"eccl": [
+"[ˈkʷaŋ.kʷam]"
+]
+},
+"quamvis_adv": {
+"word": "quamvīs",
+"classical": [
+"[ˈkʷam.wiːs]"
+],
+"eccl": [
+"[ˈkʷam.vis]"
+]
+},
+"quanto_adv": {
+"word": "quantō",
+"classical": [
+"[ˈkʷan.toː]"
+],
+"eccl": [
+"[ˈkʷan.to]"
+]
+},
+"quantum_adv": {
+"word": "quantum",
+"classical": [
+"[ˈkʷan.tũː]"
+],
+"eccl": [
+"[ˈkʷan.tum]"
+]
+},
+"quattuor_num": {
+"word": "quattuor",
+"classical": [
+"[ˈkʷat.tu.ɔr]"
+],
+"eccl": [
+"[ˈkʷat.tu.or]"
+]
+},
+"queo_v": {
+"word": "queō",
+"classical": [
+"[ˈkʷe.oː]"
+],
+"eccl": [
+"[ˈkʷɛː.o]"
+]
+},
+"quercus_n": {
+"word": "quercus",
+"classical": [
+"[ˈkʷɛr.kʊs]"
+],
+"eccl": [
+"[ˈkʷɛr.kus]"
+]
+},
+"queror_v": {
+"word": "queror",
+"classical": [
+"[ˈkʷɛ.rɔr]"
+],
+"eccl": [
+"[ˈkʷɛː.ror]"
+]
+},
+"qui_pron": {
+"word": "quī",
+"classical": [
+"[ˈkʷiː]"
+],
+"eccl": [
+"[ˈkʷiː]"
+]
+},
+"quia_conj": {
+"word": "quia",
+"classical": [
+"[ˈkʷi.a]"
+],
+"eccl": [
+"[ˈkʷiː.a]"
+]
+},
+"quicumque_pron": {
+"word": "quīcumque",
+"classical": [
+"[kʷiːˈkʊŋ.kʷɛ]"
+],
+"eccl": [
+"[kʷiˈkum.kʷe]"
+]
+},
+"quidam_pron": {
+"word": "quīdam",
+"classical": [
+"[ˈkʷiː.dãː]"
+],
+"eccl": [
+"[ˈkʷiː.dam]"
+]
+},
+"quidem_adv": {
+"word": "quidem",
+"classical": [
+"[ˈkʷɪ.dẽː]"
+],
+"eccl": [
+"[ˈkʷiː.dem]"
+]
+},
+"quies_n": {
+"word": "quiēs",
+"classical": [
+"[ˈkʷi.eːs]"
+],
+"eccl": [
+"[ˈkʷiː.es]"
+]
+},
+"quin_adv": {
+"word": "quīn",
+"classical": [
+"[ˈkʷiːn]"
+],
+"eccl": [
+"[ˈkʷin]"
+]
+},
+"quintus_n": {
+"word": "quīntus",
+"classical": [
+"[ˈkʷiːn.tʊs]"
+],
+"eccl": [
+"[ˈkʷin.tus]"
+]
+},
+"quippe_adv": {
+"word": "quippe",
+"classical": [
+"[ˈkʷɪp.pɛ]"
+],
+"eccl": [
+"[ˈkʷip.pe]"
+]
+},
+"quis_pron": {
+"word": "quis",
+"classical": [
+"[ˈkʷɪs]"
+],
+"eccl": [
+"[ˈkʷis]"
+]
+},
+"quisnam_pron": {
+"word": "quisnam",
+"classical": [
+"[ˈkʷɪs.nãː]"
+],
+"eccl": [
+"[ˈkʷiz.nam]"
+]
+},
+"quisquam_pron": {
+"word": "quisquam",
+"classical": [
+"[ˈkʷɪs.kʷãː]"
+],
+"eccl": [
+"[ˈkʷis.kʷam]"
+]
+},
+"quisque_pron": {
+"word": "quisque",
+"classical": [
+"[ˈkʷɪs.kʷɛ]"
+],
+"eccl": [
+"[ˈkʷis.kʷe]"
+]
+},
+"quisquis_pron": {
+"word": "quisquis",
+"classical": [
+"[ˈkʷɪs.kʷɪs]"
+],
+"eccl": [
+"[ˈkʷis.kʷis]"
+]
+},
+"quodsi_conj": {
+"word": "quodsī",
+"classical": [
+"[ˈkʷɔs.siː]"
+],
+"eccl": [
+"[ˈkʷɔd.si]"
+]
+},
+"quondam_adv": {
+"word": "quondam",
+"classical": [
+"[ˈkʷɔn.dãː]"
+],
+"eccl": [
+"[ˈkʷɔn.dam]"
+]
+},
+"quoniam_conj": {
+"word": "quoniam",
+"classical": [
+"[ˈkʷɔ.ni.ãː]"
+],
+"eccl": [
+"[ˈkʷɔː.ni.am]"
+]
+},
+"quoque_adv": {
+"word": "quoque",
+"classical": [
+"[ˈkʷɔ.kʷɛ]"
+],
+"eccl": [
+"[ˈkʷɔː.kʷe]",
+"[ˈkʷɔː.kʷe]"
+]
+},
+"quotiens_adv": {
+"word": "quotiēns",
+"classical": [
+"[ˈkʷɔ.ti.ẽːs]"
+],
+"eccl": [
+"[ˈkʷɔt.t͡si.ens]"
+]
+},
+"rabies_n": {
+"word": "rabiēs",
+"classical": [
+"[ˈra.bi.eːs]"
+],
+"eccl": [
+"[ˈraː.bi.es]"
+]
+},
+"radius_n": {
+"word": "radius",
+"classical": [
+"[ˈra.di.ʊs]"
+],
+"eccl": [
+"[ˈraː.di.us]"
+]
+},
+"radix_n": {
+"word": "rādīx",
+"classical": [
+"[ˈraː.diːks]"
+],
+"eccl": [
+"[ˈraː.diks]"
+]
+},
+"ramus_n": {
+"word": "rāmus",
+"classical": [
+"[ˈraː.mʊs]"
+],
+"eccl": [
+"[ˈraː.mus]"
+]
+},
+"rapidus_adj": {
+"word": "rapidus",
+"classical": [
+"[ˈra.pɪ.dʊs]"
+],
+"eccl": [
+"[ˈraː.pi.dus]"
+]
+},
+"rapio_v": {
+"word": "rapiō",
+"classical": [
+"[ˈra.pi.oː]"
+],
+"eccl": [
+"[ˈraː.pi.o]"
+]
+},
+"rarus_adj": {
+"word": "rārus",
+"classical": [
+"[ˈraː.rʊs]"
+],
+"eccl": [
+"[ˈraː.rus]"
+]
+},
+"rastrum_n": {
+"word": "rāstrum",
+"classical": [
+"[ˈraːs.trũː]"
+],
+"eccl": [
+"[ˈras.trum]"
+]
+},
+"ratio_n": {
+"word": "ratiō",
+"classical": [
+"[ˈra.ti.oː]"
+],
+"eccl": [
+"[ˈrat.t͡si.o]"
+]
+},
+"recedo_v": {
+"word": "recēdō",
+"classical": [
+"[rɛˈkeː.doː]"
+],
+"eccl": [
+"[reˈt͡ʃɛː.do]"
+]
+},
+"recens_adj": {
+"word": "recēns",
+"classical": [
+"[ˈrɛ.kẽːs]"
+],
+"eccl": [
+"[ˈrɛː.t͡ʃens]"
+]
+},
+"recepto_v": {
+"word": "receptō",
+"classical": [
+"[rɛˈkɛp.toː]"
+],
+"eccl": [
+"[reˈt͡ʃɛp.to]"
+]
+},
+"receptus_n": {
+"word": "receptus",
+"classical": [
+"[rɛˈkɛp.tʊs]"
+],
+"eccl": [
+"[reˈt͡ʃɛp.tus]"
+]
+},
+"recessus_n": {
+"word": "recessus",
+"classical": [
+"[rɛˈkɛs.sʊs]"
+],
+"eccl": [
+"[reˈt͡ʃɛs.sus]"
+]
+},
+"recido2_v": {
+"word": "recīdō",
+"classical": [
+"[rɛˈkiː.doː]"
+],
+"eccl": [
+"[reˈt͡ʃiː.do]"
+]
+},
+"recido_v": {
+"word": "recidō",
+"classical": [
+"[ˈrɛ.kɪ.doː]"
+],
+"eccl": [
+"[ˈrɛː.t͡ʃi.do]"
+]
+},
+"recingo_v": {
+"word": "recingō",
+"classical": [
+"[rɛˈkɪŋ.ɡoː]"
+],
+"eccl": [
+"[reˈt͡ʃiŋ.ɡo]"
+]
+},
+"recondo_v": {
+"word": "recondō",
+"classical": [
+"[rɛˈkɔn.doː]"
+],
+"eccl": [
+"[reˈkɔn.do]"
+]
+},
+"rector_n": {
+"word": "rēctor",
+"classical": [
+"[ˈreːk.tɔr]"
+],
+"eccl": [
+"[ˈrɛk.tor]"
+]
+},
+"recuso_v": {
+"word": "recūsō",
+"classical": [
+"[rɛˈkuː.soː]"
+],
+"eccl": [
+"[reˈkuː.s̬o]"
+]
+},
+"reddo_v": {
+"word": "reddō",
+"classical": [
+"[ˈrɛd.doː]"
+],
+"eccl": [
+"[ˈrɛd.do]"
+]
+},
+"redeo_v": {
+"word": "redeō",
+"classical": [
+"[ˈrɛ.de.oː]"
+],
+"eccl": [
+"[ˈrɛː.de.o]"
+]
+},
+"redigo_v": {
+"word": "redigō",
+"classical": [
+"[ˈrɛ.dɪ.ɡoː]"
+],
+"eccl": [
+"[ˈrɛː.di.ɡo]"
+]
+},
+"refello_v": {
+"word": "refellō",
+"classical": [
+"[rɛˈfɛl.loː]"
+],
+"eccl": [
+"[reˈfɛl.lo]"
+]
+},
+"refero_v": {
+"word": "referō",
+"classical": [
+"[ˈrɛ.fɛ.roː]"
+],
+"eccl": [
+"[ˈrɛː.fe.ro]"
+]
+},
+"refugio_v": {
+"word": "refugiō",
+"classical": [
+"[rɛˈfʊ.ɡi.oː]"
+],
+"eccl": [
+"[reˈfuː.d͡ʒi.o]"
+]
+},
+"regalis_adj": {
+"word": "rēgālis",
+"classical": [
+"[reːˈɡaː.lɪs]"
+],
+"eccl": [
+"[reˈɡaː.lis]"
+]
+},
+"regia_n": {
+"word": "rēgia",
+"classical": [
+"[ˈreː.ɡi.a]",
+"[ˈreː.ɡi.aː]"
+],
+"eccl": [
+"[ˈrɛː.d͡ʒi.a]"
+]
+},
+"regio_n": {
+"word": "regiō",
+"classical": [
+"[ˈrɛ.ɡi.oː]"
+],
+"eccl": [
+"[ˈrɛː.d͡ʒi.o]"
+]
+},
+"regno_v": {
+"word": "rēgnō",
+"classical": [
+"[ˈreːŋ.noː]"
+],
+"eccl": [
+"[ˈrɛɲ.ɲo]"
+]
+},
+"regnum_n": {
+"word": "rēgnum",
+"classical": [
+"[ˈreːŋ.nũː]"
+],
+"eccl": [
+"[ˈrɛɲ.ɲum]"
+]
+},
+"rego_v": {
+"word": "regō",
+"classical": [
+"[ˈrɛ.ɡoː]"
+],
+"eccl": [
+"[ˈrɛː.ɡo]"
+]
+},
+"relaxo_v": {
+"word": "relaxō",
+"classical": [
+"[rɛˈɫak.soː]"
+],
+"eccl": [
+"[reˈlak.so]"
+]
+},
+"relictus_adj": {
+"word": "relictus",
+"classical": [
+"[rɛˈlɪk.tʊs]"
+],
+"eccl": [
+"[reˈlik.tus]"
+]
+},
+"relinquo_v": {
+"word": "relinquō",
+"classical": [
+"[rɛˈlɪŋ.kʷoː]"
+],
+"eccl": [
+"[reˈliŋ.kʷo]"
+]
+},
+"remaneo_v": {
+"word": "remaneō",
+"classical": [
+"[rɛˈma.ne.oː]"
+],
+"eccl": [
+"[reˈmaː.ne.o]"
+]
+},
+"reminisco_v": {
+"word": "reminīscō",
+"classical": [
+"[rɛ.mɪˈniːs.koː]"
+],
+"eccl": [
+"[re.miˈnis.ko]"
+]
+},
+"remitto_v": {
+"word": "remittō",
+"classical": [
+"[rɛˈmɪt.toː]"
+],
+"eccl": [
+"[reˈmit.to]"
+]
+},
+"removeo_v": {
+"word": "removeō",
+"classical": [
+"[rɛˈmɔ.we.oː]"
+],
+"eccl": [
+"[reˈmɔː.ve.o]"
+]
+},
+"remugio_v": {
+"word": "remūgiō",
+"classical": [
+"[rɛˈmuː.ɡi.oː]"
+],
+"eccl": [
+"[reˈmuː.d͡ʒi.o]"
+]
+},
+"remus_n": {
+"word": "rēmus",
+"classical": [
+"[ˈreː.mʊs]"
+],
+"eccl": [
+"[ˈrɛː.mus]"
+]
+},
+"renovo_v": {
+"word": "renovō",
+"classical": [
+"[ˈrɛ.nɔ.woː]"
+],
+"eccl": [
+"[ˈrɛː.no.vo]"
+]
+},
+"reor_v": {
+"word": "reor",
+"classical": [
+"[ˈre.ɔr]"
+],
+"eccl": [
+"[ˈrɛː.or]"
+]
+},
+"reparabilis_adj": {
+"word": "reparābilis",
+"classical": [
+"[rɛ.paˈraː.bɪ.lɪs]"
+],
+"eccl": [
+"[re.paˈraː.bi.lis]"
+]
+},
+"reparo_v": {
+"word": "reparō",
+"classical": [
+"[ˈrɛ.pa.roː]"
+],
+"eccl": [
+"[ˈrɛː.pa.ro]"
+]
+},
+"reperio_v": {
+"word": "reperiō",
+"classical": [
+"[rɛˈpɛ.ri.oː]"
+],
+"eccl": [
+"[reˈpɛː.ri.o]"
+]
+},
+"repeto_v": {
+"word": "repetō",
+"classical": [
+"[ˈrɛ.pɛ.toː]"
+],
+"eccl": [
+"[ˈrɛː.pe.to]"
+]
+},
+"repleo_v": {
+"word": "repleō",
+"classical": [
+"[ˈrɛ.pɫe.oː]"
+],
+"eccl": [
+"[ˈrɛː.ple.o]"
+]
+},
+"repono_v": {
+"word": "repōnō",
+"classical": [
+"[rɛˈpoː.noː]"
+],
+"eccl": [
+"[reˈpɔː.no]"
+]
+},
+"reprimo_v": {
+"word": "reprimō",
+"classical": [
+"[ˈrɛ.prɪ.moː]"
+],
+"eccl": [
+"[ˈrɛː.pri.mo]"
+]
+},
+"repugno_v": {
+"word": "repugnō",
+"classical": [
+"[rɛˈpʊŋ.noː]"
+],
+"eccl": [
+"[reˈpuɲ.ɲo]"
+]
+},
+"requies_n": {
+"word": "requiēs",
+"classical": [
+"[ˈrɛ.kʷi.eːs]"
+],
+"eccl": [
+"[ˈrɛː.kʷi.es]"
+]
+},
+"res_n": {
+"word": "rēs",
+"classical": [
+"[ˈreːs]"
+],
+"eccl": [
+"[ˈrɛs]"
+]
+},
+"resideo_v": {
+"word": "resideō",
+"classical": [
+"[rɛˈsɪ.de.oː]"
+],
+"eccl": [
+"[reˈs̬iː.de.o]"
+]
+},
+"resisto_v": {
+"word": "resistō",
+"classical": [
+"[rɛˈsɪs.toː]"
+],
+"eccl": [
+"[reˈs̬is.to]"
+]
+},
+"resolvo_v": {
+"word": "resolvō",
+"classical": [
+"[rɛˈsɔɫ.woː]"
+],
+"eccl": [
+"[reˈs̬ɔl.vo]"
+]
+},
+"resto_v": {
+"word": "restō",
+"classical": [
+"[ˈrɛs.toː]"
+],
+"eccl": [
+"[ˈrɛs.to]"
+]
+},
+"resupino_v": {
+"word": "resupīnō",
+"classical": [
+"[rɛ.sʊˈpiː.noː]"
+],
+"eccl": [
+"[re.s̬uˈpiː.no]"
+]
+},
+"retendo_v": {
+"word": "retendō",
+"classical": [
+"[rɛˈtɛn.doː]"
+],
+"eccl": [
+"[reˈtɛn.do]"
+]
+},
+"reticeo_v": {
+"word": "reticeō",
+"classical": [
+"[rɛˈtɪ.ke.oː]"
+],
+"eccl": [
+"[reˈtiː.t͡ʃe.o]"
+]
+},
+"retineo_v": {
+"word": "retineō",
+"classical": [
+"[rɛˈtɪ.ne.oː]"
+],
+"eccl": [
+"[reˈtiː.ne.o]"
+]
+},
+"revoco_v": {
+"word": "revocō",
+"classical": [
+"[ˈrɛ.wɔ.koː]"
+],
+"eccl": [
+"[ˈrɛː.vo.ko]"
+]
+},
+"rex_n": {
+"word": "rēx",
+"classical": [
+"[ˈreːks]"
+],
+"eccl": [
+"[ˈrɛks]"
+]
+},
+"rictus_n": {
+"word": "rictus",
+"classical": [
+"[ˈrɪk.tʊs]"
+],
+"eccl": [
+"[ˈrik.tus]"
+]
+},
+"rigor_n": {
+"word": "rigor",
+"classical": [
+"[ˈrɪ.ɡɔr]"
+],
+"eccl": [
+"[ˈriː.ɡor]"
+]
+},
+"ripa_n": {
+"word": "rīpa",
+"classical": [
+"[ˈriː.pa]"
+],
+"eccl": [
+"[ˈriː.pa]"
+]
+},
+"ritus_n": {
+"word": "rītus",
+"classical": [
+"[ˈriː.tʊs]"
+],
+"eccl": [
+"[ˈriː.tus]"
+]
+},
+"roboro_v": {
+"word": "rōborō",
+"classical": [
+"[ˈroː.bɔ.roː]"
+],
+"eccl": [
+"[ˈrɔː.bo.ro]"
+]
+},
+"rogo_v": {
+"word": "rogō",
+"classical": [
+"[ˈrɔ.ɡoː]"
+],
+"eccl": [
+"[ˈrɔː.ɡo]"
+]
+},
+"romanus_adj": {
+"word": "rōmānus",
+"classical": [
+"[roːˈmaː.nʊs]"
+],
+"eccl": [
+"[roˈmaː.nus]"
+]
+},
+"roro_v": {
+"word": "rōrō",
+"classical": [
+"[ˈroː.roː]"
+],
+"eccl": [
+"[ˈrɔː.ro]"
+]
+},
+"rosa_n": {
+"word": "rosa",
+"classical": [
+"[ˈrɔ.sa]",
+"[ˈrɔ.saː]"
+],
+"eccl": [
+"[ˈrɔː.s̬a]",
+"[ˈrɔː.s̬a]"
+]
+},
+"rostrum_n": {
+"word": "rōstrum",
+"classical": [
+"[ˈroːs.trũː]"
+],
+"eccl": [
+"[ˈrɔs.trum]"
+]
+},
+"rota_n": {
+"word": "rota",
+"classical": [
+"[ˈrɔ.ta]"
+],
+"eccl": [
+"[ˈrɔː.ta]"
+]
+},
+"rubeo_v": {
+"word": "rubeō",
+"classical": [
+"[ˈrʊ.be.oː]"
+],
+"eccl": [
+"[ˈruː.be.o]"
+]
+},
+"rubor_n": {
+"word": "rubor",
+"classical": [
+"[ˈrʊ.bɔr]"
+],
+"eccl": [
+"[ˈruː.bor]"
+]
+},
+"rudis_adj": {
+"word": "rudis",
+"classical": [
+"[ˈrʊ.dɪs]"
+],
+"eccl": [
+"[ˈruː.dis]"
+]
+},
+"ruina_n": {
+"word": "ruīna",
+"classical": [
+"[ruˈiː.na]"
+],
+"eccl": [
+"[ruˈiː.na]"
+]
+},
+"rumpo_v": {
+"word": "rumpō",
+"classical": [
+"[ˈrʊm.poː]"
+],
+"eccl": [
+"[ˈrum.po]"
+]
+},
+"ruo_v": {
+"word": "ruō",
+"classical": [
+"[ˈru.oː]"
+],
+"eccl": [
+"[ˈruː.o]"
+]
+},
+"rupes_n": {
+"word": "rūpēs",
+"classical": [
+"[ˈruː.peːs]"
+],
+"eccl": [
+"[ˈruː.pes]"
+]
+},
+"rus_n": {
+"word": "rūs",
+"classical": [
+"[ˈruːs]"
+],
+"eccl": [
+"[ˈrus]"
+]
+},
+"rusticus_adj": {
+"word": "rūsticus",
+"classical": [
+"[ˈruːs.tɪ.kʊs]"
+],
+"eccl": [
+"[ˈrus.ti.kus]"
+]
+},
+"sacer_adj": {
+"word": "sacer",
+"classical": [
+"[ˈsa.kɛr]"
+],
+"eccl": [
+"[ˈsaː.t͡ʃer]"
+]
+},
+"saepe_adv": {
+"word": "saepe",
+"classical": [
+"[ˈsae̯.pɛ]"
+],
+"eccl": [
+"[ˈsɛː.pe]"
+]
+},
+"saepes_n": {
+"word": "saepēs",
+"classical": [
+"[ˈsae̯.peːs]"
+],
+"eccl": [
+"[ˈsɛː.pes]"
+]
+},
+"saeta_n": {
+"word": "saeta",
+"classical": [
+"[ˈsae̯.ta]"
+],
+"eccl": [
+"[ˈsɛː.ta]"
+]
+},
+"saevio_v": {
+"word": "saeviō",
+"classical": [
+"[ˈsae̯.wi.oː]"
+],
+"eccl": [
+"[ˈsɛː.vi.o]"
+]
+},
+"saevus_adj": {
+"word": "saevus",
+"classical": [
+"[ˈsae̯.wʊs]"
+],
+"eccl": [
+"[ˈsɛː.vus]"
+]
+},
+"sagitta_n": {
+"word": "sagitta",
+"classical": [
+"[saˈɡɪt.ta]"
+],
+"eccl": [
+"[saˈd͡ʒit.ta]"
+]
+},
+"sagittifer_adj": {
+"word": "sagittifer",
+"classical": [
+"[saˈɡɪt.tɪ.fɛr]"
+],
+"eccl": [
+"[saˈd͡ʒit.ti.fer]"
+]
+},
+"salus_n": {
+"word": "salūs",
+"classical": [
+"[ˈsa.ɫuːs]"
+],
+"eccl": [
+"[ˈsaː.lus]"
+]
+},
+"sanabilis_adj": {
+"word": "sānābilis",
+"classical": [
+"[saːˈnaː.bɪ.lɪs]"
+],
+"eccl": [
+"[saˈnaː.bi.lis]"
+]
+},
+"sancio_v": {
+"word": "sanciō",
+"classical": [
+"[ˈsaŋ.ki.oː]"
+],
+"eccl": [
+"[ˈsan̠ʲ.t͡ʃi.o]"
+]
+},
+"sanguineus_adj": {
+"word": "sanguineus",
+"classical": [
+"[saŋˈɡʷɪ.ne.ʊs]"
+],
+"eccl": [
+"[saŋˈɡʷiː.ne.us]"
+]
+},
+"sanguis_n": {
+"word": "sanguī̆s",
+"classical": [
+"[ˈsaŋ.ɡʷiːs]",
+"[ˈsaŋ.ɡʷɪs]"
+],
+"eccl": [
+"[ˈsaŋ.ɡʷis]"
+]
+},
+"sanus_adj": {
+"word": "sānus",
+"classical": [
+"[ˈsaː.nʊs]"
+],
+"eccl": [
+"[ˈsaː.nus]"
+]
+},
+"saturnus_n": {
+"word": "Sāturnus",
+"classical": [
+"[saːˈtʊr.nʊs]"
+],
+"eccl": [
+"[saˈtur.nus]"
+]
+},
+"satyrus_n": {
+"word": "satyrus",
+"classical": [
+"[ˈsa.ty.rʊs]"
+],
+"eccl": [
+"[ˈsaː.ti.rus]"
+]
+},
+"saucio_v": {
+"word": "sauciō",
+"classical": [
+"[ˈsau̯.ki.oː]"
+],
+"eccl": [
+"[ˈsaːu̯.t͡ʃi.o]"
+]
+},
+"saxum_n": {
+"word": "saxum",
+"classical": [
+"[ˈsak.sũː]"
+],
+"eccl": [
+"[ˈsak.sum]"
+]
+},
+"scelero_v": {
+"word": "scelerō",
+"classical": [
+"[ˈskɛ.ɫɛ.roː]"
+],
+"eccl": [
+"[ˈʃɛː.le.ro]"
+]
+},
+"sceptrum_n": {
+"word": "scēptrum",
+"classical": [
+"[ˈskeːp.trũː]"
+],
+"eccl": [
+"[ˈʃɛp.trum]"
+]
+},
+"scio_v": {
+"word": "sciō",
+"classical": [
+"[ˈski.oː]",
+"[ˈski.ɔ]"
+],
+"eccl": [
+"[ˈʃiː.o]"
+]
+},
+"scitor_v": {
+"word": "scītor",
+"classical": [
+"[ˈskiː.tɔr]"
+],
+"eccl": [
+"[ˈʃiː.tor]"
+]
+},
+"sculpo_v": {
+"word": "sculpō",
+"classical": [
+"[ˈskʊɫ.poː]"
+],
+"eccl": [
+"[ˈskul.po]"
+]
+},
+"scythia_n": {
+"word": "Scythia",
+"classical": [
+"[ˈsky.tʰi.a]"
+],
+"eccl": [
+"[ˈʃiː.ti.a]"
+]
+},
+"secerno_v": {
+"word": "sēcernō",
+"classical": [
+"[seːˈkɛr.noː]"
+],
+"eccl": [
+"[seˈt͡ʃɛr.no]"
+]
+},
+"seco_v": {
+"word": "secō",
+"classical": [
+"[ˈsɛ.koː]"
+],
+"eccl": [
+"[ˈsɛː.ko]"
+]
+},
+"secunda_n": {
+"word": "Secunda",
+"classical": [
+"[sɛˈkʊn.da]"
+],
+"eccl": [
+"[seˈkun.da]"
+]
+},
+"secundus_adj": {
+"word": "secundus",
+"classical": [
+"[sɛˈkʊn.dʊs]"
+],
+"eccl": [
+"[seˈkun.dus]"
+]
+},
+"securus_adj": {
+"word": "sēcūrus",
+"classical": [
+"[seːˈkuː.rʊs]"
+],
+"eccl": [
+"[seˈkuː.rus]"
+]
+},
+"sed_conj": {
+"word": "sed",
+"classical": [
+"[ˈsɛd]"
+],
+"eccl": [
+"[ˈsɛd]"
+]
+},
+"sedeo_v": {
+"word": "sedeō",
+"classical": [
+"[ˈsɛ.de.oː]"
+],
+"eccl": [
+"[ˈsɛː.de.o]"
+]
+},
+"seduco_v": {
+"word": "sēdūcō",
+"classical": [
+"[seːˈduː.koː]"
+],
+"eccl": [
+"[seˈduː.ko]"
+]
+},
+"sedulus_adj": {
+"word": "sēdulus",
+"classical": [
+"[ˈseː.dʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈsɛː.du.lus]"
+]
+},
+"seges_n": {
+"word": "seges",
+"classical": [
+"[ˈsɛ.ɡɛs]"
+],
+"eccl": [
+"[ˈsɛː.d͡ʒes]"
+]
+},
+"semel_num": {
+"word": "semel",
+"classical": [
+"[ˈsɛ.mɛɫ]"
+],
+"eccl": [
+"[ˈsɛː.mel]"
+]
+},
+"semen_n": {
+"word": "sēmen",
+"classical": [
+"[ˈseː.mɛn]"
+],
+"eccl": [
+"[ˈsɛː.men]"
+]
+},
+"semideus_n": {
+"word": "sēmideus",
+"classical": [
+"[seːˈmɪ.de.ʊs]"
+],
+"eccl": [
+"[seˈmiː.de.us]"
+]
+},
+"seminex_adj": {
+"word": "sēminex",
+"classical": [
+"[ˈseː.mɪ.nɛks]"
+],
+"eccl": [
+"[ˈsɛː.mi.neks]"
+]
+},
+"semper_adv": {
+"word": "semper",
+"classical": [
+"[ˈsɛm.pɛr]"
+],
+"eccl": [
+"[ˈsɛm.per]"
+]
+},
+"senex_n": {
+"word": "senex",
+"classical": [
+"[ˈsɛ.nɛks]"
+],
+"eccl": [
+"[ˈsɛː.neks]"
+]
+},
+"sententia_n": {
+"word": "sententia",
+"classical": [
+"[sɛnˈtɛn.ti.a]"
+],
+"eccl": [
+"[senˈtɛn.t͡si.a]"
+]
+},
+"sentio_v": {
+"word": "sentiō",
+"classical": [
+"[ˈsɛn.ti.oː]"
+],
+"eccl": [
+"[ˈsɛn.t͡si.o]"
+]
+},
+"sentis_n": {
+"word": "sentis",
+"classical": [
+"[ˈsɛn.tɪs]"
+],
+"eccl": [
+"[ˈsɛn.tis]"
+]
+},
+"separo_v": {
+"word": "sēparō",
+"classical": [
+"[ˈseː.pa.roː]"
+],
+"eccl": [
+"[ˈsɛː.pa.ro]"
+]
+},
+"septem_num": {
+"word": "septem",
+"classical": [
+"[ˈsɛp.tẽː]"
+],
+"eccl": [
+"[ˈsɛp.tem]"
+]
+},
+"septemfluus_adj": {
+"word": "septemfluus",
+"classical": [
+"[sɛpˈtẽː.fɫu.ʊs]"
+],
+"eccl": [
+"[sepˈtɛm.flu.us]"
+]
+},
+"sequor_v": {
+"word": "sequor",
+"classical": [
+"[ˈsɛ.kʷɔr]"
+],
+"eccl": [
+"[ˈsɛː.kʷor]"
+]
+},
+"sereno_v": {
+"word": "serēnō",
+"classical": [
+"[sɛˈreː.noː]"
+],
+"eccl": [
+"[seˈrɛː.no]"
+]
+},
+"sermo_n": {
+"word": "sermō",
+"classical": [
+"[ˈsɛr.moː]"
+],
+"eccl": [
+"[ˈsɛr.mo]"
+]
+},
+"serpens_n": {
+"word": "serpēns",
+"classical": [
+"[ˈsɛr.pẽːs]"
+],
+"eccl": [
+"[ˈsɛr.pens]"
+]
+},
+"serus_adj": {
+"word": "sērus",
+"classical": [
+"[ˈseː.rʊs]"
+],
+"eccl": [
+"[ˈsɛː.rus]"
+]
+},
+"servio_v": {
+"word": "serviō",
+"classical": [
+"[ˈsɛr.wi.oː]"
+],
+"eccl": [
+"[ˈsɛr.vi.o]"
+]
+},
+"servo_v": {
+"word": "servō",
+"classical": [
+"[ˈsɛr.woː]"
+],
+"eccl": [
+"[ˈsɛr.vo]"
+]
+},
+"si_conj": {
+"word": "sī",
+"classical": [
+"[ˈsiː]"
+],
+"eccl": [
+"[ˈsiː]"
+]
+},
+"sic_adv": {
+"word": "sīc",
+"classical": [
+"[ˈsiːk]"
+],
+"eccl": [
+"[ˈsik]"
+]
+},
+"sica_n": {
+"word": "sīca",
+"classical": [
+"[ˈsiː.ka]"
+],
+"eccl": [
+"[ˈsiː.ka]"
+]
+},
+"siccus_adj": {
+"word": "siccus",
+"classical": [
+"[ˈsɪk.kʊs]"
+],
+"eccl": [
+"[ˈsik.kus]"
+]
+},
+"sidereus_adj": {
+"word": "sīdereus",
+"classical": [
+"[siːˈdɛ.re.ʊs]"
+],
+"eccl": [
+"[siˈdɛː.re.us]"
+]
+},
+"sido_v": {
+"word": "sīdō",
+"classical": [
+"[ˈsiː.doː]"
+],
+"eccl": [
+"[ˈsiː.do]"
+]
+},
+"sidus_n": {
+"word": "sīdus",
+"classical": [
+"[ˈsiː.dʊs]"
+],
+"eccl": [
+"[ˈsiː.dus]"
+]
+},
+"signo_v": {
+"word": "signō",
+"classical": [
+"[ˈsɪŋ.noː]"
+],
+"eccl": [
+"[ˈsiɲ.ɲo]"
+]
+},
+"signum_n": {
+"word": "signum",
+"classical": [
+"[ˈsɪŋ.nũː]"
+],
+"eccl": [
+"[ˈsiɲ.ɲum]"
+]
+},
+"silentium_n": {
+"word": "silentium",
+"classical": [
+"[sɪˈɫɛn.ti.ũː]"
+],
+"eccl": [
+"[siˈlɛn.t͡si.um]"
+]
+},
+"silva_n": {
+"word": "silva",
+"classical": [
+"[ˈsɪɫ.wa]",
+"[ˈsɪɫ.waː]"
+],
+"eccl": [
+"[ˈsil.va]",
+"[ˈsil.va]"
+]
+},
+"silvanus_n": {
+"word": "Silvānus",
+"classical": [
+"[sɪɫˈwaː.nʊs]"
+],
+"eccl": [
+"[silˈvaː.nus]"
+]
+},
+"simila_n": {
+"word": "simila",
+"classical": [
+"[ˈsɪ.mɪ.ɫa]"
+],
+"eccl": [
+"[ˈsiː.mi.la]"
+]
+},
+"similis_adj": {
+"word": "similis",
+"classical": [
+"[ˈsɪ.mɪ.lɪs]"
+],
+"eccl": [
+"[ˈsiː.mi.lis]"
+]
+},
+"simplex_adj": {
+"word": "simplex",
+"classical": [
+"[ˈsɪm.pɫɛks]"
+],
+"eccl": [
+"[ˈsim.pleks]"
+]
+},
+"simul_adv": {
+"word": "simul",
+"classical": [
+"[ˈsɪ.mʊɫ]"
+],
+"eccl": [
+"[ˈsiː.mul]"
+]
+},
+"sincerus_adj": {
+"word": "sincērus",
+"classical": [
+"[sɪŋˈkeː.rʊs]"
+],
+"eccl": [
+"[sin̠ʲˈt͡ʃɛː.rus]"
+]
+},
+"sine_prep": {
+"word": "sine",
+"classical": [
+"[ˈsɪ.nɛ]"
+],
+"eccl": [
+"[ˈsiː.ne]"
+]
+},
+"sinister_adj": {
+"word": "sinister",
+"classical": [
+"[sɪˈnɪs.tɛr]"
+],
+"eccl": [
+"[siˈnis.ter]"
+]
+},
+"sino_v": {
+"word": "sinō",
+"classical": [
+"[ˈsɪ.noː]"
+],
+"eccl": [
+"[ˈsiː.no]"
+]
+},
+"sinus_n": {
+"word": "sīnus",
+"classical": [
+"[ˈsiː.nʊs]"
+],
+"eccl": [
+"[ˈsiː.nus]"
+]
+},
+"siquis_pron": {
+"word": "sīquis",
+"classical": [
+"[ˈsiː.kʷɪs]"
+],
+"eccl": [
+"[ˈsiː.kʷis]"
+]
+},
+"sisto_v": {
+"word": "sistō",
+"classical": [
+"[ˈsɪs.toː]"
+],
+"eccl": [
+"[ˈsis.to]"
+]
+},
+"sive_conj": {
+"word": "sīve",
+"classical": [
+"[ˈsiː.wɛ]"
+],
+"eccl": [
+"[ˈsiː.ve]"
+]
+},
+"socer_n": {
+"word": "socer",
+"classical": [
+"[ˈsɔ.kɛr]"
+],
+"eccl": [
+"[ˈsɔː.t͡ʃer]"
+]
+},
+"socius_adj": {
+"word": "socius",
+"classical": [
+"[ˈsɔ.ki.ʊs]"
+],
+"eccl": [
+"[ˈsɔː.t͡ʃi.us]"
+]
+},
+"sol_n": {
+"word": "sōl",
+"classical": [
+"[ˈsoːɫ]"
+],
+"eccl": [
+"[ˈsɔl]"
+]
+},
+"soleo_v": {
+"word": "soleō",
+"classical": [
+"[ˈsɔ.ɫe.oː]"
+],
+"eccl": [
+"[ˈsɔː.le.o]"
+]
+},
+"solidum_n": {
+"word": "solidum",
+"classical": [
+"[ˈsɔ.lɪ.dũː]"
+],
+"eccl": [
+"[ˈsɔː.li.dum]"
+]
+},
+"sollers_adj": {
+"word": "sollers",
+"classical": [
+"[ˈsɔl.lɛrs]"
+],
+"eccl": [
+"[ˈsɔl.lers]"
+]
+},
+"solum_n": {
+"word": "solum",
+"classical": [
+"[ˈsɔ.ɫũː]"
+],
+"eccl": [
+"[ˈsɔː.lum]"
+]
+},
+"solus_adj": {
+"word": "sōlus",
+"classical": [
+"[ˈsoː.ɫʊs]"
+],
+"eccl": [
+"[ˈsɔː.lus]"
+]
+},
+"solvo_v": {
+"word": "solvō",
+"classical": [
+"[ˈsɔɫ.woː]"
+],
+"eccl": [
+"[ˈsɔl.vo]"
+]
+},
+"somnifer_adj": {
+"word": "somnifer",
+"classical": [
+"[ˈsɔm.nɪ.fɛr]"
+],
+"eccl": [
+"[ˈsɔm.ni.fer]"
+]
+},
+"somnium_n": {
+"word": "somnium",
+"classical": [
+"[ˈsɔm.ni.ũː]"
+],
+"eccl": [
+"[ˈsɔm.ni.um]"
+]
+},
+"somnus_n": {
+"word": "somnus",
+"classical": [
+"[ˈsɔm.nʊs]"
+],
+"eccl": [
+"[ˈsɔm.nus]"
+]
+},
+"sonitus_n": {
+"word": "sonitus",
+"classical": [
+"[ˈsɔ.nɪ.tʊs]",
+"[ˈsɔ.nɪ.tuːs]"
+],
+"eccl": [
+"[ˈsɔː.ni.tus]"
+]
+},
+"sono_v": {
+"word": "sonō",
+"classical": [
+"[ˈsɔ.noː]"
+],
+"eccl": [
+"[ˈsɔː.no]"
+]
+},
+"sonorus_adj": {
+"word": "sonōrus",
+"classical": [
+"[sɔˈnoː.rʊs]"
+],
+"eccl": [
+"[soˈnɔː.rus]"
+]
+},
+"sonus_n": {
+"word": "sonus",
+"classical": [
+"[ˈsɔ.nʊs]"
+],
+"eccl": [
+"[ˈsɔː.nus]"
+]
+},
+"sopor_n": {
+"word": "sopor",
+"classical": [
+"[ˈsɔ.pɔr]"
+],
+"eccl": [
+"[ˈsɔː.por]"
+]
+},
+"sorbeo_v": {
+"word": "sorbeō",
+"classical": [
+"[ˈsɔr.be.oː]"
+],
+"eccl": [
+"[ˈsɔr.be.o]"
+]
+},
+"soror_n": {
+"word": "soror",
+"classical": [
+"[ˈsɔ.rɔr]"
+],
+"eccl": [
+"[ˈsɔː.ror]"
+]
+},
+"sors_n": {
+"word": "sors",
+"classical": [
+"[ˈsɔrs]"
+],
+"eccl": [
+"[ˈsɔrs]"
+]
+},
+"spargo_v": {
+"word": "spargō",
+"classical": [
+"[ˈspar.ɡoː]"
+],
+"eccl": [
+"[ˈspar.ɡo]"
+]
+},
+"spatium_n": {
+"word": "spatium",
+"classical": [
+"[ˈspa.ti.ũː]"
+],
+"eccl": [
+"[ˈspat.t͡si.um]"
+]
+},
+"species_n": {
+"word": "speciēs",
+"classical": [
+"[ˈspɛ.ki.eːs]"
+],
+"eccl": [
+"[ˈspɛː.t͡ʃi.es]"
+]
+},
+"specto_v": {
+"word": "spectō",
+"classical": [
+"[ˈspɛk.toː]"
+],
+"eccl": [
+"[ˈspɛk.to]"
+]
+},
+"speculor_v": {
+"word": "speculor",
+"classical": [
+"[ˈspɛ.kʊ.ɫɔr]"
+],
+"eccl": [
+"[ˈspɛː.ku.lor]"
+]
+},
+"sperno_v": {
+"word": "spernō",
+"classical": [
+"[ˈspɛr.noː]"
+],
+"eccl": [
+"[ˈspɛr.no]"
+]
+},
+"spero_v": {
+"word": "spērō",
+"classical": [
+"[ˈspeː.roː]"
+],
+"eccl": [
+"[ˈspɛː.ro]"
+]
+},
+"spes_n": {
+"word": "spēs",
+"classical": [
+"[ˈspeːs]"
+],
+"eccl": [
+"[ˈspɛs]"
+]
+},
+"spisso_v": {
+"word": "spissō",
+"classical": [
+"[ˈspɪs.soː]"
+],
+"eccl": [
+"[ˈspis.so]"
+]
+},
+"sponte_n": {
+"word": "sponte",
+"classical": [
+"[ˈspɔn.tɛ]"
+],
+"eccl": [
+"[ˈspɔn.te]"
+]
+},
+"spumosus_adj": {
+"word": "spūmōsus",
+"classical": [
+"[spuːˈmoː.sʊs]"
+],
+"eccl": [
+"[spuˈmɔː.s̬us]"
+]
+},
+"stagno_v": {
+"word": "stāgnō",
+"classical": [
+"[ˈstaːŋ.noː]"
+],
+"eccl": [
+"[ˈstaɲ.ɲo]"
+]
+},
+"statio_n": {
+"word": "statiō",
+"classical": [
+"[ˈsta.ti.oː]"
+],
+"eccl": [
+"[ˈstat.t͡si.o]"
+]
+},
+"stellatus_adj": {
+"word": "stēllātus",
+"classical": [
+"[steːlˈlaː.tʊs]"
+],
+"eccl": [
+"[stelˈlaː.tus]"
+]
+},
+"stello_v": {
+"word": "stēllō",
+"classical": [
+"[ˈsteːl.loː]"
+],
+"eccl": [
+"[ˈstɛl.lo]"
+]
+},
+"sterilis_adj": {
+"word": "sterilis",
+"classical": [
+"[ˈstɛ.rɪ.lɪs]"
+],
+"eccl": [
+"[ˈstɛː.ri.lis]"
+]
+},
+"sterno_v": {
+"word": "sternō",
+"classical": [
+"[ˈstɛr.noː]"
+],
+"eccl": [
+"[ˈstɛr.no]"
+]
+},
+"stillo_v": {
+"word": "stīllō",
+"classical": [
+"[ˈstiːl.loː]"
+],
+"eccl": [
+"[ˈstil.lo]"
+]
+},
+"stimulus_n": {
+"word": "stimulus",
+"classical": [
+"[ˈstɪ.mʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈstiː.mu.lus]"
+]
+},
+"stipes_n": {
+"word": "stīpes",
+"classical": [
+"[ˈstiː.pɛs]"
+],
+"eccl": [
+"[ˈstiː.pes]"
+]
+},
+"stipula_n": {
+"word": "stipula",
+"classical": [
+"[ˈstɪ.pʊ.ɫa]"
+],
+"eccl": [
+"[ˈstiː.pu.la]"
+]
+},
+"stirps_n": {
+"word": "stirps",
+"classical": [
+"[ˈstɪrps]"
+],
+"eccl": [
+"[ˈstirps]"
+]
+},
+"sto_v": {
+"word": "stō",
+"classical": [
+"[ˈstoː]"
+],
+"eccl": [
+"[ˈstɔː]"
+]
+},
+"stridulus_adj": {
+"word": "strīdulus",
+"classical": [
+"[ˈstriː.dʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈstriː.du.lus]"
+]
+},
+"stringo_v": {
+"word": "stringō",
+"classical": [
+"[ˈstrɪŋ.ɡoː]"
+],
+"eccl": [
+"[ˈstriŋ.ɡo]"
+]
+},
+"struo_v": {
+"word": "struō",
+"classical": [
+"[ˈstru.oː]"
+],
+"eccl": [
+"[ˈstruː.o]"
+]
+},
+"studium_n": {
+"word": "studium",
+"classical": [
+"[ˈstʊ.di.ũː]"
+],
+"eccl": [
+"[ˈstuː.di.um]"
+]
+},
+"stygius_adj": {
+"word": "Stygius",
+"classical": [
+"[ˈsty.ɡi.ʊs]"
+],
+"eccl": [
+"[ˈstiː.d͡ʒi.us]"
+]
+},
+"suadeo_v": {
+"word": "suādeō",
+"classical": [
+"[ˈsʷaː.de.oː]",
+"[suˈaː.de.oː]"
+],
+"eccl": [
+"[ˈsʷaː.de.o]",
+"[suˈaː.de.o]"
+]
+},
+"suavis_adj": {
+"word": "suāvis",
+"classical": [
+"[ˈsʷaː.wɪs]",
+"[suˈaː.wɪs]"
+],
+"eccl": [
+"[ˈsʷaː.vis]",
+"[suˈaː.vis]"
+]
+},
+"sub-moveo_v": {
+"word": "submoveō",
+"classical": [
+"[sʊmˈmɔ.we.oː]"
+],
+"eccl": [
+"[subˈmɔː.ve.o]"
+]
+},
+"sub_prep": {
+"word": "sub",
+"classical": [
+"[ˈsʊb]"
+],
+"eccl": [
+"[ˈsub]"
+]
+},
+"subeo_v": {
+"word": "subeō",
+"classical": [
+"[ˈsʊ.be.oː]"
+],
+"eccl": [
+"[ˈsuː.be.o]"
+]
+},
+"subicio_v": {
+"word": "subiciō",
+"classical": [
+"[sʊbˈjɪ.ki.oː]",
+"[sʊˈbɪ.ki.oː]"
+],
+"eccl": [
+"[subˈjiː.t͡ʃi.o]",
+"[suˈbiː.t͡ʃi.o]"
+]
+},
+"sublimis_adj": {
+"word": "sublīmis",
+"classical": [
+"[sʊbˈliː.mɪs]"
+],
+"eccl": [
+"[subˈliː.mis]"
+]
+},
+"subsido_v": {
+"word": "subsīdō",
+"classical": [
+"[sʊpˈsiː.doː]"
+],
+"eccl": [
+"[subˈsiː.do]"
+]
+},
+"substituo_v": {
+"word": "substituō",
+"classical": [
+"[sʊpˈstɪ.tu.oː]"
+],
+"eccl": [
+"[subˈstiː.tu.o]"
+]
+},
+"succedo_v": {
+"word": "succēdō",
+"classical": [
+"[sʊkˈkeː.doː]"
+],
+"eccl": [
+"[sutˈt͡ʃɛː.do]"
+]
+},
+"succumbo_v": {
+"word": "succumbō",
+"classical": [
+"[sʊkˈkʊm.boː]"
+],
+"eccl": [
+"[sukˈkum.bo]"
+]
+},
+"sucus_n": {
+"word": "sūcus",
+"classical": [
+"[ˈsuː.kʊs]"
+],
+"eccl": [
+"[ˈsuː.kus]"
+]
+},
+"suffundo_v": {
+"word": "suffundō",
+"classical": [
+"[sʊfˈfʊn.doː]"
+],
+"eccl": [
+"[sufˈfun.do]"
+]
+},
+"sui_pron": {
+"word": "suī",
+"classical": [
+"[ˈsu.iː]"
+],
+"eccl": [
+"[ˈsuː.i]"
+]
+},
+"sulcus_n": {
+"word": "sulcus",
+"classical": [
+"[ˈsʊɫ.kʊs]"
+],
+"eccl": [
+"[ˈsul.kus]"
+]
+},
+"sum_v": {
+"word": "sum",
+"classical": [
+"[ˈsũː]"
+],
+"eccl": [
+"[ˈsum]"
+]
+},
+"summa_n": {
+"word": "summa",
+"classical": [
+"[ˈsʊm.ma]",
+"[ˈsʊm.maː]"
+],
+"eccl": [
+"[ˈsum.ma]",
+"[ˈsum.ma]"
+]
+},
+"summum_n": {
+"word": "summum",
+"classical": [
+"[ˈsʊm.mũː]"
+],
+"eccl": [
+"[ˈsum.mum]"
+]
+},
+"sumo_v": {
+"word": "sūmō",
+"classical": [
+"[ˈsuː.moː]"
+],
+"eccl": [
+"[ˈsuː.mo]"
+]
+},
+"suo_v": {
+"word": "suō",
+"classical": [
+"[ˈsu.oː]"
+],
+"eccl": [
+"[ˈsuː.o]"
+]
+},
+"super_prep": {
+"word": "super",
+"classical": [
+"[ˈsʊ.pɛr]"
+],
+"eccl": [
+"[ˈsuː.per]"
+]
+},
+"superbus_adj": {
+"word": "superbus",
+"classical": [
+"[sʊˈpɛr.bʊs]"
+],
+"eccl": [
+"[suˈpɛr.bus]"
+]
+},
+"supero_v": {
+"word": "superō",
+"classical": [
+"[ˈsʊ.pɛ.roː]"
+],
+"eccl": [
+"[ˈsuː.pe.ro]"
+]
+},
+"supersto_v": {
+"word": "superstō",
+"classical": [
+"[sʊˈpɛr.stoː]"
+],
+"eccl": [
+"[suˈpɛr.sto]"
+]
+},
+"supersum_v": {
+"word": "supersum",
+"classical": [
+"[sʊˈpɛr.sũː]"
+],
+"eccl": [
+"[suˈpɛr.sum]"
+]
+},
+"superus_adj": {
+"word": "superus",
+"classical": [
+"[ˈsʊ.pɛ.rʊs]"
+],
+"eccl": [
+"[ˈsuː.pe.rus]"
+]
+},
+"supplex_n": {
+"word": "supplex",
+"classical": [
+"[ˈsʊp.pɫɛks]"
+],
+"eccl": [
+"[ˈsup.pleks]"
+]
+},
+"supprimo_v": {
+"word": "supprimō",
+"classical": [
+"[ˈsʊp.prɪ.moː]"
+],
+"eccl": [
+"[ˈsup.pri.mo]"
+]
+},
+"supra_adv": {
+"word": "suprā",
+"classical": [
+"[ˈsʊ.praː]"
+],
+"eccl": [
+"[ˈsuː.pra]"
+]
+},
+"surgo_v": {
+"word": "surgō",
+"classical": [
+"[ˈsʊr.ɡoː]"
+],
+"eccl": [
+"[ˈsur.ɡo]"
+]
+},
+"suspectus_n": {
+"word": "suspectus",
+"classical": [
+"[sʊsˈpɛk.tʊs]",
+"[sʊsˈpɛk.tuːs]"
+],
+"eccl": [
+"[susˈpɛk.tus]"
+]
+},
+"suspendo_v": {
+"word": "suspendō",
+"classical": [
+"[sʊsˈpɛn.doː]"
+],
+"eccl": [
+"[susˈpɛn.do]"
+]
+},
+"suspirium_n": {
+"word": "suspīrium",
+"classical": [
+"[sʊsˈpiː.ri.ũː]"
+],
+"eccl": [
+"[susˈpiː.ri.um]"
+]
+},
+"suspiro_v": {
+"word": "suspīrō",
+"classical": [
+"[sʊsˈpiː.roː]"
+],
+"eccl": [
+"[susˈpiː.ro]"
+]
+},
+"sustineo_v": {
+"word": "sustineō",
+"classical": [
+"[sʊsˈtɪ.ne.oː]"
+],
+"eccl": [
+"[susˈtiː.ne.o]"
+]
+},
+"susurrus_n": {
+"word": "susurrus",
+"classical": [
+"[sʊˈsʊr.rʊs]"
+],
+"eccl": [
+"[suˈs̬ur.rus]"
+]
+},
+"suus_pron": {
+"word": "suus",
+"classical": [
+"[ˈsu.ʊs]"
+],
+"eccl": [
+"[ˈsuː.us]"
+]
+},
+"syrinx_n": {
+"word": "sȳrinx",
+"classical": [
+"[ˈsyː.rɪŋks]"
+],
+"eccl": [
+"[ˈsiː.riŋks]"
+]
+},
+"taceo_v": {
+"word": "taceō",
+"classical": [
+"[ˈta.ke.oː]"
+],
+"eccl": [
+"[ˈtaː.t͡ʃe.o]"
+]
+},
+"taeda_n": {
+"word": "taeda",
+"classical": [
+"[ˈtae̯.da]"
+],
+"eccl": [
+"[ˈtɛː.da]"
+]
+},
+"talis_pron": {
+"word": "tālis",
+"classical": [
+"[ˈtaː.lɪs]"
+],
+"eccl": [
+"[ˈtaː.lis]"
+]
+},
+"tam_adv": {
+"word": "tam",
+"classical": [
+"[ˈtãː]"
+],
+"eccl": [
+"[ˈtam]"
+]
+},
+"tamen_adv": {
+"word": "tamen",
+"classical": [
+"[ˈta.mɛn]"
+],
+"eccl": [
+"[ˈtaː.men]"
+]
+},
+"tandem_adv": {
+"word": "tandem",
+"classical": [
+"[ˈtan.dẽː]"
+],
+"eccl": [
+"[ˈtan.dem]"
+]
+},
+"tango_v": {
+"word": "tangō",
+"classical": [
+"[ˈtaŋ.ɡoː]"
+],
+"eccl": [
+"[ˈtaŋ.ɡo]"
+]
+},
+"tantus_adj": {
+"word": "tantus",
+"classical": [
+"[ˈtan.tʊs]"
+],
+"eccl": [
+"[ˈtan.tus]"
+]
+},
+"tartara_n": {
+"word": "Tartara",
+"classical": [
+"[ˈtar.ta.ra]",
+"[ˈtar.ta.raː]"
+],
+"eccl": [
+"[ˈtar.ta.ra]",
+"[ˈtar.ta.ra]"
+]
+},
+"taurus_n": {
+"word": "taurus",
+"classical": [
+"[ˈtau̯.rʊs]"
+],
+"eccl": [
+"[ˈtaːu̯.rus]"
+]
+},
+"tectum_n": {
+"word": "tēctum",
+"classical": [
+"[ˈteːk.tũː]"
+],
+"eccl": [
+"[ˈtɛk.tum]"
+]
+},
+"tegimen_n": {
+"word": "tegimen",
+"classical": [
+"[ˈtɛ.ɡɪ.mɛn]"
+],
+"eccl": [
+"[ˈtɛː.d͡ʒi.men]"
+]
+},
+"tego_v": {
+"word": "tegō",
+"classical": [
+"[ˈtɛ.ɡoː]"
+],
+"eccl": [
+"[ˈtɛː.ɡo]"
+]
+},
+"tellus_n": {
+"word": "tellūs",
+"classical": [
+"[ˈtɛl.luːs]"
+],
+"eccl": [
+"[ˈtɛl.lus]"
+]
+},
+"telum_n": {
+"word": "tēlum",
+"classical": [
+"[ˈteː.ɫũː]"
+],
+"eccl": [
+"[ˈtɛː.lum]"
+]
+},
+"temerarius_adj": {
+"word": "temerārius",
+"classical": [
+"[tɛ.mɛˈraː.ri.ʊs]"
+],
+"eccl": [
+"[te.meˈraː.ri.us]"
+]
+},
+"temero_v": {
+"word": "temerō",
+"classical": [
+"[ˈtɛ.mɛ.roː]"
+],
+"eccl": [
+"[ˈtɛː.me.ro]"
+]
+},
+"tempe_n": {
+"word": "Tempē",
+"classical": [
+"[ˈtɛm.peː]"
+],
+"eccl": [
+"[ˈtɛm.pe]"
+]
+},
+"tempero_v": {
+"word": "temperō",
+"classical": [
+"[ˈtɛm.pɛ.roː]"
+],
+"eccl": [
+"[ˈtɛm.pe.ro]"
+]
+},
+"tempestas_n": {
+"word": "tempestās",
+"classical": [
+"[tɛmˈpɛs.taːs]"
+],
+"eccl": [
+"[temˈpɛs.tas]"
+]
+},
+"templum_n": {
+"word": "templum",
+"classical": [
+"[ˈtɛm.pɫũː]"
+],
+"eccl": [
+"[ˈtɛm.plum]"
+]
+},
+"tempus_n": {
+"word": "tempus",
+"classical": [
+"[ˈtɛm.pʊs]"
+],
+"eccl": [
+"[ˈtɛm.pus]"
+]
+},
+"tendo_v": {
+"word": "tendō",
+"classical": [
+"[ˈtɛn.doː]"
+],
+"eccl": [
+"[ˈtɛn.do]"
+]
+},
+"tenebra_n": {
+"word": "tenebra",
+"classical": [
+"[ˈtɛ.nɛ.bra]"
+],
+"eccl": [
+"[ˈtɛː.ne.bra]"
+]
+},
+"tenebrosus_adj": {
+"word": "tenebrōsus",
+"classical": [
+"[tɛ.nɛˈbroː.sʊs]"
+],
+"eccl": [
+"[te.neˈbrɔː.s̬us]"
+]
+},
+"tenedos_n": {
+"word": "Tenedos",
+"classical": [
+"[ˈtɛ.nɛ.dɔs]"
+],
+"eccl": [
+"[ˈtɛː.ne.dos]"
+]
+},
+"teneo_v": {
+"word": "teneō",
+"classical": [
+"[ˈtɛ.ne.oː]"
+],
+"eccl": [
+"[ˈtɛː.ne.o]"
+]
+},
+"tento_v": {
+"word": "tentō",
+"classical": [
+"[ˈtɛn.toː]"
+],
+"eccl": [
+"[ˈtɛn.to]"
+]
+},
+"tenuis_adj": {
+"word": "tenuis",
+"classical": [
+"[ˈtɛ.nu.ɪs]",
+"[ˈtɛn.wɪs]"
+],
+"eccl": [
+"[ˈtɛː.nu.is]"
+]
+},
+"tepeo_v": {
+"word": "tepeō",
+"classical": [
+"[ˈtɛ.pe.oː]"
+],
+"eccl": [
+"[ˈtɛː.pe.o]"
+]
+},
+"ter_adv": {
+"word": "ter",
+"classical": [
+"[ˈtɛr]"
+],
+"eccl": [
+"[ˈtɛr]"
+]
+},
+"tergeo_v": {
+"word": "tergeō",
+"classical": [
+"[ˈtɛr.ɡe.oː]"
+],
+"eccl": [
+"[ˈtɛr.d͡ʒe.o]"
+]
+},
+"tergum_n": {
+"word": "tergum",
+"classical": [
+"[ˈtɛr.ɡũː]"
+],
+"eccl": [
+"[ˈtɛr.ɡum]"
+]
+},
+"tero_v": {
+"word": "terō",
+"classical": [
+"[ˈtɛ.roː]"
+],
+"eccl": [
+"[ˈtɛː.ro]"
+]
+},
+"terra_n": {
+"word": "terra",
+"classical": [
+"[ˈtɛr.ra]"
+],
+"eccl": [
+"[ˈtɛr.ra]"
+]
+},
+"terrenus_adj": {
+"word": "terrēnus",
+"classical": [
+"[tɛrˈreː.nʊs]"
+],
+"eccl": [
+"[terˈrɛː.nus]"
+]
+},
+"terreo_v": {
+"word": "terreō",
+"classical": [
+"[ˈtɛr.re.oː]"
+],
+"eccl": [
+"[ˈtɛr.re.o]"
+]
+},
+"terribilis_adj": {
+"word": "terribilis",
+"classical": [
+"[tɛrˈrɪ.bɪ.lɪs]"
+],
+"eccl": [
+"[terˈriː.bi.lis]"
+]
+},
+"terrificus_adj": {
+"word": "terrificus",
+"classical": [
+"[tɛrˈrɪ.fɪ.kʊs]"
+],
+"eccl": [
+"[terˈriː.fi.kus]"
+]
+},
+"terror_n": {
+"word": "terror",
+"classical": [
+"[ˈtɛr.rɔr]"
+],
+"eccl": [
+"[ˈtɛr.ror]"
+]
+},
+"tertius_adj": {
+"word": "tertius",
+"classical": [
+"[ˈtɛr.ti.ʊs]"
+],
+"eccl": [
+"[ˈtɛr.t͡si.us]"
+]
+},
+"testis_n": {
+"word": "testis",
+"classical": [
+"[ˈtɛs.tɪs]"
+],
+"eccl": [
+"[ˈtɛs.tis]"
+]
+},
+"testor_v": {
+"word": "testor",
+"classical": [
+"[ˈtɛs.tɔr]"
+],
+"eccl": [
+"[ˈtɛs.tor]"
+]
+},
+"thalamus_n": {
+"word": "thalamus",
+"classical": [
+"[ˈtʰa.ɫa.mʊs]"
+],
+"eccl": [
+"[ˈtaː.la.mus]"
+]
+},
+"thymum_n": {
+"word": "thymum",
+"classical": [
+"[ˈtʰy.mũː]"
+],
+"eccl": [
+"[ˈtiː.mum]"
+]
+},
+"tigris_n": {
+"word": "Tigris",
+"classical": [
+"[ˈtɪ.ɡrɪs]"
+],
+"eccl": [
+"[ˈtiː.ɡris]"
+]
+},
+"timeo_v": {
+"word": "timeō",
+"classical": [
+"[ˈtɪ.me.oː]"
+],
+"eccl": [
+"[ˈtiː.me.o]"
+]
+},
+"timidus_adj": {
+"word": "timidus",
+"classical": [
+"[ˈtɪ.mɪ.dʊs]"
+],
+"eccl": [
+"[ˈtiː.mi.dus]"
+]
+},
+"timor_n": {
+"word": "timor",
+"classical": [
+"[ˈtɪ.mɔr]"
+],
+"eccl": [
+"[ˈtiː.mor]"
+]
+},
+"tollo_v": {
+"word": "tollō",
+"classical": [
+"[ˈtɔl.loː]"
+],
+"eccl": [
+"[ˈtɔl.lo]"
+]
+},
+"tonitrus_n": {
+"word": "tonitrus",
+"classical": [
+"[ˈtɔ.nɪ.trʊs]"
+],
+"eccl": [
+"[ˈtɔː.ni.trus]"
+]
+},
+"tono_v": {
+"word": "tonō",
+"classical": [
+"[ˈtɔ.noː]"
+],
+"eccl": [
+"[ˈtɔː.no]"
+]
+},
+"torpor_n": {
+"word": "torpor",
+"classical": [
+"[ˈtɔr.pɔr]"
+],
+"eccl": [
+"[ˈtɔr.por]"
+]
+},
+"torreo_v": {
+"word": "torreō",
+"classical": [
+"[ˈtɔr.re.oː]"
+],
+"eccl": [
+"[ˈtɔr.re.o]"
+]
+},
+"torus_n": {
+"word": "torus",
+"classical": [
+"[ˈtɔ.rʊs]"
+],
+"eccl": [
+"[ˈtɔː.rus]"
+]
+},
+"tot_adj": {
+"word": "tot",
+"classical": [
+"[ˈtɔt]"
+],
+"eccl": [
+"[ˈtɔt]"
+]
+},
+"totus_adj": {
+"word": "tōtus",
+"classical": [
+"[ˈtoː.tʊs]"
+],
+"eccl": [
+"[ˈtɔː.tus]"
+]
+},
+"trado_v": {
+"word": "trādō",
+"classical": [
+"[ˈtraː.doː]"
+],
+"eccl": [
+"[ˈtraː.do]"
+]
+},
+"traho_v": {
+"word": "trahō",
+"classical": [
+"[ˈtra.(ɦ)oː]"
+],
+"eccl": [
+"[ˈtraː.o]"
+]
+},
+"traicio_v": {
+"word": "trāiciō",
+"classical": [
+"[traːˈjɪ.ki.oː]"
+],
+"eccl": [
+"[traˈjiː.t͡ʃi.o]"
+]
+},
+"tranquillus_adj": {
+"word": "tranquillus",
+"classical": [
+"[traŋˈkʷɪl.lʊs]"
+],
+"eccl": [
+"[traŋˈkʷil.lus]"
+]
+},
+"transeo_v": {
+"word": "trānseō",
+"classical": [
+"[ˈtrãː.se.oː]"
+],
+"eccl": [
+"[ˈtran.se.o]"
+]
+},
+"tremulus_adj": {
+"word": "tremulus",
+"classical": [
+"[ˈtrɛ.mʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈtrɛː.mu.lus]"
+]
+},
+"trepido_v": {
+"word": "trepidō",
+"classical": [
+"[ˈtrɛ.pɪ.doː]"
+],
+"eccl": [
+"[ˈtrɛː.pi.do]"
+]
+},
+"tridens_n": {
+"word": "tridēns",
+"classical": [
+"[ˈtrɪ.dẽːs]"
+],
+"eccl": [
+"[ˈtriː.dens]"
+]
+},
+"trio_n": {
+"word": "triō",
+"classical": [
+"[ˈtri.oː]"
+],
+"eccl": [
+"[ˈtriː.o]"
+]
+},
+"tristis_adj": {
+"word": "trīstis",
+"classical": [
+"[ˈtriːs.tɪs]"
+],
+"eccl": [
+"[ˈtris.tis]"
+]
+},
+"triton_n": {
+"word": "Trītōn",
+"classical": [
+"[ˈtriː.toːn]"
+],
+"eccl": [
+"[ˈtriː.ton]"
+]
+},
+"triumphus_n": {
+"word": "triumphus",
+"classical": [
+"[triˈʊm.pʰʊs]"
+],
+"eccl": [
+"[triˈum.fus]"
+]
+},
+"trunco_v": {
+"word": "truncō",
+"classical": [
+"[ˈtrʊŋ.kɔ]"
+],
+"eccl": [
+"[ˈtruŋ.ko]"
+]
+},
+"truncus_adj": {
+"word": "truncus",
+"classical": [
+"[ˈtrʊŋ.kʊs]"
+],
+"eccl": [
+"[ˈtruŋ.kus]"
+]
+},
+"truncus_n": {
+"word": "truncus",
+"classical": [
+"[ˈtrʊŋ.kʊs]"
+],
+"eccl": [
+"[ˈtruŋ.kus]"
+]
+},
+"trux_adj": {
+"word": "trux",
+"classical": [
+"[ˈtrʊks]"
+],
+"eccl": [
+"[ˈtruks]"
+]
+},
+"tu_pron": {
+"word": "tū",
+"classical": [
+"[ˈtuː]"
+],
+"eccl": [
+"[ˈtuː]"
+]
+},
+"tuba_n": {
+"word": "tuba",
+"classical": [
+"[ˈtʊ.ba]"
+],
+"eccl": [
+"[ˈtuː.ba]"
+]
+},
+"tueor_v": {
+"word": "tueor",
+"classical": [
+"[ˈtu.e.ɔr]"
+],
+"eccl": [
+"[ˈtuː.e.or]"
+]
+},
+"tum_adv": {
+"word": "tum",
+"classical": [
+"[ˈtũː]"
+],
+"eccl": [
+"[ˈtum]"
+]
+},
+"tumesco_v": {
+"word": "tumēscō",
+"classical": [
+"[tʊˈmeːs.koː]"
+],
+"eccl": [
+"[tuˈmɛs.ko]"
+]
+},
+"tumidus_adj": {
+"word": "tumidus",
+"classical": [
+"[ˈtʊ.mɪ.dʊs]"
+],
+"eccl": [
+"[ˈtuː.mi.dus]"
+]
+},
+"tumulus_n": {
+"word": "tumulus",
+"classical": [
+"[ˈtʊ.mʊ.ɫʊs]"
+],
+"eccl": [
+"[ˈtuː.mu.lus]"
+]
+},
+"tunc_adv": {
+"word": "tunc",
+"classical": [
+"[ˈtʊŋk]"
+],
+"eccl": [
+"[ˈtuŋk]"
+]
+},
+"tunica_n": {
+"word": "tunica",
+"classical": [
+"[ˈtʊ.nɪ.ka]"
+],
+"eccl": [
+"[ˈtuː.ni.ka]"
+]
+},
+"tuor_v": {
+"word": "tuor",
+"classical": [
+"[ˈtu.ɔr]"
+],
+"eccl": [
+"[ˈtuː.or]"
+]
+},
+"turba_n": {
+"word": "turba",
+"classical": [
+"[ˈtʊr.ba]"
+],
+"eccl": [
+"[ˈtur.ba]"
+]
+},
+"turbo_v": {
+"word": "turbō",
+"classical": [
+"[ˈtʊr.boː]"
+],
+"eccl": [
+"[ˈtur.bo]"
+]
+},
+"turpis_adj": {
+"word": "turpis",
+"classical": [
+"[ˈtʊr.pɪs]"
+],
+"eccl": [
+"[ˈtur.pis]"
+]
+},
+"turris_n": {
+"word": "turris",
+"classical": [
+"[ˈtʊr.rɪs]"
+],
+"eccl": [
+"[ˈtur.ris]"
+]
+},
+"tus_n": {
+"word": "tūs",
+"classical": [
+"[ˈtuːs]"
+],
+"eccl": [
+"[ˈtus]"
+]
+},
+"tuus_pron": {
+"word": "tuus",
+"classical": [
+"[ˈtu.ʊs]"
+],
+"eccl": [
+"[ˈtuː.us]"
+]
+},
+"tyrannus_n": {
+"word": "tyrannus",
+"classical": [
+"[tyˈran.nʊs]"
+],
+"eccl": [
+"[tiˈran.nus]"
+]
+},
+"ubi_adv": {
+"word": "ubī̆",
+"classical": [
+"[ˈʊ.biː]",
+"[ˈʊ.bɪ]"
+],
+"eccl": [
+"[ˈuː.bi]"
+]
+},
+"ubique_adv": {
+"word": "ubīque",
+"classical": [
+"[ʊˈbiː.kʷɛ]"
+],
+"eccl": [
+"[uˈbiː.kʷe]"
+]
+},
+"udus_adj": {
+"word": "ūdus",
+"classical": [
+"[ˈuː.dʊs]"
+],
+"eccl": [
+"[ˈuː.dus]"
+]
+},
+"ullus_pron": {
+"word": "ūllus",
+"classical": [
+"[ˈuːl.lʊs]"
+],
+"eccl": [
+"[ˈul.lus]"
+]
+},
+"ulmus_n": {
+"word": "ulmus",
+"classical": [
+"[ˈʊɫ.mʊs]"
+],
+"eccl": [
+"[ˈul.mus]"
+]
+},
+"ultimus_adj": {
+"word": "ultimus",
+"classical": [
+"[ˈʊɫ.tɪ.mʊs]"
+],
+"eccl": [
+"[ˈul.ti.mus]"
+]
+},
+"ultra_adv": {
+"word": "ultrā",
+"classical": [
+"[ˈʊɫ.traː]"
+],
+"eccl": [
+"[ˈul.tra]"
+]
+},
+"umbra_n": {
+"word": "umbra",
+"classical": [
+"[ˈʊm.bra]"
+],
+"eccl": [
+"[ˈum.bra]"
+]
+},
+"umbrosus_adj": {
+"word": "umbrōsus",
+"classical": [
+"[ʊmˈbroː.sʊs]"
+],
+"eccl": [
+"[umˈbrɔː.s̬us]"
+]
+},
+"umeo_v": {
+"word": "ūmeō",
+"classical": [
+"[ˈuː.me.oː]"
+],
+"eccl": [
+"[ˈuː.me.o]"
+]
+},
+"umerus_n": {
+"word": "umerus",
+"classical": [
+"[ˈʊ.mɛ.rʊs]"
+],
+"eccl": [
+"[ˈuː.me.rus]"
+]
+},
+"umidus_adj": {
+"word": "ūmidus",
+"classical": [
+"[ˈuː.mɪ.dʊs]"
+],
+"eccl": [
+"[ˈuː.mi.dus]"
+]
+},
+"umor_n": {
+"word": "ūmor",
+"classical": [
+"[ˈuː.mɔr]"
+],
+"eccl": [
+"[ˈuː.mor]"
+]
+},
+"umquam_adv": {
+"word": "umquam",
+"classical": [
+"[ˈʊŋ.kʷãː]"
+],
+"eccl": [
+"[ˈum.kʷam]"
+]
+},
+"unda_n": {
+"word": "unda",
+"classical": [
+"[ˈʊn.da]"
+],
+"eccl": [
+"[ˈun.da]"
+]
+},
+"unde_adv": {
+"word": "unde",
+"classical": [
+"[ˈʊn.dɛ]"
+],
+"eccl": [
+"[ˈun.de]"
+]
+},
+"undique_adv": {
+"word": "undique",
+"classical": [
+"[ˈʊn.dɪ.kʷɛ]"
+],
+"eccl": [
+"[ˈun.di.kʷe]"
+]
+},
+"unguis_n": {
+"word": "unguis",
+"classical": [
+"[ˈʊŋ.ɡʷɪs]"
+],
+"eccl": [
+"[ˈuŋ.ɡʷis]"
+]
+},
+"ungula_n": {
+"word": "ungula",
+"classical": [
+"[ˈʊŋ.ɡʊ.ɫa]"
+],
+"eccl": [
+"[ˈuŋ.ɡu.la]"
+]
+},
+"unus_pron": {
+"word": "ūnus",
+"classical": [
+"[ˈuː.nʊs]"
+],
+"eccl": [
+"[ˈuː.nus]"
+]
+},
+"urbs_n": {
+"word": "urbs",
+"classical": [
+"[ˈʊrps]"
+],
+"eccl": [
+"[ˈurbs]"
+]
+},
+"uro_v": {
+"word": "ūrō",
+"classical": [
+"[ˈuː.roː]"
+],
+"eccl": [
+"[ˈuː.ro]"
+]
+},
+"usquam_adv": {
+"word": "usquam",
+"classical": [
+"[ˈʊs.kʷãː]"
+],
+"eccl": [
+"[ˈus.kʷam]"
+]
+},
+"usque_adv": {
+"word": "usque",
+"classical": [
+"[ˈʊs.kʷɛ]"
+],
+"eccl": [
+"[ˈus.kʷe]"
+]
+},
+"usus_n": {
+"word": "ūsus",
+"classical": [
+"[ˈuː.sʊs]"
+],
+"eccl": [
+"[ˈuː.s̬us]"
+]
+},
+"ut_conj": {
+"word": "ut",
+"classical": [
+"[ˈʊt]"
+],
+"eccl": [
+"[ˈut]"
+]
+},
+"uterque_pron": {
+"word": "uterque",
+"classical": [
+"[ʊˈtɛr.kʷɛ]"
+],
+"eccl": [
+"[uˈtɛr.kʷe]"
+]
+},
+"uti_conj": {
+"word": "uti",
+"classical": [
+"[ˈʊ.tiː]"
+],
+"eccl": [
+"[ˈuː.ti]"
+]
+},
+"utinam_adv": {
+"word": "utinam",
+"classical": [
+"[ˈʊ.tɪ.nãː]"
+],
+"eccl": [
+"[ˈuː.ti.nam]"
+]
+},
+"utor_v": {
+"word": "ūtor",
+"classical": [
+"[ˈuː.tɔr]"
+],
+"eccl": [
+"[ˈuː.tor]"
+]
+},
+"vacca_n": {
+"word": "vacca",
+"classical": [
+"[ˈwak.ka]"
+],
+"eccl": [
+"[ˈvak.ka]"
+]
+},
+"vacuo_v": {
+"word": "vacuō",
+"classical": [
+"[ˈwa.ku.oː]"
+],
+"eccl": [
+"[ˈvaː.ku.o]"
+]
+},
+"vado_v": {
+"word": "vadō",
+"classical": [
+"[ˈwa.doː]"
+],
+"eccl": [
+"[ˈvaː.do]"
+]
+},
+"vadum_n": {
+"word": "vadum",
+"classical": [
+"[ˈwa.dũː]"
+],
+"eccl": [
+"[ˈvaː.dum]"
+]
+},
+"vago_v": {
+"word": "vagō",
+"classical": [
+"[ˈwa.ɡoː]"
+],
+"eccl": [
+"[ˈvaː.ɡo]"
+]
+},
+"valles_n": {
+"word": "vallēs",
+"classical": [
+"[ˈwal.leːs]"
+],
+"eccl": [
+"[ˈval.les]"
+]
+},
+"valva_n": {
+"word": "valva",
+"classical": [
+"[ˈwaɫ.wa]"
+],
+"eccl": [
+"[ˈval.va]"
+]
+},
+"vanus_adj": {
+"word": "vānus",
+"classical": [
+"[ˈwaː.nʊs]"
+],
+"eccl": [
+"[ˈvaː.nus]"
+]
+},
+"vapor_n": {
+"word": "vapor",
+"classical": [
+"[ˈwa.pɔr]"
+],
+"eccl": [
+"[ˈvaː.por]"
+]
+},
+"varius_adj": {
+"word": "varius",
+"classical": [
+"[ˈwa.ri.ʊs]"
+],
+"eccl": [
+"[ˈvaː.ri.us]"
+]
+},
+"veho_v": {
+"word": "vehō",
+"classical": [
+"[ˈwe.(ɦ)oː]"
+],
+"eccl": [
+"[ˈvɛː.o]"
+]
+},
+"vel_conj": {
+"word": "vel",
+"classical": [
+"[ˈwɛɫ]"
+],
+"eccl": [
+"[ˈvɛl]"
+]
+},
+"vello_v": {
+"word": "vellō",
+"classical": [
+"[ˈwɛl.loː]"
+],
+"eccl": [
+"[ˈvɛl.lo]"
+]
+},
+"velo_v": {
+"word": "vēlō",
+"classical": [
+"[ˈweː.ɫoː]"
+],
+"eccl": [
+"[ˈvɛː.lo]"
+]
+},
+"velox_adj": {
+"word": "vēlōx",
+"classical": [
+"[ˈweː.ɫoːks]"
+],
+"eccl": [
+"[ˈvɛː.loks]"
+]
+},
+"velut_adv": {
+"word": "velut",
+"classical": [
+"[ˈwɛ.ɫʊt]"
+],
+"eccl": [
+"[ˈvɛː.lut]"
+]
+},
+"vena_n": {
+"word": "vēna",
+"classical": [
+"[ˈweː.na]"
+],
+"eccl": [
+"[ˈvɛː.na]"
+]
+},
+"veneno_v": {
+"word": "venēnō",
+"classical": [
+"[wɛˈneː.noː]"
+],
+"eccl": [
+"[veˈnɛː.no]"
+]
+},
+"venia_n": {
+"word": "venia",
+"classical": [
+"[ˈwɛ.ni.a]"
+],
+"eccl": [
+"[ˈvɛː.ni.a]"
+]
+},
+"venio_v": {
+"word": "veniō",
+"classical": [
+"[ˈwɛ.ni.oː]"
+],
+"eccl": [
+"[ˈvɛː.ni.o]"
+]
+},
+"venter_n": {
+"word": "venter",
+"classical": [
+"[ˈwɛn.tɛr]"
+],
+"eccl": [
+"[ˈvɛn.ter]"
+]
+},
+"ventus_n": {
+"word": "ventus",
+"classical": [
+"[ˈwɛn.tʊs]"
+],
+"eccl": [
+"[ˈvɛn.tus]"
+]
+},
+"ver_n": {
+"word": "vēr",
+"classical": [
+"[ˈweːr]"
+],
+"eccl": [
+"[ˈvɛr]"
+]
+},
+"verbum_n": {
+"word": "verbum",
+"classical": [
+"[ˈwɛr.bũː]"
+],
+"eccl": [
+"[ˈvɛr.bum]"
+]
+},
+"verecundus_adj": {
+"word": "verēcundus",
+"classical": [
+"[wɛ.reːˈkʊn.dʊs]"
+],
+"eccl": [
+"[ve.reˈkun.dus]"
+]
+},
+"vero_adv": {
+"word": "vērō",
+"classical": [
+"[ˈweː.roː]"
+],
+"eccl": [
+"[ˈvɛː.ro]"
+]
+},
+"verro_v": {
+"word": "verrō",
+"classical": [
+"[ˈwɛr.roː]"
+],
+"eccl": [
+"[ˈvɛr.ro]"
+]
+},
+"verso_v": {
+"word": "versō",
+"classical": [
+"[ˈwɛr.soː]"
+],
+"eccl": [
+"[ˈvɛr.so]"
+]
+},
+"vertex_n": {
+"word": "vertex",
+"classical": [
+"[ˈwɛr.tɛks]"
+],
+"eccl": [
+"[ˈvɛr.teks]"
+]
+},
+"verto_v": {
+"word": "vertō",
+"classical": [
+"[ˈwɛr.toː]"
+],
+"eccl": [
+"[ˈvɛr.to]"
+]
+},
+"vesper_n": {
+"word": "vesper",
+"classical": [
+"[ˈwɛs.pɛr]"
+],
+"eccl": [
+"[ˈvɛs.per]"
+]
+},
+"vester_adj": {
+"word": "vester",
+"classical": [
+"[ˈwɛs.tɛr]"
+],
+"eccl": [
+"[ˈvɛs.ter]"
+]
+},
+"vestigium_n": {
+"word": "vestīgium",
+"classical": [
+"[wɛsˈtiː.ɡi.ũː]"
+],
+"eccl": [
+"[vesˈtiː.d͡ʒi.um]"
+]
+},
+"vestis_n": {
+"word": "vestis",
+"classical": [
+"[ˈwɛs.tɪs]"
+],
+"eccl": [
+"[ˈvɛs.tis]"
+]
+},
+"veto_v": {
+"word": "vetō",
+"classical": [
+"[ˈwɛ.toː]",
+"[ˈwɛ.tɔ]"
+],
+"eccl": [
+"[ˈvɛː.to]"
+]
+},
+"vetus_adj": {
+"word": "vetus",
+"classical": [
+"[ˈwɛ.tʊs]"
+],
+"eccl": [
+"[ˈvɛː.tus]"
+]
+},
+"vetustas_n": {
+"word": "vetustās",
+"classical": [
+"[wɛˈtʊs.taːs]"
+],
+"eccl": [
+"[veˈtus.tas]"
+]
+},
+"via_n": {
+"word": "via",
+"classical": [
+"[ˈwi.a]"
+],
+"eccl": [
+"[ˈviː.a]"
+]
+},
+"viator_n": {
+"word": "viātor",
+"classical": [
+"[wiˈaː.tɔr]"
+],
+"eccl": [
+"[viˈaː.tor]"
+]
+},
+"vibro_v": {
+"word": "vibrō",
+"classical": [
+"[ˈwɪ.broː]"
+],
+"eccl": [
+"[ˈviː.bro]"
+]
+},
+"vicina_n": {
+"word": "vīcīna",
+"classical": [
+"[wiːˈkiː.na]"
+],
+"eccl": [
+"[viˈt͡ʃiː.na]"
+]
+},
+"vicis_n": {
+"word": "vicis",
+"classical": [
+"[ˈwɪ.kɪs]"
+],
+"eccl": [
+"[ˈviː.t͡ʃis]"
+]
+},
+"victus_n": {
+"word": "vīctus",
+"classical": [
+"[ˈwiːk.tʊs]"
+],
+"eccl": [
+"[ˈvik.tus]"
+]
+},
+"video_v": {
+"word": "videō",
+"classical": [
+"[ˈwɪ.de.oː]"
+],
+"eccl": [
+"[ˈviː.de.o]"
+]
+},
+"vigilo_v": {
+"word": "vigilō",
+"classical": [
+"[ˈwɪ.ɡɪ.ɫoː]"
+],
+"eccl": [
+"[ˈviː.d͡ʒi.lo]"
+]
+},
+"villa_n": {
+"word": "vīlla",
+"classical": [
+"[ˈwiːl.la]"
+],
+"eccl": [
+"[ˈvil.la]"
+]
+},
+"vincio_v": {
+"word": "vinciō",
+"classical": [
+"[ˈwɪŋ.ki.oː]"
+],
+"eccl": [
+"[ˈvin̠ʲ.t͡ʃi.o]"
+]
+},
+"vinco_v": {
+"word": "vincō",
+"classical": [
+"[ˈwɪŋ.koː]"
+],
+"eccl": [
+"[ˈviŋ.ko]"
+]
+},
+"vinculum_n": {
+"word": "vinculum",
+"classical": [
+"[ˈwɪŋ.kʊ.ɫũː]"
+],
+"eccl": [
+"[ˈviŋ.ku.lum]"
+]
+},
+"vindex_n": {
+"word": "vindex",
+"classical": [
+"[ˈwɪn.dɛks]"
+],
+"eccl": [
+"[ˈvin.deks]"
+]
+},
+"vindicta_n": {
+"word": "vindicta",
+"classical": [
+"[wɪnˈdɪk.ta]"
+],
+"eccl": [
+"[vinˈdik.ta]"
+]
+},
+"vinetum_n": {
+"word": "vīnētum",
+"classical": [
+"[wiːˈneː.tũː]"
+],
+"eccl": [
+"[viˈnɛː.tum]"
+]
+},
+"viola_n": {
+"word": "viola",
+"classical": [
+"[ˈwi.ɔ.ɫa]"
+],
+"eccl": [
+"[ˈviː.o.la]"
+]
+},
+"violens_adj": {
+"word": "violēns",
+"classical": [
+"[ˈwi.ɔ.ɫẽːs]"
+],
+"eccl": [
+"[ˈviː.o.lens]"
+]
+},
+"violentus_adj": {
+"word": "violentus",
+"classical": [
+"[wi.ɔˈɫɛn.tʊs]"
+],
+"eccl": [
+"[vi.oˈlɛn.tus]"
+]
+},
+"violo_v": {
+"word": "violō",
+"classical": [
+"[ˈwi.ɔ.ɫoː]"
+],
+"eccl": [
+"[ˈviː.o.lo]"
+]
+},
+"vir_n": {
+"word": "vir",
+"classical": [
+"[ˈwɪr]"
+],
+"eccl": [
+"[ˈvir]"
+]
+},
+"vireo_v": {
+"word": "vireō",
+"classical": [
+"[ˈwɪ.re.oː]"
+],
+"eccl": [
+"[ˈviː.re.o]"
+]
+},
+"virga_n": {
+"word": "virga",
+"classical": [
+"[ˈwɪr.ɡa]"
+],
+"eccl": [
+"[ˈvir.ɡa]"
+]
+},
+"virgineus_adj": {
+"word": "virgineus",
+"classical": [
+"[wɪrˈɡɪ.ne.ʊs]"
+],
+"eccl": [
+"[virˈd͡ʒiː.ne.us]"
+]
+},
+"virginitas_n": {
+"word": "virginitās",
+"classical": [
+"[wɪrˈɡɪ.nɪ.taːs]"
+],
+"eccl": [
+"[virˈd͡ʒiː.ni.tas]"
+]
+},
+"virgo_n": {
+"word": "virgō",
+"classical": [
+"[ˈwɪr.ɡoː]"
+],
+"eccl": [
+"[ˈvir.ɡo]"
+]
+},
+"viridis_adj": {
+"word": "viridis",
+"classical": [
+"[ˈwɪ.rɪ.dɪs]"
+],
+"eccl": [
+"[ˈviː.ri.dis]"
+]
+},
+"virtus_n": {
+"word": "virtūs",
+"classical": [
+"[ˈwɪr.tuːs]"
+],
+"eccl": [
+"[ˈvir.tus]"
+]
+},
+"vis_n": {
+"word": "vīs",
+"classical": [
+"[ˈwiːs]"
+],
+"eccl": [
+"[ˈvis]"
+]
+},
+"viscus_n": {
+"word": "vīscus",
+"classical": [
+"[ˈwiːs.kʊs]"
+],
+"eccl": [
+"[ˈvis.kus]"
+]
+},
+"viso_v": {
+"word": "vīsō",
+"classical": [
+"[ˈwiː.soː]"
+],
+"eccl": [
+"[ˈviː.s̬o]"
+]
+},
+"vita_n": {
+"word": "vīta",
+"classical": [
+"[ˈwiː.ta]"
+],
+"eccl": [
+"[ˈviː.ta]"
+]
+},
+"vitta_n": {
+"word": "vitta",
+"classical": [
+"[ˈwɪt.ta]"
+],
+"eccl": [
+"[ˈvit.ta]"
+]
+},
+"vivax_adj": {
+"word": "vīvāx",
+"classical": [
+"[ˈwiː.waːks]"
+],
+"eccl": [
+"[ˈviː.vaks]"
+]
+},
+"vivo_v": {
+"word": "vīvō",
+"classical": [
+"[ˈwiː.woː]"
+],
+"eccl": [
+"[ˈviː.vo]"
+]
+},
+"vix_adv": {
+"word": "vix",
+"classical": [
+"[ˈwɪks]"
+],
+"eccl": [
+"[ˈviks]"
+]
+},
+"voco_v": {
+"word": "vocō",
+"classical": [
+"[ˈwɔ.koː]"
+],
+"eccl": [
+"[ˈvɔː.ko]"
+]
+},
+"volucris_adj": {
+"word": "volucris",
+"classical": [
+"[ˈwɔ.ɫʊ.krɪs]"
+],
+"eccl": [
+"[ˈvɔː.lu.kris]"
+]
+},
+"volucris_n": {
+"word": "volucris",
+"classical": [
+"[ˈwɔ.ɫʊ.krɪs]"
+],
+"eccl": [
+"[ˈvɔː.lu.kris]"
+]
+},
+"voluto_v": {
+"word": "volūtō",
+"classical": [
+"[wɔˈɫuː.toː]"
+],
+"eccl": [
+"[voˈluː.to]"
+]
+},
+"volvo_v": {
+"word": "volvō",
+"classical": [
+"[ˈwɔɫ.woː]"
+],
+"eccl": [
+"[ˈvɔl.vo]"
+]
+},
+"vomer_n": {
+"word": "vōmer",
+"classical": [
+"[ˈwoː.mɛr]"
+],
+"eccl": [
+"[ˈvɔː.mer]"
+]
+},
+"vos_pron": {
+"word": "vōs",
+"classical": [
+"[ˈwoːs]"
+],
+"eccl": [
+"[ˈvɔs]"
+]
+},
+"votum_n": {
+"word": "vōtum",
+"classical": [
+"[ˈwoː.tũː]"
+],
+"eccl": [
+"[ˈvɔː.tum]"
+]
+},
+"vox_n": {
+"word": "vōx",
+"classical": [
+"[ˈwoːks]"
+],
+"eccl": [
+"[ˈvɔks]"
+]
+},
+"vulgatus_adj": {
+"word": "vulgātus",
+"classical": [
+"[wʊɫˈɡaː.tʊs]"
+],
+"eccl": [
+"[vulˈɡaː.tus]"
+]
+},
+"vulgus_n": {
+"word": "vulgus",
+"classical": [
+"[ˈwʊɫ.ɡʊs]"
+],
+"eccl": [
+"[ˈvul.ɡus]"
+]
+},
+"vulnero_v": {
+"word": "vulnerō",
+"classical": [
+"[ˈwʊɫ.nɛ.roː]"
+],
+"eccl": [
+"[ˈvul.ne.ro]"
+]
+},
+"vulnus_n": {
+"word": "vulnus",
+"classical": [
+"[ˈwʊɫ.nʊs]"
+],
+"eccl": [
+"[ˈvul.nus]"
+]
+},
+"vultus_n": {
+"word": "vultus",
+"classical": [
+"[ˈwʊɫ.tʊs]",
+"[ˈwʊɫ.tuːs]"
+],
+"eccl": [
+"[ˈvul.tus]",
+"[ˈvul.tus]"
+]
+},
+"zona_n": {
+"word": "zōna",
+"classical": [
+"[ˈzoː.na]"
+],
+"eccl": [
+"[ˈd͡zɔː.na]"
+]
+}
+}

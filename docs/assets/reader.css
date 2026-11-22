@@ -771,6 +771,57 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   color: var(--muted);
 }
 
+
+/* Pronunciation line: respelling, IPA, Classical/Ecclesiastical toggle. */
+.card-popover .card-pron {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.6rem;
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+}
+.card-popover .card-pron-respell {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.02em;
+}
+.card-popover .card-pron-ipa {
+  color: var(--muted);
+}
+  /* IPA needs ɫ, t͡ʃ, combining tildes and tie bars: fonts known to carry them. */
+  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+.card-popover .card-pron-controls {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+.card-popover .card-pron-toggle {
+  display: inline-flex;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.card-popover .card-pron-system {
+  font: inherit;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.6rem;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.card-popover .card-pron-system[aria-pressed="true"] {
+  background: var(--tag-bg);
+  color: var(--fg);
+}
+.card-popover .card-pron-help {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.7rem;
+  color: var(--accent);
+}
 /* ============================================================
    06 · Lexicon card — paradigm grid
    The paradigm pattern (see development/paradigm-grid-pattern.md): wrapping
@@ -1225,7 +1276,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   color: var(--muted);
 }
 
-/* Parse-code glossary page (_language/latin/grammar/) — lede + the
+/* Latin Reader's Guide (_language/latin/guide/) — lede + the
    "Allen & Greenough: §N" cross-links under each value's gloss. */
 .grammar-lede { color: var(--muted); }
 .grammar-agref {
@@ -1260,6 +1311,21 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 }
 .ref-popover .ag-fullpage-link { color: var(--muted); }
 .ref-popover .ag-fullpage-link:hover { color: var(--accent); }
+
+/* Reader's Guide contents: two groups (Pronunciation, Grammar), each a run of
+   inline links so the list stays short on a phone. */
+.grammar-toc > ul { list-style: none; padding: 0; margin: 1rem 0 1.5rem; }
+.grammar-toc > ul > li { margin: 0 0 0.6rem; }
+.grammar-toc > ul > li > a { font-weight: 600; }
+.grammar-toc ul ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.2rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.9rem;
+  font-size: 0.9rem;
+}
 /* ============================================================
    09 · Early-modern printed text
    Conventions for texts transcribed from early printings (Milton's History of
@@ -1335,3 +1401,38 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 /* Inside a note link the note wins the tap; don't advertise the gloss too. */
 .note-link .inline-gloss { text-decoration: none; cursor: inherit; }
 .note-link .inline-gloss::after { display: none; }
+/* ============================================================
+   10 · Latin pronunciation guide
+   _language/latin/pronunciation/ — the examples table, computed
+   at build time by latin-pron.js.
+   ============================================================ */
+
+.pronunciation-guide .pron-examples {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.95rem;
+}
+.pronunciation-guide .pron-examples th,
+.pronunciation-guide .pron-examples td {
+  text-align: left;
+  padding: 0.3rem 0.6rem 0.3rem 0;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: baseline;
+}
+.pronunciation-guide .pron-examples th[scope="row"] {
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.pronunciation-guide .pron-respell {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.02em;
+}
+.pronunciation-guide .pron-ipa {
+  display: block;
+  /* IPA needs ɫ, t͡ʃ, combining tildes and tie bars: fonts known to carry them. */
+  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  color: var(--muted);
+  font-size: 0.85rem;
+}

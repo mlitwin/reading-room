@@ -123,8 +123,8 @@ function renderIndexBody(ref, pages, languageName) {
   return `<div class="reference-grammar-index">
   <p class="ag-lede">A complete reference grammar — ${escapeHtml(src.title)}.
   Sections keep their canonical numbering (§), so a citation like “§ 419”
-  links straight here. For the short parse-code glossary used by the reader's
-  word popovers, see the <a href="../grammar/index.html">${escapeHtml(languageName)} morphology glossary</a>.</p>
+  links straight here. For the compact guide to pronunciation and the terms
+  used by the reader's word popovers, see the <a href="../guide/index.html">${escapeHtml(languageName)} Reader's Guide</a>.</p>
 ${partBlocks}
   <footer class="ag-source">
     <p>${escapeHtml(src.attribution)}</p>

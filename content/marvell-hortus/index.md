@@ -3,6 +3,10 @@ title: "Marvell: Hortus / The Garden"
 author: Matthew Litwin
 date: 2026-06-30
 tags: [latin, marvell, poetry, metaphysical, parallel-text]
+# Popovers open in Italianate Ecclesiastical: Milton urged Latin spoken "as near
+# as may be to the Italian", and Marvell was his associate — see the guide,
+# content/_language/latin/pronunciation.md.
+latin_pronunciation: ecclesiastical
 summary: Andrew Marvell's Latin poem "Hortus" set against his own English "The Garden." The two are not a translation pair but independent poems on the same theme, and they diverge — Hortus expands the mythological conceits and breaks off in a lacuna where The Garden gives its famous Neoplatonic stanzas ("a green thought in a green shade"). The Latin carries a per-word study apparatus — tap any word for lemma, parse, paradigm, and gloss. The English runs alongside as the parallel poem, with each movement noting where the two texts meet and where they part.
 ---
 

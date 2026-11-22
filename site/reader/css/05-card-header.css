@@ -30,3 +30,54 @@
   color: var(--muted);
 }
 
+
+/* Pronunciation line: respelling, IPA, Classical/Ecclesiastical toggle. */
+.card-popover .card-pron {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.6rem;
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+}
+.card-popover .card-pron-respell {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  letter-spacing: 0.02em;
+}
+.card-popover .card-pron-ipa {
+  color: var(--muted);
+}
+  /* IPA needs ɫ, t͡ʃ, combining tildes and tie bars: fonts known to carry them. */
+  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+.card-popover .card-pron-controls {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+.card-popover .card-pron-toggle {
+  display: inline-flex;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.card-popover .card-pron-system {
+  font: inherit;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.6rem;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.card-popover .card-pron-system[aria-pressed="true"] {
+  background: var(--tag-bg);
+  color: var(--fg);
+}
+.card-popover .card-pron-help {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.7rem;
+  color: var(--accent);
+}
