@@ -1377,6 +1377,9 @@ async function emitAssetManifest() {
       const rel = prefix ? `${prefix}/${e.name}` : e.name;
       // Don't list the manifest itself — clients hash-check against it.
       if (!prefix && e.name === 'assets.json') continue;
+      // Nor dotfiles (.nojekyll): the Pages artifact upload drops hidden
+      // files, so they 404 live and a client sync that fetches them fails.
+      if (e.name.startsWith('.')) continue;
       if (e.isDirectory()) {
         await walk(abs, rel);
       } else if (e.isFile()) {

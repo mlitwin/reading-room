@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:14:39.929Z",
+  "generated_at": "2026-11-22T16:33:10.904Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -267,18 +267,13 @@
       "size": 7823
     },
     {
-      "path": ".nojekyll",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "size": 0
-    },
-    {
       "path": "assets/cards.js",
       "sha256": "5fe5e34bd836159f95d33f2e0553dd31b5c7c79ad216ab2a5a36828d42dab62b",
       "size": 59175
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "021891020ea3b046a380d6ed1280189cfb7ca1deeaf7370a8832abddef85f033",
+      "sha256": "225518a4ccbf616b1b8b5460b2f49757e6d6e6ba19b0c795f0a4c1a941e63df1",
       "size": 62081
     },
     {
@@ -288,7 +283,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "3443d6cc35de14bdd6a794b81dc42d0377cecce95323504618686de00b8649b8",
+      "sha256": "71d5097fb670de34d3953c16dede41f4021d5daad7dd675a5043871993585f89",
       "size": 1064559
     },
     {
@@ -608,7 +603,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "911d9cb81bc8f9f511dfa238d3a5c4c6d79ce85447ffd766b1bd39e0426290b3",
+      "sha256": "d57adb14bb74d333a92261bd1a28058282886b847dcc201c36a6e8e4ad80e825",
       "size": 10210844
     },
     {
@@ -628,7 +623,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "cec5e2f516663714f1511c7d5bd263121811ae3c444e68cf3cff4871c4ee1f16",
+      "sha256": "c770024c9c5c8d7978031c1aea59899f3bb319cd60d42f0c40737423fb43bc1e",
       "size": 2476366
     },
     {
@@ -648,12 +643,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "1a0dbd67c1c2481556bafbbd565d8d69af9c36036dcf253cc70017292095ac93",
+      "sha256": "367f86af5ea0f3ec5f6b67faa4541292200ee292a95425f920558230537a063c",
       "size": 11356812
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "350a6958bf67cd5ae410cf5547fd6bb9ac4b30140791c3c2d1950df319a20d67",
+      "sha256": "dbf1da8911b35ec1e97e33f8ff6a2ea444669e22faeda6b4dae8e0689e3f7791",
       "size": 11356786
     },
     {
@@ -663,7 +658,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "c4721c49087556a2aef2a5446fa23bd4c5abeef735245ef39edc0e76e2fc1dd1",
+      "sha256": "698afd965c07f4a5f1a1a186c05605f3fe5114358d20e7a3ae2d87aa4855bbda",
       "size": 38812
     },
     {
