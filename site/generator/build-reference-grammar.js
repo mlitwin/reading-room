@@ -189,6 +189,28 @@ export async function buildReferenceGrammar({ referenceGrammar, languageId, lang
     await writeFile(join(dir, `${page.slug}.html`), html);
   }
 
+  // nav.json — the iOS app opens a library entry ending in /index.html as a
+  // book and pages it by nav.json (it hides the in-page breadcrumb and
+  // prev/next). Index first, then the section pages in reading order.
+  const bookTitle = `${languageName} Reference Grammar`;
+  const base = `_language/${languageId}/reference/`;
+  const library = { title: 'Library', html_path: 'index.html' };
+  const navPages = [
+    { slug: 'reference', title: bookTitle, html_path: `${base}index.html`, breadcrumbs: [library] },
+    ...pages.map((page) => ({
+      slug: page.slug,
+      title: page.topical,
+      html_path: `${base}${page.slug}.html`,
+      breadcrumbs: [library, { title: bookTitle, html_path: `${base}index.html` }],
+    })),
+  ];
+  navPages.forEach((p, i) => {
+    const crumb = (q) => (q ? { title: q.title, html_path: q.html_path } : null);
+    p.prev = crumb(navPages[i - 1]);
+    p.next = crumb(navPages[i + 1]);
+  });
+  await writeFile(join(dir, 'nav.json'), JSON.stringify({ pages: navPages, uses_latin: false }, null, 2));
+
   return { indexPath, pageCount: pages.length };
 }
 

@@ -37,7 +37,8 @@ final class SiteSync {
     var progress: Double = 0
     var lastSyncDate: Date?
     var lastError: String?
-    /// Book slugs whose update failed during the most recent sync.
+    /// Book slugs and site-level file paths whose update failed during the
+    /// most recent sync. The rest of the sync still lands.
     var partialFailures: [String] = []
 
     private var currentTask: Task<Void, Never>?
@@ -165,8 +166,16 @@ final class SiteSync {
             }
 
             // 6. Save the new manifest alongside the mirror so the next
-            //    sync can detect what changed.
-            try saveManifest(newManifest)
+            //    sync can detect what changed. Leave out whatever failed, so
+            //    the next sync re-checks it instead of trusting a stale file.
+            let failed = Set(partialFailures)
+            try saveManifest(AssetManifest(
+                generatedAt: newManifest.generatedAt,
+                files: newManifest.files.filter { entry in
+                    !failed.contains(entry.path)
+                        && !failed.contains(String(entry.path.prefix(while: { $0 != "/" })))
+                }
+            ))
 
             lastSyncDate = Date()
         } catch is CancellationError {
@@ -282,17 +291,27 @@ final class SiteSync {
         swapped = true
     }
 
+    // Each site-level file stands alone: one that fails (e.g. a 404) is
+    // recorded in partialFailures and the rest still land.
     private func processSiteFiles(_ entries: [ManifestEntry], onFile: @MainActor () -> Void) async throws {
         for entry in entries {
             try Task.checkCancellation()
-            let destURL = localURL(for: entry.path)
-            try FileManager.default.createDirectory(
-                at: destURL.deletingLastPathComponent(),
-                withIntermediateDirectories: true
-            )
-            let data = try await downloadFile(at: entry.path)
-            try data.write(to: destURL, options: .atomic)
-            onFile()
+            do {
+                let destURL = localURL(for: entry.path)
+                try FileManager.default.createDirectory(
+                    at: destURL.deletingLastPathComponent(),
+                    withIntermediateDirectories: true
+                )
+                let data = try await downloadFile(at: entry.path)
+                try data.write(to: destURL, options: .atomic)
+                onFile()
+            } catch is CancellationError {
+                throw CancellationError()
+            } catch let error as URLError where error.code == .cancelled {
+                throw CancellationError()
+            } catch {
+                partialFailures.append(entry.path)
+            }
         }
     }
 

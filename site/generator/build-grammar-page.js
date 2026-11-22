@@ -184,6 +184,18 @@ export async function buildGrammarPage({ grammar, languageId, languageName, outD
   });
   await writeFile(outPath, html);
 
+  // The guide is listed in the library like a book, and the iOS app opens a
+  // book by its nav.json — without one it never renders. One page, no prev/next.
+  const htmlPath = `_language/${languageId}/${GUIDE_DIR}/index.html`;
+  await writeFile(join(outDir, subdir, 'nav.json'), JSON.stringify({
+    pages: [{
+      slug: GUIDE_DIR, title, html_path: htmlPath,
+      breadcrumbs: [{ title: 'Library', html_path: 'index.html' }],
+      prev: null, next: null,
+    }],
+    uses_latin: false,
+  }, null, 2));
+
   // The guide's old address (the "Latin Grammar Reference") redirects here,
   // keeping its value anchors (#nom) — published links and bookmarks still land.
   const oldDir = join(outDir, '_language', languageId, 'grammar');

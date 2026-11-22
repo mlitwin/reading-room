@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:33:10.904Z",
+  "generated_at": "2026-11-22T16:49:12.480Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -10,6 +10,11 @@
       "path": "_language/latin/guide/index.html",
       "sha256": "891d0f42671c18b4af3daa24c74082664d90412f81beea674fd946da00fdc5a9",
       "size": 53968
+    },
+    {
+      "path": "_language/latin/guide/nav.json",
+      "sha256": "1372ce3b8018de66571ee186e8469e8499852111495f6bf55806272c1997c253",
+      "size": 329
     },
     {
       "path": "_language/latin/reference/01-the-alphabet.html",
@@ -267,13 +272,18 @@
       "size": 7823
     },
     {
+      "path": "_language/latin/reference/nav.json",
+      "sha256": "83885306239dcde9006f180073736c1d7b144d4b3478211edcd62e79de858f6e",
+      "size": 34591
+    },
+    {
       "path": "assets/cards.js",
       "sha256": "5fe5e34bd836159f95d33f2e0553dd31b5c7c79ad216ab2a5a36828d42dab62b",
       "size": 59175
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "225518a4ccbf616b1b8b5460b2f49757e6d6e6ba19b0c795f0a4c1a941e63df1",
+      "sha256": "febd50cfff868ed20a836a765dbde3ccbe4322ef567db7642d3d2a1371151340",
       "size": 62081
     },
     {
@@ -283,7 +293,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "71d5097fb670de34d3953c16dede41f4021d5daad7dd675a5043871993585f89",
+      "sha256": "1a930f3f6cf48b62948b6db6738b0cf1d3227e1e80ee31308a0b76d7d95f25bf",
       "size": 1064559
     },
     {
@@ -603,7 +613,7 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "d57adb14bb74d333a92261bd1a28058282886b847dcc201c36a6e8e4ad80e825",
+      "sha256": "f1e751e5ee2759333e3a6e640a8598bfcf239563bed3ab79cb92a9ad51198aa6",
       "size": 10210844
     },
     {
@@ -623,7 +633,7 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "c770024c9c5c8d7978031c1aea59899f3bb319cd60d42f0c40737423fb43bc1e",
+      "sha256": "e512731079785ad299caaed35f84999c17210fd38490e5488b00c836c518fa17",
       "size": 2476366
     },
     {
@@ -643,12 +653,12 @@
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "367f86af5ea0f3ec5f6b67faa4541292200ee292a95425f920558230537a063c",
+      "sha256": "5885a4410a07146da37b118edfd686ccc148e0a1af86e820282f30b5f76ede74",
       "size": 11356812
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "dbf1da8911b35ec1e97e33f8ff6a2ea444669e22faeda6b4dae8e0689e3f7791",
+      "sha256": "d2eab14fe4a89fe3346ff25f6011aee50d85222fe755f6bae5be652f9e676cf3",
       "size": 11356786
     },
     {
@@ -658,7 +668,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "698afd965c07f4a5f1a1a186c05605f3fe5114358d20e7a3ae2d87aa4855bbda",
+      "sha256": "9e8b62696c2ab4a02190df277949e6c93ab568df0fc71d8d5d86c32c23ccd386",
       "size": 38812
     },
     {

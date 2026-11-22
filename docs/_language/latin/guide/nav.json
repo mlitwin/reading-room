@@ -1,0 +1,18 @@
+{
+  "pages": [
+    {
+      "slug": "guide",
+      "title": "Latin Reader's Guide",
+      "html_path": "_language/latin/guide/index.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        }
+      ],
+      "prev": null,
+      "next": null
+    }
+  ],
+  "uses_latin": false
+}

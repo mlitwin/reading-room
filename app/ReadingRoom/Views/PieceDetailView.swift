@@ -59,6 +59,9 @@ struct PieceDetailView: View {
     // Delayed loading indicator: only shown if a load outlasts the threshold, so
     // snappy (pre-warmed) page loads never flash a spinner.
     @State private var showSpinner = false
+    // Set once the .task has looked for nav.json and found none: the book is
+    // then shown as a single page rather than waiting on a pager forever.
+    @State private var navMissing = false
 
     private var hasTOC: Bool {
         piece.isBook && (state.nav?.pages.count ?? 0) > 1
@@ -113,6 +116,13 @@ struct PieceDetailView: View {
                             state: state,
                             initialPath: initialPath,
                             initialScrollY: savedPosition?.scrollY ?? 0
+                        )
+                    } else if navMissing {
+                        PieceWebView(
+                            initialURL: initialURL,
+                            initialScrollY: savedPosition?.scrollY ?? 0,
+                            mirrorRoot: siteSync.mirrorRoot,
+                            state: state
                         )
                     } else {
                         Color.clear
@@ -238,6 +248,7 @@ struct PieceDetailView: View {
         .task {
             guard piece.isBook, state.nav == nil else { return }
             state.nav = loadNavFromMirror(slug: piece.slug)
+            navMissing = state.nav == nil
         }
         // Drive the spinner with a delay so it only appears for genuinely slow
         // loads. Re-runs on each isLoading change, cancelling the pending show
@@ -285,6 +296,7 @@ struct PieceDetailView: View {
     private func handleSyncCompleted() {
         if piece.isBook {
             state.nav = loadNavFromMirror(slug: piece.slug)
+            navMissing = state.nav == nil
         }
         guard let current = state.currentPath else { return }
         let currentURL = siteSync.localURL(for: current)

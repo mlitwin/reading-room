@@ -93,6 +93,13 @@ struct LibraryView: View {
         await refreshFromNetwork()
     }
 
+    private var syncProblem: String? {
+        if let err = siteSync.lastError { return "Last update failed: \(err)" }
+        let n = siteSync.partialFailures.count
+        guard n > 0 else { return nil }
+        return "Last update incomplete: \(n) item\(n == 1 ? "" : "s") couldn't be downloaded. Pull to retry."
+    }
+
     @ViewBuilder
     private var content: some View {
         if library.pieces.isEmpty {
@@ -122,9 +129,20 @@ struct LibraryView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         } else {
-            List(filteredPieces) { piece in
-                NavigationLink(value: piece) {
-                    PieceRow(piece: piece)
+            List {
+                ForEach(filteredPieces) { piece in
+                    NavigationLink(value: piece) {
+                        PieceRow(piece: piece)
+                    }
+                }
+                // A background sync that didn't fully land would otherwise be
+                // invisible — the library keeps showing the last good mirror.
+                if !siteSync.isSyncing, let status = syncProblem {
+                    Section {
+                        Label(status, systemImage: "exclamationmark.triangle")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                    }
                 }
             }
             .overlay {

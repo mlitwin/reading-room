@@ -62,8 +62,14 @@ from it — the network is the sync's problem, never the WebView's.
   Site-level files (`index.json`, `assets/*`, root pieces) are written last, and
   `index.json` last of all, so the library never advertises a book not yet on
   disk.
-- Re-entrant and cooperatively cancellable; partial per-book failures surface in
-  `partialFailures` without aborting the whole sync. First launch is blocked by
+- Re-entrant and cooperatively cancellable; a failed book or site-level file
+  goes into `partialFailures` without aborting the whole sync, is left out of
+  the saved manifest (so the next sync re-checks it), and is reported at the
+  foot of the library. The generator leaves dotfiles out of `assets.json` —
+  the Pages deploy drops them, so they 404 live.
+- A library entry whose `html_path` ends in `/index.html` opens as a book and
+  pages by its `<slug>/nav.json` (the generator emits one for the Latin guide
+  and reference grammar too); if there is none it opens as a single page. First launch is blocked by
   `FirstLaunchSyncView` until `index.json` exists; later launches sync in the
   background.
 
