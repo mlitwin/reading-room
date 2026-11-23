@@ -21,8 +21,9 @@ examples:
   - [amīcitia]
 ---
 
-Every Latin word popover shows how its dictionary form is pronounced: an
-English-letter respelling with the stressed syllable in capitals, then the IPA.
+Every Latin word popover shows how the word you tapped is pronounced — that
+form, under the reading its tab shows — as an English-letter respelling with the
+stressed syllable in capitals, then the IPA.
 A switch on the popover flips between the two systems described here, and your
 choice is remembered for each text. Ovid opens in **Classical**; Marvell's
 *Hortus* opens in **Ecclesiastical** (see [below](#pron-why-marvell-opens-in-ecclesiastical)).
@@ -159,13 +160,18 @@ Ecclesiastical popovers on *Hortus* as one plausible voice, not a recording.
 
 ## How the popovers work it out
 
-The pronunciation is computed, not looked up: the reader takes the card's
-macronized headword (from Wiktionary) and applies the rules on this page.
-Checked against Wiktionary's own transcriptions of every card in the lexicon,
-it agrees on about 99% of words in both systems. The rest are mostly
-compounds whose prefix changes the syllables (*ad-stringō*), and Greek names.
-Where a card has no macronized headword, its vowels are read as short, which
-can misplace the accent.
+The pronunciation is computed, not looked up. The texts are printed without
+macrons, so the vowel lengths of each form come from its Wiktionary inflection
+table (*mortale* in the text is *mortāle*: mor-TAH-leh); the reader then applies
+the rules on this page. Checked against Wiktionary's own transcriptions of every
+dictionary form in the lexicon, it agrees on about 99% of words in both systems.
+The rest are mostly compounds whose prefix changes the syllables (*ad-stringō*),
+and Greek names.
+
+Where the text leaves a form's case open and the cases differ in length —
+*vestra* (nominative) or *vestrā* (ablative) — the Classical line shows both;
+the metre of the line usually decides. Where a form's lengths aren't known, the
+popover pronounces the dictionary form instead and names it.
 
 ## Sources
 

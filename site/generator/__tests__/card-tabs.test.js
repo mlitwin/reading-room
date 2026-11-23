@@ -79,3 +79,39 @@ test('homographsOf finds same-lemma same-pos cards only', () => {
   assert.deepEqual(plain(T.homographsOf('edo_v', lex)), ['edo2_v']);
   assert.deepEqual(plain(T.homographsOf('lux_n', lex)), []);
 });
+
+// Pronunciation of the tapped form (site/latin/macronize_forms.py → card.macrons).
+test('pronKey matches macronize_forms.py keys', () => {
+  assert.equal(T.pronKey('Vestrā'), 'uestra');
+  assert.equal(T.pronKey('juvant'), 'iuuant');
+});
+
+test('pronForms: one spelling for every parse → one form', () => {
+  const card = { macrons: { mortale: 'mortāle' } };
+  assert.deepEqual(plain(T.pronForms(card, 'mortale', ['nom.sg.neut', 'acc.sg.neut'])),
+    [{ word: 'mortāle' }]);
+});
+
+test('pronForms: lengths that depend on the parse → one form per spelling', () => {
+  const card = { macrons: { uestra: { 'nom.sg.fem': 'vestra', 'abl.sg.fem': 'vestrā', 'nom.pl.neut': 'vestra' } } };
+  assert.deepEqual(plain(T.pronForms(card, 'Vestra', ['nom.sg.fem', 'abl.sg.fem'])),
+    [{ word: 'vestra', parses: ['nom.sg.fem'] }, { word: 'vestrā', parses: ['abl.sg.fem'] }]);
+  // This reading's parses decide; a resolved token gets one form.
+  assert.deepEqual(plain(T.pronForms(card, 'Vestra', ['abl.sg.fem'])),
+    [{ word: 'vestrā', parses: ['abl.sg.fem'] }]);
+});
+
+test('pronForms: unknown form → none (the line falls back to the headword)', () => {
+  assert.deepEqual(plain(T.pronForms({ macrons: {} }, 'vestra', ['nom.sg.fem'])), []);
+  assert.deepEqual(plain(T.pronForms({}, 'vestra', ['nom.sg.fem'])), []);
+});
+
+test('pronLabels: leading atoms, past participle prefixes; full codes if they tie', () => {
+  assert.deepEqual(plain(T.pronLabels([
+    { parses: ['nom.sg.fem', 'acc.pl.neut', 'nom.pl.neut'] }, { parses: ['abl.sg.fem'] }])),
+    ['nom., acc.', 'abl.']);
+  assert.deepEqual(plain(T.pronLabels([{ parses: ['ppp.nom.sg.fem'] }, { parses: ['ppp.abl.sg.fem'] }])),
+    ['nom.', 'abl.']);
+  assert.deepEqual(plain(T.pronLabels([{ parses: ['nom.sg'] }, { parses: ['nom.pl'] }])),
+    ['nom.sg', 'nom.pl']);
+});

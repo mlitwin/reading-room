@@ -27,6 +27,7 @@ const CONSOLIDATED_LEXICON = path.join(LANGUAGE_DIR, 'lexicon.json');
 const GRAMMAR_JSON = path.join(LANGUAGE_DIR, 'grammar.json');
 const REFERENCE_GRAMMAR_JSON = path.join(LANGUAGE_DIR, 'reference-grammar.json');
 const PRONUNCIATION_MD = path.join(LANGUAGE_DIR, 'pronunciation.md');
+const MACRONS_JSON = path.join(LANGUAGE_DIR, 'macrons.json');
 
 const md = new MarkdownIt({
   // html: true so the Latin-passage book can drop a raw <div class="latin-passage">
@@ -973,7 +974,16 @@ async function collectVocabularyOverlays(sharedLexicon) {
 async function buildLexiconJson() {
   const shared = await loadSharedLexicon();
   const lexicon = { ...shared, ...(await collectVocabularyOverlays(shared)) };
-  const json = JSON.stringify(lexicon);
+  // The popover pronounces the tapped form, so each runtime card carries the
+  // macronized spellings of its attested forms (site/latin/macronize_forms.py).
+  // Runtime-only: the returned lexicon stays as authored.
+  const macrons = (await fileExists(MACRONS_JSON))
+    ? JSON.parse(await fs.readFile(MACRONS_JSON, 'utf8')) : {};
+  const runtime = {};
+  for (const [id, card] of Object.entries(lexicon)) {
+    runtime[id] = macrons[id] ? { ...card, macrons: macrons[id] } : card;
+  }
+  const json = JSON.stringify(runtime);
   // lexicon.json — consumed by fetch() on the web
   await fs.writeFile(path.join(DOCS_DIR, 'assets', 'lexicon.json'), json + '\n');
   // lexicon.js — consumed by WKWebView via <script src> (fetch blocked on file://)

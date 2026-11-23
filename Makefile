@@ -2,7 +2,7 @@
         latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
         latin-translate-ingest latin-scribe-book1 latin-stanza-editorial \
         latin-stanza-annotate latin-stanza-annotate-all latin-normalize-surface \
-        latin-wiktionary-fetch latin-wiktionary-cache latin-wiktionary-audit
+        latin-wiktionary-fetch latin-wiktionary-cache latin-wiktionary-audit latin-macrons
 
 install:
 	cd site/generator && npm install
@@ -98,6 +98,11 @@ latin-wiktionary-cache:
 
 latin-wiktionary-audit:
 	@python3 site/latin/audit_wiktionary.py
+
+# Macronize every attested form per reading (content/_language/latin/macrons.json)
+# for the popover's pronunciation line. Re-run after changing tokens or cards.
+latin-macrons:
+	@python3 site/latin/macronize_forms.py
 
 latin-translate-ingest:
 	@python3 site/latin/ingest_translation.py

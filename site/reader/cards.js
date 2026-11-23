@@ -394,10 +394,14 @@
   }
 
   // ── pronunciation line
-  // Respelling + IPA of the card's headword in the reader's chosen system
-  // (site/reader/latin-pron.js). The page's <meta name="latin-pronunciation">
-  // gives the book's default (front matter `latin_pronunciation`); a toggle
-  // here overrides it, remembered per book (the meta's data-scope).
+  // Respelling + IPA in the reader's chosen system (site/reader/latin-pron.js)
+  // of the form that was tapped, as this tab's reading — or of the headword
+  // when the card was opened without a token, or the form's vowel lengths
+  // aren't known. Lengths come from the card's `macrons` (attested forms,
+  // macronized: site/latin/macronize_forms.py). The page's
+  // <meta name="latin-pronunciation"> gives the book's default (front matter
+  // `latin_pronunciation`); a toggle here overrides it, remembered per book
+  // (the meta's data-scope).
   var PRON_KEY = 'rr.latinPronunciation.';
   var PRON_LABEL = { classical: 'Classical', ecclesiastical: 'Ecclesiastical' };
 
@@ -426,31 +430,95 @@
     return ((m && m.getAttribute('content')) || '') + '_language/latin/guide/index.html#pronunciation';
   }
 
+  // macronize_forms.py's key: unmarked, lowercase, i/u for j/v, letters only.
+  function pronKey(s) {
+    return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+      .replace(/j/g, 'i').replace(/v/g, 'u').replace(/[^a-z]/g, '');
+  }
+
+  // The tapped form's macronized spelling(s) under this reading:
+  // [{ word, parses }] — more than one when lengths differ by a parse the text
+  // leaves open (rosa nom. / rosā abl.). Empty when the card doesn't know it.
+  function pronForms(card, surface, parses) {
+    var m = card && card.macrons && card.macrons[pronKey(surface)];
+    if (!m) return [];
+    if (typeof m === 'string') return [{ word: m }];
+    var byForm = {};
+    var order = [];
+    (parses.length ? parses : Object.keys(m)).forEach(function (p) {
+      var f = m[p];
+      if (!f) return;
+      if (!byForm[f]) { byForm[f] = []; order.push(f); }
+      byForm[f].push(p);
+    });
+    return order.map(function (f) { return { word: f, parses: byForm[f] }; });
+  }
+
+  // Short labels telling variants apart: the parses' leading atom (case, or
+  // person/mood), past any participle prefix — "nom., acc." vs "abl.".
+  function pronLabels(groups) {
+    var short = groups.map(function (g) {
+      var seen = [];
+      g.parses.forEach(function (p) {
+        var a = p.split('.').filter(function (x) { return !/^(ppp|pap|fap|gerundive|comp|superl)$/.test(x); })[0];
+        if (a && seen.indexOf(a) < 0) seen.push(a);
+      });
+      return seen.map(function (a) { return a + '.'; }).join(', ');
+    });
+    var distinct = short.every(function (l, i) { return short.indexOf(l) === i; });
+    return distinct ? short : groups.map(function (g) { return g.parses.join(', '); });
+  }
+
+  // Show a form as the text spells it: its capital and j, the macrons added.
+  function pronDisplay(word, spelling) {
+    var w = window.LatinPron.mergeSpelling(word, spelling);
+    return spelling && /^[A-Z]/.test(spelling) ? w.charAt(0).toUpperCase() + w.slice(1) : w;
+  }
+
   function fillPronLine(el, system) {
-    var p = window.LatinPron && window.LatinPron.pronounce(
-      el.getAttribute('data-word'), system, el.getAttribute('data-lemma'));
-    if (!p) { el.hidden = true; return; }
-    el.querySelector('.card-pron-respell').textContent = p.respell;
-    el.querySelector('.card-pron-ipa').textContent = p.ipa;
+    var forms = [];
+    try { forms = JSON.parse(el.getAttribute('data-forms') || '[]'); } catch (e) { /* keep empty */ }
+    var spelling = el.getAttribute('data-spell') || '';
+    // Variants that sound alike in this system (Ecclesiastical has no vowel
+    // length) collapse into one line.
+    var groups = [];
+    forms.forEach(function (f) {
+      var p = window.LatinPron && window.LatinPron.pronounce(f.word, system, spelling);
+      if (!p) return;
+      var same = groups.filter(function (g) { return g.p.ipa === p.ipa; })[0];
+      if (same) same.parses = same.parses.concat(f.parses || []);
+      else groups.push({ word: f.word, p: p, parses: (f.parses || []).slice() });
+    });
+    var labels = groups.length > 1 ? pronLabels(groups) : [];
+    var items = groups.map(function (g, i) {
+      return '<span class="card-pron-item">' +
+        '<span class="card-pron-form" lang="la">' + escHtml(pronDisplay(g.word, spelling)) + '</span>' +
+        (labels[i] ? ' <span class="card-pron-label">' + escHtml(labels[i]) + '</span>' : '') +
+        ' <span class="card-pron-respell">' + escHtml(g.p.respell) + '</span>' +
+        ' <span class="card-pron-ipa">' + escHtml(g.p.ipa) + '</span></span>';
+    });
+    el.hidden = !items.length;
+    el.querySelector('.card-pron-words').innerHTML = items.join('');
     var btns = el.querySelectorAll('.card-pron-system');
     for (var i = 0; i < btns.length; i++) {
       btns[i].setAttribute('aria-pressed', String(btns[i].getAttribute('data-system') === system));
     }
   }
 
+  // Renders the line for the headword, empty; applyCardState (which follows
+  // every card render) retargets it at the tapped form and fills it.
   function renderPronLine(card) {
     if (!window.LatinPron || !card) return '';
     var word = card.headword || card.lemma;
     var system = pronSystem();
-    var p = window.LatinPron.pronounce(word, system, card.lemma);
-    if (!p) return '';
+    if (!window.LatinPron.pronounce(word, system, card.lemma)) return '';
     var toggle = window.LatinPron.SYSTEMS.map(function (s) {
       return '<button class="card-pron-system" type="button" data-system="' + s + '" aria-pressed="' +
         (s === system) + '">' + PRON_LABEL[s] + '</button>';
     }).join('');
-    return '<div class="card-pron" data-word="' + escAttr(word) + '" data-lemma="' + escAttr(card.lemma || '') + '">' +
-      '<span class="card-pron-respell">' + escHtml(p.respell) + '</span> ' +
-      '<span class="card-pron-ipa">' + escHtml(p.ipa) + '</span>' +
+    return '<div class="card-pron" data-forms="' + escAttr(JSON.stringify([{ word: word }])) +
+      '" data-spell="' + escAttr(card.lemma || '') + '">' +
+      '<span class="card-pron-words"></span>' +
       '<span class="card-pron-controls">' +
       '<span class="card-pron-toggle" role="group" aria-label="Pronunciation">' + toggle + '</span>' +
       '<a class="card-pron-help" href="' + escAttr(pronGuideHref()) + '">guide</a>' +
@@ -697,6 +765,7 @@
     chooseInitialTab: chooseInitialTab, orderReadings: orderReadings,
     tabLabel: tabLabel, displayHeadword: displayHeadword, homographsOf: homographsOf,
     resetHomographIndex: function () { homographIndex = null; },
+    pronKey: pronKey, pronForms: pronForms, pronLabels: pronLabels,
   };
 
   // ── grammar loading
@@ -883,6 +952,15 @@
       }
       if (cell) cell.classList.add('active-form');
     });
+    var pron = scope.querySelector('.card-pron');
+    if (pron) {
+      var forms = surface ? pronForms(lexiconCache && lexiconCache[lemma], surface, thisParses) : [];
+      if (forms.length) {
+        pron.setAttribute('data-forms', JSON.stringify(forms));
+        pron.setAttribute('data-spell', surface);
+      }
+      fillPronLine(pron, pronSystem());
+    }
     var slot = scope.querySelector('.card-parse');
     if (slot) {
       slot.innerHTML = (surface && thisParses.length > 0)
