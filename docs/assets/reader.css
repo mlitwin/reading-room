@@ -504,65 +504,35 @@ nav.page-nav .placeholder { visibility: hidden; }
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  padding: 0.35rem 0.5rem 0.35rem 0.35rem;
+  padding: 0.3rem;
   border-bottom: 1px solid var(--rule);
   background: rgba(0, 0, 0, 0.02);
 }
-/* Arrows: full-height touch targets (44px tall), muted until they can act. */
-.popover-prev, .popover-next {
+/* The three header buttons are one control style — same 44px square, same
+   quiet weight, same 20px stroke icon (build.js popoverIcon) — so they align
+   on one centre line and none outshouts the others. Close is set apart by
+   position (far right, with the breadcrumb between it and the arrows), not
+   by emphasis. Hover and focus give each the same filled state. */
+.popover-btn {
   flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 2rem;
-  min-height: 2.75rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
   background: none;
   border: 0;
-  cursor: pointer;
-  font: inherit;
-  font-size: 1.3rem;
-  color: var(--muted);
-  padding: 0;
-  border-radius: 6px;
-  line-height: 1;
-}
-.popover-next { margin-right: 0.25rem; }
-
-/* Close gets a real button affordance: a bordered, filled control with a
-   comfortable touch target (≥ 44px) so it reads as the way out and isn't
-   mistaken for the muted nav arrows — which led readers to reach for the
-   native back button instead, exiting the whole book. */
-.popover-close {
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2.75rem;
-  min-height: 2.75rem;
-  margin-left: auto;
-  background: var(--rule);
-  border: 1px solid var(--rule);
   border-radius: 8px;
+  color: var(--fg);
   cursor: pointer;
-  font: inherit;
-  font-size: 1.4rem;
-  line-height: 1;
-  color: var(--fg);
 }
-.popover-prev:not(:disabled):hover,
-.popover-next:not(:disabled):hover {
-  background: rgba(0, 0, 0, 0.06);
-  color: var(--fg);
-}
-.popover-close:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: var(--bg);
-}
-.popover-prev:disabled, .popover-next:disabled {
-  opacity: 0.3;
-  cursor: default;
-}
+.popover-btn svg { display: block; }
+.popover-btn:not(:disabled):hover { background: rgba(0, 0, 0, 0.06); }
+.popover-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.popover-btn:disabled { opacity: 0.3; cursor: default; }
+.popover-prev { margin-right: -0.25rem; }   /* the arrows read as a pair */
+.popover-close { margin-left: auto; }
 
 .popover-crumbs {
   flex: 1;
