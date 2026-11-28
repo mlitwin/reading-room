@@ -1323,9 +1323,9 @@
 
   // ── trail navigation (Plans/latin-text-centered-reader-plan.md, D3)
   // The stack is the trail of steps taken from the text. The breadcrumb jumps
-  // back to any step; Prev/Next step along it; Home jumps to the origin. No
-  // redo past a new branch — descending by a link drops the old forward steps.
-  function homeTargetPos() { return stackPos > 0 ? 0 : -1; }
+  // back to any step (its first step stands in for a Home button); Prev/Next
+  // step along it. No redo past a new branch — descending by a link drops the
+  // old forward steps.
 
   // The page the popover sits on, for the breadcrumb's first crumb (closes).
   function pageCrumbLabel() {
@@ -1344,8 +1344,9 @@
 
   // Crumbs: the page (closes the popover), then each step taken to reach the
   // current entry — e.g. the page › a word › Preposition › §219. A crumb jumps
-  // back to that step. When the trail is long the middle collapses to "…"
-  // (sooner on narrow screens).
+  // back to that step. When the trail is long the middle collapses to "…".
+  // On narrow screens the crumbs share the header row with ‹ › and ×, so only
+  // the last two items show (× already closes; an enabled ‹ says there's more).
   function renderCrumbs(host) {
     var nav = host.querySelector('.popover-crumbs');
     if (!nav) return;
@@ -1357,9 +1358,9 @@
     var isForm = cur.type === 'card' && cur.surface;
     items.push({ html: '<span class="popover-crumb-here' + (isForm ? ' is-form' : '') + '" aria-current="location">' + escHtml(crumbTitle(cur)) + '</span>' });
     var narrow = window.matchMedia && window.matchMedia('(max-width: 600px)').matches;
-    if (items.length > (narrow ? 3 : 5)) {
-      items = [items[0], { html: '<span class="popover-crumb-gap" aria-hidden="true">…</span>' }].concat(items.slice(narrow ? -2 : -3));
-    }
+    var gap = { html: '<span class="popover-crumb-gap" aria-hidden="true">…</span>' };
+    if (narrow) items = items.slice(-2);
+    else if (!narrow && items.length > 5) items = [items[0], gap].concat(items.slice(-3));
     nav.innerHTML = items.map(function (it) { return it.html; }).join('<span class="popover-crumb-sep" aria-hidden="true">›</span>');
     nav.scrollLeft = nav.scrollWidth;   // keep the current step in view
   }
@@ -1369,8 +1370,6 @@
     var next = host.querySelector('.popover-next');
     if (prev) prev.disabled = stackPos <= 0;
     if (next) next.disabled = stackPos >= stack.length - 1;
-    var homeBtn = host.querySelector('.popover-home');
-    if (homeBtn) homeBtn.hidden = homeTargetPos() < 0;
     renderCrumbs(host);
   }
 
@@ -1504,7 +1503,6 @@
     if (!host) return;
 
     if (e.target.closest('.study-button')) { e.preventDefault(); openStudy(); return; }
-    if (e.target.closest('.popover-home')) { e.preventDefault(); navigateTo(homeTargetPos()); return; }
     var crumb = e.target.closest('#popover-host .popover-crumb');
     if (crumb) {
       e.preventDefault();
