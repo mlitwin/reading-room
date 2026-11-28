@@ -1,7 +1,7 @@
 // Build the Latin Reader's Guide — the compact reference for the terms the
 // reader's word popovers use — emitted to docs/_language/{language}/guide/index.html.
-// Two parts: Pronunciation (from pronunciation.md, rendered by
-// build-pronunciation-section.js) and the parse-code glossary from grammar.json.
+// The parse-code glossary from grammar.json. Pronunciation lives in the texts'
+// Study hub (build.js guideNotesDict), not here.
 // The page's old home, _language/{language}/grammar/, becomes a redirect stub.
 //
 // Per the plan: no intermediate markdown file. We render straight from the
@@ -47,23 +47,16 @@ function rewriteCrossRefs(html) {
  * template. Returns the string starting with the <nav class="grammar-toc">
  * and ending with the last category section.
  */
-// Render the "→ Allen & Greenough §N" line for a value's agRefs, if any.
-// `resolveAgRef(id)` maps a section id to an href (relative to the grammar
-// page) or null when no reference grammar is built. The whole feature is a
-// no-op when either agRefs or the resolver is absent.
-function renderAgRefs(val, resolveAgRef) {
-  if (!Array.isArray(val.agRefs) || val.agRefs.length === 0 || !resolveAgRef) return '';
-  const links = val.agRefs
-    .map((id) => {
-      const href = resolveAgRef(id);
-      return href ? `<a href="${escapeHtml(href)}">§${escapeHtml(id)}</a>` : null;
-    })
-    .filter(Boolean);
-  if (links.length === 0) return '';
+// Render the "Allen & Greenough: §N" line for a value's agRefs, if any, as
+// bare `ag:` links; buildGrammarPage resolves them (resolveAgLinks) into
+// in-flow popover links with a fallback href into the Reference Grammar.
+function renderAgRefs(val) {
+  if (!Array.isArray(val.agRefs) || val.agRefs.length === 0) return '';
+  const links = val.agRefs.map((id) => `<a href="ag:${escapeHtml(id)}">§${escapeHtml(id)}</a>`);
   return `<p class="grammar-agref">Allen &amp; Greenough: ${links.join(', ')}</p>`;
 }
 
-export function renderGrammarBody(grammar, resolveAgRef, pronunciation) {
+export function renderGrammarBody(grammar) {
   const terms = Array.isArray(grammar.terms) ? grammar.terms : [];
 
   const tocLink = (href, label) => `      <li><a href="${href}">${escapeHtml(label)}</a></li>`;
@@ -71,19 +64,11 @@ export function renderGrammarBody(grammar, resolveAgRef, pronunciation) {
     .map((c) => tocLink(`#cat-${escapeHtml(c.id)}`, c.label))
     .concat(terms.length ? [tocLink('#cat-terms', 'Grammar Terms')] : [])
     .join('\n');
-  const tocGroups = [];
-  if (pronunciation) {
-    tocGroups.push(`    <li><a href="#pronunciation">Pronunciation</a>
-      <ul>
-${pronunciation.toc.map((t) => tocLink(`#${t.id}`, t.label)).join('\n')}
-      </ul>
-    </li>`);
-  }
-  tocGroups.push(`    <li><a href="#grammar">Grammar</a>
+  const tocGroups = [`    <li><a href="#grammar">Grammar</a>
       <ul>
 ${grammarToc}
       </ul>
-    </li>`);
+    </li>`];
 
   const sections = grammar.categories.map((cat) => {
     const items = cat.values.map((val) => {
@@ -99,7 +84,7 @@ ${grammarToc}
         <h3 id="${idShort}" class="grammar-label">${escapeHtml(val.label)}${abbrev}</h3>
         ${aliasAnchor}
         <div class="grammar-gloss">${rewriteCrossRefs(val.gloss)}</div>
-        ${renderAgRefs(val, resolveAgRef)}
+        ${renderAgRefs(val)}
       </div>`;
     }).join('\n');
     return `  <section id="cat-${escapeHtml(cat.id)}" class="grammar-category">
@@ -123,7 +108,7 @@ ${terms.map((term) => {
         <h3 id="${idShort}" class="grammar-label">${escapeHtml(term.label)}</h3>
         ${aliasAnchor}
         <div class="grammar-gloss">${rewriteCrossRefs(term.gloss)}</div>
-        ${renderAgRefs(term, resolveAgRef)}
+        ${renderAgRefs(term)}
       </div>`;
   }).join('\n')}
   </section>` : '';
@@ -133,7 +118,6 @@ ${terms.map((term) => {
 ${tocGroups.join('\n')}
   </ul>
 </nav>
-${pronunciation ? pronunciation.html : ''}
 <div id="grammar">
 ${sections}
 ${termsSection}
@@ -156,30 +140,33 @@ ${termsSection}
  */
 export const GUIDE_DIR = 'guide';
 
-export async function buildGrammarPage({ grammar, languageId, languageName, outDir, applyTemplate, pageTpl, resolveAgRef, hasReference, pronunciation }) {
+export async function buildGrammarPage({ grammar, languageId, languageName, outDir, applyTemplate, pageTpl, resolveAgLinks, popoverHost, hasReference }) {
   const subdir = join('_language', languageId, GUIDE_DIR);
   const outPath = join(outDir, subdir, 'index.html');
   await mkdir(join(outDir, subdir), { recursive: true });
   const title = `${languageName} Reader's Guide`;
 
-  const body = renderGrammarBody(grammar, resolveAgRef, pronunciation);
+  // § references open in the popover over the guide (cards.js), like in a text.
+  const assetPrefix = '../../../';
+  const rawBody = renderGrammarBody(grammar);
+  const body = resolveAgLinks && hasReference ? resolveAgLinks(rawBody, assetPrefix) : rawBody.replace(/<a href="ag:[^"]*">([^<]*)<\/a>/g, '$1');
   const breadcrumb = `<nav class="breadcrumb"><a href="../../../index.html">Library</a> › ${escapeHtml(title)}</nav>`;
 
   // This page is the compact companion to the word popovers; the reference
   // grammar (A&G) is the full prose treatment.
   const refLink = hasReference
-    ? ` For the full prose grammar — paradigms, syntax, and worked examples — see the <a href="../reference/index.html">${escapeHtml(languageName)} Reference Grammar</a> (Allen &amp; Greenough).`
+    ? ` For the full prose grammar — paradigms, syntax, and worked examples — see the <a href="../reference/index.html">Reference Grammar</a> (after Allen &amp; Greenough).`
     : '';
-  const lede = `<p class="grammar-lede">A compact reference for reading the ${escapeHtml(languageName)} texts here: how the words are pronounced, and what the grammatical terms in the word popovers mean. Tap a term in any popover to see its entry.${refLink}</p>`;
+  const lede = `<p class="grammar-lede">A compact reference for reading the ${escapeHtml(languageName)} texts here: what the grammatical terms in the word popovers mean. Tap a term in any popover to see its entry; for pronunciation, open <strong>Study</strong> in any ${escapeHtml(languageName)} text.${refLink}</p>`;
 
   const html = applyTemplate(pageTpl, {
     title: escapeHtml(title),
-    assetPrefix: '../../../',
+    assetPrefix,
     author: '',
     date: '',
     tags: '',
     breadcrumb,
-    body: `<div class="grammar-reference">${lede}${body}</div>`,
+    body: `<div class="grammar-reference">${lede}${body}</div>${hasReference && popoverHost ? `\n${popoverHost}` : ''}`,
     pagenav: '',
   });
   await writeFile(outPath, html);

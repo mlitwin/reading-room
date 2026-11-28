@@ -21,9 +21,15 @@ Working conventions for anyone (human or agent) editing this repo. Start with
 |------------------------|------------------|
 | everything under `docs/` | `content/` + `site/` |
 | `content/ovid-metamorphoses/book*.md`, `content/marvell-hortus/book*.md` | the book's `manuscript.*.json` (+ `correspondences.json`) |
-| `content/_language/latin/reference-grammar.json` | vendored A&G TEI via `site/latin/ingest_ag.py` |
 | `docs/assets/*.json`, `nav.json`, `index.json`, `assets.json` | derived by `build.js` |
 | `app/ReadingRoom.xcodeproj/` | `app/project.yml` (XcodeGen) |
+
+`content/_language/latin/reference-grammar.json` is the canonical Reference
+Grammar — seeded once from Allen & Greenough, now edited by hand (corrections,
+`rr-` additions). It drives both the standalone document and the in-text
+popovers. Keep published URLs stable: a section that moves page fails
+validation (R9) until `npm run reference:baseline` is rerun and committed with
+the move. `make reference-check` checks the built pages.
 
 `content/_language/latin/lexicon.json` is the source of truth for the dictionary;
 `content/_latin-lexicon/*.json` is a legacy fallback. Manuscript `book*.md` is
@@ -38,13 +44,14 @@ make serve       # watch + rebuild + serve http://localhost:5173 (CORS open for 
 make validate    # Latin language-model invariants (errors block; warnings = backlog)
 make node-test   # Node schema + runner tests
 make test        # Python tests for the Latin pipeline (site/latin/tests)
+make reference-check  # built Reference Grammar: links, anchors, nav, popover asset
 ```
 
 - The build **fails on error-severity invariants**; warnings are the editorial
   backlog tracked in `remaining-validate.md`. Undefined `note:`/`ag:`/lemma
   references and slug collisions are hard build errors — fix them, don't work
   around them.
-- CI (`.github/workflows/validate.yml`) runs `npm test` + `npm run validate` on
+- CI (`.github/workflows/validate.yml`) runs `npm test` + `npm run validate` + `reference:check` on
   every push/PR to `main`. It's read-only; keep it green.
 - After changing content or the generator, run `make build` and **commit both
   `content/` and the regenerated `docs/`** — the live site and the iOS sync both

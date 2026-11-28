@@ -23,7 +23,7 @@
        identical in dark mode (a black rgba tint would diverge there) */
   --paradigm-label-font: ui-sans-serif, sans-serif;                /* col-head / badge / section */
   --paradigm-label-color: var(--muted);
-  --paradigm-form-font: ui-serif, "Iowan Old Style", Georgia, serif;
+  --paradigm-form-font: var(--font-text);
 
   font-family: var(--paradigm-form-font);
 }

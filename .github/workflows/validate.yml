@@ -32,3 +32,6 @@ jobs:
 
       - name: Run language-model validation
         run: cd site/generator && npm run --silent validate
+
+      - name: Check the built Reference Grammar
+        run: cd site/generator && npm run --silent reference:check

@@ -1,14 +1,17 @@
-// Build the browsable Allen & Greenough reference grammar from
-// reference-grammar.json, emitted under docs/_language/{language}/reference/.
+// Build the standalone Reference Grammar document from reference-grammar.json,
+// emitted under docs/_language/{language}/reference/.
 //
-// Granularity: one page per topical section (the second breadcrumb level), ~50
-// pages — friendly for deep links (each § gets id="sec-N") and mobile load.
-// An index page lists parts → pages with their § ranges and the source
-// attribution. Cross-references (<a href="#sec-N">) are rewritten to point at
-// the page that actually contains §N (same-page refs stay as bare fragments).
+// One page per toc chapter (its stored `slug` is the file name, so published
+// URLs survive edits to labels and order), plus an index of parts → chapters.
+// Each section is an anchored block (id="sec-ID"); group headings come from the
+// toc. Cross-refs (<a data-ref="ID">) become same-page fragments or links to
+// the page that holds the target. Same data as the in-text popovers
+// (build-reference-notes.js). See Plans/latin-text-centered-reader-plan.md (D1).
 
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+
+import { indexReferenceGrammar, sectionLabel, wrapTables } from './lib/reference-grammar.js';
 
 function escapeHtml(s) {
   return String(s)
@@ -17,118 +20,70 @@ function escapeHtml(s) {
 }
 const escapeAttr = escapeHtml;
 
-function slugify(s) {
-  return String(s).toLowerCase()
-    .normalize('NFKD').replace(/[̀-ͯ]/g, '')
-    .replace(/[^a-z0-9\s-]/g, '')
-    .trim().replace(/\s+/g, '-')
-    .replace(/-+/g, '-') || 'section';
-}
-
-// Group sections into pages by topical section (path[1]), preserving the
-// document order encoded in parts[].sections. Returns { pages, secToPage }.
-export function planPages(ref) {
-  const pages = [];
-  const secToPage = new Map();
-  const byKey = new Map();
-
-  for (const part of ref.parts) {
-    for (const id of part.sections) {
-      const sec = ref.sections[id];
-      if (!sec) continue; // a part may reference a missing id; R2 flags it
-      const path = sec.path || [];
-      const topical = path[1] || path[0] || part.label;
-      const key = `${part.id}::${topical}`;
-      let page = byKey.get(key);
-      if (!page) {
-        page = {
-          slug: '',
-          part: part.label,
-          topical,
-          sectionIds: [],
-        };
-        byKey.set(key, page);
-        pages.push(page);
-      }
-      page.sectionIds.push(id);
-    }
-  }
-
-  // Assign ordinal-prefixed slugs (keeps the directory in reading order and
-  // disambiguates topical labels that repeat across parts).
-  pages.forEach((page, i) => {
-    page.slug = `${String(i + 1).padStart(2, '0')}-${slugify(page.topical)}`;
-    for (const id of page.sectionIds) secToPage.set(id, page.slug);
-  });
-
-  return { pages, secToPage };
-}
-
-// Rewrite in-page anchors to cross-page links when the target lives elsewhere.
-function rewriteRefs(html, thisSlug, secToPage) {
-  return html.replace(/href="#sec-(\d+)"/g, (whole, n) => {
-    const target = secToPage.get(n);
-    if (!target || target === thisSlug) return whole; // same page → bare fragment
-    return `href="${target}.html#sec-${n}"`;
+// Cross-refs → same-page fragment, or a link to the page holding the target.
+export function rewriteRefs(html, thisSlug, secToPage) {
+  return String(html).replace(/<a data-ref="([^"]+)">/g, (_, id) => {
+    const target = secToPage.get(id);
+    const href = !target || target === thisSlug ? `#sec-${id}` : `${target}.html#sec-${id}`;
+    return `<a class="ag-ref" href="${escapeAttr(href)}">`;
   });
 }
 
-// A&G's paradigm tables are wide (up to ~11 columns). Wrap each in a
-// horizontally-scrollable container so they don't overflow narrow viewports.
-function wrapTables(html) {
-  return html
-    .replace(/<table class="ag-table">/g, '<div class="ag-table-wrap"><table class="ag-table">')
-    .replace(/<\/table>/g, '</table></div>');
-}
-
-// Render one section page's body: subsection headings (path[2..]) emitted when
-// they change between consecutive sections, then each §N as an anchored block.
-function renderPageBody(page, ref, secToPage) {
+// One chapter's body: the group path (toc groups below the chapter) emitted as
+// a subhead whenever it changes between consecutive sections, then each
+// section as an anchored block.
+export function renderChapterBody(chapter, index) {
   const out = [];
   let lastSub = null;
-  for (const id of page.sectionIds) {
-    const sec = ref.sections[id];
-    const sub = (sec.path || []).slice(2).join(' › ');
+  for (const { id, groups } of chapter.entries) {
+    const info = index.sections.get(id);
+    if (!info) continue;
+    const sub = groups.join(' › ');
     if (sub && sub !== lastSub) {
       out.push(`<h2 class="ag-subhead">${escapeHtml(sub)}</h2>`);
       lastSub = sub;
     }
-    const body = wrapTables(rewriteRefs(sec.html, page.slug, secToPage));
+    const body = wrapTables(rewriteRefs(info.html, chapter.slug, index.secToPage));
+    const edited = info.edited ? ' <span class="ag-edited">edited</span>' : '';
     out.push(
-      `<section class="ag-section" id="sec-${escapeAttr(id)}">` +
-      `<h3 class="ag-secnum"><a href="#sec-${escapeAttr(id)}">§ ${escapeHtml(id)}</a></h3>` +
+      `<section class="ag-section${info.source === 'editorial' ? ' ag-editorial' : ''}" id="sec-${escapeAttr(id)}">` +
+      `<h3 class="ag-secnum"><a href="#sec-${escapeAttr(id)}">${escapeHtml(sectionLabel(info))}</a>${edited}</h3>` +
       `${body}</section>`
     );
   }
   return out.join('\n');
 }
 
-function rangeLabel(page) {
-  const ids = page.sectionIds;
-  const first = ids[0], last = ids[ids.length - 1];
+export function rangeLabel(chapter) {
+  const nums = chapter.sectionIds.filter((id) => /^\d+$/.test(id));
+  if (!nums.length) return '';
+  const first = nums[0], last = nums[nums.length - 1];
   return first === last ? `§ ${first}` : `§§ ${first}–${last}`;
 }
 
-function renderIndexBody(ref, pages, languageName) {
-  const src = ref.source;
-  const partBlocks = ref.parts.map((part) => {
-    const partPages = pages.filter((p) => p.part === part.label);
-    const items = partPages.map((p) =>
-      `    <li><a href="${escapeAttr(p.slug)}.html">${escapeHtml(p.topical)}</a> ` +
-      `<span class="ag-range">${escapeHtml(rangeLabel(p))}</span></li>`
+// Credit line from sources[], shown on every page (CC BY-SA markup).
+export function attributionHtml(ref, index) {
+  const lines = (ref.sources || []).map((s) => `<p>${escapeHtml(s.attribution)}</p>`);
+  const anyEdited = [...index.sections.values()].some((s) => s.edited || s.source === 'editorial');
+  if (anyEdited) lines.push('<p>Sections marked “edited” differ from the source; sections without a § number are this site’s additions.</p>');
+  return `<footer class="piece attribution ag-source">${lines.join('')}</footer>`;
+}
+
+function renderIndexBody(ref, index, languageName) {
+  const src = ref.sources?.[0];
+  const partBlocks = index.parts.map((part) => {
+    const items = part.chapters.map((c) =>
+      `    <li><a href="${escapeAttr(c.slug)}.html">${escapeHtml(c.label)}</a> ` +
+      `<span class="ag-range">${escapeHtml(rangeLabel(c))}</span></li>`
     ).join('\n');
     return `  <section class="ag-part">\n    <h2>${escapeHtml(part.label)}</h2>\n    <ul class="ag-toc">\n${items}\n    </ul>\n  </section>`;
   }).join('\n');
 
+  const basis = src ? ` It began as ${escapeHtml(src.title)}, and keeps its section numbering (§), so a citation like “§ 419” links straight here; corrections and additions are this site’s own.` : '';
   return `<div class="reference-grammar-index">
-  <p class="ag-lede">A complete reference grammar — ${escapeHtml(src.title)}.
-  Sections keep their canonical numbering (§), so a citation like “§ 419”
-  links straight here. For the compact guide to pronunciation and the terms
-  used by the reader's word popovers, see the <a href="../guide/index.html">${escapeHtml(languageName)} Reader's Guide</a>.</p>
+  <p class="ag-lede">A complete reference grammar for the ${escapeHtml(languageName)} texts here.${basis}
+  For the compact guide to pronunciation and the terms used by the reader's word popovers, see the <a href="../guide/index.html">${escapeHtml(languageName)} Reader's Guide</a>.</p>
 ${partBlocks}
-  <footer class="ag-source">
-    <p>${escapeHtml(src.attribution)}</p>
-  </footer>
 </div>`;
 }
 
@@ -144,64 +99,66 @@ ${partBlocks}
  */
 export async function buildReferenceGrammar({ referenceGrammar, languageId, languageName, outDir, applyTemplate, pageTpl }) {
   const ref = referenceGrammar;
-  const subdir = join('_language', languageId, 'reference');
-  const dir = join(outDir, subdir);
+  const index = indexReferenceGrammar(ref);
+  const title = ref.title;
+  const dir = join(outDir, '_language', languageId, 'reference');
   await mkdir(dir, { recursive: true });
 
-  const { pages, secToPage } = planPages(ref);
   const assetPrefix = '../../../';
-
+  const attribution = attributionHtml(ref, index);
   const crumbBase = `<nav class="breadcrumb"><a href="${assetPrefix}index.html">Library</a> › ` +
-    `<a href="index.html">${escapeHtml(languageName)} Reference Grammar</a>`;
+    `<a href="index.html">${escapeHtml(title)}</a>`;
 
   // Index page.
   const indexHtml = applyTemplate(pageTpl, {
-    title: `${languageName} Reference Grammar`,
+    title: escapeHtml(title),
     assetPrefix, author: '', date: '', tags: '',
-    breadcrumb: `<nav class="breadcrumb"><a href="${assetPrefix}index.html">Library</a> › ${escapeHtml(languageName)} Reference Grammar</nav>`,
-    body: renderIndexBody(ref, pages, languageName),
+    breadcrumb: `<nav class="breadcrumb"><a href="${assetPrefix}index.html">Library</a> › ${escapeHtml(title)}</nav>`,
+    body: renderIndexBody(ref, index, languageName),
+    attribution,
     pagenav: '',
   });
   const indexPath = join(dir, 'index.html');
   await writeFile(indexPath, indexHtml);
 
-  // Section pages with prev/next.
-  for (let i = 0; i < pages.length; i++) {
-    const page = pages[i];
-    const prev = pages[i - 1];
-    const next = pages[i + 1];
+  // Chapter pages with prev/next.
+  const chapters = index.chapters;
+  for (let i = 0; i < chapters.length; i++) {
+    const ch = chapters[i];
+    const prev = chapters[i - 1];
+    const next = chapters[i + 1];
     const left = prev
-      ? `<a class="prev" href="${escapeAttr(prev.slug)}.html"><span class="dir">←</span> <span class="title">${escapeHtml(prev.topical)}</span></a>`
+      ? `<a class="prev" href="${escapeAttr(prev.slug)}.html"><span class="dir">←</span> <span class="title">${escapeHtml(prev.label)}</span></a>`
       : '<span class="prev placeholder"></span>';
     const right = next
-      ? `<a class="next" href="${escapeAttr(next.slug)}.html"><span class="title">${escapeHtml(next.topical)}</span> <span class="dir">→</span></a>`
+      ? `<a class="next" href="${escapeAttr(next.slug)}.html"><span class="title">${escapeHtml(next.label)}</span> <span class="dir">→</span></a>`
       : '<span class="next placeholder"></span>';
-    const pagenav = `<nav class="page-nav">${left}${right}</nav>`;
 
+    const range = rangeLabel(ch);
     const html = applyTemplate(pageTpl, {
-      title: page.topical,
+      title: escapeHtml(ch.label),
       assetPrefix, author: '', date: '',
-      tags: `<span class="ag-range">${escapeHtml(rangeLabel(page))}</span>`,
-      breadcrumb: `${crumbBase} › <span class="here">${escapeHtml(page.part)}: ${escapeHtml(page.topical)}</span></nav>`,
-      body: renderPageBody(page, ref, secToPage),
-      pagenav,
+      tags: range ? `<span class="ag-range">${escapeHtml(range)}</span>` : '',
+      breadcrumb: `${crumbBase} › <span class="here">${escapeHtml(ch.part.label)}: ${escapeHtml(ch.label)}</span></nav>`,
+      body: renderChapterBody(ch, index),
+      attribution,
+      pagenav: `<nav class="page-nav">${left}${right}</nav>`,
     });
-    await writeFile(join(dir, `${page.slug}.html`), html);
+    await writeFile(join(dir, `${ch.slug}.html`), html);
   }
 
   // nav.json — the iOS app opens a library entry ending in /index.html as a
   // book and pages it by nav.json (it hides the in-page breadcrumb and
-  // prev/next). Index first, then the section pages in reading order.
-  const bookTitle = `${languageName} Reference Grammar`;
+  // prev/next). Index first, then the chapter pages in reading order.
   const base = `_language/${languageId}/reference/`;
   const library = { title: 'Library', html_path: 'index.html' };
   const navPages = [
-    { slug: 'reference', title: bookTitle, html_path: `${base}index.html`, breadcrumbs: [library] },
-    ...pages.map((page) => ({
-      slug: page.slug,
-      title: page.topical,
-      html_path: `${base}${page.slug}.html`,
-      breadcrumbs: [library, { title: bookTitle, html_path: `${base}index.html` }],
+    { slug: 'reference', title, html_path: `${base}index.html`, breadcrumbs: [library] },
+    ...chapters.map((ch) => ({
+      slug: ch.slug,
+      title: ch.label,
+      html_path: `${base}${ch.slug}.html`,
+      breadcrumbs: [library, { title, html_path: `${base}index.html` }],
     })),
   ];
   navPages.forEach((p, i) => {
@@ -211,7 +168,7 @@ export async function buildReferenceGrammar({ referenceGrammar, languageId, lang
   });
   await writeFile(join(dir, 'nav.json'), JSON.stringify({ pages: navPages, uses_latin: false }, null, 2));
 
-  return { indexPath, pageCount: pages.length };
+  return { indexPath, pageCount: chapters.length };
 }
 
 // Convenience for ad-hoc runs: node build-reference-grammar.js

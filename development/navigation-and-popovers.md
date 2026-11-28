@@ -22,10 +22,11 @@ native note sheet.
   nav.json — every client renders notes from in-page `.note-popover-source`
   elements.
 
-## The three popover link types
+## The popover link types
 
-All three resolve into the single `#popover-host` element and share its
-back/up/prev/next chrome.
+All of them resolve into the single `#popover-host` element and share its
+chrome (home, prev/next, close, and the breadcrumb row). The reader stays in the
+text: nothing below navigates away while JS runs.
 
 ### 1. Editorial notes — `note:` scheme
 
@@ -60,50 +61,71 @@ error. See [latin-support.md](latin-support.md) for the card contents. The card
 HTML is rendered at runtime by `cards.js` from `lexicon.json`, not baked into the
 page.
 
-### 3. Reference-grammar deep links — `ag:` scheme
+### 3. Reference Grammar links — `ag:` and `ref:` schemes
 
-`[§N](ag:N)` (in piece text, note bodies, or grammar glosses) is rewritten to an
-anchor carrying both `data-ag="N"` (the in-flow hook) and a resolved `href` (the
-graceful fallback to the standalone reference page). Tapping it opens Allen &
-Greenough §N *inside* the popover stack; JS-off or unresolved contexts fall back
-to navigating the href. An unknown section id is a build error.
+`[§N](ag:N)` cites an A&G § number; `ref:ID` is the general form — a section id
+(§ number or `rr-…`), a chapter id (`ch-…`), or `contents`. Both work in piece
+text, note bodies, grammar glosses, and the guide page. The build rewrites them
+to an anchor carrying the in-flow hook — `data-ag="ID"` (a section) or
+`data-ag-toc="ch-…"`/`""` (contents) — and a fallback `href` into the standalone
+Reference Grammar (JS-off only). Tapping one, in the popover or in the text,
+opens the section or contents *inside* the popover stack. An unknown id is a
+build error.
+
+A section entry ends with a footer — ‹ previous · chapter · next › in document
+order. Previous/next *turn the page* (replace the current section); the chapter
+link opens that chapter's contents (groups → sections), which links up to the
+whole contents.
+
+### 4. The Reader's Guide in the text — `guide:` scheme and the Study hub
+
+Every page of a Latin book (`language: latin` front matter, or detected from
+Latin-passage spans) carries the Reader's Guide as in-page notes, keyed
+`guide-<id>` (`guideNotesDict` in `build.js`): `pronunciation`, `grammar` (the
+categories), one per grammar category (`case`, `tense`, …), `terms`, `notes`
+(this book's editorial notes as a list), and `study` — the **Study hub**. A
+**Study** button in the page header opens the hub as a fresh stack: Notes,
+Grammar, Pronunciation, Reference Grammar. `[x](guide:pronunciation)` links to
+an entry like a `note:` link; unknown ids are build errors, and `guide:` is only
+valid in Latin books. A card's pronunciation "guide" button opens the guide entry
+the same way. (Pronunciation lives only here — the standalone guide page no
+longer carries it.)
 
 ## The popover host and stack
 
-One `<aside id="popover-host" popover>` per page, emitted only when the page has
-any popover content. Its chrome — home (⌂), up (↑ with label), prev (‹), next
-(›), close (×), and a context row — wraps a `.popover-body` whose innerHTML is
-swapped on each navigation. `cards.js` maintains a **stack** of entries:
+One `<aside id="popover-host" popover>` per page (`popoverHostHtml()`), emitted
+when the page has any popover content — always on Latin-book pages and on the
+guide page. Its chrome is a control row — home (⌂), prev (‹), next (›), close
+(×) — over a breadcrumb row; a `.popover-body` below is swapped on each
+navigation. `cards.js` maintains a **stack** of entries:
 
 ```
 card entry: { type:'card', lemma, matches, stanzaLemma, surface, activeLemma }
-note entry: { type:'note', sourceId, label }
-ref  entry: { type:'ref',  id, label }        // an A&G §
+note entry: { type:'note', sourceId, label }   // editorial, grammar term, guide
+ref  entry: { type:'ref',  id, label }         // a Reference Grammar section
+toc  entry: { type:'toc',  id, label }         // its contents: '' or a chapter id
 ```
 
-### Context model
+### Trail navigation
 
-The flat stack is grouped into **contexts** — contiguous runs of the same
-"family". Two families exist: `local` (cards + editorial notes opened from the
-text) and `grammar` (A&G reference sections). A new context begins whenever the
-family changes (e.g. tapping an `ag:` link from a card note). The chrome then
-means:
+The stack is the trail of steps taken from the text.
 
-- **Prev / Next** — move within the current context; disabled at its ends.
-- **Up (↑)** — jump to the last entry of the previous context (labelled with its
-  title).
+- **Breadcrumb** — the page (tap to close), then every step to the current
+  entry: *Proem › In › Preposition › §219 · Prepositions*. Tapping a crumb
+  jumps back to that step. Long trails collapse their middle to "…" (sooner
+  under 600px).
+- **Prev / Next** — step back and forward along the trail.
 - **Home (⌂)** — jump back to the origin entry.
 
-There is no redo and no "down": you descend by following a link. Each stack step
+Following a link from an earlier step drops the old forward steps; you descend by following a link. Each stack step
 remembers its scroll offset (saved on leave, restored before paint).
 
 ### Shareable / restorable reading state
 
-The whole stack (entries, context, per-step scroll, position) is serialized into
+The whole stack (entries, per-step scroll, position) is serialized into
 the URL hash as `#g=<base64url>` on every navigation (`persistState`). That makes
-the open popover **shareable, bookmarkable, reload-surviving**, and — crucially —
-restorable on Back after the "Open full section ↗" excursion that navigates away
-to the standalone reference page. Restore fires on `pageshow` / `popstate` /
+the open popover **shareable, bookmarkable, and reload-surviving**, and restores
+it on Back after any navigation away. Restore fires on `pageshow` / `popstate` /
 `hashchange` and on initial load.
 
 ## iOS integration
@@ -113,11 +135,14 @@ to the standalone reference page. Restore fires on `pageshow` / `popstate` /
 - **popover bridge** — posts `{open}` to native on `#popover-host` toggle, so
   the pager can suspend horizontal paging while a popover is open.
 - **scroll bridge** — debounced `window.scrollY` reports for silent resume.
-- **refnotes bridge** — on the first `ag:` tap, native reads
+- **refnotes bridge** — on the first `ag:`/`ref:` tap, native reads
   `assets/latin-reference-notes.json` off disk (WKWebView can't `fetch()`
-  `file://`) and injects `window.__readingRoomReferenceNotes`, resolving the
-  pending `cards.js` promise. Loaded lazily, never always-on.
+  `file://`) and injects `window.__readingRoomReferenceNotes` (plus `…Toc` and
+  `…Title`), resolving the pending `cards.js` promise. Loaded lazily, never
+  always-on.
 
-Because the popover is pure DOM, all three link types behave identically on web
-and iOS — the native layer only routes page-to-page jumps and lazy-loads the
-two big `file://`-blocked assets (lexicon, reference notes).
+Because the popover is pure DOM, every link type behaves identically on web and
+iOS — the native layer only routes page-to-page jumps, lazy-loads the two big
+`file://`-blocked assets (lexicon, reference notes), and offers a native
+**Study** toolbar button (the web one is hidden) that calls
+`window.readingRoom.openStudy()`.

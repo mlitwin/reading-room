@@ -39,7 +39,7 @@ html, body {
   padding: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: ui-serif, Georgia, "New York", serif;
+  font-family: var(--font-text);
   font-size: 18px;
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;

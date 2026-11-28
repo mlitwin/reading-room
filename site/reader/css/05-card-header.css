@@ -7,7 +7,7 @@
   margin: 0 0 0.6rem 0;
 }
 .card-popover .card-lemma {
-  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-family: var(--font-text);
   font-size: 1.3rem;
   font-weight: 600;
   margin: 0 0 0.15rem;
@@ -24,7 +24,7 @@
   font-weight: 400;
 }
 .card-popover .card-principal {
-  font-family: ui-serif, Georgia, serif;
+  font-family: var(--font-text);
   font-style: italic;
   margin: 0;
   color: var(--muted);
@@ -46,8 +46,8 @@
 }
 .card-popover .card-pron-ipa {
   color: var(--muted);
-  /* IPA needs ɫ, t͡ʃ, combining tildes and tie bars: fonts known to carry them. */
-  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  /* IPA (ɫ, t͡ʃ, combining tildes, tie bars): Charis carries it all. */
+  font-family: var(--font-text);
 }
 /* One item per pronounced form — two when vowel length depends on a parse
    the text leaves open (rosa nom. / rosā abl.). */
@@ -92,6 +92,12 @@
   color: var(--fg);
 }
 .card-popover .card-pron-help {
+  /* a button (opens the Pronunciation entry in-flow) styled as a link */
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 0.7rem;
   color: var(--accent);

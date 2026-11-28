@@ -7,10 +7,9 @@ final class BookViewState {
     var webView: WKWebView?
     var currentPath: String?
     var isLoading: Bool = true
-    // True when the in-page WebView has back history — e.g. after the popover's
-    // "Open full section ↗" excursion to a reference page. Drives the native
-    // Back control so the reader can return (cards.js then restores the popover
-    // from the #g= reading-state in the URL). See the navigation plan, Phase E.
+    // True when the in-page WebView has back history — after following a link
+    // out of the book. Drives the native Back control so the reader can return
+    // (cards.js then restores the popover from the #g= reading-state in the URL).
     var webViewCanGoBack: Bool = false
     var errorMessage: String?
     var nav: BookNav?
@@ -67,9 +66,9 @@ struct PieceDetailView: View {
         piece.isBook && (state.nav?.pages.count ?? 0) > 1
     }
 
-    // True when the reader is on an off-book reference page reached from the
-    // popover's "Open full section ↗" — i.e. the current page isn't one of the
-    // book's own nav pages, and there's WebView history to return through.
+    // True when the reader is on a page outside the book with WebView history
+    // to return through — a fallback link followed out of the text. Reference
+    // Grammar links now open in the popover, so this is a safety net.
     private var isOnReferenceExcursion: Bool {
         state.currentPath != nil && state.currentEntry == nil && state.webViewCanGoBack
     }
@@ -193,10 +192,10 @@ struct PieceDetailView: View {
             state.webView?.scrollView.isScrollEnabled = !open
         }
         .toolbar {
-            // One back control, "up one level": on an off-book reference page
-            // (reached via the popover's "Open full section ↗"), it returns to
-            // the reading spot (cards.js restores the popover from #g=); on a
-            // normal book page it exits to the library. The label says where
+            // One back control, "up one level": on an off-book page reached
+            // by a link out of the text, it returns to the reading spot
+            // (cards.js restores the popover from #g=); on a normal book page
+            // it exits to the library. The label says where
             // you'll land. Replaces the old dual back/forward + uturn controls.
             ToolbarItem(placement: .topBarLeading) {
                 if piece.isBook && !state.isPopoverOpen {
@@ -211,6 +210,18 @@ struct PieceDetailView: View {
                             Image(systemName: "chevron.backward")
                             Text(isOnReferenceExcursion ? "Reading" : "Library")
                         }
+                    }
+                }
+            }
+            ToolbarItem(placement: .topBarTrailing) {
+                // Study hub (Latin books): notes, grammar, pronunciation, and the
+                // Reference Grammar, in the page's popover — the native twin of
+                // the web page's Study button, which the app hides.
+                if state.nav?.usesLatin == true && !state.isPopoverOpen && !isOnReferenceExcursion {
+                    Button {
+                        state.webView?.evaluateJavaScript("window.readingRoom && window.readingRoom.openStudy()")
+                    } label: {
+                        Label("Study", systemImage: "graduationcap")
                     }
                 }
             }

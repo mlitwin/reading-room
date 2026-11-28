@@ -3,8 +3,8 @@
 The Latin apparatus is what makes Reading Room more than a markdown renderer.
 Every Latin word in a study text is a tap-target; the popover gives its lemma,
 principal parts or declension, a full inflection paradigm with the in-context
-form highlighted, glosses, and deep links into a browsable Allen & Greenough
-reference grammar. This doc covers the *data model and runtime*. For how the raw
+form highlighted, glosses, and deep links into the Reference Grammar (seeded
+from Allen & Greenough), all inside the text's own popover. This doc covers the *data model and runtime*. For how the raw
 text becomes annotated spans, see [../site/latin/README.md](../site/latin/README.md).
 
 ## The three language sources
@@ -15,7 +15,7 @@ All under `content/_language/latin/` (the `_` keeps them out of the book pass):
 |------|------|
 | `grammar.json` | the **parse-code vocabulary** — cases, numbers, genders, tenses, moods, voices, persons, parts of speech, and general grammar terms, each with a gloss and Allen & Greenough (`agRefs`) cross-references |
 | `lexicon.json` | the **dictionary** — one card per lemma (headword, pos, principal parts / paradigm, glosses, notes). `lemmata[]`, keyed by stable id like `fero_v`, `animus_n` |
-| `reference-grammar.json` | the **full A&G grammar** — 642 canonical §-sections with paradigm tables and cross-refs, ingested from vendored TEI |
+| `reference-grammar.json` | the **Reference Grammar** — a toc tree plus 642 §-sections (paradigm tables, cross-refs), seeded once from vendored Allen & Greenough TEI and edited by hand since |
 
 `content/_latin-lexicon/<lemma>.json` holds the older per-lemma card files.
 `lexicon.json` is now the source of truth; the per-lemma files are a legacy
@@ -139,8 +139,9 @@ The primary texts and the reference grammar are vendored TEI XML under
   ingested by `ingest_translation.py` into `sources/translations/` (~146 files);
   `scribe_book1_mechanical.py` weaves it into first-pass page markdown.
 - `viaf39744457.001.perseus-eng1.xml` — Allen & Greenough, *New Latin Grammar*
-  (Ginn & Co., 1903) TEI, ingested by `ingest_ag.py` into
-  `reference-grammar.json` (642 §-sections). PD underlying text; Perseus TEI
+  (Ginn & Co., 1903) TEI, the one-time seed of `reference-grammar.json`
+  (642 §-sections; `ingest_ag.py` → `seed_reference_grammar.py`, both retired
+  after use). PD underlying text; Perseus TEI
   markup CC BY-SA with Dickinson College Commentaries corrections.
 
 ### Provenance at a glance
@@ -154,7 +155,7 @@ The primary texts and the reference grammar are vendored TEI XML under
 | Wiktionary (wiktextract) | `sources/wiktionary-cache.json` (+ gitignored full extract) | structured lexicon | audit (`wiktionary-audit.md`) | `wiktionary_lookup.py` |
 | Ovid Latin TEI | `sources/…perseus-lat2.xml` | canonical text | `sources/cards/` | `ingest_perseus.py` |
 | Ovid translation TEI | `sources/…perseus-eng3.xml` | translation | page scribing | `ingest_translation.py` |
-| A&G grammar TEI | `sources/…perseus-eng1.xml` | reference grammar | `reference-grammar.json` | `ingest_ag.py` |
+| A&G grammar TEI | `sources/…perseus-eng1.xml` | reference grammar (seed) | `reference-grammar.json` | `ingest_ag.py` → `seed_reference_grammar.py` (both one-time) |
 
 ## How a word becomes a card
 
@@ -259,20 +260,48 @@ web.
 
 ## Reference grammar
 
-`reference-grammar.json` is ingested once from vendored Allen & Greenough TEI
-(`site/latin/ingest_ag.py`). The build produces two things from it:
+`content/_language/latin/reference-grammar.json` is the site's own **Reference
+Grammar**. Allen & Greenough was its seed, not an upstream: `ingest_ag.py`
+extracted the TEI once, `seed_reference_grammar.py` reshaped it once (toc tree,
+display-case headings, `data-ref` cross-refs, the §114–122 chapter split), and
+since then the file is edited by hand — corrections to A&G text (`edited: true`
++ `edit_note`) and additions (`rr-…` ids, `source: "editorial"`). Shape:
 
-- **Browsable pages** (`build-reference-grammar.js`) under
-  `docs/_language/latin/reference/` — one page per topical section (~50 pages),
-  each § anchored `id="sec-N"`, with cross-refs rewritten to point at the page
-  that holds the target §. Listed in the library as "Latin Reference Grammar".
-- **In-popover notes** (`build-reference-notes.js`) →
-  `docs/assets/latin-reference-notes.json` — the same sections as
-  popover-renderable note bodies, so `ag:` links open in-flow (see the
-  [navigation doc](navigation-and-popovers.md)). A separate compact page,
-  the **Latin Reader's Guide** (`_language/latin/guide/`, `build-grammar-page.js`),
-  holds Pronunciation (from `pronunciation.md`) and the parse-code glossary
-  (from `grammar.json`); its old address `_language/latin/grammar/` redirects.
+- `toc` — parts → chapters (`id`, `slug` = page file name, `label`, `items`) →
+  nested groups (`label`, `items`) → section ids. The toc *is* the document
+  order.
+- `sections` — `{ source, html, heading?, source_page?, edited?, edit_note? }`.
+  Cross-refs in `html` are `<a data-ref="ID">`.
+- `sources` — provenance for the credit line (CC BY-SA markup).
+
+Only authored data is stored. `site/generator/lib/reference-grammar.js` derives
+the rest — chapter, group headings, prev/next, xrefs, section → page — and
+every consumer uses it:
+
+- **Standalone document** (`build-reference-grammar.js`) under
+  `docs/_language/latin/reference/` — one page per chapter, each section
+  anchored `id="sec-ID"`, credit footer on every page. Listed in the library as
+  "Reference Grammar".
+- **In-popover entries** (`build-reference-notes.js`) →
+  `docs/assets/latin-reference-notes.json` — the same sections (plus the toc and
+  derived prev/next/chapter), so `ag:`/`ref:` links open in-flow in any Latin
+  text (see the [navigation doc](navigation-and-popovers.md)).
+
+Checks, independent of any text: invariants R0–R12 in `make validate` (schema,
+toc ⇄ sections, cross-refs, an HTML allow-list, URL stability against
+`site/generator/validate/reference-urls.baseline.json` — rerun
+`npm run reference:baseline` only for an intended move), fixture rendering and
+popover/page parity tests in `make node-test`, `make reference-check` over the
+built pages (also in CI), and the proofreading checklist
+`site/latin/reference-grammar-review.md` (`npm run reference:review`, keeps
+ticks across regenerations).
+
+The **Latin Reader's Guide** (`_language/latin/guide/`, `build-grammar-page.js`)
+is the compact companion: the parse-code glossary (from `grammar.json`); its
+old address `_language/latin/grammar/` redirects. Pronunciation (from
+`pronunciation.md`) appears only in the texts: every page of a Latin book
+carries it, with the grammar categories, as in-page guide notes (`guide:`
+links, the Study hub).
 
 ## Pronunciation
 

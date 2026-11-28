@@ -1,4 +1,4 @@
-.PHONY: install build serve clean test validate node-test manuscript-md \
+.PHONY: install build serve clean test validate node-test manuscript-md reference-check \
         latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
         latin-translate-ingest latin-scribe-book1 latin-stanza-editorial \
         latin-stanza-annotate latin-stanza-annotate-all latin-normalize-surface \
@@ -29,6 +29,10 @@ serve:
 # locations; passes through to validate.js otherwise.
 validate:
 	cd site/generator && npm run --silent validate
+
+# Built Reference Grammar in docs/: links, anchors, nav.json, popover asset.
+reference-check:
+	cd site/generator && npm run --silent reference:check
 
 # Node-side framework tests (Zod schemas + invariant runner).
 node-test:

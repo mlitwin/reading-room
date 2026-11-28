@@ -84,14 +84,15 @@ numeric prefixes define cascade order) into a single `docs/assets/reader.css`:
 
 | file | scope |
 |------|-------|
+| `00-fonts.css` | `@font-face` for Charis (the text face) and the `--font-text` stack — see `site/reader/fonts/README.md` |
 | `01-base.css` | typography, layout, colour, the reading column |
 | `02-index.css` | the library landing page |
 | `03-navigation.css` | breadcrumb + prev/next chrome |
-| `04-popover.css` | the `#popover-host` shell + chrome (back/up/close, context row) |
+| `04-popover.css` | the `#popover-host` shell + chrome (home/prev/next/close, breadcrumb row), Study button, guide lists |
 | `05-card-header.css` | lexicon-card header (lemma, pos chip, parse slot, tabs) |
 | `06-paradigm.css` | the inflection paradigm grid — see [paradigm-grid-pattern.md](paradigm-grid-pattern.md) |
 | `07-card-detail.css` | glosses, notes, card body detail |
-| `08-reference-grammar.css` | the browsable A&G reference-grammar pages |
+| `08-reference-grammar.css` | the Reference Grammar pages, and its in-popover contents and section footer |
 | `09-early-modern-text.css` | early-printed-text conventions: `.title-page` heading blocks, `.verse`, `.roman` in italic, `.inline-gloss` tap/hover glosses |
 
 `highlight.css` and `cards.js` are copied verbatim into `docs/assets/`. The plain-CSS output is one `<link>` that works over both
@@ -103,14 +104,15 @@ concatenation.
 The build produces, in addition to the per-page HTML:
 
 - `reader.css`, `highlight.css`, `cards.js` — the client bundle.
-- `katex.min.css` + `fonts/` — copied from the KaTeX package.
+- `katex.min.css` + `fonts/` — copied from the KaTeX package; `fonts/` also
+  gets the Charis WOFF2 faces and their `OFL.txt` from `site/reader/fonts/`.
 - `lexicon.json` / `lexicon.js` — the runtime Latin dictionary (shared lexicon
   plus per-book `vocabulary/` overlays). The `.js` wrapper sets
   `window.__readingRoomLexicon` for `file://` (WKWebView can't `fetch()` local
   files).
 - `latin-grammar.json` / `.js` — parse-code grammar (drives chip labels).
 - `latin-glossary.json` — surface-form → candidate-lemma index.
-- `latin-reference-notes.json` — A&G sections as in-popover note bodies.
+- `latin-reference-notes.json` — Reference Grammar sections, toc, and derived prev/next/chapter, for the popover.
 - `concordance/<text>.json` (+ `.source-tokens.json`) — per-text token index.
 - `reading-room-data.js` / `.json` — combined bundle (grammar + glossary +
   concordances) for the iOS injection path.

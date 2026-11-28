@@ -1,56 +1,58 @@
-// Derive the language-level reference-NOTES artifact from reference-grammar.json:
-// a popover-sized representation of each A&G section, shared across every Latin
-// text (A&G is a property of the language, not of Ovid). The reader's popover
-// stack (cards.js) and the iOS note sheet render these in-flow, so an "ag:N"
-// tap opens §N inside the popover instead of navigating away.
+// Project the Reference Grammar (reference-grammar.json) into the
+// language-level popover artifact, docs/assets/{lang}-reference-notes.json. It
+// is shared across every Latin text: the reader's popover stack (cards.js)
+// renders these in-flow, so an `ag:N` / `ref:ID` tap opens the section inside
+// the popover instead of navigating away.
 //
-// Differences from the browsable page HTML:
-//   - cross-refs <a class="ag-ref" href="#sec-M"> become in-flow controls
-//     <a class="ag-link" data-ag="M"> so §→§ drilling stays in the popover;
-//   - a trailing "Open full section ↗" control (data-full) is the one explicit
-//     navigate-away to the standalone page.
+// Same data as the standalone document (build-reference-grammar.js); the only
+// difference is link rewriting (tables get the same scroll wrapper) — cross-refs <a data-ref="M"> become in-flow
+// controls <a class="ag-link" data-ag="M">. Derived navigation (chapter,
+// prev/next) is included so the popover can page through the grammar.
 //
-// See Plans/latin-grammar-inline-flow-plan.md.
+// See Plans/latin-text-centered-reader-plan.md (D1, D4).
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { planPages } from './build-reference-grammar.js';
+import { indexReferenceGrammar, sectionShortLabel, wrapTables } from './lib/reference-grammar.js';
 
-// Rewrite a section's page HTML into popover (in-flow) HTML.
-function toPopoverHtml(sectionHtml, fullPath) {
-  const inflight = String(sectionHtml).replace(
-    /<a class="ag-ref" href="#sec-(\d+)">([\s\S]*?)<\/a>/g,
-    (_, n, text) => `<a class="ag-link" data-ag="${n}">${text}</a>`
-  );
-  const fullLink = `<p class="ag-fullpage"><a class="ag-fullpage-link" data-full="${fullPath}">Open full section ↗</a></p>`;
-  return inflight + fullLink;
+// Rewrite a section body into popover (in-flow) HTML.
+export function toPopoverHtml(sectionHtml) {
+  return wrapTables(String(sectionHtml).replace(/<a data-ref="([^"]+)">/g, '<a class="ag-link" data-ag="$1">'));
+}
+
+function tocTree(index) {
+  return index.parts.map((p) => ({
+    id: p.id,
+    label: p.label,
+    chapters: p.chapters.map((c) => ({ id: c.id, label: c.label, slug: c.slug, items: c.items })),
+  }));
 }
 
 /**
  * Build the reference-notes object (pure; no I/O).
  * @param {object} referenceGrammar  parsed reference-grammar.json
- * @returns {{ language_id: string, generated_at: string, notes: Record<string, object> }}
  */
 export function buildReferenceNotes(referenceGrammar) {
-  const ref = referenceGrammar;
-  const { secToPage } = planPages(ref);
+  const index = indexReferenceGrammar(referenceGrammar);
   const notes = {};
-  for (const [id, sec] of Object.entries(ref.sections)) {
-    const slug = secToPage.get(id);
-    // docroot-relative; the runtime prepends the consuming page's asset prefix.
-    const fullPath = slug ? `_language/latin/reference/${slug}.html#sec-${id}` : null;
+  for (const [id, info] of index.sections) {
     notes[id] = {
       id,
-      title: sec.heading || `Section ${id}`,
-      html: toPopoverHtml(sec.html, fullPath),
-      refs: Array.isArray(sec.xrefs) ? sec.xrefs : [],
-      full_path: fullPath,
+      label: sectionShortLabel(info),
+      title: info.heading,
+      html: toPopoverHtml(info.html),
+      refs: info.xrefs,
+      chapter: info.chapter.id,
+      prev: info.prev,
+      next: info.next,
     };
   }
   return {
-    language_id: ref.language_id,
+    language_id: referenceGrammar.language_id,
+    title: index.title,
     generated_at: new Date().toISOString(),
+    toc: tocTree(index),
     notes,
   };
 }

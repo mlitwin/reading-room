@@ -101,7 +101,7 @@ final class ReaderWebHost: NSObject {
     private static let hideChromeJS = """
         (function() {
           var style = document.createElement('style');
-          style.textContent = 'header.site, nav.breadcrumb, nav.page-nav { display: none !important; } article { margin-top: 1rem !important; }';
+          style.textContent = 'header.site, nav.breadcrumb, nav.page-nav, .study-button { display: none !important; } article { margin-top: 1rem !important; }';
           document.head.appendChild(style);
         })();
         """
@@ -161,7 +161,11 @@ extension ReaderWebHost: WKScriptMessageHandler {
         var js = resolve
         if let data = try? Data(contentsOf: url),
            let json = String(data: data, encoding: .utf8) {
-            js = "window.__readingRoomReferenceNotes = (\(json)).notes; " + resolve
+            // Sections, plus the contents tree and title for the popover's
+            // Reference Grammar contents entries.
+            js = "(function (d) { window.__readingRoomReferenceNotes = d.notes; "
+                + "window.__readingRoomReferenceToc = d.toc; window.__readingRoomReferenceTitle = d.title; })(\(json)); "
+                + resolve
         }
         webView.evaluateJavaScript(js)
     }

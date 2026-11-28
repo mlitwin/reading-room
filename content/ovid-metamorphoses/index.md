@@ -2,6 +2,7 @@
 title: Ovid's Metamorphoses
 author: Matthew Litwin
 date: 2026-05-23
+language: latin
 tags: [latin, ovid, poetry, classics]
 summary: Ovid's Metamorphoses Book 1 with a per-word study apparatus. Each Latin word is a tap-target; the popover gives the lemma, principal parts (or declension), full paradigm with the active form highlighted, and a short gloss list. A reader with no Latin can work through the text; a reader with some Latin uses the cards as a fast lookup.
 ---

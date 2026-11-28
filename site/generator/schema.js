@@ -21,6 +21,10 @@ export const PieceSchema = z.object({
   attribution: z.string().optional(),
   source: z.string().url().optional(),
   latin_pronunciation: latinPronunciation,
+  // The language the book is read in. `latin` gives every page the study
+  // surface (Study button, guide entries, reference grammar in the popover).
+  // Optional: a book with Latin-passage spans is detected as Latin anyway.
+  language: z.enum(['latin']).optional(),
 }).passthrough();
 
 // Node: anything inside a Book — section index.md or a leaf chapter .md.

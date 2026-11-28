@@ -60,7 +60,7 @@ ${rows}
  * @param {object} params.md           the build's markdown-it instance
  * @param {(html: string, assetPrefix: string) => string} params.resolveAgLinks
  * @param {string} params.assetPrefix  of the page the section lands on
- * @returns {Promise<{html: string, toc: {id: string, label: string}[]}>}
+ * @returns {Promise<{html: string, toc: {id: string, label: string}[], noteBody: string}>}
  */
 export async function renderPronunciationSection({ sourcePath, readerDir, md, resolveAgLinks, assetPrefix }) {
   const { data, content } = matter(await readFile(sourcePath, 'utf8'));
@@ -74,11 +74,14 @@ export async function renderPronunciationSection({ sourcePath, readerDir, md, re
     toc.push({ id, label: inner.replace(/<[^>]+>/g, '') });
     return `<h3 id="${id}" class="pron-subhead">${inner}</h3>`;
   });
+  // The unresolved body (raw `ag:` links) also becomes the in-text popover
+  // entry, whose links are resolved per host page.
+  const noteBody = body;
   body = resolveAgLinks(body, assetPrefix);
 
   const html = `  <section id="pronunciation" class="grammar-category pronunciation-guide">
     <h2>Pronunciation</h2>
 ${body}
   </section>`;
-  return { html, toc };
+  return { html, toc, noteBody };
 }

@@ -11,7 +11,8 @@ import { validatePiece, validateNode, validateNotesJson } from './schema.js';
 import { buildGlossary } from './build-glossary.js';
 import { buildConcordance } from './build-concordance.js';
 import { buildGrammarPage } from './build-grammar-page.js';
-import { buildReferenceGrammar, planPages as planReferencePages } from './build-reference-grammar.js';
+import { buildReferenceGrammar } from './build-reference-grammar.js';
+import { indexReferenceGrammar } from './lib/reference-grammar.js';
 import { emitReferenceNotes } from './build-reference-notes.js';
 import { renderPronunciationSection } from './build-pronunciation-section.js';
 
@@ -75,8 +76,11 @@ md.core.ruler.push('rewrite_md_links', state => {
       const href = child.attrs[idx][1];
       if (!href) continue;
 
-      // note: scheme → mark this link as a note reference.
-      const noteMatch = href.match(/^note:(.+)$/);
+      // note: scheme → mark this link as a note reference. guide:X is the
+      // same, keyed guide-X: the Reader's Guide entries (pronunciation, grammar
+      // categories) that Latin books carry as in-page notes (guideNotesDict).
+      const guideMatch = href.match(/^guide:(.+)$/);
+      const noteMatch = guideMatch ? [href, `guide-${guideMatch[1]}`] : href.match(/^note:(.+)$/);
       if (noteMatch) {
         const key = noteMatch[1];
         // During notes-page extraction the dictionary is still being built
@@ -85,7 +89,9 @@ md.core.ruler.push('rewrite_md_links', state => {
         // do enforce it. Cross-note references are validated post-extraction.
         if (!env.deferNoteValidation) {
           if (!env.notesDict || !env.notesDict[key]) {
-            throw new Error(`${env.filePath ?? '<unknown>'}: undefined note "${key}". Add it to the book's notes page.`);
+            throw new Error(guideMatch
+              ? `${env.filePath ?? '<unknown>'}: undefined guide entry "${guideMatch[1]}" (guide: links work in Latin books; ids: ${GUIDE_IDS_HINT}).`
+              : `${env.filePath ?? '<unknown>'}: undefined note "${key}". Add it to the book's notes page.`);
           }
         }
         child.meta = Object.assign({}, child.meta, { noteKey: key });
@@ -154,23 +160,31 @@ function escapeHtml(s) {
 }
 const escapeAttr = escapeHtml;
 
-// Reference-grammar section → page slug, populated in build() when the A&G
-// reference grammar is present. Used to resolve `ag:N` deep links wherever
-// they appear (piece text, editorial note bodies, note popovers).
-let _agSecToPage = null;
+// The Reference Grammar's derived index (lib/reference-grammar.js), populated
+// in build() when reference-grammar.json is present. Used to resolve `ag:` /
+// `ref:` links wherever they appear (piece text, note bodies, guide entries).
+let _refIndex = null;
 
-// Rewrite `<a href="ag:N">` links to reference-grammar links. The emitted
-// anchor carries BOTH `data-ag="N"` (the in-flow hook: cards.js intercepts it
-// to open §N inside the popover stack) and a resolved `href` (graceful
-// fallback — direct navigation when JS is off, and the path the iOS note layer
-// follows until it too intercepts data-ag). Editorial mistakes throw, matching
-// the strictness of `note:` refs. See Plans/latin-grammar-inline-flow-plan.md.
+// Rewrite `<a href="ag:N">` / `<a href="ref:ID">` links. `ag:N` cites an A&G
+// § number; `ref:ID` is the general form (a § number, an `rr-` section, a
+// chapter id `ch-…`, or `contents`). The emitted anchor carries the in-flow
+// hook cards.js intercepts — `data-ag` (a section) or `data-ag-toc` (a chapter,
+// or "" for the contents) — plus a fallback `href` into the standalone
+// Reference Grammar for JS-off. Unknown ids throw, like `note:` refs.
 function resolveAgLinks(html, assetPrefix) {
-  if (!_agSecToPage) return html;
-  return html.replace(/href="ag:(\d+)"/g, (_, n) => {
-    const slug = _agSecToPage.get(String(n));
-    if (!slug) throw new Error(`undefined A&G reference "ag:${n}" (no such section)`);
-    return `class="ag-link" data-ag="${n}" href="${assetPrefix}_language/latin/reference/${slug}.html#sec-${n}"`;
+  if (!_refIndex) return html;
+  const base = `${assetPrefix}_language/latin/reference/`;
+  return html.replace(/href="(ag|ref):([^"]+)"/g, (_, scheme, id) => {
+    if (scheme === 'ag' && !/^\d+$/.test(id)) throw new Error(`invalid A&G reference "ag:${id}" (ag: takes a § number; use ref: for other ids)`);
+    if (_refIndex.sections.has(id)) {
+      return `class="ag-link" data-ag="${escapeAttr(id)}" href="${base}${_refIndex.secToPage.get(id)}.html#sec-${escapeAttr(id)}"`;
+    }
+    if (scheme === 'ref' && id === 'contents') {
+      return `class="ag-link" data-ag-toc="" href="${base}index.html"`;
+    }
+    const chapter = scheme === 'ref' ? _refIndex.chapterById.get(id) : null;
+    if (chapter) return `class="ag-link" data-ag-toc="${escapeAttr(id)}" href="${base}${chapter.slug}.html"`;
+    throw new Error(`undefined reference "${scheme}:${id}" (no such section${scheme === 'ref' ? ' or chapter' : ''})`);
   });
 }
 
@@ -400,6 +414,58 @@ function grammarNotesDict(grammar) {
     console.warn(`grammar.json: ${collisions.length} key collision(s):`);
     for (const c of collisions.slice(0, 5)) console.warn(`  ${c}`);
   }
+  return dict;
+}
+
+// The Reader's Guide as in-page notes for Latin books, so the reader can open
+// it from the text without leaving it (Plans/latin-text-centered-reader-plan.md,
+// D2/D4). Keys are `guide-<id>`, reached by `guide:<id>` links and from the
+// Study hub (`guide-study`):
+//   guide-pronunciation   the pronunciation guide
+//   guide-grammar         the grammar categories, each → guide-<category id>
+//   guide-<category id>   that category's values (→ the grammar-term notes)
+//   guide-terms           the general grammar terms
+//   guide-notes           this book's editorial notes, as a list
+//   guide-study           the hub
+const GUIDE_FIXED_IDS = ['study', 'pronunciation', 'grammar', 'terms', 'notes'];
+let GUIDE_IDS_HINT = GUIDE_FIXED_IDS.join(', ');
+
+function noteButton(key, label) {
+  return `<button class="note-link" type="button" popovertarget="note-${escapeAttr(key)}">${escapeHtml(label)}</button>`;
+}
+
+function guideNotesDict({ grammar, pronunciationHtml, editorialNotes, hasReference, referenceTitle }) {
+  const dict = {};
+  const add = (id, title, html) => {
+    const refs = [...html.matchAll(/popovertarget="note-([^"]+)"/g)].map((m) => m[1]);
+    dict[`guide-${id}`] = { title, html, refs, _source: `guide.${id}` };
+  };
+  const categories = grammar?.categories ?? [];
+  const terms = grammar?.terms ?? [];
+  // The wrapper carries 10-pronunciation.css (table, respelling, IPA fonts).
+  if (pronunciationHtml) add('pronunciation', 'Pronunciation', `<div class="pronunciation-guide">${pronunciationHtml}</div>`);
+  if (categories.length) {
+    const items = categories.map((c) => `<li>${noteButton(`guide-${c.id}`, c.label)}</li>`);
+    if (terms.length) items.push(`<li>${noteButton('guide-terms', 'Grammar Terms')}</li>`);
+    add('grammar', 'Grammar', `<p>The terms the word popovers use. Tap a category, then a term.</p><ul class="guide-list">${items.join('')}</ul>`);
+    for (const c of categories) {
+      const vals = c.values.map((v) =>
+        `<li>${noteButton(v.id, v.label)}${v.abbrev ? ` <span class="grammar-abbrev">${escapeHtml(v.abbrev)}</span>` : ''}</li>`);
+      add(c.id, c.label, `<ul class="guide-list">${vals.join('')}</ul>`);
+    }
+  }
+  if (terms.length) add('terms', 'Grammar Terms', `<ul class="guide-list">${terms.map((t) => `<li>${noteButton(t.id, t.label)}</li>`).join('')}</ul>`);
+  const editorial = Object.entries(editorialNotes ?? {});
+  if (editorial.length) {
+    add('notes', 'Notes', `<ul class="guide-list">${editorial.map(([k, n]) => `<li>${noteButton(k, n.title)}</li>`).join('')}</ul>`);
+  }
+  const hub = [];
+  if (editorial.length) hub.push(`<li>${noteButton('guide-notes', 'Notes')} <span class="study-desc">the commentary on this text</span></li>`);
+  if (categories.length) hub.push(`<li>${noteButton('guide-grammar', 'Grammar')} <span class="study-desc">cases, tenses, moods, and other terms</span></li>`);
+  if (pronunciationHtml) hub.push(`<li>${noteButton('guide-pronunciation', 'Pronunciation')} <span class="study-desc">Classical and Ecclesiastical</span></li>`);
+  if (hasReference) hub.push(`<li><a href="ref:contents">${escapeHtml(referenceTitle)}</a> <span class="study-desc">the full grammar, by section</span></li>`);
+  add('study', 'Study', `<ul class="study-list">${hub.join('')}</ul>`);
+  GUIDE_IDS_HINT = [...GUIDE_FIXED_IDS, ...categories.map((c) => c.id)].join(', ');
   return dict;
 }
 
@@ -800,7 +866,27 @@ function renderPrevNextHtml(node, navPages) {
   return `<nav class="page-nav">${left}${right}</nav>`;
 }
 
-function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNotesPage, vocabDict }) {
+// The single popover host. Persistent chrome — a control row (home, prev/next
+// within the current context, close) over a breadcrumb of the steps taken
+// (filled by cards.js) — wraps a `.popover-body` whose innerHTML is replaced on
+// each navigation. Exported for the guide page, which hosts popovers too.
+export function popoverHostHtml() {
+  return `<aside id="popover-host" popover>
+  <div class="popover-chrome">
+    <div class="popover-chrome-top">
+      <button class="popover-home" type="button" hidden aria-label="Home">⌂</button>
+      <span class="popover-chrome-spacer"></span>
+      <button class="popover-prev" type="button" disabled aria-label="Previous">‹</button>
+      <button class="popover-next" type="button" disabled aria-label="Next">›</button>
+      <button class="popover-close" type="button" popovertarget="popover-host" popovertargetaction="hide" aria-label="Close">×</button>
+    </div>
+    <nav class="popover-crumbs" aria-label="Where you are"></nav>
+  </div>
+  <div class="popover-body"></div>
+</aside>`;
+}
+
+function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNotesPage, vocabDict, studyPage }) {
   const title = node.front.title;
   const author = inheritedField(node, 'author') ?? '';
   const date = formatDate(inheritedField(node, 'date'));
@@ -826,7 +912,9 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
   // from assets/lexicon.json. Those cards reference grammar notes via
   // popovertarget="note-{key}" buttons. Pre-include the full notesDict so
   // every grammar term is available in the DOM when a card is rendered.
-  if (referencedLemmas.size > 0 && notesDict) {
+  // Every page of a Latin book (studyPage) does the same: its Study button
+  // opens the hub, from which any guide or grammar note is reachable.
+  if ((referencedLemmas.size > 0 || studyPage) && notesDict) {
     for (const key of Object.keys(notesDict)) env.referencedNotes.add(key);
   }
 
@@ -848,26 +936,9 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
     }).filter(Boolean).join('\n');
     if (popovers) body += `\n<div class="note-popovers">\n${popovers}\n</div>`;
   }
-  // The single popover host. Persistent chrome (back/forward, breadcrumb,
-  // close) wraps a `.popover-body` whose innerHTML gets replaced from the
-  // sources on each click — see cards.js for stack and navigation.
+  // The single popover host — see popoverHostHtml.
   const havePopovers = referencedLemmas.size > 0 || env.referencedNotes.size > 0;
-  if (havePopovers) {
-    body += `\n<aside id="popover-host" popover>
-  <div class="popover-chrome">
-    <div class="popover-chrome-top">
-      <button class="popover-home" type="button" hidden aria-label="Home">⌂</button>
-      <button class="popover-up" type="button" hidden aria-label="Up"><span class="dir" aria-hidden="true">↑</span> <span class="popover-up-label"></span></button>
-      <span class="popover-chrome-spacer"></span>
-      <button class="popover-prev" type="button" disabled aria-label="Previous">‹</button>
-      <button class="popover-next" type="button" disabled aria-label="Next">›</button>
-      <button class="popover-close" type="button" popovertarget="popover-host" popovertargetaction="hide" aria-label="Close">×</button>
-    </div>
-    <div class="popover-context-row"><span class="popover-context" aria-live="polite"></span></div>
-  </div>
-  <div class="popover-body"></div>
-</aside>`;
-  }
+  if (havePopovers) body += `\n${popoverHostHtml()}`;
 
   const here = htmlPathFor(node);
   const assetPrefix = assetPrefixFor(here);
@@ -877,6 +948,9 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
   body = resolveAgLinks(body, assetPrefix);
 
   const breadcrumbHtml = `<nav class="breadcrumb">${renderBreadcrumbHtml(node)}</nav>`;
+  const studyHtml = studyPage && havePopovers && notesDict?.['guide-study']
+    ? '<button class="study-button" type="button" popovertarget="note-guide-study">Study</button>'
+    : '';
   const prevNextHtml = isStandaloneLeaf ? '' : renderPrevNextHtml(node, navPages);
 
   // Attribution footer: the piece's (inherited) credit line plus this page's
@@ -905,6 +979,7 @@ function renderPage(pageTpl, { node, navPages, isStandaloneLeaf, notesDict, isNo
     body,
     assetPrefix,
     breadcrumb: breadcrumbHtml,
+    study: studyHtml,
     pagenav: prevNextHtml,
     attribution: attributionHtml,
   });
@@ -1143,6 +1218,13 @@ export async function build() {
 
   await fs.copyFile(path.join(KATEX_DIR, 'katex.min.css'), path.join(DOCS_DIR, 'assets', 'katex.min.css'));
   await copyDir(path.join(KATEX_DIR, 'fonts'), path.join(DOCS_DIR, 'assets', 'fonts'));
+  // The text face (Charis, SIL) beside KaTeX's: the WOFF2 faces and the OFL
+  // licence that must travel with them (see reader/fonts/README.md).
+  for (const f of await fs.readdir(path.join(READER_DIR, 'fonts'))) {
+    if (f.endsWith('.woff2') || f === 'OFL.txt') {
+      await fs.copyFile(path.join(READER_DIR, 'fonts', f), path.join(DOCS_DIR, 'assets', 'fonts', f));
+    }
+  }
 
   await copyContentImages();
 
@@ -1162,38 +1244,34 @@ export async function build() {
   const pageTpl = await fs.readFile(path.join(TEMPLATES_DIR, 'page.html'), 'utf8');
   const indexTpl = await fs.readFile(path.join(TEMPLATES_DIR, 'index.html'), 'utf8');
 
-  // Parse the reference grammar first (if present) so the parse-code grammar
-  // page can deep-link into it via agRefs (§N → the page that holds §N).
+  // Parse the reference grammar first (if present) so `ag:`/`ref:` links —
+  // in the guide, piece text, and notes — resolve against it.
   let referenceGrammar = null;
-  let resolveAgRef = null;
+  _refIndex = null;
   if (await fileExists(REFERENCE_GRAMMAR_JSON)) {
     referenceGrammar = JSON.parse(await fs.readFile(REFERENCE_GRAMMAR_JSON, 'utf8'));
-    const { secToPage } = planReferencePages(referenceGrammar);
-    _agSecToPage = secToPage; // enables `ag:N` deep links in piece/note bodies
-    // hrefs are relative to the guide page at _language/latin/guide/.
-    resolveAgRef = (id) => {
-      const slug = secToPage.get(String(id));
-      return slug ? `../reference/${slug}.html#sec-${id}` : null;
-    };
+    _refIndex = indexReferenceGrammar(referenceGrammar);
   }
 
-  // The Latin Reader's Guide: pronunciation (pronunciation.md) + the parse-code
-  // glossary (grammar.json). See build-grammar-page.js for the rendering.
+  // The Latin Reader's Guide: the parse-code glossary (grammar.json); see
+  // build-grammar-page.js. Pronunciation (pronunciation.md) is rendered here for
+  // the Latin books' in-page guide entry (guideNotesDict), not for the guide page.
+  let pronunciation = null;
   if (grammar) {
-    const pronunciation = await fileExists(PRONUNCIATION_MD)
+    pronunciation = await fileExists(PRONUNCIATION_MD)
       ? await renderPronunciationSection({
         sourcePath: PRONUNCIATION_MD, readerDir: READER_DIR, md, resolveAgLinks, assetPrefix: '../../../',
       })
       : null;
     await buildGrammarPage({
-      pronunciation,
       grammar,
       languageId: 'latin',
       languageName: 'Latin',
       outDir: DOCS_DIR,
       applyTemplate,
       pageTpl,
-      resolveAgRef,
+      resolveAgLinks,
+      popoverHost: popoverHostHtml(),
       hasReference: Boolean(referenceGrammar),
     });
     indexEntries.push({
@@ -1202,7 +1280,7 @@ export async function build() {
       author: null,
       date: null,
       tags: ['latin', 'reference'],
-      summary: 'A compact reference for the Latin texts here: Classical and Ecclesiastical pronunciation, and the cases, tenses, moods, and other terms used by the word popovers.',
+      summary: 'A compact reference for the Latin texts here: the cases, tenses, moods, and other terms used by the word popovers.',
       html_path: '_language/latin/guide/index.html',
     });
   }
@@ -1229,11 +1307,11 @@ export async function build() {
     console.log(`  reference notes: ${refNoteCount} popover sections`);
     indexEntries.push({
       slug: '_language/latin/reference',
-      title: 'Latin Reference Grammar',
+      title: referenceGrammar.title,
       author: null,
       date: null,
       tags: ['latin', 'reference'],
-      summary: 'Allen & Greenough’s New Latin Grammar (1903) — the full reference, with paradigms, syntax, and prosody, deep-linkable by canonical § section.',
+      summary: 'The full Latin reference grammar — paradigms, syntax, and prosody — after Allen & Greenough’s New Latin Grammar (1903), deep-linkable by § section.',
       html_path: '_language/latin/reference/index.html',
     });
   }
@@ -1267,7 +1345,12 @@ export async function build() {
         throw new Error(`${piece.slug}: multiple leaves marked notes: true (only one notes page per book).`);
       }
       const notesLeaf = noteLeaves[0] || null;
-      const grammarSlugs = new Set(Object.keys(grammarDict));
+      // Note bodies may also link guide entries (guide:X → guide-X); those exist
+      // only in Latin books, which the page render then checks.
+      const grammarSlugs = new Set([
+        ...Object.keys(grammarDict),
+        ...[...GUIDE_FIXED_IDS, ...(grammar?.categories ?? []).map((c) => c.id)].map((id) => `guide-${id}`),
+      ]);
       const pageNotes = notesLeaf ? extractNotes(notesLeaf.content, notesLeaf.absPath, grammarSlugs) : null;
       const dataNotes = await loadJsonNotes(path.dirname(piece.absPath), grammarSlugs);
       let editorialNotes = pageNotes || dataNotes;
@@ -1310,7 +1393,8 @@ export async function build() {
       // Latin grammar (i.e., contain Latin-passage spans), since only those are
       // backed by grammar.json. (loadVocabulary returns the shared lexicon for
       // every piece, so it can't be the scoping signal.)
-      const usesLatin = allPages.some((n) => /data-matches=|class="latin-passage"/.test(n.content || ''));
+      const usesLatin = piece.front.language === 'latin'
+        || allPages.some((n) => /data-matches=|class="latin-passage"/.test(n.content || ''));
       if (editorialNotes && usesLatin) {
         const candidates = [];
         for (const [key, note] of Object.entries(editorialNotes)) {
@@ -1320,6 +1404,18 @@ export async function build() {
         if (candidates.length > 0) {
           console.warn(`${piece.slug}: ${candidates.length} note(s) look language-general (no passage reference) — consider promoting to grammar.json terms: ${candidates.slice(0, 8).join(', ')}${candidates.length > 8 ? '…' : ''}`);
         }
+      }
+
+      // Latin books carry the Reader's Guide as in-page notes and get the
+      // Study hub on every page.
+      if (usesLatin) {
+        notesDict = {
+          ...(notesDict || {}),
+          ...guideNotesDict({
+            grammar, pronunciationHtml: pronunciation?.noteBody, editorialNotes,
+            hasReference: Boolean(referenceGrammar), referenceTitle: referenceGrammar?.title,
+          }),
+        };
       }
 
       for (const node of allPages) {
@@ -1333,6 +1429,7 @@ export async function build() {
           notesDict,
           isNotesPage: node === notesLeaf,
           vocabDict,
+          studyPage: usesLatin,
         });
         await fs.writeFile(outFile, html);
       }
