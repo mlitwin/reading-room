@@ -1,4 +1,6 @@
-Changes since v0.1.10-11:
+Changes since v0.1.11-12:
 
-• The Latin Reader's Guide and Latin Reference Grammar open from the library (they showed only a spinner); a book without page navigation now opens as a single page.
-• Updates no longer stop at the first file that fails to download — the rest still lands, failed files are retried on the next update, and the library shows when the last update failed or was incomplete.
+• Study button in the toolbar on Latin texts (Ovid, Marvell): a hub for pronunciation, grammar, terms, and the Reference Grammar contents — all without leaving the text.
+• Grammar references open in the same popover, with a breadcrumb of every step and Prev/Next through the whole trail; Reference Grammar sections have their own previous/next and chapter links.
+• Word popovers pronounce the form you tapped (mortale → mortāle) under each reading, not just the headword.
+• The text is set in Charis SIL, which fixes missing glyphs in IPA and old Latin numerals.
