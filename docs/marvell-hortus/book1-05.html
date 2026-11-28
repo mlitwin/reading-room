@@ -17,7 +17,7 @@
   <a href="../index.html" class="home">Reading Room</a>
 </header>
 <article>
-<nav class="breadcrumb"><a href="../index.html">Library</a><span class="sep">›</span><a href="index.html">Marvell: Hortus / The Garden</a><span class="sep">›</span><span class="here">The Garden’s Abundance</span></nav>
+<nav class="breadcrumb"><a href="../index.html">Library</a><span class="sep">›</span><a href="index.html">Marvell: Hortus / The Garden</a><span class="sep">›</span><span class="here">The Garden’s Abundance</span></nav><button class="study-button" type="button" popovertarget="note-guide-study">Study</button>
   <header class="piece">
     <h1>The Garden’s Abundance</h1>
     <div class="meta">
@@ -38,6 +38,698 @@ Into my hands themselves do reach;
 Stumbling on Melons, as I pass,
 Insnar’d with Flow’rs, I fall on Grass.</p>
 
+<div class="note-popovers">
+<aside hidden id="note-1" class="note-popover-source" data-label="1st person">
+  <h3 class="note-title">1st person</h3>
+  <p>Refers to the speaker — <em>I</em> in the singular, <em>we</em> in the plural. In Latin the person is shown by the verb ending; pronouns (<em>ego</em>, <em>nos</em>) appear only when emphatic or contrastive.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="163" href="../_language/latin/reference/23-personal-endings.html#sec-163">§163</a></p>
+</aside>
+<aside hidden id="note-2" class="note-popover-source" data-label="2nd person">
+  <h3 class="note-title">2nd person</h3>
+  <p>Refers to the addressee — <em>you</em> in the singular, <em>you (plural)</em> in the plural. Latin has distinct singular and plural pronouns (<em>tu</em>, <em>vos</em>); the verb ending also distinguishes them.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="163" href="../_language/latin/reference/23-personal-endings.html#sec-163">§163</a></p>
+</aside>
+<aside hidden id="note-3" class="note-popover-source" data-label="3rd person">
+  <h3 class="note-title">3rd person</h3>
+  <p>Refers to a non-speaker, non-addressee — <em>he</em>, <em>she</em>, <em>it</em>, <em>they</em>. There's no Latin pronoun for “it” as such; <em>is, ea, id</em> or demonstrative <em>ille, illa, illud</em> fill the role.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="163" href="../_language/latin/reference/23-personal-endings.html#sec-163">§163</a></p>
+</aside>
+<aside hidden id="note-texts-and-provenance" class="note-popover-source" data-label="Texts and provenance">
+  <h3 class="note-title">Texts and provenance</h3>
+  <ul>
+<li><strong>The Garden</strong> — 9 stanzas × 8 lines, iambic tetrameter. <em>Miscellaneous Poems</em> (1681), via Wikisource. Public domain.</li>
+<li><strong>Hortus</strong> — Latin hexameter, 58 lines (normalised), with a printed lacuna (<em>Desunt multa</em>) after line 48. Same edition/source.</li>
+<li>Raw sources and the normalization audit trail live in <code>downloads/marvell/</code> (<code>the-garden.txt</code>, <code>hortus.txt</code>, <code>hortus.normalized.txt</code>, <code>hortus.normalization-log.md</code>, <code>normalize_hortus.py</code>).</li>
+</ul>
+
+</aside>
+<aside hidden id="note-latin-normalization" class="note-popover-source" data-label="Latin normalization">
+  <h3 class="note-title">Latin normalization</h3>
+  <p>The 1681 print is normalised for the study apparatus: æ/œ ligatures expanded, <code>&amp;</code> → <code>et</code>, whitespace collapsed, and a short list of printer’s errors and detached enclitics corrected (e.g. <em>simplieis</em> → <em>simplicis</em>, <em>Hotrorum</em> → <em>Hortorum</em>, <em>Regum per que</em> → <em>Regumque per</em>, <em>vulner a</em> → <em>vulnera</em>, <em>temer a vero</em> → <em>temeravero</em>, <em>referuut</em> → <em>referunt</em>, <em>Ulnus</em> → <em>Ulmus</em>, spurious <em>Quiætis</em>/<em>Phæbus</em> ligatures → <em>Quietis</em>/<em>Phoebus</em>). Every change is logged in <code>hortus.normalization-log.md</code>.</p>
+
+</aside>
+<aside hidden id="note-correspondence-structure" class="note-popover-source" data-label="Correspondence structure">
+  <h3 class="note-title">Correspondence structure</h3>
+  <p>The two poems align movement-by-movement but with gaps on both sides — see <code>correspondences.json</code>:</p>
+<ul>
+<li><strong>Parallel</strong>: Hortus 1–6 ↔ Garden I; 7–13 ↔ II; 20–30 ↔ III; 31–48 ↔ IV; 49–58 ↔ IX.</li>
+<li><strong>Latin-only</strong> (no English): Hortus 14–19 — the “new citizen of the grove” conceit and the invocation of the Muses and Apollo.</li>
+<li><strong>Lacuna / English-only</strong>: Garden V–VIII (lines 33–64) have no Latin. The Latin’s <em>Desunt multa</em> falls here; the famous “green thought in a green shade” (VI), the soul-as-bird (VII), and solitary Adam (VIII) are all absent from Hortus.</li>
+</ul>
+
+</aside>
+<aside hidden id="note-apparatus-status-build-state" class="note-popover-source" data-label="Apparatus status (build state)">
+  <h3 class="note-title">Apparatus status (build state)</h3>
+  <ul>
+<li>Tokenised via Morpheus (<code>build_apparatus.py</code>) with a per-text proper-noun overrides file (<code>latin-overrides.json</code>). All 384 tokens resolve to a candidate.</li>
+<li>Lemmas absent from the shared consolidated lexicon live as per-book cards under <code>vocabulary/</code>, <strong>derived</strong> from <code>lexicon-curation.json</code> by <code>site/marvell/build_manuscripts.py</code> (edit the curation source, never the cards). The curation pass has assigned correct POS (hence lemma id), gender, glosses, and dictionary heads/principal parts to all 110 cards, and corrected ~23 primary-lemma/parse-code mis-analyses via <code>surface_primary</code> (e.g. <em>Flores</em> → noun <em>flos</em>, <em>serta</em> → <em>sertum</em>, <em>opaca</em> → adj <em>opacus</em>, <em>rosae</em> → <em>rosa</em>, <em>virides</em> → <em>viridis</em>).</li>
+<li><strong>Paradigms</strong>: every declinable lemma (102/102 non-defective) carries a full declension/conjugation table. Most are generated from Whitaker’s WORDS (DICTLINE + INFLECTS) via <code>seed_vocab</code>; the ~20 that Whitaker misses (proper names, tree-nouns, <em>furor</em>-the-noun) or renders thin (3rd-declension adjectives, which its generator returns neuter-only) are hand-authored from a <code>paradigm_spec</code> (declension class + stem) in <code>lexicon-curation.json</code> and built by <code>build_manuscripts.py::manual_paradigm</code>. Compound verbs Whitaker lacks are reached via a base-lemma + prefix indirection (<em>implecto</em> ← <em>plecto</em> + “im”). <em>potis</em> is marked defective (it survives chiefly as the comparative <em>potior</em>); Greek <em>Chloe</em> is singular-only.</li>
+<li><strong>Remaining</strong>: wire <code>correspondences.json</code> into an interactive facing-alignment view (today the pairing is per movement page) — held for now, per the current design being sufficient.</li>
+</ul>
+
+</aside>
+<aside hidden id="note-noun" class="note-popover-source" data-label="Noun">
+  <h3 class="note-title">Noun</h3>
+  <p>A word that names a person, place, thing, or idea. In Latin, nouns inflect for <button class="note-link" type="button" popovertarget="note-nom">case</button> (six forms — nominative, genitive, dative, accusative, ablative, vocative) and <button class="note-link" type="button" popovertarget="note-sg">number</button> (singular and plural). Every noun belongs to one of five <button class="note-link" type="button" popovertarget="note-declension">declensions</button> and carries a fixed <button class="note-link" type="button" popovertarget="note-masc">gender</button> (masculine, feminine, or neuter), shown in the dictionary entry.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="36" href="../_language/latin/reference/07-declension-of-nouns.html#sec-36">§36</a></p>
+</aside>
+<aside hidden id="note-verb" class="note-popover-source" data-label="Verb">
+  <h3 class="note-title">Verb</h3>
+  <p>A word that names an action or a state. A Latin verb inflects for <button class="note-link" type="button" popovertarget="note-1">person</button>, <button class="note-link" type="button" popovertarget="note-sg">number</button>, <button class="note-link" type="button" popovertarget="note-pres">tense</button>, <button class="note-link" type="button" popovertarget="note-ind">mood</button>, and <button class="note-link" type="button" popovertarget="note-act">voice</button>. One verb has roughly 150 distinct forms; the four <button class="note-link" type="button" popovertarget="note-principal-parts">principal parts</button> listed in the dictionary entry are enough to generate them all.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="153" href="../_language/latin/reference/21-verbs-conjugation-of-the-verb.html#sec-153">§153</a></p>
+</aside>
+<aside hidden id="note-adj" class="note-popover-source" data-label="Adjective">
+  <h3 class="note-title">Adjective</h3>
+  <p>A word that modifies a noun. Latin adjectives agree with the noun they modify in <button class="note-link" type="button" popovertarget="note-nom">case</button>, <button class="note-link" type="button" popovertarget="note-sg">number</button>, and <button class="note-link" type="button" popovertarget="note-masc">gender</button> — so an adjective has all three gender forms and shifts among them. The dictionary entry shows the three nominative-singular endings (e.g. <em>novus, -a, -um</em>).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="109" href="../_language/latin/reference/16-adjectives.html#sec-109">§109</a></p>
+</aside>
+<aside hidden id="note-adjective" class="note-popover-source" data-label="Adjective">
+  <h3 class="note-title">Adjective</h3>
+  <p>A word that modifies a noun. Latin adjectives agree with the noun they modify in <button class="note-link" type="button" popovertarget="note-nom">case</button>, <button class="note-link" type="button" popovertarget="note-sg">number</button>, and <button class="note-link" type="button" popovertarget="note-masc">gender</button> — so an adjective has all three gender forms and shifts among them. The dictionary entry shows the three nominative-singular endings (e.g. <em>novus, -a, -um</em>).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="109" href="../_language/latin/reference/16-adjectives.html#sec-109">§109</a></p>
+</aside>
+<aside hidden id="note-pron" class="note-popover-source" data-label="Pronoun">
+  <h3 class="note-title">Pronoun</h3>
+  <p>A word that stands in for a noun (<em>he</em>, <em>she</em>, <em>they</em>, <em>that one</em>). Latin pronouns inflect for case, number, and gender like adjectives, often with irregular forms in some slots.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="140" href="../_language/latin/reference/20-pronouns.html#sec-140">§140</a></p>
+</aside>
+<aside hidden id="note-pronoun" class="note-popover-source" data-label="Pronoun">
+  <h3 class="note-title">Pronoun</h3>
+  <p>A word that stands in for a noun (<em>he</em>, <em>she</em>, <em>they</em>, <em>that one</em>). Latin pronouns inflect for case, number, and gender like adjectives, often with irregular forms in some slots.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="140" href="../_language/latin/reference/20-pronouns.html#sec-140">§140</a></p>
+</aside>
+<aside hidden id="note-prep" class="note-popover-source" data-label="Preposition">
+  <h3 class="note-title">Preposition</h3>
+  <p>An indeclinable word that introduces a noun phrase and specifies its grammatical relationship to the rest of the sentence (<em>in urbe</em>, “in the city”). Each preposition governs a specific <button class="note-link" type="button" popovertarget="note-nom">case</button> — usually accusative or ablative; the dictionary entry says which.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="219" href="../_language/latin/reference/27-particles.html#sec-219">§219</a></p>
+</aside>
+<aside hidden id="note-preposition" class="note-popover-source" data-label="Preposition">
+  <h3 class="note-title">Preposition</h3>
+  <p>An indeclinable word that introduces a noun phrase and specifies its grammatical relationship to the rest of the sentence (<em>in urbe</em>, “in the city”). Each preposition governs a specific <button class="note-link" type="button" popovertarget="note-nom">case</button> — usually accusative or ablative; the dictionary entry says which.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="219" href="../_language/latin/reference/27-particles.html#sec-219">§219</a></p>
+</aside>
+<aside hidden id="note-conj" class="note-popover-source" data-label="Conjunction">
+  <h3 class="note-title">Conjunction</h3>
+  <p>An indeclinable word that joins clauses or phrases (<em>et</em>, “and”; <em>sed</em>, “but”; <em>quod</em>, “because”). Latin distinguishes coordinating (<em>et</em>) from subordinating (<em>ut</em>, <em>cum</em>) conjunctions.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="222" href="../_language/latin/reference/28-conjunctions.html#sec-222">§222</a></p>
+</aside>
+<aside hidden id="note-conjunction" class="note-popover-source" data-label="Conjunction">
+  <h3 class="note-title">Conjunction</h3>
+  <p>An indeclinable word that joins clauses or phrases (<em>et</em>, “and”; <em>sed</em>, “but”; <em>quod</em>, “because”). Latin distinguishes coordinating (<em>et</em>) from subordinating (<em>ut</em>, <em>cum</em>) conjunctions.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="222" href="../_language/latin/reference/28-conjunctions.html#sec-222">§222</a></p>
+</aside>
+<aside hidden id="note-adv" class="note-popover-source" data-label="Adverb">
+  <h3 class="note-title">Adverb</h3>
+  <p>An indeclinable word that modifies a verb, an adjective, or another adverb (<em>celeriter</em>, “quickly”; <em>iam</em>, “already”). Latin adverbs do not inflect, though many form comparative and superlative degrees.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="213" href="../_language/latin/reference/27-particles.html#sec-213">§213</a></p>
+</aside>
+<aside hidden id="note-adverb" class="note-popover-source" data-label="Adverb">
+  <h3 class="note-title">Adverb</h3>
+  <p>An indeclinable word that modifies a verb, an adjective, or another adverb (<em>celeriter</em>, “quickly”; <em>iam</em>, “already”). Latin adverbs do not inflect, though many form comparative and superlative degrees.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="213" href="../_language/latin/reference/27-particles.html#sec-213">§213</a></p>
+</aside>
+<aside hidden id="note-interj" class="note-popover-source" data-label="Interjection">
+  <h3 class="note-title">Interjection</h3>
+  <p>An invariant exclamatory word, used to express emotion or call attention (<em>o!</em>, “oh!”; <em>ecce</em>, “behold!”). Interjections stand outside the grammatical structure of the sentence.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="225" href="../_language/latin/reference/28-conjunctions.html#sec-225">§225</a></p>
+</aside>
+<aside hidden id="note-interjection" class="note-popover-source" data-label="Interjection">
+  <h3 class="note-title">Interjection</h3>
+  <p>An invariant exclamatory word, used to express emotion or call attention (<em>o!</em>, “oh!”; <em>ecce</em>, “behold!”). Interjections stand outside the grammatical structure of the sentence.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="225" href="../_language/latin/reference/28-conjunctions.html#sec-225">§225</a></p>
+</aside>
+<aside hidden id="note-enclitic" class="note-popover-source" data-label="Enclitic">
+  <h3 class="note-title">Enclitic</h3>
+  <p>A particle attached to the end of the preceding word rather than written separately (<em>-que</em> = “and”; <em>-ne</em> = question marker; <em>-ve</em> = “or”). <em>Primaque</em> in dictionary order is <em>prima</em> + <em>-que</em>.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="324" href="../_language/latin/reference/37-conjunctions.html#sec-324">§324</a></p>
+</aside>
+<aside hidden id="note-num" class="note-popover-source" data-label="Numeral">
+  <h3 class="note-title">Numeral</h3>
+  <p>A word that denotes number — cardinal (<em>unus</em>, <em>duo</em>, <em>tres</em>; “one”, “two”, “three”), ordinal (<em>primus</em>, <em>secundus</em>; “first”, “second”), distributive (<em>singuli</em>, <em>bini</em>; “one each”, “two each”), or multiplicative (<em>semel</em>, <em>bis</em>; “once”, “twice”). Some are indeclinable; <em>unus</em>, <em>duo</em>, <em>tres</em> and the hundreds inflect.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="132" href="../_language/latin/reference/19-numerals.html#sec-132">§132</a></p>
+</aside>
+<aside hidden id="note-numeral" class="note-popover-source" data-label="Numeral">
+  <h3 class="note-title">Numeral</h3>
+  <p>A word that denotes number — cardinal (<em>unus</em>, <em>duo</em>, <em>tres</em>; “one”, “two”, “three”), ordinal (<em>primus</em>, <em>secundus</em>; “first”, “second”), distributive (<em>singuli</em>, <em>bini</em>; “one each”, “two each”), or multiplicative (<em>semel</em>, <em>bis</em>; “once”, “twice”). Some are indeclinable; <em>unus</em>, <em>duo</em>, <em>tres</em> and the hundreds inflect.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="132" href="../_language/latin/reference/19-numerals.html#sec-132">§132</a></p>
+</aside>
+<aside hidden id="note-nom" class="note-popover-source" data-label="Nominative">
+  <h3 class="note-title">Nominative</h3>
+  <p>The case of the grammatical subject and of predicate nouns/adjectives (<em>puella ridet</em>, “the girl smiles”). It's also the dictionary-entry form of a Latin noun.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="339" href="../_language/latin/reference/39-construction-of-cases.html#sec-339">§339</a></p>
+</aside>
+<aside hidden id="note-nominative" class="note-popover-source" data-label="Nominative">
+  <h3 class="note-title">Nominative</h3>
+  <p>The case of the grammatical subject and of predicate nouns/adjectives (<em>puella ridet</em>, “the girl smiles”). It's also the dictionary-entry form of a Latin noun.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="339" href="../_language/latin/reference/39-construction-of-cases.html#sec-339">§339</a></p>
+</aside>
+<aside hidden id="note-gen" class="note-popover-source" data-label="Genitive">
+  <h3 class="note-title">Genitive</h3>
+  <p>The case of possession and origin (<em>puellae liber</em>, “the girl's book”), and of dependence on certain nouns and verbs. The genitive singular is the second principal part of a noun's dictionary entry — it shows which <button class="note-link" type="button" popovertarget="note-declension">declension</button> the noun belongs to.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="341" href="../_language/latin/reference/39-construction-of-cases.html#sec-341">§341</a></p>
+</aside>
+<aside hidden id="note-genitive" class="note-popover-source" data-label="Genitive">
+  <h3 class="note-title">Genitive</h3>
+  <p>The case of possession and origin (<em>puellae liber</em>, “the girl's book”), and of dependence on certain nouns and verbs. The genitive singular is the second principal part of a noun's dictionary entry — it shows which <button class="note-link" type="button" popovertarget="note-declension">declension</button> the noun belongs to.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="341" href="../_language/latin/reference/39-construction-of-cases.html#sec-341">§341</a></p>
+</aside>
+<aside hidden id="note-dat" class="note-popover-source" data-label="Dative">
+  <h3 class="note-title">Dative</h3>
+  <p>The case of the indirect object and the recipient (<em>puellae librum dedit</em>, “he gave a book to the girl”). Also used with certain adjectives (“dear <em>to</em> her”) and verbs (“trust <em>in</em> him”).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="360" href="../_language/latin/reference/39-construction-of-cases.html#sec-360">§360</a></p>
+</aside>
+<aside hidden id="note-dative" class="note-popover-source" data-label="Dative">
+  <h3 class="note-title">Dative</h3>
+  <p>The case of the indirect object and the recipient (<em>puellae librum dedit</em>, “he gave a book to the girl”). Also used with certain adjectives (“dear <em>to</em> her”) and verbs (“trust <em>in</em> him”).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="360" href="../_language/latin/reference/39-construction-of-cases.html#sec-360">§360</a></p>
+</aside>
+<aside hidden id="note-acc" class="note-popover-source" data-label="Accusative">
+  <h3 class="note-title">Accusative</h3>
+  <p>The case of the direct object (<em>puellam amat</em>, “he loves the girl”), and the case governed by many prepositions of motion-toward (<em>in urbem</em>, “into the city”). For neuter nouns and adjectives, the accusative form always equals the nominative — both singular and plural.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="386" href="../_language/latin/reference/39-construction-of-cases.html#sec-386">§386</a></p>
+</aside>
+<aside hidden id="note-accusative" class="note-popover-source" data-label="Accusative">
+  <h3 class="note-title">Accusative</h3>
+  <p>The case of the direct object (<em>puellam amat</em>, “he loves the girl”), and the case governed by many prepositions of motion-toward (<em>in urbem</em>, “into the city”). For neuter nouns and adjectives, the accusative form always equals the nominative — both singular and plural.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="386" href="../_language/latin/reference/39-construction-of-cases.html#sec-386">§386</a></p>
+</aside>
+<aside hidden id="note-abl" class="note-popover-source" data-label="Ablative">
+  <h3 class="note-title">Ablative</h3>
+  <p>A case of separation, means, manner, time, and place (<em>gladio interfecit</em>, “killed with a sword”). Also the case governed by many prepositions of rest-in and motion-from (<em>in urbe</em>, “in the city”; <em>ex urbe</em>, “out of the city”). Has no direct English equivalent.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="398" href="../_language/latin/reference/39-construction-of-cases.html#sec-398">§398</a></p>
+</aside>
+<aside hidden id="note-ablative" class="note-popover-source" data-label="Ablative">
+  <h3 class="note-title">Ablative</h3>
+  <p>A case of separation, means, manner, time, and place (<em>gladio interfecit</em>, “killed with a sword”). Also the case governed by many prepositions of rest-in and motion-from (<em>in urbe</em>, “in the city”; <em>ex urbe</em>, “out of the city”). Has no direct English equivalent.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="398" href="../_language/latin/reference/39-construction-of-cases.html#sec-398">§398</a></p>
+</aside>
+<aside hidden id="note-voc" class="note-popover-source" data-label="Vocative">
+  <h3 class="note-title">Vocative</h3>
+  <p>The case of direct address (<em>Brute!</em>, “Brutus!”). For most nouns the vocative is identical to the nominative; second-declension <code>-us</code> nouns have a distinct <code>-e</code> vocative.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="340" href="../_language/latin/reference/39-construction-of-cases.html#sec-340">§340</a></p>
+</aside>
+<aside hidden id="note-vocative" class="note-popover-source" data-label="Vocative">
+  <h3 class="note-title">Vocative</h3>
+  <p>The case of direct address (<em>Brute!</em>, “Brutus!”). For most nouns the vocative is identical to the nominative; second-declension <code>-us</code> nouns have a distinct <code>-e</code> vocative.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="340" href="../_language/latin/reference/39-construction-of-cases.html#sec-340">§340</a></p>
+</aside>
+<aside hidden id="note-loc" class="note-popover-source" data-label="Locative">
+  <h3 class="note-title">Locative</h3>
+  <p>The case of place-where, surviving only for names of towns and small islands and a few common nouns (<em>Romae</em>, “at Rome”; <em>domi</em>, “at home”; <em>ruri</em>, “in the country”; <em>humi</em>, “on the ground”). Elsewhere Latin expresses place-where with <em>in</em> + ablative.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="427" href="../_language/latin/reference/39-construction-of-cases.html#sec-427">§427</a></p>
+</aside>
+<aside hidden id="note-locative" class="note-popover-source" data-label="Locative">
+  <h3 class="note-title">Locative</h3>
+  <p>The case of place-where, surviving only for names of towns and small islands and a few common nouns (<em>Romae</em>, “at Rome”; <em>domi</em>, “at home”; <em>ruri</em>, “in the country”; <em>humi</em>, “on the ground”). Elsewhere Latin expresses place-where with <em>in</em> + ablative.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="427" href="../_language/latin/reference/39-construction-of-cases.html#sec-427">§427</a></p>
+</aside>
+<aside hidden id="note-sg" class="note-popover-source" data-label="Singular">
+  <h3 class="note-title">Singular</h3>
+  <p>A grammatical number used when one of something is meant.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="35" href="../_language/latin/reference/06-number-and-case.html#sec-35">§35</a></p>
+</aside>
+<aside hidden id="note-singular" class="note-popover-source" data-label="Singular">
+  <h3 class="note-title">Singular</h3>
+  <p>A grammatical number used when one of something is meant.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="35" href="../_language/latin/reference/06-number-and-case.html#sec-35">§35</a></p>
+</aside>
+<aside hidden id="note-pl" class="note-popover-source" data-label="Plural">
+  <h3 class="note-title">Plural</h3>
+  <p>A grammatical number used when more than one of something is meant. Latin has no dual number; one or many is the only distinction.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="35" href="../_language/latin/reference/06-number-and-case.html#sec-35">§35</a></p>
+</aside>
+<aside hidden id="note-plural" class="note-popover-source" data-label="Plural">
+  <h3 class="note-title">Plural</h3>
+  <p>A grammatical number used when more than one of something is meant. Latin has no dual number; one or many is the only distinction.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="35" href="../_language/latin/reference/06-number-and-case.html#sec-35">§35</a></p>
+</aside>
+<aside hidden id="note-masc" class="note-popover-source" data-label="Masculine">
+  <h3 class="note-title">Masculine</h3>
+  <p>One of the three Latin grammatical <button class="note-link" type="button" popovertarget="note-gender">genders</button>. Lexical gender — most nouns are assigned a gender that's just a fact about them; it doesn't always track sex (<em>nauta</em>, “sailor”, is masculine but ends like a feminine).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="29" href="../_language/latin/reference/05-gender.html#sec-29">§29</a></p>
+</aside>
+<aside hidden id="note-masculine" class="note-popover-source" data-label="Masculine">
+  <h3 class="note-title">Masculine</h3>
+  <p>One of the three Latin grammatical <button class="note-link" type="button" popovertarget="note-gender">genders</button>. Lexical gender — most nouns are assigned a gender that's just a fact about them; it doesn't always track sex (<em>nauta</em>, “sailor”, is masculine but ends like a feminine).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="29" href="../_language/latin/reference/05-gender.html#sec-29">§29</a></p>
+</aside>
+<aside hidden id="note-fem" class="note-popover-source" data-label="Feminine">
+  <h3 class="note-title">Feminine</h3>
+  <p>One of the three Latin grammatical <button class="note-link" type="button" popovertarget="note-gender">genders</button>. Like masculine, lexical and largely arbitrary.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="29" href="../_language/latin/reference/05-gender.html#sec-29">§29</a></p>
+</aside>
+<aside hidden id="note-feminine" class="note-popover-source" data-label="Feminine">
+  <h3 class="note-title">Feminine</h3>
+  <p>One of the three Latin grammatical <button class="note-link" type="button" popovertarget="note-gender">genders</button>. Like masculine, lexical and largely arbitrary.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="29" href="../_language/latin/reference/05-gender.html#sec-29">§29</a></p>
+</aside>
+<aside hidden id="note-neut" class="note-popover-source" data-label="Neuter">
+  <h3 class="note-title">Neuter</h3>
+  <p>One of the three Latin grammatical <button class="note-link" type="button" popovertarget="note-gender">genders</button>. Neuter nouns and adjectives always have the same form in the nominative and accusative (whether singular or plural); the plural nominative/accusative always ends in <code>-a</code>.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="29" href="../_language/latin/reference/05-gender.html#sec-29">§29</a></p>
+</aside>
+<aside hidden id="note-neuter" class="note-popover-source" data-label="Neuter">
+  <h3 class="note-title">Neuter</h3>
+  <p>One of the three Latin grammatical <button class="note-link" type="button" popovertarget="note-gender">genders</button>. Neuter nouns and adjectives always have the same form in the nominative and accusative (whether singular or plural); the plural nominative/accusative always ends in <code>-a</code>.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="29" href="../_language/latin/reference/05-gender.html#sec-29">§29</a></p>
+</aside>
+<aside hidden id="note-c" class="note-popover-source" data-label="Common gender">
+  <h3 class="note-title">Common gender</h3>
+  <p>Nouns that may be either masculine or feminine according to the sex of the being they name (<em>civis</em>, “citizen”; <em>incola</em>, “inhabitant”; <em>caelicola</em>, “heaven-dweller”) are said to be of common gender. The noun takes whichever <button class="note-link" type="button" popovertarget="note-gender">gender</button> fits its referent in context.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="34" href="../_language/latin/reference/05-gender.html#sec-34">§34</a></p>
+</aside>
+<aside hidden id="note-common-gender" class="note-popover-source" data-label="Common gender">
+  <h3 class="note-title">Common gender</h3>
+  <p>Nouns that may be either masculine or feminine according to the sex of the being they name (<em>civis</em>, “citizen”; <em>incola</em>, “inhabitant”; <em>caelicola</em>, “heaven-dweller”) are said to be of common gender. The noun takes whichever <button class="note-link" type="button" popovertarget="note-gender">gender</button> fits its referent in context.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="34" href="../_language/latin/reference/05-gender.html#sec-34">§34</a></p>
+</aside>
+<aside hidden id="note-1st-person" class="note-popover-source" data-label="1st person">
+  <h3 class="note-title">1st person</h3>
+  <p>Refers to the speaker — <em>I</em> in the singular, <em>we</em> in the plural. In Latin the person is shown by the verb ending; pronouns (<em>ego</em>, <em>nos</em>) appear only when emphatic or contrastive.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="163" href="../_language/latin/reference/23-personal-endings.html#sec-163">§163</a></p>
+</aside>
+<aside hidden id="note-2nd-person" class="note-popover-source" data-label="2nd person">
+  <h3 class="note-title">2nd person</h3>
+  <p>Refers to the addressee — <em>you</em> in the singular, <em>you (plural)</em> in the plural. Latin has distinct singular and plural pronouns (<em>tu</em>, <em>vos</em>); the verb ending also distinguishes them.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="163" href="../_language/latin/reference/23-personal-endings.html#sec-163">§163</a></p>
+</aside>
+<aside hidden id="note-3rd-person" class="note-popover-source" data-label="3rd person">
+  <h3 class="note-title">3rd person</h3>
+  <p>Refers to a non-speaker, non-addressee — <em>he</em>, <em>she</em>, <em>it</em>, <em>they</em>. There's no Latin pronoun for “it” as such; <em>is, ea, id</em> or demonstrative <em>ille, illa, illud</em> fill the role.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="163" href="../_language/latin/reference/23-personal-endings.html#sec-163">§163</a></p>
+</aside>
+<aside hidden id="note-pres" class="note-popover-source" data-label="Present">
+  <h3 class="note-title">Present</h3>
+  <p>The tense of action happening now or generally true (<em>amat</em>, “he loves” / “he is loving”). Built on the present stem (the first principal part).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-present" class="note-popover-source" data-label="Present">
+  <h3 class="note-title">Present</h3>
+  <p>The tense of action happening now or generally true (<em>amat</em>, “he loves” / “he is loving”). Built on the present stem (the first principal part).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-imperf" class="note-popover-source" data-label="Imperfect">
+  <h3 class="note-title">Imperfect</h3>
+  <p>The past tense of ongoing or repeated action (<em>amabat</em>, “he was loving” / “he used to love”). Built on the present stem with <code>-ba-</code> infix.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-imperfect" class="note-popover-source" data-label="Imperfect">
+  <h3 class="note-title">Imperfect</h3>
+  <p>The past tense of ongoing or repeated action (<em>amabat</em>, “he was loving” / “he used to love”). Built on the present stem with <code>-ba-</code> infix.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-fut" class="note-popover-source" data-label="Future">
+  <h3 class="note-title">Future</h3>
+  <p>The tense of action yet to happen (<em>amabit</em>, “he will love”). Different conjugations form the future with different endings.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-future" class="note-popover-source" data-label="Future">
+  <h3 class="note-title">Future</h3>
+  <p>The tense of action yet to happen (<em>amabit</em>, “he will love”). Different conjugations form the future with different endings.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-perf" class="note-popover-source" data-label="Perfect">
+  <h3 class="note-title">Perfect</h3>
+  <p>The tense of completed action (<em>amavit</em>, “he loved” / “he has loved”). Built on the perfect stem (the third <button class="note-link" type="button" popovertarget="note-principal-parts">principal part</button>).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-perfect" class="note-popover-source" data-label="Perfect">
+  <h3 class="note-title">Perfect</h3>
+  <p>The tense of completed action (<em>amavit</em>, “he loved” / “he has loved”). Built on the perfect stem (the third <button class="note-link" type="button" popovertarget="note-principal-parts">principal part</button>).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-plup" class="note-popover-source" data-label="Pluperfect">
+  <h3 class="note-title">Pluperfect</h3>
+  <p>The past tense of action completed before another past action (<em>amaverat</em>, “he had loved”). Built on the perfect stem with <code>-era-</code> infix.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-pluperfect" class="note-popover-source" data-label="Pluperfect">
+  <h3 class="note-title">Pluperfect</h3>
+  <p>The past tense of action completed before another past action (<em>amaverat</em>, “he had loved”). Built on the perfect stem with <code>-era-</code> infix.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-futperf" class="note-popover-source" data-label="Future perfect">
+  <h3 class="note-title">Future perfect</h3>
+  <p>The tense of action that will have been completed by some future point (<em>amaverit</em>, “he will have loved”). Built on the perfect stem with <code>-eri-</code> infix.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-future-perfect" class="note-popover-source" data-label="Future perfect">
+  <h3 class="note-title">Future perfect</h3>
+  <p>The tense of action that will have been completed by some future point (<em>amaverit</em>, “he will have loved”). Built on the perfect stem with <code>-eri-</code> infix.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="464" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-464">§464</a></p>
+</aside>
+<aside hidden id="note-ind" class="note-popover-source" data-label="Indicative">
+  <h3 class="note-title">Indicative</h3>
+  <p>The mood of statement and question — the default mood for asserting that something is, was, or will be the case (<em>amat</em>, “he loves”).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="437" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-437">§437</a></p>
+</aside>
+<aside hidden id="note-indicative" class="note-popover-source" data-label="Indicative">
+  <h3 class="note-title">Indicative</h3>
+  <p>The mood of statement and question — the default mood for asserting that something is, was, or will be the case (<em>amat</em>, “he loves”).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="437" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-437">§437</a></p>
+</aside>
+<aside hidden id="note-subj" class="note-popover-source" data-label="Subjunctive">
+  <h3 class="note-title">Subjunctive</h3>
+  <p>The mood of possibility, wish, command in subordinate clauses, hypothetical condition, and other non-assertive uses (<em>amet</em>, “may he love” / “let him love”). One of the most flexible features of Latin.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="438" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-438">§438</a></p>
+</aside>
+<aside hidden id="note-subjunctive" class="note-popover-source" data-label="Subjunctive">
+  <h3 class="note-title">Subjunctive</h3>
+  <p>The mood of possibility, wish, command in subordinate clauses, hypothetical condition, and other non-assertive uses (<em>amet</em>, “may he love” / “let him love”). One of the most flexible features of Latin.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="438" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-438">§438</a></p>
+</aside>
+<aside hidden id="note-imp" class="note-popover-source" data-label="Imperative">
+  <h3 class="note-title">Imperative</h3>
+  <p>The mood of direct command (<em>ama!</em>, “love!”). Latin has 2nd-person singular and plural imperatives (and rare 3rd-person forms); the singular often equals the present stem with no ending.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="448" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-448">§448</a></p>
+</aside>
+<aside hidden id="note-imperative" class="note-popover-source" data-label="Imperative">
+  <h3 class="note-title">Imperative</h3>
+  <p>The mood of direct command (<em>ama!</em>, “love!”). Latin has 2nd-person singular and plural imperatives (and rare 3rd-person forms); the singular often equals the present stem with no ending.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="448" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-448">§448</a></p>
+</aside>
+<aside hidden id="note-inf" class="note-popover-source" data-label="Infinitive">
+  <h3 class="note-title">Infinitive</h3>
+  <p>A non-finite verb form that names the action itself (“to love”, “to be loved”). Latin has six infinitives — present/perfect/future × active/passive — though the present active is the most common. The present active infinitive is the <button class="note-link" type="button" popovertarget="note-second-principal-part">second principal part</button> of a verb's dictionary entry.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="451" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-451">§451</a></p>
+</aside>
+<aside hidden id="note-infinitive" class="note-popover-source" data-label="Infinitive">
+  <h3 class="note-title">Infinitive</h3>
+  <p>A non-finite verb form that names the action itself (“to love”, “to be loved”). Latin has six infinitives — present/perfect/future × active/passive — though the present active is the most common. The present active infinitive is the <button class="note-link" type="button" popovertarget="note-second-principal-part">second principal part</button> of a verb's dictionary entry.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="451" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-451">§451</a></p>
+</aside>
+<aside hidden id="note-pap" class="note-popover-source" data-label="Present active participle">
+  <h3 class="note-title">Present active participle</h3>
+  <p>A non-finite verbal adjective expressing ongoing action by the subject (<em>amans</em>, “loving”). It declines as a third-declension adjective with one ending, agreeing with its noun in case, number, and gender, and is built on the present stem.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="488" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-488">§488</a></p>
+</aside>
+<aside hidden id="note-present-active-participle" class="note-popover-source" data-label="Present active participle">
+  <h3 class="note-title">Present active participle</h3>
+  <p>A non-finite verbal adjective expressing ongoing action by the subject (<em>amans</em>, “loving”). It declines as a third-declension adjective with one ending, agreeing with its noun in case, number, and gender, and is built on the present stem.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="488" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-488">§488</a></p>
+</aside>
+<aside hidden id="note-ppp" class="note-popover-source" data-label="Perfect passive participle">
+  <h3 class="note-title">Perfect passive participle</h3>
+  <p>The verbal adjective formed from the perfect stem of a verb's passive voice (“having been loved”). It declines like a first/second declension adjective (so it agrees with its noun in case, number, and gender) and appears throughout the passive system, in deponent verbs, and in ablative absolute constructions. The fourth <button class="note-link" type="button" popovertarget="note-principal-parts">principal part</button> of a verb gives this stem (in the neuter form, <em>amatum</em>).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="488" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-488">§488</a></p>
+</aside>
+<aside hidden id="note-perfect-passive-participle" class="note-popover-source" data-label="Perfect passive participle">
+  <h3 class="note-title">Perfect passive participle</h3>
+  <p>The verbal adjective formed from the perfect stem of a verb's passive voice (“having been loved”). It declines like a first/second declension adjective (so it agrees with its noun in case, number, and gender) and appears throughout the passive system, in deponent verbs, and in ablative absolute constructions. The fourth <button class="note-link" type="button" popovertarget="note-principal-parts">principal part</button> of a verb gives this stem (in the neuter form, <em>amatum</em>).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="488" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-488">§488</a></p>
+</aside>
+<aside hidden id="note-fap" class="note-popover-source" data-label="Future active participle">
+  <h3 class="note-title">Future active participle</h3>
+  <p>A non-finite verbal adjective expressing intended or impending action by the subject (<em>amaturus</em>, “about to love”). It declines like a first/second declension adjective and combines with forms of <em>esse</em> to make the active periphrastic conjugation.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="488" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-488">§488</a></p>
+</aside>
+<aside hidden id="note-future-active-participle" class="note-popover-source" data-label="Future active participle">
+  <h3 class="note-title">Future active participle</h3>
+  <p>A non-finite verbal adjective expressing intended or impending action by the subject (<em>amaturus</em>, “about to love”). It declines like a first/second declension adjective and combines with forms of <em>esse</em> to make the active periphrastic conjugation.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="488" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-488">§488</a></p>
+</aside>
+<aside hidden id="note-gerundive" class="note-popover-source" data-label="Gerundive">
+  <h3 class="note-title">Gerundive</h3>
+  <p>A non-finite verbal adjective expressing necessity or impending action upon the subject — traditionally also called the future passive participle (<em>amandus</em>, “to be loved” / “requiring to be loved”). It declines like a first/second declension adjective, agrees with its noun in case, number, and gender, and forms the passive periphrastic with <em>esse</em>. When a <button class="note-link" type="button" popovertarget="note-ger">gerund</button> would take an accusative object, Latin prefers the gerundive construction.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="500" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-500">§500</a>, <a class="ag-link" data-ag="503" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-503">§503</a></p>
+</aside>
+<aside hidden id="note-ger" class="note-popover-source" data-label="Gerund">
+  <h3 class="note-title">Gerund</h3>
+  <p>A verbal noun expressing the action of the verb (<em>amandi</em>, “of loving”). It is the neuter singular of the <button class="note-link" type="button" popovertarget="note-gerundive">gerundive</button> used substantively, and exists only in the oblique cases — genitive, dative, accusative (after prepositions), and ablative; the nominative slot is filled by the infinitive. As a noun it is itself governed by other words; as a verb it may take an object in the proper case.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="501" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-501">§501</a>, <a class="ag-link" data-ag="502" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-502">§502</a></p>
+</aside>
+<aside hidden id="note-gerund" class="note-popover-source" data-label="Gerund">
+  <h3 class="note-title">Gerund</h3>
+  <p>A verbal noun expressing the action of the verb (<em>amandi</em>, “of loving”). It is the neuter singular of the <button class="note-link" type="button" popovertarget="note-gerundive">gerundive</button> used substantively, and exists only in the oblique cases — genitive, dative, accusative (after prepositions), and ablative; the nominative slot is filled by the infinitive. As a noun it is itself governed by other words; as a verb it may take an object in the proper case.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="501" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-501">§501</a>, <a class="ag-link" data-ag="502" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-502">§502</a></p>
+</aside>
+<aside hidden id="note-act" class="note-popover-source" data-label="Active">
+  <h3 class="note-title">Active</h3>
+  <p>The voice in which the subject is the agent of the action (<em>puer librum legit</em>, “the boy reads the book”).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="156" href="../_language/latin/reference/22-signification-of-the-forms-of-the-verb.html#sec-156">§156</a></p>
+</aside>
+<aside hidden id="note-active" class="note-popover-source" data-label="Active">
+  <h3 class="note-title">Active</h3>
+  <p>The voice in which the subject is the agent of the action (<em>puer librum legit</em>, “the boy reads the book”).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="156" href="../_language/latin/reference/22-signification-of-the-forms-of-the-verb.html#sec-156">§156</a></p>
+</aside>
+<aside hidden id="note-pass" class="note-popover-source" data-label="Passive">
+  <h3 class="note-title">Passive</h3>
+  <p>The voice in which the subject undergoes the action (<em>liber a puero legitur</em>, “the book is read by the boy”). Latin has distinct passive endings for the present system; the perfect passive is built from the <button class="note-link" type="button" popovertarget="note-ppp">perfect passive participle</button> + a form of <em>esse</em>.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="156" href="../_language/latin/reference/22-signification-of-the-forms-of-the-verb.html#sec-156">§156</a></p>
+</aside>
+<aside hidden id="note-passive" class="note-popover-source" data-label="Passive">
+  <h3 class="note-title">Passive</h3>
+  <p>The voice in which the subject undergoes the action (<em>liber a puero legitur</em>, “the book is read by the boy”). Latin has distinct passive endings for the present system; the perfect passive is built from the <button class="note-link" type="button" popovertarget="note-ppp">perfect passive participle</button> + a form of <em>esse</em>.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="156" href="../_language/latin/reference/22-signification-of-the-forms-of-the-verb.html#sec-156">§156</a></p>
+</aside>
+<aside hidden id="note-comp" class="note-popover-source" data-label="Comparative">
+  <h3 class="note-title">Comparative</h3>
+  <p>The degree of an adjective or adverb expressing “more” or “rather/too” (<em>altior</em>, “higher”; <em>altius</em>, “more deeply”). Adjective comparatives are formed with <code>-ior</code> (neuter <code>-ius</code>) and decline as third-declension adjectives; the adverb's comparative is the neuter accusative of the adjective's. The compared term takes <em>quam</em> or the ablative of comparison.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="123" href="../_language/latin/reference/18-comparison-of-adjectives.html#sec-123">§123</a>, <a class="ag-link" data-ag="124" href="../_language/latin/reference/18-comparison-of-adjectives.html#sec-124">§124</a></p>
+</aside>
+<aside hidden id="note-comparative" class="note-popover-source" data-label="Comparative">
+  <h3 class="note-title">Comparative</h3>
+  <p>The degree of an adjective or adverb expressing “more” or “rather/too” (<em>altior</em>, “higher”; <em>altius</em>, “more deeply”). Adjective comparatives are formed with <code>-ior</code> (neuter <code>-ius</code>) and decline as third-declension adjectives; the adverb's comparative is the neuter accusative of the adjective's. The compared term takes <em>quam</em> or the ablative of comparison.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="123" href="../_language/latin/reference/18-comparison-of-adjectives.html#sec-123">§123</a>, <a class="ag-link" data-ag="124" href="../_language/latin/reference/18-comparison-of-adjectives.html#sec-124">§124</a></p>
+</aside>
+<aside hidden id="note-superl" class="note-popover-source" data-label="Superlative">
+  <h3 class="note-title">Superlative</h3>
+  <p>The degree of an adjective or adverb expressing “most” or “very” (<em>altissimus</em>, “highest / very high”; <em>carissime</em>, “dearest”, vocative). Formed with <code>-issimus</code> (<code>-rimus</code> after <code>-er</code>, <code>-limus</code> for a few in <code>-lis</code>) and declined like a first/second declension adjective. The positive degree is unmarked in parse codes.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="123" href="../_language/latin/reference/18-comparison-of-adjectives.html#sec-123">§123</a>, <a class="ag-link" data-ag="124" href="../_language/latin/reference/18-comparison-of-adjectives.html#sec-124">§124</a></p>
+</aside>
+<aside hidden id="note-superlative" class="note-popover-source" data-label="Superlative">
+  <h3 class="note-title">Superlative</h3>
+  <p>The degree of an adjective or adverb expressing “most” or “very” (<em>altissimus</em>, “highest / very high”; <em>carissime</em>, “dearest”, vocative). Formed with <code>-issimus</code> (<code>-rimus</code> after <code>-er</code>, <code>-limus</code> for a few in <code>-lis</code>) and declined like a first/second declension adjective. The positive degree is unmarked in parse codes.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="123" href="../_language/latin/reference/18-comparison-of-adjectives.html#sec-123">§123</a>, <a class="ag-link" data-ag="124" href="../_language/latin/reference/18-comparison-of-adjectives.html#sec-124">§124</a></p>
+</aside>
+<aside hidden id="note-supine" class="note-popover-source" data-label="Supine">
+  <h3 class="note-title">Supine</h3>
+  <p>A defective verbal noun in <code>-um</code> (or <code>-u</code>), used in a narrow set of constructions: with verbs of motion to express purpose (<em>venit spectatum</em>, “he came to see”), and as the <button class="note-link" type="button" popovertarget="note-fourth-principal-part">fourth principal part</button> of a verb’s dictionary entry — the form that gives the stem for the <button class="note-link" type="button" popovertarget="note-perfect-passive-participle">perfect passive participle</button> and the future active participle.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="508" href="../_language/latin/reference/40-syntax-of-the-verb.html#sec-508">§508</a></p>
+</aside>
+<aside hidden id="note-gender" class="note-popover-source" data-label="Gender">
+  <h3 class="note-title">Gender</h3>
+  <p>The three Latin grammatical genders are <button class="note-link" type="button" popovertarget="note-masculine">masculine</button>, <button class="note-link" type="button" popovertarget="note-feminine">feminine</button>, and <button class="note-link" type="button" popovertarget="note-neuter">neuter</button>. Nouns have a fixed gender; adjectives shift to match the noun they modify.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="29" href="../_language/latin/reference/05-gender.html#sec-29">§29</a></p>
+</aside>
+<aside hidden id="note-declension" class="note-popover-source" data-label="Declension">
+  <h3 class="note-title">Declension</h3>
+  <p>One of five patterns of noun (and adjective) inflection in Latin, identified by the genitive singular ending. 1st declension: <code>-ae</code> (feminine, like <em>forma</em>). 2nd: <code>-i</code> (masculine and neuter). 3rd: <code>-is</code> (all three genders). 4th: <code>-us</code> (mostly masculine). 5th: <code>-ei</code> (mostly feminine).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="36" href="../_language/latin/reference/07-declension-of-nouns.html#sec-36">§36</a></p>
+</aside>
+<aside hidden id="note-principal-parts" class="note-popover-source" data-label="Principal parts">
+  <h3 class="note-title">Principal parts</h3>
+  <p>The set of four verb forms a dictionary entry gives so the reader can build any inflected form. For a regular verb: <button class="note-link" type="button" popovertarget="note-first-principal-part">1st</button> = the lemma’s dictionary form (1st-person singular present indicative active, e.g. <em>amo</em>); <button class="note-link" type="button" popovertarget="note-second-principal-part">2nd</button> = present active infinitive (<em>amare</em>); <button class="note-link" type="button" popovertarget="note-third-principal-part">3rd</button> = 1st-person singular perfect indicative active (<em>amavi</em>); <button class="note-link" type="button" popovertarget="note-fourth-principal-part">4th</button> = supine (<em>amatum</em>).</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="164" href="../_language/latin/reference/24-forms-of-the-verb.html#sec-164">§164</a></p>
+</aside>
+<aside hidden id="note-first-principal-part" class="note-popover-source" data-label="First principal part">
+  <h3 class="note-title">First principal part</h3>
+  <p>The first slot in a verb’s dictionary entry — the 1st-person singular present indicative active (e.g. <em>amo</em>, “I love”). This is the form the lemma is filed under, and it gives the present stem from which all present-system forms are built.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="164" href="../_language/latin/reference/24-forms-of-the-verb.html#sec-164">§164</a></p>
+</aside>
+<aside hidden id="note-second-principal-part" class="note-popover-source" data-label="Second principal part">
+  <h3 class="note-title">Second principal part</h3>
+  <p>The second slot in a verb’s dictionary entry — the present active <button class="note-link" type="button" popovertarget="note-infinitive">infinitive</button> (e.g. <em>amare</em>, “to love”). It shows which <button class="note-link" type="button" popovertarget="note-declension">conjugation</button> the verb belongs to and how the present system inflects.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="164" href="../_language/latin/reference/24-forms-of-the-verb.html#sec-164">§164</a></p>
+</aside>
+<aside hidden id="note-third-principal-part" class="note-popover-source" data-label="Third principal part">
+  <h3 class="note-title">Third principal part</h3>
+  <p>The third slot in a verb’s dictionary entry — the 1st-person singular perfect indicative active (e.g. <em>amavi</em>, “I have loved”). It gives the perfect stem, from which all forms in the <button class="note-link" type="button" popovertarget="note-perfect">perfect</button>, <button class="note-link" type="button" popovertarget="note-pluperfect">pluperfect</button>, and future-perfect active are built.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="164" href="../_language/latin/reference/24-forms-of-the-verb.html#sec-164">§164</a></p>
+</aside>
+<aside hidden id="note-fourth-principal-part" class="note-popover-source" data-label="Fourth principal part">
+  <h3 class="note-title">Fourth principal part</h3>
+  <p>The fourth slot in a verb’s dictionary entry — the <button class="note-link" type="button" popovertarget="note-supine">supine</button> (e.g. <em>amatum</em>). It gives the stem for the <button class="note-link" type="button" popovertarget="note-perfect-passive-participle">perfect passive participle</button> and the future active participle.</p><p class="grammar-agref">Allen &amp; Greenough: <a class="ag-link" data-ag="164" href="../_language/latin/reference/24-forms-of-the-verb.html#sec-164">§164</a></p>
+</aside>
+<aside hidden id="note-guide-pronunciation" class="note-popover-source" data-label="Pronunciation">
+  <h3 class="note-title">Pronunciation</h3>
+  <div class="pronunciation-guide"><p>Every Latin word popover shows how the word you tapped is pronounced — that
+form, under the reading its tab shows — as an English-letter respelling with the
+stressed syllable in capitals, then the IPA.
+A switch on the popover flips between the two systems described here, and your
+choice is remembered for each text. Ovid opens in <strong>Classical</strong>; Marvell’s
+<em>Hortus</em> opens in <strong>Ecclesiastical</strong> (see <a href="#pron-why-marvell-opens-in-ecclesiastical">below</a>).</p>
+<p>The two systems share their syllables and their accent. They differ in the
+sounds of a handful of letters — mostly <em>c</em>, <em>g</em>, <em>v</em>, <em>ae</em>, and <em>h</em>.</p>
+<table class="pron-examples">
+<thead><tr><th scope="col">Word</th><th scope="col">Classical</th><th scope="col">Ecclesiastical</th></tr></thead>
+<tbody>
+<tr><th scope="row" lang="la">caelum</th><td><span class="pron-respell">KAI-loom</span> <span class="pron-ipa">[ˈkae̯.ɫũː]</span></td><td><span class="pron-respell">CHEH-loom</span> <span class="pron-ipa">[ˈt͡ʃɛ.lum]</span></td></tr>
+<tr><th scope="row" lang="la">Cicerō</th><td><span class="pron-respell">KIH-keh-roh</span> <span class="pron-ipa">[ˈkɪ.kɛ.roː]</span></td><td><span class="pron-respell">CHEE-cheh-ro</span> <span class="pron-ipa">[ˈt͡ʃi.t͡ʃe.ro]</span></td></tr>
+<tr><th scope="row" lang="la">Caesar</th><td><span class="pron-respell">KAI-sahr</span> <span class="pron-ipa">[ˈkae̯.sar]</span></td><td><span class="pron-respell">CHEH-sahr</span> <span class="pron-ipa">[ˈt͡ʃɛ.sar]</span></td></tr>
+<tr><th scope="row" lang="la">rēgīna</th><td><span class="pron-respell">ray-GEE-nah</span> <span class="pron-ipa">[reːˈɡiː.na]</span></td><td><span class="pron-respell">reh-JEE-nah</span> <span class="pron-ipa">[reˈd͡ʒi.na]</span></td></tr>
+<tr><th scope="row" lang="la">hortus</th><td><span class="pron-respell">HOR-toos</span> <span class="pron-ipa">[ˈhɔr.tʊs]</span></td><td><span class="pron-respell">OR-toos</span> <span class="pron-ipa">[ˈɔr.tus]</span></td></tr>
+<tr><th scope="row" lang="la">grātia</th><td><span class="pron-respell">GRAH-tee-ah</span> <span class="pron-ipa">[ˈɡraː.ti.a]</span></td><td><span class="pron-respell">GRAHT-tsee-ah</span> <span class="pron-ipa">[ˈɡrat.t͡si.a]</span></td></tr>
+<tr><th scope="row" lang="la">magnus</th><td><span class="pron-respell">MAHNG-noos</span> <span class="pron-ipa">[ˈmaŋ.nʊs]</span></td><td><span class="pron-respell">MAHN-nyoos</span> <span class="pron-ipa">[ˈmaɲ.ɲus]</span></td></tr>
+<tr><th scope="row" lang="la">scelus</th><td><span class="pron-respell">SKEH-loos</span> <span class="pron-ipa">[ˈskɛ.ɫʊs]</span></td><td><span class="pron-respell">SHEH-loos</span> <span class="pron-ipa">[ˈʃɛ.lus]</span></td></tr>
+<tr><th scope="row" lang="la">excelsus</th><td><span class="pron-respell">ehk-SKEHL-soos</span> <span class="pron-ipa">[ɛkˈskɛɫ.sʊs]</span></td><td><span class="pron-respell">ehk-SHEHL-soos</span> <span class="pron-ipa">[ekˈʃɛl.sus]</span></td></tr>
+<tr><th scope="row" lang="la">ecce</th><td><span class="pron-respell">EHK-keh</span> <span class="pron-ipa">[ˈɛk.kɛ]</span></td><td><span class="pron-respell">EHT-cheh</span> <span class="pron-ipa">[ˈɛt.t͡ʃe]</span></td></tr>
+<tr><th scope="row" lang="la">iuvenis</th><td><span class="pron-respell">YOO-weh-nihs</span> <span class="pron-ipa">[ˈjʊ.wɛ.nɪs]</span></td><td><span class="pron-respell">YOO-veh-nees</span> <span class="pron-ipa">[ˈju.ve.nis]</span></td></tr>
+<tr><th scope="row" lang="la">virgō</th><td><span class="pron-respell">WIHR-goh</span> <span class="pron-ipa">[ˈwɪr.ɡoː]</span></td><td><span class="pron-respell">VEER-go</span> <span class="pron-ipa">[ˈvir.ɡo]</span></td></tr>
+<tr><th scope="row" lang="la">lingua</th><td><span class="pron-respell">LIHNG-gwah</span> <span class="pron-ipa">[ˈlɪŋ.ɡʷa]</span></td><td><span class="pron-respell">LEENG-gwah</span> <span class="pron-ipa">[ˈliŋ.ɡʷa]</span></td></tr>
+<tr><th scope="row" lang="la">philosophia</th><td><span class="pron-respell">pih-lo-SO-pee-ah</span> <span class="pron-ipa">[pʰɪ.ɫɔˈsɔ.pʰi.a]</span></td><td><span class="pron-respell">fee-lo-SO-fee-ah</span> <span class="pron-ipa">[fi.loˈsɔ.fi.a]</span></td></tr>
+<tr><th scope="row" lang="la">mihi</th><td><span class="pron-respell">MEE-hih</span> <span class="pron-ipa">[ˈmi.hɪ]</span></td><td><span class="pron-respell">MEE-kee</span> <span class="pron-ipa">[ˈmi.ki]</span></td></tr>
+<tr><th scope="row" lang="la">amīcitia</th><td><span class="pron-respell">ah-mee-KIH-tee-ah</span> <span class="pron-ipa">[a.miːˈkɪ.ti.a]</span></td><td><span class="pron-respell">ah-mee-CHEET-tsee-ah</span> <span class="pron-ipa">[a.miˈt͡ʃit.t͡si.a]</span></td></tr>
+</tbody>
+</table>
+<h3 id="pron-classical" class="pron-subhead">Classical</h3>
+<p>The pronunciation of educated Romans of the late Republic and early Empire,
+reconstructed from ancient grammarians, spelling, loanwords, and verse. It is
+the system taught in most schools and universities today, and the one Ovid
+would have recognised.</p>
+<p><strong>Vowels.</strong> Each vowel is short or long, and length is part of the word: <em>malum</em>
+“evil” is not <em>mālum</em> “apple”. The popovers take length from the macrons of the
+dictionary form; an unmarked vowel is short.</p>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Sound</th>
+<th>Respelled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a, ā</td>
+<td><em>a</em> as in <em>father</em> (short ā is only shorter)</td>
+<td>ah</td>
+</tr>
+<tr>
+<td>e</td>
+<td><em>e</em> as in <em>pet</em></td>
+<td>eh</td>
+</tr>
+<tr>
+<td>ē</td>
+<td><em>ey</em> as in <em>they</em>, without the glide</td>
+<td>ay</td>
+</tr>
+<tr>
+<td>i</td>
+<td><em>i</em> as in <em>pit</em></td>
+<td>ih</td>
+</tr>
+<tr>
+<td>ī</td>
+<td><em>i</em> as in <em>machine</em></td>
+<td>ee</td>
+</tr>
+<tr>
+<td>o</td>
+<td><em>o</em> as in British <em>pot</em></td>
+<td>o</td>
+</tr>
+<tr>
+<td>ō</td>
+<td><em>o</em> as in <em>note</em>, without the glide</td>
+<td>oh</td>
+</tr>
+<tr>
+<td>u, ū</td>
+<td><em>u</em> as in <em>put</em>; <em>oo</em> as in <em>rule</em></td>
+<td>oo</td>
+</tr>
+<tr>
+<td>y</td>
+<td>French <em>u</em>, German <em>ü</em> (Greek words)</td>
+<td>ü</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Diphthongs.</strong> <em>ae</em> as in <em>aisle</em> (ai); <em>au</em> as in <em>house</em> (ow); <em>oe</em> as in
+<em>boil</em> (oy); <em>eu</em> is <em>e</em> gliding to <em>u</em>; <em>ui</em> in <em>cui</em>, <em>huic</em> is one syllable.</p>
+<p><strong>Consonants</strong> mostly as in English, with these fixed values:</p>
+<ul>
+<li><strong>c</strong> is always <em>k</em>: <em>Cicerō</em> = KIH-keh-roh. <strong>g</strong> is always hard: <em>genus</em> = GEH-noos.</li>
+<li><strong>v</strong> (consonantal <em>u</em>) is English <em>w</em>: <em>virgō</em> = WIHR-goh.</li>
+<li><strong>i</strong> before a vowel at the start of a word, and between vowels, is English
+<em>y</em>: <em>iam</em>, <em>iuvenis</em>. Between vowels it is doubled: <em>maior</em> = MAI-yor.</li>
+<li><strong>qu</strong> is <em>kw</em>; <strong>gu</strong> after <em>n</em> is <em>gw</em>: <em>lingua</em> = LIHNG-gwah.</li>
+<li><strong>s</strong> is always the <em>s</em> of <em>sing</em>, never <em>z</em>. <strong>t</strong> is always <em>t</em>: <em>grātia</em> = GRAH-tee-ah.</li>
+<li><strong>ph, th, ch</strong> are <em>p, t, k</em> with a puff of breath, not <em>f, th, ch</em>.</li>
+<li><strong>gn</strong> is <em>ngn</em>: <em>magnus</em> = MAHNG-noos. <strong>n</strong> before <em>c, g, q, x</em> is <em>ng</em>.</li>
+<li><strong>x</strong> is <em>ks</em>. <strong>z</strong> (Greek words) is <em>dz</em> or <em>zz</em>.</li>
+<li><strong>h</strong> is a light breath, often lost between vowels.</li>
+<li>Final <strong>-m</strong> after a vowel nasalises it, as in French: <em>caelum</em> = KAI-loom,
+IPA [ˈkae̯.ɫũː]. <strong>n</strong> before <em>s</em> or <em>f</em> does the same, lengthening the vowel.</li>
+<li>Double consonants are held: <em>an-nus</em>, <em>ec-ce</em>.</li>
+<li><strong>l</strong> is “dark” (as in <em>full</em>) except before <em>i</em> and in <em>ll</em>; <strong>r</strong> is trilled.</li>
+</ul>
+<p>Allen &amp; Greenough cover the sounds in <a class="ag-link" data-ag="8" href="../_language/latin/reference/02-orthography.html#sec-8">§8</a> and the alphabet in <a class="ag-link" data-ag="1" href="../_language/latin/reference/01-the-alphabet.html#sec-1">§1</a>.</p>
+<h3 id="pron-ecclesiastical" class="pron-subhead">Ecclesiastical</h3>
+<p>The Italianate pronunciation of the Roman Catholic Church: Latin read with the
+sounds of Italian. Some such Italian-flavoured Latin is old; this standardised
+form became the Church’s official pronunciation in the early twentieth century,
+and is what most choirs sing.</p>
+<p><strong>Vowels</strong> have no length contrast: <em>a</em> (ah), <em>e</em> (eh), <em>i</em> (ee), <em>o</em> (o),
+<em>u</em> (oo). In the stressed syllable <em>e</em> and <em>o</em> are open, as in Italian.
+<strong>ae</strong> and <strong>oe</strong> are plain <em>e</em>: <em>caelum</em> = CHEH-loom, <em>Phoebus</em> = FEH-boos.
+<strong>y</strong> is <em>i</em>. <strong>au</strong> and <strong>eu</strong> stay diphthongs.</p>
+<p><strong>Consonants</strong> — what changes from Classical:</p>
+<ul>
+<li><strong>c</strong> before <em>e, i, y, ae, oe</em> is <em>ch</em>: <em>Cicerō</em> = CHEE-cheh-ro. <strong>cc</strong> there
+is <em>t-ch</em>: <em>ecce</em> = EHT-cheh. Elsewhere <em>c</em> is <em>k</em>.</li>
+<li><strong>g</strong> before <em>e, i, y, ae, oe</em> is <em>j</em>: <em>rēgīna</em> = reh-JEE-nah. Elsewhere hard.</li>
+<li><strong>sc</strong> before those vowels is <em>sh</em>: <em>scelus</em> = SHEH-loos; <strong>xc</strong> is <em>ksh</em>:
+<em>excelsus</em> = ehk-SHEHL-soos.</li>
+<li><strong>gn</strong> is <em>ny</em> (Italian <em>gnocchi</em>): <em>magnus</em> = MAHN-nyoos.</li>
+<li><strong>ti</strong> before a vowel is <em>tsee</em>: <em>grātia</em> = GRAHT-tsee-ah — except after
+<em>s, t, x</em> (<em>hostia</em>).</li>
+<li><strong>v</strong> is English <em>v</em>; <strong>ph</strong> is <em>f</em>; <strong>th</strong> is <em>t</em>; <strong>ch</strong> is <em>k</em>.</li>
+<li><strong>h</strong> is silent — except in <em>mihi</em> and <em>nihil</em>, traditionally MEE-kee, NEE-keel.</li>
+<li><strong>ex-</strong> before a vowel, when the accent follows, is <em>egz</em>: <em>exārdeō</em> = ehg-ZAHR-deh-o.</li>
+<li><strong>z</strong> is <em>dz</em>. Final <strong>-m</strong> is a plain <em>m</em>.</li>
+</ul>
+<h3 id="pron-syllables-and-accent" class="pron-subhead">Syllables and accent</h3>
+<p>Both systems divide words and place the accent the same way, by the classical
+rules (<a class="ag-link" data-ag="7" href="../_language/latin/reference/02-orthography.html#sec-7">A&amp;G §7</a>, <a class="ag-link" data-ag="12" href="../_language/latin/reference/02-orthography.html#sec-12">§12</a>).</p>
+<p>A single consonant between vowels begins the next syllable (<em>a-mō</em>); of two or
+more, the last begins it (<em>hor-tus</em>, <em>mag-nus</em>) — except that a stop followed
+by <em>r</em> or <em>l</em> usually goes together (<em>pa-tris</em>). <em>x</em> counts as two consonants.</p>
+<p>A syllable is <strong>heavy</strong> if its vowel is long or a diphthong, or if it ends in a
+consonant. Then:</p>
+<ul>
+<li>Words of two syllables are stressed on the first: HOR-toos.</li>
+<li>Longer words are stressed on the second-to-last syllable if it is heavy
+(<em>a-MĪ-cus</em>, <em>ae-TER-nus</em>), and otherwise on the one before it
+(<em>DO-mi-nus</em>, <em>TE-ne-brae</em>).</li>
+</ul>
+<p>This is why the macrons matter even in Ecclesiastical, which no longer
+pronounces vowel length: <em>rēgīna</em> and <em>dominus</em> are both three syllables, but
+the long <em>ī</em> pulls the accent forward in the first.</p>
+<h3 id="pron-why-marvell-opens-in-ecclesiastical" class="pron-subhead">Why Marvell opens in Ecclesiastical</h3>
+<p>No one in the seventeenth century spoke “Ecclesiastical Latin” in its modern,
+standardised form, and Marvell left no account of how he pronounced Latin. The
+default is an informed guess, and the switch is there to overrule it.</p>
+<p>The case for it runs through Milton. In <em>Of Education</em> (1644) Milton told
+schoolmasters that their pupils’</p>
+<blockquote>
+<p>speech is to be fashion’d to a distinct and clear pronuntiation, as near as
+may be to the Italian, especially in the Vowels. For we Englishmen being far
+Northerly, do not open our mouths in the cold air, wide enough to grace a
+Southern Tongue; but are observ’d by all other Nations to speak exceeding
+close and inward: So that to smatter Latine with an English mouth, is as ill
+a hearing as Law-French.</p>
+</blockquote>
+<p>English schools then taught a native pronunciation of Latin that had followed
+English through its vowel shifts — the “English mouth” Milton objected to.
+Milton had lived in Italy in 1638–39 and wanted Latin spoken the Italian way.
+Marvell was his close associate: Milton recommended him for government service
+in 1653, praising his four years abroad “in Holland, France, Italy, and Spaine”,
+and in 1657 Marvell became Milton’s assistant in the Latin Secretaryship.
+Whether Marvell’s Latin followed Milton’s advice is unrecorded; it is
+plausible, and the Italianate system is the nearest modern stand-in for
+“as near as may be to the Italian”.</p>
+<p>Two cautions. Milton asks for Italian <em>vowels</em>; he says nothing about <em>c</em> and
+<em>g</em>, and the consonants of seventeenth-century Latin varied from country to
+country (in Venice, soft <em>c</em> was <em>ts</em>). And Marvell, schooled at Hull and
+Cambridge, certainly <em>heard</em> the English pronunciation all his youth. Read the
+Ecclesiastical popovers on <em>Hortus</em> as one plausible voice, not a recording.</p>
+<h3 id="pron-how-the-popovers-work-it-out" class="pron-subhead">How the popovers work it out</h3>
+<p>The pronunciation is computed, not looked up. The texts are printed without
+macrons, so the vowel lengths of each form come from its Wiktionary inflection
+table (<em>mortale</em> in the text is <em>mortāle</em>: mor-TAH-leh); the reader then applies
+the rules on this page. Checked against Wiktionary’s own transcriptions of every
+dictionary form in the lexicon, it agrees on about 99% of words in both systems.
+The rest are mostly compounds whose prefix changes the syllables (<em>ad-stringō</em>),
+and Greek names.</p>
+<p>Where the text leaves a form’s case open and the cases differ in length —
+<em>vestra</em> (nominative) or <em>vestrā</em> (ablative) — the Classical line shows both;
+the metre of the line usually decides. Where a form’s lengths aren’t known, the
+popover pronounces the dictionary form instead and names it.</p>
+<h3 id="pron-sources" class="pron-subhead">Sources</h3>
+<p>All open:</p>
+<ul>
+<li>Allen &amp; Greenough, <em>New Latin Grammar</em> (1903), <a class="ag-link" data-ag="1" href="../_language/latin/reference/01-the-alphabet.html#sec-1">§§1–12</a> — the reference
+grammar bundled with this reader.</li>
+<li>Charles E. Bennett, <a href="https://www.gutenberg.org/ebooks/15665"><em>New Latin Grammar</em></a>
+(1908; Project Gutenberg), Part I: sounds, quantity, and accent.</li>
+<li>Michael A. Covington, <a href="https://www.covingtoninnovations.com/mc/latinpro.pdf"><em>Latin Pronunciation Demystified</em></a>.</li>
+<li>Wiktionary, <a href="https://en.wiktionary.org/wiki/Appendix:Latin_pronunciation">Appendix:Latin pronunciation</a>
+and its <em>la-IPA</em> transcriptions, the yardstick for the computed popovers.</li>
+<li>Wikipedia, <a href="https://en.wikipedia.org/wiki/Ecclesiastical_Latin">Ecclesiastical Latin</a>
+and <a href="https://en.wikipedia.org/wiki/Latin_regional_pronunciation">Latin regional pronunciation</a>.</li>
+<li>John Milton, <a href="https://milton.host.dartmouth.edu/reading_room/of_education/text.shtml"><em>Of Education</em></a>
+(1644), Dartmouth Milton Reading Room, ed. Thomas H. Luxon.</li>
+<li>Milton to John Bradshaw, 21 February 1653, recommending Marvell (The National
+Archives, SP 18/33/152), as quoted in <a href="https://marvell.openlibhums.org/article/id/10733/"><em>Marvell Studies</em></a>.</li>
+</ul>
+</div>
+</aside>
+<aside hidden id="note-guide-grammar" class="note-popover-source" data-label="Grammar">
+  <h3 class="note-title">Grammar</h3>
+  <p>The terms the word popovers use. Tap a category, then a term.</p><ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-guide-pos">Part of Speech</button></li><li><button class="note-link" type="button" popovertarget="note-guide-case">Case</button></li><li><button class="note-link" type="button" popovertarget="note-guide-number">Number</button></li><li><button class="note-link" type="button" popovertarget="note-guide-gender">Gender</button></li><li><button class="note-link" type="button" popovertarget="note-guide-person">Person</button></li><li><button class="note-link" type="button" popovertarget="note-guide-tense">Tense</button></li><li><button class="note-link" type="button" popovertarget="note-guide-mood">Mood</button></li><li><button class="note-link" type="button" popovertarget="note-guide-voice">Voice</button></li><li><button class="note-link" type="button" popovertarget="note-guide-degree">Degree</button></li><li><button class="note-link" type="button" popovertarget="note-guide-terms">Grammar Terms</button></li></ul>
+</aside>
+<aside hidden id="note-guide-pos" class="note-popover-source" data-label="Part of Speech">
+  <h3 class="note-title">Part of Speech</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-noun">Noun</button> <span class="grammar-abbrev">n.</span></li><li><button class="note-link" type="button" popovertarget="note-verb">Verb</button> <span class="grammar-abbrev">v.</span></li><li><button class="note-link" type="button" popovertarget="note-adj">Adjective</button> <span class="grammar-abbrev">adj.</span></li><li><button class="note-link" type="button" popovertarget="note-pron">Pronoun</button> <span class="grammar-abbrev">pron.</span></li><li><button class="note-link" type="button" popovertarget="note-prep">Preposition</button> <span class="grammar-abbrev">prep.</span></li><li><button class="note-link" type="button" popovertarget="note-conj">Conjunction</button> <span class="grammar-abbrev">conj.</span></li><li><button class="note-link" type="button" popovertarget="note-adv">Adverb</button> <span class="grammar-abbrev">adv.</span></li><li><button class="note-link" type="button" popovertarget="note-interj">Interjection</button> <span class="grammar-abbrev">interj.</span></li><li><button class="note-link" type="button" popovertarget="note-enclitic">Enclitic</button> <span class="grammar-abbrev">encl.</span></li><li><button class="note-link" type="button" popovertarget="note-num">Numeral</button> <span class="grammar-abbrev">num.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-case" class="note-popover-source" data-label="Case">
+  <h3 class="note-title">Case</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-nom">Nominative</button> <span class="grammar-abbrev">nom.</span></li><li><button class="note-link" type="button" popovertarget="note-gen">Genitive</button> <span class="grammar-abbrev">gen.</span></li><li><button class="note-link" type="button" popovertarget="note-dat">Dative</button> <span class="grammar-abbrev">dat.</span></li><li><button class="note-link" type="button" popovertarget="note-acc">Accusative</button> <span class="grammar-abbrev">acc.</span></li><li><button class="note-link" type="button" popovertarget="note-abl">Ablative</button> <span class="grammar-abbrev">abl.</span></li><li><button class="note-link" type="button" popovertarget="note-voc">Vocative</button> <span class="grammar-abbrev">voc.</span></li><li><button class="note-link" type="button" popovertarget="note-loc">Locative</button> <span class="grammar-abbrev">loc.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-number" class="note-popover-source" data-label="Number">
+  <h3 class="note-title">Number</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-sg">Singular</button> <span class="grammar-abbrev">sg.</span></li><li><button class="note-link" type="button" popovertarget="note-pl">Plural</button> <span class="grammar-abbrev">pl.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-gender" class="note-popover-source" data-label="Gender">
+  <h3 class="note-title">Gender</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-masc">Masculine</button> <span class="grammar-abbrev">m.</span></li><li><button class="note-link" type="button" popovertarget="note-fem">Feminine</button> <span class="grammar-abbrev">f.</span></li><li><button class="note-link" type="button" popovertarget="note-neut">Neuter</button> <span class="grammar-abbrev">n.</span></li><li><button class="note-link" type="button" popovertarget="note-c">Common gender</button> <span class="grammar-abbrev">c.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-person" class="note-popover-source" data-label="Person">
+  <h3 class="note-title">Person</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-1">1st person</button> <span class="grammar-abbrev">1.</span></li><li><button class="note-link" type="button" popovertarget="note-2">2nd person</button> <span class="grammar-abbrev">2.</span></li><li><button class="note-link" type="button" popovertarget="note-3">3rd person</button> <span class="grammar-abbrev">3.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-tense" class="note-popover-source" data-label="Tense">
+  <h3 class="note-title">Tense</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-pres">Present</button> <span class="grammar-abbrev">pres.</span></li><li><button class="note-link" type="button" popovertarget="note-imperf">Imperfect</button> <span class="grammar-abbrev">impf.</span></li><li><button class="note-link" type="button" popovertarget="note-fut">Future</button> <span class="grammar-abbrev">fut.</span></li><li><button class="note-link" type="button" popovertarget="note-perf">Perfect</button> <span class="grammar-abbrev">perf.</span></li><li><button class="note-link" type="button" popovertarget="note-plup">Pluperfect</button> <span class="grammar-abbrev">plpf.</span></li><li><button class="note-link" type="button" popovertarget="note-futperf">Future perfect</button> <span class="grammar-abbrev">fut. pf.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-mood" class="note-popover-source" data-label="Mood">
+  <h3 class="note-title">Mood</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-ind">Indicative</button> <span class="grammar-abbrev">ind.</span></li><li><button class="note-link" type="button" popovertarget="note-subj">Subjunctive</button> <span class="grammar-abbrev">subj.</span></li><li><button class="note-link" type="button" popovertarget="note-imp">Imperative</button> <span class="grammar-abbrev">imp.</span></li><li><button class="note-link" type="button" popovertarget="note-inf">Infinitive</button> <span class="grammar-abbrev">inf.</span></li><li><button class="note-link" type="button" popovertarget="note-pap">Present active participle</button> <span class="grammar-abbrev">pres. act. pcpl.</span></li><li><button class="note-link" type="button" popovertarget="note-ppp">Perfect passive participle</button> <span class="grammar-abbrev">perf. pass. pcpl.</span></li><li><button class="note-link" type="button" popovertarget="note-fap">Future active participle</button> <span class="grammar-abbrev">fut. act. pcpl.</span></li><li><button class="note-link" type="button" popovertarget="note-gerundive">Gerundive</button> <span class="grammar-abbrev">gerundive</span></li><li><button class="note-link" type="button" popovertarget="note-ger">Gerund</button> <span class="grammar-abbrev">ger.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-voice" class="note-popover-source" data-label="Voice">
+  <h3 class="note-title">Voice</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-act">Active</button> <span class="grammar-abbrev">act.</span></li><li><button class="note-link" type="button" popovertarget="note-pass">Passive</button> <span class="grammar-abbrev">pass.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-degree" class="note-popover-source" data-label="Degree">
+  <h3 class="note-title">Degree</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-comp">Comparative</button> <span class="grammar-abbrev">comp.</span></li><li><button class="note-link" type="button" popovertarget="note-superl">Superlative</button> <span class="grammar-abbrev">superl.</span></li></ul>
+</aside>
+<aside hidden id="note-guide-terms" class="note-popover-source" data-label="Grammar Terms">
+  <h3 class="note-title">Grammar Terms</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-supine">Supine</button></li><li><button class="note-link" type="button" popovertarget="note-gender">Gender</button></li><li><button class="note-link" type="button" popovertarget="note-declension">Declension</button></li><li><button class="note-link" type="button" popovertarget="note-principal-parts">Principal parts</button></li><li><button class="note-link" type="button" popovertarget="note-first-principal-part">First principal part</button></li><li><button class="note-link" type="button" popovertarget="note-second-principal-part">Second principal part</button></li><li><button class="note-link" type="button" popovertarget="note-third-principal-part">Third principal part</button></li><li><button class="note-link" type="button" popovertarget="note-fourth-principal-part">Fourth principal part</button></li></ul>
+</aside>
+<aside hidden id="note-guide-notes" class="note-popover-source" data-label="Notes">
+  <h3 class="note-title">Notes</h3>
+  <ul class="guide-list"><li><button class="note-link" type="button" popovertarget="note-texts-and-provenance">Texts and provenance</button></li><li><button class="note-link" type="button" popovertarget="note-latin-normalization">Latin normalization</button></li><li><button class="note-link" type="button" popovertarget="note-correspondence-structure">Correspondence structure</button></li><li><button class="note-link" type="button" popovertarget="note-apparatus-status-build-state">Apparatus status (build state)</button></li></ul>
+</aside>
+<aside hidden id="note-guide-study" class="note-popover-source" data-label="Study">
+  <h3 class="note-title">Study</h3>
+  <ul class="study-list"><li><button class="note-link" type="button" popovertarget="note-guide-notes">Notes</button> <span class="study-desc">the commentary on this text</span></li><li><button class="note-link" type="button" popovertarget="note-guide-grammar">Grammar</button> <span class="study-desc">cases, tenses, moods, and other terms</span></li><li><button class="note-link" type="button" popovertarget="note-guide-pronunciation">Pronunciation</button> <span class="study-desc">Classical and Ecclesiastical</span></li><li><a class="ag-link" data-ag-toc="" href="../_language/latin/reference/index.html">Reference Grammar</a> <span class="study-desc">the full grammar, by section</span></li></ul>
+</aside>
+</div>
+<aside id="popover-host" popover>
+  <div class="popover-chrome">
+    <div class="popover-chrome-top">
+      <button class="popover-home" type="button" hidden aria-label="Home">⌂</button>
+      <span class="popover-chrome-spacer"></span>
+      <button class="popover-prev" type="button" disabled aria-label="Previous">‹</button>
+      <button class="popover-next" type="button" disabled aria-label="Next">›</button>
+      <button class="popover-close" type="button" popovertarget="popover-host" popovertargetaction="hide" aria-label="Close">×</button>
+    </div>
+    <nav class="popover-crumbs" aria-label="Where you are"></nav>
+  </div>
+  <div class="popover-body"></div>
+</aside>
   </div>
 <nav class="page-nav"><a class="prev" href="book1-04.html"><span class="dir">←</span> <span class="title">Love Retreats to the Trees; Gods in Pursuit</span></a><a class="next" href="book1-06.html"><span class="title">The Mind Withdrawing</span> <span class="dir">→</span></a></nav>
 </article>

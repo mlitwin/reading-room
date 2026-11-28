@@ -2,6 +2,7 @@
 title: "Marvell: Hortus / The Garden"
 author: Matthew Litwin
 date: 2026-06-30
+language: latin
 tags: [latin, marvell, poetry, metaphysical, parallel-text]
 # Popovers open in Italianate Ecclesiastical: Milton urged Latin spoken "as near
 # as may be to the Italian", and Marvell was his associate — see the guide,

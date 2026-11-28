@@ -1,0 +1,42 @@
+/* ============================================================
+   00 · Fonts
+   Charis (SIL) is the text face; see site/reader/fonts/README.md.
+   Paths are relative to docs/assets/reader.css → docs/assets/fonts/,
+   which works over http and over file:// in the iOS WKWebView.
+   ============================================================ */
+
+@font-face {
+  font-family: "Charis";
+  src: url("fonts/Charis-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Charis";
+  src: url("fonts/Charis-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Charis";
+  src: url("fonts/Charis-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Charis";
+  src: url("fonts/Charis-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* The text face: prose, Latin, cards, paradigms, Reference Grammar, IPA.
+     "Gentium" (SIL) is the slot for Greek when it's added — Charis has no
+     polytonic Greek — then the system serifs as a last resort. */
+  --font-text: "Charis", "Gentium", ui-serif, "Iowan Old Style", Georgia, serif;
+}

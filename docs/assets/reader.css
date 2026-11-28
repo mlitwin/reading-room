@@ -1,4 +1,46 @@
 /* ============================================================
+   00 · Fonts
+   Charis (SIL) is the text face; see site/reader/fonts/README.md.
+   Paths are relative to docs/assets/reader.css → docs/assets/fonts/,
+   which works over http and over file:// in the iOS WKWebView.
+   ============================================================ */
+
+@font-face {
+  font-family: "Charis";
+  src: url("fonts/Charis-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Charis";
+  src: url("fonts/Charis-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Charis";
+  src: url("fonts/Charis-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Charis";
+  src: url("fonts/Charis-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* The text face: prose, Latin, cards, paradigms, Reference Grammar, IPA.
+     "Gentium" (SIL) is the slot for Greek when it's added — Charis has no
+     polytonic Greek — then the system serifs as a last resort. */
+  --font-text: "Charis", "Gentium", ui-serif, "Iowan Old Style", Georgia, serif;
+}
+/* ============================================================
    01 · Design tokens, reset & prose typography
    CSS custom properties (+ dark mode), the box-sizing reset, html/body, and .body article prose.
    ============================================================ */
@@ -39,7 +81,7 @@ html, body {
   padding: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: ui-serif, Georgia, "New York", serif;
+  font-family: var(--font-text);
   font-size: 18px;
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
@@ -392,7 +434,7 @@ nav.page-nav .placeholder { visibility: hidden; }
    that opens a popover card for its lemma. Buttons look like inline text — no
    border, no underline — until hover reveals the link affordance. */
 .latin-passage {
-  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-family: var(--font-text);
   font-size: 1.05rem;
   line-height: 1.8;
   margin: 1.2rem 0 1.6rem;
@@ -453,13 +495,14 @@ nav.page-nav .placeholder { visibility: hidden; }
 }
 #popover-host::backdrop { background: rgba(0, 0, 0, 0.25); }
 
-/* Two-line header: control row (Home/Up · Prev/Next/Close) on top, the context
-   chip + current title on its own line below so it can show in full instead of
-   truncating. */
+/* Two-line header: control row (Home · Prev/Next/Close) on top, the
+   breadcrumb on its own line below so it has the full width. The breadcrumb
+   (filled by cards.js) scrolls sideways if it must; cards.js already collapses
+   its middle on narrow screens. */
 .popover-chrome {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 0.2rem;
   padding: 0.4rem 0.6rem;
   border-bottom: 1px solid var(--rule);
   background: rgba(0, 0, 0, 0.02);
@@ -470,7 +513,6 @@ nav.page-nav .placeholder { visibility: hidden; }
   gap: 0.25rem;
 }
 .popover-chrome-spacer { flex: 1; min-width: 0.5rem; }
-.popover-context-row { min-width: 0; }
 .popover-prev, .popover-next {
   background: none;
   border: 0;
@@ -518,68 +560,97 @@ nav.page-nav .placeholder { visibility: hidden; }
   cursor: default;
 }
 
-/* Context-aware chrome: Home / Up / context label, with Prev/Next scoped to
-   the current context. Replaces the old flat breadcrumb (which didn't scale
-   to depth). See Plans/latin-grammar-note-navigation-plan.md. */
-.popover-home, .popover-up {
+/* Context-aware chrome: Home, and a breadcrumb of the contexts walked
+   through (the page › a word › grammar › a section), with Prev/Next scoped to
+   the current context. See Plans/latin-text-centered-reader-plan.md (D3). */
+.popover-home {
   background: none;
   border: 0;
   cursor: pointer;
   font: inherit;
+  font-size: 1.1rem;
   color: var(--muted);
   padding: 0.2rem 0.45rem;
   border-radius: 4px;
   line-height: 1;
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.25rem;
-  white-space: nowrap;
-  min-width: 0;
 }
-.popover-home { font-size: 1.1rem; }
-.popover-up .popover-up-label {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 8rem;
-}
-.popover-home:hover, .popover-up:hover {
+.popover-home:hover {
   background: rgba(0, 0, 0, 0.06);
   color: var(--fg);
 }
-.popover-home[hidden], .popover-up[hidden] { display: none; }
+.popover-home[hidden] { display: none; }
 
-.popover-context {
-  display: block;
+.popover-crumbs {
   min-width: 0;
-  margin-left: 0.1rem;
-  color: var(--fg);
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.82rem;
   line-height: 1.3;
-}
-.popover-ctx-chip {
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--accent);
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  padding: 0.05rem 0.3rem;
-  margin-right: 0.15rem;
   white-space: nowrap;
 }
-.popover-ctx-title { font-weight: 600; }
+.popover-crumbs::-webkit-scrollbar { display: none; }
+.popover-crumb {
+  background: none;
+  border: 0;
+  padding: 0.2rem 0.3rem;
+  border-radius: 4px;
+  font: inherit;
+  color: var(--muted);
+  cursor: pointer;
+  max-width: 12rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+}
+@media (max-width: 600px) { .popover-crumb { max-width: 7rem; } }
+.popover-crumb:hover { background: rgba(0, 0, 0, 0.06); color: var(--fg); }
+.popover-crumb-sep, .popover-crumb-gap { color: var(--muted); opacity: 0.6; user-select: none; }
+.popover-crumb-here {
+  flex-shrink: 0;
+  font-weight: 600;
+  color: var(--fg);
+  padding: 0.05rem 0.3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 /* Surface-form title wears the same accent highlight as the active paradigm
    cell (06-paradigm.css .paradigm-cell.active-form), so the tapped word in the
-   title reads as the same token as the highlighted cell. */
-.popover-ctx-title.is-form {
-  /* shared "form in context" highlight — matches the active paradigm cell */
+   breadcrumb reads as the same token as the highlighted cell. */
+.popover-crumb-here.is-form {
   background: var(--form-highlight-bg);
   color: var(--form-highlight-fg);
-  /* same serif as --paradigm-form-font (scoped to .card-paradigm, so inlined) */
-  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  /* the text face, as the paradigm forms use */
+  font-family: var(--font-text);
   border-radius: 4px;
   padding: 0.05rem 0.35rem;
 }
+
+/* Study button in the page header (Latin books): opens the study hub. */
+.study-button {
+  float: right;
+  margin: -0.15rem 0 0.5rem 0.75rem;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--accent);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.study-button:hover { border-color: var(--accent); }
+
+/* Study hub and guide lists inside the popover. */
+.study-list, .guide-list { list-style: none; padding: 0; margin: 0.25rem 0 0; }
+.study-list li { margin: 0 0 0.9rem; }
+.study-list .note-link, .study-list .ag-link { font-weight: 600; font-size: 1.02rem; }
+.study-desc { display: block; color: var(--muted); font-size: 0.88rem; }
+.guide-list li { margin: 0 0 0.45rem; }
 
 .popover-body {
   flex: 1;
@@ -650,7 +721,7 @@ nav.page-nav .placeholder { visibility: hidden; }
   margin-bottom: -1px;   /* sits on top of the border-bottom of tab-bar */
   padding: 0.3rem 0.7rem 0.4rem;
   font: inherit;
-  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  font-family: var(--font-text);
   font-size: 1rem;
   color: var(--muted);
   cursor: pointer;
@@ -698,7 +769,7 @@ nav.page-nav .placeholder { visibility: hidden; }
   border: 0;
   padding: 0;
   font: inherit;
-  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  font-family: var(--font-text);
   font-style: italic;
   color: var(--accent);
   cursor: pointer;
@@ -748,7 +819,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   margin: 0 0 0.6rem 0;
 }
 .card-popover .card-lemma {
-  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-family: var(--font-text);
   font-size: 1.3rem;
   font-weight: 600;
   margin: 0 0 0.15rem;
@@ -765,7 +836,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   font-weight: 400;
 }
 .card-popover .card-principal {
-  font-family: ui-serif, Georgia, serif;
+  font-family: var(--font-text);
   font-style: italic;
   margin: 0;
   color: var(--muted);
@@ -787,8 +858,8 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 }
 .card-popover .card-pron-ipa {
   color: var(--muted);
-  /* IPA needs ɫ, t͡ʃ, combining tildes and tie bars: fonts known to carry them. */
-  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  /* IPA (ɫ, t͡ʃ, combining tildes, tie bars): Charis carries it all. */
+  font-family: var(--font-text);
 }
 /* One item per pronounced form — two when vowel length depends on a parse
    the text leaves open (rosa nom. / rosā abl.). */
@@ -833,6 +904,12 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   color: var(--fg);
 }
 .card-popover .card-pron-help {
+  /* a button (opens the Pronunciation entry in-flow) styled as a link */
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 0.7rem;
   color: var(--accent);
@@ -862,7 +939,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
        identical in dark mode (a black rgba tint would diverge there) */
   --paradigm-label-font: ui-sans-serif, sans-serif;                /* col-head / badge / section */
   --paradigm-label-color: var(--muted);
-  --paradigm-form-font: ui-serif, "Iowan Old Style", Georgia, serif;
+  --paradigm-form-font: var(--font-text);
 
   font-family: var(--paradigm-form-font);
 }
@@ -1082,7 +1159,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 
 .card-popover .card-glosses {
   margin: 0.6rem 0;
-  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  font-family: var(--font-text);
 }
 
 .card-popover .card-notes {
@@ -1115,7 +1192,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 /* Surface form (the actual Latin word tapped) — shown in the card header. */
 .card-popover .card-parse-surface {
   display: block;
-  font-family: ui-serif, "Iowan Old Style", Georgia, serif;
+  font-family: var(--font-text);
   font-size: 1.05rem;
   font-style: italic;
   font-weight: 600;
@@ -1232,7 +1309,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 
 /* (Old `.card-close` / `.note-close` selectors removed — the host's
    chrome owns the close button now.) */
-/* Allen & Greenough reference grammar pages (docs/_language/latin/reference/).
+/* Reference Grammar pages (docs/_language/latin/reference/), after Allen & Greenough.
    Leans on .body prose styles from 01-base.css; this partial adds the section
    numbering, A&G footnotes, wide-table scrolling, and the index TOC. */
 
@@ -1249,6 +1326,14 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 .ag-secnum a:hover { color: var(--accent); }
 
 .ag-section { scroll-margin-top: 1rem; }
+
+/* Marks a seeded section whose text we've changed from the source. */
+.ag-edited {
+  margin-left: 0.4rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+}
 .ag-subhead { margin-top: 2.25rem; }
 
 /* Latin forms and English glosses. <em class="lang-la"> is already italic via
@@ -1308,24 +1393,38 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   text-decoration-style: dotted;
 }
 
-/* In-flow A&G references inside the popover stack (Phase 1). The §N controls
-   and cross-refs drill within the popover; "Open full section ↗" exits to the
-   standalone page. */
-.popover-body .ag-link,
-.popover-body [data-ag],
-.popover-body [data-full] { cursor: pointer; }
-/* De-emphasized escape hatch: in-flow drilling is the primary path, so the
-   "Open full section ↗" exit is small and muted at the foot of the section. */
-.ref-popover .ag-fullpage {
+/* In-flow Reference Grammar links: sections (data-ag) and contents
+   (data-ag-toc) open inside the popover stack, from the popover or the text. */
+.ag-link[data-ag], .ag-link[data-ag-toc] { cursor: pointer; }
+
+/* A section's place in the document, at its foot: ‹ previous · chapter · next ›. */
+.ref-seq {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
   margin-top: 1.5rem;
   padding-top: 0.6rem;
   border-top: 1px solid var(--rule);
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 0.72rem;
-  text-align: right;
+  font-size: 0.8rem;
 }
-.ref-popover .ag-fullpage-link { color: var(--muted); }
-.ref-popover .ag-fullpage-link:hover { color: var(--accent); }
+.ref-seq-chapter { text-align: center; white-space: normal; }
+.ref-seq-chapter .ag-link { white-space: normal; }
+.ref-seq-next { text-align: right; }
+
+/* Contents entries: parts → chapters, and a chapter's groups → sections. */
+.ref-toc-part {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.85rem;
+  margin: 1.1rem 0 0.4rem;
+}
+.ref-toc { list-style: none; padding: 0; margin: 0; }
+.ref-toc li { margin: 0 0 0.35rem; }
+.ref-toc .ref-toc { margin: 0.3rem 0 0.2rem 0.9rem; }
+.ref-toc-group-label { font-weight: 600; }
+.ref-toc-secs { display: flex; flex-wrap: wrap; gap: 0.2rem 0.7rem; }
+.ref-toc-where { color: var(--muted); font-size: 0.88rem; }
 
 /* Reader's Guide contents: two groups (Pronunciation, Grammar), each a run of
    inline links so the list stays short on a phone. */
@@ -1418,7 +1517,8 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 .note-link .inline-gloss::after { display: none; }
 /* ============================================================
    10 · Latin pronunciation guide
-   _language/latin/pronunciation/ — the examples table, computed
+   The Study hub's Pronunciation entry (in-page note in Latin books,
+   wrapped in .pronunciation-guide) — the examples table, computed
    at build time by latin-pron.js.
    ============================================================ */
 
@@ -1436,7 +1536,7 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
   vertical-align: baseline;
 }
 .pronunciation-guide .pron-examples th[scope="row"] {
-  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-family: var(--font-text);
   font-style: italic;
   font-weight: 400;
 }
@@ -1446,8 +1546,8 @@ html:has(#popover-host:popover-open) { overflow: hidden; }
 }
 .pronunciation-guide .pron-ipa {
   display: block;
-  /* IPA needs ɫ, t͡ʃ, combining tildes and tie bars: fonts known to carry them. */
-  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  /* IPA (ɫ, t͡ʃ, combining tildes, tie bars): Charis carries it all. */
+  font-family: var(--font-text);
   color: var(--muted);
   font-size: 0.85rem;
 }

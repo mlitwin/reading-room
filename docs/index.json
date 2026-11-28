@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T03:08:52.596Z",
+  "generated_at": "2026-11-28T01:36:30.383Z",
   "pieces": [
     {
       "slug": "milton-history-of-britain",
@@ -970,19 +970,19 @@
         "latin",
         "reference"
       ],
-      "summary": "A compact reference for the Latin texts here: Classical and Ecclesiastical pronunciation, and the cases, tenses, moods, and other terms used by the word popovers.",
+      "summary": "A compact reference for the Latin texts here: the cases, tenses, moods, and other terms used by the word popovers.",
       "html_path": "_language/latin/guide/index.html"
     },
     {
       "slug": "_language/latin/reference",
-      "title": "Latin Reference Grammar",
+      "title": "Reference Grammar",
       "author": null,
       "date": null,
       "tags": [
         "latin",
         "reference"
       ],
-      "summary": "Allen & Greenough’s New Latin Grammar (1903) — the full reference, with paradigms, syntax, and prosody, deep-linkable by canonical § section.",
+      "summary": "The full Latin reference grammar — paradigms, syntax, and prosody — after Allen & Greenough’s New Latin Grammar (1903), deep-linkable by § section.",
       "html_path": "_language/latin/reference/index.html"
     }
   ]

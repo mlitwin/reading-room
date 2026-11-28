@@ -1,0 +1,27 @@
+{
+  "language_id": "latin",
+  "title": "Reference Grammar",
+  "sources": [
+    { "id": "ag", "title": "A&G", "license": "PD; markup CC BY-SA", "attribution": "Allen and Greenough (1903); Perseus TEI." }
+  ],
+  "toc": [
+    { "id": "part-forms", "label": "Part First — Words and Forms", "chapters": [
+      { "id": "ch-nouns", "slug": "01-nouns", "label": "Nouns", "items": [
+        "1",
+        { "label": "Gender", "items": ["2", { "label": "Exceptions", "items": ["3"] }] }
+      ] },
+      { "id": "ch-verbs", "slug": "02-verbs", "label": "Verbs", "items": ["4", "rr-ovid-usage"] }
+    ] },
+    { "id": "part-syntax", "label": "Part Second — Syntax", "chapters": [
+      { "id": "ch-cases", "slug": "03-cases", "label": "Cases", "items": ["5"] }
+    ] }
+  ],
+  "sections": {
+    "1": { "source": "ag", "source_page": 1, "html": "<p>Nouns. See <a data-ref=\"2\">§ 2</a> and <a data-ref=\"5\">§ 5</a>.</p>" },
+    "2": { "source": "ag", "source_page": 1, "html": "<p>Gender.</p>" },
+    "3": { "source": "ag", "source_page": 2, "html": "<table class=\"ag-table\"><tr><td><span class=\"lang-la\">rosa</span></td></tr></table>" },
+    "4": { "source": "ag", "source_page": 3, "edited": true, "edit_note": "fixed a typo", "html": "<p>Verbs. Back to <a data-ref=\"1\">§ 1</a>.</p>" },
+    "rr-ovid-usage": { "source": "editorial", "heading": "Verbs in Ovid", "html": "<p>Our note; cf. <a data-ref=\"4\">§ 4</a>.</p>" },
+    "5": { "source": "ag", "html": "<p>Cases. See <a data-ref=\"rr-ovid-usage\">the note</a>.</p>" }
+  }
+}

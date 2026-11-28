@@ -40,6 +40,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = join(__dirname, '..', '..');
 const LANG_DIR = join(REPO_ROOT, 'content', '_language', 'latin');
 const CONTENT_DIR = join(REPO_ROOT, 'content');
+const REFERENCE_URL_BASELINE = join(__dirname, 'validate', 'reference-urls.baseline.json');
 
 const SUITE_ORDER = ['grammar', 'lexicon', 'glossary', 'concordance', 'reference', 'vocabulary'];
 
@@ -260,6 +261,14 @@ async function runOne(suiteName, values, sharedCtx) {
 
   if (suiteName === 'vocabulary' && !values.data) {
     ctx.bookRefs = await collectBookLemmaRefs();
+  }
+
+  if (suiteName === 'reference' && !values.data) {
+    try {
+      ctx.urlBaseline = await loadJson(REFERENCE_URL_BASELINE);
+    } catch (err) {
+      if (err.code !== 'ENOENT') throw err;  // no baseline → R9 skipped
+    }
   }
 
   if (suiteName === 'concordance') {

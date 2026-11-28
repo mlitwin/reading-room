@@ -37,8 +37,8 @@ editions, markup, and derived data.
 - **Allen and Greenough, *New Latin Grammar*** (Ginn & Co., 1903) — Perseus
   Digital Library TEI edition, with corrections by Dickinson College
   Commentaries (2013–2016). Underlying text public domain; markup CC BY-SA.
-  Source of `content/_language/latin/reference-grammar.json` and the reference
-  grammar pages.
+  The one-time seed of `content/_language/latin/reference-grammar.json` (since
+  edited) and so of the Reference Grammar pages.
 - **Lewis and Short, *A Latin Dictionary*** (1879) — Perseus Digital Library
   XML, as converted to JSON by IohannesArnold/lewis-short-json
   (<https://github.com/IohannesArnold/lewis-short-json>). Underlying text public
@@ -57,6 +57,10 @@ editions, markup, and derived data.
   analyzer (perseids-tools/morpheus, <https://github.com/perseids-tools/morpheus>).
 - **Andrew Marvell, "Hortus" and "The Garden"** — from *Miscellaneous Poems*
   (1681), public domain, transcribed via Wikisource.
+- **Charis** (SIL Global, version 7.000) — the reader's text face, shipped
+  unmodified in `site/reader/fonts/` and `docs/assets/fonts/` under the SIL Open
+  Font License 1.1 (`OFL.txt` alongside; Reserved Font Names "Charis" and
+  "SIL"). <https://software.sil.org/charis/>
 - **App icon** (`art/app-icon/`) — reverse of a silver tetradrachm of
   Ptolemy II, American Numismatic Society accession 1944.100.76124; image
   public domain. <https://numismatics.org/collection/1944.100.76124>

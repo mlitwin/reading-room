@@ -178,8 +178,9 @@ def head_text(div):
     return None
 
 
-def main():
-    tree = ET.parse(SRC)
+def build_doc(src=SRC):
+    """Parse the TEI and return the reference-grammar document (no I/O)."""
+    tree = ET.parse(src)
     body = tree.getroot().find('.//t:body', NS)
 
     sections = {}          # id -> section dict
@@ -268,13 +269,17 @@ def main():
             parts.append(seen[top])
         seen[top]['sections'].append(n)
 
-    doc = {
+    return {
         'language_id': 'latin',
         'source': SOURCE_META,
         'parts': parts,
         'sections': out_sections,
     }
 
+
+def main():
+    doc = build_doc()
+    out_sections, parts = doc['sections'], doc['parts']
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 

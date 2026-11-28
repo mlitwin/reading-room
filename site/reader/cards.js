@@ -8,7 +8,9 @@
 // Stack model: one per open-cycle, cleared on light-dismiss.
 //   Card entry: { type:'card', lemma, label, matches, stanzaLemma,
 //                 selectedLemma, selectedBy, activeLemma }
-//   Note entry: { type:'note', sourceId, label }
+//   Note entry: { type:'note', sourceId, label }   (editorial, grammar, guide)
+//   Ref entry:  { type:'ref', id, label }          (a Reference Grammar section)
+//   Toc entry:  { type:'toc', id, label }          (its contents: '' or a chapter id)
 (function () {
 
   // ── parse-code vocabulary — derived from grammar.json at runtime when the
@@ -425,10 +427,6 @@
     var lines = document.querySelectorAll('.card-pron');
     for (var i = 0; i < lines.length; i++) fillPronLine(lines[i], system);
   }
-  function pronGuideHref() {
-    var m = document.querySelector('meta[name="asset-prefix"]');
-    return ((m && m.getAttribute('content')) || '') + '_language/latin/guide/index.html#pronunciation';
-  }
 
   // macronize_forms.py's key: unmarked, lowercase, i/u for j/v, letters only.
   function pronKey(s) {
@@ -521,7 +519,9 @@
       '<span class="card-pron-words"></span>' +
       '<span class="card-pron-controls">' +
       '<span class="card-pron-toggle" role="group" aria-label="Pronunciation">' + toggle + '</span>' +
-      '<a class="card-pron-help" href="' + escAttr(pronGuideHref()) + '">guide</a>' +
+      (document.getElementById('note-guide-pronunciation')
+        ? '<button class="card-pron-help" type="button" data-guide-note="note-guide-pronunciation">guide</button>'
+        : '') +
       '</span></div>';
   }
 
@@ -863,19 +863,31 @@
     return lexiconLoading;
   }
 
-  // ── reference-notes loading (A&G sections, rendered in-flow in the popover)
+  // ── reference-notes loading (Reference Grammar sections, rendered in-flow)
   // Language-level artifact, shared across texts. On https we fetch it lazily
-  // on the first `ag:` tap; on file:// (iOS) the native note layer serves these
-  // (Phase 2) — until then openRef() falls back to navigation, so we never
-  // fetch here. Cache holds the { id -> note } map (doc.notes).
+  // on the first `ag:`/`ref:` tap; on file:// (iOS) the native layer reads it
+  // and injects it. Cache holds the { id -> note } map (doc.notes); the toc
+  // (parts → chapters → items) and title are kept alongside for contents
+  // entries (window.__readingRoomReferenceToc on iOS).
   var referenceNotesCache = null;
   var referenceNotesLoading = null;
+  var referenceToc = null;
+  var referenceTitle = 'Reference Grammar';
+
+  function adoptReferenceDoc(notes, toc, title) {
+    referenceNotesCache = notes || null;
+    if (toc) referenceToc = toc;
+    if (title) referenceTitle = title;
+    return referenceNotesCache;
+  }
 
   function getReferenceNotes() {
     if (referenceNotesCache) return Promise.resolve(referenceNotesCache);
     var rd = window.__readingRoomData;
     if (rd && rd.referenceNotes) { referenceNotesCache = rd.referenceNotes; return Promise.resolve(referenceNotesCache); }
-    if (window.__readingRoomReferenceNotes) { referenceNotesCache = window.__readingRoomReferenceNotes; return Promise.resolve(referenceNotesCache); }
+    if (window.__readingRoomReferenceNotes) {
+      return Promise.resolve(adoptReferenceDoc(window.__readingRoomReferenceNotes, window.__readingRoomReferenceToc, window.__readingRoomReferenceTitle));
+    }
     if (referenceNotesLoading) return referenceNotesLoading;
     if (window.location.protocol === 'file:') {
       // iOS (WKWebView can't fetch file://). Ask the native layer to read the
@@ -885,7 +897,7 @@
       if (!mh) return Promise.resolve(null);
       referenceNotesLoading = new Promise(function (resolve) {
         window.__resolveReferenceNotes = function () {
-          referenceNotesCache = window.__readingRoomReferenceNotes || null;
+          adoptReferenceDoc(window.__readingRoomReferenceNotes, window.__readingRoomReferenceToc, window.__readingRoomReferenceTitle);
           referenceNotesLoading = null;
           resolve(referenceNotesCache);
         };
@@ -897,7 +909,10 @@
     var prefix = meta ? meta.content : './';
     referenceNotesLoading = fetch(prefix + 'assets/latin-reference-notes.json')
       .then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (doc) { referenceNotesCache = doc ? doc.notes : null; referenceNotesLoading = null; return referenceNotesCache; })
+      .then(function (doc) {
+        referenceNotesLoading = null;
+        return doc ? adoptReferenceDoc(doc.notes, doc.toc, doc.title) : null;
+      })
       .catch(function () { referenceNotesLoading = null; return null; });
     return referenceNotesLoading;
   }
@@ -985,13 +1000,109 @@
     var h = document.getElementById('popover-host');
     return h && h.querySelector('.popover-body');
   }
+  // `_shown` marks an entry whose content is in the body: while an async entry
+  // (card, ref, toc) is still loading, the body's scroll is the placeholder's,
+  // and recording it would wipe the offset a restored #g= step carries.
   function saveScroll() {
-    if (stackPos < 0) return;
+    if (stackPos < 0 || !stack[stackPos]._shown) return;
     var body = popoverBody();
     if (body) stack[stackPos].scrollTop = body.scrollTop;
   }
   function applyScroll(entry, body) {
     if (body) body.scrollTop = entry.scrollTop || 0;
+    entry._shown = true;
+  }
+
+  // ── Reference Grammar entries
+  function refLabel(id) {
+    var note = referenceNotesCache && referenceNotesCache[id];
+    if (!note) return /^\d+$/.test(id) ? '§' + id : id;
+    var short = note.label || ('§' + id);
+    return note.title && note.title !== short ? short + ' · ' + note.title : short;
+  }
+  function tocChapters() {
+    var out = [];
+    (referenceToc || []).forEach(function (p) {
+      p.chapters.forEach(function (c) { out.push({ chapter: c, part: p }); });
+    });
+    return out;
+  }
+  function findChapter(id) {
+    return tocChapters().filter(function (x) { return x.chapter.id === id; })[0] || null;
+  }
+  function tocLabel(id) {
+    if (!id) return referenceTitle;
+    var hit = findChapter(id);
+    return hit ? hit.chapter.label : id;
+  }
+  function itemIds(items, out) {
+    (items || []).forEach(function (it) {
+      if (typeof it === 'string') out.push(it); else itemIds(it.items, out);
+    });
+    return out;
+  }
+  function rangeOf(chapter) {
+    var nums = itemIds(chapter.items, []).filter(function (id) { return /^\d+$/.test(id); });
+    if (!nums.length) return '';
+    return nums.length === 1 ? '§ ' + nums[0] : '§§ ' + nums[0] + '–' + nums[nums.length - 1];
+  }
+  function refLink(id, text, seq) {
+    return '<a class="ag-link" data-ag="' + escAttr(id) + '"' + (seq ? ' data-ag-seq' : '') + '>' + escHtml(text) + '</a>';
+  }
+  function tocLink(id, text) {
+    return '<a class="ag-link" data-ag-toc="' + escAttr(id) + '">' + escHtml(text) + '</a>';
+  }
+
+  // A section, followed by its place in the document: previous · chapter · next
+  // in reading order. Previous/next turn the page — they replace the current
+  // section rather than adding a step — so reading on doesn't grow the trail.
+  function renderRefBody(id) {
+    var note = referenceNotesCache[id];
+    var seq = [];
+    var prev = note.prev && referenceNotesCache[note.prev];
+    var next = note.next && referenceNotesCache[note.next];
+    seq.push(prev ? '<span class="ref-seq-prev">' + refLink(note.prev, '‹ ' + (prev.label || note.prev), true) + '</span>' : '<span></span>');
+    var hit = note.chapter && findChapter(note.chapter);
+    seq.push(hit ? '<span class="ref-seq-chapter">' + tocLink(note.chapter, hit.chapter.label) + '</span>' : '<span></span>');
+    seq.push(next ? '<span class="ref-seq-next">' + refLink(note.next, (next.label || note.next) + ' ›', true) + '</span>' : '<span></span>');
+    return note.html + '<nav class="ref-seq" aria-label="Reference Grammar">' + seq.join('') + '</nav>';
+  }
+
+  // Contents ('' → parts and chapters) or one chapter (its groups and sections).
+  function renderTocBody(id) {
+    if (!id) {
+      return '<h3 class="note-title">' + escHtml(referenceTitle) + '</h3>' +
+        referenceToc.map(function (p) {
+          return '<h4 class="ref-toc-part">' + escHtml(p.label) + '</h4><ul class="ref-toc">' +
+            p.chapters.map(function (c) {
+              var r = rangeOf(c);
+              return '<li>' + tocLink(c.id, c.label) + (r ? ' <span class="ag-range">' + escHtml(r) + '</span>' : '') + '</li>';
+            }).join('') + '</ul>';
+        }).join('');
+    }
+    var hit = findChapter(id);
+    if (!hit) return '<p class="card-loading">Chapter unavailable.</p>';
+    function items(list) {
+      var secs = [], out = [];
+      function flush() {
+        if (secs.length) out.push('<li class="ref-toc-secs">' + secs.join(' ') + '</li>');
+        secs = [];
+      }
+      list.forEach(function (it) {
+        if (typeof it === 'string') {
+          var n = referenceNotesCache[it];
+          secs.push(refLink(it, /^\d+$/.test(it) ? '§' + it : ((n && n.title) || it)));
+        } else {
+          flush();
+          out.push('<li class="ref-toc-group"><span class="ref-toc-group-label">' + escHtml(it.label) + '</span><ul class="ref-toc">' + items(it.items) + '</ul></li>');
+        }
+      });
+      flush();
+      return out.join('');
+    }
+    return '<h3 class="note-title">' + escHtml(hit.chapter.label) + '</h3>' +
+      '<p class="ref-toc-where">' + escHtml(hit.part.label) + ' · ' + tocLink('', 'All chapters') + '</p>' +
+      '<ul class="ref-toc">' + items(hit.chapter.items) + '</ul>';
   }
 
   function renderHost() {
@@ -1003,6 +1114,12 @@
     }
     var entry = stack[stackPos];
     var body = host.querySelector('.popover-body');
+    entry._shown = false;
+    // Open before filling: a closed popover is display:none, and a scrollTop
+    // set on it is dropped — so a restored #g= step would reopen at the top.
+    if (!host.matches(':popover-open')) {
+      try { host.showPopover(); } catch (_) {}
+    }
 
     if (entry.type === 'card') {
       body.className = 'popover-body card-popover';
@@ -1018,12 +1135,12 @@
           }
         });
       }
-    } else if (entry.type === 'ref') {
+    } else if (entry.type === 'ref' || entry.type === 'toc') {
       body.className = 'popover-body note-popover ref-popover';
-      var note = referenceNotesCache && referenceNotesCache[entry.id];
-      if (note) {
-        if (note.title) entry.label = '§' + entry.id + ' · ' + note.title;
-        body.innerHTML = note.html;
+      var ready = referenceNotesCache && (entry.type === 'ref' ? referenceNotesCache[entry.id] : referenceToc);
+      if (ready) {
+        entry.label = entry.type === 'ref' ? refLabel(entry.id) : tocLabel(entry.id);
+        body.innerHTML = entry.type === 'ref' ? renderRefBody(entry.id) : renderTocBody(entry.id);
         applyScroll(entry, body);
       } else if (!entry._loadTriggered) {
         entry._loadTriggered = true;
@@ -1036,81 +1153,67 @@
       }
     } else {
       var source = document.getElementById(entry.sourceId);
-      if (!source) return;
+      if (!source) { try { host.hidePopover(); } catch (_) {} return; }
       body.className = 'popover-body note-popover';
       body.innerHTML = source.innerHTML;
       applyScroll(entry, body);
     }
 
     renderChrome(host);
-    if (!host.matches(':popover-open')) {
-      try { host.showPopover(); } catch (_) {}
-    }
     persistState();   // keep the shareable #g= URL current as the user navigates
   }
 
-  // ── context model (Plans/latin-grammar-note-navigation-plan.md, Phase A)
-  // The flat stack is grouped into contexts: a contiguous run of same-family
-  // entries. Two families today (n-ary by construction): 'local' (card/note,
-  // the note context opened from the text) and 'grammar' (A&G ref sections).
-  // Prev/Next move within the current context (disabled at its ends); Up jumps
-  // to the previous context; Home jumps to the origin. No Down / no redo —
-  // descend by following a link.
-  function familyOf(entry) { return entry.type === 'ref' ? 'grammar' : 'local'; }
-
-  function ctxLo(pos) {
-    var c = stack[pos].ctx, lo = pos;
-    while (lo > 0 && stack[lo - 1].ctx === c) lo--;
-    return lo;
-  }
-  function ctxHi(pos) {
-    var c = stack[pos].ctx, hi = pos;
-    while (hi < stack.length - 1 && stack[hi + 1].ctx === c) hi++;
-    return hi;
-  }
-  function upTargetPos() {
-    if (stackPos < 0) return -1;
-    var lo = ctxLo(stackPos);
-    return lo > 0 ? lo - 1 : -1;        // last entry of the previous context
-  }
+  // ── trail navigation (Plans/latin-text-centered-reader-plan.md, D3)
+  // The stack is the trail of steps taken from the text. The breadcrumb jumps
+  // back to any step; Prev/Next step along it; Home jumps to the origin. No
+  // redo past a new branch — descending by a link drops the old forward steps.
   function homeTargetPos() { return stackPos > 0 ? 0 : -1; }
 
-  var CONTEXT_LABEL = { grammar: 'Grammar' };
+  // The page the popover sits on, for the breadcrumb's first crumb (closes).
+  function pageCrumbLabel() {
+    var h1 = document.querySelector('header.piece h1');
+    var t = h1 ? h1.textContent.trim() : document.title;
+    return t.length > 28 ? t.slice(0, 26).trim() + '…' : t;
+  }
+
+  // Title of an entry as shown in the breadcrumb. For a card, the surface form
+  // that was tapped (the instance in the text), not the dictionary lemma — the
+  // lemma still heads the card body.
+  function crumbTitle(entry) {
+    if (entry.type === 'card' && entry.surface) return entry.surface;
+    return entry.label || '';
+  }
+
+  // Crumbs: the page (closes the popover), then each step taken to reach the
+  // current entry — e.g. the page › a word › Preposition › §219. A crumb jumps
+  // back to that step. When the trail is long the middle collapses to "…"
+  // (sooner on narrow screens).
+  function renderCrumbs(host) {
+    var nav = host.querySelector('.popover-crumbs');
+    if (!nav) return;
+    var items = [{ html: '<button type="button" class="popover-crumb" data-crumb-close>' + escHtml(pageCrumbLabel()) + '</button>' }];
+    for (var i = 0; i < stackPos; i++) {
+      items.push({ html: '<button type="button" class="popover-crumb" data-crumb-pos="' + i + '">' + escHtml(crumbTitle(stack[i])) + '</button>' });
+    }
+    var cur = stack[stackPos];
+    var isForm = cur.type === 'card' && cur.surface;
+    items.push({ html: '<span class="popover-crumb-here' + (isForm ? ' is-form' : '') + '" aria-current="location">' + escHtml(crumbTitle(cur)) + '</span>' });
+    var narrow = window.matchMedia && window.matchMedia('(max-width: 600px)').matches;
+    if (items.length > (narrow ? 3 : 5)) {
+      items = [items[0], { html: '<span class="popover-crumb-gap" aria-hidden="true">…</span>' }].concat(items.slice(narrow ? -2 : -3));
+    }
+    nav.innerHTML = items.map(function (it) { return it.html; }).join('<span class="popover-crumb-sep" aria-hidden="true">›</span>');
+    nav.scrollLeft = nav.scrollWidth;   // keep the current step in view
+  }
 
   function renderChrome(host) {
-    var entry = stack[stackPos];
-    var lo = ctxLo(stackPos), hi = ctxHi(stackPos);
-
     var prev = host.querySelector('.popover-prev');
     var next = host.querySelector('.popover-next');
-    if (prev) prev.disabled = stackPos <= lo;
-    if (next) next.disabled = stackPos >= hi;
-
+    if (prev) prev.disabled = stackPos <= 0;
+    if (next) next.disabled = stackPos >= stack.length - 1;
     var homeBtn = host.querySelector('.popover-home');
     if (homeBtn) homeBtn.hidden = homeTargetPos() < 0;
-
-    var upTarget = upTargetPos();
-    var upBtn = host.querySelector('.popover-up');
-    var upLabel = host.querySelector('.popover-up-label');
-    if (upBtn) upBtn.hidden = upTarget < 0;
-    if (upLabel) upLabel.textContent = upTarget >= 0 ? (stack[upTarget].label || '') : '';
-
-    var ctxEl = host.querySelector('.popover-context');
-    if (ctxEl) {
-      var chipName = CONTEXT_LABEL[entry.family];
-      var chip = chipName ? '<span class="popover-ctx-chip">' + escHtml(chipName) + '</span> ' : '';
-      // For a card, title the popover with the exact surface form that was
-      // tapped (the instance in the text), not the dictionary lemma — the
-      // lemma still heads the card body. Fall back to the label for cards
-      // opened without a surface (e.g. an "also-matches" chip) and for notes.
-      var isForm = entry.type === 'card' && entry.surface;
-      var ctxTitle = isForm ? entry.surface : (entry.label || '');
-      // `is-form` gives the surface form the same accent highlight the active
-      // paradigm cell wears, so the reader sees the title and the highlighted
-      // cell are the same word.
-      var titleCls = isForm ? 'popover-ctx-title is-form' : 'popover-ctx-title';
-      ctxEl.innerHTML = chip + '<span class="' + titleCls + '">' + escHtml(ctxTitle) + '</span>';
-    }
+    renderCrumbs(host);
   }
 
   function pushEntry(entry) {
@@ -1118,7 +1221,7 @@
     var isDupe = current && current.type === entry.type &&
       (entry.type === 'card'
         ? current.lemma === entry.lemma && current.matches === entry.matches
-        : entry.type === 'ref'
+        : entry.type === 'ref' || entry.type === 'toc'
           ? current.id === entry.id
           : current.sourceId === entry.sourceId);
     if (isDupe) {
@@ -1127,10 +1230,6 @@
       return;
     }
     saveScroll(); // remember where we were in the entry we're descending from
-    // Assign the entry's family + context index. A new context begins whenever
-    // the family changes from the current top (e.g. local note → grammar).
-    entry.family = familyOf(entry);
-    entry.ctx = current ? (entry.family !== current.family ? current.ctx + 1 : current.ctx) : 0;
     stack = stack.slice(0, stackPos + 1);
     stack.push(entry);
     stackPos = stack.length - 1;
@@ -1146,17 +1245,16 @@
 
   // ── Shareable reading-state restore (navigation plan, Phases C + D)
   // The popover ReadingState (stack + context + per-step scroll) is encoded in
-  // the URL hash (#g=…) so it is: shareable/bookmarkable, survives a hard
-  // reload, and — covering the "Open full section ↗" excursion — restores the
-  // open popover on Back. The outer document scroll is restored by the browser.
-  var navigatingAway = false;
+  // the URL hash (#g=…) so it is shareable/bookmarkable, survives a hard
+  // reload, and restores the open popover on Back. The outer document scroll
+  // is restored by the browser.
 
   function serializeState() {
     if (stackPos < 0 || !stack.length) return null;
     saveScroll();
     var clean = stack.map(function (e) {
       return {
-        type: e.type, label: e.label, ctx: e.ctx, family: e.family,
+        type: e.type, label: e.label,
         scrollTop: e.scrollTop || 0,
         lemma: e.lemma, matches: e.matches, stanzaLemma: e.stanzaLemma,
         selectedLemma: e.selectedLemma, selectedBy: e.selectedBy,
@@ -1209,61 +1307,96 @@
     }
   }
 
-  // Open an A&G section in-flow (push a `ref` entry). When the reference notes
-  // aren't reachable in this context (iOS file:// before Phase 2), fall back to
-  // navigating the supplied href so the link still works.
+  // Open a Reference Grammar section (`ref`) or contents (`toc`) in-flow. When
+  // the reference notes can't be reached in this context (file:// without the
+  // native bridge), fall back to navigating the supplied href.
+  function canLoadReference() {
+    var hasBridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.refnotes;
+    return referenceNotesAvailable() || hasBridge || window.location.protocol !== 'file:';
+  }
   function openRef(id, fallbackHref) {
     if (!id) return;
-    // file:// (iOS): only fall back to navigation when there's no way to load
-    // the reference notes in-flow (no cache, no injected global, no native
-    // bridge). With the bridge present, push the ref entry and let it load.
-    var hasBridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.refnotes;
-    if (!referenceNotesAvailable() && !hasBridge && window.location.protocol === 'file:') {
-      if (fallbackHref) window.location.href = fallbackHref;
-      return;
-    }
-    var label = '§' + id;
-    var note = referenceNotesCache && referenceNotesCache[id];
-    if (note && note.title) label = '§' + id + ' · ' + note.title;
-    pushEntry({ type: 'ref', id: id, label: label });
+    if (!canLoadReference()) { if (fallbackHref) window.location.href = fallbackHref; return; }
+    pushEntry({ type: 'ref', id: id, label: refLabel(id) });
   }
+  function openToc(id, fallbackHref) {
+    if (!canLoadReference()) { if (fallbackHref) window.location.href = fallbackHref; return; }
+    pushEntry({ type: 'toc', id: id || '', label: tocLabel(id || '') });
+  }
+  function openNoteSource(sourceId) {
+    var source = document.getElementById(sourceId);
+    if (!source || !source.classList.contains('note-popover-source')) return false;
+    pushEntry({ type: 'note', sourceId: sourceId, label: source.dataset.label || sourceId });
+    return true;
+  }
+
+  // The Study button (page header) starts a fresh stack at the hub.
+  function openStudy() {
+    var host = document.getElementById('popover-host');
+    if (!host || !document.getElementById('note-guide-study')) return false;
+    stack = []; stackPos = -1;
+    return openNoteSource('note-guide-study');
+  }
+  window.readingRoom = window.readingRoom || {};
+  window.readingRoom.openStudy = openStudy;
 
   // ── click handler
   document.addEventListener('click', function (e) {
     var host = document.getElementById('popover-host');
     if (!host) return;
 
+    if (e.target.closest('.study-button')) { e.preventDefault(); openStudy(); return; }
     if (e.target.closest('.popover-home')) { e.preventDefault(); navigateTo(homeTargetPos()); return; }
-    if (e.target.closest('.popover-up')) { e.preventDefault(); navigateTo(upTargetPos()); return; }
-    // Prev/Next stay within the current context (disabled at its ends).
+    var crumb = e.target.closest('#popover-host .popover-crumb');
+    if (crumb) {
+      e.preventDefault();
+      if (crumb.hasAttribute('data-crumb-close')) { try { host.hidePopover(); } catch (_) {} return; }
+      navigateTo(Number(crumb.getAttribute('data-crumb-pos')));
+      return;
+    }
+    // Prev/Next step back and forward along the whole trail.
     if (e.target.closest('.popover-prev')) {
       e.preventDefault();
-      if (stackPos > ctxLo(stackPos)) navigateTo(stackPos - 1);
+      if (stackPos > 0) navigateTo(stackPos - 1);
       return;
     }
     if (e.target.closest('.popover-next')) {
       e.preventDefault();
-      if (stackPos < ctxHi(stackPos)) navigateTo(stackPos + 1);
+      if (stackPos < stack.length - 1) navigateTo(stackPos + 1);
       return;
     }
 
-    // In-flow A&G reference: open §N inside the stack instead of navigating.
-    var agEl = e.target.closest('#popover-host [data-ag]');
+    // Reference Grammar links — in the popover or in the text — open in-flow.
+    var tocEl = e.target.closest('[data-ag-toc]');
+    if (tocEl) { e.preventDefault(); openToc(tocEl.getAttribute('data-ag-toc'), tocEl.getAttribute('href')); return; }
+    var agEl = e.target.closest('[data-ag]');
+    if (agEl && agEl.hasAttribute('data-ag-seq') && stackPos >= 0 && stack[stackPos].type === 'ref') {
+      e.preventDefault();
+      var id = agEl.getAttribute('data-ag');
+      stack[stackPos] = { type: 'ref', id: id, label: refLabel(id) };
+      stack = stack.slice(0, stackPos + 1);   // the old forward history pointed at the old page
+      renderHost();
+      return;
+    }
     if (agEl) { e.preventDefault(); openRef(agEl.getAttribute('data-ag'), agEl.getAttribute('href')); return; }
 
-    // "Open full section ↗": the deliberate navigate-away to the standalone
-    // reference page. data-full is docroot-relative; prepend the asset prefix.
-    var fullEl = e.target.closest('#popover-host [data-full]');
-    if (fullEl) {
+    // A card's pronunciation "guide" button opens the in-page guide entry
+    // (Latin books carry it; elsewhere the button isn't rendered).
+    var guideEl = e.target.closest('#popover-host [data-guide-note]');
+    if (guideEl && document.getElementById(guideEl.getAttribute('data-guide-note'))) {
       e.preventDefault();
-      var fm = document.querySelector('meta[name="asset-prefix"]');
-      var fp = fm ? fm.content : './';
-      // Stash the popover state so Back restores it; navigate WITHOUT closing
-      // (closing would clear the state). navigatingAway tells the close handler
-      // not to wipe history.state if a close event fires during unload.
-      navigatingAway = true;
-      persistState();
-      window.location.href = fp + fullEl.getAttribute('data-full');
+      openNoteSource(guideEl.getAttribute('data-guide-note'));
+      return;
+    }
+
+    // In-entry anchors (e.g. the pronunciation guide's own cross-links) scroll
+    // the popover body, not the page.
+    var hashEl = e.target.closest('#popover-host .popover-body a[href^="#"]');
+    if (hashEl) {
+      e.preventDefault();
+      var pb = popoverBody();
+      var tgt = pb && pb.querySelector('[id="' + cssEscape(hashEl.getAttribute('href').slice(1)) + '"]');
+      if (tgt) pb.scrollTop += tgt.getBoundingClientRect().top - pb.getBoundingClientRect().top;
       return;
     }
 
@@ -1324,7 +1457,7 @@
     var source = document.getElementById(targetId);
     if (!source || !source.classList.contains('note-popover-source')) return;
     e.preventDefault();
-    pushEntry({ type: 'note', sourceId: targetId, label: source.dataset.label || targetId });
+    openNoteSource(targetId);
   });
 
   // ── inline glosses
@@ -1341,14 +1474,13 @@
     openGloss = g && g.classList.contains('inline-gloss-open') ? g : null;
   });
 
-  // Reset stack on popover close. A normal close (× / light dismiss) also
-  // clears any stashed reading-state so a later Back doesn't reopen it; the
-  // escape-hatch close (navigatingAway) keeps the stash for restore.
+  // Reset stack on popover close (× / light dismiss), and clear the stashed
+  // reading-state so a later Back doesn't reopen it.
   document.addEventListener('beforetoggle', function (e) {
     if (e.target.id !== 'popover-host') return;
     if (e.newState === 'closed') {
       stack = []; stackPos = -1;
-      if (!navigatingAway) persistState();   // serializes null → clears stash
+      persistState();   // serializes null → clears stash
     }
   }, true);
 

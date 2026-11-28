@@ -1,6 +1,7 @@
 /* ============================================================
    10 · Latin pronunciation guide
-   _language/latin/pronunciation/ — the examples table, computed
+   The Study hub's Pronunciation entry (in-page note in Latin books,
+   wrapped in .pronunciation-guide) — the examples table, computed
    at build time by latin-pron.js.
    ============================================================ */
 
@@ -18,7 +19,7 @@
   vertical-align: baseline;
 }
 .pronunciation-guide .pron-examples th[scope="row"] {
-  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-family: var(--font-text);
   font-style: italic;
   font-weight: 400;
 }
@@ -28,8 +29,8 @@
 }
 .pronunciation-guide .pron-ipa {
   display: block;
-  /* IPA needs ɫ, t͡ʃ, combining tildes and tie bars: fonts known to carry them. */
-  font-family: "Charis SIL", "Doulos SIL", "Gentium Plus", "Lucida Grande", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  /* IPA (ɫ, t͡ʃ, combining tildes, tie bars): Charis carries it all. */
+  font-family: var(--font-text);
   color: var(--muted);
   font-size: 0.85rem;
 }

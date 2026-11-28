@@ -2,7 +2,7 @@
   "pages": [
     {
       "slug": "reference",
-      "title": "Latin Reference Grammar",
+      "title": "Reference Grammar",
       "html_path": "_language/latin/reference/index.html",
       "breadcrumbs": [
         {
@@ -12,13 +12,13 @@
       ],
       "prev": null,
       "next": {
-        "title": "THE ALPHABET",
+        "title": "The Alphabet",
         "html_path": "_language/latin/reference/01-the-alphabet.html"
       }
     },
     {
       "slug": "01-the-alphabet",
-      "title": "THE ALPHABET",
+      "title": "The Alphabet",
       "html_path": "_language/latin/reference/01-the-alphabet.html",
       "breadcrumbs": [
         {
@@ -26,22 +26,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "Latin Reference Grammar",
+        "title": "Reference Grammar",
         "html_path": "_language/latin/reference/index.html"
       },
       "next": {
-        "title": "ORTHOGRAPHY",
+        "title": "Orthography",
         "html_path": "_language/latin/reference/02-orthography.html"
       }
     },
     {
       "slug": "02-orthography",
-      "title": "ORTHOGRAPHY",
+      "title": "Orthography",
       "html_path": "_language/latin/reference/02-orthography.html",
       "breadcrumbs": [
         {
@@ -49,22 +49,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "THE ALPHABET",
+        "title": "The Alphabet",
         "html_path": "_language/latin/reference/01-the-alphabet.html"
       },
       "next": {
-        "title": "THE PARTS OF SPEECH",
+        "title": "The Parts of Speech",
         "html_path": "_language/latin/reference/03-the-parts-of-speech.html"
       }
     },
     {
       "slug": "03-the-parts-of-speech",
-      "title": "THE PARTS OF SPEECH",
+      "title": "The Parts of Speech",
       "html_path": "_language/latin/reference/03-the-parts-of-speech.html",
       "breadcrumbs": [
         {
@@ -72,22 +72,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "ORTHOGRAPHY",
+        "title": "Orthography",
         "html_path": "_language/latin/reference/02-orthography.html"
       },
       "next": {
-        "title": "INFLECTION",
+        "title": "Inflection",
         "html_path": "_language/latin/reference/04-inflection.html"
       }
     },
     {
       "slug": "04-inflection",
-      "title": "INFLECTION",
+      "title": "Inflection",
       "html_path": "_language/latin/reference/04-inflection.html",
       "breadcrumbs": [
         {
@@ -95,22 +95,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "THE PARTS OF SPEECH",
+        "title": "The Parts of Speech",
         "html_path": "_language/latin/reference/03-the-parts-of-speech.html"
       },
       "next": {
-        "title": "GENDER",
+        "title": "Gender",
         "html_path": "_language/latin/reference/05-gender.html"
       }
     },
     {
       "slug": "05-gender",
-      "title": "GENDER",
+      "title": "Gender",
       "html_path": "_language/latin/reference/05-gender.html",
       "breadcrumbs": [
         {
@@ -118,22 +118,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "INFLECTION",
+        "title": "Inflection",
         "html_path": "_language/latin/reference/04-inflection.html"
       },
       "next": {
-        "title": "NUMBER AND CASE",
+        "title": "Number and Case",
         "html_path": "_language/latin/reference/06-number-and-case.html"
       }
     },
     {
       "slug": "06-number-and-case",
-      "title": "NUMBER AND CASE",
+      "title": "Number and Case",
       "html_path": "_language/latin/reference/06-number-and-case.html",
       "breadcrumbs": [
         {
@@ -141,22 +141,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "GENDER",
+        "title": "Gender",
         "html_path": "_language/latin/reference/05-gender.html"
       },
       "next": {
-        "title": "DECLENSION OF NOUNS",
+        "title": "Declension of Nouns",
         "html_path": "_language/latin/reference/07-declension-of-nouns.html"
       }
     },
     {
       "slug": "07-declension-of-nouns",
-      "title": "DECLENSION OF NOUNS",
+      "title": "Declension of Nouns",
       "html_path": "_language/latin/reference/07-declension-of-nouns.html",
       "breadcrumbs": [
         {
@@ -164,22 +164,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "NUMBER AND CASE",
+        "title": "Number and Case",
         "html_path": "_language/latin/reference/06-number-and-case.html"
       },
       "next": {
-        "title": "FIRST DECLENSION (ā-STEMS)",
+        "title": "First Declension (ā-Stems)",
         "html_path": "_language/latin/reference/08-first-declension-a-stems.html"
       }
     },
     {
       "slug": "08-first-declension-a-stems",
-      "title": "FIRST DECLENSION (ā-STEMS)",
+      "title": "First Declension (ā-Stems)",
       "html_path": "_language/latin/reference/08-first-declension-a-stems.html",
       "breadcrumbs": [
         {
@@ -187,22 +187,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "DECLENSION OF NOUNS",
+        "title": "Declension of Nouns",
         "html_path": "_language/latin/reference/07-declension-of-nouns.html"
       },
       "next": {
-        "title": "SECOND DECLENSION (o-STEMS)",
+        "title": "Second Declension (o-Stems)",
         "html_path": "_language/latin/reference/09-second-declension-o-stems.html"
       }
     },
     {
       "slug": "09-second-declension-o-stems",
-      "title": "SECOND DECLENSION (o-STEMS)",
+      "title": "Second Declension (o-Stems)",
       "html_path": "_language/latin/reference/09-second-declension-o-stems.html",
       "breadcrumbs": [
         {
@@ -210,22 +210,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "FIRST DECLENSION (ā-STEMS)",
+        "title": "First Declension (ā-Stems)",
         "html_path": "_language/latin/reference/08-first-declension-a-stems.html"
       },
       "next": {
-        "title": "THIRD DECLENSION (CONSONANT AND i-STEMS)",
+        "title": "Third Declension (Consonant and i-Stems)",
         "html_path": "_language/latin/reference/10-third-declension-consonant-and-i-stems.html"
       }
     },
     {
       "slug": "10-third-declension-consonant-and-i-stems",
-      "title": "THIRD DECLENSION (CONSONANT AND i-STEMS)",
+      "title": "Third Declension (Consonant and i-Stems)",
       "html_path": "_language/latin/reference/10-third-declension-consonant-and-i-stems.html",
       "breadcrumbs": [
         {
@@ -233,22 +233,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "SECOND DECLENSION (o-STEMS)",
+        "title": "Second Declension (o-Stems)",
         "html_path": "_language/latin/reference/09-second-declension-o-stems.html"
       },
       "next": {
-        "title": "FOURTH DECLENSION",
+        "title": "Fourth Declension",
         "html_path": "_language/latin/reference/11-fourth-declension.html"
       }
     },
     {
       "slug": "11-fourth-declension",
-      "title": "FOURTH DECLENSION",
+      "title": "Fourth Declension",
       "html_path": "_language/latin/reference/11-fourth-declension.html",
       "breadcrumbs": [
         {
@@ -256,22 +256,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "THIRD DECLENSION (CONSONANT AND i-STEMS)",
+        "title": "Third Declension (Consonant and i-Stems)",
         "html_path": "_language/latin/reference/10-third-declension-consonant-and-i-stems.html"
       },
       "next": {
-        "title": "FIFTH DECLENSION (ē-STEMS)",
+        "title": "Fifth Declension (ē-Stems)",
         "html_path": "_language/latin/reference/12-fifth-declension-e-stems.html"
       }
     },
     {
       "slug": "12-fifth-declension-e-stems",
-      "title": "FIFTH DECLENSION (ē-STEMS)",
+      "title": "Fifth Declension (ē-Stems)",
       "html_path": "_language/latin/reference/12-fifth-declension-e-stems.html",
       "breadcrumbs": [
         {
@@ -279,22 +279,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "FOURTH DECLENSION",
+        "title": "Fourth Declension",
         "html_path": "_language/latin/reference/11-fourth-declension.html"
       },
       "next": {
-        "title": "DEFECTIVE NOUNS",
+        "title": "Defective Nouns",
         "html_path": "_language/latin/reference/13-defective-nouns.html"
       }
     },
     {
       "slug": "13-defective-nouns",
-      "title": "DEFECTIVE NOUNS",
+      "title": "Defective Nouns",
       "html_path": "_language/latin/reference/13-defective-nouns.html",
       "breadcrumbs": [
         {
@@ -302,22 +302,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "FIFTH DECLENSION (ē-STEMS)",
+        "title": "Fifth Declension (ē-Stems)",
         "html_path": "_language/latin/reference/12-fifth-declension-e-stems.html"
       },
       "next": {
-        "title": "VARIABLE NOUNS",
+        "title": "Variable Nouns",
         "html_path": "_language/latin/reference/14-variable-nouns.html"
       }
     },
     {
       "slug": "14-variable-nouns",
-      "title": "VARIABLE NOUNS",
+      "title": "Variable Nouns",
       "html_path": "_language/latin/reference/14-variable-nouns.html",
       "breadcrumbs": [
         {
@@ -325,22 +325,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "DEFECTIVE NOUNS",
+        "title": "Defective Nouns",
         "html_path": "_language/latin/reference/13-defective-nouns.html"
       },
       "next": {
-        "title": "NAMES OF PERSONS",
+        "title": "Names of Persons",
         "html_path": "_language/latin/reference/15-names-of-persons.html"
       }
     },
     {
       "slug": "15-names-of-persons",
-      "title": "NAMES OF PERSONS",
+      "title": "Names of Persons",
       "html_path": "_language/latin/reference/15-names-of-persons.html",
       "breadcrumbs": [
         {
@@ -348,22 +348,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "VARIABLE NOUNS",
+        "title": "Variable Nouns",
         "html_path": "_language/latin/reference/14-variable-nouns.html"
       },
       "next": {
-        "title": "ADJECTIVES",
+        "title": "Adjectives",
         "html_path": "_language/latin/reference/16-adjectives.html"
       }
     },
     {
       "slug": "16-adjectives",
-      "title": "ADJECTIVES",
+      "title": "Adjectives",
       "html_path": "_language/latin/reference/16-adjectives.html",
       "breadcrumbs": [
         {
@@ -371,22 +371,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "NAMES OF PERSONS",
+        "title": "Names of Persons",
         "html_path": "_language/latin/reference/15-names-of-persons.html"
       },
       "next": {
-        "title": "FIRST AND SECOND DECLENSIONS (ā- AND o-STEMS)",
+        "title": "First and Second Declensions (ā- and o-Stems)",
         "html_path": "_language/latin/reference/17-first-and-second-declensions-a-and-o-stems.html"
       }
     },
     {
       "slug": "17-first-and-second-declensions-a-and-o-stems",
-      "title": "FIRST AND SECOND DECLENSIONS (ā- AND o-STEMS)",
+      "title": "First and Second Declensions (ā- and o-Stems)",
       "html_path": "_language/latin/reference/17-first-and-second-declensions-a-and-o-stems.html",
       "breadcrumbs": [
         {
@@ -394,22 +394,45 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "ADJECTIVES",
+        "title": "Adjectives",
         "html_path": "_language/latin/reference/16-adjectives.html"
       },
       "next": {
-        "title": "COMPARISON OF ADJECTIVES",
+        "title": "Adjectives of the Third Declension",
+        "html_path": "_language/latin/reference/17a-adjectives-of-the-third-declension.html"
+      }
+    },
+    {
+      "slug": "17a-adjectives-of-the-third-declension",
+      "title": "Adjectives of the Third Declension",
+      "html_path": "_language/latin/reference/17a-adjectives-of-the-third-declension.html",
+      "breadcrumbs": [
+        {
+          "title": "Library",
+          "html_path": "index.html"
+        },
+        {
+          "title": "Reference Grammar",
+          "html_path": "_language/latin/reference/index.html"
+        }
+      ],
+      "prev": {
+        "title": "First and Second Declensions (ā- and o-Stems)",
+        "html_path": "_language/latin/reference/17-first-and-second-declensions-a-and-o-stems.html"
+      },
+      "next": {
+        "title": "Comparison of Adjectives",
         "html_path": "_language/latin/reference/18-comparison-of-adjectives.html"
       }
     },
     {
       "slug": "18-comparison-of-adjectives",
-      "title": "COMPARISON OF ADJECTIVES",
+      "title": "Comparison of Adjectives",
       "html_path": "_language/latin/reference/18-comparison-of-adjectives.html",
       "breadcrumbs": [
         {
@@ -417,22 +440,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "FIRST AND SECOND DECLENSIONS (ā- AND o-STEMS)",
-        "html_path": "_language/latin/reference/17-first-and-second-declensions-a-and-o-stems.html"
+        "title": "Adjectives of the Third Declension",
+        "html_path": "_language/latin/reference/17a-adjectives-of-the-third-declension.html"
       },
       "next": {
-        "title": "NUMERALS",
+        "title": "Numerals",
         "html_path": "_language/latin/reference/19-numerals.html"
       }
     },
     {
       "slug": "19-numerals",
-      "title": "NUMERALS",
+      "title": "Numerals",
       "html_path": "_language/latin/reference/19-numerals.html",
       "breadcrumbs": [
         {
@@ -440,22 +463,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "COMPARISON OF ADJECTIVES",
+        "title": "Comparison of Adjectives",
         "html_path": "_language/latin/reference/18-comparison-of-adjectives.html"
       },
       "next": {
-        "title": "PRONOUNS",
+        "title": "Pronouns",
         "html_path": "_language/latin/reference/20-pronouns.html"
       }
     },
     {
       "slug": "20-pronouns",
-      "title": "PRONOUNS",
+      "title": "Pronouns",
       "html_path": "_language/latin/reference/20-pronouns.html",
       "breadcrumbs": [
         {
@@ -463,22 +486,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "NUMERALS",
+        "title": "Numerals",
         "html_path": "_language/latin/reference/19-numerals.html"
       },
       "next": {
-        "title": "VERBS: CONJUGATION OF THE VERB",
+        "title": "Verbs: Conjugation of the Verb",
         "html_path": "_language/latin/reference/21-verbs-conjugation-of-the-verb.html"
       }
     },
     {
       "slug": "21-verbs-conjugation-of-the-verb",
-      "title": "VERBS: CONJUGATION OF THE VERB",
+      "title": "Verbs: Conjugation of the Verb",
       "html_path": "_language/latin/reference/21-verbs-conjugation-of-the-verb.html",
       "breadcrumbs": [
         {
@@ -486,22 +509,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "PRONOUNS",
+        "title": "Pronouns",
         "html_path": "_language/latin/reference/20-pronouns.html"
       },
       "next": {
-        "title": "SIGNIFICATION OF THE FORMS OF THE VERB",
+        "title": "Signification of the Forms of the Verb",
         "html_path": "_language/latin/reference/22-signification-of-the-forms-of-the-verb.html"
       }
     },
     {
       "slug": "22-signification-of-the-forms-of-the-verb",
-      "title": "SIGNIFICATION OF THE FORMS OF THE VERB",
+      "title": "Signification of the Forms of the Verb",
       "html_path": "_language/latin/reference/22-signification-of-the-forms-of-the-verb.html",
       "breadcrumbs": [
         {
@@ -509,22 +532,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "VERBS: CONJUGATION OF THE VERB",
+        "title": "Verbs: Conjugation of the Verb",
         "html_path": "_language/latin/reference/21-verbs-conjugation-of-the-verb.html"
       },
       "next": {
-        "title": "PERSONAL ENDINGS",
+        "title": "Personal Endings",
         "html_path": "_language/latin/reference/23-personal-endings.html"
       }
     },
     {
       "slug": "23-personal-endings",
-      "title": "PERSONAL ENDINGS",
+      "title": "Personal Endings",
       "html_path": "_language/latin/reference/23-personal-endings.html",
       "breadcrumbs": [
         {
@@ -532,22 +555,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "SIGNIFICATION OF THE FORMS OF THE VERB",
+        "title": "Signification of the Forms of the Verb",
         "html_path": "_language/latin/reference/22-signification-of-the-forms-of-the-verb.html"
       },
       "next": {
-        "title": "FORMS OF THE VERB",
+        "title": "Forms of the Verb",
         "html_path": "_language/latin/reference/24-forms-of-the-verb.html"
       }
     },
     {
       "slug": "24-forms-of-the-verb",
-      "title": "FORMS OF THE VERB",
+      "title": "Forms of the Verb",
       "html_path": "_language/latin/reference/24-forms-of-the-verb.html",
       "breadcrumbs": [
         {
@@ -555,12 +578,12 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "PERSONAL ENDINGS",
+        "title": "Personal Endings",
         "html_path": "_language/latin/reference/23-personal-endings.html"
       },
       "next": {
@@ -578,12 +601,12 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "FORMS OF THE VERB",
+        "title": "Forms of the Verb",
         "html_path": "_language/latin/reference/24-forms-of-the-verb.html"
       },
       "next": {
@@ -601,7 +624,7 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
@@ -610,13 +633,13 @@
         "html_path": "_language/latin/reference/25-the-four-conjugations.html"
       },
       "next": {
-        "title": "PARTICLES",
+        "title": "Particles",
         "html_path": "_language/latin/reference/27-particles.html"
       }
     },
     {
       "slug": "27-particles",
-      "title": "PARTICLES",
+      "title": "Particles",
       "html_path": "_language/latin/reference/27-particles.html",
       "breadcrumbs": [
         {
@@ -624,7 +647,7 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
@@ -633,13 +656,13 @@
         "html_path": "_language/latin/reference/26-forms-of-conjugation.html"
       },
       "next": {
-        "title": "CONJUNCTIONS",
+        "title": "Conjunctions",
         "html_path": "_language/latin/reference/28-conjunctions.html"
       }
     },
     {
       "slug": "28-conjunctions",
-      "title": "CONJUNCTIONS",
+      "title": "Conjunctions",
       "html_path": "_language/latin/reference/28-conjunctions.html",
       "breadcrumbs": [
         {
@@ -647,22 +670,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "PARTICLES",
+        "title": "Particles",
         "html_path": "_language/latin/reference/27-particles.html"
       },
       "next": {
-        "title": "FORMATION OF WORDS",
+        "title": "Formation of Words",
         "html_path": "_language/latin/reference/29-formation-of-words.html"
       }
     },
     {
       "slug": "29-formation-of-words",
-      "title": "FORMATION OF WORDS",
+      "title": "Formation of Words",
       "html_path": "_language/latin/reference/29-formation-of-words.html",
       "breadcrumbs": [
         {
@@ -670,22 +693,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "CONJUNCTIONS",
+        "title": "Conjunctions",
         "html_path": "_language/latin/reference/28-conjunctions.html"
       },
       "next": {
-        "title": "COMPOUND WORDS",
+        "title": "Compound Words",
         "html_path": "_language/latin/reference/30-compound-words.html"
       }
     },
     {
       "slug": "30-compound-words",
-      "title": "COMPOUND WORDS",
+      "title": "Compound Words",
       "html_path": "_language/latin/reference/30-compound-words.html",
       "breadcrumbs": [
         {
@@ -693,22 +716,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "FORMATION OF WORDS",
+        "title": "Formation of Words",
         "html_path": "_language/latin/reference/29-formation-of-words.html"
       },
       "next": {
-        "title": "INTRODUCTORY NOTE",
+        "title": "Introductory Note",
         "html_path": "_language/latin/reference/31-introductory-note.html"
       }
     },
     {
       "slug": "31-introductory-note",
-      "title": "INTRODUCTORY NOTE",
+      "title": "Introductory Note",
       "html_path": "_language/latin/reference/31-introductory-note.html",
       "breadcrumbs": [
         {
@@ -716,22 +739,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "COMPOUND WORDS",
+        "title": "Compound Words",
         "html_path": "_language/latin/reference/30-compound-words.html"
       },
       "next": {
-        "title": "THE SENTENCE",
+        "title": "The Sentence",
         "html_path": "_language/latin/reference/32-the-sentence.html"
       }
     },
     {
       "slug": "32-the-sentence",
-      "title": "THE SENTENCE",
+      "title": "The Sentence",
       "html_path": "_language/latin/reference/32-the-sentence.html",
       "breadcrumbs": [
         {
@@ -739,22 +762,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "INTRODUCTORY NOTE",
+        "title": "Introductory Note",
         "html_path": "_language/latin/reference/31-introductory-note.html"
       },
       "next": {
-        "title": "AGREEMENT OF ADJECTIVES",
+        "title": "Agreement of Adjectives",
         "html_path": "_language/latin/reference/33-agreement-of-adjectives.html"
       }
     },
     {
       "slug": "33-agreement-of-adjectives",
-      "title": "AGREEMENT OF ADJECTIVES",
+      "title": "Agreement of Adjectives",
       "html_path": "_language/latin/reference/33-agreement-of-adjectives.html",
       "breadcrumbs": [
         {
@@ -762,22 +785,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "THE SENTENCE",
+        "title": "The Sentence",
         "html_path": "_language/latin/reference/32-the-sentence.html"
       },
       "next": {
-        "title": "PRONOUNS",
+        "title": "Pronouns",
         "html_path": "_language/latin/reference/34-pronouns.html"
       }
     },
     {
       "slug": "34-pronouns",
-      "title": "PRONOUNS",
+      "title": "Pronouns",
       "html_path": "_language/latin/reference/34-pronouns.html",
       "breadcrumbs": [
         {
@@ -785,22 +808,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "AGREEMENT OF ADJECTIVES",
+        "title": "Agreement of Adjectives",
         "html_path": "_language/latin/reference/33-agreement-of-adjectives.html"
       },
       "next": {
-        "title": "VERBS",
+        "title": "Verbs",
         "html_path": "_language/latin/reference/35-verbs.html"
       }
     },
     {
       "slug": "35-verbs",
-      "title": "VERBS",
+      "title": "Verbs",
       "html_path": "_language/latin/reference/35-verbs.html",
       "breadcrumbs": [
         {
@@ -808,22 +831,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "PRONOUNS",
+        "title": "Pronouns",
         "html_path": "_language/latin/reference/34-pronouns.html"
       },
       "next": {
-        "title": "PARTICLES",
+        "title": "Particles",
         "html_path": "_language/latin/reference/36-particles.html"
       }
     },
     {
       "slug": "36-particles",
-      "title": "PARTICLES",
+      "title": "Particles",
       "html_path": "_language/latin/reference/36-particles.html",
       "breadcrumbs": [
         {
@@ -831,22 +854,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "VERBS",
+        "title": "Verbs",
         "html_path": "_language/latin/reference/35-verbs.html"
       },
       "next": {
-        "title": "CONJUNCTIONS",
+        "title": "Conjunctions",
         "html_path": "_language/latin/reference/37-conjunctions.html"
       }
     },
     {
       "slug": "37-conjunctions",
-      "title": "CONJUNCTIONS",
+      "title": "Conjunctions",
       "html_path": "_language/latin/reference/37-conjunctions.html",
       "breadcrumbs": [
         {
@@ -854,22 +877,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "PARTICLES",
+        "title": "Particles",
         "html_path": "_language/latin/reference/36-particles.html"
       },
       "next": {
-        "title": "QUESTIONS",
+        "title": "Questions",
         "html_path": "_language/latin/reference/38-questions.html"
       }
     },
     {
       "slug": "38-questions",
-      "title": "QUESTIONS",
+      "title": "Questions",
       "html_path": "_language/latin/reference/38-questions.html",
       "breadcrumbs": [
         {
@@ -877,22 +900,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "CONJUNCTIONS",
+        "title": "Conjunctions",
         "html_path": "_language/latin/reference/37-conjunctions.html"
       },
       "next": {
-        "title": "CONSTRUCTION OF CASES",
+        "title": "Construction of Cases",
         "html_path": "_language/latin/reference/39-construction-of-cases.html"
       }
     },
     {
       "slug": "39-construction-of-cases",
-      "title": "CONSTRUCTION OF CASES",
+      "title": "Construction of Cases",
       "html_path": "_language/latin/reference/39-construction-of-cases.html",
       "breadcrumbs": [
         {
@@ -900,22 +923,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "QUESTIONS",
+        "title": "Questions",
         "html_path": "_language/latin/reference/38-questions.html"
       },
       "next": {
-        "title": "SYNTAX OF THE VERB",
+        "title": "Syntax of the Verb",
         "html_path": "_language/latin/reference/40-syntax-of-the-verb.html"
       }
     },
     {
       "slug": "40-syntax-of-the-verb",
-      "title": "SYNTAX OF THE VERB",
+      "title": "Syntax of the Verb",
       "html_path": "_language/latin/reference/40-syntax-of-the-verb.html",
       "breadcrumbs": [
         {
@@ -923,22 +946,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "CONSTRUCTION OF CASES",
+        "title": "Construction of Cases",
         "html_path": "_language/latin/reference/39-construction-of-cases.html"
       },
       "next": {
-        "title": "SUBSTANTIVE CLAUSES",
+        "title": "Substantive Clauses",
         "html_path": "_language/latin/reference/41-substantive-clauses.html"
       }
     },
     {
       "slug": "41-substantive-clauses",
-      "title": "SUBSTANTIVE CLAUSES",
+      "title": "Substantive Clauses",
       "html_path": "_language/latin/reference/41-substantive-clauses.html",
       "breadcrumbs": [
         {
@@ -946,22 +969,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "SYNTAX OF THE VERB",
+        "title": "Syntax of the Verb",
         "html_path": "_language/latin/reference/40-syntax-of-the-verb.html"
       },
       "next": {
-        "title": "INDIRECT DISCOURSE",
+        "title": "Indirect Discourse",
         "html_path": "_language/latin/reference/42-indirect-discourse.html"
       }
     },
     {
       "slug": "42-indirect-discourse",
-      "title": "INDIRECT DISCOURSE",
+      "title": "Indirect Discourse",
       "html_path": "_language/latin/reference/42-indirect-discourse.html",
       "breadcrumbs": [
         {
@@ -969,22 +992,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "SUBSTANTIVE CLAUSES",
+        "title": "Substantive Clauses",
         "html_path": "_language/latin/reference/41-substantive-clauses.html"
       },
       "next": {
-        "title": "IMPORTANT RULES OF SYNTAX",
+        "title": "Important Rules of Syntax",
         "html_path": "_language/latin/reference/43-important-rules-of-syntax.html"
       }
     },
     {
       "slug": "43-important-rules-of-syntax",
-      "title": "IMPORTANT RULES OF SYNTAX",
+      "title": "Important Rules of Syntax",
       "html_path": "_language/latin/reference/43-important-rules-of-syntax.html",
       "breadcrumbs": [
         {
@@ -992,22 +1015,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "INDIRECT DISCOURSE",
+        "title": "Indirect Discourse",
         "html_path": "_language/latin/reference/42-indirect-discourse.html"
       },
       "next": {
-        "title": "ORDER OF WORDS",
+        "title": "Order of Words",
         "html_path": "_language/latin/reference/44-order-of-words.html"
       }
     },
     {
       "slug": "44-order-of-words",
-      "title": "ORDER OF WORDS",
+      "title": "Order of Words",
       "html_path": "_language/latin/reference/44-order-of-words.html",
       "breadcrumbs": [
         {
@@ -1015,22 +1038,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "IMPORTANT RULES OF SYNTAX",
+        "title": "Important Rules of Syntax",
         "html_path": "_language/latin/reference/43-important-rules-of-syntax.html"
       },
       "next": {
-        "title": "QUANTITY",
+        "title": "Quantity",
         "html_path": "_language/latin/reference/45-quantity.html"
       }
     },
     {
       "slug": "45-quantity",
-      "title": "QUANTITY",
+      "title": "Quantity",
       "html_path": "_language/latin/reference/45-quantity.html",
       "breadcrumbs": [
         {
@@ -1038,22 +1061,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "ORDER OF WORDS",
+        "title": "Order of Words",
         "html_path": "_language/latin/reference/44-order-of-words.html"
       },
       "next": {
-        "title": "RHYTHM",
+        "title": "Rhythm",
         "html_path": "_language/latin/reference/46-rhythm.html"
       }
     },
     {
       "slug": "46-rhythm",
-      "title": "RHYTHM",
+      "title": "Rhythm",
       "html_path": "_language/latin/reference/46-rhythm.html",
       "breadcrumbs": [
         {
@@ -1061,22 +1084,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "QUANTITY",
+        "title": "Quantity",
         "html_path": "_language/latin/reference/45-quantity.html"
       },
       "next": {
-        "title": "VERSIFICATION",
+        "title": "Versification",
         "html_path": "_language/latin/reference/47-versification.html"
       }
     },
     {
       "slug": "47-versification",
-      "title": "VERSIFICATION",
+      "title": "Versification",
       "html_path": "_language/latin/reference/47-versification.html",
       "breadcrumbs": [
         {
@@ -1084,22 +1107,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "RHYTHM",
+        "title": "Rhythm",
         "html_path": "_language/latin/reference/46-rhythm.html"
       },
       "next": {
-        "title": "FORMS OF VERSE",
+        "title": "Forms of Verse",
         "html_path": "_language/latin/reference/48-forms-of-verse.html"
       }
     },
     {
       "slug": "48-forms-of-verse",
-      "title": "FORMS OF VERSE",
+      "title": "Forms of Verse",
       "html_path": "_language/latin/reference/48-forms-of-verse.html",
       "breadcrumbs": [
         {
@@ -1107,22 +1130,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "VERSIFICATION",
+        "title": "Versification",
         "html_path": "_language/latin/reference/47-versification.html"
       },
       "next": {
-        "title": "MISCELLANEOUS",
+        "title": "Miscellaneous",
         "html_path": "_language/latin/reference/49-miscellaneous.html"
       }
     },
     {
       "slug": "49-miscellaneous",
-      "title": "MISCELLANEOUS",
+      "title": "Miscellaneous",
       "html_path": "_language/latin/reference/49-miscellaneous.html",
       "breadcrumbs": [
         {
@@ -1130,22 +1153,22 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "FORMS OF VERSE",
+        "title": "Forms of Verse",
         "html_path": "_language/latin/reference/48-forms-of-verse.html"
       },
       "next": {
-        "title": "GLOSSARY: OF TERMS USED IN GRAMMAR, RHETORIC, AND PROSODY",
+        "title": "Glossary of Terms Used in Grammar, Rhetoric, and Prosody",
         "html_path": "_language/latin/reference/50-glossary-of-terms-used-in-grammar-rhetoric-and-prosody.html"
       }
     },
     {
       "slug": "50-glossary-of-terms-used-in-grammar-rhetoric-and-prosody",
-      "title": "GLOSSARY: OF TERMS USED IN GRAMMAR, RHETORIC, AND PROSODY",
+      "title": "Glossary of Terms Used in Grammar, Rhetoric, and Prosody",
       "html_path": "_language/latin/reference/50-glossary-of-terms-used-in-grammar-rhetoric-and-prosody.html",
       "breadcrumbs": [
         {
@@ -1153,12 +1176,12 @@
           "html_path": "index.html"
         },
         {
-          "title": "Latin Reference Grammar",
+          "title": "Reference Grammar",
           "html_path": "_language/latin/reference/index.html"
         }
       ],
       "prev": {
-        "title": "MISCELLANEOUS",
+        "title": "Miscellaneous",
         "html_path": "_language/latin/reference/49-miscellaneous.html"
       },
       "next": null
