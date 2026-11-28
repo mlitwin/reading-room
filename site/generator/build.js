@@ -870,13 +870,20 @@ function renderPrevNextHtml(node, navPages) {
 // within the current context, close) over a breadcrumb of the steps taken
 // (filled by cards.js) — wraps a `.popover-body` whose innerHTML is replaced on
 // each navigation. Exported for the guide page, which hosts popovers too.
+// Header icons: one 20×20 stroke drawing each, so the three buttons share a
+// size, weight, and optical centre (text glyphs ‹ › × sit at different heights
+// in the text face).
+function popoverIcon(d) {
+  return `<svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false"><path d="${d}" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+}
+
 export function popoverHostHtml() {
   return `<aside id="popover-host" popover>
   <div class="popover-chrome">
-    <button class="popover-prev" type="button" disabled aria-label="Previous">‹</button>
-    <button class="popover-next" type="button" disabled aria-label="Next">›</button>
+    <button class="popover-btn popover-prev" type="button" disabled aria-label="Previous">${popoverIcon('M12.5 4.5 7 10l5.5 5.5')}</button>
+    <button class="popover-btn popover-next" type="button" disabled aria-label="Next">${popoverIcon('M7.5 4.5 13 10l-5.5 5.5')}</button>
     <nav class="popover-crumbs" aria-label="Where you are"></nav>
-    <button class="popover-close" type="button" popovertarget="popover-host" popovertargetaction="hide" aria-label="Close">×</button>
+    <button class="popover-btn popover-close" type="button" popovertarget="popover-host" popovertargetaction="hide" aria-label="Close">${popoverIcon('M5 5l10 10M15 5 5 15')}</button>
   </div>
   <div class="popover-body"></div>
 </aside>`;
