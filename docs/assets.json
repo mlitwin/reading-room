@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T01:36:30.447Z",
+  "generated_at": "2026-11-28T05:30:29.830Z",
   "files": [
     {
       "path": "_language/latin/grammar/index.html",
@@ -283,12 +283,12 @@
     },
     {
       "path": "assets/cards.js",
-      "sha256": "9765c72218f235bfbc55cdd566d3b85fc1fbe7af2a363d078d4da8eac6cb1b29",
-      "size": 69265
+      "sha256": "7ccb46e2927f8166e5b8da3d23aea9302c6bff56f83c04af6a5434c2d2a469e7",
+      "size": 77780
     },
     {
       "path": "assets/concordance/marvell-hortus.json",
-      "sha256": "78dc297cb62fc447b1e22c48a4074d4c0abc054b5b54f74b21ba2b89fac4908f",
+      "sha256": "c38a3018e891d2f3e3cc45a570719cb091448597d9ecd27a50b5469f02b6e49b",
       "size": 62081
     },
     {
@@ -298,7 +298,7 @@
     },
     {
       "path": "assets/concordance/ovid-metamorphoses.json",
-      "sha256": "d0fc8cfc04a60fce1acb1fabc9ace2e0c45e00862cbc2666ed223230ed42e18f",
+      "sha256": "a4133bd8b2da139f4780b2adbe80f37836c044bbf5c00961e47e76423f961d62",
       "size": 1064559
     },
     {
@@ -643,8 +643,8 @@
     },
     {
       "path": "assets/latin-glossary.json",
-      "sha256": "99fc0e640464d7ce2ae59a6bd3b51057bc9030848ce1be3bf8c99aa96e1bf5a5",
-      "size": 10210844
+      "sha256": "2d4dfecdb4fe0b007026e75c22da8448b9eefbe60afb4431b35260898f3f303b",
+      "size": 10754009
     },
     {
       "path": "assets/latin-grammar.js",
@@ -663,33 +663,33 @@
     },
     {
       "path": "assets/latin-reference-notes.json",
-      "sha256": "ce458cd0e3640d913c88f178a61992ff38344edbdfb9738a6db6fbb7ac419d40",
+      "sha256": "f4d3040a0c0bf70b8a6753cdc29b86929e7450fbcc20ea7bca35aa7659b5fbe9",
       "size": 2404816
     },
     {
       "path": "assets/lexicon.js",
-      "sha256": "bd326587d3b92e6e8dba3bc3e8c03a798c61a32017d49e7cf981dd8703d0e588",
-      "size": 5623061
+      "sha256": "71bdc4ec9a7deaa718105ab590a4e2bfcf1d03d8ec1a97ac247af31b4c79a0aa",
+      "size": 5708889
     },
     {
       "path": "assets/lexicon.json",
-      "sha256": "8e3730300051d890a33a32ccd4165710e304b774236c7e12acb0d926549f2021",
-      "size": 5623032
+      "sha256": "c1cd0716beea2c0bb1b95b260494958eb5ea52bb3c4f9e107afcbd1367d30ace",
+      "size": 5708860
     },
     {
       "path": "assets/reader.css",
-      "sha256": "5f36e1cba3883dafcb45563308f5521d41ee8c98681562b2e2353a8370aa101a",
-      "size": 47471
+      "sha256": "382c66d820f09bb19a6cb3b7e1a1bc8a2279357481b14fd01d3fd9ab7bc758ff",
+      "size": 49147
     },
     {
       "path": "assets/reading-room-data.js",
-      "sha256": "5e94d6b9a1bd6ce2030f97cd934c7b39d1c19a6dea78f2b13b332d90b6ce6aae",
-      "size": 11356812
+      "sha256": "b4be74c10b0c2eacc515ff43d7e0dedf7c5948f47f8fd02f3c89e52ce6243b77",
+      "size": 11899977
     },
     {
       "path": "assets/reading-room-data.json",
-      "sha256": "e53989d05b08036e48f4b7fc817a39739a4765895840340bc1d2e888b5f9bc9f",
-      "size": 11356786
+      "sha256": "470cd84b37fc12e4e5e4a9b42602cf0d6f2f432080c4fc60b3dd28a4fd71851c",
+      "size": 11899951
     },
     {
       "path": "index.html",
@@ -698,7 +698,7 @@
     },
     {
       "path": "index.json",
-      "sha256": "405a80a5dcf1f6660a6c7749acb0dff163038b38d36ff9a58fe1d468db238215",
+      "sha256": "fb10b01c2863c4fe4ab5030cd6a284589e14e6e4cb5115059b70083a96a3b885",
       "size": 38766
     },
     {

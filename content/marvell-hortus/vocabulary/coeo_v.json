@@ -103,41 +103,142 @@
       "3pl.imperf.subj.act": "coirent",
       "2sg.pres.imp.act": "coi",
       "2pl.pres.imp.act": "coite",
-      "1sg.perf.ind.act": "coivi",
-      "2sg.perf.ind.act": "coivisti",
-      "3sg.perf.ind.act": "coivit",
-      "1pl.perf.ind.act": "coivimus",
-      "2pl.perf.ind.act": "coivistis",
+      "1sg.perf.ind.act": [
+        "coivi",
+        "coii"
+      ],
+      "2sg.perf.ind.act": [
+        "coivisti",
+        "coiisti",
+        "coisti"
+      ],
+      "3sg.perf.ind.act": [
+        "coivit",
+        "coiit"
+      ],
+      "1pl.perf.ind.act": [
+        "coivimus",
+        "coiimus"
+      ],
+      "2pl.perf.ind.act": [
+        "coivistis",
+        "coiistis",
+        "coistis"
+      ],
       "3pl.perf.ind.act": [
         "coiverunt",
-        "coivere"
+        "coivere",
+        "coierunt",
+        "coiere"
       ],
       "inf.pres.act": "coire",
-      "1sg.plup.ind.act": "coiveram",
-      "2sg.plup.ind.act": "coiveras",
-      "3sg.plup.ind.act": "coiverat",
-      "1pl.plup.ind.act": "coiveramus",
-      "2pl.plup.ind.act": "coiveratis",
-      "3pl.plup.ind.act": "coiverant",
-      "1sg.futperf.ind.act": "coivero",
-      "2sg.futperf.ind.act": "coiveris",
-      "3sg.futperf.ind.act": "coiverit",
-      "1pl.futperf.ind.act": "coiverimus",
-      "2pl.futperf.ind.act": "coiveritis",
-      "3pl.futperf.ind.act": "coiverint",
-      "1sg.perf.subj.act": "coiverim",
-      "2sg.perf.subj.act": "coiveris",
-      "3sg.perf.subj.act": "coiverit",
-      "1pl.perf.subj.act": "coiverimus",
-      "2pl.perf.subj.act": "coiveritis",
-      "3pl.perf.subj.act": "coiverint",
-      "1sg.plup.subj.act": "coivissem",
-      "2sg.plup.subj.act": "coivisses",
-      "3sg.plup.subj.act": "coivisset",
-      "1pl.plup.subj.act": "coivissemus",
-      "2pl.plup.subj.act": "coivissetis",
-      "3pl.plup.subj.act": "coivissent",
-      "inf.perf.act": "coivisse",
+      "1sg.plup.ind.act": [
+        "coiveram",
+        "coieram"
+      ],
+      "2sg.plup.ind.act": [
+        "coiveras",
+        "coieras"
+      ],
+      "3sg.plup.ind.act": [
+        "coiverat",
+        "coierat"
+      ],
+      "1pl.plup.ind.act": [
+        "coiveramus",
+        "coieramus"
+      ],
+      "2pl.plup.ind.act": [
+        "coiveratis",
+        "coieratis"
+      ],
+      "3pl.plup.ind.act": [
+        "coiverant",
+        "coierant"
+      ],
+      "1sg.futperf.ind.act": [
+        "coivero",
+        "coiero"
+      ],
+      "2sg.futperf.ind.act": [
+        "coiveris",
+        "coieris"
+      ],
+      "3sg.futperf.ind.act": [
+        "coiverit",
+        "coierit"
+      ],
+      "1pl.futperf.ind.act": [
+        "coiverimus",
+        "coierimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "coiveritis",
+        "coieritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "coiverint",
+        "coierint"
+      ],
+      "1sg.perf.subj.act": [
+        "coiverim",
+        "coierim"
+      ],
+      "2sg.perf.subj.act": [
+        "coiveris",
+        "coieris"
+      ],
+      "3sg.perf.subj.act": [
+        "coiverit",
+        "coierit"
+      ],
+      "1pl.perf.subj.act": [
+        "coiverimus",
+        "coierimus"
+      ],
+      "2pl.perf.subj.act": [
+        "coiveritis",
+        "coieritis"
+      ],
+      "3pl.perf.subj.act": [
+        "coiverint",
+        "coierint"
+      ],
+      "1sg.plup.subj.act": [
+        "coivissem",
+        "coiissem",
+        "coissem"
+      ],
+      "2sg.plup.subj.act": [
+        "coivisses",
+        "coiisses",
+        "coisses"
+      ],
+      "3sg.plup.subj.act": [
+        "coivisset",
+        "coiisset",
+        "coisset"
+      ],
+      "1pl.plup.subj.act": [
+        "coivissemus",
+        "coiissemus",
+        "coissemus"
+      ],
+      "2pl.plup.subj.act": [
+        "coivissetis",
+        "coiissetis",
+        "coissetis"
+      ],
+      "3pl.plup.subj.act": [
+        "coivissent",
+        "coiissent",
+        "coissent"
+      ],
+      "inf.perf.act": [
+        "coivisse",
+        "coiisse",
+        "coisse"
+      ],
       "inf.pres.pass": "coiri",
       "gerundive.nom.sg.masc": "coeundus",
       "gerundive.nom.sg.fem": "coeunda",

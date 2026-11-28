@@ -105,39 +105,109 @@
       "2sg.pres.imp.act": "viola",
       "2pl.pres.imp.act": "violate",
       "1sg.perf.ind.act": "violavi",
-      "2sg.perf.ind.act": "violavisti",
+      "2sg.perf.ind.act": [
+        "violavisti",
+        "violasti"
+      ],
       "3sg.perf.ind.act": "violavit",
       "1pl.perf.ind.act": "violavimus",
-      "2pl.perf.ind.act": "violavistis",
+      "2pl.perf.ind.act": [
+        "violavistis",
+        "violastis"
+      ],
       "3pl.perf.ind.act": [
         "violaverunt",
-        "violavere"
+        "violavere",
+        "violarunt"
       ],
       "inf.pres.act": "violare",
-      "1sg.plup.ind.act": "violaveram",
-      "2sg.plup.ind.act": "violaveras",
-      "3sg.plup.ind.act": "violaverat",
-      "1pl.plup.ind.act": "violaveramus",
-      "2pl.plup.ind.act": "violaveratis",
-      "3pl.plup.ind.act": "violaverant",
+      "1sg.plup.ind.act": [
+        "violaveram",
+        "violaram"
+      ],
+      "2sg.plup.ind.act": [
+        "violaveras",
+        "violaras"
+      ],
+      "3sg.plup.ind.act": [
+        "violaverat",
+        "violarat"
+      ],
+      "1pl.plup.ind.act": [
+        "violaveramus",
+        "violaramus"
+      ],
+      "2pl.plup.ind.act": [
+        "violaveratis",
+        "violaratis"
+      ],
+      "3pl.plup.ind.act": [
+        "violaverant",
+        "violarant"
+      ],
       "1sg.futperf.ind.act": "violavero",
       "2sg.futperf.ind.act": "violaveris",
-      "3sg.futperf.ind.act": "violaverit",
-      "1pl.futperf.ind.act": "violaverimus",
-      "2pl.futperf.ind.act": "violaveritis",
-      "3pl.futperf.ind.act": "violaverint",
-      "1sg.perf.subj.act": "violaverim",
+      "3sg.futperf.ind.act": [
+        "violaverit",
+        "violarit"
+      ],
+      "1pl.futperf.ind.act": [
+        "violaverimus",
+        "violarimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "violaveritis",
+        "violaritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "violaverint",
+        "violarint"
+      ],
+      "1sg.perf.subj.act": [
+        "violaverim",
+        "violarim"
+      ],
       "2sg.perf.subj.act": "violaveris",
-      "3sg.perf.subj.act": "violaverit",
-      "1pl.perf.subj.act": "violaverimus",
-      "2pl.perf.subj.act": "violaveritis",
-      "3pl.perf.subj.act": "violaverint",
-      "1sg.plup.subj.act": "violavissem",
-      "2sg.plup.subj.act": "violavisses",
-      "3sg.plup.subj.act": "violavisset",
-      "1pl.plup.subj.act": "violavissemus",
-      "2pl.plup.subj.act": "violavissetis",
-      "3pl.plup.subj.act": "violavissent",
+      "3sg.perf.subj.act": [
+        "violaverit",
+        "violarit"
+      ],
+      "1pl.perf.subj.act": [
+        "violaverimus",
+        "violarimus"
+      ],
+      "2pl.perf.subj.act": [
+        "violaveritis",
+        "violaritis"
+      ],
+      "3pl.perf.subj.act": [
+        "violaverint",
+        "violarint"
+      ],
+      "1sg.plup.subj.act": [
+        "violavissem",
+        "violassem"
+      ],
+      "2sg.plup.subj.act": [
+        "violavisses",
+        "violasses"
+      ],
+      "3sg.plup.subj.act": [
+        "violavisset",
+        "violasset"
+      ],
+      "1pl.plup.subj.act": [
+        "violavissemus",
+        "violassemus"
+      ],
+      "2pl.plup.subj.act": [
+        "violavissetis",
+        "violassetis"
+      ],
+      "3pl.plup.subj.act": [
+        "violavissent",
+        "violassent"
+      ],
       "inf.perf.act": [
         "violavisse",
         "violasse"

@@ -104,40 +104,113 @@
       "2sg.pres.imp.act": "pererra",
       "2pl.pres.imp.act": "pererrate",
       "1sg.perf.ind.act": "pererravi",
-      "2sg.perf.ind.act": "pererravisti",
+      "2sg.perf.ind.act": [
+        "pererravisti",
+        "pererrasti"
+      ],
       "3sg.perf.ind.act": "pererravit",
       "1pl.perf.ind.act": "pererravimus",
-      "2pl.perf.ind.act": "pererravistis",
+      "2pl.perf.ind.act": [
+        "pererravistis",
+        "pererrastis"
+      ],
       "3pl.perf.ind.act": [
         "pererraverunt",
-        "pererravere"
+        "pererravere",
+        "pererrarunt"
       ],
       "inf.pres.act": "pererrare",
-      "1sg.plup.ind.act": "pererraveram",
-      "2sg.plup.ind.act": "pererraveras",
-      "3sg.plup.ind.act": "pererraverat",
-      "1pl.plup.ind.act": "pererraveramus",
-      "2pl.plup.ind.act": "pererraveratis",
-      "3pl.plup.ind.act": "pererraverant",
+      "1sg.plup.ind.act": [
+        "pererraveram",
+        "pererraram"
+      ],
+      "2sg.plup.ind.act": [
+        "pererraveras",
+        "pererraras"
+      ],
+      "3sg.plup.ind.act": [
+        "pererraverat",
+        "pererrarat"
+      ],
+      "1pl.plup.ind.act": [
+        "pererraveramus",
+        "pererraramus"
+      ],
+      "2pl.plup.ind.act": [
+        "pererraveratis",
+        "pererraratis"
+      ],
+      "3pl.plup.ind.act": [
+        "pererraverant",
+        "pererrarant"
+      ],
       "1sg.futperf.ind.act": "pererravero",
       "2sg.futperf.ind.act": "pererraveris",
-      "3sg.futperf.ind.act": "pererraverit",
-      "1pl.futperf.ind.act": "pererraverimus",
-      "2pl.futperf.ind.act": "pererraveritis",
-      "3pl.futperf.ind.act": "pererraverint",
-      "1sg.perf.subj.act": "pererraverim",
+      "3sg.futperf.ind.act": [
+        "pererraverit",
+        "pererrarit"
+      ],
+      "1pl.futperf.ind.act": [
+        "pererraverimus",
+        "pererrarimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "pererraveritis",
+        "pererraritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "pererraverint",
+        "pererrarint"
+      ],
+      "1sg.perf.subj.act": [
+        "pererraverim",
+        "pererrarim"
+      ],
       "2sg.perf.subj.act": "pererraveris",
-      "3sg.perf.subj.act": "pererraverit",
-      "1pl.perf.subj.act": "pererraverimus",
-      "2pl.perf.subj.act": "pererraveritis",
-      "3pl.perf.subj.act": "pererraverint",
-      "1sg.plup.subj.act": "pererravissem",
-      "2sg.plup.subj.act": "pererravisses",
-      "3sg.plup.subj.act": "pererravisset",
-      "1pl.plup.subj.act": "pererravissemus",
-      "2pl.plup.subj.act": "pererravissetis",
-      "3pl.plup.subj.act": "pererravissent",
-      "inf.perf.act": "pererravisse",
+      "3sg.perf.subj.act": [
+        "pererraverit",
+        "pererrarit"
+      ],
+      "1pl.perf.subj.act": [
+        "pererraverimus",
+        "pererrarimus"
+      ],
+      "2pl.perf.subj.act": [
+        "pererraveritis",
+        "pererraritis"
+      ],
+      "3pl.perf.subj.act": [
+        "pererraverint",
+        "pererrarint"
+      ],
+      "1sg.plup.subj.act": [
+        "pererravissem",
+        "pererrassem"
+      ],
+      "2sg.plup.subj.act": [
+        "pererravisses",
+        "pererrasses"
+      ],
+      "3sg.plup.subj.act": [
+        "pererravisset",
+        "pererrasset"
+      ],
+      "1pl.plup.subj.act": [
+        "pererravissemus",
+        "pererrassemus"
+      ],
+      "2pl.plup.subj.act": [
+        "pererravissetis",
+        "pererrassetis"
+      ],
+      "3pl.plup.subj.act": [
+        "pererravissent",
+        "pererrassent"
+      ],
+      "inf.perf.act": [
+        "pererravisse",
+        "pererrasse"
+      ],
       "inf.pres.pass": "pererrari",
       "gerundive.nom.sg.masc": "pererrandus",
       "gerundive.nom.sg.fem": "pererranda",

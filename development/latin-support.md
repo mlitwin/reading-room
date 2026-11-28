@@ -181,6 +181,11 @@ The primary texts and the reference grammar are vendored TEI XML under
 - `glosses[]`, `notes`.
 - `paradigm` — `{ rows, cols, cells }`, where cell keys are dotted parse codes
   (`nom.sg`, `3sg.pres.ind.act`). `ppp_paradigm` adds a participle grid.
+  A cell holds one form or a list of variants, the regular form first; verb
+  cards carry the A&G §181 contracted perfects (*amāsse*, *audiit*, *nōrat*)
+  as variants, added by `site/latin/syncope.py` (`make latin-syncope`, also run
+  by `wiktionary_regen.py`). A text token highlights its cell only when its
+  spelling is one of the cell's forms.
 - The card is **word-general**: passage-specific commentary belongs in the
   page's Notes section, not the card.
 - Display/ordering fields, filled by `site/latin/annotate_cards.py`:
@@ -241,7 +246,19 @@ in-context form(s) get an `active-form` highlight, with fallbacks for
 Morpheus/paradigm code mismatches (noun gender suffixes, vocative→nominative).
 Cells stored under a non-finite / degree marker prefix (`pap.`, `fap.`,
 `gerundive.`, `ger.`, `comp.`, `superl.`) render as their own labelled
-sections via `renderMarkerGrids()`. The full layout rationale is in
+sections via `renderMarkerGrids()`.
+
+Verb cards group the forms into tabs under the definition, in A&G's fixed
+order, always labelled with the grammars' abbreviations so the row fits a
+phone: Ind · Subj · Imp (finite moods, active and passive side by side) · Inf
+(tense × voice) · Part (present and future active, perfect passive) · Ger ·
+Gdv. The full name is the tab's tooltip and accessible name, and heads its
+panel, linked to the grammar note. Only groups the card has forms for get a
+tab. The open tab is underlined; every tab whose panel holds the tapped form
+also wears the form highlight, so a form in two groups (*amāre*: infinitive
+and passive imperative) is marked in both. The card opens on the first such
+tab; the reader's choice is kept on the stack entry (`formTab`, in `#g=`).
+The full layout rationale is in
 [paradigm-grid-pattern.md](paradigm-grid-pattern.md).
 
 ## Parse codes and grammar links

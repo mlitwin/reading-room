@@ -104,40 +104,113 @@
       "2sg.pres.imp.act": "temera",
       "2pl.pres.imp.act": "temerate",
       "1sg.perf.ind.act": "temeravi",
-      "2sg.perf.ind.act": "temeravisti",
+      "2sg.perf.ind.act": [
+        "temeravisti",
+        "temerasti"
+      ],
       "3sg.perf.ind.act": "temeravit",
       "1pl.perf.ind.act": "temeravimus",
-      "2pl.perf.ind.act": "temeravistis",
+      "2pl.perf.ind.act": [
+        "temeravistis",
+        "temerastis"
+      ],
       "3pl.perf.ind.act": [
         "temeraverunt",
-        "temeravere"
+        "temeravere",
+        "temerarunt"
       ],
       "inf.pres.act": "temerare",
-      "1sg.plup.ind.act": "temeraveram",
-      "2sg.plup.ind.act": "temeraveras",
-      "3sg.plup.ind.act": "temeraverat",
-      "1pl.plup.ind.act": "temeraveramus",
-      "2pl.plup.ind.act": "temeraveratis",
-      "3pl.plup.ind.act": "temeraverant",
+      "1sg.plup.ind.act": [
+        "temeraveram",
+        "temeraram"
+      ],
+      "2sg.plup.ind.act": [
+        "temeraveras",
+        "temeraras"
+      ],
+      "3sg.plup.ind.act": [
+        "temeraverat",
+        "temerarat"
+      ],
+      "1pl.plup.ind.act": [
+        "temeraveramus",
+        "temeraramus"
+      ],
+      "2pl.plup.ind.act": [
+        "temeraveratis",
+        "temeraratis"
+      ],
+      "3pl.plup.ind.act": [
+        "temeraverant",
+        "temerarant"
+      ],
       "1sg.futperf.ind.act": "temeravero",
       "2sg.futperf.ind.act": "temeraveris",
-      "3sg.futperf.ind.act": "temeraverit",
-      "1pl.futperf.ind.act": "temeraverimus",
-      "2pl.futperf.ind.act": "temeraveritis",
-      "3pl.futperf.ind.act": "temeraverint",
-      "1sg.perf.subj.act": "temeraverim",
+      "3sg.futperf.ind.act": [
+        "temeraverit",
+        "temerarit"
+      ],
+      "1pl.futperf.ind.act": [
+        "temeraverimus",
+        "temerarimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "temeraveritis",
+        "temeraritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "temeraverint",
+        "temerarint"
+      ],
+      "1sg.perf.subj.act": [
+        "temeraverim",
+        "temerarim"
+      ],
       "2sg.perf.subj.act": "temeraveris",
-      "3sg.perf.subj.act": "temeraverit",
-      "1pl.perf.subj.act": "temeraverimus",
-      "2pl.perf.subj.act": "temeraveritis",
-      "3pl.perf.subj.act": "temeraverint",
-      "1sg.plup.subj.act": "temeravissem",
-      "2sg.plup.subj.act": "temeravisses",
-      "3sg.plup.subj.act": "temeravisset",
-      "1pl.plup.subj.act": "temeravissemus",
-      "2pl.plup.subj.act": "temeravissetis",
-      "3pl.plup.subj.act": "temeravissent",
-      "inf.perf.act": "temeravisse",
+      "3sg.perf.subj.act": [
+        "temeraverit",
+        "temerarit"
+      ],
+      "1pl.perf.subj.act": [
+        "temeraverimus",
+        "temerarimus"
+      ],
+      "2pl.perf.subj.act": [
+        "temeraveritis",
+        "temeraritis"
+      ],
+      "3pl.perf.subj.act": [
+        "temeraverint",
+        "temerarint"
+      ],
+      "1sg.plup.subj.act": [
+        "temeravissem",
+        "temerassem"
+      ],
+      "2sg.plup.subj.act": [
+        "temeravisses",
+        "temerasses"
+      ],
+      "3sg.plup.subj.act": [
+        "temeravisset",
+        "temerasset"
+      ],
+      "1pl.plup.subj.act": [
+        "temeravissemus",
+        "temerassemus"
+      ],
+      "2pl.plup.subj.act": [
+        "temeravissetis",
+        "temerassetis"
+      ],
+      "3pl.plup.subj.act": [
+        "temeravissent",
+        "temerassent"
+      ],
+      "inf.perf.act": [
+        "temeravisse",
+        "temerasse"
+      ],
       "inf.pres.pass": "temerari",
       "gerundive.nom.sg.masc": "temerandus",
       "gerundive.nom.sg.fem": "temeranda",

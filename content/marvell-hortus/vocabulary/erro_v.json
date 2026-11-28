@@ -105,40 +105,113 @@
       "2sg.pres.imp.act": "erra",
       "2pl.pres.imp.act": "errate",
       "1sg.perf.ind.act": "erravi",
-      "2sg.perf.ind.act": "erravisti",
+      "2sg.perf.ind.act": [
+        "erravisti",
+        "errasti"
+      ],
       "3sg.perf.ind.act": "erravit",
       "1pl.perf.ind.act": "erravimus",
-      "2pl.perf.ind.act": "erravistis",
+      "2pl.perf.ind.act": [
+        "erravistis",
+        "errastis"
+      ],
       "3pl.perf.ind.act": [
         "erraverunt",
-        "erravere"
+        "erravere",
+        "errarunt"
       ],
       "inf.pres.act": "errare",
-      "1sg.plup.ind.act": "erraveram",
-      "2sg.plup.ind.act": "erraveras",
-      "3sg.plup.ind.act": "erraverat",
-      "1pl.plup.ind.act": "erraveramus",
-      "2pl.plup.ind.act": "erraveratis",
-      "3pl.plup.ind.act": "erraverant",
+      "1sg.plup.ind.act": [
+        "erraveram",
+        "erraram"
+      ],
+      "2sg.plup.ind.act": [
+        "erraveras",
+        "erraras"
+      ],
+      "3sg.plup.ind.act": [
+        "erraverat",
+        "errarat"
+      ],
+      "1pl.plup.ind.act": [
+        "erraveramus",
+        "erraramus"
+      ],
+      "2pl.plup.ind.act": [
+        "erraveratis",
+        "erraratis"
+      ],
+      "3pl.plup.ind.act": [
+        "erraverant",
+        "errarant"
+      ],
       "1sg.futperf.ind.act": "erravero",
       "2sg.futperf.ind.act": "erraveris",
-      "3sg.futperf.ind.act": "erraverit",
-      "1pl.futperf.ind.act": "erraverimus",
-      "2pl.futperf.ind.act": "erraveritis",
-      "3pl.futperf.ind.act": "erraverint",
-      "1sg.perf.subj.act": "erraverim",
+      "3sg.futperf.ind.act": [
+        "erraverit",
+        "errarit"
+      ],
+      "1pl.futperf.ind.act": [
+        "erraverimus",
+        "errarimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "erraveritis",
+        "erraritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "erraverint",
+        "errarint"
+      ],
+      "1sg.perf.subj.act": [
+        "erraverim",
+        "errarim"
+      ],
       "2sg.perf.subj.act": "erraveris",
-      "3sg.perf.subj.act": "erraverit",
-      "1pl.perf.subj.act": "erraverimus",
-      "2pl.perf.subj.act": "erraveritis",
-      "3pl.perf.subj.act": "erraverint",
-      "1sg.plup.subj.act": "erravissem",
-      "2sg.plup.subj.act": "erravisses",
-      "3sg.plup.subj.act": "erravisset",
-      "1pl.plup.subj.act": "erravissemus",
-      "2pl.plup.subj.act": "erravissetis",
-      "3pl.plup.subj.act": "erravissent",
-      "inf.perf.act": "erravisse",
+      "3sg.perf.subj.act": [
+        "erraverit",
+        "errarit"
+      ],
+      "1pl.perf.subj.act": [
+        "erraverimus",
+        "errarimus"
+      ],
+      "2pl.perf.subj.act": [
+        "erraveritis",
+        "erraritis"
+      ],
+      "3pl.perf.subj.act": [
+        "erraverint",
+        "errarint"
+      ],
+      "1sg.plup.subj.act": [
+        "erravissem",
+        "errassem"
+      ],
+      "2sg.plup.subj.act": [
+        "erravisses",
+        "errasses"
+      ],
+      "3sg.plup.subj.act": [
+        "erravisset",
+        "errasset"
+      ],
+      "1pl.plup.subj.act": [
+        "erravissemus",
+        "errassemus"
+      ],
+      "2pl.plup.subj.act": [
+        "erravissetis",
+        "errassetis"
+      ],
+      "3pl.plup.subj.act": [
+        "erravissent",
+        "errassent"
+      ],
+      "inf.perf.act": [
+        "erravisse",
+        "errasse"
+      ],
       "inf.pres.pass": "errari",
       "gerundive.nom.sg.masc": "errandus",
       "gerundive.nom.sg.fem": "erranda",

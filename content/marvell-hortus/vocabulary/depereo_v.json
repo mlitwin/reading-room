@@ -104,41 +104,142 @@
       "3pl.imperf.subj.act": "deperirent",
       "2sg.pres.imp.act": "deperi",
       "2pl.pres.imp.act": "deperite",
-      "1sg.perf.ind.act": "deperivi",
-      "2sg.perf.ind.act": "deperivisti",
-      "3sg.perf.ind.act": "deperivit",
-      "1pl.perf.ind.act": "deperivimus",
-      "2pl.perf.ind.act": "deperivistis",
+      "1sg.perf.ind.act": [
+        "deperivi",
+        "deperii"
+      ],
+      "2sg.perf.ind.act": [
+        "deperivisti",
+        "deperiisti",
+        "deperisti"
+      ],
+      "3sg.perf.ind.act": [
+        "deperivit",
+        "deperiit"
+      ],
+      "1pl.perf.ind.act": [
+        "deperivimus",
+        "deperiimus"
+      ],
+      "2pl.perf.ind.act": [
+        "deperivistis",
+        "deperiistis",
+        "deperistis"
+      ],
       "3pl.perf.ind.act": [
         "deperiverunt",
-        "deperivere"
+        "deperivere",
+        "deperierunt",
+        "deperiere"
       ],
       "inf.pres.act": "deperire",
-      "1sg.plup.ind.act": "deperiveram",
-      "2sg.plup.ind.act": "deperiveras",
-      "3sg.plup.ind.act": "deperiverat",
-      "1pl.plup.ind.act": "deperiveramus",
-      "2pl.plup.ind.act": "deperiveratis",
-      "3pl.plup.ind.act": "deperiverant",
-      "1sg.futperf.ind.act": "deperivero",
-      "2sg.futperf.ind.act": "deperiveris",
-      "3sg.futperf.ind.act": "deperiverit",
-      "1pl.futperf.ind.act": "deperiverimus",
-      "2pl.futperf.ind.act": "deperiveritis",
-      "3pl.futperf.ind.act": "deperiverint",
-      "1sg.perf.subj.act": "deperiverim",
-      "2sg.perf.subj.act": "deperiveris",
-      "3sg.perf.subj.act": "deperiverit",
-      "1pl.perf.subj.act": "deperiverimus",
-      "2pl.perf.subj.act": "deperiveritis",
-      "3pl.perf.subj.act": "deperiverint",
-      "1sg.plup.subj.act": "deperivissem",
-      "2sg.plup.subj.act": "deperivisses",
-      "3sg.plup.subj.act": "deperivisset",
-      "1pl.plup.subj.act": "deperivissemus",
-      "2pl.plup.subj.act": "deperivissetis",
-      "3pl.plup.subj.act": "deperivissent",
-      "inf.perf.act": "deperivisse",
+      "1sg.plup.ind.act": [
+        "deperiveram",
+        "deperieram"
+      ],
+      "2sg.plup.ind.act": [
+        "deperiveras",
+        "deperieras"
+      ],
+      "3sg.plup.ind.act": [
+        "deperiverat",
+        "deperierat"
+      ],
+      "1pl.plup.ind.act": [
+        "deperiveramus",
+        "deperieramus"
+      ],
+      "2pl.plup.ind.act": [
+        "deperiveratis",
+        "deperieratis"
+      ],
+      "3pl.plup.ind.act": [
+        "deperiverant",
+        "deperierant"
+      ],
+      "1sg.futperf.ind.act": [
+        "deperivero",
+        "deperiero"
+      ],
+      "2sg.futperf.ind.act": [
+        "deperiveris",
+        "deperieris"
+      ],
+      "3sg.futperf.ind.act": [
+        "deperiverit",
+        "deperierit"
+      ],
+      "1pl.futperf.ind.act": [
+        "deperiverimus",
+        "deperierimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "deperiveritis",
+        "deperieritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "deperiverint",
+        "deperierint"
+      ],
+      "1sg.perf.subj.act": [
+        "deperiverim",
+        "deperierim"
+      ],
+      "2sg.perf.subj.act": [
+        "deperiveris",
+        "deperieris"
+      ],
+      "3sg.perf.subj.act": [
+        "deperiverit",
+        "deperierit"
+      ],
+      "1pl.perf.subj.act": [
+        "deperiverimus",
+        "deperierimus"
+      ],
+      "2pl.perf.subj.act": [
+        "deperiveritis",
+        "deperieritis"
+      ],
+      "3pl.perf.subj.act": [
+        "deperiverint",
+        "deperierint"
+      ],
+      "1sg.plup.subj.act": [
+        "deperivissem",
+        "deperiissem",
+        "deperissem"
+      ],
+      "2sg.plup.subj.act": [
+        "deperivisses",
+        "deperiisses",
+        "deperisses"
+      ],
+      "3sg.plup.subj.act": [
+        "deperivisset",
+        "deperiisset",
+        "deperisset"
+      ],
+      "1pl.plup.subj.act": [
+        "deperivissemus",
+        "deperiissemus",
+        "deperissemus"
+      ],
+      "2pl.plup.subj.act": [
+        "deperivissetis",
+        "deperiissetis",
+        "deperissetis"
+      ],
+      "3pl.plup.subj.act": [
+        "deperivissent",
+        "deperiissent",
+        "deperissent"
+      ],
+      "inf.perf.act": [
+        "deperivisse",
+        "deperiisse",
+        "deperisse"
+      ],
       "inf.pres.pass": "deperiri",
       "gerundive.nom.sg.masc": "depereundus",
       "gerundive.nom.sg.fem": "depereunda",

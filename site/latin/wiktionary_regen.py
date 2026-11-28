@@ -8,6 +8,8 @@ glosses, notes, gender. Replaced: paradigm, ppp_paradigm, head, principal_parts.
 alt_forms keeps only forms Wiktionary gives this lemma (generation contaminated
 some with a homograph's forms) and that the new cells don't already hold.
 
+Verb cards get the A&G §181 contracted perfects (syncope.py) as variants.
+
 Card orthography: macrons are stripped (cards are unmarked); Wiktionary's i/v
 spelling is kept. Cells use only parse atoms grammar.json defines (no supine).
 
@@ -30,6 +32,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import audit_wiktionary as audit  # noqa: E402
+from syncope import syncopate_card  # noqa: E402
 from wiktionary_extract import strip_marks  # noqa: E402
 
 ROOT = HERE.parents[1]
@@ -230,6 +233,7 @@ def regen(card, glosses=False, etym=None):
         card["head"] = strip_marks(entry["word"])
     elif card["pos"] == "verb":
         verb_card(card, entry, cells)
+        syncopate_card(card)  # A&G §181 contractions (amāsse, audiit)
     else:
         nominal_card(card, entry, cells)
     if glosses and entry.get("glosses"):
