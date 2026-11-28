@@ -112,10 +112,15 @@ The stack is the trail of steps taken from the text.
 
 - **Breadcrumb** — the page (tap to close), then every step to the current
   entry: *Proem › In › Preposition › §219 · Prepositions*. Tapping a crumb
-  jumps back to that step. Long trails collapse their middle to "…" (sooner
-  under 600px).
+  jumps back to that step. Long trails collapse their middle to "…"; under
+  600px, where the crumbs share the row with ‹ › and ×, only the last two
+  items show.
 - **Prev / Next** — step back and forward along the trail.
-- **Home (⌂)** — jump back to the origin entry.
+
+The header is one row: ‹ › on the left (where a browser keeps Back/Forward),
+the breadcrumb filling the middle, Close on the right — so the arrows and
+Close are never adjacent. There is no Home button: the breadcrumb's first step
+after the page is the origin.
 
 Following a link from an earlier step drops the old forward steps; you descend by following a link. Each stack step
 remembers its scroll offset (saved on leave, restored before paint).

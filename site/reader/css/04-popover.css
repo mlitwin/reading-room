@@ -112,47 +112,51 @@
 }
 #popover-host::backdrop { background: rgba(0, 0, 0, 0.25); }
 
-/* Two-line header: control row (Home · Prev/Next/Close) on top, the
-   breadcrumb on its own line below so it has the full width. The breadcrumb
-   (filled by cards.js) scrolls sideways if it must; cards.js already collapses
-   its middle on narrow screens. */
+/* One-row header: ‹ › on the left (where a browser keeps Back/Forward), the
+   breadcrumb filling the middle, Close on the right — the arrows and Close
+   are never adjacent, so stepping can't be mistaken for dismissing. The
+   breadcrumb (filled by cards.js) shrinks and scrolls sideways if it must;
+   cards.js already collapses its middle on narrow screens. */
 .popover-chrome {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  padding: 0.4rem 0.6rem;
-  border-bottom: 1px solid var(--rule);
-  background: rgba(0, 0, 0, 0.02);
-}
-.popover-chrome-top {
   display: flex;
   align-items: center;
   gap: 0.25rem;
+  padding: 0.35rem 0.5rem 0.35rem 0.35rem;
+  border-bottom: 1px solid var(--rule);
+  background: rgba(0, 0, 0, 0.02);
 }
-.popover-chrome-spacer { flex: 1; min-width: 0.5rem; }
+/* Arrows: full-height touch targets (44px tall), muted until they can act. */
 .popover-prev, .popover-next {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  min-height: 2.75rem;
   background: none;
   border: 0;
   cursor: pointer;
   font: inherit;
+  font-size: 1.3rem;
   color: var(--muted);
-  padding: 0.2rem 0.55rem;
-  border-radius: 4px;
+  padding: 0;
+  border-radius: 6px;
   line-height: 1;
 }
-.popover-prev, .popover-next { font-size: 1.2rem; }
+.popover-next { margin-right: 0.25rem; }
 
 /* Close gets a real button affordance: a bordered, filled control with a
    comfortable touch target (≥ 44px) so it reads as the way out and isn't
    mistaken for the muted nav arrows — which led readers to reach for the
    native back button instead, exiting the whole book. */
 .popover-close {
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   min-width: 2.75rem;
   min-height: 2.75rem;
-  margin-left: 0.15rem;
+  margin-left: auto;
   background: var(--rule);
   border: 1px solid var(--rule);
   border-radius: 8px;
@@ -177,27 +181,8 @@
   cursor: default;
 }
 
-/* Context-aware chrome: Home, and a breadcrumb of the contexts walked
-   through (the page › a word › grammar › a section), with Prev/Next scoped to
-   the current context. See Plans/latin-text-centered-reader-plan.md (D3). */
-.popover-home {
-  background: none;
-  border: 0;
-  cursor: pointer;
-  font: inherit;
-  font-size: 1.1rem;
-  color: var(--muted);
-  padding: 0.2rem 0.45rem;
-  border-radius: 4px;
-  line-height: 1;
-}
-.popover-home:hover {
-  background: rgba(0, 0, 0, 0.06);
-  color: var(--fg);
-}
-.popover-home[hidden] { display: none; }
-
 .popover-crumbs {
+  flex: 1;
   min-width: 0;
   display: flex;
   align-items: center;
