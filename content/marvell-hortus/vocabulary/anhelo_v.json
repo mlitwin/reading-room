@@ -105,40 +105,113 @@
       "2sg.pres.imp.act": "anhela",
       "2pl.pres.imp.act": "anhelate",
       "1sg.perf.ind.act": "anhelavi",
-      "2sg.perf.ind.act": "anhelavisti",
+      "2sg.perf.ind.act": [
+        "anhelavisti",
+        "anhelasti"
+      ],
       "3sg.perf.ind.act": "anhelavit",
       "1pl.perf.ind.act": "anhelavimus",
-      "2pl.perf.ind.act": "anhelavistis",
+      "2pl.perf.ind.act": [
+        "anhelavistis",
+        "anhelastis"
+      ],
       "3pl.perf.ind.act": [
         "anhelaverunt",
-        "anhelavere"
+        "anhelavere",
+        "anhelarunt"
       ],
       "inf.pres.act": "anhelare",
-      "1sg.plup.ind.act": "anhelaveram",
-      "2sg.plup.ind.act": "anhelaveras",
-      "3sg.plup.ind.act": "anhelaverat",
-      "1pl.plup.ind.act": "anhelaveramus",
-      "2pl.plup.ind.act": "anhelaveratis",
-      "3pl.plup.ind.act": "anhelaverant",
+      "1sg.plup.ind.act": [
+        "anhelaveram",
+        "anhelaram"
+      ],
+      "2sg.plup.ind.act": [
+        "anhelaveras",
+        "anhelaras"
+      ],
+      "3sg.plup.ind.act": [
+        "anhelaverat",
+        "anhelarat"
+      ],
+      "1pl.plup.ind.act": [
+        "anhelaveramus",
+        "anhelaramus"
+      ],
+      "2pl.plup.ind.act": [
+        "anhelaveratis",
+        "anhelaratis"
+      ],
+      "3pl.plup.ind.act": [
+        "anhelaverant",
+        "anhelarant"
+      ],
       "1sg.futperf.ind.act": "anhelavero",
       "2sg.futperf.ind.act": "anhelaveris",
-      "3sg.futperf.ind.act": "anhelaverit",
-      "1pl.futperf.ind.act": "anhelaverimus",
-      "2pl.futperf.ind.act": "anhelaveritis",
-      "3pl.futperf.ind.act": "anhelaverint",
-      "1sg.perf.subj.act": "anhelaverim",
+      "3sg.futperf.ind.act": [
+        "anhelaverit",
+        "anhelarit"
+      ],
+      "1pl.futperf.ind.act": [
+        "anhelaverimus",
+        "anhelarimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "anhelaveritis",
+        "anhelaritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "anhelaverint",
+        "anhelarint"
+      ],
+      "1sg.perf.subj.act": [
+        "anhelaverim",
+        "anhelarim"
+      ],
       "2sg.perf.subj.act": "anhelaveris",
-      "3sg.perf.subj.act": "anhelaverit",
-      "1pl.perf.subj.act": "anhelaverimus",
-      "2pl.perf.subj.act": "anhelaveritis",
-      "3pl.perf.subj.act": "anhelaverint",
-      "1sg.plup.subj.act": "anhelavissem",
-      "2sg.plup.subj.act": "anhelavisses",
-      "3sg.plup.subj.act": "anhelavisset",
-      "1pl.plup.subj.act": "anhelavissemus",
-      "2pl.plup.subj.act": "anhelavissetis",
-      "3pl.plup.subj.act": "anhelavissent",
-      "inf.perf.act": "anhelavisse",
+      "3sg.perf.subj.act": [
+        "anhelaverit",
+        "anhelarit"
+      ],
+      "1pl.perf.subj.act": [
+        "anhelaverimus",
+        "anhelarimus"
+      ],
+      "2pl.perf.subj.act": [
+        "anhelaveritis",
+        "anhelaritis"
+      ],
+      "3pl.perf.subj.act": [
+        "anhelaverint",
+        "anhelarint"
+      ],
+      "1sg.plup.subj.act": [
+        "anhelavissem",
+        "anhelassem"
+      ],
+      "2sg.plup.subj.act": [
+        "anhelavisses",
+        "anhelasses"
+      ],
+      "3sg.plup.subj.act": [
+        "anhelavisset",
+        "anhelasset"
+      ],
+      "1pl.plup.subj.act": [
+        "anhelavissemus",
+        "anhelassemus"
+      ],
+      "2pl.plup.subj.act": [
+        "anhelavissetis",
+        "anhelassetis"
+      ],
+      "3pl.plup.subj.act": [
+        "anhelavissent",
+        "anhelassent"
+      ],
+      "inf.perf.act": [
+        "anhelavisse",
+        "anhelasse"
+      ],
       "inf.pres.pass": "anhelari",
       "gerundive.nom.sg.masc": "anhelandus",
       "gerundive.nom.sg.fem": "anhelanda",

@@ -7,7 +7,7 @@
 //
 // Stack model: one per open-cycle, cleared on light-dismiss.
 //   Card entry: { type:'card', lemma, label, matches, stanzaLemma,
-//                 selectedLemma, selectedBy, activeLemma }
+//                 selectedLemma, selectedBy, activeLemma, formTab }
 //   Note entry: { type:'note', sourceId, label }   (editorial, grammar, guide)
 //   Ref entry:  { type:'ref', id, label }          (a Reference Grammar section)
 //   Toc entry:  { type:'toc', id, label }          (its contents: '' or a chapter id)
@@ -333,10 +333,10 @@
   var MARKER_ROW_ORDER = ['nom', 'voc', 'gen', 'dat', 'acc', 'abl', 'loc'];
   var MARKER_COL_ORDER = ['sg.masc', 'sg.fem', 'sg.neut', 'pl.masc', 'pl.fem', 'pl.neut', 'sg', 'pl'];
 
-  function renderMarkerGrids(p) {
+  function renderMarkerGrids(p, markers) {
     if (!p || !p.cells) return '';
     var out = '';
-    MARKER_GRIDS.forEach(function (marker) {
+    (markers || MARKER_GRIDS).forEach(function (marker) {
       var prefix = marker + '.';
       var colsSeen = Object.create(null);
       var any = false;
@@ -362,9 +362,108 @@
     return out;
   }
 
+  // Verb cards: one tab per group of forms, in A&G's order (§§ 154–158) — the
+  // finite moods, then the verb's noun and adjective forms. Only groups the
+  // card has forms for get a tab. Tabs always show the grammars' abbreviation
+  // (one row on a phone); the full name is the tab's tooltip / accessible name
+  // and heads its panel, linked to the grammar note. applyFormTabs() opens the
+  // tab holding the tapped form and marks every tab that holds it.
+  var VERB_FORM_TABS = [
+    { id: 'ind', abbr: 'Ind', full: 'Indicative', note: 'ind' },
+    { id: 'subj', abbr: 'Subj', full: 'Subjunctive', note: 'subj' },
+    { id: 'imp', abbr: 'Imp', full: 'Imperative', note: 'imp' },
+    { id: 'inf', abbr: 'Inf', full: 'Infinitive', note: 'inf' },
+    { id: 'part', abbr: 'Part', full: 'Participles' },
+    { id: 'ger', abbr: 'Ger', full: 'Gerund' },
+    { id: 'gdv', abbr: 'Gdv', full: 'Gerundive' },
+  ];
+  var PERSON_ROW = /^[123](?:sg|pl)$/;
+  var INF_ROWS = ['pres', 'perf', 'fut'];
+  var INF_COLS = ['act', 'pass'];
+
+  function paradigmBlock(sections, extraClass) {
+    return sections ? '<div class="card-paradigms' + (extraClass ? ' ' + extraClass : '') + '">' + sections + '</div>' : '';
+  }
+
+  // Finite forms of one mood: the card's tense.mood.voice columns for it,
+  // active and passive as separate labelled grids.
+  function renderMoodPanel(p, mood) {
+    var cols = p.cols.filter(function (c) { return c.split('.')[1] === mood; });
+    if (!cols.length) return '';
+    var pseudo = { rows: p.rows.filter(function (r) { return PERSON_ROW.test(r); }), cols: cols, cells: p.cells };
+    // Column heads name the tense only: the tab already names the mood.
+    var groups = splitColumnsByGroup(cols, 'verb').map(function (g) {
+      return Object.assign({}, g, { subCols: g.subCols.map(function (sc) {
+        return { orig: sc.orig, sub: sc.sub.split('.').filter(function (a) { return a !== mood; }).join('.') };
+      }) });
+    });
+    var solo = groups.length === 1;
+    return paradigmBlock(groups.map(function (g) { return renderSection(pseudo, g, 'verb', solo); }).join('\n'));
+  }
+
+  // Infinitives (inf.tense.voice): tenses down, voices across.
+  function renderInfinitivePanel(p) {
+    var has = function (r, c) { return p.cells['inf.' + r + '.' + c] != null; };
+    var rows = INF_ROWS.filter(function (r) { return INF_COLS.some(function (c) { return has(r, c); }); });
+    if (!rows.length) return '';
+    var cols = INF_COLS.filter(function (c) { return rows.some(function (r) { return has(r, c); }); });
+    var group = { groupKey: null, category: null, subCols: cols.map(function (c) { return { orig: c, sub: c }; }) };
+    return paradigmBlock(renderSection({ rows: rows, cols: cols, cells: p.cells }, group, 'verb', true, 'inf.'));
+  }
+
+  function renderPppGrid(card) {
+    var ppp = card.ppp_paradigm;
+    if (!(ppp && ppp.rows && ppp.cols && ppp.cells)) return '';
+    var m = PARSE_TOKEN_MAP.ppp;
+    var label = '<p class="card-ppp-label">' + (m && m.note ? noteBtn(m.note, m.label) : escHtml(ppp.label || 'ppp')) + '</p>';
+    var groups = splitColumnsByGroup(ppp.cols, 'ppp');
+    return paradigmBlock(label + groups.map(function (g) { return renderSection(ppp, g, 'ppp', false); }).join('\n'), 'card-ppp-paradigms');
+  }
+
+  // The panel's full-name heading. The gerund and gerundive grids carry their
+  // own (linked) label already.
+  function formPanelTitle(t) {
+    if (t.id === 'ger' || t.id === 'gdv') return '';
+    var m = t.note && PARSE_TOKEN_MAP[t.note];
+    return '<p class="card-ppp-label form-panel-title">'
+      + (m && m.note ? noteBtn(m.note, t.full) : escHtml(t.full)) + '</p>';
+  }
+
+  function renderVerbPanels(card) {
+    var p = card.paradigm;
+    return VERB_FORM_TABS.map(function (t) {
+      var html = t.id === 'inf' ? renderInfinitivePanel(p)
+        : t.id === 'part' ? renderMarkerGrids(p, ['pap', 'fap']) + renderPppGrid(card)
+        : t.id === 'ger' ? renderMarkerGrids(p, ['ger'])
+        : t.id === 'gdv' ? renderMarkerGrids(p, ['gerundive'])
+        : renderMoodPanel(p, t.id);
+      return { tab: t, html: html && formPanelTitle(t) + html };
+    }).filter(function (x) { return x.html; });
+  }
+
+  function renderVerbParadigm(card) {
+    var panels = renderVerbPanels(card);
+    if (!panels.length) return '';
+    if (panels.length === 1) return panels[0].html;
+    var tabs = panels.map(function (x, i) {
+      return '<button class="form-tab" type="button" role="tab" id="form-tab-' + x.tab.id + '"' +
+        ' aria-controls="form-panel-' + x.tab.id + '" aria-selected="' + (i === 0) + '"' +
+        ' tabindex="' + (i === 0 ? '0' : '-1') + '" data-form-tab="' + x.tab.id + '"' +
+        ' title="' + escAttr(x.tab.full) + '" aria-label="' + escAttr(x.tab.full) + '" data-full="' + escAttr(x.tab.full) + '">' +
+        '<span class="form-tab-label">' + escHtml(x.tab.abbr) + '</span></button>';
+    }).join('');
+    var bodies = panels.map(function (x, i) {
+      return '<div class="form-panel" role="tabpanel" id="form-panel-' + x.tab.id + '"' +
+        ' aria-labelledby="form-tab-' + x.tab.id + '" data-form-panel="' + x.tab.id + '"' +
+        (i === 0 ? '' : ' hidden') + '>' + x.html + '</div>';
+    }).join('');
+    return '<div class="form-tabs" role="tablist" aria-label="Forms of the verb">' + tabs + '</div>' + bodies;
+  }
+
   function renderParadigm(card) {
     var out = '';
     var p = card.paradigm;
+    if (p && p.rows && p.cols && p.cells && (p.type || card.pos) === 'verb') return renderVerbParadigm(card);
     if (p && p.rows && p.cols && p.cells) {
       var type = p.type || card.pos || '';
       var groups = splitColumnsByGroup(p.cols, type);
@@ -695,7 +794,7 @@
     var ordered = orderReadings(available, defaultLemma, lex);
     body.innerHTML = renderTabBar(ordered, activeLemma, defaultLemma, lex) +
       '<div class="card-content">' + renderCardInnerHtml(activeLemma, lex[activeLemma], available, lex) + '</div>';
-    applyCardState(body.querySelector('.card-content'), activeLemma, available, defaultLemma, entry.surface || '');
+    applyCardState(body.querySelector('.card-content'), activeLemma, available, defaultLemma, entry.surface || '', entry.formTab);
   }
 
   // Returns the innerHTML of the content area for one lemma.
@@ -725,6 +824,7 @@
     var curEntry = stackPos >= 0 ? stack[stackPos] : null;
     if (!host || !curEntry || curEntry.type !== 'card' || !lexiconCache || !lexiconCache[newLemma]) return;
     curEntry.activeLemma = newLemma;   // persist for back/forward navigation
+    curEntry.formTab = '';             // a new reading opens on its own form
     var tabs = Array.prototype.slice.call(host.querySelectorAll('.card-tab'));
     tabs.forEach(function (t) {
       var on = t.getAttribute('data-tab-lemma') === newLemma;
@@ -758,6 +858,29 @@
       : (i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
     e.preventDefault();
     switchReading(tabs[j].getAttribute('data-tab-lemma'), false);
+  });
+
+  // The reader's form-tab choice is kept on the card entry, so back/forward
+  // and a restored #g= URL reopen it.
+  function chooseFormTab(tab, focus) {
+    var scope = tab.closest('.card-content');
+    if (!scope) return;
+    var id = tab.getAttribute('data-form-tab');
+    selectFormTab(scope, id, focus);
+    var curEntry = stackPos >= 0 ? stack[stackPos] : null;
+    if (curEntry && curEntry.type === 'card') curEntry.formTab = id;
+  }
+
+  // Arrow keys move between form tabs (roving tabindex).
+  document.addEventListener('keydown', function (e) {
+    var tab = e.target.closest && e.target.closest('#popover-host .form-tab');
+    if (!tab || (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight' && e.key !== 'Home' && e.key !== 'End')) return;
+    var tabs = Array.prototype.slice.call(tab.parentNode.querySelectorAll('.form-tab'));
+    var i = tabs.indexOf(tab);
+    var j = e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1
+      : (i + (e.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
+    e.preventDefault();
+    chooseFormTab(tabs[j], true);
   });
 
   // Test hook: pure tab logic, exercised by site/generator/__tests__.
@@ -940,7 +1063,41 @@
 
   // ── card-state application (highlight paradigm cells + render chips + stanza)
   // surface: the actual Latin token text (e.g. "mutatas"), shown in the parse slot.
-  function applyCardState(scope, lemma, matches, stanzaLemma, surface) {
+  // Verb form tabs: mark every tab whose panel holds the tapped form (a form
+  // can sit in more than one: amāre is the present infinitive and the
+  // passive imperative), then open the reader's last choice for this card,
+  // else the first tab holding the form, else the first tab.
+  function applyFormTabs(scope, formTab) {
+    var tabs = Array.prototype.slice.call(scope.querySelectorAll('.form-tab'));
+    if (!tabs.length) return;
+    var holding = [];
+    tabs.forEach(function (t) {
+      var id = t.getAttribute('data-form-tab');
+      var panel = scope.querySelector('[data-form-panel="' + id + '"]');
+      var has = !!(panel && panel.querySelector('.active-form'));
+      t.classList.toggle('has-form', has);
+      var label = t.getAttribute('data-full');
+      t.setAttribute('aria-label', has ? label + ', has the tapped form' : label);
+      if (has) holding.push(id);
+    });
+    var ids = tabs.map(function (t) { return t.getAttribute('data-form-tab'); });
+    selectFormTab(scope, ids.indexOf(formTab) !== -1 ? formTab : (holding[0] || ids[0]));
+  }
+
+  function selectFormTab(scope, id, focus) {
+    scope.querySelectorAll('.form-tab').forEach(function (t) {
+      var on = t.getAttribute('data-form-tab') === id;
+      t.classList.toggle('active', on);
+      t.setAttribute('aria-selected', String(on));
+      t.setAttribute('tabindex', on ? '0' : '-1');
+      if (on && focus) t.focus();
+    });
+    scope.querySelectorAll('[data-form-panel]').forEach(function (p) {
+      p.hidden = p.getAttribute('data-form-panel') !== id;
+    });
+  }
+
+  function applyCardState(scope, lemma, matches, stanzaLemma, surface, formTab) {
     var thisMatch = matches.filter(function (m) { return m.lemma === lemma; })[0];
     var thisParses = thisMatch ? thisMatch.parses : [];
     scope.querySelectorAll('.paradigm-cell.active-form').forEach(function (el) {
@@ -967,6 +1124,7 @@
       }
       if (cell) cell.classList.add('active-form');
     });
+    applyFormTabs(scope, formTab);
     var pron = scope.querySelector('.card-pron');
     if (pron) {
       var forms = surface ? pronForms(lexiconCache && lexiconCache[lemma], surface, thisParses) : [];
@@ -1258,7 +1416,7 @@
         scrollTop: e.scrollTop || 0,
         lemma: e.lemma, matches: e.matches, stanzaLemma: e.stanzaLemma,
         selectedLemma: e.selectedLemma, selectedBy: e.selectedBy,
-        surface: e.surface, activeLemma: e.activeLemma,
+        surface: e.surface, activeLemma: e.activeLemma, formTab: e.formTab,
         id: e.id, sourceId: e.sourceId,
       };
     });
@@ -1417,6 +1575,14 @@
         newLemma = tabs[next].getAttribute('data-tab-lemma');
       }
       switchReading(newLemma, !!stepBtn);
+      return;
+    }
+
+    // Verb form tabs (Indicative, Subjunctive, …): switch the panel in place.
+    var formTabBtn = e.target.closest('#popover-host .form-tab');
+    if (formTabBtn) {
+      e.preventDefault();
+      chooseFormTab(formTabBtn, false);
       return;
     }
 

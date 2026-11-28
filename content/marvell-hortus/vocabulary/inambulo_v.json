@@ -104,40 +104,113 @@
       "2sg.pres.imp.act": "inambula",
       "2pl.pres.imp.act": "inambulate",
       "1sg.perf.ind.act": "inambulavi",
-      "2sg.perf.ind.act": "inambulavisti",
+      "2sg.perf.ind.act": [
+        "inambulavisti",
+        "inambulasti"
+      ],
       "3sg.perf.ind.act": "inambulavit",
       "1pl.perf.ind.act": "inambulavimus",
-      "2pl.perf.ind.act": "inambulavistis",
+      "2pl.perf.ind.act": [
+        "inambulavistis",
+        "inambulastis"
+      ],
       "3pl.perf.ind.act": [
         "inambulaverunt",
-        "inambulavere"
+        "inambulavere",
+        "inambularunt"
       ],
       "inf.pres.act": "inambulare",
-      "1sg.plup.ind.act": "inambulaveram",
-      "2sg.plup.ind.act": "inambulaveras",
-      "3sg.plup.ind.act": "inambulaverat",
-      "1pl.plup.ind.act": "inambulaveramus",
-      "2pl.plup.ind.act": "inambulaveratis",
-      "3pl.plup.ind.act": "inambulaverant",
+      "1sg.plup.ind.act": [
+        "inambulaveram",
+        "inambularam"
+      ],
+      "2sg.plup.ind.act": [
+        "inambulaveras",
+        "inambularas"
+      ],
+      "3sg.plup.ind.act": [
+        "inambulaverat",
+        "inambularat"
+      ],
+      "1pl.plup.ind.act": [
+        "inambulaveramus",
+        "inambularamus"
+      ],
+      "2pl.plup.ind.act": [
+        "inambulaveratis",
+        "inambularatis"
+      ],
+      "3pl.plup.ind.act": [
+        "inambulaverant",
+        "inambularant"
+      ],
       "1sg.futperf.ind.act": "inambulavero",
       "2sg.futperf.ind.act": "inambulaveris",
-      "3sg.futperf.ind.act": "inambulaverit",
-      "1pl.futperf.ind.act": "inambulaverimus",
-      "2pl.futperf.ind.act": "inambulaveritis",
-      "3pl.futperf.ind.act": "inambulaverint",
-      "1sg.perf.subj.act": "inambulaverim",
+      "3sg.futperf.ind.act": [
+        "inambulaverit",
+        "inambularit"
+      ],
+      "1pl.futperf.ind.act": [
+        "inambulaverimus",
+        "inambularimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "inambulaveritis",
+        "inambularitis"
+      ],
+      "3pl.futperf.ind.act": [
+        "inambulaverint",
+        "inambularint"
+      ],
+      "1sg.perf.subj.act": [
+        "inambulaverim",
+        "inambularim"
+      ],
       "2sg.perf.subj.act": "inambulaveris",
-      "3sg.perf.subj.act": "inambulaverit",
-      "1pl.perf.subj.act": "inambulaverimus",
-      "2pl.perf.subj.act": "inambulaveritis",
-      "3pl.perf.subj.act": "inambulaverint",
-      "1sg.plup.subj.act": "inambulavissem",
-      "2sg.plup.subj.act": "inambulavisses",
-      "3sg.plup.subj.act": "inambulavisset",
-      "1pl.plup.subj.act": "inambulavissemus",
-      "2pl.plup.subj.act": "inambulavissetis",
-      "3pl.plup.subj.act": "inambulavissent",
-      "inf.perf.act": "inambulavisse",
+      "3sg.perf.subj.act": [
+        "inambulaverit",
+        "inambularit"
+      ],
+      "1pl.perf.subj.act": [
+        "inambulaverimus",
+        "inambularimus"
+      ],
+      "2pl.perf.subj.act": [
+        "inambulaveritis",
+        "inambularitis"
+      ],
+      "3pl.perf.subj.act": [
+        "inambulaverint",
+        "inambularint"
+      ],
+      "1sg.plup.subj.act": [
+        "inambulavissem",
+        "inambulassem"
+      ],
+      "2sg.plup.subj.act": [
+        "inambulavisses",
+        "inambulasses"
+      ],
+      "3sg.plup.subj.act": [
+        "inambulavisset",
+        "inambulasset"
+      ],
+      "1pl.plup.subj.act": [
+        "inambulavissemus",
+        "inambulassemus"
+      ],
+      "2pl.plup.subj.act": [
+        "inambulavissetis",
+        "inambulassetis"
+      ],
+      "3pl.plup.subj.act": [
+        "inambulavissent",
+        "inambulassent"
+      ],
+      "inf.perf.act": [
+        "inambulavisse",
+        "inambulasse"
+      ],
       "inf.pres.pass": "inambulari",
       "gerundive.nom.sg.masc": "inambulandus",
       "gerundive.nom.sg.fem": "inambulanda",

@@ -104,40 +104,113 @@
       "2sg.pres.imp.act": "orna",
       "2pl.pres.imp.act": "ornate",
       "1sg.perf.ind.act": "ornavi",
-      "2sg.perf.ind.act": "ornavisti",
+      "2sg.perf.ind.act": [
+        "ornavisti",
+        "ornasti"
+      ],
       "3sg.perf.ind.act": "ornavit",
       "1pl.perf.ind.act": "ornavimus",
-      "2pl.perf.ind.act": "ornavistis",
+      "2pl.perf.ind.act": [
+        "ornavistis",
+        "ornastis"
+      ],
       "3pl.perf.ind.act": [
         "ornaverunt",
-        "ornavere"
+        "ornavere",
+        "ornarunt"
       ],
       "inf.pres.act": "ornare",
-      "1sg.plup.ind.act": "ornaveram",
-      "2sg.plup.ind.act": "ornaveras",
-      "3sg.plup.ind.act": "ornaverat",
-      "1pl.plup.ind.act": "ornaveramus",
-      "2pl.plup.ind.act": "ornaveratis",
-      "3pl.plup.ind.act": "ornaverant",
+      "1sg.plup.ind.act": [
+        "ornaveram",
+        "ornaram"
+      ],
+      "2sg.plup.ind.act": [
+        "ornaveras",
+        "ornaras"
+      ],
+      "3sg.plup.ind.act": [
+        "ornaverat",
+        "ornarat"
+      ],
+      "1pl.plup.ind.act": [
+        "ornaveramus",
+        "ornaramus"
+      ],
+      "2pl.plup.ind.act": [
+        "ornaveratis",
+        "ornaratis"
+      ],
+      "3pl.plup.ind.act": [
+        "ornaverant",
+        "ornarant"
+      ],
       "1sg.futperf.ind.act": "ornavero",
       "2sg.futperf.ind.act": "ornaveris",
-      "3sg.futperf.ind.act": "ornaverit",
-      "1pl.futperf.ind.act": "ornaverimus",
-      "2pl.futperf.ind.act": "ornaveritis",
-      "3pl.futperf.ind.act": "ornaverint",
-      "1sg.perf.subj.act": "ornaverim",
+      "3sg.futperf.ind.act": [
+        "ornaverit",
+        "ornarit"
+      ],
+      "1pl.futperf.ind.act": [
+        "ornaverimus",
+        "ornarimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "ornaveritis",
+        "ornaritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "ornaverint",
+        "ornarint"
+      ],
+      "1sg.perf.subj.act": [
+        "ornaverim",
+        "ornarim"
+      ],
       "2sg.perf.subj.act": "ornaveris",
-      "3sg.perf.subj.act": "ornaverit",
-      "1pl.perf.subj.act": "ornaverimus",
-      "2pl.perf.subj.act": "ornaveritis",
-      "3pl.perf.subj.act": "ornaverint",
-      "1sg.plup.subj.act": "ornavissem",
-      "2sg.plup.subj.act": "ornavisses",
-      "3sg.plup.subj.act": "ornavisset",
-      "1pl.plup.subj.act": "ornavissemus",
-      "2pl.plup.subj.act": "ornavissetis",
-      "3pl.plup.subj.act": "ornavissent",
-      "inf.perf.act": "ornavisse",
+      "3sg.perf.subj.act": [
+        "ornaverit",
+        "ornarit"
+      ],
+      "1pl.perf.subj.act": [
+        "ornaverimus",
+        "ornarimus"
+      ],
+      "2pl.perf.subj.act": [
+        "ornaveritis",
+        "ornaritis"
+      ],
+      "3pl.perf.subj.act": [
+        "ornaverint",
+        "ornarint"
+      ],
+      "1sg.plup.subj.act": [
+        "ornavissem",
+        "ornassem"
+      ],
+      "2sg.plup.subj.act": [
+        "ornavisses",
+        "ornasses"
+      ],
+      "3sg.plup.subj.act": [
+        "ornavisset",
+        "ornasset"
+      ],
+      "1pl.plup.subj.act": [
+        "ornavissemus",
+        "ornassemus"
+      ],
+      "2pl.plup.subj.act": [
+        "ornavissetis",
+        "ornassetis"
+      ],
+      "3pl.plup.subj.act": [
+        "ornavissent",
+        "ornassent"
+      ],
+      "inf.perf.act": [
+        "ornavisse",
+        "ornasse"
+      ],
       "inf.pres.pass": "ornari",
       "gerundive.nom.sg.masc": "ornandus",
       "gerundive.nom.sg.fem": "ornanda",

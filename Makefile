@@ -2,7 +2,7 @@
         latin-apparatus latin-spans latin-vocab latin-promote latin-clean-staging latin-seed latin-audit \
         latin-translate-ingest latin-scribe-book1 latin-stanza-editorial \
         latin-stanza-annotate latin-stanza-annotate-all latin-normalize-surface \
-        latin-wiktionary-fetch latin-wiktionary-cache latin-wiktionary-audit latin-macrons
+        latin-wiktionary-fetch latin-wiktionary-cache latin-wiktionary-audit latin-macrons latin-syncope
 
 install:
 	cd site/generator && npm install
@@ -102,6 +102,11 @@ latin-wiktionary-cache:
 
 latin-wiktionary-audit:
 	@python3 site/latin/audit_wiktionary.py
+
+# Add the A&G §181 contracted perfects (amāsse, audiit, nōrat) to every verb
+# card's perfect-system cells. Idempotent; wiktionary_regen.py applies it too.
+latin-syncope:
+	@python3 site/latin/syncope.py
 
 # Macronize every attested form per reading (content/_language/latin/macrons.json)
 # for the popover's pronunciation line. Re-run after changing tokens or cards.

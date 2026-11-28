@@ -80,42 +80,137 @@
       "3pl.imperf.subj.act": "indormirent",
       "2sg.pres.imp.act": "indormi",
       "2pl.pres.imp.act": "indormite",
-      "1sg.perf.ind.act": "indormivi",
-      "2sg.perf.ind.act": "indormivisti",
-      "3sg.perf.ind.act": "indormivit",
-      "1pl.perf.ind.act": "indormivimus",
-      "2pl.perf.ind.act": "indormivistis",
+      "1sg.perf.ind.act": [
+        "indormivi",
+        "indormii"
+      ],
+      "2sg.perf.ind.act": [
+        "indormivisti",
+        "indormiisti",
+        "indormisti"
+      ],
+      "3sg.perf.ind.act": [
+        "indormivit",
+        "indormiit"
+      ],
+      "1pl.perf.ind.act": [
+        "indormivimus",
+        "indormiimus"
+      ],
+      "2pl.perf.ind.act": [
+        "indormivistis",
+        "indormiistis",
+        "indormistis"
+      ],
       "3pl.perf.ind.act": [
         "indormiverunt",
-        "indormivere"
+        "indormivere",
+        "indormierunt",
+        "indormiere"
       ],
       "1sg.pres.ind.act": "indormio",
       "inf.pres.act": "indormire",
-      "1sg.plup.ind.act": "indormiveram",
-      "2sg.plup.ind.act": "indormiveras",
-      "3sg.plup.ind.act": "indormiverat",
-      "1pl.plup.ind.act": "indormiveramus",
-      "2pl.plup.ind.act": "indormiveratis",
-      "3pl.plup.ind.act": "indormiverant",
-      "1sg.futperf.ind.act": "indormivero",
+      "1sg.plup.ind.act": [
+        "indormiveram",
+        "indormieram"
+      ],
+      "2sg.plup.ind.act": [
+        "indormiveras",
+        "indormieras"
+      ],
+      "3sg.plup.ind.act": [
+        "indormiverat",
+        "indormierat"
+      ],
+      "1pl.plup.ind.act": [
+        "indormiveramus",
+        "indormieramus"
+      ],
+      "2pl.plup.ind.act": [
+        "indormiveratis",
+        "indormieratis"
+      ],
+      "3pl.plup.ind.act": [
+        "indormiverant",
+        "indormierant"
+      ],
+      "1sg.futperf.ind.act": [
+        "indormivero",
+        "indormiero"
+      ],
       "2sg.futperf.ind.act": "indormiveris",
-      "3sg.futperf.ind.act": "indormiverit",
-      "1pl.futperf.ind.act": "indormiverimus",
-      "2pl.futperf.ind.act": "indormiveritis",
-      "3pl.futperf.ind.act": "indormiverint",
-      "1sg.perf.subj.act": "indormiverim",
+      "3sg.futperf.ind.act": [
+        "indormiverit",
+        "indormierit"
+      ],
+      "1pl.futperf.ind.act": [
+        "indormiverimus",
+        "indormierimus"
+      ],
+      "2pl.futperf.ind.act": [
+        "indormiveritis",
+        "indormieritis"
+      ],
+      "3pl.futperf.ind.act": [
+        "indormiverint",
+        "indormierint"
+      ],
+      "1sg.perf.subj.act": [
+        "indormiverim",
+        "indormierim"
+      ],
       "2sg.perf.subj.act": "indormiveris",
-      "3sg.perf.subj.act": "indormiverit",
-      "1pl.perf.subj.act": "indormiverimus",
-      "2pl.perf.subj.act": "indormiveritis",
-      "3pl.perf.subj.act": "indormiverint",
-      "1sg.plup.subj.act": "indormivissem",
-      "2sg.plup.subj.act": "indormivisses",
-      "3sg.plup.subj.act": "indormivisset",
-      "1pl.plup.subj.act": "indormivissemus",
-      "2pl.plup.subj.act": "indormivissetis",
-      "3pl.plup.subj.act": "indormivissent",
-      "inf.perf.act": "indormivisse",
+      "3sg.perf.subj.act": [
+        "indormiverit",
+        "indormierit"
+      ],
+      "1pl.perf.subj.act": [
+        "indormiverimus",
+        "indormierimus"
+      ],
+      "2pl.perf.subj.act": [
+        "indormiveritis",
+        "indormieritis"
+      ],
+      "3pl.perf.subj.act": [
+        "indormiverint",
+        "indormierint"
+      ],
+      "1sg.plup.subj.act": [
+        "indormivissem",
+        "indormiissem",
+        "indormissem"
+      ],
+      "2sg.plup.subj.act": [
+        "indormivisses",
+        "indormiisses",
+        "indormisses"
+      ],
+      "3sg.plup.subj.act": [
+        "indormivisset",
+        "indormiisset",
+        "indormisset"
+      ],
+      "1pl.plup.subj.act": [
+        "indormivissemus",
+        "indormiissemus",
+        "indormissemus"
+      ],
+      "2pl.plup.subj.act": [
+        "indormivissetis",
+        "indormiissetis",
+        "indormissetis"
+      ],
+      "3pl.plup.subj.act": [
+        "indormivissent",
+        "indormiissent",
+        "indormissent"
+      ],
+      "inf.perf.act": [
+        "indormivisse",
+        "indormiisse",
+        "indormisse"
+      ],
       "inf.pres.pass": "indormiri",
       "gerundive.nom.sg.masc": "indormiendus",
       "gerundive.nom.sg.fem": "indormienda",
